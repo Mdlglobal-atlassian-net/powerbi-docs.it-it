@@ -1,0 +1,149 @@
+---
+title: Interazione con una mappa ArcGIS condivisa con l'utente
+description: 'Uso della mappa di ArcGis in visualizzazione di lettura '
+services: powerbi
+documentationcenter: 
+author: mihart
+manager: kfile
+backup: 
+editor: 
+tags: power bi, service, desktop, mobile
+featuredvideoid: 
+qualityfocus: monitoring
+qualitydate: 06/23/2017
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 09/23/2017
+ms.author: mihart
+ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 11/13/2017
+---
+# <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interazione con le mappe ArcGIS in Power BI
+Questo argomento è stato scritto dal punto di vista di una persona che *utilizza* una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando l'autore condivide una mappa ArcGIS con l'utente, è possibile interagire con essa in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione Mappe di ArcGIS di Esri](power-bi-visualization-arcgis.md).
+
+Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping di livello superiore, che non si limita alla presentazione di punti su una mappa. Le opzioni disponibili tra mappe di base, tipi di posizione, temi, stili per i simboli e livelli di riferimento aiutano a creare visualizzazioni mappa ricche di dettagli e di grande impatto visivo. La combinazione di livelli di dati autorevoli (ad esempio dati di censimento) su una mappa con l'analisi spaziale consente di ottenere informazioni più approfondite sui dati nella visualizzazione.
+
+> [!TIP]
+> GIS è l'acronimo per Geographic Information Science (Scienza delle informazioni geografiche).
+> 
+> 
+
+L'esempio illustrato corrisponde alla mappa ArcGIS creata nell'[esercitazione Mappe di ArcGIS di Esri](power-bi-visualization-arcgis.md), che prende in esame le vendite dello scorso anno in base alla città e usa una mappa base delle strade, simboli di bolle per la rappresentazione delle dimensioni e un livello di riferimento per il reddito familiare medio. La mappa contiene tre puntine e il raggio del tempo di guida (in viola).
+
+![](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri-new.png)
+
+> [!TIP]
+> Visitare la [pagina di Esri su Power BI](https://www.esri.com/powerbi) per trovare molti esempi e leggere testimonianze. Vedere quindi l'[introduzione a Mappe ArcGIS per Power BI](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) fornita da Esri.
+> 
+> 
+
+<br/>
+
+## <a name="user-consent"></a>Consenso dell'utente
+La prima volta che un collega condivide una mappa ArcGIS, Power BI visualizzerà un prompt dei comandi. Mappe ArcGIS per Power BI è fornito da [Esri](https://www.esri.com) e il relativo uso è soggetto alle condizioni e all'informativa sulla privacy di Esri. Gli utenti di Power BI che vogliono usare le mappe ArcGIS per gli oggetti visivi di Power BI devono confermare il proprio consenso nell'apposita finestra.
+
+## <a name="selection-tools"></a>Strumenti di selezione
+Mappe ArcGIS per Power BI consente tre modalità di selezione. È possibile selezionare un massimo di 250 punti dati alla volta.
+
+![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools2.png)
+
+![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png) Selezionare singoli punti dati.
+
+![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png) Disegna un rettangolo sulla mappa e seleziona i punti dati in essi contenuti. Usare CTRL per selezionare più aree rettangolari.
+
+![](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png) Consente di usare i limiti o i poligoni all'interno dei layer di riferimento per selezionare i punti dati in essi contenuti.
+
+<br/>
+
+## <a name="interacting-with-an-arcgis-map"></a>Interazione con una mappa ArcGIS
+Le funzionalità disponibili variano a seconda che si sia l'*autore* (persona che ha creato la mappa) o il *consumatore* (qualcuno che ha condiviso una mappa ArcGIS qualcuno con l'utente). Se si interagisce con una mappa ArcGIS come consumatore (cioè in [visualizzazione lettura](service-interact-with-a-report-in-reading-view.md)), ecco le azioni disponibili.
+
+* Come con altri tipi di visualizzazione, è possibile [aggiungere ai dashboard](service-dashboard-pin-tile-from-report.md), [visualizzare](service-reports-show-data.md) e/o [esportare i dati sottostanti](power-bi-visualization-export-data.md) e visualizzare la mappa in [modalità messa a fuoco](service-focus-mode.md) e a [schermo intero](service-fullscreen-mode.md).    
+* Espandere il riquadro **Filtri** per esplorare la mappa usando i filtri. Quando si chiude il report, i filtri che sono stati applicati non vengono salvati.    
+    ![](media/power-bi-visualizations-arcgis/power-bi-filter-newer.png)  
+* Se la mappa ha un livello di riferimento, selezionare le posizioni per visualizzare i dettagli in una descrizione comando. In questo caso, è stata selezionata Adams County e sono visualizzati i dati del livello di riferimento sul reddito familiare medio che l'autore ha aggiunto alla mappa.
+  
+    ![](media/power-bi-visualizations-arcgis/power-bi-reference-layer.png)  
+  
+    Anche in questo caso si ottiene un grafico. Selezionare una barra nel grafico per analizzare i dati. Vengono visualizzate 79 famiglie in Adams County che guadagnano almeno 200.000 USD.
+  
+    ![](media/power-bi-visualizations-arcgis/power-bi-tooltip-chart.png)
+  
+    Selezionare la freccia per visualizzare tutti i grafici aggiuntivi.
+* Passare il mouse sui simboli di posizione della mappa base per visualizzare i dettagli in una descrizione comando.     
+  ![](media/power-bi-visualizations-arcgis/power-bi-arcgis-hover.png)
+  
+  > [!TIP]
+  > Può essere necessario ingrandire per selezionare una posizione specifica.  Se invece le posizioni si sovrappongono, Power BI potrebbe presentare più descrizioni comando alla volta. Selezionare le frecce per spostarsi tra le descrizioni comandi
+  > 
+  > ![](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
+  > 
+  > 
+* Se l'autore ha aggiunto un livello Infografiche alla mappa ArcGIS, verranno visualizzati dati aggiuntivi nell'angolo superiore destro della mappa.  Ad esempio, in questo caso l'autore della mappa ha aggiunto "Children under 14" (Minori di 14 anni).
+  
+    ![](media/power-bi-visualizations-arcgis/power-bi-demographics.png)
+
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+Mappe ArcGIS per Power BI è disponibile nei seguenti servizi e applicazioni:
+
+<table>
+<tr><th>Servizio/App</th><th>Disponibilità</th></tr>
+<tr>
+<td>Power BI Desktop</td>
+<td>Sì</td>
+</tr>
+<tr>
+<td>Servizio Power BI (PowerBI.com)</td>
+<td>Sì</td>
+</tr>
+<tr>
+<td>App Power BI per dispositivi mobili</td>
+<td>Sì</td>
+</tr>
+<tr>
+<td>Pubblica sul Web di Power BI</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Power BI Embedded</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Incorporamento del servizio Power BI (PowerBI.com)</td>
+<td>No</td>
+</tr>
+</table>
+
+**La mappa ArcGIS non viene visualizzata**    
+In servizi o applicazioni in cui Mappe ArcGIS per Power BI non è disponibile, la visualizzazione verrà mostrata come oggetto visivo vuoto con il logo di Power BI.
+
+**Non tutti i miei indirizzi vengono visualizzati sulla mappa**    
+Quando si esegue la geocodifica, l'operazione viene eseguita solo per i primi 1500 indirizzi stradali. La geocodifica dei nomi o dei paesi non è soggetta al limite di 1500 indirizzi.
+
+**È previsto un addebito per l'uso di Mappe ArcGIS per Power BI?**
+
+Mappe ArcGIS per Power BI è disponibile per tutti gli utenti di Power BI senza alcun costo aggiuntivo. È un componente fornito da **Esri** e l'uso è soggetto alle condizioni e informativa sulla privacy fornite da **Esri** come indicato in precedenza in questo articolo.
+
+**Viene visualizzato un messaggio di errore che indica che la cache è piena**
+
+Si tratta di un bug in corso di risoluzione.  Nel frattempo, selezionare il collegamento visualizzato nel messaggio di errore per istruzioni su come cancellare la cache di Power BI.
+
+**È possibile visualizzare le proprie mappe ArcGIS offline?**
+
+No, Power BI richiede la connettività di rete per visualizzare le mappe.
+
+## <a name="next-steps"></a>Passaggi successivi
+Chiedere assistenza: **Esri** fornisce una [documentazione completa](https://go.microsoft.com/fwlink/?LinkID=828772) nel set di funzionalità di **Mappe ArcGIS per Power BI**.
+
+È possibile porre domande, ottenere informazioni aggiornate, segnalare problemi e trovare risposte nel [thread della community di Power BI correlato a **Mappe ArcGIS per Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
+
+Se si vuole proporre un miglioramento, inviare il suggerimento all'[elenco di idee di Power BI](https://ideas.powerbi.com).
+
+[Pagina del prodotto Mappe ArcGIS per Power BI](https://www.esri.com/powerbi)
+

@@ -1,0 +1,81 @@
+---
+title: Oggetti visivi degli indicatori KPI (esercitazione)
+description: Creare indicatori KPI in Power BI
+services: powerbi
+documentationcenter: 
+author: mihart
+manager: kfile
+backup: 
+editor: 
+tags: 
+featuredvideoid: xmja6EpqaO0
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 08/09/2017
+ms.author: mihart
+ms.openlocfilehash: 23b322c9fbc4c203a5b20aa45bb41c2cb6cb7f0f
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 11/13/2017
+---
+# <a name="kpi-visuals-tutorial"></a>Oggetti visivi degli indicatori KPI (esercitazione)
+Un indicatore di prestazioni chiave (KPI) è un segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. Per altre informazioni sugli indicatori KPI, vedere [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
+
+## <a name="when-to-use-a-kpi"></a>Quando usare un indicatore KPI
+Gli indicatori KPI rappresentano un'ottima scelta nelle seguenti situazioni:
+
+* per misurare lo stato di avanzamento, in modo da stabilire se si è avanti o indietro
+* per misurare la distanza da un obiettivo, e stabilire quindi quanto manca alla fine   
+
+## <a name="kpi-visual-requirements"></a>Requisiti per la visualizzazione degli indicatori KPI
+Un indicatore di prestazioni chiave (KPI) si basa su una misura specifica e consente di valutare il valore corrente e lo stato di una metrica rispetto a un target definito. Pertanto, gli indicatori KPI richiedono una misura *di base* che restituisca un valore e una misura o un valore *di destinazione*, una soglia o un obiettivo.
+
+> [!NOTE]
+> Attualmente, i set di dati degli indicatori KPI devono contenere valori obiettivo per i KPI. Se il set di dati non ne contiene uno, è possibile creare obiettivi aggiungendo un foglio di Excel con obiettivi al modello di dati o al file PBIX.
+> 
+> 
+
+## <a name="how-to-create-a-kpi"></a>Come creare un indicatore KPI
+Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati > Esempi > Esempio di analisi delle vendite al dettaglio**. Verrà creato un indicatore KPI che misura lo stato di avanzamento verso un obiettivo di vendita.
+
+In alternativa, il video seguente mostra come creare singoli oggetti visivi di metrica: misuratori, schede e indicatori KPI.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+
+1. Selezionare **Sales > Total Units This Year**.  Questo sarà l'indicatore.
+2. Aggiungere **Time > Month**.  Questi rappresenteranno la tendenza.
+3. IMPORTANTE: ordinare il grafico in base a **Month**. Dopo la conversione della visualizzazione in un indicatore KPI, non sono disponibili opzioni di ordinamento.
+4. Convertire l'oggetto visivo in un indicatore KPI selezionando l'icona dell'indicatore KPI nel riquadro di visualizzazione.
+   
+    ![](media/power-bi-visualization-kpi/power-bi-kpi-icon.png)
+5. Aggiungere un obiettivo. Aggiungere le vendite dell'ultimo anno come obiettivo. Trascinare **Total Units Last Year** nel campo **Obiettivi target**.
+   
+    ![](media/power-bi-visualization-kpi/power-bi-kpi.png)
+6. È facoltativamente possibile formattare l'indicatore KPI selezionando l'icona del rullo per aprire il riquadro formattazione.
+   
+   * **Indicatore**: controlla l'unità di visualizzazione dell'indicatore e i decimali.
+   * **Asse tendenza**: se impostato su **On**, l'asse di tendenza viene visualizzato come sfondo dell'oggetto visivo degli indicatori KPI.  
+   * **Obiettivi**: se impostato su **On**, l'oggetto visivo visualizza l'obiettivo e la distanza dall'obiettivo in percentuale.
+   * **Stato**: alcuni indicatori KPI sono considerati *migliori* per i valori superiori, altri sono considerati *migliori* per i valori più bassi. Ad esempio, gli utili piuttosto che i tempi di attesa. In genere un valore di utili più elevato è migliore rispetto a un valore maggiore del tempo di attesa, che di solito viene considerato un aspetto negativo. Questo interruttore consente la selezione del comportamento di un indicatore KPI. Il valore predefinito per la selezione dello stato indica che **un valore elevato è migliore**.
+7. Quando si dispone dell'indicatore KPI così come lo si desidera, [aggiungerlo a un dashboard](service-dashboard-pin-tile-from-report.md).
+
+Gli indicatori KPI sono disponibili anche nei dispositivi mobili, in modo che sia possibile essere sempre connessi al cuore della propria attività
+
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+* Se l'indicatore KPI non è simile al precedente, è possibile che sia necessario ordinare in base al mese. Poiché gli indicatori KPI non includono alcuna opzione di ordinamento, sarà necessario ordinare in base al mese *prima* di convertire la visualizzazione in un indicatore KPI.
+
+## <a name="next-steps"></a>Passaggi successivi
+[Report in Power BI](service-reports.md)
+
+[Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
+
+[Power BI - Concetti di base](service-basic-concepts.md)
+
+Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+
