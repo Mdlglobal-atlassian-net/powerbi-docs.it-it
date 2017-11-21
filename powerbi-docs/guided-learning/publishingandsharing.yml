@@ -1,0 +1,106 @@
+documentType: Tutorial
+title: Pubblicazione e condivisione
+metadata:
+  title: Pubblicazione e condivisione | Microsoft Power BI
+  description: "I dati sono più potenti quando condivisi con altri: è possibile apprendere come pubblicare, esportare, condividere e distribuire le informazioni sui dati di Power BI."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: introductiontodax
+  nextTutorialTitle: Introduzione a DAX
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "I dati sono più potenti quando condivisi con altri: è possibile apprendere come pubblicare, esportare, condividere e distribuire le informazioni sui dati di Power BI.\n"
+  ms.openlocfilehash: 2320f09340fc26313b06ffba3ae0bc6c23e05845
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 11/15/2017
+- title: Introduzione a pacchetti di contenuto, sicurezza e gruppi
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/5DABLeJzQYM?rel=0]
+
+
+    [!INCLUDE [](includes/6-0-intro-content-packs-groups.md)]
+- title: Pubblicare report di Power BI Desktop
+  durationInMinutes: 2
+  content: >
+    > [!Video https://www.youtube.com/embed/et_MLSL2sA8?rel=0]
+
+
+    [!INCLUDE [](includes/4-1-publish-reports.md)]
+- title: Stampare ed esportare dashboard e report
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/gauDt5ZV74I?rel=0]
+
+
+    [!INCLUDE [](includes/4-4g-print-and-export-dashboards-reports.md)]
+- title: Ripubblicazione e aggiornamento manuali dei dati
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/O60a1Acdpkc?rel=0]
+
+
+    [!INCLUDE [](includes/4-5-manually-republish-reports.md)]
+- title: Introduzione a Power BI per dispositivi mobili
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/Sfb_vDIb6Dc?rel=0]
+
+
+    [!INCLUDE [](includes/4-4a-power-bi-mobile.md)]
+- title: Creare gruppi in Power BI
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/-758Lnhj9DRo?rel=0]
+
+
+    [!INCLUDE [](includes/6-1-create-groups.md)]
+- title: Creare pacchetti di contenuto
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/8V2WP4nFCiA?rel=0]
+
+
+    [!INCLUDE [](includes/6-2-create-content-packs.md)]
+- title: Usare pacchetti di contenuto
+  durationInMinutes: 7
+  content: >
+    > [!Video https://www.youtube.com/embed/fE9R6ydo8yk?rel=0]
+
+
+    [!INCLUDE [](includes/6-3-use-content-packs.md)]
+- title: Aggiornare pacchetti di contenuto
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/nem2r4NpTyU?rel=0]
+
+
+    [!INCLUDE [](includes/6-4-update-content-pack.md)]
+- title: Integrare OneDrive for Business con Power BI
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/mxjakuVGgnU?rel=0]
+
+
+    [!INCLUDE [](includes/6-4a-integrate-onedrive-for-business.md)]
+- title: Pubblica sul Web
+  durationInMinutes: 5
+  content: >
+    > [!Video https://www.youtube.com/embed/jNPOaLP9hlc?rel=0]
+
+
+    [!INCLUDE [](includes/6-6-publish-to-web.md)]
+- title: Completamento dell'apprendimento guidato di Power BI
+  durationInMinutes: 4
+  content: >
+    [!INCLUDE [](includes/6-5-guided-learning-completion.md)]
+- content: "La sezione **Pubblicazione e condivisione** dell'apprendimento guidato di Power BI è stata completata.\0"

@@ -1,0 +1,66 @@
+documentType: Tutorial
+title: Introduzione a DAX
+metadata:
+  title: Introduzione a DAX | Microsoft Power BI
+  description: Informazioni su come creare e utilizzare DAX fornite da un esperto.
+  audience: Business User
+  level: Beginner
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: >
+    Informazioni su come creare e utilizzare DAX fornite da un esperto.
+  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 11/15/2017
+- title: Introduzione a DAX
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/lRhOJP3bZCo?rel=0]
+
+
+    [!INCLUDE [](includes/7-1-intro-to-dax.md)]
+- title: Tipi di calcolo in DAX
+  durationInMinutes: 22
+  content: >
+    > [!Video https://www.youtube.com/embed/BVlijY68wp8?rel=0]
+
+
+    [!INCLUDE [](includes/7-2-dax-calculation-types.md)]
+- title: Funzioni DAX
+  durationInMinutes: 17
+  content: >
+    > [!Video https://www.youtube.com/embed/siTnzquk1SU?rel=0]
+
+
+    [!INCLUDE [](includes/7-3-dax-functions.md)]
+- title: Uso di variabili nelle espressioni DAX
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/kd4tgKxhRTU?rel=0]
+
+
+    [!INCLUDE [](includes/7-4-dax-expressions.md)]
+- title: Relazioni tra tabelle e DAX
+  durationInMinutes: 13
+  content: >
+    > [!Video https://www.youtube.com/embed/yec1f5A08mc?rel=0]
+
+
+    [!INCLUDE [](includes/7-5-table-relationships-and-dax.md)]
+- title: Tabelle e filtri DAX
+  durationInMinutes: 32
+  content: >
+    > [!Video https://www.youtube.com/embed/6eAoDI4VDFs?rel=0]
+
+
+    [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
+- content: "La sezione **Introduzione a DAX** dell'apprendimento guidato di Microsoft Power BI è stata completata.\0"
