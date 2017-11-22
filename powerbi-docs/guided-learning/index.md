@@ -2,11 +2,11 @@
 title: Apprendimento guidato di Microsoft Power BI
 description: "Inizia il tuo percorso di apprendimento con questa raccolta di corsi in sequenza e scopri le funzionalità complete e potenti di Microsoft Power BI."
 layout: LandingPage
-ms.openlocfilehash: 0d56893482b155a9f0b5e12ccd105258959e8a6b
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c0c9b77489731ff2107135f8720b14d320d11e52
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 <div id="main" class="v2">
     <div class="container">

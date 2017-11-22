@@ -12,10 +12,6 @@
           href: service-free-vs-pro.md
         - name: Origini dati per Power BI
           href: service-get-data.md
-        - name: Video di Power BI
-          href: videos.md
-        - name: Webinar di Power BI
-          href: webinars.md
         - name: La nuova esperienza di navigazione di Power BI
           href: service-the-new-power-bi-experience.md
         - name: 10 suggerimenti per chiedere assistenza
@@ -294,7 +290,7 @@
           href: service-cortana-troubleshoot.md
     - name: Condividere il lavoro
       items:
-        - name: Come si condividono i dashboard e i report e in che modo ci si collabora?
+        - name: Come si condividono i dashboard e i report e in che modo si collabora?
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: Installare e usare le app con dashboard e report
           href: service-install-use-apps.md
@@ -406,10 +402,6 @@
           href: power-bi-visualization-export-data.md
         - name: Modificare il tipo di visualizzazione in un report di Power BI
           href: power-bi-report-change-visualization-type.md
-        - name: Aggiungere una visualizzazione personalizzata a un report di Power BI
-          href: power-bi-report-add-custom-visual.md
-        - name: Scaricare e usare oggetti visivi personalizzati da Office Store
-          href: service-custom-visuals-office-store.md
         - name: Introduzione alla formattazione dei colori e alle proprietà degli assi
           href: service-getting-started-with-color-formatting-and-axis-properties.md
         - name: Suggerimenti e consigli per la formattazione dei colori in Power BI
@@ -444,7 +436,7 @@
           href: power-bi-visualization-customize-x-axis-and-y-axis.md
         - name: 'Esercitazione: Grafici ad anello in Power BI'
           href: power-bi-visualization-doughnut-charts.md
-        - name: 'Esercitazione: Mappe colorate (Choropleth) in Power BI'
+        - name: 'Esercitazione: Mappe colorate (cloroplete) in Power BI'
           href: power-bi-visualization-filled-maps-choropleths.md
         - name: 'Esercitazione: Grafici a imbuto in Power BI'
           href: power-bi-visualization-funnel-charts.md
@@ -526,7 +518,7 @@
           href: service-gateway-deployment-guidance.md
         - name: Gateway dati locale
           href: service-gateway-onprem.md
-        - name: Analisi approfondita del gateway dati locale
+        - name: Gateway dati locale - Approfondimento
           href: service-gateway-onprem-indepth.md
         - name: Domande frequenti sul gateway dati locale
           href: service-gateway-onprem-faq.md
@@ -556,7 +548,7 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Acquisto di Power BI Pro
           href: service-admin-purchasing-power-bi-pro.md
-        - name: Governance di Power BI e approcci alla distribuzione
+        - name: Strategie di governance e distribuzione in Power BI
           href: service-admin-governance.md
         - name: Sicurezza di Power BI
           href: service-admin-power-bi-security.md
@@ -572,6 +564,8 @@
           href: service-admin-portal.md
         - name: Controllo di Power BI
           href: service-admin-auditing.md
+        - name: Utilizzo di Azure AD B2B
+          href: service-admin-azure-ad-b2b.md
         - name: Trovare utenti che hanno eseguito l'accesso
           href: service-admin-access-usage.md
         - name: Sicurezza a livello di riga con Power BI
@@ -582,7 +576,7 @@
           href: service-admin-power-bi-archived-workspace.md
         - name: Impossibile aggiungere Power BI al partner O365
           href: service-admin-syndication-partner.md
-        - name: Chiusura dell'account di Power BI
+        - name: Chiusura dell'account Power BI
           href: service-admin-closing-your-account.md
         - name: Configurare app per dispositivi mobili con Intune
           href: service-admin-mobile-intune.md
@@ -676,7 +670,7 @@
           href: desktop-connect-azure-consumption-insights.md
         - name: Usare SAP HANA in Power BI Desktop
           href: desktop-sap-hana.md
-        - name: Dati tabulari di SQL Server Analysis Services in Power BI Desktop
+        - name: Dati tabulari di Analysis Services in Power BI Desktop
           href: desktop-analysis-services-tabular-data.md
         - name: Usare DirectQuery in Power BI Desktop
           href: desktop-use-directquery.md
@@ -692,7 +686,7 @@
           href: desktop-directquery-sap-hana.md
         - name: Considerare l'impostazione di integrità referenziale in Power BI Desktop
           href: desktop-assume-referential-integrity.md
-        - name: 'Esercitazione: Sicurezza dinamica a livello di righe con Analysis Services in modalità tabulare'
+        - name: 'Esercitazione: Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services'
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: DirectQuery per database Oracle e Teradata
           href: desktop-directquery-for-oracle-teradata.md
@@ -758,8 +752,6 @@
           href: desktop-insights.md
         - name: Segnalibri in Power BI
           href: desktop-bookmarks.md
-        - name: Aggiungere un oggetto visivo personalizzato a un report (Desktop)
-          href: power-bi-custom-visuals-use.md
         - name: Usare i temi dei report
           href: desktop-report-themes.md
         - name: Usare le misure rapide
@@ -772,7 +764,7 @@
           href: desktop-grouping-and-binning.md
         - name: Grafici a nastri
           href: desktop-ribbon-charts.md
-        - name: Usare il nuovo oggetto visivo per la matrice
+        - name: Usare il nuovo oggetto visivo matrice
           href: desktop-matrix-visual.md
         - name: Creare oggetti visivi di Power BI usando R
           href: desktop-r-visuals.md
@@ -794,7 +786,7 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Usare il filtro dei dati per intervalli numerici
           href: desktop-slicer-numeric-range.md
-        - name: Uso del filtro dei dati per la data relativa
+        - name: Usare il filtro dei dati per la data relativa
           href: desktop-slicer-filter-date-range.md
         - name: Creare schede di risposta di Power BI personalizzate per Cortana
           href: service-cortana-answer-cards.md
@@ -828,7 +820,7 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Risoluzione dei problemi
       items:
-        - name: Risolvere problemi di importazione dei database di Access e fogli di calcolo XLS in Power BI Desktop e Power Query
+        - name: Risolvere problemi di importazione dei database di Access e dei fogli di calcolo di Excel in Power BI Desktop e Power Query
           href: desktop-access-database-errors.md
         - name: Risolvere i problemi relativi all'avvio di Power BI Desktop
           href: desktop-error-launching-desktop.md
@@ -924,7 +916,7 @@
       items:
         - name: Quali operazioni possono eseguire gli sviluppatori con Power BI?
           href: developer/what-can-you-do.md
-        - name: Cosa si può fare con l'API Power BI
+        - name: Cosa si può fare con l'API di Power BI?
           href: developer/overview-of-power-bi-rest-api.md
     - name: Incorporamento
       items:
@@ -964,8 +956,6 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Esaminare oggetti visivi personalizzati per la sicurezza e la privacy
           href: service-custom-visuals-review-for-security-and-privacy.md
-        - name: Pubblicare oggetti visivi personalizzati in Office Store
-          href: developer/office-store.md
         - name: Ottenere la certificazione di un oggetto visivo personalizzato
           href: power-bi-custom-visuals-certified.md
     - name: Eseguire il push dei dati in un dashboard
@@ -990,9 +980,9 @@
           href: developer/service-content-pack-overview.md
         - name: Creazione di pacchetti di contenuto modello
           href: developer/template-content-pack-authoring.md
-        - name: Test dei pacchetti di contenuto modello
+        - name: Test di pacchetti di contenuto modello
           href: developer/template-content-pack-testing.md
-        - name: Esperienze dei pacchetti di contenuto modello
+        - name: Esperienze di pacchetti di contenuto modello
           href: developer/template-content-pack-experience.md
     - name: Riferimenti
       items:
@@ -1104,6 +1094,8 @@
           href: report-server/quickstart-embed.md
     - name: Riferimento
       items:
+        - name: API REST
+          href: report-server/rest-api.md
         - name: WMI
           href: 'https://go.microsoft.com/fwlink/?linkid=848719'
         - name: API SOAP
@@ -1114,5 +1106,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
 - name: Risorse
   items:
+    - name: Video di Power BI
+      href: videos.md
+    - name: Webinar di Power BI
+      href: webinars.md
     - name: White paper
       href: whitepapers.md
