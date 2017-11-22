@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: mihart
-ms.openlocfilehash: 42c0e7ad17f9cfd7b4a19862a33c382a608fef3f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="sales--marketing-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di Vendita e marketing per Power BI
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di Vendita e marketing per Power BI
 L' **esempio di analisi di vendite e marketing** contiene un dashboard e un report per una società di produzione fittizia denominata VanArsdel Ltd. Questo dashboard è stato creato dal responsabile marketing (CMO) di VanArsdel per tenere sotto controllo il settore, la quota di mercato, i volumi di produzione, le vendite e la valutazione della società.
 
 VanArsdel ha diversi concorrenti, ma è leader di mercato per il settore in cui opera. Il CMO vuole aumentare la quota di mercato e scoprire nuove opportunità di crescita. Tuttavia, per qualche motivo, la quota di mercato di VanArsdel ha iniziato a ridursi con cali significativi nel mese di giugno.

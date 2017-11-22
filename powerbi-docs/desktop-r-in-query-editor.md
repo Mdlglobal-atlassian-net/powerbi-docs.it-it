@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>Uso di R nell'Editor di query
 È possibile usare **R**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di R nell'**Editor di query** consente di pulire i dati con R ed eseguire operazioni di data shaping e analisi in set di dati, tra cui completamento di dati mancanti, stime e clustering. **R** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.
@@ -56,7 +56,7 @@ Per illustrare l'uso di **R** nell'**Editor di query** si userà un esempio trat
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> Per il corretto funzionamento del codice script precedente, è necessario che nell'ambiente R sia installata la libreria *mice*. Per installare mice, eseguire quanto segue nell'installazione di R: |      > install.packages('mice')
+   > Per il corretto funzionamento del codice script precedente, è necessario che nell'ambiente R sia installata la libreria *mice*. Per installare mice, eseguire quanto segue nell'installazione di R: |      > install.packages('mice')
    > 
    > 
    
@@ -72,7 +72,6 @@ Per illustrare l'uso di **R** nell'**Editor di query** si userà un esempio trat
    
    A questo punto viene visualizzata una nuova colonna nell'area **Campi** denominata *completedValues*. Si noti che alcuni elementi dati risultano mancanti, ad esempio nelle righe 15 e 18. Nella prossima sezione si vedrà come questo problema viene gestito in R.
    
-   Notare
 
 Con appena cinque righe di script R, l'**Editor di query** ha inserito i valori mancanti con un modello predittivo.
 

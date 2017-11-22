@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro analisi di simulazione per visualizzare le variabili in Power BI Desktop
 A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile creare variabili di **analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori principali nei report.
@@ -30,7 +30,7 @@ A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile cr
 
 Il parametro **Analisi di simulazione** è disponibile nella scheda **Creazione di modelli** in **Power BI Desktop**. Verrà visualizzata una finestra di dialogo in cui è possibile configurare il parametro.
 
-### <a name="creating-a-what-if-parameter"></a>Creazione di un parametro Analisi di simulazione
+## <a name="creating-a-what-if-parameter"></a>Creazione di un parametro Analisi di simulazione
 Per creare un parametro **Analisi di simulazione**, selezionare il pulsante **Analisi di simulazione** nella scheda **Creazione di modelli** in **Power BI Desktop**. Nell'immagine seguente è stato creato un parametro denominato *Discount percentage* con il tipo di dati impostato su *Numero decimale.* Il valore *Minimo* è zero e il valore *Massimo* è 0,50 (50%). L'*Incremento* è stato impostato su 0,05, ovvero il 5%. Si tratta dei valori in base a cui verrà regolato il parametro quando si interagisce con esso in un report.
 
 ![](media/desktop-what-if/what-if_02.png)

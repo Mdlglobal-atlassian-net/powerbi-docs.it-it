@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1ef54451275b1c7fe1e84c330a4bea95f0bca820
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 Questo articolo illustra alcuni problemi comuni che possono verificarsi quando si usa il **gateway dati locale**.
@@ -170,10 +170,6 @@ Questo problema può essere dovuto ad alcuni scenari diversi.
 2. L'account non è elencato nella scheda **Utenti** dell'origine dati all'interno della configurazione del gateway. È necessario chiedere all'amministratore del gateway di essere aggiunti all'elenco.
 3. All'interno del file di Power BI Desktop sono presenti più origini dati, ma non tutte configurate con il gateway. È necessario definire ogni origine dati con il gateway in modo da visualizzarlo in Aggiornamento pianificato.
 
-> [!WARNING]
-> Se una delle origini dati richiede l'autenticazione OAuth, non sarà possibile configurarla con il gateway di dati locale. L'autenticazione OAuth non è attualmente supportata dal gateway dati locale. Per configurare l'aggiornamento pianificato è necessario rimuovere l'origine dati che richiede l'autenticazione OAuth da Power BI Desktop.
-> 
-> 
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Errore: La quantità di dati non compressi ricevuti nel client del gateway ha superato il limite.
 La limitazione esatta è di 10 GB di dati non compressi per ogni tabella. Se si verifica questo problema, ci sono buone opzioni per ottimizzare ed evitare il problema. In particolare, aiuta ridurre l'uso di valori stringa lunghi e molto ripetitivi, usando invece una chiave normalizzata o rimuovendo la colonna (se non usata).

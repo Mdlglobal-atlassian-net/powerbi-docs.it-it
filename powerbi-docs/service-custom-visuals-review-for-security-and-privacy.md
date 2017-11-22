@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>Esaminare oggetti visivi personalizzati per la sicurezza e la privacy
 Prima di abilitare un oggetto visivo personalizzato è necessario esaminarlo per la sicurezza e la privacy e assicurarsi che si adatti agli standard della propria organizzazione.
@@ -102,9 +102,6 @@ Il codice **JavaScript** o **TypeScript** può contenere rischi per la sicurezza
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni in Power BI](power-bi-report-visualizations.md)  
 [Visualizzazioni personalizzate in Power BI](power-bi-custom-visuals.md)  
-[Scaricare e usare oggetti visivi personalizzati da Office Store](service-custom-visuals-office-store.md)  
-[Aggiungere una visualizzazione personalizzata a un report (Power BI Desktop)](power-bi-custom-visuals-use.md)  
-[Aggiungere una visualizzazione personalizzata a un report (Servizio Power BI)](power-bi-report-add-custom-visual.md)  
 [Pubblicare oggetti visivi personalizzati in Office Store](developer/office-store.md)  
 [Introduzione agli strumenti di sviluppo per oggetti visivi personalizzati](service-custom-visuals-getting-started-with-developer-tools.md)  
 [Come certificare un oggetto visivo personalizzato](power-bi-custom-visuals-certified.md)    

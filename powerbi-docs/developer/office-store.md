@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/20/2017
 ms.author: asaxton
-ms.openlocfilehash: ab2d4518fbc16c857f6c2e4c3257f3b82e02e1c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="publish-custom-visuals-to-the-office-store"></a>Pubblicare oggetti visivi personalizzati in Office Store
 Informazioni su come pubblicare l'oggetto visivo personalizzato in Office Store in modo che altri utenti possano individuarlo e usarlo.
@@ -133,7 +133,6 @@ Dopo aver creato l'oggetto visivo, è possibile ottenere facoltativamente la cer
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Scaricare e usare oggetti visivi personalizzati da Office Store](../service-custom-visuals-office-store.md)  
 [Visualizzazioni in Power BI](../power-bi-report-visualizations.md)  
 [Visualizzazioni personalizzate in Power BI](../power-bi-custom-visuals.md)  
 [*Certificare* un oggetto visivo personalizzato](../power-bi-custom-visuals-certified.md)
