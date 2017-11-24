@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Campionamento ad alta densità nei grafici a dispersione di Power BI
 A partire dalla versione di settembre 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora il modo in cui i grafici a dispersione rappresentano i dati ad alta densità.
@@ -73,7 +73,7 @@ In alcuni casi non è possibile applicare il **campionamento ad alta densità** 
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Attivazione del **campionamento ad alta densità** per un grafico a dispersione
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Attivazione del campionamento ad alta densità per un grafico a dispersione
 Per attivare il **campionamento ad alta densità**, selezionare un grafico a dispersione e quindi andare al riquadro **Formattazione** ed espandere la scheda **Generale**. Nella parte inferiore di tale scheda è disponibile un dispositivo di scorrimento denominato **Campionamento ad alta densità**. Per attivarlo, scorrere verso **Attiva**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: cea38a880ac67208e3b153d9259fd563a3bb8d50
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Panoramica delle query in Power BI Desktop
 Con **Power BI Desktop** è possibile connettersi a un mondo di dati, creare report efficaci e fondamentali e condividere il proprio impegno con altri utenti, che potranno quindi basarsi sul lavoro già svolto ed espandere le proprie attività di business intelligence.
@@ -66,7 +66,7 @@ Ecco come viene visualizzato l'**editor di query** dopo aver stabilito una conne
 
 Nelle sezioni seguenti verranno ora esaminate ciascuna di queste quattro aree: la barra multifunzione, il riquadro query, la visualizzazione dei dati e il riquadro Impostazioni query.
 
-## <a name="the-query-ribbon"></a>Barra multifunzione Query
+## <a name="the-query-ribbon"></a>Barra multifunzione query
 La barra multifunzione nell'**editor di query** è costituita da quattro schede: **Home**, **Trasforma**, **Aggiungi colonna** e **Visualizza**.
 
 La scheda **Home** contiene le attività di query comuni, tra cui il primo passaggio in qualsiasi query, cioè **Recupera dati**. La figura seguente mostra la barra multifunzione **Home**.  
@@ -100,7 +100,7 @@ Il riquadro a sinistra contiene il numero di query attive, oltre al nome della q
 
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
-## <a name="the-center-data-pane"></a>Riquadro centrale (Dati)
+## <a name="the-center-data-pane"></a>Riquadro centrale (dati)
 Nel riquadro centrale, o riquadro Dati, vengono visualizzati i dati della query selezionata. È qui che viene eseguita gran parte dell'attività della visualizzazione Query.
 
 Nella figura seguente viene visualizzata la connessione dati Web stabilita in precedenza, con la colonna **Overall score** selezionata; fare clic con il pulsante destro del mouse sulla relativa intestazione per visualizzare le voci di menu disponibili. Si noti che molte di queste voci del menu di scelta rapida corrispondono ai pulsanti disponibili nelle schede della barra multifunzione.  
@@ -123,7 +123,7 @@ Nel riquadro **Impostazioni query** , è possibile rinominare, eliminare o riord
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
 ## <a name="the-advanced-editor"></a>Editor avanzato
-Se si vuole visualizzare il codice che Query crea a ogni passaggio o si vuole creare un codice di shaping personalizzato, è possibile usare l' **Editor avanzato**. Per avviare l'editor avanzato, selezionare **Visualizza** dalla barra multifunzione, quindi selezionare **Editor avanzato**. Viene visualizzata una finestra, che mostra il codice Query esistente.  
+Se si vuole visualizzare il codice che Query crea a ogni passaggio o si vuole creare un codice di shaping personalizzato, è possibile usare l' **Editor avanzato**. Per avviare l'editor avanzato, selezionare **Visualizza** dalla barra multifunzione, quindi selezionare **Editor avanzato**. Verrà visualizzata una finestra che mostra il codice della query esistente.  
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 È possibile modificare direttamente il codice nella finestra **Editor avanzato** . Per chiudere la finestra, selezionare il pulsante **Fatto** o **Annulla** .  

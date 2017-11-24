@@ -17,22 +17,22 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f7e7f0df4791fb4f9af67c4a5d885aa0e830f7df
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
 
-Le attività comuni di Query illustrate in questo documento sono:
+Le attività di query comuni illustrate in questo documento sono:
 
 * Connettersi ai dati
 * Effettuare il data shaping e combinare i dati
 * Raggruppare le righe
 * Trasformare colonne tramite Pivot
-* Creare di colonne personalizzate
+* Creare colonne personalizzate
 * Eseguire query su formule
 
 Per completare queste attività, verranno usate alcune connessioni dati. I dati sono disponibili per il download o la connessione, nel caso in cui si voglia provare a eseguire autonomamente queste attività.
@@ -122,7 +122,7 @@ Quando si fa clic su **OK**, Query visualizza la tabella in base alle istruzioni
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
-## <a name="create-custom-columns"></a>Creare di colonne personalizzate
+## <a name="create-custom-columns"></a>Creare colonne personalizzate
 Nell'Editor di query è possibile creare formule che agiscono su più colonne della tabella e inserire i risultati di tali formule in una nuova colonna personalizzata. Con l'Editor di query creare colonne personalizzate è semplicissimo.
 
 Nell'Editor di query selezionare **Aggiungi colonna personalizzata** nella scheda **Aggiungi colonna** della barra multifunzione.

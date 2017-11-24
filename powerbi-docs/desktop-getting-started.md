@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bf1ac9f953dc00422e65f84d25f74bfa54c05628
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
@@ -111,7 +111,7 @@ Nella sezione successiva i dati verranno modificati per essere adattati alle esi
 ## <a name="shape-and-combine-data"></a>Effettuare il data shaping e combinare i dati
 Dopo la connessione a un'origine dati, sarà necessario modificare i dati per adattarli alle esigenze specifiche. In alcuni casi per modifica si intende la *trasformazione* dei dati, ad esempio rinominando colonne o tabelle, cambiando il testo in numeri, rimuovendo righe, impostando la prima riga come intestazione e così via.
 
-L'Editor di query di Power BI Desktop fa ampio uso dei menu di scelta rapida e le attività sono inoltre disponibili sulla barra multifunzione. La maggior parte delle opzioni che è possibile selezionare sulla barra multifunzione **Trasforma** è disponibile anche facendo clic con il pulsante destro del mouse su un elemento, ad esempio una colonna, e scegliendo un'opzione dal menu visualizzato.
+L'Editor di query di Power BI Desktop fa ampio uso dei menu di scelta rapida e le attività sono inoltre disponibili sulla barra multifunzione. La maggior parte delle opzioni che è possibile selezionare nella scheda **Trasforma** della barra multifunzione è disponibile anche facendo clic con il pulsante destro del mouse su un elemento, ad esempio una colonna, e scegliendo un'opzione dal menu visualizzato.
 
 ## <a name="shape-data"></a>Data shaping
 Quando si eseguono operazioni di data shaping nell'**Editor di query**, si forniscono istruzioni dettagliate, eseguite automaticamente dall'**Editor di query**, che permettono di modificare i dati durante la fase di caricamento e di presentazione nell'**Editor di query**. L'origine dati originale non subisce alcuna modifica. Viene modificata, o sottoposta a *data shaping*, solo questa vista specifica dei dati.
@@ -182,8 +182,8 @@ Selezionare **Modifica**, quindi:
 
 * *Usare la prima riga come intestazione* : siccome le prime tre righe sono state rimosse, la prima riga attuale corrisponde all'intestazione desiderata.
 
->[!NOTE]
->È utile notare che la *sequenza* dei passaggi applicati nell'**Editor di query** è importante e può influire sul data shaping. È anche importante valutare l'eventuale impatto di un passaggio su un passaggio successivo. Se si rimuove un passaggio in **Passaggi applicati**, i passaggi successivi potrebbero non dare gli stessi risultati previsti inizialmente, a causa dell'impatto della sequenza di passaggi della query.
+    >[!NOTE]
+    >È utile notare che la *sequenza* dei passaggi applicati nell'**Editor di query** è importante e può influire sul data shaping. È anche importante valutare l'eventuale impatto di un passaggio su un passaggio successivo. Se si rimuove un passaggio in **Passaggi applicati**, i passaggi successivi potrebbero non dare gli stessi risultati previsti inizialmente, a causa dell'impatto della sequenza di passaggi della query.
 
 * *Rinominare le colonne e la tabella stessa* : come sempre, sono disponibili un paio di modi per rinominare una colonna ed è possibile scegliere il metodo preferito.
 

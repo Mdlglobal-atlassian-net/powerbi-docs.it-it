@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -30,6 +30,7 @@ Quando si caricano i dati in Power BI Desktop, verrà eseguito un tentativo di c
 
 Questo aspetto è importante perché alcune funzioni DAX hanno speciali requisiti per i tipi di dati. Sebbene in molti casi DAX converte implicitamente i dati in automatico, ci sono altri casi in cui tale conversione non viene eseguita.  Ad esempio, se una funzione DAX richiede il tipo di dati Data e il tipo di dati della colonna è Testo, la funzione DAX non funzionerà correttamente.  Per questo motivo è importante ma anche utile usare il tipo di dati corretto per una colonna. Le conversioni implicite vengono descritte più avanti in questo articolo.
 
+## <a name="determine-and-specify-a-columns-data-type"></a>Determinare e specificare il tipo di dati di una colonna
 In Power BI Desktop è possibile determinare e specificare il tipo di dati di una colonna nell'Editor di query oppure nella Vista dati o Visualizzazione report.
 
 **Tipi di dati nell'Editor di query**

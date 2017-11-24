@@ -17,14 +17,14 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/27/2017
 ms.author: mihart
-ms.openlocfilehash: 338f45ec7aa4564dfd17678b5c5296a08c078334
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cfd085913ea1ef2cf08942ca4570f98eba34a3d4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi delle vendite al dettaglio
-## <a name="about-the-retail-analysis-sample"></a>Informazioni sull'esempio di analisi delle vendite al dettaglio
+
 Questo dashboard di esempio del settore, unitamente al report sottostante, consentono di analizzare i dati delle vendite al dettaglio relativi ad articoli venduti in più negozi e in più zone. Grazie alle metriche è possibile confrontare le prestazioni dell'anno corrente con quelle dell'anno precedente in diverse aree, tra cui vendite, unità, profitto lordo e scostamento, oltre ad analizzare i nuovi negozi. Si tratta di dati reali messi a disposizione da obviEnce ([www.obvience.com](http://www.obvience.com)) che sono stati resi anonimi.
 
 È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel) per questo esempio](http://go.microsoft.com/fwlink/?LinkId=529778).
@@ -96,7 +96,7 @@ A questo punto verrà eseguita un'analisi più dettagliata delle prestazioni del
    Osservare che la categoria femminile ha avuto complessivamente prestazioni molto peggiori, quasi ogni mese rispetto all'anno precedente.
 4. Selezionare di nuovo la bolla per cancellare il filtro.
 
-## <a name="try-out-the-slicer"></a>Provare il filtro dei dati.
+## <a name="try-out-the-slicer"></a>Provare il filtro dei dati
 Esaminiamo le prestazioni di ogni specifica zona.
 
 1. Selezionare Allan Guinot nel filtro dei dati in alto a sinistra.
@@ -134,7 +134,7 @@ L'ultima area da esplorare è la crescita, cioè i nuovi negozi aperti quest'ann
 
 Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di non salvare le modifiche, ma, se le si salva, è sempre possibile scegliere Recupera dati per ottenere una nuova copia di questo esempio.
 
-## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
+## <a name="connect-to-your-data"></a>Connettersi ai dati
 La presentazione ha tentato di mostrare il modo in cui i dashboard, la casella Domande e risposte e i report di Power BI possono fornire analisi approfondite dei dati del settore della vendita al dettaglio. È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Passaggi successivi

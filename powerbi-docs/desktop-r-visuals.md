@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 68df3ee83a8a9b8268cbced98830a467066add92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f372903886ab8f92e6954b5bdb370e7f48c204eb
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Creare oggetti visivi di Power BI usando R
 Con **Power BI Desktop**, è possibile usare **R** per visualizzare i dati.
@@ -30,7 +30,7 @@ Con **Power BI Desktop**, è possibile usare **R** per visualizzare i dati.
 **Power BI Desktop** non include, distribuisce o installa il motore **R**. Per eseguire gli script R in **Power BI Desktop**, è necessario installare **R** nel computer locale. È possibile scaricare e installare **R** gratuitamente da molte posizioni, tra cui la [pagina di download di Revolution Open](https://mran.revolutionanalytics.com/download/) e il [repository CRAN](https://cran.r-project.org/bin/windows/base/). La versione corrente dello script R in **Power BI Desktop** supporta i caratteri Unicode oltre agli spazi (caratteri vuoti) nel percorso di installazione.
 
 ## <a name="enable-r-visuals"></a>Abilitare gli oggetti visivi R
-1. Per abilitare gli oggetti visivi R, selezionare **File > Opzioni e impostazioni > Opzioni** e, nella pagina **Opzioni** visualizzata, verificare che l'installazione locale di R sia specificata nella sezione **Script R** della finestra **Opzioni**, come illustrato nella figura seguente. Nella figura seguente, il percorso dell’installazione locale di R è **C:\Program Files\R\R-3.2.0** e questo percorso è indicato in modo esplicito nella casella di testo. Assicurarsi che il percorso visualizzato rifletta correttamente l'installazione locale di R che **Power BI Desktop** dovrà usare.
+Per abilitare gli oggetti visivi R, selezionare **File > Opzioni e impostazioni > Opzioni** e, nella pagina **Opzioni** visualizzata, verificare che l'installazione locale di R sia specificata nella sezione **Script R** della finestra **Opzioni**, come illustrato nella figura seguente. Nella figura seguente, il percorso dell’installazione locale di R è **C:\Program Files\R\R-3.2.0** e questo percorso è indicato in modo esplicito nella casella di testo. Assicurarsi che il percorso visualizzato rifletta correttamente l'installazione locale di R che **Power BI Desktop** dovrà usare.
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -42,18 +42,18 @@ Dopo aver specificato l'installazione di R, è possibile iniziare la creazione d
    ![](media/desktop-r-visuals/r-visuals-3.png)
 2. Quando si aggiunge un oggetto visivo R a un report, **Power BI Desktop** esegue queste operazioni:
    
-   a) Un'immagine segnaposto dell’oggetto visivo R viene visualizzata nell'area di disegno report.
+   - Un'immagine segnaposto dell'oggetto visivo R viene visualizzata nell'area di disegno del report.
    
-   b) L’ **editor di script R** viene visualizzato nella parte inferiore del riquadro centrale.
+   - L'**editor di script R** viene visualizzato nella parte inferiore del riquadro centrale.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 3. Successivamente, aggiungere i campi da usare nello script R nella sezione **Valori** dell’area **Campi**, esattamente come si farebbe con qualsiasi altro oggetto visivo **Power BI Desktop**. Solo i campi aggiunti nell’area **Campi** sono disponibili per lo script R ed è possibile aggiungere nuovi campi e rimuovere i campi non necessari dall’area **Campi** anche durante l'utilizzo degli script R nell’**editor di script R di Power BI Desktop**. **Power BI Desktop** rileva automaticamente i campi aggiunti o rimossi.
-
-> [!NOTE]
-> Il tipo di aggregazione predefinito per gli oggetti visivi R è *Non riepilogare*.
-> 
-> 
-
+   
+   > [!NOTE]
+   > Il tipo di aggregazione predefinito per gli oggetti visivi R è *Non riepilogare*.
+   > 
+   > 
+   
 1. A questo punto è possibile usare i dati selezionati per creare un tracciato. Quando si selezionano i campi, l’ **editor di script R** genera un codice di associazione script R di supporto in base alle selezioni nell'area grigia nella parte superiore del riquadro dell'editor. Quando si selezionano o rimuovono campi aggiuntivi, il codice di supporto nell'editor di script R viene generato o rimosso automaticamente di conseguenza.
    
    Nell'esempio illustrato nella figura seguente, sono stati selezionati tre campi: hp, gear e drat. A seguito di queste selezioni, l'editor di script R genera il seguente codice di associazione:
@@ -66,7 +66,7 @@ Dopo aver specificato l'installazione di R, è possibile iniziare la creazione d
    ![](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-> In alcuni casi è possibile decidere di evitare il raggruppamento automatico o la visualizzazione di tutte le righe, incluse quelle duplicate. In questo caso è possibile aggiungere un campo di indice al set di dati che fa sì che tutte le righe siano considerate univoche e impedisce il raggruppamento.
+   > In alcuni casi è possibile decidere di evitare il raggruppamento automatico o la visualizzazione di tutte le righe, incluse quelle duplicate. In questo caso è possibile aggiungere un campo di indice al set di dati che fa sì che tutte le righe siano considerate univoche e impedisce il raggruppamento.
    > 
    > 
    
@@ -76,7 +76,7 @@ Dopo aver specificato l'installazione di R, è possibile iniziare la creazione d
     Quando è selezionato **Esegui**, **Power BI Desktop** identifica il tracciato e lo visualizza nell'area di disegno.
    Poiché il processo viene eseguito nell'installazione R locale, assicurarsi che siano installati i pacchetti necessari.
    
-    **Power BI Desktop** ritraccia l'oggetto visivo quando si verifica uno degli eventi seguenti:
+   **Power BI Desktop** ritraccia l'oggetto visivo quando si verifica uno degli eventi seguenti:
    
    * **Esegui** può essere selezionato dalla barra del titolo dell'**editor di script R**
    * Ogni volta che si modificano i dati, a causa dell'aggiornamento, del filtraggio o dell’evidenziazione dei dati stessi

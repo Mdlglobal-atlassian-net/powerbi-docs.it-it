@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
 ms.author: asaxton
-ms.openlocfilehash: dafd1d7891410818cc2c23031bf1a5f8c750438e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: b09c497f04a59819f42e1841dd79912d19303041
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Iscrizione a Power BI come utente singolo
 Informazioni su come iscriversi a Power BI e iniziare a usarlo per le proprie esigenze personali di creazione e visualizzazione di report.
@@ -57,7 +57,7 @@ Se si tenta di effettuare l'iscrizione con un indirizzo di posta elettronica per
 > 
 > 
 
-## <a name="which-one-do-i-need"></a>Quale opzione scegliere
+## <a name="which-one-do-you-need"></a>Quale opzione scegliere
 È possibile determinare l'opzione più adatta esaminando ciò che viene fornito con ciascun tipo di licenza. Gli utenti con account gratuito possono accedere alla maggior parte delle funzionalità dei servizi, ad eccezione di quelle di condivisione e collaborazione. Gli utenti Power BI Pro possono utilizzare tutte le funzionalità del servizio, ma non gratuitamente. Se non si ha l'esigenza di condividere contenuti, la versione gratuita è probabilmente la scelta migliore. Altre informazioni sono riportate nella [pagina Power BI Pricing (Prezzi di Power BI)](https://powerbi.microsoft.com//pricing/).
 
 La parte restante di questo articolo fornisce istruzioni su come eseguire l'iscrizione per ciascuna opzione.
@@ -93,7 +93,7 @@ Una volta all'interno nel servizio, è possibile verificare di avere un account 
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup7.png)
 
-### <a name="what-if-im-already-part-of-an-existing-organization"></a>Se l'utente fa già parte di un'organizzazione esistente
+### <a name="what-if-youre-already-part-of-an-existing-organization"></a>Se l'utente fa già parte di un'organizzazione esistente
 Se l'account fa parte di un'organizzazione esistente, verrà visualizzato un messaggio in cui verrà richiesto di eseguire l'accesso con tale account. Selezionare **Continua** e accedere con l'account di Office 365.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup5.png)
@@ -102,7 +102,7 @@ Viene visualizzato un messaggio che chiede di selezionare **Start**.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup6.png)
 
-## <a name="in-service-power-bi-pro-60-day-trial"></a>Versione di prova di 60 giorni di Power BI Pro
+## <a name="in-service-power-bi-pro-60-day-trial"></a>Versione di valutazione completa di Power BI Pro per 60 giorni
 Dopo aver effettuato l'iscrizione all'account gratuito, è possibile provare la versione Pro gratuitamente per 60 giorni. Sarà possibile accedere a tutte le funzionalità Pro per la durata del periodo di valutazione. Power BI Pro dispone di tutte le funzionalità della versione gratuita di Power BI, oltre a funzionalità di condivisione e collaborazione aggiuntive. Per altre informazioni, vedere la [pagina dei prezzi di Power BI](https://powerbi.microsoft.com/pricing). Per provare una versione di valutazione gratuita di 60 giorni di Power BI Pro, iscriversi a Power BI e provare una di queste funzionalità Power BI Pro:
 
 * [Crea area di lavoro per le app](service-create-distribute-apps.md)

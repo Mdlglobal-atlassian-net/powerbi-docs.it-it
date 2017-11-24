@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: c7053cbf6dd4cc44424d447eefc060d119a98aa4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 Il gateway dati locale viene usato come collegamento, fornendo un trasferimento di dati rapido e sicuro tra i dati locali, ovvero dati non sul cloud, e i servizi Power BI, Microsoft Flow, app per la logica e PowerApps.
@@ -29,7 +29,7 @@ Il gateway dati locale viene usato come collegamento, fornendo un trasferimento 
 È possibile usare un singolo gateway con diversi servizi contemporaneamente. Se si usa Power BI, oltre a PowerApps, è possibile usare per entrambi un singolo gateway. Il gateway dipende dall'account con cui si accede.
 
 > [!NOTE]
-> Il gateway di dati locale implementa la compressione dei dati e la crittografia del trasporto in tutte le modalità.
+> Il gateway dati locale implementa la compressione dei dati e la crittografia del trasporto in tutte le modalità.
 > 
 > 
 

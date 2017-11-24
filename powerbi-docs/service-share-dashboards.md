@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: maggies
-ms.openlocfilehash: 9c88c70de013679ea27faae17a3672c0d172b2a9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Condividere i dashboard di Power BI con i colleghi e con altri utenti
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre [diversi modi per collaborare all'elaborazione dei dashboard e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md). La condivisione è solo uno di essi.
@@ -63,7 +63,7 @@ Il video seguente mostra come condividere il dashboard con i colleghi all'intern
    
    Quando i destinatari esterni all'organizzazione fanno clic sul collegamento, possono visualizzare il dashboard, ma non nel consueto portale di Power BI. Per altri dettagli, vedere [Condividere un dashboard con utenti esterni all'organizzazione](service-share-dashboards.md#share-a-dashboard-with-people-outside-your-organization) più avanti.
 
-## <a name="who-has-access-to-a-dashboard-i-shared"></a>Utenti autorizzati ad accedere al dashboard condiviso
+## <a name="who-has-access-to-a-dashboard-you-shared"></a>Utenti autorizzati ad accedere al dashboard condiviso
 In alcuni casi è necessario visualizzare gli utenti con cui è stato condiviso un dashboard e verificare con chi lo hanno a loro volta condiviso.
 
 1. Nell'elenco di dashboard o nel dashboard stesso selezionare **Condividi** ![Icona Condividi](media/service-share-dashboards/power-bi-share-icon.png). 
@@ -113,9 +113,7 @@ Aspetti da tenere presenti sulla condivisione dei dashboard:
 * Tutti gli utenti possono [aggiornare manualmente i dati del dashboard](refresh-data.md).
 * Se si usa Office 365 per la posta elettronica, è possibile condividere con i membri di un gruppo di distribuzione immettendo l'indirizzo di posta elettronica associato a quel gruppo.
 * I colleghi con lo stesso dominio di posta elettronica dell'utente e quelli che usano un dominio diverso ma registrato nel medesimo tenant possono condividere il dashboard con altri utenti. Si supponga ad esempio che i domini contoso.com e contoso2.com siano stati registrati nello stesso tenant. Se l'indirizzo di posta elettronica è konrads@contoso.com, allora sia ravali@contoso.com che gustav@contoso2.com possono condividere il dashboard, purché abbiano l'autorizzazione alla condivisione.
-* Se i colleghi hanno già accesso a un dashboard specifico, è possibile inviare un collegamento diretto a tale dashboard semplicemente copiandone l'URL quando ci si trova al suo interno. ad esempio:   
-  
-    https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx
+* Se i colleghi hanno già accesso a un dashboard specifico, è possibile inviare un collegamento diretto a tale dashboard semplicemente copiandone l'URL quando ci si trova al suo interno. Ad esempio: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Analogamente, se i colleghi possono già accedere a un dashboard specifico, è possibile [inviare un collegamento diretto al report sottostante](service-share-reports.md). 
 
 ## <a name="next-steps"></a>Passaggi successivi

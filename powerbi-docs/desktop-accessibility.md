@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 7f5b5114951265e2dd76dbbd8a33045d44e21989
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 **Power BI Desktop** dispone di funzionalità che consentono agli utenti con particolari esigenze di usare e interagire più facilmente con i report di **Power BI Desktop**. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -76,7 +76,7 @@ I suggerimenti seguenti consentono di creare report di **Power BI Desktop** più
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Ci sono alcuni problemi e limitazioni noti alle funzionalità di accessibilità, descritti nell'elenco seguente:
 
-* JAWS è supportato solo nei report che vengono visualizzati nel **servizio Power BI**, inclusi tutti i report incorporati. Il team di **Power BI Desktop** attualmente si sta impegnando a renderlo disponibile anche nei report visualizzati in **Power BI Desktop**.
+* JAWS è supportato nei report che vengono visualizzati nel **servizio Power BI**, inclusi tutti i report incorporati. JAWS è anche supportato in **Power BI Desktop**, ma è necessario aprire l'utilità per la lettura dello schermo prima di aprire i file di **Power BI Desktop** affinché funzioni correttamente.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Usare i temi dei report in Power BI Desktop (anteprima)](desktop-report-themes.md)
