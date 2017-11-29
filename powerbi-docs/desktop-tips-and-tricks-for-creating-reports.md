@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c95261c7e29f73b8c68083d2a239e10abaf674e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f157a5efad5af44d4b97149c379211695800cfd9
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Suggerimenti e consigli per creare report in Power BI Desktop
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato. 
@@ -94,7 +94,10 @@ Verificare che il tipo di dati sia un numero per la colonna aggregata risultante
 
 Definizione di un istogramma che supporta il collegamento di oggetti visivi: il collegamento di oggetti visivi fa in modo che, quando un utente seleziona un punto dati in un oggetto visivo, vengono evidenziati altri oggetti visivi nella pagina del report oppure vengono filtrati i punti dati correlati al punto dati selezionato.  Poiché i dati vengono modificati in fase di query, è necessario creare una relazione tra tabelle e assicurarsi di sapere quale elemento dei dettagli è correlato al bucket nell'istogramma e viceversa.
 
-Iniziare il processo usando l'opzione "Riferimento" nella query contenente il campo in base a cui si vuole creare un istogramma.  Assegnare alla nuova query il nome "Bucket".  Per questo esempio la query originale verrà denominata "Dettagli".  Rimuovere quindi tutte le colonne ad eccezione di quella da usare come bucket per l'istogramma.  Usare poi la funzionalità "Rimuovi duplicati" nella query. Questa opzione è disponibile nel menu di scelta rapida quando si seleziona una colonna e consente di lasciare solo valori univoci nella colonna.   Se sono presenti numeri decimali, è prima possibile applicare il suggerimento per la definizione di bucket per la creazione di un istogramma, in modo da ottenere un set gestibile di bucket.  Controllare ora i dati visualizzati nell'anteprima della query.  Se sono presenti valori vuoti o null, è necessario correggerli prima di creare una relazione.  Vedere "Creazione di relazioni quando i dati contengono valori null o vuoti".   Questo approccio può essere problematico a causa della necessità di eseguire l'ordinamento.  Per ordinare i bucket in modo corretto, vedere l'argomento relativo a ordinamento e visualizzazione delle categorie nell'ordine desiderato.  Nota: è utile pensare all'ordinamento prima di creare oggetti visivi.   
+Iniziare il processo usando l'opzione "Riferimento" nella query contenente il campo in base a cui si vuole creare un istogramma.  Assegnare alla nuova query il nome "Bucket".  Per questo esempio la query originale verrà denominata "Dettagli".  Rimuovere quindi tutte le colonne ad eccezione di quella da usare come bucket per l'istogramma.  Usare poi la funzionalità "Rimuovi duplicati" nella query. Questa opzione è disponibile nel menu di scelta rapida quando si seleziona una colonna e consente di lasciare solo valori univoci nella colonna.   Se sono presenti numeri decimali, è prima possibile applicare il suggerimento per la definizione di bucket per la creazione di un istogramma, in modo da ottenere un set gestibile di bucket.  Controllare ora i dati visualizzati nell'anteprima della query.  Se sono presenti valori vuoti o null, è necessario correggerli prima di creare una relazione.  Vedere "Creazione di relazioni quando i dati contengono valori null o vuoti".   Questo approccio può essere problematico a causa della necessità di eseguire l'ordinamento.  Per ordinare i bucket in modo corretto, vedere l'argomento relativo a ordinamento e visualizzazione delle categorie nell'ordine desiderato.  
+
+>[!NOTE]
+>È utile pensare all'ordinamento prima di creare oggetti visivi.   
 
 Il passaggio successivo del processo consiste nel definire una relazione tra le query "Bucket" e "Dettagli" nella colonna dei bucket.  In Power BI Desktop fare clic su **Gestisci relazioni** sulla barra multifunzione.  Creare una relazione con Bucket nella tabella di sinistra e Dettagli nella tabella di destra e selezionare il campo da usare per l'istogramma. 
 
