@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 11/27/2017
 ms.author: maikelson
-ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 57b1f5dd0e62ce6119201059b01d81294c8d826c
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -29,9 +29,11 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="featured-webinars"></a>Webinar in primo piano
 
-Iniziare dai webinar più popolari
+Iniziare dai webinar on demand più popolari
 
 - [Introduzione a Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+
+- [Better Together: 5 Benefits Excel Users Will Get From Using Power BI](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website) (Meglio insieme: i 5 vantaggi di Power BI per gli utenti di Excel)
 
 - [How to Design Visually Stunning Power BI Reports](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website) (Come progettare report di Power BI di grande impatto visivo)
 
@@ -45,8 +47,6 @@ Iniziare dai webinar più popolari
 È possibile registrarsi per ascoltare gli esperti di Power BI e partecipare alle sessioni di domande e risposte in diretta
 
 >[Partecipare ai prossimi webinar della community di Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-- [Better Together: 5 Benefits Excel Users Will Get From Using Power BI - 27/11/17](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website) (Meglio insieme: i 5 vantaggi che gli utenti di Excel ottengono dall'uso di Power BI)
 
 - [Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability -05/12/17](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website) (Produttori: il settore sta attraversando una trasformazione digitale. Come mantenere la leadership sfruttando l'analisi per massimizzare la redditività)
 

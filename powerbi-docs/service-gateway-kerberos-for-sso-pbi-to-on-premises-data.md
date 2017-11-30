@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: c00281d6b9e8a75df3b08cf1f99d0c9357129816
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 Per usufruire di un'esperienza di connettività Single Sign-On ottimale che abilita l'aggiornamento di report e dashboard di Power BI dai dati locali, è possibile configurare il gateway dati locale con Kerberos. Il gateway dati locale semplifica l'accesso Single Sign-On grazie all'uso di DirectQuery per connettersi alle origini dati locali.
@@ -87,7 +87,7 @@ Per il corretto funzionamento della delega vincolata Kerberos, è necessario con
 ### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Prerequisito 1: installare e configurare il gateway dati locale
 Questa versione del gateway dati locale supporta un aggiornamento sul posto, nonché l'acquisizione della proprietà delle impostazioni dei gateway esistenti.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Prerequisito 2: eseguire il servizio di Windows Gateway come account di dominio
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Prerequisito 2: eseguire il servizio di Windows gateway come account di dominio
 In un'installazione standard, il gateway è in esecuzione come account del servizio locale del computer, ovvero *Servizio NT\PBIEgwService*, come illustrato nell'immagine seguente:
 
 ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_04.png)
@@ -189,7 +189,7 @@ Questa configurazione funzionerà nella maggior parte dei casi. Con Kerberos, tu
 ## <a name="switching-the-gateway-to-a-domain-account"></a>Modifica dell'account del servizio gateway in un account di dominio
 Precedentemente in questo articolo è stata illustrata la procedura per modificare l'esecuzione del gateway dall'account del servizio locale a un account di dominio tramite l'interfaccia utente **Gateway dati locale**. Di seguito sono riportati in dettaglio i passaggi necessari.
 
-1. Avviare lo strumento di configurazione **Gateway dati locale**.
+1. Avviare lo strumento di configurazione del **gateway dati locale**.
    
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_10.png)
 2. Selezionare il pulsante **Accedi** nella pagina principale ed eseguire l'accesso con l'account Power BI.
@@ -199,7 +199,7 @@ Precedentemente in questo articolo è stata illustrata la procedura per modifica
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_11.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-Per altre informazioni su **Gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
+Per altre informazioni sul **gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
 
 * [Gateway dati locale](service-gateway-onprem.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)

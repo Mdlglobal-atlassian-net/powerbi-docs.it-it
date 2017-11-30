@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 La disponibilità continua dei dati più recenti è spesso fondamentale per poter prendere le decisioni giuste. Molti hanno probabilmente già usato il comando Recupera dati in Power BI per connettersi ai dati e caricarli, nonché hanno creato report e un dashboard. A questo punto, è necessario assicurarsi che i dati siano davvero i più aggiornati e completi.
@@ -161,7 +161,7 @@ Le funzionalità di aggiornamento per un set di dati incluso nel pacchetto di co
 Per altre informazioni, vedere [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md).
 
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Connessioni dinamiche e DirectQuery alle origini dati locali
-Con il gateway dati locale è possibile eseguire query da Power BI alle origini dati locali. Quando si interagisce con una visualizzazione, le query vengono inviate da Power BI direttamente al database. Vengono quindi restituiti i dati aggiornati e le visualizzazioni vengono aggiornate. Poiché c'è una connessione diretta tra Power BI e il database, non è necessario pianificare l'aggiornamento.
+Con il gateway dati locale è possibile eseguire query da Power BI sulle origini dati locali. Quando si interagisce con una visualizzazione, le query vengono inviate da Power BI direttamente al database. Vengono quindi restituiti i dati aggiornati e le visualizzazioni vengono aggiornate. Poiché c'è una connessione diretta tra Power BI e il database, non è necessario pianificare l'aggiornamento.
 
 Quando ci si connette a un'origine dati di SQL Service Analysis Services (SSAS) usando una connessione dinamica, a differenza di DirectQuery, la connessione dinamica a un'origine SSAS può essere eseguita nella cache, anche durante il caricamento di un report. Questo comportamento migliora le prestazioni di caricamento per il report. È possibile richiedere i dati più recenti dall'origine dati SSAS usando il pulsante **Aggiorna**. I proprietari delle origini dati SSAS possono configurare la frequenza di aggiornamento pianificata della cache per il set di dati, in modo da assicurare che i report siano sempre aggiornati in base alle esigenze specifiche. 
 
@@ -181,7 +181,7 @@ Quando si configura un'origine dati con il gateway dati locale, è possibile usa
 | Oracle |Sì |Sì |Sì |
 | Teradata |Sì |Sì |Sì |
 
-Per altre informazioni, vedere [On-premises Data Gateway (Gateway dati locale)](service-gateway-onprem.md)
+Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md)
 
 ## <a name="databases-in-the-cloud"></a>Database nel cloud
 Con l'opzione DirectQuery c'è una connessione diretta tra Power BI e il database nel cloud. Quando si interagisce con una visualizzazione, le query vengono inviate da Power BI direttamente al database. Vengono quindi restituiti i dati aggiornati e le visualizzazioni vengono aggiornate. Poiché inoltre il servizio Power BI e l'origine dati sono nel cloud, non è necessario un gateway personale.
@@ -243,7 +243,7 @@ In questo caso, è possibile aggiornare manualmente i dati nel set di dati Sales
 > 
 > 
 
-Per altre informazioni, vedere [Ottenere dati dai file delle cartelle di lavoro di Excel](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [On-premises Data Gateway](service-gateway-onprem.md) e [Aggiornare un set di dati creato da una cartella di lavoro di Excel in un'unità locale](refresh-excel-file-local-drive.md).
+Per altre informazioni, vedere [Ottenere dati dai file delle cartelle di lavoro di Excel](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [Gateway dati locale](service-gateway-onprem.md) e [Aggiornare un set di dati creato da una cartella di lavoro di Excel in un'unità locale](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>File di Power BI Desktop con dati da un feed OData
 In questo caso, si usa il comando Recupera dati in Power BI Desktop per connettersi ai dati del censimento e importarli da un feed OData.  Si creano diversi report in Power BI Desktop, quindi si assegna al file il nome WACensus e lo si salva in una condivisione all'interno dell'azienda. Si pubblica quindi il file nel servizio Power BI.

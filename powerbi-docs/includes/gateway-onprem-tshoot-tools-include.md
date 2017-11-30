@@ -4,7 +4,7 @@
 ### <a name="collecting-logs-from-the-gateway-configurator"></a>Raccolta di registri dallo strumento di configurazione del gateway
 È possibile raccogliere diversi log per il gateway ed è necessario iniziare sempre dai log. Il modo più semplice per raccogliere i log dopo l'installazione del gateway consiste nell'usare l'interfaccia utente. Nell'interfaccia utente **Gateway dati locale** selezionare **Diagnostica** e quindi selezionare il collegamento **Esporta log** nella parte inferiore della pagina, come mostrato nell'immagine seguente.
 
-![Log dell'interfaccia utente Gateway dati locale](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
+![On-prem-data-gateway-UI-logs](./media/gateway-onprem-tshoot-tools-include/gateway-onprem-UI-logs.png)
 
 **Registri di installazione**
 
@@ -12,16 +12,16 @@
 
 **Registri di configurazione**
 
-    %localappdata%\Microsoft\on-premises data gateway\GatewayConfigurator*.log
+    %localappdata%\Microsoft\On-premises Data Gateway\GatewayConfigurator*.log
 
 **Registri eventi del gateway dati locale**
 
-    C:\Users\PBIEgwService\AppData\Local\Microsoft\on-premises data gateway\Gateway*.log
+    C:\Users\PBIEgwService\AppData\Local\Microsoft\On-premises Data Gateway\Gateway*.log
 
 ### <a name="event-logs"></a>Registri eventi
 I registri eventi del **Gateway dati locale** sono presenti in **Registri applicazioni e servizi**.
 
-![on-prem-data-gateway-event-logs](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
+![On-prem-data-gateway-event-logs](./media/gateway-onprem-tshoot-tools-include/on-prem-data-gateway-event-logs.png)
 
 <a name="fiddler" />
 

@@ -1,6 +1,6 @@
 ---
 title: Analisi approfondita del gateway dati locale
-description: Questo articolo prende in esame l'analisi approfondita del gateway dati locale. Illustra come funziona il servizio con Azure Active Directory e Active Directory locale quando si lavora con Analysis Services
+description: Questo articolo offre un'analisi approfondita del gateway dati locale. Illustra come funziona il servizio con Azure Active Directory e Active Directory locale quando si lavora con Analysis Services
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: c030f1b18b654be6bba6a7bf2d10af322567c4d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
 Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway di dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
 
 L'installazione e la configurazione di un gateway viene in genere eseguita da un amministratore. Può richiedere conoscenze specializzate dei server locali e in alcuni casi le autorizzazioni di amministratore del server.
 
-Questo articolo non contiene istruzioni dettagliate su come installare e configurare il gateway. A tale scopo, consultare l'articolo [Gateway dati locale](service-gateway-onprem.md). Questo articolo mira a fornire una conoscenza approfondita del funzionamento del gateway. Verranno anche fornite alcune informazioni dettagliate sui nomi utente e la sicurezza sia in Azure Active Directory sia in Analysis Services, nonché sul modo in cui il servizio cloud usa l'indirizzo di posta elettronica con cui un utente esegue l'accesso, il gateway e Active Directory per connettersi in modo sicuro ai dati locali ed eseguire query su di essi.
+Questo articolo non contiene istruzioni dettagliate su come installare e configurare il gateway. A tale scopo, vedere [Gateway dati locale](service-gateway-onprem.md). Questo articolo mira a fornire una conoscenza approfondita del funzionamento del gateway. Verranno anche fornite alcune informazioni dettagliate sui nomi utente e la sicurezza sia in Azure Active Directory sia in Analysis Services, nonché sul modo in cui il servizio cloud usa l'indirizzo di posta elettronica con cui un utente esegue l'accesso, il gateway e Active Directory per connettersi in modo sicuro ai dati locali ed eseguire query su di essi.
 
 <!-- Shared Requirements Include -->
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]

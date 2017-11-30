@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bd89c3147a9b782092c211e32a84c17ab1544ebd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cad995ba0abbcc475a28dbddbf060b1017f9da90
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI ed ExpressRoute
 Per creare una connessione di rete privata dell'organizzazione a Power BI è possibile usare **Power BI** ed **ExpressRoute** (oppure la funzionalità di condivisione del percorso di un ISP), escludendo Internet per meglio proteggere i dati riservati e le connessioni di Power BI.
@@ -48,7 +48,7 @@ Le due eccezioni generali di Power BI con ExpressRoute sono:
 * File statici scaricati dalla **rete per la distribuzione di contenuti (CDN)** e dai siti Web
 * Dati di **telemetria** inviati attraverso la rete Internet pubblica
 
-Power BI usa più **reti per la distribuzione di contenuti (CDN)** o siti Web per distribuire in modo efficiente i necessari file e contenuti statici agli utenti in base alle impostazioni locali geografiche attraverso la rete Internet pubblica. I file statici includono download di prodotti (ad esempio **Power BI Desktop**, **Gateway dati locale** o **Pacchetti di contenuto di Power BI** da diversi provider di servizi indipendenti), file di configurazione del browser usati per avviare e stabilire le connessioni successive con Power BI, nonché la pagina iniziale di accesso protetto a Power BI: le effettive credenziali vengono inviate solo via ExpressRoute.   
+Power BI usa più **reti per la distribuzione di contenuti (CDN)** o siti Web per distribuire in modo efficiente i necessari file e contenuti statici agli utenti in base alle impostazioni locali geografiche attraverso la rete Internet pubblica. I file statici includono download di prodotti (ad esempio **Power BI Desktop**, **gateway dati locale** o **Pacchetti di contenuto di Power BI** da diversi provider di servizi indipendenti), file di configurazione del browser usati per avviare e stabilire le connessioni successive con Power BI, nonché la pagina iniziale di accesso protetto a Power BI: le effettive credenziali vengono inviate solo via ExpressRoute.   
 
 Anche alcuni **dati di telemetria** vengono inviati attraverso la rete Internet pubblica ed ExpressRoute. I dati di telemetria includono le statistiche di utilizzo e dati simili, che vengono trasmessi ai servizi usati per monitorare l'utilizzo e l'attività.
 
@@ -93,5 +93,5 @@ Alcuni **oggetti visivi personalizzati** vengono creati da terze parti, altri ve
 Questo documento non tratta l'uso delle app per dispositivi mobili per Power BI.  
 
 ### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway dati locale ed ExpressRoute
-Quando si usa un **gateway dati locale** con Power BI, le trasmissioni sono compatibili con ExpressRoute, fatta eccezione per le attività utente documentate nella precedente sezione **Applicazione SaaS di Power BI ed ExpressRoute** di questo argomento.  
+Quando si usa un **gateway dati locale** con Power BI, le trasmissioni sono compatibili con ExpressRoute, fatta eccezione per le attività utente documentate nella precedente sezione **Applicazione SaaS Power BI ed ExpressRoute** di questo argomento.  
 

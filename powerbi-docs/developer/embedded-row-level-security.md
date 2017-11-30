@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: asaxton
-ms.openlocfilehash: 1f59bd4e0178b1fe1b67f57b085de69da1b06951
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 È possibile usare la sicurezza a livello di riga per limitare l'accesso utente ai dati in un report o in un set di dati e consentire a più utenti diversi di usare lo stesso report, visualizzando tutti dati differenti. La sicurezza a livello di riga è utile quando si incorporano i report da Power BI.
@@ -134,7 +134,7 @@ L'identità effettiva specificata per la proprietà username deve essere un uten
 
 **Configurazione del gateway dati locale**
 
-Un [gateway dati locale](../service-gateway-onprem.md) viene usato quando si lavora con connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account principale non è elencato, la sicurezza a livello di riga non verrà applicata correttamente ai dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
+Un [gateway dati locale](../service-gateway-onprem.md) è necessario quando si usano connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account principale non è elencato, la sicurezza a livello di riga non verrà applicata correttamente ai dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
 
 **Uso dei ruoli**
 

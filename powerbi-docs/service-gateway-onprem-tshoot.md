@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 Questo articolo illustra alcuni problemi comuni che possono verificarsi quando si usa il **gateway dati locale**.
@@ -169,7 +169,6 @@ Questo problema può essere dovuto ad alcuni scenari diversi.
 1. I nomi del server e del database non corrispondono a quelli immessi in Power BI Desktop e all'origine dati configurata per il gateway. Deve trattarsi degli stessi valori, senza distinzione tra maiuscole e minuscole.
 2. L'account non è elencato nella scheda **Utenti** dell'origine dati all'interno della configurazione del gateway. È necessario chiedere all'amministratore del gateway di essere aggiunti all'elenco.
 3. All'interno del file di Power BI Desktop sono presenti più origini dati, ma non tutte configurate con il gateway. È necessario definire ogni origine dati con il gateway in modo da visualizzarlo in Aggiornamento pianificato.
-
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Errore: La quantità di dati non compressi ricevuti nel client del gateway ha superato il limite.
 La limitazione esatta è di 10 GB di dati non compressi per ogni tabella. Se si verifica questo problema, ci sono buone opzioni per ottimizzare ed evitare il problema. In particolare, aiuta ridurre l'uso di valori stringa lunghi e molto ripetitivi, usando invece una chiave normalizzata o rimuovendo la colonna (se non usata).

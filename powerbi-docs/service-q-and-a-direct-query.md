@@ -1,6 +1,6 @@
 ---
 title: Uso di domande e risposte con le connessioni dinamiche
-description: Documentazione per l'uso delle query in linguaggio naturale nelle domande e risposte per Power BI con connessioni dinamiche su dati di Analysis Services e sul gateway dati locale.
+description: Documentazione per l'uso delle query in linguaggio naturale in domande e risposte di Power BI con connessioni dinamiche su dati di Analysis Services e sul gateway dati locale.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: mihart
-ms.openlocfilehash: b24f877fd6e6642bb24d7769a23cacc05f327637
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="enable-qa-for-live-connections"></a>Attivazione di domande e risposte per le connessioni dinamiche
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Che cos'è il gateway dati locale?  Che cos'è una connessione dinamica?

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 8d592a620f7a18cad3d70a09e6cd7a960683f860
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: e905fa099537f49a9a8e69a9d3121f955b74864f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 Il gateway dati locale viene usato come collegamento, fornendo un trasferimento di dati rapido e sicuro tra i dati locali, ovvero dati non sul cloud, e i servizi Power BI, Microsoft Flow, app per la logica e PowerApps.
@@ -102,7 +102,7 @@ Se si ritiene che i problemi con il gateway riguardino il proxy, vedere [Configu
 [Gestire l'origine dati - Oracle](service-gateway-onprem-manage-oracle.md)  
 [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Analisi approfondita del gateway dati locale](service-gateway-onprem-indepth.md)  
-[On-premises data gateway (personal mode) - the new version of the personal gateway](service-gateway-personal-mode.md)
-[Configuring proxy settings for the On-Premises Data Gateway](service-gateway-proxy.md) (Gateway dati locale (modalità personale) - La nuova versione del gateway personale - Configurazione delle impostazioni proxy per il gateway dati locale)  
+[Gateway dati locale (modalità personale) - La nuova versione del gateway personale](service-gateway-personal-mode.md)
+[Configurazione delle impostazioni proxy per il gateway dati locale](service-gateway-proxy.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

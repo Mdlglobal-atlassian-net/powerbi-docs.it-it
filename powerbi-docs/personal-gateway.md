@@ -17,15 +17,15 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b1cb5bda9b80cb08ece111959884b840ff8d42cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5c2274852c041b07a0ab4a09ed00c2dfa5d64cef
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 > [!NOTE]
-> Questa è una nuova versione del gateway personale per Power BI, chiamato **Gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md).
+> Questa è una nuova versione del gateway personale per Power BI, chiamato **gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md).
 > 
 > 
 
@@ -43,7 +43,7 @@ Un *set di dati* è costituito dai dati caricati nel servizio Power BI da un'ori
 
 Un'*origine dati* è l'elemento da cui provengono effettivamente i dati caricati in un set di dati. Può trattarsi di un database, un foglio di lavoro di Excel, un servizio Web o altro. Con le cartelle di lavoro di Excel è possibile creare un semplice foglio di lavoro con righe di dati, che viene considerato un'origine dati. È anche possibile usare Power Query o Power Pivot in Excel per connettersi a dati di origini dati online e locali ed eseguire query su questi dati, tutto nella stessa cartella di lavoro. Con Power BI Desktop è possibile usare Recupera dati per connettersi ai dati di origini dati online e locali ed eseguire query su questi dati.
 
-Il gateway personale viene installato tramite il gateway di dati locale. È possibile scaricarlo alla [pagina Power BI Gateway](https://powerbi.microsoft.com/gateway/).
+Il gateway personale viene installato tramite il gateway dati locale. È possibile scaricarlo alla [pagina Power BI Gateway](https://powerbi.microsoft.com/gateway/).
 
 ## <a name="do-i-need-a-gateway"></a>È necessario un gateway?
 Prima di installare un gateway, è importante determinare se sia davvero necessario. La risposta dipende dalle origini dati:
@@ -89,7 +89,7 @@ Di seguito viene descritto ogni passaggio.
 
 ### <a name="download-and-install-a-gateway"></a>Download e installazione di un gateway
 > [!NOTE]
-> Questa è una nuova versione del gateway personale per Power BI, chiamato **Gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md).
+> Questa è una nuova versione del gateway personale per Power BI, chiamato **gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md).
 > 
 > 
 
@@ -100,7 +100,7 @@ Sarà opportuno selezionare **Gateway personale** invece di **Gateway dati local
 L'installazione di un gateway è piuttosto semplice. Basta selezionare un percorso di installazione e quindi leggere e accettare il contratto di licenza come per ogni altra applicazione. È comunque necessario tenere presenti alcuni aspetti. In particolare, il tipo di computer in cui si installa il gateway e il tipo di account con cui si è connessi a Windows nel computer.
 
 > [!NOTE]
-> Il gateway deve poter accedere all'origine dati. Se il computer non può connettersi all'origine dati, è consigliabile considerare l'installazione di un [gateway dati locale](service-gateway-onprem.md) in un computer che abbia accesso all'origine dati. Un esempio può essere SQL Server installato in una macchina virtuale (VM) ospitata in Azure. Il computer può non avere accesso alla macchina virtuale. È possibile invece installare il gateway dati locale nella macchina virtuale e configurare l'origine dati all'interno del Servizio Power BI.
+> Il gateway deve poter accedere all'origine dati. Se il computer non può connettersi all'origine dati, provare a installare un [gateway dati locale](service-gateway-onprem.md) in un computer che abbia accesso all'origine dati. Un esempio può essere SQL Server installato in una macchina virtuale (VM) ospitata in Azure. Il computer può non avere accesso alla macchina virtuale. È possibile invece installare il gateway dati locale nella macchina virtuale e configurare l'origine dati all'interno del servizio Power BI.
 > 
 > 
 
@@ -186,9 +186,8 @@ Il gateway comunica sulle porte in uscita: TCP 443 (predefinita), 5671, 5672, da
 Per creare un elenco di indirizzi IP consentiti anziché di domini, è possibile scaricare e usare l'elenco di intervalli IP del data center di Microsoft Azure. [Download](https://www.microsoft.com/download/details.aspx?id=41653)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[On-premises data gateway (personal mode) - the new version of the personal gateway (Gateway dati locale (modalità personale) - Nuova versione del gateway personale)](service-gateway-personal-mode.md)
-
-[Configurazione delle impostazioni del proxy per Power BI Gateway](service-gateway-proxy.md)  
+[Gateway dati locale (modalità personale) - La nuova versione del gateway personale](service-gateway-personal-mode.md)
+[Configurazione delle impostazioni proxy per il gateway dati locale](service-gateway-proxy.md)  
 [Power BI Premium](service-premium.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

@@ -17,15 +17,15 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ec0e5582de9c93a64b1ff02ef6d7f406b941284
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Disabilitare l'impostazione di privacy in Gateway di Power BI - Personale
 > [!NOTE]
-> Questa è una nuova versione del gateway personale per Power BI, chiamato **Gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md). Combinazione rapida è disponibile anche nella nuova versione del gateway personale ed è descritta nel rispettivo articolo.
+> Questa è una nuova versione del gateway personale per Power BI, chiamato **gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md). Combinazione rapida è disponibile anche nella nuova versione del gateway personale ed è descritta nel rispettivo articolo.
 > 
 > 
 

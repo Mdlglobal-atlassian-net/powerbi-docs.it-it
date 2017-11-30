@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a96651f55860fd057d50d77dc4dffab4da91cdc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Indicazioni per la distribuzione di un gateway dati per Power BI
-Questo articolo fornisce indicazioni e considerazioni per la distribuzione di un gateway dati nell'ambiente di rete. Il termine **gateway** indica il software usato per agevolare l'accesso a dati che risiedono in una rete privata locale allo scopo di usarli in un servizio cloud, come Power BI. Questo articolo illustra la distribuzione e le indicazioni per la configurazione del **gateway dati locale**.
+Questo articolo fornisce indicazioni e considerazioni per la distribuzione di un gateway dati nell'ambiente di rete. Il termine **gateway** indica il software usato per agevolare l'accesso a dati che risiedono in una rete privata locale allo scopo di usarli in un servizio cloud, come Power BI. Questo articolo fornisce indicazioni per l'installazione del **gateway dati locale** e la distribuzione.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Per altre informazioni sul **Gateway dati locale**, incluso un collegamento per installarlo, leggere questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Per altre informazioni sul **gateway dati locale**, incluso un collegamento per installarlo, vedere questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Considerazioni sull'installazione per il gateway dati locale
 Prima di approfondire ulteriormente i dettagli relativi a installazione e distribuzione, ci sono alcune considerazioni da tenere in mente. Le sezioni seguenti descrivono informazioni importanti da tenere sempre ben presenti.
@@ -90,7 +90,7 @@ Il *contatore del gateway*, oltre ai contatori del computer, offre un'idea della
 #### <a name="logs"></a>Log
 I log di configurazione e servizio offrono un'altra dimensione su quanto avviene nel gateway. Verificare sempre i log del gateway quando la connessione non funziona come previsto, perché non tutti i messaggi di errore emergono nel servizio Power BI.
 
-Un modo semplice per visualizzare tutti i file di log nel computer locale consiste nell'usare il pulsante *Esporta log* nel **Gateway dati locale quando si apre nuovamente il gateway dopo che l'installazione iniziale è stata completata, quindi selezionare **Diagnostica > Esporta log**.
+Un modo semplice per visualizzare tutti i file di log nel computer locale consiste nell'usare il pulsante *Esporta log* nel **gateway dati locale** quando si apre nuovamente il gateway dopo che l'installazione iniziale è stata completata, quindi selezionare **Diagnostica > Esporta log**.
 
 #### <a name="additional-logging"></a>Registrazione aggiuntiva
 Per impostazione predefinita il gateway esegue la registrazione di base. Se si sta ricercando la causa di problemi del gateway e servono altre informazioni sui dettagli di connessione di query, è possibile abilitare temporaneamente la *registrazione dettagliata* per raccogliere informazioni di log aggiuntive. A tale scopo, nel gateway installato selezionare **Diagnostica > Registrazione aggiuntiva**.
@@ -134,7 +134,7 @@ Per ripristinare il gateway, assicurarsi di essere un amministratore del gateway
 Dopo l'accesso, selezionare l'opzione **Migrate an existing gateway** (Eseguire la migrazione di un gateway esistente). Successivamente, è necessario scegliere il gateway che si vuole ripristinare o di cui eseguire la migrazione e infine specificare la chiave di ripristino, quindi premere Configura. Al termine di questo passaggio, il gateway precedente verrà sostituito dal nuovo gateway, che erediterà il nome e tutte le origini dati configurate in precedenza. Tutte le origini dati passeranno dal nuovo computer, senza la necessità di pubblicarle nuovamente. Il failover automatico non è ancora supportato, ma è una funzionalità di cui si sta attivamente occupando il team del gateway.
 
 #### <a name="administrators"></a>Amministratori
-È possibile trovare un elenco di amministratori di gateway nel **servizio Power BI**. Dopo aver eseguito l'accesso al **servizio Power BI, selezionare **Impostazioni** (l'icona dell'ingranaggio) > "Gestisci gateway" -> interfaccia utente del gateway.  
+È possibile trovare un elenco di amministratori di gateway nel **servizio Power BI**. Dopo aver eseguito l'accesso al **servizio Power BI**, selezionare **Impostazioni** (icona a forma di ingranaggio) **> Gestisci gateway > interfaccia utente del gateway**.  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 

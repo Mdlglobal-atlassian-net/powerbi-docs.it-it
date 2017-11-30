@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: davidi
-ms.openlocfilehash: b5f1122d405f35df8690390167fbdab2efd8ee8d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b4e0e67158237acc70bad5bd3c9528f457cd94b5
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="power-bi-security"></a>Sicurezza di Power BI
 Per una spiegazione dettagliata sulla sicurezza di Power BI, [scaricare il white paper sulla sicurezza di Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -63,5 +63,5 @@ Per altre informazioni, visitare il [Centro protezione Microsoft](https://www.mi
 
 Come descritto in precedenza in questo articolo, l'accesso di un utente a Power BI viene usato dai server di Active Directory locali per eseguire il mapping a un UPN per le credenziali. Tuttavia, è **importante** notare che gli utenti sono responsabili per i dati che condividono: se un utente si connette alle origini dati usando le proprie credenziali e quindi condivide un report (o un dashboard o un set di dati) in base a tali dati, gli utenti con cui condivide il dashboard non vengono autenticati rispetto all'origine dati originale e avranno l'accesso al report.
 
-Un'eccezione riguarda le connessioni a **SQL Server Analysis Services** con **Gateway dati locale**. I dashboard vengono memorizzati nella cache in Power BI, ma l'accesso ai report o ai set di dati sottostanti avvia l'autenticazione per l'utente che prova ad accedere al report o al set di dati e viene concesso solo se l'utente ha credenziali sufficienti per accedere ai dati. Per altre informazioni, vedere [On-premises Data Gateway deep dive (Approfondimento sul gateway dati locale)](service-gateway-onprem-indepth.md).
+Un'eccezione riguarda le connessioni a **SQL Server Analysis Services** con il **gateway dati locale**. I dashboard vengono memorizzati nella cache in Power BI, ma l'accesso ai report o ai set di dati sottostanti avvia l'autenticazione per l'utente che prova ad accedere al report o al set di dati e viene concesso solo se l'utente ha credenziali sufficienti per accedere ai dati. Per altre informazioni, vedere [Analisi approfondita del gateway dati locale](service-gateway-onprem-indepth.md).
 

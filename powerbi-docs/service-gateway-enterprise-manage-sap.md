@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 04c6ecbc1a7802720430c1ee29ec0410abfa54b0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Gestire l'origine dati SAP HANA
-Dopo aver installato il Gateway dati locale, è necessario aggiungere origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati SAP HANA per l'aggiornamento pianificato o per DirectQuery.
+Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati SAP HANA per l'aggiornamento pianificato o per DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Download e installazione del gateway
 È possibile scaricare il gateway dal servizio Power BI. Selezionare **Download** > **Gateway dati** oppure passare alla [pagina di download del gateway](https://go.microsoft.com/fwlink/?LinkId=698861).

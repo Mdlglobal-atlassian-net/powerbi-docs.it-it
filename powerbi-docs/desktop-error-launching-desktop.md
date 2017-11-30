@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 80593c13adb54950efbf5ff6e12a962b557fe7a0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: cbc9c474056370ecde5c818d31a3a344b9b8fb8a
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Risolvere i problemi relativi al mancato avvio di Power BI Desktop
 In **Power BI Desktop** gli utenti che hanno installato ed eseguono versioni precedenti del **gateway dati locale di Power B** potrebbero non riuscire ad avviare Power BI Desktop a causa di restrizioni dei criteri amministrativi applicate dal gateway dati locale di Power BI sulle named pipe nel computer locale. 
 
-## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Risolvere i problemi del gateway dati locale e di **Power BI Desktop**
+## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Risolvere i problemi del gateway dati locale e di Power BI Desktop
 Sono disponibili tre opzioni per la risoluzione del problema associato al gateway dati locale e per consentire l'avvio di Power BI Desktop:
 
 ### <a name="resolution-1-install-the-latest-version-of-power-bi-on-premises-data-gateway"></a>Soluzione 1: Installare la versione più recente del gateway dati locale di Power BI
@@ -38,7 +38,7 @@ Se il gateway dati locale di Power BI non è più necessario, è possibile disin
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Soluzione 3: eseguire Power BI Desktop con privilegi di amministratore
 In alternativa, è possibile avviare Power BI Desktop come amministratore. È comunque consigliabile installare la versione più recente del gateway dati locale di Power BI, come descritto in precedenza in questo articolo.
 
-## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Risolvere altri problemi di avvio di **Power BI Desktop**
+## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Risolvere altri problemi di avvio di Power BI Desktop
 Microsoft si impegna per risolvere il numero maggiore possibile dei problemi relativi a **Power BI Desktop**. Vengono esaminati regolarmente i problemi che potrebbero influire su molti clienti, che saranno poi inclusi negli articoli.
 
 Se il problema relativo all'avvio di **Power BI Desktop** non è associato al gateway dati locale oppure se le soluzioni precedenti non funzionano, è possibile inviare una richiesta di assistenza al [supporto tecnico di Power BI](https://support.powerbi.com) (https://support.powerbi.com) per identificare e risolvere il problema.

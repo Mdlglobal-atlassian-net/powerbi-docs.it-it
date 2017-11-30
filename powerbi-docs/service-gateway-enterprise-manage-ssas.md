@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gestire l'origine dati - Analysis Services
-Dopo aver installato il Gateway dati locale, è necessario aggiungere origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati Analysis Services per l'aggiornamento pianificato o per le connessioni in tempo reale.
+Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati Analysis Services per l'aggiornamento pianificato o per le connessioni in tempo reale.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
@@ -46,7 +46,7 @@ Dopo aver installato il Gateway dati locale, è necessario aggiungere origini da
 * Azioni e set denominati non sono esposti in Power BI. È comunque possibile connettersi a cubi multidimensionali che contengono anche azioni o set denominati e creare oggetti visivi e report.
 
 ## <a name="add-a-gateway"></a>Aggiungere un gateway
-Per aggiungere un Gateway, [scaricare](https://go.microsoft.com/fwlink/?LinkId=698861) e installare semplicemente il gateway in un server nel proprio ambiente. Dopo aver installato il gateway, verrà visualizzato negli elenchi dei gateway in **Gestisci gateway**.
+Per aggiungere un gateway, [scaricare](https://go.microsoft.com/fwlink/?LinkId=698861) e installare semplicemente il gateway in un server nel proprio ambiente. Dopo aver installato il gateway, verrà visualizzato negli elenchi dei gateway in **Gestisci gateway**.
 
 > [!NOTE]
 > **Gestisci gateway** non compare fino a quando non si è l'amministratore di almeno un gateway. Questa situazione può verificarsi sia se si viene aggiunti come amministratore sia se si installa e configura un gateway.
@@ -158,7 +158,7 @@ Nel **servizio Power BI** si verifica quanto segue:
 > 
 > 
 
-Nel Gateway dati locale con mapping configurabile dall'utente personalizzato, eseguire le operazioni seguenti:
+Nel gateway dati locale con mapping personalizzato configurabile dall'utente, eseguire questa procedura:
 
 1. Trovare Active Directory per la ricerca (automatica o configurabile)
 2. Cercare l'attributo dell'utente di Active Directory (ad esempio *Email*) basato sulla stringa UPN in ingresso ("firstName.lastName@contoso.com") dal **servizio Power BI**.
@@ -169,14 +169,14 @@ Nel Gateway dati locale con mapping configurabile dall'utente personalizzato, es
 Come configurare il gateway per eseguire la ricerca tramite AD:
 
 1. Scaricare e installare il gateway più recente
-2. Nel gateway, è necessario modificare il **servizio Gateway dati locale** in modo che venga eseguito con un account di dominio (anziché un account del servizio locale, in caso contrario la ricerca tramite AD non funzionerà correttamente durante il runtime). È necessario riavviare il gateway di rete gateway per rendere effettiva la modifica.  Passare all'app Gateway nel computer (cercare "gateway dati locale"). A tale scopo, passare a **Impostazioni servizio > Modifica account di servizio**. Assicurarsi di avere la chiave di ripristino per il gateway, poiché sarà necessario ripristinarlo nello stesso computer, a meno che non si voglia creare invece un nuovo gateway. 
+2. Nel gateway, è necessario modificare il **servizio Gateway dati locale** in modo che venga eseguito con un account di dominio (anziché un account del servizio locale, in caso contrario la ricerca tramite AD non funzionerà correttamente in fase di esecuzione). Sarà necessario riavviare il servizio gateway per rendere effettiva la modifica.  Passare all'app Gateway nel computer (cercare "gateway dati locale"). A tale scopo, passare a **Impostazioni servizio > Modifica account di servizio**. Assicurarsi di avere la chiave di ripristino per il gateway, poiché sarà necessario ripristinarlo nello stesso computer, a meno che non si voglia creare invece un nuovo gateway. 
 3. Passare alla cartella di installazione del gateway, *C:\Programmi\Gateway dati locale* come amministratore, per assicurarsi di avere le autorizzazioni di scrittura e modificare il file seguente:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Modificare i due valori di configurazione seguenti in base alle *proprie* configurazioni di attributi di Active Directory degli utenti Active Directory. I valori di configurazione illustrati di seguito sono riportati esempi soli: è necessario specificarli in base alla configurazione di Active Directory. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Riavviare il **Gateway dati locale** per rendere effettiva la modifica della configurazione.
+5. Riavviare il **gateway dati locale** per rendere effettiva la modifica della configurazione.
 
 ### <a name="working-with-mapping-rules"></a>Uso delle regole di mapping
 Per creare una regola di mapping, immettere un valore per il **nome originale** e il **nuovo nome** e quindi selezionare **Aggiungi**.
@@ -192,7 +192,7 @@ Quando si seleziona un elemento nell'elenco, è possibile modificarne l'ordine t
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>Uso del carattere jolly (*)
+### <a name="using-wildcard-"></a>Uso del carattere jolly (*)
 È possibile usare un carattere jolly per la stringa **Sostituisci (nome originale)**. Il carattere jolly può essere usato da solo, ma non con nessun'altra parte della stringa. In questo modo sarà possibile accettare tutti gli utenti e passare un singolo valore all'origine dati. Ciò è utile quando si vuole che tutti gli utenti nell'organizzazione usino lo stesso nome utente nell'ambiente locale.
 
 ### <a name="test-a-mapping-rule"></a>Testare una regola di mapping
@@ -211,7 +211,7 @@ Quando si seleziona un elemento nell'elenco, è possibile modificarne l'ordine t
 ## <a name="remove-a-data-source"></a>Rimuovere un'origine dati
 Rimuovendo un'origine dati si interrompono tutti i dashboard o i report che si basano sull'origine dati specificata.  
 
-Per rimuovere un'origine dati, passare all'Origine dati > **Rimuovi**.
+Per rimuovere un'origine dati, passare a Origine dati > **Rimuovi**.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
@@ -221,7 +221,7 @@ Nella scheda Amministratori del gateway è possibile aggiungere e rimuovere gli 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Gestire gli utenti
-Sulla scheda utenti, per l'origine dati, è possibile aggiungere e rimuovere gli utenti o i gruppi di sicurezza che possono utilizzare l’origine dati.
+Sulla scheda utenti per l'origine dati, è possibile aggiungere e rimuovere gli utenti o i gruppi di sicurezza che possono usare l'origine dati.
 
 > [!NOTE]
 > L'elenco degli utenti controlla solo gli utenti autorizzati a pubblicare report. I proprietari di report possono creare dashboard o pacchetti di contenuto e condividerli con altri utenti.

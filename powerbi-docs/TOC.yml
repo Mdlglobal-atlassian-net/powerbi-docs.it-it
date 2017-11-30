@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: Frammenti del codice di migrazione
           href: developer/migrate-code-snippets.md
+        - name: Risoluzione dei problemi dell'applicazione incorporata
+          href: developer/embedded-troubleshoot.md
+        - name: DOMANDE FREQUENTI
+          href: developer/embedded-faq.md
     - name: Creare un oggetto visivo personalizzato
       items:
         - name: Creare un oggetto visivo con Strumenti di sviluppo

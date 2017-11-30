@@ -20,7 +20,7 @@ Occorre notare alcuni aspetti dell'installazione di entrambe le modalità del ga
 * È possibile installare più gateway dati locali in computer diversi e gestirli tutti dalla stessa interfaccia di gestione gateway di Power BI, ad eccezione della modalità Personale, come indicato al punto seguente.
 * È possibile eseguire un solo gateway in modalità Personale per ogni utente di Power BI. Se si installa un altro gateway in modalità Personale per lo stesso utente, anche in un computer diverso, l'installazione più recente sostituisce l'installazione esistente precedente.
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 Di seguito sono riportati alcuni aspetti da considerare prima di installare il gateway.
 
@@ -29,11 +29,11 @@ Di seguito sono riportati alcuni aspetti da considerare prima di installare il g
 
 Dopo aver installato il gateway, è necessario eseguire l'accesso con l'account aziendale o dell'istituto di istruzione.
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 Dopo aver eseguito l'accesso, sarà possibile scegliere se configurare un nuovo gateway oppure se eseguire la migrazione, ripristinare o acquisire la proprietà di un gateway esistente.
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>Configurare un nuovo gateway
 1. Immettere un **nome** per il gateway.
@@ -45,7 +45,7 @@ Dopo aver eseguito l'accesso, sarà possibile scegliere se configurare un nuovo 
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Eseguire la migrazione, ripristinare o acquisire la proprietà di un gateway esistente
 È necessario selezionare il gateway che si vuole ripristinare e fornire la chiave di ripristino usata per creare il gateway.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/23/2017
 ms.author: mihart
-ms.openlocfilehash: 42f9ec1dd56c2317bec07abde9822fc2b5340c07
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="aggregates-in-power-bi"></a>Aggregazioni in Power BI
 ## <a name="what-is-an-aggregate"></a>Che cos'è un’aggregazione?
@@ -115,7 +115,11 @@ R: è probabile che il proprietario del set di dati, inavvertitamente o intenzio
 
 R: un'altra possibilità è che il campo sia stato inserito in un *bucket* che consente solo valori categorici.  In questo caso, le uniche opzioni disponibili saranno Conteggio e Conteggio valori univoci.
 
-R: la terza possibilità è che il campo venga usato per un asse. Su un asse di un grafico a barre, ad esempio, Power BI mostra una sola barra per ogni valore univoco e non applica alcuna aggregazione ai valori dei campi. NOTA: l'eccezione a questa regola è rappresentata dai grafici a dispersione, che *richiedono* valori aggregati per gli assi X e Y.
+R: la terza possibilità è che il campo venga usato per un asse. Su un asse di un grafico a barre, ad esempio, Power BI mostra una sola barra per ogni valore univoco e non applica alcuna aggregazione ai valori dei campi. 
+
+>[!NOTE]
+>L'eccezione a questa regola è rappresentata dai grafici a dispersione, che *richiedono* valori aggregati per gli assi X e Y.
+
 
 D: come si può *evitare* l'aggregazione di un campo  in un grafico a dispersione?
 

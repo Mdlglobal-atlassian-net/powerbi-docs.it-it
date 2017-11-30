@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurazione delle impostazioni del proxy per il gateway dati locale
-È possibile che l’ambiente di lavoro richieda il passaggio attraverso un proxy per accedere a Internet. Ciò potrebbe impedire la connessione al servizio del gateway dati locale.
+È possibile che l’ambiente di lavoro richieda il passaggio attraverso un proxy per accedere a Internet. Ciò potrebbe impedire al gateway dati locale di connettersi al servizio.
 
 ## <a name="does-your-network-use-a-proxy"></a>La rete usa un proxy?
 Il post seguente di superuser.com illustra come si può provare a determinare se si dispone di un proxy sulla rete.
@@ -58,7 +58,7 @@ La configurazione proxy predefinita è la seguente.
 
 La configurazione predefinita funziona con l'autenticazione di Windows. Se il proxy usa un altro tipo di autenticazione, è necessario modificare le impostazioni. In caso di dubbi, contattare l'amministratore di rete.
 
-Per altre informazioni sulla configurazione degli elementi del proxy per i file di configurazione .NET, vedere [Elemento defaultProxy (Impostazioni di rete)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)
+Per altre informazioni sulla configurazione degli elementi del proxy per i file di configurazione .NET, vedere [Elemento defaultProxy (Impostazioni di rete)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 
 ## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>Modifica dell'account del servizio gateway in un account utente di dominio
 Quando si configurano le impostazioni proxy per l'utilizzo delle credenziali predefinite come descritto in precedenza, possono verificarsi problemi di autenticazione con il proxy. Questi problemi dipendono dal fatto che l'account del servizio predefinito corrisponde al SID del servizio e a un utente di dominio autenticato. È possibile modificare l'account del servizio del gateway per consentire l'autenticazione corretta con il proxy.
@@ -81,7 +81,7 @@ Quando si configurano le impostazioni proxy per l'utilizzo delle credenziali pre
         net stop PBIEgwService
    
         net start PBIEgwService
-3. Avviare lo **strumento di configurazione del gateway dati locale**. È possibile selezionare il pulsante Start di Windows e cercare *Gateway dati locale*.
+3. Avviare lo **strumento di configurazione del gateway dati locale**. È possibile selezionare il pulsante Start di Windows e cercare *gateway dati locale*.
 4. Accedere a Power BI.
 5. Ripristinare il gateway usando la chiave di ripristino.
    

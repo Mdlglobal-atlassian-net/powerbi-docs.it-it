@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: ceb39db7a69335e059d958a29fecfa9849fe2ae8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 55caee3b289f187d6b955c216098313b483956f5
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Ricerca di utenti Power BI che hanno eseguito l'accesso
 Se si è un amministratore tenant e si desidera vedere chi ha effettuato l'accesso a Power BI, è possibile usare i report d'uso e di accesso di Azure Active Directory per ottenere informazioni.
@@ -51,7 +51,7 @@ Per visualizzare l'attività di accesso è possibile usare il portale di Azure A
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Filtrare l'applicazione tramite **Microsoft Power BI** o **Power BI Gateway** e selezionare **Applica**.
    
-    **Microsoft Power BI** indica le attività di accesso relative al servizio, mentre **Power BI Gateway** indica gli accessi specifici per il Gateway dati locale.
+    **Microsoft Power BI** indica le attività di accesso relative al servizio, mentre **Power BI Gateway** indica gli accessi specifici per il gateway dati locale.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 
@@ -67,7 +67,7 @@ All'interno della schermata Attività è possibile selezionare **Download** nell
 È possibile usare PowerShell per esportare i dati di accesso. Un [esempio](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) è disponibile all'interno della documentazione di Azure AD.
 
 > [!NOTE]
-> Perché l'esempio di PowerShell funzioni, assicurarsi di rispettare i [prerequisiti per accedere all'API di creazione report di Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
+> Perché l'esempio di PowerShell funzioni, assicurarsi di rispettare i [prerequisiti per accedere all'API di creazione report di Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
 > 
 > 
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f9deff0161796e5c72c3b5819a2506432b6077f3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6bbe9242c724ae026e3b1a64bf8457b79072456d
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origini dati per il servizio Power BI
 I dati sono il fulcro di Power BI. Ogni volta che si esplorano dati, si creano grafici e dashboard o si pongono domande con Domande e risposte, tutte le visualizzazioni e le risposte ottenute prendono i relativi dati sottostanti da un set di dati. Ma i set di dati da dove provengono? Da un'origine dati, ovviamente.
@@ -59,7 +59,7 @@ I pacchetti di contenuto contengono tutti i dati e i report necessari, già pron
 
 **Database nel cloud** - Dal servizio Power BI è possibile connettersi in tempo reale al database SQL di Azure, ad Azure SQL Data Warehouse, a Spark in Azure HDInsight e a SQL Server Analysis Services tramite DirectQuery. Le connessioni da Power BI a questi database sono dinamiche, vale a dire quando un utente si connette, ad esempio, ad un Database SQL di Azure e inizia l'esplorazione dei dati mediante la creazione di report in Power BI, oppure ogni volta in cui si suddividono i dati o si aggiunge un altro campo a una visualizzazione, viene eseguita una query direttamente nel database. Per altre informazioni, vedere [Azure e Power BI](service-azure-and-power-bi.md).
 
-**Database locali** - Dal servizio Power BI, è possibile connettersi direttamente ai database modello tabulari di SQL Server Analysis Services. È necessario disporre di un Gateway aziendale di Power BI. In caso di dubbi sulla connessione al database modello tabulare dell'organizzazione, rivolgersi all'amministratore o al reparto IT. Per altre informazioni, vedere [Dati tabulari di SQL Server Analysis Services in Power BI](sql-server-analysis-services-tabular-data.md).
+**Database locali** - Dal servizio Power BI, è possibile connettersi direttamente ai database modello tabulari di SQL Server Analysis Services. È necessario avere Power BI Enterprise Gateway. In caso di dubbi sulla connessione al database modello tabulare dell'organizzazione, rivolgersi all'amministratore o al reparto IT. Per altre informazioni, vedere [Dati tabulari di SQL Server Analysis Services in Power BI](sql-server-analysis-services-tabular-data.md).
 
 Per altri tipi di database all'interno dell'organizzazione, è necessario innanzitutto usare Power BI Desktop o Excel per connettersi, eseguire query e caricare i dati in un modello di dati. È quindi possibile importare il file in Power BI, dove viene creato un set di dati. Se si imposta l'aggiornamento pianificato, Power BI userà le informazioni di connessione del file e le impostazioni di aggiornamento configurate per connettersi direttamente all'origine dati ed eseguire query per gli aggiornamenti. Gli aggiornamenti vengono quindi caricati nel set di dati in Power BI. Per altre informazioni, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
 
@@ -70,7 +70,7 @@ Alcune origini dati dispongono già di dati in un formato pronto per il servizio
 
 In altri casi, potrebbe essere necessario eseguire una query e caricare i dati desiderati in un file. Si supponga ad esempio di avere dati logistici nel database del data warehouse su un server dell'organizzazione. Nel servizio Power BI non è possibile connettersi direttamente a tale database e iniziare l'esplorazione dei dati, a meno che non sia un database modello tabulare. È possibile, tuttavia, usare Power BI Desktop o Excel per eseguire query e caricare i dati logistici in un modello di dati da salvare poi in un file. È quindi possibile importare il file in Power BI, dove viene creato un set di dati.
 
-Una probabile obiezione potrebbe essere che i dati logistici nel database cambiano continuamente, quindi come è possibile assicurarsi che il set di dati in Power BI sia sempre aggiornato? Le informazioni di connessione del file di Power BI Desktop o di Excel vengono importate nel set di dati insieme con i dati. Se si imposta l'aggiornamento pianificato o si esegue l'aggiornamento manuale del set di dati, Power BI userà le informazioni di connessione del set di dati, oltre ad altre impostazioni, per connettersi direttamente al database, eseguire una query per gli aggiornamenti e caricarli poi nel set di dati. Sarà probabilmente necessario Power BI Gateway per proteggere e trasferire i dati tra il server locale e Power BI. Le visualizzazioni in report e dashboard vengono aggiornate automaticamente.
+Una probabile obiezione potrebbe essere che i dati logistici nel database cambiano continuamente, quindi come è possibile assicurarsi che il set di dati in Power BI sia sempre aggiornato? Le informazioni di connessione del file di Power BI Desktop o di Excel vengono importate nel set di dati insieme con i dati. Se si imposta l'aggiornamento pianificato o si esegue l'aggiornamento manuale del set di dati, Power BI userà le informazioni di connessione del set di dati, oltre ad altre impostazioni, per connettersi direttamente al database, eseguire una query per gli aggiornamenti e caricarli poi nel set di dati. Sarà probabilmente necessario un Power BI Gateway per proteggere e trasferire i dati tra il server locale e Power BI. Le visualizzazioni in report e dashboard vengono aggiornate automaticamente.
 
 Il fatto che non sia possibile connettersi direttamente all'origine dati dal servizio Power BI non significa che non si possa disporre di quei dati in Power BI. Si tratta solo di eseguire qualche passaggio in più e forse di chiedere un piccolo aiuto al reparto IT. Vedere [Origini dati in Power BI Desktop](desktop-data-sources.md) per altre informazioni.
 
@@ -82,7 +82,7 @@ Un ***set di dati*** viene creato automaticamente in Power BI quando si usa Recu
 Un'***origine dati*** è l'elemento da cui provengono effettivamente i dati presenti in un set di dati. Ad esempio, un servizio online come Google Analytics o QuickBooks, un database nel cloud come il database SQL di Azure oppure un database o un file in un server o un computer locale dell'organizzazione.
 
 ### <a name="data-refresh"></a>Aggiornamento dei dati
-Se si salvano i file sul disco locale o su un'unità in un punto qualsiasi all'interno dell'organizzazione, per aggiornare il set di dati in Power BI può essere necessario Power BI Gateway. E il computer in cui è salvato il file deve essere acceso durante l'aggiornamento. È inoltre possibile importare nuovamente il file o usare Pubblica da Excel o Power BI Desktop, ma non si tratta di processi automatizzati.
+Se si salvano i file sul disco locale o su un'unità in un punto qualsiasi all'interno dell'organizzazione, per aggiornare il set di dati in Power BI potrebbe essere necessario un Power BI Gateway. E il computer in cui è salvato il file deve essere acceso durante l'aggiornamento. È inoltre possibile importare nuovamente il file o usare Pubblica da Excel o Power BI Desktop, ma non si tratta di processi automatizzati.
 
 Se si salvano i file in OneDrive for Business o nei siti del team di SharePoint e poi si esegue la connessione o si importano i file in Power BI, il set di dati, i report e i dashboard saranno sempre aggiornati. Poiché sia OneDrive for Business che Power BI risiedono nel cloud, Power BI può connettersi direttamente al file salvato circa una volta ogni ora per verificare la presenza di aggiornamenti. Se li trova, il set di dati e le eventuali visualizzazioni vengono aggiornati automaticamente.
 

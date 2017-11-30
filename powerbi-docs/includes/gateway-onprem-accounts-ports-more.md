@@ -45,7 +45,7 @@ Di seguito è riportato un elenco dei nomi di dominio completi usati dal gateway
 > 
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>Forzare la comunicazione HTTPS con il bus di servizio di Azure
-È possibile imporre al gateway di comunicare con il bus di servizio di Azure tramite HTTPS anziché TCP diretto. Ciò può avere un impatto sulle prestazioni. A questo scopo, modificare il file *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* cambiando il valore da `AutoDetect` a `Https`, come mostrato nel frammento di codice riportato subito dopo questo paragrafo. Per impostazione predefinita, il file si trova in *C:\Programmi\Gateway dati locale*.
+È possibile forzare il gateway per comunicare con il bus di servizio di Azure usando HTTPS anziché il TCP diretto. Ciò può avere un impatto sulle prestazioni. A questo scopo, modificare il file *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* cambiando il valore da `AutoDetect` a `Https`, come mostrato nel frammento di codice riportato subito dopo questo paragrafo. Per impostazione predefinita, il file si trova in *C:\Programmi\Gateway dati locale*.
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

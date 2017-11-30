@@ -8,8 +8,8 @@ Il report e i dati, incluse le visualizzazioni, le query e le misure personalizz
 
 ![](media/4-1-publish-reports/4-1_2.png)
 
-> NOTA: i report di Power BI Desktop vengono comunemente chiamati file **PBIX**, che corrisponde all'estensione assegnata loro in Windows.
-> 
+> [!NOTE]
+> I report di Power BI Desktop vengono comunemente chiamati file **PBIX**, che corrisponde all'estensione assegnata loro in Windows.
 > 
 
 Al termine del caricamento, una finestra di dialogo indica che il processo di pubblicazione è stato completato e contiene un collegamento che reindirizza direttamente al report nel servizio Power BI, in un Web browser.

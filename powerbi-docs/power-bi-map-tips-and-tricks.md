@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
 Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione di mappa autonomamente, richiede l'aiuto di Bing Maps.  
@@ -76,7 +76,7 @@ In Power BI, se il set di dati contiene già i dati relativi a latitudine e long
 
 ![Latitudine e longitudine](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>Usare le gerarchie geografiche per eseguire il drill-down a diversi "livelli" di posizione
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>Usare le gerarchie geografiche per eseguire il drill-down a diversi "livelli" di posizione
 Quando il set di dati ha già diversi livelli di dati sulla posizione, è possibile usare Power BI per creare *gerarchie geografiche*. A tale scopo, trascinare più campi nel bucket **Posizione**. In questo modo, usati insieme, i campi diventano una gerarchia geografica. Nell'esempio seguente sono stati aggiunti campi geografici per Paese/area geografica, Stato e Città. In Power BI è possibile eseguire il drill-up o il drill-down usando questa gerarchia geografica.
 
   ![Campo Località](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

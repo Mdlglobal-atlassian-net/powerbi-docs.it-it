@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 644078dc61a69cf27cb93b29409546d61e1706f2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gestire l'origine dati - SQL Server
-Dopo aver installato il Gateway dati locale, è possibile aggiungere origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati SQL Server per l'aggiornamento pianificato o per DirectQuery.
+Dopo aver installato il gateway dati locale, è possibile aggiungere origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati SQL Server per l'aggiornamento pianificato o per DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Download e installazione del gateway
 È possibile scaricare il gateway dal servizio Power BI. Selezionare **Download** > **Gateway dati** oppure passare alla [pagina di download del gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -32,7 +32,7 @@ Dopo aver installato il Gateway dati locale, è possibile aggiungere origini dat
 ![](media/service-gateway-enterprise-manage-sql/powerbi-download-data-gateway.png)
 
 ## <a name="add-a-gateway"></a>Aggiungere un gateway
-Per aggiungere un Gateway, [scaricare](https://go.microsoft.com/fwlink/?LinkId=698861) e installare semplicemente il gateway in un server nel proprio ambiente. Dopo aver installato il gateway, verrà visualizzato negli elenchi dei gateway in **Gestisci gateway**.
+Per aggiungere un gateway, [scaricare](https://go.microsoft.com/fwlink/?LinkId=698861) e installare semplicemente il gateway in un server nel proprio ambiente. Dopo aver installato il gateway, verrà visualizzato negli elenchi dei gateway in **Gestisci gateway**.
 
 > [!NOTE]
 > **Gestisci gateway** non compare fino a quando non si è l'amministratore di almeno un gateway. Ciò avviene quando si viene aggiunti come amministratore a un gateway o si installa e configura un gateway manualmente.

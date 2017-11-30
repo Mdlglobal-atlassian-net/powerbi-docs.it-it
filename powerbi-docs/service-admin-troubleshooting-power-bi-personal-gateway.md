@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bcb859fe6364f28a59607f28f675f89e1a562f8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Risoluzione dei problemi relativi a Power BI Gateway - Personal
 Di seguito sono illustrati alcuni problemi comuni che possono verificarsi quando si usa Power BI Gateway - Personal.
@@ -86,7 +86,10 @@ Questo errore viene visualizzato in Impostazioni per \<set di dati\> se è stato
 Questo accade in presenza di una riga singola le cui dimensioni superano 4 MB. È necessario determinare quale sia la riga dall'origine dati e tentare di filtrarla o di ridurne le dimensioni.
 
 ## <a name="data-sources"></a>Origini dati
-**Provider di dati mancante**: il gateway personale è solo a 64 bit. Richiede una versione a 64 bit dei provider di dati installata nello stesso computer del gateway personale. Ad esempio, se l'origine dati nel set di dati è Microsoft Access, è necessario installare un provider ACE a 64 bit nello stesso computer in cui è stato installato il gateway personale.  **Nota:** se la versione di Excel è a 32 bit, non è possibile installare un provider ACE a 64 bit nello stesso computer.
+**Provider di dati mancante**: il gateway personale è solo a 64 bit. Richiede una versione a 64 bit dei provider di dati installata nello stesso computer del gateway personale. Ad esempio, se l'origine dati nel set di dati è Microsoft Access, è necessario installare un provider ACE a 64 bit nello stesso computer in cui è stato installato il gateway personale.  
+
+>[!NOTE]
+>Se è in uso la versione di Excel a 32 bit, non è possibile installare un provider ACE a 64 bit nello stesso computer.
 
 **L'autenticazione di Windows non è supportata per il database Access**: attualmente Power BI supporta solo l'autenticazione anonima per il database di Access. Microsoft sta lavorando per consentire l'autenticazione di Windows per il database di Access.
 
