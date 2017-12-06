@@ -1,4 +1,4 @@
-In questa lezione, ci occupiamo della creazione di un *pacchetto di contenuto* con gli elementi già presenti in Power BI e della condivisione con i colleghi.
+In questa lezione, ci occupiamo della creazione di un *pacchetto di contenuto* con gli elementi già presenti in Power BI e della condivisione con i colleghi. 
 
 In **Area di lavoro** è presente un dashboard, il report sottostante e il set di dati. Si desidera condividerli come pacchetto con le persone nell'organizzazione, in modo che possano essere riutilizzati.
 

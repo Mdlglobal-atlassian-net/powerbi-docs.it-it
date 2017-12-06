@@ -15,18 +15,17 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 61d74fb9c25abb0cbc5135795d5567016f88b0c0
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/).
-* In alternativa, fare clic sull'icona **Contattami** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) nell'angolo in basso a destra della finestra del browser.
 
 ## <a name="what-is-microsoft-power-bi"></a>Che cos'è Microsoft Power BI?
 [Power BI](https://powerbi.microsoft.com/) è un servizio di analisi business basato sul cloud che consente a chiunque di visualizzare e analizzare i dati con maggiore velocità, in modo più efficiente e comprendendo meglio i risultati. Si connette a un'ampia gamma di dati tramite dashboard facili da usare, report interattivi e visualizzazioni accattivanti che consentono di comprendere a fondo i dati.
@@ -156,5 +155,4 @@ Come molti altri servizi e software Microsoft, Power BI consente di annullare ra
 ## <a name="next-steps"></a>Passaggi successivi
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/)
-* In alternativa, fare clic sull'icona **Contattami** ![](media/service-frequently-asked-questions/power-bi-contact-me-icon.png) nell'angolo in basso a destra della finestra del browser.
 

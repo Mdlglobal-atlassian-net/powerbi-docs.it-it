@@ -1,7 +1,6 @@
 ## <a name="list-of-available-data-source-types"></a>Elenco di tipi di origini dati disponibili
 | **Origine dati** | **Dinamico/DirectQuery** | **Aggiornamento pianificato o manuale configurato dall'utente** |
 | --- | --- | --- | --- |
-| Amazon Redshift |Sì |Sì |
 | Analysis Services in modalità tabulare |Sì |Sì |
 | Analysis Services in modalità multidimensionale |Sì |Sì |
 | File |No |Sì |

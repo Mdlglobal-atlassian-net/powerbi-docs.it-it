@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 17215f8a1c9aa0da40c52b5dd957c2a7d8c5613b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Informativa sulla privacy Invia smile di Power BI Desktop
 Microsoft sta lavorando attivamente alla protezione della privacy degli utenti, fornendo al contempo prodotti che offrono le prestazioni, la potenza e la praticità desiderate. Questa Informativa sulla privacy illustra molte delle procedure di raccolta e uso dei dati di feedback *Invia Smile* di Microsoft Power BI Desktop. Non è applicabile ad altri siti, prodotti o servizi Microsoft online oppure offline.
