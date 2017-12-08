@@ -252,8 +252,6 @@
           href: service-insight-types.md
         - name: Ottimizzare i dati per Power BI Quick Insights
           href: service-insights-optimize.md
-        - name: Visualizzare un riquadro del dashboard in modalità schermo intero (modalità TV)
-          href: service-tile-fullscreen-mode.md
         - name: Dashboard in primo piano in Power BI
           href: service-dashboard-featured.md
         - name: Creare una visualizzazione telefono di un dashboard
