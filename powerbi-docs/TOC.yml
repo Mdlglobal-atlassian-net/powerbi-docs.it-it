@@ -784,8 +784,8 @@
           href: desktop-inline-hierarchy-labels.md
         - name: Usare il filtro dei dati per intervalli numerici
           href: desktop-slicer-numeric-range.md
-        - name: Usare il filtro dei dati per la data relativa
-          href: desktop-slicer-filter-date-range.md
+        - name: Creare un filtro dei dati reattivo e ridimensionabile
+          href: power-bi-slicer-filter-responsive.md
         - name: Creare schede di risposta di Power BI personalizzate per Cortana
           href: service-cortana-answer-cards.md
         - name: Sicurezza a livello di riga
