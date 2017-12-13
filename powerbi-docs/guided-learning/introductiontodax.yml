@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Introduzione a DAX
 metadata:
@@ -10,17 +11,17 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 375f4144016121171f9e7449f2d664efe7cf3aa1
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: >
     Informazioni su come creare e utilizzare DAX fornite da un esperto.
-  ms.openlocfilehash: 5723e4a56974ab25eb43f3130755f6bccb71214c
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: it-IT
-  ms.lasthandoff: 11/15/2017
 - title: Introduzione a DAX
   durationInMinutes: 9
   content: >
@@ -63,4 +64,4 @@ items:
 
 
     [!INCLUDE [](includes/7-6-dax-tables-and-filtering.md)]
-- content: "La sezione **Introduzione a DAX** dell'apprendimento guidato di Microsoft Power BI è stata completata.\0"
+- content: "La sezione **Introduzione a DAX** dell'apprendimento guidato di Power BI è stata completata. Non sono necessarie altre operazioni. Se le esercitazioni sono state eseguite in sequenza, sono state completate tutte le sezioni dell'**Apprendimento guidato**. Non sono necessarie altre operazioni. È ora possibile iniziare a usare **Power BI** per creare report e dashboard accattivanti che illustrano la propria storia.\0"

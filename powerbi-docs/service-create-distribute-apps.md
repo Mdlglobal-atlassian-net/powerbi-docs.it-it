@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Creare e pubblicare app con dashboard e report in Power BI
 
@@ -32,7 +32,7 @@ Gli utenti aziendali spesso hanno bisogno di più dashboard e report di Power BI
 
 Con le app Power BI, ora in anteprima, è possibile creare raccolte di dashboard e report e pubblicare le app nell'intera organizzazione o soltanto a gruppi o utenti specifici. Per l'utente amministratore o autore del report, le app rendono più semplice gestire le autorizzazioni per le raccolte di dashboard.
 
-Gli utenti aziendali possono ottenere le app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarle automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile installare le app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Potranno facilmente trovare l'intero contenuto e tornarvi in seguito, perché è disponibile in un'unica posizione. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](service-install-use-apps.md).
+Gli utenti aziendali possono installare queste app da Microsoft AppSource; in alternativa, è possibile inviare loro un collegamento diretto. Potranno facilmente trovare l'intero contenuto e tornarvi in seguito, perché è disponibile in un'unica posizione. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>App e pacchetti di contenuto aziendali
 Le app rappresentano l'evoluzione dei pacchetti di contenuto aziendali. Se si hanno già pacchetti di contenuto aziendali, questi continueranno a funzionare contemporaneamente alle app.
@@ -119,7 +119,7 @@ Quando i dashboard e i report nell'area di lavoro per le app sono pronti, è pos
    
      ![Contenuto dell'app](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Infine, in **Accesso**, decidere chi avrà accesso all'app, cioè tutti gli utenti dell'organizzazione, utenti specifici o liste di distribuzione di posta elettronica. Se si hanno le opportune autorizzazioni, è possibile decidere di installare automaticamente l'app per i destinatari.
+4. In **Accesso** decidere infine chi avrà accesso all'app, ovvero tutti gli utenti dell'organizzazione o utenti specifici oppure gruppi di sicurezza di Active Directory. 
    
      ![Accesso all'app](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ Quando i dashboard e i report nell'area di lavoro per le app sono pronti, è pos
    
      ![Fine dell'app](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Gli utenti aziendali per cui è stata pubblicata l'app potranno trovarla in diversi modi. Prima di tutto, se è stata installata automaticamente, viene visualizzata in App nel proprio account Power BI.  È possibile inviare loro il collegamento diretto all'app oppure potranno cercarla in Microsoft AppSource, in cui sono visualizzate tutte le app a cui possono accedere. Da quel momento vedranno questa app nel proprio elenco ogni volta che accederanno alle applicazioni.
+Gli utenti aziendali per cui è stata pubblicata l'app potranno trovarla in due diversi modi. È possibile inviare loro il collegamento diretto all'app oppure potranno cercarla in Microsoft AppSource, in cui sono visualizzate tutte le app a cui possono accedere. Da quel momento vedranno questa app nel proprio elenco ogni volta che accederanno alle applicazioni.
 
 Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](service-install-use-apps.md).
 

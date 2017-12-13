@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Come si condividono i dashboard e i report e in che modo ci si collabora in Power BI?
 Dashboard e report vengono creati dall'utente. È possibile collaborare su di essi con i colleghi. È anche possibile consentire ad altri utenti di accedervi. Ma qual è il modo migliore di distribuire report e dashboard?
@@ -54,7 +54,7 @@ Si supponga di voler distribuire il dashboard a un pubblico più vasto. Dopo ave
 
 ![Icona Pubblica app](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). È possibile inviare agli utenti aziendali un collegamento diretto all'app o dire loro di cercarla in AppSource. Se l'amministratore di Power BI concede le autorizzazioni, è possibile installare un'app automaticamente nell'account Power BI dei colleghi. Altre informazioni sulla [pubblicazione delle app](service-create-distribute-apps.md#publish-your-app). 
+Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). È possibile inviare agli utenti aziendali un collegamento diretto all'app o dire loro di cercarla in AppSource. Altre informazioni sulla [pubblicazione delle app](service-create-distribute-apps.md#publish-your-app). 
 
 Dopo l'installazione di un'app è possibile visualizzarla nel browser o su un dispositivo mobile.
 

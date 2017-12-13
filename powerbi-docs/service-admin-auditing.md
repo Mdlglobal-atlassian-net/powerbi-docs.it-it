@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/28/2017
 ms.author: asaxton
-ms.openlocfilehash: a17bd787a37b7e26ac0b01ab5fc595b835e50b58
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
+ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/29/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Informazioni sulla modalità d'uso della funzionalità di controllo con Power BI per monitorare ed esaminare le azioni eseguite. È possibile usare il Centro sicurezza e conformità o PowerShell.
@@ -34,45 +35,43 @@ Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento de
 
 > [!NOTE]
 > La funzionalità di controllo di Power BI è in anteprima ed è disponibile in tutte le aree di dati.
-> 
-> 
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Abilitazione della funzionalità di controllo nel portale di amministrazione di Power BI
+
 È necessario abilitare il controllo dell'organizzazione per lavorare con i report. A questo scopo, andare nelle impostazioni del tenant del portale di amministrazione.
 
 1. Selezionare **l'icona dell'ingranaggio** in alto a destra.
+
 2. Selezionare **Portale di amministrazione**.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
+
 3. Selezionare **Impostazioni tenant**.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
+
 4. Passare a **Creare log di controllo per la verifica interna delle attività e ai fini della conformità**.
+
 5. Selezionare **Applica**.
 
 Power BI inizierà a registrare le varie attività eseguite dagli utenti in Power BI. Potrebbero essere necessarie fino a 48 ore perché i registri vengano visualizzati nel Centro di sicurezza e conformità di Office 365. Per ulteriori informazioni sulle attività registrate, vedere [Elenco di attività controllate da Power BI](#list-of-activities-audited-by-power-bi).
 
-## <a name="licensing-requirements"></a>Requisiti di licenza
-Il controllo è una funzionalità di Power BI Pro e gli eventi di controllo sono disponibili solo per gli utenti di Power BI Pro.  Gli utenti con licenze di Power BI (gratuito) verranno visualizzati come **Utente del piano gratuito**.
-
-Per ulteriori informazioni su come acquisire e assegnare le licenze Power BI Pro agli utenti dell'organizzazione, vedere [Acquisto di Power BI Pro](service-admin-purchasing-power-bi-pro.md).
-
-Per ulteriori informazioni su come limitare agli utenti con licenza gratuita di iscriversi, vedere [Abilitare o disabilitare l'accesso di utenti singoli a Azure Active Directory](service-admin-service-free-in-your-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory).
-
 > [!NOTE]
 > Per abilitare il controllo per Power BI nel tenant, è necessario che nel tenant stesso sia disponibile almeno una licenza per cassette postali di Exchange.
-> 
-> 
 
 ## <a name="accessing-your-audit-logs"></a>Accesso ai log di controllo
+
 Per controllare i log di Power BI, è necessario consultare il Centro di sicurezza e conformità di Office 365.
 
 1. Selezionare **l'icona dell'ingranaggio** in alto a destra.
+
 2. Selezionare **Portale di amministrazione**.
    
    ![](media/service-admin-auditing/powerbi-admin.png)
+
 3. Selezionare **Log di controllo**.
-4. Selezionare **Passa all'interfaccia di amministrazione di O365**.
+4. 
+5. Selezionare **Passa all'interfaccia di amministrazione di O365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -80,43 +79,43 @@ In alternativa, è possibile accedere tramite [Office 365 | Sicurezza e conformi
 
 > [!NOTE]
 > Per fornire l'accesso al log di controllo agli account non amministratore, è necessario assegnare le autorizzazioni nell'interfaccia di amministrazione di Exchange Online. Ad esempio, è possibile assegnare un utente a un gruppo di ruoli esistente, ad esempio Gestione organizzazione, oppure crearne uno nuovo con il ruolo Log di controllo. Per altre informazioni, vedere [Permissions in Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx) (Autorizzazioni in Exchange Online).
-> 
-> 
 
 ## <a name="search-only-power-bi-activities"></a>Eseguire solo la ricerca delle attività di Power BI
+
 È possibile limitare i risultati alle sole attività di Power BI eseguendo le operazioni seguenti.
 
 1. Nella pagina **Ricerca dei registri di controllo** selezionare l'elenco a discesa delle **Attività** in **Cerca**.
+
 2. Selezionare **Attività di PowerBI**.
    
    ![](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+
 3. Selezionare un punto qualsiasi all'esterno della casella di selezione per chiuderla.
 
 Le ricerche verranno filtrate alle sole attività di Power BI.
 
 ## <a name="search-the-audit-logs-by-date"></a>Eseguire la ricerca dei log di controllo per data
+
 È possibile cercare i log in base all'intervallo di date usando i campi "Data di inizio" e "Data di fine". Gli ultimi sette giorni sono selezionati per impostazione predefinita. La data e l'ora vengono visualizzate nel formato Coordinated Universal Time (UTC). L'intervallo massimo che è possibile specificare è 90 giorni. Se l'intervallo di date selezionato è maggiore a 90 giorni, viene visualizzato un errore.
 
 > [!NOTE]
 > Se si usa l'intervallo massimo di 90 giorni, selezionare l'ora corrente per la data di inizio. In caso contrario, un errore informerà che la data di inizio è precedente alla data di fine. Se il controllo è stato attivato negli ultimi 90 giorni, l'intervallo massimo non può cominciare prima della data in cui il controllo è stato attivato.
-> 
-> 
 
 ![](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Eseguire la ricerca dei log di controllo per utente
+
 È possibile cercare le voci del log di controllo in base alle attività eseguite dagli utenti specifici. A tale scopo, immettere uno o più nomi utente nel campo "Utenti".  Il risultato sarà il nome con cui gli utenti eseguono l'accesso a Power BI. Assomiglia a un indirizzo di posta elettronica.
 Lasciare questa casella vuota per visualizzare le voci di tutti gli utenti (e account del servizio) dell'organizzazione.
 
 ![](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="viewing-search-results"></a>Visualizzazione dei risultati della ricerca
+
 Dopo aver fatto clic sul pulsante di ricerca, i risultati della ricerca vengono caricati e visualizzati in Risultati nel giro di pochi secondi. Al termine della ricerca, viene visualizzato il numero di risultati trovati. 
 
 > [!NOTE]
 > Verrà visualizzato un massimo di 1000 eventi. Se più di 1000 eventi soddisfano i criteri di ricerca, verranno visualizzati i 1000 eventi più recenti.
-> 
-> 
 
 I risultati contengono le informazioni seguenti per ogni evento restituito dalla ricerca.
 
@@ -131,31 +130,14 @@ I risultati contengono le informazioni seguenti per ogni evento restituito dalla
 
 > [!NOTE]
 > Per ordinare i risultati, selezionare un'intestazione di colonna in Risultati. È possibile ordinare i risultati dalla A alla Z o dalla Z alla A. Fare clic sull'intestazione Data per ordinare i risultati dal meno recente al più recente o viceversa.
-> 
-> 
 
 ## <a name="view-the-details-for-an-event"></a>Visualizzare i dettagli di un evento
+
 È possibile visualizzare ulteriori dettagli su un evento selezionando il record dell'evento nell'elenco dei risultati della ricerca. Viene visualizzata una pagina che contiene le proprietà del record dell'evento. Le proprietà visualizzate dipendono dal servizio Office 365 in cui si verifica l'evento. Per visualizzare ulteriori dettagli, selezionare **Altre informazioni**.
 
 La tabella seguente fornisce informazioni dettagliate su ciò che è possibile visualizzare.
 
-| **Parametro** | **Descrizione** |
-| --- | --- |
-| ID |Identificatore univoco di un record di controllo. |
-| RecordType |Il tipo di operazione indicata dal record. Vedere la tabella AuditLogRecordType per informazioni dettagliate sui tipi di record dei log di controllo. |
-| CreationTime |La data e l'ora in formato Coordinated Universal Time (UTC) in cui l'utente ha eseguito l'attività. |
-| Operation |Il nome dell'utente o dell'attività dell'amministratore. |
-| OrganizationId |GUID per il servizio di Office 365 dell'organizzazione in cui si è verificato l'evento. |
-| UserType |Il tipo di utente che ha eseguito l'operazione. Vedere la tabella Tipo di utente per informazioni dettagliate sui tipi di utenti. |
-| UserKey |L'ID univoco Passport dell'utente che ha eseguito l'attività. |
-| ResultStatus |Indica se l'azione (specificata nella proprietà Operation) è andata a buon fine o meno. I valori possibili sono Succeeded, PartiallySucceeded o Failed. |
-| ObjectId |Per SharePoint e per l'attività OneDrive for Business, il nome completo del percorso del file o della cartella a cui l'utente ha eseguito l'accesso. |
-| UserId |Il nome UPN (User Principal Name) dell'utente che ha eseguito l'azione (specificata nella proprietà Operation) che ha generato il record registrato; ad esempio, my_name@my_domain_name. Si noti che sono inclusi anche i record dell'attività eseguita dagli account di sistema (ad esempio SHAREPOINT\system o NT AUTHORITY\SYSTEM). |
-| ClientIp |L'indirizzo IP del dispositivo usato durante la registrazione dell'attività. L'indirizzo IP viene visualizzato in formato IPv4 o IPv6. |
-
-La tabella seguente fornisce informazioni dettagliate sugli eventi che è possibile visualizzare.
-
-| **Evento** | **Descrizione** | **Dettagli aggiuntivi** |
+| **Parametro o evento** | **Descrizione** | **Dettagli aggiuntivi** |
 | --- | --- | --- |
 | Report di Power BI scaricato |Questa attività viene registrata ogni volta che un report viene scaricato |Nome del report, Nome del set di dati |
 | Creare report |Questa attività viene registrata ogni volta che viene creato un nuovo report. |Nome del report, Nome del set di dati |
@@ -176,12 +158,11 @@ La tabella seguente fornisce informazioni dettagliate sugli eventi che è possib
 | SetScheduledRefresh |Questa attività viene registrata ogni volta che viene pianificato un nuovo aggiornamento per un set di dati |Nome del set di dati, Frequenza di aggiornamento (in minuti) |
 
 ## <a name="using-powershell-to-search"></a>Uso di PowerShell per la ricerca
+
 È possibile usare PowerShell per accedere ai log di controllo in base all'account di accesso. Per eseguire questa operazione, accedere a Exchange Online. Ecco un esempio di comando per effettuare il pull delle voci di log di controllo di Power BI.
 
 > [!NOTE]
 > Per usare il comando New-PSSession, all'account deve essere assegnata una licenza di Exchange Online ed è necessario l'accesso al Registro di controllo per il tenant.
-> 
-> 
 
 ```
 Set-ExecutionPolicy RemoteSigned
@@ -201,19 +182,23 @@ Per altre informazioni sui parametri e sull'utilizzo del comando Search-UnifiedA
 Per un esempio di uso di PowerShell per eseguire la ricerca nel Registro di controllo e quindi assegnare le licenze Power BI Pro basate sulle voci, vedere [Uso del Registro di controllo di Power BI e PowerShell per assegnare le licenze di Power BI Pro](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/).
 
 ## <a name="export-the-power-bi-audit-log"></a>Esportare il registro di controllo di Power BI
+
 È possibile esportare il registro di controllo di Power BI in un file csv.
 
 1. Selezionare **Esporta risultati**.
+
 2. Selezionare **Salva risultati caricati** o **Scarica tutti i risultati**.
    
    ![](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="record-and-user-types"></a>Tipi di record e di utenti
+
 I dettagli delle voci di log di controllo includeranno un parametro RecordType e un parametro UserType. Tutte le voci di Power BI avranno un parametro RecordType con valore 20.
 
 Per un elenco completo, vedere [Proprietà dettagliate nel log di controllo di Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="list-of-activities-audited-by-power-bi"></a>Elenco delle attività controllate da Power BI
+
 | Attività | Descrizione | Dettagli aggiuntivi |
 | --- | --- | --- |
 | CreateDashboard |Questa attività viene registrata ogni volta che viene creato un nuovo dashboard. |- Nome del dashboard. |
@@ -237,6 +222,7 @@ Per un elenco completo, vedere [Proprietà dettagliate nel log di controllo di O
 | OptInForProTrial |Questo evento viene registrato quando un utente sceglie di provare Power BI Pro all'interno del servizio. |- indirizzo di posta elettronica |
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Portale di amministrazione di Power BI](service-admin-portal.md)  
 [Power BI Premium: di cosa si tratta?](service-premium.md)  
 [Acquisto di Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
@@ -246,4 +232,3 @@ Per un elenco completo, vedere [Proprietà dettagliate nel log di controllo di O
 [Proprietà dettagliate nel log di controllo di Office 365](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-

@@ -1,6 +1,6 @@
 ---
-title: Pubblicare oggetti visivi personalizzati in Office Store
-description: Informazioni su come pubblicare l'oggetto visivo personalizzato in Office Store in modo che altri utenti possano individuarlo e usarlo.
+title: Pubblicare oggetti visivi personalizzati in AppSource
+description: Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo.
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Pubblicare oggetti visivi personalizzati in Office Store
-Informazioni su come pubblicare l'oggetto visivo personalizzato in Office Store in modo che altri utenti possano individuarlo e usarlo.
+# <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
+Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo. office
 
-Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo in Office Store in modo che altri utenti possano individuarlo e usarlo. A tale scopo, sono necessarie alcune operazioni preliminari. Per altre informazioni su come creare un oggetto visivo personalizzato, vedere [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md).
+Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo in AppSource in modo che altri utenti possano individuarlo e usarlo. A tale scopo, sono necessarie alcune operazioni preliminari. Per altre informazioni su come creare un oggetto visivo personalizzato, vedere [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-Che cos'è Office Store? In poche parole, è il posto in cui trovare le app (componenti aggiuntivi) per il software di Office 365. [Office Store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) connette milioni di utenti di Office 365 a soluzioni che li aiutano a lavorare in modo più efficiente, più intelligente o migliore rispetto a prima.
+Informazioni su AppSource In breve, è il posto in cui è possibile trovare app SaaS e componenti aggiuntivi per i prodotti e i servizi Microsoft. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) connette milioni di utenti di Office 365, Dynamics 365, Cortana Intelligence e altro ancora a soluzioni che li aiutano a lavorare in modo più efficiente, più intelligente o migliore rispetto a prima.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparazione per l'invio dell'oggetto visivo personalizzato
 Dopo aver terminato le operazioni di codifica e test dell'oggetto visivo personalizzato e averlo inserito in un pacchetto PBIVIZ, è necessario che quanto segue sia pronto per l'invio.
@@ -57,14 +57,14 @@ Allegare il file PBIVIZ e il file PBIX del report di esempio al messaggio. Il te
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Invio a Office Store
-Dopo aver ottenuto il file XML del pacchetto dell'app dal team di Power BI, passare al [centro per sviluppatori Office](https://sellerdashboard.microsoft.com/Application/Summary) per inviare l'oggetto visivo a Office Store.
+## <a name="submitting-to-appsource"></a>Invio ad AppSource
+Dopo aver ottenuto il file XML del pacchetto dell'app dal team di Power BI, passare al [centro per sviluppatori](https://sellerdashboard.microsoft.com/Application/Summary) per inviare l'oggetto visivo ad AppSource.
 
 > [!NOTE]
 > Per accedere al [centro per sviluppatori Office](https://dev.office.com/) occorre avere un account sviluppatore di Office valido, che deve essere un account Microsoft (Live ID, ad esempio hotmail.com o outlook.com).
 > 
 > [!IMPORTANT]
-> È necessario inviare un messaggio di posta elettronica con allegati il file PBIVIZ e il file PBIX al team di Power BI prima dell'invio in Office Store. In tal modo, il team di Power BI caricherà i file al server di condivisione pubblico. In caso contrario, Office Store non potrà recuperare i file. È necessario inviare i file con ogni nuovo invio di oggetti visivi, eseguire l'aggiornamento agli oggetti visivi esistenti e correzioni degli invii rifiutati da Office Store.
+> È necessario inviare un messaggio di posta elettronica con allegati il file PBIVIZ e il file PBIX al team di Power BI prima dell'invio ad AppSource. Ciò consente al team di Power BI di caricare i file nel server di condivisione pubblico. In caso contrario, lo Store non potrà recuperare i file. È necessario inviare i file con ogni nuovo invio di oggetti visivi, eseguire l'aggiornamento agli oggetti visivi esistenti e correzioni degli invii rifiutati.
 > 
 > 
 

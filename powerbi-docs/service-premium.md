@@ -1,5 +1,5 @@
 ---
-title: 'Contenuto Power BI Pro: di cosa si tratta?'
+title: 'Power BI Premium: di cosa si tratta?'
 description: "Power BI Premium offre una capacità dedicata all'organizzazione o al team, con prestazioni più affidabili e volumi di dati superiori, senza richiedere l'acquisto di licenze per ogni utente."
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/10/2017
+ms.date: 12/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 816f1151b6f49ace8151f1c26aee18a8c746ff08
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7c1536693490252029d51ddc619eaa7266095403
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium: di cosa si tratta?
 Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze per utente per i visualizzatori.
@@ -69,9 +69,13 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 
 * I nodi P possono essere usati per le distribuzioni di servizi o incorporate
 * I nodi EM possono essere usati solo per le distribuzioni incorporate
+* EM1 ed EM2 
+* I collegamenti disponibili in questa tabella funzionano correttamente solo per gli utenti che sono amministratori globali di Office 365. Gli altri utenti ricevono un errore di tipo 404. 
 
 | Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta | Disponibilità |
 | --- | --- | --- | --- | --- | --- | --- |
+| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0,5 core, 2,5GB di RAM |0,5 core |3,75 al secondo |150-300 |Disponibile |
+| [EM2 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-core |1 core, 5 GB di RAM |1 core |7,5 al secondo |301-600 |Disponibile |
 | [EM3 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-core |2 core, 10 GB di RAM |2 core | |601-1.200 |Disponibile |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-core |4 core, 25 GB di RAM |4 core |30 al secondo |1.201-2.400 |Disponibile (è disponibile anche l'opzione [mensile](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
 | [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-core |8 core, 50 GB di RAM |8 core |60 al secondo |2.401-4.800 |Disponibile |

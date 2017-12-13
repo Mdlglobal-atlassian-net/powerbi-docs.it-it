@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: c0689b969c1956d0344afb2bc8aef7bda32c159e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
@@ -43,6 +43,10 @@ Se il tempo è limitato, è possibile scorrere visivamente la guida in un paio d
 
 Per una comprensione migliore, è possibile leggere ogni sezione, eseguire i passaggi e creare un file di Power BI Desktop pronto per l'inserimento nel servizio **Power BI** e la condivisione con altri utenti.
 
+>[!NOTE]
+>È disponibile anche una versione separata e specializzata di **Power BI** denominata [**Server di report di Power BI**](report-server/get-started.md), destinata ai clienti che necessitano che i dati e i report rimangano locali. Per l'uso con tale versione specializzata è disponibile anche una versione separata e specializzata di **Power BI Desktop** denominata **Power BI Desktop per Server di report di Power BI**, che funziona solo con la versione Server di report di Power BI. Questo articolo illustra la versione standard di **Power BI Desktop**.
+
+
 ## <a name="how-power-bi-desktop-works"></a>Funzionamento di Power BI Desktop
 Power BI Desktop permette di *connettersi ai dati* (in genere più origini dati), *eseguire il data shaping* (con query che creano modelli di dati utili e accattivanti) e usare il modello per *creare report* (che altri utenti possono usare, ampliare e condividere).
 
@@ -51,6 +55,8 @@ Dopo avere completato i passaggi di connessione, data shaping e creazione di rep
 Power BI Desktop centralizza, semplifica e ottimizza quello che altrimenti sarebbe un processo confuso, disconnesso e complesso per la progettazione e la creazione di repository e report di business intelligence.
 
 Se si è pronti per un tentativo, è possibile iniziare subito.
+
+
 
 ## <a name="install-and-run-power-bi-desktop"></a>Installare ed eseguire Power BI Desktop
 È possibile scaricare Power BI Desktop dal servizio **Power BI** selezionando l'icona a forma di **ingranaggio** e quindi selezionando **Power BI Desktop**.

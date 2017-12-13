@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usare collegamenti OneDrive for Business in Power BI Desktop
 Molti utenti archiviano le cartelle di lavoro di Excel nell'unità OneDrive for Business, ottima per l'uso con Power BI Desktop. Con **Power BI Desktop** è possibile usare collegamenti online per file **Excel** archiviati in **OneDrive for Business** per creare report e oggetti visivi. È possibile usare un account di gruppo di **OneDrive for Business** oppure il proprio account **OneDrive for Business** personale.
@@ -37,7 +37,7 @@ Per ottenere un collegamento online da **OneDrive for Business** sono necessari 
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. In **Excel** selezionare **File > Informazioni** e quindi selezionare il collegamento sopra il pulsante **Proteggi cartella di lavoro**. Selezionare **Copia link negli Appunti**.
+2. In **Excel** selezionare **File > Informazioni** e quindi selezionare il collegamento sopra il pulsante **Proteggi cartella di lavoro**. Selezionare **Copia link negli Appunti**. È possibile che nella versione in uso venga visualizzato **Copia percorso negli Appunti**.
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

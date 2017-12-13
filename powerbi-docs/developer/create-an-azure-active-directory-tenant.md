@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Creare un tenant di Azure Active Directory da usare con Power BI
 Informazioni su come creare un nuovo tenant di Azure Active Directory (Azure AD) da usare con l'applicazione personalizzata tramite le API REST di Power BI.
@@ -33,7 +33,7 @@ Dopo aver creato un tenant di Azure AD, è possibile definire un'applicazione e 
 È possibile che l'organizzazione disponga già di un tenant di Azure AD da usare per l'applicazione. È possibile usare tale tenant per le esigenze dell'applicazione oppure è possibile creare un nuovo tenant specifico per l'applicazione. In questo articolo viene descritto come creare un nuovo tenant.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Creare un tenant di Azure Active Directory
-Per integrare Power BI nell'applicazione personalizzata, è necessario definire un'applicazione all'interno di Azure AD. A tale scopo, è necessario disporre di una directory all'interno di Azure AD, che sarà il tenant. Se l'organizzazione non dispone di un tenant, perché non usa Power BI oppure Office 365, sarà necessario crearne uno. È necessario crearne uno, se non si desidera che l'applicazione si combini con il tenant dell'organizzazione, per consentire all'utente di mantenere separato ciascun elemento.
+Per integrare Power BI nell'applicazione personalizzata, è necessario definire un'applicazione all'interno di Azure AD. A tale scopo, è necessario disporre di una directory all'interno di Azure AD, che sarà il tenant. Se l'organizzazione non dispone di un tenant, perché non usa Power BI oppure Office 365, [sarà necessario crearne uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). È necessario crearne uno, se non si desidera che l'applicazione si combini con il tenant dell'organizzazione, per consentire all'utente di mantenere separato ciascun elemento.
 
 In alternativa, è possibile creare un tenant a scopo di test.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 È possibile usare la sicurezza a livello di riga per limitare l'accesso utente ai dati in un report o in un set di dati e consentire a più utenti diversi di usare lo stesso report, visualizzando tutti dati differenti. La sicurezza a livello di riga è utile quando si incorporano i report da Power BI.
@@ -145,7 +145,7 @@ I ruoli possono essere forniti con l'identità in un token di incorporamento. Se
 * Il servizio Power BI non applicherà l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
 * Quando si chiama il metodo GenerateToken, il passaggio delle informazioni di identità è supportato solo per la lettura/scrittura dei report. Il supporto per altre risorse sarà disponibile in un secondo momento.
 * Sono supportate le connessioni dinamiche ad Analysis Services per i server locali.
-* Le connessioni in tempo reale ad Azure Analysis Services non sono supportate.
+* Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo ma non i filtri dinamici in base al nome utente.
 * Se il set di dati sottostante non richiede la sicurezza a livello di riga, la richiesta GenerateToken **non** deve contenere un'identità effettiva.
 * Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, l'assegnazione di ruolo non verrà eseguita.
 * Nell'elenco di identità è possibile specificare una sola identità. Viene usato un elenco per consentire l'abilitazione di token con più identità per l'incorporamento di dashboard in futuro.

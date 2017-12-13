@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI (anteprima)
 Con i **segnalibri** in Power BI, è possibile acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -152,7 +152,8 @@ Per questa versione in anteprima dei **Segnalibri** occorre tenere presenti alcu
 * Quando si crea un segnalibro, lo stato dell'evidenziazione incrociata per un riquadro di report *non* viene salvato. 
 * Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo verrà visualizzato nel suo stato predefinito. Questo significa anche se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporterà in base allo stato predefinito.
 * Se dopo aver creato un segnalibro gli oggetti visivi vengono spostati, le modifiche si rifletteranno nel segnalibro. 
-* *Deve* essere presente almeno un segnalibro nel report quando viene pubblicato nel **servizio Power BI** per poter usare la funzionalità per i segnalibri. Si tratta di un requisito per ogni report pubblicato.
+* È *necessario* avere almeno un segnalibro nel report quando lo si pubblica nel **servizio Power BI**, in modo da rendere disponibili i segnalibri nel servizio. Si tratta di un requisito per ogni report pubblicato.
+* Poiché i segnalibri sono attualmente una funzionalità in anteprima, non sono ancora disponibili in [**Power BI Desktop per il server di report**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni sulle funzionalità simili o su come interagire con i segnalibri, vedere gli articoli seguenti:
