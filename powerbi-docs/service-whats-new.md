@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
 In questa pagina sono disponibili informazioni sui problemi noti e sulle funzionalità rilasciate di recente nel **servizio Power BI**. per le relative informazioni incluse nelle "Novità", vedere:
@@ -167,7 +167,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 **28 aprile 2016**
 
-* [Informazioni rapide nei riquadri del dashboard](service-insights.md#run-quick-insights-on-a-dashboard-tile): quando si visualizza un riquadro in modalità messa a fuoco, è possibile fare clic su Ottieni informazioni dettagliate per cercare automaticamente nel riquadro e nei relativi dati correlazioni, outlier, tendenze, stagionalità, punti di modifica nelle tendenze e fattori principali in pochi secondi.
+* [Informazioni rapide nei riquadri del dashboard](service-insights.md): quando si visualizza un riquadro in modalità messa a fuoco, è possibile fare clic su Ottieni informazioni dettagliate per cercare automaticamente nel riquadro e nei relativi dati correlazioni, outlier, tendenze, stagionalità, punti di modifica nelle tendenze e fattori principali in pochi secondi.
 
 Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 

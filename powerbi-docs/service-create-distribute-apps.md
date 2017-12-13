@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Creare e pubblicare app con dashboard e report in Power BI
 
@@ -120,8 +120,6 @@ Quando i dashboard e i report nell'area di lavoro per le app sono pronti, è pos
      ![Contenuto dell'app](media/service-create-distribute-apps/power-bi-apps-content.png)
 
 4. In **Accesso** decidere infine chi avrà accesso all'app, ovvero tutti gli utenti dell'organizzazione o utenti specifici oppure gruppi di sicurezza di Active Directory. 
-   
-     ![Accesso all'app](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Quando si seleziona **Fine**, viene visualizzato un messaggio che conferma che l'app è pronta per la pubblicazione. Nella finestra di dialogo di operazione completata è possibile copiare l'URL, ossia il collegamento diretto a questa app, e inviarlo alle persone con cui è stata condivisa.
    

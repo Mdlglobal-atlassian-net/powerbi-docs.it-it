@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f505b27043e357b5cf1c01a0779634a948905dfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="printing-from-power-bi-service"></a>Stampa dal servizio Power BI
 È possibile stampare un intero dashboard, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.
@@ -54,7 +54,7 @@ Il video seguente illustra come stampare da dashboard e report. Seguire quindi t
 1. [Aprire il riquadro in modalità messa a fuoco](service-focus-mode.md) selezionando i puntini di sospensione e scegliendo l'icona della modalità messa a fuoco ![](media/service-print/power-bi-focus-icon.png).
    
     ![](media/service-print/menu-options.png)
-2. Per aprire il riquadro nella [modalità schermo intero](service-tile-fullscreen-mode.md), selezionare l'icona di tale modalità ![](media/service-print/power-bi-full-screen-icon.png) nella barra di spostamento superiore.
+2. Per aprire il riquadro nella [modalità schermo intero](service-fullscreen-mode.md), selezionare l'icona di tale modalità ![](media/service-print/power-bi-full-screen-icon.png) nella barra di spostamento superiore.
 3. Passare il puntatore sul riquadro per visualizzare il menu delle opzioni.
    
     ![](media/service-print/menu-options-new.png)
