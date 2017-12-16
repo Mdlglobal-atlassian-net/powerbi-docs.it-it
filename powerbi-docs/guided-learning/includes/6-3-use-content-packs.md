@@ -32,5 +32,5 @@ Tuttavia, è possibile modificare il dashboard, il report e persino il set di da
 
 I pacchetti di contenuto sono un semplice strumento per riutilizzare contenuto creato da altri utenti nell'organizzazione.
 
-Nella prossima lezione: [Creare un pacchetto di contenuto in Power BI](6-4-update-content-pack.md).
+Alla prossima lezione!
 
