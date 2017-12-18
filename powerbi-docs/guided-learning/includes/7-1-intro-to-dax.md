@@ -5,7 +5,7 @@ La sezione di **apprendimento guidato** di Power BI è stata progettata per forn
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX e la serie di video di apprendimento guidato
 L'obiettivo di questa sezione di **apprendimento guidato** consiste nel fornire informazioni di base essenziali su DAX, ovvero informazioni generali su DAX, informazioni sul funzionamento e sulle funzionalità più utili, in base a quanto illustrato (e appreso con molta esperienza) da un noto esperto di DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Descrizione di Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 I video in questa sezione di **apprendimento guidato** su **DAX** forniscono informazioni di base su DAX dal punto di vista del funzionamento del linguaggio delle formule DAX. Ciò risulta utile quando si creano formule DAX completamente nuove, ma è anche molto utile per comprendere il modo in cui Power BI crea le formule DAX quando si creano query nell'**Editor di query**.
 
