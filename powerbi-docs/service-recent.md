@@ -16,21 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/17/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 54c6ba317dbe4fa71c9001f190d724c3afd74313
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenuto **recente** nel servizio Power BI
-![](media/service-recent/power-bi-recent-screen.png)
+
 
 ## <a name="what-is-recent-content"></a>Che cos'è il contenuto recente
-Il contenuto di recente consiste negli ultimi 20 elementi visitati.  Sono inclusi: dashboard, report, app e cartelle di lavoro.
+Il contenuto recente è costituito dagli ultimi elementi visitati, per un massimo di 20 elementi.  Sono inclusi dashboard, report, app e cartelle di lavoro in tutte le aree di lavoro.
 
-![](media/service-recent/power-bi-recent.png)
+![](media/service-recent/power-bi-recent-screen.png)
 
 Il video seguente illustra come vengono popolati gli elenchi di contenuti **Recenti**. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
 

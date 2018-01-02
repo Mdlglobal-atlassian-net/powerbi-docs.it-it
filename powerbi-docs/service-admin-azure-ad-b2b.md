@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B
 
@@ -30,10 +30,7 @@ Power BI si integra con Azure Active Directory Business-to-business (AD B2B Azur
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> Questa funzionalità non è attualmente disponibile con Power BI per dispositivi mobili. 
-> 
-> 
-
+> Questa funzionalità non è attualmente disponibile nelle app Power BI per dispositivi mobili. In un dispositivo mobile è possibile visualizzare il contenuto di Power BI condiviso tramite Azure AD B2B in un browser. 
 
 ## <a name="invite-guest-users"></a>Invitare gli utenti guest
 
@@ -99,6 +96,12 @@ L'assegnazione di una licenza di Power BI Pro all'utente guest, all'interno del 
 L'utente guest ha già una licenza di Power BI Pro assegnata nel tenant.
 
 ![L'utente guest ha una licenza](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Limitazioni
+
+* Gli utenti guest B2B esterni possono esclusivamente utilizzare contenuto. Gli utenti B2B esterni possono visualizzare app, dashboard e report, esportare i dati e creare sottoscrizioni di posta elettronica per i dashboard e i report. Non possono accedere alle aree di lavoro o pubblicare contenuto personale.
+* Questa funzionalità non è attualmente disponibile nelle app Power BI per dispositivi mobili. In un dispositivo mobile è possibile visualizzare il contenuto di Power BI condiviso tramite Azure AD B2B in un browser.
+* L'utilizzo di utenti guest con Power BI non è supportato nei cloud sovrani (enti pubblici).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

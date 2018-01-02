@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: ef064c636880db5d1b6c6106fe742972a7ed3a3c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Presentazione dell'Esempio di analisi delle risorse umane per Power BI
 Il reparto Risorse umane ha lo stesso modello di reporting tra società diverse, anche quando si differenziano per settore o dimensioni. In questo esempio vengono esaminati nuovi assunti, dipendenti attivi ed ex dipendenti e prova a rilevare eventuali tendenze nella strategia di assunzione. Gli obiettivi principali sono quelli di comprendere:
@@ -36,7 +36,7 @@ Questo esempio fa parte di una serie che illustra come usare Power BI con dati, 
 
 Per iniziare, nel [servizio Power BI](https://powerbi.com) passare a **Recupera dati > Esempi > Esempio di analisi delle risorse umane > Connetti** per ottenere una copia dell'esempio.
 
-È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) per questo esempio.
+È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
 
 ## <a name="new-hires"></a>Nuovi assunti
 Esaminare prima di tutto i nuovi assunti.

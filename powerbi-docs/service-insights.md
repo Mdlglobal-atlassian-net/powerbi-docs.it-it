@@ -1,6 +1,6 @@
 ---
-title: Ottenere Informazioni rapide in Power BI
-description: Documentazione relativa all'esecuzione e all'uso di Informazioni rapide con il servizio Power BI.
+title: Generare automaticamente informazioni dettagliate sui dati con Power BI
+description: Informazioni su come ottenere informazioni dettagliate su riquadri del dashboard e set di dati.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,32 +16,32 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: 8b069f29737992817d20396007864cc8c005ca99
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
-# <a name="quick-insights-with-power-bi"></a>Informazioni rapide con Power BI
-Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si vuole cercare rapidamente gli approfondimenti persi?
+# <a name="automatically-generate-data-insights-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
+Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si desidera cercare le informazioni dettagliate perse?
 
-Eseguire Informazioni rapide per generare visualizzazioni interattive interessanti basate sui dati. Informazioni rapide può essere eseguito in un intero set di dati (Informazioni rapide) o in un riquadro del dashboard specifico (Informazioni rapide con ambito). È anche possibile eseguire Informazioni rapide per un'informazione dettagliata.
+Eseguire Informazioni rapide per generare visualizzazioni interattive interessanti basate sui dati. La funzionalità Informazioni rapide può essere eseguita su un intero set di dati (Informazioni rapide) o in un riquadro del dashboard specifico (Informazioni rapide con ambito). È anche possibile generare informazioni dettagliate su un'informazione dettagliata.
 
 > **NOTA**: Informazioni rapide non funziona con DirectQuery, ma solo con i dati caricati in Power BI.
 > 
 > 
 
-La funzionalità Quick Insights si basa su un [set di algoritmi analitici avanzati](service-insight-types.md) sviluppati in collaborazione con Microsoft Research per consentire a più utenti di trovare informazioni dettagliate nei loro dati in modi nuovi e intuitivi.
+La funzionalità Informazioni dettagliate si basa su un [set di algoritmi analitici avanzati](service-insight-types.md) sviluppati in collaborazione con Microsoft Research per consentire a più utenti di trovare informazioni dettagliate nei propri dati in modi nuovi e intuitivi.
 
-## <a name="run-quick-insights-on-a-dataset"></a>Eseguire Informazioni rapide in un set di dati
-Il video seguente illustra come eseguire Informazioni rapide su un set di dati, aprire un'informazione in modalità messa a fuoco, aggiungere una di queste informazioni rapide come riquadro nel dashboard e ottenere informazioni rapide per un oggetto visivo.
+## <a name="run-quick-insights-on-a-dataset"></a>Eseguire Informazioni rapide su un set di dati
+Il video seguente illustra come eseguire Informazioni rapide su un set di dati, aprire un'informazione dettagliata nella modalità messa a fuoco, aggiungere un'informazione dettagliata come riquadro al dashboard e quindi ottenere informazioni dettagliate per un riquadro del dashboard.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
 
-Passare ora all'azione. Esplorare Informazioni rapide usando l'[esempio di analisi della qualità dei fornitori](sample-supplier-quality.md).
+Passare ora all'azione. Esplorare le informazioni dettagliate usando l'[esempio di analisi della qualità dei fornitori](sample-supplier-quality.md).
 
 1. Nella scheda **Set di dati** fare clic sui puntini di sospensione (...) e scegliere **Ottieni informazioni dettagliate**.
    
@@ -51,22 +51,22 @@ Passare ora all'azione. Esplorare Informazioni rapide usando l'[esempio di anali
 2. Power BI usa [vari algoritmi](service-insight-types.md) per cercare le tendenze nel set di dati.
    
     ![](media/service-insights/pbi_autoinsightssearching.png)
-3. Entro pochi secondi, le informazioni sono pronte.  Selezionare **Visualizza approfondimenti** per visualizzare le visualizzazioni.
+3. Entro pochi secondi, le informazioni sono pronte.  Selezionare **Visualizza informazioni dettagliate** per vedere le visualizzazioni.
    
     ![](media/service-insights/pbi_autoinsightsuccess.png)
    
-   > **NOTA**: alcuni set di dati non possono generare informazioni rapide perché i dati non sono statisticamente significativi.  Per altre informazioni, vedere [Ottimizzare i dati per Informazioni rapide](service-insights-optimize.md).
+   > **NOTA**: alcuni set di dati non possono a generare informazioni dettagliate perché i dati non sono significativi dal punto di vista statistico.  Per altre informazioni, vedere [Ottimizzare i dati per Informazioni rapide](service-insights-optimize.md).
    > 
    > 
-4. Le visualizzazioni appaiono in un apposito canvas di **Informazioni rapide** con un massimo di 32 schede separate di informazioni. Ogni scheda contiene un grafico o un grafico con una breve descrizione.
+1. Le visualizzazioni appaiono in un apposito canvas di **Informazioni rapide** con un massimo di 32 schede separate di informazioni. Ogni scheda contiene un grafico o un grafico con una breve descrizione.
    
     ![](media/service-insights/power-bi-insights.png)
 
-## <a name="interact-with-the-quick-insight-cards"></a>Interagire con le schede di Informazioni rapide
+## <a name="interact-with-the-insight-cards"></a>Interagire con le schede di informazioni dettagliate
   ![](media/service-insights/pbi_hover.png)
 
 1. Passare il puntatore del mouse su una scheda e selezionare l'icona a forma di puntina per aggiungere la visualizzazione a un dashboard.
-2. Passare il mouse su una scheda e selezionare l'icona della modalità messa a fuoco per visualizzare la scheda a schermo intero.
+2. Passare il puntatore del mouse su una scheda, selezionare i puntini di sospensione (...) e scegliere **Visualizza informazioni dettagliate**. Le informazioni dettagliate verranno aperte a schermo intero.
    
     ![](media/service-insights/power-bi-insight-focus.png)
 3. In questa modalità è possibile:
@@ -75,30 +75,24 @@ Passare ora all'azione. Esplorare Informazioni rapide usando l'[esempio di anali
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Per aggiungere la scheda delle informazioni dettagliate a un dashboard, selezionare l'icona di aggiunta ![](media/service-insights/power-bi-pin-icon.png) o **Aggiungi oggetto visivo**.
-   * Eseguire Informazioni rapide nella scheda stessa. Questa modalità d'uso è nota anche come **Informazioni rapide con ambito**. Nell'angolo superiore destro selezionare l'icona a forma di lampadina ![](media/service-insights/power-bi-bulb-icon.png) oppure **Ottieni informazioni dettagliate**.
+   * Eseguire le informazioni dettagliate nella scheda stessa. Questa modalità d'uso è nota anche come **informazioni dettagliate con ambito**. Nell'angolo superiore destro selezionare l'icona a forma di lampadina ![](media/service-insights/power-bi-bulb-icon.png) oppure **Ottieni informazioni dettagliate**.
      
        ![](media/service-insights/pbi-autoinsights-tile.png)
      
-     L'informazione rapida viene visualizzata a sinistra, mentre le nuove schede, basate esclusivamente sui dati presenti in quell'informazione, vengono visualizzate a destra.
+     Le informazioni dettagliate vengono visualizzate a sinistra, mentre le nuove schede, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.
      
        ![](media/service-insights/power-bi-insights-on-insights-new.png)
-4. Per tornare all'area di disegno originale di Informazioni rapide, nell'angolo superiore sinistro selezionare **Esci dalla modalità messa a fuoco**.
+4. Per tornare all'area di disegno originale delle informazioni dettagliate, nell'angolo superiore sinistro selezionare **Esci dalla modalità messa a fuoco**.
 
-## <a name="run-quick-insights-on-a-dashboard-tile"></a>Eseguire Informazioni rapide in un riquadro del dashboard
-Invece di cercare informazioni dettagliate in un intero set di dati, è possibile limitare la ricerca ai dati usati per creare un singolo riquadro del dashboard. Questa modalità d'uso è nota anche come **Informazioni rapide con ambito**.
+## <a name="run-insights-on-a-dashboard-tile"></a>Eseguire informazioni dettagliate su un riquadro del dashboard
+Invece di cercare informazioni dettagliate in un intero set di dati, è possibile limitare la ricerca ai dati usati per creare un singolo riquadro del dashboard. Anche questa modalità d'uso è nota come **informazioni dettagliate con ambito**.
 
 1. Aprire un dashboard.
-2. Selezionare un riquadro e [aprire il riquadro nella modalità messa a fuoco](service-focus-mode.md).
-3. Nell'angolo in alto a destra selezionare **Ottieni informazioni dettagliate**.
+2. Passare il mouse su un riquadro. Selezionare i puntini di sospensione (...) e scegliere **Visualizza informazioni dettagliate**. Il riquadro verrà aperto in [modalità messa a fuoco](service-focus-mode.md) con le schede delle informazioni dettagliate visualizzate sul lato destro.    
    
-    ![](media/service-insights/pbi-autoinsights-tile.png)
-4. Power BI visualizza le schede di informazioni dettagliate sul lato destro del riquadro.
-   
-    ![](media/service-insights/pbi-insights-tile.png)
-5. Se un approfondimento attira l'interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. L'informazione rapida selezionata viene visualizzata a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in quell'informazione rapida, vengono visualizzate a destra.
-6. Continuare l'approfondimento dei dati e quando si trova un'informazione rapida interessante, aggiungere il relativo oggetto visivo al dashboard selezionando **Aggiungi oggetto visivo** nell'angolo superiore destro. È anche possibile inviare un commento per informare il proprietario del set di dati se una particolare informazione rapida è stata utile o meno.
-   
-    ![](media/service-insights/useful.png)
+    ![](media/service-insights/pbi-insights-tile.png)    
+4. Se un approfondimento attira l'interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. Le informazioni dettagliate selezionate vengono visualizzate a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.    
+6. Continuare a esaminare i dati e quando si osserva un'informazione dettagliata interessante, aggiungerla al dashboard selezionando **Aggiungi oggetto visivo** nell'angolo superiore destro.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Se è disponibile un set di dati, [ottimizzarlo per Informazioni rapide](service-insights-optimize.md).

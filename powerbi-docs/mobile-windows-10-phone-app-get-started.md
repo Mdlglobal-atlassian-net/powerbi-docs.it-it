@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: cff6a984f4c3d47bbf7dcd3df43253c318b2bf50
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 97fb3625848210f6222317cf3fc48eea305ef04d
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introduzione all'app Power BI per dispositivi mobili per Windows 10
 Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile accedere a informazioni aziendali aggiornate tramite tablet o telefoni abilitati per il tocco, nonché visualizzare e interagire con i dashboard aziendali ovunque ci si trovi, direttamente dalla [schermata Start di Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -35,10 +35,8 @@ Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile acced
 ## <a name="first-things-first"></a>Operazioni preliminari
 * [**Scaricare l'app Power BI per dispositivi mobili per Windows 10**](http://go.microsoft.com/fwlink/?LinkID=526478) da Windows Store.
   
-  > [!NOTE]
-  > Il dispositivo deve eseguire Windows 10. L'app funziona al meglio su dispositivi con almeno 2 GB di RAM e 8 GB di memoria interna. Può essere eseguita su dispositivi con almeno 1 GB di RAM.
-  > 
-  > 
+  Il dispositivo deve eseguire Windows 10. L'app può essere eseguita in dispositivi con almeno 3 GB di RAM e 8 GB di spazio di archiviazione interno.
+   
 * Informazioni sulle [Novità delle app Power BI per dispositivi mobili](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Iscriversi al servizio Power BI sul Web
