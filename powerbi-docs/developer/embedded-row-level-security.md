@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
-È possibile usare la sicurezza a livello di riga per limitare l'accesso utente ai dati in un report o in un set di dati e consentire a più utenti diversi di usare lo stesso report, visualizzando tutti dati differenti. La sicurezza a livello di riga è utile quando si incorporano i report da Power BI.
+La sicurezza a livello di riga può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Più utenti diversi possono usare gli stessi elementi visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.
 
 Se si incorporano dati per utenti non Power BI (i dati sono di proprietà dell'app), ovvero un tipico scenario ISV, leggere questo articolo. Sarà necessario configurare il token di incorporamento per l'utente e il ruolo. Ecco come eseguire questa operazione.
 
@@ -34,7 +34,7 @@ Se la condivisione viene effettuata con utenti di Power BI (i dati sono di propr
 
 Per sfruttare al meglio la sicurezza a livello di riga, è importante comprendere tre concetti fondamentali, ovvero utenti, ruoli e regole, che verranno ora analizzati più in dettaglio:
 
-**Utenti**: si tratta degli utenti finali effettivi che visualizzano i report. In Power BI Embedded gli utenti vengono identificati tramite la proprietà username in un token di incorporamento.
+**Utenti**: gli utenti finali visualizzano l'elemento (dashboard, riquadro, report o set di dati). In Power BI Embedded gli utenti vengono identificati tramite la proprietà username in un token di incorporamento.
 
 **Ruoli**: gli utenti appartengono a ruoli. Un ruolo è un contenitore di regole e può essergli assegnato un nome simile a *Responsabile vendite* o *Rappresentante vendite*. I ruoli vengono creati in Power BI Desktop. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI Desktop](../desktop-rls.md).
 
@@ -85,11 +85,11 @@ A questo punto, dopo aver configurato i ruoli di Power BI Desktop, per usare i r
 
 Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di incorporamento vengono usati per concedere l'accesso utente a un report specifico di Power BI Embedded. Power BI Embedded non ha informazioni specifiche sull'identità dell'utente. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare altre informazioni del contesto come parte del token di incorporamento sotto forma di identità. Per questa operazione, si userà l'API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
-L'API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Attualmente, è possibile specificare una sola identità. In futuro verrà aggiunto il supporto per più set di dati, per l'incorporamento di dashboard. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare quanto segue come parte dell'identità.
+L'API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare quanto segue come parte dell'identità.
 
 * **username (obbligatoria)**: questa stringa può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente.
 * **roles (obbligatoria)**: stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, sarà necessario passarli come matrice di stringhe.
-* **dataset (obbligatoria)**: set di dati applicabile per il report che verrà incorporato. Nell'elenco dei set di dati è possibile specificare un solo set di dati. In futuro verrà aggiunto il supporto per più set di dati, per l'incorporamento di dashboard.
+* **dataset (obbligatoria)**: set di dati applicabile per l'elemento che verrà incorporato. 
 
 Per creare il token di incorporamento, usare il metodo **GenerateTokenInGroup** su **PowerBIClient.Reports**. Attualmente, sono supportati solo i report.
 
@@ -125,7 +125,7 @@ Se si chiama l'API REST, l'API aggiornata ora accetta una matrice JSON aggiuntiv
 }
 ```
 
-Ora, dopo aver eseguito tutti i passaggi, quando un utente effettua l'accesso all'applicazione per visualizzare questo report, potrà visualizzare solo i dati che è autorizzato a vedere, come definito dalla sicurezza a livello di riga.
+Ora, dopo aver eseguito tutti i passaggi, quando un utente effettua l'accesso all'applicazione per visualizzare questo elemento, potrà visualizzare solo i dati che è autorizzato a vedere, come definito dalla sicurezza a livello di riga.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Uso di connessioni dinamiche ad Analysis Services
 La sicurezza a livello di riga può essere usata solo con le connessioni in tempo reale di Analysis Services per i server locali. Esistono alcuni concetti specifici che è bene conoscere quando si usa questo tipo di connessione.
@@ -143,12 +143,11 @@ I ruoli possono essere forniti con l'identità in un token di incorporamento. Se
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
 * Il servizio Power BI non applicherà l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
-* Quando si chiama il metodo GenerateToken, il passaggio delle informazioni di identità è supportato solo per la lettura/scrittura dei report. Il supporto per altre risorse sarà disponibile in un secondo momento.
 * Sono supportate le connessioni dinamiche ad Analysis Services per i server locali.
 * Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo ma non i filtri dinamici in base al nome utente.
 * Se il set di dati sottostante non richiede la sicurezza a livello di riga, la richiesta GenerateToken **non** deve contenere un'identità effettiva.
-* Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, l'assegnazione di ruolo non verrà eseguita.
-* Nell'elenco di identità è possibile specificare una sola identità. Viene usato un elenco per consentire l'abilitazione di token con più identità per l'incorporamento di dashboard in futuro.
+* Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, non verrà eseguita l'assegnazione di ruolo.
+* Un elenco di identità consente più token di identità per l'incorporamento del dashboard. Per tutti gli altri elementi l'elenco contiene una singola identità.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

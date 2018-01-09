@@ -1,6 +1,6 @@
 ---
 title: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
-description: Informazioni su come impostare avvisi nelle app Power BI per dispositivi mobili e nel servizio Power BI in modo da ricevere una notifica quando i dati in un dashboard superano i limiti impostati.
+description: Informazioni su come impostare avvisi nelle app Power BI per dispositivi mobili in modo da ricevere una notifica quando i dati in un dashboard superano i limiti impostati.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 822285a38e08f173ff8cae69c8e7e8ad94957692
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c6406a6d1ad4269352ce8421b91f4304fd35c78f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -30,7 +30,9 @@ Si applica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
 
-È possibile impostare avvisi nelle app Power BI per dispositivi mobili e nel servizio Power BI in modo da ricevere una notifica quando i dati in un dashboard superano i limiti impostati. Gli avvisi possono essere usati con i riquadri in cui è presente un singolo numero, ad esempio le schede e i misuratori, ma non con i dati di streaming. Gli avvisi per i dati possono essere impostati in un dispositivo mobile e visualizzati nel servizio Power BI e viceversa. Gli avvisi per i dati sono visibili solo all'utente che li ha impostati, anche se si condivide un dashboard o uno snapshot di un riquadro.
+È possibile impostare gli avvisi sui dashboard nell'app Power BI per dispositivi mobili e nel servizio Power BI. Gli avvisi segnalano eventuali modifiche apportate ai dati in un riquadro che superano i limiti impostati. Gli avvisi possono essere usati con i riquadri in cui è presente un singolo numero, ad esempio le schede e i misuratori, ma non con i dati di streaming. Gli avvisi per i dati possono essere impostati in un dispositivo mobile e visualizzati nel servizio Power BI e viceversa. Gli avvisi per i dati sono visibili solo all'utente che li ha impostati, anche se si condivide un dashboard o uno snapshot di un riquadro.
+
+È possibile impostare avvisi sui riquadri se si ha una licenza di Power BI Pro oppure se si ha una licenza gratuita di Power BI e il dashboard condiviso è disponibile in una capacità Premium. 
 
 > [!WARNING]
 > Le notifiche di avviso basate sui dati forniscono informazioni sui dati. Se il dispositivo viene rubato, è consigliabile disattivare tutte le regole di avviso basate sui dati usando il servizio Power BI. 

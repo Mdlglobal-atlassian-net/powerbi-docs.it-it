@@ -1,6 +1,6 @@
 ---
-title: Impostazioni di visualizzazione della pagina in un report di Power BI
-description: Impostazioni di visualizzazione della pagina in un report di Power BI
+title: Impostazioni di visualizzazione della pagina per un report
+description: Impostazioni di visualizzazione della pagina per un report
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Impostazioni di visualizzazione della pagina in un report di Power BI
 È essenziale mantenere i pixel del layout del report in condizioni perfette. A volte può essere complesso perché gli utenti visualizzano i report su schemi con proporzioni e dimensioni diverse. 
@@ -32,21 +32,43 @@ La visualizzazione predefinita è **Adatta alla pagina** e le dimensioni di visu
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>Impostazioni di Visualizzazione pagina
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Dove trovare le impostazioni di visualizzazione pagina nel servizio Power BI e in Power BI Desktop
+Le impostazioni di visualizzazione pagina sono disponibili sia nel servizio Power BI sia in Power BI Desktop, con un'interfaccia leggermente diversa. Le due sezioni seguenti spiegano dove si trovano le impostazioni di visualizzazione in ogni strumento Power BI.
 
-Le impostazioni di *Visualizzazione pagina* consentono di controllare la visualizzazione della pagina del report relativa alla finestra del browser.  È possibile scegliere tra:
+### <a name="in-power-bi-desktop"></a>In Power BI Desktop
+In visualizzazione Report selezionare la scheda **Visualizza** per aprire le impostazioni di visualizzazione pagina e le impostazioni per il layout telefono.
+
+  ![riquadro di selezione](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>Nel servizio Power BI (app.powerbi.com)
+Nel servizio Power BI aprire un report e selezionare **Visualizza** nella barra dei menu superiore sinistra.
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+Le impostazioni di Visualizzazione pagina sono disponibili in [Visualizzazione di lettura](service-interact-with-a-report-in-reading-view.md) e [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md). In Visualizzazione di modifica il proprietario del report può assegnare le 'impostazioni di Visualizzazione pagina a singole pagine del report e queste impostazioni vengono salvate insieme al report. Quando i colleghi aprono il report nella Visualizzazione di lettura, visualizzano le pagine del report con le impostazioni scelte dal proprietario.  In Visualizzazione di lettura i colleghi possono cambiare *alcune* impostazioni di visualizzazione pagina, ma le modifiche non vengono salvate all'uscita dal report.
+
+##    <a name="page-view-settings"></a>Impostazioni di Visualizzazione pagina
+Il primo set di impostazioni di *Visualizzazione pagina* consente di controllare la visualizzazione della pagina del report relativa alla finestra del browser.  È possibile scegliere tra:
 
 * **Adatta alla pagina** (impostazione predefinita): il contenuto viene ridimensionato in modo che esso si adatti alla pagina
 * **Adatta alla larghezza**: il contenuto viene ridimensionato in modo che esso si adatti alla larghezza della pagina
 * **Dimensioni effettive**: il contenuto viene visualizzato a schermo intero
 
-Le impostazioni di Visualizzazione pagina sono disponibili in [Visualizzazione di lettura](service-interact-with-a-report-in-reading-view.md) e [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md). In Visualizzazione di modifica il proprietario del report può assegnare un'impostazione di Visualizzazione pagina a singole pagine del report e queste impostazioni vengono salvate insieme al report. Quando una collega apre il report nella Visualizzazione di lettura, visualizza le pagine del report con le impostazioni scelte dal proprietario.  Tuttavia, quando usa il report nella Visualizzazione di lettura, può modificare temporaneamente le impostazioni di Visualizzazione pagina.  Quando chiude il report, le impostazioni di Visualizzazione pagina tornano a quelle impostate dal proprietario del report.
+Il secondo set di impostazioni di *Visualizzazione pagina* consente di controllare il posizionamento degli oggetti nell'area di disegno del report
+
+* **Mostra la griglia**: attivare la griglia per posizionare gli oggetti nell'area di disegno del report
+* **Blocca sulla griglia**: usare questa opzione con **Mostra la griglia** per posizionare e allineare gli oggetti sull'area di disegno del report 
+* **Blocca oggetti**: blocca tutti gli oggetti nell'area di disegno per impedirne lo spostamento o il ridimensionamento
+* **Riquadro di selezione**: elenca tutti gli oggetti nell'area di disegno e consente di selezionare gli oggetti da visualizzare e quelli da nascondere
+
+    ![riquadro di selezione](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>Impostazioni di Dimensioni pagina
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-Le impostazioni di *Dimensioni pagina* controllano le proporzioni di visualizzazione e le dimensioni effettive (in pixel).  Le impostazioni delle dimensioni della pagina sono disponibili solo nella visualizzazione di modifica.
+Le impostazioni di *Dimensioni pagina* sono disponibili solo per i proprietari dei report. Nel servizio Power BI (app.powerbi.com) significa quindi che sono disponibili solo se si può aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md). Queste impostazioni controllano le proporzioni di visualizzazione e le dimensioni effettive (in pixel) dell'area di disegno del report.   
 
 * proporzioni 4:3
 * proporzioni 16:9 (impostazione predefinita)

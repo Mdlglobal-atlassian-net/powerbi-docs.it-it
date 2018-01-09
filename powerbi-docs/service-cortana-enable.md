@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6c096cfb76a1d8697cef3d157efcda41e57a1510
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b18157f28dcaf2e9b130bdc3bd5547312e45a4f9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Abilitare Cortana per l'accesso ai report di Power BI e ai rispettivi set di dati sottostanti
 Si è letto l'argomento [Introduzione a Cortana per Power BI](service-cortana-intro.md) (in caso contrario, è preferibile leggerlo prima di procedere). Ora si è pronti per provare in autonomia.  Prima di porre domande in linguaggio naturale in Cortana e trovare le risposte dai dati archiviati nei ***report*** di Power BI, è necessario che siano soddisfatti alcuni requisiti. In particolare, sono necessari gli elementi seguenti.
@@ -47,11 +47,10 @@ L'abilitazione dei report in Power BI per l'accesso da parte di Cortana è un pr
 2. Il set di dati associato a questo report è **Contoso Sales**.
    
     ![Set di dati Contoso Sales](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. Nell'angolo in alto a destra del servizio Power BI selezionare l'icona della ruota dentata e scegliere **Impostazioni**.
+3. A destra del nome del set di dati selezionare i **puntini di sospensione (...) > Impostazioni**.  
    
-    ![Scegliere le impostazioni](media/service-cortana-enable/power-bi-cortana-settings.png)
-4. Selezionare la scheda **Set di dati** e scegliere il set di dati da abilitare per Cortana nell'elenco a sinistra.
-5. Selezionare **Domande e risposte e Cortana** > **Consenti a Cortana di accedere a questo set di dati** > **Applica**.
+    ![Scegliere le impostazioni](media/service-cortana-enable/power-bi-settings-cortana.png)
+4. Selezionare **Domande e risposte e Cortana** > **Consenti a Cortana di accedere a questo set di dati** > **Applica**.
    
    ![Accesso di Cortana al set di dati](media/service-cortana-enable/power-bi-cortana-enable-new.png)
    
@@ -67,16 +66,19 @@ L'abilitazione dei report in Power BI per l'accesso da parte di Cortana è un pr
 ## <a name="add-your-power-bi-credentials-to-windows"></a>Aggiungere le proprie credenziali di Power BI a Windows
 È necessario che sia in esecuzione Windows 10 versione 1511 o versioni successive.
 
-1. Determinare quale versione di Windows 10 è in esecuzione. Aprire **Impostazioni** > **Sistema** > **Informazioni**.
-   
+1. Determinare quale versione di Windows 10 è in esecuzione. Aprire **Impostazioni**.
+    ![Aprire Impostazioni di Windows](media/service-cortana-enable/power-bi-cortana-windows.png)
+
+    Selezionare quindi **Sistema > Informazioni**. Nella parte inferiore dello schermo verrà visualizzato **Specifiche Windows > Versione**
+
    * Se si ha una versione di Windows 10 compresa tra la 1511 (aggiornamento di Windows 10 di novembre 2015) e la 1607, aggiungere l'account aziendale o dell'istituto di istruzione e l'account Microsoft (completare i passaggi 2 e 3 riportati sotto).
    * Se si ha Windows 10 versione 1607 (aggiornamento di Windows 10 di luglio 2016) o versioni successive, aggiungere l'account aziendale o dell'istituto di istruzione (completare solo il passaggio 2 riportato sotto).
-2. Aggiungere l'account aziendale o dell'istituto di istruzione per Cortana.
+1. Aggiungere l'account aziendale o dell'istituto di istruzione per Cortana.
    
    * Aprire **Impostazioni** > **Account**.
      
        ![Impostazioni - Account](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Scorrere fino alla fine e selezionare **Aggiungi un account aziendale o dell'istituto di istruzione**.
+   * Scorrere fino alla fine e selezionare **Aggiungi un account aziendale o dell'istituto di istruzione**. In alternativa, dalla pagina **Account** selezionare **Accedi all'azienda o all'istituto di istruzione > Connetti**.
      
      ![Aggiungere un account aziendale](media/service-cortana-enable/power-bi-add-work-account2.png)
 

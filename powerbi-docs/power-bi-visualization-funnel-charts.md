@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Grafici a imbuto (esercitazione)
 Un grafico a imbuto consente di visualizzare un processo lineare caratterizzato da fasi connesse in sequenza, ad esempio un imbuto di vendita che tiene traccia dei clienti nelle fasi Lead \> Lead qualificato \> Cliente potenziale \> Contratto \> Chiusura.  La forma dell'imbuto indica a colpo d'occhio lo stato del processo di cui si sta tenendo traccia.
@@ -59,15 +59,15 @@ Questo video mostra come creare un grafico a imbuto usando l’esempio di analis
 
 Creare ora un grafico a imbuto che mostri il numero di opportunità presenti nelle fasi di vendita.
 
-Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguire la procedura, [scaricare l'esempio](sample-datasets.md), accedere a Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle opportunità \> Connetti**.
+Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguire le istruzioni, [scaricare l'esempio](sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Iniziare in una [pagina di report vuota](power-bi-report-add-page.md) nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) e selezionare il campo **SalesStage** \> **Fase vendite**.  
+1. Iniziare in una [pagina di report vuota ](power-bi-report-add-page.md) e selezionare il campo **SalesStage** \> **Sales Stage**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
    
     ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Convertire il grafico](power-bi-report-change-visualization-type.md) in un imbuto. Si noti che **Fase vendite** è anche nel **gruppo** . 
 3. Dal riquadro **Campi**, selezionare **Fact** \> **Opportunity Count**.
    
-    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+    ![](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
 4. Quando si passa il puntatore del mouse su una barra, vengono visualizzate molte informazioni.
    
    * Il nome della fase
@@ -90,14 +90,13 @@ Evidenziando una barra in un grafico a imbuto viene applicato il filtro incrocia
 2. Per impostare le preferenze di evidenziazione incrociata e filtro incrociato degli oggetti visivi, vedere [Interazioni con oggetti visivi in Power BI](service-reports-visual-interactions.md).
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Creare un grafico a imbuto in Domande e risposte
-Evidenziare il dashboard in cui è stata aggiunta almeno una visualizzazione dal set di dati "Opportunity Tracking".  Quando si digita una domanda in Domande e risposte, Power BI cercare le risposte in tutti i set di dati associati (o con riquadri aggiunti) al dashboard selezionato. Per altre informazioni, vedere [Power BI - Concetti di base](service-basic-concepts.md).
+Aprire il dashboard dell'Esempio di analisi delle opportunità o qualsiasi altro dashboard a cui è stata aggiunta almeno una visualizzazione dal set di dati dell'Esempio di analisi delle opportunità.  Quando si digita una domanda in Domande e risposte, Power BI cercare le risposte in tutti i set di dati associati (o con riquadri aggiunti) al dashboard selezionato. Per altre informazioni, vedere [Power BI - Concetti di base](service-basic-concepts.md).
 
-1. Evidenziare un dashboard a cui è stato aggiunto almeno un riquadro dal set di dati Opportunity Tracking.
-2. Iniziare a digitare la domanda nella casella della domanda in Domande e risposte.
+1. Nel dashboard dell'Esempio di analisi delle opportunità iniziare a digitare la domanda nella casella Domande e risposte.
    
    ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
    
-   Aggiungere "come imbuto" per indicare a Power BI quale tipo di visualizzazione si preferisce.
+2. Aggiungere "come imbuto" per indicare a Power BI quale tipo di visualizzazione si preferisce.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

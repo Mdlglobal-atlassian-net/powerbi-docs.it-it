@@ -15,15 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: e12b14a73ba63d64d39f296db602e57ceedc5523
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3d6c3f59611a515ea6a2188457cc80c31a7693ce
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Lingue e paesi/aree geografiche supportate per Power BI
+
+Questo articolo fornisce l'elenco di lingue e paesi/aree geografiche supportati per il servizio Power BI, Power BI Desktop e la documentazione di Power BI.
+
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Paesi e aree geografiche in cui Power BI è disponibile
 Per conoscere i paesi e le aree geografiche in cui Power BI è disponibile, vedere questo [elenco relativo alla disponibilità internazionale](https://products.office.com/business/international-availability). 
 
@@ -75,7 +78,7 @@ Il servizio Power BI (nel browser) è disponibile nelle 42 lingue seguenti:
 * Ucraino - українська
 * Vietnamita - Tiếng Việt
 
-## <a name="whats-translated"></a>Elementi tradotti
+### <a name="whats-translated"></a>Elementi tradotti
 Menu, pulsanti, messaggi ed altri elementi dell'esperienza sono tradotti nelle varie lingue e consentono di esplorare e interagire facilmente con Power BI.
 
 Al momento alcune funzionalità sono disponibili solo in inglese:
@@ -85,22 +88,22 @@ Al momento alcune funzionalità sono disponibili solo in inglese:
 
 In futuro è prevista l'aggiunta di ulteriori funzionalità in altre lingue. 
 
-## <a name="choose-your-language-in-the-power-bi-service"></a>Scegliere la lingua nel servizio Power BI
+### <a name="choose-your-language-in-the-power-bi-service"></a>Scegliere la lingua nel servizio Power BI
 1. Nel servizio Power BI selezionare l'icona **Impostazioni** ![icona Impostazioni](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Impostazioni**.
 2. Nella scheda **Generale** > **Lingua**.
 3. Selezionare la lingua > **Applica**.
 
-## <a name="choose-your-language-in-the-browser"></a>Scegliere la lingua nel browser
+### <a name="choose-your-language-in-the-browser"></a>Scegliere la lingua nel browser
 Power BI rileva la lingua in base alle preferenze del computer usato. Le modalità di accesso e modifica di queste preferenze possono variare a seconda del sistema operativo e del browser usati. Le istruzioni seguenti spiegano come accedere a queste preferenze da Internet Explorer e Google Chrome.
 
-### <a name="internet-explorer-version-11"></a>Internet Explorer (versione 11)
+#### <a name="internet-explorer-version-11"></a>Internet Explorer (versione 11)
 1. Fare clic sul pulsante **Strumenti** nell'angolo in alto a destra della finestra del browser:
    
    ![Pulsante Strumenti di Internet Explorer](media/supported-languages-countries-regions/languages1.png)
 2. Fare clic su **Opzioni Internet**.
 3. Nella scheda Generale della finestra di dialogo Opzioni Internet fare clic sul pulsante **Lingue** nella sezione Aspetto.
 
-### <a name="google-chrome-version-42"></a>Google Chrome (versione 42)
+#### <a name="google-chrome-version-42"></a>Google Chrome (versione 42)
 1. Fare clic sul menu Strumenti nell'angolo in alto a destra della finestra del browser:
    
    ![Pulsante di menu di Chrome](media/supported-languages-countries-regions/languages2.png)
@@ -144,7 +147,7 @@ La lingua scelta per Power BI Desktop influisce sul formato di visualizzazione d
 
 Per cambiare la lingua in Power BI Desktop, tornare alla pagina di download e scaricarlo in una lingua diversa.
 
-### <a name="choose-the-locale-to-be-used-when-importing-data-into-power-bi-desktop"></a>Scegliere le impostazioni locali da usare durante l'importazione di dati in Power BI Desktop
+### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Scegliere le impostazioni locali da usare per l'importazione di dati in Power BI Desktop
 Quando si scarica Power BI Desktop o lo si installa da Windows Store, è possibile scegliere impostazioni locali diverse per un report specifico rispetto alle impostazioni locali della versione di Power BI Desktop in uso. Questo approccio modifica la modalità in cui i dati vengono interpretati durante l'importazione dall'origine dati, ad esempio determina se "3/4/2017" viene interpretato come 3 aprile o 4 marzo. 
 
 1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**.
@@ -153,6 +156,22 @@ Quando si scarica Power BI Desktop o lo si installa da Windows Store, è possibi
    
    ![Finestra di dialogo Opzioni di Power BI Desktop](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
 4. Selezionare **OK**.
+
+### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Scegliere la lingua per il modello in Power BI Desktop
+
+Oltre a impostare la lingua per l'applicazione Power BI Desktop, è anche possibile impostare la lingua del modello. La lingua del modello influisce principalmente su due aspetti:
+
+- Il modo in cui le stringhe vengono confrontate e ordinate. Ad esempio, poiché l'alfabeto turco contiene due lettere i, a seconda delle regole di confronto del database, l'ordinamento può risultare diverso. 
+- La lingua usata da Power BI Desktop per la creazione di tabelle data nascoste dai campi data. Ad esempio, i campi sono denominati Month/Monat/Mese e così via.
+
+Ecco come impostare la lingua del modello.
+
+1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**.
+2. In **Globale** selezionare **Impostazioni internazionali**.
+3. Nella casella **Lingua del modello** selezionare un'altra lingua. 
+
+    ![Impostare la lingua del modello in Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
+
 
 ## <a name="languages-for-the-help-documentation"></a>Lingue per la documentazione della Guida
 La Guida è localizzata nelle 10 lingue seguenti: 

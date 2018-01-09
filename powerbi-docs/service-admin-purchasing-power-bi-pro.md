@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Acquisto di Power BI Pro
 Power BI Pro è destinato agli utenti che pubblicano report, condividono dashboard, collaborano con i colleghi nelle aree di lavoro e partecipano ad altre attività correlate, quali:
@@ -118,6 +118,11 @@ In **Fatturazione** > **Abbonamenti** verrà visualizzato **Power BI Pro**. Se i
 Una volta all'interno del servizio, è possibile verificare di avere un account Pro selezionando l'icona a forma di **ingranaggio** e selezionando **Gestisci archivio personale**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>Periodo di tolleranza
+È previsto un periodo di tolleranza di 30 giorni dopo la scadenza di una licenza di Power BI Pro. 
+
+Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per altre informazioni, vedere [Che cosa succede ai dati e all'accesso al termine della sottoscrizione di Office 365 per le aziende](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Iscrizione a Power BI in modalità self-service](service-self-service-signup-for-power-bi.md)  

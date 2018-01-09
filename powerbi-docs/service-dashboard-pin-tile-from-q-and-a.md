@@ -1,5 +1,5 @@
 ---
-title: Aggiungere un riquadro a un dashboard di Power BI da Domande e risposte
+title: Aggiungere un riquadro a un dashboard da Domande e risposte
 description: Documentazione su come aggiungere un riquadro a un dashboard di Power BI nella casella della domanda di Domande e risposte
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Aggiungere un riquadro a un dashboard da Domande e risposte
 ## <a name="how-to-pin-a-tile-from-qa"></a>Come aggiungere un riquadro dalle domande e risposte
 Domande e risposte è lo strumento ad hoc per la creazione di report di Power BI. Se ad esempio si vogliono ottenere informazioni dettagliate specifiche, è possibile porre una domanda sui dati per ottenere una risposta sotto forma di visualizzazione.
 
-> **NOTA**: per seguire la procedura, aprire l'[esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md).
+Domande e risposte è disponibile da dashboard e dai report. In questo articolo Domande e risposte verrà aperto da un dashboard. I dashboard sono disponibili nel servizio Power BI ma non in Power BI Desktop. Per seguire la procedura, aprire il [dashboard dell'esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,7 +40,9 @@ Domande e risposte è lo strumento ad hoc per la creazione di report di Power BI
    la casella della domanda offre alcuni suggerimenti.
 4. Per aggiungere il grafico al dashboard sotto forma di riquadro, selezionare la puntina ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) sul lato destro superiore dell'area di disegno.
 5. Aggiungere il riquadro a un dashboard esistente o a un nuovo dashboard. 
-   
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
    * Dashboard esistente: selezionare il nome del dashboard nell'elenco a discesa. I dashboard selezionabili sono solo quelli presenti nell'area di lavoro corrente.
    * Nuovo dashboard: digitare il nome del nuovo dashboard per aggiungerlo all'area di lavoro corrente.
 6. Selezionare **Aggiungi**.

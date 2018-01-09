@@ -1,6 +1,6 @@
 ---
 title: Dashboard in primo piano in Power BI
-description: Documentazione su come creare un dashboard in primo piano in Power BI
+description: Documentazione su come creare un dashboard in primo piano nel servizio Power BI
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,25 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f87f13c71d60a8edc831a1fd9cc7d0a1d5656634
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="featured-dashboards-in-power-bi"></a>Dashboard in primo piano in Power BI
+# <a name="featured-dashboards-in-power-bi-service"></a>Dashboard in primo piano nel servizio Power BI
 ## <a name="create-a-featured-dashboard"></a>Creare un dashboard in primo piano
-Molti dispongono di un dashboard a cui accedono con maggiore frequenza rispetto ad altri.  Potrebbe trattarsi del dashboard usato per gestire la propria attività oppure potrebbe contenere un'aggregazione di riquadri provenienti da molti dashboard e report diversi.
+Molti hanno un dashboard a cui accedono con maggiore frequenza rispetto ad altri.  Potrebbe trattarsi del dashboard usato per gestire la propria attività oppure di un dashboard che contiene un'aggregazione di riquadri provenienti da molti dashboard e report diversi.
 
 ![](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Quando si seleziona un dashboard *in primo piano*, questo verrà visualizzato ogni volta che si apre il servizio Power BI.  
 
-> **NOTA**: è anche possibile selezionare alcuni dashboard e impostarli come *Preferiti*. Vedere [Dashboard preferiti](service-dashboard-favorite.md).
-> 
-> 
+È anche possibile selezionare alcuni dashboard e impostarli come *Preferiti*. Vedere [Dashboard preferiti](service-dashboard-favorite.md).
+
+> [!NOTE] 
+>Questo argomento si applica al servizio Power BI e non a Power BI Desktop.
 
 Se non è stato impostato un dashboard in primo piano, Power BI verrà aperto con l'ultimo dashboard usato.  
 
@@ -70,6 +71,8 @@ Se non si vuole più usare dashboard in primo piano, ecco come fare per rimuover
 2. Nella barra dei menu superiore selezionare **Disabilita in primo piano**.
    
     ![](media/service-dashboard-featured/power-bi-unfeature.png)
+
+In Power BI verrà ora aperto l'ultimo dashboard usato.  
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiungere un dashboard ai Preferiti](service-dashboard-favorite.md)

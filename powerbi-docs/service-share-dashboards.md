@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Condividere i dashboard di Power BI con i colleghi e con altri utenti
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre [diversi modi per collaborare all'elaborazione dei dashboard e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md). La condivisione è solo uno di essi.
@@ -122,7 +122,11 @@ Aspetti da tenere presenti sulla condivisione dei dashboard:
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>I destinatari del dashboard visualizzano un'icona a forma di lucchetto in un riquadro o un messaggio di "Autorizzazione obbligatoria"
 
-Se gli utenti con cui si condivide il dashboard visualizzano in riquadro bloccato in un dashboard o un messaggio di "Autorizzazione obbligatoria" quando tentano di visualizzare un report, è necessario concedere loro le autorizzazioni per il set di dati sottostante. Ecco come:
+È possibile che gli utenti con cui si condivide il dashboard vedano un riquadro bloccato in un o un messaggio di "Autorizzazione obbligatoria" quando provano a visualizzare un report.
+
+![Riquadro bloccato di Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+In tale caso, è necessario concedere agli utenti l'autorizzazione per il set di dati sottostante. Ecco come:
 
 1. Passare alla scheda **Set di dati** nell'elenco del contenuto.
 

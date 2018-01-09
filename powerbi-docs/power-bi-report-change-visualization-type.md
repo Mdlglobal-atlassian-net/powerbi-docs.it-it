@@ -1,6 +1,6 @@
 ---
-title: Modificare il tipo di visualizzazione in un report di Power BI
-description: Modificare il tipo di visualizzazione in un report di Power BI
+title: Modificare il tipo di visualizzazione in un report
+description: Modificare il tipo di visualizzazione del report nel servizio Power BI e in Power BI Desktop
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 629163044a48e15cbd5b2412f4da886cd373c56d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 40ca8c24ec79f61bf0c8b3db71fdd84cdbb6a109
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Modificare il tipo di visualizzazione in un report di Power BI
-Provare tipi diversi di visualizzazioni in Power BI per individuare quello che descrive meglio i dati. 
+Provare tipi diversi di visualizzazioni nel servizio Power BI e in Power BI Desktop per individuare quello che descrive meglio i dati. 
 
-1. Aprire il [report in Visualizzazione di modifica](service-reading-view-and-editing-view.md) e [creare una visualizzazione](power-bi-report-add-visualizations-i.md) se il report ancora non ne ha.
+1. Aprire un report che include già almeno una visualizzazione.   
 2. Nel riquadro Visualizzazioni selezionare il nuovo tipo di visualizzazione.  
    
    ![](media/power-bi-report-change-visualization-type/changeviz.gif)

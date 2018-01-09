@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: d1960ea42bee8b00cc6dd095e94ebf6f6303bce8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
 I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](mobile-iphone-app-get-started.md).
@@ -100,9 +100,7 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 * Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Ad esempio, se si è aggiunto un grafico a linee da un report e quindi lo si cambia in un grafico a barre, il riquadro del dashboard continua a mostrare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Creare un riquadro con un numero di grandi dimensioni da un report](power-bi-visualization-big-number-report.md)
-
-[Creare un riquadro con un numero di grandi dimensioni da Domande e risposte](power-bi-visualization-big-number.md)
+[Creare una scheda (riquadro per numeri elevati) per il dashboard](power-bi-visualization-card.md)
 
 [Dashboard in Power BI](service-dashboards.md)  
 

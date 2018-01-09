@@ -1,6 +1,6 @@
 ---
-title: Aggiungere una pagina a un report di Power BI
-description: Aggiungere una pagina a un report di Power BI
+title: Aggiungere una pagina o duplicare una pagina in un report
+description: Aggiungere una pagina a un report di Power BI nel servizio Power BI e in Power BI Desktop
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,18 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: c40f13975d06879701d8966ef5f97b43a298cce0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 36962e85528668139a4d5d460936212965032233
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="add-a-page-to-a-power-bi-report"></a>Aggiungere una pagina a un report di Power BI
-## <a name="add-a-new-blank-page"></a>Aggiungere una nuova pagina vuota
-Non c'è motivo di sovraccaricare una pagina del report, basta aggiungere una nuova pagina vuota.
+# <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Aggiungere una pagina a un report di Power BI nel servizio Power BI e in Power BI Desktop
+Non c'è motivo di sovraccaricare una pagina del report, basta aggiungere una nuova pagina vuota. 
 
+L'aggiunta e la duplicazione di pagine del report richiedono autorizzazioni di modifica per il report. Nel servizio Power BI è necessario aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md). 
+
+## <a name="add-a-new-blank-page"></a>Aggiungere una nuova pagina vuota
 Selezionare l'icona di addizione gialla e digitare un nuovo nome per la pagina.  
 
 ![](media/power-bi-report-add-page/reorderpages2.gif)

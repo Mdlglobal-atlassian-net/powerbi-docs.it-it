@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
@@ -35,6 +35,16 @@ Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento de
 
 > [!NOTE]
 > La funzionalità di controllo di Power BI è in anteprima ed è disponibile in tutte le aree di dati.
+
+## <a name="requirements"></a>Requisiti
+Per accedere ai log di controllo, è necessario rispettare questi requisiti:
+
+- Per accedere alla sezione di controllo del Centro sicurezza e conformità di Office 365, è necessario avere una licenza di Exchange Online, inclusa con sottoscrizioni di Office 365 Enterprise E3 ed E5.
+- È necessario essere un amministratore globale o avere il ruolo di amministratore di Exchange che fornisce l'accesso al log di controllo. 
+
+  I ruoli di amministratore di Exchange vengono controllati tramite l'interfaccia di amministrazione di Exchange. Per altre informazioni, vedere [Permissions in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx) (Autorizzazioni in Exchange Online).
+
+- Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario ottenere un collegamento diretto al Centro sicurezza e conformità di Office 365.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Abilitazione della funzionalità di controllo nel portale di amministrazione di Power BI
 
@@ -70,8 +80,8 @@ Per controllare i log di Power BI, è necessario consultare il Centro di sicurez
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. Selezionare **Log di controllo**.
-4. 
-5. Selezionare **Passa all'interfaccia di amministrazione di O365**.
+ 
+4. Selezionare **Passa all'interfaccia di amministrazione di O365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

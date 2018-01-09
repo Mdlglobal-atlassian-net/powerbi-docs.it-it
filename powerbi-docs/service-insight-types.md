@@ -1,6 +1,6 @@
 ---
-title: Tipi di informazioni rapide supportate da Power BI
-description: Informazioni rapide con Power BI.
+title: Tipi di informazioni dettagliate supportate da Power BI
+description: Informazioni rapide e Visualizza informazioni dettagliate con Power BI.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Tipi di informazioni rapide supportate da Power BI
-## <a name="how-does-quick-insights-work"></a>Funzionamento delle informazioni rapide
+# <a name="types-of-insights-supported-by-power-bi"></a>Tipi di informazioni dettagliate supportate da Power BI
+## <a name="how-does-insights-work"></a>Funzionamento delle informazioni dettagliate
 Power BI cerca rapidamente diversi subset del set di dati durante l'applicazione di una serie di algoritmi complessi per individuare informazioni potenzialmente interessanti. Power BI analizza il maggior numero possibile di set di dati in un periodo di tempo stabilito.
 
-È possibile eseguire Informazioni rapide rispetto a un set di dati o riquadro (Informazioni dettagliate correlate).   
+È possibile eseguire le informazioni dettagliate rispetto a un set di dati o a un riquadro del dashboard.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Tipi di informazioni rapide reperibili
+## <a name="what-types-of-insights-can-we-find"></a>Tipi di informazioni possibili
 Questi sono alcuni degli algoritmi utilizzati:
 
 ## <a name="category-outliers-topbottom"></a>Category outlier (dall'alto al basso)
@@ -78,9 +78,9 @@ Per i dati in una serie temporale, viene rilevato quando sono presenti date o or
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Informazioni rapide di Power BI](service-insights.md)
+[Informazioni dettagliate di Power BI](service-insights.md)
 
-Se è disponibile un set di dati, [ottimizzarlo per Informazioni rapide](service-insights-optimize.md).
+Se è disponibile un set di dati, [ottimizzarlo per le informazioni dettagliate](service-insights-optimize.md).
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

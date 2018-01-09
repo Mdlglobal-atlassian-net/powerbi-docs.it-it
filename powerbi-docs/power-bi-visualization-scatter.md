@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: c1801db4135d6d97a940e593de37ca2886194b53
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Grafici a dispersione e grafici a bolle in Power BI (esercitazione)
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di valori numerici lungo un asse orizzontale e un altro set di dati numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Questi punti dati possono essere distribuiti uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati.
@@ -47,25 +47,30 @@ Un grafico a bolle sostituisce i punti dati con bolle, con le *dimensioni* della
 * per utilizzare i quadranti.
 
 ## <a name="create-a-scatter-chart"></a>Creare un grafico a dispersione
+Guardare questo video per seguire la creazione del grafico a dispersione e quindi seguire la procedura riportata più avanti per crearne uno.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Aprire l'esempio di analisi delle vendite al dettaglio in [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) e [aggiungere una nuova pagina di report](power-bi-report-add-page.md).
-2. Dal riquadro Campi, selezionare **Vendite** > **Vendite per piede quadrato** e **Vendite** > **% di varianza delle vendite**.
-3. Selezionare **District > District** dal riquadro Campi.
+
+Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire le istruzioni, [scaricare l'esempio](sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
+
+1. Iniziare in una [pagina vuota del report](power-bi-report-add-page.md) e selezionare i campi **Sales** \> **Sales Per Sq Ft** e **Sales** > **Total Sales Variance %**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
+ 
+2. Selezionare **District > District** dal riquadro Campi.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_pre_convert.png)
+    ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
 4. Convertire in un grafico a dispersione. Dal riquadro Visualizzazione selezionare l'icona del grafico a dispersione.
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
 5. Trascinare **Zona** da **Dettagli** in **Legenda**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_new.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
 È ora disponibile un grafico a dispersione che tiene traccia della % della varianza delle vendite totali lungo l'asse Y e delle vendite per ogni piede quadrato lungo l'asse X.  I colori del punto dati rappresentano le zone.  Ora si aggiungerà una terza dimensione.
 
 ## <a name="create-a-bubble-chart"></a>Creare un grafico a bolle
 1. Dal riquadro Campi, trascinare **Vendite** > **Vendite di quest’anno** > **Valore** all’area **Dimensioni**. 
    
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_size.png)
+   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
 2. Passare il mouse su una bolla.  La dimensione della bolla riflette il valore delle **Vendite di quest’anno**.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)

@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 3f78d19a5a28f096279a4fe25881ae26ffbae3cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 44a825e548ae55fa0ce13ba6eed57b860be6fe8f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="qa-in-power-bi"></a>Domande e risposte in Power BI
 A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale. ad esempio "a quanto ammontano le vendite totali dello scorso anno".  Domande e risposte consente di esplorare i dati tramite funzionalità intuitive basate sul linguaggio naturale e di ricevere le risposte sotto forma di grafici. Domande e risposte è diverso da un motore di ricerca in quanto consente di ottenere risultati relativi solo ai dati in Power BI.
 
 > [!NOTE]
-> Domande e risposte è disponibile anche nell'[app Microsoft Power BI per iOS sui dispositivi iPad, iPhone e iPod Touch](mobile-apps-ios-qna.md).
+> Domande e risposte è disponibile anche nell'[app Microsoft Power BI per dispositivi iOS su iPad, iPhone e iPod Touch](mobile-apps-ios-qna.md) e in [Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA).
 > 
 > 
 
@@ -51,11 +51,6 @@ L'esperienza è completamente interattiva... e veloce. Basata su un sistema di a
 [Esercitazione: Usare Domande e risposte di Power BI con l'Esempio sulle vendite al dettaglio](power-bi-visualization-introduction-to-q-and-a.md): usare Domande e risposte in un'esercitazione realistica.
 
 [Usare correttamente i dati con Domande e risposte](service-prepare-data-for-q-and-a.md): questo argomento è rivolto in particolare alle persone che creano set di dati e modelli di dati  set di dati e modelli di dati.
-
-## <a name="next-steps"></a>Passaggi successivi
-[Power BI - Concetti di base](service-basic-concepts.md)
-
-[Introduzione a Power BI](service-get-started.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

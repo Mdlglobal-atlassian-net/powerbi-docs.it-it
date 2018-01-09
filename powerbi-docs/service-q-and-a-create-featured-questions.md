@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/05/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: d29008365ab7df8f0bcd8297bfd5dc2f41c0e3a4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Creare domande in primo piano per Domande e risposte di Power BI
 Se si ha un set di dati, è possibile aggiungere nuove domande in primo piano a questo set di dati.  Domande e risposte su Power BI visualizzerà queste domande ai colleghi che usano il set di dati.  Le domande in primo piano danno un'idea ai colleghi sul tipo di domande che possono porre sul set di dati. Le domande in primo piano aggiunte dipendono dall'utente; aggiungere domande frequenti, domande che consentono di visualizzare risultati interessanti o domande che potrebbero essere difficili da formulare.
@@ -32,13 +32,13 @@ Nel video seguente viene mostrato come aggiungere alcune domande in primo piano 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Le domande in primo piano di Domande e risposte sono disponibili anche nell'[app Microsoft Power BI per iOS sui dispositivi iPad, iPhone e iPod Touch](mobile-apps-ios-qna.md).
+> Le domande in primo piano di Domande e risposte sono disponibili per l'uso nell'[app Microsoft Power BI per iOS su dispositivi iPad, iPhone e iPod Touch](mobile-apps-ios-qna.md) e nell'anteprima di Domande e risposte di Power BI Desktop. La creazione delle domande è tuttavia disponibile solo nel servizio Power BI (app.powerbi.com).
 > 
 > 
 
 Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-datasets.md).
 
-1. Selezionare la casella delle domande di Domande e risposte.   Si noti che le domande e risposte si sono già state utili con la visualizzazione di un elenco di termini presenti nel set di dati.
+1. Nel dashboard selezionare la casella della domanda di Domande e risposte.   Si noti che le domande e risposte si sono già state utili con la visualizzazione di un elenco di termini presenti nel set di dati.
 2. Per aggiungerle a questo elenco, selezionare l'icona a forma di ingranaggio nell'angolo in alto a destra di Power BI.  
    ![](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Selezionare **Impostazioni** &gt; **Set di dati** &gt; **Esempio di analisi delle vendite al dettaglio** &gt; **Domande in primo piano di Domande e risposte**.  

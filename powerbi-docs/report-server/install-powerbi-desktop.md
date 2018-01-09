@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 Informazioni su come installare Power BI Desktop ottimizzato per il server di report di Power BI.
 
-Per creare report di Power BI per il server di report di Power BI, è necessario installare Power BI Desktop ottimizzato per il server di report di Power BI. Si tratta di una versione diversa dalla versione di Power BI Desktop usata con il servizio Power BI, Ad esempio, la versione di Power BI Desktop per il servizio Power BI include funzionalità in anteprima disponibili nella versione del server di report di Power BI dopo il rilascio. necessaria per assicurarsi che il server di report possa interagire con una versione nota dei report e del modello. 
+Per creare report di Power BI per il server di report di Power BI, è necessario installare Power BI Desktop ottimizzato per il server di report di Power BI. Si tratta di una versione diversa dalla versione di Power BI Desktop usata con il servizio Power BI, Ad esempio, la versione di Power BI Desktop per il servizio Power BI include funzionalità in anteprima disponibili nella versione del server di report di Power BI solo dopo il rilascio. necessaria per assicurarsi che il server di report possa interagire con una versione nota dei report e del modello. 
 
 > [!NOTE]
 > Power BI Desktop e Power BI Desktop ottimizzato per il server di report di Power BI possono essere installati side-by-side.
@@ -69,6 +69,36 @@ Se è stata eseguita l'installazione di Power BI Desktop ottimizzato per il serv
 È sempre possibile aprire la versione di Power BI Desktop che si vuole usare per prima, quindi aprire il file da Power BI Desktop.
 
 Se si modifica un report di Power BI da un server di report di Power BI o si crea un nuovo report di Power BI dal portale Web, verrà sempre aperta la versione corretta di Power BI Desktop.
+
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+I report nel server di report di Power BI e nel servizio Power BI (http://powerbi.com) operano quasi esattamente allo stesso modo, ma alcune funzionalità sono diverse.
+
+### <a name="in-a-browser"></a>In un browser
+I report del server di report di Power BI supportano tutte le visualizzazioni, tra cui:
+
+* Oggetti visivi personalizzati
+
+I report del server di report di Power BI non supportano:
+
+* Oggetti visivi R
+* Mappe di ArcGIS
+* Percorsi di navigazione
+* Funzionalità in anteprima di Power BI Desktop
+
+### <a name="in-the-power-bi-mobile-apps"></a>Nelle app Power BI per dispositivi mobili
+I report del server di report di Power BI supportano tutte le funzionalità di base nelle [app Power BI per dispositivi mobili](../mobile-apps-for-mobile-devices.md), tra cui:
+
+* [Layout del report per il telefono](../desktop-create-phone-report.md): è possibile ottimizzare un report per le app Power BI per dispositivi mobili. Sul telefono cellulare i report ottimizzati hanno un layout e un'icona speciale, ![Icona del layout del report per il telefono](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png).
+  
+    ![Report ottimizzati per i telefoni](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+I report del server di report di Power BI non supportano queste funzionalità nelle app Power BI per dispositivi mobili:
+
+* Oggetti visivi R
+* Mappe di ArcGIS
+* Oggetti visivi personalizzati
+* Percorsi di navigazione
+* Filtro geografico o codici a barre
 
 ## <a name="next-steps"></a>Passaggi successivi
 Ora che è stato installato Power BI Desktop, è possibile iniziare a creare i report di Power BI.

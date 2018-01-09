@@ -15,16 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 7eea8b8299561b65a6af704489d4c69c33ca27b4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8b1efc64dc471bafa410f41c94f7e06d638fe9e0
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="copy-and-paste-a-visualization-in-power-bi"></a>Copiare e incollare una visualizzazione in Power BI
-1. In Power BI aprire un report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md) e [creare una visualizzazione](power-bi-report-add-visualizations-i.md) se il report non la contiene già. 
+# <a name="copy-and-paste-a-visualization-in-power-bi-service-and-power-bi-desktop"></a>Copiare e incollare una visualizzazione nel servizio Power BI e in Power BI Desktop
+Per copiare e incollare una visualizzazione sono necessarie autorizzazioni di modifica per il report. Nel servizio Power BI è necessario aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md).
+
+1. Aprire un report che include almeno una visualizzazione.  
+
 2. Selezionare la visualizzazione e usare **CTRL+C** per copiare e **CTRL+V** per incollare.  
    ![](media/power-bi-visualization-copy-paste/copypasteviznew.gif)
 

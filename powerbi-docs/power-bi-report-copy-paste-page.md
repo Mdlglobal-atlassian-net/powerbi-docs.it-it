@@ -16,17 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: dbf65dba335be077518a46f2a5bafdd7e85dcb79
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fe85f52bccc164fee896d1fd3e690264867b54fa
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicare una pagina di report in Power BI
-1. In Power BI aprire un report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md) e [creare una visualizzazione](power-bi-report-add-visualizations-i.md) se il report non la contiene già. 
-2. Dalla barra di controllo superiore, selezionare l’icona **Duplica la pagina** .
+La duplicazione di una pagina del report richiede autorizzazioni di modifica per il report. Nel servizio Power BI è necessario aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md). 
+
+
+1. In Power BI aprire un report che include almeno una pagina. 
+
+2. Dalla barra di controllo superiore, selezionare **Duplica questa pagina**.
    
    ![](media/power-bi-report-copy-paste-page/pbi_duplicate_new.png)
    
@@ -36,9 +40,10 @@ ms.lasthandoff: 11/15/2017
    <iframe width="560" height="315" src="https://www.youtube.com/embed/UOKbxTXZrWw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="next-steps"></a>Passaggi successivi
-Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
+Altre informazioni sulle [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
+[Aggiungere una nuova pagina a un report](power-bi-report-add-page.md) 
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](service-basic-concepts.md) 
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

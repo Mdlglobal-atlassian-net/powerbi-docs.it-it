@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 37161fab1e19e6ce00eb0f02c96b6e5cbdd60f18
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
-In Power BI è possibile ordinare alfabeticamente i grafici in base ai nomi delle categorie contenute nel grafico oppure in base ai valori numerici di ciascuna categoria. Ad esempio, questo grafico viene ordinato in base al nome dell'archivio.
+In un report di Power BI è possibile ordinare alfabeticamente la maggior parte delle visualizzazioni in base ai nomi delle categorie contenute nel grafico oppure in base ai valori numerici di ciascuna categoria. Ad esempio, questo grafico viene ordinato in base al nome dell'archivio.
 
 ![](media/power-bi-report-change-sort/pbi_chartsortcategory.png)
 
-Ma è facile ordinarlo in base alle vendite per metro quadrato, dal valore più alto a quello più basso.
+È possibile modificare con facilità l'ordinamento da una categoria (nome di un negozio) a un valore (vendite per piede quadrato).
 
 1. Selezionare i puntini di sospensione (...) e scegliere **Sort by Sales Per Sq Ft**.
 2. Se necessario, selezionare l'icona di ordinamento ![](media/power-bi-report-change-sort/sorticon.png) per impostare l'**ordinamento decrescente**.

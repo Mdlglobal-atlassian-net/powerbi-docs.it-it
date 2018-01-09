@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Avvisi per i dati nel servizio Power BI
-Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. Gli avvisi possono essere impostati solo in riquadri aggiunti da oggetti visivi del report e solo su misuratori, indicatori KPI e schede. Gli avvisi possono essere impostati sugli oggetti visivi creati da set di dati di streaming aggiunti da un report, ma non possono essere impostati nei riquadri di streaming creati direttamente nel dashboard tramite **Aggiungi riquadro** > **Dati in streaming personalizzati**. Gli avvisi possono essere visualizzati solo da chi li imposta, anche se si condivide il dashboard. Gli avvisi per i dati sono completamente sincronizzati sulle piattaforme. È possibile quindi impostare e visualizzare gli avvisi per i dati [nell'app Power BI per dispositivi mobili](mobile-set-data-alerts-in-the-mobile-apps.md) e nel servizio Power BI. Non sono disponibili per Power BI Desktop. Gli avvisi possono anche essere [automatizzati e integrati con Microsoft Flow](https://flow.microsoft.com) - [È possibile fare una prova in prima persona](service-flow-integration.md).
+Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. 
+
+Gli avvisi possono essere impostati solo in riquadri aggiunti da oggetti visivi del report e solo su misuratori, indicatori KPI e schede. Gli avvisi possono essere impostati sugli oggetti visivi creati da set di dati di streaming aggiunti da un report, ma non possono essere impostati nei riquadri di streaming creati direttamente nel dashboard tramite **Aggiungi riquadro** > **Dati in streaming personalizzati**. 
+
+Gli avvisi possono essere visualizzati solo da chi li imposta, anche se si condivide il dashboard. Gli avvisi per i dati sono completamente sincronizzati sulle piattaforme. È possibile quindi impostare e visualizzare gli avvisi per i dati [nell'app Power BI per dispositivi mobili](mobile-set-data-alerts-in-the-mobile-apps.md) e nel servizio Power BI. Non sono disponibili per Power BI Desktop. Gli avvisi possono anche essere [automatizzati e integrati con Microsoft Flow](https://flow.microsoft.com) - [È possibile fare una prova in prima persona](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ Questo esempio usa un riquadro di tipo scheda dal dashboard di esempio per l'ana
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. Selezionare l'icona a forma di campanello ![](media/service-set-data-alerts/power-bi-bell-icon.png) per aggiungere uno o più avvisi per **Total stores**.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. Per iniziare, verificare che il dispositivo di scorrimento sia impostato su **Attivo** e assegnare un titolo all'avviso. I titoli consentono di riconoscere facilmente gli avvisi.
+1. Per iniziare, selezionare **+ Aggiungi regola di avviso**, verificare che il dispositivo di scorrimento sia impostato su **Attivo** e assegnare un titolo all'avviso. I titoli consentono di riconoscere facilmente gli avvisi.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Scorrere verso il basso e immettere i dettagli dell'avviso.  In questo esempio viene creato un avviso che notifica una volta al giorno agli utenti se il numero totale di negozi supera 100. Gli avvisi vengono visualizzati nel centro notifiche e Power BI invia anche un messaggio di posta elettronica.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Selezionare **Salva**.
 
 ## <a name="receiving-alerts"></a>Ricezione di avvisi
@@ -76,7 +79,7 @@ Successivamente, Power BI invia un avviso al centro di notifica e, facoltativame
    > 
 
 ## <a name="managing-alerts"></a>Gestione degli avvisi
-Sono disponibili tre modi per gestire gli avvisi: dal riquadro del dashboard, dal menu Impostazioni di Power BI e da una sezione singola nell'[app Power BI per dispositivi mobili su iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) o nell'[app Power BI per dispositivi mobili per Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
+Sono disponibili molti modi per gestire gli avvisi: dal riquadro del dashboard, dal menu Impostazioni di Power BI, da una sezione singola nell'[app Power BI per dispositivi mobili su iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) o nell'[app Power BI per dispositivi mobili per Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Dal riquadro
 1. Per modificare o rimuovere un avviso per un riquadro, aprire nuovamente la finestra **Gestisci avvisi** selezionando l'icona a forma di campanello ![](media/service-set-data-alerts/power-bi-bell-icon.png). Vengono visualizzati tutti gli avvisi impostati per questo riquadro.

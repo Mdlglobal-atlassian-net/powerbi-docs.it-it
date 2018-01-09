@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ Il controllo **Aggiungi riquadro** consente di aggiungere direttamente un'immagi
 Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashboard. È necessario salvare il file di immagine online e creare un collegamento. Assicurarsi che non siano necessarie credenziali speciali per accedere al file di immagine. Ad esempio OneDrive e SharePoint richiedono l'autenticazione, quindi le immagini che vi sono archiviate non possono essere aggiunte a un dashboard in questo modo.  
 
 1. Selezionare **Immagine** > **Avanti**.
-2. Aggiungere le informazioni sull'immagine al riquadro **Dettagli riquadro**.
+2. Aggiungere le informazioni alla finestra **Aggiungi riquadro immagine**.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashbo
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Aggiungere un'intestazione per una casella di testo o un dashboard
 1. Selezionare **Casella di testo > Avanti**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **NOTA**: per aggiungere l'intestazione di un dashboard, digitarne il nome nella casella di testo e aumentare il tipo di carattere.
-   > 
    > 
 2. Formattare la casella di testo:
    
    * Per visualizzare un titolo sopra la casella di testo, selezionare **Mostra titolo e sottotitolo** e digitare un titolo e/o un sottotitolo.
    * Immettere e formattare il contenuto per la casella di testo.  
-   * Facoltativamente, impostare un collegamento personalizzato per il titolo.  In questo esempio, tuttavia, sono stati aggiunti collegamenti ipertestuali entro la casella di testo, quindi occorre lasciare deselezionata l'opzione **Imposta collegamento personalizzato**.
+   * Facoltativamente, impostare un collegamento personalizzato per il titolo. Un collegamento personalizzato può essere un sito esterno o un dashboard oppure un report nell'area di lavoro. In questo esempio, tuttavia, sono stati aggiunti collegamenti ipertestuali entro la casella di testo, quindi occorre lasciare deselezionata l'opzione **Imposta collegamento personalizzato**.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Selezionare **Applica**.  Nel dashboard ridimensionare e spostare la casella di testo in base alla necessità.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashbo
 Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video viene riprodotto direttamente nel dashboard.
 
 1. Selezionare **Video > Avanti**.
-2. Aggiungere le informazioni sul video al riquadro **Dettagli riquadro**.
+2. Aggiungere le informazioni sul video al riquadro **Aggiungi riquadro video**.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
    
    * Per visualizzare un titolo sopra il riquadro, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo.
    * Immettere il codice di incorporamento. In questo esempio viene copiato e incollato un feed di Twitter.
-   * Selezionare **Applica**.  Nel dashboard ridimensionare e spostare il contenuto Web in base alla necessità.
+3. Selezionare **Applica**.  Nel dashboard ridimensionare e spostare il contenuto Web in base alla necessità.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

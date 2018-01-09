@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/29/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 2abaa2ae00b353af46c267083f879cbf9536b397
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e10c7d47eb5105e0c3e79bd3451315eae6d27e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Usare il servizio Power BI o Power BI Desktop per creare una pagina di risposte personalizzata per Cortana
 Usare le funzionalità complete di Power BI per creare speciali pagine di report, dette *pagine di risposte di Cortana* o "schede risposte di Cortana", progettate specificamente per rispondere alle domande di Cortana.
 
 ![](media/service-cortana-answer-cards/power-bi-cortana.png)
 
-> [!NOTE]
+> [!IMPORTANT]
 > Se si sta provando la versione di anteprima del **dashboard** di Cortana e Power BI, è possibile ignorare il resto dell'articolo. Non sono previsti requisiti di installazione per consentire a Cortana di cercare i dashboard di Power BI.
 > 
 > 
@@ -63,7 +63,7 @@ Una *pagina di risposte* in un report viene ridimensionata appositamente per Cor
    > Per migliorare i risultati, evitare di usare parole che sono anche nomi di colonna.
    > 
    > 
-6. Facoltativamente, se il report include filtri a livello di pagina, è possibile impostare **Richiedi selezione singola**. Cortana visualizzerà solo questo report come risposta se uno, e solo uno, degli elementi del filtro è specificato nella domanda.
+6. Facoltativamente, se il report include filtri a livello di pagina, è consigliabile impostare **Richiedi selezione singola**. Cortana visualizzerà solo questo report come risposta se uno, e solo uno, degli elementi del filtro è specificato nella domanda. L'opzione **Richiedi selezione singola** è disponibile nella parte inferiore del riquadro **Filtri**.
    
    > [!NOTE]
    > Non è necessario impostare l'opzione **Richiedi selezione singola** per chiedere a Cortana di visualizzare un report con i filtri a livello di pagina.  Ad esempio la richiesta "Mostra le vendite di Charlotte Lindseys" mostrerà una pagina di risposta indipendentemente dallo stato dell'impostazione Richiedi selezione singola.

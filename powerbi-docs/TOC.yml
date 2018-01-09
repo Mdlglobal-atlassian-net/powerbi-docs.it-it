@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 'Esercitazione: Grafici a cascata in Power BI'
           href: power-bi-visualization-waterfall-charts.md
-        - name: Creare un riquadro per numeri elevati per un dashboard Power BI inserendo una domanda
-          href: power-bi-visualization-big-number.md
-        - name: Creare un riquadro per numeri elevati da un report di Power BI
-          href: power-bi-visualization-big-number-report.md
+        - name: 'Esercitazione: Schede (riquadri per numeri elevati) in Power BI'
+          href: power-bi-visualization-card.md
         - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
           href: service-r-visuals.md
     - name: Ottenere dati da file
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Integrare contenuti in un'applicazione (i dati sono di proprietà dell'app)
           href: developer/embed-sample-for-customers.md
+        - name: Incorporare layout personalizzati in un'app
+          href: developer/embedded-custom-layout.md
         - name: Creare un tenant di Azure Active Directory
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Registrare un'applicazione

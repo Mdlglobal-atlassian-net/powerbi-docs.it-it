@@ -1,6 +1,6 @@
 ---
 title: Aggiungere un collegamento ipertestuale a una casella di testo in un report
-description: Aggiungere un collegamento ipertestuale a una casella di testo in Power BI
+description: Aggiungere un collegamento ipertestuale a una casella di testo nel servizio Power BI e in Power BI Desktop
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Aggiungere un collegamento ipertestuale a una casella di testo in un report
-Le caselle di testo possono essere aggiunte ai report, aggiunte ai dashboard dai report e aggiunte direttamente ai dashboard. I collegamenti ipertestuali possono essere aggiunti a una casella si testo indipendentemente dalla sua posizione. **Questo argomento illustra le caselle di testo nei report.**
+Le caselle di testo possono essere aggiunte ai report, aggiunte ai dashboard dai report e aggiunte direttamente ai dashboard. I collegamenti ipertestuali possono essere aggiunti a una casella si testo indipendentemente dalla sua posizione. **Questo argomento illustra le caselle di testo nei report nel servizio Power BI (non in Power BI Desktop).**
 
 > **NOTA**: per informazioni sui collegamenti ipertestuali nelle tabelle e nelle matrici di Power BI, vedere [Collegamenti ipertestuali nelle tabelle](power-bi-hyperlinks-in-tables.md). Per informazioni sull'aggiunta di caselle di testo al **dashboard**, vedere [Widget del dashboard](service-dashboard-add-widget.md). 
 > 
@@ -47,7 +47,7 @@ Le caselle di testo possono essere aggiunte ai report, aggiunte ai dashboard dai
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * Nella casella di testo selezionare il collegamento ipertestuale per visualizzare l'URL
+   * Posizionare il cursore in un punto qualsiasi del testo evidenziato per visualizzare l'URL.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Selezionare l'URL per aprire la pagina in una nuova finestra del browser.

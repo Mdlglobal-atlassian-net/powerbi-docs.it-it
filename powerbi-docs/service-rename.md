@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Rinominare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come rinominare un dashboard, un report, una pagina del report, una cartella di lavoro, un set di dati, un'app e un'area di lavoro nel servizio Power BI.
@@ -40,7 +40,7 @@ Questo articolo illustra come rinominare un dashboard, un report, una pagina del
 | Contenuto in **Condivisi con l'utente corrente** |No |No |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Rinominare un dashboard, un report o una cartella di lavoro
-1. Iniziare in un'area di lavoro e selezionare la scheda **Dashboard**, **Report** o **Cartelle di lavoro**. Passare il puntatore sull'elemento da rinominare e selezionare l'icona dell'ingranaggio ![](media/service-rename/powerbi-cog-icon.png).
+1. Iniziare in un'area di lavoro e selezionare la scheda **Dashboard**, **Report** o **Cartelle di lavoro**. Passare il puntatore sull'elemento da rinominare e selezionare l'icona dell'ingranaggio ![](media/service-rename/powerbi-cog-icon.png). Se non è presente alcuna icona a forma di ingranaggio, non si hanno le autorizzazioni per la ridenominazione.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. Nella pagina Impostazioni, digitare il nuovo nome e selezionare **Salva**.
@@ -64,10 +64,10 @@ Questo articolo illustra come rinominare un dashboard, un report, una pagina del
      ![](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Rinominare un'area di lavoro per le app
-Chiunque abbia le autorizzazioni di amministratore possono rinominare un'area di lavoro per le app.
+Chiunque abbia le autorizzazioni di amministratore può rinominare un'area di lavoro per le app.
 
 1. Iniziare nell'area di lavoro che si vuole rinominare.
-2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Modifica area di lavoro**.  
+2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Modifica area di lavoro**. Se questa opzione non è visualizzata, non si hanno le autorizzazioni per rinominare questa area di lavoro. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Digitare un nuovo nome per l'area di lavoro e selezionare **Salva**.

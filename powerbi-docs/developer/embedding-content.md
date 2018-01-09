@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporare i dashboard, i report e i riquadri di Power BI
 
@@ -140,9 +140,9 @@ Se si intende incorporare per i clienti, si dovranno eseguire le operazioni segu
 
 | Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-core |0,5 core, 3 GB di RAM |0,5 core | |1-300 |
-| A2 |2 v-core |1 core, 5 GB di RAM |1 core | |301-600 |
-| A3 |4 v-core |2 core, 10 GB di RAM |2 core | |601-1.200 |
+| A1 |1 v-core |0,5 core, 3 GB di RAM |0,5 core | 5 al secondo |1-300 |
+| A2 |2 v-core |1 core, 5 GB di RAM |1 core | 10 al secondo |301-600 |
+| A3 |4 v-core |2 core, 10 GB di RAM |2 core | 15 al secondo |601-1.200 |
 | A4 |8 v-core |4 core, 25 GB di RAM |4 core |30 al secondo |1.201-2.400 |
 | A5 |16 v-core |8 core, 50 GB di RAM |8 core |60 al secondo |2.401-4.800 |
 | A6 |32 v-core |16 core, 100 GB di RAM |16 ore |120 al secondo |4.801-9600 |

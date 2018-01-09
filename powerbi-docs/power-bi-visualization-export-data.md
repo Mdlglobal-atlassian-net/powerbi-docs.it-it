@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/19/2017
 ms.author: mihart
-ms.openlocfilehash: fb40b2576176b772c841cea3347909aaf34af375
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -84,7 +84,7 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-* Il numero massimo di righe che possono essere esportate da **Power BI Desktop** in formato CSV è di 30.000.
+* Il numero massimo di righe che possono essere esportate da **Power BI Desktop** e dal **servizio Power BI** a un file con estensione csv è 30.000.
 * Il numero massimo di righe che può essere esportato in formato XLSX nel **servizio Power BI** è di 150.000 per gli utenti della versione Pro e di 30.000 per gli utenti della versione gratuita.
 * Quando si usa DirectQuery, è possibile esportare al massimo 16 MB di dati. È quindi possibile che venga esportata una quantità di dati inferiore al numero massimo di righe, in particolare se sono presenti molte colonne, se i dati sono difficili da comprimere o se sono presenti altri fattori che incrementano le dimensioni del file e riducono il numero di righe esportate.
 * Power BI supporta solo l'esportazione negli oggetti visivi che usano le aggregazioni di base. L'esportazione non è disponibile per gli oggettivi visivi con misure di modello o del report.

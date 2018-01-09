@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Grafici ad anello in Power BI (esercitazione)
 Un grafico ad anello è simile a un grafico a torta perché mostra la relazione delle parti rispetto a un intero. L'unica differenza è data dal fatto che il centro è vuoto e consente di inserire un'etichetta o un'icona.
 
 ## <a name="create-a-doughnut-chart"></a>Creare un grafico ad anello
-Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati** \> **Esempi** \> **Esempio di analisi delle vendite al dettaglio** \> **Connetti**. 
+Queste istruzioni usano l'esempio di analisi delle vendite al dettaglio per creare un grafico ad anello che mostra le vendite dell'anno corrente per categoria. Per seguire le istruzioni, [scaricare l'esempio](sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.
 
-1. Dal dashboard selezionare il riquadro **Total Stores** per aprire il report "Esempio di analisi delle vendite al dettaglio".
-2. Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica.
-3. [Aggiungere una nuova pagina del report](power-bi-report-add-page.md).
-4. Creare un grafico ad anello che visualizzi le vendite dell'anno per categoria.
+1. Iniziare in una [pagina di report vuota ](power-bi-report-add-page.md) e selezionare il campo **SalesStage** \> **Sales Stage**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
+
+2. Dal riquadro Campi selezionare **Sales** \> **Last Year Sales**.  
    
-   * Dal riquadro **Campi** selezionare **Vendite**\>**Vendite dello scorso anno**.
-   * Convertire in un grafico ad anello. Se Last Year Sales non è nell'area **Valori** , trascinarlo in tale area.
+3. Dal riquadro Visualizzazioni selezionare l'icona per il grafico ad anello ![icona del grafico ad anello]() per convertire il grafico a barre in un grafico ad anello. Se **Last Year Sales** non è nell'area **Valori**, trascinarlo in tale area.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * Selezionare **Elemento** \> **Categoria** per aggiungerlo all'area **Legenda**. 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. Selezionare **Elemento** \> **Categoria** per aggiungerlo all'area **Legenda**. 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. Facoltativamente, [modificare le dimensioni e il colore del testo del grafico](power-bi-visualization-customize-title-background-and-legend.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 * La somma dei valori del grafico ad anello deve essere pari al 100%.
