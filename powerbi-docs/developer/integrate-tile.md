@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrare un riquadro in un'app (i dati sono di proprietà dell'utente)
 Informazioni su come integrare o incorporare un riquadro in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.
@@ -56,7 +56,7 @@ Per ottenere un riquadro di **Power BI**, usare l'operazione [Get Tiles](https:/
 Prima di ottenere il riquadro, sarà necessario recuperare un ID dashboard. Per informazioni su come recuperare un dashboard, vedere [Integrare un dashboard in un'app (i dati sono di proprietà dell'utente)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Ottenere i riquadri usando un token di accesso
-Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx). L'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) restituisce un elenco di riquadri. È possibile ottenere un singolo riquadro dall'elenco di riquadri. Di seguito è riportato un metodo C# completo per ottenere un riquadro. Per esempi su come usare l'API REST di Power BI, vedere [API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx). L'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) restituisce un elenco di riquadri. È possibile ottenere un singolo riquadro dall'elenco di riquadri. Di seguito è riportato un metodo C# completo per ottenere un riquadro. 
 
 Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
 

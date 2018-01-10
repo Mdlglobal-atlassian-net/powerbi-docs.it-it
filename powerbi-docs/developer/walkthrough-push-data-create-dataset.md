@@ -17,22 +17,22 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: b45a6f76a710bc158d0d1763ca10f2125164952a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 92409e447bf9bc32b83c22650d5b41aef6bb4414
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Passaggio 3: Creare un set di dati in Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
 Nel **passaggio 2** [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) della procedura per il push dei dati in un set di dati è stato ottenuto un token per l'autenticazione in **Azure AD**. In questo passaggio il token viene usato per chiamare l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx).
 
-Per effettuare una chiamata a una risorsa REST, si usa un URL che individua la risorsa e si invia una stringa JSON (JavaScript Object Notation), che descrive il set di dati, alla risorsa del servizio Power BI. Una risorsa REST identifica la parte del servizio Power BI con cui si vuole lavorare. Per il push dei dati nel set di dati, la risorsa di destinazione è un **set di dati**. L'URL che identifica un set di dati è https://api.PowerBI.com/v1.0/myorg/datasets. Se si esegue il push dei dati all'interno di un gruppo, l'url è https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Per effettuare una chiamata a una risorsa REST, si usa un URL che individua la risorsa e si invia una stringa JSON (JavaScript Object Notation), che descrive il set di dati, alla risorsa del servizio Power BI. Una risorsa REST identifica la parte del servizio Power BI con cui si vuole lavorare. Per il push dei dati nel set di dati, la risorsa di destinazione è un **set di dati**. L'URL che identifica un set di dati è https://api.PowerBI.com/v1.0/myorg/datasets. Se si esegue il push dei dati all'interno di un gruppo, l'url è https://api.PowerBI.com/v1.0/myorg/groups/ {group_id}/datasets.
 
 Per autenticare un'operazione REST di Power BI, si aggiunge il token ottenuto in [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) a un'intestazione della richiesta:
 
-Quando si chiama l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx), viene creato un nuovo set di dati. Per esempi su come usare l'API REST di Power BI, vedere [API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Quando si chiama l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx), viene creato un nuovo set di dati. 
 
 ![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -239,7 +239,6 @@ Di seguito è riportato il [listato di codice completo](#code).
 [Eseguire il push dei dati in un dashboard di Power BI](walkthrough-push-data.md)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
 [Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

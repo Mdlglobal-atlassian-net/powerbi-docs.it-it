@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrare un report in un'app per l'organizzazione
 Informazioni su come integrare o incorporare un report in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.
@@ -54,7 +54,7 @@ Nell'applicazione è prima di tutto necessario ottenere un **token di accesso** 
 Per ottenere un report di **Power BI**, usare l'operazione [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) che recupera un elenco di report di **Power BI**. Dall'elenco dei report è possibile ottenere un ID report.
 
 ### <a name="get-reports-using-an-access-token"></a>Ottenere i report usando un token di accesso
-Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx). L'operazione [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) restituisce un elenco di report. È possibile ottenere un singolo report dall'elenco di report. Di seguito è riportato un metodo C# completo per ottenere un report. Per esempi su come usare l'API REST di Power BI, vedere [API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx). L'operazione [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) restituisce un elenco di report. È possibile ottenere un singolo report dall'elenco di report. Di seguito è riportato un metodo C# completo per ottenere un report. 
 
 Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
 

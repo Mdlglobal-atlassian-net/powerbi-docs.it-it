@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Eseguire il push dei dati in un set di dati di Power BI
 Con l'API Power BI è possibile eseguire il push dei dati in un set di dati di Power BI. Si supponga ad esempio di voler estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati chiave in un set di dati. In questo caso, è possibile eseguire il push di un set di dati Sales Marketing che contiene una tabella Product in un set di dati.
@@ -38,7 +38,7 @@ Prima di iniziare il push dei dati in un set di dati, è necessario avere Azure 
 La sezione successiva fornisce una descrizione generale delle operazioni dell'API di Power BI che seguono il push dei dati.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operazioni dell'API di Power BI per eseguire il push dei dati
-Con l'API REST di Power BI è possibile eseguire il push di origini dati in Power BI. Quando un'app aggiunge righe a un set di dati, i riquadri del dashboard vengono aggiornati automaticamente con i dati aggiornati. Per eseguire il push dei dati, usare l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx) con l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx). Per trovare un set di dati, usare l'operazione [Get Datasets](https://msdn.microsoft.com/library/mt203567.aspx). Per ognuna di queste operazioni, è possibile passare un ID di gruppo per lavorare con un gruppo. Usare l'operazione [Get Groups](https://msdn.microsoft.com/library/mt243842.aspx) per ottenere un elenco di ID del gruppo. Per esempi su come usare l'API REST di Power BI, vedere [API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Con l'API REST di Power BI è possibile eseguire il push di origini dati in Power BI. Quando un'app aggiunge righe a un set di dati, i riquadri del dashboard vengono aggiornati automaticamente con i dati aggiornati. Per eseguire il push dei dati, usare l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx) con l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx). Per trovare un set di dati, usare l'operazione [Get Datasets](https://msdn.microsoft.com/library/mt203567.aspx). Per ognuna di queste operazioni, è possibile passare un ID di gruppo per lavorare con un gruppo. Usare l'operazione [Get Groups](https://msdn.microsoft.com/library/mt243842.aspx) per ottenere un elenco di ID del gruppo.
 
 Ecco le operazioni per eseguire il push dei dati in un set di dati:
 
@@ -126,6 +126,5 @@ Per le attività iniziali per il push dei dati in un set di dati, vedere [Passag
 [Recupera gruppi](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Introduzione a JSON](http://json.org/)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
-[API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

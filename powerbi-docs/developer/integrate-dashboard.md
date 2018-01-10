@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrare un dashboard in un'app per l'organizzazione
 Informazioni su come integrare o incorporare un dashboard in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.
@@ -56,7 +56,7 @@ Per ottenere un dashboard di **Power BI**, usare l'operazione [Get Dashboards](h
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Ottenere dashboard con un token di accesso
-Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). L'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) restituisce un elenco di dashboard. Dall'elenco dei dashboard è possibile ottenere un singolo dashboard. Di seguito è riportato un metodo C# completo per ottenere un dashboard. Per esempi su come usare l'API REST di Power BI, vedere [API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). L'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) restituisce un elenco di dashboard. Dall'elenco dei dashboard è possibile ottenere un singolo dashboard. Di seguito è riportato un metodo C# completo per ottenere un dashboard. 
 
 Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
 

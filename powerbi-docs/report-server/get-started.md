@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
-ms.author: asaxton
-ms.openlocfilehash: 86b0c188d2fada9b42e05bf037dc0630a8c75428
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: a1dc05e722d4b50321b1fc825eeab9284d2d88b5
+ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/06/2018
 ---
 # <a name="get-started-with-power-bi-report-server"></a>Introduzione al server di report di Power BI
 Creare, distribuire e gestire Power BI, i report per dispositivi mobili e impaginati in locale con la gamma di strumenti e servizi pronti per l'uso forniti dal server di report di Power BI.

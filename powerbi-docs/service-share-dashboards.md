@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Condividere i dashboard di Power BI con i colleghi e con altri utenti
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre [diversi modi per collaborare all'elaborazione dei dashboard e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md). La condivisione è solo uno di essi.
@@ -110,7 +110,7 @@ Se si invia un collegamento da un'app Power BI per dispositivi mobili a persone 
 Aspetti da tenere presenti sulla condivisione dei dashboard:
 
 * In generale, i dati visualizzati nel dashboard sono gli stessi sia per l'utente che per i relativi colleghi. Se quindi un utente dispone delle autorizzazioni per visualizzare una maggior quantità di dati rispetto ai colleghi, questi ultimi potranno visualizzare tutti i dati presenti nel dashboard dell'utente. Tuttavia, se la [sicurezza a livello di riga](service-admin-rls.md) viene applicata al set di dati sottostante di un dashboard, le credenziali di ogni persona vengono usate per determinare a quali dati può accedere.
-* Tutti gli utenti con cui si condivide il dashboard lo possono visualizzare e possono interagire con i report nella [Visualizzazione lettura](service-report-open-in-reading-view.md). Non possono creare report o salvare le modifiche apportate a report esistenti.
+* Tutti gli utenti con cui si condivide il dashboard lo possono visualizzare e possono interagire con i report nella [Visualizzazione lettura](service-reading-view-and-editing-view.md). Non possono creare report o salvare le modifiche apportate a report esistenti.
 * Nessuno può visualizzare o scaricare il set di dati.
 * Tutti gli utenti possono [aggiornare manualmente i dati del dashboard](refresh-data.md).
 * Se si usa Office 365 per la posta elettronica, è possibile condividere con i membri di un gruppo di distribuzione immettendo l'indirizzo di posta elettronica associato a quel gruppo.

@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installare e usare le app con dashboard e report in Power BI
 In Power BI le *app* riuniscono dashboard e report correlati, tutti in un'unica posizione. Gli utenti dell'organizzazione possono creare e distribuire le app con informazioni aziendali essenziali. Anche i [servizi esterni](service-connect-to-services.md) che probabilmente sono già in uso, ad esempio Google Analytics e Microsoft Dynamics CRM, offrono app di Power BI. 
@@ -63,7 +63,7 @@ Quando si fa clic sul collegamento nel messaggio di posta elettronica nel dispos
 3. Selezionare **Scarica adesso** per aggiungerla alla pagina App. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagire con i dashboard e i report nell'app
-È ora possibile esplorare i dati nei dashboard e nei report nell'app. È possibile accedere a tutte le interazioni standard di Power BI, ad esempio i filtri, l'evidenziazione, l'ordinamento e il drill-down. Vedere [Interagire con i report in Power BI](service-interact-with-a-report-in-reading-view.md). 
+È ora possibile esplorare i dati nei dashboard e nei report nell'app. È possibile accedere a tutte le interazioni standard di Power BI, ad esempio i filtri, l'evidenziazione, l'ordinamento e il drill-down. Vedere [Interagire con i report in Power BI](service-reading-view-and-editing-view.md). 
 
 Non è possibile salvare le modifiche apportate, ma è sempre possibile [esportare i dati in Excel ](power-bi-visualization-export-data.md) da una tabella o da altri oggetti visivi in un report.
 

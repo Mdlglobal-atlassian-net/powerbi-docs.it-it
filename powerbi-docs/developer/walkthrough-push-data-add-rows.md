@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passaggio 5: Aggiungere righe a una tabella di Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
-Nel **passaggio 4** [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di dati è stata usata l'operazione [Get Datasets](https://msdn.microsoft.com/library/mt203567.aspx) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx) per aggiungere righe a un set di dati di **Power BI**. Per esempi su come usare l'API REST di Power BI, vedere [API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/).
+Nel **passaggio 4** [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di dati è stata usata l'operazione [Get Datasets](https://msdn.microsoft.com/library/mt203567.aspx) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx) per aggiungere righe a un set di dati di **Power BI**. 
 
 Quando si chiama l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx), vengono aggiunte righe a un set di dati.
 
@@ -319,6 +319,5 @@ Di seguito è riportato il [listato di codice completo](#code).
 [Eseguire il push dei dati in un dashboard di Power BI](walkthrough-push-data.md)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
 [Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

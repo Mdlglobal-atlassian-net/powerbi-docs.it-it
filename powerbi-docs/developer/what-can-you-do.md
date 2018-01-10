@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: a10cd93a06d14e3e66fd9cce480dc0ec99e67aeb
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c5dfbbf5150dbf8ddb4388ac64f6c313eedd578e
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Quali operazioni possono eseguire gli sviluppatori con Power BI?
 Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi personalizzati fino ai set di dati in streaming.
@@ -51,7 +51,6 @@ Per altre informazioni, vedere [Eseguire il push dei dati in un dashboard](walkt
 [Pubblicare oggetti visivi personalizzati in Office Store](office-store.md)  
 [Archivio GIT di oggetti visivi di Power BI](https://github.com/Microsoft/PowerBI-visuals)  
 [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[API di Power BI in Apiary](http://docs.powerbi.apiary.io/#)  
 [White paper su Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: 128b30dcb932dd629d1219fc92da7283918ea467
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 137ff1157d15b5a62ab7a66f30b1ba043747f75d
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Listato di codice completo per il push dei dati in un set di dati
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
@@ -237,7 +237,7 @@ Al termine dei passaggi da 2 a 5 in **Eseguire il push dei dati in un set di dat
 [Aggiungere righe a una tabella di Power BI](walkthrough-push-data-add-rows.md)  
 [Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
-[API REST di Power BI in APIARY](http://docs.powerbi.apiary.io/)  
+
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 
