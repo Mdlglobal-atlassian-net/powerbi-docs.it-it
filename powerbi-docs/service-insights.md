@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
 Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si desidera cercare le informazioni dettagliate perse?
@@ -71,7 +71,7 @@ Passare ora all'azione. Esplorare le informazioni dettagliate usando l'[esempio 
     ![](media/service-insights/power-bi-insight-focus.png)
 3. In questa modalità è possibile:
    
-   * [Filtrare](service-interact-with-a-report-in-reading-view.md) le visualizzazioni.  Per visualizzare i filtri, nell'angolo in alto a destra selezionare la freccia per espandere il riquadro Filtri.
+   * Filtrare le visualizzazioni.  Per visualizzare i filtri, nell'angolo in alto a destra selezionare la freccia per espandere il riquadro Filtri.
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Per aggiungere la scheda delle informazioni dettagliate a un dashboard, selezionare l'icona di aggiunta ![](media/service-insights/power-bi-pin-icon.png) o **Aggiungi oggetto visivo**.

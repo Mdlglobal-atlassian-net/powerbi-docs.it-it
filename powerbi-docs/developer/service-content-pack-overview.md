@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4a8ea2acfcfe41192b82addfe52dbe67a0df8088
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.date: 01/04/2018
+ms.author: maghan
+ms.openlocfilehash: 1eaa549bf42c17cd2bd857efd4d50b991e862ea0
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Panoramica del programma dei pacchetti di contenuto del servizio Power BI
 Un pacchetto di contenuto è un set di contenuto predefinito che consente agli utenti di ottenere immediatamente informazioni da un'origine. In genere, un pacchetto di contenuto è incentrato su uno scenario aziendale specifico che fornisce informazioni per un ruolo, un dominio o un flusso di lavoro.
@@ -49,6 +49,7 @@ Per compilare e inviare un pacchetto di contenuto da pubblicare nel servizio Pow
 * Disponibilità di un'applicazione SaaS usata dagli utenti aziendali.
 * L'applicazione SaaS contiene dati dell'utente che possono essere visualizzati in Power BI.
 * L'applicazione SaaS è un'API accessibile attraverso la rete Internet pubblica. Idealmente l'API è un'API basata su REST o un feed OData. I pacchetti di contenuto di Power BI supportano più tipi di autenticazione come l'autenticazione di base, OAuth 2.0 e Chiave API. 
+* L'applicazione SaaS è stata approvata per la pubblicazione di un pacchetto di contenuti. Inviare la richiesta a pbiservicesapps@microsoft.com. La rilevanza e l'utilizzo previsto di ogni invio verranno esaminati. 
 * Contratto di partner firmato. Questa operazione verrà eseguita nel [passaggio di invio](template-content-pack-testing.md#submission).
 
 Consultare la sezione [Template Content Pack Authoring](template-content-pack-authoring.md) (Creazione di pacchetti di contenuto modello) per maggiori informazioni sui requisiti tecnici.

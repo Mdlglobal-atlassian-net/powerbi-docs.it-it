@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Impostazioni di visualizzazione della pagina in un report di Power BI
 È essenziale mantenere i pixel del layout del report in condizioni perfette. A volte può essere complesso perché gli utenti visualizzano i report su schemi con proporzioni e dimensioni diverse. 
@@ -45,7 +45,7 @@ Nel servizio Power BI aprire un report e selezionare **Visualizza** nella barra 
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Le impostazioni di Visualizzazione pagina sono disponibili in [Visualizzazione di lettura](service-interact-with-a-report-in-reading-view.md) e [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md). In Visualizzazione di modifica il proprietario del report può assegnare le 'impostazioni di Visualizzazione pagina a singole pagine del report e queste impostazioni vengono salvate insieme al report. Quando i colleghi aprono il report nella Visualizzazione di lettura, visualizzano le pagine del report con le impostazioni scelte dal proprietario.  In Visualizzazione di lettura i colleghi possono cambiare *alcune* impostazioni di visualizzazione pagina, ma le modifiche non vengono salvate all'uscita dal report.
+Le impostazioni di Visualizzazione pagina sono disponibili in [Visualizzazione di lettura e Visualizzazione di modifica](service-reading-view-and-editing-view.md). In Visualizzazione di modifica il proprietario del report può assegnare le 'impostazioni di Visualizzazione pagina a singole pagine del report e queste impostazioni vengono salvate insieme al report. Quando i colleghi aprono il report nella Visualizzazione di lettura, visualizzano le pagine del report con le impostazioni scelte dal proprietario.  In Visualizzazione di lettura i colleghi possono cambiare *alcune* impostazioni di visualizzazione pagina, ma le modifiche non vengono salvate all'uscita dal report.
 
 ##    <a name="page-view-settings"></a>Impostazioni di Visualizzazione pagina
 Il primo set di impostazioni di *Visualizzazione pagina* consente di controllare la visualizzazione della pagina del report relativa alla finestra del browser.  È possibile scegliere tra:

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/23/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 511f01494410215451d9f77ff637c7cfce8e89b3
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interazione con le mappe ArcGIS in Power BI
 Questo argomento è stato scritto dal punto di vista di una persona che *utilizza* una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando l'autore condivide una mappa ArcGIS con l'utente, è possibile interagire con essa in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione Mappe di ArcGIS di Esri](power-bi-visualization-arcgis.md).
@@ -62,7 +62,7 @@ Mappe ArcGIS per Power BI consente tre modalità di selezione. È possibile sele
 <br/>
 
 ## <a name="interacting-with-an-arcgis-map"></a>Interazione con una mappa ArcGIS
-Le funzionalità disponibili variano a seconda che si sia l'*autore* (persona che ha creato la mappa) o il *consumatore* (qualcuno che ha condiviso una mappa ArcGIS qualcuno con l'utente). Se si interagisce con una mappa ArcGIS come consumatore (cioè in [visualizzazione lettura](service-interact-with-a-report-in-reading-view.md)), ecco le azioni disponibili.
+Le funzionalità disponibili variano a seconda che si sia l'*autore* (persona che ha creato la mappa) o il *consumatore* (qualcuno che ha condiviso una mappa ArcGIS qualcuno con l'utente). Se si interagisce con una mappa ArcGIS come consumatore, ovvero in [Visualizzazione di lettura](service-reading-view-and-editing-view.md), ecco le azioni disponibili.
 
 * Come con altri tipi di visualizzazione, è possibile [aggiungere ai dashboard](service-dashboard-pin-tile-from-report.md), [visualizzare](service-reports-show-data.md) e/o [esportare i dati sottostanti](power-bi-visualization-export-data.md) e visualizzare la mappa in [modalità messa a fuoco](service-focus-mode.md) e a [schermo intero](service-fullscreen-mode.md).    
 * Espandere il riquadro **Filtri** per esplorare la mappa usando i filtri. Quando si chiude il report, i filtri che sono stati applicati non vengono salvati.    

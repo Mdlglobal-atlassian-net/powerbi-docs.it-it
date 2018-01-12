@@ -15,16 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
-Quando si crea un report di Power BI in Power BI Desktop, è possibile creare anche una versione di tale [report ottimizzata per la visualizzazione nell'app Power BI in un telefono](desktop-create-phone-report.md).
+
+Si applica a:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Telefono Android](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhone |Telefoni Android |
+
+Quando si crea un report di Power BI in Power BI Desktop, è anche possibile [creare una versione di tale report ottimizzata per la visualizzazione](desktop-create-phone-report.md) nell'app Power BI su un telefono.
 
 Quando si apre un report di Power BI in un telefono, Power BI rileva quindi se il report è stato ottimizzato per i telefoni e apre automaticamente il report ottimizzato in visualizzazione verticale.
 

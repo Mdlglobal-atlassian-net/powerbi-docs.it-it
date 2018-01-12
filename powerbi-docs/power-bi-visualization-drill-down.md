@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/18/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 83c63ee2bed5ae7674223cf2fc3f9241308926e9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22dc1c9b703b500625a5aed23b6187fd3f616dde
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="drill-down-in-a-visualization-in-power-bi"></a>Eseguire il drill-down in una visualizzazione in Power BI
 ## <a name="drill-down-requires-a-hierarchy"></a>Il drill-down richiede una gerarchia
@@ -54,7 +54,7 @@ Esistono due diversi modi per eseguire il drill-down e il drill-up in una visual
 ## <a name="method-1-for-drill-down"></a>Metodo 1 per eseguire il drill-down
 Questo metodo usa le icone di drill-down visualizzate negli angoli superiori della visualizzazione stessa.
 
-1. Aprire un report in [Visualizzazione di lettura](service-report-open-in-reading-view.md) o [Visualizzazione di modifica](service-reading-view-and-editing-view.md) in Power BI. Il drill-down richiede una visualizzazione con una gerarchia. 
+1. Aprire un report in [Visualizzazione di lettura o Visualizzazione di modifica](service-reading-view-and-editing-view.md) in Power BI. Il drill-down richiede una visualizzazione con una gerarchia. 
    
    Nell'animazione seguente è visualizzata una gerarchia.  La visualizzazione presenta una gerarchia composta da territorio, città, codice postale e nome città. Ogni territorio include una o più città, ogni città include uno o più codici di avviamento postale e così via. Per impostazione predefinita, la visualizzazione mostra solo i dati del territorio, perché *Territory* viene visualizzato per primo nell'elenco.
    
@@ -75,7 +75,7 @@ Questo metodo usa le icone di drill-down visualizzate negli angoli superiori del
 ## <a name="method-2-for-drill-down"></a>Metodo 2 per eseguire il drill-down
 Questo metodo usa l'elenco a discesa **Esplora** dalla barra dei menu superiore di Power BI.
 
-1. Aprire un report in [Visualizzazione di lettura](service-report-open-in-reading-view.md) o [Visualizzazione di modifica](service-reading-view-and-editing-view.md) in Power BI. Il drill-down richiede una visualizzazione con una gerarchia. 
+1. Aprire un report in [Visualizzazione di lettura o Visualizzazione di modifica](service-reading-view-and-editing-view.md) in Power BI. Il drill-down richiede una visualizzazione con una gerarchia. 
    
    Nell'immagine seguente è visualizzata una gerarchia.  La visualizzazione presenta una gerarchia composta da territorio, città, codice postale e nome città. Ogni territorio include una o più città, ogni città include uno o più codici di avviamento postale e così via. Per impostazione predefinita, la visualizzazione mostra solo i dati del territorio, perché *Territory* viene visualizzato per primo nell'elenco.
    

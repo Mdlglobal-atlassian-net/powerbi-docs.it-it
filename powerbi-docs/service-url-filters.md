@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 Quando si apre un report nel servizio Power BI, ogni pagina del report ha un proprio URL univoco. Per filtrare tale pagina del report, è possibile usare il riquadro Filtri nell'area di disegno report.  In alternativa, è possibile aggiungere i parametri della stringa di query all'URL per filtrare il report. Se, ad esempio, si vuole mostrare un report ai colleghi applicando un filtro preliminare, basta iniziare dall'URL predefinito del report, aggiungere i parametri di filtro all'URL e quindi inviare l'intero URL via posta elettronica.
@@ -41,7 +41,7 @@ URL?filter=***Tabella***/***Campo*** eq '***valore***'
 * I nomi **Tabella** e **Campo** rispettano la distinzione tra maiuscole e minuscole, **valore** non la rispetta.
 * I campi che sono nascosti dalla visualizzazione Report possono comunque essere filtrati.
 * **Valore** deve essere racchiuso tra virgolette singole.
-* Il tipo di campo deve essere una stringa.
+* Il tipo di campo deve essere un numero o una stringa
 * I nomi di tabella e campo non possono contenere spazi.
 
 Se è ancora poco chiaro, continuare la lettura per un'analisi approfondita.  
@@ -108,7 +108,7 @@ Ciò potrebbe essere utile nei casi in cui si volessero ottenere risultati diffe
 Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della stringa di query.
 
 * I filtri della stringa di query non funzionano con [Pubblica sul Web](service-publish-to-web.md) o Power BI Embedded.   
-* Il tipo di campo deve essere una stringa.
+* Il tipo di campo deve essere un numero o una stringa.
 * I nomi di tabella e campo non possono contenere spazi.
 
 ## <a name="next-steps"></a>Passaggi successivi

@@ -18,17 +18,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/27/2017
 ms.author: mihart
-ms.openlocfilehash: 0fca4788c29f42390a286509acd0675292fc6684
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 04709b76b8e3e464b5384fa2bf137cd79b0749a7
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
 Se si creano dashboard e report, le metriche di utilizzo aiutano a comprenderne l'impatto. L'esecuzione di metriche di utilizzo per dashboard o report permette di scoprire come vengono usati questi elementi all'interno dell'organizzazione, cosa viene usato, chi usa che cosa e per quale motivo lo usa.  
 
 > [!NOTE]
-> Le metriche di utilizzo acquisiscono i dati di utilizzo quando vengono incorporati dashboard e report ma non quando si usa l'opzione [Pubblica sul Web](service-publish-to-web.md)
+> Le metriche di utilizzo tengono traccia dei report incorporati in SharePoint Online. Tengono anche traccia dell'incorporamento di dashboard e report tramite il flusso di lavoro di tipo "le credenziali sono di proprietà dell'utente" e "le credenziali sono di proprietà dell'app". Le metriche di utilizzo non tengono traccia dell'incorporamento dei report tramite [Pubblica sul Web](service-publish-to-web.md).
 > 
 > 
 

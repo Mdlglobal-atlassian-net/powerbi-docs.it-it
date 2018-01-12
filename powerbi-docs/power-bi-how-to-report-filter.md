@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/29/2017
 ms.author: mihart
-ms.openlocfilehash: 3710b8136a5f8f00d78047d9468dce0d6e68377f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Presentazione del riquadro Filtri del report
 Questo articolo analizza in maniera approfondita il riquadro Filtri del report, visibile nella Visualizzazione di modifica e nella Visualizzazione di lettura per i report di Power BI.
@@ -29,7 +29,7 @@ Questo articolo analizza in maniera approfondita il riquadro Filtri del report, 
 Esistono diversi modi per filtrare i dati in Power BI, per questo è prima di tutto consigliabile leggere l'articolo [Informazioni su filtri ed evidenziazione](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-filters"></a>Uso dei filtri
-I report possono essere aperti nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) o nella [Visualizzazione di lettura](service-interact-with-a-report-in-reading-view.md). Nella Visualizzazione di modifica, i proprietari dei report possono [aggiungere filtri a un report](power-bi-report-add-filter.md), che vengono salvati insieme al report stesso. Quando il report viene visualizzato nella Visualizzazione di lettura è possibile interagire con i filtri, ma non salvare le modifiche dei filtri al report.
+I report possono essere aperti nella [Visualizzazione di modifica o Visualizzazione di lettura](service-reading-view-and-editing-view.md). Nella Visualizzazione di modifica, i proprietari dei report possono [aggiungere filtri a un report](power-bi-report-add-filter.md), che vengono salvati insieme al report stesso. Quando il report viene visualizzato nella visualizzazione di lettura è possibile interagire con i filtri, ma non salvare le modifiche dei filtri al report.
 
 ## <a name="filters-in-reading-view"></a>Filtri nella Visualizzazione di lettura
 Quando un report è aperto nella Visualizzazione di lettura, il riquadro Filtri viene visualizzato lungo il lato destro dell'area di disegno report. Se il riquadro non è visibile, selezionare la freccia nell'angolo superiore destro per espanderlo.
@@ -122,7 +122,7 @@ Se i valori dei campi rappresentano una data o un'ora, si può specificare un'or
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Filtri ed evidenziazione nei report](power-bi-reports-filters-and-highlighting.md)  
-[Interagire con i filtri e l'evidenziazione nella Visualizzazione di lettura del report](service-interact-with-a-report-in-reading-view.md)  
+[Interagire con i filtri e l'evidenziazione nella Visualizzazione di lettura del report](service-reading-view-and-editing-view.md)  
 [Creare filtri nella Visualizzazione di modifica del report](power-bi-report-add-filter.md)  
 [Modificare il filtro incrociato e l'evidenziazione incrociata tra gli oggetti visivi nel report](service-reports-visual-interactions.md)
 

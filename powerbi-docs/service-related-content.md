@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
 Il riquadro **Contenuto correlato** mostra come è interconnesso il contenuto del servizio Power BI: dashboard, report e set di dati.  Ancora meglio, in questo riquadro è possibile eseguire attività comuni quali l'aggiornamento, la ridenominazione, la generazione di informazioni e molto altro. Selezionare un rapporto o un dashboard correlato per aprirlo nell'area di lavoro di Power BI.   
@@ -74,7 +74,7 @@ In un'area di lavoro, selezionare la scheda **Report** e quindi selezionare l'ic
 <br>
 **Metodo 2**
 
-Aprire il report in [Visualizzazione di lettura](service-interact-with-a-report-in-reading-view.md) e selezionare ![](media/service-related-content/power-bi-view-related-new.png) dalla barra dei menu superiore.
+Aprire il report in [Visualizzazione di lettura](service-reading-view-and-editing-view.md) e selezionare ![](media/service-related-content/power-bi-view-related-new.png) dalla barra dei menu superiore.
 
 Viene visualizzato il riquadro **Contenuto correlato**, che mostra il set di dati associato e tutti i dashboard che hanno almeno un riquadro aggiunto dal report. Per questo report sono state aggiunte visualizzazioni da due diversi dashboard.
 
@@ -97,7 +97,7 @@ A questo punto, è possibile intervenire direttamente sul contenuto correlato.  
 
 ## <a name="limitations-and-troubleshooting"></a>Limitazioni e risoluzione dei problemi
 * Se il browser non ha spazio sufficiente, non sarà possibile vedere l'opzione **Visualizza elementi correlati** ma verrà comunque visualizzata l'icona Visualizza elementi correlati ![](media/service-related-content/power-bi-view-related-icon-new.png). Selezionare l'icona per aprire il riquadro **Contenuto correlato**.
-* Per aprire il contenuto correlato per un report, è necessario essere in [Visualizzazione di lettura](service-interact-with-a-report-in-reading-view.md).
+* Per aprire il contenuto correlato per un report, è necessario essere in [Visualizzazione di lettura](service-reading-view-and-editing-view.md).
 * La funzionalità Contenuto correlato non è disponibile in Power BI Desktop.
 * La funzionalità Contenuto correlato non funziona per i set di dati di streaming.
 

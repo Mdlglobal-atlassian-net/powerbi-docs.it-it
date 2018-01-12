@@ -1,6 +1,6 @@
 ---
 title: Trovare dashboard, report e app nelle app Power BI per dispositivi mobili
-description: Informazioni su dove trovare i dashboard e i report nelle app Power BI per dispositivi mobili a seconda della loro provenienza.
+description: Informazioni su dove trovare i dashboard, i report e le app nelle app Power BI per dispositivi mobili a seconda della loro provenienza.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Trovare dashboard, report e app nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -49,7 +49,7 @@ Si potrebbero avere connessioni a uno o più server di report di Power BI o serv
 ## <a name="3-apps"></a>3 App
 Un'app è costituita da una raccolta di dashboard e report appositamente creata dall'organizzazione allo scopo di fornire metriche chiave che consentano di prendere decisioni basate sui dati in modo semplice e rapido. Nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) è facile rilevare e installare le app. Dopo l'installazione, è possibile visualizzarle da qualsiasi dispositivo. 
 
-![Nuove funzionalità di spostamento di Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Nuove funzionalità di spostamento di Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Con le app si ottengono automaticamente tutti gli aggiornamenti eseguiti dall'autore, il quale controlla anche la frequenza con cui è pianificato l'aggiornamento dei dati. Non è necessario preoccuparsi di stare al passo con le modifiche dell'autore.
 

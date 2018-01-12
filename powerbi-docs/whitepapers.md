@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
@@ -41,5 +41,6 @@ I white paper consentono di esplorare gli argomenti di Power BI a un livello pi�
 | [Sicurezza](service-admin-power-bi-security.md) |Fornisce una spiegazione dettagliata della sicurezza all'interno di Power BI. |
 | [Protezione del modello semantico BI tabulare](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Questo articolo presenta il modello di sicurezza per la semantica BI tabulare e per Power BI. Si apprenderà come creare ruoli, implementare la sicurezza dinamica, configurare le impostazioni di rappresentazione, gestire i ruoli e scegliere un metodo per la connessione ai modelli che funzioni nel contesto di sicurezza di rete. |
 | [Indicazioni sulla pianificazione della capacità per il server di report di Power BI](report-server/capacity-planning.md) |Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. |
-|[Pianificazione e distribuzione di Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | White paper tecnico relativo alle procedure consigliate e alle indicazioni per la pianificazione, la distribuzione e l'utilizzo di Power BI Premium. 
+| [Pianificazione e distribuzione di Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Questo documento fornisce indicazioni e procedure consigliate per la pianificazione e la distribuzione della capacità Premium per carichi di lavoro ben definiti.|
+
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
