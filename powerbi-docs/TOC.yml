@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Origini dati per Power BI
           href: service-get-data.md
-        - name: La nuova esperienza di navigazione di Power BI
+        - name: Spostamenti in Power BI - Esperienza di navigazione
           href: service-the-new-power-bi-experience.md
         - name: 10 suggerimenti per chiedere assistenza
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: Attività comuni
       items:
-        - name: Dashboard preferiti in Power BI
+        - name: 'Dashboard, report e app preferiti in Power BI'
           href: service-dashboard-favorite.md
         - name: 'Stampare un dashboard, un riquadro di un dashboard o una pagina di report'
           href: service-print.md
@@ -324,7 +324,7 @@
           href: service-share-dashboard-that-links-to-excel-onedrive.md
         - name: Pubblicare in PowerPoint
           href: service-publish-to-powerpoint.md
-    - name: Relazioni
+    - name: Report
       items:
         - name: Report in Power BI
           href: service-reports.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Crea oggetti visivi reattivi in Power BI
           href: desktop-create-responsive-visuals.md
-        - name: Usare le etichette gerarchia inline in Power BI Desktop (anteprima)
+        - name: Usare le etichette di gerarchia inline in Power BI Desktop (anteprima)
           href: desktop-inline-hierarchy-labels.md
         - name: Usare il filtro dei dati per intervalli numerici
           href: desktop-slicer-numeric-range.md
