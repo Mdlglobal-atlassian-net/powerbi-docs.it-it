@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -46,7 +46,7 @@ Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel 
 ## <a name="from-a-visualization-in-a-report"></a>Da una visualizzazione in un report
 Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](sample-procurement.md) in [Visualizzazione di modifica](service-reading-view-and-editing-view.md). [Aggiungere una nuova pagina del report vuota](power-bi-report-add-page.md). Seguire quindi questa procedura per aggiungere un'aggregazione e un filtro a livello di visualizzazione.
 
-1. Creare un nuovo grafico a colonne.  Nel riquadro Campi, selezionare **Location > City** e **Invoice > Discount Percent**.   
+1. Creare un nuovo grafico a colonne.  Nel riquadro Campi, selezionare **Location > City** e **Invoice > Discount Percent**.  Potrebbe essere necessario spostare **Discount Percent** nell'area Value. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Modificare l'aggregazione per **Discount Percent** da **Count** a **Average**. Nell'area Value, selezionare la freccia a destra di **Discount Percent** (o altrimenti **Count of Discount Percent**) e scegliere **Average**.

@@ -1,7 +1,7 @@
 ## <a name="requirements"></a>Requisiti
 **Requisiti minimi:**
 
-* .NET Framework 4.5
+* .NET Framework 4.6
 * Versione a 64 bit di Windows 7/Windows Server 2008 R2 (o versione successiva)
 
 **Consigliato:**

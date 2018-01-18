@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: 1eff7cbb6fd54993440d309cb14622295daa3d19
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: 4fd120b3c44c7a748bdfd42378c3c3aa43e2ad7d
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novità dell'ultimo aggiornamento di Power BI Desktop
 
-## <a name="december-2017-update-2534954481-"></a>Aggiornamento di dicembre 2017 (2.53.4954.481)
+## <a name="january-2018-update-2544970761-"></a>Aggiornamento di gennaio 2018 (2.54.4970.761)
 
 È ora possibile [scaricare la versione più recente di Power BI Desktop](https://powerbi.microsoft.com/desktop). Se si esegue Windows 10, è possibile ottenere **Power BI Desktop** anche da Windows Store. Le versioni mensili sono le stesse, indipendentemente dalla modalità di installazione di **Power BI Desktop**. Per altre informazioni, vedere [questo articolo](desktop-get-the-desktop.md). 
 
-La versione di dicembre introduce numerosi aggiornamenti per **Power BI Desktop**, con molte nuove sorprese per il divertimento di bambini e adulti con la passione della business intelligence. Tanti regali e niente carbone per nessuno.
+Il nuovo anno inizia con vari aggiornamenti a **Power BI Desktop** e ne sono previsti molti altri.
 
 I collegamenti accanto a ogni aggiornamento significano quanto segue:
 
@@ -44,39 +44,33 @@ Gli aggiornamenti seguenti sono le novità di **Power BI Desktop** di questo mes
 
 ### <a name="reporting"></a>Creazione di report
 
--   Domande e risposte per la creazione di report [[video]](https://youtu.be/ZPU8B-1BxjI?t=8s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) 
--   Evidenziazione incrociata per i segnalibri [[video]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting) 
--   Maggiore flessibilità per i segnalibri [[video]](https://youtu.be/ZPU8B-1BxjI?t=4m18s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility) 
--   Riquadro delle proprietà del campo e descrizioni del campo [[video]](https://youtu.be/ZPU8B-1BxjI?t=13m19s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane) 
--   Oggetto visivo a dispersione da raggruppamenti dell'asse x e y [[video]](https://youtu.be/ZPU8B-1BxjI?t=15m12s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
--   Campionamento ad alta densità per le mappe in base a latitudine e longitudine [[video]](https://youtu.be/ZPU8B-1BxjI?t=17m3s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
--   Filtri dei dati reattivi [[video]](https://youtu.be/sI3yRjdnJ7w?t=20m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   Oggetti visivi rilasciati di recente  [[video]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   Visualizzare e nascondere le pagine [[video]](https://youtu.be/W8Pp5wuCXJw?t=20s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages) 
+-   Controllo del colore di sfondo delle etichette dati per oggetti visivi cartesiani e mappe [[video]](https://youtu.be/W8Pp5wuCXJw?t=3m13s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dataLabelBackground) 
+-   Incremento dell'area usata per le etichette degli assi nei grafici [[video]](https://youtu.be/W8Pp5wuCXJw?t=5m10s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#axisSize) 
+-   Controllo del riempimento di barre/colonne [[video]](https://youtu.be/W8Pp5wuCXJw?t=6m40s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#padding) 
+-   Visualizzazione delle date come gerarchia (anteprima)  [[video]](https://youtu.be/W8Pp5wuCXJw?t=7m41s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
+-   Aggiunta di una data di ancoraggio a un filtro dei dati data relativa [[video]](https://youtu.be/W8Pp5wuCXJw?t=9m22s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
+-   Selezione Primi N in Domande e risposte [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
+-   Molti nuovi oggetti visivi personalizzati [[video]](https://youtu.be/W8Pp5wuCXJw?t=11m32s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>Analytics
 
--   Filtri di drill su altri oggetti visivi [[video]](https://youtu.be/ZPU8B-1BxjI?t=28m53s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals) 
-
+-   Misurazione rapida del coefficiente di correlazione [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#correlationCoefficient) 
 
 ### <a name="data-connectivity"></a>Connettività dei dati
 
--   Connettore per Adobe Analytics [[video]](https://youtu.be/ZPU8B-1BxjI?t=30m35s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#AdobeAnalytics) 
--   Connettore per HDInsight Interactive Query [[video]](https://youtu.be/ZPU8B-1BxjI?t=31m13s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#HDInsightInteractiveQuery) 
--   Connettore per Data.World [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#Data.World) 
--   Miglioramenti del connettore SAP BW [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#SAPBW) 
--   Il connettore IBM Netezza è ora disponibile a livello generale [[video]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#IBMNetezza) 
-
+-   Supporto dell'autenticazione Azure Active Directory per i connettori database SQL di Microsoft Azure e data warehouse [[video]](https://youtu.be/W8Pp5wuCXJw?t=21m42s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#AADauth) 
 
 
 > [!NOTE]
 > È anche possibile [estrarre tutte le origini dati disponibili in Power BI Desktop](desktop-data-sources.md). L'elenco è in continuo aumento, quindi è consigliabile consultarlo regolarmente.
 
-Sono necessarie ulteriori informazioni su questi aggiornamenti? In questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/) sono fornite informazioni più dettagliate su ognuna di queste nuove funzionalità (si tratta dello stesso post di blog indicato nell'elenco precedente).
+Sono necessarie ulteriori informazioni su questi aggiornamenti? In questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/) sono fornite informazioni più dettagliate su ognuna di queste nuove funzionalità (si tratta dello stesso post di blog indicato nell'elenco precedente).
 
 Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti. È inoltre possibile visualizzare il video dal post di blog.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).

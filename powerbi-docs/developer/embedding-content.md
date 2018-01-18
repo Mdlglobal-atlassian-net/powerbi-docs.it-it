@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/19/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporare i dashboard, i report e i riquadri di Power BI
 
@@ -133,10 +133,13 @@ Gli utenti del piano Gratuito possono utilizzare contenuti incorporati da un'are
 
 ### <a name="embedding-for-your-customers"></a>Incorporamento per i clienti
 
-Se si intende incorporare per i clienti, si dovranno eseguire le operazioni seguenti.
+Per eseguire l'incorporamento per i clienti, procedere nel modo seguente.
 
 * Se si usa un tenant diverso per lo sviluppo, è necessario assicurarsi che l'area di lavoro per le app, insieme ai dashboard e ai report, sia disponibile nell'ambiente di produzione. Assicurarsi di creare l'applicazione in Azure AD per il tenant di produzione e di assegnare le autorizzazioni di dell'app adeguate, come indicato nel Passaggio 1.
 * Acquistare una capacità adatta alle proprie esigenze. È possibile usare la tabella seguente per individuare gli SKU per la capacità di Power BI Embedded necessari. Per altre informazioni, vedere [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (White paper sulla pianificazione della capacità di analisi incorporata) Quando si è pronti, è possibile completare l'acquisto nel [portale di Microsoft Azure](https://portal.azure.com). Per informazioni dettagliate su come creare capacità per Power BI Embedded, vedere [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Creare capacità per Power BI Embedded nel portale di Azure).
+
+> [!IMPORTANT]
+> Dato che i token di incorporamento sono destinati solo alle attività di sviluppo e test, un account master Power BI può generare un numero di token di incorporamento limitato. È necessario [acquistare una capacità](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) per gli scenari di incorporamento della produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento.
 
 | Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
 | --- | --- | --- | --- | --- | --- |
@@ -152,6 +155,8 @@ Se si intende incorporare per i clienti, si dovranno eseguire le operazioni segu
     ![Assegnare un'area di lavoro a una capacità](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Distribuire l'applicazione aggiornata nell'ambiente di produzione e iniziare a incorporare i dashboard e i report di Power BI.
+
+
 
 ## <a name="admin-settings"></a>Impostazioni di amministrazione
 

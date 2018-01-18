@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 70cb015b0f5c4aa952c33c6dd94da5292f9678d7
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile creare un oggetto visivo **forme mappa** per mostrare i confronti relativi delle aree su una mappa applicando colori diversi alle varie aree. Contrariamente all'oggetto visivo **mappa**, l'oggetto visivo **forme mappa** non può visualizzare le ubicazioni geografiche precise dei punti dati di una mappa; il suo scopo principale è invece quello di mostrare i confronti relativi su una mappa applicando a essi colori diversi.
 
-Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. Le mappe personalizzate non sono disponibili in questa versione di anteprima di **mappe forma**, ma potranno essere usate quando questa funzionalità non sarà più in anteprima, il che è previsto con il prossimo aggiornamento mensile di Power BI Desktop.
+Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. L'uso di mappe personalizzate non è disponibile in questa versione di anteprima di **Forme mappa**.
 
 ## <a name="creating-shape-maps"></a>Creazione di forme mappa
 È possibile testare il controllo **Mappa forme** con le mappe fornite con questa versione di anteprima oppure usare una mappa personalizzata, purché soddisfi i requisiti descritti nella sezione **Usare le mappe personalizzate**.
@@ -95,8 +95,9 @@ Per inserire rapidamente i dati in un modello per poter testare le **forme mappa
 Per questa versione di anteprima di **forme mappa** è necessario tenere conto di alcune considerazioni e requisiti:
 
 * L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Forme mappa**.
-* Attualmente, è necessario anche che il bucket **Valori** sia impostato perché la classificazione **Legenda** funzioni correttamente. Si prevede che questo comportamento verrà migliorato nella versione finale di **Forme mappa**,
-* dove sarà disponibile un'interfaccia utente che mostra le **chiavi mappa** della mappa selezionata; in questa versione di anteprima è possibile vedere le chiavi di aree mappa disponibili nella sezione **Chiavi area** seguente di questo articolo.
+* Attualmente deve essere impostato anche il bucket **Valori** perché la classificazione **Legenda** funzioni correttamente.
+* La versione di rilascio finale di **Forme mappa** includerà un'interfaccia utente che visualizza le chiavi mappa della mappa selezionata (non è disponibile una data per il rilascio finale e **Forme mappa** è ancora in anteprima). In questa versione di anteprima è possibile vedere le chiavi di aree mappa disponibili nella sezione **Chiavi area** seguente di questo articolo.
+* L'oggetto visivo **Forme mappa** traccia un massimo di 1000 punti dati.
 
 ## <a name="region-keys"></a>Chiavi area
 Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **forme mappa**.

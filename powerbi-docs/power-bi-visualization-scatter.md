@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Grafici a dispersione e grafici a bolle in Power BI (esercitazione)
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di valori numerici lungo un asse orizzontale e un altro set di dati numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Questi punti dati possono essere distribuiti uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati.
@@ -75,6 +75,14 @@ Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Pe
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Facoltativamente, [formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Accessibilità
+
+È possibile facilitare l'accesso al grafico a dispersione o a bolle per gli utenti disabili mediante le *forme del marcatore*. 
+
+Per selezionare la forma del marcatore, selezionare la sezione **Formato** nel riquadro **Visualizzazioni**, espandere la sezione **Forme**, quindi selezionare una forma del marcatore.
+
+![Forma del marcatore](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Il grafico a dispersione presenta solo un punto dati**

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: ced415662c2dc39b6491cb79d121f3cd77719fe4
-ms.sourcegitcommit: be55922d7f43f458aea0160ec8fdfb1a0b5a0c00
+ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
+ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/12/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -32,6 +32,13 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 ## <a name="october-2017"></a>Ottobre 2017
 
 - **Server di report Power BI**
+    - *Versione 1.1.6582.41691 (build 14.0.600.442), data di rilascio: 10 gennaio 2018*
+        - Aggiornamenti della sicurezza
+        - Correzioni di bug
+            - Correzione di Model.GetParameters che restituisce l'errore 400
+            - Correzione dell'impostazione del set di dati condiviso sui report impaginati esistenti (RDL)
+            - Correzione di ExecutionNotFoundException durante l'esportazione in formato PDF di report con valori di parametri diversi
+
     - *Versione 1.1.6551.5155 (build 14.0.600.438), data di rilascio: 11 dicembre 2017*
         - Correzioni di bug
             - Errore durante il salvataggio dei dati dopo l'aggiornamento per determinati report di Power BI Desktop.
@@ -61,6 +68,9 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
             - Miglioramenti all'accessibilità
 
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+    - *Versione: 2.51.4885.2501 (ottobre 2017), rilascio: 10 gennaio 2018*
+        - Aggiornamenti della sicurezza
+
     - *Versione: 2.51.4885.1423 (ottobre 2017), data di rilascio: 17 novembre 2017*
         - Correzioni di bug
             - Correzione alla versione di Power BI Desktop a 32 bit che non può essere eseguita nei sistemi operativi x86
@@ -74,6 +84,9 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 ## <a name="june-2017"></a>Giugno 2017
 
 - **Server di report Power BI**
+    - *Build 14.0.600.309, data di rilascio: 10 gennaio 2018*
+        - Aggiornamenti della sicurezza
+
     - *Build 14.0.600.305, data di rilascio: 19 settembre 2017*  
         - Correzioni di bug
             - Aggiornamento al [controllo Web di Bing Maps](https://msdn.microsoft.com/library/mt712542.aspx) più recente
@@ -87,6 +100,10 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
     - *Build 14.0.600.271, data di rilascio: 12 giugno 2017*
         - Versione iniziale del server di report di Power BI
+
+- **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+    - *Versione: 2.47.4766.4901 (giugno 2017), data di rilascio: 10 gennaio 2018*
+        - Aggiornamenti della sicurezza
 
 ## <a name="next-steps"></a>Passaggi successivi
 

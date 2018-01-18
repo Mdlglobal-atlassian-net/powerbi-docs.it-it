@@ -1,6 +1,6 @@
 ---
-title: Visualizzare i dashboard nelle app Power BI per dispositivi mobili
-description: "Dopo aver creato i dashboard o eseguito la connessione ad essi nel servizio Power BI, è possibile visualizzarli nelle app Power BI per dispositivi mobili."
+title: Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
+description: "Dopo aver creato dashboard o report o aver eseguito la connessione a tali elementi nel servizio Power BI, è possibile visualizzarli nelle app Power BI per dispositivi mobili."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Visualizzare i dashboard nelle app Power BI per dispositivi mobili
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefono Android](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Dispositivi Windows 10](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ I dashboard rappresentano il portale per accedere al ciclo di vita e ai processi
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Creazione di dashboard nel servizio Power BI (https://powerbi.com)
 **Non è possibile creare dashboard con le app per dispositivi mobili.** 
 
-Per visualizzare i dashboard nel dispositivo mobile, è necessario crearli o accedervi da un Web browser. 
+Per visualizzare dashboard e report nel dispositivo mobile, è necessario creare tali elementi o accedervi da un Web browser. 
 
 1. Accedere al servizio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [iscriversi per creare un account](service-self-service-signup-for-power-bi.md).
-2. [Creare dashboard di Power BI personalizzati](service-dashboard-create.md) o connettersi a [pacchetti di contenuto esistenti per un'ampia gamma di servizi](service-connect-to-services.md).
+2. [Creare dashboard e report Power BI personalizzati](service-get-started.md) o connettersi ad [app Power BI](service-connect-to-services.md) esistenti per ottenere una vasta gamma di servizi, ad esempio [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) e [Adobe Analytics](service-connect-to-adobe-analytics.md).
 
 Ecco un dashboard di Power BI nel servizio Power BI:
 

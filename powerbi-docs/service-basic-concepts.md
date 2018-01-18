@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Concetti di base per il servizio Power BI
 
@@ -92,7 +92,7 @@ I set di dati possono essere aggiornati, rinominati, esplorati e rimossi. Usare 
 * [Recuperare dati per Power BI](service-get-data.md)
 * [Set di dati di esempio per Power BI](sample-datasets.md)
 
-## <a name="reports"></a>Relazioni
+## <a name="reports"></a>Report
 Un report di Power BI è costituito da una o più pagine di visualizzazioni (grafici e diagrammi quali grafici a linee, grafici a torta, mappe ad albero e molti altri). Le visualizzazioni sono anche dette ***oggetti visivi***. Tutte le visualizzazioni in un report provengono da un unico set di dati. I report possono essere creati da zero all'interno di Power BI, importati con dashboard condivisi dai colleghi oppure essere creati quando l'utente si connette ai set di dati da Excel, Power BI Desktop, database, applicazioni SaaS e [app](service-get-data.md).  Ad esempio, quando si è connessi a una cartella di lavoro di Excel che contiene fogli di Power View, Power BI crea un report basato su tali fogli. Inoltre, quando ci si connette a un'applicazione SaaS, Power BI importa un report predefinito.
 
 È possibile visualizzare i report e interagirvi in due modi, ovvero in [Visualizzazione di lettura e Visualizzazione di modifica](service-reading-view-and-editing-view.md).  Solo la persona che ha creato il report, i comproprietari e gli utenti autorizzati possono utilizzare tutte le funzionalità di esplorazione, progettazione, creazione e condivisione in ***Visualizzazione di modifica***. Coloro che condividono il report possono esplorarlo e interagire in ***Visualizzazione di lettura***.   
@@ -166,7 +166,7 @@ Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario 
 * [Pubblicare in Power BI da Excel](service-publish-from-excel.md)
 
 
-## <a name="my-workspace"></a>Area di lavoro
+## <a name="my-workspace"></a>Area di lavoro personale
 Fino a qui sono stati illustrati gli elementi fondamentali e le aree di lavoro. Ora verranno esaminati in dettaglio l'interfaccia di Power BI e i componenti che costituiscono la pagina di destinazione del servizio Power BI.
 
 ![](media/service-basic-concepts/completenewest.png)
@@ -238,6 +238,7 @@ Questa area della schermata contiene opzioni aggiuntive per interagire con il co
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione a Power BI](service-get-started.md)  
+[Navigazione nel servizio Power BI](service-the-new-power-bi-experience.md)
 [Video di Power BI](videos.md)  
 [Presentazione dell'editor di report](service-the-report-editor-take-a-tour.md)
 

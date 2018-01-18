@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Creare e pubblicare app con dashboard e report in Power BI
 
@@ -51,14 +51,9 @@ L'autore di un'app necessita di una licenza Power BI Pro. Per gli utenti di app 
 ## <a name="app-workspaces"></a>Aree di lavoro per le app
 Le *aree di lavoro per le app* sono i posti in cui si creano le app; dunque, prima di creare un'app, è necessario creare l'area di lavoro per le app. Se l'area di lavoro del gruppo è già stata usata in Power BI, le aree di lavoro per le app risulteranno familiari. Tali aree sono infatti l'evoluzione delle aree di lavoro del gruppo, ovvero aree di gestione temporanea e contenitori per il contenuto nell'app. 
 
-È possibile aggiungere altri colleghi a queste aree di lavoro come membri o amministratori. Tutti i membri dell'area di lavoro per le app e gli amministratori necessitano di una licenza Power BI Pro. Nell'area di lavoro è possibile collaborare tutti assieme su dashboard, report e altri articoli da pubblicare a un pubblico più ampio o persino all'intera organizzazione. 
+È possibile aggiungere altri colleghi a queste aree di lavoro come membri o amministratori. Tutti i membri dell'area di lavoro per le app e gli amministratori necessitano di una licenza Power BI Pro. Nell'area di lavoro tutti i membri possono collaborare su dashboard, report e altri articoli da rendere disponibili a un pubblico più ampio o all'intera organizzazione. 
 
-Quando il contenuto è pronto, si pubblica l'app. È possibile inviare un collegamento diretto a un gruppo di destinatari più ampio oppure rendere disponibili le app dalla scheda App scegliendo **Scarica ed esplora altre app da AppSource**. Tali utenti non possono modificare il contenuto dell'app, ma possono interagirvi nel servizio Power BI o in una delle app per dispositivi mobili, filtrando, evidenziando e ordinando i dati autonomamente. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Quali sono le differenze tra le aree di lavoro per le app e le aree di lavoro del gruppo?
-Tutte le aree di lavoro gruppo esistenti possono fungere da aree di lavoro per le app ed è possibile pubblicare le app da una qualsiasi di queste aree di lavoro. L'unica differenza è che è possibile creare un'area di lavoro per le app come luogo in cui creare e ospitare un'app specifica. Esiste una relazione uno-a-uno tra l'app e il contenuto dell'area di lavoro per le app. Quando si pubblicherà l'app, essa includerà tutto il contenuto dell'area di lavoro per le app. 
-
-Dopo aver appreso i concetti di app e aree di lavoro per le app, si passerà alla creazione e alla pubblicazione di un'app. 
+Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicare l'app. È possibile inviare un collegamento diretto a un gruppo di destinatari più ampio oppure rendere disponibili le app dalla scheda App scegliendo **Scarica ed esplora altre app da AppSource**. Tali utenti non possono modificare il contenuto dell'app, ma possono interagirvi nel servizio Power BI o in una delle app per dispositivi mobili, filtrando, evidenziando e ordinando i dati autonomamente. 
 
 ## <a name="create-an-app-workspace"></a>Creare un'area di lavoro per le app
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
