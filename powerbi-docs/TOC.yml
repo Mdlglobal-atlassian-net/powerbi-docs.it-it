@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Ottenere risposte dai dati
       items:
-        - name: Domande e risposte in Power BI
-          href: service-q-and-a.md
-        - name: Come usare Domande e risposte di Power BI
-          href: service-how-to-q-and-a.md
-        - name: 'Esercitazione: Introduzione a Domande e risposte di Power BI'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Uso di Domande e risposte con Power BI Gateway - Enterprise (anteprima)
-          href: service-q-and-a-direct-query.md
-        - name: Usare correttamente i dati con Domande e risposte di Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Introduzione a Cortana per Power BI
-          href: service-cortana-intro.md
-        - name: Abilitare Cortana per Power BI
-          href: service-cortana-enable.md
-        - name: Creare domande in primo piano per Domande e risposte di Power BI
-          href: service-q-and-a-create-featured-questions.md
-        - name: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
-          href: service-q-and-a-tips.md
-        - name: Risolvere i problemi di Cortana
-          href: service-cortana-troubleshoot.md
+        - name: Panoramica
+          items:
+            - name: Domande e risposte in Power BI
+              href: power-bi-q-and-a.md
+            - name: Introduzione a Cortana per Power BI
+              href: service-cortana-intro.md
+        - name: Avvio rapido
+          items:
+            - name: Introduzione a Power BI - Domande e risposte
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Esercitazioni
+          items:
+            - name: Usare domande e risposte per creare visualizzazioni e compilare report
+              href: power-bi-tutorial-q-and-a.md
+        - name: Procedura
+          items:
+            - name: Uso di Domande e risposte con Power BI Gateway - Enterprise (anteprima)
+              href: service-q-and-a-direct-query.md
+            - name: Usare correttamente i dati con Domande e risposte di Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Abilitare Cortana per Power BI
+              href: service-cortana-enable.md
+            - name: Creare domande in primo piano per Domande e risposte di Power BI
+              href: service-q-and-a-create-featured-questions.md
+        - name: Risorse
+          items:
+            - name: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
+              href: service-q-and-a-tips.md
+            - name: Risolvere i problemi di Cortana
+              href: service-cortana-troubleshoot.md
     - name: Condividere il lavoro
       items:
         - name: Come si condividono i dashboard e i report e in che modo si collabora?
@@ -350,7 +360,7 @@
           href: service-analyze-in-excel.md
         - name: Modificare l'interazione degli oggetti visivi in un report
           href: service-reports-visual-interactions.md
-        - name: Aprire un report di Power BI in Visualizzazione di lettura o Visualizzazione di modifica
+        - name: Aprire un report di Power BI in visualizzazione di lettura o visualizzazione di modifica
           href: service-reading-view-and-editing-view.md
         - name: Interagire con un report nella Visualizzazione di modifica in Power BI
           href: service-interact-with-a-report-in-editing-view.md
