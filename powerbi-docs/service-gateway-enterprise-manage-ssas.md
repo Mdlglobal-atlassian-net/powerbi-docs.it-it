@@ -192,7 +192,7 @@ Quando si seleziona un elemento nell'elenco, è possibile modificarne l'ordine t
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Uso del carattere jolly (*)
+### <a name="using-wildcard-"></a>Uso del carattere jolly (\*)
 È possibile usare un carattere jolly per la stringa **Sostituisci (nome originale)**. Il carattere jolly può essere usato da solo, ma non con nessun'altra parte della stringa. In questo modo sarà possibile accettare tutti gli utenti e passare un singolo valore all'origine dati. Ciò è utile quando si vuole che tutti gli utenti nell'organizzazione usino lo stesso nome utente nell'ambiente locale.
 
 ### <a name="test-a-mapping-rule"></a>Testare una regola di mapping
