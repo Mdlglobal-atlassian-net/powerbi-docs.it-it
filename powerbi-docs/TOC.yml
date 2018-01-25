@@ -298,7 +298,7 @@
               href: service-cortana-troubleshoot.md
     - name: Condividere il lavoro
       items:
-        - name: Come si condividono i dashboard e i report e in che modo si collabora?
+        - name: Come si condividono i dashboard e i report e in che modo ci si collabora?
           href: service-how-to-collaborate-distribute-dashboards-reports.md
         - name: Installare e usare le app con dashboard e report
           href: service-install-use-apps.md
@@ -308,9 +308,9 @@
           href: service-organizational-content-pack-introduction.md
         - name: Creare e pubblicare i pacchetti di contenuto aziendali (esercitazione)
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Condividere un dashboard con i colleghi e altri utenti
+        - name: Condividere dashboard e report
           href: service-share-dashboards.md
-        - name: Condividere un report con i colleghi
+        - name: Condividere un report filtrato
           href: service-share-reports.md
         - name: Pubblicare da Power BI al Web
           href: service-publish-to-web.md
