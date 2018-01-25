@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 85b43579785983da2ddc3ac2e302396d1a282792
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ff7ff30874d4038547a0db94ae8c285081acc8eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Connettersi ad Azure Mobile Engagement con Power BI
 Il pacchetto di contenuto Azure Mobile Engagement di Power BI consente di ottenere rapidamente informazioni sui dati dell'app.
@@ -50,7 +50,7 @@ Connettersi al [pacchetto di contenuto Azure Mobile Engagement](https://app.powe
 
  **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](service-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
 * [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 97a799ade391d0691ff7ecd4c362ce225ffa0ab9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e13abe206b4f46726e196a3423bd1fad21391be5
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Connettersi a SQL Sentry con Power BI
 L'analisi dei dati delle prestazioni raccolti da SQL Sentry è facile con Power BI. Power BI recupera infatti i dati, creando quindi un dashboard predefinito e report correlati basati su tali dati.
@@ -64,7 +64,7 @@ Connettersi al [pacchetto di contenuto SQL Sentry](https://app.powerbi.com/group
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](service-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
 * [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**

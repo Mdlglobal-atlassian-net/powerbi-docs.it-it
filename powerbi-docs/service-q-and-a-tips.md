@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/24/2017
+ms.date: 01/18/2018
 ms.author: jastru
-ms.openlocfilehash: 4b861927bad961837f40f34636f0570106aaabc6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5d9b65448fced78bf3eb4ed02c84e1561d2d209a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Suggerimenti per porre domande in Domande e risposte di Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Parole e terminologia riconosciute da Domande e risposte
@@ -101,7 +101,7 @@ Una delle funzionalità più potenti di Power BI è la possibilità di combinare
 Dopo che Domande e risposte ha mostrato i risultati, continuare la conversazione! Utilizzare le funzionalità interattive della visualizzazione e di Domande e risposte per scoprire ulteriori approfondimenti.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Tornare a [Domande e risposte in Power BI](service-q-and-a.md)  
+Tornare a [Domande e risposte in Power BI](power-bi-q-and-a.md)  
 
 [Power BI - Concetti di base](service-basic-concepts.md)  
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI (ma non in Power BI Desktop) sono disponibili due modalità per visualizzare e interagire con i report: la Visualizzazione di lettura e la Visualizzazione di modifica. La visualizzazione di lettura è disponibile per tutti gli utenti ed è stata progettata in modo specifico per i *consumer* di dati, mentre la visualizzazione di modifica è disponibile solo per gli *autori* e i proprietari dei report. 
@@ -56,7 +56,7 @@ Questo grafico non elenca tutte le funzionalità dei report disponibili nel serv
 | [Opzioni di **visualizzazione** del report](power-bi-report-display-settings.md) | Sì, con alcune eccezioni. | Sì, tutte, incluse le linee della griglia, l'allineamento e il blocco. |
 | [Creare una pianificazione dell'aggiornamento](refresh-data.md) | No  | Sì |
 | [Sottoscrivere un report](service-report-subscribe.md) | Sì | No |
-| [Domande e risposte - Porre le domande nei report](service-q-and-a.md) | No  | Sì |
+| [Domande e risposte - Porre le domande nei report](power-bi-q-and-a.md) | No  | Sì |
 | [Visualizzare le metriche di utilizzo](service-usage-metrics.md) | Sì, nell'area di disegno report. | Sì, nell'elenco di report (visualizzazione contenuto) |
 | [Visualizzare elementi correlati](service-related-content.md) | Sì, nell'area di disegno report. | Sì, nell'elenco di report (visualizzazione contenuto) |
 | [Salvare un report](service-report-save.md) | Sì, ma solo usando **Salva con nome**. | Sì |

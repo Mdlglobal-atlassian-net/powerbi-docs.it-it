@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 01/29/2018
 ms.author: mihart
-ms.openlocfilehash: 91c185a082cebc6a9196e0e86898fe366363f8c2
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 5447b23f7d7dd50bf0d9f9e0cfcc84ea9ad0cc8a
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="funnel-charts-tutorial"></a>Grafici a imbuto (esercitazione)
 Un grafico a imbuto consente di visualizzare un processo lineare caratterizzato da fasi connesse in sequenza, ad esempio un imbuto di vendita che tiene traccia dei clienti nelle fasi Lead \> Lead qualificato \> Cliente potenziale \> Contratto \> Chiusura.  La forma dell'imbuto indica a colpo d'occhio lo stato del processo di cui si sta tenendo traccia.
@@ -54,7 +54,7 @@ Grafici a imbuto:
 ## <a name="create-a-basic-funnel-chart"></a>Creare un grafico a imbuto di base
 Questo video mostra come creare un grafico a imbuto usando l’esempio di analisi di vendite e marketing.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/maTzOJSRB3g" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Creare ora un grafico a imbuto che mostri il numero di opportunità presenti nelle fasi di vendita.

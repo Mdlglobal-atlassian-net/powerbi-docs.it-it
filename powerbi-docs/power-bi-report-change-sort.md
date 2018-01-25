@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
 In un report di Power BI è possibile ordinare alfabeticamente la maggior parte delle visualizzazioni in base ai nomi delle categorie contenute nel grafico oppure in base ai valori numerici di ciascuna categoria. Ad esempio, questo grafico viene ordinato in base al nome dell'archivio.
@@ -32,11 +32,12 @@ In un report di Power BI è possibile ordinare alfabeticamente la maggior parte 
 
 1. Selezionare i puntini di sospensione (...) e scegliere **Sort by Sales Per Sq Ft**.
 2. Se necessario, selezionare l'icona di ordinamento ![](media/power-bi-report-change-sort/sorticon.png) per impostare l'**ordinamento decrescente**.
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **NOTA**: non è possibile ordinare tutti gli oggetti visivi.  Non è ad esempio possibile ordinare gli oggetti visivi seguenti: mappa ad albero, mappa, mappa colorata, grafico a dispersione, misuratore, scheda, scheda con più righe, grafico a cascata.
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Ordinamento in base ad altri criteri
 In alcuni casi, è necessario ordinare l'oggetto visivo usando un campo diverso o altri criteri.  Ad esempio, è possibile ordinare per mese (anziché alfabeticamente) oppure ordinare per numeri interi anziché per cifra (esempio 0, 1, 9, 20 e non 0, 1, 20, 9).  
 
@@ -52,4 +53,3 @@ Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-repor
 [Power BI - Concetti di base](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboard nel servizio Power BI
 
@@ -82,7 +82,7 @@ Power BI Pro è necessario per condividere un dashboard e visualizzare un dashbo
 * Informazioni sui [riquadri del dashboard](service-dashboard-tiles.md) e cosa succede quando se ne seleziona uno.
 * Non si è soddisfatti dall'aspetto del dashboard?  È possibile [ridimensionare, spostare e rinominare i riquadri](service-dashboard-edit-tile.md).
 * Si desidera monitorare un singolo riquadro del dashboard e ricevere un'e-mail quando raggiunge una certa soglia? [Creare avvisi sui riquadri](service-set-data-alerts.md).
-* È possibile porre liberamente le domande al dashboard. Informazioni su come usare lo strumento [Domande e risposte di Power BI](service-how-to-q-and-a.md) per porre una domanda sui dati e ottenere una risposta sotto forma di visualizzazione.
+* È possibile porre liberamente le domande al dashboard. Informazioni su come usare lo strumento [Domande e risposte di Power BI](power-bi-tutorial-q-and-a.md) per porre una domanda sui dati e ottenere una risposta sotto forma di visualizzazione.
 
 > [!TIP]
 > Se nell'articolo non si è trovato ciò che si stava cercando, fare ricorso al sommario a sinistra.

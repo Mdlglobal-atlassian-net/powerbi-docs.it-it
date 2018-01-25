@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Trovare e visualizzare rapidamente i dati di Power BI con Cortana per Power BI
 Usare Cortana nei dispositivi Windows 10 per ottenere risposte immediate alle domande aziendali più importanti. Grazie all'integrazione con Power BI, Cortana può recuperare informazioni chiave direttamente dai dashboard e dai report di Power BI. È sufficiente avere Windows 10 versione di novembre 2015 o versioni successive, Cortana, Power BI e l'accesso ad almeno un set di dati.
@@ -70,7 +70,7 @@ Se il titolo del dashboard include più parole, Cortana restituirà tale dashboa
 ### <a name="cortana-and-reports"></a>Cortana e i report
  Cortana può trovare risposte nei report che includono [pagine progettate in modo specifico per la visualizzazione in Cortana](service-cortana-answer-cards.md). È sufficiente porre domande usando il titolo o le parole chiave di una di tali pagine speciali dei report.  
 
-La tecnologia sottostante per i report usa [Domande e risposte di Microsoft Power BI](service-q-and-a.md).
+La tecnologia sottostante per i report usa [Domande e risposte di Microsoft Power BI](power-bi-q-and-a.md).
 
 Quando si pone una domanda in Cortana, Power BI risponde da pagine di report progettate in modo specifico per Cortana. Le potenziali risposte vengono determinate da Cortana direttamente dalle *schede di risposta* di Cortana già create in Power BI.  Per esplorare ulteriormente una risposta, è sufficiente aprire un risultato in Power BI.
 

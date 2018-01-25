@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 La disponibilità continua dei dati più recenti è spesso fondamentale per poter prendere le decisioni giuste. Molti hanno probabilmente già usato il comando Recupera dati in Power BI per connettersi ai dati e caricarli, nonché hanno creato report e un dashboard. A questo punto, è necessario assicurarsi che i dati siano davvero i più aggiornati e completi.
@@ -112,7 +112,7 @@ Mantenendo i file in OneDrive o SharePoint online e connettendosi a essi da Powe
 | Il comando Recupera dati (sulla barra multifunzione) viene usato per connettersi ai dati provenienti da un'origine dati online elencata ed eseguire query su tali dati. |No |Sì |No (vedere sotto) |
 | Il comando Recupera dati viene usato per connettersi a un database di Analysis Services ed esplorarlo in tempo reale. |Sì |No |Sì |
 | Il comando Recupera dati viene usato per connettersi a un'origine dati DirectQuery locale ed esplorarla. |Sì |No |Sì |
-| Il comando Recupera dati viene usato per connettersi a un database SQL di Azure, Azure SQL Data Warehouse o Azure HDInsight Spark ed eseguire query su tali dati. |Sì (ogni ora) |No |No |
+| Il comando Recupera dati viene usato per connettersi a un database SQL di Azure, Azure SQL Data Warehouse o Azure HDInsight Spark ed eseguire query su tali dati. |Sì |Sì |No |
 | Recupera dati viene usato per connettersi ai dati provenienti da un'origine dati locale elencata, ad eccezione di file Hadoop (HDFS) e Microsoft Exchange. |No |Sì |Sì |
 
 > [!NOTE]

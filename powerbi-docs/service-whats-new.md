@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
 In questa pagina sono disponibili informazioni sui problemi noti e sulle funzionalità rilasciate di recente nel **servizio Power BI**. per le relative informazioni incluse nelle "Novità", vedere:
@@ -470,7 +470,7 @@ Per altre informazioni, vedere il [blog](http://blogs.msdn.com/b/powerbi/archive
 
 **6 ottobre 2015**
 
-* Con Domande e risposte su Power BI è possibile esplorare i dati usando domande semplici e intuitive e ricevere risposte sotto forma di grafici interattivi. Con questa versione è stata aggiunta una funzionalità che consente l'introduzione di domande e risposte su Power BI, anche quando non si hanno informazioni sui dati. Per iniziare a usare questa funzione, [passare a qualsiasi dashboard e fare clic sul collegamento "Come porre le domande" accanto alla casella della domanda di Domande e risposte](service-how-to-q-and-a.md). Power BI offre una serie di suggerimenti basati sui dati.
+* Con Domande e risposte su Power BI è possibile esplorare i dati usando domande semplici e intuitive e ricevere risposte sotto forma di grafici interattivi. Con questa versione è stata aggiunta una funzionalità che consente l'introduzione di domande e risposte su Power BI, anche quando non si hanno informazioni sui dati. Per iniziare a usare questa funzione, [passare a qualsiasi dashboard e fare clic sul collegamento "Come porre le domande" accanto alla casella della domanda di Domande e risposte](power-bi-tutorial-q-and-a.md). Power BI offre una serie di suggerimenti basati sui dati.
 * Due settimane fa è stato introdotto il supporto per l'inserimento di forme nel disegno report di Power BI Desktop. Questa settimana Microsoft è lieta di annunciare che è ora possibile aggiungere forme al disegno report quando si stanno creando e/o modificando report nell'app Web di Power BI.
 * È stata aggiunta l'opzione per disattivare la notifica di posta elettronica quando si condivide un dashboard. È sufficiente deselezionare la casella di controllo "Invia notifica tramite posta elettronica ai destinatari" nella finestra di dialogo di condivisione di Power BI. Verrà visualizzato un URL; copiare e condividere questo URL con i colleghi per consentire l'accesso al dashboard.
 * Microsoft Dynamics NAV è una soluzione di gestione aziendale per organizzazioni di piccole e medie dimensioni. Offre ai clienti una soluzione completa per la propria azienda con maggiore controllo sui dati finanziari e i processi aziendali. Il pacchetto di contenuto di Power BI fornisce report predefiniti per utenti Dynamics NAV, ad esempio, vendite e profitti, pipeline di opportunità, redditività e altro ancora. Queste metriche sono organizzate in un dashboard che può essere completamente personalizzato, consentendo una facile connessione e un inizio immediato dell'esplorazione dei dati.
