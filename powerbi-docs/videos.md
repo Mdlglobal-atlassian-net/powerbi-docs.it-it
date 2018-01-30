@@ -15,31 +15,36 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: c29ea77eab09657b5c21fe97322464523b0621dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4ef3991fc285adc84cdcb5efca00c2f9486e9825
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="power-bi-videos"></a>Video di Power BI
 È disponibile un canale YouTube per Power BI! È possibile visitare il [canale](https://www.youtube.com/user/mspowerbi/videos) dove, per chi non ha esperienza con Power BI, è disponibile una [serie dedicata ad analisi e visualizzazione dei dati con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) che rappresenta un buon punto di partenza.
 
-* Questo video offre alcuni suggerimenti per l'ottimizzazione dei dati per Power BI. Scopri il modo migliore per formattare i dati prima di caricarli nel servizio.
+Ecco alcuni video dalla playlist utili per iniziare.
+
+* Panoramica del servizio Power BI e di Power BI Desktop.
   
   <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
-* Il caricamento di file dal computer locale è facile e veloce con Power BI. Scopri come in questo video.
+* Collaborazione e condivisione.
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/ETj-z3NyY_o" frameborder="0" allowfullscreen></iframe>
-* L'uso di OneDrive è un ottimo metodo per connettersi ai dati e assicurarsi che questa restino sempre aggiornati.
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5DABLeJzQYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+* Panoramica di Power BI per dispositivi mobili
   
-  <iframe width="500" height="281" src="https://www.youtube.com/embed/6cOjiV_klrs" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/07uBWhaCo78" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+* Power BI per sviluppatori
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/47uXJW1GIUY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
 
 ## <a name="watch-some-of-our-new-uploads"></a>Guarda alcuni dei nostri nuovi caricamenti
-* [Business Intelligence](https://youtu.be/MNAaHw4PxzE)
-* [Raggruppamento e creazione di contenitori](https://youtu.be/51n2itS7K5I)
-* [SAP HANA](https://youtu.be/FOjJLvsIACc)
+* [Filtro dei dati](https://youtu.be/V7i82ZZm0vw)
+* [Visualizzazioni personalizzate](https://youtu.be/d-rXAJ3_uAo)
+* [Avvisi nel servizio Power BI](https://youtu.be/JbL2-HJ8clE)
 
 ## <a name="more-videos"></a>Altri video
 Di seguito è disponibile una raccolta di origini e contenuti per altri video.

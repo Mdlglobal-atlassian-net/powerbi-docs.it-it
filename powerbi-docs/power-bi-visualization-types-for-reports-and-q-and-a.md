@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: 5e4788e57bd1836d3d5db10dfb86e2c71c00c34f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 7d9869c16b88cb410073644bdae94173b9cea023
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
 Verranno presto aggiunte nuove visualizzazioni.
 
-Consultare l'[Office store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), dove è possibile trovare un numero crescente di oggetti visivi personalizzati da scaricare e usare nei propri dashboard e report. Approccio creativo [Imparare a creare e aggiungere i propri oggetti visivi al sito della community](developer/office-store.md).  
+Visitare [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), dove è possibile trovare un elenco costantemente aggiornato di [oggetti visivi personalizzati](power-bi-custom-visuals.md) da scaricare e usare nei propri dashboard e report. Approccio creativo [Informazioni su come creare oggetti visivi personalizzati e aggiungerli al sito della community](developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Elenco delle visualizzazioni disponibili in Power BI
 Tutte queste visualizzazioni possono essere aggiunte ai report di Power BI, specificate in domande e risposte e aggiunte al dashboard.
@@ -88,7 +88,7 @@ Per altre informazioni, vedere [Esercitazione: Grafici a imbuto in Power BI](pow
 
 Per altre informazioni, vedere [Esercitazione: Grafici a misuratore in Power BI](power-bi-visualization-radial-gauge-charts.md).
 
-### <a name="kpis"></a>Indicatori KPI
+### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]

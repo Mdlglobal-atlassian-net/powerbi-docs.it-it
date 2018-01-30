@@ -15,16 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8ee889246c7ceae82195faa62232a987a541b076
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi delle opportunità per Power BI
-L' **esempio di analisi delle opportunità** contiene un dashboard (e un report associato) per una società software con due canali di vendita: *diretto* e *partner*. Il responsabile delle vendite ha creato questo dashboard per tener traccia delle opportunità e dei ricavi per area, volume dell'offerta e canale.
+
+## <a name="overview-of-the-opportunity-analysis-sample"></a>Panoramica dell'Esempio di analisi delle opportunità
+L' **Esempio di analisi delle opportunità** contiene un dashboard (e un report associato) per una società software con due canali di vendita: *diretto* e *partner*. Il responsabile delle vendite ha creato questo dashboard per tener traccia delle opportunità e dei ricavi per area, volume dell'offerta e canale.
 
 Il responsabile delle vendite si basa su due misure per i ricavi:
 
@@ -36,23 +38,51 @@ Il responsabile delle vendite si basa su due misure per i ricavi:
   * Proposta – 60%  
   * Finalizzazione – 80%
 
+  ![](media/sample-opportunity-analysis/opportunity1.png)
+
 Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. Si tratta di dati reali messi a disposizione da obviEnce ([www.obvience.com](http://www.obvience.com/)) che sono stati resi anonimi.
 
->[!Note] 
-È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel) per questo esempio](http://go.microsoft.com/fwlink/?LinkId=529782). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare.  Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**. 
+## <a name="prerequisites"></a>Prerequisiti
 
-![](media/sample-opportunity-analysis/opportunity1.png)
+ Prima di poter usare l'esempio, è necessario scaricarlo come pacchetto di contenuto, file con estensione pbix o cartella di lavoro di Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
+
+1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
+2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selezionare l'**Esempio di analisi delle opportunità**, quindi scegliere **Connetti**.  
+  
+   ![Recupera dati](media/sample-opportunity-analysis/opportunity-connect.png)
+   
+5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. 
+   
+   ![Asterisco](media/sample-opportunity-analysis/opportunity-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
+
+In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop. 
+
+ * [Esempio di analisi delle opportunità](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
+È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
 La responsabile delle vendite ha creato un dashboard per tener traccia delle metriche più rilevanti. Quando trova dati interessanti, può selezionare un riquadro per analizzarli in dettaglio.
 
 1. I ricavi della società ammontano a due miliardi di dollari, mentre i ricavi fattorizzati a 461 milioni.
 2. Il numero di opportunità e i ricavi seguono un modello a imbuto familiare, in cui i totali diminuiscono a ogni fase successiva.
-3. La maggior parte delle opportunità si trova nell'area orientale. 
+3. La maggior parte delle opportunità si trova nell'area orientale.
 4. Le opportunità di grande entità generano più ricavi rispetto a quelle di piccola o media entità.
-5. Le trattative di grande entità condotte dai partner generano più ricavi: in media, otto milioni di dollari contro i sei milioni delle vendite dirette. 
+5. Le trattative di grande entità condotte dai partner generano più ricavi: in media, otto milioni di dollari contro i sei milioni delle vendite dirette.
 
-Poiché la quantità di lavoro richiesto per concludere una trattativa di grande, media o piccola entità è la stessa, la società dovrebbe analizzare i dati per ottenere maggiori informazioni sulle opportunità di grande entità. 
+Poiché la quantità di lavoro richiesto per concludere una trattativa di grande, media o piccola entità è la stessa, la società dovrebbe analizzare i dati per ottenere maggiori informazioni sulle opportunità di grande entità.
 
 Selezionare il riquadro **Opportunity Count by Partner Driven and Sales Stage** per aprire la prima pagina del report.  
 ![](media/sample-opportunity-analysis/opportunity2.png)
@@ -63,8 +93,8 @@ Selezionare il riquadro **Opportunity Count by Partner Driven and Sales Stage** 
 
 * L'area orientale è l'area principale in termini di numero di opportunità.  
 * In un grafico a torta selezionare un'area alla volta per filtrare la pagina. Per ogni area i partner cercano di ottenere opportunità notevolmente maggiori.   
-* L'istogramma Opportunity Count by Partner Driven and Opportunity Size mostra che gran parte delle opportunità di grande entità sono basate sui partner, contrariamente a quelle di piccola e media entità. 
-* Selezionare ciascuna fase di vendita nel grafico a barre nell'angolo in basso a sinistra per visualizzare la differenza dei numeri in base all'area. Notare che, anche se l'area orientale rappresenta l'area più estesa in termini numerici, le tre aree mostrano numeri analoghi nelle fasi Soluzione, Proposta e Finalizzazione. Ciò indica una percentuale maggiore di trattative concluse nelle aree centrale e occidentale. 
+* L'istogramma Opportunity Count by Partner Driven and Opportunity Size mostra che gran parte delle opportunità di grande entità sono basate sui partner, contrariamente a quelle di piccola e media entità.
+* Selezionare ciascuna fase di vendita nel grafico a barre nell'angolo in basso a sinistra per visualizzare la differenza dei numeri in base all'area. Notare che, anche se l'area orientale rappresenta l'area più estesa in termini numerici, le tre aree mostrano numeri analoghi nelle fasi Soluzione, Proposta e Finalizzazione. Ciò indica una percentuale maggiore di trattative concluse nelle aree centrale e occidentale.
 
 ### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>Il titolo della seconda pagina del report è "Revenue Overview".
 Questa pagina offre un'analisi dei dati analoga alla precedente, ma basata sui ricavi invece che sui numeri.  
@@ -82,8 +112,8 @@ Si evince che i partner hanno maggior successo nella vendita ai clienti.  Pertan
 In questa pagina vengono analizzati dati analoghi ai precedenti, che però vengono divisi per area e fase.  
 ![](media/sample-opportunity-analysis/opportunity5.png)
 
-* Se si filtra per East (selezionare **East** nel grafico a torta), si vede che le opportunità nell'area orientale sono suddivise piuttosto equamente tra quelle basate sui partner e quelle non basate sui partner. 
-* Le opportunità di grande entità sono più frequenti nell'area centrale, quelle di piccola entità nell'area orientale e quelle di media entità nell'area occidentale. 
+* Se si filtra per East (selezionare **East** nel grafico a torta), si vede che le opportunità nell'area orientale sono suddivise piuttosto equamente tra quelle basate sui partner e quelle non basate sui partner.
+* Le opportunità di grande entità sono più frequenti nell'area centrale, quelle di piccola entità nell'area orientale e quelle di media entità nell'area occidentale.
 
 ### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>Il titolo della quarta pagina del report è "Upcoming Opportunities"
 Anche in questa pagina vengono analizzati fattori simili, ma con una prospettiva temporale.  
@@ -101,4 +131,3 @@ Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard di Power BI, le domande e risposte e i report forniscono informazioni dettagliate sui dati dell'analisi delle opportunità. È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
 
 [Download esempi](sample-datasets.md)  
-

@@ -15,15 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: f349f5f987b779c33dfe1a3a93ee8bc69487110a
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi dell'approvvigionamento per Power BI
+
+## <a name="overview-of-the-procurement-analysis-sample"></a>Panoramica dell'Esempio di analisi dell'approvvigionamento
 Questo dashboard di esempio del settore, unitamente al report sottostante, consentono di analizzare la spesa per i fornitori di una società di produzione in base a categoria e località. Nell'esempio vengono analizzate le aree seguenti:
 
 * Chi sono i fornitori principali
@@ -34,16 +36,43 @@ Questo esempio fa parte di una serie che illustra come usare Power BI con dati, 
 
 ![](media/sample-procurement/procurement1.png)
 
-Per iniziare, nel [servizio Power BI](https://powerbi.com) passare a **Recupera dati > Esempi > Esempio di analisi dell'approvvigionamento > Connetti** per ottenere una copia dell'esempio.
+## <a name="prerequisites"></a>Prerequisiti
 
-[!Note] È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
+ Prima di poter usare l'esempio, è necessario scaricarlo come pacchetto di contenuto, file con estensione pbix o cartella di lavoro di Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
+
+1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
+2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selezionare l'**Esempio di analisi dell'approvvigionamento**, quindi scegliere **Connetti**.  
+  
+   ![Recupera dati](media/sample-procurement/procurement1a.png)
+   
+5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. 
+   
+   ![Asterisco](media/sample-procurement/procurement1b.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
+
+In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop. 
+
+ * [Esempio di analisi dell'approvvigionamento](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
+È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
+
 
 ## <a name="spending-trends"></a>Tendenze di spesa
 Verrà eseguita prima una ricerca delle tendenze di spesa per categoria e località.  
 
 1. Nell'area di lavoro aprire la scheda **Dashboard** e selezionare il dashboard dell'esempio di analisi dell'approvvigionamento.
 2. Selezionare il riquadro del dashboard **Total Invoice by Country/Region**. Si apre la pagina "Spend Overview" del report sull'esempio di analisi dell'approvvigionamento.
-   
+
     ![](media/sample-procurement/procurement2.png)
 
 Si noti che:
@@ -57,18 +86,18 @@ Si noti che:
 Di seguito verranno analizzate le aree di spesa in Messico.
 
 1. Nel grafico a torta selezionare la bolla **Mexico** nella mappa. Nell'istogramma "Total Invoice by Sub Category" il valore maggiore si trova nella sottocategoria **Indirect Goods & Services**.
-   
+
    ![](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. Eseguire il drill-down della colonna **Indirect Goods & Services**:
-   
+
    * Selezionare la freccia del drill-down ![](media/sample-procurement/pbi_drilldown_icon.png) nell'angolo in alto a destra del grafico.
    * Selezionare la colonna **Indirect Goods & Services**.
-     
+
       Finora la spesa maggiore in questa categoria in generale è Sales & Marketing.
    * Selezionare nuovamente **Mexico** nella mappa.
-     
+
       La spesa maggiore in questa categoria per il Messico è Maintenance & Repair.
-     
+
       ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selezionare la freccia rivolta verso l'alto nell'angolo in alto a sinistra del grafico per eseguire il drill-up.
 4. Selezionare di nuovo la freccia per disattivare il drill-down.  
@@ -79,11 +108,11 @@ Di seguito verranno analizzate le aree di spesa in Messico.
 
 1. Selezionare il riquadro del dashboard **Total Invoice, Discount % By Month**. Il report si apre alla pagina "Discount Analysis".
 2. Selezionare le diverse città nella mappa ad albero **Total Invoice by City** per poterle confrontare. Quasi tutte le fatture di Miami provengono da fornitori di livello 1.
-   
+
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Sconti dei fornitori
-Nella sezione seguente verranno analizzati gli sconti offerti dai fornitori e i periodi in cui si ottengono gli sconti più alti. 
+Nella sezione seguente verranno analizzati gli sconti offerti dai fornitori e i periodi in cui si ottengono gli sconti più alti.
 
 ![](media/sample-procurement/procurement4.png)
 
@@ -99,7 +128,7 @@ si nota che gli sconti diminuiscono quando il volume aumenta e viceversa. Nei pe
 ![](media/sample-procurement/procurement5.png)
 
 ### <a name="discount-by-city"></a>Sconti per città
-Un'altra area da analizzare riguarda gli sconti per città. Selezionare le singole città nel grafico ad albero per vedere come cambiano gli altri grafici. 
+Un'altra area da analizzare riguarda gli sconti per città. Selezionare le singole città nel grafico ad albero per vedere come cambiano gli altri grafici.
 
 * St. Louis mostra un notevole picco della fatturazione totale nel mese di febbraio e un calo altrettanto significativo dei risparmi derivati dagli sconti nel mese di aprile.
 * Città del Messico ha la percentuale di sconto più alta (11,05%), mentre Atlanta quella più bassa (0,08%).
@@ -118,4 +147,3 @@ Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di
 
 ## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard e i report di Power BI forniscono informazioni dettagliate sui dati dell'approvvigionamento. È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
-

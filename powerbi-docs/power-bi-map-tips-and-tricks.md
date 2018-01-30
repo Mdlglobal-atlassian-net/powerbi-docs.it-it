@@ -16,18 +16,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 5ab075ede78ad5c08858878d6652e9b102a87fca
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
-Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione di mappa autonomamente, richiede l'aiuto di Bing Maps.  
+Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione di mappa autonomamente, richiede l'aiuto di Bing Maps. 
 
-Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrette, usare i suggerimenti seguenti. Il primo set di suggerimenti serve se si ha accesso al set di dati, mentre il secondo set di suggerimenti contiene le operazioni che è possibile eseguire in Power BI se non si ha accesso al set di dati.
+L'utente, o l'amministratore, potrebbe dover aggiornare il firewall per consentire l'accesso agli URL usati da Bing per la geocodifica.  Questi URL sono:
+* https://dev.virtualearth.net/REST/V1/Locations
+* https://platform.bing.com/geo/spatial/v1/public/Geodata
+* https://www.bing.com/api/maps/mapcontrol
+
+Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrette, usare i suggerimenti seguenti. Il primo set di suggerimenti serve se si ha accesso al set di dati, mentre il secondo set di suggerimenti contiene le operazioni che è possibile eseguire in Power BI se non si ha accesso al set di dati. E il set finale è un elenco di URL
 
 ## <a name="what-is-sent-to-bing-maps"></a>Cosa viene inviato a Bing Maps?
 Il servizio di Power BI e Power BI Desktop inviano a Bing i dati geografici necessari per creare la visualizzazione mappa. Sono inclusi i dati nel bucket **Posizione**, **Latitudine**, e **Longitudine** e i campi geografici in uno dei bucket del filtro **Livello report**, **Page level** (Livello pagina) o **Visual level** (Livello oggetto visivo). Per la precisione gli elementi inviati variano in base al tipo di mappa. Per altre informazioni, vedere [Privacy di Bing Mappe](https://go.microsoft.com/fwlink/?LinkID=248686).

@@ -1,5 +1,5 @@
 ---
-title: Creare domande in primo piano per Domande e risposte di Power BI
+title: Come creare domande in primo piano per Domande e risposte di Power BI
 description: Documentazione su come creare domande in primo piano per Domande e risposte di Power BI
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 4b8a606cd110c13a615be88d49f04e68b3f2cbe6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: e6a83796afe6afab02ec463d3dd2074d1fdc529a
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Creare domande in primo piano per Domande e risposte di Power BI
-Se si ha un set di dati, è possibile aggiungere nuove domande in primo piano a questo set di dati.  Domande e risposte su Power BI visualizzerà queste domande ai colleghi che usano il set di dati.  Le domande in primo piano danno un'idea ai colleghi sul tipo di domande che possono porre sul set di dati. Le domande in primo piano aggiunte dipendono dall'utente; aggiungere domande frequenti, domande che consentono di visualizzare risultati interessanti o domande che potrebbero essere difficili da formulare.
+Se si ha un set di dati, è possibile aggiungere nuove domande in primo piano a questo set di dati.  Domande e risposte su Power BI visualizzerà queste domande ai colleghi che usano (*utilizzano*) il set di dati.  Le domande in primo piano danno un'idea ai colleghi sul tipo di domande che possono porre sul set di dati. Le domande in primo piano aggiunte dipendono dall'utente; aggiungere domande frequenti, domande che consentono di visualizzare risultati interessanti o domande che potrebbero essere difficili da formulare.
 
 Nel video seguente viene mostrato come aggiungere alcune domande in primo piano a Domande e risposte di Power BI e usarle per esplorare il set di dati. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
 
@@ -33,7 +33,6 @@ Nel video seguente viene mostrato come aggiungere alcune domande in primo piano 
 
 > [!NOTE]
 > Le domande in primo piano di Domande e risposte sono disponibili per l'uso nell'[app Microsoft Power BI per iOS su dispositivi iPad, iPhone e iPod Touch](mobile-apps-ios-qna.md) e nell'anteprima di Domande e risposte di Power BI Desktop. La creazione delle domande è tuttavia disponibile solo nel servizio Power BI (app.powerbi.com).
-> 
 > 
 
 Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-datasets.md).
@@ -54,7 +53,7 @@ Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-dat
    ![](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Passaggi successivi
-[Domande e risposte in Power BI](service-q-and-a.md)  
+[Domande e risposte in Power BI](power-bi-q-and-a.md)  
 [Esercitazione: Introduzione a Domande e risposte di Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
 [Power BI - Concetti di base](service-basic-concepts.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

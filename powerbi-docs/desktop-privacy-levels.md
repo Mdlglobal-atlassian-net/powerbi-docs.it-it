@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 733e24f44c63b8887c3c8b00999f7cea22581a86
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 743f9dc0a96c2816693695f4ca2878aba09873df
+ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/20/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Livelli di privacy di Power BI Desktop
 In **Power BI Desktop**, i livelli di privacy specificano un livello di isolamento che definisce in che misura un'origine dati verrà isolata dalle altre. Anche se un livello di isolamento restrittivo impedisce lo scambio di informazioni tra le origini dati, può ridurre le funzionalità e compromettere le prestazioni.
@@ -69,6 +69,10 @@ L'impostazione **Livelli di privacy** è configurata su **Combina i dati in base
 
 > **Nota sulla sicurezza:** quando si abilita **Livelli di privacy** selezionando **Ignora i livelli di privacy per un potenziale miglioramento delle prestazioni** nella finestra di dialogo **Livelli di privacy** è possibile che vengano esposti dati sensibili o riservati a persone non autorizzate. Non abilitare **Livelli di privacy** a meno che non si sia certi che l'origine dati non contiene dati sensibili o riservati.
 > 
+> 
+
+> [!CAUTION]
+> L'impostazione **Ignora i livelli di privacy per un potenziale miglioramento delle prestazioni** non funziona nel servizio Power BI. Di conseguenza, i report di Power BI Desktop per cui è abilitata questa impostazione che vengono pubblicati nel servizio Power BI *non* riflettono questo comportamento quando vengono usati nel servizio.
 > 
 
 **Configurare i livelli di privacy**

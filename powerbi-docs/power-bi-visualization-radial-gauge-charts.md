@@ -1,5 +1,5 @@
 ---
-title: Grafici a misuratore radiale in Power BI (esercitazione)
+title: 'Esercitazione: Grafici a misuratore radiale in Power BI'
 description: 'Esercitazione: Grafici a misuratore radiale in Power BI'
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Grafici a misuratore radiale in Power BI (esercitazione)
 Un grafico a misuratore radiale è contraddistinto da un arco circolare e consente di visualizzare un unico valore che misura lo stato rispetto al raggiungimento di un obiettivo o a un indicatore KPI.  L'obiettivo, o valore di destinazione, è rappresentato dalla linea (lancetta). Lo stato rispetto al raggiungimento dell'obiettivo è rappresentato dall'ombreggiatura.  Il valore che rappresenta lo stato è visualizzato in grassetto all'interno dell'arco. Tutti i valori possibili sono distribuiti uniformemente lungo l'arco, da quello minimo (all'estrema sinistra) a quello massimo (all'estrema destra).
@@ -39,17 +39,25 @@ I misuratori radiali sono ideali per:
 * mostrare l'integrità di una singola misura
 * visualizzare informazioni facilmente comprensibili e analizzabili
 
+### <a name="prerequisites"></a>Prerequisiti
+ - Servizio Power BI o Power BI Desktop
+ - Cartella di lavoro di Excel di esempio Financial: [scaricare l'esempio direttamente](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Creare un misuratore radiale di base
-Per queste istruzioni si usa l'esempio Financial. Per seguire la procedura, [scaricare l'esempio](http://go.microsoft.com/fwlink/?LinkID=521962) nel computer, accedere a Power BI e selezionare **Recupera dati \> File \> File locale > Apri**. 
+Queste istruzioni usano il servizio Power BI. Per seguire la procedura, accedere a Power BI e aprire il file di Excel relativo all'esempio Financial.  
 
 In alternativa, il video seguente mostra come creare singoli oggetti visivi di metrica: misuratori, schede e indicatori KPI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Passaggio 1: aprire il file di Excel relativo all'esempio Financial.
-1. [Scaricare il file di Excel di esempio finanziario](sample-financial-download.md).
-2. Per aprire il file in Power BI, selezionare **Recupera dati \> File**, quindi passare al percorso in cui è stato salvato il file. Selezionare **Importa**. L'esempio Financial viene aggiunto all'area di lavoro come set di dati.
-3. Selezionare l' **esempio Financial** per aprirlo in modalità di esplorazione.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>Passaggio 1: Aprire il file di Excel relativo all'esempio Financial
+1. [Scaricare il file di Excel dell'esempio Financial](sample-financial-download.md), se non è già disponibile. Ricordare il percorso in cui è stato salvato.
+
+2. Per aprire il file nel ***servizio Power BI***, selezionare **Recupera dati \> File**, quindi passare al percorso in cui è stato salvato il file. Selezionare **Importa**. L'esempio Financial viene aggiunto all'area di lavoro come set di dati.
+
+3. Dall'elenco di contenuti **Set di dati** selezionare l'**esempio Financial** per aprirlo in modalità di esplorazione.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Passaggio 2: Creare un misuratore per tenere traccia delle vendite lorde
 1. Nel riquadro **Campi** selezionare **Gross Sales**.

@@ -15,23 +15,55 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 9a100b7d13c11a8bd066b72a570f45d0c2bc08be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio Analisi della redditività dei clienti per Power BI
-Il pacchetto di contenuto "Esempio di analisi della redditività dei clienti" contiene un dashboard, un report e un set di dati per una società che produce materiali di marketing. Il dashboard è stato creato da una responsabile amministrativa per ottenere le metriche principali relative ai 5 responsabili di Business Unit, ai prodotti, ai clienti e ai margini lordi e trovare subito i fattori che influiscono negativamente sulla redditività.
+Il pacchetto di contenuto "Esempio di analisi della redditività dei clienti" contiene un dashboard, un report e un set di dati per una società che produce materiali di marketing. Il dashboard è stato creato da una responsabile amministrativa per ottenere le metriche principali relative ai cinque responsabili di Business Unit, ai prodotti, ai clienti e ai margini lordi. e trovare subito i fattori che influiscono negativamente sulla redditività.
 
 Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. Si tratta di dati reali messi a disposizione da obviEnce ([www.obvience.com](http://www.obvience.com/)) che sono stati resi anonimi.
 
-È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel) per questo esempio](http://go.microsoft.com/fwlink/?LinkId=529781).  
-![](media/sample-customer-profitability/power-bi-dash.png)
+## <a name="prerequisites"></a>Prerequisiti
+
+Prima di poter usare l'esempio, è necessario scaricarlo come pacchetto di contenuto, file con estensione pbix o cartella di lavoro di Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
+
+1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
+2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selezionare l'**Esempio di analisi della redditività dei clienti**, quindi scegliere **Connetti**.  
+   
+   ![Recupera dati](media/sample-customer-profitability/get-supplier-sample.png)
+5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. Gli esempi sono risorse utili per provare il funzionamento di Power BI.  
+   
+   ![Asterisco](media/sample-customer-profitability/supplier-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
+
+In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop. 
+
+- [Esempio di analisi della redditività dei clienti](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
+
+È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529781) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
+
+In **Area di lavoro personale** trovare il dashboard per l'esempio Redditività clienti:
+
+![Dashboard per l'esempio Redditività clienti](media/sample-customer-profitability/power-bi-dash.png)
+
 ### <a name="company-wide-dashboard-tiles"></a>Riquadri del dashboard a livello societario
 Questi riquadri offrono alla responsabile amministrativa una visualizzazione delle metriche aziendali di alto livello più importanti.  Quando trova dati interessanti, può selezionare un riquadro per analizzarli in dettaglio.
 
@@ -123,6 +155,8 @@ Verrà ora esaminato il settore *Distribution*.
 In maniera simile, è possibile esplorare altri settori e persino aggiungere clienti agli elementi visivi per comprendere le cause delle prestazioni di Valery.
 
 Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di non salvare le modifiche, ma, se le si salva, è sempre possibile scegliere **Recupera dati** per ottenere una nuova copia di questo esempio.
+
+È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel) per questo esempio](http://go.microsoft.com/fwlink/?LinkId=529781).
 
 ## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard di Power BI, le domande e risposte e i report forniscono informazioni dettagliate sui dati del cliente. È ora possibile connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).

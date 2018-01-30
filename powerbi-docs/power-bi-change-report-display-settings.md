@@ -15,27 +15,32 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/25/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: a5cc05e26012f88e889612788d4479a370063d4f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b154aec7c65b09743484f8f51ae88f9317f651a0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-the-size-of-a-report-page-tutorial"></a>Cambiare le dimensioni di una pagina del report (esercitazione)
-Nell'[articolo e nel video precedenti](power-bi-report-display-settings.md) sono stati illustrati due modi diversi per controllare la visualizzazione delle pagine nei report di Power BI: **Visualizza** e **Dimensioni pagina**. Proviamo a metterli in pratica.
+Nell'[articolo e nel video precedenti](power-bi-report-display-settings.md) sono stati illustrati due modi diversi per controllare la visualizzazione delle pagine nei report di Power BI: **Visualizza** e **Dimensioni pagina**. Le opzioni Visualizzazione pagina e Dimensioni pagina sono disponibili sia nel servizio Power BI sia in Power BI Desktop. L'aspetto e la funzionalità sono praticamente uguali, ma in questa esercitazione verrà usato il servizio Power BI. 
+
+### <a name="prerequisites"></a>Prerequisiti
+- Servizio Power BI   
+- [Report dell'esempio di analisi delle vendite al dettaglio](samples-retail-analysis.md)
 
 ## <a name="first-lets-change-the-page-view-setting"></a>Modificare l'impostazione di visualizzazione della pagina
-1. Aprire un report nella Visualizzazione di lettura o nella Visualizzazione di modifica. In questo esempio viene usata la pagina "New Stores" dell'[esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md).  Questa pagina viene visualizzata usando l'impostazione **Adatta alla pagina**.  In questo caso, usando l'impostazione Adatta alla pagina, la pagina del report viene visualizzata senza barre di scorrimento, ma alcuni dettagli e riquadri sono troppo piccoli per essere letti.
+
+1. Aprire il report nella Visualizzazione di lettura o nella Visualizzazione di modifica e selezionare la scheda del report **New Stores**. Per impostazione predefinita, questa pagina viene visualizzata usando l'impostazione **Adatta alla pagina**.  In questo caso, usando l'impostazione Adatta alla pagina, la pagina del report viene visualizzata senza barre di scorrimento, ma alcuni dettagli e riquadri sono troppo piccoli per essere letti.
    
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Assicurarsi che nell'area di disegno non sia selezionata alcuna visualizzazione. Selezionare **Visualizza** ed esaminare le opzioni di visualizzazione.
 
-* Questo sarà l'aspetto in Visualizzazione di lettura.
+    * Questo sarà l'aspetto in Visualizzazione di lettura.
   
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-* Questo sarà l'aspetto in Visualizzazione di modifica.
+    * Questo sarà l'aspetto in Visualizzazione di modifica.
   
     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
@@ -51,26 +56,31 @@ Nell'[articolo e nel video precedenti](power-bi-report-display-settings.md) sono
    Ha un aspetto migliore, e ora include le barre di scorrimento, ma è più facile leggere i dettagli.
 
 ## <a name="change-the-default-view-for-a-report-page"></a>Modificare la visualizzazione predefinita di una pagina del report
-L'opzione di visualizzazione predefinita di tutti i report di Power BI è **Adatta alla pagina**. Tuttavia, ecco come procedere per modificare la visualizzazione predefinita del report in **Dimensioni effettive**.
+Gli *autori* dei report possono modificare la visualizzazione predefinita delle pagine dei report. Quando si condivide il report con altri utenti, le pagine del report verranno aperte con la visualizzazione impostata. I *consumer* del report avranno la possibilità di modificare la visualizzazione, ma non potranno salvare le modifiche all'uscita dal report.
 
 1. Nella pagina **Nuovi archivi** del report, tornare alla visualizzazione **Dimensioni effettive**.
    
    ![](media/power-bi-change-report-display-settings/power-bi-actual-size.png)
-2. Salvare il report con un nome diverso selezionando **File > Salva con nome**. Si hanno ora a disposizione 2 copie del report; nel report originale, **Nuovi archivi** continuerà ad aprirsi in visualizzazione predefinita, mentre il nuovo report verrà aperto in visualizzazione **Dimensioni effettive**. Confermare la visualizzazione.
+
+2. Nella pagina del report **District Monthly Sales** selezionare Visualizza e quindi **Adatta in larghezza**.
+
+3. Nella pagina del report **Panoramica** lasciare l'impostazione di visualizzazione predefinita.
+
+4. Selezionare **File > Salva** per salvare il report. All'apertura successiva del report, le pagine useranno le nuove impostazioni di visualizzazione. Confermare la visualizzazione.
    
-   ![](media/power-bi-change-report-display-settings/power-bi-save-as.png)
+   ![](media/power-bi-change-report-display-settings/power-bi-save.png)
 3. Per tornare all'area di lavoro corrente, selezionarne il nome nella barra di spostamento superiore.  
    
    ![](media/power-bi-change-report-display-settings/power-bi-my-workspace.png)
-4. Selezionare la scheda **Report** e scegliere il nuovo report appena creato, contraddistinto da un asterisco giallo.
+4. Selezionare la scheda **Report** e scegliere lo stesso report (esempio di analisi delle vendite al dettaglio).
    
     ![](media/power-bi-change-report-display-settings/power-bi-new-report2.png)
-5. Il report verrà aperto nella visualizzazione in **Dimensioni effettive**.
+5. Aprire ogni pagina del report per visualizzare le nuove impostazioni.
    
-   ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
+   ![](media/power-bi-change-report-display-settings/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Informazioni sull'impostazione *Dimensioni pagina*
-Le impostazioni delle dimensioni della pagina sono disponibili solo nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md). Per aprire un report nella Visualizzazione di modifica, sono necessarie le autorizzazioni di proprietario per il report. Tali autorizzazioni sono già disponibili se si è effettuata la connessione a uno degli [esempi](sample-datasets.md).
+Le impostazioni per le dimensioni della pagina sono disponibili solo nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md), quindi per modificare queste impostazioni è necessario disporre di autorizzazioni di modifica (*autore*) per il report. Tali autorizzazioni per gli *autori* sono già disponibili se si è effettuata la connessione a uno degli [esempi](sample-datasets.md).
 
 1. Aprire la pagina "District monthly sales" di [Esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md) in Visualizzazione di modifica.
 2. Assicurarsi che nell'area di disegno non sia selezionata alcuna visualizzazione.  Nel riquadro **Visualizzazioni** selezionare l'icona del rullo ![](media/power-bi-change-report-display-settings/power-bi-paintroller.png).
@@ -80,18 +90,15 @@ Le impostazioni delle dimensioni della pagina sono disponibili solo nella [Visua
 4. Selezionare **Letter**.  Solo il contenuto che rientra in 816x1056 pixel (formato Letter) rimane nella parte bianca dell'area di disegno.
    
    ![](media/power-bi-change-report-display-settings/power-bi-letter-new.png)
-5. Impostando **Visualizza** su "Adatta in larghezza", nell'area di disegno viene visualizzato solo il contenuto della pagina che rientra nel formato Letter.
-   
-   ![](media/power-bi-change-report-display-settings/power-bi-fit-to-width-new.png)
-6. Selezionare **Dimensioni pagina** **16:9** .
+5. Selezionare **Dimensioni pagina** **16:9** .
    
    ![](media/power-bi-change-report-display-settings/power-bi-16-to-9-new.png)
    
    La pagina del report viene visualizzata usando una proporzione di 16 in larghezza e 9 in altezza. Per visualizzare le dimensioni effettive in pixel, osservare i campi Larghezza e Altezza in grigio (1280x720). Attorno all'area di disegno report è presente molto spazio vuoto perché in precedenza l'opzione **Visualizza** era stata impostata su "Adatta in larghezza".
 7. Continuare a esplorare le opzioni di **Dimensioni pagina**.
 
-## <a name="using-page-view-and-page-size-together"></a>Uso di Visualizza e Dimensioni pagina insieme
-Usare Visualizza e Dimensioni pagina insieme per creare un report adatto anche a quando viene incorporato in altre applicazioni.
+## <a name="use-page-view-and-page-size-together"></a>Usare le opzioni Visualizza e Dimensioni pagina insieme
+Usare Visualizza e Dimensioni pagina insieme per creare un report con un aspetto ottimale quando condiviso con i colleghi o quando viene incorporato in altre applicazioni.
 
 In questo esercizio si creerà una pagina del report che verrà visualizzata in un'applicazione con spazio per 500 pixel di larghezza e 750 pixel di altezza.
 
@@ -112,8 +119,6 @@ Tenere a mente che la pagina del report è attualmente visualizzata con una larg
 [Creare report per Cortana](service-cortana-answer-cards.md)
 
 Tornare a [Impostazioni di visualizzazione della pagina in un report di Power BI](power-bi-report-display-settings.md)
-
-Altre informazioni sui [report in Power BI](service-reports.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

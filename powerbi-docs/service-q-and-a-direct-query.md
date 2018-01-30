@@ -1,5 +1,5 @@
 ---
-title: Uso di domande e risposte con le connessioni dinamiche
+title: Uso di Domande e risposte con le connessioni dinamiche
 description: Documentazione per l'uso delle query in linguaggio naturale in domande e risposte di Power BI con connessioni dinamiche su dati di Analysis Services e sul gateway dati locale.
 services: powerbi
 documentationcenter: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Attivazione di domande e risposte per le connessioni dinamiche
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Che cos'è il gateway dati locale?  Che cos'è una connessione dinamica?
@@ -39,7 +39,7 @@ Poiché Domande e risposte di Power BI usa i valori di testo e schema dell'origi
 Per altre informazioni, vedere:
 
 * Che cos'è il [gateway dati locale](service-gateway-onprem.md)?
-* [Introduzione alla funzionalità Domande e risposte di Power BI](service-q-and-a.md)
+* [Introduzione alla funzionalità Domande e risposte di Power BI](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Abilitare Domande e risposte
 Dopo aver configurato il gateway dati, connettersi ai dati da Power BI.  Creare un dashboard usando i dati locali oppure caricare un file con estensione pbix che usa i dati locali.  È possibile che già si disponga di dati locali in dashboard, report e set di dati precedentemente condivisi con l’utente.
@@ -55,22 +55,20 @@ Dopo aver configurato il gateway dati, connettersi ai dati da Power BI.  Creare 
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Quali dati vengono memorizzati nella cache e come viene protetta la privacy?
-Quando si abilita Domande e risposte per i dati locali, nella cache del servizio viene memorizzato un subset dei dati per garantire il funzionamento di Domande e risposte con prestazioni ragionevoli, I valori con più di 24 caratteri sono esclusi dal caching. La cache viene eliminata entro alcune ore quando si disabilita Domande e risposte deselezionando **Attiva Domande e risposte per questo set di dati** o quando si elimina il set di dati.
+Quando si abilita Domande e risposte per i dati locali, nella cache del servizio viene memorizzato un subset dei dati per garantire il funzionamento di Domande e risposte con prestazioni ragionevoli, Power BI esclude dal caching i valori con più di 24 caratteri. La cache viene eliminata entro alcune ore quando si disabilita Domande e risposte deselezionando **Attiva Domande e risposte per questo set di dati** o quando si elimina il set di dati.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Durante la fase di anteprima di questa funzionalità, sono previste alcune limitazioni:
 
-* La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. Alcune funzionalità sono disponibili per le origini dati multidimensionali, ma l'esperienza completa di Domande e risposte non è ancora supportata per questo tipo di origine dati. Altre origini dati supportate dal gateway dati locale verranno implementate durante l'anteprima pubblica.
+* La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. Alcune funzionalità sono disponibili per le origini dati multidimensionali, ma l'esperienza completa di Domande e risposte non è ancora supportata per questo tipo di origine dati. Altre origini dati supportate dal gateway dati locale verranno implementate durante in futuro.
 * Il supporto completo per la sicurezza a livello di riga definito in SQL Server Analysis Services non è inizialmente disponibile nell'anteprima pubblica. Quando si formulano domande in Domande e risposte, il "completamento automatico" delle domande durante la digitazione può mostrare valori di stringa a cui un utente non ha accesso. Tuttavia, poiché la sicurezza a livello di riga definita nel modello viene rispettata per gli oggetti visivi dei report e dei grafici, non c’è la possibilità che vengano esposti i dati numerici sottostanti. Le opzioni per controllare questo comportamento verranno rilasciate nei prossimi aggiornamenti.
 * Le connessioni dinamiche sono supportate solo con il gateway dati locale. Di conseguenza, questo non è utilizzabile con il gateway personale.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Gateway dati locale](service-gateway-onprem.md)  
 [Gestire l'origine dati - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Informazioni rapide di Power BI](service-insights.md)  
-[Ottimizzare i dati per Power BI Quick Insights](service-insights-optimize.md)  
 [Power BI - Concetti di base](service-basic-concepts.md)  
-[Dashboard in Power BI](service-dashboards.md)  
+[Panoramica di Domande e risposte di Power BI](power-bi-q-and-a.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

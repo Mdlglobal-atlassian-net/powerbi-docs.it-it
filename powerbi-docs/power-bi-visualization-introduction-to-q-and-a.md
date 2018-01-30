@@ -1,6 +1,6 @@
 ---
-title: Introduzione a Domande e risposte di Power BI (esercitazione)
-description: 'Esercitazione: Introduzione a Domande e risposte nel servizio Power BI con l''Esempio di analisi delle vendite al dettaglio'
+title: 'Guida introduttiva: Introduzione a Domande e risposte di Power BI'
+description: 'Guida introduttiva: Introduzione a Domande e risposte nel servizio Power BI con l''esempio di analisi delle vendite al dettaglio'
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>Introduzione a Domande e risposte di Power BI (esercitazione)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Esercitazione: Usare Domande e risposte di Power BI con l'esempio di analisi delle vendite al dettaglio
-A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale.  In questa esercitazione si esamineranno 2 modi diversi per creare la stessa visualizzazione, ovvero creandola in un report e ponendo una domanda con Domande e risposte.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Introduzione a Domande e risposte di Power BI (guida introduttiva)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usare Domande e risposte di Power BI con l'esempio di analisi delle vendite al dettaglio
+A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale.  In questa guida introduttiva verranno esaminati 2 modi diversi per creare la stessa visualizzazione, ovvero creandola in un report e ponendo una domanda con Domande e risposte. Verrà usato il servizio Power BI, ma il processo per Power BI Desktop è quasi identico.
+
+Per seguire la procedura serve un report che si possa modificare e quindi verrà usato uno degli esempi disponibili per Power BI.
 
 ## <a name="method-1-using-the-report-editor"></a>Metodo 1: uso dell'editor di report
 1. Nell'area di lavoro di Power BI selezionare **Recupera dati** \> **Esempi** \> **Esempio di analisi delle vendite al dettaglio** > **Connetti**.
@@ -61,13 +63,9 @@ In che modo si potrebbe creare questo stesso grafico a linee mediante Domande e 
 4. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che tipo di domande si possono porre in Domande e risposte?](service-q-and-a.md)
-
-[Domande e risposte in Power BI](service-q-and-a.md)
+[Domande e risposte in Power BI](power-bi-q-and-a.md)
 
 [Usare correttamente i dati con Domande e risposte di Power BI](service-prepare-data-for-q-and-a.md)
-
-[Preparazione di una cartella di lavoro per Domande e risposte](service-prepare-data-for-q-and-a.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

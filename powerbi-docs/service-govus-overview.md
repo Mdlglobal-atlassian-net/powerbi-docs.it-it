@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/23/2018
 ms.author: davidi
-ms.openlocfilehash: 78bac79fc440f0a4efe19947ca7a6e9c53866b0a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 2832849d887795c2af0750f01e929045f75c12fe
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI per i clienti del Governo degli Stati Uniti
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione commerciale del **servizio Power BI**.
@@ -45,11 +45,24 @@ Le funzionalità seguenti sono disponibili in **Power BI per il Governo degli St
 * Tutti i dati sono crittografati in Azure SQL e nell'archiviazione BLOB per Power BI
 * Connettersi ai servizi con i [pacchetti di contenuto](service-connect-to-services.md)
 
+## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Connettività tra il servizio cloud di Azure pubblico e il servizio per enti pubblici 
+
+Azure è distribuito tra più cloud. Per impostazione predefinita, ai tenant è consentito aprire regole del firewall per un'istanza specifica del cloud, ma la rete tra cloud è diversa e richiede l'apertura di regole del firewall specifiche per la comunicazione tra servizi. I clienti di Power BI che devono accedere a istanze di SQL esistenti nel cloud pubblico devono aprire regole del firewall specifiche in SQL nello spazio di indirizzi IP del cloud Azure per enti pubblici per i data center seguenti:
+
+* USGov Iowa
+* USGov Virginia
+* USGov Texas
+* USGov Arizona
+
+Nel cloud pubblico gli spazi di indirizzi IP sono disponibili, ma per il cloud per enti pubblici è necessario aprire un ticket di supporto di Azure per richiedere gli intervalli di indirizzi IP per i data center elencati sopra. 
+
+
 ## <a name="limitations-of-power-bi-us-government"></a>Limitazioni di Power BI per il Governo degli Stati Uniti
 Alcune delle funzionalità disponibili nella versione commerciale del **servizio Power BI** *non* sono disponibili nel **servizio Power BI** per i clienti del Governo degli Stati Uniti. Il team di Power BI è attivamente impegnato a rendere disponibili queste funzionalità ai clienti del Governo degli Stati Uniti e ad aggiornare questo articolo di conseguenza.
 
 * **Power BI per il Governo degli Stati Uniti** è disponibile solo come licenza **Pro**. Tutti i riferimenti alle licenze gratuite di Power BI in un portale di amministrazione (o come utenti) vengono eseguiti in un cloud del servizio Power BI a pagamento.
 * **Controllo**: il controllo non è disponibile attraverso il portale del Centro sicurezza e conformità di Office 365.
+* **Contenuto di Power BI in Cortana** - I risultati di Power BI non verranno visualizzati nei risultati della ricerca di Cortana, inclusi i risultati per il contenuto di Power BI (dashboard, report e app) e i risultati che mostrano le pagine dei report ottimizzate per Cortana per parole chiave specifiche.
 
 Se agli account sono assegnate licenze gratuite di **Power BI**, questi vengono eseguiti in una versione a pagamento del servizio **Power BI** e non sono incluse nell'offerta di **Power BI per il Governo degli Stati Uniti**. Con gli account delle licenze gratuite è possibile riscontrare i problemi seguenti:
 

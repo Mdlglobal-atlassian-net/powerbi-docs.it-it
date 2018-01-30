@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di Vendita e marketing per Power BI
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Panoramica dell'Esempio di analisi di vendite e marketing
 L' **esempio di analisi di vendite e marketing** contiene un dashboard e un report per una società di produzione fittizia denominata VanArsdel Ltd. Questo dashboard è stato creato dal responsabile marketing (CMO) di VanArsdel per tenere sotto controllo il settore, la quota di mercato, i volumi di produzione, le vendite e la valutazione della società.
 
 VanArsdel ha diversi concorrenti, ma è leader di mercato per il settore in cui opera. Il CMO vuole aumentare la quota di mercato e scoprire nuove opportunità di crescita. Tuttavia, per qualche motivo, la quota di mercato di VanArsdel ha iniziato a ridursi con cali significativi nel mese di giugno.
 
 Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. Si tratta di dati reali messi a disposizione da obviEnce (www.obvience.com) che sono stati resi anonimi.
 
-[!Note] È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel) per questo esempio](http://go.microsoft.com/fwlink/?LinkId=529785). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Prerequisiti
+
+ Prima di poter usare l'esempio, è necessario scaricarlo come pacchetto di contenuto, file con estensione pbix o cartella di lavoro di Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
+
+1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
+2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selezionare l'**Esempio di analisi di vendite e marketing**, quindi scegliere **Connetti**.  
+  
+   ![Esempio di analisi di vendite e marketing](media/sample-sales-and-marketing/sales9.png)
+   
+5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. 
+   
+   ![Asterisco](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
+
+In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop. 
+
+ * [Esempio di analisi di vendite e marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
+È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529785) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
 Si osservi il dashboard e i riquadri che il CMO ha scelto di aggiungere. Sono visualizzate le informazioni sulla quota di mercato, le vendite e la valutazione, suddivise per area, tempo e concorrenza.
@@ -48,21 +78,21 @@ Si osservi il dashboard e i riquadri che il CMO ha scelto di aggiungere. Sono vi
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Quali segmenti trainano le vendite? Corrispondono alle tendenze del settore?
 1. Selezionare il riquadro "Total Units Overall by Segment" per aprire Domande e risposte.
 2. Digitare **for VanArsdel** alla fine della query esistente. Domande e risposte interpreta la domanda e visualizza un grafico aggiornato con la risposta. Il volume di produzione deriva da Convenience e Moderation.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. La quota nelle categorie **Moderation** e **Convenience** è molto alta e indica che questi sono i segmenti in cui la società è competitiva.
 4. Per tornare al dashboard, selezionarne il nome nella barra di spostamento superiore (barre di navigazione).
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Come viene visualizzata la quota di mercato delle unità totali per categoria (invece che per area)?
-1. Si noti il riquadro "Total Units YTD by Manufacturer, Region". Come viene visualizzata la quota di mercato delle unità totali per categoria? 
-   
+1. Si noti il riquadro "Total Units YTD by Manufacturer, Region". Come viene visualizzata la quota di mercato delle unità totali per categoria?
+
    ![](media/sample-sales-and-marketing/sales3.png)
 2. Nella casella delle domande nella parte superiore del dashboard digitare la domanda **total units by manufacturer and category for 2014 as a treemap**. Notare gli aggiornamenti della visualizzazione mentre si digita la domanda.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Per confrontare i risultati, aggiungere il grafico al dashboard. Un dato interessante: nel 2014 VanArsdel ha venduto solo prodotti della categoria **Urban**.
 4. Tornare al dashboard.
 
-I dashboard rappresentano anche un punto di ingresso per i report.  Se è stato creato un riquadro da un report sottostante, fare clic sul riquadro per aprire il report. 
+I dashboard rappresentano anche un punto di ingresso per i report.  Se è stato creato un riquadro da un report sottostante, fare clic sul riquadro per aprire il report.
 
 La riga R12M (Rolling 12 Months) del dashboard mostra che la quota di mercato non sta più aumentando nel tempo, ma è addirittura in leggera flessione. E perché si è verificato un calo notevole della quota di mercato nel mese di giugno? Per ulteriori indagini, fare clic sulla visualizzazione per aprire il report sottostante.
 
@@ -72,7 +102,7 @@ La riga R12M (Rolling 12 Months) del dashboard mostra che la quota di mercato no
 
 1. Osservare l'istogramma "Total Units by Month and isVanArsdel" in basso. La colonna nera rappresenta i prodotti di VanArsdel, mentre quella verde rappresenta la concorrenza. Il calo subito da VanArsdel nel mese di giugno 2014 non ha interessato anche la concorrenza.
 2. Il grafico a barre "Total Category Volume by Segment" nella posizione centrale destra è filtrato per mostrare i primi due segmenti di VanArsdel. Osservare come è stato creato questo filtro:  
-   
+
    a.  Espandere il riquadro dei filtri sulla destra.  
    b.  Fare clic per selezionare la visualizzazione.  
    c.  In Filtri del livello visivo notare che **Segment** è filtrato per includere solo **Convenience** e **Moderation**.  
@@ -112,4 +142,3 @@ Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di
 
 ## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard di Power BI, le domande e risposte e i report forniscono informazioni dettagliate sui dati di Vendita e marketing È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).  
-

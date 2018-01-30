@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -50,7 +50,7 @@ A seconda della provenienza, i report di Power BI sono archiviati in posizioni d
   ![Report per il telefono in modalità orizzontale](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Visualizzare i report ottimizzati per i telefoni
-Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. In un elenco di report un report ottimizzato è contrassegnato da un'icona speciale ![Icona del report per il telefono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. Le pagine dei report ottimizzate per i telefoni includono funzionalità aggiuntive. È ad esempio possibile eseguire il drill-down e ordinare gli oggetti visivi in modalità messa a fuoco ed è possibile accedere ai [filtri aggiunti dall'autore del report alla pagina del report](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Un report ottimizzato in un elenco di report è associato a un'icona speciale ![Icona del report per telefono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Aprire il report per il telefono](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Quando si visualizza tale report in un telefono, viene aperto in visualizzazione
 
 ![Report in visualizzazione verticale](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Un report può includere una combinazione di pagine che non sono ottimizzate per i telefoni. In tal caso, quando si scorrono i report la visualizzazione passerà da verticale a orizzontale per ogni pagina.
+ Un report può includere una combinazione di pagine che non sono ottimizzate per i telefoni. In tal caso, quando si scorrono i report la visualizzazione passerà da verticale a orizzontale per ogni pagina.
 
 Altre informazioni sui [report ottimizzati per la visualizzazione telefono](mobile-apps-view-phone-report.md).
 

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 6d2c14de83fcea1e9067fd3868b7559c3becce14
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interazione con le mappe ArcGIS in Power BI
 Questo argomento è stato scritto dal punto di vista di una persona che *utilizza* una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando l'autore condivide una mappa ArcGIS con l'utente, è possibile interagire con essa in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione Mappe di ArcGIS di Esri](power-bi-visualization-arcgis.md).
@@ -31,7 +31,6 @@ Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping
 
 > [!TIP]
 > GIS è l'acronimo per Geographic Information Science (Scienza delle informazioni geografiche).
-> 
 > 
 
 L'esempio illustrato corrisponde alla mappa ArcGIS creata nell'[esercitazione Mappe di ArcGIS di Esri](power-bi-visualization-arcgis.md), che prende in esame le vendite dello scorso anno in base alla città e usa una mappa base delle strade, simboli di bolle per la rappresentazione delle dimensioni e un livello di riferimento per il reddito familiare medio. La mappa contiene tre puntine e il raggio del tempo di guida (in viola).
@@ -99,7 +98,7 @@ Mappe ArcGIS per Power BI è disponibile nei seguenti servizi e applicazioni:
 <td>Sì</td>
 </tr>
 <tr>
-<td>Servizio Power BI (PowerBI.com)</td>
+<td>Servizio Power BI (app.powerbi.com)</td>
 <td>Sì</td>
 </tr>
 <tr>

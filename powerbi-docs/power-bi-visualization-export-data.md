@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -74,8 +74,7 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
    
    >[!WARNING]
    >L'esportazione dei dati sottostanti consente agli utenti di visualizzare tutti i dati dettagliati, cioè ogni colonna nei dati. Gli amministratori del servizio Power BI possono disattivare questa funzionalità per l'organizzazione. Se dispone di un set di dati, è possibile impostare le colonne proprietarie su "nascosto" in modo che non vengono visualizzate nell'elenco Campi nel servizio Power BI o Desktop.
-   > 
-   > 
+   
    
    **Dati sottostanti**: selezionare questa opzione se la visualizzazione ha un'aggregazione e si vogliono visualizzare tutti i dettagli sottostanti. In sostanza, selezionando *Dati sottostanti* viene rimossa l'aggregazione. Quando si seleziona **Esporta**, i dati vengono esportati in un file con estensione xlsx e il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
    
@@ -85,7 +84,9 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 * Il numero massimo di righe che possono essere esportate da **Power BI Desktop** e dal **servizio Power BI** a un file con estensione csv è 30.000.
-* Il numero massimo di righe che può essere esportato in formato XLSX nel **servizio Power BI** è di 150.000 per gli utenti della versione Pro e di 30.000 per gli utenti della versione gratuita.
+* Il numero massimo di righe che possono essere esportati in formato XLSX è 150.000.
+* L'esportazione tramite *Dati sottostanti* non funzionerà se l'origine dati è una connessione di Analysis Services in tempo reale con una versione precedente alla versione 2016 e se le tabelle nel modello non hanno una chiave univoca.  
+* L'esportazione tramite *Dati sottostanti* non funzionerà se l'opzione *Mostra elementi senza dati* è abilitata per la visualizzazione esportata.
 * Quando si usa DirectQuery, è possibile esportare al massimo 16 MB di dati. È quindi possibile che venga esportata una quantità di dati inferiore al numero massimo di righe, in particolare se sono presenti molte colonne, se i dati sono difficili da comprimere o se sono presenti altri fattori che incrementano le dimensioni del file e riducono il numero di righe esportate.
 * Power BI supporta solo l'esportazione negli oggetti visivi che usano le aggregazioni di base. L'esportazione non è disponibile per gli oggettivi visivi con misure di modello o del report.
 * Gli oggetti visivi personalizzati e gli oggetti visivi R non sono attualmente supportati.
