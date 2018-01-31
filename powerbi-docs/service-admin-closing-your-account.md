@@ -3,7 +3,7 @@ title: Chiusura dell'account di Power BI
 description: Chiusura dell'account di Power BI
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: b28ec5478ead2c2e6952f2b2a0e9e4476321440b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 2e3e7257e60cfcd92bd5091f67fb1acccb865fdf
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="closing-your-power-bi-account"></a>Chiusura dell'account di Power BI
 Se non si vuole più usare Power BI, è possibile chiedere di chiudere l'account.  Dopo la chiusura dell'account, non sarà più possibile accedere a Power BI.  Anche tutti i dati del cliente caricati o creati in Power BI saranno eliminati in base ai criteri di conservazione dei dati menzionati nelle condizioni per l'utilizzo del servizio Power BI.

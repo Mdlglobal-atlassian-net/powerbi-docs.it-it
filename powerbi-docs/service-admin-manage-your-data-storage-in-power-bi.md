@@ -3,7 +3,7 @@ title: Gestire l'archiviazione dei dati
 description: "Informazioni su come è possibile gestire l'archiviazione dei dati individuale o dell'area di lavoro per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: b10e95d9f5817ba989360b3a30c3efd55f30faec
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 7f9651ef25d8cfe98efc163c67034fedb225dbcb
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="manage-your-data-storage"></a>Gestire l'archiviazione dei dati
 Informazioni su come è possibile gestire l'archiviazione dei dati individuale o dell'area di lavoro per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.

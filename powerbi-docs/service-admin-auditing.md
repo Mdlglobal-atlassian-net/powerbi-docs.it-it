@@ -3,7 +3,7 @@ title: Uso del controllo nell'organizzazione
 description: "Informazioni sulla modalità d'uso della funzionalità di controllo con Power BI per monitorare ed esaminare le azioni eseguite. È possibile usare il Centro sicurezza e conformità o PowerShell."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
-ms.author: asaxton
-ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.author: maghan
+ms.openlocfilehash: 4aca31605b0627929951c34dfb74aa736c89a04f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
@@ -151,7 +151,7 @@ La tabella seguente fornisce informazioni dettagliate su ciò che è possibile v
 | --- | --- | --- |
 | Report di Power BI scaricato |Questa attività viene registrata ogni volta che un report viene scaricato |Nome del report, Nome del set di dati |
 | Creare report |Questa attività viene registrata ogni volta che viene creato un nuovo report. |Nome del report, Nome del set di dati |
-| Modificare report |Questa attività viene registrata ogni volta che un report viene modificato. |Nome del report, Nome del set di dati |
+| Modifica report |Questa attività viene registrata ogni volta che un report viene modificato. |Nome del report, Nome del set di dati |
 | Creare set di dati |Questa attività viene registrata ogni volta che viene creato un set di dati. |Nome del set di dati, DataConnectivityMode |
 | Eliminare set di dati |Questa attività viene registrata ogni volta che viene eliminato un set di dati. |Nome del set di dati, DataConnectivityMode |
 | Creare un'app di Power BI |Questa attività viene registrata ogni volta che viene creata un'app di Power BI |Nome dell'app, Autorizzazioni, Nome dell'area di lavoro |

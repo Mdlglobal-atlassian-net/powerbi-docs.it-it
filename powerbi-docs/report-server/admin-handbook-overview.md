@@ -3,7 +3,7 @@ title: Panoramica sul manuale per l'amministratore, Server di report di Power BI
 description: Benvenuti nel manuale per l'amministratore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 6434084ab59cf842544dbcf9e373a8f6985a9ee3
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="administrator-handbook-overview-power-bi-report-server"></a>Panoramica sul manuale per l'amministratore, Server di report di Power BI
 Benvenuti nel manuale per l'amministratore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
