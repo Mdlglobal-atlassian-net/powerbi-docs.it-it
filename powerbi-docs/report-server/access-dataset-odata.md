@@ -3,7 +3,7 @@ title: Accesso ai set di dati condivisi come feed OData nel server di report di 
 description: I report di Power BI possono connettersi a varie origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/05/2018
 ms.author: maghan
-ms.openlocfilehash: c3a9cbd22f2304d19ae876962d0bf798fbd41183
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 00a58e72e932398453f1a674be82a67c1054f98a
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Accesso ai set di dati condivisi come feed OData nel server di report di Power BI
 È possibile accedere ai set di dati condivisi da Power BI Desktop con un feed OData.

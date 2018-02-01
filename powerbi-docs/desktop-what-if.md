@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: e0b8e6e573f9d511dd934b996f63bcdfdd386cf0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro analisi di simulazione per visualizzare le variabili in Power BI Desktop
 A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile creare variabili di **analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori principali nei report.

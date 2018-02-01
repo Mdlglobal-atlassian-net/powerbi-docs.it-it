@@ -3,7 +3,7 @@ title: Usare la sicurezza a livello di riga con il contenuto incorporato di Powe
 description: Informazioni sulla procedura da seguire per incorporare il contenuto di Power BI all'interno dell'applicazione.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
-ms.author: asaxton
-ms.openlocfilehash: ffaf4439f48b23dcff8e965b5bea1aeaf19afcc0
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.author: maghan
+ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 La sicurezza a livello di riga può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Più utenti diversi possono usare gli stessi elementi visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.

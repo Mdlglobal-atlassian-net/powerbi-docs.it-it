@@ -3,7 +3,7 @@ title: Integrare un riquadro di Power BI in un'app per l'organizzazione
 description: Procedura dettagliata per integrare un riquadro in un'app con codice di esempio
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
-ms.author: asaxton
-ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: fd33908f907ffac6cbff765e01e4a4321d399ca8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrare un riquadro in un'app (i dati sono di proprietà dell'utente)
 Informazioni su come integrare o incorporare un riquadro in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.

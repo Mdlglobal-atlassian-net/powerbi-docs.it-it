@@ -3,7 +3,7 @@ title: Governance e approcci alla distribuzione
 description: White paper dedicato a concetti, opzioni e suggerimenti per la governance all'interno dell'ecosistema di Power BI.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 2a26106bcd27f3be05ff1f0d195c605da8b13c90
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Governance e approcci alla distribuzione
 Negli ultimi decenni, le aziende sono diventate sempre più consapevoli della necessità di sfruttare in modo strategico gli asset di dati per sfruttare le opportunità del mercato. Grazie ad analisi della concorrenza o a una maggiore comprensione dei modelli operativi, molte organizzazioni ora sanno quanto sia importante poter contare su una strategia per i dati come strumento per collocarsi un passo avanti rispetto alla concorrenza.  

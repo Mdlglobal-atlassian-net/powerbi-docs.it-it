@@ -3,7 +3,7 @@ title: Come condividere i dashboard, i report e i riquadri di Power BI
 description: Informazioni sulla procedura da seguire per incorporare il contenuto di Power BI all'interno dell'applicazione.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
-ms.author: asaxton
-ms.openlocfilehash: e614273c21dd5c222816700f0d42888e661ba1e0
-ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
+ms.author: maghan
+ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporare i dashboard, i report e i riquadri di Power BI
 

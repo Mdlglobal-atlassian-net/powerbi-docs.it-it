@@ -3,7 +3,7 @@ title: Incorporare contenuto di Power BI in un'applicazione per i clienti
 description: Informazioni su come integrare o incorporare un dashboard, un riquadro o un report in un'app Web tramite le API di Power BI per i clienti.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
-ms.author: asaxton
-ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
-ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
+ms.author: maghan
+ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Incorporare un dashboard, un riquadro o un report nell'applicazione
 Informazioni su come integrare o incorporare un dashboard, un riquadro o un report in un'app Web tramite Power BI .NET SDK insieme all'API JavaScript di Power BI durante l'incorporamento per i clienti. Questo è in genere lo scenario relativo a ISV.

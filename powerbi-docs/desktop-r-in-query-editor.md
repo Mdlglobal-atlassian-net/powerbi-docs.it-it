@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 025db9cabe1a63b5038e3b83c901b579f84c03e1
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="using-r-in-query-editor"></a>Uso di R nell'Editor di query
 È possibile usare **R**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di R nell'**Editor di query** consente di pulire i dati con R ed eseguire operazioni di data shaping e analisi in set di dati, tra cui completamento di dati mancanti, stime e clustering. **R** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.

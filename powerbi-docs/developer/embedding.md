@@ -3,7 +3,7 @@ title: Incorporamento con Power BI
 description: Power BI offre API per l'incorporamento di dashboard e report nelle applicazioni.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/30/17
 ms.author: mihart
-ms.openlocfilehash: 38860e6535f44e8831c62c045e7c5d0e130c35aa
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="embedding-with-power-bi"></a>Incorporamento con Power BI
 Power BI offre API per l'incorporamento di dashboard e report nelle applicazioni. Le API di Power BI offrono un set coerente di funzionalità e l'accesso alle funzionalità più recenti di Power BI, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto.

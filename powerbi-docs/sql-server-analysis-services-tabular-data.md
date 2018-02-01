@@ -3,7 +3,7 @@ title: Dati dinamici di SQL Server Analysis Services in Power BI
 description: Dati dinamici di SQL Server Analysis Services in Power BI. Questi dati possono essere visualizzati attraverso un'origine dati configurata per un gateway aziendale.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: asaxton
-ms.openlocfilehash: 6925dc9bcf3e500af18cf63c62f6cb33c297392b
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.author: maghan
+ms.openlocfilehash: a2a0b2ae9f663f5bd2ba1c599f4f55232c0d1973
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dati dinamici di SQL Server Analysis Services in Power BI
 In Power BI è possibile connettersi a un server SQL Server Analysis Services dinamico in due modi. In **Recupera dati** è possibile connettersi a un server SQL Server Analysis Services oppure è possibile connettersi a un [file di Power BI Desktop](service-desktop-files.md), o a una [cartella di lavoro di Excel](service-excel-workbook-files.md) che si connette già a un server Analysis Services.
