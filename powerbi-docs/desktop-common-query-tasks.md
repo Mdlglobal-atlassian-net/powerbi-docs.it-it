@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
@@ -69,7 +69,7 @@ Le altre connessioni dati sono simili. Se per stabilire una connessione dati è 
 Per informazioni dettagliate sulla connessione ai dati in Power BI Desktop, vedere [Connettersi ai dati in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
 ## <a name="shape-and-combine-data"></a>Effettuare il data shaping e combinare i dati
-L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere [Effettuare il data shaping e combinare i dati con Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644).
+L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
 
 Nella sezione precedente sono stati caricati due set di dati, una cartella di lavoro di Excel e una risorsa Web. Dopo il caricamento nell'Editor di query, la visualizzazione è simile alla seguente, con la query della pagina Web selezionata (dall'elenco delle query disponibili elencate nel riquadro **Query** sul lato sinistro della finestra Editor di query).
 

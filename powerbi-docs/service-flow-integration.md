@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: efab2e6be1d376a0da70c13bb66144ba34afa58c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: edae145e8eef6dfe7a2c4cea3a7f467f6f7961a9
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
 
@@ -35,7 +35,9 @@ Guardare il video per scoprire come creare un flusso che invia posta dettagliata
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Creare un flusso che sia attivato da un avviso per i dati di Power BI
-Questa esercitazione illustrerà come creare due diversi flussi, uno da un modello e l'altro da zero. Per iniziare, [creare un avviso per i dati in Power BI](service-set-data-alerts.md) e [iscriversi a Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) gratuitamente.
+
+### <a name="prerequisites"></a>Prerequisiti
+Questa esercitazione illustrerà come creare due diversi flussi, uno da un modello e l'altro da zero. Per iniziare, [creare un avviso per i dati in Power BI](service-set-data-alerts.md), creare un account Slack gratuito e [iscriversi a Microsoft Flow](https://flow.microsoft.com/en-us/#home-signup) gratuitamente.
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Creare un flusso che usa Power BI in base a un modello
 In questa attività si userà un modello per creare un semplice flusso che viene attivato da un avviso (notifica) per i dati di Power BI.
@@ -47,39 +49,40 @@ In questa attività si userà un modello per creare un semplice flusso che viene
 3. Selezionare **Crea da modello**.
    
     ![](media/service-flow-integration/power-bi-template.png)
-4. Usare la casella di ricerca per trovare i modelli di Power BI e selezionare **Post a message to a Slack channel when a Power BI data alert is triggered**.
+4. Usare la casella di ricerca per trovare i modelli di Power BI e selezionare **Invia un messaggio di posta elettronica a tutti i destinatari quando viene attivato un avviso di Power BI basato sui dati > Continua**.
    
-    ![](media/service-flow-integration/power-bi-template2.png)
-5. Selezionare **Usa questo modello**.
-   
-   ![](media/service-flow-integration/power-bi-use-template.png)
-6. Se richiesto, connettersi a Slack e Power BI selezionando **Accedi** e quindi seguendo le istruzioni. Un segno di spunta verde indica che è stato effettuato l'accesso.  Dopo aver confermato le connessioni, selezionare **Continua**.
-   
-   ![](media/service-flow-integration/power-bi-flow-signin.png)
+    ![](media/service-flow-integration/power-bi-flow-alert.png)
+
 
 ### <a name="build-the-flow"></a>Creare il flusso
-Questo modello prevede un trigger (avviso per i dati di Power BI per le nuove medaglie olimpiche all'Irlanda) e un'azione (pubblicare un messaggio su Slack). Quando si seleziona un campo, Flow mostra il contenuto dinamico che è possibile includere.  In questo esempio sono inclusi il valore e l'URL del riquadro nel corpo del messaggio.
+Questo modello prevede un trigger (avviso per i dati di Power BI per le nuove medaglie olimpiche all'Irlanda) e un'azione (inviare un messaggio di posta elettronica). Quando si seleziona un campo, Flow mostra il contenuto dinamico che è possibile includere.  In questo esempio sono inclusi il valore e l'URL del riquadro nel corpo del messaggio.
 
-![](media/service-flow-integration/power-bi-flow-template.png)
+![](media/service-flow-integration/power-bi-template1.png)
 
 1. Nell'elenco a discesa del trigger, selezionare un avviso per i dati di Power BI. Selezionare **New medal for Ireland**. Per informazioni su come creare un avviso, vedere [Avvisi per i dati nel servizio Power BI](service-set-data-alerts.md).
    
    ![](media/service-flow-integration/power-bi-trigger-flow.png)
-2. Per pubblicare un post su Slack, immettere il nome del canale e il testo del messaggio. È anche possibile selezionare il messaggio predefinito creato da Microsoft Flow. Si noti il contenuto dinamico che è stato incluso nel campo di testo del messaggio.
+2. Immettere uno o più indirizzi di posta elettronica validi, quindi selezionare **Modifica** (mostrato sotto) o **Aggiungi contenuto dinamico**. 
    
-   > [!NOTE]
-   > Includere "@" all'inizio del nome del canale.  Ad esempio, se il canale Slack è denominato "channelA", in Flow immettere "@channelA".
-   > 
-   > 
-   
-   ![](media/service-flow-integration/power-bi-flow-slacker.png)
-3. Al termine, selezionare **Crea flusso** o **Salva flusso**.  Il flusso viene creato e valutato.  Flow informa l'utente se vengono rilevati errori.
-4. In tale evenienza, selezionare **Modifica flusso** per correggere gli errori, altrimenti selezionare **Fatto** per eseguire il nuovo flusso.
+   ![](media/service-flow-integration/power-bi-flow-email.png)
+
+3. Flow crea automaticamente un titolo e un messaggio che è possibile mantenere o modificare. Tutti i valori impostati al momento della creazione dell'avviso in Power BI sono disponibili per l'uso. È sufficiente posizionare il cursore ed effettuare una selezione nell'area grigia evidenziata. 
+
+   ![](media/service-flow-integration/power-bi-flow-email-default.png)
+
+1.  Ad esempio, se si crea il titolo di avviso **Abbiamo vinto un'altra medaglia** in Power BI, è possibile selezionare **Titolo avviso** per aggiungere tale testo nel campo Oggetto del messaggio di posta elettronica.
+
+    ![](media/service-flow-integration/power-bi-flow-message.png)
+
+    È anche possibile accettare il corpo del messaggio di posta elettronica predefinito o crearne uno personalizzato. L'esempio precedente contiene alcune modifiche al messaggio.
+
+1. Al termine, selezionare **Crea flusso** o **Salva flusso**.  Il flusso viene creato e valutato.  Flow informa l'utente se vengono rilevati errori.
+2. In tale evenienza, selezionare **Modifica flusso** per correggere gli errori, altrimenti selezionare **Fatto** per eseguire il nuovo flusso.
    
    ![](media/service-flow-integration/power-bi-flow-running.png)
-5. Aprire l'account di Slack per visualizzare il messaggio.  
+5. Quando viene attivato l'avviso dati, verrà inviato un messaggio di posta elettronica agli indirizzi indicati.  
    
-   ![](media/service-flow-integration/power-bi-slack-message.png)
+   ![](media/service-flow-integration/power-bi-flow-email2.png)
 
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Creare un flusso che usa Power BI da zero (vuoto)
 In questa attività si creerà da zero un semplice flusso che viene attivato da un avviso (notifica) per i dati di Power BI.
@@ -88,12 +91,12 @@ In questa attività si creerà da zero un semplice flusso che viene attivato da 
 2. Selezionare **Flussi personali** > **Crea da zero**.
    
    ![](media/service-flow-integration/power-bi-my-flows.png)
-3. Usare la casella di ricerca per trovare un trigger di Power BI e selezionare **Attiva un flusso con un avviso basato sui dati di Power BI**.
+3. Usare la casella di ricerca per trovare un trigger di Power BI e selezionare **Quando viene attivato un avviso di Power BI basato sui dati**.
 
 ### <a name="build-your-flow"></a>Creare il flusso
 1. Nell'elenco a discesa, selezionare il nome dell'avviso.  Per informazioni su come creare un avviso, vedere [Avvisi per i dati nel servizio Power BI](service-set-data-alerts.md).
    
-    ![](media/service-flow-integration/power-bi-totalstores.png)
+    ![](media/service-flow-integration/power-bi-totalstores2.png)
 2. Selezionare **Nuovo passaggio** > **Aggiungi un'azione**.
    
    ![](media/service-flow-integration/power-bi-new-step.png)

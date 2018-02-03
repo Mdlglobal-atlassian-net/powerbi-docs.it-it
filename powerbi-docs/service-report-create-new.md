@@ -1,5 +1,5 @@
 ---
-title: 'Creare un nuovo report da un set di dati '
+title: 'Esercitazione - Creare un nuovo report da un set di dati '
 description: Informazioni su come creare un nuovo report di Power BI da un set di dati.
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Creare un nuovo report di Power BI importando un set di dati
 Dopo aver letto [Report in Power BI](service-reports.md) si supponga di voler creare un report personalizzato. È possibile creare un report in molti modi, ma in questo articolo verrà spiegato come crearne uno molto semplice da un set di dati di Excel. Una volta apprese le nozioni di base relative alla creazione di un report, è possibile consultare gli argomenti più avanzati elencati nella sezione **Passaggi successivi** alla fine di questo articolo.  
 
 > **SUGGERIMENTO**: per creare un report copiandone uno esistente, vedere [Copiare un report](power-bi-report-copy.md).
 > 
-> 
+### <a name="prerequisites"></a>Prerequisiti
+- Servizio Power BI (per la creazione di report con Power BI Desktop, vedere [Visualizzazione Report in Power BI Desktop](desktop-report-view.md)   
+- Set di dati dell'esempio di analisi delle vendite al dettaglio
 
 ## <a name="import-the-dataset"></a>Importare il set di dati
 In questo metodo di creazione del report si inizia con un set di dati e un'area di disegno report vuota. Per seguire la procedura, [scaricare il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio](http://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business (scelta consigliata) o in locale.
@@ -83,7 +85,7 @@ Il responsabile marketing ha altre domande a cui è necessario dare una risposta
 4. Selezionare **Tempo** > **Periodo** per aggiungerlo all'area **Asse**.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Per ordinare la visualizzazione, selezionare i puntini di sospensione e scegliere **Ordina per periodo**.
+5. Per ordinare la visualizzazione in base a un periodo di tempo, selezionare i puntini di sospensione e scegliere **Ordina per periodo**.
 6. A questo punto verrà aggiunto il filtro dei dati. Selezionare un'area vuota nell'area di disegno e scegliere il modello Filtro dei dati ![](media/service-report-create-new/power-bi-slicer-icon.png). All'area di disegno verrà aggiunto un filtro dei dati vuoto.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ Il responsabile marketing ha altre domande a cui è necessario dare una risposta
 8. Usare il filtro dei dati per individuare modelli e informazioni dettagliate per zona.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. Facoltativamente, continuare ad aggiungere visualizzazioni.
+
+Continuare con l'esplorazione dei dati e con l'aggiunta di visualizzazioni. Quando si trovano informazioni approfondite particolarmente interessanti, [aggiungerle a un dashboard](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Creare una copia di un report](power-bi-report-copy.md)
-* [Salvare il report](service-report-save.md)    
 * [Aggiungere una nuova pagina al report](power-bi-report-add-page.md)  
-* Informazioni su come [aggiungere visualizzazioni a un dashboard](service-dashboard-pin-tile-from-report.md)    
+* Informazioni su come [aggiungere visualizzazioni a un dashboard](service-dashboard-pin-tile-from-report.md)   
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -3,7 +3,7 @@ title: Installare il server di report di Power BI
 description: 'Informazioni su come installare il server di report di Power BI. '
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/08/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 93a91ae70a43281f9a30292adb8bcdffb3033223
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 340e4a79e4ab0950143ea1af4f1c9a1f9c54b64c
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
 
@@ -29,7 +29,9 @@ Informazioni su come installare il server di report di Power BI.
 
  **Scarica** ![scarica](media/install-report-server/download.png "scarica")
 
-Per scaricare il Server di report di Power BI, consultare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/). Per Power BI Desktop ottimizzato per il server di report di Power BI, visitare l'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=837581).
+Per scaricare il Server di report di Power BI, consultare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/). 
+
+Passare all'Area download Microsoft per scaricare [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (ottimizzato per il server di report di Power BI - ottobre 2017).
 
 ![suggerimento](media/install-report-server/fyi-tip.png "suggerimento") Per le note sulla versione corrente, vedere [Server di Report di Power BI - Note sulla versione](release-notes.md).
 

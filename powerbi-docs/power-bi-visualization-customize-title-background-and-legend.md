@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Personalizzare i titoli, le legende e gli sfondi delle visualizzazioni (esercitazione)
 Questa esercitazione illustra alcuni modi disponibili per personalizzare le visualizzazioni.   Il numero di opzioni disponibili per la personalizzazione delle visualizzazioni è molto elevato, quindi è consigliabile esplorare il riquadro Formattazione, selezionando l'icona a forma di rullo per pittura.  Per iniziare, questo articolo illustra come personalizzare il titolo, la legenda e lo sfondo di una visualizzazione.  
@@ -33,9 +33,12 @@ Il video seguente illustra come personalizzare le visualizzazioni in un report (
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Prerequisiti
+- Servizio Power BI o Power BI Desktop
+- Esempio di analisi delle vendite al dettaglio
 
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizzazione dei titoli delle visualizzazioni nei report
-Per seguire la procedura, accedere ad app.powerbi e [aprire il report Esempio di analisi delle vendite al dettaglio](sample-datasets.md) in [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
+Per seguire la procedura, accedere al servizio Power BI (app.powerbi.com) e [aprire il report Esempio di analisi delle vendite al dettaglio](sample-datasets.md) in [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > quando si aggiunge una visualizzazione a un dashboard, questa diventa un riquadro del dashboard.  È possibile personalizzare anche i riquadri, [ridimensionandoli e aggiungendo nuovi titoli, sottotitoli e collegamenti ipertestuali](service-dashboard-edit-tile.md).
@@ -120,7 +123,6 @@ Usare lo stesso istogramma selezionato ed espandere le opzioni di Sfondo.
 | cascata |sì |sì |sì |
 
 ## <a name="next-steps"></a>Passaggi successivi
-Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)  
 [Personalizzare gli assi X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Personalizzare le proprietà di colori e assi](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI - Concetti di base](service-basic-concepts.md)  

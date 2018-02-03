@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Sottoscrivere un report o un dashboard di Power BI
 Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. Per il messaggio di posta elettronica e lo snapshot verrà usata la lingua impostata in Impostazioni di Power BI. Se non è definita alcuna lingua, Power BI userà la lingua corrente del browser.
@@ -119,6 +119,7 @@ Una sottoscrizione termina se la licenza Pro scade, il dashboard o il report vie
 * Le sottoscrizioni possono non riuscire nei dashboard o nei report con immagini grandi a causa dei limiti delle dimensioni della posta elettronica.    
 * Power BI sospende automaticamente l'aggiornamento nei set di dati associati ai dashboard e ai report che non sono stati visitati da più di 2 mesi.  Tuttavia, se si aggiunge una sottoscrizione a un dashboard o un report, l'aggiornamento non verrà sospeso anche nel caso in cui non sia stato visitato.    
 * Se non si ricevono i messaggi di posta elettronica relativi alla sottoscrizione, assicurarsi che il Nome dell'entità utente sia in grado di ricevere messaggi di posta elettronica. [Il team di Power BI si sta impegnando per rendere meno rigoroso questo requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163) e fornirà presto notizie in merito. 
+* Per i report e i dashboard inviati viene usata l'impostazione di lingua di Power BI. La lingua predefinita è l'inglese. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)    

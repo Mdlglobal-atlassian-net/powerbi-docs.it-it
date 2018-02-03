@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Mappe ad albero in Power BI (esercitazione)
 Le mappe ad albero mostrano dati gerarchici in un set di rettangoli annidati.  Ogni livello della gerarchia è rappresentato da un rettangolo colorato (detto anche "ramo") che contiene altri rettangoli ("foglie").  Lo spazio all'interno di ogni rettangolo viene allocato in base al valore quantitativo misurato, con i rettangoli disposti per dimensione dall'angolo in alto a sinistra (più grande) all'angolo in basso a destra (più piccolo).
@@ -41,20 +41,25 @@ La mappe ad albero rappresentano un'ottima scelta nelle seguenti situazioni:
 * per visualizzare gli attributi mediante la dimensione e la codifica a colori.
 * per individuare modelli, outlier, elementi più importanti ed eccezioni.
 
+### <a name="prerequisites"></a>Prerequisiti
+ - Servizio Power BI o Power BI Desktop
+ - Esempio di analisi delle vendite al dettaglio
+
 ## <a name="create-a-basic-treemap"></a>Creare una mappa ad albero di base
 Se si preferisce prima assistere alla creazione di una mappa ad albero,  Andare al minuto 2:10 di questo video per vedere come creare una mappa ad albero.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-In alternativa, creare autonomamente una mappa ad albero personalizzata. Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire la procedura, [scaricare l'esempio](sample-datasets.md), accedere a Power BI e selezionare **Recupera dati \> Cartella di Excel \> Connetti \> Retail Analysis Sample**.**xlsx**.
+In alternativa, creare autonomamente una mappa ad albero personalizzata. Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire la procedura, accedere al servizio Power BI (non a Power BI Desktop) e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio \> Connetti \>Passa al dashboard**. Per creare visualizzazioni in un report sono necessarie autorizzazioni di modifica per il set di dati e il report. Fortunatamente, gli esempi di Power BI sono modificabili. Tuttavia, in un report condiviso da un altro utente non sarà possibile aggiungere nuove visualizzazioni.
 
-1. Iniziare nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) e selezionare la misura **Vendite** > **Vendite dello scorso anno**.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. Convertire il grafico in una mappa ad albero.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. Trascinare **Item** > **Category** nell'area **Gruppo**. Power BI crea una mappa ad albero in cui la dimensione dei rettangoli riflette il totale delle vendite e il colore rappresenta la categoria.  In sintesi, è stata creata una gerarchia che descrive visivamente la dimensione relativa del totale delle vendite per categoria.  La categoria **Mens** è quella con il volume di vendite maggiore, mentre la categoria **Hosiery** è quella con il volume minore.
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. Trascinare**Store** > **Chain** nell'area **Dettagli** per completare la mappa ad albero. A questo punto è possibile confrontare le vendite dell'anno per categoria e catena.   
+1. Selezionare il riquadro "Total Stores" per aprire il report di esempio di analisi delle vendite al dettaglio.    
+2. Aprire la [visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) e selezionare la misura **Sales** > **Last Years Sales**.   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. Convertire il grafico in una mappa ad albero.  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. Trascinare **Item** > **Category** nell'area **Gruppo**. Power BI crea una mappa ad albero in cui la dimensione dei rettangoli riflette il totale delle vendite e il colore rappresenta la categoria.  In sintesi, è stata creata una gerarchia che descrive visivamente la dimensione relativa del totale delle vendite per categoria.  La categoria **Mens** è quella con il volume di vendite maggiore, mentre la categoria **Hosiery** è quella con il volume minore.   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. Trascinare**Store** > **Chain** nell'area **Dettagli** per completare la mappa ad albero. A questo punto è possibile confrontare le vendite dell'anno per categoria e catena.   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ Evidenziando una categoria o i dettagli in una mappa da albero vengono applicate
 
 1. Nella mappa ad albero selezionare una voce Category o Chain all'interno di una categoria.  per evidenziare in modo incrociato le altre visualizzazioni nella pagina. Se ad esempio si seleziona **050-Shoes**, viene mostrato che l'anno scorso sono state vendute scarpe per 3.640.471 dollari, di cui 2.174.185 dollari riferiti a Fashions Direct.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. Nel grafico a torta **Last Year Sales by Chain** selezionare la sezione **Fashions Direct** .  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. Nel grafico a torta **Last Year Sales by Chain** selezionare la sezione **Fashions Direct** per applicare un filtro incrociato alla mappa ad albero.  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](service-reports.md)  
-[Aggiungere una visualizzazione a un report](power-bi-report-add-visualizations-i.md)  
-[Tipi di visualizzazioni in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-[ Aggiungere una visualizzazione a un dashboard](service-dashboard-pin-tile-from-report.md)  
+[Aggiungere una visualizzazione a un dashboard](service-dashboard-pin-tile-from-report.md)  
 [Power BI - Concetti di base](service-basic-concepts.md)  
-[Provalo gratuitamente](https://powerbi.com/)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)  
 

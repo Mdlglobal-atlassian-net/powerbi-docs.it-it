@@ -1,6 +1,6 @@
 ---
-title: Visualizzazioni tabella nei report e nei dashboard di Power BI (esercitazione)
-description: Suggerimenti per l'utilizzo di visualizzazioni tabella nei report e nei dashboard di Power BI, tra cui come ridimensionare le colonne.
+title: Esercitazione - Visualizzazioni tabella nei report e nei dashboard di Power BI (esercitazione)
+description: Suggerimenti per l'utilizzo di visualizzazioni tabella nei report e nei dashboard di Power BI, tra cui come ridimensionare la larghezza delle colonne.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e4a2e162ca193af756e7182fb118bc7e72d38d28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4785df6bbc14bf0da4500a9cffdcd47381e412f4
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Utilizzo di tabelle nei report e nei dashboard di Power BI (esercitazione)
 Una tabella è una griglia contenente dati correlati in una serie logica di righe e colonne. Può anche contenere intestazioni e una riga per i totali. Le tabelle funzionano bene con confronti quantitativi in cui si analizzano molti valori per una singola categoria. Ad esempio, questa tabella mostra 5 diverse misure per **Categoria**.
@@ -40,11 +40,16 @@ Le tabelle rappresentano un'ottima scelta nelle seguenti situazioni:
 > Se una tabella contiene troppi valori, è consigliabile convertirla in una matrice e/o usare il drill-down.
 > 
 > 
+## <a name="prerequisites"></a>Prerequisiti
+ - Servizio Power BI o Power BI Desktop
+ - Esempio di analisi delle vendite al dettaglio
+
 
 ## <a name="create-a-table"></a>Creare una tabella
-Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati > Esempi > Esempio di analisi delle vendite al dettaglio**. Verrà creata la tabella raffigurata nell'immagine precedente per visualizzare i valori delle vendite per categoria di elemento.
+Verrà creata la tabella raffigurata nell'immagine precedente per visualizzare i valori delle vendite per categoria di elemento. Per seguire la procedura, accedere al servizio Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio > Connetti** e scegliere **Passa al dashboard. Per creare una visualizzazione sono necessarie autorizzazioni di modifica per il set di dati e per il report. Fortunatamente, gli esempi di Power BI sono tutti modificabili. Nei report condivisi da altri utenti non sarà possibile creare visualizzazioni.
 
-1. Nell'**Area di lavoro** selezionare la scheda Set di dati e scorrere in basso fino al set di dati Esempio di analisi delle vendite al dettaglio appena aggiunto.  Selezionare l'icona **Crea report**.
+1. Dal riquadro di spostamento a sinistra selezionare **Aree di lavoro > Area di lavoro personale**.    
+2. Selezionare la scheda Set di dati e scorrere in basso fino al set di dati Esempio di analisi delle vendite al dettaglio appena aggiunto.  Selezionare l'icona **Crea report**.
    
     ![](media/power-bi-visualization-tables/power-bi-create-report.png)
 2. Nell'editor di report, selezionare **Elemento** > **Categoria**.  Power BI crea automaticamente una tabella che elenca tutte le categorie.

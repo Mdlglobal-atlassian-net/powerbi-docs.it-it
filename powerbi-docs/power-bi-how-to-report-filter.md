@@ -1,6 +1,6 @@
 ---
 title: Presentazione del riquadro Filtri di Power BI
-description: Come usare i filtri dei report
+description: Panoramica del riquadro Filtri per i report nel servizio Power BI e in dashboard di Power BI
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: da3d4359fab37d1c5ee5f9d214cc5dba0fa9b680
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 14aa2a2813484c3af814332736906c2aae0e0230
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Presentazione del riquadro Filtri del report
-Questo articolo analizza in maniera approfondita il riquadro Filtri del report, visibile nella Visualizzazione di modifica e nella Visualizzazione di lettura per i report di Power BI.
+Questo articolo analizza in maniera approfondita il riquadro Filtri del report, Il riquadro verrà visualizzato nella [visualizzazione di modifica e nella visualizzazione di lettura del servizio Power BI](service-reading-view-and-editing-view.md) e nella [visualizzazione Report di Power BI Desktop](desktop-report-view.md).
 
 Esistono diversi modi per filtrare i dati in Power BI, per questo è prima di tutto consigliabile leggere l'articolo [Informazioni su filtri ed evidenziazione](power-bi-reports-filters-and-highlighting.md).
 
@@ -32,7 +32,7 @@ Esistono diversi modi per filtrare i dati in Power BI, per questo è prima di tu
 I report possono essere aperti nella [Visualizzazione di modifica o Visualizzazione di lettura](service-reading-view-and-editing-view.md). Nella Visualizzazione di modifica, i proprietari dei report possono [aggiungere filtri a un report](power-bi-report-add-filter.md), che vengono salvati insieme al report stesso. Quando il report viene visualizzato nella visualizzazione di lettura è possibile interagire con i filtri, ma non salvare le modifiche dei filtri al report.
 
 ## <a name="filters-in-reading-view"></a>Filtri nella Visualizzazione di lettura
-Quando un report è aperto nella Visualizzazione di lettura, il riquadro Filtri viene visualizzato lungo il lato destro dell'area di disegno report. Se il riquadro non è visibile, selezionare la freccia nell'angolo superiore destro per espanderlo.
+Quando un report è aperto nella visualizzazione di lettura, il riquadro Filtri viene visualizzato lungo il lato destro dell'area di disegno report. Se il riquadro non è visibile, selezionare la freccia nell'angolo superiore destro per espanderlo.
 
 In questo esempio è stato scelto un oggetto visivo con 6 filtri. Anche la pagina del report dispone di filtri, elencati al titolo **Filtri a livello di pagina**. È disponibile un [Filtro di drill-through](power-bi-report-add-filter.md) e anche l'intero report ha un filtro: **FiscalYear** è 2013 o 2014.
 
@@ -59,7 +59,7 @@ Quando un report è aperto nella Visualizzazione di modifica, il riquadro Filtri
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
-Se nell'area di disegno non sono selezionati oggetti visivi, nel riquadro Filtri sono presenti solo i filtri applicabili all'intera pagina del report o all'intero report ed eventuali filtri di drill-through, se configurati. Nell'esempio seguente non sono selezionati oggetti visivi e non sono presenti filtri a livello di pagina o di drill-through, ma è presente un filtro a livello di report.  
+Se nell'area di disegno non sono selezionati oggetti visivi, nel riquadro Filtri vengono visualizzati solo i filtri applicabili all'intera pagina del report o all'intero report ed eventuali filtri di drill-through, se configurati. Nell'esempio seguente non sono selezionati oggetti visivi e non sono presenti filtri a livello di pagina o di drill-through, ma è presente un filtro a livello di report.  
 
 ![](media/power-bi-how-to-report-filter/power-bi-no-visual.png)  
 
@@ -77,7 +77,7 @@ Per visualizzare le opzioni di un filtro specifico, selezionare la freccia rivol
 ## <a name="add-a-filter"></a>Aggiungere un filtro
 * Nella visualizzazione di modifica aggiungere un filtro a un oggetto visivo, una pagina, un drill-through o un report selezionando un campo dal riquadro Campi e trascinandolo nell'area del filtro appropriato, in cui vengono visualizzate le parole **Trascinare qui i campi dati**. Dopo aver aggiunto un campo come filtro, ottimizzarlo usando i controlli Filtro di base o Filtro avanzato (descritti di seguito).
 
-Il trascinamento di un nuovo campo nell'area del filtro a livello di oggetto visivo non consente di aggiungere tale campo all'oggetto visivo, ma di filtrare l'oggetto visivo in base a questo nuovo campo. Nell'esempio seguente, **Chain** viene aggiunto come un nuovo filtro all'oggetto visivo. Si noti che aggiungendo semplicemente **Chain** come filtro non modifica l'oggetto visivo finché non si usano i controlli Filtro di base o Filtro avanzato.
+- **Il trascinamento di un nuovo campo nell'area del filtro a livello di oggetto visivo non consente di aggiungere tale campo all'oggetto visivo**, ma di filtrare l'oggetto visivo in base a questo nuovo campo. Nell'esempio seguente, **Chain** viene aggiunto come un nuovo filtro all'oggetto visivo. Si noti che aggiungendo semplicemente **Chain** come filtro non modifica l'oggetto visivo finché non si usano i controlli Filtro di base o Filtro avanzato.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

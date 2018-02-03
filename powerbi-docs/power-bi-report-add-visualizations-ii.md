@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 2b3f25c772a049d10bc03941db677c67c844da8b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 40d6ee1f1448856b444201532caffd4b8c904c85
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte 2, Aggiungere visualizzazioni a un report di Power BI (esercitazione)
 Nella[Parte 1](power-bi-report-add-visualizations-ii.md) è stata creata una visualizzazione di base tramite la selezione delle caselle di controllo accanto ai nomi dei campi.  Nella Parte 2 verrà spiegato come usare il trascinamento della selezione e le funzionalità complete dei riquadri **Campi** e **Visualizzazioni** per creare e modificare le visualizzazioni.
+
+### <a name="prerequisites"></a>Prerequisiti
+- [Parte 1](power-bi-report-add-visualizations-ii.md)
+- Servizio Power BI - È possibile aggiungere visualizzazioni ai report tramite il servizio Power BI e Power BI Desktop. Questa esercitazione usa il servizio Power BI. 
+- Esempio di analisi delle vendite al dettaglio
 
 ## <a name="create-a-new-visualization"></a>Creare una nuova visualizzazione
 In questa esercitazione verrà esaminato il set di dati relativo all'analisi delle vendite al dettaglio e verranno create alcune visualizzazioni chiave.
@@ -64,7 +69,6 @@ In questa esercitazione verrà esaminato il set di dati relativo all'analisi del
 ## <a name="next-steps"></a>Passaggi successivi
 * Per altre informazioni sul riquadro Campi, vedere [Presentazione dell'editor di report](service-the-report-editor-take-a-tour.md).   
 * Per informazioni su come filtrare ed evidenziare le visualizzazioni, vedere [Filtri ed evidenziazione nei report di Power BI](power-bi-reports-filters-and-highlighting.md).  
-* Per informazioni sull'uso e la modifica delle aggregazioni, vedere [Aggregati nei report](service-aggregates.md).  
 * Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md).  
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

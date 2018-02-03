@@ -3,7 +3,7 @@ title: Come eseguire la migrazione del contenuto della raccolta di aree di lavor
 description: Informazioni su come eseguire la migrazione da Power BI Embedded al servizio Power BI e sfruttare i miglioramenti per l'incorporamento nelle app.
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI Embedded in Power BI
 Informazioni su come eseguire la migrazione da Power BI Embedded al servizio Power BI e sfruttare i miglioramenti per l'incorporamento nelle app.
@@ -174,14 +174,11 @@ All'interno dell'applicazione, verrà eseguito il mapping degli utenti gestiti a
 Quando si è pronti a passare alla produzione, è necessario eseguire le operazioni seguenti.
 
 * Se si usa un tenant diverso per lo sviluppo, è necessario assicurarsi che l'area di lavoro per le app, insieme ai dashboard e ai report, sia disponibile nell'ambiente di produzione. È inoltre necessario assicurarsi di aver creato l'applicazione in Azure AD per il tenant di produzione e di aver assegnato le autorizzazioni di dell'app adeguate, come indicato nel Passaggio 1.
-* Acquistare una capacità adatta alle proprie esigenze. È possibile usare il [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (White paper sulla pianificazione della capacità di analisi incorporata) per individuare gli elementi necessari. Quando si è pronti per l'acquisto, è possibile eseguire questa operazione nel [centro di amministrazione di Office 365](https://portal.office.com/adminportal/home#/catalog).
-  
-  > [AZURE.INFORMATION] Per informazioni su come acquistare Power BI Premium, vedere [How to purchase Power BI Premium](../service-admin-premium-purchase.md) (Come acquistare Power BI Premium).
-  > 
-  > 
+* Acquistare una capacità adatta alle proprie esigenze. Per valutare al meglio la quantità e il tipo di capacità necessari, vedere [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (White paper sulla pianificazione della capacità per l'analisi incorporata). È possibile [acquistare capacità](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
 * Modificare l'area di lavoro per le app e assegnarle una capacità Premium in Opzioni avanzate.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Distribuire l'applicazione aggiornata nell'ambiente di produzione e iniziare a incorporare i report del servizio Power BI.
 
 ## <a name="after-migration"></a>Dopo la migrazione

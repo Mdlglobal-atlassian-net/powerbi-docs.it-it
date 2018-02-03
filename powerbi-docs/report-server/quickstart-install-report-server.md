@@ -3,7 +3,7 @@ title: 'Avvio rapido: installazione del Server di report di Power BI'
 description: "L'installazione del server di report di Power BI è molto rapida. Dal download, all'installazione e alla configurazione, si sarà operativi in pochi minuti."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/28/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Avvio rapido: installazione del Server di report di Power BI
 L'installazione del server di report di Power BI è molto rapida. Dal download, all'installazione e alla configurazione, si sarà operativi in pochi minuti.
@@ -30,7 +30,9 @@ Ecco una breve presentazione su come installare un server di report se si vuole 
 
  **Scarica** ![scarica](media/quickstart-install-report-server/download.png "scarica")
 
-Per scaricare il Server di report di Power BI, consultare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/). Per Power BI Desktop ottimizzato per il server di report di Power BI, visitare l'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=837581).
+Per scaricare il Server di report di Power BI, consultare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/). 
+
+Passare all'Area download Microsoft per scaricare [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (ottimizzato per il server di report di Power BI - ottobre 2017).
 
 ![suggerimento](media/quickstart-install-report-server/fyi-tip.png "suggerimento") Per le note sulla versione corrente, vedere [Server di Report di Power BI - Note sulla versione](release-notes.md).
 

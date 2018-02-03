@@ -1,5 +1,5 @@
 ---
-title: Presentazione dell'editor di report
+title: Guida introduttiva - Presentazione dell'editor di report
 description: Presentazione dell'editor di report.
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Presentazione dell'editor di report
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Modifica di report nel servizio Power BI e in Power BI Desktop
 Gli editor di report disponibili nel servizio Power BI e in Power BI Desktop sono molto simili. Il video mostra l'editor di report in Power BI Desktop e questo articolo illustra l'editor di report nel servizio Power BI. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>Differenza tra *autori* di report e *fruitori* di report
+La possibilità di creare e modificare un report è limitata ai proprietari di report (noti anche come *autori*). I *fruitori* di un report condiviso da altri potranno comunque aprirlo e interagire con il report nel servizio Power BI [solo nella visualizzazione di lettura](service-reading-view-and-editing-view.md), ma non saranno disponibili tutte le funzionalità potenti e complete riservate all'autore del report.  
+
+Per altre informazioni sulla visualizzazione di lettura del report, vedere [Visualizzazione di lettura e visualizzazione di modifica dei report nel servizio Power BI](service-reading-view-and-editing-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Nel servizio Power BI l'*editor di report* è disponibile solo nella [Visualizzazione di modifica](service-reading-view-and-editing-view.md). Per aprire un report nella Visualizzazione di modifica, è necessario essere un proprietario del report.
+Nel servizio Power BI l'*editor di report* è disponibile solo nella [Visualizzazione di modifica](service-reading-view-and-editing-view.md). Per aprire un report nella visualizzazione di modifica, è necessario essere un proprietario del report o l'autore.
 
 L'editor di report di Power BI è organizzato in tre sezioni:  
 
@@ -87,7 +93,9 @@ Il riquadro Analisi nel servizio Power BI consente di aggiungere linee di riferi
 
 - - -
 ## <a name="the-filters-pane"></a>Riquadro Filtri
-Consente di visualizzare, impostare e modificare i filtri a livello di pagina, report, drill-through e oggetto visivo.
+Usare il riquadro Filtri per visualizzare, impostare e modificare i filtri permanenti per i report a livello di pagina, report, drill-through e oggetto visivo. È possibile applicare filtri ad hoc alle pagine e agli oggetti visivi del report selezionando gli elementi degli oggetti visivi o usando strumenti come i filtri dei dati, ma tramite il riquadro Filtri lo stato dei filtri viene salvato con il report. 
+
+Il riquadro Filtri offre anche un'altra potente funzionalità, ovvero la possibilità di filtrare i dati in base a un campo ***non già in uso in uno degli oggetti visivi nel report***. Quando si crea una pagina del report Power BI aggiunge automaticamente tutti i campi usati nelle visualizzazioni nell'area dei filtri a livello di oggetto visivo del riquadro Filtri.  Tuttavia, se si vuole impostare un filtro per oggetto visivo, pagina, drill-through o report in base a un campo non attualmente usato in una visualizzazione, è sufficiente trascinarlo su uno dei bucket dei filtri.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ Nell'area di disegno report viene visualizzato il lavoro. Quando si usano i riqu
 ## <a name="next-steps"></a>Passaggi successivi:
 [Creare un report](service-report-create-new.md)
 
-[Modificare un report](service-interact-with-a-report-in-editing-view.md)
-
-Altre informazioni sui [report in Power BI](service-reports.md)
-
-[Introduzione a Power BI](service-get-started.md)
+Altre informazioni sui report nel [servizio Power BI](service-reports.md), in [Power BI Desktop](desktop-report-view.md) e in [Power BI per dispositivi mobili](mobile-apps-view-phone-report.md).
 
 [Power BI - Concetti di base](service-basic-concepts.md)
 

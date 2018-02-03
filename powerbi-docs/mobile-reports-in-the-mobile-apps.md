@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/23/2018
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -63,7 +63,7 @@ Quando si visualizza tale report in un telefono, viene aperto in visualizzazione
 Altre informazioni sui [report ottimizzati per la visualizzazione telefono](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Usare i filtri dei dati per filtrare una pagina del report
-Quando si progetta un report nel servizio Power BI [(https://powerbi.com)](https://powerbi.com), tenere presente che in un telefono non è possibile vedere il riquadro Filtri, ma è possibile [vedere i filtri dei dati in una pagina del report](power-bi-visualization-slicers.md). Aggiungere filtri dei dati a un report in modo che sia possibile usare i filtri dei dati per filtrare la pagina in un telefono.
+Quando si progetta un report in Power BI Desktop o nel servizio Power BI, prendere in considerazione l'[aggiunta di filtri dei dati a una pagina del report](power-bi-visualization-slicers.md). Sia l'autore che i colleghi potranno così usare i filtri dei dati per filtrare la pagina in un browser e nelle app per dispositivi mobili. Quando si visualizza il report in un telefono, è possibile visualizzare e interagire con i filtri dei dati in modalità orizzontale e in una pagina ottimizzata per la modalità verticale del telefono.
 
 * Quando si seleziona un valore in un filtro dei dati nella pagina del report, vengono filtrati gli altri oggetti visivi nella pagina.
   

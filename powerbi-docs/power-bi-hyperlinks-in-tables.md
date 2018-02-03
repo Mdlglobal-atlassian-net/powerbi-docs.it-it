@@ -1,5 +1,5 @@
 ---
-title: Collegamenti ipertestuali nelle tabelle
+title: Come aggiungere un collegamento ipertestuale a una tabella
 description: Collegamenti ipertestuali nelle tabelle
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Collegamenti ipertestuali nelle tabelle
-Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Una volta creati, usare Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
+Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Una volta creati, usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
 
 ![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -84,6 +84,11 @@ Un altro modo per aggiungere collegamenti ipertestuali alle tabelle e matrici di
 7. Creare una visualizzazione tabella che includa il campo URL.
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+D: è possibile usare un URL personalizzato come collegamento ipertestuale in una tabella o matrice?    
+R: no. È possibile usare un'icona di collegamento. Se è necessario testo personalizzato per i collegamenti ipertestuali e l'elenco di URL è breve, valutare la possibilità di usare una casella di testo.
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)

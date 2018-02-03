@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: 259007c76b7b53ba0ea55a28fbdd189469383364
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 7c0bd2f342385f71fd91bb81a284ef41deb46169
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Esportare un report dal servizio Power BI in Desktop (anteprima)
 In Power BI Desktop è possibile esportare un report nel servizio Power BI (operazione talvolta definita *download*) salvando il report e selezionando **Pubblica**. È possibile esportare anche nell'altra direzione e scaricare un report dal servizio Power BI a Desktop. L'estensione per i file di esportazione, in entrambe le direzioni, è *PBIX*.
@@ -37,7 +37,7 @@ Per scaricare il file con estensione pbix, seguire questi passaggi:
 2. Nella barra dei menu selezionare **File > Scarica report**.
    
    > [!NOTE]
-   > Per poterlo scaricare, il report deve essere stato [creato con Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) dopo il 23 novembre 2016 (o aggiornato dopo tale data). In caso contrario, la voce di menu *Scarica report* nel servizio Power BI è inattiva.
+   > Per poterlo scaricare, il report deve essere stato [creato con Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) dopo il 23 novembre 2016 (e aggiornato dopo tale data). In caso contrario, la voce di menu *Scarica report* nel servizio Power BI è inattiva.
    > 
    > 
 3. Durante la creazione del file con estensione pbix, un messaggio di stato indica lo stato di avanzamento. Quando il file è pronto, verrà chiesto di aprire o salvare il file con estensione pbix. Il nome del file corrisponde al titolo del report.
@@ -59,7 +59,7 @@ Per scaricare il file con estensione pbix, seguire questi passaggi:
 Per il download (esportazione) di un file con estensione *pbix* dal servizio Power BI esistono alcune importanti considerazioni e limitazioni.
 
 * Per scaricare il file, è necessario avere l'accesso in modifica al report
-* Il report deve provenire da **Power BI Desktop** ed essere stato *pubblicato* nel **servizio Power BI** oppure il file con estensione pbix deve essere stato *caricato* nel servizio.
+* Il report deve essere stato creato con **Power BI Desktop** ed essere stato *pubblicato* nel **servizio Power BI** oppure il file con estensione pbix deve essere stato *caricato* nel servizio.
 * I report devono essere stati pubblicati o aggiornati dopo il 23 novembre 2016. I report pubblicati prima di tale data non sono scaricabili.
 * Questa funzionalità non funzionerà con i report creati in origine nel **servizio Power BI**, inclusi i pacchetti di contenuto.
 * Per aprire i file scaricati è consigliabile usare sempre la versione più recente di **Power BI Desktop**. Potrebbe non essere possibile aprire i file *PBIX* scaricati nelle versioni non correnti di **Power BI Desktop**.

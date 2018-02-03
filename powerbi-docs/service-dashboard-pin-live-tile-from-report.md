@@ -1,5 +1,5 @@
 ---
-title: 'Aggiungere un''intera pagina del report a un dashboard di Power BI '
+title: 'Come aggiungere un''intera pagina del report a un dashboard di Power BI '
 description: Documentazione su come aggiungere un'intera pagina dinamica del report a un dashboard di Power BI da un report.
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ee8e7541db7f40a5d01607c6551ee734eb9f3d5b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Aggiungere un'intera pagina del report, come riquadro animato, a un dashboard di Power BI
-Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è anche possibile aggiungere un'intera pagina del report.  Questo è un modo semplice per aggiungere più di una visualizzazione contemporaneamente.  Inoltre, quando si aggiunge un'intera pagina, i riquadri sono *animati*. È possibile interagire con essi direttamente nel dashboard. Le modifiche apportate a qualsiasi visualizzazione nell'editor di report, ad esempio l'aggiunta di un filtro o la modifica dei campi utilizzati nel grafico, vengono riflesse anche nel riquadro del dashboard.  
+Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è anche possibile aggiungere un'intera pagina del report. Questo è un modo semplice per aggiungere più di una visualizzazione contemporaneamente.  Inoltre, quando si aggiunge un'intera pagina, i riquadri sono *animati*. È possibile interagire con essi direttamente nel dashboard. Le modifiche apportate a qualsiasi visualizzazione nell'editor di report, ad esempio l’aggiunta di un filtro o la modifica dei campi utilizzati nel grafico, vengono riflesse anche nel riquadro del dashboard.  
+
+L'aggiunta di riquadri dinamici dai report ai dashboard è disponibile solo nel servizio Power BI (app.powerbi.com).
 
 > [!NOTE]
 > Non è possibile aggiungere i riquadri dai report condivisi con l'utente.

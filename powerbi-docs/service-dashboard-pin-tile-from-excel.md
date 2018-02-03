@@ -1,5 +1,5 @@
 ---
-title: Aggiungere un riquadro a un dashboard di Power BI da Excel
+title: Come aggiungere un riquadro a un dashboard di Power BI da Excel
 description: Aggiungere un riquadro a un dashboard di Power BI da una cartella di lavoro di Excel in OneDrive for Business Aggiungere intervalli, grafici, tabelle
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 855ecbe74fa4bf4ab1b1f81f22f2bab278adddb9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 06edf8aae58dbcf2e22cf5d1ea13bf6350465853
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
 Prima di poter aggiungere un riquadro dalla cartella di lavoro di Excel, è necessario connettere la cartella di lavoro al servizio Power BI (app.powerbi.com). La connessione di una cartella di lavoro importa essenzialmente una versione di sola lettura collegata della cartella di lavoro nel servizio Power BI e consente di aggiungere gli intervalli ai dashboard. È anche possibile aggiungere un intero foglio di lavoro a un dashboard.  
@@ -40,13 +40,18 @@ Quando si sceglie **Connetti**, la cartella di lavoro viene visualizzata in Powe
 Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario apportare modifiche, selezionare l'icona della matita nella scheda **Cartelle di lavoro** dell'area di lavoro e quindi scegliere se modificare la cartella di lavoro in Excel Online oppure aprirla in Excel nel computer. Le modifiche apportate vengono salvate nella cartella di lavoro in OneDrive.
 
 1. Caricare la cartella di lavoro in OneDrive for Business.
-2. Da Power BI, [connettersi alla cartella di lavoro](service-excel-workbook-files.md).
+2. Da Power BI [connettersi alla cartella di lavoro](service-excel-workbook-files.md) selezionando **Recupera dati > File > OneDrive for Business** e passare al percorso in cui è stato salvato il file di Excel. Selezionare il file e scegliere **Connetti > Connetti**.
+
+   ![](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+
 3. In Power BI la cartella di lavoro viene aggiunta alla scheda **Cartelle di lavoro** dell'area di lavoro.  L'icona ![](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica che si tratta di una cartella di lavoro di Excel e l'asterisco giallo indica che è nuova.
    
-    Le modifiche apportate alla cartella di lavoro in Power BI non vengono salvate e non influiscono sulla cartella di lavoro originale in OneDrive for Business. Se si ordinano, filtrano o modificano i valori in Power BI, tali modifiche non possono essere salvate o bloccate. Per aggiornare la cartella di lavoro, selezionare l'icona della matita per aprirla in Excel Online. Potrebbe essere necessario attendere qualche minuto prima che le modifiche apportate alla cartella di lavoro in Excel Online vengano applicate ai riquadri.     
-   
+    
    ![](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Aprire la cartella di lavoro in Power BI selezionandone il nome.
+
+    Le modifiche apportate alla cartella di lavoro in Power BI non vengono salvate e non influiscono sulla cartella di lavoro originale in OneDrive for Business. Se si ordinano, filtrano o modificano i valori in Power BI, tali modifiche non possono essere salvate o bloccate. Se è necessario apportare modifiche che verranno salvate, selezionare **Modifica** nell'angolo in alto a destra per aprirla per la modifica in Excel Online o in Excel. Con le modifiche apportate in questo modo potrebbero essere necessari alcuni minuti per aggiornare i riquadri nei dashboard.
+   
    
    ![](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
@@ -62,7 +67,7 @@ Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è
    * Dashboard esistente: selezionare il nome del dashboard nell'elenco a discesa.
    * Nuovo dashboard: digitare il nome del nuovo dashboard.
    
-   ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+    ![](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Selezionare **Aggiungi**. Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stato aggiunto l'intervallo, come riquadro, al dashboard. 
    
     ![](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
@@ -80,6 +85,8 @@ Un riquadro creato da una tabella o una tabella pivot visualizzerà l'intera tab
 ## <a name="view-the-workbook-linked-to-the-tile"></a>Visualizzare la cartella di lavoro collegata al riquadro
 Se si seleziona un riquadro della cartella di lavoro, la cartella di lavoro collegata verrà aperta in Power BI. Poiché il file della cartella di lavoro si trova nel OneDrive for Business del proprietario, per visualizzarla è necessario disporre delle autorizzazioni di lettura per la cartella di lavoro. Se non si ha l'autorizzazione, si riceverà un messaggio di errore.  
 
+ ![](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
+
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Funzionalità non supportate: Power BI usa Excel Services per recuperare i riquadri della cartella di lavoro. Di conseguenza, poiché alcune funzionalità di Excel non sono supportate nell'API REST di Excel Services, esse non verranno visualizzate nei riquadri in Power BI. Ad esempio: grafici sparkline, formattazione condizionale dei set di icone e filtri dei dati ora. Per un elenco completo delle funzionalità non supportate, vedere [Funzionalità non supportate nelle API REST di Excel Services](http://msdn.microsoft.com/library/office/ff394477.aspx).
 
@@ -87,8 +94,6 @@ Funzionalità non supportate: Power BI usa Excel Services per recuperare i riqua
 [Condividere un dashboard che include collegamenti a una cartella di lavoro di Excel](service-share-dashboard-that-links-to-excel-onedrive.md)
 
 [Ottenere dati dai file delle cartelle di lavoro di Excel](service-excel-workbook-files.md)
-
-[Dashboard in Power BI](service-dashboards.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

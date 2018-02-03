@@ -1,11 +1,11 @@
 ---
-title: Condividere i report di Power BI con i colleghi
-description: Informazioni su come condividere report di Power BI e report filtrati con i colleghi all'interno dell'organizzazione.
+title: Filtrare e condividere i report di Power BI con i colleghi
+description: Informazioni su come condividere un report di Power BI filtrato con i colleghi all'interno dell'organizzazione.
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
+backup: lukaszp
 editor: 
 tags: 
 featuredvideoid: 0tUwn8DHo3s
@@ -16,43 +16,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/18/2018
 ms.author: maggies
-ms.openlocfilehash: 2a7b4cc652e600b9a368f6f7eda657c06e131da3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: fff70dc8e0fa1eaafd68d5995881b2c416d4e29d
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/24/2018
 ---
-# <a name="share-power-bi-reports-with-your-coworkers"></a>Condividere i report di Power BI con i colleghi
-La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre [diversi modi per collaborare ai report e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md). La condivisione è solo uno di essi.
+# <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Condividere un report di Power BI filtrato con i colleghi
+La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre anche [diversi altri modi per collaborare a report e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Con la condivisione, l'utente e i destinatari necessitano di una [licenza Power BI Pro](service-free-vs-pro.md). In caso contrario, il contenuto deve avere una [capacità Premium](service-premium.md). Se si hanno suggerimenti, il team di Power BI è sempre lieto di ricevere commenti da parte degli utenti, tramite il [sito della community di Power BI](https://community.powerbi.com/).
 
-È possibile condividere un report con i colleghi nello stesso dominio di posta elettronica dell'utente, dall'area di lavoro personale o dall'area di lavoro di un'app. Quando si condivide un report, gli utenti che lo condividono possono visualizzarlo e interagire con esso, ma non possono modificarlo. Essi vedranno gli stessi dati che l'utente vede nel report, a meno che non sia stata applicata la [sicurezza a livello di riga](service-admin-rls.md). 
+È possibile condividere un report con i colleghi nello stesso dominio di posta elettronica, dalla maggior parte delle posizioni nel servizio Power BI: Preferiti, Recenti, Condivisi con l'utente corrente (se il proprietario lo consente), Area di lavoro personale o altre aree di lavoro. Quando si condivide un report, gli utenti che lo condividono possono visualizzarlo e interagire con esso, ma non possono modificarlo. Essi vedranno gli stessi dati che l'utente vede nel report, a meno che non sia stata applicata la [sicurezza a livello di riga](service-admin-rls.md). 
 
-## <a name="share-a-power-bi-report"></a>Condividere un report di Power BI
-1. Nel servizio Power BI, [creare un dashboard](service-dashboard-create.md) con almeno un riquadro che si collega al report che si vuole condividere. 
-   
-    Anche se si vuole condividere solo il report, è prima necessario creare un dashboard che si collega al report e poi condividerlo. 
-
-1. Nell'angolo in alto a destra del dashboard selezionare **Condividi**.
-
-     ![Seleziona Condividi](media/service-share-reports/power-bi-share-upper-right.png)
-  
-2. Inviarlo ai destinatari desiderati. Se non si vuole inviare posta elettronica relativa al dashboard, deselezionare la casella di controllo **Invia notifica tramite posta elettronica ai destinatari**.
-
-     ![Deselezionare la casella di controllo Invia notifica tramite posta elettronica ai destinatari](media/service-share-reports/power-bi-share-dont-send-mail.png)
-
-4. Seleziona **Condividi**.
-
-      Gli utenti con cui si condivide il dashboard saranno ora autorizzati a visualizzare il report sottostante. 
-
-1. Aprire il report nel servizio Power BI, copiare l'URL della pagina del report e inviarlo ai colleghi. 
-   
-    Quando i colleghi selezionano il collegamento, Power BI apre una versione del report di sola lettura.
-
-## <a name="share-a-filtered-version-of-a-report"></a>Condividere una versione filtrata di un report
+## <a name="filter-and-share-a-report"></a>Filtrare e condividere un report
 Cosa accade se si vuole condividere una versione filtrata di un report? Ad esempio, un report che mostri solo i dati relativi a una città, un venditore o un anno specifici. Questa operazione può essere eseguita creando un URL personalizzato.
 
 1. Aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md), applicare il filtro e salvare il report.
@@ -74,11 +53,13 @@ Cosa accade se si vuole condividere una versione filtrata di un report? Ad esemp
    
    Il browser aggiunge dei caratteri speciali per rappresentare barre, spazi e apostrofi, quindi si otterrà il risultato seguente:
    
-   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-10a61f70f2f5/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
+   app.powerbi.com/groups/me/reports/010ae9ad-a9ab-4904-a7a1-xxxxxxxxxxxx/ReportSection2?filter=Store%252FTerritory%20eq%20%27NC%27
 
-3. Inviare questo URL ai colleghi. 
-   
-   Quando i colleghi selezionano il collegamento, Power BI apre una versione del report filtrato.
+3. [Condividere il report](service-share-dashboards.md), ma deselezionare la casella di controllo **Invia notifica tramite posta elettronica ai destinatari**. 
+
+    ![Finestra di dialogo Condividi report](media/service-share-reports/power-bi-share-report-dialog.png)
+
+4. Inviare il collegamento con il filtro creato in precedenza.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * Per inviare suggerimenti, passare al [sito della community di Power BI](https://community.powerbi.com/).
