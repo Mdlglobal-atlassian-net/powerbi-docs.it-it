@@ -47,8 +47,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-<a name="create">
-</a> Per creare un grafico combinato personalizzato, accedere al servizio Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio > Connetti > Vai al dashboard**.
+<a name="create"></a> Per creare un grafico combinato personalizzato, accedere al servizio Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio > Connetti > Vai al dashboard**.
 
 1. Dal dashboard "Esempio di analisi delle vendite al dettaglio" selezionare il riquadro **Total Stores** per aprire il report "Esempio di analisi delle vendite al dettaglio".
 2. Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica.
