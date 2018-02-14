@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/06/2018
 ms.author: davidi
-ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
-ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
+ms.openlocfilehash: 5d754dbdd5d52e7a5b123755015e656d9fb2cea2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/22/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Disabilitare l'impostazione di privacy in Gateway di Power BI - Personale
 > [!NOTE]
@@ -45,7 +45,7 @@ Per risolvere questo errore, è possibile attivare la **Combinazione rapida**. L
 > 
 
 ## <a name="what-is-fast-combine"></a>Che cos'è una Combinazione rapida?
-Per altre informazioni sui livelli di privacy e sulla Combinazione rapida, vedere [Livelli di privacy](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Per impostazione predefinita, il livello di privacy viene impostato su privato e può causare l'errore indicato in precedenza. L'errore si verifica perché, se si imposta il livello su privato, l'origine dati verrà isolata dalle altre origini. Uno scenario di esempio del problema è rappresentato da una query con parametri che ottiene gli input da un'altra origine dati.
+Per altre informazioni sui livelli di privacy e sulla Combinazione rapida, vedere [Livelli di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540). Per impostazione predefinita, il livello di privacy viene impostato su privato e può causare l'errore indicato in precedenza. L'errore si verifica perché, se si imposta il livello su privato, l'origine dati verrà isolata dalle altre origini. Uno scenario di esempio del problema è rappresentato da una query con parametri che ottiene gli input da un'altra origine dati.
 
 Se si attiva la Combinazione rapida, l'impostazione privata verrà ignorata e verrà consentita l'esecuzione.
 
@@ -85,7 +85,7 @@ Seguire questa procedura per abilitare la Combinazione rapida per il gateway per
 
 ## <a name="next-steps"></a>Passaggi successivi
 [On-premises data gateway (personal mode) - the new version of the personal gateway](service-gateway-personal-mode.md)
-[Privacy Levels](https://support.office.com/en-us/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (Gateway dati locale (modalità personale) - Nuova versione del gateway personale - Livelli di privacy)  
+[Privacy Levels](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) (Gateway dati locale (modalità personale) - Nuova versione del gateway personale - Livelli di privacy)  
 [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

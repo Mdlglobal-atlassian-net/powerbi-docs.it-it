@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/19/2017
 ms.author: maghan
-ms.openlocfilehash: 99b6391dc48772e21dd64038699a3365225167eb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 78be1a631a167a3b32ecb7d884a3428dc6a362b0
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -98,12 +98,6 @@ In alternativa, è possibile concedere agli utenti l'accesso al report effettuan
 
 2. Condividere il dashboard con gli utenti che richiedono l'accesso al report. Per altre informazioni, vedere [Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md).
 
-## <a name="allowing-free-users-access-to-reports"></a>Concessione dell'accesso ai report agli utenti con licenza gratuita
-
-Gli utenti con licenza gratuita possono visualizzare i report incorporati con la web part Power BI per SharePoint Online. Per concedere l'accesso agli utenti con licenza gratuita usare la stessa procedura per gli utenti Pro illustrata sopra in [Concessione dell'accesso ai report](#granting-access-to-reports). All'area di lavoro in cui si trova il report è necessario assegnare una capacità Power BI Premium. 
-
-Ad esempio, se è presente un report in un'area di lavoro per le app, è necessario assegnare l'area di lavoro per le app a una capacità Power BI Premium. Sarà anche necessario aggiungere l'utente con licenza gratuita all'elenco dei membri dell'area di lavoro per le app corrispondente.
-
 ## <a name="web-part-settings"></a>Impostazioni della web part
 
 Di seguito è riportata una descrizione delle impostazioni che possono essere modificate per la web part Power BI per SharePoint Online.
@@ -160,5 +154,5 @@ Esistono due motivi comuni per questo messaggio.
 [Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md)  
 [Power BI Premium: di cosa si tratta?](service-premium.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/) 
 

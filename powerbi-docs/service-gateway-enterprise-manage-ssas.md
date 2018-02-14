@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gestire l'origine dati - Analysis Services
 Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati Analysis Services per l'aggiornamento pianificato o per le connessioni in tempo reale.
@@ -89,17 +89,6 @@ Il **Nome utente** e la **Password** immessi verranno usati dal gateway per conn
 È possibile configurare il livello di privacy per l'origine dati. Questa impostazione controlla la modalità di mashup dei dati. L'impostazione viene usata solo per l'aggiornamento pianificato e non per le connessioni in tempo reale. [Altre informazioni](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Esperienza "Recupera dati" per Analysis Services nel sito di Power BI
-Per Analysis Services è possibile usare Recupera dati direttamente all'interno del servizio Power BI. È possibile connettersi a un'origine dati dinamica di Analysis Services configurata all'interno del gateway senza bisogno di Power BI Desktop. Il proprio account deve essere elencato nella scheda **Utenti** per l'origine dati, sotto il gateway, per essere visualizzato nell'elenco. Per connettersi all'origine dati, è possibile eseguire le operazioni seguenti.
-
-1. All'interno del servizio Power BI, selezionare **Recupera dati**.
-2. Selezionare **Database**.
-3. Selezionare **SQL Server Analysis Services** > **Connetti**.
-4. Selezionare un'origine dati dall’elenco. Qui verranno elencate le origini dati di Analysis Services a cui è possibile accedere.
-5. Selezionare il modello a cui ci si vuole connettere. Selezionare quindi **Connetti**.
-
-Verrà visualizzato un set di dati con il nome del server. È quindi possibile selezionare il set di dati e iniziare a creare report sulla base di essi. L’operazione avverrà a fronte di dati dinamici.
 
 ## <a name="usernames-with-analysis-services"></a>Nomi utente con Analysis Services
 Ogni volta che un utente interagisce con un report connesso ad Analysis Services, il nome utente effettivo viene passato al gateway e quindi al server Analysis Services locale. L’indirizzo di posta elettronica, con cui si accede a Power BI, è l’informazione che viene passata ad Analysis Services come utente effettivo. Tale informazione viene passata nella proprietà di connessione [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Questo indirizzo di posta elettronica deve corrispondere a un UPN definito all'interno del dominio di Active Directory locale. L'UPN è una proprietà di un account di Active Directory. Questo account di Windows deve quindi essere presente in un ruolo di Analysis Services. Se non viene rilevata alcuna corrispondenza in Active Directory, l'accesso non riesce. [Altre informazioni](https://msdn.microsoft.com/library/ms677605.aspx)

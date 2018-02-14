@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
-ms.openlocfilehash: 251503064cca2c0365df74ed0c21b296fb30a7a8
-ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
+ms.openlocfilehash: 99267fa0ffa1910f9dab920f939082aadb55d6aa
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
@@ -142,7 +142,7 @@ La latenza di rete può influire sulle prestazioni dei report allungando i tempi
 
 Alcuni strumenti, come il [test di velocità di Azure](http://azurespeedtest.azurewebsites.net/), possono fornire un'indicazione della latenza di rete tra il client e l'area di Azure. In generale, per ridurre al minimo l'impatto della latenza di rete, cercare di tenere le origini dati, i gateway e il cluster di Power BI il più vicini possibile. Se la latenza di rete costituisce un problema provare a cambiare l'area di gateway e origini dati collocandoli in macchine virtuali in un'area più vicina al cluster di Power BI. 
 
-Per migliorare ulteriormente la latenza di rete, provare a usare [Azure ExpressRoute](https://azure.microsoft.com/en-us/services/expressroute/) che consente di creare connessioni di rete più veloci e affidabili tra i client e i data center di Azure. 
+Per migliorare ulteriormente la latenza di rete, provare a usare [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) che consente di creare connessioni di rete più veloci e affidabili tra i client e i data center di Azure. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 - [Pianificazione della distribuzione aziendale di Power BI](https://aka.ms/pbienterprisedeploy), con indicazioni a tutto campo per le distribuzioni di Power BI su vasta scala 
