@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -29,6 +29,24 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](desktop-latest-update.md)  
 * [Novità del servizio Power BI](service-whats-new.md)  
+
+## <a name="january-2018"></a>Gennaio 2018
+
+### <a name="report-favorites"></a>Report Preferiti
+
+Contrassegnare i report come Preferiti in modo da visualizzarli nella pagina **Preferiti**. Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi mobili](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Visualizzare report condivisi
+
+Quando un utente condivide un report con l'utente, ora il report viene elencato nella pagina **Condivisi con l'utente corrente** insieme ai dashboard.
+
+### <a name="improved-hyperlink-support"></a>Supporto dei collegamenti ipertestuali migliorato
+
+È ora possibile toccare i collegamenti negli oggetti visivi personalizzati per aprirli nel browser per dispositivi mobili.
+
+### <a name="intune-integration-android"></a>Integrazione di Intune (Android)
+
+Supporto dell'accesso condizionale tramite la gestione dei dispositivi mobili di Intune.
 
 ## <a name="december-2017"></a>Dicembre 2017
 

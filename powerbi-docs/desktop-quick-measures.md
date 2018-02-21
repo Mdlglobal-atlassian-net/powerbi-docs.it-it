@@ -1,5 +1,5 @@
 ---
-title: Usare Misure rapide per eseguire facilmente calcoli comuni ed efficaci in Power BI (anteprima)
+title: Usare Misure rapide per eseguire facilmente calcoli comuni e avanzati in Power BI
 description: "La funzionalità Misure rapide fornisce formule DAX già pronte che accelerano l'esecuzione di calcoli comuni"
 services: powerbi
 documentationcenter: 
@@ -15,23 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: d0fc21c19a574f096c46c26331df3114e8c46c31
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ce971f980bf1796bfef8439b1ea260190fb678df
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
-# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations-preview"></a>Usare Misure rapide per eseguire facilmente calcoli comuni ed efficaci (anteprima)
-A partire dalla versione di aprile 2017 di **Power BI Desktop**, è possibile usare **Misure rapide** per eseguire rapidamente e facilmente calcoli comuni ed efficaci. Una **misura rapida** esegue un set di comandi DAX in background in base all'input fornito dall'utente in una finestra di dialogo, quindi presenta i risultati da usare nel report. Non è quindi necessario scrivere i comandi DAX perché quest'operazione viene eseguita automaticamente. Soprattutto, è possibile visualizzare le espressioni DAX che vengono eseguite dalla Misura rapida e iniziare subito o espandere le proprie competenze DAX.
+# <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Usare Misure rapide per eseguire facilmente calcoli comuni e avanzati
+È possibile usare **Misure rapide** per eseguire facilmente e velocemente calcoli comuni e avanzati. Una **misura rapida** esegue un set di comandi DAX in background in base all'input fornito dall'utente in una finestra di dialogo, quindi presenta i risultati da usare nel report. Non è quindi necessario scrivere i comandi DAX perché quest'operazione viene eseguita automaticamente. Soprattutto, è possibile visualizzare le espressioni DAX che vengono eseguite dalla Misura rapida e iniziare subito o espandere le proprie competenze DAX.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
 Per creare le **Misure rapide**, fare clic con il pulsante destro del mouse su un campo nell'area **Campi**, quindi selezionare **Misure rapide** dal menu visualizzato. È anche possibile fare clic con il pulsante destro del mouse su qualsiasi valore nel riquadro **Valori** di un oggetto visivo esistente (ad esempio il campo *Valori* in un oggetto visivo *Grafico a barre*). Sono disponibili diverse categorie di calcoli e metodi per modificare ogni calcolo secondo le proprie esigenze.
 
-### <a name="enable-the-quick-measures-preview"></a>Abilitare l'anteprima di Misure rapide
-La nuova funzionalità **Misure rapide** sarà disponibile a partire dalla versione di **aprile 2017** di **Power BI Desktop**. Per abilitare questa funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima**, quindi selezionare la casella di controllo accanto a **Misure rapide**. Dopo aver effettuato la selezione è necessario riavviare Power BI Desktop.
+### <a name="quick-measures-now-generally-available"></a>Le misure rapide sono ora disponibili a livello generale
+
+A partire dalla versione di febbraio 2018 di **Power BI Desktop**, le misure rapide sono disponibili a livello generale (non più in anteprima). Se si usa una versione precedente di **Power BI Desktop**, è possibile provare la funzionalità **Misure rapide** a partire dalla versione di **aprile 2017** di **Power BI Desktop** selezionando **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima** e selezionando quindi la casella di controllo **Misure rapide**.
 
 ![](media/desktop-quick-measures/quick-measures_02b.png)
 
@@ -56,17 +57,17 @@ Quando si seleziona il menu a discesa, viene visualizzato il lungo elenco di **M
 
 Esistono cinque gruppi distinti di tipi di calcolo Misura rapida, ognuno con una raccolta di calcoli. Tali gruppi e calcoli sono i seguenti:
 
-* **Aggrega nella categoria**
+* **Aggregazione per categoria**
   * Media nella categoria
   * Varianza nella categoria
   * Massimo nella categoria
   * Minimo nella categoria
   * Media ponderata per categoria
-* **Filtri e linee di base**
-  * Misura filtrata
+* **Filtri**
+  * Valore filtrato
   * Differenza dalla linea di base
-  * Differenza percentuale dalla linea di base
-  * Totali da nuove categorie
+  * Differenza percentuale dal valore filtrato
+  * Vendite da nuove categorie
 * **Business Intelligence**
   * Totale da inizio anno
   * Totale da inizio trimestre
@@ -85,6 +86,7 @@ Esistono cinque gruppi distinti di tipi di calcolo Misura rapida, ognuno con una
   * Moltiplicazione
   * Divisione
   * Differenza percentuale
+  * Coefficiente di correlazione
 * **Testo**
   * Classificazione a stelle
   * Elenco concatenato di valori
@@ -136,7 +138,7 @@ Si supponga che sia necessario calcolare la variazione rispetto all'anno precede
 Infine, dopo aver perfezionato la misura, è possibile rinominarla in qualsiasi modo si preferisca, usando lo stesso menu di scelta rapida.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-Per questa versione di anteprima delle **Misure rapide** occorre tenere presenti alcune limitazioni e considerazioni.
+Occorre tenere presenti alcune limitazioni e considerazioni.
 
 * Le **Misure rapide** sono disponibili solo se è possibile modificare il modello, che non è il caso quando si usa DirectQuery o la maggior parte delle connessioni dinamiche (come indicato in precedenza, le connessioni SSAS in tempo reale sono supportate).
 * La misura che viene aggiunta all'area **Campi** può essere usata con qualsiasi oggetto visivo nel report.
@@ -152,8 +154,6 @@ A partire dall'aggiornamento di ottobre 2017 per **Power BI Desktop**, sarà pos
 
 ### <a name="additional-information-and-examples"></a>Altre informazioni ed esempi
 In futuro saranno forniti esempi e istruzioni per ciascuno dei calcoli delle **Misure rapide**, quindi si consiglia di tornare a verificare la presenza di aggiornamenti dell'articolo mirato.
-
-Dato che si tratta di una funzionalità in **anteprima**, siamo particolarmente interessati a ricevere commenti, suggerimenti e idee da parte degli utenti.
 
 Si hanno idee per una **Misura rapida** non ancora fornita? Ottimo! Visitare [questa pagina](https://go.microsoft.com/fwlink/?linkid=842906) e inviare le proprie idee (compresa la formula DAX) per la **Misura rapida** che si vorrebbe vedere in **Power BI Desktop** e il team ne considererà l'aggiunta all'elenco fornito di **Misure rapide** in una versione futura.
 

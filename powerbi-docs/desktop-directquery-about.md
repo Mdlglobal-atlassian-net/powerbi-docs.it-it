@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso di DirectQuery in Power BI
 Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità, inclusi gli argomenti seguenti:
@@ -269,14 +269,21 @@ Quando si definisce il modello è consigliabile eseguire queste operazioni:
 ### <a name="report-design-guidance"></a>Indicazioni per la progettazione del report
 Quando si crea un report tramite una connessione DirectQuery, osservare le indicazioni seguenti:
 
+* **Provare a usare le opzioni di Riduzione query:** Power BI include opzioni nel report per inviare un minor numero di query e per disabilitare alcune interazioni che comporterebbero un'esperienza di scarsa qualità se le query risultanti richiedessero tempi di esecuzione lunghi. Per accedere a queste opzioni in **Power BI Desktop**, passare a **File > Opzioni e impostazioni > Opzioni** e selezionare **Riduzione query**. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    La selezione delle opzioni in **Riduzione query** consente di disabilitare l'evidenziazione incrociata nell'intero report. È anche possibile visualizzare un pulsante *Applica* per le selezioni dei filtri dei dati e/o dei filtri, in modo da poter effettuare più selezioni prima di applicarle, evitando così l'invio di query fino a quando non si seleziona il pulsante **Applica**  per il filtro dei dati. Le selezioni vengono quindi usate per filtrare i dati.
+
+    Queste opzioni verranno applicate al report mentre si interagisce con esso in **Power BI Desktop**, nonché quando gli utenti usano il report nel **servizio Power BI**.
+
 * **Applicare prima i filtri:** applicare sempre eventuali filtri all'inizio della creazione di un oggetto visivo. Invece di introdurre TotalSalesAmount e ProductName, quindi filtrare in base a un anno specifico, applicare il filtro sull'anno all'inizio. Ogni passaggio della creazione di un oggetto visivo invia una query e anche se è possibile apportare un'altra modifica prima del completamento della prima query, questa operazione applica un carico superfluo all'origine sottostante. Applicando subito i filtri, le query intermedie diventano generalmente meno impegnative. Con la mancata applicazione dei filtri all'inizio è anche possibile che venga raggiunto il limite di 1 milione di righe descritto in precedenza.
 * **Limitare il numero di oggetti visivi in una pagina:** quando si apre una pagina o si modifica il filtro dei dati a livello di pagina, tutti gli oggetti visivi presenti in una pagina vengono aggiornati. È anche previsto un limite al numero di query inviate in parallelo. Con l'aumentare del numero di oggetti visivi, alcuni di essi verranno quindi aggiornati in modo seriale, con il conseguente incremento del tempo necessario per aggiornare l'intera pagina. Per questo motivo è consigliabile limitare il numero di oggetti visivi presenti in una singola pagina e optare per più pagine semplici.
 * **Considerare la disattivazione dell'interazione tra oggetti visivi:** per impostazione predefinita, le visualizzazioni in una pagina di report possono essere usate per applicare un filtro incrociato e un'evidenziazione incrociata nelle altre visualizzazioni nella pagina. Selezionando ad esempio "1999" nel grafico a torta, all'istogramma verrà applicata l'evidenziazione incrociata per visualizzare le vendite per categoria per l'anno "1999".                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  È tuttavia possibile gestire questa interazione come descritto [in questo articolo](service-reports-visual-interactions.md). In DirectQuery, il filtro incrociato e l'evidenziazione incrociata richiedono l'invio di query all'origine sottostante, quindi è necessario disattivare l'interazione se il tempo necessario per rispondere alle selezioni degli utenti diventa irragionevolmente lungo.
-* **Considerare la sola condivisione dei report:** sono disponibili diverse modalità di condivisione dei contenuti dopo la pubblicazione nel **servizio Power BI**. Nel caso di DirectQuery è consigliabile prendere in considerazione la sola condivisione del report completato, piuttosto che consentire ad altri utenti di creare nuovi report e riscontrare potenzialmente problemi di prestazioni per gli oggetti visivi da loro creati.
+  In DirectQuery, il filtro incrociato e l'evidenziazione incrociata richiedono l'invio di query all'origine sottostante, quindi è necessario disattivare l'interazione se il tempo necessario per rispondere alle selezioni degli utenti diventa irragionevolmente lungo. Tuttavia, questa interazione può essere disattivata, sia per l'intero report (come descritto in precedenza per *Opzioni di Riduzione query*) o caso per caso come descritto [in questo articolo](service-reports-visual-interactions.md).
 
 Oltre all'elenco di suggerimenti precedente, si noti che ognuna delle funzionalità di creazione di report seguenti può provare problemi di prestazioni:
 
@@ -294,6 +301,8 @@ Oltre all'elenco di suggerimenti precedente, si noti che ognuna delle funzionali
 * **Mediana:** le aggregazioni (Sum, Count Distinct e così via) vengono in genere inserite nell'origine sottostante. Questo non vale tuttavia per la mediana perché questa aggregazione non è in genere supportata dall'origine sottostante. In questi casi, i dati di dettaglio vengono recuperati dall'origine sottostante e la mediana viene calcolata dai risultati restituiti. Questa operazione è ragionevole quando la mediana deve essere calcolata su un numero relativamente ridotto di risultati, mentre si verificheranno problemi di prestazioni, o errori di query a causa del limite di 1 milione di righe, se la cardinalità è di grandi dimensioni.  La mediana della popolazione nazionale può essere ad esempio un'operazione ragionevole, mentre la mediana del prezzo di vendita potrebbe non esserlo.
 * **Filtri per testo avanzati ("contiene" e così via):** quando si filtra una colonna di testo, il filtro avanzato consente parametri come 'contiene', 'inizia con' e così via. Questi filtri possono certamente comportare prestazioni ridotte per alcune origini dati. In particolare, il filtro 'contiene' predefinito non deve essere usato se si intende ottenere in realtà una corrispondenza esatta ('è' o 'non è'). Anche se i risultati possono essere gli stessi, a seconda dei dati effettivi le prestazioni potrebbero differire notevolmente a causa dell'uso degli indici.
 * **Filtri dei dati di selezione multipla:** per impostazione predefinita, i filtri dei dati consentono una sola selezione. Consentire la selezione multipla nei filtri può causare alcuni problemi di prestazioni, perché quando l'utente seleziona un set di elementi nel filtro dei dati, ad esempio i dieci prodotti cui è interessato, ogni nuova selezione comporterà l'invio di query all'origine back-end. Anche se l'utente può selezionare l'elemento successivo prima che la query venga completata, l'operazione comporta in ogni caso un carico aggiuntivo nell'origine sottostante.
+
+* **Valutare la disattivazione dei totali negli oggetti visivi:** per impostazione predefinita, le tabelle e le matrici visualizzano totali e subtotali. In molti casi, è necessario inviare query separate all'origine sottostante per ottenere i valori per tali totali. Ciò è vero ogni volta che si usa l'aggregazione *DistinctCount* o in tutti i casi quando si usa DirectQuery su SAP BW o SAP HANA. È consigliabile disattivare questi totali, tramite il riquadro **Formato**, se non sono necessari. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnosi dei problemi di prestazioni
 Questa sezione descrive come diagnosticare i problemi di prestazioni o come ottenere informazioni più dettagliate per consentire l'ottimizzazione dei report.

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium: di cosa si tratta?
 Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze per utente per i visualizzatori.
@@ -46,7 +46,7 @@ In Power BI ci sono due tipi di pacchetti di capacità. La capacità condivisa e
 | API e controlli incorporati |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile")<sup>2</sup> |
 | **Pubblicazione dei report di Power BI locali** |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile") |
 
-*<sup>1</sup> Il consumo gratuito utente nelle app include la visualizzazione di contenuti Web e dispositivi mobili, l'uso di Domande e risposte, Approfondimenti rapidi, Cortana, l'esportazione in CSV, Excel e PowerPoint.*  
+*<sup>1</sup> Il consumo gratuito per l'utente nelle app include la visualizzazione di contenuti nel Web e in dispositivi mobili, l'uso di Domande e risposte, Approfondimenti rapidi, Cortana, l'esportazione in CSV, Excel e PowerPoint. È necessaria una licenza Pro per le altre attività non elencate, ad esempio la creazione di report su set di dati condivisi e Analizza in Excel. Per altre informazioni, vedere [Differenze tra la versione gratuita e la versione Pro di Power BI](service-free-vs-pro.md).*  
 *<sup>2</sup> Miglioramenti in arrivo per Power BI Premium post GA.*
 
 ### <a name="premium-capacity"></a>Capacità Premium

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Usare l'oggetto visivo Matrice in Power BI Desktop
 Con l'oggetto visivo **Matrice** è possibile creare oggetti visivi matrice (detti anche *tabelle*) nei report di **Power BI Desktop** e usare l'evidenziazione incrociata degli elementi all'interno della matrice con altri oggetti visivi. È anche possibile selezionare singole celle, colonne e righe e usare l'evidenziazione incrociata. Infine, per usare al meglio lo spazio del layout, l'oggetto visivo matrice supporta un layout con rientri.
@@ -34,6 +34,19 @@ Alla matrice sono associate molte funzionalità, che verranno illustrate nelle s
 > A partire dalla versione di luglio 2017 di **Power BI Desktop**, gli oggetti visivi matrice e tabella riflettono lo stile, inclusi i colori, dal **Tema report** applicato. Potrebbero non essere i colori previsti per l'oggetto visivo matrice, ma è possibile modificarli nella configurazione del **tema del report**. Per altre informazioni sui temi, vedere [**Usare i temi dei report in Power BI Desktop**](desktop-report-themes.md).
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Informazioni sulla modalità di calcolo dei totali in Power BI
+
+Prima di passare a informazioni su come usare l'oggetto visivo **Matrice**, è importante comprendere come Power BI calcola i valori totali e subtotali in tabelle e matrici. Per le righe di subtotale e totale, la misura viene valutata su tutte le righe nei dati sottostanti. *Non* si tratta semplicemente dell'addizione dei valori nelle righe visibili o visualizzate. Questo significa che la riga del totale può in effetti contenere valori diversi dal previsto. 
+
+Per meglio comprendere il concetto, iniziare esaminando gli oggetti visivi **Matrice** seguenti. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+In questo esempio, ogni riga nell'oggetto visivo **Matrice** all'estrema destra mostra il valore *Amount* (Quantità) per ogni combinazione di venditore e data. Tuttavia, poiché un venditore viene visualizzato per più date, i numeri possono comparire più volte. Per questo motivo, un totale accurato calcolato dai dati sottostanti e la semplice addizione dei valori visibili non si equivalgono. Si tratta di una condizione comune quando i valori da sommare si trovano sul lato "uno" di una relazione uno-a-molti.
+
+Quando si esaminano i totali e subtotali, tenere presente che tali valori sono basati sui dati sottostanti e non unicamente sui valori visibili. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso del drill-down con l'oggetto visivo Matrice
 L'oggetto visivo **Matrice** consente di eseguire moltissime interessanti attività di drill-down che in precedenza non erano disponibili. Ciò include la possibilità di eseguire il drill-down usando righe e colonne e persino in singole sezioni e celle. Esaminiamo il funzionamento di ognuna di queste attività.
@@ -144,16 +157,12 @@ Entrambi gli approcci garantiscono lo stesso risultato. Se si seleziona *Control
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-Per questa versione dell'oggetto visivo **Matrice** occorre tenere presenti alcune limitazioni e considerazioni.
+## <a name="next-steps"></a>Passaggi successivi
 
-* Il drill-down nelle colonne può essere eseguito solo usando il menu di scelta rapida e attualmente nell'oggetto visivo non è indicato il alcun modo che è possibile eseguirlo in gruppi di righe o colonne
-* È solo possibile espandere contemporaneamente tutti gli elementi di un livello anziché espandere una categoria alla volta
-* Nel menu di scelta rapida visualizzato quando si fa clic con il pulsante destro del mouse su un'intestazione di colonna può comparire la voce **Visualizza record**, ma non è operativa
-* Attualmente non esiste una riga *Totale complessivo*
-* La disattivazione della riga del subtotale nel layout con rientri non ha alcun effetto
-* Le intestazioni di colonna possono essere troncate se il testo dei gruppi interni è più breve rispetto al gruppo esterno
-* La modifica del rientro per il layout con rientri non dovrebbe incidere sul rientro del gruppo di righe più esterno
+Potrebbero essere interessanti anche gli articoli seguenti:
 
-Le opinioni degli utenti sono sempre importanti per noi. Stiamo conducendo un **sondaggio** sull'oggetto visivo **Matrice**. Ringraziamo fin da ora gli utenti che decideranno di [partecipare al sondaggio](https://www.instant.ly/s/PYXT1).
+* [Usare le linee della griglia e il blocco alla griglia nei report di Power BI Desktop](desktop-gridlines-snap-to-grid.md)
+* [Origini dati in Power BI Desktop](desktop-data-sources.md)
+* [Tipi di dati in Power BI Desktop](desktop-data-types.md)
 
+ 

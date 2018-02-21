@@ -15,26 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: add95532f645c143aea0f58200f9e3b1467320d0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02498ff745a2e06a49ed6064a4f7eefebff305f8
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del riquadro Analisi in Power BI Desktop
-Con il riquadro **Analisi** in **Power BI Desktop** è possibile aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. Il riquadro **Analisi** è disponibile nell'area **Visualizzazioni** di Power BI Desktop, a partire dalla versione di agosto 2016, ovvero la versione 2.37.4464.321 o versioni successive, come illustrato di seguito.
+Con il riquadro **Analisi** in **Power BI Desktop** è possibile aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. Il riquadro **Analisi** è disponibile nell'area **Visualizzazioni** di Power BI Desktop.
 
 ![](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > Il riquadro **Analisi** viene visualizzato solo quando si seleziona un oggetto visivo nell'area di disegno di Power BI Desktop.
-> 
-> 
 
-## <a name="enable-forecasting-preview"></a>Abilitare la previsione (anteprima)
-Con il rilascio di settembre 2016 di **Power BI Desktop** (versione 2.39.4526.362 o versioni successive), è anche possibile eseguire le *previsioni* dal riquadro **Analisi**. È necessario abilitare questa funzionalità di anteprima passando a **File > Opzioni e impostazioni -> Opzioni** quindi selezionando **Funzionalità di anteprima** dal riquadro a sinistra. Per abilitare la funzionalità, selezionare la casella di controllo accanto a **Previsione** come mostrato nella figura seguente. Per rendere effettiva la modifica, è necessario riavviare **Power BI Desktop**.
+## <a name="search-within-the-analytics-pane"></a>Eseguire ricerche all'interno del riquadro Analisi
+A partire dalla versione di febbraio 2018 di **Power BI Desktop** (versione 2.55.5010.201 o versione successiva), è possibile eseguire ricerche all'interno del riquadro **Analisi**, ovvero una sottosezione del riquadro **Visualizzazioni** . Come illustrato nell'immagine seguente, la casella di ricerca viene visualizzata quando si seleziona il riquadro **Analisi**.
 
 ![](media/desktop-analytics-pane/analytics-pane_1b.png)
 

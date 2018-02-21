@@ -3,7 +3,7 @@ title: Connettersi al progetto Madeira con Power BI
 description: Project Madeira per Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Connettersi al progetto "Madeira" con Power BI
 Ottenere informazioni dettagliate sui dati di Project "Madeira" è facile con Power BI e il pacchetto di contenuto Project "Madeira". Power BI recupera i dati, sia di vendita che finanziari, quindi crea un dashboard e dei report predefiniti in base a tali dati.
@@ -47,7 +47,7 @@ Connettersi al [pacchetto di contenuto Project "Madeira"](https://app.powerbi.co
     >[!NOTE]
     >È necessario essere un utente avanzato nel progetto "Madeira".
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Dopo la connessione vengono caricati automaticamente un dashboard, un report e un set di dati. Al termine, i riquadri vengono aggiornati con i dati dell'account.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Quando si sceglie OK, viene creata una chiave che potrà essere copiata nel camp
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Il dashboard di Power BI si basa sui servizi Web pubblicati sopra elencati e visualizza i dati della società dimostrativa o della propria società se si importano i dati dalla corrente soluzione finanziaria. Tuttavia, se si verificano problemi, questa sezione fornisce una soluzione alternativa per i problemi più comuni.
 
-**"La convalida dei parametri non è riuscita. Verificare che tutti i parametri siano validi" ** Se questo errore viene visualizzato dopo aver immesso l'URL di Project "Madeira", verificare che siano soddisfatti i requisiti seguenti:  
+**"La convalida dei parametri non è riuscita. Verificare che tutti i parametri siano validi"**
 
-    - L'URL segue esattamente questo modello: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - Eliminare qualsiasi testo tra parentesi dopo il nome della società  
-    - Verificare che non vi sia la barra finale alla fine dell'URL.  
-    - Assicurarsi che l'URL usi una connessione sicura come indicato dall'URL che inizia con https.  
+Se questo errore viene visualizzato dopo aver immesso l'URL di Project "Madeira", verificare che siano soddisfatti i requisiti seguenti:  
+
+   - L'URL segue esattamente questo modello: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - Eliminare qualsiasi testo tra parentesi dopo il nome della società  
+   - Verificare che non vi sia la barra finale alla fine dell'URL.  
+   - Assicurarsi che l'URL usi una connessione sicura come indicato dall'URL che inizia con https.  
 
 **"Accesso non riuscito"** Se questo errore si verifica quando si accede al dashboard usando le credenziali di Project "Madeira", potrebbe essere stato causato da uno dei problemi seguenti:  
 

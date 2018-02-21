@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -40,7 +40,7 @@ Per ottenere l'accesso al portale di amministrazione di Power BI, l'account deve
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-Nel portale ci sono cinque schede, descritte di seguito.
+All'interno del portale sono disponibili sei schede, descritte di seguito.
 
 * [Metriche di utilizzo](#usage-metrics)
 * [Utenti](#users)
@@ -48,6 +48,7 @@ Nel portale ci sono cinque schede, descritte di seguito.
 * [Impostazioni tenant](#tenant-settings)
 * [Impostazioni Premium](#premium-settings)
 * [Codici di incorporamento](#embed-codes)
+* [Oggetti visivi dell'organizzazione](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Per altre informazioni sulla gestione delle impostazioni Premium, vedere [Gestio
 
 Un amministratore può visualizzare i codici di incorporamento generati per il tenant. Sono disponibili le azioni per la visualizzazione del report e l'eliminazione del codice di incorporamento per rimuoverlo.
 
+## <a name="organization-visuals"></a>Oggetti visivi organizzazione
+
+La scheda Oggetti visivi organizzazione consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione, in modo da poter distribuire facilmente oggetti visivi personalizzati proprietari all'interno dell'organizzazione e consentire agli autori di report di individuare e importare facilmente tali oggetti visivi direttamente da Power BI Desktop nei loro report.
+ 
+La pagina mostra tutti gli oggetti visivi personalizzati attualmente distribuiti nel repository dell'organizzazione.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Aggiungere un nuovo oggetto visivo personalizzato
+
+Per aggiungere un nuovo oggetto visivo personalizzato all'elenco, selezionare **Aggiungi un oggetto visivo personalizzato**
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Un oggetto visivo personalizzato può contenere codice rischioso a livello di sicurezza o privacy. Verificare che l'autore e l'origine dell'oggetto visivo personalizzato siano attendibili prima di distribuirlo nel repository di origine.
+> 
+
+Compilare i campi:
+ 
+* Scegli un file con estensione pbiviz (obbligatorio): selezionare un file di oggetto visivo personalizzato da caricare. Sono supportati solo oggetti visivi personalizzati basati su API con controllo della versione (vedere qui cosa significa).
+Prima di caricare un oggetto visivo personalizzato è necessario controllarne sicurezza e privacy per assicurarsi che sia conforme agli standard della propria organizzazione. Altre informazioni sulla sicurezza degli oggetti visivi personalizzati.
+ 
+* Nome degli oggetti visivi personalizzati (obbligatorio): assegnare un titolo breve all'oggetto visivo in modo gli utenti di Power BI Desktop ne possano comprendere facilmente gli scopi
+ 
+* Icona (obbligatorio): file dell'icona che verrà visualizzata nell'interfaccia utente di Power BI Desktop.
+ 
+* Descrizione: breve descrizione dell'oggetto visivo per fornire più contesto e informazioni utili all'utente
+ 
+Selezionare "Applica" per avviare la richiesta di caricamento. Se ha esito positivo, il nuovo elemento verrà visualizzato nell'elenco. In caso di esito negativo, verrà visualizzato un messaggio di errore appropriato
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Eliminare un oggetto visivo personalizzato dall'elenco
+
+Selezionare l'icona del Cestino per eliminare definitivamente l'oggetto visivo dal repository.
+Importante: l'eliminazione è irreversibile. Una volta eliminato, verrà interrotto immediatamente il rendering dell'oggetto visivo nei report esistenti. Anche se si carica lo stesso oggetto visivo nuovamente, questo non sostituirà quello precedente eliminato. Gli utenti dovranno importare nuovamente il nuovo oggetto visivo e sostituire l'istanza presente nei report.
+ 
+### <a name="how-to-update-a-visual"></a>Come aggiornare un oggetto visivo
+
+Se si desidera aggiornare un oggetto visivo nel repository, perché è disponibile una nuova versione dell'oggetto visivo (ad esempio, correzioni di bug, nuove funzionalità e così via), caricare il nuovo file (assicurarsi che l'ID dell'oggetto visivo rimanga invariato) come nuova voce nell'elenco e assicurarsi di specificare i dettagli corretti nel titolo e nella descrizione (ad esempio, "Oggetto visivo personalizzato v 2.0"). Al successivo accesso al repository dell'organizzazione da Power BI Desktop, gli utenti potranno importare la nuova versione e verrà loro richiesto di sostituire la versione corrente disponibile nei report.
+ 
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md)  

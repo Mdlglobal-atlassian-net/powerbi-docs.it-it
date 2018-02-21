@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: 4ca79e960bc0370789ee735ba6b5391cbb8b110f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 5ebfa2f54c26c0b4c3321120558e1cccb8bce146
+ms.sourcegitcommit: ed49510adee96042c02d6bdadbfcf8a2e566fbf8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/13/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Esportare report da Power BI in PowerPoint (anteprima)
 Con Power BI, è ora possibile pubblicare il report in **Microsoft PowerPoint** e creare facilmente una presentazione basata su un report di Power BI. Quando si **esporta in PowerPoint**, si verifica quanto segue:
@@ -64,6 +64,8 @@ Quando si apre il file di PowerPoint esportato da Power BI, si noteranno alcuni 
 1. La prima pagina della presentazione include il nome del report, nonché un collegamento per poter **visualizzare in Power BI** il report su cui è basata.
 2. Si ottengono anche utili informazioni sul report, inclusi l'*ultimo aggiornamento dei dati* su cui è basato il report esportato e l'ora e la data in cui è stato *scaricato*, cioè l'ora e la data in cui il report di Power BI è stato esportato in un file di PowerPoint.
 3. Ogni pagina del report è una diapositiva separata, come mostrato nel riquadro di spostamento a sinistra.
+4. Il rendering del report pubblicato viene eseguito nella lingua delle impostazioni di Power BI oppure in base alle impostazioni locali del browser. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**. Per altre informazioni, vedere [Lingue e paesi/aree geografiche supportate per Power BI](supported-languages-countries-regions.md).
+5. La presentazione di PowerPoint include una diapositiva di copertina con l'ora dell'esportazione nel fuso orario corretto.
 
 Quando si passa a una singola diapositiva, si noterà che ogni pagina del report è un'immagine indipendente.
 

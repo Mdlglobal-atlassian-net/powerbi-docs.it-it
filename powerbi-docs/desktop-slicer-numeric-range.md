@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop
 Con il **filtro dei dati per l'intervallo numerico**, è possibile applicare qualsiasi filtro a qualsiasi colonna numerica nel modello di dati. Si può decidere di usare il filtro **Tra** su più numeri oppure **Minore o uguale a** o **Maggiore o uguale a** rispetto a un numero. Anche se può sembrare semplice, è un modo molto efficace per filtrare i dati.
@@ -56,6 +56,11 @@ Quando si seleziona **Minore o uguale a**, il punto di controllo a sinistra (val
 Infine, quando si seleziona **Maggiore o uguale a**, il punto di controllo a destra (valore più alto) della barra del dispositivo di scorrimento scompare ed è possibile modificare solo il valore inferiore, come mostrato nell'immagine seguente. A questo punto, negli oggetti visivi nella pagina del report vengono visualizzati solo gli elementi il cui valore *UnitPrice* è superiore o uguale a 750,56.
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Allineamento ai numeri interi con il filtro dei dati per l'intervallo numerico (anteprima)
+
+A partire dalla versione di febbraio 2018 di **Power BI Desktop**, il filtro dei dati per l'intervallo numerico verrà allineato ai numeri interi. In questo modo il filtro dei dati sarà allineato correttamente ai numeri interi. L'allineamento ai numeri interi non si applica ai filtri decimali.
+
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Per il **filtro dei dati per l'intervallo numerico** è opportuno tenere presenti queste limitazioni e considerazioni.

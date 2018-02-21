@@ -16,18 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/03/2018
 ms.author: mihart
-ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: c5776ca5e038a8cab84ab4f225f67f6144afc722
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Sottoscrivere un report o un dashboard di Power BI
-Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. Per il messaggio di posta elettronica e lo snapshot verrà usata la lingua impostata in Impostazioni di Power BI. Se non è definita alcuna lingua, Power BI userà la lingua corrente del browser.
+Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. 
 
-Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**.
+Per il messaggio di posta elettronica e lo snapshot verrà usata la lingua specificata nelle impostazioni di Power BI (vedere [Lingue e paesi/aree geografiche supportate per Power BI](supported-languages-countries-regions.md)). Se non è definita alcuna lingua, Power BI usa la lingua in base alle impostazioni internazionali nel browser corrente. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**. 
 
 ![](media/service-report-subscribe/power-bi-language.png)
 

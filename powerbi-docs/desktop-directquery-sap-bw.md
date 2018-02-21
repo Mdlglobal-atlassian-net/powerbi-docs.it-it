@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 10557146b0b640450779049a30dd8f394686f57a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 8abb327181af031df508f0629cbc09053a9a7927
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery e SAP Business Warehouse (BW)
 È possibile connettersi alle origini dati di **SAP Business Warehouse (BW)** usando direttamente **DirectQuery**. Data la natura OLAP/multidimensionale di SAP BW, esistono numerose differenze importanti tra DirectQuery in SAP BW e le origini relazionali, ad esempio SQL Server. Queste differenze sono riepilogate come segue:
@@ -74,13 +74,9 @@ La tabella seguente elenca tutte le funzionalità di SAP BW che non sono complet
 | Attributi |Non è possibile accedere agli attributi di una caratteristica all'interno di Power BI. |
 | Impostazione della lingua utente finale |Le impostazioni locali usate per connettersi al sistema SAP BW sono impostate come parte dei dettagli della connessione e non riflettono le impostazioni locali dell'utente del report finale. |
 | Variabili di testo |SAP BW consente di includere segnaposto per le variabili nei nomi di campo (ad esempio, "Valori effettivi $ANNO$") che verranno quindi sostituiti dal valore selezionato. Ad esempio, il campo viene visualizzato come "Valori effettivi 2016" negli strumenti BEX, se è stato selezionato l'anno 2016 per la variabile. <br/> <br/> Il nome della colonna in Power BI non verrà modificato a seconda del valore della variabile e quindi verrà visualizzato come "Valori effettivi $ANNO$".  Tuttavia, il nome della colonna potrà quindi essere modificato in Power BI. |
+| Variabili di uscita cliente | Le variabili di uscita cliente non sono esposte dall'API pubblica e pertanto non sono supportate da Power BI. |
+| Strutture di caratteristiche | Qualsiasi struttura di caratteristiche nell'origine SAP BW sottostante genererà l'esposizione di un'esplosione di misure in Power BI. Ad esempio, con due misure Vendite e Costi e una struttura di caratteristiche che contiene Budget ed Effettivo, verranno esposte quattro misure: Vendite.Budget, Vendite.Effettivo, Costi.Budget, Costi.Effettivo. |
 
-## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-La tabella seguente elencate le limitazioni della versione beta del connettore di SAP BW.
-
-| Limitazione | Descrizione |
-| --- | --- |
-| Nessun aggiornamento |Il pulsante Aggiorna è disabilitato e non è possibile aggiornare gli oggetti visivi/i metadati. |
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni su DirectQuery, vedere le risorse seguenti:
