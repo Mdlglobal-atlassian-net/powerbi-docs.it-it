@@ -3,7 +3,7 @@ title: Connettersi a Marketo con Power BI
 description: Marketo per Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Connettersi a Marketo con Power BI
 Il pacchetto di contenuto Marketo per Power BI consente di ottenere informazioni dettagliate sull'account Marketo, con dati relativi ai lead e alle rispettive attività. La creazione di questa connessione consente di recuperare i dati e fornisce automaticamente un dashboard e i report correlati basati su tali dati.

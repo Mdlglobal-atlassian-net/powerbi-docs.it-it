@@ -3,7 +3,7 @@ title: Pacchetto di contenuto Servizio di controllo del database SQL
 description: Pacchetto di contenuto Servizio di controllo del database SQL per Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
-ms.author: yshoukry
-ms.openlocfilehash: a2faefa9ebd62ef50e530dcad91482918f94d6d2
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: 70b8eea066b7d3b37b1508c83082cbc82e0949aa
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pacchetto di contenuto Servizio di controllo del database SQL per Power BI
 Il pacchetto di contenuto Power BI per il [servizio di controllo del database SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) di Azure consente di comprendere l'attività del database e di ottenere informazioni su discrepanze e anomalie che potrebbero indicare problemi aziendali o possibili violazioni della sicurezza. 
@@ -59,7 +59,7 @@ Connettersi al [pacchetto di contenuto Servizio di controllo del database SQL](h
    - Immettere la data di fine dei log di controllo a cui si è interessati. Immettere "\*" per caricare i log di controllo senza un limite di tempo superiore.
    
    ![](media/service-connect-to-azure-sql-database-auditing/dbauditing_param.png)
-5. Per Metodo di autenticazione selezionare **Chiave**, immettere il valore di **Chiave account** \> **Accedi**.
+5. In Metodo di autenticazione selezionare **Chiave**, immettere il valore di **Chiave account** \> **Accedi**.
    
    ![](media/service-connect-to-azure-sql-database-auditing/pbi_sqlauditing3.png)
 6. Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento sinistro vengono visualizzati il nuovo dashboard, il nuovo report e il nuovo set di dati. I nuovi elementi sono contrassegnati con un asterisco giallo \*.
