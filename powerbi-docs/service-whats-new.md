@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/07/2018
 ms.author: nikhilga
-ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Get started
+ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
 In questa pagina sono disponibili informazioni sui problemi noti e sulle funzionalità rilasciate di recente nel **servizio Power BI**. per le relative informazioni incluse nelle "Novità", vedere:
@@ -633,7 +634,7 @@ Per altre informazioni, vedere il [blog](http://blogs.msdn.com/b/powerbi/archive
 
 * I dashboard **GitHub** hanno nuovi oggetti visivi focalizzati sulla creazione della community, sul miglioramenti del calcolo e sul miglioramento del layout
 * I dashboard **SendGrid** hanno nuovi oggetti visivi e un nuovo layout che consentono di trovare informazioni migliori
-* Ora è possibile usare **grafici ad albero in Domande e risposte** usando la frase "come grafico ad albero" alla fine della query
+* È ora possibile usare **grafici ad albero in Domande e risposte** usando la frase 'come grafico ad albero' alla fine della query
 * È ora possibile **aggiungere mappe ad albero** da Domande e risposte e dai report 
 * Molte correzioni di bug
 

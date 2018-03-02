@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 97c8f3f74bea0629107b68b9e42a4a449863b066
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 54a12f7e3b2ecee65701ca6c629d078ad7b9c0c9
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi delle vendite al dettaglio
 
@@ -31,7 +32,7 @@ Questo dashboard di esempio del settore, unitamente al report sottostante, conse
 
 ## <a name="prerequisites"></a>Prerequisiti
 
- Prima di poter usare l'esempio, è necessario scaricarlo come pacchetto di contenuto, file con estensione pbix o cartella di lavoro di Excel.
+ Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di contenuto](https://docs.microsoft.com/en-us/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [file con estensione pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) o [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
 
@@ -166,7 +167,8 @@ Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di
 La presentazione ha tentato di mostrare il modo in cui i dashboard, la casella Domande e risposte e i report di Power BI possono fornire analisi approfondite dei dati del settore della vendita al dettaglio. È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Scaricare il pacchetto di contenuto dell'esempio di analisi delle vendite al dettaglio](sample-tutorial-connect-to-the-samples.md)    
+* [Scaricare il pacchetto di contenuto dell'esempio di analisi delle vendite al dettaglio](sample-tutorial-connect-to-the-samples.md)
+* [Scaricare un file zip di tutti i file di esempio](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Scaricare la cartella di lavoro di Excel per questo esempio di Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Recuperare dati per Power BI](service-get-data.md)    
 * [Power BI - Concetti di base](service-basic-concepts.md)    
