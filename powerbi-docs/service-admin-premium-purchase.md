@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
 ms.author: maghan
-ms.openlocfilehash: c24d1d973870fc0d50dc95cc1a8822487cd51091
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Premium
+ms.openlocfilehash: d80954599b866ff2f1d03d34a7e8e021d1be215b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
 Informazioni sull'acquisto della capacità Premium di Power BI per l'organizzazione.
@@ -88,7 +89,7 @@ Nella sezione **Impostazioni Premium** del portale di amministrazione di Power B
 4. Modificare il numero di istanze che si desidera avere per questo elemento. Selezionare quindi **Invia** al termine.
    
    > [!IMPORTANT]
-   > Se si seleziona **Invia**, verranno accreditati i costi sulla carta di credito inserita.
+   > In questo modo **verranno** accreditati i costi sulla carta di credito inserita.
    > 
    > 
 

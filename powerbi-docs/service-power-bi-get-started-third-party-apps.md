@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: a74254653f5105a6afd1a5f25e1c7228f5fcc0e9
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Get started
+ms.openlocfilehash: 1d1204c15e7f9cc0dae7685eae959ef2018b634a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="get-started-with-third-party-apps"></a>Introduzione ad app di terze parti
 Con Power BI, è possibile usare un'app creata da una società o da un utente diverso da Microsoft. Ad esempio, è possibile usare un’app di terze parti che integra i riquadri di Power BI in un'applicazione Web creata personalizzata. Quando si usa un'app di terze parti, viene richiesto di concedere a tale applicazione determinate autorizzazioni per l'account Power BI e le risorse. È importante concedere le autorizzazioni solo alle applicazioni conosciute e attendibili. Le autorizzazioni per un'applicazione possono essere revocate in qualsiasi momento. Vedere [Revocare le autorizzazioni di app di terze parti](#revoke).

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrare l'organizzazione governativa statunitense al servizio Power BI
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione a pagamento del **servizio Power BI**.
@@ -45,12 +46,14 @@ Se l'organizzazione è un nuovo cliente di **Office Government Cloud**, seguire 
 
 > [!NOTE]
 > La procedura deve essere effettuata dall'amministratore del portale.
-> 
-> 
+>
 
-1. Andare a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government). 
-    >[!NOTE]
-    >Se non si vuole effettuare l'iscrizione a Office Government Cloud al momento, contattare il rappresentante di vendita.
+1. Andare a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+
+>[!NOTE]
+>Se non si vuole effettuare l'iscrizione a Office Government Cloud al momento, contattare il rappresentante di vendita.
+>
+
 2. Selezionare Office G3 e completare il modulo per una versione di valutazione di Office
 3. Quando si è clienti di Office Cloud continuare con la procedura riportata di seguito per "Clienti di Office Government Cloud esistenti"
 
