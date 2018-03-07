@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: 400fa6aa16f77da60a912bcd6c45665f880d8afd
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Governance e approcci alla distribuzione
 Negli ultimi decenni, le aziende sono diventate sempre più consapevoli della necessità di sfruttare in modo strategico gli asset di dati per sfruttare le opportunità del mercato. Grazie ad analisi della concorrenza o a una maggiore comprensione dei modelli operativi, molte organizzazioni ora sanno quanto sia importante poter contare su una strategia per i dati come strumento per collocarsi un passo avanti rispetto alla concorrenza.  

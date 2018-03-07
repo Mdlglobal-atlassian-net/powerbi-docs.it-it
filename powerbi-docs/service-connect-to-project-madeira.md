@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Connettersi al progetto "Madeira" con Power BI
 Ottenere informazioni dettagliate sui dati di Project "Madeira" è facile con Power BI e il pacchetto di contenuto Project "Madeira". Power BI recupera i dati, sia di vendita che finanziari, quindi crea un dashboard e dei report predefiniti in base a tali dati.
@@ -106,8 +107,8 @@ Se questo errore viene visualizzato dopo aver immesso l'URL di Project "Madeira"
 
 **"Accesso non riuscito"** Se questo errore si verifica quando si accede al dashboard usando le credenziali di Project "Madeira", potrebbe essere stato causato da uno dei problemi seguenti:  
 
-    - L'account in uso non ha le autorizzazioni per leggere i dati di Project "Madeira" dall'account. Verificare l'account utente in Project "Madeira", assicurarsi che sia stata usata la chiave di accesso al servizio Web giusta come password e riprovare.  
-    - L'istanza di Project "Madeira" a cui si sta provando a connettersi non ha un certificato SSL valido. In questo caso, verrà visualizzato un messaggio di errore più dettagliato (ad esempio, "Impossibile stabilire relazione SSL attendibile"). Si noti che i certificati autofirmati non sono supportati.  
+   - L'account in uso non ha le autorizzazioni per leggere i dati di Project "Madeira" dall'account. Verificare l'account utente in Project "Madeira", assicurarsi che sia stata usata la chiave di accesso al servizio Web giusta come password e riprovare.  
+   - L'istanza di Project "Madeira" a cui si sta provando a connettersi non ha un certificato SSL valido. In questo caso, verrà visualizzato un messaggio di errore più dettagliato (ad esempio, "Impossibile stabilire relazione SSL attendibile"). Si noti che i certificati autofirmati non sono supportati.  
 
 **"Si è verificato un errore"** Se viene visualizzata una finestra di dialogo di errore dopo aver passato la finestra di dialogo di autenticazione, più di frequente è causata da un problema di connessione ai dati per il pacchetto di contenuto. Verificare che l'URL segua il modello specificato in precedenza:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Società('*CRONUS%20US*')

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
 ms.author: maghan
-ms.openlocfilehash: c2b0f2fab2b9ccd2540ad45d6156ce9547513deb
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Data from databases
+ms.openlocfilehash: 0eade5942b65985cf704709ea88870a2352b07c0
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark in HDInsight con DirectQuery
 Spark in Azure HDInsight con DirectQuery consente di creare report dinamici basati su dati e metriche già presenti nel cluster di Spark. Con DirectQuery le query vengono inviate nuovamente al cluster Spark di Azure HDInsight durante l'esplorazione dei dati nella visualizzazione report. Si tratta di un'esperienza consigliata per gli utenti che hanno familiarità con le entità cui si connettono.

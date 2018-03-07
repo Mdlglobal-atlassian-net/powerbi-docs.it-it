@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+LocalizationGroup: Gateways
+ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 Questo articolo illustra alcuni problemi comuni che possono verificarsi quando si usa il **gateway dati locale**.
@@ -173,7 +174,7 @@ Questo problema può essere dovuto ad alcuni scenari diversi.
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Errore: La quantità di dati non compressi ricevuti nel client del gateway ha superato il limite.
 La limitazione esatta è di 10 GB di dati non compressi per ogni tabella. Se si verifica questo problema, ci sono buone opzioni per ottimizzare ed evitare il problema. In particolare, aiuta ridurre l'uso di valori stringa lunghi e molto ripetitivi, usando invece una chiave normalizzata o rimuovendo la colonna (se non usata).
 
-## <a name="reports"></a>Relazioni
+## <a name="reports"></a>Report
 ### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Il report non è riuscito ad accedere all'origine dati perché non si ha accesso all’origine dati tramite un gateway dati locale.
 Questo è in genere dovuto a uno dei motivi seguenti.
 

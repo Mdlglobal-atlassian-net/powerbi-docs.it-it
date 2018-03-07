@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: da4f81f1c97477f7e141c90bb841b6dcb7bb092c
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagire con un report nella visualizzazione di modifica nel servizio Power BI
 I report possono essere modificati nel servizio Power BI e in Power BI Desktop se sono disponibili le autorizzazioni di proprietario. A differenza da Power BI Desktop, il servizio Power BI offre due modi diversi per interagire con i report, ovvero la [Visualizzazione di lettura](service-reading-view-and-editing-view.md) per i *consumer* dei report e la Visualizzazione di modifica per i proprietari e gli autori dei report. L'esercitazione disponibile in questo articolo illustra la visualizzazione di modifica nel servizio Power BI. 

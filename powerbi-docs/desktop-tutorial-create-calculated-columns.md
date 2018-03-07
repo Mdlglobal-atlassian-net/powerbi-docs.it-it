@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ea93980a095ca4e626b6f8071d044448af59635
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Learn more
+ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Esercitazione: Creare colonne calcolate in Power BI Desktop
 Talvolta i dati analizzati non contengono un campo specifico necessario per ottenere i risultati desiderati. In questo caso, è utile usare le colonne calcolate. Le colonne calcolate usano formule DAX (Data Analysis Expressions) per definire i valori di una colonna. Tali valori possono essere di qualsiasi tipo, ad esempio la combinazione di valori di testo di due diverse colonne in un'altra posizione nel modello o il risultato del calcolo di un valore numerico a partire da altri valori. Si immagini, ad esempio, che nei dati siano presenti le colonne Città e Stato (come campi nell'elenco dei campi) ma si voglia un unico campo, Località, che includa entrambi come singolo valore, ad esempio Miami, FL. Le colonne calcolate servono esattamente per questo scopo.

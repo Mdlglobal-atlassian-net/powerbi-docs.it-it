@@ -7,6 +7,7 @@
 | Cartella |No |Sì |
 | IBM DB2 |No |Sì |
 | Database Informix IBM |No |Sì |
+| IBM Netezza |Sì |Sì |
 | Impala |Sì |Sì |
 | MySQL |No |Sì |
 | OData |No |Sì |
