@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/02/2018
 ms.author: maghan
 LocalizationGroup: Get started
-ms.openlocfilehash: ccd3a42a6cbcc716683b6da536ca2ecdacc11aaf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Iscrizione a Power BI come utente singolo
 Informazioni su come iscriversi a Power BI e iniziare a usarlo per le proprie esigenze personali di creazione e visualizzazione di report.
@@ -40,23 +40,24 @@ Come utente singolo, è possibile scegliere varie opzioni per iscriversi e inizi
 
 > [!NOTE]
 > Se si lavora in un'organizzazione, l'iscrizione come utente singolo potrebbe essere disabilitata. Per maggiori informazioni, nel caso in cui venga visualizzato un messaggio di errore in merito, vedere [Iscrizione utente singolo disabilitata](#individual-sign-up-has-been-turned-off).
-> 
-> 
+>
 
-## <a name="what-you-need-to-sign-up"></a>Cosa è necessario per l'iscrizione
-Per iscriversi a Power BI, è necessario un indirizzo di posta elettronica aziendale. Non è possibile usare un indirizzo di posta elettronica personale con il servizio Power BI.
+## <a name="what-you-need-to-sign-up"></a>Che cosa è necessario per l'iscrizione?
 
-<a name="what-email-address-can-be-used-with-power-bi"/>
+Per effettuare l'iscrizione a Power BI è necessario un indirizzo di posta elettronica aziendale. Un indirizzo di posta elettronica personale non funziona per l'iscrizione a Power BI.
 
 ### <a name="what-email-address-can-be-used-with-power-bi"></a>Quale indirizzo di posta elettronica può essere usato con Power BI?
-Per iscriversi, Power BI richiede l'uso di un indirizzo di posta elettronica dell'azienda o della scuola. Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o dai servizi di posta elettronica commerciali, tra cui outlook.com, hotmail.com, gmail.com e altri.
+Per iscriversi, Power BI richiede l'uso di un indirizzo di posta elettronica dell'azienda o della scuola. Non è possibile effettuare l'iscrizione a Power BI con indirizzi di posta elettronica forniti da provider di telecomunicazioni o da servizi di posta elettronica commerciali, tra cui outlook.com, hotmail.com, gmail.com e altri.
 
 Se si tenta di effettuare l'iscrizione con un indirizzo di posta elettronica personale, verrà visualizzato un messaggio che indica di specificare un indirizzo di posta elettronica di un'azienda o di un istituto scolastico.
 
 > [!NOTE]
-> Attualmente Power BI non supporta l'iscrizione in modalità self-service per gli indirizzi .gov o .mil. Contattare l'amministratore di Office 365.
-> 
-> 
+> È possibile effettuare l'iscrizione a Power BI con indirizzi .gov o .mil. Per altre informazioni, vedere [Registrare l'organizzazione governativa statunitense al servizio Power BI](https://docs.microsoft.com/en-us/power-bi/service-govus-signup).
+>
+
+> [!NOTE]
+> Dopo l'iscrizione è possibile [invitare utenti guest](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) alla visualizzazione di contenuti nel tenant di Power BI con qualsiasi indirizzo di posta elettronica, inclusi gli account personali.
+>
 
 ## <a name="which-one-do-you-need"></a>Quale opzione scegliere
 È possibile determinare l'opzione più adatta esaminando ciò che viene fornito con ciascun tipo di licenza. Gli utenti con account gratuito possono accedere alla maggior parte delle funzionalità dei servizi, ad eccezione di quelle di condivisione e collaborazione. Gli utenti Power BI Pro possono utilizzare tutte le funzionalità del servizio, ma non gratuitamente. Se non si ha l'esigenza di condividere contenuti, la versione gratuita è probabilmente la scelta migliore. Altre informazioni sono riportate nella [pagina Power BI Pricing (Prezzi di Power BI)](https://powerbi.microsoft.com//pricing/).
@@ -141,7 +142,7 @@ In molti casi, la registrazione a Power BI può essere eseguita tramite il sempl
 
 | **Sintomo/Messaggio di errore** | **Causa e soluzione** |
 | --- | --- |
-| **Indirizzi di posta elettronica personali (ad esempio nancy@gmail.com)** Durante l'iscrizione viene visualizzato un messaggio analogo al seguente: <br /><br /> *Hai specificato un indirizzo di posta elettronica personale. Immetti il tuo indirizzo aziendale e potremo archiviare i dati della tua società in tutta sicurezza.* <br /><br /> oppure <br /><br /> *L'indirizzo di posta elettronica specificato sembra essere di tipo personale. Immettere l'indirizzo aziendale per poter entrare in contatto con altre persone nell'organizzazione. Questo L'indirizzo non verrà condiviso con nessuno.* |Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o di servizi di posta elettronica commerciali. <br /><br /> Per completare l'iscrizione, riprovare usando un indirizzo di posta elettronica assegnato dall'azienda o dall'istituto di istruzione. <br /><br /> Se non si riesce comunque a effettuare l'iscrizione e si è disposti a eseguire un processo di configurazione più avanzato, [richiedere un nuovo abbonamento di valutazione a Office 365 e usare tale indirizzo di posta elettronica per l'iscrizione](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+| **Indirizzi di posta elettronica personali (ad esempio nancy@gmail.com)** Durante l'iscrizione viene visualizzato un messaggio analogo al seguente: <br /><br /> *Hai specificato un indirizzo di posta elettronica personale. Immetti il tuo indirizzo aziendale e potremo archiviare i dati della tua società in tutta sicurezza.* <br /><br /> oppure <br /><br /> *L'indirizzo di posta elettronica specificato sembra essere di tipo personale. Immettere l'indirizzo aziendale per poter entrare in contatto con altre persone nell'organizzazione. Questo L'indirizzo non verrà condiviso con nessuno.* |Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o di servizi di posta elettronica commerciali. <br /><br /> Per completare l'iscrizione, riprovare usando un indirizzo di posta elettronica assegnato dall'azienda o dall'istituto di istruzione. <br /><br /> Se non si riesce comunque a effettuare l'iscrizione e si è disposti a eseguire un processo di configurazione più avanzato, [richiedere un nuovo abbonamento di valutazione a Office 365 e usare tale indirizzo di posta elettronica per l'iscrizione](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Richiedere che l'account utente sia invitato come [guest Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b). |
 | **Iscrizione in modalità self-service disabilitata** Durante l'iscrizione viene visualizzato un messaggio analogo al seguente: <br /><br /> *Non è possibile completare l'iscrizione. Il reparto IT ha disattivato l'iscrizione per Microsoft Power BI. Contattarli per completare l'iscrizione.* <br /><br /> oppure <br /><br /> *L'indirizzo di posta elettronica specificato sembra essere di tipo personale. Immettere l'indirizzo aziendale per poter entrare in contatto con altre persone nell'organizzazione. Questo L'indirizzo non verrà condiviso con nessuno.* |L'amministratore IT dell'organizzazione ha disabilitato l'iscrizione a Power BI in modalità self-service. <br /><br /> Per completare l'iscrizione, contattare l'amministratore IT e chiedergli di seguire le istruzioni nella pagina indicata di seguito per consentire agli utenti esistenti di iscriversi a Power BI e ai nuovi utenti di aggiungersi al tenant esistente. <br/><br/> Questo problema può verificarsi anche se è stata effettuata l'iscrizione a Office 365 tramite un partner. [Altre informazioni](service-admin-syndication-partner.md) <br /><br /> [Power BI nell'organizzazione](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
 | **L'indirizzo di posta elettronica non è un ID di Office 365** Durante l'iscrizione viene visualizzato un messaggio analogo al seguente: <br /><br /> *Non è stato trovato l'ID in contoso.com.  Si usa un ID diverso al lavoro o a scuola? <br /><br /> Provare ad accedere con quello. Se non funziona, contattare il reparto IT.* |Gli ID usati dall'organizzazione per accedere a Office 365 e altri servizi Microsoft sono diversi rispetto al proprio indirizzo di posta elettronica.  Ad esempio, è possibile che il proprio indirizzo di posta elettronica sia Nancy.Smith@contoso.com mentre l'ID è nancys@contoso.com. <br /><br /> Per completare l'iscrizione, usare l'ID assegnato dall'organizzazione per l'accesso a Office 365 o ad altri servizi Microsoft.  Se non si conosce questo ID, contattare l'amministratore IT. <br /><br /> Se non si riesce comunque a effettuare l'iscrizione e si è in grado di eseguire un processo di configurazione più avanzato, [richiedere un nuovo abbonamento di valutazione a Office 365 e usare tale indirizzo di posta elettronica per l'iscrizione](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
