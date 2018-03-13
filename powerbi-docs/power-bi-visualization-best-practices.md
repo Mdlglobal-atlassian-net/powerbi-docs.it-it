@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Procedure consigliate per la progettazione di report e oggetti visivi
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Per gli sfondi delle pagine dei report scegliere colori che non mettano in secon
 
 L'obiettivo non è creare un'opera d'arte, ma un report funzionale. Scegliere un colore in grado di migliorare la leggibilità e mettere in risalto gli elementi del report.  
 
-Da uno studio condotto sull'uso del colore e delle visualizzazioni nelle pagine Web risulta che un maggiore contrasto tra i colori velocizza la comprensione (*The effect of text and background colour on visual search of Web pages** [Effetto del colore di testo e sfondo sulla ricerca visiva di pagine Web] e **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics* [Determinazione della percezione degli utenti della complessità visiva e delle caratteristiche estetiche delle pagine Web]).
+Da uno studio condotto sull'uso del colore e delle visualizzazioni nelle pagine Web risulta che un maggiore contrasto tra i colori velocizza la comprensione (The effect of text and background colour on visual search of Web pages [Effetto del colore di testo e sfondo sulla ricerca visiva di pagine Web] e **Determining Users' Perception of Web Page Visual Complexity and Aesthetic Characteristics** [Determinazione della percezione degli utenti della complessità visiva e delle caratteristiche estetiche delle pagine Web]).
 
 Alcune procedure consigliate relative al colore sono state applicate al report di esempio di seguito (figure 20 e 21). Il cambiamento più significativo è l'impostazione del nero come colore di sfondo.  Il colore giallo era troppo brillante e stancante per gli occhi.  Nel grafico "Count of athlete name by year and class" (Conteggio degli atleti per anno e per classe), inoltre, la parte gialla delle barre scompariva sullo sfondo giallo.  Usando uno sfondo nero (o bianco) si ottiene il massimo contrasto e gli oggetti visivi diventano l'elemento focale.
 

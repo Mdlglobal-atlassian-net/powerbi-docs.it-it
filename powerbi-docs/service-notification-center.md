@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-notifications"></a>Notifiche di Power BI
 Il centro notifiche è un feed sequenziale di informazioni relative all'esperienza utente di Power BI. Contiene messaggi sui nuovi dashboard condivisi con l'utente, sulle modifiche apportate allo spazio del gruppo, sulle informazioni relative a eventi e riunioni di Power BI, sugli avvisi impostati e altro ancora. È possibile [impostare gli avvisi nel servizio Power BI](service-set-data-alerts.md) e anche nelle app per dispositivi mobili di Power BI.
@@ -34,13 +35,13 @@ Il video seguente mostra come esaminare le notifiche ricevute, gestirle e inviar
 
 1. Quando si accede a Power BI, al feed vengono aggiunte le nuove notifiche inviate all'utente mentre era offline. Se sono presenti nuove notifiche, Power BI mostra una bolla gialla con il numero di nuovi elementi.
    
-   ![](media/service-notification-center/power-bi-new-notification.png)
+   ![Icona di nuova notifica](media/service-notification-center/power-bi-new-notification.png)
 2. Sulla barra dei menu di Power BI selezionare l'icona delle notifiche.
    
-   ![](media/service-notification-center/power-bi-notifications-icon.png)
+   ![Barra dei menu superiore con l'icona Notifiche selezionata](media/service-notification-center/power-bi-notifications-icon.png)
 3. Le notifiche vengono visualizzate a partire dalla più recente e con i messaggi non letti evidenziati. Le notifiche vengono conservate per 90 giorni, a meno che non vengano eliminate o che non si raggiunga il limite massimo di 100.
    
-   ![](media/service-notification-center/power-bi-notifications.png)
+   ![Centro notifiche](media/service-notification-center/power-bi-notifications.png)
 4. Per eliminare una notifica, selezionare l'icona X.
 
 ### <a name="next-steps"></a>Passaggi successivi

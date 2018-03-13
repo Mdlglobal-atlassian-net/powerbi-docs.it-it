@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Spostamento: ricerca e ordinamento del contenuto nel servizio Power BI
 Sono disponibili vari modi per spostarsi all'interno del contenuto nel servizio Power BI. Nelle aree di lavoro il contenuto è organizzato in base al tipo: dashboard, report, cartelle di lavoro e set di dati.  Il contenuto è anche organizzato in base all'utilizzo: Preferiti, recenti, app, condivisi con l'utente corrente e in primo piano. Questi percorsi diversi per il contenuto consentono di trovare rapidamente ciò che serve nel servizio Power BI.  
@@ -34,26 +34,26 @@ Sono disponibili vari modi per spostarsi all'interno del contenuto nel servizio 
 
 Il servizio Power BI separa il contenuto dell'area di lavoro in base al tipo: dashboard, report, cartelle di lavoro e set di dati. Alla selezione di un'area di lavoro, verrà visualizzata questa organizzazione. Nell'esempio seguente, l'area di lavoro delle app è denominata "Sales and marketing app sample" e contiene 2 dashboard, 6 report, 1 cartella di lavoro e 5 set di dati.
 
-![](media/service-navigation-search-filter-sort/workspaces.gif)
+![Video](media/service-navigation-search-filter-sort/workspaces.gif)
 
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Ricerca e ordinamento nelle aree di lavoro
 Un'area di lavoro include quattro schede di contenuto: Dashboard, Report, Cartelle di lavoro e Set di dati.  Ciascuna di queste schede contiene un campo di ricerca e un pulsante di ordinamento.  Quando si inizia a usare il servizio Power BI, potrebbero non risultare utili perché ci saranno solo uno o due elementi per ogni scheda.  Tuttavia, nel corso del tempo si potrebbero avere lunghi elenchi di contenuto.  Usare la ricerca e l'ordinamento per trovare facilmente le informazioni necessarie.
 
-![](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
+![Scheda Dashboard](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 
 * Immettere un termine di ricerca per trovare una corrispondenza nella schermata corrente
   
-   ![](media/service-navigation-search-filter-sort/power-bi-search2.png)
+   ![Immettere il termine di ricerca](media/service-navigation-search-filter-sort/power-bi-search2.png)
 * Selezionare il pulsante di ordinamento per visualizzare le opzioni per la pagina corrente. Le opzioni sono da ordinare in base al nome o al proprietario.
   
-   ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
+   ![Menu di ordinamento](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
 ## <a name="navigation-using-the-left-navbar"></a>Spostamento con la barra di spostamento sinistra
-La barra di spostamento a sinistra classifica i contenuti in modo che sia ancora più semplice trovare le informazioni necessarie, rapidamente.  
+Il riquadro di spostamento a sinistra classifica i contenuti in modo che sia ancora più semplice trovare le informazioni necessarie, rapidamente.  
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+![Riquadro di spostamento a sinistra](media/service-navigation-search-filter-sort/power-bi-newnav.png)
 
 
 
@@ -61,7 +61,7 @@ Il contenuto creato per uso personale è disponibile nell'**Area di lavoro perso
 
 È anche possibile contrassegnare il contenuto come [preferito](service-dashboard-favorite.md) e [in primo piano](service-dashboard-featured.md). Scegliere un dashboard che si prevede di visualizzare più spesso e impostarlo come dashboard *in primo piano*. Ogni volta che si apre il servizio Power BI, sarà il dashboard che verrà visualizzato per primo. Se si visitano spesso determinati dashboard e app, è possibile impostarli come preferiti in modo che siano sempre disponibili nel riquadro di spostamento a sinistra.
 
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
+![Riquadro a comparsa Preferiti](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi

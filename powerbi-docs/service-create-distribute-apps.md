@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Creare e pubblicare app con dashboard e report in Power BI
 
@@ -94,7 +95,7 @@ Per impostazione predefinita, Power BI crea un cerchietto colorato per l'app, co
      ![Immagine personalizzata](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Pubblicare l'app
-Quando i dashboard e i report nell'area di lavoro per le app sono pronti, è possibile pubblicarli come un'app. Tenere presente che non è necessario pubblicare tutti i report e i dashboard nell'area di lavoro. È possibile pubblicare solo quelli che sono pronti. 
+Quando i dashboard e i report nell'area di lavoro per le app sono pronti, è possibile pubblicarli come un'app. Tenere presente che non è necessario pubblicare tutti i report e i dashboard nell'area di lavoro. È possibile pubblicare solo quelli che sono pronti.
 
 1. Nella visualizzazione elenco dell'area di lavoro, decidere quali dashboard e report si vogliono includere nell'app.
 
@@ -104,23 +105,23 @@ Quando i dashboard e i report nell'area di lavoro per le app sono pronti, è pos
 
      ![Avviso sul dashboard correlato](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Selezionare il pulsante **Pubblica app** in alto a destra per avviare il processo di condivisione di tutto il contenuto nell'area di lavoro.
+2. Selezionare il pulsante **Pubblica app** in alto a destra per avviare il processo di condivisione di tutto il contenuto nell'area di lavoro.
    
      ![Pubblica app](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. In **Dettagli** inserire la descrizione per aiutare gli utenti a trovare l'app. È possibile impostare un colore di sfondo per personalizzarla.
+3. In **Dettagli** inserire la descrizione per aiutare gli utenti a trovare l'app. È possibile impostare un colore di sfondo per personalizzarla.
    
      ![Dettagli dell'app](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. In **Contenuto** viene visualizzato il contenuto che verrà pubblicato come parte dell'app, ossia tutto il contenuto selezionato in tale area di lavoro. È anche possibile impostare la pagina di destinazione dell'app, cioè il dashboard o il report che gli utenti vedranno per primo quando accedono all'app. È possibile scegliere **Nessuno**: in tal modo, verrà visualizzato per primo un elenco dell'intero contenuto dell'app. 
+4. In **Contenuto** viene visualizzato il contenuto che verrà pubblicato come parte dell'app, ossia tutto il contenuto selezionato in tale area di lavoro. È anche possibile impostare la pagina di destinazione dell'app, cioè il dashboard o il report che gli utenti vedranno per primo quando accedono all'app. È possibile scegliere **Nessuno**: in tal modo, verrà visualizzato per primo un elenco dell'intero contenuto dell'app. 
    
      ![Contenuto dell'app](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. In **Accesso** decidere chi avrà accesso all'app, ovvero tutti gli utenti dell'organizzazione, utenti specifici oppure gruppi di sicurezza di Active Directory. Se si hanno le opportune autorizzazioni, è possibile decidere di installare automaticamente l'app per i destinatari.
+5. In **Accesso** decidere chi avrà accesso all'app, ovvero tutti gli utenti dell'organizzazione, utenti specifici oppure gruppi di sicurezza di Active Directory. Se si hanno le opportune autorizzazioni, è possibile decidere di installare automaticamente l'app per i destinatari. È possibile abilitare questa impostazione nel [portale di amministrazione di Power BI](#how-to-enable-pushing-apps). Esistono altre considerazioni da fare sul [push di un'app](#how-to-enable-pushing-apps).
 
     ![Accesso all'app](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Quando si seleziona **Fine**, viene visualizzato un messaggio che conferma che l'app è pronta per la pubblicazione. Nella finestra di dialogo di operazione completata è possibile copiare l'URL, ossia il collegamento diretto a questa app, e inviarlo alle persone con cui è stata condivisa.
+6. Quando si seleziona **Fine**, viene visualizzato un messaggio che conferma che l'app è pronta per la pubblicazione. Nella finestra di dialogo di operazione completata è possibile copiare l'URL, ossia il collegamento diretto a questa app, e inviarlo alle persone con cui è stata condivisa.
    
      ![Fine dell'app](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Dopo aver pubblicato l'app, si potrebbe volerla modificare o aggiornare. È faci
    
      L'area di lavoro per le app è l'area di gestione temporanea personale, quindi il push delle modifiche nell'app non viene eseguito in tempo reale fino a quando non si pubblica di nuovo. Ciò consente di apportare modifiche senza influire sulle app pubblicate.  
  
-1. Tornare all'elenco di contenuti dell'area di lavoro per le app e selezionare **Aggiorna app**.
+3. Tornare all'elenco di contenuti dell'area di lavoro per le app e selezionare **Aggiorna app**.
    
      ![Pulsante Aggiorna app](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Dopo aver pubblicato l'app, si potrebbe volerla modificare o aggiornare. È faci
      ![Pulsante Aggiorna app](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 Le persone per cui è stata pubblicata l'app visualizzano automaticamente la versione aggiornata dell'app. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Installare automaticamente le app per gli utenti finali
+È possibile installare automaticamente le app per gli utenti finali, per poter distribuire più facilmente le app corrette alle persone o ai gruppi corretti.
+
+Le app forniscono agli utenti finali i dati necessari per lavorare. È ora possibile installare automaticamente queste app nell'elenco di contenuti App invece che trovarle da Microsoft AppSource o seguendo un collegamento di installazione. In questo modo sarà più semplice implementare il contenuto di Power BI standard per gli utenti.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Come installare automaticamente un'app per gli utenti finali
+Dopo che l'amministratore ha abilitato la funzionalità, gli autori delle app hanno a disposizione una nuova opzione per **installare l'app automaticamente**. Quando la casella è ***selezionata*** e l'autore dell'applicazione seleziona **Fine** (o **Aggiorna app**, per le app esistenti), verrà effettuato il push dell'app a tutti gli utenti o gruppi definiti nella sezione **Autorizzazioni** dell'app nella scheda **Accesso**.
+
+![Abilitare il push delle app](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>Come gli utenti possono recuperare le app di cui è stato effettuato il push
+Un'app, dopo che ne è stato effettuato il push, viene automaticamente visualizzata nell'elenco App. È possibile curare le app che un ruolo utente o un ruolo nell'organizzazione deve avere a portata di mano.
+
+![Abilitare il push delle app](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Considerazioni per l'installazione automatica delle app
+Ecco alcuni aspetti da tenere in considerazione quando si effettua il push delle app agli utenti finali:
+
+* L'installazione automatica di un'app per gli utenti può richiedere tempo. La maggior parte delle app verrà installata immediatamente per gli utenti, ma il push delle app può richiedere tempo.  Dipende dal numero di elementi nell'app e dal numero di utenti a cui viene consentito l'accesso. Si consiglia di effettuare il push delle app durante le ore non lavorative con molto anticipo prima che siano necessarie agli utenti. Prima di inviare una comunicazione generale sulla disponibilità delle app, eseguire una verifica con più utenti.
+
+* Aggiornare il browser. Prima di visualizzare l'app di cui è stato effettuato il push nell'elenco App, l'utente potrebbe dover aggiornare o chiudere e riaprire il browser.
+
+* Se l'utente non visualizza immediatamente l'app nell'elenco App, deve aggiornare o chiudere e riaprire il browser.
+
+* Cercare di non sovraccaricare gli utenti. Prestare attenzione a non effettuare il push di troppe app in modo che gli utenti capiscano che le app preinstallate sono utili. È consigliabile controllare chi può effettuare il push delle app agli utenti finali per coordinare i tempi. È possibile stabilire un punto di contatto per effettuare il push delle app nell'organizzazione agli utenti finali.
 
 ## <a name="unpublish-an-app"></a>Annullare la pubblicazione di un'app
 Qualsiasi membro di un'area di lavoro per le app può annullare la pubblicazione dell'app.
@@ -167,7 +194,7 @@ Con questa versione, tutte le aree di lavoro del gruppo sono state rinominate in
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Quali sono le differenze tra le app e i pacchetti di contenuto aziendali?
 Le app sono un'evoluzione e la semplificazione dei pacchetti di contenuto, con alcune differenze importanti. 
 
-* Dopo che gli utenti aziendali avranno installato un pacchetto di contenuto, questo perde la propria identità raggruppata: è solo un elenco di dashboard e report intervallati da altri dashboard e report. Le app, d'altra parte, mantengono l'identità e il raggruppamento anche dopo l'installazione. Questo semplifica agli utenti aziendali di continuare a passare alle app nel tempo.  
+* Dopo che gli utenti aziendali avranno installato un pacchetto di contenuto, questo perde la propria identità raggruppata: è solo un elenco di dashboard e report intervallati da altri dashboard e report. Le app, d'altra parte, mantengono l'identità e il raggruppamento anche dopo l'installazione. Questo semplifica agli utenti aziendali di continuare a passare alle app nel tempo.
 * È possibile creare più pacchetti di contenuto da qualsiasi area di lavoro, ma un'app ha una relazione 1:1 con la relativa area di lavoro. In questo modo, le app saranno più facili da comprendere e gestire a lungo termine. Per altre informazioni sulla pianificazione dei miglioramenti di quest'area, vedere l'apposita sezione del blog di Power BI. 
 * Nel corso del tempo i pacchetti di contenuto aziendali verranno deprecati, quindi si consiglia di creare app da oggi in poi.  
 
@@ -179,5 +206,5 @@ Con le app, è possibile pubblicare una versione di sola lettura dell'area di la
 ## <a name="next-steps"></a>Passaggi successivi
 * [Installare e usare app in Power BI](service-install-use-apps.md)
 * [App Power BI per dispositivi esterni](service-connect-to-services.md)
+* [Portale di amministrazione di Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-

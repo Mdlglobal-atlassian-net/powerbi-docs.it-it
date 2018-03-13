@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
 I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Riquadri del dashboard
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Dashboard di Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Un riquadro è uno snapshot dei dati, aggiunto al dashboard. È possibile creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel nonché da SQL Server Reporting Services (SSRS) e altro.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
 
@@ -53,34 +54,34 @@ Per aggiungere un riquadro a un dashboard si può procedere in diversi modi. È 
 
 È anche possibile creare riquadri autonomi per immagini, caselle di testo, video, streaming di dati e contenuto Web direttamente nel dashboard usando [Aggiungi riquadro](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Icona Aggiungi riquadro](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interazione con i riquadri in un dashboard
 ### <a name="move-and-resize-a-tile"></a>Spostare e ridimensionare un riquadro
-[Spostare un riquadro nel dashboard](service-dashboard-edit-tile.md) trascinandolo. Passare il puntatore e selezionare il punto di ridimensionamento ![](media/service-dashboard-tiles/resize-handle.jpg) per ridimensionare il riquadro.
+[Spostare un riquadro nel dashboard](service-dashboard-edit-tile.md) trascinandolo. Passare il puntatore e selezionare il quadratino ![Quadratino](media/service-dashboard-tiles/resize-handle.jpg) per ridimensionare il riquadro.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Passare il puntatore del mouse su un riquadro per modificarne l'aspetto e il comportamento
 1. Passare il puntatore del mouse sul riquadro per visualizzare i puntini di sospensione.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![Puntini di sospensione del riquadro](media/service-dashboard-tiles/ellipses_new.png)
 2. Selezionare i puntini di sospensione per aprire il menu Azione per il riquadro.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![Icona dei puntini di sospensione](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Da qui è possibile:
    
-   * [Aprire il report usato per creare questo riquadro](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Aprire il report usato per creare questo riquadro](service-reports.md) ![Icona del report](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Aprire il foglio di lavoro usato per creare questo riquadro](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Aprire il foglio di lavoro usato per creare questo riquadro](service-reports.md) ![Icona del foglio di lavoro](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Visualizzare il riquadro nella modalità messa a fuoco ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Esportare i dati usati nel riquadro](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [Modificare titolo e sottotitolo, aggiungere un collegamento ipertestuale, visualizzare l'ora dell'ultimo aggiornamento](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Eseguire analisi su informazioni dettagliate](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Visualizzare il riquadro nella modalità messa a fuoco ](service-focus-mode.md) ![Icona della modalità messa a fuoco](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Esportare i dati usati nel riquadro](power-bi-visualization-export-data.md) ![Icona Esporta dati](media/service-dashboard-tiles/export-icon.png)
+     * [Modificare titolo e sottotitolo, aggiungere un collegamento ipertestuale, visualizzare l'ora dell'ultimo aggiornamento](service-dashboard-edit-tile.md) ![Icona Modifica](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Eseguire analisi su informazioni dettagliate ](service-insights.md) ![Icona delle informazioni dettagliate](media/service-dashboard-tiles/power-bi-insights.png)
      * [Aggiungere il riquadro a un altro dashboard ](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Rimuovere il riquadro](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+       ![Icona della puntina](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Rimuovere il riquadro](service-dashboard-edit-tile.md)
+     ![Icona Elimina](media/service-dashboard-tiles/trash-icon.png)
 3. Per chiudere il menu delle azioni, selezionare un'area vuota nell'area di disegno.
 
 ### <a name="select-click-a-tile"></a>Selezionare (fare clic su) un riquadro

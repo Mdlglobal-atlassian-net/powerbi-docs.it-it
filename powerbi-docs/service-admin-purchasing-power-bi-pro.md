@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Acquisto di Power BI Pro
 Power BI Pro è destinato agli utenti che pubblicano report, condividono dashboard, collaborano con i colleghi nelle aree di lavoro e partecipano ad altre attività correlate, quali:
@@ -63,7 +64,7 @@ Quando si prova una qualsiasi di queste funzionalità, viene richiesto l'avvio d
 > Con la disponibilità di Power BI Premium e le modifiche dell'offerta di Power BI gratuito del 1° giugno 2017, è possibile che si sia idonei per una versione di valutazione Pro estesa. Per altre informazioni, vedere [Extended Pro Trial activation](service-extended-pro-trial.md) (Attivazione della versione di valutazione Pro estesa).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Verifica dello stato all'interno del servizio
-Una volta all'interno del servizio, è possibile verificare di avere un account per la versione di valutazione Pro selezionando l'icona a forma di *ingranaggio* e scegliendo **Gestisci archivio personale**.
+Una volta all'interno del servizio, è possibile verificare di avere un account per la versione di valutazione Pro selezionando l'icona a forma di **ingranaggio** e scegliendo **Gestisci archivio personale**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

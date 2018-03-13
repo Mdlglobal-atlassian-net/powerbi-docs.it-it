@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI (ma non in Power BI Desktop) sono disponibili due modalità per visualizzare e interagire con i report: la Visualizzazione di lettura e la Visualizzazione di modifica. La visualizzazione di lettura è disponibile per tutti gli utenti ed è stata progettata in modo specifico per i *consumer* di dati, mentre la visualizzazione di modifica è disponibile solo per gli *autori* e i proprietari dei report. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![Immagine di creatori di report e fruitori di report](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Visualizzazione di lettura del report
 
@@ -83,17 +84,17 @@ Tenere presente che solo l'autore e i proprietari dei report possono aprire un r
 
 1. Per impostazione predefinita, il report viene aperto in Visualizzazione di lettura. Se è disponibile l'opzione **Modifica report**, significa che è attiva la Visualizzazione di lettura. Se l'opzione **Modifica report** è disabilitata, significa che l'utente non è autorizzato ad aprire il report in Visualizzazione di modifica.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Modifica report disabilitata](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Se l'opzione **Modifica report** non è disabilitata, selezionarla per aprire il report in Visualizzazione di modifica. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Opzione Modifica report](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Il report è ora nella Visualizzazione di modifica e presenta le ultime [impostazioni di visualizzazione](power-bi-report-display-settings.md) usate nella Visualizzazione di lettura.
 
 2. Per tornare alla Visualizzazione di lettura, selezionare **Visualizzazione di lettura** nella barra di spostamento superiore.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Opzione Visualizzazione di lettura](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

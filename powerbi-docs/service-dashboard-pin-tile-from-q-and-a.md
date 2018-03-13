@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a3df29b478675eeeec876863299c0a33073fb381
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Dashboards
+ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Aggiungere un riquadro a un dashboard da Domande e risposte
 ## <a name="how-to-pin-a-tile-from-qa"></a>Come aggiungere un riquadro dalle domande e risposte
@@ -34,16 +35,16 @@ Per seguire la procedura, aprire il [dashboard dell'esempio di analisi delle ven
 
 1. Aprire un [dashboard](service-dashboards.md) a cui è stato aggiunto almeno un riquadro da un report. Quando si pone una domanda, Power BI cerca la risposta in qualsiasi set di dati per il quale è stato aggiunto un riquadro nel dashboard.  Per altre informazioni, vedere [Origini dati per il servizio Power BI](service-get-data.md).
 2. Nella casella della domanda nella parte superiore del dashboard iniziare a digitare una domanda relativa ai dati.  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
+   ![Casella delle domande di Domande e risposte](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Ad esempio, se si digita "vendite dell'ultimo anno per mese e territorio"...  
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
+   ![Digitare una domanda](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    la casella della domanda offre alcuni suggerimenti.
 4. Per aggiungere il grafico al dashboard sotto forma di riquadro, selezionare la puntina ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) sul lato destro superiore dell'area di disegno. Se il dashboard è stato condiviso con l'utente, non sarà possibile aggiungere visualizzazioni.
 
 5. Aggiungere il riquadro a un dashboard esistente o a un nuovo dashboard.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+   ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
 
    * Dashboard esistente: selezionare il nome del dashboard nell'elenco a discesa. I dashboard selezionabili sono solo quelli presenti nell'area di lavoro corrente.
    * Nuovo dashboard: digitare il nome del nuovo dashboard per aggiungerlo all'area di lavoro corrente.
@@ -52,15 +53,15 @@ Per seguire la procedura, aprire il [dashboard dell'esempio di analisi delle ven
 
    Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che la visualizzazione è stata aggiunta al dashboard sotto forma di riquadro.  
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Aggiunto al dashboard](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Selezionare **Vai al dashboard** per visualizzare il nuovo riquadro. È quindi possibile [rinominare, ridimensionare, aggiungere un collegamento ipertestuale, riposizionare il riquadro e molto altro](service-dashboard-edit-tile.md) nel dashboard.
 
-   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
+   ![dashboard con riquadri](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 * Quando si inizia a digitare una domanda, Domande e risposte inizia subito a cercare la risposta migliore in tutti i set di dati associati al dashboard corrente,  ovvero quello elencato nella barra di spostamento superiore. Questa domanda, ad esempio, viene posta nel dashboard dell'**esempio di analisi delle vendite al dettaglio**, che fa parte dell'area di lavoro per le app **mihart**.
 
-  ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![Percorsi di navigazione](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Per individuare i set di dati da usare**,  Domande e risposte accede a tutti i set di dati per cui è stata aggiunta almeno una visualizzazione al dashboard.
 
 * **Se non è possibile visualizzare la casella della domanda**, contattare l'amministratore di Power BI. L'amministratore può disabilitare Domande e risposte.

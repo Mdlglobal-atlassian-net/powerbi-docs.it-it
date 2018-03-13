@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 554084b26beff469276709b9e7c7f2c9fa84e65c
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 972e816dcd833b6ae0e7bd26b760952066aa5ac8
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenuto **recente** nel servizio Power BI
 
@@ -30,7 +31,7 @@ ms.lasthandoff: 12/08/2017
 ## <a name="what-is-recent-content"></a>Che cos'è il contenuto recente
 Il contenuto recente è costituito dagli ultimi elementi visitati, per un massimo di 20 elementi.  Sono inclusi dashboard, report, app e cartelle di lavoro in tutte le aree di lavoro.
 
-![](media/service-recent/power-bi-recent-screen.png)
+![Finestra del contenuto recente](media/service-recent/power-bi-recent-screen.png)
 
 Il video seguente illustra come vengono popolati gli elenchi di contenuti **Recenti**. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
 
@@ -39,11 +40,11 @@ Il video seguente illustra come vengono popolati gli elenchi di contenuti **Rece
 ## <a name="display-recent-content"></a>Visualizzare il contenuto recente
 Per visualizzare gli ultimi elementi visitati di recente, dal riquadro di spostamento a sinistra selezionare la freccia a destra di **Recenti**.  Da qui è possibile selezionare il contenuto recente per aprirlo. Sono elencati solo i cinque elementi più recenti.
 
-![](media/service-recent/power-bi-recent-flyout-new.png)
+![Riquadro a comparsa del contenuto recente](media/service-recent/power-bi-recent-flyout-new.png)
 
-Se sono presenti più di cinque elementi visitati di recente, selezionare **Visualizza tutto** per aprire la schermata Recenti (vedere di seguito). È anche possibile selezionare **Recenti**, o l'icona Recenti ![](media/service-recent/power-bi-recent-icon.png) dal riquadro di spostamento a sinistra.
+Se sono presenti più di cinque elementi visitati di recente, selezionare **Visualizza tutto** per aprire la schermata Recenti (vedere di seguito). È anche possibile selezionare **Recenti** o l'icona Recenti ![Icona Recenti](media/service-recent/power-bi-recent-icon.png) dal riquadro di spostamento a sinistra.
 
-![](media/service-recent/power-bi-recent-list.png)
+![Visualizzare tutto il contenuto recente](media/service-recent/power-bi-recent-list.png)
 
 Da qui è possibile interagire con il contenuto come si farebbe con le singole schede [**Dashboard**](service-dashboards.md), [**Report**](service-reports.md) e **Cartelle di lavoro** e la schermata [**App**](service-install-use-apps.md).
 

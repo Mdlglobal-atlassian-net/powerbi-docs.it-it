@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
 Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si desidera cercare le informazioni dettagliate perse?
@@ -45,43 +46,42 @@ Passare ora all'azione. Esplorare le informazioni dettagliate usando l'[esempio 
 
 1. Nella scheda **Set di dati** fare clic sui puntini di sospensione (...) e scegliere **Ottieni informazioni dettagliate**.
    
-    ![](media/service-insights/power-bi-ellipses.png)
+    ![Scheda Set di dati](media/service-insights/power-bi-ellipses.png)
    
-    ![](media/service-insights/power-bi-tab.png)
+    ![Menu di puntini di sospensione](media/service-insights/power-bi-tab.png)
 2. Power BI usa [vari algoritmi](service-insight-types.md) per cercare le tendenze nel set di dati.
    
-    ![](media/service-insights/pbi_autoinsightssearching.png)
+    ![Finestra di dialogo Ricerca di informazioni dettagliate](media/service-insights/pbi_autoinsightssearching.png)
 3. Entro pochi secondi, le informazioni sono pronte.  Selezionare **Visualizza informazioni dettagliate** per vedere le visualizzazioni.
    
-    ![](media/service-insights/pbi_autoinsightsuccess.png)
+    ![Messaggio di operazione completata](media/service-insights/pbi_autoinsightsuccess.png)
    
    > **NOTA**: alcuni set di dati non possono a generare informazioni dettagliate perché i dati non sono significativi dal punto di vista statistico.  Per altre informazioni, vedere [Ottimizzare i dati per Informazioni rapide](service-insights-optimize.md).
    > 
    > 
 1. Le visualizzazioni appaiono in un apposito canvas di **Informazioni rapide** con un massimo di 32 schede separate di informazioni. Ogni scheda contiene un grafico o un grafico con una breve descrizione.
    
-    ![](media/service-insights/power-bi-insights.png)
+    ![Area di disegno Informazioni rapide](media/service-insights/power-bi-insights.png)
 
 ## <a name="interact-with-the-insight-cards"></a>Interagire con le schede di informazioni dettagliate
-  ![](media/service-insights/pbi_hover.png)
+  ![Icona Aggiungi](media/service-insights/pbi_hover.png)
 
 1. Passare il puntatore del mouse su una scheda e selezionare l'icona a forma di puntina per aggiungere la visualizzazione a un dashboard.
 2. Passare il puntatore del mouse su una scheda, selezionare i puntini di sospensione (...) e scegliere **Visualizza informazioni dettagliate**. Le informazioni dettagliate verranno aperte a schermo intero.
    
-    ![](media/service-insights/power-bi-insight-focus.png)
+    ![Informazioni dettagliate a schermo intero](media/service-insights/power-bi-insight-focus.png)
 3. In questa modalità è possibile:
    
    * Filtrare le visualizzazioni.  Per visualizzare i filtri, nell'angolo in alto a destra selezionare la freccia per espandere il riquadro Filtri.
+        ![Informazioni dettagliate e menu Filtri espanso](media/service-insights/power-bi-insights-filter-new.png)
+   * Per aggiungere la scheda delle informazioni dettagliate a un dashboard, selezionare l'icona di aggiunta ![Icona di aggiunta](media/service-insights/power-bi-pin-icon.png) o **Aggiungi oggetto visivo**.
+   * Eseguire le informazioni dettagliate nella scheda stessa. Questa modalità d'uso è nota anche come **informazioni dettagliate con ambito**. Nell'angolo superiore destro selezionare l'icona a forma di lampadina ![Icona Ottieni informazioni dettagliate](media/service-insights/power-bi-bulb-icon.png) oppure **Ottieni informazioni dettagliate**.
      
-        ![](media/service-insights/power-bi-insights-filter-new.png)
-   * Per aggiungere la scheda delle informazioni dettagliate a un dashboard, selezionare l'icona di aggiunta ![](media/service-insights/power-bi-pin-icon.png) o **Aggiungi oggetto visivo**.
-   * Eseguire le informazioni dettagliate nella scheda stessa. Questa modalità d'uso è nota anche come **informazioni dettagliate con ambito**. Nell'angolo superiore destro selezionare l'icona a forma di lampadina ![](media/service-insights/power-bi-bulb-icon.png) oppure **Ottieni informazioni dettagliate**.
-     
-       ![](media/service-insights/pbi-autoinsights-tile.png)
+       ![Barra dei menu con l'icona Ottieni informazioni dettagliate](media/service-insights/pbi-autoinsights-tile.png)
      
      Le informazioni dettagliate vengono visualizzate a sinistra, mentre le nuove schede, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.
      
-       ![](media/service-insights/power-bi-insights-on-insights-new.png)
+       ![Informazioni dettagliate in informazioni dettagliate](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Per tornare all'area di disegno originale delle informazioni dettagliate, nell'angolo superiore sinistro selezionare **Esci dalla modalità messa a fuoco**.
 
 ## <a name="run-insights-on-a-dashboard-tile"></a>Eseguire informazioni dettagliate su un riquadro del dashboard
@@ -90,7 +90,7 @@ Invece di cercare informazioni dettagliate in un intero set di dati, è possibil
 1. Aprire un dashboard.
 2. Passare il mouse su un riquadro. Selezionare i puntini di sospensione (...) e scegliere **Visualizza informazioni dettagliate**. Il riquadro verrà aperto in [modalità messa a fuoco](service-focus-mode.md) con le schede delle informazioni dettagliate visualizzate sul lato destro.    
    
-    ![](media/service-insights/pbi-insights-tile.png)    
+    ![Modalità messa a fuoco](media/service-insights/pbi-insights-tile.png)    
 4. Se un approfondimento attira l'interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. Le informazioni dettagliate selezionate vengono visualizzate a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.    
 6. Continuare a esaminare i dati e quando si osserva un'informazione dettagliata interessante, aggiungerla al dashboard selezionando **Aggiungi oggetto visivo** nell'angolo superiore destro.
 

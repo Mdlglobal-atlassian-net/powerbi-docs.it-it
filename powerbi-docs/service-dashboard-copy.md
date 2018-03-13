@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Creare una copia di un dashboard nel servizio Power BI
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![Dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Esistono molte ragioni diverse per creare una copia di un dashboard. Ad esempio, potrebbe essere opportuno apportare modifiche e testarne le prestazioni rispetto all'originale oppure creare versioni lievemente differenti da distribuire in base a colleghi, area o team. Forse un collega ammira la progettazione del dashboard e vuole usarlo per la creazione di report da inviare al proprio responsabile. Un altro motivo potrebbe essere se si ha un nuovo database con la stessa struttura di dati e gli stessi tipi di dati e si vuole riutilizzare il dashboard già creato; tuttavia, ciò richiederebbe alcune operazioni in Power BI Desktop. 
 
@@ -36,13 +37,13 @@ Per creare una copia di un dashboard, è necessario essere l'*autore* del dashbo
 1. Aprire il dashboard.
 2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Duplica dashboard**.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![Menu di puntini di sospensione](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Assegnare un nome al dashboard e scegliere **Duplica**. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Finestra di dialogo Duplica dashboard](media/service-dashboard-copy/power-bi-name.png)
 4. Il nuovo dashboard viene salvato nella stessa area di lavoro dell'originale. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Scheda Dashboard](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Aprire il nuovo dashboard e apportare le modifiche necessarie. È possibile eseguire queste operazioni:    
     a. [Spostare, rinominare, ridimensionare o eliminare i riquadri](service-dashboard-edit-tile.md).  

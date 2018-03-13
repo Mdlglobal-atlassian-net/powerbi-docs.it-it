@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 2dde59bba1c5d9ded1c82cf2dd1086be14f19304
+ms.sourcegitcommit: d6e013eb6291ae832970e220830d9862a697d1be
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 La sicurezza a livello di riga può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Più utenti diversi possono usare gli stessi elementi visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.
@@ -140,6 +140,47 @@ Un [gateway dati locale](../service-gateway-onprem.md) è necessario quando si u
 
 I ruoli possono essere forniti con l'identità in un token di incorporamento. Se non vengono forniti ruoli, il nome utente fornito verrà usato per risolvere i ruoli associati.
 
+**Uso della funzionalità CustomData**
+
+La funzionalità CustomData consente di passare un testo libero (stringa) usando la proprietà della stringa di connessione CustomData, un valore che deve essere usato da AS, tramite la funzione CUSTOMDATA().
+È possibile servirsene come alternativa per personalizzare l'utilizzo di dati.
+È possibile usarla nella query DAX del ruolo, ma anche senza ruoli in una query DAX di misura.
+CustomData fa parte della funzionalità di generazione del token per gli elementi seguenti: dashboard, report e riquadro. I dashboard possono avere più identità CustomData (una per riquadro/modello).
+
+> [!NOTE]
+> La funzionalità CustomData può essere usata solo per i modelli presenti in Azure Analysis Services e solo in modalità attiva. Diversamente da utenti e ruoli, la funzionalità dei dati personalizzati non può essere impostata in un file con estensione pbix. Quando si genera un token con la funzionalità dei dati personalizzati, è necessario avere un nome utente.
+>
+>
+
+**Aggiunte di CustomData SDK**
+
+La proprietà della stringa CustomData è stata aggiunta all'identità effettiva nello scenario di generazione del token.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+L'identità può essere creata con i dati personalizzati usando la chiamata seguente:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**Utilizzo di CustomData SDK**
+
+Se si chiama l'API REST, è possibile aggiungere i dati personalizzati in ogni identità, ad esempio:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
+
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
 * Il servizio Power BI non applicherà l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
@@ -150,4 +191,3 @@ I ruoli possono essere forniti con l'identità in un token di incorporamento. Se
 * Un elenco di identità consente più token di identità per l'incorporamento del dashboard. Per tutti gli altri elementi l'elenco contiene una singola identità.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

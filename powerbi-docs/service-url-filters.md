@@ -16,18 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 5015886d0314c767bc16fe223c7db91adb0fd2bb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 Quando si apre un report nel servizio Power BI, ogni pagina del report ha un proprio URL univoco. Per filtrare tale pagina del report, è possibile usare il riquadro Filtri nell'area di disegno report.  In alternativa, è possibile aggiungere i parametri della stringa di query all'URL per filtrare il report. Se, ad esempio, si vuole mostrare un report ai colleghi applicando un filtro preliminare, basta iniziare dall'URL predefinito del report, aggiungere i parametri di filtro all'URL e quindi inviare l'intero URL via posta elettronica.
 
-![](media/service-url-filters/power-bi-report2.png)
+![Report di Power BI nel servizio](media/service-url-filters/power-bi-report2.png)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/WQFtN8nvM4A?list=PLv2BtOtLblH3YE_Ycas5B1GtcoFfJXavO&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ La sintassi è molto semplice: iniziare con l'URL del report, aggiungere un punt
 
 URL?filter=***Tabella***/***Campo*** eq '***valore***'
 
-![](media/service-url-filters/power-bi-filter-urls7b.png)
+![URL con filtro](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * I nomi **Tabella** e **Campo** rispettano la distinzione tra maiuscole e minuscole, **valore** non la rispetta.
 * I campi che sono nascosti dalla visualizzazione Report possono comunque essere filtrati.
@@ -49,7 +50,7 @@ Se è ancora poco chiaro, continuare la lettura per un'analisi approfondita.
 ## <a name="filter-on-a-field"></a>Filtrare in base a un campo
 Si supponga che l'URL per il report sia il seguente.
 
-![](media/service-url-filters/power-bi-filter-urls6.png)
+![URL iniziale](media/service-url-filters/power-bi-filter-urls6.png)
 
 Nella visualizzazione della mappa (sopra) sono visibili i negozi presenti nella Carolina del Nord.
 
@@ -61,7 +62,7 @@ Per filtrare il report in modo da visualizzare solo i dati relativi ai negozi in
 
 ?filter=Store/Territory eq 'NC'
 
-![](media/service-url-filters/power-bi-filter-urls7.png)
+![URL con filtro](media/service-url-filters/power-bi-filter-urls7.png)
 
 >[!NOTE]
 >*NC* è un valore memorizzato nel campo **Territory** (Territorio) della tabella **Store** (Negozio).

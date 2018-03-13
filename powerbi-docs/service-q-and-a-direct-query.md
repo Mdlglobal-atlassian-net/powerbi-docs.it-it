@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Attivazione di domande e risposte per le connessioni dinamiche
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Che cos'è il gateway dati locale?  Che cos'è una connessione dinamica?
@@ -44,15 +45,15 @@ Per altre informazioni, vedere:
 ## <a name="enable-qa"></a>Abilitare Domande e risposte
 Dopo aver configurato il gateway dati, connettersi ai dati da Power BI.  Creare un dashboard usando i dati locali oppure caricare un file con estensione pbix che usa i dati locali.  È possibile che già si disponga di dati locali in dashboard, report e set di dati precedentemente condivisi con l’utente.
 
-1. In alto a destra in Power BI selezionare l'icona della ruota dentata ![](media/service-q-and-a-direct-query/power-bi-cog.png) e scegliere **Impostazioni**.
+1. In alto a destra in Power BI selezionare l'icona della ruota dentata ![Icona a forma di ingranaggio](media/service-q-and-a-direct-query/power-bi-cog.png) e scegliere **Impostazioni**.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Menu Impostazioni](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Selezionare **Set di dati** e scegliere il set di dati da abilitare per Domande e risposte.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Schermata Set di dati del menu Impostazioni](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Espandere **Domande e risposte e Cortana**, selezionare la casella di controllo **Attiva Domande e risposte per questo set di dati** e scegliere **Applica**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Area Domande e risposte espansa](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Quali dati vengono memorizzati nella cache e come viene protetta la privacy?
 Quando si abilita Domande e risposte per i dati locali, nella cache del servizio viene memorizzato un subset dei dati per garantire il funzionamento di Domande e risposte con prestazioni ragionevoli, Power BI esclude dal caching i valori con più di 24 caratteri. La cache viene eliminata entro alcune ore quando si disabilita Domande e risposte deselezionando **Attiva Domande e risposte per questo set di dati** o quando si elimina il set di dati.

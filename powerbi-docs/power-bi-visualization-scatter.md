@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 6b5467456321b171116cf984ec276c3694b4030b
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Grafici a dispersione e grafici a bolle in Power BI (esercitazione)
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di valori numerici lungo un asse orizzontale e un altro set di dati numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Questi punti dati possono essere distribuiti uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati.
@@ -56,44 +57,55 @@ Guardare questo video per seguire la creazione del grafico a dispersione e quind
 
 Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire le istruzioni, [scaricare l'esempio](sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Iniziare in una [pagina vuota del report](power-bi-report-add-page.md) e selezionare i campi **Sales** \> **Sales Per Sq Ft** e **Sales** > **Total Sales Variance %**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
+1. Selezionare l'icona di addizione gialla per creare una [pagina di report vuota](power-bi-report-add-page.md).
  
-2. Selezionare **District > District** dal riquadro Campi.
-   
+2. Nel riquadro Campi selezionare i campi seguenti:
+   - **Vendite** > **Vendite per piedi quadrati**
+   - **Vendite** > **% di scostamento vendite totali**
+   - **Distretto** > **Distretto**
+
     ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)
-4. Convertire in un grafico a dispersione. Dal riquadro Visualizzazione selezionare l'icona del grafico a dispersione.
+
+    Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).
+
+3. Convertire in un grafico a dispersione. Dal riquadro Visualizzazione selezionare l'icona del grafico a dispersione.
+
    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
-5. Trascinare **Zona** da **Dettagli** in **Legenda**.
-   
+
+4. Trascinare **Zona** da **Dettagli** in **Legenda**. Viene visualizzato un grafico a dispersione che tiene traccia della **% della varianza delle vendite totali** lungo l'asse Y e delle **vendite per ogni piede quadrato** lungo l'asse X. I colori del punto dati rappresentano le zone:
+
     ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
 
-È ora disponibile un grafico a dispersione che tiene traccia della % della varianza delle vendite totali lungo l'asse Y e delle vendite per ogni piede quadrato lungo l'asse X.  I colori del punto dati rappresentano le zone.  Ora si aggiungerà una terza dimensione.
+Ora si aggiungerà una terza dimensione.
 
 ## <a name="create-a-bubble-chart"></a>Creare un grafico a bolle
-1. Dal riquadro Campi, trascinare **Vendite** > **Vendite di quest’anno** > **Valore** all’area **Dimensioni**. 
+
+1. Dal riquadro **Campi**, trascinare **Vendite** > **Vendite di quest'anno** > **Valore** all'area **Dimensioni**. I punti dati si espandono in volumi proporzionati al valore delle vendite.
    
    ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
-2. Passare il mouse su una bolla.  La dimensione della bolla riflette il valore delle **Vendite di quest’anno**.
+
+2. Passare il mouse su una bolla. La dimensione della bolla riflette il valore delle **Vendite di quest’anno**.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
-3. Facoltativamente, [formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+3. È possibile impostare il numero di punti dati da mostrare nel grafico a bolle nella sezione **Formato** del riquadro **Visualizzazioni** espandendo la scheda **Generale** e modificando il **Volume dati**. È possibile impostare il volume dei dati su un numero massimo di 10.000. Il valore predefinito è 3500.
+
+    ![Volume dati](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+
+   > [!NOTE]
+   > Poiché un numero maggiore di punti dati può comportare tempi di caricamento più lunghi, se si sceglie di pubblicare report con limiti corrispondenti ai livelli più elevati della scala, assicurarsi di eseguire test dei report sul Web e in dispositivi mobili, per garantire che le prestazioni soddisfino le aspettative degli utenti. Si noti che per numeri più elevati di punti dati, è consigliabile testare i risultati in fattori di forma diversi per assicurare prestazioni ottimali.
+
+4. È possibile [formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora](service-getting-started-with-color-formatting-and-axis-properties.md). Per [migliorare l'accessibilità](desktop-accessibility.md), considerare la possibilità di aggiungere forme di marcatore a ogni riga. L'uso di una forma del marcatore diversa per ogni riga semplifica per gli utenti dei report la distinzione tra le righe o le aree. Per selezionare la forma del marcatore, espandere la scheda **Forme** e quindi selezionare una forma per il marcatore.
+
+      ![Forma del marcatore](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    È anche possibile cambiare la forma del marcatore in diamante, triangolo o quadrato:
 
    ![Marcatore quadrato](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-4. È facoltativamente possibile impostare il numero di punti dati da mostrare nel grafico a bolle nella sezione **Formato** del riquadro **Visualizzazioni** espandendo la scheda **Generale** e modificando il **Volume dati**. Il valore predefinito è 3500. 
- 
-    ![Volume dati](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
-
-   > [!NOTE]
-   > Poiché un numero maggiore di punti dati può comportare tempi di caricamento più lunghi, se si sceglie di pubblicare report con limiti corrispondenti ai livelli più elevati della scala, assicurarsi di eseguire test dei report sul Web e in dispositivi mobili, per garantire che le prestazioni soddisfino le aspettative degli utenti.
-
-5.   È facoltativamente possibile selezionare la forma del marcatore espandendo la scheda **Forme** e quindi selezionando una forma per il marcatore.
-
-      ![Forma del marcatore](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**Il grafico a dispersione presenta solo un punto dati**
 Il grafico a dispersione ha solo un punto dati che aggrega tutti i valori sugli assi X e Y?  O forse aggrega tutti i valori lungo una singola riga orizzontale o verticale?
 

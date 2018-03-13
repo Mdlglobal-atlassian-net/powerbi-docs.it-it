@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/27/2017
 ms.author: maghan
-ms.openlocfilehash: 890c748c7e7502394fd2e6e024521e99082a1c77
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Share your work
+ms.openlocfilehash: ee1b403eaa8456266b452ff34814dc4f4059d9a6
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -135,7 +136,7 @@ Gli oggetti visivi personalizzati sono supportati in **Pubblica sul Web**. Quand
 La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle origini dati e dei report nel servizio Power BI, ma gli elementi seguenti non sono attualmente supportati o disponibili con Pubblica sul Web:
 
 1. Report che usano la sicurezza a livello di riga
-2. Report che usano Analysis Services in modalità tabulare ospitato in locale
+2. Report che usano le origini dati della connessione dinamica, inclusi Analysis Services in modalità tabulare ospitato in locale, Analysis Service in modalità multidimensionale, Azure Analysis Services e il servizio Power BI.
 3. Report condivisi con l'utente direttamente o con un pacchetto di contenuto aziendale
 4. Report in un gruppo in cui non si è un membro a cui sono consentite modifiche
 5. Gli oggetti visivi "R" non sono attualmente supportati nei report di Pubblica sul Web

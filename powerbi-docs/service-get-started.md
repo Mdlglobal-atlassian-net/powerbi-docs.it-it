@@ -16,22 +16,23 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: ee7375c28b3c13b53eba52f0bf76754529c9b4f5
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Get started
+ms.openlocfilehash: cbb7697e3d3dbc92c2917b0a80deadfc0b9fd5a0
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="get-started-with-power-bi-service-apppowerbicom"></a>Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](guided-learning/gettingstarted.yml#step-1).
 
-![](media/service-get-started/power-bi-components.png)
+![Immagine che illustra la relazione tra Desktop, servizio, dispositivi mobili](media/service-get-started/power-bi-components.png)
 
 Il servizio Power BI offre una versione gratuita e una versione Pro. Indipendentemente dalle versione in uso, *se si ha già un account*, per accedere al servizio Power BI, aprire un browser e digitare app.powerbi.com. Per i nuovi utenti, è consigliabile iniziare da www.powerbi.com. Da qui sarà possibile ottenere informazioni su Power BI prima di accedere al servizio.  Per provare il servizio, selezionare il collegamento **Iscriviti gratuitamente** nell'angolo in alto a destra. Se invece l'amministratore ha già abilitato Power BI, non usare il pulsante Iscriviti gratuitamente, ma passare direttamente all'indirizzo app.powerbi.com. 
 
-![](media/service-get-started/power-bi-sign-up.png)
+![Accedere o iscriversi gratuitamente](media/service-get-started/power-bi-sign-up.png)
 
 Per informazioni su Power BI Desktop, vedere [Introduzione a Power BI Desktop](desktop-getting-started.md). Per informazioni su Power BI per dispositivi mobili, vedere [App Power BI per dispositivi mobili](mobile-apps-for-mobile-devices.md).
 
@@ -57,27 +58,27 @@ Di seguito è riportato un esempio di recupero di dati da un file CSV. Per segui
 1. [Accedere a Power BI](http://www.powerbi.com/). Non si ha un account? Nessun problema: è possibile iscriversi gratuitamente.
 2. Power BI viene aperto nel browser. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.
    
-   ![](media/service-get-started/getdata3.png)
+   ![Recuperare i dati](media/service-get-started/getdata3.png)
 3. Selezionare **File**. 
    
-   ![](media/service-get-started/gs1.png)
+   ![Ottenere i file](media/service-get-started/gs1.png)
 4. Selezionare il file nel computer e scegliere **Apri**. Se il file è stato salvato in OneDrive for Business, selezionare l'opzione corrispondente. Se il file è stato salvato in locale, selezionare **File locale**. 
    
-   ![](media/service-get-started/gs2.png)
+   ![Schermata Recupera dati > File](media/service-get-started/gs2.png)
 5. Per questa esercitazione verrà selezionato **Importa** per aggiungere il file di Excel come set di dati da usare successivamente per creare report e dashboard. Se si seleziona **Carica**, l'intera cartella di lavoro di Excel verrà caricata in Power BI, da cui potrà essere aperta e modificata in Excel Online.
    
-   ![](media/service-get-started/power-bi-import.png)
+   ![Scegliere Importa](media/service-get-started/power-bi-import.png)
 6. Quando il set di dati è pronto, selezionare **Visualizza set di dati** per aprirlo nell'editor di report. 
 
-    ![](media/service-get-started/power-bi-gs.png)
+    ![Finestra di dialogo Il set di dati è pronto](media/service-get-started/power-bi-gs.png)
 
     Poiché non sono state ancora create visualizzazioni, l'area di disegno del report sarà vuota.
 
-    ![](media/service-get-started/power-bi-report-editor.png)
+    ![Area di disegno report vuota](media/service-get-started/power-bi-report-editor.png)
 
 6. Osservare la barra dei menu superiore e notare l'opzione per la **Visualizzazione di lettura**. Dal momento che è disponibile l'opzione per la Visualizzazione di lettura, significa che la modalità corrente è la **Visualizzazione di modifica**. 
 
-    ![](media/service-get-started/power-bi-editing-view.png)
+    ![Opzione Visualizzazione di lettura](media/service-get-started/power-bi-editing-view.png)
 
     Nella Visualizzazione di modifica è possibile creare e modificare i report perché l'utente è il *proprietario* del report, ovvero un *autore*. Quando si condivide un report con i colleghi, questi ultimi potranno interagire con il report esclusivamente nella Visualizzazione di lettura, perché sono *consumer*. Altre informazioni sulla [Visualizzazione di lettura e sulla Visualizzazione di modifica](service-reading-view-and-editing-view.md).
     
@@ -90,49 +91,49 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
     
 1. Nell'editor di report verrà usato il riquadro **Campi** sul lato destro della pagina per creare una visualizzazione.  Selezionare la casella di controllo accanto a **Gross Sales** e **Date**.
    
-   ![](media/service-get-started/fields.png)
+   ![Elenco di campi](media/service-get-started/fields.png)
 
 2. Power BI analizza i dati e crea una visualizzazione.  Se prima si è selezionato **Date** verrà visualizzata una tabella.  Se prima si è selezionato **Gross Sales** verrà visualizzato un grafico. Cambiare la modalità di visualizzazione dei dati. È possibile visualizzare i dati sotto forma di grafico a linee. Nel riquadro **Visualizzazioni** selezionare l'icona del grafico a linee, nota anche come modello.
    
-   ![](media/service-get-started/gettingstart5new.png)
+   ![Editor di report con icona selezionata](media/service-get-started/gettingstart5new.png)
 
 3. Sembra interessante, quindi la *aggiungeremo* a un dashboard. Passare il puntatore del mouse sulla visualizzazione, quindi selezionare l'icona **Aggiungi**.  Quando si aggiunge una visualizzazione, verrà archiviata nel dashboard e aggiornata automaticamente in modo che sia possibile tenere traccia dell'ultimo valore in modo immediato.
    
-   ![](media/service-get-started/pinnew.png)
+   ![Icona Aggiungi](media/service-get-started/pinnew.png)
 
 5. Dal momento che si tratta di un nuovo report, è necessario salvarlo prima di poter aggiungere una visualizzazione a un dashboard. Assegnare un nome al report, ad esempio *Sales over time*, e selezionare **Salva e continua**. 
    
-   ![](media/service-get-started/pbi_getstartsaveb4pinnew.png)
+   ![Finestra di dialogo Salva report con nome](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
 6. Aggiungere il grafico a linee al nuovo dashboard e assegnargli il nome "Financial sample for tutorial". 
    
-   ![](media/service-get-started/power-bi-pin.png)
+   ![Assegnare un nome al report](media/service-get-started/power-bi-pin.png)
    
  1. Selezionare **Aggiungi**.
    
     Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stata aggiunta la visualizzazione, come riquadro, al dashboard.
    
-    ![](media/service-get-started/power-bi-pin-success.png)
+    ![Finestra di dialogo Aggiunto al dashboard](media/service-get-started/power-bi-pin-success.png)
 
 8. Selezionare **Vai al dashboard** per visualizzare il grafico a linee aggiunto, sotto forma di riquadro, al nuovo dashboard appena creato. Migliorare il dashboard aggiungendo altri riquadri di visualizzazione e [rinominando, ridimensionando, collegando e riposizionando i riquadri](service-dashboard-edit-tile.md).
    
-   ![](media/service-get-started/power-bi-new-dashboard.png)
+   ![Dashboard con visualizzazione aggiunta](media/service-get-started/power-bi-new-dashboard.png)
    
    Selezionare il nuovo riquadro nel dashboard per tornare al report in qualsiasi momento. Power BI reindirizzerà l'utente all'editor di report in Visualizzazione di lettura. Per tornare alla Visualizzazione di modifica, selezionare **Modifica report** nella barra dei menu superiore. Nella Visualizzazione di modifica è possibile continuare a esplorare e ad aggiungere riquadri. 
 
 ## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Passaggio 3: Continuare l'esplorazione con Domande e risposte (query in linguaggio naturale)
 1. Per l'esplorazione rapida dei dati, provare a formulare una domanda nella finestra Domande e risposte. La casella delle domande di Domande e risposte si trova nella parte superiore del dashboard (**Porre una domanda sui dati**) e nella barra dei menu superiore del report (**Poni una domanda**). Ad esempio, provare a digitare "quale segmento ha generato il massimo profitto".
    
-   ![](media/service-get-started/powerbi-qna.png)
+   ![Area di disegno Domande e risposte](media/service-get-started/powerbi-qna.png)
 
-2. Domande e risposte cerca una risposta e la presenta sotto forma di visualizzazione. Fare clic sull'icona Aggiungi ![](media/service-get-started/pbi_pinicon.png) per mostrare anche questa visualizzazione nel dashboard.
+2. Domande e risposte cerca una risposta e la presenta sotto forma di visualizzazione. Selezionare l'icona Aggiungi ![Icona Aggiungi](media/service-get-started/pbi_pinicon.png) per mostrare anche questa visualizzazione nel dashboard.
 3. Aggiungere la visualizzazione al dashboard "Financial Sample for tutorial".
    
-    ![](media/service-get-started/power-bi-pin2.png)
+    ![Finestra di dialogo Aggiungi al dashboard](media/service-get-started/power-bi-pin2.png)
 
 4. Tornare al dashboard dove verrà visualizzato il nuovo riquadro.
 
-   ![](media/service-get-started/power-bi-final-dashboard.png)
+   ![Dashboard con grafico aggiunto](media/service-get-started/power-bi-final-dashboard.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per approfondire ulteriormente l'argomento,  consultare gli articoli seguenti.

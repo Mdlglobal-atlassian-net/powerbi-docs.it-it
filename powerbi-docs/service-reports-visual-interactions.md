@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Interazioni tra le visualizzazioni in un report di Power BI
 Se sono presenti autorizzazioni di modifica per un report è possibile usare **Interazioni oggetti visivi** per modificare l'effetto di ogni visualizzazione in una pagina del report sulle altre visualizzazioni. 
@@ -44,24 +45,24 @@ Questo articolo illustra come usare **Interazioni oggetti visivi** nella [Visual
 2. Visualizzare le opzioni **Interazioni con oggetti visivi**.
     - Nel servizio Power BI selezionare l'elenco a discesa dalla barra dei menu dei report.
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![Elenco a discesa Interazioni con oggetti visivi](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - In Desktop, selezionare **Formato > Interazioni**.
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![Selezionare Formato, quindi Interazioni](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. Per attivare i controlli di interazione delle visualizzazioni, selezionare **Modifica interazioni**. Power BI aggiunge icone di filtro incrociato ed evidenziazione incrociata a tutte le altre visualizzazioni nella pagina di report.
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![Report con Interazioni con oggetti visivi attivato](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. Determinare l'impatto che la visualizzazione selezionata dovrà avere sulle altre.  Facoltativamente, ripetere per tutte le altre visualizzazioni nella pagina del report.
    
-   * Se deve applicare un filtro incrociato alla visualizzazione, selezionare l'icona del **filtro** ![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Se deve applicare un'evidenziazione incrociata alla visualizzazione, selezionare l'icona dell'**evidenziazione** ![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Se non deve avere alcun impatto, selezionare l'icona che indica **nessun impatto** ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
+   * Se deve applicare un filtro incrociato alla visualizzazione, selezionare l'icona del **filtro** ![Icona del filtro](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
+   * Se deve applicare un'evidenziazione incrociata alla visualizzazione, selezionare l'icona dell'**evidenziazione** ![Icona dell'evidenziazione](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
+   * Se non deve avere alcun impatto, selezionare l'icona che indica **nessun impatto** ![Icona che indica nessun impatto](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
 
 4. Per attivare i controlli di drill selezionare **Drill di filtri su altri oggetti visivi**.  Ora quando si esegue il drill-down (e il drill-up) in una visualizzazione, le altre visualizzazioni nella pagina del report cambiano per riflettere la selezione di drill corrente. 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![Video sull'attivazione dei controlli di drill](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Passaggi successivi
 [Come usare i filtri dei report](power-bi-how-to-report-filter.md)

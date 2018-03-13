@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cdea6474901dad27a4155b80fb605502102201a5
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Rinominare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come rinominare un dashboard, un report, una pagina del report, una cartella di lavoro, un set di dati, un'app e un'area di lavoro nel servizio Power BI.
@@ -41,20 +41,20 @@ Questo articolo illustra come rinominare un dashboard, un report, una pagina del
 | Contenuto in **Condivisi con l'utente corrente** |No |No |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Rinominare un dashboard, un report o una cartella di lavoro
-1. Iniziare in un'area di lavoro e selezionare la scheda **Dashboard**, **Report** o **Cartelle di lavoro**. Passare il puntatore sull'elemento da rinominare e selezionare l'icona dell'ingranaggio ![](media/service-rename/powerbi-cog-icon.png). Se non è presente alcuna icona a forma di ingranaggio, non si hanno le autorizzazioni per la ridenominazione.
+1. Iniziare in un'area di lavoro e selezionare la scheda **Dashboard**, **Report** o **Cartelle di lavoro**. Passare il puntatore sull'elemento da rinominare e selezionare l'icona dell'ingranaggio ![icona dell'ingranaggio](media/service-rename/powerbi-cog-icon.png). Se non è presente alcuna icona a forma di ingranaggio, non si hanno le autorizzazioni per la ridenominazione.
    
-   ![](media/service-rename/power-bi-workspace-dashboards.png)
+   ![Area di lavoro Servizio Power BI](media/service-rename/power-bi-workspace-dashboards.png)
 2. Nella pagina Impostazioni, digitare il nuovo nome e selezionare **Salva**.
    
-   ![](media/service-rename/power-bi-rename-dashboard2.png)
+   ![Finestra Impostazioni per il set di dati](media/service-rename/power-bi-rename-dashboard2.png)
 
 ## <a name="rename-a-dataset"></a>Rinominare un set di dati
 1. Iniziare in un'area di lavoro e selezionare la scheda **Set di dati**.
    
-   ![](media/service-rename/power-bi-ellipses.png)
+   ![Scheda Set di dati dell'area di lavoro](media/service-rename/power-bi-ellipses.png)
 2. Passare il puntatore sull'elemento da rinominare, selezionare i puntini di sospensione (...) e scegliere **Rinomina**.  
    
-      ![](media/service-rename/power-bi-rename-datasets.png)
+      ![Selezionare Rinomina](media/service-rename/power-bi-rename-datasets.png)
    
    > [!NOTE]
    > Le opzioni nel menu a discesa variano.
@@ -62,7 +62,7 @@ Questo articolo illustra come rinominare un dashboard, un report, una pagina del
    > 
 3. Nella pagina Impostazioni, digitare un nuovo nome e selezionare **Salva**.
    
-     ![](media/service-rename/power-bi-rename.png)
+     ![Rinominare il riquadro](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Rinominare un'area di lavoro per le app
 Chiunque abbia le autorizzazioni di amministratore può rinominare un'area di lavoro per le app.
@@ -70,10 +70,10 @@ Chiunque abbia le autorizzazioni di amministratore può rinominare un'area di la
 1. Iniziare nell'area di lavoro che si vuole rinominare.
 2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Modifica area di lavoro**. Se questa opzione non è visualizzata, non si hanno le autorizzazioni per rinominare questa area di lavoro. 
    
-    ![](media/service-rename/power-bi-edit-workspace.png)
+    ![Selezionare Modifica area di lavoro](media/service-rename/power-bi-edit-workspace.png)
 3. Digitare un nuovo nome per l'area di lavoro e selezionare **Salva**.
    
-   ![](media/service-rename/power-bi-workspace-rename.png)
+   ![Riquadro Modifica area di lavoro](media/service-rename/power-bi-workspace-rename.png)
 
 ## <a name="rename-a-page-in-a-report"></a>Rinominare una pagina in un report
 Modificare il nome di una pagina in un report di Power BI  è estremamente semplice. È possibile rinominare le pagine nella [Visualizzazione di modifica del report](service-interact-with-a-report-in-editing-view.md).
@@ -81,14 +81,14 @@ Modificare il nome di una pagina in un report di Power BI  è estremamente sempl
 1. Aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md).
 2. Individuare le linguette delle pagine di report nella parte inferiore della finestra di Power BI.
    
-    ![](media/service-rename/report-page-tabs-new.png)
+    ![Report con le schede evidenziate](media/service-rename/report-page-tabs-new.png)
 3. Selezionare la linguetta della pagina di report che si vuole rinominare.
 4. Fare doppio clic sul nome sulla linguetta per evidenziarlo.  
    
-    ![](media/service-rename/hilite-tab.png)
+    ![Dettaglio del nome di una scheda](media/service-rename/hilite-tab.png)
 5. Digitare il nuovo nome da assegnare alla pagina del report e premere INVIO.
    
-    ![](media/service-rename/new-name.png)
+    ![Digitare il nuovo nome della pagina](media/service-rename/new-name.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 * Se l'elemento da rinominare è stato condiviso con l'utente o fa parte di un pacchetto di contenuto, non verrà visualizzata l'icona dell'ingranaggio e non si avrà accesso a Impostazioni.

@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Che cos'è un report di Power BI?
 Un ***report*** di Power BI consente di visualizzare un set di dati da più punti di vista, grazie a visualizzazioni che rappresentano conclusioni e approfondimenti diversi ottenuti da tale set di dati.  Un report può includere una sola visualizzazione oppure contenere pagine con più visualizzazioni. In base al proprio ruolo, si può essere un utente che *crea* report e/o che *utilizza* report.
 
-![](media/service-reports/reportview.png)
+![Pagina del report](media/service-reports/reportview.png)
 
 Questo report è costituito da tre pagine (o schede). La pagina attualmente visualizzata è Store Sales Overview, costituita da sei diverse visualizzazioni e da un titolo. Le visualizzazioni possono essere *aggiunte* ai dashboard, in modo tale che quando si seleziona una visualizzazione aggiunta venga aperto il report da cui è stata aggiunta.
 

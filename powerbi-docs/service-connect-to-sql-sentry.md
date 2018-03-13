@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 6cb16aadfcae3d68beea71bb2f5a6befe68e984e
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Connettersi a SQL Sentry con Power BI
 L'analisi dei dati delle prestazioni raccolti da SQL Sentry è facile con Power BI. Power BI recupera infatti i dati, creando quindi un dashboard predefinito e report correlati basati su tali dati.
@@ -84,7 +85,7 @@ I dati seguenti sono disponibili da SQL Sentry in Power BI:
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>Individuazione dei parametri
-È possibile trovare l'**ID database** accedendo a <https://cloud.sqlsentry.com> in una nuova finestra del Web browser.  L' **ID database** è elencato nella pagina di panoramica principale:
+È possibile trovare l'**ID database** con l'accesso a <https://cloud.sqlsentry.com> in una nuova finestra del Web browser.  L' **ID database** è elencato nella pagina di panoramica principale:
 
     ![](media/service-connect-to-sql-sentry/database2.png)
 
@@ -96,7 +97,7 @@ L' **ID database** viene visualizzato anche nella schermata Dettagli database:
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Se i dati di qualche app non vengono visualizzati in Power BI, verificare di stare usando l'ID database corretto e di avere l'autorizzazione a visualizzare i dati. 
 
-Se non si è proprietari del database SQL Sentry che viene sincronizzato con <https://cloud.sqlsentry.com>, contattare l'amministratore per verificare di avere i diritti per la visualizzazione dei dati raccolti.
+Se non si è proprietari del database SQL Sentry in corso di sincronizzazione con <https://cloud.sqlsentry.com>, contattare l'amministratore per verificare di avere l'autorizzazione necessaria a visualizzare i dati raccolti.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione a Power BI](service-get-started.md)

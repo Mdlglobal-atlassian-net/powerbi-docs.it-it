@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 36a79b6ec984ee663868c5f20efaa8cd5b596d2a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
 Se si creano dashboard e report, le metriche di utilizzo aiutano a comprenderne l'impatto. L'esecuzione di metriche di utilizzo per dashboard o report permette di scoprire come vengono usati questi elementi all'interno dell'organizzazione, cosa viene usato, chi usa che cosa e per quale motivo lo usa.  
@@ -32,7 +33,7 @@ Se si creano dashboard e report, le metriche di utilizzo aiutano a comprenderne 
 
 Questi report sulle metriche di utilizzo sono di sola lettura. Tuttavia, è possibile personalizzare un report sulle metriche di utilizzo selezionando "Salva con nome". Questa operazione crea un nuovo set di dati e converte il report di sola lettura in un report Power BI modificabile con funzionalità complete. Il report personalizzato non solo contiene metriche per il dashboard o il report selezionato, ma consente anche di accedere alle metriche di utilizzo per tutti i dashboard o i report nell'area di lavoro selezionata, se si rimuove il filtro predefinito.
 
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![Report sulla metrica di utilizzo](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ## <a name="why-are-usage-metrics-important-to-me"></a>Perché le metriche di utilizzo sono importanti per me?
 Sapere come viene usato il contenuto consente di dimostrare l'impatto e assegnare priorità agli interventi. Le metriche di utilizzo possono mostrare che uno dei report viene utilizzato ogni giorno da un importante segmento dell'organizzazione e potrebbe mostrare che un dashboard creato dall'utente non viene affatto visualizzato. Questo tipo di commenti e suggerimenti è estremamente utile nel guidare gli interventi.
@@ -48,7 +49,7 @@ Sapere come viene usato il contenuto consente di dimostrare l'impatto e assegnar
 ## <a name="about-the-usage-metrics-report"></a>Informazioni sul report Metriche di utilizzo
 
 
-Quando si seleziona **Metriche di utilizzo** o l'icona ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png), Power BI genera un report predefinito con le metriche di utilizzo per tale contenuto relative agli ultimi 90 giorni.  L'aspetto del report è simile a quello dei tradizionali report di Power BI, ma è progettato per essere informale, non interattivo. È possibile suddividerlo in sezioni a seconda della modalità di accesso degli utenti finali, ossia a seconda del fatto che accedano tramite un'app Web o per dispositivi portatili, ecc. Man mano che i dashboard e i report si evolvono, si evolve anche il report sulle metriche di utilizzo, che viene aggiornato quotidianamente con i nuovi dati.  
+Quando si seleziona **Metriche di utilizzo** o l'icona ![Icona Metriche di utilizzo](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png), Power BI genera un report predefinito con le metriche di utilizzo per tale contenuto relative agli ultimi 90 giorni.  L'aspetto del report è simile a quello dei tradizionali report di Power BI, ma è progettato per essere informale, non interattivo. È possibile suddividerlo in sezioni a seconda della modalità di accesso degli utenti finali, ossia a seconda del fatto che accedano tramite un'app Web o per dispositivi portatili, ecc. Man mano che i dashboard e i report si evolvono, si evolve anche il report sulle metriche di utilizzo, che viene aggiornato quotidianamente con i nuovi dati.  
 
 Le metriche di utilizzo non vengono visualizzate in **Recenti**, **Aree di lavoro**, **Preferiti** o in altri elenchi di contenuti. Non possono essere aggiunte a un'app. Se si aggiunge un titolo di un rapporto sulle metriche di utilizzo a un dashboard, non è possibile aggiungere il dashboard a un pacchetto di app o contenuti.
 
@@ -56,14 +57,14 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Aprire un report Metriche di utilizzo per un dashboard o report
 1. Iniziare nell'area di lavoro che contiene il dashboard o report.
-2. Dall'elenco del contenuto dell'area di lavoro o dallo stesso dashboard o report, selezionare l'icona di **Metriche di utilizzo**  ![](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
+2. Dall'elenco del contenuto dell'area di lavoro o dallo stesso dashboard o report, selezionare l'icona di **Metriche di utilizzo** ![Icona Metriche di utilizzo](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
+    ![Scheda Dashboard](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
    
-    ![](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
+    ![Selezionare Metriche di utilizzo](media/service-usage-metrics/power-bi-run-usage-metrics-report2.png)
 3. La prima volta che si esegue questa operazione, Power BI crea un report sulle metriche di utilizzo e avvisa l'utente appena è pronto.
    
-    ![](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
+    ![Le metriche sono pronte](media/service-usage-metrics/power-bi-usage-metrics-ready.png)    
 4. Per aprire i risultati, selezionare **Visualizza metriche di utilizzo**.
    
     Le metriche di utilizzo possono essere un potente alleato quando si distribuiscono e si aggiornano dashboard e report Power BI. Come scegliere quali pagine del report è utile mantenere e quali eliminare? Sezionare in base alla **pagina del report** per scoprirlo. Come determinare se è opportuno creare un layout mobile per il dashboard? Sezionare in base alle **piattaforme** per scoprire quanti utenti accedono al contenuto tramite l'app per dispositivi mobili e quanti tramite il Web browser.
@@ -94,14 +95,14 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
 | Classificazione: condivisioni totali |sì |no |Per le condivisioni totali di tutti i dashboard nell'organizzazione negli ultimi 90 giorni, dove si classifica questo dashboard o report. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Report Metriche di utilizzo del dashboard
-![](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
+![Report Metriche di utilizzo del dashboard](media/service-usage-metrics/power-bi-dashboard-usage-metrics-update-3.png)
 
 ### <a name="report-usage-metrics-report"></a>Report Metriche di utilizzo del report
-![](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
+![Report Metriche di utilizzo del report](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
 ## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Salvataggio del report Metriche di utilizzo come report Power BI con funzionalità complete (personalizzato)
 
-![](media/service-usage-metrics/power-bi-save-as.png)
+![Salva con nome](media/service-usage-metrics/power-bi-save-as.png)
 
 Scegliere **Salva con nome** per convertire il report Metriche di utilizzo in un report di Power BI completo che può essere personalizzato e condiviso. Dopo aver creato una copia personalizzata, si avrà accesso completo al set di dati sottostante e sarà possibile personalizzare il report sulle metriche di utilizzo in base alle proprie esigenze specifiche. È possibile anche usare Power BI Desktop per creare report sulle metriche di utilizzo personalizzati usando la funzionalità di [connessione dinamica al servizio Power BI](https://powerbi.microsoft.com/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop).
 
@@ -116,16 +117,16 @@ Quando si crea una copia usando "Salva con nome" (copia personalizzata), Power B
 
 1. Nel report sulle metriche di utilizzo pre-compilato, selezionare **File > Salva con nome**. Power BI converte il report Metriche di utilizzo in un report di Power BI completo. Questo report viene definito un report sulle metriche di utilizzo *personalizzato*. Il report sull'utilizzo personalizzato e il set di dati vengono salvati nell'area di lavoro corrente denominata **mihart*.
    
-    ![](media/service-usage-metrics/power-bi-save-as.png)
+    ![Salva con nome](media/service-usage-metrics/power-bi-save-as.png)
 2. Aprire il report nella Visualizzazione di modifica e [interagire con esso come si farebbe con qualsiasi altro report di Power BI](service-interact-with-a-report-in-editing-view.md). Ad esempio, aggiungere nuove pagine e creare nuove visualizzazioni, aggiungere filtri, formattare i tipi di carattere e i colori, e così via.
    
-    ![](media/service-usage-metrics/power-vi-editing-view.png)
+    ![Aprire un report in Visualizzazione di modifica](media/service-usage-metrics/power-vi-editing-view.png)
 3. In alternativa, iniziare con un nuovo set di dati e creare un report da zero.
    
-    ![](media/service-usage-metrics/power-bi-new-dataset.png)
+    ![Scheda Set di dati](media/service-usage-metrics/power-bi-new-dataset.png)
 4. Il nuovo report viene salvato nell'area di lavoro corrente (mihart) e anche aggiunto all'elenco del contenuto **Recenti**.
    
-    ![](media/service-usage-metrics/power-bi-new-report.png)
+    ![Scheda Report](media/service-usage-metrics/power-bi-new-report.png)
 
 ### <a name="remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace"></a>Rimuovere il filtro per visualizzare ***tutti*** i dati sulle metriche di utilizzo nell'area di lavoro
 Per visualizzare le metriche di tutti i dashboard o di tutti i report nell'area di lavoro, è necessario rimuovere un filtro. Per impostazione predefinita, il report personalizzato viene filtrato per visualizzare le metriche solo per il dashboard o report usato per la creazione.
@@ -134,10 +135,10 @@ Ad esempio, se è stato usato il dashboard denominato "European sales" (Vendite 
 
 1. Aprire il report personalizzato nella visualizzazione di modifica.
    
-    ![](media/service-usage-metrics/power-bi-editing-view.png)
+    ![Selezionare Modifica report](media/service-usage-metrics/power-bi-editing-view.png)
 2. Nel riquadro Filtri, ricercare il bucket **Filtri a livello di report** e rimuovere il filtro selezionando la "x".
    
-    ![](media/service-usage-metrics/power-bi-report-level-filter2.png)
+    ![Rimuovere il filtro](media/service-usage-metrics/power-bi-report-level-filter2.png)
    
     A questo punto il report personalizzato visualizza le metriche per tutta l'area di lavoro.
 
@@ -146,13 +147,13 @@ I report sulle metriche di utilizzo sono una funzionalità che l'amministratore 
 
 1. Aprire il Portale di amministrazione selezionando l'icona dell'ingranaggio nell'angolo in alto a destra del servizio Power BI e scegliendo **Portale di amministrazione**.
    
-    ![](media/service-usage-metrics/power-bi-admin-portal-new.png)
+    ![Selezionare l'icona a forma di ingranaggio](media/service-usage-metrics/power-bi-admin-portal-new.png)
 2. Dal portale di amministrazione, selezionare **Impostazioni tenant** e scegliere **Metriche di utilizzo per i creatori di contenuti**.
    
-    ![](media/service-usage-metrics/power-bi-usage-settings.png)
+    ![Portale di amministrazione](media/service-usage-metrics/power-bi-usage-settings.png)
 3. Abilitare (o disabilitare) le metriche di utilizzo e selezionare **Applica**.
    
-    ![](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+    ![Metriche di utilizzo abilitate](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 Quando disabilitano le metriche di utilizzo per l'intera organizzazione, gli amministratori possono usare l'opzione **Elimina tutto il contenuto della metrica di utilizzo esistente** per eliminare tutti i report esistenti e i riquadri del dashboard creati usando i report e i set di dati delle metriche di utilizzo. Questa opzione rimuove completamente l'accesso ai dati delle metriche di utilizzo per tutti gli utenti dell'organizzazione che le usano. Occorre prestare attenzione, perché l'eliminazione del contenuto delle metriche di utilizzo è irreversibile.
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come eliminare un dashboard, un report, una cartella di lavoro, un set di dati, un'app, una visualizzazione e un'area di lavoro nel servizio Power BI.
@@ -36,21 +36,21 @@ I dashboard possono essere rimossi. La rimozione del dashboard non comporta l'el
 
 ### <a name="to-delete-a-dashboard"></a>Per eliminare un dashboard
 1. Nell'area di lavoro selezionare la scheda **Dashboard**.
-2. Trovare il dashboard da eliminare e selezionare l'icona Elimina ![](media/service-delete/power-bi-delete-icon.png).
+2. Trovare il dashboard da eliminare e selezionare l'icona Elimina ![Icona Elimina](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![Video](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Eliminare un report
 L'eliminazione di un report non elimina anche il set di dati su cui è basato.  Anche le visualizzazioni aggiunte dal report non vengono toccate, ma restano nel dashboard finché non vengono eliminate singolarmente.
 
 ### <a name="to-delete-a-report"></a>Per eliminare un report
 1. Nell'area di lavoro selezionare la scheda **Report**.
-2. Trovare il report da eliminare e selezionare l'icona Elimina ![](media/service-delete/power-bi-delete-icon.png).   
+2. Trovare il report da eliminare e selezionare l'icona Elimina   ![Icona Elimina](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![Scheda Report dell'area di lavoro](media/service-delete/power-bi-delete-reportnew.png)
 3. Confermare l'eliminazione.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Finestra di dialogo Elimina report](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > Se il report fa parte di un [pacchetto di contenuto](service-organizational-content-pack-introduction.md), non sarà possibile eliminarlo con questo metodo.  Vedere [Rimuovere la connessione a un pacchetto di contenuto aziendale](service-organizational-content-pack-disconnect.md).
@@ -64,12 +64,12 @@ Se la cartella di lavoro viene archiviata in OneDrive for Business, l'eliminazio
 
 ### <a name="to-delete-a-workbook"></a>Per eliminare una cartella di lavoro
 1. Nell'area di lavoro selezionare la scheda **Cartelle di lavoro**.
-2. Trovare la cartella di lavoro da eliminare e selezionare l'icona Elimina ![](media/service-delete/power-bi-delete-report2.png).
+2. Trovare la cartella di lavoro da eliminare e selezionare l'icona Elimina ![Icona Elimina](media/service-delete/power-bi-delete-report2.png) .
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Scheda Cartelle di lavoro](media/service-delete/power-bi-delete-workbooknew.png)
 3. Confermare l'eliminazione.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Finestra di dialogo Rimuovi cartella di lavoro](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Eliminare un set di dati
 I set di dati possono essere eliminati. Tuttavia, l'eliminazione di un set di dati elimina anche tutti i riquadri dei report e dei dashboard che contengono dati dal set di dati.
@@ -80,13 +80,13 @@ Se un set di dati fa parte di uno o più [pacchetti di contenuto aziendali](serv
 1. Nell'area di lavoro selezionare la scheda **Set di dati**.
 2. Trovare il set di dati da eliminare e scegliere i puntini di sospensione (...).  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![Scheda Set di dati](media/service-delete/power-bi-delete-datasetnew.png)
 3. Nel menu a discesa, selezionare **Elimina**.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![Menu di puntini di sospensione](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Confermare l'eliminazione.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Finestra di dialogo Elimina dashboard](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Eliminare un'area di lavoro per le app
 > [!WARNING]
@@ -99,13 +99,13 @@ L'autore dell'area di lavoro per le app ha la possibilità di eliminarla. In que
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Per eliminare un'area di lavoro per le app se si è amministratori
 1. Nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro**
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![Aree di lavoro per le app](media/service-delete/power-bi-delete-workspace.png)
 2. Selezionare i puntini di sospensione (...) a destra dell'area di lavoro da eliminare e scegliere **Modifica area di lavoro**.
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![Menu di puntini di sospensione > Modifica area di lavoro](media/service-delete/power-bi-edit-workspace.png)
 3. Nella finestra **Modifica area di lavoro**, selezionare **Elimina area di lavoro** > **Elimina**.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![Eliminare l'area di lavoro](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Per rimuovere un'area di lavoro per le app dall'elenco
 Se non si vuole più far parte di un'area di lavoro per le app, è possibile ***uscirne*** per rimuoverla dall'elenco. L'uscita da un'area di lavoro non ne comporta l'eliminazione per gli altri membri.  
@@ -118,7 +118,7 @@ Se non si vuole più far parte di un'area di lavoro per le app, è possibile ***
 1. Iniziare nell'area di lavoro per le app che si vuole rimuovere.
 2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Lascia l'area di lavoro** > **Esci**.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![Lasciare l'area di lavoro](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > Le opzioni disponibili nel menu a discesa variano a seconda che si sia un amministratore o un membro dell'area di lavoro per le app.
@@ -134,7 +134,7 @@ L'eliminazione di un'applicazione dalla pagina di elenco delle app non elimina l
 1. Nel riquadro di spostamento a sinistra, selezionare **App** per aprire la pagina di elenco delle app.
 2. Passare il puntatore sopra l'app da eliminare e selezionare l'icona Elimina ![](media/service-delete/power-bi-delete-report2.png).
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![Selezionare le app](media/service-delete/power-bi-delete-app.png)
 
    Se si rimuove un'app accidentalmente, sono disponibili diverse opzioni per recuperarla.  È possibile chiedere all'autore dell'app di inviarla nuovamente, è possibile trovare il messaggio originale con il collegamento all'app, è possibile controllare il [Centro notifiche](service-notification-center.md) per verificare se la notifica relativa a tale app è ancora elencata oppure è possibile controllare l'[AppSource](service-install-use-apps.md) dell'organizzazione.
 

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Aggiungere un riquadro
 Il controllo **Aggiungi riquadro** consente di aggiungere direttamente un'immagine, una casella di testo, un video, uno streaming di dati o un codice Web al dashboard.
 
-1. Selezionare **Aggiungi riquadro** nella barra dei menu superiore. A seconda delle limitazioni di spazio, potrebbe essere visualizzato solo il segno più (![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png)).
+1. Selezionare **Aggiungi riquadro** nella barra dei menu superiore. A seconda delle limitazioni di spazio, potrebbe essere visualizzato solo il segno più ![segno più](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Icona Aggiungi riquadro](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Selezionare il tipo di riquadro da aggiungere, ovvero **Immagine**, **Casella di testo**, **Video**, **Contenuto Web** o **Dati in streaming personalizzati**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![Finestra Aggiungi riquadro](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Aggiungere un'immagine
 Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashboard. È necessario salvare il file di immagine online e creare un collegamento. Assicurarsi che non siano necessarie credenziali speciali per accedere al file di immagine. Ad esempio OneDrive e SharePoint richiedono l'autenticazione, quindi le immagini che vi sono archiviate non possono essere aggiunte a un dashboard in questo modo.  
@@ -44,14 +45,14 @@ Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashbo
 1. Selezionare **Immagine** > **Avanti**.
 2. Aggiungere le informazioni alla finestra **Aggiungi riquadro immagine**.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![Finestra Aggiungi riquadro immagine](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * Per visualizzare un titolo sopra l'immagine, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo.
    * Immettere l'URL dell'immagine.
    * Per trasformare il riquadro in un collegamento ipertestuale, selezionare **Imposta collegamento personalizzato** e immettere l'URL.  Quando i colleghi selezionano questa immagine o questo titolo, verrà aperta la pagina corrispondente all'URL.
    * Selezionare **Applica**.  Nel dashboard ridimensionare e spostare l'immagine in base alla necessità.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![Immagine nel dashboard](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Aggiungere un'intestazione per una casella di testo o un dashboard
 1. Selezionare **Casella di testo > Avanti**.
@@ -64,11 +65,11 @@ Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashbo
    * Immettere e formattare il contenuto per la casella di testo.  
    * Facoltativamente, impostare un collegamento personalizzato per il titolo. Un collegamento personalizzato può essere un sito esterno o un dashboard oppure un report nell'area di lavoro. In questo esempio, tuttavia, sono stati aggiunti collegamenti ipertestuali entro la casella di testo, quindi occorre lasciare deselezionata l'opzione **Imposta collegamento personalizzato**.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Finestra Aggiungi riquadro casella di testo](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Selezionare **Applica**.  Nel dashboard ridimensionare e spostare la casella di testo in base alla necessità.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![Dashboard con immagine e casella di testo](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Aggiungere un video
 Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video viene riprodotto direttamente nel dashboard.
@@ -76,14 +77,14 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
 1. Selezionare **Video > Avanti**.
 2. Aggiungere le informazioni sul video al riquadro **Aggiungi riquadro video**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Finestra Aggiungi riquadro video](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * Per visualizzare un titolo e un sottotitolo nella parte superiore del riquadro del video, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo. In questo esempio si aggiungerà un sottotitolo e quindi lo si trasformerà in un collegamento ipertestuale relativo all'intera playlist su YouTube.
    * Immettere l'URL per il video.
    * Aggiungere un collegamento ipertestuale per il titolo e il sottotitolo.  Se, dopo che i colleghi hanno guardato il video incorporato, si vuole che visualizzino l'intera playlist su YouTube, aggiungere qui un collegamento alla playlist.
    * Selezionare **Applica**.  Nel dashboard ridimensionare e spostare il video in base alla necessità.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![Dashboard con riquadro video aggiunto](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. Selezionare il riquadro video per riprodurre il video.
 4. Selezionare il sottotitolo per visitare la playlist su YouTube.
 
@@ -96,13 +97,13 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
 1. Selezionare **Contenuto Web > Avanti**.
 2. Aggiungere le informazioni nel riquadro **Aggiungi riquadro contenuto Web**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Finestra Aggiungi riquadro contenuto Web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * Per visualizzare un titolo sopra il riquadro, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo.
    * Immettere il codice di incorporamento. In questo esempio viene copiato e incollato un feed di Twitter.
 3. Selezionare **Applica**.  Nel dashboard ridimensionare e spostare il contenuto Web in base alla necessità.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![Dashboard con 4 riquadri](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Suggerimenti per l'incorporamento di contenuto Web
 * Per iframes, usare un'origine sicura. Se si immette il codice di incorporamento iframe codice e si ottiene un riquadro vuoto, controllare se è usato **http** per l'origine iframe.  In questo caso, modificarlo in **https**.
@@ -145,10 +146,10 @@ Per modificare un riquadro:
 
 1. Passare il puntatore nell'angolo in alto a destra del riquadro e selezionare i puntini di sospensione.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![Selezionare i puntini di sospensione del riquadro](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selezionare l'icona di modifica per riaprire il riquadro **Dettagli riquadro** e apportare modifiche.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![Icona di modifica a forma di matita](media/service-dashboard-add-widget/pbi-edit.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 * Per semplificare lo spostamento del riquadro nel dashboard, aggiungere un titolo e/o un sottotitolo.

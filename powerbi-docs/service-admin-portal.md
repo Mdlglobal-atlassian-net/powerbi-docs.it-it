@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -193,6 +194,19 @@ Gli utenti dell'organizzazione possono pubblicare pacchetti di contenuto per l'i
 
 Gli utenti dell'organizzazione possono creare modelli di pacchetti di contenuto che usano set di dati basati su una sola origine dati in Power BI Desktop.
 
+### <a name="push-apps-to-end-users"></a>Push delle app agli utenti finali
+
+L'amministratore del tenant abilita il push delle app in **Impostazioni tenant**.
+
+   ![Abilitare il push delle app](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+È possibile configurare l'impostazione **Abilitato** e quindi specificare chi ottiene questa funzionalità, se l'intera organizzazione o gruppi di sicurezza specifici.
+
+> [!NOTE]
+> Tenere presente che le modifiche alle impostazioni del tenant possono richiedere tempo per diventare effettive.
+
+Sono disponibili altre informazioni sul [push delle app](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+
 ## <a name="integration-settings"></a>Impostazioni di integrazione
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Porre domande sui dati tramite Cortana
@@ -270,7 +284,7 @@ Per altre informazioni sulla gestione delle impostazioni Premium, vedere [Gestio
 
 Un amministratore può visualizzare i codici di incorporamento generati per il tenant. Sono disponibili le azioni per la visualizzazione del report e l'eliminazione del codice di incorporamento per rimuoverlo.
 
-## <a name="organization-visuals"></a>Oggetti visivi organizzazione
+## <a name="organization-visuals"></a>Oggetti visivi dell'organizzazione
 
 La scheda Oggetti visivi organizzazione consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione, in modo da poter distribuire facilmente oggetti visivi personalizzati proprietari all'interno dell'organizzazione e consentire agli autori di report di individuare e importare facilmente tali oggetti visivi direttamente da Power BI Desktop nei loro report.
  

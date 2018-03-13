@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 0723b3a7155626f875044fa813a522ef6d4923df
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Learn more
+ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Esercitazione: Analisi dei dati di vendita da Excel e da un feed OData
 Con **Power BI Desktop** è possibile connettersi a origini dati di qualsiasi tipo e quindi eseguirne la combinazione e il data shaping in modi che semplificano la creazione di analisi e visualizzazioni dei dati interessanti e stimolanti. In questa esercitazione verrà descritto come combinare dati da due origini dati. 
@@ -34,7 +35,7 @@ Il report finale avrà un aspetto analogo al seguente:
 
 ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/18.png)
 
-Per seguire i passaggi di questa esercitazione, è necessario scaricare la cartella di lavoro Products**.**[ Fare clic ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[qui](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)[ per scaricare ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**[. ](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)
+Per seguire i passaggi di questa esercitazione, è necessario scaricare la cartella di lavoro Products. **[Fare clic qui per scaricare Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx)**
 
 Nella finestra di dialogo **Salva con nome** assegnare al file il nome **Products.xlsx**.
 
@@ -82,7 +83,7 @@ Quando si eseguono attività di query nell'Editor di query, vengono creati passa
 | Modifica del tipo di dati |Modificato tipo |Table.TransformColumnTypes(\#"Rimosse altre colonne",{{"UnitsInStock", Int64.Type}}) |
 
 ## <a name="task-2-import-order-data-from-an-odata-feed"></a>Attività 2: Importare i dati degli ordini da un feed OData
-In questa attività vengono inseriti i dati degli ordini. Questo passaggio rappresenta la connessione a un sistema di vendite. I dati vengono importati in Power BI Desktop dal feed di esempio Northwind OData, disponibile all'URL seguente, che è possibile copiare (e quindi incollare) nel passaggio sotto: <http://services.odata.org/V3/Northwind/Northwind.svc/>. 
+In questa attività vengono inseriti i dati degli ordini. Questo passaggio rappresenta la connessione a un sistema di vendite. I dati vengono importati in Power BI Desktop dal feed di esempio Northwind OData, disponibile all'URL seguente, che è possibile copiare (e quindi incollare) nel passaggio sotto: <http://services.odata.org/V3/Northwind/Northwind.svc/> 
 
 ### <a name="step-1-connect-to-an-odata-feed"></a>Passaggio 1: Connettersi a un feed OData
 1. Nella scheda **Home** della barra multifunzione dell'Editor di query selezionare **Recupera dati**.

@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1a4290d06d623b21b64e1ff03fb0382a55dc2a3c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
@@ -36,39 +36,41 @@ La modalità ***messa a fuoco*** consente di espandere (aprire in una nuova fine
 > La modalità messa a fuoco è diversa dalla [modalità schermo intero](service-fullscreen-mode.md).
 > 
 ## <a name="focus-mode-for-dashboard-tiles"></a>Modalità messa a fuoco per riquadri del dashboard
-1. Passare il puntatore del mouse sulla visualizzazione del riquadro, selezionare i puntini di sospensione (...) e scegliere **Apri in modalità messa a fuoco** ![](media/service-focus-mode/power-bi-dashboard-focus-mode.png).  
+1. Passare il puntatore del mouse sulla visualizzazione del riquadro, selezionare i puntini di sospensione (...) e scegliere **Apri in modalità messa a fuoco** 
+
+    ![Menu di puntini di sospensione per il riquadro](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
    
 2. Il riquadro si apre e riempie l'intera area di disegno report. 
 
-   ![](media/service-focus-mode/power-bi-tile-focus.png)
+   ![Il riquadro riempie l'area di disegno del report](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Espandere il riquadro Filtri per visualizzare tutti i filtri applicati a questo oggetto visivo.
    
-   ![](media/service-focus-mode/power-bi-focus-filters.png)
+   ![Modalità messa a fuoco con il riquadro Filtri](media/service-focus-mode/power-bi-focus-filters.png)
 
 4. Esplorare ulteriormente modificando i filtri e, se si individua qualcosa di interessante, aggiungere l'oggetto visivo a un dashboard.
 
 5. Chiudere la modalità messa a fuoco e tornare al dashboard selezionando **< Esci dalla modalità messa a fuoco** (nell'angolo in alto a sinistra dell'oggetto visivo).
    
-    ![](media/service-focus-mode/power-bi-tile-exit-focus.png)    
+    ![Uscire dalla modalità messa a fuoco](media/service-focus-mode/power-bi-tile-exit-focus.png)    
 
 
 ## <a name="focus-mode-for-report-visualizations"></a>Modalità messa a fuoco per le visualizzazioni dei report
 
-1. Passare il puntatore del mouse sulla visualizzazione del report e selezionare l'icona ![](media/service-focus-mode/pbi_popout.jpg) della **modalità messa a fuoco**.  
+1. Passare il puntatore del mouse sulla visualizzazione del report e selezionare l'icona della **modalità messa a fuoco** ![Icona della modalità messa a fuoco](media/service-focus-mode/pbi_popout.jpg).  
    
-   ![](media/service-focus-mode/power-bi-hover-focus.png)
+   ![Icona della modalità messa a fuoco visualizzata nel riquadro](media/service-focus-mode/power-bi-hover-focus.png)
 2. La visualizzazione si apre e riempie l'intera area di disegno. 
 
    
-   ![](media/service-focus-mode/power-bi-display-focus-newer2.png)
+   ![Oggetto visivo nella modalità messa a fuoco](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Espandere il riquadro Filtri per visualizzare tutti i filtri applicati a questo oggetto visivo.
    
-   ![](media/service-focus-mode/power-bi-display-focus-filters.png)
+   ![Modalità messa a fuoco con la schermata Filtri](media/service-focus-mode/power-bi-display-focus-filters.png)
 4. Esplorare ulteriormente modificando i filtri e, se si individua qualcosa di interessante, aggiungere l'oggetto visivo a un dashboard.   
 5. Chiudere la modalità messa a fuoco e tornare al report selezionando **Torna al report** (nell'angolo in alto a sinistra dell'oggetto visivo). 
    
-    ![](media/service-focus-mode/power-bi-exit-focus-report.png)  
+    ![Uscire dalla modalità messa a fuoco](media/service-focus-mode/power-bi-exit-focus-report.png)  
 
 ## <a name="go-from-focus-mode-to-full-screen-mode"></a>Passare dalla modalità messa a fuoco alla modalità schermo intero
 In modalità messa a fuoco il riquadro o l'oggetto visivo può essere quindi [visualizzato a schermo intero (modalità TV)](service-fullscreen-mode.md). La modalità schermo intero consente la visualizzazione senza la distrazione di menu e i pulsanti di spostamento.

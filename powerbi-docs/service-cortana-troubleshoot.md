@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 352efd894eb58823c9f506089ee28b7d11b30687
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 80fb45e8f0d181779c699c081006b6610248dc50
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Risolvere i problemi relativi a Cortana per Power BI
 Questo articolo fa parte di una serie. Se non è già stato fatto, è consigliabile leggere i seguenti tre articoli.
@@ -95,7 +96,7 @@ Se i problemi persistono,  questo è un buon momento per eseguire lo strumento d
    Il fatto di avere ottenuto un risultato conferma che Cortana **è** abilitata in Power BI. A questo punto il problema è riconducibile a Windows oppure all'impostazione della lingua di Cortana o alla presenza di più di 100 set di dati abilitati per Cortana.
 
 ### <a name="having-trouble-retrieving-answers-from-a-dashboard"></a>Non si riesce a recuperare risposte da un dashboard?
-Si cerca un dashboard condiviso con l'utente corrente?  Aprire Power BI > **Condivisi con l'utente corrente** e individuare il nome del dashboard.  Digitare quindi tale nome nel campo *Utterances**.
+Si cerca un dashboard condiviso con l'utente corrente?  Aprire Power BI > **Condivisi con l'utente corrente** e individuare il nome del dashboard.  Digitare quindi tale nome nel campo **Utterances** (Espressioni).
 
 ![Aprire Condivisi con l'utente corrente in Power BI](media/service-cortana-troubleshoot/power-bi-cortana-shared-with-me.png)
 

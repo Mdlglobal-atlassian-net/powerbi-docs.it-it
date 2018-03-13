@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Modificare o rimuovere un riquadro del dashboard
 
@@ -54,23 +55,23 @@ In questo articolo vengono trattati gli argomenti seguenti.
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Creare una nuova visualizzazione e aggiungerla al dashboard
 1. Dal dashboard dell'Esempio di analisi della spesa IT selezionare il riquadro "Amount" per aprire il report.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Riquadro della quantità](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Aprire il report in visualizzazione di modifica selezionando **Modifica report** sulla barra dei menu in alto.
 
 3. Aggiungere una nuova pagina del report selezionando il segno più (+) nella parte inferiore del report.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![Icona segno più](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. Dal riquadro CAMPI selezionare **Fact > Amount** e **Business Area > Business Area**.
  
 5. Dal riquadro VISUALIZZAZIONI selezionare l'icona del grafico ad anello per convertire la visualizzazione in un grafico ad anello.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Riquadro Visualizzazioni](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Selezionare l'icona a forma di puntina e aggiungere il grafico ad anello al dashboard dell'Esempio di analisi della spesa IT.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![Passare il mouse sul riquadro](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Quando viene visualizzato il messaggio "Operazione riuscita", selezionare **Vai al dashboard**. Verrà richiesto di salvare le modifiche. Selezionare **Salva**.
 
@@ -86,24 +87,23 @@ Individuare il nuovo riquadro nel dashboard. Selezionare e tenere premuto il riq
 ## <a name="resize-the-tile"></a>Ridimensionare il riquadro
 È possibile creare riquadri di dimensioni diverse, da unità di riquadro 1x1 fino a 5x5. Selezionare e trascinare il punto di controllo (nell'angolo in basso a destra) per ridimensionare il riquadro.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![Video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>Menu di puntini di sospensione (...)
 
 1. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra del riquadro. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![Puntini di sospensione del riquadro](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Passare il puntatore del mouse sul riquadro "Account" del dashboard e selezionare i puntini di sospensione per visualizzare le opzioni. Le opzioni disponibili dipendono dal tipo di riquadro.  Ad esempio, le opzioni disponibili per un riquadro animato sono diverse rispetto alle opzioni per un riquadro di visualizzazione standard. Se un dashboard è stato condiviso con l'utente, ovvero se non si è il proprietario del dashboard, saranno inoltre disponibili meno opzioni.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![Menu opzioni puntini di sospensione](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Selezionare **Modifica dettagli** per aprire la finestra "Dettagli riquadro". 
 
     Modificare il titolo e il comportamento predefinito del riquadro.  È ad esempio possibile che si voglia stabilire che quando un *consumer* seleziona un riquadro non venga aperto il report usato per creare tale riquadro ma venga invece visualizzato un nuovo dashboard.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Individuare il nuovo riquadro nel dashboard. Selezionare e tenere premuto il riq
 ### <a name="rename-the-tile"></a>Rinominare il riquadro
 Nella parte superiore della finestra "Dettagli riquadro" cambiare **Titolo** in **Amount spent**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Finestra Dettagli riquadro](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Per impostazione predefinita, se si seleziona un riquadro viene in genere aperto
 
 2. Selezionare **Collega a un dashboard o un report nell'area di lavoro corrente** e quindi selezionare un'opzione dall'elenco a discesa.  In questo esempio è stato selezionato il dashboard dell'Esempio di analisi delle risorse umane. Se questo esempio non è già disponibile nell'area di lavoro, è possibile aggiungerlo e tornare a questo passaggio oppure selezionare un dashboard diverso. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Finestra di dialogo Funzionalità](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Selezionare **Applica**.
 
 4. Il nuovo titolo viene visualizzato nel riquadro.  Quando si seleziona il riquadro, Power BI apre il dashboard delle risorse umane. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![Titolo del riquadro](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Aggiungere il riquadro a un altro dashboard
-1. Dal menu a discesa con puntini di sospensione selezionare **Aggiungi sezione** ![](media/service-dashboard-edit-tile/pinnooutline.png) .
+1. Dal menu a discesa con puntini di sospensione selezionare **Aggiungi sezione** ![Icona della puntina](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Decidere se aggiungere un duplicato di questo riquadro a un dashboard esistente o a un nuovo dashboard. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Selezionare **Aggiungi**.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Eliminare il riquadro
-1. Per rimuovere in modo permanente un riquadro da un dashboard, selezionare **Elimina riquadro** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) dal menu a discesa con puntini di sospensione. 
+1. Per rimuovere in modo permanente un riquadro da un dashboard, selezionare **Elimina riquadro** ![Icona Elimina](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) dal menu a discesa con puntini di sospensione. 
 
 2. Se si elimina un riquadro, non viene eliminata la visualizzazione sottostante. Aprire il report sottostante selezionando il riquadro "Amount". Aprire l'ultima pagina del report per verificare che le visualizzazioni originali non siano state eliminate dal report. 
 

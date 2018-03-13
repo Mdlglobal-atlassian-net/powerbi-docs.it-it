@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
 Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo. office
@@ -86,7 +86,7 @@ Per completare l'invio, seguire questa procedura.
    * *Titolo invio:* il modo in cui verrà denominato l'invio nel centro sviluppatori
    * *Versione:* il numero di versione viene compilato automaticamente dal pacchetto dell'app del componente aggiuntivo.
    * *Data di rilascio (UTC):* selezionare una data per il rilascio della versione nello store. Se si sceglie una data futura, l'app non sarà disponibile nello store fino al raggiungimento di tale data.
-   * *Categoria:* la prima categoria verrà automaticamente compilata come "Visualizzazione dati + BI". Ecco come verranno contrassegnati tutti gli oggetti visivi personalizzati di Power BI. È possibile fornire fino a due altre categorie, per aiutare gli utenti a cercare facilmente l'oggetto visivo
+   * *Categoria:* la prima categoria verrà automaticamente compilata come "Visualizzazione dati + BI". In questo stesso modo verranno contrassegnati tutti gli oggetti visivi personalizzati di Power BI. È possibile fornire fino a due altre categorie, per aiutare gli utenti a cercare facilmente l'oggetto visivo
    * *Note per i test:* facoltativo, se si vogliono fornire istruzioni per i tester di Microsoft
    * *L'app chiama, supporta, contiene o usa la crittografia:* lasciare deselezionato
    * *Rendi disponibile questo componente aggiuntivo nel catalogo dei componenti aggiuntivi per Office per iPad:* lasciare deselezionato
@@ -121,7 +121,7 @@ Per completare l'invio, seguire questa procedura.
     > Se si seleziona un'altra opzione diversa da gratuita o se è presente del contenuto acquistato in-app nell'oggetto visivo inviato, l'invio verrà rifiutato.
     > 
     > 
-17. È ora possibile selezionare **Salva come bozza" e inviare in seguito oppure selezionare **Invia per approvazione** per inviare l'oggetto visivo personalizzato a Office Store.
+17. È ora possibile selezionare **Salva come bozza** e inviare in seguito oppure selezionare **Invia per approvazione** per inviare l'oggetto visivo personalizzato a Office Store.
 
 ## <a name="tracking-submission-status-and-usage"></a>Rilevamento dello stato e dell'utilizzo dell'invio
 È possibile esaminare il [criteri di convalida](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals).
