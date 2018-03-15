@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio Analisi della redditività dei clienti per Power BI
 
@@ -40,21 +40,22 @@ Per iniziare, Questa esercitazione usa il servizio Power BI e il pacchetto di co
 
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
 2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
-   
+
     ![](media/sample-datasets/power-bi-get-data.png)
 3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
-   
+
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selezionare l'**Esempio di analisi della redditività dei clienti**, quindi scegliere **Connetti**.  
-   
+
    ![Recupera dati](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. Gli esempi sono risorse utili per provare il funzionamento di Power BI.  
-   
+
    ![Asterisco](media/sample-customer-profitability/supplier-sample-asterisk.png)
-  
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop. [Esempio di analisi della redditività dei clienti](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
+In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop.
+[Esempio di analisi della redditività dei clienti](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
@@ -87,13 +88,13 @@ I riquadri sul lato destro del dashboard forniscono una scorecard del team. La r
 
 ![](media/sample-customer-profitability/power-bi-manager2.png)
 
-- Tutti i dirigenti, ad eccezione di Carlos, hanno già superato gli obiettivi di vendita. Ma le vendite effettive di Carlos sono le più alte. 
+- Tutti i dirigenti, ad eccezione di Carlos, hanno già superato gli obiettivi di vendita. Ma le vendite effettive di Carlos sono le più alte.
 - La percentuale di margine lordo di Annelie è la più bassa, ma si osserva un aumento costante a partire da marzo.
-- Valery, d'altro canto, ha visto un calo significativo della sua percentuale di margine lordo. 
-- Andrew, infine, ha avuto un anno volatile. 
+- Valery, d'altro canto, ha visto un calo significativo della sua percentuale di margine lordo.
+- Andrew, infine, ha avuto un anno volatile.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Esplorare i dati sottostanti del dashboard
-Questo dashboard contiene riquadri collegati a un report e a una cartella di lavoro di Excel. 
+Questo dashboard contiene riquadri collegati a un report e a una cartella di lavoro di Excel.
 
 ### <a name="open-the-excel-online-data-source"></a>Aprire l'origine dati di Excel Online
 Due riquadri in questo dashboard, "Target vs Actual" (Vendite previste ed effettive) e "Year Over Year Revenue Growth" (Crescita annuale dei ricavi) sono stati aggiunti da una cartella di lavoro di Excel. Pertanto, quando si seleziona uno di questi riquadri, Power BI apre l'origine dati, in questo caso, Excel Online.
@@ -112,14 +113,14 @@ Due riquadri in questo dashboard, "Target vs Actual" (Vendite previste ed effett
 
 4. Continuare a esplorare e se si trova qualcosa di interessante selezionare **Aggiungi** ![](media/sample-customer-profitability/power-bi-excel-pin.png) nell'angolo in alto a destra per [aggiungerla a un dashboard](service-dashboard-pin-tile-from-excel.md).
 
-5. Usare la freccia indietro del browser per tornare al dashboard. 
+5. Usare la freccia indietro del browser per tornare al dashboard.
 
 ### <a name="open-the-underlying-power-bi-report"></a>Aprire il report di Power BI sottostante
-La maggior parte dei riquadri nel dashboard di esempio di analisi della redditività dei clienti sono stati aggiunti dal report di esempio di analisi della redditività dei clienti sottostante. 
+La maggior parte dei riquadri nel dashboard di esempio di analisi della redditività dei clienti sono stati aggiunti dal report di esempio di analisi della redditività dei clienti sottostante.
 
-1. Selezionare uno di questi riquadri per aprire il report nella visualizzazione di lettura. 
+1. Selezionare uno di questi riquadri per aprire il report nella visualizzazione di lettura.
 
-2. Il report è composto da 3 pagine. Ogni scheda nella parte inferiore del report rappresenta una pagina. 
+2. Il report è composto da 3 pagine. Ogni scheda nella parte inferiore del report rappresenta una pagina.
 
     ![](media/sample-customer-profitability/power-bi-report-tabs.png)
 
@@ -155,10 +156,10 @@ In che modo varia la redditività per ogni settore? In che modo sono suddivisi i
 
 Nel grafico a bolle, la responsabile amministrativa cerca le bolle più grandi perché sono quelle che hanno l'impatto più significativo sui ricavi. Filtrare la pagina in base al responsabile facendo clic sui relativi nomi nel grafico ad aree facilita la visualizzazione dell'impatto di ogni responsabile in base al segmento del settore.
 
-* L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo)  
-* Il grafico di Annelie è simile, tranne per il fatto che lei si concentra solo su una manciata di segmenti del settore, con particolare attenzione al segmento Federal e al prodotto Gladius. 
-* Carlos è chiaramente concentrato sul segmento Services, con buon profitto. Ha migliorato notevolmente la percentuale di varianza per il segmento High Tech e in un nuovo segmento, Industrial, ha prodotto risultati eccezionali rispetto al budget. 
-* Tina lavora con pochi segmenti e vanta la percentuale di margine lordo più alta di tutti, ma le dimensioni in gran parte ridotte delle sue bolle mostrano che il suo impatto sul bilancio aziendale è minimo. 
+* L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo) 
+* Il grafico di Annelie è simile, tranne per il fatto che lei si concentra solo su una manciata di segmenti del settore, con particolare attenzione al segmento Federal e al prodotto Gladius.
+* Carlos è chiaramente concentrato sul segmento Services, con buon profitto. Ha migliorato notevolmente la percentuale di varianza per il segmento High Tech e in un nuovo segmento, Industrial, ha prodotto risultati eccezionali rispetto al budget.
+* Tina lavora con pochi segmenti e vanta la percentuale di margine lordo più alta di tutti, ma le dimensioni in gran parte ridotte delle sue bolle mostrano che il suo impatto sul bilancio aziendale è minimo.
 * Valery, che è responsabile di un solo prodotto, lavora solo in 5 segmenti del settore. La sua influenza sul settore è stagionale, ma produce sempre una bolla di grandi dimensioni, che indica un impatto significativo sul bilancio aziendale. Il settore può spiegare i suoi risultati negativi?
 
 ### <a name="executive-scorecard"></a>Executive Scorecard
@@ -174,9 +175,9 @@ Per questa analisi sarebbe utile determinare quale settore genera il maggior ric
     ![](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Digitare **total revenue by industry for Valery**(ricavo totale per settore per Valery). Notare gli aggiornamenti della visualizzazione mentre si digita la domanda.
-   
+
     ![](media/sample-customer-profitability/power-bi-qna.png)
-   
+
    La distribuzione è la maggiore area di ricavo per Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Eseguire un'analisi più approfondita aggiungendo filtri
@@ -184,15 +185,15 @@ Verrà ora esaminato il settore *Distribution*.
 
 1. Aprire la pagina del report "Industry Margin Analysis" (Analisi del margine del settore).
 2. Senza selezionare alcuna visualizzazione nella pagina del report, espandere il riquadro Filtri sulla destra, se non è già espanso. Nel riquadro Filtri dovrebbero essere visualizzati solo i filtri a livello di pagina.  
-   
+
    ![](media/sample-customer-profitability/power-bi-filters.png)
 3. Individuare il filtro per **Industry** (Settore) e selezionare la freccia per espandere l'elenco. A questo punto aggiungere un filtro di pagina per il settore Distribution (Distribuzione). Deselezionare innanzitutto tutte le opzioni selezionate, facendo clic sulla casella di controllo **Seleziona tutto**. Selezionare quindi solo **Distribution** (Distribuzione).  
-   
+
    ![](media/sample-customer-profitability/customer7.png)
 4. Il grafico ad aree "Gross margin by Month and Executive Name" indica che solo Valery e Tina hanno clienti in questo settore e che Valery ha lavorato in questo settore solo da giugno a novembre.   
-5. Selezionare **Tina** e quindi **Valery** nella legenda del grafico ad aree "Gross Margin by Month and Executive". Si noti che la parte dei ricavi totali in base al prodotto di Tina (indicata in "Total Revenue by Product") è davvero minima se confrontata a quella di Valery. 
+5. Selezionare **Tina** e quindi **Valery** nella legenda del grafico ad aree "Gross Margin by Month and Executive". Si noti che la parte dei ricavi totali in base al prodotto di Tina (indicata in "Total Revenue by Product") è davvero minima se confrontata a quella di Valery.
 6. Per visualizzare i ricavi effettivi, usare Domande e risposte per chiedere quale è il **totale dei ricavi per dirigente e per la distribuzione in base allo scenario**.  
-   
+
      ![](media/sample-customer-profitability/power-bi-qna2.png)
 
     In maniera simile, è possibile esplorare altri settori e persino aggiungere clienti agli elementi visivi per comprendere le cause delle prestazioni di Valery.
@@ -205,4 +206,3 @@ Si tratta di un ambiente sicuro in cui operare: è sempre possibile scegliere di
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard di Power BI, le domande e risposte e i report forniscono informazioni dettagliate sui dati del cliente. È ora possibile connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
 
 [Torna a Esempi per Power BI](sample-datasets.md)  
-
