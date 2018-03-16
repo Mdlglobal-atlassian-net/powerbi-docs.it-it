@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Aggiungere a Preferiti dashboard, report e app nel servizio Power BI
 Dopo aver aggiunto un contenuto a *Preferiti* è possibile accedere a tale contenuto da tutte le aree di lavoro.  I Preferiti sono in genere i contenuti a cui si accede con maggior frequenza.

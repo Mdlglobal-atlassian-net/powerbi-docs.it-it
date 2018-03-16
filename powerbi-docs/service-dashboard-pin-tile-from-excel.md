@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
 Prima di poter aggiungere un riquadro dalla cartella di lavoro di Excel, è necessario connettere la cartella di lavoro al servizio Power BI (app.powerbi.com). La connessione di una cartella di lavoro importa essenzialmente una versione di sola lettura collegata della cartella di lavoro nel servizio Power BI e consente di aggiungere gli intervalli ai dashboard. È anche possibile aggiungere un intero foglio di lavoro a un dashboard.  

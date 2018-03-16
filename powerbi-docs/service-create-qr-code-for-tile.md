@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un riquadro in Power BI da usare nelle app per dispositivi mobili
 I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI &#151;senza dover effettuare nessuno spostamento o ricerca.
 
 È possibile creare un codice a matrice nel servizio Power BI per i riquadri in un qualsiasi dashboard, persino in quelli che non è possibile modificare. Inserire quindi il codice a matrice in un percorso chiave. Si potrebbe ad esempio, incollarlo in un messaggio di posta elettronica, o stamparlo e incollarlo in un percorso specifico. 
 
-I colleghi con cui si è condiviso il dashboard possono [scansionare il codice a matrice per l'accesso al riquadro, direttamente dal proprio dispositivo mobile](mobile-apps-qr-code.md). Per fare questo possono usare lo scanner del codice a matrice che si trova nell'app Power BI o qualsiasi altro scanner di codici a matrice installato nel proprio dispositivo. .
+I colleghi con cui si è condiviso il dashboard possono [scansionare il codice a matrice per l'accesso al riquadro, direttamente dal proprio dispositivo mobile](mobile-apps-qr-code.md). Per fare questo possono usare lo scanner del codice a matrice che si trova nell'app Power BI o qualsiasi altro scanner di codici a matrice installato nel proprio dispositivo.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Creare un codice a matrice per un riquadro
 1. Aprire un dashboard nel servizio Power BI.

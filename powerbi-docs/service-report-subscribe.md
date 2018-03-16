@@ -20,10 +20,10 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 11e9a2ba499c6db2c75434d13c62bc53704a7cb3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Sottoscrivere un report o un dashboard di Power BI
 Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. 

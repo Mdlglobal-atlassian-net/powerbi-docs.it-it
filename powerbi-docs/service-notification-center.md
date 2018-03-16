@@ -20,10 +20,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: afa3753d04cfb74c2673d222a0b1e6b07a1f5118
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="power-bi-notifications"></a>Notifiche di Power BI
 Il centro notifiche è un feed sequenziale di informazioni relative all'esperienza utente di Power BI. Contiene messaggi sui nuovi dashboard condivisi con l'utente, sulle modifiche apportate allo spazio del gruppo, sulle informazioni relative a eventi e riunioni di Power BI, sugli avvisi impostati e altro ancora. È possibile [impostare gli avvisi nel servizio Power BI](service-set-data-alerts.md) e anche nelle app per dispositivi mobili di Power BI.

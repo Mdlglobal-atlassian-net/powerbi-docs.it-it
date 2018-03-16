@@ -20,10 +20,10 @@ ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
 Se si creano dashboard e report, le metriche di utilizzo aiutano a comprenderne l'impatto. L'esecuzione di metriche di utilizzo per dashboard o report permette di scoprire come vengono usati questi elementi all'interno dell'organizzazione, cosa viene usato, chi usa che cosa e per quale motivo lo usa.  
