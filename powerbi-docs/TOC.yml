@@ -862,6 +862,8 @@
       items:
         - name: App Power BI per iOS
           href: mobile-ios-ipad-iphone-apps.md
+        - name: Power BI per realtà mista
+          href: mobile-mixed-reality-app.md
         - name: Visualizzare report e indicatori KPI locali nelle app per dispositivi mobili
           href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
         - name: Dashboard nelle app per dispositivi mobili

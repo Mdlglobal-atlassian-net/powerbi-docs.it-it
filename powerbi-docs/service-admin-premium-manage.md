@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: c94cbdbeaf6c7186b21a22c318a4195dbc509da3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 Informazioni su come gestire le capacità di Power BI Premium e Power BI Embedded che forniscono risorse dedicate per il contenuto usato.
@@ -44,7 +44,7 @@ Per altre informazioni, vedere [What is Power BI Pro?](service-premium.md) (Che 
 Per sfruttare i vantaggi della capacità dedicata, è necessario acquistare una sottoscrizione per Power BI Premium all'interno dell'interfaccia di amministrazione di Office 365 o creare una risorsa di Power BI Embedded all'interno del portale di Microsoft Azure. Per altre informazioni, vedere gli argomenti seguenti:
 
 * **Power BI Premium:** [Come acquistare Power BI Premium](service-admin-premium-purchase.md)
-* **Power BI Embedded:**  presto disponibile.
+* **Power BI Embedded:** [Creare la capacità di Power BI Embedded nel portale di Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Quando si acquistano gli SKU di Power BI Premium, il tenant riceverà il numero corrispondente di memorie centrali virtuali da usare nelle capacità in esecuzione. Ad esempio, l'acquisto di uno SKU P3 di Power BI Premium fornisce al tenant 32 memorie centrali virtuali.
 
