@@ -1042,8 +1042,6 @@
           href: report-server/get-started.md
         - name: Novità
           href: report-server/whats-new.md
-        - name: Note sulla versione
-          href: report-server/release-notes.md
         - name: Log delle modifiche
           href: report-server/changelog.md
         - name: Sequenza temporale del supporto
