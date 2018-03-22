@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d4358be705de4908de6a9aedb0dbd78e2ef9e17f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ab6d935eb955dea5e2362a1cc52cf30657f4f8df
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-r-in-query-editor"></a>Uso di R nell'Editor di query
 È possibile usare **R**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di R nell'**Editor di query** consente di pulire i dati con R ed eseguire operazioni di data shaping e analisi in set di dati, tra cui completamento di dati mancanti, stime e clustering. **R** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.
@@ -31,9 +31,9 @@ ms.lasthandoff: 02/24/2018
 Per usare **R** nell'**Editor di query** di Power BI Desktop, è necessario installare **R** nel computer locale. È possibile scaricare e installare **R** gratuitamente da molte posizioni, tra cui la [pagina di download di Revolution Open](https://mran.revolutionanalytics.com/download/) e il [repository CRAN](https://cran.r-project.org/bin/windows/base/).
 
 ## <a name="using-r-in-query-editor"></a>Uso di R nell'Editor di query
-Per illustrare l'uso di **R** nell'**Editor di query** si userà un esempio tratto da un set di dati del mercato azionario, basato su un file CSV che è possibile [scaricare qui](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) per seguire la spiegazione. Ecco la procedura per questo esempio:
+Per illustrare l'uso di **R** nell'**Editor di query**, usare l'esempio tratto da un set di dati del mercato azionario che si basa su un file con estensione csv [scaricabile qui](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) e seguire la spiegazione. Ecco la procedura per questo esempio:
 
-1. Prima di tutto, caricare i dati in **Power BI Desktop**. In questo esempio si caricherà il file *EuStockMarkets_NA.csv*. Selezionare **Recupera dati > CSV** nella scheda **Home** della barra multifunzione in **Power BI Desktop**.
+1. Prima di tutto, caricare i dati in **Power BI Desktop**. Caricare il file *EuStockMarkets_NA.csv* in questo esempio e selezionare **Recupera dati > CSV** dalla barra multifunzione **Home** in **Power BI Desktop**.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 2. Selezionare il file e scegliere **Apri**. Il file CSV verrà visualizzato nella finestra di dialogo **File CSV**.
@@ -48,7 +48,7 @@ Per illustrare l'uso di **R** nell'**Editor di query** si userà un esempio trat
 5. Nella scheda **Trasforma** selezionare **Esegui script R**. Verrà visualizzato l'editor **Esegui script R** (illustrato nel passaggio successivo). Si noti che nelle righe 15 e 20 c'è un problema di dati mancanti, così come in altre righe non visibili nell'immagine seguente. La procedura seguente mostra come usare R per completare automaticamente le righe.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
-6. In questo esempio si immetterà il codice script seguente:
+6. In questo esempio immettere il codice script seguente:
    
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
@@ -57,31 +57,31 @@ Per illustrare l'uso di **R** nell'**Editor di query** si userà un esempio trat
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-   > Per il corretto funzionamento del codice script precedente, è necessario che nell'ambiente R sia installata la libreria *mice*. Per installare mice, eseguire quanto segue nell'installazione di R: |      > install.packages('mice')
+   > Per il corretto funzionamento del codice script precedente, è necessario che nell'ambiente R sia installata la libreria *mice*. Per installare la libreria mice, eseguire il comando seguente nell'installazione di R:     > install.packages('mice')
    > 
    > 
    
    Quando viene inserito nella finestra di dialogo **Esegui script R**, il codice sarà analogo al seguente:
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5b.png)
-7. Quando si seleziona **OK**, l'**Editor di query** mostra un avviso relativo alla privacy dei dati.
+7. Dopo aver selezionato **OK**, l'**Editor di query** visualizza un avviso relativo alla privacy dei dati.
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
 8. Per il corretto funzionamento degli script R nel servizio Power BI, è necessario impostare tutte le origini dati su *pubblico*. Per altre informazioni sulle impostazioni di privacy e sulle relative implicazioni, vedere [Livelli di privacy](desktop-privacy-levels.md).
    
    ![](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
    
-   A questo punto viene visualizzata una nuova colonna nell'area **Campi** denominata *completedValues*. Si noti che alcuni elementi dati risultano mancanti, ad esempio nelle righe 15 e 18. Nella prossima sezione si vedrà come questo problema viene gestito in R.
+   Si noti una nuova colonna nel riquadro **Campi** denominata *completedValues*. Si noti che alcuni elementi dati risultano mancanti, ad esempio nelle righe 15 e 18. Scoprire come questo problema viene gestito in R nella prossima sezione.
    
 
 Con appena cinque righe di script R, l'**Editor di query** ha inserito i valori mancanti con un modello predittivo.
 
 ## <a name="creating-visuals-from-r-script-data"></a>Creazione di oggetti visivi da dati di script R
-A questo punto è possibile creare un oggetto visivo per osservare come il codice script R con la libreria *mice* ha completato i valori mancanti, come mostrato nella figura seguente.
+A questo punto è possibile creare un oggetto visivo per osservare come il codice script R che usa la libreria *mice* ha completato i valori mancanti, come illustrato nella figura seguente:
 
 ![](media/desktop-r-in-query-editor/r-in-query-editor_8a.png)
 
-Una volta completato l'oggetto visivo e qualsiasi altro oggetto visivo si voglia creare con **Power BI Desktop**, è possibile salvare il file di **Power BI Desktop** (che viene salvato con estensione pbix) e quindi usare il modello di dati, compresi gli script R che ne fanno parte, nel servizio Power BI.
+Dopo aver completato l'oggetto visivo e aver creato tutti gli altri oggetti visivi necessari con **Power BI Desktop**, è possibile salvare il file di **Power BI Desktop** (che viene salvato con estensione pbix) e usare il modello di dati, compresi gli script R che ne fanno parte, nel servizio Power BI.
 
 > [!NOTE]
 > Se si vuole visualizzare un file con estensione pbix completato con questa procedura, il file di **Power BI Desktop** completato usato in questo esempio è disponibile per il download [qui](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with R in PQ.pbix).
@@ -100,7 +100,7 @@ Esistono alcune limitazioni per le query che includono script R creati nell'**Ed
   
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
   
-  Nella finestra di dialogo **Impostazioni origine dati** selezionare le origini dati e quindi scegliere **Modifica autorizzazioni** per assicurarsi che il **Livello di privacy** sia impostato su *Pubblico*.
+  Nella finestra di dialogo **Impostazioni origine dati** selezionare le origini dati, quindi scegliere **Modifica autorizzazioni** e verificare che l'opzione **Livello di privacy** sia impostata su *Pubblico*.
   
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * Per abilitare l'aggiornamento pianificato degli oggetti visivi o del set di dati R, è necessario abilitare l'opzione **Aggiornamento pianificato** e che nel computer che ospita la cartella di lavoro e l'installazione di R sia installato **Personal Gateway**. Per altre informazioni su entrambi, vedere la sezione precedente di questo articolo, in cui sono riportati collegamenti a informazioni più specifiche.

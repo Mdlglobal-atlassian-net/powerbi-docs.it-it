@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/09/2017
+ms.date: 03/08/2018
 ms.author: maghan
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c97f60e39d68060c8eb3396bac4eb7725dab9c86
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: adc78cceb8a6b6edd06896e53a1a64cf0d28b2b8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Uso di un indirizzo di posta elettronica alternativo
 Per impostazione predefinita, l'indirizzo di posta elettronica con cui è stata effettuata l'iscrizione a Power BI viene usato per inviare aggiornamenti sulle attività in Power BI,  ad esempio per inviare gli inviti di condivisione.
@@ -45,6 +45,19 @@ In alcuni casi si preferisce che questi messaggi vengano inviati a un indirizzo 
 > La modifica di questa impostazione non influisce sull'indirizzo di posta elettronica usato per inviare aggiornamenti del servizio, newsletter e altre comunicazioni di carattere promozionale.  Questi messaggi verranno sempre inviati all'indirizzo usato in origine durante la registrazione a Power BI.
 > 
 > 
+
+## <a name="updating-through-azure-active-directory"></a>Aggiornamento tramite Azure Active Directory
+Quando si acquisisce un token di incorporamento di Azure Active Directory (AAD) per Power BI, è possibile usare tre diversi tipi di indirizzo di posta elettronica. I tre diversi tipi sono:
+
+* l'indirizzo di posta elettronica principale associato all'account AAD di un utente
+* l'indirizzo di posta elettronica UPN (UserPrincipalName)
+* l'attributo della matrice dell'indirizzo di posta elettronica "altro"
+
+Power BI seleziona l'indirizzo di posta elettronica da usare in base ai criteri seguenti:
+1.  Se l'attributo relativo alla posta elettronica è presente nell'oggetto utente del tenant AAD, Power BI usa questo attributo per l'indirizzo di posta elettronica
+2.  Se l'indirizzo di posta elettronica UPN *non* è un indirizzo di posta elettronica di un dominio **\*.onmicrosoft.com** (l'informazione dopo il simbolo "@"), Power BI usa questo attributo per l'indirizzo di posta elettronica
+3.  Se l'attributo della matrice dell'indirizzo di posta elettronica "altro" è presente nell'oggetto utente di AAD, verrà usato il primo indirizzo di posta elettronica in questo elenco, poiché in questo attributo può essere presente un elenco di indirizzi di posta elettronica
+4. Se nessuna delle condizioni precedenti è presente, verrà usato l'indirizzo UPN
 
 ## <a name="updating-with-powershell"></a>Aggiornamento con PowerShell
 È possibile aggiornare l'indirizzo di posta elettronica alternativo tramite PowerShell per Azure Active Directory. Per questa operazione, eseguire il comando [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).

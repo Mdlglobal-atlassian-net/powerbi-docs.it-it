@@ -1,5 +1,5 @@
 ---
-title: Uso dei segnalibri in Power BI (anteprima)
+title: Uso dei segnalibri in Power BI
 description: I segnalibri in Power BI Desktop consentono di salvare visualizzazioni e impostazioni nei report e creare presentazioni di tipo storia
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI (anteprima)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 Con i **segnalibri** in Power BI, è possibile acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
 
 È anche possibile creare una raccolta di segnalibri, disporli nell'ordine desiderato e successivamente passare da un segnalibro all'altro in una presentazione per evidenziare una serie di informazioni dettagliate oppure la storia che si vuole narrare tramite gli oggetti visivi e i report. 
@@ -33,12 +33,14 @@ Con i **segnalibri** in Power BI, è possibile acquisire la visualizzazione attu
 
 I segnalibri possono avere diversi usi. È possibile usarli per tenere traccia dello stato di avanzamento per la creazione dei report (i segnalibri sono facili da aggiungere, eliminare e rinominare) oppure per creare una presentazione tipo PowerPoint che scorre i segnalibri nell'ordine specificato per comunicare una storia con un report. È anche possibile usare i segnalibri in altri modi, a seconda di come si ritiene più opportuno.
 
-### <a name="enable-the-bookmarks-preview"></a>Abilitare l'anteprima dei segnalibri
-È possibile provare la nuova funzionalità **segnalibri** a partire dalla versione di **Power BI Desktop** di **ottobre 2017** e anche nel **servizio Power BI** per i report abilitati per i segnalibri. Per abilitare questa funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo accanto a **Segnalibri**. Dopo aver effettuato la selezione è necessario riavviare Power BI Desktop.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Abilitare l'anteprima dei segnalibri (versioni precedenti all'aggiornamento di marzo 2018)
+A partire dalla versione di marzo 2018 di Power BI Desktop i segnalibri sono disponibili a livello generale. 
+
+È sempre consigliabile eseguire l'aggiornamento alla versione più recente. Se tuttavia la versione di Power BI Desktop in uso è precedente, è possibile provare la nuova funzionalità **segnalibri** a partire dalla versione di **Power BI Desktop** di **ottobre 2017** e anche nel **servizio Power BI** per i report abilitati per i segnalibri. Per abilitare la funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo accanto a **Segnalibri**. 
 
 ![Abilitare i segnalibri nella finestra Opzioni](media/desktop-bookmarks/bookmarks_02.png)
 
-Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop**.
+Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop** per abilitare la versione di anteprima dei segnalibri.
 
 ## <a name="using-bookmarks"></a>Utilizzo dei segnalibri
 Per usare i segnalibri, selezionare la barra multifunzione **Visualizza**, quindi selezionare la casella per **Riquadro dei segnalibri**. 
@@ -147,14 +149,13 @@ Nel **servizio Power BI** il **riquadro Segnalibri** funziona esattamente come i
 Si noti che per spostarsi tra i segnalibri è necessario usare la barra del titolo del segnalibro grigia e non le frecce nere, in quanto le frecce nere consentono di spostarsi tra le pagine del report e non tra i segnalibri.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-Per questa versione in anteprima dei **Segnalibri** occorre tenere presenti alcune limitazioni e considerazioni.
+Per questa versione dei **segnalibri**, tenere presenti alcune limitazioni e considerazioni.
 
 * Se gli oggetti visivi personalizzati costituiscono l'*origine* del filtro, non funzionano con i segnalibri. Se si usano gli oggetti visivi personalizzati per filtrare gli elementi in una pagina, ad esempio il quadratino, e si torna a quella pagina usando un segnalibro, la pagina potrebbe risultare filtrata ma l'oggetto visivo personalizzato non verrà aggiornato per mostrare la modalità di filtro della pagina. 
 * Quando si crea un segnalibro, lo stato dell'evidenziazione incrociata per un riquadro di report *non* viene salvato. 
 * Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo verrà visualizzato nel suo stato predefinito. Questo significa anche se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporterà in base allo stato predefinito.
 * Se dopo aver creato un segnalibro gli oggetti visivi vengono spostati, le modifiche si rifletteranno nel segnalibro. 
 * È *necessario* avere almeno un segnalibro nel report quando lo si pubblica nel **servizio Power BI**, in modo da rendere disponibili i segnalibri nel servizio. Si tratta di un requisito per ogni report pubblicato.
-* Poiché i segnalibri sono attualmente una funzionalità in anteprima, non sono ancora disponibili in [**Power BI Desktop per il server di report**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni sulle funzionalità simili o su come interagire con i segnalibri, vedere gli articoli seguenti:

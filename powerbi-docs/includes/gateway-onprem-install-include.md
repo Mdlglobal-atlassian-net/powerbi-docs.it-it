@@ -15,9 +15,9 @@ Occorre notare alcuni aspetti dell'installazione di entrambe le modalità del ga
 
 * Con entrambi i gateway sono richiesti sistemi operativi Windows a 64 bit.
 * I gateway non possono essere installati in un controller di dominio.
-* È possibile installare fino a due gateway dati locali nello stesso computer, uno per ogni modalità di esecuzione (Personale e Standard). 
+* È possibile installare fino a due Gateway dati locali nello stesso computer, uno per ogni modalità di esecuzione (Personale e Standard). 
 * Non è possibile avere più di un gateway in esecuzione con la stessa modalità nello stesso computer.
-* È possibile installare più gateway dati locali in computer diversi e gestirli tutti dalla stessa interfaccia di gestione gateway di Power BI, ad eccezione della modalità Personale, come indicato al punto seguente.
+* È possibile installare più Gateway dati locali in computer diversi e gestirli tutti dalla stessa interfaccia di gestione gateway di Power BI, ad eccezione della modalità Personale, come indicato al punto seguente.
 * È possibile eseguire un solo gateway in modalità Personale per ogni utente di Power BI. Se si installa un altro gateway in modalità Personale per lo stesso utente, anche in un computer diverso, l'installazione più recente sostituisce l'installazione esistente precedente.
 
 ![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)

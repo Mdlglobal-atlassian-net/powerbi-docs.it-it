@@ -18,21 +18,21 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e4415f4315400e7ff11c356badee19eebace82b7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c28a53f4421c88bfc6237813ce6fdb76cc160cd
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Connettersi ai dati usando interfacce generiche in Power BI Desktop
-È possibile connettersi a una vasta gamma di origini dati diverse in **Power BI Desktop** usando connettori dati incorporati che vanno dai **database di Access** alle risorse **Zendesk**, come illustrato nella finestra **Recupera dati**. È anche possibile connettersi a molti *altri* tipi di origini dati, espandendo ulteriormente le opzioni di connessione, con le interfacce generiche (ad esempio **ODBC** o le **API REST**) incorporate in **Power BI Desktop**.
+È possibile connettersi a una vasta gamma di origini dati diverse in **Power BI Desktop** usando connettori dati incorporati che vanno dai **database di Access** alle risorse **Zendesk**, come illustrato nella finestra **Recupera dati**. Per espandere le opzioni di connessione è anche possibile connettersi a molti *altri* tipi di origini dati mediante le interfacce generiche (ad esempio **ODBC** o le **API REST**) incorporate in **Power BI Desktop**.
 
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Interfacce di dati di Power BI Desktop
 **Power BI Desktop** include una raccolta in continua crescita di connettori di dati creati per connettersi a un'origine dati specifica. Ad esempio, durante la sequenza di connessione il connettore dati **Elenco SharePoint** fornisce campi specifici e informazioni di supporto progettati in maniera specifica per **Elenchi SharePoint**, che vale con altre origini dati disponibili nella finestra visualizzata quando si seleziona **Recupera dati > Altro...** (illustrata nella figura precedente).
 
-In più, **Power BI Desktop** consente di connettersi alle origini dati che non vengono individuate specificamente negli elenchi **Recupera dati** usando una delle interfacce dati generiche seguenti:
+**Power BI Desktop** consente anche di connettersi alle origini dati che non vengono individuate specificamente negli elenchi **Recupera dati** usando una delle interfacce dati generiche seguenti:
 
 * **ODBC**
 * **OLE DB**
@@ -44,7 +44,7 @@ Fornendo i parametri appropriati nelle finestre di connessione che queste interf
 
 Nelle sezioni seguenti, è possibile trovare gli elenchi delle origini dati accessibili usando le interfacce generiche.
 
-Non è stato possibile trovare l'origine dati che si voleva usare con **Power BI Desktop**? È possibile [segnalarlo](https://ideas.powerbi.com/) in modo che venga aggiunta al nostro elenco di idee e richieste.
+Non è stato possibile trovare l'origine dati che si voleva usare con **Power BI Desktop**? Aggiungere l'idea all'[elenco di idee e richieste](https://ideas.powerbi.com/) di Power BI.
 
 ## <a name="data-sources-accessible-through-odbc"></a>Origini dati accessibili tramite ODBC
 Il connettore **ODBC** in **Power BI Desktop** consente di importare i dati da qualsiasi driver ODBC di terze parti semplicemente specificando un **nome dell'origine dati (DSN)** o una *stringa di connessione*. In alternativa, è anche possibile specificare un'istruzione SQL da eseguire nel driver ODBC.
@@ -114,7 +114,7 @@ Nell'elenco seguente sono illustrati alcuni esempi di origini dati a cui **Power
 | Script R |File di statistiche R |[Istruzioni di Script R in CRAN](https://cran.r-project.org/doc/manuals/R-data.html) |
 
 ## <a name="next-steps"></a>Passaggi successivi
-È possibile connettersi a molti tipi di origini dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
+È possibile connettersi a molti tipi di origini dati usando **Power BI Desktop**. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
 * [Introduzione a Power BI Desktop](desktop-getting-started.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)

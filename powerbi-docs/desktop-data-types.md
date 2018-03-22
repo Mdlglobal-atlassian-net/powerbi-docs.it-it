@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -42,7 +42,7 @@ In Power BI Desktop è possibile determinare e specificare il tipo di dati di un
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-L'elenco a discesa Tipo di dati nell'Editor di query contiene due tipi di dati che attualmente non sono presenti nella Vista dati o nella Visualizzazione report: **Data/Ora/Fuso orario** e **Durata**. Quando una colonna con questi tipi di dati viene caricata nel modello e visualizzata nella Vista dati o nella Visualizzazione report, la colonna con il tipo di dati Data/Ora/Fuso orario viene convertita nel tipo Data/Ora mentre la colonna con il tipo di dati Durata viene convertita nel tipo Numero decimale.
+L'elenco a discesa Tipo di dati nell'Editor di query contiene due tipi di dati che attualmente non sono presenti nella Vista dati o nella Visualizzazione report: **Data/Ora/Fuso orario** e **Durata**. Quando una colonna con questi tipi di dati viene caricata nel modello e visualizzata in Dati o Report, la colonna con il tipo di dati Data/Ora/Fuso orario viene convertita nel tipo Data/Ora mentre la colonna con il tipo di dati Durata viene convertita nel tipo Numero decimale.
 
 ### <a name="number-types"></a>Tipi numerici
 Power BI Desktop supporta tre tipi numerici:
@@ -125,7 +125,7 @@ Se, ad esempio, in un'operazione di sottrazione viene usata una data con qualsia
 > 
 > 
 
-**Moltiplicazione(*)**
+**Moltiplicazione (*)**
 
 | Operatore(*) | INTEGER | CURRENCY | REAL | Data/Ora |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ Le espressioni DAX seguenti illustrano questo comportamento:
 
 =IF(FALSE()\>"true","Expression is true", "Expression is false"), restituisce "Expression is true"
 
-=IF("12"\>12,"Expression is true", "Expression is false"), restituisce "Expression is true".
+=IF("12"\>12,"Expression is true", "Expression is false"), restituisce "Expression is true"
 
 =IF("12"=12,"Expression is true", "Expression is false"), restituisce "Expression is false"
 

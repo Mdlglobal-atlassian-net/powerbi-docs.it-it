@@ -2,7 +2,7 @@
 Gli utenti eseguiranno l'accesso con un account aziendale o dell'istituto di istruzione. Questo è l'account aziendale. Se è stata effettuata l'iscrizione per un'offerta di Office 365 senza specificare l'indirizzo di posta elettronica dell'ufficio, questo può apparire come nancy@contoso.onmicrosoft.com. All'interno di un servizio cloud, l'account viene archiviato in un tenant di Azure Active Directory (AAD). Nella maggior parte dei casi, l'UPN dell'account AAD corrisponderà all'indirizzo di posta elettronica.
 
 ## <a name="windows-service-account"></a>Account del Servizio di Windows
-Il gateway dati locale è configurato in modo da usare *NT SERVICE\PBIEgwService* per il servizio Windows di Registro credenziali. Per impostazione predefinita, ha il diritto Accedi come servizio a seconda del contesto del computer su cui si sta installando il gateway.
+Il Gateway dati locale è configurato per l'uso di *NT SERVICE\PBIEgwService* per le credenziali di accesso al servizio di Windows. Per impostazione predefinita, ha il diritto Accedi come servizio a seconda del contesto del computer su cui si sta installando il gateway.
 
 > [!NOTE]
 > Se è stata selezionata la modalità personale, configurare separatamente l'account del servizio di Windows.
@@ -66,7 +66,7 @@ Per riferimento futuro, è possibile riavviare il *servizio Windows del gateway*
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>Supporto per TLS 1.1/1.2
-A partire dall'aggiornamento di agosto 2017 e versioni successive, per impostazione predefinita il gateway dati locale usa il protocollo TLS (Transport Layer Security) 1.1 o 1.2 per comunicare con il **servizio Power BI**. Le versioni precedenti del gateway dati locale usano TLS 1.0 per impostazione predefinita. A partire dal 15 marzo 2018 il supporto per TLS 1.0 terminerà e il gateway non potrà più interagire con il **servizio Power BI** tramite TLS 1.0. Entro tale data è necessario aggiornare le installazioni del gateway dati locale alla versione di agosto 2017 o a una versione più recente, per garantire che i gateway continuino a funzionare correttamente.
+A partire dall'aggiornamento di agosto 2017 e versioni successive, per impostazione predefinita il gateway dati locale usa il protocollo TLS (Transport Layer Security) 1.1 o 1.2 per comunicare con il **servizio Power BI**. Le versioni precedenti del gateway dati locale usano TLS 1.0 per impostazione predefinita. A partire dal 15 marzo 2018, il supporto per TLS 1.0 terminerà e il gateway non potrà più interagire con il **servizio Power BI** tramite TLS 1.0. Entro tale data è quindi necessario aggiornare le installazioni del Gateway dati locale alla versione di agosto 2017 o a una versione più recente per garantire che i gateway continuino a funzionare correttamente.
 
 È importante notare che TLS 1.0 è ancora supportato dal gateway dati locale prima dell'1 novembre e viene usato dal gateway come meccanismo di fallback. Per assicurare che tutto il traffico del gateway usi TLS 1.1 o 1.2 e per evitare l'uso di TLS 1.0 nel gateway, è necessario aggiungere o modificare le chiavi del Registro di sistema seguenti nel computer che esegue il servizio gateway:
 

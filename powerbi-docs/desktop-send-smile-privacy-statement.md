@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Informativa sulla privacy Invia smile di Power BI Desktop
+
+A partire dalla versione di marzo 2018 di **Power BI Desktop**, la segnalazione errori usa la piattaforma Segnalazione errori Windows anziché le funzionalità *Invia smile* o *Invia faccia imbronciata*. Per altre informazioni sulla piattaforma Segnalazione errori Windows, vedere il [blog sulla privacy di Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Per le versioni di Power BI Desktop precedenti a marzo 2018
+
 Microsoft sta lavorando attivamente alla protezione della privacy degli utenti, fornendo al contempo prodotti che offrono le prestazioni, la potenza e la praticità desiderate. Questa Informativa sulla privacy illustra molte delle procedure di raccolta e uso dei dati di feedback *Invia Smile* di Microsoft Power BI Desktop. Non è applicabile ad altri siti, prodotti o servizi Microsoft online oppure offline.
 
 Se non altrimenti indicato nella presente informativa, *Invia Smile* non invia informazioni personali a Microsoft. Le informazioni inviate a Microsoft non sono condivise al di fuori di Microsoft e delle sue società affiliate e consociate controllate senza l'autorizzazione dell'utente.

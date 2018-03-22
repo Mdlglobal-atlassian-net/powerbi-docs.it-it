@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 173093cd7b8601357c893e2299031f331c440a75
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Introduzione all'app Power BI per dispositivi mobili nei telefoni Android
 L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. 
@@ -33,7 +33,7 @@ L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobil
 * [Pubblicarli nel servizio Power BI](service-get-started.md) e creare dashboard.
 * [Pubblicarli in locale nel Server di report di Power BI](report-server/quickstart-create-powerbi-report.md).
 
-Quindi, nell'app Power BI per telefoni Android, è possibile interagire con i dashboard e i report, in locale o nel cloud.
+Nell'app Power BI per telefoni Android è quindi possibile interagire con i dashboard e i report, in locale o nel cloud.
 
 Informazioni sulle [Novità delle app Power BI per dispositivi mobili](mobile-whats-new-in-the-mobile-apps.md).
 
@@ -142,4 +142,5 @@ Ecco alcune operazioni che è possibile eseguire nell'app Power BI per telefoni 
 * [Scaricare l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
 * [Introduzione a Power BI](service-get-started.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+
 
