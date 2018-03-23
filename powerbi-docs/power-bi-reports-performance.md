@@ -2,14 +2,14 @@
 title: Procedure consigliate per le prestazioni di Power BI
 description: Questo articolo fornisce indicazioni per creare report veloci e affidabili in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
@@ -130,7 +130,7 @@ Tramite SQL Profiler è possibile identificare le query che utilizzano il tempo 
 
 ## <a name="gateway-best-practices"></a>Procedure consigliate per il gateway 
 
-Il gateway dati locale è un ottimo strumento per connettere il servizio Power BI ai dati locali. Allo stesso tempo, se la pianificazione non è adeguata, può trasformarsi in un collo di bottiglia per le prestazioni del report, in particolare per i set di dati DirectQuery/connessione dinamica, in cui tutte le query e le risposte delle query transitano attraverso il gateway. Di seguito sono riportate alcune procedure consigliate per garantire le prestazioni elevate dei gateway: 
+Il gateway di gestione dati locale è un ottimo strumento per connettere il servizio Power BI ai dati locali. Allo stesso tempo, se la pianificazione non è adeguata, può trasformarsi in un collo di bottiglia per le prestazioni del report, in particolare per i set di dati DirectQuery/connessione dinamica, in cui tutte le query e le risposte delle query transitano attraverso il gateway. Di seguito sono riportate alcune procedure consigliate per garantire le prestazioni elevate dei gateway: 
  
 - **Usare la modalità Enterprise**, rispetto alla modalità personale. 
 - **Specifiche hardware consigliate per il gateway**: 8 core CPU, 16 GB di RAM. 

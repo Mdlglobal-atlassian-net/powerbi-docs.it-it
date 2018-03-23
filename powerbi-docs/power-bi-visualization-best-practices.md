@@ -2,14 +2,14 @@
 title: Procedure consigliate per la progettazione di report e oggetti visivi (white paper)
 description: 'White paper: procedure consigliate per la progettazione di report in Power BI'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Procedure consigliate per la progettazione di report e oggetti visivi
 <!-- Shared newnav Include -->
@@ -53,7 +53,7 @@ La creazione di un report inizia in effetti prima di creare il primo oggetto vis
 
 La progettazione si baserà sulle risposte a queste domande. Ogni report racconta una storia ed è importante assicurarsi che la storia corrisponda le esigenze aziendali. Si potrebbe cadere nella tentazione di aggiungere oggetti grafici per rappresentare con grande enfasi i dettagli, ma se queste informazioni non corrispondono alle esigenze aziendali il report non sarà di alcuna utilità e gli utenti potrebbero essere addirittura distratti dalla presenza di questi oggetti visivi. Potrebbe anche risultare impossibile estrapolare da questi dati le informazioni necessarie per prendere una specifica decisione. Il report consente di misurare quello che serve?
 
-I report possono essere usati per molti scopi, tra i quali monitorare, scoprire, tenere traccia, stimare, misurare, gestire, testare e così via. Ad esempio, se l'esigenza aziendale è avere a disposizione un report sulle vendite che misura le prestazioni, si potrebbe progettare un report che esamina le vendite correnti, le confronta con le vendite precedenti, quindi aggiunge un confronto con la concorrenza e include alcuni indicatori KPI per attivare avvisi.  I lettori potrebbero anche avere la possibilità di eseguire il drill-down dei valori di vendita per valutare i potenziali effetti sulle vendite delle chiusure dei punti vendita o di problemi della supply chain.  Il report potrebbe consentire il drill-down anche per esaminare le vendite per punto vendita, area geografica, prodotto, stagione e altri criteri.
+I report possono essere usati per molti scopi, tra i quali monitorare, scoprire, tenere traccia, stimare, misurare, gestire, testare e così via. Ad esempio, se l'esigenza aziendale è avere a disposizione un report sulle vendite che misura le prestazioni, si potrebbe progettare un report che esamina le vendite correnti, le confronta con le vendite precedenti, quindi aggiunge un confronto con la concorrenza e include alcuni indicatori KPI per attivare avvisi.  I lettori potrebbero anche avere la possibilità di eseguire il drill-down dei valori di vendita per valutare i potenziali effetti sulle vendite delle chiusure dei punti vendita o di problemi della supply chain.  Un altro drill-down disponibile potrebbe essere quello relativo alle vendite per negozio, area, prodotto, stagione e molto altro ancora.
 
 È importante conoscere i destinatari e progettare un report che usi terminologia nota e offra dati con un livello di dettaglio e complessità allineati al livello di conoscenze dei clienti. Possono esistere varie tipologie di clienti e non sempre una sola versione del report è adatta a tutti. È opportuno progettare pagine del report separate in base ai livelli di esperienza e assicurarsi di etichettare ogni pagina nel modo più chiaro possibile per consentire ai clienti di individuare facilmente le pagine a loro destinate. I filtri dei dati rappresentano un'altra opzione, consentendo ai clienti di adattare la pagina alle loro esigenze. Richiedere la partecipazione dei clienti nella fase di pianificazione ed evitare l'errore di creare qualcosa in base a preconcetti delle loro esigenze.  Prepararsi a ricominciare e a ripetere il processo.
 
