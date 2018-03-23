@@ -2,15 +2,15 @@
 title: Servizio Power BI - Concetti fondamentali
 description: Aree di lavoro, dashboard, report, set di dati e cartelle di lavoro del servizio Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: B2vd4MQrz4M
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f0f296f402bf1c2bcb1b12e11bd2998bfeec5bc5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5898b0615aa18fdd4ea3df65d557587f94eb732d
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Concetti di base per il servizio Power BI
 
@@ -133,7 +133,7 @@ Perché creare i dashboard?  Ecco solo alcuni dei motivi:
 
 Quando si apre un'area di lavoro, i dashboard associati sono elencati nella scheda **Dashboard**. Per aprire un dashboard, è sufficiente selezionarlo. Quando si apre un'app, verrà visualizzato un dashboard.  Ogni dashboard elencato rappresenta una visualizzazione personalizzata di alcuni subset di set di dati sottostanti.  Se si è proprietari del dashboard, sarà anche possibile accedere ai set di dati e ai report sottostanti.  Se il dashboard è stato condiviso da altri con l'utente, sarà possibile interagire con il dashboard e con i report sottostanti, ma non sarà possibile salvare le modifiche.
 
-È possibile [condividere un dashboard](service-share-dashboards.md) in vari modi. Per condividere un dashboard e per visualizzare un dashboard condiviso è necessario disporre di Power BI Pro.
+È possibile [condividere un dashboard](service-share-dashboards.md) in molti modi diversi. Per condividere un dashboard e per visualizzare un dashboard condiviso è necessario disporre di Power BI Pro.
 
 
 > [!NOTE]

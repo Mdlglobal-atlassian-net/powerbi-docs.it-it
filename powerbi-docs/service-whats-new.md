@@ -1,28 +1,29 @@
 ---
-title: "Novità del servizio Power BI"
-description: "Novità del servizio Power BI"
+title: Novità del servizio Power BI
+description: Novità del servizio Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: sirsu
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/22/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a388f090eac1896c7f47d7d16251c419fc4c33c2
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/23/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
 In questa pagina sono disponibili informazioni sui problemi noti e sulle funzionalità rilasciate di recente nel **servizio Power BI**. per le relative informazioni incluse nelle "Novità", vedere:
@@ -36,7 +37,17 @@ In questa pagina sono disponibili informazioni sui problemi noti e sulle funzion
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>Gennaio 2018
+## <a name="march-2018"></a>Marzo 2018
+* [Filtri persistenti](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) nel servizio Power BI.
+* Condividere il contenuto con gli utenti usando gli account di posta elettronica personali. Estensione di [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+
+## <a name="previous-months-2018"></a>Mesi precedenti (2018)
+### <a name="february-2018"></a>Febbraio 2018
+* Installare automaticamente le [app Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) per gli utenti finali.
+* Capacità P4 e P5 in Power BI Premium
+* Anteprima degli [oggetti visivi personalizzati dell'organizzazione](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+
+### <a name="january-2018"></a>Gennaio 2018
 *   Condividere report di Power BI e impostarli come Preferiti.
 *   Supporto di Single Sign-On (SSO) OAuth2 e DirectQuery per database SQL di Azure e Azure Data Warehouse.
 *   Controllo all'interno dell'area: i log di controllo verranno ora archiviati nella stessa area di Office 365 del rispettivo tenant.

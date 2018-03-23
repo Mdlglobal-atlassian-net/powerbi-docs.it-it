@@ -556,6 +556,10 @@
           href: service-admin-service-free-in-your-organization.md
         - name: Acquisto di Power BI Pro
           href: service-admin-purchasing-power-bi-pro.md
+        - name: Assegnazione di Power BI Pro
+          href: service-admin-assigning-power-bi-pro-licenses.md
+        - name: Power BI Pro nell'organizzazione
+          href: service-admin-power-bi-pro-in-your-organization.md
         - name: Strategie di governance e distribuzione in Power BI
           href: service-admin-governance.md
         - name: Sicurezza di Power BI
