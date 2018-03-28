@@ -2,14 +2,14 @@
 title: Usare i temi dei report in Power BI Desktop (anteprima)
 description: Informazioni su come usare una tavolozza di colori personalizzata e applicarla a un intero report in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usare i temi dei report in Power BI Desktop (anteprima)
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato, salvo alcuni casi particolari descritti più avanti in questo articolo.
@@ -163,7 +163,7 @@ Per creare un file JSON in formato esteso, con un controllo più dettagliato e g
         }
     }
 
-Per le sezioni **visualName** e **cardName**, è possibile elencare un oggetto visivo e un nome scheda specifici o usare un asterisco ("*") per applicare tale impostazione a tutti gli oggetti visivi o a tutte le schede contenenti una proprietà per un oggetto visivo specifico. È possibile usare l'asterisco ("*") per applicare un'impostazione in modo globale nel report, ad esempio le dimensioni del carattere o una famiglia di caratteri specifica da usare in tutti gli oggetti visivi del report.
+Per le sezioni **visualName** e **cardName**, è possibile elencare un oggetto visivo e un nome scheda specifici o usare un asterisco ("\*") per applicare tale impostazione a tutti gli oggetti visivi o a tutte le schede contenenti una proprietà per un oggetto visivo specifico. È possibile usare l'asterisco ("\*") per applicare un'impostazione in modo globale nel report, ad esempio le dimensioni del carattere o una famiglia di caratteri specifica da usare in tutti gli oggetti visivi del report.
 
 > [!NOTE]
 > È necessario specificare solo gli elementi di formattazione che si vuole modificare. Per gli elementi di formattazione non inclusi nel file JSON vengono semplicemente ripristinati i valori e le impostazioni predefiniti.
