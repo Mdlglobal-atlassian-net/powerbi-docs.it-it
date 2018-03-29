@@ -2,32 +2,32 @@
 title: Ottenere dati concreti con le app Power BI per dispositivi mobili
 description: Le app per dispositivi mobili di Power BI possono connettere il modo reale direttamente alle informazioni di business intelligence correlate, senza che siano necessarie ricerche.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 670d83e41476bf3d38a0f98908e20e7d35f9e22d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f4ad86ddf6604e2e8bd9d562249b3f2865a3ec7d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Ottenere dati concreti con le app Power BI per dispositivi mobili
 Le app per dispositivi mobili di Power BI possono connettere il modo reale direttamente alle informazioni di business intelligence correlate, in molti modi diversi. 
 
 ## <a name="qr-codes-for-tiles"></a>Codici a matrice per i riquadri
-È possibile creare un codice a matrice per un riquadro in un dashboard e inserire il codice a matrice dove necessario. Quando i colleghi effettuano la scansione del codice con i propri telefoni iPhone o Android, potranno vedere il riquadro associato a tale codice a matrice. In un iPhone il riquadro verrà visualizzato in realtà aumentata.
+È possibile creare un codice a matrice per un report o un riquadro in un dashboard e inserire il codice a matrice dove necessario. Quando i colleghi eseguono la scansione del codice con i propri telefoni iPhone o Android o con l'app Power BI per realtà mista, potranno vedere il riquadro associato a tale codice a matrice. In un iPhone il riquadro verrà visualizzato in realtà aumentata.
 
 ![Codice QR](media/mobile-apps-data-in-real-world-context/power-bi-ios-qr-ar-scanner-small.png)
 
@@ -35,6 +35,7 @@ Altre informazioni:
 
 * [Creazione di un codice a matrice per un riquadro in Power BI](service-create-qr-code-for-tile.md)
 * [Scansione di un codice a matrice di Power BI dal dispositivo mobile](mobile-apps-qr-code.md)
+* [Scansione di un codice a matrice con l'app Power BI per realtà mista](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="qr-codes-for-reports"></a>Codici a matrice per i report
 È possibile creare un codice a matrice per un report.  Quando i colleghi effettuano la scansione del codice con i propri iPhone (questa funzionalità sarà presto disponibile nei telefoni Android), verrà visualizzato il report associato a tale codice a matrice. 

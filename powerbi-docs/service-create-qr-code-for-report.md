@@ -1,35 +1,35 @@
 ---
 title: Creare un codice a matrice per un report da usare nelle app Power BI per dispositivi mobili
-description: "I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI nell’app per dispositivi mobili Power BI, senza dover eseguire ricerche."
+description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI nell’app per dispositivi mobili Power BI, senza dover eseguire ricerche.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4bd635fbb68f128d0c4f37631f05d0f2b8d9bf7d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un report in Power BI da usare nelle app per dispositivi mobili
 I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI &#151;senza dover effettuare nessuno spostamento o ricerca.
 
 È possibile creare un codice a matrice nel servizio Power BI per qualsiasi report, anche quelli che non è possibile modificare. Inserire quindi il codice a matrice in un percorso chiave. Si potrebbe ad esempio, incollarlo in un messaggio di posta elettronica, o stamparlo e incollarlo in un percorso specifico. 
 
-I colleghi con cui si è condiviso il report possono [scansionare il codice a matrice per l'accesso al report, direttamente dal proprio dispositivo mobile](mobile-apps-qr-code.md). Per fare questo possono usare lo scanner del codice a matrice che si trova nell'app Power BI o qualsiasi altro scanner di codici a matrice installato nel proprio dispositivo.
+I colleghi con cui si è condiviso il report possono [scansionare il codice a matrice per l'accesso al report, direttamente dal proprio dispositivo mobile](mobile-apps-qr-code.md). Per fare questo possono usare lo scanner del codice a matrice che si trova nell'app Power BI o qualsiasi altro scanner di codici a matrice installato nel proprio dispositivo. È anche possibile eseguire la [scansione del codice a matrice di un report con l'app Power BI per realtà mista](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="create-a-qr-code-for-a-report"></a>Creare un codice a matrice per un report
 1. Aprire un report nel servizio Power BI.
@@ -49,12 +49,10 @@ Power BI genera il codice a matrice come file JPG, pronto per la stampa.
 
 1. Selezionare **Scarica** e quindi aprire il file JPG in un computer connesso a una stampante.  
    
-   > [!TIP]
-   > Il file JPG ha lo stesso nome del riquadro, ad esempio “esempio di analisi di vendite e marketing.jpg”.
-   > 
-   > 
-2. Stampare il file al 100% o a "dimensioni effettive".  
-3. Tagliare il codice a matrice lungo il bordo grigio e associarlo a una posizione rilevante per il report. 
+   Il file JPG ha lo stesso nome del riquadro, ad esempio “esempio di analisi di vendite e marketing.jpg”.
+   
+1. Stampare il file al 100% o a "dimensioni effettive".  
+2. Tagliare il codice a matrice lungo il bordo grigio e associarlo a una posizione rilevante per il report. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Connettersi ai dati di Power BI dal mondo reale](mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili

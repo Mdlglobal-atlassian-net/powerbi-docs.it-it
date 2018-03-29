@@ -1,27 +1,27 @@
 ---
 title: White paper per Power BI
-description: "I white paper consentono di esplorare gli argomenti di Power BI a un livello più profondo."
+description: I white paper consentono di esplorare gli argomenti di Power BI a un livello più profondo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/05/2018
+ms.date: 03/16/2018
 ms.author: maghan
-ms.openlocfilehash: ac3f2b52374df0ea9a153a97548e40420388181d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 5e9e0ea009e403b89af7ff67e81062433ba56b80
+ms.sourcegitcommit: 863df35192b9aba1e7c22a64bc8df24418416730
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/17/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
@@ -42,5 +42,6 @@ I white paper consentono di esplorare gli argomenti di Power BI a un livello pi�
 | [Protezione del modello semantico BI tabulare](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Questo articolo presenta il modello di sicurezza per la semantica BI tabulare e per Power BI. Si apprenderà come creare ruoli, implementare la sicurezza dinamica, configurare le impostazioni di rappresentazione, gestire i ruoli e scegliere un metodo per la connessione ai modelli che funzioni nel contesto di sicurezza di rete. |
 | [Indicazioni sulla pianificazione della capacità per il server di report di Power BI](report-server/capacity-planning.md) |Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. |
 | [Pianificazione e distribuzione di Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Questo documento fornisce indicazioni e procedure consigliate per la pianificazione e la distribuzione della capacità Premium per carichi di lavoro ben definiti.|
+| [Power BI e SAP BW](https://aka.ms/powerbiandsapbw)| Questo documento descrive come i clienti SAP possano trarre vantaggio dal collegare Power BI ai loro sistemi SAP Business Warehouse (BW) esistenti.|
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

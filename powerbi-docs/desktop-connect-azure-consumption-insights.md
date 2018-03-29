@@ -2,14 +2,14 @@
 title: Connettersi ai dati di Azure Consumption Insights in Power BI Desktop (Beta)
 description: Connettersi ad Azure e ottenere informazioni dettagliate sull'utilizzo con Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -34,7 +34,7 @@ Questo articolo illustra come connettersi usando il connettore di **Azure Consum
 ## <a name="connect-to-azure-consumption-insights"></a>Connettersi ad Azure Consumption Insights
 Per connettersi usando il connettore di **Azure Consumption Insights** è necessario avere accesso alle funzionalità Enterprise nel portale di Azure.
 
-Per connettersi con il connettore di **Azure Consumption Insights**, selezionare **Recupera dati** dalla barra multifunzione **Home** in **Power BI Desktop**. Selezionare **Online Services** nelle categorie a sinistra per visualizzare **Microsoft Azure Consumption Insights (Beta)**. Selezionare **Connetti**.
+Per connettersi con il connettore di **Azure Consumption Insights**, selezionare **Recupera dati** nella barra multifunzione **Home** in **Power BI Desktop**. Selezionare **Online Services** nelle categorie a sinistra per visualizzare **Microsoft Azure Consumption Insights (Beta)**. Selezionare **Connetti**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -42,7 +42,7 @@ Nella finestra di dialogo visualizzata, specificare il *numero di registrazione*
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
-* È possibile ottenere il numero di registrazione da [Azure Enterprise Portal](https://ea.azure.com), nella posizione indicata nella figura seguente.
+* È possibile ottenere il numero di registrazione da [Azure Enterprise Portal](https://ea.azure.com), nella posizione indicata nella figura seguente:
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
   
@@ -61,7 +61,7 @@ Dopo aver specificato la *chiave di accesso* e selezionato **Connetti**, verrà 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
 
 > [!NOTE]
-> Le tabelle *Summaries e *PriceSheets* sono disponibili solo per la chiave API a livello di registrazione. I dati in queste tabelle sono per impostazione predefinita i dati del mese corrente per *UsageDetails* e *PriceSheets*. Le tabelle *Summaries* e *MarketPlace* non sono vincolate al mese corrente.
+> Le tabelle *Summary* e *PriceSheets* sono disponibili solo per la chiave API a livello di registrazione. I dati in queste tabelle sono per impostazione predefinita i dati del mese corrente per *UsageDetails* e *PriceSheets*. Le tabelle *Summaries* e *MarketPlace* non sono vincolate al mese corrente.
 > 
 > 
 
@@ -84,16 +84,16 @@ Nella **barra della formula** digitare quanto segue:
 
     = MicrosoftAzureConsumptionInsights.Contents
 
-Verrà visualizzata una raccolta di esempi, come illustrato nell'immagine seguente.
+Viene visualizzata una raccolta di esempi, come illustrato nell'immagine seguente:
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 Per usare report e creare query, seguire questa procedura:
 
-* Per definire il numero di mesi a partire dalla data corrente, usare *noOfMonths*
+* Per definire il numero di mesi a partire dalla data corrente, usare *numberOfMonth*
   * Usare un valore compreso tra uno e 36 per rappresentare il numero di mesi da importare, a partire dalla data corrente. È consigliabile recuperare non più di 12 mesi di dati, per evitare di superare le soglie dei vincoli di importazione e il volume di dati massimo consentito per le query in Power BI.
 * Per definire un periodo di mesi in una finestra di tempo cronologica, usare *startBillingDataWindow* e *endBillingDataWindow*
-* *Non* usare *noOfMonths* insieme a *startBillingDataWindow* o *endBillingDataWindow*
+* *Non* usare *numberOfMonth* insieme a *startBillingDataWindow* o *endBillingDataWindow*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrazione dal connettore di Azure Enterprise
 Alcuni clienti hanno creato oggetti visivi con il *connettore di Azure Enterprise (Beta)*, che verrà sospeso e sostituito dal connettore di **Azure Consumption Insights**. Il connettore di **Azure Consumption Insights** offre funzionalità e miglioramenti che includono i seguenti:
@@ -108,7 +108,7 @@ Per facilitare la transizione al connettore di **Azure Consumption Insights** e 
 Il primo passaggio consiste nel connettersi usando il connettore di **Azure Consumption Insights**, descritto nei dettagli in precedenza in questo articolo. Selezionare **Recupera dati > Query vuota** nella barra multifunzione **Home** in **Power BI Desktop**.
 
 ### <a name="step-2-use-the-advanced-editor-to-create-a-query"></a>Passaggio 2: Usare l'Editor avanzato per creare una query
-In **Editor di Query** selezionare **Editor avanzato** dalla sezione **Query** della barra multifunzione **Home**. Nella finestra **Editor avanzato** visualizzata, immettere la query seguente.
+In **Editor di Query** selezionare **Editor avanzato** dalla sezione **Query** della barra multifunzione **Home**. Nella finestra **Editor avanzato** visualizzata immettere la query seguente:
 
     let    
         enrollmentNumber = "100",
@@ -121,20 +121,20 @@ In **Editor di Query** selezionare **Editor avanzato** dalla sezione **Query** d
 
 Sarà ovviamente necessario sostituire il valore di *enrollmentNumber* con il numero di registrazione effettivo, reperibile da [Azure Enterprise Portal](https://ea.azure.com). Il parametro *numberOfMonth* indica il numero di mesi di dati da recuperare a partire dai dati correnti. Usare zero (0) per il mese corrente.
 
-Dopo aver selezionato **Fine** nella finestra **Editor avanzato**, l'anteprima si aggiornerà visualizzando nella tabella i dati dell'intervallo di mesi specificato. Selezionare **Chiudi e applica** e tornare indietro.
+Dopo la selezione di **Fine** nella finestra **Editor avanzato** l'anteprima si aggiorna, visualizzando nella tabella i dati dell'intervallo di mesi specificato. Selezionare **Chiudi e applica** e tornare indietro.
 
 ### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Passaggio 3: Spostare le misure e le colonne personalizzate nel nuovo report
 Sarà necessario spostare nella nuova tabella dei dettagli le colonne personalizzate o le misure create. Seguire questa procedura.
 
 1. Aprire Blocco note o un altro editor di testo.
-2. Selezionare la misura da spostare, copiare il testo dal campo *Formula* e inserirlo in Blocco note.
+2. Selezionare la misura da spostare, copiare il testo dal campo *Formula* e inserirlo nel Blocco note.
    
    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. Rinominare *Query1* la tabella dei dettagli originale.
-4. Creare nuove misure e colonne personalizzate nella tabella facendo clic con il pulsante destro del mouse sulla tabella e scegliendo **Nuova misura**, quindi tagliare e incollare tutte le misure e le colonne.
+4. Creare nuove misure e colonne personalizzate nella tabella facendo clic con il pulsante destro del mouse sulla tabella e scegliendo **Nuova misura**, quindi tagliare e incollare tutte le misure e le colonne archiviate.
 
 ### <a name="step-4-re-link-tables-that-had-relationships"></a>Passaggio 4: Collegare nuovamente le tabelle con relazioni
-Molti dashboard hanno tabelle aggiuntive che vengono usate per operazioni di ricerca o filtro, ad esempio le tabelle di date o usate per progetti personalizzati. Ristabilendo tali relazioni si risolve la maggior parte dei problemi rimanenti. Seguire questa procedura.
+Molti dashboard hanno tabelle aggiuntive che vengono usate per operazioni di ricerca o filtro, ad esempio le tabelle di date o le tabelle usate per progetti personalizzati. Ristabilendo tali relazioni si risolve la maggior parte dei problemi rimanenti. Seguire questa procedura.
 
 - Nella scheda **Creazione di modelli** di **Power BI Desktop** selezionare **Gestisci relazioni** per visualizzare una finestra che consente di gestire le relazioni nel modello. Collegare nuovamente le tabelle in base alle esigenze.
    
@@ -149,7 +149,7 @@ Azure offre anche l'[**API Azure Consumption Insights (ACI)**](https://azure.mic
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Mapping di nomi e dettagli di utilizzo tra il portale, il connettore e l'API
 Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'API e nel connettore, ma non sempre identici. Per chiarire questo aspetto, la tabella seguente illustra il mapping tra l'API, il connettore e le colonne visibili nel portale di Azure. La tabella indica anche se la colonna è obsoleta. Per altre informazioni e definizioni di questi termini, vedere il [dizionario dei dati di fatturazione di Azure](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
 
-| Connettore ACI / ContentPack ColumnName | Nome colonna API ACI | Nome colonna EA | Obsoleta / presente per compatibilità con le versioni precedenti |
+| Connettore ACI / ContentPack ColumnName | Nome colonna API ACI | Nome colonna EA | Obsoleta/presente per compatibilità con le versioni precedenti |
 | --- | --- | --- | --- |
 | AccountName |accountName |Nome account |No |
 | AccountId |accountId | |Sì |

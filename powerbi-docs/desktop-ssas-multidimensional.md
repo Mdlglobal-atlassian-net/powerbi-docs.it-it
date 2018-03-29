@@ -2,14 +2,14 @@
 title: Dati multidimensionali di Analysis Services in Power BI Desktop
 description: Dati multidimensionali di Analysis Services in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Connettersi ai modelli multidimensionali SSAS in Power BI Desktop
 Con Power BI Desktop è possibile accedere ai **modelli multidimensionali di SSAS**, comunemente noti come **MD SSAS**.
 
-Per connettersi a un database **MD SSAS**, selezionare **Recupera dati &gt; Database &gt; Database di SQL Server Analysis Services** come illustrato nella figura seguente.
+Per connettersi a un database **MD SSAS**, selezionare **Recupera dati &gt; Database &gt; Database di SQL Server Analysis Services** come illustrato nella figura seguente:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -37,7 +37,7 @@ I **modelli multidimensionali SSAS** in modalità di connessione dinamica sono s
 Nelle sezioni seguenti sono descritte le caratteristiche e le funzionalità di Power BI e delle connessioni SSAS MD.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Metadati tabulari dei modelli multidimensionali
-Nella tabella seguente viene illustrata la corrispondenza tra gli oggetti multidimensionali e i metadati tabulari restituiti a Power BI Desktop. Quando si crea una visualizzazione, ad esempio una tabella, una matrice, un grafico o un filtro dei dati, Power BI esegue query al modello per ottenere metadati tabulari e, in base ai metadati restituiti, esegue query DAX appropriate in Analysis Services.
+Nella tabella seguente viene illustrata la corrispondenza tra gli oggetti multidimensionali e i metadati tabulari restituiti a Power BI Desktop. Quando si crea una visualizzazione, ad esempio una tabella, una matrice, un grafico o un filtro dei dati, Power BI esegue query nel modello per ottenere metadati tabulari e, in base ai metadati restituiti, esegue query DAX appropriate in Analysis Services.
 
 | Oggetto BISM-multidimensionale | Metadati tabulari |
 | --- | --- |
@@ -55,10 +55,10 @@ Nella tabella seguente viene illustrata la corrispondenza tra gli oggetti multid
 ### <a name="measures-measure-groups-and-kpis"></a>Misure, gruppi di misure e indicatori KPI
 In Power BI i gruppi di misure in un cubo multidimensionale vengono esposti come tabelle nel riquadro **Campi** con accanto il segno ∑. Le misure calcolate che non dispongono di un gruppo di misure associato vengono raggruppate in una tabella speciale denominata *Misure* nei metadati tabulari.
 
-In un modello multidimensionale è possibile definire l'inserimento di un set di misure o di indicatori KPI di un cubo all'interno di una *cartella di visualizzazione*, che consente di semplificare modelli complessi. Power BI riconosce le cartelle di visualizzazione presenti nei metadati tabulari e mostra le misure e gli indicatori KPI all'interno di tali cartelle. Gli indicatori KPI nei database multidimensionali supportano *valore*, *obiettivo*, *icona di stato* e *icona di tendenza*.
+In un modello multidimensionale è possibile definire l'inserimento di un set di misure o di indicatori KPI di un cubo all'interno di una *cartella di visualizzazione*, che consente di semplificare modelli complessi. Power BI riconosce le cartelle di visualizzazione presenti nei metadati tabulari e mostra le misure e gli indicatori KPI all'interno di tali cartelle. Gli indicatori KPI nei database multidimensionali supportano *Valore*, *Obiettivo*, *Icona stato* e *Icona tendenza*.
 
 ### <a name="dimension-attribute-type"></a>Tipi di attributi della dimensione
-I modelli multidimensionali supportano anche l'associazione degli attributi di dimensione a tipi di attributo di dimensione specifici. Ad esempio, una dimensione **Geografia** ai cui attributi *Città*, *Provincia*, *Paese* e *Codice postale* sono associati tipi di elementi geografici appropriati viene esposta nei metadati tabulari. Power BI riconosce i metadati, consentendo di creare viste mappa. Queste associazioni sono riconoscibili in Power BI dall'icona della *mappa* accanto all'elemento nel riquadro **Campo** .
+I modelli multidimensionali supportano anche l'associazione degli attributi di dimensione a tipi di attributo di dimensione specifici. Ad esempio nei metadati tabulari viene esposta una dimensione **Geografia** con attributi *Città*, *Provincia*, *Paese* e *Codice postale* ai quali sono associati tipi di elementi geografici appropriati. Power BI riconosce i metadati, consentendo di creare viste mappa. Queste associazioni sono riconoscibili in Power BI dall'icona della *mappa* accanto all'elemento nel riquadro **Campo** .
 
 Power BI può anche visualizzare le immagini di cui viene fornito un campo contenente l'URL (Uniform Resource Locator) corrispondente. È possibile specificare questi campi con il tipo *ImageURL* in SQL Server Data Tools o successivamente in Power BI. Le informazioni relative al tipo vengono fornite a Power BI con i metadati tabulari. Power BI può quindi recuperare tali immagini dall'URL e visualizzarle all'interno di oggetti visivi.
 

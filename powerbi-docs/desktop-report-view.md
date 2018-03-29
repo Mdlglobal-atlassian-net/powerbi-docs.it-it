@@ -2,14 +2,14 @@
 title: Visualizzazione report in Power BI Desktop
 description: Visualizzazione report in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e68a819325e601f869b34c4ccbe3e873fe9408b3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af10699ea30b9d8e8dd8e3495860c43387a7e0be
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Visualizzazione report in Power BI Desktop
 Se si usa già Power BI, si saprà già quanto sia facile creare report che offrono prospettive dinamiche e informazioni dettagliate sui dati. Power BI include però funzionalità più avanzate in Power BI Desktop. Grazie a Power BI Desktop è infatti possibile creare query avanzate, combinare dati di più origini, creare relazioni tra tabelle e altro ancora.
@@ -36,7 +36,7 @@ Quando si caricano i dati in Power BI Desktop per la prima volta, **Visualizzazi
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-Per spostarsi tra **Visualizzazione report**, **Vista dati** e **Visualizzazione relazioni**, selezionare le icone nella barra di spostamento a sinistra:
+Per spostarsi tra **Visualizzazione report**, **Visualizzazione dati** e **Visualizzazione relazioni** selezionare le icone nella barra di spostamento a sinistra:
 
 ![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -44,7 +44,7 @@ Dopo avere aggiunto alcuni dati, è possibile aggiungere campi a una nuova visua
 
 ![](media/desktop-report-view/pbid_reportview_addvis.gif)
 
-Per cambiare il tipo di visualizzazione, selezionarlo dal gruppo **Visualizzazione** della barra multifunzione oppure fare clic con il pulsante destro del mouse e sceglierne uno diverso tramite l'icona **Cambia tipo di visualizzazione** .
+Per cambiare il tipo di visualizzazione, selezionarlo nel gruppo **Visualizzazioni** della barra multifunzione oppure fare clic con il pulsante destro del mouse e scegliere un tipo diverso tramite l'icona **Cambia tipo di visualizzazione**.
 
 ![](media/desktop-report-view/pbid_reportview_changevis.gif)
 
@@ -53,7 +53,7 @@ Per cambiare il tipo di visualizzazione, selezionarlo dal gruppo **Visualizzazio
 > 
 > 
 
-Un report includerà almeno una pagina vuota per iniziare. Le pagine vengono visualizzate nel pannello di navigazione a sinistra dell'area di disegno. È possibile aggiungere a una pagina tutti i tipi di visualizzazione: l'importante è non esagerare. Un numero eccessivo di visualizzazioni in un'unica pagina può infatti rendere quest'ultima poco chiara e impedire l'individuazione delle informazioni corrette. Per aggiungere nuove pagine al report, è sufficiente fare clic su **Nuova pagina** nella barra multifunzione.
+Un report includerà almeno una pagina vuota per iniziare. Le pagine vengono visualizzate nel pannello di navigazione a sinistra dell'area di disegno. È possibile aggiungere a una pagina tutti i tipi di visualizzazione: l'importante è non esagerare. Un numero eccessivo di visualizzazioni in un'unica pagina può infatti rendere quest'ultima poco chiara e impedire l'individuazione delle informazioni corrette. È possibile aggiungere nuove pagine al report. Fare clic su **Nuova pagina** nella barra multifunzione.
 
 ![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 

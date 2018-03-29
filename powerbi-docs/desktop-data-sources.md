@@ -2,12 +2,12 @@
 title: Origini dati in Power BI Desktop
 description: Origini dati in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/29/2016
 ms.service: powerbi
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 85ac8564efca953d338bef9aab8b59699d992c19
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
 
-Per connettersi ai dati, selezionare **Recupera dati** dalla barra multifunzione **Home** . Se si seleziona la freccia Giù o il testo **Recupera dati** sul pulsante, verrà visualizzato il menu di tipi di dati **Più comuni** , riportato nella figura seguente.
+Per connettersi ai dati, selezionare **Recupera dati** dalla barra multifunzione **Home** . Se si seleziona la freccia Giù o il testo **Recupera dati** sul pulsante viene visualizzato il menu dei tipi di dati **Più comuni**, riportato nella figura seguente:
 
 ![](media/desktop-data-sources/data-sources_1.png)
 
@@ -78,13 +78,14 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Database Oracle
 * Database IBM DB2
 * Database Informix IBM (Beta)
-* IBM Netezza (Beta)
+* IBM Netezza
 * Database MySQL
 * Database PostgreSQL
 * Database di Sybase
 * Database Teradata
 * Database SAP HANA
-* Server SAP Business Warehouse
+* Server applicazioni SAP Business Warehouse
+* Server messaggi SAP Business Warehouse (Beta)
 * Amazon Redshift
 * Impala
 * Google BigQuery (Beta)
@@ -103,13 +104,14 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 
 * Database SQL di Azure
 * Azure SQL Data Warehouse
-* Database di Azure Analysis Services (Beta)
+* Database di Azure Analysis Services
 * Archivio BLOB Azure
 * Archivio tabelle Azure
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
 * Spark in Azure HDInsight (Beta)
+* HDInsight Interactive Query (Beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
@@ -121,6 +123,7 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Elenchi SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (online)
+* Dynamics NAV (Beta)
 * Dynamics 365 per Financials (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
@@ -128,23 +131,24 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Oggetti Salesforce
 * Report di Salesforce
 * Google Analytics
+* Adobe Analytics
 * appFigures (beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 per Customer Insights (Beta)
+* Data.World - Ottieni set di dati (Beta)
 * Facebook
 * GitHub (beta)
-* Kusto (Beta)
 * MailChimp (Beta)
+* Marketo (Beta)
 * Mixpanel (Beta)
-* Planview Enterprise (Beta)
-* Projectplace (Beta)
+* Planview Enterprise One - PRM (Beta)
+* Planview Projectplace (Beta)
 * QuickBooks Online (beta)
 * Smartsheet
 * SparkPost (Beta)
-* SQL Sentry (Beta)
 * Stripe (Beta)
 * SweetIQ (beta)
-* Troux (Beta)
+* Planview Enterprise One - CMT (Beta)
 * Twilio (beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
@@ -157,6 +161,7 @@ La figura seguente mostra la finestra **Recupera dati** per **Online Services**.
 La categoria **Altro** fornisce le connessioni dati seguenti:
 
 * Vertica (Beta)
+* Kusto (Beta)
 * Web
 * Elenco SharePoint
 * Feed OData
@@ -203,4 +208,3 @@ Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capac
 * [Tipi di dati in Power BI Desktop](desktop-data-types.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)    
-

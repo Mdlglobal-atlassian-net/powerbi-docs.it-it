@@ -2,14 +2,14 @@
 title: Connettersi ai dati in Power BI Desktop
 description: Connettersi ai dati in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b61285c54d337ce85ab470180f8cfa2a66f0820e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Connettersi ai dati in Power BI Desktop
-Con Power BI Desktop è possibile connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
+Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
 
 In Power BI Desktop sono disponibili origini dati *di ogni tipo* . La figura seguente mostra come connettersi ai dati, selezionando la scheda **File** della barra multifunzione e quindi facendo clic su **Recupera dati \> Altro**.
 
@@ -80,7 +80,7 @@ Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capac
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   
 
-Per fornire commenti e suggerimenti, usare la voce di menu **Invia commenti e suggerimenti** in Power BI Desktop. Saremo lieti di rispondere a qualsiasi domanda.
+Per fornire commenti e suggerimenti, usare la voce di menu **Invia un'idea** in Power BI Desktop oppure visitare [Commenti e suggerimenti della community](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Saremo lieti di rispondere a qualsiasi domanda.
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

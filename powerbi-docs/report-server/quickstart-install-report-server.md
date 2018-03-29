@@ -1,48 +1,45 @@
 ---
 title: 'Avvio rapido: installazione del Server di report di Power BI'
-description: "L'installazione del server di report di Power BI è molto rapida. Dal download, all'installazione e alla configurazione, si sarà operativi in pochi minuti."
+description: L'installazione del server di report di Power BI è molto rapida. Dal download, all'installazione e alla configurazione, si sarà operativi in pochi minuti.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Avvio rapido: installazione del Server di report di Power BI
 L'installazione del server di report di Power BI è molto rapida. Dal download, all'installazione e alla configurazione, si sarà operativi in pochi minuti.
 
 Ecco una breve presentazione su come installare un server di report se si vuole essere subito operativi. Per informazioni più dettagliate sull'installazione di un server di report, vedere [Installare il server di report di Power BI](install-report-server.md).
 
- **Scarica** ![scarica](media/quickstart-install-report-server/download.png "scarica")
-
-Per scaricare il Server di report di Power BI, consultare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/). 
-
-Passare all'Area download Microsoft per scaricare [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (ottimizzato per il server di report di Power BI - ottobre 2017).
-
-![suggerimento](media/quickstart-install-report-server/fyi-tip.png "suggerimento") Per le note sulla versione corrente, vedere [Server di Report di Power BI - Note sulla versione](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Video: Installare il server di report di Power BI
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Prima di iniziare
-Prima di installare il server di report di Power BI, è consigliabile esaminare i [requisiti hardware e software per l'installazione del server di report di Power BI](system-requirements.md).
+Prima di installare il server di report di Power BI è consigliabile esaminare i [requisiti hardware e software per l'installazione del server di report di Power BI](system-requirements.md).
 
 ## <a name="step-1-download"></a>Passaggio 1: Download
-Scaricare i file di installazione per il server di report di Power BI in locale. Per scaricare il Server di Report di Power BI, visitare l'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=839351).
+
+Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/) e selezionare **Scarica la versione di valutazione gratuita**.
+
+Seguire le istruzioni per scaricare i file di installazione in locale per il server di report di Power BI. 
 
 ![Scaricare il server di report di Power BI](media/quickstart-install-report-server/download-pbireportserver.png)
 

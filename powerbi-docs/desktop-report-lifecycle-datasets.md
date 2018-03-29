@@ -1,15 +1,15 @@
 ---
 title: Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
-description: "Usare un set di dati comune per più report di Power BI Desktop e gestire il ciclo di vita del report"
+description: Usare un set di dati comune per più report di Power BI Desktop e gestire il ciclo di vita del report
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. Ciò significa che è possibile creare il modello di dati ideale in Power BI Desktop, pubblicarlo nel servizio Power BI, quindi sarà possibile creare più report diversi (in file con estensione pbix separati) in base allo stesso modello di dati comuni. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -59,7 +59,7 @@ Nella figura seguente, si vedrà in che modo Anna crea un report di **Power BI D
 Ora che si conosce l'utilità della **connessione dinamica al servizio Power BI** e come è possibile usarla come un approccio ottimale alla gestione del ciclo di vita del report, si passerà a esaminare i passaggi che portano dall'utile report (e set di dati) di Anna a un set di dati condiviso che i colleghi nella sua area di lavoro di Power BI potranno usare.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Pubblicare un report e un set di dati di Power BI
-Il primo passaggio nella gestione del ciclo di vita del report con una **connessione dinamica al servizio Power BI** consiste nel creare un report (e set di dati) che i colleghi vorranno usare. Dunque, Anna dovrà prima **pubblicare** il suo report da **Power BI Desktop**. A tale scopo, seleziona **Pubblica** dalla barra multifunzione **Home** in Power BI Desktop.
+Il primo passaggio nella gestione del ciclo di vita del report con una **connessione dinamica al servizio Power BI** consiste nel creare un report (e set di dati) che i colleghi vorranno usare. Pertanto Anna dovrà innanzitutto **pubblicare** il suo report da **Power BI Desktop**. A tale scopo, seleziona **Pubblica** dalla barra multifunzione **Home** in Power BI Desktop.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
@@ -101,7 +101,7 @@ Quando si seleziona **Carica** dalla finestra si stabilisce una connessione dina
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-A questo punto, tutti potranno creare e condividere i report personalizzati e condividerli dallo stesso set di dati. È un ottimo modo per affidare la creazione di un set di dati ben formato a una persona esperta (come lo è Anna, ad esempio) e consentire a molti colleghi di usare tale set di dati condiviso per creare report personalizzati.
+A questo punto tutti potranno creare e condividere i report personalizzati dallo stesso set di dati. È un ottimo modo per affidare la creazione di un set di dati ben formato a una persona esperta (come lo è Anna, ad esempio) e consentire a molti colleghi di usare tale set di dati condiviso per creare report personalizzati.
 
 > [!NOTE]
 > Quando si creano report basati sul set di dati usando una connessione dinamica al **servizio Power BI**, è possibile pubblicare solo il report stesso nella stessa area di lavoro del servizio Power BI che contiene il set di dati in uso.
@@ -116,8 +116,8 @@ Quando si usa la **Connessione dinamica al servizio Power BI** occorre tenere pr
 * Dato che si tratta di una connessione dinamica, lo spostamento a sinistra e la modellazione sono disabilitati, analogamente al comportamento riscontrato quando si è connessi a **SQL Server Analysis Services**.
 * Dato che si tratta di una connessione dinamica, vengono applicati la sicurezza a livello di riga e di ruolo, OneDrive for Business e altri simili comportamenti di connessione, esattamente come quando si è connessi a **SQL Server Analysis Services**.
 * Quando si seleziona il set di dati a cui connettersi nel **servizio Power BI**, la casella di ricerca si applica solo alle aree di lavoro che sono stati espanse.
-* Se si modifica l'originale file PBIX condiviso, il set di dati e report che vengono condivisi nel **servizio Power BI** saranno sovrascritti.
-* Non è possibile sostituire il report originariamente condiviso. Se si prova a farlo, verrà visualizzato un avviso che richiede di rinominare il file e pubblicarlo.
+* Se si modifica il file originale con estensione pbix condiviso, il set di dati e il report condivisi nel **servizio Power BI** vengono sovrascritti.
+* I membri di un'area di lavoro non possono sostituire il report condiviso in origine. Se si prova a farlo, verrà visualizzato un avviso che richiede di rinominare il file e pubblicarlo.
 * Se si elimina il set di dati condiviso nel **servizio Power BI**, altri file di **Power BI Desktop** (file con estensione pbix) non funzioneranno più correttamente né visualizzeranno gli oggetti visivi.
 * Per i pacchetti di contenuto, è necessario creare una copia di un pacchetto di contenuto prima di usarlo come base per la condivisione di un report PBIX e un set di dati con il **servizio Power BI**.
 * Per i pacchetti di contenuto da *Organizzazione*, una volta copiati, non è possibile sostituire il report creato nel servizio e/o un report creato come parte della copia di un pacchetto di contenuto con una connessione dinamica. Se si prova a farlo, verrà visualizzato un avviso che richiede di rinominare il file e pubblicarlo. In questo caso, è possibile sostituire solo i report pubblicati con connessione dinamica.

@@ -2,14 +2,14 @@
 title: Creare un filtro dei dati reattivo e ridimensionabile in Power BI
 description: Informazioni su come creare un filtro dei dati reattivo ridimensionabile per adattarsi al report
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Creare un filtro dei dati reattivo e ridimensionabile in Power BI (anteprima)
 
@@ -78,7 +78,7 @@ Altre informazioni su come creare [report ottimizzati per l'app Power BI per dis
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>Impostare un filtro dei dati temporale o di intervallo su reattivo
 
-Per impostare un riquadro o un filtro dei dati di intervallo su reattivo, è possibile seguire la stessa procedura. Dopo aver impostato l'opzione **Reattivo** su **Sì**, osservare quanto segue:
+Per impostare un filtro dei dati temporale o di intervallo come reattivo, è possibile seguire la stessa procedura. Dopo aver impostato l'opzione **Reattivo** su **Sì**, osservare quanto segue:
 
 - Gli oggetti visivi ottimizzano l'ordine delle caselle di input a seconda delle dimensioni consentite nell'area di disegno. 
 - La visualizzazione dell'elemento dati è ottimizzata per aumentare al massimo l'usabilità del filtro dei dati, a seconda delle dimensioni consentite nell'area di disegno. 

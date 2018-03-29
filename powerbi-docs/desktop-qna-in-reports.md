@@ -2,14 +2,14 @@
 title: Utilizzo di Domande e risposte in Power BI Desktop
 description: Domande e risposte consente usare query in linguaggio naturale in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usare Domande e risposte in Power BI Desktop per eseguire query in linguaggio naturale
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in **Power BI Desktop**.
@@ -33,7 +33,7 @@ Nelle sezioni seguenti viene descritto come adattare il modello per il corretto 
 
 ## <a name="add-missing-relationships"></a>Aggiungere relazioni mancanti
 
-Se nel modello mancano le relazioni tra le tabelle, i report di Power BI e Domande e risposte non saranno in grado di interpretare come unire tali tabelle, quando viene posta una domanda su di esse. Le relazioni sono l'aspetto fondamentale di un buon modello. Ad esempio, non è possibile porre la domanda relativa alle "vendite totali per i clienti di Seattle" se manca la relazione tra la tabella *ordini* e la tabella *clienti*. Le immagini seguenti mostrano esempi di un modello da modificare e di un modello pronto per Domande e risposte.
+Se nel modello mancano le relazioni tra le tabelle, i report di Power BI e Domande e risposte non saranno in grado di interpretare come unire tali tabelle quando viene posta una domanda su di esse. Le relazioni sono l'aspetto fondamentale di un buon modello. Ad esempio, non è possibile porre la domanda relativa alle "vendite totali per i clienti di Seattle" se manca la relazione tra la tabella *ordini* e la tabella *clienti*. Le immagini seguenti mostrano esempi di un modello da modificare e di un modello pronto per Domande e risposte.
 
 **Da modificare**
 
@@ -50,7 +50,7 @@ La scelta delle tabelle e delle colonne è molto importante per Domande e rispos
 
 Benché Domande e risposte possa eseguire alcune operazioni di suddivisione delle parole e rilevamento dei plurali di base, presuppone che i nomi delle tabelle e delle colonne ne riflettano in modo accurato il contenuto.
 
-Ecco un altro esempio. Supponiamo di avere una tabella denominata *ConteggioPersonale* che contiene i nomi, i cognomi e i numeri di matricola dei dipendenti e un'altra tabella denominata *Dipendenti* che contiene i numeri di matricola dei dipendenti, il numero di lavori svolti e le date di inizio. Per chi ha familiarità con il modello non sono necessarie spiegazioni, ma se viene posta la domanda "conta dipendenti" verrà restituito il numero di righe della tabella "Dipendenti" che probabilmente non è il risultato previsto, poiché si tratta di un conteggio di tutti i lavori svolti da ogni dipendente. Sarebbe quindi opportuno rinominare le tabelle in modo che riflettano effettivamente i dati contenuti.
+Ecco un altro esempio. Si supponga di avere una tabella denominata *ConteggioPersonale* che contiene i nomi, i cognomi e i numeri di matricola dei dipendenti e un'altra tabella denominata *Dipendenti* che contiene i numeri di matricola dei dipendenti, il numero di lavori svolti e le date di inizio. Per chi ha familiarità con il modello non sono necessarie spiegazioni, ma se viene posta la domanda "conta dipendenti" verrà restituito il numero di righe della tabella "Dipendenti" che probabilmente non è il risultato previsto, poiché si tratta di un conteggio di tutti i lavori svolti da ogni dipendente. Sarebbe quindi opportuno rinominare le tabelle in modo che riflettano effettivamente i dati contenuti.
 
 **Da modificare**
 
@@ -154,7 +154,7 @@ Analogamente, se sono presenti colonne con nomi completi di persone, sarà oppor
 
 ### <a name="create-new-tables-for-multi-value-columns"></a>Creare nuove tabelle per le colonne multivalore
 
-Se l'origine da cui vengono importati i dati contiene colonne multivalore, i report di Power BI e Domande e risposte, non riusciranno ad accedere alle colonne per analizzarne il contenuto. Ad esempio, se è presente una colonna Composer contenente i nomi di più compositori per un brano, sarà necessario dividerla in più righe in una tabella *Composers* separata.
+Se l'origine da cui vengono importati i dati contiene colonne multivalore, i report di Power BI e Domande e risposte, non riusciranno ad accedere alle colonne per analizzarne il contenuto. Se ad esempio è presente una colonna Composer contenente i nomi di più compositori per un brano, sarà necessario dividerla in più righe in una tabella *Composers* separata.
 
 **Da modificare**
 
@@ -184,7 +184,7 @@ Questo è un passaggio molto importante. Anche con nomi di tabelle e colonne est
 
 ![Aggiungere sinonimi per Domande e risposte](media/desktop-qna-in-reports/desktop-qna_21.png)
 
-Il campo **Sinonimi** in cui sarà possibile aggiungere i sinonimi, viene visualizzato nella parte destra di **Power BI Desktop**.
+Il campo **Sinonimi** in cui è possibile aggiungere i sinonimi viene visualizzato sul lato destro di **Power BI Desktop**.
 
 ![Aggiungere sinonimi per Domande e risposte](media/desktop-qna-in-reports/desktop-qna_22.png)
 

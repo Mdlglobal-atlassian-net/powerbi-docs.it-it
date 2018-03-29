@@ -2,26 +2,26 @@
 title: Come condividere i dashboard, i report e i riquadri di Power BI
 description: Informazioni sulla procedura da seguire per incorporare il contenuto di Power BI all'interno dell'applicazione.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporare i dashboard, i report e i riquadri di Power BI
 
@@ -88,6 +88,10 @@ Sarà necessario registrare l'applicazione in Azure AD per effettuare chiamate a
 Se si intende incorporare i dashboard e i report per i clienti, questi devono essere inseriti all'interno di un'area di lavoro per le app. L'account *master* indicato in precedenza deve essere un amministratore dell'area di lavoro per le app.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Un utente senza privilegi di amministratore può creare solo fino a 250 aree di lavoro per le app. Per creare più aree di lavoro per le app, è necessario utilizzare un account di amministratore tenant.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Creare e caricare i report
 

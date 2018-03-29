@@ -1,15 +1,15 @@
 ---
 title: Connettersi a un database Amazon Redshift in Power BI Desktop
-description: "Connettersi con facilità e usare un database Amazon Redshift in Power BI Desktop"
+description: Connettersi con facilità e usare un database Amazon Redshift in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de0e6b61197bfe25048a2722d5aab42f1c15e999
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9597d056067fb1af291f46a088b94a39da57eab9
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Connettersi ad Amazon Redshift in Power BI Desktop
 In **Power BI Desktop** è possibile connettersi a un database **Amazon Redshift** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -32,7 +32,7 @@ Per connettersi a un database **Amazon Redshift** selezionare **Recupera dati** 
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-Nella finestra **Amazon Redshift** che viene visualizzata digitare o incollare il nome del server e del database **Amazon Redshift**. Nel campo *Server* gli utenti possono specificare un ordinamento nel seguente formato: *ServerURL:Port*
+Nella finestra **Amazon Redshift** che viene visualizzata digitare o incollare il nome del server e del database **Amazon Redshift**. Nel campo *Server* gli utenti possono specificare una porta nel seguente formato: *ServerURL:Port*
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 
@@ -46,7 +46,7 @@ Una volta stabilita la connessione, viene visualizzata una finestra **Strumento 
 
 Dopo avere effettuato le selezioni nella finestra **Strumento di navigazione** è possibile scegliere **Carica** per caricare i dati o **Modifica** per modificarli.
 
-* Se si sceglie **Carica**, verrà chiesto se usare la modalità *importazione* o *DirectQuery* per caricare i dati. Per altre informazioni, vedere l'[articolo che descrive DirectQuery](desktop-use-directquery.md).
+* Se si sceglie **Carica** viene chiesto se usare la modalità *Importa* o la modalità *DirectQuery* per caricare i dati. Per altre informazioni, vedere l'[articolo che descrive DirectQuery](desktop-use-directquery.md).
 * Se si sceglie **Modifica**, viene visualizzato l'**Editor di Query** in cui è possibile applicare trasformazioni e filtri di vario tipo ai dati, molti dei quali vengono applicati al database **Amazon Redshift** stesso sottostante (se supportato).
 
 ## <a name="next-steps"></a>Passaggi successivi
