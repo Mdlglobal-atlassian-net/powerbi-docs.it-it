@@ -1,27 +1,27 @@
 ---
 title: Esplorare i report nelle app Power BI per dispositivi mobili
-description: 'Informazioni sulla visualizzazione e sull''interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop, quindi interagire con essi nelle app per dispositivi mobili. '
+description: "Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop, quindi interagire con essi nelle app per dispositivi mobili. "
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/25/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 51006f70d0be13f08de7047f0097f7530d32a470
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -33,7 +33,7 @@ Si applica a:
 Un report di Power BI è una vista interattiva dei dati con elementi visivi che rappresentano conclusioni e approfondimenti diversi ottenuti da tali dati. La visualizzazione dei report nella app Power BI per dispositivi mobili è il terzo passaggio in un processo in tre fasi.
 
 1. [Creare report in Power BI Desktop](desktop-report-view.md). In Power BI Desktop è persino possibile [ottimizzare un report per i telefoni](mobile-apps-view-phone-report.md). 
-2. Pubblicare i report nel servizio Power BI [(https://powerbi.com)](https://powerbi.com) o nel [server di report di Power BI](report-server/get-started.md).  
+2. Pubblicare i report nel servizio Power BI [(https://powerbi.com)](https://powerbi.com) o in [Server di report di Power BI](report-server/get-started.md).  
 3. È quindi possibile interagire con questi report nelle app Power BI per dispositivi mobili.
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Aprire un report di Power BI nell'app per dispositivi mobili
@@ -50,7 +50,9 @@ A seconda della provenienza, i report di Power BI sono archiviati in posizioni d
   ![Report per il telefono in modalità orizzontale](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Visualizzare i report ottimizzati per i telefoni
-Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. Le pagine dei report ottimizzate per i telefoni includono funzionalità aggiuntive. È ad esempio possibile eseguire il drill-down e ordinare gli oggetti visivi in modalità messa a fuoco ed è possibile accedere ai [filtri aggiunti dall'autore del report alla pagina del report](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Un report ottimizzato in un elenco di report è associato a un'icona speciale ![Icona del report per telefono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. Le pagine dei report ottimizzate per i telefoni includono funzionalità aggiuntive. È ad esempio possibile eseguire il drill-down e ordinare gli oggetti visivi in modalità messa a fuoco ed è possibile accedere ai [filtri aggiunti dall'autore del report alla pagina del report](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Il report viene aperto in un telefono filtrato in base ai valori usati per filtrare il report sul Web con un messaggio che segnala che ci sono filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
+
+In un elenco di report un report ottimizzato è contrassegnato da un'icona speciale ![Icona del report per il telefono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Aprire il report per il telefono](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -63,7 +65,7 @@ Quando si visualizza tale report in un telefono, viene aperto in visualizzazione
 Altre informazioni sui [report ottimizzati per la visualizzazione telefono](mobile-apps-view-phone-report.md).
 
 ## <a name="use-slicers-to-filter-a-report-page"></a>Usare i filtri dei dati per filtrare una pagina del report
-Quando si progetta un report in Power BI Desktop o nel servizio Power BI, prendere in considerazione l'[aggiunta di filtri dei dati a una pagina del report](power-bi-visualization-slicers.md). Sia l'autore che i colleghi potranno così usare i filtri dei dati per filtrare la pagina in un browser e nelle app per dispositivi mobili. Quando si visualizza il report in un telefono, è possibile visualizzare e interagire con i filtri dei dati in modalità orizzontale e in una pagina ottimizzata per la modalità verticale del telefono.
+Quando si progetta un report in Power BI Desktop o nel servizio Power BI, prendere in considerazione l'[aggiunta di filtri dei dati a una pagina del report](power-bi-visualization-slicers.md). Sia l'autore che i colleghi potranno così usare i filtri dei dati per filtrare la pagina in un browser e nelle app per dispositivi mobili. Quando si visualizza il report in un telefono, è possibile visualizzare e interagire con i filtri dei dati in modalità orizzontale e in una pagina ottimizzata per la modalità verticale del telefono. Se si seleziona un valore in un filtro dei dati o in un filtro nel browser, il valore verrà selezionato anche quando si visualizza la pagina nell'app per dispositivi mobili. Viene visualizzato un messaggio che indica che sono presenti filtri attivi nella pagina.  
 
 * Quando si seleziona un valore in un filtro dei dati nella pagina del report, vengono filtrati gli altri oggetti visivi nella pagina.
   

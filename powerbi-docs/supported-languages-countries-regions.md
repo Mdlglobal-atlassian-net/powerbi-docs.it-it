@@ -2,27 +2,27 @@
 title: Lingue e paesi/aree geografiche supportate per Power BI
 description: Vedere l'elenco di lingue e paesi/aree geografiche supportati per il servizio Power BI, Power BI Desktop e la documentazione di Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Lingue e paesi/aree geografiche supportate per Power BI
 
@@ -32,7 +32,7 @@ Questo articolo fornisce l'elenco di lingue e paesi/aree geografiche supportati 
 Per conoscere i paesi e le aree geografiche in cui Power BI è disponibile, vedere questo [elenco relativo alla disponibilità internazionale](https://products.office.com/business/international-availability). 
 
 ## <a name="languages-for-the-power-bi-service"></a>Lingue per il servizio Power BI
-Il servizio Power BI (nel browser) è disponibile nelle 42 lingue seguenti:
+Il servizio Power BI (nel browser) è disponibile nelle 44 lingue seguenti:
 
 * Arabo
 * Basco - Basque

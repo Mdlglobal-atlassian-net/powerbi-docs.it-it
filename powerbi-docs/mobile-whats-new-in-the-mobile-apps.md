@@ -1,27 +1,27 @@
 ---
-title: "Novità delle app per dispositivi mobili per Power BI"
-description: "Novità delle app per dispositivi mobili per Power BI"
+title: Novità delle app per dispositivi mobili per Power BI
+description: Novità delle app per dispositivi mobili per Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -30,11 +30,33 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Novità di Power BI Desktop](desktop-latest-update.md)  
 * [Novità del servizio Power BI](service-whats-new.md)  
 
+## <a name="march-2018"></a>Marzo 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>App Power BI per realtà mista (anteprima)
+
+Nello sviluppo più recente per portare i dati ovunque, abbiamo creato l'app Power BI per realtà mista. È possibile visualizzare dashboard e report mentre si è immersi nel mondo virtuale o inserire tali elementi e visualizzarli in posizioni specifiche nel contesto del proprio ambiente. Altre informazioni sulla nuova [app Power BI per realtà mista](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Condividi report e dashboard esternamente
+
+Condividere i dashboard e i report con utenti esterni all'organizzazione, direttamente dall'app. La condivisione esterna è abilitata sia per gli account dell'organizzazione che per quelli di social networking. 
+
+### <a name="persistent-filters"></a>Filtri persistenti
+
+Quando si impostano filtri e filtri dei dati in Power BI sul Web, le opzioni di filtro scelte vengono salvate anche nell'app per dispositivi mobili, in modo da poter riprendere da dove si è lasciato.
+
+### <a name="refresh-reports-on-the-ipad"></a>Aggiornare i report nell'iPad
+
+Per i report di Power BI è ora disponibile un pulsante di aggiornamento nell'app per iPad.
+
 ## <a name="february-2018"></a>Febbraio 2018
 
 ### <a name="share-reports"></a>Condividere i report
 
 È ora possibile condividere un report direttamente dalle app per dispositivi mobili. Altre informazioni sulla [condivisione di dashboard e report dalle app per dispositivi mobili](mobile-share-dashboard-from-the-mobile-apps.md)
+
+### <a name="improved-tooltips"></a>Descrizioni comandi migliorate
+
+Quando si tocca e si tiene premuto l'oggetto visivo di un report per accedere alle descrizioni comandi, è ora possibile trascinare il dito attraverso l'oggetto visivo per esaminare informazioni dettagliate su ogni punto dati lungo il percorso.
 
 ## <a name="january-2018"></a>Gennaio 2018
 

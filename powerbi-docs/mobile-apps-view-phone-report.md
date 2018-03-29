@@ -2,26 +2,26 @@
 title: Visualizzare i report di Power BI ottimizzati per il proprio telefono
 description: Leggere informazioni sull'interazione con le pagine del report ottimizzate per la visualizzazione in app per telefoni di Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
 
@@ -47,7 +47,7 @@ Tutte le altre funzionalità dei report di Power BI continueranno a funzionare n
 * [Report nei telefoni Android](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrare la pagina del report in un telefono
-Se per un report ottimizzato per il telefono sono stati definiti dei filtri, quando si visualizza il report in un telefono è possibile usare tali filtri. 
+Se per un report ottimizzato per il telefono sono stati definiti dei filtri, quando si visualizza il report in un telefono è possibile usare tali filtri. Il report viene aperto in un telefono filtrato in base ai valori usati per filtrare il report sul Web con un messaggio che segnala che ci sono filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
 
 1. Toccare l'icona del filtro ![Icona del filtro del telefono](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) nella parte inferiore della pagina. 
 2. Usare il filtro di base o avanzato per visualizzare i risultati desiderati.

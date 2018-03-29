@@ -1,27 +1,27 @@
 ---
 title: Condividere un dashboard o un report da app Power BI per dispositivi mobili
-description: "È possibile invitare i colleghi a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. Come fare."
+description: Invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. Come fare.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 328e73b31934259fb50e412b6dc2f88a379a7469
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
 Si applica a:
@@ -30,7 +30,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
 
-Con una [licenza Power BI Pro](service-free-vs-pro.md) è possibile invitare i colleghi a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. Gli utenti con cui si effettua la condivisione devono avere lo stesso dominio di posta elettronica dell'utente e una licenza Power BI Pro. In caso contrario, il contenuto deve avere una [capacità Premium](service-premium.md).
+Con una [licenza di Power BI Pro](service-free-vs-pro.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](service-premium.md).
 
 Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [aggiungere annotazioni e condividere lo snapshot di un riquadro, un report o un oggetto visivo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con chiunque. 
 
@@ -38,14 +38,13 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
 1. Nella barra delle azioni nella parte inferiore del dashboard o del report toccare l'icona **Condividi** ![Icona Condividi](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
    
    ![Icona di condivisione dell'iPhone](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. Toccare **Invita un collega**.
-3. Digitare i nomi, separati da virgole, e un messaggio di accompagnamento per l'invito.
-4. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di ricondividere**.
+2. Digitare i nomi, separati da virgole, e un messaggio di accompagnamento per l'invito.
+3. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di ricondividere**.
    
    La ricondivisione consente ai colleghi di inoltrare il messaggio di posta elettronica di invito ad altri utenti dell'organizzazione, usando il Web o le app per dispositivi mobili.
 5. Toccare **Invia** nell'angolo in alto a destra.
    
-   I colleghi riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard o al report. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI.
+   I destinatari riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard o al report. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI.
    
    ![Condivisi con l'utente corrente](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -68,14 +67,14 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
 
 ## <a name="share-from-your-ipad"></a>Condividere dall'iPad
 1. Toccare l'icona **Condividi** ![Icona Condividi](media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) nell'angolo in alto a destra del dashboard o del report.
-2. Toccare **Invita un collega**, quindi digitare gli indirizzi di posta elettronica e un messaggio da allegare all'invito.
+2. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito.
 3. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di ricondividere**.
    
    La ricondivisione consente ai colleghi di inoltrare il messaggio di posta elettronica di invito ad altri utenti dell'organizzazione, usando il Web o le app per dispositivi mobili. 
 
 4. Toccare **Invia** nell'angolo in alto a destra.
    
-   I colleghi riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard o al report. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI
+   I destinatari riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard o al report. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI
    
    ![Condivisi con l'utente corrente](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
@@ -97,7 +96,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
 1. Nella home page dei dashboard o dei report toccare i puntini di sospensione (...) e quindi **Invita un collega**.
    
    ![Invita un collega](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. In alternativa, nell'angolo in alto a destra di un dashboard o di un report toccare l'icona Invita ![icona Invita](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+2. In alternativa, in un dashboard o un report toccare l'icona Invita ![icona Invita](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
 
     Se si è proprietari del dashboard, verrà visualizzato l'elenco di colleghi con cui è stato condiviso il dashboard o il report unitamente alle note seguenti:
 
@@ -111,7 +110,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    
 1. Toccare l'icona **Invia** ![Icona Invia](media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) nell'angolo in alto a destra per inviare il messaggio.
    
-   I colleghi riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI
+   I destinatari riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI
    
    ![Condivisi con l'utente corrente](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
@@ -146,7 +145,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    
 1. Toccare l'icona **Invia** ![Icona Invia](media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
-   I colleghi riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard o al report. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI
+   I destinatari riceveranno un messaggio di posta elettronica di invito contenente un collegamento diretto al dashboard o al report. L'invito scade dopo un mese. Quando i colleghi aprono il collegamento in un browser o nell'app Power BI per dispositivi mobili, questo viene aggiunto alla sezione **Condivisi** del loro account Power BI
    
    ![Condivisi con l'utente corrente](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
