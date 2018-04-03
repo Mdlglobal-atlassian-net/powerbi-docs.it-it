@@ -2,14 +2,14 @@
 title: Aprire un report in visualizzazione di lettura o in visualizzazione di modifica nel servizio Power BI
 description: Aprire un report di Power BI in visualizzazione di lettura o visualizzazione di modifica
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
