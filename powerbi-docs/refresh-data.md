@@ -2,14 +2,14 @@
 title: Aggiornamento dei dati in Power BI
 description: Aggiornamento dei dati in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 La disponibilità continua dei dati più recenti è spesso fondamentale per poter prendere le decisioni giuste. Molti hanno probabilmente già usato il comando Recupera dati in Power BI per connettersi ai dati e caricarli, nonché hanno creato report e un dashboard. A questo punto, è necessario assicurarsi che i dati siano davvero i più aggiornati e completi.
@@ -166,7 +166,7 @@ Con il gateway dati locale è possibile eseguire query da Power BI sulle origini
 
 Quando ci si connette a un'origine dati di SQL Service Analysis Services (SSAS) usando una connessione dinamica, a differenza di DirectQuery, la connessione dinamica a un'origine SSAS può essere eseguita nella cache, anche durante il caricamento di un report. Questo comportamento migliora le prestazioni di caricamento per il report. È possibile richiedere i dati più recenti dall'origine dati SSAS usando il pulsante **Aggiorna**. I proprietari delle origini dati SSAS possono configurare la frequenza di aggiornamento pianificata della cache per il set di dati, in modo da assicurare che i report siano sempre aggiornati in base alle esigenze specifiche. 
 
-Quando si configura un'origine dati con il gateway dati locale, è possibile usare tale origine dati come opzione di aggiornamento pianificato. invece di usare il gateway personale.
+Quando si configura un'origine dati con il gateway dati locale è possibile usare tale origine dati come opzione di aggiornamento pianificata. invece di usare il gateway personale.
 
 > [!NOTE]
 > Se il set di dati è configurato per una connessione dinamica o DirectQuery, i set di dati vengono aggiornati circa ogni ora o quando si verifica un'interazione con i dati. È possibile regolare manualmente la *frequenza di aggiornamento* usando l'opzione *Aggiornamento pianificato della cache* nel servizio Power BI.

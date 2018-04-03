@@ -1,15 +1,15 @@
 ---
 title: Sicurezza di Power BI
-description: "Sicurezza di Power BI. Correlazione di Power BI con Azure Active Directory e altri servizi di Azure. Questo argomento include inoltre un collegamento a un white paper più approfondito."
+description: Sicurezza di Power BI. Correlazione di Power BI con Azure Active Directory e altri servizi di Azure. Questo argomento include inoltre un collegamento a un white paper più approfondito.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: erikri
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 50bb742958f5cc9152231f14d176033b328a8976
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7db593cdac44bb3549023127a5250776cd6d57b7
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="power-bi-security"></a>Sicurezza di Power BI
 Per una spiegazione dettagliata sulla sicurezza di Power BI, [scaricare il white paper sulla sicurezza di Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):

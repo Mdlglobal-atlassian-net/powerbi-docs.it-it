@@ -2,14 +2,14 @@
 title: Indicazioni per la distribuzione di un gateway dati per Power BI
 description: Procedure consigliate e considerazioni per la distribuzione di un gateway per Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9438b9563d17cff8ce334e48bc34a4f3fa6acf1c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Indicazioni per la distribuzione di un gateway dati per Power BI
-Questo articolo fornisce indicazioni e considerazioni per la distribuzione di un gateway dati nell'ambiente di rete. Il termine **gateway** indica il software usato per agevolare l'accesso a dati che risiedono in una rete privata locale allo scopo di usarli in un servizio cloud, come Power BI. Questo articolo fornisce indicazioni per l'installazione del **gateway dati locale** e la distribuzione.
+Questo articolo fornisce indicazioni e considerazioni per la distribuzione di un gateway dati nell'ambiente di rete. Il termine **gateway** indica il software usato per agevolare l'accesso a dati che risiedono in una rete privata locale allo scopo di usarli in un servizio cloud, come Power BI. Questo articolo illustra la distribuzione e le indicazioni per la configurazione del **gateway dati locale**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Per altre informazioni sul **gateway dati locale**, incluso un collegamento per installarlo, vedere questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Per altre informazioni sul **Gateway dati locale**, incluso un collegamento per installarlo, leggere questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Considerazioni sull'installazione per il gateway dati locale
 Prima di approfondire ulteriormente i dettagli relativi a installazione e distribuzione, ci sono alcune considerazioni da tenere in mente. Le sezioni seguenti descrivono informazioni importanti da tenere sempre ben presenti.
@@ -91,7 +91,7 @@ Il *contatore del gateway*, oltre ai contatori del computer, offre un'idea della
 #### <a name="logs"></a>Log
 I log di configurazione e servizio offrono un'altra dimensione su quanto avviene nel gateway. Verificare sempre i log del gateway quando la connessione non funziona come previsto, perché non tutti i messaggi di errore emergono nel servizio Power BI.
 
-Un modo semplice per visualizzare tutti i file di log nel computer locale consiste nell'usare il pulsante *Esporta log* nel **gateway dati locale** quando si apre nuovamente il gateway dopo che l'installazione iniziale è stata completata, quindi selezionare **Diagnostica > Esporta log**.
+Un modo semplice per visualizzare tutti i file di log nel computer locale è usare il pulsante *Esporta log* nel **gateway dati locale** quando si apre nuovamente il gateway dopo che l'installazione iniziale è stata completata, quindi selezionare **Diagnostica > Esporta log**.
 
 #### <a name="additional-logging"></a>Registrazione aggiuntiva
 Per impostazione predefinita il gateway esegue la registrazione di base. Se si sta ricercando la causa di problemi del gateway e servono altre informazioni sui dettagli di connessione di query, è possibile abilitare temporaneamente la *registrazione dettagliata* per raccogliere informazioni di log aggiuntive. A tale scopo, nel gateway installato selezionare **Diagnostica > Registrazione aggiuntiva**.

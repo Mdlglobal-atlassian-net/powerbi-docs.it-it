@@ -1,15 +1,15 @@
 ---
-title: "Considerare l'impostazione di integrità referenziale in Power BI Desktop"
-description: "Informazioni su come usare DirectQuery per far sì che Power BI Desktop consideri l'integrità referenziale"
+title: Considerare l'impostazione di integrità referenziale in Power BI Desktop
+description: Informazioni su come usare DirectQuery per far sì che Power BI Desktop consideri l'integrità referenziale
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Considerare le impostazioni di integrità referenziale in Power BI Desktop
 Quando ci si connette a un'origine dati con **DirectQuery**, è possibile usare la selezione **Considera integrità referenziale** per consentire un'esecuzione ottimizzata delle query sull'origine dati. Questa funzionalità presenta alcuni requisiti per i dati sottostanti ed è disponibile solo quando si usa **DirectQuery**.
@@ -45,7 +45,7 @@ L'esempio seguente mostra il comportamento di **Considera integrità referenzial
 1. Nella figura seguente che mostra la tabella **Orders** e la tabella **Products** esiste integrità referenziale tra **Orders[ProductID]** e **Products[ProductID]**. La colonna **[ProductID]** nella tabella **Orders** non è mai *Null* e tutti i valori vengono anche visualizzati nella tabella **Products**. Di conseguenza, **Considera integrità referenziale** deve essere impostato per ottenere query più efficienti. Questa impostazione non modifica i valori visualizzati negli oggetti visivi.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Nella figura seguente non esiste integrità referenziale tra **Orders[DepotID]** e **Depots[DepotID]**, perché **Depots[DepotID]** è *Null* per alcuni *Orders*. Di conseguenza, **Considera integrità referenziale** *non* deve essere impostato.
+2. Nella figura seguente non esiste integrità referenziale tra **Orders[DepotID]** e **Depots[DepotID]**, perché **DepotID** è *Null* per alcuni elementi *Orders*. Di conseguenza, **Considera integrità referenziale** *non* deve essere impostato.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Infine, non esiste integrità referenziale tra **Orders[CustomerID]** e **Customers[CustomerID]** nelle tabelle seguenti. **CustomerID** contiene alcuni valori, in questo caso, *CustX*, che non esistono nella tabella *Customers*. Di conseguenza, **Considera integrità referenziale** *non* deve essere impostato.

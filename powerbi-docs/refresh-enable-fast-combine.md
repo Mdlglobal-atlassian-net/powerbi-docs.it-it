@@ -2,14 +2,14 @@
 title: Disabilitare le impostazioni di privacy
 description: Come abilitare la Combinazione rapida nel gateway personale per disabilitare le impostazioni di privacy per l'aggiornamento.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Disabilitare l'impostazione di privacy in Gateway di Power BI - Personale
 > [!NOTE]
-> Questa è una nuova versione del gateway personale per Power BI, chiamato **gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md). Combinazione rapida è disponibile anche nella nuova versione del gateway personale ed è descritta nel rispettivo articolo.
+> È disponibile una nuova versione del gateway personale per Power BI denominata **Gateway dati locale (modalità personale)**. Il seguente articolo descrive la versione precedente del gateway personale, chiamato **Power BI Gateway - Personal**, che verrà ritirato e cesserà di funzionare dopo il 31 luglio 2017. Per informazioni sulla nuova versione del gateway personale, comprese le istruzioni su come installare la nuova versione, vedere l'articolo [**Gateway dati locale (modalità personale)**](service-gateway-personal-mode.md). Combinazione rapida è disponibile anche nella nuova versione del gateway personale ed è descritta nel rispettivo articolo.
 > 
 > 
 

@@ -1,15 +1,15 @@
 ---
 title: Ricerca di utenti Power BI che hanno eseguito l'accesso
-description: "Se si è un amministratore tenant e si desidera vedere chi ha effettuato l'accesso a Power BI, è possibile usare i report d'uso e di accesso di Azure Active Directory per ottenere informazioni."
+description: Se si è un amministratore tenant e si desidera vedere chi ha effettuato l'accesso a Power BI, è possibile usare i report d'uso e di accesso di Azure Active Directory per ottenere informazioni.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Administration
-ms.openlocfilehash: 7730f7b407eee9c474d04d64cd5748b33b9181ff
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 78deaa2e98060e86756876e3d736fe973a5f5905
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Ricerca di utenti Power BI che hanno eseguito l'accesso
 Se si è un amministratore tenant e si desidera vedere chi ha effettuato l'accesso a Power BI, è possibile usare i report d'uso e di accesso di Azure Active Directory per ottenere informazioni.
@@ -52,7 +52,7 @@ Per visualizzare l'attività di accesso è possibile usare il portale di Azure A
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Filtrare l'applicazione tramite **Microsoft Power BI** o **Power BI Gateway** e selezionare **Applica**.
    
-    **Microsoft Power BI** indica le attività di accesso relative al servizio, mentre **Power BI Gateway** indica gli accessi specifici per il gateway dati locale.
+    **Microsoft Power BI** si riferisce alle attività di accesso relative al servizio, mentre **Power BI Gateway** indica gli accessi specifici per il gateway dati locale.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 

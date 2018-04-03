@@ -2,27 +2,27 @@
 title: Usare SAP BW Connector in Power BI Desktop
 description: Usare SAP BW Connector in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0863b41ecc0f7053ae0d958d25c756c8597880ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Usare SAP BW Connector in Power BI Desktop
 Con Power BI Desktop è possibile accedere ai dati **SAP BusinessWarehouse (BW)**.
@@ -33,12 +33,16 @@ Per usare **SAP BW Connector**, eseguire i passaggi di installazione seguenti:
 1. Installare la libreria **SAP NetWeaver** nel computer locale. È possibile ottenere la libreria **SAP Netweaver** dall'amministratore di SAP o direttamente da [SAP Software Download Center](https://support.sap.com/swdc). Dal momento che **SAP Software Download Center** cambia struttura di frequente, non sono disponibili indicazioni più specifiche per la navigazione. La libreria **SAP NetWeaver** solitamente è inclusa anche nell'installazione di Strumenti client SAP.
    
    Si potrebbe cercare la *nota SAP 1025361* per ottenere il percorso di download per la versione più recente. Assicurarsi che l'architettura per la libreria **SAP NetWeaver** (a 32 o 64 bit) corrisponda all'installazione di **Power BI Desktop**, quindi installare tutti i file inclusi in **SAP NetWeaver RFC SDK** secondo la nota SAP.
-2. La finestra di dialogo **Recupera dati** include una voce per **SAP Business Warehouse Server** nella categoria **Database**.
+2. La finestra di dialogo **Recupera dati** include voci **Server applicazioni SAP Business Warehouse** e **Server messaggi SAP Business Warehouse** nella categoria **Database**.
    
    ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
 ## <a name="sap-bw-connector-features"></a>Funzionalità SAP BW Connector
-L'anteprima di **SAP BW Connector** in Power BI Desktop consente agli utenti di importare i dati dai rispettivi cubi del **Server SAP Business Warehouse**. È possibile usare anche DirectQuery con il **Connettore SAP BW**. È necessario specificare *Server*, *Numero sistema* e *ID client* per stabilire la connessione.
+**SAP BW Connector** in Power BI Desktop consente di importare dati dai cubi **Server SAP Business Warehouse** o di usare DirectQuery. 
+
+Per altre informazioni su **SAP BW Connector** e su come usarlo con DirectQuery, vedere l'articolo [DirectQuery e SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
+
+Per stabilire la connessione è necessario specificare valori per *Server*, *Numero sistema* e *ID client*.
 
 ![](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -46,7 +50,7 @@ L'anteprima di **SAP BW Connector** in Power BI Desktop consente agli utenti di 
 
 ![](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
-Se non è stata specificata alcuna istruzione MDX, viene visualizzata la finestra **Strumento di navigazione** che visualizza l'elenco dei cubi disponibili nel server, l'opzione per eseguire il drill-down e selezionare gli elementi dai cubi disponibili, tra cui dimensioni e misure. Power BI espone le query e i cubi esposti dai [BAPI OLAP dell'interfaccia di analisi aperta BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
+Se non è stata specificata alcuna istruzione MDX, viene visualizzata la finestra **Strumento di navigazione** che visualizza l'elenco dei cubi disponibili nel server e offre la possibilità di eseguire il drill-down e di selezionare gli elementi dai cubi disponibili, tra cui dimensioni e misure. Power BI espone le query e i cubi esposti dai [BAPI OLAP dell'interfaccia di analisi aperta BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
 
 Quando si seleziona uno o più elementi dal server, viene creata un'anteprima della tabella di output in base alla loro selezione.
 
@@ -105,3 +109,9 @@ Questa sezione vengono fornisce situazioni (e soluzioni) di risoluzione dei prob
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
+## <a name="next-steps"></a>Passaggi successivi
+Per altre informazioni su SAP HANA e DirectQuery, vedere le risorse seguenti:
+
+* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [DirectQuery in Power BI](desktop-directquery-about.md)
+* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)

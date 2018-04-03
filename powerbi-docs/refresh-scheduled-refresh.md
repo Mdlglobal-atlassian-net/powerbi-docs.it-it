@@ -2,13 +2,13 @@
 title: Configurare l'aggiornamento pianificato
 description: Questo articolo descrive la procedura per selezionare un gateway e configurare l'aggiornamento pianificato.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: dec6b60b4dfddd9a4c55ee01cb7b9dc6b8c71cd3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: af8895b90b2f3315fb0cfd71351dbe65c108071e
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="configuring-scheduled-refresh"></a>Configurazione dell'aggiornamento pianificato
 
@@ -70,7 +70,7 @@ L'accesso alle origini dati viene richiesto solo al primo aggiornamento del set 
 In caso di errori, il problema in genere è dovuto al fatto che il gateway è offline perché non è stato in grado di accedere a Windows e avviare il servizio oppure Power BI non è stato in grado di accedere alle origini dati per eseguire una query per i dati aggiornati. Se l'aggiornamento non riesce, controllare le impostazioni del set di dati. Se il servizio gateway è offline, l'errore viene visualizzato nello stato del gateway. Se Power BI non può accedere alle origini dati, l'errore viene visualizzato in Credenziali origine dati.
 
 ### <a name="on-premises-data-gateway"></a>Gateway dati locale
-Se si usa un gateway dati locale per aggiornare i dati, non è necessario specificare le credenziali perché vengono definite per l'origine dati dall'amministratore del gateway.
+Se si usa il gateway dati locale per aggiornare i dati, non è necessario specificare le credenziali poiché vengono definite per l'origine dati dall'amministratore del gateway.
 
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
