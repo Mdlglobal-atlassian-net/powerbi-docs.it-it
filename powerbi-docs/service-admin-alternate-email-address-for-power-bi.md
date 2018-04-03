@@ -2,14 +2,14 @@
 title: Uso di un indirizzo di posta elettronica alternativo
 description: Uso di un indirizzo di posta elettronica alternativo
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Quando si acquisisce un token di incorporamento di Azure Active Directory (AAD) 
 
 Power BI seleziona l'indirizzo di posta elettronica da usare in base ai criteri seguenti:
 1.  Se l'attributo relativo alla posta elettronica è presente nell'oggetto utente del tenant AAD, Power BI usa questo attributo per l'indirizzo di posta elettronica
-2.  Se l'indirizzo di posta elettronica UPN *non* è un indirizzo di posta elettronica di un dominio **\*.onmicrosoft.com** (l'informazione dopo il simbolo "@"), Power BI usa questo attributo per l'indirizzo di posta elettronica
+2.  Se l'indirizzo di posta elettronica UPN *non* è un indirizzo di posta elettronica di un dominio **\*.onmicrosoft.com** (l'informazione dopo il simbolo "\@"), Power BI usa questo attributo per l'indirizzo di posta elettronica
 3.  Se l'attributo della matrice dell'indirizzo di posta elettronica "altro" è presente nell'oggetto utente di AAD, verrà usato il primo indirizzo di posta elettronica in questo elenco, poiché in questo attributo può essere presente un elenco di indirizzi di posta elettronica
 4. Se nessuna delle condizioni precedenti è presente, verrà usato l'indirizzo UPN
 
