@@ -728,7 +728,7 @@
           href: desktop-common-query-tasks.md
         - name: Usare le forme mappa in Power BI Desktop (anteprima)
           href: desktop-shape-map.md
-        - name: Combinare file binari
+        - name: Combinare file (binari)
           href: desktop-combine-binaries.md
     - name: Modellare i dati
       items:
