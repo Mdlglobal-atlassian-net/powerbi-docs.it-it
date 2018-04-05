@@ -1,15 +1,15 @@
 ---
-title: "Gestire capacità all'interno di Power BI Premium e Power BI Embedded"
+title: Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 description: Informazioni su come gestire Power BI Premium e abilitare l'accesso al contenuto per tutta l'organizzazione.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 Informazioni su come gestire le capacità di Power BI Premium e Power BI Embedded che forniscono risorse dedicate per il contenuto usato.
@@ -47,6 +47,10 @@ Per sfruttare i vantaggi della capacità dedicata, è necessario acquistare una 
 * **Power BI Embedded:** [Creare la capacità di Power BI Embedded nel portale di Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Quando si acquistano gli SKU di Power BI Premium, il tenant riceverà il numero corrispondente di memorie centrali virtuali da usare nelle capacità in esecuzione. Ad esempio, l'acquisto di uno SKU P3 di Power BI Premium fornisce al tenant 32 memorie centrali virtuali.
+
+> [!NOTE]
+> Saranno disponibili 30 giorni di accesso completo dopo il termine della sottoscrizione, ma dopo tale periodo verrà ripristinata la capacità condivisa per il contenuto. I modelli > 1 GB non saranno supportati con una licenza condivisa normale.
+>
 
 ## <a name="capacity-admins"></a>Amministratori della capacità
 > [!NOTE]

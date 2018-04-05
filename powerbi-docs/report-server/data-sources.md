@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/21/2018
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 3777c58bae36d6115b51b64e0422529fe390a13c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a varie origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -84,7 +84,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Web |Sì |Sì |No |
 | XML |Sì |Sì |No |
 | appFigures (beta) |Sì |No |No |
-| Database di Azure Analysis Services (Beta) |Sì |No |No |
+| Database di Azure Analysis Services |Sì |No |Sì |
 | Azure Cosmos DB (Beta) |Sì |No |No |
 | Spark in Azure HDInsight (Beta) |Sì |No |No |
 | Common Data Service (Beta) |Sì |No |No |

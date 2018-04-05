@@ -2,14 +2,14 @@
 title: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
 description: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Suggerimenti per porre domande in Domande e risposte di Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Parole e terminologia riconosciute da Domande e risposte
@@ -94,9 +94,6 @@ Domande e risposte fa del suo meglio per garantire che la risposta rifletta accu
 * auto-suggerisce termini sostitutivi dai set di dati sottostanti quando si sposta il cursore nella casella della domanda.
 * riformula la domanda in base ai dati nei set di dati sottostanti. Questo contribuisce a garantire che Domande e risposte comprenda la domanda quando Domande e risposte sostituisce le parole utilizzate con sinonimi dai set di dati sottostanti.
 * offusca parole che non riconosce.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Combinare i risultati da più set di dati
-Una delle funzionalità più potenti di Power BI è la possibilità di combinare i dati da set di dati diversi.  Non occorre quindi limitare le domande a un singolo set di dati, ma si possono porre domande che recuperano dati da più set di dati. Ad esempio, se il dashboard contiene riquadri dall'esempio di analisi delle vendite al dettaglio e un set di dati della popolazione degli stati, è possibile domandare *mostra il numero di negozi per popolazione degli stati come grafico a barre in ordine decrescente*.
 
 ## <a name="dont-stop-now"></a>Non interrompere ora
 Dopo che Domande e risposte ha mostrato i risultati, continuare la conversazione! Utilizzare le funzionalità interattive della visualizzazione e di Domande e risposte per scoprire ulteriori approfondimenti.
