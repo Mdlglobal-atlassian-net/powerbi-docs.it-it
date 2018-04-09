@@ -1,6 +1,6 @@
 - name: Servizio Power BI
   items:
-    - name: Inizia
+    - name: Attività iniziali
       items:
         - name: Power BI - Concetti di base
           href: service-basic-concepts.md
@@ -624,7 +624,7 @@
           href: service-refresh-xero-credentials.md
 - name: Power BI Desktop
   items:
-    - name: Inizia
+    - name: Attività iniziali
       items:
         - name: Ottenere Power BI Desktop
           href: desktop-get-the-desktop.md
@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Filtri dei dati in Power BI Desktop
           href: desktop-slicers.md
+        - name: Uso dei pulsanti in Power BI
+          href: desktop-buttons.md
         - name: Segnalibri in Power BI
           href: desktop-bookmarks.md
         - name: Creare descrizioni comando personalizzate per i report (anteprima)
@@ -828,7 +830,7 @@
           href: desktop-create-phone-report.md
         - name: Pubblicare da Power BI Desktop
           href: desktop-upload-desktop-files.md
-    - name: Scopri di più
+    - name: Altre informazioni
       items:
         - name: Usare la visualizzazione dei dati e la visualizzazione dei record
           href: desktop-see-data-see-records.md
@@ -852,7 +854,7 @@
           href: desktop-error-launching-desktop.md
 - name: App Power BI per dispositivi mobili
   items:
-    - name: Inizia
+    - name: Attività iniziali
       items:
         - name: App Power BI per dispositivi mobili
           href: mobile-apps-for-mobile-devices.md
@@ -1042,7 +1044,7 @@
   items:
     - name: Panoramica
       items:
-        - name: Inizia
+        - name: Attività iniziali
           href: report-server/get-started.md
         - name: Novità
           href: report-server/whats-new.md
