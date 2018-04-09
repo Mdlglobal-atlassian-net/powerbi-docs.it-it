@@ -830,7 +830,7 @@
           href: desktop-create-phone-report.md
         - name: Pubblicare da Power BI Desktop
           href: desktop-upload-desktop-files.md
-    - name: Altre informazioni
+    - name: Scopri di più
       items:
         - name: Usare la visualizzazione dei dati e la visualizzazione dei record
           href: desktop-see-data-see-records.md
@@ -992,6 +992,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Ottenere la certificazione di un oggetto visivo personalizzato
           href: power-bi-custom-visuals-certified.md
+        - name: Pubblicare oggetti visivi personalizzati in AppSource
+          href: developer/office-store.md
     - name: Eseguire il push dei dati in un dashboard
       items:
         - name: Eseguire il push dei dati in un dashboard
