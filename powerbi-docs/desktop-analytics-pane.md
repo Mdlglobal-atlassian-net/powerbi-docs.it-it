@@ -2,14 +2,14 @@
 title: Uso del riquadro Analisi in Power BI Desktop
 description: Creare linee di riferimento dinamiche per gli oggetti visivi in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 24f6f9037937049d24321791046aaf7a14e9fb6f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d0386f384698e0e66ce927466975eca7f25656db
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del riquadro Analisi in Power BI Desktop
 Con il riquadro **Analisi** in **Power BI Desktop** è possibile aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. Il riquadro **Analisi** è disponibile nell'area **Visualizzazioni** di Power BI Desktop.
@@ -60,7 +60,7 @@ Per visualizzare le linee di riferimento dinamiche disponibili per un oggetto vi
    ![](media/desktop-analytics-pane/analytics-pane_3.png)
 3. Per creare una nuova linea, selezionare **+ Aggiungi**. È quindi possibile specificare un nome per la linea facendo doppio clic sulla casella di testo, quindi digitando il nome.
    
-   Sono disponibili moltissime opzioni per la linea, ad esempio per impostare *colore*, *trasparenza*, *stile* e *posizione* relativamente a elementi dati dell'oggetto visivo, oltre alla possibilità di scegliere se includere l'etichetta. Soprattutto, è possibile selezionare su quale **Misura** nell'oggetto visivo si desidera basare la linea selezionando il menu a discesa **Misura**, che viene automaticamente popolato con gli elementi dati dell'oggetto visivo. In questo caso, si selezionerà *Weather* come misura, si etichetterà l'opzione come *Average Weather* e si personalizzeranno altre opzioni come illustrato di seguito.
+   Sono disponibili moltissime opzioni per la linea, ad esempio per impostare *colore*, *trasparenza*, *stile* e *posizione* relativamente a elementi dati dell'oggetto visivo, oltre alla possibilità di scegliere se includere l'etichetta. In particolare è possibile selezionare la **Misura** dell'oggetto visivo sulla quale basare la linea selezionando il menu a discesa **Misura**, che viene automaticamente popolato con gli elementi dati dell'oggetto visivo. In questo caso, si selezionerà *Weather* come misura, si etichetterà l'opzione come *Average Weather* e si personalizzeranno altre opzioni come illustrato di seguito.
    
    ![](media/desktop-analytics-pane/analytics-pane_4.png)
 4. Se si desidera visualizzare un'etichetta dati, spostare il dispositivo di scorrimento **Etichetta dati** su On. In questo caso, si ottiene una serie completa di opzioni aggiuntive per l'etichetta dati come illustrato nell'immagine seguente.
@@ -113,6 +113,8 @@ Infine, gli oggetti visivi non cartesiani attualmente non possono applicare line
 * Grafico a torta
 * Grafico ad anello
 * Tabella
+
+La linea del percentile è disponibile solo quando si usano dati importati in **Power BI Desktop** o con una connessione dinamica a un modello in un server che esegue **Analysis Services 2016** o versione successiva, **Azure Analysis Services** o un set di dati nel servizio Power BI. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:

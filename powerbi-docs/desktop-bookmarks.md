@@ -2,14 +2,14 @@
 title: Uso dei segnalibri in Power BI
 description: I segnalibri in Power BI Desktop consentono di salvare visualizzazioni e impostazioni nei report e creare presentazioni di tipo storia
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,25 +18,25 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
-Con i **segnalibri** in Power BI, è possibile acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
+I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
 
 È anche possibile creare una raccolta di segnalibri, disporli nell'ordine desiderato e successivamente passare da un segnalibro all'altro in una presentazione per evidenziare una serie di informazioni dettagliate oppure la storia che si vuole narrare tramite gli oggetti visivi e i report. 
 
 ![Segnalibri in Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-I segnalibri possono avere diversi usi. È possibile usarli per tenere traccia dello stato di avanzamento per la creazione dei report (i segnalibri sono facili da aggiungere, eliminare e rinominare) oppure per creare una presentazione tipo PowerPoint che scorre i segnalibri nell'ordine specificato per comunicare una storia con un report. È anche possibile usare i segnalibri in altri modi, a seconda di come si ritiene più opportuno.
+I segnalibri possono avere diversi usi. È possibile usarli per tenere traccia dello stato di avanzamento per la creazione dei report (i segnalibri sono facili da aggiungere, eliminare e rinominare) oppure per creare una presentazione in stile PowerPoint che scorre i segnalibri nell'ordine specificato per comunicare una storia con un report. È anche possibile usare i segnalibri in altri modi, a seconda di come si ritiene più opportuno.
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Abilitare l'anteprima dei segnalibri (versioni precedenti all'aggiornamento di marzo 2018)
 A partire dalla versione di marzo 2018 di Power BI Desktop i segnalibri sono disponibili a livello generale. 
 
-È sempre consigliabile eseguire l'aggiornamento alla versione più recente. Se tuttavia la versione di Power BI Desktop in uso è precedente, è possibile provare la nuova funzionalità **segnalibri** a partire dalla versione di **Power BI Desktop** di **ottobre 2017** e anche nel **servizio Power BI** per i report abilitati per i segnalibri. Per abilitare la funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo accanto a **Segnalibri**. 
+È sempre consigliabile eseguire l'aggiornamento alla versione più recente. Tuttavia, se la versione di Power BI Desktop in uso è precedente, è possibile provare la nuova funzionalità **segnalibri** a partire dalla versione di **Power BI Desktop** di **ottobre 2017** e anche nel **servizio Power BI** per i report abilitati per i segnalibri. Per abilitare la funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo accanto a **Segnalibri**. 
 
 ![Abilitare i segnalibri nella finestra Opzioni](media/desktop-bookmarks/bookmarks_02.png)
 
@@ -63,7 +63,7 @@ Configurare una pagina di report nel modo in cui si vuole che venga visualizzata
 
 ![Aggiungere un segnalibro](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop** crea un segnalibro e gli assegna un nome generico. Per *rinominare* un segnalibro, *eliminarlo* o *aggiornarlo*, selezionare i puntini di sospensione accanto al nome del segnalibro e quindi scegliere un'azione dal menu visualizzato.
+**Power BI Desktop** crea un segnalibro e gli assegna un nome generico. Per *rinominare*, *eliminare* o *aggiornare* un segnalibro facilmente, selezionare i puntini di sospensione accanto al nome del segnalibro e quindi scegliere un'azione dal menu visualizzato.
 
 ![Usare i puntini di sospensione per visualizzare il sottomenu per un segnalibro](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -84,8 +84,8 @@ Se si vuole presentare una raccolta di segnalibri nell'ordine in cui sono dispos
 Quando si passa alla modalità **Visualizzazione**, è necessario tenere conto degli aspetti seguenti:
 
 1. Il nome del segnalibro viene visualizzato nella barra del titolo del segnalibro nella parte inferiore dell'area di disegno.
-2. Le frecce disponibili nella barra del titolo del segnalibro consentono di passare al segnalibro precedente o successivo
-3. Per uscire dalla modalità **Visualizzazione**, selezionare **Esci** nel riquadro **segnalibri** o la **X** nella barra del titolo del segnalibro. 
+2. Le frecce disponibili nella barra del titolo del segnalibro consentono di passare al segnalibro precedente o successivo.
+3. Per uscire dalla modalità **Visualizzazione**, selezionare **Esci** nel riquadro **Segnalibri** o la **X** nella barra del titolo del segnalibro. 
 
 ![Funzionalità della barra del titolo del segnalibro](media/desktop-bookmarks/bookmarks_07.png)
 

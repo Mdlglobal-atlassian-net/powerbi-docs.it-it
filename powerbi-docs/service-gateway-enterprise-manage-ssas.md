@@ -1,15 +1,15 @@
 ---
 title: Gestire l'origine dati - Analysis Services
-description: "Come gestire il gateway dati locale e le origini dati che vi appartengono. Questo argomento è per Analysis Services in modalità tabulare e multidimensionale."
+description: Come gestire il gateway dati locale e le origini dati che vi appartengono. Questo argomento è per Analysis Services in modalità tabulare e multidimensionale.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6ce9a6d962098b3f40c351d0319c4b7908f4e4f7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 59fc3db101de246aaf4ab08c7916b25497b74fd2
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gestire l'origine dati - Analysis Services
 Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati Analysis Services per l'aggiornamento pianificato o per le connessioni in tempo reale.
@@ -148,7 +148,7 @@ Nel **servizio Power BI** si verifica quanto segue:
 > 
 > 
 
-Nel gateway dati locale con mapping personalizzato configurabile dall'utente, eseguire questa procedura:
+Nel gateway dati locale con mapping personalizzato configurabile dall'utente, seguire questa procedura:
 
 1. Trovare Active Directory per la ricerca (automatica o configurabile)
 2. Cercare l'attributo dell'utente di Active Directory (ad esempio *Email*) basato sulla stringa UPN in ingresso ("firstName.lastName@contoso.com") dal **servizio Power BI**.
@@ -159,14 +159,14 @@ Nel gateway dati locale con mapping personalizzato configurabile dall'utente, es
 Come configurare il gateway per eseguire la ricerca tramite AD:
 
 1. Scaricare e installare il gateway più recente
-2. Nel gateway, è necessario modificare il **servizio Gateway dati locale** in modo che venga eseguito con un account di dominio (anziché un account del servizio locale, in caso contrario la ricerca tramite AD non funzionerà correttamente in fase di esecuzione). Sarà necessario riavviare il servizio gateway per rendere effettiva la modifica.  Passare all'app Gateway nel computer (cercare "gateway dati locale"). A tale scopo, passare a **Impostazioni servizio > Modifica account di servizio**. Assicurarsi di avere la chiave di ripristino per il gateway, poiché sarà necessario ripristinarlo nello stesso computer, a meno che non si voglia creare invece un nuovo gateway. 
+2. Nel gateway è necessario modificare il **servizio Gateway dati locale** in modo che venga eseguito con un account di dominio anziché un account del servizio locale. In caso contrario la ricerca tramite AD non funzionerà correttamente in fase di esecuzione. Sarà necessario riavviare il servizio gateway per rendere effettiva la modifica.  Passare all'app Gateway nel computer (cercare "gateway dati locale"). A tale scopo, passare a **Impostazioni servizio > Modifica account di servizio**. Assicurarsi di avere la chiave di ripristino per il gateway, poiché sarà necessario ripristinarlo nello stesso computer, a meno che non si voglia creare invece un nuovo gateway. 
 3. Passare alla cartella di installazione del gateway, *C:\Programmi\Gateway dati locale* come amministratore, per assicurarsi di avere le autorizzazioni di scrittura e modificare il file seguente:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Modificare i due valori di configurazione seguenti in base alle *proprie* configurazioni di attributi di Active Directory degli utenti Active Directory. I valori di configurazione illustrati di seguito sono riportati esempi soli: è necessario specificarli in base alla configurazione di Active Directory. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Riavviare il **gateway dati locale** per rendere effettiva la modifica della configurazione.
+5. Riavviare il servizio **Gateway dati locale** per rendere effettiva la modifica della configurazione.
 
 ### <a name="working-with-mapping-rules"></a>Uso delle regole di mapping
 Per creare una regola di mapping, immettere un valore per il **nome originale** e il **nuovo nome** e quindi selezionare **Aggiungi**.

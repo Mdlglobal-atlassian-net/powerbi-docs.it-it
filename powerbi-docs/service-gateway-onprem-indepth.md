@@ -2,14 +2,14 @@
 title: Analisi approfondita del gateway dati locale
 description: Questo articolo offre un'analisi approfondita del gateway dati locale. Illustra come funziona il servizio con Azure Active Directory e Active Directory locale quando si lavora con Analysis Services
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5ab3159be71fbefbbe034ce8f39f9df02b48ede3
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
-Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway di dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
+Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
 
 L'installazione e la configurazione di un gateway viene in genere eseguita da un amministratore. Può richiedere conoscenze specializzate dei server locali e in alcuni casi le autorizzazioni di amministratore del server.
 
@@ -120,7 +120,7 @@ In alcuni casi l'installazione del gateway non riesce. In altri casi, il gateway
 
 In altri casi, potrebbero esserci problemi con il tipo di indirizzo di posta elettronica con cui gli utenti eseguono l'accesso oppure con l'impossibilità di risolvere un nome utente effettivo in Analysis Services. Se si hanno più domini con trust reciproci e il gateway si trova in uno di essi e Analysis Services nell'altro, in alcuni casi potrebbero verificarsi dei problemi.
 
-Invece di analizzare la risoluzione dei problemi del gateway in questo articolo, è stata inclusa una serie di passaggi di risoluzione dei problemi in un altro articolo, [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md). Probabilmente non si verificherà alcun problema, ma in tal caso, la conoscenza del funzionamento generale e l'articolo sulla risoluzione dei problemi dovrebbero essere d'aiuto.
+Invece di analizzare la risoluzione dei problemi del gateway in questo articolo, è stata raccolta una serie di passaggi di risoluzione dei problemi in un altro articolo, [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md). Probabilmente non si verificherà alcun problema, ma in tal caso, la conoscenza del funzionamento generale e l'articolo sulla risoluzione dei problemi dovrebbero essere d'aiuto.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

@@ -2,14 +2,14 @@
 title: Informazioni sui livelli di privacy di Power BI Desktop
 description: Livelli di privacy di Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Livelli di privacy di Power BI Desktop
 In **Power BI Desktop**, i livelli di privacy specificano un livello di isolamento che definisce in che misura un'origine dati verrà isolata dalle altre. Anche se un livello di isolamento restrittivo impedisce lo scambio di informazioni tra le origini dati, può ridurre le funzionalità e compromettere le prestazioni.
@@ -31,15 +31,6 @@ L'impostazione **Livelli di privacy**, presente in **File > Opzioni e impostazio
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- La finestra di dialogo delle impostazioni di **Privacy** per ogni origine dati si trova in **File > Opzioni e impostazioni > Impostazioni origine dati**. Selezionare l'origine dati, quindi **Modifica**. Viene visualizzata la finestra di dialogo **Impostazioni origine dati**. Nel menu a discesa nella parte inferiore di questa finestra di dialogo è possibile selezionare il livello di privacy appropriato, come mostrato nella figura seguente.
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> Un'origine dati che contiene dati altamente sensibili o riservati dovrebbe essere configurata come **Privata**.
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>Configurare un livello di privacy
 Le impostazioni dei livelli di privacy consentono di specificare un livello di isolamento che definisca in che misura un'origine dati deve essere isolata dalle altre.
 
@@ -47,7 +38,7 @@ Le impostazioni dei livelli di privacy consentono di specificare un livello di i
 | --- | --- | --- |
 | **Origine dati privata** |Un'origine dati **Privata** contiene dati sensibili o riservati e la sua visibilità può essere limitata agli utenti autorizzati. Un'origine dati privati è completamente isolata da altre origini dati. |Dati di Facebook, un file di testo contenente gli incentivi in azioni o una cartella di lavoro con le informazioni sulle verifiche dei dipendenti. |
 | **Origine dati aziendale** |Un'origine dati **Aziendale** limita la visibilità di un'origine dati a un gruppo di persone considerato attendibile. Un'origine dati **Aziendale** è isolata da ogni origine dati **Pubblica** , ma è visibile alle altre origini dati di tipo **Aziendale** . |Un documento di **Microsoft Word** in un sito di SharePoint Intranet con autorizzazioni abilitate per un gruppo attendibile. |
-| **Origine dati pubblica** |Con un'origine dati **Pubblica** , i dati contenuti nell'origine dati sono visibili a tutti. Solo i file, le origini dati Internet o i dati delle cartelle di lavoro possono essere contrassegnati come origine **Pubblica**. |Dati liberi da Microsoft Azure Marketplace, dati da una pagina di Wikipedia o file locale contenente dati copiati da una pagina Web pubblica |
+| **Origine dati pubblica** |Con un'origine dati **Pubblica** , i dati contenuti nell'origine dati sono visibili a tutti. Solo i file, le origini dati Internet o i dati delle cartelle di lavoro possono essere contrassegnati come origine **Pubblica**. |Dati liberi da Microsoft Azure Marketplace, dati da una pagina di Wikipedia o un file locale contenente dati copiati da una pagina Web pubblica. |
 
 ## <a name="configure-privacy-level-settings"></a>Configurare le impostazioni del livello di privacy
 La finestra di dialogo delle impostazioni di **Privacy** per ogni origine dati si trova in **File > Opzioni e impostazioni > Impostazioni origine dati**.

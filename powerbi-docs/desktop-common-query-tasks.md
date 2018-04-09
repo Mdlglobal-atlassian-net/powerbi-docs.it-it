@@ -1,15 +1,15 @@
 ---
-title: "Attività di query comuni in Power BI Desktop"
-description: "Attività di query comuni in Power BI Desktop"
+title: Attività di query comuni in Power BI Desktop
+description: Attività di query comuni in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4d0a8b9a1f855c373b43c5c78ec41b6bc34d1d18
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37c5e55d426d308fe8ea7de5c6604a9c66f81896
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
@@ -45,7 +45,7 @@ La prima connessione dati è una cartella di lavoro di Excel. L'altra è una ris
 La procedura necessaria per connettersi a entrambe queste origini dati coincide con l'inizio delle attività comuni di Query.
 
 ## <a name="connect-to-data"></a>Connettersi ai dati
-Per connettersi ai dati in Power BI Desktop, selezionare il pulsante **Recupera dati** nella scheda **Home** della barra multifunzione. Power BI Desktop visualizza un menu con le origini dati più comuni. Per un elenco completo delle origini dati a cui Power BI Desktop può connettersi, selezionare il pulsante **Altro** nella parte inferiore del menu. Per altre informazioni, vedere [Origini dati in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471643).
+Per connettersi ai dati in Power BI Desktop, selezionare il pulsante **Recupera dati** nella scheda **Home** della barra multifunzione. Power BI Desktop visualizza un menu con le origini dati più comuni. Per un elenco completo delle origini dati a cui Power BI Desktop può connettersi, selezionare il pulsante **Altro** nella parte inferiore del menu. Per altre informazioni, vedere [Origini dati in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -67,18 +67,18 @@ Scegliere **OK**. Come in precedenza, Power BI Desktop esamina la cartella di la
 
 Le altre connessioni dati sono simili. Se per stabilire una connessione dati è necessaria l'autenticazione, Power BI Desktop richiederà di immettere le credenziali appropriate.
 
-Per informazioni dettagliate sulla connessione ai dati in Power BI Desktop, vedere [Connettersi ai dati in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
+Per informazioni dettagliate sulla connessione ai dati in Power BI Desktop, vedere [Connettersi ai dati in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Effettuare il data shaping e combinare i dati
-L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
+L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
 
-Nella sezione precedente sono stati caricati due set di dati, una cartella di lavoro di Excel e una risorsa Web. Dopo il caricamento nell'Editor di query, la visualizzazione è simile alla seguente, con la query della pagina Web selezionata (dall'elenco delle query disponibili elencate nel riquadro **Query** sul lato sinistro della finestra Editor di query).
+Nella sezione precedente sono stati caricati due set di dati, una cartella di lavoro di Excel e una risorsa Web. Dopo il caricamento nell'Editor di query, la visualizzazione è simile alla seguente, con la query della pagina Web selezionata (tratta dall'elenco delle query disponibili elencate nel riquadro **Query** sul lato sinistro della finestra Editor di query).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
 Quando si effettua il data shaping, si modifica la forma e il formato di un'origine dati in base a esigenze specifiche. In questo caso la prima colonna *Header* non è necessaria, di conseguenza è possibile rimuoverla.
 
-Nell' **Editor di query**molti comandi sono disponibili nella barra multifunzione e nei menu sensibili al contesto accessibili facendo clic con il pulsante destro del mouse. Quando, ad esempio, si fa clic con il pulsante destro del mouse sulla colonna *Header* , il menu visualizzato contiene una voce per rimuovere la colonna. È anche possibile selezionare la colonna e quindi scegliere il pulsante **Rimuovi colonne** nella barra multifunzione.
+Nell' **Editor di query**molti comandi sono disponibili nella barra multifunzione e nei menu sensibili al contesto accessibili facendo clic con il pulsante destro del mouse. Quando, ad esempio, si fa clic con il pulsante destro del mouse sulla colonna *Header*, il menu visualizzato contiene una voce per rimuovere la colonna. È anche possibile selezionare la colonna e quindi scegliere il pulsante **Rimuovi colonne** nella barra multifunzione.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
 
@@ -98,11 +98,13 @@ La finestra **Raggruppa per** verrà visualizzata. Quando l'Editor di query ragg
 1. *Raggruppa per*: colonna in cui effettuare il raggruppamento. L'Editor di query sceglie la colonna selezionata, ma in questa finestra è possibile selezionare qualsiasi altra colonna della tabella.
 2. *Nuovo nome di colonna* : l'Editor di query suggerisce per la nuova colonna un nome basato sull'operazione applicata alla colonna raggruppata, ma è possibile specificare un qualsiasi altro nome.
 3. *Operazione* : specificare qui l'operazione applicata dall'Editor di query.
-4. *Segni +/-*: è possibile eseguire operazioni di aggregazione (azioni **Raggruppa per**) su più colonne ed eseguire più aggregazioni, il tutto nella finestra **Raggruppa per** e in un'unica operazione. L'Editor di query crea una nuova colonna (sulla base delle selezioni in questa finestra) che opera su più colonne. Selezionare il pulsante **+** per aggiungere altre colonne o aggregazioni a un'operazione **Raggruppa per**. Per rimuovere una colonna o un'aggregazione, basta selezionare l'icona –. Provare a effettuare questa operazione per verificarne l'effetto. 
+4. *Aggiungi raggruppamento* e *Aggiungi aggregazione*: queste opzioni vengono visualizzate dopo aver selezionato l'opzione **Avanzate**. È possibile eseguire operazioni di raggruppamento (azioni **Raggruppa per**) su più colonne ed eseguire più aggregazioni, il tutto nella finestra **Raggruppa per** e in un'unica operazione. L'Editor di query crea una nuova colonna (sulla base delle selezioni in questa finestra) che opera su più colonne. 
+
+Selezionare il pulsante **Aggiungi raggruppamento** oppure **Aggiungi aggregazione** per aggiungere più raggruppamenti o aggregazioni a un'operazione **Raggruppa per**. Per rimuovere una colonna o un'aggregazione, selezionare l'icona **...** ed **Elimina**, quindi procedere e provare a effettuare questa operazione per verificarne l'effetto.
    
    ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Quando si fa clic su **OK**, l'Editor di query esegue l'operazione **Raggruppa per** e restituisce i risultati. Esaminandoli nell'esempio; è possibile notare la presenza di oltre 1000 agenzie in Ohio, Texas, Illinois e California.
+Quando si fa clic su **OK**, l'Editor di query esegue l'operazione **Raggruppa per** e restituisce i risultati. Esaminando l'esempio, è ora possibile notare la presenza di oltre 1000 agenzie in Ohio, Texas, Illinois e California.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
 
@@ -126,7 +128,7 @@ Quando si fa clic su **OK**, Query visualizza la tabella in base alle istruzioni
 ## <a name="create-custom-columns"></a>Creare colonne personalizzate
 Nell'Editor di query è possibile creare formule che agiscono su più colonne della tabella e inserire i risultati di tali formule in una nuova colonna personalizzata. Con l'Editor di query creare colonne personalizzate è semplicissimo.
 
-Nell'Editor di query selezionare **Aggiungi colonna personalizzata** nella scheda **Aggiungi colonna** della barra multifunzione.
+Nell'Editor di query selezionare **Colonna personalizzata** nella scheda **Aggiungi colonna** della barra multifunzione.
 
 ![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
@@ -147,7 +149,7 @@ Nell'Editor di query tutti i passaggi applicati per ogni query vengono mantenuti
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Questa è la finestra dell'**editor avanzato** con i passaggi associati alla query **USA\_StudentEnrollment**. Questi passaggi vengono creati nel linguaggio delle formule di Power Query, noto anche come **M**. Per informazioni, vedere [Informazioni sulle formule di Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Per visualizzare la [specifica del linguaggio delle formule di Microsoft Power Query per Excel](http://go.microsoft.com/fwlink/?linkid=320633), scaricare il documento corrispondente.
+Questa è la finestra dell'**editor avanzato** con i passaggi associati alla query **USA\_StudentEnrollment**. Questi passaggi vengono creati nel linguaggio delle formule di Power Query, noto anche come **M**. Per informazioni, vedere [Informazioni sulle formule di Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f?ui=en-US&rs=en-US&ad=US). Per visualizzare la specifica del linguaggio, vedere [Microsoft Power Query for Excel Formula Language Specification](http://go.microsoft.com/fwlink/?linkid=320633) (Specifica del linguaggio delle formule di Microsoft Power Query per Excel).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

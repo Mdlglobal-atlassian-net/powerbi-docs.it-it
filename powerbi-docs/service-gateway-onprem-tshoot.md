@@ -2,27 +2,27 @@
 title: Risoluzione dei problemi del gateway dati locale
 description: Questo articolo fornisce informazioni su come risolvere i problemi relativi al gateway dati locale. Fornisce soluzioni alternative potenziali per problemi noti e strumenti utili.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 Questo articolo illustra alcuni problemi comuni che possono verificarsi quando si usa il **gateway dati locale**.
@@ -78,7 +78,7 @@ Per correggere questo errore, seguire questa procedura.
 1. Disinstallare il gateway.
 2. Eliminare la cartella seguente.
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Reinstallare il gateway.
 4. Applicare facoltativamente la chiave di ripristino per ripristinare un gateway esistente.
 
@@ -115,7 +115,7 @@ Questo errore può verificarsi per diversi motivi. Assicurarsi che sia possibile
 
 In **Mostra dettagli**, verrà visualizzato il codice di errore **DM_GWPipeline_UnknownError**.
 
-Per altre informazioni, è anche possibile cercare in Registri eventi > **Registri applicazioni e servizi** > **Servizio Gateway dati locale**.
+Per altri dettagli, è anche possibile cercare in Registri eventi > **Registri applicazioni e servizi** > **Servizio Gateway dati locale**.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Errore: Si è verificato un errore durante il tentativo di connessione a<server>. Dettagli: "Il data gateway è raggiungibile ma non può accedere all'origine dati locale".
 Non è stato possibile connettersi all'origine dati specificata. Controllare le informazioni fornite per l'origine dati.
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-Nel file *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* cambiare il valore `TraceVerbosity` da `4` in `5`. Per impostazione predefinita, questo file si trova in *C:\Programmi\Gateway dati locale*. La modifica questa impostazione inizierà a registrare voci dettagliate nel log del gateway. Sono incluse le voci che mostrano la durata.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+Nel file *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* cambiare il valore `TracingVerbosity` da `4` in `5`. Per impostazione predefinita, questo file si trova in *C:\Programmi\Gateway dati locale*. La modifica questa impostazione inizierà a registrare voci dettagliate nel log del gateway. Sono incluse le voci che mostrano la durata. È anche possibile abilitare le voci dettagliate abilitando il pulsante "Registrazione aggiuntiva" nell'applicazione Gateway dati locale.
+
+   ![Registrazione aggiuntiva](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> A seconda dell'utilizzo di gateway, l'abilitazione di TraceVerbosity su `5` può aumentare notevolmente le dimensioni del log. Dopo aver esaminato i log, è opportuno impostare TraceVerbosity su `4`. Non è consigliabile lasciare questa impostazione abilitata a lungo termine.
+> A seconda dell'utilizzo del gateway, l'abilitazione di TracingVerbosity su `5` può aumentare notevolmente le dimensioni del log. Dopo aver esaminato i log, è opportuno impostare TraceVerbosity su `4`. Non è consigliabile lasciare questa impostazione abilitata a lungo termine.
 > 
 > 
 
@@ -352,6 +354,72 @@ Per determinare il tempo impiegato per eseguire una query sull'origine dati, è 
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Se il server di database sottostante e il gateway dati locale non sono configurati correttamente per la [delega vincolata Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), abilitare la [registrazione dettagliata](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) nel gateway ed esaminare i dati in base agli errori e alle tracce nei file di log del gateway, come punto di partenza per la risoluzione dei problemi.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+Il valore di ImpersonationLevel è correlato alla configurazione del nome dell'entità servizio oppure all'impostazione dei criteri locali.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Soluzione**
+
+Seguire questi passaggi per risolvere il problema:
+1. Configurare un nome dell'entità di servizio per il gateway locale
+2. Configurare la delega vincolata in Active Directory (AD)
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Non è stato possibile creare l'identità di Windows per l'utente idutente
+
+L'eccezione FailedToImpersonateUserException si verifica se non è possibile la rappresentazione per conto di un altro utente. Ciò può verificarsi anche se l'account che si tenta di rappresentare proviene da un altro dominio rispetto a quello del servizio gateway (questa è una limitazione).
+
+**Soluzione**
+* Verificare che la configurazione sia corretta in base ai passaggi indicati nella sezione ImpersonationLevel precedente
+* Assicurarsi che l'ID utente che si tenta di rappresentare sia un account di Active Directory valido
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Errore generale. Errore 1033 durante l'analisi del protocollo
+
+Verrà visualizzato l'errore 1033 quando l'ID esterno configurato in SAP HANA non corrisponde all'account di accesso se l'utente è rappresentato con l'UPN (alias@domain.com). Nei log comparirà il messaggio "Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'" (UPN originale sostituito con il nuovo UPN) all'inizio dei log degli errori come di seguito.
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Soluzione**
+* SAP HANA richiede che l'utente rappresentato usi l'attributo sAMAccountName in Active Directory (alias utente). Se non è corretto, verrà visualizzato l'errore 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* Nei log dovrebbe essere visualizzato il nome sAMAccountName (alias) e non il nome UPN, ovvero l'alias seguito dal dominio (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos error. Major: "Miscellaneous failure [851968]", minor: "No credentials are available in the security package"
+
+Il messaggio di errore di connessione non riuscita -10709 verrà visualizzato se la delega non è configurata correttamente in Active Directory.
+
+**Soluzione**
+* Assicurarsi che il server SAP Hana sia incluso nella scheda della delega in Active Directory per l'account del servizio gateway
+
+   ![Scheda della delega](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ Per altre informazioni sulla risoluzione degli scenari per la risoluzione dei pr
 [Gestire l'origine dati - SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

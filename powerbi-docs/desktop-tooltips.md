@@ -2,14 +2,14 @@
 title: Uso delle pagine del report come descrizioni comando in Power BI
 description: Le pagine di descrizione comando in Power BI Desktop consentono di creare descrizioni complete dei comandi attivate dal passaggio del mouse per gli oggetti visivi presenti nei report
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop (anteprima)
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
 
 ![Descrizioni comando del report per Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-È possibile creare qualsiasi numero di pagine di descrizione comando. Ogni pagina di descrizione comando può essere associata a uno o più campi del report, in modo che quando si passa il mouse su un oggetto visivo che include il campo selezionato, la descrizione comando creata nella pagina di descrizione comando verrà visualizzata quando si passa il mouse sull'oggetto visivo, filtrata in base al punto dati su cui è posizionato il puntatore del mouse. 
+È possibile creare qualsiasi numero di pagine di descrizione comando. Ogni pagina di descrizione comando può essere associata a uno o più campi del report, in modo che quando si passa il mouse su un oggetto visivo che include il campo selezionato, la descrizione comando creata nella pagina di descrizione comando venga visualizzata quando si passa il mouse sull'oggetto visivo, filtrata in base al punto dati su cui è posizionato il puntatore del mouse. 
 
-Con le descrizioni comando dei report è possibile effettuare diverse operazioni. Vediamo come si creano le descrizioni comando e come procedere per configurarle.
+Con le descrizioni comando dei report è possibile effettuare diverse operazioni. Di seguito vengono descritte le procedure per la creazione delle descrizioni comando e per la loro configurazione.
 
 ### <a name="enable-the-tooltips-preview"></a>Abilitare l'anteprima delle descrizioni comando 
-Poiché le descrizioni comando del report sono attualmente in anteprima, per poter creare tali descrizioni comando è necessario abilitarle. Per abilitare la funzionalità di anteprima delle descrizioni comando del report, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima** in Power BI Desktop, quindi selezionare la casella di controllo accanto a **Segnalibri**. 
+Poiché le descrizioni comando del report sono attualmente in anteprima, per poter creare tali descrizioni comando è necessario abilitarle. Per abilitare la funzionalità di anteprima delle descrizioni comando del report, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima** in Power BI Desktop, quindi selezionare la casella di controllo accanto a **Descrizioni comando per le pagine del report**. 
 
 ![Abilitare la funzionalità di anteprima delle descrizioni comando del report](media/desktop-tooltips/desktop-tooltips_01.png)
 
@@ -99,7 +99,7 @@ La possibilità di impostare manualmente una descrizione comando offre diverse o
 
 ## <a name="reverting-to-default-tooltips"></a>Ripristino delle descrizioni comando predefinite
 
-Se si crea una descrizione comando manuale per un oggetto visivo ma si decide di usare la descrizione comando predefinita, è sempre possibile tornare alla descrizione comando predefinita offerta da Power BI. A tale scopo, quando si seleziona un oggetto visivo e la scheda **Descrizione comando** viene espansa, è sufficiente selezionare *Automatico* dall'elenco a discesa **Pagina** per tornare all'impostazione predefinita.
+Se si crea una descrizione comando manuale per un oggetto visivo, ma si decide di usare la descrizione comando predefinita, è sempre possibile tornare alla descrizione comando predefinita offerta da Power BI. A tale scopo, quando si seleziona un oggetto visivo e la scheda **Descrizione comando** viene espansa, è sufficiente selezionare *Automatico* dall'elenco a discesa **Pagina** per tornare all'impostazione predefinita.
 
 ![Tornare alla descrizione comando predefinita per un oggetto visivo](media/desktop-tooltips/desktop-tooltips_11.png)
 

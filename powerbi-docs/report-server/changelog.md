@@ -1,15 +1,15 @@
 ---
 title: Log delle modifiche per il server di report Power BI
-description: "Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione."
+description: Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: jtarquino
 manager: jonhp
 backup: maggies
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,17 +17,41 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: deff79bba0f7f191a8343629300c725f3150e509
-ms.sourcegitcommit: a44c29bbc220ecb1ed80810cb1e7df0db8ea611a
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
 Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
 
-Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Server di report di Power BI](whats-new.md).
+Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Server di report di Power BI](whats-new.md). 
+
+## <a name="march-2018"></a>Marzo 2018
+- **Server di report Power BI**
+    - *Versione 1.2.6660.39920 (build 15.0.2.389), data di rilascio: 28 marzo 2018*
+        - Correzioni di bug
+            - Per i report di Power BI (PBIX), correzione per l'esportazione dei dati non funzionanti da oggetti visivi di Power BI
+            - Per i report di Power BI (PBIX), correzione per i filtri URL non funzionanti
+            - Per i report impaginati (RDL), correzione per la visualizzazione non corretta delle immagini in Internet Explorer 11 dopo l'aggiornamento alla versione di marzo del Server di report di Power BI
+
+    - *Versione 1.2.6648.38132 (build 15.0.2.378), data di rilascio: 19 marzo 2018*
+        - Aggiornamenti della sicurezza
+        - Miglioramenti all'accessibilità
+        - Correzioni di bug
+            - Per i report impaginati (RDL), correzione della visibilità di parametri in un report collegato che viene ripristinato dopo la modifica delle proprietà
+            - Correzione del portale web con l'autenticazione personalizzata basata su form che ignora il cookie di scadenza scorrevole
+            - Correzione dell'esportazione in Word che consente di creare altezze di righe diverse se il contenuto delle righe è vuoto
+            - Per i report impaginati (RDL), correzione della stringa di connessione basata sull'espressione che viene eliminata quando vengono modificate le credenziali della sorgente dati
+            - Correzione della capacità di usare l'indicatore KPI con valori di testo
+            - Per i report impaginati (RDL), correzione della capacità di assegnare un nuovo set di dati a un report impaginato (RDL) esistente
+            - Altre correzioni di stabilità e usabilità
+
+- **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+    - Versione: 2.56.5023.1043 (marzo 2018), data di rilascio: 19 marzo 2018
+        - Include modifiche necessarie per la connessione al server di report di Power BI (marzo 2018)
 
 ## <a name="october-2017"></a>Ottobre 2017
 

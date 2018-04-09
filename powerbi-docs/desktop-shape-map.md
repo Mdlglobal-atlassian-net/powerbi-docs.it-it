@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile creare un oggetto visivo **forme mappa** per mostrare i confronti relativi delle aree su una mappa applicando colori diversi alle varie aree. Contrariamente all'oggetto visivo **mappa**, l'oggetto visivo **forme mappa** non può visualizzare le ubicazioni geografiche precise dei punti dati di una mappa; il suo scopo principale è invece quello di mostrare i confronti relativi su una mappa applicando a essi colori diversi.
@@ -32,7 +32,7 @@ Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offro
 ## <a name="creating-shape-maps"></a>Creazione di forme mappa
 È possibile testare il controllo **Mappa forme** con le mappe fornite con questa versione di anteprima oppure usare una mappa personalizzata, purché soddisfi i requisiti descritti nella sezione **Usare le mappe personalizzate**.
 
-L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Forme mappa**. Dopo aver effettuato la selezione è necessario riavviare Power BI Desktop.
+L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **Forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Oggetto visivo forme mappa**. Dopo aver effettuato la selezione è necessario riavviare Power BI Desktop.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ Power BI Desktop crea un'area di disegno vuota dell'oggetto visivo **forme mappa
 
 Per creare **forme mappa**, seguire la procedura illustrata di seguito:
 
-1. Nel riquadro **Campi** trascinare un campo dati contenente i nomi delle aree (o le abbreviazioni) nel bucket **Località** e un campo di misura di dati nel bucket **Valori** (la mappa non viene ancora visualizzata).
+1. Nel riquadro **Campi** trascinare un campo dati contenente i nomi delle aree (o le abbreviazioni) nel bucket **Percorso** e un campo di misura di dati nel bucket **Saturazione colore** (la mappa non viene ancora visualizzata).
    
    > [!NOTE]
 > Vedere la sezione intitolata **Recupero di dati delle mappe** riportata di seguito per informazioni su come ottenere rapidamente i dati delle mappa per testare le **forme mappa**.
@@ -70,7 +70,7 @@ Per creare **forme mappa**, seguire la procedura illustrata di seguito:
 ## <a name="use-custom-maps"></a>Usare le mappe personalizzate
 È possibile usare mappe personalizzate con **Forme mappa** purché siano nel formato **TopoJSON**. Se la mappa è in un altro formato, è possibile usare strumenti online come [**Map Shaper**](http://mapshaper.org/) per convertire i *file di forma* o le mappe *GeoJSON* nel formato **TopoJSON**.
 
-Per usare un file di mappa **TopoJSON**, aggiungere un oggetto visivo ShapeMap al report e aggiungere alcuni dati nei bucket *Percorso* e *Valori*. Quindi, nel riquadro **Visualizzazioni** con la sezione **Formato** selezionata (icona del pennello mostrata come (1) nell'immagine seguente), espandere la sezione **Forma** e selezionare **+ Aggiungi mappa**.
+Per usare il file di mappa **TopoJSON**, aggiungere un oggetto visivo ShapeMap al report e aggiungere alcuni dati nei bucket *Percorso* e *Saturazione colore*. Quindi, nel riquadro **Visualizzazioni** con la sezione **Formato** selezionata (mostrata come (1) nell'immagine seguente), espandere la sezione **Forma** e selezionare **+ Aggiungi mappa**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Per inserire rapidamente i dati in un modello per poter testare le **forme mappa
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-È quindi possibile incollare la tabella in Power BI Desktop. La riga superiore viene automaticamente identificata come intestazione.
+Se i dati includono più colonne, sarà necessario usare un editor come Excel per incollare i dati e quindi copiare separatamente ogni colonna di dati. È quindi possibile incollare i dati in Power BI Desktop. La riga superiore viene automaticamente identificata come intestazione.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Per inserire rapidamente i dati in un modello per poter testare le **forme mappa
 ## <a name="preview-behavior-and-requirements"></a>Comportamenti e requisiti dell'anteprima
 Per questa versione di anteprima di **forme mappa** è necessario tenere conto di alcune considerazioni e requisiti:
 
-* L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Forme mappa**.
-* Attualmente deve essere impostato anche il bucket **Valori** perché la classificazione **Legenda** funzioni correttamente.
-* La versione di rilascio finale di **Forme mappa** includerà un'interfaccia utente che visualizza le chiavi mappa della mappa selezionata (non è disponibile una data per il rilascio finale e **Forme mappa** è ancora in anteprima). In questa versione di anteprima è possibile vedere le chiavi di aree mappa disponibili nella sezione **Chiavi area** seguente di questo articolo.
+* L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **Forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Oggetto visivo forme mappa**.
+* Attualmente deve essere impostato anche il bucket **Saturazione colore** perché la classificazione **Legenda** funzioni correttamente.
+* La versione finale di **Forme mappa** avrà un'interfaccia utente che mostra le chiavi della mappa selezionata. Non è ancora stata definita la data della versione finale e la funzionalità **Forme mappa** è ancora in anteprima. In questa versione di anteprima è possibile fare riferimento alle chiavi delle aree della mappa nelle tabelle disponibili nella sezione **Chiavi area** di seguito in questo articolo.
 * L'oggetto visivo **Forme mappa** traccia un massimo di 1000 punti dati.
 
 ## <a name="region-keys"></a>Chiavi area

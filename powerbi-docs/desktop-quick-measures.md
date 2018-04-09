@@ -1,15 +1,15 @@
 ---
 title: Usare Misure rapide per eseguire facilmente calcoli comuni e avanzati in Power BI
-description: "La funzionalità Misure rapide fornisce formule DAX già pronte che accelerano l'esecuzione di calcoli comuni"
+description: La funzionalità Misure rapide fornisce formule DAX già pronte che accelerano l'esecuzione di calcoli comuni
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Usare Misure rapide per eseguire facilmente calcoli comuni e avanzati
-È possibile usare **Misure rapide** per eseguire facilmente e velocemente calcoli comuni e avanzati. Una **misura rapida** esegue un set di comandi DAX in background in base all'input fornito dall'utente in una finestra di dialogo, quindi presenta i risultati da usare nel report. Non è quindi necessario scrivere i comandi DAX perché quest'operazione viene eseguita automaticamente. Soprattutto, è possibile visualizzare le espressioni DAX che vengono eseguite dalla Misura rapida e iniziare subito o espandere le proprie competenze DAX.
+È possibile usare **Misure rapide** per eseguire facilmente e velocemente calcoli comuni e avanzati. Una **misura rapida** esegue un set di comandi DAX in background in base all'input fornito dall'utente in una finestra di dialogo, quindi presenta i risultati da usare nel report. Non è quindi necessario scrivere i comandi DAX perché quest'operazione viene eseguita automaticamente. Soprattutto, è possibile visualizzare le espressioni DAX che vengono eseguite dalla Misura rapida e iniziare subito o espandere le proprie competenze di DAX.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
 
@@ -46,9 +46,9 @@ Per creare una **Misura rapida**, fare clic con il pulsante destro del mouse su 
 
 Per rendere disponibile la funzionalità **Misure rapide**, la modellazione deve essere disponibile nel set di dati attualmente caricato. Di conseguenza, nelle connessioni dinamiche (ad esempio una connessione a un set di dati del servizio Power BI) la voce di menu **Misure rapide** non sarà visualizzata quando si fa clic con il pulsante destro del mouse sull'elenco **Campi**, tranne nel caso delle connessioni SSAS in tempo reale. 
 
-Quando si usano le connessioni in tempo reale di SQL Server Analysis Services (SSAS), alcune **Misure rapide** sono disponibili. **Power BI Desktop** visualizza solo la raccolta di **Misure rapide** supportate per la versione di SSAS a cui viene effettuata la connessione. Se si è quindi connessi a un'origine dati dinamica e alcune **Misure rapide** non sono disponibili nell'elenco, è perché la versione di SSAS a cui si è connessi non supporta la misura DAX usata per implementare la **Misura rapida** in questione.
+Quando si usano le connessioni in tempo reale di SQL Server Analysis Services (SSAS), alcune **Misure rapide** sono disponibili. **Power BI Desktop** visualizza solo la raccolta di **Misure rapide** supportate per la versione di SSAS a cui viene effettuata la connessione. Quindi, se si è connessi a un'origine dati dinamica e alcune **Misure rapide** non sono disponibili nell'elenco, è perché la versione di SSAS a cui si è connessi non supporta la misura DAX usata per implementare la **Misura rapida** in questione.
 
-Quando selezionata dal menu di scelta rapida, verrà visualizzata la finestra **Misure rapide**, che consente di selezionare i calcoli necessari e i campi in cui si vuole eseguire il calcolo.
+Quando selezionata dal menu di scelta rapida, verrà visualizzata la finestra **Misure rapide**, che consente di selezionare i calcoli necessari e i campi in base ai quali si vuole eseguire il calcolo.
 
 ![](media/desktop-quick-measures/quick-measures_03.png)
 
@@ -59,14 +59,14 @@ Quando si seleziona il menu a discesa, viene visualizzato il lungo elenco di **M
 Esistono cinque gruppi distinti di tipi di calcolo Misura rapida, ognuno con una raccolta di calcoli. Tali gruppi e calcoli sono i seguenti:
 
 * **Aggregazione per categoria**
-  * Media nella categoria
-  * Varianza nella categoria
-  * Massimo nella categoria
-  * Minimo nella categoria
+  * Media per categoria
+  * Varianza per categoria
+  * Massimo per categoria
+  * Minimo per categoria
   * Media ponderata per categoria
 * **Filtri**
   * Valore filtrato
-  * Differenza dalla linea di base
+  * Differenza dal valore filtrato
   * Differenza percentuale dal valore filtrato
   * Vendite da nuove categorie
 * **Business Intelligence**
@@ -92,7 +92,7 @@ Esistono cinque gruppi distinti di tipi di calcolo Misura rapida, ognuno con una
   * Classificazione a stelle
   * Elenco concatenato di valori
 
-Il numero di calcoli dovrebbe aumentare in futuro e, a tal proposito, i commenti degli utenti su quali **Misure rapide** vorrebbero vedere e le eventuali idee (incluse le formule DAX sottostanti) per le **Misure rapide** preferite saranno molto apprezzati. Altre informazioni in proposito vengono fornite alla fine di questo articolo.
+Il numero di calcoli dovrebbe aumentare in futuro e saranno molto apprezzati i suggerimenti degli utenti su quali **Misure rapide** vorrebbero vedere ed eventuali idee (incluse le formule DAX sottostanti) per **Misure rapide** da aggiungere. Altre informazioni in proposito vengono fornite alla fine di questo articolo.
 
 ## <a name="example-of-quick-measures"></a>Esempio di Misure rapide
 Esaminiamo un esempio di queste **Misure rapide** in azione.
@@ -101,7 +101,7 @@ L'oggetto visivo **Matrice** seguente mostra una tabella delle vendite di vari p
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Quando si clic con il pulsante destro del mouse sul campo **Valori** e quindi si seleziona **Misure rapide**, è possibile selezionare *Media nella categoria* come *Calcolo*, quindi selezionare *Somma di SalesAmount* come *Valore di base*, infine specificare *SalesAmount* trascinando il campo dalla casella *Campi* nel riquadro di destra nella sezione *Categoria* a sinistra.
+Quando si fa clic con il pulsante destro del mouse sul campo **Valori** e quindi si seleziona **Misure rapide**, è possibile selezionare *Media per categoria* come *Calcolo*, quindi selezionare *Somma di SalesAmount* come *Valore di base*, infine specificare *SalesAmount* trascinando il campo dalla casella *Campi* nel riquadro di destra nella sezione *Categoria* a sinistra.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 
@@ -130,13 +130,13 @@ Un altro grande vantaggio della funzionalità **Misure rapide** è che mostra di
 
 Questo è interessante già di per sé, perché mostra la formula che sta alla base della misura, ma, soprattutto, consente di usare **Misure rapide** per vedere come creare le formule DAX sottostanti.
 
-Si supponga che sia necessario calcolare la variazione rispetto all'anno precedente, ma che non si sia certi di come strutturare la formula DAX (oppure, che non si sappia esattamente da dove cominciare). Invece di arrovellarsi inutilmente, basterebbe creare una **Misura rapida** con il calcolo **Variazione rispetto all'anno precedente** e vedere cosa accade, cioè creare la **Misura rapida** e vedere come appare nell'oggetto visivo, verificare come ha funzionato la formula DAX, quindi apportare le modifiche direttamente a DAX oppure creare un'altra misura, finché i calcoli non avranno soddisfatto le proprie aspettative o esigenze.
+Si supponga che sia necessario calcolare la variazione rispetto all'anno precedente, ma che non si sia certi di come strutturare la formula DAX (oppure, che non si sappia esattamente da dove cominciare). Invece di arrovellarsi inutilmente, basterebbe creare una **Misura rapida** con il calcolo **Variazione rispetto all'anno precedente** e vedere cosa accade, cioè creare la **Misura rapida** e vedere come appare nell'oggetto visivo, verificare come ha funzionato la formula DAX, quindi apportare le modifiche direttamente nella formula DAX oppure creare un'altra misura, finché i calcoli non soddisfano le proprie aspettative o esigenze.
 
 È come avere a disposizione un insegnante rapido che risponda immediatamente alle proprie domande per l'analisi di simulazione con pochi clic. Se lo si preferisce, è sempre possibile eliminare tali misure dal modello: basta fare clic con il pulsante destro del mouse sulla misura e scegliere **Elimina**.
 
 ![](media/desktop-quick-measures/quick-measures_11.png)
 
-Infine, dopo aver perfezionato la misura, è possibile rinominarla in qualsiasi modo si preferisca, usando lo stesso menu di scelta rapida.
+Infine, dopo aver perfezionato la misura, è possibile rinominarla nel modo preferito, usando lo stesso menu di scelta rapida.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Occorre tenere presenti alcune limitazioni e considerazioni.

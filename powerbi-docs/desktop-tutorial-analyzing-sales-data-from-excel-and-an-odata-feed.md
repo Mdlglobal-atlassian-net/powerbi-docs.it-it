@@ -2,14 +2,14 @@
 title: 'Esercitazione: Analisi dei dati di vendita da Excel e da un feed OData in Power BI Desktop'
 description: 'Esercitazione: Analisi dei dati di vendita da Excel e da un feed OData'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Esercitazione: Analisi dei dati di vendita da Excel e da un feed OData
 Con **Power BI Desktop** è possibile connettersi a origini dati di qualsiasi tipo e quindi eseguirne la combinazione e il data shaping in modi che semplificano la creazione di analisi e visualizzazioni dei dati interessanti e stimolanti. In questa esercitazione verrà descritto come combinare dati da due origini dati. 
@@ -133,7 +133,7 @@ Calcolare il totale riga per ogni riga di **Order\_Details**:
 1. Nella scheda **Aggiungi colonna** della barra multifunzione fare clic su **Aggiungi** **colonna personalizzata**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Nella casella di testo **Formula colonna personalizzata** della finestra di dialogo **Aggiungi colonna personalizzata** immettere **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]**.
+2. Nella casella di testo **Formula colonna personalizzata** della finestra di dialogo **Aggiungi colonna personalizzata** immettere **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**
 3. Nella casella di testo **Nuovo nome di colonna** immettere **LineTotal**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

@@ -1,15 +1,15 @@
 ---
 title: Domande frequenti per Power BI per i clienti del governo tedesco
-description: "Per i clienti del governo tedesco, le risposte alle domande più comuni sul servizio Power BI per il governo tedesco"
+description: Per i clienti del governo tedesco, le risposte alle domande più comuni sul servizio Power BI per il governo tedesco
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 1e6b43efc887550e98bc6195c24af77c61594989
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 911e75cb0d9f81c2696575942a13531e5799218e
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Domande frequenti per Power BI per i clienti di Cloud Germania
 È disponibile una versione del **servizio Power BI** per i clienti dell'Unione Europea/Associazione europea di libero scambio (UE/AELE), nota anche come Microsoft Cloud Deutschland (MCD). La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti UE/AELE ed è separata e diversa dalla versione commerciale del **servizio Power BI** o dei servizi Power BI forniti ai clienti del governo.
@@ -73,7 +73,7 @@ Le seguenti domande e risposte forniscono informazioni importanti per il servizi
 | Libreria oggetti visivi personalizzati |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Registra un'applicazione per Power BI (per Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
 | Portale di Azure (per Embedded) |[https://portal.microsoftazure.de/](https://portal.microsoftazure.de/) |[https://portal.azure.com/](https://portal.azure.com/) |
-| Community |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
+| Benessere |[https://community.powerbi.com/](https://community.powerbi.com/) |[https://community.powerbi.com/](https://community.powerbi.com/) |
 
 ### <a name="next-steps"></a>Passaggi successivi
 Power BI offre infinite possibilità. Per altre informazioni e per la formazione, tra cui un articolo che illustra come effettuare l'iscrizione al servizio, vedere le risorse seguenti:

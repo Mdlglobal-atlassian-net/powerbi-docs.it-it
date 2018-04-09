@@ -1,28 +1,28 @@
 ---
 title: Pubblicare sul Web da Power BI
-description: "La funzionalità Pubblica sul Web di Power BI consente di incorporare con facilità visualizzazioni interattive di Power BI online, ad esempio in post di blog, siti Web, via posta elettronica o social media, su qualsiasi dispositivo."
+description: La funzionalità Pubblica sul Web di Power BI consente di incorporare con facilità visualizzazioni interattive di Power BI online, ad esempio in post di blog, siti Web, via posta elettronica o social media, su qualsiasi dispositivo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 089cd84f493343822293cb6e74330d26e2a8bcd6
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 31e40efee8c4d67ec524212996ac6d7a8caf1852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -133,13 +133,16 @@ Gli oggetti visivi personalizzati sono supportati in **Pubblica sul Web**. Quand
 
 ## <a name="limitations"></a>Limitazioni
 
-La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle origini dati e dei report nel servizio Power BI, ma gli elementi seguenti non sono attualmente supportati o disponibili con Pubblica sul Web:
+La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle origini dati e dei report nel servizio Power BI, ma gli elementi seguenti **non sono attualmente supportati o disponibili** con Pubblica sul Web:
 
 1. Report che usano la sicurezza a livello di riga
-2. Report che usano le origini dati della connessione dinamica, inclusi Analysis Services in modalità tabulare ospitato in locale, Analysis Service in modalità multidimensionale, Azure Analysis Services e il servizio Power BI.
+2. Report che usano le origini dati della connessione dinamica, inclusi Analysis Services in modalità tabulare ospitato in locale, Analysis Service in modalità multidimensionale e Azure Analysis Services.
 3. Report condivisi con l'utente direttamente o con un pacchetto di contenuto aziendale
 4. Report in un gruppo in cui non si è un membro a cui sono consentite modifiche
 5. Gli oggetti visivi "R" non sono attualmente supportati nei report di Pubblica sul Web
+6. Esportazione di dati da oggetti visivi in un report pubblicato sul Web
+7. Oggetti visivi ArcGIS Maps for Power BI
+8. [Proteggere le informazioni riservate o di proprietà](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Impostazione del tenant
 
@@ -177,7 +180,7 @@ Per usare la funzionalità **Pubblica sul Web**, è necessario essere utenti di 
 
 ## <a name="how-it-works-technical-details"></a>Come funziona (dettagli tecnici)
 
-Quando si crea un codice di incorporamento usando **Pubblica sul Web**, il report viene reso disponibile agli utenti su Internet. Essendo disponibile pubblicamente, è probabile che in futuro gli utenti condividano il report attraverso i social media. Quando gli utenti visualizzano il report, selezionando l'URL pubblico diretto o visualizzandolo incorporato in una pagina Web o un blog, Power BI memorizza nella cache la definizione del report e i risultati delle query necessarie per visualizzare il report. Questo approccio assicura che il report possa essere visualizzato da migliaia di utenti concorrenti, senza impatti sulle prestazioni.  
+Quando si crea un codice di incorporamento usando **Pubblica sul Web**, il report viene reso disponibile agli utenti su Internet. Essendo disponibile pubblicamente, è probabile che in futuro gli utenti condividano il report attraverso i social media. Quando gli utenti visualizzano il report, selezionando l'URL pubblico diretto o visualizzandolo incorporato in una pagina Web o un blog, Power BI memorizza nella cache la definizione del report e i risultati delle query necessarie per visualizzare il report. Questo approccio assicura che il report possa essere visualizzato da migliaia di utenti concorrenti, senza impatti sulle prestazioni.
 
 La cache è di lunga durata, quindi se si aggiorna la definizione del report, ad esempio se si cambia la modalità di visualizzazione, o si aggiornano i dati del report, la visualizzazione dei cambiamenti nella versione del report visualizzata dagli utenti può richiedere circa un'ora. È quindi consigliabile eseguire anticipatamente lo staging del lavoro e creare il codice di incorporamento di **Pubblica sul Web** solo quando si è soddisfatti delle impostazioni.
 

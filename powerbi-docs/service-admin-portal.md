@@ -2,27 +2,27 @@
 title: Portale di amministrazione di Power BI
 description: Il portale di amministrazione consente la gestione del tenant di Power BI nell'organizzazione. Include elementi come le metriche di utilizzo, l'accesso all'interfaccia di amministrazione di Office 365 e le impostazioni.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -326,8 +326,8 @@ Importante: l'eliminazione è irreversibile. Una volta eliminato, verrà interro
  
 ### <a name="how-to-update-a-visual"></a>Come aggiornare un oggetto visivo
 
-Se si desidera aggiornare un oggetto visivo nel repository, perché è disponibile una nuova versione dell'oggetto visivo (ad esempio, correzioni di bug, nuove funzionalità e così via), caricare il nuovo file (assicurarsi che l'ID dell'oggetto visivo rimanga invariato) come nuova voce nell'elenco e assicurarsi di specificare i dettagli corretti nel titolo e nella descrizione (ad esempio, "Oggetto visivo personalizzato v 2.0"). Al successivo accesso al repository dell'organizzazione da Power BI Desktop, gli utenti potranno importare la nuova versione e verrà loro richiesto di sostituire la versione corrente disponibile nei report.
- 
+Se si desidera aggiornare un oggetto visivo nel repository perché è disponibile una nuova versione dell'oggetto visivo (ad esempio, correzioni di bug, nuove funzionalità e così via), selezionare l'icona **Aggiorna** e caricare il nuovo file. Assicurarsi che l'ID dell'oggetto visivo rimanga invariato. Il nuovo file sostituirà il file precedente per tutti i report in tutta l'organizzazione. Tuttavia, se esiste la possibilità che la nuova versione dell'oggetto visivo comprometta l'utilizzo o la struttura di dati della versione precedente dell'oggetto visivo, evitare di sostituire la versione precedente. In questo caso, è invece necessario creare una nuova voce per la nuova versione dell'oggetto visivo. Ad esempio, aggiungere un nuovo numero di versione (versione x.x) al titolo del nuovo oggetto visivo presentato. In questo modo risulta chiaro che si tratta dello stesso oggetto visivo solo con un numero di versione aggiornato e che la funzionalità dei report esistenti non verrà compromessa. Assicurarsi anche in questo caso che l'ID dell'oggetto visivo rimanga invariato. Al successivo accesso al repository dell'organizzazione da Power BI Desktop, gli utenti possono importare la nuova versione e verrà loro richiesto di sostituire la versione corrente disponibile nei report.
+
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md)  

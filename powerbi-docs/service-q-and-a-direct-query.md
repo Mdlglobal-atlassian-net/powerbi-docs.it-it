@@ -1,15 +1,15 @@
 ---
 title: Uso di Domande e risposte con le connessioni dinamiche
-description: Documentazione per l'uso delle query in linguaggio naturale in domande e risposte di Power BI con connessioni dinamiche su dati di Analysis Services e sul gateway dati locale.
+description: Documentazione per l'uso delle query in linguaggio naturale nelle domande e risposte per Power BI con connessioni dinamiche su dati di Analysis Services e sul gateway dati locale.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Attivazione di domande e risposte per le connessioni dinamiche
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Che cos'è il gateway dati locale?  Che cos'è una connessione dinamica?
@@ -61,7 +61,7 @@ Quando si abilita Domande e risposte per i dati locali, nella cache del servizio
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Durante la fase di anteprima di questa funzionalità, sono previste alcune limitazioni:
 
-* La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. Alcune funzionalità sono disponibili per le origini dati multidimensionali, ma l'esperienza completa di Domande e risposte non è ancora supportata per questo tipo di origine dati. Altre origini dati supportate dal gateway dati locale verranno implementate durante in futuro.
+* La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. Alcune funzionalità sono disponibili per le origini dati multidimensionali, ma l'esperienza completa di Domande e risposte non è ancora supportata per questo tipo di origine dati. Altre origini dati supportate dal gateway dati locale verranno implementate progressivamente in futuro.
 * Il supporto completo per la sicurezza a livello di riga definito in SQL Server Analysis Services non è inizialmente disponibile nell'anteprima pubblica. Quando si formulano domande in Domande e risposte, il "completamento automatico" delle domande durante la digitazione può mostrare valori di stringa a cui un utente non ha accesso. Tuttavia, poiché la sicurezza a livello di riga definita nel modello viene rispettata per gli oggetti visivi dei report e dei grafici, non c’è la possibilità che vengano esposti i dati numerici sottostanti. Le opzioni per controllare questo comportamento verranno rilasciate nei prossimi aggiornamenti.
 * Le connessioni dinamiche sono supportate solo con il gateway dati locale. Di conseguenza, questo non è utilizzabile con il gateway personale.
 

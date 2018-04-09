@@ -1,15 +1,15 @@
 ---
-title: Combinare binari in Power BI Desktop
-description: Combinare facilmente origini dati binarie in Power BI Desktop
+title: Combinare file (binari) in Power BI Desktop
+description: Combinare facilmente file (binari) in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,39 +18,39 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 395562dfecba4657ffa906494f81532febb6a11f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37aff7aadaf6b514ca3b7329db26bc0228022bdd
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/04/2018
 ---
-# <a name="combine-binaries-in-power-bi-desktop"></a>Combinare binari in Power BI Desktop
+# <a name="combine-files-binaries-in-power-bi-desktop"></a>Combinare file (binari) in Power BI Desktop
 Un solido approccio all'importazione di dati in **Power BI Desktop** consiste nel combinare più file con lo stesso schema in un'unica tabella logica. Con la versione di **Power BI Desktop** di novembre 2016 (e le versioni successive) questo comodo e popolare approccio è stato reso più pratico ed esteso, come descritto in questo articolo.
 
-Per avviare il processo di combinazione di binari dalla stessa cartella, selezionare **Recupera dati > File > Cartella**.
+Per avviare il processo di combinazione di file dalla stessa cartella, selezionare **Recupera dati > File > Cartella**.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-binaries-behavior"></a>Comportamento precedente di combinazione binari
-Prima della versione di **Power BI Desktop** di novembre 2016 era possibile combinare determinati tipi di file con la trasformazione **Combina binari**, ma esistevano alcune limitazioni:
+## <a name="previous-combine-files-binaries-behavior"></a>Comportamento precedente di combinazione dei file (binari)
+Prima della versione di **Power BI Desktop** di novembre 2016 questa funzionalità era denominata **Combina binari** ed era possibile combinare determinati tipi di file con la trasformazione **Combina binari**, ma esistevano alcune limitazioni:
 
 * Le trasformazioni non venivano considerate per ogni singolo file prima che i file fossero combinati in una singola tabella. Di conseguenza, spesso era necessario combinare i file, quindi escludere i *valori di intestazione* filtrando le righe come parte del processo di modifica.
 * La trasformazione **Combina binari** funzionava solo per i file di *testo* o *CSV*, ma non per altri formati di file supportati, ad esempio cartelle di lavoro di Excel, file JSON e altri.
 
-I clienti hanno richiesto un utilizzo più intuitivo dell'operazione **Combina binari**, dunque è stata migliorata la trasformazione.
+I clienti hanno richiesto un utilizzo più intuitivo dell'operazione **Combina binari**, quindi la trasformazione è stata migliorata e rinominata **Combina file**.
 
-## <a name="current-combine-binaries-behavior"></a>Comportamento attuale di combinazione binari
-**Power BI Desktop** ora gestisce la trasformazione **Combina binari** in modo più efficace. Iniziare selezionando **Combina binari**, ad esempio dalla scheda della barra multifunzione **Home** nell'**Editor di Query** o dalla colonna stessa.
+## <a name="current-combine-files-behavior"></a>Comportamento attuale di combinazione dei file
+**Power BI Desktop** ora gestisce la trasformazione **Combina file** (binari) in modo più efficace. Iniziare selezionando **Combina file**, ad esempio dalla scheda della barra multifunzione **Home** nell'**Editor di query** o dalla colonna stessa.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-La trasformazione **Combina binari** ora si comporta come segue:
+La trasformazione **Combina file** ora si comporta come segue:
 
-* La trasformazione **Combina binari** analizza ogni file di input e determina il formato di file corretto da usare, ad esempio un file di *testo*, una *cartella di lavoro di Excel* o un file *JSON*.
+* La trasformazione **Combina file** analizza ogni file di input e determina il formato di file corretto da usare, ad esempio un file di *testo*, una *cartella di lavoro di Excel* o un file *JSON*.
 * La trasformazione consente di selezionare un oggetto specifico dal primo file, ad esempio una *cartella di lavoro di Excel*, da estrarre.
   
   ![](media/desktop-combine-binaries/combine-binaries_3.png)
-* La trasformazione **Combina binari** esegue quindi automaticamente le seguenti operazioni:
+* La trasformazione **combina file** esegue quindi automaticamente le query seguenti:
   
   * Crea una query di esempio che esegue tutti i passaggi di estrazione necessari in un singolo file.
   * Crea un *query della funzione* che parametrizza l'input file/binario della *query di esempio*. La query di esempio e la query della funzione sono collegate in modo che le modifiche apportate alla query di esempio vengano riflesse nella query della funzione.
@@ -58,9 +58,9 @@ La trasformazione **Combina binari** ora si comporta come segue:
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Con il nuovo comportamento di **Combina binari**, è possibile combinare facilmente tutti i file binari con lo stesso tipo e struttura di file (ad esempio, le stesse colonne) in una determinata cartella.
+Con il nuovo comportamento di **Combina file**, è possibile combinare facilmente tutti i file con lo stesso tipo e struttura di file (ad esempio, le stesse colonne) in una determinata cartella.
 
-È anche possibile applicare facilmente altri passaggi di trasformazione o estrazione modificando la *query di esempio* creata automaticamente, senza doversi preoccupare di modificare creare altri passaggi della *query della funzione*; qualsiasi modifica apportata alla *query di esempio* viene automaticamente generata nella *query della funzione* collegata.
+È anche possibile applicare facilmente altri passaggi di trasformazione o estrazione modificando la *query di esempio* creata automaticamente, senza doversi preoccupare di modificare o creare altri passaggi della *query della funzione*. Qualsiasi modifica apportata alla *query di esempio* viene automaticamente generata nella *query della funzione* collegata.
 
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
