@@ -1,15 +1,15 @@
 ---
 title: Collaborare nell'area di lavoro per le app di Power BI
-description: "Informazioni su come collaborare ai file di Power BI Desktop nell'area di lavoro per le app e con i servizi di Office 365, ad esempio la condivisione di file in OneDrive for Business, le conversazioni in Exchange, il calendario e le attività."
+description: Informazioni su come collaborare ai file di Power BI Desktop nell'area di lavoro per le app e con i servizi di Office 365, ad esempio la condivisione di file in OneDrive for Business, le conversazioni in Exchange, il calendario e le attività.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

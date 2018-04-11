@@ -2,12 +2,12 @@
 title: Come funziona la collaborazione e la condivisione in Power BI?
 description: In Power BI si possono condividere ed elaborare in collaborazione dashboard, report, riquadri e app in diversi modi, ognuno dei quali presenta vantaggi specifici.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

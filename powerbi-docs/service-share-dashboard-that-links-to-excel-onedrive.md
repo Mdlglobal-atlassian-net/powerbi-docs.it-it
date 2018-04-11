@@ -1,15 +1,15 @@
 ---
 title: Condividere il dashboard collegato a un file di Excel in OneDrive - Power BI
-description: "Scoprire di più sulla condivisione dei dashboard connessi a una cartella di lavoro di Excel in OneDrive for Business, con i riquadri aggiunti dalla cartella di lavoro."
+description: Scoprire di più sulla condivisione dei dashboard connessi a una cartella di lavoro di Excel in OneDrive for Business, con i riquadri aggiunti dalla cartella di lavoro.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

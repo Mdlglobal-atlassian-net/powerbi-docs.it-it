@@ -1,15 +1,15 @@
 ---
 title: Creare e pubblicare un pacchetto di contenuto aziendale - Power BI
-description: "In questa esercitazione, è possibile creare un pacchetto di contenuto aziendale, limitare l'accesso a un gruppo specifico e pubblicare il pacchetto nella libreria di pacchetti di contenuto dell'organizzazione in Power BI."
+description: In questa esercitazione, è possibile creare un pacchetto di contenuto aziendale, limitare l'accesso a un gruppo specifico e pubblicare il pacchetto nella libreria di pacchetti di contenuto dell'organizzazione in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

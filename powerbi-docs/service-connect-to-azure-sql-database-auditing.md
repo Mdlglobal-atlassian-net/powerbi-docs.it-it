@@ -2,14 +2,14 @@
 title: Pacchetto di contenuto Servizio di controllo del database SQL
 description: Pacchetto di contenuto Servizio di controllo del database SQL per Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

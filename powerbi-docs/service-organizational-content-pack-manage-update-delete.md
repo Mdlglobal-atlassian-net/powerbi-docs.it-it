@@ -1,15 +1,15 @@
 ---
 title: 'Pacchetti di contenuto aziendali: Gestire e aggiornare'
-description: "Scoprire di più sulla gestione, sull'aggiornamento e sull'eliminazione dei pacchetti di contenuto aziendali in Power BI."
+description: Scoprire di più sulla gestione, sull'aggiornamento e sull'eliminazione dei pacchetti di contenuto aziendali in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

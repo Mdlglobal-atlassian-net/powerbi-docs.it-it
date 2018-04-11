@@ -2,10 +2,10 @@
 title: Trovare e visualizzare rapidamente i report e i dashboard di Power BI con Cortana
 description: Utilizzare Cortana con Power BI per ottenere risposte dai dati. Funziona attualmente con report e dashboard.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

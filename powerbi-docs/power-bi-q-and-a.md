@@ -2,14 +2,14 @@
 title: Panoramica di Domande e risposte nel servizio Power BI e in Power BI Destop
 description: Panoramica della documentazione per le query in linguaggio naturale Domande e risposte di Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

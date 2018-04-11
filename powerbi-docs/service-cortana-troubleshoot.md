@@ -2,15 +2,15 @@
 title: Risolvere i problemi relativi a Cortana per Power BI
 description: Se si verificano problemi durante l'uso di Cortana con Power BI, provare a seguire questi suggerimenti.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
 title: 'Guida introduttiva: Introduzione a Domande e risposte di Power BI'
-description: 'Guida introduttiva: Introduzione a Domande e risposte nel servizio Power BI con l''esempio di analisi delle vendite al dettaglio'
+description: "Guida introduttiva: Introduzione a Domande e risposte nel servizio Power BI con l'esempio di analisi delle vendite al dettaglio"
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

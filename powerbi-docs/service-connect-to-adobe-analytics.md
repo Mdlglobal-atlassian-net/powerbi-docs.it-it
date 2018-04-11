@@ -2,14 +2,14 @@
 title: Connettersi ad Adobe Analytics con Power BI
 description: Connettersi ad Adobe Analytics da Power BI per ottenere un'app che consente di visualizzare i dati dell'account in un dashboard e nei report.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

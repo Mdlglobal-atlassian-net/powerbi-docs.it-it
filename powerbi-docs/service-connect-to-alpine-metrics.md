@@ -2,14 +2,14 @@
 title: Connettersi ad Alpine Metrics Sales Predictions con Power BI
 description: Alpine Metrics Sales Predictions per Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

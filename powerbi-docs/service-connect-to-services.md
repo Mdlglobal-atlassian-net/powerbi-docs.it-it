@@ -1,15 +1,15 @@
 ---
 title: Connettersi ai servizi usati con Power BI
-description: "Connettersi a una serie di servizi usati per gestire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics CRM e Google Analytics."
+description: Connettersi a una serie di servizi usati per gestire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics CRM e Google Analytics.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -35,7 +35,7 @@ Dopo aver installato l'app è possibile visualizzare dashboard e report nel serv
 
 ![App Google Analytics nell'app Power BI per dispositivi mobili](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>Inizia
+## <a name="get-started"></a>Attività iniziali
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="view-the-dashboard-and-reports"></a>Visualizzare il dashboard e i report

@@ -2,11 +2,11 @@
 title: Esercitazione - Come usare Domande e risposte in un dashboard o in un report
 description: Esercitazione su come usare Domande e risposte di Power BI per creare nuove visualizzazioni nei dashboard e nei report.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

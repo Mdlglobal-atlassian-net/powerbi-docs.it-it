@@ -1,14 +1,14 @@
 ---
 title: Creare e pubblicare app con dashboard e report in Power BI
-description: "Informazioni su come creare e pubblicare app, cioè raccolte di dashboard e report compilati che offrono metriche chiave per l'organizzazione."
+description: Informazioni su come creare e pubblicare app, cioè raccolte di dashboard e report compilati che offrono metriche chiave per l'organizzazione.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

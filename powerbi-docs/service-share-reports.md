@@ -2,12 +2,12 @@
 title: Filtrare e condividere i report di Power BI con i colleghi
 description: Informazioni su come condividere un report di Power BI filtrato con i colleghi all'interno dell'organizzazione.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 featuredvideoid: 0tUwn8DHo3s
 qualityfocus: complete
 qualitydate: 06/22/2016

@@ -2,14 +2,14 @@
 title: Connettersi ai file in OneDrive per un'area di lavoro di un'app Power BI
 description: Informazioni su come archiviare e connettersi a file di Excel, CSV e di Power BI Desktop archiviati nell'area di lavoro per le app in OneDrive.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

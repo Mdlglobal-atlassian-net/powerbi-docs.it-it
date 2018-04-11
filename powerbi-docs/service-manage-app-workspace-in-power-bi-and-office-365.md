@@ -1,15 +1,15 @@
 ---
 title: Gestire l'area di lavoro per le app in Power BI e Office 365
-description: "Le aree di lavoro per le app in Power BI costituiscono un'esperienza di collaborazione basata sui gruppi di Office 365. È possibile gestire le aree di lavoro per le app sia in Power BI che in Office 365."
+description: Le aree di lavoro per le app in Power BI costituiscono un'esperienza di collaborazione basata sui gruppi di Office 365. È possibile gestire le aree di lavoro per le app sia in Power BI che in Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

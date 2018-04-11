@@ -2,14 +2,14 @@
 title: Trovare e connettersi a pacchetti di contenuto aziendali - Power BI
 description: Trovare e aprire un pacchetto di contenuto aziendale in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

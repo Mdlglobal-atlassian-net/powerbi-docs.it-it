@@ -2,14 +2,14 @@
 title: Disconnettersi da un pacchetto di contenuto aziendale - Power BI
 description: Leggere le informazioni su come rimuovere la connessione a un pacchetto di contenuto aziendale eliminando il relativo set di dati in Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
