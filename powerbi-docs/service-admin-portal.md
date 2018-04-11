@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: f60822dced9cea4aab47956cb3e9dea40ef20a55
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -148,7 +148,7 @@ Di seguito è riportato il messaggio che verrà visualizzato al momento della co
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Pubblica sul Web
+### <a name="publish-to-web"></a>Pubblicare sul Web
 
 Gli utenti dell'organizzazione possono pubblicare report sul Web. [Altre informazioni](service-publish-to-web.md)
 

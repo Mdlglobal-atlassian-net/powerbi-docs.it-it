@@ -1,28 +1,28 @@
 ---
 title: Configurare app per dispositivi mobili con Microsoft Intune
-description: "Come configurare le app Power BI per dispositivi mobili con Microsoft Intune. Sono incluse informazioni su come aggiungere e distribuire l'applicazione, nonché su come creare criteri delle applicazioni per dispositivi mobili per controllare la sicurezza."
+description: Come configurare le app Power BI per dispositivi mobili con Microsoft Intune. Sono incluse informazioni su come aggiungere e distribuire l'applicazione, nonché su come creare criteri delle applicazioni per dispositivi mobili per controllare la sicurezza.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2ac008a1b71a4e4df4e6515c85ec11e95dac7205
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c33fcbdfa93e38283e17b0842e1242634664be7a
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurare app per dispositivi mobili con Microsoft Intune
 Microsoft Intune consente alle organizzazioni di gestire dispositivi e applicazioni. Le applicazioni Power BI per dispositivi mobili, per iOS e Android, si integrano con Intune per consentire la gestione dell'applicazione nei dispositivi e il controllo della sicurezza. Attraverso i criteri di configurazione, è possibile controllare aspetti come la richiesta di un PIN di accesso, la modalità di gestione dei dati nell'applicazione e anche la crittografia dei dati dell'applicazione quando l'app non è in uso.

@@ -2,27 +2,27 @@
 title: Area di lavoro contenuto archiviato di Power BI
 description: Area di lavoro contenuto archiviato di Power BI dopo la gestione del tenant di Office 365
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 34625c6c093e6ad4255b6e9e153c84d4cb3881d4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 254857072df2b06fbdeb2af0a53d262e98f8f254
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="power-bi-archived-workspace"></a>Area di lavoro contenuto archiviato di Power BI
 Con Power BI, chiunque può iscriversi e iniziare a usare il servizio in pochissimi minuti.  In seguito, il reparto IT della propria organizzazione può scegliere di prendere il controllo della gestione di Power BI per conto degli utenti.  Se si verifica questo avvicendamento, si trarrà vantaggio dalla gestione centrale degli utenti e delle autorizzazioni all'interno dell'organizzazione e, possibilmente, dall'iscrizione semplificata usando lo stesso nome utente e password usati per altri servizi. 

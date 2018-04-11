@@ -3,7 +3,7 @@ title: Gestire l'origine dati - Importazione/aggiornamento pianificato
 description: Come gestire il gateway dati locale e le origini dati che vi appartengono. Questo articolo è specifico per le origini dati che possono essere usate con operazioni di importazione/aggiornamento pianificato.
 services: powerbi
 documentationcenter: ''
-author: davidiseminger
+author: mgblythe
 manager: kfile
 backup: ''
 editor: ''
@@ -16,13 +16,13 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4fdd1380f10a44c45dd17b04c21ccfba8fbf9cd8
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: ce2ffe68c46d965b7bcace0d278952aaed9f7670
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gestire l'origine dati - Importazione/aggiornamento pianificato
 Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. Questo articolo descrive l'uso di gateway e origini dati per l'aggiornamento pianificato rispetto all'uso di DirectQuery o di connessioni in tempo reale.
