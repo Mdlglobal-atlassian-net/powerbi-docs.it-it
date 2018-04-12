@@ -2,27 +2,27 @@
 title: Amministrazione di Power BI nell'organizzazione
 description: Amministrazione di Power BI nell'organizzazione
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/28/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b42be834822b4363c58bc4454c38f7973336c7dc
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Amministrazione di Power BI nell'organizzazione
 Microsoft Power BI consente agli utenti di visualizzare i dati, condividere le scoperte e collaborare in modi nuovi e intuitivi. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
@@ -206,7 +206,7 @@ Se Microsoft ha creato un tenant, è possibile chiedere di gestirlo eseguendo la
 1. Aggiungere il tenant, iscrivendosi a Power BI, con un dominio di posta elettronica corrispondente al dominio tenant che si vuole gestire. Se ad esempio Microsoft ha creato il tenant contoso.com, è necessario aggiungersi al tenant con un indirizzo di posta elettronica che termina con @contoso.com.
 2. Richiedere il controllo di amministratore verificando di essere proprietari del dominio. Dopo l'aggiunta al tenant, è possibile alzarsi di livello al ruolo di *amministratore globale* verificando di essere proprietari del dominio. A tale scopo, seguire questa procedura:
    
-   1. Accedere a [https://portal.office.com](https://portal.office.com).
+   1. Passare a [https://portal.office.com](https://portal.office.com).
    2. Selezionare l'icona di avvio delle app in alto a sinistra e scegliere **Amministratore**.
    3. Leggere le istruzioni nella pagina **Diventare l'amministratore** e quindi scegliere **Sì, voglio essere l'amministratore**.
       

@@ -2,14 +2,14 @@
 title: Nozioni di DAX in Power BI Desktop
 description: Nozioni di DAX in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 1b6a08ffbc7d1edfe0a86b6eb0a84702dec22da0
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e mira a offrire una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e alcuni quiz per verificare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -40,7 +40,7 @@ L'attenzione sarà rivolta principalmente alla comprensione delle formule DAX us
 
 **Cartella di lavoro di esempio**
 
-Il modo migliore per imparare a usare DAX consiste nel creare alcune formule di base, usarle con alcuni dati effettivi e visualizzare i risultati autonomamente. Per gli esempi e le attività qui illustrati verrà usato il file Contoso Sales Sample for Power BI Desktop Preview. Si tratta dello stesso file di esempio usato nell'articolo Esercitazione: Creare misure personalizzate in Power BI Desktop. È possibile scaricarlo [qui](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip).
+Il modo migliore per imparare a usare DAX consiste nel creare alcune formule di base, usarle con alcuni dati effettivi e visualizzare i risultati autonomamente. Per gli esempi e le attività qui illustrati verrà usato il file Contoso Sales Sample for Power BI Desktop Preview. Si tratta dello stesso file di esempio usato nell'articolo [Esercitazione: Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). Questo è il [file di esempio](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) da scaricare.
 
 ## <a name="lets-begin"></a>Introduzione
 L'approfondimento di DAX è imperniato su tre concetti fondamentali: *Sintassi*, *Funzioni* e *Contesto*. Naturalmente, esistono altri concetti importanti in DAX, ma la comprensione di questi tre concetti getterà la base più solida su cui fondare le proprie competenze DAX.
@@ -111,7 +111,6 @@ Per completare questa attività, è necessario aprire il file Contoso Sales Samp
 7.  Tra le parentesi **()** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]**.
     
     La funzione PREVIOUSQUARTER ha un solo argomento, una colonna contenente un intervallo contiguo di date.
-    >
     
 8.  Verificare che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi da due parentesi chiuse **))**.
     
@@ -144,7 +143,7 @@ Le risposte vengono fornite alla fine di questo articolo.
 ### <a name="functions"></a>Funzioni
 Le funzioni sono formule predefinite che eseguono calcoli usando valori specifici, detti argomenti, in una struttura o un ordine particolare. Gli argomenti possono essere altre funzioni, un'altra formula, un'espressione, riferimenti di colonna, numeri, testo, valori logici quali TRUE o FALSE o costanti.
 
-DAX include le seguenti categorie di funzioni: [data e ora](https://msdn.microsoft.com/library/ee634786.aspx), [Business Intelligence per le gerarchie temporali](https://msdn.microsoft.com/library/ee634763.aspx)[, ](https://msdn.microsoft.com/library/ee634552.aspx)[informative](https://msdn.microsoft.com/library/ee634552.aspx), [logiche](https://msdn.microsoft.com/library/ee634365.aspx)[, ](https://msdn.microsoft.com/library/ee634365.aspx)[matematiche](https://msdn.microsoft.com/library/ee634241.aspx), [statistiche](https://msdn.microsoft.com/library/ee634822.aspx), [testuali](https://msdn.microsoft.com/library/ee634938.aspx), [padre-figlio](https://msdn.microsoft.com/library/mt150102.aspx) e [altre](https://msdn.microsoft.com/library/mt150101.aspx). Se si ha familiarità con le funzioni nelle formule di Excel, molte delle funzioni in DAX appariranno simili. Tuttavia, le funzioni DAX sono univoche nei modi seguenti:
+DAX include le seguenti categorie di funzioni: [data e ora](https://msdn.microsoft.com/library/ee634786.aspx), [Business Intelligence per le gerarchie temporali](https://msdn.microsoft.com/library/ee634763.aspx), [informative](https://msdn.microsoft.com/library/ee634552.aspx), [logiche](https://msdn.microsoft.com/library/ee634365.aspx), [matematiche](https://msdn.microsoft.com/library/ee634241.aspx), [statistiche](https://msdn.microsoft.com/library/ee634822.aspx), [testuali](https://msdn.microsoft.com/library/ee634938.aspx), [padre-figlio](https://msdn.microsoft.com/library/mt150102.aspx) e [altre](https://msdn.microsoft.com/library/mt150101.aspx). Se si ha familiarità con le funzioni nelle formule di Excel, molte delle funzioni in DAX appariranno simili. Tuttavia, le funzioni DAX sono univoche nei modi seguenti:
 
 * Una funzione DAX fa sempre riferimento a una colonna o una tabella completa. Se si vogliono usare solo particolari valori di una tabella o colonna, è possibile aggiungere filtri alla formula.
 * Se è necessario personalizzare i calcoli riga per riga, in DAX sono disponibili funzioni che consentono di usare il valore della riga corrente o un valore correlato come un tipo di argomento, per eseguire calcoli che variano in base al contesto. Verranno fornite altre informazioni sul contesto più avanti.
@@ -172,7 +171,7 @@ Il contesto di riga è più facilmente considerato come riga corrente. Si applic
 
 Il contesto di filtro è un po' più difficile da comprendere rispetto al contesto di riga. Per facilitare la comprensione, pensare al contesto di filtro come a uno o più filtri applicati in un calcolo che determina un risultato o valore.
 
-Il contesto di filtro non esiste al posto del contesto di riga, ma si applica in aggiunta al contesto di riga. Ad esempio, per restringere ulteriormente i valori da includere in un calcolo, è possibile applicare un contesto di filtro che non solo specifica il contesto di riga, ma anche un solo determinato valore (filtro) in tale contesto di riga.
+Il contesto di filtro non esiste al posto del contesto di riga, ma si applica in aggiunta al contesto di riga. Ad esempio, per limitare ulteriormente i valori da includere in un calcolo, è possibile applicare un contesto di filtro che non solo specifica il contesto di riga, ma anche un solo determinato valore (filtro) nel contesto di riga.
 
 Il contesto di filtro è facilmente visibile nei report. Ad esempio, quando si aggiunge TotalCost a una visualizzazione e quindi si aggiungono Year e Region, si definisce un contesto di filtro che consente di selezionare un sottoinsieme di dati basati su un determinato anno e area.
 

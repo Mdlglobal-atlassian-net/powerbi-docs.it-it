@@ -2,14 +2,14 @@
 title: Impostare e usare tabelle data in Power BI Desktop
 description: Informazioni su come impostare una tabella come tabella data in Power BI Desktop e sui concetti correlati
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,17 +18,17 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 76b979b39aae5a403f84bde1971c47f0127fc3ef
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d87f56e8e16c9d60a6ba74a25772b604c6a7fa3d
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Impostare e usare tabelle data in Power BI Desktop
 
 **Power BI Desktop** supporta l'identificazione automatica delle tabelle come **tabelle data** in background e quindi crea automaticamente gerarchie di data e altri metadati per il modello. È quindi possibile usare tali gerarchie predefinite durante la creazione di funzionalità dei report come oggetti visivi, tabelle, misure rapide, filtri dei dati e così via. Power BI Desktop esegue queste operazioni tramite la creazione automatica di tabelle nascoste, poi utilizzabili per i report e le espressioni DAX.
 
-Molti analisti di dati preferiscono creare autonomamente le tabelle data. In **Power BI Desktop** è possibile specificare la tabella che si vuole usare come **tabella data** nel modello e successivamente creare gli oggetti visivi, le tabelle, le misure rapide e altri elementi correlati alle date, usando i dati di data di tale tabella. Quando si specifica una tabella data personale, controllare le gerarchie di data create nel modello e usarle nelle **misure rapide** e per le altre operazioni che usano la tabella data del modello. 
+Molti analisti di dati preferiscono creare autonomamente le tabelle data. In **Power BI Desktop** è possibile specificare la tabella che si vuole usare come **tabella data** nel modello e successivamente creare gli oggetti visivi, le tabelle, le misure rapide e altri elementi correlati alle date, usando i dati di data della tabella. Quando si specifica una tabella data personale, controllare le gerarchie di data create nel modello e usarle nelle **misure rapide** e per le altre operazioni che usano la tabella data del modello. 
 
 ![](media/desktop-date-tables/date-tables_01.png)
 

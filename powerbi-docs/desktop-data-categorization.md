@@ -2,14 +2,14 @@
 title: Categorizzazione dei dati in Power BI Desktop
 description: Categorizzazione dei dati in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 00b70b6e56d11d0d7dda959f1983cc4631f53ff9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cc66655e49860160b43afa5d1acb688c37468212
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Categorizzazione dei dati in Power BI Desktop
 In **Power BI Desktop** è possibile specificare la categoria di dati per una colonna in modo tale che Power BI Desktop sappia come trattare i relativi valori in una visualizzazione.
@@ -40,7 +40,7 @@ Power BI Desktop deve trattare i codici della colonna GeoCode come abbreviazione
 **Per specificare una categoria di dati**
 
 1. Nell'elenco **Campi** in Visualizzazione Report o Vista dati selezionare il campo da archiviare con una categorizzazione diversa.
-2. Nella scheda **Strumenti dati Creazione di modelli** della barra multifunzione fare clic sull'elenco a discesa **Categoria di dati:** .  Viene visualizzato l'elenco delle possibili categorie di dati che è possibile scegliere per la colonna.  Alcune selezioni potrebbero essere disabilitate se non vengono usate con il tipo di dati corrente della colonna.  Se ad esempio una colonna è un tipo di dati binario, Power BI Desktop non consentirà di scegliere le categorie di dati geografici. 
+2. Nella scheda **Creazione di modelli** della barra multifunzione fare clic sull'elenco a discesa **Categoria di dati**.  Viene visualizzato l'elenco delle possibili categorie di dati che è possibile scegliere per la colonna.  Alcune selezioni potrebbero essere disabilitate se non vengono usate con il tipo di dati corrente della colonna.  Se ad esempio una colonna è un tipo di dati binario, Power BI Desktop non consentirà di scegliere le categorie di dati geografici. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

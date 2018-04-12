@@ -1,14 +1,14 @@
 ---
 title: Contrassegnare un campo di codice a barre in Power BI Desktop per dispositivi mobili
-description: "Quando si contrassegna un campo di codice a barre nel modello in Power BI Desktop, è possibile filtrare automaticamente i dati in base ai codici a barre nell'app di Power BI o in un iPhone."
+description: Quando si contrassegna un campo di codice a barre nel modello in Power BI Desktop, è possibile filtrare automaticamente i dati in base ai codici a barre nell'app di Power BI o in un iPhone.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: acac005938eb5f97a4a745dd9be72540438ed6ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 45cca153bbc65c5bad6c0f2ba8d41fbec4682ca5
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Contrassegnare codici a barre in Power BI Desktop per dispositivi mobili
 In Power BI Desktop è possibile [classificare i dati](desktop-data-categorization.md) in una colonna, in modo che Power BI Desktop sappia come gestire i valori negli oggetti visivi in un report. È anche possibile classificare una colonna come **Codice a barre**. Quando l'utente o i colleghi [effettuano la scansione di un codice a barre in un prodotto con l'app di Power BI](mobile-apps-scan-barcode-iphone.md) in un iPhone, vengono visualizzati tutti i report che includono tale codice a barre. Quando si apre il report nell'app per dispositivi mobili, Power BI filtra automaticamente il report per visualizzare i dati correlati al codice a barre.
@@ -52,7 +52,7 @@ Questi sono i codici a barre riconosciuti da Power BI se contrassegnati in un re
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Scansionare un codice a barre dall'app Power BI nell'iPhone](mobile-apps-scan-barcode-iphone.md)
-* [Problema di scansione dei codici a barre in un iPhone](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
+* [Problemi di scansione dei codici a barre in un iPhone](mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Categorizzazione dei dati in Power BI Desktop](desktop-data-categorization.md)  
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

@@ -2,14 +2,14 @@
 title: Uso delle colonne calcolate in Power BI Desktop
 description: Colonne calcolate in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e9d1820bff2768f2169530ec49cfa2963bff9baa
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a47e707969b592ec27c79558699638ce14f8640
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Uso delle colonne calcolate in Power BI Desktop
 Con le colonne calcolate, è possibile aggiungere nuovi dati a una tabella già presente nel modello. Tuttavia, invece di eseguire query e caricare i valori nella nuova colonna da un'origine dati, viene creata una formula Data Analysis Expressions (DAX) che definisce i valori della colonna. In Power BI Desktop, le colonne calcolate vengono create usando la funzionalità Nuova colonna in Visualizzazione Report.
 
-A differenza delle colonne personalizzate create come parte di una query usando Aggiungi colonna personalizzata in Visualizzazione Report, le colonne calcolate in Visualizzazione Report o Vista dati si basano sui dati già caricati nel modello. Ad esempio, è possibile scegliere di concatenare i valori da due colonne diverse in due tabelle diverse ma correlate, eseguire addizioni o estrarre le sottostringhe.
+A differenza delle colonne personalizzate create come parte di una query usando Aggiungi colonna personalizzata in Visualizzazione Report, le colonne calcolate in Visualizzazione Report o Vista dati si basano sui dati già caricati nel modello. Ad esempio, è possibile scegliere di concatenare i valori di due colonne diverse in due tabelle diverse ma correlate, eseguire addizioni o estrarre le sottostringhe.
 
 Le colonne calcolate create vengono visualizzate nell'elenco Campi come qualsiasi altro campo, ma hanno un'icona speciale che indica che i valori sono il risultato di una formula. È possibile assegnare qualsiasi nome alle colonne e aggiungerle a una visualizzazione del report con le normali procedure usate per gli altri campi.
 
@@ -54,11 +54,11 @@ Ora Jeff ha il campo che vuole.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Può aggiungerlo all'area di disegno report insieme al numero di spedizioni. In poco tempo e con il minimo sforzo, ora Jeff ha un campo City, State che può aggiungere a quasi tutti i tipi di visualizzazione. Jeff osserva persino che, quando crea una visualizzazione mappa, Power BI Desktop riesce anche a leggere i valori City, State nella nuova colonna.
+Può aggiungerlo all'area di disegno report insieme al numero di spedizioni. Molto velocemente e con il minimo sforzo, ora Jeff ha un campo City, State che può aggiungere a quasi tutti i tipi di visualizzazione. Jeff osserva che, quando crea una visualizzazione mappa, Power BI Desktop riesce anche a leggere i valori City, State nella nuova colonna.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
-## <a name="learn-more"></a>Scopri di più
+## <a name="learn-more"></a>Altre informazioni
 In questo articolo è stata fornita solo una rapida introduzione alle colonne calcolate. Vedere l'esercitazione [Creare colonne calcolate in Power BI Desktop](desktop-tutorial-create-calculated-columns.md), dove è possibile scaricare un file di esempio e ottenere informazioni dettagliate su come creare altre colonne. 
 
 Per altre informazioni su DAX, vedere [Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md).

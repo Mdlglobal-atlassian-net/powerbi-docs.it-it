@@ -2,14 +2,14 @@
 title: Uso delle tabelle calcolate in Power BI Desktop
 description: Tabelle calcolate in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8bf8d2629d6a0bd88a85fa468547586e93502721
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 41017e1570a518e26305b6195531bcff889dbd9c
+ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Uso delle tabelle calcolate in Power BI Desktop
 Con le tabelle calcolate è possibile aggiungere una nuova tabella al modello. Tuttavia, invece di eseguire query e caricare i valori nelle colonne della nuova tabella da un'origine dati, viene creata una formula Data Analysis Expressions (DAX) che definisce i valori della tabella. In Power BI Desktop, le tabelle calcolate vengono create usando la funzionalità Nuova tabella in Visualizzazione Report o Vista dati.
@@ -71,7 +71,15 @@ Le tabelle calcolate possono essere definite da qualsiasi espressione DAX che re
 
 È possibile usare le tabelle calcolate con DAX per risolvere molti problemi analitici. In questo articolo è stata fornita solo una rapida introduzione alle tabelle calcolate. Di seguito sono riportate alcune delle funzioni di tabella DAX più comuni che potrebbero risultare utili quando si inizia a lavorare con le tabelle calcolate:
 
-&lt;TABLE&gt; DISTINCT VALUES CROSSJOIN UNION NATURALINNERJOIN NATURALLEFTOUTERJOIN INTERSECT CALENDAR CALENDARAUTO
+* DISTINCT
+* VALUES
+* CROSSJOIN
+* UNION
+* NATURALINNERJOIN
+* NATURALLEFTOUTERJOIN
+* INTERSECT
+* CALENDAR
+* CALENDARAUTO
 
 Per le [funzioni DAX che restituiscono queste e altre tabelle, vedere Riferimento ](https://msdn.microsoft.com/ee634396.aspx)alle funzioni DAX.
 
