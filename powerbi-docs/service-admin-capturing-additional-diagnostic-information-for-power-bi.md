@@ -30,7 +30,7 @@ Queste istruzioni illustrano le opzioni possibili per raccogliere manualmente in
 
 ## <a name="network-capture---edge--internet-explorer"></a>Acquisizione di rete - Microsoft Edge e Internet Explorer
 1. Passare a [Power BI](https://app.powerbi.com) con Microsoft Edge o Internet Explorer.
-2. Aprire gli strumenti di sviluppo di Edge premendo F12.
+2. Aprire gli strumenti di sviluppo di Microsoft Edge premendo F12.
 3. Verrà visualizzata la finestra Strumenti di sviluppo: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
