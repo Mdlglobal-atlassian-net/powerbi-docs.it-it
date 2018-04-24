@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI (ma non in Power BI Desktop) sono disponibili due modalità per visualizzare e interagire con i report: la Visualizzazione di lettura e la Visualizzazione di modifica. La visualizzazione di lettura è disponibile per tutti gli utenti ed è stata progettata in modo specifico per i *consumer* di dati, mentre la visualizzazione di modifica è disponibile solo per gli *autori* e i proprietari dei report.
@@ -48,7 +48,6 @@ Questo grafico non elenca tutte le funzionalità dei report disponibili nel serv
 |Attività  | Visualizzazione di lettura  | Visualizzazione di modifica |
 |-------------------------|-------|-------|
 |**Interi report**  |
-||||
 | [Creare o modificare un report](service-report-create-new.md) | No  | Sì |
 | [Condividere un report](service-share-reports.md)| Sì | Sì, ed è inoltre possibile gestire le autorizzazioni, concedendo anche ad altri utenti le autorizzazioni di *proprietario*. |
 | [Creare filtri persistenti (permanenti) a livello visivo, filtri di drill-through, filtri a livello di pagina e filtri a livello di report dal riquadro Filtri](power-bi-report-add-filter.md) | No  | Sì |
@@ -63,12 +62,10 @@ Questo grafico non elenca tutte le funzionalità dei report disponibili nel serv
 | [Salvare un report](service-report-save.md) | Sì, ma solo usando **Salva con nome**. | Sì |
 | [Eliminare un report](service-delete.md) | No  | Sì |
 |**Pagine del report** |
-||||
 | [Aggiungere o rinominare una pagina del report](power-bi-report-add-page.md)  | No  | Sì  |
 | [Duplicare una pagina di un report](power-bi-report-copy-paste-page.md) | No  | Sì |
 | [Eliminare una pagina di un report](service-delete.md) | no | sì |
 |**Uso delle visualizzazioni dei report**|
-||||
 | [Aggiungere visualizzazioni a un report](power-bi-report-add-visualizations-i.md) | No  | Sì |
 | [Aggiungere caselle di testo e forme a un report](power-bi-reports-add-text-and-shapes.md) | No  | Sì |
 | [Usare il riquadro Formattazione del report](service-the-report-editor-take-a-tour.md) | No | Sì |

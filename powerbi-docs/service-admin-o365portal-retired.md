@@ -1,28 +1,28 @@
 ---
-title: "Power BI per Office 365 è stato ritirato"
-description: "Power BI per Office 365 è stato ritirato. Informazioni su come usare e gestire la versione attuale di Power BI."
+title: Power BI per Office 365 è stato ritirato
+description: Power BI per Office 365 è stato ritirato. Informazioni su come usare e gestire la versione attuale di Power BI.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: mgblythe
 manager: kfile
 backup: amandacofsky
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c83ae371153443f48fa6996e4024119ca3d94d04
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 34e739ef47207b2f3fe3f9d5536c7941164bae98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI per Office 365 è stato ritirato
 È stata eseguita la transizione di Power BI per Office 365, una versione precedente di Power BI, alla versione corrente di [Power BI](https://powerbi.microsoft.com). Gli utenti che usavano **Power BI per Office 365** possono usare la versione corrente di Power BI. [Informazioni su Power BI](service-get-started.md).

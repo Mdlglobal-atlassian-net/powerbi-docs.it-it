@@ -2,28 +2,28 @@
 title: Oggetti visivi degli indicatori KPI (esercitazione)
 description: Creare un indicatore KPI nel servizio Power BI e in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>Oggetti visivi degli indicatori KPI (esercitazione)
 Un indicatore di prestazioni chiave (KPI) è un segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. Per altre informazioni sugli indicatori KPI, vedere [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -76,11 +76,8 @@ Gli indicatori KPI sono disponibili anche nei dispositivi mobili, in modo che si
 * Se l'indicatore KPI non è simile al precedente, è possibile che sia necessario ordinare in base al mese. Poiché gli indicatori KPI non includono alcuna opzione di ordinamento, sarà necessario ordinare in base al mese *prima* di convertire la visualizzazione in un indicatore KPI.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](service-reports.md)
 
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
-
-[Power BI - Concetti di base](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

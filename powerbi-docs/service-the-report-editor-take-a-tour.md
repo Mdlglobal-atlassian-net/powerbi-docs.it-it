@@ -2,28 +2,28 @@
 title: Guida introduttiva - Presentazione dell'editor di report
 description: Presentazione dell'editor di report.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Presentazione dell'editor di report
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Modifica di report nel servizio Power BI e in Power BI Desktop
@@ -56,7 +56,6 @@ Il contenuto visualizzato nell'editor di report varia in base alle selezioni eff
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>La parte superiore del riquadro Visualizzazione identifica il tipo di oggetto visivo in uso, in questo esempio un istogramma a colonne raggruppate.<br><br></li> <li>La parte inferiore del riquadro Visualizzazione (potrebbe essere necessario scorrere verso il basso) mostra i campi usati nell'oggetto visivo. Questo grafico usa FiscalMonth, DistrictManager e Total Sales Variance. <br><br></li><li>Il riquadro Filtri (potrebbe essere necessario scorrere verso il basso) mostra eventuali filtri che sono stati applicati. <br><br></li><li>Il riquadro Campi elenca le tabelle disponibili e, se si espande il nome di una tabella, i campi che costituiscono tale tabella. Il carattere giallo indica che almeno un campo della tabella usato nella visualizzazione.<br><br></li><li>![Icona del rullo](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Per visualizzare il riquadro di formattazione, per la visualizzazione selezionata, selezionare l'icona del rullo.<br><br></li><li>![Icona della lente di ingrandimento](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Per visualizzare il riquadro Analisi, selezionare l'icona della lente di ingrandimento.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>Riquadro Visualizzazioni (dall'alto verso il basso)
 ![Parte superiore del riquadro Visualizzazioni](media/service-the-report-editor-take-a-tour/selectviz.png)

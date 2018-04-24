@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Amministrazione di Power BI nell'organizzazione
 Microsoft Power BI consente agli utenti di visualizzare i dati, condividere le scoperte e collaborare in modi nuovi e intuitivi. Per altre informazioni, vedere [Introduzione a Power BI](service-get-started.md).
@@ -185,8 +185,6 @@ Per eseguire la procedura seguente, è necessario installare la versione a 64 bi
 Se l'organizzazione ha già un ambiente di Office 365 e tutti gli utenti dell'organizzazione hanno account di Office 365, il processo di gestione delle identità rimarrà invariato.
 
 Se l'organizzazione ha già un ambiente di Office 365 ma non tutti gli utenti dell'organizzazione hanno account di Office 365, Microsoft creerà un utente nel tenant e assegnerà le licenze in base all'indirizzo di posta elettronica aziendale o dell'istituto di istruzione dell'utente. Questo significa che il numero di utenti da gestire in un determinato momento aumenterà man mano che nuovi utenti nell'organizzazione si iscrivono al servizio.
-
-Se la directory viene gestita in locale e si usa Active Directory Federation Services (ADFS), Microsoft non aggiungerà utenti al tenant e tutti gli utenti che proveranno ad aggiungersi al tenant riceveranno un messaggio che li invita a contattare l'amministratore dell'organizzazione.
 
 Se l'organizzazione non ha un ambiente di Office 365 connesso al proprio dominio di posta elettronica, non ci saranno cambiamenti nella modalità di gestione delle identità. Gli utenti verranno aggiunti a una nuova directory di utenti basata esclusivamente sul cloud e si avrà la possibilità di scegliere se assumere il ruolo di amministratore del tenant per gestirli.
 

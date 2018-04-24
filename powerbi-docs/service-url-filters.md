@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/15/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 72afa61316800e9636d7b1a1536ff9c43b66c453
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: c23d36c408c1714df9a480d5f35da9691af620d9
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 Quando si apre un report nel servizio Power BI, ogni pagina del report ha un proprio URL univoco. Per filtrare tale pagina del report, è possibile usare il riquadro Filtri nell'area di disegno report.  In alternativa, è possibile aggiungere i parametri della stringa di query all'URL per filtrare il report. Se, ad esempio, si vuole mostrare un report ai colleghi applicando un filtro preliminare, basta iniziare dall'URL predefinito del report, aggiungere i parametri di filtro all'URL e quindi inviare l'intero URL via posta elettronica.
@@ -98,7 +98,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 Pubblicare il report nel servizio Power BI, quindi usare la stringa di query dell'URL per filtrare e visualizzare solo i dati relativi ai negozi Lindseys nella Carolina del Nord.
 
-https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
+    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC–Lindseys'
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Aggiungere un riquadro da un report filtrato
 Dopo aver filtrato il report usando i parametri della stringa di query, è possibile aggiungere al dashboard le visualizzazioni da tale report. Il riquadro nel dashboard conterrà i dati filtrati; selezionandolo, verrà aperto il report che è stato usato per crearlo.  Tuttavia, i filtri applicati usando l'URL non vengono salvati con il report e, quando si seleziona il riquadro del dashboard, il report verrà aperto nello stato non filtrato.  Ciò significa che i dati visualizzati nel riquadro del dashboard non corrisponderanno ai dati visualizzati nella visualizzazione del report.
