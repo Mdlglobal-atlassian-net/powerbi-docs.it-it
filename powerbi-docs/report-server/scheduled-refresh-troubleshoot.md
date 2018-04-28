@@ -2,14 +2,14 @@
 title: Risolvere i problemi degli aggiornamenti pianificati nel server di report di Power BI
 description: Questo articolo illustra le risorse disponibili per la risoluzione dei problemi degli aggiornamenti pianificati nel server di report di Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 466505ae2c4050629e8bbcc4ff90cde520d31375
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: cf084492a7b5d1ecc10ff933eeaef4cdbdc14022
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Risolvere i problemi degli aggiornamenti pianificati nel server di report di Power BI
 Questo articolo illustra le risorse disponibili per la risoluzione dei problemi degli aggiornamenti pianificati nel server di report di Power BI.
@@ -60,7 +60,6 @@ Le impostazioni seguenti possono essere usate per influire sugli aggiornamenti p
 
 | Impostazione | Descrizione |
 | --- | --- |
-| EnablePowerBIReportEmbeddedModels |Abilita o disabilita la possibilità di usare dati importati nei report. I valori validi sono True o False. |
 | MaxFileSizeMb |Dimensioni massime dei file per i report caricati. Il valore predefinito è 1000 MB (1 GB). Il valore massimo è 2000 MB (2 GB). |
 | ModelCleanupCycleMinutes |Definisce la frequenza con cui il modello viene verificato per la rimozione dalla memoria. L'impostazione predefinita è 15 minuti. |
 | ModelExpirationMinutes |Definisce il periodo di attesa prima della scadenza e della rimozione del modello in base all'ora dell'ultimo uso. L'impostazione predefinita è 60 minuti. |
