@@ -2,23 +2,23 @@
 title: Acquisizione dei dati
 metadata:
   title: Acquisizione dei dati | Microsoft Power BI
-  description: "Esplorare e apprendere i tanti modi in cui è possibile ottenere e utilizzare i dati in Power BI."
+  description: Esplorare e apprendere i tanti modi in cui è possibile ottenere e utilizzare i dati in Power BI.
   audience: Business User
   level: Beginner
-  nextTutorialHref: modeling
+  nextTutorialHref: modeling.yml
   nextTutorialTitle: Modellazione
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: 7a825054ddafc5277988df6b3760bca42a508704
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 9985382471f966f308ff782a8e95a07e29ebccca
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
   content: >
@@ -51,7 +51,7 @@ items:
 
 
     [!INCLUDE [](includes/1-3-clean-and-transform-data-with-query-editor.md)]
-- title: "Trasformazione e origini dati più avanzate"
+- title: Trasformazione e origini dati più avanzate
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/8WsY0R2V_bw?rel=0]
@@ -65,4 +65,4 @@ items:
 
 
     [!INCLUDE [](includes/1-5-cleaning-irregular-data.md)]
-- content: "Non sono necessarie altre operazioni. La sezione **Acquisizione dei dati** dell'apprendimento guidato di Power BI è stata completata. Il passaggio successivo consiste nell'ottenere informazioni sulla **Modellazione**, illustrata nell'esercitazione successiva.\0"
+- content: Non sono necessarie altre operazioni. La sezione **Acquisizione dei dati** dell'apprendimento guidato di Power BI è stata completata. Il passaggio successivo consiste nell'ottenere informazioni sulla **Modellazione**, illustrata nell'esercitazione successiva.
