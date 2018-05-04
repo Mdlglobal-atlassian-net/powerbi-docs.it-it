@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Connettersi a Salesforce con Power BI
 Con Power BI è possibile connettersi facilmente all'account di Salesforce.com. La creazione di questa connessione consente di recuperare i dati e di disporre automaticamente di un dashboard e dei report correlati basati sui dati.
@@ -72,11 +72,13 @@ Connettersi al [pacchetto di contenuto Salesforce](https://app.powerbi.com/getda
 * [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
-## <a name="system-requirements"></a>Requisiti di sistema
-* Connessione effettuata con un account di Salesforce con accesso API abilitato
-* Autorizzazione concessa all'app Power BI durante l'accesso
-* Account con un numero di chiamate API disponibili sufficiente per eseguire il pull e aggiornare i dati
-* Un token di autenticazione valido è necessario per l'aggiornamento. Assicurarsi di non importare più di cinque set di dati di Salesforce, perché Salesforce prevede un limite di cinque token di autenticazione per applicazione.
+## <a name="system-requirements-and-considerations"></a>Requisiti di sistema e considerazioni
+- Connessione effettuata con un account di Salesforce con accesso API abilitato
+- Autorizzazione concessa all'app Power BI durante l'accesso
+- Account con un numero di chiamate API disponibili sufficiente per eseguire il pull e aggiornare i dati
+- Un token di autenticazione valido è necessario per l'aggiornamento. Assicurarsi di non importare più di cinque set di dati di Salesforce, perché Salesforce prevede un limite di cinque token di autenticazione per applicazione.
+- L'API di Report di Salesforce ha una limitazione che consente di supportare al massimo 2000 righe di dati.
+
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Se si verificano errori, esaminare i requisiti riportati sopra. Tenere anche presente che attualmente non è supportato l'accesso a un dominio personalizzato o sandbox.

@@ -2,28 +2,28 @@
 title: Metriche di utilizzo per dashboard e report
 description: Come visualizzare, salvare e usare le metriche di utilizzo per i dashboard e i report di Power BI. Misurare e massimizzare l'impatto con le metriche di utilizzo per gli autori di contenuti.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
 Se si creano dashboard e report, le metriche di utilizzo aiutano a comprenderne l'impatto. L'esecuzione di metriche di utilizzo per dashboard o report permette di scoprire come vengono usati questi elementi all'interno dell'organizzazione, cosa viene usato, chi usa che cosa e per quale motivo lo usa.  
@@ -53,7 +53,7 @@ Quando si seleziona **Metriche di utilizzo** o l'icona ![Icona Metriche di utili
 
 Le metriche di utilizzo non vengono visualizzate in **Recenti**, **Aree di lavoro**, **Preferiti** o in altri elenchi di contenuti. Non possono essere aggiunte a un'app. Se si aggiunge un titolo di un rapporto sulle metriche di utilizzo a un dashboard, non è possibile aggiungere il dashboard a un pacchetto di app o contenuti.
 
-Per esaminare in dettaglio i dati del report o creare report personali basati sul set di dati, usare **Salva con nome** (vedere [Salvare il report Metriche di utilizzo come un report Power BI con tutte le funzionalità)](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report).
+Per esaminare in dettaglio i dati del report o creare report personali basati sul set di dati, usare **Salva con nome** (vedere [Salvare il report Metriche di utilizzo come un report Power BI con tutte le funzionalità)](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Aprire un report Metriche di utilizzo per un dashboard o report
 1. Iniziare nell'area di lavoro che contiene il dashboard o report.
@@ -100,7 +100,7 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
 ### <a name="report-usage-metrics-report"></a>Report Metriche di utilizzo del report
 ![Report Metriche di utilizzo del report](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Salvataggio del report Metriche di utilizzo come report Power BI con funzionalità complete (personalizzato)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Salvare Metriche di utilizzo come report Power BI con funzionalità complete (personalizzato)
 
 ![Salva con nome](media/service-usage-metrics/power-bi-save-as.png)
 

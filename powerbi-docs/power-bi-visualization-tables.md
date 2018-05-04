@@ -1,29 +1,29 @@
 ---
-title: Esercitazione - Visualizzazioni tabella nei report e nei dashboard di Power BI (esercitazione)
+title: Visualizzazioni tabella nei report e nei dashboard di Power BI (esercitazione)
 description: Suggerimenti per l'utilizzo di visualizzazioni tabella nei report e nei dashboard di Power BI, tra cui come ridimensionare la larghezza delle colonne.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Utilizzo di tabelle nei report e nei dashboard di Power BI (esercitazione)
 Una tabella è una griglia contenente dati correlati in una serie logica di righe e colonne. Può anche contenere intestazioni e una riga per i totali. Le tabelle funzionano bene con confronti quantitativi in cui si analizzano molti valori per una singola categoria. Ad esempio, questa tabella mostra 5 diverse misure per **Categoria**.
@@ -69,15 +69,21 @@ Esistono molti modi per formattare una tabella e in questa sede ci si occuperà 
 
 * Provare a formattare la griglia della tabella. In questo caso è stata aggiunta una griglia blu verticale, è stato aggiunto spazio alle righe e sono state lievemente aumentate le dimensioni di profilo e testo.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * Per le intestazioni di colonna è stato modificato il colore di sfondo, aggiunto un profilo e sono state aumentate le dimensioni del carattere. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Dopo alcune operazioni di formattazione aggiuntive, ecco la tabella definitiva. Poiché sono presenti numerose opzioni di formattazione, il modo migliore per imparare consiste nell'iniziare da una normale tabella, aprire il riquadro Formattazione ![](media/power-bi-visualization-tables/power-bi-format.png) e iniziare a esplorare. 
+
+* È anche possibile applicare la formattazione a singole colonne e intestazioni di colonna. Per iniziare, espandere **Formattazione campi** e dall'elenco a discesa selezionare la colonna da formattare. A seconda dei valori di colonna, Formattazione campi consente di definire impostazioni come le unità visualizzate, il colore del carattere, il numero di posizioni decimali, lo sfondo, l'allineamento e altro ancora. Dopo aver modificato le impostazioni, decidere se applicarle anche all'intestazione e alla riga dei totali.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Dopo alcune operazioni di formattazione aggiuntive, ecco la tabella definitiva. Poiché sono disponibili numerose opzioni di formattazione, il modo migliore per imparare a usarle è quello di iniziare con la formattazione predefinita, aprire il riquadro Formattazione ![](media/power-bi-visualization-tables/power-bi-format.png) ed esaminare le diverse opzioni. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

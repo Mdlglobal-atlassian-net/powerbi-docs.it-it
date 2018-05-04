@@ -1,35 +1,35 @@
 ---
-title: "Esercitazione - Presentazione dell'esempio di analisi della redditività dei clienti per Power BI"
-description: "Presentazione dell'esempio Analisi della redditività dei clienti per Power BI"
+title: Esercitazione - Presentazione dell'esempio di analisi della redditività dei clienti per Power BI
+description: Presentazione dell'esempio Analisi della redditività dei clienti per Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: amandacofsky
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: b7931cb97ff1c409cc2524e31d079dd770160ec4
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 8c6d01cf1a89ea8e61506cc28344c77fe0276e47
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio Analisi della redditività dei clienti per Power BI
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Panoramica dell'esempio di analisi della redditività dei clienti
 Il pacchetto di contenuto "Esempio di analisi della redditività dei clienti" contiene un dashboard, un report e un set di dati per una società che produce materiali di marketing. Il dashboard è stato creato da una responsabile amministrativa per ottenere le metriche principali relative ai 5 responsabili di Business Unit, ai prodotti, ai clienti e ai margini lordi e trovare subito i fattori che influiscono negativamente sulla redditività.
 
-![](media/sample-customer-profitability/power-bi-dash.png)
+![Dashboard di Power BI](media/sample-customer-profitability/power-bi-dash.png)
 
 Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. Si tratta di dati reali messi a disposizione da obviEnce ([www.obvience.com](http://www.obvience.com/)) che sono stati resi anonimi. I dati sono disponibili in diversi formati: pacchetto di contenuto/app, cartella di lavoro di Excel o file di Power BI Desktop con estensione pbix. Vedere [Set di dati di esempio](sample-datasets.md).
 
@@ -41,10 +41,10 @@ Per iniziare, Questa esercitazione usa il servizio Power BI e il pacchetto di co
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
 2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
 
-    ![](media/sample-datasets/power-bi-get-data.png)
+    ![Recuperare i dati](media/sample-datasets/power-bi-get-data.png)
 3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
 
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+   ![Icona Esempi](media/sample-datasets/power-bi-samples-icon.png)
 4. Selezionare l'**Esempio di analisi della redditività dei clienti**, quindi scegliere **Connetti**.  
 
    ![Recupera dati](media/sample-customer-profitability/get-supplier-sample.png)
@@ -73,7 +73,7 @@ In **Area di lavoro personale** trovare il dashboard per l'esempio Redditività 
 
 2. Esaminare i riquadri sul lato sinistro del dashboard.
 
-    ![](media/sample-customer-profitability/power-bi-manager.png)
+    ![Riquadri per i responsabili](media/sample-customer-profitability/power-bi-manager.png)
 
 - Il margine lordo della società è del 42,5%.
 - Abbiamo 80 clienti.
@@ -86,7 +86,7 @@ In **Area di lavoro personale** trovare il dashboard per l'esempio Redditività 
 ### <a name="manager-specific-dashboard-tiles"></a>Riquadri del dashboard specifici del responsabile
 I riquadri sul lato destro del dashboard forniscono una scorecard del team. La responsabile amministrativa deve monitorare i responsabili a lei sottoposti e questi riquadri le offrono una panoramica del profitto di alto livello, usando la percentuale di margine lordo. Se la tendenza della percentuale di margine lordo è imprevista per qualsiasi responsabile, la responsabile amministrativa potrà eseguire ulteriori indagini.
 
-![](media/sample-customer-profitability/power-bi-manager2.png)
+![Percentuale di margine lordo per i responsabili](media/sample-customer-profitability/power-bi-manager2.png)
 
 - Tutti i dirigenti, ad eccezione di Carlos, hanno già superato gli obiettivi di vendita. Ma le vendite effettive di Carlos sono le più alte.
 - La percentuale di margine lordo di Annelie è la più bassa, ma si osserva un aumento costante a partire da marzo.
@@ -99,7 +99,7 @@ Questo dashboard contiene riquadri collegati a un report e a una cartella di lav
 ### <a name="open-the-excel-online-data-source"></a>Aprire l'origine dati di Excel Online
 Due riquadri in questo dashboard, "Target vs Actual" (Vendite previste ed effettive) e "Year Over Year Revenue Growth" (Crescita annuale dei ricavi) sono stati aggiunti da una cartella di lavoro di Excel. Pertanto, quando si seleziona uno di questi riquadri, Power BI apre l'origine dati, in questo caso, Excel Online.
 
-![](media/sample-customer-profitability/power-bi-excel-online.png)
+![Excel Online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Selezionare uno dei riquadri aggiunti da Excel. Excel Online viene aperto all'interno del servizio Power BI.
 2. Si noti che la cartella di lavoro include 3 schede di dati. Aprire "Revenue" (Ricavi).
@@ -107,11 +107,11 @@ Due riquadri in questo dashboard, "Target vs Actual" (Vendite previste ed effett
     a. Dal dispositivo di scorrimento "Executive" (Dirigente) selezionare **Carlos Grilo**.   
     b. La prima tabella pivot indica che i ricavi di Carlos per il suo prodotto principale, Primus, sono diminuiti del 152% rispetto all'anno precedente. Il grafico di confronto degli anni indica che per la maggior parte dei mesi non raggiunge il budget.  
 
-    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+    ![Tabella pivot](media/sample-customer-profitability/power-bi-pivotchart.png)
 
-    ![](media/sample-customer-profitability/power-bi-carlos.png)
+    ![Risultati per Carlos](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. Continuare a esplorare e se si trova qualcosa di interessante selezionare **Aggiungi** ![](media/sample-customer-profitability/power-bi-excel-pin.png) nell'angolo in alto a destra per [aggiungerla a un dashboard](service-dashboard-pin-tile-from-excel.md).
+4. Continuare a esplorare e, se si trova qualcosa di interessante, selezionare **Aggiungi** ![icona Aggiungi](media/sample-customer-profitability/power-bi-excel-pin.png) nell'angolo in alto a destra per [aggiungerla a un dashboard](service-dashboard-pin-tile-from-excel.md).
 
 5. Usare la freccia indietro del browser per tornare al dashboard.
 
@@ -122,14 +122,14 @@ La maggior parte dei riquadri nel dashboard di esempio di analisi della redditiv
 
 2. Il report è composto da 3 pagine. Ogni scheda nella parte inferiore del report rappresenta una pagina.
 
-    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+    ![3 schede nella parte inferiore](media/sample-customer-profitability/power-bi-report-tabs.png)
 
     * "Team Scorecard" è incentrata sulle prestazioni dei 5 responsabili e il relativo "fatturato clienti".
     * "Industry Margin Analysis" indica come analizzare la redditività rispetto all'andamento dell'intero settore.
     * "Executive Scorecard" fornisce una vista di ciascuno dei manager formattata per la visualizzazione in Cortana.
 
 ### <a name="team-scorecard-page"></a>Pagina Team Scorecard
-![](media/sample-customer-profitability/customer2.png)
+![Pagina Team Scorecard del report](media/sample-customer-profitability/customer2.png)
 
 Verranno ora esaminati nel dettaglio due membri del team per ottenere informazioni più approfondite. Nel filtro dei dati a sinistra selezionare il nome di Andrew per filtrare la pagina del report in modo da visualizzare solo i dati su Andrew.
 
@@ -138,7 +138,7 @@ Verranno ora esaminati nel dettaglio due membri del team per ottenere informazio
 * Il grafico "RevenueTY and Revenue Var % to Budget by Month" mostra un profitto costante e uniforme. Tuttavia, se si filtra il grafico facendo clic sul quadrato relativo all'area **Central** nella mappa ad albero, si scoprirà che Andrew può contare su ricavi solo a marzo e solo nello stato dell'Indiana. Si tratta di un comportamento intenzionale oppure è un fatto su cui indagare ulteriormente?
 
 Passiamo ora a Valery. Nel filtro dei dati, selezionare il nome di Valery per filtrare la pagina del report in modo da visualizzare solo i dati sull'utente.  
-![](media/sample-customer-profitability/customer3.png)
+![Sezione Executive per Valery Ushalov](media/sample-customer-profitability/customer3.png)
 
 * Si noti l'indicatore KPI rosso per **RevenueTY Status**. Decisamente, è necessario indagare ulteriormente su questo elemento.
 * Anche la varianza dei ricavi di Valery dipinge un quadro preoccupante: non ha raggiunto i margini di ricavo previsti.
@@ -150,7 +150,7 @@ Continuiamo ad andare al fondo della questione per scoprire il motivo per cui l'
 
 ### <a name="industry-margin-analysis"></a>Industry Margin Analysis
 Questa pagina del report mostra una sezione diversa dei dati. Illustra il margine lordo dell'intero settore, suddiviso in base al segmento. La responsabile amministrativa usa questa pagina per confrontare le metriche della società e della business unit con le metriche del settore, per provare a capire le tendenze e la redditività. Ci si potrebbe chiedere perché il grafico ad aree "Gross Margin by Month and Executive Name" sia in questa pagina, dal momento che è specifico del team. L'inserimento in questa sede consente di filtrare la pagina in base al responsabile di business unit.  
-![](media/sample-customer-profitability/customer6.png)
+![Pagina del report relativa all'analisi del margine di settore](media/sample-customer-profitability/customer6.png)
 
 In che modo varia la redditività per ogni settore? In che modo sono suddivisi i prodotti e i clienti per ogni settore? Selezionare uno o più settori nella parte superiore sinistra (iniziare dal settore CPG). Per cancellare il filtro, selezionare l'icona a forma di gomma.
 
@@ -172,11 +172,11 @@ Per questa analisi sarebbe utile determinare quale settore genera il maggior ric
 
 2.  Dalla barra dei menu superiore selezionare **Poni una domanda** per aprire la finestra per le domande e risposte.
 
-    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+    ![Porre una domanda sui dati](media/sample-customer-profitability/power-bi-ask-question.png)
 
 3. Digitare **total revenue by industry for Valery**(ricavo totale per settore per Valery). Notare gli aggiornamenti della visualizzazione mentre si digita la domanda.
 
-    ![](media/sample-customer-profitability/power-bi-qna.png)
+    ![Digitare una domanda nella casella](media/sample-customer-profitability/power-bi-qna.png)
 
    La distribuzione è la maggiore area di ricavo per Valery.
 
@@ -186,15 +186,15 @@ Verrà ora esaminato il settore *Distribution*.
 1. Aprire la pagina del report "Industry Margin Analysis" (Analisi del margine del settore).
 2. Senza selezionare alcuna visualizzazione nella pagina del report, espandere il riquadro Filtri sulla destra, se non è già espanso. Nel riquadro Filtri dovrebbero essere visualizzati solo i filtri a livello di pagina.  
 
-   ![](media/sample-customer-profitability/power-bi-filters.png)
+   ![Filtri a livello di pagina](media/sample-customer-profitability/power-bi-filters.png)
 3. Individuare il filtro per **Industry** (Settore) e selezionare la freccia per espandere l'elenco. A questo punto aggiungere un filtro di pagina per il settore Distribution (Distribuzione). Deselezionare innanzitutto tutte le opzioni selezionate, facendo clic sulla casella di controllo **Seleziona tutto**. Selezionare quindi solo **Distribution** (Distribuzione).  
 
-   ![](media/sample-customer-profitability/customer7.png)
+   ![Filtro per Distribution](media/sample-customer-profitability/customer7.png)
 4. Il grafico ad aree "Gross margin by Month and Executive Name" indica che solo Valery e Tina hanno clienti in questo settore e che Valery ha lavorato in questo settore solo da giugno a novembre.   
 5. Selezionare **Tina** e quindi **Valery** nella legenda del grafico ad aree "Gross Margin by Month and Executive". Si noti che la parte dei ricavi totali in base al prodotto di Tina (indicata in "Total Revenue by Product") è davvero minima se confrontata a quella di Valery.
 6. Per visualizzare i ricavi effettivi, usare Domande e risposte per chiedere quale è il **totale dei ricavi per dirigente e per la distribuzione in base allo scenario**.  
 
-     ![](media/sample-customer-profitability/power-bi-qna2.png)
+     ![Digitare una domanda nella casella per visualizzare il grafico a barre](media/sample-customer-profitability/power-bi-qna2.png)
 
     In maniera simile, è possibile esplorare altri settori e persino aggiungere clienti agli elementi visivi per comprendere le cause delle prestazioni di Valery.
 

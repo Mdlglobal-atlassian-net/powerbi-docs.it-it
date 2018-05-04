@@ -2,27 +2,27 @@
 title: Analizza in Excel
 description: Informazioni su come analizzare i set di dati di Power BI in Excel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
 A volte si desidera utilizzare Excel per visualizzare e interagire con un set di dati di cui si dispone grazie a Power BI. Con **Analizza in Excel**, è anche possibile accedere alle funzionalità della tabella pivot, del grafico e del filtro dei dati di Excel in base al set di dati presente in Power BI.
@@ -105,3 +105,5 @@ Quando la cartella di lavoro viene aperta per la prima volta da un utente con cu
 
 Poiché gli utenti dovranno aggiornare il set di dati e l'operazione non è supportata per le connessioni esterne in Excel Online, è consigliabile che gli utenti aprano la cartella di lavoro con la versione desktop di Excel sul proprio computer.
 
+## <a name="troubleshooting"></a>Risoluzione dei problemi
+Quando si usa Analizza in Excel, a volte si ottiene un risultato imprevisto oppure la funzionalità non funziona correttamente. [Questa pagina offre soluzioni per problemi comuni relativi all'uso di Analizza in Excel.](desktop-troubleshooting-analyze-in-excel.md)

@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -29,6 +29,17 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](desktop-latest-update.md)  
 * [Novità del servizio Power BI](service-whats-new.md)  
+
+## <a name="april-2018"></a>Aprile 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Drill-up e drill-down per dispositivi mobili
+
+È ora possibile eseguire il drill-up e il drill-down per esaminare in dettaglio gli oggetti visivi dei report sul proprio dispositivo mobile. Per accedere a questa nuova funzionalità, toccare e tenere premuto un oggetto visivo del report per aprire il menu di descrizione comandi e quindi toccare i pulsanti di espansione per esaminare i dati in modo approfondito.
+
+### <a name="persistent-filters"></a>Filtri persistenti
+
+I filtri e i filtri dei dati nei report sono stati aggiornati di recente in modo da essere salvati automaticamente da Power BI sul Web all'app Power BI per dispositivi mobili. Ora i filtri e i filtri dei dati impostati nell'app per dispositivi mobili vengono salvati automaticamente in Power BI sul Web.
+
 
 ## <a name="march-2018"></a>Marzo 2018
 
