@@ -2,27 +2,27 @@
 title: Connettersi a un database Oracle
 description: Passaggi e download necessari per connettere Oracle a Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4126a5f4fc7b8a398d39cad7c14e87e179ab3175
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: e898fb3f7024b4041616770d6fe1d8e8469878dd
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-an-oracle-database"></a>Connettersi a un database Oracle
 Per connettersi a un database Oracle con **Power BI Desktop**, è necessario che nel computer che esegue Power BI Desktop sia installato il software client Oracle appropriato. La versione del software client Oracle dipende dalla versione di Power BI Desktop installata, a **32 bit** o a **64 bit**.
@@ -49,7 +49,7 @@ Dopo aver installato il driver del client Oracle corrispondente, è possibile co
 1. Nella finestra Recupera dati selezionare **Database > Database Oracle**
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Nella finestra di dialogo **Database Oracle** visualizzata specificare il nome del server e selezionare **Connetti**. Se è necessario un SID, è possibile specificarlo nel formato *NomeServer/SID*.
+2. Nella finestra di dialogo **Database Oracle** visualizzata specificare il nome del server e selezionare **Connetti**. Se è necessario un SID, è possibile specificarlo nel formato: *NomeServer/SID*, dove SID è il nome univoco del database. Se il formato *NomeServer/SID* non funziona, provare a usare *NomeServer/NomeServizio*, dove NomeServizio è l'alias usato durante la connessione.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 3. Per importare i dati usando una query nativa sul database, è possibile inserire la query nella casella **Istruzione SQL**, disponibile espandendo la sezione **Opzioni avanzate** della finestra di dialogo **Database Oracle**.

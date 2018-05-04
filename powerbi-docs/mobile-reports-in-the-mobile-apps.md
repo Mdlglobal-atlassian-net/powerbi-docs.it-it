@@ -1,6 +1,6 @@
 ---
 title: Esplorare i report nelle app Power BI per dispositivi mobili
-description: "Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop, quindi interagire con essi nelle app per dispositivi mobili. "
+description: Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop, quindi interagire con essi nelle app per dispositivi mobili.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -50,7 +50,7 @@ A seconda della provenienza, i report di Power BI sono archiviati in posizioni d
   ![Report per il telefono in modalità orizzontale](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Visualizzare i report ottimizzati per i telefoni
-Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. Le pagine dei report ottimizzate per i telefoni includono funzionalità aggiuntive. È ad esempio possibile eseguire il drill-down e ordinare gli oggetti visivi in modalità messa a fuoco ed è possibile accedere ai [filtri aggiunti dall'autore del report alla pagina del report](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Il report viene aperto in un telefono filtrato in base ai valori usati per filtrare il report sul Web con un messaggio che segnala che ci sono filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
+Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. Le pagine dei report ottimizzate per i telefoni includono funzionalità aggiuntive. È ad esempio possibile eseguire il drill-down e ordinare gli oggetti visivi ed è possibile accedere ai [filtri aggiunti dall'autore del report alla pagina del report](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Il report viene aperto in un telefono filtrato in base ai valori usati per filtrare il report sul Web con un messaggio che segnala che ci sono filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
 
 In un elenco di report un report ottimizzato è contrassegnato da un'icona speciale ![Icona del report per il telefono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Quando si visualizza tale report in un telefono, viene aperto in visualizzazione
 
 Altre informazioni sui [report ottimizzati per la visualizzazione telefono](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Usare i filtri dei dati per filtrare una pagina del report
+## <a name="use-slicers-to-filter-a-report"></a>Usare i filtri dei dati per filtrare un report
 Quando si progetta un report in Power BI Desktop o nel servizio Power BI, prendere in considerazione l'[aggiunta di filtri dei dati a una pagina del report](power-bi-visualization-slicers.md). Sia l'autore che i colleghi potranno così usare i filtri dei dati per filtrare la pagina in un browser e nelle app per dispositivi mobili. Quando si visualizza il report in un telefono, è possibile visualizzare e interagire con i filtri dei dati in modalità orizzontale e in una pagina ottimizzata per la modalità verticale del telefono. Se si seleziona un valore in un filtro dei dati o in un filtro nel browser, il valore verrà selezionato anche quando si visualizza la pagina nell'app per dispositivi mobili. Viene visualizzato un messaggio che indica che sono presenti filtri attivi nella pagina.  
 
 * Quando si seleziona un valore in un filtro dei dati nella pagina del report, vengono filtrati gli altri oggetti visivi nella pagina.
@@ -73,7 +73,7 @@ Quando si progetta un report in Power BI Desktop o nel servizio Power BI, prende
   
   In questa illustrazione, il filtro dei dati filtra l'istogramma in modo da mostrare solo i valori di luglio.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Evidenziare e filtrare a vicenda una pagina del report di Power BI
+## <a name="cross-filter-and-highlight-a-report"></a>Applicare un filtro incrociato ed evidenziare un report
 Quando si seleziona un valore in un oggetto visivo, gli altri oggetti visivi non vengono filtrati, ma vengono evidenziati i valori correlati in altri oggetti visivi.
 
 * Toccare un valore in un oggetto visivo.
@@ -88,8 +88,8 @@ Quando si seleziona un valore in un oggetto visivo, gli altri oggetti visivi non
    ![Ordinare un oggetto visivo](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Per invertire l'ordinamento, toccare di nuovo i puntini di sospensione (**...**), quindi toccare di nuovo il nome dello stesso campo.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>Eseguire il drill-down e il drill-up in un iPad o un tablet
-Se l'autore di un report ha aggiunto questa funzionalità a un oggetto visivo, in un tablet o un iPad, è possibile eseguire il drill-down in un oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](power-bi-visualization-drill-down.md) in Power BI Desktop o nel servizio Power BI. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Eseguire il drill-down in un iPad o un tablet
+Se l'autore di un report ha aggiunto funzionalità di drill-down a un oggetto visivo, in un tablet o un iPad è possibile eseguire il drill-down in un oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](power-bi-visualization-drill-down.md) in Power BI Desktop o nel servizio Power BI. 
 
 > [!NOTE]
 > Attualmente il drill-down non funziona con le mappe nell'iPad o nel tablet.

@@ -1,43 +1,34 @@
 ---
-title: Connessione a origini dati
-description: "Informazioni sulle origini dati alle quali è possibile connettersi in un server di report di Power BI."
+title: Origini dati dei report impaginati (con estensione rdl) nel Server di report di Power BI
+description: Informazioni sulle origini dati a cui possono connettersi i report impaginati (con estensione rdl) nel Server di report di Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>Connessione a origini dati
-Informazioni sulle origini dati alle quali è possibile connettersi in un server di report di Power BI.
-
-## <a name="power-bi-reports"></a>Report di Power BI
-I report di Power BI possono usare i dati importati o che usano una connessione dinamica di Analysis Services insieme a DirectQuery. La versione di ottobre 2017 include il supporto per connessioni diverse dalle connessioni dinamiche di Analysis Services. Sono inclusi i dati importati. È possibile scaricare la versione di ottobre 2017 all'indirizzo [powerbi.com](https://powerbi.microsoft.com/report-server/).
-
-Per informazioni sulle origini dati supportate, vedere [Origini dati dei report di Power BI nel server di report di Power BI](data-sources.md).
-
-## <a name="other-reports"></a>Altri report
-Altri tipi di report supportano le stesse origini dati presenti in SQL Server Reporting Services. Per altre informazioni, vedere [Origini dati supportate da Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+# <a name="paginated-report-rdl-data-sources"></a>Origini dati dei report impaginati (con estensione rdl)
+I report impaginati di Reporting Services nel Server di report di Power BI supportano le stesse origini dati supportate in SQL Server Reporting Services. Vedere l'elenco di [Origini dati supportate da Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Manuale per l'utente](user-handbook-overview.md)  
-[Avvio rapido: report impaginati](quickstart-create-paginated-report.md)  
-[Avvio rapido: report di Power BI](quickstart-create-powerbi-report.md)
+Dopo essersi connessi all'origine dati, [creare un report impaginato](quickstart-create-paginated-report.md).  
+
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

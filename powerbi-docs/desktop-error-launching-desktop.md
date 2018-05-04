@@ -2,27 +2,27 @@
 title: Risolvere i problemi relativi all'avvio di Power BI Desktop
 description: Risolvere i problemi relativi all'avvio di Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 43263afb63fa0350a240cae602f4a2acf8ef8edd
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 2014524b3209a67bd0f0aaa3d1ddf00042227c4d
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Risolvere i problemi relativi al mancato avvio di Power BI Desktop
 In **Power BI Desktop** è possibile che gli utenti che hanno installato il **gateway dati locale di Power BI** o ne eseguono una versione precedente non possano avviare Power BI Desktop a causa di restrizioni dei criteri amministrativi applicate dal gateway dati locale di Power BI sulle named pipe nel computer locale. 
@@ -38,6 +38,8 @@ Se il gateway dati locale di Power BI non è più necessario, è possibile disin
 
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Soluzione 3: eseguire Power BI Desktop con privilegi di amministratore
 In alternativa, è possibile avviare Power BI Desktop come amministratore. È comunque consigliabile installare la versione più recente del gateway dati locale di Power BI, come descritto in precedenza in questo articolo.
+
+È importante notare che Power BI Desktop è progettato come architettura multiprocesso e vari di questi processi comunicano tramite named pipe di Windows. Potrebbero essere presenti altri processi che interferiscono con queste named pipe. Il motivo più comune per tali interferenze è la sicurezza, incluse le situazioni in cui il software antivirus o i firewall potrebbero bloccare le pipe o reindirizzare il traffico a una porta specifica. L'avvio di Power BI Desktop con privilegi di amministratore potrebbe risolvere il problema. Se non è possibile avviare con privilegi di amministratore, contattare l'amministratore per determinare quali regole di sicurezza vengono applicate che impediscono comunicazioni corrette per le named pipe e aggiungere Power BI Desktop e i rispettivi sottoprocessi come elementi consentiti.
 
 ## <a name="help-with-other-issues-when-launching-power-bi-desktop"></a>Risolvere altri problemi di avvio di Power BI Desktop
 Microsoft si impegna per risolvere il numero maggiore possibile dei problemi relativi a **Power BI Desktop**. Vengono esaminati regolarmente i problemi che potrebbero influire su molti clienti, che saranno poi inclusi negli articoli.

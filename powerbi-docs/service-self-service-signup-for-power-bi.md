@@ -2,12 +2,12 @@
 title: Iscrizione a Power BI come utente singolo
 description: Informazioni su come iscriversi a Power BI e iniziare a usarlo per le proprie esigenze personali di creazione e visualizzazione di report.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 08/02/2017
 ms.service: powerbi
@@ -16,13 +16,13 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: b098c87796306bedb8f9da43971d093f464dd4bd
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 7f40fdfd3e9784ab05fe0f44612cea6d48d739fe
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Iscrizione a Power BI come utente singolo
 Informazioni su come iscriversi a Power BI e iniziare a usarlo per le proprie esigenze personali di creazione e visualizzazione di report.
@@ -88,7 +88,7 @@ Per iscriversi a Power BI, è possibile eseguire le operazioni seguenti.
    
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Selezionare il collegamento nel messaggio per verificare l'indirizzo di posta elettronica. In questo modo si torna alla procedura di iscrizione. Potrebbe essere necessario specificare alcune informazioni personali aggiuntive.
-7. A quel punto si verrà reindirizzati a https://app.powerbi.com e sarà possibile iniziare a usare Power BI gratuitamente.
+7. A quel punto il sistema reindirizza l'utente a https://app.powerbi.com ed è possibile iniziare a usare Power BI gratuitamente.
 
 ### <a name="what-this-looks-like-within-the-service"></a>Verifica dello stato all'interno del servizio
 Una volta all'interno nel servizio, è possibile verificare di avere un account gratuito selezionando l'icona a forma di **ingranaggio** e selezionando **Gestisci archivio personale**.

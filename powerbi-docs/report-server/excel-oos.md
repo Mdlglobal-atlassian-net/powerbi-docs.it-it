@@ -1,39 +1,32 @@
 ---
-title: Configurare il server di report per l'hosting di cartelle di lavoro di Excel tramite Office Online Server (OOS)
-description: Oltre a visualizzare i report di Power BI nel portale Web, gli utenti aziendali possono ora visualizzare le cartelle di lavoro di Excel nel Server di report di Power BI.
+title: Ospitare cartelle di lavoro di Excel tramite Office Online Server (OOS) - Server di report di Power BI
+description: Oltre a visualizzare i report di Power BI nel portale Web, Server di report di Power BI consente di ospitare cartelle di lavoro di Excel tramite Office Online Server (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configurare il server di report per l'hosting di cartelle di lavoro di Excel tramite Office Online Server (OOS)
-Oltre a visualizzare i report di Power BI nel portale Web, gli utenti aziendali possono ora visualizzare le cartelle di lavoro di Excel nel Server di report di Power BI e hanno quindi ha disposizione un'unica posizione per la pubblicazione e la visualizzazione del proprio contenuto self-service di Microsoft BI.
+Oltre a visualizzare i report di Power BI nel portale Web, Server di report di Power BI consente di ospitare cartelle di lavoro di Excel tramite [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Il server di report diventa una posizione centralizzata per la pubblicazione e la visualizzazione di contenuto Microsoft BI self-service.
 
-> [!NOTE]
-> Questa è una funzionalità di anteprima inclusa nella versione di anteprima di agosto 2017. Per altre informazioni, vedere [Novità del Server di report di Power BI](whats-new.md).
-> 
-> 
-
-![Visualizzazione dei report di Excel nel portale Web del server di report.](media/excel-oos/excel-in-pbirs.png)
-
-L'uso di [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS) consente di ottenere questo risultato.
+![Report di Excel visualizzati dal portale Web del server di report](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Preparare il server per l'esecuzione di Office Online Server
 Seguire queste procedure sul server che eseguirà Office Online Server. Il server deve essere Windows Server 2012 R2 o Windows Server 2016. Windows Server 2016 richiede Office Online Server di aprile 2017 o versione successiva.
@@ -92,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametri**
 
-* **–InternalURL** è il nome di dominio completo del server che esegue Office Online Server, ad esempio http://nomeserver.contoso.com.
+* **–InternalURL** è il nome di dominio completo del server che esegue Office Online Server, ad esempio http://servername.contoso.com.
 * **–ExternalURL** è il nome di dominio completo accessibile su Internet.
 * **–CertificateName** è il nome descrittivo del certificato.
 
@@ -105,7 +98,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parametri**
 
-* **–InternalURL** è il nome del server che esegue Office Online Server, ad esempio http://nomeserver.
+* **–InternalURL** è il nome del server che esegue Office Online Server, ad esempio http://servername.
 * **–AllowHttp** configura la farm per l'uso di HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Verificare che la farm di Office Online Server sia stata creata correttamente
