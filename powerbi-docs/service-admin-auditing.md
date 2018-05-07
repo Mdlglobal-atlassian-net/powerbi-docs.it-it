@@ -15,27 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 46f8d11d45423a9f7df96ac4d1e59c5d805304a7
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 23fa4ea28631e7545a1d68cd1f631eb087c56b98
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Informazioni sulla modalità d'uso della funzionalità di controllo con Power BI per monitorare ed esaminare le azioni eseguite. È possibile usare il Centro sicurezza e conformità o PowerShell.
 
 Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è di fondamentale importanza per aiutare l'organizzazione a soddisfare i suoi requisiti, come ad esempio la conformità alle normative e la gestione dei record.
 
 È possibile filtrare i dati del controllo per intervallo di date, utente, dashboard, report, set di dati e tipo di attività. È inoltre possibile scaricare le attività in un file csv (valori delimitati da virgola) per l'analisi offline.
-
-> [!NOTE]
-> La funzionalità di controllo di Power BI è in anteprima ed è disponibile in tutte le aree di dati.
 
 ## <a name="requirements"></a>Requisiti
 Per accedere ai log di controllo, è necessario rispettare questi requisiti:
@@ -47,28 +42,8 @@ Per accedere ai log di controllo, è necessario rispettare questi requisiti:
 
 - Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario ottenere un collegamento diretto al Centro sicurezza e conformità di Office 365.
 
-## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Abilitazione della funzionalità di controllo nel portale di amministrazione di Power BI
-
-È necessario abilitare il controllo dell'organizzazione per lavorare con i report. A questo scopo, andare nelle impostazioni del tenant del portale di amministrazione.
-
-1. Selezionare **l'icona dell'ingranaggio** in alto a destra.
-
-2. Selezionare **Portale di amministrazione**.
-   
-   ![](media/service-admin-auditing/powerbi-admin.png)
-
-3. Selezionare **Impostazioni tenant**.
-   
-   ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
-
-4. Passare a **Creare log di controllo per la verifica interna delle attività e ai fini della conformità**.
-
-5. Selezionare **Applica**.
-
-Power BI inizierà a registrare le varie attività eseguite dagli utenti in Power BI. Potrebbero essere necessarie fino a 48 ore perché i registri vengano visualizzati nel Centro di sicurezza e conformità di Office 365. Per ulteriori informazioni sulle attività registrate, vedere [Elenco di attività controllate da Power BI](#list-of-activities-audited-by-power-bi).
-
 > [!NOTE]
-> Per abilitare il controllo per Power BI nel tenant, è necessario che nel tenant stesso sia disponibile almeno una licenza per cassette postali di Exchange.
+> Per visualizzare i log di controllo per Power BI nel tenant, è necessario che nel tenant stesso sia disponibile almeno una licenza per cassette postali di Exchange.
 
 ## <a name="accessing-your-audit-logs"></a>Accesso ai log di controllo
 

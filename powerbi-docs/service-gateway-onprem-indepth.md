@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
 Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
@@ -87,10 +87,7 @@ I servizi cloud rilevano solo gli account in Azure Active Directory. Anche se è
    È possibile creare un account nel portale di Azure o nel portale di amministrazione di Office 365 e il nome dell'account corrisponde l'UPN dell'account Active Directory locale.
 2. È possibile usare lo strumento [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) per sincronizzare gli account locali al tenant di Azure Active Directory.
    
-   Lo strumento Azure AD Connect offre opzioni per la sincronizzazione della directory e della password. Se non si è un amministratore tenant o un amministratore di dominio locale, è necessario contattare l'amministratore IT per ottenere questa configurazione.
-3. È possibile configurare Active Directory Federation Services (ADFS).
-   
-   È possibile associare il server ADFS al tenant AAD con lo strumento [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). ADFS usa la sincronizzazione della directory descritta in precedenza, ma consente il Single Sign-On (SSO). Ad esempio, se si è all'interno della rete aziendale, durante l'uso di un servizio cloud e passare all'accesso, potrebbe non essere richiesto di immettere un nome utente o password. È necessario rivolgersi all'amministratore IT per sapere se questa opzione è disponibile per l'organizzazione.
+   Lo strumento Azure AD Connect offre opzioni per sincronizzare le directory e configurare l'autenticazione, incluse la sincronizzazione degli hash delle password, l'autenticazione pass-through e la federazione. Se non si è un amministratore tenant o un amministratore di dominio locale, è necessario contattare l'amministratore IT per ottenere questa configurazione.
 
 L'uso di Azure AD Connect garantisce la corrispondenza tra l'UPN e AAD e Active Directory locale.
 

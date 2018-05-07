@@ -2,14 +2,14 @@
 title: Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI
 description: Informazioni su come eseguire la migrazione dalla raccolta di aree di lavoro di Power BI a Power BI Embedded e sfruttare i miglioramenti per l'incorporamento nelle app.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI Embedded
 Informazioni su come eseguire la migrazione dalla raccolta di aree di lavoro di Power BI a Power BI Embedded e sfruttare i miglioramenti per l'incorporamento nelle app.
@@ -58,8 +58,7 @@ I seguenti account dovranno esistere all'interno del tenant.
 
 > [!NOTE]
 > Le licenze di Power BI Pro sono necessarie per usare le aree di lavoro per le app.
-> 
-> 
+>
 
 1. Un utente amministratore tenant.
    
@@ -71,10 +70,13 @@ I seguenti account dovranno esistere all'interno del tenant.
    
     Il back-end delle applicazioni memorizza le credenziali per l'account e le userà per acquisire un token di Azure AD da usare con le API REST di Power BI. Questo account verrà usato per generare il token di incorporamento per l'applicazione. Questo account deve anche essere un amministratore delle aree di lavoro per le app create per l'incorporamento.
    
-   > [!NOTE]
-   > Si tratta solo di un normale account utente nell'organizzazione che verrà usato a scopo di incorporamento.
-   > 
-   > 
+> [!NOTE]
+> Si tratta solo di un normale account utente nell'organizzazione che verrà usato a scopo di incorporamento.
+>
+
+> [!NOTE]
+> Se l'autenticazione con token App-Only è un requisito dell'applicazione, fare clic [qui](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) per ricevere assistenza.
+>
 
 ## <a name="app-registration-and-permissions"></a>Registrazione e autorizzazioni dell'app
 È necessario registrare un'applicazione in Azure AD e concedere alcune autorizzazioni.
@@ -130,9 +132,9 @@ I set di dati memorizzati nella cache fanno riferimento ai file PBIX che conteng
 2. Chiamare l'API Download PBIX dall'area di lavoro PaaS.
 3. Salvare i file PBIX.
 4. Chiamare Import PBIX nell'area di lavoro SaaS.
-5. Aggiornare la stringa di connessione chiamando - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. Ottenere l'ID GW e dell'origine dei dati chiamando - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
-7. Aggiornare le credenziali dell'utente chiamando - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
+5. Aggiornare la stringa di connessione chiamando POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+6. Ottenere l'ID GW e dell'origine dati chiamando GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+7. Aggiornare le credenziali dell'utente chiamando PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Report e set di dati precedenti
 Si tratta di set di dati o report creati prima di ottobre 2016. Download PBIX non supporta i file PBIX che sono stati caricati prima di ottobre 2016

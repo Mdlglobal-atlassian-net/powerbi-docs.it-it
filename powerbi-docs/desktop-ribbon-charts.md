@@ -2,14 +2,14 @@
 title: Usare grafici a nastri in Power BI
 description: Creare e usare grafici a nastri nel servizio Power BI e in Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3dab818c863f00c97635d00ba07e75eb3c8e5b37
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fb1c85e8c7b4a9c8e92019e4917af16b83ae580c
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
-È possibile usare **grafici a nastri** in **Power BI** per visualizzare i dati e determinare rapidamente la categoria di dati di livello massimo (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. I grafici a nastri sono disponibili in **Power BI Desktop** a partire dalla versione di settembre 2017 e negli aggiornamenti successivi del **servizio Power BI**.
+È possibile usare grafici a nastri in **Power BI** per visualizzare i dati e determinare rapidamente la categoria di dati di livello massimo (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. I grafici a nastri sono disponibili in **Power BI Desktop** a partire dalla versione di settembre 2017 e negli aggiornamenti successivi del **servizio Power BI**.
 
 ![](media/desktop-ribbon-charts/ribbon-charts_01.png)
 
 ## <a name="create-a-ribbon-chart"></a>Creare un grafico a nastri
-Per creare un grafico a nastri, selezionare il **grafico a nastri** nel riquadro **Visualizzazioni**.
+Per creare un grafico a nastri, selezionare **Grafico a nastri** nel riquadro **Visualizzazioni**.
 
 ![](media/desktop-ribbon-charts/ribbon-charts_02.png)
 

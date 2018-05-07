@@ -2,27 +2,27 @@
 title: Visualizzazioni Scheda (riquadri con totale)
 description: Creare una visualizzazione Scheda in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Visualizzazioni Scheda
 A volte l'unico elemento che si vuole visualizzare in un dashboard o in un report di Power BI è un solo numero, ad esempio le vendite totali, la quota di mercato anno per anno o le opportunità totali. Questo tipo di visualizzazione è denominato *Scheda*. Come quasi tutte le visualizzazioni native di Power BI, è possibile creare le Schede con l'editor di report o con Domande e risposte.
@@ -91,6 +91,25 @@ La casella delle domande di Domande e risposte rappresenta il modo più semplice
 - Se la casella delle domande non viene visualizzata, contattare l'amministratore tenant o di sistema.    
 - Se si usa Power BI Desktop e facendo doppio clic su uno spazio vuoto in un report Domande e risposte non si apre, potrebbe essere necessario abilitare questa funzionalità.  Selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima > Domande e risposte** e riavviare Power BI Desktop.
 
+## <a name="format-a-card"></a>Formattare una scheda
+Sono disponibili molte opzioni per la modifica di etichette, testo, colore e altri elementi. Il modo migliore per imparare a usare queste opzioni consiste nel creare una scheda e quindi esplorare il riquadro Formattazione. Di seguito sono descritte alcune delle opzioni di formattazione disponibili. 
+
+1. Iniziare selezionando l'icona del pennello per aprire il riquadro Formattazione. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. Espandere **Etichetta dati** e modificare colore, dimensioni e famiglia di caratteri. Se si dispone di migliaia di archivi, è possibile usare **Unità visualizzate** per visualizzare il numero di archivi nell'ordine delle migliaia e controllare anche le cifre decimali. Ad esempio, 125,8 migliaia anziché 125.832,00.
+
+3.  Espandere **Etichetta categorie** e modificare colore e dimensioni.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. Espandere **Sfondo** e spostare il dispositivo di scorrimento su On.  È ora possibile modificare il colore di sfondo e la trasparenza.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Continuare a esplorare le opzioni di formattazione fino a quando l'aspetto della scheda corrisponde alle proprie esigenze. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Riquadri del dashboard in Power BI](service-dashboard-tiles.md)

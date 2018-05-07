@@ -1,15 +1,15 @@
 ---
-title: Uso dei parametri What if per visualizzare le variabili in Power BI Desktop
-description: Creare una variabile analisi di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
+title: Uso dei parametri Analisi di simulazione per visualizzare le variabili in Power BI Desktop
+description: Creare una variabile Analisi di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5222b6ba99c9e61d1070f66115b90aa29099fd8d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro analisi di simulazione per visualizzare le variabili in Power BI Desktop
-A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile creare variabili di **analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori principali nei report.
+# <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro Analisi di simulazione per visualizzare le variabili in Power BI Desktop
+A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile creare variabili **Analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori principali nei report.
 
 ![](media/desktop-what-if/what-if_01.png)
 
-Il parametro **Analisi di simulazione** è disponibile nella scheda **Creazione di modelli** in **Power BI Desktop**. Verrà visualizzata una finestra di dialogo in cui è possibile configurare il parametro.
+Il parametro **Analisi di simulazione** è disponibile nella scheda **Creazione di modelli** in **Power BI Desktop**. Dopo averlo selezionato, viene visualizzata una finestra di dialogo in cui è possibile configurare il parametro.
 
 ## <a name="creating-a-what-if-parameter"></a>Creazione di un parametro Analisi di simulazione
 Per creare un parametro **Analisi di simulazione**, selezionare il pulsante **Analisi di simulazione** nella scheda **Creazione di modelli** in **Power BI Desktop**. Nell'immagine seguente è stato creato un parametro denominato *Discount percentage* con il tipo di dati impostato su *Numero decimale.* Il valore *Minimo* è zero e il valore *Massimo* è 0,50 (50%). L'*Incremento* è stato impostato su 0,05, ovvero il 5%. Si tratta dei valori in base a cui verrà regolato il parametro quando si interagisce con esso in un report.
@@ -37,7 +37,7 @@ Per creare un parametro **Analisi di simulazione**, selezionare il pulsante **An
 ![](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Per i numeri decimali, assicurarsi di aggiungere nella casella lo zero iniziale come in 0,50 anziché lasciare solo ,50. In caso contrario, il numero non verrà convalidato e il pulsante **OK** non sarà selezionabile.
+> Per i numeri decimali, assicurarsi di aggiungere lo zero iniziale come in 0,50 anziché lasciare solo ,50. In caso contrario, il numero non verrà convalidato e non sarà possibile selezionare il pulsante **OK**.
 > 
 > 
 
@@ -49,7 +49,7 @@ Oltre a creare il parametro stesso, quando si crea un parametro **Analisi di sim
 
 ![](media/desktop-what-if/what-if_04.png)
 
-È importante notare che una volta creato un parametro **Analisi di simulazione**, sia il parametro sia la misura diventano parte del modello. Saranno quindi disponibili in tutto il report e potranno essere usati anche in altre pagine del report. E dal momento che fanno parte del modello, è possibile eliminare il filtro dei dati dalla pagina del report. Se si vuole ripristinarlo in seguito, sarà sufficiente riprendere il parametro **Analisi di simulazione** dall'elenco **Campi** e trascinarlo nell'area di disegno, modificando l'oggetto visivo in filtro dei dati, per rendere di nuovo disponibile il parametro **Analisi di simulazione** nel report.
+È importante notare che una volta creato un parametro **Analisi di simulazione**, sia il parametro sia la misura diventano parte del modello. Saranno quindi disponibili in tutto il report e potranno essere usati anche in altre pagine del report. Inoltre, dal momento che fanno parte del modello, è possibile eliminare il filtro dei dati dalla pagina del report. Se lo si vuole ripristinare in seguito, sarà sufficiente riprendere il parametro **Analisi di simulazione** dall'elenco **Campi** e trascinarlo nel canvas, modificando l'oggetto visivo in filtro dei dati, per rendere di nuovo disponibile il parametro nel report.
 
 ## <a name="using-a-what-if-parameter"></a>Utilizzo di un parametro Analisi di simulazione
 Verrà ora creato un semplice esempio di utilizzo di un parametro **Analisi di simulazione**. Nella sezione precedente è stato creato il parametro **Analisi di simulazione**. Per osservare come funziona verrà creata una nuova misura il cui valore viene regolato con il dispositivo di scorrimento. Per eseguire questa operazione, verrà creata una nuova misura.
@@ -70,5 +70,5 @@ A questo punto, man mano che si sposta il dispositivo di scorrimento, è possibi
 
 ![](media/desktop-what-if/what-if_08.png)
 
-E questo è tutto. È possibile usare i parametri **Analisi di simulazione** in qualsiasi situazione, per permettere agli utenti dei report di interagire con i diversi scenari creati nei report.
+Non sono richieste altre operazioni. È possibile usare i parametri **Analisi di simulazione** in qualsiasi situazione, per permettere agli utenti dei report di interagire con i diversi scenari creati nei report.
 

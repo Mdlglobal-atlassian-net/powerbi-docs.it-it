@@ -2,27 +2,27 @@
 title: Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 description: Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in modo che il dashboard non sia solo di gradevole da vedere, ma anche funzionale. Questo, in generale, significa mettere in risalto le informazioni più importanti in modo pulito e ordinato.
@@ -31,25 +31,28 @@ Ecco alcuni suggerimenti.
 
 > [!TIP]
 > Molti dei principi di progettazione validi per i report si applicano anche ai dashboard.  Leggere il white paper [Procedure consigliate per la progettazione di report e oggetti visivi](power-bi-visualization-best-practices.md).
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Considerare i destinatari
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>Guardare il [webinar sulla trasformazione del dashboard](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+Marc Reguera, Microsoft Principal Program Manager ed esperto di dashboard di Power BI illustra come [trasformare i dashboard](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html).
+
+## <a name="consider-your-audience"></a>Considerare i destinatari
 Quali sono le metriche chiave che agevoleranno il processo decisionale? Come verrà usato il dashboard? Quali presupposti specialistici o culturali possono incidere sulle scelte di progettazione? Di quali informazioni hanno bisogno i destinatari per ottenere buoni risultati?
 
 Tenere presente che il dashboard offre una panoramica, ovvero una posizione unica da cui controllare lo stato corrente dei dati. Il dashboard è basato sui report e sui set di dati sottostanti, i quali possono contenere moltissimi dettagli. I lettori possono esaminare i report dal dashboard. Quindi non è opportuno inserire dettagli nel dashboard, a meno che non si tratti proprio di ciò che i lettori devono monitorare.
 
 Dove verrà visualizzato il dashboard? Se verrà visualizzato su un monitor di grandi dimensioni, è possibile inserirvi più contenuti. Se invece verrà visualizzato su un tablet, è preferibile usare meno riquadri per migliorare la leggibilità.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Creare una storia e racchiuderla in una schermata
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Creare una storia e racchiuderla in una schermata
 Dato che lo scopo dei dashboard è quello di presentare informazioni importanti a colpo d'occhio, è preferibile che tutti i riquadri si trovino in una sola schermata. Si possono evitare le barre di scorrimento nel dashboard?
 
 Il dashboard è troppo disordinato?  Rimuovere tutto ciò che non rappresenta informazioni essenziali facili da leggere e interpretare.
 
-### <a name="make-use-of-full-screen-mode"></a>Uso della modalità a schermo intero
+## <a name="make-use-of-full-screen-mode"></a>Uso della modalità a schermo intero
 Visualizzare il dashboard a [schermo intero](service-fullscreen-mode.md) senza distrazioni.
 
-### <a name="make-the-most-important-information-biggest"></a>Fare in modo che le informazioni più importanti siano più grandi
+## <a name="make-the-most-important-information-biggest"></a>Fare in modo che le informazioni più importanti siano più grandi
 Se il testo e le visualizzazioni nel dashboard hanno tutti la stessa dimensione, sarà difficile per il lettore distinguere cosa è più importante. Ad esempio, le visualizzazioni a scheda sono un ottimo modo per mettere in evidenza un numero importante:  
 ![Visualizzazione scheda](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ Fornire contesto.
 
 Leggere l'argomento relativo alla [creazione di un riquadro con solo un numero](power-bi-visualization-card.md).
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>Posizionare in alto le informazioni più importanti
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>Posizionare in alto le informazioni più importanti
 La maggior parte delle persone legge dall'alto verso il basso, quindi posizionare il livello di massimo dettaglio in alto e aggiungere dettagli procedendo nella direzione seguita dai destinatari per la lettura (da sinistra a destra o da destra a sinistra).
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usare la visualizzazione corretta per i dati e formattarla per facilitare la lettura
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usare la visualizzazione corretta per i dati e formattarla per facilitare la lettura
 Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visualizzazioni devono essere rappresentative e facili da "leggere" e interpretare.  Per alcuni dati e alcune visualizzazioni, è sufficiente una semplice visualizzazione grafica. Altri dati, invece, possono richiedere una visualizzazione più complessa. Usare titoli ed etichette e altre personalizzazioni per agevolare il lettore.  
 
 * [Scegliere le visualizzazioni appropriate ai dati](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Prestare attenzione ai grafici che distorcono la realtà, ad esempio i grafici 3D. Tenere presente che il cervello umano fa fatica a interpretare le forme circolari. I grafici a torta, i grafici ad anello e altri tipi di grafico circolare possono avere un aspetto gradevole ma non sono ottimali per la visualizzazione dei dati.
@@ -84,7 +87,6 @@ Per progettare dashboard di altissimo livello, è utile apprendere i principi ba
 * *Advanced Presentations by Design* di Andrew Abela   
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Dashboard in Power BI](service-dashboards.md)  
+[Creare un dashboard da un report](service-dashboard-create.md)  
 [Power BI - Concetti di base](service-basic-concepts.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

@@ -1,28 +1,28 @@
 ---
 title: 'Power BI Premium: di cosa si tratta?'
-description: "Power BI Premium offre una capacità dedicata all'organizzazione o al team, con prestazioni più affidabili e volumi di dati superiori, senza richiedere l'acquisto di licenze per ogni utente."
+description: Power BI Premium offre una capacità dedicata all'organizzazione o al team, con prestazioni più affidabili e volumi di dati superiori, senza richiedere l'acquisto di licenze per ogni utente.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 11cfdfdfbc4b918d00633b78ec0bdafabfe99cd6
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 617e56fd688016c8ee17184f726fb018a0128e05
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium: di cosa si tratta?
 Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze per utente per i visualizzatori.
@@ -66,24 +66,26 @@ Per impostazione predefinita, l'area di lavoro avrà la capacità condivisa. Ci�
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Nodi della capacità Premium
-Power BI Premium è disponibile nelle configurazioni del nodo con diverse capacità v-core. Per altre informazioni sulle offerte e i prezzi delle SKU specifiche, vedere [Prezzi di Power BI](https://powerbi.microsoft.com/pricing/). È disponibile un [calcolatore dei costi](https://powerbi.microsoft.com/calculator/). Per informazioni sulla pianificazione della capacità analitica incorporata, vedere [Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy) (White paper sulla pianificazione della distribuzione aziendali di Power BI)
+Power BI Premium è disponibile nelle configurazioni del nodo con diverse capacità vCore. Per altre informazioni sulle offerte e i prezzi delle SKU specifiche, vedere [Prezzi di Power BI](https://powerbi.microsoft.com/pricing/). È disponibile un [calcolatore dei costi](https://powerbi.microsoft.com/calculator/). Per informazioni sulla pianificazione della capacità analitica incorporata, vedere [Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy) (White paper sulla pianificazione della distribuzione aziendali di Power BI)
 
 * I nodi P possono essere usati per le distribuzioni di servizi o incorporate
 * I nodi EM possono essere usati solo per le distribuzioni incorporate
 * EM1 ed EM2 
-* I collegamenti disponibili in questa tabella funzionano correttamente solo per gli utenti che sono amministratori globali di Office 365. Gli altri utenti ricevono un errore di tipo 404. 
 
-| Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta | Disponibilità |
+>[!NOTE]
+>I collegamenti disponibili in questa tabella funzionano correttamente solo per gli utenti che sono amministratori globali di Office 365. Gli altri utenti ricevono un errore di tipo 404. 
+
+| Nodo della capacità | Totale vCore<br/>*(Back-end + front-end)* | vCore back-end | vCore front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta | Disponibilità |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0,5 core, 2,5GB di RAM |0,5 core |3,75 al secondo |150-300 |Disponibile |
-| [EM2 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-core |1 core, 5 GB di RAM |1 core |7,5 al secondo |301-600 |Disponibile |
-| [EM3 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-core |2 core, 10 GB di RAM |2 core | |601-1.200 |Disponibile |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-core |4 core, 25 GB di RAM |4 core |30 al secondo |1.201-2.400 |Disponibile (è disponibile anche l'opzione [mensile](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-core |8 core, 50 GB di RAM |8 core |60 al secondo |2.401-4.800 |Disponibile |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-core |16 core, 100 GB di RAM |16 ore |120 al secondo |4.801-9600 |Disponibile |
+| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0,5 vCore, 2,5 GB di RAM |0,5 vCore |3,75 al secondo |150-300 |Disponibile |
+| [EM2 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 vCore |1 vCore, 5 GB di RAM |1 vCore |7,5 al secondo |301-600 |Disponibile |
+| [EM3 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 vCore |2 vCore, 10 GB di RAM |2 vCore | |601-1.200 |Disponibile |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 vCore |4 vCore, 25 GB di RAM |4 vCore |30 al secondo |1.201-2.400 |Disponibile (è disponibile anche l'opzione [mensile](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 vCore |8 vCore, 50 GB di RAM |8 vCore |60 al secondo |2.401-4.800 |Disponibile |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 vCore |16 vCore, 100 GB di RAM |16 v-core |120 al secondo |4.801-9600 |Disponibile |
 
-* I core di front-end sono responsabili della gestione dei documenti relativi al servizio Web, dashboard e report, della gestione dei diritti di accesso, della pianificazione, delle API, dei caricamenti e dei download e in genere di tutto ciò che riguarda l'esperienza utente.
-* I core di back-end sono responsabili di un grande aumento: elaborazione delle query, gestione della cache, esecuzione dei server R, aggiornamento dei dati, elaborazione del linguaggio naturale, feed in tempo reale e rendering lato server di report e immagini. Con i core di back-end, viene riservata anche una certa quantità di memoria. Le disponibilità di uno spazio in memoria sufficiente è particolarmente importante quando si usano modelli di dati di grandi dimensioni o un numero elevato di set di dati attivi.
+* I vCore di front-end sono responsabili della gestione dei documenti relativi a servizio Web, dashboard e report, della gestione dei diritti di accesso, della pianificazione, delle API, dei caricamenti e dei download e in genere di tutto ciò che riguarda l'esperienza utente.
+* I vCore di back-end sono responsabili del lavoro più oneroso: elaborazione delle query, gestione della cache, esecuzione dei server R, aggiornamento dei dati, elaborazione del linguaggio naturale, feed in tempo reale e rendering lato server di report e immagini. Con i vCore di back-end viene riservata anche una certa quantità di memoria. Le disponibilità di uno spazio in memoria sufficiente è particolarmente importante quando si usano modelli di dati di grandi dimensioni o un numero elevato di set di dati attivi.
 
 ## <a name="power-bi-report-server"></a>Server di report Power BI
 Power BI Premium include il diritto di esecuzione del server di report di Power BI in locale. Per altre informazioni vedere [Introduzione al server di report di Power BI](report-server/get-started.md).

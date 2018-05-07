@@ -2,31 +2,31 @@
 title: Caselle di testo e forme nei report di Power BI
 description: Documentazione sull'aggiunta e la creazione di caselle di testo e forme in un report con il servizio Microsoft Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Caselle di testo nei report di Power BI
-È possibile aggiungere caselle di testo e forme ai report tramite il servizio Power BI e Power BI Desktop. In entrambi i casi, è necessario disporre di autorizzazioni di modifica per il report. Per i report condivisi da altri utenti non sarà possibile accedere alla visualizzazione di modifica. 
+È possibile aggiungere caselle di testo e forme ai report tramite il servizio Power BI e Power BI Desktop. In entrambi i casi, è necessario disporre di autorizzazioni di modifica per il report. Se un report è stato condiviso nel servizio Power BI, non si dispone delle autorizzazioni di modifica. 
 
 Guardare questo video che illustra come usare Power BI Desktop per [aggiungere immagini statiche a un report](guided-learning/visualizations.yml#step-11), quindi seguire la procedura seguente per provare usando invece il servizio Power BI.
 > 
@@ -36,7 +36,7 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 ## <a name="add-a-text-box-to-a-report"></a>Aggiungere una casella di testo a un report
 1. Aprire un report in Visualizzazione di modifica.
 
-2. Posizionare il cursore in qualsiasi area vuota dell'area di disegno report e selezionare **Casella di testo**.
+2. Posizionare il cursore in qualsiasi area vuota del canvas del report e selezionare **Casella di testo**.
    
    ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
 2. Digitare il testo nella casella di testo e, facoltativamente, formattare il carattere, il colore e l'allineamento del testo. 
@@ -50,15 +50,15 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
 
-5. Per chiudere la casella di testo, selezionare uno spazio vuoto nell'area di disegno del report. 
+5. Per chiudere la casella di testo, selezionare uno spazio vuoto nel canvas del report. 
 
 5. Selezionare l'icona della puntina ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) per aggiungere la casella di testo a un dashboard. 
 
 ## <a name="add-a-shape-to-a-report"></a>Aggiungere una forma a un report
-1. Posizionare il cursore in un punto qualsiasi dell'area di disegno report e selezionare **Forme**.
+1. Posizionare il cursore in un punto qualsiasi del canvas del report e selezionare **Forme**.
    
    ![](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
-2. Nell'elenco a discesa, selezionare una forma per aggiungerla all'area di disegno report. Verrà ora aggiunta una freccia per dirigere l'attenzione al fumetto con la varianza di vendita totale più alta. 
+2. Nell'elenco a discesa, selezionare una forma per aggiungerla al canvas del report. Verrà ora aggiunta una freccia per dirigere l'attenzione al fumetto con la varianza di vendita totale più alta. 
    
    Nel riquadro **Formato forma** personalizzare la forma. In questo esempio è stata creata una freccia rossa con un bordo rosso scuro, ruotata di 90 gradi.
    

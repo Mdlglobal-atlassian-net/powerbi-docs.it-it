@@ -1,15 +1,15 @@
 ---
 title: Vedere dati e record negli oggetti visivi Power BI Desktop
-description: "Usare le funzionalità Visualizza dati e Visualizza record di Power BI Desktop per esaminare i dettagli"
+description: Usare le funzionalità Visualizza dati e Visualizza record di Power BI Desktop per esaminare i dettagli
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Usare Visualizza dati e Visualizza record in Power BI Desktop
-In **Power BI Desktop** è possibile esaminare i dettagli di qualsiasi oggetto visivo e visualizzare una rappresentazione testuale dei dati o dei singoli elementi di dati per un oggetto visivo selezionato. Queste funzionalità vengono talvolta definite come *click-through* o *drill-through* o *drill-through dei dettagli*.
+In **Power BI Desktop** è possibile esaminare i dettagli di una visualizzazione e visualizzare rappresentazioni testuali dei dati sottostanti o dei singoli record di dati per un oggetto visivo selezionato. Queste funzionalità vengono talvolta definite *click-through*, *drill-through* o *drill-through dei dettagli*.
 
-È possibile usare **Visualizza record** per visualizzare le righe sottostanti per un elemento dati selezionato da un oggetto visivo o usare **Visualizza dati** per visualizzare una versione testuale dei valori usati nell'oggetto visivo. Esistono alcune limitazioni all'uso di **Visualizza dati** e **Visualizza record**, che sono descritte alla fine di questo articolo.
+È possibile usare **Visualizza dati** per visualizzare una versione testuale dei valori usati dalla visualizzazione selezionata o **Visualizza record** per visualizzare tutti i dati di un record o un punto dati selezionato. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![Visualizza dati e Visualizza record](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Uso di Visualizza dati in Power BI Desktop
-Il pulsante **Visualizza dati** si trova nella scheda **Dati/Drill** nella sezione **Strumenti visivi** della barra multifunzione.
+>[!IMPORTANT]
+>**Visualizza dati** e **Visualizza record** supportano solo i tipi di visualizzazione seguenti:
+>  - Grafico a barre
+>  - Istogramma
+>  - Grafico ad anello
+>  - Mappa colorata
+>  - Grafico a imbuto
+>  - Mappa
+>  - Grafico a torta
+>  - Mappa ad albero
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Usare Visualizza dati in Power BI Desktop
 
-È anche possibile scegliere **Visualizza dati** facendo clic su un oggetto visivo, quindi selezionando **Visualizza dati** dal menu visualizzato.
+**Visualizza dati** mostra i dati sottostanti una visualizzazione. Il pulsante **Visualizza dati** viene mostrato nella scheda **Dati/Drill** nella sezione **Strumenti visivi** della barra multifunzione quando viene selezionata una visualizzazione.
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![Visualizza dati nella barra multifunzione](media/desktop-see-data-see-records/see-data1.png)
+
+È possibile visualizzare i dati anche facendo clic con il pulsante destro del mouse su una visualizzazione e selezionando **Mostra dati** nel menu visualizzato oppure selezionando i puntini di sospensione (...) **Altre opzioni** nell'angolo superiore destro di una visualizzazione e quindi **Mostra dati**.
+
+![Mostra dati con il pulsante destro del mouse](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Mostra dati con Altre opzioni](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
 > Per rendere disponibile il menu di scelta rapida, posizionare il mouse su un punto dati nell'oggetto visivo.
-> 
-> 
 
-Quando si seleziona **Visualizza dati**, **Power BI Desktop** si concentra sull'oggetto visivo e sui dati selezionati e dedica lo spazio dell'area di disegno alla visualizzazione dell'oggetto visivo e della rappresentazione testuale dei dati. L'oggetto visivo è visualizzato nella metà superiore dell'area di disegno e i dati vengono visualizzati nella metà inferiore, come illustrato nella figura seguente. Si tratta della visualizzazione *orizzontale*.
+Quando si seleziona **Visualizza dati** o **Mostra dati**, nel canvas di Power BI Desktop vengono visualizzate le rappresentazioni testuali e visive dei dati. Nella *visualizzazione orizzontale* l'oggetto visivo viene visualizzato nella metà superiore del canvas e i dati in quella inferiore. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
+![Visualizzazione orizzontale](media/desktop-see-data-see-records/see-data4a.png)
 
-È anche possibile passare a una *visualizzazione verticale* (o tornare alla *visualizzazione orizzontale*), selezionando l'icona nell'angolo in alto a destra.
+È possibile passare dalla visualizzazione orizzontale alla *visualizzazione verticale* selezionando l'icona nell'angolo in alto a destra del canvas.
 
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
+![Attiva/disattiva Visualizzazione verticale](media/desktop-see-data-see-records/see-data4.png)
 
-Per tornare al report, selezionare **< Torna al report** nell'angolo in alto a sinistra dell'area di disegno.
+Per tornare al report, selezionare **< Torna al report** nell'angolo in alto a sinistra del canvas.
 
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
+![Torna al report](media/desktop-see-data-see-records/see-data5.png)
 
-## <a name="using-see-records-in-power-bi-desktop"></a>Uso di Visualizza record in Power BI Desktop
-È anche possibile concentrarsi su un solo elemento dati in un oggetto visivo e analizzare i dati sottostanti. Dopo aver selezionato un oggetto visivo esistono due modi per usare **Visualizza record**; è possibile abilitare il commutatore **Visualizza record** nella barra multifunzione **Dati/Drill** e quindi fare clic su un elemento dati oppure è possibile fare clic con il pulsante destro del mouse su un elemento dati e selezionare **Visualizza record** dal menu visualizzato.
+## <a name="use-see-records-in-power-bi-desktop"></a>Usare Visualizza record in Power BI Desktop
 
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+È anche possibile concentrarsi su un solo record di dati in una visualizzazione e analizzare i dati sottostanti. Per usare **Visualizza record**, selezionare una visualizzazione, quindi **Visualizza record** nella scheda **Dati/Drill** nella sezione **Strumenti visivi** della barra multifunzione e infine selezionare un punto dati o una riga nella visualizzazione. 
 
-> [!NOTE]
-> Se l'oggetto visivo selezionato non supporta **Visualizza record** il pulsante della barra multifunzione è inattivo.
-> 
-> 
-
-Dopo aver selezionato **Visualizza record**, **Power BI Desktop** si concentra sul singolo elemento dati e dedica l'area di disegno alla visualizzazione dei dati per questo elemento, come illustrato nella figura seguente.
-
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![Visualizza record nella barra multifunzione](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> Non è possibile salvare le modifiche dai dati visualizzati (o modificati dagli utenti) in **Visualizza record** a un report.
+> Se il pulsante **Visualizza record** nella barra multifunzione è disabilitato e inattivo, significa che la visualizzazione selezionata non supporta **Visualizza record**.
 
-Per tornare al report, selezionare il pulsante **Torna al report** nell'angolo in alto a sinistra dell'area di disegno.
+È anche possibile fare clic con il pulsante destro del mouse su un elemento dati e selezionare **Visualizza record** nel menu visualizzato.
 
-## <a name="limitations"></a>Limitazioni
-Esistono alcune limitazioni da considerare quando si usa **Visualizza dati** o **Visualizza record**:
+![Visualizza record facendo clic con il pulsante destro del mouse](media/desktop-see-data-see-records/see-record2.png)
 
-* Sono supportati solo i tipi di oggetto visivo seguenti:
-  * **Grafico a barre**
-  * **Colonna**
-  * **Mappa**
-  * **Mappa ad albero**
-  * **Mappa colorata**
-  * **Grafico a torta**
-  * **Grafico ad anello**
-  * **Grafico a imbuto**
-* Non è possibile usare **Visualizza record** quando l'oggetto visivo usa una misura calcolata
-* Non è possibile usare **Visualizza record** quando si è connessi a un modello multidimensionale (MD) live
+Quando si seleziona **Visualizza record** per un elemento dati, nel canvas di Power BI Desktop vengono visualizzati tutti i dati associati all'elemento selezionato. 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+Per tornare al report, selezionare **< Torna al report** nell'angolo in alto a sinistra del canvas.
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>**Visualizza record** presenta le limitazioni seguenti:
+> - Non è possibile modificare i dati nella vista **Visualizza record** e salvarli nel report.
+> - Non è possibile usare **Visualizza record** quando l'oggetto visivo usa una misura calcolata.
+> - Non è possibile usare **Visualizza record** quando si è connessi a un modello multidimensionale (MD) dinamico.
 
 ## <a name="next-steps"></a>Passaggi successivi
 In **Power BI Desktop** esistono moltissime funzionalità di gestione dati e formattazione dei report. Dare un'occhiata alle risorse seguenti per alcuni esempi:

@@ -1,35 +1,39 @@
 ---
-title: "Visualizzare dashboard, riquadri del dashboard, pagine di report e visualizzazioni dei report in modalità schermo intero"
-description: "Visualizzare dashboard, riquadri del dashboard, oggetti visivi dei report e pagine di report in modalità schermo intero, definita anche *modalità TV*."
+title: Visualizzare dashboard, riquadri, pagine di report e visualizzazioni in modalità schermo intero
+description: Visualizzare dashboard, riquadri del dashboard, oggetti visivi dei report e pagine di report in modalità schermo intero, definita anche *modalità TV*.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Modalità schermo intero in Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>Modalità schermo intero nel servizio Power BI
 ## <a name="what-is-full-screen-mode"></a>Che cos'è la modalità schermo intero?
 ![Modalità schermo intero del dasboard - prima e dopo](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-È possibile visualizzare i contenuti (dashboard, pagine di report riquadri e visualizzazioni) senza la distrazione di menu e barre di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV. Le funzionalità disponibili in modalità schermo intero dipendono dal contenuto.  
+È possibile visualizzare i contenuti di Power BI (dashboard, pagine di report, riquadri e visualizzazioni) senza la distrazione di menu e barre di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV. Le funzionalità disponibili in modalità schermo intero dipendono dal contenuto. 
+
+Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](mobile-windows-10-app-presentation-mode.md). Power BI Desktop non prevede una modalità schermo intero per i report o le visualizzazioni, ma include la funzionalità Adatta alla pagina per la [visualizzazione delle relazioni](desktop-report-view.md) e la [modalità messa a fuoco per gli oggetti visivi dei report](service-focus-mode.md).
+
+ 
 
 Alcuni usi della modalità schermo intero sono:
 
@@ -47,7 +51,7 @@ Il video seguente illustra come aprire ed esplorare il dashboard in modalità sc
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>Visualizzare dashboard e pagine di report in modalità schermo intero
-1. Dalla barra dei menu di Power BI nella parte superiore del dashboard o del report selezionare l'icona **Schermo intero** ![icona schermo intero ](media/service-fullscreen-mode/power-bi-full-screen-icon.png). L'area di disegno del dashboard o la pagina del report si espande fino a riempire l'intera schermata. L'esempio seguente è relativo a un dashboard.
+1. Dalla barra dei menu di Power BI nella parte superiore del dashboard o del report selezionare l'icona **Schermo intero** ![icona schermo intero ](media/service-fullscreen-mode/power-bi-full-screen-icon.png). Il canvas del dashboard o la pagina del report si espande fino a riempire l'intera schermata. L'esempio seguente è relativo a un dashboard.
    
       ![Dashboard visualizzato a schermo intero](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. Nella modalità Schermo intero sono disponibili diverse opzioni di menu.  Per visualizzare il menu, è sufficiente spostare il mouse o il cursore. 
