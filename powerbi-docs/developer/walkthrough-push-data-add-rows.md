@@ -2,14 +2,14 @@
 title: Aggiungere righe a una tabella
 description: Procedura dettagliata per il push dei dati - Aggiungere righe a una tabella di Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

@@ -2,37 +2,37 @@
 title: Usare le linee della griglia e il blocco alla griglia nei report di Power BI Desktop
 description: Usare le linee della griglia, il blocco alla griglia, l'ordine Z, l'allineamento e la distribuzione nei report di Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1b6b1a3ecda7d3f827975da8fcfec5d9d5b67023
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Usare le linee della griglia e il blocco alla griglia nei report di Power BI Desktop
-L'area di disegno dei report **Power BI Desktop** offre linee della griglia che consentono di allineare accuratamente gli oggetti visivi in una pagina del report e fornisce anche funzionalità per bloccare alla griglia tali oggetti dei report per un aspetto pulito, allineato e distribuito in modo uniforme.
+L'area di disegno dei report **Power BI Desktop** offre linee della griglia che consentono di allineare accuratamente gli oggetti visivi in una pagina del report e di usare funzionalità per bloccare alla griglia tali oggetti del report per un aspetto pulito, allineato e distribuito in modo uniforme.
 
-In **Power BI Desktop** è anche possibile modificare l'ordine Z (portare avanti o indietro) degli oggetti in un report, nonché allineare o distribuire uniformemente gli oggetti visivi selezionati nell'area di disegno.
+In **Power BI Desktop** è anche possibile modificare l'ordine Z (portare avanti o indietro) degli oggetti in un report e allineare o distribuire uniformemente gli oggetti visivi selezionati nell'area di disegno.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
 ### <a name="enabling-gridlines-and-snap-to-grid"></a>Abilitazione delle linee guida della griglia e del blocco alla griglia
-Per abilitare le linee della griglia, selezionare la barra multifunzione **Visualizzazione**, quindi selezionare le caselle di controllo **Mostra griglia** e **Blocca sulla griglia**. È possibile selezionare una o entrambe le caselle poiché funzionano in modo indipendente.
+Per abilitare le linee della griglia, selezionare la barra multifunzione **Visualizzazione**, quindi selezionare le caselle di controllo **Mostra griglia** e **Blocca sulla griglia**. È possibile selezionare una o entrambe le opzioni perché funzionano in modo indipendente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
@@ -42,21 +42,21 @@ Per abilitare le linee della griglia, selezionare la barra multifunzione **Visua
 > 
 
 ### <a name="using-gridlines"></a>Uso delle linee delle griglie
-Le linee della griglia sono guide visive che consentono di controllare se due o più oggetti visivi sono allineati correttamente. Per stabilire se due o più oggetti visivi sono allineati orizzontalmente o verticalmente, usare le linee della griglia per determinare visivamente se allineare i bordi.
+Le linee della griglia sono guide visibili che consentono di allineare gli oggetti visivi. Per stabilire se due o più oggetti visivi sono allineati orizzontalmente o verticalmente, usare le linee della griglia per determinare se i bordi sono allineati.
 
-È possibile usare *CTRL + clic* per selezionare più di un oggetto visivo contemporaneamente e visualizzare i bordi di tutti gli oggetti visivi selezionati, al fine di vedere se gli elementi visivi sono allineati correttamente.
+Usare CTRL + clic per selezionare più di un oggetto visivo contemporaneamente e visualizzare i bordi di tutti gli oggetti visivi selezionati e vedere se gli elementi visivi sono allineati correttamente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
 #### <a name="using-gridlines-inside-visuals"></a>Uso delle linee della griglia negli oggetti visivi
-In Power BI sono anche disponibili linee della griglia negli oggetti visivi, per una guida visiva utile nel confronto di valori e punti dati. A partire dalla versione di settembre 2017 di **Power BI Desktop**, è possibile gestire le linee della griglia negli oggetti visivi usando la scheda **Asse X** o **Asse Y** (in base al tipo di oggetto visivo) nella sezione **Formato** del riquadro **Visualizzazioni**. È possibile gestire gli elementi seguenti delle linee della griglia in un oggetto visivo:
+In Power BI sono anche disponibili linee della griglia negli oggetti visivi, per una guida visibile, utile nel confronto di valori e punti dati. A partire dalla versione di settembre 2017 di **Power BI Desktop**, è possibile gestire le linee della griglia negli oggetti visivi usando la scheda **Asse X** o **Asse Y** (in base al tipo di oggetto visivo) nella sezione **Formato** del riquadro **Visualizzazioni**. È possibile gestire gli elementi seguenti delle linee della griglia in un oggetto visivo:
 
 * Attivare o disattivare le linee della griglia
 * Modificare il colore delle linee della griglia
 * Modificare la larghezza delle linee della griglia
 * Selezionare lo stile delle linee della griglia nell'oggetto visivo, ad esempio continuo, tratteggiato o punteggiato
 
-Modificare alcuni elementi delle linee della griglia può risultare particolarmente utile nei report in cui vengono usati sfondi scuri per gli oggetti visivi. L'immagine seguente mostra la sezione *Linee della griglia* nella scheda **Asse X**.
+Modificare alcuni elementi delle linee della griglia può risultare particolarmente utile nei report in cui vengono usati sfondi scuri per gli oggetti visivi. L'immagine seguente mostra la sezione **Linee della griglia** nella scheda **Asse Y**.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
@@ -68,19 +68,19 @@ Quando si abilita **Blocca sulla griglia**, tutti gli oggetti visivi nell'area d
 Non è necessaria nessuna altra azione per usare la **griglia** e il **blocco alla griglia** ai fini dell'allineamento corretto degli oggetti visivi nei report.
 
 ### <a name="using-z-order-align-and-distribute"></a>Uso di ordine Z, allineamento e distribuzione
-È anche possibile gestire l'ordine dalla parte anteriore a quella posteriore degli oggetti visivi in un report, noto anche come *ordine Z* degli elementi. In questo modo è possibile sovrapporre gli oggetti visivi in qualsiasi modo desiderato, quindi modificare l'ordine dalla parte anteriore a quella posteriore di ogni oggetto visivo. Questo ordinamento viene eseguito usando i pulsanti **Porta avanti** e **Porta indietro** nella sezione **Disponi** della barra multifunzione **Formato**, che viene visualizzata non appena si selezionano uno o più oggetti visivi nella pagina (e non è disponibile se non viene selezionato alcun oggetto visivo).
+È possibile gestire l'ordine dalla parte anteriore a quella posteriore degli oggetti visivi in un report, noto anche come *ordine Z* degli elementi. Questa funzionalità consente di sovrapporre gli oggetti visivi in qualsiasi modo desiderato, quindi modificare l'ordine dalla parte anteriore a quella posteriore di ognuno. Per impostare l'ordine degli oggetti visivi, si usano i pulsanti **Porta avanti** e **Porta indietro**, disponibili nella sezione **Disponi** della barra multifunzione **Formato**. La barra multifunzione **Formato** viene visualizzata non appena si seleziona uno o più oggetti visivi nella pagina.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
 
-La barra multifunzione **Formato** consente anche di allineare gli oggetti visivi in molti modi diversi. Ciò consente di verificare che gli oggetti visivi siano allineati nel modo che si ritiene più funzionale.
+La barra multifunzione **Formato** consente di allineare gli oggetti visivi in più modi, assicurando che vengano visualizzati nella pagina nel modo più funzionale.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_5.png)
 
-Quando viene selezionato un oggetto visivo, il pulsante **Allinea** consente di allineare tale oggetto visivo al bordo (o al centro) dell'area di disegno del report, come illustrato nella figura seguente.
+Il pulsante **Allinea** consente di allineare un oggetto visivo selezionato al bordo (o al centro) dell'area di disegno del report, come illustrato nella figura seguente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_6.png)
 
-Quando si selezionano due o più oggetti visivi, questi vengono allineati tra loro usando il limite di allineamento esistente. Ad esempio, con due oggetti visivi selezionati e il pulsante *Allinea a sinistra* selezionato, gli oggetti visivi verranno allineati al limite più a sinistra di tutti gli oggetti visivi selezionati.
+Quando si selezionano due o più oggetti visivi, questi vengono allineati tra loro usando il limite dell'allineamento esistente. Ad esempio, se si selezionano due oggetti visivi e si sceglie l'opzione **Allinea a sinistra**, gli oggetti visivi vengono allineati al limite più a sinistra di tutti gli oggetti visivi selezionati.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 

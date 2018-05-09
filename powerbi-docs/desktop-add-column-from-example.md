@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Aggiungere una colonna da un esempio in Power BI Desktop
-A partire dalla versione di aprile 2017 di **Power BI Desktop**, è possibile aggiungere nuove colonne di dati al modello usando l'**Editor di query** e fornendo semplicemente uno o più valori di esempio per la nuova colonna. È possibile creare un nuovo esempio di colonna da una selezione corrente oppure fornendo input basati su tutte le colonne (o solo su alcune di esse) in una determinata tabella.
+A partire dalla versione di aprile 2017 di **Power BI Desktop**, è possibile aggiungere nuove colonne di dati al modello usando l'**Editor di query** e fornendo semplicemente uno o più valori di esempio per la nuova colonna. È possibile creare un nuovo esempio di colonna da una selezione corrente oppure fornire input basati su tutte le colonne (o solo su alcune di esse) in una determinata tabella.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
@@ -42,7 +42,7 @@ Per creare una nuova colonna da un esempio, avviare l'**Editor di query**. A tal
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-In questo articolo, verranno usati i dati dall'articolo di Wikipedia seguente (è un collegamento, quindi è possibile fare clic su di esso per ottenere i dati e seguire la procedura):
+Per ottenere dati da una pagina Web, andare alla scheda **Home**, fare clic su **Recupera dati > Web**, quindi incollare l'URL nella finestra di dialogo visualizzata. Questo articolo usa i dati di un articolo di Wikipedia. È possibile fare clic sul collegamento seguente per recuperare i dati e proseguire:
 
 * [**Elenco di stati e territori degli Stati Uniti**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -51,24 +51,24 @@ Dopo aver avviato l'**Editor di query** e aver caricato alcuni dati, sarà possi
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>Riquadro Aggiungi colonna da esempi
-Dopo aver effettuato una selezione per aggiungere una nuova colonna da esempi, viene visualizzato un nuovo riquadro che mostra le colonne nella tabella corrente (potrebbe essere necessario scorrere per visualizzarle tutte). La nuova **Colonna1** viene visualizzata anche a destra, cioè la colonna che **Power BI Desktop** creerà in base agli esempi dell'utente. Sotto la nuova intestazione **Colonna1** ci sono celle vuote, in cui è possibile digitare i propri esempi, che Power BI usa per creare regole e trasformazioni corrispondenti all'esempio.
+Dopo aver effettuato una selezione per aggiungere una nuova colonna da esempi, viene visualizzato un nuovo riquadro che mostra le colonne nella tabella corrente (potrebbe essere necessario scorrere per visualizzarle tutte). La nuova **Colonna1**, ovvero la colonna che **Power BI Desktop** crea in base agli esempi dell'utente, viene visualizzata anche a destra. Sotto la nuova intestazione **Colonna1** sono presenti celle vuote, in cui è possibile digitare i propri esempi, che Power BI usa per creare regole e trasformazioni corrispondenti all'esempio.
 
-Si noti anche che si tratta di un **Passaggio applicato** nel riquadro **Impostazioni query**. Come sempre, l'**Editor di query** registrerà i passaggi della trasformazione e li applicherà alla query, in quest'ordine.
+Si noti che si tratta di un **passaggio applicato** nel riquadro **Impostazioni query**. Come sempre, l'**Editor di query** registrerà i passaggi della trasformazione e li applicherà alla query, in quest'ordine.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
 Questo è il riquadro **Aggiungi colonne da esempi** e consiste in quattro aree principali:
 
-1. La **Barra dei comandi**, che include una breve descrizione della funzionalità o della trasformazione.
+1. La **barra dei comandi**, che include una breve descrizione della funzionalità o della trasformazione.
 2. L'opzione **Invia commenti e suggerimenti**, per aiutare Power BI a migliorare questa funzionalità.
-3. I pulsanti **OK** e **Annulla**, che consentono di salvare le trasformazioni e aggiungere la colonna o annullare.
+3. I pulsanti **OK** e **Annulla**, che consentono di salvare le trasformazioni e aggiungere la colonna o annullare l'operazione.
 4. L'area della nuova colonna, in cui è possibile digitare i valori di esempio in qualsiasi riga (per fornire a Power BI il proprio esempio) in relazione alle altre colonne nella stessa riga.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-Mentre si digita il proprio esempio nella nuova colonna, Power BI offre un'anteprima dell'aspetto della colonna che si sta creando, in base alle trasformazioni che rileva. Ad esempio, si è digitato *Alabama* nella prima riga corrispondente al valore *Alabama* nella prima colonna della tabella: non appena si preme *INVIO*, Power BI compila la colonna in base a tale valore.
+Mentre si digita il proprio esempio nella nuova colonna, Power BI offre un'anteprima dell'aspetto della colonna che si sta creando, in base alle trasformazioni che rileva. Se ad esempio si digita *Alabama* nella prima riga, questo corrisponde al valore *Alabama* nella prima colonna della tabella: non appena si preme *INVIO*, Power BI compila la colonna in base a tale valore.
 
-Quindi, però, si è passati alla riga che includeva *Massachusetts [E]* ed è stata eliminata l'ultima parte *[E]* (perché indesiderata); Power BI ha rilevato la modifica e usato l'esempio per creare una trasformazione. Si noti la spiegazione della trasformazione nel riquadro centrale superiore.
+Si supponga ora di andare alla riga che include *Massachusetts[E]* e di eliminare l'ultima parte, *[E]*, perché non è più necessaria. Power BI rileva la modifica e usa l'esempio per creare una trasformazione. Si noti la spiegazione della trasformazione nel riquadro centrale superiore.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
@@ -80,7 +80,7 @@ Per vedere questa funzionalità in azione, guardare il video seguente, che ne mo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
-Sono disponibili molte trasformazioni quando si usa il riquadro **Aggiungi colonna da esempi**, ma non tutte le trasformazioni sono incluse. Di seguito sono elencate tutte le trasformazioni che *sono* supportate.
+Sono disponibili molte trasformazioni quando si usa il riquadro **Aggiungi colonna da esempi**, ma non tutte le trasformazioni sono incluse. Di seguito sono elencate tutte le trasformazioni supportate.
 
 * **Riferimento**
   

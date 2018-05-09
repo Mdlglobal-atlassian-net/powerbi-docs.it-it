@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/20/2018
+ms.date: 04/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: 9fa7f56f102ae098c870ae0e6e12f56cc26d0fde
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -42,6 +42,14 @@ Pianificare un'implementazione efficace di Power BI per la propria organizzazion
 <br>[Registrarsi e guardare adesso - Part 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Parte 3 - Gestione del servizio: Approfondimenti sulla gestione del servizio Power BI)
 <br>[Registrarsi e guardare adesso - Part 2 - Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Parte 2 - Governance: Controllare l'utilizzo di Power BI)
 <br>[Registrarsi e guardare adesso - Part 1 - Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Parte 1 - Adozione: Adottare impostazioni cultura basate sui dati)
+
+**Learn about Power BI Embedded in 20 minutes** (Iniziare a conoscere Power BI Embedded in 20 minuti)
+<br>di Megan Asarrane e Colin Murphy
+<br>*23 marzo 2018 10.00 PST, 13.00 EST*
+
+Questo webinar è un'introduzione a Power BI Embedded. Al termine del webinar gli utenti dovrebbero essere in grado di comprendere cos'è Power BI Embedded, i passaggi successivi per iniziare a usare il prodotto e dove trovare assistenza e risorse.
+
+[Registrarsi per partecipare il 23 marzo](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
 
 >[Partecipare ai prossimi webinar della community di Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -132,8 +140,9 @@ Iniziare dai webinar on demand più popolari
 <br>[Registrarsi per guardare](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[Download the Advanced Analytics Starter Kit to follow along](https://aka.ms/pbiaawebinar) (Scaricare l'Advanced Analytics Starter Kit per seguire un percorso parallelo)
 
-**Serie di webinar su Office 365 per professionisti finanziari - Episodio 2: Automatizzare report ricorrenti e abilitare l'analisi self-service**
-<br>di Mark Traverso e Miguel Martinez
+**Serie di webinar su Office 365 per professionisti finanziari**
+<br>di Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky e Miguel Martinez
+<br>Suggerimenti, trucchi e procedure consigliate per ottenere di più dalle attività quotidiane con Office 365.
 <br>[Registrarsi e guardare adesso](https://aka.ms/Office365FinanceProsPBI)
 
 **Be a Full Stack Power BI Jedi – A walkthrough of Power BI most advanced features through Star Wars data** (Come essere un Jedi full-stack di Power BI: una presentazione dettagliata delle funzionalità più avanzate di Power BI attraverso i dati di Star Wars)

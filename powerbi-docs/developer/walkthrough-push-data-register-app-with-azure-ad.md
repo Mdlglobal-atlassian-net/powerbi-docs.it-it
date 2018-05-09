@@ -2,14 +2,14 @@
 title: Registrare un'app in Azure AD
 description: Procedura dettagliata - Eseguire il push dei dati in un set di dati - Registrare un'app in Azure AD
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article

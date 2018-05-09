@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usare il drill-through in Power BI Desktop
 Con il **drill-through** in **Power BI Desktop**, è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Con la pagina del report evidenziata, è possibile fare clic con il pulsante destro del mouse su un punto dati in altre pagine di report ed eseguire il drill-through nella pagina evidenziata per ottenere dettagli che vengono filtrati in base a tale contesto.
@@ -45,8 +45,8 @@ Con il **drill-through** in **Power BI Desktop**, è possibile creare una pagina
 ## <a name="use-your-own-image-for-a-back-button"></a>Usare un'immagine personalizzata per un pulsante Indietro    
  Poiché il pulsante Indietro è un'immagine, è possibile sostituire l'immagine di tale oggetto visivo con qualsiasi altra, che continuerà a funzionare come pulsante Indietro per far tornare gli utenti del report alla pagina originale.
 
-1. Per usare un'immagine personalizzata per un pulsante Indietro, inserire l'oggetto visivo di un'immagine nella pagina di drill-through.
-2. Selezionare l'oggetto visivo e impostare il dispositivo di scorrimento su **Pulsante Indietro**. A questo punto, l'immagine funziona come pulsante Indietro.
+1. Nella scheda **Home** fare clic su **Immagine** e quindi individuare l'immagine e inserirla nella pagina di drill-through.
+2. Selezionare la nuova immagine nella pagina di drill-through e nella sezione Formato immagine impostare il dispositivo di scorrimento **Collegamento** su attivato e impostare il **Tipo** su **Pulsante Indietro**. A questo punto, l'immagine funziona come pulsante Indietro.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 

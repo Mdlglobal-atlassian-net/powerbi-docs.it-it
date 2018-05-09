@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 15d492aba39da23a06ac2f13bce676e0123a332c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aggiungere una colonna personalizzata in Power BI Desktop
 È possibile aggiungere facilmente una nuova colonna dei dati personalizzata al modello usando l'**Editor di query** in **Power BI Desktop**. È possibile creare e rinominare la colonna personalizzata usando semplici pulsanti per creare [formule M](https://msdn.microsoft.com/library/mt270235.aspx) che definiscono la colonna personalizzata. La formula M ha un [set di contenuti di riferimento completo per la funzione](https://msdn.microsoft.com/library/mt779182.aspx). 
@@ -40,10 +40,10 @@ Dopo aver avviato l'**Editor di query** e caricato alcuni dati, sarà possibile 
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-In tal modo verrà visualizzata la finestra **Aggiungi colonna personalizzata**, descritta nella sezione seguente.
+Verrà visualizzata la finestra **Aggiungi colonna personalizzata**, descritta nella sezione seguente.
 
 ## <a name="the-add-custom-column-window"></a>Finestra Aggiungi colonna personalizzata
-Nella finestra **Aggiungi colonna personalizzata** sono visibili l'elenco di campi disponibili nel riquadro di destra, il nome della colonna personalizzata nella parte superiore (è possibile rinominarla digitando un nuovo nome nella casella di testo) e la formula [**M** ](https://msdn.microsoft.com/library/mt779182.aspx) creata (o scritta) in base all'inserimento di campi da destra, l'aggiunta di operatori e altrimenti la compilazione della formula sulla quale verrà definita la nuova colonna personalizzata. 
+Nella finestra **Aggiungi colonna personalizzata** sono visibili l'elenco di campi disponibili nel riquadro di destra, il nome della colonna personalizzata nella parte superiore (è possibile rinominarla digitando un nuovo nome nella casella di testo) e la [formula **M**](https://msdn.microsoft.com/library/mt779182.aspx) creata (o scritta) in base all'inserimento di campi da destra, l'aggiunta di operatori e altrimenti la compilazione della formula sulla quale viene definita la nuova colonna personalizzata. 
 
 ![](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -54,7 +54,7 @@ Mentre si digita la formula e si compila la colonna, nella parte inferiore della
 
 ![](media/desktop-add-custom-column/add-custom-column_04.png)
 
-Se invece è presente un errore qualsiasi nella sintassi, verrà visualizzata un'icona di avviso di colore giallo, assieme all'errore individuato, e un collegamento che posiziona il cursore (nella formula) sul punto in cui è stato rilevato l'errore.
+Se invece è presente un errore qualsiasi nella sintassi, verranno visualizzati un'icona di avviso di colore giallo, con l'errore rilevato, e un collegamento che posiziona il cursore (nella formula) sul punto in cui è stato rilevato l'errore.
 
 ![](media/desktop-add-custom-column/add-custom-column_05.png)
 
