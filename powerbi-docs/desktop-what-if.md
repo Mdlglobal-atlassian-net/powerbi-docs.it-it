@@ -1,6 +1,6 @@
 ---
-title: Uso dei parametri Analisi di simulazione per visualizzare le variabili in Power BI Desktop
-description: Creare una variabile Analisi di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
+title: Uso dei parametri What if per visualizzare le variabili in Power BI Desktop
+description: Creare una variabile analisi di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
 services: powerbi
 documentationcenter: ''
 author: davidiseminger
@@ -15,17 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c6aa2639b8991cd7a9e1527c780bdbe21ad64b9
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 6b1289c1764514ce975c24bf6a93c5a66d2cc95a
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/04/2018
 ---
-# <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro Analisi di simulazione per visualizzare le variabili in Power BI Desktop
-A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile creare variabili **Analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori principali nei report.
+# <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro analisi di simulazione per visualizzare le variabili in Power BI Desktop
+A partire dalla versione di **Power BI Desktop** di agosto 2017, è possibile creare variabili di **analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori principali nei report.
 
 ![](media/desktop-what-if/what-if_01.png)
 

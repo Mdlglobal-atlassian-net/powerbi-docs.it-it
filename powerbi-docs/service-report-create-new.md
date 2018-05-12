@@ -1,5 +1,5 @@
 ---
-title: 'Esercitazione - Creare un nuovo report da un set di dati '
+title: 'Creare un nuovo report da un set di dati '
 description: Informazioni su come creare un nuovo report di Power BI da un set di dati.
 services: powerbi
 documentationcenter: ''
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: c6b156157d9d286bae6b93a217ca1b9502534498
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creare un nuovo report del servizio Power BI importando un set di dati
 Dopo aver letto [Report in Power BI](service-reports.md) si supponga di voler creare un report personalizzato. È possibile creare un report in molti modi, ma in questo articolo verrà spiegato come crearne uno molto semplice da un set di dati di Excel tramite il servizio Power BI. Una volta apprese le nozioni di base relative alla creazione di un report, è possibile consultare gli argomenti più avanzati elencati nella sezione **Passaggi successivi** alla fine di questo articolo.  
@@ -34,7 +34,7 @@ Dopo aver letto [Report in Power BI](service-reports.md) si supponga di voler cr
 - Set di dati dell'esempio di analisi delle vendite al dettaglio
 
 ## <a name="import-the-dataset"></a>Importare il set di dati
-In questo metodo di creazione del report si inizia con un set di dati e un canvas del report vuoto. Per seguire la procedura, [scaricare il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio](http://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business (scelta consigliata) o in locale.
+In questo metodo di creazione del report si inizia con un set di dati e un'area di disegno report vuota. Per seguire la procedura, [scaricare il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio](http://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business (scelta consigliata) o in locale.
 
 1. Dal momento che il report verrà creato in un'area di lavoro del servizio Power BI, selezionare un'area di lavoro esistente o crearne una nuova.
    
@@ -51,11 +51,11 @@ In questo metodo di creazione del report si inizia con un set di dati e un canva
 5. Dopo l'importazione del set di dati, selezionare **Visualizza set di dati**.
    
    ![Selezionare Visualizza set di dati](media/service-report-create-new/power-bi-view-dataset.png)
-6. Quando si visualizza un set di dati, verrà aperto l'editor di report.  Verranno visualizzati un canvas vuoto e gli strumenti di modifica del report.
+6. Quando si visualizza un set di dati, verrà aperto l'editor di report.  Verranno visualizzati un'area di disegno vuota e gli strumenti di modifica del report.
    
    ![Editor di report](media/service-report-create-new/power-bi-blank-report.png)
 
-> **SUGGERIMENTO**: se non si conosce il canvas per la modifica dei report o non se ne ricorda l'uso, prima di continuare è possibile eseguire la [presentazione dell'editor di report](service-the-report-editor-take-a-tour.md).
+> **SUGGERIMENTO**: se non si conosce l'area di disegno per la modifica dei report o non se ne ricorda l'uso, prima di continuare è possibile eseguire la [presentazione dell'editor di report](service-the-report-editor-take-a-tour.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Dopo aver importato il set di dati, è possibile iniziare a rispondere ad alcune
 ## <a name="add-an-area-chart-and-slicer-to-the-report"></a>Aggiungere un grafico ad area e un filtro dei dati al report
 Il responsabile marketing ha altre domande a cui è necessario dare una risposta. Vuole conoscere l'andamento delle vendite di quest'anno rispetto all'anno precedente e vuole che i risultati siano visualizzati in base alla zona.
 
-1. È innanzitutto necessario fare spazio nel canvas. Selezionare il misuratore e spostarlo nell'angolo in alto a destra. A questo punto trascinarne e rilasciarne uno degli angoli per ridurlo.
+1. È innanzitutto necessario fare spazio nell'area di disegno. Selezionare il misuratore e spostarlo nell'angolo in alto a destra. A questo punto trascinarne e rilasciarne uno degli angoli per ridurlo.
 2. Deselezionare il misuratore. Nel riquadro Campi selezionare **Sales** > **This Year Sales** > **Value** e quindi selezionare **Sales** > **Last Year Sales**.
    
     ![Editor di report con misuratore e grafico a barre](media/service-report-create-new/power-bi-report-step4.png)
@@ -87,9 +87,9 @@ Il responsabile marketing ha altre domande a cui è necessario dare una risposta
    
     ![Editor di report con il grafico ad area attivo](media/service-report-create-new/power-bi-report-step5.png)
 5. Per ordinare la visualizzazione in base a un periodo di tempo, selezionare i puntini di sospensione e scegliere **Ordina per periodo**.
-6. A questo punto verrà aggiunto il filtro dei dati. Selezionare un'area vuota nel canvas e scegliere il modello Filtro dei dati ![Icona Filtro dei dati](media/service-report-create-new/power-bi-slicer-icon.png)    . Al canvas verrà aggiunto un filtro dei dati vuoto.
+6. A questo punto verrà aggiunto il filtro dei dati. Selezionare un'area vuota nell'area di disegno e scegliere il modello Filtro dei dati ![Icona Filtro dei dati](media/service-report-create-new/power-bi-slicer-icon.png)    . All'area di disegno verrà aggiunto un filtro dei dati vuoto.
    
-    ![Canvas del report](media/service-report-create-new/power-bi-report-step6.png)    
+    ![Area di disegno report](media/service-report-create-new/power-bi-report-step6.png)    
 7. Selezionare **District** > **District** nel riquadro Campi. Spostare e ridimensionare il filtro dei dati.
    
     ![Editor di report, aggiungere il distretto](media/service-report-create-new/power-bi-report-step7.png)  

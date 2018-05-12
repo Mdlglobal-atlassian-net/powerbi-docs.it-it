@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: f75b769fdebd162507f1e54ead3f38412440c2ed
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Creare oggetti visivi di Power BI usando R
 Con **Power BI Desktop**, è possibile usare **R** per visualizzare i dati.
@@ -44,7 +44,7 @@ Dopo aver specificato l'installazione di R, è possibile iniziare la creazione d
 
    Quando si aggiunge un oggetto visivo R a un report, **Power BI Desktop** esegue queste operazioni:
    
-   - Un'immagine segnaposto dell'oggetto visivo R viene visualizzata nel canvas del report.
+   - Un'immagine segnaposto dell'oggetto visivo R viene visualizzata nell'area di disegno del report.
    
    - L'**editor di script R** viene visualizzato nella parte inferiore del riquadro centrale.
    
@@ -110,7 +110,7 @@ Dopo aver specificato l'installazione di R, è possibile iniziare la creazione d
 
     ![](media/desktop-r-visuals/r-visuals-8.png)
 
-    Quando si esegue uno script R che genera un errore, l'oggetto visivo R non viene tracciato e viene visualizzato un messaggio di errore nel canvas. Per informazioni dettagliate sull'errore, selezionare **Visualizza i dettagli** dall’errore dell’oggetto visivo R nel canvas.
+    Quando si esegue uno script R che genera un errore, l'oggetto visivo R non viene tracciato e viene visualizzato un messaggio di errore nell'area di disegno. Per informazioni dettagliate sull'errore, selezionare **Visualizza i dettagli** dall’errore dell’oggetto visivo R nell'area di disegno.
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
@@ -126,7 +126,7 @@ Gli oggetti visivi R in **Power BI Desktop** hanno poche limitazioni:
 * Relazioni: come con altri oggetti visivi Power BI Desktop, se vengono selezionati campi di dati da diverse tabelle senza una relazione definita tra di esse, si verifica un errore.
 * Gli oggetti visivi R vengono aggiornati al momento dell’aggiornamento, del filtraggio e dell’evidenziazione dei dati. Tuttavia, l'immagine in sé non è interattiva e non può essere l'origine del filtro incrociato.
 * Gli oggetti visivi R rispondono all'evidenziazione di altri oggetti visivi, ma è possibile fare clic sugli elementi nell’oggetto visivo R per applicare un filtro incrociato ad altri elementi.
-* Solo i tracciati sul dispositivo di visualizzazione predefinito R vengono visualizzati correttamente nel canvas. Evitare di usare in modo esplicito un altro dispositivo di visualizzazione R.
+* Solo i tracciati sul dispositivo di visualizzazione predefinito R vengono visualizzati correttamente nell'area di disegno. Evitare di usare in modo esplicito un altro dispositivo di visualizzazione R.
 * In questa versione, le installazioni di RRO non sono automaticamente identificate dalla versione a 32 bit di Power BI Desktop, quindi è necessario specificare manualmente il percorso della directory di installazione di R in **Opzioni e impostazioni > Opzioni > Script R**.
 
 ## <a name="next-steps"></a>Passaggi successivi
