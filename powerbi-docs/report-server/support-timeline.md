@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Sequenza temporale del supporto per il server di report di Power BI
 Il server di report di Power BI verrà rilasciato più volte all'anno. Gli aggiornamenti critici e di sicurezza saranno disponibili fino alla disponibilità generale della versione successiva. Dopo la versione successiva, la versione precedente continuerà a ricevere gli aggiornamenti della sicurezza per il resto della durata di 12 mesi.
@@ -46,7 +46,7 @@ Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per
 [Novità del Server di report di Power BI](whats-new.md)  
 [Manuale per l'utente](user-handbook-overview.md)  
 [Manuale per l'amministratore](admin-handbook-overview.md)  
-[Avvio rapido: installazione del Server di report di Power BI](quickstart-install-report-server.md)  
+[Installare il server di report di Power BI](install-report-server.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

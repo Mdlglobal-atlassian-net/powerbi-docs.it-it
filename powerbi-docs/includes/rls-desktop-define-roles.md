@@ -21,7 +21,7 @@ Per definire i ruoli di sicurezza, seguire questa procedura.
 7. Immettere le espressioni DAX. Questa espressione deve restituire true o false. Ad esempio: [Entity ID] = "Valore".
    
    > [!NOTE]
-   > È possibile usare *username()* in questa espressione. Occorre notare che *username()* avrà il formato *DOMINIO\nomeutente* in Power BI Desktop. Nel servizio Power BI avrà il formato del valore UPN dell'utente. In alternativa, è possibile usare *userprincipalname()*, che restituirà sempre l'utente nel formato nome dell'entità utente.
+   > È possibile usare *username()* in questa espressione. Occorre notare che *username()* avrà il formato *DOMINIO\nomeutente* in Power BI Desktop. Nel servizio Power BI avrà il formato del valore UPN dell'utente. In alternativa, è possibile usare *userprincipalname()*, che restituisce sempre l'utente nel formato nome dell'entità utente.
    > 
    > 
    

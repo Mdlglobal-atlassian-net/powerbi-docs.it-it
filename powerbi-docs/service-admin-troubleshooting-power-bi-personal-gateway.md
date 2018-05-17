@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Risoluzione dei problemi relativi a Power BI Gateway - Personal
 Di seguito sono illustrati alcuni problemi comuni che possono verificarsi quando si usa Power BI Gateway - Personal.
@@ -76,11 +76,11 @@ Questo errore viene visualizzato in Impostazioni per \<set di dati\> se è stato
 
 **Errore: [Non è possibile combinare i dati] &lt;parte della query&gt;/&lt;…&gt;/&lt;…&gt; accede a origini dati i cui livelli di privacy non possono essere usati contemporaneamente. Ricompilare la combinazione di dati.**
 
-**Soluzione**: questo errore è dovuto a restrizioni a livello di privacy e ai tipi di origini dati in uso. [Altre informazioni](refresh-enable-fast-combine.md)
+**Soluzione**: questo errore è dovuto a restrizioni a livello di privacy e ai tipi di origini dati in uso.
 
 **Errore: Errore dell'origine dati: Non è possibile convertire il valore "\[Table\]" nel tipo Table.**
 
-**Soluzione**: questo errore è dovuto a restrizioni a livello di privacy e ai tipi di origini dati in uso. [Altre informazioni](refresh-enable-fast-combine.md)
+**Soluzione**: questo errore è dovuto a restrizioni a livello di privacy e ai tipi di origini dati in uso.
 
 **Errore: Non è disponibile spazio sufficiente per questa riga.**
 

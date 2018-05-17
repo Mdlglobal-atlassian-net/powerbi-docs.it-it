@@ -1,14 +1,14 @@
 ---
-title: "Personalizzare le proprietà degli assi X e Y (esercitazione)"
-description: "Esercitazione: Personalizzare le proprietà degli assi X e Y"
+title: Personalizzare le proprietà degli assi X e Y
+description: Personalizzare le proprietà degli assi X e Y
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
+backup: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/16/2017
 ms.service: powerbi
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>Personalizzare le proprietà degli assi X e Y (esercitazione)
+# <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 Questa esercitazione illustra i diversi modi disponibili per personalizzare gli assi X e Y degli oggetti visivi. Non tutti gli oggetti visivi contengono assi o sono personalizzabili. I grafici a torta, ad esempio, non contengono assi. Le opzioni di personalizzazione variano da un oggetto visivo all'altro; sono quindi disponibili troppe opzioni per descriverle tutte in un solo articolo. Verranno quindi descritte alcune delle personalizzazioni degli assi usate più di frequente e verrà illustrato l'uso della scheda di formattazione visiva dell'area di disegno report di Power BI.  
 
 > [!NOTE]

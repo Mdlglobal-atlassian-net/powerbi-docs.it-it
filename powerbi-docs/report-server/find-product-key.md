@@ -1,15 +1,15 @@
 ---
 title: Come trovare il codice Product Key del server di report
-description: "Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione."
+description: Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: ff2e515823cbaa726fbdf72d1cb398381ea69363
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b1bfbdc635c0abba7e6d14567c3e839fd6a0c716
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Come trovare il codice Product Key del server di report
 Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione.
@@ -52,7 +52,7 @@ Se si ha un contratto SQL Server Enterprise SA, è possibile ottenere il codice 
 ![](media/find-product-key/vlsc-download.png "Centro servizi per contratti multilicenza")
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Avvio rapido: installazione del Server di report di Power BI](quickstart-install-report-server.md)  
+[Installare il server di report di Power BI](install-report-server.md)  
 [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
 [Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

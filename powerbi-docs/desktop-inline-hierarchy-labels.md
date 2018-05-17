@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Usare le etichette di gerarchia inline in Power BI Desktop
 **Power BI Desktop** supporta l'uso di **etichette di gerarchia inline**, ovvero la prima di due funzionalità che consentono di ottimizzare l'esplorazione gerarchica. La seconda funzionalità, che è attualmente in fase di sviluppo, è la possibilità di usare le etichette di gerarchia annidate (a breve disponibile: gli aggiornamenti avvengono di frequente).   
@@ -30,35 +30,41 @@ ms.lasthandoff: 05/04/2018
 ## <a name="how-inline-hierarchy-labels-work"></a>Funzionamento delle etichette di gerarchia inline
 Le etichette di gerarchia inline permettono di visualizzare le etichette di gerarchia quando si espandono gli oggetti visivi usando la funzionalità **Espandi tutto**. Un grande vantaggio offerto dalla visualizzazione di queste etichette di gerarchia è che è anche possibile scegliere di eseguire l'**ordinamento** in base alle diverse etichette di gerarchia quando si espandono i dati gerarchici.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>Uso della funzionalità Espandi tutto predefinita (senza l'ordinamento in base alle etichette di gerarchia)
-Prima di passare al funzionamento delle etichette di gerarchia inline verrà preso in esame il comportamento della funzionalità **Espandi tutto** predefinita. In tal modo sarà possibile comprendere (e apprezzare) quanto siano utili le etichette di gerarchia inline.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Uso della funzionalità Espandi predefinita (senza l'ordinamento in base alle etichette di gerarchia)
+Prima di passare al funzionamento delle etichette di gerarchia inline verrà preso in esame il comportamento della funzionalità **Espandi al livello successivo** predefinita. In tal modo sarà possibile comprendere (e apprezzare) quanto siano utili le etichette di gerarchia inline.
 
-L'immagine seguente mostra un grafico a barre per le vendite annuali. Quando si fa clic con il pulsante destro del mouse, è possibile scegliere **Espandi tutto**.
+L'immagine seguente mostra un grafico a barre per le vendite annuali. Quando si fa clic con il pulsante destro del mouse su una barra, è possibile scegliere **Espandi al livello successivo**.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Menu di scelta rapida Espandi](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Dopo aver selezionato **Espandi tutto** l'oggetto visivo espande la gerarchia di dati da *Anno* a *Trimestre*, come illustrato nella figura seguente.
+> [!NOTE]
+> In alternativa al clic con il pulsante destro del mouse su una barra, è possibile selezionare il pulsante *Espandi* nella parte superiore sinistra della visualizzazione.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Pulsante Espandi](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Come si può notare, le etichette *Anno* e *Trimestre* sono mostrate inline insieme. Questo schema di etichettatura continua mentre si **espande tutto** fino al termine della gerarchia.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+Quando si seleziona **Espandi al livello successivo** l'oggetto visivo espande la gerarchia di date da *Anno* a *Trimestre*, come illustrato nella figura seguente.
+
+![Oggetto visivo espanso per anno e trimestre](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+Come si può notare, le etichette *Anno* e *Trimestre* sono visualizzate inline insieme. Questo schema di etichettatura continua mentre si **espande tutto** fino al termine della gerarchia.
+
+![Oggetto visivo espanso per anno, trimestre e mese](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 Questo è il comportamento della gerarchia *Data* predefinita, che è associata ai campi con un tipo di dati *Data/ora*. Passando alla sezione successiva verranno prese in esame le differenze della nuova funzionalità di etichette di gerarchia inline.
 
 ### <a name="using-inline-hierarchy-labels"></a>Uso delle etichette di gerarchia inline
-Prima di tutto verrà preso in esame un grafico differente, che usa dati con gerarchia informali. Nella figura seguente è rappresentato un grafico a barre con il valore **SalesAmount**, che usa *Colore* come asse. In questi dati, *Colore* e *Classe* formano una gerarchia informale. A questo punto, è possibile selezionare nuovamente *Espandi tutto* per eseguire il drill-down nella gerarchia.
+Prima di tutto verrà preso in esame un grafico differente, che usa dati con gerarchia informali. Nella figura seguente è rappresentato un grafico a barre con il valore **Quantity**, che usa *ProductName* come asse. In questi dati *ProductName* e *ShipCountry* formano una gerarchia informale. A questo punto è possibile selezionare nuovamente *Espandi al livello successivo* per eseguire il drill-down nella gerarchia.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Grafico con gerarchia informale](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Selezione **Espandi tutto** per mostrare il livello successivo con la visualizzazione inline delle etichette di gerarchia. Per impostazione predefinita, le gerarchie inline vengono ordinate in base il valore della misura: in questo caso, **SalesAmount**. Con le etichette di gerarchia inline abilitate, è possibile scegliere di ordinare i dati anche in base alla gerarchia, selezionando i puntini di sospensione nell'angolo superiore destro (**...**), quindi selezionando **Ordina per > Colore Classe** come illustrato nella figura seguente.
+Se si seleziona **Espandi al livello successivo**, viene visualizzato il livello successivo con la visualizzazione inline delle etichette di gerarchia. Per impostazione predefinita, le gerarchie inline vengono ordinate in base il valore della misura, in questo caso, **Quantity**. Con le etichette di gerarchia inline abilitate, è possibile scegliere di ordinare i dati anche in base alla gerarchia, selezionando i puntini di sospensione nell'angolo superiore destro (**...**), quindi selezionando **Ordina per ProductName ShipCountry**, come illustrato nella figura seguente.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Grafico con gerarchia informale ordinata in base all'impostazione predefinita](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Dopo aver selezionato **Colore Classe**, i dati vengono ordinati in base alla selezione di gerarchia informale, come illustrato nella figura seguente.
+Dopo la selezione di **ShipCountry**, i dati vengono ordinati in base alla selezione della gerarchia informale, come illustrato nella figura seguente.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Grafico con gerarchia informale ordinata in base alla gerarchia informale](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > La funzionalità di etichetta gerarchia inline non consente ancora di ordinare la gerarchia temporale predefinita in base al valore, ma solo in ordine gerarchico.

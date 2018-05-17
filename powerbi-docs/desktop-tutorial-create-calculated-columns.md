@@ -15,25 +15,25 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 97eed4093954312ff70a7c55078c9726e5e861f9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Esercitazione: Creare colonne calcolate in Power BI Desktop
 
-Talvolta i dati analizzati non contengono un campo specifico necessario per ottenere i risultati desiderati. In questo caso, può essere utile usare le *colonne calcolate*. Per definire i valori delle colonne calcolate vengono usate le formule DAX (Data Analysis Expressions), ovvero formule che consentono in pratica di combinare valori di testo di colonne diverse o di calcolare un valore numerico a partire da altri valori. Si immagini, ad esempio, che nei dati siano presenti i campi **Città** e **Stato**, ma che si voglia avere un unico campo, **Località**, che includa entrambi con un singolo valore, ad esempio "Miami, FL". Le colonne calcolate servono esattamente a questo scopo.
+Talvolta i dati analizzati non contengono un campo specifico necessario per ottenere i risultati desiderati. In questo caso, può essere utile usare le *colonne calcolate*. Per definire i valori delle colonne calcolate vengono usate le formule DAX (Data Analysis Expressions), ovvero formule che consentono in pratica di combinare valori di testo di colonne diverse o di calcolare un valore numerico a partire da altri valori. Si immagini, ad esempio, che nei dati siano presenti i campi **Città** e **Stato**, ma che si voglia avere un unico campo, **Località**, che includa entrambi con un singolo valore, ad esempio "Miami, FL". Le colonne calcolate servono esattamente per questo scopo.
 
 Le colonne calcolate sono simili alle [misure](desktop-tutorial-create-measures.md), perché si basano entrambe su una formula DAX, ma si distinguono da queste per la modalità d'uso. Spesso le misure vengono usate in un'area **Valori** della visualizzazione per calcolare i risultati in base ad altri campi. Le colonne calcolate vengono usate come nuovi **campi** in righe, assi, legende e aree dei gruppi di visualizzazione.
 
 Questa esercitazione illustra il significato e la modalità di creazione delle colonne calcolate, nonché l'uso di queste colonne nelle visualizzazioni dei report in Power BI Desktop. 
 
 ### <a name="prerequisites"></a>Prerequisiti
-- Questa esercitazione è destinata agli utenti di Power BI che hanno già familiarità con l'uso di Power BI Desktop per la creazione di modelli più avanzati. L'utente dovrebbe avere già acquisito familiarità con l'uso di **Recupera dati** e dell'**editor di Power Query** per importare i dati, con l'uso di più tabelle correlate e con l'aggiunta di campi al canvas del report. Se non si ha familiarità con Power BI Desktop, vedere l'articolo [Introduzione a Power BI Desktop](desktop-getting-started.md).
+- Questa esercitazione è destinata agli utenti di Power BI che sono già in grado di usare Power BI Desktop per creare modelli più avanzati. L'utente dovrebbe avere già acquisito familiarità con l'uso di **Recupera dati** e dell'**editor di Power Query** per importare i dati, con l'uso di più tabelle correlate e con l'aggiunta di campi al canvas del report. Se non si ha familiarità con Power BI Desktop, vedere l'articolo [Introduzione a Power BI Desktop](desktop-getting-started.md).
   
 - L'esercitazione usa il file [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), lo stesso esempio usato per l'esercitazione [Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). I dati delle vendite della società fittizia Contoso, Inc. sono stati importati da un database, non sarà quindi possibile connettersi all'origine dati o visualizzare i dati nell'editor di Power Query. Scaricare ed estrarre il file nel computer in uso e quindi aprirlo in Power BI Desktop.
 
@@ -139,5 +139,5 @@ Le colonne calcolate possono offrire una visione dei dati più dettagliata e app
 ## <a name="next-steps"></a>Passaggi successivi
 Per approfondire i concetti relativi alle formule DAX e creare colonne calcolate con formule più avanzate, vedere [Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Questo articolo illustra i concetti fondamentali in DAX, ad esempio sintassi, funzioni e una maggiore comprensione del contesto.
 
-Non dimenticare di aggiungere ai Preferiti la pagina [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)  che include informazioni dettagliate sulla sintassi e sugli operatori DAX, nonché sulle oltre 200 funzioni DAX disponibili.
+Non dimenticare di aggiungere ai Preferiti la pagina [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx). che include informazioni dettagliate sulla sintassi e sugli operatori DAX, nonché sulle oltre 200 funzioni DAX disponibili.
 

@@ -2,27 +2,27 @@
 title: Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI
 description: Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ff05fb9a80e9e4efff066eb71173db78a856bf2c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 479d431af4a7e904b138de1eb4fdf097bdbd68e9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI
 È possibile caricare in Power BI qualsiasi cartella di lavoro di Excel inferiore a 1 GB. Una cartella di lavoro di Excel può essere composta da due parti: un modello di dati e il resto del report, cioè il contenuto di base del foglio di lavoro. Se il report rispetta i limiti di dimensioni seguenti, lo si può salvare in **OneDrive for Business**, ci si può connettere da Power BI e lo si può visualizzare in Excel Online:

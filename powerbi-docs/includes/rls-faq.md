@@ -1,6 +1,6 @@
 ## <a name="faq"></a>DOMANDE FREQUENTI
-**Domanda:** Cosa accade se sono stati precedentemente creati ruoli/regole per un set di dati nel servizio Power BI? Continueranno a funzionare anche se non si esegue alcuna operazione?  
-**Risposta:** No. Il rendering degli oggetti visivi non verrà eseguito correttamente. Sarà necessario creare di nuovo i ruoli e/o le regole all'interno di Power BI Desktop e quindi pubblicarli nel servizio Power BI.
+**Domanda:** Cosa accade se sono stati precedentemente creati ruoli e regole per un set di dati nel servizio Power BI? Continueranno a funzionare anche se non si esegue alcuna operazione?  
+**Risposta:** No. Il rendering degli oggetti visivi non verrà eseguito correttamente. Sarà necessario creare di nuovo i ruoli e le regole all'interno di Power BI Desktop e quindi pubblicarli nel servizio Power BI.
 
 **Domanda:** È possibile creare questi ruoli per le origini dati di Analysis Services?  
 **Risposta:** È possibile solo se i dati sono stati importati in Power BI Desktop. Se si usa una connessione dinamica, non sarà possibile configurare la sicurezza a livello di riga all'interno del servizio Power BI. Ciò viene definito all'interno del modello di Analysis Services in locale.
