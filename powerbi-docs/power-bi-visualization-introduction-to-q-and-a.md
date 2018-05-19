@@ -1,6 +1,6 @@
 ---
-title: 'Guida introduttiva: Introduzione a Domande e risposte di Power BI'
-description: "Guida introduttiva: Introduzione a Domande e risposte nel servizio Power BI con l'esempio di analisi delle vendite al dettaglio"
+title: Introduzione a Power BI - Domande e risposte
+description: Introduzione a Domande e risposte nel servizio Power BI con l'Esempio di analisi delle vendite al dettaglio
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Introduzione a Domande e risposte di Power BI (guida introduttiva)
+# <a name="get-started-with-power-bi-qa"></a>Introduzione a Power BI - Domande e risposte
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usare Domande e risposte di Power BI con l'esempio di analisi delle vendite al dettaglio
 A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale.  In questa guida introduttiva verranno esaminati 2 modi diversi per creare la stessa visualizzazione, ovvero creandola in un report e ponendo una domanda con Domande e risposte. Verrà usato il servizio Power BI, ma il processo per Power BI Desktop è quasi identico.
 

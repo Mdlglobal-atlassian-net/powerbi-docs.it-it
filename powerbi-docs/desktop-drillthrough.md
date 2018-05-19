@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 4/10/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usare il drill-through in Power BI Desktop
 Con il **drill-through** in **Power BI Desktop**, è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Con la pagina del report evidenziata, è possibile fare clic con il pulsante destro del mouse su un punto dati in altre pagine di report ed eseguire il drill-through nella pagina evidenziata per ottenere dettagli che vengono filtrati in base a tale contesto.
 
-![](media/desktop-drillthrough/drillthrough_01.png)
+![Uso del drill-through](media/desktop-drillthrough/drillthrough_01.png)
 
 ## <a name="using-drillthrough"></a>Uso del drill-through
 1. Per usare il **drill-through**, creare una pagina di report con oggetti visivi da visualizzare per il tipo di entità per cui si fornirà il drill-through. 
@@ -36,11 +36,11 @@ Con il **drill-through** in **Power BI Desktop**, è possibile creare una pagina
 
 2. In tale pagina di drill-through, nella sezione **Campi** del riquadro **Visualizzazioni**, trascinare il campo per cui si vuole eseguire il drill-through nell'area **Filtri di drill-through**.
 
-    ![](media/desktop-drillthrough/drillthrough_02.png)
+    ![Area drill-through](media/desktop-drillthrough/drillthrough_02.png)
 
     Quando si aggiunge un campo all'area **Filtri di drill-through**, **Power BI Desktop** crea automaticamente un oggetto visivo pulsante *Indietro*. Tale oggetto visivo diventa un pulsante nei report pubblicati e consente agli utenti che utilizzano il report nel **servizio Power BI** di tornare facilmente alla pagina del report da cui sono arrivati (la pagina da cui hanno selezionato il drill-through).
 
-    ![](media/desktop-drillthrough/drillthrough_03.png)
+    ![Immagine drill-through](media/desktop-drillthrough/drillthrough_03.png)
 
 ## <a name="use-your-own-image-for-a-back-button"></a>Usare un'immagine personalizzata per un pulsante Indietro    
  Poiché il pulsante Indietro è un'immagine, è possibile sostituire l'immagine di tale oggetto visivo con qualsiasi altra, che continuerà a funzionare come pulsante Indietro per far tornare gli utenti del report alla pagina originale.
@@ -48,18 +48,35 @@ Con il **drill-through** in **Power BI Desktop**, è possibile creare una pagina
 1. Nella scheda **Home** fare clic su **Immagine** e quindi individuare l'immagine e inserirla nella pagina di drill-through.
 2. Selezionare la nuova immagine nella pagina di drill-through e nella sezione Formato immagine impostare il dispositivo di scorrimento **Collegamento** su attivato e impostare il **Tipo** su **Pulsante Indietro**. A questo punto, l'immagine funziona come pulsante Indietro.
 
-    ![](media/desktop-drillthrough/drillthrough_05.png)
+    ![Uso immagine per tornare indietro](media/desktop-drillthrough/drillthrough_05.png)
 
     Quando la pagina di **drill-through** è completa, facendo clic con il pulsante destro del mouse su un punto dati del report che usa il campo inserito nell'area **Filtri di drill-through**, viene visualizzato un menu di scelta rapida che consente di eseguire il drill-through in tale pagina.
 
-    ![](media/desktop-drillthrough/drillthrough_04.png)
+    ![Menu drill-through](media/desktop-drillthrough/drillthrough_04.png)
 
     Quando gli utenti del report scelgono di eseguire il drill-through, la pagina viene filtrata per visualizzare le informazioni sul punto dati selezionato con il pulsante destro del mouse. Se ad esempio hanno selezionato con il pulsante destro del mouse un punto dati relativo a Contoso (un produttore) e hanno scelto di eseguire il drill-through, la pagina di drill-through visualizzata verrà filtrata in base a Contoso.
 
-    > [!NOTE]
-    > Solo il campo nell'area **Filtri di drill-through** viene passato alla pagina del report di drill-through. Non vengono passate altre informazioni contestuali.
-    > 
-    > 
+## <a name="pass-all-filters-in-drillthrough"></a>Filtri in drill-through
+
+A partire dalla versione di maggio 2018 di **Power BI Desktop**, è possibile eseguire tutti i filtri applicati alla finestra di drill-through. Ad esempio, è possibile selezionare solo una determinata categoria di prodotti e gli oggetti visivi filtrati per tale categoria, e quindi selezionare il drill-through. È interessante vedere che aspetto ha il drill-through con tutti questi filtri applicati.
+
+Per mantenere tutti i filtri applicati, nella sezione **Drill-through** del riquadro **Visualizzazioni** è sufficiente impostare l'alternanza **Mantieni tutti i filtri** su **On**. 
+
+![Mantieni tutti i filtri](media/desktop-drillthrough/drillthrough_06.png)
+
+Nelle versioni di **Power BI Desktop** precedenti a quella di maggio 2018, il comportamento equivale a impostare l'alternanza su **Off**.
+
+Quando si esegue il drill-through su un oggetto visivo, è possibile visualizzare i filtri applicati come risultato dell'applicazione di filtri temporanei all'oggetto visivo di origine. Nella finestra di drill-through tali filtri temporanei vengono visualizzati in corsivo. 
+
+![Filtri temporanei in corsivo](media/desktop-drillthrough/drillthrough_07.png)
+
+Si noti che è possibile eseguire questa operazione con le pagine di descrizioni comandi, ma tale operazione non è consigliata in quanto la descrizione comando non viene visualizzata correttamente.
 
 Non sono necessarie altre operazioni per l'uso del **drill-through** nei report, che permette di ottenere una visualizzazione espansa delle informazioni sull'entità selezionate per il filtro di drill-through.
+
+## <a name="next-steps"></a>Passaggi successivi
+
+Potrebbero essere interessanti anche gli articoli seguenti:
+
+* [Uso dei filtri dei dati in Power BI Desktop](desktop-slicers.md)
 

@@ -2,57 +2,48 @@
 title: Navigazione nel servizio Power BI
 description: Panoramica dell'esperienza di navigazione di Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: quickstart
+ms.component: powerbi-service
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 05/07/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 58b1125a894ff064942e61534db990587bdf9f2a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="getting-around-in-power-bi-service"></a>Navigazione nel servizio Power BI
-## <a name="the-left-navigation-pane"></a>Riquadro di spostamento a sinistra
+# <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
-![Riquadro di spostamento a sinistra](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+Dopo aver appreso le nozioni di base di Power BI, è possibile esplorare il **servizio Power BI**. Come accennato in precedenza, c'è chi nel team dedica tutto il suo tempo a **Power BI Desktop**, combinando dati e creando report necessari ad altri membri del team. C'è chi invece dedica tutto il suo tempo al servizio Power BI, visualizzando e interagendo con il contenuto creato da altri membri del team (esperienza di **utilizzo**) o recuperando dati e creando report e dashboard (esperienza di  **creazione**). In questa guida introduttiva saranno importati dati di esempio che saranno poi usati per esplorare il servizio Power BI. 
+ 
+## <a name="prerequisites"></a>Prerequisiti
 
-**Guida di riferimento rapido**
+- Se non si è ancora registrati in Power BI, [registrarsi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
-| Azione | Percorso nuovo (corrente) |
-| --- | --- | --- |
-| Aggiungere un dashboard o un report a Preferiti |Area di lavoro > Dashboard o Area di lavoro > Report e selezionare l'icona a stella per evidenziarlo in giallo |
-| Aggiungere un'app a Preferiti | Selezionare **App** nel riquadro di spostamento a sinistra e selezionare l'icona a stella accanto al nome dell'app
-| Visualizzare l'elenco Preferiti |Selezionare **Preferiti** nel riquadro di spostamento a sinistra |
-| Visualizzare un elenco di dashboard e report visitati di recente |Selezionare **Recenti** nel riquadro di spostamento a sinistra |
-| Visualizzare un elenco di dashboard condivisi con l'utente corrente |Selezionare **Condivisi con l'utente corrente** nel riquadro di spostamento a sinistra |
-| Condividere un dashboard |Aprire un dashboard e selezionare **Condividi** oppure creare e pubblicare un'app |
-| Eliminare un dashboard |Area di lavoro personale > Dashboard > icona a forma di cestino |
-| Eliminare un report |Area di lavoro personale > Report > icona a forma di cestino |
-| Eliminare un set di dati |Area di lavoro personale > Set di dati >... > Elimina |
-| Aprire un dashboard |Area di lavoro > Dashboard > e selezionare il nome del dashboard |
-| Aprire un report. |Area di lavoro > Report > e selezionare il nome del report |
-| Aprire un set di dati |Area di lavoro > Set di dati > e selezionare il nome del set di dati |
-| Creare un dashboard |Nella barra di spostamento superiore selezionare Crea > Dashboard |
-| Creare un report. |Nella barra di spostamento superiore selezionare Crea > Report |
-| Creare un set di dati |Nella barra di spostamento superiore selezionare Crea > Set di dati |
-| Creare un'app |Aree di lavoro > Creare un'area di lavoro per le app |
-| Visualizzare un elenco di tutti i dashboard, i report e i set di dati di cui si è proprietari |Aree di lavoro > Area di lavoro personale |
+- Leggere [Power BI - Concetti di base per il servizio Power BI](service-basic-concepts.md)
 
-## <a name="common-tasks"></a>Attività comuni
+## <a name="open-power-bi-service-and-get-some-data"></a>Aprire il servizio Power BI e ottenere alcuni dati
+Per esplorare il servizio Power BI, saranno usati alcuni dati di esempio. Per l'esplorazione, sono disponibili tutti i tipi di dati di esempio. In questo caso saranno usati i dati relativi alle vendite al dettaglio.    
+1. Aprire app.powerbi.com e selezionare il collegamento **Esempi**. 
+
+    ![aprire il servizio Power BI per la prima volta](media/service-the-new-power-bi-experience/power-bi-new-user.png)
+
+2. Selezionare **Esempio di analisi delle vendite al dettaglio > Connetti**.
+
+    ![selezionare l'esempio](media/service-the-new-power-bi-experience/power-bi-retail-sample.png)
+
+    Il servizio Power BI Importa l'esempio e visualizza il dashboard. I dashboard differenziano il servizio Power BI da Power BI Desktop. L'esempio include anche un report e un set di dati, che saranno esaminati più avanti.
+
+    ![](media/service-the-new-power-bi-experience/power-bi-dashboard.png)
 
 Amanda presenta una panoramica della navigazione nel servizio Power BI.  Seguire quindi tutte le istruzioni riportate sotto il video per esplorare da soli.
 
@@ -60,16 +51,28 @@ Amanda presenta una panoramica della navigazione nel servizio Power BI.  Seguire
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Visualizzazione del contenuto (dashboard, report, cartelle di lavoro, set di dati, aree di lavoro, app)
-Per iniziare, verrà esaminata l'organizzazione del contenuto di base, ovvero dashboard, report, set di dati e cartelle di lavoro. In precedenza, tutto il contenuto disponibile era elencato nel riquadro di spostamento a sinistra. Tale opzione è ancora disponibile, ma per impostazione predefinita il contenuto viene visualizzato in base al tipo nel contesto di un'area di lavoro. Selezionare un'area di lavoro nel riquadro di spostamento a sinistra: le schede relative al contenuto associato (dashboard, report, cartelle di lavoro, set di dati) vengono visualizzate nell'area di disegno di Power BI a destra.
+Per iniziare, verrà esaminata l'organizzazione del contenuto di base, ovvero dashboard, report, set di dati e cartelle di lavoro. Il contenuto viene visualizzato all'interno del contesto di un'area di lavoro. A questo punto, viene visualizzata una sola area di lavoro denominata **Area di lavoro personale**. In Area di lavoro personale viene archiviato tutto il contenuto di cui si è proprietari. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. Il contenuto dell'Area di lavoro personale può essere condiviso con i colleghi. Nell'Area di lavoro personale il contenuto è organizzato in quattro schede, ovvero Dashboard, Report, Cartelle di lavoro e Set di dati.
 
-Se si usa la versione gratuita di Power BI, verrà visualizzata una sola area di lavoro, ovvero **Area di lavoro personale**.
+![Schermata Area di lavoro personale](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
-![Breve video sull'area di lavoro](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+Selezionare un'area di lavoro nel riquadro di spostamento a sinistra: le schede relative al contenuto associato (dashboard, report, cartelle di lavoro, set di dati) vengono visualizzate nell'area di disegno di Power BI a destra.
 
-### <a name="favorite-dashboards-reports-and-apps"></a>Dashboard, report e app di Preferiti
+Se si è un nuovo utente, verrà visualizzata una sola area di lavoro, ovvero **Area di lavoro personale**.
+
+![Breve video sull'area di lavoro](media/service-the-new-power-bi-experience/nav.gif)
+
+In tali schede, note anche come *visualizzazioni contenuto*, sono disponibili le informazioni sul contenuto, nonché le azioni che è possibile eseguire con tale contenuto.  Ad esempio, dalla scheda Dashboard è possibile aprire un dashboard, condividere, eliminare, cercare, creare nuovo contenuto, ordinare e tanto altro ancora.
+
+![Scheda Dashboard](media/service-the-new-power-bi-experience/power-bi-dashboard-tab.png)
+
+Aprire il dashboard selezionando il nome del dashboard.
+
+![Aprire i dashboard](media/service-the-new-power-bi-experience/power-bi-open-dashboard.png)
+
+## <a name="favorite-a-dashboard-and-a-report"></a>Aggiungere un dashboard e un report a Preferiti
 L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più importanti.  
 
-1. Con il dashboard o il report aperto, selezionare **Aggiungi a Preferiti** nell'angolo in alto a destra.
+1. Con il dashboard aperto, selezionare **Aggiungi a Preferiti** nell'angolo in alto a destra.
    
    ![Aggiungere a Preferiti](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
@@ -77,78 +80,49 @@ L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più impor
    
    ![Rimuovere da Preferiti](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
-2. Per un'app selezionare **App** nel riquadro di spostamento a sinistra, passare il puntatore sull'app e scegliere la stella per aggiungere l'app a Preferiti.
-
 2. Per visualizzare l'elenco di tutti i contenuti aggiunti a Preferiti, nel riquadro di spostamento a sinistra selezionare la freccia a destra di **Preferiti**. Il riquadro di spostamento a sinistra è una funzionalità permanente del servizio Power BI, pertanto è possibile accedere a questo elenco da qualsiasi punto del servizio Power BI.
    
-    ![Riquadro a comparsa Preferiti](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![Riquadro a comparsa Preferiti](media/service-the-new-power-bi-experience/power-bi-favorite.png)
    
-    Da qui è possibile selezionare un dashboard, un report o un'app da aprire.
+    Per ora è disponibile un solo preferito. Possono essere aggiunti ai preferiti dashboard, report o app.  
 
-3. Per aprire il riquadro **Preferiti**, nel riquadro di spostamento a sinistra selezionare **Preferiti** oppure l'icona Preferiti ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
+1. È anche possibile aggiungere un dashboard o un report a Preferiti dalla scheda **Dashboard** o **Report** dell'area di lavoro.  Aprire la scheda **Report** e selezionare l'icona a forma di stella a sinistra del nome del report.
    
-   ![Aprire la schermata Preferiti](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
-   
-   Da qui è possibile trovare o aprire il contenuto, rimuoverlo da Preferiti o condividerlo con i colleghi.
+   ![Contrassegnare come preferito](media/service-the-new-power-bi-experience/power-bi-report-favorite.png)
 
-1. È anche possibile aggiungere un dashboard o un report a Preferiti dalla scheda **Dashboard** o **Report** dell'area di lavoro.  È sufficiente aprire l'area di lavoro con la visualizzazione contenuto e selezionare l'icona a stella a sinistra del nome dell'elemento desiderato.
+3. Aprire il *riquadro* **Preferiti**, selezionando **Aggiungi a Preferiti** nel riquadro di spostamento di sinistra o selezionando l'icona a forma di stella ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![Contrassegnare come preferito](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![Aprire la schermata Preferiti](media/service-the-new-power-bi-experience/power-bi-favorite-pane.png)
+   
+   A questo punto i preferiti sono due, un dashboard e un report. Da qui è possibile aprire, cercare, rimuovere da Preferiti o condividere il contenuto con i colleghi.
+
+4. Selezionare il nome del report per aprirlo nell'editore del report.
+
+    ![aprire un report](media/service-the-new-power-bi-experience/power-bi-report-open.png)
+
 
 Per altre informazioni, vedere [Preferiti](service-dashboard-favorite.md).
 
-### <a name="recents"></a>Recenti
-È possibile visualizzare rapidamente i contenuti aperti di recente passando al riquadro **Recenti**, che include i contenuti di tutte le aree di lavoro.
+## <a name="locate-your-most-recent-content"></a>Individuare il contenuto più recente
 
-  ![Riquadro Recenti](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+1. Come per Preferiti, è possibile visualizzare rapidamente il contenuto al quale è stato eseguito l'accesso più di recente da qualsiasi punto del servizio Power BI selezionando la freccia accanto a **Recenti** nel riquadro di spostamento di sinistra.
 
-Come per i Preferiti, è possibile accedere rapidamente agli elementi recenti da qualsiasi punto del servizio Power BI selezionando la freccia accanto a **Recenti** nel riquadro di spostamento a sinistra.
+   ![Riquadro a comparsa Recenti](media/service-the-new-power-bi-experience/power-bi-recent-flyout.png)
 
-  ![Riquadro a comparsa Recenti](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+    Dal riquadro a comparsa, selezionare il contenuto per aprirlo.
+
+2. Talvolta non si vuole aprire il contenuto recente, ma si vuole visualizzare informazioni o eseguire altre azioni, ad esempio condividere, eseguire Insights oppure esportare in Excel. In questi casi, aprire il riquadro selezionando **Recenti** selezionando **Recenti** o la relativa icona nel riquadro di spostamento di sinistra. Se si aveva più di un'area di lavoro, questo elenco includerà il contenuto in tutte le aree di lavoro.
+
+   ![Riquadro Recenti](media/service-the-new-power-bi-experience/power-bi-recent.png)
 
 Per altre informazioni, vedere [Recenti in Power BI](service-recent.md).
-
-### <a name="apps"></a>App
-Un'app è una raccolta di dashboard e report compilati per offrire metriche chiave in un'unica posizione. È possibile avere app interne all'organizzazione, nonché [app per servizi esterni](service-connect-to-services.md) come Google Analytics e Microsoft Dynamics CRM. 
-
-![Riquadro App](media/service-the-new-power-bi-experience/power-bi-apps.png)
-
-Per altre informazioni, vedere **Aree di lavoro per le app** (di seguito) e [Informazioni sulle app Power BI](service-install-use-apps.md).
-
-### <a name="shared-with-me"></a>Condivisi con l'utente corrente
-**Condivisi con l'utente corrente** è la posizione in cui sono presenti tutti i contenuti che i colleghi hanno condiviso con l'utente.  Filtrare in base al proprietario del dashboard, usare il campo di ricerca per trovare i contenuti pertinenti e ordinare gli elementi per data.  Per quanto riguarda il contenuto condiviso a cui si accede di frequente, è ancora più semplice aggiungerlo ai Preferiti dalla propria visualizzazione **Condivisi con l'utente corrente**.
-
-![Riquadro Condivisi con l'utente corrente](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
-
-Per altre informazioni, vedere [Condivisi con l'utente corrente](service-shared-with-me.md).
-
-### <a name="working-with-workspaces"></a>Utilizzo delle aree di lavoro
-L'elemento successivo nel riquadro di spostamento a sinistra è costituito dalle *aree di lavoro*. Le aree di lavoro possono essere considerate come *contenitori* per il contenuto di Power BI. Sono disponibili due tipi di aree di lavoro, ovvero l'**Area di lavoro personale** e le aree di lavoro per le app.
-
-Se non si è membri di un'area di lavoro per le app o un amministratore, nel riquadro di spostamento a sinistra non verrà visualizzata alcuna area di lavoro per le app. Infine, se si è clienti di Power BI gratuito, non verrà visualizzata alcuna area di lavoro per le app.
-
-#### <a name="my-workspace"></a>Area di lavoro
-Nell'**Area di lavoro personale** viene archiviato tutto il contenuto di cui si è proprietari. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. Il contenuto dell'Area di lavoro personale può essere condiviso con i colleghi. Nell'Area di lavoro personale il contenuto è organizzato in quattro schede, ovvero Dashboard, Report, Cartelle di lavoro e Set di dati.
-
-![Schermata Area di lavoro personale](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
-
-#### <a name="app-workspaces"></a>Aree di lavoro per le app
-Le app e le aree di lavoro per le app sono una funzionalità di Power BI Pro. Le aree di lavoro per le app consentono di creare dashboard e report per altri utenti. Un'area di lavoro per le app è il posto in cui si crea l'app; dunque, per creare un'app, è prima di tutto necessario creare l'area di lavoro per le app. Queste aree sono infatti l'evoluzione delle aree di lavoro del gruppo, ovvero aree di gestione temporanea e contenitori per il contenuto dell'app.  È possibile collaborare insieme ai colleghi alla creazione di dashboard, report e altro contenuto che si prevede di distribuire a un pubblico più ampio o persino all'intera organizzazione.
-
-Per altre informazioni, vedere [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md#app-workspaces).
-
-Come nell'**Area di lavoro personale**, il contenuto è organizzato in quattro schede, ovvero Dashboard, Report, Cartelle di lavoro e Set di dati.
-
-![Area di lavoro per le app](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
-
-Per passare da un'area di lavoro all'altra selezionare **Aree di lavoro** nel riquadro di spostamento a sinistra.
-
-![Selezionare un'area di lavoro](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Cercare e ordinare il contenuto
 La visualizzazione contenuto rende più semplice cercare, filtrare e ordinare il contenuto. Per cercare un dashboard, un report o una cartella di lavoro, digitare nell'area di ricerca. Power BI filtra solo il contenuto il cui nome include la stringa di ricerca.
 
-![Ricerca di un dashboard](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+Poiché l'esempio è uno, la ricerca e l'ordinamento non sono necessari.  Quando però si hanno lunghi elenchi di dashboard, report, cartelle di lavoro e set di dati, le funzionalità di ricerca e ordinamento risulteranno estremamente utili.
+
+![Ricerca di un dashboard](media/service-the-new-power-bi-experience/power-bi-search-sort.png)
 
 È anche possibile ordinare il contenuto in base al nome o al proprietario.  
 
@@ -157,7 +131,6 @@ La visualizzazione contenuto rende più semplice cercare, filtrare e ordinare il
 Per altre informazioni, vedere [Eseguire ricerche, ordinare e filtrare in Power BI](service-navigation-search-filter-sort.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Servizio Power BI - Concetti fondamentali](service-basic-concepts.md)    
 
-Domande o commenti? [Visitare il forum della community di Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview)
-
+> [!div class="nextstepaction"]
+> [Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI](./service-reading-view-and-editing-view.md)

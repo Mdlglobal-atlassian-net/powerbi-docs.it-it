@@ -1,15 +1,15 @@
 ---
-title: Cambiare le dimensioni di una pagina del report (esercitazione)
-description: 'Esercitazione: Modificare le impostazioni di visualizzazione per una pagina in un report di Power BI'
+title: Cambiare le dimensioni di una pagina del report
+description: Modificare le impostazioni di visualizzazione per una pagina in un report di Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: modifying
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8381f3100676b6e20f7fb748045c4852b30c45b9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="change-the-size-of-a-report-page-tutorial"></a>Cambiare le dimensioni di una pagina del report (esercitazione)
+# <a name="change-the-size-of-a-report-page"></a>Cambiare le dimensioni di una pagina del report
 Nell'[articolo e nel video precedenti](power-bi-report-display-settings.md) sono stati illustrati due modi diversi per controllare la visualizzazione delle pagine nei report di Power BI: **Visualizza** e **Dimensioni pagina**. Le opzioni Visualizzazione pagina e Dimensioni pagina sono disponibili sia nel servizio Power BI sia in Power BI Desktop. L'aspetto e la funzionalità sono praticamente uguali, ma in questa esercitazione verrà usato il servizio Power BI.
 
 ### <a name="prerequisites"></a>Prerequisiti

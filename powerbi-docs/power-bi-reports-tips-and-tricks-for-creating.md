@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Suggerimenti e consigli per creare report in Power BI Desktop e nel servizio Power BI
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop, nel servizio Power BI *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato.
@@ -49,7 +49,7 @@ Nello strumento di navigazione dell'Editor di query in Power BI Desktop, quando 
 Per impostazione predefinita, tutte le query vengono caricate in un foglio di lavoro di Excel o nel modello di dati (o in entrambe le posizioni). Alcune query sono passaggi intermedi non destinati all'uso da parte degli utenti finali.  Quando si fa riferimento alle query come indicato in precedenza, questo è spesso vero.  È possibile controllare il comportamento di caricamento delle query facendo clic con il pulsante destro del mouse sulla query nello strumento di navigazione e attivando o disattivando l'opzione "Abilita caricamento".  Quando accanto all'opzione "Abilita caricamento" non è presente un segno di spunta, la query è comunque disponibile nella scheda della query ed è possibile usarla con altre query.  Ciò è particolarmente utile in combinazione con trasformazioni di merge, accodamento e riferimento.  Tuttavia, poiché i risultati della query non vengono caricati nel modello di dati, la query non crea confusione nell'elenco di campi del report o nel modello di dati.
 
 ### <a name="scatter-charts-need-a-point-identifier"></a>Necessità di un identificatore di punto nei grafici a dispersione
-Si prenda come esempio una semplice tabella con valori delle temperature e dell'ora in cui è stata eseguita la misurazione. Se si tracciano questi valori direttamente in un grafico a dispersione, Power BI aggrega tutti i valori in un singolo punto. Per mostrare i singoli punti dati, sarà necessario aggiungere un campo al bucket Dettagli nel contenitore di campi.   Per eseguire in modo semplice questa operazione in Power BI Desktop, nella scheda della query usare l'opzione "Aggiungi colonna indice" della scheda "Aggiungi colonna" della barra multifunzione.
+Si prenda come esempio una semplice tabella con valori delle temperature e dell'ora in cui è stata eseguita la misurazione. Se si tracciano questi valori direttamente in un grafico a dispersione, Power BI aggrega tutti i valori in un singolo punto. Per mostrare i singoli punti dati, sarà necessario aggiungere un campo al bucket Dettagli nel contenitore di campi.   Per eseguire in modo semplice questa operazione in Power BI Desktop, nella scheda della query usare l'opzione "Aggiungi colonna indice" della scheda "Aggiungi colonna" sulla barra multifunzione.
 
 ### <a name="reference-lines-in-your-report"></a>Linee di riferimento nel report
 È possibile usare una colonna calcolata in Power BI Desktop per definire una linea di riferimento.  Identificare la tabella e la colonna in cui si vuole creare una linea di riferimento.  Selezionare "Nuova colonna" sulla barra multifunzione e nella barra della formula digitare la formula seguente:
@@ -166,7 +166,7 @@ Talvolta è utile calcolare le statistiche di riepilogo per un set di dati.  Il 
 ### <a name="using-dax-for-the-first-time"></a>Uso di DAX per la prima volta
 DAX è il linguaggio delle formule di calcolo in Power BI Desktop,  ottimizzato per le analisi di business intelligence.  È leggermente diverso rispetto a ciò che già si potrebbe conoscere se è stato usato solo un linguaggio di query simile a SQL. Sono disponibili efficaci risorse online e cartacee per apprendere DAX.
 
-[Guida introduttiva: Nozioni di base di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [Informazioni di riferimento su DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 

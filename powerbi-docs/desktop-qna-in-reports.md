@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usare Domande e risposte in Power BI Desktop per eseguire query in linguaggio naturale
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in **Power BI Desktop**.
 
 Per consentire a Domande e risposte di interpretare correttamente l'ampia raccolta di domande a cui è in grado di rispondere, Domande e risposte deve fare ipotesi sul modello. Se la struttura del modello non soddisfa una o più di tali ipotesi, sarà necessario rettificare il modello. Le rettifiche per Domande e risposte corrispondono alle procedure di ottimizzazione consigliate per qualsiasi modello in Power BI, indipendentemente dal fatto che si usi Domande e risposte o meno. 
+
+> [!NOTE]
+> Le Domande e risposte sono disponibili solo quando si usa un modello contenente dati **importati**. Le connessioni dinamiche a modelli SSAS e DirectQuery non sono supportate.
+>
+>
 
 Nelle sezioni seguenti viene descritto come adattare il modello per il corretto funzionamento con Domande e risposte in Power BI.
 

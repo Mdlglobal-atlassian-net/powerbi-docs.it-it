@@ -1,13 +1,13 @@
 ---
-title: Esercitazione - Uso degli esempi di Power BI.
-description: 'Esercitazione: Uso degli esempi di Power BI'
+title: Uso degli esempi di Power BI
+description: Uso degli esempi di Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 03/08/2017
 ms.service: powerbi
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 8255b14fea75f3a2f83629a6beb8fe3281d012e4
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3a9cf39d3601a3f1c6b35d20726144cb404bdbe2
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="the-power-bi-samples-a-tutorial"></a>Esercitazione sugli esempi di Power BI
+# <a name="the-power-bi-samples"></a>Gli esempi di Power BI
 
 È consigliabile iniziare dall'articolo [Set di dati di esempio per Power BI](sample-datasets.md). Quell'articolo illustra in dettaglio tutti gli esempi, come ottenerli, dove salvarli, come usarli e alcuni degli scenari che possono aiutare a chiarire. Una volta acquisite le nozioni di base, proseguire con questa esercitazione.   
 

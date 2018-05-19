@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 992282438ceac88dce759b60dc26f0767d0b1f86
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Usare Misure rapide per eseguire facilmente calcoli comuni e avanzati
 È possibile usare **Misure rapide** per eseguire facilmente e velocemente calcoli comuni e avanzati. Una **misura rapida** esegue un set di comandi DAX in background in base all'input fornito dall'utente in una finestra di dialogo, quindi presenta i risultati da usare nel report. Non è quindi necessario scrivere i comandi DAX perché quest'operazione viene eseguita automaticamente. Soprattutto, è possibile visualizzare le espressioni DAX che vengono eseguite dalla Misura rapida e iniziare subito o espandere le proprie competenze di DAX.
@@ -43,8 +43,6 @@ Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop**.
 Per creare una **Misura rapida**, fare clic con il pulsante destro del mouse su un campo qualsiasi nell'area **Campi** in **Power BI Desktop** e selezionare **Misura rapida** dal menu visualizzato.
 
 ![](media/desktop-quick-measures/quick-measures_01.png)
-
-Per rendere disponibile la funzionalità **Misure rapide**, la modellazione deve essere disponibile nel set di dati attualmente caricato. Di conseguenza, nelle connessioni dinamiche (ad esempio una connessione a un set di dati del servizio Power BI) la voce di menu **Misure rapide** non sarà visualizzata quando si fa clic con il pulsante destro del mouse sull'elenco **Campi**, tranne nel caso delle connessioni SSAS in tempo reale. 
 
 Quando si usano le connessioni in tempo reale di SQL Server Analysis Services (SSAS), alcune **Misure rapide** sono disponibili. **Power BI Desktop** visualizza solo la raccolta di **Misure rapide** supportate per la versione di SSAS a cui viene effettuata la connessione. Quindi, se si è connessi a un'origine dati dinamica e alcune **Misure rapide** non sono disponibili nell'elenco, è perché la versione di SSAS a cui si è connessi non supporta la misura DAX usata per implementare la **Misura rapida** in questione.
 
@@ -141,9 +139,10 @@ Infine, dopo aver perfezionato la misura, è possibile rinominarla nel modo pref
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Occorre tenere presenti alcune limitazioni e considerazioni.
 
-* Le **Misure rapide** sono disponibili solo se è possibile modificare il modello, che non è il caso quando si usa DirectQuery o la maggior parte delle connessioni dinamiche (come indicato in precedenza, le connessioni SSAS in tempo reale sono supportate).
+* Le **misure rapide** sono disponibili solo se è possibile modificare il modello, operazione che non si esegue quando si usano connessioni dinamiche. Le connessioni dinamiche tabulari SSAS sono supportate, come illustrato in precedenza.
 * La misura che viene aggiunta all'area **Campi** può essere usata con qualsiasi oggetto visivo nel report.
 * È sempre possibile visualizzare l'espressione DAX associata a una **Misura rapida** selezionando la misura creata nell'area **Campi**, quindi osservando la formula nella **barra della formula**.
+* Non è possibile creare misure rapide di Business Intelligence per le gerarchie temporali in modalità DirectQuery. Le funzioni DAX usate in queste misure rapide hanno implicazioni sulle prestazioni quando vengono convertite nelle istruzioni T-SQL che vengono inviate all'origine dati.
 
 > [!WARNING]
 > Le misure rapide attualmente generano *solo* istruzioni DAX con virgole come separatori di argomento. Se la versione di **Power BI Desktop** è localizzata in una lingua che usa le virgole come separatori decimali, le misure rapide non funzioneranno correttamente.
@@ -151,7 +150,7 @@ Occorre tenere presenti alcune limitazioni e considerazioni.
 > 
 
 ### <a name="time-intelligence-and-quick-measures"></a>Funzionalità di Business Intelligence per le gerarchie temporali e misure rapide
-A partire dall'aggiornamento di ottobre 2017 per **Power BI Desktop**, sarà possibile usare tabelle di date personalizzate con **Misure rapide** con funzionalità di Business Intelligence per le gerarchie temporali. Se il modello di dati contiene una tabella di date personalizzata, è possibile usare la colonna della data primaria nella tabella per le misure rapide con funzionalità di Business Intelligence per le gerarchie temporali. *È necessario* assicurarsi che al momento della creazione del modello la colonna della data primaria nella tabella sia stata contrassegnata come Tabella data, come descritto in [questo articolo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular).
+A partire dall'aggiornamento di ottobre 2017 per **Power BI Desktop**, sarà possibile usare tabelle di date personalizzate con **Misure rapide** con funzionalità di Business Intelligence per le gerarchie temporali. Se si sta usando un modello tabulare esterno, assicurarsi che al momento della creazione del modello la colonna della data primaria nella tabella sia stata contrassegnata come tabella data, come descritto in [questo articolo](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular). Se si sta importando la propria tabella data, verificare di averla contrassegnata come tabella data, come descritto in [questo articolo](https://docs.microsoft.com/power-bi/desktop-date-tables)
 
 ### <a name="additional-information-and-examples"></a>Altre informazioni ed esempi
 In futuro saranno forniti esempi e istruzioni per ciascuno dei calcoli delle **Misure rapide**, quindi si consiglia di tornare a verificare la presenza di aggiornamenti dell'articolo mirato.
