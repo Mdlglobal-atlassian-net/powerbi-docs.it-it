@@ -1,28 +1,21 @@
 ---
 title: Interazione con una mappa ArcGIS condivisa con l'utente
 description: 'Uso della mappa di ArcGis in visualizzazione di lettura '
-services: powerbi
-documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 tags: power bi, service, desktop, mobile
-featuredvideoid: 
-qualityfocus: monitoring
-qualitydate: 06/23/2017
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 3a4c722144b1d3d44dee0f742b5ae90ccef53fe3
-ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
+ms.openlocfilehash: 2a5e654062c056308431b2a94f7e2da4e3d46d17
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interazione con le mappe ArcGIS in Power BI
 Questo argomento è stato scritto dal punto di vista di una persona che *utilizza* una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando l'autore condivide una mappa ArcGIS con l'utente, è possibile interagire con essa in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione Mappe di ArcGIS di Esri](power-bi-visualization-arcgis.md).

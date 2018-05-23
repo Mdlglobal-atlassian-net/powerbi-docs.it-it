@@ -1,27 +1,19 @@
 ---
 title: Frammenti di codice per eseguire la migrazione del contenuto da Power BI Embedded
 description: Ecco alcuni frammenti di codice di operazioni di base necessarie per la migrazione del contenuto
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI
 Ecco alcuni frammenti di codice di operazioni di base necessarie per la migrazione del contenuto. Per flussi correlati a determinati tipi di report, vedere [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
@@ -149,7 +141,7 @@ In questo frammento di codice per semplicità si usano le credenziali non critto
     }
 
     var basicCreds = new BasicCreds() { user = <sqldb_username>, pwd = <sqldb_password> };
-    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCreds = basicCreds };
+    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCredentials = basicCreds };
 
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);

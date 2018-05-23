@@ -1,27 +1,19 @@
 ---
 title: Supporto del browser per il server di report di Power BI
 description: Informazioni su quali versioni del browser sono supportate per la gestione e la visualizzazione del server di report di Power BI e i controlli del Visualizzatore report.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 23eea014ca4554a2df676cf1fe0be54c2b69d15a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Supporto del browser per il server di report di Power BI
 Informazioni su quali versioni del browser sono supportate per la gestione e la visualizzazione del server di report di Power BI e i controlli del Visualizzatore report.

@@ -1,27 +1,19 @@
 ---
 title: Scansionare un codice a matrice di Power BI dal dispositivo mobile
 description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni di BI correlate nell'app Power BI per dispositivi mobili iPhone e Android.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 9ce22194c6896865d231cfe9f33049f8da21083e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scansionare un codice a matrice di Power BI dal dispositivo mobile
 Si applica a:
@@ -30,7 +22,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |
 | iPhone |Telefoni Android |Tablet Android |
 
-I codici a matrice in Power BI possono connettere qualsiasi elemento nel mondo reale direttamente a informazioni correlate di BI &#151;senza dover effettuare nessuno spostamento o ricerca.
+I codici a matrice in Power BI possono connettere qualsiasi elemento nel mondo reale direttamente a informazioni correlate di BI & #151 senza dover effettuare nessuno spostamento o ricerca.
 
 Si supponga che un collega abbia [creato un codice a matrice nel servizio Power BI](service-create-qr-code-for-tile.md) per report o un riquadro in un dashboard, abbia condiviso il dashboard o il report e abbia inserito il codice a matrice in un percorso chiave, ad esempio in un messaggio di posta elettronica o in un elemento specifico. 
 

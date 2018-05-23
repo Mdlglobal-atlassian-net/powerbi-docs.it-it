@@ -1,34 +1,26 @@
 ---
 title: Creare un set di dati
 description: Procedura dettagliata - Eseguire il push dei dati in un set di dati - Creare un set di dati in Power BI
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 31677a3d92ece6944825eccad190863f67c3a145
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: c94f0a94cfc2e59942a17b542efb7b1bb641174c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Passaggio 3: Creare un set di dati in Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
 Nel **passaggio 2** [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) della procedura per il push dei dati in un set di dati è stato ottenuto un token per l'autenticazione in **Azure AD**. In questo passaggio il token viene usato per chiamare l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx).
 
-Per effettuare una chiamata a una risorsa REST, si usa un URL che individua la risorsa e si invia una stringa JSON (JavaScript Object Notation), che descrive il set di dati, alla risorsa del servizio Power BI. Una risorsa REST identifica la parte del servizio Power BI con cui si vuole lavorare. Per il push dei dati nel set di dati, la risorsa di destinazione è un **set di dati**. L'URL che identifica un set di dati è https://api.PowerBI.com/v1.0/myorg/datasets. Se si esegue il push dei dati all'interno di un gruppo, l'url è https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Per effettuare una chiamata a una risorsa REST, si usa un URL che individua la risorsa e si invia una stringa JSON (JavaScript Object Notation), che descrive il set di dati, alla risorsa del servizio Power BI. Una risorsa REST identifica la parte del servizio Power BI con cui si vuole lavorare. Per il push dei dati nel set di dati, la risorsa di destinazione è un **set di dati**. L'URL che identifica un set di dati è https://api.PowerBI.com/v1.0/myorg/datasets. Se si esegue il push dei dati all'interno di un gruppo, l'URL è https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Per autenticare un'operazione REST di Power BI, si aggiunge il token ottenuto in [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) a un'intestazione della richiesta:
 

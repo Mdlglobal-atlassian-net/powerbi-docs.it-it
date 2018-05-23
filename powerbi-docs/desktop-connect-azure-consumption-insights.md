@@ -1,28 +1,20 @@
 ---
 title: Connettersi ai dati di Azure Consumption Insights in Power BI Desktop (Beta)
 description: Connettersi ad Azure e ottenere informazioni dettagliate sull'utilizzo con Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -151,7 +143,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 
 | Connettore ACI / ContentPack ColumnName | Nome colonna API ACI | Nome colonna EA | Obsoleta/presente per compatibilità con le versioni precedenti |
 | --- | --- | --- | --- |
-| AccountName |accountName |Nome account |No |
+| AccountName |accountName |Account Name |No |
 | AccountId |accountId | |Sì |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |No |
 | AdditionalInfo |additionalInfo |AdditionalInfo |No |
@@ -159,11 +151,11 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | Consumed Quantity |consumedQuantity |Consumed Quantity |No |
 | Consumed Service |consumedService |Consumed Service |No |
 | ConsumedServiceId |consumedServiceId | |Sì |
-| Cost |cost |Costo esteso |No |
+| Cost |cost |ExtendedCost |No |
 | Centro di costo |costCenter |Centro di costo |No |
 | Date |date |Date |No |
 | Giorno | |Giorno |No |
-| DepartmentName |departmentName |Nome reparto |No |
+| DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
 | ID istanza | | |Sì |
 | InstanceId |instanceId |ID istanza |No |
@@ -189,7 +181,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | ServiceInfo2Id | | |Sì |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |No |
 | StoreServiceIdentifierId | | |Sì |
-| Subscription Name |subscriptionName |Subscription Name |No |
+| Nome sottoscrizione |subscriptionName |Nome sottoscrizione |No |
 | Tag |tags |Tag |No |
 | TagsId | | |Sì |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |No |

@@ -1,27 +1,19 @@
 ---
-title: "Visualizzare la modalità presentazione in Surface Hub e Windows 10 - Power BI"
-description: "Scoprire di più sulla visualizzazione dei report di Power BI in Surface Hub e sulla visualizzazione di dashboard, report e riquadri di Power BI in modalità schermo intero nei dispositivi Windows 10."
-services: powerbi
-documentationcenter: 
+title: Visualizzare la modalità presentazione in Surface Hub e Windows 10 - Power BI
+description: Scoprire di più sulla visualizzazione dei report di Power BI in Surface Hub e sulla visualizzazione di dashboard, report e riquadri di Power BI in modalità schermo intero nei dispositivi Windows 10.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: cd4fa5d694b76a93ccb017ec17473e8f2775ed85
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Visualizzare i report in modalità presentazione in Surface Hub e Windows 10 - Power BI
 È possibile visualizzare i report in modalità presentazione in Surface Hub, quindi dashboard, report e riquadri in modalità schermo intero nei dispositivi Windows 10. 

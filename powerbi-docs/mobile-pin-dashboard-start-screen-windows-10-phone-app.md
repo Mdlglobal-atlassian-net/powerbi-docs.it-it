@@ -1,27 +1,19 @@
 ---
 title: Aggiungere un dashboard alla schermata Start di Windows 10 - App Power BI per dispositivi mobili
-description: "La sezione seguente descrive come aggiungere un dashboard di Power BI alla schermata Start di Windows 10 dall'app Power BI per dispositivi mobili, in modo da visualizzare le metriche più importanti a colpo d'occhio."
-services: powerbi
-documentationcenter: 
+description: La sezione seguente descrive come aggiungere un dashboard di Power BI alla schermata Start di Windows 10 dall'app Power BI per dispositivi mobili, in modo da visualizzare le metriche più importanti a colpo d'occhio.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: f06793bc6620e27ab5937a0043e9dc6a94119110
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Aggiungere un dashboard alla schermata Start di Windows 10 dall'app Power BI per dispositivi mobili
 È possibile aggiungere dashboard di Power BI alla schermata Start di Windows dall'app Power BI per dispositivi mobili per Windows 10. Questi diventano *riquadri animati*. Quando si tocca il riquadro nella schermata Start, il dashboard viene aperto nell'app Power BI per dispositivi mobili per Windows 10.

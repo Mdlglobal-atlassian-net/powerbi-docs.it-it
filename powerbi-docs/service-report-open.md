@@ -1,27 +1,19 @@
 ---
 title: Aprire un report in visualizzazione di lettura o in visualizzazione di modifica nel servizio Power BI
 description: Aprire un report di Power BI in visualizzazione di lettura o visualizzazione di modifica
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 13a745e65f1166690ade4f0279e0374ed95f053b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Aprire un report nel servizio Power BI (app.powerbi.com)
 I report sono disponibili nel servizio Power BI, Power BI Desktop, Power BI per dispositivi mobili e anche in Power BI Embedded. Questo articolo è applicabile all'apertura di report nel ***servizio Power BI***.

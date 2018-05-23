@@ -1,27 +1,19 @@
 ---
 title: Cosa si può fare con l'API Power BI
 description: Cosa si può fare con l'API Power BI
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: a65831e9ca04170464925efd13f02e43ad8027f0
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?
 Power BI visualizza dashboard interattivi, che possono essere creati e aggiornati da molte origini dati diverse in tempo reale. Usando qualsiasi linguaggio di programmazione che supporta chiamate REST, è possibile creare un'app che si integra con un dashboard di Power BI in tempo reale. È anche possibile integrare riquadri e report di Power BI nelle app.

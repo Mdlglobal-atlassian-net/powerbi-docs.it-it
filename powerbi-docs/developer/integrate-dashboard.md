@@ -1,27 +1,19 @@
 ---
 title: Integrare un dashboard in un'app per l'organizzazione
 description: Informazioni su come integrare o incorporare un dashboard in un'app Web tramite le API di Power BI.
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: e85b745798fd33ffbb5061f4c156054d2218bfb1
-ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
+ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrare un dashboard in un'app per l'organizzazione
 Informazioni su come integrare o incorporare un dashboard in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.
