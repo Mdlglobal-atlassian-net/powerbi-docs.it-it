@@ -1,28 +1,20 @@
 ---
 title: Aggiungere a un report un filtro di visualizzazione, di pagina, di drill-through o di report
 description: Aggiungere un filtro di pagina, di visualizzazione o di report a un report in Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e6cf99ab981bb16e4d423733972798b5ca5f53e6
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Aggiungere un filtro a un report del servizio Power BI (in Visualizzazione di modifica)
 > [!TIP]
@@ -43,7 +35,7 @@ Per interagire con i report è possibile usare una di queste modalità: [Visuali
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filtri disponibili nel riquadro *Filtri* di Power BI
-Sia in Power BI Desktop che nel servizio Power BI il riquadro Filtri è visualizzato sul lato destro del canvas del report. Se il riquadro Filtri non è visibile, selezionare l'icona ">" nell'angolo superiore destro per espanderlo.
+Sia in Power BI Desktop che nel servizio Power BI il riquadro Filtri è visualizzato sul lato destro dell'area di disegno report. Se il riquadro Filtri non è visibile, selezionare l'icona ">" nell'angolo superiore destro per espanderlo.
 
 Sono disponibili quattro tipi di filtri.
 

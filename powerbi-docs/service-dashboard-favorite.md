@@ -1,29 +1,21 @@
 ---
 title: Preferiti nel servizio Power BI (dashboard, report, app)
 description: Documentazione per impostare i dashboard, i report e le app come Preferiti nel servizio Power BI
-services: powerbi
-documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Aggiungere a Preferiti dashboard, report e app nel servizio Power BI
 Dopo aver aggiunto un contenuto a *Preferiti* è possibile accedere a tale contenuto da tutte le aree di lavoro.  I Preferiti sono in genere i contenuti a cui si accede con maggior frequenza.
@@ -54,7 +46,7 @@ Il video seguente illustra come aggiungere preferiti all'area di lavoro personal
 
 1. Nel riquadro di spostamento a sinistra selezionare **App**.
 
-   ![Dashboard](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![dashboard](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
 2. Portare il puntatore del mouse su un'app per visualizzare altri dettagli.  Selezionare l'icona a forma di stella ![Icona a forma di stella](media/service-dashboard-favorite/power-bi-favorite-icon.png)  per aggiungere l'app a Preferiti.
    

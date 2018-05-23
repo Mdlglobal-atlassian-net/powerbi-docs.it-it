@@ -1,28 +1,20 @@
 ---
 title: Spostare, ridimensionare ed espandere una visualizzazione
 description: Spostare e ridimensionare una visualizzazione in un report nel servizio Power BI e in Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 38c8787592407e15711617f0baac10f2a81790dd
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Spostare e ridimensionare una visualizzazione in un report nel servizio Power BI e in Power BI Desktop
 Solo gli autori e i proprietari dei report possono spostare e ridimensionare le visualizzazioni. Nel servizio Power BI (app.powerbi.com) è necessario aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md).

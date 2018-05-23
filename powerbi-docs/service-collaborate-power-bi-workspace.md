@@ -1,28 +1,20 @@
 ---
 title: Collaborare nell'area di lavoro per le app di Power BI
 description: Informazioni su come collaborare ai file di Power BI Desktop nell'area di lavoro per le app e con i servizi di Office 365, ad esempio la condivisione di file in OneDrive for Business, le conversazioni in Exchange, il calendario e le attività.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Collaborare nell'area di lavoro per le app di Power BI
 Le aree di lavoro per le app di Power BI sono la soluzione ideale per collaborare con i colleghi all'elaborazione di dashboard, report e set di dati per la creazione di *app*. Lo scopo delle aree di lavoro è proprio quello di incentivare la collaborazione. Una volta terminata la collaborazione con i colleghi all'elaborazione dei dashboard e dei report, è possibile creare un pacchetto contenente l'app e distribuirlo. Altre informazioni sulla [creazione di app e aree di lavoro per le app in Power BI](service-create-distribute-apps.md). 

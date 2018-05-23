@@ -1,28 +1,20 @@
 ---
 title: Creare una visualizzazione di un dashboard di Power BI per telefoni cellulari
 description: Informazioni su come creare una visualizzazione personalizzata di un dashboard nel servizio Power BI in particolare per la visualizzazione nei telefoni cellulari.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: babc9f97ed8c45c2cb9ac994d881941d03629676
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Creare una visualizzazione di un dashboard di Power BI ottimizzata per telefoni cellulari
 Quando si visualizzano i dashboard nell'app per dispositivi mobili di Power BI in un telefono, si noterà che i riquadri del dashboard sono disposti uno dopo l'altro, tutti con le stesse dimensioni. Nel servizio Power BI è possibile creare una visualizzazione personalizzata di qualsiasi dashboard di cui si è proprietari, in particolare per i telefoni.

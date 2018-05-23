@@ -1,28 +1,20 @@
 ---
 title: Connettersi a Webtrends con Power BI
 description: Webtrends per Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c8772430143b974fb389eac2f2ad3e74748fd3f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 89eda507e0b908fe746cb13c0c6477baed07ba3c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Connettersi a Webtrends con Power BI
 Il pacchetto di contenuto Webtrends per Power BI include una serie di metriche predefinite come, ad esempio, visualizzazioni pagina totali e visite per origine traffico. La visualizzazione dei dati Webtrends in Power BI inizia con la connessione al proprio account Webtrends. È possibile usare il dashboard e i report forniti oppure personalizzarli per evidenziare le informazioni a cui si è maggiormente interessati.  I dati verranno aggiornati automaticamente una volta al giorno.
@@ -102,7 +94,7 @@ Le credenziali sono uguali a quelle immesse per l'accesso a Webtrends, tuttavia 
 ![](media/service-connect-to-webtrends/webtrendscreds.png)
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
-È possibile riscontrare un problema durante il caricamento del pacchetto di contenuto dopo aver fornito le credenziali. Se viene visualizzato il messaggio "Si è verificato un errore" durante il caricamento, consultare i seguenti suggerimenti per la risoluzione dei problemi. Se i problemi persistono, aprire un ticket di supporto all'indirizzo https://support.powerbi.com.
+È possibile riscontrare un problema durante il caricamento del pacchetto di contenuto dopo aver fornito le credenziali. Se viene visualizzato il messaggio "Si è verificato un errore" durante il caricamento, consultare i seguenti suggerimenti per la risoluzione dei problemi. Se i problemi persistono, aprire un ticket di supporto all'indirizzo https://support.powerbi.com
 
 1. Viene usato l'ID di profilo corretto (per informazioni dettagliate su come [trovare i parametri](#FindingParams), vedere più avanti).
 2. L'utente ha accesso ai report elencati nella sezione ["Cosa è incluso"](#Included)

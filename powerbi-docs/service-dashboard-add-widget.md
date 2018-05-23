@@ -1,35 +1,27 @@
 ---
 title: Aggiungere immagini, testo, video e dati di streaming al dashboard
 description: Documentazione su come usare il widget Aggiungi riquadro per aggiungere un riquadro per immagini, video, caselle di testo, codice Web e dati di streaming a un dashboard.
-services: powerbi
-documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
-qualityfocus: identified
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="add-tile"></a>Aggiungere un riquadro
+## <a name="add-tile"></a>Aggiungi riquadro
 Il controllo **Aggiungi riquadro** consente di aggiungere direttamente un'immagine, una casella di testo, un video, uno streaming di dati o un codice Web al dashboard.
 
 1. Selezionare **Aggiungi riquadro** nella barra dei menu superiore. A seconda delle limitazioni di spazio, potrebbe essere visualizzato solo il segno più ![segno più](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).

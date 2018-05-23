@@ -1,28 +1,20 @@
 ---
 title: Iscrizione a Power Bi per i clienti del Governo degli Stati Uniti
 description: I clienti del Governo degli Stati Uniti troveranno informazioni su come iscrivere la propria organizzazione governativa al servizio Power Bi del Governo degli Stati Uniti
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 17d7c07cb35eb9046b6fcfe8da5a85ee15fe7eaf
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrare l'organizzazione governativa statunitense al servizio Power BI
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione a pagamento del **servizio Power BI**.
@@ -130,7 +122,7 @@ Per identificare gli utenti del tenant che usano la licenza gratuita di Power BI
 Power BI offre infinite possibilità. Per altre informazioni e per la formazione, tra cui un articolo che illustra come effettuare l'iscrizione al servizio, vedere le risorse seguenti:
 
 * [Panoramica di Power BI per il Governo degli Stati Uniti](service-govus-overview.md)
-* [Apprendimento guidato per Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Apprendimento guidato per Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Introduzione al servizio Power BI](service-get-started.md)
 * [Introduzione a Power BI Desktop](desktop-getting-started.md)
 

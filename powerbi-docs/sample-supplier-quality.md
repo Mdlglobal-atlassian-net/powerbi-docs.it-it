@@ -1,33 +1,25 @@
 ---
-title: "Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI"
-description: "Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI"
-services: powerbi
-documentationcenter: 
+title: Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI
+description: Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5636ccd4685205b2b01dd4c591942d7d2670bc48
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Breve panoramica dell'Esempio di analisi della qualità dei fornitori
-Questo dashboard di esempio del settore, unitamente al report sottostante, consentono di analizzare una delle problematiche tipiche della supply chain: l'analisi della qualità dei fornitori.
+Questo dashboard di esempio specifico del settore, unitamente al report sottostante, consente di analizzare una delle problematiche tipiche della supply chain: l'analisi della qualità dei fornitori.
 Questa analisi si basa su due metriche principali: numero totale di difetti e tempo totale di inattività causato da tali difetti. Questo esempio ha due obiettivi principali:
 
 * Individuare i fornitori migliori e peggiori in termini di qualità

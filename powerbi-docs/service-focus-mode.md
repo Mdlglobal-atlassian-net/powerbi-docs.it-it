@@ -1,29 +1,21 @@
 ---
 title: Modalità messa a fuoco - Fare zoom avanti in una singola visualizzazione per visualizzare altri dettagli.
 description: Documentazione per la visualizzazione di un riquadro di un dashboard o di visualizzazioni di un report di Power BI in modalità messa a fuoco o apri nuova finestra.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 367a6b9b5de4d052dac3ca3b80be5f4037467646
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco
 
@@ -45,9 +37,9 @@ La modalità ***messa a fuoco*** consente di espandere (aprire in una nuova fine
 
     ![Menu di puntini di sospensione per il riquadro](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
 
-2. Il riquadro si apre e riempie l'intero canvas del report. 
+2. Il riquadro si apre e riempie l'intera area di disegno report. 
 
-   ![Il riquadro riempie il canvas del report](media/service-focus-mode/power-bi-tile-focus.png)
+   ![Il riquadro riempie l'area di disegno del report](media/service-focus-mode/power-bi-tile-focus.png)
 
 3. Espandere il riquadro Filtri per visualizzare tutti i filtri applicati a questo oggetto visivo.
    
@@ -65,7 +57,7 @@ La modalità ***messa a fuoco*** consente di espandere (aprire in una nuova fine
 1. Passare il puntatore del mouse sulla visualizzazione del report e selezionare l'icona della **modalità messa a fuoco** ![Icona della modalità messa a fuoco](media/service-focus-mode/pbi_popout.jpg).  
    
    ![Icona della modalità messa a fuoco visualizzata nel riquadro](media/service-focus-mode/power-bi-hover-focus.png)
-2. La visualizzazione si apre e riempie l'intero canvas. 
+2. La visualizzazione si apre e riempie l'intera area di disegno. 
 
    ![Oggetto visivo nella modalità messa a fuoco](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Espandere il riquadro Filtri per visualizzare tutti i filtri applicati a questo oggetto visivo.

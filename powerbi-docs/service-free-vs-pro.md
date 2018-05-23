@@ -1,28 +1,20 @@
 ---
 title: Differenze tra la versione gratuita e la versione Pro di Power BI
 description: Ogni utente di Power BI usa la versione gratuita o Pro. È utile comprendere le differenze tra questi due tipi di utenti.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 9fff53ffca1e863603467549e2e5495ffbfaf0cf
-ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
+ms.openlocfilehash: b472ba4ddd194fae668961b0601b6ab749c598e7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Differenze tra la versione gratuita e la versione Pro di Power BI
 Ogni utente di Power BI usa la versione gratuita o Pro. È utile comprendere le differenze tra questi due tipi di utenti.

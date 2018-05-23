@@ -1,28 +1,20 @@
 ---
 title: Come esportare un report dal servizio Power BI a Power BI Desktop (anteprima)
 description: Scaricare un report dal servizio Power BI in un file di Power BI Desktop
-services: powerbi
-documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Esportare un report dal servizio Power BI in Desktop (anteprima)
 In Power BI Desktop è possibile esportare un report nel servizio Power BI (operazione talvolta definita *download*) salvando il report e selezionando **Pubblica**. È possibile esportare anche nell'altra direzione e scaricare un report dal servizio Power BI a Desktop. L'estensione per i file di esportazione, in entrambe le direzioni, è *PBIX*.
@@ -38,7 +30,7 @@ Per scaricare il file con estensione pbix, seguire questi passaggi:
 2. Nella barra dei menu selezionare **File > Scarica report**.
    
    > [!NOTE]
-   > Per poterlo scaricare, il report deve essere stato [creato con Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) dopo il 23 novembre 2016 (e aggiornato dopo tale data). In caso contrario, la voce di menu *Scarica report* nel servizio Power BI è inattiva.
+   > Per poterlo scaricare, il report deve essere stato [creato con Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) dopo il 23 novembre 2016 (e aggiornato dopo tale data). In caso contrario, la voce di menu *Scarica report* nel servizio Power BI è inattiva.
    > 
    > 
 3. Durante la creazione del file con estensione pbix, un messaggio di stato indica lo stato di avanzamento. Quando il file è pronto, verrà chiesto di aprire o salvare il file con estensione pbix. Il nome del file corrisponde al titolo del report.
