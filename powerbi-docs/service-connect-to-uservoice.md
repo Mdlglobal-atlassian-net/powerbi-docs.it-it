@@ -1,28 +1,20 @@
 ---
 title: Connettersi a UserVoice con Power BI
 description: UserVoice per Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Connettersi a UserVoice con Power BI
 Tenere traccia ed esplorare i dati di UserVoice è facile con Power BI e il pacchetto di contenuto UserVoice. Power BI recupera i dati, inclusi ticket, suggerimenti e valutazioni della soddisfazione, quindi crea un dashboard e dei report predefiniti in base a tali dati.
@@ -42,7 +34,7 @@ Connettersi al [pacchetto di contenuto UserVoice](https://app.powerbi.com/getdat
 3. Selezionare **UserVoice**, quindi selezionare **Recupera**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Quando richiesto, immettere l'URL di UserVoice. L'URL deve rispettare esattamente il modello https://fabrikam.uservoice.com, sostituendo "fabrikam" con il nome del prodotto o del servizio appropriato.
+4. Quando richiesto, immettere l'URL di UserVoice. L'URL deve rispettare esattamente il modello seguente https://fabrikam.uservoice.com sostituendo "fabrikam" con il nome del prodotto o servizio usato.
    
    >[!NOTE]
    >Alla fine dell'URL non c'è la barra e la connessione è di tipo http**s**.

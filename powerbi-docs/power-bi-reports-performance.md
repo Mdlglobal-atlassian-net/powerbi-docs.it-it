@@ -1,28 +1,20 @@
 ---
 title: Procedure consigliate per le prestazioni di Power BI
 description: Questo articolo fornisce indicazioni per creare report veloci e affidabili in Power BI
-services: powerbi
-documentationcenter: ''
 author: MarkMcGeeAtAquent
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/12/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 78dcd0ac0735bfbb3c22678d6bda1397120360cd
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
@@ -96,8 +88,14 @@ Si noti che per DirectQuery e le connessioni dinamiche, la cache della query vie
 ## <a name="understand-custom-visual-performance"></a>Informazioni sulle prestazioni degli oggetti visivi 
 Assicurarsi di testare ogni oggetti visivo personalizzato per garantirne le prestazioni elevate. Gli oggetti visivi personalizzati non ottimizzati possono influire negativamente sulle prestazioni dell'intero report. 
  
-## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Esaminare in modo approfondito le prestazioni delle query con SQL Profiler e Power BI Desktop 
-Per un esame approfondito sugli oggetti visivi che utilizzano la maggior quantità di risorse e tempo, è possibile connettere SQL Profiler a Power BI Desktop per ottenere una panoramica completa sulle prestazioni delle query. Istruzioni: 
+## <a name="deep-dive-into-query-performance-with-sql-profiler-and-power-bi-desktop"></a>Esaminare in modo approfondito le prestazioni delle query con SQL Profiler e Power BI Desktop
+
+Per un esame approfondito sugli oggetti visivi che utilizzano la maggior quantità di risorse e tempo, è possibile connettere SQL Profiler a Power BI Desktop per ottenere una panoramica completa sulle prestazioni delle query.
+
+> [!NOTE]
+> Power BI Desktop supporta la connessione a una porta di diagnostica. La porta di diagnostica offre altri strumenti a cui connettersi e consente di eseguire analisi per scopi diagnostici. *Le modifiche al modello non sono supportate. Le modifiche al modello potrebbero causare danneggiamento e perdita dei dati.*
+
+Istruzioni:
   
 1. **Installare SQL Server Profiler ed eseguire Power BI Desktop** 
 

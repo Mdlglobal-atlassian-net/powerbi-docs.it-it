@@ -1,28 +1,20 @@
 ---
 title: Connettersi a Zuora con Power BI
 description: Zuora per Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2f7e4c666cf6ec3cb69424a3922f5feedd61bf89
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Connettersi a Zuora con Power BI
 Zuora per Power BI consente di visualizzare dati importanti relativi a ricavi, fatturazione e sottoscrizioni. È possibile usare il dashboard e i report predefiniti per analizzare le tendenze di utilizzo, tenere traccia di fatture e pagamenti e monitorare i ricavi ricorrenti oppure personalizzare dashboard e report in base alle esigenze specifiche.
@@ -39,7 +31,7 @@ Connettersi a [Zuora](https://app.powerbi.com/getdata/services/Zuora) per Power 
 3. Selezionare **Zuora** \> **Recupera**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Specificare l'URL di Zuora. In genere è "https://www.zuora.com". Per informazioni dettagliate su come [trovare questi parametri](#FindingParams), vedere più avanti.
+4. Specificare l'URL di Zuora. Il percorso è solitamente "https://www.zuora.com". Per informazioni dettagliate sulla [ricerca dei parametri](#FindingParams), vedere più avanti.
 
    ![](media/service-connect-to-zuora/params.png)
 5. In **Metodo di autenticazione**selezionare **Di base** e fornire il nome utente e la password (distinzione tra maiuscole e minuscole), quindi selezionare **Accedi**.

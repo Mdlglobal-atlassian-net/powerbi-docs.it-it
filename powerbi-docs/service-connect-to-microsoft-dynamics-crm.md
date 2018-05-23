@@ -1,28 +1,20 @@
 ---
 title: Connettersi a Microsoft Dynamics con Power BI
 description: Microsoft Dynamics CRM per Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7bfb936bdff4ba7ddd5097c3f59003d48c70347
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Connettersi a Microsoft Dynamics CRM con Power BI
 Microsoft Dynamics CRM Online per Power BI consente di accedere ai dati e analizzarli facilmente. Power BI usa il feed OData per creare un modello descrittivo con tutte le entità e le misurazioni necessarie, tra cui account, attività, opportunità, prodotti, lead, utenti e così via. Dopo aver installato l'app è possibile visualizzare dashboard e report nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nelle app per dispositivi mobili di Power BI. 
@@ -64,7 +56,7 @@ Il dashboard e i report hanno lo scopo di fornire report operativi su dati a bre
 ### <a name="sales-manager"></a>Responsabile vendite
 Il dashboard e i report contengono metriche chiave quali:  
 
-* Ricavi ottenuti   
+* Won Revenue   
 * Percentuale di trattative concluse   
 * Ricavi aperti   
 * Ricavi persi   

@@ -1,30 +1,23 @@
 ---
-title: "Esercitazione: Connettersi all'app GitHub con Power BI"
+title: 'Esercitazione: Connettersi a un esempio di GitHub con Power BI'
 description: In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report.
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>Esercitazione: Connettersi all'app GitHub con Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Esercitazione: Connettersi a un esempio di GitHub con Power BI
 In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al repository pubblico dei contenuti di Power BI (noto anche come *repository*), ottenere informazioni sul numero di persone che contribuiscono al contento pubblico di Power BI, sapere chi contribuisce di più, in quale giorno della settimana si registrano più contributi nonché avere risposte ad altre domande. 
 
 ![Report di GitHub in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
@@ -87,7 +80,7 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
 
     
 
-## <a name="ask-a-question"></a>Inviare una domanda
+## <a name="ask-a-question"></a>Invia una domanda
 
 11. Posizionare il cursore su **Porre una domanda sui dati**, quindi selezionare **pull requests** (richieste pull). 
 

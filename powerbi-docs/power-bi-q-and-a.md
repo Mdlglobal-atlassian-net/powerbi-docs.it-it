@@ -1,34 +1,31 @@
 ---
 title: Panoramica di Domande e risposte nel servizio Power BI e in Power BI Destop
 description: Panoramica della documentazione per le query in linguaggio naturale Domande e risposte di Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Domande e risposte nel servizio Power BI e in Power BI Desktop
 ## <a name="what-is-qa"></a>Che cosa sono le domande e risposte?
 A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale. ad esempio "a quanto ammontano le vendite totali dello scorso anno".  Domande e risposte consente di esplorare i dati tramite funzionalità intuitive basate sul linguaggio naturale e di ricevere le risposte sotto forma di grafici. Domande e risposte è diverso da un motore di ricerca in quanto consente di ottenere risultati relativi solo ai dati in Power BI.
 
 Questo articolo rappresenta il punto di partenza per tutto ciò che riguarda Domande e risposte. Selezionare uno dei collegamenti seguenti per scoprire in che modo funziona Domande e risposte nel servizio Power BI (dashboard e report), in Power BI Desktop (report), in Power BI Embedded e in Power BI per dispositivi mobili.  
+
+> [!NOTE]
+> **Domande e risposte di Power BI** supporta solo le risposte alle query in linguaggio naturale espresse in inglese. È anche possibile provare una funzionalità di anteprima per le domande nella lingua spagnola. In **Power BI Desktop** scegliere **File**, **Opzioni e impostazioni**, **Opzioni** e cercare la scheda **Funzionalità di anteprima**. Selezionare la casella **Supporto della lingua spagnola per Domande e risposte di Power BI**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

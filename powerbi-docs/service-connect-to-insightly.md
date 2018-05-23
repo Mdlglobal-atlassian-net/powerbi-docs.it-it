@@ -1,28 +1,20 @@
 ---
 title: Connettersi a Insightly con Power BI
 description: Insightly per Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a49260a90647178e0737e728804b00c004b21376
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fe5e061913713c76f64995876dda047f7cdc5fea
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-insightly-with-power-bi"></a>Connettersi a Insightly con Power BI
 Visualizzare e condividere i dati CRM Insightly in Power BI con il pacchetto di contenuto Insightly. Connettersi a Power BI con la chiave API Insightly per visualizzare e creare report e dashboard dai dati CRM. Con Power BI, è possibile analizzare i dati in modi nuovi, creare grafici avanzati e visualizzare contatti, lead e organizzazioni su una mappa.
@@ -83,7 +75,7 @@ Per copiare la chiave API da Insightly, selezionare User Settings nel menu del p
 ![](media/service-connect-to-insightly/findapi.png)
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
-I dati vengono importati tramite l'API Insightly, che include un limite giornaliero in base al piano di abbonamento Insightly in uso. I limiti sono elencati nella sezione relativa alla limitazione delle richieste nella documentazione dell'API Insightly: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
+I dati vengono importati tramite l'API Insightly, che include un limite giornaliero in base al piano di abbonamento Insightly in uso. I limiti sono elencati nella sezione relativa alla limitazione delle richieste nella documentazione dell'API: https://api.insight.ly/v2.2/Help#!/Overview/Introduction#ratelimit
 
 I report forniti usano campi predefiniti da Insightly e possono non includere le personalizzazioni. Modificare il report per visualizzare tutti i campi disponibili.
 
