@@ -1,27 +1,19 @@
 ---
 title: Registrare un'app in Azure AD
 description: Procedura dettagliata - Eseguire il push dei dati in un set di dati - Registrare un'app in Azure AD
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 48ab2a51a479269b8846288b64089964a0544681
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Passaggio 1: Registrare un'app in Azure AD
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
@@ -39,7 +31,7 @@ Ecco come registrare un'app in Azure AD.
 2. Fare clic su **Accedi con l'account esistente**e accedere al proprio account di Power BI.
 3. In **Nome app** immettere un nome, ad esempio "Esempio di app per il push dei dati".
 4. In **Tipo di app**scegliere **App nativa**.
-5. Immettere un **URL di reindirizzamento**, ad esempio **https://login.live.com/oauth20_desktop.srf**. Per un' **app client nativa**, l'URI di reindirizzamento fornisce ad **Azure AD** altri dettagli sull'applicazione specifica che verrà autenticata. L'Uri standard per un'applicazione client è https://login.live.com/oauth20_desktop.srf.
+5. Immettere un **URL di reindirizzamento**, ad esempio **https://login.live.com/oauth20_desktop.srf**. Per un' **app client nativa**, l'URI di reindirizzamento fornisce ad **Azure AD** altri dettagli sull'applicazione specifica che verrà autenticata. L'URI standard per un'app client è https://login.live.com/oauth20_desktop.srf.
 6. In **Scegliere le API per accedere**selezionare **Lettura e scrittura in tutti i set di dati**. Per tutte le autorizzazioni delle app di Power BI, vedere [Autorizzazioni di Power BI](power-bi-permissions.md).
 7. Fare clic su **Registra app**e salvare l' **ID client** che è stato generato. Un **ID client** identifica l'app in Azure AD.
 

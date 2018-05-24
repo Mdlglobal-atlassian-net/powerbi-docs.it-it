@@ -1,27 +1,19 @@
 ---
 title: Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati
 description: Gli oggetti visivi personalizzati consentono di soddisfare le esigenze degli utenti e rispettare la progettazione dell'applicazione. Ecco come creare un oggetto visivo personalizzato per Power BI usando gli strumenti di sviluppo.
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati
 Gli oggetti visivi personalizzati consentono di soddisfare le esigenze degli utenti e rispettare la progettazione dell'applicazione. Ecco come creare un oggetto visivo personalizzato per Power BI usando gli strumenti di sviluppo.
@@ -87,7 +79,7 @@ Per creare un oggetto visivo personalizzato, è necessario installare NodeJS. No
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Installazione del certificato server
 Per abilitare l'anteprima dinamica dell'oggetto visivo, è necessario un server https attendibile. Prima di iniziare, è necessario installare un certificato SSL in modo da permettere il caricamento di asset visivi nel Web browser. 
@@ -97,9 +89,24 @@ Per abilitare l'anteprima dinamica dell'oggetto visivo, è necessario un server 
 > 
 > 
 
-Per *aggiungere* un certificato, eseguire il comando seguente.
+Per *creare* un certificato, eseguire il comando seguente.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Dovrebbe essere visualizzato un messaggio con il percorso per il certificato e una nuova passphrase generata.
+> 
+> 
+
+
+Per *installare* il certificato, eseguire il comando seguente.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Dovrebbe essere visualizzato un messaggio che indica di usare la nuova passphrase generata per installare un certificato PFX.
+> 
+> 
 
 **Sistema operativo Windows**
 

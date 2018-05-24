@@ -1,28 +1,20 @@
 ---
 title: Introduzione a Power BI Desktop
 description: Introduzione a Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
@@ -336,6 +328,10 @@ Per altre informazioni su creazione, condivisione e modifica dei dashboard, vede
 
 Power BI Desktop e il servizio Power BI consentono di creare accattivanti visualizzazioni e mashup correlati a dati di molti tipi. Per altre informazioni, vedere la sezione successiva.
 
+## <a name="diagnostics"></a>Diagnostica
+
+Power BI Desktop supporta la connessione a una porta di diagnostica. La porta di diagnostica offre altri strumenti a cui connettersi e consente di eseguire analisi per scopi diagnostici. *Le modifiche al modello non sono supportate. Le modifiche al modello potrebbero causare danneggiamento e perdita dei dati.*
+
 ## <a name="next-steps"></a>Passaggi successivi
 Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
 
@@ -344,4 +340,3 @@ Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capac
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   
-

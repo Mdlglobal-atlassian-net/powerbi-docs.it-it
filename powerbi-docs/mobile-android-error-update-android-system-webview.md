@@ -1,38 +1,21 @@
 ---
-title: 'Errore: '
-need: 
-to: 
-update: 
-android: 
-system: 
-webview": 
-'-': 
-power: 
-bi": 
-description: "Durante l'accesso all'app per dispositivi mobili Android, potrebbe essere visualizzato un messaggio che informa che è necessario aggiornare Android System Webview."
-services: powerbi
-documentationcenter: 
+title: Risoluzione di "È necessario aggiornare Android System WebView" - Power BI
+description: Durante l'accesso all'app per dispositivi mobili Android, potrebbe essere visualizzato un messaggio che informa che è necessario aggiornare Android System Webview.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 1a478d8465f05fcc4218d049101c239ed5559fc9
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1b2e440f1c25468f4e947256720ef236a927b23c
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/22/2018
 ---
-# <a name="error-need-to-update-android-system-webview---power-bi"></a>Errore: "È necessario aggiornare Android System WebView" - Power BI
+# <a name="fixing-need-to-update-android-system-webview"></a>Risoluzione di "È necessario aggiornare Android System WebView"
 Durante l'accesso all'app per dispositivi mobili Android per Microsoft Power BI, potrebbe essere visualizzato un messaggio che informa che è necessario aggiornare Android System Webview. 
 
 Si supponga di visitare Google Play Store e aggiornare Android System Webview, quindi riprovare ad aprire l'app per dispositivi mobili Power BI. 

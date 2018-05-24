@@ -1,28 +1,20 @@
 ---
 title: Connettersi a un database Impala in Power BI Desktop
 description: Connettersi con facilità e usare un database Impala in Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bef087b485573ba9a629887bfb05d875c88c8b4c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 9b00120a0c4c22ba8f031663ab19d94d2c482d3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Connettersi a un database Impala in Power BI Desktop
 In Power BI Desktop è possibile connettersi a un database **Impala** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -36,7 +28,7 @@ Nella finestra **Impala** che viene visualizzata digitare o incollare il nome de
 
 ![](media/desktop-connect-impala/connect_impala_3a.png)
 
-Quando richiesto, inserire il nome utente e la password oppure usare una connessione anonima. Sono supportate entrambe le opzioni.
+Quando richiesto, immettere le credenziali o connettersi in modo anonimo. Il connettore Impala supporta l'autenticazione anonima, di base (nome utente + password) e di Windows.
 
 ![](media/desktop-connect-impala/connect_impala_4.png)
 
@@ -52,7 +44,7 @@ Una volta stabilita la connessione, viene visualizzata una finestra **Strumento 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Esistono alcune limitazioni e considerazioni da tenere presenti con il connettore **Impala**:
 
-* In futuro è prevista l'abilitazione del supporto dell'aggiornamento con **Power BI Gateway**.
+* Il connettore Impala è supportato nel gateway dati locale, usando uno dei tre meccanismi di autenticazione supportati.
 
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:

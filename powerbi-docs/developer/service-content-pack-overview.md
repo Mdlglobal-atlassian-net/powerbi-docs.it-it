@@ -1,27 +1,19 @@
 ---
 title: Panoramica del programma dei pacchetti di contenuto del servizio Power BI
 description: Programma di certificazione dei pacchetti di contenuto
-services: powerbi
-documentationcenter: 
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 02/20/2018
 ms.author: maghan
-ms.openlocfilehash: 2cc78b3d2a877e465d5f4bdc67f501b7de87f88e
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Panoramica del programma dei pacchetti di contenuto del servizio Power BI
 Un pacchetto di contenuto è un set di contenuto predefinito che consente agli utenti di ottenere immediatamente informazioni da un'origine. In genere, un pacchetto di contenuto è incentrato su uno scenario aziendale specifico che fornisce informazioni per un ruolo, un dominio o un flusso di lavoro.
@@ -84,8 +76,8 @@ I pacchetti di contenuto pubblicati possono essere aggiornati una volta al mese.
 
 Inviare le domande all'indirizzo [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
-## <a name="support"></a>Supporto
-Per richiedere il supporto durante lo sviluppo, usare il sito [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support), che viene attivamente monitorato e gestito. Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.
+## <a name="support"></a>Support
+Per il supporto durante lo sviluppo, usare [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). che viene attivamente monitorato e gestito. Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.
 
 ## <a name="next-step"></a>Passaggio successivo
 [Creazione](template-content-pack-authoring.md)

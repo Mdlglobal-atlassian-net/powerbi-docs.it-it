@@ -846,7 +846,9 @@
           items:
             - name: Introduzione all'app Android per Power BI
               href: mobile-android-app-get-started.md
-            - name: Risolvere l'errore "il certificato SSL aziendale non è considerato attendibile"
+            - name: Risoluzione dell'errore di certificato SSL aziendale non considerato attendibile
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Risoluzione dell'errore di aggiornamento di Android System WebView
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:

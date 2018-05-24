@@ -1,27 +1,19 @@
 ---
 title: Esplorare i dati nell'app Power BI mobile per dispositivi mobili iOS
 description: Visualizzare ed esaminare i dashboard e i report di Power BI e i report per dispositivi mobili e indicatori KPI di Reporting Services su iPad, iPhone, Apple Watch e iPod Touch.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>Esplorare i dati nell'app Power BI mobile per dispositivi mobili iOS
 L'app Microsoft Power BI per iOS consente di accedere all'esperienza BI anche da dispositivi mobili iPad, iPhone, Apple Watch e iPod Touch. Le app offrono accesso da dispositivo mobile abilitato per il tocco a informazioni aziendali importanti, consentendo in tal modo di interagire con i dashboard e i report aziendali di Power BI e i report per dispositivi mobili e indicatori KPI di Reporting Services ovunque ci si trovi. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo.

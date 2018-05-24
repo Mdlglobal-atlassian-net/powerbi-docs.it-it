@@ -81,7 +81,7 @@ Nella sezione **Impostazioni Premium** del portale di amministrazione di Power B
 4. Modificare il numero di istanze che si desidera avere per questo elemento. Selezionare quindi **Invia** al termine.
    
    > [!IMPORTANT]
-   > In questo modo verranno accreditati i costi sulla carta di credito **inserita**.
+   > Se si seleziona **Invia**, verranno accreditati i costi sulla carta di credito inserita.
    > 
    > 
 
