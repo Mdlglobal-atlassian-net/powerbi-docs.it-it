@@ -192,7 +192,7 @@ I valori booleani sono *true* o *false*. Le stringhe devono essere tra virgolett
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| map |
+| mappa |
 | multiRowCard |
 | pieChart |
 | pivotTable |
