@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Sottoscrivere un report o un dashboard
                   href: service-report-subscribe.md
+                - name: Metodi per aprire un report
+                  href: service-report-open.md
                 - name: Rinominare il contenuto all'interno di Power BI
                   href: service-rename.md
                 - name: Visualizzare dashboard e report in modalità schermo intero (modalità TV)

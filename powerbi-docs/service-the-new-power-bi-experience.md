@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
@@ -125,6 +125,19 @@ Poiché l'esempio è uno, la ricerca e l'ordinamento non sono necessari.  Quando
 ![Ordinare il contenuto](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Per altre informazioni, vedere [Eseguire ricerche, ordinare e filtrare in Power BI](service-navigation-search-filter-sort.md).
+
+## <a name="clean-up-resources"></a>Pulire le risorse
+Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il dashboard, il report e il set di dati di esempio dell'analisi di vendita al dettaglio.
+
+1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.    
+2. Nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro > Area di lavoro personale**.  
+    La stella gialla indica che si tratta di un'opzione preferita.    
+3. Nella scheda **Dashboard** selezionare l'icona **Elimina** a forma di bidone della spazzatura accanto al dashboard di analisi delle vendite al dettaglio.    
+
+    ![Elimina dashboard](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Selezionare la scheda **Report** e scegliere lo stesso per il report di analisi delle vendite al dettaglio.
+1. Selezionare la scheda **Set di dati** e scegliere lo stesso per il set di dati di analisi delle vendite al dettaglio.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 Quando si apre un report nel servizio Power BI, ogni pagina del report ha un proprio URL univoco. Per filtrare tale pagina del report, è possibile usare il riquadro Filtri nell'area di disegno report.  In alternativa, è possibile aggiungere i parametri della stringa di query all'URL per filtrare il report. Se, ad esempio, si vuole mostrare un report ai colleghi applicando un filtro preliminare, basta iniziare dall'URL predefinito del report, aggiungere i parametri di filtro all'URL e quindi inviare l'intero URL via posta elettronica.
@@ -97,9 +97,10 @@ Dopo aver filtrato il report usando i parametri della stringa di query, è possi
 
 Ciò potrebbe essere utile nei casi in cui si volessero ottenere risultati differenti, ad esempio filtrati nel dashboard e non filtrati nel report.
 
-## <a name="limitations-and-troubleshooting"></a>Limitazioni e risoluzione dei problemi
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della stringa di query.
 
+* Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno prefisso in quanto vengono passati direttamente al motore di elaborazione dei report. 
 * I filtri della stringa di query non funzionano con [Pubblica sul Web](service-publish-to-web.md) o Power BI Embedded.   
 * Il tipo di campo deve essere un numero o una stringa.
 * I nomi di tabella e campo non possono contenere spazi.
