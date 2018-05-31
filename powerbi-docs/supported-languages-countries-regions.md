@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871479"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Lingue e paesi/aree geografiche supportate per Power BI
 
@@ -165,6 +166,11 @@ Oltre a impostare la lingua per l'applicazione Power BI Desktop, è anche possib
 - Il modo in cui le stringhe vengono confrontate e ordinate. Ad esempio, poiché l'alfabeto turco contiene due lettere i, a seconda delle regole di confronto del database, l'ordinamento può risultare diverso. 
 - La lingua usata da Power BI Desktop per la creazione di tabelle data nascoste dai campi data. Ad esempio, i campi sono denominati Month/Monat/Mese e così via.
 
+> [!NOTE]
+> Attualmente il modello di Power BI usa impostazioni locali che non fanno distinzione tra maiuscole/minuscole (distinzione Kana), dunque "ABC" e "abc" verranno considerati equivalenti. Se la stringa "ABC" viene caricata nel database per prima, le altre stringhe diverse solo in base alle lettere maiuscole e minuscole, ad esempio "Abc", non verranno caricate come valore separato.
+> 
+>
+
 Ecco come impostare la lingua del modello.
 
 1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**.
@@ -173,6 +179,10 @@ Ecco come impostare la lingua del modello.
 
     ![Impostare la lingua del modello in Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Dopo la creazione, non è possibile modificare la lingua di un modello di Power BI.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Lingue per la documentazione della Guida
 La Guida è localizzata nelle 10 lingue seguenti: 

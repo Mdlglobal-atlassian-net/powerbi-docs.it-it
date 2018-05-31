@@ -1,34 +1,35 @@
 ---
-title: Panoramica sul manuale per l'amministratore, Server di report di Power BI
-description: Benvenuti nel manuale per l'amministratore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
+title: Panoramica sull'amministrazione, Server di report di Power BI
+description: Questo articolo è una panoramica sull'amministrazione di Server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 05/07/2018
 ms.author: maghan
-ms.openlocfilehash: 130a4264b2e8c4e511527f34088a580a7787673b
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 52b2c9cac7fd07564480fdbf3a6a91e04e72db11
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33883090"
 ---
-# <a name="administrator-handbook-overview-power-bi-report-server"></a>Panoramica sul manuale per l'amministratore, Server di report di Power BI
-Benvenuti nel manuale per l'amministratore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
+# <a name="admin-overview-power-bi-report-server"></a>Panoramica sull'amministrazione, Server di report di Power BI
+Questo articolo è una panoramica sull'amministrazione di Server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI. Introduce i concetti di pianificazione, distribuzione e gestione di Server di report di Power BI, con collegamenti ad altre informazioni.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
 
-Questo manuale illustra i concetti relativi a pianificazione, distribuzione e gestione del server di report di Power BI.
+
 
 ## <a name="installing-and-migration"></a>Installazione e migrazione
 È necessario installare il server di report di Power BI per iniziare a usarlo. Sono disponibili informazioni che consentono di gestire questa attività.
@@ -36,10 +37,9 @@ Questo manuale illustra i concetti relativi a pianificazione, distribuzione e ge
 Prima di iniziare a installare, aggiornare o eseguire la migrazione al server di report di Power BI, esaminiamo i [requisiti di sistema](system-requirements.md) per il server di report.
 
 ### <a name="installing"></a>Installazione
-Se si distribuisce un nuovo server di report di Power BI, usare i seguenti documenti di supporto. È disponibile una Guida introduttiva per iniziare subito oppure è possibile dare uno sguardo al documento di installazione per i dettagli completi.
+Se si distribuisce una nuova istanza di Server di report di Power BI, consultare il documento seguente per informazioni. 
 
-* [Avvio rapido: installazione del Server di report di Power BI](quickstart-install-report-server.md)
-* [Installare il server di report di Power BI](install-report-server.md)
+[Installare il server di report di Power BI](install-report-server.md)
 
 ### <a name="migration"></a>Migrazione
 Non è disponibile l'aggiornamento sul posto per SQL Server Reporting Services. Se si vuole trasformare un'istanza di SQL Server Reporting Services esistente in un server di report di Power BI, sarà necessario eseguire la migrazione. Esistono altri motivi per cui si potrebbe voler eseguire anche una migrazione. Rivedere il documento di migrazione per altri dettagli.
@@ -55,8 +55,8 @@ La maggior parte della configurazione verrà eseguita all'interno di Report Serv
 Sicurezza e protezione sono importanti per ogni organizzazione. La documentazione sulla [sicurezza](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) contiene informazioni importanti su autenticazione, autorizzazione, ruoli e permessi.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Avvio rapido: installazione del Server di report di Power BI](quickstart-install-report-server.md)  
-[Come trovare il codice Product Key del server di report](find-product-key.md)  
+[Installare il server di report di Power BI](install-report-server.md)  
+[Trovare il codice Product Key del server di report](find-product-key.md)  
 [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
 [Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

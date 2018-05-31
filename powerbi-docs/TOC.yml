@@ -898,32 +898,14 @@
       items:
         - name: Cosa si può fare con l'API di Power BI?
           href: developer/overview-of-power-bi-rest-api.md
-        - name: DOMANDE FREQUENTI
-          href: developer/embedded-faq.md
         - name: Autorizzazioni di Power BI
           href: developer/power-bi-permissions.md
         - name: Sicurezza a livello di riga
           href: developer/embedded-row-level-security.md
-        - name: Incorporamento di Domande e risposte
-          href: developer/qanda.md
+        - name: DOMANDE FREQUENTI
+          href: developer/embedded-faq.md
     - name: Procedure
       items:
-        - name: Come incorporare il contenuto
-          href: developer/embedding-content.md
-        - name: Eseguire il push dei dati in un dashboard
-          href: developer/walkthrough-push-data.md
-        - name: Come eseguire la migrazione di Power BI Embedded
-          href: developer/migrate-from-powerbi-embedded.md
-        - name: Integrare un dashboard in un'app (i dati sono di proprietà dell'utente)
-          href: developer/integrate-dashboard.md
-        - name: Integrare un riquadro di Power BI in un'app (i dati sono di proprietà dell'utente)
-          href: developer/integrate-tile.md
-        - name: Integrare un report di Power BI in un'app (i dati sono di proprietà dell'utente)
-          href: developer/integrate-report.md
-        - name: Integrare contenuti in un'applicazione (i dati sono di proprietà dell'app)
-          href: developer/embed-sample-for-customers.md
-        - name: Integrare contenuti in un'applicazione per i cloud sovrani (i dati sono di proprietà dell'app)
-          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Creare un oggetto visivo personalizzato
           items:
             - name: Creare un oggetto visivo con Strumenti di sviluppo
@@ -938,6 +920,18 @@
           items:
             - name: Incorporamento con Power BI
               href: developer/embedding.md
+            - name: Come incorporare il contenuto
+              href: developer/embedding-content.md
+            - name: Integrare un dashboard in un'app (i dati sono di proprietà dell'utente)
+              href: developer/integrate-dashboard.md
+            - name: Integrare un riquadro di Power BI in un'app (i dati sono di proprietà dell'utente)
+              href: developer/integrate-tile.md
+            - name: Integrare un report di Power BI in un'app (i dati sono di proprietà dell'utente)
+              href: developer/integrate-report.md
+            - name: Integrare contenuti in un'applicazione (i dati sono di proprietà dell'app)
+              href: developer/embed-sample-for-customers.md
+            - name: Integrare contenuti in un'applicazione per i cloud sovrani (i dati sono di proprietà dell'app)
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Incorporare layout personalizzati in un'app
               href: developer/embedded-custom-layout.md
             - name: Creare un tenant di Azure Active Directory
@@ -946,14 +940,20 @@
               href: developer/register-app.md
             - name: Effettuare l'autenticazione a un servizio Power BI
               href: developer/get-azuread-access-token.md
+            - name: Incorporamento di Domande e risposte
+              href: developer/qanda.md
+            - name: Come eseguire la migrazione di Power BI Embedded
+              href: developer/migrate-from-powerbi-embedded.md
             - name: Strumento di migrazione di Power BI Embedded
               href: developer/migrate-tool.md
             - name: Frammenti del codice di migrazione
               href: developer/migrate-code-snippets.md
             - name: Risoluzione dei problemi dell'applicazione incorporata
               href: developer/embedded-troubleshoot.md
-        - name: Eseguire il push dei dati in un dashboard
+        - name: Push dei dati
           items:
+            - name: Eseguire il push dei dati in un dashboard
+              href: developer/walkthrough-push-data.md
             - name: Registrare un'app in Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Ottenere un token di accesso per l'autenticazione
@@ -990,6 +990,8 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
     - name: Risorse
       items:
+        - name: Strumento esperienza di onboarding per l'incorporamento
+          href: 'https://aka.ms/embedsetup'
         - name: Esempio JavaScript Playground
           href: 'https://go.microsoft.com/fwlink/?linkid=848279'
         - name: Esempi

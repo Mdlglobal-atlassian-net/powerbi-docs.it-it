@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813370"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Procedure consigliate per la progettazione di report e oggetti visivi
 <!-- Shared newnav Include -->
@@ -64,8 +65,8 @@ Lo spazio disponibile per una pagina del report è limitato e una delle più gra
 
 Di seguito verranno illustrati tre aspetti cruciali: layout, chiarezza ed estetica.
 
-### <a name="layout---the-report-canvas"></a>Layout - canvas del report
-Nel canvas del report è disponibile una quantità limitata di spazio.  Se non è possibile adattare tutti gli elementi in una singola pagina, suddividere il report in più pagine.  Una pagina del report può essere adattata a un gruppo di destinatari specifico (ad esempio, risorse umane, IT, vendite, finanze) oppure a una domanda aziendale specifica (ad esempio, Qual è l'impatto dei prodotti difettosi sul tempo di inattività?, Qual è l'impatto della campagna di marketing sul sentiment?) oppure a una storia progressiva (ad esempio, la prima pagina è una panoramica che cattura l'attenzione, la seconda pagina continua la presentazione dei dati, la terza pagina offre approfondimenti e così via).  Se l'intero report rientra in una singola pagina, ben venga. In caso contrario, creare pagine separate con blocchi logici del contenuto,  senza dimenticare di assegnare nomi significativi e utili alle pagine.
+### <a name="layout---the-report-canvas"></a>Layout - area di disegno report
+Nell'area di disegno report è disponibile una quantità limitata di spazio.  Se non è possibile adattare tutti gli elementi in una singola pagina, suddividere il report in più pagine.  Una pagina del report può essere adattata a un gruppo di destinatari specifico (ad esempio, risorse umane, IT, vendite, finanze) oppure a una domanda aziendale specifica (ad esempio, Qual è l'impatto dei prodotti difettosi sul tempo di inattività?, Qual è l'impatto della campagna di marketing sul sentiment?) oppure a una storia progressiva (ad esempio, la prima pagina è una panoramica che cattura l'attenzione, la seconda pagina continua la presentazione dei dati, la terza pagina offre approfondimenti e così via).  Se l'intero report rientra in una singola pagina, ben venga. In caso contrario, creare pagine separate con blocchi logici del contenuto,  senza dimenticare di assegnare nomi significativi e utili alle pagine.
 
 L'operazione può essere paragonata all'allestimento di una galleria d'arte. Non si inserirebbero mai 50 opere in una piccola stanza, riempiendola anche di sedie e dipingendo ogni parete di un colore diverso. Il curatore sceglierebbe molto probabilmente opere con un tema comune, per disporle in un ambiente spazioso che consenta ai visitatori di muoversi liberamente e ammirarle nel migliore dei modi, oltre ad apporre schede informative per le opere in mostra. Tra l'altro, non è un caso che la maggior parte delle gallerie moderne abbia pareti semplici.
 Per gli scopi di questo articolo si inizierà con un esempio di report che richiede molto lavoro.  Il report migliorerà progressivamente grazie all'applicazione delle procedure consigliate e dei principi di progettazione.
@@ -88,7 +89,7 @@ Il layout degli elementi del report influisce sulla comprensione e guida il lett
 * Posizionare vicini gli elementi correlati. La prossimità implica una correlazione tra gli elementi.
 * Un altro modo per indicare le relazioni consiste nell'aggiungere un bordo o uno sfondo colorato attorno a elementi correlati. Al contrario, aggiungere un divisore per distinguere le diverse sezioni di un report.
 * Usare spazi vuoti per suddividere visivamente in blocchi le diverse sezioni della pagina del report.
-* Riempire la pagina del report. Se rimane molto spazio vuoto in eccesso, ingrandire le visualizzazioni o ridurre il canvas.
+* Riempire la pagina del report. Se rimane molto spazio vuoto in eccesso, ingrandire le visualizzazioni o ridurre l'area di disegno.
 * Impostare le dimensioni degli elementi del report con un intento specifico, evitando che sia lo spazio disponibile a determinare le dimensioni di una visualizzazione.
 * Impostare dimensioni maggiori per gli elementi importanti oppure aggiungere elementi visivi come una freccia per attirare l'attenzione.
 * Allineare gli elementi nella pagina del report in modo intenzionalmente asimmetrico o simmetrico.
@@ -119,7 +120,7 @@ In Power BI online e Power BI Desktop è anche possibile controllare con precisi
 Nella pagina del report di esempio (figura 2) le 2 schede e il bordo di grandi dimensioni sono allineati nella **posizione X** su 200.
 
 #### <a name="fit-to-the-space"></a>Adattarsi allo spazio
-Usare lo spazio disponibile nel migliore dei modi.  Se si sa già come verrà visualizzato il report, progettarlo tenendo presente questo aspetto. Ridurre lo spazio vuoto per riempire il canvas.  Fare tutto il possibile per evitare la visualizzazione di barre di scorrimento per i singoli oggetti visivi.  Riempire lo spazio evitando un eccessivo affollamento degli oggetti visivi.
+Usare lo spazio disponibile nel migliore dei modi.  Se si sa già come verrà visualizzato il report, progettarlo tenendo presente questo aspetto. Ridurre lo spazio vuoto per riempire l'area di disegno.  Fare tutto il possibile per evitare la visualizzazione di barre di scorrimento per i singoli oggetti visivi.  Riempire lo spazio evitando un eccessivo affollamento degli oggetti visivi.
 
 ##### <a name="adjust-the-page-size"></a>Regolare le dimensioni delle pagina
 Riducendo le dimensioni della pagina, i singoli elementi diventano più grandi rispetto alla pagina nel suo complesso. Per procedere in questo modo, deselezionare gli oggetti visivi nella pagina e usare la scheda **Dimensioni pagina** nel riquadro di formattazione.  
@@ -695,7 +696,7 @@ Per altre informazioni sui grafici in pila, vedere:
 ### <a name="combo-barcolumn-charts"></a>Grafici a barre o istogrammi combinati
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-In Power BI è possibile combinare grafici a linee e istogrammi in un grafico combinato. Le scelte disponibili sono Grafico a linee e istogramma a colonne in pila e Grafico a linee e istogramma a colonne raggruppate. La possibilità di combinare due oggetti visivi separati in uno consente di risparmiare spazio prezioso nel canvas.
+In Power BI è possibile combinare grafici a linee e istogrammi in un grafico combinato. Le scelte disponibili sono Grafico a linee e istogramma a colonne in pila e Grafico a linee e istogramma a colonne raggruppate. La possibilità di combinare due oggetti visivi separati in uno consente di risparmiare spazio prezioso nell'area di disegno.
 
 I due screenshot seguenti sono un esempio di prima e dopo.  La prima pagina include due oggetti visivi separati: un istogramma che mostra la popolazione nel tempo e un grafico a linee che mostra il PIL (GDP) nel tempo. Questi grafici sono un buon candidato per un grafico combinato perché condividono lo stesso asse X (anno) e gli stessi valori (2002-2012).  Perché allora non combinarli per confrontare queste 2 tendenze su un singolo oggetto visivo?  La combinazione dei 2 grafici consente di confrontare i dati in modo più rapido.
 
@@ -734,7 +735,7 @@ A tale scopo, aprire il riquadro di formattazione, espandere **Asse Y** e attiva
 
 Per altre informazioni, vedere gli argomenti su:
 
-* [Esercitazione: Grafico combinato in Power BI](power-bi-visualization-combo-chart.md)
+* [Grafico combinato in Power BI](power-bi-visualization-combo-chart.md)
 * [The danger of dual-scaled Axes in visuals](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf) (Il pericolo degli assi con doppia scala negli oggetti visivi)
 
 ### <a name="scatter-chart"></a>Grafico a dispersione
@@ -810,7 +811,7 @@ Gli indicatori KPI mostrano valore, stato, obiettivo, varianza dall'obiettivo e 
 
 Per altre informazioni, vedere:
 
-* [Esercitazione: Grafici a misuratore radiale in Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [Grafici a misuratore radiale in Power BI](power-bi-visualization-radial-gauge-charts.md)
 * [Indicatori KPI in Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Conclusioni

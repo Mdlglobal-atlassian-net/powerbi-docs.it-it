@@ -1,15 +1,15 @@
 ---
-title: Parte 2, Aggiungere visualizzazioni a un report di Power BI (esercitazione)
-description: 'Esercitazione: Parte 2, Aggiungere visualizzazioni a un report di Power BI'
+title: Parte 2, Aggiungere visualizzazioni a un report di Power BI
+description: Parte 2, Aggiungere visualizzazioni a un report di Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814313"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte 2, Aggiungere visualizzazioni a un report di Power BI (esercitazione)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte 2, Aggiungere visualizzazioni a un report di Power BI
 Nella[Parte 1](power-bi-report-add-visualizations-ii.md) è stata creata una visualizzazione di base tramite la selezione delle caselle di controllo accanto ai nomi dei campi.  Nella Parte 2 verrà spiegato come usare il trascinamento della selezione e le funzionalità complete dei riquadri **Campi** e **Visualizzazioni** per creare e modificare le visualizzazioni.
 
 ### <a name="prerequisites"></a>Prerequisiti

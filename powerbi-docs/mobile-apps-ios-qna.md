@@ -1,75 +1,96 @@
 ---
-title: Porre domande con l'analista virtuale Domande e risposte nelle app iOS - Power BI
-description: In questa esercitazione provare a porre domande su questi dati di esempio con parole proprie con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili sul dispositivo iOS.
+title: Analista virtuale Domande e risposte nelle app iOS - Power BI
+description: Porre domande sui dati di esempio con parole proprie con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili sul dispositivo iOS.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-mobile
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 531d067566a03289f0806d21309e9db7cfb837b1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812174"
 ---
-# <a name="ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Porre domande sui dati con l'analista virtuale Domande e risposte nelle app iOS - Power BI
+# <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
+
+Il modo più semplice per conoscere i dati consiste nel porre domande a tal proposito con parole proprie. In questo articolo è possibile porre domande e visualizzare informazioni dettagliate in primo piano sui dati di esempio con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili su iPad, iPhone e iPod Touch. 
+
 Si applica a:
 
 | ![iPhone](media/mobile-apps-ios-qna/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-ios-qna/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhone |iPad |
 
-Il modo più semplice per conoscere i dati consiste nel porre domande a tal proposito con parole proprie. In questa esercitazione provare a porre domande e visualizzare le informazioni dettagliate in evidenza sui dati di esempio con l'analista virtuale Domande e risposte.
+L'analista virtuale Domande e risposte è un'esperienza di conversazione di Business Intelligence che accede ai dati di Domande e risposte sottostanti nel servizio Power BI [(https://powerbi.com)](https://powerbi.com). Suggerisce informazioni dettagliate sui dati e consente di digitare o pronunciare le proprie domande.
 
 ![Analista virtuale Domande e risposte relativo alle vendite principali](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-Nell'app Microsoft Power BI per dispositivi mobili su iPad, iPhone e iPod Touch l'analista virtuale Domande e risposte è un'esperienza di BI discorsiva che migliora la versione precedente di Domande e risposte in iOS. L'analista virtuale Domande e risposte accede ancora ai dati di Domande e risposte sottostanti nel servizio Power BI [(https://powerbi.com)](https://powerbi.com). È ancora possibile digitare o formulare una domanda e anche le informazioni sui dati vengono fornite nel contesto.
+Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
-## <a name="download-the-samples"></a>Scaricare gli esempi
-Il primo passaggio dell'esercitazione consiste nel download degli esempi di analisi delle vendite al dettaglio e di analisi delle opportunità del servizio Power BI.
+## <a name="prerequisites"></a>Prerequisiti
 
-* Nell'area di lavoro del servizio Power BI ([https://powerbi.com](https://powerbi.com)):
+### <a name="install-the-power-bi-for-ios-app"></a>Installare l'app Power BI per iOS
+[Scaricare l'app iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app iPhone") dall'App Store di Apple nell'iPad, iPhone o iPod Touch.
 
-  * Selezionare **Recupera dati** > **Esempi** > **Esempio di analisi delle opportunità** > **Connetti**.
-  * Al termine del download dell'esempio di analisi delle opportunità selezionare **Recupera dati** > **Esempi** > **Esempio di analisi delle vendite al dettaglio** > **Connetti**.
+Queste versioni supportano l'app Power BI per iOS:
+- iPad con iOS 10 o versioni successive.
+- iPhone 5 e versioni successive con iOS 10 o versioni successive. 
+- iPod Touch con iOS 10 o versioni successive.
 
-## <a name="try-featured-insights"></a>Provare le informazioni dettagliate in primo piano
-1. Nell'iPhone o iPad aprire l'app Power BI e passare al dashboard Esempio di analisi delle opportunità.
-2. Toccare l'icona dell'analista virtuale Domande e risposte ![Icona dell'analista virtuale Domande e risposte](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) dal menu azione nella parte inferiore della pagina (nella parte superiore della pagina in un iPad).
+### <a name="download-samples"></a>Scarica esempi
+Il primo passaggio consiste nel download degli esempi di analisi delle vendite al dettaglio e di analisi delle opportunità del servizio Power BI.
 
-     ![Dashboard Esempio di analisi delle opportunità](media/mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+**Ottenere l'esempio di analisi delle vendite al dettaglio**
 
-     Lo strumento di analisi virtuale Domande e risposte di Power BI offre alcuni suggerimenti iniziali.
+1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
 
-     ![Pulsante featured insights (informazioni dettagliate in primo piano)](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. Toccare **featured insights** (informazioni dettagliate in primo piano).
+2. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro**, **Area di lavoro personale**.
 
-     Lo strumento di analisi virtuale Domande e risposte suggerisce alcune informazioni dettagliate.
-4. Scorrere verso destra e toccare **Insight 2** (Informazioni dettagliate 2).
+3. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
+   
+    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-    ![Pulsante Insight 2 (Informazioni dettagliate 2)](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+3. Nella pagina Recupera dati selezionare l'icona **Esempi**.
+   
+   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-     Lo strumento di analisi virtuale Domande e risposte mostra la seconda casella di informazioni dettagliate.
+4. Selezionare **Esempio di analisi delle vendite al dettaglio**.
+ 
+    ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-rs.png)
+ 
+8. Selezionare **Connetti**.  
+  
+   ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/retail16.png)
+   
+5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente.
+   
+   ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
-    ![Insight 2 (Informazioni dettagliate 2)](media/mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
-5. Toccare il grafico per aprirlo in stato attivo.
+**Ottenere l'esempio di analisi delle opportunità**
 
-    ![Grafico Insight 2 (Informazioni dettagliate 2) in stato attivo](media/mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
-6. Toccare la freccia nell'angolo in alto a sinistra per tornare all'esperienza dell'analista virtuale Domande e risposte.
+- Ripetere la procedura eseguita per l'esempio di analisi delle vendite al dettaglio, ma al passaggio 4 selezionare **Esempio di analisi delle opportunità**.
+
+    ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-oa.png)
+  
+A questo punto si è pronti per visualizzare gli esempi nel dispositivo iOS.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Provare a formulare domande nell'iPhone o iPad
-1. Nell'iPhone o iPad, aprire l'app Power BI e passare al dashboard di esempio di analisi delle vendite al dettaglio.
+1. Nell'iPhone o iPad toccare il pulsante di spostamento globale ![Pulsante di spostamento globale](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) > **Aree di lavoro** > **Area di lavoro personale** e aprire il dashboard dell'esempio di analisi delle vendite al dettaglio.
+
 2. Toccare l'icona dell'analista virtuale Domande e risposte ![Icona dell'analista virtuale Domande e risposte](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) dal menu azione nella parte inferiore della pagina (nella parte superiore della pagina in un iPad).
      Lo strumento di analisi virtuale Domande e risposte offre alcuni suggerimenti iniziali.
 3. Digitare **show**, toccare **sales** dall'elenco di suggerimenti, quindi toccare **Invia** ![Icona Invia](media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).

@@ -1,30 +1,24 @@
 ---
-title: 'Esercitazione: Sicurezza dinamica a livello di righe con Analysis Services in modalità tabulare in Power BI'
-description: 'Esercitazione: Sicurezza dinamica a livello di righe con Analysis Services in modalità tabulare'
-services: powerbi
-documentationcenter: ''
+title: Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services in Power BI
+description: Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456135"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Esercitazione: Sicurezza dinamica a livello di righe con Analysis Services in modalità tabulare
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 Questa esercitazione illustra i passaggi necessari per implementare la **sicurezza a livello di riga** all'interno di un **modello tabulare di Analysis Services** e indica come usarlo in un report di Power BI. I passaggi descritti in questa esercitazione sono progettati per poter proseguire e apprendere i passaggi necessari per completare un set di dati di esempio.
 
 Durante questa esercitazione viene fornita una descrizione dettagliata dei passaggi seguenti, utile per comprendere quali azioni occorre eseguire per implementare la sicurezza dinamica a livello di riga con un modello tabulare di Analysis Services:

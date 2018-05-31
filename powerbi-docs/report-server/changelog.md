@@ -1,27 +1,20 @@
 ---
 title: Log delle modifiche per il server di report Power BI
 description: Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295680"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -31,6 +24,24 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="march-2018"></a>Marzo 2018
 - **Server di report Power BI**
+    - *Versione 1.2.6690.34729 (build 15.0.2.402), data di rilascio: 27 aprile 2018*
+        - Correzioni di bug
+            - Abilitazione della migrazione dei cataloghi di SQL Server Reporting Services 2017
+            - Per i report di Power BI (PBIX)
+                - Possibilità di aggiornare i report quando un server è configurato per l'uso dell'autenticazione personalizzata
+                - La modifica delle proprietà di un report non comporta la reimpostazione delle credenziali dell'origine dati
+            - Per i report impaginati (RDL)
+                - L'uso di `Lookup()` o di funzioni derivate come `LookupSet()` e `MultiLookup()` nelle espressioni RDL non genera più un risultato `#Error`
+                - I report collegati rispettano le dimensioni di pagina del report di destinazione durante la stampa
+                - Possibilità di creare sottoscrizioni per i report collegati che usano parametri a cascata
+                - Possibilità di modificare i valori predefiniti dei parametri multivalore quando si usa Internet Explorer 11
+                - Possibilità di modificare le opzioni di recapito delle sottoscrizioni guidate dai dati
+                - Possibilità di visualizzare e modificare le sottoscrizioni durante l'esecuzione della sottoscrizione
+                - L'impostazione delle credenziali dell'origine dati non comporta la rimozione delle stringhe di connessione basate su espressioni
+            - Per gli indicatori KPI
+                - Le linee di tendenza vengono aggiornate quando vengono aggiornati i dati
+            - Miglioramenti generali alla stabilità​​
+
     - *Versione 1.2.6660.39920 (build 15.0.2.389), data di rilascio: 28 marzo 2018*
         - Correzioni di bug
             - Per i report di Power BI (PBIX), correzione per l'esportazione dei dati non funzionanti da oggetti visivi di Power BI
@@ -120,7 +131,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
     - *Build 14.0.600.301, data di rilascio: 11 luglio 2017*
         - Correzioni di bug
-            - Il tag {{UserId}} si risolve nelle credenziali archiviate anziché nell'utente che esegue il report in Report di Power BI
+            - Il tag `{{UserId}}` si risolve nelle credenziali archiviate anziché nell'utente che esegue il report in Report di Power BI
             - Non è possibile eseguire il rendering di alcune immagini nei report del server di report di Power BI
             - Non è possibile modificare il nome di un report di Power BI nel server di report di Power BI
             - Non è possibile caricare gli oggetti visivi personalizzati nell'applicazione Power BI per dispositivi mobili (è necessario reinstallare l'app mobile per cancellare la cache locale)
@@ -136,7 +147,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 [Manuale per l'utente](user-handbook-overview.md)  
 [Manuale per l'amministratore](admin-handbook-overview.md)  
-[Avvio rapido: installazione del Server di report di Power BI](quickstart-install-report-server.md)  
+[Installare il server di report di Power BI](install-report-server.md)  
 [Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
