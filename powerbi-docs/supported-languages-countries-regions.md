@@ -1,29 +1,21 @@
 ---
 title: Lingue e paesi/aree geografiche supportate per Power BI
 description: Vedere l'elenco di lingue e paesi/aree geografiche supportati per il servizio Power BI, Power BI Desktop e la documentazione di Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33871479"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34256703"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Lingue e paesi/aree geografiche supportate per Power BI
 

@@ -1,28 +1,20 @@
 ---
 title: Gestire il contenuto nel portale Web di Server di report di Power BI
 description: Informazioni sulla gestione del contenuto nel portale Web di Server di report di Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: 022d884e98876a78ab1cfd53cc93cd648cb68efe
-ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
+ms.openlocfilehash: f739104bc9b67e51792e6e76da08b9e6dbb7cef3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/08/2018
-ms.locfileid: "33892509"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293238"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gestire il contenuto nel portale Web 
 Il portale Web del Server di report di Power BI è un percorso locale per la visualizzazione, l'archiviazione e la gestione di indicatori KPI e di report impaginati, per dispositivi mobili e di Power BI.

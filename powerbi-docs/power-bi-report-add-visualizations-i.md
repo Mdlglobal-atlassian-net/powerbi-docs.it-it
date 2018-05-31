@@ -1,30 +1,22 @@
 ---
 title: Parte 1, Aggiungere visualizzazioni a un report di Power BI
 description: Parte 1, Aggiungere visualizzazioni a un report di Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 216f2a694bb0a6d65e5c50bb1cfe9a49d7e444bc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33811691"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34293767"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte 1, Aggiungere visualizzazioni a un report di Power BI
 Questo articolo offre una breve introduzione alla creazione di una visualizzazione in un report tramite il servizio Power BI o Power BI Desktop.  Per i contenuti più avanzati, [vedere la Parte II](power-bi-report-add-visualizations-ii.md). Nel video seguente Amanda illustra alcuni modi per creare, modificare e formattare gli oggetti visivi nell'area di disegno report. Sarà quindi possibile provare a usare l'[esempio di analisi di vendite e marketing](sample-datasets.md) per creare il proprio report.

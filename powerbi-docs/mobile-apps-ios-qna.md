@@ -1,29 +1,20 @@
 ---
 title: Analista virtuale Domande e risposte nelle app iOS - Power BI
 description: Porre domande sui dati di esempio con parole proprie con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili sul dispositivo iOS.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: conceptual
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812174"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295009"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
 
@@ -39,7 +30,7 @@ L'analista virtuale Domande e risposte è un'esperienza di conversazione di Busi
 
 ![Analista virtuale Domande e risposte relativo alle vendite principali](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
+Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

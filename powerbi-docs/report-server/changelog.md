@@ -1,28 +1,20 @@
 ---
 title: Log delle modifiche per il server di report Power BI
 description: Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
 manager: kfile
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
 ms.author: jtarquino
-ms.openlocfilehash: bf6fae781863379e56c398f58d86d1bf1e5244af
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813531"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295680"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 

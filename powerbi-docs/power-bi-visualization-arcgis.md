@@ -1,30 +1,22 @@
 ---
 title: Creare mappe ArcGIS di ESRI in Power BI
 description: 'Creare mappe ArcGIS di ESRI in Power BI '
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: lukaszp
-editor: ''
-tags: ''
+ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a71073c6e4f5962e8cdd6ddfb92d41628d8799c1
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 7a43b5c210c0e7f2bd26eea03bdcd5d2fa975321
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813347"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297309"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop
 Questa esercitazione è stata scritta dal punto di vista di una persona che crea una mappa ArcGIS. Quando l'autore condivide una mappa ArcGIS con un collega, questi potrà vederla e interagire con essa, ma non salvare le modifiche. +Per altre informazioni sulla visualizzazione di una mappa ArcGIS, vedere [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
