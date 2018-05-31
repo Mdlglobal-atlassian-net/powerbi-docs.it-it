@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2a92426061b37753c529b84a1de6b8068cb3bc5f
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 79d72cefbf6c6e5cf27aa0e4f90b4a1eb3114013
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810921"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Uso delle colonne calcolate in Power BI Desktop
 Con le colonne calcolate, è possibile aggiungere nuovi dati a una tabella già presente nel modello. Tuttavia, invece di eseguire query e caricare i valori nella nuova colonna da un'origine dati, viene creata una formula Data Analysis Expressions (DAX) che definisce i valori della colonna. In Power BI Desktop, le colonne calcolate vengono create usando la funzionalità Nuova colonna in Visualizzazione Report.
@@ -59,7 +60,7 @@ Può aggiungerlo all'area di disegno report insieme al numero di spedizioni. Mol
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 
 ## <a name="learn-more"></a>Altre informazioni
-In questo articolo è stata fornita solo una rapida introduzione alle colonne calcolate. Vedere l'esercitazione [Creare colonne calcolate in Power BI Desktop](desktop-tutorial-create-calculated-columns.md), dove è possibile scaricare un file di esempio e ottenere informazioni dettagliate su come creare altre colonne. 
+In questo articolo è stata fornita solo una rapida introduzione alle colonne calcolate. Vedere [Esercitazione: Creare colonne calcolate in Power BI Desktop](desktop-tutorial-create-calculated-columns.md), in cui è possibile scaricare un file di esempio e ottenere informazioni dettagliate su come creare altre colonne. 
 
 Per altre informazioni su DAX, vedere [Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md).
 

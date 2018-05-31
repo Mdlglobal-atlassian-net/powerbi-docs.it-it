@@ -1,31 +1,24 @@
 ---
-title: Filtri dei dati in Power BI (esercitazione)
-description: 'Esercitazione: Filtri dei dati in Power BI'
-services: powerbi
-documentationcenter: ''
+title: Filtri dei dati in Power BI
+description: Filtri dei dati in Power BI
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297355"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Filtri dei dati in Power BI (esercitazione)
+# <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 Si desidera consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
 
 In questa esercitazione viene usato l'[esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md) disponibile gratuitamente per illustrare una procedura dettagliata per creare, formattare e usare filtri dei dati basati su un elenco o un intervallo di date. Si noterà che vi sono molti modi per formattare e usare i filtri dei dati. 
@@ -35,7 +28,7 @@ In questa esercitazione viene usato l'[esempio di analisi delle vendite al detta
 ## <a name="when-to-use-a-slicer"></a>Quando usare un filtro dei dati
 I filtri dei dati rappresentano un'ottima scelta quando si vuole eseguire quanto segue:
 
-* Visualizzare filtri importanti o di uso comune nel canvas del report in modo da facilitare l'accesso.
+* Visualizzare filtri importanti o di uso comune nell'area di disegno del report in modo da facilitare l'accesso.
 * Facilitare la visualizzazione dello stato filtrato corrente senza dover aprire un elenco a discesa. 
 * Filtrare per colonne non necessarie e nascoste nelle tabelle di dati.
 * Creare più report mirati inserendo i filtri dei dati in corrispondenza di oggetti visivi importanti.
@@ -156,7 +149,7 @@ Per altre informazioni sull'orientamento orizzontale e il layout reattivo, veder
     
 2. L'opzione **Selezione singola** è attivata per impostazione predefinita **.** Fare clic o toccare ogni singolo elemento per selezionarlo e fare clic o toccare tenendo premuto **CTRL** per selezionare più elementi. Disattivare **Selezione singola** per consentire la selezione di più elementi senza tenere premuto **CTRL****.** Fare clic o toccare di nuovo un elemento per deselezionarlo. 
 
-### <a name="header-options"></a>Opzioni dell'intestazione
+### <a name="header-options"></a>Opzioni delle intestazioni
 L'opzione **Intestazione** è attivata per impostazione predefinita e visualizza il nome del campo dati nella parte superiore del filtro dei dati **.** 
 1. Formattare il testo dell'intestazione per rendere il **Colore carattere** rosso, le **Dimensioni testo** pari a 14 pt, e la **Famiglia di caratteri** Arial Black. 
 2. In **Bordo** scegliere **Solo inferiore** per generare una linea di sottolineatura con le dimensioni e il colore impostati nelle opzioni **Generali**. 

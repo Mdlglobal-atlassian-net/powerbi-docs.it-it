@@ -2,55 +2,40 @@
 title: Quali operazioni possono eseguire gli sviluppatori con Power BI?
 description: Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi personalizzati fino ai set di dati in streaming.
 services: powerbi
-documentationcenter: 
 author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
-ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 07/20/2017
 ms.author: maghan
-ms.openlocfilehash: b310562ac31694f398a659018743b8fa7aa46e35
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 05/03/2018
+ms.topic: overview
+ms.service: powerbi
+ms.custom: mvc
+manager: kfile
+ms.openlocfilehash: 473052ee652c1fd6e68294efdbd7334cbb2df714
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33810967"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Quali operazioni possono eseguire gli sviluppatori con Power BI?
-Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi personalizzati fino ai set di dati in streaming.
+
+Gli sviluppatori hanno diverse opzioni per provare a includere contenuto di Power BI nelle applicazioni. Queste opzioni includono **incorporamento con Power BI**, **oggetti visivi personalizzati** e **push dei dati in Power BI**.
 
 ## <a name="embedding"></a>Incorporamento
-Il servizio Power BI e Power BI Embedded in Azure vengono assemblati per offrire un'unica API per l'incorporamento di dashboard e report. Questo significa che si avrà una sola superficie dell'API, un set coerente di funzionalità e l'accesso alle ultime funzionalità di Power BI, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto. Per altre informazioni, vedere la [Incorporamento con Power BI](embedding.md).
+Il servizio Power BI (SaaS) e il servizio Power BI Embedded in Azure (PaaS) offrono API per l'incorporamento di dashboard e report. Questo significa che si avrà un set di funzionalità e l'accesso alle ultime funzionalità di Power BI, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto.
 
-![](media/what-can-you-do/powerbi-embed-sample.png)
+![Esempio di Power BI Embedded](media/what-can-you-do/what-can-you-do-01.png)
 
-## <a name="custom-visuals"></a>Oggetti visivi personalizzati
-Gli oggetti visivi personalizzati consentono di creare oggetti visivi da usare all'interno dei report di Power BI. Gli oggetti visivi personalizzati sono scritti in TypeScript, cioè un soprainsieme di JavaScript che supporta caratteristiche più avanzate e l'accesso anticipato alla funzionalità ES6/ES7. L'applicazione di stili visivi viene gestita usando i fogli di stile CSS. Per praticità, verrà usato il servizio di pre-compilazione Less che supporta alcune funzionalità avanzate, ad esempio la nidificazione, le variabili, le combinazioni, le condizioni, i cicli e così via. Se non si vuole usare nessuna di queste funzionalità, è possibile scrivere semplicemente fogli di stile CSS normali nel file di Less.
+## <a name="develop-custom-visuals"></a>Sviluppare oggetti visivi personalizzati
+Gli oggetti visivi personalizzati consentono di creare oggetti visivi da usare all'interno dei report di Power BI. Gli oggetti visivi personalizzati sono scritti in TypeScript, un soprainsieme di JavaScript. TypeScript supporta caratteristiche più avanzate e l'accesso anticipato alla funzionalità ES6/ES7. L'applicazione di stili visivi viene gestita usando i fogli di stile CSS. Per praticità verrà usato il servizio di pre-compilazione Less, che supporta alcune funzionalità avanzate come l'annidamento, le variabili, i cicli e così via. Se non si vuole usare nessuna di queste funzionalità, è possibile scrivere semplicemente fogli di stile CSS normali nel file di Less.
 
-Per altre informazioni su come sviluppare e pubblicare un oggetto visivo personalizzato, vedere [Pubblicare oggetti visivi personalizzati in Office Store](office-store.md).
-
-![](media/what-can-you-do/powerbi-custom-visual-store.png)
+![Esempio di oggetti visivi](media/what-can-you-do/powerbi-custom-visual-store.png)
 
 ## <a name="push-data-into-power-bi"></a>Push dei dati in Power BI
 È possibile usare l'API Power BI per eseguire il push dei dati in un set di dati. Ciò consente di aggiungere una riga a una tabella all'interno di un set di dati. I nuovi dati possono quindi essere riflessi nei riquadri in un dashboard e all'interno di oggetti visivi in un report.
 
-Per altre informazioni, vedere [Eseguire il push dei dati in un dashboard](walkthrough-push-data.md)
+![Esempio di push dei dati](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Incorporamento con Power BI](embedding.md)  
-[Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI Embedded in Power BI](migrate-from-powerbi-embedded.md)  
-[Archivio GIT API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
-[Archivio GIT C# di Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Pubblicare oggetti visivi personalizzati in Office Store](office-store.md)  
-[Archivio GIT di oggetti visivi di Power BI](https://github.com/Microsoft/PowerBI-visuals)  
-[Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[White paper su Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-
+[Eseguire il push dei dati in un dashboard](walkthrough-push-data.md)

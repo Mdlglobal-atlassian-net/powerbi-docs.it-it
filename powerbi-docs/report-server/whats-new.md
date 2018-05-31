@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813255"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 Informazioni sulle novità del Server di report di Power BI. Questa sezione riguarda le funzionalità principali e viene aggiornata con il rilascio di nuovi elementi.
 
 Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
 
-per le relative informazioni incluse nelle "Novità", vedere:
+Consultare queste fonti per tenersi aggiornati sulle nuove funzionalità di Server di report di Power BI.
+
+* [Blog di Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blog del team Server SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* Il [canale YouTube Guy in a Cube](https://aka.ms/guyinacube)
+
+Per informazioni sulle "Novità" di Power BI, vedere:
 
 * [Novità del servizio Power BI](../service-whats-new.md)
 * [Novità di Power BI Desktop](../desktop-latest-update.md)
 * [Novità delle app per dispositivi mobili per Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Blog del team di Power BI](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Versione di marzo 2018
 
@@ -93,7 +99,7 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Filtri dei dati reattivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive)
 - [Aggiunta di una data di ancoraggio a un filtro dei dati per la data relativa](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate)
 
-### <a name="reporting"></a>Creazione di report
+### <a name="reporting"></a>Reporting
 
 - [Disattivare l'intestazione dell'oggetto visivo in modalità di lettura per un report](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader)
 - [Opzioni del report per le origini dati lente](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource)
@@ -103,14 +109,14 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Ricerca nei riquadri formattazione e analisi](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Riquadro delle proprietà del campo e descrizioni del campo](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analytics
+### <a name="analytics"></a>Analisi
 
 - [UTCNOW() e UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Contrassegnare una tabella con data personalizzata](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 - [Applicare filtri di drill su altri oggetti visivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [Formattazione a livello di cella per modelli multidimensionali di Analysis Services (AS) per schede con più righe](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
  
-### <a name="performance"></a>Prestazioni
+### <a name="performance"></a>Performance
 
 - [Miglioramenti delle prestazioni del filtro](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [Miglioramenti delle prestazioni di DirectQuery](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -208,7 +214,7 @@ Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabe
 ## <a name="next-steps"></a>Passaggi successivi
 [Manuale per l'utente](user-handbook-overview.md)  
 [Manuale per l'amministratore](admin-handbook-overview.md)  
-[Avvio rapido: installazione del Server di report di Power BI](quickstart-install-report-server.md)  
+[Installare il server di report di Power BI](install-report-server.md)  
 [Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
