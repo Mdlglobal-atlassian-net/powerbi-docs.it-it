@@ -1,28 +1,20 @@
 ---
 title: Domande frequenti su Power BI Embedded
 description: Esplorare un elenco di domande frequenti e risposte relative a Power BI Embedded.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2d457c04f9db2bdd57f363ccb0c09e2496aefd6
-ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/14/2018
-ms.locfileid: "34163323"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289741"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -59,7 +51,7 @@ In alcuni casi, un ISV (in genere di grandi dimensioni) avrà la necessità di u
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Quanti token di incorporamento è possibile creare?
 
-I token di incorporamento con licenza Pro sono destinati alle attività di sviluppo e test, pertanto il numero di token di incorporamento che un account master Power BI può generare è limitato. È necessario [acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento. Passare a [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Ottenere le funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
+I token di incorporamento con licenza Pro sono destinati al test dello sviluppo, pertanto il numero di token di incorporamento che un account master Power BI può generare è limitato. È necessario [acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento. Passare a [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Ottenere le funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
 
 ## <a name="technical"></a>Informazioni tecniche
 

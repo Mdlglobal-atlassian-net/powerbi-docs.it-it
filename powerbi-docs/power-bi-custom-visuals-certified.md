@@ -1,21 +1,29 @@
 ---
 title: Visualizzazioni personalizzate certificate di Power BI
 description: Requisiti e processo per l'invio di un oggetto visivo personalizzato per la certificazione. Elenco di oggetti visivi personalizzati già certificati.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-developer
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: a1d3a18fd2f325cd82cd682feb52205f17dacf93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1a1484b14cf20ea428bdc31aa1513f43a85f3739
+ms.sourcegitcommit: c6e1cd09570efc355f4d45a2f87be562e23f3fc3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297010"
+ms.lasthandoff: 05/03/2018
+ms.locfileid: "32345534"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certificare* un oggetto visivo personalizzato
 ## <a name="what-is-meant-by-certified"></a>Cosa si intende per *certificato*?

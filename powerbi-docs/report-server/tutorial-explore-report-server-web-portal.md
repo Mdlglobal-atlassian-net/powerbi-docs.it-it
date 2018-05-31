@@ -1,29 +1,20 @@
 ---
 title: 'Esercitazione: Esplorare Server di report di Power BI in una macchina virtuale'
 description: In questa esercitazione si crea una macchina virtuale con Server di Report di Power BI già installato e si esplora il portale Web.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813945"
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445004"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Esercitazione: Esplorare il portale Web di Server di report di Power BI in una macchina virtuale
 In questa esercitazione si crea una macchina virtuale di Azure con Server di Report di Power BI già installato per imparare a visualizzare, modificare e gestire report impaginati e indicatori KPI di esempio di Power BI.
@@ -58,6 +49,8 @@ Il team di Power BI ha creato una macchina virtuale che viene fornita con Server
 5. Creare un nome utente e una password.
 
 6. Per **Gruppo di risorse** mantenere **Crea nuovo** e assegnare il nome **reportserverresourcegroup**.
+
+    Se si visualizza l'esercitazione più di una volta, è necessario assegnare al gruppo di risorse un nome diverso dopo la prima volta. Non è possibile usare lo stesso nome di gruppo di risorse due volte in una sottoscrizione. 
 
 7. Mantenere le altre impostazioni predefinite > **OK**.
 
@@ -166,6 +159,8 @@ Per impostazione predefinita, il portale Web visualizza il relativo contenuto ne
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
 
+     Usare la versione di Power BI Desktop che viene installata nella macchina virtuale. Non è possibile passare da un dominio all'altro per caricare un report.
+
 3. Nel riquadro Campi espandere la tabella Customers e trascinare il campo Occupation nei filtri a livello di report.
 
     ![Trascinare un campo nel riquadro Filtri](media/tutorial-explore-report-server-web-portal/power-bi-report-server-desktop-filter.png)
@@ -252,7 +247,9 @@ Una volta completata l'esercitazione, eliminare il gruppo di risorse, la macchin
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-In questa esercitazione è stata creata una macchina virtuale con Server di Report di Power BI. Si è provato a usare alcune delle funzionalità del portale Web e si sono aperti un report di Power BI e un report impaginato nei rispettivi editor. Per altre informazioni sulla creazione di report per Server di Report di Power BI, continuare a leggere.
+In questa esercitazione è stata creata una macchina virtuale con Server di Report di Power BI. Si è provato a usare alcune delle funzionalità del portale Web e si sono aperti un report di Power BI e un report impaginato nei rispettivi editor. Questa macchina virtuale possiede origini dati di SQL Server Analysis Services installate, pertanto è possibile provare a creare la propria Power BI e report impaginati con le stesse origini dati. 
+
+Per altre informazioni sulla creazione di report per Server di Report di Power BI, continuare a leggere.
 
 > [!div class="nextstepaction"]
 > [Creare un report di Power BI per Server di report di Power BI](./quickstart-create-powerbi-report.md)

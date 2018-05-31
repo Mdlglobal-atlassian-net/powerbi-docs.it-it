@@ -1,30 +1,22 @@
 ---
 title: Introduzione alla formattazione delle visualizzazioni di Power BI
 description: Personalizzare il riquadro, lo sfondo e la legenda della visualizzazione
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9a61d0aa7bed1e46109b5e467e64922cf434c10e
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: d65281539bcc27ce24971a6da0945908ba65e754
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33813278"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297102"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizzare i titoli, le legende e gli sfondi delle visualizzazioni
 Questa esercitazione illustra alcuni modi disponibili per personalizzare le visualizzazioni.   Il numero di opzioni disponibili per la personalizzazione delle visualizzazioni è molto elevato, quindi è consigliabile esplorare il riquadro Formattazione, selezionando l'icona a forma di rullo per pittura.  Per iniziare, questo articolo illustra come personalizzare il titolo, la legenda e lo sfondo di una visualizzazione.  
