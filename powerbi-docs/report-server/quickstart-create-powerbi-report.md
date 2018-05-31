@@ -1,29 +1,22 @@
 ---
-title: 'Avvio rapido: Creare un report di Power BI per il server di report di Power BI'
+title: Creare un report di Power BI per Server di report di Power BI
 description: Informazioni su come creare un report di Power BI per il server di report di Power BI in pochi semplici passi.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310482"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Avvio rapido: Creare un report di Power BI per il server di report di Power BI
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creare un report di Power BI per Server di report di Power BI
 È possibile archiviare e gestire report di Power BI nel portale Web del Server di report di Power BI, proprio come nel cloud nel servizio Power BI (https://powerbi.com)). È possibile creare e modificare i report in Power BI Desktop e pubblicarli nel portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili su un dispositivo mobile.
 
 ![Report di Power BI nel portale Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -134,8 +127,7 @@ I report del server di report di Power BI non supportano queste funzionalità ne
 Esistono tantissime ottime risorse per creare report in Power BI Desktop. Questi collegamenti sono un buon punto di partenza.
 
 * [Introduzione a Power BI Desktop](../desktop-getting-started.md)
-* Apprendimento guidato: [Introduzione a Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
-
+* Apprendimento guidato: [Introduzione a Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Server di report Power BI
 * [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  

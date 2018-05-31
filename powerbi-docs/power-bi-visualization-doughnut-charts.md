@@ -1,15 +1,15 @@
 ---
-title: Grafici ad anello in Power BI (esercitazione)
-description: 'Esercitazione: Grafici ad anello in Power BI'
+title: Grafici ad anello in Power BI
+description: Grafici ad anello in Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a8f0b07cd21314549df27ef3206743cad058f98f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812726"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Grafici ad anello in Power BI (esercitazione)
+# <a name="doughnut-charts-in-power-bi"></a>Grafici ad anello in Power BI
 Un grafico ad anello è simile a un grafico a torta perché mostra la relazione delle parti rispetto a un intero. L'unica differenza è data dal fatto che il centro è vuoto e consente di inserire un'etichetta o un'icona.
 
 ## <a name="create-a-doughnut-chart"></a>Creare un grafico ad anello

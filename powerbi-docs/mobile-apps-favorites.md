@@ -2,26 +2,27 @@
 title: Preferiti nelle app Power BI per dispositivi mobili
 description: Informazioni su come aggiungere ai Preferiti e visualizzare i dashboard, i report e le app preferiti di Power BI, oltre ai report e agli indicatori KPI del Server di report di Power BI e di Reporting Services nelle app per dispositivi mobili.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812151"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creare e visualizzare i Preferiti nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -80,7 +81,7 @@ Quando si crea un preferito nelle app Power BI per dispositivi mobili, è possib
     ![Stella Preferiti Android](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Aggiungere ai Preferiti i report e gli indicatori KPI del server di report di Power BI e di Reporting Services
-È possibile visualizzare i report e gli indicatori KPI del server di report di Power BI e di Reporting Services nelle app Power BI per dispositivi mobili, ma non è possibile aggiungerli ai Preferiti nelle app per dispositivi mobili. È possibile [contrassegnarli come Preferiti nel portale Web](report-server/getting-around.md#tag-your-favorite-reports-and-kpis). 
+È possibile visualizzare i report e gli indicatori KPI del server di report di Power BI e di Reporting Services nelle app Power BI per dispositivi mobili, ma non è possibile aggiungerli ai Preferiti nelle app per dispositivi mobili. È possibile [contrassegnarli come Preferiti nel portale Web](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Aggiungere dashboard ai Preferiti nel servizio Power BI](service-dashboard-favorite.md) 

@@ -1,29 +1,22 @@
 ---
-title: 'Avvio rapido: Creare un report impaginato per il server di report di Power BI'
+title: Creare un report impaginato per Server di report di Power BI
 description: Informazioni su come creare un report impaginato per il server di report di Power BI in pochi semplici passi.
-services: powerbi
-documentationcenter: 
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294917"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Avvio rapido: Creare un report impaginato per il server di report di Power BI
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creare un report impaginato per Server di report di Power BI
 Come suggerisce il nome, i report impaginati possono contenere più pagine. Hanno un formato fisso e offrono opzioni di personalizzazione precise. I report impaginati sono file con estensione rdl.
 
 È possibile archiviare e gestire report impaginati nel portale Web del server di report di Power BI, proprio come nel portale Web di SQL Server Reporting Services (SSRS). È possibile crearli e modificarli in Generatore report o Progettazione report in SQL Server Data Tools (SSDT), quindi pubblicarli in un portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili sul proprio dispositivo.
@@ -58,7 +51,7 @@ La creazione guidata Grafico illustra i passaggi di base della creazione di una 
 
 I report impaginati possono connettersi a un'ampia gamma di origini dati, da Microsoft SQL Server e Database SQL di Microsoft Azure a Oracle, Hyperion e molte altre. Leggere l'argomento relativo alle [origini dati supportate dai report impaginati](connect-data-sources.md).
 
-Nella prima pagina della creazione guidata Grafico, **Scegliere un set di dati**, è possibile creare un set di dati o sceglierne uno condiviso in un server. I *set di dati* restituiscono i dati del report da una query in un'origine dati esterna.
+Nella prima pagina della creazione guidata Grafico, **	Scegliere un set di dati**, è possibile creare un set di dati o sceglierne uno condiviso in un server. I *set di dati* restituiscono i dati del report da una query in un'origine dati esterna.
 
 1. Selezionare **Sfoglia** > selezionare un set di dati condiviso in un server > **Apri** > **Avanti**.
    

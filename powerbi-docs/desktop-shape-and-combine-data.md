@@ -1,33 +1,34 @@
 ---
-title: Data shaping e combinazione di dati in Power BI Desktop
-description: Data shaping e combinazione di dati in Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Modificare la forma e combinare i dati da più origini
+description: In questa esercitazione viene illustrato come modificare la forma dei dati e combinarli in Power BI Desktop.
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288752"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Data shaping e combinazione di dati in Power BI Desktop
-Con **Power BI Desktop**è possibile connettersi a molti tipi diversi di origini dati e quindi eseguire il data shaping in base alle esigenze. Per *data shaping* si intende la trasformazione dei dati, ad esempio rinominando colonne o tabelle, cambiando il testo in numeri, rimuovendo righe, impostando la prima riga come intestazione e così via. Per *combinazione* dei dati si intende la connessione di due o più origini dati, il data shaping necessario e quindi il consolidamento dei dati in un'unica query utile.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Modificare la forma dei dati e combinarli in Power BI Desktop
 
-Questo articolo descrive come creare una query per il data shaping usando Power BI Desktop ed evidenzia alcune delle attività più comuni. La query usata in questo esempio viene descritta in modo più dettagliato, con indicazioni anche su come creare la query partendo da zero, in [Introduzione a Power BI Desktop](desktop-getting-started.md).
+Con **Power BI Desktop** è possibile connettersi a molti tipi diversi di origini dati e quindi modificare la forma dei dati in base alle esigenze, consentendo la creazione di report visivi condivisibili con altri utenti. Per *data shaping* si intende la trasformazione dei dati, ad esempio rinominando colonne o tabelle, cambiando il testo in numeri, rimuovendo righe, impostando la prima riga come intestazione e così via. Per *combinazione* dei dati si intende la connessione di due o più origini dati, il data shaping necessario e quindi il consolidamento dei dati in un'unica query utile.
+
+In questa esercitazione si imparerà a:
+
+* Modificare la forma dei dati usando l'**Editor di query**
+* Connettersi a un'origine dati
+* Connettersi a un'altra origine dati
+* Combinare le origini dati e creare un modello di dati da usare nei report
+
+Questa esercitazione descrive come modificare la forma di una query usando Power BI Desktop ed evidenzia alcune delle attività più comuni. La query usata in questo esempio viene descritta in modo più dettagliato, con indicazioni anche su come creare la query partendo da zero, in [Introduzione a Power BI Desktop](desktop-getting-started.md).
 
 È utile sapere che l' **Editor di query** in Power BI Desktop usa ampiamente i menu di scelta rapida e la barra multifunzione. La maggior parte delle opzioni che è possibile selezionare nella scheda **Trasforma** della barra multifunzione è disponibile anche facendo clic con il pulsante destro del mouse su un elemento, ad esempio una colonna, e scegliendo un'opzione dal menu visualizzato.
 

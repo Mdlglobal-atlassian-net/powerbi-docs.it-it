@@ -1,6 +1,6 @@
 ---
-title: Mappe colorate (Choropleth) in Power BI (esercitazione)
-description: Documentazione - esercitazione sulla creazione di mappe colorate (Choropleth) in Power BI
+title: Mappe colorate (cloroplete) in Power BI
+description: Documentazione sulla creazione di mappe colorate (Choropleth) in Power BI
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: e982fa5cc75249ab2475e02150a92294cb87980a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812312"
 ---
-# <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Mappe colorate (choropleth) in Power BI (esercitazione)
+# <a name="filled-maps-choropleths-in-power-bi"></a>Mappe colorate (cloroplete) in Power BI
 Nelle mappe colorate vengono usate ombreggiature, tinte o motivi per visualizzare proporzionalmente le differenze relative a un valore in un'area geografica.  In questo modo è possibile visualizzare queste differenze relative con ombreggiature chiare (frequenza o valore minore) e scure (frequenza o valore maggiore).    
 
 ![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
