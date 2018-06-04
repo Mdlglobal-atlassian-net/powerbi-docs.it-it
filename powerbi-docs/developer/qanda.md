@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
 ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287786"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Domande e risposte in Power BI Embedded
 Power BI Embedded offre un modo per incorporare Domande e risposte in un'applicazione e per consentire agli utenti di porre domande usando il linguaggio naturale e ricevere risposte immediate sotto forma di oggetti visivi quali grafici o grafi.
