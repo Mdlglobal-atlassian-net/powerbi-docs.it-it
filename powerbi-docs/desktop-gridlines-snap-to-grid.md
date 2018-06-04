@@ -11,10 +11,11 @@ ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7477fc19dda5aeb7729fbbde319faa0d930db179
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289833"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Usare le linee della griglia e il blocco alla griglia nei report di Power BI Desktop
 L'area di disegno dei report **Power BI Desktop** offre linee della griglia che consentono di allineare accuratamente gli oggetti visivi in una pagina del report e di usare funzionalità per bloccare alla griglia tali oggetti del report per un aspetto pulito, allineato e distribuito in modo uniforme.

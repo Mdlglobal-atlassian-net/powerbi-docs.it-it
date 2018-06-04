@@ -1,29 +1,21 @@
 ---
 title: Modificare la forma e combinare i dati da più origini
 description: In questa esercitazione viene illustrato come modificare la forma dei dati e combinarli in Power BI Desktop.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 74226a92f50c1a4f6dad50031873c58aa36db744
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33810944"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288752"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Modificare la forma dei dati e combinarli in Power BI Desktop
 

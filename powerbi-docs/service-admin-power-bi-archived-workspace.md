@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293629"
 ---
 # <a name="power-bi-archived-workspace"></a>Area di lavoro contenuto archiviato di Power BI
 Con Power BI, chiunque può iscriversi e iniziare a usare il servizio in pochissimi minuti.  In seguito, il reparto IT della propria organizzazione può scegliere di prendere il controllo della gestione di Power BI per conto degli utenti.  Se si verifica questo avvicendamento, si trarrà vantaggio dalla gestione centrale degli utenti e delle autorizzazioni all'interno dell'organizzazione e, possibilmente, dall'iscrizione semplificata usando lo stesso nome utente e password usati per altri servizi. 

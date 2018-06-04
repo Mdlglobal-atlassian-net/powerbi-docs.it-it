@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
 ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290270"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrare un dashboard in un'app per l'organizzazione
 Informazioni su come integrare o incorporare un dashboard in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.

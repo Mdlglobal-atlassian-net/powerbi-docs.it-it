@@ -7,36 +7,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/08/2017
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721065"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Creare report ottimizzati per le app per telefoni di Power BI
 Quando si [crea un report in Power BI Desktop](desktop-report-view.md), è possibile migliorare l'esperienza d'uso nelle app per dispositivi mobili sui telefoni cellulari creando una versione del report specifica per il telefono. Per adattare il report al telefono e creare un'esperienza ottimale, è sufficiente ridisporre e ridimensionare gli oggetti visivi, magari non includendoli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report per il telefono. I lettori del report possano visualizzarli e filtrare il report con essi.
 
-![Report ottimizzato in un telefono](media/desktop-create-phone-report/07-power-bi-phone-report-portrait.png)
+![Report ottimizzato in un telefono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
 ## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Disporre una pagina del report per il telefono in Power BI Desktop
 Dopo aver [creato un report in Power BI Desktop](desktop-report-view.md), è possibile ottimizzare per i telefoni.
 
 1. In Power BI Desktop, selezionare **Visualizzazione Report** nella barra di spostamento a sinistra.
    
-    ![icona Visualizzazione report](media/desktop-create-phone-report/pbi_reportviewinpbidesigner_changeview.png)
+    ![icona Visualizzazione report](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
 2. Nella scheda **Visualizza** selezionare **Layout Telefono**.  
    
-    ![Icona Layout Telefono](media/desktop-create-phone-report/power-bi-phone-layout-icon.png)
+    ![Icona Layout Telefono](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
     Verrà visualizzata un'area di disegno del telefono vuota. Tutti gli oggetti visivi nella pagina del report originale sono elencati nel riquadro Visualizzazioni a destra.
 3. Per aggiungere un oggetto visivo al layout telefono, trascinarlo dal riquadro Visualizzazioni all'area di disegno del telefono.
    
     I report per il telefono usano un layout di griglia. Gli oggetti visivi trascinati sull'area di disegno verranno bloccati sulla griglia.
    
-    ![Trascinare e rilasciare un oggetto visivo](media/desktop-create-phone-report/02_dragging_and_droping_a_vis.gif)
+    ![Trascinare e rilasciare un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     È possibile aggiungere alcuni o tutti gli oggetti visivi della pagina del report master alla pagina del report per il telefono. È possibile aggiungere ogni oggetto visivo solo una volta.
 4. È possibile ridimensionare gli oggetti visivi nella griglia come si farebbe per i riquadri nei dashboard e nei dashboard mobili.
@@ -46,14 +47,14 @@ Dopo aver [creato un report in Power BI Desktop](desktop-report-view.md), è pos
    > 
    > 
    
-   ![Ridimensionare un oggetto visivo](media/desktop-create-phone-report/03_resizing_a_viz_to_grid.gif)
+   ![Ridimensionare un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 
 ## <a name="optimize-a-visual-for-any-size"></a>Ottimizzare un oggetto visivo per qualsiasi dimensione
 È possibile configurare gli oggetti visivi nel dashboard o nel report in modo che siano *reattivi*, ovvero in modo che vengano modificati dinamicamente per visualizzare la quantità massima di dati e informazioni dettagliate, indipendentemente dalle dimensioni dello schermo. 
 
 Quando le dimensioni di un oggetto visivo subiscono modifiche, Power BI classifica in ordine di priorità la visualizzazione dei dati, ad esempio rimuovendo la spaziatura interna e spostando automaticamente la legenda sopra l'oggetto visivo, in modo che l'oggetto visivo rimanga informativo anche con dimensioni ridotte.
 
-![Ridimensionamento di oggetti visivi reattivi](media/desktop-create-phone-report/power-bi-responsive-visual.gif)
+![Ridimensionamento di oggetti visivi reattivi](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
 È possibile scegliere se attivare la reattività per ogni oggetto visivo. Altre informazioni sull'[ottimizzazione degli oggetti visivi](desktop-create-responsive-visuals.md).
 
@@ -69,7 +70,7 @@ Quando le dimensioni di un oggetto visivo subiscono modifiche, Power BI classifi
   
    La rimozione dell'oggetto visivo in questa posizione consente di rimuoverlo solo dall'area di disegno del layout telefono. L'oggetto visivo e il report originale non subiscono alcuna modifica.
   
-   ![Rimozione di un oggetto visivo](media/desktop-create-phone-report/05_removing_a_vis.gif)
+   ![Rimozione di un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
 ## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Migliorare i filtri dei dati per il miglior funzionamento nei report per il telefono
 I filtri dei dati possono essere applicati nell'area di disegno dei dati del report. Quando si progettano i filtri dei dati nella normale modalità di creazione dei report, è possibile modificare alcune impostazioni di filtro dei dati per renderle più facilmente utilizzabili nei report per il telefono:
@@ -80,7 +81,7 @@ I filtri dei dati possono essere applicati nell'area di disegno dei dati del rep
 
 Se si imposta il filtro dei dati come reattivo, variando le dimensioni e la forma visualizza più o meno opzioni. Può essere alto, basso, largo o stretto. Se lo si imposta molto piccolo, diventa un'icona di filtro nella pagina del report. 
 
-![Filtro dei dati reattivo di Power BI](media/desktop-create-phone-report/power-bi-slicer-2-rows.png)
+![Filtro dei dati reattivo di Power BI](media/desktop-create-phone-report/desktop-create-phone-report-8.png)
 
 Altre informazioni sulla [creazione di filtri dei dati reattivi](power-bi-slicer-filter-responsive.md).
 
@@ -98,7 +99,7 @@ All'interno di un report per il telefono, la modifica dell'orientamento del tele
 
 Se si ottimizzano solo alcune pagine, i lettori vedranno un messaggio in modalità verticale, che indica che il report è disponibile in modalità orizzontale.
 
-![Pagina di telefono non ottimizzata](media/desktop-create-phone-report/06-power-bi-phone-report-page-not-optimized.png)
+![Pagina di telefono non ottimizzata](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
 I lettori del report possono ruotare lateralmente il telefono per visualizzare la pagina in modalità orizzontale. Altre informazioni su come [interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md).
 
