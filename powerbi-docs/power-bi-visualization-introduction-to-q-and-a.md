@@ -11,10 +11,11 @@ ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240986"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introduzione a Power BI - Domande e risposte
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usare Domande e risposte di Power BI con l'esempio di analisi delle vendite al dettaglio

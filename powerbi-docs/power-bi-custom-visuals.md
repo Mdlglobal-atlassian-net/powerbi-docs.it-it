@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maghan
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cf5383f034b47708aa6b75ca5ead3e79b8e270
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d8c3a33a3ae6166d33ea7a613917616613b84696
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721456"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Oggetti visivi personalizzati in Power BI
 Quando si crea o si modifica un report di Power BI, sono disponibili vari tipi di oggetti visivi. Gli oggetti visivi sono visualizzati nel riquadro **Visualizzazioni**. Quando si scarica Power BI Desktop o si accede al servizio Power BI (app.powerbi.com), questo set di oggetti visivi è incluso per impostazione predefinita.
@@ -53,10 +54,10 @@ Informazioni su AppSource In breve, è il posto in cui è possibile trovare app,
 
 ### <a name="certified-visuals"></a>Oggetti visivi certificati
 
-Gli oggetti visivi certificati di Power BI sono oggetti visivi del Marketplace che hanno superato test di qualità rigorosi e sono supportati in ulteriori scenari, quali [sottoscrizioni di messaggi di posta elettronica](https://docs.microsoft.com/en-us/power-bi/service-report-subscribe) ed [esportazione in PowerPoint](https://docs.microsoft.com/en-us/power-bi/service-publish-to-powerpoint).
-Per visualizzare l'elenco di oggetti visivi personalizzati certificati o per inviare il proprio, vedere [Oggetti visivi personalizzati certificati](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-certified).
+Gli oggetti visivi certificati di Power BI sono oggetti visivi del Marketplace che hanno superato test di qualità rigorosi e sono supportati in ulteriori scenari, quali [sottoscrizioni di messaggi di posta elettronica](https://docs.microsoft.com/power-bi/service-report-subscribe) ed [esportazione in PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Per visualizzare l'elenco di oggetti visivi personalizzati certificati o per inviare il proprio, vedere [Oggetti visivi personalizzati certificati](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified).
 
-Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in AppSource, possono vedere [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](https://docs.microsoft.com/en-us/power-bi/service-custom-visuals-getting-started-with-developer-tools) e le informazioni su come [Pubblicare oggetti visivi personalizzati in AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in AppSource, possono vedere [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](https://docs.microsoft.com/power-bi/service-custom-visuals-getting-started-with-developer-tools) e le informazioni su come [Pubblicare oggetti visivi personalizzati in AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visuals-from-a-file"></a>Importare un oggetto visivo personalizzato da un file
 
