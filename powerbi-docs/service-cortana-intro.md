@@ -10,10 +10,11 @@ ms.date: 01/13/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 5d11fd66e8b0aff15648aba6d3e397cd7fdb9bb3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251645"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Trovare e visualizzare rapidamente i dati di Power BI con Cortana per Power BI
 Usare Cortana nei dispositivi Windows 10 per ottenere risposte immediate alle domande aziendali più importanti. Grazie all'integrazione con Power BI, Cortana può recuperare informazioni chiave direttamente dai dashboard e dai report di Power BI. È sufficiente avere Windows 10 versione di novembre 2015 o versioni successive, Cortana, Power BI e l'accesso ad almeno un set di dati.

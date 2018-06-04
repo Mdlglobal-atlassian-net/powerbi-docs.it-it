@@ -11,10 +11,11 @@ ms.date: 05/21/2018
 ms.author: amac
 LocalizationGroup: Samples
 ms.openlocfilehash: 8a586561ea91fc8a66d70099938818372456df98
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34456056"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Scaricare la cartella di lavoro di esempio Financial per Power BI
 Se si ha bisogno di alcuni dati da provare con il servizio Power BI, è possibile scaricare una semplice cartella di lavoro di Excel contenente dati finanziari di esempio.  Le istruzioni per scaricarla sono le seguenti:

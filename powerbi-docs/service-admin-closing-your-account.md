@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: be0b1bf3dbfba0f2e1545eced38ec19650342a19
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296136"
 ---
 # <a name="closing-your-power-bi-account"></a>Chiusura dell'account di Power BI
 Se non si vuole più usare Power BI, è possibile chiedere di chiudere l'account.  Dopo la chiusura dell'account, non sarà più possibile accedere a Power BI.  Anche tutti i dati del cliente caricati o creati in Power BI saranno eliminati in base ai criteri di conservazione dei dati menzionati nelle condizioni per l'utilizzo del servizio Power BI.

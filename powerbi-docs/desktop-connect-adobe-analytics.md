@@ -11,10 +11,11 @@ ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34230923"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Connettersi ad Adobe Analytics in Power BI Desktop 
 In **Power BI Desktop** è possibile connettersi ad **Adobe Analytics** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop. 

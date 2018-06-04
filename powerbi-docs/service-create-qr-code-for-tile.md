@@ -11,10 +11,11 @@ ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249710"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un riquadro in Power BI da usare nelle app per dispositivi mobili
 I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI & #151 senza dover effettuare nessuno spostamento o ricerca.

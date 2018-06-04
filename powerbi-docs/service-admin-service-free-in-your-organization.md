@@ -11,10 +11,11 @@ ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 2ba97b76b13c9adf3c9f20d5d42c5ec9c363edda
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293675"
 ---
 # <a name="power-bi-free-in-your-organization"></a>Power BI (gratuito) nell'organizzazione
 Questo articolo illustra come usar Power BI (gratuito) all'interno dell'organizzazione. Il concetto di organizzazione implica che si dispone di un tenant e che si possono gestire utenti e servizi all'interno di tale tenant. Come amministratore, è possibile controllare l'assegnazione delle licenze oppure consentire agli utenti di effettuare l'iscrizione come singoli. Verrà illustrata la licenza di Power BI (gratuito) e la modalità di controllo delle iscrizioni come utente singolo.

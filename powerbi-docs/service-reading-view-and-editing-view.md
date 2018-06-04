@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34251668"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI (ma non in Power BI Desktop) sono disponibili due modalità per visualizzare e interagire con i report: la Visualizzazione di lettura e la Visualizzazione di modifica. La visualizzazione di lettura è disponibile per tutti gli utenti ed è stata progettata in modo specifico per i *consumer* di dati, mentre la visualizzazione di modifica è disponibile solo per gli *autori* e i proprietari dei report.
