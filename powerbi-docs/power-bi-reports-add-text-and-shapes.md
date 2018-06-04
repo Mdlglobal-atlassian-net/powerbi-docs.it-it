@@ -12,10 +12,11 @@ ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310292"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Caselle di testo nei report di Power BI
 È possibile aggiungere caselle di testo e forme ai report tramite il servizio Power BI e Power BI Desktop. In entrambi i casi, è necessario disporre di autorizzazioni di modifica per il report. Se un report è stato condiviso nel servizio Power BI, non si dispone delle autorizzazioni di modifica. 
