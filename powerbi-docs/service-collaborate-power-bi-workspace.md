@@ -11,10 +11,11 @@ ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245455"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Collaborare nell'area di lavoro per le app di Power BI
 Le aree di lavoro per le app di Power BI sono la soluzione ideale per collaborare con i colleghi all'elaborazione di dashboard, report e set di dati per la creazione di *app*. Lo scopo delle aree di lavoro è proprio quello di incentivare la collaborazione. Una volta terminata la collaborazione con i colleghi all'elaborazione dei dashboard e dei report, è possibile creare un pacchetto contenente l'app e distribuirlo. Altre informazioni sulla [creazione di app e aree di lavoro per le app in Power BI](service-create-distribute-apps.md). 

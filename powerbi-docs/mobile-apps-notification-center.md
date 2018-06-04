@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 ms.openlocfilehash: e97a65e08d3830dc954a88f518c05798d177490f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294509"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Ottenere le notifiche nelle app per dispositivi mobili di Power BI
 Si applica a:

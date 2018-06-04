@@ -11,10 +11,11 @@ ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298781"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Cluster a disponibilità elevata per il gateway dati locale
 È possibile creare **cluster a disponibilità elevata** di installazioni di **gateway dati locali** per garantire all'organizzazione l'accesso alle risorse dati locali usate nei report e nei dashboard di Power BI. Questi cluster permettono agli amministratori dei gateway di raggruppare i gateway per evitare singoli punti di guasto durante l'accesso alle risorse dati locali. Questo articolo descrive le procedure necessarie per creare un cluster a disponibilità elevata di gateway dati locali, nonché le procedure consigliate per la configurazione. I cluster di gateway a disponibilità elevata richiedono che nel gateway dati locale sia stato installato l'aggiornamento di novembre 2017 o versione successiva.
