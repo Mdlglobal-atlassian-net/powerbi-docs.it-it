@@ -11,10 +11,11 @@ ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298206"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway dati locale (modalità personale)
 È possibile usare origini dati locali e creare report e dashboard di Power BI usando un gateway. Il termine **gateway** indica il software usato per agevolare l'accesso a dati archiviati in una rete privata locale, che permette di usarli nei servizi online, come il **servizio Power BI**. Il **Gateway dati locale (modalità personale)** è un aggiornamento recente del gateway di Power BI che consente agli utenti di installare un gateway nel proprio computer e accedere ai dati locali.
