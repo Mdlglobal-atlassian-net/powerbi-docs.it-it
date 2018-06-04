@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242979"
 ---
 # <a name="printing-from-power-bi-service"></a>Stampa dal servizio Power BI
 È possibile stampare un intero dashboard, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.

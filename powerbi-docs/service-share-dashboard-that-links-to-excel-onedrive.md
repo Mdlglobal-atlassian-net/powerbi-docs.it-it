@@ -11,10 +11,11 @@ ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c8afcb15097a4d9a0d15f76304085f81daa17809
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34257152"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Condividere un dashboard di Power BI che include collegamenti a un file di Excel in OneDrive
 In Power BI è possibile [connettersi alle cartelle di lavoro di Excel in OneDrive for Business](service-excel-workbook-files.md) e aggiungere riquadri a un dashboard dalla cartella di lavoro. Quando si condividono i dashboard oppure si crea un pacchetto di contenuto che include tale dashboard:

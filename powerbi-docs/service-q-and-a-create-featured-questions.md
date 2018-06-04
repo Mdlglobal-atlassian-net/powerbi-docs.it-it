@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34242388"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Creare domande in primo piano per Domande e risposte di Power BI
 Se si ha un set di dati, è possibile aggiungere nuove domande in primo piano a questo set di dati.  Domande e risposte su Power BI visualizzerà queste domande ai colleghi che usano (*utilizzano*) il set di dati.  Le domande in primo piano danno un'idea ai colleghi sul tipo di domande che possono porre sul set di dati. Le domande in primo piano aggiunte dipendono dall'utente; aggiungere domande frequenti, domande che consentono di visualizzare risultati interessanti o domande che potrebbero essere difficili da formulare.

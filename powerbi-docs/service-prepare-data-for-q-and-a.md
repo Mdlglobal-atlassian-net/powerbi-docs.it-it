@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: a6216169eb50ca535b73b07f5553c9b3d5e17470
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34240963"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Come preparare correttamente i dati di Excel per l'uso di Domande e risposte in Power BI
 Le persone che creano i modelli di dati o le cartelle di lavoro di Excel usati con Power BI devono leggere la sezione seguente.

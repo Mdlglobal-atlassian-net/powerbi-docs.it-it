@@ -12,10 +12,11 @@ ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310108"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Esercitazione: Connettersi a un esempio di GitHub con Power BI
 In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al repository pubblico dei contenuti di Power BI (noto anche come *repository*), ottenere informazioni sul numero di persone che contribuiscono al contento pubblico di Power BI, sapere chi contribuisce di più, in quale giorno della settimana si registrano più contributi nonché avere risposte ad altre domande. 
@@ -33,7 +34,7 @@ In questa esercitazione viene completata la procedura seguente:
 > * Visualizzare il dashboad e il report con i dati di GitHub
 > * Pulire le risorse eliminando l'app
 
-Se non si è ancora registrati in Power BI, [registrarsi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
+Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

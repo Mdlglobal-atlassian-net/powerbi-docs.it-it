@@ -12,10 +12,11 @@ ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34471595"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
@@ -23,7 +24,7 @@ Dopo aver appreso le nozioni di base di Power BI, è possibile esplorare il **se
  
 ## <a name="prerequisites"></a>Prerequisiti
 
-- Se non si è ancora registrati in Power BI, [registrarsi per ottenere una versione di prova gratuita ](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
+- Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 - Leggere [Power BI - Concetti di base per il servizio Power BI](service-basic-concepts.md)
 
@@ -127,7 +128,7 @@ Poiché l'esempio è uno, la ricerca e l'ordinamento non sono necessari.  Quando
 Per altre informazioni, vedere [Eseguire ricerche, ordinare e filtrare in Power BI](service-navigation-search-filter-sort.md).
 
 ## <a name="clean-up-resources"></a>Pulire le risorse
-Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il dashboard, il report e il set di dati di esempio dell'analisi di vendita al dettaglio.
+Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il dashboard, il report e il set di dati dell'esempio di analisi delle vendite al dettaglio.
 
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.    
 2. Nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro > Area di lavoro personale**.  

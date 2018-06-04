@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 955f4347630a781174d399d6a1363683745a4b3e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293491"
 ---
 # <a name="governance-and-deployment-approaches"></a>Governance e approcci alla distribuzione
 Negli ultimi decenni, le aziende sono diventate sempre più consapevoli della necessità di sfruttare in modo strategico gli asset di dati per sfruttare le opportunità del mercato. Grazie ad analisi della concorrenza o a una maggiore comprensione dei modelli operativi, molte organizzazioni ora sanno quanto sia importante poter contare su una strategia per i dati come strumento per collocarsi un passo avanti rispetto alla concorrenza.  

@@ -5,15 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 299f8c0997c980da6011f9052fbb9c0ac86b4ae0
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721433"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>App Power BI per realtà mista (anteprima)
 È possibile visualizzare dashboard e report nell'app Power BI per realtà mista mentre si è immersi nel mondo virtuale o inserire tali elementi in posizioni specifiche nel contesto del proprio ambiente. 

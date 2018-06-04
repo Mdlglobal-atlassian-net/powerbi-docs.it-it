@@ -11,10 +11,11 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248931"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
 Dopo aver letto [Dashboard in Power BI](service-dashboards.md) si vuole creare un dashboard personalizzato. Ci sono molti modi diversi per creare un dashboard: partendo da un report, da zero, da un set di dati, attraverso la duplicazione di un dashboard esistente e altri ancora.  

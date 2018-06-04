@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: d6a5aa5bfc1ac9a2a5f7784464598800f70d0f05
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: f264dadf9d9d91083094d393e1b63d9f53aaca4c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722360"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 Azure SQL Data Warehouse con DirectQuery consente di creare report dinamici basati su dati e metriche già presenti in Azure SQL Data Warehouse. Con DirectQuery, le query vengono reinviate ad Azure SQL Data Warehouse in tempo reale durante l'esplorazione dei dati. Questa funzionalità, unita alla scalabilità di SQL Data Warehouse, consente agli utenti di creare in pochi minuti report dinamici in base a svariati terabyte di dati. Per di più, l'introduzione del pulsante **Apri in Power BI** consente agli utenti di connettere Power BI direttamente ad SQL Data Warehouse senza dover specificare manualmente le informazioni.
@@ -77,12 +78,12 @@ I nomi completi del server e del database sono disponibili nel portale di antepr
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
-> Se il tenant di Power BI è nella stessa area di Azure SQL Data Warehouse non saranno applicati costi di uscita. Per sapere dove si trova il tenant di Power BI usare [queste istruzioni](https://docs.microsoft.com/en-us/power-bi/service-admin-where-is-my-tenant-located).
+> Se il tenant di Power BI è nella stessa area di Azure SQL Data Warehouse non saranno applicati costi di uscita. Per sapere dove si trova il tenant di Power BI usare [queste istruzioni](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
 >
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione a Power BI](service-get-started.md)  
 [Recuperare dati per Power BI](service-get-data.md)  
-[Azure SQL Data Warehouse](https://azure.microsoft.com/en-us/documentation/services/sql-data-warehouse/)  
+[Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722225"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B
 
@@ -30,7 +31,7 @@ Power BI si integra con Azure Active Directory Business-to-business (AD B2B Azur
 
 ## <a name="who-can-you-invite"></a>Chi è possibile invitare?
 
-È possibile invitare utenti guest che usano qualsiasi indirizzo di posta elettronica, inclusi account personali, ad esempio gmail.com, outlook.com o hotmail.com. In Azure B2B questi sono noti come "ID social". Per altre informazioni, vedere [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+È possibile invitare utenti guest che usano qualsiasi indirizzo di posta elettronica, inclusi account personali, ad esempio gmail.com, outlook.com o hotmail.com. In Azure B2B questi sono noti come "ID social". Per altre informazioni, vedere [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Invitare gli utenti guest
 
@@ -100,7 +101,7 @@ L'utente guest ha già una licenza di Power BI Pro assegnata nel tenant.
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-* Quando si invitano utenti guest che usano account di posta elettronica personali, ad esempio gmail.com, outlook.com o hotmail.com, è possibile seguire questo [video incorporato](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) per vedere un esempio della procedura di iscrizione di un utente.
+* Quando si invitano utenti guest che usano account di posta elettronica personali, ad esempio gmail.com, outlook.com o hotmail.com, è possibile seguire questo [video incorporato](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience) per vedere un esempio della procedura di iscrizione di un utente.
 * Gli utenti guest B2B esterni possono esclusivamente utilizzare contenuto. Gli utenti B2B esterni possono visualizzare app, dashboard e report, esportare i dati e creare sottoscrizioni di posta elettronica per i dashboard e i report. Non possono accedere alle aree di lavoro o pubblicare contenuto personale.
 * Questa funzionalità non è attualmente disponibile nelle app Power BI per dispositivi mobili. In un dispositivo mobile è possibile visualizzare il contenuto di Power BI condiviso tramite Azure AD B2B in un browser.
 * Questa funzionalità non è attualmente disponibile nella Web part Report di SharePoint Online di Power BI.

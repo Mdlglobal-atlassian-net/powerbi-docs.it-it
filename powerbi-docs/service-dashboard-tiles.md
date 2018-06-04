@@ -11,10 +11,11 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249069"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
 I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](mobile-iphone-app-get-started.md).

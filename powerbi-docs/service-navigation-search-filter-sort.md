@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a9b7d2326d62887a1a1acfef1ae164bec1cf2e62
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 421ef9609872515ae462de574d67528835bb78ab
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722840"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Spostamento: ricerca e ordinamento del contenuto nel servizio Power BI
 Sono disponibili vari modi per spostarsi all'interno del contenuto nel servizio Power BI. Nelle aree di lavoro il contenuto è organizzato in base al tipo: dashboard, report, cartelle di lavoro e set di dati.  Il contenuto è anche organizzato in base all'utilizzo: Preferiti, recenti, app, condivisi con l'utente corrente e in primo piano. Questi percorsi diversi per il contenuto consentono di trovare rapidamente ciò che serve nel servizio Power BI.  
