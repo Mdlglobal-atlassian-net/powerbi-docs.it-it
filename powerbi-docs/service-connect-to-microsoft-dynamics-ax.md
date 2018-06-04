@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34239909"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Connettersi al pacchetto di contenuto di Microsoft Dynamics AX con Power BI
 Microsoft Dynamics AX include tre pacchetti di contenuto Power BI destinati a utenti aziendali diversi. Il pacchetto di contenuto Financial Performance, progettato specificamente per i CFO, offre informazioni dettagliate sulle prestazioni finanziarie dell'organizzazione. Il pacchetto di contenuto Retail Channel Performance, destinato ai responsabili di canale, interpreta le prestazioni di vendita per prevedere tendenze e cogliere intuizioni direttamente dai dati di Retail and Commerce . Il pacchetto di contenuto Cost Management è progettato per i COO e i CFO e offre informazioni dettagliate sulle prestazioni operative.

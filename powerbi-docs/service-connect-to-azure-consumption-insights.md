@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 31f1d4161801b45307e92ad3f654d30843897dc8
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244158"
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>Connettersi a Microsoft Azure Consumption Insights con Power BI
 Esplorare e monitorare i dati relativi ai consumi di Microsoft Azure in Power BI con il pacchetto di contenuto Power BI. I dati verranno aggiornati automaticamente una volta al giorno.

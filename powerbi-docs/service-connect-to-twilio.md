@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34249437"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Connettersi a Twilio con Power BI
 Il pacchetto di contenuto Microsoft Twilio per Power BI consente di effettuare il pull dei dati in Power BI e crea un [dashboard Twilio](https://powerbi.microsoft.com/integrations/twilio) pronto all'uso e un report con informazioni dettagliate sui dati. È anche possibile creare dashboard e report personalizzati per il set di dati creato da Power BI. I dati verranno aggiornati una volta al giorno, di conseguenza quelli visualizzati saranno sempre recenti.
