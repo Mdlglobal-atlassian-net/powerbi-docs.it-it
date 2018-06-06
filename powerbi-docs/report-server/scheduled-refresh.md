@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296895"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799534"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Aggiornamento pianificato dei report di Power BI nel server di report di Power BI
 L'aggiornamento pianificato per i report di Power BI permette di mantenere aggiornati i dati di un report.
@@ -60,9 +60,6 @@ Il carico di lavoro tradizionale per un server di report è simile a quello di u
 Per informazioni su come monitorare un'istanza di Analysis Services, vedere [Monitorare un'istanza di Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
 Per informazioni sulle impostazioni della memoria in Analysis Services, vedere [Proprietà della memoria](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
-
-### <a name="authentication-and-kerberos"></a>Autenticazione e Kerberos
-Se l'origine dati è impostata per usare le credenziali di Windows, potrebbe essere necessario configurare la delega vincolata Kerberos. Per altre informazioni, vedere [Configurare l'autenticazione di Windows in un server di report](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="next-steps"></a>Passaggi successivi
 Configurare l'[aggiornamento pianificato](configure-scheduled-refresh.md) in un report di Power BI.
