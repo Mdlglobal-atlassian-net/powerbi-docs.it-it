@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 05/19/2018
 ms.author: maggies
-ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: a7012bf96ee0f8ac7e73d1db21e9a36f0fea88cb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481050"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Sequenza temporale del supporto per il server di report di Power BI
 Il server di report di Power BI verrà rilasciato più volte all'anno. Gli aggiornamenti critici e di sicurezza saranno disponibili fino alla disponibilità generale della versione successiva. Dopo la versione successiva, la versione precedente continuerà a ricevere gli aggiornamenti della sicurezza per il resto della durata di 12 mesi.
@@ -36,8 +37,8 @@ Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Novità del Server di report di Power BI](whats-new.md)  
-[Manuale per l'utente](user-handbook-overview.md)  
-[Manuale per l'amministratore](admin-handbook-overview.md)  
+[Che cos'è Server di report di Power BI?](get-started.md)
+[Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

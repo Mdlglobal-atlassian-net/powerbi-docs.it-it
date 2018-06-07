@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1bf5f83265c9d4fc11532b647207f8d273aab50c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721111"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. Ciò significa che è possibile creare il modello di dati ideale in Power BI Desktop, pubblicarlo nel servizio Power BI, quindi sarà possibile creare più report diversi (in file con estensione pbix separati) in base allo stesso modello di dati comuni. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -35,6 +36,8 @@ Tutti apprezzano il report e il set di dati creati da Anna ed è qui che ha orig
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Connettersi a un set di dati del servizio Power BI usando una connessione dinamica
 Quando Anna avrà creato un report (e il set di dati su cui è basato) e lo pubblicherà nel **servizio Power BI**, questo verrà visualizzato nell'area di lavoro del suo team nel servizio Power BI. A questo punto, tutti i colleghi che hanno accesso alla sua area di lavoro potranno vederlo e usarlo.
+
+Per altre informazioni sulle aree di lavoro, vedere [Aree di lavoro per le app](service-create-distribute-apps.md#app-workspaces).
 
 Altri membri dell'area di lavoro di Anna potranno ora stabilire una connessione dinamica al suo modello di dati condiviso (usando la funzionalità **Connessione dinamica al servizio Power BI**) e creare report personalizzati in base al *suo set di dati originale*.
 

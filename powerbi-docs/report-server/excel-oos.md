@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481901"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configurare il server di report per l'hosting di cartelle di lavoro di Excel tramite Office Online Server (OOS)
 Oltre a visualizzare i report di Power BI nel portale Web, Server di report di Power BI consente di ospitare cartelle di lavoro di Excel tramite [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Il server di report diventa una posizione centralizzata per la pubblicazione e la visualizzazione di contenuto Microsoft BI self-service.
@@ -167,7 +168,7 @@ Dopo avere immesso l'URL di individuazione e avere selezionato **Applica**, la s
 * È possibile accedere alle cartelle di lavoro in modalità di sola lettura.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Manuale per l'amministratore](admin-handbook-overview.md)  
+[Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)

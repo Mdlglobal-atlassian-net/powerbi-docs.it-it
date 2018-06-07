@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584071"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
 Prima di poter aggiungere un riquadro dalla cartella di lavoro di Excel, è necessario connettere la cartella di lavoro al servizio Power BI (app.powerbi.com). La connessione di una cartella di lavoro importa essenzialmente una versione di sola lettura collegata della cartella di lavoro nel servizio Power BI e consente di aggiungere gli intervalli ai dashboard. È anche possibile aggiungere un intero foglio di lavoro a un dashboard.  
@@ -65,8 +66,8 @@ Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è
     ![Finestra di dialogo Aggiunto al dashboard](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Selezionare **Vai al dashboard**. In questa schermata è possibile [rinominare, ridimensionare, collegare e spostare](service-dashboard-edit-tile.md) la visualizzazione aggiunta. Per impostazioni predefinita, se si seleziona il riquadro aggiunto, la cartella di lavoro verrà aperta in Power BI.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Aggiungere un'intera tabella o un grafico pivot a un dashboard
-Seguire i passaggi precedenti, ma invece di selezionare un intervallo di celle, selezionare un'intera tabella o tabella pivot.
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Aggiungere un'intera tabella o una tabella pivot a un dashboard
+Seguire la procedura precedente, ma invece di selezionare un intervallo di celle, selezionare un'intera tabella o tabella pivot.
 
 Per aggiungere una tabella, selezionare l'intero intervallo della tabella e assicurarsi di includere le intestazioni.  Per aggiungere una tabella pivot, assicurarsi di includere tutte le parti visibili della tabella pivot, inclusi i filtri se usati.
 

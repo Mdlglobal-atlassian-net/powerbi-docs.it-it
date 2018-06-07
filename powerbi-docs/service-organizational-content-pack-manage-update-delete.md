@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689873"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
 > [!NOTE]
@@ -71,7 +72,7 @@ Un'altra modifica che possono eseguire gli autori di pacchetti di contenuti è l
 L'autore del pacchetto di contenuto può [pianificare l'aggiornamento dei set di dati](refresh-data.md).  Quando si crea e si carica il pacchetto di contenuto, la pianificazione dell'aggiornamento viene caricata insieme ai set di dati. Se viene modificata, è necessario ripubblicare il pacchetto di contenuto (vedere sopra).
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>Eliminare un pacchetto di contenuto aziendale da AppSource
-Solo l'autore di un pacchetto di contenuto può eliminarlo da AppSource. 
+Solo l'autore di un pacchetto di contenuto può eliminarlo da AppSource. Se è stato creato un pacchetto di contenuto aziendale in un'area di lavoro per le app e si decide di eliminare l'area di lavoro, assicurarsi di eliminare prima il pacchetto di contenuto. Se si elimina l'area di lavoro senza eliminare prima il pacchetto di contenuto, non è più possibile accedere ai pacchetti di contenuto ed è necessario contattare il supporto tecnico Microsoft per assistenza. 
 
 > [!TIP]
 > È possibile [eliminare la connessione a un pacchetto di contenuto](service-organizational-content-pack-disconnect.md) di cui non si è l'autore. Il pacchetto di contenuto non verrà eliminato da AppSource.

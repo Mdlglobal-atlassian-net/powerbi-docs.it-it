@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722817"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -93,6 +94,11 @@ Quando si aggiunge un'origine dati al gateway, è necessario fornire le credenzi
 
 Attualmente non è disponibile un'unica posizione dalla quale gli amministratori tenant possono gestire tutti i gateway installati e configurati da altri utenti.  Si consiglia agli amministratori tenant di chiedere agli utenti dell'organizzazione di essere aggiunti come amministratore per ogni gateway che installano. In questo modo l'amministratore può gestire tutti i gateway dell'organizzazione tramite la pagina Impostazioni gateway o tramite i [ comandi di PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
+## <a name="enabling-outbound-azure-connections"></a>Abilitare le connessioni in uscita di Azure 
+Il gateway dati locale usa il bus di servizio di Azure per la connettività cloud e di conseguenza stabilisce connessioni in uscita all'area di Azure associata. Per impostazione predefinita, questo è il percorso del tenant di Power BI. Vedere [Dove si trova il tenant di Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Se un firewall blocca le connessioni in uscita, è necessario configurare il firewall per consentire le connessioni in uscita dal gateway dati locale all'area di Azure associata. Per informazioni dettagliate sugli intervalli di indirizzi IP di ogni centro dati Azure, vedere [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Intervalli IP dei data center di Microsoft Azure).
+> [!NOTE]
+> Gli intervalli di indirizzi IP possono variare nel tempo. Scaricare le informazioni più recenti a intervalli regolari. 
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 In caso di problemi durante l'installazione e la configurazione di un gateway, vedere [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md). Se si ritiene di avere un problema con il firewall, vedere la sezione [firewall o proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) dell'articolo sulla risoluzione dei problemi.

@@ -1,6 +1,6 @@
 - name: Usare Power BI
   items:
-    - name: Overview
+    - name: Panoramica
       items:
         - name: Che cos'è Power BI?
           href: power-bi-overview.md
@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Centro notifiche unificato di Power BI
                   href: service-notification-center.md
+                - name: Temi del dashboard
+                  href: service-dashboard-themes.md
             - name: Report
               items:
                 - name: Modificare l'ordinamento di un grafico in un report di Power BI
@@ -242,7 +244,7 @@
                   href: power-bi-visualization-export-data.md
                 - name: Come usare i filtri dei report
                   href: power-bi-how-to-report-filter.md
-            - name: Publish
+            - name: Pubblica
               items:
                 - name: Power BI Publisher per Excel
                   href: publisher-for-excel.md
@@ -460,7 +462,7 @@
           href: whitepapers.md
 - name: Power BI Desktop
   items:
-    - name: Overview
+    - name: Panoramica
       items:
         - name: Che cos'è Power BI Desktop?
           href: desktop-what-is-desktop.md
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Connettersi ai dati tramite interfacce generiche
               href: desktop-connect-using-generic-interfaces.md
+            - name: Connetti a Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: Connettersi a un database Oracle
               href: desktop-connect-oracle-database.md
             - name: Esecuzione di script R in Power BI Desktop
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Considerare l'impostazione di integrità referenziale in Power BI Desktop
               href: desktop-assume-referential-integrity.md
-            - name: DirectQuery per database Oracle e Teradata
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Usare SAP BW Connector in Power BI Desktop (anteprima)
               href: desktop-sap-bw-connector.md
             - name: Usare collegamenti OneDrive for Business in Power BI Desktop
@@ -788,9 +790,11 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Accessibilità nei report di Power BI
           href: desktop-accessibility.md
+        - name: Gestire il modulo di accesso di Power BI Desktop
+          href: desktop-admin-sign-in-form.md
 - name: App Power BI per dispositivi mobili
   items:
-    - name: Overview
+    - name: Panoramica
       items:
         - name: Cosa sono le app Power BI per dispositivi mobili?
           href: mobile-apps-for-mobile-devices.md
@@ -886,7 +890,7 @@
           href: mobile-apps-supported-languages.md
 - name: Power BI per sviluppatori
   items:
-    - name: Overview
+    - name: Panoramica
       items:
         - name: Quali operazioni possono eseguire gli sviluppatori con Power BI?
           href: developer/what-can-you-do.md
@@ -1002,7 +1006,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
 - name: Server di report Power BI
   items:
-    - name: Overview
+    - name: Panoramica
       items:
         - name: Che cos'è Server di report di Power BI?
           href: report-server/get-started.md
@@ -1104,9 +1108,9 @@
           href: report-server/capacity-planning.md
 - name: Gateway
   items:
-    - name: Overview
+    - name: Panoramica
       items:
-        - name: Cosa sono i gateway Power BI?
+        - name: Cosa sono i gateway di Power BI?
           href: service-gateway-getting-started.md
     - name: Esercitazioni
       items:
@@ -1150,7 +1154,7 @@
           href: service-gateway-onprem-tshoot.md
 - name: Amministrazione
   items:
-    - name: Overview
+    - name: Panoramica
       items:
         - name: Che cos'è l'amministrazione di Power BI?
           href: service-admin-administering-power-bi-in-your-organization.md

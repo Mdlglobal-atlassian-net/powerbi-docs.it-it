@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: e54ddf59221b472bbac4e8665e036529ba475d9c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 82b42f97a92a52203b80d31abef4aeee456d6d4e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482039"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Aggiornare il server di report di Power BI
 Informazioni su come aggiornare il server di report di Power BI.
@@ -66,7 +67,7 @@ L'aggiornamento del server di report di Power BI è molto semplice. e richiede s
 Dopo avere eseguito l'aggiornamento del server di report, è possibile assicurarsi che gli autori di report di Power BI eseguano l'aggiornamento alla versione di Power BI Desktop ottimizzate per il server di report di Power BI che corrisponde al server.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Manuale per l'amministratore](admin-handbook-overview.md)  
+[Panoramica amministratore](admin-handbook-overview.md)  
 [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
 [Verificare l'installazione di Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Configurare l'account del servizio del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561748"
 ---
 # <a name="embedding-with-power-bi"></a>Incorporamento con Power BI
 Power BI offre API per l'incorporamento di dashboard e report nelle applicazioni. Le API di Power BI offrono un set coerente di funzionalità e l'accesso alle funzionalità più recenti di Power BI, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto.
@@ -32,11 +33,13 @@ L'incorporamento per l'organizzazione consente di estendere il servizio Power BI
 
 Per l'incorporamento per l'organizzazione, vedere quanto segue:
 
+* [Integrare un report in un'app](integrate-report.md)
 * [Integrare un dashboard in un'app](integrate-dashboard.md)
 * [Integrare un riquadro in un'app](integrate-tile.md)
-* [Integrare un report in un'app](integrate-report.md)
 
 Le funzionalità self-service, quali la modifica, il salvataggio e altro ancora, sono disponibili tramite le [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript) durante l'incorporamento per gli utenti di Power BI.
+
+È possibile usare lo [strumento esperienza di onboarding per l'incorporamento per l'organizzazione](https://aka.ms/embedsetup/UserOwnsData) per iniziare rapidamente scaricando un'applicazione di esempio che facilita l'esecuzione della procedura di integrazione di un report per l'organizzazione.
 
 ## <a name="embedding-for-your-customers"></a>Incorporamento per i clienti
 L'incorporamento per i clienti offre la possibilità di incorporare dashboard e report per gli utenti che non hanno un account per Power BI. Non è necessario che i clienti abbiano informazioni su Power BI. Per creare un'applicazione incorporata, è necessario almeno un account Power BI Pro. Tale account verrà usato come account master per l'applicazione. Basta immaginarlo come un account del proxy. L'account Power BI Pro consente anche di generare i token di incorporamento che forniscono l'accesso a dashboard e report di proprietà o gestiti dall'applicazione nel servizio Power BI. 
@@ -50,11 +53,12 @@ Per incorporare dashboard, report e riquadri, usare le stesse API usate per l'in
 > [!IMPORTANT]
 > Mentre l'incorporamento ha una dipendenza dal servizio Power BI, non esiste alcuna dipendenza da Power BI per i clienti. Gli utenti non dovranno eseguire l'iscrizione a Power BI per visualizzare il contenuto incorporato nell'applicazione.
 > 
-> 
 
 Quando si è pronti per passare alla produzione, all'area di lavoro per le app viene assegnata una capacità. Power BI Embedded in Microsoft Azure offre capacità da usare con le applicazioni.
 
 Per informazioni dettagliate su come incorporare, vedere [Come incorporare i dashboard, i report e i riquadri di Power BI](embedding-content.md).
+
+È possibile usare lo [strumento esperienza di onboarding per l'incorporamento per i clienti](https://aka.ms/embedsetup/AppOwnsData) per iniziare rapidamente scaricando un'applicazione di esempio che facilita l'esecuzione della procedura di integrazione di un report nell'applicazione.
 
 Se si usa il servizio Raccolta di aree di lavoro di Power BI in Azure, vedere [Eseguire la migrazione di contenuto dal servizio Raccolta di aree di lavoro di Power BI](migrate-from-powerbi-embedded.md) per ottenere informazioni sulla procedura di migrazione del contenuto.
 

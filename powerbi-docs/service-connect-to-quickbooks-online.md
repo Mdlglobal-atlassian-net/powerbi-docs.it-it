@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ab914cd883d9a297150dd9a33dce9c6ce76308bf
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584255"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Connettersi a QuickBooks Online con Power BI
 Quando ci si connette ai dati di QuickBooks Online da Power BI, vengono immediatamente visualizzati un dashboard e report di Power BI che forniscono informazioni dettagliate sul flusso di cassa aziendale, sulla redditività, sui clienti e molto altro ancora. È possibile usare il dashboard e i report senza alcuna modifica oppure personalizzarli per evidenziare le informazioni a cui si è maggiormente interessati. I dati vengono aggiornati automaticamente una volta al giorno.
@@ -22,7 +23,7 @@ Quando ci si connette ai dati di QuickBooks Online da Power BI, vengono immediat
 Connettersi al [Pacchetto di contenuto QuickBooks Online](https://dxt.powerbi.com/getdata/services/quickbooks-online) per Power BI.
 
 >[!NOTE]
->Per importare i dati di QuickBooks Online in Power BI, è necessario usare un account amministratore di QuickBooks Online e accedere con le credenziali di tale account.
+>Per importare i dati di QuickBooks Online in Power BI, è necessario usare un account amministratore di QuickBooks Online e accedere con le credenziali di tale account. Non è possibile usare questo connettore con il software QuickBooks Desktop. 
 
 ## <a name="how-to-connect"></a>Come connettersi
 1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 51f813d4d92ac94b43c0f2b7cd0fcad1f0673b5e
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722955"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dati dinamici di SQL Server Analysis Services in Power BI
 In Power BI è possibile connettersi a un server SQL Server Analysis Services dinamico in due modi. In **Recupera dati** è possibile connettersi a un server SQL Server Analysis Services oppure è possibile connettersi a un [file di Power BI Desktop](service-desktop-files.md), o a una [cartella di lavoro di Excel](service-excel-workbook-files.md) che si connette già a un server Analysis Services. Come procedura consigliata, Microsoft consiglia di usare Power BI Desktop grazie alla completezza del set di strumenti e alla possibilità di mantenere una copia di backup del file di Power BI Desktop in locale.
@@ -44,9 +45,12 @@ Dopo aver eseguito la connessione al modello, verrà visualizzato nel sito di Po
 ## <a name="dashboard-tiles"></a>Riquadri del dashboard
 Se si bloccano elementi visivi di un report sul dashboard, i riquadri bloccati vengono aggiornati automaticamente ogni 10 minuti. Se i dati nel server Analysis Services locale vengono aggiornati, i riquadri verranno aggiornati automaticamente dopo 10 minuti.
 
+## <a name="common-issues"></a>Problemi comuni
+
+* Non è possibile caricare l'errore dello schema del modello - Questo errore si verifica quando l'utente che si connette a SSAS non ha accesso a database SSAS, cubo e modello.
+
 ## <a name="next-steps"></a>Passaggi successivi
 [Gateway dati locale](service-gateway-onprem.md)  
 [Gestire origini dati di Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

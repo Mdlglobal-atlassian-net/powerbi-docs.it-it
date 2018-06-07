@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 53995f0ee723590ae4e419eb62de0d9230deb4b6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34298413"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722590"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Gestire un gateway di Power BI
 
@@ -48,7 +48,7 @@ Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti spe
 
 5. Per SQL Server, scegliere il **Metodo di autenticazione** **Windows** oppure **Di base** (autenticazione SQL).  Se si sceglie **Di base**, immettere le credenziali per l'origine dati.
 
-6. In **Impostazioni avanzate** facoltativamente, configurare il [Livello di privacy]((https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
+6. Facoltativamente, in **Impostazioni avanzate** configurare il [Livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
 
     ![Impostazioni avanzate](media/service-gateway-manage/advanced-settings.png)
 

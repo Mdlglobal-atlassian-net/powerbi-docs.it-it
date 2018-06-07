@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ab5afb36458d7e1b5271a356bb1532ba77de6408
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722659"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurazione delle impostazioni del proxy per il gateway dati locale
 È possibile che l’ambiente di lavoro richieda il passaggio attraverso un proxy per accedere a Internet. Ciò potrebbe impedire al gateway dati locale di connettersi al servizio.
@@ -50,6 +51,19 @@ La configurazione proxy predefinita è la seguente.
     </system.net>
 
 La configurazione predefinita funziona con l'autenticazione di Windows. Se il proxy usa un altro tipo di autenticazione, è necessario modificare le impostazioni. In caso di dubbi, contattare l'amministratore di rete.
+
+Oltre a usare le credenziali predefinite, è possibile aggiungere un elemento <proxy> per definire in maggior dettaglio le impostazioni del server proxy. Ad esempio è possibile impostare il parametro bypassonlocal su false per specificare che il gateway dati locale deve usare sempre il proxy anche per le risorse locali. Questa funzionalità può risultare utile in situazioni di risoluzione dei problemi, per tenere traccia di tutte le richieste HTTPS provenienti da un gateway dati locale nei file di log del proxy. La configurazione di esempio seguente specifica che tutte le richieste devono transitare attraverso un proxy specifico con l'indirizzo IP 192.168.1.10.
+
+    <system.net>
+        <defaultProxy useDefaultCredentials="true">
+            <proxy  
+                autoDetect="false"  
+                proxyaddress="http://192.168.1.10:3128"  
+                bypassonlocal="false"  
+                usesystemdefault="true"
+            />  
+        </defaultProxy>
+    </system.net>
 
 Per altre informazioni sulla configurazione degli elementi del proxy per i file di configurazione .NET, vedere [Elemento defaultProxy (Impostazioni di rete)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

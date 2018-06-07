@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722544"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Esportare un report dal servizio Power BI in Desktop (anteprima)
 In Power BI Desktop è possibile esportare un report nel servizio Power BI (operazione talvolta definita *download*) salvando il report e selezionando **Pubblica**. È possibile esportare anche nell'altra direzione e scaricare un report dal servizio Power BI a Desktop. L'estensione per i file di esportazione, in entrambe le direzioni, è *PBIX*.
@@ -57,6 +58,7 @@ Per il download (esportazione) di un file con estensione *pbix* dal servizio Pow
 * Questa funzionalità non funzionerà con i report creati in origine nel **servizio Power BI**, inclusi i pacchetti di contenuto.
 * Per aprire i file scaricati è consigliabile usare sempre la versione più recente di **Power BI Desktop**. Potrebbe non essere possibile aprire i file *PBIX* scaricati nelle versioni non correnti di **Power BI Desktop**.
 * Se l'amministratore ha disattivato la possibilità di esportare i dati, questa funzionalità non sarà visibile nel **servizio Power BI**.
+* I set di dati con aggiornamento incrementale non possono essere scaricati in un file con estensione *pbix*.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Visualizzare il video di **Guy in a Cube** (durata: 1 minuto) che illustra questa funzionalità:

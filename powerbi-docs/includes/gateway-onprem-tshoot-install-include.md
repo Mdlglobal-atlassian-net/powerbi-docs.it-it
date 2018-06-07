@@ -24,3 +24,6 @@ Alcuni proxy limitano il traffico solo alle porte 80 e 443. Per impostazione pre
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Errore: Non è stato possibile aggiungere l'utente al gruppo.  (-2147463168   PBIEgwService   Performance Log Users   )
 Questo errore può verificarsi se si sta provando a installare il gateway in un controller di dominio. La distribuzione in un controller di dominio non è supportata. Il gateway deve essere distribuito in un computer che non sia un controller di dominio.
 
+### <a name="installation-fails"></a>Installazione non riuscita
+È possibile riscontrare errori di installazione se il software antivirus del computer in cui si esegue installazione non è aggiornato. È possibile aggiornare l'installazione del software antivirus oppure disabilitare l'antivirus solo fino al completamento dell'installazione del gateway, quindi riabilitare l'antivirus.
+

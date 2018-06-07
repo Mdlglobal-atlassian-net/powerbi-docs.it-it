@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561702"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Aggiungere un filtro a un report del servizio Power BI (in Visualizzazione di modifica)
 > [!TIP]
@@ -28,7 +29,7 @@ Gli esempi di questo articolo mostrano il servizio Power BI. I passaggi sono qua
 Per interagire con i report è possibile usare una di queste modalità: [Visualizzazione di lettura](service-reading-view-and-editing-view.md) e [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md).  Le funzionalità di filtro disponibili dipendono dalla modalità usata.
 
 * Nella Visualizzazione di modifica è possibile aggiungere filtri a livello di report, pagina e oggetto visivo. I filtri vengono salvati insieme al report. Gli utenti che esaminano il report in Visualizzazione di lettura possono interagire con i filtri aggiunti.
-* In Visualizzazione di lettura è possibile interagire con qualsiasi filtro visivo, di report, di pagina e drill-trhough già presente nel report, ma non è possibile aggiungere nuovi filtri. Le modifiche apportate nel riquadro Filtri vengono salvate con il report, anche se questo viene visualizzato in un'app per dispositivi mobili.  
+* In Visualizzazione di lettura è possibile interagire con qualsiasi filtro visivo, di report, di pagina e drill-trhough già presente nel report, ma non è possibile aggiungere nuovi filtri. Tuttavia, le modifiche apportate nel riquadro Filtri vengono salvate con il report, anche se questo viene visualizzato in un'app per dispositivi mobili e se chiude il report e lo si riapre successivamente.  
 
 > [!NOTE]
 > Questo articolo descrive come creare i filtri nel report **Visualizzazione di modifica**.  Per altre informazioni sui filtri nella Visualizzazione di lettura, vedere [Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI](service-reading-view-and-editing-view.md).
@@ -44,7 +45,11 @@ Sono disponibili quattro tipi di filtri.
 - Il **filtro drill-through** si applica a una singola entità in un report    
 - Il **filtro report** si applica a tutte le pagine del report    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![riquadro Filtri nella visualizzazione di lettura](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+Poiché i filtri *vengono mantenuti*, quando si esce dal report, Power BI mantiene i filtri, i filtri dei dati e altre modifiche apportate alla visualizzazione dei dati. Di conseguenza, sarà possibile selezionare l'ultimo stato quando si riapre il report. Se non vuole mantenere le modifiche apportate ai filtri, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore.
+
+![pulsante di filtri permanenti](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Aggiungere un filtro a una visualizzazione specifica (noto anche come filtro visivo)
 È possibile eseguire questa operazione in due modi diversi: 
@@ -135,12 +140,13 @@ Di seguito viene illustrato il funzionamento del filtro di drill-through.
 1. Selezionare la freccia indietro per tornare alla pagina precedente del report.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Motivo per cui il filtro a livello di oggetto visivo e il filtro a livello di pagina possono restituire risultati diversi
-Quando si aggiunge un filtro a livello di oggetto visivo, Power BI filtra i risultati aggregati.  L'aggregazione predefinita è Sum, ma è possibile [modificare il tipo di aggregazione](service-aggregates.md).  
 
-Quando si aggiunge un filtro di livello pagina, Power BI filtra senza l'aggregazione.  Ciò avviene perché una pagina può contenere numerosi oggetti visivi che possono utilizzare tipi diversi di aggregazione.  Pertanto, il filtro viene applicato su ogni riga di dati.
+- In alcune situazioni il filtro a livello di oggetto visivo e il filtro a livello di pagina possono restituire risultati diversi.  Ad esempio, quando si aggiunge un filtro a livello di oggetto visivo, Power BI filtra i risultati aggregati.  L'aggregazione predefinita è Sum, ma è possibile [modificare il tipo di aggregazione](service-aggregates.md).  
 
-Se il riquadro Filtri non è visualizzato, verificare che sia attiva la [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) del report.
+    In seguito, quando si aggiunge un filtro a livello pagina, Power BI filtra senza l'aggregazione.  Ciò avviene perché una pagina può contenere numerosi oggetti visivi che possono utilizzare tipi diversi di aggregazione.  Pertanto, il filtro viene applicato su ogni riga di dati.
+
+- Se il riquadro Filtri non è visualizzato, verificare che sia attiva la [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) del report.    
+- Se sono state apportate numerose modifiche ai filtri e si vuole ripristinare le impostazioni predefinite dell'autore del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore.
 
 ## <a name="next-steps"></a>Passaggi successivi
  [Come usare i filtri dei report](power-bi-how-to-report-filter.md)

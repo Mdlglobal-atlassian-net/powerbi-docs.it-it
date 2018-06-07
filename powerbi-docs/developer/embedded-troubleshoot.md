@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720812"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Risoluzione dei problemi dell'applicazione incorporata
 
@@ -74,7 +75,7 @@ Potrebbe essere necessaria un'acquisizione Fiddler per ulteriori indagini. È po
 
 Potrebbe essere necessaria un'acquisizione Fiddler per ulteriori indagini. Le cause possibili per un errore con codice 403 sono più di una.
 
-* L'utente ha superato la quantità di token di incorporamento che può essere generata in una capacità condivisa. È necessario acquistare capacità di Azure per generare token di incorporamento e assegnare l'area di lavoro a tale capacità. Vedere [Creare la capacità di Power BI Embedded nel portale di Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
+* L'utente ha superato la quantità di token di incorporamento che può essere generata in una capacità condivisa. È necessario acquistare capacità di Azure per generare token di incorporamento e assegnare l'area di lavoro a tale capacità. Vedere [Creare la capacità di Power BI Embedded nel portale di Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Il token di autenticazione di Azure AD è scaduto.
 * L'utente autenticato non è un membro del gruppo (area di lavoro dell'app).
 * L'utente autenticato non è un amministratore del gruppo (area di lavoro dell'app).
@@ -132,6 +133,53 @@ Se l'utente non visualizza il report o il dashboard, assicurarsi che il report o
 **Le prestazioni del report o del dashboard risultano rallentate**
 
 Aprire il file in Power BI Desktop o in powerbi.com e verificare che le prestazioni siano accettabili per escludere problemi con l'applicazione o con le API di incorporamento.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Strumento esperienza di onboarding per l'incorporamento
+
+È possibile usare lo [strumento esperienza di onboarding](https://aka.ms/embedsetup) per scaricare rapidamente un'applicazione di esempio, confrontando quindi l'applicazione e l'esempio.
+
+### <a name="prerequisites"></a>Prerequisiti
+
+Prima di usare lo strumento esperienza di onboarding, verificare di avere tutti i prerequisiti appropriati. Sono necessari un account **Power BI Pro** e una sottoscrizione di **Microsoft Azure**.
+
+* Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/en-us/pricing/) prima di iniziare.
+* Se non si ha una sottoscrizione di Azure, [creare un account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
+* È necessario disporre del proprio [tenant di Azure Active Directory](create-an-azure-active-directory-tenant.md) configurato.
+* È richiesta l'installazione di [Visual Studio](https://www.visualstudio.com/) (versione 2013 o successive).
+
+### <a name="common-issues"></a>Problemi comuni
+
+Ecco alcuni problemi comuni che possono verificarsi durante il test con lo strumento esperienza di onboarding:
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>Uso dell'incorporamento per l'applicazione di esempio per i clienti
+
+Se si usa l'esperienza **Incorporare per i clienti**, salvare e decomprimere il file *PowerBI-Developer-Samples.zip*. Aprire quindi la cartella *PowerBI-Developer-Samples-master\App Owns Data* ed eseguire il file *PowerBIEmbedded_AppOwnsData.sln*.
+
+Quando si seleziona **Concedi autorizzazioni** (passaggio Concedi autorizzazioni), viene visualizzato l'errore seguente:
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+La soluzione sta per chiudere la finestra popup, attendere qualche secondo e riprovare. Può essere necessario ripetere l'azione più volte. Il problema tra il completamento del processo di registrazione dell'applicazione e il momento in cui l'applicazione è disponibile per le API esterne è causato da un intervallo di tempo.
+
+Quando si esegue l'app di esempio, viene visualizzato il messaggio di errore seguente:
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+Questo errore si verifica perché l'unico valore che non viene inserito nell'applicazione di esempio è la password dell'utente. Aprire il file Web.config nella soluzione e compilare il campo pbiPassword con la password dell'utente.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Uso dell'incorporamento per l'applicazione di esempio per l'organizzazione
+
+Se si usa l'esperienza **Incorporare per l'organizzazione**, salvare e decomprimere il file *PowerBI-Developer-Samples.zip*. Aprire quindi la cartella *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* ed eseguire il file *pbi-saas-embed-report.sln*.
+
+Quando si esegue l'app di esempio **Incorporare per l'organizzazione**, viene visualizzato l'errore seguente:
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+La causa è che l'URL di reindirizzamento specificato per il server Web dell'applicazione è diverso dall'URL dell'esempio. Se si vuole registrare l'applicazione di esempio, usare *http://localhost:13526/* come URL di reindirizzamento.
+
+Se si vuole modificare l'applicazione registrata, vedere come a modificare l'[applicazione registrata con AAD ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), in modo che l'applicazione possa consentire l'accesso alle API Web.
+
+Se vuole modificare il profilo utente o i dati di Power BI, vedere come modificare i [dati di Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Per altre informazioni, vedere [Power BI Embedded FAQ](embedded-faq.md) (Domande frequenti su Power BI Embedded).
 

@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293261"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584232"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Utilizzo di tabelle nei report e nei dashboard di Power BI
 Una tabella è una griglia contenente dati correlati in una serie logica di righe e colonne. Può anche contenere intestazioni e una riga per i totali. Le tabelle funzionano bene con confronti quantitativi in cui si analizzano molti valori per una singola categoria. Ad esempio, questa tabella mostra 5 diverse misure per **Categoria**.
@@ -119,6 +119,9 @@ Con la formattazione condizionale per le tabelle, è possibile specificare i col
 A volte Power BI tronca un'intestazione di colonna in un report o un dashboard. Per visualizzare il nome dell'intera colonna, passare il mouse sullo spazio a destra dell'intestazione per visualizzare le doppie frecce, selezionare e trascinare.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+* Quando si applica la formattazione di colonna, è possibile scegliere una sola opzione di allineamento per colonna: Automatico, A sinistra, Al centro, A destra. In genere, una colonna contiene solo testo o solo numeri e non una combinazione di testo e numeri. Tuttavia, nei casi in cui una colonna contenga numeri e testo, l'opzione **Automatico** allinea il testo a sinistra e i numeri a destra. Questo comportamento supporta le lingue con lettura da sinistra a destra.   
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297355"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721502"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 Si desidera consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
@@ -43,6 +43,13 @@ I filtri dei dati di Power BI presentano le limitazioni seguenti:
 ## <a name="create-slicers"></a>Creare filtri dei dati
 
 Per creare un nuovo filtro dei dati, è possibile selezionare l'icona corrispondente e quindi selezionare il campo dati in base al quale applicare il filtro oppure trascinarlo nella casella **Campi** nel riquadro **Visualizzazioni**. In alternativa, è possibile prima selezionare o trascinare il campo dati per creare una visualizzazione e dopo selezionare l'icona del filtro dei dati per convertire la visualizzazione in un filtro. A seconda del tipo di dati, vengono creati tipi diversi di filtri dei dati, con effetti e opzioni differenti. 
+
+La prima volta che si modifica un report, il pulsante **Ripristina impostazioni predefinite** diventa attivo. L'attivazione indica che è stata apportata una modifica alle impostazioni del report originale. Se si esce dal report, la modifica viene salvata. Quando si visualizza nuovamente il report non è necessario filtrare nuovamente i dati del report.  Tuttavia, se si vuole ripristinare le impostazioni predefinite dell'autore del report, selezionare il pulsante **Ripristina impostazioni predefinite** dalla barra dei menu superiore.
+
+![pulsante Ripristina impostazioni predefinite](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Se il pulsante **Ripristina impostazioni predefinite** rimane disabilitato, significa che l'autore del report ha disabilitato la funzionalità per il report o che il report contiene un oggetto visivo personalizzato. È sufficiente passare il mouse sul pulsante per leggere la descrizione comando per una spiegazione. 
 
 **Per creare un nuovo filtro dei dati in base al direttore di zona**
 

@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293583"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584278"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
 Un grafico combinato in Power BI è una singola visualizzazione che combina un grafico a linee e un istogramma. La combinazione dei 2 grafici in uno permette di confrontare i dati in modo più rapido.
@@ -105,6 +105,7 @@ Da qui è possibile:
 
 * [Aggiungere il grafico combinato come riquadro del dashboard](service-dashboard-tiles.md).
 * [Salvare il report](service-report-save.md).
+* [Rendere il report più accessibile agli utenti con particolari esigenze](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Evidenziazione incrociata e filtro incrociato
 

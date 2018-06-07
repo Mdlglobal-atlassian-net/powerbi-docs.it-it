@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721180"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usare i temi dei report in Power BI Desktop (anteprima)
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato, salvo alcuni casi particolari descritti più avanti in questo articolo.
@@ -54,7 +55,7 @@ Quel file JSON include le righe obbligatorie seguenti:
 
 * **name**: corrisponde al nome del tema ed è l'unico campo obbligatorio.
 * **dataColors**: elenco di codici colore hexcode da usare per i dati negli oggetti visivi di Power BI Desktop. L'elenco può contenere tutti i colori necessari in base alle esigenze.
-* **background**, **foreground** e **tableAccent**: questi valori sono i colori da usare negli oggetti visivi **tabella** e **matrice**. Il modo in cui vengono usati questi colori dipende dallo specifico stile di tabella o matrice applicato. Gli oggetti visivi **tabella** e **matrice** applicano questi stili per impostazione predefinita.
+* **background**, **foreground** e **tableAccent**: questi valori sono i colori da usare nei diversi tipi di oggetti visivi. **foreground** si applica al testo di caselle di testo, obiettivo KPI, scheda con più righe, valore carta, callout del misuratore, filtro dei dati verticale e al totale **table** e **matrix** e al testo dei valori. **background** si applica al riempimento dei pulsanti allo sfondo delle etichette dei grafici combinati. Il modo in cui vengono usati questi colori dipende dallo stile di oggetto visivo applicato. Gli oggetti visivi **tabella** e **matrice** applicano questi stili per impostazione predefinita.
 
 Per applicare uno stile a un oggetto visivo **tabella** o **matrice**, selezionare l'oggetto visivo e nel riquadro **Visualizzazioni** selezionare la sezione **Formato**, quindi espandere **Stile della matrice** e selezionare uno stile nell'elenco a discesa **Stile**.
 
@@ -192,7 +193,7 @@ I valori booleani sono *true* o *false*. Le stringhe devono essere tra virgolett
 | lineChart |
 | lineClusteredColumnComboChart |
 | lineStackedColumnComboChart |
-| mappa |
+| map |
 | multiRowCard |
 | pieChart |
 | pivotTable |

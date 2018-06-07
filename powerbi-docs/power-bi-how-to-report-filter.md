@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721387"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Presentazione del riquadro Filtri del report
 Questo articolo analizza in maniera approfondita il riquadro Filtri del report, Il riquadro verrà visualizzato nella [visualizzazione di modifica e nella visualizzazione di lettura del servizio Power BI](service-reading-view-and-editing-view.md) e nella [visualizzazione Report di Power BI Desktop](desktop-report-view.md).
@@ -22,7 +23,7 @@ Questo articolo analizza in maniera approfondita il riquadro Filtri del report, 
 Esistono diversi modi per filtrare i dati in Power BI, per questo è prima di tutto consigliabile leggere l'articolo [Informazioni su filtri ed evidenziazione](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-the-report-filters-pane"></a>Uso del riquadro Filtri del report
-In Power BI Desktop i report vengono aperti in Visualizzazione Report. Nel servizio Power BI i report possono essere aperti in [Visualizzazione di modifica o in Visualizzazione di lettura](service-reading-view-and-editing-view.md). In Visualizzazione di modifica i proprietari dei report possono [aggiungere filtri a un report](power-bi-report-add-filter.md). I filtri vengono salvati insieme al report stesso. Quando il report viene visualizzato in Visualizzazione di lettura è possibile interagire con i filtri, ma non aggiungere nuovi filtri al report.
+In Power BI Desktop i report vengono aperti in Visualizzazione Report. Nel servizio Power BI i report possono essere aperti in [Visualizzazione di modifica o in Visualizzazione di lettura](service-reading-view-and-editing-view.md). In Visualizzazione di modifica i proprietari dei report possono [aggiungere filtri a un report](power-bi-report-add-filter.md). I filtri vengono salvati insieme al report stesso. Quando il report viene visualizzato in Visualizzazione di lettura è possibile interagire con i filtri e salvare le modifiche, ma non aggiungere nuovi filtri al report.
 
 Nel servizio Power BI i report conservano le modifiche apportate nel riquadro Filtri e tali modifiche vengono conservate anche nella versione del report per dispositivi mobili. Per ripristinare le impostazioni predefinite dell'autore nel riquadro Filtri, selezionare **Ripristina impostazioni predefinite** nella barra dei menu superiore.     
 

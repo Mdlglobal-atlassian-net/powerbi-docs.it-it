@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295423"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481959"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 Informazioni sulle novità del Server di report di Power BI. Questa sezione riguarda le funzionalità principali e viene aggiornata con il rilascio di nuovi elementi.
@@ -32,6 +32,12 @@ Per informazioni sulle "Novità" di Power BI, vedere:
 * [Novità del servizio Power BI](../service-whats-new.md)
 * [Novità di Power BI Desktop](../desktop-latest-update.md)
 * [Novità delle app per dispositivi mobili per Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>Mag 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurare le app per dispositivi mobili iOS di Power BI per server di report in modalità remota
+
+In qualità di amministratori IT, è ora possibile usare lo strumento MDM dell'organizzazione per configurare in modalità remota l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per informazioni dettagliate, vedere [Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota](configure-powerbi-mobile-apps-remote.md).
 
 ## <a name="march-2018-release"></a>Versione di marzo 2018
 
@@ -101,7 +107,7 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Ricerca nei riquadri formattazione e analisi](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Riquadro delle proprietà del campo e descrizioni del campo](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>Analisi
+### <a name="analytics"></a>flusso
 
 - [UTCNOW() e UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Contrassegnare una tabella con data personalizzata](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
@@ -204,7 +210,7 @@ Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabe
 * Miglioramento della collaborazione nei report con commenti
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Manuale per l'utente](user-handbook-overview.md)  
+[Che cos'è Server di report di Power BI?](get-started.md) 
 [Manuale per l'amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

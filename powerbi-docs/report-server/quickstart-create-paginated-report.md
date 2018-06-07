@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294917"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721824"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creare un report impaginato per Server di report di Power BI
 Come suggerisce il nome, i report impaginati possono contenere più pagine. Hanno un formato fisso e offrono opzioni di personalizzazione precise. I report impaginati sono file con estensione rdl.
@@ -94,7 +94,7 @@ Quando il report è pronto, salvarlo nel Server di report di Power BI.
 Esistono numerose ottime risorse per la progettazione di report in Generatore Report e in Progettazione Report di SQL Server Data Tools. Le esercitazioni di Generatore report sono un buon punto di partenza.
 
 * [Esercitazioni di Generatore report](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Manuale per l'utente del server di report di Power BI](user-handbook-overview.md)  
+* [Che cos'è Server di report di Power BI?](get-started.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584163"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -31,7 +32,7 @@ Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel 
 2. Scegliere l’icona  **Esporta dati** .
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. I dati vengono esportati in un file CSV. Se l'oggetto visivo è filtrato, verranno filtrati anche i dati scaricati.
+3. I dati vengono esportati in un file CSV. Se l'oggetto visivo è filtrato, verranno filtrati anche i dati scaricati.    
 4. Il browser richiederà di salvare il file.  Una volta salvato, aprire il file con estensione csv in Excel.
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -84,6 +85,7 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
 * Power BI supporta solo l'esportazione negli oggetti visivi che usano le aggregazioni di base. L'esportazione non è disponibile per gli oggettivi visivi con misure di modello o del report.
 * Gli oggetti visivi personalizzati e gli oggetti visivi R non sono attualmente supportati.
 * L'esportazione dei dati non è disponibile per utenti esterni all'organizzazione che usano un dashboard non condiviso con tali utenti. 
+* In Power BI è possibile rinominare un campo (colonna) facendo doppio clic sul campo e digitando un nuovo nome.  Il nuovo nome viene definito come *alias*. Sebbene sia possibile che un report di Power BI contenga nomi di campi duplicati, Excel non consente i duplicati.  Pertanto, quando i dati vengono esportati in Excel, gli alias dei campi vengono reimpostati sui nomi di campo (colonna) originali.  
 * Se nel file con estensione CSV è presente il carattere unicode, il testo in Excel potrebbe non essere visualizzato correttamente, ma aprendolo in Blocco note apparirà correttamente. Esempi di carattere unicode sono i simboli di valuta e parole straniere. La soluzione alternativa consiste nell'importare il file con estensione CSV in Excel, invece di aprirlo direttamente. A tale scopo:
   
   1. Apri Excel

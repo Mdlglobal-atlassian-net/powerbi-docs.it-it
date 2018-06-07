@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 891e9d35be271f6479a832b234a69132736f09a5
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6e1b2960eee8f436f8dbce660e755a5d0b39a68e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721571"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Scenari per la risoluzione dei problemi di aggiornamento
 In questo articolo è possibile trovare informazioni relative a vari scenari che si possono incontrare durante l'aggiornamento dei dati all'interno del servizio Power BI.
@@ -56,6 +57,14 @@ La dimensione massima per i set di dati importati nel **servizio Power BI** è 1
 
 ## <a name="scheduled-refresh-timeout"></a>Timeout dell'aggiornamento pianificato
 Il timeout di un aggiornamento pianificato per i set di dati importati si verifica dopo due ore. Questo timeout è aumentato fino a cinque ore per i set di dati nelle aree di lavoro **Premium**. Se si riscontra questo limite, è possibile considerare la possibilità di ridurre le dimensioni o la complessità del set di dati oppure di suddividere il set di dati in parti più piccole.
+
+## <a name="access-to-the-resource-is-forbidden"></a>Accesso alla risorsa non consentito  
+Questo errore può verificarsi a causa di credenziali memorizzate nella cache scadute. Cancellare la cache del browser Internet accedendo a Power BI e andando a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. In questo modo viene forzato un aggiornamento delle credenziali. 
+    
+    
+## <a name="data-refresh-failure-because-of-password-change-or-expired-credentials"></a>Aggiornamento dati non riuscito a causa di una modifica della password o di credenziali scadute 
+L'aggiornamento dei dati potrebbe non riuscire anche a causa di credenziali memorizzate nella cache scadute. Cancellare la cache del browser Internet accedendo a Power BI e andando a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. In questo modo viene forzato un aggiornamento delle credenziali.
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiornamento dei dati](refresh-data.md)  

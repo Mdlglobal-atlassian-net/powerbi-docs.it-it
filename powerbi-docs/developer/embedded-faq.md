@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289741"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721019"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -102,6 +102,9 @@ Power BI Embedded continuerà a usare Azure AD per l'autenticazione dell'utente 
 L'autenticazione e l'autorizzazione degli utenti dell'applicazione verranno implementate dall'ISV e quest'ultimo potrà implementare un'autenticazione personalizzata per le relative applicazioni.
 
 Se si dispone già di un tenant di Azure AD, è possibile usare la directory esistente oppure si può creare un nuovo tenant di Azure AD per la sicurezza del contenuto dell'applicazione incorporato.
+
+Per ottenere un token di AAD, è possibile usare una delle librerie di autenticazione di Azure Active Directory. Sono disponibili librerie client per più piattaforme.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Qual è la differenza tra Power BI Embedded e altri servizi di Azure?
 
@@ -205,6 +208,31 @@ Ecco alcune delle funzionalità:
 * Sono supportate tutte le origini dati di Power BI, a differenza delle due origini dati supportate nella **raccolta di aree di lavoro di Power BI**. 
 * Nuove funzionalità come domande e risposte, aggiornamenti, segnalibri, dashboard e riquadri incorporati, menu personalizzati e così via sono supportati solo nella soluzione **Power BI Embedded**.
 * Modello di fatturazione della capacità.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Strumento esperienza di onboarding per l'incorporamento
+
+### <a name="what-is-the-onboarding-experience-tool"></a>Che cos'è lo strumento esperienza di onboarding?
+
+Lo [strumento esperienza di onboarding](https://aka.ms/embedsetup) consente di scaricare un'applicazione di esempio per iniziare rapidamente a usare la funzionalità di incorporamento con Power BI.
+
+### <a name="which-solution-should-i-choose"></a>Quale soluzione è consigliabile scegliere?
+
+* L'[incorporamento per i clienti](embedding.md#embedding-for-your-customers) offre la possibilità di incorporare dashboard e report per gli utenti che non hanno un account per Power BI. Eseguire la soluzione [Incorporare per i clienti](https://aka.ms/embedsetup/AppOwnsData).
+* L'[incorporamento per l'organizzazione](embedding.md#embedding-for-your-organization) consente di estendere il servizio Power BI. Eseguire la soluzione [Incorporare per l'organizzazione](https://aka.ms/embedsetup/UserOwnsData).
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Dopo aver scaricato l'app di esempio, quale soluzione si deve scegliere?
+
+Se si usa l'esperienza **Incorporare per i clienti**, salvare e decomprimere il file *PowerBI-Developer-Samples.zip*. Aprire quindi la cartella *PowerBI-Developer-Samples-master\App Owns Data* ed eseguire il file *PowerBIEmbedded_AppOwnsData.sln*.
+
+Se si usa l'esperienza **Incorporare per l'organizzazione**, salvare e decomprimere il file *PowerBI-Developer-Samples.zip*. Aprire quindi la cartella *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* ed eseguire il file *pbi-saas-embed-report.sln*.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Come si può modificare l'applicazione registrata?
+
+Le informazioni su come modificare le applicazioni registrate con AAD sono disponibili [qui](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application).
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Come è possibile modificare il proprio profilo utente o i propri dati in Power BI?
+
+Le informazioni su come modificare i propri dati in Power BI sono disponibili [qui](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Per altre informazioni, vedere [Risoluzione dei problemi dell'applicazione incorporata](embedded-troubleshoot.md)
 
