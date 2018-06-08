@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297079"
+ms.locfileid: "34755025"
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
 Informazioni sulla modalità d'uso della funzionalità di controllo con Power BI per monitorare ed esaminare le azioni eseguite. È possibile usare il Centro sicurezza e conformità o PowerShell.
 
-Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è di fondamentale importanza per aiutare l'organizzazione a soddisfare i suoi requisiti, come ad esempio la conformità alle normative e la gestione dei record.
+Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è di fondamentale importanza per aiutare l'organizzazione a soddisfare i suoi requisiti, come ad esempio la conformità alle normative e la gestione dei record. È possibile usare la funzione di controllo di Power BI per controllare le azioni eseguite dagli utenti, ad esempio "Visualizza report" e "Visualizza dashboard". Non è possibile usare la funzione di controllo per controllare le autorizzazioni. 
 
 È possibile filtrare i dati del controllo per intervallo di date, utente, dashboard, report, set di dati e tipo di attività. È inoltre possibile scaricare le attività in un file csv (valori delimitati da virgola) per l'analisi offline.
 
@@ -29,18 +29,18 @@ Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento de
 Per accedere ai log di controllo, è necessario rispettare questi requisiti:
 
 - Per accedere alla sezione di controllo del Centro sicurezza e conformità di Office 365, è necessario avere una licenza di Exchange Online, inclusa con sottoscrizioni di Office 365 Enterprise E3 ed E5.
-- È necessario essere un amministratore globale o avere il ruolo di amministratore di Exchange che fornisce l'accesso al log di controllo. 
 
-  I ruoli di amministratore di Exchange vengono controllati tramite l'interfaccia di amministrazione di Exchange. Per altre informazioni, vedere [Permissions in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx) (Autorizzazioni in Exchange Online).
+- È necessario essere un amministratore globale o avere il ruolo di amministratore di Exchange che fornisce l'accesso al log di controllo. I ruoli di amministratore di Exchange vengono controllati tramite l'interfaccia di amministrazione di Exchange. Per altre informazioni, vedere [Permissions in Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx) (Autorizzazioni in Exchange Online).
 
 - Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario ottenere un collegamento diretto al Centro sicurezza e conformità di Office 365.
 
-> [!NOTE]
-> Per visualizzare i log di controllo per Power BI nel tenant, è necessario che nel tenant stesso sia disponibile almeno una licenza per cassette postali di Exchange.
+- Per visualizzare i log di controllo per Power BI nel tenant, è necessario che nel tenant stesso sia disponibile almeno una licenza per cassette postali di Exchange.
 
 ## <a name="accessing-your-audit-logs"></a>Accesso ai log di controllo
 
-Per controllare i log di Power BI, è necessario consultare il Centro di sicurezza e conformità di Office 365.
+Per controllare i log di Power BI, visitare il Centro di sicurezza e conformità di Office 365.
+
+È possibile che tra l'abilitazione della funzione di controllo e la visualizzazione dei dati di controllo si verifichi un ritardo di un massimo di 48 ore. Se i dati non vengono visualizzati immediatamente, controllare i log di controllo successivamente. Un ritardo simile può verificarsi tra l'assegnazione dell'autorizzazione per la visualizzazione dei log di controllo e l'accesso ai log.
 
 1. Selezionare **l'icona dell'ingranaggio** in alto a destra.
 
@@ -56,8 +56,7 @@ Per controllare i log di Power BI, è necessario consultare il Centro di sicurez
 
 In alternativa, è possibile accedere tramite [Office 365 | Sicurezza e conformità](https://protection.office.com/#/unifiedauditlog).
 
-> [!NOTE]
-> Per fornire l'accesso al log di controllo agli account non amministratore, è necessario assegnare le autorizzazioni nell'interfaccia di amministrazione di Exchange Online. Ad esempio, è possibile assegnare un utente a un gruppo di ruoli esistente, ad esempio Gestione organizzazione, oppure crearne uno nuovo con il ruolo Log di controllo. Per altre informazioni, vedere [Permissions in Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx) (Autorizzazioni in Exchange Online).
+Per fornire l'accesso al log di controllo agli account non amministratore, è necessario assegnare le autorizzazioni nell'interfaccia di amministrazione di Exchange Online. Ad esempio, è possibile assegnare un utente a un gruppo di ruoli esistente, ad esempio Gestione organizzazione, oppure crearne uno nuovo con il ruolo Log di controllo. Per altre informazioni, vedere [Permissions in Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx) (Autorizzazioni in Exchange Online).
 
 ## <a name="search-only-power-bi-activities"></a>Eseguire solo la ricerca delle attività di Power BI
 

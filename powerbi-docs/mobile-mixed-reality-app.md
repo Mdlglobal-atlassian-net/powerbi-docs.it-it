@@ -1,25 +1,25 @@
 ---
 title: App Power BI per realtà mista (anteprima)
-description: È possibile visualizzare dashboard e report nell'app Power BI per realtà mista, sia immersi nel mondo virtuale sia nel contesto del proprio ambiente.
+description: È possibile visualizzare dashboard e report nell'app Power BI per realtà mista (anteprima), sia immersi nel mondo virtuale sia nel contesto del proprio ambiente.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721433"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799327"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>App Power BI per realtà mista (anteprima)
-È possibile visualizzare dashboard e report nell'app Power BI per realtà mista mentre si è immersi nel mondo virtuale o inserire tali elementi in posizioni specifiche nel contesto del proprio ambiente. 
+È possibile visualizzare dashboard e report nell'app Power BI per realtà mista (anteprima) mentre si è immersi nel mondo virtuale o inserire tali elementi in posizioni specifiche nel contesto del proprio ambiente. 
 
-Scaricare l'edizione di anteprima dell'app Power BI per realtà mista da Windows Store per visualizzare dashboard e report. Interagire con essi nell'ambiente virtuale e selezionare gli elementi da inserire. 
+[Scaricare l'app Power BI per realtà mista](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Windows Store. In Windows Store, l'app è denominata "Power BI per dispositivi mobili". Interagire con dashboard e report nell'ambiente virtuale e selezionare gli elementi da inserire. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Due visualizzazioni: Windows classica e olografica
 

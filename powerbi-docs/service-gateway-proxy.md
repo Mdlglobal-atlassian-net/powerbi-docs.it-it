@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722659"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799557"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurazione delle impostazioni del proxy per il gateway dati locale
 È possibile che l’ambiente di lavoro richieda il passaggio attraverso un proxy per accedere a Internet. Ciò potrebbe impedire al gateway dati locale di connettersi al servizio.
@@ -50,7 +50,7 @@ La configurazione proxy predefinita è la seguente.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-La configurazione predefinita funziona con l'autenticazione di Windows. Se il proxy usa un altro tipo di autenticazione, è necessario modificare le impostazioni. In caso di dubbi, contattare l'amministratore di rete.
+La configurazione predefinita funziona con l'autenticazione di Windows. Se il proxy usa un altro tipo di autenticazione, è necessario modificare le impostazioni. In caso di dubbi, contattare l'amministratore di rete. L'autenticazione proxy di base non è consigliata e tentare di usarla può generare errori di autenticazione che causano una configurazione non corretta del gateway. Per risolvere il problema, usare un meccanismo di autenticazione proxy più avanzato.
 
 Oltre a usare le credenziali predefinite, è possibile aggiungere un elemento <proxy> per definire in maggior dettaglio le impostazioni del server proxy. Ad esempio è possibile impostare il parametro bypassonlocal su false per specificare che il gateway dati locale deve usare sempre il proxy anche per le risorse locali. Questa funzionalità può risultare utile in situazioni di risoluzione dei problemi, per tenere traccia di tutte le richieste HTTPS provenienti da un gateway dati locale nei file di log del proxy. La configurazione di esempio seguente specifica che tutte le richieste devono transitare attraverso un proxy specifico con l'indirizzo IP 192.168.1.10.
 
@@ -93,6 +93,10 @@ Quando si configurano le impostazioni proxy per l'utilizzo delle credenziali pre
 5. Ripristinare il gateway usando la chiave di ripristino.
    
     In questo modo, il nuovo account di servizio potrà decrittografare le credenziali archiviate per le origini dati.
+    
+> [!NOTE]
+> Quando si modifica l'account del servizio direttamente tramite il Pannello di controllo Servizi, gli ACL non vengono aggiornati automaticamente. È necessario assicurarsi che il nuovo account del servizio abbia accesso ai file e alla cartella di installazione. È possibile trovare la cartella di installazione del gateway in C:\Programmi\On-premises data gateway. 
+> 
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Gateway dati locale (modalità personale)](service-gateway-personal-mode.md)

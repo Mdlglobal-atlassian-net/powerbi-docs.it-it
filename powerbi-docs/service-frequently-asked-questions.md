@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/06/2018
+sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e72e3bcca4254b957580775196d4919e88452773
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253094"
+ms.locfileid: "34755048"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-microsoft-power-bi"></a>Che cos'è Microsoft Power BI?
-[Power BI](https://powerbi.microsoft.com/) è un servizio di analisi business basato sul cloud che consente a chiunque di visualizzare e analizzare i dati con maggiore velocità, in modo più efficiente e comprendendo meglio i risultati. Si connette a un'ampia gamma di dati tramite dashboard facili da usare, report interattivi e visualizzazioni accattivanti che consentono di comprendere a fondo i dati.
+Power BI è un servizio di analisi business basato sul cloud che consente a chiunque di visualizzare e analizzare i dati con maggiore velocità, in modo più efficiente e comprendendo meglio i risultati. Si connette a un'ampia gamma di dati tramite dashboard facili da usare, report interattivi e visualizzazioni accattivanti che consentono di comprendere a fondo i dati. Per altre informazioni, vedere[Che cos'è Power BI](power-bi-overview.md).
 
 ## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>Qual è la differenza tra Power BI e Power BI Pro?
 Power BI fornisce tutte le funzionalità necessarie per iniziare a esplorare i dati in un modo completamente nuovo. Power BI Pro fornisce tutte le stesse straordinarie funzionalità di Power BI oltre a funzionalità aggiuntive come maggiore capacità di archiviazione, pianificazione dell'aggiornamento dei dati più volte al giorno, origini dati dinamiche con funzionalità interattive complete, gruppi e molto altro. Altre informazioni sulle [differenze tra Power BI Pro e la versione gratuita di Power BI](https://powerbi.microsoft.com/pricing).
@@ -33,36 +33,20 @@ Power BI Desktop è gratuito. È disponibile una versione di valutazione gratuit
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Cosa fare se si hanno altre domande su Power BI Premium?
 Per domande relative a Power BI Premium, vedere [Domande frequenti su Power BI Premium](service-premium-faq.md).
 
-## <a name="are-users-who-signed-up-after-may-3-2017-eligible-for-the-extended-pro-trial"></a>Gli utenti iscritti dopo il 3 maggio 2017 sono idonei per la versione di valutazione Pro estesa?
-Gli utenti iscritti a Power BI (gratuito) a decorrere dal 3 maggio 2017 incluso non sono idonei per la versione di valutazione Pro estesa, ma sono idonei per la versione di valutazione Pro standard di 60 giorni.
-
-## <a name="how-do-i-find-out-who-in-my-organization-is-eligible-for-the-extended-pro-trial"></a>Come è possibile individuare chi è idoneo per la versione di valutazione Pro estesa all'interno dell'organizzazione?
-Anche se non esiste un modo diretto per scoprirlo, è possibile visualizzare il report sulle applicazioni integrate di Azure Active Directory per Power BI per vedere chi sono gli utenti attivi all'interno dell'organizzazione. Tali utenti attivi nel periodo di idoneità che dispongono di licenze gratuite riceveranno la notifica popup. Per altre informazioni, vedere [Ricerca di utenti Power BI che hanno eseguito l'accesso](service-admin-access-usage.md).
-
-> [!NOTE]
-> Il report di Azure AD non indica se un utente è gratuito o Pro all'interno di Power BI, ma indica solo quali utenti hanno effettuato l'accesso a Power BI e quando. Se un utente è elencato nel report, non significa necessariamente che sia idoneo per la versione di valutazione Pro estesa.
-> 
-> 
+## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>Come è possibile individuare gli utenti dell'organizzazione che hanno un account Power BI?
+È possibile visualizzare il report sulle applicazioni integrate di Azure Active Directory per Power BI per individuare gli utenti attivi all'interno dell'organizzazione. Il report di Azure AD non indica se un utente è gratuito o Pro all'interno di Power BI, ma indica solo quali utenti hanno effettuato l'accesso a Power BI e quando. Per altre informazioni, vedere [Find Power BI users that have signed in](service-admin-access-usage.md) (Ricerca di utenti Power BI che hanno eseguito l'accesso).
 
 ## <a name="what-is-power-bi-desktop"></a>Che cos'è Power BI Desktop?
-[Power BI Desktop](https://powerbi.microsoft.com/designer) è un'applicazione desktop gratuita che è possibile installare nel proprio computer. Power BI Desktop funziona in modo perfettamente integrato con il servizio Power BI, fornendo funzionalità avanzate di esplorazione dei dati, data shaping, modellazione e creazione di report, con visualizzazioni estremamente interattive. È possibile salvare il lavoro in un file e pubblicare i dati e i report direttamente nel sito di Power BI per condividerli con altri utenti.
+Power BI Desktop è un'applicazione desktop gratuita che è possibile installare nel proprio computer. Power BI Desktop funziona in modo perfettamente integrato con il servizio Power BI, fornendo funzionalità avanzate di esplorazione dei dati, data shaping, modellazione e creazione di report, con visualizzazioni estremamente interattive. È possibile salvare il lavoro in un file e pubblicare i dati e i report direttamente nel sito di Power BI per condividerli con altri utenti. Per altre informazioni, vedere [Che cos'è Power BI Desktop](desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-power-bi"></a>Cosa è necessario per usare Power BI?
-Sono sufficienti un Web browser e un indirizzo di posta elettronica aziendale.
-
->[!NOTE]
->Gli indirizzi di posta elettronica aziendali che terminano con .gov non sono attualmente supportati.
+Sono sufficienti un Web browser e un indirizzo di posta elettronica aziendale. È possibile iscriversi con un indirizzo di posta elettronica .gov e .mil. Per altre informazioni, vedere [Registrare l'organizzazione governativa statunitense al servizio Power BI](service-govus-signup.md) 
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>Perché è necessario iscriversi con un indirizzo di posta elettronica aziendale?
 Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o di servizi di posta elettronica commerciali. Altre informazioni sul [processo di iscrizione self-service a Power BI](service-self-service-signup-for-power-bi.md).
 
-## <a name="which-work-email-addresses-are-supported"></a>Quali indirizzi di posta elettronica aziendali sono supportati?
-Sono supportati gli indirizzi di posta elettronica aziendali che terminano con **.edu** e **.org**.
-
-Quelli che terminano con **.gov** e **.mil** non sono attualmente supportati.
-
 ## <a name="is-government-academic-and-non-profit-pricing-available-for-power-bi"></a>Sono disponibili prezzi per Power BI per istituti di istruzione, enti pubblici ed enti senza scopo di lucro?
-Sì, i prezzi per gli enti senza scopo di lucro sono disponibili quando si acquista direttamente da Microsoft. È possibile ottenere altre informazioni e iscriversi tramite il sito [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). I prezzi per enti pubblici e istituti di istruzione vengono offerti attraverso i programmi di licenza MOSP/Direct, EA e Open. I prezzi per gli enti pubblici sono anche disponibili per il formato di diffusione. Power BI non è ancora disponibile per il piano GCC (Government Community Cloud) degli Stati Uniti.
+Sì, i prezzi per gli enti senza scopo di lucro sono disponibili quando si acquista direttamente da Microsoft. È possibile ottenere altre informazioni e iscriversi tramite il sito [Microsoft Product Donation](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). I prezzi per enti pubblici e istituti di istruzione vengono offerti attraverso i programmi di licenza MOSP/Direct, EA e Open. I prezzi per gli enti pubblici sono anche disponibili per il formato di diffusione. 
 
 ## <a name="is-power-bi-available-on-premises"></a>Power BI è disponibile in locale?
 Il servizio Power BI [https://powerbi.com](https://powerbi.com) non è disponibile come servizio cloud interno privato. Tuttavia, sono disponibili altre tre opzioni per visualizzare e usare i dati in locale. 

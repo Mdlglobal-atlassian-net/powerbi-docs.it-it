@@ -1,96 +1,67 @@
 ---
 title: Sottoscrivere i report e i dashboard nel servizio Power BI
 description: Informazioni su come effettuare la sottoscrizione per se stessi o altri utenti di uno snapshot di un report e un dashboard di Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-featuredvideoid: saQx7G0pxhc
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 03/21/2018
+ms.component: powerbi-service
+ms.topic: conceptual
+ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: af93d9d49b25fe2bc8fefcc2128dea74effc65ec
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9d166dec82aa56fec1512e3d859e60142afcccd6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723024"
+ms.locfileid: "34755278"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Sottoscrivere un report o un dashboard nel servizio Power BI (app.powerbi.com)
-Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. 
+Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Eseguire una sottoscrizione per se stessi e per i propri colleghi alle pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. 
 
-Per il messaggio di posta elettronica e lo snapshot verrà usata la lingua specificata nelle impostazioni di Power BI (vedere [Lingue e paesi/aree geografiche supportate per Power BI](supported-languages-countries-regions.md)). Se non è definita alcuna lingua, Power BI usa la lingua in base alle impostazioni internazionali nel browser corrente. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-report-subscribe/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**. 
+Per il messaggio di posta elettronica e lo snapshot verrà usata la lingua specificata nelle impostazioni di Power BI (vedere [Lingue e paesi/aree geografiche supportate per Power BI](supported-languages-countries-regions.md)). Se non è definita alcuna lingua, Power BI usa la lingua in base alle impostazioni internazionali nel browser corrente. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-report-subscribe/power-bi-settings-icon.png) > **Impostazioni > Generali > Lingua**. 
 
 ![Elenco a discesa Lingua](media/service-report-subscribe/power-bi-language.png)
 
-> [!NOTE]
-> È possibile creare sottoscrizioni solo nel servizio Power BI. Il messaggio di posta elettronica ricevuto includerà un collegamento "Vai al report/dashboard". Nei dispositivi mobili con l'app Power BI installata, selezionando questo collegamento si avvia l'app (anziché l'azione predefinita di apertura del report o del +dashboard nel sito Web di Power BI).
-> 
-> 
+È possibile creare sottoscrizioni solo nel servizio Power BI. Il messaggio di posta elettronica ricevuto includerà un collegamento "Passa al report" o "Passa al dashboard". Nei dispositivi mobili con l'app Power BI installata, selezionando questo collegamento si avvia l'app (anziché l'azione predefinita di apertura del report o del +dashboard nel sito Web di Power BI).
 
-Guardare il video per vedere come impostare una sottoscrizione tramite posta elettronica per un report. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/saQx7G0pxhc" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="requirements"></a>Requisiti
-La **creazione**  di una sottoscrizione è una funzionalità di Power BI Pro ed è necessario avere le autorizzazioni di visualizzazione o modifica per il contenuto (dashboard o report).
+- La **creazione**  di una sottoscrizione è una funzionalità di Power BI Pro ed è necessario avere le autorizzazioni di modifica per il contenuto (dashboard o report) per creare la sottoscrizione. 
+- Poiché i messaggi di posta elettronica di sottoscrizione vengono inviati solo quando viene aggiornato un set di dati, le sottoscrizioni non funzionano nei set di dati che non vengono aggiornati.
 
-## <a name="subscribe-to-a-dashboard"></a>Sottoscrivere un dashboard
-![Selezionare l'icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-orientation.png)
+## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Sottoscrivere una pagina di report o dashboard
+Il processo di sottoscrizione a un dashboard o un report è molto simile. Lo stesso pulsante consente di effettuare la sottoscrizione per se stessi (e altri) ai dashboard e ai report del servizio Power BI.
+ 
+![Selezionare l'icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
-1. Aprire il dashboard.
+1. Aprire il dashboard o il report.
 2. Nella barra dei menu superiore selezionare **Sottoscrivi** oppure l'icona a forma di busta ![Icona Sottoscrivi](media/service-report-subscribe/power-bi-icon-envelope.png).
    
    ![Icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-icon.png)
+
 3. Usare il dispositivo di scorrimento giallo per attivare e disattivare la sottoscrizione.  Lo spostamento del dispositivo di scorrimento sulla posizione Disattivato non comporta l'eliminazione della sottoscrizione. Per eliminare la sottoscrizione, selezionare l'icona a forma di cestino.
+
+4. Specificare i dettagli del messaggio di posta elettronica. Il messaggio di posta elettronica è già popolato ma è possibile aggiungere altri utenti alla sottoscrizione. È possibile aggiungere solo indirizzi di posta elettronica dello stesso dominio (per informazioni dettagliate, vedere **Considerazioni e risoluzione dei problemi** più avanti). Se il report o il dashboard è ospitato nella [capacità Premium](service-premium.md), è possibile eseguire la sottoscrizione per altri utenti usando indirizzi di posta elettronica singoli e alias di gruppi. Se il report o il dashboard non è ospitato nella capacità Premium, è comunque possibile eseguire la sottoscrizione per altri utenti usando indirizzi di posta elettronica singoli, ma è necessario che abbiano licenze di Power BI Pro.
+
+    Nelle schermate riportate di seguito si noti che quando si sottoscrive un report, viene in realtà eseguita una sottoscrizione a una *pagina* di report.  Per sottoscrivere più di una pagina di un report, selezionare **Aggiungi un'altra sottoscrizione** e selezionare una pagina diversa. 
+      
+   ![Finestra Sottoscrivi](media/service-report-subscribe/power-bi-subscribe2.png)
+
+5. Selezionare **Salva e chiudi** per salvare la sottoscrizione. Gli utenti che hanno eseguito la sottoscrizione ricevono un messaggio di posta elettronica e uno snapshot del dashboard o della pagina di report ogni volta che viene apportata una modifica a uno dei set di dati sottostanti. Se il dashboard o il report viene aggiornato più di una volta al giorno, il messaggio di posta elettronica viene inviato solo dopo il primo aggiornamento.  
    
-   ![Finestra Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-dashboard-new.png)
-4. Selezionare **Salva e chiudi** per salvare la sottoscrizione. Si riceverà via email uno snapshot del dashboard ogni volta che uno dei set di dati sottostanti subisce delle modifiche. Se il dashboard viene aggiornato più di una volta al giorno, si riceverà lo snapshot tramite posta elettronica solo dopo il primo aggiornamento.
-   
-   ![Snapshot tramite posta elettronica del dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.png)
+   ![Snapshot tramite posta elettronica del dashboard](media/service-report-subscribe/power-bi-dashboard-email.jpg)
    
    > [!TIP]
-   > Per visualizzare immediatamente il messaggio di posta elettronica, Attivare un messaggio di posta elettronica aggiornando uno dei set di dati associati al dashboard. Se non si hanno le autorizzazioni di modifica per il set di dati, sarà necessario chiedere a un utente che abbia tali autorizzazioni per eseguire questa operazione. Per scoprire quali set di dati vengono usati per creare il dashboard, dal dashboard selezionare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](media/service-report-subscribe/power-bi-view-related.png) per aprire **Contenuto correlato** e quindi selezionare l'icona di aggiornamento ![Icona di aggiornamento](media/service-report-subscribe/power-bi-refresh.png). 
+   > Per visualizzare immediatamente il messaggio di posta elettronica, Attivare un messaggio di posta elettronica aggiornando uno dei set di dati associati al dashboard o al report. Se non si hanno le autorizzazioni di modifica per il set di dati, sarà necessario chiedere a un utente che abbia tali autorizzazioni per eseguire questa operazione. Per scoprire quali set di dati vengono usati, selezionare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](media/service-report-subscribe/power-bi-view-related.png) per aprire **Contenuto correlato** e quindi selezionare l'icona di aggiornamento ![Icona di aggiornamento](media/service-report-subscribe/power-bi-refresh.png). 
    > 
    > 
    
    ![Set di dati correlati](media/service-report-subscribe/power-bi-view-related-screen.png)
 
-## <a name="subscribe-to-a-report-page"></a>Sottoscrivere una pagina di un report
-1. Aprire il report nella [Visualizzazione di lettura](service-reading-view-and-editing-view.md).
-2. Nella barra dei menu superiore selezionare **Sottoscrivi**.
-   
-   ![Icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-icon.png)
-3. È possibile sottoscrivere una pagina di report alla volta. Selezionare la pagina del report specifica nell'elenco a discesa.
-   
-   ![Finestra Sottoscrizione](media/service-report-subscribe/power-bi-subscribe-dialog.png)
-   
-   Continuare ad aggiungere le pagine del report.
-4. Usare il dispositivo di scorrimento giallo per attivare e disattivare la sottoscrizione per ogni pagina.  Lo spostamento del dispositivo di scorrimento sulla posizione Disattivato non comporta l'eliminazione della sottoscrizione. Per eliminare la sottoscrizione, selezionare l'icona a forma di cestino.
-   
-   ![Attivatore la sottoscrizione](media/service-report-subscribe/power-bi-slider.png)
-5. Selezionare **Salva e chiudi** per salvare la sottoscrizione. Quando il report viene aggiornato, si riceverà uno snapshot tramite posta elettronica di ogni pagina del report. Se il report non viene aggiornato, per quel giorno non si riceverà alcun messaggio di posta elettronica con lo snapshot.  Se il report viene aggiornato più di una volta al giorno, si riceverà lo snapshot tramite posta elettronica solo dopo il primo aggiornamento.
-   
-   ![Snapshot tramite posta elettronica del dashboard](media/service-report-subscribe/power-bi-subscription-email.png)
-   
-   > [!TIP]
-   > Per visualizzare immediatamente il messaggio di posta elettronica, attivare un messaggio aprendo il set di dati e selezionando **Aggiorna ora**. Se non si hanno le autorizzazioni di modifica per il set di dati, sarà necessario chiedere a un utente che abbia tali autorizzazioni per eseguire questa operazione.
-   > 
-   > ![Icona Aggiorna adesso nella scheda Set di dati](media/service-report-subscribe/power-bi-refresh-now.png)
-   > 
-   > 
-
-## <a name="how-the-email-schedule-for-reports-is-determined"></a>Come determinare la pianificazione di posta elettronica per i report
+## <a name="how-the-email-schedule-is-determined"></a>Come determinare la pianificazione di posta elettronica
 La tabella seguente descrive la frequenza con cui si riceverà un messaggio di posta elettronica. Tutto dipende dal metodo di connessione del set di dati su cui è basato il dashboard o il report (DirectQuery, Live Connect, importato in Power BI o file di Excel in OneDrive o SharePoint Online) e dalle opzioni di sottoscrizione disponibili e selezionate (giornaliera, settimanale o nessuna).
 
 |  | **DirectQuery** | **Live Connect** | **Aggiornamento pianificato (importazione)** | **File di Excel in OneDrive/SharePoint Online** |
@@ -99,7 +70,7 @@ La tabella seguente descrive la frequenza con cui si riceverà un messaggio di p
 | **Quale livello di controllo ha l'utente sulla pianificazione di posta elettronica della sottoscrizione?** |Le opzioni sono: giornaliera o settimanale |Nessuna opzione: agli utenti viene inviato un messaggio di posta elettronica se il report viene aggiornato, ma non più di una volta al giorno. |Se la pianificazione dell'aggiornamento è giornaliera, le opzioni sono giornaliera e settimanale.  Se la pianificazione dell'aggiornamento è settimanale, l'unica opzione è settimanale. |Nessuna opzione: all'utente viene inviato un messaggio di posta elettronica ogni volta che il set di dati viene aggiornato, ma non più di una volta al giorno. |
 
 ## <a name="manage-your-subscriptions"></a>Gestire le sottoscrizioni
-Per accedere alla schermata per la gestione delle sottoscrizioni, è possibile procedere in due modi.  Selezionare **Gestione di tutte le sottoscrizioni** nella finestra di dialogo **Sottoscrivere i messaggi di posta elettronica** (vedere il passaggio 3 precedente). Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-report-subscribe/power-bi-settings-icon.png) di Power BI nella barra dei menu superiore e scegliere **Impostazioni**.
+La sottoscrizione può essere gestita solo dalla persona che l'ha creata.  Per accedere alla schermata per la gestione delle sottoscrizioni, è possibile procedere in due modi.  Selezionare **Gestione di tutte le sottoscrizioni** nella finestra di dialogo **Sottoscrivere i messaggi di posta elettronica** (vedere gli screenshot successivi al passaggio 4). Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-report-subscribe/power-bi-settings-icon.png) di Power BI nella barra dei menu superiore e scegliere **Impostazioni**.
 
 ![Selezionare Impostazioni](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
@@ -107,21 +78,21 @@ Le sottoscrizioni visualizzate variano in base all'area di lavoro attiva.  Per v
 
 ![Visualizzare tutte le sottoscrizioni in Area di lavoro personale](media/service-report-subscribe/power-bi-subscriptions.png)
 
-Una sottoscrizione termina se la licenza Pro scade, il dashboard o il report viene eliminato dal proprietario, l'account utente usato per creare la sottoscrizione viene eliminato.
+Una sottoscrizione termina se la licenza Pro scade, il dashboard o il report viene eliminato dal proprietario o l'account utente usato per creare la sottoscrizione viene eliminato.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-* Al momento, la sottoscrizione non è disponibile per i dashboard o i report provenienti dai pacchetti di contenuto o dalle app Power BI. Esiste però una soluzione alternativa: creare una copia del report/dashboard e aggiungere sottoscrizioni a tale versione.
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e la si rinomina, sarà necessario ricreare la sottoscrizione
 * Per le sottoscrizioni tramite posta elettronica nei set di dati con connessione dinamica, si riceveranno messaggi di posta elettronica solo quando vengono modificati i dati. Quindi, se si verifica un aggiornamento ma nessun dato viene modificato, Power BI non invierà alcun messaggio di posta elettronica.
 * Le sottoscrizioni tramite posta elettronica non supportano la maggior parte degli [oggetti visivi personalizzati](power-bi-custom-visuals.md).  L'unica eccezione è costituita dagli oggetti visivi personalizzati che sono stati [certificati](power-bi-custom-visuals-certified.md).  
-* Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate prima della sottoscrizione non verranno visualizzate nel messaggio di posta elettronica.    
+* I riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.
+* Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.    
 * Le sottoscrizioni tramite posta elettronica non sono ancora supportate nelle pagine del report create dalla funzione di connessione al servizio in tempo reale di Power BI Desktop.    
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     
-* Se si condivide un dashboard con un collega fuori dal tenant, questi non riuscirà a sottoscrivere il dashboard o le pagine del report associato. Ad esempio aaron@xyz.com può condividere con anyone@ABC.com,  ma anyone@ABC.com non può sottoscrivere il contenuto condiviso.    
+* Se si condivide un dashboard con un collega al di fuori del tenant, non sarà possibile creare anche una sottoscrizione per il collega. Di conseguenza, se si è aaron@xyz.com è possibile condividere con anyone@ABC.com, ma non è possibile sottoscrivere anyone@ABC.com che non può sottoscrivere contenuto condiviso.      
 * Le sottoscrizioni possono non riuscire nei dashboard o nei report con immagini grandi a causa dei limiti delle dimensioni della posta elettronica.    
 * Power BI sospende automaticamente l'aggiornamento nei set di dati associati ai dashboard e ai report che non sono stati visitati da più di 2 mesi.  Tuttavia, se si aggiunge una sottoscrizione a un dashboard o un report, l'aggiornamento non verrà sospeso anche nel caso in cui non sia stato visitato.    
 * Se non si ricevono i messaggi di posta elettronica relativi alla sottoscrizione, assicurarsi che il Nome dell'entità utente sia in grado di ricevere messaggi di posta elettronica. [Il team di Power BI si sta impegnando per rendere meno rigoroso questo requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163) e fornirà presto notizie in merito. 
-* Per i report e i dashboard inviati viene usata l'impostazione di lingua di Power BI. La lingua predefinita è l'inglese. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-report-subscribe/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**.
+* Se il dashboard o il report è nella capacità Premium, è possibile usare alias di posta elettronica di gruppo per le sottoscrizioni anziché eseguire le sottoscrizioni per un indirizzo alla volta. Gli alias sono basati sull'istanza corrente di Active Directory. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)    

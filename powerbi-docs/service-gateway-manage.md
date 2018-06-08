@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722590"
+ms.locfileid: "34755163"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Gestire un gateway di Power BI
 
-Dopo aver [installato un gateway dati di Power BI](service-gateway-install.md) è possibile gestirlo tramite l'area **Gestisci gateway** del servizio Power BI, nell'app gateway nel computer locale e tramite script di PowerShell. Questo articolo è incentrato sul servizio Power BI. Se si è appena installato un gateway, è consigliabile per prima cosa [aggiungere un'origine dati](#add-a-data-source) e quindi [aggiungere gli utenti](#add-users-to-a-data-source) in modo che possano accedere all'origine dati.
+Dopo aver [installato un gateway dati di Power BI](service-gateway-install.md), è possibile gestirlo in base alle specifiche esigenze. Questo argomento illustra come aggiungere e rimuovere le origini dati e gli utenti, riavviare un gateway, nonché eseguire la migrazione di un gateway, ripristinarlo, assumerne il controllo e rimuoverlo. 
+
+È possibile gestire un gateway tramite l'area **Gestisci gateway** del servizio Power BI, nell'app gateway nel computer locale e tramite script di PowerShell. Questo articolo è incentrato sul servizio Power BI. 
+
+Se si è appena installato un gateway, è consigliabile per prima cosa [aggiungere un'origine dati](#add-a-data-source) e quindi [aggiungere gli utenti](#add-users-to-a-data-source) in modo che possano accedere all'origine dati.
 
 
 ## <a name="manage-data-sources"></a>Gestire le origini dati
 
-Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti specifici. Questo esempio illustra l'aggiunta di un'origine dati SQL Server, ma i passaggi per altre origini dati sono simili.
+Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti specifici. Un gateway può essere usato per una singola origine dati o più origini dati. Questo esempio illustra l'aggiunta di un'origine dati SQL Server, ma i passaggi per altre origini dati sono simili.
 
 
 ### <a name="add-a-data-source"></a>Aggiungere un'origine dati
@@ -113,6 +117,14 @@ Quando gli amministratori usano la voce di menu **Gestisci gateway** disponibile
 
 Tutte le nuove richieste di **aggiornamento pianificato** e le operazioni DirectQuery vengono automaticamente instradate all'istanza primaria di un cluster di gateway specificato. Se l'istanza del gateway primario non è online, la richiesta viene indirizzata a un'altra istanza di gateway nel cluster.
 
+
+## <a name="share-a-gateway"></a>Condividere un gateway
+
+Non è possibile *condividere* un gateway in quanto tale, ma è possibile aggiungere amministratori per il gateway e aggiungere utenti alle origini dati del gateway. 
+
+Dopo aver installato un gateway, si diventa per impostazione predefinita l'amministratore del gateway. Come illustrato in precedenza, è possibile aggiungere altri utenti come amministratori. Tali amministratori possono aggiungere origini dati, configurare e rimuovere il gateway.
+
+È anche possibile assegnare utenti alle origini dati create in ciascuno dei gateway. Gli utenti possono quindi usare queste origini dati per aggiornare i report di Power BI. Non possono, tuttavia, modificare le origini dati o le impostazioni del gateway.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Eseguire la migrazione, ripristinare o acquisire la proprietà di un gateway
 

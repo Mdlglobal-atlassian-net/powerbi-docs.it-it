@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf6e1a0b4e711f696d9728850352a53ac8442f6
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482177"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799626"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -25,9 +25,26 @@ per le relative informazioni incluse nelle "Novità", vedere:
 
 ## <a name="may-2018"></a>Mag 2018
 
-### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurare le app per dispositivi mobili iOS di Power BI per server di report in modalità remota
+### <a name="mobile-drill-through-all-mobile-apps"></a>Drill-through per dispositivi mobili: tutte le app per dispositivi mobili
+
+È possibile eseguire drill-through da un punto dati selezionato in un'altra pagina del report nelle app per dispositivi mobili, se tale azione è stata definita dall'autore del report. 
+
+### <a name="back-button-all-mobile-apps"></a>Pulsante Indietro: tutte le app per dispositivi mobili
+
+Ora, quando si esplora un report scorrendo rapidamente, scegliendo una pagina del report sulla barra delle azioni o tramite il drill-through, il pulsante Indietro consente di tornare alla pagina precedente visualizzata. 
+
+### <a name="dashboard-themes-all-mobile-apps"></a>Temi del dashboard: tutte le app per dispositivi mobili
+
+Quando gli autori di report personalizzano i temi del dashboard nel servizio Power BI, l'aspetto del dashboard verrà modificato anche nell'app per dispositivi mobili. Tuttavia, non si vedranno le immagini di sfondo.
+
+### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report in modalità remota
 
 L'amministratore IT può ora usare uno strumento MDM per configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per informazioni dettagliate, vedere [Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota](report-server/configure-powerbi-mobile-apps-remote.md).
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>App Power BI per realtà mista (anteprima)
+
+L'app Power BI per realtà mista è ora disponibile in Microsoft Store. È possibile visualizzare dashboard e report mentre si è immersi nel mondo virtuale o inserire tali elementi e visualizzarli in posizioni specifiche nel contesto del proprio ambiente. Vedere il nuovo video [Introducing Power BI on Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) (Introduzione a Power BI su Hololens) per informazioni sul contesto oppure leggere l'articolo sulla nuova [app Power BI per realtà mista](mobile-mixed-reality-app.md).
+
 
 ## <a name="april-2018"></a>Aprile 2018
 

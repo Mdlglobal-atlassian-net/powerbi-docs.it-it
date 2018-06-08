@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584301"
+ms.locfileid: "34755140"
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -92,7 +92,7 @@ Facendo clic su **Passa all'interfaccia di amministrazione di O365** si passa di
 
 ## <a name="audit-logs"></a>Log di controllo
 
-La terza scheda nel portale di amministrazione è **Log di controllo**. I log si trovano all'interno del Centro sicurezza e conformità di Office 365. Questa sezione consente di accedere rapidamente a tale area all'interno di Office 365. 
+La terza scheda nel portale di amministrazione è **Log di controllo**. I log si trovano all'interno del Centro sicurezza e conformità di Office 365. Questa sezione consente di accedere rapidamente a tale area all'interno di Office 365.
 
 Per altre informazioni sui log di controllo, vedere [Controllo di Power BI nell'organizzazione](service-admin-auditing.md)
 
@@ -227,8 +227,6 @@ Gli utenti dell'organizzazione possono usare la visualizzazione Mappe ArcGIS per
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Abilitare oggetti visivi personalizzati per l'intera organizzazione
 Gli utenti dell'organizzazione possono interagire con gli oggetti visivi personalizzati e condividerli. [Altre informazioni](power-bi-custom-visuals.md)
 
-![Impostazioni degli oggetti visivi personalizzati](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
 
@@ -247,7 +245,7 @@ Gli utenti dell'organizzazione possono interagire con gli oggetti visivi creati 
 
 Gli utenti dell'organizzazione possono usare il controllo per monitorare le azioni eseguite da altri utenti dell'organizzazione in Power BI. [Altre informazioni](service-admin-auditing.md)
 
-Questa impostazione deve essere abilitata per la registrazione delle voci del log di controllo.
+Questa impostazione deve essere abilitata per la registrazione delle voci del log di controllo. È possibile che tra l'abilitazione della funzione di controllo e la visualizzazione dei dati di controllo si verifichi un ritardo di un massimo di 48 ore. Se i dati non vengono visualizzati immediatamente, controllare i log di controllo successivamente. Un ritardo simile può verificarsi tra l'assegnazione dell'autorizzazione per la visualizzazione dei log di controllo e l'accesso ai log.
 
 > [!NOTE]
 > Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.

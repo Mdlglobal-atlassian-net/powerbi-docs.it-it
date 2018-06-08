@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721019"
+ms.locfileid: "34754933"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -75,7 +75,7 @@ Di seguito è riportato un elenco parziale con le differenze che è possibile us
 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
-|Acquista     |Portale di Azure |Office |Office |
+|Acquisto     |Portale di Azure |Office |Office |
 |Casi d'uso |* Incorporamento di contenuto in un'applicazione personalizzata |* Incorporamento di contenuto in un'applicazione personalizzata<br>* Condivisione di contenuto con utenti della versione GRATUITA di Power BI all'esterno di PowerBI.com e incorporamento in altre applicazioni SaaS (SharePoint, Microsoft Teams) |* Incorporamento di contenuto in un'applicazione personalizzata<br>* Condivisione di contenuto con utenti della versione GRATUITA di Power BI all'esterno di PowerBI.com e incorporamento in altre applicazioni SaaS (SharePoint, Microsoft Teams)<br>* Condivisione di contenuto con gli utenti della versione GRATUITA di Power BI tramite PowerBI.com  |
 |Fatturazione |Ogni ora |Ogni mese |Mensile |
 |Impegno  |Nessun impegno |Annuale  |Mensile/Annuale |
@@ -103,8 +103,7 @@ L'autenticazione e l'autorizzazione degli utenti dell'applicazione verranno impl
 
 Se si dispone già di un tenant di Azure AD, è possibile usare la directory esistente oppure si può creare un nuovo tenant di Azure AD per la sicurezza del contenuto dell'applicazione incorporato.
 
-Per ottenere un token di AAD, è possibile usare una delle librerie di autenticazione di Azure Active Directory. Sono disponibili librerie client per più piattaforme.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+Per ottenere un token di AAD, è possibile usare una delle librerie di autenticazione di Azure Active Directory - https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Sono disponibili librerie client per più piattaforme.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Qual è la differenza tra Power BI Embedded e altri servizi di Azure?
 

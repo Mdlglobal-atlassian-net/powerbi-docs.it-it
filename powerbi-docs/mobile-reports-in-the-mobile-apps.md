@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297677"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799419"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -81,25 +81,30 @@ Quando si seleziona un valore in un oggetto visivo, gli altri oggetti visivi non
    ![Ordinare un oggetto visivo](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Per invertire l'ordinamento, toccare di nuovo i puntini di sospensione (**...**), quindi toccare di nuovo il nome dello stesso campo.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Eseguire il drill-down in un iPad o un tablet
-Se l'autore di un report ha aggiunto funzionalità di drill-down a un oggetto visivo, in un tablet o un iPad è possibile eseguire il drill-down in un oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](power-bi-visualization-drill-down.md) in Power BI Desktop o nel servizio Power BI. 
+## <a name="drill-down-and-up-in-a-visual"></a>Eseguire il drill-down e il drill-up in un oggetto visivo
+Se l'autore di un report ha aggiunto funzionalità di drill-down a un oggetto visivo, è possibile eseguire il drill-down nell'oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](power-bi-visualization-drill-down.md) in Power BI Desktop o nel servizio Power BI. 
 
-> [!NOTE]
-> Attualmente il drill-down non funziona con le mappe nell'iPad o nel tablet.
-> 
-> 
+* Toccare un punto dati in un oggetto visivo per visualizzare la descrizione comando. In caso di drill-down, la parte inferiore della descrizione comando contiene delle frecce che è possibile toccare. 
+  
+  ![Eseguire il drill-down in un oggetto visivo](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Toccare un elemento visivo. Se sono presenti frecce in su e in giù negli angoli superiori ![Icone di drill-up e drill-down](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png), è possibile eseguire il drill-down. Per eseguire il drill-down in un valore, toccare la freccia nell'angolo superiore destro, quindi toccare un valore nell'oggetto visivo (in questo caso, la bolla FD-04 di colore blu scuro).
+* Per rieseguire il drill-up, toccare la freccia rivolta verso l'alto nella descrizione comando.
   
-  ![Eseguire il drill-down in un oggetto visivo](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Per eseguire il drill-down del backup, toccare la freccia in su nell'angolo superiore sinistro.
-  
-  ![Drill-up](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Drill-up](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Tornare all'Area di lavoro
-* Toccare la freccia accanto al nome del report > toccare **Area di lavoro personale**.
-  
-  ![Tornare indietro](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* È anche possibile eseguire il drill-down in tutti i punti dati di un oggetto visivo. Aprire l'oggetto in modalità messa a fuoco, toccare l'icona Esplora, quindi scegliere Mostra tutto al livello successivo oppure espandere per visualizzare il livello corrente e successivo.
+
+   ![Drill-down di tutti gli elementi di Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Eseguire il drill-through da una pagina all'altra
+
+Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo, Power BI consente di passare a un'altra pagina nel report, filtrata in base al valore scelto. L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. In tal caso, è possibile scegliere la pagina di cui eseguire il drill-through. Nell'esempio seguente quando si tocca il valore nel misuratore, è possibile scegliere di eseguire il drill-through in **spent by business area** o **planning by business area**.
+
+![Report di drill-through di Power BI per dispositivi mobili](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Quando si esegue il drill-through, il pulsante Indietro consente di tornare alla pagina del report precedente.
+
+Leggere le informazioni su come [aggiungere il drill-through in Power BI Desktop](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)
