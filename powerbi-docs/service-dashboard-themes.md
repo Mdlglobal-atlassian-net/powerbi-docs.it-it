@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722521"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813803"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usare i temi del dashboard nel servizio Power BI
 I **temi del dashboard** consentono di applicare un colore del tema a un intero dashboard, ad esempio i colori aziendali, i colori della stagione o qualunque altro tema di colori. Quando si applica un **tema del dashboard**, tutti gli oggetti visivi del dashboard usano i colori del tema selezionato, salvo alcuni casi particolari descritti più avanti in questo articolo.
 
 ![esempio di dashboard con tema](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-La modifica dei colori degli oggetti visivi del report nel dashboard non condiziona gli oggetti visivi nel report. Quando si aggiungono i riquadri di un report in cui è già applicato un [tema del report](/desktop-report-themes.md), è anche possibile scegliere di continuare a usare il tema corrente oppure scegliere il tema del dashboard.
+La modifica dei colori degli oggetti visivi del report nel dashboard non condiziona gli oggetti visivi nel report. Quando si aggiungono i riquadri di un report in cui è già applicato un [tema del report](desktop-report-themes.md), è anche possibile scegliere di continuare a usare il tema corrente oppure scegliere il tema del dashboard.
 
 
 ## <a name="prerequisites"></a>Prerequisiti

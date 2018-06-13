@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689784"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813504"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI Embedded
 Informazioni su come eseguire la migrazione dalla raccolta di aree di lavoro di Power BI a Power BI Embedded e sfruttare i miglioramenti per l'incorporamento nelle app.
@@ -159,7 +159,7 @@ Oltre al contenuto migrato dalla raccolta di aree di lavoro di Power BI, è poss
 
 ## <a name="rebuild-your-application"></a>Ricompilare l'applicazione
 1. È necessario modificare l'applicazione per usare le API REST di Power BI e il percorso del report in powerbi.com.
-2. Ricompilare l'autenticazione AuthN/AuthZ usando l'account *master* per l'applicazione. È possibile sfruttare l'uso di un [token di incorporamento](https://msdn.microsoft.com/library/mt784614.aspx) per consentire all'utente di agire per conto di altri utenti.
+2. Ricompilare l'autenticazione AuthN/AuthZ usando l'account *master* per l'applicazione. È possibile sfruttare l'uso di un [token di incorporamento](https://docs.microsoft.com/rest/api/power-bi/embedtoken) per consentire all'utente di agire per conto di altri utenti.
 3. Incorporare i report da powerbi.com nell'applicazione.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Eseguire il mapping degli utenti a un utente di Power BI

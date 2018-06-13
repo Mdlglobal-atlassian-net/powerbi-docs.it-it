@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289925"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813090"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Listato di codice completo per il push dei dati in un set di dati
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
@@ -228,7 +228,7 @@ Al termine dei passaggi da 2 a 5 in **Eseguire il push dei dati in un set di dat
 [Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md)  
 [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md)  
 [Aggiungere righe a una tabella di Power BI](walkthrough-push-data-add-rows.md)  
-[Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
 
 
