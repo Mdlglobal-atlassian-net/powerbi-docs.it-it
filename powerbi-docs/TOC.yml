@@ -900,8 +900,18 @@
           href: developer/embed-sample-for-customers.md
     - name: Concetti
       items:
-        - name: Cosa si può fare con l'API di Power BI?
-          href: developer/overview-of-power-bi-rest-api.md
+        - name: Utilizzo delle API REST di Power BI
+          items:
+            - name: Cosa si può fare con l'API di Power BI?
+              href: developer/overview-of-power-bi-rest-api.md
+            - name: Limitazioni dell'API REST di Power BI
+              href: developer/api-rest-api-limitations.md
+            - name: Proprietà dei set di dati
+              href: developer/api-dataset-properties.md
+            - name: Controllo delle versioni del modello di dati
+              href: developer/api-data-model-versioning.md
+        - name: Creare un oggetto visivo con Strumenti di sviluppo
+          href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Autorizzazioni di Power BI
           href: developer/power-bi-permissions.md
         - name: Sicurezza a livello di riga
@@ -968,6 +978,8 @@
               href: developer/walkthrough-push-data-add-rows.md
             - name: Listato di codice completo
               href: developer/walkthrough-push-data-complete-code.md
+            - name: Criteri di conservazione automatici per dati in tempo reale
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
         - name: Certificazione dei pacchetti di contenuto
           items:
             - name: Programma di certificazione dei pacchetti di contenuto
