@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
 ms.author: maghan
-ms.openlocfilehash: 86dd69cede6975021aff4b0ce3dada112db980ad
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d1fd42f059f8050662adc80018748d11c1e73e2b
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287786"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813757"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Domande e risposte in Power BI Embedded
 Power BI Embedded offre un modo per incorporare Domande e risposte in un'applicazione e per consentire agli utenti di porre domande usando il linguaggio naturale e ricevere risposte immediate sotto forma di oggetti visivi quali grafici o grafi.
@@ -93,7 +93,7 @@ qna.on("visualRendered", function(event) {
 ```
 
 ## <a name="embed-token"></a>Token di incorporamento
-Creare un token di incorporamento da un set di dati per iniziare a creare una parte Domande e risposte. Per altre informazioni, vedere [Generate token for Q&A](https://msdn.microsoft.com/library/mt784614.aspx#qanda) (Generare un token per Domande e risposte).
+Creare un token di incorporamento da un set di dati per iniziare a creare una parte Domande e risposte. Per altre informazioni, vedere [Generate token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Generare token).
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per provare a usare l'incorporamento di Domande e risposte, vedere l'[esempio di incorporamento di JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/).

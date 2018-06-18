@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288315"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813780"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrare un riquadro in un'app (i dati sono di proprietà dell'utente)
 Informazioni su come integrare o incorporare un riquadro in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.
@@ -28,7 +28,7 @@ Per eseguire questa procedura dettagliata, è necessario un account **Power BI**
 > 
 > 
 
-Per integrare un riquadro in un'app Web, usare l'API REST di **Power BI** o Power BI C# SDK e un **token di accesso** di un'autorizzazione di Azure Active Directory (AD) per ottenere un riquadro. Caricare quindi il riquadro usando lo stesso token di accesso. L'API **Power BI** fornisce l'accesso a livello di codice a determinate risorse di **Power BI**. Per altre informazioni, vedere [Panoramica dell'API REST di Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (API JavaScript di Power BI).
+Per integrare un riquadro in un'app Web, usare l'API REST di **Power BI** o Power BI C# SDK e un **token di accesso** di un'autorizzazione di Azure Active Directory (AD) per ottenere un riquadro. Caricare quindi il riquadro usando lo stesso token di accesso. L'API **Power BI** fornisce l'accesso a livello di codice a determinate risorse di **Power BI**. Per altre informazioni, vedere [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) (API REST di Power BI) e [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (API JavaScript di Power BI).
 
 ## <a name="download-the-sample"></a>Scaricare l'esempio
 Questo articolo illustra il codice usato in [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) su GitHub. Per proseguire con questa procedura dettagliata, è possibile scaricare l'esempio.
@@ -44,12 +44,12 @@ Se è stato scaricato [integrate-tile-web-app](https://github.com/Microsoft/Powe
 Nell'applicazione è prima di tutto necessario ottenere un **token di accesso** da Azure AD prima di effettuare chiamate all'API REST di Power BI. Per altre informazioni, vedere [Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'app Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-tile"></a>Passaggio 3: Ottenere un riquadro
-Per ottenere un riquadro di **Power BI**, usare l'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx), che ottiene un elenco di riquadri di **Power BI** da un dashboard specifico. Dall'elenco di riquadri è possibile ottenere un ID riquadro e un URL incorporato.
+Per ottenere un riquadro di **Power BI**, usare l'operazione [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles), che ottiene un elenco di riquadri di **Power BI** da un dashboard specifico. Dall'elenco di riquadri è possibile ottenere un ID riquadro e un URL incorporato.
 
 Prima di ottenere il riquadro, sarà necessario recuperare un ID dashboard. Per informazioni su come recuperare un dashboard, vedere [Integrare un dashboard in un'app (i dati sono di proprietà dell'utente)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Ottenere i riquadri usando un token di accesso
-Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx). L'operazione [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) restituisce un elenco di riquadri. È possibile ottenere un singolo riquadro dall'elenco di riquadri. Di seguito è riportato un metodo C# completo per ottenere un riquadro. 
+Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). L'operazione [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) restituisce un elenco di riquadri. È possibile ottenere un singolo riquadro dall'elenco di riquadri. Di seguito è riportato un metodo C# completo per ottenere un riquadro. 
 
 Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
 
@@ -216,7 +216,7 @@ Se è stato scaricato ed eseguito [integrate-tile-web-app](https://github.com/Mi
 ![Riquadro incorporato nell'applicazione Web](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Utilizzo dei gruppi (aree di lavoro dell'app)
-Per incorporare un riquadro da un gruppo (area di lavoro dell'app), è consigliabile ottenere l'elenco di tutti i riquadri disponibili nel dashboard del gruppo tramite la chiamata seguente all'API REST. Per altre informazioni su questa chiamata all'API REST, vedere [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx). Per consentire alla richiesta di restituire risultati, sarà necessaria l'autorizzazione per il gruppo.
+Per incorporare un riquadro da un gruppo (area di lavoro dell'app), è consigliabile ottenere l'elenco di tutti i riquadri disponibili nel dashboard del gruppo tramite la chiamata seguente all'API REST. Per altre informazioni su questa chiamata all'API REST, vedere [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). Per consentire alla richiesta di restituire risultati, sarà necessaria l'autorizzazione per il gruppo.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

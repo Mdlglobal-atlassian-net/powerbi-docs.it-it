@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720812"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813159"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Risoluzione dei problemi dell'applicazione incorporata
 
@@ -108,7 +108,7 @@ Le cause di un errore del metodo GenerateToken quando viene specificata l'identi
 
 Per verificare qual è la causa, seguire questa procedura.
 
-* Eseguire l'operazione [get dataset](https://msdn.microsoft.com/library/mt784653.aspx). La proprietà IsEffectiveIdentityRequired è impostata su true?
+* Eseguire [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets). La proprietà IsEffectiveIdentityRequired è impostata su true?
 * Il nome utente è obbligatorio per qualsiasi identità effettiva.
 * Se la proprietà IsEffectiveIdentityRolesRequired è impostata su true, il ruolo è obbligatorio.
 * L'ID del set di dati è obbligatorio per qualsiasi identità effettiva.

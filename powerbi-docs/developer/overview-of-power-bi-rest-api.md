@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/20/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 47dd0ab87b78e344de176ebe22a1e5dc9753b9b0
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813240"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?
 Power BI visualizza dashboard interattivi, che possono essere creati e aggiornati da molte origini dati diverse in tempo reale. Usando qualsiasi linguaggio di programmazione che supporta chiamate REST, è possibile creare un'app che si integra con un dashboard di Power BI in tempo reale. È anche possibile integrare riquadri e report di Power BI nelle app.
@@ -26,7 +27,6 @@ Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 | --- | --- |
 | Incorporare dashboard, report e riquadri per gli utenti di Power BI e gli utenti non Power BI (i dati sono di proprietà dell'app) |[Come incorporare i dashboard, i report e i riquadri di Power BI](embedding-content.md) |
 | Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. |[Eseguire il push dei dati in un dashboard](walkthrough-push-data.md) |
-| Importare un file di Power BI Desktop |[Importare un file PBIX](https://msdn.microsoft.com/library/mt243837.aspx) |
 | Eseguire l'autenticazione a Power BI. |[Eseguire l'autenticazione a Power BI](get-azuread-access-token.md) |
 | Creare un oggetto visivo personalizzato. |[Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md) |
 
@@ -51,12 +51,17 @@ Gli esempi di Power BI Developer includono gli elementi per l'incorporamento di 
 ## <a name="developer-tools"></a>Strumenti per sviluppatori
 Di seguito sono riportati gli strumenti che è possibile usare per semplificare lo sviluppo degli elementi di Power BI.
 
-* [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo)
+È possibile usare lo [strumento esperienza di onboarding](https://aka.ms/embedsetup) per iniziare rapidamente e scaricare un'applicazione di esempio su come incorporare il contenuto di Power BI.
+
+Scegliere la soluzione adatta alle proprie esigenze:
+* L'[incorporamento per i clienti](embedding.md#embedding-for-your-customers) offre la possibilità di incorporare dashboard e report per gli utenti che non hanno un account per Power BI. Eseguire la soluzione [Incorporare per i clienti](https://aka.ms/embedsetup/AppOwnsData).
+* L'[incorporamento per l'organizzazione](embedding.md#embedding-for-your-organization) consente di estendere il servizio Power BI. Eseguire la soluzione [Incorporare per l'organizzazione](https://aka.ms/embedsetup/UserOwnsData).
+
+Per un esempio completo dell'uso dell'API JavaScript, è possibile usare lo [strumento Playground](https://microsoft.github.io/PowerBI-JavaScript/demo), che consente di riprodurre in modo rapido i diversi tipi di esempi di Power BI Embedded. È anche possibile ottenere maggiori informazioni sull'API JavaScript visitando la pagina del [wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Eseguire il push dei dati in un set di dati](walkthrough-push-data.md)  
 [Introduzione agli strumenti di sviluppo per oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md) 
-[Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-

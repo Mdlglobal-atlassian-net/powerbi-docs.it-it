@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 59f045d142fdf5ba22f9d240913687a9306e6b43
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ebbb004fe79bbae942243bc227e1c09fd51fa75f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813711"
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Incorporare un dashboard, un riquadro o un report di Power BI nell'applicazione per cloud sovrani
 Informazioni su come integrare o incorporare un dashboard, un riquadro o un report in un'app Web tramite Power BI .NET SDK insieme all'API JavaScript di Power BI durante l'incorporamento per i clienti. Questo è in genere lo scenario relativo a ISV.
@@ -36,7 +37,7 @@ Per eseguire questa procedura dettagliata, è necessario un account **Power BI**
 > Se invece si vuole incorporare un dashboard per l'organizzazione, vedere [Integrare un dashboard in un'app per l'organizzazione](integrate-dashboard.md).
 >
 
-Per integrare un dashboard in un'app Web, occorre usare l'API **Power BI** e un **token di accesso** di autorizzazione di Azure Active Directory (AD) per ottenere un dashboard. Caricare quindi il dashboard tramite un token di incorporamento. L'API **Power BI** fornisce l'accesso a livello di codice a determinate risorse di **Power BI**. Per altre informazioni, vedere [Panoramica dell'API REST di Power BI](https://msdn.microsoft.com/library/dn877544.aspx), [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) e [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (API JavaScript di Power BI).
+Per integrare un dashboard in un'app Web, occorre usare l'API **Power BI** e un **token di accesso** di autorizzazione di Azure Active Directory (AD) per ottenere un dashboard. Caricare quindi il dashboard tramite un token di incorporamento. L'API **Power BI** fornisce l'accesso a livello di codice a determinate risorse di **Power BI**. Per altre informazioni, vedere [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) (API REST di Power BI), [Power BI .NET SDK](https://github.com/Microsoft/PowerBI-CSharp) e [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (API JavaScript di Power BI).
 
 ## <a name="download-the-sample"></a>Scaricare l'esempio
 Questo articolo mostra il codice usato nell'[esempio di incorporamento per il cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) su GitHub. Per proseguire con questa procedura dettagliata, è possibile scaricare l'esempio.
@@ -201,7 +202,7 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Creare il token di incorporamento
-È necessario generare un token di incorporamento che possa essere usato dall'API JavaScript. Il token di incorporamento sarà specifico per l'elemento da incorporare. Ogni volta che si incorpora una parte di contenuto di Power BI è quindi necessario creare un nuovo token di incorporamento specifico. Per altre informazioni, incluso il valore **accessLevel** da usare, vedere [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) (API GenerateToken).
+È necessario generare un token di incorporamento che possa essere usato dall'API JavaScript. Il token di incorporamento sarà specifico per l'elemento da incorporare. Ogni volta che si incorpora una parte di contenuto di Power BI è quindi necessario creare un nuovo token di incorporamento specifico. Per altre informazioni, incluso il valore **accessLevel** da usare, vedere [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Token di incorporamento).
 
 > [!IMPORTANT]
 > Dato che i token di incorporamento sono destinati solo alle attività di sviluppo e test, un account master Power BI può generare un numero di token di incorporamento limitato. È necessario [acquistare una capacità](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) per gli scenari di incorporamento della produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento.

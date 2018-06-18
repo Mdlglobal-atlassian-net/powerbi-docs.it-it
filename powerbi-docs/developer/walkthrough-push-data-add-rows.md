@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287533"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812538"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passaggio 5: Aggiungere righe a una tabella di Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
-Nel **passaggio 4** [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di dati è stata usata l'operazione [Get Datasets](https://msdn.microsoft.com/library/mt203567.aspx) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx) per aggiungere righe a un set di dati di **Power BI**. 
+Nel **passaggio 4** [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di dati è stata usata l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) per aggiungere righe a un set di dati di **PowerBI**. 
 
-Quando si chiama l'operazione [Add Rows](https://msdn.microsoft.com/library/mt203561.aspx), vengono aggiunte righe a un set di dati.
+Quando si chiama l'operazione [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), vengono aggiunte righe a un set di dati.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ Di seguito è riportato il [listato di codice completo](#code).
     }
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Aggiungi righe](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Eseguire il push dei dati in un dashboard di Power BI](walkthrough-push-data.md)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
-[Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

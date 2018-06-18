@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290270"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812952"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrare un dashboard in un'app per l'organizzazione
 Informazioni su come integrare o incorporare un dashboard in un'app Web con chiamate all'API REST insieme all'API JavaScript di Power BI durante l'incorporamento per l'organizzazione.
@@ -28,7 +28,7 @@ Per eseguire questa procedura dettagliata, è necessario un account **Power BI**
 > 
 > 
 
-Per integrare un dashboard in un'app Web, usare l'API REST di **Power BI** o Power BI C# SDK e un **token di accesso** di un'autorizzazione di Azure Active Directory (AD) per ottenere un dashboard. Caricare quindi il dashboard usando lo stesso token di accesso. L'API **Power BI** fornisce l'accesso a livello di codice a determinate risorse di **Power BI**. Per altre informazioni, vedere [Panoramica dell'API REST di Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (API JavaScript di Power BI).
+Per integrare un dashboard in un'app Web, usare l'API REST di **Power BI** o Power BI C# SDK e un **token di accesso** di un'autorizzazione di Azure Active Directory (AD) per ottenere un dashboard. Caricare quindi il dashboard usando lo stesso token di accesso. L'API **Power BI** fornisce l'accesso a livello di codice a determinate risorse di **Power BI**. Per altre informazioni, vedere [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) (API REST di Power BI) e [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) (API JavaScript di Power BI).
 
 ## <a name="download-the-sample"></a>Scaricare l'esempio
 Questo articolo illustra il codice usato in [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) su GitHub. Per proseguire con questa procedura dettagliata, è possibile scaricare l'esempio.
@@ -44,12 +44,12 @@ Se è stato scaricato l'[esempio di integrazione di un dashboard](https://github
 Nell'applicazione è prima di tutto necessario ottenere un **token di accesso** da Azure AD prima di effettuare chiamate all'API REST di Power BI. Per altre informazioni, vedere [Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'app Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-dashboard"></a>Passaggio 3: Ottenere un dashboard
-Per ottenere un dashboard di **Power BI**, usare l'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) che recupera un elenco di report di dashboard di **Power BI**. Dall'elenco dei dashboard è possibile ottenere un ID dashboard.
+Per ottenere un dashboard di **Power BI**, usare l'operazione [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) che recupera un elenco di report di dashboard di **Power BI**. Dall'elenco dei dashboard è possibile ottenere un ID dashboard.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Ottenere dashboard con un token di accesso
-Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). L'operazione [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) restituisce un elenco di dashboard. Dall'elenco dei dashboard è possibile ottenere un singolo dashboard. Di seguito è riportato un metodo C# completo per ottenere un dashboard. 
+Con il **token di accesso** recuperato al [Passaggio 2](#step-2-get-an-access-token-from-azure-ad) è possibile chiamare l'operazione [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). L'operazione [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) restituisce un elenco di dashboard. Dall'elenco dei dashboard è possibile ottenere un singolo dashboard. Di seguito è riportato un metodo C# completo per ottenere un dashboard. 
 
 Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Utilizzo dei gruppi (aree di lavoro dell'app)
-Per incorporare un dashboard da un gruppo (area di lavoro dell'app), è consigliabile ottenere l'elenco di tutti i dashboard disponibili in un gruppo tramite la chiamata seguente all'API REST. Per altre informazioni su questa chiamata all'API REST, vedere [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Ottenere dashboard). Per consentire alla richiesta di restituire risultati, sarà necessaria l'autorizzazione per il gruppo.
+Per incorporare un dashboard da un gruppo (area di lavoro dell'app), è consigliabile ottenere l'elenco di tutti i dashboard disponibili in un gruppo tramite la chiamata seguente all'API REST. Per altre informazioni su questa chiamata all'API REST, vedere [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Ottenere dashboard). Per consentire alla richiesta di restituire risultati, sarà necessaria l'autorizzazione per il gruppo.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

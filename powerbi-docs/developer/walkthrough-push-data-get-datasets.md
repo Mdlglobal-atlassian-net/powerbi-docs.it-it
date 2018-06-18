@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287625"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813239"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Passaggio 4: Ottenere un set di dati per aggiungere righe in una tabella di Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
-Nel **passaggio 3** [Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md) della procedura dettagliata per il push dei dati in un set di dati è stata chiamata l'operazione [Create Dataset](https://msdn.microsoft.com/library/mt203562.aspx) per creare un set di dati in Power BI. In questo passaggio si usa l'operazione [Get Datasets](https://msdn.microsoft.com/library/mt203567.aspx) e Newtonsoft.Json per ottenere un ID set di dati. Per aggiungere righe a un set di dati viene usato l'ID set di dati ottenuto nel passaggio 4. 
+Nel **passaggio 3** [Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md) della procedura dettagliata per il push dei dati in un set di dati è stata chiamata l'operazione [Create Dataset](https://docs.microsoft.com/rest/api/power-bi/datasets) per creare un set di dati in Power BI. In questo passaggio si usa l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/getdatasets) e Newtonsoft.Json per ottenere un ID set di dati. Per aggiungere righe a un set di dati viene usato l'ID set di dati ottenuto nel passaggio 4. 
 
-Per eseguire il push dei dati in un set di dati di Power BI, è necessario fare riferimento alla tabella nel set di dati. Per fare riferimento a una tabella in un set di dati, occorre prima di tutto ottenere un **ID set di dati**. Per ottenere un **ID set di dati** viene usata l'operazione [Get Dataset](https://msdn.microsoft.com/library/mt203567.aspx). L'operazione **Get Dataset** restituisce una stringa JSON contenente un elenco di tutti i set di dati in Power BI. Per deserializzare una stringa JSON è consigliabile usare [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Per eseguire il push dei dati in un set di dati di Power BI, è necessario fare riferimento alla tabella nel set di dati. Per fare riferimento a una tabella in un set di dati, occorre prima di tutto ottenere un **ID set di dati**. Per ottenere un **ID set di dati** viene usata l'operazione [Get Dataset By ID](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) (Ottenere un set di dati in base all'ID). L'operazione **Get Dataset By ID** (Ottenere un set di dati in base all'ID) restituisce una stringa JSON contenente un elenco di tutti i set di dati in Power BI. Per deserializzare una stringa JSON è consigliabile usare [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
 Ecco come ottenere un set di dati.
 
@@ -267,10 +267,10 @@ Di seguito è riportato il [listato di codice completo](#code).
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiungere righe a una tabella di Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Recupera set di dati](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Recupera set di dati](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Push dei dati in Power BI](walkthrough-push-data.md)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
-[Riferimento all'API REST di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

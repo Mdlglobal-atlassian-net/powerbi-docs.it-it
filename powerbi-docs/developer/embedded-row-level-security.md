@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301735"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 La sicurezza a livello di riga può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Più utenti diversi possono usare gli stessi elementi visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.
@@ -75,9 +76,9 @@ Applicando il filtro, come in questa procedura, vengono filtrati tutti i record 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Applicazione di utente e ruolo a un token di incorporamento
 A questo punto, dopo aver configurato i ruoli di Power BI Desktop, per usare i ruoli è necessario eseguire alcune operazioni nell'applicazione.
 
-Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di incorporamento vengono usati per concedere l'accesso utente a un report specifico di Power BI Embedded. Power BI Embedded non ha informazioni specifiche sull'identità dell'utente. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare altre informazioni del contesto come parte del token di incorporamento sotto forma di identità. Per questa operazione, si userà l'API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di incorporamento vengono usati per concedere l'accesso utente a un report specifico di Power BI Embedded. Power BI Embedded non ha informazioni specifiche sull'identità dell'utente. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare altre informazioni del contesto come parte del token di incorporamento sotto forma di identità. Per questa operazione, si userà l'API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Token di incorporamento).
 
-L'API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare quanto segue come parte dell'identità.
+L'API accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare quanto segue come parte dell'identità.
 
 * **username (obbligatoria)**: questa stringa può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente.
 * **roles (obbligatoria)**: stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, sarà necessario passarli come matrice di stringhe.
@@ -177,7 +178,7 @@ Se si chiama l'API REST, è possibile aggiungere i dati personalizzati in ogni i
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
 * Il servizio Power BI non applicherà l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
 * Sono supportate le connessioni dinamiche ad Analysis Services per i server locali.
-* Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo ma non i filtri dinamici in base al nome utente.
+* Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo ma non i filtri dinamici in base al nome utente. È possibile applicare filtri dinamici usando CustomData.
 * Se il set di dati sottostante non richiede la sicurezza a livello di riga, la richiesta GenerateToken **non** deve contenere un'identità effettiva.
 * Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, non verrà eseguita l'assegnazione di ruolo.
 * Un elenco di identità consente più token di identità per l'incorporamento del dashboard. Per tutti gli altri elementi l'elenco contiene una singola identità.

@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301781"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
 Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo. office
@@ -25,9 +26,9 @@ Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo i
 Informazioni su AppSource In breve, è il posto in cui è possibile trovare app SaaS e componenti aggiuntivi per i prodotti e i servizi Microsoft. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) connette milioni di utenti di Office 365, Dynamics 365, Cortana Intelligence e altro ancora a soluzioni che li aiutano a lavorare in modo più efficiente, più intelligente o migliore rispetto a prima.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparazione per l'invio dell'oggetto visivo personalizzato
-Dopo aver terminato le operazioni di codifica e test dell'oggetto visivo personalizzato e averlo inserito in un pacchetto PBIVIZ, è necessario che quanto segue sia pronto per l'invio.
+Dopo aver terminato le operazioni di codifica e test dell'oggetto visivo personalizzato e averlo inserito in un pacchetto PBIVIZ, è anche necessario che quanto segue sia pronto per l'invio.
 
-| Elemento | Obbligatorio | Descrizione |
+| Articolo | Obbligatorio | Descrizione |
 | --- | --- | --- |
 | Pacchetto PBIVIZ contenente tutti i metadati richiesti |Sì |Nome oggetto visivo<br>Nome visualizzato<br>GUID<br>Versione<br>Descrizione<br>Nome e indirizzo di posta elettronica dell'autore |
 | File di report PBIX di esempio |Sì |Per presentare l'oggetto visivo, aiutare gli utenti ad acquisire familiarità con lo stesso. Sottolineare il valore che l'oggetto visivo conferisce all'utente e fornire esempi di utilizzo, opzioni di formattazione, ecc. È anche possibile aggiungere una pagina *"suggerimenti"* alla fine con alcuni suggerimenti e trucchi, cose da evitare e simili.<br>Il file di report di esempio con estensione pbix deve funzionare offline, senza alcuna connessione esterna |

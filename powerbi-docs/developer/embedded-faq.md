@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: bcdb20d22790b74b54caca5d21325039d6e718bf
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34754933"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812745"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -51,7 +51,7 @@ In alcuni casi, un ISV (in genere di grandi dimensioni) avrà la necessità di u
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Quanti token di incorporamento è possibile creare?
 
-I token di incorporamento con licenza Pro sono destinati al test dello sviluppo, pertanto il numero di token di incorporamento che un account master Power BI può generare è limitato. È necessario [acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento. Passare a [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Ottenere le funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
+I token di incorporamento con licenza Pro sono destinati al test dello sviluppo, pertanto il numero di token di incorporamento che un account master Power BI può generare è limitato. È necessario [acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto della capacità è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
 
 ## <a name="technical"></a>Informazioni tecniche
 

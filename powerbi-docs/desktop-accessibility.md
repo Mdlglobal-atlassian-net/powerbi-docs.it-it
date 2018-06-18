@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bd0565420382fc22af67b1363b41f6d8ed6e92ab
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6147f41ea99ad4a0416f6aa9c01288102f792771
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290753"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812929"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 **Power BI Desktop** dispone di funzionalità che consentono agli utenti con particolari esigenze di usare e interagire più facilmente con i report di **Power BI Desktop**. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -66,6 +66,23 @@ I suggerimenti seguenti consentono di creare report di **Power BI Desktop** più
 * Assicurarsi che il contrasto tra testo e colori di sfondo nei report sia sufficiente.
 * Usare dimensioni di testo e tipi di carattere facilmente leggibili. Testo di piccole dimensioni o tipi di carattere difficili da leggere non favoriscono l'accessibilità.
 * Includere il titolo, le etichette degli assi e le etichette dei dati in tutti gli oggetti visivi.
+
+## <a name="high-contrast-support-for-reports"></a>Supporto del contrasto elevato per i report
+
+Quando si usano le modalità a contrasto elevato in Windows, queste impostazioni e la tavolozza selezionate vengono applicate anche ai report in **Power BI Desktop**. 
+
+![Impostazioni contrasto elevato di Windows](media/desktop-accessibility/accessibility_05.png)
+
+**Power BI Desktop** rileva automaticamente il tema a contrasto elevato usato in Windows e applica queste impostazioni ai report. Questi colori a contrasto elevato verranno usati anche nel report pubblicato nel servizio Power BI o altrove.
+
+![Impostazioni contrasto elevato di Windows](media/desktop-accessibility/accessibility_05b.png)
+
+Anche il servizio Power BI tenta di rilevare le impostazioni di contrasto elevato selezionate per Windows, ma l'efficacia e l'accuratezza di questo tipo di rilevamento dipende dal browser in uso per il servizio Power BI. Per impostare il tema manualmente nel servizio Power BI, è possibile selezionare **Visualizza > A colori a contrasto elevato** e quindi selezionare il tema da applicare al report.
+
+![Impostazione del contrasto elevato nel servizio Power BI](media/desktop-accessibility/accessibility_06.png)
+
+In **Power BI Desktop** notare che alcune aree, ad esempio i campi **Visualizzazioni** e **Campi**, non riflettono la selezione delle combinazioni di colori di Windows a contrasto elevato.
+
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Sono state rilevate problematiche e limitazioni note relative alle funzionalità di accessibilità, descritte nell'elenco seguente:

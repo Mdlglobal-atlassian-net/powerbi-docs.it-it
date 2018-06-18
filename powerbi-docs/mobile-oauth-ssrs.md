@@ -1,26 +1,27 @@
 ---
-title: Uso di OAuth per connettersi a Reporting Services
-description: Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con le app Power BI per dispositivi mobili per connettersi a Reporting Services 2016 o versioni successive.
+title: Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
+description: Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con l'app Power BI per dispositivi mobili e connettersi a SQL Server Reporting Services 2016 o versioni successive.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 4c9b2f5233ab984e57bf48978284441850c0c48f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852211"
 ---
-# <a name="using-oauth-to-connect-to-reporting-services"></a>Uso di OAuth per connettersi a Reporting Services
-Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con le app Power BI per dispositivi mobili per connettersi a Reporting Services 2016 o versioni successive.
+# <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
+Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con l'app Power BI per dispositivi mobili e connettersi a Server di report di Microsoft Power BI e a SQL Server Reporting Services 2016 o versioni successive.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-In passato, l'app Power BI per dispositivi mobili supportava solo l'autenticazione di base, via HTTPS, a Reporting Services per visualizzare report per dispositivi mobili o indicatori KPI. Molte organizzazioni non consentono questo tipo di configurazione a causa di problemi di sicurezza. Con un aggiornamento dell'app Power BI per dispositivi mobili, è ora possibile usare OAuth per connettersi a Reporting Services. Windows Server 2016 offre alcuni miglioramenti per il ruolo di Proxy applicazione Web per consentire questo tipo di autenticazione.
+È possibile usare OAuth per connettersi al Server di report di Power BI e a Reporting Services e visualizzare report per dispositivi mobili o indicatori KPI. Per consentire questo tipo di autenticazione, Windows Server 2016 offre alcuni miglioramenti per il ruolo di Proxy applicazione Web. Si noti che questa configurazione non supporta la visualizzazione di report di Power BI nelle app Power BI per dispositivi mobili. È tuttavia possibile visualizzarli in un browser in un dispositivo mobile. Per visualizzare i report di Power BI nell'app per dispositivi mobili, è necessario usare l'autenticazione di Windows.
 
 ## <a name="requirements"></a>Requisiti
 Windows Server 2016 è necessario per i server Proxy applicazione Web (WAP) e Active Directory Federation Services (ADFS). Non è necessario avere un dominio di livello funzionale di Windows 2016.
@@ -202,7 +203,8 @@ Dopo aver selezionato **Accedi**, verranno visualizzati gli elementi dal server 
 È possibile abilitare Multi-Factor Authentication per applicare una protezione aggiuntiva per l'ambiente. Per altre informazioni, vedere [Configurare AD FS 2016 e Azure MFA](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa).
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
-**Viene visualizzato l'errore Non è stato possibile connettersi al server SSRS. Verificare la configurazione server.**
+
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Viene visualizzato l'errore Non è stato possibile connettersi al server SSRS. Verificare la configurazione server.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

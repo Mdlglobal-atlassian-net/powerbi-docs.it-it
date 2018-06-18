@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813665"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Creare e gestire le relazioni in Power BI Desktop
 Quando si importano più tabelle, è probabile che verranno eseguite analisi con i dati inclusi nelle tabelle. Le relazioni tra le tabelle sono necessarie per calcolare con precisione i risultati e visualizzare le informazioni corrette nei report. Power BI Desktop semplifica la creazione di queste relazioni. Nella maggior parte dei casi, in effetti, tutte le operazioni verranno eseguite automaticamente dalla funzionalità Rilevamento automatico. In alcuni casi, tuttavia, potrebbe essere necessario creare manualmente le relazioni oppure apportare alcune modifiche a una relazione. È quindi importante comprendere le relazioni in Power BI Desktop e capire come crearle e modificarle.
@@ -35,6 +36,16 @@ Nella scheda **Home** fare clic su **Gestisci relazioni**\>**Rilevamento automat
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Per impostazione predefinita, Power BI Desktop configurerà automaticamente le proprietà Cardinalità (direzione), Direzione filtro incrociato e Attiva per la nuova relazione. È tuttavia possibile modificare tali proprietà, se necessario. Per altre informazioni, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
+
+Si noti che se nessuna delle tabelle selezionate per la relazione ha valori univoci, viene visualizzato un valore indicante che *una delle colonne deve contenere valori univoci*. Almeno una tabella in una relazione *deve* avere un elenco distinto e unico di valori chiave. Questo è un requisito comune per tutte le tecnologie di database relazionali. 
+
+Se viene visualizzato questo errore, è possibile risolvere il problema in due modi:
+
+* Usare "Remove Duplicate Rows" (Rimuovi righe duplicate) per creare una colonna con valori univoci. Lo svantaggio di questo approccio è la perdita di informazioni con l'eliminazione delle righe duplicate: in molti casi una chiave (riga) è duplicata per un motivo valido.
+* Aggiungere al modello una tabella intermedia con l'elenco di valori di chiave univoci, che verrà quindi collegato a entrambe le colonne originali nella relazione.
+
+Per informazioni più complete, vedere il [post di blog](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) che illustra in dettaglio questo argomento.
+
 
 ## <a name="edit-a-relationship"></a>Modificare una relazione
 1. Nella scheda **Home** fare clic su **Gestisci relazioni**.
