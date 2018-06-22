@@ -23,7 +23,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |
 | iPhone |Telefoni Android |Tablet Android |
 
-I codici a matrice in Power BI possono connettere qualsiasi elemento nel mondo reale direttamente a informazioni correlate di BI & #151 senza dover effettuare nessuno spostamento o ricerca.
+I codici a matrice in Power BI possono connettere qualsiasi elemento nel mondo reale direttamente a informazioni correlate di BI &#151; senza dover effettuare nessuno spostamento o ricerca.
 
 Si supponga che un collega abbia [creato un codice a matrice nel servizio Power BI](service-create-qr-code-for-tile.md) per report o un riquadro in un dashboard, abbia condiviso il dashboard o il report e abbia inserito il codice a matrice in un percorso chiave, ad esempio in un messaggio di posta elettronica o in un elemento specifico. 
 
