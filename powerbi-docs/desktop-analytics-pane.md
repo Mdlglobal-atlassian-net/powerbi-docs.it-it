@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34287671"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del riquadro Analisi in Power BI Desktop
 Con il riquadro **Analisi** in **Power BI Desktop** è possibile aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. Il riquadro **Analisi** è disponibile nell'area **Visualizzazioni** di Power BI Desktop.
