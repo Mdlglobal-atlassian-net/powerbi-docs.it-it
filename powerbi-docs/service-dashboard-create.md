@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34248931"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
@@ -29,7 +29,7 @@ La creazione di un dashboard è una funzionalità per **autori** e richiede auto
 >
 > 
 
-![dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Video: Creare un dashboard aggiungendo oggetti visivi e immagini da un report
 Osserviamo Amanda creare un nuovo dashboard aggiungendo le visualizzazioni da un report. Seguire poi la procedura indicata sotto al video per provare in autonomia usando l'esempio dell'analisi di approvvigionamento.
@@ -102,7 +102,7 @@ Invece di aggiungere un singolo oggetto visivo alla volta, è possibile [aggiung
 
 4. Quando viene visualizzato il messaggio di operazione riuscita, selezionare **Vai al dashboard**. Verranno visualizzati i riquadri aggiunti dal report. Nell'esempio seguente vengono aggiunti 2 riquadri dalla pagina 1 del report e un riquadro animato corrispondente alla pagina 2 del report.
 
-   ![dashboard](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
 
 Congratulazioni per aver creato il primo dashboard. Ora che si dispone di un dashboard, ci sono molte altre cose che si possono fare con esso.  Provare uno dei **Passaggi successivi** suggeriti di seguito oppure usare ed esplorare per proprio conto.   
 
