@@ -10,10 +10,10 @@ ms.reviewer: susuresh
 author: suds001
 manager: kfile
 ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34298459"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Ottimizzazione e gestione delle risorse della capacità Power BI Premium
@@ -71,13 +71,13 @@ La memoria non è l'unica risorsa che può incidere sull'aggiornamento dei set d
 
  | SKU  | vCore back-end  | Parallelismo di aggiornamento dei modelli   |
  | --- | --- | --- |
- | A1  | 0.5  | 1  |
+ | A1  | 0,5  | 1  |
  | A2  | 1  | 2  |
  | A3  | 2  | 3  |
  | A4  | 4  | 6  |
  | A5  | 8  | 12  |
  | A6  | 16  | 24  |
- | EM1  | 0.5  | 1  |
+ | EM1  | 0,5  | 1  |
  | EM2  | 1  | 2  |
  | EM3  | 2  | 3  |
  | P1  | 4  | 6  |
