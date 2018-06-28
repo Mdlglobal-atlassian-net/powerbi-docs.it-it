@@ -3,10 +3,10 @@ title: Apprendimento guidato di Microsoft Power BI
 description: Inizia il tuo percorso di apprendimento con questa raccolta di corsi in sequenza e scopri le funzionalità complete e potenti di Microsoft Power BI.
 layout: LandingPage
 ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34310154"
 ---
 <div id="main" class="v2">
@@ -29,7 +29,7 @@ ms.locfileid: "34310154"
                                 <img src="media/logo_power-bi.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Introduzione </h3>
+Attività iniziali </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="gettingstarted.yml?tutorial-step=1">Introduzione a Power BI</a>

@@ -11,10 +11,10 @@ ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34288200"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
@@ -154,7 +154,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | ConsumedServiceId |consumedServiceId | |Sì |
 | Cost |cost |ExtendedCost |No |
 | Centro di costo |costCenter |Centro di costo |No |
-| Date |date |Date |No |
+| Data |data |Data |No |
 | Giorno | |Giorno |No |
 | DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
@@ -167,8 +167,8 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | Meter Region |meterRegion |Meter Region |No |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
-| Month | |Month |No |
-| Product |product |Product |No |
+| Mese | |Mese |No |
+| Prodotto |prodotto |Prodotto |No |
 | ProductId |productId | |Sì |
 | Resource Group |resourceGroup |Resource Group |No |
 | Resource Location |resourceLocation |Resource Location |No |

@@ -11,10 +11,10 @@ ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c16fe65d766c6a1c18d809a68b3b0f6af8047db0
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813343"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Connettersi ai modelli multidimensionali SSAS in Power BI Desktop
@@ -36,7 +36,7 @@ Nella tabella seguente viene illustrata la corrispondenza tra gli oggetti multid
 | --- | --- |
 | Cubo |Modello |
 | Dimensione cubo |Tabella |
-| Attributi dimensione (chiavi, nome) |colonne |
+| Attributi dimensione (chiavi, nome) |Colonne |
 | Gruppo di misure |Tabella |
 | Misura |Misura |
 | Misure senza gruppo di misure associato |In una tabella denominata *Misure* |
