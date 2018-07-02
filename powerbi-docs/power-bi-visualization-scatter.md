@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584117"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964769"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Grafici a dispersione e grafici a bolle in Power BI
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di valori numerici lungo un asse orizzontale e un altro set di dati numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Questi punti dati possono essere distribuiti uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati.
@@ -116,9 +116,9 @@ O se non si dispone di questo nei dati, è possibile creare un campo che concate
 Per creare un nuovo campo, [usare l'Editor di query di Power BI Desktop per aggiungere una colonna indice](desktop-add-custom-column.md) al set di dati.  Quindi aggiungere la colonna all’area **Dettagli** della visualizzazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
- [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Provalo gratuitamente](https://powerbi.com/)  
+[Iscriversi per una versione di valutazione gratuita](https://powerbi.microsoft.com/get-started/)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 338b72ef39c5b9c9fe454c1063f26602e8ce2299
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721502"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964792"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 Si desidera consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
@@ -183,7 +183,7 @@ Le altre opzioni di formattazione sono disattivate per impostazione predefinita.
 - **Bordo:** consente di aggiungere un bordo di 1 pixel intorno al filtro dei dati e ne imposta il colore. Il bordo del filtro dei dati è indipendente dall'impostazione Bordo nelle impostazioni generali e non ne viene influenzato. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Provalo gratuitamente](https://powerbi.com/)
+[Iscriversi per una versione di valutazione gratuita](https://powerbi.microsoft.com/get-started/)
 
 Idee su come migliorare Power BI? [Inviare un'idea](https://ideas.powerbi.com/forums/265200-power-bi-ideas).
 
