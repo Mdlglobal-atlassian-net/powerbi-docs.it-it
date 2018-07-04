@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34584071"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599595"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
 Prima di poter aggiungere un riquadro dalla cartella di lavoro di Excel, è necessario connettere la cartella di lavoro al servizio Power BI (app.powerbi.com). La connessione di una cartella di lavoro importa essenzialmente una versione di sola lettura collegata della cartella di lavoro nel servizio Power BI e consente di aggiungere gli intervalli ai dashboard. È anche possibile aggiungere un intero foglio di lavoro a un dashboard.  
@@ -60,7 +60,7 @@ Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è
    * Dashboard esistente: selezionare il nome del dashboard nell'elenco a discesa.
    * Nuovo dashboard: digitare il nome del nuovo dashboard.
    
-    ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![Finestra di dialogo Aggiungi al dashboard](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Selezionare **Aggiungi**. Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stato aggiunto l'intervallo, come riquadro, al dashboard. 
    
     ![Finestra di dialogo Aggiunto al dashboard](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
