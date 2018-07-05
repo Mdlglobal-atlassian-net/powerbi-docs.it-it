@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 817e01f83904a8481fa1d0915f671c6761247795
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 957408729812ab348cc171360416ee01b432d2e0
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287671"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136595"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del riquadro Analisi in Power BI Desktop
 Con il riquadro **Analisi** in **Power BI Desktop** è possibile aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. Il riquadro **Analisi** è disponibile nell'area **Visualizzazioni** di Power BI Desktop.
@@ -114,7 +114,7 @@ Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capac
 
 * [Novità di Power BI Desktop](desktop-latest-update.md)
 * [Scarica Power BI Desktop](desktop-get-the-desktop.md)
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Tipi di dati in Power BI Desktop](desktop-data-types.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)

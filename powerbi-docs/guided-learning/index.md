@@ -2,12 +2,12 @@
 title: Apprendimento guidato di Microsoft Power BI
 description: Inizia il tuo percorso di apprendimento con questa raccolta di corsi in sequenza e scopri le funzionalità complete e potenti di Microsoft Power BI.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310154"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600677"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -272,7 +272,7 @@ Esplorazione dei dati </h3>
                                 <span style="margin-left: 32px; align-self: center;">9 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Creare suggerimenti di Domande e risposte personalizzati</a>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Creare suggerimenti di Domande &amp; risposte personalizzati</a>
                                 <span style="margin-left: 32px; align-self: center;">4 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
