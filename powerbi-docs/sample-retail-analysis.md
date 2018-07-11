@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 3382562459c461d9864cfce7163fb0d049deb494
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481809"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944538"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi delle vendite al dettaglio
 
@@ -25,7 +25,7 @@ Questo dashboard di esempio del settore, unitamente al report sottostante, conse
 
 ## <a name="prerequisites"></a>Prerequisiti
 
- Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di contenuto](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [file con estensione pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail-Analysis-Sample-PBIX.pbix) o [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
+ Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di contenuto](https://docs.microsoft.com/power-bi/sample-datasets#get-and-open-a-sample-content-pack-in-power-bi-service), [file con estensione pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) o [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529778).
 
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
@@ -39,11 +39,11 @@ Questo dashboard di esempio del settore, unitamente al report sottostante, conse
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selezionare l'**esempio di analisi delle vendite al dettaglio** e scegliere **Connetti**.  
   
-   ![Esempio di analisi delle vendite al dettaglio](media/sample-retail-analysis/retail16.png)
+   ![Esempio di analisi vendite al dettaglio](media/sample-retail-analysis/retail16.png)
    
 5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. 
    
-   ![Esempio di analisi delle vendite al dettaglio](media/sample-retail-analysis/retail17.png)
+   ![Esempio di analisi vendite al dettaglio](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 

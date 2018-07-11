@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 019aa1425d05fcfdc4415570acdc29e7a684dc25
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290960"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600752"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile creare un oggetto visivo **forme mappa** per mostrare i confronti relativi delle aree su una mappa applicando colori diversi alle varie aree. Contrariamente all'oggetto visivo **mappa**, l'oggetto visivo **forme mappa** non può visualizzare le ubicazioni geografiche precise dei punti dati di una mappa; il suo scopo principale è invece quello di mostrare i confronti relativi su una mappa applicando a essi colori diversi.
@@ -40,23 +40,23 @@ Power BI Desktop crea un'area di disegno vuota dell'oggetto visivo **forme mappa
 Per creare **forme mappa**, seguire la procedura illustrata di seguito:
 
 1. Nel riquadro **Campi** trascinare un campo dati contenente i nomi delle aree (o le abbreviazioni) nel bucket **Percorso** e un campo di misura di dati nel bucket **Saturazione colore** (la mappa non viene ancora visualizzata).
-   
+
    > [!NOTE]
-> Vedere la sezione intitolata **Recupero di dati delle mappe** riportata di seguito per informazioni su come ottenere rapidamente i dati delle mappa per testare le **forme mappa**.
+   > Vedere la sezione intitolata **Recupero di dati delle mappe** riportata di seguito per informazioni su come ottenere rapidamente i dati delle mappa per testare le **forme mappa**.
    > 
    > 
-   
+
    ![](media/desktop-shape-map/shape-map_3a.png)
 2. Nel riquadro Impostazioni **Formato** espandere **Forma** ed effettuare una selezione dall'elenco a discesa **Mappe standard** per visualizzare i dati. A questo punto viene visualizzato il rendering, come illustrato nell'immagine seguente.
-   
+
    ![](media/desktop-shape-map/shape-map_3b.png)
-   
+
    > [!NOTE]
-> La sezione **Chiavi aree** riportata alla fine di questo articolo fornisce una raccolta di tabelle con chiavi di aree mappa che è possibile usare per testare l'oggetto visivo **forme mappa**.
+   > La sezione **Chiavi aree** riportata alla fine di questo articolo fornisce una raccolta di tabelle con chiavi di aree mappa che è possibile usare per testare l'oggetto visivo **forme mappa**.
    > 
    > 
 3. È quindi possibile modificare le impostazioni relative alla proiezione delle mappe, nonché i colori dei punti dati, dal riquadro Impostazioni **Formato**. È anche possibile modificare le impostazioni di ingrandimento. Ad esempio, è possibile modificare i colori, impostare i valori minimo e massimo e così via.
-   
+
    ![](media/desktop-shape-map/shape-map_3d.png)
 4. È anche possibile aggiungere una colonna di dati di categoria per il bucket **Legenda** e classificare le aree delle mappe in base alle categorie.
 
@@ -114,6 +114,7 @@ Per questa versione di anteprima di **forme mappa** è necessario tenere conto d
 Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **forme mappa**.
 
 ### <a name="australia-states"></a>Australia: Stati
+
 | id | abbr | iso | nome | postale |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia occidentale |WA |
@@ -126,6 +127,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | au-act |ACT |AU-ACT |Territorio della Capitale Australiana |ACT |
 
 ### <a name="austria-states"></a>Austria: stati
+
 | id | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
@@ -139,6 +141,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
 ### <a name="brazil-states"></a>Brasile: stati
+
 | id |
 | --- |
 | Tocantins |
@@ -174,6 +177,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Zona contesa 4 |
 
 ### <a name="canada-provinces"></a>Canada: province
+
 | id | iso | nome | postale |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
@@ -191,6 +195,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | ca-ab |CA-AB |Alberta |AB |
 
 ### <a name="france-regions"></a>Francia: regioni
+
 | id | nome | nome-it |
 | --- | --- | --- |
 | Alsace |Alsace |Alsazia |
@@ -217,6 +222,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Aquitaine |Aquitaine |Aquitania |
 
 ### <a name="germany-states"></a>Germania: stati
+
 | id | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlino |BE |
@@ -237,6 +243,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
 ### <a name="ireland-counties"></a>Irlanda: contee
+
 | id |
 | --- |
 | Wicklow |
@@ -267,6 +274,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Carlow |
 
 ### <a name="italy-regions"></a>Italia: regioni
+
 | id | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
@@ -291,6 +299,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
 ### <a name="mexico-states"></a>Messico: stati
+
 | id | abbreviazione | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
@@ -327,6 +336,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
 ### <a name="netherlands-provinces"></a>Paesi Bassi: province
+
 | id | iso | nome | nome-it |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
@@ -343,6 +353,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
 ### <a name="uk-countries"></a>Regno Uniti: paesi
+
 | id | iso | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galles |
@@ -351,6 +362,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | gb-eng |GB-ENG |Inghilterra |
 
 ### <a name="usa-states"></a>Stati Uniti: stati
+
 | id | nome | postale |
 | --- | --- | --- |
 | us-mi |Michigan |MI |

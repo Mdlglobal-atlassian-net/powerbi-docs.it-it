@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309924"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599870"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
@@ -313,7 +313,7 @@ Il servizio **Power BI** mostra la prima pagina del report. Nella parte inferior
 
 È possibile apportare modifiche a un report nel servizio **Power BI** selezionando **Modifica report** nella parte superiore dell'area di disegno del report.
 
-Per salvare il report, selezionare **File \> Salva con nome** dal servizio. È possibile creare molti elementi visivi interessanti nel servizio **Power BI** dal report e quindi aggiungerli a un *dashboard*. Per informazioni sui dashboard nel servizio **Power BI****[, vedere Suggerimenti per la progettazione di un dashboard ottimale](service-dashboards-design-tips.md)**.
+Per salvare il report, selezionare **File \> Salva con nome** dal servizio. È possibile creare molti elementi visivi interessanti nel servizio **Power BI** dal report e quindi aggiungerli a un *dashboard*. Per informazioni sui dashboard nel servizio **Power BI**<strong>[, vedere Suggerimenti per la progettazione di un dashboard ottimale](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

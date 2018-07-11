@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b4e45d2ce20e42b4289ffcaaf7c487e4ae746ca0
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 7feb562c5d2d96c4d726b93393a0b4a26c658415
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301758"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134755"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Connettersi a un database Impala in Power BI Desktop
 In Power BI Desktop è possibile connettersi a un database **Impala** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -50,7 +50,7 @@ Esistono alcune limitazioni e considerazioni da tenere presenti con il connettor
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connettersi a cartelle di lavoro di Excel in Power BI Desktop](desktop-connect-excel.md)   

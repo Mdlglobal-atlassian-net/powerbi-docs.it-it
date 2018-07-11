@@ -1,27 +1,27 @@
 ---
 title: Esperienze dei pacchetti di contenuto modello in Power BI
 description: Esperienze dei pacchetti di contenuto modello
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
-ms.author: maghan
-ms.openlocfilehash: 1a29767eb76122865e93927bbbec1fbdcebe5678
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.author: maggies
+ms.openlocfilehash: 08ef57499c53c084b3b738e8f847d4b7742aae70
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290776"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290578"
 ---
 # <a name="template-content-pack-experiences-in-power-bi"></a>Esperienze dei pacchetti di contenuto modello in Power BI
 Questa sezione descrive l'esperienza tipica di un utente che effettua la connessione a un [pacchetto di contenuto](../service-connect-to-services.md) ISV. 
 
 Provare l'esperienza di connessione effettuando la connessione a un pacchetto di contenuto rilasciato in https://app.powerbi.com/getdata/services (ad esempio il [pacchetto di contenuto GitHub](https://app.powerbi.com/getdata/services/github) descritto di seguito).
 
-## <a name="connect"></a>Connect
+## <a name="connect"></a>Connetti
 Per iniziare, l'utente cerca il pacchetto di contenuto a cui connettersi nella raccolta di pacchetti di contenuto. La voce del pacchetto di contenuto fornisce un nome, un'icona e un testo descrittivo con maggiori informazioni per l'utente.
 
 ![connessione](media/template-content-pack-experience/github_data.png)

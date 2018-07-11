@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813278"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599487"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrare un'app di Azure AD per incorporare il contenuto di Power BI
 Informazioni su come registrare un'applicazione in Azure Active Directory (Azure AD) per incorporare il contenuto di Power BI.
@@ -54,9 +54,8 @@ Di seguito è illustrato come registrare un'applicazione con lo strumento di reg
     Viene quindi fornito un **ID client** e, se si seleziona **Server-side Web app** (App Web lato server), si riceverà un **Segreto client**. Se necessario, è possibile recuperare l'**ID client** dal portale di Azure in un secondo momento. Se si perde il **Segreto client**, sarà necessario crearne uno nuovo nel portale di Azure.
 
 8. È necessario passare ad Azure per selezionare **Concedi autorizzazioni**.
-> [!Note]
-    > Per eseguire questa operazione, è necessario essere un amministratore globale nel tenant di Azure
->
+   > [!Note]
+   > Per eseguire questa operazione, è necessario essere un amministratore globale nel tenant di Azure
 
 * Passare ad Azure.
 * Cercare e selezionare **Registrazioni per l'app**.
@@ -83,8 +82,8 @@ L'altra opzione per la registrazione dell'applicazione consiste nell'eseguire l'
     ![](media/register-app/azuread-new-app-registration.png)
 5. Seguire le istruzioni e creare una nuova applicazione.
    
-   * Per le applicazioni Web specificare l'URL di accesso per gli utenti, ovvero l'URL di base dell'app, ad esempio http://localhost:13526.
-   * Per le applicazioni native, specificare un URI di reindirizzamento, che verrà usato da Azure AD per restituire le risposte del token. Immettere un valore specifico per l'applicazione, ad esempio http://myapplication/redirect
+   * Per le applicazioni Web specificare l'URL di accesso per gli utenti, ovvero l'URL di base dell'app, ad esempio `http://localhost:13526`.
+   * Per le applicazioni native, specificare un URI di reindirizzamento, che verrà usato da Azure AD per restituire le risposte del token. Immettere un valore specifico per l'applicazione, ad esempio `http://myapplication/redirect`
 
 Per altre informazioni su come registrare le applicazioni in Azure Active Directory, vedere [Integrazione di applicazioni con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ Oltre a quanto visualizzato nella pagina di registrazione dell'app è necessario
    * **AllPrincipals** può essere usato solo da un amministratore del tenant per concedere autorizzazioni per conto di tutti gli utenti nel tenant.
    * **Principal** viene usato per concedere autorizzazioni per conto di un utente specifico. In questo caso, è necessario aggiungere al corpo della richiesta una proprietà aggiuntiva: *principalId={User_ObjectId}*.
     
-    *Concedi autorizzazioni* è un'azione necessaria per evitare che Azure AD chieda il consenso all'account master, operazione che non risulta possibile quando si esegue un accesso non interattivo.
+     *Concedi autorizzazioni* è un'azione necessaria per evitare che Azure AD chieda il consenso all'account master, operazione che non risulta possibile quando si esegue un accesso non interattivo.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  Concedere le autorizzazioni app ad Azure Active Directory (AAD)
+5. Concedere le autorizzazioni app ad Azure Active Directory (AAD)
    
-    Il valore di **consentType** può essere **AllPrincipals** o **Principal**.
+   Il valore di **consentType** può essere **AllPrincipals** o **Principal**.
 
-    * **AllPrincipals** può essere usato solo da un amministratore del tenant per concedere autorizzazioni per conto di tutti gli utenti nel tenant.
-    * **Principal** viene usato per concedere autorizzazioni per conto di un utente specifico. In questo caso, è necessario aggiungere al corpo della richiesta una proprietà aggiuntiva: *principalId={User_ObjectId}*.
+   * **AllPrincipals** può essere usato solo da un amministratore del tenant per concedere autorizzazioni per conto di tutti gli utenti nel tenant.
+   * **Principal** viene usato per concedere autorizzazioni per conto di un utente specifico. In questo caso, è necessario aggiungere al corpo della richiesta una proprietà aggiuntiva: *principalId={User_ObjectId}*.
     
-    *Concedi autorizzazioni* è un'azione necessaria per evitare che Azure AD chieda il consenso all'account master, operazione che non risulta possibile quando si esegue un accesso non interattivo.
+   *Concedi autorizzazioni* è un'azione necessaria per evitare che Azure AD chieda il consenso all'account master, operazione che non risulta possibile quando si esegue un accesso non interattivo.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>Passaggi successivi
 Dopo avere registrato l'applicazione in Azure AD è necessario autenticare gli utenti all'interno dell'applicazione. Per altre informazioni, vedere [Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'app Power BI](get-azuread-access-token.md).

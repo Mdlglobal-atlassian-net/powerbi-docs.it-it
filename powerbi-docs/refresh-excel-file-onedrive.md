@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239131"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092208"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Aggiornare un set di dati creato da una cartella di lavoro di Excel in OneDrive o SharePoint Online
 È possibile importare le cartelle di lavoro di Excel archiviate nel computer locale o nella memoria cloud, ad esempio OneDrive for Business o SharePoint Online. Verranno ora esaminati i vantaggi dell'uso dell'archiviazione cloud per i file Excel. Per altre informazioni su come importare i file Excel in Power BI, vedere [Ottenere dati dai file delle cartelle di lavoro di Excel](service-excel-workbook-files.md).
@@ -45,7 +45,7 @@ Le opzioni Aggiorna ora e Pianifica aggiornamenti in Power BI sono supportate pe
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive o OneDrive for Business. Qual è la differenza?
 Se si ha un account OneDrive personale e OneDrive for Business, è consigliabile mantenere tutti i file da importare in Power BI in OneDrive for Business. Motivo: è probabile che verranno usati due account diversi per l'accesso.
 
-La connessione a OneDrive for Business in Power BI in genere non crea problemi perché l'account usato per accedere a Power BI spesso coincide con quello usato per accedere a OneDrive for Business. Invece, con l'account OneDrive personale, l'accesso viene solitamente eseguito con un altro [account Microsoft](http://www.microsoft.com/account/default.aspx).
+La connessione a OneDrive for Business in Power BI in genere non crea problemi perché l'account usato per accedere a Power BI spesso coincide con quello usato per accedere a OneDrive for Business. Invece, con l'account OneDrive personale, l'accesso viene solitamente eseguito con un altro [account Microsoft](https://account.microsoft.com).
 
 Quando si accede con l'account Microsoft, assicurarsi di selezionare Mantieni l'accesso. Power BI può quindi sincronizzare tutti gli aggiornamenti apportati nel file di Power BI Desktop con i set di dati in Power BI  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755071"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926593"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 Questo articolo illustra alcuni problemi comuni che possono verificarsi quando si usa il **gateway dati locale**.
@@ -31,10 +31,10 @@ Questo articolo illustra alcuni problemi comuni che possono verificarsi quando s
 Il gateway viene eseguito come servizio di Windows, quindi è possibile avviarlo e arrestarlo in diversi modi. Ad esempio, è possibile aprire un prompt dei comandi con autorizzazioni elevate nel computer in cui il gateway è in esecuzione e quindi eseguire uno di questi comandi:
 
 * Per arrestare il servizio, eseguire questo comando:
-  
+
     '''   net stop PBIEgwService   '''
 * Per avviare il servizio, eseguire questo comando:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Errore: Non è stato possibile creare il gateway. Riprovare.
@@ -70,7 +70,7 @@ Per correggere questo errore, seguire questa procedura.
 
 1. Disinstallare il gateway.
 2. Eliminare la cartella seguente.
-   
+
         c:\Program Files\On-premises data gateway
 3. Reinstallare il gateway.
 4. Applicare facoltativamente la chiave di ripristino per ripristinare un gateway esistente.
@@ -129,11 +129,11 @@ Per confermare, seguire questa procedura.
 
 1. Connettersi al computer di Analysis Services in SQL Server Management Studio. All'interno delle proprietà avanzate di connessione includere il valore EffectiveUserName per l'utente specifico e verificare se l'errore viene riprodotto.
 2. È possibile usare lo strumento dsacls di Active Directory per verificare che l'attributo sia incluso nell'elenco. Questo strumento è in genere disponibile in un controller di dominio. Sarà necessario conoscere il nome di dominio distinto per l'account e passarlo allo strumento.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     I risultati dovrebbero avere un aspetto simile al seguente.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Per risolvere il problema, seguire questa procedura.
 
 1. Trovare il nome utente effettivo entro i [log del gateway](#logs).
 2. Dopo avere passato il valore, verificarne la correttezza. Se corrisponde all'utente, è possibile usare il comando seguente da un prompt dei comandi per verificare il valore previsto per il nome dell'entità utente. Il nome dell'entità utente avrà un aspetto simile a un indirizzo di posta elettronica.
-   
+
         whoami /upn
 
 È facoltativamente possibile verificare i dati che Power BI riceve da Azure Active Directory.
 
-1. Passare a [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Passare a [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. Selezionare **Sign in** (Accedi) in alto a destra.
 3. Eseguire la query seguente. Verrà visualizzata una risposta JSON di dimensioni abbastanza elevate.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Cercare **userPrincipalName**.
 
@@ -206,7 +206,7 @@ Per trovare l'area del data center in cui ci si trova, seguire questa procedura:
 1. Selezionare **?** in alto a destra nel servizio Power BI.
 2. Selezionare **Informazioni su Power BI**.
 3. L'area del data center in cui ci si trova verrà elencata in **I dati sono archiviati in**.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Se non si ottengono comunque le informazioni necessarie, è possibile provare a ottenere una traccia di rete usando uno strumento come [fiddler](#fiddler) o netsh, anche se questi sono metodi di raccolta avanzati e potrebbe essere necessaria assistenza nell'analisi dei dati raccolti. Per ottenere assistenza, è possibile contattare il [supporto tecnico](https://support.microsoft.com).
@@ -329,6 +329,7 @@ Nel file *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config* cambia
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Tipi di attività
+
 | Tipo di attività | Descrizione |
 | --- | --- |
 | MGEQ |Query eseguite su ADO.NET. Sono incluse le origini dati DirectQuery. |
@@ -342,9 +343,9 @@ Per determinare il tempo impiegato per eseguire una query sull'origine dati, è 
 2. Cercare un [tipo di attività](#activities) per trovare la query. Un esempio sarebbe MGEQ.
 3. Prendere nota del secondo GUID perché è l'ID della richiesta.
 4. Continuare a cercare MGEQ finché si trova la voce FireActivityCompletedSuccessfullyEvent con la durata. È possibile verificare che la voce abbia lo stesso ID richiesta. La durata sarà espressa in millisecondi.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent è una voce dettagliata. Questa voce non verrà registrata a meno che TraceVerbosity sia al livello 5.
    > 
@@ -423,12 +424,12 @@ Il messaggio di errore di connessione non riuscita -10709 verrà visualizzato se
 Quando si usa il gateway per l'aggiornamento pianificato, **Cronologia aggiornamenti** consente di visualizzare gli errori che si sono verificati, nonché di fornire dati utili nel caso in cui sia necessario creare una richiesta di supporto. È possibile visualizzare sia gli aggiornamenti pianificati che quelli su richiesta. Per accedere alla **Cronologia aggiornamenti**, eseguire le operazioni seguenti.
 
 1. In **Set di dati** nel riquadro di spostamento di Power BI selezionare un set di dati &gt; Apri menu &gt;**Pianifica aggiornamento**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. In **Impostazioni per...** &gt; **Pianifica aggiornamento** selezionare **Cronologia aggiornamenti**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Per altre informazioni sulla risoluzione degli scenari per la risoluzione dei problemi di aggiornamento, vedere l'articolo [Scenari per la risoluzione dei problemi di aggiornamento](refresh-troubleshooting-refresh-scenarios.md).

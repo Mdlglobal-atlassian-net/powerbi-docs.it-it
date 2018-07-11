@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296300"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600380"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati
 Gli oggetti visivi personalizzati consentono di soddisfare le esigenze degli utenti e rispettare la progettazione dell'applicazione. Ecco come creare un oggetto visivo personalizzato per Power BI usando gli strumenti di sviluppo.
@@ -32,14 +32,14 @@ Per creare un oggetto visivo personalizzato, è necessario installare NodeJS. No
 
 1. Scaricare e installare [NodeJS](https://nodejs.org). È necessaria la versione 4.0 o versioni successive, ma è consigliata la versione 5.0 o versioni successive.
 2. Installare gli strumenti da riga di comando. Eseguire il comando seguente dal prompt dei comandi.
-   
+
         npm install -g powerbi-visuals-tools
 3. È possibile confermare che gli strumenti vengano installati eseguendo il comando seguente senza parametri.
-   
+
         pbiviz
-   
+
     Si otterrà l'output della guida.
-   
+
     <pre><code>
          +syyso+/
     oms/+osyhdhyso/
@@ -59,22 +59,22 @@ Per creare un oggetto visivo personalizzato, è necessario installare NodeJS. No
                /dmmh /mmmm/ /osyhhy/
                  //   dmmd
                        ++
-   
+
        PowerBI Custom Visual Tool
-   
+
     Usage: pbiviz [options] [command]
-   
+
     Commands:
-   
+
     new [name]        Create a new visual
     info              Display info about the current visual
     start             Start the current visual
     package           Package the current visual into a pbiviz file
     update [version]  Updates the api definitions and schemas in the current visual. Changes the version if specified
     help [cmd]        display help for [cmd]
-   
+
     Options:
-   
+
     -h, --help      output usage information
     -V, --version   output the version number
     --install-cert  Install localhost certificate
@@ -103,7 +103,7 @@ Per *creare* un certificato, eseguire il comando seguente.
 Per *installare* il certificato, eseguire il comando seguente.
 
     pbiviz --install-cert
-    
+
 > [!NOTE]
 > Dovrebbe essere visualizzato un messaggio che indica di usare la nuova passphrase generata per installare un certificato PFX.
 > 
@@ -112,20 +112,20 @@ Per *installare* il certificato, eseguire il comando seguente.
 **Sistema operativo Windows**
 
 1. Selezionare **Installa certificato...**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows.png)
 2. Selezionare **Utente corrente**, quindi scegliere **Avanti**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows2.png)
 3. Selezionare **Colloca tutti i certificati nel seguente archivio** e quindi selezionare **Sfoglia...**.
 4. Selezionare **Autorità di certificazione radice disponibile nell'elenco locale** e quindi selezionare **OK**. Fare clic su **Avanti**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows3.png)
 5. Fare clic su **Fine**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows4.png)
 6. Selezionare **Sì** nella finestra di dialogo dell'avviso di sicurezza.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-windows5.png)
 7. Chiudere qualsiasi browser aperto.
 
@@ -137,13 +137,13 @@ Per *installare* il certificato, eseguire il comando seguente.
 **OSX**
 
 1. Se il lucchetto in alto a sinistra è bloccato, selezionarlo per sbloccarlo. Cercare *localhost* e fare doppio clic sul certificato.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx.png)
 2. Selezionare **Considera sempre attendibile** e chiudere la finestra.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx2.png)
 3. Immettere il nome utente e password. Selezionare **Impostazioni aggiornamento**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/install-ssl-certificate-osx3.png)
 4. Chiudere qualsiasi browser aperto.
 
@@ -157,15 +157,15 @@ Per abilitare un'anteprima dinamica dell'oggetto visivo personalizzato, seguire 
 
 1. Passare ad [app.powerbi.com](https://app.powerbi.com) ed eseguire l'accesso.
 2. Selezionare l'**icona dell'ingranaggio** e quindi selezionare **Impostazioni**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings.png)
 3. Selezionare **Sviluppatore** e quindi selezionare **Abilita oggetto visivo per sviluppatori per il test**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-settings-enable-developer-live-preview.png)
 4. Selezionare **Oggetto visivo della modalità sviluppatore** nel riquadro **Visualizzazione**.
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
-   
+
    > [!NOTE]
    > Questa operazione richiede che sia stato eseguito `pbiviz start` dalla cartella dell'oggetto visivo nel computer di sviluppo. Per altre informazioni su come creare l'oggetto visivo, vedere [Creare un nuovo oggetto visivo](#create-a-new-visual) in questo articolo.
    > 
@@ -196,11 +196,11 @@ Questo comando crea una nuova cartella nella directory in cui è stato eseguito 
 1. Aprire un prompt dei comandi.
 2. Modificare la directory nella cartella dell'oggetto visivo, che contiene il file `pbiviz.json`.
 3. Eseguire il comando seguente.
-   
+
     ```
     pbiviz start
     ```
-   
+
     ![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-start-visual.png)
 
 Se si è nella posizione errata, verrà visualizzato un errore simile al seguente.
@@ -249,7 +249,7 @@ Prima di caricare l'oggetto visivo in [Power BI Desktop](https://powerbi.microso
 1. Aprire un prompt dei comandi.
 2. Modificare la directory nella cartella dell'oggetto visivo, che contiene il file `pbiviz.json`.
 3. Eseguire il comando seguente.
-   
+
     ```
     pbiviz package
     ```
@@ -294,6 +294,7 @@ In questo modo l'oggetto visivo verrà aggiornato alla versione dell'API 1.2.0. 
 Il progetto di oggetto visivo è la cartella che viene creata quando si esegue il comando `pbiviz new`. 
 
 ### <a name="file-structure"></a>Struttura di file
+
 | Elemento | Descrizione |
 | --- | --- |
 | assets/ |Usato per archiviare gli asset visivi (icona, schermate e così via). |

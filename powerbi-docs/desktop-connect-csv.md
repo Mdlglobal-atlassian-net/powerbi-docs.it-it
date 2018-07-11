@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 15651c29dc333385156b1e82f55cab0d315c9862
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 994e27a08ca4f26dc730246b34c7607818e81e66
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291144"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135422"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Connettersi a file CSV in Power BI Desktop
 La connessione a un file*CSV* (Comma-Separated Value) da Power BI Desktop è molto simile alla connessione a una cartella di lavoro di Excel. Entrambe le procedure sono molto semplici e questo articolo illustra in modo dettagliato la connessione a qualsiasi file CSV a cui si può accedere.
@@ -47,7 +47,7 @@ Non è necessario eseguire altre operazioni. I dati dal file CSV sono ora dispon
 ### <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connettersi a cartelle di lavoro di Excel in Power BI Desktop](desktop-connect-excel.md)   

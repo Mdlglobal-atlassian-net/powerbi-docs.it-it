@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 472be555bb4c46da41eb762c1eeae14ef991e742
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290868"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600990"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso di DirectQuery in Power BI
 Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità, inclusi gli argomenti seguenti:
@@ -152,7 +152,7 @@ Quando si usa **DirectQuery** è comunque possibile apportare molti di questi mi
     
     Il motivo è che tale misura può comportare una riduzione delle prestazioni in presenza di un numero molto elevato di elementi.
 * **Le tabelle calcolate non sono supportate:** la possibilità di definire una tabella calcolata usando un'espressione DAX non è supportata nella modalità DirectQuery.
-* **Il filtro delle relazioni è limitato a una sola direzione:** quando si usa DirectQuery, non è possibile impostare la direzione del filtro incrociato per una relazione su "Entrambi". Con le tre tabelle sottostanti, ad esempio, non sarebbe possibile compilare un oggetto visivo che visualizzi ogni Customer[Gender] e il numero di Product[Category] acquistato da ognuno. L'uso di questo filtro bidirezionale viene descritto [in questo white paper dettagliato](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional cross-filtering in Analysis Services 2016 and Power BI.docx) che contiene esempi relativi a SQL Server Analysis Services, ma i punti fondamentali sono ugualmente applicabili a Power BI.
+* **Il filtro delle relazioni è limitato a una sola direzione:** quando si usa DirectQuery, non è possibile impostare la direzione del filtro incrociato per una relazione su "Entrambi". Con le tre tabelle sottostanti, ad esempio, non sarebbe possibile compilare un oggetto visivo che visualizzi ogni Customer[Gender] e il numero di Product[Category] acquistato da ognuno. L'uso di questo filtro bidirezionale viene descritto [in questo white paper dettagliato](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) che contiene esempi relativi a SQL Server Analysis Services, ma i punti fondamentali sono ugualmente applicabili a Power BI.
   
   ![](media/desktop-directquery-about/directquery-about_01.png)
   

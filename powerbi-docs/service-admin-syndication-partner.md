@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250316"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926652"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Impossibile aggiungere Power BI a una sottoscrizione partner di Office 365
 Office 365 consente alle aziende di rivendere Office 365 in bundle e integrato con le proprie soluzioni, fornendo ai clienti finali un singolo punto di contatto per l'acquisto, la fatturazione e il supporto.
@@ -33,7 +33,7 @@ Se non è possibile acquistare Power BI direttamente e in base al tipo di sottos
 
 [Power BI (gratuito)](#power-bi-free)
 
-[Power BI Pro e Premium](#power-bi-pro)
+[Power BI Pro e Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (gratuito)
 Se si è soddisfatti dell’offerta gratuita di Power BI, è possibile effettuare l'iscrizione per il servizio gratuito. Per impostazione predefinita, le iscrizioni di persone fisiche, note anche come sottoscrizioni ad hoc, sono disabilitate. Quando si tenta di effettuare l'iscrizione a Power BI, viene visualizzato un messaggio che indica che il reparto IT ha disattivato l’iscrizione per Microsoft Power BI.

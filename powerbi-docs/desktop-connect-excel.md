@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb35e8762b4cbe79e8efe2aede15bcac66f2ac8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 699df2cf1cfcfde25eaadcec2946e9be922c56d9
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289787"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136089"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Connettersi a Excel in Power BI Desktop
 La connessione a una cartella di lavoro di Excel da Power BI Desktop è molto semplice e questo articolo illustra i passaggi corrispondenti in modo dettagliato.
@@ -48,7 +48,7 @@ Non sono necessarie altre operazioni.
 ### <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connettersi a file CSV in Power BI Desktop](desktop-connect-csv.md)   

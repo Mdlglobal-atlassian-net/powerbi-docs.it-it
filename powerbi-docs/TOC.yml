@@ -12,6 +12,8 @@
       items:
         - name: Connettersi a un esempio di GitHub
           href: service-tutorial-connect-to-github.md
+        - name: Introduzione a Power BI
+          href: service-get-started.md
     - name: Concetti
       items:
         - name: Novità del servizio Power BI
@@ -374,7 +376,7 @@
                   href: power-bi-reports-performance.md
                 - name: Interagire con le mappe ArcGIS in Power BI
                   href: power-bi-visualizations-arcgis.md
-            - name: Ottenere dati da file
+            - name: Dati da file
               items:
                 - name: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
                   href: service-from-excel-to-stunning-report.md
@@ -382,6 +384,8 @@
                   href: service-excel-workbook-files.md
                 - name: Ottenere dati da file di Power BI Desktop
                   href: service-desktop-files.md
+                - name: Impostazioni di parametri per set di dati
+                  href: service-parameters.md
                 - name: Ottenere dati da file con valori delimitati da virgole (CSV)
                   href: service-comma-separated-value-files.md
                 - name: Streaming in tempo reale in Power BI (anteprima)
@@ -860,16 +864,12 @@
           items:
             - name: Introduzione all'app iOS
               href: mobile-iphone-app-get-started.md
-            - name: Introduzione all'app iPad
-              href: mobile-ipad-app-get-started.md
             - name: Analista virtuale Domande e risposte nelle app per dispositivi mobili iOS
               href: mobile-apps-ios-qna.md
             - name: App Power BI per Apple Watch
               href: mobile-apple-watch.md
             - name: Scansionare un codice a barre dall'app nell'iPhone
               href: mobile-apps-scan-barcode-iphone.md
-            - name: App Power BI per iOS
-              href: mobile-ios-ipad-iphone-apps.md
         - name: iOS e Android
           items:
             - name: Annotare e condividere nelle app per dispositivi mobili
@@ -940,8 +940,6 @@
               href: developer/integrate-tile.md
             - name: Integrare un report di Power BI in un'app (i dati sono di proprietà dell'utente)
               href: developer/integrate-report.md
-            - name: Integrare contenuti in un'applicazione (i dati sono di proprietà dell'app)
-              href: developer/embed-sample-for-customers.md
             - name: Integrare contenuti in un'applicazione per i cloud sovrani (i dati sono di proprietà dell'app)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Incorporare layout personalizzati in un'app
@@ -1234,6 +1232,13 @@
           href: service-admin-syndication-partner.md
         - name: Configurare app per dispositivi mobili con Intune
           href: service-admin-mobile-intune.md
+    - name: Riferimento
+      items:
+        - name: 'PowerShell, API REST e .NET SDK'
+          href: service-admin-reference.md
+        - name: Cmdlet di Power BI per PowerShell
+          href: 'https://docs.microsoft.com/en-us/powershell/power-bi/'
+          maintainContext: true
     - name: Risorse
       items:
         - name: Strategie di governance e distribuzione in Power BI

@@ -1,4 +1,5 @@
 ### <a name="on-premises-data-gateway"></a>Gateway dati locale
+
 | **Origine dati** |
 | --- |
 | Analysis Services in modalità tabulare |

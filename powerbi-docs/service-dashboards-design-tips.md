@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9c67aa0982733847cdca7d6079fa8887e6c1d1d2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247048"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944975"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in modo che il dashboard non sia solo di gradevole da vedere, ma anche funzionale. Questo, in generale, significa mettere in risalto le informazioni più importanti in modo pulito e ordinato.
@@ -59,7 +59,7 @@ La maggior parte delle persone legge dall'alto verso il basso, quindi posizionar
 ## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usare la visualizzazione corretta per i dati e formattarla per facilitare la lettura
 Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visualizzazioni devono essere rappresentative e facili da "leggere" e interpretare.  Per alcuni dati e alcune visualizzazioni, è sufficiente una semplice visualizzazione grafica. Altri dati, invece, possono richiedere una visualizzazione più complessa. Usare titoli ed etichette e altre personalizzazioni per agevolare il lettore.  
 
-* [Scegliere le visualizzazioni appropriate ai dati](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Prestare attenzione ai grafici che distorcono la realtà, ad esempio i grafici 3D. Tenere presente che il cervello umano fa fatica a interpretare le forme circolari. I grafici a torta, i grafici ad anello e altri tipi di grafico circolare possono avere un aspetto gradevole ma non sono ottimali per la visualizzazione dei dati.
+* [Scegliere le visualizzazioni appropriate ai dati](https://www.youtube.com/watch?v=-tdkUYrzrio). Prestare attenzione ai grafici che distorcono la realtà, ad esempio i grafici 3D. Tenere presente che il cervello umano fa fatica a interpretare le forme circolari. I grafici a torta, i grafici ad anello e altri tipi di grafico circolare possono avere un aspetto gradevole ma non sono ottimali per la visualizzazione dei dati.
 * Le scale dei grafici sugli assi, l'ordinamento delle dimensioni dei grafici e anche i colori usati per i valori delle dimensioni all'interno dei grafici devono essere coerenti.
 * Codificare i dati quantitativi in modo leggibile. Non usare più di tre o quattro numerali per visualizzare i numeri. Visualizzare le misure con uno o due numerali a sinistra del separatore decimale e usare la scala per le migliaia o i milioni, ad esempio indicare 3,4 milioni anziché 3.400.000.
 * Non usare livelli di precisione e temporali diversi. Fare in modo che gli intervalli di tempo siano ben chiari.  Non affiancare un grafico del mese scorso ad altri grafici filtrati di un determinato mese dell'anno.

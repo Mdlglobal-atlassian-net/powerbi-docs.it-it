@@ -1,20 +1,20 @@
 ---
 title: Panoramica del programma dei pacchetti di contenuto del servizio Power BI
 description: Programma di certificazione dei pacchetti di contenuto
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 02/20/2018
-ms.author: maghan
-ms.openlocfilehash: cfb9727a41d602ce14bfd2a403a87e82d2f0e94d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.author: maggies
+ms.openlocfilehash: 6697c820ff5aac30f12794cd28ca403faec4761f
+ms.sourcegitcommit: 6407e053c2c6c6fdb212b059693e90fefbaaadec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290638"
+ms.lasthandoff: 06/20/2018
+ms.locfileid: "36290922"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Panoramica del programma dei pacchetti di contenuto del servizio Power BI
 Un pacchetto di contenuto è un set di contenuto predefinito che consente agli utenti di ottenere immediatamente informazioni da un'origine. In genere, un pacchetto di contenuto è incentrato su uno scenario aziendale specifico che fornisce informazioni per un ruolo, un dominio o un flusso di lavoro.

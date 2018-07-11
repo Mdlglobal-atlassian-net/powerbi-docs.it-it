@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6c1bb67b0c7fb8d3e3344cbb48f7fcf52dac64ed
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34288752"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137308"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Modificare la forma dei dati e combinarli in Power BI Desktop
 
@@ -233,7 +233,7 @@ Per applicare le modifiche e chiudere l'Editor di query, selezionare **Chiudi e 
 ## <a name="next-steps"></a>Passaggi successivi
 Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)

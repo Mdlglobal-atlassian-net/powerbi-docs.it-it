@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 705de47a1e89d765f34eadfcd35064ccde7aa66b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c57ae7a0213ce324f673e53862ba3dfa38f57409
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481901"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092668"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configurare il server di report per l'hosting di cartelle di lavoro di Excel tramite Office Online Server (OOS)
 Oltre a visualizzare i report di Power BI nel portale Web, Server di report di Power BI consente di ospitare cartelle di lavoro di Excel tramite [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Il server di report diventa una posizione centralizzata per la pubblicazione e la visualizzazione di contenuto Microsoft BI self-service.
@@ -78,7 +78,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametri**
 
-* **–InternalURL** è il nome di dominio completo del server che esegue Office Online Server, ad esempio http://servername.contoso.com.
+* **–InternalURL** è il nome di dominio completo del server che esegue Office Online Server, ad esempio `http://servername.contoso.com`.
 * **–ExternalURL** è il nome di dominio completo accessibile su Internet.
 * **–CertificateName** è il nome descrittivo del certificato.
 
@@ -91,7 +91,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parametri**
 
-* **–InternalURL** è il nome del server che esegue Office Online Server, ad esempio http://servername.
+* **–InternalURL** è il nome del server che esegue Office Online Server, ad esempio `http://servername`.
 * **–AllowHttp** configura la farm per l'uso di HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Verificare che la farm di Office Online Server sia stata creata correttamente

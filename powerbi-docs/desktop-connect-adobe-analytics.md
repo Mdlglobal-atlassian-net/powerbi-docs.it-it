@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f54aa5a67739a3ad6f9ea0a42f8a2b872e51d52d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: da688638170db8a296c680bc88c1030924078967
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34230923"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134548"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Connettersi ad Adobe Analytics in Power BI Desktop 
 In **Power BI Desktop** è possibile connettersi ad **Adobe Analytics** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop. 
@@ -43,7 +43,7 @@ Quando richiesto, inserire il nome utente e la password. Dopo aver stabilito la 
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Connettersi a cartelle di lavoro di Excel in Power BI Desktop](desktop-connect-excel.md)   

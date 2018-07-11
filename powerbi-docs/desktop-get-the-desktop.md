@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 52ef1f6526b83a54ba26fdffaf8150049c55880d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 319c636c660aff3ab651475e2d7b553fef49b8cd
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813320"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137331"
 ---
 # <a name="get-power-bi-desktop"></a>Ottenere Power BI Desktop
 **Power BI Desktop** consente di creare query, modelli e report avanzati per la visualizzazione dei dati. Con **Power BI Desktop**, è possibile creare modelli di dati, creare report e condividere il proprio lavoro pubblicandolo nel servizio Power BI.  Il download di **Power BI Desktop** è gratuito.
@@ -110,7 +110,7 @@ In genere l'aggiornamento alla versione corrente di Power BI Desktop risolve il 
 ## <a name="next-steps"></a>Passaggi successivi
 Dopo aver installato **Power BI Desktop**, il contenuto seguente consente di svolgere rapidamente le attività iniziali:
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813803"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944653"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usare i temi del dashboard nel servizio Power BI
 I **temi del dashboard** consentono di applicare un colore del tema a un intero dashboard, ad esempio i colori aziendali, i colori della stagione o qualunque altro tema di colori. Quando si applica un **tema del dashboard**, tutti gli oggetti visivi del dashboard usano i colori del tema selezionato, salvo alcuni casi particolari descritti più avanti in questo articolo.
@@ -89,7 +89,6 @@ Come accade con le opzioni predefinite e personalizzate, quando si carica il tem
 
     ![Usa tema di destinazione](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* I temi del dashboard non sono attualmente supportati quando il dashboard incorporato viene visualizzando usando l'API REST in dispositivi mobili o da utenti esterni.    
 * I temi del dashboard non possono essere applicati a pagine dinamiche del report aggiunte, riquadri iFrame, riquadri SSRS, riquadri di cartelle di lavoro o immagini.
 * I temi del dashboard possono essere visualizzati nei dispositivi mobili, ma un tema del dashboard può essere creato solo nel servizio Power BI. 
 * I temi personalizzati del dashboard funzionano solo con i riquadri aggiunti dei report. 

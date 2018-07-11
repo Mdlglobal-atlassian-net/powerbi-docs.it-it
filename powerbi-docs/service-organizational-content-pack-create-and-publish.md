@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852188"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598602"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creare e pubblicare un pacchetto di contenuto aziendale di Power BI (esercitazione)
 > [!NOTE]
@@ -43,24 +43,24 @@ Per iniziare, nel [servizio Power BI](https://powerbi.com) passare a **Recupera 
    
    Tenere presente che con la libreria di pacchetti di contenuto dell'organizzazione si può arrivare alla pubblicazione di centinaia di pacchetti di contenuto per l'organizzazione o per i gruppo. Dedicare tempo alla scelta di un nome significativo per il pacchetto, all'aggiunta di una descrizione appropriata e alla selezione dei destinatari più adatti.  Usare parole per facilitare l'individuazione del pacchetto di contenuto in una ricerca.
    
-   1.  Selezionare **Gruppi specifici** e immettere gli indirizzi di posta elettronica completi di singoli utenti, [gruppi di Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), gruppi di distribuzione o gruppi di sicurezza, ad esempio:
+   1. Selezionare **Gruppi specifici** e immettere gli indirizzi di posta elettronica completi di singoli utenti, [gruppi di Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), gruppi di distribuzione o gruppi di sicurezza, ad esempio:
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       Per questa esercitazione provare a usare il proprio indirizzo di posta elettronica o quello del proprio gruppo.
    
-   2.  Assegnare al pacchetto di contenuto il nome **Opportunità di vendita**.
+   2. Assegnare al pacchetto di contenuto il nome **Opportunità di vendita**.
    
       > [!TIP]
       > È consigliabile includere il nome del dashboard nel nome del pacchetto di contenuto. In questo modo, i colleghi troveranno il dashboard più facilmente dopo essersi connessi al pacchetto di contenuto.
       > 
       > 
    
-   3.  Operazione consigliata: aggiungere una **descrizione**. per consentire ai collaboratori di individuare più facilmente i pacchetti di contenuto di cui hanno bisogno. Oltre a una descrizione, aggiungere parole chiave che i collaboratori possono usare per cercare questo pacchetto di contenuto. Includere le informazioni sul contatto che i collaboratori potranno usare per richiedere chiarimenti o per ricevere assistenza.
+   3. Operazione consigliata: aggiungere una **descrizione**. per consentire ai collaboratori di individuare più facilmente i pacchetti di contenuto di cui hanno bisogno. Oltre a una descrizione, aggiungere parole chiave che i collaboratori possono usare per cercare questo pacchetto di contenuto. Includere le informazioni sul contatto che i collaboratori potranno usare per richiedere chiarimenti o per ricevere assistenza.
    
-   4.  **Caricare un'immagine o un logo** per consentire ai membri del gruppo di individuare il pacchetto di contenuto più facilmente. È infatti più rapido cercare un'immagine rispetto al testo. Lo screenshot seguente mostra un'immagine del riquadro dell'istogramma relativo al conteggio totale delle opportunità.
+   4. **Caricare un'immagine o un logo** per consentire ai membri del gruppo di individuare il pacchetto di contenuto più facilmente. È infatti più rapido cercare un'immagine rispetto al testo. Lo screenshot seguente mostra un'immagine del riquadro dell'istogramma relativo al conteggio totale delle opportunità.
    
-   5.  Selezionare il dashboard **Esempio di analisi delle opportunità** per aggiungerlo al pacchetto di contenuto.  Power BI aggiunge automaticamente il report e il set di dati associati. È possibile aggiungerne altri, se si desidera.
+   5. Selezionare il dashboard **Esempio di analisi delle opportunità** per aggiungerlo al pacchetto di contenuto.  Power BI aggiunge automaticamente il report e il set di dati associati. È possibile aggiungerne altri, se si desidera.
    
       > [!NOTE]
       >  Sono elencati solo i dashboard, i report, i set di dati e le cartelle di lavoro modificabili dall'utente. L'elenco non include quindi quelli condivisi con l'utente.
@@ -71,7 +71,7 @@ Per iniziare, nel [servizio Power BI](https://powerbi.com) passare a **Recupera 
    
    6. Le cartelle di lavoro di Excel, se presenti, sono visualizzate in Report, con un'icona di Excel. Anche queste cartelle di lavoro possono essere aggiunte al pacchetto di contenuto.
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > Se i membri del gruppo non possono visualizzare la cartella di lavoro di Excel, potrebbe essere necessario [condividere la cartella di lavoro in OneDrive for Business](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).

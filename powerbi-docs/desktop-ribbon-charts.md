@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285532"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136756"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
 È possibile usare grafici a nastri in **Power BI** per visualizzare i dati e determinare rapidamente la categoria di dati di livello massimo (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. I grafici a nastri sono disponibili in **Power BI Desktop** a partire dalla versione di settembre 2017 e negli aggiornamenti successivi del **servizio Power BI**.
@@ -44,7 +44,7 @@ Queste opzioni di formattazione per i grafici a nastri consentono di modificare 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni su **Power BI Desktop** e su come iniziare, vedere gli articoli seguenti.
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)

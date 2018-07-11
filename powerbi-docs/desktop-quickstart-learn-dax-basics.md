@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 49f6e073d40ef00413ba38dd709780758cf1e448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1c9f838261658a77fa8a4d019e610de72649bbbb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291029"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600775"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e mira a offrire una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e alcuni quiz per verificare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -83,33 +83,33 @@ A questo punto verrà creata una semplice formula. Questa operazione consentirà
 ### <a name="task-create-a-measure-formula"></a>Attività: Creare una formula della misura
 Per completare questa attività, è necessario aprire il file Contoso Sales Sample Power BI Desktop.
     
-1.  Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi fare clic su **Nuova misura**.
+1. Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi fare clic su **Nuova misura**.
     
-2.  Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, **Previous Quarter Sales**.
+2. Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, **Previous Quarter Sales**.
     
-3.  Dopo il segno di uguale digitare **SUM** seguito da una parentesi aperta.
+3. Dopo il segno di uguale digitare **SUM** seguito da una parentesi aperta.
     
-    Invece di digitare un nome di colonna da sommare immediatamente, verrà immessa un'altra funzione, per *filtrare* i dati che si vogliono sommare.
+   Invece di digitare un nome di colonna da sommare immediatamente, verrà immessa un'altra funzione, per *filtrare* i dati che si vogliono sommare.
     
-4.  Tra le parentesi, digitare **CALCULATE**, seguito da una parentesi aperta.
+4. Tra le parentesi, digitare **CALCULATE**, seguito da una parentesi aperta.
     
-    La funzione CALCULATE verrà usata per filtrare gli importi da sommare in base a un argomento che viene passato alla funzione CALCOLATE. Questo è ciò che viene definita funzione di annidamento. La funzione CALCULATE ha almeno due argomenti. Il primo è l'espressione da valutare e il secondo è un filtro.
+   La funzione CALCULATE verrà usata per filtrare gli importi da sommare in base a un argomento che viene passato alla funzione CALCOLATE. Questo è ciò che viene definita funzione di annidamento. La funzione CALCULATE ha almeno due argomenti. Il primo è l'espressione da valutare e il secondo è un filtro.
    
-5.  Tra parentesi **()** per la funzione **CALCULATE**, digitare **Sales[SalesAmount]**. Questo è il primo argomento di espressione per la funzione CALCULATE.
+5. Tra parentesi **()** per la funzione **CALCULATE**, digitare **Sales[SalesAmount]**. Questo è il primo argomento di espressione per la funzione CALCULATE.
     
-6.  Digitare una virgola (**,**) per specificare il primo filtro, quindi digitare **PREVIOUSQUARTER** seguito da una parentesi aperta.
+6. Digitare una virgola (**,**) per specificare il primo filtro, quindi digitare **PREVIOUSQUARTER** seguito da una parentesi aperta.
     
-    Verrà usata la funzionalità di Business Intelligence per le gerarchie temporali PREVIOUSQUARTER per filtrare i risultati SUM in base al trimestre precedente.
+   Verrà usata la funzionalità di Business Intelligence per le gerarchie temporali PREVIOUSQUARTER per filtrare i risultati SUM in base al trimestre precedente.
     
-7.  Tra le parentesi **()** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]**.
+7. Tra le parentesi **()** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]**.
     
-    La funzione PREVIOUSQUARTER ha un solo argomento, una colonna contenente un intervallo contiguo di date.
+   La funzione PREVIOUSQUARTER ha un solo argomento, una colonna contenente un intervallo contiguo di date.
     
-8.  Verificare che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi da due parentesi chiuse **))**.
+8. Verificare che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi da due parentesi chiuse **))**.
     
    La formula a questo punto dovrebbe essere simile alla seguente:
     
-    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+   **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
     
 9. Fare clic sul segno di spunta ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) nella barra della formula o premere INVIO per convalidare la formula e aggiungerla al modello.
 

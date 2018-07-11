@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299310"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599667"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Creazione di oggetti visivi R nel servizio Power BI
 Il servizio Power BI supporta la visualizzazione e l'interazione con oggetti visivi creati con gli script R. Gli oggetti visivi creati con gli script R, comunemente denominati *oggetti visivi R*, possono presentare funzionalità avanzate di data shaping e analisi, ad esempio le previsioni, usando le funzionalità avanzate di analisi e visualizzazione di R.
@@ -37,7 +37,7 @@ Dopo aver creato il report in **Power BI Desktop**, è possibile pubblicare il r
 
 Si noti che non tutti i pacchetti R sono supportati nel servizio. L'elenco dei pacchetti attualmente supportati nel servizio Power BI è riportato alla fine di questo articolo.
 
-È possibile scaricare il [file Power BI Desktop di esempio](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (file PBIX) che contiene alcuni oggetti visivi R utili per vedere il funzionamento del servizio e provare a usarlo.
+È possibile scaricare il [file Power BI Desktop di esempio](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (file PBIX) che contiene alcuni oggetti visivi R utili per vedere il funzionamento del servizio e provare a usarlo.
 
 Gli oggetti visivi R che vengono creati in **Power BI Desktop**, e quindi pubblicati nel servizio Power BI, nella maggior parte dei casi si comportano come qualsiasi altro oggetto visivo nel servizio Power BI; è possibile interagire con essi, filtrarli, suddividerli e quindi aggiungerli a un dashboard oppure condividerli con altri. Per maggiori informazioni sulla condivisione di dashboard e oggetti visivi, vedere [Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md). Rispetto ad altri oggetti visivi, gli oggetti visivi R non possono visualizzare descrizioni comandi e non possono essere usati per filtrare altri oggetti visivi.
 

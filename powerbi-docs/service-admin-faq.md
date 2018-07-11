@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4c8601e15a415e680028b2259a4c2b8e56dbd3b4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dce044a3f143ba85732c8345639ea57f44f05d5f
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297240"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926596"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -41,14 +41,13 @@ Questo articolo contiene le risposte alle domande frequenti sull'amministrazione
 * [Come si rimuove Power BI per gli utenti che hanno già effettuato l'iscrizione?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Come si può sapere se nuovi utenti si aggiungono al tenant?](#how-do-i-know-when-new-users-have-joined-my-tenant)
 * [È necessario prepararsi per altro?](#are-there-any-additional-things-i-should-be-prepared-for)
-* [È gratuito? È previsto un pagamento per queste licenze?](#is-this-free-will-i-be-charged-for-these-licenses)
 * [Dove si trova il tenant di Power BI?](#where-is-my-power-bi-tenant-located)
 * [Che cos'è il Contratto di servizio di Power BI?](#what-is-the-power-bi-sla)
 
 **Sicurezza in Power BI**
 
 * [Power BI soddisfa i requisiti di conformità nazionali, regionali e specifici del settore?](#does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements)
-* [Come funziona la sicurezza in Power BI?](#how-does-security-work-in-power-bi?)
+* [Come funziona la sicurezza in Power BI?](#how-does-security-work-in-power-bi)
 
 ## <a name="sign-up-for-power-bi"></a>Iscriversi a Power BI
 ### <a name="how-do-users-sign-up-for-power-bi"></a>In che modo gli utenti si iscrivono a Power BI?
@@ -232,9 +231,6 @@ Si potrebbe riscontrare un aumento di richieste di reimpostazione delle password
 
 È possibile rimuovere un utente dal tenant tramite il processo standard nell'interfaccia di amministrazione di Office 365. Se tuttavia l'utente ha ancora un indirizzo di posta elettronica attivo dell'organizzazione, potrà riaggiungersi a meno che non si impedisca a tutti gli utenti di aggiungersi.
 
-### <a name="is-this-free-will-i-be-charged-for-these-licenses"></a>È gratuito? È previsto un pagamento per queste licenze?
-Le licenze di **Power BI (gratuito)** sono destinate alla versione gratuita di Power BI. Se si è interessati a funzionalità aggiuntive, valutare la [versione Power BI Pro](service-premium.md).
-
 ### <a name="where-is-my-power-bi-tenant-located"></a>Dove si trova il tenant di Power BI?
 Per informazioni su come trovare la località in cui risiede il tenant di Power BI, detta anche area dati, vedere [Dove si trova il tenant di Power BI?](service-admin-where-is-my-tenant-located.md)
 
@@ -252,7 +248,6 @@ Power BI è basato su Office 365, che a sua volta è basato su servizi di Azure 
 [Portale di amministrazione di Power BI](service-admin-portal.md)  
 [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md)  
 [Iscrizione a Power BI in modalità self-service](service-self-service-signup-for-power-bi.md)  
-[Power BI (gratuito) nell'organizzazione](service-admin-service-free-in-your-organization.md)  
 [Acquisto di Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Power BI Premium: di cosa si tratta?](service-premium.md)  
 [Come acquistare Power BI Premium](service-admin-premium-purchase.md)  

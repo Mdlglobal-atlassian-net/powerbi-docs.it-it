@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296228"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598856"
 ---
 # <a name="power-bi-security"></a>Sicurezza di Power BI
 Per una spiegazione dettagliata sulla sicurezza di Power BI, [scaricare il white paper sulla sicurezza di Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -48,7 +48,7 @@ La linea tratteggiata nell'immagine del cluster **Back End** sopra illustrata in
 ## <a name="user-authentication"></a>Autenticazione dell'utente
 Power BI usa Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) per autenticare gli utenti che eseguono l'accesso al servizio Power BI e, a sua volta, usa le credenziali di accesso di Power BI ogni volta che un utente prova ad accedere a risorse che richiedono l'autenticazione. Gli utenti eseguono l'accesso al servizio Power BI usando l'indirizzo di posta elettronica impiegato per stabilire il proprio account di Power BI; Power BI usa il messaggio di posta elettronica di accesso come *nome utente effettivo*, che viene quindi passato alle risorse ogni volta che un utente prova a connettersi ai dati. Il *nome utente effettivo* viene quindi mappato a un *nome dell'entità utente* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) e risolto con l'account di dominio di Windows associato, a cui viene applicata l'autenticazione.
 
-Per le organizzazioni che usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI (ad esempio *david@contoso.com*, il *nome utente effettivo*) il mapping UPN è diretto. Per le organizzazioni che non usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI, ad esempio *david@contoso.onmicrosoft.com*, il mapping tra AAD e le credenziali locali richiede la [sincronizzazione delle directory](https://technet.microsoft.com/library/jj573653.aspx) per il corretto funzionamento.
+Per le organizzazioni che usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI (ad esempio <em>david@contoso.com</em>, il *nome utente effettivo*) il mapping UPN è diretto. Per le organizzazioni che non usavano account di posta elettronica aziendali per eseguire l'accesso a Power BI, ad esempio <em>david@contoso.onmicrosoft.com</em>, il mapping tra AAD e le credenziali locali richiede la [sincronizzazione delle directory](https://technet.microsoft.com/library/jj573653.aspx) per il corretto funzionamento.
 
 La sicurezza della piattaforma per Power BI include anche la sicurezza dell'ambiente multi-tenant, la sicurezza delle reti e la possibilità di aggiungere misure di sicurezza aggiuntive basate su AAD.
 

@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481733"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780571"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisiti hardware e software per l'installazione del server di report di Power BI
 Questo articolo elenca i requisiti minimi di hardware e software per l'installazione e l'esecuzione del server di report di Power BI.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Requisiti di processore, memoria e sistema operativo
+
 | Componente | Requisito |
 | --- | --- |
 | .NET Framework |4.6<br><br>È possibile installare manualmente .NET Framework da [Microsoft .NET Framework 4.6 (programma di installazione Web) per Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Per altre informazioni, suggerimenti e indicazioni su .NET Framework 4.6 vedere [Guida alla distribuzione di .NET Framework per gli sviluppatori](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1, and Windows Server 2012 R2 richiedono [KB2919355](http://support.microsoft.com/kb/2919355) prima dell'installazione di .NET Framework 4.6. |
@@ -41,8 +42,6 @@ SQL Server viene usato per ospitare i database del server di report. L'istanza d
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 La creazione del database del server di report in un computer remoto richiede la configurazione della connessione in modo da usare un account utente di dominio o un account del servizio con accesso alla rete. Se si decide di usare un'istanza remota di SQL Server, valutare attentamente quali credenziali il server di report deve usare per connettersi all'istanza di SQL Server. Per altre informazioni, vedere [Configurare una connessione al database del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

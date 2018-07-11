@@ -9,15 +9,15 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301781"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092116"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
-Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo. office
+Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo.
 
 Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo in AppSource in modo che altri utenti possano individuarlo e usarlo. A tale scopo, sono necessarie alcune operazioni preliminari. Per altre informazioni su come creare un oggetto visivo personalizzato, vedere [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md).
 
@@ -36,7 +36,7 @@ Dopo aver terminato le operazioni di codifica e test dell'oggetto visivo persona
 | Schermate |Sì |È necessario fornire almeno una schermata. Il formato può essere PNG, JPG, JPEG o GIF. Deve essere esattamente 1366 px (larghezza) per 768 px (altezza). Le dimensioni del file non possono superare 1024 KB. *Per un migliore utilizzo, aggiungere fumetti di testo per descrivere la proposta di valore delle caratteristiche basilari in ogni schermata.* |
 | Collegamento per il download di supporto |Sì |Fornire l'URL per supportare i clienti che hanno problemi con l'oggetto visivo. Il formato dell'URL deve includere https:// o http://. |
 | Collegamento al documento sulla privacy |Sì |Fornire un collegamento all'informativa sulla privacy per i clienti che usano l'oggetto visivo. Il formato del collegamento deve includere https:// o http://. |
-| Contratto di licenza con l'utente finale (EULA) |Sì |È necessario caricare un file del contratto di licenza. Può trattarsi del proprio contratto di licenza oppure si può usare il contratto di licenza predefinito in Office Store per oggetti visivi personalizzati di Power BI. Per usare il contratto di licenza predefinito, incollare l'URL seguente nella finestra di dialogo di caricamento del file "Contratto di licenza con l'utente finale" del dashboard del venditore: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf). |
+| Contratto di licenza con l'utente finale (EULA) |Sì |È necessario caricare un file del contratto di licenza. Può trattarsi del proprio contratto di licenza oppure si può usare il contratto di licenza predefinito in Office Store per oggetti visivi personalizzati di Power BI. Per usare il contratto di licenza predefinito, incollare l'URL seguente nella finestra di dialogo di caricamento del file "Contratto di licenza con l'utente finale" del dashboard del venditore: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Collegamento video |No |Per aumentare l'interesse degli utenti per l'oggetto visivo personalizzato, è consigliabile fornire un collegamento a un video sull'oggetto visivo. Il formato dell'URL deve includere https:// o http://. |
 | Repository GitHub |No |È preferibile avere un collegamento valido e pubblico a un repository [GitHub](https://www.github.com) contenente le origini dell'oggetto visivo e dati di esempio per consentire ad altri sviluppatori di fornire commenti e suggerimenti e proporre miglioramenti al codice. |
 
@@ -97,7 +97,7 @@ Per completare l'invio, seguire questa procedura.
    * Collegamento video
    * Contratto di licenza con l'utente finale (EULA)
      
-       È necessario caricare un file del contratto di licenza. Può trattarsi del proprio contratto di licenza oppure si può usare il contratto di licenza predefinito in Office Store per oggetti visivi personalizzati di Power BI. Per usare il contratto di licenza predefinito, incollare l'URL seguente nella finestra di dialogo di caricamento del file "Contratto di licenza con l'utente finale" del dashboard del venditore: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf).
+       È necessario caricare un file del contratto di licenza. Può trattarsi del proprio contratto di licenza oppure si può usare il contratto di licenza predefinito in Office Store per oggetti visivi personalizzati di Power BI. Per usare il contratto di licenza predefinito, incollare l'URL seguente nella finestra di dialogo di caricamento del file "Contratto di licenza con l'utente finale" del dashboard del venditore: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 8. Selezionare **Avanti** e proseguire alla pagina **Dettagli**.
 9. Selezionare **Lingua** e scegliere una lingua dall'elenco.
    

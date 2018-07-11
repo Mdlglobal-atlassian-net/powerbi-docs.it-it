@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721387"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598943"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Presentazione del riquadro Filtri del report
 Questo articolo analizza in maniera approfondita il riquadro Filtri del report, Il riquadro verrà visualizzato nella [visualizzazione di modifica e nella visualizzazione di lettura del servizio Power BI](service-reading-view-and-editing-view.md) e nella [visualizzazione Report di Power BI Desktop](desktop-report-view.md).
@@ -77,7 +77,7 @@ Per visualizzare le opzioni di un filtro specifico, selezionare la freccia rivol
 ## <a name="add-a-filter"></a>Aggiungere un filtro
 * Nella Visualizzazione di modifica in Power BI Desktop o nel servizio Power BI, aggiungere un filtro a un oggetto visivo, una pagina, un drill-through o un report selezionando un campo dal riquadro Campi e trascinandolo nell'area del filtro appropriato, in cui vengono visualizzate le parole **Trascinare qui i campi dati**. Dopo aver aggiunto un campo come filtro, ottimizzarlo usando i controlli Filtro di base o Filtro avanzato (descritti di seguito).
 
-- **Il trascinamento di un nuovo campo nell'area del filtro a livello di oggetto visivo non consente di aggiungere tale campo all'oggetto visivo**, ma di filtrare l'oggetto visivo in base a questo nuovo campo. Nell'esempio seguente, **Chain** viene aggiunto come un nuovo filtro all'oggetto visivo. Si noti che aggiungendo semplicemente **Chain** come filtro non modifica l'oggetto visivo finché non si usano i controlli Filtro di base o Filtro avanzato.
+* **Il trascinamento di un nuovo campo nell'area del filtro a livello di oggetto visivo non consente di aggiungere tale campo all'oggetto visivo**, ma di filtrare l'oggetto visivo in base a questo nuovo campo. Nell'esempio seguente, **Chain** viene aggiunto come un nuovo filtro all'oggetto visivo. Si noti che aggiungendo semplicemente **Chain** come filtro non modifica l'oggetto visivo finché non si usano i controlli Filtro di base o Filtro avanzato.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 

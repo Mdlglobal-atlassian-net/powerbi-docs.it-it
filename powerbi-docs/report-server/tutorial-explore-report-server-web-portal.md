@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32bf2d3cedbeeb2430620855a2ac95bf349af9a2
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34445004"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092047"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Esercitazione: Esplorare il portale Web di Server di report di Power BI in una macchina virtuale
 In questa esercitazione si crea una macchina virtuale di Azure con Server di Report di Power BI già installato per imparare a visualizzare, modificare e gestire report impaginati e indicatori KPI di esempio di Power BI.
@@ -100,7 +100,7 @@ Ecco gli elementi che compaiono sul desktop all'apertura della macchina virtuale
 |![Numero 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Avvia Power BI Desktop ottimizzato per Server di report di Power BI (marzo 2018)  |
 |![Numero 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Apre il portale Web di Server di report di Power BI nel browser   |
 
-Fare doppio clic sull'icona del **portale Web del server di report**. Il browser apre http://localhost/reports/browse. Nel portale Web sono visibili vari file raggruppati per tipo. 
+Fare doppio clic sull'icona del **portale Web del server di report**. Il browser apre `http://localhost/reports/browse`. Nel portale Web sono visibili vari file raggruppati per tipo. 
 
 ![Portale Web del server di report di Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

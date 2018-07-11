@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9ea17fd80c928ee0193ca94aac88fa00f362a523
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240467"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145190"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
 Durante la configurazione di un set di dati per l'aggiornamento pianificato è possibile che venga visualizzato un errore.
@@ -39,7 +39,7 @@ Se non si è sicuri dell'origine dati usata, è possibile individuarla eseguendo
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiornamento dei dati](refresh-data.md)  
-[Power BI Gateway - Personale](personal-gateway.md)  
+[Power BI Gateway - Personale](service-gateway-personal-mode.md)  
 [Gateway dati locale](service-gateway-onprem.md)  
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)  

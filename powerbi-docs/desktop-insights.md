@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5bb3f49ef49ed7bbaeb3f52e0711247e0abdc615
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286084"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134686"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Usare le informazioni dettagliate in Power BI Desktop (anteprima)
 È possibile indicare a **Power BI Desktop** di spiegare gli aumenti o le diminuzioni nei grafici per ottenere un'analisi approfondita, rapida e automatizzata dei dati. È sufficiente fare clic con il pulsante destro del mouse su un punto dati e scegliere **Analizza > Spiega la diminuzione** (o l'aumento, se la barra precedente era più bassa) per visualizzare informazioni dettagliate in una finestra facile da usare.
@@ -72,7 +72,7 @@ Neppure i tipi di modelli e le origini dati seguenti sono attualmente supportati
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni su **Power BI Desktop** e su come iniziare, vedere gli articoli seguenti.
 
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md)

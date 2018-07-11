@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 966d25ce2cddbba4623774c9bcfc6a0a9f0af904
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310269"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137147"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Domande frequenti per Power BI per i clienti di Cloud Germania
 È disponibile una versione del **servizio Power BI** per i clienti dell'Unione Europea/Associazione europea di libero scambio (UE/AELE), nota anche come Microsoft Cloud Deutschland (MCD). La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti UE/AELE ed è separata e diversa dalla versione commerciale del **servizio Power BI** o dei servizi Power BI forniti ai clienti del governo.
@@ -73,5 +73,5 @@ Power BI offre infinite possibilità. Per altre informazioni e per la formazione
 
 * [Apprendimento guidato per Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Introduzione al servizio Power BI](service-get-started.md)
-* [Introduzione a Power BI Desktop](desktop-getting-started.md)
+* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 

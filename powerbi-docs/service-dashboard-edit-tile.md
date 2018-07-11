@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248343"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598979"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Modificare o rimuovere un riquadro del dashboard
 
@@ -35,12 +35,12 @@ In questo articolo vengono trattati gli argomenti seguenti.
 * [Aggiungere un riquadro a un altro dashboard](#different)
 * [Eliminare un riquadro](#delete)
   
- > [!TIP]
- > Per modificare la visualizzazione nel riquadro, eliminare il riquadro e aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md).
- > 
+  > [!TIP]
+  > Per modificare la visualizzazione nel riquadro, eliminare il riquadro e aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md).
 
- ### <a name="prerequisites"></a>Prerequisiti
- 1. Per seguire la procedura, aprire il servizio Power BI (non Power BI Desktop) e [scaricare l'Esempio di analisi della spesa IT](sample-it-spend.md). Quando viene visualizzato il messaggio "Operazione riuscita", selezionare **Vai al dashboard**
+  
+## <a name="prerequisites"></a>Prerequisiti
+Per seguire la procedura, aprire il servizio Power BI (non Power BI Desktop) e [scaricare l'Esempio di analisi della spesa IT](sample-it-spend.md). Quando viene visualizzato il messaggio "Operazione riuscita", selezionare **Vai al dashboard**
 
 - - -
 <a name="create"></a>

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c2b9a106c4007af868cf69902ce511da8e03e75f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e4ffc542a9564ba3893245ef637b3edd01c38640
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244562"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598756"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Cambiare le dimensioni di una pagina del report
 Nell'[articolo e nel video precedenti](power-bi-report-display-settings.md) sono stati illustrati due modi diversi per controllare la visualizzazione delle pagine nei report di Power BI: **Visualizza** e **Dimensioni pagina**. Le opzioni Visualizzazione pagina e Dimensioni pagina sono disponibili sia nel servizio Power BI sia in Power BI Desktop. L'aspetto e la funzionalità sono praticamente uguali, ma in questa esercitazione verrà usato il servizio Power BI.
@@ -31,19 +31,19 @@ Nell'[articolo e nel video precedenti](power-bi-report-display-settings.md) sono
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_page.png)
 2. Assicurarsi che nell'area di disegno non sia selezionata alcuna visualizzazione. Selezionare **Visualizza** ed esaminare le opzioni di visualizzazione.
 
-    * Questo sarà l'aspetto in Visualizzazione di lettura.
+   * Questo sarà l'aspetto in Visualizzazione di lettura.
 
      ![](media/power-bi-change-report-display-settings/power-bi-page-view-menu-new.png)
-    * Questo sarà l'aspetto in Visualizzazione di modifica.
+   * Questo sarà l'aspetto in Visualizzazione di modifica.
 
-    ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
+     ![](media/power-bi-change-report-display-settings/power-bi-view-editing-view.png)
 
-1. Si osservi l'aspetto della pagina quando si usa l'impostazione **Dimensioni effettive**.
+3. Si osservi l'aspetto della pagina quando si usa l'impostazione **Dimensioni effettive**.
 
    ![](media/power-bi-change-report-display-settings/power-bi-actal-size2.png)
 
    Non è grande, il dashboard presenta ora due barre di scorrimento.
-2. Passare a **Adatta in larghezza**.
+4. Passare a **Adatta in larghezza**.
 
    ![](media/power-bi-change-report-display-settings/pbi_fit_to_width.png)
 

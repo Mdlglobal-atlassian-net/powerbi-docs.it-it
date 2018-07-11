@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 859ab3fdfd06040d8bbf131ab91ea6c9f84deb40
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34241948"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965206"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gestire l'area di lavoro per le app in Power BI e Office 365
 Il creatore o l'amministratore di un'[area di lavoro per le app in Power BI](service-install-use-apps.md) o in Office 365 può gestire alcuni aspetti dell'area di lavoro in Power BI, mentre altri devono essere gestiti in Office 365. 
@@ -33,7 +33,7 @@ Il creatore o l'amministratore di un'[area di lavoro per le app in Power BI](ser
 * Visualizzare l'indirizzo di posta elettronica del gruppo.
 * Eliminare il gruppo.
 
-Per diventare amministratore o membro di un'area di lavoro per le app è necessaria una licenza [Power BI Pro](service-free-vs-pro.md). Anche gli utenti delle app devono disporre di una licenza Power BI Pro, a meno che l'area di lavoro per le app non sia inclusa in una capacità di Power BI Premium. In tal caso, gli utenti aziendali potranno accedere all'app con una licenza gratuita di Power BI. Per informazioni dettagliate, leggere [Che cos'è Power BI Premium?](service-premium.md).
+Per diventare amministratore o membro di un'area di lavoro per le app è necessaria una licenza [Power BI Pro](service-free-vs-pro.md). Anche gli utenti delle app devono disporre di una licenza Power BI Pro, a meno che l'area di lavoro per le app non sia inclusa in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium.md) (Che cos'è Power BI Premium?).
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Modificare l'area di lavoro per le app in Power BI
 1. Nel servizio Power BI, fare clic sulla freccia accanto ad **Aree di lavoro** > selezionare i puntini di sospensione (**…**) accanto al nome dell'area di lavoro per le app > **Modifica area di lavoro**. 

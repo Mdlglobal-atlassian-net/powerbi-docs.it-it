@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799557"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599336"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configurazione delle impostazioni del proxy per il gateway dati locale
 È possibile che l’ambiente di lavoro richieda il passaggio attraverso un proxy per accedere a Internet. Ciò potrebbe impedire al gateway dati locale di connettersi al servizio.
@@ -77,23 +77,23 @@ Quando si configurano le impostazioni proxy per l'utilizzo delle credenziali pre
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Modificare l'account del servizio Gateway dati locale
 1. Modificare l'account del servizio Windows per il **servizio Gateway dati locale**.
-   
+
     L'account predefinito per questo servizio è *NT SERVICE\PBIEgwService*. È opportuno modificare questo account con un account utente di dominio all'interno del dominio di Active Directory. In alternativa, è possibile usare un account del servizio gestito per evitare di modificare la password.
-   
+
     Modificare l'account nella scheda di **accesso** all'interno delle proprietà del servizio Windows.
 2. Riavviare il **servizio Gateway dati locale**.
-   
+
     Da un prompt dei comandi per amministratori, eseguire questi comandi.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Avviare lo **strumento di configurazione del gateway dati locale**. È possibile selezionare il pulsante Start di Windows e cercare *gateway dati locale*.
 4. Accedere a Power BI.
 5. Ripristinare il gateway usando la chiave di ripristino.
-   
+
     In questo modo, il nuovo account di servizio potrà decrittografare le credenziali archiviate per le origini dati.
-    
+
 > [!NOTE]
 > Quando si modifica l'account del servizio direttamente tramite il Pannello di controllo Servizi, gli ACL non vengono aggiornati automaticamente. È necessario assicurarsi che il nuovo account del servizio abbia accesso ai file e alla cartella di installazione. È possibile trovare la cartella di installazione del gateway in C:\Programmi\On-premises data gateway. 
 > 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 293c8af5b7c6a544b08a5f7b3dc0be7dd576f7ec
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c52dd30a2b0dc911adbf706ec5007bb553f2717
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245708"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092300"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Aggiornare un set di dati memorizzato in OneDrive o SharePoint Online
 Importare i file da OneDrive o SharePoint Online nel servizio Power BI è un modo efficace per garantire la sincronizzazione delle operazioni in **Power BI Desktop** con il servizio Power BI.
@@ -49,7 +49,7 @@ Le opzioni Aggiorna ora e Pianifica aggiornamenti in Power BI sono supportate pe
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive o OneDrive for Business. Qual è la differenza?
 Se si ha un account OneDrive personale e OneDrive for Business, è consigliabile mantenere tutti i file da importare in Power BI in OneDrive for Business. Motivo: è probabile che verranno usati due account diversi per l'accesso.
 
-La connessione a OneDrive for Business in Power BI in genere non crea problemi perché l'account usato per accedere a Power BI spesso coincide con quello usato per accedere a OneDrive for Business. Invece, con l'account OneDrive personale, l'accesso viene solitamente eseguito con un altro [account Microsoft](http://www.microsoft.com/account/default.aspx).
+La connessione a OneDrive for Business in Power BI in genere non crea problemi perché l'account usato per accedere a Power BI spesso coincide con quello usato per accedere a OneDrive for Business. Invece, con l'account OneDrive personale, l'accesso viene solitamente eseguito con un altro [account Microsoft](https://account.microsoft.com).
 
 Quando si accede con l'account Microsoft, assicurarsi di selezionare Mantieni l'accesso. Power BI può quindi sincronizzare tutti gli aggiornamenti apportati nel file di Power BI Desktop con i set di dati in Power BI  
     ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)

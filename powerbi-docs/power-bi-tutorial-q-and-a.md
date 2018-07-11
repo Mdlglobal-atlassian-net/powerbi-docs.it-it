@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239489"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599231"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Esercitazione: Come usare Domande e risposte per creare visualizzazioni e report
 Nella [panoramica di Domande e risposte](power-bi-q-and-a.md) è stata illustrata la funzionalità Domande e risposte di Power BI e la differenza tra *consumer* (utenti con cui sono stati condivisi dashboard e report) e *autori* (proprietari dei report e dei set di dati sottostanti). La prima parte di questa esercitazione è destinata principalmente agli utenti (consumer) che accedono ai dashboard tramite il servizio Power BI. La seconda parte è invece destinata a coloro che creano i report tramite il servizio Power BI o Power BI Desktop. Gli argomenti relativi a [Domande e risposte e Power BI per dispositivi mobili](mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/qanda.md) vengono illustrati in articoli separati.
@@ -90,9 +90,9 @@ Per usare Domande e risposte nei report, è necessario disporre delle autorizzaz
 
 6. Interagire con la nuova visualizzazione. Non è importante il modo in cui è stata creata la visualizzazione, perché l'interattività, la formattazione e le funzionalità saranno le stesse.
 
-  ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
+   ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-ellipses.png)
 
-  Se la visualizzazione è stata creata nel servizio Power BI, sarà possibile [aggiungerla a un dashboard](service-dashboard-pin-tile-from-q-and-a.md).
+   Se la visualizzazione è stata creata nel servizio Power BI, sarà possibile [aggiungerla a un dashboard](service-dashboard-pin-tile-from-q-and-a.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quale visualizzazione usare.
 Con Domande e risposte non solo è possibile chiedere ai dati di parlare da sé, ma è anche possibile specificare in che modo visualizzarli. È sufficiente aggiungere "come <visualization type>" alla fine della domanda.  ad esempio "mostra volume inventario per stabilimento come mappa" e "mostra inventario totale come scheda".  Provare in prima persona.
