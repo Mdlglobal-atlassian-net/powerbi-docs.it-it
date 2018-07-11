@@ -3,12 +3,12 @@ layout: HubPage
 hide_bc: true
 title: Documentazione di Power BI
 description: Documentazione di Power BI
-ms.openlocfilehash: da81bbbac4b4e92cf5e22580e27087e9e0cc54e1
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 61caafcfd5ea816a1678209355dab387a83a8642
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "33945665"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37597348"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -33,7 +33,7 @@ ms.locfileid: "33945665"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Servizio Power BI</h3>
-                                                    <p>Il servizio Power BI è il servizio online in cui sono disponibili dashboard, app e report pubblicati.</p>
+                                                    <p>Il servizio Power BI è il servizio online che mette a disposizione dashboard, app e report pubblicati.</p>
                                                 </div>
                                             </div>
                                         </div>
