@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137492"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877332"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
@@ -38,7 +38,7 @@ La prima connessione dati è una cartella di lavoro di Excel. L'altra è una ris
 La procedura necessaria per connettersi a entrambe queste origini dati coincide con l'inizio delle attività comuni di Query.
 
 ## <a name="connect-to-data"></a>Connettersi ai dati
-Per connettersi ai dati in Power BI Desktop, selezionare il pulsante **Recupera dati** nella scheda **Home** della barra multifunzione. Power BI Desktop visualizza un menu con le origini dati più comuni. Per un elenco completo delle origini dati a cui Power BI Desktop può connettersi, selezionare il pulsante **Altro** nella parte inferiore del menu. Per altre informazioni, vedere [Origini dati in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+Per connettersi ai dati in Power BI Desktop, selezionare il pulsante **Recupera dati** nella scheda **Home** della barra multifunzione. Power BI Desktop visualizza un menu con le origini dati più comuni. Per un elenco completo delle origini dati a cui Power BI Desktop può connettersi, selezionare il pulsante **Altro** nella parte inferiore del menu. Per altre informazioni, vedere [Origini dati in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Scegliere **OK**. Come in precedenza, Power BI Desktop esamina la cartella di la
 
 Le altre connessioni dati sono simili. Se per stabilire una connessione dati è necessaria l'autenticazione, Power BI Desktop richiederà di immettere le credenziali appropriate.
 
-Per informazioni dettagliate sulla connessione ai dati in Power BI Desktop, vedere [Connettersi ai dati in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+Per informazioni dettagliate sulla connessione ai dati in Power BI Desktop, vedere [Connettersi ai dati in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Effettuare il data shaping e combinare i dati
-L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
+L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
 
 Nella sezione precedente sono stati caricati due set di dati, una cartella di lavoro di Excel e una risorsa Web. Dopo il caricamento nell'Editor di query, la visualizzazione è simile alla seguente, con la query della pagina Web selezionata (tratta dall'elenco delle query disponibili elencate nel riquadro **Query** sul lato sinistro della finestra Editor di query).
 
