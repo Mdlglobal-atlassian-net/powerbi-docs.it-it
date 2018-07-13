@@ -1,6 +1,6 @@
 Per tenere traccia dei dati mentre si è in viaggio, è possibile usare una delle applicazioni Power BI per dispositivi mobili per dispositivi iOS, Android e Windows.
 
-Quando si utilizza l'app Power BI, innanzitutto effettuare l'accesso all'account utilizzando le informazioni sull'account del servizio Power BI. In un dispositivo mobile Windows (in questo caso un tablet), l'accesso ha un aspetto simile al seguente.
+Quando si usa l'app Power BI, accedere prima all'account usando le informazioni account del servizio Power BI. In un dispositivo mobile Windows (in questo caso un tablet), l'accesso ha un aspetto simile al seguente.
 
 ![](media/4-4a-power-bi-mobile/4-4a_1.png)
 
