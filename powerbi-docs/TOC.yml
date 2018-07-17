@@ -898,6 +898,8 @@
       items:
         - name: Incorporare contenuto per i clienti
           href: developer/embed-sample-for-customers.md
+        - name: Incorporare contenuto per l'organizzazione
+          href: developer/embed-sample-for-your-organization.md
     - name: Concetti
       items:
         - name: Utilizzo delle API REST di Power BI
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Come incorporare il contenuto
               href: developer/embedding-content.md
-            - name: Integrare un dashboard in un'app (i dati sono di proprietà dell'utente)
-              href: developer/integrate-dashboard.md
-            - name: Integrare un riquadro di Power BI in un'app (i dati sono di proprietà dell'utente)
-              href: developer/integrate-tile.md
-            - name: Integrare un report di Power BI in un'app (i dati sono di proprietà dell'utente)
-              href: developer/integrate-report.md
+            - name: Come incorporare da un'app
+              href: developer/embed-from-apps.md
             - name: Integrare contenuti in un'applicazione per i cloud sovrani (i dati sono di proprietà dell'app)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Incorporare layout personalizzati in un'app
