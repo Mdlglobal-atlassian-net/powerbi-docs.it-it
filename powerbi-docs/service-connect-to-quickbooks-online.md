@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7caf471674c20607826550fc14f8ebc8e772b61a
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b4cd8974316119978749db4f3996db76d907ab38
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584255"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136066"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Connettersi a QuickBooks Online con Power BI
 Quando ci si connette ai dati di QuickBooks Online da Power BI, vengono immediatamente visualizzati un dashboard e report di Power BI che forniscono informazioni dettagliate sul flusso di cassa aziendale, sulla redditività, sui clienti e molto altro ancora. È possibile usare il dashboard e i report senza alcuna modifica oppure personalizzarli per evidenziare le informazioni a cui si è maggiormente interessati. I dati vengono aggiornati automaticamente una volta al giorno.
@@ -80,7 +80,7 @@ Attualmente, Power BI supporta solo le versioni di QuickBooks Online per gli Sta
 ![](media/service-connect-to-quickbooks-online/pbi_qbo_countrynotsupported.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Introduzione a Power BI](service-get-started.md)
+[Che cos'è Power BI?](power-bi-overview.md)
 
 [Power BI - Concetti di base](service-basic-concepts.md)
 

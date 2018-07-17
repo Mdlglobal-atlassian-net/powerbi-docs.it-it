@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297447"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136526"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
 L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. 
@@ -23,7 +23,7 @@ L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobil
 
 È possibile creare report di Power BI in Power BI Desktop e pubblicarli:
 
-* [Pubblicarli nel servizio Power BI](service-get-started.md) e creare dashboard.
+* [Pubblicarli nel servizio Power BI](power-bi-overview.md) e creare dashboard.
 * [Pubblicarli in locale nel Server di report di Power BI](report-server/quickstart-create-powerbi-report.md).
 
 Nell'app Power BI per Android è quindi possibile interagire con i dashboard e i report, in locale o nel cloud.
@@ -136,7 +136,7 @@ Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositi
 
 ### <a name="see-also"></a>Vedere anche
 * [Scaricare l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
-* [Introduzione a Power BI](service-get-started.md)
+* [Che cos'è Power BI?](power-bi-overview.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 
 

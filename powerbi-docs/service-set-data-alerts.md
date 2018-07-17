@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689715"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137585"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Avvisi per i dati nel servizio Power BI
 Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. 
@@ -104,6 +104,6 @@ Sono disponibili molti modi per gestire gli avvisi: dal riquadro del dashboard, 
 ## <a name="next-steps"></a>Passaggi successivi
 [Creare un flusso di Microsoft Flow che includa un avviso per i dati](service-flow-integration.md)    
 [Impostare gli avvisi per i dati nel dispositivo mobile](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Introduzione a Power BI](service-get-started.md)    
+[Che cos'è Power BI?](power-bi-overview.md)    
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

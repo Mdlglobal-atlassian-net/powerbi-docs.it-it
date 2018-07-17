@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288062"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330123"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -64,7 +64,7 @@ Una volta creato un segnalibro, è possibile visualizzarlo facendo clic sul segn
 
 È anche possibile specificare se ogni segnalibro applicherà le proprietà dei *dati*, ad esempio filtri e filtri dei dati, le proprietà di *visualizzazione*, come evidenziazioni e relativa visibilità e le modifiche della pagina che presentano la pagina che era visibile quando è stato aggiunto il segnalibro. Queste funzionalità sono utili quando si usano i segnalibri per passare tra i tipi di oggetti visivi. In questo caso è probabile che si voglia disattivare la proprietà dei dati, in modo che i filtri non vengano reimpostati quando gli utenti cambiano tipo di oggetto visivo. 
 
-Per apportare tali modifiche, selezionare i puntini di sospensione accanto al nome del segnalibro, come mostrato nell'immagine precedente, quindi selezionare o deselezionare i segni di spunta accanto a *Dati*, *Visualizzazione* e altri controlli. 
+Per apportare tali modifiche, selezionare i puntini di sospensione accanto al nome del segnalibro, come illustrato nell'immagine precedente, e selezionare o deselezionare i segni di spunta accanto a *Dati*, *Visualizzazione* e altri controlli. 
 
 ## <a name="arranging-bookmarks"></a>Disposizione dei segnalibri
 Man mano che si creano i segnalibri, è possibile che l'ordine in cui vengono creati non è necessariamente lo stesso con cui si vuole presentarli ai destinatari. Riorganizzare l'ordine dei segnalibri è facile.
@@ -104,7 +104,7 @@ Quando viene aggiunto un segnalibro, viene anche salvato lo stato di visibilità
 ## <a name="bookmarks-for-shapes-and-images"></a>Segnalibri per forme e immagini
 È anche possibile collegare forme e immagini ai segnalibri. Con questa funzionalità, quando si fa clic su un oggetto, verrà mostrato il segnalibro associato a tale oggetto. Ciò può risultare particolarmente utile quando si utilizzano i pulsanti. Vedere l'articolo [Uso dei pulsanti in Power BI](desktop-buttons.md) per altre informazioni. 
 
-Per assegnare un segnalibro a un oggetto, selezionare l'oggetto, quindi espandere la sezione **Azione** nel riquadro **Formato forma**, come mostrato nell'immagine seguente.
+Per assegnare un segnalibro a un oggetto, selezionare l'oggetto ed espandere la sezione **Azione** nel riquadro **Formato forma**, come illustrato nell'immagine seguente.
 
 ![Aggiungere un collegamento a un segnalibro a un oggetto](media/desktop-bookmarks/bookmarks_10.png)
 

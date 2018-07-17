@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722202"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926537"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Ricerca di utenti Power BI che hanno eseguito l'accesso
 Se si è un amministratore tenant e si desidera vedere chi ha effettuato l'accesso a Power BI, è possibile usare i report d'uso e di accesso di Azure Active Directory per ottenere informazioni.
@@ -25,9 +25,7 @@ Se si è un amministratore tenant e si desidera vedere chi ha effettuato l'acces
 È possibile accedere al report di attività all'interno dei portali [nuovo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) e [classico](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) di Azure Active Directory (Azure AD). Mentre il video precedente usa il portale classico come esempio, in questo articolo verrà messo in evidenza il nuovo portale.
 
 > [!NOTE]
-> Questo report di attività include utenti sia Power BI (gratuito) che Pro, ma non li identifica in base al tipo di licenza.
-> 
-> 
+> In questo report di attività non viene indicato il tipo di licenza di cui dispone ogni utente.
 
 ## <a name="requirements"></a>Requisiti
 Di seguito sono indicati i requisiti per visualizzare il report delle attività di accesso.
@@ -70,7 +68,7 @@ I dati di accesso rimangono disponibili per un massimo di 30 giorni. Per altre i
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Sign-in activity reports in the Azure Active Directory portal (New Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) (Report sulle attività di accesso al portale di Azure Active Directory (nuovo portale))  
-[View your access and usage reports (Classic Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report) (Visualizzare i report di uso e di accesso (portale classico))  
+[View your access and usage reports (Classic Portal)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) (Visualizzare i report di uso e di accesso (portale classico))  
 [Sign-in sample PowerShell script](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) (esempio di accesso di uno script di PowerShell)  
 [Azure Active Directory report retention policies](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention) (Criteri di conservazione dei report di Azure Active Directory)  
 [Uso del controllo nell'organizzazione](service-admin-auditing.md)  

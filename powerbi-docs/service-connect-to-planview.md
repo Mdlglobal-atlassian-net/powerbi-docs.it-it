@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4641fc0c36ad7fb64cc5da08ee8eda180f4ccc31
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240490"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137400"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Connettersi a Planview Enterprise con Power BI
 Con il pacchetto di contenuto Planview Enterprise per Power BI è possibile visualizzare i dati di gestione risorse e lavoro in modi completamente nuovi direttamente in Power BI. Usare le credenziali di accesso a Planview Enterprise per vedere in modo interattivo gli investimenti per il portfolio comprendere lo stato del budget e controllare l'allineamento dei progetti alle priorità strategiche aziendali. È anche possibile estendere il dashboard e i report predefiniti per ottenere le informazioni più importanti.
@@ -52,10 +52,10 @@ Connettersi al [pacchetto di contenuto Planview Enterprise in Power BI](https://
 ## <a name="system-requirements"></a>Requisiti di sistema
 Per importare i dati di Planview Enterprise in Power BI è necessario essere un utente di Planview Enterprise con la funzionalità Reporting Portal Viewer abilitata nel proprio ruolo. Vedere i requisiti aggiuntivi indicati di seguito.
 
-Questa procedura presuppone che sia stato già effettuato l'accesso alla home page di Microsoft Power BI con un account Power BI. Se non si ha un account Power BI, creare un nuovo account Power BI gratuito nella home page di Power BI e quindi fare clic su Recupera dati.
+Questa procedura presuppone che sia stato già effettuato l'accesso alla home page di Microsoft Power BI con un account Power BI. Se non si dispone di un account Power BI, andare a [powerbi.com](https://powerbi.microsoft.com/get-started/) e in **Power BI - Collaborazione e condivisione nel cloud**, selezionare **Prova gratuitamente**. Quindi fare clic su **Recupera dati**.
 
 ## <a name="next-steps"></a>Passaggi successivi:
 
-[Introduzione a Power BI](service-get-started.md)
+[Che cos'è Power BI?](power-bi-overview.md)
 
 [Recuperare dati per Power BI](service-get-data.md)

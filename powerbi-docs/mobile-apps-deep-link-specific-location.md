@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297723"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135445"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creare un collegamento a una posizione specifica nelle app Power BI per dispositivi mobili
 È possibile creare e usare un collegamento Uniform Resource Identifier (URI) per collegarsi a una posizione specifica (un *collegamento diretto*) all'interno delle app Power BI per dispositivi mobili su tutte le piattaforme per dispositivi mobili: iOS, dispositivi Android e Windows 10.
@@ -103,5 +103,5 @@ I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementa
 * [App Power BI per dispositivi mobili](mobile-apps-for-mobile-devices.md)
 * Seguire @MSPowerBI su Twitter
 * Partecipare alla conversazione nella [community di Power BI](http://community.powerbi.com/)
-* [Introduzione a Power BI](service-get-started.md)
+* [Che cos'è Power BI?](power-bi-overview.md)
 

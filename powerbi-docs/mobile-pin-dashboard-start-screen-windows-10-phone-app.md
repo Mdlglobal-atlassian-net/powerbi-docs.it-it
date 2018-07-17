@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/25/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5492ed25dc5bd803661186694e7f9d3f4e19c30f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6ba62900206149f754f774f6bfd031aeb71f7437
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291559"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37134847"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Aggiungere un dashboard alla schermata Start di Windows 10 dall'app Power BI per dispositivi mobili
 È possibile aggiungere dashboard di Power BI alla schermata Start di Windows dall'app Power BI per dispositivi mobili per Windows 10. Questi diventano *riquadri animati*. Quando si tocca il riquadro nella schermata Start, il dashboard viene aperto nell'app Power BI per dispositivi mobili per Windows 10.
@@ -34,6 +34,6 @@ ms.locfileid: "34291559"
 ## <a name="next-steps"></a>Passaggi successivi
 * [Scaricare l'app Power BI per dispositivi mobili per Windows 10](http://go.microsoft.com/fwlink/?LinkID=526478) da Windows Store  
 * [Introduzione all'app Power BI per dispositivi mobili per Windows 10](mobile-windows-10-phone-app-get-started.md)  
-* [Introduzione a Power BI](service-get-started.md)
+* [Che cos'è Power BI?](power-bi-overview.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

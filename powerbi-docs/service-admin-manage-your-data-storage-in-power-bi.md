@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a30c90b1c180277a584a152f26c7f92549284c7d
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245363"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944745"
 ---
 # <a name="manage-your-data-storage"></a>Gestire l'archiviazione dei dati
 Informazioni su come è possibile gestire l'archiviazione dei dati individuale o dell'area di lavoro per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
 
 Gli utenti e le aree di lavoro app hanno capacità di dati personalizzate
 
-* Ai clienti che scelgono le licenze gratuita e Pro viene assegnato uno spazio di archiviazione dati massimo di 10 GB.
-* Gli utenti con licenza Pro possono creare aree di lavoro per le app con 10 GB di archiviazione dati ciascuna.
+* A tutti gli utenti viene assegnato uno spazio di archiviazione dati massimo di 10 GB.
+* Gli utenti con licenza Power BI Pro possono creare aree di lavoro per le app con 10 GB di spazio di archiviazione dati ciascuna.
 
 A livello di tenant l'utilizzo totale non può superare 10 GB per utente della licenza Pro tra tutti gli utenti e le aree di lavoro per le app nel tenant.
 

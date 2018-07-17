@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: aa4aac1b0628fb0670a4265095ba2abcae3c1dcf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2ca419e1e07485ad29c486d8626e78d9605c8468
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292571"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965022"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -25,7 +25,7 @@ Si applica a:
 
 È possibile impostare gli avvisi sui dashboard nell'app Power BI per dispositivi mobili e nel servizio Power BI. Gli avvisi segnalano eventuali modifiche apportate ai dati in un riquadro che superano i limiti impostati. Gli avvisi possono essere usati con i riquadri in cui è presente un singolo numero, ad esempio le schede e i misuratori, ma non con i dati di streaming. Gli avvisi per i dati possono essere impostati in un dispositivo mobile e visualizzati nel servizio Power BI e viceversa. Gli avvisi per i dati sono visibili solo all'utente che li ha impostati, anche se si condivide un dashboard o uno snapshot di un riquadro.
 
-È possibile impostare avvisi sui riquadri se si ha una licenza di Power BI Pro oppure se si ha una licenza gratuita di Power BI e il dashboard condiviso è disponibile in una capacità Premium. 
+È possibile impostare avvisi sui riquadri se si ha una licenza di Power BI Pro oppure se il dashboard condiviso è disponibile in capacità Premium. 
 
 > [!WARNING]
 > Le notifiche di avviso basate sui dati forniscono informazioni sui dati. Se il dispositivo viene rubato, è consigliabile disattivare tutte le regole di avviso basate sui dati usando il servizio Power BI. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5e12e32d947779f4ebc5bc2d238125c7359c08fe
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7a10429561efed82d9481b2899a997cc89737d55
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242296"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135560"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Connettersi a Mandrill con Power BI
 Il pacchetto di contenuto Power BI estrae i dati dall'account Mandrill e genera un dashboard, un set di report e un set di dati utili per l'esplorazione dei dati. Usare l'analisi di Mandrill per ottenere rapidamente informazioni sulla newsletter o sulla campagna di marketing. I dati sono impostati in modo da essere aggiornati quotidianamente.
@@ -47,7 +47,7 @@ Connettersi al [pacchetto di contenuto Mandrill per Power BI](http://app.powerbi
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Introduzione a Power BI](service-get-started.md)
+[Che cos'è Power BI?](power-bi-overview.md)
 
 [Power BI - Concetti di base](service-basic-concepts.md)
 

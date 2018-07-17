@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298321"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944354"
 ---
 # <a name="power-bi-premium-release-notes"></a>Note sulla versione di Power BI Premium
 Queste sono le note sulla versione per Power BI Premium, una capacità dedicata che consente all'organizzazione o al team di avere prestazioni più affidabili, volumi di dati maggiori e la possibilità di distribuire il contenuto senza licenze per i singoli utenti per i visualizzatori.
 
-* Gli utenti con licenze gratuite di Power BI possono ora visualizzare i dashboard condivisi con loro dalle aree di lavoro Premium del servizio Power BI.
+* Tutti gli utenti, indipendentemente dalla licenza di cui dispongono, possono ora visualizzare i dashboard condivisi con loro dalle aree di lavoro Premium del servizio Power BI.
 * Gli amministratori della capacità ottengono ora automaticamente le autorizzazioni di assegnazione della capacità.
 * La sicurezza dinamica a livello di riga è ora disponibile per i casi di uso incorporato. Per altre informazioni, vedere [Sicurezza a livello di riga con analisi incorporata](developer/embedded-row-level-security.md).
 * La distribuzione delle app di Power BI agli utenti di altri tenant di AAD tramite powerbi.com non è ancora supportata. Microsoft si sta impegnando per abilitare questa funzionalità.

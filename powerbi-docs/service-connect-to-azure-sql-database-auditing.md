@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dd9b5b9f9db95b73a7001c34bcabcd2deacb8b4c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243892"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136563"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pacchetto di contenuto Servizio di controllo del database SQL per Power BI
 Il pacchetto di contenuto Power BI per il [servizio di controllo del database SQL](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) di Azure consente di comprendere l'attività del database e di ottenere informazioni su discrepanze e anomalie che potrebbero indicare problemi aziendali o possibili violazioni della sicurezza. 
@@ -69,4 +69,4 @@ Connettersi al [pacchetto di contenuto Servizio di controllo del database SQL](h
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Recuperare dati per Power BI](service-get-data.md)
-[Introduzione a Power BI](service-get-started.md)
+[Che cos'è Power BI?](power-bi-overview.md)

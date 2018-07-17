@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964815"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145388"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Sì, i prezzi per gli enti senza scopo di lucro sono disponibili quando si acqui
 Il servizio Power BI [https://powerbi.com](https://powerbi.com) non è disponibile come servizio cloud interno privato. Tuttavia, sono disponibili altre tre opzioni per visualizzare e usare i dati in locale. 
 
 ### <a name="on-premises-data-gateway"></a>Gateway dati locale
-Con Power BI e Power BI Desktop, è possibile connettersi in modo sicuro alle origini dati locali. Con il [gateway dati locale](service-gateway-onprem.md) è possibile connettersi dinamicamente al server di SQL Server Analysis Services locale e ad altre origini dati. È anche possibile impostare l'aggiornamento pianificato con un gateway centralizzato. Se non è disponibile un gateway, è possibile aggiornare i dati da origini dati locali usando [Power BI Gateway - Personal](personal-gateway.md).
+Con Power BI e Power BI Desktop, è possibile connettersi in modo sicuro alle origini dati locali. Con il [gateway dati locale](service-gateway-onprem.md) è possibile connettersi dinamicamente al server di SQL Server Analysis Services locale e ad altre origini dati. È anche possibile impostare l'aggiornamento pianificato con un gateway centralizzato. Se non è disponibile un gateway, è possibile aggiornare i dati da origini dati locali usando [Power BI Gateway - Personal](service-gateway-personal-mode.md).
 
 ### <a name="power-bi-report-server"></a>Server di report Power BI
 Il server di report di Power BI è una soluzione da distribuire in locale per creare, pubblicare e gestire i report, per poi recapitarli a utenti diversi in modi diversi, ad esempio in un Web browser, in un dispositivo mobile o come messaggio di posta elettronica nella posta in arrivo. Altre informazioni sul [server di report Power BI](report-server/get-started.md).
@@ -138,6 +138,7 @@ Come molti altri servizi e software Microsoft, Power BI consente di annullare ra
 * Per **annullare** l'ultima azione o le ultime azioni premere CTRL+Z.
 
 ## <a name="next-steps"></a>Passaggi successivi
+* [Che cos'è Power BI?](power-bi-overview.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/)
 

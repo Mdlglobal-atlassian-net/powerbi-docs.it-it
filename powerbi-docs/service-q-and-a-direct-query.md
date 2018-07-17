@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245583"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092185"
 ---
 # <a name="enable-qa-for-live-connections"></a>Attivazione di domande e risposte per le connessioni dinamiche
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>Che cos'è il gateway dati locale?  Che cos'è una connessione dinamica?
@@ -56,6 +56,7 @@ Durante la fase di anteprima di questa funzionalità, sono previste alcune limit
 
 * La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. Alcune funzionalità sono disponibili per le origini dati multidimensionali, ma l'esperienza completa di Domande e risposte non è ancora supportata per questo tipo di origine dati. Altre origini dati supportate dal gateway dati locale verranno implementate progressivamente in futuro.
 * Il supporto completo per la sicurezza a livello di riga definito in SQL Server Analysis Services non è inizialmente disponibile nell'anteprima pubblica. Quando si formulano domande in Domande e risposte, il "completamento automatico" delle domande durante la digitazione può mostrare valori di stringa a cui un utente non ha accesso. Tuttavia, poiché la sicurezza a livello di riga definita nel modello viene rispettata per gli oggetti visivi dei report e dei grafici, non c’è la possibilità che vengano esposti i dati numerici sottostanti. Le opzioni per controllare questo comportamento verranno rilasciate nei prossimi aggiornamenti.
+* La sicurezza a livello di oggetto non è supportata. Domande e risposte non rispetta la sicurezza a livello di oggetto e può rivelare nomi di tabella o colonna ad utenti non autorizzati ad accedervi. Si consiglia pertanto di abilitare la sicurezza a livello di riga per fare in modo che anche i valori dei dati siano protetti in modo adeguato. 
 * Le connessioni dinamiche sono supportate solo con il gateway dati locale. Di conseguenza, questo non è utilizzabile con il gateway personale.
 
 ## <a name="next-steps"></a>Passaggi successivi

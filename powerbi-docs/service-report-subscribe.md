@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d166dec82aa56fec1512e3d859e60142afcccd6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755278"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092691"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Sottoscrivere un report o un dashboard nel servizio Power BI (app.powerbi.com)
 Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Eseguire una sottoscrizione per se stessi e per i propri colleghi alle pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. 
@@ -81,10 +81,12 @@ Le sottoscrizioni visualizzate variano in base all'area di lavoro attiva.  Per v
 Una sottoscrizione termina se la licenza Pro scade, il dashboard o il report viene eliminato dal proprietario o l'account utente usato per creare la sottoscrizione viene eliminato.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+* Per le sottoscrizioni tramite posta elettronica ai dashboard, i riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.  Per le sottoscrizioni tramite posta elettronica ai report, non sarà possibile creare una sottoscrizione se il set di dati usa la sicurezza a livello di riga.
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e la si rinomina, sarà necessario ricreare la sottoscrizione
 * Per le sottoscrizioni tramite posta elettronica nei set di dati con connessione dinamica, si riceveranno messaggi di posta elettronica solo quando vengono modificati i dati. Quindi, se si verifica un aggiornamento ma nessun dato viene modificato, Power BI non invierà alcun messaggio di posta elettronica.
 * Le sottoscrizioni tramite posta elettronica non supportano la maggior parte degli [oggetti visivi personalizzati](power-bi-custom-visuals.md).  L'unica eccezione è costituita dagli oggetti visivi personalizzati che sono stati [certificati](power-bi-custom-visuals-certified.md).  
-* I riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.
+* I riquadri dei dashboard a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.
+* Non è possibile iscrivere altri utenti a un report a cui è stata applicata la sicurezza a livello di riga.
 * Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.    
 * Le sottoscrizioni tramite posta elettronica non sono ancora supportate nelle pagine del report create dalla funzione di connessione al servizio in tempo reale di Power BI Desktop.    
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     

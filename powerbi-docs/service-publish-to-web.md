@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254856"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092346"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -135,7 +135,8 @@ La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle o
 5. Gli oggetti visivi "R" non sono attualmente supportati nei report di Pubblica sul Web
 6. Esportazione di dati da oggetti visivi in un report pubblicato sul Web
 7. Oggetti visivi ArcGIS Maps for Power BI
-8. [Proteggere le informazioni riservate o di proprietà](#publish-to-web-from-power-bi)
+8. Report che contengono misure DAX a livello di report
+9. [Proteggere le informazioni riservate o di proprietà](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Impostazione del tenant
 

@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254833"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965298"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Creare e pubblicare app con dashboard e report in Power BI
 
@@ -22,17 +22,15 @@ In Power BI è possibile creare *app* per riunire dashboard e report correlati, 
 
 ![App di Power BI](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-Gli utenti aziendali spesso hanno bisogno di più dashboard e report di Power BI per l'esecuzione delle loro attività aziendali. Le app riuniscono tutti questi elementi, quindi gli utenti non devono ricordare i nomi e le posizioni di tutti i dashboard.  
-
-Con le app Power BI, ora in anteprima, è possibile creare raccolte di dashboard e report e pubblicare le app nell'intera organizzazione o soltanto a gruppi o utenti specifici. Per l'utente amministratore o autore del report, le app rendono più semplice gestire le autorizzazioni per le raccolte di dashboard.
+Gli utenti aziendali spesso hanno bisogno di più dashboard e report di Power BI per l'esecuzione delle loro attività aziendali. Le app riuniscono tutti questi elementi, quindi gli utenti non devono ricordare i nomi e le posizioni di tutti i dashboard. Con le app Power BI è possibile creare raccolte di dashboard e report e pubblicare le app nell'intera organizzazione o soltanto a gruppi o utenti specifici. Per l'utente amministratore o autore del report, le app rendono più semplice gestire le autorizzazioni per le raccolte di dashboard.
 
 Gli utenti aziendali possono ottenere le app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarle automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile installare le app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Potranno facilmente trovare l'intero contenuto e tornarvi in seguito, perché è disponibile in un'unica posizione. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](service-install-use-apps.md).
 
 ### <a name="licenses-for-apps"></a>Licenze per le app
-L'autore di un'app necessita di una licenza Power BI Pro. Per gli utenti di app sono disponibili due opzioni.
+L'autore di un'app necessita di una licenza Power BI Pro. Per gli utenti di app sono disponibili due opzioni di visualizzazione delle app.
 
-* Opzione 1: tutti gli utenti aziendali devono disporre di una licenza **Power BI Pro** per visualizzare le app. 
-* Opzione 2: gli utenti del piano gratuito all'interno dell'organizzazione possono visualizzare il contenuto delle app se queste si trovano in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium.md) (Che cos'è Power BI Premium?).
+* Opzione 1: all'utente dell'app è stata assegnata una licenza **Power BI Pro**. 
+* Opzione 2: all'utente dell'app non è stata assegnata una licenza **Power BI Pro**, ma l'app si trova in una capacità Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium.md) (Che cos'è Power BI Premium?).
 
 ### <a name="apps-and-organizational-content-packs"></a>App e pacchetti di contenuto aziendali
 Le app rappresentano l'evoluzione dei pacchetti di contenuto aziendali. Se si hanno già pacchetti di contenuto aziendali, questi continueranno a funzionare contemporaneamente alle app.
@@ -49,7 +47,7 @@ Le *aree di lavoro per le app* sono i posti in cui si creano le app; dunque, pri
 
 Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicare l'app. È possibile inviare un collegamento diretto a un gruppo di destinatari più ampio oppure rendere disponibili le app dalla scheda App scegliendo **Scarica ed esplora altre app da AppSource**. Tali utenti non possono modificare il contenuto dell'app, ma possono interagirvi nel servizio Power BI o in una delle app per dispositivi mobili, filtrando, evidenziando e ordinando i dati autonomamente. 
 
-## <a name="create-an-app-workspace"></a>Creare un'area di lavoro per le app
+## <a name="create-an-app-workspace"></a>Crea area di lavoro per le app
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 L'area di lavoro è vuota, quindi è possibile aggiungervi contenuto. Si noti che quando la si crea per la prima volta potrebbe essere necessario attendere circa un'ora per la propagazione dell'area di lavoro in Office 365. 

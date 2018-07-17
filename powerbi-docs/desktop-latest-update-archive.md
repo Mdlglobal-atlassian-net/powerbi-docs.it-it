@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813849"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601638"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
@@ -255,7 +255,7 @@ I collegamenti accanto a ogni aggiornamento significano quanto segue:
 * Gli estratti **[video]** vengono riprodotti in una nuova scheda del browser quando viene illustrata la funzionalità.
 * Alcune funzionalità sono corredate da un **[articolo]** che fornisce informazioni più dettagliate.
 * La maggior parte delle funzionalità è descritta in un post di **[blog]** dedicato all'aggiornamento mensile.
--   Infine, alcune funzionalità sono di chiara interpretazione e non richiedono un articolo o un video specifico.
+* Infine, alcune funzionalità sono di chiara interpretazione e non richiedono un articolo o un video specifico.
 
 È anche possibile guardare il video degli **ultimi aggiornamenti** di questo mese dall'inizio, direttamente all'interno di questo articolo, facendo clic sull'icona di **riproduzione** nell'immagine del video che si trova sotto l'elenco degli aggiornamenti.
 
@@ -1844,15 +1844,15 @@ In questo aggiornamento sono state aggiunte o migliorate le funzionalità seguen
     -   Miglioramento della funzionalità di anteprima per le origini multidimensionali (Analysis Services e SAP BusinessObjects)
     -   Opzione Mostra elementi selezionati
     -   Miglioramento delle funzionalità di ricerca nell'albero dello Strumento di navigazione
--   Nuove trasformazioni
-    -   Operazioni di durata e sottrazione per le colonne di data/ora
-    -   Colonne aggregate: opzione per disabilitare il prefisso delle nuove colonne
--   Miglioramenti all'elenco campi
-    -   Espansione/compressione di tabelle
-    -   Opzione per nascondere/scoprire i campi
-    -   Ottimizzazione del layout (spaziatura, margini e tipi di caratteri)
--   Navigazione nelle pagine dei report: supporto dell'uso della tastiera
--   Molte correzioni di bug
+- Nuove trasformazioni
+  -   Operazioni di durata e sottrazione per le colonne di data/ora
+  -   Colonne aggregate: opzione per disabilitare il prefisso delle nuove colonne
+- Miglioramenti all'elenco campi
+  -   Espansione/compressione di tabelle
+  -   Opzione per nascondere/scoprire i campi
+  -   Ottimizzazione del layout (spaziatura, margini e tipi di caratteri)
+- Navigazione nelle pagine dei report: supporto dell'uso della tastiera
+- Molte correzioni di bug
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

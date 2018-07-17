@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/04/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 78edb9d45df1332a25ec27476562d6105c7a8a48
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755370"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944400"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. Non importa se i dati provengono da un semplice foglio di calcolo di Excel o da una raccolta di data warehouse ibride basate sul cloud e locali: **Power BI** consente di connettersi facilmente alle origini dati, visualizzare o individuare gli elementi importanti e condividerli con tutti gli utenti selezionati.
@@ -57,4 +57,5 @@ Creare, distribuire e gestire Power BI, i report per dispositivi mobili e impagi
 Server di report di Power BI è una soluzione che si distribuisce dietro il firewall per poi recapitare i report agli utenti appropriati in vari modi, ad esempio per consentire di visualizzarli in un Web browser, in un dispositivo mobile o in un messaggio di posta elettronica. Poiché Server di report di Power BI è compatibile con Power BI nel cloud, quando si sarà pronti sarà possibile passare facilmente al cloud.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Accedere, ottenere dati e navigare nel servizio Power BI](service-the-new-power-bi-experience.md)
+[Accedere, ottenere dati e navigare nel servizio Power BI](service-the-new-power-bi-experience.md)   
+[Introduzione al servizio Power BI](service-get-started.md)

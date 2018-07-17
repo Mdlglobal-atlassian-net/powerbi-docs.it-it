@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/21/2018
+ms.date: 06/13/2018
 ms.author: maggies
-ms.openlocfilehash: 999fdf0376973d6550a5c4e214b4315db01e74e0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 32d73b4be55190b908353083b497581cb1b08c6e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482246"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599025"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Visualizzare report e indicatori KPI locali dei server di report nelle app Power BI per dispositivi mobili
 
@@ -103,6 +103,9 @@ Se si sta visualizzando Power BI nell'app per dispositivi mobili iOS, l'amminist
 I report di Power BI, i report per dispositivi mobili di Reporting Services e gli indicatori KPI vengono visualizzati nelle stesse cartelle in cui si trovano nel portale Web di Reporting Services. 
 
 * Toccare un report di Power BI ![Icona del report di Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). per aprirlo in modalità orizzontale e interagire con esso nell'app Power BI.
+
+    > [!NOTE]
+  > Attualmente l'esecuzione di drill-down e drill-up non è abilitata nei report di Power BI in un Server di report di Power BI.
   
     ![Report di Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
 * In Power BI Desktop, i proprietario dei report possono [ottimizzare un report](desktop-create-phone-report.md) per le app Power BI per dispositivi mobili. Sul telefono cellulare, i report ottimizzati hanno un layout e un'icona speciale, ![Icona del report ottimizzato di Power BI](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png).
@@ -129,6 +132,6 @@ I report di Power BI, i report per dispositivi mobili di Reporting Services e gl
 3. Toccare **Rimuovi server**.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Introduzione a Power BI](service-get-started.md)  
+* [Che cos'è Power BI?](power-bi-overview.md)  
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301827"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965505"
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -99,6 +99,8 @@ Per altre informazioni sui log di controllo, vedere [Controllo di Power BI nell'
 ## <a name="tenant-settings"></a>Impostazioni tenant
 
 La terza scheda nel portale di amministrazione è **Impostazioni tenant**. Le impostazioni del tenant consentono di esercitare un maggiore controllo sulle funzionalità da rendere disponibili per l'organizzazione. Se i dati sensibili rappresentano una criticità, è possibile che alcune delle nostre funzionalità non siano adatte all'organizzazione o che per un determinato gruppo sia preferibile rendere disponibile solo una specifica funzionalità. In questi casi, è possibile disattivare specifiche funzionalità nel tenant.
+
+Ad esempio, i dati per utente sono abilitati nelle metriche di utilizzo per impostazione predefinita e le informazioni sull'account del creatore di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account verranno quindi visualizzate nel report come *Senza nome*.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ Gli utenti dell'organizzazione possono interagire con gli oggetti visivi persona
 
 ## <a name="r-visuals-settings"></a>Impostazioni degli oggetti visivi R
 
-### <a name="interact-with-an-dshare-r-visuals"></a>Interagire con gli oggetti visivi R e condividerli
+### <a name="interact-with-and-share-r-visuals"></a>Interagire con gli oggetti visivi R e condividerli
 
 Gli utenti dell'organizzazione possono interagire con gli oggetti visivi creati con script R e condividerli. [Altre informazioni](service-r-visuals.md)
 

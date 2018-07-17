@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471802"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136250"
 ---
 # <a name="power-bi-videos"></a>Video di Power BI
 È disponibile un canale YouTube per Power BI! È possibile visitare il [canale](https://www.youtube.com/user/mspowerbi/videos) dove, per chi non ha esperienza con Power BI, è disponibile una [serie dedicata ad analisi e visualizzazione dei dati con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP) che rappresenta un buon punto di partenza.
@@ -46,7 +46,7 @@ Di seguito è disponibile una raccolta di origini e contenuti per altri video.
 * [Canale Guy in a Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w): nuovi video sulle caratteristiche e funzionalità di Power BI
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Introduzione a Power BI](service-get-started.md)
+[Che cos'è Power BI?](power-bi-overview.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242447"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136020"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Connettersi a Zendesk con Power BI
 Il pacchetto di contenuto Zendesk offre un dashboard di Power BI e un set di report di Power BI che forniscono informazioni dettagliate sul numero di ticket e sulle prestazioni degli agenti. È possibile usare il dashboard e i report forniti oppure personalizzarli per evidenziare le informazioni a cui si è maggiormente interessati.  I dati verranno aggiornati automaticamente una volta al giorno. 
@@ -84,6 +84,6 @@ L'URL di Zendesk corrisponderà a quello usato per accedere all'account Zendesk.
 In caso di problemi di connessione, verificare l'URL di Zendesk e assicurarsi che si stia usando un account amministratore di Zendesk.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Introduzione a Power BI](service-get-started.md)
+* [Che cos'è Power BI?](power-bi-overview.md)
 * [Recuperare i dati](service-get-data.md)
 

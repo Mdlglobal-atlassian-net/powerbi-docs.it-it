@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813044"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945307"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Incorporare i dashboard, i report e i riquadri di Power BI
 
@@ -35,6 +35,9 @@ Prima di iniziare la procedura di incorporamento di dashboard e report in un'app
 
 * [Verificare di avere un tenant di Azure Active Directory](embedding-content.md#azureadtenant)
 * [Creare l'account di Power BI Pro](embedding-content.md#proaccount)
+* [Registrare e assegnare le autorizzazioni dell'app](embedding-content.md#appreg)
+* [Creare le aree di lavoro per le app](embedding-content.md#appws)
+* [Creare e caricare i report](embedding-content.md#createreports)
 
 È possibile usare lo [strumento esperienza di onboarding](https://aka.ms/embedsetup) per iniziare rapidamente e scaricare un'applicazione di esempio.
 
@@ -67,7 +70,7 @@ Per incorporare il contenuto è necessario disporre di un solo account di Power 
 
 #### <a name="an-organizationtenant-admin-user"></a>Un utente amministratore del tenant/dell'organizzazione
 
-È consigliabile che l'utente amministratore globale del tenant o dell'organizzazione non sia usato come account dell'applicazione in caso di incorporamento per i clienti, allo scopo di ridurre l'accesso dell'account dell'applicazione all'interno del tenant. È consigliabile che l'utente amministratore sia un amministratore di tutte le aree di lavoro dell'app create per l'incorporamento.
+È consigliabile che l'utente amministratore globale del tenant o dell'organizzazione non sia usato come account dell'applicazione in caso di incorporamento per i clienti, allo scopo di ridurre l'accesso dell'account dell'applicazione all'interno del tenant. L'utente amministratore deve essere un amministratore di tutte le aree di lavoro dell'app create per l'incorporamento.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Account per gli analisti che creano il contenuto
 
@@ -83,7 +86,7 @@ L'account master è semplicemente un utente normale con una licenza di Power BI 
 
 Per effettuare chiamate all'API REST è necessario registrare l'applicazione in Azure AD. Per altre informazioni, vedere [Registrare un'app di Azure AD per incorporare il contenuto di Power BI](register-app.md).
 
-### <a name="create-app-workspaces"></a>Creare aree di lavoro per le app
+### <a name="appws"></a>Creare aree di lavoro per le app
 
 Se si intende incorporare dashboard e report per i clienti, questi elementi devono essere inseriti nell'area di lavoro di un'app. L'account *master* indicato in precedenza deve corrispondere a un amministratore dell'area di lavoro dell'app.
 
@@ -93,13 +96,17 @@ Se si intende incorporare dashboard e report per i clienti, questi elementi devo
 > Un utente senza privilegi di amministratore può creare solo fino a 250 aree di lavoro per le app. Per creare più aree di lavoro per le app, è necessario utilizzare un account di amministratore tenant.
 >
 
-### <a name="create-and-upload-your-reports"></a>Creare e caricare i report
+### <a name="createreports"></a>Creare e caricare i report
 
 È possibile creare report e set di dati usando Power BI Desktop e quindi pubblicando tali report in un'area di lavoro per le app. Per poter pubblicare in un'area di lavoro dell'app, l'utente finale che pubblica report deve avere una licenza di Power BI Pro.
 
 ## <a name="step-2-embed-your-content"></a>Passaggio 2: Incorporare il contenuto
 
-All'interno dell'applicazione è necessario eseguire l'autenticazione con Power BI. Se si intende incorporare contenuto per i clienti, archiviare le credenziali per l'account *master* all'interno dell'applicazione. Per altre informazioni, vedere [Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'app Power BI](get-azuread-access-token.md).
+All'interno dell'applicazione è necessario eseguire l'autenticazione con Power BI. Se si intende incorporare contenuto per i clienti, archiviare le credenziali per l'account *master* all'interno dell'applicazione.
+
+> [!NOTE]
+> Per altre informazioni sull'autenticazione degli utenti durante l'incorporamento del contenuto per i clienti, vedere [Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'app Power BI](get-azuread-access-token.md).
+>
 
 Dopo l'autenticazione, nell'applicazione usare le API REST di Power BI e le API JavaScript per incorporare dashboard e report nell'applicazione. 
 
@@ -123,7 +130,7 @@ Lo spostamento in produzione richiede alcuni passaggi aggiuntivi.
 
 Se si intende incorporare per l'organizzazione, è sufficiente informare gli utenti su come ottenere l'applicazione. 
 
-Gli utenti del piano Gratuito possono usare i contenuti incorporati dall'area di lavoro di un'app (gruppo) se la capacità dedicata supporta l'area di lavoro. Indicare l'utente del piano Gratuito come membro dell'area di lavoro dell'app (gruppo). In caso contrario, verrà visualizzato un errore 401 di autorizzazione negata. La tabella seguente elenca gli SKU di Power BI Premium disponibili in Office 365.
+Tutti gli utenti, indipendentemente dalla licenza assegnata loro, possono usare i contenuti incorporati dall'area di lavoro di un'app (gruppo) se la capacità dedicata supporta l'area di lavoro. Ciò premesso, è necessario aggiungere esplicitamente all'area di lavoro dell'app tutti gli utenti che non hanno una licenza Power BI Pro; in caso contrario, viene visualizzato un errore 401 - Non autorizzato. La tabella seguente elenca gli SKU di Power BI Premium disponibili in Office 365.
 
 | Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
 | --- | --- | --- | --- | --- | --- |

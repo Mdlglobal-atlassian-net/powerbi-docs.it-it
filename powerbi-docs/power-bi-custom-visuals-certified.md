@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 691956dace3ad7592be6763c97517384b7560681
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813596"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600357"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certificare* un oggetto visivo personalizzato
 ## <a name="what-is-meant-by-certified"></a>Cosa si intende per *certificato*?
@@ -39,7 +39,7 @@ Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad ag
 Per inviare un oggetto visivo personalizzato per la certificazione:
 
 1. Inviare un messaggio di posta elettronica al supporto tecnico degli oggetti visivi personalizzati di Power BI (pbicvsupport@microsoft.com). Nel messaggio di posta elettronica, includere le seguenti informazioni:    
-   
+
    * Titolo: Richiesta di certificazione oggetto visivo    
    * Collegamento al repository GitHub in cui è ospitato il codice sorgente dell'oggetto visivo    
    * Adesione ai requisiti (vedere sopra)    
@@ -51,6 +51,7 @@ Per inviare un oggetto visivo personalizzato per la certificazione:
 Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'elenco Certificati.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Elenco di oggetti visivi personalizzati che sono stati certificati
+
 | Collegamento ad AppSource | Collegamento al video |
 | --- | --- |
 | [Aster Plot](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380759) | |
@@ -100,6 +101,7 @@ Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'elenco C
 | [Infographic Designer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380898) | |
 | [KPI Chart by Akvelon](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381432) | |
 | [Colonna KPI di MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380996) | [Video](https://youtu.be/rU0xoOlIq1U) |
+| [Griglia indicatore KPI di MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380947) | [Video](https://youtu.be/dM4PvZh71V0) |
 | [Indicatore KPI](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380832) | |
 | [Ticker KPI di MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380946) | [Video](https://youtu.be/cudG4gsZ2V8) |
 | [Linear Gauge by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380821) | [Video](https://youtu.be/7_jFaM30dkc) |
@@ -126,7 +128,9 @@ Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'elenco C
 | [Filtro del testo](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381309) | |
 | [Text Wrapper by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380826) | |
 | [Thermometer by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380847) | [Video](https://youtu.be/SPX9mgrAdBc) |
+| [Time Brush Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380798) | |
 | [Timeline Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380786) | [Video](https://youtu.be/ozMtZ4_NZ10) |
+| [Timeline di CloudScope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381427) | [Video](https://youtu.be/szNi9YgXFJc) |
 | [Grafico Tornado](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380768) | [Video](https://www.youtube.com/watch?v=AQvd2FhRyCI) |
 | [Trading Chart by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380823) | [Video](https://youtu.be/xhTR6y6J9Ko) |
 | [Ultimate Variance](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381140) | [Video](https://youtu.be/pDYF8iZxERs) |

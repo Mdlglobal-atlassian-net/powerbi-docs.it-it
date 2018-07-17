@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 06/26/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 770e200b0aa6916ac6d2de144902a04e9660e552
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3c73476351671d9c37bea824b2ade0f7e79dd274
+ms.sourcegitcommit: db03649b8241bf34566968bbede8c9a0d35852fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482016"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37067242"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Presentazione dell'Esempio di analisi delle risorse umane per Power BI
 
@@ -32,7 +32,7 @@ Questo esempio fa parte di una serie che illustra come usare Power BI con dati, 
 
 ## <a name="prerequisites"></a>Prerequisiti
 
- Prima di poter usare l'esempio è necessario scaricarlo come [pacchetto di contenuto](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [file con estensione pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix) o [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529780).
+ Prima di poter usare l'esempio è necessario scaricarlo come [pacchetto di contenuto](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [file con estensione pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix) o [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529780).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Scaricare il pacchetto di contenuto per questo esempio
 
@@ -54,7 +54,7 @@ Questo esempio fa parte di una serie che illustra come usare Power BI con dati, 
 
 In alternativa, è possibile scaricare l'esempio come file con estensione pbix, progettato per l'uso con Power BI Desktop. 
 
- * [Esempio di analisi delle risorse umane](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
+ * [Esempio di analisi delle risorse umane come file con estensione pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 È anche possibile [scaricare solo il set di dati (cartella di lavoro di Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) per questo esempio. La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per visualizzare i dati non elaborati, selezionare **Power Pivot > Gestisci**.

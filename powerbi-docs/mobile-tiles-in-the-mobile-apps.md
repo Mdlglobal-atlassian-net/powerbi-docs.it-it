@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297654"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598630"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -40,7 +40,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Ad esempio, in questo grafico a linee i valori selezionati sono relativi a **This Year Sales** (vendite di quest'anno) e **Last Year Sales** (vendite dell'anno precedente) nel periodo **August** (agosto).*  
+   <em>Ad esempio, in questo grafico a linee i valori selezionati sono relativi a **This Year Sales</em>* (vendite di quest'anno) e **Last Year Sales** (vendite dell'anno precedente) nel periodo **August** (agosto).*  
    
    In un grafico a torta toccare una sezione della torta per visualizzarne i valori nella parte superiore della torta.  
    
@@ -107,7 +107,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *In questo grafico a barre, i valori della barra **Decor** vengono visualizzati nella parte superiore del grafico.*
+   <em>In questo grafico a barre i valori della barra **Decor</em>* vengono visualizzati nella parte superiore del grafico.*
    
    Toccare l'icona **Schermo intero** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) per aprire il riquadro in modalità schermo intero, senza le barre di spostamento e dei menu.
    
@@ -126,6 +126,6 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
 4. Toccare la freccia Indietro o il pulsante Indietro per chiudere il riquadro e tornare al dashboard.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Introduzione a Power BI](service-get-started.md)
+* [Che cos'è Power BI?](power-bi-overview.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 
