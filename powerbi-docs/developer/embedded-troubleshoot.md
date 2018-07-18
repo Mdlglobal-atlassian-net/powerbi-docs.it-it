@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/09/2018
 ms.author: maghan
-ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: d6b30d97b1982ceca34579751e412a279b0d8881
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926560"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877025"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Risoluzione dei problemi dell'applicazione incorporata
 
@@ -102,13 +102,11 @@ Il back-end dell'applicazione potrebbe dover aggiornare il token di autenticazio
 
 **(AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con un ID utente o una password non corretti)**
 
-Se si usa Power BI Embedded con l'autenticazione diretta di Azure AD e si ricevono messaggi in fase di accesso, ad esempio ***eerror:unauthorized_client,error_description:AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Hai tentato di accedere troppe volte con una password o un account non corretto***, significa che l'autenticazione diretta è stato disattivata a partire dal 14 giugno 2018.
+Se si usa Power BI Embedded con l'autenticazione diretta di Azure AD e si ricevono messaggi in fase di accesso, ad esempio ***eerror:unauthorized_client,error_description:AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con una password o un account non corretto***, significa che l'autenticazione diretta è stata disattivata a partire dal 14 giugno 2018 per impostazione predefinita.
 
-Si consiglia pertanto di usare il supporto all'[accesso condizionale di Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) per bloccare l'autenticazione legacy o l'[Autenticazione pass-through della directory di Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+Esiste un modo per riattivare questa funzionalità usando [criteri di Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) con l'organizzazione o un'[entità servizio](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) come ambito.
 
-Esiste comunque un modo per riattivare questa funzionalità usando [criteri HRD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) di Azure AD impostando come ambito l'organizzazione o un'[entità servizio](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
-
-**_Si consiglia di abilitare questa funzionalità solo in base alle singole app e solo se necessario per risolvere il problema._**
+È consigliabile abilitare questa funzionalità solo per singole app.
 
 Per creare questo criterio, è necessario essere un **amministratore globale** per la directory in cui si crea e si assegna il criterio. Ecco un esempio di script per la creazione del criterio e la sua assegnazione alla stored procedure per questa applicazione:
 
