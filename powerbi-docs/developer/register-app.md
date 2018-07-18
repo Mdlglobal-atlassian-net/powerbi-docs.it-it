@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 7fb13b86e3f384c0c923a96e07631498edf84ee4
+ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925002"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39088886"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrare un'app di Azure AD per incorporare il contenuto di Power BI
 Informazioni su come registrare un'applicazione in Azure Active Directory (Azure AD) per incorporare il contenuto di Power BI.
@@ -23,7 +23,6 @@ Registrare l'applicazione con Azure AD per consentire l'accesso dell'applicazion
 
 > [!IMPORTANT]
 > Prima di registrare un'app Power BI è necessario un [tenant di Azure Active Directory e un utente aziendale](create-an-azure-active-directory-tenant.md). Se non è stata effettuata l'iscrizione a Power BI tramite un utente nel tenant, la registrazione dell'app non viene completata correttamente.
-> 
 
 Esistono due modi per registrare l'applicazione. Il primo consiste nell'usare lo [strumento di registrazione app di Power BI](https://dev.powerbi.com/apps/), il secondo nell'eseguire la registrazione direttamente nel portale di Azure. Lo strumento di registrazione delle app di Power BI è l'opzione più semplice, perché richiede di compilare solo pochi campi. Usare il portale di Azure se si vuole apportare modifiche all'app.
 
@@ -174,7 +173,6 @@ Oltre a quanto visualizzato nella pagina di registrazione dell'app è necessario
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-
 5. Concedere le autorizzazioni app ad Azure Active Directory (AAD)
    
    Il valore di **consentType** può essere **AllPrincipals** o **Principal**.
