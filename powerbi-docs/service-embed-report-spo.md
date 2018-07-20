@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553566"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032049"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -84,7 +84,7 @@ Incorporare un report in SharePoint Online non autorizza automaticamente gli ute
 > [!IMPORTANT]
 > Assicurarsi di controllare chi può visualizzare il report all'interno del servizio Power BI e concedere l'accesso a chi non è elencato.
 
-Esistono due modi per fornire l'accesso al report all'interno del servizio Power BI. Se si usa un gruppo di Office 365 per creare il sito del team di SharePoint Online, l'utente viene elencato come un membro dell'area di lavoro per le app all'interno del servizio Power BI. Questo garantirà che gli utenti possano visualizzare il contenuto di tale gruppo. Per altre informazioni, vedere [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md).
+Esistono due modi per fornire l'accesso al report all'interno del servizio Power BI. Se si usa un gruppo di Office 365 per creare il sito del team di SharePoint Online è possibile aggiungere l'utente come membro dell'**area di lavoro per le app all'interno del servizio Power BI** e della **pagina SharePoint**. Questo garantirà che gli utenti possano visualizzare il contenuto di tale gruppo. Per altre informazioni, vedere [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md).
 
 In alternativa, è possibile concedere agli utenti l'accesso al report effettuando le operazioni seguenti.
 
@@ -129,7 +129,7 @@ Esistono due motivi comuni per questo messaggio.
 
 ## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
 
-* **Errore: "Si è verificato un errore. Provare a disconnettersi e riconnettersi, quindi visitare di nuovo questa pagina. ID di correlazione: non definito, Stato risposta HTTP: 400, Codice errore server 10001, messaggio: Non è presente alcun token di aggiornamento"**
+* Errore: "Si è verificato un errore. Provare a disconnettersi e riconnettersi, quindi visitare di nuovo questa pagina. ID di correlazione: non definito, Stato risposta HTTP: 400, Codice errore server 10001, messaggio: Token di aggiornamento mancante"
   
   Se si riceve questo errore, provare una delle soluzioni seguenti.
   
@@ -154,5 +154,4 @@ Esistono due motivi comuni per questo messaggio.
 [Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md)  
 [Power BI Premium: di cosa si tratta?](service-premium.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/) 
-
+Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

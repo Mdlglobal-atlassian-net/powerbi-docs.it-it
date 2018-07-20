@@ -10,15 +10,17 @@ ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298781"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032026"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Cluster a disponibilità elevata per il gateway dati locale
-È possibile creare **cluster a disponibilità elevata** di installazioni di **gateway dati locali** per garantire all'organizzazione l'accesso alle risorse dati locali usate nei report e nei dashboard di Power BI. Questi cluster permettono agli amministratori dei gateway di raggruppare i gateway per evitare singoli punti di guasto durante l'accesso alle risorse dati locali. Questo articolo descrive le procedure necessarie per creare un cluster a disponibilità elevata di gateway dati locali, nonché le procedure consigliate per la configurazione. I cluster di gateway a disponibilità elevata richiedono che nel gateway dati locale sia stato installato l'aggiornamento di novembre 2017 o versione successiva.
+È possibile creare **cluster a disponibilità elevata** di installazioni di **gateway dati locali** per garantire all'organizzazione l'accesso alle risorse dati locali usate nei report e nei dashboard di Power BI. Questi cluster permettono agli amministratori dei gateway di raggruppare i gateway per evitare singoli punti di guasto durante l'accesso alle risorse dati locali. Il servizio Power BI usa sempre il gateway primario nel cluster, a meno che questo non sia disponibile. In questo caso, il servizio passa al gateway successivo nel cluster e così via.
+
+Questo articolo descrive le procedure necessarie per creare un cluster a disponibilità elevata di gateway dati locali, nonché le procedure consigliate per la configurazione. I cluster di gateway a disponibilità elevata richiedono che nel gateway dati locale sia stato installato l'aggiornamento di novembre 2017 o versione successiva.
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Installazione di cluster di gateway a disponibilità elevata
