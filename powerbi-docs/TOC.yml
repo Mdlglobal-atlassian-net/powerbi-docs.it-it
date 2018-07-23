@@ -322,6 +322,10 @@
                   href: service-collaborate-power-bi-workspace.md
                 - name: Gestire il gruppo in Power BI e Office 365
                   href: service-manage-app-workspace-in-power-bi-and-office-365.md
+                - name: Condividere un dashboard che si collega a una cartella di lavoro di Excel in OneDrive for Business
+                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+            - name: Pacchetti di contenuto
+              items:
                 - name: 'Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali'
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: 'Pacchetti di contenuto aziendali: Copiare, aggiornare e ottenere l''accesso'
@@ -332,8 +336,16 @@
                   href: service-organizational-content-pack-create-and-publish.md
                 - name: Rimuovere la connessione a un pacchetto di contenuto aziendale
                   href: service-organizational-content-pack-disconnect.md
-                - name: Condividere un dashboard che si collega a una cartella di lavoro di Excel in OneDrive for Business
-                  href: service-share-dashboard-that-links-to-excel-onedrive.md
+                - name: Certificazione
+                  items:
+                    - name: Programma di certificazione dei pacchetti di contenuto
+                      href: service-content-pack-overview.md
+                    - name: Creazione di pacchetti di contenuto modello
+                      href: template-content-pack-authoring.md
+                    - name: Test di pacchetti di contenuto modello
+                      href: template-content-pack-testing.md
+                    - name: Esperienze di pacchetti di contenuto modello
+                      href: template-content-pack-experience.md
             - name: Report
               items:
                 - name: Creare un nuovo report da un report esistente
@@ -890,58 +902,34 @@
           href: mobile-apps-supported-languages.md
 - name: Power BI per sviluppatori
   items:
-    - name: Panoramica
+    - name: Analisi incorporate
       items:
-        - name: Quali operazioni possono eseguire gli sviluppatori con Power BI?
-          href: developer/what-can-you-do.md
-    - name: Esercitazioni
-      items:
-        - name: Incorporare contenuto per i clienti
-          href: developer/embed-sample-for-customers.md
-        - name: Incorporare contenuto per l'organizzazione
-          href: developer/embed-sample-for-your-organization.md
-    - name: Concetti
-      items:
-        - name: Utilizzo delle API REST di Power BI
-          items:
-            - name: Cosa si può fare con l'API di Power BI?
-              href: developer/overview-of-power-bi-rest-api.md
-            - name: Limitazioni dell'API REST di Power BI
-              href: developer/api-rest-api-limitations.md
-            - name: Proprietà dei set di dati
-              href: developer/api-dataset-properties.md
-            - name: Controllo delle versioni del modello di dati
-              href: developer/api-data-model-versioning.md
-        - name: Creare un oggetto visivo con Strumenti di sviluppo
-          href: service-custom-visuals-getting-started-with-developer-tools.md
-        - name: Autorizzazioni di Power BI
-          href: developer/power-bi-permissions.md
-        - name: Sicurezza a livello di riga
-          href: developer/embedded-row-level-security.md
-        - name: DOMANDE FREQUENTI
-          href: developer/embedded-faq.md
-    - name: Procedure
-      items:
-        - name: Creare un oggetto visivo personalizzato
-          items:
-            - name: Creare un oggetto visivo con Strumenti di sviluppo
-              href: service-custom-visuals-getting-started-with-developer-tools.md
-            - name: Ottenere la certificazione di un oggetto visivo personalizzato
-              href: power-bi-custom-visuals-certified.md
-            - name: Pubblicare oggetti visivi personalizzati in AppSource
-              href: developer/office-store.md
-        - name: Incorporamento
+        - name: Panoramica
           items:
             - name: Incorporamento con Power BI
               href: developer/embedding.md
+        - name: Esercitazioni
+          items:
+            - name: Incorporare contenuto per i clienti
+              href: developer/embed-sample-for-customers.md
+            - name: Incorporare contenuto per l'organizzazione
+              href: developer/embed-sample-for-your-organization.md
+        - name: Concetti
+          items:
+            - name: Sicurezza a livello di riga
+              href: developer/embedded-row-level-security.md
+            - name: DOMANDE FREQUENTI
+              href: developer/embedded-faq.md
+            - name: Autorizzazioni di Power BI
+              href: developer/power-bi-permissions.md
+        - name: Procedure
+          items:
             - name: Come incorporare il contenuto
               href: developer/embedding-content.md
             - name: Come incorporare da un'app
               href: developer/embed-from-apps.md
             - name: Integrare contenuti in un'applicazione per i cloud sovrani (i dati sono di proprietà dell'app)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
-            - name: Incorporare layout personalizzati in un'app
-              href: developer/embedded-custom-layout.md
             - name: Creare un tenant di Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Registrare un'applicazione
@@ -952,15 +940,103 @@
               href: developer/qanda.md
             - name: Come eseguire la migrazione di Power BI Embedded
               href: developer/migrate-from-powerbi-embedded.md
-            - name: Strumento di migrazione di Power BI Embedded
-              href: developer/migrate-tool.md
-            - name: Frammenti del codice di migrazione
-              href: developer/migrate-code-snippets.md
             - name: Risoluzione dei problemi dell'applicazione incorporata
               href: developer/embedded-troubleshoot.md
-        - name: Push dei dati
+        - name: Riferimento
           items:
-            - name: Eseguire il push dei dati in un dashboard
+            - name: Download SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Incorporare layout personalizzati in un'app
+              href: developer/embedded-custom-layout.md
+            - name: Frammenti del codice di migrazione
+              href: developer/migrate-code-snippets.md
+        - name: Risorse
+          items:
+            - name: Dev Center
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Strumento esperienza di onboarding per l'incorporamento
+              href: 'https://aka.ms/embedsetup'
+            - name: Esempio JavaScript Playground
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Wiki JavaScript di Power BI
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: Archivio GIT JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Archivio GIT C# di Power BI'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Esempi
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Strumento di migrazione di Power BI Embedded
+              href: developer/migrate-tool.md
+            - name: Community di Power BI
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Overflow dello stack
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Sviluppare oggetti visivi personalizzati
+      items:
+        - name: Panoramica
+          items:
+            - name: Aggiunta di oggetti visivi personalizzati in Power BI
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/'
+        - name: Esercitazioni
+          items:
+            - name: Sviluppo di un oggetto visivo personalizzato di Power BI
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/step-by-step-lab/developing-a-power-bi-custom-visual/'
+        - name: Concetti
+          items:
+            - name: Uso delle funzionalità
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/capabilities/'
+            - name: Mapping di visualizzazione dati
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/dataviewmappings/'
+            - name: Oggetti e proprietà
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/objects-and-properties/'
+            - name: Modalità di modifica avanzata
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/advanced-edit-mode/'
+            - name: Guida alla migrazione all'API con controllo delle versioni
+              href: 'https://microsoft.github.io/PowerBI-visuals/docs/latest/concepts/migrating-to-versioned-api-guide/'
+        - name: Procedure
+          items:
+            - name: Ottenere la certificazione di un oggetto visivo personalizzato
+              href: power-bi-custom-visuals-certified.md
+            - name: Pubblicare oggetti visivi personalizzati in AppSource
+              href: developer/office-store.md
+        - name: Riferimento
+          items:
+            - name: API
+              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+        - name: Risorse
+          items:
+            - name: Dev Center
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Creare un oggetto visivo con Strumenti di sviluppo
+              href: service-custom-visuals-getting-started-with-developer-tools.md
+            - name: Esempi
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Archivio GIT di oggetti visivi personalizzati
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+    - name: Automazione
+      items:
+        - name: Panoramica
+          items:
+            - name: Cosa si può fare con l'API di Power BI?
+              href: developer/overview-of-power-bi-rest-api.md
+        - name: Esercitazioni
+          items: null
+        - name: Concetti
+          items:
+            - name: Criteri di conservazione automatici per dati in tempo reale
+              href: developer/api-automatic-retention-policy-for-real-time-data.md
+            - name: Push dei dati
+              items:
+                - name: Limitazioni dell'API REST di Power BI
+                  href: developer/api-rest-api-limitations.md
+                - name: Proprietà dei set di dati
+                  href: developer/api-dataset-properties.md
+                - name: Controllo delle versioni del modello di dati
+                  href: developer/api-data-model-versioning.md
+        - name: Procedure
+          items:
+            - name: Eseguire il push dei dati in un set di dati
               href: developer/walkthrough-push-data.md
             - name: Registrare un'app in Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
@@ -972,44 +1048,22 @@
               href: developer/walkthrough-push-data-get-datasets.md
             - name: Aggiungere righe a una tabella
               href: developer/walkthrough-push-data-add-rows.md
+        - name: Riferimento
+          items:
+            - name: API REST
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Riferimento all'API REST di Power BI
+              href: developer/rest-api-reference.md
             - name: Listato di codice completo
               href: developer/walkthrough-push-data-complete-code.md
-            - name: Criteri di conservazione automatici per dati in tempo reale
-              href: developer/api-automatic-retention-policy-for-real-time-data.md
-        - name: Certificazione dei pacchetti di contenuto
+        - name: Risorse
           items:
-            - name: Programma di certificazione dei pacchetti di contenuto
-              href: developer/service-content-pack-overview.md
-            - name: Creazione di pacchetti di contenuto modello
-              href: developer/template-content-pack-authoring.md
-            - name: Test di pacchetti di contenuto modello
-              href: developer/template-content-pack-testing.md
-            - name: Esperienze di pacchetti di contenuto modello
-              href: developer/template-content-pack-experience.md
-    - name: Riferimento
-      items:
-        - name: API REST
-          href: 'https://docs.microsoft.com/rest/api/power-bi/'
-        - name: 'Archivio GIT C# di Power BI'
-          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
-        - name: Download SDK .NET
-          href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-        - name: Archivio GIT JavaScript
-          href: 'https://go.microsoft.com/fwlink/?linkid=848276'
-        - name: Archivio GIT di oggetti visivi personalizzati
-          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
-    - name: Risorse
-      items:
-        - name: Strumento esperienza di onboarding per l'incorporamento
-          href: 'https://aka.ms/embedsetup'
-        - name: Esempio JavaScript Playground
-          href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-        - name: Esempi
-          href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-        - name: Community di Power BI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848280'
-        - name: Overflow dello stack
-          href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+            - name: Dev Center
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Archivio GIT C# di Power BI'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Download SDK .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
 - name: Server di report Power BI
   items:
     - name: Panoramica
