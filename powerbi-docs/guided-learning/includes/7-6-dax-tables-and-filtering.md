@@ -34,7 +34,7 @@ Ad esempio, Power BI e DAX includono valori che non sono indicizzati correttamen
 
 È anche possibile creare intere tabelle calcolate usando funzioni DAX. Le tabelle calcolate create usando DAX necessitano di una funzione **NAME** e una funzione **TABLE**. Le tabelle calcolate possono essere usate come qualsiasi altra tabella, anche per quanto riguarda la definizione di relazioni.
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

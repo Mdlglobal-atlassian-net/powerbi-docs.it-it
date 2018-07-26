@@ -15,7 +15,7 @@ La funzione **RELATED** viene usata in relazioni *molti-a-uno*, mentre **RELATED
 
 È possibile usare funzioni relazionali per creare espressioni che includono valori di più tabelle. DAX restituirà un risultato con queste funzioni, indipendentemente dalla lunghezza della catena della relazione.
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

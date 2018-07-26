@@ -57,7 +57,7 @@ Gli elementi necessari per una misura calcolata sono uguali a quelli per la colo
 * Un nuovo nome di misura
 * Almeno una funzione o un'espressione
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

@@ -89,7 +89,7 @@ DAX include le funzioni di **data** seguenti:
 
 Anche se queste funzioni sono utili per calcolare ed estrarre informazioni dai valori di *data*, non si applicano alla funzionalità di Business Intelligence per le gerarchie temporali, che usa una tabella data.
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
