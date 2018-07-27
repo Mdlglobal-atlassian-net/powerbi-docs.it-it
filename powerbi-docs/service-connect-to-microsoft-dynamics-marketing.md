@@ -35,7 +35,7 @@ Connettersi al [pacchetto di contenuto Dynamics Marketing](https://app.powerbi.c
 3. Selezionare **Microsoft Dynamics Marketing** \> **Recupera**.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Specificare l'URL di OData associato all'account,  nel formato "https://[nome\_istanza].marketing.dynamics.com/analytics".
+4. Specificare l'URL di OData associato all'account,  nel formato "https:// [nome\_istanza].marketing.dynamics.com/analytics".
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Quando richiesto, specificare le credenziali. È possibile saltare questo passaggio se è già stato effettuato l'accesso nel browser. In Metodo di autenticazione immettere **oAuth2** e fare clic su **Accedi**:
@@ -54,7 +54,7 @@ Connettersi al [pacchetto di contenuto Dynamics Marketing](https://app.powerbi.c
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 * È necessario specificare un URL di OData valido per un'istanza di  Dynamics Marketing. Il pacchetto di contenuto non funziona infatti con una versione locale di CRM.  
-* Un amministratore deve abilitare l'endpoint OData nelle impostazioni del sito. Per trovare l'indirizzo dell'endpoint OData, passare a **Home \> Impostazioni \> Impostazioni sito** nella sezione **Servizio dati organizzazione**.  Il formato dell'URL OData è https://[nome\_istanza].marketing.dynamics.com/analytics  
+* Un amministratore deve abilitare l'endpoint OData nelle impostazioni del sito. Per trovare l'indirizzo dell'endpoint OData, passare a **Home \> Impostazioni \> Impostazioni sito** nella sezione **Servizio dati organizzazione**.  Il formato dell'URL OData è https:// [nome\_istanza].marketing.dynamics.com/analytics  
 * L'identità/account utente per l'accesso a Microsoft Dynamics Marketing deve essere uguale a quello con cui è stata effettuata l'iscrizione per l'uso di Power BI. Quando si effettua l'accesso a Microsoft Dynamics Marketing, viene automaticamente usata la stessa identità usata per Power BI. Se si vuole accedere a Microsoft Dynamics Marketing con un account diverso, effettuare la registrazione come utente Power BI specificando lo stesso account. Questo problema verrà probabilmente risolto in una versione futura.   
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
