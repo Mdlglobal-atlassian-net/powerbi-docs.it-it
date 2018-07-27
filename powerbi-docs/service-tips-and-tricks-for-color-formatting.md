@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298390"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256010"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Suggerimenti e consigli per la formattazione dei colori in Power BI
 In Power BI sono disponibili vari modi per personalizzare i dashboard e i report. Questo articolo presenta una raccolta di suggerimenti utili per fare in modo che le visualizzazioni di Power BI siano più accattivanti, interessanti e personalizzate in base alle proprie esigenze.
@@ -97,7 +97,7 @@ Si noti che le barre del grafico nella prima immagine riflettono la sfumatura pr
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Vediamo ora cosa succede se si specificano valori numerici nelle caselle dei valori **Minimo** e **Massimo** , che si trovano sotto i selettori **Minimo** e **Maximo** , come mostrato nell'immagine seguente. Impostiamo **Minimo** su 20.000.000 e impostiamo **Massimo** su 20.000.000.
+Vediamo ora cosa succede se si specificano valori numerici nelle caselle dei valori **Minimo** e **Massimo** , che si trovano sotto i selettori **Minimo** e **Maximo** , come mostrato nell'immagine seguente. Impostare **Minimo** su 20.000,000 e impostare **Massimo** su 20.000.001.
 
 Impostando questi valori, la sfumatura non viene più applicata ai valori inferiori a **Minimo** o superiori a **Massimo** nel grafico. Tutte le barre con un valore superiore a **Massimo** vengono colorate in verde e quelle con un valore inferiore a **Minimo** in rosso.
 
