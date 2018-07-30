@@ -682,8 +682,10 @@
               href: desktop-qna-in-reports.md
             - name: Riquadro Analisi in Power BI Desktop
               href: desktop-analytics-pane.md
-            - name: Uso di informazioni dettagliate in Power BI Desktop
+            - name: Uso delle informazioni dettagliate per spiegare gli aumenti e le diminuzioni
               href: desktop-insights.md
+            - name: Uso delle informazioni dettagliate per trovare i punti in cui la distribuzione è diversa nei grafici
+              href: desktop-insights-find-where-different.md
             - name: Segnalibri in Power BI
               href: desktop-bookmarks.md
             - name: Usare i temi dei report
