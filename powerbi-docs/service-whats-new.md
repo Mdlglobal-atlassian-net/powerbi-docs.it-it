@@ -31,7 +31,7 @@ In questa pagina sono disponibili informazioni sui problemi noti e sulle funzion
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>Mag 2018
+## <a name="may-2018"></a>Maggio 2018
 * [Temi del dashboard](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) nel servizio Power BI.
 * [Aggiornamento incrementale](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) con Premium.
 * Flusso di lavoro di richiesta accesso per le [app di Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
