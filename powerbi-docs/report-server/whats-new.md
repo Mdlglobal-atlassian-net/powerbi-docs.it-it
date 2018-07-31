@@ -33,7 +33,7 @@ Per informazioni sulle "Novità" di Power BI, vedere:
 * [Novità di Power BI Desktop](../desktop-latest-update.md)
 * [Novità delle app per dispositivi mobili per Power BI](../mobile-whats-new-in-the-mobile-apps.md)
 
-## <a name="may-2018"></a>Mag 2018
+## <a name="may-2018"></a>Maggio 2018
 
 ### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurare le app per dispositivi mobili iOS di Power BI per server di report in modalità remota
 

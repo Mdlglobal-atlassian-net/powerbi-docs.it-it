@@ -41,7 +41,7 @@ Il servizio Power BI (nel browser) è disponibile nelle 44 lingue seguenti:
 * Estone - eesti
 * Finlandese - suomi
 * Francese - français
-* Gallego - galego
+* Galiziano - galiziano
 * Tedesco - Deutsch
 * Greco - Ελληνικά
 * Ebraico
@@ -50,7 +50,7 @@ Il servizio Power BI (nel browser) è disponibile nelle 44 lingue seguenti:
 * Indonesiano - Bahasa Indonesia
 * Italiano - italiano
 * Giapponese - 日本語
-* Kazaco - Қазақ
+* Kazako - Қазақ
 * Coreano - 한국어
 * Lettone - latviešu
 * Lituano - lietuvių
@@ -59,7 +59,7 @@ Il servizio Power BI (nel browser) è disponibile nelle 44 lingue seguenti:
 * Polacco - Polski
 * Portoghese (Brasile) - Português
 * Portoghese (Portogallo) - português
-* Romeno - română
+* Rumeno - română
 * Russo - Русский
 * Serbo (alfabeto cirillico) - српски
 * Serbo (alfabeto latino) - srpski

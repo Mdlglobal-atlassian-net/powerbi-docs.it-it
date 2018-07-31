@@ -44,7 +44,7 @@ L'app Power Bi per dispositivi mobili attualmente supporta queste lingue:
 * Polacco - Polski
 * Portoghese (Brasile) - Português
 * Portoghese (Portogallo) - português
-* Romeno - română
+* Rumeno - română
 * Russo - Русский
 * Slovacco - slovenčina
 * Spagnolo - español

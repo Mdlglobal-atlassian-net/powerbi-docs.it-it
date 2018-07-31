@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 88b8b4a50913cd45c5e4ff80a5d5e0ded2eb4cdb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4e8e620ca8737e37fb129212fd15e1b131954217
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600752"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329248"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile creare un oggetto visivo **forme mappa** per mostrare i confronti relativi delle aree su una mappa applicando colori diversi alle varie aree. Contrariamente all'oggetto visivo **mappa**, l'oggetto visivo **forme mappa** non può visualizzare le ubicazioni geografiche precise dei punti dati di una mappa; il suo scopo principale è invece quello di mostrare i confronti relativi su una mappa applicando a essi colori diversi.

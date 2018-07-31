@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249506"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280456"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Come funziona la collaborazione e la condivisione in Power BI?
 
@@ -75,7 +75,7 @@ Si condivide uno snapshot del riquadro, del report o dell'oggetto visivo e i des
 
 Altre informazioni su come [aggiungere annotazioni e condividere riquadri, report e oggetti visivi](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) dalle app per dispositivi mobili iOS e Android.
 
-È anche possibile [condividere uno snapshot di un riquadro](mobile-share-tile-windows-10-phone-app.md) dall'app Power BI per i dispositivi Windows 10.
+È anche possibile [condividere uno snapshot di un riquadro](mobile-windows-10-phone-app-get-started.md) dall'app Power BI per i dispositivi Windows 10.
 
 ## <a name="publish-to-the-web"></a>Pubblicare sul Web
 È possibile pubblicare report di Power BI ovunque in Internet incorporando visualizzazioni interattive in post di blog, siti Web, social media e altre comunicazioni online, su qualsiasi dispositivo. Chiunque su Internet può visualizzare i report e non si ha alcun controllo su chi può visualizzare ciò che è stato pubblicato. Non è necessaria una licenza di Power BI. La funzionalità di pubblicazione sul Web è disponibile solo per i report che è possibile modificare. Non è possibile pubblicare report sul Web se sono stati condivisi da altri utenti o se sono inclusi in un'app. Altre informazioni sulla [pubblicazione sul Web](service-publish-to-web.md).

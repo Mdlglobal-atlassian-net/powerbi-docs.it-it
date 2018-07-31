@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 58886dc1ae5490113d4d0ba9af00d16aefecbe71
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 33541b99d28bd95acb9cc923e0531cdbc2e25d63
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34287027"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327132"
 ---
 # <a name="relationship-view-in-power-bi-desktop"></a>Visualizzazione delle relazioni in Power BI Desktop
 La **Visualizzazione relazioni** mostra tutte le tabelle, le colonne e le relazioni presenti nel modello. Ciò può essere particolarmente utile quando un modello contiene relazioni complesse tra molte tabelle.

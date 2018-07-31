@@ -12,10 +12,10 @@ ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "34584278"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
@@ -41,7 +41,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-<a name="create"></a> Per creare un grafico combinato personalizzato, accedere al servizio Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio > Connetti > Vai al dashboard**.
+<a name="create"></a> Per creare un grafico combinato personalizzato, accedere al servizio Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio &gt; Connetti &gt; Vai al dashboard**.
 
 1. Dal dashboard "Esempio di analisi delle vendite al dettaglio" selezionare il riquadro **Total Stores** per aprire il report "Esempio di analisi delle vendite al dettaglio".
 2. Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica.

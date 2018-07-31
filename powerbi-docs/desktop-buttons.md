@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/04/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a56108668bea3e5210c4429825045ebb23faf72c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34228761"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330490"
 ---
 # <a name="using-buttons-in-power-bi"></a>Uso dei pulsanti in Power BI
 L'uso dei **pulsanti** in Power BI consente di creare report e dashboard con un comportamento simile alle app e in tal modo di creare un ambiente coinvolgente in modo che gli utenti possano passare il mouse, fare clic e interagire in altri modi con il contenuto di Power BI. È possibile aggiungere pulsanti ai report in **Power BI Desktop** e condividere o pubblicare questi report nel servizio Power BI per creare dashboard con un comportamento simile alle app per gli utenti.

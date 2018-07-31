@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3659fc61b75de5049d5491744e159ac7617b76df
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136756"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39326971"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
 È possibile usare grafici a nastri in **Power BI** per visualizzare i dati e determinare rapidamente la categoria di dati di livello massimo (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. I grafici a nastri sono disponibili in **Power BI Desktop** a partire dalla versione di settembre 2017 e negli aggiornamenti successivi del **servizio Power BI**.

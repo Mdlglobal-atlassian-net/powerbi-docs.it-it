@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 073301b1fe204d66eb91c4ea50216afc5464df64
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4a8c591d4f8fb6c9610496366b4eb3d80601fae
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285992"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39327454"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importare le cartelle di lavoro di Excel in Power BI Desktop
 Con **Power BI Desktop** è possibile importare facilmente in Power BI Desktop cartelle di lavoro di Excel che contengono query di Power Query, modelli di Power Pivot e fogli di lavoro di Power View. Report e visualizzazioni vengono creati automaticamente in base a una cartella di lavoro di Excel e, una volta importati, è possibile continuare a migliorarli e perfezionarli usando Power BI Desktop e le funzionalità esistenti e nuove rilasciate a ogni aggiornamento mensile di Power BI Desktop.

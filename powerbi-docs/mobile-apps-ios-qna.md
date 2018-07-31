@@ -61,21 +61,21 @@ Il primo passaggio consiste nel download degli esempi di analisi delle vendite a
 
 4. Selezionare **Esempio di analisi delle vendite al dettaglio**.
  
-    ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-rs.png)
+    ![Esempio di analisi vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-rs.png)
  
 8. Selezionare **Connetti**.  
   
-   ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/retail16.png)
+   ![Esempio di analisi vendite al dettaglio](media/mobile-apps-ios-qna/retail16.png)
    
 5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente.
    
-   ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
+   ![Esempio di analisi vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
 **Ottenere l'esempio di analisi delle opportunità**
 
 - Ripetere la procedura eseguita per l'esempio di analisi delle vendite al dettaglio, ma al passaggio 4 selezionare **Esempio di analisi delle opportunità**.
 
-    ![Esempio di analisi delle vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-oa.png)
+    ![Esempio di analisi vendite al dettaglio](media/mobile-apps-ios-qna/power-bi-oa.png)
   
 A questo punto si è pronti per visualizzare gli esempi nel dispositivo iOS.
 

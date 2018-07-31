@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286912"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280479"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Contrassegnare codici a barre in Power BI Desktop per dispositivi mobili
 In Power BI Desktop è possibile [classificare i dati](desktop-data-categorization.md) in una colonna, in modo che Power BI Desktop sappia come gestire i valori negli oggetti visivi in un report. È anche possibile classificare una colonna come **Codice a barre**. Quando l'utente o i colleghi [effettuano la scansione di un codice a barre in un prodotto con l'app di Power BI](mobile-apps-scan-barcode-iphone.md) in un iPhone, vengono visualizzati tutti i report che includono tale codice a barre. Quando si apre il report nell'app per dispositivi mobili, Power BI filtra automaticamente il report per visualizzare i dati correlati al codice a barre.
@@ -27,7 +27,7 @@ In Power BI Desktop è possibile [classificare i dati](desktop-data-categorizati
 4. Nella visualizzazione Report aggiungere questo campo agli oggetti visivi da filtrare in base al codice a barre.
 5. Salvare il report e pubblicarlo nel servizio Power BI.
 
-Quando si apre lo scanner nell'[app di Power BI per iPhone](mobile-ios-ipad-iphone-apps.md) e si effettua la scansione di un codice a barre, viene visualizzato questo report nell'elenco di report. Quando si apre il report, i rispettivi oggetti visivi vengono filtrati in base al codice a barre del prodotto sottoposto a scansione.
+Quando si apre lo scanner nell'[app di Power BI per iPhone](mobile-iphone-app-get-started.md) e si effettua la scansione di un codice a barre, viene visualizzato questo report nell'elenco di report. Quando si apre il report, i rispettivi oggetti visivi vengono filtrati in base al codice a barre del prodotto sottoposto a scansione.
 
 ## <a name="supported-barcode-formats"></a>Formati di codice a barre supportati
 Questi sono i codici a barre riconosciuti da Power BI se contrassegnati in un report di Power BI: 
