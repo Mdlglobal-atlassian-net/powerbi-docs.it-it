@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137423"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182749"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Concetti di base per il servizio Power BI
 
@@ -48,9 +48,9 @@ In alternativa, è possibile guardare questo video prima di leggere il resto di 
 ***Dashboard***, ***report***, ***cartelle di lavoro*** e ***set di dati*** costituiscono i quattro elementi fondamentali di Power BI. Questi elementi sono organizzati in ***aree di lavoro***. È importante comprendere le aree di lavoro prima di approfondire i 4 elementi fondamentali. 
 
 ## <a name="workspaces"></a>Aree di lavoro
-Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Sono disponibili due tipi di aree di lavoro, ovvero l'*Area di lavoro personale* e le aree di lavoro per le app. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per l'organizzazione. Le app sono interattive ma non possono essere modificate 
+Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Sono disponibili due tipi di aree di lavoro, ovvero l'*Area di lavoro personale* e le *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per l'organizzazione. Le app sono interattive ma non possono essere modificate. 
 
-- L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto. Solo l'utente può accedere all'Area di lavoro personale. Se si vuole condividere il contenuto, sono disponibili varie opzioni: creare un'area di lavoro per le app in cui il contenuto viene aggregato in un'*app* e reso disponibile per altri utenti nell'organizzazione oppure creare un'area di lavoro per le app concedendo ai colleghi l'accesso per condividere il contenuto e collaborare.     
+- L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro per le app.      
 -  Le *aree di lavoro per le app* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro per le app e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri delle aree di lavoro per le app necessitano di licenze di Power BI Pro, ma gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente disporre di una licenza Pro.  
 
 Per altre informazioni, vedere la sezione **Condividere il lavoro** del sommario, iniziando da [Come collaborare e condividere dashboard e report](service-how-to-collaborate-distribute-dashboards-reports.md)

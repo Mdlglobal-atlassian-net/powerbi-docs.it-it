@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232109"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210331"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop (anteprima)
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
@@ -119,6 +119,7 @@ Quando un oggetto visivo viene evidenziato in modo incrociato in un report, le d
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Per questa versione di anteprima delle **descrizioni comando** dei report occorre tenere presenti alcune limitazioni e considerazioni.
 
+* A partire dalla versione di luglio 2018 di **Power BI Desktop**, gli oggetti visivi Tabella e Matrice sono supportati per le descrizioni comando. 
 * Le descrizioni comando dei report non sono supportate quando si visualizzano i report nelle app per dispositivi mobili o negli ambienti incorporati, tra cui la pubblicazione sul Web. 
 * Le descrizioni comando dei report non sono supportate per gli oggetti visivi personalizzati. 
 * I cluster non sono attualmente supportati come i campi che possono essere visualizzati nelle descrizioni comando dei report. 

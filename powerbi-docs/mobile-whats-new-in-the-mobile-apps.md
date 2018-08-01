@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2018
+ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 645e1e40867f52718f2ec79a17cf1b5525a3d951
-ms.sourcegitcommit: 9efb94ddb254e9c03e9871ad232509065ee24bf2
+ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2018
-ms.locfileid: "37864400"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182726"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,19 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](desktop-latest-update.md)  
 * [Novità del servizio Power BI](service-whats-new.md)  
+
+## <a name="july-2018"></a>Luglio 2018
+
+### <a name="ios-and-android-only"></a>Solo iOS e Android
+
+**Filtri condivisi**
+
+È ora possibile ricevere report con filtri e filtri dei dati condivisi.
+
+**Supporto per immagini di sfondo**
+
+Quando si visualizza un report in modalità orizzontale nel dispositivo mobile, è possibile visualizzare le stesse immagini di sfondo disponibili in Power BI sul Web.
+
 
 ## <a name="june-2018"></a>Giugno 2018
 

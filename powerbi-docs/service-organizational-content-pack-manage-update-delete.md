@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852303"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182795"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
 > [!NOTE]
@@ -52,7 +52,7 @@ Quando si apporta e si salva una modifica al dashboard incluso in un pacchetto d
 4. Apportare le modifiche necessarie nella finestra **Aggiorna pacchetto di contenuto** e selezionare **Aggiorna**. Viene visualizzato un messaggio di **operazione completata**.
    
    * Per i membri del gruppo che non hanno personalizzato il pacchetto di contenuto, l'aggiornamento viene applicato automaticamente.
-   * I membri del gruppo che hanno personalizzato il pacchetto di contenuto ricevono una notifica dell'esistenza di una nuova versione.  Potranno quindi passare ad AppSource e scaricare il pacchetto aggiornato senza perdere la propria versione personalizzata.  A questo punto hanno 2 versioni: quella personalizzata e il pacchetto di contenuto aggiornato.  Nella versione personalizzata non saranno più presenti tutti i riquadri dal pacchetto di contenuto originale.  Verrà comunque eseguito il rendering dei riquadri aggiunti da altri report.    
+   * I membri del gruppo che hanno personalizzato il pacchetto di contenuto ricevono una notifica dell'esistenza di una nuova versione.  Potranno quindi passare ad AppSource e scaricare il pacchetto aggiornato senza perdere la propria versione personalizzata.  A questo punto hanno 2 versioni: quella personalizzata e il pacchetto di contenuto aggiornato.  Nella versione personalizzata non saranno più presenti tutti i riquadri dal pacchetto di contenuto originale.  Verrà comunque eseguito il rendering dei riquadri aggiunti da altri report. Tuttavia, se il proprietario del pacchetto di contenuto elimina il set di dati su cui si basa il pacchetto di contenuto, l'intero report va perduto.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Aggiornare i destinatari: estendere o limitare l'accesso
 Un'altra modifica che possono eseguire gli autori di pacchetti di contenuti è l'estensione o la limitazione dell'accesso ai pacchetti.  Può accadere, ad esempio, di pubblicare un pacchetto di contenuto per un ampio numero di destinatari e che in seguito sia stato deciso di limitarne l'accesso a un gruppo meno numeroso.  

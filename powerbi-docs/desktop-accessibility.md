@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032003"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210285"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -47,8 +47,12 @@ Durante lo spostamento tra gli oggetti visivi, per interagire ulteriormente, è 
 
 > [!NOTE]
 > La funzionalità di visualizzazione dei dati è accessibile solo da un'utilità per la lettura dello schermo usando questo tasto di scelta rapida. Se si apre la finestra Visualizza dati usando l'opzione nell'intestazione dell'oggetto visivo, non sarà accessibile per un'utilità per la lettura dello schermo.
-> 
-> 
+
+A partire dalla versione di luglio 2018 di **Power BI Desktop**, la funzionalità di accessibilità è incorporata nei filtri dei dati. Quando si seleziona un filtro dei dati, per modificare il valore di un filtro dei dati usare CTRL+freccia destra per spostarsi tra i vari controlli all'interno di filtro dei dati. Ad esempio, quando si preme inizialmente CTRL+freccia destra lo stato attivo è sulla gomma e quindi premere BARRA SPAZIATRICE equivale a fare clic sul pulsante della gomma, che cancella tutti i valori nel filtro dei dati. 
+
+È possibile spostarsi tra i controlli in un filtro dei dati premendo il tasto TAB. Premendo il tasto TAB quando lo stato attivo è sulla gomma ci si sposta sul pulsante a discesa. Con un altro TAB ci si sposta sul primo valore del filtro dei dati (se sono presenti più valori per il filtro dei dati, ad esempio un intervallo). 
+
+![Premere CTRL+(tasto freccia destra) in Power BI Desktop per modificare l'elemento o i valori di un filtro dei dati. Premere BARRA SPAZIATRICE per selezionare l'elemento e modificarne il valore.](media/desktop-accessibility/accessibility_07.png)
 
 Queste opzioni di accessibilità aggiuntive sono state create per consentire agli utenti di usare al meglio i report di Power BI con un'utilità per la lettura dello schermo e la tastiera.
 
