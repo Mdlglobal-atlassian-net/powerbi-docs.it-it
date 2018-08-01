@@ -918,14 +918,18 @@
       items:
         - name: Panoramica
           items:
-            - name: Incorporamento con Power BI
+            - name: Informazioni sull'incorporamento con Power BI
               href: developer/embedding.md
+            - name: Informazioni su Power BI Embedded in Azure
+              href: developer/azure-pbie-what-is-power-bi-embedded.md
         - name: Esercitazioni
           items:
             - name: Incorporare contenuto per i clienti
               href: developer/embed-sample-for-customers.md
             - name: Incorporare contenuto per l'organizzazione
               href: developer/embed-sample-for-your-organization.md
+            - name: Integrare contenuti in un'applicazione per i cloud sovrani
+              href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Concetti
           items:
             - name: Sicurezza a livello di riga
@@ -936,12 +940,8 @@
               href: developer/power-bi-permissions.md
         - name: Procedure
           items:
-            - name: Come incorporare il contenuto
-              href: developer/embedding-content.md
             - name: Come incorporare da un'app
               href: developer/embed-from-apps.md
-            - name: Integrare contenuti in un'applicazione per i cloud sovrani (i dati sono di proprietà dell'app)
-              href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Creare un tenant di Azure Active Directory
               href: developer/create-an-azure-active-directory-tenant.md
             - name: Registrare un'applicazione
@@ -950,18 +950,36 @@
               href: developer/get-azuread-access-token.md
             - name: Incorporamento di Domande e risposte
               href: developer/qanda.md
-            - name: Come eseguire la migrazione di Power BI Embedded
-              href: developer/migrate-from-powerbi-embedded.md
             - name: Risoluzione dei problemi dell'applicazione incorporata
               href: developer/embedded-troubleshoot.md
+            - name: Gestire le capacità in Azure
+              items:
+                - name: Creare una capacità in Azure
+                  href: developer/azure-pbie-create-capacity.md
+                - name: Ridimensionare una capacità in Azure
+                  href: developer/azure-pbie-scale-capacity.md
+                - name: Sospendere e avviare una capacità in Azure
+                  href: developer/azure-pbie-pause-start.md
+            - name: Eseguire la migrazione dalle raccolte di aree di lavoro
+              items:
+                - name: Come eseguire la migrazione dalle raccolte di aree di lavoro di Power BI
+                  href: developer/migrate-from-powerbi-embedded.md
+                - name: Strumento di migrazione
+                  href: developer/migrate-tool.md
+                - name: Frammenti del codice di migrazione
+                  href: developer/migrate-code-snippets.md
         - name: Riferimento
           items:
+            - name: API
+              items:
+                - name: API REST di gestione delle risorse di Azure
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: API REST di Power BI
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
             - name: Download SDK .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
             - name: Incorporare layout personalizzati in un'app
               href: developer/embedded-custom-layout.md
-            - name: Frammenti del codice di migrazione
-              href: developer/migrate-code-snippets.md
         - name: Risorse
           items:
             - name: Dev Center
@@ -978,8 +996,6 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Esempi
               href: 'https://go.microsoft.com/fwlink/?linkid=851293'
-            - name: Strumento di migrazione di Power BI Embedded
-              href: developer/migrate-tool.md
             - name: Community di Power BI
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Overflow dello stack
@@ -1064,8 +1080,6 @@
           items:
             - name: API REST
               href: 'https://docs.microsoft.com/rest/api/power-bi'
-            - name: Riferimento all'API REST di Power BI
-              href: developer/rest-api-reference.md
             - name: Listato di codice completo
               href: developer/walkthrough-push-data-complete-code.md
         - name: Risorse

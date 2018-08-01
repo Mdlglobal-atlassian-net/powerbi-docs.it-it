@@ -11,10 +11,10 @@ ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: b7aac59c9d3848db37211475cd82447d6359b459
-ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 07/31/2018
 ms.locfileid: "34456040"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Esercitazione: Analisi di Facebook con Power BI Desktop
@@ -29,7 +29,7 @@ In questa esercitazione vengono usati dati dalla [pagina Facebook di Microsoft P
    
 2. Nella finestra di dialogo **Recupera dati** selezionare **Facebook** nel gruppo **Servizi online** e quindi selezionare **Connetti**.
    
-   ![Recuperare i dati](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
+   ![Recupera dati](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
    Verrà visualizzata una finestra di dialogo che avvisa in merito ai rischi legati all'uso di un servizio di terze parti.
    
@@ -39,7 +39,7 @@ In questa esercitazione vengono usati dati dalla [pagina Facebook di Microsoft P
    
 4. Digitare o incollare il nome della pagina **microsoftbi** nella casella di testo **Nome utente** e selezionare **Post** dal menu a discesa **Connessione**, quindi selezionare **OK**.
    
-   ![Connect](media/desktop-tutorial-facebook-analytics/2.png)
+   ![Connetti](media/desktop-tutorial-facebook-analytics/2.png)
    
 5. Alla richiesta di credenziali, accedere all'account Facebook e consentire l'accesso di Power BI attraverso il proprio account.
    
