@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210331"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280755"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop (anteprima)
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
@@ -124,6 +124,7 @@ Per questa versione di anteprima delle **descrizioni comando** dei report occorr
 * Le descrizioni comando dei report non sono supportate per gli oggetti visivi personalizzati. 
 * I cluster non sono attualmente supportati come i campi che possono essere visualizzati nelle descrizioni comando dei report. 
 * Quando si sceglie un campo da visualizzare per le descrizioni comando del report, se si usa un campo rispetto a una categoria, gli oggetti visivi che contengono tale campo visualizzano la descrizione comando specificata solo quando il riepilogo con il campo selezionato corrisponde. 
+
 
 
 ## <a name="next-steps"></a>Passaggi successivi

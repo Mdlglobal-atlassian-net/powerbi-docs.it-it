@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: maggies
-ms.openlocfilehash: 41a8b463ca95d0e4e0e0ba71dbd9ec9a1ce78920
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: 7149fd43d4214ed756eff61a523805ec9f50e1ae
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182726"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280778"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -46,7 +46,7 @@ Le barre delle azioni superiore e inferiore ora scompaiono subito dopo il carica
 
 Sono state aumentate le dimensioni dell'area di disegno del report nel telefono per avere spazio per altri oggetti visivi.
 
-## <a name="may-2018"></a>Mag 2018
+## <a name="may-2018"></a>Maggio 2018
 
 ### <a name="mobile-drill-through-all-mobile-apps"></a>Drill-through per dispositivi mobili: tutte le app per dispositivi mobili
 
@@ -185,7 +185,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di lu
 
 **Nuovo menu: App** Un'app è costituita da una raccolta di dashboard e report creata dall'organizzazione allo scopo di fornire metriche chiave che consentano di prendere decisioni basate sui dati in modo semplice e rapido.
 
-Altre informazioni sulla [modalità di organizzazione del contenuto di Power BI](mobile-apps-find-content-mobile-devices.md).
+Altre informazioni sulla [modalità di organizzazione del contenuto di Power BI](mobile-apps-quickstart-view-dashboard-report.md).
 
 #### <a name="ios-and-android-devices"></a>Dispositivi iOS e Android
 **Anteprima del server di report Power BI** Creare e pubblicare report di Power BI in locale, quindi [visualizzare e interagire con essi nel dispositivo mobile iOS o Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md). 
@@ -241,7 +241,7 @@ Con Domande e risposte è possibile porre domande sui dati usando il linguaggio 
 Ora è possibile connettersi a un massimo di cinque server SQL Server Reporting Services (SSRS) contemporaneamente.
 
 #### <a name="android-tablets"></a>Tablet Android
-**L'app Power BI per dispositivi mobili** per tablet Android ora è disponibile a livello globale. Introduzione a [Power BI sul tablet Android](mobile-android-tablet-app-get-started.md).
+**L'app Power BI per dispositivi mobili** per tablet Android ora è disponibile a livello globale. Introduzione a [Power BI sul tablet Android](mobile-android-app-get-started.md).
 
 #### <a name="ios-and-android-devices"></a>Dispositivi iOS e Android
 **Nuovo menu per i riquadri del dashboard** Da un menu nel riquadro di un dashboard è possibile passare direttamente al report sottostante, espandere il riquadro o gestire un avviso. 
@@ -304,7 +304,7 @@ Leggere il [riepilogo delle funzionalità delle app Power BI per dispositivi mob
 #### <a name="android-tablets"></a>Tablet Android
 **App Power BI per dispositivi mobili per tablet Android** È disponibile la versione di anteprima.
 
-* Provare [Power BI sul tablet Android](mobile-android-tablet-app-get-started.md)
+* Provare [Power BI sul tablet Android](mobile-android-app-get-started.md)
 * Esplorare i [report per dispositivi mobili e gli indicatori KPI di Reporting Services nel tablet Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Dispositivi Android
@@ -498,7 +498,7 @@ Tutti i miglioramenti di gennaio sono già presenti nella nuova [app Power BI pe
 
 **Riquadri R e widget Web** : è possibile visualizzare questi nuovi tipi di riquadri nei dashboard nei dispositivi mobili.
 
-**Dashboard Bing**: nel servizio Power BI ora è possibile [creare dashboard con i risultati delle ricerche Bing](service-connect-to-bing.md) e visualizzarli nel dispositivo mobile.
+**Dashboard Bing**: nel servizio Power BI ora è possibile [creare dashboard con i risultati delle ricerche Bing](service-connect-to-services.md) e visualizzarli nel dispositivo mobile.
 
 **Pagine di report aggiunte come riquadri ai dashboard**: grazie alla possibilità di aggiungere un'intera pagina di report a un dashboard nel servizio Power BI, ora è possibile visualizzare le pagine dei report nell'app Power BI sull'iPhone o sul telefono Android.
 
