@@ -1,21 +1,21 @@
 ---
 title: Usare la modalità di archiviazione in Power BI Desktop (anteprima)
-description: Usare la modalità di archiviazione per controllare se i dati vengono memorizzati nella cache in memoria per i report in Power BI Desktop
+description: Usare la modalità di archiviazione per controllare se i dati vengono archiviati nella cache in memoria per i report in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 15580cd43e4bb2d286310868a8e853daff04f280
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211372"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388802"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modalità di archiviazione in Power BI Desktop (anteprima)
 
@@ -34,7 +34,7 @@ L'impostazione della **modalità di archiviazione** offre numerosi vantaggi. È 
 L'impostazione della **modalità di archiviazione** in **Power BI Desktop** corrisponde a una di tre funzionalità correlate:
 
 * **Modelli compositi** - Consente a un report di avere più connessioni dati, tra cui connessioni DirectQuery o importazione, in qualsiasi combinazione.
-* **Relazioni molti-a-molti** - Con i **modelli compositi** è possibile stabilire **relazioni molti-a-molti** tra tabelle, rimuovendo i requisiti per i valori univoci nelle tabelle ed evitando soluzioni alternative precedenti, come l'introduzione di nuove tabelle solo per stabilire relazioni. 
+* **Relazioni molti-a-molti** - Con i **modelli compositi** è possibile stabilire **relazioni molti-a-molti** tra tabelle, rimuovendo i requisiti per i valori univoci nelle tabelle e annullando soluzioni alternative precedenti, come l'introduzione di nuove tabelle solo per stabilire relazioni. 
 * **Modalità di archiviazione** - È ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end e quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano l'invio di query alle origini di back-end. 
 
 Questa raccolta delle tre funzionalità correlate per i **modelli compositi** è descritta in articoli separati:

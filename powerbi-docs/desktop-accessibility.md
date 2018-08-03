@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210285"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256033"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -40,6 +40,8 @@ Grazie ai miglioramenti dell'accessibilità, è possibile usare un report di Pow
 * Quando la *pagina del report* caricata è attiva, usare il tasto di *tabulazione* per spostare lo stato attivo su ogni oggetto nella pagina, ad esempio tutte le caselle di testo, le immagini, le forme e i grafici. L'utilità di lettura dello schermo legge il tipo di oggetto, il titolo dell'oggetto, se esiste, e una descrizione dell'oggetto, se aggiunta dall'autore del report. 
 
 Durante lo spostamento tra gli oggetti visivi, per interagire ulteriormente, è possibile premere **ALT+ MAIUSC+F10** per spostare lo stato attivo sull'intestazione dell'oggetto visivo, che contiene diverse opzioni tra cui l'ordinamento, l'esportazione dei dati su cui si basa il grafico e la modalità messa a fuoco. 
+
+![Premere ALT+MAIUSC+F10 in Power BI Desktop per spostare lo stato attivo sull'intestazione dell'oggetto visivo](media/desktop-accessibility/accessibility_08.png)
 
 È possibile premere **Alt+MAIUSC+F11** per visualizzare una versione accessibile della finestra *Visualizza dati*. Ciò consente di esplorare i dati usati nell'oggetto visivo in una tabella HTML, usando gli stessi tasti di scelta rapida che in genere si usano con l'utilità per la lettura dello schermo. 
 
