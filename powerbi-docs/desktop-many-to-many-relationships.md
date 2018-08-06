@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211340"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388756"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relazioni molti-a-molti in Power BI Desktop (anteprima)
 
@@ -26,14 +26,14 @@ Con la funzionalità **relazione molti-a-molti** in **Power BI Desktop** è poss
 La capacità **relazioni molti-a-molti** in **Power BI Desktop** fa parte di una raccolta di tre funzionalità correlate:
 
 * **Modelli compositi** - Consente a un report di avere più connessioni dati, tra cui connessioni DirectQuery o importazione, in qualsiasi combinazione.
-* **Relazioni molti-a-molti** - Con i **modelli compositi** è possibile stabilire **relazioni molti-a-molti** tra tabelle, rimuovendo i requisiti per i valori univoci nelle tabelle ed evitando soluzioni alternative precedenti, come l'introduzione di nuove tabelle solo per stabilire relazioni. 
+* **Relazioni molti-a-molti** - Con i **modelli compositi** è possibile stabilire **relazioni molti-a-molti** tra tabelle, rimuovendo i requisiti per i valori univoci nelle tabelle e annullando soluzioni alternative precedenti, come l'introduzione di nuove tabelle solo per stabilire relazioni. 
 * **Modalità di archiviazione** - È ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end e quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano l'invio di query alle origini di back-end. 
 
 Questa raccolta delle tre funzionalità correlate per i **modelli compositi** è descritta in articoli separati:
 
 * I **modelli compositi** sono descritti in dettaglio nell'articolo [Modelli compositi in Power BI Desktop (anteprima)](desktop-composite-models.md).
 * Le **relazioni molti-a-molti** sono descritti in questo articolo.
-* La **modalità di archiviazione** è descritta in un articolo apposito [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md).
+* La **modalità di archiviazione** è descritta in un articolo a parte, [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md).
 
 ## <a name="enabling-the-many-to-many-relationships-preview-feature"></a>Abilitazione della funzionalità in anteprima relazioni molti-a-molti
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 964d9dfcc9a22d13b071fd59533821ebf907c7e1
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244831"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328466"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Pubblicare in Power BI da Excel 2016
 Excel 2016 consente di pubblicare una cartella di lavoro di Excel direttamente nel sito di [Power BI](https://powerbi.microsoft.com), in cui è possibile creare report e dashboard estremamente interattivi sulla base dei dati presenti nella cartella di lavoro. È quindi possibile condividere le informazioni con altri utenti dell'organizzazione.
@@ -47,7 +47,7 @@ Sono disponibili due opzioni per la pubblicazione della cartella di lavoro in Po
 
 ![](media/service-publish-from-excel/pbi_uploadexport3.png)
 
-Dopo la pubblicazione, viene mantenuta come copia in Power BI, separata dal file locale. Se si vuole aggiornare il file in Power BI, è necessario pubblicare nuovamente la versione aggiornata. È possibile aggiornare i dati e impostare la l'aggiornamento pianificato nella cartella di lavoro o nel set di dati in Power BI.
+Dopo la pubblicazione, viene mantenuta come copia in Power BI, separata dal file locale. Se si vuole aggiornare il file in Power BI, è necessario pubblicare nuovamente la versione aggiornata. È possibile aggiornare i dati e impostare l'aggiornamento pianificato nella cartella di lavoro o nel set di dati in Power BI.
 
 ### <a name="publishing-from-excel-standalone"></a>Pubblicazione da un'installazione autonoma di Excel
 Se non è già stato fatto, è necessario salvare la cartella di lavoro in OneDrive. Selezionare Salva nel cloud e scegliere un percorso in OneDrive for Business.

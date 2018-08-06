@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 828c5e8afc28b496b1920468097ce629fe646e37
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34564651"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Come trovare il codice Product Key del server di report
 Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione.
@@ -33,8 +34,8 @@ Se si seleziona **Chiave del server di report di Power BI** viene visualizzata u
 
 ![Codice Product Key del Server di report Power BI](media/find-product-key/pbirs-product-key-dialog.png)
 
-## <a name="purchased-software-assurance-agreeemnt"></a>Acquisto del contratto Software Assurance
-Se si ha un contratto SQL Server Enterprise SA, è possibile ottenere il codice Product Key dal [Centro servizi per contratti multilicenza](https://www.microsoft.com/Licensing/servicecenter/). Cercare l'ultima versione di SQL Server nel service pack più recente. Se non è presente, cercare nell'ultima versione RTM di SQL Server.
+## <a name="purchased-software-assurance-agreement"></a>Contratto Software Assurance acquistato
+Se si dispone di un contratto SQL Server Enterprise SA, è possibile ottenere il codice Product Key dal [Centro servizi per contratti multilicenza](https://www.microsoft.com/Licensing/servicecenter/). Cercare l'ultima versione di SQL Server nel service pack più recente. Se non è presente, cercare nell'ultima versione RTM di SQL Server.
 
 > [!NOTE]
 > È necessario cercare nella sezione dedicata ai download, non in quella delle chiavi.

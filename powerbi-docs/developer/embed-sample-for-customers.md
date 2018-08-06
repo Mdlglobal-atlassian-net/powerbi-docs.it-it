@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 781e34eadfccb89954c0a8548589e1bf89830079
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877419"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359755"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per i clienti
 Con **Power BI Embedded in Azure**, è possibile incorporare report, dashboard o riquadri in un'applicazione usando **dati di proprietà dell'app**. **I dati di proprietà dell'app** consistono nel disporre di un'applicazione che usa Power BI come piattaforma di analisi incorporata. Si tratta in genere di uno scenario **ISV developer**. In qualità di **ISV developer** è possibile creare contenuti Power BI che visualizzano report, dashboard o riquadri in un'applicazione completamente integrata e interattiva, senza richiedere agli utenti dell'applicazione di disporre di una licenza Power BI o di essere a conoscenza del fatto che è presente Power BI. Questa esercitazione illustra come integrare un report in un'applicazione tramite .NET SDK di **Power BI** insieme all'API JavaScript di **Power BI** quando si usa **Power BI Embedded in Azure**  per i clienti che usano **dati di proprietà dell'app**.
@@ -320,16 +320,31 @@ Per un esempio completo dell'uso dell'API JavaScript, è possibile usare lo [str
 
 ## <a name="move-to-production"></a>Passare alla produzione
 
-Una volta terminato lo sviluppo dell'applicazione, è necessario eseguire il backup dell'area di lavoro dell'app con una capacità dedicata. La capacità dedicata è necessaria per passare alla produzione.
+Dopo aver terminato lo sviluppo dell'applicazione, è necessario eseguire il backup dell'area di lavoro dell'app con una capacità dedicata. La capacità dedicata è necessaria per passare alla produzione.
 
 ### <a name="create-a-dedicated-capacity"></a>Creare una capacità dedicata
-Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata destinata ai clienti. Le aree di lavoro a cui non è stata assegnata una capacità dedicata, dovranno disporre di una capacità condivisa. È possibile creare una capacità dedicata usando la soluzione di [capacità dedicata Power BI Embedded](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) di Azure.
+Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata destinata ai clienti. È possibile acquistare una capacità dedicata all'interno del [portale di Microsoft Azure](https://portal.azure.com). Per informazioni dettagliate su come creare una capacità per Power BI Embedded, vedere [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Creare capacità per Power BI Embedded nel portale di Azure).
+
+Usare la tabella seguente per individuare la capacità di Power BI Embedded più adatta alle proprie esigenze.
+
+| Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
+| --- | --- | --- | --- | --- | --- |
+| A1 |1 v-core |0,5 core, 3 GB di RAM |0,5 core | 5 al secondo |1-300 |
+| A2 |2 v-core |1 core, 5 GB di RAM |1 core | 10 al secondo |301-600 |
+| A3 |4 v-core |2 core, 10 GB di RAM |2 core | 15 al secondo |601-1.200 |
+| A4 |8 v-core |4 core, 25 GB di RAM |4 core |30 al secondo |1.201-2.400 |
+| A5 |16 v-core |8 core, 50 GB di RAM |8 core |60 al secondo |2.401-4.800 |
+| A6 |32 v-core |16 core, 100 GB di RAM |16 ore |120 al secondo |4.801-9600 |
+
+**_Con gli SKU A, non è possibile accedere al contenuto di Power BI con una licenza di Power BI gratuita._**
 
 I token di incorporamento con licenze Pro sono destinati al test dello sviluppo, pertanto il numero di token di incorporamento che un account master Power BI può generare è limitato. È necessario acquistare una capacità dedicata per l'incorporamento in un ambiente di produzione. Con una capacità dedicata è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale. La quantità di utilizzo è calcolata per ogni account master.
 
+Per altre informazioni, vedere [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (White paper sulla pianificazione della capacità di analisi incorporata)
+
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro per le app a una capacità dedicata
 
-Una volta creata la capacità dedicata, assegnare l'area di lavoro per le app alla capacità dedicata. Per eseguire questa operazione, seguire questi passaggi.
+Dopo aver creato una capacità dedicata, è possibile assegnare l'area di lavoro dell'app alla capacità dedicata. Per eseguire questa operazione, seguire questi passaggi.
 
 1. All'interno del **servizio Power BI** espandere le aree di lavoro e selezionare i puntini di sospensione relativi all'area di lavoro in cui incorporare il contenuto. Quindi selezionare **Edit workspaces** (Modifica aree di lavoro).
 
@@ -339,6 +354,14 @@ Una volta creata la capacità dedicata, assegnare l'area di lavoro per le app al
 
     ![Assegnare la capacità dedicata](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-Per altre domande su Power BI Embedded, visitare la pagina [Domande frequenti](embedded-faq.md).  In caso di problemi con Power BI Embedded all'interno dell'applicazione, visitare la pagina [Risoluzione dei problemi](embedded-troubleshoot.md).
+3. Dopo aver selezionato **Salva** viene visualizzato un **rombo** accanto al nome dell'area di lavoro dell'app.
+
+    ![area di lavoro dell'app assegnata a una capacità](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+
+## <a name="next-steps"></a>Passaggi successivi
+In questa esercitazione è stato descritto come incorporare il contenuto di Power BI in un'applicazione per i clienti. È anche possibile provare a incorporare il contenuto di Power BI per l'organizzazione.
+
+> [!div class="nextstepaction"]
+>[Incorporamento per l'organizzazione](embed-sample-for-your-organization.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

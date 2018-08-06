@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877332"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39330214"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
@@ -31,7 +31,7 @@ Le attività di query comuni illustrate in questo documento sono:
 
 Per completare queste attività, verranno usate alcune connessioni dati. I dati sono disponibili per il download o la connessione, nel caso in cui si voglia provare a eseguire autonomamente queste attività.
 
-La prima connessione dati è una cartella di lavoro di Excel. L'altra è una risorsa Web, che viene usata anche in altri contenuti della Guida di Power BI Desktop e a cui è possibile accedere da questo indirizzo:
+La prima connessione dati è una cartella di lavoro di Excel che è possibile scaricare da [questo collegamento](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). L'altra è una risorsa Web, che viene usata anche in altri contenuti della Guida di Power BI Desktop e a cui è possibile accedere da questo indirizzo:
 
 [*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600258"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280410"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Utilizzo di tabelle nei report e nei dashboard di Power BI
 Una tabella è una griglia contenente dati correlati in una serie logica di righe e colonne. Può anche contenere intestazioni e una riga per i totali. Le tabelle funzionano bene con confronti quantitativi in cui si analizzano molti valori per una singola categoria. Ad esempio, questa tabella mostra 5 diverse misure per **Categoria**.
@@ -56,7 +56,7 @@ Verrà creata la tabella raffigurata nell'immagine precedente per visualizzare i
      ![](media/power-bi-visualization-tables/pbi_pintile.png)
 
 ## <a name="format-the-table"></a>Formattare la tabella
-Esistono molti modi per formattare una tabella e in questa sede ci si occuperà solo di alcuni di essi. Un ottimo modo per apprendere le altre opzioni di formattazione consiste nell'aprire il riquadro Formattazione (icona del rullo ![](media/power-bi-visualization-tables/power-bi-format.png)) ed esplorare.
+È possibile formattare una tabella in diversi modi. Di seguito sono descritti alcuni dei modi possibili. Un ottimo modo per apprendere le altre opzioni di formattazione consiste nell'aprire il riquadro Formattazione (icona del rullo ![](media/power-bi-visualization-tables/power-bi-format.png)) ed esplorare.
 
 * Provare a formattare la griglia della tabella. In questo caso è stata aggiunta una griglia blu verticale, è stato aggiunto spazio alle righe e sono state lievemente aumentate le dimensioni di profilo e testo.
 

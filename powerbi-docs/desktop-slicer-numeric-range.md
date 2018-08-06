@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286935"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331174"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop
 Con il **filtro dei dati per l'intervallo numerico**, è possibile applicare qualsiasi filtro a qualsiasi colonna numerica nel modello di dati. Si può decidere di usare il filtro **Tra** su più numeri oppure **Minore o uguale a** o **Maggiore o uguale a** rispetto a un numero. Anche se può sembrare semplice, è un modo molto efficace per filtrare i dati.
@@ -53,7 +53,7 @@ Infine, quando si seleziona **Maggiore o uguale a**, il punto di controllo a des
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Allineamento ai numeri interi con il filtro dei dati per l'intervallo numerico
 
-Un filtro dei dati per l'intervallo numerico viene allineato ai numeri interi, a meno che non si tratti di un intervallo decimale. In questo modo il filtro dei dati sarà allineato correttamente ai numeri interi. 
+Se i dati del campo sottostante sono di tipo **numero intero**, un filtro dei dati di intervallo numerico verrà allineato ai numeri interi. In questo modo il filtro dei dati sarà allineato correttamente ai numeri interi. I campi di tipo **numero decimale** consentono di immettere o selezionare le frazioni di un numero. La formattazione applicata nella casella di testo corrisponde alla formattazione impostata nel campo, anche se è possibile digitare o selezionare numeri più precisi.
 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
@@ -61,3 +61,4 @@ Per il **filtro dei dati per l'intervallo numerico** è opportuno tenere present
 
 * Il **filtro dei dati per l'intervallo numerico** attualmente filtra tutte le righe sottostanti nei dati, non i valori aggregati. Ad esempio, se si usa un filtro *Sales Amount*, viene filtrata ogni transazione basata su *Sales Amount*, non la somma di *Sales Amount* per ogni punto dati di un oggetto visivo.
 * Attualmente non funziona con le misure.
+* È possibile digitare un qualsiasi numero nelle caselle di testo in un filtro dei dati numerico, anche se non è compreso nell'intervallo di valori nella colonna sottostante. Ciò consente di impostare filtri per dati che possono cambiare in futuro.

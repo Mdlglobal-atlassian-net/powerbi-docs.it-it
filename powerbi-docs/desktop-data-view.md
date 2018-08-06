@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/04/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 2caa22152580d3de8c6ede585c43dedf4e624f88
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: fad7b8453b6d5d29a1f6c5d9d9ed49b0a8b8a66f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813734"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280341"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Visualizzazione dati in Power BI Desktop
 La **Vista dati** consente di esaminare, esplorare e interpretare i dati nel modello di **Power BI Desktop**. È diversa dalla visualizzazione di tabelle, colonne e dati nell'**Editor di query**. Con la Vista dati i dati vengono visualizzati *dopo* essere stati caricati nel modello.
@@ -46,4 +46,5 @@ Nella **Vista dati** è anche possibile filtrare e ordinare i dati. Ogni colonna
 
 È possibile filtrare singoli valori o usare un filtro avanzato in base ai dati presenti nella colonna. 
 
-
+> [!NOTE]
+> Quando un modello di Power BI viene creato in impostazioni cultura diverse dall'interfaccia utente corrente (ad esempio, il modello è stato creato in Inglese (Stati Uniti) e viene visualizzato in Spagnolo), La casella di ricerca viene visualizzata nell'interfaccia utente Vista dati solo per i campi di testo.

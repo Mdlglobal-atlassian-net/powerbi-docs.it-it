@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105270"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359732"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per l'organizzazione
 Questa esercitazione illustra come integrare un report in un'applicazione usando l'**SDK .NET di Power BI** con l'**API JavaScript di Power BI** durante l'incorporamento di **Power BI** in un'applicazione per l'organizzazione. **Power BI** consente di incorporare report, dashboard o riquadri in un'applicazione usando**dati di proprietà dell'utente**. I **dati di proprietà dell'utente** consentono all'applicazione di estendere il servizio Power BI.
@@ -413,7 +413,24 @@ function updateEmbedReport() {
 Una volta terminato lo sviluppo dell'applicazione, è necessario eseguire il backup dell'area di lavoro dell'app con una capacità dedicata.
 
 ### <a name="create-a-dedicated-capacity"></a>Creare una capacità dedicata
-Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata al contenuto dell'area di lavoro dell'app. Se un'area di lavoro non è assegnata a una capacità dedicata, viene considerata una capacità condivisa. È possibile creare una capacità dedicata usando [Power BI Premium ](../service-admin-premium-purchase.md).
+Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata al contenuto dell'area di lavoro dell'app. È possibile creare una capacità dedicata usando [Power BI Premium ](../service-premium.md).
+
+La tabella seguente elenca gli SKU di Power BI Premium disponibili in [Office 365](../service-admin-premium-purchase.md).
+
+| Nodo della capacità | Totale vCore<br/>*(Back-end + front-end)* | vCore back-end | vCore front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 v-core |0,5 vCore, 10 GB di RAM |0,5 vCore |3,75 al secondo |150-300 |
+| EM2 |2 v-core |1 vCore, 10 GB di RAM |1 v-core |7,5 al secondo |301-600 |
+| EM3 |4 v-core |2 vCore, 10 GB di RAM |2 v-core |15 al secondo |601-1.200 |
+| P1 |8 v-core |4 vCore, 25 GB di RAM |4 v-core |30 al secondo |1.201-2.400 |
+| P2 |16 v-core |8 vCore, 50 GB di RAM |8 v-core |60 al secondo |2.401-4.800 |
+| P3 |32 v-core |16 vCore, 100 GB di RAM |16 v-core |120 al secondo |4.801-9600 |
+| P4 |64 vCore |32 vCore, 200 GB di RAM |32 v-core |240 al secondo |9601-19200
+| P5 |128 vCore |64 vCore, 400 GB di RAM |64 vCore |480 al secondo |19201-38400
+
+*Con gli **_SKU EM_**, **è possibile** accedere al contenuto con una licenza di Power BI gratuita quando si tenta l'incorporamento tramite le **_app di MS Office_**, ma **non è possibile accedere** al contenuto con una licenza di Power BI gratuita quando si usa **_Powerbi.com_** o **_Power BI per dispositivi mobili_**.*
+
+*Con gli **_SKU P_**, **è possibile** accedere al contenuto con una licenza di Power BI gratuita quando si tenta l'incorporamento tramite le **_app di MS Office_**, **_Powerbi.com_** o **_Power BI per dispositivi mobili_**.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro per le app a una capacità dedicata
 
@@ -431,13 +448,17 @@ Dopo aver creato una capacità dedicata, è possibile assegnare l'area di lavoro
 
     ![area di lavoro dell'app assegnata a una capacità](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Impostazioni di amministrazione
+
+Gli amministratori globali o gli amministratori del servizio Power BI possono attivare o disattivare la possibilità di usare le API REST per un tenant. Gli amministratori di Power BI possono configurare questa impostazione per l'intera organizzazione o per singoli gruppi di sicurezza. L'opzione è abilitata per l'intera organizzazione per impostazione predefinita. È possibile eseguire questa operazione tramite il [portale di amministrazione di Power BI](../service-admin-portal.md).
+
 ## <a name="next-steps"></a>Passaggi successivi
-In questa esercitazione è stato descritto come incorporare il contenuto di Power BI in un'applicazione usando l'**account dell'organizzazione di Power BI**. È ora possibile provare a incorporare il contenuto di Power BI in un'applicazione usando le app.  È anche possibile provare a incorporare il contenuto di Power BI per i clienti di terze parti.
+In questa esercitazione è stato descritto come incorporare il contenuto di Power BI in un'applicazione usando l'**account dell'organizzazione di Power BI**. È ora possibile provare a incorporare il contenuto di Power BI in un'applicazione usando le app.  È anche possibile provare a incorporare il contenuto di Power BI per i clienti.
 
 > [!div class="nextstepaction"]
 > [Incorporare contenuti dalle app](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Incorporare contenuto per i clienti di terze parti](embed-sample-for-customers.md)
+>[Incorporamento per i clienti](embed-sample-for-customers.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

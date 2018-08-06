@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721065"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280663"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Creare report ottimizzati per le app per telefoni di Power BI
 Quando si [crea un report in Power BI Desktop](desktop-report-view.md), è possibile migliorare l'esperienza d'uso nelle app per dispositivi mobili sui telefoni cellulari creando una versione del report specifica per il telefono. Per adattare il report al telefono e creare un'esperienza ottimale, è sufficiente ridisporre e ridimensionare gli oggetti visivi, magari non includendoli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report per il telefono. I lettori del report possano visualizzarli e filtrare il report con essi.
@@ -72,7 +72,7 @@ Quando le dimensioni di un oggetto visivo subiscono modifiche, Power BI classifi
   
    ![Rimozione di un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Migliorare i filtri dei dati per il miglior funzionamento nei report per il telefono
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Migliorare i filtri dei dati per un funzionamento corretto nei report per il telefono
 I filtri dei dati possono essere applicati nell'area di disegno dei dati del report. Quando si progettano i filtri dei dati nella normale modalità di creazione dei report, è possibile modificare alcune impostazioni di filtro dei dati per renderle più facilmente utilizzabili nei report per il telefono:
 
 * Decidere se i lettori del report possono selezionare uno o più elementi.
