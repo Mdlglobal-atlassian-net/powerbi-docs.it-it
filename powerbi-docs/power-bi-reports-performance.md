@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598879"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582572"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
@@ -24,8 +24,8 @@ Questo articolo offre indicazioni per creare report veloci e affidabili in Power
 
 Più sono i dati da visualizzare in un oggetto visivo, più lento sarà il caricamento dell'oggetto visivo. Sebbene questo principio possa sembrare ovvio, spesso lo si dimentica. Si supponga ad esempio di avere un set di dati di grandi dimensioni. Su questo set di dati si crea un report con una tabella della tabella. Gli utenti finali usano i filtri dei dati nella pagina per visualizzare le righe desiderate, in genere qualche decina.
 
-Un errore comune è lasciare la visualizzazione predefinita della tabella non filtrata, ad esempio con oltre 100 milioni di righe. I dati di queste righe devono essere caricati nella memoria e decompressi a ogni aggiornamento. Questo crea un enorme sovraccarico della memoria. Soluzione: ridurre il numero massimo di elementi visualizzati dalla tabella usando il filtro "Primi N". Il numero massimo di elementi può essere molto maggiore di quanto effettivamente serva agli utenti, ad esempio 10.000. Di conseguenza, l'esperienza utente rimane invariata, ma l'utilizzo della memoria del report si riduce in modo significativo, migliorando al contempo le prestazioni. 
- 
+Un errore comune è lasciare la visualizzazione predefinita della tabella non filtrata, ad esempio con oltre 100 milioni di righe. I dati di queste righe devono essere caricati nella memoria e decompressi a ogni aggiornamento. Questo crea un enorme sovraccarico della memoria. Soluzione: ridurre il numero massimo di elementi visualizzati dalla tabella usando il filtro "Primi N". Il numero massimo di elementi può essere molto maggiore di quanto effettivamente serva agli utenti, ad esempio 10.000. Di conseguenza, l'esperienza utente rimane invariata, ma l'utilizzo della memoria del report si riduce in modo significativo, migliorando al contempo le prestazioni.
+
 Un approccio simile a quello precedente è consigliato per tutti gli oggetti visivi dei report. È importante chiedersi se tutti i dati presenti nell'oggetto visivo sono effettivamente necessari e se è possibile filtrare la quantità di dati visualizzati nell'oggetto visivo con un impatto minimo sull'esperienza dell'utente finale. In particolare, le tabelle possono utilizzare una quantità elevata di memoria. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Limitare gli oggetti visivi nelle pagine dei report 
