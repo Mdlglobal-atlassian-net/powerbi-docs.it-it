@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: ba8a0c6868e84cf9d675fff8f69a34b4befc9b61
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3777d082d8e0d166abadd2ab89035d6895421f24
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852211"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415347"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con l'app Power BI per dispositivi mobili e connettersi a Server di report di Microsoft Power BI e a SQL Server Reporting Services 2016 o versioni successive.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
 
-È possibile usare OAuth per connettersi al Server di report di Power BI e a Reporting Services e visualizzare report per dispositivi mobili o indicatori KPI. Per consentire questo tipo di autenticazione, Windows Server 2016 offre alcuni miglioramenti per il ruolo di Proxy applicazione Web. Si noti che questa configurazione non supporta la visualizzazione di report di Power BI nelle app Power BI per dispositivi mobili. È tuttavia possibile visualizzarli in un browser in un dispositivo mobile. Per visualizzare i report di Power BI nell'app per dispositivi mobili, è necessario usare l'autenticazione di Windows.
+È possibile usare OAuth per connettersi al Server di report di Power BI e a Reporting Services e visualizzare report per dispositivi mobili o indicatori KPI. Per consentire questo tipo di autenticazione, Windows Server 2016 offre alcuni miglioramenti per il ruolo di Proxy applicazione Web. Si noti che al momento la visualizzazione di report di Power BI ospitati nel Server di report di Power BI che usano WAP per l'autenticazione non è supportata ufficialmente.
 
 ## <a name="requirements"></a>Requisiti
 Windows Server 2016 è necessario per i server Proxy applicazione Web (WAP) e Active Directory Federation Services (ADFS). Non è necessario avere un dominio di livello funzionale di Windows 2016.

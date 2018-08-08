@@ -2,19 +2,19 @@
 title: Aggiungere righe a una tabella
 description: Procedura dettagliata per il push dei dati - Aggiungere righe a una tabella di Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.date: 08/01/2018
+ms.openlocfilehash: 7608d9098177805849ec61f0427ee5bc662d58c9
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34812538"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39475661"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passaggio 5: Aggiungere righe a una tabella di Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
@@ -307,9 +307,10 @@ Di seguito è riportato il [listato di codice completo](#code).
         }
     }
 
+Anche se nel codice precedente si specifica **_//Get the first id_** (Ottiene il primo ID), l'operazione corretta da eseguire è quella di cercare il set di dati in base al nome.
+
 ## <a name="next-steps"></a>Passaggi successivi
 [Eseguire il push dei dati in un dashboard di Power BI](walkthrough-push-data.md)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
 [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

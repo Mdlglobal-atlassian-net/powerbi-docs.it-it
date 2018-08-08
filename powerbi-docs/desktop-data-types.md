@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456032"
+ms.locfileid: "39475753"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -45,6 +45,11 @@ Power BI Desktop supporta tre tipi numerici:
 **Numero decimale fisso** : contiene una posizione fissa per il separatore decimale. Il separatore decimale ha sempre quattro cifre a destra e consente 19 cifre significative.  Il valore più grande che può rappresentare è 922.337.203.685.477,5807 (positivo o negativo).  Il tipo Numero decimale fisso è utile nei casi in cui l'arrotondamento potrebbe introdurre errori.  Quando si lavora con molti numeri che hanno piccoli valori frazionari, talvolta questi possono accumularsi forzando un numero a non essere propriamente corretto.  Poiché i valori dopo le quattro cifre a destra del separatore decimale vengono troncati, il tipo Numero decimale fisso può consentire di evitare questi tipi di errori.   Se si ha familiarità con SQL Server, questo tipo di dati corrisponde al tipo Decimale di SQL Server (19,4) o al tipo di dati Valuta in Power Pivot. 
 
 **Numero intero** : rappresenta un valore intero a 64 bit (8 byte). Poiché si tratta di un numero intero, non ci sono cifre a destra della posizione decimale. Consente 19 cifre e ammette numeri interi positivi o negativi compresi tra -9.223.372.036.854.775.808 (-2^63) e 9.223.372.036.854.775.807 (2^63-1).  Può rappresentare il numero più grande possibile dei vari tipi di dati numerici.  Analogamente al tipo Numero decimale fisso, il tipo Numero intero può essere utile nei casi in cui sia necessario controllare l'arrotondamento. 
+
+> [!NOTE]
+>  Il modello di dati di Power BI Desktop supporta valori interi a 64 bit, ma il numero più grande che gli oggetti visivi possono esprimere in modo sicuro è 9.007.199.254.740.991 (2^53-1) a causa delle limitazioni di JavaScript. Se nel modello di dati si lavora con numeri più grandi di questo, è possibile ridurne le dimensioni tramite calcoli prima di aggiungerli a un oggetto visivo 
+> 
+>
 
 ### <a name="datetime-types"></a>Tipi Data/Ora
 Power BI Desktop supporta cinque tipi di dati Data/ora in Visualizzazione query e tre nel modello e in Visualizzazione report.   I tipi Data/Ora/Fuso orario e Durata vengono convertiti durante il caricamento nel modello.
