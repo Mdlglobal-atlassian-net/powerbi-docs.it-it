@@ -1,4 +1,4 @@
-1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Creare un'area di lavoro per le app**.
+1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Creare un'area di lavoro per le app**. 
    
      ![Creare un'area di lavoro per le app](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
