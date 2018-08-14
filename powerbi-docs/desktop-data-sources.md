@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 203648affe06abe304d0e8a328b00189b42fa143
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39328397"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657875"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -93,7 +93,6 @@ La figura seguente mostra la finestra **Recupera dati** per **Database**.
 La categoria **Power BI** fornisce le connessioni dati seguenti:
 
 * Set di dati Power BI
-* Pool di dati Power BI (beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Power BI**.
 
@@ -168,7 +167,7 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 * Active Directory
 * Microsoft Exchange
 * File Hadoop (HDFS)
-* Spark (Beta)
+* Spark
 * Script R
 * ODBC
 * OLE DB
