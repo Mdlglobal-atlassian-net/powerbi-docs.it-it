@@ -3,24 +3,23 @@ title: Introduzione ai pacchetti di contenuto aziendali in Power BI
 description: Scoprire di più sulla creazione di pacchetti di dashboard, report, cartelle di lavoro di Excel e set di dati per ottenere pacchetti di contenuto aziendali da poter condividere con i colleghi.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852349"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624299"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
-> Le nuove *app* costituiscono la soluzione ideale per la distribuzione di contenuto a un vasto pubblico in Power BI. I pacchetti di contenuto aziendale verranno presto deprecati. Al loro posto, si consiglia quindi di usare le app. Altre informazioni sulle [app](service-install-use-apps.md).
-> 
+> Non è possibile creare pacchetti di contenuto aziendali né installarli nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
 > 
 
 I report vengono distribuiti regolarmente tramite posta elettronica al team? Provare invece a creare pacchetti di dashboard, report, cartelle di lavoro di Excel e set di dati e pubblicarli per il team come *pacchetto di contenuto aziendale*. I pacchetti di contenuto sono facili da trovare per il team, perché sono tutti in AppSource. Dal momento che fanno parte di Power BI, sfruttano tutte le sue funzionalità, tra cui l'esplorazione interattiva dei dati, i nuovi elementi visivi, le domande e risposte, l'integrazione con altre origini dati, l'aggiornamento dei dati e molto altro.

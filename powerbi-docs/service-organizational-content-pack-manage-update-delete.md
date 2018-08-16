@@ -3,24 +3,23 @@ title: 'Pacchetti di contenuto aziendali: Gestire e aggiornare'
 description: Scoprire di più sulla gestione, sull'aggiornamento e sull'eliminazione dei pacchetti di contenuto aziendali in Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182795"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624322"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
 > [!NOTE]
-> Le nuove *app* costituiscono la soluzione ideale per la distribuzione di contenuto a un vasto pubblico in Power BI. I pacchetti di contenuto aziendale verranno presto deprecati. Al loro posto, si consiglia quindi di usare le app. Altre informazioni sulle [app](service-install-use-apps.md).
-> 
+> Non è possibile creare pacchetti di contenuto aziendali né installarli nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
 > 
 
 È possibile creare pacchetti di dashboard, report, cartelle di lavoro di Excel e set di dati e condividerli con i colleghi come [pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md). I colleghi utilizzarli così come sono o possono creare le proprie copie.

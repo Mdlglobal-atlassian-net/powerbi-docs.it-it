@@ -3,33 +3,30 @@ title: Creare e pubblicare un pacchetto di contenuto aziendale - Power BI
 description: In questa esercitazione, è possibile creare un pacchetto di contenuto aziendale, limitare l'accesso a un gruppo specifico e pubblicare il pacchetto nella libreria di pacchetti di contenuto dell'organizzazione in Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598602"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624253"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creare e pubblicare un pacchetto di contenuto aziendale di Power BI (esercitazione)
-> [!NOTE]
-> Le nuove *app* costituiscono la soluzione ideale per la distribuzione di contenuto a un vasto pubblico in Power BI. I pacchetti di contenuto aziendale verranno presto deprecati. Al loro posto, si consiglia quindi di usare le app. Altre informazioni sulle [app](service-install-use-apps.md).
-> 
-> 
 
 In questa esercitazione, è possibile creare un pacchetto di contenuto aziendale, concedere l'accesso a un gruppo specifico e pubblicare il pacchetto nella libreria di pacchetti di contenuto dell'organizzazione in Power BI.
 
 La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboard o dalla collaborazione negli stessi in un gruppo. Per scegliere la soluzione migliore in base alla situazione specifica, leggere [Come si condividono i dashboard e i report e in che modo ci si collabora?](service-how-to-collaborate-distribute-dashboards-reports.md).
 
+Per creare un pacchetto di contenuto aziendale è necessario che l'utente e i colleghi dispongano di un [account di Power BI Pro](https://powerbi.microsoft.com/pricing). 
+
 > [!NOTE]
-> Per creare un pacchetto di contenuto aziendale è necessario che l'utente e i colleghi dispongano di un [account di Power BI Pro](https://powerbi.microsoft.com/pricing).
-> 
+> Non è possibile creare o installare pacchetti di contenuto aziendali nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
 > 
 
 Si immagini di essere il responsabile del rilascio presso Contoso e di dover predisporre tutto quanto necessario per il lancio di un nuovo prodotto.  Si immagini di aver creato un dashboard con report da condividere con gli altri dipendenti che gestiscono il lancio. Si immagini di voler creare pacchetti di dashboard e report come soluzione a uso dei colleghi. 

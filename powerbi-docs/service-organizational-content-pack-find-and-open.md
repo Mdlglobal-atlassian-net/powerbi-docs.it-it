@@ -3,29 +3,29 @@ title: Trovare e connettersi a pacchetti di contenuto aziendali - Power BI
 description: Trovare e aprire un pacchetto di contenuto aziendale in Power BI
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5ea86ab577298b6099487228cdf4c8a87e4fe421
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 67072d690f09e922601c6b14ad1c150e2298040b
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280226"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624276"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Trovare e connettersi a un pacchetto di contenuto aziendale
-> [!NOTE]
-> Le nuove *app* costituiscono la soluzione ideale per la distribuzione di contenuto a un vasto pubblico in Power BI. I pacchetti di contenuto aziendale verranno presto deprecati. Al loro posto, si consiglia quindi di usare le app. Altre informazioni sulle [app](service-install-use-apps.md).
-> 
-> 
 
 Se qualcuno pubblica un pacchetto di contenuto aziendale nell'organizzazione, nei gruppi di distribuzione o di sicurezza o nei [gruppi di Office 365 a cui si appartiene](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), viene visualizzato in AppSource.  Sfogliare o cercare AppSource per trovare e aprire i pacchetti di contenuto aziendali.
 
 La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboard o dalla collaborazione negli stessi in un gruppo. Per scegliere la soluzione migliore in base alla situazione specifica, leggere [Come si condividono i dashboard e i report e in che modo ci si collabora?](service-how-to-collaborate-distribute-dashboards-reports.md).
+
+> [!NOTE]
+> Non è possibile creare o installare pacchetti di contenuto aziendali nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
+> 
 
 ## <a name="find-an-organizational-content-pack"></a>Trovare un pacchetto di contenuto aziendale
 Gli utenti di [Power BI Pro](https://powerbi.microsoft.com/pricing) possono passare ad AppSource, che visualizza i pacchetti di contenuto condivisi con l'intera organizzazione, con i gruppi di distribuzione o di sicurezza e con i gruppi di Office 365 a cui appartengono.  
