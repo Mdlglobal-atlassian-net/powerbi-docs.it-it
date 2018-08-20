@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217629"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657898"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Usare gli elementi visivi per migliorare i report di Power BI
 
@@ -59,6 +59,9 @@ Quando si imposta lo sfondo della pagina su una trasparenza maggiore del 50%, vi
 ![Con una trasparenza superiore al 50% viene visualizzato un bordo punteggiato](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 È importante notare che il contorno punteggiato viene visualizzato *solo* durante la modifica del report e *non* è visibile per gli utenti che visualizzano il report pubblicato, ad esempio quando viene visualizzato nel **servizio Power BI**.
+
+> [!NOTE]
+> Se si usano sfondi di colore scuro e si imposta il colore del testo su bianco o su un colore molto chiaro, tenere presente che la funzionalità **Esporta in PDF** non include lo sfondo, quindi qualsiasi esportazione con caratteri bianchi sarà quasi invisibile nel file PDF esportato. Vedere [Esportare in formato PDF](desktop-export-to-pdf.md) per altre informazioni sulla funzionalità **Esporta in PDF**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Uso delle intestazioni degli oggetti visivi migliorate nei report di Power BI

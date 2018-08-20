@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327822"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657967"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -113,6 +113,33 @@ Dopo aver impostato il dispositivo di scorrimento **Azione** su **Attiva** è po
 Con i segnalibri collegati agli oggetti, è possibile effettuare diverse operazioni. Si può creare un sommario visivo nella pagina del report o fornire visualizzazioni diverse, ad esempio tipi di oggetti visivi, delle stesse informazioni, semplicemente facendo clic su un oggetto.
 
 Nella modalità di modifica è possibile usare la combinazione CTRL+clic per seguire il collegamento quando non è attivata la modalità di modifica è sufficiente fare clic sull'oggetto per aprire il collegamento. 
+
+## <a name="bookmark-groups"></a>Gruppi di segnalibri
+
+A partire dalla versione di agosto 2018 di **Power BI Desktop**, è possibile creare e usare gruppi di segnalibri. Un gruppo di segnalibro è una raccolta di segnalibri specificati dall'utente, che possono essere visualizzati e organizzati come gruppo. 
+
+Per creare un gruppo di segnalibri, tenere premuto il tasto CTRL e selezionare i segnalibri che si vuole includere nel gruppo, quindi fare clic sui puntini di sospensione accanto a uno qualsiasi dei segnalibri selezionati e selezionare **Gruppo** dal menu visualizzato.
+
+![Creare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop** denomina automaticamente il gruppo *Group 1*. Fortunatamente, è possibile semplicemente fare doppio clic sul nome e rinominarlo.
+
+![Rinominare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_16.png)
+
+Con qualsiasi gruppo di segnalibri, facendo clic sul nome del gruppo si espande o si comprime semplicemente il gruppo di segnalibri e il gruppo non rappresenta un segnalibro da solo. 
+
+Quando si usa la funzionalità **Visualizza** per i segnalibri, si applica quanto segue:
+
+* Se il segnalibro selezionato è in un gruppo quando si seleziona **Visualizza** dai segnalibri, solo i segnalibri *in tale gruppo* vengono visualizzati nella sessione di visualizzazione. 
+
+* Se il segnalibro selezionato non è un gruppo o è nel primo livello (ad esempio il nome di un gruppo di segnalibri), vengono riprodotti tutti i segnalibri per l'intero report, inclusi i segnalibri in qualsiasi gruppo. 
+
+Per separare i segnalibri, è sufficiente selezionare qualsiasi segnalibro in un gruppo, fare clic sui puntini di sospensione e quindi scegliere **Separa** dal menu visualizzato. 
+
+![Separare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_17.png)
+
+Si noti che quando si seleziona **Separa** per qualsiasi segnalibro da un gruppo, tutti i segnalibri vengono rimossi dal gruppo e viene eliminato il gruppo, ma non i segnalibri stessi. Per rimuovere un singolo segnalibro da un gruppo, è quindi necessario usare **Separa** per qualsiasi membro del gruppo, eliminando così il raggruppamento, quindi selezionare i membri desiderati per il nuovo gruppo (con il tasto CTRL e facendo clic su ogni segnalibro) e selezionare di nuovo **Gruppo**. 
+
 
 ## <a name="using-spotlight"></a>Utilizzo della funzionalità In evidenza
 La funzionalità **In evidenza** è un'altra novità introdotta con i segnalibri. **In evidenza** consente di attirare l'attenzione su un grafico specifico, ad esempio, quando si presentano i segnalibri nella modalità **Visualizzazione**.

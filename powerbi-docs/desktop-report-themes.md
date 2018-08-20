@@ -1,5 +1,5 @@
 ---
-title: Usare i temi dei report in Power BI Desktop (anteprima)
+title: Usare i temi dei report in Power BI Desktop
 description: Informazioni su come usare una tavolozza di colori personalizzata e applicarla a un intero report in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721180"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657944"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usare i temi dei report in Power BI Desktop (anteprima)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato, salvo alcuni casi particolari descritti più avanti in questo articolo.
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Per applicare un **tema del report** è necessario un file JSON, con una struttu
 
 A partire dalla versione di settembre 2017 di **Power BI Desktop**, è possibile definire ancora più elementi dei temi dei report usando un file JSON e personalizzare (e standardizzare) quasi tutti gli elementi usando il file JSON che è possibile modificare manualmente nel riquadro **Formattazione**. L'obiettivo della versione di settembre 2017 (e successive) è di consentire il controllo completo sull'aspetto dei report, a un livello granulare.
 
-### <a name="enable-report-themes-in-preview"></a>Abilitare i temi dei report in anteprima
-La nuova funzionalità dei **temi dei report** sarà disponibile a partire dalla versione di **marzo 2017** di **Power BI Desktop**. Per abilitare questa funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima**, quindi selezionare la casella di controllo accanto a **Temi del report personalizzato**. Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop**.
+### <a name="enable-report-themes"></a>Abilitare i temi dei report
+A partire dalla versione di **Power BI Desktop** di agosto 2018, i temi dei report sono disponibili a livello generale e non devono essere abilitati. 
+
+Se si usa una versione precedente di **Power BI Desktop**, è possibile abilitare questa funzionalità di anteprima selezionando **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima** e quindi selezionando la casella di controllo accanto a **Temi del report personalizzato**. Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop**.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+È sempre consigliabile l'aggiornamento alla versione più recente di **Power BI Desktop**, che è possibile ottenere da un collegamento in [Scarica Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Come funzionano i temi dei report
 Per applicare un tema a un report di Power BI Desktop, selezionare il pulsante **Cambia tema** nella scheda **Home** sulla barra multifunzione, quindi selezionare **Importa tema** nell'elenco a discesa.
@@ -100,7 +104,7 @@ Inoltre, se il colore di un punto dati è stato impostato manualmente usando la 
 Inoltre, a molti **oggetti visivi personalizzati** non vengono applicati i temi dei report.
 
 ## <a name="report-theme-files-you-can-use-right-now"></a>File di temi dei report pronti all'uso
-Si vuole provare subito a usare i **temi dei report**? Ottimo! Ecco alcuni file JSON di temi dei report che è possibile scaricare e importare in un report di **Power BI Desktop**, con un'immagine del tema applicato al report usato in questo articolo.
+Si vuole provare subito a usare i **temi dei report**? Ottimo! Ecco alcuni file JSON di temi dei report pronti che è possibile scaricare e importare in un report di **Power BI Desktop**, con un'immagine del tema applicato al report usato in questo articolo.
 
 * Il [tema](https://go.microsoft.com/fwlink/?linkid=843924) usato nel [post di blog](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/) in cui è stato annunciato il primo rilascio dei **temi dei report**, denominato [*waveform.json*](https://go.microsoft.com/fwlink/?linkid=843924).
 

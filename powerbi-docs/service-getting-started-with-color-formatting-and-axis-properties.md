@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329616"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658038"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Introduzione alla formattazione dei colori e alle proprietà degli assi
 In **Power BI** è possibile cambiare il colore delle serie di dati, dei punti dati e persino lo sfondo delle visualizzazioni. È anche possibile modificare la presentazione degli assi x e y, in modo da poter controllare completamente l'aspetto di dashboard e report.
 
 Per iniziare, selezionare un **report** nel riquadro **Area di lavoro personale** . Nell'area del menu superiore selezionare **Modifica report**.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 Quando si modifica un report ed è selezionata una visualizzazione, viene visualizzato il riquadro **Visualizzazioni** che consente di aggiungere o modificare le visualizzazioni. Proprio sotto le visualizzazioni disponibili sono presenti tre icone, ovvero **Campi** (una pila di barre), **Formato** (un pennello) e **Analisi** (una lente di ingrandimento). Nell'immagine seguente l'icona **Campi** è selezionata, come indicato dalla presenza di una barra gialla sotto l'icona.
@@ -28,6 +29,7 @@ Quando si modifica un report ed è selezionata una visualizzazione, viene visual
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 Quando si seleziona **Formato**, l'area sotto l'icona visualizza le personalizzazioni di colori e assi disponibili per la visualizzazione attualmente selezionata.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 È possibile personalizzare numerosi elementi di ogni visualizzazione:
@@ -47,14 +49,13 @@ Quando si seleziona **Formato**, l'area sotto l'icona visualizza le personalizza
 > [!NOTE]
 >  
 > Non tutti questi elementi sono visibili in ogni tipo di visualizzazione. La visualizzazione selezionata influisce sulle personalizzazioni disponibili, ad esempio l'asse X non è visualizzato se è stato selezionato un grafico a torta perché questo tipo di grafici non contiene l'asse X.
-> 
-> 
 
 Si noti anche che se non è presente alcuna visualizzazione selezionata, al posto delle icone appare **Filtri**, che consente di applicare filtri a tutte le visualizzazioni della pagina.
 
 Gli esempi seguenti si riferiscono uno all'uso dei colori e l'altro alla modifica delle proprietà di un asse. Le istruzioni fornite consentiranno di personalizzare facilmente colori, assi ed etichette.
 
 ## <a name="working-with-colors"></a>Uso dei colori
+
 La procedura necessaria per personalizzare i colori in un grafico è la seguente.
 
 1. Selezionare un **Istogramma a colonne raggruppate** nell'area di disegno report.
@@ -76,6 +77,7 @@ Le modifiche sono illustrate nell'immagine seguente che mostra un grafico estrem
 Per annullare la modifica appena apportata, è possibile usare il solito tasto di scelta rapida **CTRL+Z**.
 
 ## <a name="changing-axis-properties"></a>Modifica delle proprietà degli assi
+
 È spesso utile modificare l'asse X o l'asse Y. Come per l'utilizzo dei colori, per modificare un asse è sufficiente selezionare l'icona della freccia rivolta verso il basso a sinistra dell'asse da modificare, come illustrato nell'immagine seguente.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ I colori disponibili sono numerosissimi e sono disponibili molte altre personali
 > [!NOTE]
 >  
 > Queste personalizzazioni di colori, assi ed elementi correlati, disponibili quando l'icona **Formato** è selezionata, sono disponibili anche in Power BI Desktop.
-> 
-> 
 
-## <a name="next-step"></a>Passaggio successivo
+## <a name="setting-color-from-text-values"></a>Impostazione del colore dai valori di testo
+
+A partire dall'aggiornamento di **Power BI Desktop** di agosto 2018, è possibile impostare colori in base al valore di testo, o codice esadecimale, per un elemento di report specificato. Per altre informazioni, vedere [Formattazione condizionale nelle tabelle](desktop-conditional-table-formatting.md).
+
+
+## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni, vedere l'articolo seguente:  
 
 * [Suggerimenti e consigli per la formattazione dei colori in Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Formattazione condizionale nelle tabelle](desktop-conditional-table-formatting.md)
 
