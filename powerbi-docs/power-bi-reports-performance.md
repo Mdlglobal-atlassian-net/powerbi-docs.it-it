@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582572"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257175"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
@@ -46,10 +46,10 @@ Per altre indicazioni su come ottimizzare le origini dati per DirectQuery, veder
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery e connessione dinamica: informazioni sulle prestazioni dell'origine dati sottostante 
 
-Nel caso di DirectQuery o delle connessioni dinamiche, quando gli utenti visitano un report di Power BI, Power BI invia query in tempo reale all'origine dati sottostante. Non appena l'origine dati restituisce i dati della query, viene eseguito il rendering del report. Di conseguenza, le prestazioni del report dipendono in gran parte dalle prestazioni dell'origine dati sottostante. 
- 
-In questi casi, sarà importante determinare le prestazioni dell'origine dati sottostante. Per ogni origine dati sono disponibili strumenti diversi per la determinazione delle prestazioni delle query. Ad esempio, in SQL Server e Azure SQL è disponibile Query Store, che acquisisce una cronologia delle query e le statistiche di runtime corrispondenti. 
- 
+Nel caso di DirectQuery o delle connessioni dinamiche, quando gli utenti visitano un report di Power BI, Power BI invia query in tempo reale all'origine dati sottostante. Non appena l'origine dati restituisce i dati della query, viene eseguito il rendering del report. Di conseguenza, le prestazioni del report dipendono in gran parte dalle prestazioni dell'origine dati sottostante.
+
+In questi casi, sarà importante determinare le prestazioni dell'origine dati sottostante. Per ogni origine dati sono disponibili strumenti diversi per la determinazione delle prestazioni delle query. Ad esempio, in SQL Server e Azure SQL è disponibile Query Store, che acquisisce una cronologia delle query e le statistiche di runtime corrispondenti.
+
 Di norma, quando si distribuiscono report di Power BI basati su DirectQuery e connessione dinamica, provare le operazioni che gli utenti finali eseguiranno in Power BI Desktop. Se il caricamento del report in Power BI Desktop è lento, lo sarà anche nel servizio. 
  
 ## <a name="directquery-best-practices"></a>Procedure consigliate per DirectQuery 
