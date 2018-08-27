@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624763"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256913"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Creare le nuove aree di lavoro (anteprima) in Power BI
 
@@ -112,8 +112,8 @@ Nelle nuove aree di lavoro sono disponibili tre ruoli: amministratori, membri e 
 **I membri possono:** 
 
 - Aggiungere membri o altri utenti con autorizzazioni inferiori.
-- Pubblicare e aggiornare app.
-- Condividere elementi e app.
+- Pubblicare e aggiornare un'app.
+- Condividere un elemento o condividere un'app.
 - Consentire ad altri utenti di ricondividere a loro volta gli elementi.
 - Eseguire tutte le operazioni che possono eseguire i collaboratori.
 
@@ -129,7 +129,7 @@ Nelle nuove aree di lavoro sono disponibili tre ruoli: amministratori, membri e 
 
 ## <a name="distribute-an-app"></a>Distribuire un'app
 
-Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come un'*app*. I colleghi possono ottenere le app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarle automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile trovare e installare le app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Per informazioni dettagliate, vedere [Creare e pubblicare app con dashboard e report in Power BI](service-create-distribute-apps.md).
+Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come un'*app*. È possibile creare un'app da ogni area di lavoro. I colleghi possono ottenere l'app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile trovare e installare l'app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Per informazioni dettagliate, vedere [Creare e pubblicare app con dashboard e report in Power BI](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Convertire le aree di lavoro per le app precedenti nelle nuove aree di lavoro per le app
 
@@ -161,7 +161,7 @@ Alcune altre funzionalità per l'anteprima delle nuove aree di lavoro per le app
 Alcune funzionalità delle nuove aree di lavoro per le app funzionano diversamente da quelle delle aree di lavoro per le app correnti. Queste differenze sono intenzionali e sono state modificate in base ai commenti e suggerimenti ricevuti dai clienti al fine di consentire un approccio più flessibile alla collaborazione con le aree di lavoro:
 
 - Ricondivisione/Non è possibile ricondividere per i membri: funzionalità sostituita dal ruolo Collaboratore
-- Aree di lavoro di sola lettura: funzionalità sostituita da un ruolo Visualizzatore disponibile a breve che consentirà l'accesso in sola lettura al contenuto in un'area di lavoro.
+- Aree di lavoro di sola lettura: invece di concedere agli utenti l'accesso di sola lettura a un'area di lavoro, si assegnerà agli utenti il ruolo futuro di Visualizzatore, che consente un accesso di sola lettura simile al contenuto in un'area di lavoro.
 
 ## <a name="known-issues"></a>Problemi noti
 
