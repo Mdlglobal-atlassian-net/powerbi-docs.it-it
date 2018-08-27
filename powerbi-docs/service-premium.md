@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 15b64b917fed56e9d9ab6be2023060378324c794
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925437"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257016"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium: di cosa si tratta?
-Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze per utente per i visualizzatori.
+Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e con il supporto di volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze per utente per i visualizzatori.
 
 È possibile sfruttare Power BI Premium assegnando alle aree di lavoro una capacità Premium. La *capacità Premium* è una risorsa dedicata per l'organizzazione. Le aree di lavoro a cui non è stata assegnata una capacità Premium, disporranno di una capacità condivisa.
 
-La *capacità condivisa* è l'esperienza a cui si è abituati in Power BI, in cui i carichi di lavoro vengono eseguiti nelle risorse di calcolo condivise da altri clienti. La capacità condivisa presenta più limiti sui singoli utenti in modo da garantire la qualità dell'esperienza per tutti gli utenti.
+Con la *capacità condivisa* i carichi di lavoro vengono eseguiti nelle risorse di calcolo condivise da altri clienti. La capacità condivisa presenta più limiti sui singoli utenti in modo da garantire la qualità dell'esperienza per tutti gli utenti.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -33,7 +33,7 @@ In Power BI ci sono due tipi di pacchetti di capacità. La capacità condivisa e
 
 |  | Capacità condivisa | Capacità Power BI Premium |
 | --- | --- | --- |
-| **Frequenza di aggiornamento** |8/giorno |Senza limitati |
+| **Frequenza di aggiornamento** |8/giorno |48/giorno |
 | **Isolamento con hardware dedicato** |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile") |
 | **Distribuzione aziendale per** ***tutti gli utenti*** | | |
 | App e condivisione |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile")<sup>1</sup> |
@@ -48,10 +48,10 @@ Per iniziare a usare una capacità Power BI Premium, è necessario assegnare una
 
 Quando un'area di lavoro dispone di capacità Premium, l'utente può sfruttare i vantaggi di Power BI Premium.
 
-* Aggiornamenti pianificati: in passato gli utenti avevano un limite di 8 pianificazioni al giorno dell'aggiornamento con i modelli importati. Questa limitazione è stata aumentata per i set di dati nelle aree di lavoro Premium. Non viene applicata alle impostazioni di aggiornamento pianificato della cache per DirectQuery, che sono le stesse sia per la capacità Premium che per la capacità condivisa.
-* Isolamento con hardware dedicato: la caratteristica principale della capacità condivisa è che le prestazioni di report e dashboard potrebbero essere influenzate dalle richieste di risorse di altri carichi di lavoro nella capacità, nonostante la prevenzione. Al contrario, la capacità Premium offre prestazioni più coerenti e affidabili per i carichi di lavoro isolandola da carichi di lavoro non correlati.
+* **Aggiornamenti pianificati**: con la capacità condivisa, gli aggiornamenti pianificati per i modelli importati sono limitati a 8 volte al giorno. Il numero di aggiornamenti viene aumentato a 48 volte al giorno per i set di dati nelle aree di lavoro Premium. Non viene applicata alle impostazioni di aggiornamento pianificato della cache per DirectQuery, che sono le stesse sia per la capacità Premium che per la capacità condivisa.
+* **Isolamento con hardware dedicato**: la caratteristica principale della capacità condivisa è che le prestazioni di report e dashboard potrebbero essere influenzate dalle richieste di risorse di altri carichi di lavoro nella capacità, nonostante la prevenzione. Al contrario, la capacità Premium offre prestazioni più coerenti e affidabili per i carichi di lavoro isolandola da carichi di lavoro non correlati.
 
-Se un'app è dotata di capacità Premium, vale a dire è stata pubblicata da un'area di lavoro per le app a cui attualmente è assegnata una capacità Premium, l'app pubblicata può essere usata da qualsiasi utente nell'organizzazione, indipendentemente dalla licenza posseduta.
+Se un'app è dotata di capacità Premium, vale a dire è stata pubblicata da un'area di lavoro per le app attualmente assegnata a Premium, l'app pubblicata può essere usata da qualsiasi utente nell'organizzazione, indipendentemente dalla licenza assegnata.
 
 ### <a name="shared-capacity"></a>Capacità condivisa
 Per impostazione predefinita, l'area di lavoro avrà la capacità condivisa. Ciò include l'*area di lavoro personale* con le aree di lavoro per le app. La capacità condivisa è l'esperienza generalmente usata in Power BI, in cui i carichi di lavoro vengono eseguiti nelle risorse di calcolo condivise da altri clienti.
@@ -69,12 +69,12 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 
 | Nodo della capacità | Totale vCore<br/>*(Back-end + front-end)* | vCore back-end | vCore front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta | Disponibilità |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0,5 vCore, 2,5 GB di RAM |0,5 vCore |3,75 al secondo |150-300 |Disponibile |
-| [EM2 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-core |1 vCore, 5 GB di RAM |1 vCore |7,5 al secondo |301-600 |Disponibile |
-| [EM3 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-core |2 vCore, 10 GB di RAM |2 v-core | |601-1.200 |Disponibile |
-| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-core |4 vCore, 25 GB di RAM |4 v-core |30 al secondo |1.201-2.400 |Disponibile (è disponibile anche l'opzione [mensile](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
-| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-core |8 vCore, 50 GB di RAM |8 v-core |60 al secondo |2.401-4.800 |Disponibile |
-| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-core |16 vCore, 100 GB di RAM |16 v-core |120 al secondo |4.801-9600 |Disponibile |
+| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0.5 v-core, 2,5 GB RAM |0,5 v-core |3,75 al secondo |150-300 |Disponibile |
+| [EM2 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-core |1 v-core, 5 GB di RAM |1 vCore |7,5 al secondo |301-600 |Disponibile |
+| [EM3 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-core |2 v-core, 10 GB di RAM |2 v-core | |601-1.200 |Disponibile |
+| [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-core |4 v-core, 25 GB di RAM |4 v-core |30 al secondo |1.201-2.400 |Disponibile (è disponibile anche l'opzione [mensile](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
+| [P2](https://portal.office.com/SubscriptionDetails?OfferId=062F2AA7-B4BC-4B0E-980F-2072102D8605&adminportal=1) |16 v-core |8 v-core, 50 GB di RAM |8 v-core |60 al secondo |2.401-4.800 |Disponibile |
+| [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-core |16 v-core, 100 GB di RAM |16 v-core |120 al secondo |4.801-9600 |Disponibile |
 
 * I vCore di front-end sono responsabili della gestione dei documenti relativi a servizio Web, dashboard e report, della gestione dei diritti di accesso, della pianificazione, delle API, dei caricamenti e dei download e in genere di tutto ciò che riguarda l'esperienza utente.
 * I vCore di back-end sono responsabili del lavoro più oneroso: elaborazione delle query, gestione della cache, esecuzione dei server R, aggiornamento dei dati, elaborazione del linguaggio naturale, feed in tempo reale e rendering lato server di report e immagini. Con i vCore di back-end viene riservata anche una certa quantità di memoria. Le disponibilità di uno spazio in memoria sufficiente è particolarmente importante quando si usano modelli di dati di grandi dimensioni o un numero elevato di set di dati attivi.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965505"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257017"
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -100,36 +100,37 @@ Per altre informazioni sui log di controllo, vedere [Controllo di Power BI nell'
 
 La terza scheda nel portale di amministrazione è **Impostazioni tenant**. Le impostazioni del tenant consentono di esercitare un maggiore controllo sulle funzionalità da rendere disponibili per l'organizzazione. Se i dati sensibili rappresentano una criticità, è possibile che alcune delle nostre funzionalità non siano adatte all'organizzazione o che per un determinato gruppo sia preferibile rendere disponibile solo una specifica funzionalità. In questi casi, è possibile disattivare specifiche funzionalità nel tenant.
 
-Ad esempio, i dati per utente sono abilitati nelle metriche di utilizzo per impostazione predefinita e le informazioni sull'account del creatore di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account verranno quindi visualizzate nel report come *Senza nome*.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > Possono essere necessari fino a 10 minuti affinché l'impostazione diventi effettiva per tutti gli utenti del tenant.
 
-Le impostazioni possono avere tre stati in base alla configurazione.
+Le impostazioni possono avere tre stati:
 
-### <a name="disabled-for-the-entire-organization"></a>Disabilitato per l'intera organizzazione
+* **Disabilitato per l'intera organizzazione**: è possibile disabilitare una funzionalità e fare in modo che gli utenti non possano usarla.
 
-È possibile disabilitare una funzionalità e fare in modo che gli utenti non possano usarla.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Abilitato per l'intera organizzazione**: è possibile abilitare una funzionalità per l'intera organizzazione in modo da renderla accessibile a tutti gli utenti.
 
-### <a name="enabled-for-the-entire-organization"></a>Abilitato per l'intera organizzazione
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-È possibile abilitare una funzionalità per l'intera organizzazione in modo da renderla accessibile a tutti gli utenti.
+* **Abilitato per un subset dell'organizzazione**: è anche possibile abilitare una funzionalità per una parte dell'organizzazione. Questo obiettivo può essere raggiunto in diversi modi. È possibile abilitarla per l'intera organizzazione, ad eccezione di un gruppo specifico di utenti.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Abilitato per un subset dell'organizzazione
+    È anche possibile abilitare la funzionalità solo per un gruppo di utenti e disattivarla per un altro gruppo di utenti. In questo modo, alcuni utenti non avrebbero accesso alla funzionalità anche se fanno parte del gruppo autorizzato.
 
-È anche possibile abilitare una funzionalità per una parte dell'organizzazione. Questo obiettivo può essere raggiunto in diversi modi. È possibile abilitarla per l'intera organizzazione, ad eccezione di un gruppo specifico di utenti.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+Le sezioni successive forniscono una panoramica dei diversi tipi di impostazioni del tenant.
 
-È anche possibile abilitare la funzionalità solo per un gruppo di utenti e disattivarla per un altro gruppo di utenti. In questo modo, alcuni utenti non avrebbero accesso alla funzionalità anche se fanno parte del gruppo autorizzato.
+## <a name="workspace-settings"></a>Impostazioni dell'area di lavoro
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Creare le aree di lavoro (anteprima)
+Gli utenti dell'organizzazione possono creare aree di lavoro per le app per collaborare a dashboard, report e altro contenuto.
+
+Per altre informazioni, vedere [Creare le nuove aree di lavoro](service-create-the-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Impostazioni di esportazione e condivisione
 
@@ -244,7 +245,7 @@ Gli utenti dell'organizzazione possono interagire con gli oggetti visivi creati 
 > [!NOTE]
 > Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
 
-## <a name="audit-settings"></a>Impostazioni di controllo
+## <a name="audit-and-usage-settings"></a>Impostazioni di controllo e utilizzo
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Creare log di controllo per la verifica interna delle attività e la conformità
 
@@ -254,6 +255,25 @@ Questa impostazione deve essere abilitata per la registrazione delle voci del lo
 
 > [!NOTE]
 > Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
+
+### <a name="usage-metrics-for-content-creators"></a>Metriche di utilizzo per i creatori di contenuti
+Gli utenti dell'organizzazione possono visualizzare le metriche di utilizzo dei dashboard e dei report creati. [Altre informazioni](service-usage-metrics.md)
+
+È possibile configurare l'impostazione **Abilitato** e quindi specificare chi può visualizzare le metriche di utilizzo, ovvero l'intera organizzazione o gruppi di sicurezza specifici.
+
+> [!NOTE]
+> Tenere presente che le modifiche alle impostazioni del tenant possono richiedere tempo per diventare effettive.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Dati per utente nelle metriche di utilizzo per i creatori di contenuti
+Le metriche di utilizzo per i creatori di contenuti esporranno i nomi visualizzati e gli indirizzi di posta elettronica degli utenti che accedono ai contenuti. [Altre informazioni](service-usage-metrics.md)
+
+È possibile configurare l'impostazione **abilitato** e quindi specificare chi può visualizzare i nomi visualizzati e gli indirizzi di posta elettronica nelle metriche di utilizzo (l'intera organizzazione o gruppi di sicurezza specifici).
+
+Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del creatore di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account verranno quindi visualizzate nel report come *Senza nome*.
+
+> [!NOTE]
+> Tenere presente che le modifiche alle impostazioni del tenant possono richiedere tempo per diventare effettive.
+
 
 ## <a name="dashboard-settings"></a>Impostazioni del dashboard
 
@@ -270,9 +290,9 @@ Gli utenti dell'organizzazione possono contrassegnare i dashboard con classifica
 
 Gli utenti dell'organizzazione possono incorporare i dashboard e i report di Power BI nelle applicazioni SaaS (Software as a Service). Se si disabilita questa impostazione, si impedisce agli utenti di usare le API REST per incorporare contenuto Power BI nelle loro applicazioni.
 
-## <a name="premium-settings"></a>Impostazioni Premium
+## <a name="capacity-settings"></a>Impostazioni di capacità
 
-La scheda Impostazioni Premium consente di gestire qualsiasi capacità Premium di Power BI acquistata dall'organizzazione. La scheda Impostazioni Premium è visibile a tutti gli utenti dell'organizzazione, ma il suo contenuto è visibile solo agli utenti ai quali è stato assegnato il ruolo di **Amministratore delle capacità** o a un utente che abbia autorizzazioni di assegnazione. Per gli utenti che non hanno autorizzazioni verrà visualizzato il messaggio mostrato di seguito.
+La scheda Impostazioni di capacità consente di gestire qualsiasi capacità Power BI Premium acquistata dall'organizzazione. La scheda Impostazioni Premium è visibile a tutti gli utenti dell'organizzazione, ma il suo contenuto è visibile solo agli utenti ai quali è stato assegnato il ruolo di **Amministratore delle capacità** o a un utente che abbia autorizzazioni di assegnazione. Per gli utenti che non hanno autorizzazioni verrà visualizzato il messaggio mostrato di seguito.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "Nessun accesso alle impostazioni Premium")
 

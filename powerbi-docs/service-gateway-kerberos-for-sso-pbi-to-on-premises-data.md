@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964838"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40257089"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 Per usufruire di un'esperienza di connettività Single Sign-On ottimale che abilita l'aggiornamento di report e dashboard di Power BI dai dati locali, è possibile configurare il gateway dati locale con Kerberos. Il gateway dati locale semplifica l'accesso Single Sign-On grazie all'uso di DirectQuery per connettersi alle origini dati locali.
@@ -51,9 +51,7 @@ Dettagli aggiuntivi per questi tre passaggi:
    - La rappresentazione dell'utente e la connessione al database riescono solo se l'account del servizio gateway è un account di dominio (o SID del servizio) e se la delega vincolata di Kerberos è stata configurata in modo che il database accetti i ticket Kerberos dall'account del servizio gateway.  
    
    > [!NOTE]
-   > Riguardo il SID del servizio, se è configurato AAD DirSync/Connect e gli account utente sono sincronizzati, il servizio gateway non dovrà eseguire ricerche di Active Directory locale in fase di esecuzione e sarà possibile usare il SID del servizio locale, anziché un account di dominio, per il servizio gateway.  Le procedure di configurazione della delega vincolata Kerberos descritte in questo documento sono identiche e sono semplicemente basate sul SID del servizio anziché sull'account di dominio.
-   > 
-   > 
+   > Riguardo il SID del servizio, se è configurato AAD DirSync/Connect e gli account utente sono sincronizzati, il servizio gateway non deve eseguire ricerche in Active Directory locale in fase di esecuzione ed è possibile usare il SID del servizio locale, invece di un account di dominio, per il servizio gateway. La procedura di configurazione della delega vincolata Kerberos descritta in questo articolo corrisponde a questa configurazione e viene semplicemente applicata all'oggetto computer del gateway in Active Directory invece che all'account di dominio.
 
 
 > [!NOTE]

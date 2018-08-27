@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329312"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257265"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso dei dati tabulari di SQL Server Analysis Services in Power BI Desktop
 Con Power BI Desktop, è possibile connettersi e recuperare i dati dai modelli tabulari di SQL Server Analysis Services in due modi: esplorare usando una connessione in tempo reale o selezionare gli elementi e importarli in Power BI Desktop.
@@ -24,7 +24,9 @@ come verrà illustrato nelle sezioni successive.
 
 **Esplorare usando una connessione in tempo reale** : quando si usa una connessione in tempo reale, gli elementi nel modello tabulare o nella prospettiva, come tabelle, colonne e misure compaiono nell'elenco dei campi di Power BI Desktop. È possibile usare gli strumenti di visualizzazione e report avanzati di Power BI Desktop per esplorare il modello tabulare in modi nuovi e altamente interattivi.
 
-Durante la connessione in tempo reale, non viene importato alcun dato dal modello tabulare in Power BI Desktop. Ogni volta che si interagisce con una visualizzazione Power BI Desktop esegue una query sul modello tabulare e calcola i risultati visualizzati. Sono visualizzati sempre i dati più recenti. Si tenga presente che la sicurezza dei modelli tabulari è elevata. Gli elementi visualizzati in Power BI Desktop dipendono dalle autorizzazioni per il modello tabulare a cui si è connessi.
+Durante la connessione in tempo reale, non viene importato alcun dato dal modello tabulare in Power BI Desktop. Ogni volta che si interagisce con una visualizzazione Power BI Desktop esegue una query sul modello tabulare e calcola i risultati visualizzati. I dati visualizzati sono sempre quelli più recenti disponibili nel modello tabulare, dall'ultima elaborazione o dalle tabelle DirectQuery disponibili nel modello tabulare. 
+
+Tenere presente che i modelli tabulari sono molto sicuri. Gli elementi visualizzati in Power BI Desktop dipendono dalle autorizzazioni per il modello tabulare a cui si è connessi.
 
 Dopo aver creato i report dinamici in Power BI Desktop, è possibile condividerli con la pubblicazione nel sito di Power BI. Quando si pubblica un file di Power BI Desktop con una connessione dinamica a un modello tabulare nel sito di Power BI, è necessario che il gateway dati locale sia installato e configurato dall'amministratore. Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md).
 

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482131"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257272"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -22,6 +22,18 @@ Questo log delle modifiche è relativo al server di report di Power BI ed elenca
 
 Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Server di report di Power BI](whats-new.md). 
 
+## <a name="august-2018"></a>Agosto 2018
+- **Server di report Power BI**
+    - *Versione 1.3.6801.38816 (build 15.0.2.540), data di rilascio: 15 agosto 2018*
+        - Funzionalità
+            - È ora disponibile il supporto di DirectQuery SSO SAP HANA per i report di Power BI
+            - API per oggetti visivi personalizzati fornita con questa versione - Versione 1.13.0
+            - Per gli oggetti visivi personalizzati verrà eseguito il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile)
+
+- **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+    - *Versione 2.61.5192.64 (agosto 2018), data di rilascio: 15 agosto 2018*
+        - Include modifiche necessarie per la connessione a Server di report di Power BI (agosto 2018)         
+        
 ## <a name="march-2018"></a>Marzo 2018
 - **Server di report Power BI**
     - *Versione 1.2.6690.34729 (build 15.0.2.402), data di rilascio: 27 aprile 2018*

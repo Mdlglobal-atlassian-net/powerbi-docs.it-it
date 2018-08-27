@@ -2,22 +2,23 @@
 title: Novità del Server di report di Power BI
 description: Informazioni sulle novità del Server di report di Power BI. Questa sezione riguarda le funzionalità principali e viene aggiornata con il rilascio di nuovi elementi.
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/21/2018
-ms.author: maggies
-ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.date: 08/16/2018
+ms.openlocfilehash: d9b0cc26a3662b49cd7ed14a3a645ddf2a4536bc
+ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481959"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "40258034"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
-Informazioni sulle novità del Server di report di Power BI. Questa sezione riguarda le funzionalità principali e viene aggiornata con il rilascio di nuovi elementi.
+
+Informazioni sulle novità del Server di report di Power BI. Questo articolo riguarda le funzionalità principali e viene aggiornato con il rilascio di nuovi elementi.
 
 Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
 
@@ -33,15 +34,116 @@ Per informazioni sulle "Novità" di Power BI, vedere:
 * [Novità di Power BI Desktop](../desktop-latest-update.md)
 * [Novità delle app per dispositivi mobili per Power BI](../mobile-whats-new-in-the-mobile-apps.md)
 
+## <a name="august-2018"></a>Agosto 2018
+
+La versione di agosto 2018 presenta molte nuove funzionalità aggiunte alla versione di Power BI Desktop ottimizzate per Server di report di Power BI. Sono riportate di seguito, suddivise per area:
+
+- [Creazione di report](#reporting)
+- [Analisi](#analytics)
+- [Modellazione](#modeling)
+
+### <a name="highlights-of-the-august-2018-release"></a>Caratteristiche principali della versione di agosto 2018
+
+Nel lungo elenco di nuove funzionalità emergono quelle riportate di seguito, particolarmente interessanti. Per altre informazioni, vedere questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/).
+
+#### <a name="report-theming"></a>Temi per i report
+
+Nella versione di agosto 2018 di Server di report di Power BI sono stati aggiunti temi per i report, che consentono di applicare velocemente colori all'intero report in base a un tema o a un marchio aziendale. Quando si importa un tema, tutti i grafici vengono aggiornati automaticamente per usare i colori del tema, che diventano accessibili nella tavolozza dei colori. È possibile caricare un file di tema con l'opzione **Importa tema** sotto il pulsante **Cambia tema**.
+
+Un file di tema è un file JSON che include tutti i colori che si vuole usare nel report, oltre a qualsiasi formattazione predefinita da applicare agli oggetti visivi.
+Ecco un tema JSON di esempio semplice che aggiorna i colori predefiniti del report:
+
+```json
+{
+"name": "waveform",
+"dataColors": [ "#31B6FD", "#4584D3", "#5BD078", "#A5D028", "#F5C040", "#05E0DB", "#3153FD", "#4C45D3", "#5BD0B0", "#54D028", "#D0F540", "#057BE0" ],
+"background":"#FFFFFF",
+"foreground": "#F2F2F2",
+"tableAccent":"#5BD078"
+}
+```
+
+#### <a name="conditional-formatting-by-a-different-field"></a>Formattazione condizionale da un campo diverso
+
+La possibilità di formattare una colonna in base a un campo diverso nel modello è uno dei miglioramenti significativi per la formattazione condizionale.
+
+#### <a name="conditional-formatting-by-values"></a>Formattazione condizionale in base ai valori
+
+Un altro nuovo tipo di formattazione condizionale è **Formatta per valore del campo**. L'opzione Formatta per valore del campo consente di usare una misura o una colonna che specifica un colore, tramite un codice esadecimale o un nome, e applicare tale colore allo sfondo o come colore del carattere.
+
+#### <a name="report-page-tooltips"></a>Descrizioni comando per le pagine del report
+
+La funzionalità delle descrizioni comando per le pagine del report è inclusa nell'aggiornamento di agosto 2018 di Server di report di Power BI. Questa funzionalità consente di progettare una pagina del report da usare come descrizione comando personalizzata per gli altri oggetti visivi nel report.
+
+#### <a name="log-axis-improvements"></a>Miglioramenti dell'asse logaritmico
+
+È stato notevolmente migliorato l'asse logaritmico nei grafici cartesiani. È ora possibile selezionare la scala logaritmica per l'asse numerico di qualsiasi grafico cartesiano, incluso un grafico combinato, in presenza di dati completamente positivi o completamente negativi.
+
+#### <a name="sap-hana-sso-direct-query"></a>DirectQuery SSO SAP HANA
+
+È ora disponibile il supporto di DirectQuery SSO SAP HANA per i report di Power BI.
+
+>[!Note]
+>Questo scenario è supportato solo quando SAP HANA viene considerato come origine dati relazionale con i report creati in Power BI Desktop.  Per abilitare questa opzione in Power BI Desktop, nel menu DirectQuery in Opzioni selezionare "Considerare SAP HANA come origine relazionale" e fare clic su OK.
+
+#### <a name="custom-visuals"></a>Elementi visivi personalizzati
+
+- La versione dell'API fornita con questa versione è 1.13.0.
+
+- Per gli oggetti visivi personalizzati è ora possibile eseguire il fallback a una versione precedente compatibile con la versione corrente dell'API server (se disponibile).
+
+### <a name="reporting"></a>Reporting 
+
+- [Temi per i report](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#theming)
+- [Pulsanti per l'attivazione di azioni](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#buttons)
+- [Stili di linea dei grafici combinati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#comboLines)
+- [Ordinamento predefinito degli oggetti visivi migliorato](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#sort)
+- [Filtro dei dati numerico](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#numericSlicer)
+- [Sincronizzazione avanzata del filtro dei dati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicerSync)
+- [Miglioramenti dell'asse logaritmico](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#logAxis)
+- [Opzioni etichette dati per il grafico a imbuto](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#funnelChart)
+- [Impostazione dello spessore tratto su zero](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#lineStroke)
+- [Supporto del contrasto elevato per i report](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#highContrast)
+- [Controllo radiale ad anello](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#donutRadius)
+- [Controllo posizione delle etichette nei grafici a torta e ad anello](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#detailLabels)
+- [Formattazione separata delle etichette dati per ogni misura in un grafico combinato](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#comboLabels)
+- [Nuova intestazione degli oggetti visivi con maggiore flessibilità e più opzioni di formattazione](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#visualHeader)
+- [Formattazione dello sfondo](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#wallpaper)
+- [Descrizioni comando per tabella e matrice](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tableTooltips)
+- [Disattivare le descrizioni comando per gli oggetti visivi](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#tooltips)
+- [Accessibilità per i filtri dei dati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicerAccessibility)
+- [Miglioramenti al riquadro Formattazione](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#formattingPane)
+- [Supporto di linee con rientri per i grafici a linee e i grafici combinati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#steppedLine)
+- [Miglioramenti dell'esperienza di ordinamento](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#sorting)
+- [Stampare i report tramite Esporta in PDF (in Power BI Desktop)](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#print)
+- [Creare gruppi di segnalibro](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#bookmarks)
+- [Riformulazione dei filtri dei dati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#slicer)
+- [Descrizioni comando per le pagine del report](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#reportPageTooltips)
+
+### <a name="analytics"></a>Analisi
+
+- [Nuova funzione DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
+- [Drill-through con misure](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
+- [Formattazione condizionale da un campo diverso](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
+- [Formattazione condizionale in base ai valori](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
+
+### <a name="modeling"></a>Modellazione
+
+- [Filtro e ordinamento nella vista dati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#filterAndSort)
+- [Miglioramento della formattazione delle impostazioni locali](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#locale)
+- [Categorie di dati per le misure](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#dataCategory)
+- [Funzioni statistiche DAX](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#dax)
+
 ## <a name="may-2018"></a>Maggio 2018
 
 ### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurare le app per dispositivi mobili iOS di Power BI per server di report in modalità remota
 
 In qualità di amministratori IT, è ora possibile usare lo strumento MDM dell'organizzazione per configurare in modalità remota l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per informazioni dettagliate, vedere [Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota](configure-powerbi-mobile-apps-remote.md).
 
-## <a name="march-2018-release"></a>Versione di marzo 2018
+## <a name="march-2018"></a>Marzo 2018
 
-La versione di marzo 2018 presenta molte nuove funzionalità aggiunte alla versione di Power BI Desktop ottimizzate per Server di report di Power BI. Sono riportate di seguito, suddivise per area: 
+La versione di marzo 2018 presenta molte nuove funzionalità aggiunte alla versione di Power BI Desktop ottimizzate per Server di report di Power BI. Sono riportate di seguito, suddivise per area:
+
 - [Oggetti visivi](#visuals-updates)
 - [Creazione di report](#reporting)
 - [Analisi](#analytics)
@@ -49,12 +151,12 @@ La versione di marzo 2018 presenta molte nuove funzionalità aggiunte alla versi
 - [Server di report](#report-server)
 - [Altro](#other-improvements)
 
-### <a name="highlights-of-this-release"></a>Caratteristiche principali di questa versione
+### <a name="highlights-of-the-march-2018-release"></a>Caratteristiche principali della versione di marzo 2018
 
 Nel lungo elenco di nuove funzionalità emergono quelle riportate di seguito, particolarmente interessanti.
 
 #### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[Formattazione condizionale basata su regole per oggetti visivi tabella e matrice](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
- 
+
 Permette di creare regole per applicare colore in modo condizionale allo sfondo o al carattere di una colonna in base a una specifica logica di business in una tabella o matrice.
 
 #### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[Mostrare e nascondere pagine](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
@@ -107,26 +209,25 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Ricerca nei riquadri formattazione e analisi](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search)
 - [Riquadro delle proprietà del campo e descrizioni del campo](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#fieldPropertiesPane)
 
-### <a name="analytics"></a>flusso
+### <a name="analytics"></a>Analisi
 
 - [UTCNOW() e UTCTODAY()](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#utcDAX)
 - [Contrassegnare una tabella con data personalizzata](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#customDateTable)
 - [Applicare filtri di drill su altri oggetti visivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [Formattazione a livello di cella per modelli multidimensionali di Analysis Services (AS) per schede con più righe](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
- 
+
 ### <a name="performance"></a>Performance
 
 - [Miglioramenti delle prestazioni del filtro](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [Miglioramenti delle prestazioni di DirectQuery](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
 - [Miglioramenti delle prestazioni di apertura e salvataggio](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf)
 - [Miglioramenti per "Mostra elementi senza dati"](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#showItemsWithNoData)
- 
-### <a name="report-server"></a>Server di report 
+
+### <a name="report-server"></a>Server di report
 
 #### <a name="export-to-accessible-pdf"></a>Esportare in formato PDF accessibile
 
 Quando si esporta un report impaginato (RDL) in formato PDF, è possibile ottenere un file PDF accessibile/con tag. Ha dimensioni maggiori ma è più agevole la sua lettura e consultazione tramite lettori a schermo e altre tecnologie per l'accesso facilitato. Il PDF accessibile si abilita impostando le informazioni sul dispositivo **PDF accessibile** su **True**. Vedere [Impostazioni relative alle informazioni sul dispositivo PDF](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) e [Changing Device Information Settings](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings) (Modifica delle impostazioni sul dispositivo).
-
 
 ### <a name="other-improvements"></a>Altri miglioramenti
 
@@ -135,27 +236,34 @@ Quando si esporta un report impaginato (RDL) in formato PDF, è possibile ottene
 - [Segnalazione errori migliorata](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors)
 - [Visualizzare gli errori precedentemente riscontrati](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors)
 
- 
-## <a name="october-2017-release"></a>Versione di ottobre 2017
+## <a name="october-2017"></a>Ottobre 2017
+
 ### <a name="power-bi-report-data-sources"></a>Origini dati dei report di Power BI
+
 I report di Power BI nel server di report di Power BI possono connettersi a diverse origini dati. È possibile importare i dati e pianificare l'aggiornamento dei dati oppure eseguire direttamente query sui dati usando DirectQuery o una connessione dinamica a SQL Server Analysis Services. Per un elenco delle origini dati che supportano gli aggiornamenti pianificati e delle origini dati che supportano DirectQuery, vedere "Origini dati dei report di Power BI nel server di report di Power BI".
 
 ### <a name="scheduled-data-refresh-for-imported-data"></a>Aggiornamento pianificato dei dati per i dati importati
-Nel server di report di Power BI è possibile configurare un aggiornamento pianificato dei dati per mantenere aggiornati i dati dei report di Power BI con un modello incorporato, invece che tramite una connessione dinamica o DirectQuery. Con un modello incorporato i dati vengono importati, quindi risultano disconnessi dall'origine dati originale. È quindi necessario aggiornare i dati per assicurarsi che siano recenti e un aggiornamento pianificato è l'approccio ottimale. Per altre informazioni, vedere "Aggiornamento pianificato per i report di Power BI nel server di report di Microsoft Power BI".
+
+In Server di report di Power BI è possibile configurare un aggiornamento pianificato dei dati per mantenere aggiornati i dati dei report di Power BI con un modello incorporato, invece che tramite una connessione dinamica o DirectQuery. Con un modello incorporato i dati vengono importati, quindi risultano disconnessi dall'origine dati originale. È quindi necessario aggiornare i dati per assicurarsi che siano recenti e un aggiornamento pianificato è l'approccio ottimale. Per altre informazioni, vedere "Aggiornamento pianificato per i report di Power BI nel server di report di Microsoft Power BI".
 
 ### <a name="editing-power-bi-reports-from-the-server"></a>Modifica dei report di Power BI dal server
+
 È possibile aprire e modificare i file di report di Power BI (con estensione pbix) dal server, ma viene restituito il file originale caricato.  Quindi, **se i dati sono stati aggiornati dal server, non verranno aggiornati alla prima apertura del file**. È necessario eseguire l'aggiornamento manuale in locale per visualizzare le modifiche.
 
 ### <a name="large-file-uploaddownload"></a>Caricamento/Download di file di grandi dimensioni
+
 È possibile caricare file di dimensioni massime di 2 GB, anche se per impostazione predefinita questo limite è impostato su 1 GB in nelle impostazioni del server di report in SQL Server Management Studio (SSMS).  Questi file vengono archiviati nel database, analogamente a SharePoint, e non è necessaria alcuna configurazione speciale per il catalogo di SQL Server.  
 
 ### <a name="accessing-shared-datasets-as-odata-feeds"></a>Accesso ai set di dati condivisi come feed OData
+
 È possibile accedere ai set di dati condivisi da Power BI Desktop con un feed OData. Per altre informazioni, vedere [Accessing shared datasets as OData feeds in Power BI Report Server](access-dataset-odata.md) (Accesso ai set di dati condivisi come feed OData nel server di report di Power BI).
 
 ### <a name="scale-out"></a>Aumento delle istanze
+
 Questa versione supporta l'aumento delle istanze. Usare un servizio di bilanciamento del carico e configurare l'affinità del server per ottenere un'esperienza ottimale. Si noti che questo scenario non è stato ancora ottimizzato per l'aumento delle istanze, quindi è possibile che i modelli vengano replicati in più nodi. Lo scenario funziona senza il servizio di bilanciamento del carico di rete e le sessioni permanenti. Si noterà tuttavia un uso eccessivo della memoria nei nodi, perché il modello viene caricato N volte, e le prestazioni risulteranno rallentate tra le connessioni, poiché il modello viene sottoposto a streaming quando raggiunge un nuovo nodo tra le richieste.  
 
 ### <a name="administrator-settings"></a>Impostazioni dell'amministratore
+
 Gli amministratori possono configurare le proprietà seguenti in Proprietà avanzate di SSMS per la server farm:
 
 * EnableCustomVisuals: True/False.
@@ -179,14 +287,17 @@ Gli amministratori possono configurare le proprietà seguenti in Proprietà avan
 ```
 
 ### <a name="developer-api"></a>API Developer
+
 L'API Developer (API REST) introdotta per SSRS 2017 è stata estesa per consentire il funzionamento del Server di report di Power BI con i file di Excel e i file con estensione pbix. Un caso d'uso possibile consiste nello scaricare i file dal server a livello di codice, aggiornarli e quindi pubblicarli di nuovo. Questo è l'unico modo per aggiornare le cartelle di lavoro di Excel con i modelli PowerPivot, ad esempio.
 
 Si noti che è disponibile una nuova API separata per file di grandi dimensioni, che verrà aggiornata nella versione del server di report di Power BI di Swagger. 
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>Footprint di memoria di SQL Server Analysis Services (SSAS) e del server di report di Power BI
+
 Il server di report di Power BI ospita ora internamente SQL Server Analysis Services (SSAS). Ciò non riguarda in modo specifico l'aggiornamento pianificato. L'hosting di SSAS può espandere notevolmente il footprint di memoria del server di report. Il file di configurazione AS.ini è disponibile nei nodi del server. Se quindi si ha familiarità con SSAS, è consigliabile aggiornare le impostazioni, inclusi il limite massimo di memoria, la memorizzazione nella cache del disco e così via. Per informazioni dettagliate, vedere [Proprietà del server in Analysis Services](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services).
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Visualizzazione e interazione con le cartelle di lavoro di Excel
+
 Excel e Power BI includono strumenti unici nel settore. Insieme consentono ai business analyst di raccogliere, strutturare, analizzare ed esplorare visivamente i dati con maggiore facilità. Oltre a visualizzare i report di Power BI nel portale Web, gli utenti aziendali possono ora visualizzare le cartelle di lavoro di Excel nel Server di report di Power BI e hanno quindi ha disposizione un'unica posizione per la pubblicazione e la visualizzazione del proprio contenuto self-service di Microsoft BI.
 
 È stata pubblicata una [procedura dettagliata per l'aggiunta di Office Online Server (OOS) all'ambiente di anteprima del Server di report di Power BI](excel-oos.md). I clienti con un account per contratti multilicenza possono scaricare Office Online Server dal Volume License Servicing Center senza costi aggiuntivi e con funzionalità di sola visualizzazione. Dopo la configurazione, gli utenti possono visualizzare e interagire con le cartelle di lavoro di Excel che hanno le caratteristiche seguenti:
@@ -196,20 +307,24 @@ Excel e Power BI includono strumenti unici nel settore. Insieme consentono ai bu
 * Modello di dati di PowerPivot
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>Supporto per nuovi oggetti visivi di tipo tabella e matrice
-Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabella e matrice di Power BI. Per creare report con tali oggetti visivi, sarà necessaria una versione aggiornata di Power BI Desktop per la versione di ottobre 2017. Non è possibile installarla side-by-side alla versione di Power BI Desktop (giugno 2017). Per la versione più aggiornata di Power BI Desktop, nella [pagina di download del server di report di Power BI](https://powerbi.microsoft.com/report-server/) selezionare **Opzioni avanzate di download**.
+
+Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabella e matrice di Power BI. Per creare report con tali oggetti visivi, sarà necessaria una versione aggiornata di Power BI Desktop per la versione di ottobre 2017. Non è possibile installarla side-by-side con la versione di Power BI Desktop di giugno 2017. Per la versione più aggiornata di Power BI Desktop, nella [pagina di download del server di report di Power BI](https://powerbi.microsoft.com/report-server/) selezionare **Opzioni avanzate di download**.
 
 ## <a name="june-2017"></a>Giugno 2017
+
 * Il server di report di Power BI è disponibile a livello generale (GA).
 
 ## <a name="may-2017"></a>Maggio 2017
+
 * L'anteprima di server di report di Power BI è stata resa disponibile
 * Possibilità di pubblicare report di Power BI locali
   * Supporto per oggetti visivi personalizzati
-  * Supporto solo per connessioni dinamiche di Analysis Services con altre origini dati previste.
+  * Supporto solo per **connessioni dinamiche di Analysis Services** con altre origini dati previste.
   * App Power BI per dispositivi mobili aggiornata in modo da visualizzare i report di Power BI ospitati nel Server di Report di Power BI
 * Miglioramento della collaborazione nei report con commenti
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Che cos'è Server di report di Power BI?](get-started.md) 
 [Manuale per l'amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
@@ -217,4 +332,3 @@ Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabe
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

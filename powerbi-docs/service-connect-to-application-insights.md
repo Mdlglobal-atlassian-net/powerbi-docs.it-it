@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6ccf112a78e69e006a4ca3d6e8a7cd372adf5f05
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3c1000eb48cfb53f5838f19f6c0ece4403e9d3ba
+ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244250"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "40257262"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Connettersi ad Application Insights con Power BI
 Usare Power BI per creare potenti dashboard personalizzati in base ai dati di telemetria di [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Concepire i dati di telemetria dell'app in nuovi modi. Combinare metriche da più app o servizi componenti in un unico dashboard. Questa prima versione del pacchetto di contenuto Power BI per Application Insights include widget per metriche relative all'uso comune, ad esempio utenti attivi, visualizzazione della pagina, sessioni, versione del browser e del sistema operativo e la distribuzione geografica degli utenti in una mappa.
@@ -23,7 +23,7 @@ Usare Power BI per creare potenti dashboard personalizzati in base ai dati di te
 Connettersi al [Pacchetto di contenuto Application Insights per Power BI](https://app.powerbi.com/getdata/services/application-insights).
 
 >[!NOTE]
->Per la connessione è necessario accedere al pannello della panoramica di Application Insights per l'applicazione nel portale di anteprima di Azure. Di seguito sono fornite informazioni più dettagliate sui requisiti.
+>Questo metodo di integrazione è ora **deprecato**. Per altre informazioni sul metodo preferito per la connessione di Application Insights a Power BI, usare la [funzionalità di esportazione delle query di analisi](https://docs.microsoft.com/azure/application-insights/app-insights-export-power-bi#export-analytics-queries).
 
 ## <a name="how-to-connect"></a>Come connettersi
 1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.
