@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280134"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151953"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -28,10 +28,6 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
 È quindi possibile aprire in modalità messa a fuoco e interagire con questi riquadri nell'app Power BI per dispositivi mobili. È possibile aprire riquadri con tutti i tipi di oggetti visivi, inclusi i riquadri basati su Bing e R.
 
 ## <a name="tiles-in-the-ios-apps"></a>Riquadri nelle app iOS
-> [!NOTE]
-> È possibile [creare riquadri immagine con l'app iPhone](mobile-iphone-app-get-started.md) e salvarli nei dashboard.
-> 
-> 
 
 1. Aprire un [dashboard nell'app per dispositivi mobili per iOS](mobile-apps-view-dashboard.md).
 2. Toccare un riquadro. Viene aperto in stato attivo in modo da visualizzare ed esplorare i dati del riquadro più facilmente. In questa modalità è possibile:
@@ -40,7 +36,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Ad esempio, in questo grafico a linee i valori selezionati sono relativi a **This Year Sales</em>* (vendite di quest'anno) e **Last Year Sales** (vendite dell'anno precedente) nel periodo **August** (agosto).*  
+   *Ad esempio, in questo grafico a linee i valori selezionati sono relativi a **This Year Sales** (vendite di quest'anno) e **Last Year Sales** (vendite dell'anno precedente) nel periodo **August** (agosto).*  
    
    In un grafico a torta toccare una sezione della torta per visualizzarne i valori nella parte superiore della torta.  
    
@@ -107,7 +103,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>In questo grafico a barre i valori della barra **Decor</em>* vengono visualizzati nella parte superiore del grafico.*
+   *In questo grafico a barre, i valori della barra **Decor** vengono visualizzati nella parte superiore del grafico.*
    
    Toccare l'icona **Schermo intero** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) per aprire il riquadro in modalità schermo intero, senza le barre di spostamento e dei menu.
    
