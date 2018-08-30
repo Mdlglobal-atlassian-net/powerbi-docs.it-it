@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658013"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151907"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 
@@ -279,7 +279,7 @@ Di seguito è riportato un elenco di contatori delle prestazioni disponibili.
 | # of Mashup open connection failed / sec |Numero di azioni di connessione aperta Mashup non riuscite al secondo. |
 | # of Mashup queries executed / sec |Numero di query Mashup eseguite al secondo (esito positivo o negativo). |
 | # of Mashup queries failed / sec |Numero di query Mashup non riuscite al secondo. |
-| # of multiple result sets of OLEDB queries failed / sec |Numero di query non riuscite OLEDB con set di risultati multipli eseguite al secondo. |
+| # of OLEDB multiple result set queries failed / sec |Numero di query non riuscite OLEDB con set di risultati multipli eseguite al secondo. |
 | # of OLEDB multiple result sets of queries executed / sec |Numero di set di risultati multipli OLEDB di query eseguite al secondo (esito positivo o negativo). |
 | # of OLEDB open connection executed / sec |Numero di azioni di connessione aperta OLEDB eseguite al secondo (esito positivo o negativo). |
 | # of OLEDB open connection failed / sec |Numero di azioni di connessione aperta OLEDB non riuscite al secondo. |
