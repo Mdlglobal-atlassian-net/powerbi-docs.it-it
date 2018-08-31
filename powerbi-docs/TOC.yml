@@ -43,7 +43,7 @@ items:
         href: service-cortana-intro.md
       - name: Riquadri del dashboard in Power BI
         href: service-dashboard-tiles.md
-      - name: Condiviso con me
+      - name: Condivisi con l'utente corrente
         href: service-shared-with-me.md
       - name: Aggiornamento dei dati in Power BI
         href: refresh-data.md
@@ -51,7 +51,7 @@ items:
         href: service-frequently-asked-questions.md
       - name: Power BI per il Governo degli Stati Uniti
         href: service-govus-overview.md
-      - name: Confronto tra Power BI Gratuito e Pro
+      - name: Differenze tra la versione gratuita e la versione Pro di Power BI
         href: service-free-vs-pro.md
       - name: 10 suggerimenti per chiedere assistenza
         href: service-tips-for-finding-help.md
@@ -131,11 +131,11 @@ items:
           href: service-connect-to-application-insights.md
         - name: AT Internet Bridge
           href: service-connect-to-at-internet.md
-        - name: Log di controllo di Azure
+        - name: Azure Audit Logs
           href: service-connect-to-azure-audit-logs.md
         - name: Azure Mobile Engagement
           href: service-connect-to-azure-mobile.md
-        - name: Informazioni sul consumo di Microsoft Azure
+        - name: Microsoft Azure Consumption Insights
           href: service-connect-to-azure-consumption-insights.md
         - name: Ricerca di Azure
           href: service-connect-to-azure-search.md
@@ -195,7 +195,7 @@ items:
           href: service-connect-to-smartsheet.md
         - name: SparkPost
           href: service-connect-to-sparkpost.md
-        - name: Controllo del database SQL
+        - name: SQL Database Auditing
           href: service-connect-to-azure-sql-database-auditing.md
         - name: SQL Sentry
           href: service-connect-to-sql-sentry.md
@@ -233,7 +233,7 @@ items:
           href: service-notification-center.md
         - name: Temi del dashboard
           href: service-dashboard-themes.md
-      - name: Relazioni
+      - name: Report
         items:
         - name: Metodi per aprire un report
           href: service-report-open.md
@@ -245,7 +245,7 @@ items:
           href: power-bi-how-to-report-filter.md
         - name: Sottoscrivere un report o un dashboard
           href: service-report-subscribe.md
-      - name: Pubblicare
+      - name: Pubblica
         items:
         - name: Power BI Publisher per Excel
           href: publisher-for-excel.md
@@ -271,7 +271,7 @@ items:
           href: service-dashboard-pin-live-tile-from-report.md
         - name: Metriche di utilizzo per i dashboard
           href: service-usage-metrics.md
-        - name: Aggiungere un'immagine, una casella di testo, un video o codice Web a un dashboard
+        - name: Aggiungere un'immagine, una casella di testo, un video o un codice Web al dashboard
           href: service-dashboard-add-widget.md
         - name: 'Modificare un riquadro: ridimensionare, spostare, rinominare, aggiungere ed eliminare un collegamento ipertestuale'
           href: service-dashboard-edit-tile.md
@@ -279,13 +279,13 @@ items:
           href: service-dashboards-design-tips.md
         - name: Ottimizzare i dati per Power BI Quick Insights
           href: service-insights-optimize.md
-        - name: Creare una visualizzazione telefono di un dashboard in Power BI
+        - name: Creare una visualizzazione telefono di un dashboard
           href: service-create-dashboard-mobile-phone-view.md
         - name: Creare un codice a matrice per un riquadro
           href: service-create-qr-code-for-tile.md
         - name: Aggiungere un'immagine a un dashboard
           href: service-dashboard-add-image.md
-        - name: Classificazione dati del dashboard
+        - name: Classificazione dei dati del dashboard
           href: service-data-classification.md
       - name: Ottenere risposte dai dati
         items:
@@ -351,7 +351,7 @@ items:
             href: template-content-pack-testing.md
           - name: Esperienze di pacchetti di contenuto modello
             href: template-content-pack-experience.md
-      - name: Relazioni
+      - name: Report
         items:
         - name: Creare un nuovo report da un report esistente
           href: power-bi-report-copy.md
@@ -393,7 +393,7 @@ items:
           href: power-bi-reports-performance.md
         - name: Interagire con le mappe ArcGIS in Power BI
           href: power-bi-visualizations-arcgis.md
-      - name: Ottenere dati da file
+      - name: Dati da file
         items:
         - name: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
           href: service-from-excel-to-stunning-report.md
@@ -419,7 +419,7 @@ items:
           href: service-azure-sql-database-with-direct-connect.md
         - name: Spark in HDInsight con DirectQuery
           href: spark-on-hdinsight-with-direct-connect.md
-        - name: Dati in tempo reale di SQL Server Analysis Services in Power BI
+        - name: Dati dinamici di SQL Server Analysis Services in Power BI
           href: sql-server-analysis-services-tabular-data.md
         - name: Azure e Power BI
           href: service-azure-and-power-bi.md
@@ -609,7 +609,7 @@ items:
         href: desktop-r-scripts.md
       - name: Uso di R nell'Editor di query
         href: desktop-r-in-query-editor.md
-      - name: Usare una IDE R esterna con Power BI
+      - name: Usare un IDE R esterno con Power BI
         href: desktop-r-ide.md
       - name: Pacchetti R supportati
         href: service-r-packages-support.md
@@ -645,11 +645,11 @@ items:
         href: desktop-directquery-sap-bw.md
       - name: DirectQuery e SAP HANA
         href: desktop-directquery-sap-hana.md
-      - name: Considerare le impostazioni di integrità referenziale in Power BI Desktop
+      - name: Considerare l'impostazione di integrità referenziale in Power BI Desktop
         href: desktop-assume-referential-integrity.md
       - name: Usare SAP BW Connector in Power BI Desktop (anteprima)
         href: desktop-sap-bw-connector.md
-      - name: Usare i collegamenti di OneDrive for Business in Power BI Desktop
+      - name: Usare collegamenti OneDrive for Business in Power BI Desktop
         href: desktop-use-onedrive-business-links.md
       - name: 'Servizio di terze parti: connettore Facebook per Power BI Desktop'
         href: service-facebook-connector.md
@@ -659,7 +659,7 @@ items:
         href: desktop-project-online-connect-to-data.md
     - name: Trasformare i dati ed eseguire il data shaping
       items:
-      - name: Forme mappa in Power BI Desktop (anteprima)
+      - name: Usare le forme mappa in Power BI Desktop (anteprima)
         href: desktop-shape-map.md
       - name: Combinare file binari
         href: desktop-combine-binaries.md
@@ -667,7 +667,7 @@ items:
       items:
       - name: Categorizzazione dei dati in Power BI Desktop
         href: desktop-data-categorization.md
-      - name: Contrassegnare i codici a barre in Power BI Desktop per le app per dispositivi mobili
+      - name: Contrassegnare un campo di codice a barre in Power BI Desktop per le app per dispositivi mobili
         href: desktop-mobile-barcodes.md
       - name: Impostare un filtro geografico in Power BI Desktop per le app per dispositivi mobili
         href: desktop-mobile-geofiltering.md
@@ -687,7 +687,7 @@ items:
         href: desktop-export-to-pdf.md
       - name: Domande e risposte in Power BI Desktop
         href: desktop-qna-in-reports.md
-      - name: Riquadro analisi in Power BI Desktop
+      - name: Riquadro Analisi in Power BI Desktop
         href: desktop-analytics-pane.md
       - name: Uso delle informazioni dettagliate per spiegare gli aumenti e le diminuzioni
         href: desktop-insights.md
@@ -737,9 +737,9 @@ items:
         href: service-cortana-answer-cards.md
       - name: Sicurezza a livello di riga
         href: desktop-rls.md
-      - name: Personalizzazione delle descrizioni comandi in Power BI Desktop
+      - name: Personalizzazione delle descrizioni comando in Power BI Desktop
         href: desktop-custom-tooltips.md
-      - name: Formattazione di tabella condizionale in Power BI Desktop
+      - name: Formattazione della tabella condizionale in Power BI Desktop
         href: desktop-conditional-table-formatting.md
       - name: Ordinare per colonna in Power BI Desktop
         href: desktop-sort-by-column.md
@@ -751,7 +751,7 @@ items:
       items:
       - name: Procedure consigliate per la visualizzazione
         href: power-bi-visualization-best-practices.md
-      - name: Vedere i dati usati per creare l'oggetto visivo
+      - name: Visualizzare i dati usati per creare l'oggetto visivo
         href: service-reports-show-data.md
       - name: Modificare il tipo di visualizzazione in un report di Power BI
         href: power-bi-report-change-visualization-type.md
@@ -799,7 +799,7 @@ items:
         href: power-bi-visualization-waterfall-charts.md
       - name: Schede (riquadri per numeri elevati) in Power BI
         href: power-bi-visualization-card.md
-      - name: Creare analisi e visualizzazioni avanzate con gli script R in Power BI
+      - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
         href: service-r-visuals.md
     - name: Risoluzione dei problemi
       items:
@@ -819,7 +819,7 @@ items:
     items:
     - name: Video su Power BI Desktop
       href: desktop-videos.md
-    - name: Aggiornamenti mensili precedenti a Power BI Desktop
+    - name: Precedenti aggiornamenti mensili per Power BI Desktop
       href: desktop-latest-update-archive.md
     - name: Informativa sulla privacy Invia smile di Power BI Desktop
       href: desktop-send-smile-privacy-statement.md
@@ -857,21 +857,21 @@ items:
       items:
       - name: Visualizzare report locali nelle app per dispositivi mobili
         href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-      - name: Condividere un dashboard dalle app Power BI per dispositivi mobili
+      - name: Condividere un dashboard dall'app Power BI per dispositivi mobili
         href: mobile-share-dashboard-from-the-mobile-apps.md
       - name: Interagire con i riquadri nelle app per dispositivi mobili
         href: mobile-tiles-in-the-mobile-apps.md
       - name: Preferiti nelle app per dispositivi mobili
         href: mobile-apps-favorites.md
-      - name: Impostare avvisi per i dati nelle app per dispositivi mobili di Power BI
+      - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
         href: mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
         href: mobile-apps-notification-center.md
       - name: Creare un collegamento diretto che indirizzi a una posizione specifica
         href: mobile-apps-deep-link-specific-location.md
-      - name: Filtrare un report per località nelle app Power BI per dispositivi mobili
+      - name: Filtrare un report in base alla posizione geografica nelle app per dispositivi mobili di Power BI
         href: mobile-apps-geographic-filtering.md
-      - name: Eseguire la scansione di un codice a matrice di Power BI dal telefono
+      - name: Scansionare un codice a matrice di Power BI dal telefono
         href: mobile-apps-qr-code.md
       - name: Dashboard di Power BI per dispositivi mobili
         href: mobile-apps-view-dashboard.md
@@ -879,7 +879,7 @@ items:
         href: mobile-apps-view-phone-report.md
       - name: Report nelle app per dispositivi mobili
         href: mobile-reports-in-the-mobile-apps.md
-      - name: Uso di OAuth per la connessione a Reporting Services
+      - name: Uso di OAuth per connettersi a Reporting Services
         href: mobile-oauth-ssrs.md
       - name: Configurare app per dispositivi mobili con Intune
         href: service-admin-mobile-intune.md
@@ -1179,7 +1179,7 @@ items:
         href: report-server/upgrade.md
       - name: Eseguire la migrazione di un server di report
         href: report-server/migrate-report-server.md
-      - name: Configurare Kerberos in modo da usare i report di Power BI
+      - name: Configurare Kerberos per l'uso di report di Power BI
         href: report-server/configure-kerberos-powerbi-reports.md
       - name: Configurare l'accesso all'app per dispositivi mobili in modalità remota
         href: report-server/configure-powerbi-mobile-apps-remote.md
@@ -1277,6 +1277,8 @@ items:
         href: service-admin-premium-purchase.md
       - name: Gestire Power BI Premium
         href: service-admin-premium-manage.md
+      - name: Report di monitoraggio della capacità di Power BI Premium
+        href: service-admin-premium-monitor-capacity.md
       - name: Supporto per set di dati di grandi dimensioni
         href: service-premium-large-datasets.md
       - name: Aggiornamento incrementale
@@ -1336,11 +1338,11 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-    - name: Power BI per Office 365 è passato a Power BI
+    - name: È stata eseguita la transizione di Power BI per Office 365 a Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: e52f37a47917a7df6425644756877b9b39a82d96
-ms.sourcegitcommit: 45afb86085a587a9dc757fac50ccb49fcd456a95
+ms.openlocfilehash: d3eb5219dfe13811015cd957384a13be8d52a31d
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "42914481"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250705"
