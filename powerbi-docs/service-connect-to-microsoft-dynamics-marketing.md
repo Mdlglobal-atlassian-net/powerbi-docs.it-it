@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137023"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695111"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Connettersi a Microsoft Dynamics Marketing con Power BI
 Il pacchetto di contenuto Microsoft Dynamics Marketing per Power BI consente di accedere e analizzare facilmente i dati da Dynamics Marketing. Il pacchetto di contenuto usa un modello descrittivo basato sul feed OData, con tutte le entità e le misurazioni necessarie, tra cui programmi, campagne, società e contatti di marketing, lead, interazioni e punteggio dei lead, siti Web e messaggi di posta elettronica di marketing, osservazioni relative ai comportamenti, budget, transazioni finanziarie e indicatori KPI delle prestazioni e così via. 
@@ -35,7 +35,7 @@ Connettersi al [pacchetto di contenuto Dynamics Marketing](https://app.powerbi.c
 3. Selezionare **Microsoft Dynamics Marketing** \> **Recupera**.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Specificare l'URL di OData associato all'account,  nel formato "https:// [nome\_istanza].marketing.dynamics.com/analytics".
+4. Specificare l'URL di OData associato all'account,  Sarà nel formato "`https://[instance\_name].marketing.dynamics.com/analytics.`"
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Quando richiesto, specificare le credenziali. È possibile saltare questo passaggio se è già stato effettuato l'accesso nel browser. In Metodo di autenticazione immettere **oAuth2** e fare clic su **Accedi**:
