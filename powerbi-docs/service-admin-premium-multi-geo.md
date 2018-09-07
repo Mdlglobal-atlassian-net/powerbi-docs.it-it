@@ -1,38 +1,39 @@
 ---
-title: Supporto di più aree geografiche in Power BI Premium (anteprima)
+title: Supporto di più aree geografiche per Power BI Premium (anteprima)
 description: Informazioni su come distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI.
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/18/2018
-ms.author: maggies
+ms.date: 08/31/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b7e1222e5babf1226722c5bd1f5efe3dff4dc8c1
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211363"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300185"
 ---
-# <a name="multi-geo-support-in-power-bi-premium-preview"></a>Supporto di più aree geografiche in Power BI Premium (anteprima)
-Il supporto di più aree geografiche è una funzionalità di Power BI Premium che consente ai clienti multinazionali di soddisfare requisiti regionali, specifici del settore o di residenza dei dati dell'organizzazione. I clienti di Power BI Premium possono distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI. È possibile scegliere di distribuire il contenuto in qualsiasi area geografica tra le seguenti:
+# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Supporto di più aree geografiche per Power BI Premium (anteprima)
 
-- Stati Uniti 
-- Canada 
-- Regno Unito 
-- Brasile 
-- Europa 
-- Giappone 
-- India 
-- Asia Pacifico 
-- Australia 
+Il supporto di più aree geografiche è una funzionalità di Power BI Premium che consente ai clienti multinazionali di soddisfare requisiti regionali, specifici del settore o di residenza dei dati dell'organizzazione. I clienti di Power BI Premium possono distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI. Un'area geografica può contenere più di un'area. Ad esempio, Stati Uniti è un'area geografica e Stati Uniti centro-occidentali e Stati Uniti centro-meridionali sono aree negli Stati Uniti. È possibile scegliere di distribuire il contenuto in qualsiasi area geografica tra le seguenti:
 
-Un'area geografica può contenere più di un'area. Ad esempio, Stati Uniti è un'area geografica e Stati Uniti centro-occidentali e Stati Uniti centro-meridionali sono aree negli Stati Uniti. 
+- Stati Uniti
+- Canada
+- Regno Unito
+- Brasile
+- Europa
+- Giappone
+- India
+- Asia Pacifico
+- Australia
 
 Le aree geografiche multiple non sono disponibili per Power BI Germania, Power BI gestito da 21Vianet in Cina o Power BI per Governo degli Stati Uniti.
+
+Il supporto di più aree geografiche è ora disponibile anche in Power BI Embedded. Per altre informazioni, vedere [Supporto di più aree geografiche per Power BI Embedded (anteprima)](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Uso di più aree geografiche
 
@@ -44,16 +45,16 @@ Dopo averla creata, la capacità resta in tale area e il contenuto delle eventua
 
 ![Modifica area di lavoro: scegliere una capacità disponibile. Più aree geografiche di Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
 
-Viene visualizzato questo messaggio per confermare la modifica. 
+Viene visualizzato questo messaggio per confermare la modifica.
 
 ![Conferma della modifica dell'area di lavoro assegnata](media/service-admin-premium-multi-geo/power-bi-multi-geo-change-assigned-workspace-capacity.png)
 
 Non è necessario reimpostare le credenziali del gateway durante una migrazione in questo momento.  Dopo la loro archiviazione nell'area di capacità Premium, sarà necessario reimpostarle al momento della migrazione.
-   
+
 Durante la migrazione, determinate operazioni potrebbero non riuscire, ad esempio la pubblicazione di nuovi set di dati o l'aggiornamento dei dati pianificato.  
 
 Gli elementi seguenti vengono archiviati nell'area Premium quando sono abilitate più aree geografiche:
- 
+
 - Modelli (file con estensione abf) per l'importazione e set di dati DirectQuery
 - Cache delle query
 - Immagini R
@@ -66,7 +67,7 @@ Questi elementi rimangono nell'area iniziale per il tenant:
 - Bus di servizio per le query di gateway o i processi di aggiornamento pianificati
 - Autorizzazioni
 - Credenziali del set di dati
- 
+
 ## <a name="view-capacity-regions"></a>Visualizzare le aree delle capacità
 
 Nel portale di amministrazione è possibile visualizzare tutte le capacità per il tenant di Power BI e le aree in cui si trovano attualmente.
@@ -80,7 +81,6 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 - Creare una seconda capacità e spostare le aree di lavoro. Gli utenti del piano gratuito non riscontreranno tempi di inattività, purché il tenant abbia vCore di riserva.
 - Se la creazione di una seconda capacità non è un'opzione, è possibile spostare temporaneamente il contenuto alla capacità condivisa da Premium. Non sono necessari vCore aggiuntivi, ma gli utenti del piano gratuito riscontreranno tempi di inattività.
 
-
 ## <a name="move-content-out-of-multi-geo"></a>Spostare il contenuto all'esterno della capacità di più aree geografiche  
 
 È possibile spostare aree di lavoro al di fuori della capacità di più aree geografiche in uno di due modi:
@@ -90,16 +90,17 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
-Verificare che qualsiasi spostamento avviato tra aree rispetti tutti i requisiti di conformità aziendali e di enti pubblici prima di avviare il trasferimento dei dati.
+- Verificare che qualsiasi spostamento avviato tra aree rispetti tutti i requisiti di conformità aziendali e di enti pubblici prima di avviare il trasferimento dei dati.
 
-Una query memorizzata nella cache archiviata in un'area remota resta in tale area quando è inattiva. Tuttavia, gli altri dati in transito potrebbero spostarsi tra più aree geografiche. 
+- Una query memorizzata nella cache archiviata in un'area remota resta in tale area quando è inattiva. Tuttavia, gli altri dati in transito potrebbero spostarsi tra più aree geografiche.
 
-Quando si spostano dati da un'area a un'altra in un ambiente con più aree geografiche, i dati di origine possono rimanere nell'area da cui vengono spostati fino a 30 giorni. Durante tale periodo, gli utenti finali non potranno accedervi. I dati verranno rimossi da quest'area ed eliminati definitivamente durante il periodo di 30 giorni.
+- Quando si spostano dati da un'area a un'altra in un ambiente con più aree geografiche, i dati di origine possono rimanere nell'area da cui vengono spostati fino a 30 giorni. Durante tale periodo, gli utenti finali non potranno accedervi. I dati verranno rimossi da quest'area ed eliminati definitivamente durante il periodo di 30 giorni.
 
-Il supporto di più aree geografiche non comporta prestazioni migliori in generale. Il caricamento di report e dashboard comporta comunque richieste all'area iniziale per i metadati.
+- Il supporto di più aree geografiche non comporta prestazioni migliori in generale. Il caricamento di report e dashboard comporta comunque richieste all'area iniziale per i metadati.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Power BI Premium: di cosa si tratta?](service-premium.md)
+- [Power BI Premium: di cosa si tratta?](service-premium.md)
+- [Supporto di più aree geografiche per Power BI Embedded](developer/embedded-multi-geo.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

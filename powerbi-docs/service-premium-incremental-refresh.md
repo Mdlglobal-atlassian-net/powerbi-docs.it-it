@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/30/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b6a3c35abeff33e2fb1e0fecdc5c2a5c88e1530
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
+ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34298183"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43300139"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Aggiornamento incrementale in Power BI Premium
 
@@ -43,6 +43,12 @@ I set di dati di grandi dimensioni, che contengono anche miliardi di righe, potr
 
 Per sfruttare l'aggiornamento incrementale nel servizio Power BI, il filtro deve essere applicato usando i parametri di data/ora di Power Query con i nomi riservati e con distinzione maiuscole/minuscole **RangeStart** e **RangeEnd**.
 
+Una volta pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI. Non è necessario definirli nelle impostazioni del set di dati nel servizio.
+ 
+È importante eseguire il push del filtro nel sistema di origine quando vengono inviate query per le operazioni di aggiornamento. Questo significa che l'origine dati deve supportare la "riduzione delle query". In base ai vari livelli di supporto della riduzione delle query per ogni origine dati, è consigliabile verificare che la logica di filtro sia inclusa nelle query di origine. Se ciò non accade, ogni query richiederà tutti i dati dall'origine, vanificando gli scopi dell'aggiornamento incrementale.
+ 
+Il filtro verrà usato per partizionare i dati in intervalli nel servizio Power BI. Non è progettato per supportare l'aggiornamento della colonna di data filtrata. Un aggiornamento verrà interpretato come un inserimento e un'eliminazione (non come aggiornamento). Se l'eliminazione viene eseguita nell'intervallo cronologico e non nell'intervallo incrementale, non verrà rilevata.
+
 Nell'Editor di Power Query selezionare **Gestisci parametri** per definire i parametri con valori predefiniti.
 
 ![Gestisci parametri](media/service-premium-incremental-refresh/manage-parameters.png)
@@ -61,9 +67,6 @@ Verificare che vengano filtrate righe in cui il valore della colonna *è dopo o 
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Selezionare **Chiudi e applica** nell'Editor di Power Query. In Power BI Desktop viene reso disponibile un subset del set di dati.
-
-> [!NOTE]
-> Una volta pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI. Non è necessario definirli nelle impostazioni del set di dati.
 
 ### <a name="define-the-refresh-policy"></a>Definire i criteri di aggiornamento
 
@@ -102,9 +105,11 @@ Il primo aggiornamento nel servizio Power BI può richiedere più tempo, perché
 
 **La definizione di questi intervalli potrebbe essere sufficiente. In tal caso passare direttamente al passaggio pubblicazione riportato di seguito. Gli altri elenchi a discesa sono destinati a funzionalità avanzate.**
 
+### <a name="advanced-policy-options"></a>Opzioni dei criteri avanzate
+
 #### <a name="detect-data-changes"></a>Rileva modifiche ai dati
 
-L'aggiornamento incrementale di 10 giorni è ovviamente molto più efficiente rispetto all'aggiornamento completo di 5 anni. Tuttavia è possibile migliorare ancora l'efficienza. Se si seleziona la casella di controllo **Rileva modifiche ai dati**, è possibile selezionare una colonna di data/ora e usarla per identificare e aggiornare solo i giorni in cui i dati vengono modificati. Questa opzione presuppone l'esistenza di una colonna di questo tipo (usata in genere per operazioni di controllo) nel sistema di origine. Il valore massimo di questa colonna viene valutato per ciascuno dei periodi dell'intervallo incrementale. Se tale valore non è cambiato dall'ultimo aggiornamento, non è necessario aggiornare il periodo. Nell'esempio questa opzione può ridurre ulteriormente i giorni sottoposti ad aggiornamento incrementale, ad esempio da 10 a 2.
+L'aggiornamento incrementale di 10 giorni è ovviamente molto più efficiente rispetto all'aggiornamento completo di 5 anni. Tuttavia è possibile migliorare ancora l'efficienza. Se si seleziona la casella di controllo **Rileva modifiche ai dati**, è possibile selezionare una colonna di data/ora e usarla per identificare e aggiornare solo i giorni in cui i dati vengono modificati. Questa opzione presuppone l'esistenza di una colonna di questo tipo (usata in genere per operazioni di controllo) nel sistema di origine. **Questa non deve essere la stessa colonna usata per partizionare i dati con i parametri RangeStart/RangeEnd.** Il valore massimo di questa colonna viene valutato per ciascuno dei periodi dell'intervallo incrementale. Se tale valore non è cambiato dall'ultimo aggiornamento, non è necessario aggiornare il periodo. Nell'esempio questa opzione può ridurre ulteriormente i giorni sottoposti ad aggiornamento incrementale, ad esempio da 10 a 2.
 
 ![Rilevare le modifiche](media/service-premium-incremental-refresh/detect-changes.png)
 

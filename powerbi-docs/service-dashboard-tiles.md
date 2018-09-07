@@ -2,20 +2,20 @@
 title: Riquadri del dashboard nel servizio Power BI
 description: Informazioni sui riquadri del dashboard in Power BI. Includono i riquadri che vengono creati da SQL Server Reporting Services (SSRS).
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249069"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241592"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
 I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Per aggiungere un riquadro a un dashboard si può procedere in diversi modi. È 
    
    * [Aprire il foglio di lavoro usato per creare questo riquadro](service-reports.md) ![Icona del foglio di lavoro](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Visualizzare il riquadro nella modalità messa a fuoco ](service-focus-mode.md) ![Icona della modalità messa a fuoco](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Visualizzare il riquadro nella modalità messa a fuoco ](service-focus-mode.md) ![Icona della modalità messa a fuoco](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Esportare i dati usati nel riquadro](power-bi-visualization-export-data.md) ![Icona Esporta dati](media/service-dashboard-tiles/export-icon.png)
-     * [Modificare titolo e sottotitolo, aggiungere un collegamento ipertestuale, visualizzare l'ora dell'ultimo aggiornamento](service-dashboard-edit-tile.md) ![Icona Modifica](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Modificare titolo e sottotitolo, aggiungere un collegamento ipertestuale](service-dashboard-edit-tile.md) ![Icona Modifica](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Eseguire analisi su informazioni dettagliate ](service-insights.md) ![Icona delle informazioni dettagliate](media/service-dashboard-tiles/power-bi-insights.png)
      * [Aggiungere il riquadro a un altro dashboard ](service-pin-tile-to-another-dashboard.md)
        ![Icona della puntina](media/service-dashboard-tiles/pin-icon.jpg)

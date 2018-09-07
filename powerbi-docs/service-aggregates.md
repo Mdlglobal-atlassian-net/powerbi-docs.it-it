@@ -2,20 +2,20 @@
 title: Aggregazioni (somma, media, massima e così via) nelle visualizzazioni
 description: Modificare l'aggregazione in un grafico (somma, media, valore massimo e così via) in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247597"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241546"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Aggregazioni nelle visualizzazioni di Power BI
 ## <a name="what-is-an-aggregate"></a>Che cos'è un’aggregazione?
@@ -26,7 +26,7 @@ Quando il servizio Power BI e Power BI Desktop creano visualizzazioni, è possib
 Verranno esaminati prima di tutto i *tipi* di dati perché il tipo di dati determina come e se i dati possono essere aggregati.
 
 ## <a name="types-of-data"></a>Tipi di dati
-La maggior parte dei set di dati ha più di un tipo di dati. Al livello più basilare i dati sono numerici o non numerici. I dati numerici possono essere aggregati usando una somma, una media, un conteggio, un valore minimo, una varianza e altro ancora. Anche i dati testuali, spesso definiti *categorici*, possono essere aggregati. Se si prova a eseguire l'aggregazione di campi categorici, inserendoli in un bucket solo numerico come **Valori** o **Descrizioni comando**), Power BI conterà le occorrenze di ogni categoria o le occorrenze distinte di ogni categoria. Alcuni tipi speciali di dati, come le date, hanno opzioni di aggregazione specifiche, ovvero più vecchio, più recente, primo e ultimo. 
+La maggior parte dei set di dati ha più di un tipo di dati. Al livello più basilare i dati sono numerici o non numerici. I dati numerici possono essere aggregati usando una somma, una media, un conteggio, un valore minimo, una varianza e altro ancora. Anche i dati testuali, spesso definiti *categorici*, possono essere aggregati. Se si prova a eseguire l'aggregazione di un campo categorico, inserendolo in un bucket solo numerico come **Valori** o **Descrizioni comando**, Power BI conterà le occorrenze di ogni categoria o le occorrenze distinte di ogni categoria. Alcuni tipi speciali di dati, come le date, hanno opzioni di aggregazione specifiche, ovvero più vecchio, più recente, primo e ultimo. 
 
 Nell'esempio seguente:
 - **Units Sold** e **Manufacturing Price** sono colonne che contengono i dati numerici
@@ -78,7 +78,7 @@ Alcune opzioni possono essere disponibili per l'aggregazione di un campo:
 * **Conteggio (Distinct)**. Conta il numero di valori diversi nel campo.
 * **Deviazione Standard**.
 * **Varianza**.
-* **Mediana**.  Mostra il valore mediano (intermedio). Questo è il valore con lo stesso numero di elementi sopra e sotto.  Se sono presenti 2 mediane, Power BI ne calcola la media.
+* **Mediana**.  Mostra il valore mediano (intermedio). Questo è il valore con lo stesso numero di elementi sopra e sotto.  Se sono presenti due mediane, Power BI ne calcola la media.
 
 Ad esempio, questi dati:
 
@@ -129,7 +129,7 @@ R: Il campo selezionato è probabilmente una misura calcolata o una misura avanz
 
 D: perché con un campo sicuramente **numerico** le uniche scelte disponibili sono **Conteggio** e **Conteggio valori univoci**?
 
-R1: È probabile che il proprietario del set di dati, inavvertitamente o intenzionalmente, *non* abbia classificato il campo come numero. Ad esempio, se un set di dati ha un campo **anno**, il proprietario del set di dati può classificarlo come testo perché è più probabile che il campo **anno** venga conteggiato (cioè, il numero di persone nate nel 1974) e non che venga sommato o che ne venga calcolata la media. Se si è il proprietario, è possibile aprire il set di dati in Power BI Desktop e usare la scheda **Creazione di modelli** per modificare il tipo di dati.  
+R1: È probabile che il proprietario del set di dati, inavvertitamente o intenzionalmente, *non* abbia classificato il campo come numero. Ad esempio, se un set di dati ha un campo **anno**, il proprietario del set di dati può classificarlo come testo perché è più probabile che il campo **anno** venga conteggiato (ad esempio, il numero di persone nate nel 1974) e non che venga sommato o che ne venga calcolata la media. Se si è il proprietario, è possibile aprire il set di dati in Power BI Desktop e usare la scheda **Creazione di modelli** per modificare il tipo di dati.  
 
 R2: Se al campo è associata l'icona a forma di calcolatrice, si tratta di una *misura calcolata* e ogni misura calcolata ha una formula hardcoded propria che può essere modificata solo da un proprietario di set di dati. Il calcolo in uso potrebbe essere un'aggregazione semplice come una media o una somma, ma potrebbe anche essere qualcosa di più complicato come la "percentuale del contributo alla categoria padre" o il "totale parziale dall'inizio dell'anno". Power BI non calcolerà la somma o la media dei risultati, ma eseguirà invece di nuovo il calcolo per ogni punto dati usando la formula hardcoded.
 
@@ -139,6 +139,10 @@ R4: La terza possibilità è che il campo venga usato per un asse. Su un asse di
 
 >[!NOTE]
 >L'eccezione a questa regola è rappresentata dai grafici a dispersione, che *richiedono* valori aggregati per gli assi X e Y.
+
+D: perché non è possibile aggregare i campi di testo per le origini dati SSAS?
+
+R: le connessioni dinamiche a SSAS MD non consentono aggregazioni sul lato client. Sono incluse first, last, avg, min, max e sum.
 
 D: È disponibile un grafico a dispersione e si vuole che il campo *non* venga aggregato.  in un grafico a dispersione?
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924793"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250774"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 Informazioni su come gestire le capacità di Power BI Premium e Power BI Embedded che forniscono risorse dedicate per il contenuto usato.
@@ -163,33 +163,8 @@ Dopo il salvataggio, l'area di lavoro e il relativo contenuto verranno spostati 
 
 
 ## <a name="monitor-capacity-usage"></a>Monitorare l'utilizzo della capacità
-Per ogni capacità è possibile visualizzare metriche di uso della CPU, uso della memoria, thrashing di memoria e DirectQuery. È consigliabile monitorare queste metriche per assicurarsi che gli utenti ottengano prestazioni ottimali in base alla capacità:
 
-![Uso per gli ultimi sette giorni](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> L'uso della capacità di Power BI Embedded viene monitorato nel portale di Azure.
-
-| Metrica | Descrizione |
-| --- | --- |
-| CPU |Numero di volte per cui la CPU supera l'80% di uso. |
-| Thrashing di memoria |Rappresenta l'uso elevato di memoria nei core di back-end. In particolare registra la frequenza con cui i set di dati vengono rimossi dalla memoria a causa dell'uso elevato di memoria, dovuto alla gestione di più set di dati. |
-| Utilizzo memoria |Uso medio della memoria, specificato in gigabyte (GB). |
-| DQ/s | Numero di volte per il quale il conteggio di DirectQuery e connessioni dinamiche ha superato l'80% del limite. <br> <br> * Il numero totale di DirectQuery e di query di connessione dinamica al secondo è limitato.<br><br>* I limiti sono 30/s per P1, 60/s per P2 e 120/s per P3.<br><br> * Il numero di DirectQuery e il numero di query di connessione dinamica contribuiscono a questa limitazione. Ad esempio, se si hanno 15 DirectQuery e 15 connessioni dinamiche in un secondo, si raggiunge il limite.<br/><br>* Questo vale per le connessioni sia in che nel cloud. |
-
-Le metriche riflettono l'uso nell'ultima settimana.  Per aprire una visualizzazione più dettagliata delle metriche, fare clic su uno dei riquadri di riepilogo.  Vengono visualizzati grafici dettagliati per ogni metrica della capacità Premium.  Questi grafici sono un riepilogo su base oraria dell'ultima settimana e facilitano il rilevamento di eventi specifici associati alle prestazioni nella capacità Premium.  
-
-![Grafico d'uso dettagliato - CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Grafico d'uso dettagliato - Thrashing di memoria](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Grafico d'uso dettagliato - Dimensioni memoria](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Grafico d'uso dettagliato - Thrashing di memoria](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-È anche possibile esportare i dati corrispondenti a qualsiasi metrica in un file con estensione csv.  Questa esportazione fornisce informazioni dettagliate con intervalli di tre minuti per ogni giorno della settimana precedente.
+Power BI offre un'app per il monitoraggio dell'utilizzo della capacità. Per altre informazioni, vedere [Monitorare le capacità di Power BI Premium nell'organizzazione](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>Aspetto di Premium per gli utenti
 Per la maggior parte, gli utenti non dovranno neanche sapere di essere in una capacità Premium, perché i dashboard e i report continueranno a funzionare normalmente. Come suggerimento visivo, verrà visualizzata un'icona di diamante accanto alle aree di lavoro che sono in una capacità Premium.

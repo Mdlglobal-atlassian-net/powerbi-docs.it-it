@@ -2,20 +2,20 @@
 title: Pubblicare sul Web da Power BI
 description: La funzionalità Pubblica sul Web di Power BI consente di incorporare con facilità visualizzazioni interattive di Power BI online, ad esempio in post di blog, siti Web, via posta elettronica o social media, su qualsiasi dispositivo.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092346"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380337"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -28,7 +28,7 @@ La funzionalità **Pubblica sul Web** di Power BI consente di incorporare con fa
 
 ## <a name="how-to-use-publish-to-web"></a>Come usare la funzionalità Pubblica sul Web
 
-La funzionalità **Pubblica sul Web** è disponibile nei report presenti nelle aree di lavoro personali o di gruppo che possono essere modificati.  Non è possibile usare Pubblica sul Web con report che non sono stati condivisi con l'utente o con report che si basano sulla sicurezza a livello di riga per proteggere i dati. Vedere la sezione **Limitazioni** più avanti per un elenco completo di casi in cui la funzionalità Pubblica sul Web non è supportata. Prima di usare la funzionalità Pubblica sul Web, vedere l' **Avviso** precedente in questo articolo.
+La funzionalità **Pubblica sul Web** è disponibile nei report presenti nelle aree di lavoro personali o di gruppo che possono essere modificati.  Non è possibile usare Pubblica sul Web con report che non sono stati condivisi con l'utente o con report che si basano sulla sicurezza a livello di riga per proteggere i dati. Vedere la sezione **Limitazioni** più avanti per un elenco completo di casi in cui la funzionalità Pubblica sul Web non è supportata. Prima di usare la funzionalità Pubblica sul Web, vedere l'**avviso** precedente in questo articolo.
 
 Per informazioni sul funzionamento di questa funzionalità, guardare il *breve video*seguente. Seguire quindi questa procedura per provare a usare la funzionalità.
 
@@ -128,15 +128,16 @@ Gli oggetti visivi personalizzati sono supportati in **Pubblica sul Web**. Quand
 
 La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle origini dati e dei report nel servizio Power BI, ma gli elementi seguenti **non sono attualmente supportati o disponibili** con Pubblica sul Web:
 
-1. Report che usano la sicurezza a livello di riga
-2. Report che usano le origini dati della connessione dinamica, inclusi Analysis Services in modalità tabulare ospitato in locale, Analysis Service in modalità multidimensionale e Azure Analysis Services.
-3. Report condivisi con l'utente direttamente o con un pacchetto di contenuto aziendale
-4. Report in un gruppo in cui non si è un membro a cui sono consentite modifiche
-5. Gli oggetti visivi "R" non sono attualmente supportati nei report di Pubblica sul Web
-6. Esportazione di dati da oggetti visivi in un report pubblicato sul Web
-7. Oggetti visivi ArcGIS Maps for Power BI
-8. Report che contengono misure DAX a livello di report
-9. [Proteggere le informazioni riservate o di proprietà](#publish-to-web-from-power-bi)
+- Report che usano la sicurezza a livello di riga
+- Report che usano le origini dati della connessione dinamica, inclusi Analysis Services in modalità tabulare ospitato in locale, Analysis Service in modalità multidimensionale e Azure Analysis Services.
+- Report condivisi con l'utente direttamente o con un pacchetto di contenuto aziendale
+- Report in un gruppo in cui non si è un membro a cui sono consentite modifiche
+- Gli oggetti visivi "R" non sono attualmente supportati nei report di Pubblica sul Web
+- Esportazione di dati da oggetti visivi in un report pubblicato sul Web
+- Oggetti visivi ArcGIS Maps for Power BI
+- Report che contengono misure DAX a livello di report
+- Modelli di query di dati Single Sign-On
+- [Proteggere le informazioni riservate o di proprietà](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Impostazione del tenant
 
