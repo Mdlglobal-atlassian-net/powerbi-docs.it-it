@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257175"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343324"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
@@ -38,7 +38,7 @@ Procedure consigliate:
 - Evitare valori Distinct Count nei campi con cardinalità elevata, ad esempio milioni di valori distinti.  
 - Evitare di usare campi con precisione non necessaria e cardinalità elevata. Ad esempio, è possibile dividere valori datetime univoci in colonne separate, come mese, anno, data e così via. In alternativa, nei campi con precisione elevata usare l'arrotondamento per ridurre la cardinalità, ad esempio 13,29889 -> 13,3, se possibile. 
 - Usare valori integer anziché stringhe, se possibile. 
-- Prestare attenzione alle funzioni DAX che devono testare ogni riga in una tabella, ad esempio RANKX. Nel peggiore dei casi, queste funzioni possono aumentare esponenzialmente i requisiti di runtime e memoria a causa degli aumenti lineari nelle dimensioni della tabella. 
+- Prestare attenzione alle funzioni DAX, che devono testare ogni riga in una tabella, ad esempio RANKX. Nel peggiore dei casi, queste funzioni possono aumentare in modo esponenziale i requisiti di runtime e memoria a causa degli aumenti lineari nelle dimensioni della tabella. 
 - Quando ci si connette alle origini dati tramite DirectQuery, provare a indicizzare le colonne che vengono comunemente filtrate o a cui viene applicato nuovamente il filtro dei dati, per migliorare in modo significativo il tempo di risposta del report.  
  
 
@@ -59,7 +59,7 @@ La sezione seguente descrive le procedure consigliate generali per la connession
 - Laddove possibile, effettuare il push di misure e colonne calcolate nell'origine. Più vicine sono all'origine, maggiori saranno le prestazioni. 
 - Ottimizzare Provare a determinare i piani di esecuzione delle query, aggiungere indici per le colonne filtrate di frequente e così via. 
 
-### <a name="modelling-guidance"></a>Indicazioni per la creazione dei modelli 
+### <a name="modeling-guidance"></a>Indicazioni per la modellazione 
 - Partire da Power BI Desktop. 
 - Evitare query complesse nell'editor di query. 
 - Non usare filtri data relativi nell'editor di query.  
@@ -110,7 +110,7 @@ Istruzioni:
 
    L'output sarà costituito da un elenco di applicazioni e le corrispondenti porte aperte, ad esempio:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
