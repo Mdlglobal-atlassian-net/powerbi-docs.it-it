@@ -2,20 +2,20 @@
 title: Panoramica di Domande e risposte nel servizio Power BI e in Power BI Destop
 description: Panoramica della documentazione per le query in linguaggio naturale Domande e risposte di Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295469"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167952"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Domande e risposte nel servizio Power BI e in Power BI Desktop
 ## <a name="what-is-qa"></a>Che cosa sono le domande e risposte?
@@ -48,9 +48,7 @@ Oltre a usare Domande e risposte per esplorare i dati, gli autori e i proprietar
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>Come fa Domande e rispondere alle domande?
 ### <a name="which-datasets-does-qa-use"></a>Quali set di dati usa?
-Per poter rispondere a domande specifiche sui dati, Domande e risposte si basa sui nomi delle tabelle, delle colonne e dei campi calcolati presenti nel set di dati sottostante. I nomi usati dall'utente o dal proprietario del set di dati sono quindi fondamentali.
-
-Si supponga ad esempio di avere una tabella di Excel denominata “Vendite”, con le colonne “Prodotto”, “Mese”, “Unità vendute”, “Vendite lorde” e “Profitto”. Si possono porre domande su ognuna di queste entità.  Si può chiedere "mostra *vendite*", "totale *profitto* per *mese*", "ordina *prodotti* per *unità vendute*" e così via.
+Per poter rispondere a domande specifiche sui dati, Domande e risposte si basa sui nomi delle tabelle, delle colonne e dei campi calcolati presenti nel set di dati sottostante. I nomi usati dal proprietario del set di dati sono quindi fondamentali. Se ricevere risposte attraverso Domande e risposte è problematico, rivolgersi al proprietario del set di dati per vedere se è possibile rendere il set più facile da usare.
 
 Domande e risposte è in grado di rispondere alle domande basate sull'organizzazione del set di dati. Come funzionerebbe per i dati in Salesforce? Quando ci si connette al proprio account salesforce.com, Power BI genera automaticamente un dashboard.  Prima di iniziare a porre domande con Domande e risposte, osservare i dati presenti nelle visualizzazioni del dashboard e anche quelli presenti nell'elenco a discesa di Domande e risposte.
 
@@ -81,7 +79,5 @@ Per informazioni sulle parole chiave riconosciute da Domande e risposte, vedere 
 [Abilitare Domande e risposte per i set di dati locali](service-q-and-a-direct-query.md) Se è necessario un gateway per connettersi al set di dati, usare le impostazioni di Power BI per attivare e disattivare Domande e risposte.
 
 [Esercitazione: Usare Domande e risposte con l'esempio sulle vendite al dettaglio nel servizio Power BI](power-bi-visualization-introduction-to-q-and-a.md): usare Domande e risposte in un'esercitazione realistica.
-
-[Usare correttamente i dati con Domande e risposte](service-prepare-data-for-q-and-a.md): questo argomento è rivolto in particolare alle persone che creano set di dati e modelli di dati  set di dati e modelli di dati.
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

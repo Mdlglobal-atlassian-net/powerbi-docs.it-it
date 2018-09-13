@@ -2,21 +2,21 @@
 title: Impostare gli avvisi per i dati nel servizio Power BI
 description: Informazioni su come impostare gli avvisi per ricevere una notifica quando i dati in un dashboard superano i limiti impostati nel servizio Microsoft Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137585"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167929"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Avvisi per i dati nel servizio Power BI
 Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. 
@@ -42,18 +42,18 @@ Questo esempio usa un riquadro di tipo scheda dal dashboard di esempio per l'ana
 1. Iniziare in un dashboard. Da un misuratore, un riquadro del misuratore, dell'indicatore KPI o della scheda del dashboard, selezionare i puntini di sospensione.
    
    ![Riquadro Total stores (Totale negozi)](media/service-set-data-alerts/powerbi-card.png)
-2. Selezionare l'icona a forma di campana ![Icona di avviso](media/service-set-data-alerts/power-bi-bell-icon.png) per aggiungere uno o più avvisi per **Total stores** (Totale negozi).
+2. Selezionare l'icona a forma di campana ![icona di avviso](media/service-set-data-alerts/power-bi-bell-icon.png) o **Gestisci avvisi** per aggiungere uno o più avvisi per **Total stores**.
    
-1. Per iniziare, selezionare **+ Aggiungi regola di avviso**, verificare che il dispositivo di scorrimento sia impostato su **Attivo** e assegnare un titolo all'avviso. I titoli consentono di riconoscere facilmente gli avvisi.
+1. Nel riquadro **Gestisci avvisi** selezionare **+ Aggiungi regola di avviso**.  Verificare che il dispositivo di scorrimento sia impostato su **Attivo** e assegnare un titolo all'avviso. I titoli consentono di riconoscere facilmente gli avvisi.
    
    ![Finestra Gestisci avvisi](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Scorrere verso il basso e immettere i dettagli dell'avviso.  In questo esempio viene creato un avviso che notifica una volta al giorno agli utenti se il numero totale di negozi supera 100. Gli avvisi vengono visualizzati nel centro notifiche e Power BI invia anche un messaggio di posta elettronica.
    
    ![Finestra Gestisci avvisi, impostare la soglia](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Selezionare **Salva**.
+5. Selezionare **Salva e chiudi**.
 
 ## <a name="receiving-alerts"></a>Ricezione di avvisi
-Quando i dati rilevati raggiungono una delle soglie impostate, verranno eseguite alcune operazioni. A seconda dell'opzione selezionata, Power BI controlla innanzitutto se è trascorsa più di un'ora o più di 24 ore dall'invio dell'ultimo avviso. Se i dati superano la soglia, viene visualizzato un avviso.
+Quando i dati rilevati raggiungono una delle soglie impostate, verranno eseguite alcune operazioni. In base all'opzione selezionata, Power BI per prima cosa controlla se è trascorsa più di un'ora o più di 24 ore dall'invio dell'ultimo avviso. Se i dati superano la soglia, viene visualizzato un avviso.
 
 Successivamente, Power BI invia un avviso al centro di notifica e, facoltativamente, alla casella di posta elettronica. Ogni avviso contiene un collegamento diretto ai dati. Selezionare il collegamento per visualizzare il riquadro in cui è possibile esplorare, condividere e leggere altre informazioni.  
 
@@ -104,6 +104,4 @@ Sono disponibili molti modi per gestire gli avvisi: dal riquadro del dashboard, 
 ## <a name="next-steps"></a>Passaggi successivi
 [Creare un flusso di Microsoft Flow che includa un avviso per i dati](service-flow-integration.md)    
 [Impostare gli avvisi per i dati nel dispositivo mobile](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Che cos'è Power BI?](power-bi-overview.md)    
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

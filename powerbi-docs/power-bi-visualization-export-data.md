@@ -2,21 +2,21 @@
 title: Esportare dati da una visualizzazione di Power BI
 description: Esportare dati da una visualizzazione di report e da una visualizzazione di dashboard e visualizzarli in Excel.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 09/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7bf7742726a66fe5933bb180471af4d766457255
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 55fe4a2e8b3121431567309e935e9fa4a15cd31b
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599411"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168044"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -78,7 +78,7 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
    ![](media/power-bi-visualization-export-data/power-bi-export-data8.png)
 
 ## <a name="export-underlying-data-details"></a>Esportare i dettagli dei dati sottostanti
-I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Per comprendere questi dettagli può essere necessario richiedere l'aiuto dell'amministratore o del reparto IT. In Power BI Desktop o nel servizio Power BI nella visualizzazione report, viene visualizzata una *misura* nell'elenco dei campi con un'icona a forma di calcolatrice ![visualizzazione icona](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Le misure vengono create in Power BI Desktop, non nel servizio Power BI.
+I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Per comprendere questi dettagli può essere necessario richiedere l'aiuto dell'amministratore o del reparto IT. Nella visualizzazione report di Power BI Desktop o del servizio Power BI viene visualizzata una *misura* nell'elenco dei campi con un'icona a forma di calcolatrice ![visualizzazione icona](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Le misure vengono create in Power BI Desktop, non nel servizio Power BI.
 
 
 | L'oggetto visivo contiene |                                                                              Cosa viene visualizzato nell'esportazione                                                                              |

@@ -2,20 +2,20 @@
 title: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
 description: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247173"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044418"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
 Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato si avrebbero impiegato ore per creare elementi visivi e formattare un report. L'ansia sale.
@@ -34,7 +34,7 @@ Successivamente, formattare i dati come una tabella. In Excel, nella scheda Home
 ![Dati formattati come tabella](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Caricare il file di Excel in Power BI
-Power BI si connette a molte origini dati, inclusi i file di Excel che risiedono nel computer in uso. Per iniziare, accedere a Power BI. Se non si è ancora iscritti, [è possibile farlo gratuitamente](https://powerbi.com).
+Power BI si connette a molte origini dati, inclusi i file di Excel che risiedono nel computer in uso. Per iniziare, accedere al servizio Power BI. Se non si è ancora iscritti, [è possibile farlo gratuitamente](https://powerbi.com).
 
 Si desidera creare un nuovo dashboard. Aprire **Area di lavoro personale** e selezionare l'icona **+ Crea**.
 
