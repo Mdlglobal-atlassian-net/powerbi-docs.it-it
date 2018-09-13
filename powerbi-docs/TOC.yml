@@ -68,7 +68,7 @@ items:
       - name: Presentazione dell'editor di report
         href: service-the-report-editor-take-a-tour.md
       - name: Visualizzazioni in Power BI
-        href: power-bi-report-visualizations.md
+        href: visuals/power-bi-report-visualizations.md
       - name: Origini dati per Power BI
         href: service-get-data.md
       - name: Attivazione versione di valutazione Pro estesa
@@ -300,7 +300,7 @@ items:
         - name: Creare domande in primo piano per Domande e risposte di Power BI
           href: service-q-and-a-create-featured-questions.md
         - name: Tipi di visualizzazione in Power BI
-          href: power-bi-visualization-types-for-reports-and-q-and-a.md
+          href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
         - name: Utilizzare lo schema linguistico in Power BI Desktop
           href: power-bi-q-and-a-linguistic-schema.md
       - name: Condividere il lavoro
@@ -392,7 +392,7 @@ items:
         - name: Procedure consigliate per creare report veloci e affidabili in Power BI
           href: power-bi-reports-performance.md
         - name: Interagire con le mappe ArcGIS in Power BI
-          href: power-bi-visualizations-arcgis.md
+          href: visuals/power-bi-visualizations-arcgis.md
       - name: Dati da file
         items:
         - name: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
@@ -580,15 +580,15 @@ items:
     - name: Oggetti visivi personalizzati per le organizzazioni in Power BI
       href: power-bi-custom-visuals-organization.md
     - name: Parte 1, Aggiungere visualizzazioni a un report di Power BI
-      href: power-bi-report-add-visualizations-i.md
+      href: visuals/power-bi-report-add-visualizations-i.md
     - name: Parte 2, Aggiungere visualizzazioni a un report di Power BI
-      href: power-bi-report-add-visualizations-ii.md
+      href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Grafico ad aree di base
-      href: power-bi-visualization-basic-area-chart.md
+      href: visuals/power-bi-visualization-basic-area-chart.md
     - name: Grafico combinato in Power BI
-      href: power-bi-visualization-combo-chart.md
+      href: visuals/power-bi-visualization-combo-chart.md
     - name: Personalizzare il riquadro, lo sfondo e la legenda della visualizzazione
-      href: power-bi-visualization-customize-title-background-and-legend.md
+      href: visuals/power-bi-visualization-customize-title-background-and-legend.md
     - name: ArcGIS in Power BI
       href: power-bi-visualization-arcgis.md
     - name: Connettersi ai dati
@@ -664,7 +664,7 @@ items:
     - name: Trasformare i dati ed eseguire il data shaping
       items:
       - name: Usare le forme mappa in Power BI Desktop (anteprima)
-        href: desktop-shape-map.md
+        href: visuals/desktop-shape-map.md
       - name: Combinare file binari
         href: desktop-combine-binaries.md
     - name: Modellare i dati
@@ -710,13 +710,13 @@ items:
       - name: Usare il drill-through
         href: desktop-drillthrough.md
       - name: Usare un filtro e un filtro dei dati per la data relativa
-        href: desktop-slicer-filter-date-range.md
+        href: visuals/desktop-slicer-filter-date-range.md
       - name: Usare il raggruppamento e la creazione di contenitori
         href: desktop-grouping-and-binning.md
       - name: Grafici a nastri
-        href: desktop-ribbon-charts.md
+        href: visuals/desktop-ribbon-charts.md
       - name: Usare il nuovo oggetto visivo matrice
-        href: desktop-matrix-visual.md
+        href: visuals/desktop-matrix-visual.md
       - name: Creare oggetti visivi di Power BI usando R
         href: desktop-r-visuals.md
       - name: Usare oggetti visivi personalizzati basati su R
@@ -732,7 +732,7 @@ items:
       - name: Aggiungere una colonna personalizzata
         href: desktop-add-custom-column.md
       - name: Crea oggetti visivi reattivi in Power BI
-        href: desktop-create-responsive-visuals.md
+        href: visuals/desktop-create-responsive-visuals.md
       - name: Usare le etichette di gerarchia inline in Power BI Desktop (anteprima)
         href: desktop-inline-hierarchy-labels.md
       - name: Usare il filtro dei dati per intervalli numerici
@@ -756,19 +756,19 @@ items:
     - name: Visualizzazioni
       items:
       - name: Procedure consigliate per la visualizzazione
-        href: power-bi-visualization-best-practices.md
+        href: visuals/power-bi-visualization-best-practices.md
       - name: Visualizzare i dati usati per creare l'oggetto visivo
         href: service-reports-show-data.md
       - name: Modificare il tipo di visualizzazione in un report di Power BI
-        href: power-bi-report-change-visualization-type.md
+        href: visuals/power-bi-report-change-visualization-type.md
       - name: Introduzione alla formattazione dei colori e alle proprietà degli assi
-        href: service-getting-started-with-color-formatting-and-axis-properties.md
+        href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Suggerimenti e consigli per la formattazione dei colori in Power BI
-        href: service-tips-and-tricks-for-color-formatting.md
+        href: visuals/service-tips-and-tricks-for-color-formatting.md
       - name: Copiare e incollare una visualizzazione in Power BI
-        href: power-bi-visualization-copy-paste.md
+        href: visuals/power-bi-visualization-copy-paste.md
       - name: Spostare, ridimensionare ed espandere una visualizzazione in un report di Power BI
-        href: power-bi-visualization-move-and-resize.md
+        href: visuals/power-bi-visualization-move-and-resize.md
       - name: Eseguire il drill-down in una visualizzazione in Power BI
         href: power-bi-visualization-drill-down.md
       - name: Collegamenti ipertestuali nelle tabelle
@@ -776,37 +776,37 @@ items:
       - name: Aggiungere un collegamento ipertestuale a una casella di testo in un report di Power BI
         href: service-add-hyperlink-to-text-box.md
       - name: Istogrammi
-        href: service-histograms.md
+        href: visuals/service-histograms.md
       - name: Suggerimenti e consigli per le visualizzazioni mappa di Power BI
-        href: power-bi-map-tips-and-tricks.md
+        href: visuals/power-bi-map-tips-and-tricks.md
       - name: Caselle di testo nei report di Power BI
         href: power-bi-reports-add-text-and-shapes.md
       - name: Personalizzare le proprietà degli assi X e Y
-        href: power-bi-visualization-customize-x-axis-and-y-axis.md
+        href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: Grafici ad anello in Power BI
-        href: power-bi-visualization-doughnut-charts.md
+        href: visuals/power-bi-visualization-doughnut-charts.md
       - name: Mappe colorate (cloroplete) in Power BI
-        href: power-bi-visualization-filled-maps-choropleths.md
+        href: visuals/power-bi-visualization-filled-maps-choropleths.md
       - name: Grafici a imbuto in Power BI
-        href: power-bi-visualization-funnel-charts.md
+        href: visuals/power-bi-visualization-funnel-charts.md
       - name: Oggetti visivi degli indicatori KPI
-        href: power-bi-visualization-kpi.md
+        href: visuals/power-bi-visualization-kpi.md
       - name: Grafici a misuratore radiale in Power BI
-        href: power-bi-visualization-radial-gauge-charts.md
+        href: visuals/power-bi-visualization-radial-gauge-charts.md
       - name: Grafici a dispersione in Power BI
-        href: power-bi-visualization-scatter.md
+        href: visuals/power-bi-visualization-scatter.md
       - name: Filtri dei dati in Power BI
-        href: power-bi-visualization-slicers.md
+        href: visuals/power-bi-visualization-slicers.md
       - name: Utilizzo delle tabelle
-        href: power-bi-visualization-tables.md
+        href: visuals/power-bi-visualization-tables.md
       - name: Mappe ad albero in Power BI
-        href: power-bi-visualization-treemaps.md
+        href: visuals/power-bi-visualization-treemaps.md
       - name: Grafici a cascata in Power BI
-        href: power-bi-visualization-waterfall-charts.md
+        href: visuals/power-bi-visualization-waterfall-charts.md
       - name: Schede (riquadri per numeri elevati) in Power BI
-        href: power-bi-visualization-card.md
+        href: visuals/power-bi-visualization-card.md
       - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
-        href: service-r-visuals.md
+        href: visuals/service-r-visuals.md
     - name: Risoluzione dei problemi
       items:
       - name: Risolvere problemi di importazione dei database di Access e dei fogli di calcolo di Excel in Power BI Desktop e Power Query
@@ -838,93 +838,93 @@ items:
   - name: Panoramica
     items:
     - name: Cosa sono le app per dispositivi mobili?
-      href: mobile-apps-for-mobile-devices.md
+      href: consumer/mobile/mobile-apps-for-mobile-devices.md
   - name: Guide introduttive
     items:
     - name: Esplorare dashboard e report
-      href: mobile-apps-quickstart-view-dashboard-report.md
+      href: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
   - name: Esercitazioni
     items:
     - name: Porre domande nelle app per dispositivi mobili iOS
-      href: tutorial-mobile-apps-ios-qna.md
+      href: consumer/mobile/tutorial-mobile-apps-ios-qna.md
   - name: Concetti
     items:
     - name: Novità delle app per dispositivi mobili
-      href: mobile-whats-new-in-the-mobile-apps.md
+      href: consumer/mobile/mobile-whats-new-in-the-mobile-apps.md
     - name: Ottenere dati concreti con le app per dispositivi mobili
-      href: mobile-apps-data-in-real-world-context.md
+      href: consumer/mobile/mobile-apps-data-in-real-world-context.md
     - name: Visualizzazione dei dati offline nelle app per dispositivi mobili
-      href: mobile-apps-offline-data.md
+      href: consumer/mobile/mobile-apps-offline-data.md
     - name: App Power BI per realtà mista (anteprima)
-      href: mobile-mixed-reality-app.md
+      href: consumer/mobile/mobile-mixed-reality-app.md
   - name: Procedure
     items:
     - name: Tutte le app per dispositivi mobili
       items:
       - name: Visualizzare report locali nelle app per dispositivi mobili
-        href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+        href: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Condividere un dashboard dall'app Power BI per dispositivi mobili
-        href: mobile-share-dashboard-from-the-mobile-apps.md
+        href: consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md
       - name: Interagire con i riquadri nelle app per dispositivi mobili
-        href: mobile-tiles-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Preferiti nelle app per dispositivi mobili
-        href: mobile-apps-favorites.md
+        href: consumer/mobile/mobile-apps-favorites.md
       - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
-        href: mobile-set-data-alerts-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
-        href: mobile-apps-notification-center.md
+        href: consumer/mobile/mobile-apps-notification-center.md
       - name: Creare un collegamento diretto che indirizzi a una posizione specifica
-        href: mobile-apps-deep-link-specific-location.md
+        href: consumer/mobile/mobile-apps-deep-link-specific-location.md
       - name: Filtrare un report in base alla posizione geografica nelle app per dispositivi mobili di Power BI
-        href: mobile-apps-geographic-filtering.md
+        href: consumer/mobile/mobile-apps-geographic-filtering.md
       - name: Scansionare un codice a matrice di Power BI dal telefono
-        href: mobile-apps-qr-code.md
+        href: consumer/mobile/mobile-apps-qr-code.md
       - name: Dashboard di Power BI per dispositivi mobili
-        href: mobile-apps-view-dashboard.md
+        href: consumer/mobile/mobile-apps-view-dashboard.md
       - name: Visualizzare i report ottimizzati per il proprio telefono
-        href: mobile-apps-view-phone-report.md
+        href: consumer/mobile/mobile-apps-view-phone-report.md
       - name: Report nelle app per dispositivi mobili
-        href: mobile-reports-in-the-mobile-apps.md
+        href: consumer/mobile/mobile-reports-in-the-mobile-apps.md
       - name: Uso di OAuth per connettersi a Reporting Services
-        href: mobile-oauth-ssrs.md
+        href: consumer/mobile/mobile-oauth-ssrs.md
       - name: Configurare app per dispositivi mobili con Intune
         href: service-admin-mobile-intune.md
     - name: Dispositivi Android
       items:
       - name: Introduzione all'app Android
-        href: mobile-android-app-get-started.md
+        href: consumer/mobile/mobile-android-app-get-started.md
       - name: Risoluzione dell'errore di certificato SSL aziendale non considerato attendibile
-        href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+        href: consumer/mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
       - name: Risoluzione dell'errore di aggiornamento di Android System WebView
-        href: mobile-android-error-update-android-system-webview.md
+        href: consumer/mobile/mobile-android-error-update-android-system-webview.md
     - name: iOS
       items:
       - name: Introduzione all'app iOS
-        href: mobile-iphone-app-get-started.md
+        href: consumer/mobile/mobile-iphone-app-get-started.md
       - name: Analista virtuale Domande e risposte nelle app per dispositivi mobili iOS
-        href: mobile-apps-ios-qna.md
+        href: consumer/mobile/mobile-apps-ios-qna.md
       - name: App Power BI per Apple Watch
-        href: mobile-apple-watch.md
+        href: consumer/mobile/mobile-apple-watch.md
       - name: Scansionare un codice a barre dall'app nell'iPhone
-        href: mobile-apps-scan-barcode-iphone.md
+        href: consumer/mobile/mobile-apps-scan-barcode-iphone.md
     - name: iOS e Android
       items:
       - name: Annotare e condividere nelle app per dispositivi mobili
-        href: mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        href: consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
     - name: App Power BI per dispositivi Windows 10
       items:
       - name: Introduzione all'app per dispositivi mobili per Windows 10
-        href: mobile-windows-10-phone-app-get-started.md
+        href: consumer/mobile/mobile-windows-10-phone-app-get-started.md
       - name: Aggiungere un dashboard alla schermata Start
-        href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+        href: consumer/mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
       - name: Visualizzare report per dispositivi mobili e indicatori KPI di Reporting Services nell'app per Windows 10
-        href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+        href: consumer/mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
       - name: Visualizzare Power BI in Surface Hub
-        href: mobile-windows-10-app-presentation-mode.md
+        href: consumer/mobile/mobile-windows-10-app-presentation-mode.md
   - name: Risorse
     items:
     - name: Lingue supportate nelle app per dispositivi mobili
-      href: mobile-apps-supported-languages.md
+      href: consumer/mobile/mobile-apps-supported-languages.md
 - name: Power BI per sviluppatori
   items:
   - name: Analisi incorporate
@@ -1352,9 +1352,9 @@ items:
       href: service-admin-power-bi-security.md
     - name: È stata eseguita la transizione di Power BI per Office 365 a Power BI
       href: service-admin-o365portal-retired.md
-ms.openlocfilehash: 7058954c3269da6f3802454c439671989bdcb52e
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: da2d6e5f1eb433434024e67dc314c159ea0ff818
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512203"
+ms.locfileid: "44728296"
