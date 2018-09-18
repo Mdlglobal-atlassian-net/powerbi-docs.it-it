@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241592"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726134"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
-I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](mobile-iphone-app-get-started.md).
+I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](consumer/mobile/mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>I riquadri del dashboard
 ![Dashboard di Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 * Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Ad esempio, se si è aggiunto un grafico a linee da un report e quindi lo si cambia in un grafico a barre, il riquadro del dashboard continua a mostrare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Creare una scheda (riquadro per numeri elevati) per il dashboard](power-bi-visualization-card.md)
+[Creare una scheda (riquadro per numeri elevati) per il dashboard](visuals/power-bi-visualization-card.md)
 
 [Dashboard in Power BI](service-dashboards.md)  
 

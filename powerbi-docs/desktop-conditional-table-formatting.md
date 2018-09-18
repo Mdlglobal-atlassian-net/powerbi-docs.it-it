@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657806"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728089"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formattazione condizionale nelle tabelle 
 La formattazione condizionale nelle tabelle consente di specificare colori delle celle personalizzati in base ai valori della cella o ad altri valori o campi, e anche di usare sfumature. È anche possibile visualizzare i valori delle celle con barre dei dati. 
@@ -133,5 +133,5 @@ Esistono molte altre varianti che è possibile creare, semplicemente usando l'im
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni, vedere l'articolo seguente:  
 
-* [Suggerimenti e consigli per la formattazione dei colori in Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Suggerimenti e consigli per la formattazione dei colori in Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

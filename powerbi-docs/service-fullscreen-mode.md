@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044326"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727583"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Modalità schermo intero nel servizio Power BI
 ## <a name="what-is-full-screen-mode"></a>Che cos'è la modalità schermo intero?
@@ -24,7 +24,7 @@ ms.locfileid: "44044326"
 
 È possibile visualizzare i contenuti di Power BI (dashboard, pagine di report, riquadri e visualizzazioni) senza la distrazione di menu e barre di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV. Le funzionalità disponibili in modalità schermo intero dipendono dal contenuto. 
 
-Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](mobile-windows-10-app-presentation-mode.md). Power BI Desktop non ha una modalità schermo intero per i report o le visualizzazioni, ma include la funzionalità Adatta alla pagina per la [visualizzazione delle relazioni e dei report](desktop-report-view.md) e la [modalità messa a fuoco per gli oggetti visivi dei report](service-focus-mode.md).
+Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop non ha una modalità schermo intero per i report o le visualizzazioni, ma include la funzionalità Adatta alla pagina per la [visualizzazione delle relazioni e dei report](desktop-report-view.md) e la [modalità messa a fuoco per gli oggetti visivi dei report](service-focus-mode.md).
 
  
 

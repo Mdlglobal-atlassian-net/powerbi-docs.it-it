@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136963"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728043"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Che cos'è un report di Power BI?
@@ -27,7 +27,7 @@ Questo report è costituito da tre pagine (o schede). La pagina attualmente visu
 
 Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](service-basic-concepts.md)
 
-I report sono una funzionalità del servizio Power BI e di Power BI Desktop. L'esperienza di utilizzo dei report è quasi identica. Con i dispositivi mobili non è però possibile creare report, ma solo [visualizzarli, condividerli e aggiungere annotazioni](mobile-reports-in-the-mobile-apps.md).
+I report sono una funzionalità del servizio Power BI e di Power BI Desktop. L'esperienza di utilizzo dei report è quasi identica. Con i dispositivi mobili non è però possibile creare report, ma solo [visualizzarli, condividerli e aggiungere annotazioni](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Vantaggi dei report
 I report sono basati su un singolo set di dati. Le visualizzazioni in un report rappresentano ognuna una parte di informazioni. Le visualizzazioni non sono statiche: è infatti possibile aggiungere e rimuovere dati, cambiare i tipi di visualizzazione e applicare filtri e filtri dei dati quando si analizzano i dati per individuare informazioni dettagliate e cercare risposte. Analogamente a un dashboard, ma in misura maggiore, un report è un elemento altamente interattivo e personalizzabile in cui le visualizzazioni vengono aggiornate quando cambiano i dati sottostanti.

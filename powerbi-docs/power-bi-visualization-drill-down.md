@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dbe98d69ce800ef57e6def59003dce56b7be56cd
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 57e1285537854454504b0d2952068e5d9dc4f378
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600921"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726709"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modalità di espansione in una visualizzazione in Power BI
 
@@ -211,7 +211,7 @@ Verrà visualizzato il livello più basso della gerarchia, che mostra i risultat
 Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti per ogni report. La tabella seguente illustra i risultati di **Mostra dati** in seguito al drill-down in un report per un singolo mese o per tutti i territori. Quando si esegue il drill-down, è possibile osservare che il report singolo è più specifico e che il report relativo a tutti i territori include più dati.
 
 
-| Modalità di espansione|Territorio|Città|Codice postale|Nome|
+| Modalità di espansione|Territory|City|Codice postale|Nome|
 | ---|:---:|:---:|:---:|---|
 |Singola|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-one-territory-city-postal-name.png)|
 |Tutti|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-territory.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal.png)|![](media/power-bi-visualization-drill-down/power-bi-hierarchical-all-territory-city-postal-name.png)|
@@ -223,7 +223,7 @@ Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti pe
   ![](media/power-bi-visualization-drill-down/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
+[Visualizzazioni nei report di Power BI](visuals/power-bi-report-visualizations.md)
 
 [Report di Power BI](service-reports.md)
 

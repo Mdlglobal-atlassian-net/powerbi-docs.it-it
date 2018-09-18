@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: c6c83c51779621b2b722ce0c21cbb00eecde1fb9
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658174"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558448"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -89,7 +89,7 @@ Quando si aggiunge un'origine dati al gateway, è necessario fornire le credenzi
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
-* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+* [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) non è attualmente supportato
 * L'[accesso online](https://products.office.com/en-us/access) non è attualmente supportato
 

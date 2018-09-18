@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599231"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727942"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Esercitazione: Come usare Domande e risposte per creare visualizzazioni e report
-Nella [panoramica di Domande e risposte](power-bi-q-and-a.md) è stata illustrata la funzionalità Domande e risposte di Power BI e la differenza tra *consumer* (utenti con cui sono stati condivisi dashboard e report) e *autori* (proprietari dei report e dei set di dati sottostanti). La prima parte di questa esercitazione è destinata principalmente agli utenti (consumer) che accedono ai dashboard tramite il servizio Power BI. La seconda parte è invece destinata a coloro che creano i report tramite il servizio Power BI o Power BI Desktop. Gli argomenti relativi a [Domande e risposte e Power BI per dispositivi mobili](mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/qanda.md) vengono illustrati in articoli separati.
+Nella [panoramica di Domande e risposte](power-bi-q-and-a.md) è stata illustrata la funzionalità Domande e risposte di Power BI e la differenza tra *consumer* (utenti con cui sono stati condivisi dashboard e report) e *autori* (proprietari dei report e dei set di dati sottostanti). La prima parte di questa esercitazione è destinata principalmente agli utenti (consumer) che accedono ai dashboard tramite il servizio Power BI. La seconda parte è invece destinata a coloro che creano i report tramite il servizio Power BI o Power BI Desktop. Gli argomenti relativi a [Domande e risposte e Power BI per dispositivi mobili](consumer/mobile/mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/qanda.md) vengono illustrati in articoli separati.
 
 La funzionalità Domande e risposte è interattiva e persino divertente e non è raro che una domanda ne faccia sorgere molte altre via via che le visualizzazioni rivelano spunti interessanti. Il video seguente mostra come usare Domande e risposte per creare visualizzazioni, analizzare questi oggetti visivi e aggiungerli ai dashboard.
 
@@ -44,7 +44,7 @@ La risposta alla domanda viene mostrata come visualizzazione interattiva e si ag
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. Mentre si digita una domanda, Domande e risposte seleziona la [visualizzazione](power-bi-visualization-types-for-reports-and-q-and-a.md) più adatta per la risposta. La visualizzazione cambia dinamicamente via via che si modifica la domanda.
+3. Mentre si digita una domanda, Domande e risposte seleziona la [visualizzazione](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) più adatta per la risposta. La visualizzazione cambia dinamicamente via via che si modifica la domanda.
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ Per usare Domande e risposte nei report, è necessario disporre delle autorizzaz
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. Mentre si digita una domanda, Domande e risposte seleziona la [visualizzazione](power-bi-visualization-types-for-reports-and-q-and-a.md) più adatta per la risposta. La visualizzazione cambia dinamicamente via via che si modifica la domanda.
+4. Mentre si digita una domanda, Domande e risposte seleziona la [visualizzazione](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) più adatta per la risposta. La visualizzazione cambia dinamicamente via via che si modifica la domanda.
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 66222eb773d70afcfcf361fba49118363a670e7f
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 8bbfafcecb6876ea063bb6751ca31c25697dc185
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329354"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725858"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usare il drill-through in Power BI Desktop
 Con il **drill-through** in **Power BI Desktop**, è possibile creare una pagina nel report incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Con la pagina del report evidenziata, è possibile fare clic con il pulsante destro del mouse su un punto dati in altre pagine di report ed eseguire il drill-through nella pagina evidenziata per ottenere dettagli che vengono filtrati in base a tale contesto.
@@ -79,5 +79,5 @@ Non sono necessarie altre operazioni per l'uso del **drill-through** nei report,
 
 Potrebbero essere interessanti anche gli articoli seguenti:
 
-* [Uso dei filtri dei dati in Power BI Desktop](desktop-slicers.md)
+* [Uso dei filtri dei dati in Power BI Desktop](visuals/desktop-slicers.md)
 

@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: bb2cd0e26caaa7639020d51a0827390932e78b06
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249710"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726056"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un riquadro in Power BI da usare nelle app per dispositivi mobili
 I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI &#151; senza dover effettuare nessuno spostamento o ricerca.
 
 È possibile creare un codice a matrice nel servizio Power BI per i riquadri in un qualsiasi dashboard, persino in quelli che non è possibile modificare. Inserire quindi il codice a matrice in un percorso chiave. Si potrebbe ad esempio, incollarlo in un messaggio di posta elettronica, o stamparlo e incollarlo in un percorso specifico. 
 
-I colleghi con cui si è condiviso il dashboard possono [scansionare il codice a matrice per l'accesso al riquadro, direttamente dal proprio dispositivo mobile](mobile-apps-qr-code.md). Per fare questo possono usare lo scanner del codice a matrice che si trova nell'app Power BI o qualsiasi altro scanner di codici a matrice installato nel proprio dispositivo.
+I colleghi con cui si è condiviso il dashboard possono [scansionare il codice a matrice per l'accesso al riquadro, direttamente dal proprio dispositivo mobile](consumer/mobile/mobile-apps-qr-code.md). Per fare questo possono usare lo scanner del codice a matrice che si trova nell'app Power BI o qualsiasi altro scanner di codici a matrice installato nel proprio dispositivo.
 
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Creare un codice a matrice per un riquadro
@@ -52,8 +52,8 @@ Power BI genera il codice a matrice come file JPG, pronto per la stampa.
 3. Tagliare il codice a matrice e associarlo a una posizione rilevante per il riquadro. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Connettersi ai dati di Power BI dal mondo reale](mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
-* [Scansionare un codice a matrice di Power BI dal dispositivo mobile](mobile-apps-qr-code.md)
+* [Connettersi ai dati di Power BI dal mondo reale](consumer/mobile/mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
+* [Scansionare un codice a matrice di Power BI dal dispositivo mobile](consumer/mobile/mobile-apps-qr-code.md)
 * [Creare un codice a matrice per un report](service-create-qr-code-for-report.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

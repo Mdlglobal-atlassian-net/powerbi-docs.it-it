@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ef05531ee6080593d232e48a2118a9be7e8cbd19
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34299471"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726640"
 ---
 # <a name="the-report-editortake-a-tour"></a>Presentazione dell'editor di report
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Modifica di report nel servizio Power BI e in Power BI Desktop
@@ -65,7 +65,7 @@ Per rimuovere un campo dalla visualizzazione, selezionare la **X** a destra del 
 
 ![Rimuovere StoreType dalla legenda](media/service-the-report-editor-take-a-tour/deletefield.png)
 
-Per altre informazioni, vedere [Aggiungere visualizzazioni a un report di Power BI](power-bi-report-add-visualizations-i.md).
+Per altre informazioni, vedere [Aggiungere visualizzazioni a un report di Power BI](visuals/power-bi-report-add-visualizations-i.md).
 
 ### <a name="format-your-visuals"></a>Formattare gli oggetti visivi
 Selezionare l'icona del rullo per visualizzare il riquadro Formato. L'opzione disponibile dipende dal tipo di visualizzazione selezionato.
@@ -74,9 +74,9 @@ Selezionare l'icona del rullo per visualizzare il riquadro Formato. L'opzione di
 
 Le opzioni di formattazione sono praticamente infinite.  Per informazioni, esplorarle autonomamente o vedere gli articoli seguenti:
 
-* [Personalizzazione di visualizzazione, sfondo e legenda della visualizzazione](power-bi-visualization-customize-title-background-and-legend.md)
-* [Formattazione dei colori](service-getting-started-with-color-formatting-and-axis-properties.md)
-* [Personalizzazione delle proprietà degli assi X e Y](power-bi-visualization-customize-x-axis-and-y-axis.md)
+* [Personalizzazione di visualizzazione, sfondo e legenda della visualizzazione](visuals/power-bi-visualization-customize-title-background-and-legend.md)
+* [Formattazione dei colori](visuals/service-getting-started-with-color-formatting-and-axis-properties.md)
+* [Personalizzazione delle proprietà degli assi X e Y](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Aggiungere il riquadro Analisi alle visualizzazioni
 Per visualizzare il riquadro Analisi, selezionare l'icona della lente di ingrandimento. L'opzione disponibile dipende dal tipo di visualizzazione selezionato.
@@ -126,7 +126,7 @@ Nell'area di disegno report viene visualizzato il lavoro. Quando si usano i riqu
 ## <a name="next-steps"></a>Passaggi successivi:
 [Creare un report](service-report-create-new.md)
 
-Altre informazioni sui report nel [servizio Power BI](service-reports.md), in [Power BI Desktop](desktop-report-view.md) e in [Power BI per dispositivi mobili](mobile-apps-view-phone-report.md).
+Altre informazioni sui report nel [servizio Power BI](service-reports.md), in [Power BI Desktop](desktop-report-view.md) e in [Power BI per dispositivi mobili](consumer/mobile/mobile-apps-view-phone-report.md).
 
 [Power BI - Concetti di base](service-basic-concepts.md)
 

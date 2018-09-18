@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: efddb15572705d6d1c7cb215250360e94a8546cb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600357"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726870"
 ---
 # <a name="getting-a-custom-visual-certified"></a>*Certificare* un oggetto visivo personalizzato
 ## <a name="what-is-meant-by-certified"></a>Cosa si intende per *certificato*?
@@ -142,7 +142,7 @@ Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'elenco C
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione agli strumenti di sviluppo per oggetti visivi personalizzati (Anteprima)](service-custom-visuals-getting-started-with-developer-tools.md)      
 [Playlist degli oggetti visivi personalizzati di Microsoft su YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Visualizzazioni in Power BI](power-bi-report-visualizations.md)  
+[Visualizzazioni in Power BI](visuals/power-bi-report-visualizations.md)  
 [Visualizzazioni personalizzate in Power BI](power-bi-custom-visuals.md)  
 [Pubblicare oggetti visivi personalizzati in Microsoft AppSource](developer/office-store.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

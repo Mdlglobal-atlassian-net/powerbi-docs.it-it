@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: c47722fda28fc45289858f082a0838f583b53dbb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 598b3e75aa134a5b5e2ee2a8c01316133b60fdac
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34296783"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727261"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -40,7 +40,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Informazioni rapide | No | Sì | [Generare automaticamente informazioni dettagliate sui dati con Power BI](../service-insights.md) 
 | Analizza in Excel | No | Sì | [Analizza in Excel](../service-analyze-in-excel.md) 
 | Report impaginati | Sì | No | I report impaginati non sono disponibili nel servizio Power BI, ma è possibile [aggiungere elementi dei report impaginati ai dashboard di Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
-| App Power BI per dispositivi mobili | Sì | Sì | [Panoramica sulle app Power BI per dispositivi mobili](../mobile-apps-for-mobile-devices.md) 
+| App Power BI per dispositivi mobili | Sì | Sì | [Panoramica sulle app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Mappe ArcGIS | No | Sì | [Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop](../power-bi-visualization-arcgis.md)
 | Sottoscrizioni tramite posta elettronica per i report di Power BI | No | Sì | [Sottoscrivere un report o un dashboard](../service-report-subscribe.md) nel servizio Power BI 
 | Sottoscrizioni tramite posta elettronica per report impaginati | Sì | No | [Recapito tramite posta elettronica in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
@@ -48,7 +48,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Sicurezza a livello di riga | Solo tramite origine dati in modalità DirectQuery | Disponibile in modalità DirectQuery (origine dati) e importazione | [Sicurezza a livello di riga](../service-admin-rls.md) con Power BI 
 | Modalità schermo intero | No | Sì | [Modalità schermo intero](../service-fullscreen-mode.md) nel servizio Power BI 
 | Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro per le app](../service-collaborate-power-bi-workspace.md) con Office 365 
-| Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../service-r-visuals.md) nel servizio Power BI  
+| Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../visuals/service-r-visuals.md) nel servizio Power BI  
 | Funzionalità di anteprima | No | Sì | [Acconsentire esplicitamente alle funzionalità di anteprima del servizio Power BI](../service-preview-features.md) 
 | Oggetti visivi personalizzati | Sì | Sì | [Oggetti visivi personalizzati in Power BI](../power-bi-custom-visuals.md) 
 | Power BI Desktop | Versione ottimizzata per Server di report, disponibile per il download con Server di report | Versione ottimizzata per il servizio Power BI, disponibile da Windows Store | [Power BI Desktop per il server di report](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop per il servizio Power BI](http://aka.ms/pbidesktopstore)

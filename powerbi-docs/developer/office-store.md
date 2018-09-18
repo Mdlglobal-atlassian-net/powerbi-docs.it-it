@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 2147a5ccb1df8bd107d662559c97400a24dd490e
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: c407b967ce4a8c1ee31b9a750f2e281ff0a8caa7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092116"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558494"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
 Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo.
@@ -32,7 +32,7 @@ Dopo aver terminato le operazioni di codifica e test dell'oggetto visivo persona
 | --- | --- | --- |
 | Pacchetto PBIVIZ contenente tutti i metadati richiesti |Sì |Nome oggetto visivo<br>Nome visualizzato<br>GUID<br>Versione<br>Descrizione<br>Nome e indirizzo di posta elettronica dell'autore |
 | File di report PBIX di esempio |Sì |Per presentare l'oggetto visivo, aiutare gli utenti ad acquisire familiarità con lo stesso. Sottolineare il valore che l'oggetto visivo conferisce all'utente e fornire esempi di utilizzo, opzioni di formattazione, ecc. È anche possibile aggiungere una pagina *"suggerimenti"* alla fine con alcuni suggerimenti e trucchi, cose da evitare e simili.<br>Il file di report di esempio con estensione pbix deve funzionare offline, senza alcuna connessione esterna |
-| Icona |Sì |È necessario includere il logo dell'oggetto visivo personalizzato che verrà visualizzato nella pagina principale dello store. Il formato può essere PNG, JPG, JPEG o GIF. Deve essere esattamente 300 px (larghezza) per 300 px (altezza). **Importante** Leggere attentamente questa [breve guida](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) prima di inviare l'icona. |
+| Icona |Sì |È necessario includere il logo dell'oggetto visivo personalizzato che verrà visualizzato nella pagina principale dello store. Il formato può essere PNG, JPG, JPEG o GIF. Deve essere esattamente 300 px (larghezza) per 300 px (altezza). **Importante** Leggere attentamente questa [breve guida](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) prima di inviare l'icona. |
 | Schermate |Sì |È necessario fornire almeno una schermata. Il formato può essere PNG, JPG, JPEG o GIF. Deve essere esattamente 1366 px (larghezza) per 768 px (altezza). Le dimensioni del file non possono superare 1024 KB. *Per un migliore utilizzo, aggiungere fumetti di testo per descrivere la proposta di valore delle caratteristiche basilari in ogni schermata.* |
 | Collegamento per il download di supporto |Sì |Fornire l'URL per supportare i clienti che hanno problemi con l'oggetto visivo. Il formato dell'URL deve includere https:// o http://. |
 | Collegamento al documento sulla privacy |Sì |Fornire un collegamento all'informativa sulla privacy per i clienti che usano l'oggetto visivo. Il formato del collegamento deve includere https:// o http://. |
@@ -130,7 +130,7 @@ Dopo aver creato l'oggetto visivo, è possibile ottenere facoltativamente la cer
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md)  
-[Visualizzazioni in Power BI](../power-bi-report-visualizations.md)  
+[Visualizzazioni in Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizzazioni personalizzate in Power BI](../power-bi-custom-visuals.md)  
 [*Certificare* un oggetto visivo personalizzato](../power-bi-custom-visuals-certified.md)
 

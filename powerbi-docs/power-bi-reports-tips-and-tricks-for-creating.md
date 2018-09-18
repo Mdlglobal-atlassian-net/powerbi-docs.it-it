@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254879"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726801"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Suggerimenti e consigli per creare report in Power BI Desktop e nel servizio Power BI
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop, nel servizio Power BI *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato.
@@ -167,7 +167,7 @@ DAX è il linguaggio delle formule di calcolo in Power BI Desktop,  ottimizzato 
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Servizio Power BI *e* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Leggere il white paper: [Principi della progettazione di report di Power BI](power-bi-visualization-best-practices.md)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Leggere il white paper: [Principi della progettazione di report di Power BI](visuals/power-bi-visualization-best-practices.md)
 Questo documento illustra le procedure consigliate per la progettazione di report in Power BI. Partendo dalla pianificazione, vengono presentati i principi di progettazione applicabili ai report, così come alle pagine e ai singoli oggetti visivi che compongono un report. Molte di queste procedure consigliate sono valide anche per la progettazione di dashboard.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leggere e/o guardare "How to design visually stunning reports (and dashboards) in Power BI" (Come progettare report e dashboard di grande impatto visivo in Power BI)
@@ -209,7 +209,7 @@ Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visua
 * Prestare attenzione all’[ordinamento dei grafici](power-bi-report-change-sort.md).  Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura.  Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
 * I grafici a torta sono ideali in presenza di meno di otto categorie. Data l'impossibilità di confrontare i valori affiancati, il confronto tra valori è più difficile in un grafico a torta rispetto ai grafici a barre o agli istogrammi. I grafici a torta possono essere una buona soluzione per visualizzare le relazioni tra una parte e l'insieme anziché tra parti diverse. I grafici a misuratore sono ottimi per visualizzare lo stato corrente nell'ambito di un obiettivo.    
 
-Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Approfondimento sulle procedure consigliate per la progettazione dei dashboard
 Ecco alcune pubblicazioni che possono essere utili:

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15ca7461c1661b83e1fbb08b66e7d1843bdb1c9f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a86e9f93023e317ba665ec04bb3a67ebfbdfe8a1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298942"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727445"
 ---
 # <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Visualizzare i dati usati per creare la visualizzazione
 ## <a name="show-data"></a>Mostra i dati
@@ -48,7 +48,7 @@ Una visualizzazione di Power BI viene costruita sulla base dei dati dei set di d
 
 ### <a name="next-steps"></a>Passaggi successivi
 [Esportare dati da visualizzazioni di Power BI](power-bi-visualization-export-data.md)    
-[Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)    
+[Visualizzazioni nei report di Power BI](visuals/power-bi-report-visualizations.md)    
 [Report di Power BI](service-reports.md)    
 [Power BI - Concetti di base](service-basic-concepts.md)    
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

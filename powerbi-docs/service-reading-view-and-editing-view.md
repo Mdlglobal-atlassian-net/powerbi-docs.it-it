@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251668"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726755"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI (ma non in Power BI Desktop) sono disponibili due modalità per visualizzare e interagire con i report: la Visualizzazione di lettura e la Visualizzazione di modifica. La visualizzazione di lettura è disponibile per tutti gli utenti ed è stata progettata in modo specifico per i *consumer* di dati, mentre la visualizzazione di modifica è disponibile solo per gli *autori* e i proprietari dei report.
@@ -59,13 +59,13 @@ Questo grafico non elenca tutte le funzionalità dei report disponibili nel serv
 | [Duplicare una pagina di un report](power-bi-report-copy-paste-page.md) | No  | Sì |
 | [Eliminare una pagina di un report](service-delete.md) | no | sì |
 |**Uso delle visualizzazioni dei report**|
-| [Aggiungere visualizzazioni a un report](power-bi-report-add-visualizations-i.md) | No  | Sì |
+| [Aggiungere visualizzazioni a un report](visuals/power-bi-report-add-visualizations-i.md) | No  | Sì |
 | [Aggiungere caselle di testo e forme a un report](power-bi-reports-add-text-and-shapes.md) | No  | Sì |
 | [Usare il riquadro Formattazione del report](service-the-report-editor-take-a-tour.md) | No | Sì |
 | [Configurare le interazioni con gli oggetti visivi](service-reports-visual-interactions.md) | No  | Sì |
 | [Mostrare i dati usati per creare la visualizzazione](service-reports-show-data.md) | No  | Sì |
 | [Configurare l'esplorazione](power-bi-visualization-drill-down.md) | No  | Sì |
-| [Modificare la visualizzazione in uso](power-bi-report-change-visualization-type.md) | No | Sì|
+| [Modificare la visualizzazione in uso](visuals/power-bi-report-change-visualization-type.md) | No | Sì|
 | [Eliminare una visualizzazione, una casella di testo o una forma](service-delete.md)| No | Sì |
 
 

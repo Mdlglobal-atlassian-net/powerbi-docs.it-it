@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256410"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728181"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Con Power BI e Power BI Desktop, è possibile connettersi in modo sicuro alle or
 Il server di report di Power BI è una soluzione da distribuire in locale per creare, pubblicare e gestire i report, per poi recapitarli a utenti diversi in modi diversi, ad esempio in un Web browser, in un dispositivo mobile o come messaggio di posta elettronica nella posta in arrivo. Altre informazioni sul [server di report Power BI](report-server/get-started.md).
 
 ### <a name="power-bi-mobile-apps"></a>App Power BI per dispositivi mobili
-È anche possibile [visualizzare report di Power BI locali, report per dispositivi mobili di Reporting Services e indicatori KPI usando le app Power BI per dispositivi mobili](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+È anche possibile [visualizzare report di Power BI locali, report per dispositivi mobili di Reporting Services e indicatori KPI usando le app Power BI per dispositivi mobili](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI supporta i dispositivi mobili?
 Sì. Power BI offre app native per telefoni e tablet Android, dispositivi iOS e dispositivi Windows 10. Scaricare una delle [app Power BI per dispositivi mobili](https://powerbi.microsoft.com/mobile) dal rispettivo store:  

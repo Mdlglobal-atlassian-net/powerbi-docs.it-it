@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 368f2692933b37d833c864fb9fea6a22423bbb77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481832"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726387"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 Informazioni su come installare Power BI Desktop ottimizzato per il server di report di Power BI.
@@ -78,7 +78,7 @@ I report del server di report di Power BI non supportano:
 * Funzionalità in anteprima di Power BI Desktop
 
 ### <a name="in-the-power-bi-mobile-apps"></a>Nelle app Power BI per dispositivi mobili
-I report del server di report di Power BI supportano tutte le funzionalità di base nelle [app Power BI per dispositivi mobili](../mobile-apps-for-mobile-devices.md), tra cui:
+I report del server di report di Power BI supportano tutte le funzionalità di base nelle [app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md), tra cui:
 
 * [Layout del report per il telefono](../desktop-create-phone-report.md): è possibile ottimizzare un report per le app Power BI per dispositivi mobili. Sul telefono cellulare i report ottimizzati hanno un layout e un'icona speciale, ![Icona del layout del report per il telefono](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png).
   

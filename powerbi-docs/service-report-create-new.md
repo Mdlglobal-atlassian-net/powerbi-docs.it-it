@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599529"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726410"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creare un nuovo report del servizio Power BI importando un set di dati
 Dopo aver letto [Report in Power BI](service-reports.md) si supponga di voler creare un report personalizzato. È possibile creare un report in molti modi, ma in questo articolo verrà spiegato come crearne uno molto semplice da un set di dati di Excel tramite il servizio Power BI. Una volta apprese le nozioni di base relative alla creazione di un report, è possibile consultare gli argomenti più avanzati elencati nella sezione **Passaggi successivi** alla fine di questo articolo.  
@@ -53,7 +53,7 @@ In questo metodo di creazione del report si inizia con un set di dati e un'area 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Aggiungere un misuratore radiale al report
-Dopo aver importato il set di dati, è possibile iniziare a rispondere ad alcune domande.  Il responsabile marketing vuole sapere se gli obiettivi di vendita annuali verranno soddisfatti. Un misuratore costituisce una [valida opzione di visualizzazione](power-bi-report-visualizations.md) per visualizzare questo tipo di informazioni.
+Dopo aver importato il set di dati, è possibile iniziare a rispondere ad alcune domande.  Il responsabile marketing vuole sapere se gli obiettivi di vendita annuali verranno soddisfatti. Un misuratore costituisce una [valida opzione di visualizzazione](visuals/power-bi-report-visualizations.md) per visualizzare questo tipo di informazioni.
 
 1. Nel riquadro Campi selezionare **Sales** > **This Year Sales** > **Value**.
    

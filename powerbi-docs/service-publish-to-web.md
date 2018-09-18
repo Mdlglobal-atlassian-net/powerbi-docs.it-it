@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380337"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558540"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -61,7 +61,7 @@ La procedura seguente illustra come usare la funzionalità **Pubblica sul Web**.
 
 Quando si incorpora contenuto in un post di blog, è in genere necessario adattarlo alle dimensioni specifiche dello schermo.  È anche possibile regolare l'altezza e la larghezza nel tag iFrame in base alla necessità, ma potrebbe essere anche necessario assicurarsi che il report si adatti all'area specifica di iFrame, quindi occorrerà configurare una modalità di visualizzazione appropriata durante la modifica del report.
 
-La tabella seguente include indicazioni sulla modalità di visualizzazione e sul rispettivo aspetto in caso di incorporamento.
+La tabella seguente include indicazioni sulla modalità di visualizzazione e sul rispettivo aspetto in caso di incorporamento. 
 
 | Modalità di visualizzazione | Aspetto dopo l'incorporamento |
 | --- | --- |

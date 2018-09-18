@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241569"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558577"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Risoluzione dei problemi dell'applicazione incorporata
 
@@ -105,13 +105,13 @@ Il back-end dell'applicazione potrebbe dover aggiornare il token di autenticazio
 
 Se si usa Power BI Embedded con l'autenticazione diretta di Azure AD e si ricevono messaggi in fase di accesso, ad esempio ***eerror:unauthorized_client,error_description:AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con una password o un account non corretto***, significa che l'autenticazione diretta è stata disattivata a partire dal 14 giugno 2018 per impostazione predefinita.
 
-Esiste un modo per riattivare questa funzionalità usando [criteri di Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) con l'organizzazione o un'[entità servizio](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object) come ambito.
+Esiste un modo per riattivare questa funzionalità usando [criteri di Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) con l'organizzazione o un'[entità servizio](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object) come ambito.
 
 È consigliabile abilitare questa funzionalità solo per singole app.
 
 Per creare questo criterio, è necessario essere un **amministratore globale** per la directory in cui si crea e si assegna il criterio. Ecco un esempio di script per la creazione del criterio e la sua assegnazione alla stored procedure per questa applicazione:
 
-1. Installare il [modulo PowerShell dell'anteprima di Azure AD](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Installare il [modulo PowerShell dell'anteprima di Azure AD](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Eseguire i seguenti comandi di PowerShell riga per riga assicurandosi che la variabile $sp non abbia più di 1 applicazione come risultato.
 
@@ -274,7 +274,7 @@ La causa è che l'URL di reindirizzamento specificato per il server Web dell'app
 
 Se si vuole modificare l'applicazione registrata, vedere come a modificare l'[applicazione registrata con AAD ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), in modo che l'applicazione possa consentire l'accesso alle API Web.
 
-Se vuole modificare il profilo utente o i dati di Power BI, vedere come modificare i [dati di Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Se vuole modificare il profilo utente o i dati di Power BI, vedere come modificare i [dati di Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 Per altre informazioni, vedere [Power BI Embedded FAQ](embedded-faq.md) (Domande frequenti su Power BI Embedded).
 

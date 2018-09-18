@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623954"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726663"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Come funziona la collaborazione e la condivisione in Power BI?
 
@@ -83,9 +83,9 @@ Nelle app Power BI per dispositivi mobili per i dispositivi iOS e Android, è po
 
 Si condivide uno snapshot del riquadro, del report o dell'oggetto visivo e i destinatari lo vedono esattamente com'era quando è stato inviato il messaggio di posta elettronica. Il messaggio di posta elettronica contiene anche un collegamento al dashboard o al report. Se i destinatari hanno una licenza Power BI Pro o il contenuto ha una [capacità Premium](service-premium.md) e si è già condiviso l'oggetto, allora potranno aprirlo. È possibile inviare snapshot dei riquadri a chiunque, non solo ai colleghi nello stesso dominio di posta elettronica.
 
-Altre informazioni su come [aggiungere annotazioni e condividere riquadri, report e oggetti visivi](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) dalle app per dispositivi mobili iOS e Android.
+Altre informazioni su come [aggiungere annotazioni e condividere riquadri, report e oggetti visivi](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) dalle app per dispositivi mobili iOS e Android.
 
-È anche possibile [condividere uno snapshot di un riquadro](mobile-windows-10-phone-app-get-started.md) dall'app Power BI per i dispositivi Windows 10.
+È anche possibile [condividere uno snapshot di un riquadro](consumer/mobile/mobile-windows-10-phone-app-get-started.md) dall'app Power BI per i dispositivi Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Stampare o salvare in formato PDF o altri file statici
 È possibile stampare o salvare in formato PDF o un altro formato di file statici un dashboard intero, un riquadro del dashboard, una pagina del report o una visualizzazione dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta. Altre informazioni su [stampa o salvataggio come file statico](service-print.md).

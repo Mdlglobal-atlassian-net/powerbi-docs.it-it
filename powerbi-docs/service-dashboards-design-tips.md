@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944975"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726049"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in modo che il dashboard non sia solo di gradevole da vedere, ma anche funzionale. Questo, in generale, significa mettere in risalto le informazioni più importanti in modo pulito e ordinato.
@@ -23,7 +23,7 @@ Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in 
 Ecco alcuni suggerimenti.
 
 > [!TIP]
-> Molti dei principi di progettazione validi per i report si applicano anche ai dashboard.  Leggere il white paper [Procedure consigliate per la progettazione di report e oggetti visivi](power-bi-visualization-best-practices.md).
+> Molti dei principi di progettazione validi per i report si applicano anche ai dashboard.  Leggere il white paper [Procedure consigliate per la progettazione di report e oggetti visivi](visuals/power-bi-visualization-best-practices.md).
 >
 >
 
@@ -51,7 +51,7 @@ Se il testo e le visualizzazioni nel dashboard hanno tutti la stessa dimensione,
 
 Fornire contesto.  
 
-Leggere l'argomento relativo alla [creazione di un riquadro con solo un numero](power-bi-visualization-card.md).
+Leggere l'argomento relativo alla [creazione di un riquadro con solo un numero](visuals/power-bi-visualization-card.md).
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>Posizionare in alto le informazioni più importanti
 La maggior parte delle persone legge dall'alto verso il basso, quindi posizionare il livello di massimo dettaglio in alto e aggiungere dettagli procedendo nella direzione seguita dai destinatari per la lettura (da sinistra a destra o da destra a sinistra).
@@ -68,7 +68,7 @@ Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visua
 * Prestare attenzione all’[ordinamento dei grafici](power-bi-report-change-sort.md).  Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura.  Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
 * I grafici a torta sono ideali in presenza di meno di otto categorie. Data l'impossibilità di confrontare i valori affiancati, il confronto tra valori è più difficile in un grafico a torta rispetto ai grafici a barre o agli istogrammi. I grafici a torta possono essere una buona soluzione per visualizzare le relazioni tra una parte e l'insieme anziché tra parti diverse. I grafici a misuratore sono ottimi per visualizzare lo stato corrente nell'ambito di un obiettivo.
 
-Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>Approfondimento sulle best practice di progettazione dei dashboard
 Per progettare dashboard di altissimo livello, è utile apprendere i principi basilari della Gestalt sulla percezione visiva e sulla comunicazione immediata di informazioni fruibili in contesto. Sono disponibili moltissime risorse a questo proposito, sia in pubblicazioni dedicate che nei nostri blog. Ecco alcune pubblicazioni che possono essere utili:

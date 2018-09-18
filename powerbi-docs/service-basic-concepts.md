@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c7688134d7c006c38626f52df26fa5a87ac5c8d7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280617"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728158"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Concetti di base per il servizio Power BI
 
@@ -111,10 +111,10 @@ Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite 
 
 ### <a name="dig-deeper"></a>Approfondimento
 * [Report nel servizio Power BI e in Power BI Desktop](service-reports.md)
-* [Report nelle app Power BI per dispositivi mobili](mobile-reports-in-the-mobile-apps.md)
+* [Report nelle app Power BI per dispositivi mobili](consumer/mobile/mobile-reports-in-the-mobile-apps.md)
 
 ## <a name="dashboards"></a>Dashboard
-Per *dashboard* si intende un elemento che viene creato nel **servizio Power BI** oppure creato da un collega nel **servizio Power BI** e condiviso con l'utente. Si tratta di una singola area di disegno che può contenere più riquadri e widget oppure non contenerne affatto. In ogni riquadro aggiunto da un report o da [Domande e risposte](power-bi-q-and-a.md) compare una singola [visualizzazione](power-bi-report-visualizations.md) che è stata creata da un set di dati e aggiunta al dashboard. È anche possibile aggiungere a un dashboard intere pagine del report come un singolo riquadro. Per aggiungere riquadri al dashboard esistono molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](service-dashboard-tiles.md). 
+Per *dashboard* si intende un elemento che viene creato nel **servizio Power BI** oppure creato da un collega nel **servizio Power BI** e condiviso con l'utente. Si tratta di una singola area di disegno che può contenere più riquadri e widget oppure non contenerne affatto. In ogni riquadro aggiunto da un report o da [Domande e risposte](power-bi-q-and-a.md) compare una singola [visualizzazione](visuals/power-bi-report-visualizations.md) che è stata creata da un set di dati e aggiunta al dashboard. È anche possibile aggiungere a un dashboard intere pagine del report come un singolo riquadro. Per aggiungere riquadri al dashboard esistono molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](service-dashboard-tiles.md). 
 
 Perché creare i dashboard?  Ecco solo alcuni dei motivi:
 

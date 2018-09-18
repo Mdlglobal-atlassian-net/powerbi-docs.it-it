@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 89891ead8eda1b8de4c7be943af2a9e9e98314c5
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561794"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726088"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
 In un report di Power BI è possibile ordinare alfabeticamente la maggior parte delle visualizzazioni in base ai nomi delle categorie contenute nel grafico oppure in base ai valori numerici di ciascuna categoria. Ad esempio, questo grafico viene ordinato in base al nome dell'archivio.
@@ -49,7 +49,7 @@ In alcuni casi, è possibile ordinare l'oggetto visivo nel modo desiderato, ad e
 * In Excel assicurarsi che le colonne numeriche siano contrassegnate come "numero intero" o "decimale" e non come "testo".
 
 ## <a name="next-steps"></a>Passaggi successivi
-Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md).
+Altre informazioni sulle [visualizzazioni nei report di Power BI](visuals/power-bi-report-visualizations.md).
 
 [Power BI - Concetti di base](service-basic-concepts.md)
 

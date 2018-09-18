@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca8b7ded6427f912933618ebdeaeeecea41b8681
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8db686b842f01653e45e8d2d6313cb4ac39bcaeb
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249940"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727169"
 ---
 # <a name="power-bi-notifications"></a>Notifiche di Power BI
 Il centro notifiche è un feed sequenziale di informazioni relative all'esperienza utente di Power BI. Contiene messaggi sui nuovi dashboard condivisi con l'utente, sulle modifiche apportate allo spazio del gruppo, sulle informazioni relative a eventi e riunioni di Power BI, sugli avvisi impostati e altro ancora. È possibile [impostare gli avvisi nel servizio Power BI](service-set-data-alerts.md) e anche nelle app per dispositivi mobili di Power BI.
@@ -40,7 +40,7 @@ Il video seguente mostra come esaminare le notifiche ricevute, gestirle e inviar
 ### <a name="next-steps"></a>Passaggi successivi
 * [Avvisi per i dati nel servizio Power BI](service-set-data-alerts.md)
 * [Creare un flusso di Microsoft Flow che sia attivato da un avviso per i dati di Power BI](service-flow-integration.md)
-* [Impostare avvisi per i dati nell'app iPhone (Power BI per iOS)](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Impostare gli avvisi per i dati nell'app Power BI per dispositivi mobili per Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Impostare avvisi per i dati nell'app iPhone (Power BI per iOS)](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Impostare gli avvisi per i dati nell'app Power BI per dispositivi mobili per Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

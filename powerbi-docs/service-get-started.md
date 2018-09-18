@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4f710cd048fc2c2828f0386d23328c164bb3fb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598660"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726847"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](power-bi-overview.md).
@@ -42,7 +42,7 @@ Se si ha già un account, accedere al servizio Power BI aprendo un browser e dig
 
 ![Accedere o iscriversi gratuitamente](media/service-get-started/power-bi-sign-up.png)
 
-Per informazioni su Power BI Desktop, vedere [Introduzione a Power BI Desktop](desktop-getting-started.md). Per informazioni su Power BI per dispositivi mobili, vedere [App Power BI per dispositivi mobili](mobile-apps-for-mobile-devices.md).
+Per informazioni su Power BI Desktop, vedere [Introduzione a Power BI Desktop](desktop-getting-started.md). Per informazioni su Power BI per dispositivi mobili, vedere [App Power BI per dispositivi mobili](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > Se si preferisce un corso di formazione gratuito per l'autoapprendimento, [iscriversi al corso Analyzing and Visualizing Data su EdX](http://aka.ms/edxpbi) (Analisi e visualizzazione dei dati).
