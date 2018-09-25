@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726049"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544966"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in modo che il dashboard non sia solo di gradevole da vedere, ma anche funzionale. Questo, in generale, significa mettere in risalto le informazioni più importanti in modo pulito e ordinato.
@@ -65,7 +65,7 @@ Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visua
 * Non usare livelli di precisione e temporali diversi. Fare in modo che gli intervalli di tempo siano ben chiari.  Non affiancare un grafico del mese scorso ad altri grafici filtrati di un determinato mese dell'anno.
 * Non mescolare misure grandi e piccole sulla stessa scala, ad esempio su un grafico a linee o un grafico a barre.  Ad esempio, una misura può essere in milioni e l'altra in migliaia.  Con una scala così ampia, sarebbe difficile vedere le differenze della misura in migliaia.  Se è necessario mescolarle, scegliere una visualizzazione che consenta di usare un secondo asse.
 * Non riempire i grafici con etichette dati superflue. I valori nei grafici a barre sono generalmente comprensibili anche senza visualizzare il numero effettivo.
-* Prestare attenzione all’[ordinamento dei grafici](power-bi-report-change-sort.md).  Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura.  Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
+* Prestare attenzione all’[ordinamento dei grafici](consumer/end-user-change-sort.md).  Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura.  Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
 * I grafici a torta sono ideali in presenza di meno di otto categorie. Data l'impossibilità di confrontare i valori affiancati, il confronto tra valori è più difficile in un grafico a torta rispetto ai grafici a barre o agli istogrammi. I grafici a torta possono essere una buona soluzione per visualizzare le relazioni tra una parte e l'insieme anziché tra parti diverse. I grafici a misuratore sono ottimi per visualizzare lo stato corrente nell'ambito di un obiettivo.
 
 Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -81,5 +81,5 @@ Per progettare dashboard di altissimo livello, è utile apprendere i principi ba
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Creare un dashboard da un report](service-dashboard-create.md)  
-[Power BI - Concetti di base](service-basic-concepts.md)  
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

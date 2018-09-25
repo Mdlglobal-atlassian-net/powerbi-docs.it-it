@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2f7133bb376cc04e181eed2d90a45e3361190d0b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722544"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547029"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Esportare un report dal servizio Power BI in Desktop (anteprima)
 In Power BI Desktop è possibile esportare un report nel servizio Power BI (operazione talvolta definita *download*) salvando il report e selezionando **Pubblica**. È possibile esportare anche nell'altra direzione e scaricare un report dal servizio Power BI a Desktop. L'estensione per i file di esportazione, in entrambe le direzioni, è *PBIX*.
@@ -27,7 +27,7 @@ Occorre tenere presenti alcune limitazioni e considerazioni, che verranno discus
 ## <a name="download-the-report-as-a-pbix"></a>Scaricare il report come file con estensione pbix
 Per scaricare il file con estensione pbix, seguire questi passaggi:
 
-1. Nel **servizio Power BI** aprire il report che si vuole scaricare in [Visualizzazione di modifica](service-reading-view-and-editing-view.md).
+1. Nel **servizio Power BI** aprire il report che si vuole scaricare in [Visualizzazione di modifica](consumer/end-user-reading-view.md).
 2. Nella barra dei menu selezionare **File > Scarica report**.
    
    > [!NOTE]
@@ -67,8 +67,8 @@ Visualizzare il video di **Guy in a Cube** (durata: 1 minuto) che illustra quest
 
 Ecco alcuni articoli supplementari che possono essere d'aiuto per imparare a usare il **servizio Power BI**:
 
-* [Report in Power BI](service-reports.md)
-* [Power BI - Concetti di base](service-basic-concepts.md)
+* [Report in Power BI](consumer/end-user-reports.md)
+* [Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Dopo aver installato **Power BI Desktop**, il contenuto seguente consente di svolgere rapidamente le attività iniziali:
 

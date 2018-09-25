@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744391"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548512"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
 Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione di mappa autonomamente, richiede l'aiuto di Bing Maps. 
@@ -89,7 +89,7 @@ Quando si esaminano le gerarchie geografiche, è importante conoscere il funzion
 * La seconda opzione, ![il drill-down con le mappe](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) è simile al drill-down, ad eccezione del fatto che non è necessario fare clic sulla mappa,  perché si espande verso il basso fino al livello successivo della gerarchia ricordando il contesto del livello corrente. Ad esempio, se si stanno esaminando i paesi si seleziona questa icona, ci si sposta verso il basso nella gerarchia al livello successivo, cioè gli stati. Per la geocodifica, Power BI invia i dati per ogni stato e il corrispondente paese per consentire a Bing Maps di eseguire la geocodifica in modo più accurato. Nella maggior parte delle mappe, si userà questa opzione o l'opzione di drill-down a destra, per poter inviare a Bing quante più informazioni possibili con cui ottenere informazioni sul percorso accurate. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Eseguire il drill-in una visualizzazione di Power BI](../power-bi-visualization-drill-down.md)
+[Eseguire il drill-in una visualizzazione di Power BI](../consumer/end-user-drill.md)
 
 [Visualizzazioni di Power BI](power-bi-report-visualizations.md)
 

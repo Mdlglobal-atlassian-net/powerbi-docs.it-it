@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257230"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545640"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Condividere un report di Power BI filtrato con i colleghi
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre anche [diversi altri modi per collaborare a report e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -28,7 +28,7 @@ Con la condivisione, l'utente e i destinatari necessitano di una [licenza Power 
 ## <a name="filter-and-share-a-report"></a>Filtrare e condividere un report
 Cosa accade se si vuole condividere una versione filtrata di un report? Ad esempio, un report che mostri solo i dati relativi a una città, un venditore o un anno specifici. Questa operazione può essere eseguita creando un URL personalizzato.
 
-1. Aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md), applicare il filtro e salvare il report.
+1. Aprire il report in [Visualizzazione di modifica](consumer/end-user-reading-view.md), applicare il filtro e salvare il report.
    
    In questo esempio viene filtrato il dashboar [Retail Analysis Sample](sample-tutorial-connect-to-the-samples.md) in modo da mostrare solo i valori in cui il campo **Territory** corrisponde a **NC**.
    

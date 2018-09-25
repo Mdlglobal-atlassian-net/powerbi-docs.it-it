@@ -1,21 +1,21 @@
 ---
 title: Usare l'oggetto visivo matrice in Power BI Desktop
 description: Informazioni su come l'oggetto visivo matrice consenta i layout con rientri e l'evidenziazione granulare in Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 396028e1bcb58e94e545d848cf3cae3101091326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744468"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565936"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Usare l'oggetto visivo Matrice in Power BI Desktop
 Con la funzionalità visiva **Matrice** è possibile creare oggetti visivi matrice (detti anche *tabelle*) nei report di **Power BI Desktop** e usare l'evidenziazione incrociata degli elementi all'interno della matrice con altri oggetti visivi. È anche possibile selezionare singole celle, colonne e righe e usare l'evidenziazione incrociata. Infine, per usare al meglio lo spazio del layout, l'oggetto visivo matrice supporta un layout con rientri.

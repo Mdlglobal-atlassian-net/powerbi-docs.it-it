@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b1699d32bf96efa6a40baaac202b5f9db9ee3f8b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2b1e5c28bd705e064dc4e0e3283eb3941452647b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736933"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547028"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Modificare il tipo di visualizzazione in un report di Power BI
 Provare tipi diversi di visualizzazioni nel servizio Power BI e in Power BI Desktop per individuare quello che descrive meglio i dati. 
@@ -32,7 +32,7 @@ Se si modifica il tipo di visualizzazione nel report dopo averlo aggiunto al das
 ### <a name="next-steps"></a>Passaggi successivi
 Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

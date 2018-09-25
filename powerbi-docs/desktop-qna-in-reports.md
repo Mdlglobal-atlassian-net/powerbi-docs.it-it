@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475730"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546937"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usare Domande e risposte in Power BI Desktop per eseguire query in linguaggio naturale
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in **Power BI Desktop**.
@@ -198,5 +198,5 @@ Il campo **Sinonimi** in cui è possibile aggiungere i sinonimi viene visualizza
 Per altre informazioni sulle funzionalità incluse in Power BI Desktop, vedere gli articoli seguenti:
 
 * [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
-* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](service-focus-mode.md)
+* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](consumer/end-user-focus.md)
 

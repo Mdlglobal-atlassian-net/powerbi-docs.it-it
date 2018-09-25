@@ -2,7 +2,7 @@
 title: Tipi di visualizzazione in Power BI
 description: Tipi di visualizzazione in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 40106a9f219487a1fb52f353f3609f8f1d98bf4b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737149"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566051"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
@@ -176,9 +176,9 @@ Quando si digitano query in linguaggio naturale con le Domande e risposte di Pow
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)    
 [Riferimento all'oggetto visivo a destra da sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
 
-[Report in Power BI](../service-reports.md)
+[Report in Power BI](../consumer/end-user-reports.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

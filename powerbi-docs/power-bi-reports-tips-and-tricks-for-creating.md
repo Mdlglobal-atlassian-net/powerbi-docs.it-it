@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726801"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549961"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Suggerimenti e consigli per creare report in Power BI Desktop e nel servizio Power BI
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop, nel servizio Power BI *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato.
@@ -206,7 +206,7 @@ Evitare di usare visualizzazioni diverse per il puro gusto di variare.  Le visua
 * Provare a evitare di mescolare livelli di precisione e tempo. Fare in modo che gli intervalli di tempo siano ben chiari.  Non affiancare un grafico del mese scorso ad altri grafici filtrati di un determinato mese dell'anno.    
 * Provare anche a evitare di mescolare misure grandi e piccole sulla stessa scala, ad esempio su un grafico a linee o un grafico a barre.  Ad esempio, una misura può essere in milioni e l'altra in migliaia.  Con una scala così ampia, sarebbe difficile vedere le differenze della misura in migliaia.  Se è necessario mescolarle, scegliere una visualizzazione, ad esempio un grafico combinato, che consenta di usare un secondo asse.    
 * Evitare di riempire i grafici con etichette dati superflue. I valori nei grafici a barre, ***se sufficientemente grandi***, sono in genere comprensibili anche senza visualizzare il numero effettivo.   
-* Prestare attenzione all’[ordinamento dei grafici](power-bi-report-change-sort.md).  Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura.  Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
+* Prestare attenzione all’[ordinamento dei grafici](consumer/end-user-change-sort.md).  Se si vuole attirare l'attenzione sul numero più alto o più basso, ordinare in base alla misura.  Per agevolare la ricerca di una determinata categoria all'interno di molte altre, ordinare in base all'asse.  
 * I grafici a torta sono ideali in presenza di meno di otto categorie. Data l'impossibilità di confrontare i valori affiancati, il confronto tra valori è più difficile in un grafico a torta rispetto ai grafici a barre o agli istogrammi. I grafici a torta possono essere una buona soluzione per visualizzare le relazioni tra una parte e l'insieme anziché tra parti diverse. I grafici a misuratore sono ottimi per visualizzare lo stato corrente nell'ambito di un obiettivo.    
 
 Per altre indicazioni specifiche sulle visualizzazioni, vedere [Tipi di visualizzazione in Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -222,8 +222,8 @@ Ecco alcune pubblicazioni che possono essere utili:
 * *Advanced Presentations Design* di Andrew Abela   
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
-[Report in Power BI](service-reports.md)
+[Report in Power BI](consumer/end-user-reports.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

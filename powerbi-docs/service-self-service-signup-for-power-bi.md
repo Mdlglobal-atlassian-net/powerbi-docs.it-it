@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558517"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549984"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Iscrizione a Power BI come utente singolo
 Informazioni su come iscriversi a Power BI e iniziare a usarlo per le proprie esigenze personali di creazione e visualizzazione di report.
@@ -99,7 +99,7 @@ Viene visualizzato un messaggio che chiede di selezionare **Start**.
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Versione di valutazione completa di Power BI Pro per 60 giorni
 Dopo aver effettuato l'iscrizione all'account gratuito, è possibile provare la versione Pro gratuitamente per 60 giorni. Sarà possibile accedere a tutte le funzionalità Pro per la durata del periodo di valutazione. Power BI Pro dispone di tutte le funzionalità della versione gratuita di Power BI, oltre a funzionalità di condivisione e collaborazione aggiuntive. Per altre informazioni, vedere la [pagina dei prezzi di Power BI](https://powerbi.microsoft.com/pricing). Per provare una versione di valutazione gratuita di 60 giorni di Power BI Pro, iscriversi a Power BI e provare una di queste funzionalità Power BI Pro:
 
-* [Crea area di lavoro per le app](service-create-distribute-apps.md)
+* [Crea area di lavoro per le app](consumer/end-user-create-apps.md)
 * [Share a dashboard (Condividi un dashboard)](service-share-dashboards.md)
 
 Quando si prova una qualsiasi di queste funzionalità, viene richiesto l'avvio della versione di valutazione gratuita. È anche possibile decidere di usarla selezionando l'icona dell'ingranaggio e poi **Gestisci archivio personale**. Selezionare quindi **Prova gratuitamente la versione Pro** sulla destra.

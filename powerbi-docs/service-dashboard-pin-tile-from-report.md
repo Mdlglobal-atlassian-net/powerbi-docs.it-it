@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240211"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550053"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Aggiungere un riquadro a un dashboard di Power BI da un report
 ## <a name="pinning-tiles-from-a-report"></a>Aggiunta di riquadri da un report
-Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è possibile procedere all'interno di un [report di Power BI](service-reports.md). Da un report è infatti possibile aggiungere molti nuovi riquadri.  Ognuno di questi riquadri, quando si fa clic su di esso, è un collegamento per tornare al report.
+Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è possibile procedere all'interno di un [report di Power BI](consumer/end-user-reports.md). Da un report è infatti possibile aggiungere molti nuovi riquadri.  Ognuno di questi riquadri, quando si fa clic su di esso, è un collegamento per tornare al report.
 
 È possibile aggiungere a un dashboard intere pagine del report.  Questa operazione è nota anche come aggiunta di un riquadro *animato* .  *Animato* poiché è possibile interagire con il riquadro nel dashboard e perché, a differenza dei riquadri di visualizzazione singoli, le modifiche apportate nel report vengono sincronizzate con il dashboard. Ulteriori informazioni su questo argomento di seguito.
 
@@ -58,15 +58,15 @@ Un’altra opzione consiste nell’aggiungere un'intera pagina del report a un d
 Per altre informazioni, vedere [Aggiungere un'intera pagina del report](service-dashboard-pin-live-tile-from-report.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Dashboard in Power BI](service-dashboards.md)
+[Dashboard in Power BI](consumer/end-user-dashboards.md)
 
-[Riquadri del dashboard in Power BI](service-dashboard-tiles.md)
+[Riquadri del dashboard in Power BI](consumer/end-user-tiles.md)
 
-[Report in Power BI](service-reports.md)
+[Report in Power BI](consumer/end-user-reports.md)
 
 [Aggiornamento dei dati in Power BI](refresh-data.md)
 
-[Concetti di base di Power BI](service-basic-concepts.md)
+[Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

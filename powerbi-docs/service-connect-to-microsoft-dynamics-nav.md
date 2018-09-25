@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 498a66c5e675fc8a394f3c3a0dc2ef7ff7fa99c2
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877389"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546718"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Connettersi a Microsoft Dynamics NAV con Power BI
 Ottenere informazioni dettagliate sui dati di Microsoft Dynamics NAV è facile con Power BI. Power BI recupera i dati, sia di vendita che finanziari, quindi crea un'app con un dashboard e report in base a tali dati. Power BI richiede le autorizzazioni per le tabelle da cui vengono recuperati i dati, in questo caso i dati finanziari e sulle vendite. Di seguito sono fornite informazioni più dettagliate sui requisiti. Dopo aver installato l'app è possibile visualizzare dashboard e report nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nelle app per dispositivi mobili di Power BI. 
@@ -99,7 +99,7 @@ Se viene visualizzata una finestra di dialogo di errore dopo la finestra di dial
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Cosa sono le app in Power BI?](service-install-use-apps.md)
+* [Cosa sono le app in Power BI?](consumer/end-user-apps.md)
 * [Recuperare dati in Power BI](service-get-data.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

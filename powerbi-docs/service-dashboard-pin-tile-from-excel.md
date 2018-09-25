@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599595"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548052"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Aggiungere un riquadro a un dashboard di Power BI da Excel
 Prima di poter aggiungere un riquadro dalla cartella di lavoro di Excel, è necessario connettere la cartella di lavoro al servizio Power BI (app.powerbi.com). La connessione di una cartella di lavoro importa essenzialmente una versione di sola lettura collegata della cartella di lavoro nel servizio Power BI e consente di aggiungere gli intervalli ai dashboard. È anche possibile aggiungere un intero foglio di lavoro a un dashboard.  
@@ -49,7 +49,7 @@ Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario 
     ![Excel Online in Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Aggiungere un intervallo di celle a un dashboard
-Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è possibile procedere all'interno di una cartella di lavoro di Excel in Power BI. Gli intervalli possono essere aggiunti dalle cartelle di lavoro di Excel che sono state salvate in OneDrive per Business o in un'altra raccolta documenti condivisi con il gruppo. Gli intervalli possono contenere dati, grafici, tabelle, tabelle pivot, grafici pivot e altre parti di Excel.
+Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è possibile procedere all'interno di una cartella di lavoro di Excel in Power BI. Gli intervalli possono essere aggiunti dalle cartelle di lavoro di Excel che sono state salvate in OneDrive per Business o in un'altra raccolta documenti condivisi con il gruppo. Gli intervalli possono contenere dati, grafici, tabelle, tabelle pivot, grafici pivot e altre parti di Excel.
 
 1. Evidenziare le celle che si desidera aggiungere a un dashboard.
    

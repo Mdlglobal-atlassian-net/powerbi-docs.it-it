@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737128"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549801"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -23,7 +23,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
 
-I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I relativi valori cambiano in base alle modifiche apportate ai dati. **I riquadri vengono [aggiunti a un dashboard nel servizio Power BI](../../service-dashboard-tiles.md).** 
+I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I relativi valori cambiano in base alle modifiche apportate ai dati. **I riquadri vengono [aggiunti a un dashboard nel servizio Power BI](../end-user-tiles.md).** 
 
 È quindi possibile aprire in modalità messa a fuoco e interagire con questi riquadri nell'app Power BI per dispositivi mobili. È possibile aprire riquadri con tutti i tipi di oggetti visivi, inclusi i riquadri basati su Bing e R.
 

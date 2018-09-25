@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744463"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549846"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mappe colorate (cloroplete) in Power BI
 Nelle mappe colorate vengono usate ombreggiature, tinte o motivi per visualizzare proporzionalmente le differenze relative a un valore in un'area geografica.  In questo modo è possibile visualizzare queste differenze relative con ombreggiature chiare (frequenza o valore minore) e scure (frequenza o valore maggiore).    
@@ -109,7 +109,7 @@ Se i dati relativi a latitudine e longitudine non sono disponibili, [seguire que
 Per ulteriori informazioni sulle visualizzazioni mappa, vedere [Suggerimenti e consigli per le visualizzazioni mappa](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Aggiungere la mappa colorata come riquadro del dashboard (aggiungendo l'oggetto visivo)](../service-dashboard-tiles.md)    
+[Aggiungere la mappa colorata come riquadro del dashboard (aggiungendo l'oggetto visivo)](../consumer/end-user-tiles.md)    
  [Aggiungere una visualizzazione a un report](power-bi-report-add-visualizations-i.md)  
  [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Modificare il tipo di visualizzazione in uso](power-bi-report-change-visualization-type.md)      

@@ -10,20 +10,20 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: a528c4a641dbdecce7d33f29e7afbe6118ee34b5
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726479"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544396"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
-Dopo aver letto [Dashboard in Power BI](service-dashboards.md) si vuole creare un dashboard personalizzato. Ci sono molti modi diversi per creare un dashboard: partendo da un report, da zero, da un set di dati, attraverso la duplicazione di un dashboard esistente e altri ancora.  
+Dopo aver letto [Dashboard in Power BI](consumer/end-user-dashboards.md) si vuole creare un dashboard personalizzato. Ci sono molti modi diversi per creare un dashboard: partendo da un report, da zero, da un set di dati, attraverso la duplicazione di un dashboard esistente e altri ancora.  
 
 L'impresa può sembrare complicata all'inizio e per questo di seguito verrà descritta la procedura per creare un dashboard semplice e rapido aggiungendo visualizzazioni da un report già creato. Dopo aver completato questa guida introduttiva, saranno abbastanza chiare le relazioni tra dashboard e report, nonché le procedure per aprire la visualizzazione di modifica nell'editor di report, aggiungere riquadri e spostarsi tra un dashboard e un report. Usare quindi i collegamenti nel sommario a sinistra o in **Passaggi successivi** nella parte inferiore per procedere con argomenti più avanzati.
 
 ## <a name="who-can-create-a-dashboard"></a>Chi può creare un dashboard?
-La creazione di un dashboard è una funzionalità per **autori** e richiede autorizzazioni di modifica per il report. Le autorizzazioni di modifica sono disponibili per gli autori dei report e per i colleghi a cui l'autore concede l'accesso. Ad esempio, se un utente crea un report in un'area di lavoro e quindi aggiunge un altro utente come membro di tale area di lavoro, entrambi avranno le autorizzazioni di modifica. Se invece un report viene condiviso direttamente o come parte di un'[app Power BI](service-install-use-apps.md) (**utilizzo** del report), non sarà possibile aggiungere riquadri a un dashboard.
+La creazione di un dashboard è una funzionalità per **autori** e richiede autorizzazioni di modifica per il report. Le autorizzazioni di modifica sono disponibili per gli autori dei report e per i colleghi a cui l'autore concede l'accesso. Ad esempio, se un utente crea un report in un'area di lavoro e quindi aggiunge un altro utente come membro di tale area di lavoro, entrambi avranno le autorizzazioni di modifica. Se invece un report viene condiviso direttamente o come parte di un'[app Power BI](consumer/end-user-apps.md) (**utilizzo** del report), non sarà possibile aggiungere riquadri a un dashboard.
 
 > **NOTA**: i dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I dashboard non possono essere creati nella versione di Power BI per i dispositivi mobili, sui cui possono essere soltanto [visualizzati e condivisi](consumer/mobile/mobile-apps-view-dashboard.md).
 >
@@ -65,7 +65,7 @@ Importeremo uno dei set di dati di esempio di Power BI e lo useremo per creare i
 1. Rimanendo nella stessa area di lavoro selezionare la scheda **Report**. Il report appena importato appare contrassegnato con un asterisco giallo. Selezionare il nome del report per aprirlo.
 
     ![Scheda Report](media/service-dashboard-create/power-bi-reports.png)
-2. Il report viene aperto nella [Visualizzazione di lettura](service-reading-view-and-editing-view.md). Si noti che nella parte inferiore sono presenti due schede: Discount Analysis (Analisi sconti) e Spend Overview (Panoramica spesa). Ogni scheda rappresenta una pagina del report.
+2. Il report viene aperto nella [Visualizzazione di lettura](consumer/end-user-reading-view.md). Si noti che nella parte inferiore sono presenti due schede: Discount Analysis (Analisi sconti) e Spend Overview (Panoramica spesa). Ogni scheda rappresenta una pagina del report.
     Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
 
     ![Report nella Visualizzazione di lettura](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Congratulazioni per aver creato il primo dashboard. Ora che si dispone di un das
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Ridimensionare e spostare i riquadri](service-dashboard-edit-tile.md)
-* [Informazioni sui riquadri del dashboard](service-dashboard-tiles.md)
-* [Condividere il dashboard creando un'app](service-create-distribute-apps.md)
-* [Power BI - Concetti di base](service-basic-concepts.md)
+* [Informazioni sui riquadri del dashboard](consumer/end-user-tiles.md)
+* [Condividere il dashboard creando un'app](consumer/end-user-create-apps.md)
+* [Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 * [Suggerimenti per la progettazione di un dashboard ottimale](service-dashboards-design-tips.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

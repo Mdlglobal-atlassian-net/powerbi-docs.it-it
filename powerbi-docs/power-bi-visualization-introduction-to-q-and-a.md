@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c567921b765f03fbaa11f2b98724cea1a1ce1905
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240986"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547960"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introduzione a Power BI - Domande e risposte
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usare Domande e risposte di Power BI con l'esempio di analisi delle vendite al dettaglio
@@ -57,7 +57,7 @@ In che modo si potrebbe creare questo stesso grafico a linee mediante Domande e 
 4. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Domande e risposte in Power BI](power-bi-q-and-a.md)
+[Domande e risposte in Power BI](consumer/end-user-q-and-a.md)
 
 [Usare correttamente i dati con Domande e risposte di Power BI](service-prepare-data-for-q-and-a.md)
 

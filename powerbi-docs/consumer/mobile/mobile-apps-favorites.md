@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742830"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544949"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creare e visualizzare i Preferiti nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -30,7 +30,7 @@ Quando si crea un preferito nelle app Power BI per dispositivi mobili, è possib
 ![Preferiti nelle app Power BI per dispositivi mobili](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-È anche possibile [aggiungere dashboard e app di Power BI ai Preferiti nel servizio Power BI](../../service-dashboard-favorite.md). In questo modo saranno visibili nella pagina Preferiti dell'app per dispositivi mobili.
+È anche possibile [aggiungere dashboard e app di Power BI ai Preferiti nel servizio Power BI](../end-user-favorite.md). In questo modo saranno visibili nella pagina Preferiti dell'app per dispositivi mobili.
 
 È possibile contrassegnare gli indicatori KPI e i report come preferiti nel portale Web del server di report di Power BI o di Reporting Services e quindi visualizzarli in un'unica cartella nel dispositivo mobile, assieme ai dashboard di Power BI preferiti.
 
@@ -76,6 +76,6 @@ Quando si crea un preferito nelle app Power BI per dispositivi mobili, è possib
 È possibile visualizzare i report e gli indicatori KPI del server di report di Power BI e di Reporting Services nelle app Power BI per dispositivi mobili, ma non è possibile aggiungerli ai Preferiti nelle app per dispositivi mobili. È possibile [contrassegnarli come Preferiti nel portale Web](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Aggiungere dashboard ai Preferiti nel servizio Power BI](../../service-dashboard-favorite.md) 
+* [Aggiungere dashboard ai Preferiti nel servizio Power BI](../end-user-favorite.md) 
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

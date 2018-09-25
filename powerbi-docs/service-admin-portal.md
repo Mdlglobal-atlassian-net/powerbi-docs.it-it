@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726916"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546120"
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
@@ -161,7 +161,7 @@ Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'im
 
 ### <a name="export-data"></a>Esporta dati
 
-Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. [Altre informazioni](power-bi-visualization-export-data.md)
+Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. [Altre informazioni](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visua
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Esporta report come presentazioni di PowerPoint
 
-Gli utenti dell'organizzazione possono esportare report di Power BI come file di PowerPoint. [Altre informazioni](service-publish-to-powerpoint.md)
+Gli utenti dell'organizzazione possono esportare report di Power BI come file di PowerPoint. [Altre informazioni](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Stampare dashboard e report
 
-Gli utenti dell'organizzazione possono stampare dashboard e report. [Altre informazioni](service-print.md)
+Gli utenti dell'organizzazione possono stampare dashboard e report. [Altre informazioni](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ L'amministratore del tenant abilita il push delle app in **Impostazioni tenant**
 > [!NOTE]
 > Tenere presente che le modifiche alle impostazioni del tenant possono richiedere tempo per diventare effettive.
 
-Sono disponibili altre informazioni sul [push delle app](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+Sono disponibili altre informazioni sul [push delle app](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Impostazioni di integrazione
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330168"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550122"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso di DirectQuery in Power BI
 Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità, inclusi gli argomenti seguenti:
@@ -277,7 +277,7 @@ Quando si crea un report tramite una connessione DirectQuery, osservare le indic
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  In DirectQuery il filtro incrociato e l'evidenziazione incrociata richiedono l'invio di query all'origine sottostante, quindi è necessario disattivare l'interazione se il tempo necessario per rispondere alle selezioni degli utenti diventa irragionevolmente lungo. Tuttavia, questa interazione può essere disattivata, sia per l'intero report (come descritto in precedenza per *Opzioni di Riduzione query*) o caso per caso come descritto [in questo articolo](service-reports-visual-interactions.md).
+  In DirectQuery il filtro incrociato e l'evidenziazione incrociata richiedono l'invio di query all'origine sottostante, quindi è necessario disattivare l'interazione se il tempo necessario per rispondere alle selezioni degli utenti diventa irragionevolmente lungo. Tuttavia, questa interazione può essere disattivata, sia per l'intero report (come descritto in precedenza per *Opzioni di Riduzione query*) o caso per caso come descritto [in questo articolo](consumer/end-user-interactions.md).
 
 Oltre all'elenco di suggerimenti precedente, si noti che ognuna delle funzionalità di creazione di report seguenti può provare problemi di prestazioni:
 
