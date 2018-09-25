@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 8ea0ad288a12e5e08d4e52ff9c27242d5d169cab
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744409"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547130"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Esercitazione: Porre domande sui dati con l'analista virtuale Domande e risposte nelle app iOS - Power BI
 
@@ -132,5 +132,5 @@ Al termine dell'esercitazione è possibile eliminare il dashboard, il report e i
 
 Si è provato a usare l'analista virtuale Domande e risposte nelle app Power BI per dispositivi mobili iOS. Altre informazioni su Domande e risposte nel servizio Power BI.
 > [!div class="nextstepaction"]
-> [Domande e risposte nel servizio Power BI](../../power-bi-q-and-a.md)
+> [Domande e risposte nel servizio Power BI](../end-user-q-and-a.md)
 

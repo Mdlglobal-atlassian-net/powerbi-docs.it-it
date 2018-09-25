@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0e462fa6faf8d83bfcdb8658e2fcb852aeac5c3b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: deba4a654c1b43361f7c44c2f0717fb7e348cb98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248908"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548673"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Salvare un report nel servizio Power BI e in Power BI Desktop
 Dopo aver apportato le modifiche a un report in Power BI, è possibile salvarlo con un nuovo nome oppure chiuderlo senza salvare le modifiche. Si supponga di aprire un report, creare una visualizzazione e aggiungerla al dashboard. Se il report viene chiuso senza salvare le modifiche, il riquadro resta nel dashboard, ma la visualizzazione non viene salvata nel report. Quando si fa clic su tale riquadro nel dashboard, il report si apre, ma la visualizzazione non esiste nel report.
@@ -29,7 +29,7 @@ Dopo aver apportato le modifiche a un report in Power BI, è possibile salvarlo 
 1. Se si prova a uscire da un report che contiene modifiche, Power BI visualizzerà una richiesta di conferma.
    
    ![Salvare le modifiche](media/service-report-save/power-bi-unsaved.png)
-2. Un altro modo per salvare il report consiste nel selezionare **FILE** \> **Salva** o **Salva con nome**. Nella [Visualizzazione di lettura](service-reading-view-and-editing-view.md) viene visualizzata solo l'opzione Salva con nome. 
+2. Un altro modo per salvare il report consiste nel selezionare **FILE** \> **Salva** o **Salva con nome**. Nella [Visualizzazione di lettura](consumer/end-user-reading-view.md) viene visualizzata solo l'opzione Salva con nome. 
    
    ![Salvare il report](media/service-report-save/power-bi-save-new.png)
 3. Assegnare al report un nome descrittivo, sia che si tratti di un nuovo report (opzione Salva) o di una nuova versione di un report esistente (opzione Salva con nome).  **Il report verrà aggiunto all'area di lavoro attiva**.
@@ -37,9 +37,9 @@ Dopo aver apportato le modifiche a un report in Power BI, è possibile salvarlo 
     ![Assegnare un nome al report](media/service-report-save/power-bi-save-dialog.png)
 
 ### <a name="next-steps"></a>Passaggi successivi
-Altre informazioni sui [report in Power BI](service-reports.md)
+Altre informazioni sui [report in Power BI](consumer/end-user-reports.md)
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

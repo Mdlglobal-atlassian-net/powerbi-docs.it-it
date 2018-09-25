@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725628"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548788"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Creare un nuovo report da un report esistente (copiare un report)
 Forse è disponibile un report che si connette già al set di dati e contiene alcuni elementi visivi che si vogliono riutilizzare o modificare.  Perché non copiare semplicemente il report come base per un nuovo report?  A tale scopo:
 
-1. [Aprire un report](service-report-open.md).
+1. [Aprire un report](consumer/end-user-report-open.md).
 2. Dal menu **File** selezionare **Salva con nome**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ Forse è disponibile un report che si connette già al set di dati e contiene al
 ## <a name="next-steps"></a>Passaggi successivi:
 [Creare nuove visualizzazioni](visuals/power-bi-report-add-visualizations-ii.md)
 
-[Eliminare le visualizzazioni](service-delete.md) non necessarie
+[Eliminare le visualizzazioni](consumer/end-user-delete.md) non necessarie
 
 [Creare un report usando Power BI Desktop](desktop-report-view.md)

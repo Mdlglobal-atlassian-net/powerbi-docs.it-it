@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944607"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543796"
 ---
 # <a name="the-power-bi-samples"></a>Gli esempi di Power BI
 
@@ -79,7 +79,7 @@ Ora è possibile esaminare il dashboard, il set di dati e il report autonomament
     ![Pagina del report con gli oggetti visivi corrispondenti evidenziati](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Se il riquadro fosse stato creato con [Domande e risposte di Power BI](power-bi-q-and-a.md) sarebbe comparsa la pagina Domande e risposte. Se il riquadro fosse stato [aggiunto da Excel](service-dashboard-pin-tile-from-excel.md), Excel Online sarebbe stato aperto all'interno di Power BI.
+   > Se il riquadro fosse stato creato con [Domande e risposte di Power BI](consumer/end-user-q-and-a.md) sarebbe comparsa la pagina Domande e risposte. Se il riquadro fosse stato [aggiunto da Excel](service-dashboard-pin-tile-from-excel.md), Excel Online sarebbe stato aperto all'interno di Power BI.
    > 
    > 
 1. Nella scheda **Set di dati** sono presenti varie opzioni per esplorare il set di dati.  Non è possibile aprirlo e vedere tutte le righe e colonne, come invece si può fare in Power BI Desktop o in Excel.  Quando un utente condivide un pacchetto di contenuto con i colleghi, in genere vuole condividere le informazioni dettagliate e non consentire ai colleghi di accedere direttamente ai dati. Questo però non significa che non sia possibile esplorare il set di dati.  
@@ -89,7 +89,7 @@ Ora è possibile esaminare il dashboard, il set di dati e il report autonomament
    * Un modo per esplorare il set di dati consiste nel creare visualizzazioni e report personalizzati da zero.  Selezionare l'icona del grafico ![Icona del report](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) per aprire il set di dati in modalità di modifica report.
      
        ![Nuovo report](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Un altro modo per esplorare il set di dati consiste nell'eseguire [Informazioni rapide](service-insights.md). Selezionare i puntini di sospensione (...) e scegliere **Ottieni informazioni dettagliate**. Quando le informazioni sono pronte, selezionare **Visualizza informazioni dettagliate**.
+   * Un altro modo per esplorare il set di dati consiste nell'eseguire [Informazioni rapide](consumer/end-user-insights.md). Selezionare i puntini di sospensione (...) e scegliere **Ottieni informazioni dettagliate**. Quando le informazioni sono pronte, selezionare **Visualizza informazioni dettagliate**.
      
        ![Report con informazioni dettagliate](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Ora è possibile esaminare il set di dati, le relazioni e il report autonomament
 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Concetti di base di Power BI](service-basic-concepts.md)
+[Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
 
 [Esempi per il servizio Power BI](sample-datasets.md)
 

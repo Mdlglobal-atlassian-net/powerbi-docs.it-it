@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736786"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543314"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Effettuare una scansione di un codice a barre con un iPhone dall'app Power BI per dispositivi mobili
 Effettuare la scansione di codici a barre nel mondo reale per passare direttamente a informazioni di business intelligence filtrate nell'app per dispositivi mobili di Power BI.
@@ -67,6 +67,6 @@ Il report a cui si è scelto di applicare il filtro è basato su un modello di d
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Contrassegnare un campo di codice a barre in Power BI Desktop](../../desktop-mobile-barcodes.md)
-* [Riquadri del dashboard in Power BI](../../service-dashboard-tiles.md)
-* [Dashboard in Power BI](../../service-dashboards.md)
+* [Riquadri del dashboard in Power BI](../end-user-tiles.md)
+* [Dashboard in Power BI](../end-user-dashboards.md)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8095db86b8954b3f91a83f2e83c0108d1676cf76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744337"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545269"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte 1, Aggiungere visualizzazioni a un report di Power BI
 Questo articolo offre una breve introduzione alla creazione di una visualizzazione in un report tramite il servizio Power BI o Power BI Desktop.  Per i contenuti più avanzati, [vedere la Parte II](power-bi-report-add-visualizations-ii.md). Nel video seguente Amanda illustra alcuni modi per creare, modificare e formattare gli oggetti visivi nell'area di disegno report. Sarà quindi possibile provare a usare l'[esempio di analisi di vendite e marketing](../sample-datasets.md) per creare il proprio report.
@@ -25,7 +25,7 @@ Questo articolo offre una breve introduzione alla creazione di una visualizzazio
 
 
 ## <a name="open-a-report-and-add-a-new-page"></a>Aprire un report e aggiungere una nuova pagina
-1. Aprire un [report in Visualizzazione di modifica](../service-reading-view-and-editing-view.md). Questa esercitazione usa l'[esempio di analisi di vendite e marketing](../sample-datasets.md).
+1. Aprire un [report in Visualizzazione di modifica](../consumer/end-user-reading-view.md). Questa esercitazione usa l'[esempio di analisi di vendite e marketing](../sample-datasets.md).
 2. Se il riquadro Campi non è visibile, selezionare l'icona a forma di freccia per aprirlo. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
@@ -59,7 +59,7 @@ Questo articolo offre una breve introduzione alla creazione di una visualizzazio
 ## <a name="next-steps"></a>Passaggi successivi
  Continuare con la [Parte 2: Aggiungere visualizzazioni a un report di Power BI](power-bi-report-add-visualizations-ii.md)
    
-   [Interagire con le visualizzazioni](../service-reading-view-and-editing-view.md) nel report.
+   [Interagire con le visualizzazioni](../consumer/end-user-reading-view.md) nel report.
    
    [Eseguire altre operazioni con le visualizzazioni](power-bi-report-visualizations.md).
    

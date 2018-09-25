@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249871"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546373"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Aggiungere un'intera pagina del report, come riquadro animato, a un dashboard di Power BI
-Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è anche possibile aggiungere un'intera pagina del report. Questo è un modo semplice per aggiungere più di una visualizzazione contemporaneamente.  Inoltre, quando si aggiunge un'intera pagina, i riquadri sono *animati*. È possibile interagire con essi direttamente nel dashboard. Le modifiche apportate a qualsiasi visualizzazione nell'editor di report, ad esempio l’aggiunta di un filtro o la modifica dei campi utilizzati nel grafico, vengono riflesse anche nel riquadro del dashboard.  
+Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è anche possibile aggiungere un'intera pagina del report. Questo è un modo semplice per aggiungere più di una visualizzazione contemporaneamente.  Inoltre, quando si aggiunge un'intera pagina, i riquadri sono *animati*. È possibile interagire con essi direttamente nel dashboard. Le modifiche apportate a qualsiasi visualizzazione nell'editor di report, ad esempio l’aggiunta di un filtro o la modifica dei campi utilizzati nel grafico, vengono riflesse anche nel riquadro del dashboard.  
 
 L'aggiunta di riquadri dinamici dai report ai dashboard è disponibile solo nel servizio Power BI (app.powerbi.com).
 
@@ -53,7 +53,7 @@ Il video seguente mostra come aggiungere una pagina dinamica del report. Seguire
     ![Dashboard con un riquadro animato](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Dashboard in Power BI](service-dashboards.md)
+[Dashboard in Power BI](consumer/end-user-dashboards.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744031"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548075"
 ---
 # <a name="treemaps-in-power-bi"></a>Mappe ad albero in Power BI
 Le mappe ad albero mostrano dati gerarchici in un set di rettangoli annidati.  Ogni livello della gerarchia è rappresentato da un rettangolo colorato (detto anche "ramo") che contiene altri rettangoli ("foglie").  Lo spazio all'interno di ogni rettangolo viene allocato in base al valore quantitativo misurato, con i rettangoli disposti per dimensione dall'angolo in alto a sinistra (più grande) all'angolo in basso a destra (più piccolo).
@@ -62,7 +62,7 @@ In alternativa, creare autonomamente una mappa ad albero personalizzata. Per que
    > 
 5. Passare il mouse su un’area **Chain** per visualizzare la descrizione comando per la parte del titolo della **Categoria**.  Ad esempio, se si passa il puntatore del mouse su **Lindseys** nel rettangolo **040-Juniors** viene visualizzata la descrizione comando per la parte relativa a Lindsey della categoria Juniors.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Aggiungere la mappa ad albero come riquadro del dashboard (aggiungendo l'oggetto visivo)](../service-dashboard-tiles.md). 
+6. [Aggiungere la mappa ad albero come riquadro del dashboard (aggiungendo l'oggetto visivo)](../consumer/end-user-tiles.md). 
 7. [Salvare il report](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
@@ -76,11 +76,11 @@ Evidenziando una categoria o i dettagli in una mappa da albero vengono applicate
 2. Nel grafico a torta **Last Year Sales by Chain** selezionare la sezione **Fashions Direct** per applicare un filtro incrociato alla mappa ad albero.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../service-reports-visual-interactions.md).
+3. Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiungere una visualizzazione a un dashboard](../service-dashboard-pin-tile-from-report.md)  
-[Power BI - Concetti di base](../service-basic-concepts.md)  
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)  
 

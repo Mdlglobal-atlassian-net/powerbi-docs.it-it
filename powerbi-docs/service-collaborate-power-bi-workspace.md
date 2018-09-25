@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623931"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543950"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Collaborare nell'area di lavoro per le app di Power BI
 Le aree di lavoro per le app di Power BI sono la soluzione ideale per collaborare con i colleghi all'elaborazione di dashboard, report e set di dati per la creazione di *app*. La collaborazione non è limitata alle aree di lavoro in Power BI. Office 365 offre altri servizi di gruppo, come la condivisione di file in OneDrive for Business, le conversazioni in Exchange, i calendari e le attività condivisi e così via. Altre informazioni sui [gruppi in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ Dopo aver creato un file di Power BI Desktop, ogni membro dell'area di lavoro pu
    
     ![Scheda Report](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    Da questo punto, è come qualsiasi altro report in Power BI. Tutti i membri dell'area di lavoro per le app possono [modificare il report](service-reports.md) e salvare i riquadri in un dashboard a propria scelta.
+    Da questo punto, è come qualsiasi altro report in Power BI. Tutti i membri dell'area di lavoro per le app possono [modificare il report](consumer/end-user-reports.md) e salvare i riquadri in un dashboard a propria scelta.
 
 ## <a name="collaborate-in-office-365"></a>Collaborare in Office 365
 La collaborazione in Office 365 inizia nell'area di lavoro per le app in Power BI.
@@ -77,7 +77,7 @@ La collaborazione in Office 365 inizia nell'area di lavoro per le app in Power B
 Se si è proprietari o amministratori di un'area di lavoro per le app, è possibile aggiungere o rimuovere i membri dell'area di lavoro. Altre informazioni sulla [gestione dell'area di lavoro per le app di Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Creare app e aree di lavoro per le app in Power BI](service-create-distribute-apps.md)
+* [Creare app e aree di lavoro per le app in Power BI](consumer/end-user-create-apps.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 * Per inviare commenti e suggerimenti, visitare il forum [Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi)
 

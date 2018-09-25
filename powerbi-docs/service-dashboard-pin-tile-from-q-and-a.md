@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251415"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548733"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Aggiungere un riquadro a un dashboard da Domande e risposte
 ## <a name="how-to-pin-a-tile-from-qa"></a>Come aggiungere un riquadro dalle domande e risposte
 Domande e risposte è lo strumento ad hoc per la creazione di report di Power BI. Se ad esempio si vogliono ottenere informazioni dettagliate specifiche, è possibile porre una domanda sui dati per ottenere una risposta sotto forma di visualizzazione.
 
-In questa procedura viene usato il servizio Power BI (app.powerbi.com) per aprire un dashboard, porre una domanda usando il linguaggio naturale per creare una visualizzazione e aggiungere tale visualizzazione a un dashboard. I dashboard non sono disponibili in Power BI Desktop. Per informazioni su come usare Domande e risposte con altri strumenti e contenuti di Power BI, vedere la [Panoramica di Domande e risposte di Power BI](power-bi-q-and-a.md). 
+In questa procedura viene usato il servizio Power BI (app.powerbi.com) per aprire un dashboard, porre una domanda usando il linguaggio naturale per creare una visualizzazione e aggiungere tale visualizzazione a un dashboard. I dashboard non sono disponibili in Power BI Desktop. Per informazioni su come usare Domande e risposte con altri strumenti e contenuti di Power BI, vedere la [Panoramica di Domande e risposte di Power BI](consumer/end-user-q-and-a.md). 
 
 Per seguire la procedura, aprire il [dashboard dell'esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md).
 
 
-1. Aprire un [dashboard](service-dashboards.md) a cui è stato aggiunto almeno un riquadro da un report. Quando si pone una domanda, Power BI cerca la risposta in qualsiasi set di dati per il quale è stato aggiunto un riquadro nel dashboard.  Per altre informazioni, vedere [Origini dati per il servizio Power BI](service-get-data.md).
+1. Aprire un [dashboard](consumer/end-user-dashboards.md) a cui è stato aggiunto almeno un riquadro da un report. Quando si pone una domanda, Power BI cerca la risposta in qualsiasi set di dati per il quale è stato aggiunto un riquadro nel dashboard.  Per altre informazioni, vedere [Origini dati per il servizio Power BI](service-get-data.md).
 2. Nella casella della domanda nella parte superiore del dashboard iniziare a digitare una domanda relativa ai dati.  
    ![Casella delle domande di Domande e risposte](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Ad esempio, se si digita "vendite dell'ultimo anno per mese e territorio"...  
@@ -62,6 +62,6 @@ Per seguire la procedura, aprire il [dashboard dell'esempio di analisi delle ven
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Rinominare, ridimensionare, aggiungere un collegamento ipertestuale, riposizionare il riquadro e molto altro ancora](service-dashboard-edit-tile.md)    
-[Visualizzare il riquadro del dashboard nella modalità messa a fuoco](service-focus-mode.md)     
-Tornare a [Domande e risposte in Power BI](power-bi-q-and-a.md)  
+[Visualizzare il riquadro del dashboard nella modalità messa a fuoco](consumer/end-user-focus.md)     
+Tornare a [Domande e risposte in Power BI](consumer/end-user-q-and-a.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

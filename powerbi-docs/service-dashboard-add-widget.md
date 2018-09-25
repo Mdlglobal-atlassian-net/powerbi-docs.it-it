@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 064de8e84edd50f3216c814ddd235452d573d0a0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 68195883f2aad0f3131ec14c508334ac41cd918b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247712"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545867"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ Per modificare un riquadro:
 * Se si vuole incorporare un contenuto da un sito Web, che però non fornisce il codice di incorporamento da copiare e incollare, consultare embed.ly per indicazioni su come generare il codice di incorporamento.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Riquadri del dashboard](service-dashboard-tiles.md)
+[Riquadri del dashboard](consumer/end-user-tiles.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
 

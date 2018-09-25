@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937263"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547063"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Connettersi a Microsoft Dynamics CRM con Power BI
 Microsoft Dynamics CRM Online per Power BI consente di accedere ai dati e analizzarli facilmente. Power BI usa il feed OData per creare un modello descrittivo con tutte le entità e le misurazioni necessarie, tra cui account, attività, opportunità, prodotti, lead, utenti e così via. Dopo aver installato l'app è possibile visualizzare dashboard e report nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nelle app per dispositivi mobili di Power BI. 
@@ -154,7 +154,7 @@ Se CRM Online 2016 o versione successiva non è disponibile, usare Power BI Desk
 Se viene visualizzato un errore "Data refresh failed as query exceeded the maximum limit of 100000 records." (Aggiornamento dati non riuscito. La query supera il limite massimo di 100.000 record.) è consigliabile connettersi direttamente da Power BI Desktop o sfruttando il modello di soluzione CRM.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Cosa sono le app in Power BI?](service-install-use-apps.md)
+* [Cosa sono le app in Power BI?](consumer/end-user-apps.md)
 * [Recuperare dati in Power BI](service-get-data.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

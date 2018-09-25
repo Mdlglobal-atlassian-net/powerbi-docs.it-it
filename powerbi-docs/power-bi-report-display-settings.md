@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242132"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545453"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Impostazioni di visualizzazione della pagina in un report di Power BI
 È essenziale mantenere i pixel del layout del report in condizioni perfette. A volte può essere complesso perché gli utenti visualizzano i report su schemi con proporzioni e dimensioni diverse. 
@@ -39,7 +39,7 @@ Nel servizio Power BI aprire un report e selezionare **Visualizza** nella barra 
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-Le impostazioni di Visualizzazione pagina sono disponibili in [Visualizzazione di lettura e Visualizzazione di modifica](service-reading-view-and-editing-view.md). In Visualizzazione di modifica il proprietario del report può assegnare le 'impostazioni di Visualizzazione pagina a singole pagine del report e queste impostazioni vengono salvate insieme al report. Quando i colleghi aprono il report nella Visualizzazione di lettura, visualizzano le pagine del report con le impostazioni scelte dal proprietario.  In Visualizzazione di lettura i colleghi possono cambiare *alcune* impostazioni di visualizzazione pagina, ma le modifiche non vengono salvate all'uscita dal report.
+Le impostazioni di Visualizzazione pagina sono disponibili in [Visualizzazione di lettura e Visualizzazione di modifica](consumer/end-user-reading-view.md). In Visualizzazione di modifica il proprietario del report può assegnare le 'impostazioni di Visualizzazione pagina a singole pagine del report e queste impostazioni vengono salvate insieme al report. Quando i colleghi aprono il report nella Visualizzazione di lettura, visualizzano le pagine del report con le impostazioni scelte dal proprietario.  In Visualizzazione di lettura i colleghi possono cambiare *alcune* impostazioni di visualizzazione pagina, ma le modifiche non vengono salvate all'uscita dal report.
 
 ##    <a name="page-view-settings"></a>Impostazioni di Visualizzazione pagina
 Il primo set di impostazioni di *Visualizzazione pagina* consente di controllare la visualizzazione della pagina del report relativa alla finestra del browser.  È possibile scegliere tra:
@@ -62,7 +62,7 @@ Il secondo set di impostazioni di *Visualizzazione pagina* consente di controlla
 ## <a name="page-size-settings"></a>Impostazioni di Dimensioni pagina
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-Le impostazioni di *Dimensioni pagina* sono disponibili solo per i proprietari dei report. Nel servizio Power BI (app.powerbi.com) significa quindi che sono disponibili solo se si può aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md). Queste impostazioni controllano le proporzioni di visualizzazione e le dimensioni effettive (in pixel) dell'area di disegno del report.   
+Le impostazioni di *Dimensioni pagina* sono disponibili solo per i proprietari dei report. Nel servizio Power BI (app.powerbi.com) significa quindi che sono disponibili solo se si può aprire il report in [Visualizzazione di modifica](consumer/end-user-reading-view.md). Queste impostazioni controllano le proporzioni di visualizzazione e le dimensioni effettive (in pixel) dell'area di disegno del report.   
 
 * proporzioni 4:3
 * proporzioni 16:9 (impostazione predefinita)
@@ -71,11 +71,11 @@ Le impostazioni di *Dimensioni pagina* sono disponibili solo per i proprietari d
 * Personalizzata (altezza e larghezza in pixel)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Informazioni su come usare le impostazioni di Visualizzazione pagina e le impostazioni di Dimensioni pagina nei report di Power BI](power-bi-change-report-display-settings.md).
+[Informazioni su come usare le impostazioni di Visualizzazione pagina e le impostazioni di Dimensioni pagina nei report di Power BI](consumer/end-user-report-view.md).
 
-Altre informazioni sui [report in Power BI](service-reports.md)
+Altre informazioni sui [report in Power BI](consumer/end-user-reports.md)
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

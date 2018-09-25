@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252141"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545729"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Rinominare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come rinominare un dashboard, un report, una pagina del report, una cartella di lavoro, un set di dati, un'app e un'area di lavoro nel servizio Power BI.
@@ -71,7 +71,7 @@ Chiunque abbia le autorizzazioni di amministratore può rinominare un'area di la
 ## <a name="rename-a-page-in-a-report"></a>Rinominare una pagina in un report
 Modificare il nome di una pagina in un report di Power BI  è estremamente semplice. È possibile rinominare le pagine nella [Visualizzazione di modifica del report](service-interact-with-a-report-in-editing-view.md).
 
-1. Aprire il report in [Visualizzazione di modifica](service-reading-view-and-editing-view.md).
+1. Aprire il report in [Visualizzazione di modifica](consumer/end-user-reading-view.md).
 2. Individuare le linguette delle pagine di report nella parte inferiore della finestra di Power BI.
    
     ![Report con le schede evidenziate](media/service-rename/report-page-tabs-new.png)

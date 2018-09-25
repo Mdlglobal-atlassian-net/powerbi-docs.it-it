@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737002"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545023"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Grafici ad anello in Power BI
 Un grafico ad anello è simile a un grafico a torta perché mostra la relazione delle parti rispetto a un intero. L'unica differenza è data dal fatto che il centro è vuoto e consente di inserire un'etichetta o un'icona.
@@ -43,13 +43,13 @@ Queste istruzioni usano l'esempio di analisi delle vendite al dettaglio per crea
 * I grafici ad anello sono particolarmente indicati per confrontare una specifica sezione con l'intero, invece di confrontare singole sezioni reciprocamente. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](../service-reports.md)
+[Report in Power BI](../consumer/end-user-reports.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

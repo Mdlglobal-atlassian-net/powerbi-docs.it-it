@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737509"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565085"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 Si desidera consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
@@ -98,7 +98,7 @@ Per impostazione predefinita, i filtri dei dati in una pagina di report hanno ef
 2. Selezionare l'icona **Nessuno** sopra il grafico **Total Sales Variance by FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) per impedire l'applicazione del filtro dei dati al grafico. 
 3. Selezionare il filtro dei dati **Mese** e quindi di nuovo l'icona **Nessuno** sopra il grafico **Total Sales Variance da FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) per impedire l'applicazione del filtro dei dati al grafico. Per effetto di queste impostazioni, quando si selezionano nomi e intervalli di date nei filtri dei dati, il grafico Total Sales Variance dal grafico FiscalMonth and District Manager (Varianza vendite complessive per mese fiscale e direttore di zona) rimane invariato. 
 
-Per altre informazioni sulla modifica delle interazioni, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../service-reports-visual-interactions.md).
+Per altre informazioni sulla modifica delle interazioni, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronizzare e usare i filtri dei dati in altre pagine
 A partire dall'aggiornamento di febbraio 2018 di Power BI, è possibile sincronizzare un filtro dei dati e usarlo in una pagina qualsiasi o in tutte le pagine di un report. 
@@ -193,5 +193,5 @@ Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 

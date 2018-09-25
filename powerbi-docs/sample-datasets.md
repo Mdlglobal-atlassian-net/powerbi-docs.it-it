@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 91c08ab428852cc0fa8a721278e232400ed19bfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582501"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546488"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Quali dati di esempio sono disponibili per l'uso con Power BI?
 Non si ha dimestichezza con Power BI e si vorrebbe provarlo, ma non si hanno dati da usare?  Oppure si ha un set di dati ma, non conoscendo (ancora) il funzionamento di Power BI, si teme di danneggiare in qualche modo il set di dati?
@@ -191,7 +191,7 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come file con 
 4. Selezionare il file con estensione pbix per aprirlo in Power BI Desktop.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Concetti di base di Power BI](service-basic-concepts.md)
+[Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
 
 [Esercitazione: Connettersi agli esempi di Power BI](sample-tutorial-connect-to-the-samples.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624747"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548397"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Creare aree di lavoro con i colleghi in Power BI
 
@@ -77,7 +77,7 @@ Nelle aree di lavoro correnti è possibile connettersi anche con i pacchetti di 
 
 ## <a name="distribute-an-app"></a>Distribuire un'app
 
-Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come un'*app*. I colleghi possono ottenere le app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarle automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile trovare e installare le app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Per informazioni dettagliate, vedere [Creare e pubblicare app con dashboard e report in Power BI](service-create-distribute-apps.md).
+Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come un'*app*. I colleghi possono ottenere le app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarle automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile trovare e installare le app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Per informazioni dettagliate, vedere [Creare e pubblicare app con dashboard e report in Power BI](consumer/end-user-create-apps.md).
 
 ## <a name="power-bi-apps-faq"></a>Domande frequenti sulle app di Power BI
 
@@ -92,7 +92,7 @@ Le app rappresentano l'evoluzione dei pacchetti di contenuto aziendali. Se si ha
 Per fare un confronto tra le nuove aree di lavoro per le app e quelle correnti, vedere [Quali sono le differenze tra le nuove aree di lavoro per le app e quelle correnti?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces). 
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Installare e usare app in Power BI](service-install-use-apps.md)
-* [App Power BI per dispositivi esterni](service-connect-to-services.md)
+* [Installare e usare app in Power BI](consumer/end-user-apps.md)
+* [App Power BI per dispositivi esterni](consumer/end-user-connect-to-services.md)
 - [Creare le nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

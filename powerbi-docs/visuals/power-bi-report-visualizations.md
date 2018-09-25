@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3dae6bcd59f44ab66b305b009da1e6fdabc9879
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737239"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546166"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizzazioni nei report di Power BI
 Le visualizzazioni, note anche come oggetti visivi, mostrano informazioni dettagliate individuate nei dati. Un report di Power BI può includere una singola pagina con un oggetto visivo oppure più pagine con molti oggetti visivi. Nel servizio Power BI gli oggetti visivi possono essere [aggiunti dai report ai dashboard](../service-dashboard-pin-tile-from-report.md). 
 
-È importante notare la distinzione tra *autori* del report e *consumer* del report. L'autore è la persona che crea o modifica il report.  Gli autori hanno autorizzazioni di modifica per il report e per il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI è quindi possibile aprire il set di dati o il report nell'editor di report in [Visualizzazione di modifica](../service-reading-view-and-editing-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../service-shared-with-me.md), l'utente è un **consumer** del report. Sarà possibile visualizzare e interagire con il report e con i rispettivi oggetti visivi, ma non sarà possibile salvare le modifiche.
+È importante notare la distinzione tra *autori* del report e *consumer* del report. L'autore è la persona che crea o modifica il report.  Gli autori hanno autorizzazioni di modifica per il report e per il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI è quindi possibile aprire il set di dati o il report nell'editor di report in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../consumer/end-user-shared-with-me.md), l'utente è un **consumer** del report. Sarà possibile visualizzare e interagire con il report e con i rispettivi oggetti visivi, ma non sarà possibile salvare le modifiche.
 
 Sono disponibili molti tipi diversi di oggetti visivi, direttamente dal riquadro VISUALIZZAZIONI di Power BI. 
 

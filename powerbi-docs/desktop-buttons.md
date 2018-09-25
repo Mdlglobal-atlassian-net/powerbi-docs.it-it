@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330490"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546748"
 ---
 # <a name="using-buttons-in-power-bi"></a>Uso dei pulsanti in Power BI
 L'uso dei **pulsanti** in Power BI consente di creare report e dashboard con un comportamento simile alle app e in tal modo di creare un ambiente coinvolgente in modo che gli utenti possano passare il mouse, fare clic e interagire in altri modi con il contenuto di Power BI. È possibile aggiungere pulsanti ai report in **Power BI Desktop** e condividere o pubblicare questi report nel servizio Power BI per creare dashboard con un comportamento simile alle app per gli utenti.
@@ -75,6 +75,6 @@ Per alcuni pulsanti sarà disponibile un'azione predefinita selezionata automati
 Per altre informazioni sulle funzionalità simili o su come interagire con i pulsanti, vedere gli articoli seguenti:
 
 * [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
-* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](service-focus-mode.md)
+* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](consumer/end-user-focus.md)
 * [Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI](desktop-bookmarks.md)
 

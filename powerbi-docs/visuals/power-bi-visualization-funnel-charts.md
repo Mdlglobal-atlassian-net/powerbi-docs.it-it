@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744414"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548466"
 ---
 # <a name="funnel-charts"></a>Grafici a imbuto
 Un grafico a imbuto consente di visualizzare un processo lineare caratterizzato da fasi connesse in sequenza, ad esempio un imbuto di vendita che tiene traccia dei clienti nelle fasi Lead \> Lead qualificato \> Cliente potenziale \> Contratto \> Chiusura.  La forma dell'imbuto indica a colpo d'occhio lo stato del processo di cui si sta tenendo traccia.
@@ -70,7 +70,7 @@ Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguir
    * Il tasso di avanzamento da fase a fase, che corrisponde alla percentuale rispetto alla fase precedente (in questo caso fase di proposta/fase della soluzione)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Aggiungere il grafico a imbuto come riquadro del dashboard](../service-dashboard-tiles.md). 
+5. [Aggiungere il grafico a imbuto come riquadro del dashboard](../consumer/end-user-tiles.md). 
 6. [Salvare il report](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
@@ -81,10 +81,10 @@ Evidenziando una barra in un grafico a imbuto viene applicato il filtro incrocia
 1. Nel grafico a imbuto selezionare la barra **Proposta**. per evidenziare in modo incrociato le altre visualizzazioni nella pagina. Per selezionare più elementi, premere CTRL.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Per impostare le preferenze di evidenziazione incrociata e filtro incrociato degli oggetti visivi, vedere [Interazioni con oggetti visivi in Power BI](../service-reports-visual-interactions.md).
+2. Per impostare le preferenze di evidenziazione incrociata e filtro incrociato degli oggetti visivi, vedere [Interazioni con oggetti visivi in Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Creare un grafico a imbuto in Domande e risposte
-Aprire il dashboard dell'Esempio di analisi delle opportunità o qualsiasi altro dashboard a cui è stata aggiunta almeno una visualizzazione dal set di dati dell'Esempio di analisi delle opportunità.  Quando si digita una domanda in Domande e risposte, Power BI cercare le risposte in tutti i set di dati associati (o con riquadri aggiunti) al dashboard selezionato. Per altre informazioni, vedere [Power BI - Concetti di base](../service-basic-concepts.md).
+Aprire il dashboard dell'Esempio di analisi delle opportunità o qualsiasi altro dashboard a cui è stata aggiunta almeno una visualizzazione dal set di dati dell'Esempio di analisi delle opportunità.  Quando si digita una domanda in Domande e risposte, Power BI cercare le risposte in tutti i set di dati associati (o con riquadri aggiunti) al dashboard selezionato. Per altre informazioni, vedere [Power BI - Concetti di base](../consumer/end-user-basic-concepts.md).
 
 1. Nel dashboard dell'Esempio di analisi delle opportunità iniziare a digitare la domanda nella casella Domande e risposte.
    
@@ -97,7 +97,7 @@ Aprire il dashboard dell'Esempio di analisi delle opportunità o qualsiasi altro
 
 [Aggiungere una visualizzazione a un dashboard](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

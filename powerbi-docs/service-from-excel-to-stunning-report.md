@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: ebbca73f781946f989b2f3afa65aa0a940f7a680
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044418"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545131"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
 Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato si avrebbero impiegato ore per creare elementi visivi e formattare un report. L'ansia sale.
@@ -98,6 +98,6 @@ Passaggi successivi
 
 * [Introduzione al servizio Power BI](service-get-started.md)
 * [Introduzione a Power BI Desktop](desktop-getting-started.md)
-* [Power BI - Concetti di base](service-basic-concepts.md)
+* [Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

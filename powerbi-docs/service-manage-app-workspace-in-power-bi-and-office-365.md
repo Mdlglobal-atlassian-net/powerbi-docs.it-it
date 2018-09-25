@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624345"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547569"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Gestire l'area di lavoro per le app in Power BI e Office 365
-Il creatore o l'amministratore di un'[area di lavoro per le app in Power BI](service-install-use-apps.md) o in Office 365 può gestire alcuni aspetti dell'area di lavoro in Power BI, mentre altri devono essere gestiti in Office 365. 
+Il creatore o l'amministratore di un'[area di lavoro per le app in Power BI](consumer/end-user-apps.md) o in Office 365 può gestire alcuni aspetti dell'area di lavoro in Power BI, mentre altri devono essere gestiti in Office 365. 
 
 > [!NOTE]
 > L'anteprima della nuova esperienza dell'area di lavoro modificherà la relazione tra le aree di lavoro di Power BI e i gruppi di Office 365. Non verrà creato automaticamente un gruppo di Office 365 ogni volta che si crea una delle nuove aree di lavoro. Informazioni sulla [creazione di nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md)
@@ -76,7 +76,7 @@ Quando si distribuisce l'app dall'area di lavoro per le app, l'immagine aggiunta
 3. Selezionare **Salva** o **Rimuovi**.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Cosa sono le app in Power BI?](service-install-use-apps.md)
-* [Pubblicare app con dashboard e report in Power BI](service-create-distribute-apps.md)
+* [Cosa sono le app in Power BI?](consumer/end-user-apps.md)
+* [Pubblicare app con dashboard e report in Power BI](consumer/end-user-create-apps.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

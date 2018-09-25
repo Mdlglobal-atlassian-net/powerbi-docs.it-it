@@ -2,7 +2,7 @@
 title: Grafici a misuratore radiale in Power BI
 description: Grafici a misuratore radiale in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097c7111e630b4c0c80e71d812be73cc232ea6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737023"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565559"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Grafici a misuratore radiale in Power BI
 Un grafico a misuratore radiale è contraddistinto da un arco circolare e consente di visualizzare un unico valore che misura lo stato rispetto al raggiungimento di un obiettivo o a un indicatore KPI.  L'obiettivo, o valore di destinazione, è rappresentato dalla linea (lancetta). Lo stato rispetto al raggiungimento dell'obiettivo è rappresentato dall'ombreggiatura.  Il valore che rappresenta lo stato è visualizzato in grassetto all'interno dell'arco. Tutti i valori possibili sono distribuiti uniformemente lungo l'arco, da quello minimo (all'estrema sinistra) a quello massimo (all'estrema destra).
@@ -92,7 +92,7 @@ Nel passaggio 2, Power BI usa il campo Valore per impostare automaticamente i va
 
 ### <a name="step-5-save-your-report"></a>Passaggio 5: Salvare il report
 1. [Salvare il report](../service-report-save.md).
-2. [Aggiungere il grafico a misuratore come riquadro del dashboard](../service-dashboard-tiles.md). 
+2. [Aggiungere il grafico a misuratore come riquadro del dashboard](../consumer/end-user-tiles.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Utilizzare le opzioni di formattazione per impostare manualmente i valori minimo, massimo e target
 1. Rimuovere **Max of Gross Sales** dall’area **Maximum value** .
@@ -117,7 +117,7 @@ Nel passaggio 2, Power BI usa il campo Valore per impostare automaticamente i va
 
 [Aggiungere una visualizzazione a un dashboard](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

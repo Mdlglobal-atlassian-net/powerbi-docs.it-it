@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310292"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544946"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Caselle di testo nei report di Power BI
 È possibile aggiungere caselle di testo e forme ai report tramite il servizio Power BI e Power BI Desktop. In entrambi i casi, è necessario disporre di autorizzazioni di modifica per il report. Se un report è stato condiviso nel servizio Power BI, non si dispone delle autorizzazioni di modifica. 
@@ -65,6 +65,6 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 ### <a name="next-steps"></a>Passaggi successivi
 [Aggiungere un collegamento ipertestuale a una casella di testo](service-add-hyperlink-to-text-box.md)
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

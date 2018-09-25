@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 51c3fdbef345a0d6020abe35ba7c71aaa67882e4
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726847"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545089"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](power-bi-overview.md).
@@ -53,9 +53,9 @@ Visitare la nostra [playlist su YouTube](https://www.youtube.com/playlist?list=P
 > 
 
 ## <a name="what-is-power-bi-service"></a>Che cos'è il servizio Power BI
-Il servizio Microsoft Power BI è talvolta denominato Power BI online o app.powerbi.com. Power BI consente di rimanere aggiornati sulle informazioni a cui si è interessati.  Con il servizio Power BI, i ***dashboard*** aiutano a tenere sotto controllo l'andamento dell'attività.  I dashboard mostrano ***riquadri*** su cui è possibile fare clic per aprire i ***report*** e ottenere informazioni ancora più dettagliate.  È possibile connettersi a più ***set di dati*** per visualizzare tutti i dati rilevanti insieme in un'unica posizione. Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - Concetti di base](service-basic-concepts.md).
+Il servizio Microsoft Power BI è talvolta denominato Power BI online o app.powerbi.com. Power BI consente di rimanere aggiornati sulle informazioni a cui si è interessati.  Con il servizio Power BI, i ***dashboard*** aiutano a tenere sotto controllo l'andamento dell'attività.  I dashboard mostrano ***riquadri*** su cui è possibile fare clic per aprire i ***report*** e ottenere informazioni ancora più dettagliate.  È possibile connettersi a più ***set di dati*** per visualizzare tutti i dati rilevanti insieme in un'unica posizione. Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - Concetti di base](consumer/end-user-basic-concepts.md).
 
-Se sono presenti dati importanti in file Excel o CSV, è possibile creare un dashboard di Power BI per rimanere sempre aggiornati e condividere informazioni dettagliate con altre persone.  Coloro che hanno una sottoscrizione a un'applicazione SaaS come Salesforce  si avvantaggeranno connettendosi a Salesforce per creare automaticamente un dashboard in base a tali dati o [dare un'occhiata a tutte le altre applicazioni SaaS](service-get-data.md) a cui è possibile connettersi. Se si fa parte di un'organizzazione, verificare la disponibilità di eventuali [app](service-create-distribute-apps.md) pubblicate automaticamente.
+Se sono presenti dati importanti in file Excel o CSV, è possibile creare un dashboard di Power BI per rimanere sempre aggiornati e condividere informazioni dettagliate con altre persone.  Coloro che hanno una sottoscrizione a un'applicazione SaaS come Salesforce  si avvantaggeranno connettendosi a Salesforce per creare automaticamente un dashboard in base a tali dati o [dare un'occhiata a tutte le altre applicazioni SaaS](service-get-data.md) a cui è possibile connettersi. Se si fa parte di un'organizzazione, verificare la disponibilità di eventuali [app](consumer/end-user-create-apps.md) pubblicate automaticamente.
 
 Altre informazioni su tutti gli altri modi per [recuperare dati per Power BI](service-get-data.md).
 
@@ -87,7 +87,7 @@ Di seguito è riportato un esempio di recupero di dati da un file CSV. Per segui
 
     ![Opzione Visualizzazione di lettura](media/service-get-started/power-bi-editing-view.png)
 
-    Nella Visualizzazione di modifica è possibile creare e modificare i report perché l'utente è il *proprietario* del report, ovvero un *autore*. Quando si condivide un report con i colleghi, questi ultimi potranno interagire con il report esclusivamente nella Visualizzazione di lettura, perché sono *consumer*. Altre informazioni sulla [Visualizzazione di lettura e sulla Visualizzazione di modifica](service-reading-view-and-editing-view.md).
+    Nella Visualizzazione di modifica è possibile creare e modificare i report perché l'utente è il *proprietario* del report, ovvero un *autore*. Quando si condivide un report con i colleghi, questi ultimi potranno interagire con il report esclusivamente nella Visualizzazione di lettura, perché sono *consumer*. Altre informazioni sulla [Visualizzazione di lettura e sulla Visualizzazione di modifica](consumer/end-user-reading-view.md).
     
     Per acquisire familiarità con l'editor di report, è possibile [visualizzare la presentazione](service-the-report-editor-take-a-tour.md)
    > 
@@ -158,5 +158,5 @@ Dopo aver completo l'esercitazione, è possibile eliminare il set di dati, il re
 Per approfondire ulteriormente l'argomento,  consultare gli articoli seguenti.
 
 > [!div class="nextstepaction"]
-> [Connettersi ai servizi online usati](./service-connect-to-services.md)
+> [Connettersi ai servizi online usati](consumer/end-user-connect-to-services.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727468"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547880"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Come preparare correttamente i dati di Excel per l'uso di Domande e risposte in Power BI
 Le persone che creano i modelli di dati o le cartelle di lavoro di Excel usati con Power BI devono leggere la sezione seguente.
@@ -27,7 +27,7 @@ Domande e risposte può usare qualsiasi file Excel caricato contenente tabelle, 
 ### <a name="how-qa-works-with-excel"></a>Come funziona Domande e risposte con Excel
 Domande e risposte ha un set di capacità di base per la comprensione del linguaggio naturale che funziona con tutti i dati. Ha una ricerca per parola chiave dipendente dal contesto per i nomi delle tabelle, delle colonne e dei campi calcolati di Excel. Inoltre, contiene informazioni predefinite su come filtrare, ordinare, aggregare, raggruppare e visualizzare i dati. 
 
-Ad esempio, in una tabella di Excel denominata "Sales", con le colonne "Product", "Month", "Units Sold", "Gross Sales" e "Profit" si possono porre domande su una qualsiasi di queste entità.  Si può chiedere di mostrare le vendite, il profitto totale per mese, ordinare i prodotti per unità vendute e così via. Vedere altre informazioni sulla [tipologia di domande che è possibile porre](power-bi-q-and-a.md) e sui [tipi di visualizzazione che è possibile specificare in una query di Domande e risposte](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Ad esempio, in una tabella di Excel denominata "Sales", con le colonne "Product", "Month", "Units Sold", "Gross Sales" e "Profit" si possono porre domande su una qualsiasi di queste entità.  Si può chiedere di mostrare le vendite, il profitto totale per mese, ordinare i prodotti per unità vendute e così via. Vedere altre informazioni sulla [tipologia di domande che è possibile porre](consumer/end-user-q-and-a.md) e sui [tipi di visualizzazione che è possibile specificare in una query di Domande e risposte](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Preparare un set di dati di Excel per Domande e risposte
 Domande e risposte si basa sui nomi delle tabelle, delle colonne e dei campi calcolati per rispondere a domande specifiche sui dati. Questo implica che le entità contenute nella cartella di lavoro sono importanti.
@@ -44,8 +44,8 @@ Ecco alcuni suggerimenti per utilizzare al meglio Domande e risposte nella carte
 * Aprire il set di dati in Power BI Desktop e creare nuove colonne, creare nuove misure calcolate, concatenare i campi per creare valori univoci, classificare i dati per tipo, ad esempio date, stringhe, informazioni geografiche, immagini, URL, e altro ancora.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Tornare a [Domande e risposte in Power BI](power-bi-q-and-a.md)  
-[Preparare i set di dati locali per Domande e risposte](service-q-and-a-direct-query.md)   
+Tornare a [Domande e risposte in Power BI](consumer/end-user-q-and-a.md)  
+[Preparare i set di dati locali per Domande e risposte](consumer/end-user-q-and-a-direct-query.md)   
 [Guida introduttiva a Domande e risposte](power-bi-visualization-introduction-to-q-and-a.md)  
 [Recuperare dati per Power BI](service-get-data.md)  
 

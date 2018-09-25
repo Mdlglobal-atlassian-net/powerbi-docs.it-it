@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726640"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546074"
 ---
 # <a name="the-report-editortake-a-tour"></a>Presentazione dell'editor di report
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Modifica di report nel servizio Power BI e in Power BI Desktop
 Gli editor di report disponibili nel servizio Power BI e in Power BI Desktop sono molto simili. Il video mostra l'editor di report in Power BI Desktop e questo articolo illustra l'editor di report nel servizio Power BI. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Differenza tra *autori* di report e *fruitori* di report
-La possibilità di creare e modificare un report è limitata ai proprietari di report (noti anche come *autori*). I *fruitori* di un report condiviso da altri potranno comunque aprirlo e interagire con il report nel servizio Power BI [solo nella visualizzazione di lettura](service-reading-view-and-editing-view.md), ma non saranno disponibili tutte le funzionalità potenti e complete riservate all'autore del report.  
+La possibilità di creare e modificare un report è limitata ai proprietari di report (noti anche come *autori*). I *fruitori* di un report condiviso da altri potranno comunque aprirlo e interagire con il report nel servizio Power BI [solo nella visualizzazione di lettura](consumer/end-user-reading-view.md), ma non saranno disponibili tutte le funzionalità potenti e complete riservate all'autore del report.  
 
-Per altre informazioni sulla visualizzazione di lettura del report, vedere [Visualizzazione di lettura e visualizzazione di modifica dei report nel servizio Power BI](service-reading-view-and-editing-view.md). 
+Per altre informazioni sulla visualizzazione di lettura del report, vedere [Visualizzazione di lettura e visualizzazione di modifica dei report nel servizio Power BI](consumer/end-user-reading-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Nel servizio Power BI l'*editor di report* è disponibile solo nella [Visualizzazione di modifica](service-reading-view-and-editing-view.md). Per aprire un report nella visualizzazione di modifica, è necessario essere un proprietario del report o l'autore.
+Nel servizio Power BI l'*editor di report* è disponibile solo nella [Visualizzazione di modifica](consumer/end-user-reading-view.md). Per aprire un report nella visualizzazione di modifica, è necessario essere un proprietario del report o l'autore.
 
 L'editor di report di Power BI è organizzato in tre sezioni:  
 
@@ -126,9 +126,9 @@ Nell'area di disegno report viene visualizzato il lavoro. Quando si usano i riqu
 ## <a name="next-steps"></a>Passaggi successivi:
 [Creare un report](service-report-create-new.md)
 
-Altre informazioni sui report nel [servizio Power BI](service-reports.md), in [Power BI Desktop](desktop-report-view.md) e in [Power BI per dispositivi mobili](consumer/mobile/mobile-apps-view-phone-report.md).
+Altre informazioni sui report nel [servizio Power BI](consumer/end-user-reports.md), in [Power BI Desktop](desktop-report-view.md) e in [Power BI per dispositivi mobili](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

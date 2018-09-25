@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598979"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546097"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Modificare o rimuovere un riquadro del dashboard
 
@@ -36,7 +36,7 @@ In questo articolo vengono trattati gli argomenti seguenti.
 * [Eliminare un riquadro](#delete)
   
   > [!TIP]
-  > Per modificare la visualizzazione nel riquadro, eliminare il riquadro e aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md).
+  > Per modificare la visualizzazione nel riquadro, eliminare il riquadro e aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md).
 
   
 ## <a name="prerequisites"></a>Prerequisiti
@@ -142,11 +142,11 @@ Per impostazione predefinita, se si seleziona un riquadro viene in genere aperto
 
 - - -
 ## <a name="next-steps"></a>Passaggi successivi
-[Riquadri del dashboard in Power BI](service-dashboard-tiles.md)
+[Riquadri del dashboard in Power BI](consumer/end-user-tiles.md)
 
-[Dashboard in Power BI](service-dashboards.md)
+[Dashboard in Power BI](consumer/end-user-dashboards.md)
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

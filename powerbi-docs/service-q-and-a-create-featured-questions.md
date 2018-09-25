@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726318"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548236"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Creare domande in primo piano per Domande e risposte di Power BI
 Se si ha un set di dati, è possibile aggiungere nuove domande in primo piano a questo set di dati.  Domande e risposte su Power BI visualizzerà queste domande ai colleghi che usano (*utilizzano*) il set di dati.  Le domande in primo piano danno un'idea ai colleghi sul tipo di domande che possono porre sul set di dati. Le domande in primo piano aggiunte dipendono dall'utente; aggiungere domande frequenti, domande che consentono di visualizzare risultati interessanti o domande che potrebbero essere difficili da formulare.
@@ -47,8 +47,8 @@ Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-dat
    ![Visualizzazione mappa](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Passaggi successivi
-[Domande e risposte in Power BI](power-bi-q-and-a.md)  
+[Domande e risposte in Power BI](consumer/end-user-q-and-a.md)  
 [Esercitazione: Introduzione a Domande e risposte di Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI - Concetti di base](service-basic-concepts.md)  
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

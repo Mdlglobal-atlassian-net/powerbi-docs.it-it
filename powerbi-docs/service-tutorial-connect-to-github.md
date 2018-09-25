@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310108"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548105"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Esercitazione: Connettersi a un esempio di GitHub con Power BI
 In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al repository pubblico dei contenuti di Power BI (noto anche come *repository*), ottenere informazioni sul numero di persone che contribuiscono al contento pubblico di Power BI, sapere chi contribuisce di più, in quale giorno della settimana si registrano più contributi nonché avere risposte ad altre domande. 
@@ -125,6 +125,6 @@ Dopo aver completo l'esercitazione, è possibile eliminare l'app GitHub.
 In questa esercitazione è stata eseguita la connessione a un repository pubblico di GitHub e sono stati ottenuti i dati che Power BI ha formattato sotto forma di dashboard e report. Esplorando il dashboard e il report è stato possibile ottenere le risposte ad alcune domande relative ai dati. Ora è possibile scoprire come connettersi ad altri servizi, ad esempio Salesforce, Microsoft Dynamics e Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Connettersi ai servizi online usati](./service-connect-to-services.md)
+> [Connettersi ai servizi online usati](consumer/end-user-connect-to-services.md)
 
 

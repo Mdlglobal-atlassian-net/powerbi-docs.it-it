@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727560"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545200"
 ---
 # <a name="hyperlinks-in-tables"></a>Collegamenti ipertestuali nelle tabelle
 Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Una volta creati, usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
@@ -89,7 +89,7 @@ R: no. È possibile usare un'icona di collegamento. Se è necessario testo perso
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

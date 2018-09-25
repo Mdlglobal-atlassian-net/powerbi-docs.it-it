@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737077"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548112"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
 
@@ -137,11 +137,11 @@ Vedere la sezione dedicata al riconoscimento vocale della pagina sulle [novità 
 È possibile migliorare i risultati che gli utenti e i clienti ottengono quando usano l'analista virtuale Domande e risposte in un set di dati, ponendo domande più mirate o migliorando il set di dati.
 
 ### <a name="how-to-ask-questions"></a>Come porre domande
-* Seguire i [Suggerimenti per porre domande in Domande e risposte](../../service-q-and-a-tips.md) nel servizio Power BI o nell'analista virtuale Domande e risposte nell'app per dispositivi mobili iOS.
+* Seguire i [Suggerimenti per porre domande in Domande e risposte](../end-user-q-and-a-tips.md) nel servizio Power BI o nell'analista virtuale Domande e risposte nell'app per dispositivi mobili iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Come migliorare il set di dati
 * Migliorare il set di dati in Power BI Desktop o nel servizio Power BI per [verificare che i dati funzionino bene con Domande e risposte e l'analista virtuale Domande e risposte](../../service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Domande e risposte nel servizio Power BI](../../power-bi-q-and-a.md)
+* [Domande e risposte nel servizio Power BI](../end-user-q-and-a.md)
 * Domande? Controllare la [sezione dedicata alle app per dispositivi mobili della Community di Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

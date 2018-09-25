@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737347"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544004"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
 Un grafico combinato in Power BI è una singola visualizzazione che combina un grafico a linee e un istogramma. La combinazione dei 2 grafici in uno permette di confrontare i dati in modo più rapido.
@@ -103,13 +103,13 @@ In questa attività, si confronteranno margine lordo e vendite.
 
 Da qui è possibile:
 
-* [Aggiungere il grafico combinato come riquadro del dashboard](../service-dashboard-tiles.md).
+* [Aggiungere il grafico combinato come riquadro del dashboard](../consumer/end-user-tiles.md).
 * [Salvare il report](../service-report-save.md).
 * [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Evidenziazione incrociata e filtro incrociato
 
-Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../service-reports-visual-interactions.md) per modificare questo comportamento predefinito.
+Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../consumer/end-user-interactions.md) per modificare questo comportamento predefinito.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -117,6 +117,6 @@ Evidenziando una colonna o una linea in un grafico combinato vengono applicati l
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83aacb2c3ecf95d8daecc8e9c79bd312cefd6d86
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744427"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543351"
 ---
 # <a name="basic-area-chart"></a>Grafico ad aree di base
 Il grafico ad aree di base, detto anche grafico ad aree su più livelli, è basato sul grafico a linee. L'area compresa tra l'asse e la linea viene riempita con colori per indicare un volume. 
@@ -60,7 +60,7 @@ Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati \> E
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
 Per informazioni sull'uso del riquadro FILTRI, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
 
-Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo superiore.  Diversamente da altri tipi di visualizzazioni, se nella stessa pagina sono presenti altre visualizzazioni, evidenziando un grafico ad area di base non viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report. Sono comunque una destinazione per i filtri incrociati applicati da altre visualizzazioni nella pagina del report. Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../service-reports-visual-interactions.md).
+Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo superiore.  Diversamente da altri tipi di visualizzazioni, se nella stessa pagina sono presenti altre visualizzazioni, evidenziando un grafico ad area di base non viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report. Sono comunque una destinazione per i filtri incrociati applicati da altre visualizzazioni nella pagina del report. Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../consumer/end-user-interactions.md).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi   
@@ -68,8 +68,8 @@ Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo sup
 * I grafici ad aree di base non sono efficaci per il confronto di valori a causa dell'occlusione sulle aree su più livelli. Power BI usa la trasparenza per indicare la sovrapposizione di aree. Questo, tuttavia, risulta efficace solo in presenza di due o tre aree diverse. Quando si deve confrontare la tendenza con più di tre misure, provare a usare i grafici a linee. Quando si deve confrontare il volume con più di tre misure, provare a usare la mappa ad albero.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](../service-reports.md)  
+[Report in Power BI](../consumer/end-user-reports.md)  
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)  
-[Power BI - Concetti di base](../service-basic-concepts.md)  
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

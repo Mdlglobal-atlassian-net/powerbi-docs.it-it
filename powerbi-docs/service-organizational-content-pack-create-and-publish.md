@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: eaf70dab21bd35947582e343567bb1457b99cabc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624253"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547983"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creare e pubblicare un pacchetto di contenuto aziendale di Power BI (esercitazione)
 
@@ -92,7 +92,7 @@ Per iniziare, nel [servizio Power BI](https://powerbi.com) passare a **Recupera 
 ### <a name="next-steps"></a>Passaggi successivi
 * [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md)  
 * [Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali](service-organizational-content-pack-manage-update-delete.md)  
-* [Creare un gruppo in Power BI](service-create-distribute-apps.md)  
+* [Creare un gruppo in Power BI](consumer/end-user-create-apps.md)  
 * [OneDrive for Business](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

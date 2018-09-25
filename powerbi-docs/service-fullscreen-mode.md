@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727583"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545798"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Modalità schermo intero nel servizio Power BI
 ## <a name="what-is-full-screen-mode"></a>Che cos'è la modalità schermo intero?
@@ -24,7 +24,7 @@ ms.locfileid: "44727583"
 
 È possibile visualizzare i contenuti di Power BI (dashboard, pagine di report, riquadri e visualizzazioni) senza la distrazione di menu e barre di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV. Le funzionalità disponibili in modalità schermo intero dipendono dal contenuto. 
 
-Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop non ha una modalità schermo intero per i report o le visualizzazioni, ma include la funzionalità Adatta alla pagina per la [visualizzazione delle relazioni e dei report](desktop-report-view.md) e la [modalità messa a fuoco per gli oggetti visivi dei report](service-focus-mode.md).
+Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop non ha una modalità schermo intero per i report o le visualizzazioni, ma include la funzionalità Adatta alla pagina per la [visualizzazione delle relazioni e dei report](desktop-report-view.md) e la [modalità messa a fuoco per gli oggetti visivi dei report](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ Alcuni usi della modalità schermo intero sono:
 * visualizzazione su schermi di piccole dimensioni
 * revisione in modalità di blocco - possibilità di toccare la schermata o passare il mouse sui riquadri senza aprire il dashboard o il report sottostante
 
-> **NOTA**: la modalità schermo intero è diversa rispetto alla [modalità messa a fuoco (POP-out)](service-focus-mode.md).
+> **NOTA**: la modalità schermo intero è diversa rispetto alla [modalità messa a fuoco (POP-out)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Il video seguente illustra come aprire ed esplorare il dashboard in modalità sc
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Visualizzazioni e riquadri dei dashboard in modalità schermo intero
-1. Per visualizzare i riquadri dei dashboard e le visualizzazioni dei report in modalità schermo intero, è necessario che il riquadro o la visualizzazione sia già in [modalità messa a fuoco](service-focus-mode.md). 
+1. Per visualizzare i riquadri dei dashboard e le visualizzazioni dei report in modalità schermo intero, è necessario che il riquadro o la visualizzazione sia già in [modalità messa a fuoco](consumer/end-user-focus.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. Selezionare quindi l'icona Schermo intero ![icona Schermo intero](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  per il riquadro o l'oggetto visivo. Il riquadro o l'oggetto visivo verrà visualizzato a schermo senza menu o barre di spostamento.
@@ -86,8 +86,8 @@ Il video seguente illustra come aprire ed esplorare il dashboard in modalità sc
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Dashboard in Power BI](service-dashboards.md)  
-[Modalità messa a fuoco](service-focus-mode.md)    
+[Dashboard in Power BI](consumer/end-user-dashboards.md)  
+[Modalità messa a fuoco](consumer/end-user-focus.md)    
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

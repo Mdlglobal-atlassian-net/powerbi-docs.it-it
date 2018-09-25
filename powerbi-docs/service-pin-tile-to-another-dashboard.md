@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249115"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545900"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Aggiungere un riquadro da un dashboard a un altro dashboard
-Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è possibile copiarlo da un altro dashboard. Ognuno di questi riquadri, quando si fa clic su di esso, è un collegamento per tornare al punto in cui è stato creato, ovvero in Domande e risposte o in un report. 
+Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è possibile copiarlo da un altro dashboard. Ognuno di questi riquadri, quando si fa clic su di esso, è un collegamento per tornare al punto in cui è stato creato, ovvero in Domande e risposte o in un report. 
 
 > [!NOTE]
 > non è possibile aggiungere riquadri dai dashboard condivisi.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Aggiungere un riquadro a un altro dashboard
 1. [Recuperare i dati](service-get-data.md). Questo esempio usa [Esempio di analisi della spesa IT](sample-it-spend.md).
-2. Aprire un [dashboard](service-dashboards.md).
+2. Aprire un [dashboard](consumer/end-user-dashboards.md).
 3. Passare il puntatore del mouse sul riquadro da aggiungere, quindi selezionare i puntini di sospensione (...) e scegliere **Aggiungi sezione**.  
    
    ![Menu di puntini di sospensione](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ Per aggiungere un nuovo [riquadro del dashboard](service-dashboard-tiles.md), è
 6. Selezionare **Vai al dashboard** per visualizzare il riquadro bloccato. In quel punto è possibile [rinominare, ridimensionare, collegare e spostare](service-dashboard-edit-tile.md) la visualizzazione aggiunta.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Riquadri in Power BI](service-dashboard-tiles.md)  
-[Dashboard in Power BI](service-dashboards.md)  
+[Riquadri in Power BI](consumer/end-user-tiles.md)  
+[Dashboard in Power BI](consumer/end-user-dashboards.md)  
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

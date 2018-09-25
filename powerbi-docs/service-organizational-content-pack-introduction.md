@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624299"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547638"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
@@ -42,7 +42,7 @@ La pubblicazione di un pacchetto di contenuto aziendale lo aggiunge ad AppSource
 
 * Per visualizzare AppSource, selezionare **Recupera dati** > **Organizzazione** > **Recupera**.
 
-Ulteriori informazioni su [ricerca e apertura dei pacchetti di contenuto dell'organizzazione](service-organizational-content-pack-find-and-open.md).
+Ulteriori informazioni su [ricerca e apertura dei pacchetti di contenuto dell'organizzazione](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Ciclo di vita di un pacchetto di contenuto aziendale
 Qualsiasi utente di Power BI Pro può creare, pubblicare e accedere ai pacchetti di contenuto aziendali. Solo il creatore del pacchetto di contenuto può modificare la cartella di lavoro e il set di dati, pianificare l'aggiornamento ed eliminarlo.
@@ -52,7 +52,7 @@ Il ciclo di vita è simile al seguente:
 1. In Power BI Pro Mattia crea un pacchetto di contenuto e lo pubblica nel gruppo di distribuzione Marketing. Le impostazioni di aggiornamento vengono ereditate con il set di dati e possono essere modificate solo da Mattia.
    
    > [!NOTE]
-   > Se Mattia crea il pacchetto di contenuto dall'interno di un'[area di lavoro dell'app Power BI](service-create-distribute-apps.md) di appartenenza, ma anche se lascia l'area di lavoro, altri utenti dell'area di lavoro di Power BI possono acquisirne la proprietà.
+   > Se Mattia crea il pacchetto di contenuto dall'interno di un'[area di lavoro dell'app Power BI](consumer/end-user-create-apps.md) di appartenenza, ma anche se lascia l'area di lavoro, altri utenti dell'area di lavoro di Power BI possono acquisirne la proprietà.
    > 
    > 
 2. Mattia invia un messaggio di posta elettronica al gruppo di distribuzione, per informarlo del nuovo pacchetto di contenuto.
@@ -76,7 +76,7 @@ Tutti i membri del gruppo di distribuzione hanno le stesse autorizzazioni per i 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare e pubblicare un pacchetto di contenuto aziendale](service-organizational-content-pack-create-and-publish.md)
-* [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md) 
-* [Power BI - Concetti di base](service-basic-concepts.md)
+* [Creare e distribuire un'app in Power BI](consumer/end-user-create-apps.md) 
+* [Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726663"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545752"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Come funziona la collaborazione e la condivisione in Power BI?
 
@@ -57,7 +57,7 @@ Si supponga di voler distribuire il dashboard a un pubblico più vasto. Dopo ave
 
 ![Icona Pubblica app](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). È possibile inviare agli utenti aziendali un collegamento diretto all'app o dire loro di cercarla in AppSource. Se l'amministratore di Power BI concede le autorizzazioni, è possibile installare un'app automaticamente nell'account Power BI dei colleghi. Altre informazioni sulla [pubblicazione delle app](service-create-distribute-apps.md). 
+Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). È possibile inviare agli utenti aziendali un collegamento diretto all'app o dire loro di cercarla in AppSource. Se l'amministratore di Power BI concede le autorizzazioni, è possibile installare un'app automaticamente nell'account Power BI dei colleghi. Altre informazioni sulla [pubblicazione delle app](consumer/end-user-create-apps.md). 
 
 Dopo l'installazione di un'app è possibile visualizzarla nel browser o su un dispositivo mobile.
 
@@ -88,7 +88,7 @@ Altre informazioni su come [aggiungere annotazioni e condividere riquadri, repor
 È anche possibile [condividere uno snapshot di un riquadro](consumer/mobile/mobile-windows-10-phone-app-get-started.md) dall'app Power BI per i dispositivi Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Stampare o salvare in formato PDF o altri file statici
-È possibile stampare o salvare in formato PDF o un altro formato di file statici un dashboard intero, un riquadro del dashboard, una pagina del report o una visualizzazione dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta. Altre informazioni su [stampa o salvataggio come file statico](service-print.md).
+È possibile stampare o salvare in formato PDF o un altro formato di file statici un dashboard intero, un riquadro del dashboard, una pagina del report o una visualizzazione dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta. Altre informazioni su [stampa o salvataggio come file statico](consumer/end-user-print.md).
 
 ## <a name="publish-to-the-web"></a>Pubblicare sul Web
 
@@ -99,7 +99,7 @@ Altre informazioni su come [aggiungere annotazioni e condividere riquadri, repor
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Condividere i dashboard con i colleghi e con altri utenti](service-share-dashboards.md)
-* [Creare e pubblicare un'app in Power BI](service-create-distribute-apps.md)
+* [Creare e pubblicare un'app in Power BI](consumer/end-user-create-apps.md)
 * Per inviare suggerimenti, passare al [sito della community di Power BI](https://community.powerbi.com/).
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
 

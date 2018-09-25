@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b38c69d74141b28215e0a14a32fc7b03fab4fdbf
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: e60cc5341bba50d9fac82f032656f449cadaa255
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558471"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546552"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 Informazioni su come gestire le capacità di Power BI Premium e Power BI Embedded che forniscono risorse dedicate per il contenuto usato.
@@ -183,6 +183,6 @@ Se si seleziona **Chiave del server di report di Power BI** viene visualizzata u
 Per altre informazioni, vedere [Install Power BI Report Server](report-server/install-report-server.md) (Installare il Server di report di Power BI).
 
 ## <a name="next-steps"></a>Passaggi successivi
-Condividere app pubblicate con altri utenti. Per altre informazioni, vedere [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md).
+Condividere app pubblicate con altri utenti. Per altre informazioni, vedere [Creare e distribuire un'app in Power BI](consumer/end-user-create-apps.md).
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: da330e75642e243637f792cde706b6d34ce70062
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 8cf0a4de37f1bdc6e90a05799caebd2ce0e77046
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280732"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548305"
 ---
 # <a name="power-bi-pro-in-your-organization"></a>Power BI Pro nell'organizzazione
 
@@ -35,7 +35,7 @@ Le funzionalità seguenti richiedono una licenza Power BI Pro:
 
 Dopo aver effettuato l'iscrizione all'account gratuito, è possibile provare la versione Pro gratuitamente per 60 giorni. Sarà possibile accedere a tutte le funzionalità Pro per la durata del periodo di valutazione. Power BI Pro dispone di tutte le funzionalità della versione gratuita di Power BI, oltre a funzionalità di condivisione e collaborazione aggiuntive. Per altre informazioni, vedere la [pagina dei prezzi di Power BI](https://powerbi.microsoft.com/en-us/pricing/). Per provare una versione di valutazione gratuita di 60 giorni di Power BI Pro, iscriversi a Power BI e provare una di queste funzionalità Power BI Pro.
 
-* [Creare un'area di lavoro](service-create-distribute-apps.md)
+* [Creare un'area di lavoro](consumer/end-user-create-apps.md)
 * [Share a dashboard (Condividi un dashboard)](service-share-dashboards.md)
 
 Quando si prova una qualsiasi di queste funzionalità, viene richiesto l'avvio della versione di valutazione gratuita. È anche possibile decidere di usarla selezionando l'icona dell'ingranaggio e poi Gestisci archivio personale. Selezionare quindi Prova gratuitamente la versione Pro sulla destra.

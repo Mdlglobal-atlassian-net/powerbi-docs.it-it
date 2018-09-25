@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e49b5ddab09c32662beb04ce70e5dc7606d92f59
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737329"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545946"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 Questa esercitazione illustra i diversi modi disponibili per personalizzare gli assi X e Y degli oggetti visivi. Non tutti gli oggetti visivi contengono assi o sono personalizzabili. I grafici a torta, ad esempio, non contengono assi. Le opzioni di personalizzazione variano da un oggetto visivo all'altro; sono quindi disponibili troppe opzioni per descriverle tutte in un solo articolo. Verranno quindi descritte alcune delle personalizzazioni degli assi usate più di frequente e verrà illustrato l'uso della scheda di formattazione visiva dell'area di disegno report di Power BI.  
@@ -86,7 +86,7 @@ Per questo esempio verrà creato un grafico combinato che esamina l'impatto del 
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../power-bi-report-change-sort.md#other)
+> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 > 1. La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
 > 2. Aggiungere **This Year Sales > Value** e **Last Year Sales** al grafico a linee. La scala della **% del margine lordo dello scorso anno** (linea blu lungo la linea della griglia in corrispondenza dello 0%) è notevolmente ridotta rispetto a quella di **Sales**, di conseguenza risulta difficile confrontarle. Inoltre, le percentuali delle etichette dell'asse Y non sono ottimali.      
 
@@ -137,6 +137,6 @@ Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-repor
 
 [Personalizzare le proprietà di colori e assi](service-getting-started-with-color-formatting-and-axis-properties.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

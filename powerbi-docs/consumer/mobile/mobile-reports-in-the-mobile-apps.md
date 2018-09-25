@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5fe4212be55a42a6892a94e2a07da8af5c035b6d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44742956"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547247"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -82,7 +82,7 @@ Quando si seleziona un valore in un oggetto visivo, gli altri oggetti visivi non
 * Per invertire l'ordinamento, toccare di nuovo i puntini di sospensione (**...**), quindi toccare di nuovo il nome dello stesso campo.
 
 ## <a name="drill-down-and-up-in-a-visual"></a>Eseguire il drill-down e il drill-up in un oggetto visivo
-Se l'autore di un report ha aggiunto funzionalità di drill-down a un oggetto visivo, è possibile eseguire il drill-down nell'oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](../../power-bi-visualization-drill-down.md) in Power BI Desktop o nel servizio Power BI. 
+Se l'autore di un report ha aggiunto funzionalità di drill-down a un oggetto visivo, è possibile eseguire il drill-down nell'oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](../end-user-drill.md) in Power BI Desktop o nel servizio Power BI. 
 
 * Toccare e tenere premuto su una barra o un punto specifico in un oggetto visivo per visualizzare la descrizione comando. In caso di drill-down, la parte inferiore della descrizione comando contiene delle frecce che è possibile toccare. 
   

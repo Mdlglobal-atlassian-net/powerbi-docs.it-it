@@ -2,7 +2,7 @@
 title: Grafici a cascata in Power BI
 description: Grafici a cascata in Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: feb608455add8740d7894fa2cec3c54a8a26944e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1c771ed49a000374c58beb694dda511a8c9a097
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736789"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565821"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Grafici a cascata in Power BI
 Un grafico a cascata mostra il totale aggiornato ogni volta che si aggiungono o si sottraggono valori. È utile per comprendere in che modo un valore iniziale (ad esempio, il reddito netto) è interessato da una serie di modifiche positive e negative.
@@ -74,13 +74,13 @@ Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un
 Evidenziando una colonna in un grafico a cascata viene applicato il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Tuttavia, la colonna Totale non attiva l'evidenziazione e non risponde al filtro incrociato.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](../service-reports.md)
+[Report in Power BI](../consumer/end-user-reports.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
 
-[Power BI - Concetti di base](../service-basic-concepts.md)
+[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

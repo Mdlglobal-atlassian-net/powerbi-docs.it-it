@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924536"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544625"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Connettersi ad Adobe Analytics con Power BI
 Per connettersi ad Adobe Analytics con Power BI, è necessario prima di tutto connettersi all'account di Adobe Analytics Marketing Cloud. Si ottiene un'app con un dashboard e un set di report di Power BI che forniscono informazioni dettagliate sul traffico e sul numero di utenti del sito. I dati vengono aggiornati automaticamente una volta al giorno. È possibile interagire con i dashboard e i report, ma non è possibile salvare le modifiche.
@@ -94,7 +94,7 @@ Se dopo avere specificato le credenziali viene visualizzato un errore che segnal
 Se viene visualizzato un errore dopo aver fornito correttamente le credenziali, è possibile che il completamento dei report impieghi troppo tempo. Un errore comune è presentato nel formato *"Impossibile ottenere dati dal report di Adobe Analytics. Contenuto incluso &quot;referrer, page&quot;, durata approssimativa: xx secondi"*. Rivedere la sezione "Cosa è incluso" e confrontare le dimensioni dell'istanza di Adobe. Purtroppo non esiste attualmente un modo per ovviare a questo timeout. Si sta tuttavia prendendo in considerazione la possibilità di aggiornamenti per migliorare il supporto delle istanze più grandi. Inviare eventuali commenti e suggerimenti al team di Power BI all'indirizzo https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Cosa sono le app in Power BI?](service-install-use-apps.md)
+* [Cosa sono le app in Power BI?](consumer/end-user-apps.md)
 * [Recuperare dati in Power BI](service-get-data.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38876883"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548696"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Connettersi a Google Analytics con Power BI
 Per connettersi a Google Analytics con Power BI, è necessario prima di tutto connettersi all'account di Google Analytics. Verranno visualizzati un dashboard di Power BI e un set di report di Power BI che forniscono informazioni dettagliate sul traffico e sul numero di utenti del sito. È possibile interagire con i dashboard e i report, ma non è possibile salvare le modifiche. I dati verranno aggiornati automaticamente una volta al giorno.
@@ -69,7 +69,7 @@ Se i problemi persistono, aprire un ticket di supporto per contattare il team di
 * Nel sito del supporto tecnico di Power BI (da cui si sta leggendo questo articolo) selezionare **Contattare il supporto tecnico** sul lato destro della pagina.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Cosa sono le app in Power BI?](service-install-use-apps.md)
+* [Cosa sono le app in Power BI?](consumer/end-user-apps.md)
 * [Recuperare dati in Power BI](service-get-data.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 
