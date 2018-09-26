@@ -1,21 +1,21 @@
 ---
 title: Salvare un report in Power BI
 description: Salvare un report nel servizio Power BI e in Power BI Desktop
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: deba4a654c1b43361f7c44c2f0717fb7e348cb98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f98d4c5e7b7cc02c9a08d982edb88b2e129f51e6
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548673"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186871"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Salvare un report nel servizio Power BI e in Power BI Desktop
 Dopo aver apportato le modifiche a un report in Power BI, è possibile salvarlo con un nuovo nome oppure chiuderlo senza salvare le modifiche. Si supponga di aprire un report, creare una visualizzazione e aggiungerla al dashboard. Se il report viene chiuso senza salvare le modifiche, il riquadro resta nel dashboard, ma la visualizzazione non viene salvata nel report. Quando si fa clic su tale riquadro nel dashboard, il report si apre, ma la visualizzazione non esiste nel report.

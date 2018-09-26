@@ -1,7 +1,7 @@
 ---
 title: Introduzione al servizio Power BI (Power BI online)
 description: Introduzione al Power BI online (app.powerbi.com)
-author: adamw
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c64a5e487725bdfedf03b496322a52e7664f5455
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545089"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187123"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](power-bi-overview.md).

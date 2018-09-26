@@ -1,20 +1,20 @@
 ---
 title: Esercitazione - Come usare Domande e risposte in un dashboard o in un report
 description: Esercitazione su come usare Domande e risposte di Power BI per creare nuove visualizzazioni nei dashboard e nei report.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/17/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543591"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187146"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Esercitazione: Come usare Domande e risposte per creare visualizzazioni e report
 Nella [panoramica di Domande e risposte](consumer/end-user-q-and-a.md) è stata illustrata la funzionalità Domande e risposte di Power BI e la differenza tra *consumer* (utenti con cui sono stati condivisi dashboard e report) e *autori* (proprietari dei report e dei set di dati sottostanti). La prima parte di questa esercitazione è destinata principalmente agli utenti (consumer) che accedono ai dashboard tramite il servizio Power BI. La seconda parte è invece destinata a coloro che creano i report tramite il servizio Power BI o Power BI Desktop. Gli argomenti relativi a [Domande e risposte e Power BI per dispositivi mobili](consumer/mobile/mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/qanda.md) vengono illustrati in articoli separati.

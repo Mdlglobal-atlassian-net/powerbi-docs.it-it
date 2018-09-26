@@ -1,21 +1,21 @@
 ---
 title: Interagire con un report nella visualizzazione di modifica
 description: Interagire con un report nella visualizzazione di modifica dei report nel servizio Power BI
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/11/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7640c9f49205de97556af9cfa51c641a93d9d69c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547431"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186654"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagire con un report nella visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI e in Power BI Desktop è possibile creare e modificare i report. Nel servizio Power BI i report possono essere creati e modificati in **Visualizzazione di modifica**. In Power BI Desktop, invece, i report possono essere creati e modificati nella [**visualizzazione Report**](desktop-report-view.md). Questo articolo illustra Visualizzazione di modifica nel servizio Power BI. 
