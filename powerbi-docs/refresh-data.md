@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329685"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417373"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 La disponibilità continua dei dati più recenti è spesso fondamentale per poter prendere le decisioni giuste. Molti hanno probabilmente già usato il comando Recupera dati in Power BI per connettersi ai dati e caricarli, nonché hanno creato report e un dashboard. A questo punto, è necessario assicurarsi che i dati siano davvero i più aggiornati e completi.
@@ -211,8 +211,6 @@ I dashboard in tempo reale usano l'API REST di Microsoft Power BI o l'analisi di
 | **Origine dati** | **Automatico** | **Aggiornamento pianificato o manuale configurato dall'utente** | **Gateway richiesto** |
 | --- | --- | --- | --- |
 | App personalizzate sviluppate con l'API REST di Power BI o l'analisi di flusso Microsoft |Sì, streaming live |No |No |
-
-Per altre informazioni, vedere [Creare un dashboard in tempo reale in Power BI](https://msdn.microsoft.com/library/mt267603.aspx).
 
 ## <a name="configure-scheduled-refresh"></a>Configurare l'aggiornamento pianificato
 Per informazioni su come configurare l'aggiornamento pianificato, vedere [Configurare l'aggiornamento pianificato](refresh-scheduled-refresh.md)
