@@ -4,17 +4,16 @@ description: Informazioni su come integrare o incorporare un dashboard, un riqua
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 07/26/2018
-ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
+ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39255872"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48039440"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Esercitazione: Incorporare un dashboard, un riquadro o un report di Power BI nell'applicazione per cloud sovrani
 Informazioni su come integrare o incorporare un dashboard, un riquadro o un report in un'app Web tramite Power BI .NET SDK insieme all'API JavaScript di Power BI durante l'incorporamento per i clienti. Questo è in genere uno scenario ISV.
@@ -415,3 +414,4 @@ Limitazioni e considerazioni
 * Gli account GCC attualmente supportano solo le capacità P ed EM
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+
