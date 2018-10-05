@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dfb45be36516be9196fbdd4297209ce4bf15925c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512952"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974208"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregazioni in Power BI Desktop (anteprima)
 
@@ -243,7 +243,7 @@ Il seguente modello replica i valori *Month*, *Quarter*, *Semester* e *Year* nel
 
 La tabella seguente mostra le voci impostate nella finestra di dialogo **Gestisci aggregazioni** della tabella **Sales Agg**. Le voci GroupBy in cui **Date** è la tabella dei dettagli sono obbligatorie per raggiungere le aggregazioni per le query che raggruppano in base agli attributi Date. Come nell'esempio precedente, le voci GroupBy per CustomerKey e ProductSubcategoryKey non influiscono sui riscontri di aggregazione a causa della presenza di relazioni, comunque con l'eccezione di DISTINCTCOUNT.
 
-![Tabella di aggregazione Sales Agg](media/desktop-aggregations/aggregations-table_03.jpg)
+![Tabella di aggregazione Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
 > Nota: poiché si tratta di una tabella dei dettagli, questo modello richiede che la tabella **Date** sia in modalità DirectQuery per compilare la finestra di dialogo Gestisci aggregazioni. Si tratta di una limitazione dell'anteprima che verrà probabilmente rimossa per la disponibilità generale.
 
