@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa812801eb01529c3e364d69f041b7efd193c3ae
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 05a644c300a0879b2f5eedd95cdddc537cc6fd0b
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657875"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512065"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -53,6 +53,7 @@ La categoria **File** fornisce le connessioni dati seguenti:
 * XML
 * JSON
 * Cartella
+* PDF (beta)
 * Cartella di SharePoint
 
 La figura seguente mostra la finestra **Recupera dati** per **File**.
@@ -79,7 +80,8 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Impala
 * Google BigQuery
 * Snowflake
-* Exasol
+* Exasol (beta)
+* Jethro (beta)
 
 > [!NOTE]
 > Alcuni connettori di database devono essere abilitati selezionando **File > Opzioni e impostazioni > Opzioni** e quindi **Funzionalità in anteprima**. Se alcuni dei connettori citati sopra non sono visibili e si vuole usarli, controllare le impostazioni **Funzionalità in anteprima**. Si noti anche che qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione.
@@ -93,6 +95,7 @@ La figura seguente mostra la finestra **Recupera dati** per **Database**.
 La categoria **Power BI** fornisce le connessioni dati seguenti:
 
 * Set di dati Power BI
+* Flussi di dati Power BI (beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Power BI**.
 
@@ -108,7 +111,7 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Store
 * Azure HDInsight (HDFS)
-* Spark in Azure HDInsight (Beta)
+* Azure HDInsight Spark
 * HDInsight Interactive Query (Beta)
 * Azure KustoDB (beta)
 
@@ -169,6 +172,7 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 * File Hadoop (HDFS)
 * Spark
 * Script R
+* Script Python
 * ODBC
 * OLE DB
 * Query vuota

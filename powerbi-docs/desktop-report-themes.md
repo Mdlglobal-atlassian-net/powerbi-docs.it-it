@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657944"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512180"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato, salvo alcuni casi particolari descritti più avanti in questo articolo.
@@ -36,7 +36,17 @@ Se si usa una versione precedente di **Power BI Desktop**, è possibile abilitar
 È sempre consigliabile l'aggiornamento alla versione più recente di **Power BI Desktop**, che è possibile ottenere da un collegamento in [Scarica Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Come funzionano i temi dei report
-Per applicare un tema a un report di Power BI Desktop, selezionare il pulsante **Cambia tema** nella scheda **Home** sulla barra multifunzione, quindi selezionare **Importa tema** nell'elenco a discesa.
+Per applicare un tema del report a un report di Power BI Desktop, è possibile selezionare tra i temi del report predefiniti disponibili oppure importare un tema personalizzato.
+
+Per eseguire la selezione dai temi del report predefiniti disponibili, selezionare il pulsante **Cambia tema** nella scheda **Home** della barra multifunzione e quindi selezionare uno dei temi inclusi nel menu a discesa.
+
+![selezionare un tema del report](media/desktop-report-themes/report-themes_2a.png)
+
+Il tema del report viene applicato al report e si è pronti per iniziare.
+
+### <a name="importing-report-themes"></a>Importazione dei temi del report
+
+Per importare un tema del report personalizzato, selezionare il pulsante **Cambia tema** nella scheda **Home** della barra multifunzione e quindi selezionare **Importa tema** nell'elenco a discesa.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 

@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280755"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512157"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop (anteprima)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
 
 ![Descrizioni comando del report per Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ ms.locfileid: "39280755"
 Con le descrizioni comando dei report è possibile effettuare diverse operazioni. Di seguito vengono descritte le procedure per la creazione delle descrizioni comando e per la loro configurazione.
 
 ### <a name="enable-the-tooltips-preview"></a>Abilitare l'anteprima delle descrizioni comando 
-Poiché le descrizioni comando del report sono attualmente in anteprima, per poter creare tali descrizioni comando è necessario abilitarle. Per abilitare la funzionalità di anteprima delle descrizioni comando del report, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima** in Power BI Desktop, quindi selezionare la casella di controllo accanto a **Descrizioni comando per le pagine del report**. 
+A partire dalla versione di **Power BI Desktop** di settembre 2018, le descrizioni comando sono disponibili a livello generale e non devono essere abilitate. 
+
+Se si usa una versione precedente di **Power BI Desktop**, è possibile abilitare questa funzionalità di anteprima selezionando **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima** in Power BI Desktop e quindi selezionando la casella di controllo accanto a **Descrizioni comando per le pagine del report**. 
 
 ![Abilitare la funzionalità di anteprima delle descrizioni comando del report](media/desktop-tooltips/desktop-tooltips_01.png)
 
 Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop** per abilitare la versione di anteprima delle descrizioni comando del report.
+
+È sempre consigliabile l'aggiornamento alla versione più recente di **Power BI Desktop**, che è possibile ottenere da un collegamento in [Scarica Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="create-a-report-tooltip-page"></a>Creare una pagina di descrizione comando del report
 Per iniziare, creare una nuova pagina del report facendo clic sul pulsante **+**, disponibile nella parte inferiore dell'area di disegno di **Power BI Desktop**, nell'area delle schede della pagina. Il pulsante si trova accanto all'ultima pagina del report. 
@@ -117,8 +121,9 @@ Quando un oggetto visivo viene evidenziato in modo incrociato in un report, le d
 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-Per questa versione di anteprima delle **descrizioni comando** dei report occorre tenere presenti alcune limitazioni e considerazioni.
+Occorre tenere presenti alcune limitazioni e considerazioni relative alle **descrizioni comando**.
 
+* A partire dal rilascio di settembre 2018 di **Power BI Desktop**, che ha segnato la disponibilità a livello generale delle descrizioni comandi, anche gli oggetti visivi delle schede supportano le descrizioni comando.
 * A partire dalla versione di luglio 2018 di **Power BI Desktop**, gli oggetti visivi Tabella e Matrice sono supportati per le descrizioni comando. 
 * Le descrizioni comando dei report non sono supportate quando si visualizzano i report nelle app per dispositivi mobili o negli ambienti incorporati, tra cui la pubblicazione sul Web. 
 * Le descrizioni comando dei report non sono supportate per gli oggetti visivi personalizzati. 
