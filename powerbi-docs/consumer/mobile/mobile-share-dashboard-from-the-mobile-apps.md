@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 40d3e311e9ff9276200a37cabf2d29b324f83f7b
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737164"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271648"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
 Si applica a:
@@ -23,7 +23,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
 
-Con una [licenza di Power BI Pro](../../service-free-vs-pro.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](../../service-premium.md).
+Con una [licenza di Power BI Pro](../../service-features-license-type.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](../../service-premium.md).
 
 Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [aggiungere annotazioni e condividere lo snapshot di un riquadro, un report o un oggetto visivo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con chiunque. 
 
