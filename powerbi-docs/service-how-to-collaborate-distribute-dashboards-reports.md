@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271714"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908970"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Come funziona la collaborazione e la condivisione in Power BI?
 
@@ -57,7 +57,7 @@ Si supponga di voler distribuire il dashboard a un pubblico più vasto. Dopo ave
 
 ![Icona Pubblica app](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). È possibile inviare agli utenti aziendali un collegamento diretto all'app o dire loro di cercarla in AppSource. Se l'amministratore di Power BI concede le autorizzazioni, è possibile installare un'app automaticamente nell'account Power BI dei colleghi. Altre informazioni sulla [pubblicazione delle app](consumer/end-user-create-apps.md). 
+Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). È possibile inviare agli utenti aziendali un collegamento diretto all'app o dire loro di cercarla in AppSource. Se l'amministratore di Power BI concede le autorizzazioni, è possibile installare un'app automaticamente nell'account Power BI dei colleghi. Altre informazioni sulla [pubblicazione delle app](service-create-distribute-apps.md). 
 
 Dopo l'installazione di un'app è possibile visualizzarla nel browser o su un dispositivo mobile.
 
@@ -99,7 +99,7 @@ Altre informazioni su come [aggiungere annotazioni e condividere riquadri, repor
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Condividere i dashboard con i colleghi e con altri utenti](service-share-dashboards.md)
-* [Creare e pubblicare un'app in Power BI](consumer/end-user-create-apps.md)
+* [Creare e pubblicare un'app in Power BI](service-create-distribute-apps.md)
 * Per inviare suggerimenti, passare al [sito della community di Power BI](https://community.powerbi.com/).
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
 

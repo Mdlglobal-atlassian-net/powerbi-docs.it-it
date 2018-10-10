@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564835"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908625"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Che cos'è un report di Power BI?
@@ -67,7 +67,7 @@ Per iniziare, è possibile leggere gli argomenti seguenti organizzati in base al
 * Iniziare con una [presentazione del servizio Power BI](end-user-basic-concepts.md), in cui viene spiegato dove trovare i report e i relativi strumenti.
 * Fare clic sul collegamento per informazioni su come [aprire un report](end-user-report-open.md) e su tutte le interazioni disponibili nella [Visualizzazione di lettura](end-user-reading-view.md).
 * Per acquisire familiarità con i report, eseguire la presentazione di uno degli [esempi](../sample-tutorial-connect-to-the-samples.md) forniti.  
-* Se il report non è più necessario, è possibile [rimuoverlo](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Per conoscere il set di dati usato nel report e i dashboard contenenti riquadri aggiunti dal report, [visualizzare il contenuto correlato](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Per iniziare, è possibile leggere gli argomenti seguenti organizzati in base al
 [Che cos'è Power BI?](../power-bi-overview.md) 
 
 [Power BI - Concetti di base](end-user-basic-concepts.md)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

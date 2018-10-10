@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00f4f63630efd36b55da5e15ce28f1733edaf84f
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547293"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908671"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introduzione all'app Power BI per dispositivi mobili per Windows 10
 Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile accedere a informazioni aziendali aggiornate tramite tablet o telefoni abilitati per il tocco, nonché visualizzare e interagire con i dashboard aziendali ovunque ci si trovi, direttamente dalla [schermata Start di Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -108,7 +108,7 @@ Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi m
 Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositivi Windows 10 con dashboard e report di Power BI e con report per dispositivi mobili di Reporting Services e indicatori KPI nel portale Web di Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboard e report di Power BI
-* Visualizzare le [app](../end-user-apps.md).
+* Visualizzare le [app](../../service-create-distribute-apps.md).
 * Visualizzare i [dashboard](mobile-apps-view-dashboard.md).
 * [Aggiungere riquadri e dashboard di Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) alla schermata Start del dispositivo come riquadri animati.
 * [Condividere riquadri](mobile-windows-10-phone-app-get-started.md).

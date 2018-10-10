@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565982"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908855"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile [visualizzare in Power BI i dati](end-user-show-data.md) usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -55,7 +55,7 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
 4. Selezionare i puntini di sospensione nell'angolo in alto a destra della visualizzazione. Scegliere  **Esporta dati**.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. In Power BI online se la visualizzazione contiene un'aggregazione (ad esempio se si modifica **Count** in *average*, **sum** o *minimum*), si avranno due opzioni: **Riepilogo dati** e **Dati sottostanti**. In Power BI Desktop è disponibile solo l'opzione **Riepilogo dati**. Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
+5. In Power BI online se la visualizzazione contiene un'aggregazione (ad esempio se si modifica **Count** in *average*, *sum* o *minimum*), si avranno due opzioni: **Riepilogo dati** e **Dati sottostanti**. In Power BI Desktop è disponibile solo l'opzione **Riepilogo dati**. Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Selezionare **Riepilogo dati** > **Esporta** e scegliere xlsx o csv. Power BI esporta i dati.  Se sono stati applicati i filtri per la visualizzazione, i dati verranno esportati come filtrati. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.

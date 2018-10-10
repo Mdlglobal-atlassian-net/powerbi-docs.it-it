@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2682dd9c4d64e3042273df88c86b146e07c681b3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: dc440c42692b1707649fadf415dfe32fd7b731c8
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549524"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48907902"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Rimuovere la connessione a un pacchetto di contenuto aziendale di Power BI
 
@@ -35,7 +35,7 @@ Quando si rimuove il set di dati, vengono rimossi anche tutti i report e i dashb
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md) 
-* [Creare e distribuire un'app in Power BI](consumer/end-user-create-apps.md) 
+* [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md) 
 * [Concetti di base di Power BI](consumer/end-user-basic-concepts.md)  
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

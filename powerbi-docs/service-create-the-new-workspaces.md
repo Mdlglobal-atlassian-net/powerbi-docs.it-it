@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548834"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909016"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Creare le nuove aree di lavoro (anteprima) in Power BI
 
@@ -130,7 +130,7 @@ Nelle nuove aree di lavoro sono disponibili tre ruoli: amministratori, membri e 
 
 ## <a name="distribute-an-app"></a>Distribuire un'app
 
-Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come un'*app*. È possibile creare un'app da ogni area di lavoro. I colleghi possono ottenere l'app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile trovare e installare l'app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Per informazioni dettagliate, vedere [Creare e pubblicare app con dashboard e report in Power BI](consumer/end-user-create-apps.md).
+Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come un'*app*. È possibile creare un'app da ogni area di lavoro. I colleghi possono ottenere l'app in diversi modi. Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi. Altrimenti, è possibile trovare e installare l'app da Microsoft AppSource oppure è possibile inviare loro un collegamento diretto. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Per informazioni dettagliate, vedere [Creare e pubblicare app con dashboard e report in Power BI](service-create-distribute-apps.md).
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Convertire le aree di lavoro per le app precedenti nelle nuove aree di lavoro per le app
 
@@ -172,7 +172,6 @@ Di seguito sono riportati i problemi noti. Le correzioni corrispondenti sono in 
 - Se un'area di lavoro viene spostata da una capacità Premium a una capacità condivisa, in alcuni casi gli utenti e i gruppi di utenti del livello gratuito continueranno a ricevere i messaggi di posta elettronica anche se non dovrebbero. Questo problema si verifica quando l'area di lavoro personale dell'utente che crea la sottoscrizione è assegnata a una capacità Premium.
 
 ## <a name="next-steps"></a>Passaggi successivi
-
-- [Creare le aree di lavoro correnti](service-create-workspaces.md)
-* [Installare e usare app in Power BI](consumer/end-user-apps.md)
+* [Creare le aree di lavoro correnti](service-create-workspaces.md)
+* [Installare e usare app in Power BI](service-create-distribute-apps.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
