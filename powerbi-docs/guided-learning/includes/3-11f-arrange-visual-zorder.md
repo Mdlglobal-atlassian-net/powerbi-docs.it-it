@@ -4,7 +4,7 @@ Per gestire l'ordine Z degli elementi in un report, selezionare un elemento e us
 
 ![](media/3-11f-arrange-visual-zorder/3-11f_1.png)
 
-Usando le opzioni del menu visualizzato con il pulsante **Disponi**, è possibile ottenere l'ordinamento desiderato degli elementi del report. È possibile spostare un oggetto visivo in avanti o indietro di un livello oppure spostarlo in primo piano o in secondo piano.
+Usando le opzioni del menu visualizzato con il pulsante **Disponi**, è possibile ottenere l'ordinamento voluto degli elementi del report. È possibile spostare un oggetto visivo in avanti o indietro di un livello oppure spostarlo in primo piano o in secondo piano.
 
 L'uso del pulsante Disponi è particolarmente utile quando si usano forme come bordi o sfondi decorativi o per evidenziare sezioni specifiche di un singolo grafico o diagramma. È possibile usare queste opzioni anche per creare uno sfondo, come il rettangolo azzurro seguente usato come sfondo del titolo del report.
 

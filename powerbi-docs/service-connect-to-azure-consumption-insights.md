@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31f1d4161801b45307e92ad3f654d30843897dc8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 987b6998823119fa8aa85d2aabe4d37608a6a671
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244158"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549869"
 ---
 # <a name="connect-to-microsoft-azure-consumption-insights-with-power-bi"></a>Connettersi a Microsoft Azure Consumption Insights con Power BI
 Esplorare e monitorare i dati relativi ai consumi di Microsoft Azure in Power BI con il pacchetto di contenuto Power BI. I dati verranno aggiornati automaticamente una volta al giorno.
@@ -44,10 +44,10 @@ Connettersi al [pacchetto di contenuto Microsoft Azure Consumption Insights](htt
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="whats-included"></a>Cosa è incluso
 Il pacchetto di contenuto Microsoft Azure Consumption Insights include dati di report mensili per l'intervallo di mesi specificato durante il flusso di connessione. L'intervallo è una finestra mobile, quindi le date incluse vengono aggiornate quando viene aggiornato il set di dati.

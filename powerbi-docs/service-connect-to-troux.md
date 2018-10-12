@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dbf3831264a354ec96a38751dfa7a3719c5c9f2a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb7828bf22f364ae0982d5c80a17b075bb5b143
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247942"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549582"
 ---
 # <a name="connect-to-troux-for-power-bi"></a>Connettersi a Troux per Power BI
 Con il pacchetto di contenuto Troux per Power BI è possibile visualizzare il repository Enterprise Architecture in modi completamente nuovi direttamente in Power BI. Il pacchetto di contenuto offre una serie di informazioni sulle funzionalità aziendali, le applicazioni che consentono di distribuire tali funzionalità e le tecnologie che supportano le applicazioni che possono essere completamente personalizzate usando Power BI.
@@ -44,10 +44,10 @@ Connettersi al [pacchetto di contenuto Troux](https://app.powerbi.com/getdata/se
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 L'accesso al feed OData di Troux e a Troux 9.5.1 o versione successiva è obbligatorio.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7456a030dd5047642c4de9c7a289fed96fe390f1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 7bab3839b5f47448a6882d0ea15bb0f253ceb5ea
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135974"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547879"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Connettersi ad Alpine Metrics Sales Predictions con Power BI
 Alpine Metrics offre servizi all'avanguardia per l'ottimizzazione dei processi di vendita basata sull'analisi predittiva nel cloud e su richiesta per società commerciali di piccole e grandi dimensioni. Il pacchetto di contenuto Alpine Metrics Sales Predictions per Power BI include metriche, ad esempio vendite potenziali e stimate e rischi, che consentono una maggiore conoscenza del futuro dell'azienda. 
@@ -43,10 +43,10 @@ Connettersi al [Pacchetto di contenuto Alpine Metrics Sales Predictions](https:/
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="whats-included"></a>Cosa è incluso
 Il pacchetto di contenuto include i dati delle tabelle seguenti:  
@@ -68,5 +68,5 @@ Il pacchetto di contenuto include i dati delle tabelle seguenti:
 ## <a name="next-steps"></a>Passaggi successivi
 [Che cos'è Power BI?](power-bi-overview.md)
 
-[Power BI - Concetti di base](service-basic-concepts.md)
+[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
 

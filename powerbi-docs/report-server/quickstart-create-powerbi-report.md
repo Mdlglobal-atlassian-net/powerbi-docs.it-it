@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 64757d6cbd82b666bf18f1ee87d8e51954872990
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726732"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564924"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creare un report di Power BI per Server di report di Power BI
 È possibile archiviare e gestire report di Power BI nel portale Web del Server di report di Power BI, proprio come nel cloud nel servizio Power BI (https://powerbi.com)). È possibile creare e modificare i report in Power BI Desktop e pubblicarli nel portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili su un dispositivo mobile.
@@ -31,7 +31,7 @@ Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pr
 
     ![Scaricare Power BI Desktop dal portale Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    In alternativa, passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (ottimizzato per il server di report di Power BI - marzo 2018) nell'Area download Microsoft.
+    In alternativa, passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (ottimizzato per il server di report di Power BI - agosto 2018) nell'Area download Microsoft.
 
 2. Nella pagina dell'Area download selezionare **Scarica**.
 
@@ -41,13 +41,13 @@ Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pr
 
     - **PBIDesktopRS_x64.msi** (versione a 64 bit).
 
-4. Dopo il download del programma di installazione, eseguire l'installazione guidata di Power BI Desktop (marzo 2018).
+4. Dopo il download del programma di installazione, eseguire l'installazione guidata di Power BI Desktop (agosto 2018).
 
 2. Al termine dell'installazione, selezionare **Avvia Power BI Desktop**.
    
-    Verrà avviato automaticamente e si è pronti per iniziare. Per determinare se la versione in uso è quella corretta, verificare che nella barra del titolo sia presente "Power BI Desktop (marzo 2018)".
+    Verrà avviato automaticamente e si è pronti per iniziare. Per determinare se la versione in uso è quella corretta, verificare che nella barra del titolo sia presente "Power BI Desktop (agosto 2018)".
 
-    ![Power BI Desktop versione di marzo 2018](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+    ![Power BI Desktop versione di agosto 2018](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
 
 3. Se non si ha familiarità con Power BI Desktop, è consigliabile guardare i video nella schermata iniziale.
    
@@ -91,36 +91,6 @@ Quando il report è pronto, salvarlo nel server di report di Power BI scelto nel
 2. A questo punto è possibile visualizzarlo nel portale Web.
    
     ![Visualizzare il report nel portale Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
-
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
-I report nel server di report di Power BI e nel servizio Power BI (http://powerbi.com)) funzionano in modo quasi identico, ma alcune funzionalità sono diverse.
-
-### <a name="in-a-browser"></a>In un browser
-I report del server di report di Power BI supportano tutte le visualizzazioni, tra cui:
-
-* Oggetti visivi personalizzati
-
-I report del server di report di Power BI non supportano:
-
-* Oggetti visivi R
-* Mappe di ArcGIS
-* Percorsi di navigazione
-* Funzionalità in anteprima di Power BI Desktop
-
-### <a name="in-the-power-bi-mobile-apps"></a>Nelle app Power BI per dispositivi mobili
-I report del server di report di Power BI supportano tutte le funzionalità di base nelle [app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md), tra cui:
-
-* [Layout del report per il telefono](../desktop-create-phone-report.md): è possibile ottimizzare un report per le app Power BI per dispositivi mobili. Sul telefono cellulare i report ottimizzati hanno un layout e un'icona speciale, ![Icona del layout del report per il telefono](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png).
-  
-    ![Report ottimizzati per i telefoni](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
-
-I report del server di report di Power BI non supportano queste funzionalità nelle app Power BI per dispositivi mobili:
-
-* Oggetti visivi R
-* Mappe di ArcGIS
-* Oggetti visivi personalizzati
-* Percorsi di navigazione
-* Filtro geografico o codici a barre
 
 ## <a name="next-steps"></a>Passaggi successivi
 ### <a name="power-bi-desktop"></a>Power BI Desktop

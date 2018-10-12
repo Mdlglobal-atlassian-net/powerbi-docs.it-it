@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddf08edf7494cd8b918a93d41b384b4e89376d95
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d6793c41cea8da251fd700800e1f11ca88bb0be4
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543351"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416959"
 ---
 # <a name="basic-area-chart"></a>Grafico ad aree di base
 Il grafico ad aree di base, detto anche grafico ad aree su più livelli, è basato sul grafico a linee. L'area compresa tra l'asse e la linea viene riempita con colori per indicare un volume. 
@@ -41,35 +41,43 @@ Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati \> E
 
 1. Dal dashboard "Esempio di analisi delle vendite al dettaglio" selezionare il riquadro **Total Stores** per aprire il report "Esempio di analisi delle vendite al dettaglio".
 2. Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica.
-3. Aggiungere una nuova pagina del report selezionando l'icona con il segno più (+) di colore giallo nella parte inferiore del report.
+3. Aggiungere una nuova pagina del report selezionando l'icona con il segno più (+) di colore giallo nella parte inferiore del report stesso.
 4. Creare un grafico ad aree che visualizzi le vendite dell'anno e le vendite dell'anno precedente per mese.
    
    a. Nel riquadro CAMPI selezionare **Sales \> Last Year Sales** e **This Year Sales > Value**.
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
-   b.  Convertire il grafico in un grafico ad area di base selezionando l'icona del grafico ad area nel riquadro VISUALIZZAZIONI.
+   b.  Convertire il grafico in un grafico ad area di base selezionando l'icona corrispondente nel riquadro Visualizzazioni.
 
    ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
    c.  Selezionare **Ora \> Mese** per aggiungerlo all'area **Asse**.   
    ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  Per visualizzare il grafico in base al mese, selezionare i puntini di sospensione (in alto a destra dell'oggetto visivo) e scegliere **Ordina per mese**.
+   d.  Per visualizzare il grafico in base al mese, selezionare i puntini di sospensione (in alto a destra dell'oggetto visivo) e scegliere **Ordina per mese**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e selezionare **Ordinamento crescente** oppure **Ordinamento decrescente**.
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
-Per informazioni sull'uso del riquadro FILTRI, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
+Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
 
-Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo superiore.  Diversamente da altri tipi di visualizzazioni, se nella stessa pagina sono presenti altre visualizzazioni, evidenziando un grafico ad area di base non viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report. Sono comunque una destinazione per i filtri incrociati applicati da altre visualizzazioni nella pagina del report. Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../consumer/end-user-interactions.md).
+Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo superiore.  Diversamente da altri tipi di visualizzazioni, se nella stessa pagina sono presenti altre visualizzazioni, evidenziando un grafico ad area di base non viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report. Sono comunque una destinazione per i filtri incrociati applicati da altre visualizzazioni nella pagina del report. 
+
+1. Provare a selezionare il grafico ad area e a copiarlo in un'altra pagina del report (CTRL-C e CTRL-V).
+2. Selezionare una delle aree ombreggiate e quindi l'altra. Si noterà che questa operazione non ha alcun effetto sulle altre visualizzazioni nella pagina.
+
+    ![Vendite dell'anno in corso selezionate nel grafico ad area](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
+
+3. Selezionare ora un elemento in una delle altre visualizzazioni nella pagina, ad esempio una barra di un grafico a colonne o un mese in un grafico a linee. Si noti l'effetto sul grafico ad area, che viene filtrato.  
+
+    ![Barra Ft Oglethorpe selezionata](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+
+Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../service-reports-visual-interactions.md).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi   
 * [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md)
 * I grafici ad aree di base non sono efficaci per il confronto di valori a causa dell'occlusione sulle aree su più livelli. Power BI usa la trasparenza per indicare la sovrapposizione di aree. Questo, tuttavia, risulta efficace solo in presenza di due o tre aree diverse. Quando si deve confrontare la tendenza con più di tre misure, provare a usare i grafici a linee. Quando si deve confrontare il volume con più di tre misure, provare a usare la mappa ad albero.
 
-## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](../consumer/end-user-reports.md)  
-[Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)  
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)  
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+## <a name="next-step"></a>Passaggio successivo
+[Report in Power BI](power-bi-visualization-card.md)  
 

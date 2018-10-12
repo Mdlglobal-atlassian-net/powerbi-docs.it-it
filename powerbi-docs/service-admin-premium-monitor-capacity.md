@@ -8,27 +8,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 09/26/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 069a7d6c6d1503dd207eea9208f90d70e9ca1264
+ms.sourcegitcommit: 8138220c42606069e2f5f97c6e4d29888dbdd036
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300162"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47420701"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Monitorare le capacità di Power BI Premium nell'organizzazione
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorare le capacità di Power BI Premium e Power BI Embedded
 
-Questo articolo offre una panoramica del monitoraggio delle metriche per le capacità di Power BI Premium. L'utilizzo del monitoraggio delle capacità consente di adottare un approccio informato per gestire le capacità. 
+Questo articolo offre una panoramica del monitoraggio delle metriche per le capacità di Power BI Premium. L'utilizzo del monitoraggio delle capacità consente di adottare un approccio informato per gestire le capacità.
 
 È possibile monitorare la capacità con l'app Power BI Premium Capacity Metrics o nel portale di amministrazione. È consigliata l'app perché offre molti più dettagli, ma questo articolo descrive entrambe le opzioni.
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Installare l'app Premium Capacity Metrics
 
 È possibile passare direttamente all'[app Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) o installarla come per le altre app in Power BI.
-
-> [!IMPORTANT]
-> Per installare e usare questa app, è necessario essere un amministratore della capacità per almeno una capacità. Non è sufficiente essere un amministratore di Power BI. 
 
 1. In Power BI fare clic su **App**.
 
@@ -42,47 +39,66 @@ Questo articolo offre una panoramica del monitoraggio delle metriche per le capa
 
 Dopo aver installato l'app, è possibile visualizzare le metriche sulle capacità all'interno dell'organizzazione. Di seguito vengono descritte alcune delle principali metriche disponibili.
 
-## <a name="use-the-metrics-app"></a>Usare l'app per le metriche 
+## <a name="use-the-metrics-app"></a>Usare l'app per le metriche
+
 Quando si apre l'app, viene prima di tutto visualizzato un dashboard con un riepilogo di tutte le capacità per cui si hanno diritti di amministratore.
 
-![Panoramica dei report Premium](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![Dashboard dell'app per le metriche](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Applicazione di filtri
+Il report ha tre schede, che verranno descritte più dettagliatamente nelle sezioni seguenti.
 
-La scheda **Filters applied to all pages** (Filtri applicati a tutte le pagine) consente di selezionare una capacità, un set di dati e/o un intervallo di date negli ultimi sette giorni. Questi filtri applicano la selezione a tutte le pagine e i riquadri rilevanti in questo report. In assenza di una selezione, il report mostra per impostazione predefinita le metriche della settimana precedente per ogni capacità di cui si è proprietari.
+* **Filters applied to all pages** (Filtri applicati a tutte le pagine): consente di filtrare le altre pagine del report in base a una capacità specifica.
+* **Datasets** (Set di dati): visualizza metriche dettagliate sull'integrità dei set di dati all'interno delle capacità.
+* **System** (Sistema): visualizza metriche di capacità complessive, ad esempio metriche di utilizzo elevato della CPU e della memoria. 
 
-![Panoramica dei report Premium](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Scheda Filters applied to all pages (Filtri applicati a tutte le pagine)
 
-### <a name="summary-tab"></a>Scheda Summary (Riepilogo)
+La scheda **Filters applied to all pages** (Filtri applicati a tutte le pagine) consente di selezionare una capacità, un set di dati e un intervallo di date negli ultimi sette giorni. I filtri vengono quindi applicati a tutte le pagine e a tutti i riquadri del report. Se non viene selezionato alcun filtro, per impostazione predefinita il report visualizza le metriche della settimana precedente per ogni capacità di cui si ha la proprietà.
 
-La scheda **Summary** (Riepilogo) mostra una visualizzazione della capacità basata su entità, sistema e set di dati.
+![Scheda Filters (Filtri)](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Filtri che si applicano a tutte le pagine](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Scheda Set di dati
 
-| **Area** | **Metriche** |
+La scheda **Datasets** (Set di dati) rende disponibile la maggior parte delle metriche nell'app. Usare i quattro pulsanti nella parte superiore della scheda per passare ad aree diverse: **Summary** (Riepilogo), **Refreshes** (Aggiornamenti), **Queries** (Query) e **Datasets** (Set di dati).
+
+![Scheda Set di dati](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Area Summary (Riepilogo)
+
+![Pulsante Summary (Riepilogo)](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+L'area **Summary** (Riepilogo) presenta una visualizzazione delle capacità per entità, risorse di sistema e carichi di lavoro dei set di dati.
+
+| | **Metriche** |
 | --- | --- |
 | **Entities** (Entità) | * Numero di capacità di cui si è proprietari<br> * Numero di set di dati nella capacità<br> * Numero di aree di lavoro nella capacità |
 | **System** (Sistema) | * Utilizzo medio della memoria in GB negli ultimi sette giorni<br> * Utilizzo massimo della memoria in GB nel corso degli ultimi sette giorni e l'ora locale in cui si è verificato<br> * Numero di volte in cui la CPU ha superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti<br> * La maggior parte delle volte in cui la CPU ha superato l'80% negli ultimi sette giorni, suddivise in bucket di un'ora e l'ora locale in cui si è verificato l'evento<br> * Numero di volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti<br> * La maggior parte delle volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% negli ultimi sette giorni, suddivise in bucket di un'ora e l'ora locale in cui si è verificato l'evento |
 | **Dataset Workloads** (Carichi di lavoro dei set di dati) | * Numero totale di aggiornamenti negli ultimi sette giorni<br> * Numero totale di aggiornamenti riusciti negli ultimi sette giorni<br> * Numero totale di aggiornamenti non riusciti negli ultimi sette giorni<br> * Numero totale di aggiornamenti non riusciti a causa di memoria insufficiente<br> * La durata media degli aggiornamenti viene misurata in minuti, il tempo impiegato per completare l'operazione<br> * Il tempo di attesa medio degli aggiornamenti viene misurato in minuti, il ritardo medio tra l'ora pianificata e l'inizio dell'operazione<br> * Numero totale di query eseguite negli ultimi sette giorni<br> * Numero totale di query completate negli ultimi sette giorni<br> * Numero totale di query non riuscite negli ultimi sette giorni<br> * La durata media delle query viene misurata in minuti, il tempo impiegato per completare l'operazione<br> * Numero totale di modelli rimossi a causa di un utilizzo elevato della memoria |
 |  |  |
 
-### <a name="refreshes-tab"></a>Scheda Refreshes (Aggiornamenti)
+#### <a name="refreshes-area"></a>Area Refreshes (Aggiornamenti)
 
-La scheda **Refreshes** (Aggiornamenti) elenca gli aggiornamenti completi, le misure di esito positivo, il tempo di attesa medio/massimo degli aggiornamenti e la durata media/massima degli aggiornamenti suddivisi in base ai set di dati negli ultimi sette giorni. I due grafici in basso mostrano gli aggiornamenti in rapporto all'utilizzo della memoria in GB e i tempi di attesa medi suddivisi in bucket di un'ora, indicati nell'ora locale. I grafici a barre superiori elencano i primi cinque set di dati in base al tempo massimo impiegato per completare l'aggiornamento del set di dati (durata dell'aggiornamento) e il tempo di attesa massimo per l'aggiornamento. La presenza di più picchi elevati per i tempi di attesa degli aggiornamenti è indicativa di un livello di utilizzo molto alto della capacità.
+![Pulsante Refreshes (Aggiornamenti)](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Report sugli aggiornamenti Premium](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+L'area **Refreshes** (Aggiornamenti) elenca gli aggiornamenti completati, le misure con esito positivo, il tempo di attesa medio/massimo degli aggiornamenti e la durata media/massima degli aggiornamenti suddivisi in base ai set di dati negli ultimi sette giorni. I due grafici in basso mostrano gli aggiornamenti in rapporto all'utilizzo della memoria in GB e i tempi di attesa medi suddivisi in bucket di un'ora, indicati nell'ora locale. I grafici a barre superiori elencano i primi cinque set di dati in base al tempo medio impiegato per completarne l'aggiornamento (durata dell'aggiornamento), nonché il tempo di attesa medio per l'aggiornamento. La presenza di più picchi elevati per i tempi di attesa degli aggiornamenti è indicativa di un livello di utilizzo molto alto della capacità.
 
-### <a name="datasets-tab"></a>Scheda Set di dati
+#### <a name="queries-area"></a>Area Queries (Query)
 
-La scheda **Datasets** (Set di dati) mostra i set di dati completi rimossi a causa di un utilizzo elevato della memoria su base oraria.
+![Pulsante Queries (Query)](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Report sui set di dati Premium](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+L'area **Queries** (Query) elenca il numero totale di query eseguite, il numero totale di query in attesa per le query dinamiche e le query dirette, la durata media e massima, il tempo medio e massimo di attesa espresso in millisecondi. Questi dati sono suddivisi per set di dati, area di lavoro e bucket orari negli ultimi sette giorni. I grafici nella parte inferiore illustrano il numero delle query, la durata media (in millisecondi) e il tempo di attesa (in millisecondi) rispetto al consumo di memoria in GB. Questi dati sono suddivisi in bucket di un'ora nell'ora locale. I due grafici superiori a destra elencano i primi cinque set di dati per durata media delle query e tempo di attesa per il completamento di queste. Una durata notevole delle query e tempi di attesa lunghi sono indicativi di un livello di utilizzo molto alto della capacità. Questi sintomi possono indicare anche che il problema è causato da un unico set di dati e che è necessario indagarne le cause.
+
+#### <a name="datasets-area"></a>Area Datasets (Set di dati)
+
+![Pulsante Datasets (Set di dati)](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+L'area **Datasets** (Set di dati) visualizza i set di dati completi rimossi a causa di un utilizzo elevato della memoria su base oraria.
 
 ### <a name="system-tab"></a>Scheda System (Sistema)
 
-La scheda **System** (Sistema) mostra l'utilizzo elevato della CPU (numero di volte in cui l'utilizzo ha superato l'80%), l'utilizzo elevato di connessioni DirectQuery/dinamiche e l'utilizzo della memoria.
+La scheda **System** (Sistema) visualizza informazioni sull'utilizzo elevato della CPU (numero di volte in cui l'utilizzo ha superato l'80%), nonché sull'utilizzo elevato di connessioni di query dirette/dinamiche e sull'utilizzo della memoria.
 
-![Report sul sistema Premium](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Report sul sistema Premium](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorare la capacità di Power BI Embedded
 

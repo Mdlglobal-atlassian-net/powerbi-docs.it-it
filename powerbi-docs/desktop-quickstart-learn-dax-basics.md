@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329202"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417120"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e mira a offrire una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e alcuni quiz per verificare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -87,25 +87,23 @@ Per completare questa attività, è necessario aprire il file Contoso Sales Samp
     
 2. Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, **Previous Quarter Sales**.
     
-3. Dopo il segno di uguale digitare **SUM** seguito da una parentesi aperta.
-    
-   Invece di digitare un nome di colonna da sommare immediatamente, verrà immessa un'altra funzione, per *filtrare* i dati che si vogliono sommare.
-    
-4. Tra le parentesi, digitare **CALCULATE**, seguito da una parentesi aperta.
-    
+3. Dopo il segno di uguale, digitare le prime lettere, **CAL**, e quindi fare doppio clic sulla funzione da usare. In questa formula, si deve usare la funzione **CALCULATE**.
+
    La funzione CALCULATE verrà usata per filtrare gli importi da sommare in base a un argomento che viene passato alla funzione CALCOLATE. Questo è ciò che viene definita funzione di annidamento. La funzione CALCULATE ha almeno due argomenti. Il primo è l'espressione da valutare e il secondo è un filtro.
    
-5. Tra parentesi **()** per la funzione **CALCULATE**, digitare **Sales[SalesAmount]**. Questo è il primo argomento di espressione per la funzione CALCULATE.
+4. Dopo la parentesi aperta **(** per la funzione **CALCULATE**, digitare **SUM** e quindi un'altra parentesi aperta **(**. È ora necessario passare un argomento alla funzione SUM.
+
+5. Iniziare digitando **Sal**, selezionare **Sales[SalesAmount]** e quindi digitare una parentesi chiusa **)**. Questo è il primo argomento di espressione per la funzione CALCULATE.
     
-6. Digitare una virgola (**,**) per specificare il primo filtro, quindi digitare **PREVIOUSQUARTER** seguito da una parentesi aperta.
+6. Digitare una virgola (**,**) seguita da uno spazio per specificare il primo filtro e quindi digitare **PREVIOUSQUARTER**. Questo è il filtro.
     
-   Verrà usata la funzionalità di Business Intelligence per le gerarchie temporali PREVIOUSQUARTER per filtrare i risultati SUM in base al trimestre precedente.
+   Per filtrare i risultati SUM in base al trimestre precedente verrà usata la funzionalità di Business Intelligence per le gerarchie temporali PREVIOUSQUARTER.
     
-7. Tra le parentesi **()** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]**.
+7. Dopo la parentesi aperta **(** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]**.
     
-   La funzione PREVIOUSQUARTER ha un solo argomento, una colonna contenente un intervallo contiguo di date.
+   La funzione PREVIOUSQUARTER ha un solo argomento, una colonna contenente un intervallo contiguo di date. In questo caso, si tratta della colonna DateKey della tabella Calendar.
     
-8. Verificare che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi da due parentesi chiuse **))**.
+8. Assicurarsi che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi digitando due parentesi chiuse **))**.
     
    La formula a questo punto dovrebbe essere simile alla seguente:
     

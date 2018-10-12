@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565559"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416867"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Grafici a misuratore radiale in Power BI
 Un grafico a misuratore radiale è contraddistinto da un arco circolare e consente di visualizzare un unico valore che misura lo stato rispetto al raggiungimento di un obiettivo o a un indicatore KPI.  L'obiettivo, o valore di destinazione, è rappresentato dalla linea (lancetta). Lo stato rispetto al raggiungimento dell'obiettivo è rappresentato dall'ombreggiatura.  Il valore che rappresenta lo stato è visualizzato in grassetto all'interno dell'arco. Tutti i valori possibili sono distribuiti uniformemente lungo l'arco, da quello minimo (all'estrema sinistra) a quello massimo (all'estrema destra).
@@ -92,7 +92,7 @@ Nel passaggio 2, Power BI usa il campo Valore per impostare automaticamente i va
 
 ### <a name="step-5-save-your-report"></a>Passaggio 5: Salvare il report
 1. [Salvare il report](../service-report-save.md).
-2. [Aggiungere il grafico a misuratore come riquadro del dashboard](../consumer/end-user-tiles.md). 
+2. [Aggiungere il grafico a misuratore come riquadro del dashboard](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Utilizzare le opzioni di formattazione per impostare manualmente i valori minimo, massimo e target
 1. Rimuovere **Max of Gross Sales** dall’area **Maximum value** .
@@ -110,14 +110,8 @@ Nel passaggio 2, Power BI usa il campo Valore per impostare automaticamente i va
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. Facoltativamente, continuare la formattazione del grafico del misuratore.
 
-## <a name="next-steps"></a>Passaggi successivi
+## <a name="next-step"></a>Passaggio successivo
+
+[Grafici a misuratore radiale in Power BI](power-bi-visualization-kpi.md)
+
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Aggiungere una visualizzazione a un report](power-bi-report-add-visualizations-i.md)
-
-[Aggiungere una visualizzazione a un dashboard](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

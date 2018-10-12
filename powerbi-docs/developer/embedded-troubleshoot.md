@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 71cb40ef6f1346bd3d8486658b05427e66d1dbf3
+ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558577"
+ms.lasthandoff: 09/20/2018
+ms.locfileid: "46474047"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Risoluzione dei problemi dell'applicazione incorporata
 
@@ -84,18 +84,18 @@ Potrebbe essere necessaria un'acquisizione Fiddler per ulteriori indagini. Le ca
 
 Il back-end dell'applicazione potrebbe dover aggiornare il token di autenticazione prima di chiamare GenerateToken.
 
-```
+    ```
     GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
     Host: wabi-us-north-central-redirect.analysis.windows.net
     ...
     Authorization: Bearer eyJ0eXAiOi...
     ...
- 
+
     HTTP/1.1 403 Forbidden
     ...
-     
+
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-```
+    ```
 
 ## <a name="authentication"></a>Autenticazione
 
@@ -229,13 +229,13 @@ Dopo aver acquisito l'oggetto IError, vedere la tabella degli errori comuni appr
 | OpenConnectionError | Non è possibile visualizzare l'oggetto visivo. Non è stato possibile eseguire il rendering di un oggetto visivo del report con titolo: <visual title> | N/D | Capacità in pausa o eliminata mentre un report correlato alla capacità era aperto in una sessione |
 | ExplorationContainer_FailedToLoadModel_DefaultDetails | Non è stato possibile caricare lo schema del modello associato a questo report. Assicurarsi di avere una connessione al server e riprovare. | N/D | <li> Capacità in pausa <li> Capacità eliminata |
 
-## <a name="onboarding-experience-tool-for-embedding"></a>Strumento esperienza di onboarding per l'incorporamento
+## <a name="embedding-setup-tool"></a>Strumento di installazione dell'incorporamento
 
-È possibile usare lo [strumento esperienza di onboarding](https://aka.ms/embedsetup) per scaricare rapidamente un'applicazione di esempio, confrontando quindi l'applicazione e l'esempio.
+È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup) per scaricare rapidamente un'applicazione di esempio. confrontando quindi l'applicazione e l'esempio.
 
 ### <a name="prerequisites"></a>Prerequisiti
 
-Prima di usare lo strumento esperienza di onboarding, verificare di avere tutti i prerequisiti appropriati. Sono necessari un account **Power BI Pro** e una sottoscrizione di **Microsoft Azure**.
+Prima di usare lo strumento di installazione dell'incorporamento, verificare di avere tutti i prerequisiti appropriati. Sono necessari un account **Power BI Pro** e una sottoscrizione di **Microsoft Azure**.
 
 * Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/en-us/pricing/) prima di iniziare.
 * Se non si ha una sottoscrizione di Azure, [creare un account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
@@ -244,7 +244,7 @@ Prima di usare lo strumento esperienza di onboarding, verificare di avere tutti 
 
 ### <a name="common-issues"></a>Problemi comuni
 
-Ecco alcuni problemi comuni che possono verificarsi durante il test con lo strumento esperienza di onboarding:
+Ecco alcuni problemi comuni che possono verificarsi durante il test con lo strumento di installazione dell'incorporamento:
 
 #### <a name="using-the-embed-for-your-customers-sample-application"></a>Uso dell'incorporamento per l'applicazione di esempio per i clienti
 
@@ -262,6 +262,10 @@ Quando si esegue l'app di esempio, viene visualizzato il messaggio di errore seg
 
 Questo errore si verifica perché l'unico valore che non viene inserito nell'applicazione di esempio è la password dell'utente. Aprire il file Web.config nella soluzione e compilare il campo pbiPassword con la password dell'utente.
 
+Se viene visualizzato l'errore: AADSTS50079: è necessario che l'utente usi l'autenticazione a più fattori.
+
+    Need to use an AAD account that does not have MFA enabled.
+
 #### <a name="using-the-embed-for-your-organization-sample-application"></a>Uso dell'incorporamento per l'applicazione di esempio per l'organizzazione
 
 Se si usa l'esperienza **Incorporare per l'organizzazione**, salvare e decomprimere il file *PowerBI-Developer-Samples.zip*. Aprire quindi la cartella *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* ed eseguire il file *pbi-saas-embed-report.sln*.
@@ -275,6 +279,10 @@ La causa è che l'URL di reindirizzamento specificato per il server Web dell'app
 Se si vuole modificare l'applicazione registrata, vedere come a modificare l'[applicazione registrata con AAD ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), in modo che l'applicazione possa consentire l'accesso alle API Web.
 
 Se vuole modificare il profilo utente o i dati di Power BI, vedere come modificare i [dati di Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
+
+Se viene visualizzato l'errore: AADSTS50079: è necessario che l'utente usi l'autenticazione a più fattori.
+
+    Need to use an AAD account that does not have MFA enabled.
 
 Per altre informazioni, vedere [Power BI Embedded FAQ](embedded-faq.md) (Domande frequenti su Power BI Embedded).
 

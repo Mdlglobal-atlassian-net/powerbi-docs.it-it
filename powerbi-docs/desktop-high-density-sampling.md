@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328145"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973932"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Campionamento di linee ad alta densità in Power BI
 A partire dalla versione di giugno 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora gli oggetti visivi che campionano i dati ad alta densità. Ad esempio, è possibile creare un grafico a linee dai risultati delle vendite dei negozi, ciascuno dei quali con più di diecimila ricevute di vendita all'anno. Un grafico a linee di tali informazioni di vendita campionerebbe i dati (selezionerebbe cioè una rappresentazione significativa dei dati, per illustrare come le vendite variano nel tempo) dai dati di ogni negozio, creando un grafico a linee multiserie che quindi rappresenta i dati sottostanti. Si tratta di una pratica comune nella visualizzazione dei dati ad alta densità. Power BI Desktop ha migliorato il campionamento dei dati ad alta densità, come descritto dettagliatamente in questo articolo.
@@ -24,8 +24,6 @@ A partire dalla versione di giugno 2017 di **Power BI Desktop** e dagli aggiorna
 
 > [!NOTE]
 > L'**algoritmo di campionamento ad alta densità** descritto in questo articolo è disponibile sia in **Power BI Desktop** che nel **servizio Power BI**.
-> 
-> 
 
 ## <a name="how-high-density-line-sampling-works"></a>Come funziona il campionamento di linee ad alta densità
 In precedenza, **Power BI** selezionava una raccolta di punti dati di esempio nell'intero intervallo di dati sottostanti in modo deterministico. Ad esempio, per i dati ad alta densità su un oggetto visivo che si estendeva su un anno di calendario, potevano esserci 350 punti dati di esempio visualizzati nell'oggetto visivo, ognuno dei quali era stato selezionato per verificare che l'intera gamma di dati (la serie complessiva dei dati sottostanti) fosse rappresentata nell'oggetto visivo. Per comprenderne il funzionamento, si immagini di tracciare il prezzo di un'azione nel periodo di un anno e di selezionare 365 punti dati in un oggetto visivo di grafico a linee (cioè un punto dati per ogni giorno).
@@ -42,17 +40,25 @@ Per un oggetto visivo ad alta densità, **Power BI** suddivide in modo intellige
 ### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Valori minimo e massimo per oggetti visivi a linee ad alta densità
 Per qualsiasi visualizzazione specificata, si applicano le seguenti limitazioni visive:
 
-* **3.500** è il numero massimo di punti dati *visualizzati* sull'oggetto visivo, indipendentemente dal numero di serie o punti dati sottostante. Di conseguenza, se si hanno 10 serie con 350 punti dati ciascuna, l'oggetto visivo ha raggiunto il limite di punti dati complessivo massimo. Se si ha una sola serie, essa può contenere fino a 3.500 punti dati se il nuovo algoritmo lo ritiene il miglior campionamento per i dati sottostanti.
+* **3.500** è il numero massimo di punti dati *visualizzati* nella maggior parte degli oggetti visivi, indipendentemente dal numero dei punti dati o delle serie sottostanti. Vedere le *eccezioni* nell'elenco seguente. Di conseguenza, se si hanno 10 serie con 350 punti dati ciascuna, l'oggetto visivo ha raggiunto il limite di punti dati complessivo massimo. Se si ha una sola serie, essa può contenere fino a 3.500 punti dati se il nuovo algoritmo lo ritiene il miglior campionamento per i dati sottostanti.
+
 * Esiste un massimo di **60 serie** per qualsiasi oggetto visivo. Se si hanno più di 60 serie, suddividere i dati e creare più oggetti visivi con massimo 60 serie ciascuno. È consigliabile usare un **filtro dei dati** per mostrare solo i segmenti dei dati (solo alcune serie). Ad esempio, se tutte le sottocategorie sono visualizzate nella legenda, è possibile usare un filtro dei dati per filtrare in base alla categoria generale nella stessa pagina del report.
+
+Il numero massimo di soglie dei dati è superiore per i tipi di oggetti visivi seguenti, che rappresentano *eccezioni* al limite di 3.500 punti dati:
+
+* **150.000** punti dati per gli oggetti visivi R.
+* **30.000** punti dati per gli oggetti visivi personalizzati.
+* **10.000** punti dati per i grafici a dispersione, per i quali, tuttavia, 3.500 è il numero predefinito
+* **3.500** per tutti gli altri oggetti visivi
 
 Questi parametri garantiscono che il rendering degli oggetti visivi in Power BI Desktop avvenga molto rapidamente, che gli oggetti rispondano all'interazione con gli utenti e non comportino un overhead di elaborazione superfluo nel computer di rendering dell'oggetto visivo.
 
 ### <a name="evaluating-representative-data-points-for-high-density-line-visuals"></a>Valutazione di punti dati rappresentativi per gli oggetti visivi a linee ad alta densità
-Quando il numero di punti dati sottostanti supera i punti dati massimi che possono essere rappresentati nell'oggetto visivo (oltre 3.500), inizia un processo denominato *binning*, che suddivide i dati sottostanti in gruppi denominati *bin* e quindi li perfeziona in modo iterativo.
+Quando il numero di punti dati sottostanti supera il numero massimo di punti dati che possono essere rappresentati nell'oggetto visivo, inizia un processo denominato *binning*, che suddivide i dati sottostanti in gruppi denominati *bin* e quindi li perfeziona in modo iterativo.
 
 L'algoritmo crea tanti contenitori quanti sono possibili in modo creare la granularità maggiore per l'oggetto visivo. All'interno di ogni contenitore, l'algoritmo rileva il valore di dati minimo e massimo, per assicurarsi che i valori importanti e significativi (ad esempio, outlier) vengano acquisiti e visualizzati nell'oggetto visivo. In base ai risultati del binning e alla valutazione successiva dei dati da parte di Power BI, viene determinata la risoluzione minima per l'asse x per l'oggetto visivo, per poter garantire la massima granularità per l'oggetto visivo.
 
-Come accennato in precedenza, la granularità minima per ogni serie è 350 punti, la massima è 3.500.
+Come accennato in precedenza, per la maggior parte degli oggetti visivi la granularità minima per ogni serie corrisponde a 350 punti, mentre la massima corrisponde a 3.500, con le *eccezioni* elencate nei paragrafi precedenti.
 
 Ogni contenitore è rappresentato da due punti dati, che diventano i punti dati rappresentativi del contenitore nell'oggetto visivo. I punti dati sono semplicemente il valore alto e basso per tale contenitore e, selezionandoli, il processo di creazione contenitori garantisce che qualsiasi importante valore alto o significativo valore basso sia acquisito e che ne venga eseguito il rendering nell'oggetto visivo.
 

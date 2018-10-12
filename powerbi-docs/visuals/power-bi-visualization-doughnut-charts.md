@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/23/2017
+ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ab292964bb1b6b1f4218d41c46eb2c28c82a034c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545023"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416752"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Grafici ad anello in Power BI
 Un grafico ad anello è simile a un grafico a torta perché mostra la relazione delle parti rispetto a un intero. L'unica differenza è data dal fatto che il centro è vuoto e consente di inserire un'etichetta o un'icona.
 
 ## <a name="create-a-doughnut-chart"></a>Creare un grafico ad anello
-Queste istruzioni usano l'esempio di analisi delle vendite al dettaglio per creare un grafico ad anello che mostra le vendite dell'anno corrente per categoria. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.
+Queste istruzioni usano l'esempio di analisi delle vendite al dettaglio per creare un grafico ad anello che mostra le vendite dell'anno corrente per categoria. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI o per Power BI Desktop.
 
-1. Iniziare in una [pagina di report vuota ](../power-bi-report-add-page.md) e selezionare il campo **SalesStage** \> **Sales Stage**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
+1. Iniziare con una [pagina del report vuota](../power-bi-report-add-page.md). Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
 
 2. Dal riquadro Campi selezionare **Sales** \> **Last Year Sales**.  
    
-3. Dal riquadro Visualizzazioni selezionare l'icona per il grafico ad anello ![icona del grafico ad anello]() per convertire il grafico a barre in un grafico ad anello. Se **Last Year Sales** non è nell'area **Valori**, trascinarlo in tale area.
+3. Dal riquadro Visualizzazioni selezionare l'icona per il grafico ad anello ![icona del grafico ad anello](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) per convertire il grafico a barre in un grafico ad anello. Se **Last Year Sales** non è nell'area **Valori**, trascinarlo in tale area.
      
-   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+   ![Riquadro di visualizzazione con grafico ad anello selezionato](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
 
 4. Selezionare **Elemento** \> **Categoria** per aggiungerlo all'area **Legenda**. 
      
-    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+    ![grafico ad anello accanto al riquadro Campi](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
 
 5. Facoltativamente, [modificare le dimensioni e il colore del testo del grafico](power-bi-visualization-customize-title-background-and-legend.md). 
 
@@ -43,13 +43,8 @@ Queste istruzioni usano l'esempio di analisi delle vendite al dettaglio per crea
 * I grafici ad anello sono particolarmente indicati per confrontare una specifica sezione con l'intero, invece di confrontare singole sezioni reciprocamente. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Report in Power BI](../consumer/end-user-reports.md)
+[Grafici a imbuto in Power BI](power-bi-visualization-funnel-charts.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
-
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

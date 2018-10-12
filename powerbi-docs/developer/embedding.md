@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616029"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973771"
 ---
 # <a name="embedding-with-power-bi"></a>Incorporamento con Power BI
 
-Il servizio Power BI (SaaS) e il servizio Power BI Embedded in Azure (PaaS) offrono API per l'incorporamento di dashboard e report. Questo significa che sono disponibili un set di funzionalità e l'accesso alle ultime funzionalità di Power BI, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto.
+Il servizio Power BI (SaaS) e il servizio Power BI Embedded in Azure (PaaS) offrono API per l'incorporamento di dashboard e report. Questa caratteristica comporta il fatto che sono disponibili un set di funzionalità e l'accesso alle ultime funzionalità di Power BI, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto.
 
-È possibile usare lo [strumento esperienza di onboarding](https://aka.ms/embedsetup) per iniziare rapidamente e scaricare un'applicazione di esempio.
+È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup) per iniziare rapidamente e scaricare un'applicazione di esempio.
 
 Scegliere la soluzione adatta alle proprie esigenze:
 
@@ -49,7 +49,7 @@ Per l'incorporamento per l'organizzazione, vedere quanto segue:
 
 Le funzionalità self-service, quali la modifica, il salvataggio e altro ancora, sono disponibili tramite le [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript) durante l'incorporamento per gli utenti di Power BI.
 
-È possibile usare lo [strumento esperienza di onboarding](https://aka.ms/embedsetup/UserOwnsData) per l'incorporamento per l'organizzazione per iniziare rapidamente scaricando un'applicazione di esempio che facilita l'esecuzione della procedura di integrazione di un report per l'organizzazione.
+È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup/UserOwnsData) per l'incorporamento per l'organizzazione per iniziare rapidamente scaricando un'applicazione di esempio che facilita l'esecuzione della procedura di integrazione di un report per l'organizzazione.
 
 ## <a name="embedding-for-your-customers"></a>Incorporamento per i clienti
 

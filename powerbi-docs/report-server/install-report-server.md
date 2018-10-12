@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/19/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 1d74ed5e39d73252d0779458d0ba8619908c99f2
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250385"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565913"
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
 
@@ -30,11 +30,11 @@ Prima di installare il server di report di Power BI è consigliabile esaminare i
 ### <a name="power-bi-report-server-product-key"></a>Codice Product Key del Server di report Power BI
 
 #### <a name="power-bi-premium"></a>Power BI Premium
-Se è stato acquistato Power BI Premium, nella scheda **Impostazioni Premium** del portale di amministratore di Power BI, si avrà accesso al codice Product Key del Server di Report di Power BI. Questo sarà disponibile solo per gli amministratori globali o per gli utenti a cui è stato assegnato il ruolo di amministratore del servizio Power BI.
+Se è stato acquistato Power BI Premium, nella scheda **Impostazioni Premium** del portale di amministratore di Power BI si ha accesso al codice Product Key del server di report di Power BI. Questo è disponibile solo per gli amministratori globali o per gli utenti a cui è stato assegnato il ruolo di amministratore del servizio Power BI.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key.png "Codice Product Key del Server di report di Power BI all'interno di Impostazioni Premium")
 
-Se si seleziona **Chiave del server di report di Power BI** viene visualizzata una finestra di dialogo contenente il codice Product Key. È possibile copiarlo e usarlo durante l'installazione.
+Se si seleziona **Chiave del server di report di Power BI** viene visualizzata una finestra di dialogo con il codice Product Key. È possibile copiarlo e usarlo durante l'installazione.
 
 ![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Codice Product Key del Server di report di Power BI")
 
@@ -77,7 +77,7 @@ Al momento dell'installazione non è necessario un server del motore di database
 
 ## <a name="configuring-your-report-server"></a>Configurazione del server di report
 
-Dopo aver selezionato **Configure Report Server** nella procedura di installazione, verrà visualizzato Reporting Services Configuration Manager. Per altre informazioni, vedere [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
+Dopo la selezione di **Configura Report Server** nel programma di installazione, viene visualizzato Gestione configurazione Reporting Services. Per altre informazioni, vedere [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
 È necessario [creare un database del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) per completare la configurazione iniziale di Reporting Services. Per completare questo passaggio è necessario un server di Database SQL Server.
 

@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 40eefccbce19c8d6f4441e30e037e6e421a8dd5c
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: c9e4769be12d3da96064a82661a739a94e8a7c6e
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512249"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417396"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
 Questo articolo descrive i precedenti aggiornamenti per **Power BI Desktop**. Per la versione del mese corrente, consultare [gli aggiornamenti più recenti di **Power BI Desktop**](desktop-latest-update.md).
 
-È sempre possibile [scaricare la versione più recente di Power BI Desktop](https://powerbi.microsoft.com/desktop). Se si esegue Windows 10, è possibile ottenere **Power BI Desktop** anche da Windows Store. Le versioni mensili sono le stesse, indipendentemente dalla modalità di installazione di **Power BI Desktop**. Per altre informazioni, vedere [questo articolo](desktop-get-the-desktop.md). 
+È sempre possibile [scaricare la versione più recente di Power BI Desktop](https://powerbi.microsoft.com/desktop). Se si esegue Windows 10, è possibile ottenere **Power BI Desktop** anche da Windows Store. Le versioni mensili sono uguali anche se la numerazione delle versioni può differire, indipendentemente dalla modalità di installazione di **Power BI Desktop**. Per altre informazioni, vedere [questo articolo](desktop-get-the-desktop.md). 
 
 I collegamenti accanto a ogni aggiornamento significano quanto segue:
 
@@ -137,7 +137,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2018-update-2595135101"></a>Aggiornamento di giugno 2018 (2.59.5135.101)
 
@@ -184,7 +184,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="may-2018-update-2585103281"></a>Aggiornamento di maggio 2018 (2.58.5103.281)
 
@@ -238,7 +238,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="april-2018-update-2575068501"></a>Aggiornamento di aprile 2018 (2.57.5068.501)
@@ -284,7 +284,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -330,7 +330,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -352,7 +352,7 @@ Gli aggiornamenti seguenti erano le novità di **Power BI Desktop** di febbraio 
 ### <a name="reporting"></a>Reporting
 
 * Selezione multipla di punti dati in più pagine  [[video]](https://youtu.be/KeVB5RwMzJo?t=23s) [[articolo]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight) 
-* Sincronizzazione dei filtri dei dati tra più pagine di un report  [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[articolo]](desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
+* Sincronizzazione dei filtri dei dati tra più pagine di un report  [[video]](https://youtu.be/KeVB5RwMzJo?t=3m33s) [[articolo]](visuals/desktop-slicers.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers) 
 * Miglioramento del filtro dei dati per l'intervallo numerico - Allineamento ai numeri interi (anteprima)  [[video]](https://youtu.be/KeVB5RwMzJo?t=8m44s)  [[articolo]](desktop-slicer-numeric-range.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#rangeSlicer) 
 * Geocodifica più veloce per le mappe di Bing (anteprima Web) - Fino a 6 volte più veloce  [[video]](https://youtu.be/KeVB5RwMzJo?t=10m18s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#geocoding) 
 * Overflow delle etichette dati per gli oggetti visivi grafici a barre e istogrammi   [[video]](https://youtu.be/KeVB5RwMzJo?t=12m31s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#overflow) 
@@ -394,7 +394,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2018-update-2544970761"></a>Aggiornamento di gennaio 2018 (2.54.4970.761)
@@ -443,7 +443,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -499,7 +499,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="november-2017-update-2524921202"></a>Aggiornamento di novembre 2017 (2.52.4921.202)
@@ -555,7 +555,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -613,7 +613,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="september-2017-update-2504859502"></a>Aggiornamento di settembre 2017 (2.50.4859.502)
@@ -623,7 +623,7 @@ Gli aggiornamenti seguenti sono le novità di **Power BI Desktop** di settembre:
 ### <a name="report-view"></a>Visualizzazione Report:
 
 -   Drill-through a un'altra pagina del report [[video]](https://youtu.be/moTQJlnClJw?t=19s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#drillthrough) [[articolo]](desktop-drillthrough.md)
--   Grafico a nastri [[video]](https://youtu.be/moTQJlnClJw?t=8m57s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[articolo]](desktop-ribbon-charts.md)
+-   Grafico a nastri [[video]](https://youtu.be/moTQJlnClJw?t=8m57s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#ribbon) [[articolo]](visuals/desktop-ribbon-charts.md)
 -   Informazioni dettagliate per spiegare aumenti/riduzioni [[video]](https://youtu.be/moTQJlnClJw?t=13m37s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#insights) [[articolo]](desktop-insights.md)
 -   Aggiornamento dell'anteprima dei temi - controlli dello stile dei grafici [[video]](https://youtu.be/moTQJlnClJw?t=19m25s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#theming) [[articolo]](desktop-report-themes.md)
 -   Miglioramenti all'accessibilità [[video]](https://youtu.be/moTQJlnClJw?t=27m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#accessibility) [[articolo]](desktop-accessibility.md)
@@ -653,7 +653,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="august-2017-update-2494831222"></a>Aggiornamento di agosto 2017 (2.49.4831.222)
@@ -698,7 +698,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="july-2017-update-2484792321"></a>Aggiornamento di luglio 2017 (2.48.4792.321)
@@ -748,7 +748,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="june-2017-update-2474766542"></a>Aggiornamento di giugno 2017 (2.47.4766.542)
@@ -762,7 +762,7 @@ Gli aggiornamenti seguenti sono stati le novità di **Power BI Desktop** di giug
 -   Impostazione della famiglia di caratteri dell'oggetto visivo [[video]](https://youtu.be/YlNVE5dgcSI?t=6m59s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#fonts)
 -   Filtro dei dati dell'immagine orizzontale [[video]](https://youtu.be/YlNVE5dgcSI?t=8m42s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#imageSlicer)
 -   Aggiornamento per la formattazione del grafico combinato [[video]](https://youtu.be/YlNVE5dgcSI?t=9m58s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#comboChart)
--   Miglioramenti delle mappe di Bing [[video]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[articolo]](power-bi-map-tips-and-tricks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
+-   Miglioramenti delle mappe di Bing [[video]](https://youtu.be/YlNVE5dgcSI?t=11m47s) [[articolo]](visuals/power-bi-map-tips-and-tricks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#maps)
 -   Esempio di riga ad alta densità [[video]](https://youtu.be/YlNVE5dgcSI?t=16m53s) [[articolo]](desktop-high-density-sampling.md)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#highDensityLine)
 -   Report accessibili [[video]](https://youtu.be/YlNVE5dgcSI?t=19m23s) [[articolo]](desktop-accessibility.md)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#accessibility)
 
@@ -793,7 +793,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -840,7 +840,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -852,7 +852,7 @@ Gli aggiornamenti seguenti sono stati le novità di Power BI Desktop di aprile 2
 ### <a name="report-view"></a>Visualizzazione Report:
 
 -   Rinominare i titoli degli assi [[video]](https://youtu.be/AWMaIaI8G2Y?t=25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#renameAxisTitles)
--   Nuovi miglioramenti visivi di una matrice: ordinamento di colonne, ridimensionamento di colonne e ritorno a capo (anteprima) [[video]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[articolo]](desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
+-   Nuovi miglioramenti visivi di una matrice: ordinamento di colonne, ridimensionamento di colonne e ritorno a capo (anteprima) [[video]](https://youtu.be/AWMaIaI8G2Y?t=1m32s) [[articolo]](visuals/desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/#matrix)
 
 ### <a name="analytics"></a>Analisi:
 
@@ -885,7 +885,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="march-2017-update-2444675422"></a>Aggiornamento di marzo 2017 (2.44.4675.422)
@@ -894,7 +894,7 @@ Gli aggiornamenti seguenti sono stati le novità di Power BI Desktop di marzo 20
 
 ### <a name="report-view"></a>Visualizzazione Report:
 
--   Nuovo oggetto visivo matrice (anteprima) [[video]](https://youtu.be/CaRTON3lJqw?t=18s) [[articolo]](desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
+-   Nuovo oggetto visivo matrice (anteprima) [[video]](https://youtu.be/CaRTON3lJqw?t=18s) [[articolo]](visuals/desktop-matrix-visual.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#matrix)
 -   Filtro dei dati per l'intervallo numerico (anteprima) [[video]](https://youtu.be/CaRTON3lJqw?t=8m20s) [[articolo]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#rangeSlicer)
 -   Etichette dati negli oggetti visivi a torta e ad anello - percentuale del totale [[video]](https://youtu.be/CaRTON3lJqw?t=10m52s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#dataLabels)
 -   Evidenziazione incrociata usando più serie [[video]](https://youtu.be/CaRTON3lJqw?t=11m57s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#crossHighlight)
@@ -928,7 +928,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -976,7 +976,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2017-update-2424611482"></a>Aggiornamento di gennaio 2017 (2.42.4611.482)
@@ -1012,7 +1012,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1065,7 +1065,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="october-2016-update-2404554361"></a>Aggiornamento di ottobre 2016 (2.40.4554.361)
@@ -1118,7 +1118,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="september-2016-update-2394526362"></a>Aggiornamento di settembre 2016 (2.39.4526.362)
@@ -1176,7 +1176,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1237,7 +1237,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="july-2016-update-2374464321"></a>Aggiornamento di luglio 2016 (2.37.4464.321)
@@ -1249,7 +1249,7 @@ A luglio Power BI Desktop è stato arricchito con un'altra interessante raccolta
 ### <a name="report-view"></a>Visualizzazione Report:
 
 -   Stili di tabella predefiniti [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/) [[video]](https://youtu.be/g8ccfjffWmw?t=1m25s)
--   Aggiornamento forme mappa: usare le mappe personalizzate [[articolo]](desktop-shape-map.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)  [[video]](https://youtu.be/g8ccfjffWmw?t=2m21s)
+-   Aggiornamento forme mappa: usare le mappe personalizzate [[articolo]](visuals/desktop-shape-map.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)  [[video]](https://youtu.be/g8ccfjffWmw?t=2m21s)
 
 ### <a name="data-connectors"></a>Connettori di dati:
 
@@ -1280,7 +1280,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="june-2016-update-2364434362"></a>Aggiornamento di giugno 2016 (2.36.4434.362)
 
@@ -1290,7 +1290,7 @@ A giugno è stata aggiunta una interessante raccolta di utili aggiornamenti per 
 
 ### <a name="report-view"></a>Visualizzazione Report:
 
--   Nuovo oggetto visivo - Mappe delle forme [[video]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[articolo]](desktop-shape-map.md)
+-   Nuovo oggetto visivo - Mappe delle forme [[video]](https://youtu.be/sZsL2l6oS4A?t=3m9s) [[articolo]](visuals/desktop-shape-map.md)
 -   Filtri dei dati ricercabili [[video]](https://youtu.be/sZsL2l6oS4A?t=6m25s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Etichette di grafico a linee configurabili [[video]](https://youtu.be/sZsL2l6oS4A?t=7m21s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
 -   Nuovi punti di ingresso per l'accesso [[video]](https://youtu.be/sZsL2l6oS4A?t=2m30s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)
@@ -1334,7 +1334,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1390,7 +1390,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="april-2016-update-2344372322"></a>Aggiornamento di aprile 2016 (2.34.4372.322)
 
@@ -1439,7 +1439,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="march-2016-update-2334337281"></a>Aggiornamento di marzo 2016 (2.33.4337.281)
@@ -1491,7 +1491,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 
@@ -1549,7 +1549,7 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 
 > [!NOTE]
-> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](mobile-whats-new-in-the-mobile-apps.md).
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
 
 ## <a name="january-2016-update-2314280361"></a>Aggiornamento di gennaio 2016 (2.31.4280.361)

@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566030"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417327"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
-In Power BI Desktop è possibile creare un oggetto visivo **forme mappa** per mostrare i confronti relativi delle aree su una mappa applicando colori diversi alle varie aree. Contrariamente all'oggetto visivo **mappa**, l'oggetto visivo **forme mappa** non può visualizzare le ubicazioni geografiche precise dei punti dati di una mappa; il suo scopo principale è invece quello di mostrare i confronti relativi su una mappa applicando a essi colori diversi.
+Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
 
 Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. L'uso di mappe personalizzate non è disponibile in questa versione di anteprima di **Forme mappa**.
 
@@ -115,7 +115,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="australia-states"></a>Australia: Stati
 
-| id | abbr | iso | nome | postale |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia occidentale |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="austria-states"></a>Austria: stati
 
-| id | iso | nome | nome-it | postale |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="brazil-states"></a>Brasile: stati
 
-| id |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="canada-provinces"></a>Canada: province
 
-| id | iso | nome | postale |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territori del Nord-Ovest |NT |
@@ -196,9 +196,9 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="france-regions"></a>Francia: regioni
 
-| id | nome | nome-it |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
-| Alsace |Alsace |Alsazia |
+| Alsazia |Alsace |Alsazia |
 | Rhone Alpes |Rhône-Alpes |Rodano-Alpi |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provenza-Alpi-Costa Azzurra |
 | Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
@@ -223,7 +223,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="germany-states"></a>Germania: stati
 
-| id | iso | nome | nome-it | postale |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlino |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -244,7 +244,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="ireland-counties"></a>Irlanda: contee
 
-| id |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="italy-regions"></a>Italia: regioni
 
-| id | iso | nome | nome-it | postale |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle d'Aosta |VD |
@@ -300,7 +300,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="mexico-states"></a>Messico: stati
 
-| id | abbreviazione | iso | nome | nome-it | postale |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -337,7 +337,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="netherlands-provinces"></a>Paesi Bassi: province
 
-| id | iso | nome | nome-it |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -354,7 +354,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="uk-countries"></a>Regno Uniti: paesi
 
-| id | iso | nome |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galles |
 | gb-sct |GB-SCT |Scozia |
@@ -363,7 +363,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="usa-states"></a>Stati Uniti: stati
 
-| id | nome | postale |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>Passaggi successivi
+[Oggetto visivo matrice in Power BI](desktop-matrix-visual.md)
+
+[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

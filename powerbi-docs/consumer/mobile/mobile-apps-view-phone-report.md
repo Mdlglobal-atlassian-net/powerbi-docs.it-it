@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44737167"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547799"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
 
@@ -24,7 +24,7 @@ Si applica a:
 |:--- |:--- |
 | iPhone |Telefoni Android |
 
-Quando si crea un report di Power BI in Power BI Desktop, è anche possibile [creare una versione di tale report ottimizzata per la visualizzazione](../../desktop-create-phone-report.md) nell'app Power BI su un telefono.
+Quando si crea un report di Power BI in Power BI Desktop o nel servizio Power BI, è anche possibile [creare una versione di tale report ottimizzata per la visualizzazione](../../desktop-create-phone-report.md) nell'app Power BI in uno smartphone.
 
 Quando si apre un report di Power BI in un telefono, Power BI rileva quindi se il report è stato ottimizzato per i telefoni e apre automaticamente il report ottimizzato in visualizzazione verticale.
 
@@ -79,7 +79,7 @@ Alcune azioni sono possibili solo in modalità messa a fuoco a causa di limitazi
     L'annullamento è disponibile a livello di report, per cancellare qualsiasi esplorazione da tutti gli oggetti visivi, oppure a livello di oggetto visivo, per cancellare qualsiasi esplorazione dallo specifico oggetto visivo selezionato.   
 
 ## <a name="drill-down-in-a-visual"></a>Eseguire il drill-down in un oggetto visivo
-Se in un oggetto visivo sono definiti i livelli della gerarchia, è possibile eseguire il drill-down nelle informazioni dettagliate visualizzate in un oggetto visivo, quindi eseguire il backup. È possibile [aggiungere il drill-down in un oggetto visivo](../../power-bi-visualization-drill-down.md) nel servizio Power BI o in Power BI Desktop. Il drill-down funziona solo nei report di Power BI ottimizzati per il telefono quando vengono visualizzati in un telefono. 
+Se in un oggetto visivo sono definiti i livelli della gerarchia, è possibile eseguire il drill-down nelle informazioni dettagliate visualizzate in un oggetto visivo, quindi eseguire il backup. È possibile [aggiungere il drill-down in un oggetto visivo](../end-user-drill.md) nel servizio Power BI o in Power BI Desktop. Il drill-down funziona solo nei report di Power BI ottimizzati per il telefono quando vengono visualizzati in un telefono. 
 
 1. In un report nel telefono toccare i puntini di sospensione (**...**) nell'angolo in alto a destra > **Espandi in modalità messa a fuoco**.
    

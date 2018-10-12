@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/19/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a12a497de5ee3e02ea6ba2b1e92fb6c50834d99c
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 2e6eb9817071f3cbccd442014564e21463bf06f8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566051"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448938"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
@@ -32,10 +32,10 @@ Tutte queste visualizzazioni possono essere aggiunte ai report di Power BI, spec
 >[!TIP]
 >Il grafico ad area di base si basa sul grafico a linee, in cui l'area compresa tra l'asse e la linea viene riempita.
 
-Per altre informazioni, vedere [Esercitazione: Grafico ad aree di base](power-bi-visualization-basic-area-chart.md).
+Per altre informazioni, vedere [Grafico ad aree di base](power-bi-visualization-basic-area-chart.md).
 
 ### <a name="bar-and-column-charts"></a>Grafici a barre e istogrammi
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png) 
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
 
  ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
 
@@ -56,7 +56,7 @@ Per altre informazioni [Creare una scheda (riquadro per numeri elevati)](power-b
 >[!TIP]
 >Un grafico combinato combina un istogramma e un grafico a linee. Scegliere *Grafico a linee e istogramma a colonne in pila* o *Grafico a linee e istogramma a colonne raggruppate*.
 
-Per altre informazioni, vedere [Esercitazione: Grafici combinati in Power BI](power-bi-visualization-combo-chart.md).
+Per altre informazioni, vedere [Grafici combinati in Power BI](power-bi-visualization-combo-chart.md).
 
 ### <a name="doughnut-charts"></a>Grafici ad anello
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
@@ -64,7 +64,7 @@ Per altre informazioni, vedere [Esercitazione: Grafici combinati in Power BI](po
 >[!TIP]
 >I grafici ad anello sono simili ai grafici a torta.  Indicano la relazione delle parti a un intero.
 
-Per altre informazioni, vedere [Esercitazione: Grafici ad anello in Power BI](power-bi-visualization-doughnut-charts.md).
+Per altre informazioni, vedere [Grafici ad anello in Power BI](power-bi-visualization-doughnut-charts.md).
 
 ### <a name="funnel-charts"></a>Grafici a imbuto
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
@@ -72,7 +72,7 @@ Per altre informazioni, vedere [Esercitazione: Grafici ad anello in Power BI](po
 >[!TIP]
 >I grafici a imbuto aiutano a visualizzare un processo caratterizzato da fasi e da un flusso sequenziale di elementi da una fase a quella successiva.  Usare un grafico a imbuto quando esiste un flusso sequenziale tra fasi, ad esempio un processo di vendita che inizia con i lead e termina con l'evasione dell'ordine di acquisto.
 
-Per altre informazioni, vedere [Esercitazione: Grafici a imbuto in Power BI](power-bi-visualization-funnel-charts.md).
+Per altre informazioni, vedere [Grafici a imbuto in Power BI](power-bi-visualization-funnel-charts.md).
 
 ### <a name="gauge-charts"></a>Grafici di misuratore
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
@@ -80,7 +80,7 @@ Per altre informazioni, vedere [Esercitazione: Grafici a imbuto in Power BI](pow
 >[!TIP]
 >Visualizza lo stato corrente nel contesto di un obiettivo.
 
-Per altre informazioni, vedere [Esercitazione: Grafici a misuratore in Power BI](power-bi-visualization-radial-gauge-charts.md).
+Per altre informazioni, vedere [Grafici a misuratore radiale in Power BI](power-bi-visualization-radial-gauge-charts.md).
 
 ### <a name="kpis"></a>Indicatori KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
@@ -88,7 +88,7 @@ Per altre informazioni, vedere [Esercitazione: Grafici a misuratore in Power BI]
 >[!TIP]
 >Visualizza lo stato di avanzamento verso un obiettivo misurabile.
 
-Per altre informazioni, vedere l'esercitazione [Indicatori KPI in Power BI](power-bi-visualization-kpi.md).
+Per altre informazioni, vedere [Indicatori KPI in Power BI](power-bi-visualization-kpi.md).
 
 ### <a name="line-charts"></a>Grafici a linee
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
@@ -107,7 +107,7 @@ Per altre informazioni, vedere l'articolo relativo a [suggerimenti e consigli pe
 ### <a name="maps-arcgis-maps"></a>Mappe: mappe di ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Per altre informazioni, vedere [Esercitazione: Mappe ArcGIS in Power BI](../power-bi-visualization-arcgis.md).
+Per altre informazioni, vedere [Mappe ArcGIS in Power BI](../power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Mappe: mappe colorate (Choropleth)
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -115,10 +115,21 @@ Per altre informazioni, vedere [Esercitazione: Mappe ArcGIS in Power BI](../powe
 >[!TIP]
 >Più intenso è il colore, maggiore è il valore.
 
-Per altre informazioni, vedere [Esercitazione: Mappe colorate in Power BI](power-bi-visualization-filled-maps-choropleths.md).
+Per altre informazioni, vedere [Mappe colorate in Power BI](power-bi-visualization-filled-maps-choropleths.md).
+
+### <a name="maps-shape-maps"></a>Mappe: mappe delle forme
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+
+>[!TIP]
+>Confronta le aree in base al colore.
+
+Per altre informazioni, vedere [Mappe delle forme in Power BI](desktop-shape-map.md).
+
 
 ### <a name="matrix"></a>Matrice
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+
+Per altre informazioni, vedere [Oggetti visivi matrice in Power BI](desktop-shape-map.md).
 
 ### <a name="pie-charts"></a>Grafici a torta
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
@@ -129,12 +140,20 @@ Per altre informazioni, vedere [Esercitazione: Mappe colorate in Power BI](power
 >[!TIP]
 >Visualizzare le relazioni tra 2 (a dispersione) o 3 (bolla) misure quantitative, come si verificano, in quale ordine e così via.
 
-Per altre informazioni, vedere [Esercitazione: Grafici a dispersione in Power BI](power-bi-visualization-scatter.md).
+Per altre informazioni, vedere [Grafici a dispersione in Power BI](power-bi-visualization-scatter.md).
+
+### <a name="scatter-high-density"></a>Grafico a dispersione - Alta densità
+![](media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+
+>[!TIP]
+>Troppi punti dati in un oggetto visivo possono bloccarlo. Per garantire l'accuratezza della visualizzazione, viene quindi usato un algoritmo di campionamento sofisticato.
+
+Per altre informazioni, vedere [Grafici a dispersione ad alta densità in Power BI](desktop-high-density-scatter-charts.md).
 
 ### <a name="slicers"></a>Filtri dei dati
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
-Per altre informazioni, vedere [Esercitazione: Filtri dei dati in Power BI](power-bi-visualization-slicers.md).
+Per altre informazioni, vedere [Filtri dei dati in Power BI](power-bi-visualization-slicers.md).
 
 ### <a name="standalone-images"></a>Immagini autonome
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
@@ -149,10 +168,10 @@ Per altre informazioni, vedere [Aggiungere un widget di immagine a un dashboard]
 
 Per altre informazioni, vedere [Utilizzare le tabelle in Power BI](power-bi-visualization-tables.md).
 
-### <a name="tree-maps"></a>Mappe ad albero
+### <a name="treemaps"></a>Mappe ad albero
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
-Per altre informazioni, vedere [Esercitazione: Mappe ad albero in Power BI](power-bi-visualization-treemaps.md).
+Per altre informazioni, vedere [Mappe ad albero in Power BI](power-bi-visualization-treemaps.md).
 
 >[!TIP]
 >Sono grafici di rettangoli colorati, con dimensione che rappresenta valore.  Possono essere gerarchici, con rettangoli nidificati all'interno di rettangoli principali.
@@ -163,7 +182,7 @@ Per altre informazioni, vedere [Esercitazione: Mappe ad albero in Power BI](powe
 >[!TIP]
 >I grafici a cascata mostrano il totale aggiornato ogni volta che si aggiungono o sottraggono valori.
 
-Per altre informazioni, vedere [Esercitazione: Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md).
+Per altre informazioni, vedere [Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md).
 
 ## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare 
 Quando si digitano query in linguaggio naturale con le Domande e risposte di Power BI, è possibile specificare il tipo di visualizzazione;  ad esempio:
@@ -175,10 +194,3 @@ Quando si digitano query in linguaggio naturale con le Domande e risposte di Pow
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)    
 [Riferimento all'oggetto visivo a destra da sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
-
-[Report in Power BI](../consumer/end-user-reports.md)
-
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

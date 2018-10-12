@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388802"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974231"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modalità di archiviazione in Power BI Desktop (anteprima)
 
@@ -171,12 +171,13 @@ Se selezionate in *Vista dati**, le tabelle in modalità **Doppia** e **Importa*
 
 Esistono alcune limitazioni per questa versione della **modalità di archiviazione** e la relativa correlazione con i **modelli compositi**.
 
-Le origini multidimensionali seguenti non possono essere usate con i **modelli compositi**:
+Non è possibile usare **modelli compositi** con le origini Live Connect (multidimensionali) seguenti:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Set di dati Power BI
+* Azure Analysis Services
 
 Quando ci si connette a tali origini multidimensionali tramite DirectQuery, non è neanche possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 

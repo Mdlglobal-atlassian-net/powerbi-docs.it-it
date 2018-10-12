@@ -1,38 +1,39 @@
 ---
 title: Creare report ottimizzati per le app per telefoni di Power BI
-description: Informazioni su come ottimizzare le pagine del report in Power BI Desktop per le app per telefoni di Power BI.
+description: Informazioni su come ottimizzare le pagine dei report per le app Power BI per smartphone creando una versione del report specifica per il telefono.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 09/14/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22f4d6bf3c715c390c9760593ba5afdc72ce3bf7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726456"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973955"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Creare report ottimizzati per le app per telefoni di Power BI
-Quando si [crea un report in Power BI Desktop](desktop-report-view.md), è possibile migliorare l'esperienza d'uso nelle app per dispositivi mobili sui telefoni cellulari creando una versione del report specifica per il telefono. Per adattare il report al telefono e creare un'esperienza ottimale, è sufficiente ridisporre e ridimensionare gli oggetti visivi, magari non includendoli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report per il telefono. I lettori del report possano visualizzarli e filtrare il report con essi.
+È possibile migliorare l'esperienza di visualizzazione dei report da un telefono all'interno di un'app per dispositivi mobili tramite la creazione di una versione del report specifica per il telefono. In Power BI Desktop e nel servizio Power BI, per adattare il report al telefono e creare un'esperienza ottimale, è sufficiente ridisporre e ridimensionare gli oggetti visivi, magari non includendoli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report per il telefono. I lettori del report possano visualizzarli e filtrare il report con essi.
 
 ![Report ottimizzato in un telefono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-## <a name="lay-out-a-report-page-for-the-phone-in-power-bi-desktop"></a>Disporre una pagina del report per il telefono in Power BI Desktop
-Dopo aver [creato un report in Power BI Desktop](desktop-report-view.md), è possibile ottimizzare per i telefoni.
+## <a name="lay-out-a-report-page-for-the-phone"></a>Creare il layout di una pagina del report per il telefono
 
-1. In Power BI Desktop, selezionare **Visualizzazione Report** nella barra di spostamento a sinistra.
-   
-    ![icona Visualizzazione report](media/desktop-create-phone-report/desktop-create-phone-report-2.png)
-2. Nella scheda **Visualizza** selezionare **Layout Telefono**.  
+Dopo aver creato un report, è possibile ottimizzarlo per i telefoni.
+
+1. Nella scheda **Visualizzazione** della visualizzazione Report in Power BI Desktop selezionare **Layout Telefono**.  
    
     ![Icona Layout Telefono](media/desktop-create-phone-report/desktop-create-phone-report-3.png)
    
+    Nel servizio Power BI selezionare **Modifica report** > **Layout dispositivo mobile**.
+
     Verrà visualizzata un'area di disegno del telefono vuota. Tutti gli oggetti visivi nella pagina del report originale sono elencati nel riquadro Visualizzazioni a destra.
+
 3. Per aggiungere un oggetto visivo al layout telefono, trascinarlo dal riquadro Visualizzazioni all'area di disegno del telefono.
    
     I report per il telefono usano un layout di griglia. Gli oggetti visivi trascinati sull'area di disegno verranno bloccati sulla griglia.
@@ -40,12 +41,10 @@ Dopo aver [creato un report in Power BI Desktop](desktop-report-view.md), è pos
     ![Trascinare e rilasciare un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
     È possibile aggiungere alcuni o tutti gli oggetti visivi della pagina del report master alla pagina del report per il telefono. È possibile aggiungere ogni oggetto visivo solo una volta.
+
 4. È possibile ridimensionare gli oggetti visivi nella griglia come si farebbe per i riquadri nei dashboard e nei dashboard mobili.
    
-   > [!NOTE]
-   > La griglia del report per il telefono viene scalata su telefoni di dimensioni differenti, quindi il report avrà un aspetto coerente sui telefoni con schermo sia grande che piccolo.
-   > 
-   > 
+   La griglia del report per il telefono viene scalata su telefoni di dimensioni differenti, quindi il report avrà un aspetto coerente sui telefoni con schermo sia grande che piccolo.
    
    ![Ridimensionare un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-5.gif)
 

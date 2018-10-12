@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0bb592d508e959267df31e705aa833394aa4d19e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249437"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544878"
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Connettersi a Twilio con Power BI
 Il pacchetto di contenuto Microsoft Twilio per Power BI consente di effettuare il pull dei dati in Power BI e crea un [dashboard Twilio](https://powerbi.microsoft.com/integrations/twilio) pronto all'uso e un report con informazioni dettagliate sui dati. È anche possibile creare dashboard e report personalizzati per il set di dati creato da Power BI. I dati verranno aggiornati una volta al giorno, di conseguenza quelli visualizzati saranno sempre recenti.
@@ -41,10 +41,10 @@ Connettersi al [pacchetto di contenuto Twilio](https://app.powerbi.com/getdata/s
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="whats-included"></a>Cosa è incluso
 Dettagli relativi alle transazioni di tipo chiamata e messaggio per gli ultimi 30 giorni. Questi dati possono essere usati per qualsiasi tipo di analisi e aggregazione.

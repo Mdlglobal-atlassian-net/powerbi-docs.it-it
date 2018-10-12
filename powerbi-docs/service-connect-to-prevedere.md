@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 581bfa4a6eca07218d10b9f86753773a0fd9bb9d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e030d80a26b946d6b99c808c937dca4bb6eb3a62
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249483"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543489"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Connettersi a Prevedere con Power BI
 Accedere a informazioni finanziarie esclusive e critiche per promuovere in modo proattivo e in tutta sicurezza la propria azienda.
@@ -44,10 +44,10 @@ Connettersi al [pacchetto di contenuto Prevedere per Power BI](https://app.power
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="whats-included"></a>Cosa è incluso
 Il pacchetto di contenuto ottiene gli approfondimenti sulle previsioni di vendita al dettaglio, sui modelli di previsione, sugli indici economici composti e altro ancora.

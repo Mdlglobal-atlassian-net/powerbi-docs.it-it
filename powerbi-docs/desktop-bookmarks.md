@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657967"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549915"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -132,7 +132,7 @@ Quando si usa la funzionalità **Visualizza** per i segnalibri, si applica quant
 
 * Se il segnalibro selezionato è in un gruppo quando si seleziona **Visualizza** dai segnalibri, solo i segnalibri *in tale gruppo* vengono visualizzati nella sessione di visualizzazione. 
 
-* Se il segnalibro selezionato non è un gruppo o è nel primo livello (ad esempio il nome di un gruppo di segnalibri), vengono riprodotti tutti i segnalibri per l'intero report, inclusi i segnalibri in qualsiasi gruppo. 
+* Se il segnalibro selezionato non è in un gruppo o è nel primo livello (ad esempio è il nome di un gruppo di segnalibri), vengono riprodotti tutti i segnalibri per l'intero report, inclusi i segnalibri in qualsiasi gruppo. 
 
 Per separare i segnalibri, è sufficiente selezionare qualsiasi segnalibro in un gruppo, fare clic sui puntini di sospensione e quindi scegliere **Separa** dal menu visualizzato. 
 
@@ -182,5 +182,5 @@ Per questa versione dei **segnalibri**, tenere presenti alcune limitazioni e con
 Per altre informazioni sulle funzionalità simili o su come interagire con i segnalibri, vedere gli articoli seguenti:
 
 * [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
-* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](service-focus-mode.md)
+* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](consumer/end-user-focus.md)
 

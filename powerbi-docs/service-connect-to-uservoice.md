@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092162"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544447"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Connettersi a UserVoice con Power BI
 Tenere traccia ed esplorare i dati di UserVoice è facile con Power BI e il pacchetto di contenuto UserVoice. Power BI recupera i dati, inclusi ticket, suggerimenti e valutazioni della soddisfazione, quindi crea un dashboard e dei report predefiniti in base a tali dati.
@@ -53,10 +53,10 @@ Connettersi al [pacchetto di contenuto UserVoice](https://app.powerbi.com/getdat
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 **"La convalida dei parametri non è riuscita. Verificare che tutti i parametri siano validi"**

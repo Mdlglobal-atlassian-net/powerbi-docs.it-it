@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599048"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548443"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Connettersi a tyGraph con Power BI
 Visualizzare ed esplorare i dati di tyGraph in Power BI con il pacchetto di contenuto Power BI. Per iniziare, connettersi all'account tyGraph e caricare il dashboard, i report e il set di dati. Il contenuto predefinito include informazioni come misura del coinvolgimento attivo (punteggio MAE) e principali collaboratori. Personalizzarlo ulteriormente per evidenziare le informazioni a cui si è maggiormente interessati.  I dati verranno aggiornati automaticamente in base a una pianificazione impostata dall'utente.
@@ -51,10 +51,10 @@ Connettersi a [tyGraph per Power BI](https://app.powerbi.com/getdata/services/ty
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 <a name="FindingParams"></a>
 

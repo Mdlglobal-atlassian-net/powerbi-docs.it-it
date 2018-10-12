@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dda983aec42731aa885323749d9302db75066569
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136779"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548259"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Connettersi a Salesforce con Power BI
 Con Power BI è possibile connettersi facilmente all'account di Salesforce.com. La creazione di questa connessione consente di recuperare i dati e di disporre automaticamente di un dashboard e dei report correlati basati sui dati.
@@ -56,14 +56,16 @@ Connettersi al [pacchetto di contenuto Salesforce](https://app.powerbi.com/getda
    
    ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
-È possibile modificare il dashboard per visualizzare i dati nel modo desiderato. È possibile porre una domanda in Domande e risposte o fare clic su un riquadro per [aprire il report sottostante](service-dashboard-tiles.md) e [modificare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
+È possibile modificare il dashboard per visualizzare i dati nel modo desiderato. È possibile porre una domanda in Domande e risposte o fare clic su un riquadro per [aprire il report sottostante](consumer/end-user-tiles.md) e [modificare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
-* [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
+* [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard <<<<<<< HEAD
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante =======
 * [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+>>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="system-requirements-and-considerations"></a>Requisiti di sistema e considerazioni
 - Connessione effettuata con un account di Salesforce con accesso API abilitato

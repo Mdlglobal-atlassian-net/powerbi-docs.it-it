@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 5c0c6fd619a2487f9c801200d732cda628a68055
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388756"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974001"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relazioni molti-a-molti in Power BI Desktop (anteprima)
 
@@ -158,12 +158,13 @@ Per questo motivo, occorre prestare attenzione per assicurarsi che i calcoli che
 
 Esistono alcune limitazioni per questa versione delle **relazioni molti-a-molti** e dei **modelli compositi**.
 
-Le origini multidimensionali seguenti non possono essere usate con i **modelli compositi**:
+Non è possibile usare **modelli compositi** con le origini Live Connect (multidimensionali) seguenti:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Set di dati Power BI
+* Azure Analysis Services
 
 Quando ci si connette a tali origini multidimensionali tramite DirectQuery, non è neanche possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 

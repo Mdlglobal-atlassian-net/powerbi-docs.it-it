@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f914a031c70c68703116083f42885e2fe79cf30
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5db91d037ae32f43fe703bdc7e589a1ec5a295ca
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247896"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547615"
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Connettersi a SparkPost con Power BI
 Il pacchetto di contenuto di Power BI per SparkPost consente di estrarre tutti i set di dati importanti dall'account di SparkPost in un unico dashboard dettagliato. L'uso del pacchetto di contenuto SparkPost consente di visualizzare le statistiche di posta elettronica complessive, inclusi domini, campagne e impegno da parte del provider di servizi Internet.
@@ -41,10 +41,10 @@ Connettersi al [pacchetto di contenuto SparkPost per Power BI](https://app.power
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="whats-included"></a>Cosa è incluso
 Il pacchetto di contenuto SparkPost per Power BI include informazioni come il numero di clic univoci e le percentuali di elementi accettati, non recapitati, ritardati, rifiutati e così via.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695111"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549744"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Connettersi a Microsoft Dynamics Marketing con Power BI
 Il pacchetto di contenuto Microsoft Dynamics Marketing per Power BI consente di accedere e analizzare facilmente i dati da Dynamics Marketing. Il pacchetto di contenuto usa un modello descrittivo basato sul feed OData, con tutte le entità e le misurazioni necessarie, tra cui programmi, campagne, società e contatti di marketing, lead, interazioni e punteggio dei lead, siti Web e messaggi di posta elettronica di marketing, osservazioni relative ai comportamenti, budget, transazioni finanziarie e indicatori KPI delle prestazioni e così via. 
@@ -47,10 +47,10 @@ Connettersi al [pacchetto di contenuto Dynamics Marketing](https://app.powerbi.c
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](power-bi-q-and-a.md) nella parte superiore del dashboard
+* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
 * [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante.
-* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificare la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
+* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
+* Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 * È necessario specificare un URL di OData valido per un'istanza di  Dynamics Marketing. Il pacchetto di contenuto non funziona infatti con una versione locale di CRM.  

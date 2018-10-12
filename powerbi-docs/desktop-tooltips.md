@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512157"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416798"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
@@ -125,7 +125,7 @@ Occorre tenere presenti alcune limitazioni e considerazioni relative alle **desc
 
 * A partire dal rilascio di settembre 2018 di **Power BI Desktop**, che ha segnato la disponibilità a livello generale delle descrizioni comandi, anche gli oggetti visivi delle schede supportano le descrizioni comando.
 * A partire dalla versione di luglio 2018 di **Power BI Desktop**, gli oggetti visivi Tabella e Matrice sono supportati per le descrizioni comando. 
-* Le descrizioni comando dei report non sono supportate quando si visualizzano i report nelle app per dispositivi mobili o negli ambienti incorporati, tra cui la pubblicazione sul Web. 
+* Le descrizioni comando dei report non sono supportate per i report visualizzati con app per dispositivi mobili. 
 * Le descrizioni comando dei report non sono supportate per gli oggetti visivi personalizzati. 
 * I cluster non sono attualmente supportati come i campi che possono essere visualizzati nelle descrizioni comando dei report. 
 * Quando si sceglie un campo da visualizzare per le descrizioni comando del report, se si usa un campo rispetto a una categoria, gli oggetti visivi che contengono tale campo visualizzano la descrizione comando specificata solo quando il riepilogo con il campo selezionato corrisponde. 
@@ -136,5 +136,5 @@ Occorre tenere presenti alcune limitazioni e considerazioni relative alle **desc
 Per altre informazioni su funzionalità simili o che interagiscono con le descrizioni comando dei report, vedere gli articoli seguenti:
 
 * [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
-* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](service-focus-mode.md)
+* [Visualizzare un riquadro del dashboard o un oggetto visivo di un report in modalità messa a fuoco](consumer/end-user-focus.md)
 

@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744432"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448846"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Grafici a dispersione e grafici a bolle in Power BI
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di valori numerici lungo un asse orizzontale e un altro set di dati numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Questi punti dati possono essere distribuiti uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati.
 
 Un grafico a bolle sostituisce i punti dati con bolle, con le *dimensioni* della bolla che rappresentano una dimensione aggiuntiva dei dati.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![grafico a bolle di esempio](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-È possibile impostare il numero di punti dati  
+È possibile impostare il numero di punti dati fino a un massimo di 10.000.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Quando usare un grafico a dispersione o un grafico a bolle
 ### <a name="scatter-charts-are-a-great-choice"></a>I grafici a dispersione rappresentano un'ottima scelta nelle seguenti situazioni:
@@ -50,7 +50,7 @@ Guardare questo video per seguire la creazione del grafico a dispersione e quind
 
 Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Selezionare l'icona di addizione gialla per creare una [pagina di report vuota](../power-bi-report-add-page.md).
+1. Aprire il report in Visualizzazione di modifica e selezionare l'icona del segno più di colore giallo per creare una [pagina di report vuota](../power-bi-report-add-page.md).
  
 2. Nel riquadro Campi selezionare i campi seguenti:
    - **Vendite** > **Vendite per piedi quadrati**
@@ -81,20 +81,20 @@ Ora si aggiungerà una terza dimensione.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. È possibile impostare il numero di punti dati da mostrare nel grafico a bolle nella sezione **Formato** del riquadro **Visualizzazioni** espandendo la scheda **Generale** e modificando il **Volume dati**. È possibile impostare il volume dei dati su un numero massimo di 10.000. All'approssimarsi del numero massimo, è consigliabile eseguire un test per garantire migliori prestazioni. 
+3. È possibile impostare il numero di punti dati da visualizzare nel grafico a bolle nella sezione **Formattazione** del riquadro **Visualizzazioni** espandendo la scheda **Generale** e modificando **Volume dati**. È possibile impostare il volume dei dati su un numero massimo di 10.000. All'approssimarsi del numero massimo, è consigliabile eseguire un test per garantire migliori prestazioni. 
 
-    ![Volume dati](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Volume dati](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > Poiché un numero maggiore di punti dati può comportare tempi di caricamento più lunghi, se si sceglie di pubblicare report con limiti corrispondenti ai livelli più elevati della scala, assicurarsi di eseguire test dei report sul Web e in dispositivi mobili, per garantire che le prestazioni soddisfino le aspettative degli utenti. Si noti che per numeri più elevati di punti dati, è consigliabile testare i risultati in fattori di forma diversi per assicurare prestazioni ottimali.
 
 4. È possibile [formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora](service-getting-started-with-color-formatting-and-axis-properties.md). Per [migliorare l'accessibilità](../desktop-accessibility.md), considerare la possibilità di aggiungere forme di marcatore a ogni riga. L'uso di una forma del marcatore diversa per ogni riga semplifica per gli utenti dei report la distinzione tra le righe o le aree. Per selezionare la forma del marcatore, espandere la scheda **Forme** e quindi selezionare una forma per il marcatore.
 
-      ![Forma del marcatore](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![Forma del marcatore](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    È anche possibile cambiare la forma del marcatore in diamante, triangolo o quadrato:
 
-   ![Marcatore quadrato](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Marcatore quadrato](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
@@ -104,8 +104,7 @@ Il grafico a dispersione ha solo un punto dati che aggrega tutti i valori sugli 
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-Aggiungere un campo all’area **Dettagli** per indicare a Power BI come raggruppare i valori. Il campo deve essere univoco per ogni punto che si desidera tracciare.  
-Ad esempio un numero di riga semplice o un campo ID:
+Aggiungere un campo all’area **Dettagli** per indicare a Power BI come raggruppare i valori. Il campo deve essere univoco per ogni punto che si vuole tracciare, come un semplice campo del numero di riga o dell'ID.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ O se non si dispone di questo nei dati, è possibile creare un campo che concate
 Per creare un nuovo campo, [usare l'Editor di query di Power BI Desktop per aggiungere una colonna indice](../desktop-add-custom-column.md) al set di dati.  Quindi aggiungere la colonna all’area **Dettagli** della visualizzazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
+
+[Grafici a dispersione ad alta densità](desktop-high-density-scatter-charts.md)
+
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Iscriversi per una versione di valutazione gratuita](https://powerbi.microsoft.com/get-started/)  
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

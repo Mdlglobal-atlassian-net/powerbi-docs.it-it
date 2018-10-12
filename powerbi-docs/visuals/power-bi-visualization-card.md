@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 865e19f368b8e1915d0262ae6356e70a8dbc2781
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548328"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416898"
 ---
 # <a name="card-visualizations"></a>Visualizzazioni Scheda
 A volte l'unico elemento che si vuole visualizzare in un dashboard o in un report di Power BI è un solo numero, ad esempio le vendite totali, la quota di mercato anno per anno o le opportunità totali. Questo tipo di visualizzazione è denominato *Scheda*. Come quasi tutte le visualizzazioni native di Power BI, è possibile creare le Schede con l'editor di report o con Domande e risposte.
 
-![visualizzazione scheda](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![visualizzazione scheda](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Creare una scheda con l'editor di report
 Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
@@ -32,7 +32,7 @@ Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Pe
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. Nel riquadro Visualizzazioni selezionare l'icona Scheda.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. Passare il puntatore del mouse su una scheda e selezionare l'icona a forma di puntina ![](media/power-bi-visualization-card/pbi_pintile.png) per aggiungere la visualizzazione al dashboard.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Pe
 
    Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stata aggiunta la visualizzazione, come riquadro, al dashboard.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Selezionare **Vai al dashboard**. In quel punto è possibile [modificare e spostare](../service-dashboard-edit-tile.md) la visualizzazione aggiunta.
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Creare una scheda dalla casella delle domande di Domande e risposte
-La casella delle domande di Domande e risposte rappresenta il modo più semplice per creare una scheda. La casella delle domande di Domande e risposte è disponibile in un dashboard o in un report del servizio Power BI (app.powerbi.com). La procedura seguente illustra come creare una scheda da un dashboard del servizio Power BI. Se si vuole creare una scheda usando Domande e risposte in Power BI Desktop, [seguire queste istruzioni](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) per l'anteprima di Domande e risposte per i report di Power BI Desktop.
+La casella delle domande di Domande e risposte rappresenta il modo più semplice per creare una scheda. La casella delle domande di Domande e risposte è disponibile in un dashboard o in un report del servizio Power BI e nella visualizzazione report Desktop. La procedura seguente illustra come creare una scheda da un dashboard del servizio Power BI. Se si vuole creare una scheda usando Domande e risposte in Power BI Desktop, [seguire queste istruzioni](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) per l'anteprima di Domande e risposte per i report di Power BI Desktop.
 
-1. Creare un [dashboard](../consumer/end-user-dashboards.md) e [recuperare i dati](../service-get-data.md). In questa procedura viene usato l'[esempio di analisi delle opportunità](../sample-opportunity-analysis.md).
+1. Creare un [dashboard](../service-dashboards.md) e [recuperare i dati](../service-get-data.md). In questa procedura viene usato l'[esempio di analisi delle opportunità](../sample-opportunity-analysis.md).
 
 1. Nella casella della domanda nella parte superiore del dashboard iniziare a digitare una domanda relativa ai dati. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**SUGGERIMENTO**: nella [Visualizzazione di modifica](../consumer/end-user-reading-view.md) in un report del servizio Power BI selezionare **Poni una domanda** nella barra dei menu superiore. In un report di Power BI Desktop individuare uno spazio vuoto e fare doppio clic per aprire una casella delle domande.
+> [!TIP]
+> In [Visualizzazione di modifica](../service-reading-view-and-editing-view.md) in un report del servizio Power BI selezionare **Poni una domanda** sulla barra dei menu superiore. In un report di Power BI Desktop individuare uno spazio vuoto e fare doppio clic per aprire una casella delle domande.
 
 3. Ad esempio, digitare "number of opportunities" nella casella della domanda.
 
@@ -75,7 +76,7 @@ La casella delle domande di Domande e risposte rappresenta il modo più semplice
 
    Un messaggio di operazione riuscita (nell'angolo superiore destro) informa l'utente che è stata aggiunta la visualizzazione, come riquadro, al dashboard.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Selezionare **Vai al dashboard** per visualizzare il nuovo riquadro. È quindi possibile [rinominare, ridimensionare, aggiungere un collegamento ipertestuale, riposizionare il riquadro e molto altro](../service-dashboard-edit-tile.md) nel dashboard.
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ La casella delle domande di Domande e risposte rappresenta il modo più semplice
 ## <a name="format-a-card"></a>Formattare una scheda
 Sono disponibili molte opzioni per la modifica di etichette, testo, colore e altri elementi. Il modo migliore per imparare a usare queste opzioni consiste nel creare una scheda e quindi esplorare il riquadro Formattazione. Di seguito sono descritte alcune delle opzioni di formattazione disponibili. 
 
-1. Iniziare selezionando l'icona del pennello per aprire il riquadro Formattazione. 
+1. Iniziare selezionando l'icona del rullo per aprire il riquadro Formattazione. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![scheda con rullo evidenziato](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Espandere **Etichetta dati** e modificare colore, dimensioni e famiglia di caratteri. Se si dispone di migliaia di archivi, è possibile usare **Unità visualizzate** per visualizzare il numero di archivi nell'ordine delle migliaia e controllare anche le cifre decimali. Ad esempio, 125,8 migliaia anziché 125.832,00.
 
 3.  Espandere **Etichetta categorie** e modificare colore e dimensioni.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![colore blu selezionato](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Espandere **Sfondo** e spostare il dispositivo di scorrimento su On.  È ora possibile modificare il colore di sfondo e la trasparenza.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![dispositivo di scorrimento impostato su ON](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Continuare a esplorare le opzioni di formattazione fino a quando l'aspetto della scheda corrisponde alle proprie esigenze. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Scheda dopo il completamento della formattazione](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Riquadri del dashboard in Power BI](../consumer/end-user-tiles.md)
+[Grafici combinati in Power BI](power-bi-visualization-combo-chart.md)
 
-[Dashboard in Power BI](../consumer/end-user-dashboards.md)
-
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

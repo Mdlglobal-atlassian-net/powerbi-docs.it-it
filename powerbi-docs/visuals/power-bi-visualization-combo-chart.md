@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544004"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448961"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
 Un grafico combinato in Power BI è una singola visualizzazione che combina un grafico a linee e un istogramma. La combinazione dei 2 grafici in uno permette di confrontare i dati in modo più rapido.
@@ -55,9 +55,9 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
     c.  Selezionare **Time** \> **FiscalMonth** per aggiungerlo all'area **Asse**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra della visualizzazione e selezionare **Sort by FiscalMonth**. Potrebbe essere necessario selezionare due volte l'opzione per applicare l'ordine crescente o decrescente.
+5. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione e selezionare **Sort by > FiscalMonth**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e scegliere **Ordinamento crescente** oppure **Ordinamento decrescente**.
 
-6. Convertire l'istogramma in un grafico combinato. Con l'istogramma selezionato, nel riquadro **Visualizzazioni** selezionare **Grafico a linee e istogramma a colonne raggruppate**.
+6. Convertire l'istogramma in un grafico combinato. Sono disponibili due grafici combinati: **Grafico a linee e istogramma a colonne in pila** e **Grafico a linee e istogramma a colonne raggruppate**. Con l'istogramma selezionato, nel riquadro **Visualizzazioni** selezionare **Grafico a linee e istogramma a colonne raggruppate**.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. Dal riquadro **Campi** trascinare **Sales** \> **Last Year Sales** all’area **Valori riga**.
@@ -71,7 +71,8 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 ## <a name="create-a-combo-chart-with-two-axes"></a>Creare un grafico combinato con due assi
 In questa attività, si confronteranno margine lordo e vendite.
 
-1. Creare un nuovo grafico a linee che tiene traccia della **percentuale di margine lordo dello scorso anno** per ogni **mese**.  La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
+1. Creare un nuovo grafico a linee che tiene traccia della **percentuale di margine lordo dello scorso anno** per ogni **mese**. Selezionare i puntini di sospensione per ordinare per **mese** e in **ordine crescente**.  
+La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. Aggiungere **This Year Sales > Value** e **Last Year Sales** al grafico a linee. La scala usata per **Gross Margin Last Year %** è notevolmente ridotta rispetto a quella di **Sales**, di conseguenza risulta difficile confrontarle.      
@@ -80,7 +81,7 @@ In questa attività, si confronteranno margine lordo e vendite.
 3. Per facilitare la lettura e l'interpretazione dell'oggetto visivo, convertire il grafico a linee in un grafico a linee e istogramma a colonne in pila.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. Trascinare **% di margine lordo dello scorso anno** dai **Valori colonna** nei **Valori riga**. Power BI crea due assi, consentendo in tal modo di ridimensionare i set di dati in modo diverso: quello di sinistra misura i dollari in vendite, mentre quello di destra la percentuale.
+4. Trascinare **% di margine lordo dello scorso anno** dai **Valori colonna** nei **Valori riga**. Power BI crea due assi, consentendo in tal modo di ridimensionare i set di dati in modo diverso: quello di sinistra misura i dollari in vendite, mentre quello di destra la percentuale. La risposta alla domanda è che effettivamente si vede un modello simile.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ In questa attività, si confronteranno margine lordo e vendite.
 
 Da qui è possibile:
 
-* [Aggiungere il grafico combinato come riquadro del dashboard](../consumer/end-user-tiles.md).
+* [Aggiungere il grafico combinato come riquadro del dashboard](../service-dashboard-tiles.md).
 * [Salvare il report](../service-report-save.md).
-* [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md)
+* [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Evidenziazione incrociata e filtro incrociato
 
-Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../consumer/end-user-interactions.md) per modificare questo comportamento predefinito.
+Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../service-reports-visual-interactions.md) per modificare questo comportamento predefinito.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Panoramica delle visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
+[Grafici ad anello in Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

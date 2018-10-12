@@ -1,25 +1,25 @@
 ---
 title: Che cos'è Power BI?
 description: Panoramica su Power BI e sull'interazione tra i diversi componenti, Power BI Desktop, servizio Power BI, Power BI per dispositivi mobili, Server di report, Power BI Embedded.
-author: davidiseminger
-manager: kfile
+author: mihart
+manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 06/22/2018
-ms.author: davidi
+ms.date: 09/22/2018
+ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b61e60852175ced605ae920a6a31091625f781f
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 73a3188256b754517beb9f83a382c4005de6e7e7
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186939"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416982"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. Non importa se i dati provengono da un semplice foglio di calcolo di Excel o da una raccolta di data warehouse ibride basate sul cloud e locali: **Power BI** consente di connettersi facilmente alle origini dati, visualizzare o individuare gli elementi importanti e condividerli con tutti gli utenti selezionati.
 
-![diagramma che mostra le origini di input per Power BI](media/power-bi-overview/power-bi-input.png)
+![diagramma che illustra le origini di input per Power BI](media/power-bi-overview/power-bi-input-new.png)
 
 **Power BI** può essere semplice e rapido, in grado di ricavare informazioni veloci da un foglio di calcolo di Excel o un database locale. Tuttavia, **Power BI** è anche un prodotto solido e di classe enterprise, pronto per la modellazione su vasta scala e l'analisi in tempo reale, nonché per lo sviluppo personalizzato. Può essere quindi usato come strumento personale per report e visualizzazioni o ricoprire la funzione di motore per le analisi e le decisioni in progetti di gruppo, reparti o intere aziende.
 
@@ -41,6 +41,12 @@ Può capitare inoltre che gli elementi di **Power BI** vengano usati in momenti 
 
 È possibile sfruttare il servizio per visualizzare l'inventario e l'avanzamento della produzione in un dashboard in tempo reale e usare parallelamente **Power BI Desktop** per creare report per il team sulle statistiche relative al coinvolgimento del cliente. Il modo di impiego di Power BI dipende dalle funzionalità o dai servizi che meglio si adattano alla situazione. L'accessibilità di tutti gli elementi di Power BI è l'aspetto che lo rende uno strumento flessibile ed efficace.
 
+Per esplorare documenti pertinenti al ruolo:
+- Power BI per [***responsabili di progettazione***](desktop-what-is-desktop.md)
+- Power BI per [***consumer***](consumer/end-user-consuming.md)
+- Power BI per [***sviluppatori***](developer/what-can-you-do.md)
+- Power BI per [***amministratori***](service-admin-administering-power-bi-in-your-organization.md)
+
 ## <a name="the-flow-of-work-in-power-bi"></a>Il flusso di lavoro in Power BI
 Un flusso di lavoro comune in Power BI inizia con la connessione alle origini dati e la creazione di un report in **Power BI Desktop**. Il report viene quindi pubblicato da **Power BI Desktop** nel **servizio Power BI** e condiviso, in modo che gli utenti nel **servizio** e in **Power BI per dispositivi mobili** possano *usarlo* (visualizzarlo e interagire con esso).
 A volte può essere utile concedere ai colleghi autorizzazioni simili alle proprie (autorizzazioni di *autore*), in modo che possano usare il **servizio** per modificare report, creare dashboard e condividere il proprio lavoro.
@@ -57,5 +63,5 @@ Creare, distribuire e gestire Power BI, i report per dispositivi mobili e impagi
 Server di report di Power BI è una soluzione che si distribuisce dietro il firewall per poi recapitare i report agli utenti appropriati in vari modi, ad esempio per consentire di visualizzarli in un Web browser, in un dispositivo mobile o in un messaggio di posta elettronica. Poiché Server di report di Power BI è compatibile con Power BI nel cloud, quando si sarà pronti sarà possibile passare facilmente al cloud.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Accedere, ottenere dati e navigare nel servizio Power BI](consumer/end-user-experience.md)   
+[Accedere, ottenere dati e navigare nel servizio Power BI](service-the-new-power-bi-experience.md)   
 [Introduzione al servizio Power BI](service-get-started.md)
