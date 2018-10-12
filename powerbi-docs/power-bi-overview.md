@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73a3188256b754517beb9f83a382c4005de6e7e7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416982"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798909"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. Non importa se i dati provengono da un semplice foglio di calcolo di Excel o da una raccolta di data warehouse ibride basate sul cloud e locali: **Power BI** consente di connettersi facilmente alle origini dati, visualizzare o individuare gli elementi importanti e condividerli con tutti gli utenti selezionati.
@@ -43,7 +43,7 @@ Può capitare inoltre che gli elementi di **Power BI** vengano usati in momenti 
 
 Per esplorare documenti pertinenti al ruolo:
 - Power BI per [***responsabili di progettazione***](desktop-what-is-desktop.md)
-- Power BI per [***consumer***](consumer/end-user-consuming.md)
+- Power BI per [***consumer***](consumer/end-user-consumer.md)
 - Power BI per [***sviluppatori***](developer/what-can-you-do.md)
 - Power BI per [***amministratori***](service-admin-administering-power-bi-in-your-organization.md)
 

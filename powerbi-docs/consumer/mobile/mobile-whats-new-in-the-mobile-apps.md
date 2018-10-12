@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 09e7534146ace617ee3e517eca6a453aa9002d38
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546902"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909246"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -196,7 +196,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di lu
 
 ### <a name="june-2107"></a>Giugno 2107
 #### <a name="all-devices"></a>Tutti i dispositivi
-**Aggiungere app ai Preferiti** È già possibile aggiungere un dashboard ai Preferiti. Recentemente [in Power BI sono state aggiunte le app](../end-user-apps.md) ed è ora possibile aggiungere anche le app ai Preferiti. 
+**Aggiungere app ai Preferiti** È già possibile aggiungere un dashboard ai Preferiti. Recentemente [in Power BI sono state aggiunte le app](../../service-create-distribute-apps.md) ed è ora possibile aggiungere anche le app ai Preferiti. 
 
 ### <a name="may-2017"></a>Maggio 2017
 #### <a name="all-devices"></a>Tutti i dispositivi
