@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798932"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112154"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
@@ -125,7 +125,7 @@ Poiché l'esempio è uno, la ricerca e l'ordinamento non sono necessari.  Quando
 
 ![Ordinare il contenuto](./media/end-user-experience/power-bi-sort.png)
 
-Per altre informazioni, vedere [Eseguire ricerche, ordinare e filtrare in Power BI](end-user-search-filter-sort.md).
+Per altre informazioni, vedere [Eseguire ricerche, ordinare e filtrare in Power BI](end-user-search-sort.md).
 
 ## <a name="clean-up-resources"></a>Pulire le risorse
 Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il dashboard, il report e il set di dati dell'esempio di analisi delle vendite al dettaglio.
