@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 668db107087420ceeabbe68325ee6c67dc69e524
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547201"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396636"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dati dinamici di SQL Server Analysis Services in Power BI
 In Power BI è possibile connettersi a un server SQL Server Analysis Services dinamico in due modi. In **Recupera dati** è possibile connettersi a un server SQL Server Analysis Services oppure è possibile connettersi a un [file di Power BI Desktop](service-desktop-files.md), o a una [cartella di lavoro di Excel](service-excel-workbook-files.md) che si connette già a un server Analysis Services. Come procedura consigliata, Microsoft consiglia di usare Power BI Desktop grazie alla completezza del set di strumenti e alla possibilità di mantenere una copia di backup del file di Power BI Desktop in locale.
@@ -23,7 +23,7 @@ In Power BI è possibile connettersi a un server SQL Server Analysis Services di
  >[!IMPORTANT]
  >* Per connettersi a un server Analysis Services dinamico, è necessario che un gateway dati locale sia installato e configurato da un amministratore. Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md).
  >* Quando si usa il gateway, i dati rimangono in locale.  I report creati in base a tali dati vengono salvati nel servizio Power BI. 
- >* Le [domande e risposte per query in linguaggio naturale](consumer/end-user-q-and-a-direct-query.md) sono disponibili in anteprima per le connessioni dinamiche ad Analysis Services.
+ >* Le [domande e risposte per query in linguaggio naturale](service-q-and-a-direct-query.md) sono disponibili in anteprima per le connessioni dinamiche ad Analysis Services.
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>Per connettersi a un modello da Recupera dati
 1. Dall'**Area di lavoro personale** selezionare **Recupera dati**. È anche possibile passare a un'area di lavoro di un gruppo, se disponibile.

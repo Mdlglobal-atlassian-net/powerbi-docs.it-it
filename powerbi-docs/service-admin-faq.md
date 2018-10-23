@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 60ac0a944b1eb54ab998fbf25cb5fb79d6dddbe6
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: b77d20b8c9705e4b4cd811ea8dfa3008908a4438
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271901"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641690"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -249,8 +249,8 @@ Power BI è basato su Office 365, che a sua volta è basato su servizi di Azure 
 [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md)  
 [Iscrizione a Power BI in modalità self-service](service-self-service-signup-for-power-bi.md)  
 [Acquisto di Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
-[Power BI Premium: di cosa si tratta?](service-premium.md)  
-[Come acquistare Power BI Premium](service-admin-premium-purchase.md)  
+[Che cos'è Power BI Premium?](service-premium.md)  
+[How to purchase Power BI Premium](service-admin-premium-purchase.md) (Come acquistare Power BI Premium)  
 [Gestione degli account utente in Office 365](https://technet.microsoft.com/library/office-365-user-account-management.aspx)  
 [Gestione dei gruppi in Office 365](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)  
 [Gestire il gruppo in Power BI e Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md)  

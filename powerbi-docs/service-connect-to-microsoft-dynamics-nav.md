@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 94ca76af9366752f4e1033fa05147f867e7096d9
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2085f1ca852839c27c4943872e5f5ddb248e8638
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908901"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641391"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Connettersi a Microsoft Dynamics NAV con Power BI
 Ottenere informazioni dettagliate sui dati di Microsoft Dynamics NAV è facile con Power BI. Power BI recupera i dati, sia di vendita che finanziari, quindi crea un'app con un dashboard e report in base a tali dati. Power BI richiede le autorizzazioni per le tabelle da cui vengono recuperati i dati, in questo caso i dati finanziari e sulle vendite. Di seguito sono fornite informazioni più dettagliate sui requisiti. Dopo aver installato l'app è possibile visualizzare dashboard e report nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nelle app per dispositivi mobili di Power BI. 
@@ -29,7 +29,7 @@ Ottenere informazioni dettagliate sui dati di Microsoft Dynamics NAV è facile c
    ![](media/service-connect-to-microsoft-dynamics-nav/mdnav.png)
 4. Quando richiesto, immettere l'URL OData di Microsoft Dynamics NAV. L'URL deve corrispondere al modello seguente:
    
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
    
    * "instance.navserver.com" con il nome del proprio server NAV
    * "DynamicsNAV90\_Instance1" con il nome dell'istanza del server NAV
@@ -72,7 +72,7 @@ Se questo errore viene visualizzato dopo aver digitato l'URL di Microsoft Dynami
 
 * L'URL segue esattamente questo modello:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
   
   * "instance.navserver.com" con il nome del proprio server NAV
   * "DynamicsNAV90\_Instance1" con il nome dell'istanza del server NAV
@@ -92,11 +92,11 @@ Se viene visualizzata una finestra di dialogo di errore dopo la finestra di dial
 
 * Verificare che l'URL segua il modello specificato in precedenza. Un errore comune consiste nello specificare:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData`
   
     È tuttavia necessario includere la sezione 'Company('CRONUS%20International%20Ltd.')' con il nome della società NAV:
   
-    `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
+    `https://instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Cosa sono le app in Power BI?](service-create-distribute-apps.md)

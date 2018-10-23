@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187146"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49397004"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Esercitazione: Come usare Domande e risposte per creare visualizzazioni e report
 Nella [panoramica di Domande e risposte](consumer/end-user-q-and-a.md) è stata illustrata la funzionalità Domande e risposte di Power BI e la differenza tra *consumer* (utenti con cui sono stati condivisi dashboard e report) e *autori* (proprietari dei report e dei set di dati sottostanti). La prima parte di questa esercitazione è destinata principalmente agli utenti (consumer) che accedono ai dashboard tramite il servizio Power BI. La seconda parte è invece destinata a coloro che creano i report tramite il servizio Power BI o Power BI Desktop. Gli argomenti relativi a [Domande e risposte e Power BI per dispositivi mobili](consumer/mobile/mobile-apps-ios-qna.md) e [Domande e risposte con Power BI Embedded](developer/qanda.md) vengono illustrati in articoli separati.
@@ -98,7 +98,7 @@ Per usare Domande e risposte nei report, è necessario disporre delle autorizzaz
 Con Domande e risposte non solo è possibile chiedere ai dati di parlare da sé, ma è anche possibile specificare in che modo visualizzarli. È sufficiente aggiungere "come <visualization type>" alla fine della domanda.  ad esempio "mostra volume inventario per stabilimento come mappa" e "mostra inventario totale come scheda".  Provare in prima persona.
 
 ##  <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-- Se la connessione al set di dati è stata effettuata tramite una connessione in tempo reale o un gateway, è necessario che la funzionalità Domande e risposte sia [abilitata per il set di dati](consumer/end-user-q-and-a-direct-query.md) in questione.
+- Se la connessione al set di dati è stata effettuata tramite una connessione in tempo reale o un gateway, è necessario che la funzionalità Domande e risposte sia [abilitata per il set di dati](service-q-and-a-direct-query.md) in questione.
 
 - È stato aperto un report ma l'opzione Domande e risposte non è visualizzata. Se si usa il servizio Power BI, assicurarsi di aprire il report nella Visualizzazione di modifica. Se non è possibile aprire la Visualizzazione di modifica, significa che non si dispone delle autorizzazioni di modifica per il report e che non sarà quindi possibile usare Domande e risposte per il report specifico.
 
@@ -107,5 +107,5 @@ Tornare a [Domande e risposte in Power BI](consumer/end-user-q-and-a.md)
 [Esercitazione: Usare Domande e risposte con l'esempio sulle vendite al dettaglio](power-bi-visualization-introduction-to-q-and-a.md)   
 [Suggerimenti per porre domande in Domande e risposte](consumer/end-user-q-and-a-tips.md)   
 [Preparare una cartella di lavoro per Domande e risposte](service-prepare-data-for-q-and-a.md)  
-[Preparare un set di dati locale per Domande e risposte](consumer/end-user-q-and-a-direct-query.md)
+[Preparare un set di dati locale per Domande e risposte](service-q-and-a-direct-query.md)
 [Aggiungere un riquadro a un dashboard da Domande e risposte](service-dashboard-pin-tile-from-q-and-a.md)

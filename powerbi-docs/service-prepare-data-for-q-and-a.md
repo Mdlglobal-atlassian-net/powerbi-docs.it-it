@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6cd667a81a743a0b074155e0e16a49178157bc6c
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547880"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396498"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Come preparare correttamente i dati di Excel per l'uso di Domande e risposte in Power BI
 Le persone che creano i modelli di dati o le cartelle di lavoro di Excel usati con Power BI devono leggere la sezione seguente.
@@ -45,7 +45,7 @@ Ecco alcuni suggerimenti per utilizzare al meglio Domande e risposte nella carte
 
 ## <a name="next-steps"></a>Passaggi successivi
 Tornare a [Domande e risposte in Power BI](consumer/end-user-q-and-a.md)  
-[Preparare i set di dati locali per Domande e risposte](consumer/end-user-q-and-a-direct-query.md)   
+[Preparare i set di dati locali per Domande e risposte](service-q-and-a-direct-query.md)   
 [Guida introduttiva a Domande e risposte](power-bi-visualization-introduction-to-q-and-a.md)  
 [Recuperare dati per Power BI](service-get-data.md)  
 

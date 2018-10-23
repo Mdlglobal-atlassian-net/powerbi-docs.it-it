@@ -2,8 +2,6 @@ Questa è la sezione relativa a **pubblicazione e condivisione** del corso di **
 
 Ora che si è appreso il modo in cui Excel e Power BI si integrano in tutta semplicità e sono state acquisite informazioni complete sugli oggetti visivi che è possibile creare in report e dashboard, sarà utile scoprire in che modo condividere questi elementi con colleghi e amici. Con Power BI le attività di **pubblicazione e condivisione** sono molto semplici.
 
-Questa sezione mostra l'incredibile semplicità con cui è possibile integrare cartelle di lavoro di Excel in Power BI e dimostra che Power BI ed Excel costituiscono una combinazione davvero efficace.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Condividere collaborare con i colleghi in Power BI
 *Introduzione agli strumenti che semplificano la condivisione e la collaborazione con Power BI*
 

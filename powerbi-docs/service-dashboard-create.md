@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908648"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435365"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
 Dopo aver letto [Dashboard in Power BI](service-dashboards.md) si vuole creare un dashboard personalizzato. Ci sono molti modi diversi per creare un dashboard: partendo da un report, da zero, da un set di dati, attraverso la duplicazione di un dashboard esistente e altri ancora.  
@@ -109,7 +109,7 @@ Congratulazioni per aver creato il primo dashboard. Ora che si dispone di un das
 ## <a name="next-steps"></a>Passaggi successivi
 * [Ridimensionare e spostare i riquadri](service-dashboard-edit-tile.md)
 * [Informazioni sui riquadri del dashboard](service-dashboard-tiles.md)
-* [Condividere il dashboard creando un'app](service-install-use-apps.md)
+* [Condividere il dashboard creando un'app](service-create-workspaces.md)
 * [Power BI - Concetti di base](service-basic-concepts.md)
 * [Suggerimenti per la progettazione di un dashboard ottimale](service-dashboards-design-tips.md)
 
