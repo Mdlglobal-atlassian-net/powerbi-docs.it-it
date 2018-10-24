@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ef59d5f42ba913e4ecad79116dea635744534198
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544625"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908579"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Connettersi ad Adobe Analytics con Power BI
 Per connettersi ad Adobe Analytics con Power BI, è necessario prima di tutto connettersi all'account di Adobe Analytics Marketing Cloud. Si ottiene un'app con un dashboard e un set di report di Power BI che forniscono informazioni dettagliate sul traffico e sul numero di utenti del sito. I dati vengono aggiornati automaticamente una volta al giorno. È possibile interagire con i dashboard e i report, ma non è possibile salvare le modifiche.
@@ -25,26 +25,26 @@ Connettersi ad [Adobe Analytics](https://app.powerbi.com/getdata/services/adobe-
 ## <a name="how-to-connect"></a>Come connettersi
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
-1. Selezionare **Adobe Analytics** \>  **Recupera**.
+3. Selezionare **Adobe Analytics** \>  **Recupera**.
    
    ![](media/service-connect-to-adobe-analytics/adobe.png)
-2. Power BI si connette a uno specifico ID aziendale e di suite di report di Adobe Analytics, non al nome della suite di report. Per informazioni dettagliate su come [trovare questi parametri](#FindingParams), vedere più avanti.
+4. Power BI si connette a uno specifico ID aziendale e di suite di report di Adobe Analytics, non al nome della suite di report. Per informazioni dettagliate su come [trovare questi parametri](#FindingParams), vedere più avanti.
    
    ![](media/service-connect-to-adobe-analytics/parameters.png)
-3. In **Metodo di autenticazione** selezionare **oAuth2** \> **Accedi**. Quando richiesto, immettere le credenziali di Adobe Analytics. 
+5. In **Metodo di autenticazione** selezionare **oAuth2** \> **Accedi**. Quando richiesto, immettere le credenziali di Adobe Analytics. 
    
     ![](media/service-connect-to-adobe-analytics/creds.png)
    
     ![](media/service-connect-to-adobe-analytics/adobe_signin.png)
-4. Fare clic su **Accetta** per consentire a Power BI di accedere ai dati di Adobe Analytics.
+6. Fare clic su **Accetta** per consentire a Power BI di accedere ai dati di Adobe Analytics.
    
    ![](media/service-connect-to-adobe-analytics/adobe_authorize.png)
-5. Dopo l'approvazione, il processo di importazione si avvia automaticamente. 
+7. Dopo l'approvazione, il processo di importazione si avvia automaticamente. 
 
 ## <a name="view-the-adobe-analytics-dashboard-and-reports"></a>Visualizzare report e dashboard di Adobe Analytics
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-open-app.md)]
 
-      ![Adobe Analytics dashboard](media/service-connect-to-adobe-analytics/dashboard.png)
+   ![Dashboard di Adobe Analytics](media/service-connect-to-adobe-analytics/dashboard.png)
 
 [!INCLUDE [powerbi-service-apps-open-app](./includes/powerbi-service-apps-what-now.md)]
 
@@ -82,19 +82,19 @@ Il valore Società viene visualizzato nella parte superiore destra dell'account 
 
 **ID Report Suite**
 
-L'ID Suite viene creato durante la creazione di Report Suite. Per identificare il valore ID è possibile contattare l'amministratore. Questo ID non corrisponde al nome di Report Suite.
+L'ID Suite viene creato durante la creazione di Report Suite. Per identificare il valore ID è possibile contattare l'amministratore. Non corrisponde al nome di Report Suite.
 
 Dalla [documentazione](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html) Adobe:
 
 ![](media/service-connect-to-adobe-analytics/reportsuiteid.png)
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
-Se dopo avere specificato le credenziali viene visualizzato un errore che segnala la mancanza di autorizzazioni, rivolgersi all'amministratore per assicurarsi di avere accesso all'API di Adobe Analytics. Verificare anche che l'ID Adobe specificato sia collegato all'organizzazione Cloud Marketing (associata a una società Adobe Analytics).
+Se dopo aver specificato le credenziali viene visualizzato un errore che segnala la mancanza di autorizzazioni, rivolgersi all'amministratore per verificare di avere accesso all'API di Adobe Analytics. Verificare anche che l'ID Adobe specificato sia collegato all'organizzazione Cloud Marketing (associata a una società Adobe Analytics).
 
 Se viene visualizzato un errore dopo aver fornito correttamente le credenziali, è possibile che il completamento dei report impieghi troppo tempo. Un errore comune è presentato nel formato *"Impossibile ottenere dati dal report di Adobe Analytics. Contenuto incluso &quot;referrer, page&quot;, durata approssimativa: xx secondi"*. Rivedere la sezione "Cosa è incluso" e confrontare le dimensioni dell'istanza di Adobe. Purtroppo non esiste attualmente un modo per ovviare a questo timeout. Si sta tuttavia prendendo in considerazione la possibilità di aggiornamenti per migliorare il supporto delle istanze più grandi. Inviare eventuali commenti e suggerimenti al team di Power BI all'indirizzo https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Cosa sono le app in Power BI?](consumer/end-user-apps.md)
+* [Cosa sono le app in Power BI?](service-create-distribute-apps.md)
 * [Recuperare dati in Power BI](service-get-data.md)
 * Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

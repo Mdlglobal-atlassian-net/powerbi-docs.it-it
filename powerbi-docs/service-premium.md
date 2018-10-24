@@ -1,5 +1,5 @@
 ---
-title: 'Power BI Premium: di cosa si tratta?'
+title: Che cos'è Microsoft Power BI Premium?
 description: Power BI Premium offre una capacità dedicata all'organizzazione o al team, con prestazioni più affidabili e volumi di dati superiori, senza richiedere l'acquisto di licenze per ogni utente.
 author: mgblythe
 ms.author: mblythe
@@ -10,17 +10,20 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/11/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 87847575d4fff3d3530847246be5bc8f720b5141
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 0723ddb57131fed499d4ac86666b3cd6d8bcbd2d
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512134"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271809"
 ---
-# <a name="power-bi-premium---what-is-it"></a>Power BI Premium: di cosa si tratta?
-Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e con il supporto di volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze per utente per i visualizzatori.
+# <a name="what-is-microsoft-power-bi-premium"></a>Che cos'è Microsoft Power BI Premium?
 
-È possibile sfruttare Power BI Premium assegnando alle aree di lavoro una *capacità Premium*. La capacità Premium è una risorsa dedicata per l'organizzazione. Le aree di lavoro a cui non viene assegnata una capacità Premium hanno una *capacità condivisa*. Con la capacità condivisa i carichi di lavoro vengono eseguiti in risorse di calcolo condivise da altri clienti. La capacità condivisa presenta più limiti sui singoli utenti in modo da garantire la qualità dell'esperienza per tutti gli utenti.
+Microsoft Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI per l'organizzazione o il team, garantendo prestazioni più affidabili e con il supporto di volumi di dati superiori. Premium consente anche la distribuzione generalizzata dei contenuti senza dover acquistare licenze Pro per utente per i visualizzatori.
+
+È possibile sfruttare Power BI Premium assegnando alle aree di lavoro una *capacità Premium*. La capacità Premium è una risorsa dedicata per l'organizzazione. Le aree di lavoro a cui non viene assegnata una capacità Premium hanno una *capacità condivisa*. Con la capacità condivisa i carichi di lavoro vengono eseguiti in risorse di calcolo condivise da altri clienti. 
+
+Nella capacità condivisa, Power BI pone più limiti sui singoli utenti in modo da garantire la qualità dell'esperienza per tutti gli utenti. Per impostazione predefinita, l'area di lavoro ha una capacità condivisa, incluse l'*Area di lavoro personale* e le Aree di lavoro per le app.
 
 [!INCLUDE [powerbi-premium-illustration](./includes/powerbi-premium-illustration.md)]
 
@@ -28,7 +31,7 @@ Power BI Premium offre risorse dedicate per l'esecuzione del servizio Power BI p
 
 ## <a name="capacity-tiers"></a>Livelli di capacità
 
-In Power BI ci sono due tipi di pacchetti di capacità. La capacità condivisa e la capacità Power BI Premium. Di seguito vengono illustrate le differenze tra queste tipologie.
+Ecco un riepilogo delle differenze tra la capacità condivisa e la capacità Premium.
 
 |  | Capacità condivisa | Capacità Power BI Premium |
 | --- | --- | --- |
@@ -39,23 +42,18 @@ In Power BI ci sono due tipi di pacchetti di capacità. La capacità condivisa e
 | API e controlli incorporati |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile")<sup>2</sup> |
 | **Pubblicazione dei report di Power BI locali** |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile") |
 
-*<sup>1</sup> Per altre informazioni, vedere [Differenze tra la versione gratuita e la versione Pro di Power BI](service-free-vs-pro.md).*  
+*<sup>1</sup> Per altre informazioni, vedere [Funzionalità in base al tipo di licenza](service-features-license-type.md).*  
 *<sup>2</sup> Miglioramenti in arrivo per Power BI Premium.*
 
-### <a name="premium-capacity"></a>Capacità Premium
+Per iniziare a usare una capacità Power BI Premium, assegnare una capacità all'area di lavoro. Quando un'area di lavoro è associata alla capacità Premium, si ottengono:
 
-Per iniziare a usare una capacità Power BI Premium, è necessario assegnare una capacità all'area di lavoro. Quando un'area di lavoro è associata alla capacità Premium, si ottengono:
+* **Aggiornamenti pianificati**: con la capacità condivisa, gli aggiornamenti pianificati per i set di dati dei modelli importati sono limitati a otto volte al giorno. Per i set di dati delle aree di lavoro Premium, è possibile pianificare aggiornamenti fino a 48 volte al giorno. Gli aggiornamenti della cache DirectQuery sono ancora limitati a otto volte al giorno nella capacità Premium.
 
-* **Aggiornamenti pianificati**: con la capacità condivisa, gli aggiornamenti pianificati per i set di dati dei modelli importati sono limitati a 8 volte al giorno. Per i set di dati delle aree di lavoro Premium, è possibile pianificare aggiornamenti fino a 48 volte al giorno. L'aumento degli aggiornamenti pianificati non si applica alle impostazioni di aggiornamento pianificato della cache per DirectQuery, che restano identiche per capacità Premium e condivisa.
-* **Isolamento con hardware dedicato**: viste le caratteristiche principali della capacità condivisa, le prestazioni di report e dashboard potrebbero essere influenzate dalle richieste di risorse di altri carichi di lavoro nella capacità, nonostante le misure di prevenzione messe in atto. Al contrario, la capacità Premium offre prestazioni più coerenti e affidabili per i carichi di lavoro isolandoli da carichi di lavoro non correlati.
+* **Isolamento con hardware dedicato**: nella capacità condivisa, le richieste di risorse di altri carichi di lavoro possono influire sulle prestazioni di report e dashboard. Al contrario, la capacità Premium offre prestazioni più coerenti e affidabili per i carichi di lavoro isolandoli da carichi di lavoro non correlati.
 
 Se un'app è dotata di capacità Premium, vale a dire è stata pubblicata da un'area di lavoro per le app attualmente assegnata alla capacità Premium, l'app pubblicata può essere usata da qualsiasi utente nell'organizzazione, indipendentemente dalla licenza assegnata.
 
 Per altre informazioni sull'assegnazione delle aree di lavoro alla capacità Premium, vedere [Gestire Power BI Premium](service-admin-premium-manage.md).
-
-### <a name="shared-capacity"></a>Capacità condivisa
-
-Per impostazione predefinita, l'area di lavoro ha una capacità condivisa. Ciò include l'*area di lavoro personale* con le aree di lavoro per le app. La capacità condivisa è l'esperienza a cui si è abituati in Power BI, in cui i carichi di lavoro vengono eseguiti nelle risorse di calcolo condivise da altri clienti.
 
 <a name="premiumskus"/>
 
@@ -64,6 +62,7 @@ Per impostazione predefinita, l'area di lavoro ha una capacità condivisa. Ciò 
 Power BI Premium è disponibile nelle configurazioni del nodo con diverse capacità v-core. Per altre informazioni sulle offerte e i prezzi delle SKU specifiche, vedere [Prezzi di Power BI](https://powerbi.microsoft.com/pricing/). È disponibile un [calcolatore dei costi](https://powerbi.microsoft.com/calculator/). Per informazioni sulla pianificazione della capacità analitica incorporata, vedere [Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy) (White paper sulla pianificazione della distribuzione aziendali di Power BI)
 
 * I nodi P possono essere usati per le distribuzioni di servizi o incorporate.
+
 * I nodi EM possono essere usati solo per le distribuzioni incorporate. I nodi EM non hanno accesso alle funzionalità Premium, ad esempio la condivisione di app per gli utenti che non hanno una licenza di Power BI Pro.
 
 >[!NOTE]
@@ -71,7 +70,7 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 
 | Nodo della capacità | Totale vCore<br/>*(Back-end + front-end)* | vCore back-end | vCore front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta | Disponibilità |
 | --- | --- | --- | --- | --- | --- | --- |
-| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0.5 v-core, 2,5 GB RAM |0,5 v-core |3,75 al secondo |150-300 |Disponibile |
+| [EM1 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |1 vCore |0,5 v-core, 2.5 GB di RAM |0,5 v-core |3,75 al secondo |150-300 |Disponibile |
 | [EM2 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |2 v-core |1 v-core, 5 GB di RAM |1 vCore |7,5 al secondo |301-600 |Disponibile |
 | [EM3 (mensile)](https://portal.office.com/SubscriptionDetails?OfferId=4004702D-749C-4F74-BF47-3048F1833780&adminportal=1) |4 v-core |2 v-core, 10 GB di RAM |2 v-core | |601-1.200 |Disponibile |
 | [P1](https://portal.office.com/SubscriptionDetails?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1&adminportal=1) |8 v-core |4 v-core, 25 GB di RAM |4 v-core |30 al secondo |1.201-2.400 |Disponibile (è disponibile anche l'opzione [mensile](https://portal.office.com/SubscriptionDetails?OfferId=E4C8EDD3-74A1-4D42-A738-C647972FBE81&adminportal=1)) |
@@ -79,10 +78,11 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 | [P3](https://portal.office.com/SubscriptionDetails?OfferId=40c7d673-375c-42a1-84ca-f993a524fed0&adminportal=1) |32 v-core |16 v-core, 100 GB di RAM |16 v-core |120 al secondo |4.801-9600 |Disponibile |
 
 * I vCore di front-end sono responsabili della gestione dei documenti relativi a servizio Web, dashboard e report, della gestione dei diritti di accesso, della pianificazione, delle API, dei caricamenti e dei download e in genere di tutto ciò che riguarda l'esperienza utente.
+
 * I vCore di back-end sono responsabili del lavoro più oneroso: elaborazione delle query, gestione della cache, esecuzione dei server R, aggiornamento dei dati, elaborazione del linguaggio naturale, feed in tempo reale e rendering lato server di report e immagini. Con i vCore di back-end viene riservata anche una certa quantità di memoria. Le disponibilità di uno spazio in memoria sufficiente è particolarmente importante quando si usano modelli di dati di grandi dimensioni o un numero elevato di set di dati attivi.
 
 ## <a name="power-bi-report-server"></a>Server di report Power BI
-Power BI Premium include anche la possibilità di eseguire il Server di Report di Power BI in locale nell'organizzazione. Per altre informazioni, vedere [Introduzione a Server di report di Power BI](report-server/get-started.md).
+Power BI Premium include anche la capacità di eseguire il Server di report di Power BI in locale nell'organizzazione. Per altre informazioni, vedere [Introduzione a Server di report di Power BI](report-server/get-started.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Power BI Premium FAQ](service-premium-faq.md) (Domande frequenti su Power BI Premium)  

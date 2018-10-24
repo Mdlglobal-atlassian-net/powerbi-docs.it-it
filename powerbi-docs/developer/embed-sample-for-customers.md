@@ -3,18 +3,18 @@ title: Incorporare contenuto di Power BI in un'applicazione per i clienti
 description: Informazioni su come integrare o incorporare un report, un dashboard o un riquadro in un'app Web tramite le API di Power BI per i clienti.
 author: markingmyname
 ms.author: maghan
-ms.date: 06/20/2018
+manager: kfile
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-manager: kfile
-ms.openlocfilehash: 3cb33180c24022c1e328691ce3a776875d4c87a9
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 06/20/2018
+ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
+ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238124"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48827434"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per i clienti
 
@@ -76,7 +76,7 @@ La registrazione dell'applicazione in Azure Active Directory consente all'applic
     ![Autorizzazioni necessarie](media/embed-sample-for-customers/embed-sample-for-customers-008.png)
 
 3. Selezionare **Microsoft Azure Active Directory** e quindi accertarsi che l'opzione **Accede alla directory come utente registrato** sia selezionata. Selezionare **Salva**.
-   
+
     ![Autorizzazioni di Microsoft Azure AD](media/embed-sample-for-customers/embed-sample-for-customers-011.png)
 
 4. Selezionare **Aggiungi**.
@@ -92,13 +92,13 @@ La registrazione dell'applicazione in Azure Active Directory consente all'applic
     ![Selezionare i servizi PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
 7. Selezionare tutte le autorizzazioni in **Autorizzazioni delegate**. Per salvare le selezioni è necessario selezionarle una alla volta. Al termine, selezionare **Salva**.
-   
+
     ![Selezionare le autorizzazioni delegate](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
 8. In **Autorizzazioni necessarie** selezionare **Concedi autorizzazioni**.
-   
+
     Per l'azione **Concedi autorizzazioni** è necessaria la presenza dell'*account master* per evitare che venga richiesto il consenso da Azure AD. Se l'account che esegue questa azione è un amministratore globale, è necessario concedere autorizzazioni per questa applicazione a tutti gli utenti dell'organizzazione. Se l'account che esegue questa azione è l'*account master* e non un amministratore globale, è necessario concedere autorizzazioni per questa applicazione solo all'*account master*.
-   
+
     ![Concedere autorizzazioni nella finestra di dialogo Autorizzazioni necessarie](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
@@ -171,7 +171,7 @@ Seguire questi passaggi per avviare l'incorporamento dei contenuti usando un'app
 
     ![Pagina principale del portale di Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-    Nel riquadro di spostamento a sinistra scegliere **Tutti i servizi** e selezionare **Registrazioni per l'app**.
+    Nel riquadro di spostamento a sinistra, scegliere **Tutti i servizi** e selezionare **Registrazioni per l'app**.
 
     ![Ricerca di Registrazioni per l'app](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -277,6 +277,7 @@ var embedConfig = new EmbedConfig()
 Si presuppone che venga creata una classe per **EmbedConfig** e **TileEmbedConfig**. Esempi specifici sono disponibili nel file **Models\EmbedConfig.cs** e nel file **Models\TileEmbedConfig.cs**.
 
 ### <a name="load-an-item-using-javascript"></a>Caricare un elemento con JavaScript
+
 È possibile usare JavaScript per caricare un report in un elemento div nella pagina Web.
 
 Per un esempio completo dell'uso dell'API JavaScript, è possibile usare lo [strumento Playground](https://microsoft.github.io/PowerBI-JavaScript/demo), che consente di riprodurre in modo rapido i diversi tipi di esempi di Power BI Embedded. È anche possibile ottenere maggiori informazioni sull'API JavaScript visitando la pagina del [wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).

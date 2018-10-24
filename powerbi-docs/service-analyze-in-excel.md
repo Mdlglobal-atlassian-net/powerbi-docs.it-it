@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e2ff9afcccc9bc32d47359fba386fcb0c704457
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327638"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271556"
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
 A volte si desidera utilizzare Excel per visualizzare e interagire con un set di dati di cui si dispone grazie a Power BI. Con **Analizza in Excel**, è anche possibile accedere alle funzionalità della tabella pivot, del grafico e del filtro dei dati di Excel in base al set di dati presente in Power BI.
@@ -26,7 +26,7 @@ Vi sono alcuni requisiti per l'utilizzo di**Analizza in Excel**:
 * La funzionalità **Analizza in Excel** è supportata da Microsoft Excel 2010 SP1 e dalle versioni successive.
 * Le tabelle pivot di Excel non supportano l'aggregazione di campi numerici mediante trascinamento della selezione. Il set di dati in Power BI *deve avere misure predefinite*.
 * Alcune organizzazioni potrebbero disporre di norme per criteri di gruppo che impediscono l'installazione degli aggiornamenti **Analizza in Excel** necessari per Excel. Se non si riesce a installare gli aggiornamenti, rivolgersi all'amministratore.
-* Per **Analizza in Excel** è richiesta una licenza Pro. Per altre informazioni sulle differenze a livello di funzionalità tra le licenze gratuita e Pro, vedere [Differenze tra la versione gratuita e la versione Pro di Power BI](service-free-vs-pro.md). 
+* Per **Analizza in Excel** è richiesta una licenza Pro. Per altre informazioni sulle differenze a livello di funzionalità tra i tipi di licenza, vedere [Funzionalità di Power BI in base al tipo di licenza](service-features-license-type.md). 
 
 ## <a name="how-does-it-work"></a>Come funziona?
 Quando si seleziona **Analizza in Excel** dal menu di puntini di sospensione (...) assieme a un set di dati o un report di **Power BI**, Power BI stesso crea un file con estensione odc e lo scarica dal browser del computer.
