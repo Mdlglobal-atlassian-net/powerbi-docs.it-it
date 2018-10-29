@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/30/2018
+ms.date: 10/19/2018
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: fd62e90d4a4f348ee7b3a524f85725d517180068
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 96756adc0c24992e99dee0236bb2eb0b81716e4b
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300139"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641782"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Aggiornamento incrementale in Power BI Premium
 
 L'aggiornamento incrementale abilita set di dati molto grandi nel servizio Power BI Premium, con i seguenti vantaggi:
 
-- **Gli aggiornamenti sono più veloci.** È sufficiente aggiornare i dati che sono stati modificati. Ad esempio, è sufficiente aggiornare gli ultimi 5 giorni di un set di dati di 10 anni.
+- **Gli aggiornamenti sono più veloci.** È sufficiente aggiornare i dati che sono stati modificati. Ad esempio, è sufficiente aggiornare gli ultimi cinque giorni di un set di dati di 10 anni.
 
 - **Gli aggiornamenti sono più affidabili.** Ad esempio non è necessario mantenere connessioni con esecuzione prolungata a sistemi di origine volatili.
 
@@ -41,13 +41,13 @@ I set di dati di grandi dimensioni, che contengono anche miliardi di righe, potr
 
 #### <a name="rangestart-and-rangeend-parameters"></a>Parametri RangeStart e RangeEnd
 
-Per sfruttare l'aggiornamento incrementale nel servizio Power BI, il filtro deve essere applicato usando i parametri di data/ora di Power Query con i nomi riservati e con distinzione maiuscole/minuscole **RangeStart** e **RangeEnd**.
+Per usare l'aggiornamento incrementale nel servizio Power BI, il filtro deve essere applicato usando i parametri di data/ora di Power Query con i nomi riservati e con distinzione maiuscole/minuscole **RangeStart** e **RangeEnd**.
 
-Una volta pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI. Non è necessario definirli nelle impostazioni del set di dati nel servizio.
- 
-È importante eseguire il push del filtro nel sistema di origine quando vengono inviate query per le operazioni di aggiornamento. Questo significa che l'origine dati deve supportare la "riduzione delle query". In base ai vari livelli di supporto della riduzione delle query per ogni origine dati, è consigliabile verificare che la logica di filtro sia inclusa nelle query di origine. Se ciò non accade, ogni query richiederà tutti i dati dall'origine, vanificando gli scopi dell'aggiornamento incrementale.
- 
-Il filtro verrà usato per partizionare i dati in intervalli nel servizio Power BI. Non è progettato per supportare l'aggiornamento della colonna di data filtrata. Un aggiornamento verrà interpretato come un inserimento e un'eliminazione (non come aggiornamento). Se l'eliminazione viene eseguita nell'intervallo cronologico e non nell'intervallo incrementale, non verrà rilevata.
+Dopo essere stati pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI. Non è necessario definirli nelle impostazioni del set di dati nel servizio.
+
+È importante eseguire il push del filtro nel sistema di origine quando vengono inviate query per le operazioni di aggiornamento. La propagazione dei filtri implica che l'origine dati supporti la "riduzione delle query". La maggior parte delle origini dati che supportano le query SQL supporta la riduzione delle query. Origini dati quali file flat, BLOB, feed Web e OData in genere non la supportano. Dal momento che ogni origine dati può avere un livello di supporto della riduzione delle query diverso, è consigliabile verificare che la logica di filtro sia inclusa nelle query di origine. Nei casi in cui il filtro non è supportato dal back-end dell'origine dati, la propagazione non risulta possibile. In questi casi, il motore Mashup compensa e applica il filtro localmente. Questa operazione può richiedere il recupero del set di dati completo dall'origine dati. L'aggiornamento incrementale può pertanto risultare molto lento e il processo può esaurire le risorse nel servizio Power BI o nel gateway dati locale, se usato.
+
+Il filtro verrà usato per partizionare i dati in intervalli nel servizio Power BI. Non è progettato per supportare l'aggiornamento della colonna di data filtrata. Un aggiornamento verrà interpretato come un inserimento e un'eliminazione (non come aggiornamento). Se l'eliminazione viene eseguita nell'intervallo cronologico e non nell'intervallo incrementale, non verrà rilevata. Ciò può causare errori di aggiornamento dati dovuti a conflitti di partizione-chiave.
 
 Nell'Editor di Power Query selezionare **Gestisci parametri** per definire i parametri con valori predefiniti.
 
@@ -85,21 +85,21 @@ Viene visualizzata la finestra di dialogo Aggiornamento incrementale. Usare l'in
 
 Il testo dell'intestazione illustra quanto segue:
 
--   L'aggiornamento incrementale è supportato solo per le aree di lavoro con capacità Premium. I criteri di aggiornamento sono definiti in Power BI Desktop e vengono applicati dalle operazioni di aggiornamento nel servizio.
+- L'aggiornamento incrementale è supportato solo per le aree di lavoro con capacità Premium. I criteri di aggiornamento sono definiti in Power BI Desktop e vengono applicati dalle operazioni di aggiornamento nel servizio.
 
--   Se si è in grado di scaricare il file PBIX contenente un criterio di aggiornamento incrementale dal servizio Power BI, tale file non si aprirà in Power BI Desktop. A breve non sarà più possibile eseguirne il download. Il supporto di questa funzionalità potrebbe essere disponibile in futuro, ma ricordare che questi set di dati possono diventare così grandi che la loro gestione (download e apertura) in un PC desktop tipico può causare problemi.
+- Se si è in grado di scaricare il file PBIX contenente un criterio di aggiornamento incrementale dal servizio Power BI, tale file non si aprirà in Power BI Desktop. A breve non sarà più possibile eseguirne il download. Il supporto di questa funzionalità potrebbe essere disponibile in futuro, ma ricordare che questi set di dati possono diventare così grandi che la loro gestione (download e apertura) in un PC desktop tipico può causare problemi.
 
 #### <a name="refresh-ranges"></a>Intervalli di aggiornamento
 
-L'esempio seguente definisce un criterio di aggiornamento per l'archiviazione di 5 anni di dati in totale e l'aggiornamento incrementale di 10 giorni di dati. Se il set di dati viene aggiornato quotidianamente, l'istruzione che segue viene eseguita per ogni operazione di aggiornamento.
+L'esempio seguente definisce un criterio di aggiornamento per archiviare i dati di cinque anni di calendario completi e i dati dell'anno corrente fino alla data attuale, nonché per aggiornare in modo incrementale 10 giorni di dati. La prima operazione di aggiornamento carica i dati cronologici. Gli aggiornamenti successivi saranno incrementali e, se pianificati per l'esecuzione quotidiana, eseguiranno le operazioni seguenti.
 
--   Aggiungere un nuovo giorno di dati.
+- Aggiungere un nuovo giorno di dati.
 
--   Aggiornare 10 giorni fino alla data corrente.
+- Aggiornare 10 giorni fino alla data corrente.
 
--   Rimuovere gli anni di calendario con più di 5 anni dalla data corrente. Se ad esempio la data corrente è 1 gennaio 2019, l'anno 2013 viene rimosso.
+- Rimuovere gli anni di calendario con più di cinque anni dalla data corrente. Se ad esempio la data corrente è 1 gennaio 2019, l'anno 2013 viene rimosso.
 
-Il primo aggiornamento nel servizio Power BI può richiedere più tempo, perché importa i 5 anni di dati. È probabile che gli aggiornamenti successivi vengano completati in tempi molto più ridotti.
+Il primo aggiornamento nel servizio Power BI può richiedere più tempo perché importa tutti i cinque anni di calendario completi. È probabile che gli aggiornamenti successivi vengano completati in tempi molto più ridotti.
 
 ![Intervalli di aggiornamento](media/service-premium-incremental-refresh/refresh-ranges.png)
 
@@ -109,7 +109,7 @@ Il primo aggiornamento nel servizio Power BI può richiedere più tempo, perché
 
 #### <a name="detect-data-changes"></a>Rileva modifiche ai dati
 
-L'aggiornamento incrementale di 10 giorni è ovviamente molto più efficiente rispetto all'aggiornamento completo di 5 anni. Tuttavia è possibile migliorare ancora l'efficienza. Se si seleziona la casella di controllo **Rileva modifiche ai dati**, è possibile selezionare una colonna di data/ora e usarla per identificare e aggiornare solo i giorni in cui i dati vengono modificati. Questa opzione presuppone l'esistenza di una colonna di questo tipo (usata in genere per operazioni di controllo) nel sistema di origine. **Questa non deve essere la stessa colonna usata per partizionare i dati con i parametri RangeStart/RangeEnd.** Il valore massimo di questa colonna viene valutato per ciascuno dei periodi dell'intervallo incrementale. Se tale valore non è cambiato dall'ultimo aggiornamento, non è necessario aggiornare il periodo. Nell'esempio questa opzione può ridurre ulteriormente i giorni sottoposti ad aggiornamento incrementale, ad esempio da 10 a 2.
+L'aggiornamento incrementale di 10 giorni è ovviamente molto più efficiente rispetto all'aggiornamento completo di cinque anni. Tuttavia è possibile migliorare ancora l'efficienza. Se si seleziona la casella di controllo **Rileva modifiche ai dati**, è possibile selezionare una colonna di data/ora e usarla per identificare e aggiornare solo i giorni in cui i dati vengono modificati. Questa opzione presuppone l'esistenza di una colonna di questo tipo (usata in genere per operazioni di controllo) nel sistema di origine. **Questa non deve essere la stessa colonna usata per partizionare i dati con i parametri RangeStart/RangeEnd.** Il valore massimo di questa colonna viene valutato per ciascuno dei periodi dell'intervallo incrementale. Se tale valore non è cambiato dall'ultimo aggiornamento, non è necessario aggiornare il periodo. Nell'esempio questa opzione può ridurre ulteriormente i giorni sottoposti ad aggiornamento incrementale, ad esempio da 10 a 2.
 
 ![Rilevare le modifiche](media/service-premium-incremental-refresh/detect-changes.png)
 

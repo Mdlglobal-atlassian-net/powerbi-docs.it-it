@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908372"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641207"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -87,7 +87,7 @@ Incorporare un report in SharePoint Online non autorizza automaticamente gli ute
 
 Esistono due modi per fornire l'accesso al report all'interno del servizio Power BI. Se si usa un gruppo di Office 365 per creare il sito del team di SharePoint Online è possibile aggiungere l'utente come membro dell'**area di lavoro per le app all'interno del servizio Power BI** e della **pagina SharePoint**. Questo garantisce che gli utenti possano visualizzare il contenuto di tale gruppo. Per altre informazioni, vedere [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md).
 
-In alternativa, è possibile concedere agli utenti l'accesso al report effettuando le operazioni seguenti.
+In alternativa, è possibile concedere agli utenti l'accesso al report seguendo questi passaggi.
 
 1. Aggiungere un riquadro dal report a un dashboard.
 
@@ -108,7 +108,7 @@ Di seguito è riportata una descrizione delle impostazioni che possono essere mo
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-Se l'ambiente di Power BI richiede di effettuare l'accesso con Multi-Factor Authentication, potrà essere richiesto di accedere con un dispositivo di sicurezza per verificare la propria identità. Ciò si verifica se non si è eseguito l'accesso a SharePoint Online usando Multi-Factor Authentication, ma l'ambiente di Power BI richiede un account convalidato da un dispositivo di sicurezza.
+Se l'ambiente di Power BI richiede di eseguire l'accesso con l'autenticazione a più fattori, potrà essere richiesto di accedere con un dispositivo di sicurezza per verificare la propria identità. Ciò si verifica se non si è eseguito l'accesso a SharePoint Online usando Multi-Factor Authentication, ma l'ambiente di Power BI richiede un account convalidato da un dispositivo di sicurezza.
 
 > [!NOTE]
 > Multi-Factor Authentication non è ancora supportato con Azure Active Directory 2.0. Gli utenti ricevono un messaggio di *errore*. Se l'utente accede nuovamente a SharePoint Online con il dispositivo di sicurezza, potrebbe riuscire a visualizzare il report.
@@ -126,7 +126,7 @@ Esistono due motivi comuni per questo messaggio.
 1. Non si è autorizzati ad accedere al report.
 2. Il report è stato eliminato.
 
-È necessario contattare il proprietario della pagina SharePoint Online per risolvere il problema.
+Contattare il proprietario della pagina SharePoint Online per risolvere il problema.
 
 ## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
 
@@ -148,11 +148,13 @@ Esistono due motivi comuni per questo messaggio.
 
 * SharePoint Server classico non è supportato con questa web part.
 
+* I [filtri URL](service-url-filters.md) non sono supportati con la web part SPO.
+
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Consentire o impedire la creazione di pagine del sito moderne dagli utenti finali](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
 [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md)  
 [Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md)  
-[Power BI Premium: di cosa si tratta?](service-premium.md)  
+[Che cos'è Power BI Premium?](service-premium.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

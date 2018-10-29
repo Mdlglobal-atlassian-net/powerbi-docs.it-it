@@ -1,5 +1,5 @@
 ---
-title: Cos'è un dashboard di Power BI?
+title: Che cos'è un dashboard per i consumer del servizio Power BI?
 description: I dashboard sono una funzionalità chiave del servizio Power BI.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909131"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473926"
 ---
-# <a name="dashboards-in-power-bi-service"></a>Dashboard nel servizio Power BI
+# <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
 
 Un ***dashboard*** Power BI è una singola pagina, spesso denominata area di disegno, che usa le visualizzazioni per raccontare una storia. Essendo limitato a una pagina, un dashboard ben progettato contiene solo gli elementi più importanti per tale storia.
 

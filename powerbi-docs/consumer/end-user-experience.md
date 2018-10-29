@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112154"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473866"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
-Dopo aver appreso le nozioni di base di Power BI, è possibile esplorare il **servizio Power BI**. Come accennato in precedenza, c'è chi nel team dedica tutto il suo tempo a **Power BI Desktop**, combinando dati e creando report necessari ad altri membri del team. C'è chi invece dedica tutto il suo tempo al servizio Power BI, visualizzando e interagendo con il contenuto creato da altri membri del team (esperienza di **utilizzo**) o recuperando dati e creando report e dashboard (esperienza di  **creazione**). In questa guida introduttiva saranno importati dati di esempio che saranno poi usati per esplorare il servizio Power BI. 
+Dopo aver appreso le nozioni di base di Power BI, è possibile esplorare il **servizio Power BI**. Come accennato in precedenza, c'è chi nel team dedica tutto il suo tempo a **Power BI Desktop**, combinando dati e creando report necessari ad altri membri del team. C'è chi invece dedica tutto il suo tempo al servizio Power BI, visualizzando e interagendo con il contenuto creato da altri membri del team (esperienza di **utilizzo**). In questa guida introduttiva saranno importati dati di esempio che saranno poi usati per esplorare il servizio Power BI. 
  
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -48,9 +48,11 @@ Amanda presenta una panoramica della navigazione nel servizio Power BI.  Seguire
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Visualizzazione del contenuto (dashboard, report, cartelle di lavoro, set di dati, aree di lavoro, app)
-Per iniziare, verrà esaminata l'organizzazione del contenuto di base, ovvero dashboard, report, set di dati e cartelle di lavoro. Il contenuto viene visualizzato all'interno del contesto di un'area di lavoro. A questo punto, viene visualizzata una sola area di lavoro denominata **Area di lavoro personale**. In Area di lavoro personale viene archiviato tutto il contenuto di cui si è proprietari. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. Il contenuto dell'Area di lavoro personale può essere condiviso con i colleghi. Nell'Area di lavoro personale il contenuto è organizzato in quattro schede, ovvero Dashboard, Report, Cartelle di lavoro e Set di dati.
+Per iniziare, verrà esaminata l'organizzazione del contenuto di base, ovvero dashboard, report, set di dati e cartelle di lavoro. Il contenuto viene visualizzato all'interno del contesto di un'area di lavoro. A questo punto, viene visualizzata una sola area di lavoro denominata **Area di lavoro personale**. In genere gli utenti non necessitano e non usano altre aree di lavoro. In Area di lavoro personale viene archiviato tutto il contenuto di cui si è proprietari. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. L'area di lavoro personale è la posizione in cui viene salvato l'esempio di analisi delle vendite al dettaglio appena scaricato. 
 
-![Schermata Area di lavoro personale](./media/end-user-experience/power-bi-my-workspace2.png)
+Nell'Area di lavoro personale il contenuto è organizzato in quattro schede, ovvero Dashboard, Report, Cartelle di lavoro e Set di dati.
+
+![Schermata Area di lavoro personale](./media/end-user-experience/power-bi-my-workspace.png)
 
 Selezionare un'area di lavoro nel riquadro di spostamento a sinistra: le schede relative al contenuto associato (dashboard, report, cartelle di lavoro, set di dati) vengono visualizzate nell'area di disegno di Power BI a destra.
 
@@ -58,7 +60,7 @@ Se si è un nuovo utente, verrà visualizzata una sola area di lavoro, ovvero **
 
 ![Breve video sull'area di lavoro](./media/end-user-experience/nav.gif)
 
-In tali schede, note anche come *visualizzazioni contenuto*, sono disponibili le informazioni sul contenuto, nonché le azioni che è possibile eseguire con tale contenuto.  Ad esempio, dalla scheda Dashboard è possibile aprire un dashboard, condividere, eliminare, cercare, creare nuovo contenuto, ordinare e tanto altro ancora.
+In tali schede, note anche come *visualizzazioni contenuto*, sono disponibili le informazioni sul contenuto, nonché le azioni che è possibile eseguire con tale contenuto.  Ad esempio, dalla scheda Dashboard è possibile aprire un dashboard, eseguire una ricerca, implementare un ordinamento e molto altro ancora.
 
 ![Scheda Dashboard](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più impor
    
     Per ora è disponibile un solo preferito. Possono essere aggiunti ai preferiti dashboard, report o app.  
 
-1. È anche possibile aggiungere un dashboard o un report a Preferiti dalla scheda **Dashboard** o **Report** dell'area di lavoro.  Aprire la scheda **Report** e selezionare l'icona a forma di stella a sinistra del nome del report.
+1. È anche possibile aggiungere un dashboard o un report a Preferiti dalla scheda **Dashboard** o **Report** della scheda di visualizzazione contenuto.  Aprire la scheda **Report** e selezionare l'icona a forma di stella a sinistra del nome del report.
    
    ![Contrassegnare come preferito](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ Per altre informazioni, vedere [Preferiti](end-user-favorite.md).
 
     Dal riquadro a comparsa, selezionare il contenuto per aprirlo.
 
-2. Talvolta non si vuole aprire il contenuto recente, ma si vuole visualizzare informazioni o eseguire altre azioni, ad esempio condividere, eseguire Insights oppure esportare in Excel. In questi casi, aprire il riquadro selezionando **Recenti** selezionando **Recenti** o la relativa icona nel riquadro di spostamento di sinistra. Se si aveva più di un'area di lavoro, questo elenco includerà il contenuto in tutte le aree di lavoro.
+2. Talvolta non si vuole semplicemente aprire il contenuto recente, ma si vuole anche visualizzare informazioni o eseguire altre azioni, ad esempio visualizzare Insights oppure esportare in Excel. In questi casi, aprire il riquadro **Recenti** selezionando **Recenti** o la relativa icona nel riquadro di spostamento di sinistra. Se si aveva più di un'area di lavoro, questo elenco includerà il contenuto di tutte le aree di lavoro.
 
    ![Riquadro Recenti](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ La visualizzazione contenuto rende più semplice cercare, filtrare e ordinare il
 
 Poiché l'esempio è uno, la ricerca e l'ordinamento non sono necessari.  Quando però si hanno lunghi elenchi di dashboard, report, cartelle di lavoro e set di dati, le funzionalità di ricerca e ordinamento risulteranno estremamente utili.
 
-![Ricerca di un dashboard](./media/end-user-experience/power-bi-search-sort.png)
+![Cercare un report](./media/end-user-experience/power-bi-search.png)
 
-È anche possibile ordinare il contenuto in base al nome o al proprietario.  
+È anche possibile ordinare il contenuto in base al nome o al proprietario. Osservare la freccia a destra di **Nome**. Attualmente si sta applicando a 83 elementi l'ordinamento alfabetico crescente in base al nome. Per impostare l'ordinamento decrescente, selezionare **Nome**. La Freccia SU diventa Freccia GIÙ.
 
-![Ordinare il contenuto](./media/end-user-experience/power-bi-sort.png)
+![Ordinare il contenuto](./media/end-user-experience/power-bi-sort-new.png)
 
-Per altre informazioni, vedere [Eseguire ricerche, ordinare e filtrare in Power BI](end-user-search-sort.md).
+Non tutte le colonne possono essere ordinate. Passare il mouse sulle intestazioni colonna per individuare le colonne che possono essere ordinate.
+
+Per altre informazioni, vedere [Power BI navigation: search and sort](end-user-search-sort.md) (Navigazione in Power BI: ricerca e ordinamento).
 
 ## <a name="clean-up-resources"></a>Pulire le risorse
 Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il dashboard, il report e il set di dati dell'esempio di analisi delle vendite al dettaglio.
@@ -143,4 +147,4 @@ Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il 
 ## <a name="next-steps"></a>Passaggi successivi
 
 > [!div class="nextstepaction"]
-> [Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI](end-user-reading-view.md)
+> [Visualizzazione di lettura nel servizio Power BI](end-user-reading-view.md)

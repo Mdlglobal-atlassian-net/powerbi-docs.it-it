@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827457"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396866"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per l'organizzazione
 
@@ -158,13 +158,13 @@ Per incorporare i contenuti usando un'applicazione di esempio, seguire questi pa
 
     ![Applicazione di esempio User Owns Data (Dati di proprietà dell'utente)](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Aprire il file **Cloud.config** nell'applicazione di esempio. Per eseguire correttamente l'applicazione è necessario compilare alcuni campi: **ClientID** e **ClientSecret**.
+2. Aprire il file **Cloud.config** nell'applicazione di esempio. Per eseguire correttamente l'applicazione è necessario compilare alcuni campi: **ApplicationID** e **ApplicationSecret**.
 
     ![File Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Specificare le informazioni **ClientID** con l'**ID applicazione** di Azure. Il valore **ClientID** viene usato per l'identificazione dell'applicazione per gli utenti da cui si richiedono le autorizzazioni.
+    In **ApplicationID** inserire il valore di **ID applicazione** di Azure. Il valore **ApplicationID** viene usato dall'applicazione per identificare gli utenti da cui si richiedono autorizzazioni.
 
-    Per ottenere il valore **ClientID**, seguire questa procedura:
+    Per ottenere il valore **ApplicationID**, seguire questa procedura:
 
     1. Accedere al [portale di Azure](https://portal.azure.com).
 
@@ -174,17 +174,17 @@ Per incorporare i contenuti usando un'applicazione di esempio, seguire questi pa
 
         ![Ricerca di Registrazioni per l'app](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Selezionare l'applicazione che deve usare il valore **ClientID**.
+    1. Selezionare l'applicazione che deve usare il valore **ApplicationID**.
 
         ![Scegliere un'app](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Dovrebbe essere visualizzato un **ID applicazione** che viene elencato come GUID. Usare questo **ID applicazione** come **ClientID** per l'applicazione.
+    1. Dovrebbe essere visualizzato un **ID applicazione** che viene elencato come GUID. Usare questo **ID applicazione** come **ApplicationID** per l'applicazione.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Specificare le informazioni **ClientSecret** dalla sezione **Chiavi** in **Registrazioni per l'app** in **Azure**.
+    1. Specificare le informazioni per **ApplicationSecret** dalla sezione **Chiavi** in **Registrazioni app** in **Azure**.
 
-    1. Per ottenere il valore **ClientSecret**, seguire questa procedura:
+    1. Per ottenere il valore **ApplicationSecret**, seguire questa procedura:
 
         1. Accedere al [portale di Azure](https://portal.azure.com).
 
@@ -194,7 +194,7 @@ Per incorporare i contenuti usando un'applicazione di esempio, seguire questi pa
 
             ![Ricerca di Registrazioni per l'app](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Selezionare l'applicazione che deve usare il valore **ClientSecret**.
+        1. Selezionare l'applicazione che deve usare il valore **ApplicationSecret**.
 
             ![Scegliere un'app](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

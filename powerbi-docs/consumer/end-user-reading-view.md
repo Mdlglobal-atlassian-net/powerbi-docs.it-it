@@ -1,94 +1,199 @@
 ---
-title: Visualizzazione di lettura e Visualizzazione di modifica dei report nel servizio Power BI
-description: Informazioni generali sulle differenze tra la Visualizzazione di lettura e la Visualizzazione di modifica per il report del servizio Power BI
+title: Funzionalità consumer di Power BI nel servizio Power BI
+description: In questo Avvio rapido i **consumer** apprendono come usare il servizio Power BI.
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 ms.service: powerbi
-ms.component: powerbi-service
-ms.topic: conceptual
-ms.date: 10/02/2018
+ms.topic: quickstart
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/17/2018
 ms.author: mihart
-LocalizationGroup: Reports
-ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908082"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396521"
 ---
-# <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI
-Nel servizio Power BI (ma non in Power BI Desktop) sono disponibili due modalità per visualizzare e interagire con i report: la Visualizzazione di lettura e la Visualizzazione di modifica. La visualizzazione di lettura è disponibile per tutti gli utenti ed è stata progettata in modo specifico per i *consumer* di dati, mentre la visualizzazione di modifica è disponibile solo per gli *autori* e i proprietari dei report.
+<!-- once the sample aps are live, change this so consumers can follow along -->
+# <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Avvio rapido: Informazioni sulle funzionalità di Power BI per i ***consumer***
+In questo Avvio rapido si apprende come interagire con Power BI per trovare informazioni dettagliate derivanti dai dati aziendali. Questo articolo non costituisce un'analisi approfondita, ma piuttosto un esame rapido di varie azioni disponibili per i **consumer** di Power BI.
 
-![Immagine di creatori di report e fruitori di report](./media/end-user-reading-view/power-bi-creators-consumers.png)
+Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
-## <a name="report-reading-view"></a>Visualizzazione di lettura del report
+## <a name="prerequisites"></a>Prerequisiti
+- Servizio Power BI (app.powerbi.com) <!-- app from AppSource -->
 
- La visualizzazione di lettura consente di esplorare e interagire con il report. Si tratta di un modo semplice e sicuro per modificare e ottenere informazioni sui dati. La visualizzazione di lettura è stata progettata per i *consumer* di report, per gli utenti che aprono report dalle app o per cli utenti [con cui sono stati condivisi](../service-share-dashboards.md) report. La visualizzazione di lettura garantisce che ogni singolo consumer di un report specifico visualizzi lo stesso report e le stesse visualizzazioni e, facoltativamente, con i medesimi filtri applicati.  I consumer possono interagire con i report, modificare i filtri esistenti, nel qual caso le modifiche vengono salvate con il report, ma non possono aggiungere nuovi filtri.
+## <a name="reading-view"></a>Visualizzazione di lettura
+La visualizzazione di lettura è disponibile nel servizio Power BI per i *consumer* di report. Quando un collega condivide un report, la Visualizzazione di lettura è la modalità per esplorare e interagire con il report. 
 
-> [!NOTE]
-> In alcuni casi, i consumer dei report possono visualizzare dati diversi a seconda delle autorizzazioni per i dati e della sicurezza a livello di riga.
+L'altra modalità report del servizio Power BI è la [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md), disponibile per i *designer* dei report.  
 
-## <a name="report-editing-view"></a>Visualizzazione di modifica del report
+La Visualizzazione di lettura è un metodo completo e sicuro per esplorare i dashboard e i report. Mentre si eseguono analisi approfondite dei dashboard e dei report condivisi, i set di dati sottostanti rimangono intatti e invariati. 
 
-La visualizzazione di modifica è disponibile solo agli autori del report o ai colleghi che sono [comproprietari di un report in quanto membri o amministratori di un'area di lavoro delle app](../service-create-distribute-apps.md).
+In Visualizzazione di lettura è ad esempio possibile evidenziare e filtrare gli oggetti visivi di una pagina in modo correlato.  È sufficiente evidenziare o selezionare un valore in un oggetto visivo per verificarne immediatamente l'impatto sugli altri oggetti. Usare il riquadro Filtro per aggiungere e modificare i filtri in una pagina del report e modificare il modo in cui vengono ordinati i valori in una visualizzazione. Questi sono solo alcune delle funzionalità *consumer* in Power BI.  Continuare a leggere per informazioni su queste e altre funzionalità.
 
-La visualizzazione di modifica è stata progettata per gli *autori* dei report. In questa visualizzazione gli autori possono importare e connettersi a set di dati, esplorare i dati e creare report e dashboard. Nella visualizzazione di modifica gli *autori* possono esaminare più in dettaglio i dati aggiungendo e rimuovendo campi, cambiando il tipo di visualizzazione, creando nuove visualizzazioni e aggiungendo ed eliminando visualizzazioni e pagine dal report. Possono quindi condividere i report creati con i colleghi.
+ 
+### <a name="view-an-app"></a>Visualizzare un'app
+In Power BI le *app* riuniscono in un'unica posizione dashboard e report correlati.
 
-## <a name="reading-view-versus-editing-view"></a>Confronto tra la visualizzazione di lettura e la visualizzazione di modifica
-Questo grafico non elenca tutte le funzionalità dei report disponibili nel servizio Power BI. Elenca solo le attività dei report non disponibili in **entrambe** le visualizzazioni, ovvero nella visualizzazione di lettura e nella visualizzazione di modifica.
+1. Selezionare **App** ![App nel riquadro di spostamento a sinistra](./media/end-user-apps/power-bi-apps-bar.png) > **Scarica app**. 
+   
+     ![Icona Scarica app](./media/end-user-reading-view/power-bi-get-app.png)
+2. In AppSource, in **Organizzazione** eseguire una ricerca per limitare il numero di risultati e trovare l'app si sta cercando.
+   
+     ![In AppSource in Organizzazione](./media/end-user-reading-view/power-bi-appsource.png)
+3. Selezionare **Scarica adesso** per aggiungerla al contenitore App. 
 
+### <a name="view-a-dashboard"></a>Visualizzare un dashboard
+Quest'app si apre automaticamente con un dashboard. Un ***dashboard*** Power BI è una singola pagina, spesso denominata area di disegno, che usa le visualizzazioni per raccontare una storia. Essendo limitato a una pagina, un dashboard ben progettato contiene solo gli elementi più importanti per tale storia.
 
-|Attività  | Visualizzazione di lettura  | Visualizzazione di modifica |
-|-------------------------|-------|-------|
-|**Interi report**  |
-| [Creare o modificare un report](../service-report-create-new.md) | No  | Sì |
-| [Condividere un report](../service-share-reports.md)| Sì | Sì, ed è inoltre possibile gestire le autorizzazioni, concedendo anche ad altri utenti le autorizzazioni di *proprietario*. |
-| [Creare filtri persistenti (permanenti) a livello visivo, filtri di drill-through, filtri a livello di pagina e filtri a livello di report dal riquadro Filtri](../power-bi-report-add-filter.md) | No  | Sì |
-| [Usare il riquadro Filtri del report](end-user-report-filter.md) | Sì, è possibile utilizzare i filtri esistenti e le modifiche possono essere salvate con il report, ma non è possibile aggiungere nuovi filtri. | Sì |
-| [Usare il riquadro Analisi del report](../service-analytics-pane.md) | No | Sì |
-| [Opzioni di **visualizzazione** del report](../power-bi-report-display-settings.md) | Sì, con alcune eccezioni. | Sì, tutte, incluse le linee della griglia, l'allineamento e il blocco. |
-| [Creare una pianificazione dell'aggiornamento](../refresh-data.md) | No  | Sì |
-| [Sottoscrivere un report](end-user-subscribe.md) | Sì | No |
-| [Domande e risposte - Porre le domande nei report](end-user-q-and-a.md) | No  | Sì |
-| [Visualizzare le metriche di utilizzo](../service-usage-metrics.md) | Sì, nell'area di disegno report. | Sì, nell'elenco di report (visualizzazione contenuto) |
-| [Visualizzare elementi correlati](end-user-related.md) | Sì, nell'area di disegno report. | Sì, nell'elenco di report (visualizzazione contenuto) |
-| [Salvare un report](../service-report-save.md) | Sì, ma solo usando **Salva con nome**. | Sì |
-| [Eliminare un report](../service-delete.md) | No  | Sì |
-|**Pagine del report** |
-| [Aggiungere o rinominare una pagina del report](../power-bi-report-add-page.md)  | No  | Sì  |
-| [Duplicare una pagina di un report](../power-bi-report-copy-paste-page.md) | No  | Sì |
-| [Eliminare una pagina di un report](../service-delete.md) | no | sì |
-|**Uso delle visualizzazioni dei report**|
-| [Aggiungere visualizzazioni a un report](../visuals/power-bi-report-add-visualizations-i.md) | No  | Sì |
-| [Aggiungere caselle di testo e forme a un report](../power-bi-reports-add-text-and-shapes.md) | No  | Sì |
-| [Usare il riquadro Formattazione del report](../service-the-report-editor-take-a-tour.md) | No | Sì |
-| [Configurare le interazioni con gli oggetti visivi](end-user-interactions.md) | No  | Sì |
-| [Mostrare i dati usati per creare la visualizzazione](end-user-show-data.md) | No  | Sì |
-| [Configurare l'esplorazione](end-user-drill.md) | No  | Sì |
-| [Modificare la visualizzazione in uso](../visuals/power-bi-report-change-visualization-type.md) | No | Sì|
-| [Eliminare una visualizzazione, una casella di testo o una forma](../service-delete.md)| No | Sì |
+![dashboard](media/end-user-reading-view/power-bi-dashboard.png)
+
+Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e sono *aggiunte* al dashboard dai report.
+
+### <a name="subscribe-to-a-dashboard-or-report"></a>Effettuare la sottoscrizione a un dashboard o un report
+Non è necessario aprire Power BI per monitorare un dashboard.  È sufficiente effettuare la sottoscrizione e Power BI invierà tramite posta elettronica uno snapshot del dashboard in base alla pianificazione impostata. 
+
+![Selezionare l'icona Sottoscrivi](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
 
 
-## <a name="navigating-between-editing-view-and-reading-view"></a>Passare dalla Visualizzazione di modifica alla Visualizzazione di lettura
-Tenere presente che solo l'autore e i proprietari dei report possono aprire un report in Visualizzazione di modifica.
+1. Nella barra dei menu superiore selezionare **Sottoscrivi** oppure l'icona a forma di busta ![Icona Sottoscrivi](./media/end-user-subscribe/power-bi-icon-envelope.png).
+   
+   ![Icona Sottoscrivi](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-1. Per impostazione predefinita, il report viene aperto in Visualizzazione di lettura. Se è disponibile l'opzione **Modifica report**, significa che è attiva la Visualizzazione di lettura. Se l'opzione **Modifica report** è disabilitata, significa che l'utente non è autorizzato ad aprire il report in Visualizzazione di modifica.
+3. Usare il dispositivo di scorrimento giallo per attivare e disattivare la sottoscrizione.  Facoltativamente, aggiungere i dettagli del messaggio di posta elettronica. 
 
-   ![Modifica report disabilitata](./media/end-user-reading-view/power-bi-edit-report-grey.png)
+    Nelle schermate riportate di seguito si noti che quando si sottoscrive un report, viene in realtà eseguita una sottoscrizione a una *pagina* di report.  Per sottoscrivere più di una pagina di un report, selezionare **Aggiungi un'altra sottoscrizione** e selezionare una pagina diversa. 
+      
+   ![Finestra Sottoscrivi](./media/end-user-subscribe/power-bi-emails.png)
+   
+    L'aggiornamento della pagina del report non aggiorna il set di dati. Solo il proprietario del set di dati può aggiornare manualmente un set di dati. Per cercare il nome del o dei set di dati sottostanti, selezionare **Visualizza elementi correlati** nella barra dei menu superiore.
 
-2. Se l'opzione **Modifica report** non è disabilitata, selezionarla per aprire il report in Visualizzazione di modifica.
+### <a name="view-related-content"></a>Visualizza il contenuto correlato
+Il riquadro **Contenuto correlato** mostra come è interconnesso il contenuto del servizio Power BI: dashboard, report e set di dati. Non solo il riquadro mostra il contenuto correlato, ma consente anche di intervenire sul contenuto e spostarsi facilmente tra il contenuto correlato.
 
-   ![Opzione Modifica report](./media/end-user-reading-view/power-bi-edit-report.png)
+Da un dashboard o un report, selezionare **Visualizza elementi correlati** nella barra dei menu superiore.
 
-   Il report è ora nella Visualizzazione di modifica e presenta le ultime [impostazioni di visualizzazione](../power-bi-report-display-settings.md) usate nella Visualizzazione di lettura.
+![Contenuto correlato](./media/end-user-reading-view/power-bi-view-related-dashboard.png)
 
-2. Per tornare alla Visualizzazione di lettura, selezionare **Visualizzazione di lettura** nella barra di spostamento superiore.
+### <a name="use-qa-to-ask-questions-using-natural-language"></a>Usare Domande e risposte per porre domande sui dati con il linguaggio naturale
+A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale. La casella Domande e risposte si trova nella parte superiore del dashboard. Ad esempio, "show me count of large opportunities by sales stage as a funnel" ("mostra il numero di opportunità importanti per fase di vendita come grafico a imbuto"). 
 
-    ![Opzione Visualizzazione di lettura](./media/end-user-reading-view/power-bi-reading-view.png)
+![Domande e risposte](./media/end-user-reading-view/power-bi-qna.png)
+
+### <a name="favorite-a-dashboard"></a>Aggiungere un dashboard ai Preferiti
+Dopo aver aggiunto un contenuto a *Preferiti* è possibile accedere a tale contenuto dalla barra di spostamento a sinistra. La barra di spostamento a sinistra è visibile da quasi tutte le aree di Power BI. Gli elementi preferiti sono in genere i dashboard, le pagine di report e le app a cui si accede più spesso.
+
+1. Uscire da Domande e risposte per tornare a un dashboard.    
+2. Nell'angolo in alto a destra del servizio Power BI selezionare **Aggiungi a Preferiti** o l'icona a forma di stella ![Icona a forma di stella](./media/end-user-favorite/power-bi-favorite-icon.png).
+   
+   ![Icona Preferiti](./media/end-user-favorite/powerbi-dashboard-favorite.png)
 
 
+### <a name="open-and-view-a-report-and-report-pages"></a>Aprire e visualizzare report e pagine di report
+Un report è costituito da una o più pagine di oggetti visivi. I report vengono creati dai *designer* di Power BI e [condivisi con i *consumer* direttamente](end-user-shared-with-me.md) o nel contesto di un'[app](end-user-apps.md). 
+
+I report possono essere aperti da un dashboard. La maggior parte dei riquadri del dashboard viene *aggiunta* dai report. Se si seleziona un riquadro, viene aperto il report usato per creare il riquadro stesso. 
+
+1. In un dashboard selezionare un riquadro. In questo esempio è stato selezionato il riquadro dell'istogramma "Revenue" (Ricavi).
+
+    ![Dashboard con riquadro selezionato](./media/end-user-reading-view/power-bi-dashboard2.png)
+
+2.  Viene aperto il report associato. Si noti che la pagina corrente è "Revenue overview" (Panoramica ricavi). Si tratta della pagina del report che contiene l'istogramma selezionato dal dashboard.
+
+    ![Report aperto nella Visualizzazione di lettura](./media/end-user-reading-view/power-bi-report-opens.png)
+
+### <a name="adjust-the-display-dimensions"></a>Regolare le dimensioni dello schermo
+I report vengono visualizzati su dispositivi diversi, le cui dimensioni e proporzioni possono variare.  Il rendering predefinito potrebbe quindi non corrispondere a quello che si intende visualizzare sul dispositivo.  
+
+1. Per la regolazione, nella barra dei menu superiore selezionare **Visualizza**.
+
+    ![Menu Visualizza del report](media/end-user-reading-view/power-bi-fit.png)
+
+2.  Scegliere una delle opzioni disponibili. In questo esempio è stata scelta l'opzione **Adatta alla pagina**.
+
+    ![pagina Adatta alla pagina del report](media/end-user-reading-view/power-bi-report-fit.png)    
+
+### <a name="use-the-report-filters-pane"></a>Usare il riquadro Filtri del report
+Se l'autore del report ha aggiunto filtri a una pagina di un report, è possibile interagire con i filtri.
+
+1. Selezionare l'icona **Filtri** nell'angolo in alto a destra.
+   
+   ![Selezionare l'icona Filtro](media/end-user-reading-view/filters.png)  
+
+2. Selezionare un oggetto visivo per attivarlo. Verranno visualizzati tutti i filtri applicati nell'oggetto visivo (Filtri a livello di oggetto visivo), in tutta la pagina del report (Filtri a livello di pagina) e nell'intero report (Filtri a livello di report).
+   
+   ![Tipi di filtri del report](media/end-user-reading-view/power-bi-reading-filters.png)
+
+3. Passare con il mouse su un filtro ed espanderlo selezionando la freccia verso il basso.
+   
+   ![Espandere il filtro](media/end-user-reading-view/power-bi-expan-filter.png)
+
+4. Modificare i filtri e verificarne l'impatto sugli oggetti visivi.  
+   
+     
+     ![Filtro avanzato](media/end-user-reading-view/power-bi-advanced-filter.png)
+
+### <a name="see-how-all-the-visuals-on-a-page-are-interconnected"></a>Vedere come sono collegati tutti gli oggetti visivi di una pagina
+Evidenziare le visualizzazioni correlate e i filtri correlati in una pagina. Le visualizzazioni in una singola pagina del report sono tutte "connesse" tra loro.  Questo significa che se si selezionano uno o più valori in una visualizzazione, le altre visualizzazioni che usano lo stesso valore verranno modificate in base alla selezione.
+
+![Evidenziazione incrociata](media/end-user-reading-view/pagefilter3b.gif)
+> 
+### <a name="display-details-on-a-visualization"></a>Visualizzare i dettagli di una visualizzazione
+Passare con il mouse sugli oggetti visivi per visualizzarne i dettagli
+
+![Passare il puntatore per visualizzare i dettagli](media/end-user-reading-view/amarillachart.png)
+
+### <a name="sort-a-visualization"></a>Ordinare una visualizzazione
+Gli oggetti visivi in una pagina del report possono essere ordinati e salvati con le modifiche applicate. 
+
+1. Passare il mouse sopra un oggetto visivo per attivarlo.    
+2. Selezionare i puntini di sospensione (...) per aprire le opzioni di ordinamento.
+
+    ![Ordinare un grafico](media/end-user-reading-view/sort.gif) 
+
+###  <a name="open-the-selection-pane"></a>Aprire il riquadro **Selezione**
+È possibile spostarsi con facilità tra visualizzazioni nella pagina del report. 
+
+1. Selezionare **Visualizza > Riquadro di selezione** per aprire il riquadro di selezione. Attivare **Riquadro di selezione**.
+
+    ![Attivare il riquadro di selezione del report](media/end-user-reading-view/power-bi-selection-pane2.png)
+
+2. Il riquadro di selezione viene aperto nel canvas del report. Selezionare un oggetto visivo nell'elenco per attivarlo.
+
+    ![Riquadro di selezione del report](media/end-user-reading-view/power-bi-selection-pane-new.png)
+
+### <a name="zoom-in-on-individual-visuals"></a>Eseguire lo zoom avanti su singoli oggetti visivi
+Passare il puntatore del mouse sull'oggetto visivo e selezionare l'icona **Modalità messa a fuoco** ![](media/end-user-reading-view/pbi_popouticon.jpg). Quando si espande in Modalità messa a fuoco, la visualizzazione riempie tutta l'area di disegno del report, come illustrato di seguito.
+
+![modalità messa a fuoco](media/end-user-reading-view/powerbi-focus-mode.png)
+
+Per aprire la stessa visualizzazione senza che barre dei menu, riquadro dei filtri e altri riquadri vengano rimossi, selezionare l'icona **Schermo intero** dalla barra dei menu in alto ![](media/end-user-reading-view/power-bi-focus-icon.png).
+
+![Modalità schermo intero](media/end-user-reading-view/power-bi-full-screen.png)
+
+### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrare i dati usati per creare la visualizzazione
+Una visualizzazione di Power BI viene costruita con i dati dei set di dati sottostanti. Se si è interessati a visualizzare il "dietro le quinte", Power BI consente di *visualizzare* i dati usati per creare l'oggetto visivo. Quando si seleziona **Mostra i dati**, Power BI mostra i dati di sotto o accanto alla visualizzazione.
+
+1. Nel servizio Power BI aprire un report e selezionare un oggetto visivo.  
+2. Per visualizzare i dati su cui si basa l'oggetto visivo, selezionare i puntini di sospensione (...) e scegliere **Mostra i dati**.
+   
+   ![Selezionare Mostra i dati](./media/end-user-show-data/power-bi-show-data2.png)
+
+Questa rapida panoramica ha illustrato alcune azioni eseguibili dal **consumer** con il servizio Power BI.  
+
+## <a name="clean-up-resources"></a>Pulire le risorse
+- Se si è connessi a un'app, nella barra di spostamento a sinistra selezionare **App** per aprire l'elenco contenuti App. Passare il mouse sopra l'app da eliminare e selezionare l'icona del Cestino.
+
+- Se è stata eseguita l'importazione o la connessione a un report di esempio di Power BI, nella barra di spostamento a sinistra aprire **Area di lavoro personale**. Usando le schede nella parte superiore trovare il dashboard, il report e il set di dati e selezionare l'icona Cestino per ogni elemento.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Esistono moltissimi modi per interagire con un report nella Visualizzazione di lettura, ad esempio filtrando e trasformando i dati per ottenere informazioni dettagliate e risposte alle domande.  L'argomento successivo, [Interagire con un report nella Visualizzazione di lettura](../service-interact-with-a-report-in-editing-view.md), illustra in modo dettagliato alcuni approcci.    
-Tornare ai [report in Power BI](end-user-reports.md)    
+
+

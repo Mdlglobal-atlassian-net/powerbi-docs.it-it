@@ -1,21 +1,21 @@
 ---
 title: Supporto di più aree geografiche per Power BI Premium (anteprima)
 description: Informazioni su come distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300185"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641669"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Supporto di più aree geografiche per Power BI Premium (anteprima)
 
@@ -40,7 +40,7 @@ Il supporto di più aree geografiche è ora disponibile anche in Power BI Embedd
 Per le nuove capacità, abilitare il supporto di più aree geografiche selezionando un'area diversa da quella predefinita nell'elenco a discesa.  Ogni capacità disponibile mostra l'area in cui è attualmente disponibile, ad esempio **Stati Uniti centro-occidentali**.
 
 ![Dimensioni della capacità: selezionare un'area. Più aree geografiche di Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 Dopo averla creata, la capacità resta in tale area e il contenuto delle eventuali aree di lavoro create verrà archiviato in tale area. È possibile eseguire la migrazione delle aree di lavoro da un'area a un'altra tramite l'elenco a discesa nella schermata delle impostazioni dell'area di lavoro.
 
 ![Modifica area di lavoro: scegliere una capacità disponibile. Più aree geografiche di Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -83,7 +83,7 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 
 ## <a name="move-content-out-of-multi-geo"></a>Spostare il contenuto all'esterno della capacità di più aree geografiche  
 
-È possibile spostare aree di lavoro al di fuori della capacità di più aree geografiche in uno di due modi:
+È possibile spostare aree di lavoro al di fuori della capacità Multi-Geo in due modi:
 
 - Eliminare la capacità corrente in cui si trova l'area di lavoro.  L'area di lavoro viene così rispostata nella capacità condivisa nell'area iniziale.
 - Eseguire la migrazione di singole aree di lavoro alla capacità Premium disponibile nel tenant principale.
@@ -91,11 +91,8 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
 - Verificare che qualsiasi spostamento avviato tra aree rispetti tutti i requisiti di conformità aziendali e di enti pubblici prima di avviare il trasferimento dei dati.
-
 - Una query memorizzata nella cache archiviata in un'area remota resta in tale area quando è inattiva. Tuttavia, gli altri dati in transito potrebbero spostarsi tra più aree geografiche.
-
 - Quando si spostano dati da un'area a un'altra in un ambiente con più aree geografiche, i dati di origine possono rimanere nell'area da cui vengono spostati fino a 30 giorni. Durante tale periodo, gli utenti finali non potranno accedervi. I dati verranno rimossi da quest'area ed eliminati definitivamente durante il periodo di 30 giorni.
-
 - Il supporto di più aree geografiche non comporta prestazioni migliori in generale. Il caricamento di report e dashboard comporta comunque richieste all'area iniziale per i metadati.
 
 ## <a name="next-steps"></a>Passaggi successivi

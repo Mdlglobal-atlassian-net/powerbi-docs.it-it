@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
-ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
+ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "48232927"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396958"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -169,7 +169,8 @@ Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della 
 
 * Quando si usa l'operatore *in*, i valori a destra di *in* devono essere un elenco delimitato da virgole racchiuso tra parentesi.    
 * Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno prefisso in quanto vengono passati direttamente al motore di elaborazione dei report.
-* I filtri della stringa di query non funzionano con [Pubblica sul Web](service-publish-to-web.md) o Power BI Embedded.   
+* I filtri della stringa di query non funzionano con gli URL [Pubblica sul Web](service-publish-to-web.md).
+* La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
 * Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.
 * I filtri URL dei report hanno un limite di 10 espressioni (10 filtri connessi tramite AND).
 

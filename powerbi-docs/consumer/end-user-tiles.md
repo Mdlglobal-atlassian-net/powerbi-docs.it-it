@@ -1,21 +1,21 @@
 ---
-title: Riquadri del dashboard nel servizio Power BI
-description: Informazioni sui riquadri del dashboard in Power BI. Includono i riquadri che vengono creati da SQL Server Reporting Services (SSRS).
+title: Riquadri del dashboard nel servizio Power BI per i consumer
+description: Informazioni sui riquadri del dashboard in Power BI per i consumer. Includono i riquadri che vengono creati da SQL Server Reporting Services (SSRS).
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0ff1d9a49e0566119df2c790ad618700c9a9ca3
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565453"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396475"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
 I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile/mobile-tiles-in-the-mobile-apps.md). In Power BI per dispositivi mobili è inoltre possibile [aggiungere immagini al dashboard con l'app per iPhone](mobile/mobile-iphone-app-get-started.md).
@@ -23,58 +23,45 @@ I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power
 ## <a name="dashboard-tiles"></a>I riquadri del dashboard
 ![Dashboard di Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-Un riquadro è uno snapshot dei dati, aggiunto al dashboard. È possibile creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel nonché da SQL Server Reporting Services (SSRS) e altro.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
+Un riquadro è uno snapshot dei dati, aggiunto al dashboard da un *designer*. È possibile creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel, da SQL Server Reporting Services (SSRS) e da altre origini.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
 
-Oltre ad aggiungere riquadri, è possibile creare riquadri autonomi direttamente nel dashboard mediante [Aggiungi riquadro](../service-dashboard-add-widget.md). I riquadri autonomi includono caselle di testo, immagini, video, streaming di dati e contenuto Web.
+Oltre ai riquadri aggiunti dai report, i *designer* possono aggiungere riquadri autonomi direttamente nel dashboard usando **Aggiungi riquadro**. I riquadri autonomi includono caselle di testo, immagini, video, streaming di dati e contenuto Web.
 
 Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - Concetti di base](end-user-basic-concepts.md).
 
-> [!NOTE]
-> Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Ad esempio, se è stato aggiunto un grafico a linee da un report che è stato modificato successivamente in un grafico a barre, il riquadro del dashboard continua a mostrare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.
-> 
-> 
-
-## <a name="pin-a-tile-from"></a>Aggiungere un riquadro da...
-Per aggiungere un riquadro a un dashboard si può procedere in diversi modi. È possibile aggiungere riquadri da:
-
-* [Domande e risposte di Power BI](../service-dashboard-pin-tile-from-q-and-a.md)
-* [n report](../service-dashboard-pin-tile-from-report.md)
-* [un altro dashboard](../service-pin-tile-to-another-dashboard.md)
-* [Cartella di lavoro di Excel in OneDrive for Business](../service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher per Excel](../publisher-for-excel.md)
-* [Informazioni rapide](end-user-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
-
-È anche possibile creare riquadri autonomi per immagini, caselle di testo, video, streaming di dati e contenuto Web direttamente nel dashboard usando [Aggiungi riquadro](../service-dashboard-add-widget.md).
-
-  ![Icona Aggiungi riquadro](./media/end-user-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interazione con i riquadri in un dashboard
-### <a name="move-and-resize-a-tile"></a>Spostare e ridimensionare un riquadro
-[Spostare un riquadro nel dashboard](../service-dashboard-edit-tile.md) trascinandolo. Passare il puntatore e selezionare il quadratino ![Quadratino](./media/end-user-tiles/resize-handle.jpg) per ridimensionare il riquadro.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Passare il puntatore del mouse su un riquadro per modificarne l'aspetto e il comportamento
 1. Passare il puntatore del mouse sul riquadro per visualizzare i puntini di sospensione.
    
     ![Puntini di sospensione del riquadro](./media/end-user-tiles/ellipses_new.png)
-2. Selezionare i puntini di sospensione per aprire il menu Azione per il riquadro.
+2. Selezionare i puntini di sospensione per aprire il menu Azione per il riquadro. Le opzioni disponibili variano a seconda del tipo di oggetto visivo e del metodo usato per creare il riquadro. Ecco alcuni esempi di cosa può essere visualizzato.
+
+    - Riquadro creato con domande e risposte
    
-    ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-tile-menu.png)
+        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-menu1.png)
+
+    - Riquadro creato da una cartella di lavoro
+   
+        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-menu2.png)
+
+    - Riquadro creato da un report
+   
+        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-menu3.png)
    
     Da qui è possibile:
    
    * [Aprire il report usato per creare questo riquadro](end-user-reports.md) ![Icona del report](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [Aprire il foglio di lavoro usato per creare questo riquadro](end-user-reports.md) ![Icona del foglio di lavoro](./media/end-user-tiles/power-bi-open-worksheet.png)  
-     
-    * [Visualizzare il riquadro nella modalità messa a fuoco ](end-user-focus.md) ![Icona della modalità messa a fuoco](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Esportare i dati usati nel riquadro](end-user-export-data.md) ![Icona Esporta dati](./media/end-user-tiles/export-icon.png)
-     * [Modificare titolo e sottotitolo, aggiungere un collegamento ipertestuale](../service-dashboard-edit-tile.md) ![Icona Modifica](./media/end-user-tiles/pencil-icon.jpg)
+   * [Aprire la domanda di Domande e risposte usata per creare il riquadro ](end-user-reports.md) ![Icona Domande e risposte](./media/end-user-tiles/qna-icon.png)  
+   
+
+   * [Aprire il foglio di lavoro usato per creare questo riquadro ](end-user-reports.md) ![Icona del foglio di lavoro](./media/end-user-tiles/power-bi-open-worksheet.png)  
+    * [Visualizzare il riquadro in modalità messa a fuoco ](end-user-focus.md) ![Icona della modalità messa a fuoco](./media/end-user-tiles/fullscreen-icon.jpg)  
      * [Eseguire analisi su informazioni dettagliate ](end-user-insights.md) ![Icona delle informazioni dettagliate](./media/end-user-tiles/power-bi-insights.png)
-     * [Aggiungere il riquadro a un altro dashboard ](../service-pin-tile-to-another-dashboard.md)
-       ![Icona della puntina](./media/end-user-tiles/pin-icon.jpg)
-     * [Rimuovere il riquadro](../service-dashboard-edit-tile.md)
-     ![Icona Elimina](./media/end-user-tiles/trash-icon.png)
+    * [Aggiungere un commento e avviare una discussione](end-user-comment.md)![Icona del commento](./media/end-user-tiles/comment-icons.png)
+
 3. Per chiudere il menu delle azioni, selezionare un'area vuota nell'area di disegno.
 
 ### <a name="select-click-a-tile"></a>Selezionare (fare clic su) un riquadro
@@ -91,20 +78,9 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 * Per i riquadri creati direttamente nel dashboard con **Aggiungi riquadro**, se è stato impostato un collegamento ipertestuale personalizzato, tale URL verrà aperto selezionando il titolo, il sottotitolo e/o il riquadro.  In caso contrario, per impostazione predefinita, selezionando uno di questi riquadri creati direttamente nel dashboard per un'immagine, un codice Web o una casella di testo non succede nulla.
 * Se non si ha l'autorizzazione per il report in SSRS, la selezione di un riquadro creato da SSRS produrrà un pagina che indica che non è possibile accedere (rsAccessDenied).
 * Se non si ha accesso alla rete in cui si trova il server SSRS, la selezione di un riquadro creato da SSRS produrrà una pagina che indica che non è possibile trovare il server (HTTP 404). Il dispositivo deve avere accesso al server di report per visualizzare il report.
-* Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Ad esempio, se si è aggiunto un grafico a linee da un report e quindi lo si cambia in un grafico a barre, il riquadro del dashboard continua a mostrare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.
+* Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Se ad esempio il *designer* ha aggiunto un grafico a linee da un report che è stato convertito successivamente in un grafico a barre, il riquadro del dashboard continua a mostrare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Creare una scheda (riquadro per numeri elevati) per il dashboard](../visuals/power-bi-visualization-card.md)
-
-[Dashboard in Power BI](end-user-dashboards.md)  
-
 [Aggiornamento dei dati](../refresh-data.md)
 
 [Power BI - Concetti di base](end-user-basic-concepts.md)
-
-[Esportare un riquadro in Power Point](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[Pin Reporting Services items to Power BI Dashboards (Aggiungere elementi di Reporting Services ai dashboard di Power BI)](https://msdn.microsoft.com/library/mt604784.aspx)
-
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909898"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435338"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come eliminare un dashboard, un report, una cartella di lavoro, un set di dati, un'app, una visualizzazione e un'area di lavoro nel servizio Power BI.
@@ -129,7 +129,7 @@ L'eliminazione di un'applicazione dalla pagina di elenco delle app non elimina l
 
    ![Selezionare le app](media/service-delete/power-bi-delete-app.png)
 
-   Se si rimuove un'app accidentalmente, sono disponibili diverse opzioni per recuperarla.  È possibile chiedere all'autore dell'app di inviarla nuovamente, è possibile trovare il messaggio originale con il collegamento all'app, è possibile controllare il [Centro notifiche](service-notification-center.md) per verificare se la notifica relativa a tale app è ancora elencata oppure è possibile controllare l'[AppSource](service-install-use-apps.md) dell'organizzazione.
+   Se si rimuove un'app accidentalmente, sono disponibili diverse opzioni per recuperarla.  È possibile chiedere all'autore dell'app di inviarla nuovamente, trovare il messaggio originale con il collegamento all'app, controllare il [Centro notifiche](service-notification-center.md) per verificare se la notifica relativa a tale app è ancora elencata oppure controllare l'[AppSource](consumer/end-user-apps.md) dell'organizzazione.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Questo articolo ha descritto come eliminare i principali blocchi predefiniti del servizio Power BI, ma ci sono altri elementi che è possibile eliminare in Power BI.  
