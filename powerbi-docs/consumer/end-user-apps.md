@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/09/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0d9f16933bff264b10c0bff3e1b7c440a3d373a2
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0cb5e9ae8256f9df6c849df612f156d7fe9d12a8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48907855"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112200"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installare e usare le app con dashboard e report in Power BI
 In Power BI le *app* riuniscono dashboard e report correlati, tutti in un'unica posizione. Gli utenti dell'organizzazione possono creare e distribuire le app con informazioni aziendali essenziali. Anche i [servizi esterni](end-user-connect-to-services.md) che probabilmente sono già in uso, ad esempio Google Analytics e Microsoft Dynamics CRM, offrono app di Power BI. 
@@ -34,13 +34,13 @@ Il modo più semplice per installare una nuova app consiste nell'ottenere un col
 
 **Nel computer** 
 
-Quando si fa clic sul collegamento contenuto nel messaggio di posta elettronica, viene aperto il servizio Power BI ([https://powerbi.com](https://powerbi.com)) in un browser. Confermare che si vuole installare l'app; verrà aperta la pagina di destinazione dell'app.
+Selezionare il collegamento nel messaggio di posta elettronica per aprire il servizio Power BI ([https://powerbi.com](https://powerbi.com)) in un browser. Confermare che si vuole installare l'app. Verrà aperta la pagina di destinazione dell'app.
 
 ![Pagina di destinazione dell'app nel servizio Power BI](./media/end-user-apps/power-bi-app-landing-page-opportunity-480.png)
 
 **Nel dispositivo mobile iOS o Android** 
 
-Quando si fa clic sul collegamento nel messaggio di posta elettronica nel dispositivo mobile, l'app viene installata automaticamente e viene visualizzato l'elenco del contenuto dell'app per dispositivi mobili. 
+Quando si seleziona il collegamento nel messaggio di posta elettronica nel dispositivo mobile, l'app viene installata automaticamente e viene aperto l'elenco del contenuto dell'app per dispositivi mobili. 
 
 ![Elenco del contenuto dell'app nel dispositivo mobile](./media/end-user-apps/power-bi-app-index-it-spend-360.png)
 
@@ -50,7 +50,7 @@ Quando si fa clic sul collegamento nel messaggio di posta elettronica nel dispos
 1. Selezionare **App** ![App nel riquadro di spostamento a sinistra](./media/end-user-apps/power-bi-apps-bar.png) > **Scarica app**. 
    
      ![Icona Scarica app](./media/end-user-apps/power-bi-service-apps-get-apps-oppty.png)
-2. In AppSource in **La mia organizzazione**, è possibile eseguire una ricerca per limitare il numero di risultati e trovare l'app si sta cercando.
+2. In AppSource, in **Organizzazione** eseguire una ricerca per limitare il numero di risultati e trovare l'app che si sta cercando.
    
      ![In AppSource in Organizzazione](./media/end-user-apps/power-bi-appsource-my-org.png)
 3. Selezionare **Scarica adesso** per aggiungerla alla pagina App. 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 433710918cb77ca9ee002673dbe6298f0d2184aa
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417120"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003295"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e mira a offrire una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e alcuni quiz per verificare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -83,9 +83,9 @@ A questo punto verrà creata una semplice formula. Questa operazione consentirà
 ### <a name="task-create-a-measure-formula"></a>Attività: Creare una formula della misura
 Per completare questa attività, è necessario aprire il file Contoso Sales Sample Power BI Desktop.
     
-1. Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi fare clic su **Nuova misura**.
+1. Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi fare clic su Nuova misura.
     
-2. Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, **Previous Quarter Sales**.
+2. Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, Previous Quarter Sales.
     
 3. Dopo il segno di uguale, digitare le prime lettere, **CAL**, e quindi fare doppio clic sulla funzione da usare. In questa formula, si deve usare la funzione **CALCULATE**.
 
@@ -142,7 +142,7 @@ DAX include le seguenti categorie di funzioni: [data e ora](https://msdn.microso
 * Dax include varie funzionalità di Business Intelligence per le gerarchie temporali. Queste funzioni consentono di definire o selezionare intervalli di date ed eseguire calcoli dinamici basati su di essi. Ad esempio, è possibile confrontare somme in periodi paralleli.
 * Excel offre una funzione molto diffusa, VLOOKUP. Le funzioni DAX non prendono come riferimento una cella o un intervallo di celle così come fa VLOOKUP in Excel, ma una colonna o una tabella. Tenere presente, in Power BI Desktop, che si lavora con un modello dati relazionale. La ricerca di valori in un'altra tabella è davvero molto semplice e, nella maggior parte dei casi, non è affatto necessario creare alcuna formula.
   
-  Come si può vedere, le funzioni in DAX consentono di creare formule molto potenti. Finora sono state illustrate solo le nozioni di base delle funzioni. Con l'aumentare delle competenze DAX, si creeranno le formule usando diverse funzioni. Uno dei migliori articoli da consultare, che contiene informazioni su ciascuna delle funzioni DAX, è [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/ee634396.aspx).
+  Come si può vedere, le funzioni in DAX consentono di creare formule molto potenti. Finora sono state illustrate solo le nozioni di base delle funzioni. Con l'aumentare delle competenze DAX, si creeranno le formule usando diverse funzioni. Uno dei migliori articoli da consultare, che contiene informazioni su ciascuna delle funzioni DAX, è [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/en-us/query-bi/dax/data-analysis-expressions-dax-reference).
 
 ### <a name="functions-quickquiz"></a>Quiz veloce sulle funzioni
 1. A che cosa fa sempre riferimento una funzione?

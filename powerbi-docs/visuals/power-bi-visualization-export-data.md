@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2cc7691e81f5edab9d9f7a2a6d878420ca1c82f4
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47418464"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112267"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 È possibile visualizzare in Power BI i dati usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
@@ -56,7 +56,6 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
 
    ![](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 5. In Power BI online se la visualizzazione contiene un'aggregazione (ad esempio se si modifica **Count** in *average*, *sum* o *minimum*), si avranno due opzioni: **Riepilogo dati** e **Dati sottostanti**. In Power BI Desktop è disponibile solo l'opzione **Riepilogo dati**. Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
-
     ![](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 6. Selezionare **Riepilogo dati** > **Esporta** e scegliere xlsx o csv. Power BI esporta i dati.  Se sono stati applicati i filtri per la visualizzazione, i dati verranno esportati come filtrati. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
 
@@ -90,6 +89,26 @@ I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Pe
 |    Misure     |                                      Tutti i dati di tutte le tabelle correlate alla tabella contenente le misure tramite una catena di \*:1 di 1:1                                      |
 |  Solo misure  |                                                   Tutte le colonne non nascoste di tutte le tabelle correlate (per espandere la misura)                                                   |
 |  Solo misure  |                                                             Dati di riepilogo per tutte le righe duplicate per le misure del modello.                                                              |
+
+### <a name="set-the-export-options"></a>Impostare le opzioni di esportazione
+I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Le scelte disponibili sono:
+- Consentire l'esportazione solo dei dati di riepilogo (impostazione predefinita per i report) 
+- Consentire l'esportazione dei dati di riepilogo e sottostanti  
+- Non consentire l'esportazione dei dati  
+
+1. Per impostare queste opzioni, avviare Power BI Desktop.
+
+2. Nell'angolo superiore sinistro selezionare **File** > **Opzioni e impostazioni** > **Opzioni**. 
+
+3. In **File corrente** selezionare **Impostazioni report**.
+
+    ![Impostazioni del report nel desktop](media/power-bi-visualization-export-data/desktop-report-settings.png)
+
+4. Effettuare una selezione nell'elenco a discesa **Esporta dati**.
+
+È anche possibile aggiornare questa impostazione nel servizio Power BI.  
+
+È importante notare che se le impostazioni del portale di amministrazione di Power BI sono in conflitto con le impostazioni del report per l'esportazione dei dati, le impostazioni di amministrazione sostituiranno le impostazioni di esportazione dei dati. 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 * Il numero massimo di righe che possono essere esportate da **Power BI Desktop** e dal **servizio Power BI** a un file con estensione csv è 30.000.

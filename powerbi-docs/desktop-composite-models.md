@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4e7692be8ec78c79076408635a75dbf0ab9080d2
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974047"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336991"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Modelli compositi in Power BI Desktop (anteprima)
 
@@ -58,7 +58,7 @@ Quando si usa DirectQuery, con i **modelli compositi** è possibile creare un mo
 Ad esempio, con I **modelli compositi** è possibile creare un modello che combina i dati di vendita da un data warehouse aziendale con i dati sugli obiettivi di vendita in un database di SQL Server di reparto, insieme ad alcuni dati importati da un foglio di calcolo. Un modello che combina dati da più di un'origine DirectQuery o combina origini DirectQuery con dati importati è noto come *modello composito*.
 
 > [!NOTE]
-> Durante la fase di anteprima, non è possibile pubblicare modelli compositi nel servizio Power BI. 
+> A partire dalla versione di ottobre 2018 di **Power BI Desktop**, è *possibile* pubblicare modelli compositi nel servizio Power BI. Per l'aggiornamento pianificato e l'aggiornamento dei riquadri del dashboard, i modelli compositi nel servizio Power BI si comportano nello stesso modo dei modelli di importazione. 
 
 È possibile creare relazioni tra tabelle come sempre, anche quando le tabelle provengono da origini diverse, con la restrizione seguente: le relazioni tra origini diverse devono essere definite con la cardinalità **molti-a-molti**, indipendentemente dalla cardinalità effettiva. Il comportamento per queste relazioni è quindi uguale al normale per le relazioni **molti-a-molti**, come descritto in [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md). Si noti che nel contesto dei modelli compositi, tutte le tabelle importate rappresentano in effetti una singola origine, indipendentemente dall'effettiva origine dati sottostante da cui vengono importate.   
 
@@ -170,7 +170,7 @@ Non è possibile usare **modelli compositi** con le origini Live Connect (multid
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Set di dati Power BI
-* Azure Analysis Services
+* Analysis Services
 
 Quando ci si connette a tali origini multidimensionali tramite DirectQuery, non è neanche possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 

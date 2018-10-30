@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 10/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71894a801f0c993abaaedc92d4172da67b76f7a0
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
+ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974208"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49359724"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregazioni in Power BI Desktop (anteprima)
 
@@ -191,9 +191,9 @@ Successivamente, si definiscono i mapping delle aggregazioni nella finestra di d
 
 ![Finestra di dialogo Gestisci aggregazioni per la tabella Driver Activity Agg](media/desktop-aggregations/aggregations_11.jpg)
 
-Nella tabella seguente vengono mostrate le aggregazioni per la tabella **Sales Agg**.
+La tabella seguente mostra le aggregazioni per la tabella **Driver Activity Agg**.
 
-![Tabella di aggregazione Sales Agg](media/desktop-aggregations/aggregations-table_02.jpg)
+![Tabella delle aggregazioni Driver Activity Agg](media/desktop-aggregations/aggregations-table_02.jpg)
 
 ### <a name="group-by-columns"></a>Colonne GroupBy
 
@@ -229,9 +229,9 @@ La tabella specificata nella colonna **Detail Table** è **Driver Activity** non
 
 ![finestra di dialogo Gestisci aggregazioni](media/desktop-aggregations/aggregations_14.jpg)
 
-Nella tabella seguente vengono mostrate le aggregazioni per la tabella **Sales Agg**.
+La tabella seguente mostra le aggregazioni per la tabella **Driver Activity Agg2**.
 
-![Tabella di aggregazione Sales Agg](media/desktop-aggregations/aggregations-table_03.jpg)
+![Tabella delle aggregazioni Driver Activity Agg2](media/desktop-aggregations/aggregations-table_03.jpg)
 
 ## <a name="aggregations-based-on-group-by-columns-combined-with-relationships"></a>Aggregazioni basate su colonne Group-By combinate con relazioni
 

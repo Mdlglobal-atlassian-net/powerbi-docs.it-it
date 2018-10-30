@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256033"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336876"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -61,6 +61,8 @@ Queste opzioni di accessibilità aggiuntive sono state create per consentire agl
 ## <a name="tips-for-creating-accessible-reports"></a>Suggerimenti per la creazione di report accessibili
 I suggerimenti seguenti consentono di creare report di **Power BI Desktop** più accessibili.
 
+### <a name="general-tips-for-accessible-reports"></a>Suggerimenti generali per i report accessibili
+
 * Per gli oggetti visivi **Riga**, **Area** e **Casella combinata** e per gli oggetti visivi **Dispersione** e **Bolle** attivare i marcatori e usare una *Forma del marcatore* diversa per ogni riga.
   
   * Per attivare i *Marcatori* , selezionare la sezione **Formato** sezione nel riquadro **Visualizzazioni**, espandere la sezione **Forme**, quindi scorrere verso il basso per trovare il tasto di attivazione e disattivazione **Marcatori** e *attivarlo*.
@@ -80,6 +82,13 @@ I suggerimenti seguenti consentono di creare report di **Power BI Desktop** più
 * Includere il titolo, le etichette degli assi e le etichette dei dati in tutti gli oggetti visivi.
 * Usare titoli significativi per tutte le pagine del report.
 * Evitare forme e immagini decorative nel report, se possibile, poiché vengono incluse nell'ordine di tabulazione del report. Se è necessario includere oggetti decorativi nel report, aggiornare il testo alternativo dell'oggetto in modo da informare gli utenti dell'utilità per la lettura dello schermo che si tratta di oggetti decorativi.
+
+### <a name="arranging-items-in-field-buckets"></a>Disposizione degli elementi nelle aree dei campi
+A partire dalla versione di ottobre 2018 di **Power BI Desktop**, è possibile spostarsi all'interno dell'area **Campi** con una tastiera e l'area interagisce con le utilità per la lettura dello schermo. 
+
+Per migliorare il processo di creazione di report con le utilità per la lettura dello schermo, è disponibile un menu di scelta rapida per consentire di spostare i campi nell'area verso l'alto o verso il basso nell'elenco **Campi** o di spostare il campo in altre aree, come **Legenda**, **Valore** o altre.
+
+![Il menu di scelta rapida nell'area Campi consente di spostare i campi verso l'alto o verso il basso o in un'altra area](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>Supporto del contrasto elevato per i report
 

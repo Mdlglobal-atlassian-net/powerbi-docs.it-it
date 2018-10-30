@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921508"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101509"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
 Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
@@ -52,7 +52,7 @@ La possibilità di un utente di eseguire query e visualizzare i dati del modello
 L'implementazione della sicurezza basata sui ruoli e della sicurezza dinamica a livello di riga nei modelli esula dall'ambito di questo articolo.  Per altre informazioni, vedere [Ruoli (SSAS tabulare)](https://msdn.microsoft.com/library/hh213165.aspx) e [Ruoli di sicurezza (Analysis Services - Dati multidimensionali)](https://msdn.microsoft.com/library/ms174840.aspx) in MSDN. Inoltre, per una conoscenza più approfondita della sicurezza del modello tabulare, scaricare e leggere il white paper [Protezione del modello semantico BI tabulare](https://msdn.microsoft.com/library/jj127437.aspx).
 
 ## <a name="what-about-azure-active-directory"></a>Ruolo di Azure Active Directory
-I servizi cloud Microsoft usano [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) per eseguire l'autenticazione degli utenti. Azure Active Directory è il tenant che contiene i nomi utente e i gruppi di sicurezza. In genere, un utente accede con lo stesso indirizzo di posta elettronica dell'UPN dell'account.
+I servizi cloud Microsoft usano [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis) per eseguire l'autenticazione degli utenti. Azure Active Directory è il tenant che contiene i nomi utente e i gruppi di sicurezza. In genere, un utente accede con lo stesso indirizzo di posta elettronica dell'UPN dell'account.
 
 Qual è il ruolo di Active Directory locale?
 
@@ -78,7 +78,7 @@ I servizi cloud rilevano solo gli account in Azure Active Directory. Anche se è
 1. È possibile aggiungere manualmente account in Azure Active Directory.
    
    È possibile creare un account nel portale di Azure o nel portale di amministrazione di Office 365 e il nome dell'account corrisponde l'UPN dell'account Active Directory locale.
-2. È possibile usare lo strumento [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) per sincronizzare gli account locali al tenant di Azure Active Directory.
+2. È possibile usare lo strumento [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) per sincronizzare gli account locali al tenant di Azure Active Directory.
    
    Lo strumento Azure AD Connect offre opzioni per sincronizzare le directory e configurare l'autenticazione, incluse la sincronizzazione degli hash delle password, l'autenticazione pass-through e la federazione. Se non si è un amministratore tenant o un amministratore di dominio locale, è necessario contattare l'amministratore IT per ottenere questa configurazione.
 
@@ -90,7 +90,7 @@ L'uso di Azure AD Connect garantisce la corrispondenza tra l'UPN e AAD e Active 
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>A questo punto, è possibile usare il gateway
-Il gateway funge da ponte tra il cloud e il server locale. Il trasferimento dei dati tra il cloud e il gateway viene protetto con il [bus di servizio di Azure](https://azure.microsoft.com/documentation/services/service-bus/). Il bus di servizio crea un canale sicuro tra il cloud e il server locale attraverso una connessione in uscita sul gateway.  Non sono presenti connessioni in ingresso che è necessario aprire nel firewall locale.
+Il gateway funge da ponte tra il cloud e il server locale. Il trasferimento dei dati tra il cloud e il gateway viene protetto con il [bus di servizio di Azure](/azure/service-bus-messaging/service-bus-messaging-overview). Il bus di servizio crea un canale sicuro tra il cloud e il server locale attraverso una connessione in uscita sul gateway.  Non sono presenti connessioni in ingresso che è necessario aprire nel firewall locale.
 
 Se si dispone di un'origine dati di Analysis Services, è necessario installare il gateway in un computer appartenente allo stesso insieme di strutture o dominio del server Analysis Services.
 
@@ -116,8 +116,10 @@ Invece di analizzare la risoluzione dei problemi del gateway in questo articolo,
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
-[Bus di servizio di Azure](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Bus di servizio di Azure](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -1,5 +1,5 @@
 ---
-title: Estrarre dati da una pagina Web da un esempio in Power BI Desktop (anteprima)
+title: Estrarre dati da una pagina Web da un esempio in Power BI Desktop
 description: Estrarre dati da una pagina Web fornendo un esempio di ciò di cui si vuole eseguire il pull
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290983"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336807"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Acquisire dati da una pagina Web fornendo un esempio (anteprima)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Acquisire dati da una pagina Web fornendo un esempio
 
 L'acquisizione di dati da una pagina Web consente agli utenti di estrarre con facilità dati da pagine Web e importarli in **Power BI Desktop**. Spesso, tuttavia, i dati nelle pagine Web non sono disposti in tabelle ordinate facili da estrarre, pertanto l'acquisizione da tali pagine può risultare complessa, anche se i dati sono strutturati e coerenti. 
 
@@ -26,13 +26,6 @@ Ma esiste una soluzione. Con la funzionalità per l'**acquisizione dei dati dal 
 ![Acquisizione dei dati dal Web da un esempio](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Come abilitare la funzionalità di anteprima per l'acquisizione dei dati dal Web da un esempio
-
-La funzionalità per l'**acquisizione dei dati dal Web da un esempio** è disponibile in anteprima e deve essere abilitata in **Power BI Desktop**. Per abilitarla, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima** e quindi selezionare la casella di controllo **Nuova esperienza Dal Web**. Dopo aver effettuato la selezione è necessario riavviare Power BI Desktop.
-
-![Abilitare la funzionalità di anteprima](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Dopo che la funzionalità di anteprima è stata abilitata, è possibile iniziare a usarla. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Uso della funzionalità per l'acquisizione dei dati dal Web da un esempio
 

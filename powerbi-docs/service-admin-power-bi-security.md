@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: 072f548c3725c4133bb548a72fc58679e74f5fc7
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417097"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336738"
 ---
 # <a name="power-bi-security"></a>Sicurezza di Power BI
 Per una spiegazione dettagliata sulla sicurezza di Power BI, [scaricare il white paper su questo argomento](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -58,4 +58,14 @@ Per altre informazioni, visitare il [Centro protezione Microsoft](https://www.mi
 Come descritto in precedenza in questo articolo, l'accesso di un utente a Power BI viene usato dai server di Active Directory locali per eseguire il mapping a un UPN per le credenziali. Tuttavia, è **importante** notare che gli utenti sono responsabili per i dati che condividono: se un utente si connette alle origini dati usando le proprie credenziali e quindi condivide un report (o un dashboard o un set di dati) in base a tali dati, gli utenti con cui condivide il dashboard non vengono autenticati rispetto all'origine dati originale e avranno l'accesso al report.
 
 Un'eccezione riguarda le connessioni a **SQL Server Analysis Services** con il **gateway dati locale**. I dashboard vengono memorizzati nella cache in Power BI, ma l'accesso ai report o ai set di dati sottostanti avvia l'autenticazione dell'utente che prova ad accedere al report o al set di dati. L'accesso viene concesso solo se l'utente ha credenziali sufficienti per accedere ai dati richiesti. Per altre informazioni, vedere [Analisi approfondita del gateway dati locale](service-gateway-onprem-indepth.md).
+
+## <a name="enforcing-tls-version-usage"></a>Imporre l'utilizzo di una versione di TLS
+
+Gli amministratori di rete e IT possono imporre il requisito dell'uso della versione corrente di TLS (Transport Layer Security) per tutte le comunicazioni protette nella propria rete. Windows supporta le versioni di TLS tramite il provider Microsoft Schannel, come [descritto nell'articolo relativo al provider SSP per Schannel TLS](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+
+È possibile imporre questo requisito tramite l'impostazione di chiavi del Registro di sistema a livello amministrativo. La procedura è descritta nell'articolo [Gestione dei protocolli SSL in AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
+
+**Power BI Desktop** rispetta le impostazioni delle chiavi del Registro di sistema descritte in tali articoli e crea connessioni solo usando la versione di TLS consentita in base a su tali impostazioni del Registro di sistema, se presenti.
+
+Per altre informazioni sull'impostazione di queste chiavi del Registro di sistema, vedere l'articolo [Impostazioni del Registro di sistema TLS](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
 

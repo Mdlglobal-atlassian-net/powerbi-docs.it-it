@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 161ea8f20db36c129787e84242ea002980d0f8dd
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: df4afe91de955eabfba6eeea9022cc5f9475cc33
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565867"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336853"
 ---
 # <a name="using-slicers-power-bi-desktop"></a>Uso dei filtri dei dati in Power BI Desktop
 
@@ -65,6 +65,12 @@ Anche se è possibile sincronizzare i filtri dei dati selezionati, altre selezio
 Questa funzionalità consente di creare un gruppo personalizzato di filtri dei dati da mantenere sincronizzati. Viene specificato un nome predefinito, ma è possibile usare qualsiasi nome desiderato. 
 
 Il nome del gruppo offre una maggiore flessibilità con i filtri dei dati. È possibile creare gruppi separati per sincronizzare i filtri dei dati che usano lo stesso campo o inserire i filtri dei dati che usano campi diversi nello stesso gruppo. 
+
+## <a name="how-filtering-affects-selection-in-slicers"></a>Effetti di un filtro sulla selezione nei filtri dei dati
+
+Se si effettua una selezione in un filtro dei dati e quindi si applica un filtro che normalmente rimuoverebbe l'elemento selezionato, l'elemento rimane alla fine dell'elenco degli elementi nel filtro dei dati. Se il filtro viene rimosso, la selezione è ancora presente nel filtro dei dati. È possibile notare che se si deseleziona l'elemento dal filtro dei dati, esso scompare dall'elenco.
+
+![Selezione conservata nei filtri dei dati](./media/desktop-slicers/retained-selection-in-slicers.gif)
 
 
 ## <a name="next-steps"></a>Passaggi successivi
