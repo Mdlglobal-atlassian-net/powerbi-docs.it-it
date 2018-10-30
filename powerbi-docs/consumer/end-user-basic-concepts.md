@@ -1,6 +1,6 @@
 ---
-title: Servizio Power BI - Concetti fondamentali
-description: Aree di lavoro, dashboard, report, set di dati e cartelle di lavoro del servizio Power BI.
+title: Concetti di base per i consumer del servizio Power BI
+description: App, aree di lavoro, dashboard, report, set di dati e cartelle di lavoro del servizio Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,115 +8,129 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 6b7ada4e342f37b23200a71b4c15a933960631c5
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566143"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641750"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI - Concetti di base per il servizio Power BI
+# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - Concetti di base per i ***consumer*** del servizio Power BI
 
-Questo articolo presuppone che l'[iscrizione al servizio Power BI](../service-self-service-signup-for-power-bi.md) sia già stata effettuata e che siano stati [aggiunti alcuni dati](../service-get-data.md).
+## <a name="power-bi-consumers-and-designers"></a>*Consumer* e *designer* di Power BI
+Questo articolo presuppone che l'utente abbia già letto [Panoramica di Power BI](../power-bi-overview.md) e si sia identificato manualmente come ***consumer*** di Power BI. I consumer ricevono il contenuto di Power BI, ad esempio dashboard e report, dai colleghi. I consumer usano il servizio Power BI, ovvero la versione di Power BI basata sul sito Web. 
 
-Quando si apre il servizio Power BI, si noterà un ***dashboard***. I dashboard differenziano il servizio Power BI da Power BI Desktop.
+Il termine "Power BI Desktop" o semplicemente "Desktop" indica uno strumento autonomo usato dai *designer*, che compilano i dashboard e i report e li condividono con gli utenti. È importante sapere che sono disponibili altri strumenti di Power BI, ma che il consumer usa solo il servizio Power BI. Questo articolo riguarda esclusivamente il servizio Power BI. 
 
-![](media/end-user-basic-concepts/completenewest.png)
+## <a name="terminology-and-concepts"></a>Terminologia e concetti
+Questo articolo non è un tour visivo di Power BI, né un'esercitazione pratica. È invece un articolo di panoramica che ha lo scopo di illustrare la terminologia e i concetti di Power BI. Una sorta di introduzione al gergo specifico del programma. Per una panoramica sul servizio Power BI e sulla navigazione, vedere [Presentazione](end-user-experience.md).
 
-Le principali funzionalità dell'interfaccia utente del servizio Power BI sono le seguenti:
+## <a name="open-power-bi-service-for-the-first-time"></a>Aprire il servizio Power BI per la prima volta
+La maggior parte dei consumer Power BI ottiene il servizio Power BI perché 1) la società di appartenenza acquista le licenze e 2) un amministratore assegna le licenze a dipendenti come l'utente. 
 
-1. riquadro di spostamento a sinistra
-2. area di disegno (in questo caso, dashboard con riquadri)
-3. Casella delle domande di Domande e risposte
-4. pulsanti delle icone, inclusa la guida e i commenti e suggerimenti
-5. titolo del dashboard (percorso di navigazione)
-6. Icona di avvio delle app di Office 365
-7. pulsante Home di Power BI
-8. Pulsanti delle icone con etichette
+Per iniziare, è sufficiente aprire un browser e digitare **app.powerbi.com**. Quando si apre il servizio Power BI per la prima volta viene visualizzato un ambiente simile al seguente.
 
-Questi elementi verranno illustrati più avanti. Per il momento verranno presi in esame alcuni concetti di Power BI.
+![](media/end-user-basic-concepts/power-bi-open.png)
 
-In alternativa, è possibile guardare questo video prima di leggere il resto di questo articolo.  Nel video si esamineranno i concetti di base e verrà fornita una panoramica del servizio Power BI.
+Man mano che si usa Power BI sarà possibile personalizzare gli elementi visualizzati all'apertura del sito Web.  Ad esempio, alcuni utenti preferiscono che Power BI venga aperto con la home page, altri preferiscono iniziare con un dashboard specifico. Le tecniche corrispondenti sono illustrate di seguito. 
+- [Anteprima Home](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Impostare il contenuto **in primo piano**](end-user-featured.md) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
+![](media/end-user-basic-concepts/power-bi-first.png)
+
+Prima di procedere, è importante illustrare i blocchi costitutivi del servizio Power BI.
+
+## <a name="power-bi-content"></a>***Contenuto*** di Power BI
+### <a name="introduction-to-building-blocks"></a>Introduzione ai blocchi costitutivi
+Per un consumer di Power BI i 5 blocchi costitutivi sono: ***visualizzazioni***, ***dashboard***, ***report***, ***app*** e ***set di dati***. Questi elementi sono talvolta detti ***contenuto*** di *Power BI*. Il *contenuto* esiste in un'***area di lavoro***. Un flusso di lavoro tipico prevede tutti i blocchi: un *designer* di Power BI (in giallo nel diagramma in basso) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che sottolineano fatti interessanti, blocca visualizzazioni dei report su un dashboard e condivide i report e i dashboard con i *consumer* come l'utente (in nero nel diagramma in basso), sotto forma di *app* o di altri tipi di contenuto condiviso. 
+
+![](media/end-user-basic-concepts/power-bi-workflow.png)
+
+Questa è la forma più semplice. 
+* ![icona della visualizzazione](media/end-user-basic-concepts/visual.png) Una ***visualizzazione*** (o *oggetto visivo*) è un tipo di grafico creato dai *designer* di Power BI usando i dati contenuti nei *report* e nei *dataset*. In genere i *designer* creano gli oggetti visivi in Power BI Desktop. 
+
+    Per altre informazioni, vedere [Visualizzazioni per *consumer* di Power BI](end-user-visualizations.md)
+
+* ![icona di set di dati](media/end-user-basic-concepts/power-bi-dataset-icon.png) Un *set di dati* è un contenitore di dati. Ad esempio può essere un file di Excel della World Health Organization, un database di clienti di proprietà dell'azienda o un file di Salesforce.  
+
+* ![icona del dashboard](media/end-user-basic-concepts/dashboard.png) Un *dashboard* è una schermata singola con elementi interattivi: oggetti visivi, testo e grafica. Un dashboard riunisce in un'unica schermata le metriche più importanti, per descrivere una situazione o rispondere a una domanda. Il contenuto del dashboard deriva da uno o più report e uno o più set di dati.
+
+    Per altre informazioni, vedere [Dashboard per *consumer* di Power BI](end-user-dashboards.md)
+
+* ![icona del report](media/end-user-basic-concepts/report.png) Un *report* è costituito da una o più pagine di oggetti visivi interattivi, testo e grafica che illustrano un determinato argomento. I report sono basati su un singolo set di dati. Spesso le pagine del report sono organizzate in modo che ognuna riguardi un argomento di interesse o risponda a una domanda singola.
+
+    Per altre informazioni, vedere [Report per *consumer* di Power BI](end-user-reports.md)
+
+* ![icona dell'app](media/end-user-basic-concepts/app.png) Un'*app* è un metodo con cui i *designer* aggregano e condividono dashboard e report in un'unica soluzione. I *consumer* ricevono alcune app automaticamente, ma possono anche cercare altre app create da colleghi o dalla community. Ad esempio, servizi esterni che probabilmente l'utente usa già, come Google Analytics e Microsoft Dynamics CRM, offrono app di Power BI.
+
+Un nuovo utente che accede a Power BI per la prima volta non visualizza nessun dashboard, app o report. 
+_______________________________________________________
 
 
-## <a name="power-bi-concepts"></a>Concetti di Power BI
-***Dashboard***, ***report***, ***cartelle di lavoro*** e ***set di dati*** costituiscono i quattro elementi fondamentali di Power BI. Questi elementi sono organizzati in ***aree di lavoro***. È importante comprendere le aree di lavoro prima di approfondire i 4 elementi fondamentali. 
-
-## <a name="workspaces"></a>Aree di lavoro
-Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Sono disponibili due tipi di aree di lavoro, ovvero l'*Area di lavoro personale* e le *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per l'organizzazione. Le app sono interattive ma non possono essere modificate. 
-
-- L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro per le app.      
--  Le *aree di lavoro per le app* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro per le app e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri delle aree di lavoro per le app necessitano di licenze di Power BI Pro, ma gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente disporre di una licenza Pro.  
-
-Per altre informazioni, vedere la sezione **Condividere il lavoro** del sommario, iniziando da [Come collaborare e condividere dashboard e report](../service-how-to-collaborate-distribute-dashboards-reports.md)
-
-
-Ora verranno approfonditi gli elementi fondamentali di Power BI. Anche se è possibile avere dashboard e report vuoti, per essere utili questi elementi devono contenere dati. Il primo argomento è costituito dai **set di dati**.
 
 ## <a name="datasets"></a>Set di dati
-Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione.  
+Un *set di dati* è una raccolta di dati che i *designer* importano o alla quale si connettono e che quindi usano per creare report e dashboard. In qualità di consumer, l'utente non interagisce direttamente con i set di dati, ma è comunque utile comprendere come questi si integrano nel quadro complessivo.  
 
-I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. [Fare clic sul collegamento per visualizzare l'elenco dei tipi di set di dati utilizzabili con Power BI](../service-get-data.md).
+Ogni set di dati rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un set di dati di Salesforce. Sono supportate molte origini dati diverse.
 
-Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite e marketing" ed è stato fatto clic sulla scheda **Set di dati**.
+Quando un designer condivide un'app, l'utente può visualizzare i set di dati inclusi con l'app. 
 
-![](media/end-user-basic-concepts/power-bi-datasets.png)
+![](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **UN** set di dati...
 
-* può essere usato più volte in una o in numerose aree di lavoro.
-* può essere usato in report diversi.
-* Le visualizzazioni di un unico set di dati possono essere usate in dashboard diversi.
+* può essere usato più volte
+* può essere usato in report diversi
+* Le visualizzazioni di un unico set di dati possono essere usate in dashboard diversi
   
-  ![](media/end-user-basic-concepts/drawing2.png)
+  ![relazioni del set di dati M:1](media/end-user-basic-concepts/drawing2.png)
 
-Per [connettersi a un set di dati o importarlo](../service-get-data.md), selezionare **Recupera dati** (nella parte inferiore della barra di spostamento) oppure selezionare **+ Crea > Set di dati** nell'angolo in alto a destra. Seguire le istruzioni per la connessione o l'importazione dell'origine specifica e aggiungere il set di dati all'area di lavoro attiva. I nuovi set di dati sono contrassegnati con un asterisco giallo. Le operazioni effettuate in Power BI non comportano la modifica del set di dati sottostante.
+L'elemento fondamentale seguente sono le visualizzazioni.
+__________________________________________________________
 
-Se si [fa parte di un'***area di lavoro per le app***](../service-collaborate-power-bi-workspace.md), i set di dati aggiunti da un membro dell'area di lavoro sono disponibili per gli altri membri dell'area di lavoro.
+## <a name="visualizations"></a>Visualizzazioni
+Le visualizzazioni, note anche come oggetti visivi, mostrano informazioni dettagliate individuate nei dati. Le visualizzazioni semplificano l'interpretazione delle informazioni dettagliate, in quanto è più facile interpretare un'immagine che un foglio di calcolo con molte cifre.
 
-I set di dati possono essere aggiornati, rinominati, esplorati e rimossi. Usare un set di dati per creare un report da zero o tramite l'esecuzione di [informazioni rapide](end-user-insights.md).  Per visualizzare i report e i dashboard che già usano un set di dati, selezionare **Visualizza elementi correlati**. Per esplorare un set di dati, selezionarlo. Il set di dati viene quindi aperto nell'editor di report in cui è possibile approfondire l’analisi dei dati e creare visualizzazioni. Passiamo all'argomento successivo, ossia i report.
+Alcune delle visualizzazioni disponibili in Power BI sono: grafico a cascata, grafico a nastri, mappa ad albero, grafico a torta, grafico a imbuto, grafico a schede, grafico a dispersione e misuratore. Vedere l'[elenco completo delle visualizzazioni incluse in Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-### <a name="dig-deeper"></a>Approfondimento
-* [Power BI Premium - what is it?](../service-premium.md) (Power BI Premium: definizione)
-* [Recuperare dati per Power BI](../service-get-data.md)
-* [Set di dati di esempio per Power BI](../sample-datasets.md)
 
+   ![8 elementi visivi di esempio](media/end-user-basic-concepts/power-bi-visuals.png)
+
+Le visualizzazioni vengono rese disponibili anche dalla community e in questo caso sono dette *oggetti visivi personalizzati*. Se si riceve un report con un oggetto visivo che non si riconosce, probabilmente si tratta di un oggetto visivo personalizzato. Se occorre assistenza per interpretare l'oggetto visivo personalizzato, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->cercare il nome del *designer* del report o del dashboard e contattarlo.
+
+**UNA SOLA** visualizzazione in un report...
+
+* può essere usata più volte nello stesso report tramite copia e incolla.
+* può essere usata in molti dashboard diversi.
+__________________________________________________
 ## <a name="reports"></a>Report
-Un report di Power BI è costituito da una o più pagine di visualizzazioni (grafici e diagrammi come grafici a linee, grafici a torta, mappe ad albero e molti altri). Le visualizzazioni sono anche dette ***oggetti visivi***. Tutte le visualizzazioni in un report provengono da un unico set di dati. I report possono essere creati da zero all'interno di Power BI, importati con dashboard condivisi dai colleghi oppure essere creati quando l'utente si connette ai set di dati da Excel, Power BI Desktop, database, applicazioni SaaS e [app](../service-get-data.md).  Ad esempio, quando si è connessi a una cartella di lavoro di Excel che contiene fogli di Power View, Power BI crea un report basato su tali fogli. Inoltre, quando ci si connette a un'applicazione SaaS, Power BI importa un report predefinito.
+Un report di Power BI è costituito da una o più pagine di visualizzazioni, grafica e testo. Tutte le visualizzazioni in un report provengono da un unico set di dati. I *designer* condividono report con i *consumer*, che [interagiscono con i report nella *visualizzazione lettura*](end-user-reading-view.md).
 
-È possibile visualizzare i report e interagirvi in due modi, ovvero in [Visualizzazione di lettura e Visualizzazione di modifica](end-user-reading-view.md).  Solo la persona che ha creato il report, i comproprietari e gli utenti autorizzati possono utilizzare tutte le funzionalità di esplorazione, progettazione, creazione e condivisione in ***Visualizzazione di modifica***. Coloro che condividono il report possono esplorarlo e interagire in ***Visualizzazione di lettura***.   
-
-Quando si apre un'area di lavoro, i report associati sono elencati nella scheda **Report**. Ogni report elencato rappresenta una o più pagine di visualizzazioni basate su uno solo dei set di dati sottostanti. Per aprire un report, è sufficiente selezionarlo. 
-
-Quando si apre un'app, verrà visualizzato un dashboard.  Per accedere al report sottostante, selezionare un riquadro del dashboard (più avanti verranno fornite maggiori informazioni) che è stato aggiunto da un report. Tenere presente che non tutti i riquadri vengono aggiunti dai report, quindi è possibile dover fare clic su alcuni riquadri prima di trovare un report. 
-
-Per impostazione predefinita, il report viene aperto in Visualizzazione di lettura.  Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica (se si hanno le autorizzazioni necessarie). 
-
-Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite e marketing" ed è stato fatto clic sulla scheda **Report**.
-
-![](media/end-user-basic-concepts/power-bi-reports.png)
+![report con schede](media/end-user-basic-concepts/power-bi-report2.png)
 
 **UN** report
 
-* è contenuto in una singola area di lavoro
-* può essere associato a più dashboard all'interno dell'area di lavoro, ovvero i riquadri aggiunti da un report possono essere visualizzati in più dashboard.
-* può essere creato usando i dati di un solo set di dati. Per ovviare a questa limitazione, è possibile usare Power BI Desktop per combinare più set di dati in un unico report e importare tale report in Power BI.
+* può essere associato a più dashboard, ovvero i riquadri aggiunti da un report possono essere visualizzati in più dashboard.
+* può essere creato usando i dati di un solo set di dati.  
+* può far parte di più app.
   
-  ![](media/end-user-basic-concepts/drawing3new.png)
+  ![](media/end-user-basic-concepts/drawing5.png)
 
-### <a name="dig-deeper"></a>Approfondimento
-* [Report nel servizio Power BI e in Power BI Desktop](end-user-reports.md)
-* [Report nelle app Power BI per dispositivi mobili](mobile/mobile-reports-in-the-mobile-apps.md)
+________________________________________________
 
 ## <a name="dashboards"></a>Dashboard
-Per *dashboard* si intende un elemento che viene creato nel **servizio Power BI** oppure creato da un collega nel **servizio Power BI** e condiviso con l'utente. Si tratta di una singola area di disegno che può contenere più riquadri e widget oppure non contenerne affatto. In ogni riquadro aggiunto da un report o da [Domande e risposte](end-user-q-and-a.md) compare una singola [visualizzazione](../visuals/power-bi-report-visualizations.md) che è stata creata da un set di dati e aggiunta al dashboard. È anche possibile aggiungere a un dashboard intere pagine del report come un singolo riquadro. Per aggiungere riquadri al dashboard esistono molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md). 
+Un dashboard rappresenta una visualizzazione personalizzata di un subset di uno o più set di dati sottostanti. I *designer* creano i dashboard e li condividono con i *consumer*, individualmente o come parte di un'app. Un dashboard è un canvas singolo che contiene *riquadri*, grafica e testo. 
 
-Perché creare i dashboard?  Ecco solo alcuni dei motivi:
+  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+
+Un riquadro è il rendering di un oggetto visivo che un *designer* *aggiunge* al dashboard, ad esempio da un report.  Ogni riquadro aggiunto include una [visualizzazione](end-user-visualizations.md), che è stata creata da un set di dati e aggiunta al dashboard. Un riquadro può anche contenere un'intera pagina del report oppure dati in streaming live o video. I *designer* possono aggiungere riquadri al dashboard in molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md). 
+
+Dal punto di vista del consumer, i dashboard non possono essere modificati. Il consumer può tuttavia possibile aggiungere commenti, visualizzare dati correlati, impostare un dashboard come preferito, eseguire la sottoscrizione e così via. 
+
+Quali sono le finalità dei dashboard?  Eccone alcune:
 
 * per visualizzare a colpo d'occhio tutte le informazioni necessarie per prendere decisioni
 * per monitorare le informazioni più importanti sull'attività aziendale
@@ -124,117 +138,37 @@ Perché creare i dashboard?  Ecco solo alcuni dei motivi:
 * per monitorare lo stato di un'azienda, di un prodotto, di una business unit, di una campagna di marketing e così via
 * per creare una visualizzazione personalizzata di un dashboard più esteso, contenente solo le metriche cui si è maggiormente interessati
 
-Quando si apre un'area di lavoro, i dashboard associati sono elencati nella scheda **Dashboard**. Per aprire un dashboard, è sufficiente selezionarlo. Quando si apre un'app, verrà visualizzato un dashboard.  Ogni dashboard elencato rappresenta una visualizzazione personalizzata di alcuni subset di set di dati sottostanti.  Se si è proprietari del dashboard, sarà anche possibile accedere ai set di dati e ai report sottostanti.  Se il dashboard è stato condiviso da altri con l'utente, sarà possibile interagire con il dashboard e con i report sottostanti, ma non sarà possibile salvare le modifiche.
-
-È possibile [condividere un dashboard](../service-share-dashboards.md) in molti modi diversi. Per condividere un dashboard e per visualizzare un dashboard condiviso è necessario disporre di Power BI Pro.
-
-
-> [!NOTE]
-> Le aggiunte e i riquadri sono trattati in modo più approfondito nella sezione relativa ai riquadri del dashboard.
-> 
-
 **UN** dashboard...
 
-* è associato a una singola area di lavoro
 * consente di visualizzare visualizzazioni di set di dati diversi
 * consente di visualizzare visualizzazioni di report diversi
 * consente di visualizzare visualizzazioni aggiunte da altri strumenti (ad esempio Excel)
   
   ![](media/end-user-basic-concepts/drawing1.png)
 
-### <a name="dig-deeper"></a>Approfondimento
-* [Creare un nuovo dashboard vuoto e recuperare alcuni dati](../service-dashboard-create.md).
-* [Duplicare un dashboard](../service-dashboard-copy.md) 
-* [Creare una visualizzazione telefono di un dashboard](../service-create-dashboard-mobile-phone-view.md)
+________________________________________________
 
+## <a name="apps"></a>App
+Queste raccolte di dashboard e report organizzano i contenuti correlati in un unico pacchetto. I *designer* di Power BI compilano questi elementi e li condividono con utenti singoli, gruppi, un'intera organizzazione oppure li rendono pubblici. Il consumer ha la certezza di lavorare insieme ai colleghi sugli stessi dati, condivisi e affidabili. 
 
-## <a name="workbooks"></a>Cartelle di lavoro
-Le cartelle di lavoro sono un tipo speciale di set di dati. Se la sezione **Set di dati** precedente è stata letta, si conoscerà già tutto ciò che serve sapere sulle cartelle di lavoro. Tuttavia, ci si potrebbe chiedere perché a volte Power BI classifica una cartella di lavoro di Excel come un **set di dati** e altre volte come una **cartella di lavoro**. 
+![](media/end-user-basic-concepts/power-bi-app.png)
 
-Quando nei file di Excel si seleziona **Recupera dati**, è possibile scegliere l'opzione *Importa* o *Connetti* per recuperare i dati del file. Quando si sceglie Connetti, la cartella di lavoro viene visualizzata in Power BI esattamente come in Excel Online. A differenza di Excel Online, però, sono disponibili alcune utilissime funzionalità per aggiungere elementi dai fogli di lavoro direttamente ai dashboard.
+Le app possono essere facilmente individuate e installate nel servizio Power BI (https://powerbi.com) e nel dispositivo mobile). Dopo l'installazione di un'app non è necessario ricordare i nomi di molti dashboard diversi, perché sono tutti riuniti in un'app, nel browser o nel dispositivo mobile. 
 
-Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario apportare modifiche, fare clic su Modifica e quindi scegliere se modificare la cartella di lavoro in Excel Online oppure aprirla in Excel nel computer. Le modifiche apportate vengono salvate nella cartella di lavoro in OneDrive.
+Questa app contiene tre dashboard correlati e tre report correlati, che costituiscono un'app singola.
 
-### <a name="dig-deeper"></a>Approfondimento
-* [Ottenere dati dai file delle cartelle di lavoro di Excel](../service-excel-workbook-files.md)
-* [Pubblicare in Power BI da Excel](../service-publish-from-excel.md)
+![](media/end-user-basic-concepts/power-bi-app-list.png)
 
+Ogni volta che l'autore dell'app rilascia aggiornamenti, le modifiche vengono visualizzate automaticamente nelle app. L'autore controlla anche la frequenza con cui è pianificato l'aggiornamento dei dati, dunque non è necessario preoccuparsi di stare al passo.
 
-## <a name="my-workspace"></a>Area di lavoro personale
-Fino a qui sono stati illustrati gli elementi fondamentali e le aree di lavoro. Ora verranno esaminati in dettaglio l'interfaccia di Power BI e i componenti che costituiscono la pagina di destinazione del servizio Power BI.
+È possibile ottenere le app in diversi modi. Il designer dell'app può installare l'app automaticamente nell'account Power BI o inviare un collegamento diretto a un'app, oppure è possibile cercarla in Microsoft AppSource, in cui sono visualizzate tutte le app alle quali è possibile accedere. In Power BI nel dispositivo mobile è possibile installare app solo da un collegamento diretto, non da AppSource. Se il designer dell'app la installa automaticamente, verrà visualizzata nell'elenco delle app.
 
-![](media/end-user-basic-concepts/completenewest.png)
+Dopo aver installato l'app, selezionarla nell'elenco delle app e selezionare il dashboard o il report da aprire ed esaminare per primo.   
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Riquadro di spostamento** a sinistra
-Usare il riquadro di spostamento per individuare le aree di lavoro spostarsi tra queste e gli elementi fondamentali di Power BI, ovvero dashboard, report, cartelle di lavoro e set di dati.  
-
-  ![](media/end-user-basic-concepts/power-bi-navigation.png)
-
-* Selezionare **Recupera dati** per [aggiungere set di dati, report e dashboard a Power BI](../service-get-data.md).
-* Espandere e comprimere la barra di spostamento con questa icona ![](media/end-user-basic-concepts/expand-icon.png).
-* Aprire o gestire il contenuto preferito selezionando **Preferiti**.
-* Visualizzare e aprire il contenuto visitato di recente selezionando **Recenti**.
-* Visualizzare, aprire o eliminare un'app selezionando **App**.
-* Se un collega ha condiviso contenuto con l'utente, selezionare **Condiviso con me** per cercare e ordinare il contenuto per trovare le informazioni desiderate.
-* Visualizzare e aprire le aree di lavoro selezionando **Aree di lavoro**.
-
-Fare un singolo clic su
-
-* un'icona o un'intestazione per aprire in Visualizzazione contenuto
-* una freccia a destra (>) per aprire il menu a comparsa per Preferiti, Recenti e Aree di lavoro. 
-* un'icona freccia di espansione () per visualizzare l'elenco scorrevole di dashboard, report, cartelle di lavoro e set di dati nell'**Area di lavoro personale**.
-* un set di dati per esplorarlo
-
-### <a name="2-canvas"></a>2. **Area di disegno** 
-Poiché è stato aperto un dashboard, nell'area di disegno vengono mostrati riquadri di visualizzazione. Se, ad esempio, fosse stato aperto l'editor di report, l'area di disegno mostrerebbe una pagina del report. 
-
-I dashboard sono costituiti da [riquadri](end-user-tiles.md),  che vengono creati nella Visualizzazione di modifica dei report, Domande e risposte, altri dashboard e possono essere aggiunti da Excel, SSRS e così via. Un tipo speciale di riquadro chiamato [widget](../service-dashboard-add-widget.md) viene aggiunto direttamente al dashboard. I riquadri visualizzati in un dashboard sono stati inseriti specificamente dall'autore o dal proprietario di un report,  con un'operazione nota come *aggiunta*.
-
-![Area di disegno del dashboard di Power BI](./media/end-user-basic-concepts/canvas.png)
-
-Per altre informazioni, vedere **Dashboard** (sopra).
-
-### <a name="3-qa-question-box"></a>3. **Casella delle domande di Domande e risposte**
-Uno dei modi per esplorare i dati consiste nel porre una domanda consentendo a Power BI di fornire una risposta sotto forma di visualizzazione. È possibile usare Domande e risposte per aggiungere contenuto a un dashboard o a un report.
-
-Domande e risposte cerca una risposta nel set di dati connesso al dashboard,  ovvero il set di dati per cui è stato aggiunto almeno un riquadro al dashboard.
-
-![Casella delle domande di Domande e risposte](./media/end-user-basic-concepts/power-bi-qna.png)
-
-Non appena si inizia a digitare la domanda, viene visualizzata la pagina Domande e risposte. Durante la digitazione vengono visualizzate informazioni utili per porre la domanda corretta e trovare la risposta migliore con richieste di riformulazione, compilazione automatica, suggerimenti e altro ancora. Una volta ottenuta la visualizzazione, ovvero la risposta desiderata, è possibile aggiungerla al dashboard. Per altre informazioni, vedere [Domande e risposte in Power BI](end-user-q-and-a.md).
-
-### <a name="4-icon-buttons"></a>4. **Pulsanti delle icone** 
-Le icone nell'angolo in alto a destra consentono di accedere alle impostazioni, alle notifiche, ai download e alla Guida e di inviare commenti e suggerimenti al team di Power BI. Selezionare la doppia freccia per aprire il dashboard in modalità **schermo intero**.  
-
-![pulsanti delle icone](./media/end-user-basic-concepts/power-bi-icons.png)
-
-### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Titolo del dashboard** (percorso di navigazione)
-Non sempre è facile individuare quali sono le aree di lavoro e i dashboard attivi, di conseguenza Power BI crea automaticamente un percorso di navigazione.  In questo esempio viene mostrata l'area di lavoro (Area di lavoro personale) e il titolo del dashboard (Retail Analysis Sample).  Se si aprisse un report, il nome del report verrebbe aggiunto alla fine del percorso di navigazione.  Ogni sezione del percorso è un collegamento ipertestuale attivo.  
-
-Si noti l'icona "C" dopo il titolo del dashboard. Significa che questo dashboard presenta un [tag di classificazione dati](../service-data-classification.md) "Confidential" (Riservati). Il tag identifica il livello di sensibilità e sicurezza dei dati. Se l'amministratore ha abilitato la classificazione dei dati, per ogni dashboard verrà impostato un tag predefinito. I proprietari dei dashboard possono modificare il tag in base al livello di sicurezza appropriato per il dashboard.
-
-![](media/end-user-basic-concepts/power-bi-title.png)
-
-### <a name="6-office-365-app-launcher"></a>6. **Icona di avvio delle app di Office 365**
-L'icona di avvio delle app consente di avviare tutte le app di Office 365 con un clic. Da qui è possibile avviare rapidamente le app per posta elettronica, documenti, calendario e altre ancora. 
-
-![Icona di avvio delle app di Office](./media/end-user-basic-concepts/power-bi-waffle.png)
-
-### <a name="7-power-bi-home"></a>7. **Home page di Power BI**
-Se si seleziona questo pulsante, verrà aperto il [dashboard in primo piano](end-user-featured.md) (se è stato impostato) oppure l'ultimo dashboard visualizzato.
-
-   ![](media/end-user-basic-concepts/version-new.png)
-
-### <a name="8-labeled-icon-buttons"></a>8. **Pulsanti delle icone con etichette**
-Questa area della schermata contiene opzioni aggiuntive per interagire con il contenuto, in questo caso con il dashboard.  Oltre alle icone con etichette visualizzate, è possibile selezionare i puntini di sospensione per visualizzare altre opzioni per duplicare, stampare, aggiornare il dashboard ed eseguire altre operazioni.
-
-   ![](media/end-user-basic-concepts/power-bi-labeled-icons.png)
+Questo articolo ha illustrato i blocchi costitutivi del servizio Power BI per i consumer. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](../power-bi-overview.md)  
-[Navigazione nel servizio Power BI](end-user-experience.md)
-[Video di Power BI](../videos.md)  
-[Presentazione dell'editor di report](../service-the-report-editor-take-a-tour.md)
-
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-
+- Visualizzare e impostare un segnalibro sul [Glossario](end-user-glossary.md)    
+- Visualizzare la [Presentazione del servizio Power BI](end-user-experience.md)
+- Vedere la [panoramica di Power BI creata per i consumer](end-user-consumer.md)    
+- Visualizzare un video con i concetti di base e una panoramica del servizio Power BI. <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
