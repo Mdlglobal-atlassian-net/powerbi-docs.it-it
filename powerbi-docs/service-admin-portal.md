@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396912"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252492"
 ---
 # <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
 
-Il portale di amministrazione consente la gestione del tenant di Power BI nell'organizzazione. Include elementi come le metriche di utilizzo, l'accesso all'interfaccia di amministrazione di Office 365 e le impostazioni.
+Il portale di amministrazione consente di gestire un *tenant* Power BI per l'organizzazione. Il portale include elementi come le metriche di utilizzo, l'accesso all'interfaccia di amministrazione di Office 365 e le impostazioni.
 
-La gestione del tenant di Power BI per l'azienda viene eseguita tramite il portale di amministrazione di Power BI. Il portale di amministrazione è accessibile a tutti gli utenti amministratori globali in Office 365 o a cui è stato assegnato il ruolo di amministratore del servizio Power BI. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md).
-
-Tutti gli utenti possono vedere **Portale di amministrazione** sotto all'icona a forma d'ingranaggio. Se gli utenti non sono amministratori, possono vedere solo la sezione **Impostazioni Premium** e le capacità per le quali dispongono dei diritti di gestione.
+Il portale di amministrazione completo è accessibile a tutti gli utenti amministratori globali in Office 365 o a cui è stato assegnato il ruolo di amministratore del servizio Power BI. Se non si ha uno di questi ruoli, nel portale saranno visualizzate solo le **impostazioni di capacità**. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Come accedere al portale di amministrazione
 
 Per ottenere l'accesso al portale di amministrazione di Power BI, l'account deve essere contrassegnato come **Amministratore globale** in Office 365 o in Azure Active Directory o avere ricevuto il ruolo di amministratore del servizio Power BI. Per altre informazioni sul ruolo di amministratore del servizio Power BI, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md). Per accedere al portale di amministrazione di Power BI, eseguire le operazioni seguenti.
 
 1. Selezionare l'icona a forma di ingranaggio delle impostazioni in alto a destra nella pagina del servizio Power BI.
-2. Selezionare **Portale di amministrazione**.
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. Selezionare **Portale di amministrazione**.
 
-All'interno del portale sono disponibili sei schede, descritte di seguito.
+    ![Impostazioni per il portale di amministrazione](media/service-admin-portal/powerbi-admin-settings.png)
+
+Nel portale sono disponibili sette schede. Il resto di questo articolo fornisce informazioni su ognuna di queste schede.
+
+![Navigazione nel portale di amministrazione](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [Metriche di utilizzo](#usage-metrics)
 * [Utenti](#users)
@@ -42,95 +43,91 @@ All'interno del portale sono disponibili sei schede, descritte di seguito.
 * [Impostazioni tenant](#tenant-settings)
 * [Impostazioni Premium](#premium-settings)
 * [Codici di incorporamento](#embed-codes)
-* [Oggetti visivi dell'organizzazione](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [Oggetti visivi dell'organizzazione](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Metriche di utilizzo
-La prima scheda nel portale di amministrazione è **Metriche di utilizzo**. Il report delle metriche di utilizzo offre la possibilità di monitorare l'utilizzo all'interno di Power BI per l'organizzazione. Consente inoltre di vedere quali sono gli utenti e i gruppi più attivi all'interno di Power BI per l'organizzazione.
+
+La scheda **Metriche di utilizzo** consente di monitorare l'utilizzo di Power BI per l'organizzazione. Consente inoltre di vedere quali sono gli utenti e i gruppi più attivi all'interno di Power BI per l'organizzazione.
 
 > [!NOTE]
 > Al primo accesso al dashboard o quando si accede di nuovo al dashboard dopo un lungo periodo di inutilizzo, è probabile che venga visualizzata una schermata di caricamento mentre viene caricato il dashboard.
 
-Al termine del caricamento del dashboard è possibile visualizzare due sezioni di riquadri. La prima sezione include i dati di utilizzo per i singoli utenti e la seconda sezione ha informazioni simili per i gruppi all'interno dell'organizzazione.
+Al termine del caricamento del dashboard vengono visualizzate due sezioni di riquadri. La prima sezione include i dati di utilizzo per i singoli utenti e la seconda sezione ha informazioni simili per i gruppi all'interno dell'organizzazione.
 
 Di seguito è riportata la suddivisione dei dati visualizzati in ogni riquadro:
 
 * Conteggio distinto di tutti i dashboard, i report e i set di dati nell'area di lavoro dell'utente
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![Conteggio distinto di dashboard, report e set di dati](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Dashboard più utilizzato in base al numero di utenti che possono accedervi. Ad esempio, se si dispone di un dashboard condiviso con 3 utenti e tale dashboard è stato aggiunto anche a un pacchetto di contenuto a cui sono connessi due utenti diversi, il conteggio sarebbe 6 (1 + 3 + 2)
+* Dashboard più utilizzato in base al numero di utenti che possono accedervi. Ad esempio, se è disponibile un dashboard condiviso con 3 utenti e tale dashboard è stato aggiunto anche a un pacchetto di contenuto a cui sono connessi due utenti diversi, il conteggio sarebbe 6 (1 + 3 + 2)
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![Dashboard più utilizzati](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * Il contenuto più popolare a cui si sono connessi gli utenti. Si tratta di qualsiasi contenuto accessibile per gli utenti tramite il processo Recupera dati, quindi pacchetti di contenuto SaaS, pacchetti di contenuto aziendali, file o database.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![Pacchetti più utilizzati](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * Una visualizzazione dei principali utenti in base al numero di dashboard che hanno: sia i dashboard creati da loro che quelli condivisi con loro.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![Principali utenti - dashboard](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * Una visualizzazione dei principali utenti in base al numero di report che hanno.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![Principali utenti - report](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-La seconda sezione mostra lo stesso tipo di informazioni, ma in base ai gruppi. In questo modo è possibile stabilire quali sono i gruppi più attivi all'interno dell'organizzazione e quale tipo di informazioni usano.
+La seconda sezione mostra lo stesso tipo di informazioni, ma in base ai gruppi. In questo modo è possibile stabilire quali sono i gruppi più attivi all'interno dell'organizzazione e quale tipo di contenuto usano.
 
-Con queste informazioni si ottengono dati analitici reali in merito alla modalità di utilizzo di Power BI all'interno dell'organizzazione ed è possibile individuare gli utenti e i gruppi particolarmente attivi nell'organizzazione.
+Con queste informazioni è possibile ottenere informazioni dettagliate reali in merito alla modalità d'uso di Power BI all'interno dell'organizzazione ed è possibile individuare gli utenti e i gruppi particolarmente attivi nell'organizzazione.
 
-## <a name="users"></a>Users
+## <a name="users"></a>Utenti
 
-La seconda scheda nel portale di amministrazione è **Gestisci utenti**. La gestione degli utenti, per Power BI, viene eseguita nell'interfaccia di amministrazione di Office 365, pertanto questa sezione consente di raggiungere rapidamente l'area per gestire utenti, amministratori e gruppi all'interno di Office 365.
+Gli utenti, i gruppi e gli amministratori di Power BI vengono gestiti nell'interfaccia di amministrazione di Office 365. La scheda **Utenti** offre un collegamento all'interfaccia di amministrazione per il tenant.
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-Facendo clic su **Passa all'interfaccia di amministrazione di O365** si passa direttamente alla pagina di destinazione dell'interfaccia di amministrazione di Office 365 per gestire gli utenti del tenant.
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![Passa all'interfaccia di amministrazione di Office 365](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Log di controllo
 
-La terza scheda nel portale di amministrazione è **Log di controllo**. I log si trovano all'interno del Centro sicurezza e conformità di Office 365. Questa sezione consente di accedere rapidamente a tale area all'interno di Office 365.
-
-Per altre informazioni sui log di controllo, vedere [Controllo di Power BI nell'organizzazione](service-admin-auditing.md)
+I log di controllo di Power BI vengono gestiti nel Centro sicurezza e conformità di Office 365. La scheda **Log di controllo** offre un collegamento al Centro sicurezza e conformità per il tenant. [Altre informazioni](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>Impostazioni tenant
 
-La terza scheda nel portale di amministrazione è **Impostazioni tenant**. Le impostazioni del tenant consentono di esercitare un maggiore controllo sulle funzionalità da rendere disponibili per l'organizzazione. Se i dati sensibili rappresentano una criticità, è possibile che alcune delle nostre funzionalità non siano adatte all'organizzazione o che per un determinato gruppo sia preferibile rendere disponibile solo una specifica funzionalità. In questi casi, è possibile disattivare specifiche funzionalità nel tenant.
+La scheda **Impostazioni tenant** consente di controllare in modo dettagliato le funzionalità rese disponibili per l'organizzazione. Se i dati sensibili rappresentano una criticità, è possibile che alcune delle funzionalità non siano adatte all'organizzazione o che per un determinato gruppo sia preferibile rendere disponibile solo una specifica funzionalità.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+L'immagine seguente mostra le prime due sezioni della scheda **Impostazioni tenant**.
+
+![Impostazioni tenant](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> Possono essere necessari fino a 10 minuti affinché l'impostazione diventi effettiva per tutti gli utenti del tenant.
+> Possono essere necessari fino a 10 minuti affinché la modifica di un'impostazione diventi effettiva per tutti gli utenti del tenant.
 
 Le impostazioni possono avere tre stati:
 
-* **Disabilitato per l'intera organizzazione**: è possibile disabilitare una funzionalità e fare in modo che gli utenti non possano usarla.
+* **Disabilitato per l'intera organizzazione**: nessuno nell'organizzazione può usare questa funzionalità.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![Impostazione per disabilitare la funzionalità per tutti](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Abilitato per l'intera organizzazione**: è possibile abilitare una funzionalità per l'intera organizzazione in modo da renderla accessibile a tutti gli utenti.
+* **Abilitato per l'intera organizzazione**: tutti nell'organizzazione possono usare questa funzionalità.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![Impostazione per abilitare la funzionalità per tutti](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Abilitato per un subset dell'organizzazione**: è anche possibile abilitare una funzionalità per una parte dell'organizzazione. Questo obiettivo può essere raggiunto in diversi modi. È possibile abilitarla per l'intera organizzazione, ad eccezione di un gruppo specifico di utenti.
+* **Abilitato per un subset dell'organizzazione**: uno specifico subset di utenti o gruppi all'interno dell'organizzazione può usare questa funzionalità.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    È possibile abilitare la funzionalità per l'intera organizzazione, ad eccezione di un gruppo specifico di utenti.
 
-    È anche possibile abilitare la funzionalità solo per un gruppo di utenti e disattivarla per un altro gruppo di utenti. In questo modo, alcuni utenti non avrebbero accesso alla funzionalità anche se fanno parte del gruppo autorizzato.
+    ![Impostazione per abilitare la funzionalità per un subset](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    È anche possibile abilitare la funzionalità solo per un gruppo specifico di utenti e disabilitarla per un altro gruppo di utenti. Con questo approccio si è certi che alcuni utenti non abbiano accesso alla funzionalità anche se fanno parte del gruppo autorizzato.
+
+    ![Impostazione per abilitare la funzionalità con eccezioni](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 Le sezioni successive forniscono una panoramica dei diversi tipi di impostazioni del tenant.
 
 ## <a name="workspace-settings"></a>Impostazioni dell'area di lavoro
 
 ### <a name="create-workspaces-preview"></a>Creare le aree di lavoro (anteprima)
-Gli utenti dell'organizzazione possono creare aree di lavoro per le app per collaborare a dashboard, report e altro contenuto.
 
-Per altre informazioni, vedere [Creare le nuove aree di lavoro](service-create-the-new-workspaces.md).
+Gli utenti dell'organizzazione possono creare aree di lavoro per le app per collaborare a dashboard, report e altro contenuto. [Altre informazioni](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>Impostazioni di esportazione e condivisione
 
@@ -138,19 +135,21 @@ Per altre informazioni, vedere [Creare le nuove aree di lavoro](service-create-t
 
 Gli utenti dell'organizzazione possono condividere i dashboard con utenti esterni all'organizzazione.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Impostazione per gli utenti esterni](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Di seguito è riportato il messaggio che viene visualizzato al momento della condivisione con un utente esterno.
+La figura seguente mostra il messaggio che viene visualizzato al momento della condivisione con un utente esterno.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![Condivisione con un utente esterno](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>Pubblica sul Web
 
 Gli utenti dell'organizzazione possono pubblicare report sul Web. [Altre informazioni](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+La figura seguente mostra il menu **File** per un report quando l'impostazione **Pubblica sul Web** è abilitata.
 
-Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'impostazione per la pubblicazione sul Web.
+![Impostazione Pubblica sul Web](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'impostazione di **Pubblica sul Web**.
 
 |Funzionalità |Abilitata per l'intera organizzazione |Disabilitata per l'intera organizzazione |Gruppi di sicurezza specifici   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'im
 
 Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. [Altre informazioni](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+La figura seguente mostra l'opzione per esportare i dati da un riquadro.
+
+![Esportare dati da un riquadro](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > Se si disabilita **Esporta dati**, si impedisce anche agli utenti di usare la funzionalità **Analizza in Excel** oltre alla connessione dinamica al servizio Power BI.
@@ -172,7 +173,9 @@ Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visua
 
 Gli utenti dell'organizzazione possono esportare report di Power BI come file di PowerPoint. [Altre informazioni](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+La figura seguente mostra il menu **File** per un report quando l'impostazione **Esporta report come presentazioni di PowerPoint** è abilitata.
+
+![Esporta report come presentazioni di PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Stampare dashboard e report
 
