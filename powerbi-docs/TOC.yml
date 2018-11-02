@@ -250,8 +250,6 @@ items:
         href: desktop-r-powered-custom-visuals.md
       - name: Usare le linee griglia e l'opzione Blocca sulla griglia
         href: desktop-gridlines-snap-to-grid.md
-      - name: Campionamento di righe a densità elevata
-        href: desktop-high-density-sampling.md
       - name: Aggiungere una colonna da un esempio
         href: desktop-add-column-from-example.md
       - name: Aggiungere una colonna personalizzata
@@ -322,6 +320,8 @@ items:
         href: visuals/power-bi-visualization-filled-maps-choropleths.md
       - name: Grafici a imbuto in Power BI
         href: visuals/power-bi-visualization-funnel-charts.md
+      - name: Campionamento di righe a densità elevata
+        href: desktop-high-density-sampling.md
       - name: Oggetti visivi degli indicatori KPI
         href: visuals/power-bi-visualization-kpi.md
       - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
@@ -1203,9 +1203,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: dbefae36f3a51d7494130593a4c7009f3cbc10b4
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: fffb456fe7ad9648b27a1106e9a4cb6401b5f56b
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252515"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909710"
