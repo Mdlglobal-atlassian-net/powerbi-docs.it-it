@@ -1,6 +1,6 @@
 ---
-title: Grafici a dispersione in Power BI
-description: Grafici a dispersione in Power BI
+title: Grafici a dispersione, grafici a bolle e tracciati a punti in Power BI
+description: Grafici a dispersione, tracciati a punti e grafici a bolle in Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448846"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003180"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Grafici a dispersione e grafici a bolle in Power BI
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Grafici a dispersione, grafici a bolle e tracciati a punti in Power BI
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di valori numerici lungo un asse orizzontale e un altro set di dati numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Questi punti dati possono essere distribuiti uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati.
 
 Un grafico a bolle sostituisce i punti dati con bolle, con le *dimensioni* della bolla che rappresentano una dimensione aggiuntiva dei dati.
 
 ![grafico a bolle di esempio](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Un tracciato a punti è simile a un grafico a bolle e a un grafico a dispersione, ad eccezione del fatto che è possibile tracciare dati numerici o categorici lungo l'asse X. 
+
+![grafico a bolle di esempio](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 È possibile impostare il numero di punti dati fino a un massimo di 10.000.  
 
@@ -41,6 +45,9 @@ Un grafico a bolle sostituisce i punti dati con bolle, con le *dimensioni* della
 * se i dati dispongono di 3 serie di dati contenenti ciascuna un set di valori.
 * per presentare i dati finanziari.  Dimensioni delle bolle diverse sono utili per evidenziare visivamente valori specifici.
 * per utilizzare i quadranti.
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>I tracciati a punti rappresentano un'ottima scelta in alternativa ai grafici a dispersione o a bolle:
+* Se si vogliono includere dati categorici lungo l'asse X
 
 ## <a name="create-a-scatter-chart"></a>Creare un grafico a dispersione
 Guardare questo video per seguire la creazione del grafico a dispersione e quindi seguire la procedura riportata più avanti per crearne uno.
@@ -63,11 +70,11 @@ Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Pe
 
 3. Convertire in un grafico a dispersione. Dal riquadro Visualizzazione selezionare l'icona del grafico a dispersione.
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. Trascinare **Zona** da **Dettagli** in **Legenda**. Viene visualizzato un grafico a dispersione che tiene traccia della **% della varianza delle vendite totali** lungo l'asse Y e delle **vendite per ogni piede quadrato** lungo l'asse X. I colori del punto dati rappresentano le zone:
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 Ora si aggiungerà una terza dimensione.
 
@@ -75,18 +82,17 @@ Ora si aggiungerà una terza dimensione.
 
 1. Dal riquadro **Campi**, trascinare **Vendite** > **Vendite di quest'anno** > **Valore** all'area **Dimensioni**. I punti dati si espandono in volumi proporzionati al valore delle vendite.
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![i punti diventano bolle](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. Passare il mouse su una bolla. La dimensione della bolla riflette il valore delle **Vendite di quest’anno**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![visualizzazione delle descrizioni comando](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. È possibile impostare il numero di punti dati da visualizzare nel grafico a bolle nella sezione **Formattazione** del riquadro **Visualizzazioni** espandendo la scheda **Generale** e modificando **Volume dati**. È possibile impostare il volume dei dati su un numero massimo di 10.000. All'approssimarsi del numero massimo, è consigliabile eseguire un test per garantire migliori prestazioni. 
 
     ![Volume dati](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > Poiché un numero maggiore di punti dati può comportare tempi di caricamento più lunghi, se si sceglie di pubblicare report con limiti corrispondenti ai livelli più elevati della scala, assicurarsi di eseguire test dei report sul Web e in dispositivi mobili, per garantire che le prestazioni soddisfino le aspettative degli utenti. Si noti che per numeri più elevati di punti dati, è consigliabile testare i risultati in fattori di forma diversi per assicurare prestazioni ottimali.
+   Poiché un numero maggiore di punti dati può comportare tempi di caricamento più lunghi, se si sceglie di pubblicare report con limiti corrispondenti ai livelli più elevati della scala, assicurarsi di eseguire test dei report sul Web e in dispositivi mobili, per garantire che le prestazioni soddisfino le aspettative degli utenti. 
 
 4. È possibile [formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora](service-getting-started-with-color-formatting-and-axis-properties.md). Per [migliorare l'accessibilità](../desktop-accessibility.md), considerare la possibilità di aggiungere forme di marcatore a ogni riga. L'uso di una forma del marcatore diversa per ogni riga semplifica per gli utenti dei report la distinzione tra le righe o le aree. Per selezionare la forma del marcatore, espandere la scheda **Forme** e quindi selezionare una forma per il marcatore.
 
@@ -95,6 +101,13 @@ Ora si aggiungerà una terza dimensione.
    È anche possibile cambiare la forma del marcatore in diamante, triangolo o quadrato:
 
    ![Marcatore quadrato](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>Creare un tracciato a punti
+Per creare un tracciato a punti, sostituire il campo dell'asse X numerico con un campo categorico.
+
+Dal riquadro **Asse X** rimuovere **Sales per sq ft** e sostituirlo con **District > DM**.
+   
+![nuovo tracciato a punti](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi

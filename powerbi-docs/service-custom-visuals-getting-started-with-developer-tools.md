@@ -2,32 +2,33 @@
 title: Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati
 description: Gli oggetti visivi personalizzati consentono di soddisfare le esigenze degli utenti e rispettare la progettazione dell'applicazione. Ecco come creare un oggetto visivo personalizzato per Power BI usando gli strumenti di sviluppo.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 11/30/2017
-ms.author: maghan
-ms.openlocfilehash: ec6399d815cb17bb0f2542144c63535835659017
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a8aca5e3410d6352d64044cdc1d8575b2449912c
+ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726686"
+ms.lasthandoff: 10/26/2018
+ms.locfileid: "50153703"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati
+
 Gli oggetti visivi personalizzati consentono di soddisfare le esigenze degli utenti e rispettare la progettazione dell'applicazione. Ecco come creare un oggetto visivo personalizzato per Power BI usando gli strumenti di sviluppo.
 
 > [!NOTE]
 > Leggere questo documento per iniziare a usare Power BI rapidamente. Per informazioni più dettagliate, vedere le informazioni di riferimento all'interno del [repository git degli oggetti visivi di Power BI](https://github.com/Microsoft/PowerBI-visuals).
-> 
-> 
 
 ## <a name="requirements"></a>Requisiti
+
 * NodeJS 4.0 + richiesto (consigliato 5.0 o versioni successive) [Scarica NodeJS](https://nodejs.org)
 
 ## <a name="install-nodejs-and-the-power-bi-tools"></a>Installare NodeJS e gli strumenti di Power BI
+
 Per creare un oggetto visivo personalizzato, è necessario installare NodeJS. NodeJS è necessario per eseguire gli strumenti da riga di comando.
 
 1. Scaricare e installare [NodeJS](https://nodejs.org). È necessaria la versione 4.0 o versioni successive, ma è consigliata la versione 5.0 o versioni successive.
@@ -83,12 +84,11 @@ Per creare un oggetto visivo personalizzato, è necessario installare NodeJS. No
 <a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Installazione del certificato server
+
 Per abilitare l'anteprima dinamica dell'oggetto visivo, è necessario un server https attendibile. Prima di iniziare, è necessario installare un certificato SSL in modo da permettere il caricamento di asset visivi nel Web browser. 
 
 > [!NOTE]
 > Si tratta di una singola configurazione per la workstation di sviluppo.
-> 
-> 
 
 Per *creare* un certificato, eseguire il comando seguente.
 
@@ -96,9 +96,6 @@ Per *creare* un certificato, eseguire il comando seguente.
 
 > [!NOTE]
 > Dovrebbe essere visualizzato un messaggio con il percorso per il certificato e una nuova passphrase generata.
-> 
-> 
-
 
 Per *installare* il certificato, eseguire il comando seguente.
 
@@ -106,8 +103,6 @@ Per *installare* il certificato, eseguire il comando seguente.
 
 > [!NOTE]
 > Dovrebbe essere visualizzato un messaggio che indica di usare la nuova passphrase generata per installare un certificato PFX.
-> 
-> 
 
 **Sistema operativo Windows**
 
@@ -131,8 +126,6 @@ Per *installare* il certificato, eseguire il comando seguente.
 
 > [!NOTE]
 > Se il certificato non viene riconosciuto, potrebbe essere necessario riavviare il computer.
-> 
-> 
 
 **OSX**
 
@@ -149,10 +142,9 @@ Per *installare* il certificato, eseguire il comando seguente.
 
 > [!NOTE]
 > Se il certificato non viene riconosciuto, potrebbe essere necessario riavviare il computer.
-> 
-> 
 
-## <a name="enable-live-preview-of-developer-visual"></a>Abilitare l'anteprima dinamica dell'oggetto visivo della modalità sviluppatore
+## <a name="enable-a-live-preview-of-the-developer-visual"></a>Abilitare l'anteprima dinamica dell'oggetto visivo dello sviluppatore
+
 Per abilitare un'anteprima dinamica dell'oggetto visivo personalizzato, seguire questi passaggi. In questo modo l'oggetto visivo verrà usato all'interno del servizio Power BI durante la modifica di report.
 
 1. Passare ad [app.powerbi.com](https://app.powerbi.com) ed eseguire l'accesso.
@@ -168,16 +160,16 @@ Per abilitare un'anteprima dinamica dell'oggetto visivo personalizzato, seguire 
 
    > [!NOTE]
    > Questa operazione richiede che sia stato eseguito `pbiviz start` dalla cartella dell'oggetto visivo nel computer di sviluppo. Per altre informazioni su come creare l'oggetto visivo, vedere [Creare un nuovo oggetto visivo](#create-a-new-visual) in questo articolo.
-   > 
-   > 
+
 5. Selezionare l'oggetto visivo nell'area di disegno report. È possibile associare i dati nello stesso modo in cui si associano altri oggetti visivi.
 
 È ora possibile iniziare lo sviluppo dell'oggetto visivo.
 
 ## <a name="create-a-new-visual"></a>Creare un nuovo oggetto visivo
+
 È possibile creare un nuovo progetto di oggetto visivo eseguendo il comando seguente.
 
-```
+```powershell
 pbiviz new MyVisualName
 ```
 
@@ -186,18 +178,20 @@ pbiviz new MyVisualName
 Questo comando crea una nuova cartella nella directory in cui è stato eseguito il comando. Verrà generato un modello iniziale di base per l'oggetto visivo. Al termine dell'esecuzione del comando, è possibile aprire la directory e usare l'editor preferito per iniziare a elaborare il nuovo oggetto visivo.
 
 ## <a name="testing-your-visual-in-power-bi"></a>Test dell'oggetto visivo in Power BI
+
 È possibile testare l'oggetto visivo nel servizio Power BI all'interno di rapporti e dashboard.
 
 <a name="running-your-visual"></a>
 
 ### <a name="running-your-visual"></a>Esecuzione dell'oggetto visivo
+
 È possibile eseguire l'oggetto visivo effettuando le operazioni seguenti.
 
 1. Aprire un prompt dei comandi.
 2. Modificare la directory nella cartella dell'oggetto visivo, che contiene il file `pbiviz.json`.
 3. Eseguire il comando seguente.
 
-    ```
+    ```powershell
     pbiviz start
     ```
 
@@ -205,7 +199,7 @@ Questo comando crea una nuova cartella nella directory in cui è stato eseguito 
 
 Se si è nella posizione errata, verrà visualizzato un errore simile al seguente.
 
-```
+```powershell
     error  LOAD ERROR Error: pbiviz.json not found. You must be in the root of a visual project to run this command.
         at e (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:67:35)
         at Function.loadVisualPackage (C:\Users\[user]\AppData\Roaming\npm\node_modules\powerbi-visuals-tools\lib\VisualPackage.js:62:16)
@@ -220,14 +214,13 @@ Se si è nella posizione errata, verrà visualizzato un errore simile al seguent
 ```
 
 ### <a name="viewing-your-visual-in-power-bi"></a>Visualizzazione dell'oggetto visivo in Power BI
+
 Per visualizzare l'oggetto visivo in un report, passare a tale report e selezionare l'oggetto visivo all'interno del riquadro **Visualizzazioni**.
 
 > [!NOTE]
 > È necessario eseguire il comando `pbiviz start` prima di procedere come descritto nella sezione [Esecuzione dell'oggetto visivo](#running-your-visual).
-> 
-> 
 
-![](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
+![Selezione di un oggetto visivo di uno sviluppatore di Power BI](media/service-custom-visuals-getting-started-with-developer-tools/powerbi-developer-visual-selection.png)
 
 Verrà quindi visualizzato il modello iniziale per l'oggetto visivo.
 
@@ -237,11 +230,12 @@ Verrà quindi visualizzato il modello iniziale per l'oggetto visivo.
 | --- | --- |
 | Refresh visual (Aggiorna oggetto visivo) |Aggiornare manualmente l'oggetto visivo se il ricaricamento automatico è disabilitato. |
 | Attiva/Disattiva ricaricamento automatico |Quando attivato, l'oggetto visivo verrà automaticamente aggiornato ogni volta che si salva il file dell'oggetto visivo. |
-| Mostra vista dati |Mostra la visualizzazione dati sottostante dell'oggetto visivo per il debug |
+| Show data view (Mostra vista dati) |Mostra la visualizzazione dati sottostante dell'oggetto visivo per il debug |
 | Guida |Documentazione in GitHub |
 | Invia commenti e suggerimenti |Segnalare se è possibile migliorare ulteriormente l'esperienza. (Richiede un account GitHub) |
 
 ## <a name="package-your-visual-for-use-in-power-bi-desktop-and-distribution"></a>Creare pacchetti di oggetti visivi da usare in Power BI Desktop e per la distribuzione
+
 Prima di caricare l'oggetto visivo in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) o condividerlo con la community nella [Raccolta oggetti visivi di Power BI](https://visuals.powerbi.com), sarà necessario generare un file `pbiviz`.
 
 È possibile creare un pacchetto per l'oggetto visivo effettuando le operazioni seguenti.
@@ -250,19 +244,21 @@ Prima di caricare l'oggetto visivo in [Power BI Desktop](https://powerbi.microso
 2. Modificare la directory nella cartella dell'oggetto visivo, che contiene il file `pbiviz.json`.
 3. Eseguire il comando seguente.
 
-    ```
+    ```powershell
     pbiviz package
     ```
 
 Questo comando crea un file `pbiviz` nella directory `dist/` del progetto di oggetto visivo. Se esiste già un file `pbiviz`, verrà sovrascritto.
 
 ## <a name="updating-the-visuals-api-version"></a>Aggiornamento della versione dell'API degli oggetti visivi
+
 Quando si crea un oggetto visivo usando `pbiviz new`, una copia delle definizioni di tipo API e degli schemi JSON appropriati viene aggiunta alla directory dell'oggetto visivo. È possibile usare il comando `pbiviz update` per aggiornare questi file, se necessario. Può essere utile se si rilascia una correzione per una versione precedente dell'API o se si vuole eseguire l'aggiornamento alla versione dell'API più recente.
 
 ### <a name="updating-your-existing-api-version"></a>Aggiornamento della versione dell'API esistente
+
 Se viene rilasciato un aggiornamento per un'API esistente, è possibile ottenere la versione più recente eseguendo le operazioni seguenti.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -273,9 +269,10 @@ pbiviz update
 Verranno scaricati gli strumenti più recenti da npm che includono le definizioni di tipo e gli schemi aggiornati. Se si usa `pbiviz update` verrà sovrascritta la proprietà `apiVersion` nel file *pbiviz.json* con la versione più recente.
 
 ### <a name="upgrading-to-a-different-api-version"></a>Aggiornamento a una versione diversa dell'API
+
 È possibile aggiornare a una versione diversa dell'API usando gli stessi passaggi indicati in precedenza. È possibile specificare in modo esplicito la versione dell'API da usare.
 
-```
+```powershell
 #Update your version of pbiviz
 npm install -g powerbi-visuals-tools
 
@@ -287,10 +284,9 @@ In questo modo l'oggetto visivo verrà aggiornato alla versione dell'API 1.2.0. 
 
 > [!WARNING]
 > La versione dell'API predefinita usata dagli strumenti sarà sempre la versione stabile dell'API. Tutte le versioni successive alla versione dell'API predefinita sono instabili e soggette a modifiche. Possono presentare comportamenti imprevisti e si comportano in modo diverso tra il servizio Power BI e Power BI Desktop. Per la versione dell'API stabile corrente, vedere il [log delle modifiche](https://github.com/Microsoft/PowerBI-visuals/blob/master/ChangeLog.md). Per altre informazioni sulle versioni non definitive, vedere le [funzionalità previste](https://github.com/Microsoft/PowerBI-visuals/blob/master/Roadmap/README.md).
-> 
-> 
 
 ## <a name="inside-the-visual-project"></a>All'interno del progetto di oggetto visivo
+
 Il progetto di oggetto visivo è la cartella che viene creata quando si esegue il comando `pbiviz new`. 
 
 ### <a name="file-structure"></a>Struttura di file
@@ -308,6 +304,7 @@ Il progetto di oggetto visivo è la cartella che viene creata quando si esegue i
 | tsconfig.json |Impostazioni del servizio di compilazione TypeScript. Altre informazioni su [tsconfig](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). |
 
 ### <a name="pbivizjson"></a>pbiviz.json
+
 Questo file è il file di configurazione principale per l'oggetto visivo. Contiene i metadati, nonché informazioni sui file, necessari per compilare l'oggetto visivo.
 
 ```
@@ -336,6 +333,7 @@ Questo file è il file di configurazione principale per l'oggetto visivo. Contie
 ```
 
 ### <a name="visual-source-typescript"></a>Origine oggetto visivo (TypeScript)
+
 Il codice dell'oggetto visivo deve essere scritto in TypeScript, cioè un soprainsieme di JavaScript che supporta caratteristiche più avanzate e l'accesso anticipato alla funzionalità ES6/ES7.
 
 Tutti i file TypeScript devono essere archiviati nella directory `src/` e aggiunti alla matrice `files` in `tsconfig.json`. Ciò consente al servizio di compilazione di TypeScript di caricarli nell'ordine preferito.
@@ -347,6 +345,7 @@ Quando viene compilato l'oggetto visivo, tutto il linguaggio TypeScript verrà c
 Altre informazioni su [TypeScript](http://www.typescriptlang.org/).
 
 ### <a name="visual-style-less"></a>Stile di oggetto visivo (Less)
+
 L'applicazione di stili visivi viene gestita usando i fogli di stile CSS. Per praticità, verrà usato il servizio di pre-compilazione Less che supporta alcune funzionalità avanzate, ad esempio la nidificazione, le variabili, le combinazioni, le condizioni, i cicli e così via. Se non si vuole usare nessuna di queste funzionalità, è possibile scrivere semplicemente fogli di stile CSS normali nel file di Less.
 
 Tutti i file di Less devono essere archiviati nella directory `style/`. Verrà caricato il file specificato nel campo `style` all'interno del file `pbiviz.json`. Eventuali file aggiuntivi devono essere caricati usando `@import`.
@@ -354,12 +353,15 @@ Tutti i file di Less devono essere archiviati nella directory `style/`. Verrà c
 Altre informazioni su [Less](http://lesscss.org/).
 
 ## <a name="debugging"></a>Debug
+
 Per suggerimenti sul debug dell'oggetto visivo personalizzato, vedere la [guida al debug](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/debugging.md).
 
 ## <a name="submit-your-visual-to-appsource"></a>Inviare l'oggetto visivo ad AppSource
+
 È possibile elencare l'oggetto visivo per consentirne l'uso da parte di altri utenti ma inviandolo ad AppSource. Per altre informazioni su questo processo, vedere [Pubblicare oggetti visivi personalizzati in AppSource](developer/office-store.md).
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
+
 **Comando Pbiviz non trovato (o errori simili)**
 
 Se si esegue `pbiviz` nella riga di comando / del terminal, verrà visualizzata la finestra della Guida in linea. In caso contrario, l'installazione non è stata eseguita correttamente. Assicurarsi di avere almeno la versione 4.0 di NodeJS installata.
@@ -376,8 +378,6 @@ Se non è visualizzata, verificare che sia stata abilitata nelle impostazioni di
 
 > [!NOTE]
 > L'oggetto visivo di debug è attualmente disponibile solo nel servizio Power BI e non in Power BI Desktop o nell'app per dispositivi mobili. L'oggetto visivo in pacchetto continuerà a funzionare ovunque.
-> 
-> 
 
 Per altre informazioni, vedere [Abilitare l'anteprima dinamica dell'oggetto visivo della modalità sviluppatore](#enable-live-preview-of-developer-visual).
 
@@ -388,11 +388,11 @@ Eseguire il server dell'oggetto visivo con il comando `pbiviz start` nella riga 
 Per altre informazioni, vedere [Esecuzione dell'oggetto visivo](#running-your-visual) oppure [Installazione del certificato server](#ssl-setup).
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Visualizzazioni in Power BI](visuals/power-bi-report-visualizations.md)  
 [Visualizzazioni personalizzate in Power BI](power-bi-custom-visuals.md)  
 [Pubblicare oggetti visivi personalizzati in Office Store](developer/office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [Less CSS](http://lesscss.org/)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-
+Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/) 

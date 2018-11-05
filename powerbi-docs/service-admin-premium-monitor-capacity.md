@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909223"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003203"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorare le capacità di Power BI Premium e Power BI Embedded
 
@@ -61,13 +61,11 @@ La scheda **Filters applied to all pages** (Filtri applicati a tutte le pagine) 
 
 ### <a name="datasets-tab"></a>Scheda Set di dati
 
-La scheda **Datasets** (Set di dati) rende disponibile la maggior parte delle metriche nell'app. Usare i quattro pulsanti nella parte superiore della scheda per passare ad aree diverse: **Summary** (Riepilogo), **Refreshes** (Aggiornamenti), **Queries** (Query) e **Datasets** (Set di dati).
+La scheda **Datasets** (Set di dati) rende disponibile la maggior parte delle metriche nell'app. Usare i pulsanti nella parte superiore della scheda per passare ad aree diverse: **Summary** (Riepilogo), **Refreshes** (Aggiornamenti), **Query Durations** (Durate query), **Query Waits** (Attese query) e **Datasets** (Set di dati).
 
 ![Scheda Set di dati](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Area Summary (Riepilogo)
-
-![Pulsante Summary (Riepilogo)](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 L'area **Summary** (Riepilogo) presenta una visualizzazione delle capacità per entità, risorse di sistema e carichi di lavoro dei set di dati.
 
@@ -80,19 +78,27 @@ L'area **Summary** (Riepilogo) presenta una visualizzazione delle capacità per 
 
 #### <a name="refreshes-area"></a>Area Refreshes (Aggiornamenti)
 
-![Pulsante Refreshes (Aggiornamenti)](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 L'area **Refreshes** (Aggiornamenti) elenca gli aggiornamenti completati, le misure con esito positivo, il tempo di attesa medio/massimo degli aggiornamenti e la durata media/massima degli aggiornamenti suddivisi in base ai set di dati negli ultimi sette giorni. I due grafici in basso mostrano gli aggiornamenti in rapporto all'utilizzo della memoria in GB e i tempi di attesa medi suddivisi in bucket di un'ora, indicati nell'ora locale. I grafici a barre superiori elencano i primi cinque set di dati in base al tempo medio impiegato per completarne l'aggiornamento (durata dell'aggiornamento), nonché il tempo di attesa medio per l'aggiornamento. La presenza di più picchi elevati per i tempi di attesa degli aggiornamenti è indicativa di un livello di utilizzo molto alto della capacità.
 
-#### <a name="queries-area"></a>Area Queries (Query)
+#### <a name="query-durations-area"></a>Area Query Durations (Durate query)
 
-![Pulsante Queries (Query)](media/service-admin-premium-monitor-capacity/queries-button.png)
+L'area **Query Durations** (Durate query) elenca il numero totale di query eseguite e la durata media/massima in millisecondi. I dati sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni. Il grafico nella parte inferiore mostra il numero delle query, la durata media (in millisecondi) rispetto al consumo di memoria in GB. Questi dati sono suddivisi in bucket di un'ora nell'ora locale.
 
-L'area **Queries** (Query) elenca il numero totale di query eseguite, il numero totale di query in attesa per le query dinamiche e le query dirette, la durata media e massima, il tempo medio e massimo di attesa espresso in millisecondi. Questi dati sono suddivisi per set di dati, area di lavoro e bucket orari negli ultimi sette giorni. I grafici nella parte inferiore illustrano il numero delle query, la durata media (in millisecondi) e il tempo di attesa (in millisecondi) rispetto al consumo di memoria in GB. Questi dati sono suddivisi in bucket di un'ora nell'ora locale. I due grafici superiori a destra elencano i primi cinque set di dati per durata media delle query e tempo di attesa per il completamento di queste. Una durata notevole delle query e tempi di attesa lunghi sono indicativi di un livello di utilizzo molto alto della capacità. Questi sintomi possono indicare anche che il problema è causato da un unico set di dati e che è necessario indagarne le cause.
+Il grafico in alto a destra mostra l'istogramma di distribuzione delle durate delle query. L'istogramma è suddiviso in bucket in base alle durate delle query indicate in millisecondi nelle categorie seguenti: : <= 30ms, 30-100ms, 100-300ms, 300ms-1sec, 1sec-3sec, 3sec-10sec, 10sec-30sec e intervalli maggiori di 30 secondi.
+
+Il grafico in basso a destra elenca i primi cinque set di dati in base alla durata media per il completamento delle query.
+
+Una durata notevole delle query e tempi di attesa lunghi sono indicativi di un livello di utilizzo molto alto della capacità. Questi sintomi possono indicare anche che il problema è causato da un unico set di dati e che è necessario indagarne le cause.
+
+#### <a name="query-waits-area"></a>Area Query Waits (Attese query)
+
+L'area **Query Waits** (Attese query) elenca il numero totale di esecuzioni di query, il numero totale di query in attesa per query dinamiche/dirette e il tempo di attesa medio/massimo indicato in millisecondi. I dati sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni. Il grafico nella parte inferiore mostra il numero di query in attesa, il tempo di attesa medio (in millisecondi) rispetto al consumo di memoria in GB. Questi dati sono suddivisi in bucket di un'ora nell'ora locale.
+
+Il grafico in alto a destra mostra l'istogramma di distribuzione dei tempi di attesa. L'istogramma è suddiviso in bucket in base alle durate delle query espresse in millisecondi nelle categorie seguenti: <= 50 ms, 50-100 ms, 100-200 ms, 200-400 ms, 400 ms-1 sec, 1 sec-5 sec e intervalli di più di 5 secondi.
+
+Il grafico in basso a destra elenca i primi cinque set di dati in base al tempo medio di attesa necessario per avviare le query.
 
 #### <a name="datasets-area"></a>Area Datasets (Set di dati)
-
-![Pulsante Datasets (Set di dati)](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 L'area **Datasets** (Set di dati) visualizza i set di dati completi rimossi a causa di un utilizzo elevato della memoria su base oraria.
 
