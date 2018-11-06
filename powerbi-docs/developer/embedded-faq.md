@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: b50f3d5a3b01e32dcbaf80db5e25bd046c5e27a2
-ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
+ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46506800"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736965"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -92,7 +92,7 @@ Di seguito è riportato un elenco parziale con le differenze che è possibile us
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>In che modo è possibile monitorare il consumo della capacità di Power BI Embedded?
 
-* Utilizzo del [portale di amministrazione di Power BI](../service-admin-portal.md#power-bi-embedded-settings).
+* Utilizzo del [portale di amministrazione di Power BI](../service-admin-portal.md#power-bi-embedded).
 
 * Download dell'[app metrica](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI.
 

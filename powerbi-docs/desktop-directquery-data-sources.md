@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d37ed22c0abba4e843d37fd6df465f9a755fbdc6
-ms.sourcegitcommit: 126e5eca8bfab6273581dabd7603df88be755240
+ms.openlocfilehash: fee4acf21e38ddeaf78ff785d76b41c774c7022d
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "40257084"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909549"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origini dati supportate da DirectQuery in Power BI
 **Power BI Desktop** e il **servizio Power BI** dispongono di diverse origini dati a cui è possibile connettersi per accedere ai dati. Questo articolo descrive le origini dati per Power BI che supportano il metodo di connessione noto come **DirectQuery**. Per altre informazioni su DirectQuery, vedere [**DirectQuery in Power BI**](desktop-directquery-about.md).
@@ -23,11 +23,11 @@ ms.locfileid: "40257084"
 Le origini dati seguenti supportano DirectQuery in Power BI:
 
 * Amazon Redshift
-* Azure Databricks
 * Spark in Azure HDInsight (Beta)
 * Database SQL di Azure
 * Azure SQL Data Warehouse
 * Google BigQuery (Beta)
+* Database IBM DB2
 * IBM Netezza (Beta)
 * Impala (versione 2.x)
 * Database di Oracle (versione 12 e successive)
