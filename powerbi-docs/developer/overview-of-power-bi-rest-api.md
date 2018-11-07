@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973587"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223169"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?
 
@@ -29,7 +29,7 @@ Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 | Incorporare dashboard, report e riquadri per gli utenti di Power BI e per gli utenti che non usano Power BI (con dati di proprietà dell'app) |[Come incorporare i dashboard, i report e i riquadri di Power BI](embedding-content.md) |
 | Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. |[Eseguire il push dei dati in un dashboard](walkthrough-push-data.md) |
 | Eseguire l'autenticazione a Power BI. |[Eseguire l'autenticazione a Power BI](get-azuread-access-token.md) |
-| Creare un oggetto visivo personalizzato. |[Usare gli strumenti di sviluppo per la creazione di oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Creare un oggetto visivo personalizzato. |[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI) |
 
 > [!NOTE]
 > Le API di Power BI fanno ancora riferimento alle aree di lavoro per le app come gruppi. I riferimenti ai gruppi indicano che si stanno usando le aree di lavoro per le app.
@@ -72,7 +72,7 @@ Per un esempio completo dell'uso dell'API JavaScript, è possibile usare lo [str
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Eseguire il push dei dati in un set di dati](walkthrough-push-data.md)  
-[Introduzione agli strumenti di sviluppo per oggetti visivi personalizzati](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI)  
 [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

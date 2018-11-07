@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d7e1bfff4d2c7cbd2f49837e37f360ae49ad058c
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909874"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223215"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Esercitazione: Impostare gli avvisi per i dati nel servizio Power BI
 Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. 

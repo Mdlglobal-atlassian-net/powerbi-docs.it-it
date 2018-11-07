@@ -2,6 +2,7 @@
 title: Panoramica delle visualizzazioni dei report nel servizio Power BI e in Power BI Desktop
 description: Panoramica delle visualizzazioni dei report (oggetti visivi) in Microsoft Power BI.
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
@@ -9,16 +10,16 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: fedfbd8da9b0582c84224ef846cd0ba1c14d0683
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546166"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223238"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizzazioni nei report di Power BI
+
 Le visualizzazioni, note anche come oggetti visivi, mostrano informazioni dettagliate individuate nei dati. Un report di Power BI può includere una singola pagina con un oggetto visivo oppure più pagine con molti oggetti visivi. Nel servizio Power BI gli oggetti visivi possono essere [aggiunti dai report ai dashboard](../service-dashboard-pin-tile-from-report.md). 
 
 È importante notare la distinzione tra *autori* del report e *consumer* del report. L'autore è la persona che crea o modifica il report.  Gli autori hanno autorizzazioni di modifica per il report e per il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI è quindi possibile aprire il set di dati o il report nell'editor di report in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../consumer/end-user-shared-with-me.md), l'utente è un **consumer** del report. Sarà possibile visualizzare e interagire con il report e con i rispettivi oggetti visivi, ma non sarà possibile salvare le modifiche.
@@ -35,16 +36,21 @@ Per ampliare le opzioni, visitare il [sito della community di Microsoft AppSourc
   Se non si ha familiarità con Power BI o si ha bisogno di un ripasso, usare i collegamenti seguenti per apprendere le nozioni fondamentali delle visualizzazioni di Power BI.  In alternativa, usare il Sommario (sul lato sinistro di questo articolo) per trovare informazioni ancora più utili.
 
 ## <a name="add-a-visualization-in-power-bi"></a>Aggiungere una visualizzazione in Power BI
+
 [Creare visualizzazioni](power-bi-report-add-visualizations-i.md) nelle pagine dei report. Scorrere l'[elenco delle visualizzazioni disponibili e delle esercitazioni sulle visualizzazioni disponibili](power-bi-visualization-types-for-reports-and-q-and-a.md). 
 
 ## <a name="upload-a-custom-visualization-and-use-it-in-power-bi"></a>Caricare una visualizzazione personalizzata e usarla in Power BI
-Aggiungere una visualizzazione personalizzata creata dall'utente o trovata nel [sito della community di Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Approccio creativo Esaminare il codice sorgente e usare gli [strumenti di sviluppo](../service-custom-visuals-getting-started-with-developer-tools.md) per creare un nuovo tipo di visualizzazione e [condividerlo con la community](../developer/office-store.md)
+
+Aggiungere una visualizzazione personalizzata creata dall'utente o trovata nel [sito della community di Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Approccio creativo Esaminare il codice sorgente e usare gli [strumenti di sviluppo](../developer/custom-visual-develop-tutorial.md) per creare un nuovo tipo di visualizzazione e [condividerlo con la community](../developer/office-store.md)
 
 ## <a name="change-the-visualization-type"></a>Modificare il tipo di visualizzazione
+
 Provare a [modificare il tipo di visualizzazione](power-bi-report-change-visualization-type.md) per trovare quello più adatto ai propri dati.
 
 ## <a name="pin-the-visualization"></a>Aggiungere la visualizzazione
+
 Quando si ottiene la visualizzazione desiderata, nel servizio Power BI è possibile [aggiungerla a un dashboard](../service-dashboard-pin-tile-from-report.md) come riquadro. Se si modifica la visualizzazione usata nel report dopo l'aggiunta, il riquadro non subisce modifiche nel dashboard: se si tratta di un grafico a linee, rimane un grafico a linee, anche se nel report è stato modificato in un grafico ad anello.
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fee4acf21e38ddeaf78ff785d76b41c774c7022d
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909549"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223399"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origini dati supportate da DirectQuery in Power BI
 **Power BI Desktop** e il **servizio Power BI** dispongono di diverse origini dati a cui è possibile connettersi per accedere ai dati. Questo articolo descrive le origini dati per Power BI che supportano il metodo di connessione noto come **DirectQuery**. Per altre informazioni su DirectQuery, vedere [**DirectQuery in Power BI**](desktop-directquery-about.md).
