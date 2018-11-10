@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 2ea6f2e557f26358ab6a93d33c890e90c96885f4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6d494ebf00388478bea802dbb713f1025d428439
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34564651"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101233"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Come trovare il codice Product Key del server di report
 Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione.
@@ -47,7 +47,7 @@ Se si dispone di un contratto SQL Server Enterprise SA, è possibile ottenere il
 ## <a name="next-steps"></a>Passaggi successivi
 [Installare il server di report di Power BI](install-report-server.md)  
 [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
-[Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 8ec638eefa95ef70ab04606881bee421f82b7f11
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416798"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223322"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
@@ -74,7 +74,7 @@ Quando il dispositivo di scorrimento è impostato su Attivato, specificare i cam
 
 ![Aggiungere campi per determinare dove verrà visualizzata la descrizione comando](media/desktop-tooltips/desktop-tooltips_08.png)
  
-Nel bucket **Campi della descrizione comando** è possibile inserire campi sia categorici che numerici, incluse le misure.
+Nel bucket **Campi delle descrizioni comando** è possibile inserire campi sia categorici che numerici, incluse le misure.
 
 Al termine, la pagina del report di descrizione comando così creata verrà usata come descrizione comando negli oggetti visivi del report che usano i campi inseriti nel bucket **Campi della descrizione comando**, sostituendo la descrizione comando predefinita di Power BI.
 

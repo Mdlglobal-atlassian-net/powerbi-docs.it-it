@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62950462f60fea6db44a9756eff8f99a6841d1d4
-ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
+ms.openlocfilehash: 3881e37fa5e97939265e9bb9362cee65a1030e67
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "49435443"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100819"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Pubblicare app con dashboard e report in Power BI
 
@@ -63,7 +63,7 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
    
      ![Contenuto dell'app](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-5. In **Accesso** decidere chi avrà accesso all'app, ovvero tutti gli utenti dell'organizzazione, utenti specifici oppure gruppi di sicurezza di Active Directory. Se si hanno le opportune autorizzazioni, è possibile decidere di installare automaticamente l'app per i destinatari. È possibile abilitare questa impostazione nel [portale di amministrazione di Power BI](#how-to-enable-pushing-apps). Esistono altre considerazioni da fare sul [push di un'app](#how-to-enable-pushing-apps).
+5. In **Accesso** decidere chi avrà accesso all'app, ovvero tutti gli utenti dell'organizzazione, utenti specifici oppure gruppi di sicurezza di Active Directory. Se si hanno le opportune autorizzazioni, è possibile decidere di installare automaticamente l'app per i destinatari. Un amministratore di Power BI può abilitare questa impostazione nel portale di amministrazione di Power BI. Leggere altre informazioni sull'[installazione automatica di un'app](#how-to-install-an-app-automatically-for-end-users).
 
     ![Accesso all'app](media/service-create-distribute-apps/power-bi-apps-access.png)
 

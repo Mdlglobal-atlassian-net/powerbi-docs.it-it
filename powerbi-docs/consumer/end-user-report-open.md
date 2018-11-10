@@ -1,23 +1,23 @@
 ---
-title: Visualizzare un report nel servizio Power BI
-description: Aprire un report di Power BI nella visualizzazione di lettura.
+title: Visualizzare un report nel servizio Power BI per i consumer.
+description: Questo argomento illustra i metodi disponibili per i consumer e gli utenti finali di Power BI per aprire e visualizzare un report di Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 10/17/2018
 ms.author: mihart
-ms.openlocfilehash: 4d37c1389628078466d8fedb290d928c3f02e7d5
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112016"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396935"
 ---
-# <a name="view-a-report-in-power-bi-service-apppowerbicom"></a>Visualizzare un report nel servizio Power BI (app.powerbi.com)
-Un report è costituito da una o più pagine di oggetti visivi. I report vengono creati dai *progettisti* di Power BI e [condivisi con i consumer direttamente](end-user-shared-with-me.md) o nel contesto di un'[app](end-user-apps.md). 
+# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
+Un report è costituito da una o più pagine di oggetti visivi. I report vengono creati dai *designer* di Power BI e [condivisi con i *consumer* direttamente](end-user-shared-with-me.md) o nel contesto di un'[app](end-user-apps.md). 
 
 Esistono diversi modi per aprire un report e ne verranno illustrati due: apertura dalla home page e apertura da un dashboard. 
 
@@ -42,7 +42,7 @@ I *progettisti* di Power BI possono condividere un report direttamente con un ut
    
    ![Sezione Condivisi con l'utente corrente della home page](./media/end-user-report-open/power-bi-shared.png)
 
-4. È sufficiente selezionare una delle schede di report per aprire il report.
+4. È sufficiente selezionare una delle *schede* di report per aprire il report.
 
    ![Pagina del report](./media/end-user-report-open/power-bi-report1.png)
 
@@ -65,10 +65,10 @@ Se si ricevono app da colleghi o da AppSource, tali app sono disponibili dalla h
 
    ![Home page](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Selezionare una delle app per aprirla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard o un report. Se quando si seleziona l'app:
+8. Selezionare una delle app per aprirla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard, un report o un elenco del contenuto dell'app. Se quando si seleziona l'app:
     - Viene aperto il report, è tutto pronto.
     - Viene aperto un dashboard, vedere [Aprire un report da un dashboard](#Open-a-report-from-a-dashboard) di seguito.
-
+    - Viene aperto l'elenco del contenuto dell'app in **Report**, selezionare il report per aprirlo.
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Aprire un report da un dashboard
@@ -83,15 +83,15 @@ I report possono essere aperti da un dashboard. La maggior parte dei riquadri de
     ![Report aperto nella Visualizzazione di lettura](./media/end-user-report-open/power-bi-report-new.png)
 
 > [!NOTE]
-> Non tutti i riquadri portano a un report. Se si seleziona un riquadro [creato con Domande e risposte](../service-dashboard-pin-tile-from-q-and-a.md), verrà visualizzata la schermata Domande e risposte. Se si seleziona un riquadro [creato tramite il widget **Aggiungi riquadro** del dashboard](../service-dashboard-add-widget.md), verrà aperta la procedura guidata **Edit tile** (Modifica riquadro).  
+> Non tutti i riquadri portano a un report. Se si seleziona un riquadro [creato con Domande e risposte](end-user-q-and-a.md), verrà visualizzata la schermata Domande e risposte. Se si seleziona un riquadro [creato usando il widget **Aggiungi riquadro** del dashboard](../service-dashboard-add-widget.md), possono verificarsi varie situazioni.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Altri modi per aprire un report
 Quando si acquisisce maggiore esperienza nello spostamento in un servizio Power BI, sarà possibile individuare i flussi di lavoro ottimali per le proprie esigenze. Altri modi per accedere ai report:
 - Dal riquadro di spostamento a sinistra usando **Preferiti** e **Recenti**    
 - Tramite [Visualizza elementi correlati](end-user-related.md).    
-- In un messaggio di posta elettronica in caso di [condivisione con l'utente](../service-share-reports.md) o quando si [configura un avviso](../service-set-data-alerts.md)    
-- Dal [Centro notifiche] (end-user-notification-center.md)    
+- In un messaggio di posta elettronica in caso di [condivisione con l'utente](../service-share-reports.md) o quando si [configura un avviso](end-user-alerts.md)    
+- Dal [centro notifiche](end-user-notification-center.md).    
 - E altro ancora.
 
 ## <a name="next-steps"></a>Passaggi successivi

@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: dc3c80b2043024a694c4852da200eb503b10c28a
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b2e73621fe974da97e3a766fa25110522b36448b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337037"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223284"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novità dell'ultimo aggiornamento di Power BI Desktop
 
-## <a name="october-2018-update-2625222582"></a>Aggiornamento di ottobre 2018 (2.62.5222.582)
+## <a name="october-2018-update-263327240262"></a>Aggiornamento di ottobre 2018 (2.63.3272.40262)
 
 Gli aggiornamenti di ottobre sono incredibilmente validi, utili e interessanti. 
 
@@ -43,7 +43,7 @@ Gli aggiornamenti seguenti sono le novità di **Power BI Desktop** di questo mes
 * Miglioramenti delle prestazioni per la mappa ArcGIS [[video]](https://youtu.be/cT3L2VzgBRU?t=333)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
-### <a name="modeling"></a>Modellazione
+### <a name="modeling"></a>Creazione di modelli
 
 * Miglioramenti dell'editor DAX [[video]](https://youtu.be/GO1dhDJhSDY)  [[articolo]](desktop-formula-editor.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23daxEditor) 
 

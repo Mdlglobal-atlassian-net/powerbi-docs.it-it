@@ -10,181 +10,195 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 47c99e40b1665b98c33d16b685e359c10277a560
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336991"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435397"
 ---
-# <a name="composite-models-in-power-bi-desktop-preview"></a>Modelli compositi in Power BI Desktop (anteprima)
+# <a name="use-composite-models-in-power-bi-desktop-preview"></a>Usare i modelli compositi in Power BI Desktop (anteprima)
 
-In precedenza, quando si usava DirectQuery in un report in **Power BI Desktop**, non erano consentite altre connessioni dati se per tale report era consentita la modalità DirectQuery o Importa. Con i **modelli compositi** questa limitazione è stata eliminata e un report può includere senza problemi connessioni dati da più di una connessione dati DirectQuery o Importa, in qualsiasi combinazione scelta.
+In precedenza, quando si usava DirectQuery in un report in Power BI Desktop, non erano consentite altre connessioni dati se per tale report era consentita la modalità DirectQuery o Importa. Con i modelli compositi questa restrizione non esiste più. Un report può includere senza problemi connessioni dati da più di una connessione dati DirectQuery o Importa, in qualsiasi combinazione scelta.
 
-![modelli compositi in Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
+![Modelli compositi in Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
 
-La funzionalità dei **modelli compositi** in **Power BI Desktop** è costituita da tre funzionalità correlate:
+La funzionalità dei modelli compositi in Power BI Desktop è costituita da tre funzionalità correlate:
 
-* **Modelli compositi** - Consente a un report di avere più connessioni dati, tra cui connessioni DirectQuery o importazione, in qualsiasi combinazione.
-* **Relazioni molti-a-molti** - Con i **modelli compositi** è possibile stabilire **relazioni molti-a-molti** tra tabelle, rimuovendo i requisiti per i valori univoci nelle tabelle e annullando soluzioni alternative precedenti, come l'introduzione di nuove tabelle solo per stabilire relazioni. 
-* **Modalità di archiviazione** - È ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end e quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano l'invio di query alle origini di back-end. 
+* **Modelli compositi**: consente a un report di avere più connessioni dati, tra cui connessioni DirectQuery o Importa, in qualsiasi combinazione. Questo articolo descrive i modelli compositi in dettaglio.
 
-Questa raccolta delle tre funzionalità correlate per i **modelli compositi** è descritta in articoli separati:
+* **Relazioni molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni molti-a-molti* tra le tabelle. Questo approccio consente di rimuovere i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per altre informazioni, vedere [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md).
 
-* I **modelli compositi** sono descritti in dettaglio in questo articolo.
-* Le **relazioni molti-a-molti** sono descritte nell'articolo specifico [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md).
-* La **modalità di archiviazione** è descritta in un articolo a parte, [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md).
+* **Modalità di archiviazione**: ora è possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano query che venivano inviate alle origini back-end. Vedere [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md) per altre informazioni.
 
-## <a name="enabling-the-composite-models-preview-feature"></a>Abilitazione della funzionalità in anteprima dei modelli compositi
+## <a name="enable-the-composite-models-preview-feature"></a>Abilitare la funzionalità in anteprima dei modelli compositi
 
-La funzionalità dei **modelli compositi** è disponibile in anteprima e deve essere abilitata in **Power BI Desktop**. Per abilitare i **modelli compositi**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima** e quindi selezionare la casella di controllo **Modelli compositi**. 
+La funzionalità dei modelli compositi è disponibile in anteprima e deve essere abilitata in Power BI Desktop. Per abilitare i modelli compositi, selezionare **File** > **Opzioni e impostazioni** > **Opzioni** > **Funzionalità di anteprima** e quindi selezionare la casella di controllo **Modelli compositi**. 
 
-![abilitazione delle funzionalità in anteprima](media/desktop-composite-models/composite-models_02.png)
+![Riquadro funzionalità di anteprima](media/desktop-composite-models/composite-models_02.png)
 
-È necessario riavviare **Power BI Desktop** per rendere effettiva la modifica.
+Per abilitare la funzionalità, è necessario riavviare Power BI Desktop.
 
-![riavvio richiesto per rendere effettive le modifiche](media/desktop-composite-models/composite-models_03.png)
+![Finestra "La funzionalità richiede il riavvio"](media/desktop-composite-models/composite-models_03.png)
 
 
-## <a name="using-composite-models"></a>Uso dei modelli compositi
+## <a name="use-composite-models"></a>Usare i modelli compositi
 
-Con i **modelli compositi** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi quando si usa **Power BI Desktop** o il **servizio Power BI**. È possibile importare dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite DirectQuery. Altre informazioni dettagliate su DirectQuery sono disponibili nell'articolo [Uso di DirectQuery in Power BI](desktop-directquery-about.md).
+Con i modelli compositi è possibile connettersi a un'ampia gamma di origini dati quando si usa Power BI Desktop o il servizio Power BI. È possibile effettuare tali connessioni dati in due modi:
 
-Quando si usa DirectQuery, con i **modelli compositi** è possibile creare un modello di Power BI (ad esempio un singolo file di Power BI Desktop con estensione pbix) che esegue le operazioni seguenti:
+* Importando i dati in Power BI, che è il modo più comune per ottenere i dati.
+* Connettendosi direttamente ai dati nel relativo repository di origine tramite DirectQuery. Per altre informazioni su DirectQuery, vedere [Uso di DirectQuery in Power BI](desktop-directquery-about.md).
 
-* Combina i dati da una o più origini DirectQuery, e/o
-* Combina i dati da origini DirectQuery e dati importati
+Quando si usa DirectQuery, i *modelli compositi* consentono di creare un modello di Power BI (ad esempio un singolo file di Power BI Desktop *con estensione pbix*) che consente di eseguire una o entrambe le operazioni seguenti:
 
-Ad esempio, con I **modelli compositi** è possibile creare un modello che combina i dati di vendita da un data warehouse aziendale con i dati sugli obiettivi di vendita in un database di SQL Server di reparto, insieme ad alcuni dati importati da un foglio di calcolo. Un modello che combina dati da più di un'origine DirectQuery o combina origini DirectQuery con dati importati è noto come *modello composito*.
+* Combina i dati da una o più origini DirectQuery.
+* Combina i dati da origini DirectQuery e dati importati.
+
+Ad esempio, usando i modelli compositi è possibile creare un modello che combina i tipi di dati seguenti:
+
+* Dati di vendita da un data warehouse aziendale.
+* Dati di destinazione delle vendite da un database di SQL Server di reparto.
+* Dati importati da un foglio di calcolo. 
+
+Un modello che combina dati da più di un'origine DirectQuery o combina origini DirectQuery con dati importati è noto come *modello composito*.
 
 > [!NOTE]
-> A partire dalla versione di ottobre 2018 di **Power BI Desktop**, è *possibile* pubblicare modelli compositi nel servizio Power BI. Per l'aggiornamento pianificato e l'aggiornamento dei riquadri del dashboard, i modelli compositi nel servizio Power BI si comportano nello stesso modo dei modelli di importazione. 
+> A partire dalla versione di ottobre 2018 di Power BI Desktop, è *possibile* pubblicare modelli compositi nel servizio Power BI. Per l'aggiornamento pianificato e l'aggiornamento dei riquadri del dashboard, i modelli compositi nel servizio Power BI si comportano nello stesso modo dei modelli di importazione. 
 
-È possibile creare relazioni tra tabelle come sempre, anche quando le tabelle provengono da origini diverse, con la restrizione seguente: le relazioni tra origini diverse devono essere definite con la cardinalità **molti-a-molti**, indipendentemente dalla cardinalità effettiva. Il comportamento per queste relazioni è quindi uguale al normale per le relazioni **molti-a-molti**, come descritto in [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md). Si noti che nel contesto dei modelli compositi, tutte le tabelle importate rappresentano in effetti una singola origine, indipendentemente dall'effettiva origine dati sottostante da cui vengono importate.   
+È possibile creare relazioni tra tabelle come sempre, anche quando le tabelle provengono da origini diverse, con la restrizione seguente: le relazioni tra origini diverse devono essere definite con la cardinalità *molti-a-molti*, indipendentemente dalla cardinalità effettiva. Il comportamento per queste relazioni è quindi uguale al normale per le relazioni *molti-a-molti*, come descritto in [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md). 
 
-## <a name="example-of-using-composite-models"></a>Esempio di uso dei modelli compositi
+> [!NOTE]
+> Nel contesto dei modelli compositi, tutte le tabelle importate rappresentano in effetti una singola origine, indipendentemente dall'effettiva origine dati sottostante da cui vengono importate.   
 
-Come esempio di un **modello composito**, si consideri un report connesso a un data warehouse aziendale (in SQL Server) con DirectQuery, in cui il data warehouse contiene dati *Sales by Country*, *Quarter* e *Bike (Product)*, come illustrato nell'immagine seguente.
+## <a name="example-of-a-composite-model"></a>Esempio di un modello composito
 
-![visualizzazione delle relazioni per i modelli compositi](media/desktop-composite-models/composite-models_04.png)
+Per un esempio di *modello composito*, esaminare un report connesso a un data warehouse aziendale in SQL Server tramite DirectQuery. In questo caso, il data warehouse contiene i dati *Sales by Country* (Vendite per paese), *Quarter* (Trimestre) e *Bike (Product)* (Bici - Prodotto), come illustrato nell'immagine seguente:
 
-A questo punto è possibile creare oggetti visivi semplici usando i campi dall'origine. Ad esempio, l'oggetto visivo seguente mostra l'importo delle vendite totale per *ProductName*, per un trimestre selezionato. 
+![Visualizzazione delle relazioni per i modelli compositi](media/desktop-composite-models/composite-models_04.png)
 
-![oggetto visivo basato sui dati](media/desktop-composite-models/composite-models_05.png)
+A questo punto è possibile creare oggetti visivi semplici usando i campi da questa origine. Ad esempio, l'immagine seguente mostra il totale delle vendite per *ProductName*, per un trimestre selezionato. 
 
-Ma se invece fossero disponibili informazioni sul Product Manager assegnato a ogni prodotto, insieme alla priorità per il marketing, in forma di dati mantenuti aggiornati in un foglio di calcolo di Excel? Potrebbe essere utile visualizzare i valori *Sales Amount* in base a *Product Manager* e allo stesso tempo aggiungere questi dati locali al data warehouse aziendale probabilmente potrebbe non essere fattibile o nella migliore delle ipotesi richiederebbe mesi. Sebbene sia possibile importare i dati di vendita dal data warehouse (anziché tramite DirectQuery), e a questo punto potrebbero essere combinati con i dati importati dal foglio di calcolo, tale approccio non è ragionevole a causa di motivi che hanno portato prima di tutto a usare DirectQuery, come una qualche combinazione di regole di sicurezza applicata nell'origine sottostante, la necessità di essere in grado di visualizzare i dati più recenti e le dimensioni estese dei dati. 
+![Oggetto visivo basato sui dati](media/desktop-composite-models/composite-models_05.png)
 
-Questi sono le scenari in cui entrano in gioco i **modelli compositi**. I modelli compositi offrono la possibilità di connettersi al data warehouse usando DirectQuery e quindi anche di usare GetData per le origini aggiuntive. In questo caso viene stabilita la connessione DirectQuery al data warehouse aziendale e quindi si usa GetData e si sceglie Excel, si passa al foglio di calcolo che contiene i dati locali e si può importare il foglio contenente i valori *ProductName*, oltre ai dati *SalesManager* e *Priority* assegnati.  
+E se fossero disponibili dati in un foglio di calcolo di Office Excel sul responsabile del prodotto assegnato a ogni prodotto insieme alla relativa priorità di marketing? Se si vuole visualizzare l'importo delle vendite (*Sales Amount*) in base al responsabile del prodotto (*Product Manager*), potrebbe non essere possibile aggiungere questi dati locali nel data warehouse aziendale o nella migliore delle ipotesi potrebbero essere necessari dei mesi. 
+
+Potrebbe essere possibile importare i dati sulle vendite dal data warehouse, invece di usare DirectQuery. E i dati sulle vendite potrebbero quindi essere combinati con i dati importati dal foglio di calcolo. Tuttavia, questo approccio è irragionevole, per i motivi che conducono all'uso di DirectQuery in primo luogo. I motivi possono includere i seguenti:
+
+* Una combinazione delle regole di sicurezza applicate nell'origine sottostante.
+* La necessità di essere in grado di visualizzare i dati più recenti.
+* L'enorme quantità di dati. 
+
+Questi sono gli scenari in cui entrano in gioco i modelli compositi. I modelli compositi consentono di connettersi al data warehouse tramite DirectQuery e quindi di usare GetData per origini aggiuntive. In questo esempio, viene prima di tutto stabilita una connessione DirectQuery al data warehouse aziendale. Si usa GetData, si sceglie Excel e quindi si passa al foglio di calcolo che contiene i dati locali. Infine, si importa il foglio di calcolo che contiene i nomi dei prodotti (*ProductName*), il responsabile del prodotto assegnato (*Product Manager*) e la priorità (*Priority*).  
 
 ![Finestra Strumento di navigazione](media/desktop-composite-models/composite-models_06.png)
 
-Nell'elenco **Campi** sono ora visibili la tabella *Bike* originale (da SQL Server) e una nuova tabella *Product Managers* (con i dati importati da Excel). 
+Nell'elenco **Campi** è possibile visualizzare due tabelle: la tabella *Bike* originale da SQL Server e una nuova tabella **ProductManagers**. La nuova tabella contiene i dati importati da Excel. 
 
 ![Visualizzazione dei campi delle tabelle](media/desktop-composite-models/composite-models_07.png)
 
-Allo stesso modo, osservando la **visualizzazione Relazioni** in **Power BI Desktop** è ora disponibile una tabella aggiuntiva denominata *Product Managers*. 
+Allo stesso modo, nella visualizzazione **Relazioni** in Power BI Desktop è ora disponibile una tabella aggiuntiva denominata **ProductManagers**. 
 
-![visualizzazione delle relazioni delle tabelle](media/desktop-composite-models/composite-models_08.png)
+![Visualizzazione delle relazioni delle tabelle](media/desktop-composite-models/composite-models_08.png)
 
-È ora necessario correlare queste tabelle con le altre nel modello, procedendo come al solito, creando una relazione tra la tabella *Bike* (in SQL Server) e la tabella *Product Managers* (importata), come tra *Bike[ProductName]* e *ProductManagers[ProductName]*. Come illustrato in precedenza in questo articolo, tutte le relazioni attraverso l'origine devono avere la cardinalità **molti-a-molti** e di conseguenza, questa è la cardinalità predefinita selezionata. 
+È ora necessario mettere in relazione le tabelle con le altre tabelle nel modello. Come sempre, si crea una relazione tra la tabella **Bike** da SQL Server e la tabella **ProductManagers** importata. La relazione è tra *Bike[ProductName]* e *ProductManagers[ProductName]*. Come illustrato in precedenza, tutte le relazioni che attraversano l'origine devono avere la cardinalità predefinita *molti-a-molti*. 
 
-![finestra di dialogo per creare la relazione](media/desktop-composite-models/composite-models_09.png)
+![Finestra "Crea relazione"](media/desktop-composite-models/composite-models_09.png)
 
-Dopo averla creata, questa relazione viene visualizzata nella **visualizzazione Relazioni** in **Power BI Desktop**, come previsto.
+La relazione così stabilita è ora inclusa nella visualizzazione **Relazione** in Power BI Desktop, come prevedibile.
 
-![visualizzazione della nuova relazione](media/desktop-composite-models/composite-models_10.png)
+![Visualizzazione della nuova relazione](media/desktop-composite-models/composite-models_10.png)
 
-Dopo aver stabilito queste relazioni è ora possibile creare oggetti visivi usando uno dei campi nell'elenco **Campi** per combinare facilmente i dati da più origini. Ad esempio, l'oggetto visivo seguente mostra il valore totale di *Sales Amount* per ogni *Product Manager*. 
+È ora possibile creare oggetti visivi usando uno qualsiasi dei campi nell'elenco **Campi**. Questo approccio consente di unire facilmente i dati da più origini. Ad esempio, l'importo totale *SalesAmount* per ogni *Product Manager* viene visualizzato nell'immagine seguente: 
 
-![oggetto visivo con il riquadro dei campi visualizzato](media/desktop-composite-models/composite-models_11.png)
+![Riquadro Campi](media/desktop-composite-models/composite-models_11.png)
 
-Questo esempio illustra un caso comune di tabella delle *dimensioni* (come *Product* o *Customer*) estesa con alcuni dati aggiuntivi importati da un'altra posizione. È anche possibile usare DirectQuery nelle tabelle con una connessione a origini diverse. Per ampliare questo esempio, si immagini che i valori di *SalesTargets* per ogni *Country* e *Period* siano archiviati in un database di reparto separato. È possibile usare **GetData** per connettersi a tali dati come si consueto, come illustrato nell'immagine seguente. 
+L'esempio seguente mostra un caso comune di una tabella delle *dimensioni*, ad esempio *Product* oppure *Customer*, che viene estesa con dati aggiuntivi importati da altre origini. È anche possibile configurare le tabelle per l'uso di DirectQuery per connettersi a varie origini. Per continuare con questo esempio, si immagini che i valori di *SalesTargets* per ogni *Country* e *Period* siano archiviati in un database di reparto separato. È possibile usare *GetData* per connettersi a tali dati come di consueto, come illustrato nell'immagine seguente: 
 
-![Finestra di dialogo Strumento di navigazione](media/desktop-composite-models/composite-models_12.png)
+![Finestra Strumento di navigazione](media/desktop-composite-models/composite-models_12.png)
 
-Quindi, in modo analogo a come si è proceduto in precedenza in questo esempio, è possibile creare relazioni tra la nuova tabella e altre tabelle nel modello e creare oggetti visivi che combinano i dati. La figura seguente mostra ancora una volta la **visualizzazione Relazioni**, con nuove relazioni stabilite nello scenario di esempio esteso.
+Come in precedenza, è possibile creare relazioni tra la nuova tabella e altre tabelle nel modello e quindi creare oggetti visivi che combinano i dati delle tabelle. Di seguito è raffigurata di nuovo la visualizzazione **Relazioni** in cui sono state stabilite nuove relazioni:
 
-![visualizzazione delle relazioni con molte tabelle](media/desktop-composite-models/composite-models_13.png)
+![Visualizzazione Relazioni con molte tabelle](media/desktop-composite-models/composite-models_13.png)
 
-Come illustrato nell'immagine seguente, che si basa sui nuovi dati e le relazioni appena create, l'oggetto visivo nell'angolo in basso a sinistra mostra i valori totali per *Sales Amount* rispetto a *Target*, con il calcolo della varianza che mostra la differenza, in cui *Sales Amount* e *Target* provengono da due database di SQL Server diversi. 
+L'immagine successiva si basa sui nuovi dati e sulle nuove relazioni creati. L'oggetto visivo in basso a sinistra mostra il totale di *Sales Amount* rispetto al *Target* e il calcolo della varianza mostra la differenza. I dati *Sales Amount* e *Target* provengono da due database di SQL Server diversi. 
 
-![oggetto visivo che mostra altri dati](media/desktop-composite-models/composite-models_14.png)
+![Immagine che mostra altri dati](media/desktop-composite-models/composite-models_14.png)
 
-## <a name="setting-storage-mode"></a>Impostazione della modalità di archiviazione
+## <a name="set-the-storage-mode"></a>Impostare la modalità di archiviazione
 
-Ogni tabella in un **modello composito** ha una **modalità di archiviazione** che indica se la tabella è basata su DirectQuery o importazione. La **modalità di archiviazione** può essere visualizzata e modificata nel riquadro **Proprietà**. Per visualizzare questo riquadro, scegliere **Proprietà** dal menu di scelta rapida dell'elenco **Campi**. L'immagine seguente mostra la **modalità di archiviazione** (abbreviata in **Modalità...**  nell'immagine, a causa della larghezza del riquadro).
+Ogni tabella in un modello composito ha una modalità di archiviazione che indica se la tabella è basata su DirectQuery o importazione. La modalità di archiviazione può essere visualizzata e modificata nel riquadro **Proprietà**. Per visualizzare la modalità di archiviazione, fare clic con il pulsante destro del mouse su una tabella nell'elenco **Campi** e quindi scegliere **Proprietà**. L'immagine seguente illustra la modalità di archiviazione per la tabella **SalesTargets**.
 
 ![Impostazione della modalità di archiviazione](media/desktop-composite-models/composite-models_15.png)
 
-La **modalità di archiviazione** è anche visibile nella descrizione comando per ogni tabella.
+La modalità di archiviazione può anche essere visualizzata nella descrizione comando per ogni tabella.
 
-![descrizione comando con la modalità di archiviazione](media/desktop-composite-models/composite-models_16.png)
+![Descrizione comando che visualizza la modalità di archiviazione](media/desktop-composite-models/composite-models_16.png)
 
-Per qualsiasi file di **Power BI Desktop** (con estensione pbix) che contiene alcune tabelle da DirectQuery e alcune tabelle importate, la barra di stato mostra la **modalità di archiviazione** **Mista**. È possibile fare clic su tale termine nella barra di stato e passare facilmente a tutte le tabelle da importare.
+Per qualsiasi file di Power BI Desktop (con estensione *pbix*) che contiene alcune tabelle da DirectQuery e alcune tabelle importate importazione, la barra di stato visualizza la modalità di archiviazione **Mista**. È possibile fare clic su tale termine nella barra di stato e passare facilmente a tutte le tabelle da importare.
 
-Informazioni dettagliate e complete sulla **modalità di archiviazione** sono disponibili nell'articolo [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md).  
+Per altre informazioni sulla modalità di archiviazione, vedere [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md).  
 
 ## <a name="calculated-tables"></a>Tabelle calcolate
 
-Le tabelle calcolate possono essere aggiunte a un modello che usa DirectQuery e le espressioni DAX che definiscono la tabella calcolata possono fare riferimento a tabelle importate o DirectQuery oppure a una combinazione di entrambe. 
+È possibile aggiungere tabelle calcolate a un modello che usa DirectQuery. Le espressioni DAX (Data Analysis Expression) che definiscono la tabella calcolata possono fare riferimento a tabelle importate o che usano DirectQuery o a una combinazione delle due. 
 
-Le tabelle calcolate vengono sempre importate e i dati in queste tabelle vengono aggiornati quando viene aggiornata la tabella. Per questo motivo, se una tabella calcolata fa riferimento a una tabella DirectQuery, gli oggetti visivi che fanno riferimento alla tabella DirectQuery mostrano sempre i valori più recenti nella tabella sottostante, ma gli oggetti visivi che fanno riferimento alla tabella calcolata mostrano i valori al momento dell'ultimo aggiornamento della tabella calcolata.
+Le tabelle calcolate vengono sempre importate e i dati vengono aggiornati quando si aggiornano le tabelle. Se una tabella calcolata fa riferimento a una tabella DirectQuery, gli oggetti visivi che fanno riferimento alla tabella DirectQuery mostrano sempre i valori più recenti nell'origine sottostante. In alternativa, gli oggetti visivi che fanno riferimento alla tabella calcolata mostrano i valori al momento dell'ultimo aggiornamento della tabella calcolata.
 
 ## <a name="security-implications"></a>Implicazioni per la sicurezza 
 
-Per i modelli compositi esistono alcune implicazioni per la sicurezza. Una query inviata a un'origine dati può includere valori di dati che sono stati recuperati da un'altra origine diversa. Con riferimento all'esempio descritto in precedenza in questo articolo, l'oggetto visivo che mostra i valori *Sales Amount* in base a *Product Manager* causerà l'invio di una query SQL al database relazionale **Sales** e tale query SQL potrebbe contenere i nomi di *Product Manager* e i valori *Product* associati. 
+Per i modelli compositi esistono alcune implicazioni per la sicurezza. Una query inviata a un'origine dati può includere valori di dati recuperati da un'altra origine. Nell'esempio precedente, l'oggetto visivo che mostra *Sales Amount* per *Product Manager* invia una query SQL al database relazionale **Sales**. Tale query SQL potrebbe contenere i nomi di *Product Manager* e dei *Product* associati. 
 
-![script che mostra le implicazioni per la sicurezza](media/desktop-composite-models/composite-models_17.png)
+![Script che mostra le implicazioni per la sicurezza](media/desktop-composite-models/composite-models_17.png)
 
-Per questo motivo, le informazioni archiviate nel foglio di calcolo vengono ora incluse in una query inviata al database relazionale. Se queste informazioni sono riservate, occorre tenere conto delle implicazioni per la sicurezza. In particolare, è necessario considerare le implicazioni seguenti:
+Per questo motivo, le informazioni archiviate nel foglio di calcolo vengono ora incluse in una query inviata al database relazionale. Se queste informazioni sono riservate, è necessario considerare le implicazioni per la sicurezza. In particolare, tenere conto dei punti seguenti:
 
-* Qualsiasi amministratore del database che può visualizzare le tracce o i log di controllo sarà in grado di visualizzare queste informazioni, anche se non ha le autorizzazioni per questi dati nell'origine (in questo caso, le autorizzazioni per il file di Excel).
+* Qualsiasi amministratore del database che può visualizzare le tracce o i log di controllo può visualizzare queste informazioni, anche senza autorizzazioni per i dati nell'origine iniziale. In questo esempio, l'amministratore dovrebbe avere le autorizzazioni per il file di Excel.
 
-* Devono essere considerate le impostazioni di crittografia per ogni origine, per evitare che le informazioni vengano recuperate da un'origine tramite una connessione crittografata, ma vengano poi incluse inavvertitamente in una query inviata a un'altra origine usando una connessione non crittografata. 
+* Devono essere considerate le impostazioni di crittografia per ogni origine. È opportuno evitare il recupero di informazioni da un'origine tramite una connessione crittografata per poi includerle inavvertitamente in una query che viene inviata a un'altra origine tramite una connessione non crittografata. 
 
-**Power BI Desktop** visualizza un messaggio di avviso quando viene eseguita un'azione per creare un modello composito, per ottenere una conferma che sono state prese in considerazione le implicazioni per la sicurezza.  
+Per ottenere una conferma che sono state prese in considerazione le implicazioni per la sicurezza, Power BI Desktop visualizza un messaggio di avviso quando viene creato un modello composito.  
 
-Per motivi analoghi, è necessario prestare attenzione quando si apre un file di **Power BI Desktop** inviato da un'origine non attendibile. Se tale file contiene modelli compositi, significa che le informazioni recuperate da un'origine (usando le credenziali dell'utente che apre il file) vengono inviate a un'altra origine dati come parte della query (in cui sono potenzialmente visibili per l'autore malintenzionato del file di Power BI Desktop). Per questo motivo, quando si apre un file di Power BI Desktop per la prima volta, se contiene più origini, viene visualizzato un avviso. Questo avviso è simile a quello visualizzato quando si apre un file che contiene query SQL native.  
+Per motivi analoghi, prestare attenzione quando si apre un file di Power BI Desktop inviato da un'origine non attendibile. Se il file contiene modelli compositi, le informazioni recuperate da qualcuno da un'origine con le credenziali dell'utente che apre il file verrebbero inviate a un'altra origine dati come parte della query. Le informazioni potrebbero essere visualizzate dall'autore malintenzionato del file di Power BI Desktop. Pertanto, quando si apre inizialmente un file di Power BI Desktop che contiene più origini, Power BI Desktop visualizza un avviso. Questo avviso è simile a quello visualizzato quando si apre un file che contiene query SQL native.  
 
 ## <a name="performance-implications"></a>Implicazioni per le prestazioni  
 
-Quando si usa DirectQuery, occorre tenere sempre conto delle prestazioni, principalmente per garantire che l'origine back-end abbia risorse sufficienti per offrire una buona esperienza agli utenti. Con buona esperienza si intende che gli oggetti visivi dovrebbero essere aggiornati entro 5 secondi. È anche necessario attenersi ai consigli per le prestazioni nell'articolo [Uso di DirectQuery in Power BI](desktop-directquery-about.md). L'uso dei modelli compositi comporta altre considerazioni per le prestazioni, perché un singolo oggetto visivo può causare l'invio di query a più origini, spesso con il passaggio dei risultati da una query a una seconda origine. Questa situazione può portare alle possibili forme di esecuzione seguenti:
+Quando si usa DirectQuery, occorre tenere sempre conto delle prestazioni, principalmente per garantire che l'origine back-end abbia risorse sufficienti per offrire una buona esperienza agli utenti. Un'esperienza ottimale significa che gli oggetti visivi vengono aggiornati in massimo cinque secondi. È anche consigliabile seguire i consigli per le prestazioni nell'articolo [Uso di DirectQuery in Power BI](desktop-directquery-about.md). 
 
-* **Una query SQL che include un numero elevato di valori letterali** - Ad esempio, un oggetto visivo che richiede il totale di *Sales Amount* (dal database SQL) per un set di *Product Managers* selezionati (dalla tabella correlata importata da un foglio di calcolo) deve prima di tutto individuare quali *Product* sono gestiti dai Product Manager selezionati, prima di inviare una query SQL che include tutti gli ID di prodotto in una clausola *WHERE*.
+Esistono considerazioni aggiuntive per le prestazioni di cui tenere conto quando si usano i modelli compositi. Un singolo oggetto visivo può comportare l'invio di query a più origini, operazione che implica spesso il passaggio dei risultati da una query attraverso una seconda origine. Questa situazione può portare alle forme di esecuzione seguenti:
 
-* **Una query SQL eseguita a un livello inferiore di granularità, con i dati che vengono aggregati in locale** - L'uso dello stesso esempio come nel punto precedente di questo elenco, quando il numero di *Product* che soddisfano il filtro per *Product Managers* diventa molto elevato, a un certo punto diventa inefficiente o non fattibile includerli tutti in una clausola *WHERE*. È invece necessario eseguire una query sull'origine relazionale al livello inferiore di *Product* e quindi aggregare i risultati in locale. Se la cardinalità di *Product* supera il limite di 1 milione, la query avrà esito negativo.
+* **Una query SQL che include un numero elevato di valori letterali**: ad esempio, un oggetto visivo che richiede il totale di *Sales Amount* per un set di *Product Manager* selezionati dovrebbe prima di tutto trovare i *Product* gestiti da tali responsabili di prodotto. Questa sequenza deve essere eseguita prima che l'oggetto visivo invii una query SQL che include tutti gli ID di prodotto in una clausola *WHERE*.
 
-* **Più query SQL, una per ogni valore di raggruppamento** - Quando l'aggregazione usa **DistinctCount**, con raggruppamento in base a una colonna dall'altra origine, se l'origine esterna non supporta il passaggio efficiente di molti valori letterali che definiscono il raggruppamento, è necessario inviare una query SQL per ogni valore di raggruppamento. Ad esempio, un oggetto visivo che richiede il conteggio di valori univoci per *CustomerAccountNumber* (dalla tabella di SQL Server) in base a *Product Manager* (dalla tabella correlata importata da un foglio di calcolo) dovrebbe passare i dettagli dalla tabella *Product Managers* nella query inviata a SQL Server. Su altre origini, ad esempio Redshift, questo non è fattibile e ci sarebbe invece una sola query SQL inviata per ogni *Sales Manager* (fino a un limite pratico e a tal punto la query avrebbe esito negativo). 
+* **Una query SQL che esegue una query a un livello inferiore di granularità, con i dati aggregati in locale**: man mano che aumenta il numero di *Product* che soddisfano i criteri di filtro per *Product Manager*, può diventare inefficiente o non fattibile includere tutti i prodotti in una clausola *WHERE*. È invece possibile eseguire una query sull'origine relazionale al livello inferiore di *Product* e quindi aggregare i risultati in locale. Se la cardinalità di *Product* supera il limite di 1 milione, la query ha esito negativo.
 
-Per ognuno di questi casi esistono implicazioni specifiche per le prestazioni e i dettagli esatti variano per ogni origine dati. È buona norma tenere presente che mentre la cardinalità delle colonne usate nella relazione di join tra due origini rimane bassa (poche migliaia), non dovrebbero esserci effetti significativi sulle prestazioni. Con l'aumento della cardinalità, è consigliabile prestare maggiore attenzione agli effetti sulle prestazioni risultanti. 
+* **Più query SQL, una per ogni valore di raggruppamento**: quando l'aggregazione usa **DistinctCount**, con raggruppamento in base a una colonna dall'altra origine, se l'origine esterna non supporta il passaggio efficiente di molti valori letterali che definiscono il raggruppamento, è necessario inviare una query SQL per ogni valore di raggruppamento. 
 
-Inoltre, l'uso delle relazioni **molti-a-molti** significa che è necessario inviare query separate all'origine sottostante per ogni livello totale/subtotale, anziché aggregare i valori dettagliati in locale. Per questo motivo, un oggetto visivo tabella semplice con totali invierebbe due query SQL, anziché una. 
+   Ad esempio, un oggetto visivo che richiede il conteggio di valori univoci per *CustomerAccountNumber* (dalla tabella di SQL Server) in base a *Product Manager* (importato dal foglio di calcolo) dovrebbe passare i dettagli dalla tabella *Product Managers* nella query inviata a SQL Server. Su altre origini (Redshift, ad esempio), questa azione non è fattibile. Al contrario, verrebbe inviata una query SQL per ogni *Product Manager* fino a un limite pratico e la query avrebbe poi esito negativo. 
+
+Per ognuno di questi casi esistono implicazioni specifiche per le prestazioni e i dettagli esatti variano per ogni origine dati. Anche se la cardinalità delle colonne usate nella relazione che unisce le due origini resta ridotta (alcune migliaia), non dovrebbero esserci effetti sulle prestazioni. Man mano che aumenta la cardinalità, è necessario prestare maggiore attenzione all'impatto sulle prestazioni risultanti. È buona norma applicare queste linee guida. 
+
+Inoltre, l'uso delle relazioni *molti-a-molti* significa che è necessario inviare query separate all'origine sottostante per ogni livello totale o subtotale, anziché aggregare i valori dettagliati in locale. Un oggetto visivo tabella semplice con totali invierebbe due query SQL, anziché una. 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
-Esistono alcune limitazioni per questa versione dei **modelli compositi**.
+Esistono alcune limitazioni per questa versione dei modelli compositi.
 
-Non è possibile usare **modelli compositi** con le origini Live Connect (multidimensionali) seguenti:
+Le origini Live Connect (multidimensionali) seguenti non possono essere usate con i modelli compositi:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Set di dati Power BI
-* Analysis Services
+* Azure Analysis Services
 
-Quando ci si connette a tali origini multidimensionali tramite DirectQuery, non è neanche possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
+Quando ci si connette a queste origini multidimensionali tramite DirectQuery, non è possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 
-Le limitazioni esistenti per l'uso di DirectQuery sono valide anche quando si usano i **modelli compositi**. Molte di queste limitazioni si riferiscono attualmente a ogni singola tabella, a seconda della **modalità di archiviazione** della tabella. Ad esempio, una colonna calcolata per una tabella importata può fare riferimento ad altre tabelle, ma una colonna calcolata per una tabella di DirectQuery è ancora limitata e può fare riferimento solo alle colonne nella stessa tabella. Altre limitazioni si applicano al modello nel suo complesso, se una qualsiasi delle tabelle all'interno del modello è in modalità DirectQuery. Ad esempio, le funzionalità **Informazioni rapide** e **Domande e risposte** non sono disponibili per un modello se per una delle tabelle all'interno di esso è impostata la **modalità di archiviazione** DirectQuery. 
+Le limitazioni esistenti per DirectQuery sono valide anche quando si usano i modelli compositi. Molte di queste limitazioni si riferiscono attualmente a ogni singola tabella, a seconda della modalità di archiviazione della tabella. Ad esempio, una colonna calcolata per una tabella di importazione può fare riferimento ad altre tabelle, ma una colonna calcolata per una tabella di DirectQuery può fare riferimento solo alle colonne nella stessa tabella. Altre limitazioni si applicano al modello nel suo complesso, se una qualsiasi delle tabelle all'interno del modello è in modalità DirectQuery. Ad esempio, le funzionalità Informazioni rapide e Domande e risposte non sono disponibili per un modello se per una delle tabelle all'interno di esso è impostata la modalità di archiviazione DirectQuery. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Gli articoli seguenti includono ulteriori informazioni sui modelli compositi e descrivono anche la modalità DirectQuery in modo dettagliato.
-
+Per altre informazioni sui modelli compositi e DirectQuery, vedere gli articoli seguenti:
 * [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md)
 * [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md)
-
-Articoli su DirectQuery:
-
 * [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 * [Origini dati supportate da DirectQuery in Power BI](desktop-directquery-data-sources.md)
 

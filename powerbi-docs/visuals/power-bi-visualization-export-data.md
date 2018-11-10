@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d042119a95cb60f930a0535e93b0a50ee9224da3
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: af39332bdc1c9e1529d56f55215b0b32ab86f3e7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112267"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396811"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
-È possibile visualizzare in Power BI i dati usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv.   
+È possibile visualizzare in Power BI i dati usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. 
 
 Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel report, salvati come file XLSX e aperti in Excel. Seguire quindi le istruzioni successive per sotto il video per fare una prova in prima persona.
 
@@ -92,9 +92,12 @@ I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Pe
 
 ### <a name="set-the-export-options"></a>Impostare le opzioni di esportazione
 I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Le scelte disponibili sono:
-- Consentire l'esportazione solo dei dati di riepilogo (impostazione predefinita per i report) 
-- Consentire l'esportazione dei dati di riepilogo e sottostanti  
+- Consentire l'esportazione solo dei dati di riepilogo (impostazione predefinita per i nuovi report) 
+- Consentire l'esportazione dei dati di riepilogo e sottostanti (questa era l'impostazione predefinita prima di ottobre 2018) 
 - Non consentire l'esportazione dei dati  
+
+    > [!IMPORTANT]
+    > Si consiglia ai progettisti di report di ricontrollare i report esistenti e reimpostare manualmente l'opzione di esportazione in base alle esigenze.
 
 1. Per impostare queste opzioni, avviare Power BI Desktop.
 

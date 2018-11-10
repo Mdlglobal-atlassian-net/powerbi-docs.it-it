@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548144"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101210"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Connettersi ai log di controllo di Azure con Power BI
 Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare e visualizzare le informazioni archiviate nei log di controllo. Power BI recupera i dati, crea un dashboard predefinito e report basati su tali dati.
@@ -32,7 +32,7 @@ Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare 
 3. Selezionare **Log di controllo di Azure**  > **Recupera**.  
    
    ![](media/service-connect-to-azure-audit-logs/azureauditlogs.png)
-4. Quando richiesto, immettere l' **ID sottoscrizione di Azure**. Di seguito sono riportate informazioni dettagliate su come trovare il proprio [ID sottoscrizione](#FindingParams).   
+4. Quando richiesto, immettere l'**ID sottoscrizione di Azure**. Di seguito sono riportate informazioni dettagliate su come trovare il proprio [ID sottoscrizione](#FindingParams).   
    
     ![](media/service-connect-to-azure-audit-logs/parameters.png)
 5. In **Metodo di autenticazione** selezionare **oAuth2** \> **Accedi**.
@@ -53,7 +53,7 @@ Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare 
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="system-requirements"></a>Requisiti di sistema
-Il pacchetto di contenuto Log di controllo di Azure richiede l'accesso ai log di controllo nel portale di Azure. Altre informazioni sono disponibili [qui](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
+Il pacchetto di contenuto Log di controllo di Azure richiede l'accesso ai log di controllo nel portale di Azure. Altre informazioni sono disponibili [qui](/azure/azure-resource-manager/resource-group-audit/).
 
 <a name="FindingParams"></a>
 

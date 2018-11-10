@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
+ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336807"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49952212"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Acquisire dati da una pagina Web fornendo un esempio
 
@@ -51,6 +51,8 @@ Facendo clic su **Estrai la tabella usando gli esempi**, compare una finestra in
 In questo esempio verranno estratti il *nome* e il *prezzo* per ognuno dei giochi presenti nella pagina. È possibile eseguire questa operazione specificando un paio di esempi dalla pagina per ogni colonna, come illustrato nella figura seguente. Di pari passo con l'inserimento di questi esempi, **Power Query** (ovvero la tecnologia sottostante che estrae i dati dalla pagina Web) è in grado di estrarre i dati che corrispondono allo schema delle voci di esempio usando algoritmi avanzati di estrazione dei dati.
 
 ![Dati da un esempio](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+
+> Nota: i suggerimenti di valore includono solo valori minori o uguali a 128 caratteri di lunghezza.
 
 Quando l'estrazione dei dati dalla pagina Web è conclusa, scegliere **OK** per andare all'**Editor di query**, in cui è possibile applicare altre trasformazioni o definire nuove forme per i dati, ad esempio combinandoli con altri dati o altre origini.
 

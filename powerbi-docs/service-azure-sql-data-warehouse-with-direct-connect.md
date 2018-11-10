@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 0f2c3649a2c6e0582fe7536473f7a6ee9067ee1d
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 347a56f75fa7ea9008539e3d75d094d0c22c69d1
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137446"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101302"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
-Azure SQL Data Warehouse con DirectQuery consente di creare report dinamici basati su dati e metriche già presenti in Azure SQL Data Warehouse. Con DirectQuery, le query vengono reinviate ad Azure SQL Data Warehouse in tempo reale durante l'esplorazione dei dati. Questa funzionalità, unita alla scalabilità di SQL Data Warehouse, consente agli utenti di creare in pochi minuti report dinamici in base a svariati terabyte di dati. Per di più, l'introduzione del pulsante **Apri in Power BI** consente agli utenti di connettere Power BI direttamente ad SQL Data Warehouse senza dover specificare manualmente le informazioni.
+Azure SQL Data Warehouse con DirectQuery consente di creare report dinamici basati su dati e metriche già presenti in Azure SQL Data Warehouse. Con DirectQuery, le query vengono reinviate ad Azure SQL Data Warehouse in tempo reale durante l'esplorazione dei dati. Le query in tempo reale, unite alla scalabilità di SQL Data Warehouse, consentono agli utenti di creare in pochi minuti report dinamici in base a svariati terabyte di dati. Per di più, l'introduzione del pulsante **Apri in Power BI** consente agli utenti di connettere Power BI direttamente ad SQL Data Warehouse senza dover specificare manualmente le informazioni.
 
 Quando si usa il connettore SQL Data Warehouse:
 
 * Specificare il nome completo del server durante la connessione (vedere di seguito per i dettagli)
 * Verificare che le regole firewall per il server siano configurate su "Consenti l'accesso a Servizi di Azure"
 * A ogni azione, come la selezione di una colonna o l'aggiunta di un filtro, verrà inviata una query direttamente al data warehouse
-* I riquadri vengono aggiornati all'incirca ogni 15 minuti.  L'aggiornamento non deve essere pianificato È possibile regolare questo intervallo nelle impostazioni avanzate al momento della connessione.
+* I riquadri vengono aggiornati all'incirca ogni 15 minuti.  È possibile regolare questo intervallo nelle impostazioni avanzate al momento della connessione.
 * La funzione Domande e risposte non è disponibile per i set di dati di DirectQuery
 * Le modifiche allo schema non vengono selezionate automaticamente
 
@@ -37,9 +37,9 @@ Queste restrizioni e note possono cambiare dal momento che le esperienze vengono
 > La connettività ad Azure SQL Data Warehouse è stata migliorata.  Per connettersi in modo ottimale all'origine dati di Azure SQL Data Warehouse, usare Power BI Desktop.  Dopo avere compilato il modello e il report, è possibile pubblicarlo nel servizio Power BI.  Il connettore diretto per Azure SQL Data Warehouse nel servizio Power BI ora è deprecato.
 >
 
-Il modo più semplice per spostarsi tra SQL Data Warehouse e Power BI consiste nell'usare il pulsante **Apri in Power BI** nel portale di anteprima di Azure, che consente di iniziare a creare facilmente nuovi dashboard in Power BI.
+Il modo più semplice per spostarsi tra SQL Data Warehouse e Power BI consiste nell'usare il pulsante **Apri in Power BI** nel portale di Azure, che consente di iniziare a creare facilmente nuovi dashboard in Power BI.
 
-1. Per iniziare, passare all'istanza di SQL Data Warehouse nel portale di anteprima di Azure. Si noti che al momento SQL Data Warehouse è presente solo nel portale di anteprima di Azure.
+1. Per iniziare, passare all'istanza di SQL Data Warehouse nel portale di Azure. Si noti che al momento SQL Data Warehouse è presente solo nel portale di anteprima di Azure.
 2. Fare clic sul pulsante **Apri in Power BI**
    
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
@@ -78,7 +78,7 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
     ![](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Trovare i valori dei parametri
-I nomi completi del server e del database sono disponibili nel portale di anteprima di Azure. Si noti che al momento SQL Data Warehouse è presente solo nel portale di anteprima di Azure.
+I nomi completi del server e del database sono disponibili nel portale di Azure. Si noti che al momento SQL Data Warehouse è presente solo nel portale di anteprima di Azure.
 
 ![](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
@@ -89,6 +89,6 @@ I nomi completi del server e del database sono disponibili nel portale di antepr
 ## <a name="next-steps"></a>Passaggi successivi
 [Che cos'è Power BI?](power-bi-overview.md)  
 [Recuperare dati per Power BI](service-get-data.md)  
-[Azure SQL Data Warehouse](https://azure.microsoft.com/documentation/services/sql-data-warehouse/)  
+[Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

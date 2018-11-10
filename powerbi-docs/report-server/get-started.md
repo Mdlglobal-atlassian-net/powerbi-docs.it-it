@@ -4,18 +4,18 @@ description: Una panoramica su Server di Report di Power BI e sulla sua interazi
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 10/24/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 95a97c86ae7d17091b49fbf33cf5ec0d26053c3e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294572"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101396"
 ---
 # <a name="what-is-power-bi-report-server"></a>Che cos'è Server di report di Power BI?
 
@@ -28,6 +28,9 @@ Server di report di Power BI è simile a SQL Server Reporting Services e al serv
 
 ## <a name="licensing-power-bi-report-server"></a>Licenze di Server di report di Power BI
 Server di report di Power BI è disponibile tramite due diverse licenze: [Power BI Premium](../service-premium.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licenza di Power BI Premium è possibile creare una distribuzione ibrida cloud e locale.  
+
+> [!NOTE]
+> Per Power BI Premium, Server di report di Power BI è incluso solo con gli SKU P. Non è incluso con gli SKU EM.
 
 ## <a name="web-portal"></a>Portale Web
 Il punto di ingresso a Server di report di Power BI è un portale Web sicuro che può essere visualizzato in qualsiasi browser moderno. Qui è possibile accedere a tutti i report e agli indicatori KPI. Il contenuto sul portale Web è organizzato in una gerarchia di cartelle tradizionale. All'interno delle cartelle, il contenuto del portale è organizzato per tipo: report di Power BI, report per dispositivi mobili, report impaginati, indicatori KPI e cartelle di lavoro di Excel, più set di dati condivisi e origini dati condivise da usare come componenti essenziali per i propri report. È possibile contrassegnare gli elementi preferiti per visualizzarli in un'unica cartella. e creare direttamente gli indicatori KPI 
@@ -66,7 +69,7 @@ Altra [documentazione per sviluppatori di server di report](https://docs.microso
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Installare il server di report di Power BI](install-report-server.md)  
-[Installare Generatore report](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

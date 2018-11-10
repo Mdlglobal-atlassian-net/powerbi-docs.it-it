@@ -106,6 +106,8 @@ items:
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Personalizzare il riquadro, lo sfondo e la legenda della visualizzazione
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
+    - name: Risolvere i problemi degli elementi visivi personalizzati
+      href: power-bi-custom-visuals-troubleshoot.md
     - name: Connettersi ai dati
       items:
       - name: Origini dati in Power BI Desktop
@@ -908,8 +910,6 @@ items:
       items:
       - name: Dev Center
         href: https://powerbi.microsoft.com/developers/
-      - name: Creare un oggetto visivo con Strumenti di sviluppo
-        href: service-custom-visuals-getting-started-with-developer-tools.md
       - name: Esempi
         href: https://microsoft.github.io/PowerBI-visuals/samples/
       - name: Archivio GIT di oggetti visivi personalizzati
@@ -964,7 +964,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: Download SDK .NET
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: Server di report Power BI
+- name: Server di report di Power BI
   items:
   - name: Panoramica
     items:
@@ -1203,9 +1203,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: fffb456fe7ad9648b27a1106e9a4cb6401b5f56b
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: a0d2f9e2fcf26f3eca516a1204c9d25a9225010f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909710"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223192"

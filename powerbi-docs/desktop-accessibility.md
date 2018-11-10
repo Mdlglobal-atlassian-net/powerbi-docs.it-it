@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336876"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223376"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -34,6 +34,8 @@ A partire dalla versione di settembre 2017 di **Power BI Desktop**, è possibile
 
 Grazie ai miglioramenti dell'accessibilità, è possibile usare un report di Power BI con la tastiera o l'utilità di lettura dello schermo servendosi delle tecniche seguenti:
 
+Quando si visualizza un report, in genere la modalità di analisi deve essere disattivata.
+
 È possibile spostare lo stato attivo tra le schede della pagina del report o gli oggetti in una determinata pagina del report, usando **CTRL+F6**.
 
 * Quando le *schede della pagina del report* sono attive, usare i tasti di *tabulazione* o le *frecce* per spostare lo stato attivo da una pagina del report a quella successiva. Il titolo della pagina del report, se selezionato, viene letto dall'utilità di lettura dello schermo. Per caricare la pagina del report attualmente attiva, utilizzare tasto *Invio* o la *barra dello spazio*.
@@ -48,7 +50,7 @@ Durante lo spostamento tra gli oggetti visivi, per interagire ulteriormente, è 
 ![Premere Alt + Maiusc + F11 in Power BI Desktop per visualizzare una finestra Visualizza dati accessibile per un oggetto visivo](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> La funzionalità di visualizzazione dei dati è accessibile solo da un'utilità per la lettura dello schermo usando questo tasto di scelta rapida. Se si apre la finestra Visualizza dati usando l'opzione nell'intestazione dell'oggetto visivo, non sarà accessibile per un'utilità per la lettura dello schermo.
+> La funzionalità di visualizzazione dei dati è accessibile solo da un'utilità per la lettura dello schermo usando questo tasto di scelta rapida. Se si apre la finestra Visualizza dati usando l'opzione nell'intestazione dell'oggetto visivo, non sarà accessibile per un'utilità per la lettura dello schermo. Se si usa l'opzione Mostra i dati, attivare la modalità di analisi per sfruttare tutti i tasti di scelta rapida offerti dal lettore di schermata.
 
 A partire dalla versione di luglio 2018 di **Power BI Desktop**, la funzionalità di accessibilità è incorporata nei filtri dei dati. Quando si seleziona un filtro dei dati, per modificare il valore di un filtro dei dati usare CTRL+freccia destra per spostarsi tra i vari controlli all'interno di filtro dei dati. Ad esempio, quando si preme inizialmente CTRL+freccia destra lo stato attivo è sulla gomma e quindi premere BARRA SPAZIATRICE equivale a fare clic sul pulsante della gomma, che cancella tutti i valori nel filtro dei dati. 
 
@@ -112,6 +114,55 @@ Sono state rilevate problematiche e limitazioni note relative alle funzionalità
 
 * Quando si usano le utilità per la lettura dello schermo con **Power BI Desktop**, per ottimizzare l'esperienza aprire l'utilità preferita prima di aprire qualsiasi file in Power BI Desktop.
 * Se si usa l'Assistente vocale, esistono alcune limitazioni per lo spostamento in Visualizza dati come in una tabella HTML.
+
+## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
+### <a name="frequently-used-shortcuts"></a>Tasti di scelta rapida usati di frequente
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Spostare lo stato attivo tra le sezioni  | CTRL + F6 |
+| Spostare lo stato attivo avanti nella sezione | TAB         |
+| Spostare lo stato attivo indietro nella sezione | MAIUSC + TAB |
+
+### <a name="on-visual"></a>Nell'oggetto visivo
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Spostare lo stato attivo sul menu visivo | ALT + MAIUSC+ F10 |
+| Visualizzare i dati | ALT + MAIUSC+ F11  |
+
+### <a name="pane-navigation"></a>Navigazione riquadro
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Aprire un menu di scelta rapida | <ul><li>Tastiera di Windows: chiave di contesto di Windows + F10.  La chiave di contesto di Windows è compresa tra il tasto Alt di sinistra e il tasto freccia SINISTRA</li><li>Altra tastiera: MAIUSC + F10</li></ul> |
+
+### <a name="slicer"></a>Filtro dei dati
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Interagire con un filtro dei dati | CTRL + tasto freccia DESTRA |
+
+### <a name="selection-pane"></a>Riquadro di selezione
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Attivare il riquadro di selezione | F6 |
+| Spostare un oggetto in alto nei livelli | CTRL + MAIUSC + F |
+| Spostare un oggetto in basso nei livelli | CTRL + MAIUSC + B |
+| Nascondi/Mostra un oggetto (Attiva/Disattiva) | CTRL + MAIUSC + S |
+
+### <a name="dax-editor"></a>Editor DAX
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Spostare una riga su/giù | ALT + tasto freccia SU/Freccia GIÙ |
+| Copiare una riga su/giù | MAIUSC + ALT + tasto freccia SU/tasto freccia GIÙ |
+| Inserire una riga sotto | CTRL + INVIO |
+| Inserire una riga sopra | CTRL + MAIUSC + INVIO |
+| Passare alla parentesi quadra corrispondente | CTRL + MAIUSC + \ |
+| Riga rientro/rientro negativo | CTRL + ] / [ |
+| Inserire il cursore | ALT + clic |
+| Selezionare la riga corrente | CTRL + I |
+| Selezionare tutte le occorrenze della selezione corrente | CTRL + MAIUSC + L |
+| Selezionare tutte le occorrenze della parola corrente | CTRL + F2 |
+
+
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Usare i temi dei report in Power BI Desktop (anteprima)](desktop-report-themes.md)

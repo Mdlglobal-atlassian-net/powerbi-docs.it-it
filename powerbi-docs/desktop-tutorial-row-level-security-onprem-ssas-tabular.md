@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456135"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101578"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 Questa esercitazione illustra i passaggi necessari per implementare la **sicurezza a livello di riga** all'interno di un **modello tabulare di Analysis Services** e indica come usarlo in un report di Power BI. I passaggi descritti in questa esercitazione sono progettati per poter proseguire e apprendere i passaggi necessari per completare un set di dati di esempio.
@@ -72,6 +72,9 @@ Sono disponibili molti articoli pubblicati che descrivono come definire la sicur
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     In questa formula la funzione **LOOKUPVALUE** restituisce tutti i valori per la colonna **DimUserSecurity [SalesTerritoryID]**, dove **DimUserSecurity [UserName]** è uguale al nome utente di Windows connesso e **DimUserSecurity [SalesTerritoryID]** è uguale a **DimSalesTerritory [SalesTerritoryKey]**.
    
+    > [!IMPORTANT]
+    > Tenere presente che la funzione DAX [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) non è supportata quando si usa la sicurezza a livello di riga.
+
    Il set di Sales SalesTerritoryKey restituito da **LOOKUPVALUE** viene quindi usato per limitare le righe visualizzate in **DimSalesTerritory**. Vengono visualizzate solo le righe in cui **SalesTerritoryKey** per la riga si trova nel set di ID restituiti dalla funzione **LOOKUPVALUE**.
 8. Per la tabella **DimUserSecurity**, digitare la formula seguente nella colonna **Filtro DAX**:
    
