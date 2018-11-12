@@ -1,5 +1,5 @@
 ---
-title: Aggiungere i parametri del report di Power BI usando l'URL
+title: Filtrare un report usando i parametri della stringa di query nell'URL
 description: Filtrare un report usando i parametri della stringa di query dell'URL, filtrando anche in base a più campi.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2018
+ms.date: 11/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 7a034e865b0e0b6ba55385f8873d039dba0662db
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396958"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973374"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -26,7 +26,7 @@ Quando si apre un report nel servizio Power BI, ogni pagina del report ha un pro
 
 ## <a name="uses-for-query-string-parameters"></a>Usi dei parametri della stringa di query
 
-Si supponga di voler utilizzare Power BI Desktop per creare un report che include collegamenti ad altri report di Power BI, ma che sia necessario visualizzare solo alcune delle informazioni negli altri report. In primo luogo, filtrare i report usando i parametri della stringa di query e salvare gli URL. Successivamente, creare una tabella in Power BI Desktop con questi nuovi URL di report.  Quindi, pubblicare e condividere il report.
+Si supponga di usare Power BI Desktop. Si vuole creare un report che include collegamenti ad altri report di Power BI, ma è necessario visualizzare solo alcune delle informazioni negli altri report. In primo luogo, filtrare i report usando i parametri della stringa di query e salvare gli URL. Successivamente, creare una tabella in Power BI Desktop con questi nuovi URL di report.  Quindi, pubblicare e condividere il report.
 
 I parametri della stringa di query possono essere anche utili per la creazione di una soluzione avanzata di Power BI.  Con DAX è possibile creare un report che genera un URL del report filtrato in modo dinamico in base alla selezione effettuata dal cliente nel report corrente. Quando i clienti selezionano l'URL, vedono solo le informazioni desiderate. 
 
@@ -43,7 +43,7 @@ URL?filter=***Tabella***/***Campo*** eq '***valore***'
 
 ### <a name="field-types"></a>Tipi di campo
 
-Il tipo del campo può essere numerico, datetime o stringa e il tipo usato deve corrispondere al tipo impostato nel set di dati.  Ad esempio, la specifica del tipo "string" per una colonna di tabella non funzionerà se si sta cercando un valore datetime o numerico in una colonna del set di dati impostata come data (ad esempio, Table/StringColumn eq 1).
+Il tipo del campo può essere numerico, datetime o stringa e il tipo usato deve corrispondere al tipo impostato nel set di dati.  Ad esempio, la specifica del tipo "string" per una colonna di tabella non funziona se si sta cercando un valore datetime o numerico in un set di colonne del set di dati impostato come data, ad esempio, Table/StringColumn eq 1.
 
 * Le **stringhe** devono essere racchiuse tra virgolette singole, ad esempio 'nome manager'.
 * Per i **numeri** non è richiesta alcuna formattazione speciale.
@@ -85,7 +85,7 @@ Il report viene filtrato in base alla Carolina del Nord; tutte le visualizzazion
 ?filter=Store/Territory eq 'NC'
 ```
 
-Per filtrare in base a campi aggiuntivi, aggiungere **and** e un altro campo nello stesso formato indicato in precedenza. Ecco un esempio.
+Per filtrare in base a campi aggiuntivi, aggiungere un operatore "**and**" e un altro campo nello stesso formato indicato in precedenza. Ecco un esempio.
 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
@@ -95,7 +95,7 @@ Per filtrare in base a campi aggiuntivi, aggiungere **and** e un altro campo nel
 
 ## <a name="operators"></a>Operatori
 
-Power BI supporta molti operatori oltre a **and**. La tabella seguente elenca tali operatori insieme al tipo di contenuto supportato.
+Power BI supporta molti operatori oltre a "**and**". La tabella seguente elenca tali operatori insieme al tipo di contenuto supportato.
 
 |Operatore  | Definizione | Stringa  | Numero | Data |  Esempio|
 |---------|---------|---------|---------|---------|---------|
@@ -125,13 +125,13 @@ Un filtro URL di Power BI può includere numeri nei formati seguenti.
 
 ### <a name="date-data-types"></a>Tipi di dati di data
 
-Power BI supporta OData V3 e V4 per i tipi di dati **Date** e **DateTimeOffset**.  Le date vengono rappresentate usando il formato EDM (2019-02-12T00:00:00). Ciò significa che quando si specifica una data nel formato AAAA-MM-GG, Power BI la interpreta come AAAA-MM-GGT00:00:00.
+Power BI supporta OData V3 e V4 per i tipi di dati **Date** e **DateTimeOffset**.  Le date sono rappresentate nel formato EDM (2019-02-12T00:00:00), quindi quando si specifica una data come AAAA-MM-GG, Power BI la interpreta come AAAA-MM-GGT00:00:00.
 
 Perché è importante questa distinzione? Si supponga di creare un parametro di stringa di query **Table/Date gt 2018-08-03**.  I risultati includeranno il 3 agosto 2018 oppure partiranno dal 4 agosto 2018? Dato che Power BI converte la query in **Table/Date gt 2018-08-03T00:00:00**, i risultati includono tutte le date con una parte dell'ora diversa da zero, poiché tali date saranno maggiori di **2018-08-03T00:00:00**.
 
 ## <a name="special-characters-in-url-filters"></a>Caratteri speciali nei filtri di URL
 
-Gli spazi e i caratteri speciali richiedono alcuni elementi di formattazione aggiuntivi. Quando la query contiene spazi, trattini o altri caratteri non ASCII, anteporre a questi caratteri speciali un *codice di escape* costituito da un carattere di sottolineature e da una X (**_x**), seguiti dal codice **Unicode** di 4 cifre e da un altro carattere di sottolineatura. Se il codice Unicode è composto da meno 4 caratteri è necessario completarlo con zeri. Di seguito sono riportati alcuni esempi.
+Gli spazi e i caratteri speciali richiedono alcuni elementi di formattazione aggiuntivi. Quando la query contiene spazi, trattini o altri caratteri non ASCII, anteporre a questi caratteri speciali un *codice di escape* costituito da un carattere di sottolineatura e da una X (**_x**), seguiti dal codice **Unicode** di quattro cifre e da un altro carattere di sottolineatura. Se il codice Unicode è composto da meno di quattro caratteri, è necessario aggiungere zeri. Di seguito sono riportati alcuni esempi.
 
 |Identificatore  |Unicode  | Codice per Power BI  |
 |---------|---------|---------|
@@ -159,17 +159,17 @@ Pubblicare il report nel servizio Power BI, quindi usare la stringa di query del
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Aggiungere un riquadro da un report filtrato
 
-Dopo aver filtrato il report usando i parametri della stringa di query, è possibile aggiungere al dashboard le visualizzazioni da tale report.  Il riquadro nel dashboard contiene i dati filtrati; selezionandolo, viene aperto il report usato per crearlo.  Tuttavia, i filtri applicati usando l'URL non vengono salvati con il report e, quando si seleziona il riquadro del dashboard, il report verrà aperto nello stato non filtrato.  Questo significa che i dati visualizzati nel riquadro del dashboard non corrispondono ai dati presenti nella visualizzazione del report.
+Dopo aver filtrato il report usando i parametri della stringa di query, è possibile aggiungere al dashboard le visualizzazioni da tale report.  Il riquadro nel dashboard contiene i dati filtrati; selezionandolo, viene aperto il report usato per crearlo.  Tuttavia, i filtri applicati usando l'URL non vengono salvati con il report. Quando si seleziona il riquadro del dashboard, il report viene aperto nello stato non filtrato.  I dati visualizzati nel riquadro del dashboard non corrispondono quindi ai dati presenti nella visualizzazione del report.
 
-Ciò è utile quando si vogliono visualizzare risultati diversi, filtrati nel dashboard e non filtrati nel report.
+Questa discrepanza è utile quando si vogliono visualizzare risultati diversi, filtrati nel dashboard e non filtrati nel report.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
 Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della stringa di query.
 
 * Quando si usa l'operatore *in*, i valori a destra di *in* devono essere un elenco delimitato da virgole racchiuso tra parentesi.    
-* Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno prefisso in quanto vengono passati direttamente al motore di elaborazione dei report.
-* I filtri della stringa di query non funzionano con gli URL [Pubblica sul Web](service-publish-to-web.md).
+* Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno un prefisso in quanto vengono passati direttamente al motore di elaborazione dei report.
+* I filtri della stringa di query non funzionano con l'opzione [Pubblica sul Web](service-publish-to-web.md).
 * La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
 * Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.
 * I filtri URL dei report hanno un limite di 10 espressioni (10 filtri connessi tramite AND).

@@ -7,91 +7,90 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 09/28/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de4fc463b02e8cae59f20216b5b1d30be431ae98
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e364d2ceac3d1a30b0742ceac2bd56e2bc66d9ba
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187169"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973236"
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Informazioni su filtri ed evidenziazione nei report di Power BI
-Con i ***filtri*** viene rimosso tutto tranne i dati rilevanti.  L'***evidenziazione*** non filtra gli elementi perché non rimuove i dati, bensì evidenzia un subset di dati visibili. I dati non evidenziati restano visibili ma in grigio.
+ Questo articolo illustra i filtri e l'evidenziazione nel servizio Power BI. L'esperienza è quasi identica in Power BI Desktop. Con i ***filtri*** viene rimosso tutto tranne i dati rilevanti. L'***evidenziazione*** è un'operazione diversa dall'applicazione di filtri. Non vengono rimossi i dati, ma viene evidenziato un subset dei dati visibili. I dati non evidenziati rimangono visibili ma in grigio.
 
-Esistono molti modi diversi per filtrare ed evidenziare i report in Power BI. Includere tutte le informazioni in un solo articolo potrebbe creare confusione, dunque sono state suddivise nei seguenti argomenti:
+Esistono molti modi diversi per filtrare ed evidenziare i report in Power BI. Includere tutte le informazioni in un solo articolo potrebbe creare confusione, quindi sono state create diverse sezioni:
 
 * Introduzione ai filtri e all'evidenziazione (questo articolo)
-* Modi in cui è possibile [creare e usare i filtri e l'evidenziazione nella Visualizzazione di modifica e/o nei report di cui si è proprietari](power-bi-report-add-filter.md). Quando si hanno le autorizzazioni di modifica per un report, è possibile creare, modificare ed eliminare filtri ed evidenziare i dati nei report.
-* Modi in cui è possibile [usare i filtri ed evidenziare i dati in un report condiviso con l'utente nella Visualizzazione di lettura del report](consumer/end-user-reading-view.md). Le operazioni possibili sono più limitate, ma Power BI offre comunque un'ampia gamma di opzioni di filtro ed evidenziazione.  
-* [Una descrizione dettagliata dei controlli di filtro ed evidenziazione disponibili nella Visualizzazione di modifica](consumer/end-user-report-filter.md) incluso uno sguardo approfondito sui tipi di filtri (ad esempio, data e ora, numerico, testo) e sulla differenza tra le opzioni di base e avanzate.
-* Ora che si è appreso come funzionano i filtri e l'evidenziazione per impostazione predefinita, è possibile [comprendere il modo in cui le visualizzazioni in una pagina si filtrano e si evidenziano reciprocamente](consumer/end-user-interactions.md)
+* Modi in cui è possibile [creare e usare i filtri nella visualizzazione di modifica](power-bi-report-add-filter.md) nei report. Quando si hanno le autorizzazioni di modifica per un report, è possibile creare, modificare ed eliminare i filtri nei report.
+* Modi in cui è possibile [filtrare ed evidenziare i dati in un report condiviso](consumer/end-user-reading-view.md) nella visualizzazione di lettura del report. Le operazioni possibili sono più limitate, ma è comunque disponibile un'ampia gamma di opzioni di filtro ed evidenziazione.  
+* [Presentazione dettagliata dei controlli di filtro ed evidenziazione disponibili nella visualizzazione di modifica](consumer/end-user-report-filter.md), inclusa un'analisi approfondita dei tipi di filtri (ad esempio, data e ora, tipi numerici, testo) e della differenza tra le opzioni di base e quelle avanzate.
+* Dopo aver appreso come funzionano i filtri e l'evidenziazione per impostazione predefinita, è possibile scoprire come [interagiscono le visualizzazioni in una pagina per quanto riguarda i filtri e l'evidenziazione](consumer/end-user-interactions.md)
 
-> [!TIP]
-> In che modo Power BI determina le relazioni tra i dati?  Power BI usa le relazioni tra le diverse tabelle e campi nel [modello di dati](https://support.office.com/article/Create-a-Data-Model-in-Excel-87e7a54c-87dc-488e-9410-5c75dbcb0f7b?ui=en-US&rs=en-US&ad=US) sottostante per consentire agli elementi di una pagina del report di interagire reciprocamente.
-> 
-> 
+## <a name="intro-to-the-filters-pane"></a>Introduzione al riquadro Filtri
 
-## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>Introduzione ai filtri e all'evidenziazione nei report con il riquadro Filtri
- Questo articolo illustra i filtri e l'evidenziazione nel servizio Power BI.  L'esperienza è quasi identica in Power BI Desktop.  
+È possibile applicare filtri nel riquadro **Filtri** oppure effettuando [selezioni nei filtri dei dati](visuals/power-bi-visualization-slicers.md) direttamente nel report. Il riquadro Filtri mostra le tabelle e i campi usati nel report e gli eventuali filtri che sono stati applicati. 
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-È possibile applicare filtri ed evidenziazione con il riquadro **Filtri** oppure effettuando le selezioni direttamente nel report stesso (ad hoc, vedere in basso nella pagina). Il riquadro Filtri mostra le tabelle e i campi usati nel report e gli eventuali filtri che sono stati applicati. I filtri sono divisi in **Filtri a livello di pagina**, **Filtri a livello di report**, **Filtri drill-through** e **Filtri a livello di oggetto visivo**.  È possibile visualizzare i filtri a livello di oggetto visivo solo se è stata selezionata una visualizzazione nell'area di disegno report.
+Sono disponibili quattro tipi di filtri.
 
-> [!TIP]
-> Se accanto al filtro è presente la parola **All**, l'intero campo verrà incluso come filtro.  Ad esempio, **Chain(All)** nella schermata seguente indica che questa pagina del report include dati relativi a tutte le catene di negozi.  D'altra parte, il filtro a livello di report **FiscalYear è 2013 o 2014** indica che il report include solo i dati per gli anni fiscali 2013 e 2014.
-> 
-> 
+- Il **filtro della pagina** si applica a tutti gli oggetti visivi nella pagina del report     
+- Il **filtro visivo** si applica a un singolo oggetto visivo in una pagina del report. È possibile visualizzare i filtri a livello di oggetto visivo solo se è stato selezionato un oggetto visivo nell'area di disegno del report.    
+- Il **filtro report** si applica a tutte le pagine del report    
+- Il **filtro drill-through** si applica a una singola entità in un report    
 
-## <a name="filters-in-reading-view-versus-editing-view"></a>Filtri in Visualizzazione di lettura e in Visualizzazione di modifica
-Per interagire con i report è possibile usare una di queste modalità: [Visualizzazione di lettura e Visualizzazione di modifica](consumer/end-user-reading-view.md).  Le funzionalità di filtro disponibili dipendono dalla modalità usata.
+È possibile cercare nei filtri di pagina, visivi e di report, in visualizzazione di lettura o di modifica, per trovare e selezionare il valore desiderato. 
 
-* In Visualizzazione di modifica è possibile aggiungere filtri a livello di report, pagina, oggetto visivo e filtri drill-through. Quando si salva il report i filtri vengono salvati con il report, anche se questo viene aperto in un'app per dispositivi mobili. Gli utenti che esaminano il report in Visualizzazione di lettura possono interagire con i filtri aggiunti, ma non possono aggiungere nuovi filtri.
-* In Visualizzazione di lettura è possibile interagire con i filtri già esistenti nel report e salvare le selezioni effettuate.  Non è tuttavia possibile aggiungere nuovi filtri.
+![Cercare in un filtro](media/power-bi-reports-filters-and-highlighting/power-bi-search-filter.png)
 
-### <a name="the-filters-pane-in-reading-view"></a>Riquadro Filtri nella Visualizzazione di lettura
-Se si ha accesso a un report solo nella Visualizzazione di lettura, il riquadro Filtri è simile al seguente:
+Se accanto al filtro è presente la parola **Tutte/Tutti**, significa che nel filtro vengono inclusi tutti i valori del campo.  Ad esempio, **Chain(Tutte)** nello screenshot seguente indica che questa pagina del report include i dati relativi a tutte le catene di negozi.  Il filtro a livello di report **FiscalYear è 2013 o 2014** indica invece che il report include solo i dati per gli anni fiscali 2013 e 2014.
+
+## <a name="filters-in-reading-or-editing-view"></a>Filtri nella visualizzazione di modifica o nella visualizzazione di lettura
+È possibile interagire con i report in due modi: tramite la [visualizzazione di lettura](consumer/end-user-reading-view.md) e tramite la visualizzazione di modifica. Le funzionalità di filtro disponibili dipendono dalla modalità usata.
+
+* Nella visualizzazione di modifica è possibile aggiungere filtri di report, di pagina, di drill-through e visivi. Quando si salva il report, i filtri vengono salvati con il report, anche se questo viene aperto in un'app per dispositivi mobili. Gli utenti che guardano il report nella visualizzazione di lettura possono interagire con i filtri aggiunti, ma non possono aggiungere nuovi filtri.
+* Nella visualizzazione di lettura è possibile interagire con i filtri già esistenti nel report e salvare le selezioni effettuate. Non è possibile aggiungere nuovi filtri.
+
+### <a name="filters-in-reading-view"></a>Filtri nella visualizzazione di lettura
+Se si ha accesso a un report solo nella visualizzazione di lettura, il riquadro Filtri è simile al seguente:
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading-view.png)
 
-Quindi a questa pagina del report sono stati applicati 6 filtri a livello di pagina e 1 filtro a livello di report.
+Quindi a questa pagina del report sono applicati sei filtri a livello di pagina e un filtro a livello di report.
 
-Per verificare se esistono eventuali filtri a livello di oggetto visivo, selezionare un oggetto visivo. Nell'immagine seguente, al grafico a bolle sono stati applicati 6 filtri.
+Ogni oggetto visivo può avere filtri per tutti i campi in esso contenuti e un autore di report può aggiungerne altri. Nell'immagine seguente al grafico a bolle sono applicati sei filtri.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-Nella Visualizzazione di lettura esplorare i dati modificando i filtri esistenti. Le modifiche apportate vengono salvate con il report, anche se questo viene aperto in un'app per dispositivi mobili. Per altre informazioni, vedere l'articolo [Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI](consumer/end-user-reading-view.md)
+Nella visualizzazione di lettura esplorare i dati modificando i filtri esistenti. Le modifiche apportate vengono salvate con il report, anche se questo viene aperto in un'app per dispositivi mobili. Per informazioni, vedere [Presentazione del riquadro Filtri del report](consumer/end-user-report-filter.md)
 
-### <a name="the-filters-pane-in-editing-view"></a>Riquadro Filtri nella Visualizzazione di modifica
-Quando si hanno le autorizzazioni di proprietario per un report e lo si apre nella Visualizzazione di modifica, si noterà che **Filtri** è solo uno dei diversi riquadri di modifica disponibili.
-
-![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
-
-Come nella Visualizzazione di lettura (sopra), a questa pagina del report sono stati applicati 6 filtri a livello di pagina e 1 filtro a livello di report. Selezionando il grafico a bolle, si noterebbe che sono stati applicati 6 filtri a livello di oggetto visivo.
-
-Tuttavia, nella Visualizzazione di modifica, è possibile eseguire molte più operazioni con i filtri e l'evidenziazione. La differenza principale è che è possibile aggiungere nuovi filtri. Altre informazioni su come eseguire questa e molte altre operazioni sono disponibili nell'articolo [Aggiungere un filtro a un report](power-bi-report-add-filter.md)
-
-## <a name="ad-hoc-filtering-and-highlighting"></a>Filtri ed evidenziazione ad hoc
-Selezionare un campo nell'area di disegno report per filtrare ed evidenziare il resto della pagina. Selezionare qualsiasi spazio vuoto nello stesso oggetto visivo per rimuoverlo. Questo tipo di filtri ed evidenziazione è un modo interessante per esplorare rapidamente l'impatto sui dati. Per ottimizzare il funzionamento di questo tipo di filtro incrociato ed evidenziazione incrociata, vedere [Interazioni tra oggetti visivi](consumer/end-user-interactions.md).
-
-![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
-
-Quando si esce da report le modifiche vengono salvate. Per annullare i filtri e ripristinare i filtri, i filtri dei dati, l'espansione e l'ordinamento predefiniti impostati dall'autore del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore.
+Quando si chiude il report, i filtri vengono salvati. Per annullare i filtri e ripristinare i filtri, i filtri dei dati, il livello e l'ordinamento predefiniti impostati dall'autore del report, selezionare **Ripristina impostazioni predefinite** sulla barra dei menu superiore.
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
-## <a name="next-steps"></a>Passaggi successivi
-[Interagire con i filtri e l'evidenziazione (nella Visualizzazione di lettura)](consumer/end-user-reading-view.md)
+### <a name="filters-in-editing-view"></a>Filtri nella visualizzazione di modifica
+Quando si hanno le autorizzazioni di proprietario per un report e lo si apre nella visualizzazione di modifica, si noterà che **Filtri** è solo uno dei diversi riquadri di modifica disponibili.
 
-[Aggiungere un filtro a un report (in Visualizzazione di modifica)](power-bi-report-add-filter.md)
+![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
+
+Come nella visualizzazione di lettura, a questa pagina del report sono applicati sei filtri a livello di pagina e un filtro a livello di report. Selezionando il grafico a bolle, è possibile notare che sono applicati sei filtri a livello di oggetto visivo.
+
+Nella visualizzazione di lettura è possibile eseguire altre operazioni con i filtri e l'evidenziazione. Principalmente, è possibile aggiungere nuovi filtri. Vedere [Aggiungere un filtro a un report](power-bi-report-add-filter.md) per informazioni su come eseguire questa e molte altre operazioni.
+
+## <a name="ad-hoc-highlighting"></a>Evidenziazione ad hoc
+Selezionare un campo nell'area di disegno del report per evidenziare gli altri oggetti visivi nella pagina. Selezionare qualsiasi spazio vuoto nello stesso oggetto visivo per rimuoverlo. Questo tipo di evidenziazione è un modo interessante per esplorare rapidamente l'impatto dei dati. Per ottimizzare il funzionamento di questo tipo di evidenziazione incrociata, vedere [Interazioni tra oggetti visivi](consumer/end-user-interactions.md).
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+
+## <a name="next-steps"></a>Passaggi successivi
+[Aggiungere un filtro a un report (in visualizzazione di modifica)](power-bi-report-add-filter.md)
 
 [Presentazione dei filtri dei report](consumer/end-user-report-filter.md)
 
 [Modificare il filtro incrociato e l'evidenziazione incrociata tra gli oggetti visivi nel report](consumer/end-user-interactions.md)
-
-Altre informazioni sui [report in Power BI](consumer/end-user-reports.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

@@ -766,6 +766,24 @@ items:
         href: refresh-troubleshooting-tile-errors.md
       - name: Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
         href: service-refresh-xero-credentials.md
+    - name: Preparazione dei dati self-service
+      items:
+      - name: Preparazione dei dati self-service con flussi di dati (anteprima)
+        href: service-dataflows-overview.md
+      - name: Creare e usare flussi di dati
+        href: service-dataflows-create-use.md
+      - name: Entità calcolate con Power BI Premium
+        href: service-dataflows-computed-entities-premium.md
+      - name: Uso di flussi di dati con origini dati locali
+        href: service-dataflows-on-premises-gateways.md
+      - name: Collegare entità tra flussi di dati (anteprima)
+        href: service-dataflows-linked-entities.md
+      - name: Uso dell'aggiornamento incrementale con i flussi di dati (anteprima)
+        href: service-dataflows-incremental-refresh.md
+      - name: Risorse per sviluppatori per i flussi di dati
+        href: service-dataflows-developer-resources.md
+      - name: Connettersi a flussi di dati in Power BI Desktop
+        href: desktop-connect-dataflows.md
   - name: Risorse
     items:
     - name: Video
@@ -776,6 +794,36 @@ items:
       href: supported-languages-countries-regions.md
     - name: White paper
       href: whitepapers.md
+- name: Report impaginati in Power BI
+  items:
+  - name: Panoramica
+    items:
+    - name: Che cosa sono i report impaginati? (anteprima)
+      href: paginated-reports-report-builder-power-bi.md
+  - name: Esercitazioni
+    items:
+    - name: Creare un report impaginato e caricarlo
+      href: paginated-reports-quickstart-aw.md
+  - name: Concetti
+    items:
+    - name: Presentazione della visualizzazione Progettazione report
+      href: paginated-reports-report-design-view.md
+    - name: Domande frequenti sui report impaginati
+      href: paginated-reports-faq.md
+  - name: Procedure
+    items:
+    - name: Creare un'origine dati incorporata
+      href: paginated-reports-embedded-data-source.md
+    - name: Creare un set di dati incorporato
+      href: paginated-reports-create-embedded-dataset.md
+    - name: Creare parametri
+      href: paginated-reports-parameters.md
+    - name: Pubblicare un report impaginato
+      href: paginated-reports-save-to-power-bi-service.md
+    - name: Visualizzare un report impaginato
+      href: paginated-reports-view-power-bi-service.md
+    - name: Interagire con i parametri
+      href: paginated-reports-view-parameters.md
 - name: Power BI per sviluppatori
   items:
   - name: Quali operazioni possono eseguire gli sviluppatori con Power BI?
@@ -1203,9 +1251,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a0d2f9e2fcf26f3eca516a1204c9d25a9225010f
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 8640762b152c996d21cefe8663cf6bf8e78f718a
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223192"
+ms.locfileid: "51266140"

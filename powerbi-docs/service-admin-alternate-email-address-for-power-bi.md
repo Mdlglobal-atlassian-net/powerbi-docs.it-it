@@ -7,59 +7,68 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/08/2018
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5013c70e4d3998eb39e0de2a92f890417175fd62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 41b3a0b1032616045b854e4a4776ba82bffffe47
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240907"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909424"
 ---
 # <a name="using-an-alternate-email-address"></a>Uso di un indirizzo di posta elettronica alternativo
-Per impostazione predefinita, l'indirizzo di posta elettronica con cui è stata effettuata l'iscrizione a Power BI viene usato per inviare aggiornamenti sulle attività in Power BI,  ad esempio per inviare gli inviti di condivisione.
 
-In alcuni casi si preferisce che questi messaggi vengano inviati a un indirizzo di posta elettronica alternativo, diverso da quello usato per l'iscrizione a Power BI.
+Quando si effettua l'iscrizione per Power BI, si specifica un indirizzo di posta elettronica. Per impostazione predefinita, Power BI usa questo indirizzo per inviare aggiornamenti sull'attività nel servizio, ad esempio per inviare gli inviti di condivisione.
 
-## <a name="updating-through-office-365-personal-info-page"></a>Aggiornamento tramite la pagina delle informazioni personali di Office 365
-1. Passare alla [pagina delle informazioni personali di Office 365](https://portal.office.com/account/#personalinfo).  Se richiesto, accedere con l'indirizzo di posta elettronica e la password usati per Power BI.
-2. Fare clic sul collegamento Modifica nella sezione Dettagli contatto.  
-   
-   > [!NOTE]
-   > Se il collegamento Modifica non è presente, l'indirizzo di posta elettronica viene gestito dall'amministratore di Office 365 ed è necessario contattare questa figura per aggiornare l'indirizzo.
-   > 
-   > 
-   
-   ![](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
-3. Nel campo Indirizzo di posta elettronica alternativo immettere l'indirizzo di posta cui verranno inviati gli aggiornamenti di Power BI.
+In alcuni casi, potrebbe essere necessario recapitare questi messaggi a un indirizzo di posta elettronica diverso da quello con cui è stata effettuata l'iscrizione. Questo articolo illustra come specificare un indirizzo alternativo in Office 365 e in PowerShell. L'articolo spiega anche come un indirizzo di posta elettronica viene risolto in Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> La modifica di questa impostazione non influisce sull'indirizzo di posta elettronica usato per inviare aggiornamenti del servizio, newsletter e altre comunicazioni di carattere promozionale.  Questi messaggi verranno sempre inviati all'indirizzo usato in origine durante la registrazione a Power BI.
-> 
-> 
+> Specificare un indirizzo alternativo, non influisce sull'indirizzo di posta elettronica usato da Power BI per aggiornamenti del servizio, newsletter e altre comunicazioni promozionali.  Tali comunicazioni vengono inviate sempre all'indirizzo di posta elettronica usato per l'iscrizione a Power BI.
 
-## <a name="updating-through-azure-active-directory"></a>Aggiornamento tramite Azure Active Directory
-Quando si acquisisce un token di incorporamento di Azure Active Directory (AAD) per Power BI, è possibile usare tre diversi tipi di indirizzo di posta elettronica. I tre diversi tipi sono:
+## <a name="use-office-365"></a>Usare Office 365
 
-* l'indirizzo di posta elettronica principale associato all'account AAD di un utente
-* l'indirizzo di posta elettronica UPN (UserPrincipalName)
-* l'attributo della matrice dell'indirizzo di posta elettronica "altro"
+Per specificare un indirizzo alternativo in Office 365, seguire questa procedura.
 
-Power BI seleziona l'indirizzo di posta elettronica da usare in base ai criteri seguenti:
-1.  Se l'attributo relativo alla posta elettronica è presente nell'oggetto utente del tenant AAD, Power BI usa questo attributo per l'indirizzo di posta elettronica
-2.  Se l'indirizzo di posta elettronica UPN *non* è un indirizzo di posta elettronica di un dominio **\*.onmicrosoft.com** (l'informazione dopo il simbolo "\@"), Power BI usa questo attributo per l'indirizzo di posta elettronica
-3.  Se l'attributo della matrice dell'indirizzo di posta elettronica "altro" è presente nell'oggetto utente di AAD, verrà usato il primo indirizzo di posta elettronica in questo elenco, poiché in questo attributo può essere presente un elenco di indirizzi di posta elettronica
-4. Se nessuna delle condizioni precedenti è presente, verrà usato l'indirizzo UPN
+1. Aprire la [pagina delle informazioni personali di Office 365](https://portal.office.com/account/#personalinfo). Se richiesto, accedere con l'indirizzo di posta elettronica e la password usati per Power BI.
 
-## <a name="updating-with-powershell"></a>Aggiornamento con PowerShell
-È possibile aggiornare l'indirizzo di posta elettronica alternativo tramite PowerShell per Azure Active Directory. Per questa operazione, eseguire il comando [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser).
+1. Nel menu di sinistra selezionare **Info personali**.
 
-```
+1. Nella sezione **Dettagli contatto** selezionare **Modifica**.
+
+    Se non è possibile modificare i dettagli, significa che l'indirizzo di posta elettronica viene gestito dall'amministratore di Office 365. Contattare l'amministratore per aggiornare l'indirizzo di posta elettronica.
+
+    ![Dettagli contatto](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+
+1. Nel campo **Indirizzo di posta elettronica alternativo** immettere l'indirizzo di posta cui verranno inviati gli aggiornamenti di Power BI.
+
+## <a name="use-powershell"></a>Usare PowerShell
+
+Per specificare un indirizzo alternativo in PowerShell, usare il comando [Set-AzureADUser](/powershell/module/azuread/set-azureaduser/).
+
+```powershell
 Set-AzureADUser -ObjectId john@contoso.com -OtherMails "otheremail@somedomain.com"
 ```
 
-Per altre informazioni, vedere [Azure Active Directory PowerShell Version 2](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (Azure Active Directory PowerShell versione 2).
+## <a name="email-address-resolution-in-azure-ad"></a>Risoluzione degli indirizzi di posta elettronica in Azure AD
+
+Quando si acquisisce un token di incorporamento di Azure AD per Power BI, è possibile usare tre diversi tipi di indirizzo di posta elettronica:
+
+* L'indirizzo di posta elettronica principale associato all'account Azure AD di un utente
+
+* L'indirizzo di posta elettronica UPN (UserPrincipalName)
+
+* L'attributo della matrice dell'*altro indirizzo di posta*
+
+Power BI seleziona l'indirizzo di posta elettronica da usare in base alla sequenza seguente:
+
+1. Se l'attributo relativo alla posta elettronica è presente nell'oggetto utente di Azure AD, Power BI usa questo attributo per l'indirizzo di posta elettronica.
+
+1. Se l'indirizzo di posta elettronica UPN *non* è un indirizzo di posta elettronica di un dominio **\*.onmicrosoft.com** (l'informazione dopo il simbolo "\@"), Power BI usa questo attributo per l'indirizzo di posta elettronica.
+
+1. Se l'attributo della matrice dell'*altro indirizzo di posta elettronica* è presente nell'oggetto utente di Azure AD, viene usato il primo indirizzo di posta elettronica in questo elenco, perché in questo attributo può essere presente un elenco di indirizzi di posta elettronica.
+
+1. Se nessuna delle condizioni precedenti è presente, viene usato l'indirizzo UPN.
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

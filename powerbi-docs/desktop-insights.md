@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280295"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909618"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Usare informazioni dettagliate in Power BI Desktop per spiegare gli aumenti e le diminuzioni rilevate negli oggetti visivi (anteprima)
 
@@ -36,7 +36,7 @@ La funzionalità delle informazioni dettagliate è contestuale e si basa sul pun
 
 
 ## <a name="using-insights"></a>Uso delle informazioni dettagliate
-Per usare le informazioni dettagliate per spiegare gli aumenti e le diminuzioni rilevate nei grafici, fare clic con il pulsante destro del mouse su un punto dati in un grafico a linee o a barre e scegliere **Analizza > Spiega l'aumento** (o *Spiega la diminuzione*, perché tutte le informazioni dettagliate si basano sulla variazione rispetto al punto dati precedente).
+Per usare le informazioni dettagliate per spiegare gli aumenti e le diminuzioni rilevati nei grafici, fare clic con il pulsante destro del mouse su un punto dati in un grafico a linee o a barre e scegliere **Analizza > Spiega l'aumento** (o *Spiega la diminuzione*, perché tutte le informazioni dettagliate si basano sulla variazione rispetto al punto dati precedente).
 
 ![Menu Mostra i dettagli](media/desktop-insights/insights_02.png)
 
@@ -113,10 +113,9 @@ L'elenco seguente è una raccolta degli scenari attualmente non supportati per l
 * Filtri PrimiN
 * Filtri di inclusione/esclusione
 * Filtri per le misure
-* Misure non additive e aggregati
 * Misure non numeriche
 * Uso di "Mostra valore come"
-* Misure filtrate: calcoli a livello visuale ai quali viene applicato un filtro specifico (ad esempio *Vendite totali per la Francia*) e che vengono usati in alcuni oggetti visivi creati dalla funzionalità informazioni dettagliate
+* Misure filtrate: calcoli a livello visuale ai quali viene applicato un filtro specifico (ad esempio *Total Sales for France* (Vendite totali per la Francia)) e che vengono usati in alcuni oggetti visivi creati dalla funzionalità delle informazioni dettagliate
 * Colonne categoriche sull'asse X a meno che non definisca un ordine scalare per colonna. Se si usa una gerarchia, ogni colonna nella gerarchia attiva deve corrispondere a questa condizione
 
 
