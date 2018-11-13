@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 082d0ba1e638e8eaf6ae16fa8d5ed63c128c8ad5
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544966"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507854"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in modo che il dashboard non sia solo di gradevole da vedere, ma anche funzionale. Questo, in generale, significa mettere in risalto le informazioni più importanti in modo pulito e ordinato.
@@ -43,7 +43,7 @@ Dato che lo scopo dei dashboard è quello di presentare informazioni importanti 
 Il dashboard è troppo disordinato?  Rimuovere tutto ciò che non rappresenta informazioni essenziali facili da leggere e interpretare.
 
 ## <a name="make-use-of-full-screen-mode"></a>Uso della modalità a schermo intero
-Visualizzare il dashboard a [schermo intero](service-fullscreen-mode.md) senza distrazioni.
+Visualizzare il dashboard a [schermo intero](consumer/end-user-focus.md) senza distrazioni.
 
 ## <a name="make-the-most-important-information-biggest"></a>Fare in modo che le informazioni più importanti siano più grandi
 Se il testo e le visualizzazioni nel dashboard hanno tutti la stessa dimensione, sarà difficile per il lettore distinguere cosa è più importante. Ad esempio, le visualizzazioni a scheda sono un ottimo modo per mettere in evidenza un numero importante:  

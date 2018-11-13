@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: d265e465825fb8def167207ed632f1702adcbc7f
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973633"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507934"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Visualizzare i report in modalità presentazione in Surface Hub e Windows 10 - Power BI
 È possibile visualizzare i report in modalità presentazione in Surface Hub, quindi dashboard, report e riquadri in modalità schermo intero nei dispositivi Windows 10. 
@@ -27,7 +27,7 @@ In modalità schermo intero, nell'app Power BI per dispositivi mobili, tutti i r
 
 Quando si visualizza un report in modalità presentazione in Surface Hub, è possibile disegnare sulle pagine con colori diversi e spostarsi tra le pagine del report.
 
-È anche possibile [visualizzare dashboard e report in modalità a schermo intero dal Servizio Power BI](../../service-fullscreen-mode.md) sul Web.
+È anche possibile [visualizzare dashboard e report in modalità a schermo intero dal Servizio Power BI](../end-user-focus.md) sul Web.
 
 > [!NOTE]
 > La modalità presentazione è diversa dalla [modalità messa a fuoco per i riquadri](mobile-tiles-in-the-mobile-apps.md).
@@ -74,6 +74,6 @@ La modalità presentazione è attivata per impostazione predefinita in Surface H
 7. Per uscire dalla modalità a schermo intero, scorrere verso il basso dalla parte superiore e toccare due frecce rivolte verso l'interno ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Visualizzare dashboard e report in modalità a schermo intero dal Servizio Power BI sul Web](../../service-fullscreen-mode.md)
+* [Visualizzare dashboard e report in modalità a schermo intero dal Servizio Power BI sul Web](../end-user-focus.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

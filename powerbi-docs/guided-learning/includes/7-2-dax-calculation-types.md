@@ -28,7 +28,7 @@ La figura seguente mostra una formula DAX creata in Power BI:
 ## <a name="creating-calculated-columns"></a>Creazione di colonne calcolate
 Le **colonne calcolate** sono utili quando si vuole filtrare in base al valore oppure se si vuole un calcolo per ogni riga nella tabella.
 
-È possibile creare colonne calcolate in Power BI Desktop selezionando **Nuova colonna** nella scheda **Creazione di modelli**. È preferibile usare la vista **Dati** (anziché la vista **Report** o **Relazioni**), perché è possibile visualizzare la nuova colonna creata e la **barra della formula** viene popolata ed è pronta per la formula DAX.
+È possibile creare colonne calcolate in Power BI Desktop selezionando **Nuova colonna** nella scheda **Creazione di modelli**. È preferibile usare la vista Dati (anziché la vista Report o **Relazioni**), perché è possibile visualizzare la nuova colonna creata e la **barra della formula** viene popolata ed è pronta per la formula DAX.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 

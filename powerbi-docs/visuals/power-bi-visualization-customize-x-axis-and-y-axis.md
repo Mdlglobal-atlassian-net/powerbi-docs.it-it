@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545946"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265910"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 Questa esercitazione illustra i diversi modi disponibili per personalizzare gli assi X e Y degli oggetti visivi. Non tutti gli oggetti visivi contengono assi o sono personalizzabili. I grafici a torta, ad esempio, non contengono assi. Le opzioni di personalizzazione variano da un oggetto visivo all'altro; sono quindi disponibili troppe opzioni per descriverle tutte in un solo articolo. Verranno quindi descritte alcune delle personalizzazioni degli assi usate più di frequente e verrà illustrato l'uso della scheda di formattazione visiva dell'area di disegno report di Power BI.  
@@ -86,30 +86,33 @@ Per questo esempio verrà creato un grafico combinato che esamina l'impatto del 
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
-> 2. Aggiungere **This Year Sales > Value** e **Last Year Sales** al grafico a linee. La scala della **% del margine lordo dello scorso anno** (linea blu lungo la linea della griglia in corrispondenza dello 0%) è notevolmente ridotta rispetto a quella di **Sales**, di conseguenza risulta difficile confrontarle. Inoltre, le percentuali delle etichette dell'asse Y non sono ottimali.      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
+     
+3. Aggiungere **This Year Sales > Value** e **Last Year Sales** al grafico a linee. La scala della **% del margine lordo dello scorso anno** (linea blu lungo la linea della griglia in corrispondenza dello 0%) è notevolmente ridotta rispetto a quella di **Sales**, di conseguenza risulta difficile confrontarle. Inoltre, le percentuali delle etichette dell'asse Y non sono ottimali.      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. Per facilitare la lettura e l'interpretazione dell'oggetto visivo, convertire il grafico a linee in un grafico a linee e istogramma a colonne in pila.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. Trascinare **% di margine lordo dello scorso anno** dai **Valori colonna** nei **Valori riga**. A questo punto, è visualizzato l'istogramma a colonne in pila creato in precedenza, ***più*** un grafico a linee.  Facoltativamente, ripetere le procedure apprese sopra per formattare il colore e le dimensioni del tipo di carattere degli assi.
    
-
    Power BI crea due assi, consentendo in tal modo di ridimensionare i set di dati in modo diverso: quello di sinistra misura i dollari, mentre quello di destra la percentuale.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>Formattare l'asse Y secondario
-1. Nel riquadro **Visualizzazioni** selezionare l'icona del rullo per visualizzare le opzioni di formattazione.
-2. Selezionare la freccia verso il basso per espandere le opzioni di Asse Y.
-3. Scorrere l'elenco fino a trovare le opzioni per **Mostra secondario**. Impostare **Mostra secondario** da **No** a **Sì**.
+1. Nel riquadro **Visualizzazioni** selezionare l'icona del rullo per visualizzare le opzioni di formattazione.    
+2. Selezionare la freccia verso il basso per espandere le opzioni di Asse Y.    
+3. Scorrere l'elenco fino a trovare le opzioni per **Mostra secondario**. Impostare **Mostra secondario** da **No** a **Sì**.    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (Facoltativo) Personalizzare le due assi. Se si cambia **Posizione** per l'asse delle colonne o l'asse di riga, le due assi si scambiano di posto.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ Con una visualizzazione così complicata può risultare utile aggiungere titoli 
 1. Impostare **Titolo** su **Sì** per **Asse Y (colonna)** e **Asse Y (riga)**.
 2. Impostare **Stile** su **Mostra solo titolo**.
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. Il grafico combinato visualizzato include ora due assi, entrambi con titoli.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

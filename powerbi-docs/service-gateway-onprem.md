@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558448"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297137"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -47,9 +47,9 @@ Il gateway dati locale viene usato come collegamento, fornendo un trasferimento 
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Scaricare e installare il gateway dati locale
 
-Per scaricare il gateway, selezionare **Gateway dati** nel menu Download. Scaricare il [gateway dati locale](http://go.microsoft.com/fwlink/?LinkID=820925). 
+Per scaricare il gateway, selezionare **Gateway dati** nel menu Download. Scaricare il [gateway dati locale](http://go.microsoft.com/fwlink/?LinkID=820925).
 
-Si noti che per aggiornare il gateway dati locale è necessario reinstallare il gateway, come descritto in questa sezione. Quando si aggiorna il gateway (tramite reinstallazione), le impostazioni dei gateway esistenti vengono mantenute.
+Si noti che per aggiornare il gateway dati locale è necessario installare di nuovo il gateway, come descritto in questa sezione. Se si installa una versione più recente del gateway, vengono mantenute le impostazioni esistenti. Se si installa la stessa versione, l'operazione viene considerata una reinstallazione completa e le impostazioni non vengono mantenute.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -118,7 +118,7 @@ Se si ritiene che i problemi con il gateway riguardino il proxy, vedere [Configu
 [Gestire l'origine dati - Oracle](service-gateway-onprem-manage-oracle.md)  
 [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md)  
 [Analisi approfondita del gateway dati locale](service-gateway-onprem-indepth.md)  
-[Gateway dati locale (modalità personale) - La nuova versione del gateway personale](service-gateway-personal-mode.md)
-[Configurazione delle impostazioni proxy per il gateway dati locale](service-gateway-proxy.md)  
+[On-premises data gateway (personal mode) - the new version of the personal gateway (Gateway dati locale (modalità personale) - Nuova versione del gateway personale)](service-gateway-personal-mode.md)  
+[Configurazione delle impostazioni del proxy per il gateway dati locale](service-gateway-proxy.md)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

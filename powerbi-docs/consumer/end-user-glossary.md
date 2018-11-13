@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799178"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508015"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -317,4 +317,4 @@ I dashboard di Power BI contengono riquadri di report.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Basic concepts for Power BI service consumer](/consumers/end-user-basic-concepts.md) (Concetti di base del servizio Power BI per i consumer)
+[Basic concepts for Power BI service consumer](end-user-basic-concepts.md) (Concetti di base del servizio Power BI per i consumer)
