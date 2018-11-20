@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909319"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157403"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Impossibile aggiungere Power BI a una sottoscrizione partner di Office 365
 
@@ -23,7 +23,7 @@ Office 365 consente alle aziende di rivendere Office 365 in bundle e integrato c
 
 Se si è interessati a ottenere Power BI, insieme alla sottoscrizione di Office 365, è consigliabile contattare il proprio partner. Se il partner attualmente non offre Power BI, è possibile valutare diverse opzioni.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Collaborare con il partner per acquistare Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Collaborare con il partner per acquistare Power BI
 
 Se si vuole acquistare una sottoscrizione di Power BI Pro o Power BI Premium, collaborare con il proprio partner per verificare le opzioni disponibili:
 
@@ -31,7 +31,7 @@ Se si vuole acquistare una sottoscrizione di Power BI Pro o Power BI Premium, co
 
 * Il partner è in grado di passare a un modello che consente di acquistare Power BI direttamente da Microsoft o da un altro partner che offre Power BI.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Acquisto da Microsoft o un altro canale
+## <a name="purchase-from-microsoft-or-another-channel"></a>Acquisto da Microsoft o un altro canale
 
 A seconda della relazione con il partner, è possibile acquistare Power BI direttamente da Microsoft o da un altro partner. È possibile verificare se è possibile aggiungere sottoscrizioni di Power BI nel portale di amministrazione di Office 365 (è necessaria l'appartenenza al ruolo Amministratore globale o Amministratore fatturazione).
 

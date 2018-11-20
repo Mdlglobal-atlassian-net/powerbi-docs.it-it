@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12ff54b1aa44edaead98b1fab6942acbd76216c7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 5d21dff56620e4b2eb05ed3bbf123ff1d1805075
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329432"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679356"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI
 È possibile caricare in Power BI qualsiasi cartella di lavoro di Excel inferiore a 1 GB. Una cartella di lavoro di Excel può essere composta da due parti: un modello di dati e il resto del report, cioè il contenuto di base del foglio di lavoro. Se il report rispetta i limiti di dimensioni seguenti, lo si può salvare in **OneDrive for Business**, ci si può connettere da Power BI e lo si può visualizzare in Excel Online:
@@ -28,7 +28,7 @@ Ecco alcuni elementi che possono far aumentare il contenuto di base del foglio d
 
 * Immagini.
 * Celle ombreggiate. [Rimuovere un formato di ombreggiatura delle celle](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
-* Fogli di lavoro colorati. [Rimuovere uno sfondo di un foglio](https://support.office.com/en-US/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
+* Fogli di lavoro colorati. [Rimuovere uno sfondo di un foglio](https://support.office.com/article/add-or-remove-a-sheet-background-3577a762-8450-4556-96a2-cc265abc00a8).
 * Caselle di testo.
 * ClipArt.
 
@@ -55,7 +55,7 @@ Quando si importano i dati in Excel, seguire questi suggerimenti:
 * **Nella scheda Dati di Excel**: non selezionare **Tabella** nella casella **Importa dati** .
 
 ## <a name="workbook-size-optimizer"></a>Strumento di ottimizzazione delle dimensioni della cartella di lavoro
-Se la cartella di lavoro contiene un modello di dati, è possibile eseguire lo strumento di ottimizzazione delle dimensioni della cartella di lavoro per ridurre le dimensioni della cartella di lavoro. [Scaricare lo strumento di ottimizzazione delle dimensioni della cartella di lavoro](https://www.microsoft.com/en-us/download/details.aspx?id=38793).
+Se la cartella di lavoro contiene un modello di dati, è possibile eseguire lo strumento di ottimizzazione delle dimensioni della cartella di lavoro per ridurre le dimensioni della cartella di lavoro. [Scaricare lo strumento di ottimizzazione delle dimensioni della cartella di lavoro](https://www.microsoft.com/download/details.aspx?id=38793).
 
 ## <a name="related-info"></a>Informazioni correlate
 [Creare un modello di dati con un utilizzo efficiente della memoria mediante Excel 2013 e il componente aggiuntivo PowerPivot](https://support.office.com/article/Create-a-memory-efficient-Data-Model-using-Excel-2013-and-the-Power-Pivot-add-in-951c73a9-21c4-46ab-9f5e-14a2833b6a70)

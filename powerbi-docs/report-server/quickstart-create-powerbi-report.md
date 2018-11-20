@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: bb6868784314b369fcc02e3a36caf7c82c3c5966
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 18fb96573052455034f8c257811daed6cb15529e
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564924"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679239"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creare un report di Power BI per Server di report di Power BI
 È possibile archiviare e gestire report di Power BI nel portale Web del Server di report di Power BI, proprio come nel cloud nel servizio Power BI (https://powerbi.com)). È possibile creare e modificare i report in Power BI Desktop e pubblicarli nel portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili su un dispositivo mobile.
@@ -31,7 +31,7 @@ Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pr
 
     ![Scaricare Power BI Desktop dal portale Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    In alternativa, passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (ottimizzato per il server di report di Power BI - agosto 2018) nell'Area download Microsoft.
+    In alternativa, passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (ottimizzato per il server di report di Power BI - agosto 2018) nell'Area download Microsoft.
 
 2. Nella pagina dell'Area download selezionare **Scarica**.
 

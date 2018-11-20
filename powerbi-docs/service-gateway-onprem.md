@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297137"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679019"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -100,7 +100,7 @@ Attualmente non è disponibile un'unica posizione dalla quale gli amministratori
 ## <a name="enabling-outbound-azure-connections"></a>Abilitare le connessioni in uscita di Azure
 
 Il gateway dati locale usa il bus di servizio di Azure per la connettività cloud e di conseguenza stabilisce connessioni in uscita all'area di Azure associata. Per impostazione predefinita, questo è il percorso del tenant di Power BI. Vedere [Dove si trova il tenant di Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-Se un firewall blocca le connessioni in uscita, è necessario configurare il firewall per consentire le connessioni in uscita dal gateway dati locale all'area di Azure associata. Per informazioni dettagliate sugli intervalli di indirizzi IP di ogni centro dati Azure, vedere [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Intervalli IP dei data center di Microsoft Azure).
+Se un firewall blocca le connessioni in uscita, è necessario configurare il firewall per consentire le connessioni in uscita dal gateway dati locale all'area di Azure associata. Per informazioni dettagliate sugli intervalli di indirizzi IP di ogni centro dati Azure, vedere [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653) (Intervalli IP dei data center di Microsoft Azure).
 > [!NOTE]
 > Gli intervalli di indirizzi IP possono variare nel tempo. Scaricare le informazioni più recenti a intervalli regolari. 
 

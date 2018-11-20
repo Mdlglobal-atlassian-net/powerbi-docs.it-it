@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548765"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679088"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Condividere un dashboard di Power BI che include collegamenti a un file di Excel in OneDrive
 In Power BI è possibile [connettersi alle cartelle di lavoro di Excel in OneDrive for Business](service-excel-workbook-files.md) e aggiungere riquadri a un dashboard dalla cartella di lavoro. Quando si condividono i dashboard oppure si crea un pacchetto di contenuto che include tale dashboard:
 
 * I colleghi possono visualizzare i riquadri senza bisogno di autorizzazioni per la cartella di lavoro. Si può quindi creare un pacchetto di contenuto con la certezza che i colleghi potranno visualizzare i riquadri creati dalla cartella di lavoro di Excel in OneDrive.
-* Facendo clic sul riquadro si apre la cartella di lavoro all'interno di Power BI. La cartella di lavoro verrà aperta solo se i colleghi dispongono almeno delle [autorizzazioni di lettura](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) per la cartella di lavoro in OneDrive for Business.
+* Facendo clic sul riquadro si apre la cartella di lavoro all'interno di Power BI. La cartella di lavoro verrà aperta solo se i colleghi dispongono almeno delle [autorizzazioni di lettura](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) per la cartella di lavoro in OneDrive for Business.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Condividere un dashboard che contiene i riquadri della cartella di lavoro
 Per condividere un dashboard collegato a una cartella di lavoro di Excel in OneDrive for Business, vedere l'articolo relativo alla [condivisione di dashboard](service-share-dashboards.md). La differenza è che si ha la possibilità di modificare le autorizzazioni per la cartella di lavoro di Excel collegata prima di condividerlo.
@@ -30,7 +30,7 @@ Per condividere un dashboard collegato a una cartella di lavoro di Excel in OneD
 
 1. Immettere gli indirizzi di posta elettronica dei colleghi.
 2. Per consentire ai colleghi di visualizzare la cartella di lavoro di Excel da Power BI, selezionare **Passa a OneDrive for Business per impostare le autorizzazioni della cartella di lavoro**.
-3. In OneDrive, [modificare le autorizzazioni](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in base alle esigenze.
+3. In OneDrive, [modificare le autorizzazioni](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in base alle esigenze.
 4. Seleziona **Condividi**.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Quando si [pubblica un pacchetto di contenuto](service-organizational-content-pa
    
     ![Cartella di lavoro di Excel in un pacchetto di contenuto](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Selezionare **Passa a OneDrive for Business per impostare le autorizzazioni della cartella di lavoro**.
-4. In OneDrive, [modificare le autorizzazioni](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in base alle esigenze.
+4. In OneDrive, [modificare le autorizzazioni](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) in base alle esigenze.
 5. Selezionare **Pubblica**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Condividere un dashboard da un'area di lavoro di Power BI

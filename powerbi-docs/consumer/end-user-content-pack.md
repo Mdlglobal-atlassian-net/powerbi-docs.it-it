@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507716"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679111"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Trovare e connettersi a un pacchetto di contenuto aziendale
 
@@ -38,7 +38,7 @@ Gli utenti di [Power BI Pro](https://powerbi.microsoft.com/pricing) possono pass
 ## <a name="connect-to-an-organizational-content-pack"></a>Connettersi a un pacchetto di contenuto aziendale
 * Selezionare **Scarica adesso** per connettersi al pacchetto di contenuto e aggiungerlo all'area di lavoro attiva. I nuovi dashboard, report, cartelle di lavoro di Excel e set di dati sono contrassegnati con un asterisco giallo.
 
-Se il pacchetti di contenuto contiene una cartella di Excel, può essere visualizzato un avviso che segnala che non si hanno le autorizzazioni per visualizzare la cartella di lavoro. In questo caso, chiedere al proprietario del pacchetto di contenuto di [condividere la cartella di lavoro con l'utente in OneDrive for Business](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+Se il pacchetti di contenuto contiene una cartella di Excel, può essere visualizzato un avviso che segnala che non si hanno le autorizzazioni per visualizzare la cartella di lavoro. In questo caso, chiedere al proprietario del pacchetto di contenuto di [condividere la cartella di lavoro con l'utente in OneDrive for Business](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 Il pacchetto di contenuto è bloccato. È possibile [salvare la propria copia del dashboard e dei report](../service-organizational-content-pack-copy-refresh-access.md). 
 

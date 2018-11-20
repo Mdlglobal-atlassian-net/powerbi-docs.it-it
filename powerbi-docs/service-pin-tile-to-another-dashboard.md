@@ -1,21 +1,21 @@
 ---
 title: Aggiungere un riquadro da un dashboard a un altro dashboard
 description: Aggiungere un riquadro da un dashboard a un altro dashboard
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d8a241a810cc41e908fd99df08f8eae53bac7f47
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545900"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717126"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Aggiungere un riquadro da un dashboard a un altro dashboard
 Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è possibile copiarlo da un altro dashboard. Ognuno di questi riquadri, quando si fa clic su di esso, è un collegamento per tornare al punto in cui è stato creato, ovvero in Domande e risposte o in un report. 
