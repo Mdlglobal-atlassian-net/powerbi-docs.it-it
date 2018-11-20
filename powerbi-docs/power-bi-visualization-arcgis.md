@@ -8,15 +8,15 @@ featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18e33fa4767eb0d9e457589ea3fa3b61721dce51
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548029"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266048"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop
 Questa esercitazione è stata scritta dal punto di vista di una persona che crea una mappa ArcGIS. Quando l'autore condivide una mappa ArcGIS con un collega, questi potrà vederla e interagire con essa, ma non salvare le modifiche. +Per altre informazioni sulla visualizzazione di una mappa ArcGIS, vedere [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
@@ -26,7 +26,7 @@ Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping
  Sebbene in un dispositivo mobile non sia possibile creare mappe ArcGIS, è possibile visualizzarle e interagire con esse. Vedere [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
 
 > [!TIP]
-> GIS è l'acronimo per Geographic Information Science (Scienza delle informazioni geografiche).
+> GIS è l'acronimo per Geographic Information System (Sistema informativo geografico).
 
 
 L'esempio seguente usa un'area di disegno di colore grigio scuro per mostrare le vendite per area geografica come mappa termica su un livello demografico relativo al reddito medio netto 2016. Come si spiegherà più avanti, le mappe ArcGIS offrono funzionalità avanzate di mapping praticamente illimitate, dati demografici e visualizzazioni mappa ancora più interessanti per poter ottenere i migliori risultati.

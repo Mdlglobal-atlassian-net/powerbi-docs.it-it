@@ -4,24 +4,26 @@ description: Questo articolo mette a confronto le funzionalità di Server di rep
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/07/2018
+ms.date: 11/06/2018
 ms.topic: overview
 ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: f78638097ea33f9954f3db78c117f1935a68530b
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: a693eef85f7eafe7cfac2a02cbccc346201a6f13
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908532"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507693"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
 Server di report di Power BI e il servizio Power BI hanno molte caratteristiche in comune e alcune differenze fondamentali, che vengono illustrate nella tabella seguente.
 
-| Funzionalità | Server di report Power BI | Servizio Power BI | Note
+## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Funzionalità di Server di report di Power BI e del servizio Power BI
+
+| Funzionalità | Server di report di Power BI | Servizio Power BI | Note
 |---------|---------|---------|---------|
 | Distribuzione | Cloud locale o ospitato | Cloud | Server di report di Power BI può essere distribuito nelle macchine virtuali di Azure (cloud ospitato) se concesso in licenza tramite Power BI Premium
 | Dati di origine | Cloud e/o locali | Cloud e/o locali |  
@@ -39,14 +41,14 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Domande e risposte | No | Sì | [Domande e risposte nel servizio Power BI e in Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Informazioni rapide | No | Sì | [Generare automaticamente informazioni dettagliate sui dati con Power BI](../consumer/end-user-insights.md) 
 | Analizza in Excel | No | Sì | [Analizza in Excel](../service-analyze-in-excel.md) 
-| Report impaginati | Sì | No | I report impaginati non sono disponibili nel servizio Power BI, ma è possibile [aggiungere elementi dei report impaginati ai dashboard di Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+| Report impaginati | Sì | Sì | [I report impaginati sono disponibili nel servizio Power BI](../paginated-reports-report-builder-power-bi.md) in anteprima
 | App Power BI per dispositivi mobili | Sì | Sì | [Panoramica sulle app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md) 
 | Mappe ArcGIS | No | Sì | [Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop](../power-bi-visualization-arcgis.md)
 | Sottoscrizioni tramite posta elettronica per i report di Power BI | No | Sì | [Sottoscrivere un report o un dashboard](../consumer/end-user-subscribe.md) nel servizio Power BI 
 | Sottoscrizioni tramite posta elettronica per report impaginati | Sì | No | [Recapito tramite posta elettronica in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  
 | Avvisi per i dati | No | Sì | [Avvisi per i dati](../service-set-data-alerts.md) nel servizio Power BI
 | Sicurezza a livello di riga | Solo tramite origine dati in modalità DirectQuery | Disponibile in modalità DirectQuery (origine dati) e importazione | [Sicurezza a livello di riga](../service-admin-rls.md) con Power BI 
-| Modalità schermo intero | No | Sì | [Modalità schermo intero](../service-fullscreen-mode.md) nel servizio Power BI 
+| Modalità schermo intero | No | Sì | [Modalità schermo intero](../consumer/end-user-focus.md) nel servizio Power BI 
 | Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro per le app](../service-collaborate-power-bi-workspace.md) con Office 365 
 | Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../visuals/service-r-visuals.md) nel servizio Power BI  
 | Funzionalità di anteprima | No | Sì | [Acconsentire esplicitamente alle funzionalità di anteprima del servizio Power BI](../consumer/end-user-preview-features.md) 

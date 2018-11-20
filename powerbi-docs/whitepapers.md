@@ -7,21 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: 88bfd67ddf284ea6b518c5ebdd6386887513f393
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223054"
+ms.locfileid: "51266094"
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
 I white paper consentono di esplorare gli argomenti di Power BI a un livello più profondo. Qui è possibile trovare un elenco dei white paper disponibili per Power BI.
 
-| White paper | Descrizione | Data |
+| White paper | Descrizione | Date |
 | --- | --- | --- |
+| [Power BI e i flussi di dati](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Questo white paper descrive i flussi di dati in dettagli tecnici e descrive le funzionalità e le iniziative su cui si basano le caratteristiche e le funzionalità del flusso di dati. | Novembre 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Illustra le funzionalità di Power BI Premium, sia all'avvio che nelle fasi successive. | Ottobre 2017 |
 | [Pianificazione e distribuzione di Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Questo documento fornisce indicazioni e procedure consigliate per la pianificazione e la distribuzione della capacità Premium per carichi di lavoro ben definiti.| Novembre 2017 |
 | [Pianificare la capacità di analisi incorporata con Power BI Premium](https://aka.ms/pbiewhitepaper) |Questo documento contiene indicazioni per gli sviluppatori/ISV di app per determinare la capacità più adatta alla propria attività. | Ottobre 2017 |

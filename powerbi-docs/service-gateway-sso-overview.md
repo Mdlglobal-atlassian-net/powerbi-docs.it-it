@@ -1,5 +1,5 @@
 ---
-title: Usare Single Sign-On (SSO) da Power BI alle origini dati locali
+title: Usare l'accesso Single Sign-On (SSO) alle origini dati locali
 description: Configurare il gateway per abilitare Single Sign-On (SSO) da Power BI alle origini dati locali.
 author: mgblythe
 ms.author: mblythe
@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: c489ff0e1b764a6ee3dc026e8294132dc8f49025
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: b728ba6ebaab81ea475f51b9134de34c37d4149b
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474588"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580495"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Panoramica dell'accesso Single Sign-On (SSO) per i gateway in Power BI
 
@@ -25,8 +25,10 @@ Sono attualmente supportate le origini dati seguenti:
 
 * SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
 * SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) e [SAML](service-gateway-sso-saml.md)
+* SAP BW ([Kerberos](service-gateway-sso-kerberos.md)
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
+* Impala ([Kerberos](service-gateway-sso-kerberos.md))
 
 Quando un utente interagisce con un report DirectQuery nel servizio Power BI, ogni operazione di filtro incrociato, filtro dei dati, ordinamento e modifica del report può comportare l'esecuzione di query in tempo reale sull'origine dati locale sottostante.  Quando per l'origine dati è configurato l'accesso Single Sign-On, le query vengono eseguite in base all'identità dell'utente che interagisce con Power BI, ovvero tramite l'esperienza Web o le app Power BI per dispositivi mobili. Di conseguenza, ogni utente visualizza con precisione i dati a cui è autorizzato ad accedere nell'origine dati sottostante e, grazie all'accesso Single Sign-On, si evita la memorizzazione nella cache di dati condivisi tra diversi utenti.
 

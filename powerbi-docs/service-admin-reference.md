@@ -1,5 +1,5 @@
 ---
-title: Cmdlet di PowerShell, API REST e .NET SDK per l'amministrazione di Power BI
+title: Cmdlet di PowerShell, API REST e .NET SDK per gli amministratori
 description: Informazioni su come amministrare Power BI tramite gli script e le API di programmazione.
 author: mgblythe
 manager: kfile
@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ffb2ae077add5756af63f07d8f3da830e075e0b4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4455fef5a2ed0e7ee23ff8ca3a0b626cd695838
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945291"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507992"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Cmdlet di PowerShell, API REST e .NET SDK per l'amministrazione di Power BI
 Power BI consente agli amministratori di creare script per le attività comuni tramite i cmdlet di PowerShell. Inoltre, espone le API REST e mette a disposizione .NET SDK per lo sviluppo di soluzioni di amministrazione. In questo argomento viene presentato un elenco di cmdlet con il metodo SDK e l'endpoint API REST corrispondenti. Per altre informazioni, vedere:

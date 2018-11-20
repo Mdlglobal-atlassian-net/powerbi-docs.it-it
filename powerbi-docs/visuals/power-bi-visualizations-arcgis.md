@@ -4,19 +4,18 @@ description: Uso della mappa ArcGis in visualizzazione di lettura come consumato
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003272"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266025"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interazione con le mappe ArcGIS in Power BI
 Questo argomento è stato scritto dal punto di vista di una persona che *utilizza* una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando l'autore condivide una mappa ArcGIS con l'utente, è possibile interagire con essa in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione Mappe di ArcGIS di Esri](../power-bi-visualization-arcgis.md).
@@ -24,7 +23,7 @@ Questo argomento è stato scritto dal punto di vista di una persona che *utilizz
 Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping di livello superiore, che non si limita alla presentazione di punti su una mappa. Le opzioni disponibili tra mappe di base, tipi di posizione, temi, stili per i simboli e livelli di riferimento aiutano a creare visualizzazioni mappa ricche di dettagli e di grande impatto visivo. La combinazione di livelli di dati autorevoli (ad esempio dati di censimento) su una mappa con l'analisi spaziale consente di ottenere informazioni più approfondite sui dati nella visualizzazione.
 
 > [!TIP]
-> GIS è l'acronimo per Geographic Information Science (Scienza delle informazioni geografiche).
+> GIS è l'acronimo per Geographic Information System (Sistema informativo geografico).
 > 
 
 L'esempio illustrato corrisponde alla mappa ArcGIS creata nell'[esercitazione Mappe di ArcGIS di Esri](../power-bi-visualization-arcgis.md), che prende in esame le vendite dello scorso anno in base alla città e usa una mappa base delle strade, simboli di bolle per la rappresentazione delle dimensioni e un livello di riferimento per il reddito familiare medio. La mappa contiene tre puntine e il raggio del tempo di guida (in viola).

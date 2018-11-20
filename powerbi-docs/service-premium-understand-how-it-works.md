@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641742"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266071"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Ottimizzazione e gestione delle risorse della capacità Microsoft Power BI Premium
 
@@ -26,6 +26,7 @@ Questo articolo descrive le modalità di gestione delle risorse in Power BI Prem
 
 * I set di dati caricati in memoria
 * Gli aggiornamenti dei set di dati (pianificati e su richiesta)
+* I carichi di lavoro supportati dalla capacità
 * Le query dei report
 
 Quando viene eseguita una richiesta su un set di dati pubblicato nella capacità, il set di dati viene caricato in memoria dall'archivio permanente, un'operazione anche detta caricamento dell'immagine. Mantenere il set di dati caricato in memoria favorisce la risposta veloce alle future query su di esso. Alla memoria necessaria per mantenere il set di dati caricato in memoria occorre aggiungere quella usata dalle query dei report e dagli aggiornamenti del set di dati.
@@ -40,7 +41,7 @@ Power BI Premium offre la possibilità di eseguire l'*overcommit* della capacit�
 
 Dunque, quali set di dati restano in memoria e cosa accade agli altri? Come descritto in precedenza, quando viene eseguita una richiesta su un set di dati, questo viene caricato in memoria (caricamento dell'immagine). La richiesta può essere una query di report o un'operazione di aggiornamento. Ma poiché è possibile eseguire l'overcommit della capacità, può verificarsi una situazione di utilizzo elevato di memoria. In questi casi, il nodo *rimuove* uno o più set di dati dalla memoria. I set di dati inattivi (senza operazioni di query/aggiornamento in esecuzione) vengono rimossi per primi. Poi l'ordine di rimozione si basa sul principio LRU ("utilizzati meno di recente"). Se vengono eseguiti nuovi comandi sul set di dati rimosso, il servizio tenta di ricaricarlo in memoria, potenzialmente rimuovendo altri set di dati. Questo comportamento consente un utilizzo più efficiente, permettendo alla capacità di gestire molti più set di dati rispetto a quanto la memoria possa contenere.
 
-Il caricamento di un set di dati in memoria è un'operazione piuttosto costosa. In base alle dimensioni del set di dati, può durare da pochi secondi per i set di dati di piccole dimensioni a decine di secondi o persino minuti per quelli di circa 10 GB. La capacità Premium tenta di ridurre al minimo il numero di volte in cui sarà necessario caricare la capacità, mantenendo in memoria i set di dati usati meno di recente per il maggior tempo possibile. Quando è necessaria memoria aggiuntiva, alcuni set di dati dovranno essere rimossi e il sistema tenterà di scegliere quello con l'impatto minore sull'esperienza utente. Quando è necessaria memoria aggiuntiva, alcuni set di dati dovranno essere rimossi e il sistema tenterà di scegliere quello con l'impatto minore sull'esperienza utente. Ad esempio, il sistema eviterà di rimuovere set di dati usati attivamente negli ultimi minuti. È probabile che presto verranno di nuovo eseguite query su questi set di dati.
+Il caricamento di un set di dati in memoria è un'operazione piuttosto costosa. In base alle dimensioni del set di dati, può durare da pochi secondi per i set di dati di piccole dimensioni a decine di secondi o persino minuti per quelli di circa 10 GB. La capacità Premium tenta di ridurre al minimo il numero di volte in cui sarà necessario caricare la capacità, mantenendo in memoria i set di dati usati più di recente per il maggior tempo possibile. Quando è necessaria memoria aggiuntiva, alcuni set di dati dovranno essere rimossi e il sistema tenterà di scegliere quello con l'impatto minore sull'esperienza utente. Quando è necessaria memoria aggiuntiva, alcuni set di dati dovranno essere rimossi e il sistema tenterà di scegliere quello con l'impatto minore sull'esperienza utente. Ad esempio, il sistema eviterà di rimuovere set di dati usati attivamente negli ultimi minuti. È probabile che presto verranno di nuovo eseguite query su questi set di dati.
 
 Il processo di rimozione di per sé è un'operazione rapida. Se il set di dati non è in uso attivo al momento della rimozione, l'impatto sull'utente sarà ridotto. Tuttavia, se un numero eccessivo di set di dati è in uso attivo nello stesso momento e non vi è memoria sufficiente per contenerli tutti, possono verificarsi molte rimozioni. Troppi set di dati attivi possono determinare una situazione di "thrashing" in cui set di dati vengono costantemente rimossi e ricaricati e gli utenti potrebbero riscontrare un calo evidente in termini di tempi di risposta e prestazioni.
 
@@ -51,6 +52,10 @@ I set di dati possono essere aggiornati in base a una pianificazione o su richie
 Se la memoria necessaria non è disponibile nonostante la rimozione, l'aggiornamento viene accodato per la ripetizione del tentativo. Il servizio riprova finché l'operazione non ha esito positivo o finché non viene avviata una nuova azione di aggiornamento.
 
 Se viene eseguita una query interattiva su qualsiasi set di dati della capacità e non è disponibile memoria sufficiente a causa di un aggiornamento in corso, la richiesta ha esito negativo e l'utente deve eseguire un nuovo tentativo.
+
+### <a name="workloads"></a>Carichi di lavoro
+
+Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. È ora disponibile il supporto in anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Se abilitati, questi carichi di lavoro possono influire sull'utilizzo della memoria nella capacità. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Gestione delle risorse CPU nella capacità Premium
 

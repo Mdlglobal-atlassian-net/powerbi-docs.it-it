@@ -1,5 +1,5 @@
 ---
-title: Creare analisi e visualizzazione avanzate con gli script R in Power BI
+title: Creare analisi e visualizzazioni avanzate con gli script R
 description: Usare script R in Power BI per creare analisi e visualizzazioni avanzate
 author: mihart
 manager: kvivek
@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 409a2ee486d0153e0dec2f715ff0e2ea19e236d7
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566350"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297114"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Creazione di oggetti visivi R nel servizio Power BI
 Il servizio Power BI supporta la visualizzazione e l'interazione con oggetti visivi creati con gli script R. Gli oggetti visivi creati con gli script R, comunemente denominati *oggetti visivi R*, possono presentare funzionalità avanzate di data shaping e analisi, ad esempio le previsioni, usando le funzionalità avanzate di analisi e visualizzazione di R.
 
 > [!NOTE]
-> Il [linguaggio di programmazione R](https://www.r-project.org/) è uno dei linguaggi di programmazione maggiormente usati da statistici, data scientist e business analyst. Per il linguaggio R è disponibile una community open source che offre oltre 7.000 pacchetti di componenti aggiuntivi nonché [gruppi di utenti R](http://msdsug.microsoft.com/) ampiamente usati. La versione di R distribuita nel servizio Power BI è *Revolution R Open 3.2.2.*
+> Il [linguaggio di programmazione R](https://www.r-project.org/) è uno dei linguaggi di programmazione maggiormente usati da statistici, data scientist e business analyst. Per il linguaggio R è disponibile una community open source che offre oltre 7.000 pacchetti di componenti aggiuntivi nonché gruppi di utenti R ampiamente usati. La versione di R distribuita nel servizio Power BI è *Revolution R Open 3.2.2.*
 > 
 > 
 

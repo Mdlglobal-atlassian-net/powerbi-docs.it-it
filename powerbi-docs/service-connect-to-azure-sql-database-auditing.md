@@ -7,17 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 11/09/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ce1769d343f5a5923b1a436a2cc0c97428f74152
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: b3b461bedc9eb60607f56c82c5af8de0ed690c06
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101136"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507598"
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Pacchetto di contenuto Servizio di controllo del database SQL per Power BI
+
+> [!IMPORTANT]
+> Il pacchetto di contenuto Servizio di controllo del database SQL è stato deprecato e non è più disponibile.
+ 
 Il pacchetto di contenuto Power BI per il [servizio di controllo del database SQL](/azure/sql-database/sql-database-auditing/) di Azure consente di comprendere l'attività del database e di ottenere informazioni su discrepanze e anomalie che potrebbero indicare problemi aziendali o possibili violazioni della sicurezza. 
 
 Connettersi al [pacchetto di contenuto Servizio di controllo del database SQL](https://app.powerbi.com/getdata/services/sql-db-auditing) per Power BI.

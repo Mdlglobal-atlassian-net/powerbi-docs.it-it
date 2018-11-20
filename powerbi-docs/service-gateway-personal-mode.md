@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298206"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273334"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway dati locale (modalità personale)
 È possibile usare origini dati locali e creare report e dashboard di Power BI usando un gateway. Il termine **gateway** indica il software usato per agevolare l'accesso a dati archiviati in una rete privata locale, che permette di usarli nei servizi online, come il **servizio Power BI**. Il **Gateway dati locale (modalità personale)** è un aggiornamento recente del gateway di Power BI che consente agli utenti di installare un gateway nel proprio computer e accedere ai dati locali.
@@ -132,7 +132,7 @@ Il supporto per Spark è previsto per la seconda metà dell'anno di calendario 2
   * **Risposta**: se si vogliono aggiornare i report con il gateway corrente, gli aggiornamenti verranno interrotti. L'unico modo per impostare una nuova pianificazione di aggiornamento consiste nell'installare e configurare il nuovo gateway.
 * L'uso dello script R è supportato?
   
-  * **Risposta**: il supporto per gli script R sarà presto disponibile.
+  * **Risposta**: gli script R sono supportati per la modalità personale.
 * Perché viene non visualizzato il messaggio per aggiornare il gateway nel **servizio Power BI**?
   
   * **Risposta**: molto probabilmente perché uno o più set di dati includono un'origine dati ancora non supportata.
