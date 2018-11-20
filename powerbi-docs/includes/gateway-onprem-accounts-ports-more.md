@@ -61,14 +61,14 @@ Per riferimento futuro, è possibile riavviare il *servizio Windows del gateway*
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>Supporto per TLS 1.1/1.2
+## <a name="support-for-tls-12"></a>Supporto per TLS 1.2
 
-Per impostazione predefinita il gateway dati locale usa il protocollo TLS (Transport Layer Security) 1.1 o 1.2 per comunicare con il **servizio Power BI**. Le versioni precedenti del gateway dati locale usano TLS 1.0 per impostazione predefinita. Il supporto per TLS 1.0 è terminato il 15 marzo 2018, inclusa la possibilità del gateway di interagire con il **servizio Power BI** tramite TLS 1.0. È necessario aggiornare le installazioni del gateway dati locale per assicurare la continuità operativa dei gateway.
+Per impostazione predefinita il gateway dati locale usa il protocollo TLS (Transport Layer Security) 1.2 per comunicare con il servizio Power BI. Per assicurare che tutto il traffico del gateway usi TLS 1.2 potrebbe essere necessario aggiungere o modificare le chiavi del Registro di sistema seguenti nel computer che esegue il servizio gateway:
 
-È importante notare che TLS 1.0 è ancora supportato dal gateway dati locale prima dell'1 novembre e viene usato dal gateway come meccanismo di fallback. Per assicurare che tutto il traffico del gateway usi TLS 1.1 o 1.2 e per evitare l'uso di TLS 1.0 nel gateway, è necessario aggiungere o modificare le chiavi del Registro di sistema seguenti nel computer che esegue il servizio gateway:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > L'aggiunta o la modifica di queste chiavi del Registro di sistema viene applicata a tutte le applicazioni .NET. Per informazioni sulle modifiche del Registro di sistema che influiscono su TLS per altre applicazioni, vedere [Impostazioni del Registro di sistema per TLS (Transport Layer Security)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

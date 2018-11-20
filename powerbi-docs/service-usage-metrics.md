@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545033"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619840"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
 
@@ -69,7 +69,7 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
     > [!NOTE]
     > Se si aggiunge un titolo di un rapporto sulle metriche di utilizzo a un dashboard, non è possibile aggiungere il dashboard a un pacchetto di app o contenuti.
 
-## <a name="what-metrics-are-reported"></a>Quali metriche vengono inserite nel report?
+## <a name="which-metrics-are-reported"></a>Quali metriche vengono inserite nel report?
 
 | Metrica | Dashboard | Report | Descrizione |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ Quando disabilitano le metriche di utilizzo per l'intera organizzazione, gli amm
 Power BI è disponibile in cloud nazionali separati. Questi cloud offrono gli stessi livelli di sicurezza, privacy, conformità e trasparenza della versione globale di Power BI, combinati a un modello univoco per i regolamenti locali su fornitura del servizio, residenza dei dati, accesso e controllo. A causa di questo modello univoco per i regolamenti locali, le metriche di utilizzo non sono disponibili nei cloud nazionali. Per altre informazioni, vedere [Cloud nazionali](https://powerbi.microsoft.com/en-us/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+
+È importante comprendere le differenze che possono verificarsi quando si confrontano i log di controllo e le metriche di utilizzo e il motivo di tali differenze. I *log di controllo* vengono raccolti usando i dati del servizio Power BI e le *metriche di utilizzo* vengono raccolte nel client. A causa di questa differenza, i conteggi aggregati delle attività nei log di controllo potrebbero non corrispondere sempre alle metriche di utilizzo, per i motivi seguenti:
+
+* Le metriche di utilizzo potrebbero talvolta sottostimare le attività a causa di connessioni di rete non coerenti, funzionalità di blocco degli annunci o altri problemi che possono interrompere l'invio di eventi dal client.
+* Alcuni tipi di visualizzazioni non sono inclusi nelle metriche di utilizzo, come descritto in precedenza in questo articolo.
+* Le metriche di utilizzo potrebbero talvolta sovrastimare le attività, ad esempio quando il client viene aggiornato senza necessità di inviare una richiesta al servizio Power BI.
+
+
+Oltre alle potenziali differenze tra i log di controllo e le metriche di utilizzo, le domande e risposte seguenti sulle metriche di utilizzo possono essere utili per gli utenti e gli amministratori:
 
 Q:    Non è possibile eseguire le metriche di utilizzo in un dashboard o un report R:    È possibile visualizzare solo le metriche di utilizzo relative al contenuto di cui si è proprietari o per cui si hanno le autorizzazioni di modifica.
 

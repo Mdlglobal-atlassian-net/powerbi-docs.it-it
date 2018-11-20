@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fe13e5776648342aa4f7e86dce657e6ffcca11b9
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 2ecd4b8e6295431f520dea61454bbf868bfab254
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512924"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619677"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop-preview"></a>Connettersi a un file PDF in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile connettersi a un **file PDF** e usare i dati inclusi nel file esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -45,6 +45,10 @@ Viene chiesto di specificare il percorso del file PDF da usare. Una volta specif
 ![Connettersi ai dati in file PDF](media/desktop-connect-pdf/connect-pdf_04.png)
 
 Selezionando una casella di controllo accanto agli elementi individuati nel file PDF, tali elementi vengono visualizzati nel riquadro di destra. Quando si è pronti per l'importazione, selezionare il pulsante **Carica** per visualizzare i dati in **Power BI Desktop**.
+
+A partire dalla versione di novembre 2018 di **Power BI Desktop**, è possibile specificare la **pagina iniziale** e la **pagina finale** come parametri facoltativi per la connessione PDF. È anche possibile specificare questi parametri nel linguaggio delle formule M, usando il formato seguente:
+
+`Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
 
 
 ## <a name="next-steps"></a>Passaggi successivi

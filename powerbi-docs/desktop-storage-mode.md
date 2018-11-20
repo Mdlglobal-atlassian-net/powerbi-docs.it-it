@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359747"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619495"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modalità di archiviazione in Power BI Desktop (anteprima)
 
@@ -43,16 +43,6 @@ L'impostazione della modalità di archiviazione in Power BI Desktop corrisponde 
 
 * **Modalità di archiviazione**: ora è possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano query che venivano inviate alle origini di back-end. La modalità di archiviazione è descritta più dettagliatamente in questo articolo.
 
-## <a name="enable-the-storage-mode-preview-feature"></a>Abilitare la funzionalità di anteprima modalità di archiviazione
-
-La funzionalità modalità di archiviazione è disponibile in anteprima e deve essere abilitata in Power BI Desktop. Per abilitare la modalità di archiviazione, selezionare **File** > **Opzioni e impostazioni** > **Opzioni** > **Funzionalità di anteprima** e quindi selezionare la casella di controllo **Modelli compositi**. 
-
-![Riquadro "Funzionalità di anteprima"](media/desktop-composite-models/composite-models_02.png)
-
-Per abilitare la funzionalità, riavviare Power BI Desktop.
-
-![Finestra "La funzionalità richiede il riavvio"](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>Usare la proprietà modalità di archiviazione
 
 La modalità di archiviazione è una proprietà che è possibile impostare per ogni tabella nel modello. Per impostare la modalità di archiviazione, nel riquadro **Campi** fare clic con il pulsante destro del mouse sulla tabella di cui si vogliono impostare le proprietà e quindi scegliere **Proprietà**.
@@ -75,19 +65,7 @@ L'impostazione di una tabella su **Importa** è un'operazione *irreversibile*. N
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Vincoli delle impostazioni DirectQuery e Doppia per le tabelle
 
-Le tabelle in modalità Doppia hanno gli stessi vincoli delle tabelle in modalità DirectQuery, incluse trasformazioni M limitate e funzioni DAX con restrizioni nelle colonne calcolate. Per altre informazioni, vedere [Implicazioni dell'uso di DirectQuery](desktop-directquery-about.md#implications-of-using-directquery).
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>Regole per le relazioni nelle tabelle con modalità di archiviazione diverse
-
-Le relazioni devono essere conformi alle regole basate sulla modalità di archiviazione delle tabelle correlate. In questa sezione sono disponibili esempi di combinazioni valide. Per altre informazioni, vedere [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md).
-
-Per un set di dati con una singola origine dati, sono valide le combinazioni di relazioni*uno-a-molti* seguenti:
-
-| Tabella sul lato *molti* | Tabella sul lato *uno* |
-| ------------- |----------------------| 
-| Doppia          | Doppia                 | 
-| Importa        | Importa o Doppia       | 
-| DirectQuery   | DirectQuery o Doppia  | 
+Le tabelle Dual hanno gli stessi vincoli funzionali delle tabelle DirectQuery, incluse trasformazioni M limitate e funzioni DAX con restrizioni nelle colonne calcolate. Per altre informazioni, vedere [Implicazioni dell'uso di DirectQuery](desktop-directquery-about.md#implications-of-using-directquery).
 
 ## <a name="propagation-of-dual"></a>Propagazione di Doppia
 Si consideri il modello semplice seguente, in cui tutte le tabelle provengono da un'origine singola che supporta le impostazioni Importa e DirectQuery.
@@ -98,14 +76,11 @@ Per iniziare, si supponga che tutte le tabelle in questo modello siano di tipo D
 
 ![Finestra di avviso per la modalità di archiviazione](media/desktop-storage-mode/storage-mode_05.png)
 
-Le tabelle delle dimensioni (*Customer*, *Date* e *Geography*) devono essere impostate su **Doppia** per rispettare le regole per le relazioni descritte in precedenza. Invece di dover impostare queste tabelle su **Doppia** anticipatamente, è possibile impostarle in un'unica operazione.
+Le tabelle delle dimensioni (*Customer*, *Geography* e *Date*) possono essere impostate su **Dual** per ridurre il numero di relazioni deboli nel set di dati e migliorare le prestazioni. Le relazioni deboli implicano in genere almeno una tabella DirectQuery in cui non è possibile effettuare il push della logica di join nei sistemi di origine. Il fatto che le tabelle **Dual** possano fungere da DirectQuery o Import consente di evitare questo problema.
 
 La logica di propagazione è progettata per agevolare l'uso di modelli contenenti molte tabelle. Si supponga di avere un modello con 50 tabelle e che solo determinate tabelle dei fatti (transazionali) debbano essere memorizzata nella cache. La logica in Power BI Desktop calcola il set minimo di tabelle delle dimensioni che devono essere impostate su **Doppia**, quindi non è necessario procedere manualmente.
 
 La logica di propagazione attraversa solo un lato delle relazioni **uno-a-molti**.
-
-* L'impostazione della tabella *Customer* su **Importa** (anziché modificare *SurveyResponse*) non è consentita a causa delle relative relazioni con le tabelle DirectQuery *Sales* e *SurveyResponse*.
-* L'impostazione della tabella *Customer* su **Doppia** (anziché modificare *SurveyResponse*) è consentita. La logica di propagazione imposta anche la tabella *Geography* su **Doppia**.
 
 ## <a name="storage-mode-usage-example"></a>Esempio di utilizzo della modalità di archiviazione
 È possibile continuare con l'esempio nella sezione precedente e immaginare di applicare le impostazioni della proprietà Modalità di archiviazione seguenti:
@@ -113,7 +88,7 @@ La logica di propagazione attraversa solo un lato delle relazioni **uno-a-molti*
 | Tabella                   | Modalità di archiviazione         |
 | ----------------------- |----------------------| 
 | *Sales*                 | DirectQuery          | 
-| *SurveyResponse*        | Importa               | 
+| *SurveyResponse*        | Importazione               | 
 | *Date*                  | Doppia                 | 
 | *Customer*              | Doppia                 | 
 | *Geography*             | Doppia                 | 
@@ -178,7 +153,7 @@ Non è possibile usare modelli compositi con le origini Live Connect (multidimen
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Set di dati Power BI
-* Analysis Services
+* Azure Analysis Services
 
 Quando ci si connette a tali origini multidimensionali tramite DirectQuery, non è possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 
@@ -191,4 +166,3 @@ Per altre informazioni sui modelli compositi e DirectQuery, vedere gli articoli 
 * [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md)
 * [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 * [Origini dati supportate da DirectQuery in Power BI](desktop-directquery-data-sources.md)
-

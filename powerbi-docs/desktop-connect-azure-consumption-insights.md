@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329915"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619610"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -49,9 +49,20 @@ Specificare quindi la *chiave di accesso* per la connessione.
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Dopo aver specificato la *chiave di accesso* e selezionato **Connetti**, verrà visualizzata la finestra **Strumento di navigazione** con quattro tabelle: *Summaries*, *UsageDetails*, *PriceSheets* e *MarketPlace*. È possibile selezionare una casella di controllo accanto a qualsiasi tabella per visualizzare un'anteprima. È possibile selezionare una o più tabelle selezionando la casella di controllo accanto al nome, quindi selezionare **Carica**.
+Dopo aver specificato la *chiave di accesso* e selezionato **Connetti**, verrà visualizzata la finestra **Strumento di navigazione** con nove tabelle: 
+* **Budgets**: fornisce i dettagli sui budget per visualizzare i costi effettivi o l'utilizzo rispetto alle destinazioni dei budget esistenti. 
+* **MarketPlace**: indica gli addebiti per Azure Marketplace basati sull'utilizzo.
+* **PriceSheets**: indica le tariffe applicabili in base al contatore per una registrazione.
+* **RICharges**: indica gli addebiti associati alle istanze riservate negli ultimi 24 mesi.
+* **RIRecommendations_Single**: fornisce le raccomandazioni per l'acquisto di istanze riservate in base alle tendenze di utilizzo di una sottoscrizione singola negli ultimi 7, 30 o 60 giorni.
+* **RIRecommendations_Shared**: fornisce le raccomandazioni per l'acquisto di istanze riservate in base alle tendenze di utilizzo di tutte le sottoscrizioni negli ultimi 7, 30 o 60 giorni.
+* **RIUsage**: fornisce i dettagli del consumo per le istanze riservate nell'ultimo mese.
+* **Summaries**: fornisce un riepilogo mensile di saldi, nuovi acquisti, addebiti per il servizio Azure Marketplace, rettifiche e addebiti per la quantità in eccedenza.
+* **UsageDetails**: fornisce una suddivisione delle quantità utilizzate e degli addebiti stimati per una registrazione.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+È possibile selezionare una casella di controllo accanto a qualsiasi tabella per visualizzare un'anteprima. È possibile selezionare una o più tabelle selezionando la casella di controllo accanto al nome, quindi selezionare **Carica**.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > Le tabelle *Summary* e *PriceSheets* sono disponibili solo per la chiave API a livello di registrazione. I dati in queste tabelle sono per impostazione predefinita i dati del mese corrente per *UsageDetails* e *PriceSheets*. Le tabelle *Summaries* e *MarketPlace* non sono vincolate al mese corrente.
@@ -152,15 +163,15 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | Consumed Quantity |consumedQuantity |Consumed Quantity |No |
 | Consumed Service |consumedService |Consumed Service |No |
 | ConsumedServiceId |consumedServiceId | |Sì |
-| Cost |cost |ExtendedCost |No |
+| Costo |cost |ExtendedCost |No |
 | Centro di costo |costCenter |Centro di costo |No |
-| Data |data |Data |No |
+| Date |data |Date |No |
 | Giorno | |Giorno |No |
 | DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
 | ID istanza | | |Sì |
 | InstanceId |instanceId |ID istanza |No |
-| Posizione | | |Sì |
+| Località | | |Sì |
 | Meter Category |meterCategory |Meter Category |No |
 | Meter ID | | |Sì |
 | Meter Name |meterName |Meter Name |No |

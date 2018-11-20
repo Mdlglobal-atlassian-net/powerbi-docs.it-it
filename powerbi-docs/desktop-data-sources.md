@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336899"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619817"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -30,8 +30,6 @@ Se si sceglie **Altro** dal menu **Più comuni**, viene visualizzata la finestra
 
 > [!NOTE]
 > Il team di Power BI espande in continuazione le origini dati disponibili in **Power BI Desktop** e nel **servizio Power BI**. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come *Beta* o *Anteprima*. Qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione.
-> 
-> 
 
 ## <a name="data-sources"></a>Origini dati
 I tipi di dati sono organizzati nelle categorie seguenti:
@@ -80,15 +78,14 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Impala
 * Google BigQuery
 * Snowflake
+* Connettore BI
+* Exasol
 * Dremio (Beta)
-* Exasol (beta)
 * Jethro (beta)
 * Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Alcuni connettori di database devono essere abilitati selezionando **File > Opzioni e impostazioni > Opzioni** e quindi **Funzionalità in anteprima**. Se alcuni dei connettori citati sopra non sono visibili e si vuole usarli, controllare le impostazioni **Funzionalità in anteprima**. Si noti anche che qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione.
-> 
-> 
 
 La figura seguente mostra la finestra **Recupera dati** per **Database**.
 
@@ -111,11 +108,11 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Archivio BLOB Azure
 * Archivio tabelle Azure
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure KustoDB (beta)
+* Esplora dati di Azure (beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
@@ -131,7 +128,8 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Dynamics 365 Business Central (locale)
 * Common Data Service per le app (beta)
 * Microsoft Azure Consumption Insights (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (beta)
+* Azure DevOps Server (beta)
 * Oggetti Salesforce
 * Report di Salesforce
 * Google Analytics
@@ -187,8 +185,6 @@ La figura seguente mostra la finestra **Recupera dati** per **Altro**.
 
 > [!NOTE]
 > Al momento non è possibile connettersi a origini dati personalizzate protette con Azure Active Directory.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Connessione a un'origine dati
 Per connettersi a un'origine dati, selezionare l'origine dati dalla finestra **Recupera dati** e selezionare **Connetti**. Nella figura seguente **Web** viene selezionato dalla categoria di connessione dati **Altro** .

@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359724"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619725"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregazioni in Power BI Desktop (anteprima)
 
-L'uso delle **aggregazioni** in Power BI consente di eseguire analisi interattive su big data in modi che in precedenza non erano possibili. Le **aggregazioni** possono ridurre notevolmente il costo dello sblocco di grandi set di dati da impiegare per processi decisionali.
+L'uso delle **aggregazioni** in Power BI consente di eseguire analisi interattive su Big Data in modi che in precedenza non erano possibili. Le **aggregazioni** possono ridurre notevolmente il costo dello sblocco di grandi set di dati da impiegare per processi decisionali.
 
 ![Aggregazioni in Microsoft Power BI Desktop](media/desktop-aggregations/aggregations_07.jpg)
 
 L'elenco seguente indica i vantaggi derivanti dall'utilizzo delle **aggregazioni**:
 
-* **Prestazioni delle query su set di dati di grandi dimensioni**: quando gli utenti interagiscono con gli oggetti visivi nei report di Power BI, al set di dati vengono inviate query DAX. L'elaborazione delle query ha una velocità maggiore grazie alla memorizzazione dei dati nella cache a livello di aggregazione e usa una frazione delle risorse necessarie per l'elaborazione a livello di dettaglio. I big data vengono sbloccati in un modo che non sarebbe altrimenti possibile.
+* **Prestazioni delle query su Big Data**: quando gli utenti interagiscono con gli oggetti visivi nei report di Power BI, al set di dati vengono inviate query DAX. L'elaborazione delle query ha una velocità maggiore grazie alla memorizzazione dei dati nella cache a livello di aggregazione e usa una frazione delle risorse necessarie per l'elaborazione a livello di dettaglio. I Big Data vengono sbloccati in un modo che non sarebbe altrimenti possibile.
 * **Ottimizzazione dell'aggiornamento dati**: le dimensioni della cache e i tempi di aggiornamento sono inferiori perché i dati vengono memorizzati a livello di aggregazione. Il tempo necessario per rendere i dati disponibili per gli utenti è minore.
 * **Creazione di architetture bilanciate**: la cache in memoria di Power BI gestisce le query aggregate in modo efficace. Le query inviate all'origine dati in modalità DirectQuery sono limitate per facilitare il rispetto dei limiti di concorrenza. Le query che vengono accettate tendono ad essere query di livello transazionale filtrate che vengono, generalmente, gestite correttamente dai sistemi per big data e dai data warehouse.
 
 ### <a name="table-level-storage"></a>Archiviazione a livello di tabella
-L'archiviazione a livello di tabella viene in genere usata insieme alla funzionalità di aggregazione. Vedere l'articolo [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md) per altre informazioni.
+L'archiviazione a livello di tabella viene in genere usata insieme alla funzionalità di aggregazione. Vedere l'articolo [Modalità di archiviazione in Power BI Desktop](desktop-storage-mode.md) per altre informazioni.
 
 ### <a name="data-source-types"></a>Tipi di origini dati
-Le aggregazioni vengono utilizzate con origini dati che rappresentano modelli dimensionali, ad esempio data warehouse o data mart, nonché con origini big data basate su Hadoop. Questo articolo descrive le comuni differenze di modellazione in Power BI per ogni tipo di origine dati.
+Le aggregazioni vengono usate con origini dati che rappresentano modelli dimensionali, ad esempio data warehouse, data mart e origini Big Data basate su Hadoop. Questo articolo descrive le comuni differenze di modellazione in Power BI per ogni tipo di origine dati.
 
 Tutte le origini Import e DirectQuery (non multidimensionali) di Power BI funzionano con le aggregazioni.
 
@@ -55,13 +55,13 @@ Si consideri il modello seguente, che proviene da una singola origine dati. Si s
 
 ![tabelle in un modello](media/desktop-aggregations/aggregations_02.jpg)
 
-Quindi, la tabella **Sales Agg** verrà creata come tabella di aggregazione. Ha una granularità maggiore rispetto a **Sales** e pertanto conterrà molte meno righe. Il numero di righe è uguale alla somma di **SalesAmount** con i valori raggruppati per **CustomerKey**, **DateKey** e **ProductSubcategoryKey**. Anziché miliardi di righe ci saranno milioni di righe, una quantità molto più facile da gestire.
+Quindi, la tabella **Sales Agg** verrà creata come tabella di aggregazione. Ha una granularità maggiore rispetto a **Sales**, quindi contiene molte meno righe. Il numero di righe è uguale alla somma di **SalesAmount** con i valori raggruppati per **CustomerKey**, **DateKey** e **ProductSubcategoryKey**. Anziché miliardi di righe ci saranno milioni di righe, una quantità molto più facile da gestire.
 
-Si supponga che le seguenti tabelle delle dimensioni siano quelle usate più spesso per le query con elevato valore per l'azienda. Sono le tabelle con le quali è possibile filtrare **Sales Agg** utilizzando relazioni *uno-a-molti* o *molti-a-uno*. Relazioni di altri tipi, ad esempio *molti-a-molti* oppure *multiorigine*, non vengono considerate per le aggregazioni.
+Si supponga che le seguenti tabelle delle dimensioni siano quelle usate più spesso per le query con elevato valore per l'azienda. Sono le tabelle con le quali è possibile filtrare **Sales Agg** utilizzando relazioni *uno-a-molti* o *molti-a-uno*.
 
 * Geografia
 * Cliente
-* Data
+* Date
 * Sottocategoria prodotto
 * Categoria prodotto
 
@@ -77,7 +77,7 @@ Continuiamo con l'esempio illustrato. Impostiamo la modalità di archiviazione d
 
 ![impostazione della modalità di archiviazione](media/desktop-aggregations/aggregations_04.jpg)
 
-Quando si esegue questa operazione, viene visualizzata la finestra di dialogo seguente in cui si segnala che le tabelle delle dimensioni correlate verranno impostate sulla modalità di archiviazione **Dual**. 
+Quando si esegue questa operazione, viene visualizzata la finestra di dialogo seguente in cui si segnala che le tabelle delle dimensioni correlate possono essere impostate sulla modalità di archiviazione **Dual**. 
 
 ![finestra di dialogo della modalità di archiviazione](media/desktop-aggregations/aggregations_05.jpg)
 
@@ -88,7 +88,23 @@ L'impostazione **Dual** consente alle tabelle delle dimensioni di utilizzare la 
 
 Per altre informazioni sulla modalità di archiviazione **Dual**, vedere l'articolo [Modalità di archiviazione](desktop-storage-mode.md).
 
-> Nota: Ia tabella **Sales Agg** è nascosta. Le tabelle di aggregazione devono essere nascoste dai consumer del set di dati. I consumer e le query fanno riferimento alla tabella dettagli, non alla tabella di aggregazione. Non è nemmeno necessario che siano a conoscenza dell'esistenza della tabella di aggregazione.
+### <a name="strong-vs-weak-relationships"></a>Relazioni forti e deboli
+I riscontri di aggregazione basati sulle relazioni richiedono relazioni forti.
+
+Le relazioni forti includono le combinazioni seguenti, in cui entrambe le tabelle provengono da una *singola origine*.
+
+| Tabella sui lati *molti | Tabella sul lato *uno* |
+| ------------- |----------------------| 
+| Doppia          | Doppia                 | 
+| Importazione        | Importa o Doppia       | 
+| DirectQuery   | DirectQuery o Doppia  | 
+
+Un relazione *tra origini diverse* è considerata forte esclusivamente se entrambe le tabelle sono Import. Le relazioni molti-a-molti sono sempre considerate deboli.
+
+Per i riscontri di aggregazione *tra origini diverse* che non dipendono da relazioni, vedere più avanti la sezione sulle aggregazioni basate su colonne Group-By.
+
+### <a name="aggregation-table-is-hidden"></a>La tabella di aggregazione è nascosta
+La tabella **Sales Agg** è nascosta. Le tabelle di aggregazione devono essere sempre nascoste dai consumer del set di dati. I consumer e le query fanno riferimento alla tabella dettagli, non alla tabella di aggregazione. Non è nemmeno necessario che siano a conoscenza dell'esistenza della tabella di aggregazione.
 
 ### <a name="manage-aggregations-dialog"></a>finestra di dialogo Gestisci aggregazioni
 A questo punto verranno definite le aggregazioni. Selezionare il menu di scelta rapida **Gestisci aggregazioni** per **Sales Agg** facendo clic sulla tabella con il pulsante destro del mouse.
@@ -155,7 +171,7 @@ La query seguente raggiunge l'aggregazione perché le colonne nella tabella *Dat
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_02.jpg)
 
-La query seguente non raggiungerà l'aggregazione. Nonostante richieda la somma di **SalesAmount**, esegue un'operazione di raggruppamento su una colonna della tabella **Product**, che non è al livello di granularità corretto per raggiungere l'aggregazione. Se si osservano le relazioni nel modello, si nota che una sottocategoria di prodotto può avere più righe **Product** e la query non sarebbe in grado di determinare il prodotto da aggregare. In questo caso, la query torna alla modalità DirectQuery e invia una query SQL all'origine dati.
+La query seguente non raggiunge l'aggregazione. Nonostante richieda la somma di **SalesAmount**, esegue un'operazione di raggruppamento su una colonna della tabella **Product**, che non è al livello di granularità corretto per raggiungere l'aggregazione. Se si osservano le relazioni nel modello, si nota che una sottocategoria di prodotto può avere più righe **Product** e la query non riuscirebbe a determinare il prodotto da aggregare. In questo caso, la query torna alla modalità DirectQuery e invia una query SQL all'origine dati.
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_03.jpg)
 
@@ -163,15 +179,15 @@ Le aggregazioni non servono solo per eseguire semplici calcoli come banali somme
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_04.jpg)
 
-La funzione COUNTROWS può trarre vantaggio dalle aggregazioni. La query seguente raggiungerà l'aggregazione perché nella tabella **Sales** è presente un'aggregazione **Conta** righe della tabella.
+La funzione COUNTROWS può trarre vantaggio dalle aggregazioni. La query seguente raggiunge l'aggregazione perché per la tabella **Sales** è definita un'aggregazione di righe della tabella **Count**.
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_05.jpg)
 
-La funzione AVERAGE può trarre vantaggio dalle aggregazioni. La query raggiungerà l'aggregazione perché AVERAGE viene trattata internamente come un'operazione SUM divisa per COUNT. Poiché la colonna **UnitPrice** dispone di aggregazioni definite per SUM e COUNT, l'aggregazione viene raggiunta.
+La funzione AVERAGE può trarre vantaggio dalle aggregazioni. La query raggiunge l'aggregazione perché AVERAGE viene trattata internamente come un'operazione SUM divisa per COUNT. Poiché la colonna **UnitPrice** dispone di aggregazioni definite per SUM e COUNT, l'aggregazione viene raggiunta.
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_06.jpg)
 
-In alcuni casi, la funzione DISTINCTCOUNT può trarre vantaggio dalle aggregazioni. La query seguente raggiungerà l'aggregazione perché è presente una voce GroupBy per **CustomerKey**, che mantiene le specificità di **CustomerKey** nella tabella di aggregazione. Questa tecnica è ancora soggetta alla soglia prestazioni per la quale una quantità di valori distinct superiore a due - cinque milioni può influire sulle prestazioni delle query. Tuttavia, può essere utile nelle situazioni in cui sono presenti miliardi di righe nella tabella dettagli e da due a cinque milioni di valori distinct nella colonna. In questo caso, l'operazione distinct count può essere svolta più velocemente rispetto all'analisi della tabella con miliardi di righe, anche se è stata memorizzata nella cache in memoria.
+In alcuni casi, la funzione DISTINCTCOUNT può trarre vantaggio dalle aggregazioni. La query seguente raggiunge l'aggregazione perché è presente una voce GroupBy per **CustomerKey**, che mantiene le specificità di **CustomerKey** nella tabella di aggregazione. Questa tecnica è ancora soggetta alla soglia prestazioni per la quale una quantità di valori distinct superiore a due - cinque milioni può influire sulle prestazioni delle query. Tuttavia, può essere utile nelle situazioni in cui sono presenti miliardi di righe nella tabella dettagli e da due a cinque milioni di valori distinct nella colonna. In questo caso, l'operazione distinct count può essere svolta più velocemente rispetto all'analisi della tabella con miliardi di righe, anche se è stata memorizzata nella cache in memoria.
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_07.jpg)
 
@@ -197,11 +213,11 @@ La tabella seguente mostra le aggregazioni per la tabella **Driver Activity Agg*
 
 ### <a name="group-by-columns"></a>Colonne GroupBy
 
-In questo esempio le voci **GroupBy** **non sono facoltative**; senza di esse le aggregazioni non verrebbero raggiunte. Questo comportamento è diverso rispetto all'uso delle aggregazioni basate su relazioni, come illustrato nell'esempio del modello dimensionale proposto in precedenza in questo articolo.
+In questo esempio le voci **GroupBy** **non sono facoltative**. Senza di esse le aggregazioni non verrebbero raggiunte. Questo comportamento è diverso rispetto all'uso delle aggregazioni basate su relazioni, come illustrato nell'esempio del modello dimensionale proposto in precedenza in questo articolo.
 
 ### <a name="query-examples"></a>Esempi di query
 
-La query seguente raggiungerà l'aggregazione in quanto la colonna **Activity Date** è coperta dalla tabella di aggregazione. L'aggregazione Conta righe della tabella viene usata dalla funzione COUNTROWS.
+La query seguente raggiunge l'aggregazione perché la colonna **Activity Date** è coperta dalla tabella di aggregazione. L'aggregazione Conta righe della tabella viene usata dalla funzione COUNTROWS.
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_08.jpg)
 
@@ -253,7 +269,7 @@ La query seguente raggiunge l'aggregazione perché CalendarMonth è coperto dall
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_09.jpg)
 
-La query seguente non raggiungerà l'aggregazione perché CalendarDay non è coperto dalla tabella di aggregazione.
+La query seguente non raggiunge l'aggregazione perché CalendarDay non è coperto dalla tabella di aggregazione.
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_10.jpg)
 
@@ -263,7 +279,7 @@ La seguente query di business intelligence non raggiungerà l'aggregazione in qu
 
 ## <a name="caches-should-be-kept-in-sync"></a>Le cache devono essere mantenute sincronizzate
 
-Le **aggregazioni** in cui le modalità di archiviazione DirectQuery e Import e/o Dual sono combinate possono restituire dati diversi se la cache in memoria non viene mantenuta sincronizzata con i dati di origine. L'esecuzione di query non tenterà di mascherare problemi dei dati, ad esempio filtrando i risultati di DirectQuery in modo che corrispondano ai valori memorizzati nella cache. Queste funzionalità rappresentano un'ottimizzazione delle prestazioni e devono essere usate solo in modi che non compromettano la possibilità di soddisfare i requisiti aziendali. È responsabilità dell'utente conoscere i flussi di dati e progettare il sistema di conseguenza. Esistono tecniche consolidate per gestire questi problemi nell'origine, se necessario.
+Le **aggregazioni** in cui le modalità di archiviazione DirectQuery e Import e/o Dual sono combinate possono restituire dati diversi se la cache in memoria non viene mantenuta sincronizzata con i dati di origine. L'esecuzione della query non proverà a mascherare i problemi dei dati, ad esempio filtrando i risultati di DirectQuery in modo che corrispondano ai valori memorizzati nella cache. Queste funzionalità rappresentano un'ottimizzazione delle prestazioni e devono essere usate solo in modi che non compromettano la possibilità di soddisfare i requisiti aziendali. È responsabilità dell'utente conoscere i flussi di dati e progettare il sistema di conseguenza. Esistono tecniche consolidate per gestire questi problemi nell'origine, se necessario.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -277,4 +293,3 @@ Articoli su DirectQuery:
 
 * [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 * [Origini dati supportate da DirectQuery in Power BI](desktop-directquery-data-sources.md)
-

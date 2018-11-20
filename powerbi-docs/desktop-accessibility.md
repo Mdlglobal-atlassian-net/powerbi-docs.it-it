@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223376"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619633"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
 
 ![Usare marcatori diversi per i grafici a linee e i grafici ad area per migliorare l'accessibilità](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> Queste funzionalità di accessibilità sono disponibili con le versioni di giugno 2017 di **Power BI Desktop** e le versioni successive. Sono previste funzionalità di accessibilità aggiuntive anche per le versioni future.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Uso di un report di Power BI Desktop con la tastiera o l'utilità per la lettura dello schermo
 A partire dalla versione di settembre 2017 di **Power BI Desktop**, è possibile fare clic su **?** per visualizzare una finestra che descrive i tasti di scelta rapida per l'accessibilità disponibili in **Power BI Desktop**.
@@ -116,12 +111,26 @@ Sono state rilevate problematiche e limitazioni note relative alle funzionalità
 * Se si usa l'Assistente vocale, esistono alcune limitazioni per lo spostamento in Visualizza dati come in una tabella HTML.
 
 ## <a name="keyboard-shortcuts"></a>Keyboard Shortcuts
+I tasti di scelta rapida sono utili per spostarsi nei report di Power BI usando una tastiera. Le tabelle seguenti descrivono le combinazioni di tasti disponibili in un report di Power BI. Oltre a usare questi tasti di scelta rapida in Power BI Desktop, queste combinazioni di tasti funzionano anche nelle esperienze seguenti:
+
+* Finestra di dialogo Esplora domande e risposte
+* Finestra di dialogo Guida introduttiva
+* Menu File e finestra di dialogo Informazioni
+* Barra degli avvisi
+* Finestra di dialogo Ripristino del file
+* Finestra di dialogo Frowns (Commenti)
+
+Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di esperienze supporta anche le utilità per la lettura dello schermo e le impostazioni di contrasto elevato.
+
+
 ### <a name="frequently-used-shortcuts"></a>Tasti di scelta rapida usati di frequente
 | Operazione da eseguire           | Premere                |
 | :------------------- | :------------------- |
 | Spostare lo stato attivo tra le sezioni  | CTRL + F6 |
 | Spostare lo stato attivo avanti nella sezione | TAB         |
 | Spostare lo stato attivo indietro nella sezione | MAIUSC + TAB |
+| Selezionare o deselezionare un oggetto | INVIO o BARRA SPAZIATRICE |
+| Selezionare più oggetti | CTRL + BARRA SPAZIATRICE |
 
 ### <a name="on-visual"></a>Nell'oggetto visivo
 | Operazione da eseguire           | Premere                |
