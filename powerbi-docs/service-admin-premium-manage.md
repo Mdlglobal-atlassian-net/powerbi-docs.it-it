@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/20/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 39429d0f09431da3f860bf0454843c65ce07a524
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 3ef719f85690297cd523a6fefb7f0ba5f77c9199
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266002"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717609"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 
@@ -56,13 +56,9 @@ Per la maggior parte, gli utenti non dovranno neanche sapere di essere in una ca
 
 ## <a name="configure-workloads"></a>Configurare i carichi di lavoro
 
-Un carico di lavoro in Power BI può essere considerato come uno dei numerosi servizi che è possibile esporre agli utenti. Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud.
+Per impostazione predefinita, le capacità per Power BI Premium e Power BI Embedded supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. È ora disponibile il supporto in anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Per altre informazioni, vedere [Carichi di lavoro nella capacità Premium](service-premium.md#workloads-in-premium-capacity).
 
-È ora disponibile il supporto in anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Abilitare questi carichi di lavoro nel portale di amministrazione di Power BI o tramite l'API REST di Power BI. È anche possibile impostare la memoria massima che ogni carico di lavoro può utilizzare, per poter controllare come interagiscono i diversi carichi di lavoro.
-
-### <a name="enable-workloads-in-the-power-bi-admin-portal"></a>Abilitare i carichi di lavoro nel portale di amministrazione di Power BI
-
-Per abilitare i carichi di lavoro, seguire questa procedura.
+Per abilitare i carichi di lavoro nel portale di amministrazione di Power BI, seguire questa procedura.
 
 1. In **Impostazioni di capacità** selezionare una capacità.
 
@@ -73,24 +69,6 @@ Per abilitare i carichi di lavoro, seguire questa procedura.
     ![Configurare i carichi di lavoro nel portale di amministrazione](media/service-admin-premium-manage/admin-portal-workloads.png)
 
 1. Selezionare **Applica**.
-
-### <a name="default-memory-settings"></a>Impostazioni predefinite della memoria
-
-La tabella seguente indica i valori predefiniti e minimi della memoria, a seconda dei diversi [nodi di capacità](service-premium.md#premium-capacity-nodes) disponibili. La memoria viene allocata in modo dinamico ai flussi di dati e in modo statico ai report impaginati. Per altre informazioni, vedere la sezione successiva, [Considerazioni per i report impaginati](#considerations-for-paginated-reports).
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Report impaginati | N/D | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
-| Flussi di dati | 15% predefinita; 8% minima  | 15% predefinita; 4% minima  | 15% predefinita; 2% minima | 15% predefinita; 1% minima  |
-| | | | | |
-
-### <a name="considerations-for-paginated-reports"></a>Considerazioni per i report impaginati
-
-Se si usa il carico di lavoro dei report impaginati, tenere presente quanto segue.
-
-* **Allocazione della memoria nei report impaginati**: i report impaginati consentono di eseguire il codice quando si esegue il rendering di un report (ad esempio quando si modifica in modo dinamico il colore del testo in base al contenuto). Alla luce di ciò, la capacità Power BI Premium viene assicurata eseguendo i report impaginati in uno spazio contenuto all'interno della capacità. A questo spazio viene assegnata la memoria massima specificata, indipendentemente dal fatto che carico di lavoro sia attivo o meno. Se si usano i report o i flussi di dati di Power BI nella stessa capacità, assicurarsi di impostare per i report impaginati una memoria sufficientemente bassa da non influire negativamente sugli altri carichi di lavoro.
-
-* **I report impaginati non sono disponibili**: in rari casi, il carico di lavoro dei report impaginati può non essere disponibile. In questo caso, per il carico di lavoro viene visualizzato uno stato di errore nel portale di amministrazione e gli utenti vedono il timeout per il rendering del report. Per attenuare questo problema, disabilitare il carico di lavoro, quindi riabilitarlo.
 
 ## <a name="monitor-capacity-usage"></a>Monitorare l'utilizzo della capacità
 
