@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973374"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850592"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -47,7 +47,7 @@ Il tipo del campo può essere numerico, datetime o stringa e il tipo usato deve 
 
 * Le **stringhe** devono essere racchiuse tra virgolette singole, ad esempio 'nome manager'.
 * Per i **numeri** non è richiesta alcuna formattazione speciale.
-* **Date e ore** devono essere racchiuse tra virgolette singole e precedute dalla parola **DateTime**.
+* **Date e ore** devono essere racchiuse tra virgolette singole. In OData v3 questi valori devono essere preceduti dalla parola datetime, che tuttavia non è necessaria in OData v4.
 
 Se è ancora poco chiaro, continuare la lettura per un'analisi approfondita.  
 
@@ -97,7 +97,7 @@ Per filtrare in base a campi aggiuntivi, aggiungere un operatore "**and**" e un 
 
 Power BI supporta molti operatori oltre a "**and**". La tabella seguente elenca tali operatori insieme al tipo di contenuto supportato.
 
-|Operatore  | Definizione | Stringa  | Numero | Data |  Esempio|
+|Operatore  | Definizione | Stringa  | Numero | Date |  Esempio|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | e |  sì      | sì |  sì|  prodotto/prezzo le 200 and prezzo gt 3.5 |
 |**eq**     | è uguale a |  sì      | sì   |  sì       | Indirizzo/Città eq 'Milano' |

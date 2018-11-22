@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 2ca75f191f27bd158b9fab67c7be6902154f8ac1
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641230"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717632"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Che cos'è Microsoft Power BI Premium?
 
@@ -46,7 +46,7 @@ La tabella seguente offre un riepilogo delle differenze tra la capacità condivi
 | --- | --- | --- |
 | **Frequenza di aggiornamento** |8/giorno |48/giorno |
 | **Isolamento con hardware dedicato** |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile") |
-| **Distribuzione aziendale per** ***tutti gli utenti*** | | |
+| **Distribuzione aziendale a** _**tutti gli utenti**_ | | |
 | App e condivisione |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile")<sup>1</sup> |
 | API e controlli incorporati |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile")<sup>2</sup> |
 | **Pubblicazione dei report di Power BI locali** |![](media/service-premium/not-available.png "Non disponibile") |![](media/service-premium/available.png "Disponibile") |
@@ -84,7 +84,40 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 
 * I vCore di back-end sono responsabili del lavoro più oneroso: elaborazione delle query, gestione della cache, esecuzione dei server R, aggiornamento dei dati, elaborazione del linguaggio naturale, feed in tempo reale e rendering lato server di report e immagini. Con i vCore di back-end viene riservata anche una certa quantità di memoria. Le disponibilità di uno spazio in memoria sufficiente è particolarmente importante quando si usano modelli di dati di grandi dimensioni o un numero elevato di set di dati attivi.
 
-## <a name="power-bi-report-server"></a>Server di report Power BI
+## <a name="workloads-in-premium-capacity"></a>Carichi di lavoro nella capacità Premium
+
+Un carico di lavoro in Power BI può essere considerato come uno dei numerosi servizi che è possibile esporre agli utenti. Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud.
+
+È ora disponibile il supporto in anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Abilitare questi carichi di lavoro nel portale di amministrazione di Power BI o tramite l'API REST di Power BI. È anche possibile impostare la memoria massima che ogni carico di lavoro può utilizzare, per poter controllare come interagiscono i diversi carichi di lavoro. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads).
+
+### <a name="default-memory-settings"></a>Impostazioni predefinite della memoria
+
+Le tabelle seguenti indicano i valori predefiniti e minimi della memoria, a seconda dei diversi [nodi di capacità](#premium-capacity-nodes) disponibili. La memoria viene allocata in modo dinamico ai flussi di dati e in modo statico ai report impaginati. Per altre informazioni, vedere la sezione successiva, [Considerazioni per i report impaginati](#considerations-for-paginated-reports).
+
+#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKU di Microsoft Office per scenari SaaS (Software as a Service)
+
+|                     | EM3                      | P1                       | P2                      | P3                       |
+|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
+| Report impaginati | N/D | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
+| Flussi di dati | 20% predefinita; 8% minima  | 20% predefinita; 4% minima  | 20% predefinita; 2% minima | 20% predefinita; 1% minima  |
+| | | | | |
+
+#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKU di Microsoft Azure per scenari PaaS (Platform as a Service)
+
+|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
+|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
+| Report impaginati | N/D                      | N/D                      | N/D                     | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
+| Flussi di dati         | 27% predefinita; 27% minima | 20% predefinita; 16% minima | 20% predefinita; 8% minima | 20% predefinita; 4% minima  | 20% predefinita; 2% minima | 20% predefinita; 1% minima   |
+
+### <a name="considerations-for-paginated-reports"></a>Considerazioni per i report impaginati
+
+Se si usa il carico di lavoro dei report impaginati, tenere presente quanto segue.
+
+* **Allocazione della memoria nei report impaginati**: i report impaginati consentono di eseguire il codice quando si esegue il rendering di un report (ad esempio quando si modifica in modo dinamico il colore del testo in base al contenuto). Alla luce di ciò, la capacità Power BI Premium viene assicurata eseguendo i report impaginati in uno spazio contenuto all'interno della capacità. A questo spazio viene assegnata la memoria massima specificata, indipendentemente dal fatto che il carico di lavoro sia attivo o meno. Se si usano i report o i flussi di dati di Power BI nella stessa capacità, assicurarsi di impostare per i report impaginati una memoria sufficientemente bassa da non influire negativamente sugli altri carichi di lavoro.
+
+* **I report impaginati non sono disponibili**: in rari casi, il carico di lavoro dei report impaginati può non essere disponibile. In questo caso, per il carico di lavoro viene visualizzato uno stato di errore nel portale di amministrazione e gli utenti vedono il timeout per il rendering del report. Per attenuare questo problema, disabilitare il carico di lavoro, quindi riabilitarlo.
+
+## <a name="power-bi-report-server"></a>Server di report di Power BI
 
 Power BI Premium include anche la capacità di eseguire il Server di report di Power BI in locale nell'organizzazione. Per altre informazioni, vedere [Introduzione a Server di report di Power BI](report-server/get-started.md).
 

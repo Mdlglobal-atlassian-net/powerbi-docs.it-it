@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641669"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268298"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Supporto di più aree geografiche per Power BI Premium (anteprima)
 
@@ -94,6 +94,7 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 - Una query memorizzata nella cache archiviata in un'area remota resta in tale area quando è inattiva. Tuttavia, gli altri dati in transito potrebbero spostarsi tra più aree geografiche.
 - Quando si spostano dati da un'area a un'altra in un ambiente con più aree geografiche, i dati di origine possono rimanere nell'area da cui vengono spostati fino a 30 giorni. Durante tale periodo, gli utenti finali non potranno accedervi. I dati verranno rimossi da quest'area ed eliminati definitivamente durante il periodo di 30 giorni.
 - Il supporto di più aree geografiche non comporta prestazioni migliori in generale. Il caricamento di report e dashboard comporta comunque richieste all'area iniziale per i metadati.
+- La funzionalità [Flussi di dati](service-dataflows-overview.md) (in anteprima) attualmente non è supportata in Multi-Geo.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

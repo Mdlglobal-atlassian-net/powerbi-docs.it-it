@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5089be0cb8bd96573a0d1b3e25c742c1f559253b
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736850"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850385"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Iscrizione a Power BI con una nuova versione di valutazione di Office 365
 
@@ -27,7 +27,7 @@ Questo articolo descrive un modo alternativo per iscriversi a Power BI, con una 
 
 1. Dopo aver completato il processo di iscrizione, viene assegnato un nuovo nome di accesso simile a you@yourcompany.onmicrosoft.com. Si tratta delle informazioni di accesso da usare con Power BI.
 
-1. Effettuare l'iscrizione a Power BI [usando questo collegamento](https://portal.office.com/Start/Confirm?Sku=a403ebcc-fae0-4ca2-8c8c-7a907fd6c235&ru=https%3A%2F%2Fapp.powerbi.com%3FredirectedFromSignup%3D1%26noSignUpCheck%3D1). Se richiesto, accedere con il nome di accesso e la password selezionata per Office 365 nel passaggio precedente.
+1. Effettuare l'iscrizione a Power BI [usando questo collegamento](https://app.powerbi.com/signupredirect?pbi_source=web). Se richiesto, accedere con il nome di accesso e la password selezionata per Office 365 nel passaggio precedente.
 
 1. Una volta completato l'accesso, si verrà reindirizzati a Power BI. In caso di problemi di accesso con il nuovo account, provare a usare una sessione del browser privata.
 

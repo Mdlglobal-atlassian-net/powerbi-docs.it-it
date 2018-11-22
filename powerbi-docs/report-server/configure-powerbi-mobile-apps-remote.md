@@ -1,5 +1,5 @@
 ---
-title: Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota
+title: Configurare l'accesso delle app per dispositivi mobili iOS in modalità remota
 description: Informazioni su come configurare le app per dispositivi mobili iOS in modalità remota per il server di report.
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722179"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157426"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota
 
-In questo articolo viene spiegato come usare lo strumento MDM dell'organizzazione per configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per procedere a questa impostazione, gli amministratori IT creano criteri di configurazione dell'app con le informazioni necessarie da inviare all'app. 
+In questo articolo viene spiegato come usare lo strumento MDM dell'organizzazione per configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per procedere a questa configurazione, gli amministratori IT creano criteri di configurazione dell'app con le informazioni necessarie da inviare all'app. 
 
- Gli utenti delle app per dispositivi mobili iOS di Power BI possono quindi connettersi al server di report dell'organizzazione più facilmente perché la connessione al server di report è già configurata. 
-
+ Con la connessione al server di report già configurata, gli utenti delle app per dispositivi mobili iOS di Power BI possono connettersi al server di report dell'organizzazione più facilmente. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Creare i criteri di configurazione dell'app nello strumento MDM 
 
@@ -39,7 +38,7 @@ Nella tabella seguente vengono illustrate in dettaglio le coppie.
 | com.microsoft.powerbi.mobile.ServerURL | String | URL server di report </br> Deve iniziare con http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | String | [facoltativo] </br> Nome utente da usare per connettere il server. </br> Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | String | [facoltativo] </br> Il valore predefinito è "Server di report" </br> Nome descrittivo usato nell'app per rappresentare il server | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | Il valore predefinito è True </br> Se impostato su "True", esegue l'override di qualsiasi definizione di Server di report già presente nel dispositivo mobile (i server esistenti già configurati verranno eliminati). </br> Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione. </br> Impostandolo su "False" vengono aggiunti i valori inviati lasciando le impostazioni esistenti. </br> Se nell'app mobile è già impostato l'URL del server di report, l'app lascia la configurazione esistente e non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | Il valore predefinito è True </br>Se impostato su "True", esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. </br> Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione. </br> Impostandolo su "False" vengono aggiunti i valori inviati lasciando le impostazioni esistenti. </br> Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non richiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
 Di seguito è riportato un esempio di configurazione dei criteri di configurazione con Intune.
 
@@ -47,7 +46,7 @@ Di seguito è riportato un esempio di configurazione dei criteri di configurazio
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Utenti finali che si connettono a un server di report
 
-Dopo aver pubblicato i criteri di configurazione dell'app, gli utenti e i dispositivi che appartengono alla lista di distribuzione definita per quei criteri hanno l'esperienza seguente quando avviano l'app per dispositivi mobili iOS di Power BI. 
+ Si supponga ad esempio di pubblicare i criteri di configurazione dell'app per una lista di distribuzione. Quando gli utenti e i dispositivi inclusi nella lista di distribuzione avviano l'app per dispositivi mobili per iOS si verifica quanto segue. 
 
 1. Viene visualizzato un messaggio che informa che l'app per dispositivi mobili è configurata con un server di report. Toccare **Accedi**.
 

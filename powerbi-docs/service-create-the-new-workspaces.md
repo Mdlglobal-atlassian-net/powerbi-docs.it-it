@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909016"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717896"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Creare le nuove aree di lavoro (anteprima) in Power BI
 
@@ -45,7 +45,7 @@ Durante il periodo di anteprima, è possibile creare e usare sia le aree di lavo
 
 1. Iniziare creando l'area di lavoro per le app. Selezionare **Aree di lavoro** > **Creare un'area di lavoro per le app**.
    
-     ![Crea un'area di lavoro per le app](media/service-create-workspaces/power-bi-create-app-workspace.png)
+     ![Crea area di lavoro per le app](media/service-create-workspaces/power-bi-create-app-workspace.png)
 
 2. In **Anteprima aree di lavoro migliorate** selezionare **Prova adesso**.
    
@@ -168,7 +168,7 @@ Alcune funzionalità delle nuove aree di lavoro per le app funzionano diversamen
 
 Di seguito sono riportati i problemi noti. Le correzioni corrispondenti sono in fase di sviluppo:
 
-- Gli utenti o i gruppi di utenti del livello gratuito aggiunti come destinatari delle sottoscrizioni ai messaggi di posta elettronica potrebbero non ricevere i messaggi, anche se dovrebbero. Questo problema si verifica quando l'area di lavoro della nuova esperienza è assegnata alla capacità Premium ma l'area di lavoro personale dell'utente che crea la sottoscrizione non è assegnata a una capacità Premium. Se l'area di lavoro personale è assegnata a una capacità Premium, gli utenti e i gruppi di utenti del livello gratuito riceveranno i messaggi di posta elettronica.
+- Gli utenti o i gruppi di utenti del livello gratuito aggiunti come destinatari delle sottoscrizioni ai messaggi di posta elettronica potrebbero non ricevere i messaggi, anche se dovrebbero. Questo problema si verifica quando una delle nuove esperienze è assegnata a una capacità Premium, ma l'area di lavoro personale dell'utente che crea la sottoscrizione non è assegnata a una capacità Premium. Se l'area di lavoro personale è assegnata a una capacità Premium, gli utenti e i gruppi di utenti del livello gratuito riceveranno i messaggi di posta elettronica.
 - Se un'area di lavoro viene spostata da una capacità Premium a una capacità condivisa, in alcuni casi gli utenti e i gruppi di utenti del livello gratuito continueranno a ricevere i messaggi di posta elettronica anche se non dovrebbero. Questo problema si verifica quando l'area di lavoro personale dell'utente che crea la sottoscrizione è assegnata a una capacità Premium.
 
 ## <a name="next-steps"></a>Passaggi successivi

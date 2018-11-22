@@ -1,5 +1,5 @@
 ---
-title: Riquadro Analisi nel servizio Power BI
+title: Creare linee di riferimento dinamiche per gli oggetti visivi
 description: Creare linee di riferimento dinamiche per gli oggetti visivi nel servizio Power BI
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244517"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717701"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Riquadro Analisi nel servizio Power BI
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Creare linee di riferimento dinamiche per gli oggetti visivi nel servizio Power BI
+
 Il riquadro **Analisi** nel **servizio Power BI** consente di aggiungere *linee di riferimento* dinamiche alle visualizzazioni e di concentrare l'attenzione su tendenze o informazioni importanti.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ Il riquadro **Analisi** nel **servizio Power BI** consente di aggiungere *linee 
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Uso del riquadro Analisi
+## <a name="use-the-analytics-pane"></a>Usare il riquadro Analisi
 Con il riquadro **Analisi** è possibile creare i seguenti tipi di linee di riferimento dinamiche, anche se non tutte le linee sono disponibili per tutti i tipi di oggetti visivi:
 
 * Linea costante asse X

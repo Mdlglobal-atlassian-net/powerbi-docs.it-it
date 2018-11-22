@@ -1,5 +1,5 @@
 ---
-title: "Esercitazione: Porre domande con l'analista virtuale Domande e risposte nelle app iOS - Power BI"
+title: "Esercitazione: Porre domande con l'analista virtuale Domande e risposte nelle app iOS"
 description: In questa esercitazione è possibile porre domande sui dati di esempio con parole proprie con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili sul dispositivo iOS.
 author: maggiesMSFT
 manager: kfile
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: tutorial
-ms.date: 05/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
-ms.openlocfilehash: f3ecdb79b8fb5a8d9463eaabbda70a60110191ea
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9fd0d06b186d84412ec36749270d261ddd01fb2f
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547130"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157150"
 ---
-# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Esercitazione: Porre domande sui dati con l'analista virtuale Domande e risposte nelle app iOS - Power BI
+# <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Esercitazione: Porre domande sui dati con l'analista virtuale Domande e risposte nelle app Power BI per iOS
 
 Il modo più semplice per conoscere i dati consiste nel porre domande a tal proposito con parole proprie. In questa esercitazione è possibile porre domande e visualizzare informazioni dettagliate in primo piano sui dati di esempio con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili su iPad, iPhone e iPod Touch. 
 
@@ -72,7 +72,7 @@ Il primo passaggio dell'esercitazione consiste nel download dell'esempio di anal
 
 4. Selezionare **Esempio di analisi delle opportunità**.
  
-    ![Esempio di analisi delle opportunità](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Opportunity Analysis Sample](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Selezionare **Connetti**.  
   

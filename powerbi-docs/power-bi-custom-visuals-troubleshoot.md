@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: d6f3f654574e9cca081ae2f8191fd7b9fc017afd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 3d9e8e46fdd84edbeb5b4ff5e8f7efe4a4291049
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223576"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679255"
 ---
 # <a name="troubleshoot-power-bi-custom-visuals"></a>Risoluzione dei problemi relativi agli oggetti visivi personalizzati di Power BI
 
@@ -37,7 +37,7 @@ Se non è visualizzata, verificare che sia stata abilitata nelle impostazioni di
 
 **Non è possibile contattare il server dell'oggetto visivo**
 
-Eseguire il server dell'oggetto visivo con il comando `pbiviz start` nella riga di comando del terminal dalla radice del progetto di oggetto visivo. Se il server è in esecuzione, è probabile che i certificati SSL non siano stati installati correttamente.
+Eseguire il server dell'oggetto visivo con il comando `pbiviz start` nella riga di comando del terminal dalla radice del progetto di oggetto visivo. Se il server non è in esecuzione, è probabile che i certificati SSL non siano stati installati correttamente.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
