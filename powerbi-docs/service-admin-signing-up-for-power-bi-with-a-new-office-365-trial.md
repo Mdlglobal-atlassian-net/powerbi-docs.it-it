@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: ef20b37d781e266de9e72117d2c57e58f802d4fa
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 26fa709eee00607911b2bee2e8bf3f5f1cba732f
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850385"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289106"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Iscrizione a Power BI con una nuova versione di valutazione di Office 365
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Questo articolo descrive un modo alternativo per iscriversi a Power BI, con una versione di valutazione di Office 365. In caso di problemi relativi all'iscrizione a Power BI con l'indirizzo di posta elettronica aziendale, verificare prima di tutto che si tratti di un [indirizzo di posta elettronica utilizzabile con Power BI](service-self-service-signup-for-power-bi.md#what-email-address-can-be-used-with-power-bi). Se l'indirizzo non è utilizzabile, provare prima a iscriversi a una versione di valutazione di Office 365 e quindi a iscriversi a Power BI. Sarà possibile usare Power BI anche dopo la scadenza della versione di valutazione di Office 365.
+Questo articolo descrive un modo alternativo per iscriversi a Power BI, con una versione di valutazione di Office 365. In caso di problemi relativi all'iscrizione a Power BI con l'indirizzo di posta elettronica aziendale, verificare prima di tutto che si tratti di un [indirizzo di posta elettronica utilizzabile con Power BI](service-self-service-signup-for-power-bi.md#supported-email-addresses). Se l'indirizzo non è utilizzabile, provare prima a iscriversi a una versione di valutazione di Office 365 e quindi a iscriversi a Power BI. Sarà possibile usare Power BI anche dopo la scadenza della versione di valutazione di Office 365.
 
 1. Effettuare l'iscrizione a una versione di valutazione di Office 365 [nel sito Web Office 365](https://go.microsoft.com/fwlink/p/?LinkID=403802).
 
