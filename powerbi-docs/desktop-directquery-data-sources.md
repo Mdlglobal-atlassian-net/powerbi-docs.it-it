@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 97d9fc6bf7a27b9d681d10ae20ab0780622e5ee8
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 098447f4d0c0b1dc9534c91e84827c4cefb8850c
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223399"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452546"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origini dati supportate da DirectQuery in Power BI
 **Power BI Desktop** e il **servizio Power BI** dispongono di diverse origini dati a cui è possibile connettersi per accedere ai dati. Questo articolo descrive le origini dati per Power BI che supportano il metodo di connessione noto come **DirectQuery**. Per altre informazioni su DirectQuery, vedere [**DirectQuery in Power BI**](desktop-directquery-about.md).
@@ -62,7 +62,7 @@ La tabella seguente specifica se è necessario un **gateway dati locale** per co
 | Amazon Redshift |No |
 | Impala (versione 2.x) |Sì |
 | Snowflake |Sì |
-| Spark (Beta), versione 0.9 e successive |Non è ancora supportato nel **servizio Power BI** |
+| Spark (Beta), versione 0.9 e successive |Sì |
 | Spark in Azure HDInsight (Beta) |No |
 | IBM Netezza |Sì |
 | Server applicazioni SAP Business Warehouse |Sì |

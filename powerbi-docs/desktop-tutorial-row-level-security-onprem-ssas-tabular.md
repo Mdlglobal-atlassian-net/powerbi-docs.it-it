@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101578"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452753"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 Questa esercitazione illustra i passaggi necessari per implementare la **sicurezza a livello di riga** all'interno di un **modello tabulare di Analysis Services** e indica come usarlo in un report di Power BI. I passaggi descritti in questa esercitazione sono progettati per poter proseguire e apprendere i passaggi necessari per completare un set di dati di esempio.
@@ -50,7 +50,7 @@ Sono disponibili molti articoli pubblicati che descrivono come definire la sicur
    Si tornerà a tali utenti nelle prossime attività.
 4. Successivamente, viene eseguito un *inner join* con la tabella **DimSalesTerritory** che mostra i dettagli dell'area associati all'utente. Il codice seguente esegue l'*inner join* e l'immagine che segue illustra come viene visualizzata la tabella quando l' *inner join* viene eseguito correttamente.
    
-       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Si noti che l'immagine precedente mostra informazioni quali l'identità degli utenti responsabili di specifiche aree di vendita. Tali dati vengono visualizzati per effetto della relazione creata nel **passaggio 2**. Si noti anche che l'utente **Jon Doe fa parte dell'area di vendita Australia**. Gli aspetti correlati a Jon Doe saranno trattati nelle attività e nei passaggi che verranno eseguiti successivamente.

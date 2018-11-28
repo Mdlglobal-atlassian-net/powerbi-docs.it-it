@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/08/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ba27b42d6449d38fef2659507f035144c67f23fd
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 7982c2b29d5d92a992a115c92cbc7f0d128cb9d6
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223215"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452592"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Esercitazione: Impostare gli avvisi per i dati nel servizio Power BI
 Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. 
@@ -75,7 +75,7 @@ Successivamente, Power BI invia un avviso al centro di notifica e, facoltativame
    ![Icona di notifica nel servizio Power BI](media/end-user-alerts/powerbi-alert-notifications.png)
 3. Aprire il centro notifiche per visualizzare i dettagli dell'avviso.
    
-    ![Leggere l'avviso](media/end-user-alerts/powerbi-alert-notfication.png)
+    ![Leggere l'avviso](media/end-user-alerts/powerbi-alert-notification.png)
    
    > [!NOTE]
    > Gli avvisi possono essere usati solo con dati aggiornati. Quando i dati vengono aggiornati, Power BI controlla se è impostato un avviso per tali dati. Se i dati raggiungono una soglia di avviso, viene generato un avviso.
