@@ -8,17 +8,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223261"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289175"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 
-In questa esercitazione verranno illustrate le procedure per aggiungere proprietà comuni all'oggetto visivo.
+In questa esercitazione verrà illustrato come aggiungere proprietà comuni all'oggetto visivo.
 
 In questa esercitazione viene illustrato come:
 > [!div class="checklist"]
@@ -32,7 +32,7 @@ In questa esercitazione viene illustrato come:
 
     Verrà visualizzato il messaggio *Le opzioni di formattazione non sono disponibili per questo oggetto visivo.*
 
-    ![Pennello per la formattazione](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Pennello per la formattazione](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. In **Visual Studio Code** aprire il file *capabilities.json*.
 
@@ -41,7 +41,7 @@ In questa esercitazione viene illustrato come:
     ```json
     "objects": {},
     ```
-    ![Aggiungere objects](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Aggiungere objects](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Salvare il file **capabilities.json**.
 
@@ -50,13 +50,13 @@ In questa esercitazione viene illustrato come:
     > [!Note]
     > Se le opzioni di formattazione non sono ancora visualizzate selezionare **Ricarica oggetto visivo personalizzato**.
 
-    ![Visualizzare le opzioni di formattazione](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Visualizzare le opzioni di formattazione](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Impostare l'opzione **Titolo** su *No*. Si noti che l'oggetto visivo non mostra più il nome della misura nell'angolo superiore sinistro.
 
-    ![Opzione Titolo disattivata](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![Opzione Titolo disattivata](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Riquadro senza nome](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Riquadro senza nome](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Aggiunta di opzioni di formattazione personalizzate
 
@@ -64,7 +64,7 @@ In questa esercitazione viene illustrato come:
 
 1. In PowerShell arrestare l'oggetto visivo personalizzato.
 
-2. In Visual Studio Code, nel file **capabilities.json**, inserire il frammento JSON seguente nell'oggetto **objects**.
+2. In Visual Studio Code, nel file **capabilities.json**, inserire il frammento JSON seguente nell'oggetto con etichetta **objects**.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ In questa esercitazione viene illustrato come:
                  }
              }
          }
-     }
+     },
     ```
 
     Il frammento JSON descrive un gruppo denominato circle, costituito da due opzioni denominate circleColor e circleThickness.
 
-   ![Codice per lo spessore del cerchio](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Codice per lo spessore del cerchio](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Salvare il file **capabilities.json**.
 
@@ -112,7 +112,7 @@ In questa esercitazione viene illustrato come:
     }
     ```
 
-    ![Classi del modulo](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Classi del modulo](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Questo modulo definisce le due classi. La classe **CircleSettings** definisce due proprietà con nomi che corrispondono a oggetti definiti nel file **capabilities.json** (**circleColor** e  **circleThickness**) e imposta anche i valori predefiniti. La classe **VisualSettings** eredita la classe **DataViewObjectParser** e aggiunge una proprietà denominata **circle**, che corrisponde all'oggetto definito nel file  *capabilities.json* e restituisce un'istanza di **CircleSettings**.
 
@@ -127,7 +127,7 @@ In questa esercitazione viene illustrato come:
     ```
     Questa proprietà archivia un riferimento all'oggetto **VisualSettings**, che descrive le impostazioni dell'oggetto visivo.
 
-    ![Aggiungere la classe Visual](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Aggiungere la classe Visual](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. Nella classe **Visual** aggiungere il metodo seguente prima del metodo **update**. Questo metodo viene usato per popolare le opzioni di formattazione.
 
@@ -140,7 +140,7 @@ In questa esercitazione viene illustrato come:
     ```
     Questo metodo viene usato per popolare le opzioni di formattazione.
 
-    ![Oggetto impostazioni dell'oggetto visivo](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Oggetto impostazioni dell'oggetto visivo](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. Nel metodo **update** aggiungere il codice seguente dopo la dichiarazione della variabile **radius**.
 
@@ -150,7 +150,7 @@ In questa esercitazione viene illustrato come:
     ```
     Questo codice recupera le opzioni di formattazione. Modifica qualsiasi valore passato nella proprietà **circleThickness**, convertendolo in 0 se è negativo o 10 se si tratta di un valore maggiore di 10.
 
-    ![Variabile radius](media/custom-visual-develop-tutorial/radius.png)
+    ![Variabile radius](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. Per l'**elemento circle**, modificare il valore passato per **style fill** impostandolo sull'espressione seguente.
 
@@ -158,7 +158,7 @@ In questa esercitazione viene illustrato come:
     this.visualSettings.circle.circleColor
     ```
 
-    ![Riempie l'elemento circle](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Riempie l'elemento circle](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. Per l'**elemento circle**, modificare il valore passato per **style stroke-width** impostandolo sull'espressione seguente.
 
@@ -166,7 +166,7 @@ In questa esercitazione viene illustrato come:
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Spessore del tratto per il cerchio](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Spessore del tratto per il cerchio](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Salvare il file visual.ts.
 
@@ -180,7 +180,7 @@ In questa esercitazione viene illustrato come:
 
 16. Nelle opzioni di **formattazione dell'oggetto visivo** espandere **Circle**.
 
-    ![Formato del cerchio](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Formato del cerchio](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Modificare le opzioni **Colore** e **Spessore**.
 
@@ -198,7 +198,7 @@ Immettere i valori delle proprietà per il progetto di oggetto visivo personaliz
 
     Nel riquadro **Visualizzazioni** il nome visualizzato viene mostrato al passaggio del mouse sull'icona.
 
-    ![Nome visualizzato dell'oggetto visivo](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Nome visualizzato dell'oggetto visivo](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. Per la proprietà **description** immettere il testo seguente.
 
@@ -216,7 +216,7 @@ Immettere i valori delle proprietà per il progetto di oggetto visivo personaliz
 
 10. Esaminare l'icona.
 
-    ![Immagine del riquadro dell'oggetto visivo](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Immagine del riquadro dell'oggetto visivo](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. In Visual Studio Code assicurarsi che tutti i file vengano salvati.
 
@@ -226,7 +226,7 @@ Immettere i valori delle proprietà per il progetto di oggetto visivo personaliz
     pbiviz package
     ```
 
-    ![Cartella dist](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Cartella dist](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Il pacchetto viene creato nella cartella **dist** del progetto. Il pacchetto contiene tutto il necessario per importare l'oggetto visivo personalizzato nel servizio Power BI o in un report di Power BI Desktop. L'oggetto visivo personalizzato è ora incluso in un pacchetto ed è pronto per l'uso.
 
@@ -238,7 +238,7 @@ A questo punto è possibile aprire il report di Power BI Desktop e importare l'o
 
 2. Nel riquadro **_Visualizzazioni_** selezionare i **puntini di sospensione** e quindi selezionare **Importa da file**.
 
-    ![Aggiungere l'oggetto visivo personalizzato al desktop](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Aggiungere l'oggetto visivo personalizzato al desktop](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. Nella finestra **Importa** selezionare **Importa**.
 
@@ -250,7 +250,7 @@ A questo punto è possibile aprire il report di Power BI Desktop e importare l'o
 
 7. Verificare che l'oggetto visivo sia stato aggiunto al riquadro **_Visualizzazioni_**.
 
-    ![Visualizzare l'oggetto visivo nel riquadro Visualizzazioni in PBI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Visualizzare l'oggetto visivo nel riquadro Visualizzazioni in PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Passare il mouse sull'icona **Circle Card** e notare la descrizione comando visualizzata.
 

@@ -3,18 +3,18 @@ title: Incorporare report o dashboard dalle app
 description: Informazioni su come integrare o incorporare un report o un dashboard da un'app Power BI e non da un'area di lavoro per le app.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237986"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452523"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Incorporare report o dashboard dalle app
 
@@ -26,11 +26,11 @@ In Power BI, è possibile creare app per riunire dashboard e report correlati, t
 
 2. Aprire il report desiderato nel servizio Power BI.
 
-3. Passare a **File** > **Incorpora In SharePoint Online** e catturare l'URL di incorporamento di report da questa posizione. Viene visualizzato nello snapshot seguente. Oppure chiamare l'API REST GetReports/GetReport ed estrarre il campo URL di incorporamento di report corrispondente dalla risposta. La chiamata REST non deve avere un identificatore di area di lavoro come componente dell'URL perché è stata creata un'istanza dell'app nell'area di lavoro dell'utente.
-
-4. Usare l'URL di incorporamento recuperato nel passaggio 3 con JavaScript SDK.
+3. Passare a **File** > **Incorpora In SharePoint Online** e individuare l'URL di incorporamento di report. Un esempio di URL di incorporamento è illustrato nello screenshot seguente. In alternativa, chiamare l'API REST GetReports/GetReport ed estrarre il campo dell'URL di incorporamento di report corrispondente dalla risposta. La chiamata REST non deve avere un identificatore di area di lavoro come componente dell'URL perché è stata creata un'istanza dell'app nell'area di lavoro dell'utente.
 
     ![Incorporare contenuti dalle app](media/embed-from-apps/embed-from-app.png)
+
+4. Usare l'URL di incorporamento recuperato nel passaggio 3 con JavaScript SDK.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Catturare un URL di incorporamento di dashboard per l'incorporamento
 

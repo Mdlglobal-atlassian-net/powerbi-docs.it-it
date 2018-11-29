@@ -7,41 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187009"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331818"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introduzione a Power BI - Domande e risposte
-## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usare Domande e risposte di Power BI con l'esempio di analisi delle vendite al dettaglio
-A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale.  In questa guida introduttiva verranno esaminati 2 modi diversi per creare la stessa visualizzazione, ovvero creandola in un report e ponendo una domanda con Domande e risposte. Verrà usato il servizio Power BI, ma il processo per Power BI Desktop è quasi identico.
+
+A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale.  In questa guida introduttiva verranno esaminati due modi diversi per creare la stessa visualizzazione, ovvero creandola in un report e ponendo una domanda con Domande e risposte. Verrà usato il servizio Power BI, ma il processo per Power BI Desktop è quasi identico.
 
 Per seguire la procedura serve un report che si possa modificare e quindi verrà usato uno degli esempi disponibili per Power BI.
 
-## <a name="method-1-using-the-report-editor"></a>Metodo 1: uso dell'editor di report
+## <a name="create-a-visual-in-the-report-editor"></a>Creare un oggetto visivo nell'editor del report
+
 1. Nell'area di lavoro di Power BI selezionare **Recupera dati** \> **Esempi** \> **Esempio di analisi delle vendite al dettaglio** > **Connetti**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
-2. Il dashboard contiene un riquadro con un grafico ad aree per le vendite dell'anno precedente e le vendite per l'anno in corso.  Selezionare questo riquadro. 
-   
-   * Se il riquadro è stato creato con Domande e risposte, verrà aperto in Domande e risposte. 
-   * In questo caso, invece, siccome il riquadro è stato creato in un report, viene aperto il report e viene visualizzata la pagina che contiene la visualizzazione.
-3. Aprire il report in Visualizzazione di modifica selezionando **Modifica report**.  Se non si è proprietari di un report, non sarà possibile aprire il report in Visualizzazione di modifica.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. Selezionare il grafico ad aree ed esaminare le impostazioni nel riquadro **Campi**.  L'autore del report ha creato questo grafico selezionando questi 3 valori (**Time > FiscalMonth**, **Sales > This Year Sales**, **Sales > Last Year Sales**) e organizzandoli nelle aree **Asse** e **Valori**.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+2. Il dashboard contiene un riquadro con un grafico ad aree per le vendite dell'anno precedente e le vendite per l'anno in corso.  Selezionare questo riquadro. Se il riquadro è stato creato con Domande e risposte, verrà aperto in Domande e risposte. In questo caso, invece, siccome il riquadro è stato creato in un report, viene aperto il report e viene visualizzata la pagina che contiene la visualizzazione.
 
-## <a name="method-2-using-qa"></a>Metodo 2: uso di domande e risposte
+    ![Dashboard dell'esempio di analisi delle vendite al dettaglio](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
+
+1. Aprire il report in Visualizzazione di modifica selezionando **Modifica report**.  Se non si è proprietari di un report, non sarà possibile aprire il report in Visualizzazione di modifica.
+   
+    ![Pulsante Modifica report](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
+4. Selezionare il grafico ad aree ed esaminare le impostazioni nel riquadro **Campi**.  L'autore del report ha creato questo grafico selezionando questi tre valori (**Time > FiscalMonth**, **Sales > This Year Sales**, **Sales > Last Year Sales**) e organizzandoli nelle aree **Asse** e **Valori**.
+   
+    ![Riquadro Visualizzazioni](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+
+## <a name="create-the-same-visual-with-qa"></a>Creare lo stesso oggetto visivo con Domande e risposte
+
 In che modo si potrebbe creare questo stesso grafico a linee mediante Domande e risposte?
 
-![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
+![Casella Porre una domanda](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
 
 1. Tornare al dashboard Esempio di analisi delle vendite al dettaglio.
 2. Usando il linguaggio naturale, digitare una domanda simile alla seguente nella casella della domanda:
@@ -52,9 +53,9 @@ In che modo si potrebbe creare questo stesso grafico a linee mediante Domande e 
    
    Terminato l'inserimento della domanda, si ottiene lo stesso identico grafico presente nel report,  ma in modo molto più rapido.
    
-   ![](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
+   ![Esempio di domanda](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
 3. Analogamente all'elaborazione dei report, in Domande e risposte si ha accesso ai riquadri Visualizzazioni, Filtri e Campi.  Aprire questi riquadri per esplorare e modificare ulteriormente l'oggetto visivo.
-4. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
+4. Per aggiungere il grafico al dashboard, selezionare l'icona della puntina ![Icona Aggiungi](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Domande e risposte in Power BI](consumer/end-user-q-and-a.md)

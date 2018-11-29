@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157421"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289198"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Panoramica del programma dei pacchetti di contenuto del servizio Power BI
 Un pacchetto di contenuto è un set di contenuto predefinito che consente agli utenti di ottenere immediatamente informazioni da un'origine. In genere, un pacchetto di contenuto è incentrato su uno scenario aziendale specifico che fornisce informazioni per un ruolo, un dominio o un flusso di lavoro.
@@ -45,7 +45,7 @@ Per compilare e inviare un pacchetto di contenuto da pubblicare nel servizio Pow
 * L'applicazione SaaS è stata approvata per la pubblicazione di un pacchetto di contenuti. Inviare la richiesta a pbiservicesapps@microsoft.com. La rilevanza e l'utilizzo previsto di ogni invio verranno esaminati. 
 * Contratto di partner firmato. Questa operazione verrà eseguita nel [passaggio di invio](template-content-pack-testing.md#submission).
 
-Consultare la sezione [Template Content Pack Authoring](template-content-pack-authoring.md) (Creazione di pacchetti di contenuto modello) per maggiori informazioni sui requisiti tecnici.
+Consultare la sezione [Creare pacchetti di contenuto modello in Power BI](template-content-pack-authoring.md) per maggiori informazioni sui requisiti tecnici.
 
 ## <a name="business-scenario"></a>Scenario aziendale
 I pacchetti di contenuto forniscono informazioni e metriche incentrate su uno specifico scenario aziendale. L'identificazione dei destinatari e dei vantaggi che otterranno dal pacchetto di contenuto sarà utile per garantire un uso ottimale del contenuto fornito.
@@ -77,8 +77,8 @@ I pacchetti di contenuto pubblicati possono essere aggiornati una volta al mese.
 
 Inviare le domande all'indirizzo [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
-## <a name="support"></a>Support
-Per il supporto durante lo sviluppo, usare [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). che viene attivamente monitorato e gestito. Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.
+## <a name="support"></a>Supporto tecnico
+Per il supporto durante lo sviluppo, usare [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.
 
 ## <a name="next-step"></a>Passaggio successivo
 [Creazione](template-content-pack-authoring.md)

@@ -1,56 +1,73 @@
 ---
-title: Visualizzazioni personalizzate certificate di Power BI
+title: Oggetti visivi personalizzati certificati di Power BI
 description: Requisiti e processo per l'invio di un oggetto visivo personalizzato per la certificazione. Elenco di oggetti visivi personalizzati già certificati.
-author: mihart
-ms.author: mihart
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: fd352cd78225e647acf53c2af899e4d2fc662376
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223445"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289267"
 ---
-# <a name="getting-a-custom-visual-certified"></a>*Certificare* un oggetto visivo personalizzato
+# <a name="certified-custom-visuals"></a>Oggetti visivi personalizzati certificati
 
-## <a name="what-is-meant-by-certified"></a>Cosa si intende per *certificato*?
+## <a name="what-are-certified-custom-visuals"></a>Che cosa sono gli oggetti visivi personalizzati **_certificati_**?
 
-Un *oggetto visivo personalizzato certificato* è un oggetto che ha soddisfatto una serie di requisiti di codifica e ha superato rigorosi test di sicurezza.  Dopo che gli oggetti visivi personalizzati hanno ricevuto la certificazione, possono essere [esportati in PowerPoint](consumer/end-user-powerpoint.md) e possono essere visualizzati nei messaggi di posta elettronica ricevuti quando un utente [effettua la sottoscrizione alle pagine del report](consumer/end-user-subscribe.md). Possono anche essere usati come [oggetti visivi personalizzati standard](power-bi-custom-visuals.md), aggiunti al servizio Power BI service e ai report di Power BI Desktop o visualizzati in Power BI Embedded e per dispositivi mobili.
+Gli oggetti visivi personalizzati certificati sono oggetti visivi nel **Marketplace** che soddisfano determinati requisiti di **codice specifico** e sono stati testati e approvati dal **team di Microsoft Power BI**. Quando un oggetto visivo viene certificato, offre più funzionalità. È ad esempio possibile [esportare in PowerPoint](consumer/end-user-powerpoint.md) e visualizzare l'oggetto visivo nei messaggi di posta elettronica ricevuti quando un utente [sottoscrive le pagine del report](consumer/end-user-subscribe.md).
 
-Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in [Microsoft AppSource](https://appsource.microsoft.com), possono Vedere [Developing a Power BI custom visual](developer/custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI).
+Gli **oggetti visivi personalizzati certificati** vengono usati come [oggetti visivi personalizzati standard](power-bi-custom-visuals.md). Gli oggetti visivi personalizzati certificati possono essere aggiunti al **servizio Power BI**, a un **report di Power BI Desktop** e possono essere visualizzati con **Power BI per dispositivi mobili** e **Power BI Embedded** .
 
-## <a name="certification-requirements"></a>Requisiti di certificazione
+I test eseguiti sono studiati per verificare che l'oggetto visivo non abbia accesso a risorse o servizi esterni. **Microsoft** *non* è l'autore di oggetti visivi personalizzati di terze parti. È quindi consigliabile contattare l'autore direttamente per verificare la funzionalità degli oggetti.
 
-* Approvato per Microsoft AppSource
-* L'oggetto visivo personalizzato è scritto con l'API 1.2 con versione o successiva
-* Repository di codice disponibile per la revisione (ad esempio, Visual Code disponibile attraverso GitHub)
-* Usa solo componenti OSS rivedibili pubblici
-* Non accede a servizi o risorse esterni
+Il processo di certificazione è facoltativo. Spetta agli sviluppatori decidere se l'oggetto visivo nel Marketplace deve essere certificato.  
 
-> **SUGGERIMENTO**: è consigliabile usare EsLint con il set di regole di sicurezza predefinito, per convalidare il codice prima dell'invio.
+Gli **oggetti visivi personalizzati non certificati** non sono necessariamente oggetti visivi non sicuri. Alcuni oggetti visivi non vengono certificati perché non sono conformi a uno o più [requisiti di certificazione](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements), accedono ad esempio a un servizio esterno, come oggetti visivi mappa oppure oggetti visivi che usano librerie commerciali.
 
-## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Processo per l'invio di un oggetto visivo personalizzato per la certificazione
-
-Per inviare un oggetto visivo personalizzato per la certificazione:
-
-1. Inviare un messaggio di posta elettronica al supporto tecnico degli oggetti visivi personalizzati di Power BI (pbicvsupport@microsoft.com). Nel messaggio di posta elettronica, includere le seguenti informazioni:    
-
-   * Titolo: Richiesta di certificazione oggetto visivo
-   * Collegamento al repository GitHub in cui è ospitato il codice sorgente dell'oggetto visivo
-   * Adesione ai requisiti (vedere sopra)
-   * Superamento della revisione di sicurezza e codice
-
-2. Il team Oggetti visivi personalizzati in Microsoft informerà quando l'oggetto visivo personalizzato è certificato e aggiunto all'elenco Certificati (in basso) o rifiutato con un report dei problemi che devono essere corretti. È responsabilità dello sviluppatore mantenere una linea di comunicazione aperta con Microsoft e aggiornare gli oggetti visivi Certificati in base alle esigenze.
+Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in  **[Microsoft AppSource](https://appsource.microsoft.com)**, possono vedere  **[Sviluppare un oggetto visivo personalizzato di Power BI](developer/custom-visual-develop-tutorial.md)** per altre informazioni.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Rimozione di oggetti visivi personalizzati di Power BI certificati
 
-Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'elenco Certificati.  
+Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'[elenco degli oggetti visivi certificati](#list-of-custom-visuals-that-have-been-certified).
+
+## <a name="getting-a-custom-visualcertified"></a>Certificazione di un oggetto visivo personalizzato
+
+### <a name="certification-requirements"></a>Requisiti di certificazione
+
+Per ottenere la [certificazione](#certified-custom-visuals) dell'oggetto visivo personalizzato, assicurarsi che l'oggetto visivo personalizzato sia conforme ai requisiti seguenti:  
+
+* Approvato per Microsoft AppSource. L'oggetto visivo personalizzato deve essere disponibile in Microsoft [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+* L'oggetto visivo personalizzato è scritto con l'API 1.2 o versione successiva.
+* Il repository di codice deve essere disponibile per la revisione da parte del team di Power BI (istanza, codice sorgente JavaSCriptS o TypeScript in formato leggibile tramite GitHub).
+
+    >[!Note]
+    > Il codice non deve essere condiviso pubblicamente in Github.
+
+* Usa solo componenti OSS revisionabili pubblici (librerie JS o TypeScript pubbliche. Il codice sorgente è disponibile per la revisione e non presenta vulnerabilità note). Non è possibile verificare oggetti visivi personalizzati che usano un componente commerciale.
+
+* Non ha accesso a risorse o servizi esterni. Non devono tra l'altro verificarsi richieste HTTP/S o WebSocket dirette a un qualsiasi altro servizio partendo da Power BI. 
+
+> [!TIP]
+> È consigliabile usare EsLint applicando il set di regola di sicurezza predefinito per eseguire una convalida anticipata del codice prima dell'invio.
+
+## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Processo di invio di un oggetto visivo personalizzato per richiederne la certificazione
+
+Per inviare un oggetto visivo personalizzato per la certificazione:
+
+1. Inviare un messaggio di posta elettronica al team del supporto tecnico degli oggetti visivi personalizzati di Power BI (pbicvsupport@microsoft.com). Nel messaggio di posta elettronica, includere le seguenti informazioni:
+    * Titolo: Richiesta di certificazione oggetto visivo
+    * Collegamento al repository GitHub in cui è ospitato il codice sorgente leggibile dell'oggetto visivo
+    * [Adesione ai requisiti](#certification-requirements)
+    * Revisione del codice superata
+
+2. Il team Oggetti visivi personalizzati Microsoft informa quando l'oggetto visivo personalizzato viene certificato e aggiunto all'[elenco degli oggetti visivi certificati](#list-of-custom-visuals-that-have-been-certified) o rifiutato con un report dei problemi che devono essere corretti. È responsabilità dello sviluppatore mantenere una linea di comunicazione aperta con Microsoft e aggiornare gli oggetti visivi certificati in base alle esigenze.
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Elenco di oggetti visivi personalizzati che sono stati certificati
 

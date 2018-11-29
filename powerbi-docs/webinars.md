@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: d656a27717d22d13884bcbfa69fab4ba2babaf12
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952235"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452661"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -22,23 +22,13 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="upcoming-webinars"></a>Webinar futuri
 
-**Power BI: Il meglio per l'analisi**
-<br>di Gohul Shanmugalingam
-<br>*8 novembre 2018 13.00 - 14.00 ora solare fuso orientale*
+**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Soluzioni collaudate del settore sanitario per migliorare sia i risultati per i pazienti che la redditività)
+<br>di Stephen Cracknell e Stuart Macanliss da US Medical IT
+<br>*28 novembre 2018 - dalle 11:00 alle 12:00 PM PST*
 
-Per tutti gli appassionati di analisi e di Excel: scoprire come creare report di grande impatto che gli utenti vogliono usare, condividere informazioni dettagliate interessanti e facili da comprendere, nonché come rendere accessibili grandi volumi di dati complessi.
+Le organizzazioni del settore sanitario devono affrontare la sfida di trasformare enormi quantità dati in informazioni dettagliate sui pazienti e tali informazioni dettagliate in azioni. Registrarsi per questo webinar per imparare a progettare report significativi che consentiranno alla propria organizzazione di convertire i dati in utili informazioni dettagliate sui pazienti. Scoprire le strategie e i consigli di esperti da Stephen Cracknell fondatore e CEO di US Medical IT, Stuart Macanliss direttore di Healthcare IT e il reumatologo texano Dott. John P. Lavery.
 
-Verranno presentate le novità del prodotto e la visione di Microsoft per le funzionalità moderne di BI aziendale e di BI in modalità self-service, che consentono alle organizzazioni di promuovere azioni efficaci basate sui dati.
-
-[Registrarsi per guardare l'8 novembre](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Migliorare le competenze di modellazione dei dati con Power BI**
-<br>di Kasper de Jonge
-<br>*20 novembre 2018 11.00 - 12.00 ora solare del Pacifico*
-
-Registrarsi per questo webinar per portare a un più alto livello le competenze di modellazione con Power BI. Informazioni sul motore di analisi in memoria di Power BI, sulle strategie per la creazione e la gestione delle relazioni tra i dati e su come usare il contesto di filtro DAX (Data Analysis Expressions). Scoprire come affrontare qualunque sfida di modellazione con Power BI o Azure Analysis Services.
-
-[Registrarsi per guardare il 20 novembre](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+[Registrarsi per guardare il 28 novembre](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -54,9 +44,17 @@ Iniziare dai webinar on demand più popolari
 <br>di Miguel Martinez
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
 
+**Migliorare le competenze di modellazione dei dati con Power BI**
+<br>di Kasper de Jonge
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
 **Microsoft Runs on Power BI – Financial Planning & Analysis Made Easy** (Esecuzioni di Microsoft in Power BI: pianificazione finanziaria e analisi rese più semplici)
 <br>di Cory Hrncirik e Miguel Martinez
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Power BI: Il meglio per l'analisi**
+<br>di Gohul Shanmugalingam
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
 **Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Creare oggetti visivi dei dati di Power BI: tipi fondamentali di grafici e come usarli)
 <br>di Miranda Li
@@ -70,9 +68,9 @@ Iniziare dai webinar on demand più popolari
 <br>di Miranda Li
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Consigli, suggerimenti e strumenti per Power BI dai proprietari di PowerBI.Tips)
-<br>di Mike Carlo e Seth Bauer
-<br>[Guardare adesso](https://www.youtube.com/watch?v=fnj1_e3HXow)
+**The Total Economic Impact di Microsoft Flow and PowerApps** (Impatto economico totale di Microsoft Flow e PowerApps)
+<br>di Jonathan Lipsitz e Enrique Plaza Garcia
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 >[Esplorare la raccolta di webinar su richiesta di Power BI tenuti dagli esperti della community](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
@@ -80,7 +78,7 @@ Iniziare dai webinar on demand più popolari
 
 È possibile guardare le sessioni registrate in qualsiasi momento
 
-### <a name="getting-started"></a>Attività iniziali
+### <a name="getting-started"></a>Introduzione
 
 **How to Design Visually Stunning Power BI Reports** (Come progettare report di Power BI di grande impatto visivo)
 <br>di Charles Sterling
@@ -112,10 +110,6 @@ Iniziare dai webinar on demand più popolari
 <br>Di Scott Ball di Esri ed Enrique Plaza di Microsoft
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
-**Improving Profitability in Healthcare** (Miglioramento della redditività nell'assistenza sanitaria)
-<br>di Stephen Cracknell e Stuart Macanliss da US Medical IT
-<br>[Registrarsi e guardare adesso](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
-
 **Applied Intelligence for Sales & Services** (Intelligence applicata per vendite e servizi)
 <br>di Ed Bobrin da Avanade
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
@@ -129,6 +123,10 @@ Iniziare dai webinar on demand più popolari
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
 ### <a name="community"></a>Community ###
+
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Consigli, suggerimenti e strumenti per Power BI dai proprietari di PowerBI.Tips)
+<br>di Mike Carlo e Seth Bauer
+<br>[Guardare adesso](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **Storytelling with your data and Power BI** (Condivisione di storie basate sui dati e Power BI)
 <br>di Tristan Malherbe
