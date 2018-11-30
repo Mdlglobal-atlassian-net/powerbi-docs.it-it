@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336922"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452868"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Usare SAP BW Connector in Power BI Desktop
 Con Power BI Desktop è possibile accedere ai dati **SAP BusinessWarehouse (BW)**.
@@ -84,7 +84,7 @@ La finestra **Strumento di navigazione** offre anche alcune **Opzioni di visuali
 
 ![Finestra Strumento di navigazione](media/desktop-sap-bw-connector/sap_bw_6.png)
 
-Dopo aver selezionato tutti gli oggetti necessari nella finestra **Strumento di navigazione**, è possibile decidere cosa fare successivamente, selezionando uno dei pulsanti seguenti nella parte inferiore della finestra **:**
+Dopo aver selezionato tutti gli oggetti necessari nella finestra **Strumento di navigazione**, è possibile decidere cosa fare successivamente, selezionando uno dei pulsanti seguenti nella parte inferiore della **finestra**:
 
 * Se si seleziona **Carica** verrà attivato il caricamento dell'intero set di righe per la tabella di output nel modello di dati di Power BI Desktop, quindi viene visualizzata la vista **Report**, in cui è possibile iniziare a visualizzare i dati o ad apportare ulteriori modifiche usando le viste **Dati** o **Relazioni**.
 * Se si seleziona **Modifica** viene visualizzato l'**Editor di query**, in cui è possibile eseguire passaggi aggiuntivi di trasformazione e filtro dei dati prima di importare l'intero set di righe nel modello di dati di Power BI Desktop.
@@ -197,11 +197,28 @@ Questa sezione include situazioni (e soluzioni) di risoluzione dei problemi per 
            </item>
    
    Per risolvere questo errore, gli utenti devono chiedere all'amministratore SAP di concedere all'utente SAPBW usato in Power BI il diritto di eseguire *BAPI_USER_GET_DETAIL*. Vale anche la pena verificare che l'utente abbia il valore *DCPFM* richiesto, come descritto in precedenza in questa soluzione.
+   
 2. **Connettività per le query BEx SAP**
    
    È possibile eseguire query **BEx** in Power BI Desktop abilitando una proprietà specifica, come illustrato nella figura seguente:
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. La finestra **Strumento di navigazione** non visualizza un'anteprima dei dati e visualizza invece il messaggio di errore *Riferimento oggetto non impostato su un'istanza di un oggetto*.
+   
+   Gli utenti SAP devono accedere a moduli di funzione BAPI specifici per ottenere i metadati e recuperare dati da InfoProvider di SAP BW. Tra queste sono incluse:
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   Per risolvere questo problema, verificare che l'utente abbia accesso ai vari moduli *MDPROVIDER*, oltre a *BAPI_IOBJ_GETDETAIL*. Per procedere ulteriormente con la risoluzione di questo problema o di problemi simili, selezionare *Abilitare la traccia* nella finestra *Diagnostica* all'interno delle *Opzioni* di Power BI Desktop. Tentare il recupero dei dati da SAP BW mentre è attiva la traccia ed esaminare il file di traccia per altri dettagli.
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni su SAP e DirectQuery, vedere le risorse seguenti:
