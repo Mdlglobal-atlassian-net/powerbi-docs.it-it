@@ -7,18 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/02/2018
 ms.author: mblythe
+ms.date: 01/02/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b99f346102ae8b5f31db8101e499fb6915d870de
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850408"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578429"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicurezza a livello di riga con Power BI
-La sicurezza a livello di riga con Power BI può essere usata per limitare l'accesso ai dati per determinati utenti. I filtri limitano l'accesso ai dati a livello di riga ed è possibile definirli all'interno dei ruoli. Tenere presente che nel servizio Power BI i membri di un'area di lavoro hanno accesso ai set di dati presenti nell'area di lavoro. La sicurezza a livello di riga non limita l'accesso a questi dati. 
+
+La sicurezza a livello di riga con Power BI può essere usata per limitare l'accesso ai dati per determinati utenti. I filtri limitano l'accesso ai dati a livello di riga ed è possibile definirli all'interno dei ruoli. Tenere presente che nel servizio Power BI i membri di un'area di lavoro hanno accesso ai set di dati presenti nell'area di lavoro. La sicurezza a livello di riga non limita l'accesso a questi dati.
 
 È possibile configurare la sicurezza a livello di riga per i modelli di dati importati in Power BI con Power BI Desktop. È anche possibile configurare la sicurezza a livello di riga nei set di dati che usano DirectQuery, ad esempio SQL Server. In precedenza, era possibile implementare la sicurezza a livello di riga solo nei modelli di Analysis Services all'esterno di Power BI. Per le connessioni dinamiche ad Analysis Services è possibile configurare la sicurezza a livello di riga nel modello locale. L'opzione di sicurezza non verrà visualizzata per i set di dati di connessione dinamica.
 
@@ -34,6 +35,7 @@ Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery 
 [!INCLUDE [include-short-name](./includes/rls-desktop-view-as-roles.md)]
 
 ## <a name="manage-security-on-your-model"></a>Gestire la sicurezza nel modello
+
 Per gestire la sicurezza nel modello di dati, si dovranno eseguire le operazioni seguenti.
 
 1. Selezionare i **puntini di sospensione (…)** accanto a un set di dati.
@@ -46,7 +48,9 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 È possibile creare o modificare i ruoli solo all'interno di Power BI Desktop.
 
 ## <a name="working-with-members"></a>Utilizzo dei membri
+
 ### <a name="add-members"></a>Aggiungere membri
+
 È possibile aggiungere un membro al ruolo digitando l'indirizzo di posta elettronica, o il nome, dell'utente, del gruppo di sicurezza o della lista di distribuzione da aggiungere. Il membro deve essere interno all'organizzazione. Non è possibile aggiungere gruppi creati all'interno di Power BI.
 
 ![](media/service-admin-rls/rls-add-member.png)
@@ -56,11 +60,13 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 ![](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Rimuovere i membri
+
 È possibile rimuovere i membri selezionando l'icona X accanto al nome. 
 
 ![](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Convalida del ruolo all'interno del servizio Power BI
+
 È possibile convalidare il corretto funzionamento del ruolo definito testandolo. 
 
 1. Selezionare i **puntini di sospensione (…)** accanto al ruolo.
@@ -83,12 +89,11 @@ Per tornare alla visualizzazione normale, selezionare **Torna alla sicurezza a l
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
 ## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Usare la sicurezza a livello di riga con le aree di lavoro per le app in Power BI
+
 Se si pubblica il report di Power BI Desktop in un'area di lavoro per le app all'interno del servizio Power BI, i ruoli verranno applicati ai membri di sola lettura. È necessario indicare che i membri possono visualizzare il contenuto di Power BI solo entro le impostazioni dell'area di lavoro per le app.
 
 > [!WARNING]
 > Se è stata configurata l'area di lavoro per le app in modo da assegnare le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Gli utenti riusciranno a visualizzare tutti i dati.
-> 
-> 
 
 ![](media/service-admin-rls/rls-group-settings.png)
 
@@ -100,4 +105,3 @@ Se si pubblica il report di Power BI Desktop in un'area di lavoro per le app all
 [Sicurezza a livello di riga con Power BI Desktop](desktop-rls.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-
