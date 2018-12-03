@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c84ef0f57398bd9573488c1a8c5b16fd5511dd87
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 6cffff89a8c0086cbd7c7e229b4e678052fe6c70
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328972"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669486"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Connettersi a feed OData in Power BI Desktop
 In Power BI Desktop è possibile connettersi a un **feed OData** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop.

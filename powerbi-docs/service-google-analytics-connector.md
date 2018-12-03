@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 20deb3f0b2f42bfcde66cb685fd6242f7b4a4be3
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: a0c98a8f65529575cb70fccec927c1ee00d9a089
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327017"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669429"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Connettore di Google Analytics per Power BI Desktop
 > [!NOTE]
-> Il pacchetto di contenuto e il connettore di Google Analytics in Power BI Desktop si basano sull'API Core Reporting di Google Analytics. Le funzionalità e la disponibilità possono quindi variare nel tempo.
+> Il pacchetto di contenuto e il connettore di Google Analytics in Power BI Desktop si basano sull'API Core Reporting di Google Analytics. e di conseguenza le funzionalità e la disponibilità potrebbero variare nel tempo.
 > 
 > 
 

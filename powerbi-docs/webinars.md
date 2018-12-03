@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: c3ef18bf05c6a979e9fd0440b271afd5d8545a54
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452661"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670418"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -22,13 +22,7 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="upcoming-webinars"></a>Webinar futuri
 
-**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Soluzioni collaudate del settore sanitario per migliorare sia i risultati per i pazienti che la redditività)
-<br>di Stephen Cracknell e Stuart Macanliss da US Medical IT
-<br>*28 novembre 2018 - dalle 11:00 alle 12:00 PM PST*
-
-Le organizzazioni del settore sanitario devono affrontare la sfida di trasformare enormi quantità dati in informazioni dettagliate sui pazienti e tali informazioni dettagliate in azioni. Registrarsi per questo webinar per imparare a progettare report significativi che consentiranno alla propria organizzazione di convertire i dati in utili informazioni dettagliate sui pazienti. Scoprire le strategie e i consigli di esperti da Stephen Cracknell fondatore e CEO di US Medical IT, Stuart Macanliss direttore di Healthcare IT e il reumatologo texano Dott. John P. Lavery.
-
-[Registrarsi per guardare il 28 novembre](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
+Nessun webinar ancora pianificato. Ricontrollare presto per informazioni sugli eventi futuri.
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
@@ -78,7 +72,7 @@ Iniziare dai webinar on demand più popolari
 
 È possibile guardare le sessioni registrate in qualsiasi momento
 
-### <a name="getting-started"></a>Introduzione
+### <a name="getting-started"></a>Attività iniziali
 
 **How to Design Visually Stunning Power BI Reports** (Come progettare report di Power BI di grande impatto visivo)
 <br>di Charles Sterling
@@ -105,6 +99,10 @@ Iniziare dai webinar on demand più popolari
 <br>[Guardare adesso](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Partner ###
+
+**Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Soluzioni collaudate del settore sanitario per migliorare sia i risultati per i pazienti che la redditività)
+<br>di Stephen Cracknell e Stuart Macanliss da US Medical IT
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
 **Boost Your BI with Location Intelligence** (Incrementare BI con Location Intelligence)
 <br>Di Scott Ball di Esri ed Enrique Plaza di Microsoft

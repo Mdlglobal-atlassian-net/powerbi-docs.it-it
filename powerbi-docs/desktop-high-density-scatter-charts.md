@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b9a9806cb733fb31983485d81cc03e1c9c0980c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 0f2e978713491c9042fbbae986d7ef2c943d7baa
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329771"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670648"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Campionamento ad alta densità nei grafici a dispersione di Power BI
 A partire dalla versione di settembre 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora il modo in cui i grafici a dispersione rappresentano i dati ad alta densità.

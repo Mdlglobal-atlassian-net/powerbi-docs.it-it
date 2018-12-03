@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4c41665bd1b9476816dcbb5739a36ecd6d95852b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c698d3abc7931437c0bd2b15385714c9c8282dc7
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328282"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670290"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Usare le etichette di gerarchia inline in Power BI Desktop
 **Power BI Desktop** supporta l'uso di **etichette di gerarchia inline**, ovvero la prima di due funzionalità che consentono di ottimizzare l'esplorazione gerarchica. La seconda funzionalità, che è attualmente in fase di sviluppo, è la possibilità di usare le etichette di gerarchia annidate (a breve disponibile: gli aggiornamenti avvengono di frequente).   

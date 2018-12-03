@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eedbe8c6f9b9453acf2e07f484bf1cac7272f390
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5a355e3d19a781def54a1dcf747f404ed7852444
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39286004"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670878"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Usare informazioni dettagliate in Power BI Desktop per determinare dove la distribuzione è diversa (anteprima)
 
@@ -98,7 +98,7 @@ Gli oggetti visivi visualizzati hanno quindi lo scopo di illustrare chiaramente 
 
 Pertanto, per le misure aggiuntive, come *Vendite* nell'esempio precedente, vengono usati un istogramma e un grafico a linee dove l'uso di un doppio asse con la scala appropriata consente di confrontare facilmente i valori relativi. Le colonne mostrano il valore a cui viene applicato il filtro, mentre la linea mostra il valore complessivo (con l'asse della colonna a sinistra e l'asse della linea a destra). La linea è visualizzata con uno stile *a gradini*, tratteggiata, con un riempimento di colore grigio. Nell'esempio precedente se il valore massimo dell'asse della colonna è 4 e il valore massimo dell'asse della linea è 20, è possibile confrontare facilmente i valori relativi degli Stati Uniti rispetto al Canada per i valori filtrati e complessivi. 
 
-Analogamente, per le misure non aggiuntive, come *Margine* nell'esempio precedente, vengono usati un istogramma e un grafico a linee dove l'uso di un singolo asse consente di confrontare facilmente i valori assoluti. La linea (con riempimento grigio) mostra anche in questo caso il valore complessivo. Nel confronto di valori effettivi o relativi, l'individuazione del grado di differenza di due distribuzioni non consiste semplicemente nel calcolo della differenza tra i valori. Ad esempio:
+Analogamente, per le misure non aggiuntive, come *Margine* nell'esempio precedente, vengono usati un istogramma e un grafico a linee dove l'uso di un singolo asse consente di confrontare facilmente i valori assoluti. La linea (con riempimento grigio) mostra anche in questo caso il valore complessivo. Nel confronto di valori effettivi o relativi, l'individuazione del grado di differenza di due distribuzioni non consiste semplicemente nel calcolo della differenza tra i valori. ad esempio:
 
 * La dimensione della popolazione è presa in considerazione poiché una differenza è meno significativa statisticamente e meno interessante se applicata a una percentuale più piccola della popolazione complessiva. Ad esempio, anche se la distribuzione delle vendite per un prodotto specifico nei vari paesi varia considerevolmente, questo aspetto potrebbe non essere considerato interessante in presenza di migliaia di prodotti poiché il prodotto specifico rappresenta solo una piccola percentuale delle vendite complessive.
 
