@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874576"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829942"
 ---
 # <a name="card-visualizations"></a>Visualizzazioni Scheda
 A volte l'unico elemento che si vuole visualizzare in un dashboard o in un report di Power BI è un solo numero, ad esempio le vendite totali, la quota di mercato anno per anno o le opportunità totali. Questo tipo di visualizzazione è denominato *Scheda*. Come quasi tutte le visualizzazioni native di Power BI, è possibile creare le Schede con l'editor di report o con Domande e risposte.
@@ -25,7 +25,7 @@ A volte l'unico elemento che si vuole visualizzare in un dashboard o in un repor
 ## <a name="create-a-card-using-the-report-editor"></a>Creare una scheda con l'editor di report
 Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Iniziare in una [pagina di report vuota ](../power-bi-report-add-page.md) e selezionare il campo **Store** \> **Open store count**. Se si usa il servizio Power BI, sarà necessario aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
+1. Iniziare in una pagina di report vuota e selezionare il campo **Store** \> **Open store count**. Se si usa il servizio Power BI, sarà necessario aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
 
     Power BI crea un istogramma con un numero.
 

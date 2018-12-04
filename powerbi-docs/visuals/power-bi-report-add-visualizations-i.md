@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545269"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829804"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte 1, Aggiungere visualizzazioni a un report di Power BI
 Questo articolo offre una breve introduzione alla creazione di una visualizzazione in un report tramite il servizio Power BI o Power BI Desktop.  Per i contenuti più avanzati, [vedere la Parte II](power-bi-report-add-visualizations-ii.md). Nel video seguente Amanda illustra alcuni modi per creare, modificare e formattare gli oggetti visivi nell'area di disegno report. Sarà quindi possibile provare a usare l'[esempio di analisi di vendite e marketing](../sample-datasets.md) per creare il proprio report.
@@ -29,7 +29,7 @@ Questo articolo offre una breve introduzione alla creazione di una visualizzazio
 2. Se il riquadro Campi non è visibile, selezionare l'icona a forma di freccia per aprirlo. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [Aggiungere una pagina vuota al report](../power-bi-report-add-page.md).
+3. Aggiungere una pagina vuota al report.
 
 ## <a name="add-visualizations-to-the-report"></a>Aggiungere visualizzazioni al report
 1. Creare una visualizzazione selezionando un campo dal riquadro **Campi**.  

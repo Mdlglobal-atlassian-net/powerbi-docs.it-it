@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157081"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830310"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -174,11 +174,15 @@ Per accedere al portale di amministrazione di Power BI, l'account deve essere co
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual è la procedura per gestire un tenant creato da Microsoft per gli utenti?
 
-Se Microsoft ha creato un tenant, è possibile chiedere di gestirlo eseguendo la procedura seguente:
+Quando un utente self-service si iscrive a un servizio cloud che usa Azure AD, viene aggiunto a una directory di Azure AD non gestita basata sul suo dominio di posta elettronica. È possibile richiedere e gestire il tenant creato con un processo noto come *acquisizione della proprietà da parte dell'amministratore*. Il tipo di acquisizione della proprietà eseguita dipende dalla presenza o meno di un tenant gestito esistente associato al dominio:
 
-1. Aggiungersi al tenant iscrivendosi a Power BI usando un dominio di indirizzi di posta elettronica corrispondente al dominio del tenant che si vuole gestire. Se, ad esempio, Microsoft ha creato il tenant contoso.com, è necessario aggiungersi al tenant con un indirizzo di posta elettronica che termina con @contoso.com.
+* Usare un'*acquisizione interna della proprietà* per creare un nuovo tenant gestito per il dominio.
 
-1. Richiedere il controllo di amministratore verificando di essere proprietari del dominio. Dopo l'aggiunta al tenant, è possibile alzarsi di livello al ruolo di *amministratore globale* verificando di essere proprietari del dominio. A tale scopo, seguire la procedura descritta nella [documentazione di Office 365](/office365/admin/misc/become-the-admin).
+* Usare un'*acquisizione esterna della proprietà* per spostare il dominio in un tenant gestito esistente.
+
+Per altre informazioni, vedere [Acquisire la proprietà di una directory non gestita come amministratore in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
+
+Quando si esegue un'acquisizione esterna della proprietà, il contenuto di Power BI creato prima dell'acquisizione viene posizionato in un'[area di lavoro contenuto archiviato di Power BI](service-admin-power-bi-archived-workspace.md). È necessario eseguire manualmente la migrazione di qualsiasi contenuto che si vuole usare nel nuovo tenant.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Se si hanno più domini, è possibile controllare il tenant di Office 365 in cui vengono aggiunti gli utenti?
 

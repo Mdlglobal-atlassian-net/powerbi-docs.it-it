@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417235"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829643"
 ---
 # <a name="kpi-visuals"></a>Oggetti visivi degli indicatori KPI
 Un indicatore di prestazioni chiave (KPI) è un segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. Per altre informazioni sugli indicatori KPI, vedere [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -46,7 +46,7 @@ In alternativa, il video seguente mostra come creare singoli oggetti visivi di m
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Aprire il report nella visualizzazione Report e [selezionare la scheda di colore giallo per aggiungere una nuova pagina](../power-bi-report-add-page.md).    
+1. Aprire il report nella visualizzazione Report e selezionare la scheda di colore giallo per aggiungere una nuova pagina.    
 2. Nel riquadro Campi selezionare **Sales > Total Units This Year**.  Questo sarà l'indicatore.
 3. Aggiungere **Time > FiscalMonth**.  Questi rappresenteranno la tendenza.
 4. IMPORTANTE: ordinare il grafico per **FiscalMonth**. Dopo la conversione della visualizzazione in un indicatore KPI, non sono disponibili opzioni di ordinamento.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736897"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830218"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte 2, Aggiungere visualizzazioni a un report di Power BI
 Nella[Parte 1](power-bi-report-add-visualizations-ii.md) è stata creata una visualizzazione di base tramite la selezione delle caselle di controllo accanto ai nomi dei campi.  Nella Parte 2 verrà spiegato come usare il trascinamento della selezione e le funzionalità complete dei riquadri **Campi** e **Visualizzazioni** per creare e modificare le visualizzazioni.
@@ -32,7 +32,7 @@ In questa esercitazione verrà esaminato il set di dati relativo all'analisi del
 1. Aprire il file PBIX dell'esempio di analisi delle vendite al dettaglio in Power BI Desktop. 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  [Aggiungere una nuova pagina](../power-bi-report-add-page.md) selezionando l'icona con il segno più (+) di colore giallo nella parte inferiore dell'area di disegno.
+2. Aggiungere una nuova pagina selezionando l'icona a forma di segno più di colore giallo nella parte inferiore dell'area di disegno.
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Aggiungere una visualizzazione relativa al confronto tra le vendite dell'anno corrente e quelle dell'anno scorso.
 1. Nella tabella **Sales** selezionare **This Year Sales** > **Value** e **Last Year Sales**. Power BI crea un istogramma.  I risultati sono interessanti ed è utile approfondire l'analisi. Come sono suddivise le vendite per mese?  
