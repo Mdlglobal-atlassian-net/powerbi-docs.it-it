@@ -8,21 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/18/2018
-ms.openlocfilehash: 60061d781542f8b5a3ef67a75e61d902459d4963
-ms.sourcegitcommit: ded8b85276e7eda166d6e67f72d1fe3d5e234745
+ms.date: 11/28/2018
+ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46506777"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578774"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 
-La sicurezza a livello di riga può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Più utenti diversi possono usare gli stessi elementi visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.
+La **sicurezza a livello di riga** può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Utenti diversi possono usare gli stessi artefatti visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.
 
-Se si incorporano dati per utenti non Power BI (i dati sono di proprietà dell'app), ovvero un tipico scenario ISV, leggere questo articolo. È necessario configurare il token di incorporamento per l'utente e il ruolo. Ecco come eseguire questa operazione.
+Se si incorporano dati per utenti non Power BI (i dati sono di proprietà dell'app), ovvero un tipico scenario ISV, leggere questo articolo. Configurare il token di incorporamento per l'utente e il ruolo.
 
-Se la condivisione viene effettuata con utenti di Power BI (i dati sono di proprietà dell'utente) all'interno dell'organizzazione, la sicurezza a livello di riga funziona esattamente come nel servizio Power BI. Non è necessario eseguire altre operazioni nell'applicazione. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI](../service-admin-rls.md).
+Se l'incorporamento viene eseguito per utenti di Power BI (i dati sono di proprietà dell'utente) all'interno dell'organizzazione, la sicurezza a livello di riga funziona esattamente come nel servizio Power BI. Non è necessario eseguire altre operazioni nell'applicazione. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI](../service-admin-rls.md).
 
 ![Elementi coinvolti con la sicurezza a livello di riga.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -32,14 +32,14 @@ Per sfruttare al meglio la sicurezza a livello di riga, è importante comprender
 
 **Ruoli**: gli utenti appartengono a ruoli. Un ruolo è un contenitore di regole e può essergli assegnato un nome simile a *Responsabile vendite* o *Rappresentante vendite*. I ruoli vengono creati in Power BI Desktop. Per altre informazioni, vedere [Sicurezza a livello di riga con Power BI Desktop](../desktop-rls.md).
 
-**Regole**: i ruoli contengono regole e tali regole costituiscono i filtri effettivi che verranno applicati ai dati. Possono essere semplici, ad esempio "Paese = USA", oppure molto più dinamici.
-La parte rimanente di questo articolo offre un esempio di creazione di sicurezza a livello di riga e il relativo utilizzo in un'applicazione incorporata. In questo esempio viene usato il file PBIX [Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkID=780547).
+**Regole**: i ruoli contengono regole e tali regole costituiscono i filtri effettivi che verranno applicati ai dati. Le regole possono essere semplici, ad esempio "Paese = USA", oppure molto più dinamiche.
+La parte rimanente di questo articolo offre un esempio di creazione di sicurezza a livello di riga e del relativo utilizzo in un'applicazione incorporata. In questo esempio viene usato il file PBIX [Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkID=780547).
 
 ![Esempio di report](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
 ## <a name="adding-roles-with-power-bi-desktop"></a>Aggiunta di ruoli con Power BI Desktop
 
-L'esempio di analisi delle vendite al dettaglio mostra le vendite per tutti i negozi di una catena specifica. Senza sicurezza a livello di riga, tutti i responsabili di area che accedono al report visualizzano gli stessi dati. I dirigenti hanno stabilito che ogni responsabile di area debba visualizzare solo le vendite dei negozi che gestisce e, per ottenere questo risultato, è possibile usare la sicurezza a livello di riga.
+L'**esempio Retail Analysis** mostra le vendite per tutti i negozi di una catena specifica. Senza sicurezza a livello di riga, tutti i responsabili di area che accedono al report visualizzano gli stessi dati. I dirigenti hanno stabilito che ogni responsabile di area debba visualizzare solo le vendite dei negozi che gestisce. La sicurezza a livello di riga consente ai dirigenti di limitare i dati in base a un responsabile di area.
 
 La sicurezza a livello di riga viene creata in Power BI Desktop. All'apertura del set di dati e del report, è possibile passare alla visualizzazione diagramma per visualizzare lo schema:
 
@@ -64,10 +64,10 @@ Ecco come:
 2. Creare un nuovo ruolo denominato **Manager**.
 
     ![Crea nuovo ruolo](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Nella tabella **District** immettere l'espressione DAX seguente: **[District Manager] = USERNAME()**.
+3. Nella tabella **District** immettere questa espressione DAX: **[District Manager] = USERNAME()**.
 
     ![Istruzione DAX per la regola di sicurezza a livello di riga](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Per verificare che le regole funzionino correttamente, nella scheda **Creazione di modelli** selezionare **Visualizza come ruoli** e quindi il ruolo **Manager** appena creato, insieme ad **Altri utenti**. Per l'utente, immettere **AndrewMa**.
+4. Per verificare che le regole funzionino correttamente, nella scheda **Creazione di modelli** selezionare **Visualizza come ruoli** e quindi il ruolo **Manager** creato, insieme ad **Altri utenti**. Per l'utente, immettere **AndrewMa**.
 
     ![Finestra di dialogo Visualizza come ruoli](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
@@ -79,13 +79,13 @@ Applicando il filtro, come in questa procedura, vengono filtrati tutti i record 
 
 A questo punto, dopo aver configurato i ruoli di Power BI Desktop, per usare i ruoli è necessario eseguire alcune operazioni nell'applicazione.
 
-Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di incorporamento vengono usati per concedere l'accesso utente a un report specifico di Power BI Embedded. Power BI Embedded non ha informazioni specifiche sull'identità dell'utente. Per il corretto funzionamento della sicurezza a livello di riga, sarà necessario passare altre informazioni del contesto come parte del token di incorporamento sotto forma di identità. Per questa operazione, si userà l'API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Token di incorporamento).
+Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di incorporamento vengono usati per concedere l'accesso utente a un report specifico di Power BI Embedded. Power BI Embedded non ha informazioni specifiche sull'identità dell'utente. Per il corretto funzionamento della sicurezza a livello di riga, è necessario passare altre informazioni del contesto come parte del token di incorporamento sotto forma di identità. È possibile passare le identità usando l'API [Token di incorporamento](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 L'API accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Per il corretto funzionamento della sicurezza a livello di riga, è necessario passare quanto segue come parte dell'identità.
 
-* **username (obbligatoria)**: questa stringa può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente. Il nome utente può essere creato con i caratteri *ASCII*.
+* **username (obbligatorio)**: stringa che può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente. Il nome utente può essere creato con i caratteri *ASCII*.
 * **roles (obbligatoria)**: stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, sarà necessario passarli come matrice di stringhe.
-* **dataset (obbligatoria)**: set di dati applicabile per l'elemento che verrà incorporato.
+* **dataset (obbligatorio)**: set di dati applicabile per l'artefatto che verrà incorporato.
 
 Per creare il token di incorporamento, usare il metodo **GenerateTokenInGroup** su **PowerBIClient.Reports**.
 
@@ -106,7 +106,9 @@ var generateTokenRequestParameters = new GenerateTokenRequest("View", null, iden
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "reportId", generateTokenRequestParameters);
 ```
 
-Se si chiama l'API REST, l'API aggiornata ora accetta una matrice JSON aggiuntiva, denominata **identities**, contenente un nome utente, un elenco dei ruoli stringa e un elenco di set di dati stringa, ad esempio:
+Se si chiama l'API REST, l'API aggiornata ora accetta una matrice JSON aggiuntiva, denominata **identities**, contenente un nome utente, un elenco dei ruoli stringa e un elenco di set di dati stringa. 
+
+Usare il codice seguente come esempio:
 
 ```json
 {
@@ -121,7 +123,7 @@ Se si chiama l'API REST, l'API aggiornata ora accetta una matrice JSON aggiuntiv
 }
 ```
 
-Ora, dopo aver eseguito tutti i passaggi, quando un utente effettua l'accesso all'applicazione per visualizzare questo elemento, potrà visualizzare solo i dati che è autorizzato a vedere, come definito dalla sicurezza a livello di riga.
+Ora, dopo aver eseguito tutti i passaggi, quando un utente effettua l'accesso all'applicazione per visualizzare questo artefatto, potrà visualizzare solo i dati che è autorizzato a vedere, come definito dalla sicurezza a livello di riga.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Uso di connessioni dinamiche ad Analysis Services
 
@@ -129,36 +131,43 @@ La sicurezza a livello di riga può essere usata solo con le connessioni in temp
 
 L'identità effettiva specificata per la proprietà username deve essere un utente di Windows con autorizzazioni per il server Analysis Services.
 
-**Configurazione del gateway dati locale**
+### <a name="on-premises-data-gateway-configuration"></a>Configurazione del gateway dati locale
 
-Un [gateway dati locale](../service-gateway-onprem.md) viene usato quando si lavora con connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account principale non è elencato, la sicurezza a livello di riga non viene applicata correttamente alla proprietà dei dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
+Un [gateway dati locale](../service-gateway-onprem.md) viene usato quando si lavora con connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account master non è elencato, la sicurezza a livello di riga non viene applicata correttamente alla proprietà dei dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
 
-**Uso dei ruoli**
+### <a name="use-of-roles"></a>Uso dei ruoli
 
 I ruoli possono essere forniti con l'identità in un token di incorporamento. Se non vengono forniti ruoli, il nome utente fornito può essere usato per risolvere i ruoli associati.
 
-**Uso della funzionalità CustomData**
+### <a name="using-the-customdata-feature"></a>Uso della funzionalità CustomData
 
-La funzionalità CustomData consente di passare un testo libero (stringa) usando la proprietà della stringa di connessione CustomData, un valore che deve essere usato da AS, tramite la funzione CUSTOMDATA().
-È possibile servirsene come alternativa per personalizzare l'utilizzo di dati.
+La funzionalità CustomData può essere usata solo per i modelli presenti in **Azure Analysis Services** e solo in modalità **Connessione dinamica**. Diversamente da utenti e ruoli, la funzionalità CustomData non può essere impostata in un file con estensione pbix. Quando si genera un token con la funzionalità CustomData, è necessario avere un nome utente.
+
+La funzionalità CustomData consente di aggiungere un filtro di riga quando si visualizzano i dati di Power BI nell'applicazione quando si usa **Azure Analysis Services** come origine dati (visualizzazione dei dati di Power BI connessi ad Azure Analysis Services all'interno dell'applicazione ).
+
+La funzionalità CustomData consente di passare testo libero (stringa) usando la proprietà della stringa di connessione CustomData. Analysis Services usa questo valore tramite la funzione *CUSTOMDATA()*.
+
+L'unico modo per usare la sicurezza a livello di riga dinamica (che usa valori dinamici per la valutazione del filtro) in **Azure Analysis Services** consiste nell'usare la funzione *CUSTOMDATA()*.
+
 È possibile usarla nella query DAX del ruolo, ma anche senza ruoli in una query DAX di misura.
 CustomData fa parte della funzionalità di generazione del token per gli elementi seguenti: dashboard, report e riquadro. I dashboard possono avere più identità CustomData (una per riquadro/modello).
 
-> [!NOTE]
-> La funzionalità CustomData può essere usata solo per i modelli presenti in Azure Analysis Services e solo in modalità attiva. Diversamente da utenti e ruoli, la funzionalità dei dati personalizzati non può essere impostata in un file con estensione pbix. Quando si genera un token con la funzionalità dei dati personalizzati, è necessario avere un nome utente.
+#### <a name="customdata-sdk-additions"></a>Aggiunte di CustomData SDK
 
-**Aggiunte di CustomData SDK**
+La proprietà stringa CustomData è stata aggiunta all'identità effettiva nello scenario di generazione del token.
 
-La proprietà della stringa CustomData è stata aggiunta all'identità effettiva nello scenario di generazione del token.
-
-        [JsonProperty(PropertyName = "customData")]
-        public string CustomData { get; set; }
+```json
+[JsonProperty(PropertyName = "customData")]
+public string CustomData { get; set; }
+```
 
 L'identità può essere creata con i dati personalizzati usando la chiamata seguente:
 
-        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+```csharp
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+```
 
-**Utilizzo di CustomData SDK**
+#### <a name="customdata-sdk-usage"></a>Utilizzo di CustomData SDK
 
 Se si chiama l'API REST, è possibile aggiungere i dati personalizzati in ogni identità, ad esempio:
 
@@ -176,14 +185,68 @@ Se si chiama l'API REST, è possibile aggiungere i dati personalizzati in ogni i
 }
 ```
 
+La procedura seguente descrive come iniziare a configurare la funzionalità CustomData() con l'applicazione Power BI Embedded.
+
+1. Creare il database di Azure Analysis Services. Accedere quindi al server Azure Analysis Services tramite [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+
+    ![Creare un database di Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
+
+    ![Database di Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
+
+2. Creare un ruolo nel server Analysis Services.
+
+    ![Creazione del ruolo](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
+
+3. Impostare le opzioni **Generale**.  Assegnare **Nome ruolo** e impostare le autorizzazioni del database solo su **Lettura**.
+
+    ![Creazione del ruolo - Impostazioni generali](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
+
+4. Impostare le opzioni **Appartenenza**. In questa sezione si aggiungono gli utenti a cui viene applicato questo ruolo.
+
+    ![Creazione del ruolo - Impostazioni di appartenenza](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
+
+5. Impostare la query DAX in **Filtri di riga** usando la funzione *CUSTOMDATA()*.
+
+    ![Creazione del ruolo - Impostazione dei filtri di riga](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
+
+6. Creare un report Power BI e pubblicarlo in un'area di lavoro con capacità dedicata.
+
+    ![Esempio di report Power BI](media/embedded-row-level-security/rls-sample-pbi-report.png)
+
+7. Usare le API Power BI per usare la funzionalità CustomData nell'applicazione.  Quando si genera un token con la funzionalità CustomData, è necessario avere un nome utente. Il nome utente deve essere uguale all'UPN dell'utente master. L'utente master deve essere un membro dei ruoli creati. Se non viene specificato alcun ruolo, per la valutazione della sicurezza a livello di riga vengono usati tutti i ruoli di cui è membro l'utente master.
+
+    > [!Note]
+    > Quando si è pronti per distribuire l'applicazione nell'ambiente di produzione, il campo o l'opzione dell'account dell'utente master non deve essere visibile per l'utente finale.
+
+    Visualizzare il [codice](#customdata-sdk-additions) per aggiungere la funzionalità CustomData.
+
+8. A questo punto è possibile visualizzare il report nell'applicazione prima di applicare i valori di CustomData per vedere tutti i dati contenuti nel report.
+
+    ![Prima dell'applicazione di CustomData](media/embedded-row-level-security/customdata-before.png)
+
+    Applicare quindi i valori di CustomData per vedere come il report visualizza un diverso set di dati.
+    ![Dopo l'applicazione di CustomData](media/embedded-row-level-security/customdata-after.png)
+
+## <a name="using-rls-vs-javascript-filters"></a>Uso della sicurezza a livello di riga o dei filtri JavaScript. Filtri JavaScript
+
+Per l'applicazione di filtri ai dati in un report, è possibile decidere di usare la **sicurezza a livello di riga** oppure **filtri JavaScript**.
+
+La [sicurezza a livello di riga](../service-admin-rls.md) è una funzionalità che consente di filtrare i dati al livello del modello di dati. L'origine dati back-end consente di controllare le impostazioni della sicurezza a livello di riga. In base al modello di dati, la generazione del token di incorporamento imposta il nome utente e i ruoli per la sessione. Non può essere sottoposta a override, rimossa o controllata da codice sul lato client e per tale motivo è considerata sicura. È consigliabile usare la sicurezza a livello di riga per filtrare i dati in modo sicuro. È possibile filtrare i dati con la sicurezza a livello di riga usando una delle opzioni seguenti.
+
+* [Configurazione dei ruoli in un report di Power BI](../desktop-rls.md).
+* Configurazione dei ruoli a livello di origine dati (solo connessione dinamica ad Analysis Services).
+* A livello di codice con un [token di incorporamento](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) usando `EffectiveIdentity`. Quando si usa un token di incorporamento, il filtro effettivo passa attraverso il token di incorporamento per una specifica sessione.
+
+I [filtri JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) vengono usati per consentire all'utente di utilizzare una vista ridotta, con ambito o filtrata dei dati. Tuttavia, l'utente ha comunque accesso alle tabelle, alle colonne e alle misure dello schema del modello e può potenzialmente accedere ai dati presenti. L'accesso limitato ai dati può essere applicato solo con la sicurezza a livello di riga e non tramite API di filtro sul lato client.
+
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
-* Il servizio Power BI non applicherà l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
+* Il servizio Power BI non applica l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
 * Sono supportate le connessioni dinamiche ad Analysis Services per i server locali.
 * Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo. È possibile applicare filtri dinamici usando CustomData.
 * Se il set di dati sottostante non richiede la sicurezza a livello di riga, la richiesta GenerateToken **non** deve contenere un'identità effettiva.
-* Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, non verrà eseguita l'assegnazione di ruolo.
+* Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, non viene eseguita l'assegnazione di ruolo.
 * Un elenco di identità consente più token di identità per l'incorporamento del dashboard. Per tutti gli altri elementi l'elenco contiene una singola identità.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
