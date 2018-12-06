@@ -1,5 +1,5 @@
 ---
-title: Pubblicare un report impaginato nel servizio Power BI | Microsoft Docs
+title: Pubblicare un report impaginato nel servizio Power BI (anteprima)
 description: Questa esercitazione illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6f2d1a4e4de87ea6eb63826b59286a9abd54b94f
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 1114f1949c68e4bebf2d636906bf754e7de77273
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267972"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900268"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Pubblicare un report impaginato nel servizio Power BI
+# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Pubblicare un report impaginato nel servizio Power BI (anteprima)
 
 Questo articolo illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale. È possibile caricare report impaginati nell'Area di lavoro personale o in qualsiasi altra area di lavoro se l'area di lavoro è assegnata a una capacità Premium. Cercare l'icona a forma di diamante ![Icona a forma di diamante della capacità di Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) accanto al nome dell'area di lavoro. 
 

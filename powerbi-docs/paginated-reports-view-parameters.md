@@ -1,5 +1,5 @@
 ---
-title: Visualizzare i parametri per i report impaginati nel servizio Power BI | Microsoft Docs
+title: Visualizzare i parametri per i report impaginati nel servizio Power BI (anteprima)
 description: Questo articolo descrive come interagire con i parametri dei report impaginati nel servizio Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: d144030db1d35e103a476af8e96fa4b2b8b1dfaa
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 404ec820b766716810b2881351f8be8e77902803
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267985"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900153"
 ---
-# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Visualizzare i parametri per i report impaginati nel servizio Power BI
+# <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Visualizzare i parametri per i report impaginati nel servizio Power BI (anteprima)
 
 Questo articolo descrive come interagire con i parametri dei report impaginati nel servizio Power BI.  Un parametro del report consente di filtrare i dati del report. I parametri offrono un elenco di valori disponibili di cui è possibile sceglierne uno o molti. I parametri hanno talvolta un valore predefinito e, in alcuni casi, è necessario scegliere un valore prima di poter visualizzare il report.  
 

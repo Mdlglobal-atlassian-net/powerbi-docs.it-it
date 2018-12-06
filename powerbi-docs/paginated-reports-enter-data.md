@@ -1,5 +1,5 @@
 ---
-title: Immettere i dati direttamente in un report impaginato in Generatore report
+title: Immettere i dati direttamente in un report impaginato in Generatore report (anteprima)
 description: Questo articolo spiega come si possono immettere dati direttamente in un report impaginato in Generatore report.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289991"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900406"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report (anteprima) - Power BI
 
 In questo articolo viene illustrata una funzionalità della nuova versione di Generatore report di SQL Server 2016 che consente di immettere dati direttamente in un report RDL come set di dati incorporato.  Questa funzionalità è simile a Power BI Desktop. È possibile digitare i dati direttamente in un set di dati nel report o incollarli da un altro programma, ad esempio Microsoft Excel. Dopo l'immissione dei dati, il set di dati così creato può essere usato come qualsiasi altro set di dati incorporato creato in precedenza. Inoltre, è possibile aggiungere più di una tabella e usarne una come filtro per le altre. Questa funzionalità è particolarmente utile per i set di dati statici di piccole dimensioni che possono essere necessari per il report, ad esempio i parametri del report.
  

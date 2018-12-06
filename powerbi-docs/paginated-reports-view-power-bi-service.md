@@ -1,5 +1,5 @@
 ---
-title: Visualizzare un report impaginato nel servizio Power BI | Microsoft Docs
+title: Visualizzare un report impaginato nel servizio Power BI (anteprima)
 description: Questa esercitazione illustra come visualizzare un report impaginato nel servizio Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: db067a2e81aa62febc952ce50ce4a3e82ef38b76
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 874fe08622dfcbd65463a016e87d1687b6938276
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51267922"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900314"
 ---
-# <a name="view-a-paginated-report-in-the-power-bi-service"></a>Visualizzare un report impaginato nel servizio Power BI
+# <a name="view-a-paginated-report-in-the-power-bi-service-preview"></a>Visualizzare un report impaginato nel servizio Power BI (anteprima)
 
 Questo articolo illustra come visualizzare un report impaginato nel servizio Power BI. I report impaginati sono report creati in Generatore Report e caricati in qualsiasi area di lavoro assegnata a una capacità Premium. Cercare l'icona a forma di diamante ![Icona a forma di diamante della capacità di Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) accanto al nome dell'area di lavoro. 
 
