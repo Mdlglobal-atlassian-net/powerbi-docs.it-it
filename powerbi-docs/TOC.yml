@@ -246,10 +246,6 @@ items:
         href: visuals/desktop-slicer-filter-date-range.md
       - name: Usare il raggruppamento e la creazione di contenitori
         href: desktop-grouping-and-binning.md
-      - name: Grafici a nastri
-        href: visuals/desktop-ribbon-charts.md
-      - name: Usare il nuovo oggetto visivo matrice
-        href: visuals/desktop-matrix-visual.md
       - name: Creare oggetti visivi di Power BI usando R
         href: desktop-r-visuals.md
       - name: Usare oggetti visivi personalizzati basati su R
@@ -290,6 +286,8 @@ items:
         href: visuals/power-bi-visualization-best-practices.md
       - name: Modificare il tipo di visualizzazione in un report di Power BI
         href: visuals/power-bi-report-change-visualization-type.md
+      - name: Limiti dei punti dati in base al tipo di oggetto visivo
+        href: visuals/power-bi-data-points.md
       - name: Introduzione alla formattazione dei colori e alle proprietà degli assi
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Suggerimenti e consigli per la formattazione dei colori in Power BI
@@ -332,10 +330,14 @@ items:
         href: desktop-high-density-sampling.md
       - name: Oggetti visivi degli indicatori KPI
         href: visuals/power-bi-visualization-kpi.md
+      - name: Oggetto visivo matrice
+        href: visuals/desktop-matrix-visual.md
       - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
         href: visuals/service-r-visuals.md
       - name: Grafici a misuratore radiale in Power BI
         href: visuals/power-bi-visualization-radial-gauge-charts.md
+      - name: Grafici a nastri
+        href: visuals/desktop-ribbon-charts.md
       - name: Grafici a dispersione in Power BI
         href: visuals/power-bi-visualization-scatter.md
       - name: Grafici a dispersione a densità elevata
@@ -1251,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900383"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979675"
