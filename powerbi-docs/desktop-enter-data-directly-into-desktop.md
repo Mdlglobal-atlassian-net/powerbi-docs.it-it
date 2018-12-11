@@ -4,18 +4,19 @@ description: Immettere con facilità dati direttamente in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0518350e3dd9fa9d0e7bf94c5d37621a308c37d1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f58c5ec46cb59ba65d6ecbedb7a119d73572ea4b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669406"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025581"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Immettere dati direttamente in Power BI Desktop
 Power BI Desktop consente l'immissione diretta di dati e l'uso dei dati nei report e nelle visualizzazioni. È ad esempio possibile copiare parti di una cartella di lavoro o di una pagina Web e quindi incollarli in Power BI Desktop.
@@ -38,7 +39,7 @@ Non sono necessarie altre operazioni. L'inserimento di dati in Power BI Desktop 
 
 È ora possibile usare i dati in Power BI Desktop per creare oggetti visivi e report o per interagire con qualsiasi dato a cui ci si vuole connettere e che si vuole importare, ad esempio cartelle di lavoro di Excel, database o altre origini dati.
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)

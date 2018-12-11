@@ -4,18 +4,19 @@ description: Connettersi con facilità e usare un feed OData in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6cffff89a8c0086cbd7c7e229b4e678052fe6c70
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a0aa658aedb3599d7962e08289b306bf0f24028e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669486"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025215"
 ---
 # <a name="connect-to-odata-feeds-in-power-bi-desktop"></a>Connettersi a feed OData in Power BI Desktop
 In Power BI Desktop è possibile connettersi a un **feed OData** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -46,7 +47,7 @@ Non sono necessarie altre operazioni.
 
 È ora possibile usare i dati importati dal feed OData in Power BI Desktop per creare oggetti visivi o report oppure per interagire con qualsiasi altro dato a cui ci si vuole connettere e da importare, ad esempio cartelle di lavoro di Excel, database o qualsiasi altra origine dati.
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)

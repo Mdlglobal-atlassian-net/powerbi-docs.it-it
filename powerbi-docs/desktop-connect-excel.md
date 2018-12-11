@@ -4,18 +4,19 @@ description: Connettersi e usare con facilità i dati di una cartella di lavoro 
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 36c01851138ae8b8e74acd60b39f5b358e20e392
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: cff8950526393fd2243dbe5a4a8dcc16fcc44821
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669061"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025259"
 ---
 # <a name="connect-to-excel-in-power-bi-desktop"></a>Connettersi a Excel in Power BI Desktop
 La connessione a una cartella di lavoro di Excel da Power BI Desktop è molto semplice e questo articolo illustra i passaggi corrispondenti in modo dettagliato.
@@ -45,7 +46,7 @@ Non sono necessarie altre operazioni.
 
 È ora possibile usare i dati importati dalla cartella di lavoro di Excel in Power BI Desktop per creare oggetti visivi o report oppure per interagire con qualsiasi altro dato a cui ci si vuole connettere e da importare, ad esempio cartelle di lavoro di Excel, database o qualsiasi altra origine dati.
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
