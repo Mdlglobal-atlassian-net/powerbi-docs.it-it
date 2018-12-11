@@ -32,21 +32,21 @@ items:
       href: sample-datasets.md
     - name: Uso dei pacchetti di contenuto di esempio
       href: sample-tutorial-connect-to-the-samples.md
-    - name: Presentazione dell'esempio di analisi della redditività dei clienti
+    - name: 'Esempio di analisi della redditività dei clienti: Presentazione'
       href: sample-customer-profitability.md
-    - name: Presentazione dell'esempio di analisi della spesa IT
+    - name: 'Esempio di analisi della spesa IT: Presentazione'
       href: sample-it-spend.md
-    - name: Presentazione dell'Esempio di analisi delle risorse umane
+    - name: 'Esempio di analisi delle risorse umane: Presentazione'
       href: sample-human-resources.md
-    - name: Presentazione dell'esempio di analisi delle opportunità
+    - name: 'Esempio di analisi delle opportunità: Presentazione'
       href: sample-opportunity-analysis.md
-    - name: Presentazione dell'esempio di analisi dell'approvvigionamento
+    - name: "Esempio di analisi dell'approvvigionamento: Presentazione"
       href: sample-procurement.md
-    - name: Presentazione dell'esempio di analisi delle vendite al dettaglio
+    - name: 'Esempio di analisi delle vendite al dettaglio: Presentazione'
       href: sample-retail-analysis.md
-    - name: Presentazione dell'esempio di analisi di vendite e marketing
+    - name: 'Esempio di analisi di vendite e marketing: Presentazione'
       href: sample-sales-and-marketing.md
-    - name: Presentazione dell'esempio di analisi della qualità dei fornitori
+    - name: 'Esempio di analisi della qualità dei fornitori: Presentazione'
       href: sample-supplier-quality.md
     - name: Scaricare la cartella di lavoro di esempio Financial
       href: sample-financial-download.md
@@ -184,9 +184,9 @@ items:
         href: desktop-sap-bw-connector.md
       - name: Usare collegamenti OneDrive for Business in Power BI Desktop
         href: desktop-use-onedrive-business-links.md
-      - name: 'Servizio di terze parti: connettore Facebook per Power BI Desktop'
+      - name: 'Servizio di terze parti: Connettore Facebook per Power BI Desktop'
         href: service-facebook-connector.md
-      - name: 'Servizio di terze parti: connettore di Google Analytics per Power BI Desktop'
+      - name: 'Servizio di terze parti: Connettore di Google Analytics per Power BI Desktop'
         href: service-google-analytics-connector.md
       - name: 'Project Online: connettersi ai dati con Power BI Desktop'
         href: desktop-project-online-connect-to-data.md
@@ -758,6 +758,14 @@ items:
         href: service-dataflows-developer-resources.md
       - name: Connettersi a flussi di dati in Power BI Desktop
         href: desktop-connect-dataflows.md
+      - name: Integrazione di flussi di dati e Azure Data Lake (anteprima)
+        href: service-dataflows-azure-data-lake-integration.md
+      - name: Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
+        href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+      - name: Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)
+        href: service-dataflows-configure-workspace-storage-settings.md
+      - name: Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
+        href: service-dataflows-add-cdm-folder.md
     - name: Report impaginati in Power BI
       items:
       - name: Che cosa sono i report impaginati? (anteprima)
@@ -794,9 +802,9 @@ items:
         items:
         - name: Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
           href: service-organizational-content-pack-manage-update-delete.md
-        - name: "Pacchetti di contenuto aziendali: Copiare, aggiornare e ottenere l'accesso"
+        - name: "Pacchetti di contenuto dell'organizzazione: Copiare, aggiornare e ottenere l'accesso"
           href: service-organizational-content-pack-copy-refresh-access.md
-        - name: 'Pacchetti di contenuto aziendali: Introduzione'
+        - name: "Pacchetti di contenuto dell'organizzazione: Introduzione"
           href: service-organizational-content-pack-introduction.md
         - name: Creare e pubblicare un pacchetto di contenuto aziendale
           href: service-organizational-content-pack-create-and-publish.md
@@ -1253,9 +1261,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979675"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53181014"
