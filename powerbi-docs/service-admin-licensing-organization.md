@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331989"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900475"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Gestione delle licenze di Power BI nell'organizzazione
 
-Nel servizio Power BI gli utenti hanno determinate capacità in base a due tipi di licenze:
-
-* **Per utente** - *Licenze e licenze gratuite di Power BI Pro*. Una licenza Power BI Pro consente di accedere a tutto il contenuto e a tutte le funzionalità del servizio Power BI, inclusa la possibilità di condividere contenuto e collaborare con altri utenti Pro. Solo gli utenti della versione Pro possono pubblicare e usare contenuti nelle aree di lavoro delle app, condividere i dashboard e sottoscrivere dashboard e report. Una licenza gratuita offre l'accesso ad alcune delle funzionalità del servizio Power BI. Per altre informazioni, vedere [Funzionalità del servizio Power BI in base al tipo di licenza](service-features-license-type.md).
-
-* **Basata sulla capacità** - *licenze Power BI Premium*. Premium offre capacità dedicata per offrire prestazioni più coerenti e supportare volumi di dati più grandi in Power BI. Per i singoli utenti, Premium consente anche una distribuzione generalizzata del contenuto da parte degli utenti Pro senza richiedere licenze Pro per la visualizzazione del contenuto da parte dei destinatari. Per altre informazioni, vedere [What is Power BI Pro?](service-premium.md) (Che cos'è Power BI Pro?).
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 Questo articolo è incentrato sulle licenze per utente descritte dalla prospettiva dell'amministratore.
 

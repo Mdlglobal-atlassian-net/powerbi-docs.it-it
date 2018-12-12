@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850454"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900567"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -23,7 +23,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Funzionalità di Server di report di Power BI e del servizio Power BI
 
-| Funzionalità | Server di report di Power BI | Servizio Power BI | Note
+| Funzionalità | server di report di Power BI | Servizio Power BI | Note
 |---------|---------|---------|---------|
 | Distribuzione | Cloud locale o ospitato | Cloud | Server di report di Power BI può essere distribuito nelle macchine virtuali di Azure (cloud ospitato) se concesso in licenza tramite Power BI Premium
 | Dati di origine | Cloud e/o locali | Cloud e/o locali |  
@@ -37,7 +37,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Dashboard | No | Sì | [Dashboard nel servizio Power BI](../consumer/end-user-dashboards.md) 
 | Distribuire un gruppo di report tramite app | No | Sì | [Creare e pubblicare app con dashboard e report](../service-create-distribute-apps.md) 
 | Pacchetti di contenuto | No | Sì | [Pacchetti di contenuto aziendali: Introduzione](../service-organizational-content-pack-introduction.md) 
-| Connettersi a servizi come Salesforce | Sì | Sì | [Connettersi ai servizi usati](../consumer/end-user-connect-to-services.md) con i pacchetti di contenuto nel servizio Power BI. In Server di report di Power BI usare connettori certificati per connettersi ai servizi. Per informazioni dettagliate, vedere [Origini dati dei report di Power BI nel server di report di Power BI](data-sources.md).
+| Connettersi a servizi come Salesforce | Sì | Sì | [Connettersi ai servizi usati](../service-connect-to-services.md) con i pacchetti di contenuto nel servizio Power BI. In Server di report di Power BI usare connettori certificati per connettersi ai servizi. Per informazioni dettagliate, vedere [Origini dati dei report di Power BI nel server di report di Power BI](data-sources.md).
 | Domande e risposte | No | Sì | [Domande e risposte nel servizio Power BI e in Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Informazioni rapide | No | Sì | [Generare automaticamente informazioni dettagliate sui dati con Power BI](../consumer/end-user-insights.md) 
 | Analizza in Excel | No | Sì | [Analizza in Excel](../service-analyze-in-excel.md) 

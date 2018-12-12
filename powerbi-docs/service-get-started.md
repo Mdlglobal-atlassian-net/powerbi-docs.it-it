@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908746"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900552"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](power-bi-overview.md).
@@ -158,5 +158,5 @@ Dopo aver completo l'esercitazione, è possibile eliminare il set di dati, il re
 Per approfondire ulteriormente l'argomento,  consultare gli articoli seguenti.
 
 > [!div class="nextstepaction"]
-> [Connettersi ai servizi online usati](consumer/end-user-connect-to-services.md)
+> [Connettersi ai servizi online usati](service-connect-to-services.md)
 
