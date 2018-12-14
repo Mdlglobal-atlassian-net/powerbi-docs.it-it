@@ -1,21 +1,21 @@
 ---
 title: Power BI per i consumer di report
-description: Introduzione a Power BI Vengono presentati i diversi prodotti e servizi che compongono Power BI con una descrizione delle operazioni che consentono di svolgere.
+description: Introduzione a Power BI Informazioni sulle caratteristiche e le funzionalità di Power BI e sulle potenzialità offerte per i consumer e gli utenti finali di Power BI.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/11/2018
+ms.date: 11/07/2018
 ms.author: mihart
-layout: landingpage
+layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 566511622ffd167d3389ab0ba290671f577a759f
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: c3a506b8693560406b6fa961f4341b77f2745690
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396577"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111507"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI per i consumer
 Gli *utenti finali* o *consumer* ricevono dashboard, report e app dai colleghi e tramite il ***servizio Power BI*** esaminano il contenuto e interagiscono con questo per poter prendere decisioni rilevanti per l'azienda.
@@ -47,8 +47,8 @@ Visualizzare un <a href="end-user-report-open.md">report</a> | <a href="end-user
                                                                         <div class="cardText"> 
                                                                                       <h3>Introduzione a Power BI</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-basic-concepts.md">Concetti di base</a><br/>
-                                                                                            <a href="end-user-experience.md">Navigazione nel servizio Power BI</a><br/> 
+                                                                                            <a href="end-user-basic-concepts.md">Informazioni sui concetti di base</a><br/>
+                                                                                            <a href="end-user-experience.md">Orientarsi nel servizio Power BI</a><br/> 
                                                                                             <a href="../power-bi-overview.md">Informazioni su tutti i vari strumenti di Power BI</a><br/> 
                                                                                             <!--<a href="end-user-faq.md">FAQ: Frequently Asked Questions</a> -->
                                                                         </div> 
@@ -63,7 +63,7 @@ Visualizzare un <a href="end-user-report-open.md">report</a> | <a href="end-user
                                                                         <div class="cardText"> 
                                                                                       <h3>Attività avanzate</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-q-and-a.md">Casella di ricerca del linguaggio naturale in Domande e risposte</a><br/> 
+                                                                                            <a href="end-user-q-and-a.md">Come usare la casella di ricerca per domande e risposte in linguaggio naturale</a><br/> 
                                                                                             <a href="end-user-focus.md">Modificare le impostazioni di visualizzazione</a><br/> 
                                                                                             <a href="end-user-report-filter.md">Informazioni sull'uso dei filtri del report</a><br> 
                                                                                             <a href="end-user-insights.md">Generare automaticamente informazioni dettagliate</a><br/> 
