@@ -8,8 +8,8 @@ Il gateway dati viene installato ed eseguito nel computer. È consigliabile inst
 
 La prima scelta da fare per Power BI è la modalità del gateway.
 
-* **Gateway dati locale:** in questa modalità più utenti possono condividere e riusare un gateway. Questo gateway può essere usato da Power BI, PowerApps, Flow o App per la logica. Per Power BI è compreso il supporto sia per la pianificazione dell'aggiornamento che per DirectQuery
-* **Personal:** questa modalità è solo per Power BI e può essere usata come utente singolo senza alcuna configurazione dell'amministratore. Può essere usata solo per l'aggiornamento su richiesta e la pianificazione dell'aggiornamento. Questa selezione avvia l'installazione del gateway personale.
+* **Gateway dati locale:** Più utenti possono condividere e riusare un gateway in questa modalità. Questo gateway può essere usato da Power BI, PowerApps, Flow o App per la logica. Per Power BI è compreso il supporto sia per la pianificazione dell'aggiornamento che per DirectQuery
+* **Personale:** questa modalità è solo per Power BI e può essere usata come utente singolo senza alcuna configurazione dell'amministratore. Può essere usata solo per l'aggiornamento su richiesta e la pianificazione dell'aggiornamento. Questa selezione avvia l'installazione del gateway personale.
 
 Occorre notare alcuni aspetti dell'installazione di entrambe le modalità del gateway:
 

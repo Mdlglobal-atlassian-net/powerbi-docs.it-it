@@ -1,22 +1,23 @@
 ---
-title: Modalità messa a fuoco e modalità schermo intero - Come fare zoom avanti per visualizzare altri dettagli.
+title: Modalità messa a fuoco e modalità schermo intero - Come fare zoom avanti per visualizzare altri dettagli
 description: Documentazione per visualizzare un dashboard, un riquadro di un dashboard o una visualizzazione di un report di Power BI in modalità messa a fuoco o in modalità schermo intero
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507962"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279961"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Visualizzare il contenuto in modo più dettagliato: modalità messa a fuoco e modalità schermo intero
 
@@ -83,7 +84,7 @@ Menu per le pagine di report
     Nei report a schermo intero usare queste frecce per spostarsi tra le pagine del report.    
   * Per uscire dalla modalità schermo intero, selezionare l'icona **Esci dalla modalità schermo intero**.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![Icona Esci dalla modalità schermo intero](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Uso della modalità messa a fuoco
 Esistono due modi per aprire la modalità messa a fuoco: uno per i riquadri del dashboard e un altro per le visualizzazioni del report.
@@ -130,7 +131,7 @@ Esistono due modi per aprire la modalità messa a fuoco: uno per i riquadri del 
     ![Uscire dalla modalità messa a fuoco](media/end-user-focus/power-bi-exit-focus-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-* Quando si usa la modalità messa a fuoco con una visualizzazione in un report, è possibile visualizzare e interagire con tutti i filtri, a livello di oggetto visivo, pagina, drill-through e report.    
+* Quando si usa la modalità messa a fuoco con una visualizzazione in un report, sarà possibile visualizzare e interagire con tutti i filtri: livello oggetto visivo, livello pagina, drill-through e livello report.    
 * Quando si usa la modalità messa a fuoco con una visualizzazione o un dashboard, sarà possibile visualizzare e interagire solo con il filtro a livello di oggetto visivo.
 
 ## <a name="next-steps"></a>Passaggi successivi

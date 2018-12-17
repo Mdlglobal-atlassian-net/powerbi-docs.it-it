@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473866"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280812"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
@@ -40,7 +41,7 @@ Per esplorare il servizio Power BI, saranno usati alcuni dati di esempio. Per l'
 
     Il servizio Power BI Importa l'esempio e visualizza il dashboard. I dashboard differenziano il servizio Power BI da Power BI Desktop. L'esempio include anche un report e un set di dati, che saranno esaminati più avanti.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![Visualizzazione del dashboard](media/end-user-experience/power-bi-dashboard.png)
 
 Amanda presenta una panoramica della navigazione nel servizio Power BI.  Seguire quindi tutte le istruzioni riportate sotto il video per esplorare da soli.
 
@@ -50,7 +51,7 @@ Amanda presenta una panoramica della navigazione nel servizio Power BI.  Seguire
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Visualizzazione del contenuto (dashboard, report, cartelle di lavoro, set di dati, aree di lavoro, app)
 Per iniziare, verrà esaminata l'organizzazione del contenuto di base, ovvero dashboard, report, set di dati e cartelle di lavoro. Il contenuto viene visualizzato all'interno del contesto di un'area di lavoro. A questo punto, viene visualizzata una sola area di lavoro denominata **Area di lavoro personale**. In genere gli utenti non necessitano e non usano altre aree di lavoro. In Area di lavoro personale viene archiviato tutto il contenuto di cui si è proprietari. È possibile considerarla come un sandbox personale o un'area di lavoro per il proprio contenuto. L'area di lavoro personale è la posizione in cui viene salvato l'esempio di analisi delle vendite al dettaglio appena scaricato. 
 
-Nell'Area di lavoro personale il contenuto è organizzato in quattro schede, ovvero Dashboard, Report, Cartelle di lavoro e Set di dati.
+All'interno dell'area di lavoro personale, il contenuto è organizzato in 4 schede: Dashboard, Report, Cartelle di lavoro e Set di dati.
 
 ![Schermata Area di lavoro personale](./media/end-user-experience/power-bi-my-workspace.png)
 

@@ -1,25 +1,26 @@
 ---
-title: Visualizzare il contenuto di Power BI condiviso con l'utente corrente
+title: Visualizzare i dashboard e i report condivisi con l'utente corrente
 description: documentazione relativa a condivisi con l'utente corrente in Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e06f0157476207bfe50abba01bd31d7605236a95
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: d1147f02e357984ce7dc7660898317b9071b3a86
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112177"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280697"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizzare i dashboard e i report condivisi con l'utente corrente
-## <a name="shared-with-me"></a>Condiviso con me
+## <a name="shared-with-me"></a>Condivisi con l'utente corrente
 
 Quando un collega condivide contenuto con un altro utente tramite il pulsante **Condividi**, tale contenuto viene visualizzato nel contenitore **Condivisi con l'utente corrente** dell'utente di destinazione. Il dashboard o il report è disponibile solo da **Condivisi con l'utente corrente** e non da **App**.
 

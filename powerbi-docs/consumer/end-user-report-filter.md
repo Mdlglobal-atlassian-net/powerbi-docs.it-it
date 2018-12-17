@@ -1,21 +1,22 @@
 ---
-title: Aggiungere un filtro al report
+title: Aggiungere un filtro a un report
 description: Come aggiungere un filtro a un report nel servizio Power BI per i consumer
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: ea219071b475bf5bb9123e1aa3bbaca412507a8e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473808"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280766"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Presentazione del riquadro Filtri del report
 Questo articolo analizza il riquadro Filtri del report nel servizio Power BI.
@@ -29,14 +30,14 @@ Quando un collega condivide un report, cercare il riquadro **Filtri**. In alcuni
 
 ![report nel browser](media/end-user-report-filter/power-bi-expanded.png)
 
-Il riquadro Filtri contiene filtri che sono stati aggiunti al report dal *responsabile della progettazione* del report. I *consumer* possono interagire con i filtri e salvare le modifiche, ma non aggiungere nuovi filtri al report. Ad esempio, nella schermata precedente il designer ha aggiunto due filtri di livello pagina: Segment (Segmento) e Year (Anno). È possibile interagire e modificare questi filtri, ma non è possibile aggiungere un terzo filtro a livello di pagina.
+Il riquadro Filtri contiene filtri che sono stati aggiunti al report dal *responsabile della progettazione* del report. I *consumer* possono interagire con i filtri e salvare le modifiche, ma non aggiungere nuovi filtri al report. Ad esempio, nello screenshot precedente il designer ha aggiunto due filtri di livello pagina: Segment (Segmento) e Year (Anno). È possibile interagire e modificare questi filtri, ma non è possibile aggiungere un terzo filtro a livello di pagina.
 
 Nel servizio Power BI i report conservano le modifiche apportate nel riquadro Filtri e tali modifiche vengono conservate anche nella versione del report per dispositivi mobili. Per ripristinare le impostazioni predefinite del responsabile della progettazione nel riquadro Filtri, selezionare **Ripristina impostazioni predefinite** nella barra dei menu superiore.     
 
 ## <a name="open-the-filters-pane"></a>Aprire il riquadro Filtri
 Quando è aperto un report, il riquadro Filtri viene visualizzato lungo il lato destro dell'area di disegno report. Se il riquadro non è visibile, selezionare la freccia nell'angolo superiore destro per espanderlo.  
 
-In questo esempio è stato scelto un oggetto visivo con 6 filtri. Anche la pagina del report dispone di filtri, elencati al titolo **Filtri a livello di pagina**. È disponibile un [Filtro di drill-through](../power-bi-report-add-filter.md) e anche l'intero report ha un filtro: **FiscalYear** è 2013 o 2014.
+In questo esempio è stato scelto un oggetto visivo con 6 filtri. Anche la pagina del report dispone di filtri, elencati al titolo **Filtri a livello di pagina**. È disponibile un [Filtro di drill-through](../power-bi-report-add-filter.md) e anche l'intero report ha un filtro:  **FiscalYear** è 2013 o 2014.
 
 ![elenco di filtri](media/end-user-report-filter/power-bi-filter-list.png)
 

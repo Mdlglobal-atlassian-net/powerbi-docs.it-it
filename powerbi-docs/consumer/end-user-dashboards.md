@@ -1,21 +1,22 @@
 ---
-title: Che cos'è un dashboard per i consumer del servizio Power BI?
+title: Che cos'è un dashboard e come si apre?
 description: I dashboard sono una funzionalità chiave del servizio Power BI.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 732e3fcc05ee48135fb0b62d462ef8abcfae96be
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507603"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280513"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
 

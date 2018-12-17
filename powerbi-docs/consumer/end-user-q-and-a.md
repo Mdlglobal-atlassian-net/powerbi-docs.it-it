@@ -1,21 +1,22 @@
 ---
-title: Panoramica di Domande e risposte nel servizio Power BI e in Power BI Destop
+title: Panoramica di Domande e risposte nel servizio Power BI
 description: Panoramica della documentazione per le query in linguaggio naturale Domande e risposte di Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396360"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279579"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Domande e risposte per i **consumer** di Power BI
 ## <a name="what-is-qa"></a>Che cosa sono le domande e risposte?
@@ -46,7 +47,7 @@ Prima di tutto è importante acquisire familiarità con il contenuto. Esaminare 
 
 ![Schermata Domande e risposte](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
-* Se i valori e le etichette dell'asse delle visualizzazioni includono "vendite", "account", "mese" e "opportunità", è possibile porre domande come: "Quale *account* ha la massima *opportunità* oppure mostra *vendite* per mese come grafico a barre.
+* Se le etichette degli assi e i valori delle visualizzazioni includono "vendite", "account", "mese" e "opportunità", è possibile porre tranquillamente domande come questa: "Quale *account* ha la massima *opportunità*" oppure "Mostra le *vendite* per mese come grafico a barre".
 
 * Se si hanno dati relativi alle prestazioni del sito Web in Google Analytics, è possibile chiedere a Domande e risposte di indicare il tempo trascorso su una pagina Web, il numero di visite singole in una pagina e i tassi di coinvolgimento degli utenti. Se invece si cercano dati demografici, è possibile porre domande sull'età e sul reddito familiare per luogo.
 
@@ -74,7 +75,7 @@ Quindi scegliere **Impostazioni** > **Dashboard**. Verificare che sia presente u
 **Risposta 2**: in alcuni casi il *designer* del dashboard o l'amministratore disattiva Domande e risposte. Contattarli per vedere se è possibile riattivare la funzionalità.   
 
 **Domanda**: quando si digita una domanda, non si ottengono i risultati desiderati.    
-**Risposta**: comunicare con il *designer* del dashboard. Il designer può adottare varie misure per migliorare i risultati di Domande e risposte. Ad esempio, il designer può rinominare le colonne del set di dati usando termini di facile comprensione (`CustomerFirstName` invece di `CustFN`). Poiché conosce particolarmente bene il set di dati, il designer può anche ideare domande utili e aggiungerle al canvas di Domande e risposte.
+**Risposta**: rivolgersi al *designer* del dashboard. Il designer può adottare varie misure per migliorare i risultati di Domande e risposte. Ad esempio, il designer può rinominare le colonne del set di dati usando termini di facile comprensione (`CustomerFirstName` invece di `CustFN`). Poiché conosce particolarmente bene il set di dati, il designer può anche ideare domande utili e aggiungerle al canvas di Domande e risposte.
 
 ![Domanda in primo piano evidenziata](media/end-user-q-and-a/power-bi-featured-q.png)
 

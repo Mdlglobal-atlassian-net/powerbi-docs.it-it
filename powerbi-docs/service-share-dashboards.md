@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271764"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281032"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Condividere i dashboard e i report di Power BI con i colleghi e con altri utenti
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre anche [diversi altri modi per collaborare a dashboard e report e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -111,7 +111,7 @@ Aspetti da tenere presenti per la condivisione di dashboard e report:
 
 * In generale, i dati visualizzati nel dashboard o nel report sono gli stessi sia per l'utente che per i relativi colleghi. Quindi, se un utente dispone delle autorizzazioni per visualizzare una maggior quantità di dati rispetto ai colleghi, questi ultimi potranno visualizzare tutti i dati presenti nel dashboard o nel report. Tuttavia, se la [sicurezza a livello di riga](service-admin-rls.md) viene applicata al set di dati sottostante di un dashboard o un report, vengono usate le credenziali di ogni persona per determinare a quali dati può accedere.
 * Tutti gli utenti con cui si condivide il dashboard lo possono visualizzare e possono interagire con i report correlati nella [visualizzazione di lettura](consumer/end-user-reading-view.md). Non possono creare report o salvare le modifiche apportate a report esistenti.
-* Nessuno può visualizzare o scaricare il set di dati.
+* Nessuno può visualizzare o scaricare il set di dati, ma è possibile accedere al set di dati direttamente tramite la funzionalità Analizza in Excel. Un amministratore può limitare l'uso di Analizza in Excel limitando la funzionalità per tutti gli utenti in un gruppo. Tuttavia, la restrizione riguarda tutti gli utenti in tale gruppo per ogni area di lavoro a cui appartiene al gruppo.
 * Tutti gli utenti possono [aggiornare manualmente i dati](refresh-data.md).
 * Se si usa Office 365 per la posta elettronica, è possibile condividere con i membri di un gruppo di distribuzione immettendo l'indirizzo di posta elettronica associato a quel gruppo.
 * I colleghi con lo stesso dominio di posta elettronica dell'utente e quelli che usano un dominio diverso ma registrato nel medesimo tenant possono condividere il dashboard con altri utenti. Si supponga ad esempio che i domini contoso.com e contoso2.com siano stati registrati nello stesso tenant. Se l'indirizzo di posta elettronica è konrads@contoso.com, allora sia ravali@contoso.com che gustav@contoso2.com possono condividere il dashboard, purché abbiano l'autorizzazione alla condivisione.

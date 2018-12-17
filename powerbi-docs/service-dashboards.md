@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331943"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280582"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard per le finestre di progettazione di Power BI
 
@@ -48,15 +48,15 @@ I [report](service-reports.md) e i dashboard appaiono simili poiché sono entram
 | --- | --- | --- |
 | Pagine |Una pagina |Una o più pagine |
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
-| Disponibile in Power BI Desktop |No |Sì, gli ***autori*** possono creare e visualizzare i report in Desktop |
+| Disponibile in Power BI Desktop |No | È possibile creare e visualizzare i report in Power BI Desktop |
 | Sottoscrivi |È possibile sottoscrivere un dashboard |È possibile sottoscriversi alle pagine del report |
 | Applicazione di filtri |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | In primo piano |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
 | Preferito | È possibile impostare i dashboard come *preferiti* | È possibile impostare i report come *preferiti*
 | Impostazione di avvisi |Disponibile per i riquadri del dashboard in determinate circostanze |Non disponibile dai report |
-| Query in linguaggio naturale |Disponibile dal dashboard |Non disponibile dai report |
+| Query in linguaggio naturale (Domande e risposte) |Disponibili nei dashboard | Disponibili nei report |
 | Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
-| Customization |No |Nella visualizzazione di lettura è possibile pubblicare, incorporare, filtrare, esportare, scaricare come file PBIX, visualizzare il contenuto correlato, generare codici QR, analizzare in Excel e altro ancora.  |
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 * Per acquisire familiarità con i dashboard, consultare la presentazione di uno dei [dashboard di esempio](sample-tutorial-connect-to-the-samples.md).

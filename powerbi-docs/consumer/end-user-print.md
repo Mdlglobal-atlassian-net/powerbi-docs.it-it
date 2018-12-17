@@ -1,22 +1,23 @@
 ---
-title: Stampa dal servizio Power BI
+title: Stampare dal servizio Power BI
 description: Stampa di un dashboard, di un riquadro o di una pagina del report da Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: be7597cf13732e251f40f73a853e6ea7b0032652
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: bb3ecb8a343d2ed3f3693dd136b11b7543cabc70
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507670"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280743"
 ---
 # <a name="printing-from-power-bi-service"></a>Stampa dal servizio Power BI
 È possibile stampare un intero dashboard, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.
@@ -77,16 +78,16 @@ I report possono essere stampati una pagina alla volta.
 2. Eseguire i passaggi 2-3 in *Stampare una pagina del report*.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-* D: Non è possibile trovare il pulsante **Stampa**.    
-* R: Se si sta usando Power BI Desktop, la stampa non è supportata.  È possibile stampare solo nel servizio Power BI.
-* D: Non è possibile stampare tutte le pagine del report contemporaneamente.    
-* R: È normale. Le pagine dei report possono essere stampate solo una alla volta.
-* D: Non è possibile a stampare in formato PDF.    
-* R: Questa opzione viene visualizzata solo se il driver PDF è già stato configurato nel browser.    
-* D: Quando si seleziona **Stampa**, la visualizzazione non corrisponde a quanto mostrato in questo articolo.    
-* R: Le schermate di stampa variano a seconda del browser e della versione del software.
-* D: L'immagine stampata non è ridimensionata correttamente.  Il dashboard non si rientra nella pagina. Altre domande su ridimensionamento e orientamento.    
-* R: Non è possibile garantire che la copia stampata sarà esattamente identica a come appare nel servizio Power BI. Elementi come il ridimensionamento, i margini, le informazioni visive, l'orientamento e le dimensioni non sono controllati da Power BI. Per informazioni su problemi del genere, consultare la documentazione relativa al browser in uso.      
+* D: non è possibile trovare il pulsante **Stampa**.    
+* R: se si sta usando Power BI Desktop, la stampa non è supportata.  È possibile stampare solo nel servizio Power BI.
+* D: non è possibile stampare tutte le pagine del report contemporaneamente.    
+* R: è normale. Le pagine dei report possono essere stampate solo una alla volta.
+* D: non è possibile a stampare in formato PDF.    
+* R: questa opzione viene visualizzata solo se il driver PDF è già stato configurato nel browser.    
+* D: quando si seleziona **Stampa**, la visualizzazione non corrisponde a quanto mostrato in questo articolo.    
+* R: le schermate di stampa variano a seconda del browser e della versione del software.
+* D: l'immagine stampata non è ridimensionata correttamente.  Il dashboard non si rientra nella pagina. Altre domande su ridimensionamento e orientamento.    
+* R: non è possibile garantire che la copia stampata sarà esattamente identica a come appare nel servizio Power BI. Elementi come il ridimensionamento, i margini, le informazioni visive, l'orientamento e le dimensioni non sono controllati da Power BI. Per informazioni su problemi del genere, consultare la documentazione relativa al browser in uso.      
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Condividere dashboard e report con i colleghi e altri utenti](../service-share-dashboards.md)

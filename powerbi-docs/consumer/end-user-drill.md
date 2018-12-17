@@ -1,33 +1,34 @@
 ---
-title: Modalità di espansione in una visualizzazione in Power BI
+title: Eseguire drill-down e drill-up in una visualizzazione
 description: Questo documento illustra come eseguire il drill down in una visualizzazione nel servizio Microsoft Power BI e in Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: MNAaHw4PxzE
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b8d51bef94a046d7e59962b565d13ba623b5bcc4
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: b24a58556c35a3213f3360b70d604a0e9b51b074
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679489"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280988"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modalità di espansione in una visualizzazione in Power BI
 
 ## <a name="drill-requires-a-hierarchy"></a>L'espansione richiede una gerarchia
 Quando un oggetto visivo ha una gerarchia, è possibile eseguire il drill-down per rivelare dettagli aggiuntivi. Ad esempio, potrebbe esserci una visualizzazione che calcola il numero di medaglie olimpiche in base a una gerarchia composta da sport, disciplina ed eventi. Per impostazione predefinita, la visualizzazione indicherà il numero di medaglie per sport: ginnastica, sci, sport acquatici e così via, ma, poiché contiene una gerarchia, selezionando uno degli oggetti visivi (ad esempio una barra, una riga o una bolla), potrebbe essere visualizzata un'immagine sempre più dettagliata. Selezionare l'elemento **acquatici** per visualizzare dati relativi a nuoto, tuffi e pallanuoto.  Selezionare l'elemento **tuffi** per visualizzare dettagli relativi a trampolino, piattaforma e tuffi sincronizzati.
 
-È possibile aggiungere gerarchie ai report di cui si è proprietari, ma non a quelli condivisi.
+È possibile aggiungere gerarchie ai report di cui si è proprietari, ma non a quelli condivisi da altri utenti.
 Se non si è certi di quali visualizzazioni di Power BI contengano una gerarchia,  passare il mouse sopra una visualizzazione: se vengono visualizzati i controlli di drill-down negli angoli superiori, la visualizzazione contiene una gerarchia.
 
-![](./media/end-user-drill/power-bi-drill-icon4.png)  ![](./media/end-user-drill/power-bi-drill-icon2.png)  ![](./media/end-user-drill/power-bi-drill-icon3.png)
-![](./media/end-user-drill/power-bi-drill-icon5.png) ![](./media/end-user-drill/power-bi-drill-icon6.png)  
+![eseguire il drill-down di un livello](./media/end-user-drill/power-bi-drill-icon4.png)![attivare e disattivare il drill-down](./media/end-user-drill/power-bi-drill-icon2.png)![icona per il drill-down di tutti i campi in una sola volta](./media/end-user-drill/power-bi-drill-icon3.png)
+![icona drill-up](./media/end-user-drill/power-bi-drill-icon5.png) ![icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png)  
 
 Le date sono un tipo univoco di gerarchia. Quando si aggiunge un campo data a una visualizzazione, Power BI aggiunge automaticamente una gerarchia temporale che contiene anno, trimestre, mese e giorno. Per altre informazioni, vedere [Gerarchie e comportamento di esplorazione degli oggetti visivi](../guided-learning/visualizations.yml?tutorial-step=18) o guardare il video seguente.
 
@@ -42,15 +43,15 @@ Le date sono un tipo univoco di gerarchia. Quando si aggiunge un campo data a un
 
 1. Nel servizio Power BI o in Power BI Desktop il drill-down richiede una visualizzazione con una gerarchia. 
    
-2. Per proseguire, [aprire l'esempio di analisi di vendita al dettaglio](../sample-datasets.md) e creare una mappa ad albero che esamini **Total Units This Year** (Values) per **Territory**, **City**, **PostalCode** e **Name** (Group).  La mappa ad albero presenta una gerarchia composta da territorio, città, codice postale e nome città. Ogni territorio include una o più città, ogni città include uno o più codici di avviamento postale e così via. Per impostazione predefinita, la visualizzazione mostra solo i dati del territorio, perché *Territory* viene visualizzato per primo nell'elenco.
+2. Per proseguire, [aprire l'esempio Retail Analysis](../sample-datasets.md) e creare una mappa ad albero che esamini **Total Units This Year** (Values) per **Territory**, **City**, **PostalCode** e **Name** (Group).  La mappa ad albero presenta una gerarchia composta da territorio, città, codice postale e nome della città. Ogni territorio include una o più città, ogni città include uno o più codici di avviamento postale e così via. Per impostazione predefinita, la visualizzazione mostra solo i dati del territorio, perché *Territory* viene visualizzato per primo nell'elenco.
    
-   ![](media/end-user-drill/power-bi-hierarcy-list.png)
+   ![Selezionare "Territory"](media/end-user-drill/power-bi-hierarcy-list.png)
 
 2. Poiché l'uso contemporaneo delle diverse icone di drill-down può generare confusione, filtrare la mappa ad albero in modo da visualizzare solo 2 dei territori più piccoli: **KY** e **TN**. Selezionare la mappa ad albero e in **Filtri a livello di oggetto visivo** espandere **Territory** e selezionare **KY** e **TN**.
 
     ![filtro per KY e TN](./media/end-user-drill/power-bi-filter.png)    
 
-   Nella mappa sono ora visibili solo due territori.
+   Nella mappa ad albero sono ora visibili solo due territori.
 
    ![icona di drill-down doppia](./media/end-user-drill/power-bi-territories.png)
 
@@ -67,7 +68,7 @@ Sono disponibili diverse opzioni per l'accesso alle funzionalità di drill-down,
 
 - Nella barra dei menu di Power BI scegliere il pulsante **Esplora**.
 
-   ![](media/end-user-drill/power-bi-explore.png)
+   ![Selezionando Esplora vengono visualizzate le opzioni e le icone di drill-down](media/end-user-drill/power-bi-explore.png)
 
 ## <a name="drill-pathways"></a>Percorsi di drill-down
 ### <a name="drill-down"></a>Drill-down
@@ -87,60 +88,60 @@ Sono disponibili diversi metodi per eseguire il drill-down nella visualizzazione
 
 1. Iniziare dal livello superiore della mappa ad albero contenente i dati per KY e TN. Allargare la mappa ad albero selezionando uno dei quadratini di ridimensionamento e trascinandolo verso destra. 
 
-    ![mappa ad albero che mostra 2 stati](./media/end-user-drill/power-bi-drill-down.png) .
+    ![mappa ad albero che mostra due stati](./media/end-user-drill/power-bi-drill-down.png) .
 
-2. Per eseguire il drill-down di ***tutti i campi contemporaneamente***, selezionare la doppia freccia nell'angolo superiore sinistro della visualizzazione ![icona di drill-down doppia](./media/end-user-drill/power-bi-drill-icon3.png) . La mappa ad albero visualizza i dati di città per Kentucky e Tennessee. 
+2. Per eseguire il drill-down di ***tutti i campi contemporaneamente***, selezionare la doppia freccia nell'angolo superiore sinistro della visualizzazione ![icona di drill-down doppia](./media/end-user-drill/power-bi-drill-icon3.png). La mappa ad albero visualizza i dati delle città per Kentucky e Tennessee. 
 
     ![icona di drill-down doppia](./media/end-user-drill/power-bi-drill-down1.png)
    
-5. Eseguire nuovamente il drill-down per il livello di codice postale della gerarchia.
+5. Eseguire nuovamente il drill-down per il livello codice postale della gerarchia.
 
     ![icona di drill-down doppia](./media/end-user-drill/power-bi-drill-down2.png)
 
-3. Per eseguire il drill-up, selezionare la freccia rivolta verso l'alto nell'angolo superiore sinistro della visualizzazione ![](./media/end-user-drill/power-bi-drill-icon5.png).
+3. Per eseguire il drill-up, selezionare la freccia rivolta verso l'alto nell'angolo superiore sinistro della visualizzazione ![icona di drill-up di un livello](./media/end-user-drill/power-bi-drill-icon5.png).
 
 
-## <a name="drill-down-one-field-at-a-time"></a>Drill-down di un campo
+## <a name="drill-down-one-field-at-a-time"></a>Drill-down di un campo alla volta
 Questo metodo usa l'icona di drill-down visualizzata nell'angolo superiore destro della visualizzazione. 
 
 1. Selezionare l'icona di drill-down per attivarlo ![drill-down attivato](./media/end-user-drill/power-bi-drill-icon2.png). È ora possibile eseguire il drill-down di ***un campo alla volta***. 
    
-   ![](media/end-user-drill/power-bi-drill-icon-new.png)
+   ![icona di freccia che punta al drill-down attivato/disattivato](media/end-user-drill/power-bi-drill-icon-new.png)
 
    Se non si attiva il drill-down, la selezione di un oggetto visivo, ad esempio una barra, una bolla o una foglia, non esegue il drill-down ma filtra in modo incrociato gli altri grafici nella pagina del report.
 
 2. Selezionare la *foglia* per **TN**. La mappa ad albero visualizza ora tutte le città del Tennessee con un negozio. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![mappa ad albero che mostra i dati solo per il Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. A questo punto è possibile continuare a eseguire il drill-down per il Tennesee oppure eseguire il drill-down per una specifica città del Tennesee o espandere (vedere **Espandere tutti i campi** più avanti). Continuare a eseguire il drill-down di un campo alla volta.  Selezionare **Knoxville, TN**. La mappa ad albero visualizza ora il codice postale del negozio di Knoxville. 
+2. A questo punto è possibile continuare a eseguire il drill-down per il Tennessee oppure eseguire il drill-down per una specifica città del Tennessee o espandere (vedere **Espandere tutti i campi** più avanti). Continuare a eseguire il drill-down di un campo alla volta.  Selezionare **Knoxville, TN**. La mappa ad albero visualizza ora il codice postale del negozio di Knoxville. 
 
-   ![](media/end-user-drill/power-bi-drill-down-one2.png)
+   ![la mappa ad albero mostra 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
-    Si noti che il titolo viene modificato durante il drill-down e il drill-up.  
+    Si noti che il titolo cambia durante il drill-down e il drill-up.  
 
 ## <a name="expand-all-and-expand-one-field-at-a-time"></a>Espandere tutti i campi ed espandere un campo alla volta
-La visualizzazione di una mappa ad albero che mostra solo un codice postale non offre molte informazioni utili.  Espandere di un livello verso il basso nella gerarchia.  
+La visualizzazione di una mappa ad albero che mostra solo un codice postale non è informativa.  Espandere di un livello verso il basso nella gerarchia.  
 
-1. Con la mappa ad albero attiva, selezionare l'icona di *espansione verso il basso* ![icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png) . La mappa ad albero mostra ora 2 livelli della gerarchia: codice postale e nome negozio. 
+1. Con la mappa ad albero attiva, selezionare l'icona di *espansione verso il basso* ![icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero mostra ora due livelli della gerarchia: codice postale e nome del negozio. 
 
-    ![visualizzazione del codice postale e del nome negozio](./media/end-user-drill/power-bi-expand1.png)
+    ![visualizzazione del codice postale e del nome del negozio](./media/end-user-drill/power-bi-expand1.png)
 
-2. Per visualizzare tutti e quattro i livelli di dati per Tennesee, selezionare la freccia di drill-up fino a raggiungere il secondo livello, **Total units this year by territory and city** della mappa ad albero. 
+2. Per visualizzare tutti e quattro i livelli di dati per Tennessee, selezionare la freccia di drill-up fino a raggiungere il secondo livello, **Total units this year by territory and city** della mappa ad albero. 
 
-    ![](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![mappa ad albero che mostra tutti i dati per il Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
-3. Assicurarsi che il drill-down sia attivato ![drill-down attivato](./media/end-user-drill/power-bi-drill-icon2.png) e selezionare l'icona di *espansione verso il basso* ![icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero mostra ora alcuni dettagli aggiuntivi; anziché mostrare solo città e stato, la mappa mostra anche il codice postale. 
+3. Assicurarsi che il drill-down sia attivato ![drill-down attivato](./media/end-user-drill/power-bi-drill-icon2.png) e selezionare l'icona di *espansione verso il basso* ![icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero mostra ora alcuni dettagli aggiuntivi. Invece di mostrare solo città e stato, la mappa mostra anche il codice postale. 
 
     ![icona di drill-down doppia](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Selezionare l'icona di *espansione verso il basso* ancora una volta per visualizzare tutti e quattro i livelli di gerarchia per Tennesee nella mappa ad albero. Passare il mouse su una foglia per visualizzare altri dettagli.
+4. Selezionare l'icona di *espansione verso il basso* ancora una volta per visualizzare tutti e quattro i livelli di dettaglio della gerarchia per il Tennessee nella mappa ad albero. Passare il mouse su una foglia per visualizzare altri dettagli.
 
-   ![mappa ad albero con i dati del Tennesee](./media/end-user-drill/power-bi-expand-all.png)
+   ![mappa ad albero con i dati del Tennessee](./media/end-user-drill/power-bi-expand-all.png)
 
-## <a name="drilling-filters-other-visuals"></a>Filtri su altri oggetti visivi
-Con la modalità di drill-down attiva è necessario decidere in che modo il drill-down e l'espansione ha effetto sulle altre visualizzazioni nella pagina. 
+## <a name="drilling-filters-other-visuals"></a>Drill di filtri su altri oggetti visivi
+Con la modalità di drill-down attiva è necessario decidere in che modo il drill-down e l'espansione hanno effetto sulle altre visualizzazioni nella pagina. 
 
 Per impostazione predefinita, il drill-down non filtra altri oggetti visivi in un report. Questa funzionalità può essere tuttavia abilitata in Power BI Desktop e nel servizio Power BI. 
 
@@ -179,11 +180,11 @@ Per questo esempio, seguire l'[Esempio di analisi delle vendite al dettaglio](..
 
 Anche se il campo dati Asse è **Mese**, viene tuttavia creata una categoria **Anno** nell'area **Asse**, perché Power BI fornisce la struttura DateTime completa per tutti i valori letti. Nella parte superiore della gerarchia vengono visualizzati i dati per l'anno.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
+![Singola barra che mostra i dati raggruppati in base all'anno](media/end-user-drill/power-bi-hierarchical-axis-datetime-1.png)
 
-Con la modalità drill-down attiva, fare clic sulla bar nel grafico per scendere di un livello nella gerarchia. Verranno visualizzate tre barre per i dati dei trimestri disponibili. Dalle icone in alto a sinistra scegliere quindi **Expand all down one level of the hierarchy** (Espandi tutto di un livello verso il basso nella gerarchia), quindi ripetere l'operazione per visualizzare il livello più basso della gerarchia, che mostra i risultati per ogni mese.
+Con la modalità drill-down attiva, fare clic sulla barra nel grafico per scendere di un livello nella gerarchia. Verranno visualizzate tre barre per i dati dei trimestri disponibili. Dalle icone in alto a sinistra scegliere quindi **Expand all down one level of the hierarchy** (Espandi tutto di un livello verso il basso nella gerarchia), quindi ripetere l'operazione per visualizzare il livello più basso della gerarchia, che mostra i risultati per ogni mese.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
+![grafico a barre per con barre per ogni mese](media/end-user-drill/power-bi-hierarchical-axis-datetime-2.png)
 
 Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti per ogni report. La tabella seguente illustra i risultati di **Mostra dati** in seguito al drill-down in un report da un singolo mese o da tutti i mesi. 
 
@@ -192,35 +193,35 @@ Si noti che i dati sono gli stessi per i report dell'anno e del trimestre, ma, d
 
 |Modalità di espansione|Anno|Trimestre|Mese|Giorno|
 | ---|:---:|:---:|:---:|---|
-|Singola|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|Tutti|![](./media/end-user-drill/power-bi-hierarchical-year.png)|![](media/end-user-drill/power-bi-hierarchical-quarter.png)|![](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Singola|![singolo anno](./media/end-user-drill/power-bi-hierarchical-year.png)|![singolo trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![singolo mese](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![singolo giorno](media/end-user-drill/power-bi-hierarchical-one-day.png)|
+|Tutto|![tutti gli anni](./media/end-user-drill/power-bi-hierarchical-year.png)|![tutti i trimestri](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tutti i mesi](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![tutti i giorni](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dati di categorie gerarchici
 I dati modellati da raccolte e sottoraccolte sono gerarchici. Un esempio valido sono i dati località. Si consideri una tabella in un'origine dati le cui colonne sono Paese, Stato, Città e CAP. I dati che condivide lo stesso paese, stato e città sono gerarchici.
 
-Per questo esempio, seguire l'[esempio di analisi delle vendite al dettaglio](../sample-datasets.md). Creare una visualizzazione istogramma in pila che esamini le **unità totali di quest'anno** (valori) per **territorio**, **città**, **codice postale** e **nome** (gruppo).  
+Per questo esempio, seguire l'[esempio di analisi delle vendite al dettaglio](../sample-datasets.md). Creare una visualizzazione istogramma in pila che esamini **Total Units This Year** (Values) per **Territory**, **City**, **Postal Code** e **Name** (Group).  
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
+![grafico a barre che mostra il totale delle unità dell'anno in base al territorio](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)
 
-Con la modalità drill-down attivata, dalle icone in alto a sinistra scegliere quindi **Expand all down one level of the hierarchy** (Espandi tutto di un livello verso il basso nella gerarchia) tre volte.
+Con la modalità drill-down attivata, dalle icone in alto a sinistra scegliere quindi **Espandi tutto di un livello nella gerarchia** tre volte.
 Verrà visualizzato il livello più basso della gerarchia, che mostra i risultati per territorio, città e codice postale.
 
-![](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
+![grafico a barre che mostra il livello più basso della gerarchia, il più dettagliato](media/end-user-drill/power-bi-hierarchical-axis-category-2.png)
 
-Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti per ogni report. La tabella seguente illustra i risultati di **Mostra dati** in seguito al drill-down in un report per un singolo mese o per tutti i territori. Quando si esegue il drill-down, è possibile osservare che il report singolo è più specifico e che il report relativo a tutti i territori include più dati.
+Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti per ogni report. La tabella seguente illustra i risultati di **Mostra dati** in seguito al drill-down in un report per un singolo territorio o per tutti i territori. Quando si esegue il drill-down, è possibile osservare che il report singolo è più specifico e che il report relativo a tutti i territori include più dati.
 
 
-| Modalità di espansione|Territorio|Città|Codice postale|Nome|
+| Modalità di espansione|Territorio|City|Codice postale|Nome|
 | ---|:---:|:---:|:---:|---|
-|Singola|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Tutti|![](./media/end-user-drill/power-bi-hierarchical-territory.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Singola|![singolo territorio](./media/end-user-drill/power-bi-hierarchical-territory.png)|![singola città](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![singolo codice postale](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![singolo nome](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
+|Tutto|![tutti i territori](./media/end-user-drill/power-bi-hierarchical-territory.png)|![tutte le città](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![tutti i codici postali](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![tutti i nomi](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 * Se l'aggiunta di un campo data a una visualizzazione non crea una gerarchia, è possibile che il campo"data" non sia stato effettivamente salvato come data. Se si è proprietari del set di dati, aprirlo nella visualizzazione *Dati* in Power BI Desktop, selezionare la colonna che contiene la data e nella scheda Modellazione cambiare il **Tipo di dati** in **Data** o **Data/ora**. Se il report è stato condiviso con l'utente, contattare il proprietario per richiedere la modifica.  
   
-  ![](media/end-user-drill/power-bi-change-data-type2.png)
+  ![selezionare la visualizzazione Dati e, in alto a destra, vedere Tipo di dati](media/end-user-drill/power-bi-change-data-type2.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](../visuals/power-bi-report-visualizations.md)

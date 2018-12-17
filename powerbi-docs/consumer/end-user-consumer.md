@@ -1,20 +1,21 @@
 ---
-title: Che cos'è un consumer di Power BI?
+title: Che cos'è un "consumer" di Power BI?
 description: Panoramica su Power BI e sull'interazione tra i diversi componenti, Power BI Desktop, servizio Power BI, Power BI per dispositivi mobili, Server di report, Power BI Embedded.
 author: mihart
 manager: kvivek
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 10/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 15cdd66e6062c4199b2f736208192c452bcbd0af
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 392593c6bceed7555a82916b2a992200438dffab
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396587"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280175"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI per i consumer
 La modalità di interazione con Power BI dipende dal ruolo. Gli *utenti finali* o *consumer* ricevono dashboard, report e app dai colleghi e tramite il ***servizio Power BI*** esaminano il contenuto e interagiscono con questo per poter prendere decisioni rilevanti per l'azienda.

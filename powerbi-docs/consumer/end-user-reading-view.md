@@ -5,21 +5,21 @@ services: powerbi
 documentationcenter: ''
 author: mihart
 manager: kvivek
-backup: ''
+ms.custom: seodec18
 editor: ''
 tags: ''
 ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 1da43fb6bc0604cfa356f19aa212256612350c65
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396521"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280122"
 ---
 <!-- once the sample aps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Avvio rapido: Informazioni sulle funzionalità di Power BI per i ***consumer***
@@ -46,7 +46,7 @@ In Power BI le *app* riuniscono in un'unica posizione dashboard e report correla
 1. Selezionare **App** ![App nel riquadro di spostamento a sinistra](./media/end-user-apps/power-bi-apps-bar.png) > **Scarica app**. 
    
      ![Icona Scarica app](./media/end-user-reading-view/power-bi-get-app.png)
-2. In AppSource, in **Organizzazione** eseguire una ricerca per limitare il numero di risultati e trovare l'app si sta cercando.
+2. In AppSource, in **Organizzazione** eseguire una ricerca per limitare il numero di risultati e trovare l'app che si sta cercando.
    
      ![In AppSource in Organizzazione](./media/end-user-reading-view/power-bi-appsource.png)
 3. Selezionare **Scarica adesso** per aggiungerla al contenitore App. 
@@ -74,7 +74,7 @@ Non è necessario aprire Power BI per monitorare un dashboard.  È sufficiente e
       
    ![Finestra Sottoscrivi](./media/end-user-subscribe/power-bi-emails.png)
    
-    L'aggiornamento della pagina del report non aggiorna il set di dati. Solo il proprietario del set di dati può aggiornare manualmente un set di dati. Per cercare il nome del o dei set di dati sottostanti, selezionare **Visualizza elementi correlati** nella barra dei menu superiore.
+    L'aggiornamento della pagina del report non aggiorna il set di dati. Solo il proprietario del set di dati può aggiornare manualmente un set di dati. Per cercare il nome dei set di dati sottostanti, selezionare **Visualizza elementi correlati** nella barra dei menu superiore.
 
 ### <a name="view-related-content"></a>Visualizza il contenuto correlato
 Il riquadro **Contenuto correlato** mostra come è interconnesso il contenuto del servizio Power BI: dashboard, report e set di dati. Non solo il riquadro mostra il contenuto correlato, ma consente anche di intervenire sul contenuto e spostarsi facilmente tra il contenuto correlato.
@@ -175,7 +175,7 @@ Passare il puntatore del mouse sull'oggetto visivo e selezionare l'icona **Modal
 
 ![modalità messa a fuoco](media/end-user-reading-view/powerbi-focus-mode.png)
 
-Per aprire la stessa visualizzazione senza che barre dei menu, riquadro dei filtri e altri riquadri vengano rimossi, selezionare l'icona **Schermo intero** dalla barra dei menu in alto ![](media/end-user-reading-view/power-bi-focus-icon.png).
+Per aprire la stessa visualizzazione senza elementi di distrazione come barre dei menu, riquadro dei filtri e altri riquadri, selezionare l'icona **Schermo intero** dalla barra dei menu in alto ![icona schermo intero](media/end-user-reading-view/power-bi-focus-icon.png).
 
 ![Modalità schermo intero](media/end-user-reading-view/power-bi-full-screen.png)
 

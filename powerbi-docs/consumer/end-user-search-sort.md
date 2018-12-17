@@ -1,32 +1,33 @@
 ---
-title: Ricerca e ordinamento di contenuto nel servizio Power BI
+title: Cercare e ordinare il contenuto nel servizio Power BI
 description: documentazione per la ricerca e l'ordinamento del contenuto nelle aree di lavoro di Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 3c66a428fabadaf53e2b1f7745b6de9668a9e532
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 7f56cb4ec9859750c218975d25f3b8e2dd8a0469
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49113025"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280467"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Spostamento: ricerca e ordinamento del contenuto nel servizio Power BI
 Sono disponibili vari modi per spostarsi all'interno del contenuto nel servizio Power BI. Nelle aree di lavoro il contenuto è organizzato in base al tipo: dashboard, report, cartelle di lavoro e set di dati.  Il contenuto è anche organizzato in base all'utilizzo: Preferiti, recenti, app, condivisi con l'utente corrente e in primo piano. Per usare una singola posizione, nella home page tutto il contenuto è organizzato in un'unica pagina. Questi percorsi diversi per il contenuto consentono di trovare rapidamente ciò che serve nel servizio Power BI.  
 
 ## <a name="navigation-within-workspaces"></a>Spostamento tra le aree di lavoro
 
-I *consumer* di Power BI hanno in genere solo un'area di lavoro, ovvero l'**area di lavoro personale**. L'**area di lavoro personale** includerà contenuto solo se sono stati scaricati esempi di Microsoft o se è stato creato o scaricato contenuto personale.  
+I *consumer* di Power BI hanno in genere una sola area di lavoro, ovvero l'**area di lavoro personale**. L'**area di lavoro personale** includerà contenuto solo se sono stati scaricati esempi di Microsoft o se è stato creato o scaricato contenuto personale.  
 
 All'interno dell'**area di lavoro personale**, il servizio Power BI separa il contenuto in base al tipo: dashboard, report, cartelle di lavoro e set di dati. Alla selezione di un'area di lavoro, verrà visualizzata questa organizzazione. In questo esempio, l'**area di lavoro personale** contiene un dashboard, due report, nessuna cartella di lavoro e due set di dati.
 
-![video](./media/end-user-search-sort/nav.gif)
+![Video](./media/end-user-search-sort/nav.gif)
 
 ________________________________________
 

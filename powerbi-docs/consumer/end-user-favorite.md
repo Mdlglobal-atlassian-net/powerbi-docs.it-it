@@ -3,20 +3,21 @@ title: Preferiti nel servizio Power BI (dashboard, report, app)
 description: Documentazione per impostare i dashboard, i report e le app come Preferiti nel servizio Power BI
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452500"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280189"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Aggiungere a Preferiti dashboard, report e app nel servizio Power BI
 Dopo aver aggiunto un contenuto a *Preferiti* è possibile accedere a tale contenuto da tutte le aree di lavoro.  I Preferiti sono in genere i contenuti a cui si accede con maggior frequenza.
@@ -71,7 +72,7 @@ Se un report viene usato di rado,  è possibile rimuoverlo dai Preferiti. Un con
    ![Schermata Preferiti](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Selezionare la stella gialla accanto al contenuto per rimuoverlo da Preferiti.
 
-> **NOTA**: è possibile rimuovere da Preferiti un dashboard, un report o anche un'app. È sufficiente aprire l'elemento e deselezionare l'icona gialla.   
+> **NOTA**: è possibile rimuovere dai Preferiti un dashboard, un report o anche un'app. È sufficiente aprire l'elemento e deselezionare l'icona gialla.   
 > 
 > 
 
