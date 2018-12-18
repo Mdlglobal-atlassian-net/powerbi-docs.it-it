@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8131722d0e035f28fcb88827b1a68c2da97959cb
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: b63b8a601040751cda81e022d571d3a0ed6d501f
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268093"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180669"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Uso delle entità calcolate in Power BI Premium (anteprima)
 
@@ -77,16 +77,21 @@ La procedura è completata: la trasformazione viene eseguita sui dati nel flusso
 
 È importante notare che se si rimuove l'area di lavoro dalla capacità di Power BI Premium, il flusso di dati associato non verrà più aggiornato. 
 
+Quando si usano flussi di dati creati in modo specifico in un account di Azure Data Lake Storage Gen2 dell'organizzazione, le entità collegate e calcolate funzionano correttamente solo quando risiedono nello stesso account di archiviazione. Per altre informazioni, vedere [Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
+
+Le entità collegate, inoltre, non sono disponibili per i flussi di dati creati dalle cartelle CDM. Vedere [Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)](service-dataflows-add-cdm-folder.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 In questo articolo sono stati descritti le entità calcolate e i flussi di dati disponibili nel servizio Power BI. Ecco alcuni altri articoli che potrebbero essere utili.
 
-
 * [Preparazione dei dati self-service con flussi di dati](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
 * [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
 * [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)](service-dataflows-configure-workspace-storage-settings.md)
+* [Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)](service-dataflows-add-cdm-folder.md)
+* [Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)

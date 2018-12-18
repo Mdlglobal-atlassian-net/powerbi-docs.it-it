@@ -1,21 +1,22 @@
 ---
-title: Analizza in Excel
+title: Analizza in Excel per Power BI
 description: Informazioni su come analizzare i set di dati di Power BI in Excel
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d1ddb1eabb45fa0c93b04419524d7f4f194189bb
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: b33fafee2ef1f217a99b870e77c3823c6783a11d
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669130"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025949"
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
 A volte si desidera utilizzare Excel per visualizzare e interagire con un set di dati di cui si dispone grazie a Power BI. Con **Analizza in Excel**, è anche possibile accedere alle funzionalità della tabella pivot, del grafico e del filtro dei dati di Excel in base al set di dati presente in Power BI.

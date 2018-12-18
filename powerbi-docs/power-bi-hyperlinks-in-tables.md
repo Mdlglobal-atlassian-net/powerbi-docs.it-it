@@ -1,28 +1,30 @@
 ---
-title: Come aggiungere un collegamento ipertestuale a una tabella
-description: Collegamenti ipertestuali nelle tabelle
-author: maggiesMSFT
-manager: kfile
+title: Aggiungere collegamenti ipertestuali a una tabella
+description: Usare Power BI Desktop per creare collegamenti ipertestuali. Usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report.
+author: mihart
+manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/22/2018
-ms.author: maggies
+ms.date: 12/06/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c1fc61d4a667b10728af8b7496e20803d024a83
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 92224e00da95714125a8e15c27432e8d305ae0f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187560"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180554"
 ---
-# <a name="hyperlinks-in-tables"></a>Collegamenti ipertestuali nelle tabelle
-Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Una volta creati, usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
+# <a name="add-hyperlinks-to-a-table"></a>Aggiungere collegamenti ipertestuali a una tabella
+Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
 
-![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
+![Tabella con collegamenti ipertestuali](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
-> **NOTA**: i collegamenti ipertestuali nei [riquadri dei dashboard](service-dashboard-edit-tile.md) e [le caselle di testo nei dashboard](service-dashboard-add-widget.md) possono essere creati in tempo reale con il servizio Power BI. I collegamenti ipertestuali nelle [caselle di testo nei report](service-add-hyperlink-to-text-box.md) può creato in volo utilizzare servizio Power BI e Power BI Desktop.
+> [!NOTE]
+> I collegamenti ipertestuali nei [riquadri dei dashboard](service-dashboard-edit-tile.md) e le [caselle di testo nei dashboard](service-dashboard-add-widget.md) possono essere creati in tempo reale con il servizio Power BI. I collegamenti ipertestuali nelle [caselle di testo nei report](service-add-hyperlink-to-text-box.md) può creato in volo utilizzare servizio Power BI e Power BI Desktop.
 > 
 > 
 
@@ -36,17 +38,20 @@ La procedura per aggiungere un collegamento ipertestuale varia a seconda che i d
 1. Se il collegamento ipertestuale non esiste già come campo nel set di dati, aggiungerlo come [colonna personalizzata](desktop-common-query-tasks.md) con Power BI Desktop.
 2. In Vista dati selezionare la colonna e, nella scheda **Modellazione** scegliere l'elenco a discesa per **Categoria dati**.
    
-    ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
+    ![Elenco a discesa Categoria dati](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. Selezionare un **URL Web**.
 4. Passare alla Visualizzazione Report e creare una tabella o una matrice usando il campo stato categorizzato come URL Web. I collegamenti ipertestuali saranno di colore blu e sottolineati.
-    ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
-> **NOTA**: gli URL devono iniziare con **http://, https://** o **www**.
-> 
->   
-5. Se non si vuole visualizzare un URL lungo in una tabella, è possibile visualizzare invece un'icona di collegamento ipertestuale ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png). Si noti che non è possibile visualizzare le icone nelle matrici.
+
+    ![Collegamenti di colore blu e sottolineati](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+
+    > [!NOTE]
+    > Gli URL devono iniziare con **http:// , https://** o **www**.
+    >
+   
+1. Se non si vuole visualizzare un URL lungo in una tabella, è possibile visualizzare un'icona di collegamento ipertestuale  ![Icona di collegamento ipertestuale](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) . Si noti che non è possibile visualizzare le icone nelle matrici.
    
    * Selezionare il grafico per attivarlo.
-   * Selezionare l'icona del rullo ![](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) per aprire la scheda Formattazione.
+   * Selezionare l'icona del rullo ![Icona del rullo](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) per aprire la scheda Formattazione.
    * Espandere **Valori**, trovare **Icona URL** e selezionare **Sì**.
 6. (Facoltativo) [Pubblicare il report dal Desktop a Servizio Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) e aprire il report nel Servizio Power BI. I collegamenti ipertestuali funzioneranno anche qui.
 
@@ -64,26 +69,27 @@ Un altro modo per aggiungere collegamenti ipertestuali alle tabelle e matrici di
 1. Aprire la cartella di lavoro in Excel.
 2. Selezionare la scheda **PowerPivot** e quindi scegliere **Gestisci**.
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
-3. Quando PowerPivot viene aperto, selezionare la scheda **Avanzate**.
+   ![Aprire PowerPivot in Excel](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot2.png)
+1. Quando PowerPivot viene aperto, selezionare la scheda **Avanzate**.
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
+   ![Scheda Avanzate di PowerPivot](media/power-bi-hyperlinks-in-tables/createhyperlinkinpowerpivot3.png)
 4. Posizionare il cursore nella colonna che contiene gli URL da trasformare in collegamenti ipertestuali nelle tabelle di Power BI.
    
-   > **NOTA**: gli URL devono iniziare con **http://, https://** o **www**.
-   > 
+   > [!NOTE]
+   > Gli URL devono iniziare con **http:// , https://** o **www**.
    > 
 5. Nel gruppo **Proprietà report** selezionare l'elenco a discesa **Categoria di dati** e scegliere **URL Web**. 
    
-   ![](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+   ![Elenco a discesa Categoria di dati in Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
+
 6. Dal servizio Power BI o da Power BI Desktop connettersi a questa cartella di lavoro o importarla.
 7. Creare una visualizzazione tabella che includa il campo URL.
    
-   ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+   ![Creare una tabella in Power BI con il campo URL](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 D: è possibile usare un URL personalizzato come collegamento ipertestuale in una tabella o matrice?    
-R: no. È possibile usare un'icona di collegamento. Se è necessario testo personalizzato per i collegamenti ipertestuali e l'elenco di URL è breve, valutare la possibilità di usare una casella di testo.
+R: No. È possibile usare un'icona di collegamento. Se è necessario testo personalizzato per i collegamenti ipertestuali e l'elenco di URL è breve, valutare la possibilità di usare una casella di testo.
 
 
 ## <a name="next-steps"></a>Passaggi successivi

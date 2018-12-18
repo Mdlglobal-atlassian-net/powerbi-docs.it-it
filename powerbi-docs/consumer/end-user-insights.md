@@ -1,24 +1,25 @@
 ---
-title: Generare automaticamente informazioni dettagliate sui dati con Power BI
-description: Informazioni su come ottenere informazioni dettagliate su riquadri del dashboard e set di dati.
+title: Eseguire e visualizzare informazioni dettagliate per i riquadri del dashboard
+description: Informazioni per gli utenti finali di Power BI su come ottenere informazioni dettagliate sui riquadri del dashboard.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112039"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180531"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualizzare informazioni dettagliate sui dati per i riquadri del dashboard con Power BI
 Ogni riquadro di visualizzazione nel dashboard è una porta di accesso per l'esplorazione dei dati. Quando si seleziona un riquadro, viene aperto un report in cui è possibile filtrare e ordinare e approfondire il set di dati del report. E quando si eseguono informazioni dettagliate, Power BI esegue automaticamente l'esplorazione dei dati.
 
 Eseguire Informazioni rapide per generare visualizzazioni interattive interessanti basate sui dati. Le informazioni rapide possono essere eseguite su un riquadro del dashboard specifico ed è anche possibile eseguire informazioni dettagliate su altre informazioni dettagliate.
@@ -40,7 +41,9 @@ Quando si eseguono informazioni dettagliate su un riquadro del dashboard, Power 
 4. Se un approfondimento attira l'interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. Le informazioni dettagliate selezionate vengono visualizzate a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.    
 
  ## <a name="interact-with-the-insight-cards"></a>Interagire con le schede di informazioni dettagliate
-   * Filtrare le visualizzazioni.  Per visualizzare i filtri, nell'angolo in alto a destra selezionare la freccia per espandere il riquadro Filtri.
+Dopo aver aperto le informazioni dettagliate, continuare l'esplorazione.
+
+   * Filtrare l'oggetto visivo nell'area di disegno.  Per visualizzare i filtri, nell'angolo in alto a destra selezionare la freccia per espandere il riquadro Filtri.
 
      ![Informazioni dettagliate e menu Filtri espanso](./media/end-user-insights/power-bi-insights-on-insights.png)
    

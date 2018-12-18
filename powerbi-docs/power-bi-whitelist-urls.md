@@ -1,5 +1,5 @@
 ---
-title: URL di Power BI
+title: URL di Power BI per l'elenco elementi consentiti
 description: Questo articolo descrive gli endpoint che devono essere raggiungibili dai clienti che usano Power BI.
 author: mgblythe
 ms.author: mblythe
@@ -9,14 +9,15 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 47fb90ba0f73bba2b210a9003b782a477dbf8214
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.custom: seodec18
+ms.openlocfilehash: dcf51f26aac018acdd58e4244f21e41a1b6f1bc6
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578728"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026634"
 ---
-# <a name="power-bi-urls"></a>URL di Power BI
+# <a name="power-bi-urls-for-whitelisting"></a>URL di Power BI per l'elenco elementi consentiti
 
 **Il servizio online Power BI**, noto anche come applicazione SaaS (software come servizio) di Power BI, richiede la connettività a Internet. Gli endpoint seguenti devono essere raggiungibili per i clienti che usano il servizio online Power BI.
 
@@ -102,12 +103,12 @@ Power BI si collega ad altri siti correlati. Si tratta di siti relativi a docume
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
-| 1 | **Facoltativo:** sito della Community | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
-| 2 | **Facoltativo:** sito della documentazione | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
+| 1 | **Facoltativo:** sito della community | community.powerbi.com </br> oxcrx34285.i.lithium.com | TCP 443 |
+| 2 | **Facoltativo:** Sito della documentazione | docs.microsoft.com </br> img-prod-cms-rt-microsoft-com.akamaized.net </br> statics-uhf-eas.akamaized.net </br> cdnssl.clicktale.net </br> ing-district.clicktale.net | TCP 443 |
 | 3 | **Facoltativo:** sito di download (per Power BI Desktop e così via) | download.microsoft.com | TCP 443 |
 | 4 | **Facoltativo:** reindirizzamenti esterni | aka.ms </br> go.microsoft.com | TCP 443 |
-| 5 | **Facoltativo:** sito di commenti e suggerimenti| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
+| 5 | **Facoltativo:** sito di commenti e suggerimenti Ideas| ideas.powerbi.com </br> powerbi.uservoice.com | TCP 443 |
 | 6 | **Facoltativo:** sito di Power BI: pagina di destinazione, collegamenti ad altre informazioni, sito del supporto, collegamenti di download, showcase dei partner e così via. | powerbi.microsoft.com | TCP 443 |
-| 7 | **Facoltativo:** Centro per sviluppatori Power BI | dev.powerbi.com | TCP 443 |
-| 8 | **Facoltativo**: sito del supporto | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
+| 7 | **Facoltativo:** Power BI Dev Center | dev.powerbi.com | TCP 443 |
+| 8 | **Facoltativo:** sito del supporto tecnico | support.powerbi.com </br> s3.amazonaws.com </br> *.olark.com </br> logx.optimizely.com </br> mscom.demdex.net </br> tags.tiqcdn.com | TCP 443 |
 | | | |

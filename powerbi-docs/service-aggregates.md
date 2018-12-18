@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187284"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026478"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Aggregazioni nelle visualizzazioni di Power BI
 ## <a name="what-is-an-aggregate"></a>Che cos'è un’aggregazione?
@@ -32,11 +33,11 @@ Nell'esempio seguente:
 - **Units Sold** e **Manufacturing Price** sono colonne che contengono i dati numerici
 -  **Segment**, **Country**, **Product**, **Month** e **Month Name** contengono dati categorici
 
-   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![Set di dati campione](media/service-aggregates/power-bi-aggregate-chart.png)
 
 Quando si crea una visualizzazione in Power BI, i campi numerici verranno aggregati su un campo categorico. Il valore predefinito è *somma*.  Ad esempio, "Units Sold ***by Product***, "Units Sold ***by Month***" e "Manufacturing Price ***by Segment***". Alcuni campi numerici vengono definiti **misure**. È possibile identificare con facilità le misure nell'editor di report di Power BI: le misure vengono visualizzate con il simbolo ∑ nell'elenco Campi. Per altre informazioni, vedere [Presentazione dell'editor di report](service-the-report-editor-take-a-tour.md).
 
-![](media/service-aggregates/power-bi-aggregate-fields.png)
+![Elenco di campi](media/service-aggregates/power-bi-aggregate-fields.png)
 
 
 
@@ -52,18 +53,18 @@ Si supponga di avere un grafico che somma le unità vendute per prodotti diversi
 
 1. Creare un grafico che usa una categoria e una misura. In questo esempio viene usato "Units Sold by Product".  Per impostazione predefinita, Power BI crea un grafico che somma le unità vendute (misura nel riquadro Valore) per ogni prodotto (categoria nel riquadro Asse).
 
-   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![Aggregazione Somma](media/service-aggregates/power-bi-aggregate-sum.png)
 
 2. Nel riquadro Visualizzazione fare clic con il pulsante destro del mouse sulla misura e selezionare il tipo di aggregazione necessario. In questo caso viene selezionato Media. Se non viene visualizzata l'aggregazione necessaria, vedere "Considerazioni e risoluzione dei problemi" più avanti.  
    
-   ![](media/service-aggregates/power-bi-aggregate-average.png)
+   ![Aggregazione Media](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > Le opzioni disponibili nell'elenco a discesa variano a seconda del campo selezionato e del modo in cui tale campo è stato classificato dal proprietario del set di dati.
    > 
 3. La visualizzazione usa ora l'aggregazione in base alla media.
 
-   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+   ![Media unità vendute](media/service-aggregates/power-bi-aggregate-average2.png)
 
 ##    <a name="ways-to-aggregate-your-data"></a>Modi per aggregare i dati
 
@@ -97,12 +98,12 @@ produrrebbero i risultati seguenti:
 * **Non riepilogare**: ogni valore viene visualizzato separatamente
 * **Somma**: 750
 * **Media**: 125
-* **Massimo**: 150
+* **Massimo**:  150
 * **Minimo**: 100
 * **Conteggio (non vuoto):** 6
 * **Conteggio (Distinct):** 4
-* **Deviazione Standard:** 20.4124145...
-* **Varianza:** 416.666...
+* **Deviazione standard:** 20,4124145...
+* **Varianza:** 416,666...
 * **Mediana:** 125
 
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Creare un'aggregazione usando un campo categoria (testo)
@@ -110,55 +111,55 @@ produrrebbero i risultati seguenti:
 
 1. In questo esempio il campo **Product** è stato trascinato nell'area Valori. L'area Valori viene in genere usata per i campi numerici. Power BI riconosce che si tratta di un campo di testo, imposta l'aggregazione su **Non riepilogare** e presenta una tabella con una singola colonna.
    
-   ![](media/service-aggregates/power-bi-aggregate-value.png)
+   ![Campo Product nell'area Valori](media/service-aggregates/power-bi-aggregate-value.png)
 2. Se si cambia l'aggregazione dal valore predefinito **Non riepilogare** a **Conteggio (Distinct)**, Power BI conta il numero di prodotti diversi. In questo caso sono presenti 4 prodotti.
    
-   ![](media/service-aggregates/power-bi-aggregates-count.png)
+   ![Conteggio (Distinct) dei prodotti](media/service-aggregates/power-bi-aggregates-count.png)
 3. E se si imposta l'aggregazione su **Conteggio**, Power BI conta il numero totale. In questo caso sono presenti 7 voci per **Product**. 
    
-   ![](media/service-aggregates/power-bi-aggregate-count2.png)
+   ![Conteggio dei prodotti](media/service-aggregates/power-bi-aggregate-count2.png)
 
 4. Trascinando lo stesso campo, in questo caso **Product**, nell'area Valori e lasciando l'aggregazione predefinita **Non riepilogare**, Power BI suddivide il conteggio per prodotto.
 
-   ![](media/service-aggregates/power-bi-aggregate-final.png)
+   ![Prodotto e conteggio dei prodotti](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-D: perché non è disponibile l'opzione **Non riepilogare**?
+D:  perché non è disponibile l'opzione **Non riepilogare**?
 
-R: Il campo selezionato è probabilmente una misura calcolata o una misura avanzata creata in Excel o in [Power BI Desktop](desktop-measures.md). Ogni misura calcolata ha una propria formula hardcoded. Non è possibile modificare l'aggregazione usata.  Ad esempio, se si tratta di una somma, può essere solo una somma. Nell'elenco dei campi le *misure calcolate* vengono visualizzate con il simbolo di calcolatrice.
+R:  il campo selezionato è probabilmente una misura calcolata o una misura avanzata creata in Excel o in [Power BI Desktop](desktop-measures.md). Ogni misura calcolata ha una propria formula hardcoded. Non è possibile modificare l'aggregazione usata.  Ad esempio, se si tratta di una somma, può essere solo una somma. Nell'elenco dei campi le *misure calcolate* vengono visualizzate con il simbolo di calcolatrice.
 
-D: perché con un campo sicuramente **numerico** le uniche scelte disponibili sono **Conteggio** e **Conteggio valori univoci**?
+D:  perché con un campo sicuramente **numerico** le uniche scelte disponibili sono **Conteggio** e **Conteggio valori univoci**?
 
-R1: È probabile che il proprietario del set di dati, inavvertitamente o intenzionalmente, *non* abbia classificato il campo come numero. Ad esempio, se un set di dati ha un campo **anno**, il proprietario del set di dati può classificarlo come testo perché è più probabile che il campo **anno** venga conteggiato (ad esempio, il numero di persone nate nel 1974) e non che venga sommato o che ne venga calcolata la media. Se si è il proprietario, è possibile aprire il set di dati in Power BI Desktop e usare la scheda **Creazione di modelli** per modificare il tipo di dati.  
+R1:  è probabile che il proprietario del set di dati, inavvertitamente o intenzionalmente, *non* abbia classificato il campo come numero. Ad esempio, se un set di dati ha un campo **anno**, il proprietario del set di dati può classificarlo come testo perché è più probabile che il campo **anno** venga conteggiato (ad esempio, il numero di persone nate nel 1974) e non che venga sommato o che ne venga calcolata la media. Se si è il proprietario, è possibile aprire il set di dati in Power BI Desktop e usare la scheda **Creazione di modelli** per modificare il tipo di dati.  
 
-R2: Se al campo è associata l'icona a forma di calcolatrice, si tratta di una *misura calcolata* e ogni misura calcolata ha una formula hardcoded propria che può essere modificata solo da un proprietario di set di dati. Il calcolo in uso potrebbe essere un'aggregazione semplice come una media o una somma, ma potrebbe anche essere qualcosa di più complicato come la "percentuale del contributo alla categoria padre" o il "totale parziale dall'inizio dell'anno". Power BI non calcolerà la somma o la media dei risultati, ma eseguirà invece di nuovo il calcolo per ogni punto dati usando la formula hardcoded.
+R2: se al campo è associata l'icona a forma di calcolatrice, si tratta di una *misura calcolata* e ogni misura calcolata ha una formula hardcoded propria che può essere modificata solo da un proprietario di set di dati. Il calcolo in uso potrebbe essere un'aggregazione semplice come una media o una somma, ma potrebbe anche essere qualcosa di più complicato come la "percentuale del contributo alla categoria padre" o il "totale parziale dall'inizio dell'anno". Power BI non calcolerà la somma o la media dei risultati, ma eseguirà invece di nuovo il calcolo per ogni punto dati usando la formula hardcoded.
 
-R3: Un'altra possibilità è che il campo sia stato inserito in un *bucket* che consente solo valori categorici.  In questo caso, le uniche opzioni disponibili saranno Conteggio e Conteggio valori univoci.
+R3:  un'altra possibilità è che il campo sia stato inserito in un *bucket* che consente solo valori categorici.  In questo caso, le uniche opzioni disponibili saranno Conteggio e Conteggio valori univoci.
 
-R4: La terza possibilità è che il campo venga usato per un asse. Su un asse di un grafico a barre, ad esempio, Power BI mostra una sola barra per ogni valore univoco e non applica alcuna aggregazione ai valori dei campi. 
+R4:  la quarta possibilità è che il campo venga usato per un asse. Su un asse di un grafico a barre, ad esempio, Power BI mostra una sola barra per ogni valore univoco e non applica alcuna aggregazione ai valori dei campi. 
 
 >[!NOTE]
 >L'eccezione a questa regola è rappresentata dai grafici a dispersione, che *richiedono* valori aggregati per gli assi X e Y.
 
-D: perché non è possibile aggregare i campi di testo per le origini dati SSAS?
+D:  perché non è possibile aggregare i campi di testo per le origini dati SSAS?
 
-R: le connessioni dinamiche a SSAS MD non consentono aggregazioni sul lato client. Sono incluse first, last, avg, min, max e sum.
+R:  le connessioni dinamiche a SSAS MD non consentono aggregazioni sul lato client. Sono incluse first, last, avg, min, max e sum.
 
-D: È disponibile un grafico a dispersione e si vuole che il campo *non* venga aggregato.  in un grafico a dispersione?
+D:  è disponibile un grafico a dispersione e si vuole che il campo *non* venga aggregato.  in un grafico a dispersione?
 
-R: aggiungere il campo al bucket **Dettagli** e non ai bucket degli assi X o Y.
+R:  aggiungere il campo al bucket **Dettagli** e non ai bucket degli assi X o Y.
 
-R: quando si aggiunge un campo numerico a una visualizzazione, per la maggior parte dei campi di questo tipo l'aggregazione predefinita è la somma, ma per alcuni vengono eseguiti il conteggio, la media o altre aggregazioni.  Perché l'aggregazione predefinita non è sempre la stessa?
+D:  quando si aggiunge un campo numerico a una visualizzazione, per la maggior parte dei campi di questo tipo l'aggregazione predefinita è la somma, ma per alcuni vengono eseguiti il conteggio, la media o altre aggregazioni.  Perché l'aggregazione predefinita non è sempre la stessa?
 
-R: i proprietari del set di dati hanno la possibilità di impostare l'esecuzione del riepilogo predefinita per ogni campo. Se si è il proprietario di un set di dati, modificare il riepilogo predefinito nella scheda **Creazione di modelli** di Power BI Desktop.
+R:  i proprietari del set di dati hanno la possibilità di impostare l'esecuzione del riepilogo predefinita per ogni campo. Se si è il proprietario di un set di dati, modificare il riepilogo predefinito nella scheda **Creazione di modelli** di Power BI Desktop.
 
-D: come può il proprietario di un set di dati assicurarsi che un campo non venga mai aggregato?
+D:  come può il proprietario di un set di dati assicurarsi che un campo non venga mai aggregato?
 
-R: In Power BI Desktop, nella scheda **Creazione di modelli**, impostare **Tipo di dati** su **Testo**.
+R:  in Power BI Desktop, nella scheda **Creazione di modelli**, impostare **Tipo di dati** su **Testo**.
 
-D: nell'elenco a discesa non è disponibile l'opzione **Non riepilogare**.
+D:  nell'elenco a discesa non è disponibile l'opzione **Non riepilogare**.
 
-R: provare a rimuovere il campo e ad aggiungerlo di nuovo.
+R:  provare a rimuovere il campo e ad aggiungerlo di nuovo.
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

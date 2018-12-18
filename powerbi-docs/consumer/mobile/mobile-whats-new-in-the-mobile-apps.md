@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297229"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979550"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -100,7 +100,7 @@ Ora, quando si esplora un report scorrendo rapidamente, scegliendo una pagina de
 
 Quando gli autori di report personalizzano i temi del dashboard nel servizio Power BI, l'aspetto del dashboard verrà modificato anche nell'app per dispositivi mobili. Tuttavia, non si vedranno le immagini di sfondo.
 
-#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report in modalità remota
+#### <a name="ios-configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>iOS: Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota
 
 L'amministratore IT può ora usare uno strumento MDM per configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per informazioni dettagliate, vedere [Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota](../../report-server/configure-powerbi-mobile-apps-remote.md).
 
@@ -115,7 +115,7 @@ L'app Power BI per realtà mista è ora disponibile in Microsoft Store. È possi
 
 È ora possibile eseguire il drill-up e il drill-down per esaminare in dettaglio gli oggetti visivi dei report sul proprio dispositivo mobile. Per accedere a questa nuova funzionalità, toccare e tenere premuto un oggetto visivo del report per aprire il menu di descrizione comandi e quindi toccare i pulsanti di espansione per esaminare i dati in modo approfondito. Altre informazioni su [drill-up e drill-down nelle app per dispositivi mobili](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
-#### <a name="persistent-filters"></a>Filtri persistenti
+#### <a name="persistent-filters"></a>Filtri permanenti
 
 I filtri e i filtri dei dati nei report sono stati aggiornati di recente in modo da essere salvati automaticamente da Power BI sul Web all'app Power BI per dispositivi mobili. Ora i filtri e i filtri dei dati impostati nell'app per dispositivi mobili vengono salvati automaticamente in Power BI sul Web.
 
@@ -458,8 +458,8 @@ Il Centro notifiche dell'app per dispositivi mobili di Power BI mostra nuovi dat
 ### <a name="may-2016"></a>Maggio 2016
 #### <a name="ios-devices-and-android-phones"></a>Dispositivi iOS e telefoni Android
 * I **codici a matrice** sono ora disponibili anche **per i report**. Effettuare la scansione del codice con l'app di Power BI per passare direttamente a un report correlato, senza dovere eseguire operazioni di spostamento o di ricerca.
-* **Gestione dei dati migliorata** per SQL Server 2016 Reporting Service: i tempi di caricamento e l'utilizzo di dati nel dispositivo sono stati ridotti.
-* **Report per dispositivi mobili con tema di SQL Server 2016**: è possibile visualizzare i temi per report per dispositivi mobili nel dispositivo.
+* **Gestione di dati migliorata** per SQL Server 2016 Reporting Services: riduzione dei tempi di caricamento e del consumo dei dati nel dispositivo.
+* **Report per dispositivi mobili di SQL Server 2016 con tema**: vedere i temi per i report per dispositivi mobili nel dispositivo.
 * **Filtro geografico**: è possibile filtrare i report in base alla località corrente.
 
 ### <a name="april-2016"></a>Aprile 2016
@@ -523,7 +523,7 @@ Visualizzare i dashboard in [modalità orizzontale sui telefoni Windows 10](mobi
 
 Visualizzare i [report su un telefono Windows 10](mobile-reports-in-the-mobile-apps.md).
 
-[Informazioni dettagliate sui dashboard nei dispositivi mobili Windows 10](mobile-tiles-in-the-mobile-apps.md) in modo più rapido: condividere uno snapshot di un riquadro o aprire un report direttamente dal dashboard.
+Tempi più brevi per [ottenere le informazioni dettagliate nei dashboard per dispositivi mobili Windows 10](mobile-tiles-in-the-mobile-apps.md): condividere lo snapshot di un riquadro o aprire un report direttamente dal dashboard.
 
 ### <a name="january-2016"></a>Gennaio 2016
 Tutti i miglioramenti di gennaio sono già presenti nella nuova [app Power BI per telefoni Windows 10](mobile-windows-10-phone-app-get-started.md) rilasciata a dicembre 2015. Ora vengono applicati alle nuove app Power BI per dispositivi mobili. Leggere il post di blog relativo a questi miglioramenti.
@@ -536,7 +536,7 @@ Tutti i miglioramenti di gennaio sono già presenti nella nuova [app Power BI pe
 
 **Riquadri R e widget Web** : è possibile visualizzare questi nuovi tipi di riquadri nei dashboard nei dispositivi mobili.
 
-**Dashboard Bing**: nel servizio Power BI ora è possibile [creare dashboard con i risultati delle ricerche Bing](../end-user-connect-to-services.md) e visualizzarli nel dispositivo mobile.
+**Dashboard Bing**: nel servizio Power BI ora è possibile [creare dashboard con i risultati delle ricerche Bing](../../service-connect-to-services.md) e visualizzarli nel dispositivo mobile.
 
 **Pagine di report aggiunte come riquadri ai dashboard**: grazie alla possibilità di aggiungere un'intera pagina di report a un dashboard nel servizio Power BI, ora è possibile visualizzare le pagine dei report nell'app Power BI sull'iPhone o sul telefono Android.
 
@@ -599,22 +599,22 @@ Leggere il [post di blog su Power BI per dispositivi mobili di metà ottobre](ht
 ### <a name="september-2015"></a>Settembre 2015
 Miglioramenti delle app Power BI per dispositivi mobili: Android, iOS (iPhone e iPad) e Windows. Leggere il [post di blog su Power BI per dispositivi mobili di metà settembre](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
 
-#### <a name="android"></a>Android
-* Supporto delle aree di lavoro del gruppo: collaborare con i colleghi nelle aree di lavoro del gruppo. 
-* Supporto per gli utenti non autenticati: per i rari casi in cui gli utenti non riescono ad accedere all'app è stato aggiunto un modo pratico e veloce per contattare il supporto e inviare commenti e suggerimenti.
+#### <a name="android"></a>Telefoni
+* Supporto per le aree di lavoro di gruppo: collaborare con i colleghi nelle aree di lavoro del gruppo. 
+* Supporto per gli utenti non autenticati:  per i rari casi in cui gli utenti non riescono ad accedere all'app è stato aggiunto un modo pratico e veloce per contattare il supporto e inviare commenti e suggerimenti.
 * Miglioramento dell'esperienza utente per l'accesso ai dashboard con la sicurezza basata sui ruoli.          
 * Miglioramento della formattazione dei dati dei grafici e allineamento di tutti i riquadri dei dashboard. 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (iPhone e iPad)
-* Navigazione nuova e migliorata: il nuovo navigation drawer o menu laterale a scomparsa ingrandisce l'area dello schermo e migliora la navigazione in tutta l'app. 
-* Aree di lavoro del gruppo: collaborare con i colleghi nelle aree di lavoro del gruppo. 
+* Navigazione nuova e migliorata: il nuovo navigation drawer, o menu laterale a scomparsa, ingrandisce l'area dello schermo e migliora la navigazione in tutta l'app. 
+* Aree di lavoro di gruppo: collaborare con i colleghi nelle aree di lavoro del gruppo. 
 * Aggiornamento del processo di autenticazione: miglioramenti della qualità, delle prestazioni e della funzionalità ottimizzano il processo di autenticazione dell'app, compreso il supporto di SSO (Single Sign-On). 
 * Miglioramento della rappresentazione dei dati dei riquadri dei grafici a linee per una migliore compressione dell'asse x.
 * Miglioramento dell'esperienza utente per l'uso della sicurezza basata sui ruoli.
-* Miglioramenti dell'esperienza ottimizzata per il tocco per i riquadri dei grafici a matrice: ora è possibile scorrere facilmente i dati a matrice e visualizzare tutti i dati in modo semplice e intuitivo.
+* Miglioramenti ottimizzati per il tocco per i riquadri dei grafici a matrice: è ora possibile scorrere i dati della matrice e visualizzare tutti i relativi dati in modo semplice e intuitivo.
 * Miglioramento della formattazione dei dati dei grafici e allineamenti dei riquadri dei dashboard. 
 * Rimozione del supporto di iOS 7: per garantire i massimi standard di sicurezza per Power BI, i dispositivi con iOS 7 non sono più supportati. È necessario iOS 8 o versioni successive. 
-* Aggiunta nell'app della funzionalità per l'invio di commenti e suggerimenti nonché di valutazioni: è stata aggiunta una funzionalità in-app per inviare commenti e suggerimenti e fornire valutazioni in modo da poter aumentare l'influenza della community nella roadmap e rilasciare nuove versioni facilmente e direttamente dall'app.
+* Aggiunta nell'app della funzionalità per l'invio di commenti e suggerimenti nonché di valutazioni: è stata aggiunta una funzionalità in-app per inviare commenti e suggerimenti e fornire valutazioni in modo da poter aumentare l'influenza della community sulla roadmap e rilasciare nuove versioni facilmente e direttamente dall'app.
 
 #### <a name="windows"></a>Windows
 * Miglioramento del rendering delle tessere mappa nello stato attivo per ingrandire l'area dello schermo.

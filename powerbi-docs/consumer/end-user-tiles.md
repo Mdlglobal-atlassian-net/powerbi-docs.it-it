@@ -4,26 +4,25 @@ description: Informazioni sui riquadri del dashboard in Power BI per i consumer.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: c8c39e2fbc4aeca4aeb9cc5f906cca8bb063a2e6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331897"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280099"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
-I dashboard e i riquadri del dashboard sono una funzionalità del servizio Power BI, non di Power BI Desktop. I riquadri del dashboard non possono essere creati o aggiunti in Power BI per dispositivi mobili, ma [possono essere visualizzati e condivisi](mobile/mobile-tiles-in-the-mobile-apps.md). 
+Un riquadro è uno snapshot dei dati, aggiunto al dashboard da un *designer*. È possibile creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel, da SQL Server Reporting Services (SSRS) e da altre origini.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
 
-## <a name="dashboard-tiles"></a>I riquadri del dashboard
 ![Dashboard di Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-Un riquadro è uno snapshot dei dati, aggiunto al dashboard da un *designer*. È possibile creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel, da SQL Server Reporting Services (SSRS) e da altre origini.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
 
 Oltre ai riquadri aggiunti dai report, i *designer* possono aggiungere riquadri autonomi direttamente nel dashboard usando **Aggiungi riquadro**. I riquadri autonomi includono caselle di testo, immagini, video, streaming di dati e contenuto Web.
 
@@ -32,7 +31,6 @@ Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - C
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interazione con i riquadri in un dashboard
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Passare il puntatore del mouse su un riquadro per modificarne l'aspetto e il comportamento
 1. Passare il puntatore del mouse sul riquadro per visualizzare i puntini di sospensione.
    
     ![Puntini di sospensione del riquadro](./media/end-user-tiles/ellipses_new.png)

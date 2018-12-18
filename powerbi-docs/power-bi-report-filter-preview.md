@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611361"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026248"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Nuova esperienza di filtro nei report di Power BI (anteprima)
 
-Questo articolo illustra in dettaglio la nuova esperienza di filtro: i filtri in Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Quando si progettano report in Power BI Desktop o nel servizio Power BI, è possibile fare in modo che l'aspetto e il funzionamento del riquadro Filtri si integrino perfettamente con l'intero report. Nella nuova esperienza il riquadro Filtri precedente funge da riquadro di modifica dei filtri, mentre il nuovo riquadro Filtro è il solo visualizzato dagli utenti dei report. 
+Questo articolo illustra in dettaglio la nuova esperienza di filtro: I filtri di Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Quando si progettano report in Power BI Desktop o nel servizio Power BI, è possibile fare in modo che l'aspetto e il funzionamento del riquadro Filtri si integrino perfettamente con l'intero report. Nella nuova esperienza il riquadro Filtri precedente funge da riquadro di modifica dei filtri, mentre il nuovo riquadro Filtro è il solo visualizzato dagli utenti dei report. 
  
 ![Visualizzazione predefinita (senza personalizzazione aggiuntive applicate)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 
     ![Selezionare l'icona Formato](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. Espandere **Riquadro filtro** per impostare il colore per lo sfondo, il tipo di carattere, l'icona e il bordo sinistro in modo che rispecchino la pagina del report.
+1. Espandere **Riquadro filtro** per impostare il colore per lo sfondo, l'icona e il bordo sinistro in modo che rispecchino la pagina del report.
 
     ![Espandere Riquadro filtro](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

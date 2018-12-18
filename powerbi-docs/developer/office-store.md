@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: a5bf8a82fde84537394af4a37f33f674dbf3615b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223135"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180347"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
 
@@ -32,14 +32,14 @@ Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo i
 
 Dopo aver terminato le operazioni di codifica e test dell'oggetto visivo personalizzato e averlo inserito in un pacchetto PBIVIZ, è anche necessario che quanto segue sia pronto per l'invio.
 
-| Articolo | Obbligatorio | Descrizione |
+| Item | Obbligatorio | Descrizione |
 | --- | --- | --- |
 | Pacchetto PBIVIZ contenente tutti i metadati richiesti |Sì |Nome oggetto visivo<br>Nome visualizzato<br>GUID<br>Versione<br>Descrizione<br>Nome e indirizzo di posta elettronica dell'autore |
 | File di report PBIX di esempio |Sì |Per presentare l'oggetto visivo, aiutare gli utenti ad acquisire familiarità con lo stesso. Sottolineare il valore che l'oggetto visivo conferisce all'utente e fornire esempi di utilizzo, opzioni di formattazione, ecc. È anche possibile aggiungere una pagina *"suggerimenti"* alla fine con alcuni suggerimenti e trucchi, cose da evitare e simili.<br>Il file di report di esempio con estensione pbix deve funzionare offline, senza alcuna connessione esterna |
 | Icona |Sì |È necessario includere il logo dell'oggetto visivo personalizzato che verrà visualizzato nella pagina principale dello store. Il formato può essere PNG, JPG, JPEG o GIF. Deve avere dimensioni pari esattamente a 300 px (larghezza) x 300 px (altezza). **Importante** Leggere attentamente questa [breve guida](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) prima di inviare l'icona. |
 | Schermate |Sì |È necessario fornire almeno una schermata. Il formato può essere PNG, JPG, JPEG o GIF. Deve avere dimensioni pari esattamente a 1366 px (larghezza) x 768 px (altezza). Le dimensioni del file non possono essere maggiori di 1024 KB. *Per un migliore utilizzo, aggiungere fumetti di testo per descrivere la proposta di valore delle caratteristiche basilari in ogni schermata.* |
-| Collegamento per il download di supporto |Sì |Fornire l'URL per supportare i clienti che hanno problemi con l'oggetto visivo. Il formato dell'URL deve includere https:// o http://. |
-| Collegamento al documento sulla privacy |Sì |Fornire un collegamento all'informativa sulla privacy per i clienti che usano l'oggetto visivo. Il formato del collegamento deve includere https:// o http://. |
+| Collegamento per il download di supporto |Sì |Fornire l'URL per supportare i clienti che hanno problemi con l'oggetto visivo. Questo collegamento viene immesso come parte della presentazione di SellerDashboard ed è visibile agli utenti quando accedono alla presentazione dell'oggetto visivo in AppSource. Il formato dell'URL deve includere https:// o http://. |
+| Collegamento al documento sulla privacy |Sì |Fornire un collegamento all'informativa sulla privacy per i clienti che usano l'oggetto visivo. Questo collegamento viene immesso come parte della presentazione di SellerDashboard ed è visibile agli utenti quando accedono alla presentazione dell'oggetto visivo in AppSource. Il formato del collegamento deve includere https:// o http://. |
 | Contratto di licenza con l'utente finale (EULA) |Sì |È necessario caricare un file del contratto di licenza. Può trattarsi del proprio contratto di licenza oppure si può usare il contratto di licenza predefinito in Office Store per oggetti visivi personalizzati di Power BI. Per usare il contratto di licenza predefinito, incollare l'URL seguente nella finestra di dialogo di caricamento del file "Contratto di licenza con l'utente finale" del dashboard del venditore: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Collegamento video |No |Per aumentare l'interesse degli utenti per l'oggetto visivo personalizzato, è consigliabile fornire un collegamento a un video sull'oggetto visivo. Il formato dell'URL deve includere https:// o http://. |
 | Repository GitHub |No |È preferibile avere un collegamento valido e pubblico a un repository [GitHub](https://www.github.com) contenente le origini dell'oggetto visivo e dati di esempio per consentire ad altri sviluppatori di fornire commenti e suggerimenti e proporre miglioramenti al codice. |
@@ -72,7 +72,7 @@ Per completare l'invio, seguire questa procedura.
 
 1. Selezionare **Aggiungi una nuova app**.
 
-    ![Aggiungere un'app](media/office-store/powerbi-custom-visual-add-an-app.png)
+    ![Aggiungi un'app](media/office-store/powerbi-custom-visual-add-an-app.png)
 
 2. Selezionare **Oggetto visivo personalizzato di Microsoft Power BI** e quindi **Avanti**.
 

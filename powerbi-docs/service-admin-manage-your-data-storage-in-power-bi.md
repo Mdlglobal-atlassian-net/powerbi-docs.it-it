@@ -1,26 +1,28 @@
 ---
-title: Gestire l'archiviazione dei dati
-description: Informazioni su come è possibile gestire l'archiviazione dei dati individuale o dell'area di lavoro per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+title: Gestire l'archiviazione dei dati nelle aree di lavoro
+description: Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736873"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180462"
 ---
-# <a name="manage-your-data-storage"></a>Gestire l'archiviazione dei dati
-Informazioni su come è possibile gestire l'archiviazione dei dati individuale o dell'area di lavoro per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+# <a name="manage-data-storage-in-power-bi-workspaces"></a>Gestire l'archiviazione dei dati nelle aree di lavoro di Power BI
 
-Gli utenti e le aree di lavoro app hanno capacità di dati personalizzate
+Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+
+Le aree di lavoro per gli utenti e per le app hanno capacità di dati specifiche:
 
 * A tutti gli utenti viene assegnato uno spazio di archiviazione dati massimo di 10 GB.
 * Gli utenti con licenza Power BI Pro possono creare aree di lavoro per le app con 10 GB di spazio di archiviazione dati ciascuna.
@@ -44,36 +46,36 @@ Le dimensioni di un dashboard da condividere variano a seconda di ciò che è st
 
 1. Per gestire lo spazio di archiviazione personale, passare a **Area di lavoro personale** nel riquadro di spostamento sinistro.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Selezionare l'icona a forma di ingranaggio ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra e quindi selezionare \> **Gestisci archivio personale**.
+    ![Area di lavoro personale](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+2. Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra \> **Gestisci archivio personale**.
    
     La barra in alto mostra il valore dello spazio di archiviazione utente usato rispetto al limite.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Gestire il limite per l'archiviazione](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     I set di dati e i report sono separati in due schede:
    
     **Di mia proprietà:** si tratta dei report e dei set di dati caricati nell'account di Power BI, inclusi i set di dati dei servizi, ad esempio di Salesforce e Dynamics CRM.  
     **Di proprietà di altri:** si tratta dei report e dei set di dati che altri utenti hanno condiviso con l'utente.
-3. Per eliminare un set di dati o un report, selezionare l'icona del cestino ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. Per eliminare un set di dati o un report, selezionare l'icona del Cestino ![icona del Cestino](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Tenere presente che potrebbero esserci utenti che usano report e dashboard basati su un set di dati. Se quindi si elimina il set di dati, i report e i dashboard non funzioneranno più.
 
 ## <a name="manage-your-app-workspace"></a>Gestire la propria area di lavoro per le app
 1. Selezionare la freccia accanto ad **Aree di lavoro** \>e quindi selezionare il nome dell'area di lavoro per le app.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Selezionare l'icona a forma di ingranaggio ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra e quindi selezionare \> **Gestisci archiviazione gruppo**.
+    ![Selezionare un'area di lavoro per le app](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra \>  **Gestisci archiviazione gruppo**.
    
     La barra in alto mostra il valore dello spazio di archiviazione del gruppo usato rispetto al limite.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Gestire lo spazio di archiviazione per l'area di lavoro per le app](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     I set di dati e i report sono separati in due schede:
    
     **Di nostra proprietà:** si tratta dei report e dei set di dati caricati nell'account di Power BI del gruppo, inclusi i set di dati dei servizi, ad esempio di Salesforce e Dynamics CRM.
     **Di proprietà di altri:** si tratta dei report e dei set di dati che altri utenti hanno condiviso con il gruppo.
-3. Per eliminare un set di dati o un report, selezionare l'icona del cestino ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+3. Per eliminare un set di dati o un report, selezionare l'icona del Cestino ![icona del Cestino](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Tutti i membri di un'area di lavoro per le app che hanno le autorizzazioni di modifica sono autorizzati a eliminare dalla stessa i set di dati e i report.
@@ -88,17 +90,17 @@ Tenere presente che nel gruppo potrebbero esserci utenti che usano report e dash
 ## <a name="what-happens-when-you-hit-a-limit"></a>Conseguenze del raggiungimento di un limite
 Quando si raggiunge il limite della capacità dei dati concesso, il servizio fornisce le dovute istruzioni. 
 
-Quando si seleziona l'icona dell'ingranaggio ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), viene visualizzata una barra rossa che indica che è stato superato il limite per la capacità dei dati.
+Quando si seleziona l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), viene visualizzata una barra rossa che indica che è stato superato il limite per la capacità dei dati.
 
-![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Limite di archiviazione raggiunto]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 All'interno di **Gestisci archiviazione personale**viene inoltre visualizzato quanto segue:
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Gestire l'archivio personale, limite di archiviazione raggiunto](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
  Quando si tenta di eseguire un'azione che comporta il raggiungimento di uno dei limiti, viene visualizzato un messaggio che indica che è stato superato il limite. Sarà possibile [gestire](#manage) lo spazio di archiviazione in modo da ridurre la quantità di archiviazione e superare il limite.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![Limite di archiviazione superato](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

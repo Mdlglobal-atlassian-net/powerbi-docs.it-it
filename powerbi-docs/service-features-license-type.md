@@ -1,44 +1,42 @@
 ---
-title: Differenze tra la versione gratuita e la versione Pro di Power BI
-description: Ogni utente di Power BI usa la versione gratuita o Pro. È utile comprendere le differenze tra questi due tipi di utenti.
+title: Funzionalità del servizio Power BI in base al tipo di licenza
+description: 'Nel servizio Power BI gli utenti hanno determinate capacità in base a due tipi di licenze: per utente (gratuita e Pro) e basate sulle capacità.'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/13/2018
+ms.date: 12/06/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: fab6181997fd57448a152fe315efcadf076e4fbb
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641299"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025878"
 ---
-# <a name="power-bi-free-vs-pro"></a>Differenze tra la versione gratuita e la versione Pro di Power BI
+# <a name="power-bi-service-features-by-license-type"></a>Funzionalità del servizio Power BI in base al tipo di licenza
 
-Ogni utente di Power BI usa la versione gratuita o Pro. È utile comprendere le differenze tra questi due tipi di utenti.
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
-*Tutti gli utenti* nel servizio hanno un livello gratuito o Pro. La differenza principale tra un utente della versione gratuita o Pro è incentrata sulla condivisione e sulla collaborazione. Solo gli utenti della versione Pro possono pubblicare contenuti nelle aree di lavoro delle app, utilizzare le app senza capacità Premium, condividere i dashboard e sottoscrivere dashboard e report. Gli utenti del livello gratuito possono ora connettersi a tutte le origini dati tramite tutte le opzioni di connettività, ad esempio DirectQuery, la connessione in tempo reale e l'uso del gateway dati.
+## <a name="per-user-license-type-comparison"></a>Confronto tra i tipi di licenza per utente
 
-Se viene pubblicata un'app e l'area di lavoro di destinazione è assegnata a capacità Premium, gli utenti della versione gratuita possono utilizzare l'app.
+Ecco un elenco delle funzionalità supportate dal tipo di licenza per utente.
 
-## <a name="free-vs-pro-comparison"></a>Confronto tra la versione gratuita e la versione Pro
-Ecco un elenco delle funzionalità supportate in base al tipo di utente.
-
-|  | Gratis | Pro |
+|  | Gratuito | Pro |
 | --- | --- | --- |
 | **Connessione a più di 70 origini dati** |![Funzionalità disponibile](media/features-license-type/available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | **Pubblicazione sul Web** |![Funzionalità disponibile](media/features-license-type/available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
-| **Condivisione peer-to-peer** |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | **Esportazione in PowerPoint, Excel, CSV** |![Funzionalità disponibile](media/features-license-type/available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | **Distribuzione aziendale** | | |
 | App |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | Sottoscrizioni tramite posta elettronica |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | Incorporamento di API e controlli |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | **Collaborazione** | | |
+| Condivisione peer-to-peer |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | Aree di lavoro per le app |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 | Analisi in Excel, analisi in Power BI Desktop |![Funzionalità non disponibile](media/features-license-type/not-available.png) |![Funzionalità disponibile](media/features-license-type/available.png) |
 

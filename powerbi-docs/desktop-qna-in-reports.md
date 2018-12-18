@@ -1,21 +1,21 @@
 ---
 title: Utilizzo di Domande e risposte in Power BI Desktop
 description: Domande e risposte consente usare query in linguaggio naturale in Power BI Desktop
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.author: davidi
+ms.date: 12/05/2018
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4a9ab6173422ec2f897050b2f456847b342e9fa2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670763"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026731"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usare Domande e risposte in Power BI Desktop per eseguire query in linguaggio naturale
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in **Power BI Desktop**.
@@ -25,9 +25,6 @@ Per consentire a Domande e risposte di interpretare correttamente l'ampia raccol
 > [!NOTE]
 > Le Domande e risposte sono disponibili solo quando si usa un modello contenente dati **importati**. Le connessioni dinamiche a modelli SSAS e DirectQuery non sono supportate.
 >
->
-
-> [!NOTE]
 > Le Domande e risposte richiedono il seguente aggiornamento del runtime C se si usa una versione di Windows precedente a Windows 10. È possibile provare a installare aggiornamenti importanti da Windows Update oppure installare manualmente il componente richiesto da Microsoft Knowledge Base (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
@@ -49,11 +46,11 @@ Se nel modello mancano le relazioni tra le tabelle, i report di Power BI e Doman
 
 ## <a name="rename-tables-and-columns"></a>Rinominare tabelle e colonne
 
-La scelta delle tabelle e delle colonne è molto importante per Domande e risposte. Se ad esempio è presente una tabella contenente l'elenco dei clienti denominata *CustomerSummary*, sarà necessario porre la domanda "Elenca i riepiloghi dei clienti di Chicago" anziché "Elenca i clienti di Chicago". 
+La scelta delle tabelle e delle colonne è importante per Domande e risposte. Ad esempio, si supponga di usare una tabella denominata *RiepilogoClienti* che contiene un elenco dei clienti. Potrebbe essere necessario porre domande come "Elenca i riepiloghi dei clienti di Milano" invece di "Elenca i clienti di Milano". 
 
 Benché Domande e risposte possa eseguire alcune operazioni di suddivisione delle parole e rilevamento dei plurali di base, presuppone che i nomi delle tabelle e delle colonne ne riflettano in modo accurato il contenuto.
 
-Ecco un altro esempio. Si supponga di avere una tabella denominata *ConteggioPersonale* che contiene i nomi, i cognomi e i numeri di matricola dei dipendenti e un'altra tabella denominata *Dipendenti* che contiene i numeri di matricola dei dipendenti, il numero di lavori svolti e le date di inizio. Per chi ha familiarità con il modello non sono necessarie spiegazioni, ma se viene posta la domanda "conta dipendenti" verrà restituito il numero di righe della tabella "Dipendenti" che probabilmente non è il risultato previsto, poiché si tratta di un conteggio di tutti i lavori svolti da ogni dipendente. Sarebbe quindi opportuno rinominare le tabelle in modo che riflettano effettivamente i dati contenuti.
+Ecco un altro esempio. Si supponga di avere una tabella denominata *Personale* contenente nomi e cognomi e numeri dei dipendenti. Esiste anche un'altra tabella denominata *Dipendenti* che contiene i numeri dei dipendenti, il numero di incarico e le date di inizio collaborazione. Gli utenti che conoscono il modello potrebbero capire questa struttura. Altri utenti che pongono la domanda "conteggio dipendenti" otterranno il conteggio delle righe dalla tabella "Dipendenti". Questo non è probabilmente il risultato previsto, perché è il conteggio di ogni incarico avuto da ogni dipendente. Sarebbe quindi opportuno rinominare le tabelle in modo che riflettano effettivamente i dati contenuti.
 
 **Da modificare**
 
@@ -65,7 +62,7 @@ Ecco un altro esempio. Si supponga di avere una tabella denominata *ConteggioPer
 
 ## <a name="fix-incorrect-data-types"></a>Correggere i tipi di dati non corretti
 
-I dati importati possono presentare tipi di dati non corretti. In particolare, le colonne *data* e *numero* importate come *stringhe* non verranno interpretate da Domande e rispose come date e numeri. È necessario assicurarsi di selezionare il tipo di dati corretto nel modello di Power BI.
+I dati importati possono presentare tipi di dati non corretti. In particolare, le colonne *data* e *numero* importate come *stringhe* non vengono interpretate da Domande e rispose come date e numeri. Assicurarsi di selezionare il tipo di dati corretto nel modello di Power BI.
 
 ![scegliere il tipo di dati corretto per assicurarsi che sia disponibile per Domande e risposte](media/desktop-qna-in-reports/desktop-qna_05.png)
 
@@ -77,7 +74,7 @@ Per impostazione predefinita, Power BI aggrega in modo aggressivo le colonne num
 
 ## <a name="choose-a-data-category-for-each-date-and-geography-column"></a>Scegliere una categoria di dati per ogni colonna data e area geografica
 
-La **Categoria di dati** fornisce ulteriori informazioni semantiche sul contenuto di una colonna, oltre al relativo tipo di dati. Ad esempio, una colonna integer potrebbe essere contrassegnata come CAP, una colonna stringa come Città, Paese, Area geografica e così via. Queste informazioni vengono usate da Domande e risposte in due modi importanti: per la selezione della visualizzazione e per varianti linguistiche.
+La **Categoria di dati** fornisce ulteriori informazioni semantiche sul contenuto di una colonna, oltre al relativo tipo di dati. Ad esempio, una colonna integer potrebbe essere contrassegnata come CAP, una colonna stringa come Città, Paese, Area geografica e così via. Queste informazioni vengono usate da Domande e risposte in due modi importanti: per la selezione della visualizzazione e per le varianti linguistiche.
 
 Per prima cosa, Domande e risposte usa le informazioni in **Categoria di dati** per scegliere il tipo di visualizzazione da usare. Ad esempio, riconosce che le colonne con **Categorie di dati** data e ora sono in genere una buona scelta per l'asse orizzontale di un grafico a linee o l'asse di riproduzione di un grafico a bolle. Presume inoltre che i risultati contenenti colonne con **Categorie di dati** geografiche vengono visualizzati meglio su una mappa.
 
@@ -94,15 +91,15 @@ La proprietà **Ordina per colonna** permette di ordinare automaticamente i dati
 
 ## <a name="normalize-your-model"></a>Normalizzare il modello
 
-Questo non significa che è necessario modificare l'intero modello. Tuttavia, alcune strutture sono difficili e in tutta probabilità Domande e risposte non riuscirà a gestirle correttamente. Con alcune operazioni di normalizzazione di base della struttura del modello, sarà possibile aumentare l'usabilità dei report di Power BI in modo significativo, così come l'accuratezza dei risultati di Domande e risposte.
+Questo non significa che è necessario modificare l'intero modello. Tuttavia, alcune strutture sono così complesse che Domande e risposte non le gestisce correttamente. Con alcune operazioni di normalizzazione di base della struttura del modello, sarà possibile aumentare l'usabilità dei report di Power BI in modo significativo, così come l'accuratezza dei risultati di Domande e risposte.
 
-La regola generale da seguire è questa: ogni "elemento" univoco a cui l'utente si riferisce deve essere rappresentato esattamente da un oggetto (tabella o colonna) del modello. Se gli utenti si riferiscono ai clienti, deve essere presente un oggetto *cliente*. Se gli utenti si riferiscono alle vendite, deve essere presente un oggetto *vendite*. Sembra semplice, o no? A seconda della forma dei dati con cui si inizia, può esserlo. L'**editor di query** offre funzionalità di forma dei dati avanzate in caso di necessità, ma molte delle trasformazioni più semplici possono essere eseguite semplicemente con i calcoli nel modello di Power BI.
+Attenersi a questa regola generale: ogni "elemento" univoco a cui l'utente si riferisce deve essere rappresentato esattamente da un solo oggetto (tabella o colonna) del modello. Se gli utenti si riferiscono ai clienti, deve essere presente un oggetto *cliente*. Se gli utenti si riferiscono alle vendite, deve essere presente un oggetto *vendite*. Sembra semplice, o no? A seconda della forma dei dati con cui si inizia, può esserlo. L'**editor di query** offre funzionalità di forma dei dati avanzate in caso di necessità, ma molte delle trasformazioni più semplici possono essere eseguite semplicemente con i calcoli nel modello di Power BI.
 
 Le sezioni seguenti descrivono alcune trasformazioni comuni.
 
 ### <a name="create-new-tables-for-multi-column-entities"></a>Creare nuove tabelle per le entità con più colonne
 
-Se sono presenti più colonne che agiscono come una singola unità distinta in una tabella più grande, è opportuno creare una tabella appositamente per tali colonne. Ad esempio, se nella tabella *Aziende* è presente una colonna con Nome contatto, Titolo contatto e Telefono contatto, può essere utile creare una tabella *Contatti* separata contenente Nome, Titolo e Telefono, con un collegamento alla tabella *Aziende*. In questo modo, diventa molto più facile porre domande sui contatti separatamente dalle domande sulle aziende di cui essi costituiscono il contatto, migliorando inoltre la flessibilità della visualizzazione.
+Se sono presenti più colonne che agiscono come una singola unità distinta in una tabella più grande, è opportuno creare una tabella appositamente per tali colonne. Ad esempio, si supponga di avere una colonna Nome contatto, Titolo contatto e Telefono contatto all'interno della tabella *Aziende*. Una progettazione migliore consisterebbe nel definire una tabella *Contatti* separata per Nome, Titolo e Telefono con un collegamento alla tabella *Aziende*. In questo modo, diventa più facile porre domande sui contatti separatamente dalle domande sulle aziende di cui essi costituiscono il contatto, migliorando inoltre la flessibilità della visualizzazione.
 
 **Da modificare**
 
@@ -128,9 +125,9 @@ Si consideri ad esempio un tabella *CustomerDemographics* con le colonne Custome
 
 ### <a name="union-to-eliminate-partitioning"></a>Combinare i dati per eliminare il partizionamento
 
-Se i dati sono stati partizionati su più tabelle o i valori sono stati trasformati tramite Pivot su più colonne, alcune operazioni comuni saranno difficili o impossibili da eseguire. Consideriamo un tipico partizionamento di tabella: una tabella *Vendite2000-2010* e una tabella *Vendite2011-2020*. Se tutti i report importanti sono limitati a una decade specifica, ai fini dei report di Power BI si potrebbe lasciare tutto com'è. Tuttavia, in virtù della flessibilità di Domande e risposte, gli utenti potrebbero aspettarsi risposte a domande come "totale vendite per anno". Perché funzioni, sarà necessario combinare i dati in una singola tabella del modello di Power BI.
+Se i dati sono stati partizionati su più tabelle o i valori sono stati trasformati tramite Pivot su più colonne, alcune operazioni comuni saranno difficili o impossibili da eseguire. Consideriamo un tipico partizionamento di tabella: una tabella *Vendite2000-2010* e una tabella *Vendite2011-2020*. Se tutti i report importanti sono limitati a una decade specifica, ai fini dei report di Power BI si potrebbe lasciare tutto com'è. Tuttavia, in virtù della flessibilità di Domande e risposte, gli utenti potrebbero aspettarsi risposte a domande come "totale vendite per anno". Perché questa query funzioni, sarà necessario combinare i dati in una singola tabella del modello di Power BI.
 
-Analogamente, consideriamo una tipica colonna con valore trasformato tramite Pivot: una tabella *BookTour* contenente le colonne Author, Book, City1, City2 e City3. Con una struttura come questa, anche le domande più semplici, ad esempio "conta i libri per città" non può essere interpretata correttamente. Perché funzioni, è necessario creare una tabella *BookTourCities* che combina i valori delle città in una singola colonna.
+Analogamente, consideriamo una tipica colonna con valore trasformato tramite Pivot: una tabella *BookTour* contenente le colonne Author, Book, City1, City2 e City3. Con una struttura come questa, anche le domande più semplici, ad esempio "conta i libri per città" non può essere interpretata correttamente. Perché questa query funzioni, creare una tabella *BookTourCities* che combina i valori delle città in una singola colonna.
 
 **Da modificare**
 
@@ -142,7 +139,7 @@ Analogamente, consideriamo una tipica colonna con valore trasformato tramite Piv
 
 ### <a name="split-formatted-columns"></a>Dividere le colonne formattate
 
-Se l'origine da cui vengono importati i dati contiene colonne formattate, i report di Power BI e Domande e risposte, non riusciranno ad accedere alle colonne per analizzarne il contenuto. Ad esempio, se è presente una colonna **Full Address** contenente indirizzo, città e paese, sarà necessario dividerla nelle colonne Address, City e Country per consentire agli utenti di eseguire query singolarmente su ogni colonna.
+Se l'origine da cui vengono importati i dati contiene colonne formattate, i report di Power BI e Domande e risposte, non riusciranno ad accedere alle colonne per analizzarne il contenuto. Ad esempio, se è presente una colonna **Full Address** contenente indirizzo, città e paese, è consigliabile dividerla anche nelle colonne Address, City e Country per consentire agli utenti di eseguire query singolarmente su ogni colonna.
 
 **Da modificare**
 
@@ -169,7 +166,7 @@ Se l'origine da cui vengono importati i dati contiene colonne multivalore, i rep
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Denormalizzare per eliminare le relazioni inattive
 
-L'unica eccezione alla regola secondo cui è opportuno normalizzare, è quando è presente più di un percorso per passare da una tabella all'altra. Ad esempio, se è presente una tabella *Flights* con le colonne SourceCityID e DestinationCityID, entrambe con una relazione con la tabella *Cities*, una di queste due relazioni dovrà essere contrassegnata come inattiva. Poiché Domande e risposte può usare solo relazioni attive, non sarebbe possibile porre domande sull'origine o sulla destinazione, a seconda della città scelta. Se invece le colonne relative al nome della città nella tabella *Flights* vengono denormalizzate, sarà possibile porre domande come "elenca i voli per domani con città di origine Seattle e città di destinazione San Francisco".
+L'unica eccezione alla regola secondo cui è opportuno normalizzare, è quando è presente più di un percorso per passare da una tabella all'altra. Ad esempio, si supponga di avere una tabella *Voli* con le colonne IDCittàOrigine e IDCittàDestinazione, ognuna correlata alla tabella *Città*. Una di queste relazioni dovrà essere contrassegnata come inattiva. Poiché Domande e risposte può usare solo relazioni attive, non è possibile porre domande sull'origine o sulla destinazione, a seconda della città scelta. Se invece le colonne relative al nome della città nella tabella *Voli* vengono denormalizzate, è possibile porre domande come "elenca i voli per domani con città di origine Milano e città di destinazione Roma".
 
 **Da modificare**
 
@@ -183,7 +180,7 @@ L'unica eccezione alla regola secondo cui è opportuno normalizzare, è quando �
 
 Questa procedura si applica specificatamente a Domande e risposte e non ai report di Power BI in generale. Spesso gli utenti usano vari termini per fare riferimento alla stessa cosa, ad esempio totale vendite, vendite nette, totale vendite nette. Il modello di Power BI consente di aggiungere questi sinonimi alle tabelle e alle colonne nel modello. 
 
-Questo è un passaggio molto importante. Anche con nomi di tabelle e colonne estremamente semplici, gli utenti di Domande e risposte pongono domande usando i primi termini che vengono loro in mente, senza scegliere da un elenco predefinito di colonne. Aggiungendo i sinonimi più probabili e frequenti, sarà possibile migliorare l'esperienza degli utenti con i report. Per aggiungere i sinonimi, nella visualizzazione **Relazioni** selezionare il pulsante Sinonimi nella barra multifunzione, come illustrato nell'immagine seguente.
+Questo passaggio può essere importante. Anche con nomi di tabelle e colonne estremamente semplici, gli utenti di Domande e risposte pongono domande usando i primi termini che vengono loro in mente, senza scegliere da un elenco predefinito di colonne. Aggiungendo i sinonimi più probabili e frequenti, sarà possibile migliorare l'esperienza degli utenti con i report. Per aggiungere i sinonimi, nella visualizzazione **Relazioni** selezionare il pulsante Sinonimi nella barra multifunzione, come illustrato nell'immagine seguente.
 
 ![Aggiungere sinonimi per Domande e risposte](media/desktop-qna-in-reports/desktop-qna_21.png)
 

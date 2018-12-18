@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578429"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025121"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicurezza a livello di riga con Power BI
 
@@ -41,7 +42,7 @@ Per gestire la sicurezza nel modello di dati, si dovranno eseguire le operazioni
 1. Selezionare i **puntini di sospensione (…)** accanto a un set di dati.
 2. Selezionare **Sicurezza**.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Applica filtro di sicurezza in entrambe le direzioni](media/service-admin-rls/rls-security.png)
 
 Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere membri a un ruolo che è stato creato in Power BI Desktop. Solo i proprietari del set di dati potranno visualizzare l'opzione Sicurezza. Se il set di dati è in un gruppo, l'opzione di sicurezza sarà visibile solo per gli amministratori del gruppo. 
 
@@ -53,17 +54,17 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 
 È possibile aggiungere un membro al ruolo digitando l'indirizzo di posta elettronica, o il nome, dell'utente, del gruppo di sicurezza o della lista di distribuzione da aggiungere. Il membro deve essere interno all'organizzazione. Non è possibile aggiungere gruppi creati all'interno di Power BI.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Aggiungere un membro](media/service-admin-rls/rls-add-member.png)
 
 È anche possibile stabilire il numero di membri che fanno parte del ruolo in base al numero indicato tra parentesi accanto al nome del ruolo o accanto a Membri.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Membri nel ruolo](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Rimuovere i membri
 
 È possibile rimuovere i membri selezionando l'icona X accanto al nome. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Rimuovere un membro](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Convalida del ruolo all'interno del servizio Power BI
 
@@ -72,15 +73,15 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 1. Selezionare i **puntini di sospensione (…)** accanto al ruolo.
 2. Selezionare **Test dei dati come ruolo**
 
-![](media/service-admin-rls/rls-test-role.png)
+![Test come ruolo](media/service-admin-rls/rls-test-role.png)
 
 Verranno visualizzati i report disponibili per questo ruolo. I dashboard non vengono presentati in questa visualizzazione. La barra blu sopra indica cosa viene applicato.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Visualizzazione come <ruolo>](media/service-admin-rls/rls-test-role2.png)
 
 È possibile testare altri ruoli, o combinazioni di ruoli, selezionando **Visualizzazione attuale come**.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Testare altri ruoli](media/service-admin-rls/rls-test-role3.png)
 
 È possibile scegliere di visualizzare i dati come un utente specifico oppure è possibile selezionare una combinazione dei ruoli disponibili per convalidarne il funzionamento. 
 
@@ -95,7 +96,7 @@ Se si pubblica il report di Power BI Desktop in un'area di lavoro per le app all
 > [!WARNING]
 > Se è stata configurata l'area di lavoro per le app in modo da assegnare le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Gli utenti riusciranno a visualizzare tutti i dati.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Impostazioni di gruppo](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

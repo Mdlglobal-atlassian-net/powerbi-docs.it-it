@@ -4,18 +4,19 @@ description: Connettersi ai dati in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0430455131b0669dfa744c7a1df6691bda4c782
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578153"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025558"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Connettersi ai dati in Power BI Desktop
 Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
@@ -24,6 +25,7 @@ In Power BI Desktop sono disponibili origini dati *di ogni tipo* . La figura seg
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
+## <a name="example-of-connecting-to-data"></a>Esempio di connessione ai dati
 Per questo esempio, verrà effettuata la connessione a un'origine dati **Web** .
 
 Si supponga di andare in pensione e di volere abitare in un luogo con clima mite, pressione fiscale ridotta e assistenza sanitaria di buona qualità Oppure si supponga di essere un analista di dati e di avere bisogno di informazioni per aiutare i clienti, ad esempio per aiutare un cliente che produce impermeabili a concentrare le vendite nei luoghi in cui piove *molto*.
@@ -64,7 +66,7 @@ Con il modello di dati caricato, nella visualizzazione **Report** di Power BI De
 
 Naturalmente, questo è un modello semplice con un'unica connessione dati; la maggior parte dei report di Power BI Desktop avranno connessioni a origini dati diverse, formate in base alle esigenze, con relazioni che producono un modello di dati complesso. 
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)

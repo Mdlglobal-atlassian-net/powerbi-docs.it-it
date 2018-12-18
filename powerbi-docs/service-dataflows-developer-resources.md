@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2b2449985a4380d78e7055ecf87f99a65a9a67e
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268026"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180600"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>Risorse per sviluppatori per i flussi di dati Power BI (anteprima)
 
@@ -29,7 +29,7 @@ Le risorse per sviluppatori seguenti sono disponibili per l'uso con i flussi di 
 
 | Risorsa per il flusso di dati | Descrizione |
 | --- | --- |
-| [Power BI dataflow REST API Reference](http://download.microsoft.com/download/5/4/0/540DAA5B-6760-4BDF-A089-8C3DBA8BB4DD/Power%20BI%20dataflow%20REST%20API%20reference.docx) (Informazioni di riferimento per l'API REST per il flusso di dati Power BI)    | Guida di riferimento completa per l'API REST per il flusso di dati.|
+| [Power BI dataflow REST API Reference](https://go.microsoft.com/fwlink/?linkid=2047629) (Informazioni di riferimento per l'API REST per il flusso di dati Power BI)    | Guida di riferimento completa per l'API REST per il flusso di dati.|
 
 
 ## <a name="next-steps"></a>Passaggi successivi
@@ -41,10 +41,15 @@ Questo articolo ha fornito informazioni sulle risorse per sviluppatori per i flu
 * [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
 * [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
 
+Per informazioni sullo sviluppo CDM e risorse per esercitarsi, vedere gli argomenti seguenti:
+* [Panoramica del modello CDM (Common Data Model)](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Cartelle CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
+* [Definizione del file del modello CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
+
+
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)
 * [Configurazione dell'aggiornamento pianificato](refresh-scheduled-refresh.md)
 
-Per altre informazioni sul modello CDM (Common Data Model), è possibile leggere l'articolo di panoramica:
-* [Panoramica del modello CDM (Common Data Model)](https://docs.microsoft.com/powerapps/common-data-model/overview)
+
 

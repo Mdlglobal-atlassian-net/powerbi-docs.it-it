@@ -1,23 +1,23 @@
 ---
-title: Usare l'oggetto visivo matrice in Power BI Desktop
-description: Informazioni su come l'oggetto visivo matrice consenta i layout con rientri e l'evidenziazione granulare in Power BI Desktop
+title: Usare l'oggetto visivo Matrice in Power BI
+description: Informazioni su come l'oggetto visivo Matrice consenta i layout con rientri e l'evidenziazione granulare in Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/25/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 123cb794a1ba307439a47bdb949e2c76297e7ba2
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101371"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979547"
 ---
-# <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Usare l'oggetto visivo Matrice in Power BI Desktop
+# <a name="use-the-matrix-visual-in-power-bi"></a>Usare l'oggetto visivo Matrice in Power BI
 Con la funzionalità visiva **Matrice** è possibile creare oggetti visivi matrice (detti anche *tabelle*) nei report di **Power BI Desktop** e del **servizio Power BI** e usare l'evidenziazione incrociata degli elementi all'interno della matrice con altri oggetti visivi. È anche possibile selezionare singole celle, colonne e righe e usare l'evidenziazione incrociata. Le selezioni di singole celle o di più celle possono essere copiate e incollate in altre applicazioni. Infine, per usare al meglio lo spazio del layout, l'oggetto visivo matrice supporta un layout con rientri.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
@@ -39,7 +39,25 @@ In questo esempio, ogni riga nell'oggetto visivo **Matrice** all'estrema destra 
 
 Quando si esaminano i totali e subtotali, tenere presente che tali valori sono basati sui dati sottostanti e non unicamente sui valori visibili. 
 
+<!-- use Nov blog post video
 
+## Expanding and collapsing row headers
+There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+
+![](media/desktop-matrix-visual/power-bi-expand1.png)
+
+You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
+Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+
+![](media/desktop-matrix-visual/power-bi-expand2.png)
+
+The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+
+![](media/desktop-matrix-visual/power-bi-expand3.png)
+
+Watch the following video to learn more about expand/collapse in the matrix:
+
+-->
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso del drill-down con l'oggetto visivo Matrice
 L'oggetto visivo **Matrice** consente di eseguire moltissime interessanti attività di drill-down che in precedenza non erano disponibili. Tra queste, la possibilità di eseguire il drill-down usando righe e colonne e persino con sezioni e celle singole. Ecco una spiegazione del funzionamento di ognuna di queste attività.
 

@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a44630f8c5ad7f521ad7f3e8794486cd1b758358
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 635e16a6c7deaf6d2bdb3617d29625e8fda005d2
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336784"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280221"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Sottoscrivere un report o un dashboard nel servizio Power BI 
 Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile indicare con quale frequenza si vogliono ricevere i messaggi di posta da Power BI, da una volta al giorno a una volta alla settimana. 
@@ -64,7 +64,7 @@ La tabella seguente descrive la frequenza con cui si riceverà un messaggio di p
 |  | **DirectQuery** | **Live Connect** | **Aggiornamento pianificato (importazione)** | **File di Excel in OneDrive/SharePoint Online** |
 | --- | --- | --- | --- | --- |
 | **Con quale frequenza viene aggiornato il report/dashboard?** |Ogni 15m |Power BI controlla ogni 15 minuti e, se il set di dati è stato modificato, il report viene aggiornato. |L'utente seleziona nessuna, giornaliera o settimanale. La frequenza giornaliera può essere fino a 8 volte al giorno. La frequenza settimanale è effettivamente una pianificazione settimanale creata dall'utente, in base alla quale viene impostato l'aggiornamento, da una volta alla settimana a una volta al giorno. |Una volta ogni ora |
-| **Quale livello di controllo ha l'utente sulla pianificazione di posta elettronica della sottoscrizione?** |Le opzioni sono: giornaliera o settimanale |Nessuna opzione: agli utenti viene inviato un messaggio di posta elettronica se il report viene aggiornato, ma non più di una volta al giorno. |Se la pianificazione dell'aggiornamento è giornaliera, le opzioni sono giornaliera e settimanale.  Se la pianificazione dell'aggiornamento è settimanale, l'unica opzione è settimanale. |Nessuna opzione: all'utente viene inviato un messaggio di posta elettronica ogni volta che il set di dati viene aggiornato, ma non più di una volta al giorno. |
+| **Quale livello di controllo ha l'utente sulla pianificazione di posta elettronica della sottoscrizione?** |Le opzioni sono: giornaliera o settimanale |Nessuna opzione: all'utente viene inviato un messaggio di posta elettronica se il report viene aggiornato, ma non più di una volta al giorno. |Se la pianificazione dell'aggiornamento è giornaliera, le opzioni sono giornaliera e settimanale.  Se la pianificazione dell'aggiornamento è settimanale, l'unica opzione è settimanale. |Nessuna opzione: all'utente viene inviato un messaggio di posta elettronica ogni volta che il set di dati viene aggiornato, ma non più di una volta al giorno. |
 
 ## <a name="manage-your-subscriptions"></a>Gestire le sottoscrizioni
 Si possono gestire solo le sottoscrizioni personali. Selezionare **Sottoscrivi** di nuovo e quindi scegliere **Gestisci tutte le sottoscrizioni** (vedere gli screenshot dopo il punto 4 più indietro). 
@@ -82,7 +82,6 @@ Una sottoscrizione termina se la licenza Pro scade, il dashboard o il report vie
 * Attualmente le sottoscrizioni tramite posta elettronica non supportano oggetti visivi R personalizzati.  
 * I riquadri dei dashboard a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.
 * Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.    
-* Le sottoscrizioni tramite posta elettronica non sono ancora supportate nelle pagine del report create dalla funzione di connessione al servizio in tempo reale di Power BI Desktop.  
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     
 * Le sottoscrizioni possono non riuscire nei dashboard o nei report con immagini grandi a causa dei limiti delle dimensioni della posta elettronica.    
 * Power BI sospende automaticamente l'aggiornamento nei set di dati associati ai dashboard e ai report che non sono stati visitati da più di 2 mesi.  Tuttavia, se si aggiunge una sottoscrizione a un dashboard o un report, l'aggiornamento non verrà sospeso anche nel caso in cui non sia stato visitato.    

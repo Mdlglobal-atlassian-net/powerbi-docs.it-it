@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830333"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111543"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
 
@@ -84,8 +84,8 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
 | Visualizzatori totali |sì |sì |Numero di visualizzatori unici negli ultimi 90 giorni. |
 | Condivisioni totali |sì |no |Numero di volte in cui il dashboard o il report è stato condiviso negli ultimi 90 giorni. |
 | Totale nell'organizzazione |sì |sì |Conteggio di tutti i dashboard o report in tutta l'organizzazione che sono stati visualizzati almeno una volta negli ultimi 90 giorni.  Usato per calcolare la classificazione. |
-| Classificazione: visualizzazioni totali |sì |sì |Per le visualizzazioni totali di tutti i dashboard o i report nell'organizzazione negli ultimi 90 giorni, dove si classifica questo dashboard o report. |
-| Classificazione: condivisioni totali |sì |no |Per le condivisioni totali di tutti i dashboard nell'organizzazione negli ultimi 90 giorni, dove si classifica questo dashboard o report. |
+| Classificazione: Visualizzazioni totali |sì |sì |Per le visualizzazioni totali di tutti i dashboard o i report nell'organizzazione negli ultimi 90 giorni, dove si classifica questo dashboard o report. |
+| Classificazione: Condivisioni totali |sì |no |Per le condivisioni totali di tutti i dashboard nell'organizzazione negli ultimi 90 giorni, dove si classifica questo dashboard o report. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Report Metriche di utilizzo del dashboard
 
@@ -172,19 +172,19 @@ Power BI è disponibile in cloud nazionali separati. Questi cloud offrono gli st
 
 Oltre alle potenziali differenze tra i log di controllo e le metriche di utilizzo, le domande e risposte seguenti sulle metriche di utilizzo possono essere utili per gli utenti e gli amministratori:
 
-Q:    Non è possibile eseguire le metriche di utilizzo in un dashboard o un report R:    È possibile visualizzare solo le metriche di utilizzo relative al contenuto di cui si è proprietari o per cui si hanno le autorizzazioni di modifica.
+D:    non è possibile eseguire le metriche di utilizzo per un dashboard o un report R:    è possibile visualizzare solo le metriche di utilizzo di cui si è proprietari o che si è autorizzati a modificare.
 
-D: Le metriche di utilizzo acquisiscono viste da dashboard e report incorporati?
-R:    Le metriche di utilizzo attualmente non supportano l'acquisizione dell'utilizzo per dashboard e report incorporati e per il flusso [Pubblica sul Web](service-publish-to-web.md).          In questi casi, è consigliabile usare le piattaforme di analisi Web esistenti per tenere traccia dell'utilizzo dell'app o del portale di hosting.
+D:    le metriche di utilizzo acquisiscono viste da dashboard e report incorporati?
+R:    le metriche di utilizzo attualmente non supportano l'acquisizione dell'utilizzo per dashboard e report incorporati e per il flusso [Pubblica sul Web](service-publish-to-web.md).          In questi casi, è consigliabile usare le piattaforme di analisi Web esistenti per tenere traccia dell'utilizzo dell'app o del portale di hosting.
 
-D:    Non è possibile eseguire le metriche di utilizzo in nessun contenuto.
-R1:   Gli amministratori possono disabilitare questa funzione per la loro organizzazione.  Contattare l'amministratore per verificare se è questo il caso.
-R2:    Le Metriche di utilizzo sono una funzionalità di Power BI Pro.
+D:    non è possibile eseguire le metriche di utilizzo in nessun contenuto.
+R1:    gli amministratori possono disattivare questa funzionalità per la loro organizzazione.  Contattare l'amministratore per verificare se è questo il caso.
+R2:    le metriche di utilizzo sono una funzionalità di Power BI Pro.
 
-D:    I dati non sembrano essere aggiornati. Ad esempio, i metodi di distribuzione non vengono visualizzati, mancano le pagine del report e così via. R:    L'aggiornamento dei dati può richiedere fino a 24 ore.
+D:    i dati non sembrano essere aggiornati. Ad esempio, i metodi di distribuzione non vengono visualizzati, mancano le pagine del report e così via. R:    l'aggiornamento dei dati può richiedere fino a 24 ore.
 
-D:    Ci sono quattro report nell'area di lavoro, ma il report sulle metriche di utilizzo ne visualizza solo 3.
-R:    Il report sulle metriche di utilizzo include solo i report (o i dashboard) a cui gli utenti hanno avuto accesso negli ultimi 90 giorni.  Se un report (o dashboard) non viene visualizzato, è probabile che non sia stato usato per oltre 90 giorni.
+D:    ci sono quattro report nell'area di lavoro, ma il report sulle metriche di utilizzo ne visualizza solo 3.
+R:    il report sulle metriche di utilizzo include solo i report (o i dashboard) a cui gli utenti hanno avuto accesso negli ultimi 90 giorni.  Se un report (o dashboard) non viene visualizzato, è probabile che non sia stato usato per oltre 90 giorni.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

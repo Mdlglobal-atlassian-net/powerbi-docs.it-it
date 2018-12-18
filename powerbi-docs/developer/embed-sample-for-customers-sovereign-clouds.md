@@ -1,23 +1,25 @@
 ---
-title: Incorporare contenuto di Power BI in un'applicazione per i clienti per cloud per enti pubblici e cloud sovrani
-description: Informazioni su come integrare o incorporare un dashboard, un riquadro o un report in un'app Web tramite le API di Power BI per i clienti.
+title: Analisi incorporata per incorporare contenuto di Power BI nell'applicazione per cloud per enti pubblici e sovrani
+description: Informazioni su come integrare o incorporare un report, un dashboard o un riquadro in un'applicazione tramite le API di Power BI per l'analisi incorporata per i clienti. Informazioni su come integrare Power BI nell'applicazione usando software di analisi incorporata, strumenti di analisi incorporata o strumenti di business intelligence incorporata.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003157"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180623"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Esercitazione: Incorporare un dashboard, un riquadro o un report di Power BI nell'applicazione per cloud sovrani
 
-Informazioni su come incorporare un dashboard, un riquadro o un report in un'applicazione Web tramite Power BI .NET SDK insieme all'API JavaScript di Power BI durante l'integrazione di dati per i clienti.
+Informazioni su come incorporare contenuto analitico all'interno di applicazioni aziendali per cloud sovrani. È possibile usare Power BI .NET SDK con l'API JavaScript di Power BI per incorporare un report, un dashboard o un riquadro in applicazioni Web personalizzate.
 
 Power BI supporta anche cloud sovrani (privati).
 
@@ -132,7 +134,7 @@ Registrare l'applicazione in Azure AD per effettuare chiamate all'API REST. Per 
 
 * Power BI per il cloud Cina - https://app.powerbi.cn/apps
 
-Se è stato scaricato l'[esempio di incorporamento per il cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), usare l'**applicationId** ottenuto dopo la registrazione in modo che l'esempio possa eseguire l'autenticazione in Azure AD. Per configurare l'esempio, modificare il valore **applicationId** nel file *web.config*.
+Se è stato scaricato l'[esempio di incorporamento per il cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), usare l'**applicationId** ottenuto in modo che l'esempio possa eseguire l'autenticazione in Azure AD. Per configurare l'esempio, modificare il valore **applicationId** nel file *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Passaggio 2: Ottenere un token di accesso da Azure AD
 

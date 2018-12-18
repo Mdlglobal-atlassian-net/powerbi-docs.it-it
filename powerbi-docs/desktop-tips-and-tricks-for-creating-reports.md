@@ -1,20 +1,21 @@
 ---
 title: Suggerimenti e consigli per creare report in Power BI
-description: Suggerimenti e consigli per creare report nel servizio Power BI e in Power BI Desktop
+description: Informazioni sulle procedure consigliate per la creazione di report nel servizio Power BI e in Power BI Desktop
 author: davidi
 manager: kfile
 ms.reviewer: willthom
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: c68c29449873e22c7e338279e80f049d522ba347
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830287"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026361"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Suggerimenti e consigli per creare report in Power BI Desktop
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato. 
@@ -27,7 +28,7 @@ Altre informazioni sono disponibili nel [Centro risorse di Power Query](https://
 È anche possibile visualizzare le [informazioni sulle formule](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ## <a name="data-types-in-query-editor"></a>Tipi di dati nell'Editor di query
-Quando si usa l'Editor di query in Power BI Desktop per caricare i dati, il tipo di dati viene rilevato in base all'ipotesi più probabile.  Quando si usano formule, a volte le impostazioni del tipo di dati nelle colonne non vengono mantenute. Controllare che il tipo di dati delle colonne sia corretto dopo le operazioni di caricamento iniziale dei dati nella scheda della query, impostazione della prima riga come intestazione, aggiunta di una colonna, raggruppamento, merge e accodamento, nonché prima del caricamento dei dati per la prima volta.
+Quando si usa l'Editor di query in Power BI Desktop per caricare i dati, il tipo di dati viene rilevato in base all'ipotesi più probabile.  Quando si usano formule, a volte le impostazioni del tipo di dati nelle colonne non vengono mantenute. Controllare che il tipo di dati delle colonne sia corretto dopo le operazioni seguenti:  Caricamento iniziale dei dati nella scheda di query, prima riga come intestazione, aggiunta di una colonna, raggruppamento, unione e accodamento, nonché prima del caricamento dei dati per la prima volta.
 
 Un aspetto importante da ricordare è che il corsivo nella griglia dei dati non significa che il tipo sia impostato correttamente, ma solo che i dati non vengono considerati come testo.
 

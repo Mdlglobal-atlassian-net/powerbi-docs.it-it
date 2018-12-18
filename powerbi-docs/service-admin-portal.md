@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268367"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026708"
 ---
-# <a name="power-bi-admin-portal"></a>Portale di amministrazione di Power BI
+# <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
 Il portale di amministrazione consente di gestire un *tenant* Power BI per l'organizzazione. Il portale include elementi come le metriche di utilizzo, l'accesso all'interfaccia di amministrazione di Office 365 e le impostazioni.
 
@@ -105,11 +106,11 @@ L'immagine seguente mostra le prime due sezioni della scheda **Impostazioni tena
 
 Le impostazioni possono avere tre stati:
 
-* **Disabilitato per l'intera organizzazione**: nessuno nell'organizzazione può usare questa funzionalità.
+* **Disabilitato per l'intera organizzazione**: nessuno all'interno dell'organizzazione può usare questa funzionalità.
 
     ![Impostazione per disabilitare la funzionalità per tutti](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Abilitato per l'intera organizzazione**: tutti nell'organizzazione possono usare questa funzionalità.
+* **Abilitato per l'intera organizzazione**: tutti all'interno dell'organizzazione possono usare questa funzionalità.
 
     ![Impostazione per abilitare la funzionalità per tutti](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
@@ -328,7 +329,7 @@ Un amministratore può visualizzare i codici di incorporamento generati per il t
 
 ![Codici di incorporamento nel portale di amministrazione di Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Oggetti visivi dell'organizzazione
+## <a name="organization-visuals"></a>Oggetti visivi organizzazione
 
 La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](power-bi-custom-visuals-organization.md)
 

@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 864e7a3d78386f6996d866f45558add3b51faa69
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 08931086d05ca3fe7edba2cd195a4f6f61cfccc7
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145190"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025910"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
 Durante la configurazione di un set di dati per l'aggiornamento pianificato è possibile che venga visualizzato un errore.
@@ -28,13 +29,13 @@ Questo problema si verifica quando l'origine dati usata in Power BI Desktop non 
 Se non si è sicuri dell'origine dati usata, è possibile individuarla eseguendo la procedura seguente in Power BI Desktop.  
 
 1. In Power BI Desktop verificare che il riquadro attivo sia **Report** .  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
+   ![Riquadro Report di Power BI Desktop](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
 2. Selezionare **Modifica query** dalla barra multifunzione.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
+   ![Modifica query](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
 3. Selezionare **Editor avanzato**.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
+   ![Editor avanzato](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Prendere nota del provider indicato per l'origine.  In questo esempio il provider è ActiveDirectory.  
-   ![](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
+   ![Provider dell'origine dati](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
 5. Confrontare il provider con l'elenco delle origini dati supportate in [Aggiornare i dati in Power BI](refresh-data.md).  Notare che Active Directory è un'origine dati non supportata per l'aggiornamento.  
 
 ## <a name="next-steps"></a>Passaggi successivi

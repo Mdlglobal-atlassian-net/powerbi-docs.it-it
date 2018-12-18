@@ -1,21 +1,22 @@
 ---
 title: Risoluzione degli errori del riquadro
-description: Errori più comuni che possono essere rilevati durante un tentativo di aggiornamento di un riquadro
+description: Errori più comuni che possono essere rilevati durante un tentativo di aggiornamento di un riquadro in Power BI
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1341caa1f67d01a03128344acd67261abf450f90
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: d03bf92331d1536337cfb8279c182822630c6c80
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669866"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025033"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
 Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri e la relativa spiegazione.

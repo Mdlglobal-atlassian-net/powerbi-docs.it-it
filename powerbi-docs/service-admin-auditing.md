@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850477"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026823"
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
@@ -73,13 +74,13 @@ Le ricerche verranno filtrate alle sole attività di Power BI.
 
 Se l'intervallo di date selezionato è maggiore a 90 giorni, viene visualizzato un errore. Se si usa l'intervallo massimo di 90 giorni, selezionare l'ora corrente per **Data di inizio**. In caso contrario, un errore informerà che la data di inizio è precedente alla data di fine. Se il controllo è stato attivato negli ultimi 90 giorni, l'intervallo di date non può cominciare prima della data di attivazione del controllo.
 
-![](media/service-admin-auditing/search-audit-log-by-date.png)
+![Ricerca per data](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Eseguire la ricerca dei log di controllo per utente
 
 È possibile cercare le voci del log di controllo in base alle attività eseguite dagli utenti specifici. A tale scopo, immettere uno o più nomi utente nel campo **Utenti**. Il nome utente è simile a un indirizzo di posta elettronica ed è l'account usato dagli utenti per accedere a Power BI. Lasciare questa casella vuota per visualizzare le voci di tutti gli utenti (e account del servizio) dell'organizzazione.
 
-![Ricerca per data](media/service-admin-auditing/search-audit-log-by-user.png)
+![Ricerca in base agli utenti](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Visualizzare i risultati della ricerca
 
@@ -191,7 +192,7 @@ Le attività seguenti sono controllate da Power BI.
 | Non è stato possibile rimuovere le autorizzazioni del flusso di dati             | FailedToRemoveDataflowPermissions           | Attualmente non in uso                       |
 | Token di firma di accesso condiviso del flusso di dati di Power BI generato             | GenerateDataflowSasToken                    |                                          |
 | Token di incorporamento di Power BI generato                    | GenerateEmbedToken                          |                                          |
-| File importato in Power BI                         | Import                                      |                                          |
+| File importato in Power BI                         | Importazione                                      |                                          |
 | App Power BI installata                            | InstallApp                                  |                                          |
 | Migrazione dell'area di lavoro a una capacità eseguita                  | MigrateWorkspaceIntoCapacity                |                                          |
 | Commento di Power BI pubblicato                           | PostComment                                 |                                          |

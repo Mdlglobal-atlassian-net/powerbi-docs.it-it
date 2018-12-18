@@ -1,21 +1,22 @@
 ---
-title: Connettersi ai dati di Azure Consumption Insights in Power BI Desktop (Beta)
+title: Connettersi a Informazioni dettagliate sul consumo di Azure (beta)
 description: Connettersi ad Azure e ottenere informazioni dettagliate sull'utilizzo con Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619610"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026788"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -50,7 +51,7 @@ Specificare quindi la *chiave di accesso* per la connessione.
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Dopo aver specificato la *chiave di accesso* e selezionato **Connetti**, verrà visualizzata la finestra **Strumento di navigazione** con nove tabelle: 
-* **Budgets**: fornisce i dettagli sui budget per visualizzare i costi effettivi o l'utilizzo rispetto alle destinazioni dei budget esistenti. 
+* **Budgets**: fornisce i dettagli sui budget per visualizzare i costi effettivi o l'utilizzo rispetto ai target di budget esistenti. 
 * **MarketPlace**: indica gli addebiti per Azure Marketplace basati sull'utilizzo.
 * **PriceSheets**: indica le tariffe applicabili in base al contatore per una registrazione.
 * **RICharges**: indica gli addebiti associati alle istanze riservate negli ultimi 24 mesi.
@@ -127,7 +128,7 @@ Sarà ovviamente necessario sostituire il valore di *enrollmentNumber* con il nu
 
 Dopo la selezione di **Fine** nella finestra **Editor avanzato** l'anteprima si aggiorna, visualizzando nella tabella i dati dell'intervallo di mesi specificato. Selezionare **Chiudi e applica** e tornare indietro.
 
-### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Passaggio 3: Spostare le misure e le colonne personalizzate nel nuovo report
+### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Passaggio 3: Spostare misure e colonne personalizzate nel nuovo report
 Sarà necessario spostare nella nuova tabella dei dettagli le colonne personalizzate o le misure create. Seguire questa procedura.
 
 1. Aprire Blocco note o un altro editor di testo.
@@ -171,14 +172,14 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | DepartmentID |departmentId | |Sì |
 | ID istanza | | |Sì |
 | InstanceId |instanceId |ID istanza |No |
-| Località | | |Sì |
+| Posizione | | |Sì |
 | Meter Category |meterCategory |Meter Category |No |
 | Meter ID | | |Sì |
 | Meter Name |meterName |Meter Name |No |
 | Meter Region |meterRegion |Meter Region |No |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
-| Mese | |Mese |No |
+| Month | |Month |No |
 | Prodotto |prodotto |Prodotto |No |
 | ProductId |productId | |Sì |
 | Resource Group |resourceGroup |Resource Group |No |

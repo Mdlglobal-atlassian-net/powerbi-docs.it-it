@@ -1,23 +1,23 @@
 ---
 title: Che cosa sono i report impaginati in Power BI Premium? (anteprima)
-description: I report impaginati sono report che possono essere stampati o condivisi. È possibile controllare esattamente il layout del report. Consentono di visualizzare tutti i dati in una tabella, ad esempio, anche se la tabella si estende su più pagine.
+description: I report impaginati, da lungo tempo il formato di report standard in SQL Server Reporting Services, sono ora disponibili nel servizio Power BI. Questi report possono essere stampati o condivisi. È possibile controllare esattamente il layout del report. Consentono di visualizzare tutti i dati in una tabella, ad esempio, anche se la tabella si estende su più pagine.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/20/2018
+ms.date: 12/05/2018
 ms.author: maggies
-ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: d79299f469062ec74c49ff4b7e9edda26c3409a3
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289221"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026123"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Che cosa sono i report impaginati in Power BI Premium? (anteprima)
-I report impaginati, da lungo tempo il formato di report standard in SQL Server Reporting Services, sono ora disponibili nel servizio Power BI. I report impaginati sono report progettati per essere stampati o condivisi. Vengono definiti "impaginati" perché sono formattati in modo da adattarsi meglio alla pagina. Visualizzano tutti i dati in una tabella, anche se la tabella si estende su più pagine. Vengono talvolta definiti "perfetti al pixel" perché è possibile controllare esattamente il layout di pagina del report. I report impaginati sono basati sulla tecnologia di report RDL in SQL Server Reporting Services. Generatore report è lo strumento autonomo per la creazione di report impaginati. 
+I report impaginati, da lungo tempo il formato di report standard in SQL Server Reporting Services, sono ora disponibili nel servizio Power BI. Questi report possono essere stampati o condivisi. Vengono definiti "impaginati" perché sono formattati in modo da adattarsi meglio alla pagina. Visualizzano tutti i dati in una tabella, anche se la tabella si estende su più pagine. Vengono talvolta definiti "perfetti al pixel" perché è possibile controllare esattamente il layout di pagina del report. I report impaginati sono basati sulla tecnologia di report RDL in SQL Server Reporting Services. Generatore report è lo strumento autonomo per la creazione di report impaginati. 
 
 I report impaginati possono avere molte pagine. Ad esempio, questo report contiene 563 pagine. Ogni pagina ha un layout esatto, con una pagina per ogni fattura e intestazioni e piè di pagina ripetuti.
 
@@ -43,7 +43,7 @@ Altre origini dati diventeranno disponibili durante il periodo di anteprima.
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>Creare report impaginati con layout matrice, grafico e a formato libero
 
-È possibile creare report tabella per i dati basati su colonne, report matrice (ad esempio report a campi incrociati o tabella pivot) per i dati riepilogati, report grafico per i dati grafici e report *elenco* a formato libero per qualsiasi altra esigenza, ad esempio le fatture. 
+I report tabella sono adatti ai dati basati su colonne. I report matrice, ad esempio i report a campi incrociati o di tabella pivot, sono ideali per i dati riepilogati. I report grafici presentano i dati in formato grafico e i report *elenco* in formato libero possono presentare praticamente qualsiasi altra informazione, ad esempio le fatture. 
   
 È possibile iniziare con una delle creazioni guidate di Generatore report. La Creazione guidata tabella, matrice o grafico consente di eseguire in modo semplificato la creazione della connessione all'origine dati incorporata e del set di dati incorporato. È quindi possibile trascinare i campi per creare una query sul set di dati, selezionare un layout e lo stile, quindi personalizzare il report.  
   
@@ -66,7 +66,7 @@ Nel servizio Power BI il report impaginato viene visualizzato in un browser e ne
 
 L'elenco seguente include alcune altre funzionalità non supportate nella versione iniziale:
 
-- Aggiunta di pagine del report o oggetti visivi a dashboard di Power BI.
+- Aggiunta di pagine del report o oggetti visivi a dashboard di Power BI. È comunque possibile aggiungere visualizzazioni a un dashboard di Power BI da un report impaginato in locale in un Server di report di Power BI o un server di report di Reporting Services. Per altre informazioni, vedere [Pin Reporting Services items to Power BI Dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) (Aggiungere elementi di Reporting Services ai dashboard di Power BI).
 - Funzionalità interattive come le mappe documento e i pulsanti Mostra/Nascondi.
 - Sottoreport e report drill-through.
 - Sottoscrizioni.

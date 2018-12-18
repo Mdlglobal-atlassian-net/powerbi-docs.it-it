@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268008"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180646"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Collegare entità tra flussi di dati in Power BI (anteprima)
 
@@ -32,6 +32,12 @@ Le entità collegate sono **di sola lettura**. Se si vogliono creare trasformazi
 Le entità collegate richiedono una sottoscrizione [Power BI Premium](service-premium.md) per l'aggiornamento. Le entità collegate sono disponibili in qualsiasi flusso di dati in un'area di lavoro ospitata nella capacità Power BI Premium. Non sono previsti limiti per il flusso di dati di origine.
 
 Le entità collegate funzionano correttamente solo nelle nuove aree di lavoro di Power BI. Sono disponibili altre informazioni sulle [nuove aree di lavoro di Power BI](service-create-the-new-workspaces.md). Tutti i flussi di dati collegati devono trovarsi nelle nuove aree di lavoro per funzionare correttamente.
+
+> [!NOTE]
+> Le entità variano a seconda che siano standard o calcolate. Le entità standard (spesso denominate semplicemente entità) eseguono query su un'origine dati esterna, ad esempio un database SQL. Le entità calcolate richiedono capacità Premium in Power BI ed eseguono le trasformazioni sui dati già presenti nell'archiviazione di Power BI. 
+>
+>Se il flusso di dati non è in un'area di lavoro di capacità Premium, è comunque possibile fare riferimento a una singola query o combinare due o più query fino a quando le trasformazioni non vengono definite come trasformazioni in archivio. Tali riferimenti vengono considerati entità standard. A tale scopo, disattivare l'opzione **Abilita caricamento** per le query a cui viene fatto riferimento per evitare che i dati vengano materializzati e inseriti nell'archivio. Da qui, è possibile fare riferimento a tali query **Abilita caricamento = false** e impostare **Abilita caricamento** su **Sì** solo per le query risultanti che si vuole materializzare.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Come collegare entità tra flussi di dati
 

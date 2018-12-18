@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547247"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180991"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -34,7 +34,7 @@ A seconda della provenienza, i report di Power BI sono archiviati in posizioni d
 
 * In un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro > **Apri report**.
   
-  ![Aprire un report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
+  ![Apri report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   Non tutti i riquadri offrono l'opzione di apertura in un report. Ad esempio, i riquadri creati ponendo una domanda nella casella Domande e risposte non aprono i report quando vengono toccati. 
   
@@ -105,6 +105,16 @@ Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo
 Quando si esegue il drill-through, il pulsante Indietro consente di tornare alla pagina del report precedente.
 
 Leggere le informazioni su come [aggiungere il drill-through in Power BI Desktop](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Visualizzare i dati e copiare i valori
+
+Selezionando il puntini di sospensione per le opzioni di menu (**...** ) nell'angolo superiore destro di una visualizzazione in un report per il telefono e scegliendo quindi **Mostra dati**, è possibile visualizzare i dati sottostanti una visualizzazione.
+
+![Opzione di menu Mostra dati in Power BI per dispositivi mobili](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Con un tocco prolungato su una cella nella tabella visualizzata comparirà il menu nativo per selezione e copia, quindi sarà possibile scegliere di copiare i dati dalla tabella (o l'intera tabella).
+
+![Report di drill-through di Power BI per dispositivi mobili](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)

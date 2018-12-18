@@ -5,26 +5,27 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/25/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3b58b0b88ed0417f88784824a67ab294dda7343e
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: 386f4fb24488df3856f8e731fcd6c95043c86d74
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850431"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180922"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
+# <a name="generate-data-insights-automatically-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
 Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si desidera cercare le informazioni dettagliate perse?
 
 Eseguire Informazioni rapide per generare visualizzazioni interattive interessanti basate sui dati. La funzionalità Informazioni rapide può essere eseguita su un intero set di dati (Informazioni rapide) o in un riquadro del dashboard specifico (Informazioni rapide con ambito). È anche possibile generare informazioni dettagliate su un'informazione dettagliata.
 
 > [!NOTE]
-> Informazioni dettagliate non funziona con DirectQuery, ma solo con i dati caricati in Power BI.
+> La funzionalità Informazioni dettagliate non funziona con DirectQuery, ma solo con i dati caricati in Power BI.
 > 
 
 La funzionalità Informazioni dettagliate si basa su un [set di algoritmi analitici avanzati](service-insight-types.md) sviluppati in collaborazione con Microsoft Research per consentire a più utenti di trovare informazioni dettagliate nei propri dati in modi nuovi e intuitivi.

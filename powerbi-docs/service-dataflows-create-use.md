@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268111"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180577"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Creazione e uso di flussi di dati in Power BI (anteprima)
 
@@ -33,7 +33,7 @@ I passaggi principali per l'uso di un flusso di dati sono tre:
 2. Pianificare la frequenza di aggiornamento dei dati da inserire nel flusso di dati
 3. Creare il set di dati usando il flusso di dati, tramite Power BI Desktop 
 
-Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. È possibile iniziare subito.
+Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. è possibile iniziare subito.
 
 > [!NOTE]
 > La funzionalità dei flussi di dati è disponibile in anteprima ed è soggetta a modifiche e aggiornamenti prima della disponibilità generale.
@@ -143,6 +143,10 @@ Da questa posizione, passare all'**area di lavoro per le app** dove è stato sal
 
 Quando si seleziona l'entità e quindi si fa clic sul pulsante **Carica**, le entità vengono visualizzate nel riquadro **Campi** in **Power BI Desktop** e hanno lo stesso aspetto e lo stesso comportamento delle **tabelle** di qualsiasi altro set di dati.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Uso di flussi di dati archiviati in Azure Data Lake Storage Gen2
+
+Alcune organizzazioni potrebbero voler usare uno spazio di archiviazione proprio per la creazione e la gestione dei flussi di dati. È possibile integrare flussi di dati con Azure Data Lake Storage Gen2, se si seguono i requisiti e si gestiscono correttamente le autorizzazioni. La documentazione di tutti i requisiti per questo approccio è disponibile a partire dal documento di anteprima [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md).
+
 
 ## <a name="troubleshooting-data-connections"></a>Risoluzione dei problemi relativi alle connessioni dati
 
@@ -160,6 +164,7 @@ In questo articolo è stato illustrato come creare un **flusso di dati** persona
 * [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
 * [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
 * [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md)
 
 Per altre informazioni sul modello CDM (Common Data Model), è possibile leggere l'articolo di panoramica:
 * [Panoramica del modello CDM (Common Data Model)](https://docs.microsoft.com/powerapps/common-data-model/overview)
