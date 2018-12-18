@@ -6,19 +6,20 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
+ms.custom: seodec18
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 71e30fa6c53e7ed8ed4364dca668b2a689ef1f19
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 50858dcab91980e85e71fd82dec4189139eea2b4
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641750"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280536"
 ---
-# <a name="power-bi---basic-concepts-for-power-bi-service-consumers"></a>Power BI - Concetti di base per i ***consumer*** del servizio Power BI
+# <a name="basic-concepts-for-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i ***consumer***
 
 ## <a name="power-bi-consumers-and-designers"></a>*Consumer* e *designer* di Power BI
 Questo articolo presuppone che l'utente abbia già letto [Panoramica di Power BI](../power-bi-overview.md) e si sia identificato manualmente come ***consumer*** di Power BI. I consumer ricevono il contenuto di Power BI, ad esempio dashboard e report, dai colleghi. I consumer usano il servizio Power BI, ovvero la versione di Power BI basata sul sito Web. 
@@ -33,21 +34,21 @@ La maggior parte dei consumer Power BI ottiene il servizio Power BI perché 1) l
 
 Per iniziare, è sufficiente aprire un browser e digitare **app.powerbi.com**. Quando si apre il servizio Power BI per la prima volta viene visualizzato un ambiente simile al seguente.
 
-![](media/end-user-basic-concepts/power-bi-open.png)
+![Schermata iniziale per il servizio Power BI](media/end-user-basic-concepts/power-bi-open.png)
 
 Man mano che si usa Power BI sarà possibile personalizzare gli elementi visualizzati all'apertura del sito Web.  Ad esempio, alcuni utenti preferiscono che Power BI venga aperto con la home page, altri preferiscono iniziare con un dashboard specifico. Le tecniche corrispondenti sono illustrate di seguito. 
 - [Anteprima Home](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
 - [Impostare il contenuto **in primo piano**](end-user-featured.md) 
 
-![](media/end-user-basic-concepts/power-bi-first.png)
+![Visualizzazione della home page e del dashboard](media/end-user-basic-concepts/power-bi-first.png)
 
 Prima di procedere, è importante illustrare i blocchi costitutivi del servizio Power BI.
 
 ## <a name="power-bi-content"></a>***Contenuto*** di Power BI
 ### <a name="introduction-to-building-blocks"></a>Introduzione ai blocchi costitutivi
-Per un consumer di Power BI i 5 blocchi costitutivi sono: ***visualizzazioni***, ***dashboard***, ***report***, ***app*** e ***set di dati***. Questi elementi sono talvolta detti ***contenuto*** di *Power BI*. Il *contenuto* esiste in un'***area di lavoro***. Un flusso di lavoro tipico prevede tutti i blocchi: un *designer* di Power BI (in giallo nel diagramma in basso) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che sottolineano fatti interessanti, blocca visualizzazioni dei report su un dashboard e condivide i report e i dashboard con i *consumer* come l'utente (in nero nel diagramma in basso), sotto forma di *app* o di altri tipi di contenuto condiviso. 
+Per un consumer di Power BI i 5 blocchi costitutivi sono: ***visualizzazioni***, ***dashboard***, ***report***, ***app*** e ***set di dati***. Questi elementi sono talvolta detti ***contenuto*** di *Power BI*. Il *contenuto* esiste in un'***area di lavoro***. Un flusso di lavoro tipico prevede tutti i blocchi:  Un *designer* di Power BI (in giallo nel diagramma in basso) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che sottolineano fatti interessanti, blocca visualizzazioni dei report su un dashboard e condivide i report e i dashboard con i *consumer* come l'utente (in nero nel diagramma in basso), sotto forma di *app* o di altri tipi di contenuto condiviso. 
 
-![](media/end-user-basic-concepts/power-bi-workflow.png)
+![diagramma di flusso, semplice](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Questa è la forma più semplice. 
 * ![icona della visualizzazione](media/end-user-basic-concepts/visual.png) Una ***visualizzazione*** (o *oggetto visivo*) è un tipo di grafico creato dai *designer* di Power BI usando i dati contenuti nei *report* e nei *dataset*. In genere i *designer* creano gli oggetti visivi in Power BI Desktop. 
@@ -78,7 +79,7 @@ Ogni set di dati rappresenta una singola origine dati, ad esempio una cartella d
 
 Quando un designer condivide un'app, l'utente può visualizzare i set di dati inclusi con l'app. 
 
-![](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![App selezionate e freccia rivolta verso la sezione dei set di dati nell'area di disegno](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
 **UN** set di dati...
 
@@ -117,14 +118,14 @@ Un report di Power BI è costituito da una o più pagine di visualizzazioni, gra
 * può essere creato usando i dati di un solo set di dati.  
 * può far parte di più app.
   
-  ![](media/end-user-basic-concepts/drawing5.png)
+  ![disegno delle relazioni per un report](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>Dashboard
 Un dashboard rappresenta una visualizzazione personalizzata di un subset di uno o più set di dati sottostanti. I *designer* creano i dashboard e li condividono con i *consumer*, individualmente o come parte di un'app. Un dashboard è un canvas singolo che contiene *riquadri*, grafica e testo. 
 
-  ![](media/end-user-basic-concepts/power-bi-dashboard.png)
+  ![dashboard di esempio](media/end-user-basic-concepts/power-bi-dashboard.png)
 
 Un riquadro è il rendering di un oggetto visivo che un *designer* *aggiunge* al dashboard, ad esempio da un report.  Ogni riquadro aggiunto include una [visualizzazione](end-user-visualizations.md), che è stata creata da un set di dati e aggiunta al dashboard. Un riquadro può anche contenere un'intera pagina del report oppure dati in streaming live o video. I *designer* possono aggiungere riquadri al dashboard in molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md). 
 
@@ -144,20 +145,20 @@ Quali sono le finalità dei dashboard?  Eccone alcune:
 * consente di visualizzare visualizzazioni di report diversi
 * consente di visualizzare visualizzazioni aggiunte da altri strumenti (ad esempio Excel)
   
-  ![](media/end-user-basic-concepts/drawing1.png)
+  ![disegno delle relazioni per un dashboard](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>App
 Queste raccolte di dashboard e report organizzano i contenuti correlati in un unico pacchetto. I *designer* di Power BI compilano questi elementi e li condividono con utenti singoli, gruppi, un'intera organizzazione oppure li rendono pubblici. Il consumer ha la certezza di lavorare insieme ai colleghi sugli stessi dati, condivisi e affidabili. 
 
-![](media/end-user-basic-concepts/power-bi-app.png)
+![App selezionate nel riquadro spostamento a sinistra](media/end-user-basic-concepts/power-bi-app.png)
 
 Le app possono essere facilmente individuate e installate nel servizio Power BI (https://powerbi.com) e nel dispositivo mobile). Dopo l'installazione di un'app non è necessario ricordare i nomi di molti dashboard diversi, perché sono tutti riuniti in un'app, nel browser o nel dispositivo mobile. 
 
 Questa app contiene tre dashboard correlati e tre report correlati, che costituiscono un'app singola.
 
-![](media/end-user-basic-concepts/power-bi-app-list.png)
+![contenuto correlato per l'app selezionata](media/end-user-basic-concepts/power-bi-app-list.png)
 
 Ogni volta che l'autore dell'app rilascia aggiornamenti, le modifiche vengono visualizzate automaticamente nelle app. L'autore controlla anche la frequenza con cui è pianificato l'aggiornamento dei dati, dunque non è necessario preoccuparsi di stare al passo.
 
