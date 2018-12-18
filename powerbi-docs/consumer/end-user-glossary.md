@@ -2,17 +2,18 @@
 title: Glossario per i consumer di Power BI
 description: Power BI introduce molti nuovi termini e nuovi usi per termini familiari. Usare il glossario per acquisire familiarità con la terminologia di Power BI.
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026347"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280789"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -42,7 +43,7 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **AppSource** Repository online centralizzato in cui è possibile esplorare e individuare dashboard, report, set di dati e app per il download.
 
-**ArcGIS Maps for Power BI** ArcGIS è una piattaforma per mappe e analisi creata dall'azienda ESRI. L'oggetto visivo incluso nella raccolta di oggetti visivi di Power BI si chiama ArcGIS Maps for Power BI.
+**ArcGIS per Power BI** ArcGIS è una piattaforma analitica e di mapping creata dall'azienda ESRI. L'oggetto visivo incluso nella raccolta di oggetti visivi di Power BI si chiama ArcGIS per Power BI.
 
 **assegnare** [Power BI Premium] Verbo che indica lo spostamento di un'area di lavoro all'interno o all'esterno della capacità dedicata. Non usare il termine "promuovere" per indicare lo spostamento di un'area di lavoro nella capacità dedicata, poiché conferisce al termine "dedicata" una connotazione superiore al termine "condivisa".  
 
