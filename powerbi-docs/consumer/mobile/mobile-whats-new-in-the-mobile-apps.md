@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: f272d0e40de5c65de9134c3d184195889233496b
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979550"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280927"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,36 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="november-2018"></a>Novembre 2018
+
+### <a name="modern-visual-header"></a>Intestazione moderna dell'oggetto visivo 
+
+I report che usano la nuova 'intestazione moderna dell'oggetto visivo' non allocheranno più spazio per le intestazioni, di conseguenza lo spazio vuoto risulterà ridotto e ci sarà più spazio per le visualizzazioni.
+
+### <a name="enhance-presentation-mode-windows"></a>Modalità di presentazione migliorata (Windows)
+
+Modalità di presentazione migliorata per i dispositivi Surface Hub e Windows 10.  Un'esperienza più efficiente per la sala riunioni di Surface Hub con strumenti migliori per presentazione e collaborazione e una visualizzazione ottimizzata per schermi di grandi dimensioni chromeless, per potersi concentrare sui dati. La modalità di presentazione offre anche strumenti come l'input penna, per presentazioni e discussioni efficaci dei dati. Altre informazioni sulla modalità di presentazione sono disponibili [qui](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/).
+
+### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Layout dei report verticale per i tablet (iOS e Android)
+
+È ora possibile usare il layout dei report per il telefono, se esistente, per visualizzare i report nei tablet con orientamento verticale. Vedere altre informazioni su [come creare un layout per telefono nel servizio Power BI o in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+
+### <a name="supporting-report-query-string"></a>Supporto della stringa di query del report 
+
+Quando si apre un collegamento a un report che include una stringa di query, il report verrà ora aperto nell'app per dispositivi mobili pre-filtrato in base alle condizioni definite nella stringa di query. Vedere altre informazioni su [come creare l'URL del report con una stringa di query](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+
+### <a name="shared-credentials-now-in-android"></a>Credenziali condivise (ora disponibili in Android)
+
+Accedere a Power BI dall'app per dispositivi mobili non è mai stato così facile. Con le credenziali condivise, il processo di accesso viene semplificato usando altre credenziali dell'app Office 365 nel dispositivo per autenticarsi nel servizio Power BI.
+
+### <a name="in-app-urls-now-in-android"></a>URL in-app (ora disponibili in Android) 
+
+I collegamenti nei report che fanno riferimento ad altri elementi di Power BI verranno ora aperti direttamente nell'app. In questo modo è possibile compilare dei flussi di navigazione personalizzati, eseguendo ad esempio il collegamento da un report a un dashboard.
+
+### <a name="show-data-and-copy-values"></a>Visualizzare i dati e copiare i valori
+
+Il menu delle azioni per l'oggetto visivo del report (...) include ora l'opzione per visualizzare i dati sottostanti in formato tabella. Una volta nella tabella, è possibile usare un tocco prolungato per selezionare e copiare valori dalla tabella, a condizione che non esistano criteri di Intune che limitano la copia.
 
 ## <a name="october-2018"></a>Ottobre 2018
 

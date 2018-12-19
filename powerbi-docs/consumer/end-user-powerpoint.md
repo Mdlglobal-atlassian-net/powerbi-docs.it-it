@@ -1,21 +1,22 @@
 ---
-title: Esportare report da Power BI per i consumer in PowerPoint
+title: Esportare report da Power BI in PowerPoint
 description: Informazioni su come esportare un report di Power BI in PowerPoint.
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a865c98a5bacd526a553354ea828e86fa0155a79
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 9f17cd76a733dff22ebf0b54eabc3d9b6c8f6839
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979261"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281070"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Esportare report da Power BI in PowerPoint
 Con Power BI, è possibile pubblicare il report in **Microsoft PowerPoint** e creare facilmente una presentazione basata su un report di Power BI. Quando si **esporta in PowerPoint**, si verifica quanto segue:
@@ -29,35 +30,35 @@ Esportare il **report di Power BI** in **PowerPoint** è veloce. basta seguire i
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Come esportare i report di Power BI in PowerPoint
 Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla pagina **Home**, da **App** o da qualsiasi altra sezione nel riquadro di spostamento a sinistra.
 
-![](media/end-user-powerpoint/power-bi-publish.png)
+![Selezionare File nella barra dei menu, freccia rivolta verso Esporta in PowerPoint](media/end-user-powerpoint/power-bi-publish.png)
 
 Quando il report da esportare in PowerPoint è visualizzato nell'area di disegno, selezionare **File > Esporta in PowerPoint** dalla barra dei menu nel servizio Power BI.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+![Vista ravvicinata della barra di spostamento a sinistra con l'area di lavoro personale selezionata e l'elenco a discesa File selezionato](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
 
 Nell'angolo in alto a destra della finestra del browser del servizio Power BI verrà visualizzato un banner di notifica che informa che si sta esportando il report in PowerPoint. L'esportazione del report potrebbe richiedere alcuni minuti ed è possibile continuare a lavorare in Power BI.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![notifica dell'esportazione in PowerPoint in corso](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
 
 Al termine della procedura, il banner di notifica cambia, informando che il servizio Power BI ha terminato il processo di esportazione.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
+![visualizzazione del messaggio di operazione completata](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
 
 Il file sarà quindi disponibile nel percorso in cui il browser visualizza i file scaricati. Nella figura seguente, è visualizzato come banner di download nella parte inferiore della finestra del browser.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
+![freccia rivolta verso la notifica del browser, nella parte inferiore della schermata](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 
 E questo è tutto. È possibile scaricare il file, aprirlo con PowerPoint e quindi modificarlo o migliorarlo come si farebbe con qualsiasi altra presentazione di PowerPoint.
 
 ## <a name="checking-out-your-exported-powerpoint-file"></a>Controllare il file di PowerPoint esportato
 Quando si apre il file di PowerPoint esportato da Power BI, si noteranno alcuni elementi interessanti e utili. Osservare l'immagine seguente, quindi vedere di seguito gli elementi numerati che descrivono alcune delle funzionalità più interessanti.
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
+![PowerPoint viene aperto](media/end-user-powerpoint/powerbi_to_powerpoint_5.png)
 
 1. La prima pagina della presentazione include il nome del report, nonché un collegamento per poter **visualizzare in Power BI** il report su cui è basata.
 2. Si ottengono anche utili informazioni sul report, inclusi l'*ultimo aggiornamento dei dati* su cui è basato il report esportato e l'ora e la data in cui è stato *scaricato*, cioè l'ora e la data in cui il report di Power BI è stato esportato in un file di PowerPoint.
 3. Ogni pagina del report è una diapositiva separata, come mostrato nel riquadro di spostamento a sinistra. 
-4. Il rendering del report pubblicato viene eseguito nella lingua delle impostazioni di Power BI oppure in base alle impostazioni locali del browser. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![](media/end-user-powerpoint/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**. Per altre informazioni, vedere [Lingue e paesi/aree geografiche supportate per Power BI](../supported-languages-countries-regions.md).
+4. Il rendering del report pubblicato viene eseguito nella lingua delle impostazioni di Power BI oppure in base alle impostazioni locali del browser. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**. Per altre informazioni, vedere [Lingue e paesi/aree geografiche supportate per Power BI](../supported-languages-countries-regions.md).
 5. La presentazione di PowerPoint include una diapositiva di copertina con l'ora dell'esportazione nel fuso orario corretto.
 
 Quando si passa a una singola diapositiva, si noterà che ogni pagina del report è un'immagine indipendente.
@@ -66,7 +67,7 @@ Quando si passa a una singola diapositiva, si noterà che ogni pagina del report
 > La disponibilità di un oggetto visivo per ogni pagina di report è un comportamento nuovo. Il comportamento precedente, che forniva un'immagine indipendente per ogni oggetto visivo, non viene più implementato. 
  
 
-![](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
+![Immagine che mostra che ogni oggetto visivo è un'immagine separata](media/end-user-powerpoint/powerbi_to_powerpoint_6.png)
 
 Da questo momento in poi, le operazioni da eseguire con la presentazione di PowerPoint o con qualsiasi immagine ad alta risoluzione sono responsabilità dell'utente.
 
@@ -84,7 +85,7 @@ Quando si lavora con la funzionalità **Esporta in PowerPoint** è necessario te
 * Non è possibile pubblicare in PowerPoint i report di proprietà di un utente esterno al dominio del tenant di Power BI, ad esempio un report di proprietà di un utente esterno all'organizzazione e condiviso con l'utente attivo.
 * Se si condivide un dashboard con un utente esterno all'organizzazione, ovvero quindi con un utente non incluso nel tenant di Power BI, tale utente non potrà esportare i report associati del dashboard condiviso in PowerPoint. Se, ad esempio, si è aaron@contoso.com, è possibile condividere con david@cohowinery.com, ma david@cohowinery.com non può esportare i report associati in PowerPoint.
 * Come indicato in precedenza, ogni pagina del report viene esportata come singola immagine nel file di PowerPoint.
-* Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PowerPoint. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![](media/end-user-powerpoint/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**.
+* Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PowerPoint. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**.
 * L'orario **scaricato alle** indicato sulla diapositiva di copertina per il file di PowerPoint esportato è impostata sul fuso orario del computer al momento dell'esportazione.
 
 ## <a name="next-steps"></a>Passaggi successivi

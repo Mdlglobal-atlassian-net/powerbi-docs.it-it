@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026788"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281012"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -70,7 +70,7 @@ Dopo aver specificato la *chiave di accesso* e selezionato **Connetti**, verrà 
 > 
 > 
 
-Quando si seleziona **Carica**, il report viene caricato in **Power BI Desktop**.
+Quando si seleziona **Carica**, il report viene caricato in **Power BI Desktop**.  Il connettore caricherà i dati in base al periodo di tempo predefinito della tabella.  Se è necessario personalizzare il periodo di tempo [è possibile configurare una query personalizzata](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -166,7 +166,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | ConsumedServiceId |consumedServiceId | |Sì |
 | Costo |cost |ExtendedCost |No |
 | Centro di costo |costCenter |Centro di costo |No |
-| Date |data |Date |No |
+| Data |data |Data |No |
 | Giorno | |Giorno |No |
 | DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
