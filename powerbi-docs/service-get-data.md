@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a23a725ecad5641c3f82fa4c57ee1a0bc951e28
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: e0721efaaca879ffb2915315af9aea4dbafca3ca
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670387"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900245"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origini dati per il servizio Power BI
 I dati sono il fulcro di Power BI. Ogni volta che si esplorano dati, si creano grafici e dashboard o si pongono domande con Domande e risposte, i dati sottostanti di tutte le visualizzazioni e le risposte ottenute derivano da un set di dati. Ma i set di dati da dove provengono? Da un'origine dati, ovviamente.
@@ -44,7 +44,7 @@ Anche il percorso in cui si archiviano i file ha una grande importanza. OneDrive
 
 I pacchetti di contenuto contengono tutti i dati e i report necessari, già pronti per l'utente. In Power BI sono disponibili due tipi di pacchetti di contenuto: quelli dei servizi, ad esempio Google Analytics, Marketo o Salesforce e quelli creati e condivisi da altri utenti dell'organizzazione.
 
-**Servizi** - Esistono letteralmente decine di servizi con i pacchetti di contenuto per Power BI e ne vengono aggiunti continuamente altri. Per la maggior parte dei servizi è necessario avere un account. Per altre informazioni, vedere [Connettersi ai servizi](consumer/end-user-connect-to-services.md).
+**Servizi** - Esistono letteralmente decine di servizi con i pacchetti di contenuto per Power BI e ne vengono aggiunti continuamente altri. Per la maggior parte dei servizi è necessario avere un account. Per altre informazioni, vedere [Connettersi ai servizi](service-connect-to-services.md).
 
 **Aziendale** - Se altri utenti nell'organizzazione hanno un account Power BI Pro, è possibile creare, condividere e usare pacchetti di contenuto. Per altre informazioni, vedere [Pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md).
 
