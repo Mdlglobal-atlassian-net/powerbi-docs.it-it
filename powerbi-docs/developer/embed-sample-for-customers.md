@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180876"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301874"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per i clienti
 
@@ -338,14 +338,14 @@ Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dal
 
 Usare la tabella seguente per individuare la capacità di Power BI Embedded più adatta alle proprie esigenze.
 
-| Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
+| Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 vCore |0,5 core, 3 GB RAM |0,5 core |0-5 al secondo |1-300 |
-| A2 |2 vCore |1 core, 5 GB RAM |1 core | 10 al secondo |301-600 |
-| A3 |4 vCore |2 core, 10 GB RAM |2 core | 15 al secondo |601-1.200 |
-| A4 |8 vCore |4 core, 25 GB RAM |4 core |30 al secondo |1.201-2.400 |
-| A5 |16 vCore |8 core, 50 GB RAM |8 core |60 al secondo |2.401-4.800 |
-| A6 |32 vCore |16 core, 100 GB RAM |16 core |120 al secondo |4.801-9600 |
+| A1 |1 vCore |0,5 core, 3 GB RAM |0,5 core |0-5 al secondo |
+| A2 |2 vCore |1 core, 5 GB RAM |1 core | 10 al secondo |
+| A3 |4 vCore |2 core, 10 GB RAM |2 core | 15 al secondo |
+| A4 |8 vCore |4 core, 25 GB RAM |4 core |30 al secondo |
+| A5 |16 vCore |8 core, 50 GB RAM |8 core |60 al secondo |
+| A6 |32 vCore |16 core, 100 GB RAM |16 core |120 al secondo |
 
 **_Con gli SKU A, non è possibile accedere al contenuto di Power BI con una licenza di Power BI gratuita._**
 

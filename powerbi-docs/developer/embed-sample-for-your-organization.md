@@ -10,12 +10,12 @@ ms.component: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 541e6e62ac075922cdb301343361ac328a3db28e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: ea4292fd95fa72a553d9f91b39ff0bc5de71a584
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180761"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301851"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per l'organizzazione
 
@@ -429,17 +429,16 @@ Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dal
 
 La tabella seguente elenca gli SKU di Power BI Premium disponibili in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
-| Nodo della capacità | Totale vCore<br/>(back-end + front-end) | vCore di back-end | vCore front-end | Limiti di connessione dinamica/DirectQuery | Rendering massimo della pagina all'ora di punta |
+| Nodo della capacità | Totale vCore<br/>(back-end + front-end) | vCore di back-end | vCore front-end | Limiti di connessione dinamica/DirectQuery |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |1 vCore |0,5 vCore, 10 GB di RAM |0,5 vCore |3,75 al secondo |150-300 |
-| EM2 |2 vCore |1 vCore, 10 GB di RAM |1 vCore |7,5 al secondo |301-600 |
-| EM3 |4 vCore |2 vCore, 10 GB di RAM |2 vCore |15 al secondo |601-1.200 |
-| P1 |8 vCore |4 vCore, 25 GB di RAM |4 vCore |30 al secondo |1.201-2.400 |
-| P2 |16 vCore |8 vCore, 50 GB di RAM |8 vCore |60 al secondo |2.401-4.800 |
-| P3 |32 vCore |16 vCore, 100 GB di RAM |16 vCore |120 al secondo |4.801-9.600 |
-| P4 |64 vCore |32 vCore, 200 GB di RAM |32 vCore |240 al secondo |9.601-19.200 |
-| P5 |128 vCore |64 vCore, 400 GB di RAM |64 vCore |480 al secondo |19.201-38.400 |
-
+| EM1 |1 vCore |0,5 vCore, 10 GB di RAM |0,5 vCore |3,75 al secondo |
+| EM2 |2 vCore |1 vCore, 10 GB di RAM |1 vCore |7,5 al secondo |
+| EM3 |4 vCore |2 vCore, 10 GB di RAM |2 vCore |15 al secondo |
+| P1 |8 vCore |4 vCore, 25 GB di RAM |4 vCore |30 al secondo |
+| P2 |16 vCore |8 vCore, 50 GB di RAM |8 vCore |60 al secondo |
+| P3 |32 vCore |16 vCore, 100 GB di RAM |16 vCore |120 al secondo |
+| P4 |64 vCore |32 vCore, 200 GB di RAM |32 vCore |240 al secondo |
+| P5 |128 vCore |64 vCore, 400 GB di RAM |64 vCore |480 al secondo |
 > [!NOTE]
 > - Quando si tenta di incorporare le applicazioni di Microsoft Office, è possibile usare i codici di riferimento del prodotto MT per accedere al contenuto con una licenza Power BI gratuita. Tuttavia, non è possibile accedere al contenuto con una licenza di Power BI gratuita se si usa Powerbi.com o Power BI per dispositivi mobili.
 > - Quando si tenta l'incorporamento tramite le app di Microsoft Office con Powerbi.com o Power BI per dispositivi mobili, è possibile accedere al contenuto con una licenza di Power BI gratuita.

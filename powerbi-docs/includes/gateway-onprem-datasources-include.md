@@ -6,7 +6,7 @@
 | Analysis Services in modalità multidimensionale |Sì |Sì |
 | File |No |Sì |
 | Cartella |No |Sì |
-| IBM DB2 |No |Sì |
+| IBM DB2 |Sì |Sì |
 | Database Informix IBM |No |Sì |
 | IBM Netezza |Sì |Sì |
 | Impala |Sì |Sì |
