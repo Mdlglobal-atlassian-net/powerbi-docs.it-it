@@ -13,7 +13,7 @@ Se si verificano problemi di autenticazione con il server proxy, provare a sosti
 
 ## <a name="ports"></a>Porte
 
-Il gateway crea una connessione in uscita al Bus di servizio di Azure. Esso comunica sulle porte in uscita: TCP 443 (predefinita), 5671, 5672, da 9350 a 9354.  Il gateway non richiede porte in entrata.
+Il gateway crea una connessione in uscita al Bus di servizio di Azure. Esso comunica su porte in uscita: TCP 443 (predefinita), 5671, 5672, dalla 9350 alla 9354.  Il gateway non richiede porte in entrata.
 
 È consigliabile aggiungere all'elenco elementi consentiti nel firewall gli indirizzi IP per l'area dati. È possibile scaricare l'[elenco degli indirizzi IP per i data center di Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653), che viene aggiornato con frequenza settimanale. Il gateway comunicherà con un Bus di servizio di Azure usando l'indirizzo IP insieme al nome di dominio completo (FQDN). Se si impone al gateway di comunicare tramite HTTPS, verrà usato esclusivamente il nome di dominio completo e non avrà luogo alcuna comunicazione usando gli indirizzi IP.
 
@@ -63,7 +63,7 @@ Per riferimento futuro, è possibile riavviare il *servizio Windows del gateway*
 
 ## <a name="support-for-tls-12"></a>Supporto per TLS 1.2
 
-Per impostazione predefinita il gateway dati locale usa il protocollo TLS (Transport Layer Security) 1.2 per comunicare con il servizio Power BI. Per assicurare che tutto il traffico del gateway usi TLS 1.2 potrebbe essere necessario aggiungere o modificare le chiavi del Registro di sistema seguenti nel computer che esegue il servizio gateway:
+Per impostazione predefinita, il gateway dati locale usa il protocollo TLS (Transport Layer Security) 1.2 per comunicare con il servizio Power BI. Per assicurare che tutto il traffico del gateway usi TLS 1.2 potrebbe essere necessario aggiungere o modificare le chiavi del Registro di sistema seguenti nel computer che esegue il servizio gateway:
 
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001

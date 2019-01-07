@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: db6ed98f246eebba55b87fe383ffcab95c22f6dc
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: c4601ea54d2e55e55f0b94f4bd4c69673bb00e53
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180853"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649127"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI
 
@@ -90,7 +90,7 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 
 * Se il report usato per creare la visualizzazione non è stato salvato, selezionando il riquadro non viene eseguita alcuna azione.
 * Se il riquadro è stato creato da una cartella di lavoro in Excel Online, è necessario avere almeno le autorizzazioni di lettura per la cartella di lavoro. In caso contrario, se si seleziona il riquadro non verrà aperta la cartella di lavoro in Excel Online.
-* Si supponga di creare un riquadro direttamente nel dashboard usando **Aggiungi riquadro** e di impostare un collegamento ipertestuale personalizzato per il riquadro. In questo caso, la selezione del titolo, del sottotitolo o del riquadro apre l'URL. In caso contrario, per impostazione predefinita, quando si seleziona un riquadro creato direttamente nel dashboard per un'immagine, un codice Web o una casella di testo, non viene eseguita alcuna operazione.
+* Si supponga di creare un riquadro direttamente nel dashboard usando **Aggiungi riquadro** e di impostare un collegamento ipertestuale personalizzato per il riquadro. In questo caso la selezione del titolo, del sottotitolo o del riquadro apre l'URL. In caso contrario, per impostazione predefinita, quando si seleziona un riquadro creato direttamente nel dashboard per un'immagine, un codice Web o una casella di testo, non viene eseguita alcuna operazione.
 * Se non si ha l'autorizzazione per il report in Reporting Services, la selezione di un riquadro creato da un report di Reporting Services visualizza un pagina in cui viene comunicato che non è possibile accedere (rsAccessDenied).
 * Se non si ha accesso alla rete in cui si trova il server Reporting Services, la selezione di un riquadro creato da Reporting Services visualizza una pagina in cui viene comunicato che non è possibile trovare il server (HTTP 404). Il dispositivo deve avere accesso al server di report per visualizzare il report.
 * Se la visualizzazione originale usata per creare il riquadro viene modificata, il riquadro non cambia.  Ad esempio, se è stato aggiunto un grafico a linee da un report e successivamente si modifica il grafico in un grafico a barre, il riquadro del dashboard continuerà a visualizzare un grafico a linee. I dati vengono aggiornati ma il tipo di visualizzazione rimane uguale.

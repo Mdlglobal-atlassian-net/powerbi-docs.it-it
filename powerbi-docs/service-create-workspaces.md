@@ -11,11 +11,11 @@ ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452638"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451422"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Creare aree di lavoro con i colleghi in Power BI
 
@@ -27,7 +27,7 @@ Quando si crea un'area di lavoro, si crea un gruppo di Office 365 sottostante as
 
 **Non tutti lo sanno, ma** Power BI ha introdotto una nuova esperienza dell'area di lavoro in anteprima. Vedere [Creare le nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md) per scoprire come le aree di lavoro cambieranno in futuro. 
 
-## <a name="video-apps-and-app-workspaces"></a>Video: app e aree di lavoro per le app
+## <a name="video-apps-and-app-workspaces"></a>Video: Video: app e aree di lavoro per le app
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="create-an-app-workspace-based-on-an-office-365-group"></a>Creare un'area di lavoro per le app basata su un gruppo di Office 365

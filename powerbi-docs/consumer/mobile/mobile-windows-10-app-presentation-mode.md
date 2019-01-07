@@ -1,31 +1,29 @@
 ---
 title: Visualizzare la modalità presentazione in Surface Hub e Windows 10 - Power BI
 description: Scoprire di più sulla visualizzazione dei report di Power BI in Surface Hub e sulla visualizzazione di dashboard, report e riquadri di Power BI in modalità schermo intero nei dispositivi Windows 10.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: maggies
-ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.date: 12/10/2018
+ms.author: mshenhav
+ms.openlocfilehash: 49a1d8386159966171b46801d3bfe3685b2a6bb2
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507934"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301759"
 ---
-# <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Visualizzare i report in modalità presentazione in Surface Hub e Windows 10 - Power BI
-È possibile visualizzare i report in modalità presentazione in Surface Hub, quindi dashboard, report e riquadri in modalità schermo intero nei dispositivi Windows 10. 
+# <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Visualizzare report e dashboard in modalità presentazione in Surface Hub e nei dispositivi Windows 10
+È possibile usare la modalità presentazione per visualizzare report e dashboard a schermo intero nei dispositivi Windows 10 e in Surface Hub. 
 
 ![Report in modalità schermo intero](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode.png)
 
-Le modalità presentazione e schermo intero sono utili per la visualizzazione di Power BI durante una riunione o conferenza, con un proiettore dedicato in un ufficio o anche solo per l'ottimizzazione dello spazio in uno schermo di piccole dimensioni. 
+La modalità presentazione è utile per la visualizzazione di Power BI a una riunione o conferenza, con un proiettore dedicato in un ufficio, o anche solo per l'ottimizzazione dello spazio in uno schermo di piccole dimensioni. 
 
-In modalità schermo intero, nell'app Power BI per dispositivi mobili, tutti i riquadri come le barre di spostamento e dei menu vengono rimossi ad eccezione delle schede della pagina e del riquadro filtri nei report.
-
-Quando si visualizza un report in modalità presentazione in Surface Hub, è possibile disegnare sulle pagine con colori diversi e spostarsi tra le pagine del report.
+In modalità presentazione nell'app Power BI per dispositivi mobili per Windows 10 tutti i "riquadri", ad esempio le barre di navigazione e di menu, vengono rimossi per consentire all'utente e ai membri del team di concentrarsi sui dati nel report. È disponibile una barra degli strumenti con azioni che consente di interagire e collaborare con i dati in modalità presentazione.
 
 È anche possibile [visualizzare dashboard e report in modalità a schermo intero dal Servizio Power BI](../end-user-focus.md) sul Web.
 
@@ -34,44 +32,24 @@ Quando si visualizza un report in modalità presentazione in Surface Hub, è pos
 > 
 > 
 
-## <a name="display-dashboards-reports-and-tiles-in-full-screen-mode"></a>Visualizzare dashboard, report e riquadri in modalità schermo intero
-1. Nell'app Power BI per dispositivi mobili, in un dashboard, report o riquadro, toccare l'icona **Schermo intero** ![icona Schermo intero](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) per passare alla modalità schermo intero.
-2. In modalità di presentazione, è possibile filtrare un report o cercare altri dashboard e report.
-   
-    Espandere il riquadro Filtri per impostare o rimuovere i filtri.
-   
-    ![Riquadro Filtri](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-filter.png)
-   
-     Toccare l'icona di ricerca ![icona Cerca](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) per cercare altri dashboard.
-   
-    ![Risultati della ricerca](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-search.png)
-3. Per uscire dalla modalità schermo intero, toccare l'icona con due frecce rivolte verso l'interno ![Esci dalla modalità schermo intero](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) sulla barra degli strumenti o scorrere dall'alto verso il basso e toccare le due frecce rivolte verso l'interno ![Esci dalla modalità schermo intero](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+## <a name="use-presentation-mode"></a>Usare la modalità presentazione
+Nell'app Power BI per dispositivi mobili toccare l'icona **Schermo intero** per passare alla modalità schermo intero.
+![Icona schermo intero](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) Non viene più visualizzato il riquadro dell'app ma è presente una barra degli strumenti nella parte inferiore della schermata o ai lati destro e sinistro (a seconda delle dimensioni dello schermo).
 
-## <a name="turn-on-presentation-mode-for-surface-hub"></a>Attivare la modalità presentazione per Surface Hub
-La modalità presentazione è attivata per impostazione predefinita in Surface Hub, ma se è disattivata, è possibile riattivarla.
+![Report in modalità schermo intero con le barre degli strumenti laterali](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode2.png)
 
-1. Toccare l'icona delle impostazioni ![icona Impostazioni](./media/mobile-windows-10-app-presentation-mode/power-bi-settings-icon.png) nella parte inferiore della barra di spostamento a sinistra.
-2. Toccare **Opzioni**, quindi far scorrere **Abilita la modalità di presentazione di Microsoft Surface Hub** su **On**.
-   
-    ![Abilitare la modalità presentazione](./media/mobile-windows-10-app-presentation-mode/power-bi-turn-on-presentation-mode.png)
+Nella barra degli strumenti è possibile eseguire le azioni seguenti:
 
-## <a name="display-and-draw-on-reports-on-surface-hub"></a>Visualizzare e disegnare nei report in Surface Hub
-1. In un report toccare l'icona **Schermo intero** ![icona Schermo intero](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) per passare alla modalità presentazione di Surface Hub.
-   
-    Verrà visualizzata una barra delle azioni comprimibile su entrambi i lati della schermata. 
-   
-   * Per aprirla, scorrere verso l'interno o toccare il quadratino.
-   * Per chiuderla, scorrere verso l'esterno o toccare la X nella parte superiore.
-2. Nei dispositivi che supportano la scrittura con una penna, è possibile iniziare a scrivere immediatamente. 
-3. Per modificare il colore dell'input penna, toccare la penna nella barra delle azioni a sinistra o destra.
-   
-    ![Input penna di Surface Hub](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-ink.png)
-4. Toccare la gomma o la freccia di annullamento per rimuovere alcuni o tutti gli input penna.
-5. Toccare la freccia circolare per aggiornare il contenuto del report.
-6. Toccare le frecce che puntano verso i lati per passare ad altre pagine nel report.
-   
-    ![Frecce laterali ad altre pagine](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-surface-hub-arrows.png)
-7. Per uscire dalla modalità a schermo intero, scorrere verso il basso dalla parte superiore e toccare due frecce rivolte verso l'interno ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
+1. Toccare l'icona Indietro ![Icona Indietro](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) per tornare alla pagina precedente. Tenendo premuta l'icona vengono visualizzate le finestre dei percorsi di navigazione, che consentono di andare alla cartella contenente il report o dashboard.
+2. L'icona dell'input penna ![icona dell'input penna](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) consente di scegliere un colore quando si usa la penna di Surface per disegnare e aggiungere annotazioni nella pagina del report. 
+3. Usare l'icona delle pagine ![icona di paginazione](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) per sostituire la pagina del report che si sta presentando attualmente.
+4. Toccare l'icona di ricerca ![icona Cerca](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) per cercare altri artefatti in Power BI.
+5. Per uscire dalla modalità presentazione, toccare l'icona con due frecce rivolte verso l'interno ![Esci dalla modalità schermo intero](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) sulla barra degli strumenti.
+
+È possibile disancorare la barra degli strumenti e trascinarla in qualsiasi posizione sullo schermo. Ciò è utile per schermi di grandi dimensioni, quando ci si vuole concentrare su un'area specifica del report e si vogliono avere gli strumenti disponibili accanto a essa. Posizionare il dito sulla barra degli strumenti e scorrere rapidamente nell'area di disegno del report.
+
+![Report in modalità presentazione e barra degli strumenti disancorata](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-drag-toolbar.png)
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare dashboard e report in modalità a schermo intero dal Servizio Power BI sul Web](../end-user-focus.md)

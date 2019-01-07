@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 58c9d41769179b84d9d7cdc79d02f66bc4c99953
-ms.sourcegitcommit: 76b07d55e85110a6ae8c49e08e80e4fa63826166
+ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2018
-ms.locfileid: "53200650"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649046"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
 
@@ -76,7 +76,7 @@ Nella finestra **Aggiungi un'assegnazione di ruolo** selezionare il ruolo **Lett
 
 È necessario creare un file system denominato *powerbi* prima di poter aggiungere l'account di archiviazione a Power BI. Esistono molti modi per creare questo tipo di file system, incluso l'uso di Azure Databricks, HDInsight, AZCopy o Azure Storage Explorer. Questa sezione illustra un modo semplice per creare un file system con Azure Storage Explorer.
 
-Per questa procedura è necessario installare Azure Storage Explorer. Per installare Azure Storage Explorer per Windows, Macintosh o Linux, vedere [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
+Per questa procedura è necessario installare Azure Storage Explorer 1.6.1 o versione successiva. Per installare Azure Storage Explorer per Windows, Macintosh o Linux, vedere [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Dopo aver installato correttamente Azure Storage Explorer, al primo avvio viene visualizzata la finestra Microsoft Azure Storage Explorer - Connetti. Anche se Storage Explorer offre numerosi modi per connettersi agli account di archiviazione, è attualmente supportato un solo modo per la configurazione necessaria. 
 
@@ -108,11 +108,11 @@ Per trovare le applicazioni del tenant, seguire questa procedura:
 
     ![Applicazioni aziendali AAD](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
 
-4. Nella barra di ricerca digitare *Power*. Viene visualizzata una raccolta di ID di oggetto per le applicazioni Power BI e Power Query.
+4. Nella barra di ricerca digitare *Power*. Viene visualizzata una raccolta di ID di oggetto per le applicazioni Power BI e Power Query. Nei passaggi successivi saranno necessari tutti e tre i valori.  
 
     ![Cercare le applicazioni Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Selezionare e copiare l'ID di oggetto per il servizio Power BI dai risultati della ricerca. Essere pronti a incollare tale valore nei passaggi successivi.
+5. Selezionare e copiare gli ID degli oggetti per il servizio Power BI e per Power BI Premium dai risultati della ricerca. Sarà necessario incollare tali valori nei passaggi successivi.
 
 7. Usare quindi **Azure Storage Explorer** per passare al file system *powerbi* creato nella sezione precedente. Seguire le istruzioni nella sezione [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Gestione dell'accesso) dell'articolo [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Impostare le autorizzazioni a livello di file e directory tramite Azure Storage Explorer).
 
@@ -120,7 +120,7 @@ Per trovare le applicazioni del tenant, seguire questa procedura:
 
    ![per entrambi, assegnare tutti e tre](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Per l'ID di oggetto di Power Query online raccolto nel passaggio 5, assegnare l'accesso in **Scrittura** ed **Esecuzione** e gli ACL predefiniti per il file system *powerbi*.
+9. Per l'ID oggetto di Power Query online raccolto nel passaggio 4, assegnare l'accesso in **Scrittura** ed **Esecuzione** e gli ACL predefiniti al file system *powerbi*.
 
    ![assegnare poi scrittura ed esecuzione](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 

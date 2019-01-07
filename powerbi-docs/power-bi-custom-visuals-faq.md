@@ -8,38 +8,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2018
-LocalizationGroup: Visualizations
-ms.openlocfilehash: 064d32944f52f6e391d4a7ec4df41ecbf09b7e3f
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.custom: ''
+ms.date: 12/17/2018
+ms.openlocfilehash: c17f9b9841335420db67abb62c92603bf804f275
+ms.sourcegitcommit: 13fdc8d62960f20c6d9ca1ab292f98992b47083b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223077"
+ms.lasthandoff: 12/18/2018
+ms.locfileid: "53553905"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Domande frequenti sugli oggetti visivi personalizzati di Power BI
 
 ## <a name="organizational-custom-visuals"></a>Oggetti visivi personalizzati dell'organizzazione
 
-**In quale modo l'amministratore può gestire gli oggetti visivi personalizzati dell'organizzazione?**
+### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>In quale modo l'amministratore può gestire gli oggetti visivi personalizzati dell'organizzazione?
 
 Nel portale di amministrazione, nella scheda "Oggetti visivi dell'organizzazione" l'amministratore può visualizzare e [gestire tutti oggetti visivi personalizzati dell'organizzazione](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals): aggiungere, disabilitare, abilitare ed eliminare.
-Non è più necessario condividere questi oggetti visivi tramite messaggi di posta elettronica o cartelle condivise. Dopo la distribuzione nel repository dell'organizzazione, gli utenti dell'organizzazione possono facilmente individuarli e importarli nei loro report direttamente da Power BI Desktop o dal servizio Power BI. Gli oggetti visivi personalizzati dell'organizzazione sono disponibili dall'archivio predefinito (nella versione desktop e nel servizio) nella scheda "ORGANIZZAZIONE PERSONALE". Quando l'amministratore carica una nuova versione di un oggetto visivo personalizzato dell'organizzazione, chiunque nell'organizzazione ottiene la stessa versione aggiornata. Gli autori di report non devono eliminare l'oggetto visivo nei report per ottenere la nuova versione di questi oggetti visivi, perché tutti i report con questi oggetti visivi vengono aggiornati automaticamente. Il meccanismo di aggiornamento è simile per gli oggetti visivi del marketplace.
+Non è più necessario condividere questi oggetti visivi usando messaggi di posta elettronica o cartelle condivise. Dopo la distribuzione nel repository dell'organizzazione, gli utenti dell'organizzazione possono facilmente trovarli e importarli nei loro report direttamente da Power BI Desktop o dal servizio Power BI. Gli oggetti visivi personalizzati dell'organizzazione sono disponibili dall'archivio predefinito (nella versione desktop e nel servizio) nella scheda *ORGANIZZAZIONE PERSONALE*. Quando l'amministratore carica una nuova versione di un oggetto visivo personalizzato dell'organizzazione, chiunque nell'organizzazione ottiene la stessa versione aggiornata. Gli autori di report non devono eliminare l'oggetto visivo nei report per ottenere la nuova versione di questi oggetti visivi, perché tutti i report che usano questi oggetti visivi vengono aggiornati automaticamente. Il meccanismo di aggiornamento è simile per gli oggetti visivi del marketplace.
 
-**Se un amministratore carica un oggetto visivo personalizzato dal marketplace pubblico nell'archivio dell'organizzazione, viene aggiornato automaticamente quando un fornitore aggiorna l'oggetto visivo nel marketplace pubblico?**
+### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Se un amministratore carica un oggetto visivo personalizzato dal marketplace pubblico nell'archivio dell'organizzazione, viene aggiornato automaticamente quando un fornitore aggiorna l'oggetto visivo nel marketplace pubblico?
 
 No, non è disponibile l'aggiornamento automatico dal marketplace pubblico.
-È responsabilità dell'amministratore aggiornare la versione degli oggetti visivi personalizzati se lo desidera.
+È responsabilità dell'amministratore aggiornare la versione degli oggetti visivi personalizzati.
 
-**È possibile disabilitare l'archivio dell'organizzazione?**
+### <a name="is-there-a-way-to-disable-the-organizational-store"></a>È possibile disabilitare l'archivio dell'organizzazione?
 
 No, gli utenti vedono sempre la scheda "ORGANIZZAZIONE PERSONALE" in Power BI Desktop e nel servizio Power BI. L'amministratore può disabilitare o eliminare tutti gli oggetti visivi personalizzati dell'organizzazione dal portale di amministrazione e l'archivio dell'organizzazione risulterà vuoto.
   
-**Se l'amministratore disabilita gli oggetti visivi personalizzati dal portale di amministrazione (impostazioni del tenant), gli utenti avranno ancora accesso agli oggetti visivi personalizzati dell'organizzazione?**
+### <a name="if-the-administrator-disables-custom-visuals-from-the-admin-portal-tenant-settings-do-users-still-have-access-to-the-organizational-custom-visuals"></a>Se l'amministratore disabilita gli oggetti visivi personalizzati dal portale di amministrazione (impostazioni del tenant), gli utenti avranno ancora accesso agli oggetti visivi personalizzati dell'organizzazione?
 
-Sì, se l'amministratore disabilita gli oggetti visivi personalizzati dal portale di amministrazione, tale operazione non influisce sull'archivio dell'organizzazione. Alcune organizzazioni disabilitano gli oggetti visivi personalizzati e abilitano solo quelli selezionati manualmente, importati e caricati dall'amministratore di Power BI nell'archivio dell'organizzazione. La disabilitazione degli oggetti visivi personalizzati dal portale di amministrazione non è disponibile in Power BI Desktop. Gli utenti desktop possono essere ancora in grado di aggiungere e usare oggetti visivi personalizzati dal marketplace pubblico nei propri report. Tuttavia, tali oggetti visivi personalizzati pubblici non vengono più inclusi nel rendering dopo la pubblicazione nel servizio Power BI e generano un errore appropriato. Quando si usa il servizio Power BI, non è possibile importare gli oggetti visivi personalizzati dal marketplace pubblico. È possibile importare solo gli oggetti visivi dall'archivio dell'organizzazione perché l'impostazione per gli oggetti visivi personalizzati nel portale di amministrazione è disponibile nel servizio Power BI.
+Sì, se l'amministratore disabilita gli oggetti visivi personalizzati dal portale di amministrazione, tale operazione non influisce sull'archivio dell'organizzazione. Alcune organizzazioni disabilitano gli oggetti visivi personalizzati e abilitano solo quelli selezionati manualmente, importati e caricati dall'amministratore di Power BI nell'archivio dell'organizzazione. La disabilitazione degli oggetti visivi personalizzati dal portale di amministrazione non è disponibile in Power BI Desktop. Gli utenti desktop possono comunque aggiungere e usare oggetti visivi personalizzati dal marketplace pubblico nei propri report. Tuttavia, tali oggetti visivi personalizzati pubblici non vengono più inclusi nel rendering dopo la pubblicazione nel servizio Power BI e generano un errore appropriato. Quando si usa il servizio Power BI, non è possibile importare gli oggetti visivi personalizzati dal marketplace pubblico. È possibile importare solo gli oggetti visivi dall'archivio dell'organizzazione perché l'impostazione per gli oggetti visivi personalizzati nel portale di amministrazione è disponibile nel servizio Power BI.
 
-**Per quale motivo l'archivio dell'organizzazione e gli oggetti visivi personalizzati dell'organizzazione rappresentano un valida soluzione aziendale?**
+### <a name="why-does-the-organizational-store-and-organizational-custom-visuals-make-a-great-enterprise-solution"></a>Per quale motivo l'archivio dell'organizzazione e gli oggetti visivi personalizzati dell'organizzazione rappresentano un valida soluzione aziendale?
 
 * Tutti gli utenti ottengono la stessa versione degli oggetti visivi, controllata dall'amministratore di Power BI. Quando l'amministratore aggiorna la versione dell'oggetto visivo nel portale di amministrazione, tutti gli utenti nell'organizzazione di ottengono automaticamente la versione aggiornata.
 
@@ -55,10 +55,64 @@ Sì, se l'amministratore disabilita gli oggetti visivi personalizzati dal portal
 
 ## <a name="certified-custom-visuals"></a>Oggetti visivi personalizzati certificati
 
-**Che cosa sono gli oggetti visivi personalizzati certificati?**
+### <a name="what-are-certified-custom-visuals"></a>Che cosa sono gli oggetti visivi personalizzati certificati?
 
-Gli oggetti visivi personalizzati certificati sono gli oggetti visivi nel [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) che soddisfano determinati requisiti del codice e di test [specificati](power-bi-custom-visuals-certified.md) dal team di Power BI.  I test eseguiti sono progettati per controllare che l'oggetto visivo non acceda a servizi o risorse esterne. Microsoft non è tuttavia l'autore di oggetti visivi personalizzati di terze parti e si consiglia ai clienti di contattare l'autore direttamente per verificare la funzionalità di tali oggetti visivi.
+Gli oggetti visivi personalizzati certificati sono gli oggetti visivi nel [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) che soddisfano determinati requisiti del codice e di test [specificati](power-bi-custom-visuals-certified.md) dal team di Power BI.  I test eseguiti sono studiati per verificare che l'oggetto visivo non abbia accesso a risorse o servizi esterni. Tuttavia, Microsoft non è l'autore di oggetti visivi personalizzati di terze parti. È quindi consigliabile contattare l'autore direttamente per verificare la funzionalità degli oggetti.
+
+## <a name="visuals-with-additional-purchases"></a>Oggetti visivi con acquisti aggiuntivi
+
+### <a name="what-is-a-visual-with-additional-purchases"></a>Che cos'è un oggetto visivo con acquisti aggiuntivi?
+
+Un oggetto visivo con acquisti aggiuntivi è simile ai componenti aggiuntivi con acquisto in-app nel marketplace che hanno il tag  **Potrebbe essere necessario un acquisto aggiuntivo**.
+
+Gli oggetti visivi personalizzati con acquisto in-app sono gratuiti e gli utenti possono scaricarli senza pagare nulla dal marketplace. Gli oggetti visivi con acquisto in-app offrono acquisti in-app facoltativi per le funzionalità avanzate.  
+
+### <a name="whats-the-benefit-to-developers"></a>Qual è il vantaggio per gli sviluppatori?
+
+Gli oggetti visivi personalizzati con acquisto in-app di AppSource sono a disposizione dei numerosi visitatori giornalieri, incrementando notevolmente il traffico e il riconoscimento degli oggetti visivi personalizzati con acquisto in-app e dell'utente come sviluppatore.
+
+Se fino a poco tempo fa questi oggetti visivi venivano gestiti sul sito Web, ora è possibile inviarli ad AppSource. In questo modo aumenterà il livello di individuabilità e visibilità degli oggetti visivi con acquisto in-app all'interno della community di Power BI.
+
+Gli oggetti visivi di AppSource usufruiscono di un canale di feedback diretto da parte dei clienti che usano gli oggetti visivi personalizzato con acquisto in-app attraverso le revisioni e il sistema di valutazione nello store.  
+
+Dopo che un oggetto visivo con acquisto in-app viene approvato dal team di convalida di AppSource, è possibile inviarlo per la certificazione. È un processo facoltativo.  
+
+Dopo essere stati certificati, gli oggetti visivi personalizzati con acquisto in-app possono essere esportati in PowerPoint visualizzati nei messaggi di posta elettronica ricevuti quando un utente effettua la sottoscrizione alle pagine del report. Quindi, se si inviano oggetti visivi con acquisto in-app al marketplace, oggi gli oggetti visivi personalizzati con acquisto in-app possono anche essere certificati e supportano set di funzionalità aggiuntive.  
+
+### <a name="do-iap-visuals-need-to-be-certified"></a>Gli oggetti visivi con acquisto in-app devono essere certificati?
+
+Il processo di certificazione è facoltativo. Spetta allo sviluppatore decidere se certificare o meno i propri oggetti visivi personalizzati con acquisto in-app e lo stesso vale per gli oggetti visivi gratuiti.
+
+### <a name="what-is-changing-in-the-submission-process"></a>Cosa cambia nel processo di invio?
+
+Il processo di invio al marketplace degli oggetti visivi personalizzati con acquisto in-app è lo stesso processo usato per gli oggetti visivi gratuiti. Si effettua attraverso il dashboard venditori.  L'unica modifica al processo di invio è che gli sviluppatori devono indicare quanto segue nelle note per gli sviluppatori nel dashboard venditori: "Oggetto visivo con acquisto in-app". È anche necessario specificare una chiave o un token di licenza, se si devono convalidare le funzionalità a pagamento o avanzate.  
+
+Non sarà disponibile alcuna nuova opzione nel dashboard venditori: *gratuito con acquisti in-app*, si dovranno inviare gli oggetti visivi con acquisto in-app come *gratuiti*.
+
+Inoltre, per far sapere agli utenti cosa aspettarsi, indicare nella descrizione lunga nello store quali funzionalità sono gratuite e quali richiedono acquisti aggiuntivi per funzionare.  
+
+### <a name="what-should-i-do-beforesubmittingmy-iap-custom-visual"></a>Cosa si deve fare prima di inviare l'oggetto visivo personalizzato con acquisto in-app?
+
+Se si sta lavorando a un oggetto visivo personalizzato con acquisto in-app o l'oggetto è già presente, verificare che sia conforme alle linee guida.  
+
+Se l'oggetto visivo personalizzato contiene un logo, verificare che sia conforme alle linee guida per i logo (colore, posizione, dimensione e attivazione di azioni).
+
+Nelle linee guida è anche possibile trovare indicazioni per le procedure consigliate.  
+
+### <a name="can-i-get-my-iap-custom-visual-certified"></a>È possibile ottenere la certificazione dell'oggetto visivo personalizzato con acquisto in-app?
+
+Sì, come per gli oggetti visivi gratuiti.  Dopo che l'oggetto visivo personalizzato con acquisto in-app viene approvato dal team di AppSource, è possibile inviarlo al processo di certificazione.
+
+Per essere certificato, l'oggetto visivo deve essere conforme ai requisiti di certificazione, ad esempio non può accedere ai servizi esterni per la convalida delle licenze.
+
+La certificazione dei richiami è un processo facoltativo, spetta all'utente decidere se l'oggetto visivo con acquisto in-app deve essere certificato.
+
+## <a name="additional-questions"></a>Altre domande
+
+### <a name="how-to-get-support"></a>Come si ottiene il supporto?
+
+È possibile contattare il team di supporto per gli oggetti visivi personalizzati: *pbicvsupport@microsoft.com* per eventuali domande, commenti o problemi.  
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per informazioni sulla risoluzione dei problemi, consultare la pagina [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Risoluzione dei problemi degli oggetti visivi personalizzati di Power BI).
+Per altre informazioni, consultare la pagina [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Risoluzione dei problemi degli oggetti visivi personalizzati di Power BI).

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/13/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
-ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
+ms.openlocfilehash: 250c8b28e4ee9e8b29e2db8195f7883d11708806
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51688397"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "53382244"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Monitorare le capacità di Power BI Premium e Power BI Embedded
 
@@ -23,7 +23,7 @@ Questo articolo offre una panoramica del monitoraggio delle metriche per le capa
 
 È possibile monitorare la capacità con l'app Power BI Premium Capacity Metrics o nel portale di amministrazione. È consigliata l'app perché offre molti più dettagli, ma questo articolo descrive entrambe le opzioni.
 
-**La versione corrente dell'app è 1.9 (rilasciata il 14 novembre 2018).**
+**La versione corrente dell'app è 1.10 (rilasciata il 13 dicembre 2018).**
 
 .
 
@@ -47,13 +47,25 @@ Dopo aver installato l'app, è possibile visualizzare le metriche sulle capacit�
 
 ## <a name="use-the-metrics-app"></a>Usare l'app per le metriche
 
+### <a name="metrics-dashboard"></a>Dashboard delle metriche
+
 Quando si apre l'app, viene prima di tutto visualizzato un dashboard con un riepilogo di tutte le capacità per cui si hanno diritti di amministratore.
 
 ![Dashboard dell'app per le metriche](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Fare clic sul dashboard per passare al report sottostante. Il report ha sei schede, che verranno descritte più dettagliatamente nelle sezioni seguenti.
+Il dashboard include le metriche seguenti.
 
-* **Filters** (Filtri): consente di filtrare le altre pagine del report in base a una capacità specifica.
+| **Sezione del report** | **Metriche** |
+| --- | --- |
+| **System Summary** (Dati riepilogativi del sistema) | * Versione dell'applicazione<br> * Numero di capacità per cui si è amministratori<br> * Numero di aree di lavoro delle capacità che includono metriche di report<br> * Utilizzo medio della memoria in GB negli ultimi sette giorni<br> * Utilizzo massimo della memoria in GB negli ultimi sette giorni<br> * Ora locale in cui si è verificato l'utilizzo di memoria massimo<br> * Numero di volte in cui la CPU ha superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti<br> * La maggior parte delle volte in cui la CPU ha superato l'80% negli ultimi sette giorni, suddivise in bucket di un'ora<br> * Ora locale in cui la CPU ha superato l'80% la maggior parte delle volte, in un'ora |
+| **Dataset Summary** (Riepilogo del set di dati) | * Numero totale di set di dati in tutte le aree di lavoro delle capacità<br> * Numero di volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti<br> * La maggior parte delle volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% negli ultimi sette giorni, suddivise in bucket di un'ora<br> * Ora locale in cui le connessioni Direct query/dinamiche hanno superato l'80% la maggior parte delle volte, in un'ora<br> * Numero totale di aggiornamenti negli ultimi sette giorni<br> * Il tempo di attesa medio degli aggiornamenti, ovvero il ritardo medio tra l'ora pianificata e l'inizio dell'aggiornamento, espresso in minuti<br> * Durata media degli aggiornamenti, ovvero il tempo impiegato per completare l'aggiornamento, espresso in minuti<br> * Numero totale di query eseguite negli ultimi sette giorni<br> * Tempo medio di attesa delle query, ovvero il tempo di attesa nelle risorse di sistema prima che l'esecuzione di una query venga avviata, espresso in millisecondi<br> * Durata media della query, ovvero il tempo impiegato per completare una query, espresso in millisecondi<br> * Numero totale di modelli rimossi a causa di un utilizzo elevato della memoria<br> * Dimensioni medie dei set di dati <br> * Conteggio medio dei set di dati caricati in memoria |
+| **Dataflow Summary** (Riepilogo del flusso di dati) | * Numero totale di flussi di dati in tutte le aree di lavoro delle capacità<br> * Numero totale di aggiornamenti negli ultimi sette giorni<br> * Il tempo di attesa medio degli aggiornamenti, ovvero il ritardo medio tra l'ora pianificata e l'inizio dell'aggiornamento, espresso in minuti<br> * Durata media degli aggiornamenti, ovvero il tempo impiegato per completare l'aggiornamento, espresso in minuti |
+| **Paginated Report Summary** (Riepilogo dei report impaginati) | * Numero totale di report impaginati in tutte le aree di lavoro delle capacità<br> * Numero totale di volte in cui tutti i report sono stati visualizzati dagli utenti<br> * Numero totale delle righe di dati in tutti i report<br> * Tempo totale impiegato per tutte le fasi (recupero, elaborazione e rendering dei dati) di tutti i report, espresso in millisecondi |
+|  |  |
+
+### <a name="metrics-report"></a>Report delle metriche
+
+Fare clic sul dashboard per passare al report sottostante. Il report ha cinque schede, che verranno descritte più dettagliatamente nelle sezioni seguenti.
 
 * **Datasets** (Set di dati): metriche dettagliate sull'integrità dei set di dati di Power BI nelle capacità.
 
@@ -61,40 +73,19 @@ Fare clic sul dashboard per passare al report sottostante. Il report ha sei sche
 
 * **Dataflows** (Flussi di dati): metriche di aggiornamento dettagliate per i flussi di dati nelle capacità.
 
-* **System** (Sistema): metriche di capacità complessive, ad esempio metriche di utilizzo elevato della CPU e della memoria.
+* **Resource Consumption** (Utilizzo delle risorse): metriche di capacità complessive, ad esempio metriche di utilizzo elevato della CPU e della memoria.
 
-* **Display Names and IDs** (Nomi visualizzati e ID): nomi, ID e proprietari di capacità, aree di lavoro e carichi di lavoro.
+* **IDs and Info** (ID e informazioni): nomi, ID e proprietari di capacità, aree di lavoro e carichi di lavoro.
 
-### <a name="filters-tab"></a>Scheda Filters (Filtri)
+In ogni scheda è possibile filtrare le metriche per capacità e intervallo di date. Se non viene selezionato alcun filtro, per impostazione predefinita il report visualizza le metriche della settimana precedente per ogni capacità che include metriche di report.
 
-La scheda **Filters** (Filtri) consente di selezionare una capacità, un intervallo di date e altre opzioni. I filtri vengono quindi applicati a tutte le pagine e a tutti i riquadri del report. Se non viene selezionato alcun filtro, per impostazione predefinita il report visualizza le metriche della settimana precedente per ogni capacità di cui si ha la proprietà.
+#### <a name="datasets-tab"></a>Scheda Set di dati
 
-![Scheda Filters (Filtri)](media/service-admin-premium-monitor-capacity/filters-tab.png)
-
-* **(A)** Selezionare **Datasets** (Set di dati), **Paginated Reports** (Report impaginati) o **Dataflows** (Flussi di dati) per impostare i filtri per ogni carico di lavoro.
-
-* **(B)** Il nome e **(C)** le informazioni vengono aggiornati in base a quanto selezionato in **(A)**, consentendo di filtrare in base a un carico di lavoro per nome. Nell'immagine precedente, ad esempio, è selezionata l'opzione **Dataflows** (Flussi di dati), che visualizza **Dataflows Name** (Nome del flusso di dati) e **Dataflows Information** (Informazioni sul flusso di dati).
-
-* **(D)** Informazioni sulla capacità, che indicano se per una capacità sono abilitati set di dati, report impaginati o flussi di dati.
-
-### <a name="datasets-tab"></a>Scheda Set di dati
-
-Usare i pulsanti nella parte superiore della scheda **Datasets** (Set di dati) per passare ad aree diverse: **Summary** (Riepilogo), **Refreshes** (Aggiornamenti), **Query Durations** (Durate query), **Query Waits** (Attese query) e **Datasets** (Set di dati).
+Usare i pulsanti nella parte superiore della scheda **Datasets** (Set di dati) per passare ad altre aree: **Summary** (Riepilogo), **Refreshes** (Aggiornamenti), **Query Durations** (Durata query), **Query Waits** (Attesa query), e **Datasets** (Set di dati).
 
 ![Scheda Set di dati](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
-#### <a name="summary-area"></a>Area Summary (Riepilogo)
-
-L'area **Summary** (Riepilogo) presenta una visualizzazione delle capacità per entità, risorse di sistema e carichi di lavoro dei set di dati. Mostra le metriche seguenti.
-
-| **Sezione del report** | **Metriche** |
-| --- | --- |
-| **Entities** (Entità) | * Numero di capacità di cui si è proprietari<br> * Numero di set di dati nella capacità<br> * Numero di aree di lavoro nella capacità |
-| **System** (Sistema) | * Utilizzo medio della memoria in GB negli ultimi sette giorni<br> * Utilizzo massimo della memoria in GB nel corso degli ultimi sette giorni e l'ora locale in cui si è verificato<br> * Numero di volte in cui la CPU ha superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti<br> * La maggior parte delle volte in cui la CPU ha superato l'80% negli ultimi sette giorni, suddivise in bucket di un'ora e l'ora locale in cui si è verificato l'evento<br> * Numero di volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti<br> * La maggior parte delle volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% negli ultimi sette giorni, suddivise in bucket di un'ora e l'ora locale in cui si è verificato l'evento |
-| **Dataset Workloads** (Carichi di lavoro dei set di dati) | * Numero totale di aggiornamenti negli ultimi sette giorni<br> * Numero totale di aggiornamenti riusciti negli ultimi sette giorni<br> * Numero totale di aggiornamenti non riusciti negli ultimi sette giorni<br> * Numero totale di aggiornamenti non riusciti a causa di memoria insufficiente<br> * La durata media degli aggiornamenti è il tempo impiegato per completare l'operazione, espresso in minuti<br> * Il tempo di attesa medio degli aggiornamenti è il ritardo medio tra l'ora pianificata e l'inizio dell'operazione, espresso in minuti<br> * Numero totale di query eseguite negli ultimi sette giorni<br> * Numero totale di query completate negli ultimi sette giorni<br> * Numero totale di query non riuscite negli ultimi sette giorni<br> * La durata media delle query è il tempo impiegato per completare l'operazione, espresso in minuti<br> * Numero totale di modelli rimossi a causa di un utilizzo elevato della memoria<br> * Dimensioni medie dei set di dati <br> * Conteggio medio dei set di dati caricati in memoria |
-|  |  |
-
-#### <a name="refreshes-area"></a>Area Refreshes (Aggiornamenti)
+##### <a name="refreshes-area"></a>Area Refreshes (Aggiornamenti)
 
 L'area **Refreshes** (Aggiornamenti) contiene le metriche seguenti.
 
@@ -107,7 +98,7 @@ L'area **Refreshes** (Aggiornamenti) contiene le metriche seguenti.
 | **Hourly Refresh Count and Memory Consumption** (Utilizzo della memoria e conteggio degli aggiornamenti su base oraria) | * Operazioni riuscite, errori e utilizzo della memoria, divisi in bucket di un'ora, indicati nell'ora locale |
 |  |  |
 
-#### <a name="query-durations-area"></a>Area Query Durations (Durate query)
+##### <a name="query-durations-area"></a>Area Query Durations (Durate query)
 
 L'area **Query Durations** (Durate query) contiene le metriche seguenti.
 
@@ -120,19 +111,19 @@ L'area **Query Durations** (Durate query) contiene le metriche seguenti.
 | **Hourly Query Duration Distributions** (Distribuzioni delle durate delle query su base oraria) | * Numero delle query e durata media (in millisecondi) rispetto al consumo di memoria in GB, suddivisi in bucket di un'ora nell'ora locale |
 |  |  |
 
-#### <a name="query-waits-area"></a>Area Query Waits (Attese query)
+##### <a name="query-waits-area"></a>Area Query Waits (Attese query)
 
 L'area **Query Waits** (Attese query) contiene le metriche seguenti.
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
-| **Query Wait Times** (Tempi di attesa query) | * I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni<br> * Total (Totale): numero totale di query eseguite per il set di dati<br> * Wait count (Conteggio di attesa): numero di query nel set di dati in attesa nelle risorse di sistema prima di avviare l'esecuzione <br> * Average (Media): tempo di attesa medio della query per il set di dati, espresso in millisecondi<br> * Max: durata della query con attesa più prolungata nel set di dati, espressa in millisecondi|
+| **Query Wait Times** (Tempi di attesa query) | * I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni<br> * Total (Totale): numero totale di query eseguite per il set di dati<br> * Wait Count (Conteggio di attesa): numero di query nel set di dati in attesa nelle risorse di sistema prima di avviare l'esecuzione <br> * Average (Media): tempo di attesa medio della query per il set di dati, espresso in millisecondi<br> * Max: durata della query con attesa più prolungata nel set di dati, espressa in millisecondi|
 | **Wait Time Distribution** (Distribuzione dei tempi di attesa) | * L'istogramma di durata delle query è suddiviso in bucket in base alle durate delle query (in millisecondi) nelle categorie seguenti: <= 50 ms, 50-100 ms, 100-200 ms, 200-400 ms, 400 ms-1 sec, 1 sec-5 sec e intervalli di più di 5 secondi |
 | **Top 5 Datasets by Average Wait Time** (Primi 5 set di dati per tempo medio di attesa) | * I cinque set di dati con il tempo di attesa medio più lungo prima dell'avvio dell'esecuzione di una query, espresso in millisecondi |
 | **Hourly Query Wait Counts and Times** (Numero di query in attesa e tempi di attesa su base oraria) | * Numero di query in attesa e tempo di attesa medio (in millisecondi) rispetto al consumo di memoria in GB. Questi dati sono suddivisi in bucket di un'ora nell'ora locale |
 |  |  |
 
-#### <a name="datasets-area"></a>Area Datasets (Set di dati)
+##### <a name="datasets-area"></a>Area Datasets (Set di dati)
 
 L'area **Datasets** (Set di dati) contiene le metriche seguenti.
 
@@ -141,10 +132,10 @@ L'area **Datasets** (Set di dati) contiene le metriche seguenti.
 | **Dataset Eviction Counts** (Numero di rimozioni di set di dati) | * Total (Totale): numero totale di *rimozioni* di set di dati per ogni capacità. Quando la capacità rileva un utilizzo elevato della memoria, il nodo rimuove uno o più set di dati dalla memoria. I set di dati inattivi (senza operazioni di query/aggiornamento in esecuzione) vengono rimossi per primi. Poi l'ordine di rimozione si basa sul principio LRU ("utilizzati meno di recente").|
 | **Hourly Dataset Evictions and Memory Consumption** (Rimozioni di set di dati e utilizzo della memoria su base oraria) | * Rimozioni di set di dati rispetto all'utilizzo della memoria in GB, divisi in bucket di un'ora, indicati nell'ora locale |
 | **Hourly Loaded Dataset Counts** (Numero di set di dati caricati su base oraria) | * Numero dei set di dati caricati in memoria rispetto all'utilizzo della memoria in GB, suddiviso in bucket di un'ora, indicato nell'ora locale |
-| **Data Sizes** (Dimensioni dei dati)  | * Dimensioni massime: dimensioni massime del set di dati in MB per il periodo visualizzato |
+| **Data Sizes** (Dimensioni dei dati)  | * Max size (Dimensioni massime): dimensioni massime del set di dati in MB per il periodo visualizzato |
 |  |  |
 
-### <a name="paginated-reports-tab"></a>Scheda Paginated reports (Report impaginati)
+#### <a name="paginated-reports-tab"></a>Scheda Paginated reports (Report impaginati)
 
 La scheda **Paginated reports** (Report impaginati) mostra le metriche dettagliate sull'integrità dei report impaginati nelle capacità.
 
@@ -154,14 +145,14 @@ La scheda **Paginated reports** (Report impaginati) contiene le metriche seguent
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
-| **Overall usage** (Utilizzo complessivo) | * Total Views (Visualizzazioni totali): numero di volte in cui il report è stato visualizzato da un utente<br> * Row Count (Conteggio righe): numero di righe di dati nel report<br> * Retrieval (avg) (Recupero - Media): quantità media di tempo necessario per recuperare i dati per il report, espressa in millisecondi. Durate prolungate possono indicare query lente o altri problemi relativi all'origine dati. <br> * Processing (avg) (Elaborazione - Media): quantità media di tempo necessario per elaborare i dati per un report, espressa in millisecondi<br>* Rendering (avg) (Rendering - Media): quantità media di tempo necessario per eseguire il rendering di un report nel browser, espressa in millisecondi<br> * Total time (Tempo totale): tempo necessario per tutte le fasi del report, espresso in millisecondi|
+| **Overall usage** (Utilizzo complessivo) | * Total Views (Visualizzazioni totali): numero di volte in cui il report è stato visualizzato dagli utenti<br> * Row Count (Conteggio righe): numero di righe di dati nel report<br> * Retrieval (avg) (Recupero - Media): tempo medio necessario per recuperare i dati per il report, espresso in millisecondi. Durate prolungate possono indicare query lente o altri problemi relativi all'origine dati. <br> * Processing (avg) (Elaborazione - Media): tempo medio necessario per elaborare i dati per un report, espresso in millisecondi<br>* Rendering (avg) (Rendering - Media): tempo medio necessario per eseguire il rendering di un report nel browser, espresso in millisecondi<br> * Total time: (Tempo totale): tempo necessario per tutte le fasi del report, espresso in millisecondi|
 | **Top 5 Reports by Average Data Retrieval Time** (Primi 5 report per tempo medio di recupero dati) | * I cinque report con il tempo medio di recupero dati più elevato, espresso in millisecondi |
 | **Top 5 Reports by Average Report Processing Time** (Primi 5 report per tempo medio di elaborazione report) | * I cinque report con il tempo medio di elaborazione report più elevato, espresso in millisecondi |
 | **Hourly Durations** (Durate su base oraria) | * Tempo di recupero dati rispetto al tempo di elaborazione e di rendering, suddiviso in bucket di un'ora, indicato nell'ora locale |
 | **Hourly Results** (Risultati su base oraria) | * Operazioni riuscite, errori e utilizzo della memoria, divisi in bucket di un'ora, indicati nell'ora locale |
 |  |  |
 
-### <a name="dataflows-tab"></a>Scheda Dataflows (Flussi di dati)
+#### <a name="dataflows-tab"></a>Scheda Dataflows (Flussi di dati)
 
 La scheda **Dataflows** (Flussi di dati) mostra le metriche di aggiornamento dettagliate per i flussi di dati nelle capacità.
 
@@ -178,23 +169,25 @@ La scheda **Dataflows** (Flussi di dati) contiene le metriche seguenti.
 | **Hourly Refresh Count and Memory Consumption** (Utilizzo della memoria e conteggio degli aggiornamenti su base oraria) | * Operazioni riuscite, errori e utilizzo della memoria, divisi in bucket di un'ora, indicati nell'ora locale |
 |  |  |
 
-### <a name="system-tab"></a>Scheda System (Sistema)
+#### <a name="resource-consumption-tab"></a>Scheda Resource Consumption (Utilizzo delle risorse)
 
-La scheda **System** (Sistema) mostra l'utilizzo di CPU e memoria in tutte le capacità e i carichi di lavoro.
+La scheda **Resource Consumption** (Utilizzo delle risorse) illustra l'utilizzo di CPU e memoria in tutte le capacità e i carichi di lavoro.
 
-![Scheda System (Sistema)](media/service-admin-premium-monitor-capacity/system-tab.png)
+![Scheda Resource Consumption (Utilizzo delle risorse)](media/service-admin-premium-monitor-capacity/resource-consumption-tab.png)
 
-La scheda **System** (Sistema) contiene le metriche seguenti.
+La scheda **Resource Consumption** (Utilizzo delle risorse) contiene le metriche seguenti.
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
-| **CPU Metrics (> 80% Utilization)** (Metriche CPU - > 80% di utilizzo) | * Numero di volte in cui la CPU ha superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti |
+| **CPU consumption** (Utilizzo CPU) | * Numero di volte in cui la CPU ha superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti |
 | **Memory consumption** (Utilizzo memoria) | * Utilizzo della memoria negli ultimi sette giorni, suddiviso in bucket da tre minuti |
 |  |  |
 
-### <a name="display-names-and-ids-tab"></a>Scheda Display Names and IDs (Nomi visualizzati e ID)
+#### <a name="ids-and-info-tab"></a>Scheda IDs and Info (ID e informazioni)
 
-La scheda **Display Names and IDs** (Nomi visualizzati e ID) contiene i nomi, gli ID e i proprietari di capacità, aree di lavoro e carichi di lavoro.
+La scheda **IDs and Info** (ID e informazioni) contiene i nomi, gli ID e i proprietari di capacità, aree di lavoro e carichi di lavoro.
+
+![Scheda IDs and Info (ID e informazioni)](media/service-admin-premium-monitor-capacity/info-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorare la capacità di Power BI Embedded
 

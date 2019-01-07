@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452868"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451445"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Usare SAP BW Connector in Power BI Desktop
 Con Power BI Desktop è possibile accedere ai dati **SAP BusinessWarehouse (BW)**.
@@ -78,7 +78,7 @@ Quando si seleziona uno o più elementi dal server, viene creata un'anteprima de
 
 La finestra **Strumento di navigazione** offre anche alcune **Opzioni di visualizzazione** che consentono di eseguire le operazioni seguenti:
 
-* **Visualizza *Solo gli elementi selezionati* oppure *Tutti gli elementi* (visualizzazione predefinita):** questa opzione è utile per verificare il set finale di elementi selezionati. Un approccio alternativo a questa modalità di visualizzazione consiste nel selezionare i *Nomi colonne* nell'area *Anteprima*.
+* **Visualizzare *Solo gli elementi selezionati* anziché *Tutti gli elementi* (visualizzazione predefinita):** questa opzione è utile per verificare il set finale degli elementi selezionati. Un approccio alternativo a questa modalità di visualizzazione consiste nel selezionare i *Nomi colonne* nell'area *Anteprima*.
 * **Abilita anteprime dati (comportamento predefinito):** è possibile controllare anche se visualizzare le anteprime dei dati in questa finestra di dialogo. La disabilitazione delle anteprime dei dati riduce la quantità di chiamate al server, perché non richiede dati per le anteprime.
 * **Nomi tecnici:** SAP BW supporta il concetto di *nomi tecnici* per gli oggetti all'interno di un cubo. I nomi tecnici consentono al proprietario di un cubo di esporre nomi *descrittivi* per gli oggetti cubo, anziché esporre solo i *nomi fisici* per tali oggetti nel cubo.
 

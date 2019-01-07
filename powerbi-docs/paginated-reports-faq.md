@@ -1,5 +1,5 @@
 ---
-title: 'Report impaginati in Power BI: domande frequenti (anteprima)'
+title: 'Report impaginati in Power BI: Domande frequenti (anteprima)'
 description: Questo articolo include le risposte alle domande frequenti sui report impaginati. Questi report includono output con formattazione avanzata e perfetto al pixel ottimizzato per la stampa o per la creazione di PDF.
 author: maggiesMSFT
 manager: kfile
@@ -9,20 +9,20 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268080"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649446"
 ---
-# <a name="paginated-reports-in-power-bi-faq-preview"></a>Report impaginati in Power BI: domande frequenti (anteprima)
+# <a name="paginated-reports-in-power-bi-faq-preview"></a>Report impaginati in Power BI: Domande frequenti (anteprima)
 
 Questo articolo include le risposte alle domande frequenti sui report impaginati. Questi report includono output con formattazione avanzata e perfetto al pixel ottimizzato per la stampa o per la creazione di PDF. Vengono definiti "impaginati" perché sono formattati per adattarsi al meglio a più pagine. I report impaginati sono basati sulla tecnologia di report RDL in SQL Server Reporting Services. 
 
 Questo articolo risponde a molte domande comuni sui report impaginati in Power BI Premium e su Generatore report, lo strumento autonomo per la creazione di report impaginati. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro per le app, purché l'area di lavoro sia in una capacità Power BI Premium. 
 
-## <a name="administration"></a>Amministrazione
+## <a name="administration"></a>Administration
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Quale capacità Premium è necessaria per i report impaginati?
 
@@ -59,7 +59,7 @@ Inoltre, i log di controllo offrono gli eventi seguenti per i report impaginati:
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>È possibile monitorare questo carico di lavoro tramite l'app di monitoraggio della capacità Premium?
 
-Non ancora. Il monitoraggio sarà disponibile in anteprima pubblica come nuova scheda nei report esistenti con gli stessi dettagli rilevanti disponibili per i set di dati di Power BI.
+Sì, il monitoraggio è disponibile in una nuova scheda con gli stessi dettagli disponibili per i set di dati di Power BI.
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>È necessaria una licenza Pro per creare e pubblicare report impaginati?
 
@@ -74,8 +74,8 @@ Viene visualizzato un messaggio di errore e non è possibile visualizzare il rep
 Memoria predefinita in ogni SKU Premium per i report impaginati:
 
 - **P1/A4**: 20% predefinita; 10% minima
-- **P2/A5**: 10% predefinita; 5% minima
-- **P3/A6**: 5% predefinita; 2,5% minima
+- **P2/A5**: 20% predefinita; 5% minima
+- **P3/A6**: 20% predefinita; 2,5% minima
 
 ## <a name="general"></a>Generale
 
@@ -113,15 +113,12 @@ Attualmente, i report impaginati non supportano quanto segue:
 - Segnalibri
 - Livelli mappa di Bing
 - Tipi di carattere personalizzati
-- Parametri nascosti
-
-L'attivazione/disattivazione e l'ordinamento interattivo non sono ancora in produzione, ma sono previsti a breve.    
 
 Viene visualizzato un messaggio di errore se si prova a caricare un file con una funzionalità non supportata nel servizio Power BI, diversa da attivazione/disattivazione e ordinamento.
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Quali origini dati sono attualmente supportate per i report impaginati?
 
-Sono supportati i modelli tabulari di database SQL di Azure, SQL Server e SQL Server Analysis Services (SSAS) tramite il gateway locale. Non sono attualmente supportati i modelli (MDX) multidimensionali di SSAS.
+Sono supportati il database SQL di Azure, SQL Server e i modelli tabulari (DAX) e multidimensionali (MDX) di SQL Server Analysis Services (SSAS) tramite il gateway locale.
 
 Quando si accede a SSAS tramite il gateway, l'utente con le credenziali archiviate deve avere autorizzazioni con privilegi elevati in SSAS per lavorare tramite il gateway.
 
@@ -135,7 +132,7 @@ Non ancora, ma questa funzionalità sarà presto supportata.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>È possibile usare stored procedure tramite il gateway?
 
-È possibile usare una stored procedure tramite il gateway, ma non se ha parametri.
+È possibile usare una stored procedure tramite il gateway, ma potrebbero verificarsi dei problemi in alcuni scenari se la stored procedure include parametri.
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>Quali formati di esportazione sono disponibili per il report nel servizio Power BI?
 
@@ -143,15 +140,15 @@ Non ancora, ma questa funzionalità sarà presto supportata.
 
 ### <a name="can-i-print-paginated-reports"></a>È possibile stampare i report impaginati?
 
-Attualmente è possibile esportare in formato PDF e quindi stampare il file. La stampa diretta da un report impaginato sarà presto disponibile. 
+Sì, la stampa è disponibile per i report impaginati e include una funzionalità di anteprima nuova e migliorata. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Sono già disponibili sottoscrizioni tramite posta elettronica per i report impaginati?
 
-No, le sottoscrizioni tramite posta elettronica sono previste più avanti.
+No, le sottoscrizioni tramite posta elettronica saranno disponibili a breve.
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>Quali funzionalità di SSRS saranno supportate nel servizio Power BI?
 
-È prevista l'implementazione delle stesse funzionalità per entrambi i prodotti.  Potrebbe non avere senso cercare di modificare determinati aspetti di SSRS e Power BI per adattarli a modelli SSRS esistenti, ad esempio i modelli di autorizzazione diversi in Power BI, ma questo tipo di decisioni verrà preso in base ai commenti e suggerimenti di clienti e partner.
+Si prevede di offrire la parità delle funzionalità per la maggior parte degli scenari, sebbene potrebbe non essere consigliabile tentare di modificare alcuni elementi relativi a SSRS e Power BI per l'adattamento ai modelli SSRS esistenti.  Ad esempio, non è possibile rieseguire il mapping dei diversi modelli di autorizzazione di Power BI a SSRS.  Per questo tipo di decisioni verrà considerato il feedback di clienti e partner.
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>È possibile eseguire codice personalizzato nel report?
 
@@ -171,7 +168,7 @@ Non ancora, ma è assolutamente previsto il supporto di questo scenario.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>È possibile condividere il contenuto di un report impaginato tramite un'app Power BI?
 
-Attualmente è possibile condividere singoli report impaginati con altri utenti tramite l'azione di condivisione nel portale. Non è ancora supportata la condivisione in un'app, ma lo sarà presto. Il pulsante di condivisione sarà inoltre disponibile sulla barra degli strumenti.
+Attualmente è possibile condividere singoli report impaginati con altri utenti tramite l'azione di condivisione nel portale o tramite la barra degli strumenti. Non è ancora supportata la condivisione in un'app, ma lo sarà presto. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Le altre funzionalità specifiche dei report in Power BI, come l'aggiunta di riquadri di report ai dashboard, saranno disponibili anche con i report impaginati?
 
@@ -179,15 +176,15 @@ Attualmente è possibile condividere singoli report impaginati con altri utenti 
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>È prevista l'introduzione di un nuovo strumento di creazione per i report impaginati nel servizio Power BI?  Generatore report non supportata attualmente tutte le funzionalità necessarie.
 
-Sono ancora in fase di vaglio opzioni diverse per individuare lo strumento ottimale, ma saranno sicuramente supportate funzionalità quali ALM, estensioni personalizzate e altre funzionalità che potrebbero essere incluse solo in uno degli strumenti di modifica per SSRS. 
+Sono ancora in esame diverse opzioni per offrire gli strumenti migliori per i report impaginati in Power BI. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>È previsto uno strumento di migrazione per consentire ai clienti di SSRS di trasferire report e asset esistenti in Power BI?
 
-Sì, ma non fino al completamento del set di base di funzionalità supportate nel servizio Power BI.
+Verranno valutate opzioni per consentire lo spostamento del contenuto in Power BI in modo automatico, ma non saranno disponibili prima della versione GA.
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Sarà mai possibile creare report impaginati e report di Power BI in un unico strumento di creazione?
 
-Attualmente non è previsto l'uso di un unico strumento di creazione, ma si stanno cercando soluzioni per distribuire potenzialmente gli strumenti di creazione insieme come singola famiglia di prodotti BI o con download/marchio individuali.
+Potenzialmente è possibile.  Attualmente si stanno cercando modi per rendere possibile questo scenario o semplicemente per distribuire gli strumenti di creazione insieme come singola famiglia di prodotti BI o con download/marchio individuali.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Esiste un controllo visualizzatore report per i report impaginati nel servizio Power BI?
 

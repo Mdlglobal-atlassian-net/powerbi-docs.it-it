@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3e8e8359742a422049751a348bce6a5d4015bd72
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 129649367efa3a2b23fbf3be181e14df158eba02
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619863"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329856"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
@@ -33,6 +33,57 @@ I collegamenti accanto a ogni aggiornamento significano quanto segue:
 È anche possibile guardare il video degli **ultimi aggiornamenti** dall'inizio, direttamente all'interno di questo articolo, facendo clic sull'icona di **riproduzione** nell'immagine del video che si trova sotto l'elenco degli aggiornamenti.
 
 Le sezioni seguenti descrivono gli aggiornamenti dei mesi precedenti di **Power BI Desktop**.
+
+## <a name="november-2018-update-2645285461"></a>Aggiornamento di novembre 2018 (2.64.5285.461)
+
+Gli aggiornamenti di novembre includevano molte nuove caratteristiche e funzionalità. In questo articolo vengono illustrati tutti gli aggiornamenti relativi a dati e analisi. 
+
+Gli aggiornamenti seguenti sono le novità di **Power BI Desktop** di novembre:
+
+### <a name="reporting"></a>Reporting
+
+* Espandere e comprimere le intestazioni di riga di matrice [[video]](https://youtu.be/1xsXXoyTxfk?t=16) [[articolo]](power-bi-reports-filters-and-highlighting.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23expandCollapse) 
+* Copiare e incollare tra file di Desktop [[video]](https://youtu.be/1xsXXoyTxfk?t=199) [[articolo]](desktop-report-view.md#copy-and-paste-between-reports) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23copyPaste)
+* Esperienza di filtro aggiornata (anteprima) [[video]](https://youtu.be/1xsXXoyTxfk?t=410) [[articolo]](power-bi-reports-filters-and-highlighting.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23filterPane)
+* Miglioramenti all'accessibilità dei report [[video]](https://youtu.be/1xsXXoyTxfk?t=1036) [[articolo]](desktop-accessibility.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23reportAccessibility)
+
+### <a name="analytics"></a>Analisi
+
+* Saturazione colore negli oggetti visivi aggiornata per usare la formattazione condizionale [[video]](https://youtu.be/1xsXXoyTxfk?t=1224) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23conditionalFormatting) 
+* Domande di completamento in Esplora domande e risposte [[video]](https://youtu.be/1xsXXoyTxfk?t=1429) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23relatedQuestions) 
+
+
+### <a name="modeling"></a>Creazione di modelli
+
+* Nuova visualizzazione di modellazione (anteprima) [[video]](https://youtu.be/1xsXXoyTxfk?t=1642) [[articolo]](desktop-modeling-view.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingView) 
+* Modelli compositi ora disponibili a livello generale [[video]](https://youtu.be/1xsXXoyTxfk?t=1941) [[articolo]](desktop-composite-models.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23compositeModels) 
+* Miglioramenti all'accessibilità della modellazione [[video]](https://youtu.be/1xsXXoyTxfk?t=2023) [[articolo]](desktop-accessibility.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
+* Nuove funzioni DAX [[video]](https://youtu.be/1xsXXoyTxfk?t=2066) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
+
+### <a name="custom-visuals"></a>Oggetti visivi personalizzati
+
+* Cinque nuovi oggetti visivi personalizzati [[video]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+
+### <a name="data-connectivity"></a>Connettività dei dati
+
+* Connettore Azure DevOps Server [[video]](https://youtu.be/1xsXXoyTxfk?t=2641) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23devOps) 
+* Supporto del connettore PDF per i parametri di pagina iniziale e pagina finale [[video]](https://youtu.be/1xsXXoyTxfk?t=2667) [[articolo]](desktop-connect-pdf.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23pdf) 
+* Connettore di Azure Consumption Insights migliorato [[video]](https://youtu.be/1xsXXoyTxfk?t=2704) [[articolo]](desktop-connect-azure-consumption-insights.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23consumptionInsights) 
+
+
+> [!NOTE]
+> È anche possibile [estrarre tutte le origini dati disponibili in Power BI Desktop](desktop-data-sources.md). L'elenco è in continuo aumento, quindi è consigliabile consultarlo regolarmente.
+
+Sono necessarie ulteriori informazioni su questi aggiornamenti? In questo [post di blog](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary) sono fornite informazioni più dettagliate su ognuna di queste nuove funzionalità (si tratta dello stesso post di blog indicato nell'elenco precedente).
+
+
+Nel canale video seguente vengono descritti e mostrati tutti questi aggiornamenti. È anche possibile guardare i video dal post di blog.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> [!NOTE]
+> Potrebbe anche essere interessante scoprire le [novità del servizio Power BI](service-whats-new.md) e le [novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
 
 ## <a name="october-2018-update-263327240262"></a>Aggiornamento di ottobre 2018 (2.63.3272.40262)
 
@@ -363,7 +414,7 @@ Gli aggiornamenti seguenti erano le novità di **Power BI Desktop** di aprile:
 ### <a name="analytics"></a>Analisi
 
 * Aggiornare lo schema linguistico  [[video]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[article]](power-bi-custom-visuals-organization.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
-* Nuova funzione DAX: COMBINEVALUES()  [[video]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
+* Nuove funzioni DAX: COMBINEVALUES()  [[video]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
 ### <a name="custom-visuals"></a>Oggetti visivi personalizzati
 
@@ -373,7 +424,7 @@ Gli aggiornamenti seguenti erano le novità di **Power BI Desktop** di aprile:
 ### <a name="data-connectivity"></a>Connettività dei dati
 
 * Connettore di Adobe Analytics ora disponibile a livello generale  [[video]](https://youtu.be/kuI6MMzDh34?t=32m) [[article]](desktop-multi-select.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#adobeAnalytics) 
-* Miglioramento del connettore SAP HANA: selezione delle porte  [[video]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[article]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
+* Miglioramento del connettore SAP HANA: Selezione delle porte  [[video]](https://youtu.be/kuI6MMzDh34?t=32m44s)  [[articolo]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#sapHana) 
 * Connettore Dynamics 365 Business Central  [[video]](https://youtu.be/kuI6MMzDh34?t=34m10s)  [[article]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#dynamics365BusinessCentral) 
 
 
@@ -1613,7 +1664,7 @@ Grandi passi avanti questo mese con altri aggiornamenti. Febbraio quest'anno ha 
 -   Miglioramenti delle mappe: possibilità di tracciare mappe indicando solo latitudine e longitudine
 -   Supporto del rilascio del consumo dell'indicatore KPI, con supporto della gerarchia di spostamento e della tendenza dell'indicatore KPI per MD SSAS
 -   Modalità di esplorazione SSAS: supporto per le cartelle di **visualizzazione** nel riquadro dei **campi**
--   Miglioramenti apportati al layout della barra multifunzione: scheda contestuale nella barra multifunzione per **gli strumenti di report**
+-   Miglioramenti apportati al layout della barra multifunzione: scheda contestuale nella barra multifunzione per gli **strumenti di report**
 -   Nuova visualizzazione per l'indicatore KPI
 -   Possibilità di aprire i report alla stessa pagina visualizzata al momento del salvataggio
 -   Opzione **Modifica query** nel menu di scelta rapida della tabella nel riquadro Campi (**visualizzazione di report** & **dati**)
@@ -1623,7 +1674,7 @@ Grandi passi avanti questo mese con altri aggiornamenti. Febbraio quest'anno ha 
 ### <a name="data-modeling"></a>Modellazione dei dati:
 
 -   Possibilità di definire gerarchie
--   Miglioramento delle prestazioni: ottimizzazione delle funzioni di ridenominazione di tabelle e colonne
+-   Miglioramenti alle prestazioni: ottimizzazione delle funzioni di ridenominazione di tabelle e colonne
 
 ### <a name="data-connectivity"></a>Connettività dei dati:
 
@@ -1711,7 +1762,7 @@ Dicembre è il mese dei regali e il team di Power BI si adegua con ulteriori agg
 
 -   Miglioramenti alle visualizzazioni:
     - Indicatore visivo per lo stato di ordinamento nell’oggetto visivo **Tabella**
-    - Nuovo oggetto visivo: grafico **Area in pila**
+    - Nuovo oggetto visivo: grafico ad **area in pila**
     - Descrizioni dei comandi intelligenti per grafici **Area** e **Riga** al passaggio del mouse
     - Possibilità di creare righe/aree di riferimento per un oggetto visivo **Cartesiano**
     - Etichette dati migliorate per grafici a **torta** e a **dispersione**
@@ -1888,7 +1939,7 @@ A questo aggiornamento è stata aggiunta una vasta raccolta di 44 funzionalità,
     - Copia del contenuto delle tabelle negli Appunti.
 - Riepilogo dei campi:
     - Supporto per operazioni aggiuntive nel riquadro Campi: valore mediano, deviazione standard e varianza.
-    - Riepilogo predefinito: gli utenti possono ora personalizzare l'operazione di riepilogo predefinito per qualsiasi campo specifico del modello.
+    - Riepilogo predefinito: gli utenti possono ora personalizzare l'operazione di riepilogo predefinito per qualsiasi campo specifico del modello
 
 ### <a name="data-connectivity"></a>Connettività dei dati
 
@@ -1975,7 +2026,7 @@ In questo aggiornamento sono state aggiunte le funzionalità seguenti:
 
 -   **Esplorazione diretta dei report** su modelli tabulari di Analysis Services.
 
--   **Modellazione dei dati**: nuova Vista dati e Vista Relazioni.
+-   **Modellazione dei dati:** nuova Vista dati e Vista Relazioni.
 
 -   Pubblicazione dei report in PowerBI.com direttamente da Power BI Desktop.
 

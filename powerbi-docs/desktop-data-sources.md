@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: e09c08780011ffaac7d37468e6018b079c41c669
+ms.sourcegitcommit: 298db44200b78b1281b3ae6dfe7cce7a89865ec9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619817"
+ms.lasthandoff: 12/13/2018
+ms.locfileid: "53329741"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -51,7 +51,7 @@ La categoria **File** fornisce le connessioni dati seguenti:
 * XML
 * JSON
 * Cartella
-* PDF (beta)
+* PDF (Beta)
 * Cartella di SharePoint
 
 La figura seguente mostra la finestra **Recupera dati** per **File**.
@@ -78,6 +78,7 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Impala
 * Google BigQuery
 * Snowflake
+* Essbase (Beta)
 * Connettore BI
 * Exasol
 * Dremio (Beta)
@@ -105,8 +106,8 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Database SQL di Azure
 * Azure SQL Data Warehouse
 * Database di Azure Analysis Services
-* Archivio BLOB Azure
-* Archivio tabelle Azure
+* Archiviazione BLOB di Azure
+* Archiviazione tabelle di Azure
 * Azure Cosmos DB (Beta)
 * Azure Data Lake Storage
 * Azure HDInsight (HDFS)
@@ -126,15 +127,15 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (locale)
-* Common Data Service per le app (beta)
-* Microsoft Azure Consumption Insights (Beta)
+* Common Data Service per le app (Beta)
+* Informazioni dettagliate sul consumo di Microsoft Azure (Beta)
 * Azure DevOps (beta)
 * Azure DevOps Server (beta)
 * Oggetti Salesforce
 * Report di Salesforce
 * Google Analytics
 * Adobe Analytics
-* appFigures (beta)
+* appFigures (Beta)
 * comScore Digital Analytix (Beta)
 * Dynamics 365 per Customer Insights (Beta)
 * Data.World - Ottieni set di dati (Beta)
@@ -151,7 +152,7 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Stripe (Beta)
 * SweetIQ (beta)
 * Planview Enterprise One - CMT (Beta)
-* Twilio (beta)
+* Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
