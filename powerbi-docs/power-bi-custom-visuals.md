@@ -8,14 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 15f8716a42372cb0a02f88ea37531963e9a0557a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223315"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056042"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Oggetti visivi personalizzati in Power BI
 
@@ -40,7 +41,7 @@ Gli oggetti visivi personalizzati sono pacchetti che includono il codice per il 
 > [!WARNING]
 > Un oggetto visivo personalizzato può contenere codice rischioso a livello di sicurezza o privacy. Verificare che l'autore e l'origine dell'oggetto visivo personalizzato siano attendibili prima di importarlo nel report.
 
-## <a name="organization-visuals"></a>Oggetti visivi dell'organizzazione
+## <a name="organization-visuals"></a>Oggetti visivi organizzazione
 
 Gli amministratori di Power BI possono distribuire oggetti visivi personalizzati nella propria organizzazione, in modo che gli autori di report possano facilmente individuare e usare gli oggetti visivi personalizzati approvati dall'amministratore per l'uso all'interno dell'organizzazione. L'amministratore ha quindi il controllo e può scegliere gli oggetti visivi personalizzati specifici da distribuire nell'organizzazione, oltre ad avere a disposizione un modo semplice per gestire questi oggetti (ad esempio aggiornare la versione o abilitarli e disabilitarli). Per gli autori di report questo è un modo semplice per individuare gli oggetti visivi univoci per l'organizzazione, oltre a supportare l'aggiornamento semplice di tali oggetti visivi.
 
@@ -149,7 +150,7 @@ Sono disponibili due opzioni per scaricare e importare gli oggetti visivi person
 
 5. Selezionare il collegamento per scaricare l'oggetto visivo personalizzato.
 
-    ![Scarica](media/power-bi-custom-visuals/powerbi-custom-download.png)
+    ![Download](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
     La pagina di download include anche le istruzioni su come importare l'oggetto visivo personalizzato in Power BI Desktop e nel servizio Power BI.
 

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908832"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008811"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Connettersi a Microsoft Dynamics CRM con Power BI
 Microsoft Dynamics CRM Online per Power BI consente di accedere ai dati e analizzarli facilmente. Power BI usa il feed OData per creare un modello descrittivo con tutte le entità e le misurazioni necessarie, tra cui account, attività, opportunità, prodotti, lead, utenti e così via. Dopo aver installato l'app è possibile visualizzare dashboard e report nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nelle app per dispositivi mobili di Power BI. 
@@ -116,7 +116,7 @@ La tabella seguente elenca le entità CRM disponibili per questo servizio e forn
 | Attività |Tutte le attività modificate negli ultimi 90 giorni <br> [modifiedon] > today - 90 days |
 | Caso |Tutti i casi modificati negli ultimi 90 giorni <br> [modifiedon] > today - 90 days |
 | Impegno di risoluzione dei casi |Tutti gli impegni di risoluzione dei casi modificati negli ultimi 90 giorni <br> [modifiedon] > today - 90 days |
-| Contatta |Tutti i contatti con casi correlati modificati negli ultimi 90 giorni. |
+| Contatto |Tutti i contatti con casi correlati modificati negli ultimi 90 giorni. |
 | Articolo della Knowledge Base |Tutte le versioni più recenti degli articoli della Knowledge Base  <br> [islatestversion] = true |
 | Evento imprevisto dell'articolo della Knowledge Base |Tutti gli eventi imprevisti degli articoli della Knowledge Base modificati negli ultimi 90 giorni <br> [modifiedon] > today - 90 days |
 | Coda |Tutte le code attive  <br> [statecode] = 0 |

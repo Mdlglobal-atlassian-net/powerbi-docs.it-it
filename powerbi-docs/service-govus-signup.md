@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670230"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056065"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrare l'organizzazione governativa statunitense al servizio Power BI
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione a pagamento del **servizio Power BI**.
@@ -102,7 +102,7 @@ Se nel tenant sono presenti sia licenze gratuite che Pro per il Governo degli St
 
 Quando si usa una combinazione di licenze gratuite e Pro in un tenant del Governo degli Stati Uniti e si esegue il processo di *aggiunta all'elenco elementi consentiti*, si può verificare quanto segue:
 
-**Prima dell'*aggiunta all'elenco elementi consentiti***:
+**Prima dell'_aggiunta all'elenco elementi consentiti_**:
 
 * Utenti con licenze gratuite in esecuzione nel cloud a pagamento
 * Le licenze Pro per il Governo degli Stati Uniti verranno visualizzate nel portale e l'amministratore potrà assegnare tali licenze agli utenti. Gli utenti di licenze Pro per il Governo degli Stati Uniti non perderanno i dati delle licenze gratuite dopo l'assegnazione di una licenza Pro per il Governo degli Stati Uniti. Gli utenti assegnati potranno accedere alle funzionalità di Power BI Pro per i clienti del Governo degli Stati Uniti, ma le funzionalità incluse nell'elenco seguente non saranno disponibili finché non viene completato il processo di *aggiunta del tenant all'elenco elementi consentiti*:
@@ -112,7 +112,7 @@ Quando si usa una combinazione di licenze gratuite e Pro in un tenant del Govern
   * I file PBIX devono essere caricati manualmente dal servizio Power BI a pagamento
   * Le app Power BI per dispositivi mobili non sono disponibili
 
-**Dopo l'*aggiunta all'elenco elementi consentiti***:
+**Dopo l'_aggiunta all'elenco elementi consentiti_**:
 
 * Gli utenti con licenze gratuite potranno continuare a usare il servizio Power BI a pagamento, ma l'autenticazione non verrà più eseguita come previsto.
 * Gli utenti con licenze Pro in esecuzione nel cloud del Governo degli Stati Uniti possono usare il servizio **Power BI per i clienti del Governo degli Stati Uniti** come previsto.
