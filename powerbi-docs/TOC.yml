@@ -98,18 +98,12 @@ items:
       href: desktop-connect-to-data.md
     - name: Pubblicare da Power BI Desktop
       href: desktop-upload-desktop-files.md
-    - name: Visualizzazioni personalizzate in Power BI
-      href: power-bi-custom-visuals.md
-    - name: Oggetti visivi personalizzati per le organizzazioni in Power BI
-      href: power-bi-custom-visuals-organization.md
     - name: Parte 1, Aggiungere visualizzazioni a un report di Power BI
       href: visuals/power-bi-report-add-visualizations-i.md
     - name: Parte 2, Aggiungere visualizzazioni a un report di Power BI
       href: visuals/power-bi-report-add-visualizations-ii.md
     - name: Personalizzare il riquadro, lo sfondo e la legenda della visualizzazione
       href: visuals/power-bi-visualization-customize-title-background-and-legend.md
-    - name: Risolvere i problemi degli elementi visivi personalizzati
-      href: power-bi-custom-visuals-troubleshoot.md
     - name: Connettersi ai dati
       items:
       - name: Origini dati in Power BI Desktop
@@ -880,7 +874,7 @@ items:
         href: developer/power-bi-permissions.md
     - name: Procedure
       items:
-      - name: Come incorporare da un'app
+      - name: Incorporare da un'app
         href: developer/embed-from-apps.md
       - name: Creare un tenant di Azure Active Directory
         href: developer/create-an-azure-active-directory-tenant.md
@@ -890,8 +884,6 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Incorporamento di Domande e risposte
         href: developer/qanda.md
-      - name: Risoluzione dei problemi dell'applicazione incorporata
-        href: developer/embedded-troubleshoot.md
       - name: Gestire le capacità in Azure
         items:
         - name: Creare una capacità in Azure
@@ -902,6 +894,10 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Sospendere e avviare una capacità in Azure
           href: developer/azure-pbie-pause-start.md
+      - name: Risoluzione dei problemi
+        items:
+        - name: Risolvere i problemi dell'applicazione incorporata
+          href: developer/embedded-troubleshoot.md
       - name: Eseguire la migrazione dalle raccolte di aree di lavoro
         items:
         - name: Come eseguire la migrazione dalle raccolte di aree di lavoro di Power BI
@@ -944,12 +940,12 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Overflow dello stack
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Sviluppare oggetti visivi personalizzati
+  - name: Elementi visivi personalizzati
     items:
     - name: Panoramica
       items:
-      - name: Aggiunta di oggetti visivi personalizzati in Power BI
-        href: https://microsoft.github.io/PowerBI-visuals/docs/latest/overview/
+      - name: Oggetti visivi personalizzati in Power BI
+        href: power-bi-custom-visuals.md
     - name: Esercitazioni
       items:
       - name: Sviluppo di un oggetto visivo personalizzato di Power BI
@@ -958,6 +954,8 @@ items:
         href: developer/custom-visual-develop-tutorial-format-options.md
     - name: Concetti
       items:
+      - name: Oggetti visivi personalizzati per le organizzazioni in Power BI
+        href: power-bi-custom-visuals-organization.md
       - name: Linee guida per gli oggetti visivi di Power BI
         href: developer/office-store-in-app-purchase-visual-guidelines.md
       - name: Domande frequenti sugli oggetti visivi personalizzati
@@ -978,8 +976,12 @@ items:
         href: power-bi-custom-visuals-certified.md
       - name: Pubblicare oggetti visivi personalizzati in AppSource
         href: developer/office-store.md
-      - name: Risolvere i problemi degli elementi visivi personalizzati
-        href: power-bi-custom-visuals-troubleshoot.md
+      - name: Usare oggetti visivi personalizzati basati su R in Power BI
+        href: desktop-r-powered-custom-visuals.md
+      - name: Risoluzione dei problemi
+        items:
+        - name: Risoluzione dei problemi di sviluppo di oggetti visivi personalizzati
+          href: power-bi-custom-visuals-troubleshoot.md
     - name: Riferimento
       items:
       - name: API
@@ -1283,9 +1285,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: bb2600fea9af9578ab9b9dd7260e358a8de7e646
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008880"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072337"
