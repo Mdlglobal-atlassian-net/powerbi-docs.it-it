@@ -604,10 +604,12 @@ items:
         href: service-share-dashboards.md
       - name: Condividere un report filtrato
         href: service-share-reports.md
-      - name: Pubblicare da Power BI al Web
-        href: service-publish-to-web.md
       - name: Incorporare report in SharePoint Online
         href: service-embed-report-spo.md
+      - name: Incorporare report in un portale o un sito Web sicuro
+        href: service-embed-secure.md
+      - name: Pubblicare da Power BI al Web
+        href: service-publish-to-web.md
       - name: Condividere un dashboard che si collega a una cartella di lavoro di Excel in OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
       - name: Power BI Publisher per Excel
@@ -1285,9 +1287,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 2e6a77d0aadd85cce05d8dc4fb5fdb60e4cbe91d
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: ba984e4e4f948f0cc2772dbe632c450bd77eb6b2
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072337"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136577"
