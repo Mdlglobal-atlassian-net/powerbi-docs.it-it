@@ -25,7 +25,7 @@ Per consentire a Domande e risposte di interpretare correttamente l'ampia raccol
 > [!NOTE]
 > Le Domande e risposte sono disponibili solo quando si usa un modello contenente dati **importati**. Le connessioni dinamiche a modelli SSAS e DirectQuery non sono supportate.
 >
-> Le Domande e risposte richiedono il seguente aggiornamento del runtime C se si usa una versione di Windows precedente a Windows 10. È possibile provare a installare aggiornamenti importanti da Windows Update oppure installare manualmente il componente richiesto da Microsoft Knowledge Base (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> Le Domande e risposte richiedono il seguente aggiornamento del runtime C se si usa una versione di Windows precedente a Windows 10. È possibile provare a installare aggiornamenti importanti da Windows Update oppure installare manualmente il componente richiesto da Microsoft Knowledge Base (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
