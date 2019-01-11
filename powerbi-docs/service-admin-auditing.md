@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026823"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072360"
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
 Essere a conoscenza di chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è di fondamentale importanza per aiutare l'organizzazione a soddisfare i suoi requisiti, come ad esempio la conformità alle normative e la gestione dei record. Usare la funzione di controllo di Power BI per controllare le azioni eseguite dagli utenti, ad esempio "Visualizza report" e "Visualizza dashboard". Non è possibile usare la funzione di controllo per controllare le autorizzazioni.
 
-Si utilizzano le funzionalità di controllo del Centro sicurezza e conformità di Office 365 o si usa PowerShell. Entrambi i metodi vengono descritti in questo articolo. È possibile filtrare i dati del controllo per intervallo di date, utente, dashboard, report, set di dati e tipo di attività. È inoltre possibile scaricare le attività in un file csv (valori delimitati da virgola) per l'analisi offline.
+Si utilizzano le funzionalità di controllo del Centro sicurezza e conformità di Office 365 o si usa PowerShell. Il controllo si basa su funzionalità in Exchange Online, di cui viene eseguito automaticamente il provisioning per il supporto di Power BI.
+
+È possibile filtrare i dati del controllo per intervallo di date, utente, dashboard, report, set di dati e tipo di attività. È inoltre possibile scaricare le attività in un file csv (valori delimitati da virgola) per l'analisi offline.
 
 ## <a name="requirements"></a>Requisiti
 
 Per accedere ai log di controllo, è necessario rispettare questi requisiti:
 
-- Per accedere alla sezione di controllo del Centro sicurezza e conformità di Office 365, è necessario avere una licenza di Exchange Online, inclusa con sottoscrizioni di Office 365 Enterprise E3 ed E5.
+* È necessario essere un amministratore globale o avere il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) in Exchange Online per accedere al log di controllo. Per impostazione predefinita, questi ruoli vengono assegnati ai gruppi di ruoli Gestione conformità e Gestione organizzazione nella pagina **Autorizzazioni** nell'interfaccia di amministrazione di Exchange.
 
-- È necessario essere un amministratore globale o avere il ruolo di amministratore di Exchange che fornisce l'accesso al log di controllo. I ruoli di amministratore di Exchange vengono controllati tramite l'interfaccia di amministrazione di Exchange. Per altre informazioni, vedere [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo/) (Autorizzazioni in Exchange Online).
+    Per consentire l'accesso al log di controllo agli account senza privilegi di amministratore, è necessario aggiungere l'utente come membro di uno di questi gruppi di ruoli. In alternativa, è possibile creare un gruppo di ruoli personalizzato nell'interfaccia di amministrazione di Exchange, assegnare il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) a questo gruppo e quindi aggiungere l'account senza privilegi di amministratore al nuovo gruppo di ruoli. Per altre informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/Exchange/permissions-exo/role-groups).
 
-- Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario ottenere un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+    Se non è possibile accedere all'interfaccia di amministrazione di Exchange dall'interfaccia di amministrazione di Office 365, passare a https://outlook.office365.com/ecp ed eseguire l'accesso usando le credenziali personali.
 
-- Per visualizzare i log di controllo per Power BI nel tenant, è necessario che nel tenant stesso sia disponibile almeno una licenza per cassette postali di Exchange.
+* Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario usare un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
 ## <a name="accessing-your-audit-logs"></a>Accesso ai log di controllo
 
@@ -51,8 +53,6 @@ I log di controllo di Power BI sono disponibili direttamente tramite il [Centro 
 1. Selezionare **Passa all'interfaccia di amministrazione di O365**.
 
    ![Passa all'interfaccia di amministrazione di Office 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-Per fornire l'accesso al log di controllo agli account non amministratore, è necessario assegnare le autorizzazioni nell'interfaccia di amministrazione di Exchange Online. Ad esempio, è possibile assegnare un utente a un gruppo di ruoli esistente, ad esempio Gestione organizzazione, oppure crearne uno nuovo con il ruolo Log di controllo. Per altre informazioni, vedere [Permissions in Exchange Online](/exchange/permissions-exo/permissions-exo/) (Autorizzazioni in Exchange Online).
 
 ## <a name="search-only-power-bi-activities"></a>Eseguire solo la ricerca delle attività di Power BI
 
@@ -119,9 +119,7 @@ Per esportare il log di controllo di Power BI in un file CSV, seguire questa pro
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Usare PowerShell per eseguire ricerche nei log di controllo
 
-È anche possibile usare PowerShell per accedere ai log di controllo in base all'account di accesso. L'esempio seguente mostra come usare il comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) per il pull delle voci del log di controllo di Power BI.
-
-Per usare il comando [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/), all'account deve essere assegnata una licenza di Exchange Online ed è necessario l'accesso al log di controllo per il tenant. Per altre informazioni sulla connessione a Exchange Online, vedere [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/) (Connettersi a Exchange Online tramite PowerShell).
+È anche possibile usare PowerShell per accedere ai log di controllo in base all'account di accesso. L'esempio seguente mostra come connettersi a Exchange Online PowerShell e quindi usare il comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) per il pull delle voci del log di controllo di Power BI. Per eseguire lo script, è necessario disporre delle autorizzazioni appropriate, come descritto nella sezione [Requisiti](#requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-Per un altro esempio di uso di PowerShell con i log di controllo, vedere [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Uso del log di controlli di Power BI e di PoweShell per assegnare licenze di Power BI Pro).
+Per altre informazioni sulla connessione a Exchange Online, vedere [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/) (Connettersi a Exchange Online tramite PowerShell). Per un altro esempio di uso di PowerShell con i log di controllo, vedere [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Uso del log di controlli di Power BI e di PoweShell per assegnare licenze di Power BI Pro).
 
 ## <a name="activities-audited-by-power-bi"></a>Attività controllate da Power BI
 
@@ -192,7 +190,7 @@ Le attività seguenti sono controllate da Power BI.
 | Non è stato possibile rimuovere le autorizzazioni del flusso di dati             | FailedToRemoveDataflowPermissions           | Attualmente non in uso                       |
 | Token di firma di accesso condiviso del flusso di dati di Power BI generato             | GenerateDataflowSasToken                    |                                          |
 | Token di incorporamento di Power BI generato                    | GenerateEmbedToken                          |                                          |
-| File importato in Power BI                         | Importazione                                      |                                          |
+| File importato in Power BI                         | Importa                                      |                                          |
 | App Power BI installata                            | InstallApp                                  |                                          |
 | Migrazione dell'area di lavoro a una capacità eseguita                  | MigrateWorkspaceIntoCapacity                |                                          |
 | Commento di Power BI pubblicato                           | PostComment                                 |                                          |

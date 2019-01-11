@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735570"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072291"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -44,7 +44,7 @@ Nel portale sono disponibili sette schede. Il resto di questo articolo fornisce 
 * [Impostazioni tenant](#tenant-settings)
 * [Impostazioni Premium](#premium-settings)
 * [Codici di incorporamento](#embed-codes)
-* [Oggetti visivi dell'organizzazione](#organization-visuals)
+* [Oggetti visivi organizzazione](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Metriche di utilizzo
 
@@ -329,7 +329,7 @@ Un amministratore può visualizzare i codici di incorporamento generati per il t
 
 ![Codici di incorporamento nel portale di amministrazione di Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Oggetti visivi organizzazione
+## <a name="organizational-visuals"></a>Oggetti visivi organizzazione
 
 La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](power-bi-custom-visuals-organization.md)
 

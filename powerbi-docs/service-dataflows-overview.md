@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180830"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072222"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparazione dei dati self-service in Power BI (anteprima)
 
@@ -92,7 +92,7 @@ La tabella seguente descrive le funzionalità del flusso di dati e le relative c
 |Entità collegate del flusso di dati| |        +|
 |Schema standardizzato/supporto integrato per il modello CDM|  +|  +|
 
-
+Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads) per Power BI Premium.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Riepilogo della preparazione dei dati self-service per i Big Data in Power BI
 Come accennato in precedenza in questo articolo, esistono più scenari ed esempi in cui i **flussi di dati** possono assicurare un migliore controllo e analisi più rapide dei dati aziendali. Usando un modello di dati standard (schema) definito dal modello CDM, i flussi di dati possono importare i dati aziendali più importanti e prepararli per la modellazione e la creazione di informazioni dettagliate di business intelligence in tempi molto brevi, rispetto ai mesi richiesti in precedenza. 

@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973328"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136600"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -75,7 +75,7 @@ Per incorporare il report in SharePoint Online, è prima di tutto necessario ott
 
     ![Report caricato SP](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Concessione dell'accesso ai report
+## <a name="grant-access-to-reports"></a>Concedere l'accesso ai report
 
 Incorporare un report in SharePoint Online non autorizza automaticamente gli utenti a visualizzare il report. Le autorizzazioni per visualizzare il report vengono impostate all'interno del servizio Power BI.
 
@@ -152,7 +152,7 @@ Gli utenti che visualizzano un report in SharePoint devono avere una **licenza d
 
 ## <a name="known-issues-and-limitations"></a>Limitazioni e problemi noti
 
-* Errore: "Si è verificato un errore. Provare a disconnettersi e riconnettersi, quindi visitare di nuovo questa pagina. ID di correlazione: non definito, Stato risposta HTTP: 400, Codice errore server 10001, messaggio: Token di aggiornamento mancante"
+* Errore: "Si è verificato un errore. Provare a disconnettersi e riconnettersi, quindi visitare di nuovo questa pagina. ID di correlazione: non definito, stato risposta http: 400, codice errore server 10001, messaggio: Token di aggiornamento mancante"
   
   Se si riceve questo errore, provare una delle procedure di risoluzione dei problemi seguenti.
   
@@ -174,9 +174,10 @@ Gli utenti che visualizzano un report in SharePoint devono avere una **licenza d
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Consentire o impedire la creazione di pagine del sito moderne dagli utenti finali](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Creare e distribuire un'app in Power BI](service-create-distribute-apps.md)  
-[Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md)  
-[Che cos'è Power BI Premium?](service-premium.md)  
+* [Consentire o impedire la creazione di pagine del sito moderne dagli utenti finali](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md)  
+* [Condividere un dashboard con i colleghi e altri utenti](service-share-dashboards.md)  
+* [Che cos'è Power BI Premium?](service-premium.md)
+* [Incorporare un report in un portale o un sito Web sicuro](service-embed-secure.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

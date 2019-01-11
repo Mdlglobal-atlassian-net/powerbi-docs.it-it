@@ -1,5 +1,5 @@
 ---
-title: Come funziona la collaborazione e la condivisione in Power BI?
+title: Modalità per la condivisione del lavoro
 description: In Power BI si possono condividere ed elaborare in collaborazione dashboard, report, riquadri e app in diversi modi, ognuno dei quali presenta vantaggi specifici.
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908970"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983532"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Come funziona la collaborazione e la condivisione in Power BI?
+# <a name="ways-to-share-your-work-in-power-bi"></a>Modalità per la condivisione del lavoro in Power BI
 
-Vengono creati dashboard e report. È possibile collaborare su di essi con i colleghi. È anche possibile consentire ad altri utenti di accedervi. Ma qual è il modo migliore di distribuire report e dashboard?
+Vengono creati dashboard e report. È probabile che si sia anche collaborato al loro contenuto con i colleghi. Ora si vuole che altri possano accedervi. Ma qual è il modo migliore di distribuire report e dashboard?
 
 In questo articolo verranno confrontate le opzioni disponibili per la collaborazione e la condivisione in Power BI: 
 
-* Collaborazione con i colleghi allo scopo di creare report e dashboard significativi nelle *aree di lavoro per le app*.
+* Collaborazione con i colleghi allo scopo di creare report e dashboard significativi nelle *aree di lavoro*.
 * Creazione di *app* contenenti i dashboard e i report completati e pubblicazione delle app in un gruppo più ampio o nell'intera organizzazione.
 * Condivisione di dashboard o report con alcune persone dal servizio o dalle app Power BI per dispositivi mobili.
 - Stampa di report.
@@ -35,25 +35,25 @@ Indipendentemente dall'opzione scelta, per condividere un dashboard è necessari
 
 *App nel servizio Power BI*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Collaborare con i colleghi in un'area di lavoro per le app
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>Collaborare con i colleghi in un'area di lavoro
 
-Quando i team lavorano insieme, devono accedere agli stessi documenti in modo da poter collaborare rapidamente. Le aree di lavoro per le app in Power BI offrono uno spazio in cui i team si riuniscono per condividere la proprietà e la gestione di dashboard, report, set di dati e cartelle di lavoro a cui sono interessati. A volte gli utenti di Power BI organizzano le aree di lavoro in base alle strutture dell'organizzazione, altre volte creano aree di lavoro per progetti specifici. Altre organizzazioni usano invece diverse aree di lavoro per archiviare versioni diverse dei report o dei dashboard desiderati. 
+Quando i team lavorano insieme, devono accedere agli stessi documenti in modo da poter collaborare rapidamente. Le aree di lavoro in Power BI offrono uno spazio in cui i team si riuniscono per condividere la proprietà e la gestione di dashboard, report, set di dati e cartelle di lavoro importanti. A volte gli utenti di Power BI organizzano le aree di lavoro in base alle strutture dell'organizzazione, altre volte creano aree di lavoro per progetti specifici. Altre organizzazioni usano invece diverse aree di lavoro per archiviare versioni diverse dei report o dei dashboard desiderati. 
 
-Le aree di lavoro per le app forniscono i ruoli che determinano quali autorizzazioni hanno i colleghi. È possibile usare tali ruoli per determinare chi può gestire l'intera area di lavoro o chi può inserire solo il contenuto.
+Le aree di lavoro offrono ruoli che determinano le autorizzazioni dei colleghi. È possibile usare tali ruoli per determinare chi può gestire l'intera area di lavoro o chi può inserire solo il contenuto.
 
-![Aree di lavoro per le app](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Aree di lavoro](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-Naturalmente, alcuni utenti inseriscono il contenuto nell'area di lavoro personale e poi la condividono. Le aree di lavoro per le app sono preferibili per la collaborazione rispetto all'area di lavoro personale in quanto forniscono la comproprietà del contenuto. L'utente e l'intero team possono eseguire facilmente aggiornamenti o concedere l'accesso ad altri utenti. L'area di lavoro personale è più adatta per gli utenti singoli per contenuto occasionale o personale.
+Naturalmente, alcuni utenti inseriscono il contenuto nell'area di lavoro personale e poi la condividono. Per la collaborazione, le aree di lavoro sono preferibili all'area di lavoro personale in quanto offrono la comproprietà del contenuto. L'utente e l'intero team possono eseguire facilmente aggiornamenti o concedere l'accesso ad altri utenti. L'area di lavoro personale è più adatta per gli utenti singoli per contenuto occasionale o personale.
 
-Supponiamo di avere un dashboard completato da condividere con i colleghi. Qual è il modo migliore di concedere l'accesso al dashboard? La risposta dipende da numerosi fattori. Se un collega specifico deve essere proprietario del dashboard e mantenerlo aggiornato o deve accedere a tutto il contenuto nell'area di lavoro per le app, potrebbe essere preferibile aggiungerli all'area di lavoro. Se un collega deve semplicemente visualizzare il dashboard e non tutto il contenuto nell'area di lavoro, è possibile ancora una volta scegliere tra diverse alternative. Se il dashboard fa parte di un set di contenuto più grande che deve essere distribuito a molti colleghi, la scelta migliore sarà probabilmente quella di pubblicare un'app. Tuttavia, se un collega ha semplicemente bisogno di tale dashboard, l'approccio ottimale potrebbe essere quello di condividere il dashboard. 
+Supponiamo di avere un dashboard completato da condividere con i colleghi. Qual è il modo migliore di concedere l'accesso al dashboard? La risposta dipende da numerosi fattori. Se un collega specifico deve essere proprietario del dashboard per mantenerlo aggiornato o ha la necessità di accedere a tutto il contenuto dell'area di lavoro, potrebbe essere preferibile aggiungerlo all'area di lavoro. Se un collega deve semplicemente visualizzare il dashboard e non tutto il contenuto nell'area di lavoro, è possibile ancora una volta scegliere tra diverse alternative. Se il dashboard fa parte di un set di contenuto più grande che deve essere distribuito a molti colleghi, la scelta migliore sarà probabilmente quella di pubblicare un'app. Tuttavia, se un collega ha semplicemente bisogno di tale dashboard, l'approccio ottimale potrebbe essere quello di condividere il dashboard. 
 
-Altre informazioni sulla [creazione di aree di lavoro per le app](service-create-workspaces.md).
+Altre informazioni sulla [creazione di aree di lavoro](service-create-workspaces.md).
 
 **Non tutti lo sanno, ma** Power BI ha introdotto una nuova esperienza dell'area di lavoro in anteprima. Vedere [Creare le nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md) per scoprire come le aree di lavoro cambieranno in futuro. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Distribuire dati e informazioni dettagliate tramite la creazione di un'app
 
-Si supponga di voler distribuire il dashboard a un pubblico più vasto. Dopo aver collaborato con i colleghi alla creazione di un'*area di lavoro per le app* e aver creato e definito in dettaglio dashboard, report e set di dati nell'area di lavoro, è ora possibile selezionare i dashboard e i report desiderati e pubblicarli come app in un gruppo o nell'intera organizzazione. 
+Si supponga di voler distribuire il dashboard a un pubblico più vasto. Dopo aver collaborato con i colleghi alla creazione di un'*area di lavoro* e aver creato e definito in dettaglio dashboard, report e set di dati nell'area di lavoro, è ora possibile selezionare i dashboard e i report desiderati e pubblicarli come app in un gruppo o nell'intera organizzazione. 
 
 ![Icona Pubblica app](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Per visualizzare l'app gli utenti devono disporre di una licenza Power BI Pro; i
 È possibile anche pubblicare le app per gli utenti esterni all'organizzazione, che possono visualizzare il contenuto delle app e interagire con esso, ma non condividerlo con altri utenti.
 
 ## <a name="share-dashboards-and-reports"></a>Condividere dashboard e report
-Si supponga di aver completato un dashboard e un report nell'area di lavoro personale o in un'area di lavoro per le app e che si voglia consentirne l'accesso ad altre persone. Uno dei modi per farlo consiste nel *condividerlo*. 
+Si supponga di aver completato un dashboard e un report nell'area di lavoro personale o in un'area di lavoro e che si voglia consentirne l'accesso ad altre persone. Uno dei modi per farlo consiste nel *condividerlo*. 
 
 ![Icona di condivisione](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 

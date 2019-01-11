@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/27/2018
-ms.openlocfilehash: 71cbae5f282883ca26a5bf0b2ae7b5609b86eb58
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 3971651caf9be7e754f4232ffec8b4e4dbfdfe6d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578797"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008420"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -74,7 +74,7 @@ Di seguito è riportato un elenco parziale con le differenze che è possibile us
 | Accesso ai contenuti con una licenza gratuita di Power BI in Powerbi.com e Power BI per dispositivi mobili | No | No | Sì |
 | Accesso ai contenuti con una licenza gratuita di Power BI incorporata nelle app di MS Office | No | Sì | Sì |
 
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Ora Power BI offre tre SKU per l'incorporamento, gli SKU A, gli SKU EM e gli SKU P. Quale devo acquistare per il mio scenario?
+### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Ora Power BI offre tre tipi di SKU per l'incorporamento: SKU A, SKU EM e SKU P. Quale devo acquistare per il mio scenario?
 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
@@ -104,7 +104,7 @@ Al momento il ridimensionamento automatico non è disponibile, ma è possibile r
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Per quale motivo la creazione, il ridimensionamento o la ripresa di una capacità ne comporta l'inserimento in uno stato sospeso?
 
-Il provisioning di una capacità (ridimensionamento, ripresa o creazione) potrebbe non riuscire. Il chiamante della chiamata al provisioning deve controllare l'oggetto ProvisioningState della capacità usando l'API per il recupero dei dettagli: [Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (Funzionalità - Ottieni dettagli).
+Il provisioning di una capacità (ridimensionamento, ripresa o creazione) potrebbe non riuscire. Il chiamante della chiamata al provisioning deve controllare l'oggetto ProvisioningState della capacità usando l'API per il recupero dei dettagli: [Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Perché è possibile creare PBIE solo in un'area specifica?
 
@@ -321,3 +321,7 @@ Le informazioni su come modificare i propri dati in Power BI sono disponibili [q
 Per altre informazioni, vedere [Risoluzione dei problemi dell'applicazione incorporata](embedded-troubleshoot.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+
+### <a name="what-are-the-best-practices-to-improve-performance"></a>Quali sono le procedure consigliate per migliorare le prestazioni?
+
+[Prestazioni di Power BI Embedded](embedded-performance-best-practices.md)

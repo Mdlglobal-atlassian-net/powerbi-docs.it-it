@@ -1,5 +1,5 @@
 ---
-title: Visualizzazioni personalizzate in Power BI
+title: Oggetti visivi personalizzati in Power BI
 description: Visualizzazioni personalizzate in Power BI
 author: markingmyname
 ms.author: maghan
@@ -8,19 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056042"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072245"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Oggetti visivi personalizzati in Power BI
 
-Quando si crea o si modifica un report di Power BI, sono disponibili vari tipi di oggetti visivi. Gli oggetti visivi sono visualizzati nel riquadro **Visualizzazioni**. Quando si scarica Power BI Desktop o si accede al servizio Power BI (app.powerbi.com), questo set di oggetti visivi è incluso per impostazione predefinita.
+Quando si crea o si modifica un report di Power BI, sono disponibili vari tipi di oggetti visivi. Gli oggetti visivi sono visualizzati nel riquadro **Visualizzazioni**. Quando si scarica [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) o si apre il [servizio Power BI](https://app.powerbi.com) questo set di oggetti visivi è incluso per impostazione predefinita.
 
 ![visualizzazioni](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -31,7 +30,7 @@ Gli oggetti visivi personalizzati vengono creati dagli sviluppatori tramite l'SD
 Gli oggetti visivi personalizzati supportano tre tipi di canali di distribuzione:
 
 * File di oggetti visivi personalizzati
-* Oggetti visivi dell'organizzazione
+* Oggetti visivi organizzazione
 * Oggetti visivi del Marketplace
 
 ## <a name="custom-visual-files"></a>File di oggetti visivi personalizzati
@@ -41,7 +40,7 @@ Gli oggetti visivi personalizzati sono pacchetti che includono il codice per il 
 > [!WARNING]
 > Un oggetto visivo personalizzato può contenere codice rischioso a livello di sicurezza o privacy. Verificare che l'autore e l'origine dell'oggetto visivo personalizzato siano attendibili prima di importarlo nel report.
 
-## <a name="organization-visuals"></a>Oggetti visivi organizzazione
+## <a name="organizational-visuals"></a>Oggetti visivi organizzazione
 
 Gli amministratori di Power BI possono distribuire oggetti visivi personalizzati nella propria organizzazione, in modo che gli autori di report possano facilmente individuare e usare gli oggetti visivi personalizzati approvati dall'amministratore per l'uso all'interno dell'organizzazione. L'amministratore ha quindi il controllo e può scegliere gli oggetti visivi personalizzati specifici da distribuire nell'organizzazione, oltre ad avere a disposizione un modo semplice per gestire questi oggetti (ad esempio aggiornare la versione o abilitarli e disabilitarli). Per gli autori di report questo è un modo semplice per individuare gli oggetti visivi univoci per l'organizzazione, oltre a supportare l'aggiornamento semplice di tali oggetti visivi.
 
@@ -74,7 +73,7 @@ Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad ag
 
     ![cv importato](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>Importare gli oggetti visivi dell'organizzazione
+### <a name="import-organizational-visuals"></a>Importare oggetti visivi dell'organizzazione
 
 1. Nel riquadro Visualizzazioni selezionare i puntini di sospensione.
 
@@ -132,7 +131,7 @@ Sono disponibili due opzioni per scaricare e importare gli oggetti visivi person
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Scaricare e importare oggetti visivi personalizzati da Microsoft AppSource
 
-1. Accedere a [Microsoft AppSource](https://appsource.microsoft.com) e selezionare la scheda **App**. 
+1. Accedere a [Microsoft AppSource](https://appsource.microsoft.com) e selezionare la scheda **App**.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Per informazioni sulla risoluzione dei problemi, consultare la pagina [Troublesh
 ## <a name="faq"></a>DOMANDE FREQUENTI
 
 Per altre informazioni e risposte, vedere le [Frequently asked questions about Power BI custom visuals](power-bi-custom-visuals-faq.md#organizational-custom-visuals) (Domande frequenti sugli oggetti visivi personalizzati di Power BI).
+
+## <a name="next-steps"></a>Passaggi successivi
+
+* [Visualizzazioni in Power BI](visuals/power-bi-report-visualizations.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
