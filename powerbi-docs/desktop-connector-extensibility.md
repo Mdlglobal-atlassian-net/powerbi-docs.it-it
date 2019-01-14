@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40257018"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983417"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Estendibilità dei connettori in Power BI
 
@@ -42,7 +42,7 @@ In **Estensioni dati** è possibile selezionare uno dei due livelli di sicurezza
 * (Consigliato) per consentire solo il caricamento delle estensioni certificate
 * (Non consigliato) per consentire il caricamento di tutte le estensioni senza avviso
 
-Se si prevede di usare **connettori personalizzati** o connettori sviluppati o distribuiti personalmente o da terze parti, è necessario selezionare **"(Non consigliato) per consentire il caricamento di tutte le estensioni senza avviso"**. Questa impostazione di sicurezza non è consigliabile a meno che non si preveda di eseguire **connettori personalizzati**.
+Se si prevede di usare **connettori personalizzati** o connettori sviluppati o distribuiti personalmente o da terze parti, è necessario selezionare **"(Non consigliato) per consentire il caricamento di tutte le estensioni senza avviso"**. Questa impostazione di sicurezza non è consigliabile a meno che i connettori personalizzati non siano completamente attendibili, poiché il codice presente nei connettori può gestire le credenziali (incluso l'invio su HTTP) e ignorare i livelli di privacy.
 
 Se sono presenti connettori personalizzati nel sistema, nell'impostazione di sicurezza **"(Consigliato)"** viene visualizzato un errore che descrive i connettori che non possono essere caricati a causa delle impostazioni di sicurezza.
 

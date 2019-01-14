@@ -8,18 +8,18 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6cb53eadb3c5ddf14b8f8b3b3882e0d7b509a3f
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 8d79d92577da25a316eba8e789a1b7b004a9967a
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830103"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983762"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
-È possibile visualizzare in Power BI i dati usati per creare una visualizzazione o esportarli in Excel come file con estensione xlsx o csv. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. 
+Per esaminare i dati usati per creare una visualizzazione, [è possibile visualizzarli in Power BI](service-reports-show-data.md) o esportarli in Excel come file XLSX o CSV. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. 
 
 Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel report, salvati come file XLSX e aperti in Excel. Seguire quindi le istruzioni successive per sotto il video per fare una prova in prima persona.
 
@@ -38,7 +38,7 @@ Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel 
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
 
 ## <a name="from-a-visualization-in-a-report"></a>Da una visualizzazione in un report
-Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](../sample-procurement.md) in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Aggiungere una nuova pagina del report vuota. Seguire quindi questa procedura per aggiungere un'aggregazione e un filtro a livello di visualizzazione.
+Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](../sample-procurement.md) in Visualizzazione di modifica. Aggiungere una nuova pagina del report vuota. Seguire quindi questa procedura per aggiungere un'aggregazione e un filtro a livello di visualizzazione.
 
 1. Creare un nuovo grafico a colonne.  Nel riquadro Campi, selezionare **Location > City** e **Invoice > Discount Percent**.  Potrebbe essere necessario spostare **Discount Percent** nell'area Value. 
 
@@ -129,9 +129,6 @@ I progettisti di report di Power BI controllano i tipi di opzioni per l'esportaz
   2. Dalla scheda **Dati** selezionare **Carica dati esterni** > **da testo**.
 * Gli amministratori di Power BI hanno la possibilità di disabilitare l'esportazione dei dati.
 
-## <a name="next-steps"></a>Passaggi successivi
-[Dashboard in Power BI](../consumer/end-user-dashboards.md)  
-[Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

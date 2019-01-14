@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003226"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008604"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Connettersi a Zuora con Power BI
 Zuora per Power BI consente di visualizzare dati importanti relativi a ricavi, fatturazione e sottoscrizioni. È possibile usare il dashboard e i report predefiniti per analizzare le tendenze di utilizzo, tenere traccia di fatture e pagamenti e monitorare i ricavi ricorrenti oppure personalizzare dashboard e report in base alle esigenze specifiche.
@@ -75,7 +75,7 @@ It also includes these calculated measures:
 | Account: Cancelled Subscriptions |Numero di account che hanno annullato una sottoscrizione in un periodo di tempo. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
 | Account: Payment Errors |Valore totale degli errori di pagamento. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
 | Revenue Schedule Item: Recognized Revenue |Fatturato riconosciuto totale in un periodo contabile. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
-| Subscription: New Subscriptions |Numero di nuove sottoscrizioni in un periodo di tempo. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Sottoscrizione: New Subscriptions |Numero di nuove sottoscrizioni in un periodo di tempo. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
 | Invoice: Invoice Items |Importi totali addebiti per voci fattura in un periodo di tempo. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Invoice: Taxation Items |Importi totali imposte per voci di imposta in un periodo di tempo. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Invoice: Invoice Item Adjustments |Importi totali rettifiche di voci fattura in un periodo di tempo. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |

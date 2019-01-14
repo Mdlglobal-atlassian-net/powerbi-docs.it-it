@@ -1,6 +1,6 @@
 ---
-title: Metriche di utilizzo per dashboard e report
-description: Come visualizzare, salvare e usare le metriche di utilizzo per i dashboard e i report di Power BI. Misurare e massimizzare l'impatto con le metriche di utilizzo per gli autori di contenuti.
+title: Monitorare le metriche di utilizzo per dashboard e report
+description: Come visualizzare, salvare e usare le metriche di utilizzo per i dashboard e i report di Power BI.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -9,21 +9,21 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7aad6b0e3dd38c795d886d1aba26a82a8529c01
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: 435f7ec433e45202ef2b5ddbd9a9ffb996f84129
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649372"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983785"
 ---
-# <a name="usage-metrics-for-dashboards-and-reports"></a>Metriche di utilizzo per dashboard e report
+# <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorare le metriche di utilizzo per dashboard e report di Power BI
 
 Se si creano dashboard e report, le metriche di utilizzo aiutano a comprenderne l'impatto. L'esecuzione di metriche di utilizzo per dashboard o report permette di scoprire come vengono usati questi elementi all'interno dell'organizzazione, cosa viene usato, chi usa che cosa e per quale motivo lo usa.  
 
 > [!NOTE]
-> Le metriche di utilizzo tengono traccia dei report incorporati in SharePoint Online. Le metriche di utilizzo tuttavia non tengono traccia dell'incorporamento di dashboard e report tramite il flusso di lavoro di tipo "le credenziali sono di proprietà dell'utente" o "le credenziali sono di proprietà dell'app". Le metriche di utilizzo non tengono traccia neanche dell'incorporamento dei report tramite [Pubblica sul Web](service-publish-to-web.md).
+> Le metriche di utilizzo tengono traccia dei report incorporati in SharePoint Online. Tuttavia non tengono traccia dell'incorporamento di dashboard e report effettuato usando il flusso di lavoro di tipo "le credenziali sono di proprietà dell'utente" o "le credenziali sono di proprietà dell'app". Le metriche di utilizzo inoltre non tengono traccia dell'incorporamento dei report effettuato con [Pubblica sul Web](service-publish-to-web.md).
 
 Questi report sulle metriche di utilizzo sono di sola lettura. Tuttavia, è possibile personalizzare un report sulle metriche di utilizzo selezionando "Salva con nome". Questa operazione crea un nuovo set di dati e converte il report di sola lettura in un report Power BI modificabile con funzionalità complete. Il report personalizzato non solo contiene metriche per il dashboard o il report selezionato, ma consente anche di accedere alle metriche di utilizzo per tutti i dashboard o i report nell'area di lavoro selezionata, se si rimuove il filtro predefinito. E consente anche di visualizzare i nomi degli utenti finali.
 
@@ -33,7 +33,7 @@ Questi report sulle metriche di utilizzo sono di sola lettura. Tuttavia, è poss
 
 Sapere come viene usato il contenuto consente di dimostrare l'impatto e assegnare priorità agli interventi. Le metriche di utilizzo possono mostrare che uno dei report viene utilizzato ogni giorno da un importante segmento dell'organizzazione e potrebbe mostrare che un dashboard creato dall'utente non viene affatto visualizzato. Questo tipo di commenti e suggerimenti è estremamente utile nel guidare gli interventi.
 
-È possibile eseguire report sulle metriche di utilizzo solo nel servizio Power BI.  Tuttavia, se si salva un report sulle metriche di utilizzo o lo si aggiunge a un dashboard, è possibile aprire e interagire con questo report sui dispositivi mobili.
+È possibile eseguire report sulle metriche di utilizzo solo nel servizio Power BI.  Se tuttavia si salva un report sulle metriche di utilizzo o lo si aggiunge a un dashboard, è possibile aprire e usare il report nei dispositivi mobili.
 
 ### <a name="prerequisites"></a>Prerequisiti
 
@@ -62,7 +62,7 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
     ![Le metriche sono pronte](media/service-usage-metrics/power-bi-usage-metrics-ready.png)
 4. Per aprire i risultati, selezionare **Visualizza metriche di utilizzo**.
 
-    Le metriche di utilizzo possono essere un potente alleato quando si distribuiscono e si aggiornano dashboard e report Power BI. Come scegliere quali pagine del report è utile mantenere e quali eliminare? Sezionare in base alla **pagina del report** per scoprirlo. Come determinare se è opportuno creare un layout mobile per il dashboard? Sezionare in base alle **piattaforme** per scoprire quanti utenti accedono al contenuto tramite l'app per dispositivi mobili e quanti tramite il Web browser.
+    Le metriche di utilizzo sono un potente alleato quando si distribuiscono e si aggiornano dashboard e report di Power BI. Come scegliere quali pagine del report è utile mantenere e quali eliminare? Sezionare in base alla **pagina del report** per scoprirlo. Come determinare se è opportuno creare un layout mobile per il dashboard? Sezionare in base alle **piattaforme** per scoprire quanti utenti accedono al contenuto tramite l'app per dispositivi mobili e quanti tramite il Web browser.
 
 5. Facoltativamente, passare il puntatore del mouse su una visualizzazione e selezionare l'icona a forma di puntina per aggiungere la visualizzazione a un dashboard. In alternativa, dalla barra dei menu superiore selezionare **Aggiungi pagina dinamica** per aggiungere l'intera pagina a un dashboard. Dal dashboard è possibile monitorare le metriche di utilizzo con maggiore facilità oppure condividerle con altri utenti.
 
@@ -75,7 +75,7 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
 | --- | --- | --- | --- |
 | Filtro dei dati del metodo di distribuzione |sì |sì |Il modo in cui gli utenti hanno ottenuto l'accesso al contenuto. Sono disponibili 3 metodi: gli utenti possono accedere al dashboard o al report se sono membri di un'[area di lavoro appl.](consumer/end-user-experience.md), consentendo la [condivisione del loro contenuto](service-share-dashboards.md) o installando un pacchetto/un'app di contenuto.  Si noti che le visualizzazioni tramite app sono conteggiate come "pacchetto di contenuto". |
 | Filtro dei dati delle piattaforme |sì |sì |L'accesso al dashboard o al report è stato eseguito attraverso il servizio Power BI (PowerBI.com) o un dispositivo mobile? I dispositivi mobili includono tutte le app per iOS, Android e Windows. |
-| Filtro dei dati pagine del report |no |sì |Se il report contiene più di una pagina filtrarlo in base alla pagina (o alle pagine) visualizzata. Se viene visualizzata un'opzione di elenco per "Vuoto", significa che la pagina del report è stata aggiunta di recente (entro 24 ore il nome effettivo della nuova pagina verrà visualizzato nell'elenco del filtro dei dati) e/o che le pagine del report sono state eliminate. "Vuoto" acquisisce questo tipo di situazioni. |
+| Filtro dei dati pagine del report |no |sì |Se il report contiene più di una pagina filtrarlo in base alla pagina (o alle pagine) visualizzata. Se viene visualizzata un'opzione di elenco per "Vuoto", significa che la pagina del report è stata aggiunta di recente (entro 24 ore il nome effettivo della nuova pagina viene visualizzato nell'elenco del filtro dei dati) e/o che le pagine del report sono state eliminate. "Vuoto" acquisisce questo tipo di situazioni. |
 | Visualizzazioni al giorno |sì |sì |Numero totale delle visualizzazioni al giorno: per visualizzazione si intende il caricamento di una pagina del report o del dashboard da parte di un utente. |
 | Visualizzatori unici al giorno |sì |sì |Numero di utenti *diversi* che hanno visualizzato il dashboard o il report (in base all'account utente AAD). |
 | Visualizzazioni per utente |sì |sì |Numero di visualizzazioni negli ultimi 90 giorni, suddivise per i singoli utenti. |
@@ -105,7 +105,7 @@ In più, il set di dati sottostante include i dettagli di utilizzo per tutti i d
 
 ### <a name="what-is-created-when-using-save-as"></a>Cosa viene creato quando si usa "Salva con nome"?
 
-Quando Power BI crea il report con tutte le funzionalità, crea anche un nuovo set di dati **costituito da tutti i dashboard e report contenuti nell'area di lavoro corrente** a cui gli utenti hanno avuto accesso negli ultimi 90 giorni. Si supponga ad esempio di avere un'area di lavoro denominata "Sales" (Vendite) che contiene tre dashboard e due report, e che si crei un report sulle metriche di utilizzo nel dashboard "Northeast" (Nordest). Si supponga quindi di usare **Salva con nome** per personalizzarlo e convertirlo in un report con tutte le funzionalità. I set di dati per questo nuovo report contengono le metriche di utilizzo *non solo del dashboard denominato "Northeast" (Nordest)* ma anche di tutti e tre i dashboard nell'area di lavoro "Sales" (Vendite). Per impostazione predefinita, il report visualizzerà i dati per il dashboard "Northeast" (Nordest) e sarà necessario [rimuovere un filtro](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (con un solo clic del mouse) per visualizzare i dati per tutti e tre i dashboard.
+Quando Power BI crea il report con tutte le funzionalità, crea anche un nuovo set di dati **costituito da tutti i dashboard e report contenuti nell'area di lavoro corrente** a cui gli utenti hanno avuto accesso negli ultimi 90 giorni. Si supponga ad esempio di avere un'area di lavoro denominata "Sales" (Vendite) che contiene tre dashboard e due report, e che si crei un report sulle metriche di utilizzo nel dashboard "Northeast" (Nordest). Si supponga quindi di usare **Salva con nome** per personalizzarlo e convertirlo in un report con tutte le funzionalità. I set di dati per questo nuovo report contengono le metriche di utilizzo *non solo del dashboard denominato "Northeast" (Nordest)* ma anche di tutti e tre i dashboard nell'area di lavoro "Sales" (Vendite). Per impostazione predefinita, il report visualizza i dati per il dashboard "Northeast" (Nordest) e sarà necessario [rimuovere un filtro](#remove-the-filter-to-see-all-the-usage-metrics-data-in-the-workspace) (con un solo clic del mouse) per visualizzare i dati per tutti e tre i dashboard.
 
 ### <a name="create-a-copy-of-the-usage-report-using-save-as"></a>Creare una copia del report di utilizzo usando "Salva con nome"
 
@@ -128,7 +128,7 @@ Quando si crea una copia usando "Salva con nome" (copia personalizzata), Power B
 
 Per visualizzare le metriche di tutti i dashboard o di tutti i report nell'area di lavoro, è necessario rimuovere un filtro. Per impostazione predefinita, il report personalizzato viene filtrato per visualizzare le metriche solo per il dashboard o report usato per la creazione.
 
-Ad esempio, se è stato usato il dashboard denominato "European sales" (Vendite europee) per creare il nuovo report personalizzato, verranno visualizzati solo i dati di utilizzo del dashboard "European sales" (Vendite europee). Per rimuovere il filtro e abilitare i dati di tutti i dashboard in quell'area di lavoro:
+Ad esempio, se è stato usato il dashboard denominato "European sales" (Vendite europee) per creare il nuovo report personalizzato, vengono visualizzati solo i dati di utilizzo del dashboard "European sales" (Vendite europee). Per rimuovere il filtro e abilitare i dati di tutti i dashboard in quell'area di lavoro:
 
 1. Aprire il report personalizzato nella visualizzazione di modifica.
 
@@ -153,7 +153,7 @@ I report sulle metriche di utilizzo sono una funzionalità che l'amministratore 
 
     ![Metriche di utilizzo abilitate](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
-Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del creatore di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account verranno quindi visualizzate nel report come *Senza nome*.
+Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del creatore di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account vengono quindi visualizzate nel report come *Senza nome*.
 
 Quando disabilitano le metriche di utilizzo per l'intera organizzazione, gli amministratori possono usare l'opzione **Elimina tutto il contenuto della metrica di utilizzo esistente** per eliminare tutti i report esistenti e i riquadri del dashboard creati usando i report e i set di dati delle metriche di utilizzo. Questa opzione rimuove completamente l'accesso ai dati delle metriche di utilizzo per tutti gli utenti dell'organizzazione che le usano. Occorre prestare attenzione, perché l'eliminazione del contenuto delle metriche di utilizzo è irreversibile.
 
@@ -169,22 +169,31 @@ Power BI è disponibile in cloud nazionali separati. Questi cloud offrono gli st
 * Alcuni tipi di visualizzazioni non sono inclusi nelle metriche di utilizzo, come descritto in precedenza in questo articolo.
 * Le metriche di utilizzo potrebbero talvolta sovrastimare le attività, ad esempio quando il client viene aggiornato senza necessità di inviare una richiesta al servizio Power BI.
 
+## <a name="frequently-asked-questions"></a>Domande frequenti
 
 Oltre alle potenziali differenze tra i log di controllo e le metriche di utilizzo, le domande e risposte seguenti sulle metriche di utilizzo possono essere utili per gli utenti e gli amministratori:
 
-D:    non è possibile eseguire le metriche di utilizzo per un dashboard o un report R:    è possibile visualizzare solo le metriche di utilizzo di cui si è proprietari o che si è autorizzati a modificare.
+**D:**    non è possibile eseguire le metriche di utilizzo per un dashboard o un report
 
-D:    le metriche di utilizzo acquisiscono viste da dashboard e report incorporati?
-R:    le metriche di utilizzo attualmente non supportano l'acquisizione dell'utilizzo per dashboard e report incorporati e per il flusso [Pubblica sul Web](service-publish-to-web.md).          In questi casi, è consigliabile usare le piattaforme di analisi Web esistenti per tenere traccia dell'utilizzo dell'app o del portale di hosting.
+**R:**    è possibile visualizzare solo le metriche di utilizzo di cui si è proprietari o che si è autorizzati a modificare.
 
-D:    non è possibile eseguire le metriche di utilizzo in nessun contenuto.
-R1:    gli amministratori possono disattivare questa funzionalità per la loro organizzazione.  Contattare l'amministratore per verificare se è questo il caso.
-R2:    le metriche di utilizzo sono una funzionalità di Power BI Pro.
+**D:**    le metriche di utilizzo acquisiscono viste da dashboard e report incorporati?
 
-D:    i dati non sembrano essere aggiornati. Ad esempio, i metodi di distribuzione non vengono visualizzati, mancano le pagine del report e così via. R:    l'aggiornamento dei dati può richiedere fino a 24 ore.
+**R:**    le metriche di utilizzo attualmente non supportano l'acquisizione dell'utilizzo per dashboard e report incorporati e per il flusso [Pubblica sul Web](service-publish-to-web.md).          In questi casi, è consigliabile usare le piattaforme di analisi Web esistenti per tenere traccia dell'utilizzo dell'app o del portale di hosting.
 
-D:    ci sono quattro report nell'area di lavoro, ma il report sulle metriche di utilizzo ne visualizza solo 3.
-R:    il report sulle metriche di utilizzo include solo i report (o i dashboard) a cui gli utenti hanno avuto accesso negli ultimi 90 giorni.  Se un report (o dashboard) non viene visualizzato, è probabile che non sia stato usato per oltre 90 giorni.
+**D:**    non è possibile eseguire le metriche di utilizzo in nessun contenuto.
+
+**R1:**    gli amministratori possono disattivare questa funzionalità per la loro organizzazione.  Contattare l'amministratore per verificare se è questo il caso.
+
+**R2:**    le metriche di utilizzo sono una funzionalità di Power BI Pro.
+
+**D:**    i dati non sembrano essere aggiornati. Ad esempio, i metodi di distribuzione non vengono visualizzati, mancano le pagine del report e così via.
+
+**R:**    l'aggiornamento dei dati può richiedere fino a 24 ore.
+
+**D:**    ci sono quattro report nell'area di lavoro, ma il report sulle metriche di utilizzo ne visualizza solo tre.
+
+**R:**    il report sulle metriche di utilizzo include solo i report (o i dashboard) a cui gli utenti hanno avuto accesso negli ultimi 90 giorni.  Se un report (o dashboard) non viene visualizzato, è probabile che non sia stato usato per oltre 90 giorni.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

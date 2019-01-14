@@ -1,24 +1,24 @@
 ---
-title: Aggregazioni (somma, media, massima e così via) nelle visualizzazioni
-description: Modificare l'aggregazione in un grafico (somma, media, valore massimo e così via) in Power BI
+title: Usare le aggregazioni (somma, media e così via) nel servizio Power BI
+description: Informazioni su come modificare l'aggregazione in un grafico (somma, media, valore massimo e così via) nel servizio Power BI.
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026478"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983716"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Aggregazioni nelle visualizzazioni di Power BI
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Usare le aggregazioni (somma, media e così via) nel servizio Power BI
 ## <a name="what-is-an-aggregate"></a>Che cos'è un’aggregazione?
 In alcuni casi è utile combinare matematicamente i valori dei dati. L'operazione matematica potrebbe essere Somma, Media, Massimo, Conteggio e così via. La combinazione dei valori dei dati viene definita *aggregazione*. Il risultato di tale operazione matematica è un'*aggregazione*. 
 
@@ -70,8 +70,8 @@ Si supponga di avere un grafico che somma le unità vendute per prodotti diversi
 
 Alcune opzioni possono essere disponibili per l'aggregazione di un campo:
 
-* **Non riepilogare**. Con questa opzione selezionata, ogni valore nel campo viene gestito separatamente e non viene riepilogato. Questa opzione viene usata spesso quando si ha una colonna di ID numerici che non deve essere sommata.
-* **Somma**. Aggiunge tutti i valori nel campo specificato.
+* **Non riepilogare**. Con questa opzione selezionata, ogni valore nel campo viene gestito separatamente e non viene riepilogato. Usare questa opzione se si ha una colonna di ID numerici che non devono essere sommati.
+* **Somma**. Somma tutti i valori di un campo.
 * **Media**. Acquisisce una media aritmetica dei valori.
 * **Minimo**. Mostra il valore più basso.
 * **Massimo**. Mostra il valore più alto.
@@ -79,7 +79,7 @@ Alcune opzioni possono essere disponibili per l'aggregazione di un campo:
 * **Conteggio (Distinct)**. Conta il numero di valori diversi nel campo.
 * **Deviazione Standard**.
 * **Varianza**.
-* **Mediana**.  Mostra il valore mediano (intermedio). Questo è il valore con lo stesso numero di elementi sopra e sotto.  Se sono presenti due mediane, Power BI ne calcola la media.
+* **Mediana**.  Mostra il valore mediano (intermedio). Questo valore ha lo stesso numero di elementi prima e dopo di esso.  Se sono presenti due mediane, Power BI ne calcola la media.
 
 Ad esempio, questi dati:
 
@@ -109,7 +109,7 @@ produrrebbero i risultati seguenti:
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Creare un'aggregazione usando un campo categoria (testo)
 È anche possibile aggregare un campo non numerico. Ad esempio, se si ha un campo relativo al nome del prodotto, è possibile aggiungerlo come valore e impostarlo su **Conteggio**, **Conteggio valori univoci**, **Primo** o **Ultimo**. 
 
-1. In questo esempio il campo **Product** è stato trascinato nell'area Valori. L'area Valori viene in genere usata per i campi numerici. Power BI riconosce che si tratta di un campo di testo, imposta l'aggregazione su **Non riepilogare** e presenta una tabella con una singola colonna.
+1. In questo esempio il campo **Product** è stato trascinato nell'area Valori. L'area Valori viene in genere usata per i campi numerici. Power BI riconosce che questo campo è un campo di testo, imposta l'aggregazione su **Non riepilogare** e presenta una tabella con una singola colonna.
    
    ![Campo Product nell'area Valori](media/service-aggregates/power-bi-aggregate-value.png)
 2. Se si cambia l'aggregazione dal valore predefinito **Non riepilogare** a **Conteggio (Distinct)**, Power BI conta il numero di prodotti diversi. In questo caso sono presenti 4 prodotti.
@@ -141,11 +141,11 @@ R4:  la quarta possibilità è che il campo venga usato per un asse. Su un asse 
 >[!NOTE]
 >L'eccezione a questa regola è rappresentata dai grafici a dispersione, che *richiedono* valori aggregati per gli assi X e Y.
 
-D:  perché non è possibile aggregare i campi di testo per le origini dati SSAS?
+D:  Perché non è possibile aggregare campi di testo per le origini dati SQL Server Analysis Services (SSAS)?
 
-R:  le connessioni dinamiche a SSAS MD non consentono aggregazioni sul lato client. Sono incluse first, last, avg, min, max e sum.
+R:  Le connessioni dinamiche ai modelli multidimensionali SSAS non consentono aggregazioni sul lato client, incluse quelle di tipo first, last, avg, min, max e sum.
 
-D:  è disponibile un grafico a dispersione e si vuole che il campo *non* venga aggregato.  in un grafico a dispersione?
+D:  è disponibile un grafico a dispersione e si vuole che il campo *non* venga aggregato.  Come si procede?
 
 R:  aggiungere il campo al bucket **Dettagli** e non ai bucket degli assi X o Y.
 

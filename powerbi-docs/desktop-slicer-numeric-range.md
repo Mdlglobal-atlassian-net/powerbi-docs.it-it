@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669843"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983624"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop
 Con il **filtro dei dati per l'intervallo numerico**, è possibile applicare qualsiasi filtro a qualsiasi colonna numerica nel modello di dati. Si può decidere di usare il filtro **Tra** su più numeri oppure **Minore o uguale a** o **Maggiore o uguale a** rispetto a un numero. Anche se può sembrare semplice, è un modo molto efficace per filtrare i dati.
@@ -54,6 +54,14 @@ Infine, quando si seleziona **Maggiore o uguale a**, il punto di controllo a des
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Allineamento ai numeri interi con il filtro dei dati per l'intervallo numerico
 
 Se i dati del campo sottostante sono di tipo **numero intero**, un filtro dei dati di intervallo numerico verrà allineato ai numeri interi. In questo modo il filtro dei dati sarà allineato correttamente ai numeri interi. I campi di tipo **numero decimale** consentono di immettere o selezionare le frazioni di un numero. La formattazione applicata nella casella di testo corrisponde alla formattazione impostata nel campo, anche se è possibile digitare o selezionare numeri più precisi.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>Visualizzare la formattazione con il filtro dei dati dell'intervallo di date
+
+Quando si usa un filtro dei dati per visualizzare o impostare un intervallo di date, il formato della data viene sempre visualizzato usando **Data breve**, in base alle impostazioni locali del browser o del sistema operativo dell'utente. Questo è il formato di visualizzazione indipendentemente dalle impostazioni del tipo di dati per il modello o i dati sottostanti. 
+
+Ad esempio, si può avere un formato di data estesa per il tipo di dati sottostante (ad esempio *gggg, g MMMM aaaa* che formatta una data in altri oggetti visivi o circostanze come *Mercoledì, 14 marzo 2001*), ma la stessa data nel filtro dei dati dell'intervallo di date verrebbe visualizzata come *14/03/2001*.
+
+La visualizzazione del formato **Data breve** nel filtro dei dati assicura che la lunghezza della stringa rimanga coerente e compatta nel filtro. 
 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni

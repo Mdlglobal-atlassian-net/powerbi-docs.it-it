@@ -5,20 +5,20 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 2cf6b351c00d89ad6e87b6bc95661dab57078bac
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549741"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008259"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Connettersi a VMob con Power BI
-Tenere traccia ed esplorare i dati di VMob è facile con Power BI e il pacchetto di contenuto VMob. Power BI recupera i dati seguenti: Statistiche utenti per tutti i tempi e negli ultimi 30 giorni, indicatore KPI di vendita al dettaglio per gli ultimi 30 giorni e le prestazioni della campagna per gli ultimi 30 giorni.
+Tenere traccia ed esplorare i dati di VMob è facile con Power BI e il pacchetto di contenuto VMob. Power BI recupera i dati seguenti: statistiche utenti per tutti i tempi e negli ultimi 30 giorni, indicatore KPI di vendita al dettaglio per gli ultimi 30 giorni e prestazioni della campagna per gli ultimi 30 giorni.
 
 Connettersi al [pacchetto di contenuto VMob](https://app.powerbi.com/getdata/services/vmob) per Power BI.
 

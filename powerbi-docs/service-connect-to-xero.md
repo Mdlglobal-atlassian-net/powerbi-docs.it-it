@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546755"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008857"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Connettersi a Xero con Power BI
 Xero è un software per la contabilità online facile da usare, progettato in modo specifico per le piccole imprese. È possibile creare visualizzazioni accattivanti basate sui dati finanziari di Xero con questo pacchetto di contenuto per Power BI. Il dashboard predefinito include molte metriche relative alle piccole imprese, ad esempio disponibilità liquide, ricavi e costi, tendenza profitti e perdite, scadenziario e ritorno sugli investimenti.
@@ -81,7 +81,7 @@ Il set di dati include anche le tabelle seguenti per personalizzare i report e i
 * Account Xero
 
 ## <a name="system-requirements"></a>Requisiti di sistema
-I ruoli seguenti sono necessari per accedere al pacchetto di contenuto Xero: "Standard + Report"o "Advisor".
+I ruoli seguenti sono necessari per accedere al pacchetto di contenuto Xero: "Standard + Report" o "Advisor".
 
 <a name="FindingParams"></a>
 

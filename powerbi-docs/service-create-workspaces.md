@@ -7,25 +7,25 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f12974d4e53217fc6c29ad172153ec9c51ecc44e
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: 55f592101954ae5c0724fb5b48fb2571a1bdfc51
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451422"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983693"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Creare aree di lavoro con i colleghi in Power BI
 
-In Power BI è possibile creare *aree di lavoro*, ovvero spazi per collaborare con i colleghi per creare e ridefinire raccolte di dashboard e report. È possibile quindi riunire questi elementi in *app* da distribuire all'intera organizzazione o a specifici utenti o gruppi. 
+In Power BI è possibile creare *aree di lavoro*, ovvero spazi per collaborare con i colleghi per creare e ridefinire raccolte di dashboard e report. È possibile quindi riunire la raccolta in *app* da distribuire all'intera organizzazione o a specifici utenti o gruppi. 
 
 ![App di Power BI](media/service-create-workspaces/power-bi-apps-left-nav.png)
 
 Quando si crea un'area di lavoro, si crea un gruppo di Office 365 sottostante associato. Tutta l'amministrazione dell'area di lavoro viene gestita in Office 365. È possibile aggiungere altri colleghi a queste aree di lavoro come membri o amministratori. Nell'area di lavoro tutti gli utenti possono collaborare su dashboard, report e altri articoli che si intende pubblicare e rendere disponibili a un pubblico più ampio. Tutti gli utenti che vengono aggiunti a un'area di lavoro per le app devono possedere una licenza di Power BI Pro. 
 
-**Non tutti lo sanno, ma** Power BI ha introdotto una nuova esperienza dell'area di lavoro in anteprima. Vedere [Creare le nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md) per scoprire come le aree di lavoro cambieranno in futuro. 
+**Non tutti lo sanno, ma** Power BI ha introdotto una nuova esperienza dell'area di lavoro in anteprima. Vedere [Organizzare il lavoro nelle nuove aree di lavoro (anteprima)](service-new-workspaces.md) per informazioni dettagliate sulle nuove aree di lavoro. 
 
 ## <a name="video-apps-and-app-workspaces"></a>Video: Video: app e aree di lavoro per le app
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -84,12 +84,12 @@ Quando il contenuto è pronto, è possibile scegliere quali dashboard e report p
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Quali sono le differenze tra le app e i pacchetti di contenuto aziendali?
 Le app rappresentano l'evoluzione dei pacchetti di contenuto aziendali. Se si hanno già pacchetti di contenuto aziendali, questi continueranno a funzionare contemporaneamente alle app. Le app e i pacchetti di contenuto hanno alcune differenze importanti. 
 
-* Dopo che gli utenti aziendali avranno installato un pacchetto di contenuto, questo perde la propria identità raggruppata: è solo un elenco di dashboard e report intervallati da altri dashboard e report. Le app, d'altra parte, mantengono l'identità e il raggruppamento anche dopo l'installazione. Questo semplifica agli utenti aziendali di continuare a passare alle app nel tempo.
+* Dopo che gli utenti aziendali avranno installato un pacchetto di contenuto, questo perde la propria identità raggruppata: è solo un elenco di dashboard e report intervallati da altri dashboard e report. Le app, d'altra parte, mantengono l'identità e il raggruppamento anche dopo l'installazione. Questo raggruppamento rende semplice per gli utenti aziendali continuare a passare alle app nel tempo.
 * È possibile creare più pacchetti di contenuto da qualsiasi area di lavoro, ma un'app ha una relazione 1:1 con la relativa area di lavoro. 
 * Nel corso del tempo i pacchetti di contenuto aziendali verranno deprecati, quindi si consiglia di creare app da oggi in poi.  
-* Con l'anteprima della nuova esperienza dell'area di lavoro, stiamo compiendo i primi passi verso la deprecazione dei pacchetti di contenuto aziendali. Non sarà possibile utilizzarli o crearli nelle aree di lavoro dell'anteprima.
+* Con l'anteprima della nuova esperienza dell'area di lavoro, stiamo compiendo i primi passi verso la deprecazione dei pacchetti di contenuto dell'organizzazione. Non sarà possibile utilizzarli o crearli nelle aree di lavoro dell'anteprima.
 
-Per fare un confronto tra le nuove aree di lavoro per le app e quelle correnti, vedere [Quali sono le differenze tra le nuove aree di lavoro per le app e quelle correnti?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces). 
+Per fare un confronto, vedere [Quali sono le differenze tra le nuove aree di lavoro per le app e quelle correnti?](service-new-workspaces.md#how-are-the-new-workspaces-different-from-current-workspaces). 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Installare e usare app in Power BI](service-create-distribute-apps.md)
