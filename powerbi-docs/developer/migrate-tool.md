@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388641"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290404"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Strumento di migrazione di Power BI Embedded
 Questo strumento di migrazione può essere usato per copiare i report dal servizio Power BI Embedded Azure (PaaS) al servizio Power BI (SaaS).
@@ -84,7 +84,7 @@ Per aprire il piano di migrazione esistente, eseguire le operazioni seguenti.
     ![](media/migrate-tool/migrate-tool-open-plan.png)
 2. Selezionare il file di migrazione, quindi scegliere **Open**.
 
-## <a name="step-1-analyze--plan-migration"></a>Passaggio 1: Analizzare e pianificare la migrazione
+## <a name="step-1-analyze--plan-migration"></a>Passaggio 1: Analisi e pianificazione della migrazione
 La scheda **Analyze & Plan Migration** visualizza il contenuto attuale del gruppo di risorse della sottoscrizione di Azure.
 
 ![Scheda di analisi e pianificazione della migrazione](media/migrate-tool/migrate-tool-step1.png)
@@ -108,7 +108,7 @@ La sezione del report elencherà i report disponibili indicando se possono esser
 ### <a name="target-structure"></a>Struttura di destinazione
 La **struttura di destinazione** è quella in cui si indica allo strumento dove verranno scaricati i report e come caricarli.
 
-#### <a name="download-plan"></a>Download Plan (Piano di download)
+#### <a name="download-plan"></a>Piano di download
 Verrà creato automaticamente un percorso per l'utente, che è possibile modificare a piacimento. Se si modifica il percorso, è necessario selezionare **Update paths** (Aggiorna percorsi).
 
 > [!NOTE]
@@ -153,7 +153,7 @@ Lo stato *Fine* indicherà che il download è stato completato direttamente, rif
 
 Una volta completato il download, selezionare la scheda **Create Groups**.
 
-## <a name="step-3-create-groups"></a>Passaggio 3: Creare gruppi
+## <a name="step-3-create-groups"></a>Passaggio 3: Crea gruppi
 Dopo avere scaricato i report disponibili, è possibile passare alla scheda **Create Groups**, che creerà le aree di lavoro per le app all'interno del servizio Power BI in base al piano di migrazione creato, con il nome fornito nella scheda **Upload** in **Analyze & Plan Migration**.
 
 ![](media/migrate-tool/migrate-tool-create-groups.png)
@@ -172,7 +172,7 @@ Verrà creata un'area di lavoro per le app all'interno del servizio Power BI, ma
 
 Dopo aver creato l'area di lavoro, è possibile passare alla scheda **Upload**.
 
-## <a name="step-4-upload"></a>Passaggio 4: Upload
+## <a name="step-4-upload"></a>Passaggio 4: Carica
 Nella scheda **Upload** verranno caricati i report nel servizio Power BI. Verrà visualizzato un elenco dei report caricati nella scheda Download assieme al nome del gruppo di destinazione basato sul piano di migrazione.
 
 ![](media/migrate-tool/migrate-tool-upload-tab.png)

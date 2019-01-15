@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310453"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291762"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -31,7 +31,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 
 | **Origine dati** | **Dati memorizzati nella cache** | **Aggiornamento pianificato** | **Dinamico/DirectQuery** |
 | --- | --- | --- | --- |
-| Database SQL Server |Sì |Sì |Sì |
+| Database di SQL Server |Sì |Sì |Sì |
 | SQL Server Analysis Services |Sì |Sì |Sì |
 | Database SQL di Azure |Sì |Sì |Sì |
 | Azure SQL Data Warehouse |Sì |Sì |Sì |
@@ -39,11 +39,11 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Database di Access |Sì |Sì |No |
 | Active Directory |Sì |Sì |No |
 | Amazon Redshift |Sì |No |No |
-| Archivio BLOB Azure |Sì |Sì |No |
+| Archiviazione BLOB di Azure |Sì |Sì |No |
 | Azure Data Lake Store |Sì |No |No |
 | Azure HDInsight (HDFS) |Sì |No |No |
 | Azure HDInsight (Spark) |Sì |Sì |No |
-| Archivio tabelle Azure |Sì |Sì |No |
+| Archiviazione tabelle di Azure |Sì |Sì |No |
 | Dynamics 365 (online) |Sì |No |No |
 | Facebook |Sì |No |No |
 | Cartella |Sì |Sì |No |
@@ -60,7 +60,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | OLE DB |Sì |Sì |No |
 | Database Oracle |Sì |Sì |Sì |
 | Database PostgreSQL |Sì |Sì |No |
-| Servizio Power BI |No |No |No |
+| servizio Power BI |No |No |No |
 | Script R |Sì |No |No |
 | Oggetti Salesforce |Sì |No |No |
 | Report di Salesforce |Sì |No |No |
@@ -68,14 +68,14 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Database SAP HANA |Sì |Sì |Sì |
 | Cartella di SharePoint (locale) |Sì |Sì |No |
 | Elenco di SharePoint (locale) |Sì |Sì |No |
-| Elenchi SharePoint Online |Sì |No |No |
+| Elenco SharePoint Online |Sì |No |No |
 | Snowflake |Sì |No |No |
 | Database di Sybase |Sì |Sì |No |
 | Database Teradata |Sì |Sì |Sì |
 | Testo/CSV |Sì |Sì |No |
 | Web |Sì |Sì |No |
 | XML |Sì |Sì |No |
-| appFigures (beta) |Sì |No |No |
+| appFigures (Beta) |Sì |No |No |
 | Database di Azure Analysis Services |Sì |No |Sì |
 | Azure Cosmos DB (Beta) |Sì |No |No |
 | Spark in Azure HDInsight (Beta) |Sì |No |No |
@@ -89,7 +89,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | IBM Netezza (Beta) |Sì |No |No |
 | Kusto (Beta) |Sì |No |No |
 | MailChimp (Beta) |Sì |No |No |
-| Microsoft Azure Consumption Insights (Beta) |Sì |No |No |
+| Informazioni dettagliate sul consumo di Microsoft Azure (beta) |Sì |No |No |
 | Mixpanel (Beta) |Sì |No |No |
 | Planview Enterprise (Beta) |Sì |No |No |
 | Projectplace (Beta) |Sì |No |No |
@@ -101,7 +101,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Stripe (Beta) |Sì |No |No |
 | SweetIQ (beta) |Sì |No |No |
 | Troux (Beta) |Sì |No |No |
-| Twilio (beta) |Sì |No |No |
+| Twilio (Beta) |Sì |No |No |
 | tyGraph (Beta) |Sì |No |No |
 | Vertica (Beta) |Sì |No |No |
 | Visual Studio Team Services (Beta) |Sì |No |No |
@@ -119,18 +119,18 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 | **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** |
 | --- | --- | --- | --- | --- |
-| Database SQL Server |No |No |Sì |Sì |
+| Database di SQL Server |No |No |Sì |Sì |
 | SQL Server Analysis Services |No |No |Sì |Sì |
 | Web |Sì |No |Sì |Sì |
 | Database SQL di Azure |No |No |Sì |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |
 | Active Directory |No |No |Sì |Sì |
 | Amazon Redshift |No |No |No |No |
-| Archivio BLOB Azure |Sì |Sì |No |No |
+| Archiviazione BLOB di Azure |Sì |Sì |No |No |
 | Azure Data Lake Store |No |No |No |No |
 | Azure HDInsight (HDFS) |No |No |No |No |
 | Azure HDInsight (Spark) |Sì |Sì |No |No |
-| Archivio tabelle Azure |No |Sì |No |No |
+| Archiviazione tabelle di Azure |No |Sì |No |No |
 | Dynamics 365 (online) |No |No |No |No |
 | Facebook |No |No |No |No |
 | Cartella |No |No |No |Sì |
@@ -146,7 +146,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | OLE DB |Sì |No |Sì |Sì |
 | Database Oracle |No |No |Sì |Sì |
 | Database PostgreSQL |No |No |Sì |No |
-| Servizio Power BI |No |No |No |No |
+| servizio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
 | Oggetti Salesforce |No |No |No |No |
 | Report di Salesforce |No |No |No |No |
@@ -154,11 +154,11 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Database SAP HANA |No |No |Sì |Sì |
 | Cartella di SharePoint (locale) |Sì |No |No |Sì |
 | Elenco di SharePoint (locale) |Sì |No |No |Sì |
-| Elenchi SharePoint Online |No |No |No |No |
+| Elenco SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
 | Database di Sybase |No |No |Sì |Sì |
 | Database Teradata |No |No |Sì |Sì |
-| appFigures (beta) |No |No |No |No |
+| appFigures (Beta) |No |No |No |No |
 | Database di Azure Analysis Services (Beta) |No |No |No |No |
 | Azure Cosmos DB (Beta) |No |No |No |No |
 | Spark in Azure HDInsight (Beta) |No |No |No |No |
@@ -172,7 +172,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | IBM Netezza (Beta) |No |No |No |No |
 | Kusto (Beta) |No |No |No |No |
 | MailChimp (Beta) |No |No |No |No |
-| Microsoft Azure Consumption Insights (Beta) |No |No |No |No |
+| Informazioni dettagliate sul consumo di Microsoft Azure (beta) |No |No |No |No |
 | Mixpanel (Beta) |No |No |No |No |
 | Planview Enterprise (Beta) |No |No |No |No |
 | Projectplace (Beta) |No |No |No |No |
@@ -184,7 +184,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Stripe (Beta) |No |No |No |No |
 | SweetIQ (beta) |No |No |No |No |
 | Troux (Beta) |No |No |No |No |
-| Twilio (beta) |No |No |No |No |
+| Twilio (Beta) |No |No |No |No |
 | tyGraph (Beta) |No |No |No |No |
 | Vertica (Beta) |No |No |No |No |
 | Visual Studio Team Services (Beta) |No |No |No |No |
@@ -197,7 +197,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 | **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** | **Autenticazione di Windows integrata** |
 | --- | --- | --- | --- | --- | --- |
-| Database SQL Server |No |No |Sì |Sì |Sì |
+| Database di SQL Server |No |No |Sì |Sì |Sì |
 | SQL Server Analysis Services |No |No |Sì |Sì |Sì |
 | Database SQL di Azure |No |No |Sì |No |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |No |

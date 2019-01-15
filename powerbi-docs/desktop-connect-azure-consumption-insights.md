@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 706fe9f3014ef14ff34100ff336fbf04b44e709c
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281012"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282541"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -166,7 +166,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | ConsumedServiceId |consumedServiceId | |Sì |
 | Costo |cost |ExtendedCost |No |
 | Centro di costo |costCenter |Centro di costo |No |
-| Data |data |Data |No |
+| Date |data |Date |No |
 | Giorno | |Giorno |No |
 | DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
@@ -180,7 +180,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
 | Month | |Month |No |
-| Prodotto |prodotto |Prodotto |No |
+| Product |prodotto |Product |No |
 | ProductId |productId | |Sì |
 | Resource Group |resourceGroup |Resource Group |No |
 | Resource Location |resourceLocation |Resource Location |No |

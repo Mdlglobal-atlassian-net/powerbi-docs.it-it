@@ -4,17 +4,17 @@ description: Informazioni sull'ottimizzazione e la gestione della memoria della 
 ms.date: 10/18/2018
 ms.topic: conceptual
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: efb0f1dfd340c0defcba8a67e0e46051d0d9be25
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266071"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293849"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Ottimizzazione e gestione delle risorse della capacità Microsoft Power BI Premium
 
@@ -55,7 +55,7 @@ Se viene eseguita una query interattiva su qualsiasi set di dati della capacità
 
 ### <a name="workloads"></a>Carichi di lavoro
 
-Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. È ora disponibile il supporto in anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Se abilitati, questi carichi di lavoro possono influire sull'utilizzo della memoria nella capacità. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads).
+Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. È ora disponibile il supporto di anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Se abilitati, questi carichi di lavoro possono influire sull'utilizzo della memoria nella capacità. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Gestione delle risorse CPU nella capacità Premium
 

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 5978443f05e039c34ff023f235624968b5eb8a3e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0e49f4b1260e293f0b6e496b06fbe5645c813c8b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250170"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278135"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
 Se si usa il pacchetto di contenuto Xero di Power BI, potrebbero essersi verificati alcuni problemi con l'aggiornamento giornaliero del pacchetto di contenuto a causa di un recente evento imprevisto del servizio Power BI.
