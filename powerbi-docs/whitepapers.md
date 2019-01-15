@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 01/09/2019
 ms.author: maggies
-ms.openlocfilehash: bff5e42b239fee572ea0a453301f154da3b999b3
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 76ea3250c3032c253b87f5f2b0713460a805787e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266094"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295814"
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
@@ -26,7 +26,7 @@ I white paper consentono di esplorare gli argomenti di Power BI a un livello pi�
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Illustra le funzionalità di Power BI Premium, sia all'avvio che nelle fasi successive. | Ottobre 2017 |
 | [Pianificazione e distribuzione di Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Questo documento fornisce indicazioni e procedure consigliate per la pianificazione e la distribuzione della capacità Premium per carichi di lavoro ben definiti.| Novembre 2017 |
 | [Pianificare la capacità di analisi incorporata con Power BI Premium](https://aka.ms/pbiewhitepaper) |Questo documento contiene indicazioni per gli sviluppatori/ISV di app per determinare la capacità più adatta alla propria attività. | Ottobre 2017 |
-| [Pianificazione della distribuzione aziendale di Power BI](https://aka.ms/pbienterprisedeploy) |Si tratta di un white paper tecnico che delinea le considerazioni per una distribuzione di Power BI aziendale con ottime prestazioni e sicura. | Luglio 2018 |
+| [Pianificazione della distribuzione aziendale di Power BI](https://go.microsoft.com/fwlink/?linkid=2057861) |Si tratta di un white paper tecnico che delinea le considerazioni per una distribuzione di Power BI aziendale con ottime prestazioni e sicura. | Luglio 2018 |
 | [Indicazioni sulla pianificazione della capacità per il server di report di Power BI](report-server/capacity-planning.md) |Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. | Marzo 2018 |
 | [Sicurezza](service-admin-power-bi-security.md) |Fornisce una spiegazione dettagliata della sicurezza all'interno di Power BI. | Luglio 2018 |
 | [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure Active Directory B2B](https://aka.ms/powerbi-b2b-whitepaper)|Questo articolo descrive come distribuire il contenuto a utenti esterni all'organizzazione usando l'integrazione di Azure Active Directory Business-to-business (AAD B2B).| Marzo 2018 |
