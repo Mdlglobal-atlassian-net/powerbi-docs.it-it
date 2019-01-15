@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cc374da84e269abe18a52270c0d9fd15987cf666
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 6d818252d60c2e6e123e4dff0c64dd5e2408cad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452615"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285738"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Avvisi per i dati nel servizio Power BI
 Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard superano i limiti impostati. 
@@ -73,7 +73,7 @@ Successivamente, Power BI invia un avviso al centro di notifica e, facoltativame
    > 
 
 ## <a name="managing-alerts"></a>Gestione degli avvisi
-Sono disponibili molti modi per gestire gli avvisi: dal riquadro del dashboard, dal menu Impostazioni di Power BI, da una sezione singola nell'[app Power BI per dispositivi mobili su iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) o nell'[app Power BI per dispositivi mobili per Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
+Sono disponibili molti modi per gestire gli avvisi: Dal riquadro del dashboard, dal menu Impostazioni di Power BI, da un singolo riquadro nell'[app Power BI per dispositivi mobili su iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) o nell'[app Power BI per dispositivi mobili per Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Dal riquadro
 1. Per modificare o rimuovere un avviso per un riquadro, aprire nuovamente la finestra **Gestisci avvisi** selezionando l'icona a forma di campana ![Icona di avviso](media/service-set-data-alerts/power-bi-bell-icon.png). Vengono visualizzati tutti gli avvisi impostati per questo riquadro.
