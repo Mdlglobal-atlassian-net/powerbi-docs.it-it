@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b88b17e428633e9d610724a8c3daa145c9928ae2
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026869"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296714"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacchetti R nel servizio Power BI
 È possibile usare il potente [linguaggio di programmazione R](https://www.r-project.org/) per creare oggetti visivi nel servizio Power BI. Nel servizio Power BI sono supportati molti pacchetti R, in numero sempre crescente, mentre altri non sono supportati.
@@ -190,7 +190,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |data.table| 1.10.4| https://cran.r-project.org/web/packages/data.table/index.html |
 |data.table| zoo| grid|
 |data.tree| 0.7.0| https://cran.r-project.org/web/packages/data.tree/index.html |
-|Set di dati| 3.4.1| N/D|
+|set di dati| 3.4.1| N/D|
 |data| 1.2-37| https://cran.r-project.org/web/packages/date/index.html |
 |DBI|0.7| https://cran.r-project.org/web/packages/DBI/index.html |
 |dbscan| 1.1-1| https://cran.r-project.org/web/packages/dbscan/index.html |

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: cb4a0f81766aa030b1981cb67a26c296dab2ba2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973932"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277205"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Campionamento di linee ad alta densità in Power BI
 A partire dalla versione di giugno 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora gli oggetti visivi che campionano i dati ad alta densità. Ad esempio, è possibile creare un grafico a linee dai risultati delle vendite dei negozi, ciascuno dei quali con più di diecimila ricevute di vendita all'anno. Un grafico a linee di tali informazioni di vendita campionerebbe i dati (selezionerebbe cioè una rappresentazione significativa dei dati, per illustrare come le vendite variano nel tempo) dai dati di ogni negozio, creando un grafico a linee multiserie che quindi rappresenta i dati sottostanti. Si tratta di una pratica comune nella visualizzazione dei dati ad alta densità. Power BI Desktop ha migliorato il campionamento dei dati ad alta densità, come descritto dettagliatamente in questo articolo.

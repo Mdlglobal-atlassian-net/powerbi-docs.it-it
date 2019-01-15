@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2757c9980bed8a0312b3a100b65c4ef47a1fd00
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: eaf61fd738c4e24f8f8b211011b005d027ef5e2c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669038"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289740"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usare collegamenti OneDrive for Business in Power BI Desktop
 Molti utenti archiviano le cartelle di lavoro di Excel nell'unità OneDrive for Business, ottima per l'uso con Power BI Desktop. Con **Power BI Desktop** è possibile usare collegamenti online per file **Excel** archiviati in **OneDrive for Business** per creare report e oggetti visivi. È possibile usare un account di gruppo di **OneDrive for Business** oppure il proprio account **OneDrive for Business** personale.

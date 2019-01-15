@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6bc8eea6138f2961457d03eaf5ef88d0327a058d
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909572"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287739"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 

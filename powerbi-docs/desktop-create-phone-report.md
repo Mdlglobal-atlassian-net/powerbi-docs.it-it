@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280904"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275319"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Creare report ottimizzati per le app per dispositivi mobili Power BI
 È possibile migliorare l'esperienza di visualizzazione dei report nelle app per dispositivi mobili su telefoni o tablet. Creare un layout verticale di un report, specifico per telefoni e tablet. In Power BI Desktop e nel servizio Power BI è possibile adattare il report modificando la disposizione degli oggetti visivi e ridimensionandoli in un layout verticale per ottenere un'esperienza ottimale. Non è necessario includerli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report ottimizzato. I lettori del report possano visualizzarli e filtrare il report con essi.
