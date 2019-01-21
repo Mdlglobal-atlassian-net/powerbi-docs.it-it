@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/20/2018
+ms.date: 01/14/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 2abca5019454067b6cdc04c3f52b6daeafb2fb85
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ebcf4a6467991bfc0d434302cd2c846ca4af1a5c
+ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285347"
+ms.lasthandoff: 01/16/2019
+ms.locfileid: "54323998"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
 
@@ -60,7 +60,7 @@ Per acquistare una capacità Premium, seguire questa procedura.
 
 1. Per completare l'acquisto, seguire la procedura.
 
-È anche possibile selezionare i collegamenti seguenti per passare direttamente alla pagina di acquisto per questo SKU. Per altre informazioni su questi SKU, vedere [Che cos'è Power BI Premium?](service-premium.md#premiumskus)
+È anche possibile selezionare i collegamenti seguenti per passare direttamente alla pagina di acquisto per questo SKU. Per altre informazioni su questi SKU, vedere [Che cos'è Power BI Premium?](service-premium.md#premium-capacity-nodes)
 
 > [!IMPORTANT]
 > Se si seleziona uno dei collegamenti seguenti viene generato un errore se non si ha il ruolo di amministratore globale di Office 365 o di amministratore fatturazione.
