@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679456"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282587"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e mira a offrire una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e alcuni quiz per verificare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -33,7 +33,7 @@ L'attenzione sarà rivolta principalmente alla comprensione delle formule DAX us
 
 **Cartella di lavoro di esempio**
 
-Il modo migliore per imparare a usare DAX consiste nel creare alcune formule di base, usarle con alcuni dati effettivi e visualizzare i risultati autonomamente. Per gli esempi e le attività qui illustrati verrà usato il file Contoso Sales Sample for Power BI Desktop Preview. Si tratta dello stesso file di esempio usato nell'articolo [Esercitazione: Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). Questo è il [file di esempio](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) da scaricare.
+Il modo migliore per imparare a usare DAX consiste nel creare alcune formule di base, usarle con alcuni dati effettivi e visualizzare i risultati autonomamente. Per gli esempi e le attività qui illustrati verrà usato il file Contoso Sales Sample for Power BI Desktop Preview. Questo è lo stesso file di esempio usato nell'articolo [Esercitazione: Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). Questo è il [file di esempio](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) da scaricare.
 
 ## <a name="lets-begin"></a>Introduzione
 L'approfondimento di DAX è imperniato su tre concetti fondamentali: *Sintassi*, *Funzioni* e *Contesto*. Naturalmente, esistono altri concetti importanti in DAX, ma la comprensione di questi tre concetti getterà la base più solida su cui fondare le proprie competenze DAX.
@@ -83,9 +83,9 @@ A questo punto verrà creata una semplice formula. Questa operazione consentirà
 ### <a name="task-create-a-measure-formula"></a>Attività: Creare una formula della misura
 Per completare questa attività, è necessario aprire il file Contoso Sales Sample Power BI Desktop.
     
-1. Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi fare clic su Nuova misura.
+1. Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi fare clic su **Nuova misura**.
     
-2. Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, Previous Quarter Sales.
+2. Nella barra della formula sostituire **Misura** digitando un nuovo nome di misura, **Previous Quarter Sales**.
     
 3. Dopo il segno di uguale, digitare le prime lettere, **CAL**, e quindi fare doppio clic sulla funzione da usare. In questa formula, si deve usare la funzione **CALCULATE**.
 
