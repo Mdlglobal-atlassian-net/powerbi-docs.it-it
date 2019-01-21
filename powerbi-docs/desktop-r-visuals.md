@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0a739e963039e61aa66e398d27fa82982eb26bb0
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: c1a4ba0a89f84cb0fce205373f1d0f00cc1479ac
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670510"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278580"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Creare oggetti visivi di Power BI usando R
 Con **Power BI Desktop**, è possibile usare **R** per visualizzare i dati.
@@ -107,7 +107,7 @@ Dopo aver specificato l'installazione di R, è possibile iniziare la creazione d
 
     ![](media/desktop-r-visuals/r-visuals-9.png)
 
-    > **Sicurezza degli script R** Gli oggetti visivi R vengono creati in base agli script R, che potrebbero contenere codice con rischi per la sicurezza o per la privacy. Quando prova a visualizzare o a interagire con un oggetto visivo R per la prima volta, un utente riceve un messaggio di avviso di sicurezza. Abilitare gli oggetti visivi R solo se l'autore e l'origine sono considerati attendibili o dopo aver esaminato e acquisito informazioni sullo script R.
+    > **Sicurezza degli script R:** gli oggetti visivi R vengono creati in base agli script R, che potrebbero contenere codice con rischi per la sicurezza o per la privacy. Quando prova a visualizzare o a interagire con un oggetto visivo R per la prima volta, un utente riceve un messaggio di avviso di sicurezza. Abilitare gli oggetti visivi R solo se l'autore e l'origine sono considerati attendibili o dopo aver esaminato e acquisito informazioni sullo script R.
     > 
     > 
 

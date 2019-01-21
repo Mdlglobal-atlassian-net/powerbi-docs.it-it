@@ -7,15 +7,15 @@ ms.author: maggies
 ms.date: 11/20/2018
 ms.topic: overview
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: ee8086a149e752d68aa8d6801844676d038257e3
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 4db2f7ca5a84563e86b3a3033daae6d83bffcf5e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289152"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291976"
 ---
 # <a name="what-is-power-bi-report-server"></a>Che cos'è Server di report di Power BI?
 
@@ -27,13 +27,13 @@ Server di report di Power BI è un server di report locale con un portale Web in
 Server di report di Power BI è simile a SQL Server Reporting Services e al servizio Power BI online, ma per aspetti diversi. Come il servizio Power BI, Server di report di Power BI ospita report di Power BI (PBIX) e file di Excel. Come Reporting Services, è una soluzione locale e ospita report impaginati (RDL). Server di report di Power BI è un soprainsieme di Reporting Services. In Server di report di Power BI si può fare tutto ciò che si fa in Reporting Services, con l'aggiunta del supporto per i report di Power BI. Per informazioni dettagliate, vedere [Confronto tra Server di report di Power BI e il servizio Power BI](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Licenze di Server di report di Power BI
-Server di report di Power BI è disponibile tramite due diverse licenze: [Power BI Premium](../service-premium.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licenza di Power BI Premium è possibile creare una distribuzione ibrida cloud e locale.  
+Il Server di report di Power BI è disponibile tramite due licenze diverse: [Power BI Premium](../service-premium.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licenza di Power BI Premium è possibile creare una distribuzione ibrida cloud e locale.  
 
 > [!NOTE]
 > Per Power BI Premium, Server di report di Power BI è incluso solo con gli SKU P. Non è incluso con gli SKU EM.
 
 ## <a name="web-portal"></a>Portale Web
-Il punto di ingresso a Server di report di Power BI è un portale Web sicuro che può essere visualizzato in qualsiasi browser moderno. Da qui si accede a tutti i report e agli indicatori KPI. Il contenuto sul portale Web è organizzato in una gerarchia di cartelle tradizionale. Nelle cartelle il contenuto viene raggruppato per tipo: report di Power BI, report per dispositivi mobili, report impaginati, indicatori KPI e cartelle di lavoro di Excel. I set di dati e le origini dati condivisi sono archiviati in cartelle personalizzate, da usare come blocchi predefiniti per i report. È possibile contrassegnare gli elementi preferiti per visualizzarli in un'unica cartella e creare direttamente gli indicatori KPI nel portale Web. 
+Il punto di ingresso a Server di report di Power BI è un portale Web sicuro che può essere visualizzato in qualsiasi browser moderno. Da qui si accede a tutti i report e agli indicatori KPI. Il contenuto sul portale Web è organizzato in una gerarchia di cartelle tradizionale. Nelle cartelle il contenuto è raggruppato per tipo: report di Power BI, report per dispositivi mobili, report impaginati, indicatori KPI e cartelle di lavoro di Excel. I set di dati e le origini dati condivisi sono archiviati in cartelle personalizzate, da usare come blocchi predefiniti per i report. È possibile contrassegnare gli elementi preferiti per visualizzarli in un'unica cartella e creare direttamente gli indicatori KPI nel portale Web. 
 
 ![Portale Web del server di report di Power BI](media/get-started/web-portal.png)
 

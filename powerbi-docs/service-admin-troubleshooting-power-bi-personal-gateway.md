@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145411"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284519"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Risoluzione dei problemi relativi a Power BI Gateway - Personal
 Di seguito sono illustrati alcuni problemi comuni che possono verificarsi quando si usa Power BI Gateway - Personal.
@@ -49,11 +49,11 @@ Quando la versione del gateway non è aggiornata, possono verificarsi molti prob
 
 Questo errore viene visualizzato in Impostazioni per \<set di dati\> se è stato impostato un aggiornamento pianificato ed è stato disinstallato e poi reinstallato il gateway personale. Quando si disinstalla un gateway personale, le credenziali dell'origine dati per un set di dati configurato per l'aggiornamento vengono rimosse dal servizio Power BI.
 
-**Soluzione:** In Power BI, andare nelle impostazioni di un set di dati. In Gestisci origini dati fare clic su Modifica credenziali per ogni origine dati con errori e accedere di nuovo all'origine dati.
+**Soluzione:** In Power BI, passare alle impostazioni di aggiornamento per un set di dati. In Gestisci origini dati fare clic su Modifica credenziali per ogni origine dati con errori e accedere di nuovo all'origine dati.
 
 **Errore: Le credenziali fornite per il set di dati non sono valide. Aggiornare le credenziali tramite un aggiornamento o nella finestra di dialogo Impostazioni origine dati per continuare.**
 
-**Soluzione**: se viene visualizzato un messaggio di credenziali, è possibile che:
+**Soluzione**: se viene visualizzato un messaggio relativo alle credenziali:
 
 * Verificare che i nomi utente e le password usati per l'accesso alle origini dati siano aggiornati. In Power BI andare nelle impostazioni di aggiornamento del set di dati. In Gestisci origini dati fare clic su Modifica credenziali per aggiornare la credenziali per l'origine dati.
 * I mashup tra un'origine cloud e un'origine locale, in una singola query, non renderanno possibile l'aggiornamento di Personal Gateway se una delle origini utilizza OAuth per l'autenticazione, ad esempio un mashup tra CRM Online e un Server SQL locale. Questo mashup avrà esito negativo poiché CRM Online richiede OAuth.

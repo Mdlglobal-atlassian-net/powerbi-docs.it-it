@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619633"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280057"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -36,7 +36,7 @@ Quando si visualizza un report, in genere la modalità di analisi deve essere di
 * Quando le *schede della pagina del report* sono attive, usare i tasti di *tabulazione* o le *frecce* per spostare lo stato attivo da una pagina del report a quella successiva. Il titolo della pagina del report, se selezionato, viene letto dall'utilità di lettura dello schermo. Per caricare la pagina del report attualmente attiva, utilizzare tasto *Invio* o la *barra dello spazio*.
 * Quando la *pagina del report* caricata è attiva, usare il tasto di *tabulazione* per spostare lo stato attivo su ogni oggetto nella pagina, ad esempio tutte le caselle di testo, le immagini, le forme e i grafici. L'utilità di lettura dello schermo legge il tipo di oggetto, il titolo dell'oggetto, se esiste, e una descrizione dell'oggetto, se aggiunta dall'autore del report. 
 
-Durante lo spostamento tra gli oggetti visivi, per interagire ulteriormente, è possibile premere **ALT+ MAIUSC+F10** per spostare lo stato attivo sull'intestazione dell'oggetto visivo, che contiene diverse opzioni tra cui l'ordinamento, l'esportazione dei dati su cui si basa il grafico e la modalità messa a fuoco. 
+Durante lo spostamento tra gli oggetti visivi, è possibile premere **ALT+ MAIUSC+F10** per spostare lo stato attivo sull'intestazione dell'oggetto visivo, che contiene diverse opzioni tra cui l'ordinamento, l'esportazione dei dati su cui si basa il grafico e la modalità messa a fuoco. 
 
 ![Premere ALT+MAIUSC+F10 in Power BI Desktop per spostare lo stato attivo sull'intestazione dell'oggetto visivo](media/desktop-accessibility/accessibility_08.png)
 
@@ -93,7 +93,7 @@ Quando si usano le modalità a contrasto elevato in Windows, queste impostazioni
 
 ![Impostazioni contrasto elevato di Windows](media/desktop-accessibility/accessibility_05.png)
 
-**Power BI Desktop** rileva automaticamente il tema a contrasto elevato usato in Windows e applica queste impostazioni ai report. Questi colori a contrasto elevato verranno usati anche nel report pubblicato nel servizio Power BI o altrove.
+**Power BI Desktop** rileva automaticamente il tema a contrasto elevato usato in Windows e applica queste impostazioni ai report. Questi colori a contrasto elevato vengono usati anche nel report pubblicato nel servizio Power BI o altrove.
 
 ![Impostazioni contrasto elevato di Windows](media/desktop-accessibility/accessibility_05b.png)
 
@@ -126,22 +126,22 @@ Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di es
 ### <a name="frequently-used-shortcuts"></a>Tasti di scelta rapida usati di frequente
 | Operazione da eseguire           | Premere                |
 | :------------------- | :------------------- |
-| Spostare lo stato attivo tra le sezioni  | CTRL + F6 |
-| Spostare lo stato attivo avanti nella sezione | TAB         |
-| Spostare lo stato attivo indietro nella sezione | MAIUSC + TAB |
+| Sposta lo stato attivo tra le sezioni  | CTRL+F6 |
+| Sposta lo stato attivo avanti nella sezione | TAB         |
+| Sposta lo stato attivo indietro nella sezione | MAIUSC+TAB |
 | Selezionare o deselezionare un oggetto | INVIO o BARRA SPAZIATRICE |
 | Selezionare più oggetti | CTRL + BARRA SPAZIATRICE |
 
 ### <a name="on-visual"></a>Nell'oggetto visivo
 | Operazione da eseguire           | Premere                |
 | :------------------- | :------------------- |
-| Spostare lo stato attivo sul menu visivo | ALT + MAIUSC+ F10 |
-| Visualizzare i dati | ALT + MAIUSC+ F11  |
+| Sposta lo stato attivo sul menu dell'oggetto visivo | ALT+MAIUSC+F10 |
+| Mostra i dati | ALT + MAIUSC+ F11  |
 
 ### <a name="pane-navigation"></a>Navigazione riquadro
 | Operazione da eseguire           | Premere                |
 | :------------------- | :------------------- |
-| Aprire un menu di scelta rapida | <ul><li>Tastiera di Windows: chiave di contesto di Windows + F10.  La chiave di contesto di Windows è compresa tra il tasto Alt di sinistra e il tasto freccia SINISTRA</li><li>Altra tastiera: MAIUSC + F10</li></ul> |
+| Apre un menu di scelta rapida | <ul><li>Tastiera di Windows: tasto per aprire il menu di scelta rapida di Windows+F10.  La chiave di contesto di Windows è compresa tra il tasto Alt di sinistra e il tasto freccia SINISTRA</li><li>Altre tastiere: MAIUSC+F10</li></ul> |
 
 ### <a name="slicer"></a>Filtro dei dati
 | Operazione da eseguire           | Premere                |
@@ -170,7 +170,10 @@ Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di es
 | Selezionare tutte le occorrenze della selezione corrente | CTRL + MAIUSC + L |
 | Selezionare tutte le occorrenze della parola corrente | CTRL + F2 |
 
-
+### <a name="enter-data"></a>Immetti dati
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Uscire dalla griglia modificabile | CTRL + TAB |
 
 
 ## <a name="next-steps"></a>Passaggi successivi

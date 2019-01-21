@@ -5,16 +5,16 @@ author: parthsha
 manager: kfile
 ms.reviewer: maghan
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679293"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296663"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Indicazioni sulla pianificazione della capacità per il server di report di Power BI
 Il server di report di Power BI è una soluzione di business intelligence aziendale self-service e di creazione di report aziendali che i clienti possono distribuire localmente, dietro a firewall. Combina le funzionalità di report interattivi di Power BI Desktop con la piattaforma server locale di SQL Server Reporting Services. Con la crescita dell'utilizzo intenso delle analisi e dei report all'interno delle aziende, può risultare difficile allocare fondi sufficienti per l'infrastruttura hardware e le licenze software necessarie per la scalabilità per una base utenti aziendale. Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. Benché i report, le query e i modelli di utilizzo delle organizzazioni possano presentare differenze significative, i risultati presentati in questo articolo, oltre ai test effettivi usati e a una descrizione dettagliata della relativa modalità di esecuzione, possono servire da punto di riferimento per chiunque stia completando le fasi preliminari del processo di pianificazione della distribuzione del server di report di Power BI.
@@ -42,7 +42,7 @@ La distribuzione del server di report di Power BI è costituita dalle macchine v
 
 * Controller di dominio di Active Directory: usato dal motore di database di SQL Server, da SQL Server Analysis Services e dal server di report di Power BI per l'autenticazione sicura di tutte le richieste.
 * Motore di database di SQL Server e SQL Server Analysis Services: posizione in cui sono stati archiviati tutti i database che i report devono utilizzare in fase di rendering.
-* Server di report di Power BI
+* server di report di Power BI
 * Database del server di report Power BI. Il database del server di report è ospitato in una macchina virtuale rispetto al server di report di Power BI, in modo che non debba competere con il motore di database di SQL Server per memoria, CPU, risorse di rete e di disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -60,7 +60,7 @@ I test usati nelle esecuzioni dei test di carico sono disponibili pubblicamente 
 Tutti i test sono stati scritti per l'esecuzione di un'operazione end-to-end, ad esempio il rendering di un report, la creazione di una nuova origine dati e così via. Per ottenere questo risultato, inviano una o più richieste Web per il server di report tramite le API. Nel mondo reale è possibile che un utente debba eseguire alcune operazioni intermedie per completare una di queste operazioni end-to-end. Ad esempio, per eseguire il rendering di un report, un utente dovrà passare al portale Web, selezionare la cartella in cui si trova il report e quindi fare clic sul report per sottoporlo a rendering. Anche se i test non eseguono tutte le operazioni necessarie per completare un'attività end-to-end, il carico è comunque molto simile a un carico effettivo del server di report di Power BI. L'esplorazione del progetto GitHub consente di ottenere molte informazioni sui diversi tipi di report usati e sulla varietà di operazioni eseguite.
 
 ### <a name="workloads"></a>Carichi di lavoro
-Nei test vengono usati due profili di carico di lavoro, ovvero "Power BI Report Heavy" e "Paginated Report Heavy". La tabella seguente illustra la distribuzione delle richieste eseguite nel server di report.
+Esistono due profili di carico di lavoro usati nei test: Power BI Report Heavy e Paginated Report Heavy. La tabella seguente illustra la distribuzione delle richieste eseguite nel server di report.
 
 | Attività | Power BI Report Heavy, frequenza di occorrenza | Paginated Report Heavy, frequenza di occorrenza |
 | --- | --- | --- |

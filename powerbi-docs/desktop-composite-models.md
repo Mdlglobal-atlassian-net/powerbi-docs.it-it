@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/12/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ffb82303584249641454c81f61e399d2b1d4f574
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452776"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290458"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usare modelli compositi in Power BI Desktop
 
@@ -25,11 +25,11 @@ In precedenza, quando si usava DirectQuery in un report in Power BI Desktop, non
 
 La funzionalità dei modelli compositi in Power BI Desktop è costituita da tre funzionalità correlate:
 
-* **Modelli compositi**: consente a un report di avere più connessioni dati, tra cui connessioni DirectQuery o Importa, in qualsiasi combinazione. Questo articolo descrive i modelli compositi in dettaglio.
+* **Modelli compositi**: consente a un report di avere più connessioni dati, tra cui connessioni DirectQuery o Importazione, in qualsiasi combinazione. Questo articolo descrive i modelli compositi in dettaglio.
 
 * **Relazioni molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni molti-a-molti* tra le tabelle. Questo approccio consente di rimuovere i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per altre informazioni, vedere [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md).
 
-* **Modalità di archiviazione**: ora è possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano query che venivano inviate alle origini back-end. Vedere [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md) per altre informazioni.
+* **Modalità di archiviazione**: è ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano query che venivano inviate alle origini back-end. Vedere [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md) per altre informazioni.
 
 
 ## <a name="use-composite-models"></a>Usare i modelli compositi
@@ -178,7 +178,7 @@ Le origini Live Connect (multidimensionali) seguenti non possono essere usate co
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Set di dati Power BI
-* Analysis Services
+* Azure Analysis Services
 
 Quando ci si connette a queste origini multidimensionali tramite DirectQuery, non è possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 

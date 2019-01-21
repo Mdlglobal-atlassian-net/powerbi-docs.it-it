@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250431"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291672"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Sviluppare con le API REST per un server di report di Power BI
 
@@ -31,8 +31,8 @@ Una coppia richiesta/risposta dell'API REST può essere suddivisa in cinque comp
 * **URI della richiesta**, costituito da: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Sebbene l'URI della richiesta sia incluso nell'intestazione del messaggio di richiesta, viene evidenziato separatamente perché la maggior parte dei linguaggi o framework richiede di passarlo separatamente dal messaggio di richiesta.
   
   * Schema URI: indica il protocollo usato per trasmettere la richiesta. Ad esempio: `http` o `https`.
-  * Host URI: specifica il nome di dominio o l'indirizzo IP del server in cui è ospitato l'endpoint servizio REST, ad esempio `myserver.contoso.com`.
-  * Percorso risorsa: specifica la risorsa o la raccolta di risorse, che può includere più segmenti usati dal servizio per determinare la selezione di tali risorse. Ad esempio: è possibile usare `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` per recuperare le proprietà specificate per CatalogItem.
+  * Host URI: specifica il nome di dominio o l'indirizzo IP del server in cui è ospitato l'endpoint di servizio REST, ad esempio `myserver.contoso.com`.
+  * Percorso delle risorse: specifica la risorsa o la raccolta di risorse, che può includere più segmenti usati dal servizio per determinare la selezione di tali risorse. Ad esempio: è possibile usare `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` per recuperare le proprietà specificate per CatalogItem.
   * Stringa di query (facoltativa): offre parametri semplici aggiuntivi, ad esempio la versione API o i criteri di selezione delle risorse.
 * Campi dell'intestazione del messaggio della richiesta HTTP:
   

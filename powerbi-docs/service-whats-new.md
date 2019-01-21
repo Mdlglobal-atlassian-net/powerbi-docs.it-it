@@ -5,17 +5,17 @@ author: mihart
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: c35f418362c5036331030bf100d9bfca6b943a4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900659"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295815"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
@@ -24,7 +24,7 @@ In questa pagina sono disponibili informazioni sui problemi noti e sulle funzion
 - [Novità di Power BI Desktop](desktop-latest-update.md)  
 - [Novità delle app per dispositivi mobili per Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Blog del team di Power BI](https://powerbi.microsoft.com/blog/)
-- [Note sulla versione per le applicazioni aziendali versione primavera 2018](http://aka.ms/businessappsreleasenotes) da Dynamics 365: gli aggiornamenti più recenti per le applicazioni aziendali, nonché nuove funzionalità per la creazione di applicazioni ed estensioni in base alla piattaforma prescelta. 
+- [Note sulla versione Spring '18 per le applicazioni aziendali](http://aka.ms/businessappsreleasenotes) da Dynamics 365: gli ultimi aggiornamenti alle applicazioni aziendali e nuove funzionalità per la creazione di applicazioni ed estensioni nella piattaforma. 
 
 È anche possibile consultare i canali di YouTube per informazioni su novità e caratteristiche.
 
@@ -128,7 +128,7 @@ In questa pagina sono disponibili informazioni sui problemi noti e sulle funzion
 * Esercitare un maggiore controllo sui set di dati con [pianificazioni personalizzate di aggiornamento della cache](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/).
 * Connettersi ad [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/).
 * Sfogliare gli [oggetti visivi personalizzati di Power BI in Office Store](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/).
-* Anteprima: [iscriversi alle pagine di report](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) per rimanere aggiornati sui dati.
+* Anteprima: [sottoscrivere pagine di report](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) per rimanere aggiornati sui dati.
 * Per ulteriori informazioni sull'uso di Azure AD da parte di dipendenti e partner, usare il pacchetto di contenuto di Azure AD.
 
 ### <a name="february-2017"></a>Febbraio 2017
@@ -142,12 +142,12 @@ In questa pagina sono disponibili informazioni sui problemi noti e sulle funzion
 * Rilasciata la versione 1.4 degli [strumenti per gli sviluppatori delle API di oggetti visivi](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
 * [Set di funzionalità di streaming in tempo reale](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) disponibile a livello generale.
 * [Push dei dati in Power BI usando Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) senza necessità di scrivere codice.
-* Anteprima: [iscriversi alle pagine di report](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) per rimanere aggiornati sui dati.
+* Anteprima: [sottoscrivere pagine di report](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) per rimanere aggiornati sui dati.
 * Per ulteriori informazioni sull'uso di Azure AD da parte di dipendenti e partner, usare il pacchetto di contenuto di Azure AD.
 
 ## <a name="2016"></a>2016
 ### <a name="november-2016"></a>Novembre 2016
-* Anteprima: provare la [nuova esperienza di navigazione per il servizio Power BI, powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
+* Anteprima: provare la [nuova esperienza di esplorazione per il servizio Power BI, powerbi.com](https://powerbi.microsoft.com/blog/announcing-the-new-power-bi-navigation-preview/)
 * Anteprima: [esportare un report di Power BI in PowerPoint](https://powerbi.microsoft.com/blog/export-power-bi-report-to-powerpoint-preview/).
 * Anteprima: [scaricare report di Power BI (file PBIX)](https://powerbi.microsoft.com/blog/announcing-preview-of-download-power-bi-desktop-files-from-the-web/) dal servizio Power BI per poterli modificare in Power BI Desktop.
 * Creare un [misuratore con riempimento liquido](https://powerbi.microsoft.com/blog/visual-awesomeness-unlocked-liquid-fill-gauge/), ossia un misuratore circolare che rappresenta un valore percentuale con onde liquide animate.
@@ -196,9 +196,9 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 ***Sicurezza a livello di riga***
 
-* Supporto per i gruppi di Azure Active Directory (AAD): gli utenti possono ora assegnare i gruppi di Azure Active Directory, ovvero i gruppi di sicurezza e le liste di distribuzione, a un ruolo. Ciò semplifica l'assegnazione contemporanea di ruoli a un gruppo di utenti di grandi dimensioni.
-* [Test dei ruoli di sicurezza a livello di riga con report supportati dai dati con la sicurezza a livello di riga applicata](service-admin-rls.md#validating-the-role-within-power-bi-desktop): è stata aggiunta all'anteprima della sicurezza a livello di riga una funzionalità che consente di testare il set di dati come un ruolo specifico. In questo modo sarà possibile assicurarsi che il ruolo funzioni come previsto prima che un utente possa accedere al dashboard.
-* Definizione e applicazione della sicurezza a livello di riga a modelli cloud in base a query dirette: è ora possibile creare e applicare regole di sicurezza a livello di riga per origini dati DirectQuery.
+* Supporto per i gruppi di Azure Active Directory (AAD): gli utenti possono ora assegnare i gruppi di AAD, ovvero i gruppi di sicurezza e le liste di distribuzione, a un ruolo. Ciò semplifica l'assegnazione contemporanea di ruoli a un gruppo di utenti di grandi dimensioni.
+* [Testare i ruoli di sicurezza a livello di riga con report supportati dai dati con la sicurezza a livello di riga applicata](service-admin-rls.md#validating-the-role-within-power-bi-desktop): è stata aggiunta una funzionalità all'anteprima della sicurezza a livello di riga che consente di testare il set di dati con un ruolo specifico. In questo modo sarà possibile assicurarsi che il ruolo funzioni come previsto prima che un utente possa accedere al dashboard.
+* Definire e applicare la sicurezza a livello di riga a modelli cloud in base a query dirette: è ora possibile creare e applicare regole di sicurezza a livello di riga per le origini dati DirectQuery.
 
 ***Dashboard***
 
@@ -242,7 +242,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 ***Dashboard***
 
-* [Riquadro video Vimeo](service-dashboard-add-widget.md): dal dashboard è possibile aggiungere un riquadro con un lettore Vimeo incorporato.
+* [Riquadro video Vimeo](service-dashboard-add-widget.md):  dal dashboard è possibile aggiungere un riquadro con un lettore Vimeo incorporato.
 
 ***Analizza in Excel***
 
@@ -403,7 +403,7 @@ Dei molteplici aggiornamenti di questa settimana, la maggior parte si applica a 
 * Miglioramenti alle visualizzazioni:
   
   1. indicatore visivo per lo stato di ordinamento nell’oggetto visivo Tabella
-  2. nuovo oggetto visivo: grafico Area in pila
+  2. Nuovo oggetto visivo: grafico ad area in pila
   3. descrizioni dei comandi intelligenti per grafici Area e Riga al passaggio del mouse
   4. possibilità di creare righe/aree di riferimento per un oggetto visivo Cartesiano
   5. etichette dati migliorate per grafici a torta e a dispersione
@@ -421,8 +421,8 @@ Dei molteplici aggiornamenti di questa settimana, la maggior parte si applica a 
   1. Supporto multidimensionale di SSAS - supporto di gerarchie (funzionalità di anteprima)
   2. Connettore Stripe
   3. Connettore Smartsheet
-  4. “Immettere dati”: incollare o immettere dati per creare una tabella
-  5. Miglioramenti di DirectQuery: supporto per tutti i tipi di dati di T-SQL e SAP HANA, con miglioramenti delle prestazioni.
+  4. "Immettere dati": incollare o immettere dati per creare una tabella
+  5. Miglioramenti di DirectQuery:  supporto per tutti i tipi di dati di T-SQL e SAP HANA, con conseguenti miglioramenti delle prestazioni.
   6. Connettore ODBC: supporto per la selezione di DSN di sistema/utente
   7. Connettore CSV: possibilità di specificare il delimitatore di colonna nella finestra di dialogo di origine
 
@@ -448,7 +448,7 @@ Per tutti i dettagli, incluso un video che illustra molti di questi aggiornament
 * [Integrazione di Power BI con Cortana](http://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Anteprima di gateway di Power BI enterprise](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Introduzione di un nuovo pacchetto di contenuto: [Analisi della ricerca da Bing nei dashboard di Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx)
-* Nuovi miglioramenti per gli sviluppatori: [due nuove API e registrazione dell'app semplificata](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
+* Nuovi miglioramenti destinati agli sviluppatori: [Due nuove API e registrazione dell'app semplificata](http://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)
 
 **24 novembre 2015**
 

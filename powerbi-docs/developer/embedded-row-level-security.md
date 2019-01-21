@@ -4,17 +4,17 @@ description: Informazioni sulla procedura da seguire per incorporare il contenut
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.openlocfilehash: 901c087c486598019e905598ee83382664842cc8
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.date: 12/20/2018
+ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578774"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284174"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 
@@ -49,12 +49,12 @@ Alcuni aspetti da notare in questo schema:
 
 * Tutte le misure, ad esempio **Total Sales**, sono archiviate nella tabella dei fatti **Sales**.
 * Sono presenti altre quattro tabelle delle dimensioni correlate: **Item**, **Time**, **Store** e **District**.
-* Le frecce sulle linee delle relazioni indicano la direzione in cui i filtri possono essere applicati da una tabella all'altra. Ad esempio, se un filtro è posizionato su **Time[Date]**, nello schema corrente verrebbero filtrati solo i valori presenti nella tabella **Sales**. Questo filtro non influirebbe su altre tabelle, perché tutte le frecce sulle linee relative alle relazioni fanno riferimento alla tabella Sales, non ad altre tabelle.
+* Le frecce sulle linee delle relazioni indicano la direzione in cui i filtri possono essere applicati da una tabella all'altra. Ad esempio, se un filtro è posizionato su **Time[Date]**, nello schema corrente verrebbero filtrati solo i valori presenti nella tabella **Sales**. Questo filtro non influisce su altre tabelle, perché tutte le frecce sulle linee relative alle relazioni fanno riferimento alla tabella Sales, non ad altre tabelle.
 * La tabella **District** indica il responsabile per ogni area:
   
     ![Righe all'interno della tabella District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
 
-In base a questo schema, se si applica un filtro alla colonna **District Manager** nella tabella **District** e se tale filtro corrisponde all'utente che visualizza il report, vengono filtrate anche le tabelle **Store** e **Sales** per visualizzare solo i dati relativi al responsabile di area specifico.
+In base a questo schema, se si applica un filtro alla colonna **District Manager** nella tabella **District** e se tale filtro corrisponde all'utente che visualizza il report, vengono filtrate anche le tabelle **Store** e **Sales** per visualizzare i dati relativi al responsabile di area specifico.
 
 Ecco come:
 
@@ -239,14 +239,89 @@ La [sicurezza a livello di riga](../service-admin-rls.md) è una funzionalità c
 
 I [filtri JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) vengono usati per consentire all'utente di utilizzare una vista ridotta, con ambito o filtrata dei dati. Tuttavia, l'utente ha comunque accesso alle tabelle, alle colonne e alle misure dello schema del modello e può potenzialmente accedere ai dati presenti. L'accesso limitato ai dati può essere applicato solo con la sicurezza a livello di riga e non tramite API di filtro sul lato client.
 
+## <a name="token-based-identity-with-azure-sql-database-preview"></a>Identità basata su token con il database SQL di Azure (anteprima)
+
+L'**identità basata su token** consente di specificare l'identità effettiva per un token di incorporamento usando il token di accesso di **Azure Active Directory (AAD)** per un **database SQL di Azure**.
+
+I clienti che mantengono i dati nel **database SQL di Azure** possono ora sfruttare una nuova funzionalità per gestire gli utenti e l'accesso ai dati in SQL di Azure nell'integrazione con **Power BI Embedded**.
+
+Quando si genera il token di incorporamento, è possibile specificare l'identità effettiva di un utente in SQL di Azure. È possibile specificare l'identità effettiva di un utente passando il token di accesso AAD al server. Il token di accesso viene usato per eseguire il pull solo dei dati rilevanti per l'utente da SQL di Azure, per la sessione specifica.
+
+Può essere usato per gestire la visualizzazione di ogni utente in SQL di Azure o per accedere a SQL di Azure come un cliente specifico in un database multi-tenant. Può essere usato anche per applicare la sicurezza a livello di riga in tale sessione in SQL di Azure e recuperare solo i dati pertinenti per la sessione, eliminando la necessità di gestire la sicurezza a livello di riga in Power BI.
+
+Questi problemi di identità effettiva si applicano alle regole di sicurezza a livello di riga direttamente in SQL Server di Azure. Power BI Embedded usa il token di accesso fornito durante l'esecuzione di query sui dati da SQL Server di Azure. L'UPN dell'utente (per il quale è stato fornito il token di accesso) è accessibile come risultato della funzione SQL USER_NAME().
+
+L'identità basata su token funziona solo per i modelli DirectQuery su capacità dedicata, connessa a un database SQL di Azure configurato per consentire l'autenticazione di AAD ([altre informazioni sull'autenticazione di AAD per il database SQL di Azure](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). L'origine dati del set di dati deve essere configurata per usare le credenziali OAuth2 degli utenti finali, per usare un'identità basata su token.
+
+   ![Configurare SQL Server di Azure](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
+
+### <a name="token-based-identity-sdk-additions"></a>Aggiunte dell'SDK per l'identità basata su token
+
+La proprietà IdentityBlob è stata aggiunta all'identità effettiva nello scenario di generazione del token.
+
+```JSON
+[JsonProperty(PropertyName = "identityBlob")]
+public IdentityBlob IdentityBlob { get; set; }
+```
+
+Il tipo IdentityBlob è una struttura JSON semplice che contiene una proprietà stringa di valore
+
+```JSON
+[JsonProperty(PropertyName = "value")]
+public string value { get; set; }
+```
+
+EffectiveIdentity può essere creata con IdentityBlob usando la chiamata seguente:
+
+```C#
+public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null, IdentityBlob identityBlob = null);
+```
+
+La proprietà IdentityBlob può essere creata tramite la chiamata seguente.
+
+```C#
+public IdentityBlob(string value);
+```
+
+### <a name="token-based-identity-rest-api-usage"></a>Utilizzo dell'API REST per l'identità basata su token
+
+Se si chiama l'[API REST](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions), è possibile aggiungere BLOB di identità all'interno di ogni identità.
+
+```JSON
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "datasets": ["fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc"],
+        “identityBlob”: {
+            “value”: “eyJ0eXAiOiJKV1QiLCJh….”
+         }
+        }
+    ]
+}
+```
+
+Il valore specificato nel BLOB di identità deve essere un token di accesso valido per SQL Server di Azure (con un URL di risorsa (<https://database.windows.net/>).
+
+   > [!Note]
+   > Per poter creare un token di accesso per SQL di Azure, l'applicazione deve avere autorizzazioni delegate per l'**accesso a database SQL di Azure e ad Azure Data Warehouse** per l'API di **database SQL di Azure** nella configurazione di registrazione dell'app AAD nel portale di Azure.
+
+   ![Registrazione dell'app](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
+
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
-* Il servizio Power BI non applica l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione verrà applicata ai dati.
+* Il servizio Power BI non applica l'impostazione di sicurezza a livello di riga agli amministratori o ai membri con autorizzazioni di modifica, ma quando si fornisce un'identità con un token di incorporamento, l'impostazione viene applicata ai dati.
 * Sono supportate le connessioni dinamiche ad Analysis Services per i server locali.
 * Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo. È possibile applicare filtri dinamici usando CustomData.
 * Se il set di dati sottostante non richiede la sicurezza a livello di riga, la richiesta GenerateToken **non** deve contenere un'identità effettiva.
 * Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, non viene eseguita l'assegnazione di ruolo.
 * Un elenco di identità consente più token di identità per l'incorporamento del dashboard. Per tutti gli altri elementi l'elenco contiene una singola identità.
+
+### <a name="token-based-identity-limitations-preview"></a>Limitazioni per l'identità basata su token (anteprima)
+
+* L'uso di questa funzionalità è limitato a Power BI Premium.
+* Questa funzionalità non funziona con SQL Server in locale.
+* Questa funzionalità non funziona con Multi-Geo.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

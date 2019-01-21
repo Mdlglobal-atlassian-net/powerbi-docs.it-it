@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670855"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285117"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Scenari per la risoluzione dei problemi di aggiornamento
 In questo articolo è possibile trovare informazioni relative a vari scenari che si possono incontrare durante l'aggiornamento dei dati all'interno del servizio Power BI.
@@ -37,7 +37,7 @@ Attendere 10-15 minuti affinché l'aggiornamento venga applicato nei riquadri de
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>GatewayNotReachable durante l'impostazione delle credenziali
 Potrebbe venire visualizzato l'errore GatewayNotReachable quando si prova a impostare le credenziali per un'origine dati. L'errore potrebbe essere causato da un gateway non aggiornato.  Installare il gateway più recente e riprovare.
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Errore di elaborazione: Errore di sistema: Mancata corrispondenza del tipo di dati
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Errore di elaborazione: Si è verificato l'errore di sistema seguente: Tipo non corrispondente
 Potrebbe essere un errore con lo script M all'interno del file di Power BI Desktop o della cartella di lavoro di Excel.  Potrebbe anche essere dovuto a una versione di Power BI Desktop non aggiornata.
 
 ## <a name="tile-refresh-errors"></a>Errori di aggiornamento del riquadro

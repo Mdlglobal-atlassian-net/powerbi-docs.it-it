@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670117"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282265"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI
 È possibile caricare in Power BI qualsiasi cartella di lavoro di Excel inferiore a 1 GB. Una cartella di lavoro di Excel può essere composta da due parti: un modello di dati e il resto del report, cioè il contenuto di base del foglio di lavoro. Se il report rispetta i limiti di dimensioni seguenti, lo si può salvare in **OneDrive for Business**, ci si può connettere da Power BI e lo si può visualizzare in Excel Online:
 
 * La cartella di lavoro complessiva può raggiungere le dimensioni massime di 1 GB.
-* Il contenuto di base del foglio di lavoro può avere dimensioni massime di 10 MB.
+* Il contenuto di base del foglio di lavoro può avere dimensioni massime di 30 MB.
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>Cosa rende il contenuto di base del foglio di lavoro più grande di 10 MB
-Ecco alcuni elementi che possono far aumentare il contenuto di base del foglio di lavoro oltre 10 MB:
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>Cosa rende il contenuto di base del foglio di lavoro più grande di 30 MB
+Ecco alcuni elementi che possono far aumentare il contenuto di base del foglio di lavoro oltre 30 MB:
 
 * Immagini.
 * Celle ombreggiate. [Rimuovere un formato di ombreggiatura delle celle](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
@@ -44,14 +44,14 @@ Per effettuare una di queste modifiche, è necessario modificare la cartella di 
 Altre informazioni sui [limiti di dimensioni dei file per le cartelle di lavoro di Excel in SharePoint Online](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e).
 
 ## <a name="remove-data-from-worksheets"></a>Rimuovere i dati dai fogli di lavoro
-Se si importano i dati in Excel dalla scheda Power Query o dalla scheda Dati di Excel, la cartella di lavoro potrebbe contenere gli stessi dati in una tabella di Excel e nel modello di dati. Le tabelle di Excel di grandi dimensioni possono rendere il contenuto di base del foglio di lavoro più grande di 10 MB. Se si rimuove la tabella in Excel mantenendo i dati nel modello di dati, è possibile ridurre di molto il contenuto di base del foglio di lavoro del report. 
+Se si importano i dati in Excel dalla scheda Power Query o dalla scheda Dati di Excel, la cartella di lavoro potrebbe contenere gli stessi dati in una tabella di Excel e nel modello di dati. Le tabelle di Excel di grandi dimensioni possono rendere il contenuto di base del foglio di lavoro più grande di 30 MB. Se si rimuove la tabella in Excel mantenendo i dati nel modello di dati, è possibile ridurre di molto il contenuto di base del foglio di lavoro del report. 
 
 Quando si importano i dati in Excel, seguire questi suggerimenti:
 
-* **In Power Query**: deselezionare la casella **Carica in foglio di lavoro** .
+* **In Power Query**: deselezionare la casella **Carica in foglio di lavoro**.
   
   I dati vengono importati solo nel modello di dati, senza dati nei fogli di lavoro di Excel.
-* **Nella scheda Dati di Excel**, se in precedenza è stato selezionato **Tabella** nell'Importazione guidata: passare a **Connessioni esistenti** \> fare clic sulla connessione \>**Crea solo connessione**. Eliminare la tabella o le tabelle originali create durante l'importazione iniziale.
+* **Dalla scheda Dati Excel**, se è stata selezionata in precedenza l'opzione **Tabella** nell'importazione guidata: passare a **Connessioni esistenti** \> fare clic sulla connessione \> **Crea solo connessione**. Eliminare la tabella o le tabelle originali create durante l'importazione iniziale.
 * **Nella scheda Dati di Excel**: non selezionare **Tabella** nella casella **Importa dati** .
 
 ## <a name="workbook-size-optimizer"></a>Strumento di ottimizzazione delle dimensioni della cartella di lavoro

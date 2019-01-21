@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: f685a900465cc0f1b635aad7609aaae4356da6b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909503"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284634"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Ricerca di utenti Power BI che hanno eseguito l'accesso
 
@@ -32,7 +32,7 @@ Qualsiasi utente (compresi quelli non amministratori) può visualizzare un repor
 
 * Al tenant deve essere associata una licenza di Azure AD Premium.
 
-* È necessario avere uno dei ruoli seguenti: amministratore globale o amministratore della sicurezza oppure un ruolo con autorizzazioni di lettura per la sicurezza.
+* È necessario appartenere a uno dei ruoli seguenti: Amministratore globale, Amministratore della sicurezza o Ruolo con autorizzazioni di lettura per la sicurezza.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Usare il portale di Azure per visualizzare gli accessi
 

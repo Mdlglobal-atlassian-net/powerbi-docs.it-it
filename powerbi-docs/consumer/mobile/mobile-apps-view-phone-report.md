@@ -1,20 +1,20 @@
 ---
 title: Visualizzare i report di Power BI ottimizzati per il proprio telefono
 description: Leggere informazioni sull'interazione con le pagine del report ottimizzate per la visualizzazione in app per telefoni di Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547799"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276907"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
 
@@ -48,7 +48,7 @@ Se per un report ottimizzato per il telefono sono stati definiti dei filtri, qua
     ![Filtro avanzato nei report di Power BI per telefoni](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Evidenziare oggetti visivi
-L'evidenziazione degli oggetti visivi nel report per il telefono funziona esattamente come avviene nel servizio Power BI e nei report per telefoni in visualizzazione orizzontale: quando si selezionano i dati in un oggetto visivo, vengono evidenziati i dati correlati negli altri oggetti visivi in tale pagina.
+L'evidenziazione incrociata degli oggetti visivi nei report per il telefono funziona come nel servizio Power BI e nei report per il telefono in visualizzazione orizzontale: quando si selezionano i dati in un oggetto visivo, vengono evidenziati i dati correlati negli altri oggetti visivi in tale pagina.
 
 Altre informazioni su [filtri ed evidenziazione in Power BI](../../power-bi-reports-filters-and-highlighting.md).
 

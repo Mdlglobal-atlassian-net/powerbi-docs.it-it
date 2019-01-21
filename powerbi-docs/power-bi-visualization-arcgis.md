@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 81867ba36e79a26acb168c1b02fc31e228bd6439
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: e559cb3ed460c8d81406ae8c8b01fe33eceaf461
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266048"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293916"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop
 Questa esercitazione è stata scritta dal punto di vista di una persona che crea una mappa ArcGIS. Quando l'autore condivide una mappa ArcGIS con un collega, questi potrà vederla e interagire con essa, ma non salvare le modifiche. +Per altre informazioni sulla visualizzazione di una mappa ArcGIS, vedere [Interacting with ArcGIS maps](visuals/power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
@@ -207,7 +207,7 @@ ArcGIS Online consente alle organizzazioni di pubblicare mappe Web pubbliche. In
 2. Immettere i termini di ricerca e quindi selezionare un livello di mappa. In questo esempio sono stati scelti i quartieri del Congresso negli Stati Uniti.
    
     ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
-3. Per visualizzare i dettagli, selezionare un'area ombreggiata per aprire *Selezionare dal layer di riferimento*. Usare lo strumento di selezione layer di riferimento agli oggetti o ai confini di selezione sul layer di riferimento.
+3. Per visualizzare i dettagli, selezionare un'area ombreggiata per aprire lo strumento *Select from reference layer* (Selezione dal layer di riferimento): Usare lo strumento di selezione del layer di riferimento per selezionare i limiti o gli oggetti nel layer di riferimento.
 
 <br/>
 
@@ -325,7 +325,7 @@ Mappe ArcGIS per Power BI è disponibile per tutti gli utenti di Power BI senza 
 
 **Viene visualizzato un messaggio di errore in Power BI Desktop che indica che la cache è piena**
 
-Si tratta di un bug in corso di risoluzione.  Nel frattempo, per cancellare la cache, provare a eliminare i file in questo percorso: C:\Utenti\\AppData\Local\Microsoft\Power BI Desktop\CEF e quindi riavviare Power BI.
+Si tratta di un bug in corso di risoluzione.  Nel frattempo, per cancellare la cache, provare a eliminare i file in questa posizione: C:\Users\\AppData\Local\Microsoft\Power BI Desktop\CEF e quindi riavviare Power BI.
 
 **Mappe ArcGIS per Power BI supporta i file di forma di Esri?**
 

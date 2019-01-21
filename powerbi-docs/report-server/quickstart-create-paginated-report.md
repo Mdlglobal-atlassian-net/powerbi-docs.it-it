@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289129"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284426"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creare un report impaginato per Server di report di Power BI
 Come suggerisce il nome, i report impaginati possono contenere più pagine. Hanno un formato fisso e offrono opzioni di personalizzazione precise. I report impaginati sono file con estensione rdl.
@@ -46,7 +46,7 @@ Si potrebbe già avere installato Generatore report per creare report per un ser
    
     La creazione guidata Grafico illustra i passaggi della creazione di un grafico di base in un report. Da qui, è possibile personalizzare il report in modo illimitato.
 
-## <a name="step-2-go-through-the-chart-wizard"></a>Passaggio 2: Passare attraverso la creazione guidata Grafico
+## <a name="step-2-go-through-the-chart-wizard"></a>Passaggio 2: Eseguire la creazione guidata Grafico
 La creazione guidata Grafico illustra i passaggi di base della creazione di una visualizzazione in un report.
 
 I report impaginati possono connettersi a un'ampia gamma di origini dati, da Microsoft SQL Server e Database SQL di Microsoft Azure a Oracle, Hyperion e molte altre. Leggere l'argomento relativo alle [origini dati supportate dai report impaginati](connect-data-sources.md).

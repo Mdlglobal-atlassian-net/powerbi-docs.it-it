@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8636ec85cb56e87f28a93f9f1f89989ffcc097bb
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973144"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292362"
 ---
 # <a name="power-bi-archived-workspace"></a>Area di lavoro contenuto archiviato di Power BI
 
@@ -29,19 +29,19 @@ Power BI non eliminerà il contenuto dall'area di lavoro contenuto archiviato. �
 
 * **OneDrive for Business**: per i set di dati nell'area di lavoro contenuto archiviato, non è più possibile recuperare dati o aggiornarli da OneDrive for Business.  Se si prova a connettersi a questa origine, si riceve un avviso.
 
-* **Condivisione di dashboard**: non è possibile condividere i dashboard con altri utenti dall'area di lavoro contenuto archiviato.  Qualsiasi utente che abbia già accesso continua a poter visualizzare i dashboard condivisi accedendo alla propria area di lavoro contenuto archiviato.
+* **Condivisione di dashboard**: Non è possibile condividere i dashboard con altri utenti dall'area di lavoro contenuto archiviato.  Qualsiasi utente che abbia già accesso continua a poter visualizzare i dashboard condivisi accedendo alla propria area di lavoro contenuto archiviato.
 
-* **Creazione di gruppi**: non è possibile creare gruppi nell'area di lavoro contenuto archiviato.
+* **Creazione di gruppi**: Non è possibile creare gruppi nell'area di lavoro contenuto archiviato.
 
-* **Accesso alle app per dispositivi mobili di Power BI**: anche se è ancora possibile visualizzare contenuto sul Web nell'area di lavoro contenuto archiviato, questo contenuto non viene più visualizzato nelle app per dispositivi mobili di Power BI.
+* **Accesso alle app Power BI per dispositivi mobili**: anche se è ancora possibile visualizzare contenuto sul Web nell'area di lavoro contenuto archiviato, questo contenuto non verrà più visualizzato nelle app per dispositivi mobili di Power BI.
 
 ## <a name="migrating-content-in-your-archived-workspace"></a>Migrazione di contenuto nell'area di lavoro contenuto archiviato
 
 Per continuare a usare Power BI, è consigliabile creare nuovo contenuto nell'area di lavoro personale. È anche consigliabile pianificare la migrazione di eventuale contenuto dall'area di lavoro contenuto archiviato nell'area di lavoro personale.  La modalità di esecuzione della migrazione del contenuto dipende dal tipo di contenuto:
 
-* **Set di dati Excel o Power BI Desktop**: eseguire la migrazione di questi set di dati passando dall'area di lavoro contenuto archiviato all'area di lavoro personale e ricaricando il file di Excel o Power BI Desktop selezionando il pulsante **Dati personali**.  Se è stato impostato un aggiornamento pianificato, è necessario riconfigurare tali impostazioni per il nuovo set di dati nell'area di lavoro personale.
+* **Set di dati Excel o Power BI Desktop**: eseguire la migrazione di questi set di dati passando dall'area di lavoro contenuto archiviato all'area di lavoro personale e ricaricando il file Excel o Power BI Desktop facendo clic sul pulsante **Dati personali**.  Se è stato impostato un aggiornamento pianificato, è necessario riconfigurare tali impostazioni per il nuovo set di dati nell'area di lavoro personale.
 
-* **Altri set di dati**: passare all'area di lavoro personale, quindi selezionare il pulsante **Recupera dati** per riconnettersi a qualsiasi altro set di dati creato nell'area di lavoro contenuto archiviato.  Può essere necessario reimmettere le informazioni di sicurezza o di connessione.
+* **Altri set di dati**: passare all'area di lavoro personale, quindi fare clic sul pulsante **Recupera dati** per riconnettersi a qualsiasi altro set di dati creato nell'area di lavoro contenuto archiviato.  Può essere necessario reimmettere le informazioni di sicurezza o di connessione.
 
 * **Report**: i report contenuti in file di Excel o Power BI Desktop vengono automaticamente ricreati dopo aver ricaricato il file di Excel o Power BI Desktop corrispondente. Anche i report installati come parte di un pacchetto di contenuto vengono ricreati quando ci si riconnette al pacchetto di contenuto. Se sono stati creati report personalizzati usando il servizio Power BI, creare nuovamente tali report nell'area di lavoro personale.
 

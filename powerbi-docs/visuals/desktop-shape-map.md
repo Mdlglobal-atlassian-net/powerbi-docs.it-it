@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417327"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290890"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
@@ -126,7 +126,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | au-nsw |NSW |AU-NSW |Nuovo Galles del Sud |NSW |
 | au-act |ACT |AU-ACT |Territorio della Capitale Australiana |ACT |
 
-### <a name="austria-states"></a>Austria: stati
+### <a name="austria-states"></a>Austria: Stati
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | at-ka |AT-2 |Kärnten |Carinzia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>Brasile: stati
+### <a name="brazil-states"></a>Brasile: Stati
 
 | `id` |
 | --- |
@@ -176,7 +176,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Zona contesa 3 |
 | Zona contesa 4 |
 
-### <a name="canada-provinces"></a>Canada: province
+### <a name="canada-provinces"></a>Canada: Province
 
 | `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
@@ -194,7 +194,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | ca-bc |CA-BC |Columbia Britannica |BC |
 | ca-ab |CA-AB |Alberta |AB |
 
-### <a name="france-regions"></a>Francia: regioni
+### <a name="france-regions"></a>Francia: Regioni
 
 | `id` | `name` | `name-en` |
 | --- | --- | --- |
@@ -219,9 +219,9 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Bourgogne |Bourgogne |Borgogna |
 | Basse-Normandie |Basse-Normandie |Bassa Normandia |
 | Auvergne |Auvergne |Alvernia |
-| Aquitaine |Aquitaine |Aquitania |
+| Aquitaine |Aquitaine |Aquitaine |
 
-### <a name="germany-states"></a>Germania: stati
+### <a name="germany-states"></a>Germania: Stati
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -242,7 +242,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | de-by |DE-BY |Bayern |Baviera |BY |
 | de-bw |DE-BW |Baden-Württemberg |Baden-Württemberg |BW |
 
-### <a name="ireland-counties"></a>Irlanda: contee
+### <a name="ireland-counties"></a>Irlanda: Contee
 
 | `id` |
 | --- |
@@ -273,7 +273,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | Cavan |
 | Carlow |
 
-### <a name="italy-regions"></a>Italia: regioni
+### <a name="italy-regions"></a>Italia: Regioni
 
 | `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
@@ -298,7 +298,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | it-pu |IT-75 |Puglia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>Messico: stati
+### <a name="mexico-states"></a>Messico: Stati
 
 | `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
@@ -335,7 +335,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | mx-bcn |B.C. |MX-BCN |Baja California |Bassa California |BN |
 | mx-agu |Ags. |MX-AGU |Aguascalientes |Aguascalientes |AG |
 
-### <a name="netherlands-provinces"></a>Paesi Bassi: province
+### <a name="netherlands-provinces"></a>Paesi Bassi: Province
 
 | `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
@@ -352,7 +352,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | nl-fl |NL-FL |Flevoland |Flevoland |
 | nl-dr |NL-DR |Drenthe |Drenthe |
 
-### <a name="uk-countries"></a>Regno Uniti: paesi
+### <a name="uk-countries"></a>Regno Unito: Paesi
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | gb-nir |GB-NIR |Irlanda del Nord |
 | gb-eng |GB-ENG |Inghilterra |
 
-### <a name="usa-states"></a>Stati Uniti: stati
+### <a name="usa-states"></a>USA: Stati
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

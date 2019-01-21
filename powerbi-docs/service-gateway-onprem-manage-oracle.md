@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298344"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275917"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gestire l'origine dati - Oracle
 Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati Oracle per l'aggiornamento pianificato o per DirectQuery.
@@ -39,7 +39,7 @@ Per le versioni a **64 bit** di Power BI Desktop o per il gateway dati locale, u
 
 * [ODAC 12.2c versione 1 (12.2.0.1.0) a 64 bit per Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-Dopo averlo installato, sarà necessario configurare il file tnsnames.ora con le informazioni corrette per il proprio database. Power BI Desktop e il gateway si baseranno sul nome del servizio di rete net_service_name definito nel file tnsnames.ora. Se non è configurato, non sarà possibile connettersi. Il percorso predefinito per il file tnsnames.ora è il seguente: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Per altre informazioni su come configurare i file tnsnames.ora, vedere [Oracle: parametri di denominazione locale (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
+Dopo averlo installato, sarà necessario configurare il file tnsnames.ora con le informazioni corrette per il proprio database. Power BI Desktop e il gateway si baseranno sul nome del servizio di rete net_service_name definito nel file tnsnames.ora. Se non è configurato, non sarà possibile connettersi. Il percorso predefinito per il file tnsnames.ora è il seguente: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Per altre informazioni su come configurare i file tnsnames.ora, vedere [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm) (Oracle: parametri di denominazione locale - tnsnames.ora).
 
 ### <a name="example-tnsnamesora-file-entry"></a>Esempio di immissione nel file tnsnames.ora
 Il formato di base di un'immissione nel file tnsnames.ora è il seguente:

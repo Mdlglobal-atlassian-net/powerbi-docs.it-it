@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974185"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278494"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Eseguire il push dei dati in un set di dati di Power BI
 
@@ -59,7 +59,7 @@ La stringa JSON per un set di dati ha il formato seguente:
         ]
     }
 
-Pertanto, per il set di dati Sales Marketing di esempio, si passerà una stringa JSON come nell'esempio seguente. In questo esempio, **SalesMarketing** è il nome del set e **Product** è il nome della tabella. Dopo aver definito la tabella, si definisce lo schema di tabella. Per il set di dati **SalesMarketing** , lo schema di tabella contiene le colonne ProductID, Manufacturer, Category, Segment, Product e IsCompete.
+Pertanto, per il set di dati Sales Marketing di esempio, si passerà una stringa JSON come nell'esempio seguente. In questo esempio, **SalesMarketing** è il nome del set e **Product** è il nome della tabella. Dopo aver definito la tabella, si definisce lo schema di tabella. Lo schema di tabella del set di dati **SalesMarketing** contiene queste colonne: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **Esempio JSON per l'oggetto set di dati**
 
@@ -112,7 +112,7 @@ Per uno schema di tabella di Power BI, è possibile usare i tipi di dati seguent
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Altre informazioni sul push dei dati in Power BI
 
-Per le attività iniziali per il push dei dati in un set di dati, vedere [Passaggio 1: Registrare un'app in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) nel riquadro di spostamento a sinistra.
+Per iniziare il push dei dati in un set di dati, vedere [Passaggio 1: Registrare un'app in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) nel riquadro di spostamento a sinistra.
 
 [Passaggio successivo >](walkthrough-push-data-register-app-with-azure-ad.md)
 

@@ -6,17 +6,17 @@ manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2d4dc5d8c11db035cc2470c0c44d64a6b78cd1a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452753"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292638"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 Questa esercitazione illustra i passaggi necessari per implementare la **sicurezza a livello di riga** all'interno di un **modello tabulare di Analysis Services** e indica come usarlo in un report di Power BI. I passaggi descritti in questa esercitazione sono progettati per poter proseguire e apprendere i passaggi necessari per completare un set di dati di esempio.
@@ -127,7 +127,7 @@ Sono disponibili molti articoli pubblicati che descrivono come definire la sicur
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 4. Congratulazioni! La sicurezza dinamica a livello di riga definita nel modello tabulare **Analysis Services** locale è stata correttamente applicata e rispettata nel servizio **Power BI**. Power BI usa la proprietà **effectiveusername** per inviare le credenziali dell'utente di Power BI corrente all'origine dati locale per eseguire le query.
 
-## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>Attività 6: Comprensione di ciò che accade "dietro le quinte"
+## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>Attività 6: Comprensione di ciò che accade dietro le quinte
 1. Questa attività presuppone che si abbia familiarità con SQL Profiler perché è necessario acquisire una traccia di SQL Server Profiler nell'istanza tabulare di SSAS locale.
 2. La sessione verrà inizializzata non appena l'utente (in questo caso, Jon Doe) accede al dashboard nel servizio Power BI. È possibile notare che il ruolo **salesterritoryusers** avrà effetto immediato con il nome utente effettivo **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    

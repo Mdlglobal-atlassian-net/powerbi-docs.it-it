@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268298"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291718"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Supporto di più aree geografiche per Power BI Premium (anteprima)
 
@@ -65,7 +65,7 @@ Questi elementi rimangono nell'area iniziale per il tenant:
 - Cartelle di lavoro di Excel
 - Metadati di report/dashboard: ad esempio nomi dei riquadri, query dei riquadri
 - Bus di servizio per le query di gateway o i processi di aggiornamento pianificati
-- Autorizzazioni
+- applicazione
 - Credenziali del set di dati
 
 ## <a name="view-capacity-regions"></a>Visualizzare le aree delle capacità
@@ -98,7 +98,7 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Power BI Premium: di cosa si tratta?](service-premium.md)
+- [Power BI Premium: che cos'è?](service-premium.md)
 - [Supporto di più aree geografiche per Power BI Embedded](developer/embedded-multi-geo.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

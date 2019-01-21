@@ -1,23 +1,23 @@
 ---
-title: Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI
-description: Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI
+title: 'Esempio di analisi della qualità dei fornitori per Power BI: Presentazione'
+description: 'Esempio di analisi della qualità dei fornitori per Power BI: Presentazione'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717655"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292983"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi della qualità dei fornitori per Power BI
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della qualità dei fornitori per Power BI: Presentazione
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Breve panoramica dell'Esempio di analisi della qualità dei fornitori
 Questo dashboard di esempio specifico del settore, unitamente al report sottostante, consente di analizzare una delle problematiche tipiche della supply chain: l'analisi della qualità dei fornitori.
@@ -46,7 +46,7 @@ Si tratta di dati reali messi a disposizione da obviEnce ([www.obvience.com](htt
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selezionare l'**Esempio di analisi della qualità dei fornitori**, quindi scegliere **Connetti**.  
   
-   ![Esempio di analisi della qualità dei fornitori](media/sample-supplier-quality/supplier16.png)
+   ![Supplier Quality Analysis Sample](media/sample-supplier-quality/supplier16.png)
    
 5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente. I nuovi contenuti sono contrassegnati con un asterisco giallo. 
    

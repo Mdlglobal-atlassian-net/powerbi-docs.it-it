@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717425"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294267"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
 Dopo aver letto [Dashboard in Power BI](service-dashboards.md) si vuole creare un dashboard personalizzato. Ci sono molti modi diversi per creare un dashboard: partendo da un report, da zero, da un set di dati, attraverso la duplicazione di un dashboard esistente e altri ancora.  
@@ -65,7 +65,7 @@ Importeremo uno dei set di dati di esempio di Power BI e lo useremo per creare i
 1. Rimanendo nella stessa area di lavoro selezionare la scheda **Report**. Il report appena importato appare contrassegnato con un asterisco giallo. Selezionare il nome del report per aprirlo.
 
     ![Scheda Report](media/service-dashboard-create/power-bi-reports.png)
-2. Il report viene aperto nella Visualizzazione di lettura. Si noti che nella parte inferiore sono presenti due schede: Discount Analysis (Analisi sconti) e Spend Overview (Panoramica spesa). Ogni scheda rappresenta una pagina del report.
+2. Il report viene aperto nella Visualizzazione di lettura. Si noti che sono presenti due schede nella parte inferiore: Discount Analysis e Spend Overview. Ogni scheda rappresenta una pagina del report.
     Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
 
     ![Report nella Visualizzazione di lettura](media/service-dashboard-create/power-bi-reading-view.png)

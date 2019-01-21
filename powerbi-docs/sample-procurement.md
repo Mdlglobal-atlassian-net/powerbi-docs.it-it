@@ -1,23 +1,23 @@
 ---
-title: Presentazione dell'esempio di analisi dell'approvvigionamento
-description: Presentazione dell'esempio di analisi dell'approvvigionamento per Power BI
+title: "Esempio di analisi dell'approvvigionamento: Presentazione"
+description: "Esempio di analisi dell'approvvigionamento per Power BI: Presentazione"
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717149"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287349"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi dell'approvvigionamento per Power BI
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi dell'approvvigionamento per Power BI: Presentazione
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Panoramica dell'Esempio di analisi dell'approvvigionamento
 Questo dashboard di esempio del settore, unitamente al report sottostante, consentono di analizzare la spesa per i fornitori di una società di produzione in base a categoria e località. Nell'esempio vengono analizzate le aree seguenti:
@@ -72,9 +72,9 @@ Verrà eseguita prima una ricerca delle tendenze di spesa per categoria e locali
 Si noti che:
 
 * Nel grafico a linee **Total Invoice by Month and Category**: la categoria **Direct** mostra una spesa abbastanza uniforme, mentre **Logistics** e **Other** presentano un picco, rispettivamente, nei mesi di dicembre e febbraio.
-* Nella mappa **Total Invoice by Country/Region**: gran parte della spesa è localizzata negli Stati Uniti.
-* Nell'istogramma **Total Invoice by Sub Category**: le categorie di spesa maggiori sono **Hardware** e **Indirect Goods & Services**.
-* Nel grafico a barre Total Invoice by Tier: la maggior parte delle attività viene svolta con i fornitori di livello 1 (primi 10). Ciò consente di gestire meglio le relazioni con i fornitori.
+* Nella mappa **Total Invoice by Country/Region**: Gran parte della spesa è localizzata negli Stati Uniti.
+* Nell'istogramma **Total Invoice by Sub Category**: **Hardware** e **Indirect Goods & Services** sono le categorie di spesa più rilevanti.
+* Nell'istogramma Total Invoice by Tier: La maggior parte delle attività viene svolta con i fornitori di livello 1 (primi 10). Ciò consente di gestire meglio le relazioni con i fornitori.
 
 ## <a name="spending-in-mexico"></a>Spesa in Messico
 Di seguito verranno analizzate le aree di spesa in Messico.

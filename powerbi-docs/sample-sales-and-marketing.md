@@ -1,23 +1,23 @@
 ---
-title: Presentazione dell'esempio di Vendita e marketing per Power BI
-description: Presentazione dell'esempio di Vendita e marketing per Power BI
+title: 'Esempio di analisi di vendite e marketing per Power BI: Presentazione'
+description: 'Esempio di analisi di vendite e marketing per Power BI: Presentazione'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717586"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289234"
 ---
-# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di Vendita e marketing per Power BI
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Esempio di analisi di vendite e marketing per Power BI: Presentazione
 
 ## <a name="overview-of-the-sales-and-marketing-sample"></a>Panoramica dell'Esempio di analisi di vendite e marketing
 L' **esempio di analisi di vendite e marketing** contiene un dashboard e un report per una società di produzione fittizia denominata VanArsdel Ltd. Questo dashboard è stato creato dal responsabile marketing (CMO) di VanArsdel per tenere sotto controllo il settore, la quota di mercato, i volumi di produzione, le vendite e la valutazione della società.

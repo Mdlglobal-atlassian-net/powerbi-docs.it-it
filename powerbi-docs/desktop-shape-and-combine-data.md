@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670901"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285670"
 ---
-# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Modificare la forma dei dati e combinarli in Power BI Desktop
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Esercitazione: Data shaping e combinazione di dati in Power BI Desktop
 
 Con **Power BI Desktop** è possibile connettersi a molti tipi diversi di origini dati e quindi modificare la forma dei dati in base alle esigenze, consentendo la creazione di report visivi condivisibili con altri utenti. Per *data shaping* si intende la trasformazione dei dati, ad esempio rinominando colonne o tabelle, cambiando il testo in numeri, rimuovendo righe, impostando la prima riga come intestazione e così via. Per *combinazione* dei dati si intende la connessione di due o più origini dati, il data shaping necessario e quindi il consolidamento dei dati in un'unica query utile.
 
@@ -81,7 +81,7 @@ Per rimuovere la colonna **Cost of living**, è sufficiente selezionare la colon
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Si noti che i valori di _New Rank_ non sono cambiati, a causa dell'ordine dei passaggi. Poiché l'Editor di query registra i passaggi in sequenza, ma indipendentemente uno dall'altro, in **Passaggi applicati** è possibile spostare ogni passaggio applicato verso l'alto o verso il basso nella sequenza. È sufficiente fare clic con il pulsante destro del mouse su qualsiasi passaggio per visualizzare un menu in cui è possibile eseguire queste operazioni: **Rinomina**, **Elimina**, **Elimina** **fino alla fine** (per rimuovere il passaggio corrente insieme a tutti i passaggi successivi), **Sposta su**o **Sposta giù**. Procedere e passare all'ultimo passaggio _Rimosse colonne_ subito sopra il passaggio _Aggiunta colonna personalizzata_.
+Si noti che i valori di _New Rank_ non sono cambiati, a causa dell'ordine dei passaggi. Poiché l'Editor di query registra i passaggi in sequenza, ma indipendentemente uno dall'altro, in **Passaggi applicati** è possibile spostare ogni passaggio applicato verso l'alto o verso il basso nella sequenza. Fare clic con il pulsante destro del mouse su qualsiasi passaggio e l'Editor di query visualizza un menu che consente di eseguire le operazioni seguenti: **Rinomina**, **Elimina**, **Elimina** **fino alla fine** (rimuove il passaggio corrente e anche tutti quelli successivi), **Sposta su**, o **Sposta giù**. Procedere e passare all'ultimo passaggio _Rimosse colonne_ subito sopra il passaggio _Aggiunta colonna personalizzata_.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ Viene visualizzata la finestra **Rimuovi prime righe** , in cui è possibile spe
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Rimuovere alcune colonne superflue: poiché è necessario solo il mapping dello stato alla rispettiva abbreviazione di due lettere ufficiale, è possibile rimuovere queste colonne: **Column1**, **Column3**, **Column4** e quindi da **Column6** a **Column11**. Selezionare prima **Column1** e, tenendo premuto **CTRL**, selezionare le altre colonne da rimuovere (in questo modo, è possibile selezionare più colonne non contigue). Nella scheda Home della barra multifunzione selezionare **Rimuovi colonne \> Rimuovi colonne**.
+* Rimuovere alcune colonne non necessarie: è necessario solo il mapping dello stato alla rispettiva abbreviazione di due lettere ufficiale ed è quindi possibile rimuovere le colonne seguenti: **Column1**, **Column3**, **Column4**, quindi da **Column6** a **Column11**. Selezionare prima **Column1** e, tenendo premuto **CTRL**, selezionare le altre colonne da rimuovere (in questo modo, è possibile selezionare più colonne non contigue). Nella scheda Home della barra multifunzione selezionare **Rimuovi colonne \> Rimuovi colonne**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

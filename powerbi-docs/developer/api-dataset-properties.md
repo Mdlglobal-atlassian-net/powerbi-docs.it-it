@@ -6,15 +6,15 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780580"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277899"
 ---
 # <a name="dataset-properties"></a>Proprietà dei set di dati
 
@@ -68,7 +68,7 @@ isHidden     | String        |  Se true, la tabella verrà nascosta dagli strume
 Nome  |Tipo  |Descrizione  |Sola lettura  |Obbligatorio 
 ---------|---------|---------|---------|---------
 nome     | String        | Nome della relazione definito dall'utente. Viene inoltre usato come identificatore della relazione.        | False       | True        
-crossFilteringBehavior     | String        |    Direzione del filtro della relazione: OneDirection (impostazione predefinita), BothDirections, Automatic       | False        | False        
+crossFilteringBehavior     | Stringa        |    La direzione del filtro della relazione: OneDirection (impostazione predefinita), BothDirections, Automatic       | False        | False        
 fromTable     | String        | Nome della tabella di chiave esterna.        | False        | True         
 fromColumn    | String        | Nome della colonna di chiave esterna.        | False        | True         
 toTable    | String        | Nome della tabella di chiave primaria.        | False        | True         
@@ -84,7 +84,7 @@ Int64     |   Int64.MaxValue e Int64.MinValue non sono consentiti.
 Double     |  Double.MaxValue e Double.MinValue non sono consentiti. NaN non supportato. +Infinity e -Infinity non supportati in alcune funzioni, ad esempio Min, Max.       
 Booleano     |   True o False.
 DateTime    |   Durante il caricamento dei dati, i valori vengono quantizzati con frazioni giornaliere fino a multipli interi di 1/300 secondi (3,33 ms).      
-String     |  Attualmente consente fino a 4000 caratteri per valore di stringa.
+Stringa     |  Attualmente consente fino a 4000 caratteri per valore di stringa.
 Decimal|precisione=28, scalabilità=4
 
 ## <a name="example"></a>Esempio

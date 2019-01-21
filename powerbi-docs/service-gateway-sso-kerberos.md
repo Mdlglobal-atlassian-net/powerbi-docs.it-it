@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508038"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295260"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 
-Usare la [delega vincolata Kerberos](https://technet.microsoft.com/library/jj553400.aspx) per abilitare la connettività Single Sign-On. L'abilitazione di SSO rende più semplice per i report e i dashboard di Power BI aggiornare i dati delle origini locali.
+Usare la [delega vincolata Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) per abilitare la connettività Single Sign-On. L'abilitazione di SSO rende più semplice per i report e i dashboard di Power BI aggiornare i dati delle origini locali.
 
 ## <a name="supported-data-sources"></a>Origini dati supportate
 
@@ -111,9 +111,9 @@ Questa sezione presuppone che i nomi delle entità servizio per le origini dati 
 
 Nella procedura seguente si presuppone un ambiente locale con due computer: un computer gateway e un server di database che eseguono SQL Server. Ai fini di questo esempio, si presuppongono anche le impostazioni e i nomi seguenti:
 
-* Nome computer gateway: **PBIEgwTestGW**
+* Nome del computer del gateway: **PBIEgwTestGW**
 * Account del servizio gateway: **PBIEgwTest\GatewaySvc** (nome visualizzato dell'account: Gateway Connector)
-* Nome computer dell'origine dati SQL Server: **PBIEgwTestSQL**
+* Nome del computer dell'origine dati SQL Server: **PBIEgwTestSQL**
 * Account del servizio dell'origine dati SQL Server: **PBIEgwTest\SQLService**
 
 In base a questi nomi e impostazioni, la procedura di configurazione è la seguente:
@@ -164,7 +164,7 @@ Infine, nel computer in cui è in esecuzione il servizio gateway, **PBIEgwTestGW
 
 Se si usa SAP HANA, è consigliabile eseguire anche i passaggi aggiuntivi seguenti per migliorare le prestazioni.
 
-1. Nella directory di installazione del gateway trovare e aprire il file di configurazione: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
+1. Nella directory di installazione del gateway trovare e aprire questo file di configurazione: *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*.
 
 1. Trovare la proprietà *FullDomainResolutionEnabled* e impostarla su *True*.
 

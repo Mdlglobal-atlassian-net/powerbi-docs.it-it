@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417373"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277665"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 La disponibilità continua dei dati più recenti è spesso fondamentale per poter prendere le decisioni giuste. Molti hanno probabilmente già usato il comando Recupera dati in Power BI per connettersi ai dati e caricarli, nonché hanno creato report e un dashboard. A questo punto, è necessario assicurarsi che i dati siano davvero i più aggiornati e completi.
@@ -221,7 +221,7 @@ Talvolta il modo migliore per comprendere l'aggiornamento dei dati in Power BI c
 ### <a name="excel-workbook-with-tables-of-data"></a>Cartella di lavoro di Excel con tabelle di dati
 Si dispone di una cartella di lavoro di Excel con diverse tabelle di dati, nessuna delle quali è tuttavia caricata nel modello di dati di Excel. Si usa il comando Recupera dati per caricare il file della cartella di lavoro dall'unità locale in Power BI e creare un dashboard. Vengono però apportate alcune modifiche a un paio di tabelle della cartella di lavoro nell'unità locale e si vuole aggiornare il dashboard in Power BI con i nuovi dati.
 
-Sfortunatamente, l'aggiornamento non è supportato in questo scenario. Per aggiornare il set di dati per il dashboard, sarà necessario caricare di nuovo la cartella di lavoro. Tuttavia, c'è una soluzione davvero straordinaria: spostare il file della cartella di lavoro in OneDrive o SharePoint Online.
+Sfortunatamente, l'aggiornamento non è supportato in questo scenario. Per aggiornare il set di dati per il dashboard, sarà necessario caricare di nuovo la cartella di lavoro. Esiste tuttavia una soluzione molto efficace: posizionare il file della cartella di lavoro in OneDrive o SharePoint Online.
 
 Quando ci si connette a un file in OneDrive o SharePoint Online, i report e i dashboard mostrano i dati come sono nel file. In questo caso, la cartella di lavoro di Excel. Power BI controlla automaticamente il file circa ogni ora per gli aggiornamenti. Se si apportano modifiche alla cartella di lavoro (archiviata in OneDrive o SharePoint Online), tali modifiche si rifletteranno nel dashboard e nei report entro un'ora. Non è necessario configurare alcun aggiornamento. Se tuttavia è necessario visualizzare immediatamente gli aggiornamenti in Power BI, è possibile aggiornare manualmente il set di dati usando il comando Aggiorna ora.
 

@@ -4,17 +4,17 @@ description: Utilizzare Cortana con Power BI per ottenere risposte dai dati. Fun
 author: maggiesMSFT
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ccc99c2f9810bcda80e1f02ce67e49390fd0308f
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003249"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292594"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Trovare e visualizzare rapidamente i dati di Power BI con Cortana per Power BI
 Usare Cortana nei dispositivi Windows 10 per ottenere risposte immediate alle domande aziendali più importanti. Grazie all'integrazione con Power BI, Cortana può recuperare informazioni chiave direttamente dai dashboard e dai report di Power BI. È sufficiente avere Windows 10 versione di novembre 2015 o versioni successive, Cortana, Power BI e l'accesso ad almeno un set di dati.
@@ -38,7 +38,7 @@ Sono disponibili quattro documenti che illustrano la configurazione e l'uso di C
 
 **Articolo 1** (questo articolo): comprendere l'interazione tra Cortana e Power BI
 
-**Articolo 2**: [cercare report di Power BI - Abilitare l'integrazione tra Cortana, Power BI e Windows](service-cortana-enable.md)
+**Articolo 2**: [cercare report di Power BI: Abilitare l'integrazione tra Cortana, Power BI e Windows](service-cortana-enable.md)
 
 **Articolo 3**: [cercare report di Power BI - Creare speciali *schede risposte Cortana*](service-cortana-answer-cards.md)
 

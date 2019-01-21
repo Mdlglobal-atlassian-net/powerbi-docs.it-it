@@ -1,23 +1,23 @@
 ---
-title: Presentazione dell'esempio di analisi delle opportunità per Power BI
-description: Presentazione dell'esempio di analisi delle opportunità per Power BI
+title: 'Esempio di analisi delle opportunità per Power BI: Presentazione'
+description: 'Esempio di analisi delle opportunità per Power BI: Presentazione'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717494"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275526"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi delle opportunità per Power BI
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle opportunità per Power BI: Presentazione
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>Panoramica dell'Esempio di analisi delle opportunità
 L' **Esempio di analisi delle opportunità** contiene un dashboard (e un report associato) per una società software con due canali di vendita: *diretto* e *partner*. Il responsabile delle vendite ha creato questo dashboard per tenere traccia delle opportunità e dei ricavi per regione, volume dell'offerta e canale.

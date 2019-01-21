@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027461"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277435"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato. Ci sono alcune eccezioni, che vengono descritte più avanti in questo articolo.
@@ -45,7 +45,7 @@ Per applicare un tema a un report di Power BI Desktop, è possibile scegliere tr
 
 | Tema del report predefinito | Sequenza di colori predefinita    |
 |------ |---------- |
-| Impostazione predefinita   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
+| Predefinito   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
 | Parco cittadino     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
 | Classe     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
 | Per daltonici   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
@@ -133,7 +133,7 @@ Si supponga di applicare un set di colori (o un singolo colore) personalizzato a
 
 Si immagini di voler anche impostare manualmente il colore di un punto dati usando la sezione Colori tema. Tali colori *non* vengono aggiornati quando si applica un nuovo tema del report. Per ripristinare i colori predefiniti, in modo che vengano aggiornati quando si applica un nuovo tema del report, selezionare **Ripristina valori predefiniti** nella tavolozza **Colori tema**.
 
-![Ripristina impostazioni predefinite](media/desktop-report-themes/report-themes_9.png)
+![Ripristina valori predefiniti](media/desktop-report-themes/report-themes_9.png)
 
 I temi dei report non si applicano inoltre a molti **oggetti visivi personalizzati**.
 
@@ -259,14 +259,14 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | columnFormatting: Formattazione campi |
 | columnHeaders: Intestazioni di colonna |
 | dataLabels: Etichette dati |
-| fill: Intero |
+| fill: Riempimento |
 | fillPoint: Punto di riempimento |
 | forecast: Previsione |
 | general: Generale |
 | goals: Obiettivi |
 | grid: Griglia |
 | header: Intestazione |
-| imageScaling: Scala |
+| imageScaling: Ridimensionamento |
 | indicator: Indicatore |
 | items: Elementi |
 | labels: Etichette dati |
@@ -278,7 +278,7 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | percentBarLabel: Etichetta tasso di conversione |
 | plotArea: Area tracciato |
 | plotAreaShading: Ombreggiatura simmetrica |
-| ratioLine: Riga del rapporto |
+| ratioLine: Linea rapporto |
 | referenceLine: Linea costante |
 | ribbonChart: Barre multifunzione |
 | rotation: Rotazione |
@@ -289,7 +289,7 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | slider: Dispositivo di scorrimento |
 | status: Codifica a colori |
 | subTotals: Subtotali |
-| target: Destinazione |
+| target: Target |
 | total: Totale complessivo |
 | trend: Linea di tendenza |
 | trendline: Asse tendenza |

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092553"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296190"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Passaggio 4: Ottenere un set di dati per aggiungere righe in una tabella di Power BI
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
@@ -26,11 +26,11 @@ Per eseguire il push dei dati in un set di dati di Power BI, è necessario fare 
 Ecco come ottenere un set di dati.
 
 ## <a name="get-a-power-bi-dataset"></a>Ottenere un set di dati di Power BI
-> **NOTA**: prima di iniziare, assicurarsi di aver seguito i passaggi precedenti della procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
+> **NOTA**: Prima di iniziare, assicurarsi di aver seguito i passaggi precedenti della procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 > 
 > 
 
-1. Nel progetto Applicazione console creato nel passaggio 2 [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) della procedura dettagliata per il push dei dati, installare il pacchetto NuGet Newtonsoft.Json. Ecco come installare il pacchetto:
+1. Nel progetto Applicazione console creato nel passaggio 2: [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) della procedura dettagliata per il push dei dati, installare il pacchetto NuGet Newtonsoft.Json. Ecco come installare il pacchetto:
    
      a. In Visual Studio 2015 scegliere **Strumenti** > **Gestione pacchetti NuGet** > **Console di Gestione pacchetti**.
    

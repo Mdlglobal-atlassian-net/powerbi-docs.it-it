@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/09/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 09c505d114eaa951978f23061d9c79c1b6870fad
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: 71ed70344281dec3353b73c8698594d62ef32eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53983371"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285600"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Suggerimenti e consigli per la formattazione dei colori in Power BI
 In Power BI sono disponibili vari modi per personalizzare i dashboard e i report. Questo articolo presenta una raccolta di suggerimenti utili per fare in modo che le visualizzazioni di Power BI siano più accattivanti, interessanti e personalizzate in base alle proprie esigenze.
@@ -29,41 +29,38 @@ Sono forniti i suggerimenti seguenti. Se si hanno suggerimenti interessanti, è 
 * Usare scale dei colori divergenti
 * Come annullare un'operazione in Power BI
 
-Per apportare qualunque modifica, è necessario che sia in corso la modifica di un report: selezionare il **Report** nel riquadro **Area di lavoro personale** , quindi selezionare **Modifica report** nell'area del menu superiore, come mostrato nell'immagine seguente. In questo esempio viene usato l'**esempio di analisi delle risorse umane**.
+Per apportare modifiche, è necessario modificare un report. Aprire il report e quindi scegliere **Modifica report** dall'area del menu superiore, come illustrato nell'immagine seguente.
 
-![Area di disegno del report con Modifica report evidenziato](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
 
-Quando viene visualizzato il riquadro **Visualizzazioni** a destra dell'area di disegno **Report** , è possibile iniziare a personalizzare.
+Quando viene visualizzato il riquadro **Visualizzazioni** a destra dell'area di disegno **Report** , è possibile iniziare a personalizzare. Se il riquadro non viene visualizzato, selezionare la freccia nell'angolo superiore destro per aprirlo.
 
-![Report con il riquadro di formattazione visualizzato](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-formatting-pane.png)
 
 ## <a name="change-the-color-of-a-single-data-point"></a>Cambiare il colore di un unico punto dati
-In alcuni casi è utile evidenziare un particolare punto dati, ad esempio le cifre delle vendite per il lancio di un nuovo prodotto o l'aumento dei punteggi di qualità dopo il lancio di un nuovo programma. Con Power BI e per la maggior parte dei tipi di oggetti visivi è possibile evidenziare un particolare punto dati modificandone il colore.
+In alcuni casi è utile evidenziare un particolare punto dati, ad esempio le cifre delle vendite per il lancio di un nuovo prodotto o l'aumento dei punteggi di qualità dopo il lancio di un nuovo programma. Con Power BI è possibile evidenziare un particolare punto dati modificandone il colore.
 
-La visualizzazione seguente illustra i margini di vendita per dipendente usando i colori predefiniti. 
+La visualizzazione seguente classifica le unità vendute in base al segmento di prodotto. 
 
-![grafico ad area](media/service-tips-and-tricks-for-color-formatting/power-bi-area-chart.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-grey.png)
 
-Vedere l'area relativa ad Annelie risulta difficile. Verrà quindi usato il colore per renderla più evidente. Ecco i passaggi necessari:
+Si supponga ora di voler mettere in evidenza il segmento **Convenience** per mostrare le ottime prestazioni di questo nuovo segmento, usando il colore. Ecco i passaggi necessari:
 
-Espandere la sezione **Colori dati** . Verrà visualizzato quanto segue.
+Espandere la sezione **Colori dati** e spostare il dispositivo di scorrimento di **Mostra tutto** su Sì. Verranno visualizzati i colori per ogni elemento dati nella visualizzazione. Quando si passa il puntatore del mouse sui punti dati, viene abilitato lo scorrimento per consentire la modifica di qualsiasi punto dati.
 
-![Area di selezione Colori dati in Formattazione](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
+Impostare il colore arancione per **Convenience**. 
 
-In questo caso viene selezionato un colore scuro ma brillante completamente diverso dal colore usato per Valery. Selezionare la freccia a discesa all'interno della casella dei colori di Annelie, selezionare **Colore personalizzato** e scegliere un blu brillante.
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-orange.png)
 
-![Selezioni dei colori](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_6.png)
+Una volta selezionato, il punto dati **Convenience** viene visualizzato con una gradevole tonalità di arancione e risalta molto bene.
 
-Quando viene selezionata, l'area relativa ad Annelie risulta molto più facile da distinguere dagli altri dipendenti. 
+Anche se si cambia tipo di visualizzazione e in seguito si ripristina quella corrente, Power BI ricorda la selezione e mantiene il colore arancione per **Convenience**.
 
-![Grafico ad area, area relativa ad Annalie ora di colore blu brillante](media/service-tips-and-tricks-for-color-formatting/power-bi-color.png)
+È possibile modificare il colore di un punto dati per uno, alcuni o tutti gli elementi dati nella visualizzazione. Potrebbe essere utile usare i colori aziendali per un oggetto visivo. 
 
-Anche se si cambia tipo di visualizzazione e in seguito si ripristina quella corrente, Power BI ricorda la selezione e mantiene il colore verde per **Washington** .
-
-È anche possibile cambiare il colore di un punto dati per più elementi dati. Nell'immagine seguente **Arizona** è in rosso e **Washington** è ancora verde.
-
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_8.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-corporate.png)
 
 Con i colori è possibile ottenere molti effetti diversi. Nella prossima sezione verranno illustrate le sfumature.
 
@@ -73,16 +70,27 @@ I grafici spesso si avvalgono dell'impostazione dinamica dei colori in base al v
 La sezione seguente illustra vari modi per basare il colore su un valore numerico.
 
 ## <a name="base-the-color-of-data-points-on-a-value"></a>Basare i colori dei punti dati su un valore
-Per cambiare il colore in base a un valore, trascinare il campo su cui si vuole basare il colore nell'area **Saturazione colore** nel riquadro **Campo** . Nell'immagine seguente, il campo **Profit before tax** è stato trascinato in **Saturazione colore**. Come si nota, anche se **Velo** ha un valore **Gross Sales** più elevato (la relativa colonna è più alta), **Amarilla** ha un valore **Profit before tax** più elevato (la relativa colonna ha una saturazione di colore maggiore).
+Per cambiare il colore in base a un valore, trascinare il campo su cui si vuole basare il colore nell'area **Saturazione colore** nel riquadro **Campi**. Nell'immagine seguente, il campo **%Market Share SPLY YTD** è stato trascinato in **Saturazione colore**. 
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_9.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-color-saturation.png)
+
+E nel riquadro Formattazione, in **Colori dati**, determinare come il valore di **% Market Share SPAS YTD** cambierà il colore e l'ombreggiatura nell'istogramma. In questo esempio, i valori minori per %Market Share saranno azzurro chiaro e i valori più alti saranno di colore blu più scuro.
+
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
+
+Si può notare che, anche se il numero di unità vendute è maggiore sia per **Productivity** che per **Extreme** (le colonne sono più alte), **Moderation** ha una valore maggiore per **%Market Share SPLY YTD** (la saturazione del colore della colonna è maggiore).
+
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-saturation.png)
 
 ## <a name="customize-the-colors-used-in-the-color-scale"></a>Personalizzare i colori usati nella scala dei colori
-È anche possibile personalizzare i colori usati nella scala dei colori Espandere **Colori dati** per vedere le sfumature di colore usate per visualizzare i dati. Per impostazione predefinita, il valore più basso nei dati viene mappato al colore meno saturo e il valore più alto con al colore più saturo.
+È anche possibile personalizzare i colori usati nella scala dei colori Per impostazione predefinita, il valore più basso nei dati viene mappato al colore meno saturo e il valore più alto con al colore più saturo. Nell'immagine precedente è stata usata una sfumatura di colore blu. 
 
-La gamma di colori viene mostrata in una barra sfumata che rappresenta lo spettro tra il valore **Minimo** e **Massimo** del colore, con il colore con il valore **Minimo** a sinistra e quello con il valore **Massimo** a destra.
+Espandere **Colori dati** per vedere le sfumature di colore usate per visualizzare i dati. La gamma di colori viene mostrata in una barra sfumata che rappresenta lo spettro tra il valore **Minimo** e **Massimo** del colore, con il colore con il valore **Minimo** a sinistra e quello con il valore **Massimo** a destra.
 
-![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_10.png)
+![](media/service-tips-and-tricks-for-color-formatting/power-bi-data-colors2.png)
+
 
 Per cambiare la scala in modo da usare una gamma di colori diversa, selezionare l'elenco a discesa accanto a **Minimo** o **Massimo**e selezionare un colore. Nell'immagine il colore **Massimo** è impostato sul nero e la barra sfumata mostra il nuovo spettro di colore tra **Minimo** e **Massimo**.
 

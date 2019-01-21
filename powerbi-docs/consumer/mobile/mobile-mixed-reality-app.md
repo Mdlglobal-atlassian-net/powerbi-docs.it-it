@@ -1,25 +1,25 @@
 ---
 title: App Power BI per realtà mista (anteprima)
 description: È possibile visualizzare dashboard e report nell'app Power BI per realtà mista (anteprima), sia immersi nel mondo virtuale sia nel contesto del proprio ambiente.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/05/2018
-ms.author: maggies
-ms.openlocfilehash: a9db2854ee7f1c0844e17e3641fc07f1d6aaf154
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 443615a64bee1f4723450c6c8cc3c49feb81989c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44736987"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275135"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>App Power BI per realtà mista (anteprima)
 È possibile visualizzare dashboard e report nell'app Power BI per realtà mista (anteprima) mentre si è immersi nel mondo virtuale o inserire tali elementi in posizioni specifiche nel contesto del proprio ambiente. 
 
-[Scaricare l'app Power BI per realtà mista](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Windows Store. In Windows Store, l'app è denominata "Power BI per dispositivi mobili". Interagire con dashboard e report nell'ambiente virtuale e selezionare gli elementi da inserire. 
+[Scaricare l'app Power BI per la Realtà mista](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) da Windows Store: In Windows Store è chiamata "Power BI per dispositivi mobili". Interagire con dashboard e report nell'ambiente virtuale e selezionare gli elementi da inserire. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Due visualizzazioni: Windows classica e olografica
 

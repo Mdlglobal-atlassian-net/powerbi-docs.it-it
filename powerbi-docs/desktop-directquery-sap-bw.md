@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670740"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278079"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery e SAP Business Warehouse (BW)
 È possibile connettersi alle origini dati di **SAP Business Warehouse (BW)** usando direttamente **DirectQuery**. Data la natura OLAP/multidimensionale di SAP BW, esistono numerose differenze importanti tra DirectQuery in SAP BW e le origini relazionali, ad esempio SQL Server. Queste differenze sono riepilogate come segue:
@@ -32,17 +32,17 @@ ms.locfileid: "52670740"
 ## <a name="additional-modeling-restrictions"></a>Restrizioni di modellazione aggiuntive
 Di seguito sono riportate le principali restrizioni di modellazione aggiuntive durante la connessione a SAP BW con DirectQuery in Power BI:
 
-* **Nessun supporto per le colonne calcolate**: la possibilità di creare colonne calcolate è disabilitata. Ciò significa anche che il raggruppamento e il clustering, che creano le colonne calcolate, non sono disponibili.
-* **Limitazioni aggiuntive per le misure**: ci sono altre limitazioni imposte alle espressioni DAX che è possibile usare nelle misure, per riflettere il livello di supporto offerto da SAP BW.
-* **Nessun supporto per la definizione di relazioni**: le relazioni sono intrinseche nell'origine esterna SAP e non è possibile definire relazioni aggiuntive nel modello.
-* **Nessuna visualizzazione di dati**: la **Vista dati** in genere mostra i dati a livello di dettaglio nelle tabelle. Data la natura delle origini OLAP come SAP BW, questa vista non è disponibile in SAP BW.
-* **I dettagli delle colonne e misure sono fissati**: l'elenco di colonne e misure visualizzate nell'elenco dei campi è fissato dall'origine sottostante e non può essere modificato. Ad esempio, non è possibile eliminare una colonna, né modificare il tipo di dati (tuttavia, può essere rinominato).
-* **Limitazioni aggiuntive in DAX**: ci sono altre limitazioni in DAX, che è possibile usare nelle definizioni di misure, in modo da riflettere le limitazioni nell'origine. Non è ad esempio possibile usare una funzione di aggregazione su una tabella.
+* **Nessun supporto per le colonne calcolate:** la possibilità di creare colonne calcolate è disabilitata. Ciò significa anche che il raggruppamento e il clustering, che creano le colonne calcolate, non sono disponibili.
+* **Limitazioni aggiuntive per le misure:** ci sono altre limitazioni imposte alle espressioni DAX che è possibile usare nelle misure, per riflettere il livello di supporto offerto da SAP BW.
+* **Nessun supporto per la definizione di relazioni:** le relazioni sono intrinseche nell'origine esterna SAP e non è possibile definire relazioni aggiuntive nel modello.
+* **Nessuna visualizzazione di dati:** la **Vista dati** in genere mostra i dati a livello di dettaglio nelle tabelle. Data la natura delle origini OLAP come SAP BW, questa vista non è disponibile in SAP BW.
+* **I dettagli delle colonne e misure sono fissi:** l'elenco di colonne e misure visualizzate nell'elenco dei campi è fissato dall'origine sottostante e non può essere modificato. Ad esempio, non è possibile eliminare una colonna, né modificare il tipo di dati (tuttavia, può essere rinominato).
+* **Limitazioni aggiuntive in DAX:** ci sono altre limitazioni in DAX, che è possibile usare nelle definizioni di misure, in modo da riflettere le limitazioni nell'origine. Non è ad esempio possibile usare una funzione di aggregazione su una tabella.
 
 ## <a name="additional-visualization-restrictions"></a>Restrizioni di visualizzazione aggiuntive
 Le principali restrizioni aggiuntive nelle visualizzazioni durante la connessione a SAP BW con DirectQuery in Power BI sono le seguenti:
 
-* **Nessuna aggregazione di colonne**: non è possibile modificare l'aggregazione per una colonna in un oggetto visivo, che è sempre *Non riepilogare*
+* **Nessuna aggregazione di colonne:** non è possibile modificare l'aggregazione per una colonna in un oggetto visivo ed è sempre *Non riepilogare*.
 * **Il filtro delle misure è disabilitato**: non è possibile filtrare le misure per riflettere il supporto offerto da SAP BW.
 * **Selezione multipla e includere/escludere**: la possibilità di selezionare più punti dati di un oggetto visivo è disabilitata se i punti rappresentano valori da più colonne. Ad esempio, dato un grafico a barre che mostra le vendite in base al paese, con Categoria nella legenda, non sarebbe possibile selezionare il punto per (USA, Bici) e (Francia, Abiti). Analogamente, non sarebbe possibile selezionare il punto per (USA, Bici) ed escluderlo dall'oggetto visivo. Entrambi sono limitazioni imposte per riflettere il supporto offerto da SAP BW.
 

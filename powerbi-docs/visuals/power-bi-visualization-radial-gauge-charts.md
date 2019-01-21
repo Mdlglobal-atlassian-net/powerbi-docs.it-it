@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416867"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282564"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Grafici a misuratore radiale in Power BI
 Un grafico a misuratore radiale è contraddistinto da un arco circolare e consente di visualizzare un unico valore che misura lo stato rispetto al raggiungimento di un obiettivo o a un indicatore KPI.  L'obiettivo, o valore di destinazione, è rappresentato dalla linea (lancetta). Lo stato rispetto al raggiungimento dell'obiettivo è rappresentato dall'ombreggiatura.  Il valore che rappresenta lo stato è visualizzato in grassetto all'interno dell'arco. Tutti i valori possibili sono distribuiti uniformemente lungo l'arco, da quello minimo (all'estrema sinistra) a quello massimo (all'estrema destra).
@@ -66,7 +66,7 @@ In alternativa, il video seguente mostra come creare singoli oggetti visivi di m
    
    ![](media/power-bi-visualization-radial-gauge-charts/gauge_no_target.png)
 
-### <a name="step-3-set-a-target-value"></a>Passaggio 3: Impostare un valore target
+### <a name="step-3-set-a-target-value"></a>Passaggio 3: Impostare un valore di destinazione
 1. Trascinare **COGS** nell'area **Valore target** .
 2. Modificare l'aggregazione impostandola su **Media**.
    Power BI aggiunge una lancetta che rappresenta il valore target pari a **145.480 dollari**. Notare che il valore di destinazione è stato superato.
@@ -78,7 +78,7 @@ In alternativa, il video seguente mostra come creare singoli oggetti visivi di m
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>Passaggio 4: Aggiungere un valore massimo
+### <a name="step-4-set-a-maximum-value"></a>Passaggio 4: Impostare un valore massimo
 Nel passaggio 2, Power BI usa il campo Valore per impostare automaticamente i valori minimo (inizio) e massimo (fine).  A questo punto è possibile vedere cosa succede impostando il valore massimo.  Supponiamo che invece di usare un valore doppio a quello corrente come valore massimo possibile, si voglia impostarlo sul valore massimo di Gross Sales nel set di dati. 
 
 1. Trascinare **Gross Sales** dall'elenco **Campi** nell'area **Valore massimo** .
@@ -90,7 +90,7 @@ Nel passaggio 2, Power BI usa il campo Valore per impostare automaticamente i va
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>Passaggio 5: Salvare il report
+### <a name="step-5-save-your-report"></a>Passaggio 5: Salva il report
 1. [Salvare il report](../service-report-save.md).
 2. [Aggiungere il grafico a misuratore come riquadro del dashboard](../service-dashboard-pin-tile-from-report.md). 
 

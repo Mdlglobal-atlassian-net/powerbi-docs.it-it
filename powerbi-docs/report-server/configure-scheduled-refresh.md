@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: d8283f1abf05ab788336413bd18582ea71d4e43f
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.openlocfilehash: 4ca6d7c5ed47433614dc194db7d09162d5e96eae
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "34296265"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285715"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Come configurare l'aggiornamento pianificato dei report di Power BI
 Per aggiornare i dati in un report di Power BI, è necessario creare un piano di aggiornamento pianificato. Questa operazione viene eseguita nell'area *Gestisci* di un report di Power BI.
@@ -79,7 +79,7 @@ Visualizzare lo stato di un piano di aggiornamento pianificato nel portale Web.
    | Aggiornamento dei dati |Aggiornamento dei dati nel modello. |
    | Rimozione delle credenziali dal modello |Rimozione delle credenziali usate per la connessione all'origine dati dal modello. |
    | Salvataggio del modello nel catalogo |L'aggiornamento dei dati è completato e il modello aggiornato viene salvato di nuovo nel database del catalogo del server di report. |
-   | Completato: aggiornamento dei dati |L'aggiornamento è stato completato. |
+   | Completato: Aggiornamento dati |L'aggiornamento è stato completato. |
    | Errore: |Si è verificato un errore durante l'aggiornamento e l'errore viene visualizzato. |
 
 La pagina Web deve essere aggiornata per visualizzare lo stato corrente. Lo stato non verrà modificato automaticamente.

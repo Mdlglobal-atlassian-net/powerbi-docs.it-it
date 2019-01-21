@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 196d2ef3eb0d8ed8b7f008eef1b247d9e7f1cd18
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417166"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296502"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
 Con lo streaming in tempo reale di Power BI, è possibile trasmettere i dati e aggiornare i dashboard in tempo reale. Gli oggetti visivi o i dashboard che possono essere creati in Power BI possono essere creati anche per visualizzare e aggiornare gli oggetti visivi e i dati in tempo reale. I dispositivi e le origini dei dati in streaming possono essere sensori factory, origini di social media, metriche di utilizzo del servizio e qualsiasi altra origine da cui si possano raccogliere o trasmettere dati per i quali i tempi sono importanti.
@@ -44,7 +44,7 @@ Esistono due aspetti da considerare relativamente ai riquadri aggiunti da un set
 * Dopo aver aggiunto un oggetto visivo a un dashboard, è possibile usare **Domande e risposte** per fare domande al set di dati di push in linguaggio naturale. Dopo aver eseguito una query **Domande e risposte** è possibile aggiungere nuovamente l'oggetto visivo risultante al dashboard, *anch'esso* aggiornato in tempo reale.
 
 ### <a name="streaming-dataset"></a>Set di dati di streaming
-Con un **set di dati di streaming**, anche i dati vengono spostati nel servizio Power BI, con una differenza importante: Power BI si limita ad archiviare i dati in una cache temporanea, che scadrà rapidamente. La cache temporanea viene usata solo per visualizzare gli oggetti visivi che hanno un certo senso cronologico temporaneo, ad esempio un grafico a linee con un intervallo di tempo di un'ora.
+Anche con un **set di dati di streaming** viene eseguito il push dei dati nel servizio Power BI, con una differenza importante: Power BI archivia solo i dati in una cache temporanea, che scade rapidamente. La cache temporanea viene usata solo per visualizzare gli oggetti visivi che hanno un certo senso cronologico temporaneo, ad esempio un grafico a linee con un intervallo di tempo di un'ora.
 
 Con un **set di dati di streaming**, *non* c'è un database sottostante, quindi *non si possono* generare oggetti visivi del report usando i dati trasmessi dal flusso. Di conseguenza, non è possibile usare le funzionalità del report, ad esempio i filtri, gli oggetti visivi personalizzati e altre funzioni di report.
 

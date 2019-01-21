@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 428ea77de2151f4ec3417f62819b3d6481c17ae2
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 65c2de2d505866b3b00a88eaaa309d7c61a7625d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909687"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296226"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurare app per dispositivi mobili con Microsoft Intune
 
@@ -96,7 +96,7 @@ L'applicazione è un riferimento, o un pacchetto, salvato in Intune per la distr
 
 1. Selezionare **Carica**.
 
-1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica**, quindi tornare ad **App**.
+1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica** e quindi tornare ad **App**.
 
     ![Scheda App](media/service-admin-mobile-intune/intune-add-software-ios2.png)
 
@@ -106,13 +106,13 @@ L'applicazione è un riferimento, o un pacchetto, salvato in Intune per la distr
 
 1. Immettere l'URL dell'app ottenuto nel [passaggio 1](#step-1-get-the-URL-for-the-application) e fare clic su **Avanti**.
 
-    ![Installazione software: Android](media/service-admin-mobile-intune/intune-add-software-android1.png)
+    ![Installazione del software: Telefoni](media/service-admin-mobile-intune/intune-add-software-android1.png)
 
 1. Specificare **Autore**, **Nome** e **Descrizione**. Facoltativamente, è possibile specificare un valore per **Icona**. **Categoria** è per l'app del portale aziendale. Al termine, fare clic su **Avanti**.
 
 1. Selezionare **Carica**.
 
-1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica**, quindi tornare ad **App**.
+1. Se l'app non è visualizzata nell'elenco, aggiornare la pagina: passare a **Panoramica** e quindi tornare ad **App**.
 
     ![Scheda App](media/service-admin-mobile-intune/intune-add-software-android2.png)
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072889"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279988"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Visualizzare elementi senza dati in Power BI
 
@@ -76,7 +76,7 @@ Nella sezione precedente è stato descritto come Power BI determina quali dati s
 
 La funzionalità **Mostra elementi senza dati** consente di ottenere esattamente questo risultato: includere le righe di dati e le colonne che non contengono dati di misura (valori di misura vuoti).
 
-Per abilitare la funzionalità **Mostra elementi senza dati**, selezionare un oggetto visivo e quindi nel riquadro **Campi** fare clic con il pulsante destro del mouse sul campo e scegliere **Mostra elementi senza dati** dal menu visualizzato, come illustrato nell'immagine seguente.
+Per abilitare la funzionalità **Mostra elementi senza dati**, selezionare un oggetto visivo e quindi nel riquadro **Campi** fare clic con il pulsante destro del mouse sul campo e scegliere **Mostra elementi senza dati** dal menu visualizzato, come illustrato nell'immagine seguente:
 
 ![Come abilitare la funzionalità Mostra elementi senza dati](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -172,7 +172,7 @@ In questa sezione viene illustrato il modello di dati di esempio usato negli ese
 
 |CategoriaProdotto[IdCategoria]|   CategoriaProdotto[NomeCategoria]|
 |---------|---------|
-|1  |Telefono   |
+|1  |Layout   |
 |2  |Fotocamera |
 |3  |TV |
 
@@ -193,6 +193,6 @@ In questa sezione viene illustrato il modello di dati di esempio usato negli ese
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-In questo articolo è stato descritto come abilitare la funzionalità **Mostra elementi senza dati** di Power BI. Potrebbero essere interessanti anche gli articoli seguenti. 
+In questo articolo è stato descritto come abilitare la funzionalità **Mostra elementi senza dati** di Power BI. Potrebbero essere interessanti anche gli articoli seguenti: 
 
-* [Origini dati in Power BI Desktop](desktop-data-sources.md)
+* [Membro predefinito nei modelli multidimensionali in Power BI Desktop](desktop-default-member-multidimensional-models.md)

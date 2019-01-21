@@ -4,17 +4,17 @@ description: Panoramica su Power BI e sull'interazione tra i diversi componenti,
 author: davidiseminger
 manager: kfile
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: overview
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: bc712b892cd35259bc036f41b6e3e16a5388ffad
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619587"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293071"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. Non importa se i dati provengono da un semplice foglio di calcolo di Excel o da una raccolta di data warehouse ibride basate sul cloud e locali: **Power BI** consente di connettersi facilmente alle origini dati, visualizzare o individuare gli elementi importanti e condividerli con tutti gli utenti selezionati.
@@ -64,4 +64,4 @@ Server di report di Power BI è una soluzione che si distribuisce dietro il fire
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Accedere, ottenere dati e navigare nel servizio Power BI](service-the-new-power-bi-experience.md)   
-[Introduzione al servizio Power BI](service-get-started.md)
+[Esercitazione: Introduzione al servizio Power BI](service-get-started.md)

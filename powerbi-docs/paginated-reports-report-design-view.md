@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900452"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283530"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Elementi della visualizzazione Progettazione report per i report impaginati (anteprima)
 
@@ -95,7 +95,7 @@ Le dimensioni dell'area di progettazione potrebbero essere diverse dall'area di 
   
 ## <a name="5-grouping-pane"></a>5 Riquadro di raggruppamento
 
- I gruppi vengono usati per organizzare i dati del report in una gerarchia visiva e per calcolare i totali. È possibile visualizzare i gruppi di righe e colonne all'interno di un'area dati nell'area di progettazione e anche nel riquadro di raggruppamento. Il riquadro di raggruppamento è suddiviso in due riquadri: Gruppi di righe e Gruppi di colonne. Quando si seleziona un'area dati, nel riquadro di raggruppamento vengono visualizzati tutti i gruppi all'interno di tale area dati come elenco gerarchico: i gruppi figlio vengono visualizzati rientrati sotto i relativi gruppi padre.  
+ I gruppi vengono usati per organizzare i dati del report in una gerarchia visiva e per calcolare i totali. È possibile visualizzare i gruppi di righe e colonne all'interno di un'area dati nell'area di progettazione e anche nel riquadro di raggruppamento. Nel riquadro di raggruppamento sono disponibili due riquadri: Gruppi di righe e Gruppi di colonne. Quando si seleziona un'area dati, nel riquadro di raggruppamento vengono visualizzati tutti i gruppi all'interno di tale area dati come elenco gerarchico: i gruppi figlio vengono visualizzati rientrati sotto i relativi gruppi padre.  
   
  È possibile creare gruppi trascinando i campi dal riquadro dei dati del report e rilasciandoli nell'area di progettazione o nel riquadro di raggruppamento. Nel riquadro di raggruppamento è possibile aggiungere gruppi padre, adiacenti e figlio, modificare le proprietà dei gruppi ed eliminare gruppi.  
   

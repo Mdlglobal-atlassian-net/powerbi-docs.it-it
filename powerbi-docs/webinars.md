@@ -5,16 +5,16 @@ author: maikelson
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: b144f3101606a58b2cd0b48db976a70477442d40
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670418"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283140"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -46,11 +46,11 @@ Iniziare dai webinar on demand più popolari
 <br>di Cory Hrncirik e Miguel Martinez
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: Il meglio per l'analisi**
+**Power BI: Analytics Done Right** (Power BI: Il meglio per l'analisi)
 <br>di Gohul Shanmugalingam
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
 
-**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Creare oggetti visivi dei dati di Power BI: tipi fondamentali di grafici e come usarli)
+**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Rappresentazioni visuali per i dati di Power BI: i principali tipi di grafico e come usarli)
 <br>di Miranda Li
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
 
@@ -78,7 +78,7 @@ Iniziare dai webinar on demand più popolari
 <br>di Charles Sterling
 <br>[Guardare adesso](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Meglio insieme: i 5 vantaggi di Power BI per gli utenti di Excel)
+**Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (L'unione fa la forza: i 5 vantaggi di Power BI per gli utenti di Excel)
 <br>di Carlos Otero e Miguel Martinez
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
@@ -112,7 +112,7 @@ Iniziare dai webinar on demand più popolari
 <br>di Ed Bobrin da Avanade
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-**Produttori: il settore sta attraversando una fase di trasformazione digitale. Come mantenere la leadership sfruttando le funzionalità di analisi per ottimizzare la redditività**
+**Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability** (Produttori: il settore sta attraversando una fase di trasformazione digitale. Come mantenere la leadership sfruttando le funzionalità di analisi per ottimizzare la redditività)
 <br>di Jon Thompson da Blue Margin e Jim Pastor da Elgin Fastener Group
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
@@ -155,11 +155,11 @@ Iniziare dai webinar on demand più popolari
 
 **[Serie di webinar sul framework di adozione di Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>di Manu Kanwarpal e Paul Henwood
-<br>[Registrarsi e guardare adesso - Part 1 - Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Parte 1 - Adozione: Adottare impostazioni cultura basate sui dati)
-<br>[Registrarsi e guardare adesso - Part 2 - Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Parte 2 - Governance: Controllare l'utilizzo di Power BI)
-<br>[Registrarsi e guardare adesso - Part 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Parte 3 - Gestione del servizio: Approfondimenti sulla gestione del servizio Power BI)
-<br>[Registrarsi e guardare adesso - Part 4 - Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Parte 4 - Sicurezza: Mantenere i dati al sicuro con Power BI)
-<br>[Registrarsi e guardare adesso - Part 5 - Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Parte 5 - Implementazione: Implementare Power BI con successo)
+<br>[Registrarsi e guardare adesso - Part 1 - Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Parte 1 - Adozione: adottare una cultura guidata dai dati)
+<br>[Registrarsi e guardare adesso - Part 2 - Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Parte 2 - Governance: gestire l'utilizzo di Power BI)
+<br>[Registrarsi e guardare adesso - Part 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Parte 3 - Gestione del servizio: informazioni dettagliate sulla gestione del servizio Power BI)
+<br>[Registrarsi e guardare adesso - Part 4 - Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Parte 4 - Sicurezza: mantenere i dati sicuri con Power BI)
+<br>[Registrarsi e guardare adesso - Part 5 - Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Parte 5 - Implementazione: implementazione corretta di Power BI)
 
 **Serie di webinar su Office 365 per professionisti finanziari**
 <br>di Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky e Miguel Martinez

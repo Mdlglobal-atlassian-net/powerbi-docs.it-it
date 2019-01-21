@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829804"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296088"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte 1, Aggiungere visualizzazioni a un report di Power BI
 Questo articolo offre una breve introduzione alla creazione di una visualizzazione in un report tramite il servizio Power BI o Power BI Desktop.  Per i contenuti più avanzati, [vedere la Parte II](power-bi-report-add-visualizations-ii.md). Nel video seguente Amanda illustra alcuni modi per creare, modificare e formattare gli oggetti visivi nell'area di disegno report. Sarà quindi possibile provare a usare l'[esempio di analisi di vendite e marketing](../sample-datasets.md) per creare il proprio report.
@@ -38,7 +38,7 @@ Questo articolo offre una breve introduzione alla creazione di una visualizzazio
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   **Oppure, iniziare con un campo categoria**, ad esempio Name o Product: Power BI crea una tabella e aggiunge il campo all'area **Valori**.
+   **In alternativa, iniziare con un campo categoria**, ad esempio Name o Product: Power BI crea una tabella e aggiunge tale campo nell'area **Valori**.
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    

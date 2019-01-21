@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900552"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291986"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](power-bi-overview.md).
@@ -59,7 +59,7 @@ Se sono presenti dati importanti in file Excel o CSV, è possibile creare un das
 
 Altre informazioni su tutti gli altri modi per [recuperare dati per Power BI](service-get-data.md).
 
-## <a name="step-1-get-data"></a>Passaggio 1: Recuperare i dati
+## <a name="step-1-get-data"></a>Passaggio 1: Recupera dati
 Di seguito è riportato un esempio di recupero di dati da un file CSV. Per seguire questa esercitazione, [scaricare questo file CSV di esempio](http://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. [Accedere a Power BI](http://www.powerbi.com/). Non si ha un account? Nessun problema: è possibile iscriversi a una versione di prova gratuita.
@@ -128,7 +128,7 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
    
    Selezionare il nuovo riquadro nel dashboard per tornare al report in qualsiasi momento. Power BI reindirizzerà l'utente all'editor di report in Visualizzazione di lettura. Per tornare alla Visualizzazione di modifica, selezionare **Modifica report** nella barra dei menu superiore. Nella Visualizzazione di modifica è possibile continuare a esplorare e ad aggiungere riquadri. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Passaggio 3: Continuare l'esplorazione con Domande e risposte (query in linguaggio naturale)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Passaggio 3:  Continuare l'esplorazione con Domande e risposte (query in linguaggio naturale)
 1. Per l'esplorazione rapida dei dati, provare a formulare una domanda nella finestra Domande e risposte. La casella delle domande di Domande e risposte si trova nella parte superiore del dashboard (**Porre una domanda sui dati**) e nella barra dei menu superiore del report (**Poni una domanda**). Ad esempio, provare a digitare "quale segmento ha generato il massimo profitto".
    
    ![Area di disegno Domande e risposte](media/service-get-started/powerbi-qna.png)

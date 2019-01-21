@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a71dc77f36ae1b8c4e54c69b5c9afaf676c7836f
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 5ee49a32542a032433c6eb53ca96cbe81d3df630
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578084"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291580"
 ---
 # <a name="connect-to-amazon-redshift-in-power-bi-desktop"></a>Connettersi ad Amazon Redshift in Power BI Desktop
 In **Power BI Desktop** è possibile connettersi a un database **Amazon Redshift** e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -25,7 +25,7 @@ Per connettersi a un database **Amazon Redshift** selezionare **Recupera dati** 
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-Nella finestra **Amazon Redshift** che viene visualizzata digitare o incollare il nome del server e del database **Amazon Redshift**. Nel campo *Server* gli utenti possono specificare una porta nel seguente formato: *ServerURL:Port*
+Nella finestra **Amazon Redshift** che viene visualizzata digitare o incollare il nome del server e del database **Amazon Redshift**. Nel campo *Server* gli utenti possono specificare una porta nel formato seguente: *URLServer:Porta*
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 

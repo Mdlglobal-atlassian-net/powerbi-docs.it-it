@@ -1,29 +1,29 @@
 ---
-title: 'Guida introduttiva: Esplorare dashboard e report nelle app per dispositivi mobili'
+title: 'Avvio rapido: Esplorare dashboard e report nelle app per dispositivi mobili'
 description: In questa guida introduttiva si esplorano un dashboard e un report di esempio nelle app Power BI per dispositivi mobili.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/16/2018
-ms.author: maggies
-ms.openlocfilehash: 6d5d543c3654da13592b24f4c70bc964eb7bddff
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.author: mshenhav
+ms.openlocfilehash: 9bb6dec4cdb689d2a21812b1dab8ebeb49090542
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157265"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279114"
 ---
-# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Guida introduttiva: Esplorare dashboard e report nelle app Power BI per dispositivi mobili
+# <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Avvio rapido: Esplorare dashboard e report nelle app Power BI per dispositivi mobili
 In questa guida introduttiva si esplorano un dashboard e un report di esempio nell'app Power BI per dispositivi mobili su un dispositivo Android. È possibile seguire la procedura anche nelle altre app per dispositivi mobili. 
 
 Si applica a:
 
-| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivi Windows 10](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](./media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Telefoni](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivi Windows 10](./media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone | iPad | Android | Windows 10 |
+| iPhone | iPad | Telefoni | Windows 10 |
 
 I dashboard rappresentano il portale per accedere al ciclo di vita e ai processi aziendali. Un dashboard offre infatti una panoramica, ovvero una posizione unica da cui controllare lo stato corrente delle attività aziendali. Un report è una vista interattiva dei dati con elementi visivi che rappresentano conclusioni e approfondimenti diversi ottenuti da tali dati. 
 
@@ -153,5 +153,5 @@ Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il 
 In questa guida introduttiva si sono esplorati un dashboard e un report di esempio nel dispositivo Android. Continuare per altre informazioni sull'uso del servizio Power BI. 
 
 > [!div class="nextstepaction"]
-> [Guida introduttiva: Navigazione nel servizio Power BI](../end-user-experience.md)
+> [Avvio rapido: Navigazione nel servizio Power BI](../end-user-experience.md)
 

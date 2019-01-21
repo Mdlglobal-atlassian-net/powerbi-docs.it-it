@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 2cb8e7b6c2744f80891c5424f620b9812eee1acb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37137170"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285370"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 suggerimenti per ottenere assistenza con le domande di Power BI
 A volte gli utenti di Power BI si sentono demoralizzati oppure hanno difficoltà perché non riescono a ottenere risposte alle proprie domande su Power BI quando ne hanno bisogno, cioè a ottenere un'assistenza "just-in-time". 
@@ -30,7 +30,7 @@ Gli esperti che cercano risposte su Power BI usano spesso la ricerca. Si vuole t
 Il team di Power BI aggiorna e migliora continuamente la documentazione e la formazione di Power BI. Si potranno trovare contenuti interessanti, tra cui registrazioni di webinar, white paper, apprendimento guidato e collegamenti ai post di blog su tutte le funzionalità più recenti.
 
 ## <a name="3-read-the-power-bi-blog-for-the-latest-news"></a>3 Leggere il blog di Power BI per conoscere le ultime notizie
-Il team di Power BI spiega tutte le nuove funzionalità nei consueti [post del blog su Power BI](https://powerbi.microsoft.com/blog/). È possibile scoprire tutte le novità, da Power BI Desktop alle app Power BI per dispositivi mobili. È consigliabile prendere l'abitudine di tornare spesso a dare un'occhiata ai blog e dedicare alcuni minuti ogni settimana per scoprire se ci sono novità. Non si sa mai quando potrebbe tornare utile quell'informazione appresa mesi prima.
+Il team di Power BI spiega tutte le nuove funzionalità nei consueti [post del blog su Power BI](https://powerbi.microsoft.com/blog/). È possibile scoprire tutte le novità, da Power BI Desktop alle app Power BI per dispositivi mobili. Prendere l'abitudine di visitare spesso queste pagine per scoprire le novità: bastano pochi minuti ogni settimana per dare un'occhiata ai blog. Non si sa mai quando potrebbe tornare utile quell'informazione appresa mesi prima.
 
 ## <a name="4-try-twitter"></a>4 Provare Twitter
 Moltissimi clienti ed esperti di Power BI sono su Twitter. È possibile porre una domanda in un tweet. Aggiungere gli hashtag #powerbi e #powerbihelp per permettere agli utenti competenti di visualizzare il tweet.

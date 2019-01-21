@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 85c16822a51bc3c4a59bbfaa363f742f77552b72
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578636"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287588"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Esercitazione: Creare misure personalizzate in Power BI Desktop
 Con le misure è possibile creare alcune delle soluzioni di analisi dati più potenti in Power BI Desktop. Consentono infatti di eseguire calcoli sui dati durante l'interazione con i report. Questa esercitazione illustra il significato e la modalità di creazione delle misure di base in Power BI Desktop.
@@ -23,7 +23,7 @@ Con le misure è possibile creare alcune delle soluzioni di analisi dati più po
 ### <a name="prerequisites"></a>Prerequisiti
 - Questa esercitazione è destinata agli utenti di Power BI che sono già in grado di usare Power BI Desktop per creare modelli più avanzati. L'utente dovrebbe avere già familiarità con l'uso delle funzionalità Recupera dati ed Editor di query per importare i dati, l'uso di più tabelle correlate e l'aggiunta di campi all'area di disegno del report. Se non si ha familiarità con Power BI Desktop, vedere l'articolo [Introduzione a Power BI Desktop](desktop-getting-started.md).
   
-- Scaricare il file [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) che include i dati delle vendite online della società fittizia Contoso, Inc. Questi dati sono stati importati da un database, quindi non sarà possibile connettersi all'origine dati o visualizzare i dati nell'Editor di query. Estrarre il file nel computer in uso e quindi aprirlo in Power BI Desktop.
+- Scaricare il file [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), che include dati sulle vendite online della società fittizia Contoso, Inc. Questi dati sono stati importati da un database, quindi non sarà possibile connettersi all'origine dati o visualizzarli nell'Editor di query. Estrarre il file nel computer in uso e quindi aprirlo in Power BI Desktop.
 
 ## <a name="understand-measures"></a>Informazioni sulle misure
 
@@ -128,7 +128,7 @@ Per visualizzare la differenza tra fatturato netto e vendite totali in base al p
 
 ![Importo delle vendite e fatturato netto per paese](media/desktop-tutorial-create-measures/meastut_netsales_byrcnandsalesamount.png)
 
-Il grafico usa ora due misure: SalesAmount, sommata automaticamente e la misura Net Sales creata. Ogni misura è stata calcolata nel contesto di un altro campo, RegionCountryName.
+Il grafico usa ora due misure: SalesAmount, sommato automaticamente, e la misura Net Sales creata manualmente. Ogni misura è stata calcolata nel contesto di un altro campo, RegionCountryName.
     
 ### <a name="use-your-measure-with-a-slicer"></a>Usare la misura con un filtro dei dati
 

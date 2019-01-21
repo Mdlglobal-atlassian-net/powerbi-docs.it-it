@@ -1,23 +1,23 @@
 ---
-title: Presentazione dell'esempio di analisi delle vendite al dettaglio
-description: Presentazione dell'esempio di analisi delle vendite al dettaglio
+title: 'Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione'
+description: 'Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c07c33cb6ae859c9cf202ae67119dbfb8dd45e26
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717678"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291465"
 ---
-# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Presentazione dell'esempio di analisi delle vendite al dettaglio
+# <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione
 
 Questo dashboard di esempio del settore, unitamente al report sottostante, consentono di analizzare i dati delle vendite al dettaglio relativi ad articoli venduti in più negozi e in più zone. Grazie alle metriche è possibile confrontare le prestazioni dell'anno corrente con quelle dell'anno precedente in diverse aree, tra cui vendite, unità, profitto lordo e scostamento, oltre ad analizzare i nuovi negozi. Si tratta di dati reali messi a disposizione da obviEnce ([www.obvience.com](http://www.obvience.com)) che sono stati resi anonimi.
 
@@ -86,7 +86,7 @@ In alternativa, è possibile scaricare l'esempio come file con estensione pbix, 
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Esaminare un riquadro creato con Domande e risposte di Power BI
 Entriamo nello specifico.
 
-1. Aggiungere "this year sales **by district**" (vendite dell'anno per zona) nella casella della domanda. Osservare il risultato. La risposta viene automaticamente inserita in un grafico a barre e vengono suggerite altre frasi:
+1. Aggiungere "this year sales **by district**" (vendite dell'anno per zona) nella casella della domanda. Osservare il risultato: la risposta viene automaticamente inserita in un grafico a barre e vengono suggerite altre frasi:
 
    ![](media/sample-retail-analysis/retail8.png)
 2. Modificare ora la domanda in "this year sales **by zip and chain**" (vendite dell'anno per CAP e catena).

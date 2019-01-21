@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578291"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280251"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso dei dati tabulari di SQL Server Analysis Services in Power BI Desktop
-Con Power BI Desktop, è possibile connettersi e recuperare i dati dai modelli tabulari di SQL Server Analysis Services in due modi: esplorare usando una connessione in tempo reale o selezionare gli elementi e importarli in Power BI Desktop.
+Con Power BI Desktop è possibile connettersi in due modi ai modelli tabulari di SQL Server Analysis Services e recuperare dati da tali modelli: Esplorare usando una connessione dinamica o Selezionare elementi e importarli in Power BI Desktop,
 
 come verrà illustrato nelle sezioni successive.
 
@@ -52,31 +52,31 @@ Dopo aver creato i report dinamici in Power BI Desktop, è possibile condividerl
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
-**Domanda:** È necessario un gateway dati locale?
+**Domanda**: è necessario un gateway dati locale?
 
-**Risposta:** Dipende. Se si usa Power BI Desktop per la connessione in tempo reale a un modello tabulare, ma non si intende eseguire la pubblicazione nel sito di Power BI, non è necessario un gateway. Se invece si intende eseguire la pubblicazione nel sito di Power BI, un gateway dati è necessario per stabilire comunicazioni protette tra il servizio Power BI e il server Analysis Services locale. È opportuno rivolgersi all'amministratore del server Analysis Services prima di installare un gateway dati.
+**Risposta**: dipende. Se si usa Power BI Desktop per la connessione in tempo reale a un modello tabulare, ma non si intende eseguire la pubblicazione nel sito di Power BI, non è necessario un gateway. Se invece si intende eseguire la pubblicazione nel sito di Power BI, un gateway dati è necessario per stabilire comunicazioni protette tra il servizio Power BI e il server Analysis Services locale. È opportuno rivolgersi all'amministratore del server Analysis Services prima di installare un gateway dati.
 
 Se si sceglie di selezionare gli elementi e recuperare i dati, i dati del modello tabulare vengono importati direttamente nel file di Power BI Desktop, quindi non è necessario alcun gateway.
 
-**Domanda:** Qual è la differenza tra la connessione in tempo reale a un modello tabulare dal servizio Power BI rispetto alla connessione in tempo reale da Power BI Desktop?
+**Domanda**: qual è la differenza tra la connessione dinamica reale a un modello tabulare dal servizio Power BI rispetto alla connessione dinamica da Power BI Desktop?
 
-**Risposta:** Durante la connessione dinamica a un modello tabulare dal sito nel servizio Power BI a un database locale di Analysis Services all'interno dell'organizzazione, è necessario un gateway dati locale per proteggere le comunicazioni. Durante la connessione in tempo reale a un modello tabulare da Power BI Desktop, non è necessario un gateway perché sia Power BI Desktop che il server Analysis Services a cui ci si connette sono in esecuzione in locale all'interno dell'organizzazione. Tuttavia, se si pubblica il file di Power BI Desktop nel sito di Power BI, è necessario un gateway.
+**Risposta**: durante la connessione dinamica a un modello tabulare dal sito nel servizio Power BI a un database locale di Analysis Services all'interno dell'organizzazione, è necessario un gateway dati locale per proteggere le comunicazioni. Durante la connessione in tempo reale a un modello tabulare da Power BI Desktop, non è necessario un gateway perché sia Power BI Desktop che il server Analysis Services a cui ci si connette sono in esecuzione in locale all'interno dell'organizzazione. Tuttavia, se si pubblica il file di Power BI Desktop nel sito di Power BI, è necessario un gateway.
 
-**Domanda:** Se è stata creata una connessione in tempo reale, è possibile connettersi a un'altra origine dati nello stesso file di Power BI Desktop?
+**Domanda**: se è stata creata una connessione dinamica, è possibile connettersi a un'altra origine dati nello stesso file di Power BI Desktop?
 
-**Risposta:** No. È possibile esplorare i dati in tempo reale e connettersi a un altro tipo di origine dati nello stesso file. Se sono già stati importati dati o ci si è connessi a un'origine dati diversa in un file di Power BI Desktop, sarà necessario creare un nuovo file per esplorare in tempo reale.
+**Risposta**: No. È possibile esplorare i dati in tempo reale e connettersi a un altro tipo di origine dati nello stesso file. Se sono già stati importati dati o ci si è connessi a un'origine dati diversa in un file di Power BI Desktop, sarà necessario creare un nuovo file per esplorare in tempo reale.
 
-**Domanda:** Se è stata creata una connessione in tempo reale, è possibile modificare il modello o la query in Power BI Desktop?
+**Domanda**: se è stata creata una connessione dinamica, è possibile modificare il modello o la query in Power BI Desktop?
 
-**Risposta:** È possibile creare misure a livello di report in Power BI Desktop, ma tutte le altre funzionalità di query e modellazione sono disabilitate durante l'esplorazione di dati dinamici.
+**Risposta**: è possibile creare misure a livello di report in Power BI Desktop, ma tutte le altre funzionalità di query e modellazione sono disabilitate durante l'esplorazione di dati dinamici.
 
-**Domanda:** Un'eventuale connessione in tempo reale è protetta?
+**Domanda**: una connessione dinamica è protetta?
 
-**Risposta:** Sì. Per connettersi al server Analysis Services vengono usate le credenziali di Windows correnti. Non è possibile usare credenziali Basic o archiviate nel servizio Power BI o in Power BI Desktop durante l'esplorazione in tempo reale.
+**Risposta**: Sì. Per connettersi al server Analysis Services vengono usate le credenziali di Windows correnti. Non è possibile usare credenziali Basic o archiviate nel servizio Power BI o in Power BI Desktop durante l'esplorazione in tempo reale.
 
-**Domanda:** Nello strumento di navigazione vengono visualizzati un modello e una prospettiva. Qual è la differenza?
+**Domanda**: nello strumento di navigazione vengono visualizzati un modello e una prospettiva. Qual è la differenza?
 
-**Risposta:** Una prospettiva è una visualizzazione specifica di un modello tabulare. Può includere solo particolari tabelle, colonne o misure in base a un'esigenza di analisi dati univoci. Un modello tabulare contiene sempre almeno una prospettiva, che potrebbe includere tutti gli elementi nel modello. Se non si è certi di quali sia necessario selezionare, rivolgersi all'amministratore.
+**Risposta**: una prospettiva è una visualizzazione specifica di un modello tabulare. Può includere solo particolari tabelle, colonne o misure in base a un'esigenza di analisi dati univoci. Un modello tabulare contiene sempre almeno una prospettiva, che potrebbe includere tutti gli elementi nel modello. Se non si è certi di quali sia necessario selezionare, rivolgersi all'amministratore.
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>Per modificare il nome del server dopo la connessione iniziale
 Dopo aver creato un file di Power BI Desktop con una connessione di esplorazione in tempo reale, potrebbero presentarsi alcuni casi in cui si vuole passare la connessione a un server diverso. Ad esempio, se è stato creato il file di Power BI Desktop quando ci si connette a un server di sviluppo e prima di pubblicarlo nel servizio Power BI, si vuole passare la connessione al server di produzione.

@@ -1,20 +1,20 @@
 ---
 title: Condividere un dashboard o un report da app Power BI per dispositivi mobili
 description: Invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. Come fare.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
-ms.author: maggies
-ms.openlocfilehash: 4484eca5e810da7674d20e368383429c9c6f5508
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.author: mshenhav
+ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271648"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283668"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
 Si applica a:
@@ -94,7 +94,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
     Se si è proprietari del dashboard, verrà visualizzato l'elenco di colleghi con cui è stato condiviso il dashboard o il report unitamente alle note seguenti:
 
     -   **Può visualizzare**: i colleghi possono visualizzarlo, ma non condividerlo.
-    -   **Può visualizzare e condividere a sua volta**: i colleghi possono visualizzarlo e condividerlo con altri colleghi.
+    -   **Può visualizzare e ricondividere**: i colleghi possono visualizzarlo e condividerlo con altri colleghi.
 
 1. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito al dashboard. In caso contrario, Power BI invia un messaggio predefinito.
 2. Per consentire la ricondivisione, lasciare selezionata l'opzione **Consenti ai destinatari di condividere questo dashboard** .
@@ -128,7 +128,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
    
    **Può visualizzare**: i colleghi possono visualizzarlo, ma non condividerlo.
    
-   **Può visualizzare e condividere a sua volta**: i colleghi possono visualizzarlo e condividerlo con altri colleghi.
+   **Può visualizzare e ricondividere**: i colleghi possono visualizzarlo e condividerlo con altri colleghi.
 2. Digitare gli indirizzi di posta elettronica e un messaggio di accompagnamento per l'invito. In caso contrario, Power BI invia un messaggio predefinito.
    
    ![Finestra di dialogo Invita](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)

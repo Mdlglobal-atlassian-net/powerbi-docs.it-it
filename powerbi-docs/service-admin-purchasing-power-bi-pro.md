@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: quickstart
 ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 0784976e1404247d69415bb398f83cbb73ab98a8
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 538d7d67c1a29a18333d998a79b599510cb89f88
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331920"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285393"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Acquistare e assegnare licenze Power BI Pro
 
@@ -101,7 +101,7 @@ Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account 
 
 3. In **Azure Active Directory** selezionare **Licenze**.
 
-    ![Licenze](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
+    ![Licenses](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
 
 4. In **Licenze** selezionare **Tutti i prodotti** e quindi selezionare **Power BI Pro** per visualizzare l'elenco degli utenti con licenza.
 

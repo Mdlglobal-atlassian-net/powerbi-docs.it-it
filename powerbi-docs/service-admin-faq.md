@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830310"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296824"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -70,7 +70,7 @@ Esistono tre possibili scenari:
 * **Scenario 1**: l'organizzazione ha già un ambiente di Office 365 e l'utente che effettua l'iscrizione a Power BI ha già un account di Office 365.
     In questo scenario, se un utente ha già un account aziendale o dell'istituto di istruzione nel tenant (ad esempio contoso.com) ma non ha ancora Power BI, Microsoft attiva semplicemente il piano per tale account e l'utente riceve automaticamente una notifica relativa alle modalità per usare il servizio Power BI.
 
-* **Scenario 2**: l'organizzazione ha un ambiente di Office 365, ma l'utente che effettua l'iscrizione a Power BI non ha un account di Office 365.
+* **Scenario 2**: l'organizzazione ha già un ambiente di Office 365, ma l'utente che effettua l'iscrizione a Power BI non ha un account di Office 365.
     In questo scenario, l'utente ha un indirizzo di posta elettronica nel dominio dell'organizzazione (ad esempio, contoso.com) ma non ha ancora un account Office 365. In questo caso, l'utente può iscriversi a Power BI e gli viene assegnato automaticamente un account. Ciò consente all'utente di accedere al servizio Power BI. Ad esempio, se una dipendente di nome Nancy esegue l'iscrizione usando il suo indirizzo di posta elettronica aziendale, come nancy@contoso.com, Microsoft aggiunge automaticamente Nancy come utente nell'ambiente di Office 365 di Contoso e attiva Power BI per quell'account.
 
 * **Scenario 3**: l'organizzazione non ha un ambiente di Office 365 connesso al proprio dominio di posta elettronica.
@@ -162,7 +162,7 @@ Esistono tre possibili scenari:
 
     Questo significa che il numero di utenti da gestire in un determinato momento aumenta man mano che nuovi utenti nell'organizzazione si iscrivono al servizio.
 
-* **Scenario 3**: se l'organizzazione non ha un ambiente di Office 365 connesso al dominio di posta elettronica, la gestione delle identità rimane invariata.
+* **Scenario 3**: se l'organizzazione non ha un ambiente Office 365 connesso al dominio di posta elettronica, la gestione delle identità non subirà alcuna modifica.
 
     Gli utenti vengono aggiunti a una nuova directory di utenti solo cloud e si ha la possibilità di scegliere se assumere il ruolo di amministratore del tenant per gestirli.
 
@@ -186,7 +186,7 @@ Quando si esegue un'acquisizione esterna della proprietà, il contenuto di Power
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Se si hanno più domini, è possibile controllare il tenant di Office 365 in cui vengono aggiunti gli utenti?
 
-Se non si esegue alcuna operazione, viene creato un tenant per ogni dominio e sottodominio di posta elettronica dell'utente. Se si vuole che tutti gli utenti si trovino nello stesso tenant indipendentemente dalle estensioni dei relativi indirizzi di posta elettronica, creare in anticipo un tenant di destinazione oppure usare un tenant esistente e aggiungere tutti i domini e i sottodomini esistenti da consolidare al suo interno. Tutti gli utenti con indirizzi di posta elettronica che terminano con tali domini e sottodomini vengono automaticamente aggiunti al tenant di destinazione quando effettuano l'iscrizione.
+Se non si esegue alcuna operazione, viene creato un tenant per ogni dominio e sottodominio di posta elettronica dell'utente. Se si vuole che gli utenti stiano nello stesso tenant indipendentemente dalle estensioni dei loro indirizzi di posta elettronica: Creare in anticipo un tenant di destinazione oppure usare un tenant esistente e aggiungere tutti i domini e sottodomini esistenti da consolidare al suo interno. Tutti gli utenti con indirizzi di posta elettronica che terminano con tali domini e sottodomini vengono automaticamente aggiunti al tenant di destinazione quando effettuano l'iscrizione.
 
 > [!IMPORTANT]
 > Non esiste alcun meccanismo automatizzato per spostare gli utenti tra i tenant dopo che sono stati creati. Per informazioni sull'aggiunta di domini a un singolo tenant di Office 365, vedere [Aggiungere utenti e dominio in Office 365](/office365/admin/setup/add-domain/).

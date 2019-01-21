@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/11/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8856a8641b38b7a8256b199acccd54e030bdce40
-ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
+ms.openlocfilehash: dd4ee055501974345c819f7604ff30174cd4c5ba
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/02/2019
-ms.locfileid: "53984633"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279006"
 ---
 # <a name="organize-work-in-the-new-workspaces-preview-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro (anteprima) in Power BI
 
@@ -43,7 +43,7 @@ Durante il periodo di anteprima, è possibile creare e usare sia le aree di lavo
 
 ## <a name="roles-in-the-new-workspaces"></a>Ruoli nelle nuove aree di lavoro
 
-I gruppi di utenti o i singoli utenti vengono aggiunti alle nuove aree di lavoro come membri, collaboratori o amministratori. A tutti i membri in un gruppo di utenti viene assegnato il ruolo definito. Se un utente singolo appartiene a più gruppi di utenti, ottiene il livello di autorizzazione più elevato specificato dal ruolo.  Per una spiegazione dei diversi ruoli disponibili, vedere [Ruoli nelle nuove aree di lavoro](#roles-in-the-new-workspaces) più avanti in questo articolo.
+I gruppi di utenti o i singoli utenti vengono aggiunti alle nuove aree di lavoro come membri, collaboratori o amministratori. A tutti i membri in un gruppo di utenti viene assegnato il ruolo definito. Se un utente singolo appartiene a più gruppi di utenti, ottiene il livello di autorizzazione più elevato specificato dal ruolo.
 
 Tutti gli utenti che vengono aggiunti a un'area di lavoro devono possedere una licenza di Power BI Pro. Nell'area di lavoro tutti gli utenti possono collaborare sui dashboard e i report che si intende pubblicare e rendere disponibili a un pubblico più ampio o all'intera organizzazione. Per distribuire contenuto ad altri utenti all'interno dell'organizzazione, è possibile assegnare loro licenze di Power BI Pro oppure assegnare l'area di lavoro a una capacità Power BI Premium.
 
@@ -83,9 +83,7 @@ Durante il periodo di anteprima, non è possibile convertire automaticamente le 
 
 Quando le nuove aree di lavoro saranno disponibili a livello generale, sarà possibile scegliere di eseguire automaticamente la migrazione delle aree di lavoro precedenti. A un certo punto, una volta disponibili a livello generale, sarà comunque necessario eseguire la migrazione.
 
-## <a name="power-bi-apps-faq"></a>Domande frequenti sulle app di Power BI
-
-### <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Quali sono le differenze tra le nuove aree di lavoro e quelle correnti?
+## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Quali sono le differenze tra le nuove aree di lavoro e quelle correnti?
 
 Con le nuove aree di lavoro, alcune funzionalità sono state riprogettate. Ecco le modifiche dell'anteprima che verranno mantenute definitivamente. 
 
@@ -94,6 +92,13 @@ Con le nuove aree di lavoro, alcune funzionalità sono state riprogettate. Ecco 
 - È possibile creare un pacchetto di contenuto aziendale da un'area di lavoro corrente. Non è possibile crearne uno dalle nuove aree di lavoro.
 - È possibile usare un pacchetto di contenuto aziendale da un'area di lavoro corrente. Non è possibile usarne uno dalle nuove aree di lavoro.
 - Durante il periodo di anteprima, alcune funzionalità non sono ancora abilitate per le nuove aree di lavoro. Per informazioni dettagliate, vedere la sezione successiva [Funzionalità pianificate per le nuove aree di lavoro](service-new-workspaces.md#planned-new-workspace-preview-features).
+
+## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
+
+Limitazioni da tenere presenti:
+
+- le aree di lavoro possono contenere un massimo di 1.000 set di dati o 1.000 report per ogni set di dati. 
+- Una persona con una licenza di Power BI Pro può essere membro di massimo 250 aree di lavoro.
 
 ## <a name="planned-new-workspace-preview-features"></a>Funzionalità pianificate per l'anteprima delle nuove aree di lavoro
 

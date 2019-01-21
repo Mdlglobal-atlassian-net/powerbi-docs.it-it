@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649046"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277274"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
 
@@ -76,7 +76,7 @@ Nella finestra **Aggiungi un'assegnazione di ruolo** selezionare il ruolo **Lett
 
 È necessario creare un file system denominato *powerbi* prima di poter aggiungere l'account di archiviazione a Power BI. Esistono molti modi per creare questo tipo di file system, incluso l'uso di Azure Databricks, HDInsight, AZCopy o Azure Storage Explorer. Questa sezione illustra un modo semplice per creare un file system con Azure Storage Explorer.
 
-Per questa procedura è necessario installare Azure Storage Explorer 1.6.1 o versione successiva. Per installare Azure Storage Explorer per Windows, Macintosh o Linux, vedere [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
+Per questa procedura è necessario installare Azure Storage Explorer 1.6.2 o versione successiva. Per installare Azure Storage Explorer per Windows, Macintosh o Linux, vedere [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Dopo aver installato correttamente Azure Storage Explorer, al primo avvio viene visualizzata la finestra Microsoft Azure Storage Explorer - Connetti. Anche se Storage Explorer offre numerosi modi per connettersi agli account di archiviazione, è attualmente supportato un solo modo per la configurazione necessaria. 
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072222"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287636"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparazione dei dati self-service in Power BI (anteprima)
 
@@ -92,7 +92,7 @@ La tabella seguente descrive le funzionalità del flusso di dati e le relative c
 |Entità collegate del flusso di dati| |        +|
 |Schema standardizzato/supporto integrato per il modello CDM|  +|  +|
 
-Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads) per Power BI Premium.
+Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads) per Power BI Premium. I carichi di lavoro del flusso di dati non sono attualmente disponibili in Multi-Geo Capabilities.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Riepilogo della preparazione dei dati self-service per i Big Data in Power BI
 Come accennato in precedenza in questo articolo, esistono più scenari ed esempi in cui i **flussi di dati** possono assicurare un migliore controllo e analisi più rapide dei dati aziendali. Usando un modello di dati standard (schema) definito dal modello CDM, i flussi di dati possono importare i dati aziendali più importanti e prepararli per la modellazione e la creazione di informazioni dettagliate di business intelligence in tempi molto brevi, rispetto ai mesi richiesti in precedenza. 

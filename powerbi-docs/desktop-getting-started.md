@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670928"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291649"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
@@ -69,9 +69,9 @@ Quando si esegue Power BI Desktop, viene visualizzata una *schermata iniziale* .
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-In Power BI Desktop sono disponibili tre viste: **Report** , **Dati** e **Relazioni** . Power BI Desktop include anche un **Editor di query**, che viene aperto in una finestra separata. Nell' **Editor di query**è possibile creare query e trasformare i dati, quindi caricare il modello di dati ottimizzato in Power BI Desktop e creare report.
+In Power BI Desktop sono disponibili tre viste: vista **Report**, vista **Dati** e vista **Relazioni**. Power BI Desktop include anche un **Editor di query**, che viene aperto in una finestra separata. Nell' **Editor di query**è possibile creare query e trasformare i dati, quindi caricare il modello di dati ottimizzato in Power BI Desktop e creare report.
 
-La schermata seguente mostra le icone delle tre viste disponibili sul lato sinistro di Power BI Desktop: dall'alto verso il basso **Report**, **Dati**e **Relazioni**. La vista in uso è indicata dalla barra gialla a sinistra. In questo caso, è attiva la vista **Report** . È possibile cambiare la vista selezionando una di queste tre icone.
+La schermata seguente mostra le icone delle tre viste disponibili sul lato sinistro di Power BI Desktop: dall'alto verso il basso **Report**, **Dati** e **Relazioni**. La vista in uso è indicata dalla barra gialla a sinistra. In questo caso, è attiva la vista **Report** . È possibile cambiare la vista selezionando una di queste tre icone.
 
 ![](media/desktop-getting-started/designer_gsg_viewtypes.png)
 

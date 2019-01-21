@@ -1,23 +1,23 @@
 ---
-title: 'Esempio di analisi della spesa IT per Power BI: Panoramica'
-description: 'Esempio di analisi della spesa IT per Power BI: Panoramica'
+title: 'Esempio di analisi della spesa IT per Power BI: Presentazione'
+description: 'Esempio di analisi della spesa IT per Power BI: Presentazione'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717471"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290072"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della spesa IT per Power BI: Panoramica
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della spesa IT per Power BI: Presentazione
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Panoramica dell'esempio di analisi della spesa IT
 Il [pacchetto di contenuto](service-organizational-content-pack-introduction.md) per l'analisi della spesa IT (dashboard, report e set di dati) analizza il confronto tra costi pianificati ed effettivi di un reparto IT. Il confronto consente di valutare l'accuratezza delle pianificazioni per l'anno in corso e verificare le aree che evidenziano importanti deviazioni dalla pianificazione. La società di questo esempio prevede un ciclo di pianificazione annuale e genera una nuova ultima stima ogni trimestre per valutare le variazioni nella spesa IT nel corso dell'esercizio fiscale.

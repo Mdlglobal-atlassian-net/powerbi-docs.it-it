@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580541"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296571"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Risoluzione dei problemi del gateway dati locale
 
@@ -141,7 +141,7 @@ In **Mostra dettagli** può essere visualizzato il codice di errore **DM_GWPipel
 
 Per altri dettagli, è anche possibile cercare in Registri eventi > **Registri applicazioni e servizi** > **Servizio Gateway dati locale**.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Errore: Si è verificato un errore durante il tentativo di connessione a<server>. Dettagli: "Il data gateway è raggiungibile ma non può accedere all'origine dati locale".
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Errore: Si è verificato un errore durante il tentativo di connessione a <server>. Dettagli: "Il gateway dati è raggiungibile, ma non può accedere all'origine dati locale."
 
 Non è stato possibile connettersi all'origine dati specificata. Controllare le informazioni fornite per l'origine dati.
 
@@ -186,7 +186,7 @@ Assicurarsi che il proprio account sia elencato nella scheda **Utenti** dell'ori
 
 Verificare di aver aggiunto una o più origini dati al gateway, come descritto in [Aggiungere un'origine dati](service-gateway-manage.md#add-a-data-source). Se il gateway non è visualizzato nel portale di amministrazione in **Gestisci gateway**, provare a cancellare la cache del browser o a disconnettersi dal servizio e quindi riconnettersi.
 
-## <a name="datasets"></a>Set di dati
+## <a name="datasets"></a>Datasets
 
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Errore: Non è disponibile spazio sufficiente per questa riga
 
@@ -459,7 +459,7 @@ Seguire questi passaggi per risolvere il problema:
 1. Configurare un nome dell'entità servizio per il gateway locale
 2. Configurare la delega vincolata in Active Directory (AD)
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Non è stato possibile creare l'identità di Windows per l'utente idutente
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: Impossibile creare l'identità di Windows per l'utente idutente
 
 L'eccezione FailedToImpersonateUserException si verifica se non è possibile la rappresentazione per conto di un altro utente. Ciò può verificarsi anche se l'account che si tenta di rappresentare proviene da un altro dominio rispetto a quello del servizio gateway (questa è una limitazione).
 
@@ -500,7 +500,7 @@ L'errore 1033 viene visualizzato quando l'ID esterno configurato in SAP HANA non
         <value>AADEmail</value>
 ```
 
-### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos error. Major: "Miscellaneous failure [851968]", minor: "No credentials are available in the security package"
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos error. Major: "Miscellaneous failure [851968]", minor: "No credentials are available in the security package
 
 Il messaggio di errore di connessione non riuscita -10709 viene visualizzato se la delega non è configurata correttamente in Active Directory.
 

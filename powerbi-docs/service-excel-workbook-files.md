@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670202"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285623"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Ottenere dati dai file delle cartelle di lavoro di Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Se si usa Excel per connettersi a un'origine dati esterna, quando la cartella di
 L'aspetto dei fogli di Power View, delle tabelle pivot e dei grafici in Power BI dipende dalla posizione di salvataggio del file della cartella di lavoro e dal modo in cui si sceglie di ottenerlo in Power BI. Questo argomento verrà approfondito in seguito.
 
 ## <a name="data-types"></a>Tipi di dati
-Power BI supporta i tipi di dati seguenti: Numero intero, Numero decimale, Valuta, Data, True/False, Testo. Di conseguenza, contrassegnando i dati come tipi di dati specifici in Excel, si potrà migliorare l'esperienza di Power BI.
+Power BI supporta i tipi di dati seguenti: Numero intero, Numero decimale, Valuta, Data, Vero/Falso, Testo. Di conseguenza, contrassegnando i dati come tipi di dati specifici in Excel, si potrà migliorare l'esperienza di Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Preparare la cartella di lavoro per Power BI
 Guardare questo utile video per altre informazioni su come assicurarsi che le cartelle di lavoro di Excel siano pronte per Power BI.
@@ -119,7 +119,7 @@ La funzionalità **Pubblica in Power BI** in Excel 2016 equivale all'uso di **Re
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Il file della cartella di lavoro è troppo grande? Consultare [Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI](reduce-the-size-of-an-excel-workbook.md).
 
-Attualmente, quando si sceglie Importa, Power BI importa solo i dati appartenenti a una tabella o a un modello di dati. Di conseguenza, se la cartella di lavoro non contiene tabelle denominate, fogli di Power View o modelli di dati di Excel, potrebbe essere visualizzato questo errore: **"Non sono stati trovati dati nella cartella di lavoro di Excel"**. [Questo articolo](service-admin-troubleshoot-excel-workbook-data.md) illustra come correggere la cartella di lavoro e reimportarla.
+Attualmente, quando si sceglie Importa, Power BI importa solo i dati appartenenti a una tabella o a un modello di dati. Pertanto, se la cartella di lavoro non contiene tabelle denominate, fogli di Power View o modelli di dati di Excel, potrebbe essere visualizzato l'errore seguente: **"Non sono stati trovati dati nella cartella di lavoro di Excel"**. [Questo articolo](service-admin-troubleshoot-excel-workbook-data.md) illustra come correggere la cartella di lavoro e reimportarla.
 
 ## <a name="next-steps"></a>Passaggi successivi
 **Esplorare i dati**: una volta importati i dati e i report dal file in Power BI, è possibile iniziare a esplorarli. Fare semplicemente clic con il pulsante destro del mouse sul nuovo set di dati e quindi scegliere Esplora. Se si sceglie di connettersi a un file della cartella di lavoro in OneDrive nel passaggio 4, la cartella di lavoro verrà visualizzata in Report. Quando si fa clic su di essa, si aprirà in Power BI, esattamente come se fosse in Excel Online.

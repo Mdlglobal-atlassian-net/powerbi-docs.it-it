@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452730"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289924"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Modificare lo schema linguistico per Domande e risposte e aggiungere formulazioni in Power BI Desktop 
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in Power BI. Quando si formula una domanda a Domande e risposte in Power BI, il sistema fa del suo meglio per rispondere correttamente. 
@@ -78,7 +78,7 @@ Domande e risposte userà tutte queste informazioni combinandole con gli eventua
 
 
 ## <a name="edit-a-linguistic-schema"></a>Modifica di uno schema linguistico
-Quando si esporta uno schema linguistico da Power BI Desktop per la prima volta, la maggior parte o l'intero contenuto del file verrà generato automaticamente dal motore di Domande e risposte. Queste entità, parole (sinonimi), relazioni e formulazioni generate sono contrassegnate dal tag **State: Generated** e sono incluse nel file principalmente per scopi informativi, ma possono rappresentare un utile punto di partenza per apportare le modifiche. 
+Quando si esporta uno schema linguistico da Power BI Desktop per la prima volta, la maggior parte o l'intero contenuto del file verrà generato automaticamente dal motore di Domande e risposte. Queste entità generate, parole (sinonimi), relazioni e frasi vengono designate con un tag **State: Generated** e vengono incluse nel file principalmente a scopo informativo, ma possono essere un punto di partenza utile per le proprie modifiche. 
 
 > [!NOTE]
 > Il file YAML di esempio incluso in questa esercitazione non contiene i tag **State: Generated** e **State: Deleted** perché è stato preparato appositamente per questa esercitazione. Per visualizzare questi tag, aprire un file con estensione pbix non modificato nella visualizzazione relazioni ed esportare lo schema linguistico.
@@ -86,7 +86,7 @@ Quando si esporta uno schema linguistico da Power BI Desktop per la prima volta,
 ![File YAML con State: Generated](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Quando si reimporta il file dello schema linguistico in Power BI Desktop, qualsiasi valore contrassegnato come **State: Generated** viene ignorato, e in un secondo momento rigenerato, pertanto, se si vuole apportare modifiche a parte del contenuto generato, assicurarsi di rimuovere anche il tag corrispondente **State: Generated**. Analogamente, se si desidera rimuovere del contenuto generato, sarà necessario modificare il tag **State: Generated** in **State: Deleted** in modo che non venga rigenerato quando si importa il file dello schema linguistico.
+Quando si importa il file di schema linguistico in Power BI Desktop, tutti gli elementi contrassegnati come **State: Generated** vengono ignorati (e rigenerati in seguito). Quindi, se si vuole apportare una modifica a contenuto generato, assicurarsi di rimuovere anche il tag **State: Generated** corrispondente. In modo analogo, se si vuole rimuovere contenuto generato, è necessario sostituire il tag **State: Generated** con **State: Deleted** in modo che non venga rigenerato quando si importa il file di schema linguistico.
 
 1. Aprire il set di dati in *Visualizzazione relazioni* di Power BI Desktop. 
 2. Selezionare la scheda **Creazione di modelli** e scegliere **Esporta lo schema linguistico**.
@@ -103,7 +103,7 @@ Una formulazione è il modo in cui si descrivono, cioè formulano, le relazioni 
 Questi formulazioni esistono in una varietà di forme e dimensioni. Alcune corrispondono direttamente alle relazioni presenti nel modello semantico. Alcune fanno riferimento alle colonne e alle tabelle che le contengono. Altre fanno riferimento a più tabelle e colonne in relazioni complesse. In tutti i casi, però, descrivono con termini semplici in che modo gli elementi sono correlati tra loro.
 
 ## <a name="where-do-phrasings-come-from"></a>Da dove provengono le formulazioni?
-Power BI aggiunge automaticamente molte formulazioni semplici allo schema linguistico, in funzione della struttura del modello e di alcune supposizioni basate sui nomi delle colonne. Ad esempio:
+Power BI aggiunge automaticamente molte formulazioni semplici allo schema linguistico, in funzione della struttura del modello e di alcune supposizioni basate sui nomi delle colonne. ad esempio:
 - La maggior parte delle colonne saranno correlate alle tabelle che le contengono con una semplice formulazione come "i prodotti hanno descrizioni".
 - Le relazioni dei modelli generano formulazioni predefinite per entrambe le direzioni della relazione, come "gli ordini hanno prodotti" e "i prodotti hanno ordini".
 - In base ai nomi delle colonne, alcune relazioni del modello possono ricavare formulazioni predefinite più complesse come "gli ordini sono spediti a città".

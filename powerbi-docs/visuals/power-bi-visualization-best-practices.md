@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548604"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296724"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Procedure consigliate per la progettazione di report e oggetti visivi
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ Per gli scopi di questo articolo si inizierà con un esempio di report che richi
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**Figura 1: serve molto lavoro per questa pagina di report confusa**
+**Figura 1:    serve molto lavoro per questa pagina di report confusa**
 
 Questo esempio presenta molti problemi di progettazione correlati allo spazio (layout) che verranno esaminati di seguito:
 
@@ -95,19 +95,19 @@ Nel report aggiornato illustrato di seguito, si noterà che i componenti sono or
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**Figura 2: esempio di report migliorato con modifiche del layout**
+**Figura 2:    esempio di report migliorato con modifiche del layout**
 
 Power BI include strumenti che consentono di allineare gli oggetti visivi. In Power BI Desktop, con più oggetti visivi selezionati, è possibile usare le opzioni **Allinea e Distribuisci** nella scheda della barra multifunzione **Strumenti visivi** per gestire l'allineamento e il posizionamento degli oggetti.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**Figura 3: allineare gli oggetti visivi in Power BI Desktop**
+**Figura 3:    allineare gli oggetti visivi in Power BI Desktop**
 
 In Power BI online e Power BI Desktop è anche possibile controllare con precisione le dimensioni e la posizione degli oggetti visivi tramite la scheda **Generale** nel riquadro di formattazione per tutti gli oggetti visivi:
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**Figura 4: impostare la posizione esatta per l'oggetto visivo**
+**Figura 4:    impostare la posizione esatta per l'oggetto visivo**
 
 Nella pagina del report di esempio (figura 2) le 2 schede e il bordo di grandi dimensioni sono allineati nella **posizione X** su 200.
 
@@ -121,11 +121,11 @@ Le figure seguenti mostrano una pagina di report con le dimensioni 4:3 e poi con
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**Figura 5a: il report con dimensioni di pagina 4:3**
+**Figura 5a:    il report con dimensioni di pagina 4:3**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**Figura 5b: il report con dimensioni di pagina 16:9**
+**Figura 5b:    il report con dimensioni di pagina 16:9**
 
 Il report sarà visualizzato con le dimensioni 4:3, 16:9 o con altre proporzioni? Su schermi piccoli o molto grandi? Con tutte le dimensioni e proporzioni dello schermo possibili?  Tenere presenti questi aspetti durante la progettazione.
 
@@ -133,7 +133,7 @@ La pagina del report di esempio sembra un po' affollata. Con tutti gli oggetti v
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**Figura 6: aumentare l'altezza della pagina**
+**Figura 6:    aumentare l'altezza della pagina**
 
 #### <a name="reduce-clutter"></a>Ridurre il disordine
 Una pagina del report disordinata può impedire la comprensione immediata dei dati e gli utenti potrebbero addirittura decidere di non provarci nemmeno.  Eliminare tutti gli elementi del report che non sono necessari. Non aggiungere abbellimenti che non contribuiscono alla comprensione o a facilitare gli spostamenti. La pagina del report deve comunicare le informazioni nel modo più chiaro, rapido e logico possibile.
@@ -146,7 +146,7 @@ L'esempio ha già un aspetto migliore. Sono stati rimossi vari elementi superflu
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**Figura 7: esempio di report riordinato**
+**Figura 7:    esempio di report riordinato**
 
 ### <a name="tell-a-story-at-a-glance"></a>Una storia a colpo d'occhio
 Per stabilire l'efficacia del report, il test fondamentale è appurare se qualcuno senza alcuna conoscenza pregressa è in grado di capire rapidamente il report senza spiegazioni. I lettori dovrebbero essere in grado di capire a colpo d'occhio gli scopi della pagina e il contenuto di ogni tabella o grafico.   
@@ -160,13 +160,13 @@ Nel servizio Power BI, dalla barra dei menu superiore, selezionare **Casella di 
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**Figura 8: aggiungere una casella di testo**
+**Figura 8:    Aggiungere una casella di testo**
 
 Digitare nella casella vuota e quindi usare i controlli nella parte inferiore per impostare tipo di carattere, dimensioni, allineamento e altre caratteristiche. Usare i punti di ridimensionamento per definire le dimensioni della casella.
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**Figura 9: formattare la casella di testo**
+**Figura 9:    formattare la casella di testo**
 
 Non esagerare. Troppo testo in un report è un elemento di distrazione e distoglie l'attenzione dagli oggetti visivi. Se si scopre che serve una grande quantità di testo per rendere comprensibile una pagina del report, ricominciare da zero.  È possibile selezionare un diverso oggetto visivo che sia più esplicativo da solo? È possibile modificare i titoli originali degli oggetti visivi per renderli più comprensibili?   
 
@@ -178,17 +178,17 @@ Anche le forme possono facilitare l'esplorazione e la comprensione. Usare le for
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**Figura 10a: forme nel servizio Power BI**
+**Figura 10a:    forme nel servizio Power BI**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**Figura 10b: forme in Power BI Desktop**
+**Figura 10b:    forme in Power BI Desktop**
 
 La figura 11 mostra l'aspetto della pagina di esempio, che dopo le modifiche è più chiara  e meno confusa con un uso coerente di tipi di carattere, dimensioni del testo e colori.  Il titolo della pagina nell'angolo in alto a sinistra indica chiaramente il contenuto.
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**Figura 11: esempio di report con applicate le linee guida per il testo e con l'aggiunta del titolo**
+**Figura 11:    esempio di report con applicate le linee guida per il testo e con l'aggiunta del titolo**
 
 In questo esempio, il titolo della pagina del report è stato aggiunto nell'angolo in alto a sinistra, ovvero la prima posizione in cui guardano i lettori. Al titolo è stato applicato il tipo di carattere Segoe Bold con dimensione 28 per metterlo in risalto rispetto al resto della pagina.  La guida di stile per il testo prevede di non usare sfondi, titoli neri, legende ed etichette e queste regole sono state applicate a tutti gli oggetti visivi nella pagina, ove possibile (gli assi e le etichette del grafico combinato non sono modificabili).  Inoltre:
 
@@ -275,7 +275,7 @@ Aggiungere uno sfondo bianco per gli oggetti visivi rimanenti nella pagina del r
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**Figura 21: esempio di report con applicate le procedure consigliate per i colori (sfondo bianco)**
+**Figura 21:    esempio di report con applicate le procedure consigliate per i colori (sfondo bianco)**
  
 
 ### <a name="aesthetics"></a>Estetica
@@ -319,13 +319,13 @@ Si supponga, ad esempio, di voler misurare i risultati dei responsabili delle ve
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**Figura 22: grafico che distorce la realtà**
+**Figura 22:    grafico che distorce la realtà**
 
 Nel grafico di questo esempio esiste apparentemente una grande differenza tra le 4 società, e i risultati di CorpB sono notevolmente migliori rispetto alle altre 3 società.  S noti però che l'asse X non inizia da zero e che le differenze tra le società rientrano probabilmente entro il margine di errore.  Ecco gli stessi dati con un asse X che inizia da zero.
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**Figura 23: grafico realistico**
+**Figura 23:    grafico realistico**
 
 I lettori si aspettano e spesso danno per scontato che l'asse X inizi da zero. Se si decide di non iniziare da zero, farlo in modo da non distorcere i risultati e considerare l'aggiunta di un segnale visivo o una casella di testo per evidenziare la deviazione dalla norma.  
 
@@ -347,11 +347,11 @@ Se fosse necessario mettere in evidenza periodi di tempo particolari, si potrebb
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**Figura 24: prima**
+**Figura 24:    Prima**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**Figura 25: dopo**
+**Figura 25:    Dopo**
 
 **Per attivare e disattivare i titoli degli assi**
 
@@ -359,7 +359,7 @@ Selezionare l'oggetto visivo per renderlo attivo e aprire il riquadro di formatt
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**Figura 26: attivare e disattivare i titoli degli assi**
+**Figura 26:    attivare e disattivare i titoli degli assi**
 
 **Per attivare e disattivare la etichette degli assi**
 
@@ -367,7 +367,7 @@ Selezionare l'oggetto visivo per renderlo attivo e aprire il riquadro di formatt
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-labels.png)
 
-**Figura 27: attivare e disattivare la etichette degli assi**
+**Figura 27: attivare e disattivare le etichette degli assi**
 
 > [!TIP]
 > Un caso in cui può essere utile disattivare le etichette dell'asse Y è quando sono attivate le **Etichette dati**.
@@ -380,7 +380,7 @@ Selezionare l'oggetto visivo per renderlo attivo e aprire il riquadro di formatt
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**Figura 28: rimuovere i titoli dagli oggetti visivi**
+**Figura 28:    rimuovere i titoli dagli oggetti visivi**
 
 Tenere conto di come i lettori visualizzeranno il report e assicurarsi che gli oggetti visivi e il testo abbiano dimensioni appropriate e siano sufficientemente scuri per una facile lettura. Se nella pagina è presente un oggetto visivo in proporzione più grande, i lettori possono desumere che sia il più importante. Aggiungere spazio sufficiente tra gli oggetti visivi in modo che il report non risulti troppo affollato e confuso.  Allineare gli oggetti visivi in modo da guidare gli occhi dei lettori.
 
@@ -411,11 +411,11 @@ Per accedere a tutte le opzioni di formattazione elencate di seguito, selezionar
 
 **Figura 31: aprire il riquadro di formattazione**
 
-Selezionare quindi l'oggetto visivo da formattare e assicurarsi che sia attivo. Sono esempi di oggetti visivi **Asse X**, **Asse Y**, **Titolo**, **Etichette dati** e **Legenda**. L'esempio seguente mostra l'elemento **Titolo**.
+Selezionare quindi l'oggetto visivo da formattare e assicurarsi che sia attivo. Esempi di elementi degli oggetti visivi sono: **Asse X**, **Asse Y**, **Titolo**, **Etichette dati** e **Legenda**. L'esempio seguente mostra l'elemento **Titolo**.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
-**Figura 32: formattazione dell'oggetto visivo Titolo**
+**Figura 32: formattare il titolo di un oggetto visivo**
 
 **Impostare le dimensioni del testo**
 
@@ -455,7 +455,7 @@ Una delle funzionalità più interessanti di Power BI è la possibilità di modi
 
 ![](media/power-bi-visualization-best-practices/power-bi-visual-interactions.png)
 
-**Figura 34: interazioni con oggetti visivi**
+**Figura 34: interazioni con gli oggetti visivi**
 
 Per ogni oggetto visivo nella pagina, decidere quindi se si vuole usarlo per filtrare, evidenziare o non eseguire alcuna azione. Non tutti gli oggetti visivi possono essere evidenziati e per tali oggetti il controllo di evidenziazione non sarà disponibile. Per altre informazioni, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../consumer/end-user-interactions.md).
 
@@ -485,7 +485,7 @@ Il modo più semplice per usare il colore è modificare il colore di uno o più 
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**Figura 35: usare il colore per raccontare una storia**
+**Figura 35:    usare il colore per raccontare una storia**
 
 È possibile modificare i colori dei punti dati nella scheda **Colori dati** nel riquadro di formattazione. Per personalizzare ogni punto dati singolarmente, assicurarsi che l'opzione **Mostra tutto** sia attivata.
 
@@ -506,7 +506,7 @@ In Power BI Desktop, è anche possibile evidenziare gli outlier o una sezione di
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**Figura 38: usare la versione desktop per tracciare gli outlier**
+**Figura 38:    usare la versione desktop per tracciare gli outlier**
 
 In questo esempio, i valori nella serie degli outlier esistono solo quando la temperatura media di agosto scende sotto i 60 gradi Fahrenheit (15° C). Questa operazione è stata eseguita creando una colonna calcolata DAX con questa formula:
 
@@ -557,7 +557,7 @@ Per creare questo grafico, aggiungere un valore per il campo Saturazione colore 
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**Figura 44: uso dei colori per evidenziare la varianza rispetto a un valore centrale**
+**Figura 44:    uso dei colori per evidenziare la varianza rispetto a un valore centrale**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>Principi di progettazione visiva applicati alla pagina del report di esempio
@@ -567,7 +567,7 @@ Prima
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Figura 45: report di esempio (prima)**
+**Figura 45:    report di esempio (prima)**
 
 Dopo
 
@@ -595,7 +595,7 @@ L'esempio seguente mostra le tendenze per il numero di medaglie assegnate e il n
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**Figura 47: grafici a linee**
+**Figura 47:    grafici a linee**
 
 #### <a name="best-practices"></a>Procedure consigliate
 * Quando gli utenti guardano un grafico a linee, la prima cosa che notano è l'andamento della linea.  Questo significa che l'asse X deve essere tale da generare una curva significativa, ad esempio con categorie temporali o di distribuzione.  Se si inseriscono campi categorici come prodotti o campi geografici sull'asse X, il grafico a linee non sarà interessante, perché l'andamento della curva non fornirebbe informazioni significative.
@@ -649,7 +649,7 @@ Se i grafici a linee sono lo standard per rappresentare i dati nel tempo, i graf
 Per altri dettagli su grafici a barre e istogrammi:
 
 * [Bar charts 101](http://blog.newscred.com/article/data-visualization-101-bar-charts) (Tutto sui grafici a barre)
-* [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Catalogo di visualizzazioni dei dati: grafico a barre)
+* [Data Visualization Catalogue: Bar Chart](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw) (Catalogo di visualizzazioni dei dati: istogramma)
 * [Data Visualization Catalogue: Multi-set Bar Chart](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw) (Catalogo di visualizzazioni dei dati: grafico a barre multiset)
 
 ### <a name="stacked-barcolumn-charts"></a>Grafici a barre o istogrammi a colonne in pila
@@ -688,7 +688,7 @@ Per altre informazioni sui grafici in pila, vedere:
 ### <a name="combo-barcolumn-charts"></a>Grafici a barre o istogrammi combinati
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-In Power BI è possibile combinare grafici a linee e istogrammi in un grafico combinato. Le scelte disponibili sono Grafico a linee e istogramma a colonne in pila e Grafico a linee e istogramma a colonne raggruppate. La possibilità di combinare due oggetti visivi separati in uno consente di risparmiare spazio prezioso nell'area di disegno.
+In Power BI è possibile combinare grafici a linee e istogrammi in un grafico combinato. Le scelte disponibili sono: Grafico a linee e istogramma a colonne in pila e Grafico a linee e istogramma a colonne raggruppate. La possibilità di combinare due oggetti visivi separati in uno consente di risparmiare spazio prezioso nell'area di disegno.
 
 I due screenshot seguenti sono un esempio di prima e dopo.  La prima pagina include due oggetti visivi separati: un istogramma che mostra la popolazione nel tempo e un grafico a linee che mostra il PIL (GDP) nel tempo. Questi grafici sono un buon candidato per un grafico combinato perché condividono lo stesso asse X (anno) e gli stessi valori (2002-2012).  Perché allora non combinarli per confrontare queste 2 tendenze su un singolo oggetto visivo?  La combinazione dei 2 grafici consente di confrontare i dati in modo più rapido.
 
@@ -809,7 +809,7 @@ Per altre informazioni, vedere:
 A questo punto è giunta l'ora di mettere alla prova queste procedure consigliate.  Invitiamo tutti gli utenti a condividere informazioni e procedure consigliate, così come a segnalare eventuali disaccordi con le nostre raccomandazioni  o buoni motivi per non rispettare le regole.  
 
 ### <a name="book-recommendations"></a>Bibliografia consigliata
-Esistono molti libri validi sulle tecniche di progettazione visiva. Un libro da non perdere è *Information Dashboard Design* di Stephen Few, che affronta l'argomento in maggiore dettaglio in altri due libri: *Show Me the Numbers* e *Now You See It*. Sia Few che altri hanno tratto ispirazione da Edward R. Tufte, il cui libro *The Visual Display of Quantitative Information* è considerato un classico del settore. Tufte ha scritto anche *Visual Explanations*, *Envisioning Information* e *Beautiful Evidence*. Un'altra lettura consigliata è il nuovo libro di Andy Kirk *Data Visualization: A Handbook for Data Driven Design*. Alcuni altri autori raccomandati sono James Lachlan, William McKnight e Boris Evelson (Forrester), Darkhorse Analytics.
+Esistono molti libri validi sulle tecniche di progettazione visiva. Un libro da non perdere è *Information Dashboard Design* di Stephen Few, che affronta l'argomento in maggiore dettaglio in altri due libri: *Show Me the Numbers* e *Now You See It*. Sia Few che altri hanno tratto ispirazione da Edward R. Tufte, il cui libro *The Visual Display of Quantitative Information* è considerato un classico del settore. Tufte ha scritto anche *Visual Explanations*, *Envisioning Information* e *Beautiful Evidence*. Un'altra opzione valida è il nuovo libro di Andy Kirk *Data Visualization: A Handbook for Data Driven Design*. Alcuni altri autori raccomandati sono: Lachlan James, William McKnight e Boris Evelson (Forrester), Darkhorse Analytics.
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

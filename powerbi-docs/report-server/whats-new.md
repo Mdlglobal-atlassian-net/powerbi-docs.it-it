@@ -6,15 +6,15 @@ ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/16/2018
-ms.openlocfilehash: a365cab0420fdf373d62f5b1774a4d86985adfe3
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101256"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292454"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -122,12 +122,12 @@ La funzionalità delle descrizioni comando per le pagine del report è inclusa n
 
 ### <a name="analytics"></a>Analisi
 
-- [Nuova funzione DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
+- [Nuove funzioni DAX: COMBINEVALUES()](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#combineValues)
 - [Drill-through con misure](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#measureDrillthrough)
 - [Formattazione condizionale da un campo diverso](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingField)
 - [Formattazione condizionale in base ai valori](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#conditionalFormattingValue)
 
-### <a name="modeling"></a>Modellazione
+### <a name="modeling"></a>Creazione di modelli
 
 - [Filtro e ordinamento nella vista dati](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#filterAndSort)
 - [Miglioramento della formattazione delle impostazioni locali](https://powerbi.microsoft.com/blog/power-bi-report-server-update-august-2018/#locale)
@@ -168,7 +168,7 @@ Talvolta si desidera che i lettori accedano al report, ma alcune delle pagine no
 Per quanto riguarda i segnalibri, è possibile creare segnalibri in modo da fare una sintesi con i dati del report.
 
 - [Evidenziazione incrociata per i segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): i segnalibri gestiscono e visualizzano lo stato di evidenziazione incrociata della pagina del report nel momento in cui è stato creato il segnalibro.
-- [Più flessibilità nei segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): i segnalibri riflettono le proprietà definite nel report e influiscono solo sugli oggetti visivi scelti.
+- [Più flessibilità nei segnalibri](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): i segnalibri riflettono le proprietà impostate nel report e influiscono solo sugli oggetti visivi scelti.
 
 #### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[Selezione multipla di punti dati in più grafici](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
@@ -216,7 +216,7 @@ Quando si esegue il drill-down in una categoria specificata in un oggetto visivo
 - [Applicare filtri di drill su altri oggetti visivi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 - [Formattazione a livello di cella per modelli multidimensionali di Analysis Services (AS) per schede con più righe](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting)
 
-### <a name="performance"></a>Performance
+### <a name="performance"></a>Prestazioni
 
 - [Miglioramenti delle prestazioni del filtro](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering)
 - [Miglioramenti delle prestazioni di DirectQuery](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf)
@@ -266,12 +266,12 @@ Questa versione supporta l'aumento delle istanze. Usare un servizio di bilanciam
 
 Gli amministratori possono configurare le proprietà seguenti in Proprietà avanzate di SSMS per la server farm:
 
-* EnableCustomVisuals: True/False.
-* EnablePowerBIReportEmbeddedModels: True/False.
-* EnablePowerBIReportExportData: True/False.
-* MaxFileSizeMb: l'impostazione predefinita è ora 1000.
-* ModelCleanupCycleMinutes: frequenza della verifica per la rimozione dei modelli dalla memoria.
-* ModelExpirationMinutes: tempo di attesa prima della scadenza e della rimozione del modello in base all'ora dell'ultimo uso.
+* EnableCustomVisuals: Vero/Falso
+* EnablePowerBIReportEmbeddedModels: Vero/Falso
+* EnablePowerBIReportExportData: Vero/Falso
+* MaxFileSizeMb: il valore predefinito è ora 1000
+* ModelCleanupCycleMinutes: frequenza della verifica per la rimozione dei modelli dalla memoria
+* ModelExpirationMinutes: tempo di attesa prima della scadenza e della rimozione del modello in base all'ora dell'ultimo uso
 * ScheduleRefreshTimeoutMinutes: tempo necessario per l'aggiornamento dei dati per un modello. L'impostazione predefinita è due ore.  Non è previsto alcun limite rigido massimo.
 
 **File di configurazione rsreportserver.config**
