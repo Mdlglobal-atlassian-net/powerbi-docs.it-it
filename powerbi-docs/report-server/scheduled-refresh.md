@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: d4eeebca1505d376a403bf18f125782efb0d656d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283875"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394740"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Aggiornamento pianificato dei report di Power BI nel server di report di Power BI
 L'aggiornamento pianificato per i report di Power BI permette di mantenere aggiornati i dati di un report.

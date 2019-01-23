@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 12/06/2018
+ms.date: 01/17/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28dcba5a44da4d0acd8f1b6d0a1bfce655eb46bd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280103"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394671"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
 In un report di Power BI è possibile ordinare alfabeticamente la maggior parte delle visualizzazioni in base ai nomi delle categorie contenute nel grafico oppure in base ai valori numerici di ciascuna categoria. Ad esempio, questo grafico viene ordinato in base alla categoria **store name**.
@@ -33,17 +33,17 @@ In un report di Power BI è possibile ordinare alfabeticamente la maggior parte 
    **NOTA**: non è possibile ordinare tutti gli oggetti visivi.  Ad esempio, gli oggetti visivi seguenti non possono essere ordinati: Mappa ad albero, Mappa, Mappa colorata, Grafico a dispersione, Misuratore, Scheda, Scheda con più righe, Grafico a cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Salvataggio delle modifiche all'ordinamento
-I report di Power BI mantengono i filtri, i filtri dei dati, l'ordinamento e altre modifiche alla visualizzazione dei dati. Pertanto, se si esce da un report e lo si visualizza di nuovo, le modifiche sono salvate.  Se si vuole annullare le modifiche e ripristinare le impostazioni dell'autore del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore. 
+I report di Power BI mantengono i filtri, i filtri dei dati, l'ordinamento e altre modifiche alla visualizzazione dei dati. Pertanto, se si esce da un report e lo si visualizza di nuovo, le modifiche sono salvate.  Per annullare le modifiche e ripristinare le impostazioni del designer del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore. 
 
 ![ordinamento permanente](media/end-user-change-sort/power-bi-reset-to-default.png)
 
-Tuttavia, se il pulsante **Ripristina impostazioni predefinite** appare disattivato, significa che l'autore del report ha disabilitato la possibilità di salvare le modifiche.
+Se tuttavia il pulsante **Ripristina impostazioni predefinite** appare disattivato, significa che il designer del report ha disabilitato la possibilità di salvare le modifiche.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Ordinamento in base ad altri criteri
 In alcuni casi, è necessario ordinare l'oggetto visivo usando un campo diverso o altri criteri.  Ad esempio, è possibile ordinare per mese (anziché alfabeticamente) oppure ordinare per numeri interi anziché per cifra (esempio 0, 1, 9, 20 e non 0, 1, 20, 9).  
 
-In alcuni casi, è possibile ordinare l'oggetto visivo nel modo desiderato, ad esempio, in base al mese.  In caso contrario, potrebbe essere necessario apportare alcune modifiche al set di dati del report. Chiedere all'autore del report di aggiornare il set di dati.
+In alcuni casi, è possibile ordinare l'oggetto visivo nel modo desiderato, ad esempio, in base al mese.  In caso contrario, potrebbe essere necessario apportare alcune modifiche al set di dati del report. Chiedere al designer del report di aggiornare il set di dati.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Altre informazioni sulle [visualizzazioni nei report di Power BI](end-user-visualizations.md).

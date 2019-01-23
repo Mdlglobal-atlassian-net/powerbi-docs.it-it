@@ -10,12 +10,12 @@ ms.topic: quickstart
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 4b8cd79eca1711b424d772737b27400f9291cef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4d121a469257c79e37212ab0e357bb9ee8be68ec
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279206"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420787"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Avvio rapido: Connettersi ai dati in Power BI Desktop
 
@@ -39,13 +39,13 @@ Dopo avere installato **Power BI Desktop**, avviare l'applicazione in modo che v
 
 ## <a name="connect-to-data"></a>Connettersi ai dati
 
-**Power BI Desktop** permette di connettersi a molti tipi diversi di dati. È possibile connettersi a origini dati di base come un file di Microsoft Excel, oltre che a servizi online contenenti tutti i tipi di dati come Salesforce, Microsoft Dynamics, Archiviazione BLOB di Azure e molto altro ancora. 
+**Power BI Desktop** permette di connettersi a molti tipi diversi di dati. È possibile connettersi a origini dati di base come un file di Microsoft Excel, oltre che a servizi online contenenti tutti i tipi di dati come Salesforce, Microsoft Dynamics, Archiviazione BLOB di Azure e molto altro ancora.
 
 Per connettersi ai dati, dalla barra multifunzione **Home** selezionare **Dati**.
 
 ![Recupera dati](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-Viene visualizzata la finestra **Recupera dati**, in cui è possibile scegliere tra una serie di origini dati diverse a cui **Power BI Desktop** può connettersi. In questa guida introduttiva viene usata la cartella di lavoro di Excel scaricata in precedenza, descritta nella sezione *Prerequisiti* all'inizio di questo articolo. 
+Viene visualizzata la finestra **Recupera dati**, in cui è possibile scegliere tra una serie di origini dati diverse a cui **Power BI Desktop** può connettersi. In questa guida introduttiva viene usata la cartella di lavoro di Excel scaricata in precedenza, descritta nella sezione *Prerequisiti* all'inizio di questo articolo.
 
 ![Recupera dati](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
@@ -69,10 +69,8 @@ Dopo che le tabelle sono state caricate, il riquadro **Campi** mostra i dati dis
 
 Non sono necessarie altre operazioni. È stata stabilita la connessione ai dati in **Power BI Desktop**, sono stati caricati i dati e ora è possibile visualizzare tutti i campi disponibili all'interno delle tabelle.
 
-
 ## <a name="next-steps"></a>Passaggi successivi
+
 Dopo essersi connessi ai dati, è possibile eseguire qualsiasi tipo di operazione con **Power BI Desktop**, ad esempio creare oggetti visivi e report. Esaminare le risorse seguenti per iniziare:
 
 * [Guida introduttiva per Power BI Desktop](desktop-getting-started.md)
-
-

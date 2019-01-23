@@ -1,22 +1,22 @@
 ---
 title: Aggiungere collegamenti ipertestuali a una tabella
 description: Usare Power BI Desktop per creare collegamenti ipertestuali. Usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report.
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279896"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406662"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Aggiungere collegamenti ipertestuali a una tabella
 Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
@@ -25,7 +25,6 @@ Questo argomento illustra come usare Power BI Desktop per creare collegamenti ip
 
 > [!NOTE]
 > I collegamenti ipertestuali nei [riquadri dei dashboard](service-dashboard-edit-tile.md) e le [caselle di testo nei dashboard](service-dashboard-add-widget.md) possono essere creati in tempo reale con il servizio Power BI. I collegamenti ipertestuali nelle [caselle di testo nei report](service-add-hyperlink-to-text-box.md) può creato in volo utilizzare servizio Power BI e Power BI Desktop.
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Per creare un collegamento ipertestuale in una tabella o in una matrice con Power BI Desktop
@@ -56,7 +55,7 @@ La procedura per aggiungere un collegamento ipertestuale varia a seconda che i d
 6. (Facoltativo) [Pubblicare il report dal Desktop a Servizio Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) e aprire il report nel Servizio Power BI. I collegamenti ipertestuali funzioneranno anche qui.
 
 ### <a name="for-data-connected-with-directquery"></a>Per i dati connessi con DirectQuery
-Non sarà possibile creare una nuova colonna in modalità DirectQuery.  Tuttavia, se i dati contengono già gli URL, è possibile attivarli nei collegamenti ipertestuali.
+Non è possibile creare una nuova colonna in modalità DirectQuery.  Se tuttavia i dati contengono già gli URL, è possibile attivarli nei collegamenti ipertestuali.
 
 1. In Visualizzazione Report, creare una tabella usando un campo che contiene gli URL.
 2. Selezionare la colonna e, nella scheda **Modellazione**, scegliere l'elenco a discesa per **Categoria dati**.

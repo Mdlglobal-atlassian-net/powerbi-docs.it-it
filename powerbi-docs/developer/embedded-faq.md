@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: f9e33e78a5cd1141a09eaf226f41a3f52aaebab7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2018
+ms.openlocfilehash: cd32b644205629ce62579f5a720d486f93073dea
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284059"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394724"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/).
 
-## <a name="general"></a>Generale
+## <a name="general"></a>General
 
 ### <a name="what-is-power-bi-embedded"></a>Che cos'è Power BI Embedded?
 
@@ -47,7 +47,7 @@ Power BI Embedded è destinato a ISV o sviluppatori che creano applicazioni e ch
 
 Secondo le indicazioni di Microsoft, le aziende dovrebbero acquistare Power BI Premium, una soluzione di business intelligence cloud self-service di livello aziendale, mentre gli ISV dovrebbero acquistare Power BI Embedded, ovvero componenti di analisi incorporati basati sul cloud. Non esistono tuttavia restrizioni in merito al prodotto che un cliente può acquistare.
 
-In alcuni casi, un ISV (in genere di grandi dimensioni) avrà la necessità di usare uno SKU P per usufruire dei vantaggi aggiuntivi offerti dal servizio Power BI preconfezionato all'interno dell'organizzazione, nonché di incorporare gli oggetti visivi nelle applicazioni che sviluppa. Alcune organizzazioni potrebbero decidere di usare SKU A in Azure se sono interessate solo a creare applicazioni line-of-business incorporandovi le funzionalità di analisi e non necessitano del servizio Power BI preconfezionato.
+In alcuni casi, un ISV (in genere di grandi dimensioni) avrà la necessità di usare uno SKU P per usufruire dei vantaggi aggiuntivi offerti dal servizio Power BI preconfezionato all'interno dell'organizzazione, nonché di incorporare gli oggetti visivi nelle applicazioni che sviluppa. Alcune aziende possono decidere di usare SKU A in Azure, se sono interessate solo a creare applicazioni line-of-business incorporandovi le analisi e non necessitano del servizio Power BI preconfezionato.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Quanti token di incorporamento è possibile creare?
 
@@ -59,7 +59,7 @@ I token di incorporamento con licenza Pro sono destinati al test dello sviluppo,
 
 PowerBI.com è una soluzione aziendale che include molte funzionalità, come la collaborazione tramite social network, la sottoscrizione dei messaggi di posta elettronica e così via, in un'offerta SaaS (software distribuito come servizio)
 
-Power BI Embedded è un set di API per sviluppatori che consente di creare una soluzione di analisi incorporata in un'offerta PaaS (piattaforma distribuita come servizio). Per lo scenario di analisi incorporata, è necessario usare PowerBI.com per semplificare a ISV e sviluppatori la gestione del contenuto della soluzione di analisi incorporata e delle impostazioni a livello del tenant.
+Power BI Embedded è un set di API per sviluppatori che consente di creare una soluzione di analisi incorporata in un'offerta PaaS (piattaforma distribuita come servizio). Per lo scenario di analisi incorporata, PowerBI.com semplifica a ISV e sviluppatori la gestione del contenuto della soluzione di analisi incorporata e delle impostazioni a livello del tenant.
 
 Di seguito è riportato un elenco parziale con le differenze che è possibile usare con ognuno di essi.
 
@@ -106,9 +106,9 @@ Al momento il ridimensionamento automatico non è disponibile, ma è possibile r
 
 Il provisioning di una capacità (ridimensionamento, ripresa o creazione) potrebbe non riuscire. Il chiamante della chiamata al provisioning deve controllare l'oggetto ProvisioningState della capacità usando l'API per il recupero dei dettagli: [Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
 
-### <a name="why-can-i-only-create-pbie-in-a-specific-region"></a>Perché è possibile creare PBIE solo in un'area specifica?
+### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>È possibile creare le capacità di Power BI Embedded solo in un'area specifica?
 
-È possibile creare capacità PBIE solo per la propria area del tenant PBI.
+Con la funzionalità [Multi-Geo (anteprima)](embedded-multi-geo.md), è possibile acquistare una [capacità di Power BI Embedded](azure-pbie-create-capacity.md) in un'area diversa dalla località del tenant principale di Power BI
 
 ### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>Come si reperisce la propria area del tenant PBI?
 
@@ -157,9 +157,9 @@ Aree disponibili (16 - stesse aree di Power BI)
 
 ### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>Qual è il modello di autenticazione per Power BI Embedded?
 
-Power BI Embedded continuerà a usare Azure AD per l'autenticazione dell'utente master (un utente con licenza di Power BI Pro designato), autenticando l'applicazione all'interno di Power BI.
+Power BI Embedded continua a usare Azure AD per l'autenticazione dell'utente master (un utente con licenza di Power BI Pro designato), autenticando l'applicazione all'interno di Power BI.
 
-L'autenticazione e l'autorizzazione degli utenti dell'applicazione verranno implementate dall'ISV e quest'ultimo potrà implementare un'autenticazione personalizzata per le relative applicazioni.
+L'autenticazione e l'autorizzazione degli utenti dell'applicazione vengono implementate dall'ISV e quest'ultimo potrà implementare un'autenticazione personalizzata per le relative applicazioni.
 
 Se si dispone già di un tenant di Azure AD, è possibile usare la directory esistente oppure si può creare un nuovo tenant di Azure AD per la sicurezza del contenuto dell'applicazione incorporato.
 
@@ -216,7 +216,7 @@ Power BI Embedded è disponibile tramite Azure.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>Che cosa accade se ho già acquistato Power BI Premium e ora desidero usufruire di alcuni dei vantaggi offerti da Power BI Embedded in Azure?
 
-I clienti continueranno a pagare gli eventuali acquisti di Power BI Premium esistenti fino al termine del contratto e a quel punto potranno scegliere se sostituire le licenze di Power BI Premium in base alle esigenze.
+I clienti continuano a pagare gli eventuali acquisti di Power BI Premium esistenti fino al termine del contratto e a quel punto potranno scegliere se sostituire le licenze di Power BI Premium in base alle esigenze.
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>È comunque necessario acquistare Power BI Premium per avere accesso a Power BI Embedded?
 
@@ -228,15 +228,15 @@ I clienti possono cambiare l'utilizzo su base oraria. Non sono previsti impegni 
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>In che modo verrà visualizzato l'utilizzo di Power BI Embedded nella fattura?
 
-Power BI Embedded viene fatturato secondo una tariffa oraria prevedibile in base al tipo di nodi distribuiti. Mentre la risorsa è attiva il costo corrispondente continua a essere addebitato, anche se la risorsa non viene usata. Per interrompere l'addebito, è necessario intervenire per sospendere la risorsa.
+Power BI Embedded viene fatturato secondo una tariffa oraria prevedibile in base al tipo di nodi distribuiti. Mentre la risorsa è attiva, il costo corrispondente continua a essere addebitato, anche se la risorsa non viene usata. Per interrompere l'addebito, è necessario intervenire per sospendere la risorsa.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>Chi necessita di una licenza di Power BI Pro per Power BI Embedded e perché?
 
-Gli analisti che devono aggiungere report a un'area di lavoro di Power BI, gli sviluppatori che devono usare le API REST e gli amministratori del tenant che devono gestire la capacità e il tenant di Power BI necessitano di una licenza di Power BI Pro.
+Gli analisti devono avere una licenza di Power BI per poter aggiungere report a un'area di lavoro di Power BI. Gli sviluppatori devono avere una licenza di Power BI Pro per poter usare le API REST. Gli amministratori del tenant devono avere una licenza di Power BI Pro per poter gestire il tenant e la capacità di Power BI.
 
 Poiché Power BI Embedded consente l'uso del portale di Power BI per gestire e convalidare il contenuto incorporato, la licenza di Power BI Pro è necessaria per autenticare l'app in PowerBI.com per accedere ai report nei repository corretti.
 
-Tuttavia, per la [creazione/modifica dei report incorporati](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) all'interno dell'applicazione, l'utente finale non necessita di una licenza Pro perché non deve essere un utente di Power BI.
+Tuttavia, per la [creazione/modifica dei report incorporati](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) all'interno dell'applicazione, l'utente finale non necessita di una licenza Pro perché l'utente non deve essere un utente di Power BI.
 
 ### <a name="can-i-get-started-for-free"></a>È possibile iniziare a usare il prodotto gratuitamente?
 
@@ -279,7 +279,7 @@ Sì, ma i clienti che stanno già usando la soluzione **Raccolta di aree di lavo
 
 Tuttavia, ciò significa anche che le nuove funzionalità non vengono aggiunte a eventuali soluzioni **Raccolta di aree di lavoro di Power BI** e che i clienti sono invitati a pianificare la migrazione alla nuova soluzione **Power BI Embedded**.
 
-### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>Quando verrà sospeso il supporto per la raccolta di aree di lavoro di Power BI?
+### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Quando viene sospeso il supporto per la raccolta di aree di lavoro di Power BI?
 
 I clienti che stanno già usando la soluzione **Raccolta di aree di lavoro di Power BI** possono continuare a usarla fino alla fine del mese di giugno 2018 o fino al termine del contratto di supporto.
 
