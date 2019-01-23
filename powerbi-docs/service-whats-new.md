@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406754"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488915"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
@@ -197,7 +197,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 ***Sicurezza a livello di riga***
 
 * Supporto per i gruppi di Azure Active Directory (AAD): gli utenti possono ora assegnare i gruppi di AAD, ovvero i gruppi di sicurezza e le liste di distribuzione, a un ruolo. Ciò semplifica l'assegnazione contemporanea di ruoli a un gruppo di utenti di grandi dimensioni.
-* [Testare i ruoli di sicurezza a livello di riga con report supportati dai dati con la sicurezza a livello di riga applicata](service-admin-rls.md#validating-the-role-within-power-bi-desktop): è stata aggiunta una funzionalità all'anteprima della sicurezza a livello di riga che consente di testare il set di dati con un ruolo specifico. In questo modo sarà possibile assicurarsi che il ruolo funzioni come previsto prima che un utente possa accedere al dashboard.
+* [Testare i ruoli di sicurezza a livello di riga con report supportati dai dati con la sicurezza a livello di riga applicata](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): è stata aggiunta una funzionalità all'anteprima della sicurezza a livello di riga che consente di testare il set di dati con un ruolo specifico. In questo modo sarà possibile assicurarsi che il ruolo funzioni come previsto prima che un utente possa accedere al dashboard.
 * Definire e applicare la sicurezza a livello di riga a modelli cloud in base a query dirette: è ora possibile creare e applicare regole di sicurezza a livello di riga per le origini dati DirectQuery.
 
 ***Dashboard***
