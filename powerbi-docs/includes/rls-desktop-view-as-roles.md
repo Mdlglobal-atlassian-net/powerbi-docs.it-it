@@ -1,20 +1,29 @@
-## <a name="validating-the-role-within-power-bi-desktop"></a>Convalida del ruolo all'interno di Power BI Desktop
-Dopo aver creato il ruolo, è possibile testare i risultati del ruolo all'interno di Power BI Desktop. A tale scopo, selezionare **Visualizza come ruoli**.
+---
+ms.openlocfilehash: 0ef0f2e250c61f11cc6418635a8e132242201072
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488994"
+---
+## <a name="validate-the-roles-within-power-bi-desktop"></a>Convalidare i ruoli in Power BI Desktop
+Dopo aver creato i ruoli è possibile testare i risultati corrispondenti all'interno di Power BI Desktop.
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
+1. Selezionare  **Visualizza come ruoli**. 
 
-La finestra di dialogo **Visualizza come ruoli** consente di modificare la visualizzazione dei dati in base all'utente o al ruolo specifico. È possibile visualizzare i ruoli creati.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles.png)
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
+    In **Visualizza come ruoli** è possibile visualizzare i ruoli creati.
 
-Selezionare il ruolo creato e quindi scegliere **OK** per applicarlo ai dati visualizzati. I report eseguono il rendering solo dei dati pertinenti a tale ruolo.
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-view-as-roles-dialog.png)
 
-È anche possibile selezionare **Altro utente** e indicare un determinato utente. È consigliabile specificare il nome dell'entità utente (UPN), cioè quello che viene usato dal servizio Power BI. Selezionare **OK** in modo che i report eseguano il rendering in base ai dati visibili all'utente. 
+3. Selezionare un ruolo creato > **OK**  per applicare il ruolo. Il report esegue il rendering dei dati pertinenti a tale ruolo. 
 
-![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+4. È anche possibile selezionare **Altro utente** e indicare un determinato utente. È consigliabile specificare il nome dell'entità utente (UPN), che verrà usato dal servizio Power BI e dal server di report Power BI.
 
-> [!NOTE]
-> All'interno di Power BI Desktop vengono visualizzati risultati diversi solo se si usa la sicurezza dinamica basata sulle espressioni DAX.
-> 
-> 
+    ![](./media/rls-desktop-view-as-roles/powerbi-desktop-rls-other-user.png)
+
+1. Selezionare  **OK** . Il rendering del report viene eseguito in base ai dati visibili all'utente. 
+
+All'interno di Power BI Desktop l'opzione **Altro utente** visualizza risultati diversi solo se si usa la sicurezza dinamica basata sulle espressioni DAX. 
 

@@ -8,31 +8,47 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: 91179ca37b8ba5c883785501588c9b12a02d644d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/22/2019
+ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292454"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488938"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
 Informazioni sulle novità del Server di report di Power BI. Questo articolo riguarda le funzionalità principali e viene aggiornato con il rilascio di nuovi elementi.
 
-Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
-
-Consultare queste fonti per tenersi aggiornati sulle nuove funzionalità di Server di report di Power BI.
-
-* [Blog di Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* [Blog del team Server SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* Il [canale YouTube Guy in a Cube](https://aka.ms/guyinacube)
+Per scaricare le versioni più recenti del server di report di Power BI e di Power BI Desktop ottimizzato per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
 
 Per informazioni sulle "Novità" di Power BI, vedere:
 
 * [Novità del servizio Power BI](../service-whats-new.md)
 * [Novità di Power BI Desktop](../desktop-latest-update.md)
 * [Novità delle app per dispositivi mobili per Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="january-2019"></a>Gennaio 2019
+
+Supporto delle funzionalità seguenti nei report di Power BI:
+
+[**Sicurezza a livello di riga**](row-level-security-report-server.md) L'impostazione della sicurezza a livello di riga con il server di report di Power BI può limitare l'accesso ai dati per determinati utenti. I filtri limitano l'accesso ai dati a livello di riga ed è possibile definirli all'interno dei ruoli.
+
+[**Espandere e comprimere le intestazioni di riga di matrice**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#expandCollapse) È stata aggiunta la possibilità di espandere e comprimere le singole intestazioni di riga, una delle funzionalità più richieste per gli oggetti visivi.
+
+[**Copia e incolla tra file con estensione pbix**](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/#copyPaste) È possibile copiare gli oggetti visivi tra file con estensione pbix mediante il menu di scelta rapida dell'oggetto visivo o con la scelta rapida da tastiera standard Ctrl+C e quindi incollarli in un altro report con Ctrl+V.
+
+[**Guide intelligenti per l'allineamento**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Le guide intelligenti per l'allineamento vengono visualizzate durante lo spostamento di oggetti nella pagina del report, come in PowerPoint, per facilitare l'allineamento di tutti gli elementi della pagina. Le guide intelligenti vengono visualizzate ogni volta che si trascina o ridimensiona un elemento nella pagina. Quando si sposta un oggetto vicino a un altro, l'oggetto viene ancorato in una posizione allineata con l'altro oggetto.
+
+**Funzionalità di accessibilità** Le funzionalità di accessibilità sono troppe per elencarle tutte: ad esempio il [supporto per l'accessibilità al riquadro elenco campi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Il riquadro elenco di campi è completamente accessibile. È possibile spostarsi nel riquadro solo con la tastiera e un'utilità per la lettura dello schermo e usare il menu di scelta rapida per aggiungere campi alla pagina del report.
+
+### <a name="administrator-settings"></a>Impostazioni dell'amministratore
+
+Gli amministratori possono configurare le proprietà seguenti in Proprietà avanzate di SSMS per la server farm:
+
+**AllowedResourceExtensionsForUpload** Possibilità di impostare le estensioni delle risorse caricabili nel server di report. Non è obbligatorio includere le estensioni per i tipi di file predefiniti, ad esempio &ast;.rdl e &ast;.pbix. L'impostazione predefinita è "&ast;, &ast;.xml, &ast;.xsd, &ast;.xsl, &ast;.png, &ast;.gif, &ast;.jpg, &ast;.tif, &ast;.jpeg, &ast;.tiff, &ast;.bmp, &ast;.pdf, &ast;.svg, &ast;.rtf, &ast;.txt, &ast;.doc, &ast;.docx, &ast;.pps, &ast;.ppt, &ast;.pptx". 
+
+**SupportedHyperlinkSchemes** Consente di impostare un elenco delimitato da virgole degli schemi URI definibili nelle azioni CollegamentoIpertestuale autorizzate per il rendering o "&ast;" per abilitare tutti gli schemi di collegamento ipertestuale. Se ad esempio si imposta "http,https" sono consentiti i collegamenti ipertestuali a "https://www. contoso.com", ma vengono rimossi i collegamenti ipertestuali a "mailto:bill@contoso.com" o "javascript:window.open('www.contoso.com', '_blank')". L'impostazione predefinita è "&ast;".
 
 ## <a name="august-2018"></a>Agosto 2018
 
@@ -325,10 +341,10 @@ Il server di report di Power BI supporta ora i nuovi oggetti visivi di tipo tabe
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cos'è Server di report di Power BI?](get-started.md) 
-[Manuale per l'amministratore](admin-handbook-overview.md)  
-[Installare il server di report di Power BI](install-report-server.md)  
-[Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+Vedere queste fonti per tenersi aggiornati sulle nuove funzionalità di Server di report di Power BI.
+
+* [Blog di Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blog del team Server SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* Il [canale YouTube Guy in a Cube](https://aka.ms/guyinacube)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

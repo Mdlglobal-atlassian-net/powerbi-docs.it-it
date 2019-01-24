@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292032"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488869"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
 Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
 
 Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Server di report di Power BI](whats-new.md). 
+
+## <a name="january-2019"></a>Gennaio 2019
+- **Server di report Power BI**            
+    - *Versione 1.4.6960.38798 (build 15.0.1102.222), data di rilascio: 22 gennaio 2019*
+        - Funzionalità
+            - Report di Power BI 
+                - Supporto della sicurezza a livello di riga
+                - Espandere e comprimere le intestazioni di riga di matrice
+                - Copia e incolla tra file con estensione pbix
+                - Guide intelligenti per l'allineamento
+                - Supporto per le funzionalità di SAP BW Connector 2.0
+            - Administrators
+                - Possibilità di limitare le estensioni delle risorse caricabili nel server di report
+                - Possibilità di limitare gli schemi di collegamento ipertestuale supportati
+        - Correzioni di bug
+            - Vulnerabilità HTML Injection
+            - L'esportazione in formato PDF non visualizza il simbolo dell'euro
+            - Il salvataggio di una password con più origini dati nei report di Power BI rende non valide le password non modificate
+            - Problemi di visualizzazione degli oggetti visivi nell'app Power BI per dispositivi mobili dopo l'inattività
+
+- **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+    - *Versione: 2.65.5313.1421 (gennaio 2019), data di rilascio: 22 gennaio 2019*
+        - Include modifiche necessarie per la connessione a Server di report di Power BI (gennaio 2019)  
 
 ## <a name="august-2018"></a>Agosto 2018
 - **Server di report Power BI**

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295882"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488823"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 Informazioni su come installare Power BI Desktop ottimizzato per il server di report di Power BI.
@@ -31,7 +31,7 @@ Il modo più facile per assicurarsi di aver installato la versione più aggiorna
 
     ![Scaricare Power BI Desktop dal portale Web](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    In alternativa, è possibile passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (ottimizzato per il server di report di Power BI - Agosto 2018) nell'Area download Microsoft.
+    In alternativa, passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (ottimizzato per il server di report di Power BI - gennaio 2019) nell'Area download Microsoft.
 
 2. Nella pagina dell'Area download selezionare **Scarica**.
 
@@ -41,14 +41,14 @@ Il modo più facile per assicurarsi di aver installato la versione più aggiorna
 
     - **PBIDesktopRS_x64.msi** (versione a 64 bit).
 
-1. Dopo il download del programma di installazione, eseguire l'installazione guidata di Power BI Desktop (agosto 2018).
+1. Dopo il download del programma di installazione, eseguire l'installazione guidata di Power BI Desktop (gennaio 2019).
 
 2. Al termine dell'installazione, selezionare **Avvia Power BI Desktop**.
    
     Verrà avviato automaticamente e si è pronti per iniziare.
 
 ## <a name="verify-you-are-using-the-correct-version"></a>Verificare di usare la versione corretta
-È possibile verificare che si sta usando la versione corretta di Power BI Desktop esaminando la schermata di avvio o la barra del titolo all'interno di Power BI Desktop. La barra del titolo indicherà il mese e l'anno di rilascio della versione.
+È possibile verificare che si sta usando la versione corretta di Power BI Desktop esaminando la schermata di avvio o la barra del titolo all'interno di Power BI Desktop. La barra del titolo indica il mese e l'anno di rilascio.
 
 ![Barra del titolo per Power BI Desktop ottimizzato per il server di report di Power BI](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
