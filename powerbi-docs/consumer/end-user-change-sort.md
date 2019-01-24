@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: Conceptual
-ms.date: 01/17/2019
+ms.date: 01/19/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e648257ecd657b07d02fbff69a3424159b636059
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 4fd49c3279c47139a0e15fbcc4729f39b0a59b78
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394671"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838279"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
 In un report di Power BI è possibile ordinare alfabeticamente la maggior parte delle visualizzazioni in base ai nomi delle categorie contenute nel grafico oppure in base ai valori numerici di ciascuna categoria. Ad esempio, questo grafico viene ordinato in base alla categoria **store name**.
@@ -30,7 +30,8 @@ In un report di Power BI è possibile ordinare alfabeticamente la maggior parte 
 
    ![video che illustra come selezionare Ordina per e poi Ordinamento crescente o Ordinamento decrescente](media/end-user-change-sort/sort.gif)
 
-   **NOTA**: non è possibile ordinare tutti gli oggetti visivi.  Ad esempio, gli oggetti visivi seguenti non possono essere ordinati: Mappa ad albero, Mappa, Mappa colorata, Grafico a dispersione, Misuratore, Scheda, Scheda con più righe, Grafico a cascata.
+> [!NOTE]
+> non è possibile ordinare tutti gli oggetti visivi. Ad esempio, gli oggetti visivi seguenti non possono essere ordinati: Mappa ad albero, Mappa, Mappa colorata, Grafico a dispersione, Misuratore, Scheda, Scheda con più righe, Grafico a cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Salvataggio delle modifiche all'ordinamento
 I report di Power BI mantengono i filtri, i filtri dei dati, l'ordinamento e altre modifiche alla visualizzazione dei dati. Pertanto, se si esce da un report e lo si visualizza di nuovo, le modifiche sono salvate.  Per annullare le modifiche e ripristinare le impostazioni del designer del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore. 

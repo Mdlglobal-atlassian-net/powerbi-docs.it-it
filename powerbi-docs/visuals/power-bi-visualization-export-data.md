@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 06ff1326c902c723614b3b89c0b5c1217fa06ea3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 83ca49a3307a12e8a92c01de4175fcb117e3163d
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295641"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838440"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 Per esaminare i dati usati per creare una visualizzazione, [è possibile visualizzarli in Power BI](service-reports-show-data.md) o esportarli in Excel come file XLSX o CSV. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. 
@@ -83,7 +83,7 @@ I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Pe
 | L'oggetto visivo contiene |                                                                              Cosa viene visualizzato nell'esportazione                                                                              |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   Aggregazioni    |                                                 la *prima* aggregazione e i dati non nascosti dell'intera tabella per tale aggregazione                                                  |
-|   Aggregazioni    | dati correlati: se l'oggetto visivo usa dati da altre tabelle di dati che sono *\*\*correlate*\* alla tabella di dati che contiene l'aggregazione (purché tale relazione sia \*: 1 o 1:1) |
+|   Aggregazioni    | dati correlati: se l'oggetto visivo usa dati da altre tabelle di dati che sono *correlate* alla tabella di dati che contiene l'aggregazione (purché tale relazione sia \*: 1 o 1:1) |
 |    Misure     |                                      Tutte le misure dell'oggetto visivo *e* tutte le misure di qualsiasi tabella di dati che contenga una misura usata nell'oggetto visivo                                      |
 |    Misure     |                                       Tutti i dati non nascosti delle tabelle contenenti la misura (purché la relazione sia \*:1 o 1:1)                                       |
 |    Misure     |                                      Tutti i dati di tutte le tabelle correlate alla tabella contenente le misure tramite una catena di \*:1 di 1:1                                      |

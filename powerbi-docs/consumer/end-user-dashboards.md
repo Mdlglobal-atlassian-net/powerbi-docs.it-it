@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0dad05569bdebcd83a57a396d0edead5a741353
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 22e10ba6df72f38613ba3ab6cf91a57bbfc86b7c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279873"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838359"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
 
@@ -24,11 +24,12 @@ Un ***dashboard*** Power BI è una singola pagina, spesso denominata area di dis
 
 ![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
-Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e sono *aggiunte* al dashboard dai report. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
+Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e vengono *aggiunte* al dashboard dai progettisti dei report. Selezionando un riquadro viene aperta la pagina del report in cui è stata creata la visualizzazione. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
-> I dashboard sono una funzionalità del servizio Power BI e non sono disponibili in Power BI Desktop. Sui dispositivi mobili i dashboard non possono essere creati, ma solo [visualizzati e condivisi](mobile/mobile-apps-view-dashboard.md).
-> 
+> I dashboard possono essere [visualizzati e condivisi nei dispositivi mobili](mobile/mobile-apps-view-dashboard.md).
+>
+> Power BI Pro è necessario per la visualizzazione di un dashboard condiviso da un altro utente.
 > 
 
 Le visualizzazioni in un dashboard provengono dai report e ogni report è basato su un set di dati. Infatti, un dashboard può essere inteso come una via d'accesso ai report e ai set di dati sottostanti. Selezionando una visualizzazione si accede al report (e al set di dati) usato per crearla.
@@ -36,38 +37,29 @@ Le visualizzazioni in un dashboard provengono dai report e ogni report è basato
 ![Diagramma che illustra la relazione tra dashboard, report e set di dati](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Vantaggi dei dashboard
-I dashboard sono uno strumento eccezionale per monitorare l'attività aziendale, per cercare le risposte e per esaminare tutte le metriche più importanti al primo colpo. Le visualizzazioni in un dashboard potrebbero provenire da uno o più set di dati e report sottostanti. Un dashboard combina i dati locali e quelli generati dal cloud, offrendo una visualizzazione consolidata indipendentemente da dove si trovano i dati.
+I dashboard sono uno strumento eccezionale per monitorare l'attività aziendale, per cercare le risposte e per esaminare tutte le metriche più importanti al primo colpo. Le visualizzazioni in un dashboard potrebbero provenire da uno o più set di dati e report sottostanti. Un dashboard può combinare i dati locali e quelli del cloud, offrendo una visualizzazione consolidata indipendentemente dalla posizione dei dati.
 
 Un dashboard non è solo un'immagine vera e propria; si tratta, piuttosto, di un elemento altamente interattivo e personalizzabile in cui i riquadri si aggiornano al variare dei dati sottostanti.
 
-## <a name="dashboards-versus-reports"></a>Dashboard e report a confronto
-I report sono spesso confusi con i dashboard poiché sono composti da troppe aree di contenuto con le visualizzazioni. Tuttavia, ci sono alcune importanti differenze.
+## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Differenze tra dashboard e report per i ***consumer*** di Power BI
+I report sono spesso confusi con i dashboard poiché sono composti da troppe aree di contenuto con le visualizzazioni. Tuttavia, ci sono alcune importanti differenze dal punto di vista di un *consumer* di Power BI.
 
 | **Capacità** | **Dashboard** | **Report** |
 | --- | --- | --- |
 | Pagine |Una pagina |Una o più pagine |
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
-| Disponibile in Power BI Desktop |No |Sì, è possibile creare e visualizzare i report in Power BI Desktop |
-| Aggiunta |È possibile aggiungere visualizzazioni esistenti (riquadri) solo dal dashboard corrente ad altri dashboard |È possibile aggiungere visualizzazioni (come riquadri) a uno dei dashboard. È possibile aggiungere tutte le pagine del report a uno dei dashboard. |
-| Sottoscrivi |Non è possibile sottoscriversi a un dashboard |È possibile sottoscriversi alle pagine del report |
+| Sottoscrivi |È possibile sottoscrivere messaggi di posta elettronica per i dashboard |È possibile sottoscriversi messaggi di posta elettronica per le pagine dei report |
 | Applicazione di filtri |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | Impostazione di avvisi |Permette di creare avvisi per e-mail quando vengono soddisfatte determinate condizioni |No |
-| Funzionalità |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
+| In primo piano |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
 | Query in linguaggio naturale |Disponibile dal dashboard |Non disponibile dai report |
-| Permette di modificare il tipo di visualizzazione |No. Infatti, se il proprietario di un report modifica il tipo di visualizzazione nel report, la visualizzazione bloccata nel dashboard non viene aggiornata |Sì |
 | Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
-| Permette di creare le visualizzazioni |Si limita all'aggiunta di widget al dashboard tramite "Aggiungi riquadro" |È possibile creare molti tipi diversi di elementi visivi, aggiungere elementi visivi personalizzati, modificare gli elementi visivi e altro ancora con le autorizzazioni di modifica |
-| Personalizzazione |È possibile fare operazioni con le visualizzazioni (riquadri) come spostare e disporre, ridimensionare, aggiungere collegamenti, rinominare, eliminare e visualizzare a schermo intero. Ma i dati e le visualizzazioni sono di sola lettura. |Nella visualizzazione di lettura è possibile pubblicare, incorporare, filtrare, esportare, scaricare come file .pbix, visualizzare il contenuto correlato, generare codici QR, analizzare in Excel e così via.  Nella visualizzazione di modifica è possibile eseguire tutte le operazioni indicate finora e molto altro. |
+
 
 ## <a name="dashboard-creators-and-dashboard-consumers"></a>Autori dei dashboard e utenti dei dashboard
-In base al ruolo, si potrebbe essere un utente che crea i dashboard per uso personale o da condividere con i colleghi. Si desidera imparare a creare e condividere i dashboard. In alternativa, si potrebbe essere un utente che riceve i dashboard dagli altri. Si desidera imparare a comprendere e interagire con il dashboard.
+Come ***consumer*** di Power BI si ricevono i dashboard dagli *autori*. Altre informazioni sui dashboard sono disponibili in questi argomenti:
 
-Per iniziare, è possibile leggere gli argomenti seguenti organizzati in base al ruolo.
-
-Power BI Pro è necessario per condividere un dashboard e visualizzare un dashboard condiviso.
-
-### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Se si intende ricevere e usare i dashboard
-* Per acquisire familiarità con i dashboard, consultare la presentazione di uno dei [dashboard di esempio](../sample-tutorial-connect-to-the-samples.md).
+* [Visualizzare un dashboard](end-user-dashboard-open.md)
 * Informazioni sui [riquadri del dashboard](end-user-tiles.md) e cosa succede quando se ne seleziona uno.
 * Si desidera monitorare un singolo riquadro del dashboard e ricevere un'e-mail quando raggiunge una certa soglia? [Creare avvisi sui riquadri](end-user-alerts.md).
 * È possibile porre liberamente le domande al dashboard. Informazioni su come usare lo strumento [Domande e risposte di Power BI](end-user-q-and-a.md) per porre una domanda sui dati e ottenere una risposta sotto forma di visualizzazione.
@@ -77,5 +69,4 @@ Power BI Pro è necessario per condividere un dashboard e visualizzare un dashbo
 > 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](../power-bi-overview.md)  
-[Power BI - Concetti di base](end-user-basic-concepts.md)  
+[Visualizzare un dashboard](end-user-dashboard-open.md) 
