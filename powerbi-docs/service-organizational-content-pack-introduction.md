@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fa76b19e187f7a27dc8b9268dad4d9b5ab8f101
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286382"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838463"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
@@ -41,8 +41,6 @@ I dashboard, i report e le cartelle di lavoro di Excel sono di sola lettura, ma 
 La pubblicazione di un pacchetto di contenuto aziendale lo aggiunge ad AppSource.  Questo archivio centralizzato semplifica l'esplorazione e la ricerca di dashboard, report e set di dati pubblicati per i membri.  
 
 * Per visualizzare AppSource, selezionare **Recupera dati** > **Organizzazione** > **Recupera**.
-
-Ulteriori informazioni su [ricerca e apertura dei pacchetti di contenuto dell'organizzazione](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>Ciclo di vita di un pacchetto di contenuto aziendale
 Qualsiasi utente di Power BI Pro può creare, pubblicare e accedere ai pacchetti di contenuto aziendali. Solo il creatore del pacchetto di contenuto può modificare la cartella di lavoro e il set di dati, pianificare l'aggiornamento ed eliminarlo.

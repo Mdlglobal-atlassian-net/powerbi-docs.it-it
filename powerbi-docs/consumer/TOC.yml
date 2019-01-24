@@ -1,195 +1,186 @@
-items:
 - name: Power BI per i consumer
   href: power-bi-consumer-landing.md
 - name: Servizio Power BI per i consumer
   items:
-  - name: Panoramica
-    items:
-    - name: Che cos'è un consumer di Power BI?
-      href: end-user-consumer.md
-    - name: Concetti di base e terminologia per i consumer di Power BI
-      href: end-user-basic-concepts.md
-  - name: Guide introduttive
-    items:
-    - name: Orientarsi in Power BI
-      href: end-user-experience.md
-    - name: Cosa si può fare con Power BI
-      href: end-user-reading-view.md
-  - name: Esercitazioni
-    items:
-    - name: Creare un avviso dashboard
-      href: end-user-alerts.md
-  - name: Procedure
-    items:
-    - name: Dashboard
+    - name: Panoramica
       items:
-      - name: Dashboard
-        href: end-user-dashboards.md
-      - name: Visualizzare un dashboard
-        href: end-user-dashboard-open.md
-      - name: Dashboard in primo piano
-        href: end-user-featured.md
-      - name: I riquadri del dashboard
-        href: end-user-tiles.md
-      - name: Aggiungere un commento o avviare una conversazione
-        href: end-user-comment.md
-    - name: Report
+        - name: Che cos'è un consumer di Power BI?
+          href: end-user-consumer.md
+        - name: Concetti di base e terminologia per i consumer di Power BI
+          href: end-user-basic-concepts.md
+    - name: Guide introduttive
       items:
-      - name: Report
-        href: end-user-reports.md
-      - name: Visualizzare un report
-        href: end-user-report-open.md
-      - name: Usare i filtri in un report
-        href: end-user-report-filter.md
-      - name: Informazioni su come si applicano le funzionalità di filtro incrociato agli oggetti visivi del report
-        href: end-user-interactions.md
-    - name: Visualizzazioni
+        - name: Orientarsi in Power BI
+          href: end-user-experience.md
+        - name: Cosa si può fare con Power BI
+          href: end-user-reading-view.md
+    - name: Esercitazioni
       items:
-      - name: Cosa si può fare con le visualizzazioni?
-        href: end-user-visualizations.md
-      - name: Visualizzare i dati usati per creare la visualizzazione
-        href: end-user-show-data.md
-      - name: Eseguire il drill-down in una visualizzazione in Power BI
-        href: end-user-drill.md
-      - name: Interagire con le mappe ArcGIS
-        href: ../power-bi-visualizations-arcgis.md
-    - name: Attività comuni
+        - name: Creare un avviso dashboard
+          href: end-user-alerts.md
+    - name: Procedure
       items:
-      - name: Modi diversi per eseguire lo zoom sul contenuto con le modalità messa a fuoco e schermo intero
-        href: end-user-focus.md
-      - name: Dashboard, report e app preferiti in Power BI
-        href: end-user-favorite.md
-      - name: Stampare un dashboard, un riquadro di un dashboard o una pagina di report
-        href: end-user-print.md
-      - name: Visualizza il contenuto correlato
-        href: end-user-related.md
-      - name: Visualizzare il contenuto recente
-        href: end-user-recent.md
-      - name: Visualizzare il contenuto nel contenitore Condivisi con l'utente corrente
-        href: end-user-shared-with-me.md
-      - name: Sottoscrivere un report o un dashboard
-        href: end-user-subscribe.md
-      - name: Cercare e ordinare il contenuto in Power BI
-        href: end-user-search-sort.md
-      - name: Visualizzare informazioni dettagliate automatiche per i riquadri del dashboard
-        href: end-user-insights.md
-    - name: Recupera dati
+        - name: Dashboard
+          items:
+            - name: Dashboard
+              href: end-user-dashboards.md
+            - name: Visualizzare un dashboard
+              href: end-user-dashboard-open.md
+            - name: Dashboard in primo piano
+              href: end-user-featured.md
+            - name: I riquadri del dashboard
+              href: end-user-tiles.md
+            - name: Aggiungere un commento o avviare una conversazione
+              href: end-user-comment.md
+        - name: Report
+          items:
+            - name: Report
+              href: end-user-reports.md
+            - name: Visualizzare un report
+              href: end-user-report-open.md
+            - name: Usare i filtri in un report
+              href: end-user-report-filter.md
+            - name: Informazioni su come si applicano le funzionalità di filtro incrociato agli oggetti visivi del report
+              href: end-user-interactions.md
+        - name: Visualizzazioni
+          items:
+            - name: Cosa si può fare con le visualizzazioni?
+              href: end-user-visualizations.md
+            - name: Visualizzare i dati usati per creare la visualizzazione
+              href: end-user-show-data.md
+            - name: Eseguire il drill-down in una visualizzazione in Power BI
+              href: end-user-drill.md
+            - name: Interagire con le mappe ArcGIS
+              href: ../power-bi-visualizations-arcgis.md
+        - name: Attività comuni
+          items:
+            - name: Modi diversi per eseguire lo zoom sul contenuto con le modalità messa a fuoco e schermo intero
+              href: end-user-focus.md
+            - name: 'Dashboard, report e app preferiti in Power BI'
+              href: end-user-favorite.md
+            - name: 'Stampare un dashboard, un riquadro di un dashboard o una pagina di report'
+              href: end-user-print.md
+            - name: Visualizza il contenuto correlato
+              href: end-user-related.md
+            - name: Visualizzare il contenuto recente
+              href: end-user-recent.md
+            - name: Visualizzare il contenuto nel contenitore Condivisi con l'utente corrente
+              href: end-user-shared-with-me.md
+            - name: Sottoscrivere un report o un dashboard
+              href: end-user-subscribe.md
+            - name: Cercare e ordinare il contenuto in Power BI
+              href: end-user-search-sort.md
+            - name: Visualizzare informazioni dettagliate automatiche per i riquadri del dashboard
+              href: end-user-insights.md
+        - name: Recupera dati
+          items:
+            - name: Installare e usare app
+              href: end-user-apps.md
+            - name: Connettersi ai servizi
+              href: end-user-connect-to-services.md
+        - name: Ottenere risposte dai dati
+          items:
+            - name: Domande e risposte in Power BI
+              href: end-user-q-and-a.md
+            - name: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
+              href: end-user-q-and-a-tips.md
+    - name: Risorse
       items:
-      - name: Installare e usare app
-        href: end-user-apps.md
-      - name: Connettersi ai servizi
-        href: end-user-connect-to-services.md
-      - name: Trovare e connettersi a pacchetti di contenuto aziendali
-        href: end-user-content-pack.md
-    - name: Ottenere risposte dai dati
-      items:
-      - name: Domande e risposte in Power BI
-        href: end-user-q-and-a.md
-      - name: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
-        href: end-user-q-and-a-tips.md
-  - name: Risorse
-    items:
-    - name: Glossario e terminologia
-      href: end-user-glossary.md
-    - name: Browser supportati
-      href: end-user-browsers.md
-    - name: Tipi di informazioni rapide supportate da Power BI
-      href: end-user-insight-types.md
+        - name: Glossario e terminologia
+          href: end-user-glossary.md
+        - name: Browser supportati
+          href: end-user-browsers.md
+        - name: Tipi di informazioni rapide supportate da Power BI
+          href: end-user-insight-types.md
 - name: App Power BI per dispositivi mobili
   items:
-  - name: Panoramica
-    items:
-    - name: Cosa sono le app per dispositivi mobili?
-      href: mobile/mobile-apps-for-mobile-devices.md
-  - name: Guide introduttive
-    items:
-    - name: Esplorare dashboard e report
-      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
-  - name: Esercitazioni
-    items:
-    - name: Porre domande nelle app per dispositivi mobili iOS
-      href: mobile/tutorial-mobile-apps-ios-qna.md
-  - name: Concetti
-    items:
-    - name: Novità delle app per dispositivi mobili
-      href: mobile/mobile-whats-new-in-the-mobile-apps.md
-    - name: Ottenere dati concreti con le app per dispositivi mobili
-      href: mobile/mobile-apps-data-in-real-world-context.md
-    - name: Visualizzazione dei dati offline nelle app per dispositivi mobili
-      href: mobile/mobile-apps-offline-data.md
-    - name: App Power BI per realtà mista (anteprima)
-      href: mobile/mobile-mixed-reality-app.md
-  - name: Procedure
-    items:
-    - name: Tutte le app per dispositivi mobili
+    - name: Panoramica
       items:
-      - name: Condividere un dashboard dall'app Power BI per dispositivi mobili
-        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
-      - name: Interagire con i riquadri nelle app per dispositivi mobili
-        href: mobile/mobile-tiles-in-the-mobile-apps.md
-      - name: Preferiti nelle app per dispositivi mobili
-        href: mobile/mobile-apps-favorites.md
-      - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
-        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
-      - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
-        href: mobile/mobile-apps-notification-center.md
-      - name: Creare un collegamento diretto che indirizzi a una posizione specifica
-        href: mobile/mobile-apps-deep-link-specific-location.md
-      - name: Filtrare un report in base alla posizione geografica nelle app per dispositivi mobili di Power BI
-        href: mobile/mobile-apps-geographic-filtering.md
-      - name: Dashboard di Power BI per dispositivi mobili
-        href: mobile/mobile-apps-view-dashboard.md
-      - name: Report nelle app per dispositivi mobili
-        href: mobile/mobile-reports-in-the-mobile-apps.md
-      - name: Uso di OAuth per connettersi a Reporting Services
-        href: mobile/mobile-oauth-ssrs.md
-    - name: Dispositivi Android
+        - name: Cosa sono le app per dispositivi mobili?
+          href: mobile/mobile-apps-for-mobile-devices.md
+    - name: Guide introduttive
       items:
-      - name: Introduzione all'app Android
-        href: mobile/mobile-android-app-get-started.md
-      - name: Risoluzione dell'errore di certificato SSL aziendale non considerato attendibile
-        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
-      - name: Risoluzione dell'errore di aggiornamento di Android System WebView
-        href: mobile/mobile-android-error-update-android-system-webview.md
-    - name: iOS
+        - name: Esplorare dashboard e report
+          href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+    - name: Esercitazioni
       items:
-      - name: Introduzione all'app iOS
-        href: mobile/mobile-iphone-app-get-started.md
-      - name: Analista virtuale Domande e risposte nelle app per dispositivi mobili iOS
-        href: mobile/mobile-apps-ios-qna.md
-      - name: App Power BI per Apple Watch
-        href: mobile/mobile-apple-watch.md
-      - name: Scansionare un codice a barre dall'app nell'iPhone
-        href: mobile/mobile-apps-scan-barcode-iphone.md
-    - name: iOS e Android
+        - name: Porre domande nelle app per dispositivi mobili iOS
+          href: mobile/tutorial-mobile-apps-ios-qna.md
+    - name: Concetti
       items:
-      - name: Visualizzare report locali nelle app per dispositivi mobili
-        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-      - name: Visualizzare i report ottimizzati per il proprio telefono
-        href: mobile/mobile-apps-view-phone-report.md
-      - name: Scansionare un codice a matrice di Power BI dal telefono
-        href: mobile/mobile-apps-qr-code.md
-      - name: Annotare e condividere nelle app per dispositivi mobili
-        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-    - name: App Power BI per dispositivi Windows 10
+        - name: Novità delle app per dispositivi mobili
+          href: mobile/mobile-whats-new-in-the-mobile-apps.md
+        - name: Ottenere dati concreti con le app per dispositivi mobili
+          href: mobile/mobile-apps-data-in-real-world-context.md
+        - name: Visualizzazione dei dati offline nelle app per dispositivi mobili
+          href: mobile/mobile-apps-offline-data.md
+        - name: App Power BI per realtà mista (anteprima)
+          href: mobile/mobile-mixed-reality-app.md
+    - name: Procedure
       items:
-      - name: Introduzione all'app Windows 10
-        href: mobile/mobile-windows-10-phone-app-get-started.md
-      - name: Aggiungere un dashboard alla schermata Start
-        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
-      - name: Visualizzare report per dispositivi mobili e indicatori KPI di Reporting Services
-        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-      - name: Visualizzare Power BI in Surface Hub
-        href: mobile/mobile-windows-10-app-presentation-mode.md
-      - name: Single Sign-On nell'app Windows
-        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
-  - name: Risorse
-    items:
-    - name: Lingue supportate nelle app per dispositivi mobili
-      href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: f3f9e579a85ae880b28c6f846c5cb362dc49e9a2
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
-ms.translationtype: HT
-ms.contentlocale: it-IT
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829850"
+        - name: Tutte le app per dispositivi mobili
+          items:
+            - name: Condividere un dashboard dall'app Power BI per dispositivi mobili
+              href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+            - name: Interagire con i riquadri nelle app per dispositivi mobili
+              href: mobile/mobile-tiles-in-the-mobile-apps.md
+            - name: Preferiti nelle app per dispositivi mobili
+              href: mobile/mobile-apps-favorites.md
+            - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
+              href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+            - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
+              href: mobile/mobile-apps-notification-center.md
+            - name: Creare un collegamento diretto che indirizzi a una posizione specifica
+              href: mobile/mobile-apps-deep-link-specific-location.md
+            - name: Filtrare un report in base alla posizione geografica nelle app per dispositivi mobili di Power BI
+              href: mobile/mobile-apps-geographic-filtering.md
+            - name: Dashboard di Power BI per dispositivi mobili
+              href: mobile/mobile-apps-view-dashboard.md
+            - name: Report nelle app per dispositivi mobili
+              href: mobile/mobile-reports-in-the-mobile-apps.md
+            - name: Uso di OAuth per connettersi a Reporting Services
+              href: mobile/mobile-oauth-ssrs.md
+        - name: Dispositivi Android
+          items:
+            - name: Introduzione all'app Android
+              href: mobile/mobile-android-app-get-started.md
+            - name: Risoluzione dell'errore di certificato SSL aziendale non considerato attendibile
+              href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Risoluzione dell'errore di aggiornamento di Android System WebView
+              href: mobile/mobile-android-error-update-android-system-webview.md
+        - name: iOS
+          items:
+            - name: Introduzione all'app iOS
+              href: mobile/mobile-iphone-app-get-started.md
+            - name: Analista virtuale Domande e risposte nelle app per dispositivi mobili iOS
+              href: mobile/mobile-apps-ios-qna.md
+            - name: App Power BI per Apple Watch
+              href: mobile/mobile-apple-watch.md
+            - name: Scansionare un codice a barre dall'app nell'iPhone
+              href: mobile/mobile-apps-scan-barcode-iphone.md
+        - name: iOS e Android
+          items:
+            - name: Visualizzare report locali nelle app per dispositivi mobili
+              href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: Visualizzare i report ottimizzati per il proprio telefono
+              href: mobile/mobile-apps-view-phone-report.md
+            - name: Scansionare un codice a matrice di Power BI dal telefono
+              href: mobile/mobile-apps-qr-code.md
+            - name: Annotare e condividere nelle app per dispositivi mobili
+              href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+        - name: App Power BI per dispositivi Windows 10
+          items:
+            - name: Introduzione all'app Windows 10
+              href: mobile/mobile-windows-10-phone-app-get-started.md
+            - name: Aggiungere un dashboard alla schermata Start
+              href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+            - name: Visualizzare report per dispositivi mobili e indicatori KPI di Reporting Services
+              href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+            - name: Visualizzare Power BI in Surface Hub
+              href: mobile/mobile-windows-10-app-presentation-mode.md
+            - name: Single Sign-On nell'app Windows
+              href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+    - name: Risorse
+      items:
+        - name: Lingue supportate nelle app per dispositivi mobili
+          href: mobile/mobile-apps-supported-languages.md
