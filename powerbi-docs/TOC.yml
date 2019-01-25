@@ -64,7 +64,7 @@ items:
       href: desktop-many-to-many-relationships.md
     - name: Modalità di archiviazione in Power BI Desktop (anteprima)
       href: desktop-storage-mode.md
-    - name: Filtro incrociato bidirezionale in Power BI Desktop (anteprima)
+    - name: Filtro incrociato bidirezionale in Power BI Desktop
       href: desktop-bidirectional-filtering.md
     - name: Power BI e DirectQuery
       href: desktop-directquery-about.md
@@ -384,7 +384,7 @@ items:
       href: desktop-accessibility.md
     - name: Gestire il modulo di accesso di Power BI Desktop
       href: desktop-admin-sign-in-form.md
-- name: servizio Power BI
+- name: Servizio Power BI
   items:
   - name: Panoramica
     items:
@@ -1110,13 +1110,15 @@ items:
         href: report-server/quickstart-create-powerbi-report.md
       - name: Gestire il contenuto nel server di report
         href: report-server/getting-around.md
+      - name: Sicurezza a livello di riga (RLS) nel server di report
+        href: report-server/row-level-security-report-server.md
       - name: Creare un report impaginato per un server di report
         href: report-server/quickstart-create-paginated-report.md
       - name: Immettere i dati direttamente in un report impaginato
         href: paginated-reports-enter-data.md
       - name: Utilizzare gli indicatori KPI
         href: https://go.microsoft.com/fwlink/?linkid=849021
-      - name: 'Accedere ai set di dati condivisi come feed OData '
+      - name: Accedere ai set di dati condivisi come feed OData
         href: report-server/access-dataset-odata.md
       - name: Configurare l'aggiornamento pianificato
         href: report-server/configure-scheduled-refresh.md
@@ -1293,9 +1295,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: ae98cdee3793186b590ded6143546b5b79062685
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406731"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488892"
