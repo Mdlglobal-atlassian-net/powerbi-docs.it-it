@@ -154,7 +154,7 @@ Per altre informazioni sull'orientamento orizzontale e il layout reattivo, veder
     
     ![Seleziona tutto](media/power-bi-visualization-slicers/7-select-all.png)
     
-2. L'opzione **Selezione singola** è attivata per impostazione predefinita **.** Fare clic o toccare ogni singolo elemento per selezionarlo e fare clic o toccare tenendo premuto **CTRL** per selezionare più elementi. Disattivare **Selezione singola** per consentire la selezione di più elementi senza tenere premuto **CTRL****.** Fare clic o toccare di nuovo un elemento per deselezionarlo. 
+2. L'opzione **Selezione singola** è attivata per impostazione predefinita **.** Fare clic o toccare ogni singolo elemento per selezionarlo e fare clic o toccare tenendo premuto **CTRL** per selezionare più elementi. **Disattivare** **Selezione singola** per consentire la selezione di più elementi senza tenere premuto **CTRL**. Fare clic o toccare di nuovo un elemento per deselezionarlo. 
 
 ### <a name="header-options"></a>Opzioni delle intestazioni
 L'opzione **Intestazione** è attivata per impostazione predefinita e visualizza il nome del campo dati nella parte superiore del filtro dei dati **.** 
