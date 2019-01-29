@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296686"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147451"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
@@ -55,7 +55,7 @@ Per altre informazioni, vedere la sezione **Condividere il lavoro** del sommario
 
 Ora verranno approfonditi gli elementi fondamentali di Power BI. Poiché i dashboard o i report sono utili solo quando contengono dati, vengono ora descritti i **set di dati**.
 
-## <a name="datasets"></a>Datasets
+## <a name="datasets"></a>Set di dati
 Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione.  
 
 I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. [Fare clic sul collegamento per visualizzare l'elenco dei tipi di set di dati utilizzabili con Power BI](service-get-data.md).
@@ -223,7 +223,6 @@ Questa area della schermata contiene opzioni aggiuntive per interagire con il co
 
 ## <a name="next-steps"></a>Passaggi successivi
 - [Che cos'è Power BI?](power-bi-overview.md)  
-- [Navigazione nel servizio Power BI](service-the-new-power-bi-experience.md)
 - [Video di Power BI](videos.md)  
 - [Presentazione dell'editor di report](service-the-report-editor-take-a-tour.md)
 
