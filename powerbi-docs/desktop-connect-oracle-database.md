@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dc26d6de5ca22fdabfd80bd7ba1d9830e274f808
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284496"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899228"
 ---
 # <a name="connect-to-an-oracle-database"></a>Connettersi a un database Oracle
 Per connettersi a un database Oracle con **Power BI Desktop**, è necessario che nel computer che esegue Power BI Desktop sia installato il software client Oracle appropriato. La versione del software client Oracle dipende dalla versione di Power BI Desktop installata, a **32 bit** o a **64 bit**.
@@ -51,3 +51,11 @@ Dopo aver installato il driver del client Oracle corrispondente, è possibile co
 4. Dopo avere immesso le informazioni sul database Oracle nella finestra di dialogo Database Oracle (incluse eventuali informazioni facoltative, come un SID o una query nativa sul database), selezionare **OK** per stabilire la connessione.
 5. Se il database Oracle richiede credenziali utente, immettere tali credenziali nella finestra di dialogo quando viene chiesto.
 
+
+## <a name="troubleshooting"></a>Risoluzione dei problemi
+
+Se Power BI Desktop è stato scaricato da Microsoft Store, è possibile che la connessione ai database Oracle non riesca a causa di un problema di driver di Oracle. Se si verifica questo problema, il messaggio di errore restituito è di tipo "Riferimento oggetto non impostato". Per risolvere il problema eseguire una di queste operazioni:
+
+* Scaricare Power BI Desktop da https://powerbi.microsoft.com/desktop.
+
+* Se si vuole usare la versione di Microsoft Store nel computer locale, copiare oraons.dll da _12.X.X\client_X_ a _12.X.X\client_X\bin_. Le X rappresentano numeri di versione e directory.

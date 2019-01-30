@@ -8,22 +8,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/16/2018
-ms.openlocfilehash: e24cf43c5797293f83c7f678dee328d502ac2243
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/24/2019
+ms.openlocfilehash: b2ddf1e55f54b9c671a92df497c0a2ae1afdcced
+ms.sourcegitcommit: d12d84583e65ebecc8aa947b0cd5720cffdc7978
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280546"
+ms.lasthandoff: 01/25/2019
+ms.locfileid: "54907522"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Sequenza temporale del supporto per il server di report di Power BI
 
-Il server di report di Power BI verrà rilasciato più volte all'anno. Gli aggiornamenti critici e di sicurezza saranno disponibili fino alla disponibilità generale della versione successiva. Dopo la versione successiva, la versione precedente continuerà a ricevere gli aggiornamenti della sicurezza per il resto della durata di 12 mesi.
+Il server di report di Power BI viene rilasciato più volte l'anno. Gli aggiornamenti critici e di sicurezza sono disponibili fino alla disponibilità generale della versione successiva. Dopo il rilascio della versione successiva, la versione precedente continuerà a ricevere gli aggiornamenti di sicurezza per il resto della durata di 12 mesi.
 
 Questo criterio di supporto consente di fornire innovazione ai clienti in tempi rapidi, pur offrendo la flessibilità di adottarla in base alle proprie esigenze.
 
-* Fase di manutenzione degli aggiornamenti critici e della sicurezza: quando si esegue l'ultima versione corrente del server di report di Power BI, si riceveranno sia gli aggiornamenti critici sia quelli relativi alla sicurezza.
-* Fase di manutenzione degli aggiornamenti della sicurezza (solo): dopo il rilascio di una nuova versione, il supporto per le versioni precedenti riduce gli aggiornamenti della sicurezza solo per il ciclo di vita residuo dei 12 mesi di supporto (illustrato nella figura 1).
+* Fase di manutenzione degli aggiornamenti critici e della sicurezza: quando si esegue l'ultima versione corrente del server di report di Power BI, si ricevono sia gli aggiornamenti critici sia quelli di sicurezza.
+* Fase di manutenzione dei soli aggiornamenti della sicurezza: dopo il rilascio di una nuova versione, il supporto per le versioni precedenti viene limitato agli aggiornamenti della sicurezza solo per il ciclo di vita residuo dei 12 mesi di supporto (illustrato nella figura 1).
 
     ![Grafico che illustra l'intervallo di tempo del supporto](media/support-timeline/report-server-support-timeline-overall.png)
 
@@ -31,10 +31,11 @@ Questo criterio di supporto consente di fornire innovazione ai clienti in tempi 
 
 | **Versione** | **Data di disponibilità** | **Data di fine del supporto** |
 | --- | --- | --- |
-| Giugno 2017 |12 giugno 2017 |Non supportato |
-| Ottobre 2017 |31 ottobre 2017 |31 ottobre 2018 |
+| Giugno 2017 |12 giugno 2017 |Non più supportato |
+| Ottobre 2017 |31 ottobre 2017 | Non più supportato |
 | Marzo 2018 | 19 marzo 2018 | 19 marzo 2019 |
 | Agosto 2018 | 15 agosto 2018 | 15 agosto 2019 |
+| Gennaio 2019 | 23 gennaio 2019 | 23 gennaio 2020 |
 
 Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
 

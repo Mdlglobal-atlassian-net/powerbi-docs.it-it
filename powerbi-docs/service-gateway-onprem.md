@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287900"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899251"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -96,7 +96,9 @@ Quando si aggiunge un'origine dati al gateway, è necessario fornire le credenzi
 
 ## <a name="tenant-level-administration"></a>Amministrazione a livello di tenant
 
-Attualmente non è disponibile un'unica posizione dalla quale gli amministratori tenant possono gestire tutti i gateway installati e configurati da altri utenti.  Si consiglia agli amministratori tenant di chiedere agli utenti dell'organizzazione di essere aggiunti come amministratore per ogni gateway che installano. In questo modo l'amministratore può gestire tutti i gateway dell'organizzazione tramite la pagina Impostazioni gateway o tramite i [ comandi di PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+Gli amministratori tenant possono visualizzare tutti i gateway dati locali installati all'interno del tenant e gestirli. Questa funzionalità è attualmente disponibile in anteprima pubblica. Per altre informazioni, vedere la [documentazione dell'interfaccia di amministrazione della piattaforma Power](/power-platform/admin/onpremises-data-gateway-management).
+
+In alternativa, si consiglia agli amministratori tenant di chiedere agli utenti dell'organizzazione di essere aggiunti come amministratore per ogni gateway che installano. In questo modo l'amministratore può gestire tutti i gateway dell'organizzazione tramite la pagina Impostazioni gateway o tramite i [ comandi di PowerShell](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters). 
 
 ## <a name="enabling-outbound-azure-connections"></a>Abilitare le connessioni in uscita di Azure
 

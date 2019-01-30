@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a45ddbef861ad29f5823edee213b12af068d48eb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277228"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899297"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origini dati per il servizio Power BI
 I dati sono il fulcro di Power BI. Ogni volta che si esplorano dati, si creano grafici e dashboard o si pongono domande con Domande e risposte, i dati sottostanti di tutte le visualizzazioni e le risposte ottenute derivano da un set di dati. Ma i set di dati da dove provengono? Da un'origine dati, ovviamente.
@@ -29,7 +29,7 @@ In Power BI è possibile ottenere dati da una qualsiasi di queste origini dati f
 ## <a name="files"></a>File
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (con estensione xlsx, xlxm): Excel è unico nel senso che una cartella di lavoro può includere sia dati immessi manualmente nei fogli di lavoro sia dati caricati da origini dati esterne tramite Power Query (Recupera e trasforma in Excel 2016) o Power Pivot. È possibile importare dati presenti nelle tabelle nei fogli di lavoro (i dati *devono* trovarsi in una tabella) o importare i dati che vengono caricati in un modello di dati. Per altre informazioni, vedere [Ottenere dati da file di Excel](service-get-data-from-files.md).
+**Excel** (con estensione xlsx, xlsm): Excel è unico perché una cartella di lavoro può includere sia dati immessi manualmente nei fogli di lavoro sia dati caricati da origini dati esterne tramite Power Query (Recupera e trasforma in Excel 2016) o Power Pivot. È possibile importare dati presenti nelle tabelle nei fogli di lavoro (i dati *devono* trovarsi in una tabella) o importare i dati che vengono caricati in un modello di dati. Per altre informazioni, vedere [Ottenere dati da file di Excel](service-get-data-from-files.md).
 
 **Power BI Desktop** (con estensione pbix): è possibile usare Power BI Desktop per eseguire query e caricare dati da origini dati esterne, estendere il modello di dati con misure e relazioni e creare report. È possibile importare i file di Power BI Desktop nel sito Power BI. Power BI Desktop è ideale per gli utenti più avanzati che hanno una buona conoscenza delle origini dati che usano, delle query sui dati e della trasformazione dei dati, nonché dei concetti di modellazione dei dati. Per altre informazioni, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
 

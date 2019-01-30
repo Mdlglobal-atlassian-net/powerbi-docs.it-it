@@ -8,21 +8,21 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/19/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 70eb50c493c6828ca03b1161138e1a4f4b1fae8e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284430"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147405"
 ---
-# <a name="tour-of-the-report-editor-in-power-bi"></a>Presentazione dell'editor di report in Power BI
+# <a name="tour-the-report-editor-in-power-bi"></a>Presentazione dell'editor di report in Power BI
 
 L'*editor di report* disponibile nel servizio Power BI e quello in Power BI Desktop sono simili. Il video mostra l'editor di report in Power BI Desktop e questo articolo illustra l'editor di report nel servizio Power BI. 
 
-Gli autori di report creano e modificano dashboard e report, quindi li distribuiscono agli utenti dei report. Gli utenti possono interagire con i dashboard e i report nella visualizzazione di lettura nel servizio Power BI, ma non possono modificarli. Vedere le differenze tra la [visualizzazione di lettura e la visualizzazione di modifica nel servizio Power BI](consumer/end-user-reading-view.md) per i report. 
+Gli autori di report creano e modificano dashboard e report, quindi li distribuiscono agli utenti dei report. Gli utenti possono interagire con i dashboard e i report nella visualizzazione di lettura nel servizio Power BI, ma non possono modificarli. Altre informazioni su [cosa possono fare gli utenti dei report nel servizio Power BI](consumer/end-user-reading-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -65,7 +65,7 @@ Per rimuovere un campo dalla visualizzazione, selezionare la **X** a destra del 
 Per altre informazioni, vedere [Aggiungere visualizzazioni a un report di Power BI](visuals/power-bi-report-add-visualizations-i.md).
 
 ### <a name="format-your-visuals"></a>Formattare gli oggetti visivi
-Selezionare l'icona del rullo per visualizzare il riquadro Formato. L'opzione disponibile dipende dal tipo di visualizzazione selezionato.
+Selezionare l'icona del rullo per visualizzare il riquadro Formato. Le opzioni disponibili dipendono dal tipo di visualizzazione selezionato.
 
 ![Riquadro Formattazione nell'editor di report](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
@@ -76,7 +76,7 @@ Le opzioni di formattazione sono praticamente infinite.  Per informazioni, esplo
 * [Personalizzazione delle proprietà degli assi X e Y](visuals/power-bi-visualization-customize-x-axis-and-y-axis.md)
 
 ### <a name="add-analytics-to-your-visualizations"></a>Aggiungere il riquadro Analisi alle visualizzazioni
-Per visualizzare il riquadro Analisi, selezionare l'icona della lente di ingrandimento. L'opzione disponibile dipende dal tipo di visualizzazione selezionato.
+Per visualizzare il riquadro Analisi, selezionare l'icona della lente di ingrandimento. Le opzioni disponibili dipendono dal tipo di visualizzazione selezionato.
 
 ![Riquadro Analisi nell'editor di report](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Il riquadro Analisi nel servizio Power BI consente di aggiungere linee di riferimento dinamiche alle visualizzazioni e di concentrare l'attenzione su tendenze o informazioni importanti. Per altre informazioni, vedere [Riquadro Analisi nel servizio Power BI](service-analytics-pane.md) o [Riquadro Analisi in Power BI Desktop](desktop-analytics-pane.md).

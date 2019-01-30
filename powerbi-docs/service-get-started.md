@@ -1,6 +1,6 @@
 ---
-title: Introduzione al servizio Power BI (Power BI online)
-description: Introduzione al Power BI online (app.powerbi.com)
+title: Introduzione al servizio Power BI
+description: Introduzione al servizio Power BI online (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291986"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147497"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
-Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si colloca il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere prima di tutto [Che cos'è Power BI](power-bi-overview.md).
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
+Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si posiziona il servizio Power BI rispetto alle altre offerte Power BI, è prima di tutto consigliabile leggere [Che cos'è Power BI](power-bi-overview.md).
 
-![Immagine che illustra la relazione tra Desktop, servizio, dispositivi mobili](media/service-get-started/power-bi-components.png)
+![Immagine che illustra la relazione tra Power BI Desktop, servizio, dispositivi mobili](media/service-get-started/power-bi-components.png)
 
 In questa esercitazione viene completata la procedura seguente:
 
@@ -35,7 +35,7 @@ In questa esercitazione viene completata la procedura seguente:
 > * Aggiungere un'altra visualizzazione al dashboard usando lo strumento di linguaggio naturale Domande e risposte
 > * Pulire le risorse eliminando il set di dati, il report e il dashboard
 
-## <a name="sign-up-for-power-bi-service"></a>Iscriversi al servizio Power BI
+## <a name="sign-up-for-the-power-bi-service"></a>Iscriversi al servizio Power BI
 Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 Se si ha già un account, accedere al servizio Power BI aprendo un browser e digitando app.powerbi.com. 
@@ -52,8 +52,8 @@ Visitare la nostra [playlist su YouTube](https://www.youtube.com/playlist?list=P
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>Che cos'è il servizio Power BI
-Il servizio Microsoft Power BI è talvolta denominato Power BI online o app.powerbi.com. Power BI consente di rimanere aggiornati sulle informazioni a cui si è interessati.  Con il servizio Power BI, i ***dashboard*** aiutano a tenere sotto controllo l'andamento dell'attività.  I dashboard mostrano ***riquadri*** su cui è possibile fare clic per aprire i ***report*** e ottenere informazioni ancora più dettagliate.  È possibile connettersi a più ***set di dati*** per visualizzare tutti i dati rilevanti insieme in un'unica posizione. Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - Concetti di base](consumer/end-user-basic-concepts.md).
+## <a name="what-is-the-power-bi-service"></a>Che cos'è il servizio Power BI?
+Il servizio Microsoft Power BI è talvolta denominato Power BI online o app.powerbi.com. Power BI consente di rimanere aggiornati sulle informazioni a cui si è interessati.  Nel servizio Power BI i ***dashboard*** aiutano a tenere sotto controllo l'andamento dell'attività.  I dashboard mostrano ***riquadri*** su cui è possibile fare clic per aprire i ***report*** e ottenere informazioni ancora più dettagliate.  È possibile connettersi a più ***set di dati*** per visualizzare tutti i dati rilevanti insieme in un'unica posizione. Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - Concetti di base](consumer/end-user-basic-concepts.md).
 
 Se sono presenti dati importanti in file Excel o CSV, è possibile creare un dashboard di Power BI per rimanere sempre aggiornati e condividere informazioni dettagliate con altre persone.  Coloro che hanno una sottoscrizione a un'applicazione SaaS come Salesforce  si avvantaggeranno connettendosi a Salesforce per creare automaticamente un dashboard in base a tali dati o [dare un'occhiata a tutte le altre applicazioni SaaS](service-get-data.md) a cui è possibile connettersi. Se si fa parte di un'organizzazione, verificare la disponibilità di eventuali [app](service-create-distribute-apps.md) pubblicate automaticamente.
 
@@ -87,7 +87,7 @@ Di seguito è riportato un esempio di recupero di dati da un file CSV. Per segui
 
     ![Opzione Visualizzazione di lettura](media/service-get-started/power-bi-editing-view.png)
 
-    Nella Visualizzazione di modifica è possibile creare e modificare i report perché l'utente è il *proprietario* del report, ovvero un *autore*. Quando si condivide un report con i colleghi, questi ultimi potranno interagire con il report esclusivamente nella Visualizzazione di lettura, perché sono *consumer*. Altre informazioni sulla [Visualizzazione di lettura e sulla Visualizzazione di modifica](consumer/end-user-reading-view.md).
+    Nella Visualizzazione di modifica è possibile creare e modificare i report, perché l'utente è il *proprietario* del report, ovvero un *autore*. Quando si condivide un report con i colleghi, questi ultimi potranno interagire con il report esclusivamente nella Visualizzazione di lettura, perché sono *consumer*. Altre informazioni sulla [Visualizzazione di lettura e sulla Visualizzazione di modifica](consumer/end-user-reading-view.md).
     
     Per acquisire familiarità con l'editor di report, è possibile [visualizzare la presentazione](service-the-report-editor-take-a-tour.md)
    > 
@@ -104,11 +104,11 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
    
    ![Editor di report con icona selezionata](media/service-get-started/gettingstart5new.png)
 
-3. Sembra interessante, quindi la *aggiungeremo* a un dashboard. Passare il puntatore del mouse sulla visualizzazione, quindi selezionare l'icona **Aggiungi**.  Quando si aggiunge una visualizzazione, verrà archiviata nel dashboard e aggiornata automaticamente in modo che sia possibile tenere traccia dell'ultimo valore in modo immediato.
+3. Il grafico sembra interessante, quindi lo si *aggiungerà* a un dashboard. Passare il puntatore del mouse sulla visualizzazione, quindi selezionare l'icona **Aggiungi**.  Quando si aggiunge una visualizzazione, verrà archiviata nel dashboard e aggiornata automaticamente in modo che sia possibile tenere traccia dell'ultimo valore in modo immediato.
    
    ![Icona Aggiungi](media/service-get-started/pinnew.png)
 
-4. Dal momento che si tratta di un nuovo report, è necessario salvarlo prima di poter aggiungere una visualizzazione a un dashboard. Assegnare un nome al report, ad esempio *Sales over time*, e selezionare **Salva e continua**. 
+4. Dato che il report è nuovo, è necessario salvarlo prima di poter aggiungere una visualizzazione a un dashboard. Assegnare un nome al report, ad esempio *Sales over time* e selezionare **Salva e continua**. 
    
    ![Finestra di dialogo Salva report con nome](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -118,7 +118,7 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
    
 1. Selezionare **Aggiungi**.
    
-    Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che è stata aggiunta la visualizzazione, come riquadro, al dashboard.
+    Un messaggio di operazione completata (nell'angolo superiore destro) informa l'utente che la visualizzazione è stata aggiunta, come riquadro, al dashboard.
    
     ![Finestra di dialogo Aggiunto al dashboard](media/service-get-started/power-bi-pin-success.png)
 
