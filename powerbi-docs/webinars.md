@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: 24d023d726183119a3bd098c61db75cb68969c52
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283140"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430994"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -24,7 +24,7 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 Nessun webinar ancora pianificato. Ricontrollare presto per informazioni sugli eventi futuri.
 
->[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
+>[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Webinar in primo piano
 

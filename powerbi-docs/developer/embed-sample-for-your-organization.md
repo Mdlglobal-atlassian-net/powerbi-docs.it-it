@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: 3f2d0913095d61999bb85979770c69725b9f9b88
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b535e3cc42956818fce0c1c127fd775b6b4d4664
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283645"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431293"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Esercitazione: Incorporare un report, un dashboard o un riquadro di Power BI in un'applicazione per l'organizzazione
 
@@ -32,7 +32,7 @@ In questa esercitazione vengono apprese le attività seguenti:
 
 Per iniziare, è necessario un account Power BI Pro e una sottoscrizione Microsoft Azure:
 
-* Se non si è ancora iscritti a Power BI Pro, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/en-us/pricing/) prima di iniziare.
+* Se non si è ancora iscritti a Power BI Pro, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/pricing/) prima di iniziare.
 * Se non si ha una sottoscrizione di Azure, [creare un account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
 * Configurare il proprio [tenant di Azure Active Directory (Azure AD)](create-an-azure-active-directory-tenant.md).
 * Installare [Visual Studio](https://www.visualstudio.com/), 2013 o versione successiva.

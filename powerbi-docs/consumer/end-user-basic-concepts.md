@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 660f76b5bf04f742d435df928e068e434ca70531
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281989"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430603"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i ***consumer***
 
@@ -37,7 +37,7 @@ Per iniziare, è sufficiente aprire un browser e digitare **app.powerbi.com**. Q
 ![Schermata iniziale per il servizio Power BI](media/end-user-basic-concepts/power-bi-open.png)
 
 Man mano che si usa Power BI sarà possibile personalizzare gli elementi visualizzati all'apertura del sito Web.  Ad esempio, alcuni utenti preferiscono che Power BI venga aperto con la home page, altri preferiscono iniziare con un dashboard specifico. Le tecniche corrispondenti sono illustrate di seguito. 
-- [Anteprima Home](https://powerbi.microsoft.com/en-us/blog/introducing-power-bi-home-and-global-search)    
+- [Anteprima Home](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
 - [Impostare il contenuto **in primo piano**](end-user-featured.md) 
 
 ![Visualizzazione della home page e del dashboard](media/end-user-basic-concepts/power-bi-first.png)
@@ -72,7 +72,7 @@ _______________________________________________________
 
 
 
-## <a name="datasets"></a>Datasets
+## <a name="datasets"></a>Set di dati
 Un *set di dati* è una raccolta di dati che i *designer* importano o alla quale si connettono e che quindi usano per creare report e dashboard. In qualità di consumer, l'utente non interagisce direttamente con i set di dati, ma è comunque utile comprendere come questi si integrano nel quadro complessivo.  
 
 Ogni set di dati rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un set di dati di Salesforce. Sono supportate molte origini dati diverse.

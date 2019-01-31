@@ -8,12 +8,12 @@ ms.service: powerbi-service
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280789"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431270"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -70,7 +70,7 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **elenco del contenuto** L'indice del contenuto per un'app.
 
-**pacchetto di contenuto** Una raccolta di set di dati, report e dashboard in pacchetto. Ora **app**. Altre informazioni sulla [nuova esperienza dell'area di lavoro](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
+**pacchetto di contenuto** Una raccolta di set di dati, report e dashboard in pacchetto. Ora **app**. Altre informazioni sulla [nuova esperienza dell'area di lavoro](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **visualizzazione contenuto**
 

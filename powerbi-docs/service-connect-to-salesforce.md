@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008581"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430810"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Connettersi a Salesforce con Power BI
 Con Power BI è possibile connettersi facilmente all'account di Salesforce.com. La creazione di questa connessione consente di recuperare i dati e di disporre automaticamente di un dashboard e dei report correlati basati sui dati.
@@ -61,10 +61,8 @@ Connettersi al [pacchetto di contenuto Salesforce](https://app.powerbi.com/getda
 **Altre operazioni**
 
 * Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
-* [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard <<<<<<< HEAD
-* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante =======
+* [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard
 * [Selezionare un riquadro](service-dashboard-tiles.md) per aprire il report sottostante
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="system-requirements-and-considerations"></a>Requisiti di sistema e considerazioni

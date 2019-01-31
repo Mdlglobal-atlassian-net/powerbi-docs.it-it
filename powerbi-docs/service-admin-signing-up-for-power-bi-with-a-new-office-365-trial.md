@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e603ff1de1a7129280b888d08e9a77d919ebb186
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ad049837dff46058cf703d58720129e1e0742555
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280821"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430465"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Iscrizione a Power BI con una nuova versione di valutazione di Office 365
 
@@ -33,7 +33,7 @@ Questo articolo descrive un modo alternativo per iscriversi a Power BI, con una 
 
 ## <a name="important-considerations"></a>Considerazioni importanti
 
-Con questo metodo di iscrizione viene creato un nuovo tenant aziendale di cui l'utente diventa amministratore. Per altre informazioni, vedere [Che cos'è l'amministrazione di Power BI?](service-admin-administering-power-bi-in-your-organization.md) È possibile aggiungere nuovi utenti al tenant con cui condividere elementi, come descritto nella [documentazione sull'amministrazione di Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
+Con questo metodo di iscrizione viene creato un nuovo tenant aziendale di cui l'utente diventa amministratore. Per altre informazioni, vedere [Che cos'è l'amministrazione di Power BI?](service-admin-administering-power-bi-in-your-organization.md) È possibile aggiungere nuovi utenti al tenant con cui condividere elementi, come descritto nella [documentazione sull'amministrazione di Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

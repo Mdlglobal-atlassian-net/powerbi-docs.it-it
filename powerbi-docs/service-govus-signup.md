@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e37f6f18b182851c3fc2afc2f67de0023bd46382
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7f7681529f9f1ab8883f6b38889e67b8ad5bb81e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276699"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430068"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrare l'organizzazione governativa statunitense al servizio Power BI
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione a pagamento del **servizio Power BI**.
@@ -41,7 +41,7 @@ Se l'organizzazione è un nuovo cliente di **Office Government Cloud**, seguire 
 > La procedura deve essere effettuata dall'amministratore del portale.
 >
 
-1. Passare a [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+1. Passare a [https://products.office.com/government/office-365-web-services-for-government](https://products.office.com/government/office-365-web-services-for-government).
 
 >[!NOTE]
 >Se non si vuole effettuare l'iscrizione a Office Government Cloud al momento, contattare il rappresentante di vendita.

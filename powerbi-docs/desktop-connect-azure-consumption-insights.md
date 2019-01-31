@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282541"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430971"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -70,7 +70,7 @@ Dopo aver specificato la *chiave di accesso* e selezionato **Connetti**, verrà 
 > 
 > 
 
-Quando si seleziona **Carica**, il report viene caricato in **Power BI Desktop**.  Il connettore caricherà i dati in base al periodo di tempo predefinito della tabella.  Se è necessario personalizzare il periodo di tempo [è possibile configurare una query personalizzata](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+Quando si seleziona **Carica**, il report viene caricato in **Power BI Desktop**.  Il connettore caricherà i dati in base al periodo di tempo predefinito della tabella.  Se è necessario personalizzare il periodo di tempo [è possibile configurare una query personalizzata](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 2ceb8440cd64b05966caaadc9346771dd28cba82
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8a5382a5e435f916599b05310f89d9b1f0327023
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281230"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430672"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Test dei pacchetti di contenuto modello per Power BI
 Esistono diversi modi per testare un pacchetto di contenuto prima di inviarlo per la pubblicazione.  
@@ -68,7 +68,7 @@ Si consiglia di denominare il dashboard, il report e il set di dati in modo coer
 <a name="submission"></a>
 
 ## <a name="submission"></a>Invio
-Il processo di invio attraverso [Microsoft AppSource](https://appsource.microsoft.com/en-us/partners/list-an-app) consente di pubblicare il pacchetto di contenuto modello nella raccolta di pacchetti di contenuto del servizio in PowerBI.com, nonché di elencare il pacchetto di contenuto in [Microsoft AppSource](http://appsource.microsoft.com).
+Il processo di invio attraverso [Microsoft AppSource](https://appsource.microsoft.com/partners/list-an-app) consente di pubblicare il pacchetto di contenuto modello nella raccolta di pacchetti di contenuto del servizio in PowerBI.com, nonché di elencare il pacchetto di contenuto in [Microsoft AppSource](http://appsource.microsoft.com).
 
 ### <a name="before-submission"></a>Prima dell'invio
 * Esaminare i suggerimenti di creazione per ciascuno degli elementi all'interno del pacchetto di contenuto
@@ -77,7 +77,7 @@ Il processo di invio attraverso [Microsoft AppSource](https://appsource.microsof
 * Verificare che il pacchetto di contenuto risponda correttamente alle domande e risposte; si consiglia di testare almeno 30 domande diverse nel modello di dati (ignorare questo passaggio se è stato sviluppato un [connettore dati](https://aka.ms/DataConnectors) personalizzato).
 
 ### <a name="submission"></a>Invio
-Quando si è pronti per l'invio, visitare la [pagina di invio di app](https://appsource.microsoft.com/en-us/partners/list-an-app) su AppSource e inviare le informazioni. Assicurarsi di selezionare Power BI dall'elenco dei prodotti disponibili
+Quando si è pronti per l'invio, visitare la [pagina di invio di app](https://appsource.microsoft.com/partners/list-an-app) su AppSource e inviare le informazioni. Assicurarsi di selezionare Power BI dall'elenco dei prodotti disponibili
 
 Il team di Power BI esaminerà l'invio e contatterà l'utente per verificare che tutti gli elementi soddisfino i requisiti di invio. Oltre a verificarne la completezza, verrà anche convalidata la qualità del dashboard e dei report forniti, assicurandosi che soddisfino lo scenario aziendale descritto nell'applicazione.
 

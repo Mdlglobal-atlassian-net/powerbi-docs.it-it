@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: bb626d8afeb999c85d001abaa2e936314cff78e5
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147589"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431063"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -44,7 +44,7 @@ Per abilitare SSO per SAP HANA, seguire innanzitutto questa procedura:
   * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 * Nel computer gateway installare il driver ODBC per HANA più recente di SAP.  La versione minima è la versione ODBC per HANA 2.00.020.00 di agosto 2017.
 
-Per altre informazioni sull'impostazione e configurazione di Single Sign-On per SAP HANA con Kerberos, vedere l'argomento [Single Sign-on Using Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/en-US/1885fad82df943c2a1974f5da0eed66d.html) (Single Sign-on con Kerberos) nella guida alla sicurezza di SAP HANA e i collegamenti da tale pagina, in particolare la nota SAP 1837331 - HOWTO HANA DBSSO Kerberos/Active Directory.
+Per altre informazioni sull'impostazione e configurazione di Single Sign-On per SAP HANA con Kerberos, vedere l'argomento [Single Sign-on Using Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/1885fad82df943c2a1974f5da0eed66d.html) (Single Sign-on con Kerberos) nella guida alla sicurezza di SAP HANA e i collegamenti da tale pagina, in particolare la nota SAP 1837331 - HOWTO HANA DBSSO Kerberos/Active Directory.
 
 ## <a name="preparing-for-kerberos-constrained-delegation"></a>Preparazione della delega vincolata Kerberos
 

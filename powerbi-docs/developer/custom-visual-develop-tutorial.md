@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 6590e442fc5f183213681dc7d10a7d91e87ac35b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282380"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430925"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Esercitazione: Sviluppo di un oggetto visivo personalizzato di Power BI
 
@@ -37,7 +37,7 @@ In questa esercitazione viene illustrato come:
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-* Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/en-us/pricing/) prima di iniziare.
+* Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/pricing/) prima di iniziare.
 * [Visual Studio Code](https://www.visualstudio.com/) installato.
 * È richiesto [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) versione 4 o versioni successive per gli utenti di Windows o il [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) per gli utenti OSX.
 

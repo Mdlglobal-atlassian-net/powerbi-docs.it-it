@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899251"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430787"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway dati locale
 
@@ -91,7 +91,7 @@ Quando si aggiunge un'origine dati al gateway, è necessario fornire le credenzi
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) non è attualmente supportato.
-* L'[accesso online](https://products.office.com/en-us/access) non è attualmente supportato.
+* L'[accesso online](https://products.office.com/access) non è attualmente supportato.
 * Gli script R sono supportati solo quando il gateway viene eseguito in modalità personale.
 
 ## <a name="tenant-level-administration"></a>Amministrazione a livello di tenant
@@ -102,7 +102,7 @@ In alternativa, si consiglia agli amministratori tenant di chiedere agli utenti 
 
 ## <a name="enabling-outbound-azure-connections"></a>Abilitare le connessioni in uscita di Azure
 
-Il gateway dati locale usa il bus di servizio di Azure per la connettività cloud e di conseguenza stabilisce connessioni in uscita all'area di Azure associata. Per impostazione predefinita, questo è il percorso del tenant di Power BI. Vedere [Dove si trova il tenant di Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Il gateway dati locale usa il bus di servizio di Azure per la connettività cloud e di conseguenza stabilisce connessioni in uscita all'area di Azure associata. Per impostazione predefinita, questo è il percorso del tenant di Power BI. Vedere [Dove si trova il tenant di Power BI?](https://powerbi.microsoft.com/documentation/powerbi-admin-where-is-my-tenant-located/)
 Se un firewall blocca le connessioni in uscita, è necessario configurare il firewall per consentire le connessioni in uscita dal gateway dati locale all'area di Azure associata. Per informazioni dettagliate sugli intervalli di indirizzi IP di ogni centro dati Azure, vedere [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653) (Intervalli IP dei data center di Microsoft Azure).
 > [!NOTE]
 > Gli intervalli di indirizzi IP possono variare nel tempo. Scaricare le informazioni più recenti a intervalli regolari. 

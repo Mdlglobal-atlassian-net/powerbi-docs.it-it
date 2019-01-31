@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295375"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430442"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Limiti dei dati per gli oggetti visivi e strategie in base al tipo di oggetto visivo
 
@@ -40,7 +40,7 @@ Per ogni strategia esistono impostazioni predefinite in base alla forma e al tip
 ## <a name="statistics"></a>Statistiche
 Alcuni modelli possono offrire dati statistici sul numero di valori per determinate colonne. Quando tali informazioni sono presenti, vengono sfruttate per offrire un bilanciamento migliorato tra più gerarchie, se un oggetto visivo non sostituisce in modo esplicito il conteggio dei valori per una strategia.
 
-Per altre informazioni, vedere [Novità di Analysis Services](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
+Per altre informazioni, vedere [Novità di Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)
 
 ## <a name="dynamic-limits"></a>Limiti dinamici
 Oltre alle strategie di cui sopra, gli oggetti visivi con due gerarchie di colonne di raggruppamento (asse e legenda o categoria e serie) usano una strategia aggiuntiva denominata *limiti dinamici*.  I limiti dinamici sono progettati per un miglior bilanciamento dei punti dati 
@@ -128,7 +128,7 @@ Nessuna strategia di riduzione
 - Valori: virtualizzazione con finestra di 200 righe alla volta
 
 ### <a name="scatter-chart-high-density"></a>Grafico a dispersione (ad alta densità)
-Vedere [Campionamento ad alta densità nei grafici a dispersione](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts)
+Vedere [Campionamento ad alta densità nei grafici a dispersione](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
 
 ### <a name="pie"></a>Torta
 - Max punti: 3.500

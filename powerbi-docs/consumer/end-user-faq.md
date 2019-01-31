@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394766"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429913"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
@@ -50,7 +50,7 @@ Sono sufficienti un Web browser e un indirizzo di posta elettronica aziendale. �
 Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o di servizi di posta elettronica commerciali. Altre informazioni sul [processo di iscrizione self-service a Power BI](../service-self-service-signup-for-power-bi.md).
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>Sono disponibili prezzi di Power BI per istituti di istruzione, enti pubblici ed enti senza scopo di lucro?
-Sì, i prezzi per gli enti senza scopo di lucro sono disponibili quando si acquista direttamente da Microsoft. È possibile ottenere altre informazioni e iscriversi tramite il [sito Microsoft per le organizzazioni no profit](https://www.microsoft.com/en-us/nonprofits/power-bi). I prezzi per enti pubblici e istituti di istruzione vengono offerti attraverso i programmi di licenza MOSP/Direct, EA e Open. I prezzi per gli enti pubblici sono anche disponibili per il formato di diffusione. 
+Sì, i prezzi per gli enti senza scopo di lucro sono disponibili quando si acquista direttamente da Microsoft. È possibile ottenere altre informazioni e iscriversi tramite il [sito Microsoft per le organizzazioni no profit](https://www.microsoft.com/nonprofits/power-bi). I prezzi per enti pubblici e istituti di istruzione vengono offerti attraverso i programmi di licenza MOSP/Direct, EA e Open. I prezzi per gli enti pubblici sono anche disponibili per il formato di diffusione. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI supporta i dispositivi mobili?
 Sì. Power BI offre app native per telefoni e tablet Android, dispositivi iOS e dispositivi Windows 10. Scaricare una delle [app Power BI per dispositivi mobili](https://powerbi.microsoft.com/mobile) dal rispettivo store:  

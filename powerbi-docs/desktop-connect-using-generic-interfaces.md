@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c1671c820b6de4cddac169c67103168ac46ffc1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c680ebea23c479202b8b49ed0376f2416a9cffa3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296043"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430626"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Connettersi ai dati usando interfacce generiche in Power BI Desktop
 È possibile connettersi a una vasta gamma di origini dati diverse in **Power BI Desktop** usando connettori dati incorporati che vanno dai **database di Access** alle risorse **Zendesk**, come illustrato nella finestra **Recupera dati**. Per espandere le opzioni di connessione è anche possibile connettersi a molti *altri* tipi di origini dati mediante le interfacce generiche (ad esempio **ODBC** o le **API REST**) incorporate in **Power BI Desktop**.
@@ -49,7 +49,7 @@ Nell'elenco seguente sono illustrati alcuni esempi di origini dati a cui **Power
 | Connettore generico di Power BI Desktop | Origine dati esterna | Collegamento per altre informazioni |
 | --- | --- | --- |
 | ODBC |Cassandra |[Driver ODBC di Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
-| ODBC |DB Couchbase |[Couchbase e Power BI](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| ODBC |DB Couchbase |[Couchbase e Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[Driver ODBC di DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[Driver ODBC di BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
 | ODBC |Hbase |[Driver ODBC di Hbase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
@@ -91,7 +91,7 @@ Nell'elenco seguente sono illustrati alcuni esempi di origini dati a cui **Power
 
 | Connettore generico di Power BI Desktop | Origine dati esterna | Collegamento per altre informazioni |
 | --- | --- | --- |
-| API REST |DB Couchbase |[Informazioni sull'API REST di Couchbase](https://powerbi.microsoft.com/en-us/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
+| API REST |DB Couchbase |[Informazioni sull'API REST di Couchbase](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 
 ## <a name="data-sources-accessible-through-r-script"></a>Origini dati accessibili tramite Script R
 È possibile usare **Script R** per accedere alle origini dati e usare tali dati in **Power BI Desktop**.

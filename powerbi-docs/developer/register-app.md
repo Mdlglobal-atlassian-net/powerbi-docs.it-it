@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 96f91eefeab038419ce64e31c7b4b5755d6adf2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c05dddbddc2dd19fed1bfbec25bcd9e378df543f
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286589"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430154"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrare un'app di Azure AD per incorporare il contenuto di Power BI
 
@@ -138,7 +138,7 @@ Oltre a quanto visualizzato nella pagina di registrazione dell'app, abilitare al
 
 ### <a name="applying-permissions-programmatically"></a>Applicazione di autorizzazioni a livello di codice
 
-1. È necessario ottenere le entità servizio (utenti) esistenti all'interno del tenant. Per informazioni su come eseguire questa operazione, vedere [Get servicePrincipal](https://developer.microsoft.com/en-us/graph/docs/api-reference/beta/api/serviceprincipal_get).
+1. È necessario ottenere le entità servizio (utenti) esistenti all'interno del tenant. Per informazioni su come eseguire questa operazione, vedere [Get servicePrincipal](https://developer.microsoft.com/graph/docs/api-reference/beta/api/serviceprincipal_get).
 
     Per ottenere tutte le entità servizio all'interno del tenant è possibile chiamare l'API *Get servicePrincipal* senza {id}.
 2. Cercare un'entità servizio usando l'ID client dell'app come proprietà **appId**.
