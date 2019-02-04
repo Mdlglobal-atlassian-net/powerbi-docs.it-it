@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 74d261098ee8385721a0b72d808a6ecb1b89be7c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2a6fe04f3e905a1e2ce02bceed123b6f117e62c8
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283806"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234440"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -106,10 +106,10 @@ Power BI supporta molti operatori oltre a "**and**". La tabella seguente elenca 
 |**gt**     | maggiore di        |no | sì | sì  | prodotto/prezzo gt 20
 |**le**     |   minore o uguale a      | no | sì | sì  | prodotto/prezzo le 100
 |**lt**     |  minore di       | no | sì | sì |  prodotto/prezzo lt 20
-|**in****     |  incluso       | sì | sì |  sì | Studente/Età in (27, 29)
+|**in\*\***     |  incluso       | sì | sì |  sì | Studente/Età in (27, 29)
 
 
-\** Quando si usa **in**, i valori a destra di **in** possono essere un elenco delimitato da virgole racchiuso tra parentesi o una singola espressione che restituisce una raccolta.
+\*\* Quando si usa **in** i valori a destra di **in** possono essere un elenco delimitato da virgole racchiuso tra parentesi o una singola espressione che restituisce una raccolta.
 
 ### <a name="numeric-data-types"></a>Tipi di dati numerici
 

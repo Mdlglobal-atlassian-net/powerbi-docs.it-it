@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9241c46c368eba094c075efe42d4989c03979125
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296428"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429867"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
 È possibile usare grafici a nastri per visualizzare i dati e individuare rapidamente la categoria di dati di livello più alto (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. 
@@ -23,16 +23,28 @@ ms.locfileid: "54296428"
 ![Grafico a nastri](media/desktop-ribbon-charts/ribbon-charts_01.png)
 
 ## <a name="create-a-ribbon-chart"></a>Creare un grafico a nastri
-Per creare un grafico a nastri, selezionare **Grafico a nastri** nel riquadro **Visualizzazioni**.
+Per seguire la procedura, aprire il [report di esempio di analisi delle vendite al dettaglio](../sample-retail-analysis.md). 
 
-![](media/desktop-ribbon-charts/ribbon-charts_02.png)
+1. Per creare un grafico a nastri, selezionare **Grafico a nastri** nel riquadro **Visualizzazioni**.
 
-I grafici a nastri collegano una categoria di dati in relazione al periodo di tempo visualizzato tramite nastri, consentendo di osservare la posizione di una categoria lungo l'asse X del grafico, che in genere rappresenta la sequenza temporale.
+    ![modelli di visualizzazione](media/desktop-ribbon-charts/ribbon-charts_02.png)
+
+    I grafici a nastri collegano una categoria di dati in relazione al periodo di tempo visualizzato tramite nastri, consentendo di osservare la posizione di una categoria lungo l'asse X del grafico, che in genere rappresenta la sequenza temporale.
+
+2. Selezionare i campi per **Asse**, **Legenda** e **Valore**.  In questo esempio sono state effettuate le selezioni seguenti: **Date** (Data), **Category** (Categoria) e **This year sales** (Vendite anno corrente).  
+
+    ![campi selezionati](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
+
+    Poiché il set di dati contiene dati per un solo anno, il campo **Year** (Anno) è stato rimosso dall'area **Asse**. 
+
+3. Il grafico a nastri visualizza la classifica a mesi alterni. Si noti come la classifica varia nel tempo.  Ad esempio la categoria Home (Casa) passa dal terzo al quarto posto e quindi di nuovo al terzo posto. La categoria Juniors (Ragazzi) passa dal terzo al quinto posto nel mese di luglio. 
+
+    ![Grafico a nastri](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>Formattare un grafico a nastri
 Quando si crea un grafico a nastri, la sezione **Formato** del riquadro **Visualizzazioni** mette a disposizione opzioni di formattazione. Le opzioni di formattazione per i grafici a nastri sono simili a quelle di un istogramma in pila, con opzioni aggiuntive specifiche per i grafici a nastri.
 
-![modello di grafico a nastri nel riquadro Visualizzazione](media/desktop-ribbon-charts/ribbon-charts_03.png)
+![modello di grafico a nastri nel riquadro Visualizzazione](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 Queste opzioni di formattazione per i grafici a nastri consentono di eseguire rettifiche.
 
@@ -40,6 +52,14 @@ Queste opzioni di formattazione per i grafici a nastri consentono di eseguire re
 * **Abbina al colore della serie** consente abbinare il colore dei nastri al colore della serie. Se l'opzione è **disattivata**, i nastri vengono visualizzati in grigio.
 * **Trasparenza** consente di specificare la trasparenza dei nastri, con il valore predefinito impostato su 30.
 * **Bordo** consente di applicare un bordo scuro sulla parte superiore e inferiore dei nastri. Per impostazione predefinita, i bordi sono disattivati.
+
+Dato che il grafico a nastri non dispone di etichette dell'asse y, può risultare utile aggiungere etichette dati. Nel riquadro Formattazione selezionare **Etichette dati**. 
+
+![opzioni di formattazione per le etichette dati](media/desktop-ribbon-charts/power-bi-labels.png)
+
+Impostare le opzioni di formattazione per le etichette dati.  In questo esempio il colore del testo è stato impostato su bianco, le cifre decimali su zero e le unità di visualizzazione su migliaia. 
+
+![modello di grafico a nastri nel riquadro Visualizzazione](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

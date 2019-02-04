@@ -1,5 +1,5 @@
 ---
-title: Utilizzo delle visualizzazioni
+title: Uso delle visualizzazioni come consumer
 description: Concetti e terminologia di Power BI - Visualizzazioni, oggetti visivi. Che cos'è una visualizzazione o un oggetto visivo di Power BI.
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287637"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234348"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Visualizzazioni per i **consumer** di Power BI
 
@@ -53,4 +53,5 @@ Prima di tutto, è importante introdurre la funzionalità Domande e risposte. Do
 
 ## <a name="next-steps"></a>Passaggi successivi
 Tornare a [Concetti di base per i consumer](end-user-basic-concepts.md)    
-[Selezionare una visualizzazione per aprire un report](end-user-report-open.md)
+[Selezionare una visualizzazione per aprire un report](end-user-report-open.md)    
+[Tipi di visualizzazioni disponibili in Power BI](end-user-visual-type.md)

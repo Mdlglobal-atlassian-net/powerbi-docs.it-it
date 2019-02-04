@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292408"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430557"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Visualizzazione dei dati offline nelle app per dispositivi mobili di Power BI
 Si applica a:
@@ -57,6 +57,7 @@ Quando si è offline con Power BI su dispositivo mobile, è possibile riscontrar
 * Intere cartelle di lavoro di Excel in Power BI non sono disponibili offline.
 * È possibile visualizzare report per dispositivi mobili di Reporting Services e indicatori KPI offline, se sono stati visualizzati durante la connessione. Non vengono aggiornati in background, ma ogni volta che vengono aperti.
 * Nelle app per dispositivi mobili di Power BI non è possibile visualizzare i file di Power BI Desktop (con estensione pbix) salvati nel Server di report di Power BI. 
+* I report impaginati (RDL) non sono disponibili mentre la rete è offline.
 
 ## <a name="next-steps"></a>Passaggi successivi
 I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementare in futuro, quindi non perdete l'occasione di votare quali funzionalità vorreste avere a disposizione nelle app per dispositivi mobili di Power BI. 

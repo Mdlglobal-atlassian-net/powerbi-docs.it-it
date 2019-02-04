@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394665"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234532"
 ---
 # <a name="add-comments-to-a-dashboard"></a>Aggiungere commenti a un dashboard
 Aggiungere un commento personale o avviare una conversazione su un dashboard con i colleghi. La funzionalità di **commento** è solo uno dei modi in cui un *utente* può collaborare con altri. 
@@ -73,7 +73,7 @@ I commenti possono essere aggiunti a un intero dashboard o a singoli oggetti vis
 5. Selezionare **Chiudi** per tornare al dashboard o al report.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Richiamare l'attenzione dei colleghi usando il simbolo @
-Quando si creano commenti nel dashboard o si inseriscono commenti in un particolare oggetto visivo, è possibile richiamare l'attenzione dei colleghi usando il simbolo "@".  Quando si digita il simbolo "@", Power BI apre un elenco a discesa in cui è possibile cercare e selezionare i singoli utenti dell'organizzazione. I nomi verificati con il simbolo "@" come prefisso vengono visualizzati in caratteri di colore blu. 
+Quando si creano commenti nel dashboard o si inseriscono commenti in un particolare oggetto visivo, è possibile richiamare l'attenzione dei colleghi usando il simbolo "\@".  Quando si digita il simbolo "\@", Power BI apre un elenco a discesa in cui è possibile cercare e selezionare i singoli utenti dell'organizzazione. I nomi verificati con il simbolo "\@" come prefisso vengono visualizzati in caratteri di colore blu. 
 
 Ecco una mia conversazione con il *responsabile della progettazione* di visualizzazioni. Usa il simbolo @ per essere certo che io veda il commento. So che questo commento è destinato a me. Quando apro il dashboard dell'app in Power BI, seleziono **Commenti** dall'intestazione. Nel riquadro **Commenti** viene visualizzata la nostra conversazione.
 
