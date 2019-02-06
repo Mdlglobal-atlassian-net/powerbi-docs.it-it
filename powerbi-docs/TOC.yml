@@ -1052,7 +1052,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848273
       - name: Download SDK .NET
         href: https://go.microsoft.com/fwlink/?linkid=848274
-- name: server di report di Power BI
+- name: Server di report di Power BI
   items:
   - name: Panoramica
     items:
@@ -1234,8 +1234,10 @@ items:
         href: service-admin-premium-purchase.md
       - name: Gestire Power BI Premium
         href: service-admin-premium-manage.md
-      - name: Monitorare Power BI Premium
+      - name: Monitorare le capacità Premium con l'app
         href: service-admin-premium-monitor-capacity.md
+      - name: Monitorare le capacità Premium nel portale di amministrazione
+        href: service-admin-premium-monitor-portal.md
       - name: Riavviare una capacità Premium
         href: service-admin-premium-restart.md
       - name: Supporto per set di dati di grandi dimensioni
@@ -1299,9 +1301,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
+ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431109"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55760396"
