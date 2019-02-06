@@ -2,21 +2,22 @@
 title: Ottenere un set di dati per aggiungere righe
 description: Procedura dettagliata per il push dei dati - Ottenere un set di dati per aggiungere righe in una tabella di Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430833"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762491"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Passaggio 4: Ottenere un set di dati per aggiungere righe in una tabella di Power BI
+
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
 Nel **passaggio 3** [Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md) della procedura dettagliata per il push dei dati in un set di dati è stata chiamata l'operazione [Create Dataset](https://docs.microsoft.com/rest/api/power-bi/datasets) per creare un set di dati in Power BI. In questo passaggio si usa l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json per ottenere un ID set di dati. Per aggiungere righe a un set di dati viene usato l'ID set di dati ottenuto nel passaggio 4. 
@@ -26,14 +27,13 @@ Per eseguire il push dei dati in un set di dati di Power BI, è necessario fare 
 Ecco come ottenere un set di dati.
 
 ## <a name="get-a-power-bi-dataset"></a>Ottenere un set di dati di Power BI
+
 > **NOTA**: Prima di iniziare, assicurarsi di aver seguito i passaggi precedenti della procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
-> 
-> 
 
 1. Nel progetto Applicazione console creato nel passaggio 2: [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md) della procedura dettagliata per il push dei dati, installare il pacchetto NuGet Newtonsoft.Json. Ecco come installare il pacchetto:
-   
+
      a. In Visual Studio 2015 scegliere **Strumenti** > **Gestione pacchetti NuGet** > **Console di Gestione pacchetti**.
-   
+
      b. In **Console di Gestione pacchetti**immettere Install-Package Newtonsoft.Json.
 2. Dopo l'installazione del pacchetto, aggiungere **using Newtonsoft.Json;** a Program.cs.
 3. In Program.cs aggiungere il codice seguente per ottenere un **ID set di dati**.
@@ -110,6 +110,7 @@ Di seguito è riportato il [listato di codice completo](#code).
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Listato di codice completo
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ Di seguito è riportato il [listato di codice completo](#code).
 [Passaggio successivo >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Aggiungere righe a una tabella di Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [Recupera set di dati](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ Di seguito è riportato il [listato di codice completo](#code).
 [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

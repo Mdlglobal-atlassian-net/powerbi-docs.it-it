@@ -2,21 +2,22 @@
 title: Frammenti di codice per eseguire la migrazione del contenuto da Power BI Embedded
 description: Ecco alcuni frammenti di codice di operazioni di base necessarie per la migrazione del contenuto
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 06/30/2018
-ms.author: maghan
-ms.openlocfilehash: ddb0e95e20a22fd6e7e832c415462504d2ef3652
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: f53549e0a046195c353362368e2e3682df152af9
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429974"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762514"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI
+
 Ecco alcuni frammenti di codice di operazioni di base necessarie per la migrazione del contenuto. Per flussi correlati a determinati tipi di report, vedere [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
 Per agevolare la copia del contenuto da Power BI Embedded (PaaS) al servizio Power BI (SaaS) è disponibile uno **strumento di migrazione**, in particolare se la quantità del contenuto è elevata. Per altre informazioni, vedere [Power BI Embedded migration tool](migrate-tool.md) (Strumento di migrazione di Power BI Embedded).
@@ -25,7 +26,7 @@ Il codice riportato di seguito è un esempio che usa C# e l'[SDK .NET di Power B
 
 Assicurarsi di usare gli spazi dei nomi seguenti per eseguire i frammenti di codice riportati di seguito.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.PowerBI.Api.V1;
 using Microsoft.PowerBI.Api.V1.Models;
@@ -46,8 +47,8 @@ using System.Text;
 using System.Threading.Tasks;
 ```
 
-
 ## <a name="export-report-from-paas-workspace"></a>Esportare i report dall'area di lavoro PaaS
+
 ```
     // Create a token credentials with "AppKey" type
     var credentials = new TokenCredentials(<myAppKey==>, "AppKey");
@@ -72,6 +73,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="import-report-to-saas-workspace"></a>Importare i report nell'area di lavoro SaaS
+
 ```
     AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
@@ -85,6 +87,7 @@ using System.Threading.Tasks;
 ```
 
 ## <a name="extract-directquery-connection-string-from-paas-report"></a>Estrarre la stringa di connessione DirectQuery dal report PaaS
+
 Ciò consente di aggiornare il file PBIX dopo aver eseguito la migrazione a SaaS.
 
 ```
@@ -105,6 +108,7 @@ Ciò consente di aggiornare il file PBIX dopo aver eseguito la migrazione a SaaS
 ```
 
 ## <a name="update-directquery-connection-string-is-saas-workspace"></a>Aggiornare la stringa di connessione DirectQuery nell'area di lavoro SaaS
+
 ```
     public class ConnectionString
     {
@@ -123,6 +127,7 @@ Ciò consente di aggiornare il file PBIX dopo aver eseguito la migrazione a SaaS
 ```
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>Impostare le credenziali di DirectQuery nell'area di lavoro SaaS
+
 In questo frammento di codice per semplicità si usano le credenziali non crittografate, è supportato anche l'invio delle credenziali crittografate.
 
 ```
@@ -159,6 +164,7 @@ In questo frammento di codice per semplicità si usano le credenziali non critto
 ```
 
 ## <a name="push-dataset--report"></a>Report e set di dati push
+
 È necessario ricompilare il report per il set di dati creato.
 
 In questo frammento di codice, si presuppone che il set di dati su cui è possibile eseguire il push si trovi già in un'area di lavoro per le app all'interno dell'ambiente SaaS. Per informazioni sull'API push, vedere [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md).
@@ -223,6 +229,7 @@ In questo frammento di codice, si presuppone che il set di dati su cui è possib
 ```
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Power BI Embedded migration tool](migrate-tool.md) (Strumento di migrazione di Power BI Embedded)  
 [Incorporamento con Power BI](embedding.md)  
 [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI Embedded in Power BI](migrate-from-powerbi-embedded.md)  
@@ -234,4 +241,3 @@ In questo frammento di codice, si presuppone che il set di dati su cui è possib
 [White paper su Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-

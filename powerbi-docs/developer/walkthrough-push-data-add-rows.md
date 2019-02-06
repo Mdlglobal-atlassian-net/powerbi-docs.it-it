@@ -4,19 +4,20 @@ description: Procedura dettagliata per il push dei dati - Aggiungere righe a una
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430489"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761985"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passaggio 5: Aggiungere righe a una tabella di Power BI
+
 Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
 
 Nel **passaggio 4** [Ottenere un set di dati per aggiungere righe in una tabella di Power BI](walkthrough-push-data-get-datasets.md) della procedura per il push dei dati in un set di dati è stata usata l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) e Newtonsoft.Json per ottenere un ID set di dati. In questo passaggio si usa l'ID del set di dati con l'operazione [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) per aggiungere righe a un set di dati di **PowerBI**. 
@@ -28,10 +29,9 @@ Quando si chiama l'operazione [PostRows](https://docs.microsoft.com/rest/api/pow
 Ecco come aggiungere righe a un set di dati usando l'API Power BI
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Aggiungere righe a una tabella di Power BI
+
 > [!NOTE]
 > Prima di iniziare, assicurarsi di aver seguito i passaggi precedenti della procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
-> 
-> 
 
 1. Nel progetto Applicazione console creato nel passaggio 2: Procedura dettagliata per il push dei dati, [Ottenere un token di accesso per l'autenticazione](walkthrough-push-data-get-token.md), aggiungere il codice seguente.
 2. Eseguire l'app console e accedere al proprio account di Power BI. Nella finestra della console dovrebbe comparire **Righe aggiunte** . È anche possibile accedere a Power BI per visualizzare le righe aggiunte al set di dati.
@@ -57,7 +57,8 @@ Aggiungere questo codice in Program.cs.
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * Aggiungere un metodo AddRows():
 
