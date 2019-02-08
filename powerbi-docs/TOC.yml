@@ -870,6 +870,8 @@ items:
       items:
       - name: Procedure consigliate per le prestazioni
         href: developer/embedded-performance-best-practices.md
+      - name: Entità servizio
+        href: developer/embed-service-principal.md
       - name: Sicurezza a livello di riga
         href: developer/embedded-row-level-security.md
       - name: Gestire multi-tenant
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: Registrare un'applicazione
         href: developer/register-app.md
-      - name: Effettuare l'autenticazione a un servizio Power BI
+      - name: Ottenere un token di accesso di Azure AD
         href: developer/get-azuread-access-token.md
       - name: Incorporamento di Domande e risposte
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Aggiungere righe a una tabella
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Crittografare le credenziali
+        href: developer/encrypt-credentials.md
     - name: Riferimento
       items:
       - name: API REST
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Gestire Power BI Premium
         href: service-admin-premium-manage.md
-      - name: Monitorare le capacità Premium con l'app
+      - name: Monitorare le capacità con l'app
         href: service-admin-premium-monitor-capacity.md
-      - name: Monitorare le capacità Premium nel portale di amministrazione
+      - name: Monitorare le capacità nel portale di amministrazione
         href: service-admin-premium-monitor-portal.md
       - name: Riavviare una capacità Premium
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760396"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794487"
