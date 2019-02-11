@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284174"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762698"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
+# <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
 La **sicurezza a livello di riga** può essere usata per limitare l'accesso degli utenti ai dati in dashboard, riquadri, report e set di dati. Utenti diversi possono usare gli stessi artefatti visualizzando al tempo stesso dati diversi. L'incorporamento supporta la sicurezza a livello di riga.
 
@@ -247,7 +247,7 @@ I clienti che mantengono i dati nel **database SQL di Azure** possono ora sfrutt
 
 Quando si genera il token di incorporamento, è possibile specificare l'identità effettiva di un utente in SQL di Azure. È possibile specificare l'identità effettiva di un utente passando il token di accesso AAD al server. Il token di accesso viene usato per eseguire il pull solo dei dati rilevanti per l'utente da SQL di Azure, per la sessione specifica.
 
-Può essere usato per gestire la visualizzazione di ogni utente in SQL di Azure o per accedere a SQL di Azure come un cliente specifico in un database multi-tenant. Può essere usato anche per applicare la sicurezza a livello di riga in tale sessione in SQL di Azure e recuperare solo i dati pertinenti per la sessione, eliminando la necessità di gestire la sicurezza a livello di riga in Power BI.
+Può essere usato per gestire la visualizzazione di ogni utente in SQL di Azure o per accedere a SQL di Azure come un cliente specifico in un database multi-tenant. Può anche applicare la sicurezza a livello di riga in tale sessione in Azure SQL e recuperare solo i dati pertinenti per la sessione, eliminando la necessità di gestire la sicurezza a livello di riga in Power BI.
 
 Questi problemi di identità effettiva si applicano alle regole di sicurezza a livello di riga direttamente in SQL Server di Azure. Power BI Embedded usa il token di accesso fornito durante l'esecuzione di query sui dati da SQL Server di Azure. L'UPN dell'utente (per il quale è stato fornito il token di accesso) è accessibile come risultato della funzione SQL USER_NAME().
 
@@ -308,6 +308,18 @@ Il valore specificato nel BLOB di identità deve essere un token di accesso vali
 
    ![Registrazione dell'app](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Gateway dati locale con entità servizio (anteprima)
+
+I clienti che configurano la sicurezza a livello di riga mediante un'origine dati con connessione dinamica locale SQL Server Analysis Services (SSAS) possono usare la nuova funzionalità [entità servizio](embed-service-principal.md) per la gestione degli utenti e del loro accesso ai dati in SSAS, nel contesto dell'integrazione con **Power BI Embedded**.
+
+Usando le [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/) è possibile specificare l'identità effettiva per le connessioni dinamiche locali SSAS per un token di incorporamento usando un [oggetto entità servizio](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+
+Fino ad ora, per la specifica dell'identità effettiva della connessione dinamica locale SSAS, l'utente master che generava il token di incorporamento doveva essere un amministratore del gateway. Ora non è più obbligatorio che l'utente sia un amministratore del gateway, e per contro l'amministratore del gateway può concedere all'utente autorizzazioni dedicate per l'origine dati specifica. In tal modo l'utente può eseguire l'override dell'identità effettiva durante la generazione del token di incorporamento. Questa nuova funzionalità consente l'incorporamento con l'entità servizio per una connessione dinamica SSAS.
+
+Per abilitare questo scenario, l'amministratore del gateway usa l'[API REST Add Datasource User](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) (Aggiungi utente origine dati) per garantire all'entità servizio l'autorizzazione *ReadOverrideEffectiveIdentity* per Power BI Embedded.
+
+Non è possibile impostare questa autorizzazione tramite il portale di amministrazione. Questa autorizzazione può essere impostata solo tramite l'API. Nel portale di amministrazione viene visualizzata un'indicazione per utenti e SPN con queste autorizzazioni.
+
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 * L'assegnazione di utenti ai ruoli, all'interno del servizio Power BI, non influisce sulla sicurezza a livello di riga quando si usa un token di incorporamento.
@@ -315,7 +327,7 @@ Il valore specificato nel BLOB di identità deve essere un token di accesso vali
 * Sono supportate le connessioni dinamiche ad Analysis Services per i server locali.
 * Le connessioni dinamiche di Azure Analysis Services supportano i filtri in base al ruolo. È possibile applicare filtri dinamici usando CustomData.
 * Se il set di dati sottostante non richiede la sicurezza a livello di riga, la richiesta GenerateToken **non** deve contenere un'identità effettiva.
-* Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo. In caso contrario, non viene eseguita l'assegnazione di ruolo.
+* Se il set di dati sottostante è un modello cloud (modello memorizzato nella cache o DirectQuery), l'identità effettiva deve includere almeno un ruolo; in caso contrario, l'assegnazione ruolo non viene eseguita.
 * Un elenco di identità consente più token di identità per l'incorporamento del dashboard. Per tutti gli altri elementi l'elenco contiene una singola identità.
 
 ### <a name="token-based-identity-limitations-preview"></a>Limitazioni per l'identità basata su token (anteprima)

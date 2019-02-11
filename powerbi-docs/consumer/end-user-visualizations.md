@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234348"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794289"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Visualizzazioni per i **consumer** di Power BI
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>Interagire con le visualizzazioni in report, dashboard e app
 
 Essenzialmente, una ***visualizzazione*** (o *oggetto visivo*) è un tipo di grafico creato dai *progettisti* di Power BI usando i dati contenuti nei *report* e nei *set di dati*. 
 
@@ -27,13 +27,14 @@ Essenzialmente, una ***visualizzazione*** (o *oggetto visivo*) è un tipo di gra
 
 ## <a name="what-can-i-do-with-visualizations"></a>Cosa si può fare con le visualizzazioni?
 
-Le visualizzazioni vengono create dai *progettisti* di report e dashboard e condivise con i *consumer*. In qualità di consumer sono disponibili molte opzioni per interagire con le visualizzazioni per ottenere informazioni dettagliate e prendere decisioni basate sui dati aziendali. Tutte queste opzioni sono elencate di seguito con collegamenti a istruzioni dettagliate.
+Le visualizzazioni vengono create dai *progettisti* di report e dashboard e condivise con i *consumer*. In qualità di consumer sono disponibili molte opzioni per interagire con le visualizzazioni per ottenere informazioni dettagliate e prendere decisioni basate sui dati aziendali. Tutte queste opzioni sono elencate nella tabella seguente con collegamenti a istruzioni dettagliate.
 
-Prima di tutto, è importante introdurre la funzionalità Domande e risposte. Domande e risposte è lo strumento di ricerca in linguaggio naturale di Power BI. Si digita una domanda usando il linguaggio naturale e lo strumento Domande e risposte offre risposte sotto forma di una visualizzazione. Domande e risposte è un modo con cui i consumer possono creare visualizzazioni personalizzate. Tuttavia, le visualizzazioni create con Domande e risposte non possono essere salvate. Se però si vogliono ricavare informazioni specifiche dai dati e il progettista non ha incluso tali informazioni in un report o in un dashboard, lo strumento Domande e risposte è una valida opzione. Per altre informazioni su Domande e risposte, vedere [Domande e risposte per i consumer](end-user-q-and-a.md).
+> [!IMPORTANT]
+> Prima di tutto, è importante introdurre la funzionalità Domande e risposte. Domande e risposte è lo strumento di ricerca in linguaggio naturale di Power BI. Si digita una domanda usando il linguaggio naturale e lo strumento Domande e risposte offre risposte sotto forma di una visualizzazione. Domande e risposte è un modo con cui i consumer possono creare visualizzazioni personalizzate. Tuttavia, le visualizzazioni create con Domande e risposte non possono essere salvate. Se però si vogliono ricavare informazioni specifiche dai dati e il progettista non ha incluso tali informazioni in un report o in un dashboard, lo strumento Domande e risposte è una valida opzione. Per altre informazioni su Domande e risposte, vedere [Domande e risposte per i consumer](end-user-q-and-a.md).
 
 
 
-|Colonna1  |In un dashboard  |In un report  | In Domande e risposte
+|Attività  |In un dashboard  |In un report  | In Domande e risposte
 |---------|---------|---------|--------|
 |[Aggiungere commenti a una visualizzazione per se stessi o avviare una conversazione con i colleghi sulla visualizzazione](end-user-comment.md).     |  sì       |   no      |  no  |
 |[Aprire ed esplorare il report in cui è stata creata la visualizzazione](end-user-tiles.md).     |    sì     |   n/d      |  n/d |

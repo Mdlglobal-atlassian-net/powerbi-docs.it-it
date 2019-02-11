@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431155"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762675"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Esercitazione: Incorporare un dashboard, un riquadro o un report di Power BI nell'applicazione per cloud sovrani
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>Esercitazione: Incorporare un contenuto di Power BI nell'applicazione per i cloud sovrani
 
 Informazioni su come incorporare contenuto analitico all'interno di applicazioni aziendali per cloud sovrani. È possibile usare Power BI .NET SDK con l'API JavaScript di Power BI per incorporare un report, un dashboard o un riquadro in applicazioni Web personalizzate.
 
@@ -37,7 +37,7 @@ I cloud sovrani diversi sono:
 
 ![Dashboard incorporato](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Per eseguire questa procedura dettagliata, è necessario un account **Power BI**. Se non è disponibile un account, a seconda del tipo di cloud sovrano, è possibile registrare un [account di Power BI per il Governo degli Stati Uniti](../service-govus-signup.md), un [account di Power BI per il cloud Germania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o un [account di Power BI per il cloud Cina](http://www.21vbluecloud.com/powerbi/).
+Per eseguire questa procedura dettagliata, è necessario un account **Power BI**. Se non è disponibile un account configurato, è possibile scegliere il cloud sovrano appropriato in base al tipo di ente pubblico o paese. È possibile registrarsi per un [account di Power BI per il Governo degli Stati Uniti](../service-govus-signup.md), un [account di Power BI per il cloud Germania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o un [account di Power BI per il cloud Cina](http://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Se invece si vuole incorporare un dashboard per l'organizzazione, vedere [Integrare un dashboard in un'app per l'organizzazione](integrate-dashboard.md).
@@ -435,7 +435,7 @@ Un'applicazione di esempio è disponibile nell'[esempio di incorporamento per l'
 
 * [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI](migrate-from-powerbi-embedded.md)
 
-Limitazioni e considerazioni
+Considerazioni e limitazioni
 
 * Gli account GCC attualmente supportano solo le capacità P ed EM
 

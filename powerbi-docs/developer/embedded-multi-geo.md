@@ -4,18 +4,17 @@ description: Informazioni su come distribuire contenuto ai data center in aree d
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/31/2018
-LocalizationGroup: Embedded
-ms.openlocfilehash: ab1b0f7ea7dbee13f39fbf47505a00e2ed6d41ea
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280425"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762422"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Supporto di più aree geografiche per Power BI Embedded (anteprima)
 
@@ -56,7 +55,9 @@ Dopo aver creato una nuova capacità, non è possibile modificare la località d
 Per spostare il contenuto di Power BI in un'area diversa, seguire questa procedura:
 
 1. [Creare una nuova capacità](azure-pbie-create-capacity.md) in un'area diversa.
+
 2. Assegnare tutte le aree di lavoro dalla capacità esistente alla nuova capacità.
+
 3. Eliminare o sospendere la capacità precedente.
 
 È importante notare che se si decide di eliminare una capacità senza riassegnare il relativo contenuto, tutto il contenuto in tale capacità viene spostato in una capacità condivisa, ovvero nell'area iniziale.
@@ -66,7 +67,9 @@ Per spostare il contenuto di Power BI in un'area diversa, seguire questa procedu
 Per supportare la gestione delle capacità con più aree geografiche tramite API, sono state apportate alcune modifiche alle API esistenti:
 
 1. **[Get Capacities](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** -L'API restituisce un elenco di capacità con accesso all'utente. La risposta include ora una proprietà aggiuntiva denominata 'region', che specifica la località della capacità.
-2. **[Assign To Capacity](https://docs.microsoft.com/rest/api/power-bi/capacities)**  -L'API consente l'assegnazione di un'area di lavoro a una capacità. Questa operazione non consente di assegnare le aree di lavoro a una capacità all'esterno dell'area iniziale o di spostare aree di lavoro tra le capacità in aree diverse. Per eseguire questa operazione, l'utente necessita ancora delle autorizzazioni di amministratore per l'area di lavoro e delle autorizzazioni di amministratore o per l'assegnazione per la capacità di destinazione.
+
+2. **[Assign To Capacity](https://docs.microsoft.com/rest/api/power-bi/capacities)**  -L'API consente l'assegnazione di un'area di lavoro a una capacità. Questa operazione non consente di assegnare le aree di lavoro a una capacità all'esterno dell'area iniziale o di spostare aree di lavoro tra le capacità in aree diverse. Per eseguire questa operazione, l'utente o l'[entità servizio](embed-service-principal.md) necessita ancora delle autorizzazioni di amministratore per l'area di lavoro e delle autorizzazioni di amministratore o per l'assegnazione per la capacità di destinazione.
+
 3. **[API di Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)**  - Tutte le operazioni dell'API di Azure Resource Manager, tra cui *Create* e *Delete*, supportano più aree geografiche.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni

@@ -9,28 +9,28 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291626"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794720"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Panoramica sul manuale per lo sviluppatore, Server di report di Power BI
 Benvenuti nel manuale per lo sviluppatore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-Questo manuale evidenzierà le opzioni disponibili, come sviluppatore, per utilizzare il server di report di Power BI.
+Questo manuale evidenzia le opzioni disponibili agli sviluppatori per l'uso del server di report di Power BI.
 
 ## <a name="embedding"></a>Incorporamento
-Per qualsiasi report nel server di report di Power BI è possibile incorporare in un iFrame aggiungendo il parametro querystring `?rs:Embed=true` all'URL. Questa operazione funziona con i report di Power BI, nonché con altri tipi di report.
+Per qualsiasi report nel server di report di Power BI è possibile incorporare in un iFrame aggiungendo il parametro querystring `?rs:Embed=true` all'URL. Questa tecnica funziona con i report di Power BI e con altri tipi di report.
 
 ### <a name="report-viewer-control"></a>Controllo Visualizzatore report
-Per i report impaginati, è possibile sfruttare il controllo Visualizzatore Report. Ciò consente di posizionare il controllo all'interno di un'applicazione Web o di Windows .NET. Per altre informazioni, vedere [Introduzione al controllo Visualizzatore Report](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+Per i report impaginati, è possibile sfruttare il controllo Visualizzatore Report. È possibile posizionare il controllo all'interno di un'applicazione .NET Windows o Web. Per altre informazioni, vedere [Introduzione al controllo Visualizzatore Report](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 ## <a name="apis"></a>API
-Sono disponibili diverse opzioni di API per l'interazione con il server di report di Power BI, incluse le seguenti.
+Sono disponibili diverse opzioni di API per l'interazione con il server di report di Power BI, tra cui:
 
 * [API REST](rest-api.md)
 * [Accesso con URL](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
@@ -39,7 +39,7 @@ Sono disponibili diverse opzioni di API per l'interazione con il server di repor
 È anche possibile usare le [utilità PowerShell](https://github.com/Microsoft/ReportingServicesTools) open source per gestire il server di report.
 
 > [!NOTE]
-> Le utilità PowerShell attualmente non supportano i file di Power BI Desktop (con estensione pbix).
+> Attualmente le utilità PowerShell non supportano i file di Power BI Desktop (con estensione pbix).
 > 
 > 
 

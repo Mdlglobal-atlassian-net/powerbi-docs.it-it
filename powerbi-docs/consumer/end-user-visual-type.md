@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234634"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794842"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 Le visualizzazioni sono disponibili in report, dashboard, app e Domande e risposte. Alcuni tipi di visualizzazione sono inclusi in Power BI, mentre altri sono *oggetti visivi personalizzati*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dalle *finestre di progettazione dei report* ai report, ai dashboard e alle app di Power BI. 
@@ -26,7 +26,7 @@ Questo articolo offre una panoramica delle visualizzazioni incluse in Power BI. 
 > Per informazioni sugli oggetti visivi personalizzati, cercare gli oggetti nella sezione **Power BI visuals** (Oggetti visivi di Power BI) di [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Per ogni oggetto visivo, verrà visualizzata la descrizione, le informazioni sull'autore e gli screenshot o un video. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Elenco delle visualizzazioni disponibili in Power BI
-Tutte queste visualizzazioni possono essere incluse nelle app, nei dashboard, nei report di Power BI e [specificate in Domande e risposte](#gna).
+Tutte queste visualizzazioni possono essere incluse nelle app, nei dashboard, nei report di Power BI e [specificate in Domande e risposte](#qna). Per informazioni sull'interazione con le visualizzazioni, vedere [Interagire con le visualizzazioni in report, dashboard e app](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Grafici ad area: di base (su più livelli) e in pila
 ![grafico ad area](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Quando si digitano query in linguaggio naturale con le Domande e risposte di Pow
 ![sessione domande e risposte](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Visualizzazioni nei report di Power BI](end-user-visualizations.md)    
+[Interagire con le visualizzazioni in report, dashboard e app](end-user-visualizations.md)    
 [Riferimento all'oggetto visivo a destra da sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

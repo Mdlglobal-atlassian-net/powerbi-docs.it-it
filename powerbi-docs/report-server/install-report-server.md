@@ -2,19 +2,19 @@
 title: Installare il server di report di Power BI
 description: Informazioni su come installare il server di report di Power BI.
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.author: maggies
-ms.openlocfilehash: 78d4db9d5a6b4752005bd43b31b2ca0dbaa0c1da
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bf204fe3ee9dcff83a6e2c964196a85daf547d74
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292386"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762583"
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
 
@@ -25,58 +25,62 @@ Informazioni su come installare il server di report di Power BI.
 Per scaricare il server di report di Power BI, vedere [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/) e selezionare **Scarica la versione di valutazione gratuita**. 
 
 ## <a name="before-you-begin"></a>Prima di iniziare
+
 Prima di installare il server di report di Power BI è consigliabile esaminare i [requisiti hardware e software per l'installazione del server di report di Power BI](system-requirements.md).
 
  > [!IMPORTANT]
  > Anche se è possibile installare Server di report di Power BI in un ambiente con un controller di dominio di sola lettura (RODC), Server di report di Power BI deve avere accesso a un controller di dominio di lettura/scrittura per funzionare correttamente. Se Server di report di Power BI può accedere solo a un controller di dominio di sola lettura, potrebbero verificare errori quando si prova ad amministrare il servizio.
 
-
 ### <a name="power-bi-report-server-product-key"></a>Codice Product Key del Server di report Power BI
 
 #### <a name="power-bi-premium"></a>Power BI Premium
+
 Se è stato acquistato Power BI Premium, nella scheda **Impostazioni Premium** del portale di amministratore di Power BI si ha accesso al codice Product Key del server di report di Power BI. Questo è disponibile solo per gli amministratori globali o per gli utenti a cui è stato assegnato il ruolo di amministratore del servizio Power BI.
 
-![](../media/service-admin-premium-manage/pbirs-product-key.png "Codice Product Key del Server di report di Power BI all'interno di Impostazioni Premium")
+![Impostazioni Premium](../media/service-admin-premium-manage/pbirs-product-key.png "Codice Product Key del Server di report di Power BI all'interno di Impostazioni Premium")
 
 Se si seleziona **Chiave del server di report di Power BI** viene visualizzata una finestra di dialogo con il codice Product Key. È possibile copiarlo e usarlo durante l'installazione.
 
-![](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Codice Product Key del Server di report di Power BI")
+![Codice Product key](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Codice Product Key del Server di report di Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
+
 Se si dispone di un contratto SQL Server Enterprise SA, è possibile ottenere il codice Product Key dal [Centro servizi per contratti multilicenza](https://www.microsoft.com/Licensing/servicecenter/).
 
 ## <a name="install-your-report-server"></a>Installare il server di report
+
 L'installazione del server di report di Power BI è molto semplice e richiede solo pochi passaggi.
 
 Al momento dell'installazione non è necessario un server del motore di database di SQL Server, ma ne servirà uno per configurare Reporting Services dopo l'installazione.
 
 1. Cercare il percorso di PowerBIReportServer.exe e avviare il programma di installazione.
+
 2. Selezionare **Install Power BI Report Server**.
-   
+
     ![Installare il server di report di Power BI](media/install-report-server/pbireportserver-install.png)
 3. Scegliere una versione da installare e quindi selezionare **Next**.
-   
+
     ![Scegliere una versione](media/install-report-server/pbireportserver-choose-edition.png)
-   
+
     È possibile scegliere la versione Evaluation o Developer nell'elenco a discesa.
-   
-    ![](media/install-report-server/pbireportserver-choose-edition2.png)
-   
+
+    ![Edizione 2](media/install-report-server/pbireportserver-choose-edition2.png)
+
     Altrimenti, è possibile immettere un codice Product Key per il server acquistato dal servizio Power BI o dal Centro servizi per contratti multilicenza. Per altre informazioni su come ottenere il codice Product Key, vedere la sezione [Prima di iniziare](#before-you-begin).
 4. Leggere e accettare i termini e le condizioni di licenza, quindi selezionare **Next**.
-   
+
     ![Condizioni di licenza](media/install-report-server/pbireportserver-eula.png)
 5. È necessario avere un motore di database per archiviare il database del server di report. Selezionare **Next** per installare solo il server di report.
-   
+
     ![Installare solo i file](media/install-report-server/pbireportserver-install-files-only.png)
 6. Specificare il percorso di installazione del server di report. Selezionare **Install** per continuare.
-   
+
     ![Specificare il percorso di installazione](media/install-report-server/pbireportserver-install-file-path.png)
-   
+
     Il percorso predefinito è C:\Programmi\Server di report di Power BI.
 
-1. Dopo la corretta installazione, selezionare **Configure Report Server** per avviare Reporting Services Configuration Manager.
-   
+7. Dopo la corretta installazione, selezionare **Configure Report Server** per avviare Reporting Services Configuration Manager.
+
     ![Configurare il server di report](media/install-report-server/pbireportserver-configure.png)
 
 ## <a name="configuring-your-report-server"></a>Configurazione del server di report
@@ -86,6 +90,7 @@ Dopo la selezione di **Configura Report Server** nel programma di installazione,
 È necessario [creare un database del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) per completare la configurazione iniziale di Reporting Services. Per completare questo passaggio è necessario un server di Database SQL Server.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Creazione di un database in un server diverso
+
 Se si sta creando il database del server di report in un server di database in un computer diverso, è necessario modificare l'account di servizio del server di report in credenziali riconosciute nel server di database. 
 
 Per impostazione predefinita, il server di report usa l'account del servizio virtuale. Se si prova a creare un database in un server diverso, potrebbe verificarsi l'errore seguente durante il passaggio Applicazione dei diritti di connessione.
@@ -99,6 +104,7 @@ Per risolvere l'errore, è possibile modificare l'account del servizio in un acc
 Per altre informazioni, vedere [Configurare l'account del servizio del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager).
 
 ## <a name="windows-service"></a>Servizio di Windows
+
 Un servizio di Windows viene creato come parte dell'installazione. Viene visualizzato come **Server di report di Power BI**. Il nome del servizio è **PowerBIReportServer**.
 
 ![Servizio di Windows del server di report](media/install-report-server/pbireportserver-windows-service.png)
@@ -106,6 +112,7 @@ Un servizio di Windows viene creato come parte dell'installazione. Viene visuali
 ![Proprietà del servizio di Windows del server di report](media/install-report-server/pbireportserver-windows-service2.png)
 
 ## <a name="default-url-reservations"></a>Prenotazioni URL predefinite
+
 Le prenotazioni URL sono composte da un prefisso, un nome host, una porta e una directory virtuale:
 
 | Parte | Descrizione |
@@ -121,16 +128,19 @@ Un esempio di stringa dell'URL completa potrebbe essere come segue:
 * `http://+:80/reports`, fornisce l'accesso al portale Web.
 
 ## <a name="firewall"></a>Firewall
+
 Se si accede al server di report da un computer remoto, è consigliabile assicurarsi di aver configurato le regole del firewall, se è presente.
 
 È necessario aprire la porta TCP che è stata configurata per l'URL del servizio Web e l'URL del portale Web. Per impostazione predefinita, questi vengono configurati sulla porta TCP 80.
 
 ## <a name="additional-configuration"></a>Configurazione aggiuntiva
+
 * Per configurare l'integrazione con il servizio Power BI in modo che sia possibile aggiungere elementi del report a un dashboard di Power BI, vedere [Integrazione con il servizio Power BI](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager).
 * Per configurare la posta elettronica per l'elaborazione di sottoscrizioni, vedere [Impostazioni di posta elettronica](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) e [Recapito di posta elettronica in un server di report](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services).
 * Per configurare il portale Web in modo che sia possibile accedervi in un computer di report per visualizzare e gestire report, vedere [Configurare un firewall per l'accesso ai server di report](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) e [Configurare un server di report per l'amministrazione remota](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration).
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Come trovare il codice Product Key del server di report](find-product-key.md)  
 [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
@@ -144,4 +154,3 @@ Se si accede al server di report da un computer remoto, è consigliabile assicur
 [Supporto del browser per il server di report di Power BI](browser-support.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-
