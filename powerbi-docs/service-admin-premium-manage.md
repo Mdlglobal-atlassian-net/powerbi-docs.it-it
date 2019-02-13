@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 02/07/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 82c1a719e757e471b5c278cb26132a3629ca0d74
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 2a38d53a121f0a58c18f627370bf81413cf36982
+ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794221"
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "55888211"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gestire capacità all'interno di Power BI Premium e Power BI Embedded
 
@@ -25,11 +25,11 @@ Informazioni su come gestire le capacità Power BI Premium e Power BI Embedded c
 
 ## <a name="what-is-capacity"></a>Che cos'è la capacità?
 
-Il concetto di *capacità* è al cuore delle offerte di Power BI Premium e Power BI Embedded. Si tratta del set di risorse riservate per l'uso esclusivo da parte dell'organizzazione. La capacità dedicata consente di pubblicare dashboard, report e set di dati per gli utenti dell'organizzazione senza dover acquistare licenze individuali, nonché di offrire prestazioni affidabili e coerenti per il contenuto ospitato nella capacità. Per altre informazioni, vedere [What is Power BI Pro?](service-premium.md) (Che cos'è Power BI Pro?).
+Il concetto di *capacità* è al cuore delle offerte di Power BI Premium e Power BI Embedded. Si tratta di un set di risorse riservate per l'uso esclusivo da parte dell'organizzazione. La capacità dedicata consente di pubblicare dashboard, report e set di dati per gli utenti dell'organizzazione senza dover acquistare licenze individuali, nonché di offrire prestazioni affidabili e coerenti per il contenuto ospitato nella capacità. Per altre informazioni, vedere [What is Power BI Pro?](service-premium.md) (Che cos'è Power BI Pro?).
 
 ### <a name="capacity-admins"></a>Amministratori della capacità
 
-Quando l'utente viene assegnato come *amministratore della capacità*, ha il controllo completo su tale capacità e sulle relative funzionalità amministrative. Dall'interfaccia di amministrazione di Power BI è possibile aggiungere altri amministratori di capacità o concedere agli utenti autorizzazioni di assegnazione della capacità. È possibile assegnare in blocco le aree di lavoro a una capacità e visualizzare le metriche di utilizzo di una capacità.
+Quando l'utente viene assegnato come *amministratore della capacità*, ha il controllo completo su tale capacità e sulle relative funzionalità amministrative. Dall'interfaccia di amministrazione di Power BI è possibile aggiungere altri amministratori di capacità o concedere agli utenti autorizzazioni di assegnazione della capacità. È possibile assegnare in blocco le aree di lavoro a una capacità e visualizzare le metriche di utilizzo per una capacità.
 
 > [!NOTE]
 > Per Power BI Embedded, gli amministratori della capacità vengono definiti nel portale di Microsoft Azure.

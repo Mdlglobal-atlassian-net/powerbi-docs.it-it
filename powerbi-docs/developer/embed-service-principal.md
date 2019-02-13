@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763096"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971672"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entità servizio con Power BI (anteprima)
 
@@ -108,9 +108,6 @@ A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entit�
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > I gruppi di sicurezza di AAD possono essere creati solo da un amministratore globale di AAD.
-
 3. L'amministratore di Power BI deve abilitare l'entità servizio in **Impostazioni modalità sviluppatore** nel portale di amministrazione di Power BI. Aggiungere il gruppo di sicurezza creato in Azure AD alla sezione **Gruppi di sicurezza specifici** in **Impostazioni modalità sviluppatore**.
 
    > [!Important]
@@ -173,6 +170,7 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 * Per abilitare l'entità servizio nelle impostazioni sviluppatore all'interno del portale di amministrazione di Power BI sono necessari i diritti di amministratore di Power BI.
 * Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non sono in grado di usare l'entità servizio.
+* La gestione dei [flussi di dati](../service-dataflows-overview.md) non è supportata.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

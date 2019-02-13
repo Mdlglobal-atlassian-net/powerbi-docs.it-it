@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147405"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971695"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Presentazione dell'editor di report in Power BI
 
-L'*editor di report* disponibile nel servizio Power BI e quello in Power BI Desktop sono simili. Il video mostra l'editor di report in Power BI Desktop e questo articolo illustra l'editor di report nel servizio Power BI. 
+L'*editor di report* disponibile nel servizio Power BI e quello in Power BI Desktop sono simili. In genere si inizia creando i report in Power BI Desktop. I report vengono poi pubblicati nel servizio Power BI, dove è possibile continuare a modificarli. Il servizio Power BI è anche la posizione in cui si creano i dashboard basati sui report.
 
-Gli autori di report creano e modificano dashboard e report, quindi li distribuiscono agli utenti dei report. Gli utenti possono interagire con i dashboard e i report nella visualizzazione di lettura nel servizio Power BI, ma non possono modificarli. Altre informazioni su [cosa possono fare gli utenti dei report nel servizio Power BI](consumer/end-user-reading-view.md) 
+Dopo aver creato i dashboard e i report, è possibile distribuirli ai consumer dei report. A seconda del modo in cui vengono condivisi, gli utenti finali potrebbero essere in grado di interagire con i report nella visualizzazione di lettura nel servizio Power BI, ma non di modificarli. Altre informazioni su [cosa possono fare i consumer dei report nel servizio Power BI](consumer/end-user-reading-view.md). 
+
+Questo video illustra l'editor di report in Power BI Desktop. Questo articolo illustra l'editor di report nel servizio Power BI. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -90,6 +92,12 @@ Il riquadro Filtri offre anche un'altra potente funzionalità, ovvero la possibi
 ![Riquadro Filtri](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Per altre informazioni, vedere [Aggiungere un filtro a un report](power-bi-report-add-filter.md).
+
+Una nuova esperienza di filtro è attualmente in anteprima. I nuovi filtri possono essere formattati in modo che abbiano un aspetto simile al report. È anche possibile bloccare i filtri o nasconderli dai consumer dei report. 
+
+![Nuova esperienza di filtro](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+Per altre informazioni, vedere [Nuova esperienza di filtro](power-bi-report-filter-preview.md).
 
 - - -
 ## <a name="the-fields-pane"></a>Riquadro Campi

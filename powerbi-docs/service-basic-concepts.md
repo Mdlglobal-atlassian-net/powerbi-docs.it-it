@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147451"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971718"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
-Questo articolo presuppone che l'[iscrizione al servizio Power BI](service-self-service-signup-for-power-bi.md) sia già stata effettuata e che siano stati [aggiunti alcuni dati](service-get-data.md). Se non sono ancora presenti dati, provare a installare un [pacchetto di contenuto di esempio di Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
+L'obiettivo di questo articolo è consentire agli utenti di orientarsi meglio all'interno nel servizio Power BI: che cosa sono i diversi elementi, come interagiscono e come è possibile usarli. È possibile sfruttare al meglio queste informazioni se è già stata effettuata l'[iscrizione al servizio Power BI](service-self-service-signup-for-power-bi.md) e sono già stati [aggiunti alcuni dati](service-get-data.md). Il flusso di lavoro tipico di un progettista inizia in genere dalla creazione di report in Power BI Desktop. I report vengono poi pubblicati nel servizio Power BI, dove è possibile continuare a modificarli. È anche possibile creare dashboard basati sui report nel servizio Power BI. 
+
+Per questo articolo, se non sono ancora disponibili report personali, provare a installare un [pacchetto di contenuto di esempio di Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
 
 ![Schermata iniziale del servizio Power BI in un browser](media/service-basic-concepts/power-bi-home-screen.png)
 
-Di seguito sono riportati gli elementi visualizzati quando si apre il servizio Power BI nel browser:
+Quando si apre il servizio Power BI in un browser, si inizia dalla schermata Home. Ecco gli elementi che potrebbero essere visualizzati:
 
 1. Riquadro di spostamento a sinistra
 2. Icona di avvio delle app di Office 365
@@ -34,9 +36,9 @@ Di seguito sono riportati gli elementi visualizzati quando si apre il servizio P
 6. Riquadri di un dashboard preferito
 7. Dashboard e report preferiti usati di frequente
 
-Queste funzionalità verranno illustrate più avanti. Per il momento verranno presi in esame alcuni concetti di Power BI.
+Gli utenti finali per i report e i dashboard hanno la stessa esperienza di avvio nel servizio Power BI in un browser.
 
-In alternativa è possibile guardare questo video prima di leggere il resto dell'articolo.  Nel video si esamineranno i concetti di base e verrà fornita una panoramica del servizio Power BI.
+Queste funzionalità verranno illustrate più avanti. Per il momento verranno presi in esame alcuni concetti di Power BI. In alternativa, è possibile guardare questo video prima di tutto.  Nel video vengono presentati i concetti di base e viene offerta una panoramica del servizio Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -44,18 +46,17 @@ In alternativa è possibile guardare questo video prima di leggere il resto dell
 ## <a name="power-bi-concepts"></a>Concetti di Power BI
 I quattro elementi fondamentali di Power BI sono: **_dashboard_**, **_report_**, **_cartelle di lavoro_** e **_set di dati_**. Questi elementi sono organizzati in **_aree di lavoro_**. È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
 
-## <a name="workspaces"></a>Aree di lavoro
-Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per l'organizzazione. Le app sono interattive ma non possono essere modificate.
+## <a name="workspaces"></a>Workspaces
+Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per gli utenti finali di Power BI dell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle.
 
 - L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro per le app.      
 -  Le *aree di lavoro per le app* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro per le app e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri delle aree di lavoro per le app necessitano di licenze di Power BI Pro, ma gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente disporre di una licenza Pro.  
 
-Per altre informazioni, vedere la sezione **Condividere il lavoro** del sommario, iniziando da [Come collaborare e condividere dashboard e report](service-how-to-collaborate-distribute-dashboards-reports.md)
-
+Per altre informazioni, iniziare con [Modalità per la condivisione del lavoro in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Ora verranno approfonditi gli elementi fondamentali di Power BI. Poiché i dashboard o i report sono utili solo quando contengono dati, vengono ora descritti i **set di dati**.
 
-## <a name="datasets"></a>Set di dati
+## <a name="datasets"></a>Datasets
 Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione.  
 
 I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. [Fare clic sul collegamento per visualizzare l'elenco dei tipi di set di dati utilizzabili con Power BI](service-get-data.md).
@@ -72,7 +73,7 @@ Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite 
 
   ![Diagramma del set di dati](media/service-basic-concepts/drawing2.png)
 
-Per [connettersi a un set di dati o importarlo](service-get-data.md), selezionare **Recupera dati** (nella parte inferiore della barra di spostamento) oppure selezionare **+ Crea > Set di dati** nell'angolo in alto a destra. Seguire le istruzioni per la connessione o l'importazione dell'origine specifica e aggiungere il set di dati all'area di lavoro attiva. I nuovi set di dati sono contrassegnati con un asterisco giallo. Le operazioni effettuate in Power BI non comportano la modifica del set di dati sottostante.
+Per [connettersi o importare un set di dati](service-get-data.md), selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento a sinistra. Seguire le istruzioni per la connessione o l'importazione dell'origine specifica e aggiungere il set di dati all'area di lavoro attiva. I nuovi set di dati sono contrassegnati con un asterisco giallo. Le operazioni effettuate in Power BI non comportano la modifica del set di dati sottostante.
 
 Se si [fa parte di un'**_area di lavoro per le app_**](service-collaborate-power-bi-workspace.md), i set di dati aggiunti da un membro dell'area di lavoro sono disponibili per gli altri membri dell'area di lavoro.
 
