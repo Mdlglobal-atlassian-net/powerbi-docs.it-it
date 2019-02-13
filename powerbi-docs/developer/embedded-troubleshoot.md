@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762100"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223836"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Risolvere i problemi dell'applicazione incorporata
 
@@ -161,7 +161,7 @@ Per verificare qual è la causa, seguire questa procedura.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: The grant requires admin permission (La concessione richiede l'autorizzazione di amministratore)
 
-**_Sintomi:_**</br>
+**_Sintomi:_**<br>
 Quando un utente non amministratore tenta di accedere a un'applicazione per la prima volta e di concedere l'autorizzazione, si verifica uno degli errori seguenti:
 
 * Per accedere alle risorse aziendali, ConsentTest necessita di un'autorizzazione che può essere concessa solo da un amministratore. Prima di usarla, è necessario chiedere a un amministratore di concedere l'autorizzazione a questa app.
@@ -171,7 +171,7 @@ Quando un utente non amministratore tenta di accedere a un'applicazione per la p
 
 Un utente amministratore può accedere e concedere l'autorizzazione correttamente.
 
-**_Causa principale:_**</br>
+**_Causa principale:_**<br>
 Il consenso dell'utente è disabilitato per il tenant.
 
 **_Sono possibili diverse correzioni:_**

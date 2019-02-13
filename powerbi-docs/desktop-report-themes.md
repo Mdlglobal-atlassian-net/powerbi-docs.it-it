@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277435"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215736"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato. Ci sono alcune eccezioni, che vengono descritte più avanti in questo articolo.
@@ -101,6 +101,7 @@ Per applicare uno stile a un oggetto visivo **tabella** o **matrice**, eseguire 
 
 Di seguito è riportato il testo del file *St Patrick's Day.json* che è possibile usare per creare un file JSON personalizzato:
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ Di seguito è riportato il testo del file *St Patrick's Day.json* che è possibi
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 Da qui è possibile immettere il codice colore hexcode personalizzato per i colori selezionati.
 
@@ -158,6 +160,7 @@ Si vuole provare subito a usare i **temi dei report**? Ecco alcuni file JSON dei
 
 Invece di un download, in questo caso viene fornito il codice per il file JSON del tema di San Valentino:
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ Invece di un download, in questo caso viene fornito il codice per il file JSON d
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 Con i **temi dei report** è possibile aggiungere un tocco creativo ai report di Power BI Desktop applicando i colori preferiti dall'utente o dall'organizzazione o quelli caratteristici di una stagione o di una festività. 
 
@@ -262,7 +266,7 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | fill: Riempimento |
 | fillPoint: Punto di riempimento |
 | forecast: Previsione |
-| general: Generale |
+| general: Generali |
 | goals: Obiettivi |
 | grid: Griglia |
 | header: Intestazione |
@@ -303,7 +307,8 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 ### <a name="properties-within-each-card"></a>Proprietà in ogni scheda
 La sezione seguente definisce le proprietà in ogni scheda:
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ La sezione seguente definisce le proprietà in ogni scheda:
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>Enumerazioni nel file JSON
 La sezione seguente definisce le enumerazioni che è possibile usare nel file JSON.
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ La sezione seguente definisce le enumerazioni che è possibile usare nel file JS
          ]
        }
     }
+```

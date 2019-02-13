@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 2a65baf94abcb79dac7bb9419ad67124f2b65bb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 27f08b9922508866f190fc41848cb77031a91c6b
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488938"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216793"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -102,7 +102,7 @@ La funzionalità delle descrizioni comando per le pagine del report è inclusa n
 >[!Note]
 >Questo scenario è supportato solo quando SAP HANA viene considerato come origine dati relazionale con i report creati in Power BI Desktop.  Per abilitare questa opzione in Power BI Desktop, nel menu DirectQuery in Opzioni selezionare "Considerare SAP HANA come origine relazionale" e fare clic su OK.
 
-#### <a name="custom-visuals"></a>Elementi visivi personalizzati
+#### <a name="custom-visuals"></a>Oggetti visivi personalizzati
 
 - La versione dell'API fornita con questa versione è 1.13.0.
 
@@ -292,7 +292,7 @@ Gli amministratori possono configurare le proprietà seguenti in Proprietà avan
 
 **File di configurazione rsreportserver.config**
 
-```
+```xml
 <Configuration>
   <Service>
     <PollingInterval>10</PollingInterval>

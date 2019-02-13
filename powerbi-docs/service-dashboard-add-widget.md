@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287072"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215713"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
 ## <a name="tips-for-embedding-web-content"></a>Suggerimenti per l'incorporamento di contenuto Web
 * Per iframes, usare un'origine sicura. Se si immette il codice di incorporamento iframe codice e si ottiene un riquadro vuoto, controllare se è usato **http** per l'origine iframe.  In questo caso, modificarlo in **https**.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * Modificare le informazioni su larghezza e altezza. Questo codice incorpora un video e imposta il lettore video su 560 x 315 pixel.  Queste dimensioni non cambierà quando si ridimensiona il riquadro.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
   
   Se si vuole ridimensionare il lettore per adattarlo ai riquadri, impostare larghezza e altezza su 100%.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * Questo codice incorpora un tweet e mantiene nel dashboard dei collegamenti separati per podcast **AFK**, **la pagina di Twitter di @GuyInACube**, **Segui**, **#analytics**, **risposta**, **retweet** e **mi piace**.  Selezionando il riquadro si raggiunge il podcast su Twitter.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

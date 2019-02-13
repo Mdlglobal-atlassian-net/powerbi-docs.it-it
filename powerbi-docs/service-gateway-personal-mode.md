@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef8146501969697b15a3d1ff3cae2c605cabaacc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295748"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216816"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway dati locale (modalità personale)
 È possibile usare origini dati locali e creare report e dashboard di Power BI usando un gateway. Il termine **gateway** indica il software usato per agevolare l'accesso a dati archiviati in una rete privata locale, che permette di usarli nei servizi online, come il **servizio Power BI**. Il **Gateway dati locale (modalità personale)** è un aggiornamento recente del gateway di Power BI che consente agli utenti di installare un gateway nel proprio computer e accedere ai dati locali.
@@ -86,11 +86,11 @@ Se con il gateway precedente si usava la **Combinazione rapida** sarà necessari
    ```
 2. Nella parte inferiore del file, aggiungere il testo seguente:
    
-       ```
-       <setting name="EnableFastCombine" serializeAs="String">```
+    ```xml
+       <setting name="EnableFastCombine" serializeAs="String">
        <value>true</value>
-       </setting>
-       ```
+    </setting>
+    ```
 3. Al termine dell'operazione, l'impostazione sarà effettiva entro circa un minuto. Per verificare che la **Combinazione rapida** funzioni correttamente, provare un aggiornamento su richiesta nel **servizio Power BI**.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni

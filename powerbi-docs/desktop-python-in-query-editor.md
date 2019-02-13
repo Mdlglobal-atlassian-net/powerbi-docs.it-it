@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d97c59b7c5d25e85dee5f3b5b5b6ae8d24ae6cb2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283323"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217046"
 ---
 # <a name="using-python-in-query-editor"></a>Uso di Python nell'Editor di query
 È possibile usare **Python**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di Python nell'**Editor di query** consente di pulire i dati con Python ed eseguire operazioni di data shaping e analisi in set di dati, tra cui, per fare solo qualche esempio, completamento di dati mancanti, stime e clustering. **Python** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.
@@ -43,10 +43,12 @@ Per comprendere l'uso di **Python** nell'**Editor di query**, usare questo esemp
    ![](media/desktop-python-in-query-editor/python-in-query-editor-5.png)
 6. In questo esempio immettere il codice script seguente:
    
+    ```python
        import pandas as pd
        completedData = dataset.fillna(method='backfill', inplace=False)
        dataset["completedValues"] =  completedData["SMI missing values"]
-   
+   ```
+
    > [!NOTE]
    > Per il corretto funzionamento del codice script precedente, è necessario che nell'ambiente Python sia installata la libreria *pandas*. Per installare la libreria pandas, eseguire il comando seguente nell'installazione di Python: |      > pip install pandas
    > 

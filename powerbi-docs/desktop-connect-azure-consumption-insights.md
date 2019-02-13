@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 1302ede9c28cc42b3605e55705f07620f2974990
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430971"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216057"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Connettersi ad Azure Consumption Insights in Power BI Desktop (Beta)
 Con il connettore di **Azure Consumption Insights** è possibile usare **Power BI Desktop** per connettersi ad Azure e ottenere informazioni e dati dettagliati sull'utilizzo dei servizi di Azure da parte dell'organizzazione. È anche possibile creare misure, colonne personalizzate e oggetti visivi per creare report da condividere sull'utilizzo di Azure nell'organizzazione. Il connettore di **Azure Consumption Insights** è disponibile in versione Beta ed è soggetto a modifiche.
@@ -166,20 +166,20 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | ConsumedServiceId |consumedServiceId | |Sì |
 | Costo |cost |ExtendedCost |No |
 | Centro di costo |costCenter |Centro di costo |No |
-| Date |data |Date |No |
+| Data |data |Data |No |
 | Giorno | |Giorno |No |
 | DepartmentName |departmentName |Department Name |No |
 | DepartmentID |departmentId | |Sì |
 | ID istanza | | |Sì |
 | InstanceId |instanceId |ID istanza |No |
-| Posizione | | |Sì |
+| Località | | |Sì |
 | Meter Category |meterCategory |Meter Category |No |
 | Meter ID | | |Sì |
 | Meter Name |meterName |Meter Name |No |
 | Meter Region |meterRegion |Meter Region |No |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
-| Month | |Month |No |
+| Mese | |Mese |No |
 | Product |prodotto |Product |No |
 | ProductId |productId | |Sì |
 | Resource Group |resourceGroup |Resource Group |No |
