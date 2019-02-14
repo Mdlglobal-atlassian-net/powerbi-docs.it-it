@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888234"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086472"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -236,12 +236,17 @@ Gli utenti dell'organizzazione possono usare funzionalità di ricerca esterne ba
 
 ## <a name="custom-visuals-settings"></a>Impostazioni degli oggetti visivi personalizzati
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>Abilitare oggetti visivi personalizzati per l'intera organizzazione
+### <a name="add-and-use-custom-visuals"></a>Aggiungi e usa oggetti visivi personalizzati
 
 Gli utenti dell'organizzazione possono interagire con gli oggetti visivi personalizzati e condividerli. [Altre informazioni](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
+> Questa impostazione può essere applicata all'intera organizzazione o limitata a gruppi specifici.
+
+### <a name="allow-only-certified-visuals"></a>Consenti solo oggetti visivi personalizzati certificati
+
+Gli utenti dell'organizzazione a cui sono state assegnate le autorizzazioni per aggiungere e usare gli oggetti visivi personalizzati, tramite l'impostazione "Aggiungi e usa oggetti visivi personalizzati", potranno usare solo [oggetti visivi personalizzati certificati](https://go.microsoft.com/fwlink/?linkid=2002010) (gli oggetti visivi non certificati verranno bloccati e verrà visualizzato un messaggio di errore quando vengono usati). 
+
 
 ## <a name="r-visuals-settings"></a>Impostazioni degli oggetti visivi R
 

@@ -6,24 +6,24 @@ manager: kvivek
 ms.reviewer: lukaszp
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-visuals
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 279fea3f1b36a86e7606f3b6d69f19ab42763805
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 6b3f1c3780b60efc2ade444960a92234afecc71e
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234625"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086587"
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop
-Questa esercitazione è stata scritta dal punto di vista di una persona che crea una mappa ArcGIS. Quando l'autore condivide una mappa ArcGIS con un collega, questi potrà vederla e interagire con essa, ma non salvare le modifiche. +Per altre informazioni sulla visualizzazione di una mappa ArcGIS, vedere [Interacting with ArcGIS maps](../consumer/power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
+Questa esercitazione è stata scritta dal punto di vista di una persona che crea una mappa ArcGIS. Quando l'autore condivide una mappa ArcGIS con un collega, questi potrà vederla e interagire con essa, ma non salvare le modifiche. +Per altre informazioni sulla visualizzazione di una mappa ArcGIS, vedere [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
 
 Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping di livello superiore, che non si limita alla presentazione di punti su una mappa. È possibile scegliere tra mappe di base, tipi di posizione, temi, stili per i simboli e livelli di riferimento per creare visualizzazioni mappa ricche di dettagli e di grande impatto visivo. La combinazione di livelli di dati autorevoli su una mappa con l'analisi spaziale consente di ottenere informazioni più approfondite sui dati nella visualizzazione.
 
- Sebbene in un dispositivo mobile non sia possibile creare mappe ArcGIS, è possibile visualizzarle e interagire con esse. Vedere [Interacting with ArcGIS maps](../consumer/power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
+ Sebbene in un dispositivo mobile non sia possibile creare mappe ArcGIS, è possibile visualizzarle e interagire con esse. Vedere [Interacting with ArcGIS maps](power-bi-visualizations-arcgis.md) (Interazione con le mappe ArcGIS).
 
 > [!TIP]
 > GIS è l'acronimo per Geographic Information System (Sistema informativo geografico).
@@ -175,7 +175,8 @@ Il riquadro Drive time (Tempo di guida) consente di selezionare una località e 
     ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. Selezionare la scheda **Drive time** e scegliere lo strumento di selezione singola o multipla. Selezionare la puntina per Washington D.C.
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+
+   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > Risulta più semplice selezionare una località se si esegue lo zoom avanti sulla mappa (usando l'icona +).
@@ -340,7 +341,7 @@ No, Power BI richiede la connettività di rete per visualizzare le mappe.
 Non ancora. [Votando per questa idea](https://ideas.powerbi.com/forums/265200-power-bi-ideas/suggestions/9154765-arcgis-geodatabases) si riceverà un messaggio di posta elettronica quando si comincerà a lavorare su questa funzionalità.  
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Interazione con una mappa ArcGIS condivisa con l'utente](../consumer/power-bi-visualizations-arcgis.md)
+[Interazione con una mappa ArcGIS condivisa con l'utente](power-bi-visualizations-arcgis.md)
 
 [Post di blog che annuncia la disponibilità di Mappe ArcGIS per Power BI](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 

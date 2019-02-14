@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291948"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086426"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)
 
 Con Power BI e i flussi di dati è possibile archiviare file di dati e file di definizione del flusso di dati di un'area di lavoro nell'account di Azure Data Lake Storage Gen2. Gli amministratori di aree di lavoro possono configurare Power BI a tale scopo e questo articolo illustra i passaggi necessari. 
 
-Prima di poter configurare la posizione di archiviazione del flusso di dati dell'area di lavoro, l'amministratore globale della società deve connettere l'account di archiviazione dell'organizzazione a Power BI e abilitare le autorizzazioni di assegnazione dell'archiviazione a tale account di archiviazione. * [Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+Prima di poter configurare la posizione di archiviazione del flusso di dati dell'area di lavoro, l'amministratore globale della società deve connettere l'account di archiviazione dell'organizzazione a Power BI e abilitare le autorizzazioni di assegnazione dell'archiviazione a tale account di archiviazione. *[Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 Esistono due modi per configurare le impostazioni di archiviazione del flusso di dati dell'area di lavoro: 
 

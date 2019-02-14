@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289786"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086633"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
 Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri e la relativa spiegazione.
@@ -30,11 +30,16 @@ Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri 
 **Power BI ha riscontrato un errore imprevisto durante il caricamento del modello. Riprovare più tardi.**
 oppure **Non è stato possibile recuperare il modello di dati. Contattare il proprietario del dashboard per verificare che le origini dati e il modello esistano e siano accessibili.**
 
-L'accesso ai dati non è riuscito perché l'origine dati non era raggiungibile. Questo errore può verificarsi se l'origine dati è stata rimossa, rinominata, spostata, disconnessa o se le autorizzazioni sono state modificate. Verificare che l'origine si trovi ancora nel percorso a cui viene fatto riferimento e di avere le autorizzazioni necessarie per l'accesso. Se il problema persiste, l'origine potrebbe essere rallentata. Riprovare in un secondo momento, quando il carico sull'origine è minore. Se si tratta di un'origine locale, il proprietario dell'origine dati potrebbe riuscire a fornire altre informazioni.
+L'accesso ai dati non è riuscito perché l'origine dati non era raggiungibile. Questo problema può verificarsi se l'origine dati è stata rimossa, rinominata, spostata, disconnessa o se le autorizzazioni sono state modificate. Verificare che l'origine si trovi ancora nel percorso a cui viene fatto riferimento e di avere le autorizzazioni necessarie per l'accesso. Se il problema persiste, l'origine potrebbe essere rallentata. Riprovare in un secondo momento, quando il carico sull'origine è minore. Se si tratta di un'origine locale, il proprietario dell'origine dati potrebbe riuscire a fornire altre informazioni.
 
 **Non si è autorizzati a visualizzare questo riquadro o ad aprire la cartella di lavoro.**
 
-Contattare il proprietario del dashboard per verificare che le origini dati e il modello esistano e siano accessibili all’account.
+Contattare il proprietario del dashboard per verificare che le origini dati e il modello esistano e siano accessibili all'account.
+
+**Gli oggetti visivi sono stati disabilitati dall'amministratore.**
+
+L'amministratore di Power BI ha disabilitato l'utilizzo di oggetti visivi personalizzati per l'organizzazione o il gruppo di sicurezza. Non sarà possibile usare oggetti visivi personalizzati da [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) o importare oggetti visivi privati da un file. Sarà possibile usare solo il set di oggetti visivi già inserito nel pacchetto.
+
 
 **Le forme dati devono contenere almeno un gruppo o un calcolo che esegua l'output dei dati. Contattare il proprietario del dashboard.**
 
@@ -42,11 +47,11 @@ Non ci sono dati da visualizzare perché la query è vuota. Provare ad aggiunger
 
 **Non è possibile visualizzare i dati perché Power BI non può determinare la relazione tra uno o più campi.**
 
-Si sta provando a usare due o più campi da tabelle non correlate. Rimuovere i campi non correlati dall'oggetto visivo e creare una relazione tra le tabelle. Dopo aver eseguito questa procedura, sarà possibile aggiungere di nuovo i campi all'oggetto visivo. Questa operazione può essere eseguita in Power BI Desktop o Power Pivot per Excel. [Altre informazioni](desktop-create-and-manage-relationships.md)
+Si sta provando a usare due o più campi da tabelle non correlate. Rimuovere i campi non correlati dall'oggetto visivo e creare una relazione tra le tabelle. Dopo aver eseguito questa modifica, sarà possibile aggiungere di nuovo i campi all'oggetto visivo. Questa operazione può essere eseguita in Power BI Desktop o Power Pivot per Excel. [Altre informazioni](desktop-create-and-manage-relationships.md)
 
 **I gruppi nell'asse primario e nell'asse secondario si sovrappongono. I gruppi nell'asse primario non possono avere le stesse chiavi dei gruppi nell'asse secondario.**
 
-In genere, si tratta di un problema temporaneo, che si verifica quando si spostano i gruppi dalle righe alle colonne. In questo caso, l'errore dovrebbe scomparire una volta spostati tutti i gruppi. Se il messaggio viene ancora visualizzato, provare a scambiare i campi tra righe e colonne o la legenda dell'asse oppure a rimuovere i campi dall'oggetto visivo.  
+In genere, si tratta di un problema temporaneo che si verifica quando si spostano i gruppi dalle righe alle colonne. In questo caso, l'errore dovrebbe scomparire una volta spostati tutti i gruppi. Se il messaggio viene ancora visualizzato, provare a scambiare i campi tra righe e colonne o la legenda dell'asse oppure a rimuovere i campi dall'oggetto visivo.  
 
 **L'elemento visivo ha superato il numero di risorse disponibili. Provare ad applicare un filtro per ridurre la quantità di dati visualizzati.**
 
@@ -58,9 +63,9 @@ Il campo probabilmente è stato eliminato o rinominato. È possibile rimuovere i
 
 **Non è stato possibile recuperare i dati per questo elemento visivo. Riprovare più tardi.**
 
-In genere, si tratta di un problema temporaneo. Se il messaggio viene visualizzato di nuovo durante un tentativo successivo, contattare il supporto tecnico.
+In genere, si tratta di un problema temporaneo, Se il messaggio viene visualizzato di nuovo durante un tentativo successivo, contattare il supporto tecnico.
 
-## <a name="contact-support"></a>Contattare il supporto tecnico
+## <a name="contact-support"></a>Contact support
 Se il problema riscontrato persiste, [contattare il supporto tecnico](https://support.powerbi.com) per ulteriori verifiche.
 
 ## <a name="next-steps"></a>Passaggi successivi
