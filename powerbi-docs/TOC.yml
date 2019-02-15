@@ -1,484 +1,4 @@
 items:
-- name: Usare Power BI
-  items:
-  - name: Panoramica
-    items:
-    - name: Che cos'è Power BI?
-      href: power-bi-overview.md
-  - name: Guide introduttive
-    items:
-    - name: Orientarsi in Power BI
-      href: consumer/end-user-experience.md
-  - name: Esercitazioni
-    items:
-    - name: Connettersi a un esempio di GitHub
-      href: service-tutorial-connect-to-github.md
-    - name: Introduzione a Power BI
-      href: service-get-started.md
-    - name: Interagire con le mappe ArcGIS in Power BI
-      href: visuals/power-bi-visualizations-arcgis.md
-  - name: Concetti
-    items:
-    - name: Novità del servizio Power BI
-      href: service-whats-new.md
-    - name: Iscrizione in modalità self-service
-      href: service-self-service-signup-for-power-bi.md
-    - name: Nozioni di base di Power BI
-      items:
-      - name: Power BI - Concetti di base
-        href: consumer/end-user-basic-concepts.md
-      - name: Ricerca e ordinamento di contenuto
-        href: service-navigation-search-filter-sort.md
-      - name: Contenuto correlato
-        href: consumer/end-user-related.md
-      - name: Contenuto recente
-        href: consumer/end-user-recent.md
-      - name: Acconsenti esplicitamente alle funzionalità di anteprima di Power BI
-        href: consumer/end-user-preview-features.md
-      - name: Dashboard in Power BI
-        href: consumer/end-user-dashboards.md
-      - name: Domande e risposte in Power BI
-        href: consumer/end-user-q-and-a.md
-      - name: Report in Power BI
-        href: consumer/end-user-reports.md
-      - name: Introduzione a Cortana per Power BI
-        href: service-cortana-intro.md
-      - name: Riquadri del dashboard in Power BI
-        href: consumer/end-user-tiles.md
-      - name: Condivisi con l'utente corrente
-        href: consumer/end-user-shared-with-me.md
-      - name: Aggiornamento dei dati in Power BI
-        href: refresh-data.md
-      - name: Domande frequenti
-        href: consumer/end-user-faq.md
-      - name: Power BI per il Governo degli Stati Uniti
-        href: service-govus-overview.md
-      - name: Funzionalità in base al tipo di licenza
-        href: service-features-license-type.md
-      - name: 10 suggerimenti per chiedere assistenza
-        href: service-tips-for-finding-help.md
-      - name: Informazioni su filtri ed evidenziazione nei report di Power BI
-        href: power-bi-reports-filters-and-highlighting.md
-      - name: Utenti e progettisti di Power BI
-        href: consumer/end-user-consumer.md
-    - name: Utilizzo di Power BI
-      items:
-      - name: Quick Insights in Power BI
-        href: consumer/end-user-insights.md
-      - name: Ottenere dati da file
-        href: service-get-data-from-files.md
-      - name: Aprire un report di Power BI in visualizzazione di lettura o visualizzazione di modifica
-        href: consumer/end-user-reading-view.md
-      - name: Presentazione dell'editor di report
-        href: service-the-report-editor-take-a-tour.md
-      - name: Visualizzazioni in Power BI
-        href: visuals/power-bi-report-visualizations.md
-      - name: Origini dati per Power BI
-        href: service-get-data.md
-      - name: Attivazione versione di valutazione Pro estesa
-        href: service-extended-pro-trial.md
-      - name: Microsoft Flow e Power BI
-        href: service-flow-integration.md
-      - name: Domande frequenti su Power BI per i clienti del Cloud Germania
-        href: service-govde-faq.md
-      - name: Introduzione a Power BI con app di terze parti
-        href: service-power-bi-get-started-third-party-apps.md
-      - name: Tipi di informazioni rapide supportate da Power BI
-        href: consumer/end-user-insight-types.md
-      - name: Aggregazioni (somma, media, massima, e così via) in Power BI
-        href: service-aggregates.md
-      - name: Impostazioni di visualizzazione della pagina in un report di Power BI
-        href: power-bi-report-display-settings.md
-  - name: Procedure
-    items:
-    - name: Nozioni di base di Power BI
-      items:
-      - name: Attività comuni
-        items:
-        - name: Dashboard, report e app preferiti in Power BI
-          href: consumer/end-user-favorite.md
-        - name: Visualizzare un riquadro del dashboard in modalità messa a fuoco
-          href: consumer/end-user-focus.md
-        - name: Stampare un dashboard, un riquadro di un dashboard o una pagina di report
-          href: consumer/end-user-print.md
-        - name: Rinominare il contenuto all'interno di Power BI
-          href: service-rename.md
-        - name: Visualizzare dashboard e report in modalità schermo intero (modalità TV)
-          href: service-fullscreen-mode.md
-        - name: Rimuovere il contenuto all'interno di Power BI
-          href: consumer/end-user-delete.md
-        - name: Registrare la propria organizzazione del Governo degli Stati Uniti
-          href: service-govus-signup.md
-        - name: Avvisi per i dati nel servizio Power BI
-          href: service-set-data-alerts.md
-        - name: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
-          href: consumer/end-user-q-and-a-tips.md
-        - name: Installare e usare le app con dashboard e report
-          href: consumer/end-user-apps.md
-        - name: Trovare e connettersi a un pacchetto di contenuto aziendale
-          href: consumer/end-user-content-pack.md
-        - name: Introduzione a Power BI - Domande e risposte
-          href: power-bi-visualization-introduction-to-q-and-a.md
-      - name: Connettersi ai servizi
-        items:
-        - name: Connettersi ai servizi usati
-          href: consumer/end-user-connect-to-services.md
-        - name: Acumatica
-          href: service-connect-to-acumatica.md
-        - name: Adobe Analytics
-          href: service-connect-to-adobe-analytics.md
-        - name: Alpine Metrics Sales Predictions
-          href: service-connect-to-alpine-metrics.md
-        - name: appFigures
-          href: service-connect-to-appfigures.md
-        - name: Application Insights
-          href: service-connect-to-application-insights.md
-        - name: AT Internet Bridge
-          href: service-connect-to-at-internet.md
-        - name: Azure Audit Logs
-          href: service-connect-to-azure-audit-logs.md
-        - name: Azure Mobile Engagement
-          href: service-connect-to-azure-mobile.md
-        - name: Microsoft Azure Consumption Insights
-          href: service-connect-to-azure-consumption-insights.md
-        - name: Ricerca di Azure
-          href: service-connect-to-azure-search.md
-        - name: Circuit ID
-          href: service-connect-to-circuit-id.md
-        - name: ClickDimensions
-          href: service-connect-to-clickdimensions.md
-        - name: comScore Digital Analytix
-          href: service-connect-to-connect-to.md
-        - name: GitHub
-          href: service-connect-to-github.md
-        - name: Google Analytics
-          href: service-connect-to-google-analytics.md
-        - name: Insightly
-          href: service-connect-to-insightly.md
-        - name: IntelliBoard
-          href: service-connect-to-intelliboard.md
-        - name: Lithium
-          href: service-connect-to-lithium.md
-        - name: MailChimp
-          href: service-connect-to-mailchimp.md
-        - name: Mandrill
-          href: service-connect-to-mandrill.md
-        - name: Marketo
-          href: service-connect-to-marketo.md
-        - name: Microsoft Azure Enterprise
-          href: service-connect-to-azure-enterprise.md
-        - name: Microsoft Dynamics AX
-          href: service-connect-to-microsoft-dynamics-ax.md
-        - name: Microsoft Dynamics CRM
-          href: service-connect-to-microsoft-dynamics-crm.md
-        - name: Microsoft Dynamics Marketing
-          href: service-connect-to-microsoft-dynamics-marketing.md
-        - name: Microsoft Dynamics NAV
-          href: service-connect-to-microsoft-dynamics-nav.md
-        - name: Office365Mon
-          href: service-connect-to-office365mon.md
-        - name: Planview Enterprise
-          href: service-connect-to-planview.md
-        - name: Prevedere
-          href: service-connect-to-prevedere.md
-        - name: Project Online
-          href: service-connect-to-project-online.md
-        - name: Project Madeira
-          href: service-connect-to-project-madeira.md
-        - name: Projectplace
-          href: service-connect-to-projectplace.md
-        - name: QuickBooks Online
-          href: service-connect-to-quickbooks-online.md
-        - name: Salesforce
-          href: service-connect-to-salesforce.md
-        - name: SendGrid
-          href: service-connect-to-sendgrid.md
-        - name: ServiceNow Incidents
-          href: service-connect-to-servicenow.md
-        - name: Smartsheet
-          href: service-connect-to-smartsheet.md
-        - name: SparkPost
-          href: service-connect-to-sparkpost.md
-        - name: SQL Database Auditing
-          href: service-connect-to-azure-sql-database-auditing.md
-        - name: SQL Sentry
-          href: service-connect-to-sql-sentry.md
-        - name: Stripe
-          href: service-connect-to-stripe.md
-        - name: SweetIQ
-          href: service-connect-to-sweetiq.md
-        - name: Troux
-          href: service-connect-to-troux.md
-        - name: Twilio
-          href: service-connect-to-twilio.md
-        - name: tyGraph
-          href: service-connect-to-tygraph.md
-        - name: UserVoice
-          href: service-connect-to-uservoice.md
-        - name: VMob
-          href: service-connect-to-vmob.md
-        - name: Webtrends
-          href: service-connect-to-webtrends.md
-        - name: Windows Dev Center
-          href: service-connect-to-windows-dev-center.md
-        - name: Xero
-          href: service-connect-to-xero.md
-        - name: Zendesk
-          href: service-connect-to-zendesk.md
-        - name: Ziosk
-          href: service-connect-to-ziosk.md
-        - name: Zuora
-          href: service-connect-to-zuora.md
-      - name: Dashboard
-        items:
-        - name: Dashboard in primo piano in Power BI
-          href: consumer/end-user-featured.md
-        - name: Centro notifiche unificato di Power BI
-          href: consumer/end-user-notification-center.md
-        - name: Temi del dashboard
-          href: service-dashboard-themes.md
-      - name: Report
-        items:
-        - name: Metodi per aprire un report
-          href: consumer/end-user-report-open.md
-        - name: Modificare l'ordinamento di un grafico in un report di Power BI
-          href: consumer/end-user-change-sort.md
-        - name: Esportare dati da una visualizzazione
-          href: consumer/end-user-export-data.md
-        - name: Come usare i filtri dei report
-          href: consumer/end-user-report-filter.md
-        - name: Sottoscrivere un report o un dashboard
-          href: consumer/end-user-subscribe.md
-      - name: Pubblica
-        items:
-        - name: Power BI Publisher per Excel
-          href: publisher-for-excel.md
-        - name: Pubblicare in PowerPoint
-          href: consumer/end-user-powerpoint.md
-    - name: Utilizzo di Power BI
-      items:
-      - name: Dashboard
-        items:
-        - name: Creare un dashboard da un report
-          href: service-dashboard-create.md
-        - name: Creare una copia di un dashboard
-          href: service-dashboard-copy.md
-        - name: Aggiungere un riquadro a un dashboard di Power BI da un report
-          href: service-dashboard-pin-tile-from-report.md
-        - name: Aggiungere un riquadro da un dashboard a un altro dashboard
-          href: service-pin-tile-to-another-dashboard.md
-        - name: Aggiungere un riquadro a un dashboard di Power BI da Excel
-          href: service-dashboard-pin-tile-from-excel.md
-        - name: Aggiungere un riquadro a un dashboard di Power BI nella casella della domanda di Domande e risposte
-          href: service-dashboard-pin-tile-from-q-and-a.md
-        - name: Aggiungere un'intera pagina del report a un dashboard di Power BI
-          href: service-dashboard-pin-live-tile-from-report.md
-        - name: Metriche di utilizzo per i dashboard
-          href: service-usage-metrics.md
-        - name: Aggiungere un'immagine, una casella di testo, un video o un codice Web al dashboard
-          href: service-dashboard-add-widget.md
-        - name: 'Modificare un riquadro: ridimensionare, spostare, rinominare, aggiungere ed eliminare un collegamento ipertestuale'
-          href: service-dashboard-edit-tile.md
-        - name: Suggerimenti per la progettazione di un dashboard di Power BI ottimale
-          href: service-dashboards-design-tips.md
-        - name: Ottimizzare i dati per Power BI Quick Insights
-          href: service-insights-optimize.md
-        - name: Creare una visualizzazione telefono di un dashboard
-          href: service-create-dashboard-mobile-phone-view.md
-        - name: Creare un codice a matrice per un riquadro
-          href: service-create-qr-code-for-tile.md
-        - name: Aggiungere un'immagine a un dashboard
-          href: service-dashboard-add-image.md
-        - name: Classificazione dei dati del dashboard
-          href: service-data-classification.md
-      - name: Ottenere risposte dai dati
-        items:
-        - name: Usare domande e risposte per creare visualizzazioni e compilare report
-          href: power-bi-tutorial-q-and-a.md
-        - name: Uso di Domande e risposte con Power BI Gateway - Enterprise (anteprima)
-          href: service-q-and-a-direct-query.md
-        - name: Usare correttamente i dati con Domande e risposte di Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Abilitare Cortana per Power BI
-          href: service-cortana-enable.md
-        - name: Creare domande in primo piano per Domande e risposte di Power BI
-          href: service-q-and-a-create-featured-questions.md
-        - name: Utilizzare lo schema linguistico in Power BI Desktop
-          href: power-bi-q-and-a-linguistic-schema.md
-      - name: Condividere il lavoro
-        items:
-        - name: Come posso collaborare e condividere?
-          href: service-how-to-collaborate-distribute-dashboards-reports.md
-        - name: Condividere dashboard e report
-          href: service-share-dashboards.md
-        - name: Creare aree di lavoro per le app
-          href: service-create-workspaces.md
-        - name: Creare le nuove aree di lavoro (anteprima)
-          href: service-create-the-new-workspaces.md
-        - name: Pubblicare app con dashboard e report
-          href: consumer/end-user-apps.md
-        - name: Condividere un report filtrato
-          href: service-share-reports.md
-        - name: Pubblicare da Power BI al Web
-          href: service-publish-to-web.md
-        - name: Incorporare report in SharePoint Online
-          href: service-embed-report-spo.md
-        - name: Connettersi ai file nell'OneDrive del gruppo
-          href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
-        - name: Collaborare nell'area di lavoro del proprio gruppo
-          href: service-collaborate-power-bi-workspace.md
-        - name: Gestire il gruppo in Power BI e Office 365
-          href: service-manage-app-workspace-in-power-bi-and-office-365.md
-        - name: Condividere un dashboard che si collega a una cartella di lavoro di Excel in OneDrive for Business
-          href: service-share-dashboard-that-links-to-excel-onedrive.md
-      - name: Pacchetti di contenuto
-        items:
-        - name: Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
-          href: service-organizational-content-pack-manage-update-delete.md
-        - name: "Pacchetti di contenuto dell'organizzazione: Copiare, aggiornare e ottenere l'accesso"
-          href: service-organizational-content-pack-copy-refresh-access.md
-        - name: "Pacchetti di contenuto dell'organizzazione: Introduzione"
-          href: service-organizational-content-pack-introduction.md
-        - name: Creare e pubblicare un pacchetto di contenuto aziendale
-          href: service-organizational-content-pack-create-and-publish.md
-        - name: Rimuovere la connessione a un pacchetto di contenuto aziendale
-          href: service-organizational-content-pack-disconnect.md
-        - name: Certificazione
-          items:
-          - name: Programma di certificazione dei pacchetti di contenuto
-            href: service-content-pack-overview.md
-          - name: Creazione di pacchetti di contenuto modello
-            href: template-content-pack-authoring.md
-          - name: Test di pacchetti di contenuto modello
-            href: template-content-pack-testing.md
-          - name: Esperienze di pacchetti di contenuto modello
-            href: template-content-pack-experience.md
-      - name: Report
-        items:
-        - name: Creare un nuovo report da un report esistente
-          href: power-bi-report-copy.md
-        - name: Contenuto recente
-          href: consumer/end-user-recent.md
-        - name: Aggiungere una pagina a un report di Power BI
-          href: power-bi-report-add-page.md
-        - name: Aggiungere un filtro a un report in Power BI
-          href: power-bi-report-add-filter.md
-        - name: Salvare un report in Power BI
-          href: service-report-save.md
-        - name: Creare un nuovo report da un set di dati
-          href: service-report-create-new.md
-        - name: Interagire con un report nella Visualizzazione di modifica in Power BI
-          href: service-interact-with-a-report-in-editing-view.md
-        - name: Analizza in Excel
-          href: service-analyze-in-excel.md
-        - name: Modificare l'interazione degli oggetti visivi in un report
-          href: service-reports-visual-interactions.md
-        - name: Suggerimenti e consigli per creare report nel servizio Power BI
-          href: power-bi-reports-tips-and-tricks-for-creating.md
-        - name: Riquadro di analisi
-          href: service-analytics-pane.md
-        - name: Metriche di utilizzo per i report
-          href: service-usage-metrics.md
-        - name: Creare un codice a matrice per un report
-          href: service-create-qr-code-for-report.md
-        - name: Modificare le impostazioni di visualizzazione per una pagina in un report di Power BI
-          href: consumer/end-user-report-view.md
-        - name: Duplicare una pagina di report in Power BI
-          href: power-bi-report-copy-paste-page.md
-        - name: Esportare un report dal servizio Power BI in Desktop (anteprima)
-          href: service-export-to-pbix.md
-        - name: Filtrare un report usando i parametri della stringa di query nell'URL
-          href: service-url-filters.md
-        - name: Procedure consigliate per creare report veloci e affidabili in Power BI
-          href: power-bi-reports-performance.md
-      - name: Dati da file
-        items:
-        - name: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
-          href: service-from-excel-to-stunning-report.md
-        - name: Ottenere dati dai file delle cartelle di lavoro di Excel
-          href: service-excel-workbook-files.md
-        - name: Ottenere dati da file di Power BI Desktop
-          href: service-desktop-files.md
-        - name: Impostazioni di parametri per set di dati
-          href: service-parameters.md
-        - name: Ottenere dati da file con valori delimitati da virgole (CSV)
-          href: service-comma-separated-value-files.md
-        - name: Streaming in tempo reale in Power BI (anteprima)
-          href: service-real-time-streaming.md
-        - name: Pubblicare in Power BI da Excel 2016
-          href: service-publish-from-excel.md
-        - name: Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI
-          href: reduce-the-size-of-an-excel-workbook.md
-      - name: Ottenere dati da database
-        items:
-        - name: Azure SQL Data Warehouse con DirectQuery
-          href: service-azure-sql-data-warehouse-with-direct-connect.md
-        - name: Database SQL di Azure con DirectQuery
-          href: service-azure-sql-database-with-direct-connect.md
-        - name: Spark in HDInsight con DirectQuery
-          href: spark-on-hdinsight-with-direct-connect.md
-        - name: Dati dinamici di SQL Server Analysis Services in Power BI
-          href: sql-server-analysis-services-tabular-data.md
-        - name: Azure e Power BI
-          href: service-azure-and-power-bi.md
-      - name: Aggiornamento dei dati
-        items:
-        - name: Configurare l'aggiornamento pianificato
-          href: refresh-scheduled-refresh.md
-        - name: Aggiornare un set di dati creato da un file di Power BI Desktop - locale
-          href: refresh-desktop-file-local-drive.md
-        - name: Aggiornare un set di dati creato da un file di Power BI Desktop - cloud
-          href: refresh-desktop-file-onedrive.md
-        - name: Aggiornare un set di dati creato da una cartella di lavoro di Excel - locale
-          href: refresh-excel-file-local-drive.md
-        - name: Aggiornare un set di dati creato da una cartella di lavoro di Excel - cloud
-          href: refresh-excel-file-onedrive.md
-        - name: Aggiornare un set di dati creato da un file con valori delimitati da virgole (CSV) in OneDrive
-          href: refresh-csv-file-onedrive.md
-        - name: Scenari per la risoluzione dei problemi di aggiornamento
-          href: refresh-troubleshooting-refresh-scenarios.md
-      - name: Risoluzione dei problemi
-        items:
-        - name: Password dimenticata per Power BI?
-          href: service-admin-forgot-your-password.md
-        - name: Acquisizione di informazioni diagnostiche aggiuntive per Power BI
-          href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-        - name: Indirizzo di posta elettronica alternativo per Power BI
-          href: service-admin-alternate-email-address-for-power-bi.md
-        - name: Come usare lo stesso account di accesso per Power BI e Azure
-          href: service-admin-how-to-use-the-same-account-as-azure.md
-        - name: Office 365 dedicato - problemi noti
-          href: service-admin-office-365-dedicated-known-issues.md
-        - name: Risolvere i problemi di Cortana
-          href: service-cortana-troubleshoot.md
-        - name: Risoluzione dei problemi di Analizza in Excel
-          href: desktop-troubleshooting-analyze-in-excel.md
-        - name: Risoluzione dei problemi del gateway dati locale
-          href: service-gateway-onprem-tshoot.md
-        - name: Risoluzione dei problemi relativi a Power BI Gateway - Personal
-          href: service-admin-troubleshooting-power-bi-personal-gateway.md
-        - name: Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
-          href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-        - name: Risoluzione dei problemi relativi all'aggiornamento pianificato per i database SQL di Azure
-          href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-        - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
-          href: service-admin-troubleshoot-excel-workbook-data.md
-        - name: Risoluzione degli errori del riquadro
-          href: refresh-troubleshooting-tile-errors.md
-        - name: Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
-          href: service-refresh-xero-credentials.md
-  - name: Risorse
-    items:
-    - name: Video
-      href: videos.md
-    - name: Webinar
-      href: webinars.md
-    - name: Browser supportati
-      href: consumer/end-user-browsers.md
-    - name: Lingue e paesi/aree geografiche supportate
-      href: supported-languages-countries-regions.md
-    - name: White paper
-      href: whitepapers.md
 - name: Power BI Desktop
   items:
   - name: Panoramica
@@ -668,8 +188,6 @@ items:
         href: service-google-analytics-connector.md
       - name: 'Project Online: connettersi ai dati con Power BI Desktop'
         href: desktop-project-online-connect-to-data.md
-      - name: Microsoft Graph Security per Power BI Desktop
-        href: desktop-connect-graph-security.md
     - name: Trasformare i dati ed eseguire il data shaping
       items:
       - name: Usare le forme mappa in Power BI Desktop (anteprima)
@@ -744,8 +262,6 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Usare il filtro dei dati per intervalli numerici
         href: desktop-slicer-numeric-range.md
-      - name: Usare il filtro dei dati per la data relativa
-        href: desktop-slicer-filter-date-range.md
       - name: Creare un filtro dei dati ridimensionabile
         href: power-bi-slicer-filter-responsive.md
       - name: Creare schede di risposta personalizzate per Cortana
@@ -772,8 +288,6 @@ items:
         href: desktop-tips-and-tricks-for-creating-reports.md
     - name: Visualizzazioni
       items:
-      - name: Tipi di visualizzazione in Power BI
-        href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Visualizzazioni in Power BI
         href: visuals/power-bi-report-visualizations.md
       - name: Procedure consigliate per la visualizzazione
@@ -1050,7 +564,7 @@ items:
         href: service-export-to-pbix.md
       - name: Filtrare un report usando parametri nell'URL
         href: service-url-filters.md
-      - name: Procedure consigliate per creare report veloci e affidabili in Power BI
+      - name: Procedure consigliate per creare report veloci e affidabili
         href: power-bi-reports-performance.md
     - name: Ottenere risposte dai dati
       items:
@@ -1062,6 +576,8 @@ items:
         href: service-prepare-data-for-q-and-a.md
       - name: Creare domande in primo piano per Domande e risposte
         href: service-q-and-a-create-featured-questions.md
+      - name: Tipi di visualizzazione in Domande e risposte
+        href: visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
       - name: Usare Domande e risposte con le connessioni dinamiche
         href: service-q-and-a-direct-query.md
       - name: Presentazione di Cortana per Power BI
@@ -1106,36 +622,6 @@ items:
         href: service-share-dashboard-that-links-to-excel-onedrive.md
       - name: Power BI Publisher per Excel
         href: publisher-for-excel.md
-    - name: Risoluzione dei problemi
-      items:
-      - name: Password dimenticata per Power BI?
-        href: service-admin-forgot-your-password.md
-      - name: Acquisizione di informazioni diagnostiche aggiuntive per Power BI
-        href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
-      - name: Indirizzo di posta elettronica alternativo per Power BI
-        href: service-admin-alternate-email-address-for-power-bi.md
-      - name: Come usare lo stesso account di accesso per Power BI e Azure
-        href: service-admin-how-to-use-the-same-account-as-azure.md
-      - name: Office 365 dedicato - problemi noti
-        href: service-admin-office-365-dedicated-known-issues.md
-      - name: Risolvere i problemi di Cortana
-        href: service-cortana-troubleshoot.md
-      - name: Risoluzione dei problemi di Analizza in Excel
-        href: desktop-troubleshooting-analyze-in-excel.md
-      - name: Risoluzione dei problemi del gateway dati locale
-        href: service-gateway-onprem-tshoot.md
-      - name: Risoluzione dei problemi relativi a Power BI Gateway - Personal
-        href: service-admin-troubleshooting-power-bi-personal-gateway.md
-      - name: Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
-        href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-      - name: Risoluzione dei problemi relativi all'aggiornamento pianificato per i database SQL di Azure
-        href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
-      - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
-        href: service-admin-troubleshoot-excel-workbook-data.md
-      - name: Risoluzione degli errori del riquadro
-        href: refresh-troubleshooting-tile-errors.md
-      - name: Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
-        href: service-refresh-xero-credentials.md
     - name: Preparazione dei dati self-service
       items:
       - name: Preparazione dei dati self-service con flussi di dati (anteprima)
@@ -1188,6 +674,46 @@ items:
         href: paginated-reports-view-power-bi-service.md
       - name: Interagire con i parametri (anteprima)
         href: paginated-reports-view-parameters.md
+    - name: App modello
+      items:
+      - name: Panoramica sulle app modello
+        href: service-template-apps-overview.md
+      - name: Creare app modello
+        href: service-template-apps-create.md
+      - name: Suggerimenti per la creazione di app modello
+        href: service-template-apps-tips.md
+      - name: Installare e distribuire le app modello
+        href: service-template-apps-install-distribute.md
+    - name: Risoluzione dei problemi
+      items:
+      - name: Password dimenticata per Power BI?
+        href: service-admin-forgot-your-password.md
+      - name: Acquisizione di informazioni diagnostiche aggiuntive per Power BI
+        href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
+      - name: Indirizzo di posta elettronica alternativo per Power BI
+        href: service-admin-alternate-email-address-for-power-bi.md
+      - name: Come usare lo stesso account di accesso per Power BI e Azure
+        href: service-admin-how-to-use-the-same-account-as-azure.md
+      - name: Office 365 dedicato - problemi noti
+        href: service-admin-office-365-dedicated-known-issues.md
+      - name: Risolvere i problemi di Cortana
+        href: service-cortana-troubleshoot.md
+      - name: Risoluzione dei problemi di Analizza in Excel
+        href: desktop-troubleshooting-analyze-in-excel.md
+      - name: Risoluzione dei problemi del gateway dati locale
+        href: service-gateway-onprem-tshoot.md
+      - name: Risoluzione dei problemi relativi a Power BI Gateway - Personal
+        href: service-admin-troubleshooting-power-bi-personal-gateway.md
+      - name: Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
+        href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+      - name: Risoluzione dei problemi relativi all'aggiornamento pianificato per i database SQL di Azure
+        href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+      - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
+        href: service-admin-troubleshoot-excel-workbook-data.md
+      - name: Risoluzione degli errori del riquadro
+        href: refresh-troubleshooting-tile-errors.md
+      - name: Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
+        href: service-refresh-xero-credentials.md
     - name: Altre attività
       items:
       - name: Rinominare il contenuto all'interno di Power BI
@@ -1302,26 +828,16 @@ items:
           href: service-connect-to-zuora.md
       - name: Pacchetti di contenuto aziendali
         items:
-        - name: Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
-          href: service-organizational-content-pack-manage-update-delete.md
-        - name: "Pacchetti di contenuto dell'organizzazione: Copiare, aggiornare e ottenere l'accesso"
-          href: service-organizational-content-pack-copy-refresh-access.md
-        - name: "Pacchetti di contenuto dell'organizzazione: Introduzione"
+        - name: Introduzione ai pacchetti di contenuto aziendali
           href: service-organizational-content-pack-introduction.md
-        - name: Creare e pubblicare un pacchetto di contenuto aziendale
+        - name: Creare e pubblicare un pacchetto di contenuto
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Rimuovere la connessione a un pacchetto di contenuto aziendale
+        - name: Copiare, aggiornare e ottenere l'accesso ai pacchetti di contenuto
+          href: service-organizational-content-pack-copy-refresh-access.md
+        - name: Gestire, aggiornare ed eliminare pacchetti di contenuto
+          href: service-organizational-content-pack-manage-update-delete.md
+        - name: Rimuovere una connessione a un pacchetto di contenuto
           href: service-organizational-content-pack-disconnect.md
-      - name: Certificazione dei pacchetti di contenuto
-        items:
-        - name: Programma di certificazione dei pacchetti di contenuto
-          href: service-content-pack-overview.md
-        - name: Creazione di pacchetti di contenuto modello
-          href: template-content-pack-authoring.md
-        - name: Test di pacchetti di contenuto modello
-          href: template-content-pack-testing.md
-        - name: Esperienze di pacchetti di contenuto modello
-          href: template-content-pack-experience.md
   - name: Risorse
     items:
     - name: Video
@@ -1791,9 +1307,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: d8ef513bd9611347c9a2c199e99659a70f38591e
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 260f8eea522543804fc8b2b56eece82f91894659
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086610"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249299"
