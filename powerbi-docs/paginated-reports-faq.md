@@ -1,20 +1,20 @@
 ---
 title: 'Report impaginati in Power BI: Domande frequenti (anteprima)'
 description: Questo articolo include le risposte alle domande frequenti sui report impaginati. Questi report includono output con formattazione avanzata e perfetto al pixel ottimizzato per la stampa o per la creazione di PDF.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: d86f52b45dfac4252dfd2e7de29de64c16a566ca
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294111"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324739"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Report impaginati in Power BI: Domande frequenti (anteprima)
 
@@ -77,7 +77,7 @@ Memoria predefinita in ogni SKU Premium per i report impaginati:
 - **P2/A5**: 20% predefinita; 5% minima
 - **P3/A6**: 20% predefinita; 2,5% minima
 
-## <a name="general"></a>Generale
+## <a name="general"></a>Generali
 
 ### <a name="when-should-i-use-a-paginated-report-vs-a-power-bi-report"></a>Quando è consigliabile usare un report impaginato invece di un report di Power BI?
 

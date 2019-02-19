@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 35448142ecad249289542493261dfff612a348ad
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccfc25496b7bfacaea21e70f93c662600ab9cf5f
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283346"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249000"
 ---
 # <a name="using-r-in-query-editor"></a>Uso di R nell'Editor di query
 È possibile usare **R**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di R nell'**Editor di query** consente di pulire i dati con R ed eseguire operazioni di data shaping e analisi in set di dati, tra cui completamento di dati mancanti, stime e clustering. **R** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.
@@ -44,11 +44,13 @@ Per illustrare l'uso di **R** nell'**Editor di query**, usare l'esempio tratto d
    ![](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 6. In questo esempio immettere il codice script seguente:
 
+    ```r
        library(mice)
        tempData <- mice(dataset,m=1,maxit=50,meth='pmm',seed=100)
        completedData <- complete(tempData,1)
        output <- dataset
        output$completedValues <- completedData$"SMI missing values"
+    ```
 
    > [!NOTE]
    > Per il corretto funzionamento del codice script precedente, è necessario che nell'ambiente R sia installata la libreria *mice*. Per installare la libreria mice, eseguire il comando seguente nell'installazione di R:     > install.packages('mice')

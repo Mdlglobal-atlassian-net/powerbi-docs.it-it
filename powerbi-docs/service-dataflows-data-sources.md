@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280555"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324922"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Connettersi a origini dati per i flussi di dati di Power BI (anteprima)
 
@@ -76,6 +76,7 @@ La categoria **Database** include le seguenti connessioni dati disponibili per i
 * Database di SQL Server
 * Database di Sybase
 * Database Teradata
+* Vertica
 
 La categoria **Power BI** include le seguenti connessioni dati disponibili per i flussi di dati:
 
@@ -91,6 +92,7 @@ La categoria **Azure** include le seguenti connessioni dati disponibili per i fl
 
 La categoria **Servizi online** include le seguenti connessioni dati disponibili per i flussi di dati:
 
+* Amazon Redshift
 * Common Data Service per le app
 * Microsoft Exchange Online
 * Oggetti Salesforce
@@ -154,12 +156,8 @@ A questo punto lo script si connette all'origine dati specificata.
 
 Nell'elenco seguente vengono illustrati i connettori che è possibile usare attualmente per copiare e incollare la query M in una query vuota:
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ Nell'elenco seguente vengono illustrati i connettori che è possibile usare attu
 * Azure HDInsight (HDFS)
 * File Hadoop Distributed File System
 * Informix (beta)
-* Vertica
 
 Non sono necessarie altre operazioni per connettersi alle origini dati nei flussi di dati di Power BI.
 

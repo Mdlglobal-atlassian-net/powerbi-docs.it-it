@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296318"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249046"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Risolvere i problemi relativi a Cortana per Power BI
 Questo articolo fa parte di una serie. Se non è già stato fatto, è consigliabile leggere i seguenti tre articoli.
@@ -79,7 +79,7 @@ Se i problemi persistono,  questo è un buon momento per eseguire lo strumento d
 
    ![Scheda risposte](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Scheda relativa alle schede risposte in Power BI](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. In alcuni casi, la prima volta che si digita qualcosa nel campo **Utterance** non accade nulla. Può essere considerata come una sorta di innesco del sistema: si sta comunicando allo strumento di risoluzione dei problemi che è tempo di attivarsi. Tagliare e incollare oppure digitare di nuovo nel campo **Utterance**. In questo esempio, il nome della scheda di risposta è **Cortana stores**. Quando si incolla o si digita **Cortana stores**, nello strumento, viene generato un unico risultato che viene visualizzato nel campo **Interpretations**. Fare clic per visualizzare la scheda risposte nella finestra di Cortana, in questo caso, **Cortana stores**.

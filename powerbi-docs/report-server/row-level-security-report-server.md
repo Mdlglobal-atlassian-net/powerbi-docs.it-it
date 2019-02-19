@@ -1,20 +1,20 @@
 ---
 title: Sicurezza a livello di riga (RLS) nel server di report di Power BI
 description: Informazioni sull'uso della sicurezza a livello di riga (RLS) nel server di report di Power BI.
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 2130a0b76c2ff3c333e78f05277bc10028e697df
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068075"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324945"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicurezza a livello di riga (RLS) nel server di report di Power BI
 

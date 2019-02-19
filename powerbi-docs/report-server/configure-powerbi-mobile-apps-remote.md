@@ -1,20 +1,20 @@
 ---
 title: Configurare l'accesso delle app per dispositivi mobili iOS in modalità remota
 description: Informazioni su come configurare le app per dispositivi mobili iOS in modalità remota per il server di report.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293581"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324370"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota
 
@@ -35,10 +35,10 @@ Nella tabella seguente vengono illustrate in dettaglio le coppie.
 
 |Key  |Tipo  |Descrizione  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | Stringa | URL server di report </br> Deve iniziare con http/https |
-| com.microsoft.powerbi.mobile.ServerUsername | Stringa | [facoltativo] </br> Nome utente da usare per connettere il server. </br> Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo] </br> Il valore predefinito è "Server di report" </br> Nome descrittivo usato nell'app per rappresentare il server | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | Il valore predefinito è True </br>Se impostato su "True", esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. </br> Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione. </br> Impostandolo su "False" vengono aggiunti i valori inviati lasciando le impostazioni esistenti. </br> Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non richiede all'utente di ripetere l'autenticazione per lo stesso server. |
+| com.microsoft.powerbi.mobile.ServerURL | Stringa | URL server di report <br> Deve iniziare con http/https |
+| com.microsoft.powerbi.mobile.ServerUsername | Stringa | [facoltativo] <br> Nome utente da usare per connettere il server. <br> Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo] <br> Il valore predefinito è "Server di report" <br> Nome descrittivo usato nell'app per rappresentare il server | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | Il valore predefinito è True <br>Se impostato su "True", esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. <br> Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione. <br> Impostandolo su "False" vengono aggiunti i valori inviati lasciando le impostazioni esistenti. <br> Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non richiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
 Di seguito è riportato un esempio di configurazione dei criteri di configurazione con Intune.
 

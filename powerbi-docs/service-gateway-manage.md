@@ -11,18 +11,18 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: ff9f75b216ba64dfdb0b8244bb99016d0edd4ede
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276998"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324864"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Gestire un gateway locale di Power BI
 
-Dopo aver [installato un gateway dati di Power BI](service-gateway-install.md), è possibile gestirlo in base alle specifiche esigenze. Questo argomento illustra come aggiungere e rimuovere le origini dati e gli utenti, riavviare un gateway, nonché eseguire la migrazione di un gateway, ripristinarlo, assumerne il controllo e rimuoverlo. 
+Dopo aver [installato un gateway dati di Power BI](service-gateway-install.md), è possibile gestirlo in base alle specifiche esigenze. Questo argomento illustra come aggiungere e rimuovere le origini dati e gli utenti, riavviare un gateway, nonché eseguire la migrazione di un gateway, ripristinarlo, assumerne il controllo e rimuoverlo.
 
-È possibile gestire un gateway tramite l'area **Gestisci gateway** del servizio Power BI, nell'app gateway nel computer locale e tramite script di PowerShell. Questo articolo è incentrato sul servizio Power BI. 
+È possibile gestire un gateway tramite l'area **Gestisci gateway** del servizio Power BI, nell'app gateway nel computer locale e tramite script di PowerShell. Questo articolo è incentrato sul servizio Power BI.
 
 Se si è appena installato un gateway, è consigliabile per prima cosa [aggiungere un'origine dati](#add-a-data-source) e quindi [aggiungere gli utenti](#add-users-to-a-data-source) in modo che possano accedere all'origine dati.
 

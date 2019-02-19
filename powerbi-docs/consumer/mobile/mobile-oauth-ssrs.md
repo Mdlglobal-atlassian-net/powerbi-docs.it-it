@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
 ms.author: maghan
-ms.openlocfilehash: 0e57ce3b5acd638b9bab316108a8fd6f46b3b280
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 88d41750ef1cc32a17e1569b7104151e2f2407f1
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285784"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249092"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 Informazioni su come configurare l'ambiente per supportare l'autenticazione OAuth con l'app Power BI per dispositivi mobili e connettersi a Server di report di Microsoft Power BI e a SQL Server Reporting Services 2016 o versioni successive.
@@ -58,7 +58,7 @@ Per informazioni su come configurare il corretto nome dell'entità servizio (SPN
 ### <a name="enabling-negotiate-authentication"></a>Abilitare la negoziazione dell'autenticazione
 Per abilitare l'uso dell'autenticazione Kerberos in un server di report è necessario configurare il tipo di autenticazione del server di report come RSWindowsNegotiate. Questa operazione viene eseguita all'interno del file rsreportserver.config.
 
-```
+```xml
 <AuthenticationTypes>  
     <RSWindowsNegotiate />  
     <RSWindowsKerberos />  
@@ -161,7 +161,7 @@ Per configurare la delega vincolata, si dovranno eseguire le operazioni seguenti
 ### <a name="add-wap-application"></a>Aggiungere applicazione WAP
 Mentre è possibile pubblicare applicazioni nella console di gestione di accesso ai report, è consigliabile creare l'applicazione con PowerShell. Ecco il comando per aggiungere l'applicazione.
 
-```
+```powershell
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/reports/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl http://ContosoSSRS/reports/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
@@ -175,7 +175,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>Impostazione dell'autenticazione integrata per l'applicazione WAP
 Dopo aver aggiunto l'applicazione WAP, è necessario impostare BackendServerAuthenticationMode in modo da usare IntegratedWindowsAuthentication. A tale scopo, è necessario l'ID dell'applicazione WAP.
 
-```
+```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
 ```
 
@@ -183,7 +183,7 @@ Get-WebApplicationProxyApplication “Contoso Reports” | fl
 
 Eseguire il comando seguente per impostare il nome BackendServerAuthenticationMode usando l'ID dell'applicazione WAP.
 
-```
+```powershell
 Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -BackendServerAuthenticationMode IntegratedWindowsAuthentication
 ```
 
