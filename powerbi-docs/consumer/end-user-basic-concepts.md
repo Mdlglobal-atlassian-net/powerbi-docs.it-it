@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430603"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216195"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i ***consumer***
 
@@ -61,7 +61,7 @@ Questa è la forma più semplice.
 
     Per altre informazioni, vedere [Dashboard per *consumer* di Power BI](end-user-dashboards.md)
 
-* ![icona del report](media/end-user-basic-concepts/report.png) Un *report* è costituito da una o più pagine di oggetti visivi interattivi, testo e grafica che illustrano un determinato argomento. I report sono basati su un singolo set di dati. Spesso le pagine del report sono organizzate in modo che ognuna riguardi un argomento di interesse o risponda a una domanda singola.
+* ![icona del report](media/end-user-basic-concepts/report.png) Un *report* è costituito da una o più pagine di oggetti visivi interattivi, testo e grafica che illustrano un determinato argomento. I report sono basati su un singolo set di dati. Le pagine dei report sono spesso organizzate in modo che ognuna riguardi un argomento di interesse o risponda a un'unica domanda.
 
     Per altre informazioni, vedere [Report per *consumer* di Power BI](end-user-reports.md)
 
@@ -72,7 +72,7 @@ _______________________________________________________
 
 
 
-## <a name="datasets"></a>Set di dati
+## <a name="datasets"></a>Datasets
 Un *set di dati* è una raccolta di dati che i *designer* importano o alla quale si connettono e che quindi usano per creare report e dashboard. In qualità di consumer, l'utente non interagisce direttamente con i set di dati, ma è comunque utile comprendere come questi si integrano nel quadro complessivo.  
 
 Ogni set di dati rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un set di dati di Salesforce. Sono supportate molte origini dati diverse.

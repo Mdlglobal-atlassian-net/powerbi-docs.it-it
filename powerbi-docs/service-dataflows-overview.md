@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223675"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324827"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparazione dei dati self-service in Power BI (anteprima)
 
@@ -52,6 +52,9 @@ Di seguito sono riportati alcuni esempi del funzionamento dei flussi di dati:
 ## <a name="how-to-use-dataflows"></a>Come usare i flussi di dati
 
 Nella sezione precedente sono stati illustrati alcuni esempi di come usare i flussi di dati per creare rapidamente analisi avanzate in Power BI. In questa sezione viene descritto come creare rapidamente informazioni dettagliate usando i flussi di dati in un'organizzazione, ottenere una panoramica immediata del modo in cui i professionisti di business intelligence possono creare flussi di dati su misura e personalizzare le informazioni dettagliate per la propria organizzazione.
+
+> [!NOTE]
+> È necessario disporre di un account di Power BI a pagamento per usare i flussi di dati, ad esempio un account Power BI Pro o Power BI Premium, ma non sono previsti addebiti separati per l'uso dei flussi di dati. 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>Estendere il modello CDM per le esigenze aziendali
 Per le organizzazioni che vogliono estendere il modello CDM, i flussi di dati consentono ai professionisti di business intelligence di personalizzare le entità standard o crearne di nuove. Questo approccio self-service alla personalizzazione del modello di dati può essere quindi usato con i flussi di dati per creare app e dashboard di Power BI su misura per un'organizzazione.

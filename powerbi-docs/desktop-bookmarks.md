@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216436"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325041"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -61,7 +61,7 @@ Configurare una pagina di report nel modo in cui si vuole che venga visualizzata
 
 Una volta creato un segnalibro, è possibile visualizzarlo facendo clic sul segnalibro nel riquadro **Segnalibri**. 
 
-È anche possibile specificare se ogni segnalibro applicherà le proprietà dei *dati*, ad esempio filtri e filtri dei dati, le proprietà di *visualizzazione*, come evidenziazioni e relativa visibilità e le modifiche della pagina che presentano la pagina che era visibile quando è stato aggiunto il segnalibro. Queste funzionalità sono utili quando si usano i segnalibri per passare tra i tipi di oggetti visivi. In questo caso è probabile che si voglia disattivare la proprietà dei dati, in modo che i filtri non vengano reimpostati quando gli utenti cambiano tipo di oggetto visivo. 
+È anche possibile specificare se ogni segnalibro applicherà le proprietà dei *dati*, ad esempio filtri e filtri dei dati, le proprietà di *visualizzazione*, come evidenziazioni e relativa visibilità e le modifiche della pagina che presentano la pagina che era visibile quando è stato aggiunto il segnalibro. Queste funzionalità sono utili quando si usano i segnalibri per spostarsi tra visualizzazioni dei report o una selezione di oggetti visivi. In questo caso è probabile che si voglia disattivare le proprietà dei dati, in modo che i filtri non vengano reimpostati quando gli utenti cambiano visualizzazione selezionando un segnalibro. 
 
 Per apportare tali modifiche, selezionare i puntini di sospensione accanto al nome del segnalibro, come illustrato nell'immagine precedente, e selezionare o deselezionare i segni di spunta accanto a *Dati*, *Visualizzazione* e altri controlli. 
 
