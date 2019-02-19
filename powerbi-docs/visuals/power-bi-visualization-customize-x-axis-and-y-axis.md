@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287003"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223307"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 Questa esercitazione illustra i diversi modi disponibili per personalizzare gli assi X e Y degli oggetti visivi. Non tutti gli oggetti visivi contengono assi o sono personalizzabili. I grafici a torta, ad esempio, non contengono assi. Le opzioni di personalizzazione variano da un oggetto visivo all'altro; sono quindi disponibili troppe opzioni per descriverle tutte in un solo articolo. Verranno quindi descritte alcune delle personalizzazioni degli assi usate più di frequente e verrà illustrato l'uso della scheda di formattazione visiva dell'area di disegno report di Power BI.  
@@ -70,7 +70,7 @@ Per annullare tutte le personalizzazioni apportate all'asse X fino a questo mome
 3. Spostare la **Posizione** dell'asse Y verso destra.
 4. Formattare il colore, le dimensioni e il tipo di carattere del testo. In questo esempio il **Colore** del testo è stato impostato sul nero, **Dimensione testo** su 14 e il **Tipo di carattere** su Arial Black.  
 5. Mantenere **Unità visualizzate** impostate su Milioni e **Posizioni decimali valore** impostate su zero.
-6. Per questa visualizzazione, un titolo dell'asse Y non migliorerebbe l'aspetto visivo, quindi lasciare il **Titolo** impostato su No.  
+6. Per questa visualizzazione, un titolo dell'asse Y non migliorerà l'aspetto visivo. Lasciare quindi **Titolo** impostato su No.  
 7. È ora possibile evidenziare le linee della griglia impostando il **Colore** su grigio scuro e aumentando lo spessore del **Tratto** impostandolo su 2.
 
     Dopo tutte queste personalizzazioni, l'aspetto dell'istogramma dovrebbe essere simile al seguente:
@@ -136,7 +136,7 @@ Se l'asse X è stato categorizzato dal proprietario del report come tipo di data
 ## <a name="next-steps"></a>Passaggi successivi
 Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
 
-[Personalizzare ](power-bi-visualization-customize-title-background-and-legend.md)[titoli, sfondi e legende](power-bi-visualization-customize-title-background-and-legend.md)
+[Personalizzare titoli, sfondi e legende](power-bi-visualization-customize-title-background-and-legend.md)
 
 [Personalizzare le proprietà di colori e assi](service-getting-started-with-color-formatting-and-axis-properties.md)
 

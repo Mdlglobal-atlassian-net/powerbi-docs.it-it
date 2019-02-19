@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 130c18bb51c99813999f87c69c465dc59783e638
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276722"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216770"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Abilitare Cortana per l'accesso ai report di Power BI e ai rispettivi set di dati sottostanti
 Si è letto l'argomento [Introduzione a Cortana per Power BI](service-cortana-intro.md) (in caso contrario, è preferibile leggerlo prima di procedere). Ora si è pronti per provare in autonomia.  Prima di porre domande in linguaggio naturale in Cortana e trovare le risposte dai dati archiviati nei ***report*** di Power BI, è necessario che siano soddisfatti alcuni requisiti. In particolare, sono necessari gli elementi seguenti.
@@ -75,7 +75,7 @@ L'abilitazione dei report in Power BI per l'accesso da parte di Cortana è un pr
    * Aprire **Impostazioni** > **Account**.
      
        ![Impostazioni - Account](media/service-cortana-enable/power-bi-windows-accounts.png)
-   * Scorrere fino alla fine e selezionare **Aggiungi un account aziendale o dell'istituto di istruzione**. In alternativa, dalla pagina **Account** selezionare **Accedi all'azienda o all'istituto di istruzione > Connetti**.
+   * Scorrere fino alla fine e selezionare **Aggiungi un account aziendale o dell'istituto di istruzione**. In alternativa, nella pagina **Account** selezionare **Access work or school (Accedi all'azienda o all'istituto di istruzione) > Connetti**.
      
      ![Aggiungere un account aziendale](media/service-cortana-enable/power-bi-add-work-account2.png)
 

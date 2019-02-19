@@ -1,53 +1,43 @@
 ---
-title: Relazioni molti-a-molti in Power BI Desktop (anteprima)
-description: Usare le relazioni molti-a-molti in Power BI Desktop
+title: Relazioni molti-a-molti in Power BI Desktop
+description: Usare relazioni con cardinalità molti-a-molti in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291074"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225961"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relazioni molti-a-molti in Power BI Desktop (anteprima)
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relazioni con cardinalità molti-a-molti in Power BI Desktop
 
-Con la funzionalità *Relazioni molti-a-molti* di Power BI Desktop, è possibile unire le tabelle che usano una cardinalità *Molti-a-molti*. Ciò consente di creare in modo più semplice e intuitivo modelli di dati che contengono due o più origini dati. La funzionalità *Relazioni molti-a-molti* fa parte delle capacità più ampie per i *modelli compositi* di Power BI Desktop.
+Con la funzionalità *Relazioni con cardinalità molti-a-molti* di Power BI Desktop è possibile unire le tabelle che usano la cardinalità *Molti-a-molti*. Ciò consente di creare in modo più semplice e intuitivo modelli di dati che contengono due o più origini dati. La funzionalità *Relazioni con cardinalità molti-a-molti* fa parte delle funzionalità dei *modelli compositi*, più ampie, di Power BI Desktop.
 
 ![Una relazione molti-a-molti nel riquadro "Modifica relazione"](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-La funzione *Relazioni molti-a-molti* di Power BI Desktop fa parte di una raccolta di tre funzionalità correlate:
+La funzionalità *Relazioni con cardinalità molti-a-molti* di Power BI Desktop fa parte di una raccolta di tre funzionalità correlate:
 
 * **Modelli compositi**: consente a un report di avere due o più connessioni dati, tra cui connessioni DirectQuery o importazione, in qualsiasi combinazione. Per altre informazioni, vedere [Modelli compositi in Power BI Desktop (anteprima)](desktop-composite-models.md).
 
-* **Relazioni molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni molti-a-molti* tra le tabelle. Questo approccio consente di rimuovere i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. La funzionalità è descritta più dettagliatamente in questo articolo.
+* **Relazioni con cardinalità molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni con cardinalità molti-a-molti* tra le tabelle. Questo approccio consente di rimuovere i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. La funzionalità è descritta più dettagliatamente in questo articolo.
 
 * **Modalità di archiviazione**: è ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, iniziavano le query che venivano inviate alle origini di back-end. Vedere [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md) per altre informazioni.
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>Abilitare la funzionalità in anteprima *Relazioni molti-a-molti*
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>Problemi risolti dalle *relazioni con cardinalità molti-a-molti*
 
-La funzionalità *Relazioni molti-a-molti* deve essere abilitata in Power BI Desktop. Per abilitare i modelli compositi, selezionare **File** > **Opzioni e impostazioni** > **Opzioni** > **Funzionalità di anteprima** e quindi selezionare la casella di controllo **Modelli compositi**.
+Prima che la funzionalità *Relazioni con cardinalità molti-a-molti* fosse disponibile, la relazione tra due tabelle era definita in Power BI. Almeno una delle colonne della tabella interessate dalla relazione doveva contenere valori univoci. Spesso, tuttavia, nessuna colonna conteneva valori univoci. 
 
-![Riquadro funzionalità di anteprima](media/desktop-composite-models/composite-models_02.png)
+Ad esempio, due tabelle potevano includere la colonna *Country*, ma i valori di *Country* non erano univoci nelle tabelle. Per unire tali tabelle, era necessario escogitare una soluzione alternativa. Una possibile soluzione alternativa consisteva nell'introdurre nel modello delle tabelle aggiuntive con i valori univoci necessari. Grazie alla funzionalità *Relazioni con cardinalità molti-a-molti*, è ora possibile unire tali tabelle direttamente usando una relazione con cardinalità **molti a molti**.  
 
-Per abilitare la funzionalità, è necessario riavviare Power BI Desktop.
-
-![Finestra "La funzionalità richiede il riavvio"](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>Che cosa risolvono le *relazioni molti-a-molti*
-
-Prima che la funzionalità *Relazioni molti-a-molti* fosse disponibile, la relazione tra due tabelle era definita in Power BI. Almeno una delle colonne della tabella interessate dalla relazione doveva contenere valori univoci. Spesso, tuttavia, nessuna colonna conteneva valori univoci. 
-
-Ad esempio, due tabelle potevano includere la colonna *Country*, ma i valori di *Country* non erano univoci nelle tabelle. Per unire tali tabelle, era necessario escogitare una soluzione alternativa. Una possibile soluzione alternativa consisteva nell'introdurre nel modello delle tabelle aggiuntive con i valori univoci necessari. Grazie alla funzionalità *Relazioni molti-a-molti*, ora è possibile unire tali tabelle direttamente usando una relazione con cardinalità **molti a molti**.  
-
-## <a name="use-many-to-many-relationships"></a>Usare le *relazioni molti-a-molti*
+## <a name="use-relationships-with-a-many-many-cardinality"></a>Usare le *relazioni con cardinalità molti-a-molti*
 
 Quando si definisce una relazione tra due tabelle in Power BI, è necessario specificare la cardinalità della relazione. Ad esempio, la relazione tra *ProductSales* e *Product*&mdash;utilizzando le colonne *ProductSales [ProductCode]* e *Product [ProductCode]*&mdash;verrebbe definita come *molti-a-uno*. La relazione viene definita in questo modo perché sono presenti molti valori Sales per ogni prodotto e la colonna della tabella *Product* *(ProductCode)* è univoca. Quando si definisce una relazione con cardinalità *molti-a-uno*, *uno-a-molti* o *uno-a-uno*, Power BI la convalida per verificare che la cardinalità selezionata corrisponda effettivamente ai dati.
 
@@ -117,14 +107,11 @@ Se in questa soluzione alternativa si definisce la nuova tabella *Sales* come la
 
 ![Oggetto visivo tabella](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-Come si può notare, *TX*&mdash;con dati *Sales* ma dati *Population*&mdash; sconosciuti e *New York*&mdash; con dati *Population* ma nessun dato *Sales*&mdash;verrebbero inclusi. Questa soluzione alternativa non è ottimale e presenta molti problemi. Con la creazione delle relazioni molti-a-molti, questi problemi vengono risolti, come descritto nella sezione seguente.
+Come si può notare, *TX*&mdash;con dati *Sales* ma dati *Population*&mdash; sconosciuti e *New York*&mdash; con dati *Population* ma nessun dato *Sales*&mdash;verrebbero inclusi. Questa soluzione alternativa non è ottimale e presenta molti problemi. Con la creazione delle relazioni con cardinalità molti-a-molti, questi problemi vengono risolti, come descritto nella sezione seguente.
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>Usare le *relazioni molti-a-molti* al posto della soluzione alternativa
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>Usare *relazioni con cardinalità molti-a-molti* anziché la soluzione alternativa
 
 A partire dalla versione di luglio 2018 di Power BI Desktop, è possibile correlare direttamente le tabelle, ad esempio quelle descritte in precedenza, senza dover ricorrere a simili soluzioni alternative. Ora è possibile impostare la cardinalità della relazione su *molti-a-molti*. Questa impostazione indica che nessuna delle due tabelle contiene valori univoci. Per questo tipo di relazioni, è comunque possibile stabilire quale tabella filtri l'altra tabella o applicare un filtro bidirezionale in cui entrambe le tabelle si filtrano a vicenda.  
-
-> [!NOTE]
-> La possibilità di creare *relazioni molti-a-molti* è disponibile in anteprima. Mentre è in anteprima, non è possibile pubblicare nei modelli di servizio Power BI che utilizzano *relazioni molti-a-molti*. 
 
 In Power BI Desktop, la cardinalità predefinita è *molti-a-molti* quando viene determinato che nessuna delle due tabelle contiene valori univoci per le colonne coinvolte nella relazione. In questi casi viene visualizzato un avviso, per verificare che l'impostazione della relazione sia il comportamento previsto, e non l'effetto indesiderato di un problema dei dati. 
 
@@ -136,7 +123,7 @@ La visualizzazione **Relazioni** risultante conterrebbe la relazione molti-a-mol
 
 ![Oggetto visivo tabella](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-Le principali differenze tra le *relazioni molti-a-molti* e le più comuni relazioni *molti-a-uno* sono le seguenti:
+Le principali differenze tra le *relazioni con cardinalità molti-a-molti* e le più comuni relazioni *molti-a-uno* sono le seguenti:
 
 * I valori mostrati non includono una riga vuota che tenga conto delle righe non abbinate nell'altra tabella. Né i valori tengono conto delle righe in cui la colonna usata nella relazione nell'altra tabella ha valore Null.
 * Non è possibile usare la funzione `RELATED()` perché più di una riga potrebbe essere correlata.
@@ -153,7 +140,7 @@ Tenendo presenti le differenze precedenti, assicurarsi che i calcoli che utilizz
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
-Esistono alcune limitazioni per questa versione delle *relazioni molti-a-molti* e dei modelli compositi.
+Esistono alcune limitazioni per questa versione delle *relazioni con cardinalità molti-a-molti* e dei modelli compositi.
 
 Le origini Live Connect (multidimensionali) seguenti non possono essere usate con i modelli compositi:
 
@@ -165,7 +152,7 @@ Le origini Live Connect (multidimensionali) seguenti non possono essere usate co
 
 Quando ci si connette a tali origini multidimensionali tramite DirectQuery, non è possibile connettersi a un'altra origine DirectQuery o attuare combinazioni con dati importati.
 
-Le limitazioni esistenti per l'uso di DirectQuery si applicano anche quando si usano le *relazioni molti-a-molti*. Molte di queste limitazioni si riferiscono attualmente a ogni singola tabella, a seconda della modalità di archiviazione della tabella. Ad esempio, una colonna calcolata per una tabella importata può fare riferimento ad altre tabelle, ma una colonna calcolata per una tabella di DirectQuery può fare riferimento solo alle colonne nella stessa tabella. Altre limitazioni si applicano al modello nel suo complesso, se una qualsiasi delle tabelle all'interno del modello è in modalità DirectQuery. Ad esempio, le funzionalità Informazioni rapide e Domande e risposte non sono disponibili per un modello se per una delle tabelle all'interno di esso è impostata la modalità di archiviazione DirectQuery. 
+Le limitazioni esistenti per l'uso di DirectQuery si applicano anche quando si usano le *relazioni con cardinalità molti-a-molti*. Molte di queste limitazioni si riferiscono attualmente a ogni singola tabella, a seconda della modalità di archiviazione della tabella. Ad esempio, una colonna calcolata per una tabella importata può fare riferimento ad altre tabelle, ma una colonna calcolata per una tabella di DirectQuery può fare riferimento solo alle colonne nella stessa tabella. Altre limitazioni si applicano al modello nel suo complesso, se una qualsiasi delle tabelle all'interno del modello è in modalità DirectQuery. Ad esempio, le funzionalità Informazioni rapide e Domande e risposte non sono disponibili per un modello se per una delle tabelle all'interno di esso è impostata la modalità di archiviazione DirectQuery. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 

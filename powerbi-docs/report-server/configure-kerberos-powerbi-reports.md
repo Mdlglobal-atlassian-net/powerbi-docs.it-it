@@ -9,19 +9,19 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5342f509fdd0705b2752aab3315a4968d610b681
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296193"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223767"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configurare Kerberos per l'uso di report di Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Informazioni su come configurare il server di report per l'autenticazione Kerberos nelle origini dati usate all'interno dei report di Power BI per un ambiente distribuito.
 
-Il Server di Report di Power BI offre la possibilità di ospitare report di Power BI. Il server di report supporta molte origini dati. Questo articolo illustra in dettaglio SQL Server Analysis Services, ma è possibile usare i concetti e applicarli ad altre origini dati come SQL Server.
+Il Server di Report di Power BI offre la possibilità di ospitare report di Power BI. Il server di report supporta molte origini dati. Questo articolo illustra specificamente SQL Server Analysis Services, ma è possibile applicare i concetti illustrati ad altre origini dati, ad esempio SQL Server.
 
 È possibile installare il Server di Report di Power BI, SQL Server e Analysis Services in un singolo computer e tutto dovrebbe funzionare senza alcuna configurazione aggiuntiva. Questo è ideale per ambienti di testing. Potrebbero verificarsi degli errori se si installano questi servizi in computer separati, cioè in un ambiente distribuito dove è necessario usare l'autenticazione Kerberos, la cui implementazione richiede una configurazione. 
 
@@ -63,7 +63,7 @@ All'interno del file rsreportserver.config, cercare la sezione **Authentication/
 
 Assicurarsi che RSWindowsNegotiate sia elencato per primo nell'elenco dei tipi di autenticazione. L'URL dovrebbe essere simile a quello indicato di seguito.
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

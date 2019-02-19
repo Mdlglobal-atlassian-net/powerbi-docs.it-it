@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296778"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215602"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integrazione di flussi di dati e Azure Data Lake (anteprima)
 
@@ -65,7 +65,7 @@ Per creare e gestire le cartelle CDM all'interno del file system di Power BI, so
 
 La condivisione delle cartelle CDM con i consumer di dati, ad esempio utenti o servizi che devono leggere i dati, viene semplificata tramite token di Active Directory OAuth Bearer e ACL POSIX. In questo modo, gli amministratori hanno la possibilità di monitorare gli accessi alle cartelle CDM. L'unica azione richiesta è la concessione dell'accesso a un oggetto di Active Directory a scelta (ad esempio, un gruppo di utenti o un servizio) per la cartella CDM. È consigliabile che tutti gli accessi alla cartella CDM, per qualsiasi identità diversa dal produttore dei dati, siano di sola lettura. In questo modo è possibile proteggere l'integrità dei dati generati dal producer.
 
-Per aggiungere cartelle CDM a Power BI, l'utente che aggiunge la cartella CDM deve avere ACL di accesso in *lettura* sia pe la cartella CDM stessa che per qualsiasi file o cartella in essa inclusi. Sono inoltre richiesti ACL di accesso in *esecuzione* per la cartella CDM stessa e le eventuali sottocartelle. Per altre informazioni, è consigliabile leggere sia l'articolo [Access control lists on files and directory](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) (Elenchi di controllo di accesso per file e directory) che l'articolo [Best practices for using Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) (Procedure consigliate per l'uso di Azure Data Lake Storage Gen2).
+Per aggiungere cartelle CDM a Power BI, l'utente che aggiunge la cartella CDM deve avere ACL di accesso in *lettura* sia pe la cartella CDM stessa che per qualsiasi file o cartella in essa inclusi. Sono inoltre richiesti ACL di accesso in *esecuzione* per la cartella CDM stessa e le eventuali sottocartelle. Per altre informazioni, è consigliabile leggere sia l'articolo [Elenchi di controllo di accesso per file e directory](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) che l'articolo [Procedure consigliate per l'uso di Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices).
 
 
 ### <a name="alternative-forms-of-authorization"></a>Forme alternative di autorizzazione

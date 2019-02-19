@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287739"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216436"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -117,7 +117,7 @@ Nella modalità di modifica è possibile usare la combinazione CTRL+clic per seg
 
 A partire dalla versione di agosto 2018 di **Power BI Desktop**, è possibile creare e usare gruppi di segnalibri. Un gruppo di segnalibro è una raccolta di segnalibri specificati dall'utente, che possono essere visualizzati e organizzati come gruppo. 
 
-Per creare un gruppo di segnalibri, tenere premuto il tasto CTRL e selezionare i segnalibri che si vuole includere nel gruppo, quindi fare clic sui puntini di sospensione accanto a uno qualsiasi dei segnalibri selezionati e selezionare **Gruppo** dal menu visualizzato.
+Per creare un gruppo di segnalibri, tenere premuto CTRL, selezionare i segnalibri da includere nel gruppo e quindi fare clic sui puntini di sospensione accanto a uno qualsiasi dei segnalibri selezionati e selezionare **Gruppo** dal menu visualizzato.
 
 ![Creare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_15.png)
 

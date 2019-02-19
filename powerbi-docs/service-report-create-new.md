@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 31a7221d3b284e6342b192384f92616a52e12631
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280254"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216954"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creare un nuovo report del servizio Power BI importando un set di dati
 Dopo aver letto [Report in Power BI](consumer/end-user-reports.md) si supponga di voler creare un report personalizzato. È possibile creare un report in molti modi, ma in questo articolo verrà spiegato come crearne uno molto semplice da un set di dati di Excel tramite il servizio Power BI. Una volta apprese le nozioni di base relative alla creazione di un report, è possibile consultare gli argomenti più avanzati elencati nella sezione **Passaggi successivi** alla fine di questo articolo.  
@@ -56,7 +56,7 @@ Dopo aver importato il set di dati, è possibile iniziare a rispondere ad alcune
 1. Nel riquadro Campi selezionare **Sales** > **This Year Sales** > **Value**.
    
     ![Grafico a barre nell'editor di report](media/service-report-create-new/power-bi-report-step1.png)
-2. Convertire l'oggetto visivo in un misuratore selezionando il modello del misuratore ![Icona del misuratore](media/service-report-create-new/powerbi-gauge-icon.png) nel riquadro **Visualizzazioni**.
+2. Convertire l'oggetto visivo in un misuratore selezionando il modello Misuratore ![Icona Misuratore](media/service-report-create-new/powerbi-gauge-icon.png) nel riquadro **Visualizzazioni**.
    
     ![Oggetto visivo misuratore nell'editor di report](media/service-report-create-new/power-bi-report-step2.png)
 3. Trascinare anche **Sales** > **This Year Sales** > **Obiettivo** in **Valore di destinazione**. La procedura è quasi finita.
@@ -73,7 +73,7 @@ Il responsabile marketing ha altre domande a cui è necessario dare una risposta
 2. Deselezionare il misuratore. Nel riquadro Campi selezionare **Sales** > **This Year Sales** > **Value** e quindi selezionare **Sales** > **Last Year Sales**.
    
     ![Editor di report con misuratore e grafico a barre](media/service-report-create-new/power-bi-report-step4.png)
-3. Convertire l'oggetto visivo in un grafico ad area selezionando il modello del grafico ad area ![Icona del grafico](media/service-report-create-new/power-bi-areachart-icon.png) nel riquadro **Visualizzazioni**.
+3. Convertire l'oggetto visivo in un grafico ad aree selezionando il modello Grafico ad aree ![Icona Grafico](media/service-report-create-new/power-bi-areachart-icon.png) nel riquadro **Visualizzazioni**.
 4. Selezionare **Tempo** > **Periodo** per aggiungerlo all'area **Asse**.
    
     ![Editor di report con il grafico ad area attivo](media/service-report-create-new/power-bi-report-step5.png)

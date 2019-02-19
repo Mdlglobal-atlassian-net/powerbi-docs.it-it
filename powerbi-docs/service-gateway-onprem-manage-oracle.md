@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f2c7cff36639007276622b095980a9460e539285
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275917"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216753"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gestire l'origine dati - Oracle
 Dopo aver installato il gateway dati locale, sarà necessario aggiungere le origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati Oracle per l'aggiornamento pianificato o per DirectQuery.
@@ -155,7 +155,7 @@ Se si è presenti nella scheda **Utenti** dell'origine dati configurata all'inte
 ![](media/service-gateway-onprem-manage-oracle/powerbi-gateway-enterprise-schedule-refresh.png)
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
-Quando la sintassi di denominazione non è corretta o non è configurata correttamente, potrebbero verificarsi vari errori di Oracle.
+Quando la sintassi di denominazione non è corretta o non è configurata correttamente, possono verificarsi vari errori di Oracle.
 
 * ORA-12154: TNS: impossibile risolvere l'identificativo di connessione specificato  
 * ORA-12514: TNS: il listener non è attualmente a conoscenza del servizio richiesto nel descrittore di connessione  

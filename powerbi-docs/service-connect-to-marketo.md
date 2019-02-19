@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008627"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223790"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Connettersi a Marketo con Power BI
 Il pacchetto di contenuto Marketo per Power BI consente di ottenere informazioni dettagliate sull'account Marketo, con dati relativi ai lead e alle rispettive attività. La creazione di questa connessione consente di recuperare i dati e fornisce automaticamente un dashboard e i report correlati basati su tali dati.
@@ -59,7 +59,7 @@ In Marketo in Power BI sono disponibili i dati seguenti relativi all'attività v
 | Nome tabella | Descrizione |
 | --- | --- |
 | EmailActivities |Dati relativi a posta elettronica inviata ai lead/contatti con i dettagli su dispositivi, categorie, numero e percentuale di messaggi non recapitati, numero e percentuale di messaggi selezionati, numero e percentuale di messaggi aperti e nome del programma. Il report Email Activities mostrato in Power BI riguarda esclusivamente il recapito della posta elettronica e non applica alcuna logica aggiuntiva ai dati. Per questo motivo, i risultati del client Marketo e di Power BI potrebbero risultare diversi. |
-| ProgramActivites |Dati sui programmi che hanno subito modifiche di stato. Sono inclusi dettagli come: Motivo, Operazione riuscita, numero e percentuale acquisizione programma e numero e percentuale Programma riuscito. |
+| ProgramActivities |Dati sui programmi che hanno subito modifiche di stato. Sono inclusi dettagli come: Motivo, Operazione riuscita, numero e percentuale acquisizione programma e numero e percentuale Programma riuscito. |
 | WebPageActivities |Dati ricavati dalle visite degli utenti a una pagina Web, tra cui agente di ricerca, agente utente, pagina Web e ora del giorno. |
 | Datetable |Date di oggi e dell'anno scorso.  Consente di analizzare i dati Marketo per data. |
 | Lead |Informazioni sui lead, ad esempio società, importo fatturato, numero di dipendenti, paese, settore, punteggio dei lead e stato dei lead. I lead vengono recuperati in base alla loro presenza nei dati di attività di posta elettronica, del programma e delle pagine Web. |

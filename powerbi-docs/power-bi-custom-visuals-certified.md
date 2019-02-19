@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: ab8da0a7b1fb42158a399b5443bf737718e6a81f
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 812ac76266f8ef3299fa72b575c9ff68d2e75a79
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430419"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216356"
 ---
 # <a name="certified-custom-visuals"></a>Oggetti visivi personalizzati certificati
 
@@ -45,7 +45,7 @@ Per ottenere la [certificazione](#certified-custom-visuals) dell'oggetto visivo 
 
 * Approvato per Microsoft AppSource. L'oggetto visivo personalizzato deve essere disponibile in Microsoft [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
 * L'oggetto visivo personalizzato è scritto con l'API 1.2 o versione successiva.
-* Il repository di codice deve essere disponibile per la revisione da parte del team di Power BI (istanza, codice sorgente JavaSCriptS o TypeScript in formato leggibile tramite GitHub).
+* Il repository di codice deve essere disponibile per la revisione da parte del team di Power BI (ad esempio, codice sorgente JavaScript o TypeScript in formato leggibile, tramite GitHub).
 
     >[!Note]
     > Il codice non deve essere condiviso pubblicamente in Github.

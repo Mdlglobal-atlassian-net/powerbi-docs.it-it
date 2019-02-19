@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a07f266ccdc0b02cd6a18f84b48b5e2b3564b642
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b34bd31592f59048899ccf04385d7b302fd3204
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279014"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223284"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Risoluzione dei problemi di accesso per Power BI Desktop
-In alcuni casi possono verificarsi errori durante i tentativi di accesso a **Power BI Desktop**. Esistono due motivi principali per i problemi di accesso: **errori di autenticazione del proxy** ed **errori di reindirizzamento di URL non HTTPS**. 
+In alcuni casi possono verificarsi errori durante il tentativo di accesso a **Power BI Desktop**. Esistono due motivi principali per i problemi di accesso: **errori di autenticazione del proxy** ed **errori di reindirizzamento di URL non HTTPS**. 
 
 Per determinare quale problema sta causando il problema di accesso, il primo passaggio consiste nel contattare l'amministratore e fornire le informazioni di diagnostica in modo che sia possibile stabilire la causa del problema. Tracciando i problemi associati al problema di accesso, gli amministratori possono determinare quale degli errori seguenti è applicabile. 
 

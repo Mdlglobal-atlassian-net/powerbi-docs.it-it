@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c219a7ac9ce88d3dca9d01a09868835062fe93ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3835bedc1b4ab2df87abf4704ef338ff7f4abc5d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291902"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215045"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Grafici a cascata in Power BI
 Un grafico a cascata mostra il totale aggiornato ogni volta che si aggiungono o si sottraggono valori. È utile per comprendere in che modo un valore iniziale (ad esempio, il reddito netto) è interessato da una serie di modifiche positive e negative.
@@ -51,7 +51,7 @@ Verrà creato un grafico a cascata che visualizza la varianza delle vendite (con
    
     ![Scegliere Ordina per > FiscalMonth](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
    
-    ![risultato del nuovo ordinamento crescente](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
+    ![Risultato del nuovo ordinamento crescente](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-sorted.png)
 6. Approfondire ulteriormente per scoprire qual è il fattore che contribuisce maggiormente ai cambiamenti da un mese all'altro. Trascinare **Store** > **Territory** sul bucket **Breakdown**.
    
     ![Mostra Store nel bucket Breakdown](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)

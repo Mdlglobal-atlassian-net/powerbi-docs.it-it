@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762353"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216379"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Strumento di migrazione di Power BI Embedded
 
@@ -189,7 +189,7 @@ Dopo aver creato l'area di lavoro, è possibile passare alla scheda **Upload**.
 
 Nella scheda **Upload** verranno caricati i report nel servizio Power BI. Verrà visualizzato un elenco dei report caricati nella scheda Download assieme al nome del gruppo di destinazione basato sul piano di migrazione.
 
-![Scheda Upload](media/migrate-tool/migrate-tool-upload-tab.png)
+![Scheda Carica](media/migrate-tool/migrate-tool-upload-tab.png)
 
 È possibile caricare report selezionati o tutti i report. È anche possibile reimpostare lo stato di upload per caricare nuovamente gli elementi.
 
@@ -207,7 +207,7 @@ Se si ha un report differente con lo stesso nome, sarà necessario modificare il
 
 Nell'esempio precedente, uno dei report clonati non è riuscito e indica che esiste un report con lo stesso nome. Se si sceglie di esaminare il codice XML del piano di migrazione, si vedrà quanto segue.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ Nell'esempio precedente, uno dei report clonati non è riuscito e indica che esi
 
 Per l'elemento non riuscito, è possibile modificare il nome del valore SaaSTargetReportName.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Tornando a Power BI, si noterà che sono stati caricati i report e i set di dati
 
 È possibile caricare una versione locale di un file di Power BI Desktop. È necessario chiudere lo strumento, modificare il file XML e inserire il percorso completo per il file PBIX nella proprietà **PbixPath** locale.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ Dopo aver modificato il file XML, aprire nuovamente il piano nello strumento di 
 
 ### <a name="directquery-reports"></a>Report di DirectQuery
 
-È necessario eseguire l'aggiornamento per aggiornare la stringa di connessione per i report di DirectQuery. Questa operazione può essere eseguita all'interno di *powerbi.com* oppure è possibile eseguire una query a livello di codice sulla stringa di connessione da Power BI Embedded (Paas). Per un esempio, vedere [Estrarre la stringa di connessione DirectQuery dal report PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
+È necessario eseguire l'aggiornamento per aggiornare la stringa di connessione per i report di DirectQuery. Questa operazione può essere eseguita all'interno di *powerbi.com* oppure è possibile eseguire una query a livello di codice sulla stringa di connessione da Power BI Embedded (PaaS). Per un esempio, vedere [Estrarre la stringa di connessione DirectQuery dal report PaaS](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report).
 
-È quindi possibile aggiornare la stringa di connessione per il set di dati all'interno del servizio Power BI (Saas) e impostare le credenziali per l'origine dati. Esaminare gli esempi seguenti per informazioni su come eseguire questa operazione.
+È quindi possibile aggiornare la stringa di connessione per il set di dati all'interno del servizio Power BI (SaaS) e impostare le credenziali per l'origine dati. Esaminare gli esempi seguenti per informazioni su come eseguire questa operazione.
 
 * [Aggiornare la stringa di connessione DirectQuery nell'area di lavoro SaaS](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace)
 * [Impostare le credenziali di DirectQuery nell'area di lavoro SaaS](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace)

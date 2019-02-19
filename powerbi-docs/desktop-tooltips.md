@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 545e8f874cca18167ee260daa92eec3ef1c3e925
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0893d63c9f153b3b2810116a902a13afff3cb2ce
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291488"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223951"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
@@ -81,7 +81,7 @@ Nell'elenco a discesa **Pagina** selezionare la pagina di descrizione comando da
 
 ![Selezionare una pagina di descrizione comando per la descrizione comando manuale](media/desktop-tooltips/desktop-tooltips_10.png)
 
-La possibilità di impostare manualmente una descrizione comando offre diverse opzioni. È possibile impostare una pagina vuota per una descrizione comando ignorando in questo modo la selezione predefinita della descrizione comando di Power BI. Un altro uso consiste nel rifiutare la descrizione comando automaticamente selezionata da Power BI come descrizione comando. Ad esempio, se un oggetto visivo include due campi e ad entrambi i campi è associata una descrizione comando, Power BI ne seleziona solo uno da visualizzare. Poiché probabilmente non è il risultato che si vuole ottenere, è possibile selezionare manualmente la descrizione comando da visualizzare.
+La possibilità di impostare manualmente una descrizione comando offre diverse opzioni. È possibile impostare una pagina vuota per una descrizione comando ignorando in questo modo la selezione predefinita della descrizione comando di Power BI. Un altro uso consiste nel rifiutare la descrizione comando automaticamente selezionata da Power BI come descrizione comando. Se, ad esempio, un oggetto visivo include due campi e ad entrambi i campi è associata una descrizione comando, Power BI ne seleziona solo uno da visualizzare. Poiché probabilmente non è il risultato che si vuole ottenere, è possibile selezionare manualmente la descrizione comando da visualizzare.
 
 ## <a name="reverting-to-default-tooltips"></a>Ripristino delle descrizioni comando predefinite
 
@@ -97,7 +97,7 @@ Occorre tenere presenti alcune considerazioni quando le descrizioni comando del 
 
 Quando viene visualizzata una descrizione comando del report per un grafico a linee, appare una sola descrizione comando per tutte le linee del grafico. Questo comportamento è simile a quello della descrizione comando predefinita per i grafici a linee, per cui viene visualizzata una sola descrizione comando. 
 
-Questo avviene perché il campo nella legenda non viene passato come filtro per la descrizione comando. Nella figura seguente la descrizione comando visualizzata specifica tutte le unità vendute in quel giorno per tutte le tre classi visualizzate nella descrizione comando del report (in questo esempio, Deluxe, Economy e Regular). 
+Questo avviene perché il campo nella legenda non viene passato come filtro per la descrizione comando. Nella figura seguente la descrizione comando visualizzata specifica tutte le unità vendute in quel giorno per tutte e tre le classi visualizzate nella descrizione comando del report (in questo esempio, Deluxe, Economy e Regular). 
 
 ![I grafici a linee visualizzano solo i dati aggregati della descrizione comando](media/desktop-tooltips/desktop-tooltips_12.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e829d0cf174cc81148287ce1b25449246300606c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287808"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216701"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Risolvere i problemi degli aggiornamenti pianificati nel server di report di Power BI
 Questo articolo illustra le risorse disponibili per la risoluzione dei problemi degli aggiornamenti pianificati nel server di report di Power BI.
@@ -25,7 +25,7 @@ In caso di rilevamento di altri problemi, l'articolo verrà aggiornato con infor
 Ecco i problemi più comuni durante un tentativo di pianificazione di un aggiornamento per un report. 
 
 ### <a name="driver-related-problems"></a>Problemi correlati al driver
-La connessione a diverse origini dati potrebbe richiedere driver di terze parti che devono essere installati per stabilire correttamente la connessione. È necessario installarli non solo nel computer in cui si usa Power BI Desktop, ma anche nel server di report.
+La connessione a diverse origini dati può richiedere driver di terze parti che è necessario installare per stabilire la connessione. È necessario installarli non solo nel computer in cui si usa Power BI Desktop, ma anche nel server di report.
 
 Il driver può essere a 32 bit e 64 bit. Assicurarsi di installare il driver a 64 bit, perché il server di report di Microsoft Power BI è a 64 bit.
 
@@ -60,7 +60,7 @@ Le impostazioni seguenti possono essere usate per influire sugli aggiornamenti p
 
 **Impostazioni in rsreportserver.config:**
 
-```
+```xml
 <Configuration>
     <Service>
         <PollingInterval>10</PollingInterval>
@@ -145,7 +145,7 @@ Le voci del log di esecuzione per i report di Power BI sono diverse dalle voci p
     * **SaveToCatalog**: ogni volta che il modello di dati viene salvato nel catalogo.
 
 ## <a name="analysis-services"></a>Analysis Services
-È possibile che in alcuni casi si voglia modificare Analysis Services per diagnosticare problemi o per modificare i limiti di memoria.
+In alcuni casi può essere necessario modificare Analysis Services per diagnosticare problemi o regolare i limiti di memoria.
 
 > [!IMPORTANT]
 > Queste impostazioni verranno reimpostate ogni volta che si aggiorna il server di report. Assicurarsi di mantenere una copia delle modifiche e riapplicarle se necessario.

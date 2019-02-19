@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9e31bd087d65bf0b4f0fa7088b6713ec981392b4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293842"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215160"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Ottimizzare i dati per Power BI Quick Insights
-Si desidera migliorare i risultati di Informazioni rapide?  Se si dispone di un set di dati, provare le operazioni seguenti:
+Si desidera migliorare i risultati di Informazioni rapide?  Se ha la proprietà di un set di dati, provare le operazioni seguenti:
 
 * Nascondere o scoprire le colonne nel set di dati. Informazioni rapide di Power BI non esegue ricerche nelle colonne nascoste.  Pertanto, nascondere le colonne non necessarie o duplicate e scoprire le colonne interessante.
 * Utilizzare una combinazione di tipi di dati come nomi, ore, date e numeri.

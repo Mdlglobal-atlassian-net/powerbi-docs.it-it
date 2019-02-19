@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287636"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223675"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparazione dei dati self-service in Power BI (anteprima)
 
@@ -23,7 +23,7 @@ Di pari passo con il costante aumento del volume dei dati, anche la sfida di org
 
 ![Usare i flussi di dati in Power BI](media/service-dataflows-overview/powerbi-dataflows_01.png)
 
-Power BI introduce i **flussi di dati** per aiutare le organizzazioni a unificare i dati provenienti da origini diverse e prepararli per la modellazione. Gli analisti possono creare facilmente i flussi di dati, usando strumenti familiari e self-service. I flussi di dati vengono usati per inserire, trasformare, integrare e arricchire i Big Data con la definizione di connessioni a origini dati, logica ETL, pianificazioni degli aggiornamenti e altro ancora. Inoltre, il nuovo motore di calcolo basato su modelli integrato nei flussi di dati rende il processo di preparazione dei dati più gestibile, maggiormente deterministico e meno complesso per analisti dei dati e autori di report. In modo analogo a quello in cui i fogli di calcolo gestiscono le operazioni di ricalcolo per tutte le formule interessate, i flussi di dati gestiscono le modifiche per un'entità o un elemento dati per conto dell'utente, automatizzando gli aggiornamenti e mitigando la ripetitività e il dispendio di tempo dei controlli logici richiesti anche per un aggiornamento dei dati di base. Con i flussi di dati, le attività che in precedenza richiedevano la supervisione dei data scientist (e molte ore o giorni per il completamento) possono essere ora gestite con pochi clic dagli analisti e dagli autori di report. 
+Power BI introduce i **flussi di dati** per aiutare le organizzazioni a unificare i dati provenienti da origini diverse e prepararli per la modellazione. Gli analisti possono creare facilmente i flussi di dati, usando strumenti familiari e self-service. I flussi di dati vengono usati per inserire, trasformare, integrare e arricchire i Big Data con la definizione di connessioni a origini dati, logica ETL, pianificazioni degli aggiornamenti e altro ancora. Il nuovo motore di calcolo basato su modelli, integrato nei flussi di dati, poi, rende il processo di preparazione dei dati più gestibile, maggiormente deterministico e meno complesso per analisti dei dati e autori di report. In modo analogo a quello in cui i fogli di calcolo gestiscono le operazioni di ricalcolo per tutte le formule interessate, i flussi di dati gestiscono le modifiche per un'entità o un elemento dati per conto dell'utente, automatizzando gli aggiornamenti e mitigando la ripetitività e il dispendio di tempo dei controlli logici richiesti anche per un aggiornamento dei dati di base. Con i flussi di dati, le attività che in precedenza richiedevano la supervisione dei data scientist (e molte ore o giorni per il completamento) possono essere ora gestite con pochi clic dagli analisti e dagli autori di report. 
 
 I dati vengono archiviati come entità nel [**modello CDM (Common Data Model)**](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2. I flussi di dati vengono creati e gestiti in aree di lavoro per le app usando il servizio Power BI.  
 
@@ -92,7 +92,7 @@ La tabella seguente descrive le funzionalità del flusso di dati e le relative c
 |Entità collegate del flusso di dati| |        +|
 |Schema standardizzato/supporto integrato per il modello CDM|  +|  +|
 
-Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads) per Power BI Premium. I carichi di lavoro del flusso di dati non sono attualmente disponibili in Multi-Geo Capabilities.
+Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads) per Power BI Premium. I carichi di lavoro per i flussi di dati non sono attualmente disponibili in Multi-Geo Capabilities.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Riepilogo della preparazione dei dati self-service per i Big Data in Power BI
 Come accennato in precedenza in questo articolo, esistono più scenari ed esempi in cui i **flussi di dati** possono assicurare un migliore controllo e analisi più rapide dei dati aziendali. Usando un modello di dati standard (schema) definito dal modello CDM, i flussi di dati possono importare i dati aziendali più importanti e prepararli per la modellazione e la creazione di informazioni dettagliate di business intelligence in tempi molto brevi, rispetto ai mesi richiesti in precedenza. 

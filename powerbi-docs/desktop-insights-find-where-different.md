@@ -1,6 +1,6 @@
 ---
 title: Usare le informazioni dettagliate per trovare i punti in cui la distribuzione è diversa (anteprima)
-description: Ottenere con semplicità informazioni dettagliate per individuare dove la distribuzione visualizzata in un grafico è diversa in Power BI Desktop
+description: Ottenere facilmente informazioni dettagliate per individuare dove la distribuzione visualizzata in un grafico risulta diversa in Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277757"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215355"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Usare informazioni dettagliate in Power BI Desktop per determinare dove la distribuzione è diversa (anteprima)
 
@@ -38,7 +38,7 @@ Nell'esempio l'analisi automatica mostra immediatamente che per le *Touring Bike
 > 
 
 ## <a name="using-insights"></a>Uso delle informazioni dettagliate
-Per usare le informqzioni dettagliate per determinare dove le distribuzioni visualizzate nei grafici sono diverse, fare clic con il pulsante destro del mouse su un punto dati o sull'oggetto visivo e selezionare **Analizza > Find where the distribution is different (Individua dove la distribuzione è diversa)**.
+Per usare le informazioni dettagliate allo scopo di determinare dove le distribuzioni visualizzate nei grafici sono diverse, fare clic con il pulsante destro del mouse su un punto dati o sull'oggetto visivo e selezionare **Analizza > Scopri le differenze in questa distribuzione**.
 
 ![Fare clic con il pulsante destro del mouse per visualizzare le informazioni dettagliate](media/desktop-insights-find-where-different/find-where-different_03.png)
 
@@ -65,14 +65,14 @@ Si può presupporre che l'algoritmo prenda in considerazione tutte le altre colo
 
 Naturalmente è possibile che a questo punto ci si interroghi sul significato della *differenza*. Si supponga, ad esempio, che la differenza complessiva delle vendite tra Stati Uniti e Canada sia la seguente:
 
-|Paese  |Vendite ($ mio)|
+|Country  |Vendite ($ mio)|
 |---------|----------|
 |USA      |15        |
 |Canada   |5         |
 
 Per una specifica categorie di prodotti *“Road Bike*) (Bici da strada) la differenza delle vendite potrebbe essere:
 
-|Paese  |Vendite ($ mio)|
+|Country  |Vendite ($ mio)|
 |---------|----------|
 |USA      |3        |
 |Canada   |1         |
@@ -81,14 +81,14 @@ Sebbene i numeri siano diversi in ciascuna di queste tabelle, i valori relativi 
 
 Si consideri invece una misura come il margine, calcolato come Profitto/Costo e si supponga che i margini complessivi per gli Stati Uniti e il Canada siano i seguenti
 
-|Paese  |Margine (%)|
+|Country  |Margine (%)|
 |---------|----------|
 |USA      |15        |
 |Canada   |5         |
 
 Per una specifica categorie di prodotti *“Road Bike*) (Bici da strada) la differenza delle vendite potrebbe essere:
 
-|Paese  |Margine (%)|
+|Country  |Margine (%)|
 |---------|----------|
 |USA      |3        |
 |Canada   |1         |
@@ -131,7 +131,7 @@ L'elenco seguente è una raccolta degli scenari attualmente non supportati per l
 * Filtri per le misure
 * Misure non numeriche
 * Uso di "Mostra valore come"
-* Misure filtrate: calcoli a livello visuale ai quali viene applicato un filtro specifico (ad esempio *Total Sales for France* (Vendite totali per la Francia)) e che vengono usati in alcuni oggetti visivi creati dalla funzionalità delle informazioni dettagliate
+* Misure filtrate: calcoli a livello visivo ai quali viene applicato un filtro specifico (ad esempio *Vendite totali per la Francia*) e che vengono usati in alcuni oggetti visivi creati dalla funzionalità informazioni dettagliate
 
 Neppure i tipi di modelli e le origini dati seguenti sono attualmente supportati per le informazioni dettagliate:
 

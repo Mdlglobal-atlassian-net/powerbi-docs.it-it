@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8f44356f79b8a77ef06fe464671dbbaaaa4187e9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295678"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215586"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Esercitazione: Connettersi a un esempio di GitHub con Power BI
 In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al repository pubblico dei contenuti di Power BI (noto anche come *repository*), ottenere informazioni sul numero di persone che contribuiscono al contento pubblico di Power BI, sapere chi contribuisce di più, in quale giorno della settimana si registrano più contributi nonché avere risposte ad altre domande. 
@@ -31,7 +31,7 @@ In questa esercitazione viene completata la procedura seguente:
 > * Aprire il servizio Power BI
 > * Individuare l'app GitHub
 > * Immettere le informazioni per il repository GitHub pubblico in Power BI
-> * Visualizzare il dashboad e il report con i dati di GitHub
+> * Visualizzare il dashboad e il report con dati di GitHub
 > * Pulire le risorse eliminando l'app
 
 Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
@@ -69,7 +69,7 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
  
    ![Riquadro di GitHub in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tile.png) 
 
-8. Selezionare l'icona di spostamento globale per ridurre al minimo il riquadro di spostamento di sinistra e avere più spazio.
+8. Selezionare l'icona di spostamento globale per ridurre a icone il riquadro di spostamento di sinistra e avere più spazio.
 
     ![Icona di spostamento globale](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 

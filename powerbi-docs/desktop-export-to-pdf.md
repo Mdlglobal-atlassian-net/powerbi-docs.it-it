@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 59e1f4eda6bf48e85841d4646824407d3c839485
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7b835231356ad14ab434b86a2d1f99aa7212358d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290619"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215643"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Esportare report in formato PDF da Power BI Desktop
 In **Power BI Desktop** è possibile esportare i report in un file PDF e in tal modo condividere o stampare facilmente i report da tale file PDF.
 
 ![Esportare in formato PDF](media/desktop-export-to-pdf/export-to-pdf_01.png)
 
-Il processo di esportazione del report da **Power BI Desktop** a un file PDF, in modo da poter stampare o condividere il file PDF, è facile. Selezionare semplicemente **File > Esporta in PDF** da Power BI Desktop.
+Il processo di esportazione del report da **Power BI Desktop** a un file PDF, in modo da poter stampare o condividere il file PDF, è facile. È sufficiente selezionare **File > Esporta in PDF** da Power BI Desktop.
 
 Il processo **Esporta in PDF** esporterà tutte le pagine *visibili* nel report e ogni pagina del report verrà esportata come singola pagina nel file PDF. Le pagine del report non visibili, ad esempio eventuali descrizioni comando o le pagine nascoste, non vengono esportate nel file PDF. 
 

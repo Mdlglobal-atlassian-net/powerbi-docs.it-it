@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282357"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216586"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modalità di espansione in una visualizzazione in Power BI
 
@@ -112,9 +112,9 @@ Questo metodo usa l'icona di drill-down visualizzata nell'angolo superiore destr
 
 2. Selezionare la *foglia* per **TN**. La mappa ad albero visualizza ora tutte le città del Tennessee con un negozio. 
 
-    ![mappa ad albero che mostra i dati solo per il Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![mappa ad albero che illustra i dati solo per il Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. A questo punto è possibile continuare a eseguire il drill-down per il Tennessee oppure eseguire il drill-down per una specifica città del Tennessee o espandere (vedere **Espandere tutti i campi** più avanti). Continuare a eseguire il drill-down di un campo alla volta.  Selezionare **Knoxville, TN**. La mappa ad albero visualizza ora il codice postale del negozio di Knoxville. 
+2. A questo punto è possibile continuare a eseguire il drill-down per il Tennessee, eseguire il drill-down per una città del Tennessee specifica o espandere (vedere **Espandere tutti i campi contemporaneamente** più avanti). Continuare a eseguire il drill-down di un campo alla volta.  Selezionare **Knoxville, TN**. La mappa ad albero visualizza ora il codice postale del negozio di Knoxville. 
 
    ![la mappa ad albero mostra 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
@@ -127,9 +127,9 @@ La visualizzazione di una mappa ad albero che mostra solo un codice postale non 
 
     ![visualizzazione del codice postale e del nome del negozio](./media/end-user-drill/power-bi-expand1.png)
 
-2. Per visualizzare tutti e quattro i livelli di dati per Tennessee, selezionare la freccia di drill-up fino a raggiungere il secondo livello, **Total units this year by territory and city** della mappa ad albero. 
+2. Per visualizzare tutti e quattro i livelli di dati per il Tennessee, selezionare la freccia di drill-up fino a raggiungere il secondo livello, **Total units this year by territory and city** (Totale unità anno corrente per territorio e città) della mappa ad albero. 
 
-    ![mappa ad albero che mostra tutti i dati per il Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![mappa ad albero che illustra tutti i dati per il Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. Assicurarsi che il drill-down sia attivato ![drill-down attivato](./media/end-user-drill/power-bi-drill-icon2.png) e selezionare l'icona di *espansione verso il basso* ![icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero mostra ora alcuni dettagli aggiuntivi. Invece di mostrare solo città e stato, la mappa mostra anche il codice postale. 
@@ -194,7 +194,7 @@ Si noti che i dati sono gli stessi per i report dell'anno e del trimestre, ma, d
 |Modalità di espansione|Anno|Trimestre|Mese|Giorno|
 | ---|:---:|:---:|:---:|---|
 |Singola|![singolo anno](./media/end-user-drill/power-bi-hierarchical-year.png)|![singolo trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![singolo mese](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![singolo giorno](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|All|![tutti gli anni](./media/end-user-drill/power-bi-hierarchical-year.png)|![tutti i trimestri](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tutti i mesi](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![tutti i giorni](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Tutti|![tutti gli anni](./media/end-user-drill/power-bi-hierarchical-year.png)|![tutti i trimestri](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tutti i mesi](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![tutti i giorni](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 
 ### <a name="hierarchical-category-data"></a>Dati di categorie gerarchici
@@ -215,7 +215,7 @@ Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti pe
 | Modalità di espansione|Territorio|City|Codice postale|Nome|
 | ---|:---:|:---:|:---:|---|
 |Singola|![singolo territorio](./media/end-user-drill/power-bi-hierarchical-territory.png)|![singola città](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![singolo codice postale](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![singolo nome](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|All|![tutti i territori](./media/end-user-drill/power-bi-hierarchical-territory.png)|![tutte le città](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![tutti i codici postali](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![tutti i nomi](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Tutti|![tutti i territori](./media/end-user-drill/power-bi-hierarchical-territory.png)|![tutte le città](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![tutti i codici postali](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![tutti i nomi](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni

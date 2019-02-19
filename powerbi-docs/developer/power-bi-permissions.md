@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 70883adbc224f568e8a7a3a2843fb419d1c15308
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 548f84c38705e269998fd3c124b4f93d3c83d2ef
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278977"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215459"
 ---
 # <a name="power-bi-permissions"></a>Autorizzazioni di Power BI
 
@@ -37,7 +37,7 @@ Le autorizzazioni di Power BI permettono a un'applicazione di eseguire determina
 | Leggi e scrivi in tutte le capacità |L'app può visualizzare e scrivere in tutte le capacità per l'utente connesso e in tutte le capacità a cui l'utente può accedere. Ciò non implica i diritti per la creazione di una nuova capacità. |Capacities.ReadWrite.All |
 | Leggi tutte le capacità |L'app può visualizzare e scrivere in tutte le capacità per l'utente connesso e in tutte le capacità a cui l'utente può accedere. Ciò non implica i diritti per la creazione di una nuova capacità. |Capacities.Read.All |
 | Leggi e scrivi in tutto il contenuto nel tenant |L'app può visualizzare e scrivere in tutti gli artefatti, quali gruppi, report, dashboard e set di dati, in Power BI. A condizione che l'utente connesso sia un amministratore del servizio Power BI. |Tenant.ReadWrite.All |
-| Visualizza tutto il contenuto nel tenant |L'app può visualizzare tutti gli artifact, quali gruppi, report, dashboard e set di dati, in Power BI. A condizione che l'utente connesso sia un amministratore del servizio Power BI. |Tenant.Read.All |
+| Visualizza tutto il contenuto nel tenant |L'app può visualizzare tutti gli artefatti, quali gruppi, report, dashboard e set di dati, in Power BI. A condizione che l'utente connesso sia un amministratore del servizio Power BI. |Tenant.Read.All |
 
 Un'applicazione può richiedere le autorizzazioni al primo tentativo di accesso alla pagina di un utente passando le autorizzazioni necessarie nel parametro dell'ambito della chiamata. Se le autorizzazioni vengono concesse, all'app verrà restituito un token di accesso che potrà essere usato nelle future chiamate API. L'accesso può essere usato solo da un'applicazione specifica.
 

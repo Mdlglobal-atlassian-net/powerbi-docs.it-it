@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6771e2da33448fe3aa54a0184a220437ffb54fce
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277623"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215857"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gestire l'origine dati - SQL Server
 Dopo aver installato il gateway dati locale, è possibile aggiungere origini dati che possono essere usate con il gateway. In questo articolo viene descritto come lavorare con i gateway e le origini dati. È possibile usare l'origine dati SQL Server per l'aggiornamento pianificato o per DirectQuery.
@@ -29,7 +29,7 @@ Dopo aver installato il gateway dati locale, è possibile aggiungere origini dat
 Per aggiungere un gateway, [scaricare](https://go.microsoft.com/fwlink/?LinkId=698861) e installare semplicemente il gateway in un server nel proprio ambiente. Dopo aver installato il gateway, verrà visualizzato negli elenchi dei gateway in **Gestisci gateway**.
 
 > [!NOTE]
-> **Gestisci gateway** non compare fino a quando non si è l'amministratore di almeno un gateway. Ciò avviene quando si viene aggiunti come amministratore a un gateway o si installa e configura un gateway manualmente.
+> **Gestisci gateway** non compare fino a quando non si è l'amministratore di almeno un gateway. Ciò avviene quando l'utente viene aggiunto come amministratore a un gateway o installa e configura un gateway manualmente.
 > 
 > 
 

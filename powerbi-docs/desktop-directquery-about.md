@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a15707a36a34e083458da5fa407034e33dd570c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1126a2cbdac7e6ed1b465d2d0ba881ae2b4f5338
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284151"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56226030"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso di DirectQuery in Power BI
-Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità, inclusi gli argomenti seguenti:
+Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità:
 
 * Diverse opzioni di connettività di DirectQuery
 * Indicazioni per i casi in cui è opportuno preferire DirectQuery all'importazione
@@ -27,8 +27,8 @@ Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile conne
 
 In breve, le procedure consigliate per l'uso dell'importazione rispetto a DirectQuery sono le seguenti:
 
-* È opportuno **importare** i dati in Power BI laddove possibile. Questo consente di sfruttare il motore di query ad alte prestazioni di Power BI e offre un'esperienza altamente interattiva e completa per i dati.
-* Se gli obiettivi non possono essere soddisfatti con l'importazione dei dati, prendere in considerazione l'uso di **DirectQuery**. Se ad esempio i dati cambiano di frequente e i report devono riflettere i dati più recenti, DirectQuery può essere l'opzione ottimale. L'uso di DirectQuery è tuttavia generalmente possibile solo quando l'origine dati sottostante è in grado di generare query interattive (meno di 5 secondi) per la tipica query di aggregazione e di gestire il carico di query generato. È anche necessario considerare attentamente le limitazioni che accompagnano l'uso di DirectQuery per garantire che gli obiettivi possano essere comunque soddisfatti.
+* È opportuno **importare** i dati in Power BI laddove possibile. L'importazione consente di sfruttare il motore di query ad alte prestazioni di Power BI e offre un'esperienza altamente interattiva e completa per i dati.
+* Se gli obiettivi non possono essere soddisfatti con l'importazione dei dati, prendere in considerazione l'uso di **DirectQuery**. Se ad esempio i dati cambiano di frequente e i report devono riflettere i dati più recenti, DirectQuery può essere l'opzione ottimale. L'uso di DirectQuery è tuttavia generalmente possibile solo quando l'origine dati sottostante è in grado di generare query interattive (meno di 5 secondi) per la tipica query di aggregazione e di gestire il carico di query generato. È anche necessario considerare attentamente le limitazioni che accompagnano l'uso di DirectQuery.
 
 Il set di funzionalità offerte da Power BI per entrambe le modalità di connettività, importazione e DirectQuery, evolveranno nel tempo. Sarà disponibile maggiore flessibilità nell'uso dei dati importati, in modo che l'importazione possa essere usata in un numero più elevato di casi ed eliminando alcuni degli svantaggi di DirectQuery. A prescindere dai miglioramenti, le prestazioni dell'origine dati sottostante saranno sempre una considerazione importante nell'uso di DirectQuery. Se l'origine dati sottostante è lenta, l'uso di DirectQuery per tale origine continuerà a essere impossibile.
 
@@ -37,7 +37,7 @@ Questo argomento descrive DirectQuery con Power BI e non con SQL Server Analysis
 Questo articolo illustra il flusso di lavoro consigliato per DirectQuery, in cui il report viene creato in **Power BI Desktop**, ma descrive anche la connessione diretta nel **servizio Power BI**.
 
 ## <a name="power-bi-connectivity-modes"></a>Modalità di connettività di Power BI
-Power BI si connette a un numero molto elevato di origini dati diverse, tra cui:
+Power BI si connette a un numero elevato di origini dati diverse, tra cui:
 
 * Servizi online (Salesforce, Dynamics 365 e altri)
 * Database (SQL Server, Access, Amazon Redshift e altri)
@@ -55,7 +55,7 @@ Quando si usa **Recupera dati** in **Power BI Desktop** per connettersi a un'ori
 
 * Durante l'esperienza di **recupero dati** iniziale, ogni tabella del set selezionato definisce una query che restituisce un set di dati. Queste query possono essere modificate prima di caricare i dati, ad esempio per applicare filtri, aggregare i dati o unire tabelle diverse.
 * Durante il caricamento, tutti i dati definiti da tali query verranno importati nella cache di Power BI.
-* Durante la compilazione di un oggetto visivo in **Power BI Desktop** verrà eseguita una query sui dati importati. L'archivio di Power BI assicura che la query sarà molto veloce, quindi tutte le modifiche apportate all'oggetto visivo verranno propagate immediatamente.
+* Durante la compilazione di un oggetto visivo in **Power BI Desktop** verrà eseguita una query sui dati importati. L'archivio di Power BI assicura che la query sarà veloce e che quindi tutte le modifiche apportate all'oggetto visivo verranno propagate immediatamente.
 * Eventuali modifiche ai dati sottostanti non verranno propagate agli oggetti visivi. È necessario *aggiornare* per importati nuovamente i dati.
 * Al momento della pubblicazione del report (file con estensione pbix) nel **servizio Power BI**, viene creato e caricato un set di dati nel servizio Power BI.  I dati importati sono inclusi con tale set di dati. È quindi possibile configurare l'aggiornamento pianificato dei dati, ad esempio, per importare nuovamente i dati ogni giorno. A seconda del percorso dell'origine dati potrebbe essere necessario configurare un gateway dati locale.
 * Quando si apre un report esistente nel **servizio Power BI** oppure si crea un nuovo report, viene di nuovo eseguita una query sui dati importati, garantendo l'interattività.
@@ -106,13 +106,13 @@ Date quindi le attuali funzionalità di DirectQuery in Power BI, gli scenari in 
 * Limitazioni di sovranità dei dati
 * L'origine è multidimensionale e contiene misure, ad esempio SAP BW
 
-Si noti che i dettagli nell'elenco precedente si riferiscono all'uso del solo Power BI. È sempre possibile usare invece un modello esterno di SQL Server Analysis Services (o Azure Analysis Services) per importare i dati e quindi usare Power BI per connettersi a tale modello. Anche se questo approccio richiede competenze aggiuntive, offre maggiore flessibilità. È ad esempio possibile importare volumi di dati molto più elevati, senza limitazioni in termini di frequenza di aggiornamento dei dati.
+I dettagli nell'elenco precedente si riferiscono all'uso del solo Power BI. È sempre possibile usare invece un modello esterno di SQL Server Analysis Services (o Azure Analysis Services) per importare i dati e quindi usare Power BI per connettersi a tale modello. Anche se questo approccio richiede competenze aggiuntive, offre maggiore flessibilità. È ad esempio possibile importare volumi di dati molto più elevati, senza limitazioni in termini di frequenza di aggiornamento dei dati.
 
 ## <a name="implications-of-using-directquery"></a>Implicazioni dell'uso di DirectQuery
 L'uso di **DirectQuery** ha implicazioni potenzialmente negative, come descritto in questa sezione. Alcune di queste limitazioni differiscono leggermente a seconda dell'origine usata. Queste differenze vengono evidenziate laddove applicabile e le origini sostanzialmente diverse vengono trattate in argomenti separati.  
 
 ### <a name="performance-and-load-on-the-underlying-source"></a>Prestazioni e carico sull'origine sottostante
-Quando si usa **DirectQuery**, l'esperienza complessiva dipende molto dalle prestazioni dell'origine dati sottostante. Se l'aggiornamento di ciascun oggetto visivo (ad esempio dopo la modifica di un valore di filtro dei dati) richiede pochi secondi (< 5 s), l'esperienza sarà ragionevole, ma potrà comunque apparire lenta rispetto alla risposta immediata cui si è abituati quando si importano i dati in Power BI. Se data la lentezza dell'origine i singoli oggetti visivi richiedono invece più tempo (decine di secondi), l'esperienza diventa estremamente insoddisfacente, eventualmente provocando anche il timeout delle query.
+Quando si usa **DirectQuery**, l'esperienza complessiva dipende molto dalle prestazioni dell'origine dati sottostante. Se l'aggiornamento di ogni oggetto visivo (ad esempio dopo il cambiamento di un valore di filtro dei dati) richiede pochi secondi (< 5 s), l'esperienza sarà ragionevole, ma potrà comunque apparire lenta rispetto alla risposta immediata che si ottiene abitualmente quando si importano i dati in Power BI. Se data la lentezza dell'origine i singoli oggetti visivi richiedono invece più tempo (decine di secondi), l'esperienza diventa estremamente insoddisfacente, eventualmente provocando anche il timeout delle query.
 
 Oltre alle prestazioni dell'origine sottostante è necessario considerare attentamente il carico che verrà applicato all'origine, dato che anch'esso influisce spesso sulle prestazioni. Come illustrato anche di seguito, ogni utente che apre un report condiviso e ogni riquadro del dashboard che viene aggiornato periodicamente invia almeno una query per oggetto visivo all'origine sottostante. L'origine deve quindi poter gestire questo carico di query mantenendo prestazioni accettabili.
 
@@ -139,7 +139,7 @@ Quando si usa **DirectQuery** è comunque possibile apportare molti di questi mi
 * **Nessuna gerarchia di data predefinita:** quando si importano dati, per impostazione predefinita ogni colonna date/datetime ha anche una gerarchia di data predefinita. Se ad esempio si importa una tabella di ordini di vendita che include una colonna OrderDate, quando si usa OrderDate in un oggetto visivo sarà possibile scegliere il livello appropriato (anno, mese, giorno) da usare. Questa gerarchia di data predefinita non è disponibile quando si usa la modalità DirectQuery. Si noti tuttavia che se nell'origine sottostante è disponibile la tabella Date (come avviene spesso in molti data warehouse), è possibile usare le funzionalità DAX di Business Intelligence per le gerarchie temporali come di consueto.
 * **Limitazioni nelle colonne calcolate:** le colonne calcolate possono essere solo intrariga, ovvero possono fare riferimento solo ai valori delle altre colonne della stessa tabella, senza usare funzioni di aggregazione. Le funzioni scalari DAX, ad esempio LEFT(), consentite saranno limitate a quelle che possono essere semplicemente inserite nell'origine sottostante, quindi varieranno a seconda delle funzionalità dell'origine. Le funzioni non supportate non verranno elencate nel completamento automatico quando si crea la funzione DAX per una colonna calcolata e produrranno un errore se usate.
 * **Nessun supporto per le funzioni DAX padre-figlio:** nel modello DirectQuery non è possibile usare la famiglia di funzioni DAX PATH() che in genere gestiscono strutture padre-figlio, ad esempio piani dei conti o gerarchie dei dipendenti.
-* **Limitazioni (per impostazione predefinita) per le misure:** per impostazione predefinita, le funzioni ed espressioni DAX che possono essere usate nelle misure sono limitate. Il completamento automatico limiterà anche in questo caso le funzioni elencate e si verificherà un errore se viene usata una funzione o un'espressione non valida. L'obiettivo è semplicemente garantire che, per impostazione predefinita, le misure siano limitate a misure semplici che hanno scarse probabilità di compromettere le prestazioni. Gli utenti avanzati possono scegliere di ignorare questa limitazione selezionando **File > Opzioni e impostazioni > Opzioni**, quindi **DirectQuery** e infine l'opzione *Consenti misure senza limitazioni in modalità DirectQuery*. Quando questa opzione è selezionata, è possibile usare un'espressione DAX valida per una misura. Gli utenti, tuttavia, devono tenere presente che alcune espressioni, che hanno prestazioni molto elevate quando i dati vengono importati, possono restituire query molto lente nell'origine back-end quando sono in modalità DirectQuery.
+* **Limitazioni (per impostazione predefinita) per le misure:** per impostazione predefinita, le funzioni ed espressioni DAX che possono essere usate nelle misure sono limitate. Il completamento automatico limiterà anche in questo caso le funzioni elencate e si verificherà un errore se viene usata una funzione o un'espressione non valida. L'obiettivo è semplicemente garantire che, per impostazione predefinita, le misure siano limitate a misure semplici che hanno scarse probabilità di compromettere le prestazioni. Gli utenti avanzati possono scegliere di ignorare questa limitazione selezionando **File > Opzioni e impostazioni > Opzioni**, quindi **DirectQuery** e infine l'opzione *Consenti misure senza limitazioni in modalità DirectQuery*. Quando questa opzione è selezionata, è possibile usare un'espressione DAX valida per una misura. Gli utenti, tuttavia, devono tenere presente che alcune espressioni, che hanno prestazioni molto elevate quando i dati vengono importati, possono restituire query lente nell'origine back-end quando sono in modalità DirectQuery.
   
   * Ad esempio, per impostazione predefinita:
     
@@ -150,7 +150,7 @@ Quando si usa **DirectQuery** è comunque possibile apportare molti di questi mi
       
           AverageItemSalesAmount = AVERAGEX('Item', [SalesAmount])
     
-    Il motivo è che tale misura può comportare una riduzione delle prestazioni in presenza di un numero molto elevato di elementi.
+    Il motivo è che tale misura può comportare una riduzione delle prestazioni in presenza di un numero elevato di elementi.
 * **Le tabelle calcolate non sono supportate:** la possibilità di definire una tabella calcolata usando un'espressione DAX non è supportata nella modalità DirectQuery.
 * **Il filtro delle relazioni è limitato a una sola direzione:** quando si usa DirectQuery, non è possibile impostare la direzione del filtro incrociato per una relazione su "Entrambi". Con le tre tabelle sottostanti, ad esempio, non sarebbe possibile compilare un oggetto visivo che visualizzi ogni Customer[Gender] e il numero di Product[Category] acquistato da ognuno. L'uso di questo filtro bidirezionale viene descritto [in questo white paper dettagliato](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) che contiene esempi relativi a SQL Server Analysis Services, ma i punti fondamentali sono ugualmente applicabili a Power BI.
   
@@ -172,7 +172,7 @@ Come illustrato in precedenza in questo articolo, un report di **DirectQuery** u
 Dopo aver specificato le credenziali dell'utente, queste verranno usate *indipendentemente dall'utente che apre il report*. Sotto questo aspetto non esistono differenze con i dati importati: ogni utente vedrà gli stessi dati, a meno che non sia stata definita la sicurezza a livello di riga nell'ambito del report. È quindi necessario prestare la stessa attenzione alla condivisione del report, se sono presenti regole di sicurezza definite nell'origine sottostante.
 
 ### <a name="behavior-in-the-power-bi-service"></a>Comportamento nel servizio Power BI
-Questa sezione descrive il comportamento di un report di **DirectQuery** nel **servizio Power BI**, soprattutto per comprendere l'entità del carico applicato all'origine dati back-end dato il numero di utenti con i quali verranno condivisi il report e il dashboard, la complessità del report e a seconda che sia stata definita la sicurezza a livello di riga nel report.
+Questa sezione descrive il comportamento di un report di **DirectQuery** nel **servizio Power BI**, per consentire principalmente di comprendere l'entità del carico applicato all'origine dati back-end dato il numero di utenti con i quali verranno condivisi il report e il dashboard, la complessità del report e a seconda che sia stata definita la sicurezza a livello di riga nel report.
 
 #### <a name="reports--opening-interacting-with-editing"></a>Report: apertura, interazione, modifica
 Quando si apre un report, tutti gli oggetti visivi presenti nella pagina visualizzata verranno aggiornati. Ciascun oggetto visivo richiede in genere almeno una query sull'origine dati sottostante. Alcuni oggetti visivi potrebbero richiedere più di una query, ad esempio se visualizzano valori aggregati di due tabelle dei fatti diverse, contengono una misura più complessa oppure contengono totali di una misura non additiva come Count Distinct. Con il passaggio a una nuova pagina, gli oggetti visivi verranno aggiornati, creando così un nuovo set di query sull'origine sottostante.
@@ -188,7 +188,7 @@ I risultati vengono memorizzati nella cache, in modo che l'aggiornamento di un o
 
 Se non è stata definita sicurezza a livello di riga nel modello, ogni riquadro verrà aggiornato una sola volta e i risultati verranno condivisi tra tutti gli utenti. Se è definita la sicurezza a livello di riga può verificarsi un effetto moltiplicatore rilevante: ogni riquadro richiede l'invio di query separate per ogni utente all'origine sottostante.  
 
-Un dashboard con dieci riquadri condivisi con 100 utenti e creato su un set di dati con **DirectQuery**, avente sicurezza a livello di riga e configurato per l'aggiornamento ogni 15 minuti, comporterà l'invio di almeno 1000 query ogni 15 minuti all'origine back-end.
+Un dashboard con dieci riquadri condivisi con 100 utenti e creato su un set di dati con **DirectQuery**, dotato di sicurezza a livello di riga e configurato per l'aggiornamento ogni 15 minuti, comporterà l'invio di almeno 1000 query ogni 15 minuti all'origine back-end.
 
 È quindi necessario valutare attentamente l'uso della sicurezza a livello di riga e la configurazione della frequenza di aggiornamento.
 
@@ -208,7 +208,7 @@ Alcune altre implicazioni generali dell'uso di **DirectQuery** sono le seguenti:
 * **Limite di un milione di righe restituite in una query:** è previsto un limite predefinito di un milione per il numero di righe che possono essere restituite in una singola query sull'origine sottostante. Questo limite non ha generalmente implicazioni pratiche e gli oggetti visivi in sé non visualizzano così tanti punti. Il limite può essere tuttavia violato nei casi in cui Power BI non ottimizzi completamente le query inviate e alcuni risultati intermedi richiesti superino il limite. Il superamento del limite può anche verificarsi durante la creazione di un oggetto visivo, prima di ottenere uno stato finale più ragionevole. L'inclusione di Customer e TotalSalesQuantity violerebbe ad esempio questo limite se fossero presenti più di 1 milione di clienti, finché non viene applicato un filtro.
   
   Verrebbe restituito l'errore "Il set di risultati di una query sull'origine dati esterna ha superato le dimensioni massime consentite di '1000000' righe".
-* **Non è possibile passare dalla modalità di importazione alla modalità DirectQuery:**  si noti che anche se è in genere possibile passare dalla modalità DirectQuery alla modalità di importazione per un modello, ciò significa che tutti i dati necessari dovranno essere importati. Non è neanche possibile tornare alla modalità precedente, principalmente a causa del set di funzionalità non supportate nella modalità DirectQuery. Non è possibile passare dalla modalità DirectQuery alla modalità di importazione per i modelli DirectQuery su origini multidimensionali come SAP BW, a causa del trattamento completamente diverso delle misure esterne.
+* **Non è possibile passare dalla modalità di importazione alla modalità DirectQuery:**  Anche se è in genere possibile passare dalla modalità DirectQuery alla modalità di importazione per un modello, ciò significa che tutti i dati necessari dovranno essere importati. Non è neanche possibile tornare alla modalità precedente, principalmente a causa del set di funzionalità non supportate nella modalità DirectQuery. Non è possibile passare dalla modalità DirectQuery alla modalità di importazione per i modelli DirectQuery su origini multidimensionali come SAP BW, a causa del trattamento completamente diverso delle misure esterne.
 
 ## <a name="directquery-in-the-power-bi-service"></a>DirectQuery nel servizio Power BI
 Tutte le origini sono supportate da **Power BI Desktop**. Alcune origini sono anche disponibili direttamente all'interno del **servizio Power BI**. Un utente aziendale può ad esempio usare Power BI per connettersi ai dati di Salesforce e ottenere immediatamente un dashboard senza usare **Power BI Desktop**.
@@ -218,15 +218,15 @@ Nel servizio sono direttamente disponibili solo due delle origini supportate da 
 * Spark
 * Azure SQL Data Warehouse
 
-È tuttavia consigliabile iniziare a usare **DirectQuery** su queste due origini dall'interno di **Power BI Desktop**, perché quando viene inizialmente stabilita la connessione nel **servizio Power BI** vengono applicate molte limitazioni chiave. Anche se il punto di partenza è semplice (l'avvio nel servizio Power BI), sono in altre parole presenti limitazioni al miglioramento del report ottenuto. Non è ad esempio possibile creare calcoli o usare molte funzioni di analisi o anche aggiornare i metadati per riflettere le modifiche apportate allo schema sottostante.   
+È tuttavia consigliabile iniziare a usare **DirectQuery** con queste due origini dall'interno di **Power BI Desktop**, perché quando viene inizialmente stabilita la connessione nel **servizio Power BI** vengono applicate molte limitazioni chiave. Anche se il punto di partenza è semplice (l'avvio nel servizio Power BI), sono in altre parole presenti limitazioni al miglioramento del report ottenuto. Non è ad esempio possibile creare calcoli o usare molte funzioni di analisi o anche aggiornare i metadati per riflettere le modifiche apportate allo schema sottostante.   
 
 ## <a name="guidance-for-using-directquery-successfully"></a>Indicazioni per un uso ottimale di DirectQuery
-Se intende usare **DirectQuery**, questa sezione offre alcune indicazioni di alto livello su come ottenere risultati ottimali. Le indicazioni fornite in questa sezione derivano dalle implicazioni dell'uso di DirectQuery descritte in questo articolo.
+Se si intende usare **DirectQuery**, questa sezione offre alcune indicazioni di alto livello su come ottenere risultati ottimali. Le indicazioni fornite in questa sezione derivano dalle implicazioni dell'uso di DirectQuery descritte in questo articolo.
 
 ### <a name="backend-data-source-performance"></a>Prestazioni dell'origine dati back-end
-È consigliabile verificare che gli oggetti visivi semplici possano aggiornarsi in un tempo ragionevole, ovvero entro 5 secondi per un'esperienza interattiva soddisfacente. Se gli oggetti visivi impiegano più di 30 secondi, è molto probabile che dopo la pubblicazione del report si verifichino altri problemi che renderanno la soluzione impraticabile.
+È necessario verificare che gli oggetti visivi semplici siano in grado di aggiornarsi in un tempo ragionevole, che non deve superare i 5 secondi per offrire un'esperienza interattiva soddisfacente. Se gli oggetti visivi impiegano più di 30 secondi, è molto probabile che dopo la pubblicazione del report si verifichino altri problemi che renderanno la soluzione impraticabile.
 
-Se le query sono lente, il punto di partenza è esaminare le query inviate all'origine sottostante e il motivo delle loro prestazioni. Questo argomento non tratta l'ampia gamma di procedure consigliate per l'ottimizzazione dei database nel set completo di potenziali origini sottostanti, ma è applicabile alle procedure standard per i database che valgono per la maggior parte delle situazioni:
+Se le query sono lente, il punto di partenza è esaminare le query inviate all'origine sottostante e il motivo delle loro prestazioni. Questo articolo non tratta l'ampia gamma di procedure consigliate per l'ottimizzazione dei database nel set completo delle possibili origini sottostanti, ma è applicabile alle procedure standard per i database valide per la maggior parte delle situazioni:
 
 * Le relazioni basate su colonne di tipo Integer hanno in genere prestazioni migliori rispetto ai join su colonne di altri tipi di dati
 * È necessario creare gli indici appropriati e ciò implica generalmente l'uso di indici dell'archivio colonne nelle origini che li supportano, ad esempio SQL Server.
@@ -235,9 +235,9 @@ Se le query sono lente, il punto di partenza è esaminare le query inviate all'o
 ### <a name="model-design-guidance"></a>Indicazioni per la progettazione del modello
 Quando si definisce il modello è consigliabile eseguire queste operazioni:
 
-* **Evitare query complesse nell'editor di query.** La query definita nell'editor di query viene convertita in una singola query SQL che verrà quindi inclusa nella sub-SELECT di ogni query inviata a tale tabella. Se la query è complessa potrebbero verificarsi problemi di prestazioni per ogni query inviata. La query SQL effettiva per un set di passaggi può essere ottenuta selezionando l'ultimo passaggio nell'editor di query e scegliendo *Visualizza query nativa* dal menu di scelta rapida.
-* **Mantenere le misure semplici.** Almeno inizialmente è consigliabile limitare le misure ad aggregazioni semplici. Se tali aggregazioni offrono prestazioni soddisfacenti è possibile definire misure più complesse, ma prestando attenzione alle prestazioni di ognuna.
-* **Evitare relazioni sulle colonne calcolate.** Ciò riguarda soprattutto i database in cui è necessario eseguire join multicolonna. Power BI non consente attualmente relazioni basate su più colonne come chiavi di riferimento/chiavi primarie. La soluzione comune consiste nel concatenare le colonne usando una colonna calcolata e basare il join sulle colonne concatenate. Questa soluzione è ragionevole per i dati importati, ma nel caso di **DirectQuery** comporta un join su un'espressione che in genere impedisce l'uso di indici e provoca la riduzione delle prestazioni. L'unica soluzione alternativa è materializzare effettivamente più colonne in una singola colonna nel database sottostante.
+* **Evitare query complesse nell'editor di query.** La query definita nell'editor di query viene convertita in una singola query SQL che verrà quindi inclusa nell'istruzione sub-SELECT di ogni query inviata a tale tabella. Se la query è complessa potrebbero verificarsi problemi di prestazioni per ogni query inviata. La query SQL effettiva per un set di passaggi può essere ottenuta selezionando l'ultimo passaggio nell'editor di query e scegliendo *Visualizza query nativa* dal menu di scelta rapida.
+* **Mantenere le misure semplici.** Almeno inizialmente è consigliabile limitare le misure ad aggregazioni semplici. Se le misure offrono prestazioni soddisfacenti, è possibile definire misure più complesse, ma prestando attenzione alle prestazioni di ognuna.
+* **Evitare relazioni sulle colonne calcolate.** Ciò riguarda i database in cui è necessario eseguire join multicolonna. Power BI non consente attualmente relazioni basate su più colonne come chiavi di riferimento/chiavi primarie. La soluzione comune consiste nel concatenare le colonne usando una colonna calcolata e basare il join sulle colonne concatenate. Questa soluzione è ragionevole per i dati importati, ma nel caso di **DirectQuery** comporta un join su un'espressione che in genere impedisce l'uso di indici e provoca la riduzione delle prestazioni. L'unica soluzione alternativa è materializzare effettivamente più colonne in una singola colonna nel database sottostante.
 * **Evitare relazioni sulle colonne uniqueidentifier.** Power BI non supporta dati di tipo uniqueidentifier in modo nativo. La definizione di una relazione tra colonne di tipo uniqueidentifier comporterà quindi una query con un join che prevede un cast. Anche questo provoca generalmente una riduzione delle prestazioni. Fino a quando questo caso d'uso non viene espressamente ottimizzato, l'unica soluzione consiste nel materializzare colonne di un tipo alternativo nel database sottostante.
 * **Nascondere la colonna *to* nelle relazioni.** La colonna *to* nelle relazioni (in genere la chiave primaria nella tabella *to*) deve essere nascosta in modo da non essere visualizzata nell'elenco dei campi e non essere quindi usata negli oggetti visivi. Le colonne su cui si basano le relazioni sono spesso in realtà *colonne di sistema* (ad esempio chiavi sostitutive in un data warehouse) ed è comunque consigliabile nascondere tali colonne. Se la colonna ha significato, introdurre una colonna calcolata visibile e avente un'espressione semplice equivalente alla chiave primaria, ad esempio:
   
@@ -298,6 +298,20 @@ Oltre all'elenco di suggerimenti precedente, si noti che ognuna delle funzionali
 
 * **Considerare la disattivazione dei totali negli oggetti visivi:** per impostazione predefinita, le tabelle e le matrici visualizzano totali e subtotali. In molti casi, è necessario inviare query separate all'origine sottostante per ottenere i valori per tali totali. Ciò è vero ogni volta che si usa l'aggregazione *DistinctCount* o in tutti i casi quando si usa DirectQuery su SAP BW o SAP HANA. È consigliabile disattivare questi totali, tramite il riquadro **Formato**, se non sono necessari. 
 
+### <a name="maximum-number-of-connections-option-for-directquery"></a>Opzione relativa al numero massimo di connessioni per DirectQuery
+
+È possibile impostare il numero massimo di connessioni che DirectQuery può aprire per ogni origine dati sottostante e controllare così il numero di query inviate simultaneamente a ogni origine dati. 
+
+Il numero massimo predefinito di connessioni simultanee che DirectQuery può aprire è 10. È possibile cambiare questo valore per il file corrente in **Power BI Desktop**. A tale scopo, passare a **File > Opzioni e impostazioni > Opzioni** e quindi nella sezione **File corrente** nel riquadro sinistro selezionare **DirectQuery**. 
+
+![Abilitazione del numero massimo di connessioni DirectQuery](media/desktop-directquery-about/directquery-about_05b.png)
+
+L'impostazione è abilitata solo se nel report corrente è presente almeno un'origine DirectQuery. Il valore si applica a tutte le origini DirectQuery e a tutte le nuove origini DirectQuery aggiunte allo stesso report.
+
+Se si aumenta il valore relativo al **numero massimo di connessioni**, è possibile inviare un numero maggiore di query, fino al numero massimo specificato, all'origine dati sottostante. Questo è utile se in un'unica pagina sono presenti numerosi oggetti visivi o se molti utenti accedono a un report contemporaneamente. Quando viene raggiunto il numero massimo di connessioni, le query in eccesso vengono accodate fino a quando non diventa disponibile una connessione. L'aumento di questo limite comporta un carico maggiore dell'origine sottostante. L'impostazione quindi non garantisce il miglioramento delle prestazioni complessive.
+
+Dopo la pubblicazione di un report, il numero massimo di query simultanee inviate all'origine dati sottostante dipende anche da limiti fissi, che variano a seconda dell'ambiente di destinazione in cui il report viene pubblicato. Ambienti diversi (ad esempio Power BI, Power BI Premium o Server di report di Power BI) possono imporre ognuno limiti diversi.
+
 ### <a name="diagnosing-performance-issues"></a>Diagnosi dei problemi di prestazioni
 Questa sezione descrive come diagnosticare i problemi di prestazioni o come ottenere informazioni più dettagliate per consentire l'ottimizzazione dei report.
 
@@ -349,7 +363,7 @@ Per aprire il file di traccia eseguire questa procedura:
 2. Immettere il percorso del file di traccia per la sessione di Power BI attualmente aperta, ad esempio:
    
          C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data
-3. Aprire il file FlightRecorderCurrent.trc
+3. Aprire FlightRecorderCurrent.trc
 
 Vengono visualizzati tutti gli eventi dalla sessione corrente. L'esempio con annotazioni illustrato di seguito evidenzia i gruppi di eventi. Ogni gruppo presenta gli elementi seguenti:
 
@@ -367,14 +381,14 @@ Di seguito sono riportate altre colonne di interesse:
 * **Duration:** tempo in millisecondi impiegato per eseguire la query DAX o SQL.
 * **Error:** indica se si è verificato un errore. In quel caso l'evento verrà anche visualizzato in rosso.
 
-Si noti che nell'immagine precedente alcune colonne meno interessanti sono state limitate per visualizzare più facilmente le colonne interessanti.
+Nell'immagine precedente alcune colonne meno interessanti sono state ristrette per consentire una visualizzazione più agevole delle colonne di interesse.
 
 L'approccio consigliato per l'acquisizione di una traccia utile per la diagnosi di un potenziale problema di prestazioni è il seguente:
 
 * Aprire una singola sessione di **Power BI Desktop** per evitare la confusione di più cartelle di aree di lavoro
 * Eseguire il set di azioni di interesse in **Power BI Desktop**. Includere alcune azioni aggiuntive per assicurare che gli eventi di interesse vengano scaricati nel file di traccia.
 * Aprire **SQL Server Profiler** ed esaminare la traccia, come descritto in precedenza. Tenere presente che il file di traccia verrà eliminato al momento della chiusura di **Power BI Desktop**. Altre azioni in Power BI Desktop non verranno visualizzate immediatamente: è necessario chiudere e riaprire il file di traccia per visualizzare i nuovi eventi.
-* Mantenere le singole sessioni relativamente ridotte (dieci secondi di azioni, non centinaia) per semplificare l'interpretazione del file di traccia e anche per tenere conto del limite applicato alle dimensioni del file stesso, che nel caso di sessioni molto lunghe può provocare l'eliminazione degli eventi iniziali.
+* Mantenere le singole sessioni relativamente ridotte (10 secondi di azioni, non centinaia) per semplificare l'interpretazione del file di traccia e anche per tenere conto del limite applicato alle dimensioni del file stesso, dal quale, nel caso di sessioni di lunga durata, possono essere eliminati gli eventi meno recenti.
 
 #### <a name="understanding-the-form-of-query-sent-by-power-bi-desktop"></a>Informazioni sul formato delle query inviate da Power BI Desktop
 Il formato generale delle query create e inviate da **Power BI Desktop** usa sub-SELECT per ognuna delle tabelle a cui si fa riferimento, dove la sub-SELECT è definita dalla query specificata nell'**editor di query**. Si supponga ad esempio che siano presenti le tabelle TPC-DS seguenti in SQL Server:
@@ -396,7 +410,7 @@ Un motivo per cui Power BI usa questo modello è perché la query SQL usata può
 ![](media/desktop-directquery-about/directquery-about_12.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-Questo articolo descrive aspetti di **DirectQuery** comuni a tutte le origini dati. Alcuni dettagli sono specifici delle singole origini. Vedere gli argomenti seguenti relativi alle origini specifiche:
+Questo articolo descrive aspetti di **DirectQuery** comuni a tutte le origini dati. Alcuni dettagli sono specifici delle singole origini. Vedere gli articoli seguenti relativi a origini specifiche:
 
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
