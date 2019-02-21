@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794995"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298869"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 Con Power BI, è possibile pubblicare il report in formato PDF e creare facilmente un documento basato su un report di Power BI. Quando si **esporta in formato PDF** ogni pagina del report di Power BI diventa una singola pagina del documento PDF.
@@ -28,6 +28,10 @@ Nel servizio Power BI selezionare un report per visualizzarlo nell'area di diseg
 
     ![Selezionare File nella barra dei menu, freccia rivolta verso Esporta in PDF](media/end-user-pdf/power-bi-export-pdf.png)
 
+    Verrà visualizzata una finestra popup in cui è possibile selezionare **Visualizzazione corrente** oppure **Visualizzazione predefinita**.  **Visualizzazione corrente** consente di esportare il report nello stato corrente, comprese le modifiche attive apportate ai valori del filtro dei dati e del filtro.  La maggior parte degli utenti seleziona questa opzione.  In alternativa, se si seleziona **Visualizzazione predefinita**, il report viene esportato allo stato originale, ovvero come è stato condiviso dall'autore, e non riflette le modifiche apportate a tale stato.
+    
+    È anche disponibile una casella di controllo per scegliere se esportare le schede nascoste di un report.  Selezionare questa casella se si vogliono esportare solo le schede del report che sono visibili all'utente nel browser.  Se si preferisce esportare tutte le schede nascoste, lasciare l'opzione deselezionata.  Se la casella di controllo è disattivata, non sono presenti schede nascoste nel report.  Dopo aver eseguito le selezioni, fare clic sul pulsante Esporta per continuare.
+    
     Nell'angolo superiore destro viene visualizzato un indicatore di stato. L'esportazione del report può richiedere alcuni minuti ma consente di continuare a lavorare in Power BI.
 
     ![Messaggio di stato dell'esportazione](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ E questo è tutto. È possibile scaricare il file e aprirlo con qualsiasi visual
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Quando si lavora con la funzionalità **Esporta in PDF** è necessario tenere presenti alcune considerazioni e limitazioni.
-
-- L'interattività durante la sessione, ad esempio l'evidenziazione e il filtro, il drill-down e così via, non è ancora supportata durante l'esportazione in PDF. Nel file PDF esportato gli oggetti visivi originali sono visualizzati così com'erano stati salvati nel report. Se sono stati applicati filtri e filtri dei dati e si vuole conservarli nell'esportazione, salvare il report e quindi eseguire l'esportazione.
 
 * Gli **oggetti visivi R** non sono attualmente supportati. Nel file PDF questi oggetti visivi sono vuoti e visualizzano un messaggio di errore.  
 

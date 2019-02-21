@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430948"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408116"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti un report o dashboard nel servizio Power BI
 
@@ -32,12 +32,12 @@ ms.locfileid: "55430948"
 - A partire da gennaio 2019, non è necessario che sia configurato l'aggiornamento del set di dati per eseguire una sottoscrizione,  che viene eseguita a prescindere da eventuali aggiornamenti pianificati configurati.  
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Sottoscrivere una pagina di report o dashboard
-Il processo di sottoscrizione per un dashboard o un report è molto simile. Lo stesso pulsante consente di effettuare la sottoscrizione ai dashboard e ai report del servizio Power BI.
+Il processo di sottoscrizione a un dashboard o un report è molto simile. Lo stesso pulsante consente di effettuare la sottoscrizione ai dashboard e ai report del servizio Power BI.
  
 ![Selezionare l'icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Aprire il dashboard o il report.
-2. Nella barra dei menu superiore selezionare **Sottoscrivi** oppure l'icona a forma di busta ![icona Sottoscrivi](media/service-report-subscribe/power-bi-icon-envelope.png).
+2. Dalla barra dei menu superiore selezionare **Sottoscrivi** oppure selezionare l'icona a forma di busta ![Sottoscrivi](media/service-report-subscribe/power-bi-icon-envelope.png).
    
    ![Icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
@@ -60,12 +60,10 @@ Il processo di sottoscrizione per un dashboard o un report è molto simile. Lo s
 7. Selezionare **Salva e chiudi**. Gli utenti con sottoscrizione ricevono un messaggio di posta elettronica e uno snapshot della pagina di report o del dashboard per la frequenza e l'ora selezionate. In tutto, si possono creare fino a 24 sottoscrizioni per report o dashboard ed è possibile specificare destinatari, frequenze e orari univoci per ogni sottoscrizione.  Tutte le sottoscrizioni impostate su **Dopo l'aggiornamento dei dati** per il dashboard o report invieranno ancora un messaggio di posta elettronica dopo il primo aggiornamento pianificato.   
       
    > [!TIP]
-   > Per visualizzare immediatamente il messaggio di posta elettronica, Attivare un messaggio di posta elettronica aggiornando uno dei set di dati associati al dashboard o al report. Se non si hanno le autorizzazioni di modifica per il set di dati, chiedere a un utente che ha tali autorizzazioni di eseguire l'aggiornamento. Per visualizzare i set di dati correlati, selezionare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](media/service-report-subscribe/power-bi-view-related.png) per aprire **Contenuto correlato** e quindi selezionare l'icona di aggiornamento ![Icona di aggiornamento](media/service-report-subscribe/power-bi-refresh.png). 
+   > Se si vuole inviare il messaggio di posta elettronica da una sottoscrizione immediatamente o su richiesta in qualsiasi momento, selezionare **Esegui** per le sottoscrizioni per il dashboard o il report da inviare. Verrà visualizzata la notifica dell'invio di un messaggio di posta elettronica a tutti gli utenti per la sottoscrizione specifica.  È possibile eseguire questa operazione con la frequenza desiderata, dato che non viene conteggiata per il limite di 24 esecuzioni pianificate al giorno per report o dashboard per la sottoscrizione. Si noti che tale esecuzione NON attiva l'aggiornamento dei dati del set di dati sottostante. 
    > 
    > 
    
-   ![Set di dati correlati](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>Lingue della posta elettronica
 
 Per il messaggio di posta elettronica e lo snapshot viene usata la lingua specificata nelle impostazioni di Power BI (vedere [Lingue e paesi/aree geografiche supportate per Power BI](supported-languages-countries-regions.md)). Se non è definita alcuna lingua, Power BI usa la lingua in base alle impostazioni internazionali nel browser corrente. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-report-subscribe/power-bi-settings-icon.png) > **Impostazioni > Generali > Lingua**. 
@@ -84,6 +82,7 @@ Le sottoscrizioni visualizzate variano in base all'area di lavoro attiva.  Per v
 Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il dashboard o report o viene eliminato l'account utente usato per creare la sottoscrizione.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+* È possibile che i dashboard con più di 25 riquadri aggiunti o più di 4 pagine report dinamiche aggiunte non vengano visualizzati interamente nei messaggi di posta elettronica della sottoscrizione inviati agli utenti.  Le sottoscrizioni a dashboard con questo numero di riquadri non vengono bloccate, ma in caso di problemi non sono supportate e devono essere modificate in modo da rientrare nell'intervallo supportato.
 * Per le sottoscrizioni via posta elettronica ai dashboard, i riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.  Per le sottoscrizioni via posta elettronica ai report, non è possibile creare una sottoscrizione se il set di dati usa la sicurezza a livello di riga.
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e dopo la si rinomina, è necessario ricreare la sottoscrizione.
 * L'organizzazione potrebbe configurare determinate impostazioni in Azure Active Directory per limitare la possibilità di usare le sottoscrizioni tramite posta elettronica in Power BI.  Queste limitazioni includono, a titolo di esempio, l'autenticazione a più fattori o la presenza di restrizioni dell'intervallo IP quando si accede alle risorse.

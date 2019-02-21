@@ -14,7 +14,7 @@ Sono disponibili molte opzioni per modificare i colori o la formattazione dell'o
 
 ![](media/3-9a-modifying-colors/3-9a_4.png)
 
-Inoltre, è possibile modificare la scala e i colori usati per il riempimento dei colori degli elementi dati. È anche possibile selezionare una scala divergente attivando il dispositivo di scorrimento Divergente, che permette al colore di usare una scala tra tre colori diversi. È anche possibile impostare i valori *Minimo*, *Al centro* e *Massimo* per i colori visualizzati nel grafico.
+Inoltre, è possibile modificare la scala e i colori usati per il riempimento dei colori degli elementi dati. È anche possibile selezionare una scala divergente attivando il dispositivo di scorrimento Divergente, che permette al colore di usare una scala tra tre colori diversi. È anche possibile impostare i valori *Minimo*, *Al centro* e *Massimo* visualizzati nel grafico.
 
 ![](media/3-9a-modifying-colors/3-9a_5.png)
 

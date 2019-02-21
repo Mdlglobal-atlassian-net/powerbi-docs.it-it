@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281552"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298915"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Esportare report da Power BI in PowerPoint
 Con Power BI, è possibile pubblicare il report in **Microsoft PowerPoint** e creare facilmente una presentazione basata su un report di Power BI. Quando si **esporta in PowerPoint**, si verifica quanto segue:
@@ -35,6 +35,10 @@ Nel servizio Power BI selezionare un report per visualizzarlo nell'area di diseg
 Quando il report da esportare in PowerPoint è visualizzato nell'area di disegno, selezionare **File > Esporta in PowerPoint** dalla barra dei menu nel servizio Power BI.
 
 ![Vista ravvicinata della barra di spostamento a sinistra con l'area di lavoro personale selezionata e l'elenco a discesa File selezionato](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+Verrà visualizzata una finestra popup in cui è possibile selezionare **Visualizzazione corrente** oppure **Visualizzazione predefinita**.  **Visualizzazione corrente** consente di esportare il report nello stato corrente, comprese le modifiche attive apportate ai valori del filtro dei dati e del filtro.  La maggior parte degli utenti seleziona questa opzione.  In alternativa, se si seleziona **Visualizzazione predefinita**, il report viene esportato allo stato originale, ovvero come è stato condiviso dall'autore, e non riflette le modifiche apportate a tale stato.
+    
+È anche disponibile una casella di controllo per scegliere se esportare le schede nascoste di un report.  Selezionare questa casella se si vogliono esportare solo le schede del report che sono visibili all'utente nel browser.  Se si preferisce esportare tutte le schede nascoste, lasciare l'opzione deselezionata.  Se la casella di controllo è disattivata, non sono presenti schede nascoste nel report.  Dopo aver eseguito le selezioni, fare clic sul pulsante **Esporta** per continuare.
 
 Nell'angolo in alto a destra della finestra del browser del servizio Power BI verrà visualizzato un banner di notifica che informa che si sta esportando il report in PowerPoint. L'esportazione del report potrebbe richiedere alcuni minuti ed è possibile continuare a lavorare in Power BI.
 
@@ -74,7 +78,6 @@ Da questo momento in poi, le operazioni da eseguire con la presentazione di Powe
 ## <a name="limitations"></a>Limitazioni
 Quando si lavora con la funzionalità **Esporta in PowerPoint** è necessario tenere presenti alcune considerazioni e limitazioni.
 
-* L'interattività durante la sessione, come ad esempio l'evidenziazione e il filtro, il drill-down e così via, non è ancora supportata durante l'esportazione in PowerPoint. Il file PowerPoint esportato mostra gli oggetti visivi originali così com'erano stati salvati nel report. Se si vogliono preservare i filtri e i filtri dei dati applicati nell'esportazione, salvare il report e quindi eseguire l'esportazione.
 * Gli **oggetti visivi R** non sono attualmente supportati. Tutti questi oggetti visivi vengono esportati come un'immagine vuota in PowerPoint con un messaggio di errore che informa che l'oggetto visivo non è supportato.
 * Gli **oggetti visivi personalizzati** che sono stati **certificati** sono supportati. Per altre informazioni sugli oggetti visivi personalizzati certificati, tra cui come certificare un oggetto visivo personalizzato, vedere [Ottenere la certificazione di un oggetto visivo personalizzato](../power-bi-custom-visuals-certified.md). Gli oggetti visivi personalizzati che sono stati certificati non sono supportati e vengono esportati come un'immagine vuota in PowerPoint, con un messaggio di errore che informa che l'oggetto visivo non è supportato.
 * I report con più di 30 pagine attualmente non possono essere esportati.

@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56333868"
+---
 ## <a name="limitations"></a>Limitazioni
 
 Di seguito è riportato un elenco delle limitazioni correnti per la sicurezza a livello di riga nei modelli cloud.
@@ -8,7 +21,7 @@ Di seguito è riportato un elenco delle limitazioni correnti per la sicurezza a 
 
 * Sono supportate solo le connessioni ETL e DirectQuery. Le connessioni dinamiche ad Analysis Services vengono gestite nel modello locale.
 
-* Al momento le funzionalità Domande e risposte e Cortana non sono supportate con la sicurezza a livello di riga. La casella di input Domande e risposte non verrà visualizzata per i dashboard se è stata configurata la sicurezza a livello di riga per tutti i modelli. È una funzionalità prevista, anche se non è ancora disponibile una data precisa.
+* Al momento l'uso di Cortana non è supportato con Sicurezza a livello di riga.
 
 ## <a name="known-issues"></a>Problemi noti
 

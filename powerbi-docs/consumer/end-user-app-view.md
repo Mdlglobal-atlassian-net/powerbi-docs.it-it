@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068052"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249391"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installare e usare le app con dashboard e report in Power BI
 Dopo aver acquisito [una conoscenza di base delle app](end-user-apps.md), verrà illustrato come aprirle e interagire con esse. 
@@ -25,7 +25,7 @@ Tenere presente che esistono diversi modi per ottenere una nuova app. Un collega
 
 In Power BI nel dispositivo mobile è possibile installare un'app solo da un collegamento diretto, non da AppSource. Se l'autore dell'app installa automaticamente l'app, verrà visualizzata nell'elenco delle app.
 
-### <a name="install-an-app-from-a-direct-link"></a>Installare un'app da un collegamento diretto
+## <a name="install-an-app-from-a-direct-link"></a>Installare un'app da un collegamento diretto
 Il modo più semplice per installare una nuova app consiste nell'ottenere un collegamento diretto, tramite posta elettronica, dall'autore dell'app.  
 
 **Nel computer** 
@@ -40,7 +40,7 @@ Quando si seleziona il collegamento nel messaggio di posta elettronica nel dispo
 
 ![Elenco del contenuto dell'app nel dispositivo mobile](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Ottenere l'app da Microsoft AppSource
+## <a name="get-the-app-from-microsoft-appsource"></a>Ottenere l'app da Microsoft AppSource
 È anche possibile trovare e installare le app da Microsoft AppSource. Vengono visualizzate solo le app a cui si ha accesso, ovvero quelle per cui l'autore dell'app ha concesso l'autorizzazione.
 
 1. Selezionare **App** ![App nel riquadro di spostamento a sinistra](./media/end-user-apps/power-bi-apps-bar.png) > **Scarica app**. 

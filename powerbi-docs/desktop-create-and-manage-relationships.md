@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f8b9f775b43f2c1b26b7ef56c5bb0985fc3f7ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: d4f1936f02edf4ece60b4761d4e541801384a5d2
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292055"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249345"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Creare e gestire le relazioni in Power BI Desktop
 Quando si importano più tabelle, è probabile che verranno eseguite analisi con i dati inclusi nelle tabelle. Le relazioni tra le tabelle sono necessarie per calcolare con precisione i risultati e visualizzare le informazioni corrette nei report. Power BI Desktop semplifica la creazione di queste relazioni. Nella maggior parte dei casi, in effetti, tutte le operazioni verranno eseguite automaticamente dalla funzionalità Rilevamento automatico. In alcuni casi, tuttavia, potrebbe essere necessario creare manualmente le relazioni oppure apportare alcune modifiche a una relazione. È quindi importante comprendere le relazioni in Power BI Desktop e capire come crearle e modificarle.
@@ -58,6 +58,8 @@ Quando si crea o si modifica una relazione, è possibile configurare opzioni agg
 **Molti-a-uno (\*:1)** - Tipo predefinito e più comune. Significa che la colonna in una tabella può avere più istanze di un valore e l'altra tabella correlata, spesso nota come tabella di ricerca, include solo un'istanza di un valore.
 
 **Uno-a-uno (1:1)** - Significa che la colonna in una tabella include solo un'istanza di un valore specifico e l'altra tabella correlata include solo un'istanza di un valore specifico.
+
+**Relazioni molti-a-molti**: con i modelli compositi è possibile stabilire relazioni molti-a-molti tra le tabelle. Questo approccio consente di rimuovere i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per informazioni più dettagliate, vedere [Relazioni con cardinalità molti-a-molti](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Per informazioni dettagliate su quando modificare la cardinalità, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 

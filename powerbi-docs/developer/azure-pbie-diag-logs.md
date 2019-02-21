@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126538"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249138"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registrazione diagnostica per Power BI Embedded in Azure
 
@@ -114,13 +114,13 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 |    Audit Logout    |    Registra tutte gli eventi di disconnessione dal motore dall'avvio della traccia.    |
 |    Errore    |    Registra tutti gli eventi di errore del motore dall'avvio della traccia.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | Nome proprietà | Esempio di Vertipaq Query End | Descrizione della proprietà |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | La classe di evento viene usata per suddividere gli eventi in categorie. |
-| EventSubclass | 0 | La sottoclasse di evento fornisce informazioni aggiuntive su ogni classe di evento. (ad esempio 0: VertiPaq Scan) |
+| EventSubclass | 0 | La sottoclasse di evento fornisce informazioni aggiuntive su ogni classe di evento. (ad esempio, 0: Analisi VertiPaq) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | ID attività radice. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Ora di inizio dell'evento, se disponibile. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Ora di inizio dell'evento, se disponibile. |
@@ -136,7 +136,7 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 | ProgressTotal | 0 | Stato complessivo. |
 | IntegerData | 0 | Dati integer. |
 | Severity | 0 | Livello di gravità di un'eccezione. |
-| Operazione riuscita. | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
+| Success | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
 | Errore | 0 | Numero di errore di un evento specifico. |
 | TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | Dati di tipo testo associati all'evento. |
 | ConnectionID | 3 | ID connessione univoco. |
@@ -183,7 +183,7 @@ Selezionare **EventClass\_s** o uno dei nomi degli eventi. Log Analytics prosegu
 
 Assicurarsi di visitare [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), che offre un sito Web con funzionalità avanzate per query, dashboard e avvisi sui dati raccolti.
 
-### <a name="queries"></a>Query
+### <a name="queries"></a>Queries
 
 Sono disponibili centinaia di query che è possibile usare. Di seguito ne sono riportate alcune per iniziare. Per altre informazioni sull'uso del nuovo linguaggio di query per le ricerche log, vedere [Informazioni sulle ricerche log in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

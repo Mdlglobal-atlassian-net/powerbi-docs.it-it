@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086472"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408185"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -172,11 +172,11 @@ La figura seguente mostra l'opzione per esportare i dati da un riquadro.
 > [!NOTE]
 > Se si disabilita **Esporta dati**, si impedisce anche agli utenti di usare la funzionalità **Analizza in Excel** oltre alla connessione dinamica al servizio Power BI.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Esporta report come presentazioni di PowerPoint
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Esporta report come presentazioni di PowerPoint o documenti PDF
 
-Gli utenti dell'organizzazione possono esportare report di Power BI come file di PowerPoint. [Altre informazioni](consumer/end-user-powerpoint.md)
+Gli utenti dell'organizzazione possono esportare i report di Power BI come file di PowerPoint o documenti PDF. [Altre informazioni](consumer/end-user-powerpoint.md)
 
-La figura seguente mostra il menu **File** per un report quando l'impostazione **Esporta report come presentazioni di PowerPoint** è abilitata.
+La figura seguente illustra il menu **File** per un report quando l'impostazione **Esporta report come presentazioni di PowerPoint o documenti PDF** è abilitata.
 
 ![Esporta report come presentazioni di PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ La figura seguente mostra l'opzione **Intera organizzazione** quando si crea un 
 
 ![Pubblicare il pacchetto di contenuto per l'organizzazione](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Creare modelli di pacchetti di contenuto e app aziendali
+### <a name="create-template-apps"></a>Creare app modello
 
-Gli utenti dell'organizzazione possono creare modelli di pacchetti di contenuto che usano set di dati compilati in Power BI Desktop. [Altre informazioni](template-content-pack-authoring.md)
+Gli utenti dell'organizzazione possono creare app modello che usano set di dati compilati in Power BI Desktop. Per altre informazioni, vedere [Create a template app in Power BI](template-content-pack-authoring.md) (Creare un'app modello in Power BI)
 
 ### <a name="push-apps-to-end-users"></a>Push delle app agli utenti finali
 
@@ -301,6 +301,18 @@ Gli utenti dell'organizzazione possono creare e usare flussi di dati. Per una pa
 
 > [!NOTE]
 > Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
+
+## <a name="template-apps-settings-preview"></a>Impostazioni app modello (anteprima)
+
+Sono due le impostazioni che controllano le app modello. 
+
+![Impostazioni di app modello del portale di amministrazione di Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+La prima, **Crea app modello**, consente di controllare chi, all'interno dell'organizzazione, può creare app modello. Gli autori di app modello possono poi distribuirle ai client esterni all'organizzazione tramite AppSource o altri metodi di distribuzione.
+
+![Portale di amministrazione di Power BI, impostazione Crea app modello](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+La seconda impostazione, **Installa app modello**, consente di controllare quali utenti dell'organizzazione possono scaricare e installare le app di modello da AppSource o da un'altra origine
 
 ## <a name="capacity-settings"></a>Impostazioni di capacità
 

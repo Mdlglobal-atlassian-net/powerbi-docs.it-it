@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 02/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
-ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
+ms.openlocfilehash: b130ccbe6b3fe6fa09b9a4c4efe388f79350c500
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55482707"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298823"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>Nuova esperienza di filtro nei report di Power BI (anteprima)
 
 Questo articolo illustra in dettaglio la nuova esperienza di filtro: I filtri di Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Quando si progettano report in Power BI Desktop o nel servizio Power BI, è possibile fare in modo che l'aspetto e il funzionamento del riquadro Filtri si integrino perfettamente con l'intero report. Nella nuova esperienza il riquadro Filtri precedente funge da riquadro di modifica dei filtri, mentre il nuovo riquadro Filtro è il solo visualizzato dagli utenti dei report. 
  
 ![Visualizzazione predefinita (senza personalizzazione aggiuntive applicate)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
+
+> [!NOTE]
+> La nuova esperienza di filtro è disponibile in anteprima. Le nuove compilazioni possono sostituire la formattazione già impostata.
 
 I nuovi filtri consentono ai responsabili della progettazione report di:
 
@@ -83,6 +86,7 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 - Trasparenza sfondo
 - Bordo del riquadro filtro attivato o disattivato
 - Colore del bordo del riquadro filtro
+- Titolo del riquadro filtro e carattere dell'intestazione, colore e dimensione del testo
 
 È anche possibile formattare questi elementi per le schede filtro, a seconda che siano applicati (impostati su un valore) o disponibili (cancellati): 
 
@@ -90,6 +94,8 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 - Trasparenza sfondo
 - Bordo: attivato o disattivato
 - Colore bordo
+- Carattere, colore e dimensioni del testo
+- Colore delle caselle di input
 
 ### <a name="set-the-format-for-the-filters-pane-and-cards"></a>Impostare il formato per il riquadro Filtri e le schede
 
@@ -100,11 +106,11 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 
 1. Espandere **Riquadro filtro** per impostare il colore per lo sfondo, l'icona e il bordo sinistro in modo che rispecchino la pagina del report.
 
-    ![Espandere Riquadro filtro](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
+    ![Espandere Riquadro filtro](media/power-bi-report-filter-preview/power-bi-filter-format-pane-font.png)
 
 1. Espandere **Schede filtro** per impostare il colore e il bordo **disponibili** e **applicati**. Se le schede disponibili e applicate hanno colori diversi, è facile capire quali filtri sono applicati. 
   
-    ![Espandere Schede filtro](media/power-bi-report-filter-preview/power-bi-filter-format-card.png)
+    ![Espandere Schede filtro](media/power-bi-report-filter-preview/power-bi-filter-format-card-font.png)
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Visualizzare i filtri per un oggetto visivo in modalità di lettura
 

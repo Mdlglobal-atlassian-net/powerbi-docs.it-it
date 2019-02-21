@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282104"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408139"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Domande frequenti sugli oggetti visivi personalizzati di Power BI
 
@@ -98,6 +98,9 @@ Se si sta lavorando a un oggetto visivo personalizzato con acquisto in-app o l'o
 Se l'oggetto visivo personalizzato contiene un logo, verificare che sia conforme alle linee guida per i logo (colore, posizione, dimensione e attivazione di azioni).
 
 Nelle linee guida è anche possibile trovare indicazioni per le procedure consigliate.  
+> [!Note]
+> Tutti gli oggetti visivi gratuiti dovrebbero avere le stesse funzionalità gratuite offerte in precedenza. È possibile aggiungere funzionalità avanzate facoltative a pagamento, in aggiunta alle funzionalità gratuite precedenti. È consigliabile inviare gli oggetti visivi in-app con funzionalità avanzate come nuovi oggetti visivi anziché aggiornare gli oggetti gratuiti precedenti.
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>È possibile ottenere la certificazione dell'oggetto visivo personalizzato con acquisto in-app?
 

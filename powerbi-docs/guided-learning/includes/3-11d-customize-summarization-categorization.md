@@ -13,7 +13,7 @@ Selezionare un oggetto visivo sull'area di disegno del report e quindi seleziona
 
 Esistono diverse opzioni per la formattazione dei campi. Ad esempio, è possibile modificare il formato della valuta in percentuale.
 
-È possibile anche modificare il modo in cui Powwer BI riepiloga i dati. Selezionare l’icona **Riepilogo predefinito** per modificare la modalità di riepilogo di un campo, tra cui la visualizzazione di una somma, un conteggio o una media.
+È anche possibile modificare il modo in cui Power BI riepiloga i dati. Selezionare l’icona **Riepilogo predefinito** per modificare la modalità di riepilogo di un campo, tra cui la visualizzazione di una somma, un conteggio o una media.
 
 ![](media/3-11d-customize-summarization-categorization/3-11d_3.png)
 

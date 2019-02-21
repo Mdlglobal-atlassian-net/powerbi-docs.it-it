@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279321"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325015"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
 Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
@@ -90,7 +90,7 @@ L'uso di Azure AD Connect garantisce la corrispondenza tra l'UPN e AAD e Active 
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>A questo punto, è possibile usare il gateway
-Il gateway funge da ponte tra il cloud e il server locale. Il trasferimento dei dati tra il cloud e il gateway viene protetto con il [bus di servizio di Azure](/azure/service-bus-messaging/service-bus-messaging-overview). Il bus di servizio crea un canale sicuro tra il cloud e il server locale attraverso una connessione in uscita sul gateway.  Non sono presenti connessioni in ingresso che è necessario aprire nel firewall locale.
+Il gateway funge da ponte tra il cloud e il server locale. Il trasferimento dei dati tra il cloud e il gateway viene protetto con il [bus di servizio di Azure](/azure/service-bus-messaging/service-bus-messaging-overview). Il bus di servizio crea un canale sicuro tra il cloud e il server locale attraverso una connessione in uscita sul gateway.  Non sono presenti connessioni in ingresso che è necessario aprire nel firewall locale. Power BI gestisce automaticamente il bus di servizio. Non sono quindi presenti costi aggiuntivi né sono necessari passaggi di configurazione.
 
 Se si dispone di un'origine dati di Analysis Services, è necessario installare il gateway in un computer appartenente allo stesso insieme di strutture o dominio del server Analysis Services.
 

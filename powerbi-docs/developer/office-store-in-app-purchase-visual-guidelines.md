@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430005"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408070"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Linee guida per gli oggetti visivi di Power BI con acquisti aggiuntivi
 
@@ -22,6 +22,10 @@ Fino a poco tempo fa, il **Marketplace (AppSource)** accettava solo oggetti visi
 
 > [!Note]
 > Perché l'oggetto visivo sia certificato, non deve avere accesso a servizi o risorse esterni.
+
+> [!Note]
+> Tutti gli oggetti visivi gratuiti devono mantenere le stesse funzionalità gratuite offerte in precedenza. È possibile aggiungere funzionalità avanzate facoltative a pagamento, in aggiunta alle funzionalità gratuite precedenti. È consigliabile inviare gli oggetti visivi in-app con funzionalità avanzate come nuovi oggetti visivi invece di aggiornare gli oggetti gratuiti precedenti.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>Cosa cambia nel processo di invio?
 

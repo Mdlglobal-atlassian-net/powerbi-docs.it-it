@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a82bbc3e4b31dca0a304c1d3f64d4bc63e4e7fb3
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086771"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325152"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
 L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Si supponga ad esempio di essere interessati ai motivi che influiscono sull'abbandono dei dipendenti dell'azienda. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
@@ -71,7 +71,7 @@ Il product manager vuole determinare i fattori per cui i clienti danno valutazio
     - Role in Org (Ruolo nell'organizzazione) 
     - Subscription Type (Tipo di sottoscrizione) 
     - Company size (Dimensione dell'azienda) 
-    - Tema     
+    - Theme     
 4. Dato che interessano le valutazioni negative, selezionare **Bassa** nell'elenco a discesa **Fattore che influisce su Valutazione in modo che sia**.  
 
     ![Selezionare Bassa nell'elenco a discesa](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
@@ -167,11 +167,11 @@ Il 74,3% dei clienti di questo gruppo ha dato una valutazione bassa. In media i 
  
 L'oggetto visivo Fattori di influenza chiave è attualmente in anteprima pubblica e gli utenti devono tenere presenti diverse limitazioni. Le funzionalità attualmente non disponibili includono: 
 - Analisi delle metriche corrispondenti ad aggregazioni/misure 
-- Uso dell'oggetto visivo in modalità incorporata 
-- Uso dell'oggetto visivo in Power BI per dispositivi mobili 
+- Uso dell'oggetto visivo in Power BI Embedded
+- Uso dell'oggetto visivo nelle app per dispositivi mobili Power BI
 - Supporto della sicurezza a livello di riga 
 - Supporto di DirectQuery 
-- Supporto delle query dinamiche 
+- Supporto delle connessioni dinamiche 
  
 **Un messaggio di errore indica che non sono stati trovati fattori di influenza/segmenti. Perché?**  
 
@@ -247,15 +247,16 @@ Il motivo è che per la definizione dei fattori di influenza la visualizzazione 
 
 **Come vengono calcolati i fattori di influenza chiave?**
 
-In background, la visualizzazione Intelligenza artificiale (AI) calcola i fattori di influenza chiave eseguendo una regressione logistica. Una regressione logistica è un modello statistico che confronta diversi gruppi. Se si stavano cercando i fattori all'origine delle valutazioni basse, la regressione logistica esamina la differenza tra i clienti che hanno dato un punteggio basso e quelli che hanno dato un punteggio elevato. Se sono presenti più categorie (punteggio elevato, neutro, basso) si esamina la differenza tra quelle che hanno dato una valutazione bassa e quelle che non hanno dato una valutazione bassa (come si differenziano da quelle che hanno dato una valutazione elevata o una valutazione neutra). 
+In background, la visualizzazione Intelligenza artificiale (AI) usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per eseguire una regressione logistica per calcolare i fattori di influenza chiave. Una regressione logistica è un modello statistico che confronta diversi gruppi. Se si stavano cercando i fattori all'origine delle valutazioni basse, la regressione logistica esamina la differenza tra i clienti che hanno dato un punteggio basso e quelli che hanno dato un punteggio elevato. Se sono presenti più categorie (punteggio elevato, neutro, basso) si esamina la differenza tra quelle che hanno dato una valutazione bassa e quelle che non hanno dato una valutazione bassa (come si differenziano da quelle che hanno dato una valutazione elevata o una valutazione neutra). 
  
 La regressione logistica ricerca criteri nei dati e prova a determinare le differenze tra i clienti che hanno dato una valutazione bassa e quelli che hanno dato una valutazione elevata. Ad esempio può determinare che i clienti con un numero maggiore di ticket di supporto hanno dato una percentuale molto più elevata di valutazioni basse rispetto ai clienti che hanno pochi ticket di supporto o nessun ticket.
  
 La regressione logistica prende in considerazione anche il numero di punti dati presenti. Se ad esempio i clienti con ruolo di amministratore assegnano una proporzione maggiore di valutazioni negative, ma il numero di amministratori è limitato, questo fattore non viene considerato importante. Il motivo è che i punti dati presenti non sono sufficienti per definire criteri. Per determinare se un fattore può essere considerato come fattore di influenza, viene usato un test statistico (test di Wald). L'oggetto visivo usa un valore p pari a 0,05 per determinare la soglia. 
- 
+
+
 **Come vengono calcolati i segmenti?**
 
-In background, la visualizzazione Intelligenza artificiale (AI) esegue un albero delle decisioni per rilevare i sottogruppi di interesse. Lo scopo dell'albero delle decisioni è definire un sottogruppo di punti dati con un valore relativamente alto per la metrica di interesse (ad esempio i clienti che ha dato una valutazione bassa). 
+In background, la visualizzazione Intelligenza artificiale (AI) usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per eseguire un albero delle decisioni per rilevare i sottogruppi di interesse. Lo scopo dell'albero delle decisioni è definire un sottogruppo di punti dati con un valore relativamente alto per la metrica di interesse (ad esempio i clienti che ha dato una valutazione bassa). 
 
 L'albero delle decisioni considera i singoli fattori esplicativi e determina quale fattore offre la migliore suddivisione. Se ad esempio si filtrano i dati in modo da includere solo i clienti di aziende di grandi dimensioni, i clienti che hanno dato una valutazione elevata verranno separati da quelli che hanno dato una valutazione bassa? O forse è preferibile filtrare i dati per includere solo i clienti che hanno formulato commenti sulla sicurezza? 
 
