@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448222"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426563"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Domande frequenti su disponibilità elevata, failover e ripristino di emergenza in Power BI
 
@@ -29,7 +29,7 @@ Power BI è una soluzione Software as a Service (SaaS) completamente gestita.  M
 
 Power BI mantiene più istanze di ogni componente nei data center di Azure (detti anche aree) per garantire la continuità operativa. Se si verifica un'interruzione del servizio o un problema per cui Power BI non è accessibile o utilizzabile in un'area, tutti i componenti di Power BI in tale area vengono sottoposti a failover su un'istanza di backup. Il failover ripristina la disponibilità e il funzionamento dell'istanza del servizio Power BI in una nuova area (in genere nella stessa posizione geografica, come specificato in [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
 
-Un'istanza del servizio Power BI sottoposta a failover supporta solo _operazioni di lettura_, ovvero le operazioni seguenti non sono supportate durante il failover: aggiornamenti, operazioni di pubblicazione di report, modifiche a dashboard o report e altre operazioni che richiedono modifiche ai metadati Power BI (ad esempio l'aggiunta di un commento a un report).  Le operazioni di lettura, quali la visualizzazione di dashboard e di report (non basate su DirectQuery in Live Connect a origini dati locali) continuano a funzionare normalmente.
+Un'istanza del servizio Power BI sottoposta a failover supporta solo _operazioni di lettura_, ovvero le operazioni seguenti non sono supportate durante il failover: aggiornamenti, operazioni di pubblicazione di report, modifiche a dashboard o report e altre operazioni che richiedono modifiche ai metadati Power BI (ad esempio l'aggiunta di un commento a un report).  Le operazioni di lettura, ad esempio la visualizzazione di dashboard e di report (non basata su DirectQuery o Live Connect per origini dati locali) continuano a funzionare normalmente.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>In che modo le istanze di backup vengono mantenute sincronizzate con i dati degli utenti?
 

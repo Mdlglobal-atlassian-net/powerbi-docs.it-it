@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 02/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48e1ddbc498e234c43bf755d3a23a2e10e4cc856
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1e997f5ac7e916f10c98756f142b9f563adea05a
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290215"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426609"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Creazione di oggetti visivi R nel servizio Power BI
 Il servizio Power BI supporta la visualizzazione e l'interazione con oggetti visivi creati con gli script R. Gli oggetti visivi creati con gli script R, comunemente denominati *oggetti visivi R*, possono presentare funzionalità avanzate di data shaping e analisi, ad esempio le previsioni, usando le funzionalità avanzate di analisi e visualizzazione di R.
@@ -66,11 +66,19 @@ Come ulteriore esempio, l'immagine seguente mostra il messaggio di errore visual
 ## <a name="licensing"></a>Gestione delle licenze
 Gli oggetti visivi R richiedono una licenza [Power BI Pro](../service-self-service-signup-for-power-bi.md) per il rendering nei report, l'aggiornamento, il filtro e il filtro incrociato. Per maggiori informazioni sulle licenze Power BI Pro e sugli aspetti che le distinguono dalle licenze gratuite, vedere [Contenuto Power BI Pro: di cosa si tratta?](../service-premium.md)
 
-Gli utenti della versione di Power BI gratuita possono usare solo i riquadri condivisi con loro. Vedere [Acquisto di Power BI Pro](../service-admin-purchasing-power-bi-pro.md) per maggiori informazioni.
+Gli utenti della versione di Power BI gratuita possono usare solo i riquadri condivisi nelle aree di lavoro Premium. Vedere [Acquisto di Power BI Pro](../service-admin-purchasing-power-bi-pro.md) per maggiori informazioni.
 
 La tabella seguente descrive le funzionalità degli oggetti visivi R in base alle licenze.
 
-![](media/service-r-visuals/r-visuals-service_6a.png)
+
+|  |Creare oggetti visivi R in Power BI Desktop  | Creare report del servizio PBI con oggetti visivi R |Visualizzare oggetti visivi R nei report  | Visualizzare riquadri R nei dashboard |
+|---------|---------|---------|---------|--------|
+|**Guest** (Power BI Embedded)     |  Non rilevante|  Non rilevante       | Non supportato  | Non rilevante |
+|**Tenant non gestito** (dominio non verificato) | Supportato | Non supportato |  Non supportato |Supportato (scenario B2B) |
+|**Tenant gestito** con licenza gratuita    |  Supportato       |  Non supportato       |    Supportato solo nella capacità Premium    | Supportato |
+**Tenant gestito** con licenza Pro     |   Supportato      | Supportato      | Supportato    |Supportato|
+
+
 
 ## <a name="known-limitations"></a>Limitazioni note
 Gli oggetti visivi R nel servizio Power BI presentano alcune limitazioni:

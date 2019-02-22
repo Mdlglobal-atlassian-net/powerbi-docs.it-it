@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794842"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426770"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 Le visualizzazioni sono disponibili in report, dashboard, app e Domande e risposte. Alcuni tipi di visualizzazione sono inclusi in Power BI, mentre altri sono *oggetti visivi personalizzati*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dalle *finestre di progettazione dei report* ai report, ai dashboard e alle app di Power BI. 
@@ -98,10 +98,12 @@ I misuratori radiali sono ideali per:
 - mostrare l'integrità di una singola misura
 - visualizzare informazioni facilmente comprensibili e analizzabili
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Grafico dei fattori di influenza chiave
+![fattore di influenza chiave](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+Un grafico dei fattori di influenza chiave visualizza i collaboratori principali di un risultato o valore selezionato.
+
+I fattori di influenza chiave rappresentano un'ottima scelta per comprendere i fattori che influenzano una metrica chiave. Ad esempio, *che cosa influenza i clienti nella scelta di effettuare un secondo ordine *oppure* perché le vendite sono state così elevate lo scorso giugno*. 
 
 ### <a name="kpis"></a>Indicatori KPI
 ![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
