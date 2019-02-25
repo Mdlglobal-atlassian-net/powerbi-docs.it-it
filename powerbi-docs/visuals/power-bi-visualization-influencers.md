@@ -3,19 +3,19 @@ title: 'Esercitazione: Oggetto visivo Fattori di influenza chiave'
 description: Esercitazione - Creare un oggetto visivo Fattori di influenza chiave in Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325152"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426793"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
 L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Si supponga ad esempio di essere interessati ai motivi che influiscono sull'abbandono dei dipendenti dell'azienda. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
@@ -46,7 +46,7 @@ La metrica che si analizza deve essere un campo categorico.
 
 6. ***Riquadro destro*** - Il riquadro destro contiene un oggetto visivo. In questo caso il grafico a colonne visualizza tutti i valori del **fattore di influenza chiave** **Theme** (Tema) selezionato nel riquadro sinistro. Il valore specifico **Usability** (Usabilità) nel riquadro sinistro è di colore verde e tutti gli altri valori per **Theme** (Tema) sono di colore nero.
 
-7. ***Linea media*** - La media viene calcolata per tutti gli altri valori possibili di **Theme** (Tema), salvo per **Usability** (Usabilità). Pertanto il calcolo si applica a tutti i valori in nero. Indica la percentuale degli altri **temi** che ha restituito valutazioni basse. In altre parole, quando un cliente dà una valutazione, descrive anche il motivo o **tema** della valutazione. Alcuni esempi di temi sono l'usabilità, la velocità, la sicurezza e così via. Secondo l'oggetto visivo nel riquadro a sinistra, il **tema** **Usability** (Usabilità) è il secondo fattore di influenza chiave in ordine di importanza per una valutazione bassa. Se si calcola la media di tutti gli altri temi e il loro contributo a una valutazione **low** (bassa), si ottiene il risultato visualizzato qui in rosso. 
+7. ***Linea media*** - La media viene calcolata per tutti gli altri valori possibili di **Theme** (Tema), salvo per **Usability** (Usabilità). Pertanto il calcolo si applica a tutti i valori in nero. Indica la percentuale degli altri **temi** che ha restituito valutazioni basse. In altre parole, quando un cliente dà una valutazione, descrive anche il motivo o **tema** della valutazione. Alcuni esempi di temi sono l'usabilità, la velocità, la sicurezza e così via. Secondo l'oggetto visivo nel riquadro a sinistra, il **tema** **Usability** (Usabilità) è il secondo fattore di influenza chiave in ordine di importanza per una valutazione bassa. Se si calcola la media di tutti gli altri temi e il loro contributo a una valutazione **low** (bassa), si ottiene il risultato visualizzato qui in rosso. Di tutti gli altri temi, solo per l'11,35% i valori sono maggiori rispetto a **usability**. 
 
 8. ***Casella di controllo*** - Visualizza solo i valori che sono fattori di influenza.
 
@@ -217,7 +217,7 @@ Più precisamente, i clienti che non usano il browser per il servizio hanno prob
 
 ![Errore - Problema risolto](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Un avviso indica che le misure non sono state incluse nell'analisi effettuata. Perché?** [2052261] 
+**Un avviso indica che le misure non sono state incluse nell'analisi effettuata. Perché?** 
 
 ![Errore - Misure non incluse](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 

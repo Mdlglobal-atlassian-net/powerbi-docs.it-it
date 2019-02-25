@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408070"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426540"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Linee guida per gli oggetti visivi di Power BI con acquisti aggiuntivi
 
@@ -33,7 +33,10 @@ Gli sviluppatori caricano gli oggetti visivi con acquisto in-app in AppSource us
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Che cos'è un oggetto visivo di Power BI con funzionalità con acquisto in-app?
 
-Un oggetto visivo con acquisto in-app è un oggetto visivo gratuito con funzionalità gratuite, che offre tuttavia anche funzionalità aggiuntive per il cui utilizzo viene applicato un costo aggiuntivo. Nella descrizione dell'oggetto visivo gli sviluppatori devono specificare quali sono le funzionalità che richiedono un acquisto aggiuntivo per essere usate. Attualmente, Microsoft non offre Application Programming Interface (API) native per supportare l'acquisto di app e componenti aggiuntivi. Per questo tipo di acquisti, gli sviluppatori possono usare un sistema di pagamento di terze parti. Fare riferimento ai [criteri](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) di Microsoft Store.
+Un oggetto visivo con acquisto in-app è un oggetto visivo gratuito con funzionalità gratuite, che offre tuttavia anche funzionalità avanzate aggiuntive per il cui utilizzo viene applicato un costo aggiuntivo. Nella descrizione dell'oggetto visivo gli sviluppatori devono specificare quali sono le funzionalità che richiedono un acquisto aggiuntivo per essere usate. Attualmente, Microsoft non offre Application Programming Interface (API) native per supportare l'acquisto di app e componenti aggiuntivi. Per questo tipo di acquisti, gli sviluppatori possono usare un sistema di pagamento di terze parti. Fare riferimento ai [criteri](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) di Microsoft Store.
+
+> [!NOTE]
+> Le filigrane non sono consentite per le funzionalità gratuite. Gli sviluppatori potrebbero visualizzare una finestra popup o una filigrana se le funzionalità avanzate a pagamento vengono usate senza una licenza valida.  
 
 ## <a name="logo-guidelines"></a>Linee guida per il logo
 
