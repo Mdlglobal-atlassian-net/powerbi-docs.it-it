@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.custom: ''
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: overview
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ab305777306d8ee12edf2756404efeffa52e44b
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086656"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662021"
 ---
 # <a name="your-content-is-up-to-date"></a>Contenuto aggiornato
 Gli *utenti* interagiscono con il contenuto creato dagli *sviluppatori* e condiviso. È possibile che l'utente voglia verificare se il contenuto è aggiornato oppure voglia solo conoscere la data dell'ultimo aggiornamento. La certezza di usare un contenuto aggiornato garantisce fiducia.  
