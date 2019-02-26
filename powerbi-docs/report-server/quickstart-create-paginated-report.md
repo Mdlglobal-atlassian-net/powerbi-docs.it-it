@@ -51,7 +51,7 @@ La creazione guidata Grafico illustra i passaggi di base della creazione di una 
 
 I report impaginati possono connettersi a un'ampia gamma di origini dati, da Microsoft SQL Server e Database SQL di Microsoft Azure a Oracle, Hyperion e molte altre. Leggere l'argomento relativo alle [origini dati supportate dai report impaginati](connect-data-sources.md).
 
-Nella prima pagina della creazione guidata Grafico, **	Scegliere un set di dati**, è possibile creare un set di dati o sceglierne uno condiviso in un server. I *set di dati* restituiscono i dati del report da una query in un'origine dati esterna.
+Nella prima pagina della creazione guidata Grafico, **Scegliere un set di dati**, è possibile creare un set di dati o sceglierne uno condiviso in un server. I *set di dati* restituiscono i dati del report da una query in un'origine dati esterna.
 
 1. Selezionare **Sfoglia** > selezionare un set di dati condiviso in un server > **Apri** > **Avanti**.
    
