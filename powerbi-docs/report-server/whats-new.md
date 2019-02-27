@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325198"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662458"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -41,6 +41,10 @@ Supporto delle funzionalità seguenti nei report di Power BI:
 [**Guide intelligenti per l'allineamento**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Le guide intelligenti per l'allineamento vengono visualizzate durante lo spostamento di oggetti nella pagina del report, come in PowerPoint, per facilitare l'allineamento di tutti gli elementi della pagina. Le guide intelligenti vengono visualizzate ogni volta che si trascina o ridimensiona un elemento nella pagina. Quando si sposta un oggetto vicino a un altro, l'oggetto viene ancorato in una posizione allineata con l'altro oggetto.
 
 **Funzionalità di accessibilità** Le funzionalità di accessibilità sono troppe per elencarle tutte: ad esempio il [supporto per l'accessibilità al riquadro elenco campi](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). Il riquadro elenco di campi è completamente accessibile. È possibile spostarsi nel riquadro solo con la tastiera e un'utilità per la lettura dello schermo e usare il menu di scelta rapida per aggiungere campi alla pagina del report.
+
+#### <a name="custom-visuals"></a>Oggetti visivi personalizzati
+
+- La versione dell'API fornita con questa versione è 2.3.
 
 ### <a name="administrator-settings"></a>Impostazioni dell'amministratore
 

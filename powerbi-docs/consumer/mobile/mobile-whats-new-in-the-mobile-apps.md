@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431247"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826722"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,16 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>Gennaio - febbraio 2019
+ 
+### <a name="visio-visuals"></a>Oggetti visivi di Visio
+
+Abilitazione di Single Sign-On (SSO) negli oggetti visivi di Visio, in modo che non siano più necessari passaggi aggiuntivi per l'accesso quando si visualizzano report con oggetti visivi di Visio nell'app. 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>Funzionalità per l'aggiunta di commenti a dashboard in arrivo per l'app Windows Power BI per dispositivi mobili
+
+È possibile aggiungere commenti sui dati direttamente nei dashboard e in riquadri specifici. I commenti sono visibili per chiunque visualizzi il dashboard. 
 
 ## <a name="december-2018"></a>Dicembre 2018
 

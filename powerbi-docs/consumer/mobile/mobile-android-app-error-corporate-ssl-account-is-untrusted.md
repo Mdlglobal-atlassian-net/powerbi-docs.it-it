@@ -10,12 +10,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2b296d465b312486a91e1407b5866e15b0b48b54
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280793"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662320"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Risoluzione di "Il certificato SSL aziendale non è considerato attendibile" - Power BI
 Quando si accede all'app per dispositivi mobili Android per Microsoft Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile da questo dispositivo. Contattare l'amministratore IT della società". 
@@ -41,9 +41,9 @@ Le impostazioni di fuso orario nel dispositivo potrebbero essere errate.
 Passare a **Impostazioni** > **Sistema** > **Data e ora** per controllarle.
 
 ## <a name="custom-authentication-server"></a>Server di autenticazione personalizzata
-Se si usa un server di autenticazione personalizzata, il certificato SSL nel server di autenticazione aziendale potrebbe non essere valido. Chiedere l'assistenza dell'amministratore IT dell'organizzazione.
+Se si usa un server di autenticazione personalizzata, il certificato SSL nel server di autenticazione aziendale potrebbe non essere valido. Collaborare con il reparto IT dell'organizzazione per testare la configurazione del server di autenticazione aziendale, seguendo le indicazioni in [questo articolo](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Scaricare l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/) 
 

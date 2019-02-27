@@ -4,22 +4,22 @@ description: documentazione per la ricerca e l'ordinamento del contenuto nelle a
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
+ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef8d7c61d35f15517db4fdbbea347a525a130f31
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f8c2468b56db190f9e794ed2d81ce86449a970d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288222"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661883"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Spostamento: ricerca e ordinamento del contenuto nel servizio Power BI
-Sono disponibili vari modi per spostarsi all'interno del contenuto nel servizio Power BI. Nelle aree di lavoro il contenuto è organizzato in base al tipo: dashboard, report, cartelle di lavoro e set di dati.  Il contenuto è anche organizzato in base all'utilizzo: Preferiti, recenti, app, condivisi con l'utente corrente e in primo piano. Per usare una singola posizione, nella home page tutto il contenuto è organizzato in un'unica pagina. Questi percorsi diversi per il contenuto consentono di trovare rapidamente ciò che serve nel servizio Power BI.  
+Sono disponibili vari modi per spostarsi all'interno del contenuto nel servizio Power BI. Nell'area di lavoro il contenuto è organizzato in base al tipo: dashboard, report, cartelle di lavoro e set di dati.  Il contenuto è anche organizzato in base all'utilizzo: Preferiti, recenti, app, condivisi con l'utente corrente e in primo piano. Per usare una singola posizione, nella home page tutto il contenuto è organizzato in un'unica pagina. Questi percorsi diversi per il contenuto consentono di trovare rapidamente ciò che serve nel servizio Power BI.  
 
 ## <a name="navigation-within-workspaces"></a>Spostamento tra le aree di lavoro
 
