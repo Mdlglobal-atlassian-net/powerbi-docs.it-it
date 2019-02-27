@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47558c5aa7318d3ef3ff5c5e92beb6dd4b4b3d44
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 48eb26d3827f69831f2d565b26c20853906ab41d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290468"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892184"
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Usare oggetti visivi personalizzati basati su R in Power BI
 
@@ -61,7 +61,7 @@ Di seguito è indicata la procedura per esplorare e selezionare gli oggetti visi
 5. Viene visualizzato un avviso in merito all'importazione di un oggetto visivo personalizzato, come illustrato nella figura seguente:
 
    ![Oggetto visivo R 5](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_5.png)
-6. Individuare il puntno in cui è stato l'oggetto visivo è stato salvato e selezionare il file. Le visualizzazioni personalizzate di **Power BI Desktop** hanno l'estensione pbivisual.
+6. Individuare il puntno in cui è stato l'oggetto visivo è stato salvato e selezionare il file. Le visualizzazioni personalizzate di **Power BI Desktop** hanno l'estensione pbiviz.
 
    ![Oggetto visivo R 6](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_6.png)
 7. Quando si torna a Power BI Desktop, è possibile visualizzare il nuovo tipo di oggetto visivo nel riquadro **Visualizzazioni**.
