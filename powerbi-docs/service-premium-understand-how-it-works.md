@@ -9,12 +9,12 @@ ms.author: owend
 ms.reviewer: owend
 author: minewiskan
 manager: kfile
-ms.openlocfilehash: e31f67d978471f4dcc6472860fc5f8315212e563
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: d7cebbd569d16192f4acfa1c96394130731efa17
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794884"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014577"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Ottimizzazione e gestione delle risorse della capacità Microsoft Power BI Premium
 
@@ -55,7 +55,7 @@ Se viene eseguita una query interattiva su qualsiasi set di dati della capacità
 
 ### <a name="workloads"></a>Carichi di lavoro
 
-Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. È ora disponibile il supporto di anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Se abilitati, questi carichi di lavoro possono influire sull'utilizzo della memoria nella capacità. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads).
+Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. È ora disponibile il supporto di anteprima per due carichi di lavoro aggiuntivi: **Report impaginati** e **Flussi di dati**. Se abilitati, questi carichi di lavoro possono influire sull'utilizzo della memoria nella capacità. 
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Gestione delle risorse CPU nella capacità Premium
 
@@ -116,6 +116,3 @@ Usare la capacità Power BI Embedded in Azure per testare SKU diversi e determin
 
 In alcuni casi, l'apertura di un file Power BI Desktop (con estensione pbix) del modello disponibile nel computer e la verifica del consumo di memoria e CPU offrono molte indicazioni sul problema. L'operazione non è di aiuto per i modelli molto grandi, ma per alcuni modelli più piccoli, provare ad aprire, aggiornare ed eseguire query sul modello dal computer. Controllare le dimensioni del modello, la memoria e la CPU usata quando si apre il modello. Provare ad aggiornare e ad eseguire query. Usare Gestione attività per verificare il consumo di CPU e memoria per il file locale. A volte queste metriche nel computer stesso possono indicare che una capacità Premium inferiore, ad esempio P1/P2, potrebbe non essere idonea per la soluzione.
 
-## <a name="next-steps"></a>Passaggi successivi
-
-[Gestire capacità all'interno di Power BI Premium e Power BI Embedded](service-admin-premium-manage.md)
