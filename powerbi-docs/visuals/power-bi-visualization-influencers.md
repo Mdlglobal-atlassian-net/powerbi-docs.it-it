@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-visuals
+ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426793"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461673"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
 L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Si supponga ad esempio di essere interessati ai motivi che influiscono sull'abbandono dei dipendenti dell'azienda. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
