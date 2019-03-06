@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224020"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892253"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Usare informazioni dettagliate in Power BI Desktop per spiegare gli aumenti e le diminuzioni rilevate negli oggetti visivi (anteprima)
 
 Negli oggetti visivi si rilevano spesso notevoli aumenti e quindi brusche diminuzioni dei valori. Grazie alle **informazioni dettagliate** in **Power BI Desktop** è possibile trovare la causa di tali fluttuazioni con pochi clic.
 
-Considerare ad esempio l'oggetto visivo seguente, che specifica il valore di *Importo vendite* per *Anno* e *Paese*. Nel 2014 si verifica una notevole diminuzione delle vendite, con un brusco calo tra il *1° trim.* e il *2° trim*. In questi casi è possibile esplorare i dati per investigare le cause delle variazioni. 
+Considerare ad esempio l'oggetto visivo seguente, che specifica il valore di *Importo vendite* per *Anno* e *Trimestre*. Nel 2014 si verifica una notevole diminuzione delle vendite, con un brusco calo tra il *1° trim.* e il *2° trim*. In questi casi è possibile esplorare i dati per investigare le cause delle variazioni. 
 
 ![Oggetto visivo con aumenti e diminuzioni](media/desktop-insights/insights_01a.png)
 

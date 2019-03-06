@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325041"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892414"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
@@ -25,6 +25,9 @@ I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualme
 ![Segnalibri in Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
 I segnalibri possono avere diversi usi. È possibile usarli per tenere traccia dello stato di avanzamento per la creazione dei report (i segnalibri sono facili da aggiungere, eliminare e rinominare) oppure per creare una presentazione in stile PowerPoint che scorre i segnalibri nell'ordine specificato per comunicare una storia con un report. È anche possibile usare i segnalibri in altri modi, a seconda di come si ritiene più opportuno.
+
+> [!TIP]
+> Per informazioni sull'uso dei segnalibri personali nel servizio Power BI, leggere l'[annuncio sul blog](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) che descrive tale funzionalità. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Abilitare l'anteprima dei segnalibri (versioni precedenti all'aggiornamento di marzo 2018)
 A partire dalla versione di marzo 2018 di Power BI Desktop i segnalibri sono disponibili a livello generale. 

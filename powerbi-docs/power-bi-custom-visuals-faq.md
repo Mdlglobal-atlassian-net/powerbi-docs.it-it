@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408139"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892322"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Domande frequenti sugli oggetti visivi personalizzati di Power BI
 
@@ -57,8 +57,44 @@ Sì, se l'amministratore disabilita gli oggetti visivi personalizzati dal portal
 
 ### <a name="what-are-certified-custom-visuals"></a>Che cosa sono gli oggetti visivi personalizzati certificati?
 
-Gli oggetti visivi personalizzati certificati sono gli oggetti visivi nel [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) che soddisfano determinati requisiti del codice e di test [specificati](power-bi-custom-visuals-certified.md) dal team di Power BI.  I test eseguiti sono studiati per verificare che l'oggetto visivo non abbia accesso a risorse o servizi esterni. Tuttavia, Microsoft non è l'autore di oggetti visivi personalizzati di terze parti. È quindi consigliabile contattare l'autore direttamente per verificare la funzionalità degli oggetti.
+Gli oggetti visivi personalizzati certificati sono gli oggetti visivi nel [marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) che soddisfano determinati requisiti del codice e di test [specificati](power-bi-custom-visuals-certified.md) dal team di Power BI.  I test eseguiti sono studiati per verificare che l'oggetto visivo non abbia accesso a risorse o servizi esterni. Microsoft non è tuttavia l'autore di oggetti visivi personalizzati di terze parti. È quindi consigliabile contattare l'autore direttamente per verificare la funzionalità degli oggetti.
 
+### <a name="what-tests-are-done-during-the-certification-process"></a>Quali test vengono eseguiti durante il processo di certificazione?
+
+I test del processo di certificazione includono ma non sono limitati a: revisioni del codice, analisi del codice statico, perdita di dati, test con dati casuali, test di penetrazione, test XSS di accesso, inserimento di dati dannosi, test di convalida dell'input e funzionali.
+ 
+### <a name="do-you-certify-visuals-every-submission"></a>Gli oggetti visivi vengono certificati a ogni invio?
+
+Sì. Ogni volta che una nuova versione dell'oggetto visivo certificato viene inviata al Marketplace, l'aggiornamento della versione dell'oggetto visivo viene sottoposto agli stessi controlli di certificazione.
+
+Nota per gli sviluppatori: se si invia un aggiornamento della versione di un oggetto visivo certificato, non è necessario inviare un messaggio di posta elettronica separato come [prima richiesta di certificazione.](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified#process-for-submitting-a-custom-visual-for-certification) La certificazione dell'aggiornamento della versione avviene automaticamente e in caso di violazione che determina un rifiuto viene inviato un messaggio di posta elettronica per spiegare gli elementi da correggere. 
+
+### <a name="is-it-possible-that-a-certified-visual-stops-being-certified-with-a-new-update"></a>È possibile che un oggetto visivo certificato non sia più certificato con un nuovo aggiornamento?
+
+No, non è possibile. Un oggetto visivo certificato non può essere non certificato con un nuovo aggiornamento. L'aggiornamento viene rifiutato.
+ 
+### <a name="do-i-need-to-share-my-code-in-public-repository-if-i-am-submitting-to-the-certification-process"></a>È necessario condividere il codice nel repository pubblico nel corso del processo di certificazione?
+
+No, non è necessario condividere pubblicamente il codice. È tuttavia necessario concedere autorizzazioni di lettura per controllare il codice degli oggetti visivi. Ad esempio repository privato in GitHub.
+ 
+### <a name="do-we-have-to-publishhttpsdocsmicrosoftcompower-bideveloperoffice-store-the-visual-in-the-marketplacehttpsappsourcemicrosoftcommarketplaceappspage1productpower-bi-visuals-to-certify-it"></a>È necessario [pubblicare](https://docs.microsoft.com/power-bi/developer/office-store) l'oggetto visivo nel [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) per certificarlo?
+
+Sì. La pubblicazione dell'oggetto visivo nel Marketplace come prima operazione è un requisito obbligatorio per la certificazione.
+Per certificare un oggetto visivo personalizzato, deve essere presente nei nostri server. Non è possibile certificare oggetti visivi privati.
+ 
+### <a name="how-long-does-it-take-to-certify-my-visual"></a>Quanto tempo è necessario per certificare l'oggetto visivo?
+
+Per la versione aggiornata potrebbero essere richieste fino a 2 settimane. Per un nuovo invio (prima certificazione) possono essere necessarie fino a 3 settimane. 
+
+### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>Il processo di certificazione assicura che non si verifichi alcuna perdita di dati?
+
+I test eseguiti sono studiati per verificare che l'oggetto visivo non abbia accesso a risorse o servizi esterni. Microsoft non è tuttavia l'autore di oggetti visivi personalizzati di terze parti. È quindi consigliabile contattare l'autore direttamente per verificare la funzionalità degli oggetti.
+ 
+### <a name="are-uncertified-custom-visuals-safe-to-use"></a>Gli oggetti visivi personalizzati non certificati sono sicuri?
+
+Gli oggetti visivi personalizzati non certificati non sono necessariamente oggetti visivi non sicuri.
+Alcuni oggetti visivi non vengono certificati perché non sono conformi a uno o più [requisiti di certificazione](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements), accedono ad esempio a un servizio esterno, come oggetti visivi mappa oppure oggetti visivi che usano librerie commerciali.
+ 
 ## <a name="visuals-with-additional-purchases"></a>Oggetti visivi con acquisti aggiuntivi
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>Che cos'è un oggetto visivo con acquisti aggiuntivi?
@@ -100,7 +136,6 @@ Se l'oggetto visivo personalizzato contiene un logo, verificare che sia conforme
 Nelle linee guida è anche possibile trovare indicazioni per le procedure consigliate.  
 > [!Note]
 > Tutti gli oggetti visivi gratuiti dovrebbero avere le stesse funzionalità gratuite offerte in precedenza. È possibile aggiungere funzionalità avanzate facoltative a pagamento, in aggiunta alle funzionalità gratuite precedenti. È consigliabile inviare gli oggetti visivi in-app con funzionalità avanzate come nuovi oggetti visivi anziché aggiornare gli oggetti gratuiti precedenti.
-
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>È possibile ottenere la certificazione dell'oggetto visivo personalizzato con acquisto in-app?
 
