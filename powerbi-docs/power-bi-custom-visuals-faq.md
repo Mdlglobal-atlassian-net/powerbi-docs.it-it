@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892322"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014163"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Domande frequenti sugli oggetti visivi personalizzati di Power BI
 
@@ -99,7 +99,7 @@ Alcuni oggetti visivi non vengono certificati perché non sono conformi a uno o 
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>Che cos'è un oggetto visivo con acquisti aggiuntivi?
 
-Un oggetto visivo con acquisti aggiuntivi è simile ai componenti aggiuntivi con acquisto in-app nel marketplace che hanno il tag  **Potrebbe essere necessario un acquisto aggiuntivo**.
+Un oggetto visivo con acquisti aggiuntivi è simile ai componenti aggiuntivi con acquisto in-app nel marketplace che hanno il tag **Potrebbe essere necessario un acquisto aggiuntivo**.
 
 Gli oggetti visivi personalizzati con acquisto in-app sono gratuiti e gli utenti possono scaricarli senza pagare nulla dal marketplace. Gli oggetti visivi con acquisto in-app offrono acquisti in-app facoltativi per le funzionalità avanzate.  
 

@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286683"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014462"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
-Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione di mappa autonomamente, richiede l'aiuto di Bing Maps. 
+Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione della mappa autonomamente, richiede l'aiuto di Bing Maps. 
 
 L'utente, o l'amministratore, potrebbe dover aggiornare il firewall per consentire l'accesso agli URL usati da Bing per la geocodifica.  Questi URL sono:
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,8 +31,8 @@ Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrett
 ## <a name="what-is-sent-to-bing-maps"></a>Cosa viene inviato a Bing Maps?
 Il servizio di Power BI e Power BI Desktop inviano a Bing i dati geografici necessari per creare la visualizzazione mappa. Sono inclusi i dati nel bucket **Posizione**, **Latitudine**, e **Longitudine** e i campi geografici in uno dei bucket del filtro **Livello report**, **Page level** (Livello pagina) o **Visual level** (Livello oggetto visivo). Per la precisione gli elementi inviati variano in base al tipo di mappa. Per altre informazioni, vedere [Privacy di Bing Mappe](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Per le mappe, in particolare per le mappe a bolle, se vengono indicati latitudine e longitudine non viene inviato alcun dato a Bing. In caso contrario, tutti i dati nei bucket Posizione (e del filtro) vengono inviati a Bing.     
-* Le mappe colorate richiedono un campo nel bucket della località, anche se vengono forniti latitudine e longitudine. Qualsiasi dato sia incluso nei bucket Posizione, Latitudine o Longitudine viene inviato a Bing.
+* Per le mappe, in particolare per le mappe a bolle, se vengono indicati i valori di latitudine e longitudine non viene inviato alcun dato a Bing. In caso contrario, tutti i dati nei bucket **Posizione** e filtro vengono inviati a Bing.     
+* Le mappe colorate richiedono un campo nel bucket **Posizione**, anche se vengono forniti i valori latitudine e longitudine. Qualsiasi dato incluso nel bucket **Posizione**, **Latitudine** o **Longitudine** viene inviato a Bing.
   
     Nell'esempio seguente, il campo **Fornitore** viene usato per la codifica geografica, pertanto tutti i dati del fornitore vengono inviati a Bing. I dati dei bucket **Dimensioni** e **Saturazione colore** non vengono inviati a Bing.
   

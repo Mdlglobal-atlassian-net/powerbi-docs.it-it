@@ -2,34 +2,38 @@
 title: Panoramica sul manuale per lo sviluppatore, Server di report di Power BI
 description: Benvenuti nel manuale per lo sviluppatore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: e981da28a70490d14bca2fa026f6428020d10ae7
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794720"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327896"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Panoramica sul manuale per lo sviluppatore, Server di report di Power BI
+
 Benvenuti nel manuale per lo sviluppatore del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
 
-![](media/developer-handbook-overview/admin-handbook.png)
+![Manuale per l'amministratore](media/developer-handbook-overview/admin-handbook.png)
 
 Questo manuale evidenzia le opzioni disponibili agli sviluppatori per l'uso del server di report di Power BI.
 
 ## <a name="embedding"></a>Incorporamento
+
 Per qualsiasi report nel server di report di Power BI è possibile incorporare in un iFrame aggiungendo il parametro querystring `?rs:Embed=true` all'URL. Questa tecnica funziona con i report di Power BI e con altri tipi di report.
 
 ### <a name="report-viewer-control"></a>Controllo Visualizzatore report
+
 Per i report impaginati, è possibile sfruttare il controllo Visualizzatore Report. È possibile posizionare il controllo all'interno di un'applicazione .NET Windows o Web. Per altre informazioni, vedere [Introduzione al controllo Visualizzatore Report](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 ## <a name="apis"></a>API
+
 Sono disponibili diverse opzioni di API per l'interazione con il server di report di Power BI, tra cui:
 
 * [API REST](rest-api.md)
@@ -40,10 +44,9 @@ Sono disponibili diverse opzioni di API per l'interazione con il server di repor
 
 > [!NOTE]
 > Attualmente le utilità PowerShell non supportano i file di Power BI Desktop (con estensione pbix).
-> 
-> 
 
 ## <a name="custom-extensions"></a>Estensioni personalizzate
+
 La libreria di estensioni è un set di classi, interfacce e tipi di valore inclusi nel server di report di Power BI. Questa libreria fornisce l'accesso alle funzionalità del sistema ed è progettata per essere la base sula quale usare le applicazioni Microsoft .NET Framework per estendere i componenti del server di report di Power BI.
 
 Esistono diversi tipi di estensioni che è possibile compilare.
@@ -56,6 +59,7 @@ Esistono diversi tipi di estensioni che è possibile compilare.
 Per altre informazioni, vedere [Libreria di estensioni](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library).
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 [Introduzione al controllo Visualizzatore Report](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
 [Creazione di applicazioni con il servizio Web e .NET Framework](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [Accesso con URL](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
@@ -63,4 +67,3 @@ Per altre informazioni, vedere [Libreria di estensioni](https://docs.microsoft.c
 [Provider WMI](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

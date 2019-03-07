@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f42e9f69c3cdab945c0f000a0cc2ae4654d9ec9b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296116"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196437"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacchetti di contenuto dell'organizzazione: Copiare, aggiornare e ottenere l'accesso
 
@@ -36,6 +36,12 @@ Creare la propria copia del pacchetto di contenuto, non visibile ad altri utenti
 2. Selezionare **Salva**.  
 
 A questo punto si ha una copia che è possibile modificare. Nessun altro potrà vedere le modifiche apportate.
+
+> [!NOTE]
+> In precedenza, ogni volta che si installava un pacchetto di contenuto o che se ne creava o copiava uno, veniva visualizzato un nuovo set di dati nell'elenco del contenuto dell'area di lavoro. Un aggiornamento recente ha semplificato l'esperienza in modo che venga visualizzato un solo elemento con la nuova icona del set di dati a cui si fa riferimento:
+>
+> ![icona di database con collegamento](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
+> 
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Come fare  se il pacchetto di contenuto non è più accessibile
 Questo problema può verificarsi per diversi motivi:

@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892391"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014140"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
 
-Questo articolo descrive le modalità di acquisto della capacità Power BI Premium (P1-P3) per l'organizzazione. È possibile acquistare la capacità Premium di Power BI nell'interfaccia di amministrazione di Office 365 e [gestire le capacità](service-admin-premium-manage.md) nell'interfaccia di amministrazione di Power BI. Per informazioni sui prezzi e la pianificazione correnti, vedere la [pagina dei prezzi di Power BI](https://powerbi.microsoft.com/pricing/) e il [calcolatore Power BI Premium](https://powerbi.microsoft.com/calculator/).
+> [!NOTE]
+> Questo articolo è in corso di aggiornamento per descrivere le nuove funzionalità, offrire più dettagli e migliorare la leggibilità. 
+
+Questo articolo descrive le modalità di acquisto della capacità Power BI Premium (P1-P3) per l'organizzazione. È possibile acquistare la capacità Premium di Power BI nell'interfaccia di amministrazione di Office 365 e gestire le capacità nell'interfaccia di amministrazione di Power BI. Per informazioni sui prezzi e la pianificazione correnti, vedere la [pagina dei prezzi di Power BI](https://powerbi.microsoft.com/pricing/) e il [calcolatore Power BI Premium](https://powerbi.microsoft.com/calculator/).
 
 Per gli autori del contenuto è ancora necessaria una licenza di Power BI Pro, anche se l'organizzazione usa Power BI Premium. Acquistare almeno una licenza di Power BI Pro per l'organizzazione.
 

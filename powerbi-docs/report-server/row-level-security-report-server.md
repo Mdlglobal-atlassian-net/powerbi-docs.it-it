@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324945"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226205"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicurezza a livello di riga (RLS) nel server di report di Power BI
 
@@ -48,7 +48,7 @@ Dopo aver salvato il report nel server di Report di Power BI è possibile gestir
 1. In Power BI Desktop salvare il report nel server di report di Power BI. È necessario usare la versione di Power BI Desktop ottimizzata per il server di report di Power BI.
 2. Nel servizio Report di Power BI selezionare i puntini di sospensione (**...**) accanto al report. 
 
-3. Selezionare  **Gestisci** > **Sicurezza a livello di riga**. 
+3. Selezionare **Gestisci** > **Sicurezza a livello di riga**. 
 
      ![Gestire la sicurezza a livello di riga](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892345"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226090"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparazione dei dati self-service in Power BI (anteprima)
 
@@ -75,9 +75,7 @@ Per altre informazioni sull'integrazione di Azure Data Lake Storage Gen2 e i flu
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Funzionalità del flusso di dati in Power BI Premium
 
-Per poter usare le funzionalità e i carichi di lavoro del flusso di dati in una sottoscrizione di Power BI Premium, il carico di lavoro del flusso di dati per tale capacità Premium deve essere attivato. Altre informazioni su Power BI Premium sono disponibili nell'articolo [Che cos'è Power BI Premium](service-premium.md). 
-
-La tabella seguente descrive le funzionalità del flusso di dati e le relative capacità quando si usa un account Power BI Pro e presenta un confronto con l'uso di Power BI Premium.
+Per poter usare le funzionalità e i carichi di lavoro del flusso di dati in una sottoscrizione di Power BI Premium, il carico di lavoro del flusso di dati per tale capacità Premium deve essere attivato. La tabella seguente descrive le funzionalità del flusso di dati e le relative capacità quando si usa un account Power BI Pro e presenta un confronto con l'uso di Power BI Premium.
 
 
 |Funzionalità del flusso di dati | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ La tabella seguente descrive le funzionalità del flusso di dati e le relative c
 |Entità collegate del flusso di dati| |        +|
 |Schema standardizzato/supporto integrato per il modello CDM|  +|  +|
 
-Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-manage.md#configure-workloads) per Power BI Premium. I carichi di lavoro per i flussi di dati non sono attualmente disponibili in Multi-Geo Capabilities.
+Per altre informazioni su come abilitare i carichi di lavoro per i flussi di dati nella capacità Premium, vedere [Configurare i carichi di lavoro in una capacità Premium](service-admin-premium-workloads.md). I carichi di lavoro per i flussi di dati non sono attualmente disponibili in Multi-Geo Capabilities.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Riepilogo della preparazione dei dati self-service per i Big Data in Power BI
 Come accennato in precedenza in questo articolo, esistono più scenari ed esempi in cui i **flussi di dati** possono assicurare un migliore controllo e analisi più rapide dei dati aziendali. Usando un modello di dati standard (schema) definito dal modello CDM, i flussi di dati possono importare i dati aziendali più importanti e prepararli per la modellazione e la creazione di informazioni dettagliate di business intelligence in tempi molto brevi, rispetto ai mesi richiesti in precedenza. 

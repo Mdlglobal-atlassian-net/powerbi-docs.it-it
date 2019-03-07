@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248908"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014416"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entità servizio con Power BI (anteprima)
 
@@ -165,7 +165,7 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 
 * L'entità servizio funziona solo con [nuove aree di lavoro dell'app](../service-create-the-new-workspaces.md).
 * L'**area di lavoro personale** non è supportata durante l'uso dell'entità servizio.
-* La [capacità dedicata](../service-admin-premium-manage.md) è necessaria per passare alla produzione.
+* La capacità Premium dedicata è necessaria per passare alla produzione.
 * Non è possibile accedere al portale di Power BI usando l'entità servizio.
 * Per abilitare l'entità servizio nelle impostazioni sviluppatore all'interno del portale di amministrazione di Power BI sono necessari i diritti di amministratore di Power BI.
 * Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291797"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226113"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos basato sulle risorse per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -39,7 +39,7 @@ In un'installazione standard, il gateway è in esecuzione come account del servi
 
 ![Account di dominio](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Per abilitare la **delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che il servizio Azure AD non sia già sincronizzato con Active Directory locale tramite Azure AD DirSync/Connect. Se è necessario passare a un account di dominio, vedere [Modifica dell'account del servizio gateway in un account di dominio](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account) più avanti in questo articolo.
+Per abilitare la **delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che il servizio Azure AD non sia già sincronizzato con Active Directory locale tramite Azure AD DirSync/Connect. Se è necessario passare a un account di dominio, vedere [Modifica dell'account del servizio gateway in un account di dominio](service-gateway-sso-kerberos.md).
 
 Se Azure AD DirSync/Connect viene configurato e gli account utente vengono sincronizzati, il servizio gateway non dovrà eseguire ricerche in AD locali in fase di esecuzione. È possibile usare il SID del servizio locale, anziché un account di dominio, per il servizio gateway. La procedura di configurazione della delega vincolata Kerberos descritta in questo articolo corrisponde a questa configurazione e viene semplicemente applicata all'oggetto computer del gateway in Active Directory invece che all'account di dominio.
 
