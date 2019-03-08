@@ -1,5 +1,5 @@
 ---
-title: Usare la modalità di archiviazione in Power BI Desktop (anteprima)
+title: Usare la modalità di archiviazione in Power BI Desktop
 description: Usare la modalità di archiviazione per controllare se i dati vengono archiviati nella cache in memoria per i report in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279183"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555863"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Modalità di archiviazione in Power BI Desktop (anteprima)
+# <a name="storage-mode-in-power-bi-desktop"></a>Modalità di archiviazione in Power BI Desktop
 
 In Microsoft Power BI Desktop è possibile specificare la *modalità di archiviazione* delle tabelle. La *modalità di archiviazione* consente di controllare se Power BI Desktop memorizza i dati delle tabelle nella cache in memoria per i report. 
 
@@ -37,9 +37,9 @@ L'impostazione della modalità di archiviazione offre numerosi vantaggi. È poss
 
 L'impostazione della modalità di archiviazione in Power BI Desktop corrisponde a una di tre funzionalità correlate:
 
-* **Modelli compositi**: consente a un report di avere due o più connessioni dati, tra cui connessioni DirectQuery o importazione, in qualsiasi combinazione. Per altre informazioni, vedere [Modelli compositi in Power BI Desktop (anteprima)](desktop-composite-models.md).
+* **Modelli compositi**: consente a un report di avere due o più connessioni dati, tra cui connessioni DirectQuery o importazione, in qualsiasi combinazione. Per altre informazioni, vedere [Modelli compositi in Power BI Desktop](desktop-composite-models.md).
 
-* **Relazioni molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni molti-a-molti* tra le tabelle. *Relazioni molti-a-molti* rimuove i requisiti per valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per altre informazioni, vedere [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md).
+* **Relazioni molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni molti-a-molti* tra le tabelle. *Relazioni molti-a-molti* rimuove i requisiti per valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per altre informazioni, vedere [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Modalità di archiviazione**: è ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano query che venivano inviate alle origini di back-end. La modalità di archiviazione è descritta più dettagliatamente in questo articolo.
 
@@ -127,13 +127,13 @@ La query seguente è interessante perché combina entrambe le colonne. Questa qu
 ![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Questo comportamento è diverso dalle [relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md) quando le tabelle memorizzate nella cache e non memorizzate nella cache sono combinate.
+> Questo comportamento è diverso dalle [relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md) quando le tabelle memorizzate nella cache e non memorizzate nella cache sono combinate.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Le cache devono essere mantenute sincronizzate
 
 Le query visualizzate nella sezione precedente mostrano che le tabella in modalità **Doppia** talvolta trovano riscontri nella cache e a volte non li trovano. Per questo motivo, se la cache non è aggiornata possono essere restituiti valori diversi. L'esecuzione di query non tenterà di mascherare problemi dei dati, ad esempio filtrando i risultati di DirectQuery in modo che corrispondano ai valori memorizzati nella cache. È responsabilità dell'utente conoscere i flussi di dati e progettare il sistema di conseguenza. Esistono tecniche consolidate per gestire questi casi nell'origine, se necessario.
 
-La modalità di archiviazione *Doppia* è un'ottimizzazione delle prestazioni. Deve essere usata solo in modi che non compromettono la possibilità di soddisfare i requisiti aziendali. Per un comportamento alternativo, prendere in considerazione le tecniche descritte nell'articolo [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md).
+La modalità di archiviazione *Doppia* è un'ottimizzazione delle prestazioni. Deve essere usata solo in modi che non compromettono la possibilità di soddisfare i requisiti aziendali. Per un comportamento alternativo, prendere in considerazione le tecniche descritte nell'articolo [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md).
 
 ## <a name="data-view"></a>Vista dati
 Se per almeno una tabella nel set di dati la modalità di archiviazione è impostata su **Importa** o **Doppia**, viene visualizzata la scheda **Vista dati**.
@@ -162,7 +162,7 @@ Le limitazioni esistenti per l'uso di DirectQuery sono valide anche quando si us
 ## <a name="next-steps"></a>Passaggi successivi
 
 Per altre informazioni sui modelli compositi e DirectQuery, vedere gli articoli seguenti:
-* [Modelli compositi in Power BI Desktop (anteprima)](desktop-composite-models.md)
-* [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md)
+* [Modelli compositi in Power BI Desktop](desktop-composite-models.md)
+* [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md)
 * [Uso di DirectQuery in Power BI](desktop-directquery-about.md)
 * [Origini dati supportate da DirectQuery in Power BI](desktop-directquery-data-sources.md)
