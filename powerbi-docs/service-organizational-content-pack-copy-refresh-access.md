@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1834c88fbd7077f49560bc56b545539917ed3e
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: f22cac734d98e98cd17a915c09d6705e2cad121a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196437"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580060"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacchetti di contenuto dell'organizzazione: Copiare, aggiornare e ottenere l'accesso
 
@@ -25,13 +25,13 @@ La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboar
 
 > [!NOTE]
 > Non è possibile creare o installare pacchetti di contenuto aziendali nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
-> 
+>
 
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Creare una copia di un pacchetto di contenuto aziendale
 Creare la propria copia del pacchetto di contenuto, non visibile ad altri utenti.
 
 1. Selezionare i puntini di sospensione (...) accanto al dashboard del pacchetto di contenuto > Crea una copia.
-   
+
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selezionare **Salva**.  
 
@@ -41,7 +41,7 @@ A questo punto si ha una copia che è possibile modificare. Nessun altro potrà 
 > In precedenza, ogni volta che si installava un pacchetto di contenuto o che se ne creava o copiava uno, veniva visualizzato un nuovo set di dati nell'elenco del contenuto dell'area di lavoro. Un aggiornamento recente ha semplificato l'esperienza in modo che venga visualizzato un solo elemento con la nuova icona del set di dati a cui si fa riferimento:
 >
 > ![icona di database con collegamento](media/service-organizational-content-pack-copy-refresh-access/power-bi-dataset-reference-icon.png)
-> 
+>
 
 ## <a name="help--i-can-no-longer-access-the-content-pack"></a>Come fare  se il pacchetto di contenuto non è più accessibile
 Questo problema può verificarsi per diversi motivi:
@@ -51,7 +51,7 @@ Questo problema può verificarsi per diversi motivi:
 * **Modifiche alle impostazioni di sicurezza:** se il dashboard e i report si connettono a origini dati SSAS locali e vengono apportate modifiche alle impostazioni di sicurezza, le autorizzazioni per il server potrebbero essere revocate.
 
 ## <a name="how-are-organizational-content-packs-refreshed"></a>Aggiornamento dei pacchetti di contenuto aziendali
-Quando si crea il pacchetto di contenuto, le impostazioni di aggiornamento vengono ereditate con il set di dati.  Quando si crea una copia del pacchetto di contenuto, la nuova versione manterrà il collegamento al set di dati originale e la relativa pianificazione dell'aggiornamento. 
+Quando si crea il pacchetto di contenuto, le impostazioni di aggiornamento vengono ereditate con il set di dati.  Quando si crea una copia del pacchetto di contenuto, la nuova versione manterrà il collegamento al set di dati originale e la relativa pianificazione dell'aggiornamento.
 
 Vedere [Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali](service-organizational-content-pack-manage-update-delete.md).
 
@@ -59,4 +59,3 @@ Vedere [Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali](servi
 * [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md)
 * [Creare un gruppo in Power BI](service-create-distribute-apps.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-

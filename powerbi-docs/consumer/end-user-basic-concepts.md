@@ -12,33 +12,33 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
-ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
+ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57196460"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580106"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i ***consumer***
 
 ## <a name="power-bi-consumers-and-designers"></a>*Consumer* e *designer* di Power BI
-Questo articolo presuppone che l'utente abbia già letto [Panoramica di Power BI](../power-bi-overview.md) e si sia identificato manualmente come ***consumer*** di Power BI. I consumer ricevono il contenuto di Power BI, ad esempio dashboard e report, dai colleghi. I consumer usano il servizio Power BI, ovvero la versione di Power BI basata sul sito Web. 
+Questo articolo presuppone che l'utente abbia già letto [Panoramica di Power BI](../power-bi-overview.md) e si sia identificato manualmente come ***consumer*** di Power BI. I consumer ricevono il contenuto di Power BI, ad esempio dashboard e report, dai colleghi. I consumer usano il servizio Power BI, ovvero la versione di Power BI basata sul sito Web.
 
-Il termine "Power BI Desktop" o semplicemente "Desktop" indica uno strumento autonomo usato dai *designer*, che compilano i dashboard e i report e li condividono con gli utenti. È importante sapere che sono disponibili altri strumenti di Power BI, ma che il consumer usa solo il servizio Power BI. Questo articolo riguarda esclusivamente il servizio Power BI. 
+Il termine "Power BI Desktop" o semplicemente "Desktop" indica uno strumento autonomo usato dai *designer*, che compilano i dashboard e i report e li condividono con gli utenti. È importante sapere che sono disponibili altri strumenti di Power BI, ma che il consumer usa solo il servizio Power BI. Questo articolo riguarda esclusivamente il servizio Power BI.
 
 ## <a name="terminology-and-concepts"></a>Terminologia e concetti
 Questo articolo non è un tour visivo di Power BI, né un'esercitazione pratica. È invece un articolo di panoramica che ha lo scopo di illustrare la terminologia e i concetti di Power BI. Una sorta di introduzione al gergo specifico del programma. Per una panoramica sul servizio Power BI e sulla navigazione, vedere [Presentazione](end-user-experience.md).
 
 ## <a name="open-power-bi-service-for-the-first-time"></a>Aprire il servizio Power BI per la prima volta
-La maggior parte dei consumer Power BI ottiene il servizio Power BI perché 1) la società di appartenenza acquista le licenze e 2) un amministratore assegna le licenze a dipendenti come l'utente. 
+La maggior parte dei consumer Power BI ottiene il servizio Power BI perché 1) la società di appartenenza acquista le licenze e 2) un amministratore assegna le licenze a dipendenti come l'utente.
 
 Per iniziare, è sufficiente aprire un browser e digitare **app.powerbi.com**. Quando si apre il servizio Power BI per la prima volta viene visualizzato un ambiente simile al seguente.
 
 ![Schermata iniziale per il servizio Power BI](media/end-user-basic-concepts/power-bi-open.png)
 
-Man mano che si usa Power BI sarà possibile personalizzare gli elementi visualizzati all'apertura del sito Web.  Ad esempio, alcuni utenti preferiscono che Power BI venga aperto con la home page, altri preferiscono iniziare con un dashboard specifico. Le tecniche corrispondenti sono illustrate di seguito. 
+Man mano che si usa Power BI sarà possibile personalizzare gli elementi visualizzati all'apertura del sito Web.  Ad esempio, alcuni utenti preferiscono che Power BI venga aperto con la home page, altri preferiscono iniziare con un dashboard specifico. Le tecniche corrispondenti sono illustrate di seguito.
 - [Anteprima Home](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
-- [Impostare il contenuto **in primo piano**](end-user-featured.md) 
+- [Impostare il contenuto **in primo piano**](end-user-featured.md)
 
 ![Visualizzazione della home page e del dashboard](media/end-user-basic-concepts/power-bi-first.png)
 
@@ -46,12 +46,12 @@ Prima di procedere, è importante illustrare i blocchi costitutivi del servizio 
 
 ## <a name="power-bi-content"></a>***Contenuto*** di Power BI
 ### <a name="introduction-to-building-blocks"></a>Introduzione ai blocchi costitutivi
-Per un consumer di Power BI i 5 blocchi costitutivi sono: ***visualizzazioni***, ***dashboard***, ***report***, ***app*** e ***set di dati***. Questi elementi sono talvolta detti ***contenuto*** di *Power BI*. Il *contenuto* esiste in un'***area di lavoro***. Un flusso di lavoro tipico prevede tutti i blocchi:  Un *designer* di Power BI (in giallo nel diagramma in basso) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che sottolineano fatti interessanti, blocca visualizzazioni dei report su un dashboard e condivide i report e i dashboard con i *consumer* come l'utente (in nero nel diagramma in basso), sotto forma di *app* o di altri tipi di contenuto condiviso. 
+Per un consumer di Power BI i 5 blocchi costitutivi sono: ***visualizzazioni***, ***dashboard***, ***report***, ***app*** e ***set di dati***. Questi elementi sono talvolta detti ***contenuto*** di *Power BI*. Il *contenuto* esiste in un'***area di lavoro***. Un flusso di lavoro tipico prevede tutti i blocchi:  Un *designer* di Power BI (in giallo nel diagramma in basso) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che sottolineano fatti interessanti, blocca visualizzazioni dei report su un dashboard e condivide i report e i dashboard con i *consumer* come l'utente (in nero nel diagramma in basso), sotto forma di *app* o di altri tipi di contenuto condiviso.
 
 ![diagramma di flusso, semplice](media/end-user-basic-concepts/power-bi-workflow.png)
 
-Questa è la forma più semplice. 
-* ![icona della visualizzazione](media/end-user-basic-concepts/visual.png) Una ***visualizzazione*** (o *oggetto visivo*) è un tipo di grafico creato dai *designer* di Power BI usando i dati contenuti nei *report* e nei *dataset*. In genere i *designer* creano gli oggetti visivi in Power BI Desktop. 
+Questa è la forma più semplice.
+* ![icona della visualizzazione](media/end-user-basic-concepts/visual.png) Una ***visualizzazione*** (o *oggetto visivo*) è un tipo di grafico creato dai *designer* di Power BI usando i dati contenuti nei *report* e nei *dataset*. In genere i *designer* creano gli oggetti visivi in Power BI Desktop.
 
     Per altre informazioni, vedere [Visualizzazioni per *consumer* di Power BI](end-user-visualizations.md)
 
@@ -67,7 +67,7 @@ Questa è la forma più semplice.
 
 * ![icona dell'app](media/end-user-basic-concepts/app.png) Un'*app* è un metodo con cui i *designer* aggregano e condividono dashboard e report in un'unica soluzione. I *consumer* ricevono alcune app automaticamente, ma possono anche cercare altre app create da colleghi o dalla community. Ad esempio, servizi esterni che probabilmente l'utente usa già, come Google Analytics e Microsoft Dynamics CRM, offrono app di Power BI.
 
-Un nuovo utente che accede a Power BI per la prima volta non visualizza nessun dashboard, app o report. 
+Un nuovo utente che accede a Power BI per la prima volta non visualizza nessun dashboard, app o report.
 _______________________________________________________
 
 
@@ -77,7 +77,7 @@ Un *set di dati* è una raccolta di dati che i *designer* importano o alla quale
 
 Ogni set di dati rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un set di dati di Salesforce. Sono supportate molte origini dati diverse.
 
-Quando un designer condivide un'app, l'utente può visualizzare i set di dati inclusi con l'app. 
+Quando un designer condivide un'app, l'utente può visualizzare i set di dati inclusi con l'app.
 
 ![App selezionate e freccia rivolta verso la sezione dei set di dati nell'area di disegno](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
@@ -86,10 +86,10 @@ Quando un designer condivide un'app, l'utente può visualizzare i set di dati in
 * può essere usato più volte
 * può essere usato in report diversi
 * Le visualizzazioni di un unico set di dati possono essere usate in dashboard diversi
-  
+
   ![relazioni del set di dati M:1](media/end-user-basic-concepts/drawing2.png)
 
-Inoltre, è possibile usare i set di dati di altre aree di lavoro per creare contenuto, ad esempio report o dashboard, nella propria area di lavoro. Questi set di dati vengono visualizzati usando l'icona del set di dati a cui si fa riferimento: 
+Inoltre, è possibile usare i set di dati di altre aree di lavoro per creare contenuto, ad esempio report o dashboard, nella propria area di lavoro. Questi set di dati vengono visualizzati usando l'icona del set di dati a cui si fa riferimento:
 
 ![icona di database con collegamento](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
@@ -121,19 +121,19 @@ Un report di Power BI è costituito da una o più pagine di visualizzazioni, gra
 * può essere associato a più dashboard, ovvero i riquadri aggiunti da un report possono essere visualizzati in più dashboard.
 * può essere creato usando i dati di un solo set di dati.  
 * può far parte di più app.
-  
+
   ![disegno delle relazioni per un report](media/end-user-basic-concepts/drawing5.png)
 
 ________________________________________________
 
 ## <a name="dashboards"></a>Dashboard
-Un dashboard rappresenta una visualizzazione personalizzata di un subset di uno o più set di dati sottostanti. I *designer* creano i dashboard e li condividono con i *consumer*, individualmente o come parte di un'app. Un dashboard è un canvas singolo che contiene *riquadri*, grafica e testo. 
+Un dashboard rappresenta una visualizzazione personalizzata di un subset di uno o più set di dati sottostanti. I *designer* creano i dashboard e li condividono con i *consumer*, individualmente o come parte di un'app. Un dashboard è un canvas singolo che contiene *riquadri*, grafica e testo.
 
   ![dashboard di esempio](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Un riquadro è il rendering di un oggetto visivo che un *designer* *aggiunge* al dashboard, ad esempio da un report.  Ogni riquadro aggiunto include una [visualizzazione](end-user-visualizations.md), che è stata creata da un set di dati e aggiunta al dashboard. Un riquadro può anche contenere un'intera pagina del report oppure dati in streaming live o video. I *designer* possono aggiungere riquadri al dashboard in molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md). 
+Un riquadro è il rendering di un oggetto visivo che un *designer* *aggiunge* al dashboard, ad esempio da un report.  Ogni riquadro aggiunto include una [visualizzazione](end-user-visualizations.md), che è stata creata da un set di dati e aggiunta al dashboard. Un riquadro può anche contenere un'intera pagina del report oppure dati in streaming live o video. I *designer* possono aggiungere riquadri al dashboard in molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md).
 
-Dal punto di vista del consumer, i dashboard non possono essere modificati. Il consumer può tuttavia possibile aggiungere commenti, visualizzare dati correlati, impostare un dashboard come preferito, eseguire la sottoscrizione e così via. 
+Dal punto di vista del consumer, i dashboard non possono essere modificati. Il consumer può tuttavia possibile aggiungere commenti, visualizzare dati correlati, impostare un dashboard come preferito, eseguire la sottoscrizione e così via.
 
 Quali sono le finalità dei dashboard?  Eccone alcune:
 
@@ -148,17 +148,17 @@ Quali sono le finalità dei dashboard?  Eccone alcune:
 * consente di visualizzare visualizzazioni di set di dati diversi
 * consente di visualizzare visualizzazioni di report diversi
 * consente di visualizzare visualizzazioni aggiunte da altri strumenti (ad esempio Excel)
-  
+
   ![disegno delle relazioni per un dashboard](media/end-user-basic-concepts/drawing1.png)
 
 ________________________________________________
 
 ## <a name="apps"></a>App
-Queste raccolte di dashboard e report organizzano i contenuti correlati in un unico pacchetto. I *designer* di Power BI compilano questi elementi e li condividono con utenti singoli, gruppi, un'intera organizzazione oppure li rendono pubblici. Il consumer ha la certezza di lavorare insieme ai colleghi sugli stessi dati, condivisi e affidabili. 
+Queste raccolte di dashboard e report organizzano i contenuti correlati in un unico pacchetto. I *designer* di Power BI compilano questi elementi e li condividono con utenti singoli, gruppi, un'intera organizzazione oppure li rendono pubblici. Il consumer ha la certezza di lavorare insieme ai colleghi sugli stessi dati, condivisi e affidabili.
 
 ![App selezionate nel riquadro spostamento a sinistra](media/end-user-basic-concepts/power-bi-app.png)
 
-Le app possono essere facilmente individuate e installate nel servizio Power BI (https://powerbi.com) e nel dispositivo mobile). Dopo l'installazione di un'app non è necessario ricordare i nomi di molti dashboard diversi, perché sono tutti riuniti in un'app, nel browser o nel dispositivo mobile. 
+Le app possono essere facilmente individuate e installate nel servizio Power BI (https://powerbi.com) e nel dispositivo mobile). Dopo l'installazione di un'app non è necessario ricordare i nomi di molti dashboard diversi, perché sono tutti riuniti in un'app, nel browser o nel dispositivo mobile.
 
 Questa app contiene tre dashboard correlati e tre report correlati, che costituiscono un'app singola.
 
@@ -170,7 +170,7 @@ Ogni volta che l'autore dell'app rilascia aggiornamenti, le modifiche vengono vi
 
 Dopo aver installato l'app, selezionarla nell'elenco delle app e selezionare il dashboard o il report da aprire ed esaminare per primo.   
 
-Questo articolo ha illustrato i blocchi costitutivi del servizio Power BI per i consumer. 
+Questo articolo ha illustrato i blocchi costitutivi del servizio Power BI per i consumer.
 
 ## <a name="next-steps"></a>Passaggi successivi
 - Visualizzare e impostare un segnalibro sul [Glossario](end-user-glossary.md)    
