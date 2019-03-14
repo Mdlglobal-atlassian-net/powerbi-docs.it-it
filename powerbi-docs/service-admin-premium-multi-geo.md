@@ -1,5 +1,5 @@
 ---
-title: Supporto di più aree geografiche per Power BI Premium (anteprima)
+title: Supporto di più aree geografiche per Power BI Premium
 description: Informazioni su come distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI.
 author: minewiskan
 ms.author: owend
@@ -10,18 +10,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794671"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571980"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Supporto di più aree geografiche per Power BI Premium (anteprima)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Supporto di più aree geografiche per Power BI Premium
 
 Il supporto di più aree geografiche è una funzionalità di Power BI Premium che consente ai clienti multinazionali di soddisfare requisiti regionali, specifici del settore o di residenza dei dati dell'organizzazione. I clienti di Power BI Premium possono distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI. Un'area geografica può contenere più di un'area. Ad esempio, Stati Uniti è un'area geografica e Stati Uniti centro-occidentali e Stati Uniti centro-meridionali sono aree negli Stati Uniti. È possibile scegliere di distribuire il contenuto in qualsiasi area geografica tra le seguenti:
 
-- Stati Uniti
+- United States
 - Canada
 - Regno Unito
 - Brasile
@@ -33,7 +33,7 @@ Il supporto di più aree geografiche è una funzionalità di Power BI Premium ch
 
 Le aree geografiche multiple non sono disponibili per Power BI Germania, Power BI gestito da 21Vianet in Cina o Power BI per Governo degli Stati Uniti.
 
-Il supporto di più aree geografiche è ora disponibile anche in Power BI Embedded. Per altre informazioni, vedere [Supporto di più aree geografiche per Power BI Embedded (anteprima)](developer/embedded-multi-geo.md).
+Il supporto di più aree geografiche è ora disponibile anche in Power BI Embedded. Per altre informazioni, vedere [Supporto di più aree geografiche per Power BI Embedded](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Uso di più aree geografiche
 
@@ -65,7 +65,7 @@ Questi elementi rimangono nell'area iniziale per il tenant:
 - Cartelle di lavoro di Excel
 - Metadati di report/dashboard: ad esempio nomi dei riquadri, query dei riquadri
 - Bus di servizio per le query di gateway o i processi di aggiornamento pianificati
-- applicazione
+- Autorizzazioni
 - Credenziali del set di dati
 
 ## <a name="view-capacity-regions"></a>Visualizzare le aree delle capacità

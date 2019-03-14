@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 03/11/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5b9bec67fef672d219b11bf3b3750959e72410b6
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 0baab138ee98d2ec96bc9f47e6e727525a57ed3e
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226067"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757247"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
@@ -23,7 +23,7 @@ Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro
 
 ## <a name="configure-workloads"></a>Configurare i carichi di lavoro
 
-È possibile abilitare e configurare carichi di lavoro aggiuntivi per [flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [report impaginati](paginated-reports-save-to-power-bi-service.md). I valori di memoria predefiniti per questi carichi di lavoro si basano sui nodi di capacità disponibili per lo SKU. Le impostazioni della memoria massima non sono cumulative. La memoria massima specificata viene allocata in modo dinamico per i flussi di dati, ma staticamente viene allocata per i report impaginati. 
+È possibile abilitare e configurare carichi di lavoro aggiuntivi per intelligenza artificiale, [flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) e [report impaginati](paginated-reports-save-to-power-bi-service.md). I valori di memoria predefiniti per questi carichi di lavoro si basano sui nodi di capacità disponibili per lo SKU. Le impostazioni della memoria massima non sono cumulative. La memoria massima specificata viene allocata in modo dinamico per l'intelligenza artificiale e i flussi di dati, ma staticamente viene allocata per i report impaginati. 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Per configurare i carichi di lavoro nel portale di amministrazione di Power BI
 

@@ -1,5 +1,5 @@
 ---
-title: Supporto di più aree geografiche per Power BI Embedded (anteprima)
+title: Supporto di più aree geografiche per Power BI Embedded
 description: Informazioni su come distribuire contenuto ai data center in aree diverse dall'area iniziale di Power BI Embedded.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762422"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572026"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Supporto di più aree geografiche per Power BI Embedded (anteprima)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Supporto di più aree geografiche per Power BI Embedded
 
-**Supporto di più aree geografiche per Power BI Embedded (anteprima)** significa che gli ISV e le organizzazioni che creano applicazioni che usano Power BI Embedded per incorporare funzionalità analitiche nelle proprie app possono ora distribuire i dati in aree diverse in tutto il mondo.
+**Supporto di più aree geografiche per Power BI Embedded** significa che gli ISV e le organizzazioni che creano applicazioni che usano Power BI Embedded per incorporare funzionalità analitiche nelle proprie app possono ora distribuire i dati in aree diverse in tutto il mondo.
 
 I clienti che usano **Power BI Embedded** possono ora configurare una **capacità A** usando le opzioni per **più aree geografiche**, in base alle stesse funzionalità e limitazioni [supportate da Power BI Premium per l'uso di più aree geografiche](../service-admin-premium-Multi-Geo.md).
 
