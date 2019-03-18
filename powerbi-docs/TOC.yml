@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: Connettersi a un esempio di GitHub
       href: service-tutorial-connect-to-github.md
+    - name: Uso di Servizi cognitivi in Power BI
+      href: service-tutorial-use-cognitive-services.md
+    - name: Integrazione di Machine Learning in Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: Concetti
     items:
     - name: Novità del servizio Power BI
@@ -646,6 +650,10 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
         href: service-dataflows-add-cdm-folder.md
+      - name: Integrare Machine Learning in Power BI
+        href: service-machine-learning-integration.md
+      - name: Usare Servizi cognitivi in Power BI
+        href: service-cognitive-services.md
     - name: Report impaginati in Power BI
       items:
       - name: Che cosa sono i report impaginati? (anteprima)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: Connettersi ai servizi
         items:
-        - name: Connettersi ai servizi
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Sicurezza di Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757439"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964917"
