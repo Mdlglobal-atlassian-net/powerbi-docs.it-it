@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324716"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174546"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Pubblicare un report impaginato nel servizio Power BI (anteprima)
 
 Questo articolo illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale. È possibile caricare report impaginati nell'Area di lavoro personale o in qualsiasi altra area di lavoro se l'area di lavoro è assegnata a una capacità Premium. Cercare l'icona a forma di diamante ![Icona a forma di diamante della capacità di Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) accanto al nome dell'area di lavoro. 
 
-Se l'origine dati del report è in locale, sarà necessario [creare un gateway](#create-a-gateway-to-an-on-premises-data-source) dopo aver caricato il report.
+Se l'origine dati del report è in locale, sarà necessario [creare un gateway](#create-a-gateway) dopo aver caricato il report.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Aggiungere un'area di lavoro a una capacità Premium
 

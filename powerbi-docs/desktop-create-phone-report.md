@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275319"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174592"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Creare report ottimizzati per le app per dispositivi mobili Power BI
-È possibile migliorare l'esperienza di visualizzazione dei report nelle app per dispositivi mobili su telefoni o tablet. Creare un layout verticale di un report, specifico per telefoni e tablet. In Power BI Desktop e nel servizio Power BI è possibile adattare il report modificando la disposizione degli oggetti visivi e ridimensionandoli in un layout verticale per ottenere un'esperienza ottimale. Non è necessario includerli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report ottimizzato. I lettori del report possano visualizzarli e filtrare il report con essi.
+È possibile migliorare l'esperienza di visualizzazione dei report nelle app per dispositivi mobili su telefoni o tablet. Creare un layout verticale di un report, specifico per telefoni e tablet. In Power BI Desktop e nel servizio Power BI è possibile adattare il report modificando la disposizione degli oggetti visivi e ridimensionandoli in un layout verticale per ottenere un'esperienza ottimale. Non è necessario includerli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report ottimizzato. I lettori del report possano visualizzarli e filtrare il report con essi.
 
 ![Report ottimizzato in un telefono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 

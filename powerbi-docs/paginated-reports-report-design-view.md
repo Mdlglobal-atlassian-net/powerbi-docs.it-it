@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324826"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174776"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Elementi della visualizzazione Progettazione report per i report impaginati (anteprima)
 
@@ -22,12 +22,12 @@ La visualizzazione Progettazione report in Generatore report è lo spazio di pro
 
 ![Visualizzazione Progettazione report di Generatore report](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1. [Riquadro dei dati del report](#report-data-pane) 
-2. [Area di progettazione report](#report-design-surface)  
-3. [Riquadro Parametri](#parameters-pane) 
-4. [Riquadro Proprietà](#properties-pane) 
-5. [Riquadro di raggruppamento](#grouping-pane) 
-6. [Barra di stato del report corrente](#current-report-status-bar)  
+1. [Riquadro dei dati del report](#1-report-data-pane) 
+2. [Area di progettazione report](#2-report-design-surface)  
+3. [Riquadro Parametri](#3-parameters-pane) 
+4. [Riquadro Proprietà](#4-properties-pane) 
+5. [Riquadro di raggruppamento](#5-grouping-pane) 
+6. [Barra di stato del report corrente](#6-current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 Riquadro dei dati del report  
  Nel riquadro dei dati del report si definiscono i dati del report e le risorse del report necessari per un report prima di progettarne il layout. Ad esempio, è possibile aggiungere origini dati, set di dati, campi calcolati, parametri del report e immagini nel riquadro dei dati del report.  

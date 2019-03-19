@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226251"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174983"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -60,7 +60,7 @@ In un'installazione standard, il gateway viene eseguito come account del servizi
 
 ![Screenshot dell'account del servizio](media/service-gateway-sso-kerberos/service-account.png)
 
-Per abilitare la delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che l'istanza di Azure Active Directory (Azure AD) non sia già sincronizzata con l'istanza di Active Directory locale tramite Azure AD DirSync/Connect. Per passare a un account di dominio, vedere [Modificare l'account del servizio gateway in un account di dominio](#switching-the-gateway-to-a-domain-account) più avanti in questo articolo.
+Per abilitare la delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che l'istanza di Azure Active Directory (Azure AD) non sia già sincronizzata con l'istanza di Active Directory locale tramite Azure AD DirSync/Connect. Per passare a un account di dominio, vedere [Modificare l'account del servizio gateway in un account di dominio](#switch-the-gateway-to-a-domain-account) più avanti in questo articolo.
 
 > [!NOTE]
 > Se Azure AD Connect è configurato e gli account utente sono sincronizzati, il servizio gateway non deve eseguire ricerche locali in AD in fase di esecuzione. Per il servizio gateway è possibile usare il SID del servizio locale, anziché un account di dominio. La procedura di configurazione della delega vincolata Kerberos descritta in questo articolo corrisponde a questa configurazione, che viene semplicemente applicata all'oggetto computer del gateway anziché all'account di dominio.
@@ -188,7 +188,7 @@ Se necessario, è possibile modificare l'esecuzione del gateway dall'account del
 
 ## <a name="configure-sap-bw-for-sso"></a>Configurare SAP BW per l'accesso SSO
 
-Dopo aver compreso il funzionamento di Kerberos con un gateway, è possibile configurare l'accesso SSO per SAP Business Warehouse (SAP BW). La procedura seguente presuppone che sia già stata eseguita la [preparazione per la delega vincolata Kerberos](#preparing-for-kerberos-constrained-delegation), come descritto in precedenza in questo articolo.
+Dopo aver compreso il funzionamento di Kerberos con un gateway, è possibile configurare l'accesso SSO per SAP Business Warehouse (SAP BW). La procedura seguente presuppone che sia già stata eseguita la [preparazione per la delega vincolata Kerberos](#prepare-for-kerberos-constrained-delegation), come descritto in precedenza in questo articolo.
 
 Questa guida cerca di offrire informazioni più dettagliate possibili. Se alcuni di questi passaggi sono già stati completati, è possibile ignorarli, ad esempio se è già stato creato un utente del servizio per il server SAP BW e a questo è stato mappato un nome SPN, oppure se è già stata installata la libreria `gsskrb5`.
 
@@ -356,7 +356,7 @@ Se Azure AD Connect non è configurato, seguire questa procedura per ogni utente
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Aggiungere una nuova origine dati del server applicazioni SAP BW al servizio Power BI
 
-Aggiungere l'origine dati SAP BW al gateway seguendo le istruzioni per l'[esecuzione di un report](#running-a-power-bi-report) fornite in precedenza in questo articolo.
+Aggiungere l'origine dati SAP BW al gateway seguendo le istruzioni per l'[esecuzione di un report](#run-a-power-bi-report) fornite in precedenza in questo articolo.
 
 1. Nella finestra di configurazione dell'origine dati immettere **Nome host**, **Numero sistema** e **ID client** del server applicazioni per accedere al server SAP BW da Power BI Desktop. Per **Metodo di autenticazione** selezionare **Windows**.
 
