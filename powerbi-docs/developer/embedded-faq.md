@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: da5394c0d1e63619229542b914ae7fd4deed7447
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9663c7eb6921718ac4b9690ddc50d78e59c6db3b
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223744"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174891"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -137,7 +137,7 @@ Sì, esistono API Azure Resource Manager e cmdlet di PowerShell che è possibile
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Che cos'è il ruolo della capacità dedicata Power PBI Embedded in una soluzione Power PBI Embedded?
 
-Per [alzare di livello della soluzione per la produzione](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), è necessario che il contenuto di Power BI, vale a dire l'area di lavoro per le app usata nell'applicazione, venga assegnato a una capacità Power BI Embedded (SKU A).
+Per [alzare di livello la soluzione per la produzione](embed-sample-for-customers.md#move-to-production), è necessario che il contenuto di Power BI, vale a dire l'area di lavoro per le app usata nell'applicazione, venga assegnato a una capacità Power BI Embedded (SKU A).
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>Quali sono le aree di Azure in cui Power PBI Embedded è disponibile?
 
@@ -167,7 +167,7 @@ Per ottenere un token AAD, è possibile usare una delle [librerie di autenticazi
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>L'applicazione già utilizza AAD per l'autenticazione utente. Come si usa questa identità per l'autenticazione a Power BI in uno scenario "i dati sono di proprietà dell'utente"?
 
-Si tratta di un flusso standard OAuth "per conto di" (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)) L'applicazione deve essere configurata per richiedere le autorizzazioni al servizio Power BI con gli ambiti necessari. Dopo che si è ottenuto un token utente per l'app, è sufficiente effettuare una chiamata AcquireTokenAsync all'API ADAL tramite il token di accesso utente e specificare l'URL della risorsa Power BI come ID della risorsa. Segue un frammento di codice che illustra come può essere eseguita questa operazione:
+Si tratta di un flusso standard OAuth "per conto di" (<https://docs.microsoft.com/azure/active-directory/develop/web-api>). L'applicazione deve essere configurata in modo da richiedere le autorizzazioni al servizio Power BI con gli ambiti necessari. Dopo che si è ottenuto un token utente per l'app, è sufficiente effettuare una chiamata AcquireTokenAsync all'API ADAL tramite il token di accesso utente e specificare l'URL della risorsa Power BI come ID della risorsa. Il frammento di codice seguente illustra come può essere eseguita questa operazione:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -344,7 +344,7 @@ Se si usa l'esperienza **Incorporare per l'organizzazione**, salvare e decomprim
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Come si può modificare l'applicazione registrata?
 
-Le informazioni su come modificare le applicazioni registrate con AAD sono disponibili [qui](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application).
+Per informazioni su come modificare le applicazioni registrate con Azure AD, vedere [Avvio rapido: Aggiornare un'applicazione in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Come è possibile modificare il proprio profilo utente o i propri dati in Power BI?
 

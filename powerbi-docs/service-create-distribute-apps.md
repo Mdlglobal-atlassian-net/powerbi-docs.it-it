@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294063"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964687"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Pubblicare app con dashboard e report in Power BI
 
@@ -121,6 +121,11 @@ Ecco alcuni aspetti da tenere in considerazione quando si effettua il push delle
 
 ## <a name="unpublish-an-app"></a>Annullare la pubblicazione di un'app
 Qualsiasi membro di un'area di lavoro per le app può annullare la pubblicazione dell'app.
+
+>[!NOTE]
+>Quando si annulla la pubblicazione di un'app, gli utenti dell'app perdono le loro personalizzazioni. Ciò implica la perdita di segnalibri e commenti personali o sottoscrizioni associate al contenuto dell'app. Annullare la pubblicazione di un'app solo se è necessario rimuoverla.
+> 
+> 
 
 * In un'area di lavoro per le app, selezionare i punti di sospensione (**...**) nell'angolo superiore destro > **Annulla pubblicazione app**.
   

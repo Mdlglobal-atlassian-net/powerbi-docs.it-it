@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757347"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980382"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -42,9 +42,9 @@ Nel portale sono disponibili sette schede. Il resto di questo articolo fornisce 
 * [Utenti](#users)
 * [Log di controllo](#audit-logs)
 * [Impostazioni tenant](#tenant-settings)
-* [Impostazioni Premium](#premium-settings)
+* [Impostazioni capacità](#capacity-settings)
 * [Codici di incorporamento](#embed-codes)
-* [Oggetti visivi organizzazione](#organization-visuals)
+* [Oggetti visivi organizzazione](#organizational-visuals)
 
 ## <a name="usage-metrics"></a>Metriche di utilizzo
 
@@ -81,7 +81,7 @@ La seconda sezione mostra lo stesso tipo di informazioni, ma in base ai gruppi. 
 
 Con queste informazioni è possibile ottenere informazioni dettagliate reali in merito alla modalità d'uso di Power BI all'interno dell'organizzazione ed è possibile individuare gli utenti e i gruppi particolarmente attivi nell'organizzazione.
 
-## <a name="users"></a>Utenti
+## <a name="users"></a>utenti
 
 Gli utenti, i gruppi e gli amministratori di Power BI vengono gestiti nell'interfaccia di amministrazione di Office 365. La scheda **Utenti** offre un collegamento all'interfaccia di amministrazione per il tenant.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426724"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174753"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
 
@@ -65,7 +65,7 @@ Seguire la procedura nell'articolo [Create an Azure Data Lake Storage Gen2 stora
 
 È poi necessario concedere al servizio Power BI il ruolo di lettore nell'account di archiviazione creato. Si tratta di un ruolo predefinito, quindi la procedura è immediata. 
 
-Seguire i passaggi nell'articolo [Assegnare un ruolo a un'entità di sicurezza](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal).
+Seguire la procedura descritta in [Assegnare un ruolo RBAC predefinito](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role).
 
 Nella finestra **Aggiungi un'assegnazione di ruolo** selezionare il ruolo **Lettore** da assegnare al servizio Power BI. Usare quindi la ricerca per individuare il **servizio Power BI**. L'immagine seguente mostra il ruolo **Lettore** assegnato al servizio Power BI.
 
@@ -150,6 +150,9 @@ Connettere l'account di **Azure Data Lake Storage Gen2** seguendo questa procedu
 6. Selezionare **Connetti**.
 
 Dopo aver completato questa procedura, l'account di Azure Data Lake Storage Gen2 è connesso a Power BI. 
+
+> [!NOTE]
+> Per configurare una connessione ad Azure Data Lake Storage Gen2 nel portale di amministrazione di Power BI sono necessarie le autorizzazioni di amministratore globale. Gli amministratori globali non possono però connettere una risorsa di archiviazione esterna nel portale di amministrazione.  
 
 A questo punto è necessario consentire agli utenti dell'organizzazione di configurare le aree di lavoro personali, in modo da poter usare questo account di archiviazione per l'archiviazione delle definizioni di flussi di dati e dei dati. Questa operazione verrà descritta nella sezione successiva. 
 

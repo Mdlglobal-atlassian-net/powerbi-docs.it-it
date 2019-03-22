@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 03/12/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: cb9280f47f1f2d28ce6fabda2dbc173fbdc837ac
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: f327cb95c10756f079778d20e62cba4871b95c02
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226136"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964940"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>Che cos'è Microsoft Power BI Premium?
 
@@ -66,15 +66,15 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 
 * I nodi EM possono essere usati solo per le distribuzioni incorporate. I nodi EM non hanno accesso alle funzionalità Premium, ad esempio la condivisione di app per gli utenti che non hanno una licenza di Power BI Pro.
 
-| Nodo della capacità | Totale vCore<br/>*(Back-end + front-end)*  | vCore back-end <sup>[1](#fn1)</sup> | vCore front-end <sup>[2](#fn2)</sup> | Limiti di connessione dinamica/DirectQuery | Max aggiornamenti simultanei |  Disponibilità
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| EM1 (mensile) |1 vCore |0,5 v-core, 2.5 GB di RAM |0,5 v-core |3,75 al secondo |  1 | Disponibile |
-| EM2 (mensile) |2 v-core |1 v-core, 5 GB di RAM |1 vCore |7,5 al secondo |  2 | Disponibile |
-| EM3 (mensile) |4 v-core |2 v-core, 10 GB di RAM |2 v-core | | 3 |  Disponibile |
-| P1 |8 v-core |4 v-core, 25 GB di RAM |4 v-core |30 al secondo | 6 | Disponibile (è disponibile anche l'opzione mensile) |
-| P2 |16 v-core |8 v-core, 50 GB di RAM |8 v-core |60 al secondo | 12 | Disponibile |
-| P3 |32 v-core |16 v-core, 100 GB di RAM |16 v-core |120 al secondo | 24 | Disponibile |
-| | | | | | | |
+| Nodo della capacità | Totale vCore<br/>*(Back-end + front-end)*  | vCore back-end <sup>[1](#fn1)</sup> | vCore front-end <sup>[2](#fn2)</sup> | Limiti di connessione dinamica/DirectQuery | Max aggiornamenti simultanei |
+| --- | --- | --- | --- | --- | --- |
+| EM1 (mensile) |1 vCore |0,5 v-core, 2.5 GB di RAM |0,5 v-core |3,75 al secondo |  1 |
+| EM2 (mensile) |2 v-core |1 v-core, 5 GB di RAM |1 vCore |7,5 al secondo |  2 |
+| EM3 (mensile) |4 v-core |2 v-core, 10 GB di RAM |2 v-core | 15 | 3 |
+| P1 |8 v-core |4 v-core, 25 GB di RAM |4 v-core |30 al secondo | 6 |
+| P2 |16 v-core |8 v-core, 50 GB di RAM |8 v-core |60 al secondo | 12 |
+| P3 |32 v-core |16 v-core, 100 GB di RAM |16 v-core |120 al secondo | 24 |
+| | | | | | |
 
 <a name="fn1">1</a>: i vCore front-end sono responsabili per il servizio Web. Ad esempio, gestione dei documenti per dashboard e report, gestione dei diritti di accesso, pianificazione, API, caricamenti e download e in genere tutto ciò che riguarda l'esperienza utente. 
 
@@ -82,32 +82,7 @@ Power BI Premium è disponibile nelle configurazioni del nodo con diverse capaci
 
 ## <a name="workloads-in-premium-capacity"></a>Carichi di lavoro nella capacità Premium
 
-Per impostazione predefinita, le capacità per **Power BI Premium** e **Power BI Embedded** supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. Premium supporta anche carichi di lavoro aggiuntivi per **intelligenza artificiale**, **flussi di dati** e **report impaginati**. Abilitare questi carichi di lavoro nel portale di amministrazione di Power BI o tramite l'API REST di Power BI. È anche possibile impostare la memoria massima che ogni carico di lavoro può utilizzare, per poter controllare come interagiscono i diversi carichi di lavoro. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
-
-### <a name="default-memory-settings"></a>Impostazioni predefinite della memoria
-
-Le tabelle seguenti indicano i valori predefiniti e minimi della memoria, a seconda dei diversi [nodi di capacità](#premium-capacity-nodes) disponibili. La memoria viene allocata in modo dinamico ai flussi di dati e in modo statico ai report impaginati. Per altre informazioni, vedere la sezione successiva, [Considerazioni per i report impaginati](#considerations-for-paginated-reports).
-
-#### <a name="microsoft-office-skus-for-software-as-a-service-saas-scenarios"></a>SKU di Microsoft Office per scenari SaaS (Software as a Service)
-
-|                     | EM3                      | P1                       | P2                      | P3                       |
-|---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
-| Report impaginati | N/D | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
-| Flussi di dati | 20% predefinita; 8% minima  | 20% predefinita; 4% minima  | 20% predefinita; 2% minima | 20% predefinita; 1% minima  |
-| | | | | |
-
-#### <a name="microsoft-azure-skus-for-platform-as-a-service-paas-scenarios"></a>SKU di Microsoft Azure per scenari PaaS (Platform as a Service)
-
-|                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
-|-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Report impaginati | N/D                      | N/D                      | N/D                     | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
-| Flussi di dati         | 27% predefinita; 27% minima | 20% predefinita; 16% minima | 20% predefinita; 8% minima | 20% predefinita; 4% minima  | 20% predefinita; 2% minima | 20% predefinita; 1% minima   |
-
-### <a name="considerations-for-paginated-reports"></a>Considerazioni per i report impaginati
-
-Se si usa il carico di lavoro per i report impaginati, tenere presente che i report impaginati consentono di eseguire il codice quando si esegue il rendering di un report (ad esempio quando si modifica in modo dinamico il colore del testo in base al contenuto). Alla luce di ciò, la capacità Power BI Premium viene assicurata eseguendo i report impaginati in uno spazio contenuto all'interno della capacità. A questo spazio viene assegnata la memoria massima specificata, indipendentemente dal fatto che il carico di lavoro sia attivo o meno. Se si usano i report o i flussi di dati di Power BI nella stessa capacità, assicurarsi di impostare per i report impaginati una memoria sufficientemente bassa da non influire negativamente sugli altri carichi di lavoro.
-
-in rari casi, il carico di lavoro per i report impaginati può diventare non disponibile. In questo caso, per il carico di lavoro viene visualizzato uno stato di errore nel portale di amministrazione e gli utenti vedono il timeout per il rendering del report. Per attenuare questo problema, disabilitare il carico di lavoro, quindi riabilitarlo.
+Per impostazione predefinita, le capacità Power BI Premium e Power BI Embedded supportano solo il carico di lavoro associato all'esecuzione di query di Power BI nel cloud. Premium supporta anche carichi di lavoro aggiuntivi per **intelligenza artificiale**, **flussi di dati** e **report impaginati**. Per consentire a questi carichi di lavoro di usare le risorse della capacità, è necessario abilitarli nel portale di amministrazione di Power BI o tramite l'API REST di Power BI. Ogni carico di lavoro ha impostazioni predefinite per la quantità massima di memoria che ogni carico di lavoro può utilizzare. È tuttavia possibile configurare impostazioni di utilizzo della memoria diverse per determinare quanto i carichi di lavoro interferiscono tra loro e come utilizzano le risorse della capacità. Per altre informazioni, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 
 ## <a name="power-bi-report-server"></a>Server di report di Power BI
 

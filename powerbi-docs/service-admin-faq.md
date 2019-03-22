@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430282"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980428"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -84,7 +84,7 @@ Esistono tre possibili scenari:
 
 Questa è la procedura che un amministratore può eseguire per impedire agli utenti di aggiungersi al tenant di Office 365 esistente. Se si blocca l'accesso, i tentativi di iscrizione degli utenti hanno esito negativo e gli utenti vengono invitati a contattare l'amministratore dell'organizzazione. Non è necessario ripetere questa procedura se è già stata disabilitata la distribuzione automatica delle licenze (ad esempio tramite Office 365 Education per studenti, docenti e istituti di istruzione).
 
-Usare lo script di PowerShell seguente per impedire ai nuovi utenti di aggiungersi a un tenant gestito. [Altre informazioni su PowerShell](#basic-powershell-information)
+Usare lo script di PowerShell seguente per impedire ai nuovi utenti di aggiungersi a un tenant gestito. [Altre informazioni su PowerShell][1].
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>Come si può consentire agli utenti di aggiungersi al tenant esistente di Office 365?
 
-Usare lo script di PowerShell seguente per consentire ai nuovi utenti di aggiungersi a un tenant gestito. [Altre informazioni su PowerShell](#basic-powershell-information)
+Usare lo script di PowerShell seguente per consentire ai nuovi utenti di aggiungersi a un tenant gestito. [Altre informazioni su PowerShell][1].
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>Come si verifica se è attivato il blocco nel tenant?
 
-Usare lo script di PowerShell seguente per verificare le impostazioni. *AllowEmailVerifiedUsers* deve essere false. [Altre informazioni su PowerShell](#basic-powershell-information)
+Usare lo script di PowerShell seguente per verificare le impostazioni. *AllowEmailVerifiedUsers* deve essere false. [Altre informazioni su PowerShell][1].
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 L'impostazione di Azure AD che controlla questa operazione è **AllowAdHocSubscriptions**. Per la maggior parte dei tenant questa opzione è true, ovvero abilitata. Se Power BI è stato acquistato tramite un partner, l'impostazione potrebbe essere false, ovvero disabilitata.
 
-Usare lo script di PowerShell seguente per disabilitare le sottoscrizioni ad hoc. [Altre informazioni su PowerShell](#basic-powershell-information)
+Usare lo script di PowerShell seguente per disabilitare le sottoscrizioni ad hoc. [Altre informazioni su PowerShell][1].
 
 1. Accedere ad Azure Active Directory usando le credenziali di Office 365. La prima riga dello script PowerShell seguente richiede le credenziali. La seconda riga si connette ad Azure Active Directory.
 
@@ -270,3 +270,5 @@ Power BI è basato su Office 365, che a sua volta è basato su servizi di Azure 
 [Gestione dei gruppi in Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

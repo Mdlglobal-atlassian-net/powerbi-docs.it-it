@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 24701392b6cfa3400ed96be8a496791d250204d5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291166"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980405"
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
@@ -56,7 +56,7 @@ I log di controllo di Power BI sono disponibili direttamente tramite il [Centro 
 
 ## <a name="search-only-power-bi-activities"></a>Eseguire solo la ricerca delle attività di Power BI
 
-Limitare i risultati alle sole attività di Power BI seguendo questa procedura. Per un elenco delle attività, vedere l'[elenco delle attività controllate da Power BI](#list-of-activities-audited-by-power-bi) più avanti in questo articolo.
+Limitare i risultati alle sole attività di Power BI seguendo questa procedura. Per un elenco delle attività, vedere l'elenco delle [attività controllate da Power BI](#activities-audited-by-power-bi) più avanti in questo articolo.
 
 1. Nella pagina **Ricerca dei registri di controllo** selezionare l'elenco a discesa delle **Attività** in **Cerca**.
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580244"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964756"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Condividere i dashboard e i report di Power BI con i colleghi e con altri utenti
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Power BI offre anche [diversi altri modi per collaborare a dashboard e report e distribuirli](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -38,12 +38,18 @@ Il video seguente mostra come condividere il dashboard con i colleghi all'intern
 
 1. In un elenco di dashboard o report o in un dashboard o report aperto, selezionare **Condividi** ![Icona Condividi](media/service-share-dashboards/power-bi-share-icon.png).
 
-1. Nella casella superiore, immettere gli indirizzi di posta elettronica completi di singoli utenti, gruppi di distribuzione o gruppi di sicurezza. Non è possibile condividere con le liste di distribuzione dinamiche. 
+2. Nella casella superiore, immettere gli indirizzi di posta elettronica completi di singoli utenti, gruppi di distribuzione o gruppi di sicurezza. Non è possibile condividere con le liste di distribuzione dinamiche. 
    
    È possibile condividere con utenti con indirizzi esterni all'organizzazione, ma verrà visualizzato un avviso.
    
    ![Avviso relativo alla condivisione esterna](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >La casella di input supporta un massimo di 100 utenti o gruppi. Se occorre condividere con un numero elevato di utenti, è possibile condividere più volte o condividere con un gruppo di utenti.
+   > 
+   > 
+
+
 3. Aggiungere un messaggio, se si vuole. È facoltativo.
 4. Per consentire ai colleghi di condividere a loro volta il contenuto con altri utenti, selezionare **Consenti ai destinatari di condividere il dashboard/report**.
    
@@ -119,6 +125,7 @@ Aspetti da tenere presenti per la condivisione di dashboard e report:
 * I colleghi con lo stesso dominio di posta elettronica dell'utente e quelli che usano un dominio diverso ma registrato nel medesimo tenant possono condividere il dashboard con altri utenti. Si supponga ad esempio che i domini contoso.com e contoso2.com siano stati registrati nello stesso tenant. Se l'indirizzo di posta elettronica è konrads@contoso.com, allora sia ravali@contoso.com che gustav@contoso2.com possono condividere il dashboard, purché abbiano l'autorizzazione alla condivisione.
 * Se i colleghi hanno già accesso a un dashboard o a un report specifico, è possibile inviare un collegamento diretto semplicemente copiandone l'URL quando ci si trova al suo interno. Ad esempio: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Analogamente, se i colleghi possono già accedere a un dashboard specifico, è possibile [inviare un collegamento diretto al report sottostante](service-share-reports.md). 
+* È possibile condividere con un massimo di 100 utenti o gruppi in una singola azione di condivisione. Si può però consentire l'accesso a un elemento a più di 500 utenti. A questo scopo è possibile condividere più volte specificando gli utenti singolarmente o condividere con un gruppo di utenti che contiene tutti gli utenti.
 
 ## <a name="troubleshoot-sharing"></a>Risolvere i problemi di condivisione
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277803"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220955"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Uso delle entità calcolate in Power BI Premium (anteprima)
 
@@ -79,7 +79,9 @@ La procedura è completata: la trasformazione viene eseguita sui dati nel flusso
 
 Quando si usano flussi di dati creati in modo specifico in un account di Azure Data Lake Storage Gen2 dell'organizzazione, le entità collegate e calcolate funzionano correttamente solo quando risiedono nello stesso account di archiviazione. Per altre informazioni, vedere [Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 
-Le entità collegate, inoltre, non sono disponibili per i flussi di dati creati dalle cartelle CDM. Vedere [Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)](service-dataflows-add-cdm-folder.md).
+Le entità collegate non sono disponibili per i flussi di dati creati dalle cartelle CDM (Common Data Model). Per altre informazioni, vedere [Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)](service-dataflows-add-cdm-folder.md).
+
+Quando si eseguono calcoli su dati uniti da origini dati locali e cloud, è consigliabile creare una nuova entità per eseguire tali calcoli. Ciò offre un'esperienza migliore rispetto all'uso di un'entità esistente per i calcoli, ad esempio un'entità che esegue anche query sui dati di entrambe le origini ed esegue trasformazioni in Data Lake.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

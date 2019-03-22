@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430305"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174937"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorare le metriche di utilizzo per dashboard e report di Power BI
 
@@ -47,7 +47,7 @@ Quando si seleziona **Metriche di utilizzo** o l'icona ![Icona Metriche di utili
 
 Le metriche di utilizzo non vengono visualizzate in **Recenti**, **Aree di lavoro**, **Preferiti** o in altri elenchi di contenuti. Non possono essere aggiunte a un'app. Se si aggiunge un titolo di un rapporto sulle metriche di utilizzo a un dashboard, non è possibile aggiungere il dashboard a un pacchetto di app o contenuti.
 
-Per esaminare in dettaglio i dati del report o creare report personali basati sul set di dati, usare **Salva con nome** (vedere [Salvare il report Metriche di utilizzo come un report Power BI con tutte le funzionalità)](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
+Per esaminare in dettaglio i dati del report o creare report personali basati sul set di dati, usare **Salva con nome** (vedere [Salvare il report Metriche di utilizzo come un report Power BI con tutte le funzionalità](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Aprire un report Metriche di utilizzo per un dashboard o report
 
@@ -95,7 +95,7 @@ Per esaminare in dettaglio i dati del report o creare report personali basati su
 
 ![Report Metriche di utilizzo del report](media/service-usage-metrics/power-bi-report-usage-metrics-update.png)
 
-## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Salvare Metriche di utilizzo come report Power BI con funzionalità complete (personalizzato)
+## <a name="save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize"></a>Salvataggio del report Metriche di utilizzo come report Power BI con funzionalità complete (personalizzato)
 
 ![Salva con nome](media/service-usage-metrics/power-bi-save-as.png)
 

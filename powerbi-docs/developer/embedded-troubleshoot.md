@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223836"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174822"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Risolvere i problemi dell'applicazione incorporata
 
@@ -290,7 +290,7 @@ Quando si esegue l'app di esempio **Incorporare per l'organizzazione**, viene vi
 
 L'errore si verifica perché l'URL di reindirizzamento specificato per il server Web dell'applicazione è diverso dall'URL dell'esempio. Se si vuole registrare l'applicazione di esempio, usare `http://localhost:13526/` come URL di reindirizzamento.
 
-Se si vuole modificare l'applicazione registrata, vedere le istruzioni per la modifica dell'[applicazione registrata con AAD ](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), in modo che l'applicazione possa consentire l'accesso alle API Web.
+Se si vuole modificare l'applicazione registrata, leggere le informazioni su come [aggiornare l'applicazione registrata con Azure AD ](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) in modo che l'applicazione possa consentire l'accesso alle API Web.
 
 Se vuole modificare il profilo utente o i dati di Power BI, vedere come modificare i [dati di Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 

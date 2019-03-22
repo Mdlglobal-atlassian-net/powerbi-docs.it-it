@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 69dff32b81037765f809609562c6a30edaa19d85
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488971"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58052241"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definire i ruoli e le regole in Power BI Desktop
 È possibile definire i ruoli e le regole in Power BI Desktop. Quando si esegue la pubblicazione in Power BI vengono pubblicate anche le definizioni dei ruoli.
@@ -29,7 +29,7 @@ Per definire i ruoli di sicurezza, seguire questa procedura.
 7. Immettere le espressioni DAX. Questa espressione deve restituire true o false. Ad esempio: [Entity ID] = "Valore".
    
    > [!NOTE]
-   > È possibile usare *username()* in questa espressione. Si noti che *username()* ha il formato *DOMINIO\nomeutente* in Power BI Desktop. Nel servizio Power BI e nel server di report di Power BI ha il formato del Nome entità utente (UPN) dell'utente stesso. In alternativa è possibile usare *userprincipalname()*, che restituisce sempre l'utente nel formato nome dell'entità utente, *username@contoso.com*.
+   > È possibile usare *username()* in questa espressione. Si noti che *username()* ha il formato *DOMINIO\nomeutente* in Power BI Desktop. Nel servizio Power BI e nel server di report di Power BI ha il formato del Nome entità utente (UPN) dell'utente stesso. In alternativa è possibile usare *userprincipalname()*, che restituisce sempre l'utente nel formato del nome dell'entità utente, *nomeutente\@contoso.com*.
    > 
    > 
    

@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/25/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 032fae40a7e2328879ba01b6d94c3c532369b3ab
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826676"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174914"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorare le capacità Premium con l'app
 
@@ -68,7 +68,7 @@ Il dashboard include le metriche seguenti:
 | --- | --- |
 | Version | Versione dell'app. | 
 | Capacities | Numero di capacità per cui si è amministratori. | 
-| Workspaces | Numero di aree di lavoro nelle capacità che segnalano metriche.|
+| Aree di lavoro | Numero di aree di lavoro nelle capacità che segnalano metriche.|
 |||
 
 #### <a name="system-summary"></a>System Summary
@@ -97,7 +97,7 @@ Il dashboard include le metriche seguenti:
 | DirectQuery/Live High Utilization Count| Numero di volte per il quale le connessioni DirectQuery/dinamiche hanno superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti. |
 | DirectQuery/Live Max Utilization Count| Numero massimo di volte per il quale le connessioni DirectQuery/dinamiche hanno superato l'80% negli ultimi sette giorni, suddiviso in bucket di un'ora. |
 | DirectQuery/Live Max High Utilization | Numero massimo di volte in cui le connessioni DirectQuery/dinamiche hanno superato l'80% delle soglie negli ultimi sette giorni, suddiviso in bucket di tre minuti.|
-| DirectQuery/Live Max Occurred Time | Ora locale in cui le connessioni DirectQuery/dinamiche hanno superato l'80% per il numero massimo di volte in un'ora. |
+| DirectQuery/Live Max Occurred Time | Ora in UTC in cui le connessioni DirectQuery/dinamiche hanno superato l'80% la maggior parte delle volte in un'ora. |
 | Refreshes Total | Numero totale di aggiornamenti negli ultimi sette giorni. |
 | Refresh Reliability (%) | Numero di aggiornamenti con esito positivo, diviso per il numero totale di aggiornamenti negli ultimi sette giorni. |
 | Refreshes Average Duration (Minutes) | Quantità media di tempo per completare l'aggiornamento. |
@@ -162,8 +162,8 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Refreshes |  Total Count (Conteggio totale): aggiornamenti totali per ogni set di dati.<br>  Reliability (Affidabilità): percentuale di aggiornamenti completati per ogni set di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il set di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il set di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il set di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il set di dati, espressa in minuti. |
 | Top 5 Datasets by Average Duration (minutes) |  I cinque set di dati con la durata media dell'aggiornamento più lunga, espressa in minuti. |
 | Top 5 Datasets by Average Wait Time (minutes) |  I cinque set di dati con il tempo di attesa medio dell'aggiornamento più lungo, espresso in minuti. |
-| Hourly Refresh Count and Memory Consumption (GB) |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora locale. |
-| Hourly Average Refresh Wait Times (minutes) |  Tempo di attesa medio degli aggiornamenti, suddiviso in bucket di un'ora, indicato nell'ora locale. La presenza di più picchi con tempi di attesa degli aggiornamenti elevati è indicativa di un livello di utilizzo molto alto della capacità. |
+| Hourly Refresh Count and Memory Consumption (GB) |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
+| Hourly Average Refresh Wait Times (minutes) |  Tempo di attesa medio degli aggiornamenti, suddiviso in bucket di un'ora, indicato nell'ora UTC. La presenza di più picchi con tempi di attesa degli aggiornamenti elevati è indicativa di un livello di utilizzo molto alto della capacità. |
 |  |  |
 
 #### <a name="query-durations-area"></a>Area Query Durations (Durate query)
@@ -173,8 +173,8 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Query Durations |  I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni.<br>  Totale: numero totale di query eseguite per il set di dati.<br>  Media: durata media della query per il set di dati, espressa in millisecondi<br>  Max (Massima): durata della query con esecuzione più prolungata nel set di dati, espressa in millisecondi.|
 | Query Duration Distribution |  L'istogramma delle durate delle query è suddiviso in bucket in base alle durate delle query (in millisecondi) nelle categorie seguenti: <= 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 sec, 1 sec-3 sec, 3 sec-10 sec, 10 sec-30 sec e intervalli maggiori di 30 secondi. Una durata notevole delle query e tempi di attesa lunghi sono indicativi di un livello di utilizzo molto alto della capacità. Questi sintomi possono indicare anche che il problema è causato da un unico set di dati e che è necessario indagarne le cause. |
 | Top 5 Datasets by Average Duration |  I cinque set di dati con la durata media della query più lunga, espressa in millisecondi. |
-| Hourly Query Duration Distributions |  Numero delle query e durata media (in millisecondi) rispetto al consumo di memoria in GB, suddivisi in bucket di un'ora, indicati nell'ora locale. |
-| DirectQuery / Live Connections (> 80% Utilization) |  Numero di volte per il quale una connessione DirectQuery o dinamica ha superato l'80% di utilizzo della CPU, suddiviso in bucket di un'ora, indicato nell'ora locale. |
+| Hourly Query Duration Distributions |  Numero delle query e durata media (in millisecondi) rispetto al consumo di memoria in GB, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
+| DirectQuery / Live Connections (> 80% Utilization) |  Numero di volte in cui una connessione DirectQuery o dinamica ha superato l'80% di utilizzo della CPU, suddiviso in bucket di un'ora, indicato nell'ora UTC. |
 |  |  |
 
 #### <a name="query-waits-area"></a>Area Query Waits (Attese query)
@@ -184,7 +184,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Query Wait Times |  I dati di questa sezione sono sezionati in base a set di dati, area di lavoro e bucket orari negli ultimi sette giorni.<br>  Totale: numero totale di query eseguite per il set di dati.<br>  Wait Count (Conteggio di attesa): numero di query nel set di dati in attesa nelle risorse di sistema prima di avviare l'esecuzione.<br>  Media: tempo di attesa medio della query per il set di dati, espresso in millisecondi.<br>  Max (Massima): durata della query con attesa più prolungata nel set di dati, espressa in millisecondi.|
 | Top 5 Datasets by Average Wait Time |  I cinque set di dati con il tempo di attesa medio più lungo prima dell'avvio dell'esecuzione di una query, espresso in millisecondi. |
 | Wait Time Distributions |  L'istogramma di durata delle query è suddiviso in bucket in base alle durate delle query (in millisecondi) nelle categorie seguenti: <= 50 ms, 50-100 ms, 100-200 ms, 200-400 ms, 400 ms-1 sec, 1 sec-5 sec e intervalli di più di 5 secondi. |
-| Hourly Query Wait Time Distributions |  Numero di query in attesa e tempo medio di attesa (in millisecondi) rispetto al consumo di memoria in GB. Questi dati sono suddivisi in bucket di un'ora e sono indicati nell'ora locale. |
+| Hourly Query Wait Time Distributions |  Numero di query in attesa e tempo medio di attesa (in millisecondi) rispetto al consumo di memoria in GB, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
 |  |  |
 
 #### <a name="datasets-area"></a>Area Datasets (Set di dati)
@@ -193,8 +193,8 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | --- | --- |
 | Dimensioni dei set di dati  |  Max size (Dimensioni massime): dimensioni massime del set di dati in MB per il periodo visualizzato. |
 | Dataset Eviction Counts |  Totale: numero totale di *rimozioni* di set di dati per ogni capacità. Quando la capacità rileva un utilizzo elevato della memoria, il nodo rimuove uno o più set di dati dalla memoria. I set di dati inattivi (senza operazioni di query/aggiornamento in esecuzione) vengono rimossi per primi. Poi l'ordine di rimozione si basa sul principio LRU ("utilizzati meno di recente").|
-| Hourly Loaded Dataset Counts |  Numero dei set di dati caricati in memoria rispetto all'utilizzo della memoria in GB, suddiviso in bucket di un'ora, indicato nell'ora locale. |
-| Hourly Dataset Evictions and Memory Consumption |  Rimozioni di set di dati rispetto all'utilizzo della memoria in GB, suddivise in bucket di un'ora, indicate nell'ora locale. |
+| Hourly Loaded Dataset Counts |  Numero dei set di dati caricati in memoria rispetto all'utilizzo della memoria in GB, suddiviso in bucket di un'ora, indicato nell'ora UTC. |
+| Hourly Dataset Evictions and Memory Consumption |  Rimozioni di set di dati rispetto all'utilizzo della memoria in GB, suddivise in bucket di un'ora, indicate nell'ora UTC. |
 | Consumed Memory Percentages |  Set di dati attivi totali in memoria come percentuale della memoria totale. Il valore differenziale tra Active (Attivi) e All (Tutti) definisce i set di dati che possono essere eliminati. Visualizzazione su base oraria per i sette giorni precedenti. |
 |  |  |
 
@@ -205,8 +205,8 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Overall usage |  Total Views (Visualizzazioni totali): numero di volte in cui il report è stato visualizzato dagli utenti.<br>  Row Count (Conteggio righe): numero di righe di dati nel report.<br>  Retrieval (avg) (Recupero - Media): tempo medio necessario per recuperare i dati per il report, espresso in millisecondi. Durate prolungate possono indicare query lente o altri problemi relativi all'origine dati. <br>  Processing (avg) (Elaborazione - Media): tempo medio necessario per elaborare i dati per un report, espresso in millisecondi.<br> Rendering (avg) (Rendering - Media): tempo medio necessario per eseguire il rendering di un report nel browser, espresso in millisecondi.<br>  Total time (Tempo totale): tempo necessario per tutte le fasi del report, espresso in millisecondi. |
 | Top 5 Reports by Average Data Retrieval Time |  I cinque report con il tempo medio di recupero dati più elevato, espresso in millisecondi. |
 | Top 5 Reports by Average Report Processing Time |  I cinque report con il tempo medio di elaborazione report più elevato, espresso in millisecondi. |
-| Hourly Results |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora locale. |
-| Hourly Durations |  Tempo di recupero dati rispetto al tempo di elaborazione e di rendering, suddiviso in bucket di un'ora, indicato nell'ora locale. |
+| Hourly Results |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
+| Hourly Durations |  Tempo di recupero dati rispetto al tempo di elaborazione e di rendering, suddiviso in bucket di un'ora, indicato nell'ora UTC. |
 |  |  |
 
 ### <a name="dataflows"></a>Dataflows
@@ -216,8 +216,8 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Refreshes |  Totale: aggiornamenti totali per ogni flusso di dati.<br>  Reliability (Affidabilità): percentuale di aggiornamenti completati per ogni flusso di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il flusso di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il flusso di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il flusso di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il flusso di dati, espressa in minuti. |
 | Top 5 dataflows by Average Refresh Duration |  I cinque flussi di dati con la durata media dell'aggiornamento più lunga, espressa in minuti. |
 | Top 5 dataflows by Average Wait Time |  I cinque flussi di dati con il tempo di attesa medio dell'aggiornamento più lungo, espresso in minuti. |
-| Hourly Average Refresh Wait Times |  Tempo di attesa medio degli aggiornamenti, suddiviso in bucket di un'ora, indicato nell'ora locale. La presenza di più picchi con tempi di attesa degli aggiornamenti elevati è indicativa di un livello di utilizzo molto alto della capacità. |
-| Hourly Refresh Count and Memory Consumption |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora locale. |
+| Hourly Average Refresh Wait Times |  Tempo di attesa medio degli aggiornamenti, suddiviso in bucket di un'ora, indicato nell'ora UTC. La presenza di più picchi con tempi di attesa degli aggiornamenti elevati è indicativa di un livello di utilizzo molto alto della capacità. |
+| Hourly Refresh Count and Memory Consumption |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
 |  |  |
 
 ### <a name="resource-consumption"></a>Resource Consumption
@@ -244,7 +244,7 @@ La scheda **IDs and Info** (ID e informazioni) contiene aree per **Capacities** 
 
 | Sezione del report | Metrica |
 | --- | --- |
-| Workspaces | Nomi e ID per tutte le aree di lavoro. |
+| Aree di lavoro | Nomi e ID per tutte le aree di lavoro. |
 |||
 
 #### <a name="datasets-area"></a>Area Datasets (Set di dati)
