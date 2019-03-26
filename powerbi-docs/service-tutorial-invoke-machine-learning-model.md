@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 54515259d0e258284cd5a2e86432a5ef6be89a9e
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
+ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965963"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430324"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Esercitazione: Richiamare un modello di Machine Learning Studio in Power BI (anteprima)
 
@@ -92,7 +92,7 @@ Nella schermata successiva viene chiesto di connettersi a un'origine dati. Incol
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
 
-!Connect to data source](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
+![Connetti a origine dati](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 
 L'editor di Power Query mostra un'anteprima dei dati del file CSV. Selezionare **Trasforma tabella** sulla barra multifunzione e quindi selezionare **Usa la prima riga come intestazione**.  Viene aggiunto il passaggio di query _Intestazioni alzate di livello_ nel riquadro **Passaggi applicati** sulla destra. Si può anche rinominare la query assegnandole un nome più intuitivo, come _Automobile Pricing_, usando il riquadro a destra.
 
@@ -137,7 +137,7 @@ Selezionando l'icona **Modifica** viene aperto l'editor di Power Query per le en
 
 Selezionare il pulsante **Informazioni dettagliate sull'intelligenza artificiale** sulla barra multifunzione e quindi selezionare la cartella _Azure Machine Learning Models_ (Modelli di Azure Machine Learning) nel menu di spostamento a sinistra.
 
-Selezionare la cartella **Azure Machine Learning Models** (Modelli di Azure Machine Learning). I modelli di Azure Machine Learning per i quali è stato concesso l'accesso sono elencati come funzioni di Power Query con il prefisso *AzureML.*  Quando si fa clic sulla funzione corrispondente al modello _AutomobilePricePrediction_, i parametri del servizio Web del modello vengono elencati come parametri della funzione.
+I modelli di Azure Machine Learning per i quali è stato concesso l'accesso sono elencati come funzioni di Power Query con il prefisso *AzureML.*  Quando si fa clic sulla funzione corrispondente al modello _AutomobilePricePrediction_, i parametri del servizio Web del modello vengono elencati come parametri della funzione.
 
 Per richiamare un modello di Azure Machine Learning è possibile specificare una qualsiasi delle colonne dell'entità selezionata come input dall'elenco a discesa. Si può anche specificare un valore di costante da usare come input attivando l'icona della colonna a sinistra della finestra di dialogo di input. Quando un nome di colonna corrisponde a uno dei nomi dei parametri della funzione, la colonna viene automaticamente suggerita come input.  Se il nome di colonna non corrisponde, è possibile selezionarlo dall'elenco a discesa.
 

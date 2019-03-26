@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226113"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383361"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos basato sulle risorse per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -23,7 +23,7 @@ Usare la [delega vincolata Kerberos basata sulle risorse](/windows-server/securi
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Preparazione della delega vincolata Kerberos basata sulle risorse
 
-Per il corretto funzionamento della delega vincolata Kerberos, è necessario configurare numerosi elementi, ad esempio i _nomi delle entità servizio_ e le impostazioni di delega negli account del servizio.
+Per il corretto funzionamento della delega vincolata Kerberos, è necessario configurare numerosi elementi, ad esempio i _nomi delle entità servizio_ e le impostazioni di delega negli account del servizio. 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>Prerequisito 1: requisiti del sistema operativo
 
@@ -105,8 +105,8 @@ In base a questi nomi e impostazioni, usare la procedura di configurazione segue
 1. Aprire il prompt dei comandi ed eseguire i comandi seguenti nel controller di dominio per il dominio **PBIEgwTestBack-end** per aggiornare l'attributo msDS-AllowedToActOnBehalfOfOtherIdentity dell'account del servizio back-end:
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. È possibile verificare che l'aggiornamento viene rispecchiato nella scheda "Editor attributi" nelle proprietà per l'account del servizio back-end in **Utenti e computer di Active Directory**.
