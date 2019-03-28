@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 54bdc0cb3490cf2149f2fda51939c201cd51518f
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980428"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383440"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -60,7 +60,7 @@ Alcune delle procedure di questa sezione richiedono gli script di Windows PowerS
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>In che modo gli utenti si iscrivono a Power BI?
 
-Un amministratore può iscriversi a Power BI tramite il [sito Web di Power BI](https://powerbi.microsoft.com) o la pagina per l'[acquisto dei servizi](https://admin.microsoft.com/AdminPortal/Home#/catalog) nell'interfaccia di amministrazione di Office 365. Quando un amministratore si iscrive a Power BI, può poi assegnare le licenze utente agli utenti che devono avere accesso al servizio.
+Un amministratore può iscriversi a Power BI tramite il [sito Web Power BI](https://powerbi.microsoft.com) o la pagina [Acquisto di servizi](https://admin.microsoft.com/AdminPortal/Home#/catalog) nell'interfaccia di amministrazione di Microsoft 365. Quando un amministratore si iscrive a Power BI, può poi assegnare le licenze utente agli utenti che devono avere accesso al servizio.
 
 Anche i singoli utenti dell'organizzazione potrebbero essere in grado di iscriversi a Power BI tramite il [sito web di Power BI](https://powerbi.microsoft.com). Agli utenti dell'organizzazione che si iscrivono Power BI viene assegnata automaticamente una licenza di Power BI. Per altre informazioni, vedere [Iscrizione a Power BI come utente singolo](service-self-service-signup-for-power-bi.md) e [Gestione delle licenze di Power BI nell'organizzazione](service-admin-licensing-organization.md).
 
@@ -169,7 +169,7 @@ Esistono tre possibili scenari:
 
 ### <a name="how-do-we-manage-power-bi"></a>Come si gestisce Power BI?
 
-Power BI offre un portale di amministrazione che consente di visualizzare le statistiche di utilizzo, fornisce un collegamento all'interfaccia di amministrazione di Office 365 per gestire utenti e gruppi e offre la possibilità di controllare le impostazioni a livello di tenant.
+Power BI offre un portale di amministrazione che consente di visualizzare le statistiche di utilizzo, fornisce un collegamento all'interfaccia di amministrazione di Microsoft 365 per gestire utenti e gruppi e offre la possibilità di controllare le impostazioni a livello di tenant.
 
 Per accedere al portale di amministrazione di Power BI, l'account deve essere contrassegnato come **Amministratore globale** in Office 365 o in Azure Active Directory o avere ricevuto il ruolo di amministratore del servizio Power BI. Per altre informazioni, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md) e [Portale di amministrazione di Power BI](service-admin-portal.md).
 
@@ -196,7 +196,7 @@ Se non si esegue alcuna operazione, viene creato un tenant per ogni dominio e so
 
 Se un utente ha effettuato l'iscrizione a Power BI ma non si vuole più consentirgli di accedere al servizio, è possibile rimuovere la licenza di Power BI di tale utente.
 
-1. Accedere all'[interfaccia di amministrazione di Office 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Passare all'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Nella barra di spostamento a sinistra selezionare **Utenti** > **Utenti attivi**.
 
@@ -214,7 +214,7 @@ Se un utente ha effettuato l'iscrizione a Power BI ma non si vuole più consenti
 
 Ai nuovi utenti che si aggiungono al tenant nell'ambito di questo programma viene assegnata una licenza univoca che è possibile filtrare nel riquadro degli utenti attivi del dashboard di amministrazione. Per creare questa nuova visualizzazione, seguire questi passaggi.
 
-1. Accedere all'[interfaccia di amministrazione di Office 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Passare all'[interfaccia di amministrazione di Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. Nella barra di spostamento a sinistra selezionare **Utenti** > **Utenti attivi**.
 
@@ -232,7 +232,7 @@ Ai nuovi utenti che si aggiungono al tenant nell'ambito di questo programma vien
 
 Si potrebbe riscontrare un aumento di richieste di reimpostazione delle password. Per informazioni su questo processo, vedere [Reimpostare la password di un utente](/office365/admin/add-users/reset-passwords).
 
-È possibile rimuovere un utente dal tenant tramite il processo standard nell'interfaccia di amministrazione di Office 365. Se tuttavia l'utente ha ancora un indirizzo di posta elettronica attivo dell'organizzazione, può aggiungersi di nuovo, a meno che non si impedisca a tutti gli utenti di aggiungersi.
+È possibile rimuovere un utente dal tenant tramite il processo standard nell'interfaccia di amministrazione di Microsoft 365. Se tuttavia l'utente ha ancora un indirizzo di posta elettronica attivo dell'organizzazione, può aggiungersi di nuovo, a meno che non si impedisca a tutti gli utenti di aggiungersi.
 
 ### <a name="where-is-my-power-bi-tenant-located"></a>Dove si trova il tenant di Power BI?
 

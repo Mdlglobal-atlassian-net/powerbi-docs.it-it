@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325015"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383417"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
 Gli utenti dell'organizzazione possono accedere ai dati locali (per i quali hanno già l'autorizzazione di accesso), ma prima che possano connettersi all'origine dati locale, è necessario installare e configurare un gateway dati locale. Il gateway facilita consente una comunicazione "dietro le quinte" rapida e sicura tra un utente nel cloud e l'origine dati locale e viceversa.
@@ -77,7 +77,7 @@ I servizi cloud rilevano solo gli account in Azure Active Directory. Anche se è
 
 1. È possibile aggiungere manualmente account in Azure Active Directory.
    
-   È possibile creare un account nel portale di Azure o nel portale di amministrazione di Office 365 e il nome dell'account corrisponde l'UPN dell'account Active Directory locale.
+   È possibile creare un account nel portale di Azure o nell'interfaccia di amministrazione di Microsoft 365. Il nome dell'account corrisponde all'UPN dell'account Active Directory locale.
 2. È possibile usare lo strumento [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) per sincronizzare gli account locali al tenant di Azure Active Directory.
    
    Lo strumento Azure AD Connect offre opzioni per sincronizzare le directory e configurare l'autenticazione, incluse la sincronizzazione degli hash delle password, l'autenticazione pass-through e la federazione. Se non si è un amministratore tenant o un amministratore di dominio locale, è necessario contattare l'amministratore IT per ottenere questa configurazione.

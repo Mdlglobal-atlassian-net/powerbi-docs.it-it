@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 35efd62e6f00edd9ce6b58774dd73925a721dec5
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661929"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306482"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 Con Power BI, è possibile pubblicare il report in formato PDF e creare facilmente un documento basato su un report di Power BI. Quando si **esporta in formato PDF** ogni pagina del report di Power BI diventa una singola pagina del documento PDF.
@@ -64,7 +64,7 @@ Quando si lavora con la funzionalità **Esporta in PDF** è necessario tenere pr
 
 * Se si condivide un dashboard con un utente esterno all'organizzazione, quindi con un utente non incluso nel tenant di Power BI, tale utente non potrà esportare i report associati del dashboard condiviso in PDF. Se, ad esempio, si è aaron@contoso.com, è possibile condividere con cassie@cohowinery.com, ma cassie@cohowinery.com non può esportare i report associati in PDF.
 
-* Durante l'esportazione in formato PDF con report che contengono un'immagine di sfondo, si potrebbe vedere un'immagine distorta nell'esportazione se si usa l'opzione "Adatta" per lo sfondo della pagina.  Per ottenere risultati ottimali, è consigliabile usare le opzioni "Normale" o "Riempi" per evitare problemi con il documento esportato.
+* Durante l'esportazione in formato PDF con report che contengono un'immagine di sfondo, si potrebbe vedere un'immagine distorta nell'esportazione se si usa l'opzione "Normale" o "Riempimento" per lo sfondo della pagina.  Per ottenere risultati ottimali, è consigliabile usare l'opzione "Adatta" per evitare problemi con il documento esportato.
 
 * Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PDF. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio  **Impostazioni** > **Generali** > **Lingua**.
 

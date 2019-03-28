@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430222"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383239"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Gestione delle licenze di Power BI nell'organizzazione
 
@@ -35,7 +35,7 @@ L'amministratore può acquistare e assegnare le licenze Power BI Pro e iscrivers
 
 I singoli utenti dell'organizzazione possono iscriversi a una versione di valutazione di Power BI Pro. Per altre informazioni, vedere [Iscrizione a Power BI come utente singolo](service-self-service-signup-for-power-bi.md).
 
-Gli utenti che usano questa versione di valutazione di Power BI Pro del prodotto non vengono visualizzati nel portale di amministrazione di Office 365 come utenti della versione di valutazione Power BI Pro (vengono visualizzati come utenti gratuiti di Power BI). Verranno tuttavia visualizzati come utenti della versione di valutazione di Power BI Pro nella pagina Gestisci archiviazione di Power BI.
+Gli utenti che usano la versione di valutazione di Power BI Pro inclusa nel prodotto non vengono visualizzati nell'interfaccia di amministrazione di Microsoft 365 come utenti della versione di valutazione Power BI Pro, ma come utenti del piano gratuito di Power BI. Verranno tuttavia visualizzati come utenti della versione di valutazione di Power BI Pro nella pagina Gestisci archiviazione di Power BI.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Versione di valutazione di Power BI Pro per le organizzazioni
 
@@ -47,7 +47,7 @@ Prima di seguire i passaggi per l'iscrizione, tenere presente quanto segue:
 
 * È previsto un limite di una versione di valutazione aziendale per ogni tenant. Ciò significa che se un utente ha già applicato Power BI Pro - Versione di valutazione al tenant, non è possibile ripetere l'operazione. Se è necessaria assistenza a tal riguardo, contattare il [supporto per la fatturazione di Office 365](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671).
 
-1. Accedere all'[interfaccia di amministrazione di Office 365](https://portal.office.com/adminportal/home#/homepage).
+1. Passare all'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
 1. Nel riquadro di spostamento a sinistra, selezionare **Fatturazione** e quindi **Sottoscrizioni**.
 
@@ -71,7 +71,7 @@ Prima di seguire i passaggi per l'iscrizione, tenere presente quanto segue:
 
 Gli utenti all'interno dell'organizzazione possono accedere alle licenze gratuite di Power BI in due modi diversi:
 
-* È possibile assegnare una licenza Power BI agli utenti all'interno del portale di amministrazione di Office 365.
+* È possibile assegnare una licenza di Power BI agli utenti all'interno dell'interfaccia di amministrazione di Microsoft 365.
 
 * Se un utente [effettua l'iscrizione a una versione di valutazione di Power BI Pro](service-self-service-signup-for-power-bi.md) e la versione di valutazione scade, viene assegnate all'utente una licenza gratuita.
 
@@ -81,7 +81,7 @@ Se si prevede di gestire centralmente le richieste e le assegnazioni delle licen
 
 Il blocco delle licenze è disponibile la prima volta in cui qualcuno tenta di iscriversi a Power BI come utente singolo. Durante questo processo, il blocco delle licenze viene associato all'organizzazione e viene assegnata una licenza all'utente che sta eseguendo l'iscrizione.
 
-1. Nell'interfaccia di amministrazione di Office 365, in **Fatturazione** > **Licenze**, verificare che sia presente **Illimitato**.
+1. Nell'interfaccia di amministrazione di Microsoft 365, in **Fatturazione** > **Licenze**, verificare che sia presente **illimitato**.
 
     ![Blocco delle licenze gratuito senza limiti](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Il blocco delle licenze è disponibile la prima volta in cui qualcuno tenta di i
 
 Se il blocco delle licenze di Power BI (gratuito) illimitato non è disponibile e non si vuole che un singolo utente esegua l'iscrizione, seguire la procedura descritta di seguito.
 
-1. Accedere all'[interfaccia di amministrazione di Office 365](https://portal.office.com/admin/default.aspx).
+1. Passare all'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/admin/default.aspx).
 
 1. Nel riquadro di spostamento a sinistra selezionare **Fatturazione** > **Abbonamenti**.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a9fa6b5e854fc51487f0a0b4feaef8650b94057
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216862"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383716"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
@@ -346,7 +346,7 @@ Oggi sono stati rilasciate molte funzionalità a grande richiesta degli utenti. 
 
 ***Portale di amministrazione***
 
-* Gestione utenti semplificata con un collegamento all'interfaccia di amministrazione di Office 365
+* Gestione utenti semplificata con un collegamento all'interfaccia di amministrazione di Microsoft 365
 * Possibilità di disabilitare la pubblicazione sul Web
 * Impedire agli utenti di pubblicare pacchetti di contenuto per l'intera organizzazione
 * Possibilità di disabilitare la condivisione di contenuto con utenti esterni
@@ -508,7 +508,7 @@ Per tutti i dettagli, visitare il [blog di Power BI](http://blogs.msdn.com/b/pow
 * Viene fornito un nuovo sito localizzato per la documentazione di Power BI
 * Viene fornito un tempo di caricamento migliorato per i report
 * È possibile aggiornare i pacchetti di contenuto dell'organizzazione con modifiche solo di report
-* Viene fornito lo stato di integrità di Power BI nel portale di amministrazione di Office 365
+* Stato di integrità di Power BI nell'interfaccia di amministrazione di Microsoft 365
 * Vengono forniti indicatori KPI e immagini in tabelle, matrici e schede
 
 Per tutti i dettagli, visitare il [blog di Power BI](http://blogs.msdn.com/b/powerbi/archive/2015/11/11/power-bi-weekly-service-update-1110.aspx)

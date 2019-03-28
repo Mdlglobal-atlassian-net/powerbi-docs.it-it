@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964986"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430485"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
@@ -558,7 +558,7 @@ Gli aggiornamenti seguenti sono stati le novità di **Power BI Desktop** di giug
 
 ### <a name="other"></a>Altro
 
-* Selettore cloud sovrano [[video]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* Selettore di cloud nazionali [[video]](https://youtu.be/4VpGtWSrssE?t=27m45s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -2250,7 +2250,7 @@ Per altre informazioni su questo aggiornamento, guardare il video seguente:
 
 In questo aggiornamento sono state aggiunte le funzionalità seguenti:
 
--   **Nuovi connettori dati**: appFigures, Quickbooks Online, Zendesk, Github, Twilio e SweetIQ.
+-   **Nuovi connettori di dati**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio e SweetIQ.
 
 -   **Nuove trasformazioni**: estrazione di caratteri iniziali e finali o di un intervallo di caratteri da una colonna di testo, opzione per specificare il tipo di join nella finestra di dialogo Merge di query, possibilità di personalizzare lo stile della virgoletta nella finestra di dialogo Suddividi colonna in base al delimitatore.
 

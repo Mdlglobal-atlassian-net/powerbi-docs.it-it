@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: c1ca797efa2e40bf74384a1e9f2362acd26c6f8f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
+ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555652"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306505"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare SAML (Security Assertion Markup Language) per abilitare Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -27,23 +27,43 @@ Attualmente sono supportate le origini dati SAP HANA con SAML. Per altre informa
 
 Sono supportate ulteriori origini dati con [Kerberos](service-gateway-sso-kerberos.md).
 
+Si noti che per HANA è **vivamente** consigliato abilitare la crittografia prima di stabilire una connessione SSO SAML. In altre parole, è consigliabile configurare il server HANA in modo che accetti connessioni crittografate e configurare anche il gateway in modo che usi la crittografia durante la comunicazione con il server HANA. Per impostazione predefinita, il driver ODBC per HANA **non** è in grado di crittografare le asserzioni SAML e se la crittografia non è attivata, l'asserzione SAML firmata viene inviata dal gateway al server HANA "in chiaro" ed è vulnerabile all'intercettazione e al riutilizzo da parte di terze parti.
+
 ## <a name="configuring-the-gateway-and-data-source"></a>Configurazione del gateway e dell'origine dati
 
-Per usare SAML, generare innanzitutto un certificato per il provider di identità SAML, quindi eseguire il mapping di un utente di Power BI all'identità.
+Per usare SAML, è necessario stabilire una relazione di trust tra il server o i server HANA per i quali si vuole abilitare l'accesso SSO e il gateway, che funge da provider di identità (IdP) SAML in questo scenario. Esistono vari modi per stabilire questa relazione, ad esempio l'importazione del certificato x509 del provider di identità del gateway nell'archivio attendibilità del server o dei server HANA o la firma del certificato x509 del gateway da parte di un'autorità di certificazione (CA) radice attendibile per il server o i server HANA. In questa Guida viene descritto il secondo approccio, ma è possibile usarne un altro, se risulta più pratico.
 
-1. Generare un certificato. Assicurarsi di usare il nome di dominio completo del server SAP HANA quando si specifica il *nome comune*. Il certificato scade tra 365 giorni.
+Si noti anche che questa Guida usa OpenSSL come provider del servizio di crittografia del server HANA, ma è anche possibile usare la libreria di crittografia SAP (nota anche come CommonCryptoLib o sapcrypto) invece di OpenSSL per completare la procedura di configurazione in cui si stabilisce la relazione di trust. Per altre informazioni, fare riferimento alla documentazione SAP ufficiale.
 
-    ```
-    openssl req -newkey rsa:2048 -nodes -keyout samltest.key -x509 -days 365 -out samltest.crt
-    ```
+I passaggi seguenti descrivono come stabilire una relazione di trust tra un server HANA e il provider di identità del gateway tramite la firma del certificato x509 del provider di identità del gateway attraverso un'autorità di certificazione radice attendibile per il server HANA.
+
+1. Creare il certificato x509 e la chiave privata dell'autorità di certificazione radice. Per creare il certificato x509 e la chiave privata dell'autorità di certificazione radice nel formato con estensione pem:
+
+```
+openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
+```
+
+Aggiungere il certificato (ad esempio CA_Cert.pem) all'archivio attendibilità del server HANA in modo che quest'ultimo consideri attendibili tutti i certificati firmati dall'autorità di certificazione radice appena creata. È possibile trovare la posizione dell'archivio attendibilità del server HANA esaminando l'impostazione di configurazione **ssltruststore**. Se è stata seguita la documentazione SAP sulla configurazione di OpenSSL, è possibile che il server HANA consideri già attendibile un'autorità di certificazione radice che è possibile riutilizzare. Per i dettagli, vedere [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (Come configurare Open SSL tra SAP HANA Studio e SAP HANA Server). Se si vuole abilitare SSO SAML per più server HANA, assicurarsi che ogni server consideri attendibile questa autorità di certificazione radice.
+
+1. Creare il certificato x509 del provider di identità del gateway. Ad esempio, per creare una richiesta di firma del certificato (IdP_Req.pem) e una chiave privata (IdP_Key.pem) valide per un anno, eseguire il comando seguente:
+
+```
+ openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+```
+
+
+Firmare la richiesta di firma del certificato usando l'autorità di certificazione che il server o i server HANA considerano attendibile in base alla configurazione definita. Ad esempio, per firmare IdP_Req.pem usando CA_Cert.pem e CA_Key.pem (certificato e chiave dell'autorità di certificazione radice), eseguire il comando seguente:
+
+  ```
+openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
+```
+Il certificato IdP risultante sarà valido per un anno (vedere l'opzione -days). Importare ora il certificato del provider di identità in HANA Studio per creare un nuovo provider di identità SAML.
 
 1. In SAP HANA Studio fare clic con il pulsante destro del mouse sul server SAP HANA, quindi passare a **Security** (Sicurezza)  > **Open Security Console** (Apri console sicurezza)  > **SAML Identity Provider** (Provider identità SAML)  > **OpenSSL Cryptographic Library** (Libreria di crittografia OpenSSL).
 
-    È anche possibile usare la libreria di crittografia SAP (nota anche come CommonCryptoLib o sapcrypto) invece di OpenSSL per completare questa procedura di configurazione. Consultare la documentazione ufficiale di SAP per altre informazioni.
-
-1. Selezionare **Import** (Importa), passare a samltest.crt e importare il file.
-
     ![Provider di identità](media/service-gateway-sso-saml/identity-providers.png)
+
+1. Selezionare **Import** (Importa), selezionare il file IdP_Cert.pem e importarlo.
 
 1. In SAP HANA Studio selezionare la cartella **Security** (Sicurezza).
 
@@ -61,10 +81,10 @@ Per usare SAML, generare innanzitutto un certificato per il provider di identit�
 
 Dopo aver configurato il certificato e l'identità, convertire il certificato in formato pfx e configurare il computer gateway per l'uso del certificato.
 
-1. Convertire il certificato in formato pfx eseguendo il comando seguente.
+1. Convertire il certificato in formato pfx eseguendo il comando seguente. Si noti che questo comando imposta "root" come password del file pfx.
 
     ```
-    openssl pkcs12 -inkey samltest.key -in samltest.crt -export -out samltest.pfx
+    openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
 1. Copiare il file pfx nel computer gateway:

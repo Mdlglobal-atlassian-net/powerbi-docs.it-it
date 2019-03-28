@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980405"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383486"
 ---
 # <a name="using-auditing-within-your-organization"></a>Uso del controllo nell'organizzazione
 
@@ -34,7 +34,7 @@ Per accedere ai log di controllo, è necessario rispettare questi requisiti:
 
     Per consentire l'accesso al log di controllo agli account senza privilegi di amministratore, è necessario aggiungere l'utente come membro di uno di questi gruppi di ruoli. In alternativa, è possibile creare un gruppo di ruoli personalizzato nell'interfaccia di amministrazione di Exchange, assegnare il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) a questo gruppo e quindi aggiungere l'account senza privilegi di amministratore al nuovo gruppo di ruoli. Per altre informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/Exchange/permissions-exo/role-groups).
 
-    Se non è possibile accedere all'interfaccia di amministrazione di Exchange dall'interfaccia di amministrazione di Office 365, passare a https://outlook.office365.com/ecp ed eseguire l'accesso usando le credenziali personali.
+    Se non è possibile accedere all'interfaccia di amministrazione di Exchange dall'interfaccia di amministrazione di Microsoft 365, passare a https://outlook.office365.com/ecp ed eseguire l'accesso usando le credenziali personali.
 
 * Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario usare un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
@@ -50,9 +50,9 @@ I log di controllo di Power BI sono disponibili direttamente tramite il [Centro 
 
 1. Selezionare **Log di controllo**.
 
-1. Selezionare **Passa all'interfaccia di amministrazione di O365**.
+1. Selezionare **Passa all'interfaccia di amministrazione di Microsoft 365**.
 
-   ![Passa all'interfaccia di amministrazione di Office 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Passare all'interfaccia di amministrazione di Microsoft 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Eseguire solo la ricerca delle attività di Power BI
 
@@ -214,7 +214,7 @@ Le attività seguenti sono controllate da Power BI.
 | Origine dati di Power BI acquisita                   | TakeOverDatasource                          |                                          |
 | Set di dati di Power BI acquisito                        | TakeOverDataset                             |                                          |
 | Pubblicazione dell'app Power BI annullata                          | UnpublishApp                                |                                          |
-| Aggiorna impostazioni di governance delle risorse di capacità      | UpdateCapacityResourceGovernanceSettings    | Attualmente non disponibile nel portale di amministrazione di Office 365 |
+| Aggiorna impostazioni di governance delle risorse di capacità      | UpdateCapacityResourceGovernanceSettings    | Attualmente non presente nell'interfaccia di amministrazione di Microsoft 365 |
 | Amministratore della capacità aggiornato                            | UpdateCapacityAdmins                        |                                          |
 | Nome visualizzato della capacità aggiornato                     | UpdateCapacityDisplayName                   |                                          |
 | Impostazioni Power BI dell'organizzazione aggiornate          | UpdatedAdminFeatureSwitch                   |                                          |
