@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249115"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306298"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -137,6 +137,13 @@ Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di es
 | :------------------- | :------------------- |
 | Sposta lo stato attivo sul menu dell'oggetto visivo | ALT+MAIUSC+F10 |
 | Mostra i dati | ALT + MAIUSC+ F11  |
+| Accede a un oggetto visivo | CTRL + freccia DESTRA |
+| Accede a un livello | Immetti |
+| Esce da un livello o un oggetto visivo | ESC |
+| Seleziona o deseleziona il punto dati | INVIO o BARRA SPAZIATRICE |
+| Selezione multipla | CTRL + INVIO o CTRL + BARRA SPAZIATRICE |
+| Fare clic con il pulsante destro del mouse | <ul><li>Tastiera di Windows: tasto per aprire il menu di scelta rapida di Windows+F10.  La chiave di contesto di Windows è compresa tra il tasto Alt di sinistra e il tasto freccia SINISTRA</li><li>Altre tastiere: MAIUSC+F10</li></ul> |
+| Cancella selezione | CTRL + MAIUSC + C |
 
 ### <a name="pane-navigation"></a>Navigazione riquadro
 | Operazione da eseguire           | Premere                |
