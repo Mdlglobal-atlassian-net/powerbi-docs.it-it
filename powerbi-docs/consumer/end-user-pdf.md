@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c268bd370f32d2089b3b80c7cf4317df33e67280
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306482"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473730"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 Con Power BI, è possibile pubblicare il report in formato PDF e creare facilmente un documento basato su un report di Power BI. Quando si **esporta in formato PDF** ogni pagina del report di Power BI diventa una singola pagina del documento PDF.
@@ -67,6 +67,8 @@ Quando si lavora con la funzionalità **Esporta in PDF** è necessario tenere pr
 * Durante l'esportazione in formato PDF con report che contengono un'immagine di sfondo, si potrebbe vedere un'immagine distorta nell'esportazione se si usa l'opzione "Normale" o "Riempimento" per lo sfondo della pagina.  Per ottenere risultati ottimali, è consigliabile usare l'opzione "Adatta" per evitare problemi con il documento esportato.
 
 * Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PDF. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio  **Impostazioni** > **Generali** > **Lingua**.
+
+* I filtri URL non sono attualmente rispettati quando si sceglie "Valori correnti" per l'esportazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Stampare un report](end-user-print.md)
