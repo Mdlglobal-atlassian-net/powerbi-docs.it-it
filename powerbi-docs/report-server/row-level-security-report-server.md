@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226205"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489569"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Sicurezza a livello di riga (RLS) nel server di report di Power BI
 
@@ -28,11 +28,11 @@ L'impostazione della sicurezza a livello di riga con il server di report di Powe
 
 Per impostazione predefinita, i filtri per la sicurezza a livello di riga usano i filtri unidirezionali, indipendentemente dal fatto che le relazioni siano impostate come unidirezionali o bidirezionali. È possibile abilitare manualmente il filtro incrociato bidirezionale con la sicurezza a livello di riga.
 
-- Selezionare la relazione e selezionare la casella di controllo  **Applica filtro di sicurezza in entrambe le direzioni** . 
+- Selezionare la relazione e selezionare la casella di controllo **Applica filtro di sicurezza in entrambe le direzioni**. 
 
     ![Applica filtro di sicurezza](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Selezionare questa casella di controllo quando si implementa la  [sicurezza dinamica a livello di riga](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) basata sul nome utente o sull'ID di accesso. 
+Selezionare questa casella di controllo quando si implementa la [sicurezza dinamica a livello di riga](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) basata sul nome utente o sull'ID di accesso. 
 
 Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery in Power BI Desktop](../desktop-bidirectional-filtering.md) e il whitepaper tecnico [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protezione del modello semantico tabulare di BI).
 
@@ -85,7 +85,7 @@ Di seguito sono riportate le limitazioni correnti per la sicurezza a livello di 
 
 Gli utenti con report che usavano la funzione DAX username() noteranno un comportamento nuovo per cui viene restituito il Nome dell'entità utente (UPN), SALVO quando si usa DirectQuery con la sicurezza integrata.  Poiché la sicurezza a livello di riga (RLS) non viene rispettata in tale scenario, il comportamento resta invariato.
 
-È possibile definire la sicurezza a livello di riga solo per i set di dati creati con Power BI Desktop. Per abilitare la sicurezza a livello di riga per i set di dati creati con Excel, prima di tutto è necessario convertire i file in file di Power BI Desktop (con estensione pbix). Altre informazioni sulla [conversione di file di Excel](../desktop-import-excel-workbooks.md).
+È possibile definire la sicurezza a livello di riga solo per i set di dati creati con Power BI Desktop. Per abilitare la sicurezza a livello di riga per i set di dati creati con Excel, prima di tutto è necessario convertire i file in file di Power BI Desktop (con estensione pbix). Altre informazioni sulla [conversione di file di Excel](../desktop-import-excel-workbooks.md).
 
 Sono supportate solo le connessioni Estrai, Trasforma, Carica (ETL) e DirectQuery che usano le credenziali archiviate. Le connessioni dinamiche ad Analysis Services e le connessioni DirectQuery che usano l'autenticazione integrata vengono gestite nell'origine dati sottostante. 
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762146"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473845"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Creare un tenant di Azure Active Directory da usare con Power BI
 
@@ -28,7 +28,7 @@ Dopo aver creato un tenant di Azure AD, è possibile definire un'applicazione e 
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Creare un tenant di Azure Active Directory
 
-Per integrare Power BI nell'applicazione personalizzata, è necessario definire un'applicazione all'interno di Azure AD. A tale scopo, è necessario disporre di una directory all'interno di Azure AD, che sarà il tenant. Se l'organizzazione non dispone di un tenant, perché non usa Power BI oppure Office 365, [sarà necessario crearne uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). È necessario crearne uno, se non si desidera che l'applicazione si combini con il tenant dell'organizzazione, per consentire all'utente di mantenere separato ciascun elemento.
+Per integrare Power BI nell'applicazione personalizzata, è necessario definire un'applicazione all'interno di Azure AD. A tale scopo, è necessario disporre di una directory all'interno di Azure AD, che sarà il tenant. Se l'organizzazione non dispone di un tenant perché non usa Power BI o Office 365, [è necessario crearne uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). È necessario crearne uno, se non si desidera che l'applicazione si combini con il tenant dell'organizzazione, per consentire all'utente di mantenere separato ciascun elemento.
 
 In alternativa, è possibile creare un tenant a scopo di test.
 

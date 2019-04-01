@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014301"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473799"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Esportare report da Power BI in PowerPoint
 Con Power BI, è possibile pubblicare il report in **Microsoft PowerPoint** e creare facilmente una presentazione basata su un report di Power BI. Quando si **esporta in PowerPoint**, si verifica quanto segue:
 
 * Ogni pagina del report di Power BI diventa una singola diapositiva di PowerPoint
-* Ogni pagina del report di Power BI viene esportata come singola immagine ad alta risoluzione in PowerPoint<!-- * The filters and slicers settings that you added to the report are preserved. -->
+* Ogni pagina del report Power BI viene esportata come singola immagine ad alta risoluzione in PowerPoint
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * In PowerPoint viene creato un collegamento che indirizza al report di Power BI 
 
 Esportare il **report di Power BI** in **PowerPoint** è veloce. basta seguire i passaggi descritti nella sezione successiva.
@@ -91,6 +92,7 @@ Quando si lavora con la funzionalità **Esporta in PowerPoint** è necessario te
 * Come indicato in precedenza, ogni pagina del report viene esportata come singola immagine nel file di PowerPoint.
 * Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PowerPoint. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) **> Impostazioni > Generali > Lingua**.
 * L'orario **scaricato alle** indicato sulla diapositiva di copertina per il file di PowerPoint esportato è impostata sul fuso orario del computer al momento dell'esportazione.
+* I filtri URL non sono attualmente rispettati quando si sceglie "Valori correnti" per l'esportazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Stampare un report](end-user-print.md)
