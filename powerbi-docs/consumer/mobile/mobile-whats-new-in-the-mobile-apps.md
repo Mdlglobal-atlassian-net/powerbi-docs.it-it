@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826722"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872732"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,16 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>Marzo 2019
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Supporto degli utenti guest esterni nelle app di Power BI (iOS, Android)
+
+È possibile accedere direttamente dall'app ai contenuti di Power BI condivisi con l'utente da un'altra organizzazione (funzionalità nota anche come B2B). Altre informazioni sulla funzionalità B2B di Power BI per dispositivi mobili sono disponibili [qui](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/).
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Ottimizzazione delle presentazioni in Windows con la funzionalità di presentazione (Windows)
+
+La funzionalità di [presentazione](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) consente di usare gli schermi pubblici disponibili nell'ufficio aziendale per eseguire i report di Power BI in modalità schermo intero, con rotazione automatica tra le pagine del report.  
 
 ## <a name="january---february-2019"></a>Gennaio - febbraio 2019
  
@@ -316,7 +326,7 @@ Se si scansiona un codice a matrice per un dashboard a cui non si ha accesso, è
 Ora è possibile scorrere nei grafici a barre e negli istogrammi in un report toccando il grafico stesso anziché la barra di scorrimento laterale.
 
 #### <a name="ios-devices"></a>Dispositivi iOS
-**Ottenere risposte dai dati con le un'anteprima di domande e risposte** 
+**Ottenere risposte dai dati con un'anteprima di domande e risposte** 
 
 Con Domande e risposte è possibile porre domande sui dati usando il linguaggio naturale e ottenere le risposte da Power BI. Domande e risposte è già presente nel servizio Power BI su http://powerbi.com. Ora è [disponibile anche nell'app per dispositivi mobili su iPhone o iPad](mobile-apps-ios-qna.md).
 
@@ -352,7 +362,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di ge
 Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di dicembre 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016).
 
 #### <a name="all-devices"></a>Tutti i dispositivi
-**Aggiornamento in background non in linea**
+**Aggiornamento in background offline**
 
 Per assicurarsi che sia possibile accedere ai dati più recenti mentre non in linea, viene eseguito un aggiornamento in background dell'app in modo che le informazioni aziendali siano aggiornate, anche se non vi si accede da tempo. Per assicurarsi che determinati dashboard siano sempre aggiornati, contrassegnarli come preferiti. Altre informazioni sulle [funzionalità offline nelle app Power BI per dispositivi mobili](mobile-apps-offline-data.md).
 
@@ -377,7 +387,7 @@ Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario 
 
 È ora possibile aggiornare i dati di Apple Watch direttamente dall'app Watch. Nella pagina di indice del dashboard premere forte per aggiornare i dati. Per il corretto funzionamento, l'app Power BI per dispositivi mobili deve essere in esecuzione in background nell'iPhone.
 
-#### <a name="android"></a>Android
+#### <a name="android"></a>Telefoni
 **URL personalizzato nel riquadro immagine**
 
 Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario del dashboard, quando si tocca il riquadro si passa direttamente a tale URL senza aprire il riquadro nella modalità messa a fuoco. In più, i riquadri del dashboard che contengono gli URL personalizzati predefiniti possono ora reindirizzare i lettori a report all'interno dell'app.

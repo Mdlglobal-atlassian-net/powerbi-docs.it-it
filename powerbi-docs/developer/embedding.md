@@ -8,14 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
+helpviewer_keywords:
+- embedded analytics
+- embedding
+- Power BI embedding
+- app owns data
+- user owns data
+- Power BI APIs
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: ca159fb8cea26f4c707aabc99d9fa2c308a32e1a
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 0a4b43bd02697472a0bbdf16171ba655fc014dbc
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762445"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872709"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Analisi incorporata con Power BI
 
@@ -42,7 +49,7 @@ Per visualizzare un esempio di come funziona l'incorporamento, vedere l'[esempio
 
 L'**incorporamento per l'organizzazione** consente di estendere il servizio Power BI. A questo scopo, gli utenti dell'applicazione dovranno eseguire l'accesso al servizio Power BI quando vogliono visualizzare il contenuto. Quando un utente dell'organizzazione esegue l'accesso, potrà accedere solo ai dashboard e ai report di cui è proprietario o che sono stati condivisi con l'utente nel servizio Power BI.
 
-*Gli esempi di incorporamento per l'organizzazione includono applicazioni interne come [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), l'[integrazione di Microsoft Teams, per cui sono necessari diritti di amministratore,](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) e [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
+*Gli esempi di incorporamento per l'organizzazione includono applicazioni interne come [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), l'[integrazione di Microsoft Teams (che richiede diritti di amministratore)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) e [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).*
 
 Per l'incorporamento per l'organizzazione, vedere:
 
@@ -82,7 +89,7 @@ Per informazioni dettagliate su come incorporare, vedere [Come incorporare il co
 È ora possibile provare a incorporare contenuto di Power BI in un'applicazione o provare a incorporare contenuto di Power BI per i clienti.
 
 > [!div class="nextstepaction"]
-> [Incorporare contenuto per l'organizzazione](embed-sample-for-your-organization.md)
+> [Incorporamento per l'organizzazione](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
 > [Che cos'è Power BI Embedded?](azure-pbie-what-is-power-bi-embedded.md)

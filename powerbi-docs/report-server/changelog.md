@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.openlocfilehash: 3897464cbc2a233f7b1aa6ee2f0fd70d39ff16aa
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327965"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872502"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -24,7 +24,14 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="january-2019"></a>Gennaio 2019
 
-- **Server di report Power BI**            
+- **Server di report di Power BI**          
+    - *Versione 1.4.7024.16477 (build 15.0.1102.299), data di rilascio: 28 marzo 2019*
+        - Correzioni di bug
+            - Report di Power BI
+                - Risolto il problema con le credenziali di base quando si usa DirectQuery per SAP Hana e SAP BW
+                - Risolto l'errore restituito dal feed OData "Non è stato possibile caricare il file o l'assembly Microsoft.OData.Core.NetFX35.V7"
+
+- **Server di report di Power BI**            
     - *Versione 1.4.6969.7395 (build 15.0.1102.235), data di rilascio: 30 gennaio 2019*
         - Correzioni di bug
             - Report di Power BI
@@ -67,7 +74,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="august-2018"></a>Agosto 2018
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione 1.3.6816.37243 (build 15.0.2.557), data di rilascio: 30 agosto 2018*
         - Correzioni di bug
             - Risolto un problema a causa del quale un reindirizzamento dell'associazione non veniva aggiornato durante l'aggiornamento dalle versioni precedenti di Server di report di Power BI e i clienti vedevano:      
@@ -89,7 +96,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
         
 ## <a name="march-2018"></a>Marzo 2018
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione 1.2.6690.34729 (build 15.0.2.402), data di rilascio: 27 aprile 2018*
         - Correzioni di bug
             - Abilitazione della migrazione dei cataloghi di SQL Server Reporting Services 2017
@@ -132,7 +139,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="october-2017"></a>Ottobre 2017
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Versione 1.1.6582.41691 (build 14.0.600.442), data di rilascio: 10 gennaio 2018*
         - Aggiornamenti della sicurezza
         - Correzioni di bug
@@ -187,7 +194,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="june-2017"></a>Giugno 2017
 
-- **Server di report Power BI**
+- **Server di report di Power BI**
     - *Build 14.0.600.309, data di rilascio: 10 gennaio 2018*
         - Aggiornamenti della sicurezza
 

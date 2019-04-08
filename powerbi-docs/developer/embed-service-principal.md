@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014416"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872548"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entità servizio con Power BI (anteprima)
 
@@ -111,13 +111,15 @@ A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entit�
 3. L'amministratore di Power BI deve abilitare l'entità servizio in **Impostazioni modalità sviluppatore** nel portale di amministrazione di Power BI. Aggiungere il gruppo di sicurezza creato in Azure AD alla sezione **Gruppi di sicurezza specifici** in **Impostazioni modalità sviluppatore**.
 
    > [!Important]
-   > Le entità servizio ereditano le autorizzazioni per tutte le impostazioni del tenant di Power BI dal relativo gruppo di sicurezza. Per limitare le autorizzazioni, creare un gruppo di sicurezza dedicato per le entità servizio e aggiungerlo all'elenco "Eccetto gruppi di sicurezza specifici" relativo alle impostazioni pertinenti abilitate di Power BI.
+   > Le entità servizio hanno accesso a tutte le impostazioni del tenant abilitate per l'intera organizzazione o per gruppi di sicurezza che includono entità servizio come parte del gruppo. Per limitare l'accesso dell'entità servizio a impostazioni specifiche del tenant, consentire l'accesso solo a gruppi di sicurezza specifici oppure creare un gruppo di sicurezza dedicato per le entità servizio e quindi escluderlo.
 
     ![Portale di amministrazione](media/embed-service-principal/admin-portal.png)
 
 4. Configurare l'[ambiente di Power BI](embed-sample-for-customers.md#set-up-your-power-bi-environment).
 
 5. Aggiungere l'entità servizio come **amministratore** alla nuova area di lavoro creata. È possibile gestire questa attività tramite le [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o il servizio Power BI.
+
+    ![Aggiungere un'entità servizio a un'area di lavoro](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Scegliere se incorporare il contenuto all'interno di un'applicazione di esempio o all'interno della propria applicazione.
 
@@ -171,9 +173,10 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 * Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non sono in grado di usare l'entità servizio.
 * La gestione dei [flussi di dati](../service-dataflows-overview.md) non è supportata.
+* L'entità servizio non supporta le API di amministrazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Registrare un'app](register-app.md)
+* [Registra un'app](register-app.md)
 * [Power BI Embedded per i clienti](embed-sample-for-customers.md)
 * [Oggetti applicazione e oggetti entità servizio in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)

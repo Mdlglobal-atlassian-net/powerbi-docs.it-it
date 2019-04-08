@@ -8,48 +8,57 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
-ms.openlocfilehash: 764718ab86e040509790dd4debbbef25b6079a14
-ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
+ms.date: 03/25/2019
+ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "58473776"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872571"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?
 
-L'API REST di Power BI consente di creare app che incorporano report di Power BI. È anche possibile integrare riquadri e dashboard di Power BI nelle app.
+L'API REST di Power BI consente di creare app che si integrano con i report, i dashboard e i riquadri di Power BI.
 
-L'API REST di Power BI consente di eseguire attività di gestione su oggetti di Power BI come report, set di dati e aree di lavoro.
+Con l'API REST di Power BI è possibile eseguire attività di gestione su oggetti di Power BI come i report, i set di dati e le aree di lavoro.
 
 Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 
-| **Operazione da eseguire** | **Risorsa utile** |
-| --- | --- |
-| È possibile incorporare report, dashboard e riquadri per gli utenti di Power BI e gli utenti esterni a Power BI. |[Come incorporare i dashboard, i report e i riquadri di Power BI](embedding-content.md) |
-| Eseguire attività di gestione per oggetti di Power BI. |[Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| **Per altre informazioni** | **Vedere questo argomento** |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, i report e i riquadri di Power BI ](embedding-content.md) |
+| Eseguire attività di gestione per oggetti di Power BI. | [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
+| Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. | [Eseguire il push dei dati in un dashboard ](walkthrough-push-data.md) |
+| Eseguire l'autenticazione a Power BI. | [Eseguire l'autenticazione a Power BI ](get-azuread-access-token.md) |
 
 > [!NOTE]
 > Le API di Power BI fanno ancora riferimento alle aree di lavoro per le app come gruppi. I riferimenti ai gruppi indicano che si stanno usando le aree di lavoro per le app.
 
-## <a name="developer-tools"></a>Strumenti per sviluppatori
+## <a name="api-developer-tools"></a>Strumenti per sviluppatori di API
 
-Di seguito sono riportati gli strumenti che è possibile usare per semplificare lo sviluppo degli elementi di Power BI.
+| Strumento/i | Descrizione |  |  |
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
+| [Strumento Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Un esempio d'uso completo delle API JavaScript di Power BI. Questo strumento consente di riprodurre in modo rapido vari tipi di esempi di Power BI Embedded. |  |  |
+| [Wiki JavaScript di Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Offre informazioni aggiuntive sulle API JavaScript di Power BI. |  |  |
+| [Postman](https://www.getpostman.com/) | Consente di eseguire richieste, test, operazioni di debug, monitoraggio, test automatici e altro ancora. |
 
-È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup) per iniziare rapidamente e scaricare un'applicazione di esempio su come incorporare il contenuto di Power BI.
+## <a name="push-data-into-power-bi"></a>Push dei dati in Power BI
 
-Scegliere la soluzione adatta alle proprie esigenze:
+È possibile usare l'API Power BI per [eseguire il push dei dati in un set di dati](walkthrough-push-data.md). Questa funzionalità consente di aggiungere una riga a una tabella all'interno di un set di dati. I nuovi dati vengono quindi riportati nei riquadri di un dashboard e negli oggetti visivi inclusi in un report.
 
-* L'[incorporamento per i clienti](embedding.md#embedding-for-your-customers) offre la possibilità di incorporare dashboard e report per gli utenti che non hanno un account per Power BI. Eseguire la soluzione [Incorporare per i clienti](https://aka.ms/embedsetup/AppOwnsData).
-
-* L'[incorporamento per l'organizzazione](embedding.md#embedding-for-your-organization) consente di estendere il servizio Power BI. Eseguire la soluzione [Incorporare per l'organizzazione](https://aka.ms/embedsetup/UserOwnsData).
-
-Per un esempio completo dell'uso dell'API JavaScript, è possibile usare lo [strumento Playground](https://microsoft.github.io/PowerBI-JavaScript/demo), che consente di riprodurre in modo rapido esempi di Power BI Embedded di tipo diverso. È possibile ottenere altre informazioni sull'API JavaScript anche visitando la pagina del [wiki Power BI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+![Esempio di push dei dati](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="github-repositories"></a>Repository GitHub
 
 * [Esempi di Power BI Developer](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
 * [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)
+
+## <a name="next-steps"></a>Passaggi successivi
+
+* [Eseguire il push dei dati in un set di dati](walkthrough-push-data.md)
+* [Sviluppo di un oggetto visivo personalizzato di Power BI](custom-visual-develop-tutorial.md)
+* [Riferimento all'API REST di Power BI](rest-api-reference.md)
+* [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
