@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Attività comuni
       items:
+      - name: Esportare i dati in Excel
+        href: end-user-export.md
       - name: Cercare il proprietario del contenuto e la data dell'ultimo aggiornamento
         href: end-user-fresh.md
       - name: Modi diversi per eseguire lo zoom sul contenuto con le modalità messa a fuoco e schermo intero
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Preferiti nelle app per dispositivi mobili
         href: mobile/mobile-apps-favorites.md
+      - name: Configurare l'interazione di report nelle app per dispositivi mobili (solo telefono)
+        href: mobile/mobile-app-single-tap.md
       - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Visualizzare i report ottimizzati per il proprio telefono
         href: mobile/mobile-apps-view-phone-report.md
+      - name: Accedere al contenuto da un'organizzazione esterna
+        href: mobile/mobile-apps-b2b.md
       - name: Scansionare un codice a matrice di Power BI dal telefono
         href: mobile/mobile-apps-qr-code.md
       - name: Annotare e condividere nelle app per dispositivi mobili
@@ -195,9 +201,9 @@ items:
     items:
     - name: Lingue supportate nelle app per dispositivi mobili
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248977"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430283"
