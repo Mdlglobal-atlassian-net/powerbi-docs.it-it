@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/07/2019
+ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: 5af870bfd3cb6f9c925dd3d6268d0a1cb54df09b
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: c0cc6b19e69ebe6400d25b77c15cf577d765c415
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65201179"
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
@@ -24,12 +24,12 @@ I white paper consentono di esplorare gli argomenti di Power BI a un livello pi�
 | --- | --- | --- |
 | [Power BI e i flussi di dati](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Questo white paper descrive i flussi di dati in dettagli tecnici e descrive le funzionalità e le iniziative su cui si basano le caratteristiche e le funzionalità del flusso di dati. | Novembre 2018 |
 | [Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper) |Illustra le funzionalità di Power BI Premium, sia all'avvio che nelle fasi successive. | Ottobre 2017 |
-| [Pianificazione e distribuzione di Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Questo documento fornisce indicazioni e procedure consigliate per la pianificazione e la distribuzione della capacità Premium per carichi di lavoro ben definiti.| Novembre 2017 |
+| [Pianificazione e distribuzione di Power BI Premium](whitepaper-powerbi-premium-deployment.md)| Questo documento fornisce indicazioni e procedure consigliate per la pianificazione e la distribuzione della capacità Premium per carichi di lavoro ben definiti.| Marzo 2019 |
 | [Pianificare la capacità di analisi incorporata con Power BI Premium](https://aka.ms/pbiewhitepaper) |Questo documento contiene indicazioni per gli sviluppatori/ISV di app per determinare la capacità più adatta alla propria attività. | Ottobre 2017 |
 | [Pianificazione della distribuzione aziendale di Power BI](https://go.microsoft.com/fwlink/?linkid=2057861) |Si tratta di un white paper tecnico che delinea le considerazioni per una distribuzione di Power BI aziendale con ottime prestazioni e sicura. | Luglio 2018 |
 | [Indicazioni sulla pianificazione della capacità per il server di report di Power BI](report-server/capacity-planning.md) |Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. | Marzo 2018 |
 | [Sicurezza](service-admin-power-bi-security.md) |Fornisce una spiegazione dettagliata della sicurezza all'interno di Power BI. | Marzo 2019 |
-| [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Questo articolo descrive come distribuire il contenuto a utenti esterni all'organizzazione usando l'integrazione di Azure Active Directory Business-to-business (AAD B2B).| Marzo 2018 |
+| [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Questo articolo descrive come distribuire il contenuto a utenti esterni all'organizzazione usando l'integrazione di Azure Active Directory Business-to-business (AAD B2B).| Marzo 2019 |
 | [Advanced Analytics con Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Descrive le funzionalità analitiche avanzate di Power BI, tra cui l'analisi predittiva, le visualizzazioni personalizzate, l'integrazione di R e DAX (Data Analysis Expressions). | Febbraio 2017 |
 | [Procedure consigliate per la progettazione di report e oggetti visivi](visuals/power-bi-visualization-best-practices.md) |Indica le procedure consigliate per la progettazione di report in Power BI. | Giugno 2018 |
 | [Filtro bidirezionale](desktop-bidirectional-filtering.md) |Illustra il filtro incrociato bidirezionale in Power BI Desktop. Il white paper illustra anche SQL Server Analysis Services 2016, perché il comportamento è uguale in entrambi i casi. | Luglio 2018 |
