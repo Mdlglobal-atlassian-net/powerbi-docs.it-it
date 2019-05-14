@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306505"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533693"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare SAML (Security Assertion Markup Language) per abilitare Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -75,7 +75,7 @@ Il certificato IdP risultante sarà valido per un anno (vedere l'opzione -days).
 
     ![Configurare SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Selezionare il provider di identità creato nel passaggio 2. Per **External Identity** (Identità esterna), immettere l'UPN dell'utente di Power BI, quindi selezionare **Add** (Aggiungi).
+1. Selezionare il provider di identità creato nel passaggio 2. Per la **identità esterna**, immettere l'UPN dell'utente di Power BI (in genere l'indirizzo di posta elettronica l'utente accede a Power BI con), quindi selezionare **Add**. Si noti che se è stato configurato il Gateway per usare l'opzione di configurazione ADUserNameReplacementProperty è consigliabile immettere il valore che sostituirà UPN originale dell'utente di Power BI. Ad esempio, se si imposta la ADUserNameReplacementProperty SAMAccountName è necessario immettere il SAMAccountName dell'utente.
 
     ![Selezionare il provider di identità](media/service-gateway-sso-saml/select-identity-provider.png)
 
@@ -179,7 +179,7 @@ Le tracce di autenticazione forniscono informazioni dettagliate per la risoluzio
 
 Per altre informazioni su **Gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
 
-* [Gateway dati locale](service-gateway-onprem.md)
+* [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
