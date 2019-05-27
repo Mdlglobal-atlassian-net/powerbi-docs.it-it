@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 3feed774025c82518126a0ca6e9d2e0ec68ac11e
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215701"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514777"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Usare Visualizza dati e Visualizza record in Power BI Desktop
 In **Power BI Desktop** è possibile esaminare i dettagli di una visualizzazione e visualizzare rappresentazioni testuali dei dati sottostanti o dei singoli record di dati per un oggetto visivo selezionato. Queste funzionalità vengono talvolta definite *click-through*, *drill-through* o *drill-through dei dettagli*.

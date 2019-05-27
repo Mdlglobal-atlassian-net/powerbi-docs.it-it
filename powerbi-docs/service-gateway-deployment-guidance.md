@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279850"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051148"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Indicazioni per la distribuzione di un gateway dati per Power BI
 
@@ -42,7 +42,7 @@ In **Power BI** esiste un vincolo che consente *un solo* gateway per *report*, p
 ### <a name="connection-type"></a>Tipo di connessione
 **Power BI** offre due tipi di connessioni: **DirectQuery** e **importazione**. Non tutte le origini dati supportano entrambi i tipi di connessione e diversi motivi possono contribuire alla scelta di uno di essi, ad esempio requisiti di sicurezza, prestazioni, limiti di dati e le dimensioni dei modelli di dati. Per altre informazioni sul tipo di connessione e sulle origini dati supportate vedere la sezione dell'*elenco dei tipi di origini dati disponibili* dell'[articolo sul gateway dati locale](service-gateway-onprem.md).
 
-A seconda del tipo di connessione in uso, l'utilizzo del gateway può essere diverso. Ad esempio, è consigliabile separare le origini dati **DirectQuery** dalle origini dati di **Aggiornamento pianificato** laddove possibile (presupponendo che si trovino in report diversi e possano essere separate). Ciò impedisce al gateway di accumulare migliaia di richieste DirectQuery in coda, contemporaneamente all'aggiornamento pianificato del mattino di un modello di dati di grandi dimensioni che viene usato per il dashboard principale della società. Ecco i fattori da considerare per ciascuno di essi:
+A seconda di quale tipo di connessione viene usato, utilizzo del gateway può essere diverso. Ad esempio, è consigliabile separare le origini dati **DirectQuery** dalle origini dati di **Aggiornamento pianificato** laddove possibile (presupponendo che si trovino in report diversi e possano essere separate). In questo modo impedisce al gateway di accumulare migliaia di **DirectQuery** richieste messe in coda, contemporaneamente l'aggiornamento pianificato del mattino di un modello di dati di grandi dimensioni che viene usato per il dashboard principale dell'azienda. Ecco i fattori da considerare per ciascuno di essi:
 
 * Per **Aggiornamento pianificato**: a seconda delle dimensioni della query e del numero di aggiornamenti che si verificano ogni giorno, è possibile scegliere di restare nei requisiti hardware minimi consigliati oppure eseguire l'aggiornamento a un computer con prestazioni superiori. Se una determinata query non è stata ridotta, si verificano trasformazioni nel computer del gateway e, di conseguenza, il computer del gateway trae vantaggio dalla maggiore quantità di RAM disponibile.
 * Per **DirectQuery**: viene inviata una query ogni volta che un utente apre il report o esamina i dati. Dunque, se si prevede l'accesso simultaneo di più di 1.000 utenti, è consigliabile assicurarsi che il computer abbia componenti hardware soli di affidabili. Un numero maggiore di memorie centrali CPU garantisce una migliore velocità effettiva per una connessione **DirectQuery**.

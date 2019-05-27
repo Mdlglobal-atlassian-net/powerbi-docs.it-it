@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f3b1435e7c696d0edf810b8b69be201ff1d92ce
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278655"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514131"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Connettersi ai dati in Power BI Desktop
 Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.

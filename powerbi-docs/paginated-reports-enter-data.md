@@ -1,7 +1,7 @@
 ---
 title: Immettere i dati direttamente in un report impaginato in Generatore report (anteprima)
 description: Questo articolo spiega come si possono immettere dati direttamente in un report impaginato in Generatore report.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424467"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report (anteprima) - Power BI
 
@@ -23,7 +23,7 @@ In questo articolo viene illustrata una funzionalità della nuova versione di Ge
 ## <a name="prerequisites"></a>Prerequisiti
 
 - Per immettere i dati direttamente in un report impaginato, installare la nuova versione di [Generatore report dall'Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Per salvare il report impaginato nel servizio Power BI, sono necessari un [account di Power BI Pro](service-self-service-signup-for-power-bi.md) e l'accesso in scrittura a un'area di lavoro in una [capacità Premium di Power BI](service-premium.md).
+- Per salvare il report impaginato nel servizio Power BI, sono necessari un [account di Power BI Pro](service-self-service-signup-for-power-bi.md) e l'accesso in scrittura a un'area di lavoro in una [capacità Premium di Power BI](service-premium-what-is.md).
 - Per salvare il report impaginato in un server di report, sono necessarie autorizzazioni per [modificare il file RSReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Attività iniziali

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287588"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513862"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Esercitazione: Creare misure personalizzate in Power BI Desktop
 Con le misure è possibile creare alcune delle soluzioni di analisi dati più potenti in Power BI Desktop. Consentono infatti di eseguire calcoli sui dati durante l'interazione con i report. Questa esercitazione illustra il significato e la modalità di creazione delle misure di base in Power BI Desktop.

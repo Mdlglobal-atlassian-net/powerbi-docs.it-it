@@ -1,20 +1,20 @@
 ---
 title: Configurare le credenziali a livello di codice per Power BI
 description: Come configurare le credenziali a livello di codice per Power BI per l'automazione
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380180"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configurare le credenziali a livello di codice per Power BI
 
@@ -54,7 +54,7 @@ Eseguire la procedura seguente per configurare le credenziali a livello di codic
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>Flusso delle credenziali dell'origine dati locale scaduto
 
-1. [Seguire i passaggi 1 e 2 dello scenario precedente](#configure-credential-flow-for-data-sources).
+1. [Seguire i passaggi 1 e 2 dello scenario precedente](#configure-a-credential-flow-for-data-sources).
 
 2. Chiamare [Ottieni gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) per recuperare la chiave pubblica del gateway.
 
