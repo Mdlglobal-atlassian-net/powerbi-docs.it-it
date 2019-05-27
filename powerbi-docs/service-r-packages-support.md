@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e74b0399ffdf2b5ca79eecb6451ccd676c1095db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 86432033359b24dbae81f9ff5ec1bceb3ea1a2e6
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296714"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514838"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacchetti R nel servizio Power BI
 È possibile usare il potente [linguaggio di programmazione R](https://www.r-project.org/) per creare oggetti visivi nel servizio Power BI. Nel servizio Power BI sono supportati molti pacchetti R, in numero sempre crescente, mentre altri non sono supportati.
@@ -807,7 +807,7 @@ La tabella seguente indica quali pacchetti **sono supportati** nel servizio Powe
 |stats| utils| CRAN|
 |stats| survival| utils|
 |stats4| 3.4.1| N/D|
-|stepPlr|0,92| https://cran.r-project.org/web/packages/stepPlr/index.html |
+|stepPlr|0.92| https://cran.r-project.org/web/packages/stepPlr/index.html |
 |stochvol| 1.3.2| https://cran.r-project.org/web/packages/stochvol/index.html |
 |stopwords| CRAN| N/D|
 |stopwords| 0.9.0| https://cran.r-project.org/web/packages/stopwords/index.html |
