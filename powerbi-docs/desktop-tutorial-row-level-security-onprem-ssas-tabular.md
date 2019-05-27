@@ -8,15 +8,15 @@ editor: davidi
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/21/2017
+ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546ae48aac10ae6c72a062665c7d8f448432a194
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292638"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513601"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 Questa esercitazione illustra i passaggi necessari per implementare la **sicurezza a livello di riga** all'interno di un **modello tabulare di Analysis Services** e indica come usarlo in un report di Power BI. I passaggi descritti in questa esercitazione sono progettati per poter proseguire e apprendere i passaggi necessari per completare un set di dati di esempio.

@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b4aeb04958ef6f4c8454a022198232d94c14b7b6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b8d742e9238d438775115fd1ee2e287cf0ba0388
+ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284243"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65454255"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Usare il raggruppamento e la creazione di contenitori in Power BI Desktop
 Quando **Power BI Desktop** crea oggetti visivi, aggrega i dati in blocchi (o gruppi) in base ai valori rilevati nei dati sottostanti. Tuttavia, a volte si potrebbe voler perfezionare la modalità di presentazione di tali blocchi. Ad esempio, si potrebbero voler inserire tre categorie di prodotti in una categoria maggiore (un *gruppo*). In alternativa, si potrebbero voler visualizzare le cifre delle vendite in dimensioni del contenitore di 1.000.000 euro, anziché 923.983 euro divisi uniformemente.
