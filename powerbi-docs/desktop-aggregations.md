@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290729"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239585"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregazioni in Power BI Desktop (anteprima)
 
@@ -61,7 +61,7 @@ Si supponga che le seguenti tabelle delle dimensioni siano quelle usate più spe
 
 * Geography
 * Customer
-* Date
+* Data
 * Product Subcategory
 * Categoria prodotto
 
@@ -122,7 +122,7 @@ Nella tabella seguente vengono mostrate le aggregazioni per la tabella **Sales A
 #### <a name="summarization-function"></a>Funzione Esecuzione del riepilogo
 
 Nell'elenco a discesa Esecuzione del riepilogo sono disponibili i valori di selezione seguenti.
-* Count
+* Conteggio
 * GroupBy
 * Max
 * Min

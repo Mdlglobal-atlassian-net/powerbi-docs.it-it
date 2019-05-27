@@ -1,27 +1,25 @@
 ---
 title: Panoramica sull'amministrazione, Server di report di Power BI
 description: Questo articolo è una panoramica sull'amministrazione del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.author: maghan
-ms.openlocfilehash: 745db7ea9c1a702389f2afae4408024ddb54b734
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: c670c78b03a1cd3fd6ce1ad3aeaa0003ce794eec
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288084"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187379"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Panoramica sull'amministrazione, Server di report di Power BI
 Questo articolo è una panoramica sull'amministrazione del server di report di Power BI, un percorso locale per l'archiviazione e la gestione di report impaginati, per dispositivi mobili e di Power BI. Questo articolo introduce i concetti di pianificazione, distribuzione e gestione di Server di report di Power BI, con collegamenti ad altre informazioni.
 
 ![](media/admin-handbook-overview/admin-handbook.png)
-
-
 
 ## <a name="installing-and-migration"></a>Installazione e migrazione
 È necessario installare il server di report di Power BI per iniziare a usarlo. Sono disponibili articoli che descrivono come gestire questa attività.

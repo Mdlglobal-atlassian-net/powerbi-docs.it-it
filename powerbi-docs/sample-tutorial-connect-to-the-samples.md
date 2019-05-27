@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275549"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625071"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Connettersi agli esempi nel servizio Power BI
 
@@ -78,7 +78,7 @@ Ora è possibile esaminare il dashboard, il set di dati e il report autonomament
     ![Pagina del report con gli oggetti visivi corrispondenti evidenziati](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Se il riquadro fosse stato creato con [Domande e risposte di Power BI](consumer/end-user-q-and-a.md) sarebbe comparsa la pagina Domande e risposte. Se il riquadro fosse stato [aggiunto da Excel](service-dashboard-pin-tile-from-excel.md), Excel Online sarebbe stato aperto all'interno di Power BI.
+   > Se il riquadro fosse stato creato con [Domande e risposte di Power BI](power-bi-tutorial-q-and-a.md) sarebbe comparsa la pagina Domande e risposte. Se il riquadro fosse stato [aggiunto da Excel](service-dashboard-pin-tile-from-excel.md), Excel Online sarebbe stato aperto all'interno di Power BI.
    > 
    > 
 1. Nella scheda **Set di dati** sono presenti varie opzioni per esplorare il set di dati.  Non è possibile aprirlo e vedere tutte le righe e colonne, come invece si può fare in Power BI Desktop o in Excel.  Quando un utente condivide un pacchetto di contenuto con i colleghi, in genere vuole condividere le informazioni dettagliate e non consentire ai colleghi di accedere direttamente ai dati. Questo però non significa che non sia possibile esplorare il set di dati.  
@@ -129,11 +129,9 @@ Ora è possibile esaminare il set di dati, le relazioni e il report autonomament
 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
 
-[Esempi per il servizio Power BI](sample-datasets.md)
-
-[Origini dati per Power BI](service-get-data.md)
+- [Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
+- [Esempi per il servizio Power BI](sample-datasets.md)
+- [Origini dati per Power BI](service-get-data.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
-
