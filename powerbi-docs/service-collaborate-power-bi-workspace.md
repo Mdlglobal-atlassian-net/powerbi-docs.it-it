@@ -11,11 +11,11 @@ ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61181674"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Collaborare nell'area di lavoro per le app di Power BI
 Le aree di lavoro per le app di Power BI sono la soluzione ideale per collaborare con i colleghi all'elaborazione di dashboard, report e set di dati per la creazione di *app*. La collaborazione non è limitata alle aree di lavoro in Power BI. Office 365 offre altri servizi di gruppo, come la condivisione di file in OneDrive for Business, le conversazioni in Exchange, i calendari e le attività condivisi e così via. Altre informazioni sui [gruppi in Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -43,7 +43,7 @@ Dopo aver creato un file di Power BI Desktop, ogni membro dell'area di lavoro pu
 ## <a name="collaborate-in-office-365"></a>Collaborare in Office 365
 La collaborazione in Office 365 inizia nell'area di lavoro per le app in Power BI.
 
-1. Nel servizio Power BI fare clic sulla freccia accanto ad Aree di lavoro > selezionare i puntini di sospensione (**…**) accanto al nome dell'area di lavoro per le app. 
+1. Nel servizio Power BI fare clic sulla freccia accanto ad Aree di lavoro > selezionare i puntini di sospensione ( **…** ) accanto al nome dell'area di lavoro per le app. 
    
    ![Menu Aree di lavoro](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
 2. Da questo menu, è possibile collaborare con il gruppo in vari modi: 
@@ -64,7 +64,7 @@ La collaborazione in Office 365 inizia nell'area di lavoro per le app in Power B
 2. Altre informazioni sulle [conversazioni di gruppo in Outlook per Office 365](https://support.office.com/Article/Have-a-group-conversation-a0482e24-a769-4e39-a5ba-a7c56e828b22).
 
 ## <a name="schedule-an-event-on-the-apps-group-workspace-calendar"></a>Pianificare un evento nel calendario dell'area di lavoro del gruppo dell'app
-1. Selezionare i puntini di sospensione (**…**) accanto al nome dell'area di lavoro per le app \> **Calendario**. 
+1. Selezionare i puntini di sospensione ( **…** ) accanto al nome dell'area di lavoro per le app \> **Calendario**. 
    
    ![Scheda Calendario](media/service-collaborate-power-bi-workspace/power-bi-app-ellipsis.png)
    

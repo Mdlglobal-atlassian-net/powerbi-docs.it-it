@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273391"
+---
 Con DAX sono disponibili numerose funzioni per modellare, creare o analizzare i dati. Queste funzioni possono essere raggruppate nelle categorie seguenti:
 
 * Funzioni di **aggregazione**
@@ -50,9 +58,9 @@ La raccolta di funzioni **logiche** in DAX include:
 * IF
 * IFERROR
 
-Queste funzioni speciali possono essere espresse anche con gli *operatori*. Ad esempio, nella formula DAX per **AND** è possibile usare **&&**.
+Queste funzioni speciali possono essere espresse anche con gli *operatori*. Ad esempio, nella formula DAX per **AND** è possibile usare **&&** .
 
-Quando sono necessarie più di due condizioni nella formula è possibile usare gli operatori (ad esempio **&&**), altrimenti ai fini della leggibilità del codice DAX è consigliabile usare il nome della funzione stessa (ad esempio **AND**).
+Quando sono necessarie più di due condizioni nella formula è possibile usare gli operatori (ad esempio **&&** ), altrimenti ai fini della leggibilità del codice DAX è consigliabile usare il nome della funzione stessa (ad esempio **AND**).
 
 ## <a name="information-functions"></a>Funzioni informative
 Le funzioni **informative** in DAX includono:

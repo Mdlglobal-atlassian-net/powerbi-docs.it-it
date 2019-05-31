@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215736"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989333"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare una combinazione di colori a un intero report, ad esempio i colori aziendali, i colori della stagione o qualunque altra combinazione di colori. Quando si applica un **tema del report**, tutti gli oggetti visivi del report usano i colori del tema selezionato. Ci sono alcune eccezioni, che vengono descritte più avanti in questo articolo.
@@ -24,21 +24,7 @@ I **temi dei report** consentono di applicare una combinazione di colori a un in
 
 Quando si applica un **tema del report**, è necessario un file JSON che usa una struttura di base. È quindi possibile importare il file JSON in Power BI Desktop e applicarlo al report. La struttura del file JSON e il processo di importazione sono immediati e semplici e richiedono solo pochi clic.
 
-A partire dalla versione di settembre 2017 di **Power BI Desktop**, è possibile definire ancora più elementi del tema del report usando un file JSON. È anche possibile personalizzare e standardizzare quasi tutti gli elementi. Per la personalizzazione, si usa il file JSON, che è possibile modificare manualmente nel riquadro **Formattazione**. L'obiettivo della versione di settembre 2017 (e delle versioni successive) è quello di offrire il controllo completo sull'aspetto dei report, a un livello granulare.
-
-### <a name="enable-report-themes"></a>Abilitare i temi dei report
-A partire dalla versione di agosto 2018 di **Power BI Desktop**, i temi dei report sono disponibili a livello generale e non è necessario abilitarli. 
-
-Se si usa una versione precedente di **Power BI Desktop**, è possibile abilitare i temi come funzionalità di anteprima eseguendo questa procedura: 
-
-1. Selezionare **File > Opzioni e impostazioni > Funzionalità di anteprima**. 
-2. Selezionare quindi la casella di controllo accanto a **Temi del report personalizzato**. 
-
-Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop**.
-
-![Temi del report personalizzato](media/desktop-report-themes/report-themes_2.png)
-
-È sempre consigliabile eseguire l'aggiornamento alla versione più recente di **Power BI Desktop**, che è possibile ottenere da un collegamento in [Ottenere Power BI Desktop](desktop-get-the-desktop.md). 
+È anche possibile personalizzare e standardizzare quasi tutti gli elementi. Per la personalizzazione, si usa il file JSON, che è possibile modificare manualmente nel riquadro **Formattazione**. L'obiettivo è offrire un controllo completo su come i report hanno l'aspetto, a un livello di granularità.
 
 ## <a name="how-report-themes-work"></a>Come funzionano i temi dei report
 Per applicare un tema a un report di Power BI Desktop, è possibile scegliere tra i temi dei report predefiniti disponibili oppure importare un tema personalizzato.
@@ -113,7 +99,7 @@ Di seguito è riportato il testo del file *St Patrick's Day.json* che è possibi
 
 Da qui è possibile immettere il codice colore hexcode personalizzato per i colori selezionati.
 
-A partire dalla versione di settembre 2017 di **Power BI Desktop**, il file JSON può essere molto più elaborato. Nel file JSON viene definita solo la formattazione che si vuole modificare e per tutto ciò che *non* è specificato nel file JSON vengono semplicemente ripristinate le impostazioni predefinite di Power BI.
+Nel file JSON viene definita solo la formattazione che si vuole modificare e per tutto ciò che *non* è specificato nel file JSON vengono semplicemente ripristinate le impostazioni predefinite di Power BI.
 
 I vantaggi della creazione di un file JSON sono molti. È ad esempio possibile specificare che tutti i grafici devono usare le dimensioni del carattere 12 o che determinati oggetti visivi devono usare una particolare famiglia di caratteri. È anche possibile disattivare le etichette dei dati per tipi di grafici specifici.
 

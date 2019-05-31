@@ -6,21 +6,21 @@ manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f8db4ddfc646ca60dcb3158c1b39a583fafa36c
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
-ms.translationtype: HT
+ms.openlocfilehash: 52b7748b6b634caf87de01ddc965576339a04b8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239176"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61174991"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Connettersi ai file archiviati in OneDrive per un'area di lavoro di un'app Power BI
-Dopo aver [creato un'area di lavoro per le app in Power BI](service-create-distribute-apps.md), è possibile archiviare i file di Excel, CSV e di Power BI Desktop nell'area di lavoro per le app Power BI in OneDrive for Business. Continuando ad aggiornare i file archiviati in OneDrive, gli aggiornamenti eseguiti verranno applicati automaticamente ai report e ai dashboard di Power BI basati sui file. 
+Dopo aver [creato un'area di lavoro per le app in Power BI](service-create-distribute-apps.md), è possibile archiviare i file di Excel, CSV e di Power BI Desktop nell'area di lavoro per le app Power BI in OneDrive for Business. È possibile continuare ad aggiornare i file archiviati in OneDrive. Gli aggiornamenti eseguiti vengono applicati automaticamente i report di Power BI e ai dashboard basati sui file. 
 
 > [!NOTE]
-> L'anteprima della nuova esperienza dell'area di lavoro modificherà la relazione tra le aree di lavoro di Power BI e i gruppi di Office 365. Non verrà creato automaticamente un gruppo di Office 365 ogni volta che si crea una delle nuove aree di lavoro. Informazioni sulla [creazione di nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md)
+> La nuova esperienza dell'area di lavoro modifica la relazione tra le aree di lavoro di Power BI e i gruppi di Office 365. È non creare automaticamente un gruppo di Office 365 ogni volta che crei una delle nuove aree di lavoro. Informazioni su [la creazione di nuove aree di lavoro](service-create-the-new-workspaces.md)
 
 L'aggiunta di file all'area di lavoro per le app è un processo in due passaggi: 
 
@@ -30,10 +30,9 @@ L'aggiunta di file all'area di lavoro per le app è un processo in due passaggi:
 > [!NOTE]
 > Le aree di lavoro per le app sono disponibili solo con [Power BI Pro](service-features-license-type.md).
 > 
-> 
 
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-app-workspace"></a>1. Caricare file nell'area di lavoro per le app in OneDrive for Business
-1. Nel servizio Power BI fare clic sulla freccia accanto ad Aree di lavoro > selezionare i puntini di sospensione (**…**) accanto al nome dell'area di lavoro per le app. 
+1. Nel servizio Power BI fare clic sulla freccia accanto ad Aree di lavoro > selezionare i puntini di sospensione ( **…** ) accanto al nome dell'area di lavoro per le app. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. Selezionare **File** per aprire il OneDrive for Business relativo alla propria area di lavoro per le app in Office 365.
@@ -49,7 +48,7 @@ L'aggiunta di file all'area di lavoro per le app è un processo in due passaggi:
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2. Importare i file di Excel come set di dati o come cartelle di lavoro di Excel Online
 A questo punto, dopo aver aggiunto i file nell'area di lavoro per le app in OneDrive for Business, è possibile: 
 
-* [Importare i dati dalla cartella di lavoro di Excel come un set di dati](service-get-data-from-files.md) e usarli per creare report e dashboard visualizzabili in un Web browser e su dispositivi mobili.
+* [Importare i dati dalla cartella di lavoro di Excel come set di dati](service-get-data-from-files.md). Usare quindi i dati per creare report e dashboard che visualizzabili in un web browser e dispositivi mobili.
 * In alternativa, [connettersi a un'intera cartella di lavoro di Excel in Power BI](service-excel-workbook-files.md) e visualizzarla esattamente come appare in Excel Online.
 
 ### <a name="import-or-connect-to-the-files-in-your-app-workspace"></a>Importare o connettersi ai file nell'area di lavoro per le app
@@ -65,7 +64,7 @@ A questo punto, dopo aver aggiunto i file nell'area di lavoro per le app in OneD
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. Selezionare il file desiderato > **Connetti**.
    
-    A questo punto, è necessario scegliere se [importare i dati dalla cartella di lavoro di Excel](service-get-data-from-files.md) o [connettersi a intere cartelle di lavoro di Excel](service-excel-workbook-files.md).
+    A questo punto, si decide se si desidera [importare i dati dalla cartella di lavoro di Excel](service-get-data-from-files.md), o [connettersi a intere cartelle di lavoro di Excel](service-excel-workbook-files.md).
 6. Selezionare **Importa** o **Connetti**.
    
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)

@@ -1,23 +1,23 @@
 ---
 title: Uso dell'aggiornamento incrementale con i flussi di dati Power BI
 description: Informazioni sulla configurazione dell'aggiornamento incrementale per i flussi di dati
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
-ms.author: davidi
+ms.date: 04/02/2019
+ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 224fc07fccc2b12b0a28c016f427a4d5f4613290
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293711"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136664"
 ---
-# <a name="using-incremental-refresh-with-power-bi-dataflows-preview"></a>Uso dell'aggiornamento incrementale con i flussi di dati Power BI (anteprima)
+# <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Uso dell'aggiornamento incrementale con i flussi di dati Power BI
 
 Con i flussi di dati, è possibile trasferire quantità elevate di dati in Power BI per creare report e analisi accattivanti. In alcuni casi, tuttavia, non è pratico aggiornare una copia completa dei dati di origine durante ogni aggiornamento. Una valida alternativa è l'**aggiornamento incrementale**, che offre i vantaggi seguenti per i flussi di dati:
 
@@ -27,13 +27,13 @@ Con i flussi di dati, è possibile trasferire quantità elevate di dati in Power
 
 ![Aggiornamento incrementale per i flussi di dati](media/service-dataflows-incremental-refresh/dataflows-incremental-refresh_03.png)
 
-L'uso dell'aggiornamento incrementale per i flussi di dati Power BI richiede che l'area di lavoro in cui risiede il flusso di dati si trovi nella [capacità Premium](service-premium.md) per l'esecuzione e l'origine dati inserita nel flusso di dati deve avere un campo *datetime* in cui l'aggiornamento incrementale può applicare il filtro. 
+L'uso dell'aggiornamento incrementale per i flussi di dati Power BI richiede che l'area di lavoro in cui risiede il flusso di dati si trovi nella [capacità Premium](service-premium-what-is.md) per l'esecuzione e l'origine dati inserita nel flusso di dati deve avere un campo *datetime* in cui l'aggiornamento incrementale può applicare il filtro. 
 
 ## <a name="configuring-incremental-refresh-for-dataflows"></a>Configurazione dell'aggiornamento incrementale per i flussi di dati
 
 Un flusso di dati può contenere molte entità. L'aggiornamento incrementale è configurato a livello di entità, in modo da consentire a un flusso di dati di contenere sia le entità completamente aggiornate che quelle aggiornate in modo incrementale.
 
-Per configurare un'entità aggiornata in modo incrementale, iniziare configurando normalmente l'entità. Per altre informazioni sulla configurazione di un flusso di dati, vedere [Preparazione dei dati self-service in Power BI (anteprima)](service-dataflows-overview.md).
+Per configurare un'entità aggiornata in modo incrementale, iniziare configurando normalmente l'entità. Per altre informazioni sulla configurazione di un flusso di dati, vedere [di preparazione dei dati self-servizi in Power BI](service-dataflows-overview.md).
 
 Dopo aver creato e salvato il flusso di dati, selezionare l'icona dell'**aggiornamento incrementale** nella visualizzazione entità, come illustrato nell'immagine seguente:
 
@@ -156,8 +156,8 @@ Questo articolo ha illustrato l'aggiornamento incrementale per i flussi di dati.
 
 * [Preparazione dei dati self-service con flussi di dati](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
+* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
 
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263819"
+---
 Quando si creano i dashboard, a volte il contenuto può essere più grande dello spazio disponibile nell'area di disegno. Alcune soluzioni aiutano a gestire la visualizzazione dello spazio del dashboard, per poterne visualizzare l'intero contenuto.
 
 Il metodo più semplice per visualizzare l'intero dashboard in un'unica schermata consiste nel selezionare il pulsante della modalità **Schermo intero** nell'angolo in alto a destra del dashboard.

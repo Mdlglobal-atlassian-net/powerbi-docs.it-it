@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141401"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Connettersi a origini dati per i flussi di dati di Power BI (anteprima)
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Connettersi a origini dati per i flussi di dati di Power BI
 
 Con i flussi di dati di Power BI è possibile connettersi a diverse origini dati per creare nuovi flussi di dati oppure aggiungere nuove entità a quelli già esistenti.
 
 Questo articolo elenca le numerose origini dati disponibili per la creazione o l'aggiunta di flussi di dati e descrive come usarle.
 
-Per una panoramica su come creare e usare i flussi di dati, vedere [Creazione e uso di flussi di dati in Power BI (anteprima)](service-dataflows-create-use.md).
+Per una panoramica su come creare e usare flussi di dati, vedere [creazione e utilizzo di flussi di dati in Power BI](service-dataflows-create-use.md).
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Creare un flusso di dati da un'origine dati
 
@@ -176,11 +176,11 @@ Non sono necessarie altre operazioni per connettersi alle origini dati nei fluss
 
 Questo articolo ha illustrato le origini dati che è possibile usare per connettersi ai flussi di dati. Gli articoli seguenti descrivono più in dettaglio gli scenari di utilizzo comuni per i flussi di dati. 
 
-* [Preparazione dei dati self-service in Power BI (anteprima)](service-dataflows-overview.md)
+* [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
-* [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
+* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
 * [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md)
 
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:

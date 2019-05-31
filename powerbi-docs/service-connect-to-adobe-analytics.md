@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249023"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180262"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Connettersi ad Adobe Analytics con Power BI
 Per connettersi ad Adobe Analytics con Power BI, è necessario prima di tutto connettersi all'account di Adobe Analytics Marketing Cloud. Si ottiene un'app con un dashboard e un set di report di Power BI che forniscono informazioni dettagliate sul traffico e sul numero di utenti del sito. I dati vengono aggiornati automaticamente una volta al giorno. È possibile interagire con i dashboard e i report, ma non è possibile salvare le modifiche.
@@ -91,7 +91,7 @@ Dalla [documentazione](https://marketing.adobe.com/resources/help/en_US/referenc
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Se dopo aver specificato le credenziali viene visualizzato un errore che segnala la mancanza di autorizzazioni, rivolgersi all'amministratore per verificare di avere accesso all'API di Adobe Analytics. Verificare anche che l'ID Adobe specificato sia collegato all'organizzazione Cloud Marketing (associata a una società Adobe Analytics).
 
-Se viene visualizzato un errore dopo aver fornito correttamente le credenziali, è possibile che il completamento dei report impieghi troppo tempo. Un errore comune è presentato nel formato *"Impossibile ottenere dati dal report di Adobe Analytics. Contenuto incluso &quot;referrer, page&quot;, durata approssimativa: xx secondi"*. Rivedere la sezione "Cosa è incluso" e confrontare le dimensioni dell'istanza di Adobe. Purtroppo non esiste attualmente un modo per ovviare a questo timeout. Si sta tuttavia prendendo in considerazione la possibilità di aggiornamenti per migliorare il supporto delle istanze più grandi. Inviare eventuali commenti e suggerimenti al team di Power BI all'indirizzo https://ideas.powerbi.com
+Se viene visualizzato un errore dopo aver fornito correttamente le credenziali, è possibile che il completamento dei report impieghi troppo tempo. Un errore comune è presentato nel formato *"Impossibile ottenere dati dal report di Adobe Analytics. Contenuto incluso &quot;referrer, page&quot;, durata approssimativa: xx secondi"* . Rivedere la sezione "Cosa è incluso" e confrontare le dimensioni dell'istanza di Adobe. Purtroppo non esiste attualmente un modo per ovviare a questo timeout. Si sta tuttavia prendendo in considerazione la possibilità di aggiornamenti per migliorare il supporto delle istanze più grandi. Inviare eventuali commenti e suggerimenti al team di Power BI all'indirizzo https://ideas.powerbi.com
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Cosa sono le app in Power BI?](service-create-distribute-apps.md)

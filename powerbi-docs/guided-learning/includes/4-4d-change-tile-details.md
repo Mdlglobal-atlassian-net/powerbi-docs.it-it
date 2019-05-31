@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8fc17759ea38cc96c69e7639ed25172e782a9d4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263801"
+---
 Dopo aver creato un dashboard, è possibile modificare i relativi **Riquadri* nel servizio Power BI per apportare modifiche alla formattazione.
 
 Per apportare modifiche a un riquadro, selezionare i puntini di sospensione (tre punti) per visualizzare un insieme di icone che consentono di apportare modifiche al riquadro.

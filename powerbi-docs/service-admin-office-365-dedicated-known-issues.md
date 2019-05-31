@@ -12,11 +12,11 @@ ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 9461609b7ecaa674d3ef4d01482752a78071dbe2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295766"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187840"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Clienti dedicati di Office 365 - problemi noti
 Power BI è ora supportato per i clienti dedicati di Office 365.  Questi clienti possono infatti accedere con un account di questo tenant e usare Power BI. Attualmente sono stati segnalati due problemi noti.

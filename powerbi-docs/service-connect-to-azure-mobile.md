@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8d95ab3675fdced31641a8abbffa31ed0a6643c1
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008305"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61179313"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Connettersi ad Azure Mobile Engagement con Power BI
 Il pacchetto di contenuto Azure Mobile Engagement di Power BI consente di ottenere rapidamente informazioni sui dati dell'app.

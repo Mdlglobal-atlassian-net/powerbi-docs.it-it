@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286405"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978245"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -71,7 +71,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    * Toccare il grafico per spostare la barra in un grafico a linee, un grafico a barre, un istogramma o un grafico a bolle per visualizzare i valori relativi a un punto specifico della visualizzazione.  
    * Toccare l'icona Condividi snapshot ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) per [aggiungere annotazioni al riquadro e condividerlo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con altre persone.
    * Toccare l'icona Apri report ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) per [visualizzare il report](mobile-reports-in-the-mobile-apps.md) nell'app per dispositivi mobili.
-3. In alcuni casi l'autore del dashboard ha aggiunto un collegamento a un riquadro. In tal caso, quando si toccano i puntini di sospensione verticali (**...**) verrà visualizzata l'opzione **Apri collegamento** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. In alcuni casi l'autore del dashboard ha aggiunto un collegamento a un riquadro. In tal caso, quando si toccano i puntini di sospensione verticali ( **...** ) verrà visualizzata l'opzione **Apri collegamento** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

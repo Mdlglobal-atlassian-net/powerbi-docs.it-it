@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f66cc9f911c63703accb348e49133dbf3587d58a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265139"
+---
 **Power BI Desktop** può connettersi a un ampio intervallo di origini dati, inclusi i database locali, le cartelle di lavoro di Excel e i servizi cloud. Attualmente, oltre 59 servizi cloud diversi, ad esempio GitHub e Marketo, dispongono di connettori specifici ed è possibile connettersi a origini generiche tramite estensioni xml, csv, testo e ODBC. Power BI recupera persino i dati tabulari direttamente da un URL di sito Web. Iniziamo aprendo Power BI Desktop ed eseguendo la connessione ai dati.
 
 Dopo aver avviato **Power BI Desktop** e aver superato la schermata iniziale, è possibile scegliere Recupera dati dalla barra multifunzione della scheda **Home**.

@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661464"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054869"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenuto **recente** nel servizio Power BI
 Il contenuto recente è costituito dagli ultimi elementi visitati nel servizio Power BI, per un massimo di 20 elementi.  Sono inclusi dashboard, report, app e cartelle di lavoro in tutte le aree di lavoro.
@@ -37,7 +37,7 @@ Se sono presenti più di cinque elementi visitati di recente, selezionare **Visu
 
 ![Visualizzare tutto il contenuto recente](./media/end-user-recent/power-bi-recent-list.png)
 
-Da qui è possibile interagire con il contenuto come si farebbe con le singole schede [**Dashboard**](end-user-dashboards.md), [**Report**](end-user-reports.md) e **Cartelle di lavoro** e la schermata delle app <!--[**Apps**](end-user-apps.md)-->.
+Da qui è possibile interagire con il contenuto come si farebbe con le singole [ **dashboard**](end-user-dashboards.md), [ **report**](end-user-reports.md), e  **Le cartelle di lavoro** schede e nelle App <!--[**Apps**](end-user-apps.md)--> schermata.
 
 ## <a name="next-steps"></a>Passaggi successivi
 <!--[Power BI service Apps](end-user-apps.md)-->

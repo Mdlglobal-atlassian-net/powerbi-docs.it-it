@@ -1,20 +1,20 @@
 ---
 title: Usare la sicurezza a livello di riga con il contenuto incorporato di Power BI
 description: Informazioni sulla procedura da seguire per incorporare il contenuto di Power BI all'interno dell'applicazione.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328011"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354150"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
@@ -49,7 +49,7 @@ Alcuni aspetti da notare in questo schema:
 
 * Tutte le misure, ad esempio **Total Sales**, sono archiviate nella tabella dei fatti **Sales**.
 * Sono presenti altre quattro tabelle delle dimensioni correlate: **Item**, **Time**, **Store** e **District**.
-* Le frecce sulle linee delle relazioni indicano la direzione in cui i filtri possono essere applicati da una tabella all'altra. Ad esempio, se un filtro è posizionato su **Time[Date]**, nello schema corrente verrebbero filtrati solo i valori presenti nella tabella **Sales**. Questo filtro non influisce su altre tabelle, perché tutte le frecce sulle linee relative alle relazioni fanno riferimento alla tabella Sales, non ad altre tabelle.
+* Le frecce sulle linee delle relazioni indicano la direzione in cui i filtri possono essere applicati da una tabella all'altra. Ad esempio, se un filtro è posizionato su **Time[Date]** , nello schema corrente verrebbero filtrati solo i valori presenti nella tabella **Sales**. Questo filtro non influisce su altre tabelle, perché tutte le frecce sulle linee relative alle relazioni fanno riferimento alla tabella Sales, non ad altre tabelle.
 * La tabella **District** indica il responsabile per ogni area:
   
     ![Righe all'interno della tabella District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
@@ -64,7 +64,7 @@ Ecco come:
 2. Creare un nuovo ruolo denominato **Manager**.
 
     ![Crea nuovo ruolo](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. Nella tabella **District** immettere questa espressione DAX: **[District Manager] = USERNAME()**.
+3. Nella tabella **District** immettere questa espressione DAX: **[District Manager] = USERNAME()** .
 
     ![Istruzione DAX per la regola di sicurezza a livello di riga](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Per verificare che le regole funzionino correttamente, nella scheda **Creazione di modelli** selezionare **Visualizza come ruoli** e quindi il ruolo **Manager** creato, insieme ad **Altri utenti**. Per l'utente, immettere **AndrewMa**.
@@ -83,9 +83,9 @@ Gli utenti vengono autenticati e autorizzati dall'applicazione e i token di inco
 
 L'API accetta un elenco di identità con l'indicazione dei set di dati pertinenti. Per il corretto funzionamento della sicurezza a livello di riga, è necessario passare quanto segue come parte dell'identità.
 
-* **username (obbligatorio)**: stringa che può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente. Il nome utente può essere creato con i caratteri *ASCII*.
-* **roles (obbligatoria)**: stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, sarà necessario passarli come matrice di stringhe.
-* **dataset (obbligatorio)**: set di dati applicabile per l'artefatto che verrà incorporato.
+* **username (obbligatorio)** : stringa che può semplificare l'identificazione dell'utente quando si applicano le regole di sicurezza a livello di riga. È possibile specificare solo un utente. Il nome utente può essere creato con i caratteri *ASCII*.
+* **roles (obbligatoria)** : stringa contenente i ruoli da selezionare quando si applicano le regole di sicurezza a livello di riga. Se si passa più di un ruolo, sarà necessario passarli come matrice di stringhe.
+* **dataset (obbligatorio)** : set di dati applicabile per l'artefatto che verrà incorporato.
 
 Per creare il token di incorporamento, usare il metodo **GenerateTokenInGroup** su **PowerBIClient.Reports**.
 
@@ -98,7 +98,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync(GroupId, report.Id, generateTokenRequestParameters);
 ```
 
-a
+to
 
 ```csharp
 var generateTokenRequestParameters = new GenerateTokenRequest("View", null, identities: new List<EffectiveIdentity> { new EffectiveIdentity(username: "username", roles: new List<string> { "roleA", "roleB" }, datasets: new List<string> { "datasetId" }) });
@@ -145,9 +145,9 @@ La funzionalità CustomData può essere usata solo per i modelli presenti in **A
 
 La funzionalità CustomData consente di aggiungere un filtro di riga quando si visualizzano i dati di Power BI nell'applicazione quando si usa **Azure Analysis Services** come origine dati (visualizzazione dei dati di Power BI connessi ad Azure Analysis Services all'interno dell'applicazione ).
 
-La funzionalità CustomData consente di passare testo libero (stringa) usando la proprietà della stringa di connessione CustomData. Analysis Services usa questo valore tramite la funzione *CUSTOMDATA()*.
+La funzionalità CustomData consente di passare testo libero (stringa) usando la proprietà della stringa di connessione CustomData. Analysis Services usa questo valore tramite la funzione *CUSTOMDATA()* .
 
-L'unico modo per usare la sicurezza a livello di riga dinamica (che usa valori dinamici per la valutazione del filtro) in **Azure Analysis Services** consiste nell'usare la funzione *CUSTOMDATA()*.
+L'unico modo per usare la sicurezza a livello di riga dinamica (che usa valori dinamici per la valutazione del filtro) in **Azure Analysis Services** consiste nell'usare la funzione *CUSTOMDATA()* .
 
 È possibile usarla nella query DAX del ruolo, ma anche senza ruoli in una query DAX di misura.
 CustomData fa parte della funzionalità di generazione del token per gli elementi seguenti: dashboard, report e riquadro. I dashboard possono avere più identità CustomData (una per riquadro/modello).
@@ -205,7 +205,7 @@ La procedura seguente descrive come iniziare a configurare la funzionalità Cust
 
     ![Creazione del ruolo - Impostazioni di appartenenza](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Impostare la query DAX in **Filtri di riga** usando la funzione *CUSTOMDATA()*.
+5. Impostare la query DAX in **Filtri di riga** usando la funzione *CUSTOMDATA()* .
 
     ![Creazione del ruolo - Impostazione dei filtri di riga](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
@@ -214,6 +214,8 @@ La procedura seguente descrive come iniziare a configurare la funzionalità Cust
     ![Esempio di report Power BI](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. Usare le API Power BI per usare la funzionalità CustomData nell'applicazione.  Quando si genera un token con la funzionalità CustomData, è necessario avere un nome utente. Il nome utente deve essere uguale all'UPN dell'utente master. L'utente master deve essere un membro dei ruoli creati. Se non viene specificato alcun ruolo, per la valutazione della sicurezza a livello di riga vengono usati tutti i ruoli di cui è membro l'utente master.
+
+    Quando si lavora con un [entità servizio](embed-service-principal.md), è anche necessario eseguire i passaggi precedenti al posto di un account master. Durante la generazione di token di incorporamento, usare il [ID dell'oggetto entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id) come nome utente.
 
     > [!Note]
     > Quando si è pronti per distribuire l'applicazione nell'ambiente di produzione, il campo o l'opzione dell'account dell'utente master non deve essere visibile per l'utente finale.

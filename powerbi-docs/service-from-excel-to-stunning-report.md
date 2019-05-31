@@ -11,11 +11,11 @@ ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
 ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290395"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140644"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
 Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato si avrebbero impiegato ore per creare elementi visivi e formattare un report. L'ansia sale.
@@ -75,7 +75,7 @@ La manager desidera sapere quali sono i paesi più produttivi. Sarà stupita nel
 
 ![Oggetto visivo mappa nell'editor di report](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
 
-Visualizzazione delle vendite per prodotti e segmenti di mercato  Facile. Nel riquadro Campi, selezionare le caselle di controllo accanto ai campi Vendite, Prodotto e Segmento. Power BI crea immediatamente un grafico a barre. Modificare il tipo di grafico scegliendo una delle icone nel menu Visualizzazioni. Ad esempio, modificarlo in un grafico a barre in pila.  Per ordinare il grafico, selezionare i puntini di sospensione (...) > **Ordina per**.
+Visualizzazione delle vendite per prodotti e segmenti di mercato Facile. Nel riquadro Campi, selezionare le caselle di controllo accanto ai campi Vendite, Prodotto e Segmento. Power BI crea immediatamente un grafico a barre. Modificare il tipo di grafico scegliendo una delle icone nel menu Visualizzazioni. Ad esempio, modificarlo in un grafico a barre in pila.  Per ordinare il grafico, selezionare i puntini di sospensione (...) > **Ordina per**.
 
 ![Istogramma in pila nell'editor di report](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

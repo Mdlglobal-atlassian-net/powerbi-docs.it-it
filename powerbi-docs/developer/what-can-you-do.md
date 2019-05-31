@@ -1,20 +1,20 @@
 ---
 title: Quali operazioni possono eseguire gli sviluppatori con Power BI?
 description: Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi personalizzati fino ai set di dati in streaming.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872686"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61262659"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Quali operazioni possono eseguire gli sviluppatori con Power BI?
 
@@ -60,8 +60,8 @@ Per informazioni su alcune attività che è possibile eseguire con le API Power 
 
 [Incorporamento con Power BI](embedding.md)  
 
-[Sviluppo di un oggetto visivo personalizzato di Power BI](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
+[Developing a Power BI custom visual](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/) (Sviluppo di un oggetto visivo personalizzato di Power BI)
 
-[Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?](overview-of-power-bi-rest-api.md)
+[Quali operazioni possono eseguire gli sviluppatori con le API Power BI?](overview-of-power-bi-rest-api.md)
 
-[Power BI Dev Center](https://powerbi.microsoft.com/developers/)
+[Centro per sviluppatori Power BI](https://powerbi.microsoft.com/developers/)

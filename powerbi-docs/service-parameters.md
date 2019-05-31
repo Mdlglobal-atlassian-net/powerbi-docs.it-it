@@ -11,11 +11,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8db6f106ecc2285cb66ff980bc72fa666456f81a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274790"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61226027"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Modificare le impostazioni dei parametri nel servizio Power BI
 Gli autori dei report aggiungono i parametri di query ai report in Power BI Desktop. I parametri consentono di creare porzioni del report in funzione di uno o più *valori* di parametri. Ad esempio, un autore di report può creare un parametro che limita i dati a un singolo paese o regione o un parametro che definisce i formati accettabili di alcuni campi come, ad esempio, date, ore e testo.

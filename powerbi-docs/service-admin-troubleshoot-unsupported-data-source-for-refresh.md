@@ -3,7 +3,7 @@ title: Risoluzione dei problemi relativi all'origine dati non supportata per l'a
 description: Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
 author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
@@ -11,12 +11,12 @@ ms.date: 12/06/2017
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 340c3fe2dc18fadb6be0ac47556547e6131833bc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bd0ea66b8caf32e3244ed4e5eef648100fc5169e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280402"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188055"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
 Durante la configurazione di un set di dati per l'aggiornamento pianificato è possibile che venga visualizzato un errore.
@@ -41,7 +41,7 @@ Se non si è sicuri dell'origine dati usata, è possibile individuarla eseguendo
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiornamento dei dati](refresh-data.md)  
 [Power BI Gateway - Personale](service-gateway-personal-mode.md)  
-[Gateway dati locale](service-gateway-onprem.md)  
+[On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)  
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

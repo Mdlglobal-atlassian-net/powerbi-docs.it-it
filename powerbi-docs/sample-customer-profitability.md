@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 9fb22a50d68e414e8d75fc004629eaa2633b066c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216494"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61242679"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Esempio Analisi della redditività dei clienti per Power BI: Presentazione
 
@@ -149,7 +149,7 @@ In che modo varia la redditività per ogni settore? In che modo sono suddivisi i
 
 Nel grafico a bolle, la responsabile amministrativa cerca le bolle più grandi perché sono quelle che hanno l'impatto più significativo sui ricavi. Filtrare la pagina in base al responsabile facendo clic sui relativi nomi nel grafico ad aree facilita la visualizzazione dell'impatto di ogni responsabile in base al segmento del settore.
 
-* L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo) 
+* L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo)
 * Il grafico di Annelie è simile, tranne per il fatto che lei si concentra solo su una manciata di segmenti del settore, con particolare attenzione al segmento Federal e al prodotto Gladius.
 * Carlos è chiaramente concentrato sul segmento Services, con buon profitto. Ha migliorato notevolmente la percentuale di varianza per il segmento High Tech e in un nuovo segmento, Industrial, ha prodotto risultati eccezionali rispetto al budget.
 * Tina lavora con pochi segmenti e vanta la percentuale di margine lordo più alta di tutti, ma le dimensioni in gran parte ridotte delle sue bolle mostrano che il suo impatto sul bilancio aziendale è minimo.
