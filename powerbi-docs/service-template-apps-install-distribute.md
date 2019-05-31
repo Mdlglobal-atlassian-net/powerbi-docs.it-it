@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249840"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578578"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Installare e distribuire le app modello nell'organizzazione - Power BI (anteprima)
 
-Le nuove *app modello* di Power BI consentono ai partner Power BI di creare app Power BI con un uso minimo o nullo di codice e quindi di distribuire le app a qualsiasi cliente Power BI. Questo articolo è destinato agli analisti di Power BI. L'articolo descrive come installare, personalizzare e distribuire un'app modello creata da un partner Power BI. Se si vuole creare app modello da distribuire autonomamente, vedere [Creare un'app modello in Power BI](service-template-apps-create.md).
+Sei un analista di Power BI? Se, pertanto, questo articolo illustra la procedura per installare *App modello* per connettersi a molti dei servizi usati per eseguire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics e Google Analitica. È possibile modificare il dashboard e report per soddisfare le esigenze dell'organizzazione e quindi distribuirli ai colleghi come un *app*. 
 
 ![App Power BI installate](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Quando si installa un'app di modello creata da un partner Power BI, è possibile modificarla in modo da soddisfare le esigenze della propria organizzazione e quindi distribuirla ai colleghi come app.  
+Se si vuole creare app modello da distribuire autonomamente, vedere [Creare un'app modello in Power BI](service-template-apps-create.md). Partner Power BI possono compilare le app di Power BI con una minima o senza alcuna codifica e distribuirli ai clienti di Power BI. 
 
 ## <a name="prerequisites"></a>Prerequisiti  
 
-Di seguito sono elencati i requisiti per l'installazione, la personalizzazione e la distribuzione di un'app modello:  
+Di seguito sono elencati i requisiti per l'installazione, la personalizzazione e la distribuzione di un'app modello: 
 
 - Una [licenza di Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Conoscenza dei [concetti di base di Power BI](service-basic-concepts.md)
@@ -106,6 +106,6 @@ Dopo aver aggiornato l'app per la propria organizzazione, si è pronti per pubbl
 
 
 
-  
+￼ 
 
  
