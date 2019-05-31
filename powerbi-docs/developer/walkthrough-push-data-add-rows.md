@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710404"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passaggio 5: Aggiungere righe a una tabella di Power BI
@@ -311,7 +311,7 @@ Di seguito è riportato il [listato di codice completo](#code).
     }
 ```
 
-Anche se nel codice precedente si specifica **_//Get the first id_** (Ottiene il primo ID), l'operazione corretta da eseguire è quella di cercare il set di dati in base al nome.
+Anche se nel codice precedente si specifica ** _//Get the first id_** (Ottiene il primo ID), l'operazione corretta da eseguire è quella di cercare il set di dati in base al nome.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Eseguire il push dei dati in un dashboard di Power BI](walkthrough-push-data.md)  
