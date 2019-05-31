@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662412"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412893"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -142,6 +142,8 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 ## <a name="h"></a>H
 **high-density visuals (oggetti visivi ad alta densità)** Oggetti visivi con più punti dati di quanti Power BI possa eseguire il rendering. Power BI preleva esempi dei dati per visualizzarne forma e outlier.
 
+**Home** la durata per gli utenti del servizio Power BI di destinazione predefinita. Non modifica alcuna operazione. Può essere chiamato Power BI Home o semplicemente Home.
+
 ## <a name="i"></a>I
 
 **insights (informazioni dettagliate)** L'analisi automatica dei dati eseguita tramite l'esecuzione dei nostri algoritmi di machine learning sulle informazioni dettagliate.
@@ -172,7 +174,7 @@ Prima istanza: riquadro di spostamento a sinistra Menzioni successive: riquadro 
 
 ## <a name="n"></a>N
 
-**native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)*. È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi personalizzati.
+**native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)* . È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi personalizzati.
 
 **navigation pane (riquadro di spostamento)** Vedere la voce **riquadro di spostamento a sinistra**
 
@@ -207,7 +209,7 @@ Prima istanza: riquadro di spostamento a sinistra Menzioni successive: riquadro 
 
 **pin, unpin (aggiungere, rimuovere)** L'azione di inserire un oggetto visivo, in genere da un report, in un dashboard.
 
-**Power BI**, **Power BI service (servizio Power BI)**, **Power BI Desktop**, **Power BI mobile (Power BI per dispositivi mobili)** Alcune delle offerte di Power BI. *Power BI* è il termine generale. Viene spesso usato al posto di un nome completo del prodotto, ad esempio *Power BI service (servizio Power BI)* e *Power BI mobile (Power BI per dispositivi mobili)*, dopo la prima menzione del nome completo del prodotto.
+**Power BI**, **Power BI service (servizio Power BI)** , **Power BI Desktop**, **Power BI mobile (Power BI per dispositivi mobili)** Alcune delle offerte di Power BI. *Power BI* è il termine generale. Viene spesso usato al posto di un nome completo del prodotto, ad esempio *Power BI service (servizio Power BI)* e *Power BI mobile (Power BI per dispositivi mobili)* , dopo la prima menzione del nome completo del prodotto.
 
 **Power BI Desktop** Detto anche *Desktop*. Applicazione Windows gratuita di Power BI che può essere installata nel computer locale e che consente di connettersi ai dati, trasformandoli e visualizzandoli. Usata da amministratori e progettisti di report. Per altre informazioni, vedere [Che cos'è Power BI](../power-bi-overview.md).
 
@@ -288,7 +290,7 @@ Nei dispositivi mobili, la condivisione può fare riferimento alla funzionalità
 
 **streaming data (dati di streaming)** Vedere la voce *streaming in tempo reale*.
 
-**subscriptions (sottoscrizioni)**, **Subscribe (Sottoscrivi)**  
+**subscriptions (sottoscrizioni)** , **Subscribe (Sottoscrivi)**  
 È possibile abbonarsi a pagine di report, app e dashboard e ricevere messaggi di posta elettronica contenenti uno snapshot. Richiede una licenza Power BI Pro.
 
 **summarization (esecuzione del riepilogo)** [Power BI Desktop] L'operazione applicata ai valori in una colonna.

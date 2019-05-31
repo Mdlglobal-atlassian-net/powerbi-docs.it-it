@@ -8,29 +8,37 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/29/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 43046a5fab33f384a6d9f573a992843fa84a0713
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 7148a52d7c7475fbe685f83b1e1cc325521460db
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662228"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66413147"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Filtro incrociato per gli oggetti visivi in un report di Power BI
 Una delle funzionalità interessanti di Power BI è il modo in cui sono interconnessi tutti gli oggetti visivi in una pagina del report. Se si seleziona un punto dati in uno degli oggetti visivi, tutti gli altri oggetti visivi nella pagina che contengono tali dati cambiano in base alla selezione. 
 
 ![Video delle interazioni tra oggetti visivi](media/end-user-interactions/interactions.gif)
 
-Per impostazione predefinita, le visualizzazioni in una pagina di report possono essere usate per applicare un filtro incrociato o un'evidenziazione incrociata ed eseguire il drill nelle altre visualizzazioni nella pagina. Ad esempio, se si seleziona uno stato in una visualizzazione mappa, potrebbe essere evidenziato l'istogramma e il grafico a linee potrebbe essere filtrato in modo da visualizzare solo i dati applicabili allo stato selezionato.
+Per impostazione predefinita, la selezione di un punto dati in una visualizzazione in una pagina del report sarà il filtro incrociato, un'evidenziazione incrociata e analizzare i dati nelle altre visualizzazioni nella pagina. 
 
-Vedere [Informazioni su filtri ed evidenziazione](../power-bi-reports-filters-and-highlighting.md). Se è presente anche una visualizzazione che supporta il [drill](../power-bi-visualization-drill-down.md) per impostazione predefinita, l'esecuzione del drill in una visualizzazione non ha alcun impatto sulle altre visualizzazioni nella pagina del report. 
+Ciò può essere utile per identificare un valore nei dati contribuisce a un altro. Ad esempio, selezionando il segmento Moderation nel grafico ad anello, evidenzia il contributo da tale segmento a ogni colonna nel totale unità per il grafico di mese, e lo ha filtrato il grafico a linee sulla destra.
 
-Il modo esatto in cui interagiscono gli oggetti visivi in una pagina viene impostato dal *progettista* del report. I progettisti hanno la possibilità di attivare e disattivare la interazioni tra gli oggetti visivi e di modificare il comportamento predefinito per filtro incrociato, evidenziazione incrociata e drill.
+![immagine di oggetti visivi che interagiscono](media/end-user-interactions/power-bi-interactions.png)
+
+Vedere [Informazioni su filtri ed evidenziazione](../power-bi-reports-filters-and-highlighting.md). 
+
+Il modo esatto in cui interagiscono gli oggetti visivi in una pagina viene impostato dal *progettista* del report. I progettisti hanno la possibilità di attivare e disattivare la interazioni tra gli oggetti visivi e di modificare il comportamento predefinito per filtro incrociato, evidenziazione incrociata e drill. 
   
 > [!NOTE]
 > I termini *filtro incrociato* ed *evidenziazione incrociata* vengono usati per distinguere il comportamento qui descritto da ciò che accade quando si usa il riquadro **Filtri** per filtrare ed evidenziare le visualizzazioni.  
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+- Se il report contiene una visualizzazione che supporti [drill](../power-bi-visualization-drill-down.md), per impostazione predefinita, eseguire il drill-una visualizzazione non ha alcun impatto sulle altre visualizzazioni nella pagina del report.     
+- Se si usa visualA per interagire con visualB, filtri a livello di oggetto visivo da visualA verranno applicati a visualB.
+
+## <a name="next-steps"></a>Passaggi successivi
 [Come usare i filtri dei report](../power-bi-how-to-report-filter.md)
