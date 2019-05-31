@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256257"
+---
 Questa è la sezione relativa a **pubblicazione e condivisione** del corso di **apprendimento guidato** per Power BI.
 
 Ora che si è appreso il modo in cui Excel e Power BI si integrano in tutta semplicità e sono state acquisite informazioni complete sugli oggetti visivi che è possibile creare in report e dashboard, sarà utile scoprire in che modo condividere questi elementi con colleghi e amici. Con Power BI le attività di **pubblicazione e condivisione** sono molto semplici.

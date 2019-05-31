@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39678850b2e1acd16c678206feba8cccffa6477d
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.openlocfilehash: 383d28a9e24165b12cda73ee254541a32db4391c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327988"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61325000"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Analizzare i dati sui costi e i dati di utilizzo di Azure in Power BI Desktop
 
@@ -24,7 +24,9 @@ Power BI Desktop può connettersi ad Azure e ottenere dati approfonditi sull'uti
 
 Power BI attualmente supporta la connessione agli account di fatturazione contratto Enterprise e contratto del cliente.
 
-Gli utenti con contratto Enterprise devono connettersi con il connettore Informazioni dettagliate sul consumo di Azure. Gli utenti con account contratto del cliente devono connettersi con il connettore Gestione costi di Azure.
+* **Contratto Enterprise Agreement** gli utenti devono connettersi con il **connettore di Azure Consumption Insights**.
+
+* **Contratto cliente** gli utenti devono connettersi con il **connettore di gestione costi di Azure**.
 
 ## <a name="connect-with-azure-consumption-insights"></a>Connettersi con Informazioni dettagliate sul consumo di Azure
 
@@ -34,7 +36,7 @@ Questa sezione illustra come connettersi e ottenere i dati necessari e come eseg
 
 Per connettersi usando il connettore di **Azure Consumption Insights** è necessario avere accesso alle funzionalità Enterprise nel portale di Azure.
 
-Per connettersi con il connettore di **Azure Consumption Insights**, selezionare **Recupera dati** nella barra multifunzione **Home** in **Power BI Desktop**. Selezionare **Online Services** nelle categorie a sinistra per visualizzare **Microsoft Azure Consumption Insights (Beta)**. Selezionare **Connetti**.
+Per connettersi con il connettore di **Azure Consumption Insights**, selezionare **Recupera dati** nella barra multifunzione **Home** in **Power BI Desktop**. Selezionare **Online Services** nelle categorie a sinistra per visualizzare **Microsoft Azure Consumption Insights (Beta)** . Selezionare **Connetti**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
@@ -107,7 +109,7 @@ Per usare report e creare query, seguire questa procedura:
 * *Non* usare *numberOfMonth* insieme a *startBillingDataWindow* o *endBillingDataWindow*
 
 ## <a name="migrating-from-the-azure-enterprise-connector"></a>Migrazione dal connettore di Azure Enterprise
-Alcuni clienti hanno creato oggetti visivi con il *connettore di Azure Enterprise (Beta)*, che verrà sospeso e sostituito dal connettore di **Azure Consumption Insights**. Il connettore di **Azure Consumption Insights** offre funzionalità e miglioramenti che includono i seguenti:
+Alcuni clienti hanno creato oggetti visivi con il *connettore di Azure Enterprise (Beta)* , che verrà sospeso e sostituito dal connettore di **Azure Consumption Insights**. Il connettore di **Azure Consumption Insights** offre funzionalità e miglioramenti che includono i seguenti:
 
 * Origini dati aggiuntive disponibili per *Riepilogo saldi* e *Acquisti del Marketplace*
 * Nuovi parametri avanzati, ad esempio *startBillingDataWindow* e *endBillingDataWindow*
@@ -155,7 +157,7 @@ Molti dashboard hanno tabelle aggiuntive che vengono usate per operazioni di ric
 A questo punto della procedura, la maggior parte degli oggetti visivi, delle tabelle e dei drill-down originali dovrebbe funzionare come previsto. Potrebbe essere tuttavia necessario apportare alcune modifiche di lieve entità alla formattazione per ottenere l'aspetto desiderato. Esaminare ogni dashboard e oggetto visivo per verificare che l'aspetto sia quello desiderato.
 
 ## <a name="using-the-azure-consumption-and-insights-aci-api-to-get-consumption-data"></a>Uso dell'API Azure Consumption Insights (ACI) per ottenere dati sul consumo
-Azure offre anche l'[**API Azure Consumption Insights (ACI)**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). È possibile creare soluzioni personalizzate per la raccolta, la creazione di report e la visualizzazione di dati di consumo di Azure tramite l'API ACI.
+Azure offre anche l'[**API Azure Consumption Insights (ACI)** ](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). È possibile creare soluzioni personalizzate per la raccolta, la creazione di report e la visualizzazione di dati di consumo di Azure tramite l'API ACI.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Mapping di nomi e dettagli di utilizzo tra il portale, il connettore e l'API
 Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'API e nel connettore, ma non sempre identici. Per chiarire questo aspetto, la tabella seguente illustra il mapping tra l'API, il connettore e le colonne visibili nel portale di Azure. La tabella indica anche se la colonna è obsoleta. Per altre informazioni e definizioni di questi termini, vedere il [dizionario dei dati di fatturazione di Azure](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail).
@@ -185,7 +187,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | Meter Region |meterRegion |Meter Region |No |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
-| Mese | |Mese |No |
+| Month | |Month |No |
 | Product |prodotto |Product |No |
 | ProductId |productId | |Sì |
 | Resource Group |resourceGroup |Resource Group |No |
@@ -204,7 +206,7 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 | Tag |tags |Tag |No |
 | TagsId | | |Sì |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |No |
-| Anno | |Anno |No |
+| Year | |Year |No |
 | SubscriptionId |subscriptionId |SubscriptionId |Sì |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |No |
 
@@ -212,7 +214,12 @@ Le colonne e i nomi dei dettagli presenti nel portale di Azure sono simili nell'
 
 Questa sezione illustra come connettersi all'account di fatturazione contratto del cliente.
 
-Per connettersi con il connettore di **Gestione costi di Azure**, selezionare **Recupera dati** nella barra multifunzione **Home** in **Power BI Desktop**.  Selezionare **Azure** nelle categorie a sinistra per vedere **Gestione costi di Azure (Beta)**. Selezionare **Connetti**.
+> [!NOTE]
+> Il connettore di gestione costi di Azure supporta attualmente i clienti sul **contratto cliente**.  **Contratto Enterprise Agreement** i clienti devono usare il connettore di Microsoft Azure Consumption Insights.
+> 
+> 
+
+Per connettersi con il connettore di **Gestione costi di Azure**, selezionare **Recupera dati** nella barra multifunzione **Home** in **Power BI Desktop**.  Selezionare **Azure** nelle categorie a sinistra per vedere **Gestione costi di Azure (Beta)** . Selezionare **Connetti**.
 
 ![](media/desktop-connect-azure-consumption-insights/azure-cost-management-00.png)
 
@@ -234,8 +241,8 @@ Verrà chiesto di accedere con l'indirizzo di posta elettronica e la password di
 * **Marketplace**: indica gli addebiti per Azure Marketplace basati sull'utilizzo.
 * **Pricesheets**: indica le tariffe applicabili dal contatore per il profilo di fatturazione specificato.
 * **RI charges**: indica gli addebiti associati alle istanze riservate negli ultimi 24 mesi.
-* **RI recommendations (single)**: fornisce le raccomandazioni per l'acquisto di istanze riservate in base alle tendenze di utilizzo di una sottoscrizione singola negli ultimi 7, 30 o 60 giorni.
-* **RI recommendations (shared)**: fornisce le raccomandazioni per l'acquisto di istanze riservate in base alle tendenze di utilizzo di tutte le sottoscrizioni negli ultimi 7, 30 o 60 giorni.
+* **RI recommendations (single)** : fornisce le raccomandazioni per l'acquisto di istanze riservate in base alle tendenze di utilizzo di una sottoscrizione singola negli ultimi 7, 30 o 60 giorni.
+* **RI recommendations (shared)** : fornisce le raccomandazioni per l'acquisto di istanze riservate in base alle tendenze di utilizzo di tutte le sottoscrizioni negli ultimi 7, 30 o 60 giorni.
 * **RI usage**: fornisce i dettagli del consumo per le istanze riservate nell'ultimo mese.
 * **Usage details**: indica il dettaglio delle quantità utilizzate e gli addebiti stimati per l'ID del profilo di fatturazione specificato.
 

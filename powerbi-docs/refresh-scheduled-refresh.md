@@ -1,21 +1,21 @@
 ---
 title: Configurare l'aggiornamento pianificato
 description: Questo articolo descrive la procedura per selezionare un gateway e configurare l'aggiornamento pianificato.
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289419"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413882"
 ---
 # <a name="configuring-scheduled-refresh"></a>Configurazione dell'aggiornamento pianificato
 
@@ -69,7 +69,7 @@ Se si usa il gateway dati locale per aggiornare i dati, non è necessario specif
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Quando ci si connette a SharePoint locale per l'aggiornamento dei dati, Power BI supporta solo i meccanismi di autenticazione *Anonymous* (Anonimo), *Basic* (Di base) e *Windows (NTLM/Kerberos)*. Power BI non supporta *ADFS* o qualsiasi meccanismo di *autenticazione basata su form* per l'aggiornamento dei dati di origini dati di SharePoint locale.
+> Quando ci si connette a SharePoint locale per l'aggiornamento dei dati, Power BI supporta solo i meccanismi di autenticazione *Anonymous* (Anonimo), *Basic* (Di base) e *Windows (NTLM/Kerberos)* . Power BI non supporta *ADFS* o qualsiasi meccanismo di *autenticazione basata su form* per l'aggiornamento dei dati di origini dati di SharePoint locale.
 > 
 > 
 
@@ -124,7 +124,7 @@ A volte, l'aggiornamento dei dati non funziona come previsto. In genere si tratt
 ## <a name="next-steps"></a>Passaggi successivi
 [Aggiornamento dei dati in Power BI](refresh-data.md)  
 [Power BI Gateway - Personale](service-gateway-personal-mode.md)  
-[Gateway dati locale](service-gateway-onprem.md)  
+[On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)  
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 

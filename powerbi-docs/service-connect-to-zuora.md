@@ -11,11 +11,11 @@ ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008604"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61156982"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Connettersi a Zuora con Power BI
 Zuora per Power BI consente di visualizzare dati importanti relativi a ricavi, fatturazione e sottoscrizioni. È possibile usare il dashboard e i report predefiniti per analizzare le tendenze di utilizzo, tenere traccia di fatture e pagamenti e monitorare i ricavi ricorrenti oppure personalizzare dashboard e report in base alle esigenze specifiche.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284105"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403439"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Confronto tra Power BI Desktop e il servizio Power BI
 
@@ -48,7 +48,7 @@ Questo video illustra l'editor di report in Power BI Desktop.
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Collaborazione nel servizio Power BI
 
-Dopo aver creato i report, è possibile salvarli in un'*area di lavoro* del **servizio Power BI** in cui si collabora con i colleghi. Oltre ai report è possibile creare *dashboard*. Dashboard e report possono quindi essere condivisi con gli utenti dei report all'interno e all'esterno dell'organizzazione. Gli utenti visualizzano i report nel servizio Power BI nella [visualizzazione di lettura](consumer/end-user-reading-view.md), non nella visualizzazione di modifica. Non hanno infatti accesso a tutte le funzionalità disponibili per gli autori dei report. 
+Dopo aver creato i report, è possibile salvarli in un'*area di lavoro* del **servizio Power BI** in cui si collabora con i colleghi. Oltre ai report è possibile creare *dashboard*. Dashboard e report possono quindi essere condivisi con gli utenti dei report all'interno e all'esterno dell'organizzazione. Gli utenti visualizzano i report nel servizio Power BI nella [visualizzazione di lettura](consumer/end-user-reading-view.md), non nella visualizzazione di modifica. Non hanno accesso a tutte le funzionalità disponibili per gli autori del report. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -1,32 +1,102 @@
 ---
 title: Novità del Server di report di Power BI
 description: Informazioni sulle novità del Server di report di Power BI. Questa sezione riguarda le funzionalità principali e viene aggiornata con il rilascio di nuovi elementi.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/22/2019
-ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 364795a25aaffb92afc4a7148c9bf6b3f88d2ac8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662458"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187305"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
-Informazioni sulle novità del Server di report di Power BI. Questo articolo riguarda le funzionalità principali e viene aggiornato con il rilascio di nuovi elementi.
-
-Per scaricare le versioni più recenti del server di report di Power BI e di Power BI Desktop ottimizzato per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
+Informazioni sulle novità introdotta in Server di Report di Power BI e Power BI Desktop ottimizzato per il Server di Report di Power BI. Questo articolo riguarda le funzionalità principali e viene aggiornato con il rilascio di nuovi elementi.
 
 Per informazioni sulle "Novità" di Power BI, vedere:
 
 * [Novità del servizio Power BI](../service-whats-new.md)
 * [Novità di Power BI Desktop](../desktop-latest-update.md)
 * [Novità delle app per dispositivi mobili per Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2019-power-bi-desktop-for-power-bi-report-server"></a>Maggio 2019: Power BI Desktop per Power BI Report Server
+
+Vedere le [Server di Report di Power BI maggio 2019](https://powerbi.microsoft.com/blog/power-bi-report-server-update-may-2019/) post di blog per informazioni dettagliate su tutte le nuove funzionalità.
+
+Ecco alcune delle novità della versione:
+
+### <a name="performance-analyzer"></a>Analizzatore prestazioni 
+
+Se il report viene eseguito più lentamente del previsto, provare il Performance Analyzer in Power BI Desktop. Quando si avvia, viene creato un file di log con le informazioni relative a ogni azione è eseguire nel report. Altre informazioni, vedere la [Performance Analyzer](../desktop-performance-analyzer.md).
+
+### <a name="new-modeling-view"></a>Nuova vista di modellazione
+
+Nella nuova vista di modellazione in Power BI Desktop, è possibile visualizzare e lavorare con set di dati complessi che contengono molte tabelle. Dati principali includono più layout di diagramma e modifica di colonne, misure e tabelle in blocco. Altre informazioni, vedere [modellazione visualizzazione](../desktop-modeling-view.md).
+
+### <a name="accessible-visual-interaction"></a>Interazione con oggetti visivi accessibile
+
+È possibile ora accedere punti dati di molti degli oggetti visivi predefiniti utilizzando la tastiera. Altre informazioni, vedere [accessibilità nei report di Power BI](../desktop-accessibility.md).
+
+### <a name="conditional-formatting-titles-and-web-url-actions"></a>Formattazione di titoli e le azioni URL web condizionale
+
+Report di Power BI sono interattivi. È opportuno che i titoli di un report sarebbero dinamici, in modo da riflettere lo stato corrente del report. È possibile utilizzare la stessa formattazione di espressione di associazione per rendere dinamico URL contenenti i pulsanti, forme e immagini. Altre informazioni, vedere [titles basate su espressioni](../desktop-conditional-format-visual-titles.md).
+
+### <a name="cross-highlight-by-axis-labels"></a>Evidenziazione incrociata in base alle etichette dell'asse
+
+Selezionare le etichette di categoria dell'asse in un oggetto visivo per l'evidenziazione incrociata di altri elementi in una pagina, esattamente come è possibile selezionare i punti dati in un oggetto visivo. Altre informazioni, vedere [evidenziazione incrociata](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting).
+
+### <a name="all-the-new-features"></a>Tutte le nuove funzionalità
+
+Ecco l'elenco di tutte le nuove funzionalità:
+
+### <a name="reporting"></a>Reporting
+
+- Evidenziazione incrociata su un singolo punto nei grafici a linee 
+- Ritorno a capo automatico sui titoli 
+- Aggiornare l'interazione visiva predefinita per applicare il filtro incrociato ¬
+- Angoli arrotondati per i bordi visual 
+- Singolo filtro dei dati seleziona  
+- Supporto della mappa termica per Bing maps  
+- Evidenziazione incrociata in base alle etichette dell'asse  
+- Formattazione della descrizione comando predefinita  
+- Il supporto di URL web statico per i pulsanti, forme e immagini  
+- Opzioni di allineamento di pagina   
+- Miglioramenti al riquadro selezione  
+- Interazione con oggetti visivi accessibile  
+- Formattazione di titoli degli oggetti visivi condizionale  
+- Per le azioni URL web per i pulsanti, forme e immagini di formattazione condizionale
+- Riquadro analizzatore delle prestazioni
+- Navigazione tramite tastiera tabella e matrice
+- Controllo di posizione di riga dati etichetta
+- Controllo delle dimensioni testo KPI visual indicatore
+
+### <a name="analytics"></a>Analisi
+
+- Visualizzare le date come gerarchia ora disponibile a livello generale  
+
+### <a name="modeling"></a>Creazione di modelli
+
+- Nuova visualizzazione disponibile a livello generale di modellazione
+- Nuove funzioni DAX
+- Aggiornare la funzione ALLSELECTED DAX
+- Disabilitare le tabelle di auto-date per i nuovi report
+
+## <a name="may-2019-power-bi-report-server"></a>Maggio 2019: Server di report di Power BI
+
+### <a name="support-for-trusted-visuals"></a>Supporto per gli oggetti visivi attendibili
+
+È stato aggiunto il supporto per gli oggetti visivi Trusted al Server di Report di Power BI. Attualmente Supportiamo Mapbox e PowerOn oggetti visivi. ESRI, Visio e PowerApps non sono supportati per questa versione.)
+
+### <a name="improved-security-features"></a>Migliori funzionalità di protezione
+
+**RestrictedResourceMimeTypeForUpload**, quali gli amministratori possono usare per specificare un elenco delimitato da virgole di tipi mime da escludere, ad esempio text/html.
 
 ## <a name="january-2019"></a>Gennaio 2019
 

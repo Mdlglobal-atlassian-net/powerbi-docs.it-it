@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281575"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565530"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -32,89 +32,78 @@ Un report di Power BI è una vista interattiva dei dati con elementi visivi che 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Aprire un report di Power BI nell'app per dispositivi mobili
 A seconda della provenienza, i report di Power BI sono archiviati in posizioni diverse nell'app per dispositivi mobili. Possono trovarsi in App, Condivisi con l'utente corrente, Aree di lavoro (inclusa l'Area di lavoro personale) oppure in un server di report. In alcuni casi si accede attraverso un dashboard correlato per ottenere un report, e talvolta sono elencati.
 
-* In un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro > **Apri report**.
+In elenchi e i menu, si noterà un'icona accanto a un nome di report, consentendo di comprendere che questo elemento è un report. 
+
+![report nell'area di lavoro](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+
+Sono presenti due icone per i report nelle App Power BI per dispositivi mobili:
+
+* ![Icona del report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che verrà visualizzato con orientamento orizzontale nell'app e avranno lo stesso aspetto come si presenta nel browser.
+
+* ![Icona di rapporto telefono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un report che include almeno una pagina di report ottimizzato phone, che verrà visualizzata in verticale. 
+
+Nota: Mantenendo il telefono in orizzontale, si otterranno sempre il layout verticale, anche se la pagina del report dispone di layout del telefono. 
+
+Per visualizzare un report da un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro > **aprire report**.
   
   ![Apri report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   Non tutti i riquadri offrono l'opzione di apertura in un report. Ad esempio, i riquadri creati ponendo una domanda nella casella Domande e risposte non aprono i report quando vengono toccati. 
   
-  In un telefono, il report verrà aperto in modalità orizzontale, a meno che non sia [ottimizzato per la visualizzazione in un telefono](mobile-reports-in-the-mobile-apps.md#view-reports-optimized-for-phones).
-  
-  ![Report per il telefono in modalità orizzontale](./media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
+## <a name="interacting-with-reports"></a>Interagire con i report
+Dopo aver creato un report aperto nell'app, è possibile iniziare a utilizzarlo. Esistono molti aspetti che è possibile eseguire con i report e i relativi dati. Nel piè di pagina report sono disponibili azioni che è possibile eseguire il report e toccando e se si tocca lungo i dati visualizzati nel report è possibile anche suddividere e ripartire i dati.
 
-## <a name="view-reports-optimized-for-phones"></a>Visualizzare i report ottimizzati per i telefoni
-Gli autori di report di Power BI possono creare un layout di report ottimizzato in modo specifico per telefoni. Le pagine dei report ottimizzate per i telefoni includono funzionalità aggiuntive. È ad esempio possibile eseguire il drill-down e ordinare gli oggetti visivi ed è possibile accedere ai [filtri aggiunti dall'autore del report alla pagina del report](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Il report viene aperto in un telefono filtrato in base ai valori usati per filtrare il report sul Web con un messaggio che segnala che ci sono filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
+### <a name="using-tap-and-long-tap"></a>Usando toccare e durata
+Fare clic su TAP uguale a quando il mouse. Pertanto, se si desidera eseguire l'evidenziazione incrociata il report in base a un punto dati, toccare su tale punto dati.
+Toccare un valore di filtro dei dati, rende tale valore selezionato e il resto del report di sezionamento per tale valore. Se si tocca un collegamento, pulsante o un segnalibro verrà attivarlo in base all'azione definito dall'autore.
 
-In un elenco di report un report ottimizzato è contrassegnato da un'icona speciale ![Icona del report per il telefono](./media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Si sarà probabilmente notato che quando toccano in un oggetto visivo, viene visualizzato un bordo. Nell'angolo superiore destro del bordo, sono i puntini di sospensione (...). Se tocchi su di esso verranno visualizzato un menu con operazioni che possono essere eseguite su tale oggetto visivo.
 
-![Aprire il report per il telefono](./media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
+![oggetto visivo del report e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-Quando si visualizza tale report in un telefono, viene aperto in visualizzazione verticale.
+### <a name="tooltip-and-drill-actions"></a>Azioni di Drill e della descrizione comando
 
-![Report in visualizzazione verticale](./media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
+Quando si prolungata tocca (toccare e tenere premuto) un punto dati, una descrizione comando verrà visualizzata la presentazione di punto dati rappresenta i valori. 
 
- Un report può includere una combinazione di pagine che non sono ottimizzate per i telefoni. In tal caso, quando si scorrono i report la visualizzazione passerà da verticale a orizzontale per ogni pagina.
+![descrizione comando del report](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-Altre informazioni sui [report ottimizzati per la visualizzazione telefono](mobile-apps-view-phone-report.md).
+Gli autori di report è possono definire le gerarchie nei dati e le relazioni tra le pagine del report. Gerarchia consente il drill-down, drill backup e il drill-through da un oggetto visivo e un valore di un'altra pagina del report. Pertanto, quando si tocca prolungata su un valore, oltre alla descrizione comandi, le opzioni di drill rilevante verranno visualizzato nel piè di pagina. 
 
-## <a name="use-slicers-to-filter-a-report"></a>Usare i filtri dei dati per filtrare un report
-Quando si progetta un report in Power BI Desktop o nel servizio Power BI, prendere in considerazione l'[aggiunta di filtri dei dati a una pagina del report](../../visuals/power-bi-visualization-slicers.md). Sia l'autore che i colleghi potranno così usare i filtri dei dati per filtrare la pagina in un browser e nelle app per dispositivi mobili. Quando si visualizza il report in un telefono, è possibile visualizzare e interagire con i filtri dei dati in modalità orizzontale e in una pagina ottimizzata per la modalità verticale del telefono. Se si seleziona un valore in un filtro dei dati o in un filtro nel browser, il valore verrà selezionato anche quando si visualizza la pagina nell'app per dispositivi mobili. Viene visualizzato un messaggio che indica che sono presenti filtri attivi nella pagina.  
+![segnalare azioni di drill](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-* Quando si seleziona un valore in un filtro dei dati nella pagina del report, vengono filtrati gli altri oggetti visivi nella pagina.
-  
-  ![Filtro dei dati del report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-slicer.png)
-  
-  In questa illustrazione, il filtro dei dati filtra l'istogramma in modo da mostrare solo i valori di luglio.
-
-## <a name="cross-filter-and-highlight-a-report"></a>Applicare un filtro incrociato ed evidenziare un report
-Quando si seleziona un valore in un oggetto visivo, gli altri oggetti visivi non vengono filtrati, ma vengono evidenziati i valori correlati in altri oggetti visivi.
-
-* Toccare un valore in un oggetto visivo.
-  
-  ![Filtro incrociato di una pagina](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-highlight.png)
-  
-  Se si tocca la colonna Large in un grafico, vengono evidenziati i valori correlati negli altri oggetti visivi. 
-
-## <a name="sort-a-visual-on-an-ipad-or-a-tablet"></a>Ordinare un oggetto visivo in un iPad o un tablet
-* Toccare il grafico, toccare i puntini di sospensione (**...**) e toccare il nome del campo.
-  
-   ![Ordinare un oggetto visivo](./media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
-* Per invertire l'ordinamento, toccare di nuovo i puntini di sospensione (**...**), quindi toccare di nuovo il nome dello stesso campo.
-
-## <a name="drill-down-and-up-in-a-visual"></a>Eseguire il drill-down e il drill-up in un oggetto visivo
-Se l'autore di un report ha aggiunto funzionalità di drill-down a un oggetto visivo, è possibile eseguire il drill-down nell'oggetto visivo per visualizzare i valori che ne fanno parte. È possibile [aggiungere il drill-down a un oggetto visivo](../end-user-drill.md) in Power BI Desktop o nel servizio Power BI. 
-
-* Toccare e tenere premuto su una barra o un punto specifico in un oggetto visivo per visualizzare la descrizione comando. In caso di drill-down, la parte inferiore della descrizione comando contiene delle frecce che è possibile toccare. 
-  
-  ![Eseguire il drill-down in un oggetto visivo](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
-
-* Per rieseguire il drill-up, toccare la freccia rivolta verso l'alto nella descrizione comando.
-  
-  ![Drill-up](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
-
-* È anche possibile eseguire il drill-down in tutti i punti dati di un oggetto visivo. Aprire l'oggetto in modalità messa a fuoco, toccare l'icona Esplora, quindi scegliere Mostra tutto al livello successivo oppure espandere per visualizzare il livello corrente e successivo.
-
-   ![Drill-down di tutti gli elementi di Power BI](./media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
-
-## <a name="drill-through-from-one-page-to-another"></a>Eseguire il drill-through da una pagina all'altra
-
-Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo, Power BI consente di passare a un'altra pagina nel report, filtrata in base al valore scelto. L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. In tal caso, è possibile scegliere la pagina di cui eseguire il drill-through. Nell'esempio seguente quando si tocca il valore nel misuratore, è possibile scegliere di eseguire il drill-through in **spent by business area** o **planning by business area**.
-
-![Report di drill-through di Power BI per dispositivi mobili](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
-
-Quando si esegue il drill-through, il pulsante Indietro consente di tornare alla pagina del report precedente.
+Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo, Power BI consente di passare a un'altra pagina nel report, filtrata in base al valore scelto.  L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. In tal caso, è possibile scegliere la pagina di cui eseguire il drill-through. Il pulsante Indietro consente di tornare alla pagina del report precedente.
 
 Leggere le informazioni su come [aggiungere il drill-through in Power BI Desktop](../../desktop-drillthrough.md).
+   
+   > [!IMPORTANT]
+   > Nell'app Power BI per dispositivi mobili, drill negli oggetti visivi tabella e matrice è abilitato tramite un solo valore di cella e non da intestazioni di riga e colonna.
+   
+   
+   
+### <a name="using-the-actions-in-the-report-footer"></a>Usare le azioni nel piè di pagina report
+Il piè di pagina del report sono disponibili azioni che è possibile eseguire nella pagina del report corrente o per l'intero report. Il piè di pagina ha un accesso rapido alle azioni più utili e tutte le azioni sono accessibili i puntini di sospensione (...).
 
-## <a name="show-data-and-copy-values"></a>Visualizzare i dati e copiare i valori
+![piè di pagina report](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-Selezionando il puntini di sospensione per le opzioni di menu (**...** ) nell'angolo superiore destro di una visualizzazione in un report per il telefono e scegliendo quindi **Mostra dati**, è possibile visualizzare i dati sottostanti una visualizzazione.
+Le azioni che eseguibili nel piè di pagina sono:
+1) Tra le selezioni di evidenziazione allo stato originale e reimpostare il filtro di report.
+2) Aprire il riquadro di conversazione per visualizzare o aggiungere commenti su questo report.
+3) Aprire il riquadro filtro per visualizzare e modificare il filtro correntemente applicato nel report.
+4) Elencare tutte le pagine di questo report. Se si tocca il nome di pagina verrà caricato e presentare tale pagina.
+Lo spostamento tra pagine del report è possibile scorrendo rapidamente dal bordo dello schermo al centro.
+5) Consente di visualizzare tutte le azioni report.
 
-![Opzione di menu Mostra dati in Power BI per dispositivi mobili](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+#### <a name="all-report-actions"></a>Tutte le azioni report
+Toccando il... Seleziona l'opzione nel piè di pagina report, consentiranno di elaborare tutte le azioni che eseguibili in un report. 
 
-Con un tocco prolungato su una cella nella tabella visualizzata comparirà il menu nativo per selezione e copia, quindi sarà possibile scegliere di copiare i dati dalla tabella (o l'intera tabella).
+![tutte le azioni report](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-![Report di drill-through di Power BI per dispositivi mobili](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
+Alcune delle azioni potrebbe disabilitare, poiché dipendono le funzionalità di report specifico.
+ad esempio:
+1) **Filtra per località corrente** è abilitato se i dati nel report è stati categorizzati dall'autore con i dati geografici. [Informazioni su come identificare i dati geografici nel report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+2) **Analisi per filtrare il report dal codice a barre** è abilitata solo se il set di dati nel report è stato contrassegnato come codice a barre. [Come si contrassegnare codici a barre in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
+3) **Invitare** è abilitata solo se si è autorizzati a condividere questo report con altri utenti. Hai l'autorizzazione solo se si è proprietari del report o se assegnato dal proprietario delle autorizzazioni di ricondivisione.
+4) **Aggiungere annotazioni e condividere** potrebbe essere disable se è presente un' [criteri di protezione Intune](https://docs.microsoft.com/intune/app-protection-policies) nell'organizzazione che vietata la condivisione dall'app Power BI per dispositivi mobili. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)

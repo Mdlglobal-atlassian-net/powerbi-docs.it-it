@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216103"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232798"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della spesa IT per Power BI: Presentazione
 
@@ -83,7 +83,7 @@ Ma osservare semplicemente il grafico e trarne delle conclusioni può essere fuo
    Nella prima area IT, **Infrastructure**, la percentuale è cambiata drasticamente tra il piano di varianza iniziale e la stima più recente del piano di varianza.
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>Pagina “YTD Spend by Cost Elements”
-Tornare al dashboard ed esaminare il riquadro **Var Plan %, Var LE3%**.
+Tornare al dashboard ed esaminare il riquadro **Var Plan %, Var LE3%** .
 
 ![](media/sample-it-spend/it5.png)
 

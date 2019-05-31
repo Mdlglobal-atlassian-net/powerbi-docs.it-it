@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2019376373268ff57802525ba5b7ee6b7a8ff32e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397793"
+---
 Quando in un report sono presenti molti elementi, Power BI consente di gestire la modalità di sovrapposizione. La disposizione degli elementi su più livelli, o uno sopra l'altro, è spesso detta ordine Z.
 
 Per gestire l'ordine Z degli elementi in un report, selezionare un elemento e usare il pulsante **Disponi** sulla scheda **Home** della barra multifunzione per modificare l'ordine Z.

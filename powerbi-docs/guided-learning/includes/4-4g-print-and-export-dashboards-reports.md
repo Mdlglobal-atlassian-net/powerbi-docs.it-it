@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 87a55881a9b6551dc9c7814696aa8d8252482a09
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256233"
+---
 A volte può essere necessario portare un report o un dashboard stampato a una riunione, per poterlo condividere con altri utenti. Con Power BI è possibile creare stampe degli oggetti visivi in alcuni modi diversi.
 
 Nel servizio Power BI selezionare i puntini di sospensione (tre punti) in alto a destra nel servizio e quindi fare clic su **Stampa dashboard**.

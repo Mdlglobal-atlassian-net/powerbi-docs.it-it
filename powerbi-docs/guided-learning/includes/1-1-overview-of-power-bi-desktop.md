@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265095"
+---
 Benvenuti nella seconda sezione di questo corso di **apprendimento guidato** per Power BI, denominata **Acquisizione dei dati**. Questa sezione illustra molte funzionalità e numerosi strumenti incentrati sui dati in Power BI, con un'attenzione particolare per Power BI Desktop. Molti strumenti si applicano anche al servizio Power BI, quindi si apprenderà il doppio delle nozioni in questa sezione.
 
 Quando si recuperano i dati, a volte non si trovano nel formato corretto o non sono abbastanza *puliti* come si desidera. In questa sezione si imparerà a recuperare i dati e a pulirli, un'operazione che a volte prende il nome di *pulizia* o *trasformazione* dei dati, oltre a conoscere alcuni utili suggerimenti per agevolarne il recupero.

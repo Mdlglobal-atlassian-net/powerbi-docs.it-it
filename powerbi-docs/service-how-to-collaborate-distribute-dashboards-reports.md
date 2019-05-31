@@ -1,5 +1,5 @@
 ---
-title: Modalità per la condivisione del lavoro
+title: Modalità per la condivisione del lavoro in Power BI
 description: In Power BI si possono condividere ed elaborare in collaborazione dashboard, report, riquadri e app in diversi modi, ognuno dei quali presenta vantaggi specifici.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 04/15/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: cd2413c8f9387a5ebc7de758108e382265c3af42
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 10f287c72cbdec8885952dd7cec766420eabfb2e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290418"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234902"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Modalità per la condivisione del lavoro in Power BI
 
@@ -29,7 +29,7 @@ In questo articolo vengono confrontate le opzioni disponibili per la collaborazi
 * Stampa di report.
 * Incorporare report in portali sicuri o siti Web pubblici.
 
-Indipendentemente dall'opzione scelta, per condividere un dashboard è necessaria una licenza di [Power BI Pro](service-features-license-type.md). In caso contrario, il contenuto deve avere una [capacità Premium](service-premium.md). I requisiti relativi alla licenza per i colleghi che visualizzano i dashboard dipendono dall'opzione scelta. Le sezioni seguenti illustrano i dettagli. 
+Indipendentemente dall'opzione scelta, per condividere un dashboard è necessaria una licenza di [Power BI Pro](service-features-license-type.md). In caso contrario, il contenuto deve avere una [capacità Premium](service-premium-what-is.md). I requisiti relativi alla licenza per i colleghi che visualizzano i dashboard dipendono dall'opzione scelta. Le sezioni seguenti illustrano i dettagli. 
 
 ![App nel servizio Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -37,7 +37,7 @@ Indipendentemente dall'opzione scelta, per condividere un dashboard è necessari
 
 ## <a name="collaborate-with-coworkers-in-a-workspace"></a>Collaborare con i colleghi in un'area di lavoro
 
-Quando i team lavorano insieme, devono accedere agli stessi documenti in modo da poter collaborare rapidamente. Le aree di lavoro in Power BI offrono uno spazio in cui i team si riuniscono per condividere la proprietà e la gestione di dashboard, report, set di dati e cartelle di lavoro importanti. A volte gli utenti di Power BI organizzano le aree di lavoro in base alle strutture dell'organizzazione, altre volte creano aree di lavoro per progetti specifici. Altre organizzazioni usano invece diverse aree di lavoro per archiviare versioni diverse dei report o dei dashboard desiderati. 
+Quando i team lavorano insieme, devono accedere agli stessi documenti in modo da poter collaborare rapidamente. Nelle aree di lavoro di Power BI, i team si uniscono per condividere la proprietà e la gestione dei loro i dashboard, report, set di dati e le cartelle di lavoro. A volte gli utenti di Power BI organizzano le aree di lavoro in base alle strutture dell'organizzazione, altre volte creano aree di lavoro per progetti specifici. Altre organizzazioni usano invece diverse aree di lavoro per archiviare versioni diverse dei report o dei dashboard desiderati. 
 
 Le aree di lavoro offrono ruoli che determinano le autorizzazioni dei colleghi. È possibile usare tali ruoli per determinare chi può gestire l'intera area di lavoro o chi può inserire il contenuto.
 
@@ -45,11 +45,16 @@ Le aree di lavoro offrono ruoli che determinano le autorizzazioni dei colleghi. 
 
 Naturalmente, alcuni utenti inseriscono il contenuto nell'area di lavoro personale e poi la condividono. Per la collaborazione, le aree di lavoro sono preferibili all'area di lavoro personale in quanto offrono la comproprietà del contenuto. L'utente e l'intero team possono eseguire facilmente aggiornamenti o concedere l'accesso ad altri utenti. L'area di lavoro personale è più adatta per gli utenti singoli per contenuto occasionale o personale.
 
-Supponiamo di avere un dashboard completato da condividere con i colleghi. Qual è il modo migliore di concedere l'accesso al dashboard? La risposta dipende da numerosi fattori. Se un collega specifico deve essere proprietario del dashboard per mantenerlo aggiornato o ha la necessità di accedere a tutto il contenuto dell'area di lavoro, potrebbe essere preferibile aggiungerlo all'area di lavoro. Se un collega deve semplicemente visualizzare il dashboard e non tutto il contenuto nell'area di lavoro, è possibile ancora una volta scegliere tra diverse alternative. Se il dashboard fa parte di un set di contenuto più grande che deve essere distribuito a molti colleghi, la scelta migliore sarà probabilmente quella di pubblicare un'app. Tuttavia, se un collega ha semplicemente bisogno di tale dashboard, l'approccio ottimale potrebbe essere quello di condividere il dashboard.
+Supponiamo di avere un dashboard completato da condividere con i colleghi. Qual è il modo migliore di concedere l'accesso al dashboard? La risposta dipende da numerosi fattori. 
+
+- Se i colleghi devono mantenere aggiornati i dashboard o richiedono l'accesso a tutto il contenuto nell'area di lavoro, è consigliabile aggiungerli all'area di lavoro. 
+- Se i colleghi sufficiente visualizzare dashboard e non tutto il contenuto nell'area di lavoro, è necessario anche in questo caso alternative. 
+- Se il dashboard fa parte di un set di contenuto più grande che deve essere distribuito a molti colleghi, la scelta migliore sarà probabilmente quella di pubblicare un'app. 
+- Tuttavia, se i colleghi sufficiente che un unico dashboard, quindi condividere il dashboard potrebbe essere la soluzione migliore.
 
 Altre informazioni sulla [creazione di aree di lavoro](service-create-workspaces.md).
 
-**Non tutti lo sanno, ma** Power BI ha introdotto una nuova esperienza dell'area di lavoro in anteprima. Vedere [Creare le nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md) per scoprire come le aree di lavoro cambieranno in futuro. 
+**Non tutti lo sanno, ma** Power BI include una nuova esperienza dell'area di lavoro. Lettura [creare le nuove aree di lavoro](service-create-the-new-workspaces.md) per visualizzare i cambiamenti delle aree di lavoro. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Distribuire dati e informazioni dettagliate tramite la creazione di un'app
 
@@ -61,7 +66,7 @@ Le app possono essere facilmente individuate e installate nel servizio Power BI 
 
 Dopo l'installazione di un'app è possibile visualizzarla nel browser o su un dispositivo mobile.
 
-Per visualizzare l'app gli utenti devono disporre di una licenza Power BI Pro; in alternativa, l'app deve essere archiviata in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium.md) (Che cos'è Power BI Premium?).
+Per visualizzare l'app gli utenti devono disporre di una licenza Power BI Pro; in alternativa, l'app deve essere archiviata in una capacità di Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium-what-is.md) (Che cos'è Power BI Premium?).
 
 È possibile anche pubblicare le app per gli utenti esterni all'organizzazione, che possono visualizzare il contenuto delle app e interagire con esso, ma non condividerlo con altri utenti.
 
@@ -71,7 +76,7 @@ Si supponga di aver completato un dashboard e un report nell'area di lavoro pers
 
 ![Icona di condivisione](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-Per condividere il contenuto è necessario che sia l'utente che le persone con cui questi lo condivide abbiano una licenza Power BI Pro. In caso contrario, il contenuto deve trovarsi in un'area di lavoro in una [capacità Premium](service-premium.md). Quando si condivide un dashboard o un report, i destinatari possono visualizzarlo e interagire con esso, ma non possono modificarlo. Essi vedranno gli stessi dati che l'utente vede nei dashboard e nei report, a meno che non sia stata applicata la sicurezza a livello di riga al set di dati sottostante. I colleghi con cui si condivide il dashboard possono condividerlo con i loro colleghi, se vengono autorizzati a tale scopo. 
+Per condividere il contenuto è necessario che sia l'utente che le persone con cui questi lo condivide abbiano una licenza Power BI Pro. In caso contrario, il contenuto deve trovarsi in un'area di lavoro in una [capacità Premium](service-premium-what-is.md). Quando si condivide un dashboard o un report, i destinatari possono visualizzarlo e interagire con esso, ma non possono modificarlo. Essi vedranno gli stessi dati che l'utente vede nei dashboard e nei report, a meno che non sia stata applicata la sicurezza a livello di riga al set di dati sottostante. I colleghi con cui si condivide il dashboard possono condividerlo con i loro colleghi, se vengono autorizzati a tale scopo. 
 
 È possibile condividere anche con utenti esterni all'organizzazione, che possono anche visualizzare il dashboard o il report e interagire con esso, ma non condividerlo. 
 
@@ -83,7 +88,7 @@ Nelle app Power BI per dispositivi mobili per i dispositivi iOS e Android, è po
 
 ![Annotare e condividere nelle app per dispositivi mobili](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-Si condivide uno snapshot del riquadro, del report o dell'oggetto visivo e i destinatari lo vedono esattamente com'era quando è stato inviato il messaggio di posta elettronica. Il messaggio di posta elettronica contiene anche un collegamento al dashboard o al report. Se i destinatari hanno una licenza Power BI Pro o il contenuto ha una [capacità Premium](service-premium.md) e si è già condiviso l'oggetto, allora potranno aprirlo. È possibile inviare snapshot dei riquadri a chiunque, non solo ai colleghi nello stesso dominio di posta elettronica.
+Si condivide uno snapshot del riquadro, del report o dell'oggetto visivo e i destinatari lo vedono esattamente com'era quando è stato inviato il messaggio di posta elettronica. Il messaggio di posta elettronica contiene anche un collegamento al dashboard o al report. Se i destinatari hanno una licenza Power BI Pro o il contenuto ha una [capacità Premium](service-premium-what-is.md) e si è già condiviso l'oggetto, allora potranno aprirlo. È possibile inviare snapshot dei riquadri a chiunque, non solo ai colleghi nello stesso dominio di posta elettronica.
 
 Altre informazioni su come [aggiungere annotazioni e condividere riquadri, report e oggetti visivi](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) dalle app per dispositivi mobili iOS e Android.
 
@@ -96,8 +101,12 @@ Altre informazioni su come [aggiungere annotazioni e condividere riquadri, repor
 ## <a name="embed-reports-in-secure-portals-or-public-websites"></a>Incorporare report in portali sicuri o siti Web pubblici
 
 È possibile incorporare i report di Power BI in portali o siti Web in cui gli utenti si aspettano di poterli visualizzare.  
+L'opzione **Incorpora in SharePoint Online** e l'opzione **Incorpora** nel servizio Power BI consentono di incorporare i report per gli utenti interni in modo sicuro. 
 
-L'opzione **Incorpora in SharePoint Online** e l'opzione **Incorpora** nel servizio Power BI consentono di incorporare i report per gli utenti interni in modo sicuro. L'opzione Incorpora in SharePoint Online funziona con la web part Power BI per SharePoint Online e offre un'esperienza di Single Sign-On con controllo della modalità di incorporamento del report. L'opzione Incorpora funziona con qualsiasi portale o sito Web che supporta l'incorporamento del contenuto usando un URL o un iFrame. Indipendentemente dalla scelta, entrambe le opzioni garantiscono l'applicazione di tutte le autorizzazioni e della sicurezza dei dati prima che un utente possa visualizzare il contenuto. L'utente che visualizza il report deve avere la licenza appropriata. Altre informazioni sulle opzioni [Incorpora in SharePoint Online](service-embed-report-spo.md) e [Incorpora](service-embed-secure.md) in Power BI.
+- **Incorpora in SharePoint Online** funziona con la web part Power BI per SharePoint Online. Offre un'esperienza single sign-on con controllo sul modo in cui il report verrà incorporato. 
+- **Incorporare** funziona con qualsiasi portale o sito Web che supporta l'incorporamento del contenuto usando un URL o un iFrame. 
+
+Qualsiasi opzione tu scelga, Power BI consente di applicare tutte le autorizzazioni e sicurezza dei dati prima che gli utenti possono visualizzare il contenuto. L'utente che visualizza il report deve avere la licenza appropriata. Altre informazioni, vedere [incorporamento in SharePoint Online](service-embed-report-spo.md) e il [incorporamento](service-embed-secure.md) opzione in Power BI.
 
 Con **Pubblica sul Web** è possibile pubblicare report di Power BI ovunque in Internet incorporando visualizzazioni interattive in post di blog, siti Web, social media e altre comunicazioni online, su qualsiasi dispositivo. Chiunque su Internet può visualizzare i report e non si ha alcun controllo su chi può visualizzare ciò che è stato pubblicato. Non è necessaria una licenza di Power BI. La funzionalità di pubblicazione sul Web è disponibile solo per i report che è possibile modificare. Non è possibile pubblicare report sul Web se sono stati condivisi da altri utenti o se sono inclusi in un'app. Altre informazioni sulla [pubblicazione sul Web](service-publish-to-web.md).
 

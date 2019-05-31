@@ -1,20 +1,20 @@
 ---
 title: Visualizzare i parametri per i report impaginati nel servizio Power BI (anteprima)
 description: Questo articolo descrive come interagire con i parametri dei report impaginati nel servizio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 268070c7eaf3675e034f5d609adc45045e0b3aab
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: ea186b5fa3bbbe7968c386604066f91b90ec5821
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324416"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61422232"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Visualizzare i parametri per i report impaginati nel servizio Power BI (anteprima)
 
@@ -28,9 +28,9 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
   
 1.  **Riquadro parametri**: nella barra degli strumenti del Visualizzatore di report viene visualizzato un prompt come "Obbligatorio" o un valore predefinito per ogni parametro.    
   
-2.  **Parametri Invoices From Date / To Date (Fatture dalla data / alla data)**: a questi due parametri di dati sono associati valori predefiniti. Per modificare la data, digitare una data nella casella di testo oppure scegliere una data nel calendario.  
+2.  **Parametri Invoices From Date / To Date (Fatture dalla data / alla data)** : a questi due parametri di dati sono associati valori predefiniti. Per modificare la data, digitare una data nella casella di testo oppure scegliere una data nel calendario.  
   
-3.  **Parametro Location (Località)**: questo parametro è impostato in modo da consentire la selezione di uno, più o tutti i valori. 
+3.  **Parametro Location (Località)** : questo parametro è impostato in modo da consentire la selezione di uno, più o tutti i valori. 
   
 4.  **Visualizza report**: dopo avere immesso o modificato i valori dei parametri, fare clic su **Visualizza report** per eseguire il report. 
 

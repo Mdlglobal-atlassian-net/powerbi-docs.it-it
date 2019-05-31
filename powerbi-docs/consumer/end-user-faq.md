@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661952"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059950"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Domande frequenti su Power BI
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
@@ -31,8 +31,9 @@ Power BI Pro è una licenza singola che consente di accedere a tutto il contenut
 Premium offre capacità dedicata per offrire prestazioni più coerenti e supportare volumi di dati più grandi in Power BI. Per i singoli utenti, Premium consente inoltre una distribuzione generalizzata del contenuto da parte degli utenti Pro senza richiedere licenze utente per la visualizzazione del contenuto da parte dei destinatari.
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Che cosa succede se la licenza di Power BI Pro scade?
-È previsto un periodo di tolleranza di 30 giorni dopo la scadenza di una licenza di Power BI Pro.
-Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per altre informazioni, vedere [Che cosa succede ai dati e all'accesso al termine della sottoscrizione di Office 365 per le aziende](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+È previsto un periodo di tolleranza dopo la scadenza di una licenza di Power BI Pro. Per le licenze che fanno parte dell'acquisto di un contratto multilicenza, il periodo di tolleranza è 90 giorni. Se la licenza è stata acquistata direttamente, il periodo di tolleranza è di 30 giorni.
+
+Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per altre informazioni, vedere [cosa accade ai dati e l'accesso al termine di Office 365 per la sottoscrizione di business?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Cosa fare se si hanno altre domande su Power BI Premium?
 Per domande relative a Power BI Premium, vedere [Domande frequenti su Power BI Premium](../service-premium-faq.md).
@@ -90,11 +91,6 @@ Di seguito è riportato un elenco completo di [browser supportati per Power BI](
 È possibile acquistare le licenze di Power BI Pro direttamente o chiedere informazioni in chat a un rappresentante nel sito [www.powerbi.com](http://www.powerbi.com).
 
 È anche possibile rivolgersi a un [partner Microsoft](https://partner.microsoft.com/) per ottenere supporto per l'implementazione di Power BI.
-
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>Che cosa succede se la licenza di Power BI Pro scade?
-È previsto un periodo di tolleranza dopo la scadenza di una licenza di Power BI Pro. Per le licenze che fanno parte dell'acquisto di un contratto multilicenza, il periodo di tolleranza è 90 giorni. Se la licenza è stata acquistata direttamente, il periodo di tolleranza è di 30 giorni.
-
-Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per altre informazioni, vedere [Che cosa succede ai dati e all'accesso al termine della sottoscrizione di Office 365 per le aziende](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI soddisfa i requisiti di conformità nazionali, regionali e specifici del settore?
 Per altre informazioni sulla conformità di Power BI, vedere [Microsoft Trust Center](http://go.microsoft.com/fwlink/?LinkId=785324).

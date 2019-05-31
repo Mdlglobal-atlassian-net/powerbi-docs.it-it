@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216586"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61053506"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modalità di espansione in una visualizzazione in Power BI
 
@@ -191,7 +191,7 @@ Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti pe
 Si noti che i dati sono gli stessi per i report dell'anno e del trimestre, ma, dopo avere eseguito il drill-down fino al livello di dettaglio specificato per **Valori**, è possibile osservare che il report singolo è più specifico e che il report relativo a tutti i mesi include più dati.
 
 
-|Modalità di espansione|Anno|Trimestre|Mese|Giorno|
+|Modalità di espansione|Year|Trimestre|Mese|Giorno|
 | ---|:---:|:---:|:---:|---|
 |Singola|![singolo anno](./media/end-user-drill/power-bi-hierarchical-year.png)|![singolo trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![singolo mese](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![singolo giorno](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Tutti|![tutti gli anni](./media/end-user-drill/power-bi-hierarchical-year.png)|![tutti i trimestri](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tutti i mesi](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![tutti i giorni](media/end-user-drill/power-bi-hierarchical-all-day.png)|

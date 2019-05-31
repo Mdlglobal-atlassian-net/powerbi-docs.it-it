@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d9388977c088c51094cf2835c8dab9e7d019a59
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260447"
+---
 Tutte le operazioni eseguite in Power BI possono essere suddivise in una serie di **blocchi predefiniti** di base. Dopo aver compreso il funzionamento dei blocchi predefiniti, è possibile approfondirne la conoscenza e iniziare a creare report complessi ed elaborati. Dopotutto, anche le strutture apparentemente più complesse vengono realizzate a partire da blocchi predefiniti di base: gli edifici sono fatti di legno, acciaio, cemento e vetro. Gli elementi che compongono le automobili sono metallo, intelaiatura e gomma. Naturalmente, gli edifici e le automobili possono essere strutture semplici o elaborate, a seconda dei blocchi predefiniti di base.
 
 Vediamo che cosa sono questi blocchi predefiniti di base e analizziamo alcune strutture semplici da poter creare, quindi scopriamo anche come realizzare strutture complesse.

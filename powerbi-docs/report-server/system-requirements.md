@@ -1,20 +1,20 @@
 ---
 title: Requisiti hardware e software per l'installazione del server di report di Power BI
 description: Questo articolo elenca i requisiti minimi di hardware e software per l'installazione e l'esecuzione del server di report di Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/08/2018
-ms.openlocfilehash: 28ff098c0f9e228b485a7eb94830ba3736a1463f
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383509"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770020"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisiti hardware e software per l'installazione del server di report di Power BI
 

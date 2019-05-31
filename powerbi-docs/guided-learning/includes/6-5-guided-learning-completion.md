@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a0510b9f9bc7303d7ed63a5a1c4c7ee9862d7c85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256242"
+---
 L'operazione è stata completata. **Congratulazioni!** Il corso di **apprendimento guidato** per Power BI è stata completato. È stato completato l'intero ciclo, dall'apprendimento degli elementi di base di Power BI a una presentazione delle funzionalità e degli elementi software, fino alla descrizione di come questi si integrino tutti tra loro.
 
 ![](media/6-5-guided-learning-completion/c0a0_2.png)

@@ -1,26 +1,26 @@
 ---
 title: Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'applicazione
 description: Informazioni su come registrare un'applicazione in Azure Active Directory per incorporare il contenuto di Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 7b2249964f2fff26bc68fea19fd0010d8990110b
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762537"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710309"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Ottenere un token di accesso di Azure AD per l'applicazione Power BI
 
 Informazioni su come eseguire l'autenticazione di utenti nell'applicazione Power BI e come recuperare un token di accesso da usare con l'API REST.
 
-Prima di potere chiamare l'API REST di Power BI, è necessario ottenere un **token di accesso per l'autenticazione** (token di accesso) di Azure Active Directory (Azure AD) . Un **token di accesso** viene usato per consentire all'app di accedere ai dashboard, ai riquadri e ai report di **Power BI**. Per altre informazioni sul flusso di **token di accesso** di Azure Active Directory, vedere [Flusso di concessione del codice di autorizzazione](https://msdn.microsoft.com/library/azure/dn645542.aspx).
+Prima di potere chiamare l'API REST di Power BI, è necessario ottenere un **token di accesso per l'autenticazione** (token di accesso) di Azure Active Directory (Azure AD) . Un **token di accesso** viene usato per consentire all'app di accedere ai dashboard, ai riquadri e ai report di **Power BI**. Per altre informazioni sul flusso di **token di accesso** di Azure Active Directory, vedere [Flusso di concessione del codice di autorizzazione](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
 La modalità di recupero del token di accesso dipende dal modo in cui si incorpora il contenuto. In questo articolo vengono usati due approcci diversi.
 
@@ -56,7 +56,7 @@ var @params = new NameValueCollection
 
 Dopo aver creato una stringa di query, reindirizzarla ad **Azure AD** per ottenere un **codice di autorizzazione**.  Di seguito è riportato un metodo C# completo per creare una stringa di query per il **codice di autorizzazione** e reindirizzarla ad **Azure AD**. Dopo aver ottenuto il codice di autorizzazione, si ottiene un **token di accesso** usando il **codice di autorizzazione**.
 
-In redirect.aspx.cs [AuthenticationContext.AcquireTokenByAuthorizationCode](https://msdn.microsoft.com/library/azure/dn479531.aspx) effettua una chiamata per generare il token.
+In redirect.aspx.cs [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) effettua una chiamata per generare il token.
 
 #### <a name="get-authorization-code"></a>Ottenere il codice di autorizzazione
 
@@ -89,7 +89,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
     //Redirect authority
     //Authority Uri is an Azure resource that takes a client id to get an Access token
-    // AADAuthorityUri = https://login.microsoftonline.net/common/
+    // AADAuthorityUri = https://login.microsoftonline.com/common/
     string authorityUri = Properties.Settings.Default.AADAuthorityUri;
     var authUri = String.Format("{0}?{1}", authorityUri, queryString);
     Response.Redirect(authUri);
@@ -196,6 +196,10 @@ var authenticationContext = new AuthenticationContext(AuthorityUrl);
 
 m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
 ```
+
+## <a name="troubleshoot"></a>Risoluzione dei problemi
+
+* Scaricare [ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) se si verifica un "'AuthenticationContext' non contiene una definizione per 'AcquireToken' e non AcquireToken accessibile' ' e di che accetta un primo argomento di tipo ' AuthenticationContext' è stato trovato (probabilmente manca un utilizzo della direttiva o un riferimento all'assembly?) "errore.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

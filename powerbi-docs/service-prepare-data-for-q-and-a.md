@@ -1,5 +1,5 @@
 ---
-title: Come preparare correttamente i dati di Excel per l'uso di Domande e risposte in Power BI
+title: Rendere i dati di Excel funzionano bene con domande e risposte in Power BI
 description: Come preparare correttamente i dati per l'uso di Domande e risposte in Power BI
 author: maggiesMSFT
 manager: kfile
@@ -7,29 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: 7ed8eb8e205c05582d2cfd93030ab056be77912a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430061"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65624971"
 ---
-# <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Come preparare correttamente i dati di Excel per l'uso di Domande e risposte in Power BI
+# <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Rendere i dati di Excel funzionano bene con domande e risposte in Power BI
 Le persone che creano i modelli di dati o le cartelle di lavoro di Excel usati con Power BI devono leggere la sezione seguente.
 
 Domande e risposte in Power BI è in grado di cercare i dati strutturati e scegliere la visualizzazione più adatta per la domanda. Ecco cosa lo rende uno strumento eccezionale.   
 
 Domande e risposte può usare qualsiasi file Excel caricato contenente tabelle, intervalli o un modello PowerPivot, ma offre prestazioni migliori se i dati vengono ottimizzati e ripuliti.  Se si prevede di condividere report e dashboard basati su un set di dati, è possibile semplificare ai colleghi la formulazione delle domande per ottenere risposte di qualità.
 
-### <a name="how-qa-works-with-excel"></a>Come funziona Domande e risposte con Excel
+## <a name="how-qa-works-with-excel"></a>Come funziona Domande e risposte con Excel
 Domande e risposte ha un set di capacità di base per la comprensione del linguaggio naturale che funziona con tutti i dati. Ha una ricerca per parola chiave dipendente dal contesto per i nomi delle tabelle, delle colonne e dei campi calcolati di Excel. Inoltre, contiene informazioni predefinite su come filtrare, ordinare, aggregare, raggruppare e visualizzare i dati. 
 
-Ad esempio, in una tabella di Excel denominata "Sales", con le colonne "Product", "Month", "Units Sold", "Gross Sales" e "Profit" si possono porre domande su una qualsiasi di queste entità.  Si può chiedere di mostrare le vendite, il profitto totale per mese, ordinare i prodotti per unità vendute e così via. Vedere altre informazioni sulla [tipologia di domande che è possibile porre](consumer/end-user-q-and-a.md) e sui [tipi di visualizzazione che è possibile specificare in una query di Domande e risposte](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Ad esempio, in una tabella di Excel denominata "Sales", con le colonne "Product", "Month", "Units Sold", "Gross Sales" e "Profit" si possono porre domande su una qualsiasi di queste entità.  Si può chiedere di mostrare le vendite, il profitto totale per mese, ordinare i prodotti per unità vendute e così via. Altre informazioni, vedere [uso di domande e risposte nei dashboard e report](power-bi-tutorial-q-and-a.md), e [tipi di visualizzazione è possibile specificare in una query di domande e risposte](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-### <a name="prepare-an-excel-dataset-for-qa"></a>Preparare un set di dati di Excel per Domande e risposte
+## <a name="prepare-an-excel-dataset-for-qa"></a>Preparare un set di dati di Excel per Domande e risposte
 Domande e risposte si basa sui nomi delle tabelle, delle colonne e dei campi calcolati per rispondere a domande specifiche sui dati. Questo implica che le entità contenute nella cartella di lavoro sono importanti.
 
 Ecco alcuni suggerimenti per utilizzare al meglio Domande e risposte nella cartella di lavoro.
@@ -44,10 +44,11 @@ Ecco alcuni suggerimenti per utilizzare al meglio Domande e risposte nella carte
 * Aprire il set di dati in Power BI Desktop e creare nuove colonne, creare nuove misure calcolate, concatenare i campi per creare valori univoci, classificare i dati per tipo, ad esempio date, stringhe, informazioni geografiche, immagini, URL, e altro ancora.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Tornare a [Domande e risposte in Power BI](consumer/end-user-q-and-a.md)  
-[Preparare i set di dati locali per Domande e risposte](service-q-and-a-direct-query.md)   
-[Guida introduttiva a Domande e risposte](power-bi-visualization-introduction-to-q-and-a.md)  
-[Recuperare dati per Power BI](service-get-data.md)  
+
+- [Domande e risposte per i consumer](consumer/end-user-q-and-a.md)  
+- [Usare domande e risposte nei dashboard e report](power-bi-tutorial-q-and-a.md)
+- [Preparare i set di dati in locale per domande e risposte](service-q-and-a-direct-query.md)   
+- [Recuperare dati per Power BI](service-get-data.md)  
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

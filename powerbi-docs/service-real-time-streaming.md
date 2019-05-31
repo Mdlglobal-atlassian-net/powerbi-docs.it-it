@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514312"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
@@ -134,11 +134,11 @@ Se non sono stati ancora configurati i dati in streaming, è possibile seleziona
 
 ![](media/service-real-time-streaming/real-time-streaming_2.png)
 
-In questa pagina è possibile immettere l'endpoint del set di dati in streaming se ne è già stato creato uno nella casella di testo. Se non è ancora stato creato un set di dati in streaming, selezionare l'icona + (**+**) nell'angolo superiore destro per visualizzare le opzioni disponibili per creare un set di dati in streaming.
+In questa pagina è possibile immettere l'endpoint del set di dati in streaming se ne è già stato creato uno nella casella di testo. Se non è ancora stato creato un set di dati in streaming, selezionare l'icona + ( **+** ) nell'angolo superiore destro per visualizzare le opzioni disponibili per creare un set di dati in streaming.
 
 ![](media/service-real-time-streaming/real-time-streaming_3.png)
 
-Quando si fa clic sull'icona **+**, vengono visualizzate due opzioni:
+Quando si fa clic sull'icona **+** , vengono visualizzate due opzioni:
 
 ![](media/service-real-time-streaming/real-time-streaming_4a.png)
 

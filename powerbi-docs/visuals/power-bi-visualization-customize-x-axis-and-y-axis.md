@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223307"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068585"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 Questa esercitazione illustra i diversi modi disponibili per personalizzare gli assi X e Y degli oggetti visivi. Non tutti gli oggetti visivi contengono assi o sono personalizzabili. I grafici a torta, ad esempio, non contengono assi. Le opzioni di personalizzazione variano da un oggetto visivo all'altro; sono quindi disponibili troppe opzioni per descriverle tutte in un solo articolo. Verranno quindi descritte alcune delle personalizzazioni degli assi usate più di frequente e verrà illustrato l'uso della scheda di formattazione visiva dell'area di disegno report di Power BI.  
@@ -120,7 +120,7 @@ Per questo esempio verrà creato un grafico combinato che esamina l'impatto del 
 ### <a name="add-titles-to-both-axes"></a>Aggiungere titoli a entrambi gli assi
 Con una visualizzazione così complicata può risultare utile aggiungere titoli agli assi.  I titoli consentono ai colleghi di comprendere il senso della visualizzazione.
 
-1. Impostare **Titolo** su **Sì** per **Asse Y (colonna)** e **Asse Y (riga)**.
+1. Impostare **Titolo** su **Sì** per **Asse Y (colonna)** e **Asse Y (riga)** .
 2. Impostare **Stile** su **Mostra solo titolo**.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    

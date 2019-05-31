@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "65710532"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375072"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entità servizio con Power BI (anteprima)
 
@@ -120,7 +120,7 @@ A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entit�
 
 5. Aggiungere l'entità servizio come **amministratore** alla nuova area di lavoro creata. È possibile gestire questa attività tramite le [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o il servizio Power BI.
 
-    ![Aggiungere un'entità servizio a un'area di lavoro](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Aggiungere un'entità servizio come amministratore per un'area di lavoro](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Scegliere se incorporare il contenuto all'interno di un'applicazione di esempio o all'interno della propria applicazione.
 
@@ -174,10 +174,11 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 * Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non sono in grado di usare l'entità servizio.
 * La gestione dei [flussi di dati](../service-dataflows-overview.md) non è supportata.
-* L'entità servizio non supporta le API di amministrazione.
+* Entità servizio attualmente non supporta tutte le API di amministrazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Registrare un'app](register-app.md)
 * [Power BI Embedded per i clienti](embed-sample-for-customers.md)
 * [Oggetti applicazione e oggetti entità servizio in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Sicurezza a livello di riga usando il gateway dati locale con l'entità servizio (anteprima)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

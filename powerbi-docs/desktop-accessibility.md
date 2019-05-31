@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306298"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770405"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -144,6 +144,12 @@ Con l'impegno continuo di migliorare l'accessibilità, l'elenco precedente di es
 | Selezione multipla | CTRL + INVIO o CTRL + BARRA SPAZIATRICE |
 | Fare clic con il pulsante destro del mouse | <ul><li>Tastiera di Windows: tasto per aprire il menu di scelta rapida di Windows+F10.  La chiave di contesto di Windows è compresa tra il tasto Alt di sinistra e il tasto freccia SINISTRA</li><li>Altre tastiere: MAIUSC+F10</li></ul> |
 | Cancella selezione | CTRL + MAIUSC + C |
+
+### <a name="table--matrix-navigation"></a>Spostamento di matrice & tabella
+| Operazione da eseguire           | Premere                |
+| :------------------- | :------------------- |
+| Spostare lo stato attivo su / giù una cella (attraverso tutte le celle in tutte le aree)  | Freccia su / freccia giù |
+| Spostare lo stato attivo a sinistra / destra una cella (attraverso tutte le celle in tutte le aree)  | Tasto freccia sinistra / Freccia destra |
 
 ### <a name="pane-navigation"></a>Navigazione riquadro
 | Operazione da eseguire           | Premere                |

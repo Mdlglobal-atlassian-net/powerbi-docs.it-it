@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287349"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61233864"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi dell'approvvigionamento per Power BI: Presentazione
 
@@ -72,7 +72,7 @@ Verrà eseguita prima una ricerca delle tendenze di spesa per categoria e locali
 Si noti che:
 
 * Nel grafico a linee **Total Invoice by Month and Category**: la categoria **Direct** mostra una spesa abbastanza uniforme, mentre **Logistics** e **Other** presentano un picco, rispettivamente, nei mesi di dicembre e febbraio.
-* Nella mappa **Total Invoice by Country/Region**: Gran parte della spesa è localizzata negli Stati Uniti.
+* Nella mappa **Total Invoice by Country/Region**: La maggior parte della spesa è localizzata negli Stati Uniti.
 * Nell'istogramma **Total Invoice by Sub Category**: **Hardware** e **Indirect Goods & Services** sono le categorie di spesa più rilevanti.
 * Nell'istogramma Total Invoice by Tier: La maggior parte delle attività viene svolta con i fornitori di livello 1 (primi 10). Ciò consente di gestire meglio le relazioni con i fornitori.
 

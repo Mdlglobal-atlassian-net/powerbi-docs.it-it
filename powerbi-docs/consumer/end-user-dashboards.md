@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/22/2019
+ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1dc085d822463ecf394d6257741d4af82d72b8c0
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661594"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608339"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
 
@@ -24,7 +24,7 @@ Un ***dashboard*** Power BI è una singola pagina, spesso denominata area di dis
 
 ![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
-Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e vengono *aggiunte* al dashboard dai progettisti dei report. Selezionando un riquadro viene aperta la pagina del report in cui è stata creata la visualizzazione. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
+Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e sono *aggiunti* al dashboard da report *finestre di progettazione*. Nella maggior parte dei casi, se si seleziona un riquadro consente di visualizzare la pagina del report in cui è stata creata la visualizzazione. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
 > I dashboard possono essere [visualizzati e condivisi nei dispositivi mobili](mobile/mobile-apps-view-dashboard.md).
@@ -39,7 +39,7 @@ Le visualizzazioni in un dashboard provengono dai report e ogni report è basato
 ## <a name="advantages-of-dashboards"></a>Vantaggi dei dashboard
 I dashboard sono uno strumento eccezionale per monitorare l'attività aziendale, per cercare le risposte e per esaminare tutte le metriche più importanti al primo colpo. Le visualizzazioni in un dashboard potrebbero provenire da uno o più set di dati e report sottostanti. Un dashboard può combinare i dati locali e quelli del cloud, offrendo una visualizzazione consolidata indipendentemente dalla posizione dei dati.
 
-Un dashboard non è solo un'immagine vera e propria; si tratta, piuttosto, di un elemento altamente interattivo e personalizzabile in cui i riquadri si aggiornano al variare dei dati sottostanti.
+Un dashboard non è solo un bel quadro d'insieme; è interattivo i riquadri vengono aggiornate quando cambiano i dati sottostanti.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Differenze tra dashboard e report per i ***consumer*** di Power BI
 I report sono spesso confusi con i dashboard poiché sono composti da troppe aree di contenuto con le visualizzazioni. Tuttavia, ci sono alcune importanti differenze dal punto di vista di un *consumer* di Power BI.
@@ -48,11 +48,9 @@ I report sono spesso confusi con i dashboard poiché sono composti da troppe are
 | --- | --- | --- |
 | Pagine |Una pagina |Una o più pagine |
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
-| Sottoscrivi |È possibile sottoscrivere messaggi di posta elettronica per i dashboard |È possibile sottoscriversi messaggi di posta elettronica per le pagine dei report |
 | Applicazione di filtri |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | Impostazione di avvisi |Permette di creare avvisi per e-mail quando vengono soddisfatte determinate condizioni |No |
 | In primo piano |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
-| Query in linguaggio naturale |Disponibile dal dashboard |Non disponibile dai report |
 | Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
 
 

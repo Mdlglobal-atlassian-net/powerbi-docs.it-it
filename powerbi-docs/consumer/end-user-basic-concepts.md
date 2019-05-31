@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580106"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051418"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i ***consumer***
 
@@ -72,7 +72,7 @@ _______________________________________________________
 
 
 
-## <a name="datasets"></a>Datasets
+## <a name="datasets"></a>Set di dati
 Un *set di dati* è una raccolta di dati che i *designer* importano o alla quale si connettono e che quindi usano per creare report e dashboard. In qualità di consumer, l'utente non interagisce direttamente con i set di dati, ma è comunque utile comprendere come questi si integrano nel quadro complessivo.  
 
 Ogni set di dati rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un set di dati di Salesforce. Sono supportate molte origini dati diverse.
@@ -104,7 +104,7 @@ Alcune delle visualizzazioni disponibili in Power BI sono: grafico a cascata, gr
 
    ![8 elementi visivi di esempio](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Le visualizzazioni vengono rese disponibili anche dalla community e in questo caso sono dette *oggetti visivi personalizzati*. Se si riceve un report con un oggetto visivo che non si riconosce, probabilmente si tratta di un oggetto visivo personalizzato. Se occorre assistenza per interpretare l'oggetto visivo personalizzato, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->cercare il nome del *designer* del report o del dashboard e contattarlo.
+Le visualizzazioni vengono rese disponibili anche dalla community e in questo caso sono dette *oggetti visivi personalizzati*. Se si riceve un report con un oggetto visivo che non si riconosce, probabilmente si tratta di un oggetto visivo personalizzato. Se occorre assistenza per l'interpretazione l'oggetto visivo personalizzato, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->cercare il nome del report o dashboard *progettazione* e contatto che lo riguardano.
 
 **UNA SOLA** visualizzazione in un report...
 

@@ -1,20 +1,20 @@
 ---
 title: Origini dati incorporate per i report impaginati nel servizio Power BI (anteprima)
 description: Questo articolo descrive come creare e modificare un'origine dati incorporata in un report impaginato nel servizio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
-ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
-ms.translationtype: HT
+ms.date: 05/16/2019
+ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59070023"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853392"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI (anteprima)
 
@@ -23,13 +23,19 @@ Questo articolo descrive come creare e modificare un'origine dati incorporata pe
 - Database SQL di Azure e Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
+- Oracle 
+- Teradata 
+
+Per queste origini dati, usare il [connessione di SQL Server Analysis Services](service-premium-connect-tools.md) opzione:
+
 - Azure Analysis Services
+- Set di dati di Power BI Premium
 
 I report impaginati si connettono alle origini dati locali tramite un gateway, che può essere configurato solo dopo aver pubblicato il report nel servizio Power BI. Altre informazioni sui [gateway di Power BI](service-gateway-getting-started.md). 
 
 ## <a name="create-an-embedded-data-source"></a>Creare un'origine dati incorporata
   
-1. Aprire Generatore Report.
+1. Aprire Power BI Report Builder.
 
 1. Sulla barra degli strumenti nel riquadro Dati report selezionare **Nuovo** > **Origine dati**. Viene visualizzata la finestra di dialogo **Proprietà origine dati**.
 

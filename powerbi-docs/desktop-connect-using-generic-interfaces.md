@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0a590f6029d273944f3e1fa9e537eec3e38bf97
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216446"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513727"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Connettersi ai dati usando interfacce generiche in Power BI Desktop
 È possibile connettersi a una vasta gamma di origini dati diverse in **Power BI Desktop** usando connettori dati incorporati che vanno dai **database di Access** alle risorse **Zendesk**, come illustrato nella finestra **Recupera dati**. Per espandere le opzioni di connessione è anche possibile connettersi a molti *altri* tipi di origini dati mediante le interfacce generiche (ad esempio **ODBC** o le **API REST**) incorporate in **Power BI Desktop**.
@@ -52,7 +52,7 @@ Nell'elenco seguente sono illustrati alcuni esempi di origini dati a cui **Power
 | ODBC |DB Couchbase |[Couchbase e Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[Driver ODBC di DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[Driver ODBC di BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |Hbase |[Driver ODBC di Hbase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |HBase |[Driver ODBC di HBase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
 | ODBC |Hive |[Driver ODBC di Hive](http://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Informazioni su IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
 | ODBC |Presto |[Driver ODBC di Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |

@@ -1,25 +1,25 @@
 ---
 title: Come configurare i carichi di lavoro in Power BI Premium
 description: Informazioni su come configurare i carichi di lavoro in una capacità Power BI Premium.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/01/2019
+ms.date: 04/15/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbff4b744cf4a35f2fe1d0ae46f4676cd5f1db77
-ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
-ms.translationtype: HT
+ms.openlocfilehash: c84bebef5589ec391e3640ff3be674b1fb5a0ebd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2019
-ms.locfileid: "58795246"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564869"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
-Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro per le capacità Power BI Premium. Per impostazione predefinita le capacità supportano solo il carico di lavoro associato all'esecuzione delle query di Power BI. È anche possibile abilitare e configurare carichi di lavoro aggiuntivi per **[intelligenza artificiale (Servizi cognitivi)](service-cognitive-services.md)**, **[flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[report impaginati](paginated-reports-save-to-power-bi-service.md)**.
+Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro per le capacità Power BI Premium. Per impostazione predefinita le capacità supportano solo il carico di lavoro associato all'esecuzione delle query di Power BI. È anche possibile abilitare e configurare carichi di lavoro aggiuntivi per **[intelligenza artificiale (Servizi cognitivi)](service-cognitive-services.md)** , **[flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[report impaginati](paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Impostazioni predefinite della memoria
 
@@ -29,7 +29,7 @@ I carichi di lavoro delle query sono ottimizzati e limitati alle risorse determi
 
 |                     | EM2                      | EM3                       | P1                      | P2                       | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|--------------------------|
-| Intelligenza artificiale (Servizi cognitivi) | 20% predefinita; minima da definire| 20% predefinita; minima da definire | 20% predefinita; minima da definire | 20% predefinita; minima da definire | 20% predefinita; minima da definire |
+| AI | N/D | N/D | impostazione predefinita il 20%. 20% minimo | 20% predefinita; 10% minima | 20% predefinita; 5% minima |
 | Dataflows | N/D |20% predefinita; 12% minima  | 20% predefinita; 5% minima  | 20% predefinita; 3% minima | 20% predefinita; 2% minima  |
 | Report impaginati | N/D |N/D | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
 | | | | | | |
@@ -38,10 +38,41 @@ I carichi di lavoro delle query sono ottimizzati e limitati alle risorse determi
 
 |                  | A1                       | A2                       | A3                      | A4                       | A5                      | A6                        |
 |-------------------|--------------------------|--------------------------|-------------------------|--------------------------|-------------------------|---------------------------|
-| Intelligenza artificiale (Servizi cognitivi) | N/D                      | 20% predefinita; minima da definire                      | 20% predefinita; minima da definire                     | 20% predefinita; minima da definire | 20% predefinita; minima da definire | 20% predefinita; minima da definire |
+| AI | N/D                      | impostazione predefinita il 20%. minimo di 100%                     | impostazione predefinita il 20%. 50% minimo                     | impostazione predefinita il 20%. 20% minimo | 20% predefinita; 10% minima | 20% predefinita; 5% minima |
 | Dataflows         | 40% predefinita; 40% minima | 24% predefinita; 24% minima | 20% predefinita; 12% minima | 20% predefinita; 5% minima  | 20% predefinita; 3% minima | 20% predefinita; 2% minima   |
 | Report impaginati | N/D                      | N/D                      | N/D                     | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
 | | | | | | |
+
+## <a name="workload-settings"></a>Impostazioni di carico di lavoro
+
+### <a name="ai-preview"></a>Intelligenza artificiale (anteprima)
+
+Oltre al **Max Memory** impostazione, il carico di lavoro di intelligenza artificiale è un'impostazione aggiuntiva, **consentire l'utilizzo da Power BI Desktop**. Il valore predefinito è **disattivata**. Questa impostazione è riservata per usi futuri e non può contenere tutti i tenant.
+
+### <a name="datasets-preview"></a>Set di dati (anteprima)
+
+Per impostazione predefinita, il carico di lavoro di set di dati è abilitata e non può essere disabilitata. Questo carico di lavoro contiene un'impostazione aggiuntiva, **Endpoint XMLA**. Il valore predefinito è **1**, significato abilitato. Questa impostazione specifica le connessioni dalle applicazioni client rispettano l'appartenenza al gruppo di sicurezza impostata a livello di area di lavoro e app. Per altre informazioni, vedere [Connetti al set di dati con strumenti e applicazioni client](service-premium-connect-tools.md).
+
+### <a name="dataflows"></a>Dataflows
+
+Oltre al **Max Memory** l'impostazione, il carico di lavoro di flussi di dati ha un'impostazione aggiuntiva, **le dimensioni del contenitore**. Questa impostazione consente di ottimizzare le prestazioni del carico di lavoro del flusso di dati per l'elaborazione di flussi di dati più complessi e con intensa attività di calcolo.
+
+Quando si aggiornano un flusso di dati, il carico di lavoro del flusso di dati genera un contenitore per ogni entità nel flusso di dati. Ogni contenitore può richiedere fino al volume di memoria specificato nell'impostazione delle dimensioni del contenitore. Il valore predefinito per tutti gli SKU è **700 MB**. È possibile modificare questa impostazione se:
+
+- Flussi di dati richiede troppo tempo per aggiornare o l'aggiornamento del flusso di dati non riesce in un timeout.
+- Le entità del flusso di dati includono passaggi di calcolo, ad esempio, un join.  
+
+Le consigliata è usare il [le metriche della capacità di Power BI Premium](service-admin-premium-monitor-capacity.md) analizzare le prestazioni del carico di lavoro del flusso di dati dell'app. 
+
+In alcuni casi, aumentando le dimensioni del contenitore può non migliorare le prestazioni. Ad esempio, se il flusso di dati stia ottenendo i dati solo da un'origine senza eseguire calcoli significativi, modificare le dimensioni del contenitore probabilmente non risultare utile. Se abiliterà il carico di lavoro del flusso di dati allocare altra memoria per l'entità, le operazioni di aggiornamento, può essere utile aumentare le dimensioni del contenitore. Grazie all'uso maggiore quantità di memoria allocata, è possibile ridurre il tempo che necessario per aggiornare le entità larga misura calcolate. 
+
+Il valore di dimensione del contenitore non può superare la memoria massima per il carico di lavoro di flussi di dati. Ad esempio, una capacità di P1 è 25GB di memoria. Se il carico di lavoro del flusso di dati Max Memory (%) è impostato su 20%, contenitore di dimensioni (MB) non può superare 5000. In tutti i casi, le dimensioni del contenitore non può superare la Max Memory, anche se si imposta un valore più alto. 
+
+### <a name="paginated-reports-preview"></a>Report impaginati (anteprima)
+
+I report impaginati consentono al codice personalizzato da eseguire durante il rendering di un report. Ad esempio, in modo dinamico la modifica di colore del testo in base al contenuto, che può richiedere ulteriore memoria. Power BI Premium esegue i report impaginati in uno spazio contenuto all'interno della capacità. Max Memory specificato viene usato *o meno* il carico di lavoro è attiva. Se la modifica l'impostazione di memoria massima per impostazione predefinita, assicurarsi di impostare lo bassa sufficiente che l'it non influire negativamente sulle altri carichi di lavoro.
+
+In alcuni casi, il carico di lavoro di report impaginati può diventare non disponibile. In questo caso, il carico di lavoro mostra uno stato di errore nel portale di amministrazione e gli utenti visualizzano i timeout per il rendering del report. Per attenuare il problema, disabilitare il carico di lavoro e quindi riabilitarla.
 
 ## <a name="configure-workloads"></a>Configurare i carichi di lavoro
 
@@ -60,9 +91,6 @@ I carichi di lavoro delle query sono ottimizzati e limitati alle risorse determi
 
 1. Fare clic su **Applica**.
 
-> [!NOTE]
-> Se si abilita il carico di lavoro per i report impaginati, i report impaginati consentiranno di eseguire il codice quando si esegue il rendering di un report, ad esempio quando il colore del testo cambia in modo dinamico in base al contenuto. Power BI Premium esegue i report impaginati in uno spazio contenuto all'interno della capacità. Viene usata la memoria massima specificata per questo spazio, indipendentemente dal fatto che il carico di lavoro sia attivo o meno. Se si usano i report o i flussi di dati di Power BI nella stessa capacità, assicurarsi di impostare per i report impaginati una memoria sufficientemente bassa da non influire negativamente sugli altri carichi di lavoro. in rari casi, il carico di lavoro per i report impaginati può diventare non disponibile. In questo caso, per il carico di lavoro viene visualizzato uno stato di errore nel portale di amministrazione e gli utenti vedono il timeout per il rendering del report. Per attenuare questo problema, disabilitare il carico di lavoro, quindi riabilitarlo.
-
 ### <a name="rest-api"></a>API REST
 
 I carichi di lavoro possono essere abilitati e assegnati a una capacità usando le API REST [Capacità](https://docs.microsoft.com/rest/api/power-bi/capacities).
@@ -73,7 +101,7 @@ L'[app Metrica per la capacità Power BI Premium](service-admin-premium-monitor-
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Ottimizzazione e gestione delle risorse della capacità Power BI Premium](service-premium-understand-how-it-works.md)   
+[Ottimizzazione della capacità di Power BI Premium](service-premium-capacity-optimize.md)     
 [Preparazione dei dati self-service in Power BI con flusso di dati](service-dataflows-overview.md)   
 [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
 

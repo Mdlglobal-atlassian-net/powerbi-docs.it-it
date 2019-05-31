@@ -11,11 +11,11 @@ ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276124"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61393247"
 ---
 # <a name="basic-area-chart"></a>Grafico ad aree di base
 Il grafico ad aree di base, detto anche grafico ad aree su più livelli, è basato sul grafico a linee. L'area compresa tra l'asse e la linea viene riempita con colori per indicare un volume. 
@@ -31,7 +31,7 @@ I grafici ad aree di base rappresentano un'ottima scelta nelle seguenti situazio
 * per singole serie che rappresentano un set fisicamente numerabile
 
 ### <a name="prerequisites"></a>Prerequisiti
- - servizio Power BI
+ - Servizio Power BI
  - Esempio di analisi delle vendite al dettaglio
 
 Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio**  Connetti e scegliere **Passa al dashboard**. 

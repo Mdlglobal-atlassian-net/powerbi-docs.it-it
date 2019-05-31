@@ -11,10 +11,10 @@ ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
-ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65941447"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relazioni con cardinalità molti-a-molti in Power BI Desktop
@@ -39,7 +39,7 @@ Ad esempio, due tabelle potevano includere la colonna *Country*, ma i valori di 
 
 ## <a name="use-relationships-with-a-many-many-cardinality"></a>Usare le *relazioni con cardinalità molti-a-molti*
 
-Quando si definisce una relazione tra due tabelle in Power BI, è necessario specificare la cardinalità della relazione. Ad esempio, la relazione tra *ProductSales* e *Product*&mdash;utilizzando le colonne *ProductSales [ProductCode]* e *Product [ProductCode]*&mdash;verrebbe definita come *molti-a-uno*. La relazione viene definita in questo modo perché sono presenti molti valori Sales per ogni prodotto e la colonna della tabella *Product* *(ProductCode)* è univoca. Quando si definisce una relazione con cardinalità *molti-a-uno*, *uno-a-molti* o *uno-a-uno*, Power BI la convalida per verificare che la cardinalità selezionata corrisponda effettivamente ai dati.
+Quando si definisce una relazione tra due tabelle in Power BI, è necessario specificare la cardinalità della relazione. Ad esempio, la relazione tra *ProductSales* e *Product*&mdash;utilizzando le colonne *ProductSales [ProductCode]* e *Product [ProductCode]* &mdash;verrebbe definita come *molti-a-uno*. La relazione viene definita in questo modo perché sono presenti molti valori Sales per ogni prodotto e la colonna della tabella *Product* *(ProductCode)* è univoca. Quando si definisce una relazione con cardinalità *molti-a-uno*, *uno-a-molti* o *uno-a-uno*, Power BI la convalida per verificare che la cardinalità selezionata corrisponda effettivamente ai dati.
 
 Ad esempio, esaminare il modello semplice nell'immagine seguente:
 

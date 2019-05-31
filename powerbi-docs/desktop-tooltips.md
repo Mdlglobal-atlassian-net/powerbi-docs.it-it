@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514511"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop
@@ -27,7 +27,7 @@ ms.locfileid: "65514511"
 Con le descrizioni comando dei report è possibile effettuare diverse operazioni. Di seguito vengono descritte le procedure per la creazione delle descrizioni comando e per la loro configurazione.
 
 ## <a name="create-a-report-tooltip-page"></a>Creare una pagina di descrizione comando del report
-Per iniziare, creare una nuova pagina del report facendo clic sul pulsante **+**, disponibile nella parte inferiore dell'area di disegno di **Power BI Desktop**, nell'area delle schede della pagina. Il pulsante si trova accanto all'ultima pagina del report. 
+Per iniziare, creare una nuova pagina del report facendo clic sul pulsante **+** , disponibile nella parte inferiore dell'area di disegno di **Power BI Desktop**, nell'area delle schede della pagina. Il pulsante si trova accanto all'ultima pagina del report. 
 
 ![Creare una nuova pagina del report per la descrizione comando](media/desktop-tooltips/desktop-tooltips_02.png)
 

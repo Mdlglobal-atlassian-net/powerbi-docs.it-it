@@ -1,33 +1,33 @@
 ---
-title: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
-description: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
+title: 'Errore: È stato possibile trovare tutti i dati nella cartella di lavoro di Excel'
+description: 'Errore: È stato possibile trovare tutti i dati nella cartella di lavoro di Excel'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2017
+ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 849c377a140cd0dd31f55760987336fc3711bc79
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285860"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101358"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Errore: Non sono stati trovati dati nella cartella di lavoro di Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Errore: È stato possibile trovare tutti i dati nella cartella di lavoro di Excel
 
->[!NOTE]
+>[!NOTE]  
 >Le informazioni di questo articolo si applicano a Excel 2007 e versioni successive.
 
 Quando si importa una cartella di lavoro di Excel in Power BI, è possibile che venga visualizzato l'errore seguente:
 
-*Errore: Non sono stati trovati dati nella cartella di lavoro di Excel. I dati potrebbero non essere formattati correttamente. Sarà necessario modificare la cartella di lavoro in Excel e quindi importarla di nuovo.*
+*Errore: Non sono stati trovati dati formattati come tabella. Per importare da Excel nel servizio Power BI, è necessario formattare i dati sotto forma di tabella. Selezionare tutti i dati desiderati nella tabella e premere Ctrl + T.*
 
-![Non sono stati trovati dati nella cartella di lavoro](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![Non sono stati trovati dati nella cartella di lavoro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 
 ## <a name="quick-solution"></a>Soluzione rapida
 1. Modificare la cartella di lavoro in Excel.
@@ -47,28 +47,28 @@ Quando si importa una cartella di lavoro di Excel, Power BI cerca queste tabelle
     >[!NOTE]
     >Le immagini si riferiscono a Excel 2013. Se si usa una versione differente, le opzioni potrebbero essere leggermente diverse, ma la procedura è identica.
     
-    ![Aprire la cartella di lavoro](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Aprire la cartella di lavoro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-1.png)
 2. Selezionare l'intervallo di celle che contengono i dati. La prima riga deve contenere le intestazioni di colonna, ovvero i nomi di colonna:
    
-    ![Selezionare l'intervallo di celle](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Selezionare l'intervallo di celle](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-2.png)
 3. Nella barra multifunzione fare clic su **Tabella** nella scheda **INSERISCI**. oppure premere **CTRL+T**.
    
-    ![Inserire la tabella](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Inserire la tabella](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-worksheet-3.png)
 4. Verrà visualizzata la finestra di dialogo seguente. Assicurarsi che l'opzione **Tabella con intestazioni** sia selezionata e fare clic su **OK**:
    
-    ![Creare la tabella](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Creare la tabella](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-create-table.png)
 5. I dati risultano ora formattati in una tabella:
    
-    ![Dati formattati come tabella](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Dati formattati come tabella](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Salvare la cartella di lavoro.
 7. Tornare a Power BI. Selezionare Recupera dati nella parte inferiore del riquadro di spostamento sinistro.
    
-    ![Recupera dati](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Recupera dati](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. Nella casella **File** selezionare **Recupera**.
    
-    ![Ottenere i file](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Ottenere i file](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-files.png)
 9. Importare di nuovo la cartella di lavoro di Excel. Questa volta la tabella verrà trovata e l'importazione riuscirà.
    
     Se l'importazione non riesce, segnalare il problema facendo clic su **Community** nel menu della Guida:
    
-    ![Collegamento alla community](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Collegamento alla community](media/service-admin-troubleshoot-excel-workbook-data/power-bi-question-menu-community.png)

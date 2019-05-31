@@ -9,44 +9,40 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f38110e743018f66249c471705b8a25652ef2a3a
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661677"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66374983"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Aggiungere a Preferiti dashboard, report e app nel servizio Power BI
-Dopo aver aggiunto un contenuto a *Preferiti* è possibile accedere a tale contenuto da tutte le aree di lavoro.  I Preferiti sono in genere i contenuti a cui si accede con maggior frequenza.
+Quando si aggiunge contenuto un *preferito*, sarà possibile accedervi rapidamente dal **Preferiti** elenco di contenuto e dalla **Power BI Home**  >   **Preferiti e ad accesso frequente**.  I Preferiti sono in genere contenuti che accede più spesso e vengono identificati con un asterisco giallo.
 
-> [!NOTE]
-> Questo argomento si applica al servizio Power BI e non a Power BI Desktop.
-> 
-> 
+   ![Icona Preferiti](./media/end-user-favorite/power-bi-favorite-nav.png)
 
-È anche possibile selezionare un singolo dashboard come [dashboard in primo piano](end-user-featured.md) nel servizio Power BI.
+   ![Icona Preferiti](./media/end-user-favorite/power-bi-home.png)
+
+È anche possibile selezionare un singolo dashboard come un [dashboard in primo piano](end-user-featured.md) nel servizio Power BI.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Aggiungere un dashboard o un report a *Preferiti*
-Il video seguente illustra come aggiungere preferiti all'area di lavoro personale. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
-
 
 1. Aprire un dashboard o un report usato di frequente. È possibile aggiungere a *Preferiti* anche contenuti condivisi da altri utenti.
-2. Nell'angolo in alto a destra del servizio Power BI selezionare **Aggiungi a Preferiti** o l'icona a forma di stella ![Icona a forma di stella](./media/end-user-favorite/power-bi-favorite-icon.png).
+
+2. Dalla barra multifunzione superiore del servizio Power BI, selezionare **preferite** o la stella ![icona a stella](./media/end-user-favorite/power-bi-favorite-icon.png) icona.
    
    ![Icona Preferiti](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   È anche possibile aggiungere a Preferiti un dashboard o un report dalla scheda di visualizzazione contenuto **Dashboard** o **Report** dell'area di lavoro.
+   È possibile anche aggiungere a Preferiti un dashboard o report ovunque viene visualizzata l'icona a stella, come home page, recenti, le App e condiviso con l'utente corrente. 
    
-   ![Scheda Dashboard con stella gialla](./media/end-user-favorite/power-bi-dashboard-favorite.png)
+   ![Scheda Dashboard con stella gialla](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Aggiungere un'app a *Preferiti*
 
-1. Nel riquadro di spostamento a sinistra selezionare **App**.
+1. Nel riquadro di spostamento, selezionare **app**.
 
    ![dashboard](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -55,10 +51,10 @@ Il video seguente illustra come aggiungere preferiti all'area di lavoro personal
    ![Passare il mouse sull'app](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Uso dei *Preferiti*
-1. Per accedere ai Preferiti da qualsiasi area di lavoro, selezionare la freccia del riquadro a comparsa a destra di **Preferiti**.  Da qui è possibile selezionare un elemento di Preferiti per aprirlo. L'elenco include solo cinque dashboard aggiunti ai Preferiti in ordine alfabetico. Se sono presenti più di cinque elementi, selezionare **Visualizza tutto** per aprire la schermata Preferiti (vedere il punto 2 di seguito). 
+1. Per accedere ai Preferiti, selezionare sulla freccia a destra del riquadro a comparsa **Preferiti**.  Da qui è possibile selezionare un elemento di Preferiti per aprirlo. L'elenco include solo cinque dashboard aggiunti ai Preferiti in ordine alfabetico. Se si dispone di più di cinque, selezionare **Vedi tutto** per aprire i contenuto di Preferiti elenco (vedere #2 di seguito). 
    
-   ![Riquadro a comparsa Preferiti](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
-2. Per visualizzare **tutti** i contenuti che sono stati aggiunti ai Preferiti, nel riquadro di spostamento a sinistra selezionare **Preferiti** oppure l'icona Preferiti ![Icona a forma di stella](./media/end-user-favorite/power-bi-favorites-icon.png).  
+   ![Riquadro a comparsa Preferiti](./media/end-user-favorite/power-bi-favorite-flyout.png)
+2. Per visualizzare **tutte** il contenuto che sono stati aggiunti ai Preferiti, nel riquadro di spostamento, selezionare **Preferiti** o Preferiti ![icona a stella](./media/end-user-favorite/power-bi-favorites-icon.png) icona.  
    
     ![Finestra Preferiti](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -72,13 +68,14 @@ Se un report viene usato di rado,  è possibile rimuoverlo dai Preferiti. Un con
    ![Schermata Preferiti](./media/end-user-favorite/power-bi-unfavorites-screen.png)
 2. Selezionare la stella gialla accanto al contenuto per rimuoverlo da Preferiti.
 
-> **NOTA**: è possibile rimuovere dai Preferiti un dashboard, un report o anche un'app. È sufficiente aprire l'elemento e deselezionare l'icona gialla.   
+> [!NOTE]
+> è possibile rimuovere dai Preferiti un dashboard, un report o anche un'app. È sufficiente aprire l'elemento e deselezionare l'icona gialla.   
 > 
 > 
+## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
+Al momento, è possibile preferito di un'app e questa automaticamente tutti i report Preferiti e i dashboard per l'app. Non è possibile per i dashboard o report Preferiti singole app. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](../power-bi-overview.md)
-
 [Power BI - Concetti di base](end-user-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

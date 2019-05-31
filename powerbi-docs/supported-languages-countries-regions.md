@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: a593a918c59452c922f6061189ad6c2885478aad
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 02fbe26fc4d0c8be0439ca656151ef7712d201b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174868"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61399108"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Lingue e paesi/aree geografiche supportate per Power BI
 
-Questo articolo fornisce l'elenco di lingue e paesi/aree geografiche supportati per il servizio Power BI, Power BI Desktop e la documentazione di Power BI.
+Questo articolo elenca le lingue supportate e paesi/aree geografiche per il servizio Power BI, Power BI Desktop e documentazione di Power BI.
 
 ## <a name="countries-and-regions-where-power-bi-is-available"></a>Paesi e aree geografiche in cui Power BI è disponibile
 Per conoscere i paesi e le aree geografiche in cui Power BI è disponibile, vedere questo [elenco relativo alla disponibilità internazionale](https://products.office.com/business/international-availability). 
@@ -73,11 +73,11 @@ Il servizio Power BI (nel browser) è disponibile nelle 44 lingue seguenti:
 * Vietnamita - Tiếng Việt
 
 ### <a name="whats-translated"></a>Elementi tradotti
-Menu, pulsanti, messaggi ed altri elementi dell'esperienza sono tradotti nelle varie lingue e consentono di esplorare e interagire facilmente con Power BI.
+Power BI converte i menu, pulsanti, messaggi e altri elementi dell'esperienza nella propria lingua.
 
 Al momento alcune funzionalità sono disponibili solo in inglese:
 
-* Dashboard e report che Power BI crea automaticamente quando ci si connette a servizi quali Microsoft Dynamics CRM, Google Analytics, Salesforce e così via. È comunque possibile creare dashboard e report nella propria lingua.
+* Dashboard e report di Power BI quando ci si connette ai servizi, ad esempio Microsoft Dynamics CRM, Analitica Google e Salesforce. È comunque possibile creare dashboard e report personalizzati nel proprio linguaggio.
 * Esplorazione dei dati con Domande e risposte.
 
 In futuro è prevista l'aggiunta di ulteriori funzionalità in altre lingue. 
@@ -142,7 +142,7 @@ La lingua scelta per Power BI Desktop influisce sul formato di visualizzazione d
 Per cambiare la lingua in Power BI Desktop, tornare alla pagina di download e scaricarlo in una lingua diversa.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Scegliere le impostazioni locali da usare per l'importazione di dati in Power BI Desktop
-Quando si scarica Power BI Desktop o lo si installa da Windows Store, è possibile scegliere impostazioni locali diverse per un report specifico rispetto alle impostazioni locali della versione di Power BI Desktop in uso. Questo approccio modifica la modalità in cui i dati vengono interpretati durante l'importazione dall'origine dati, ad esempio determina se "3/4/2017" viene interpretato come 3 aprile o 4 marzo. 
+Quando si scarica Power BI Desktop o lo si installa da Windows Store, è possibile scegliere impostazioni locali diverse per un report specifico rispetto alle impostazioni locali della versione di Power BI Desktop in uso. Le modifiche delle impostazioni locali dei dati viene interpretati durante l'importazione dei dati di origine, ad esempio se "3 o 4/2017" viene interpretato come 3 aprile o 4 marzo. 
 
 1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**.
 2. In **File corrente** selezionare **Impostazioni internazionali**.

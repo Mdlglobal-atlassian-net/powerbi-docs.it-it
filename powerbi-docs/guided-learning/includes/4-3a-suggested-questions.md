@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4a9d873632853a69c835d7326653102107dd239f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263806"
+---
 Con Power BI, è possibile aggiungere le proprie domande suggerite per altri utenti che usano la casella di query di un dashboard in linguaggio naturale, spesso denominata casella **Domande e risposte**. Le domande suggerite verranno visualizzate dagli utenti quando fanno clic sulla casella di input nella parte superiore del dashboard.
 
 ![](media/4-3a-suggested-questions/4-3a_1.png)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3f21c41bb0cf97db8b988a80d9792e1ba0b0b4f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397753"
+---
 I filtri dei dati sono uno dei tipi di visualizzazioni più potenti, in particolare come parte di un report che contiene molti dati. Un **filtro dei dati** è un filtro visivo sull'area di disegno in **Power BI Desktop** che permette a chiunque osservi un report di segmentare i dati in base a un determinato valore, ad esempio in base all'anno o alla località geografica.
 
 Per aggiungere un filtro dei dati al report, selezionare **Filtro dei dati** nel riquadro **Visualizzazioni**.

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a4d51bb3295c2b5512b98fe2ac231ed1b3467c8a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255672"
+---
 Una *misura* è un calcolo esistente nel modello di dati di Power BI. Per creare una misura, nella vista **Report** selezionare **Nuova misura** dalla scheda **Creazione di modelli**.
 
 ![](media/2-5-create-calculated-measures/2-5_1.png)

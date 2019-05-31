@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a6d283048f0a4d7e282f7d4c608e279ca848dfc9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255713"
+---
 Le tabelle calcolate sono una funzione all'interno di DAX che consente di esprimere un ampio intervallo di nuove funzionalità di modellazione. Ad esempio, se si desidera eseguire diversi tipi di merge join o creare nuove tabelle in tempo reale in base ai risultati di una formula funzionale, le tabelle calcolate sono lo strumento adatto per farlo.
 
 Per creare una tabella calcolata, andare a **Vista dati** in Power BI Desktop, attivabile dal lato sinistro dell'area di disegno del report.

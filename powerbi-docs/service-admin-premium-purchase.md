@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
 ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/14/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65565299"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
@@ -48,7 +48,7 @@ Per acquistare la capacità Premium, seguire questa procedura.
 
 1. In **Other plans** (Altri piani) cercare le offerte di Power BI Premium. Verranno elencate le offerte da P1 a P3, EM3 e P1 (mensile).
 
-1. Passare il mouse sui puntini di sospensione (**. . .**) e selezionare **Buy now** (Acquista).
+1. Passare il mouse sui puntini di sospensione ( **. . .** ) e selezionare **Buy now** (Acquista).
 
     ![Acquista ora](media/service-admin-premium-purchase/premium-purchase.png)
 

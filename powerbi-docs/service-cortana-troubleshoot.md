@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249046"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375223"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Risolvere i problemi relativi a Cortana per Power BI
-Questo articolo fa parte di una serie. Se non è già stato fatto, è consigliabile leggere i seguenti tre articoli.
+Questo articolo fa parte di una serie. 
 
-**Articolo 1**: [Informazioni sull'interazione tra Cortana e Power BI per la ricerca di dashboard e report di Power BI](service-cortana-intro.md)
+> [!IMPORTANT]
+> Integrazione di Cortana è deprecato in Power BI. A partire da giugno 11, Cortana non funzionerà più per tutti i dashboard e report.
 
-**Articolo 2**: [per la ricerca di report - Abilitare l'integrazione tra Cortana, Power BI e Windows](service-cortana-enable.md)
-
-**Articolo 3**: [per la ricerca di report - Creare speciali *schede risposte Cortana*](service-cortana-answer-cards.md)
-
-Se si verificano ancora problemi di integrazione di Cortana con Power BI persistono, leggere questo articolo. Seguire questa procedura per diagnosticare e risolvere il problema.
+Se si verificano problemi di Cortana per l'integrazione con Power BI, sei nel posto giusto. Seguire questa procedura per diagnosticare e risolvere il problema.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>Perché Cortana non trova risposte dai report o dashboard di Power BI?
 1. Non si ha un account Power BI?  Se la risposta è negativa, [iscriversi per una versione di valutazione gratuita](https://powerbi.microsoft.com/get-started/).

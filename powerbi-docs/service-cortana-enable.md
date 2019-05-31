@@ -6,23 +6,21 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ff99fc731b5388acd4dbb7c98fe13b227e7d5789
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216770"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375146"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Abilitare Cortana per l'accesso ai report di Power BI e ai rispettivi set di dati sottostanti
 Si è letto l'argomento [Introduzione a Cortana per Power BI](service-cortana-intro.md) (in caso contrario, è preferibile leggerlo prima di procedere). Ora si è pronti per provare in autonomia.  Prima di porre domande in linguaggio naturale in Cortana e trovare le risposte dai dati archiviati nei ***report*** di Power BI, è necessario che siano soddisfatti alcuni requisiti. In particolare, sono necessari gli elementi seguenti.
 
-> [!NOTE]
-> Se si sta provando la versione di anteprima del ***dashboard*** di Cortana e Power BI, è possibile ignorare il resto dell'articolo. Non sono previsti requisiti di installazione per consentire a Cortana di cercare i dashboard di Power BI.
-> 
-> 
+> [!IMPORTANT]
+> Integrazione di Cortana è deprecato in Power BI. A partire da giugno 11, Cortana non funzionerà più per tutti i dashboard e report.
 
 Nel servizio Power BI
 

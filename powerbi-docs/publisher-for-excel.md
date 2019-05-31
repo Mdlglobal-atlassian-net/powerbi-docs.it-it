@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514344"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher per Excel
@@ -111,7 +111,7 @@ In questa versione di **Power BI Publisher per Excel** è necessario tenere cont
 
 * **Dati condivisi**: i dati che sono stati condivisi con l'utente, ma che non sono direttamente visibili all'utente in Power BI, non sono disponibili in **Connetti ai dati**.
 * **SSAS locale**: se il set di dati selezionato proviene da SQL Server Analysis Services (SSAS) locale e il set di dati in Power BI usa DirectQuery per accedere ai dati, **Power BI Publisher per Excel** si connette ai dati usando la connessione di rete locale e *non* Power BI. Di conseguenza, qualsiasi utente che cerca di connettersi a tale set di dati deve essere connesso alla rete locale e viene autenticato per l'accesso a tali dati con il metodo di autenticazione usato dall'istanza di Analysis Services in cui i dati vengono archiviati.
-* **Driver richiesti** - **: Power BI Publisher per Excel** installa automaticamente tutti i driver necessari per questa funzionalità, tra cui il driver OLE DB di Excel per Analysis Services. Se tale driver viene per qualsiasi motivo rimosso dall'utente, la connessione ai dati di Power BI non funzionerà.
+* **Driver richiesti** -  **: Power BI Publisher per Excel** installa automaticamente tutti i driver necessari per questa funzionalità, tra cui il driver OLE DB di Excel per Analysis Services. Se tale driver viene per qualsiasi motivo rimosso dall'utente, la connessione ai dati di Power BI non funzionerà.
 * **I set di dati devono includere le misure**: per gestire le misure come valori nelle tabelle pivot di Excel e per analizzare correttamente i dati, nel set di dati devono essere definite misure del modello. Altre informazioni sulle [misure](desktop-measures.md).
 * **Supporto per i gruppi**: i set di dati condivisi con altri utenti non inclusi nel gruppo specificato non sono supportati, quindi non è possibile stabilire una connessione.
 * **Sottoscrizioni Pro e gratuite**: le attività associate ai gruppi non sono supportate per gli utenti gratuiti di Power BI, che quindi non visualizzeranno i set di dati o i report condivisi con un gruppo nella propria area di lavoro.

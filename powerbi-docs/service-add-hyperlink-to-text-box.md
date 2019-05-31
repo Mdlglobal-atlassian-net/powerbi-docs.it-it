@@ -12,11 +12,11 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406593"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61199523"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Aggiungere un collegamento ipertestuale a una casella di testo in un report
 È possibile aggiungere caselle di testo ai report, aggiungerle ai dashboard dai report e aggiungerle direttamente ai dashboard. Ovunque si trovi la casella di testo, è sempre possibile aggiungervi un collegamento ipertestuale.  

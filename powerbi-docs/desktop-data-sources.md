@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2019
+ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
-ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
-ms.translationtype: HT
+ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56225915"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853429"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -51,7 +51,7 @@ La categoria **File** fornisce le connessioni dati seguenti:
 * XML
 * JSON
 * Cartella
-* PDF (Beta)
+* PDF
 * Cartella di SharePoint
 
 La figura seguente mostra la finestra **Recupera dati** per **File**.
@@ -79,14 +79,16 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Google BigQuery
 * Vertica
 * Snowflake
-* Essbase (Beta)
-* Dremio
-* Exasol
-* MarkLogic (Beta)
+* Essbase
 * Cubi AtScale (Beta)
 * Connettore BI
+* Dremio
+* Exasol
+* Indexima (Beta)
+* InterSystems IRIS (Beta)
 * Jethro (beta)
 * Kyligence Enterprise (Beta)
+* MarkLogic (Beta)
 
 > [!NOTE]
 > Alcuni connettori di database devono essere abilitati selezionando **File > Opzioni e impostazioni > Opzioni** e quindi **Funzionalità in anteprima**. Se alcuni dei connettori citati sopra non sono visibili e si vuole usarli, controllare le impostazioni **Funzionalità in anteprima**. Si noti anche che qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione.
@@ -98,7 +100,7 @@ La figura seguente mostra la finestra **Recupera dati** per **Database**.
 La categoria **Power BI** fornisce le connessioni dati seguenti:
 
 * Set di dati Power BI
-* Flussi di dati Power BI (beta)
+* Flussi di dati Power BI
 
 La figura seguente mostra la finestra **Recupera dati** per **Power BI**.
 
@@ -112,11 +114,12 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Archiviazione BLOB di Azure
 * Archiviazione tabelle di Azure
 * Azure Cosmos DB (Beta)
-* Azure Data Lake Storage
+* Azure Data Lake Store Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Esplora dati di Azure (beta)
+* Esplora dati di Azure (Kusto)
+* Gestione costi di Azure (Beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
@@ -157,9 +160,10 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
-* TeamDesk (beta)
 * Origine dati Emigo (Beta)
+* IndustrialAppStore (Beta)
 * Microsoft Graph Security (Beta)
+* TeamDesk (beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Online Services**.
 
@@ -178,12 +182,16 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 * Script Python
 * ODBC
 * OLE DB
-* Workforce Dimensions (Beta)
+* BI360 - budget & Financial Reporting (Beta)
 * Denado
-* Paxata (Beta)
-* SurveyMonkey (Beta)
+* Griglia informazioni (Beta)
+* Paxata 
 * QubolePresto (Beta)
 * Quick Base (Beta)
+* Roamler (Beta)
+* SurveyMonkey (Beta)
+* Tenforce (Beta)
+* Workforce Dimensions (Beta)
 * Query vuota
 
 La figura seguente mostra la finestra **Recupera dati** per **Altro**.

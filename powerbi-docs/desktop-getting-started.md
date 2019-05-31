@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454508"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
@@ -148,7 +148,7 @@ Sono necessarie ancora alcune modifiche per ottenere la query desiderata:
 
 * *Modificare il nome della tabella* : il valore **Table 0** non è un descrittore utile, ma può essere modificato facilmente.
 
-Ognuno di questi passaggi è illustrato in **[Effettuare il data shaping e combinare i dati in Power BI Desktop](desktop-shape-and-combine-data.md)**. È possibile passare a questa pagina o continuare a leggere questo documento per verificare le operazioni successive. La prossima sezione parte dal punto successivo all'applicazione delle modifiche precedenti.
+Ognuno di questi passaggi è illustrato in **[Effettuare il data shaping e combinare i dati in Power BI Desktop](desktop-shape-and-combine-data.md)** . È possibile passare a questa pagina o continuare a leggere questo documento per verificare le operazioni successive. La prossima sezione parte dal punto successivo all'applicazione delle modifiche precedenti.
 
 ## <a name="combine-data"></a>Combinare i dati
 I dati sui diversi stati sono interessanti e saranno utili per la creazione di analisi e query aggiuntivi. Esiste tuttavia un problema: la maggior parte dei dati usa un'abbreviazione di due lettere per i codici relativi allo stato, non il nome completo dello stato. È necessario trovare un modo per associare i nomi degli stati e le rispettive abbreviazioni.
@@ -161,7 +161,7 @@ Sulla scheda **Home** della barra multifunzione nell'**Editor di query** selezio
 
  ![](media/desktop-getting-started/designer_gsg_usstateabbreviationsnavigator.png)
 
-Selezionare **Table[edit]** , perché include i dati desiderati, ma saranno necessarie alcune operazioni di data shaping per ridurre la quantità di dati della tabella. Ognuno di questi passaggi è illustrato anche in **[Effettuare il data shaping e combinare i dati in Power BI Desktop](desktop-shape-and-combine-data.md)**. Per riepilogare, verranno eseguiti i passaggi seguenti:
+Selezionare **Table[edit]** , perché include i dati desiderati, ma saranno necessarie alcune operazioni di data shaping per ridurre la quantità di dati della tabella. Ognuno di questi passaggi è illustrato anche in **[Effettuare il data shaping e combinare i dati in Power BI Desktop](desktop-shape-and-combine-data.md)** . Per riepilogare, verranno eseguiti i passaggi seguenti:
 
 Selezionare **Modifica**, quindi:
 

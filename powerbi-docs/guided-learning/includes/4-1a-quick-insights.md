@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263837"
+---
 Quando si lavora con un dashboard, report o set di dati nel servizio Power BI, è possibile configurare Power BI per la ricerca di Informazioni rapide nei dati. In Power BI dalla sezione **Set di dati** nel riquadro a sinistra selezionare i *puntini di sospensione* (tre punti) accanto al set di dati d'interesse. Vengono visualizzate le opzioni del menu e, sull'estrema destra, appare l'opzione **Informazioni rapide**.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

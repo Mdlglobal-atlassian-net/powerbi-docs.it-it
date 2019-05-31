@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239452"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
@@ -63,7 +63,7 @@ Le altre connessioni dati sono simili. Se per stabilire una connessione dati è 
 Per informazioni dettagliate sulla connessione ai dati in Power BI Desktop, vedere [Connettersi ai dati in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Effettuare il data shaping e combinare i dati
-L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
+L'Editor di query consente di effettuare facilmente il data shaping e di combinare i dati. Questa sezione include alcuni esempi su come effettuare il data shaping. Per una dimostrazione più completa di ogni passaggio relativo al data shaping e alla combinazione dei dati, vedere **[Data shaping e combinazione di dati in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** .
 
 Nella sezione precedente sono stati caricati due set di dati, una cartella di lavoro di Excel e una risorsa Web. Dopo il caricamento nell'Editor di query, la visualizzazione è simile alla seguente, con la query della pagina Web selezionata (tratta dall'elenco delle query disponibili elencate nel riquadro **Query** sul lato sinistro della finestra Editor di query).
 

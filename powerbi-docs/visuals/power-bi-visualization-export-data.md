@@ -12,11 +12,11 @@ ms.date: 12/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 83ca49a3307a12e8a92c01de4175fcb117e3163d
-ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54838440"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068572"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 Per esaminare i dati usati per creare una visualizzazione, [è possibile visualizzarli in Power BI](service-reports-show-data.md) o esportarli in Excel come file XLSX o CSV. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. 

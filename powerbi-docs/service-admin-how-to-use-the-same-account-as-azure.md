@@ -11,11 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: d9b171052bd095afc918a312ecbadba89a2471cd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283576"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187167"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Uso dello stesso account per Power BI e Azure
 Se si usa sia Power BI che Azure, è preferibile usare lo stesso account di accesso per entrambi i servizi in modo da non dover digitare la password per due volte.

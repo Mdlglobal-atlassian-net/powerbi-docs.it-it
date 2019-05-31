@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454244"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Usare le etichette di gerarchia inline in Power BI Desktop
@@ -51,7 +51,7 @@ Prima di tutto verrà preso in esame un grafico differente, che usa dati con ger
 
 ![Grafico con gerarchia informale](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Se si seleziona **Espandi al livello successivo**, viene visualizzato il livello successivo con la visualizzazione inline delle etichette di gerarchia. Per impostazione predefinita, le gerarchie inline vengono ordinate in base il valore della misura, in questo caso, **Quantity**. Con le etichette di gerarchia inline abilitate, è possibile scegliere di ordinare i dati anche in base alla gerarchia, selezionando i puntini di sospensione nell'angolo superiore destro (**...**), quindi selezionando **Ordina per ProductName ShipCountry**, come illustrato nella figura seguente.
+Se si seleziona **Espandi al livello successivo**, viene visualizzato il livello successivo con la visualizzazione inline delle etichette di gerarchia. Per impostazione predefinita, le gerarchie inline vengono ordinate in base il valore della misura, in questo caso, **Quantity**. Con le etichette di gerarchia inline abilitate, è possibile scegliere di ordinare i dati anche in base alla gerarchia, selezionando i puntini di sospensione nell'angolo superiore destro ( **...** ), quindi selezionando **Ordina per ProductName ShipCountry**, come illustrato nella figura seguente.
 
 ![Grafico con gerarchia informale ordinata in base all'impostazione predefinita](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 

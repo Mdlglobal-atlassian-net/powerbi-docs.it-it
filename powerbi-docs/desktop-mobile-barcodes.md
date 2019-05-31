@@ -2,21 +2,22 @@
 title: Contrassegnare un campo di codice a barre in Power BI Desktop per dispositivi mobili
 description: Quando si contrassegna un campo di codice a barre nel modello in Power BI Desktop, è possibile filtrare automaticamente i dati in base ai codici a barre nell'app di Power BI o in un iPhone.
 author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 584947dcd92078ea025468f5a38fc7fed3e2616a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289901"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61293597"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Contrassegnare codici a barre in Power BI Desktop per dispositivi mobili
+
 In Power BI Desktop è possibile [classificare i dati](desktop-data-categorization.md) in una colonna, in modo che Power BI Desktop sappia come gestire i valori negli oggetti visivi in un report. È anche possibile classificare una colonna come **Codice a barre**. Quando l'utente o i colleghi [effettuano la scansione di un codice a barre in un prodotto con l'app di Power BI](consumer/mobile/mobile-apps-scan-barcode-iphone.md) in un iPhone, vengono visualizzati tutti i report che includono tale codice a barre. Quando si apre il report nell'app per dispositivi mobili, Power BI filtra automaticamente il report per visualizzare i dati correlati al codice a barre.
 
 1. In Power BI Desktop passare alla visualizzazione dati.

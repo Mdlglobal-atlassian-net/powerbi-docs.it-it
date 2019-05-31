@@ -1,5 +1,5 @@
 ---
-title: Creare report ottimizzati per le app per dispositivi mobili
+title: Ottimizzare i report per l'App per dispositivi mobili - Power BI
 description: Informazioni su come ottimizzare le pagine dei report per le app per dispositivi mobili Power BI creando una versione del report con orientamento verticale specifica per telefoni e tablet.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174592"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61310798"
 ---
-# <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Creare report ottimizzati per le app per dispositivi mobili Power BI
-È possibile migliorare l'esperienza di visualizzazione dei report nelle app per dispositivi mobili su telefoni o tablet. Creare un layout verticale di un report, specifico per telefoni e tablet. In Power BI Desktop e nel servizio Power BI è possibile adattare il report modificando la disposizione degli oggetti visivi e ridimensionandoli in un layout verticale per ottenere un'esperienza ottimale. Non è necessario includerli tutti. È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-work-well-in-phone-reports) che si ridimensionano in modo ottimale per la visualizzazione da un telefono. Inoltre, se si aggiungono filtri a un report, tali filtri vengono visualizzati automaticamente nel report ottimizzato. I lettori del report possano visualizzarli e filtrare il report con essi.
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Ottimizzare i report per le App per dispositivi mobili di Power BI
+È possibile migliorare l'esperienza di visualizzazione dei report nelle App per dispositivi mobili mediante la creazione di un layout verticale. In Power BI Desktop e nel servizio Power BI, per ridisporre e ridimensionare elementi visivi del report per un'esperienza ottimale in modalità verticale.  
+
+Cercare le informazioni sulla visualizzazione invece dei report in un dispositivo mobile? Provare questa Guida introduttiva [esplorare dashboard e report nelle App per dispositivi mobili di Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Report ottimizzato in un telefono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
+
+È anche possibile creare [ *reattivi* oggetti visivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-work-well-in-phone-reports) anche in un punto qualsiasi al ridimensionamento. Se si aggiungono filtri al report, vengono visualizzate automaticamente nel report ottimizzato.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Layout di una versione verticale di una pagina del report
 
@@ -40,7 +44,7 @@ Dopo aver creato un report, è possibile ottimizzarlo per telefoni e tablet.
    
     ![Trascinare e rilasciare un oggetto visivo](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    È possibile aggiungere alcuni o tutti gli oggetti visivi della pagina del report master alla pagina del report per il telefono. È possibile aggiungere ogni oggetto visivo solo una volta.
+    È possibile aggiungere alcuni o tutti gli oggetti visivi della pagina del report master alla pagina del report per il telefono. È possibile aggiungere ogni oggetto visivo solo una volta. Non è necessario includere tutti gli oggetti visivi.
 
 4. È possibile ridimensionare gli oggetti visivi nella griglia come si farebbe per i riquadri nei dashboard e nei dashboard mobili.
    

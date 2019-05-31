@@ -11,11 +11,11 @@ ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662343"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388817"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
@@ -198,7 +198,7 @@ Per altre informazioni, vedere [Mappe ad albero in Power BI](power-bi-visualizat
 
 Per altre informazioni, vedere [Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md).
 
-## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare 
+## <a name="tell-qa-which-visualization-to-use"></a>Indicare a Domande e risposte quali visualizzazioni usare
 Quando si digitano query in linguaggio naturale con le Domande e risposte di Power BI, è possibile specificare il tipo di visualizzazione;  ad esempio:
 
 “***sales by state as a treemap***“

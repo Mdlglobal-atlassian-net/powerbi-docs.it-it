@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397693"
+---
 Power BI dispone di proprietà che è possibile assegnare ai campi nel modello, che consentono di segnalare e visualizzare e presentare i dati in modo da fornire maggiore chiarezza. Ad esempio, talvolta si desidera calcolare la media di un elenco di numeri, tuttavia Power BI esegue automaticamente la somma dell'elenco. Con Power BI, è possibile modificare la modalità di riepilogo di tali elenchi di numeri.
 
 ## <a name="numeric-control-over-summarization"></a>Controllo numerico rispetto alla visualizzazione

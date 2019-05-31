@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9a7afafaa14ed890e10e77507aafb637755cd87f
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 6c09392566805f2857c50784f16c0e3f9d4b5697
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57965979"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232511"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi-preview"></a>Integrazione di Azure Machine Learning in Power BI (anteprima)
 
@@ -106,9 +106,9 @@ Questo articolo ha fornito una panoramica sull'integrazione di Machine Learning 
 
 Per altre informazioni sui flussi di dati, è possibile leggere questi articoli:
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
-* [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
+* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
 * [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md)
 
 

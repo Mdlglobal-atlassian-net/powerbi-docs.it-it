@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275756"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187810"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
 Un grafico combinato in Power BI è una singola visualizzazione che combina un grafico a linee e un istogramma. La combinazione dei 2 grafici in uno permette di confrontare i dati in modo più rapido.
@@ -52,7 +52,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 
     b.  Trascinare **Sales** \> **Gross Margin This Year** nell'area **Valore**.
 
-    c.  Selezionare **Time** \> **FiscalMonth** per aggiungerlo all'area **Asse**.
+    c. Selezionare **Time** \> **FiscalMonth** per aggiungerlo all'area **Asse**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione e selezionare **Sort by > FiscalMonth**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e scegliere **Ordinamento crescente** oppure **Ordinamento decrescente**.
@@ -71,7 +71,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 ## <a name="create-a-combo-chart-with-two-axes"></a>Creare un grafico combinato con due assi
 In questa attività, si confronteranno margine lordo e vendite.
 
-1. Creare un nuovo grafico a linee che tiene traccia della **percentuale di margine lordo dello scorso anno** per ogni **mese**. Selezionare i puntini di sospensione per ordinare per **mese** e in **ordine crescente**.  
+1. Creare un nuovo grafico a linee che tiene traccia **Gross Margin last year %** dal **FiscalMonth**. Selezionare i puntini di sospensione per ordinare per **mese** e in **ordine crescente**.  
 La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, pe
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. Trascinare **% di margine lordo dello scorso anno** dai **Valori colonna** nei **Valori riga**. Power BI crea due assi, consentendo in tal modo di ridimensionare i set di dati in modo diverso: quello di sinistra misura i dollari in vendite, mentre quello di destra la percentuale. La risposta alla domanda è che effettivamente si vede un modello simile.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Aggiungere titoli agli assi
 1. Selezionare l'icona del rullo ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) per aprire il riquadro di formattazione.
 2. Selezionare la freccia rivolta verso il basso per espandere le opzioni relative all' **asse Y** .
-3. Per **Asse Y (colonna)**, impostare **Posizione** su **A sinistra**, **Titolo** su **On**, **Stile** su **Mostra solo titolo** e **Visualizza** su **Milioni**.
+3. Per **asse y (colonna)** , impostare **posizione** al **sinistra**, impostare **titolo** a **nel**,  **Stile** al **Mostra solo titolo**, e **unità visualizzate** come **milioni**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. Sull'**Asse Y (colonna)** scorrere verso il basso e assicurarsi che **Mostra secondario** sia impostato su **Sì**. In questo modo è possibile visualizzare le opzioni per la formattazione della parte di grafico a linee del grafico combinato.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. Sotto **asse y (colonna)** , scorrere verso il basso fino a visualizzare **Mostra secondario**. Poiché sono presenti numerose opzioni per gli assi Y, è possibile usare entrambe le barre di scorrimento. Nell'area secondaria Show visualizzata le opzioni di formattazione parte relativa linea del grafico combinato.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
-5. Per **Asse Y (riga)**, lasciare **Posizione** su **A destra**, **Titolo** su **On** e impostare **Stile** su **Mostra solo titolo**.
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
+5. Per **Asse Y (riga)** , lasciare **Posizione** su **A destra**, **Titolo** su **On** e impostare **Stile** su **Mostra solo titolo**.
 
    Il grafico combinato ora visualizzerà due assi, entrambi con un titolo.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. È facoltativamente possibile modificare il tipo di carattere, le dimensioni e il colore del testo e configurare altre opzioni di formattazione per migliorare la visualizzazione e la leggibilità del grafico.
 

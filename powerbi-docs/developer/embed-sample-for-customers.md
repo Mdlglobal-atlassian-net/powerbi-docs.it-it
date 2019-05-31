@@ -1,21 +1,21 @@
 ---
 title: Funzionalità di analisi incorporata per incorporare contenuto di Power BI nell'applicazione per i clienti
 description: Informazioni su come integrare o incorporare un report, un dashboard o un riquadro in un'applicazione tramite le API di Power BI per l'analisi incorporata per i clienti. Informazioni su come integrare Power BI nell'applicazione usando software di analisi incorporata, strumenti di analisi incorporata o strumenti di business intelligence incorporata.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174960"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710960"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti
 
@@ -62,7 +62,7 @@ Se invece si usa l'entità servizio, è necessario procedere con la registrazion
 
 ### <a name="create-an-app-workspace"></a>Crea area di lavoro per le app
 
-Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro per le app. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../service-create-workspaces.md) o le [nuove aree di lavoro](../service-create-the-new-workspaces.md). Se si usa un account *master*, non è importante il tipo di area di lavoro usato. Se invece si usa l'*[entità servizio](embed-service-principal.md)* per accedere all'applicazione, è necessario usare le nuove aree di lavoro. In entrambi gli scenari sia l'account *master* sia l'*entità servizio* deve essere amministratore delle aree di lavoro per le app interessate dall'applicazione.
+Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro per le app. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../service-create-workspaces.md) o le [nuove aree di lavoro](../service-create-the-new-workspaces.md). Se si usa un account *master*, non è importante il tipo di area di lavoro usato. Se invece si usa l' *[entità servizio](embed-service-principal.md)* per accedere all'applicazione, è necessario usare le nuove aree di lavoro. In entrambi gli scenari sia l'account *master* sia l'*entità servizio* deve essere amministratore delle aree di lavoro per le app interessate dall'applicazione.
 
 ### <a name="create-and-publish-your-reports"></a>Creare e pubblicare i report
 
@@ -192,23 +192,19 @@ Per ottenere il valore **ApplicationSecret**, seguire questa procedura:
 
 2. Nel riquadro di spostamento a sinistra scegliere **Tutti i servizi** e selezionare **Registrazioni per l'app**.
 
-    ![Ricerca di Registrazioni per l'app](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![Ricerca di Registrazioni per l'app](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. Selezionare l'applicazione che deve usare il valore **ApplicationSecret**.
 
-    ![Scegliere un'app](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Scegliere un'app](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Selezionare **Impostazioni**.
+4. Selezionare **certificati e i segreti** sotto **Gestisci**.
 
-    ![Selezionare Impostazioni](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Selezionare **Chiavi**.
-
-    ![Selezionare Chiavi](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Selezionare **nuovi segreti client**.
 
 6. Immettere un nome nella casella **Descrizione** e selezionare una durata. Quindi selezionare **Salva** per ottenere il **Valore** per l'applicazione. Chiudendo il riquadro **Chiavi** dopo aver salvato il valore della chiave, il campo del valore viene visualizzato solo come nascosto. A questo punto, non è possibile recuperare il valore della chiave. Se il valore della chiave viene perso, crearne uno nuovo all'interno del portale di Azure.
 
-    ![Valore chiave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Valore chiave](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>Tenant
 
@@ -369,7 +365,7 @@ Usare la tabella seguente per individuare la capacità di Power BI Embedded più
 | A5 |16 vCore |8 core, 50 GB RAM |8 core |60 al secondo |
 | A6 |32 vCore |16 core, 100 GB RAM |16 core |120 al secondo |
 
-**_Con gli SKU A, non è possibile accedere al contenuto di Power BI con una licenza di Power BI gratuita._**
+**_Con gli SKU A, non è possibile accedere al contenuto di Power BI con una licenza di Power BI gratuita._ **
 
 I token di incorporamento con licenza Pro sono destinati al test dello sviluppo, pertanto il numero di token di incorporamento che un account master Power BI o un'entità servizio può generare è limitato. È richiesta una capacità dedicata per l'incorporamento in un ambiente di produzione. Con una capacità dedicata è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale. La quantità di utilizzo è calcolata per ogni account master.
 

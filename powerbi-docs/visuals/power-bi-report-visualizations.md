@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292868"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375655"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizzazioni nei report di Power BI
 
 Le visualizzazioni, note anche come oggetti visivi, mostrano informazioni dettagliate individuate nei dati. Un report di Power BI può includere una singola pagina con un oggetto visivo oppure più pagine con molti oggetti visivi. Nel servizio Power BI gli oggetti visivi possono essere [aggiunti dai report ai dashboard](../service-dashboard-pin-tile-from-report.md).
 
-È importante notare la distinzione tra *autori* del report e *consumer* del report. L'autore è la persona che crea o modifica il report.  Gli autori hanno autorizzazioni di modifica per il report e per il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI è quindi possibile aprire il set di dati o il report nell'editor di report in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../consumer/end-user-shared-with-me.md), l'utente è un **consumer** del report. Sarà possibile visualizzare e interagire con il report e con i rispettivi oggetti visivi, ma non sarà possibile salvare le modifiche.
+È importante distinguere fra report *progettisti* e il report *consumer* se si è l'utente crea o modifica del report, quindi si ha una finestra di progettazione.  Finestre di progettazione dispone delle autorizzazioni di modifica per il report e il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI, questo significa che è possibile aprire il set di dati o report nell'editor di report in [visualizzazione di modifica](../consumer/end-user-reading-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../consumer/end-user-shared-with-me.md), l'utente è un **consumer** del report. È possibile visualizzare e interagire con il report e i rispettivi oggetti visivi, ma non sarà possibile salvare le modifiche principali.
 
 Sono disponibili molti tipi diversi di oggetti visivi, direttamente dal riquadro VISUALIZZAZIONI di Power BI.
 
@@ -50,6 +50,11 @@ Provare a [modificare il tipo di visualizzazione](power-bi-report-change-visuali
 ## <a name="pin-the-visualization"></a>Aggiungere la visualizzazione
 
 Quando si ottiene la visualizzazione desiderata, nel servizio Power BI è possibile [aggiungerla a un dashboard](../service-dashboard-pin-tile-from-report.md) come riquadro. Se si modifica la visualizzazione usata nel report dopo l'aggiunta, il riquadro non subisce modifiche nel dashboard: se si tratta di un grafico a linee, rimane un grafico a linee, anche se nel report è stato modificato in un grafico ad anello.
+
+## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
+- A seconda origine dati e il numero di campi (misure o colonne), un oggetto visivo può caricato lentamente.  È consigliabile limitare gli oggetti visivi da 10 a 20 campi dei totali, sia per motivi di prestazioni e migliorare la leggibilità. 
+
+- Il limite massimo per gli oggetti visivi è 100 campi (misure o colonne). Se l'oggetto visivo non riesce a caricare, ridurre il numero di campi.   
 
 ## <a name="next-steps"></a>Passaggi successivi
 

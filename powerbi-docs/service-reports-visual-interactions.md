@@ -13,11 +13,11 @@ ms.date: 02/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426586"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61405997"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Modificare l'interazione degli oggetti visivi in un report di Power BI
 Se sono presenti autorizzazioni di modifica per un report è possibile usare **Interazioni oggetti visivi** per modificare l'effetto di ogni visualizzazione in una pagina del report sulle altre visualizzazioni. 

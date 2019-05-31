@@ -1,280 +1,344 @@
 ---
 title: 'Esercitazione: Oggetto visivo Fattori di influenza chiave'
-description: Esercitazione - Creare un oggetto visivo Fattori di influenza chiave in Power BI
+description: 'Esercitazione: Creare una visualizzazione di fattori di influenza chiave in Power BI'
 author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 02/12/2019
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
-ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
-ms.translationtype: HT
+ms.openlocfilehash: 8d2d6755d01a8ea9d5dad9813fcd7f4b4c1f8232
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "57461673"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051605"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
-L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Si supponga ad esempio di essere interessati ai motivi che influiscono sull'abbandono dei dipendenti dell'azienda. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
+I fattori di influenza chiave visual aiuta a comprendere i fattori una metrica si è interessati a tale unità. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Ad esempio, si supponga di che voler scoprire quali influenze avvicendamento dei dipendenti, che è noto anche come varianza. Un fattore potrebbe essere lunghezza contratto occupazione, e un altro fattore potrebbe essere età dipendente. 
  
-## <a name="when-to-use-key-influencers"></a>Quando usare i fattori di influenza chiave? 
-L'oggetto visivo Fattori di influenza chiave è ideale: 
-- Per vedere quali fattori influiscono sulla metrica che si sta analizzando.
-
-- Per confrontare l'importanza relativa di questi fattori. Ad esempio, i contratti a breve termine hanno un'influenza maggiore sull'abbandono dei dipendenti rispetto ai contratti a lungo termine? 
+## <a name="when-to-use-key-influencers"></a>Quando utilizzare i fattori di influenza chiave 
+L'oggetto visivo fattori di influenza chiave è un'ottima scelta se si desidera: 
+- Vedere quali fattori influiscono sulla metrica che si sta analizzata.
+- Confrontare l'importanza relativa di questi fattori. Ad esempio, i contratti a breve termine hanno un'influenza maggiore sull'abbandono dei dipendenti rispetto ai contratti a lungo termine? 
 
 ## <a name="key-influencer-requirements"></a>Requisiti per i fattori di influenza chiave 
-La metrica che si analizza deve essere un campo categorico.    
+La metrica è analizzare deve essere campi numerici o categorici (funzioni di aggregazione e le misure non sono ancora supportate).
 
+## <a name="features-of-the-key-influencers-visual"></a>Funzionalità di fattori di influenza chiave visual
 
-## <a name="features-of-the-key-influencer-visual"></a>Funzionalità dell'oggetto visivo Fattori di influenza chiave
+![Funzionalità numerate](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)
 
-![funzionalità con numero](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)    
+1. **Schede**: Selezionare una scheda per passare dalla visualizzazione. **Fattori di influenza chiave** apprenderai i collaboratori principali per il valore della metrica selezionato. **Primi segmenti** Mostra i primi segmenti che contribuiscono al valore della metrica selezionato. Un *segmento* è costituito da una combinazione di valori. Un segmento, ad esempio, potrebbe essere utenti che sono stati i clienti per almeno 20 anni e in tempo reale nell'area occidentale. 
 
-1. ***Schede*** - Selezionare una scheda per passare da una visualizzazione all'altra. La scheda Fattori di influenza chiave visualizza gli elementi che contribuiscono maggiormente al valore della metrica selezionata. La scheda Segmenti principali visualizza i segmenti che contribuiscono maggiormente al valore della metrica selezionata. Un *segmento* è costituito da una combinazione di valori.  Ad esempio un segmento potrebbe rappresentare i consumatori che sono clienti da almeno vent'anni e vivono nell'area occidentale. 
+2. **Casella di riepilogo a discesa**: Il valore della metrica sotto indagine. In questo esempio, esaminare la metrica **Rating**. Il valore selezionato **bassa**.
 
-2. ***Menu a discesa*** - Valore della metrica analizzata. In questo esempio si osserva la metrica **rating** (valutazione) e il valore selezionato è **low** (bassa).    
+3. **Riformulazione**: Consente di interpretare l'oggetto visivo nel riquadro sinistro.
 
-3. ***Riformulazione*** - Favorisce l'interpretazione dell'elemento visivo nel riquadro sinistro. 
+4. **Riquadro a sinistra**: Il riquadro a sinistra contiene un oggetto visivo. In questo caso, il riquadro sinistro mostra un elenco dei fattori di influenza chiave superiore.
 
-4. ***Riquadro sinistro*** - Il riquadro sinistro contiene un oggetto visivo.  In questo caso il riquadro sinistro visualizza un elenco dei fattori di influenza chiave principali.
+5. **Riformulazione**: Consente di interpretare l'oggetto visivo nel riquadro di destra.
 
-5. ***Riformulazione*** - Favorisce l'interpretazione dell'elemento visivo nel riquadro destro.
+6. **Riquadro di destra**: Il riquadro destro contiene un oggetto visivo. In questo caso, l'istogramma visualizza tutti i valori per la chiave influencer **tema** che è stata selezionata nel riquadro sinistro. Il valore specifico di **usabilità** nel riquadro a sinistra viene visualizzato in verde. Tutti gli altri valori per **tema** vengono visualizzati in nero.
 
-6. ***Riquadro destro*** - Il riquadro destro contiene un oggetto visivo. In questo caso il grafico a colonne visualizza tutti i valori del **fattore di influenza chiave** **Theme** (Tema) selezionato nel riquadro sinistro. Il valore specifico **Usability** (Usabilità) nel riquadro sinistro è di colore verde e tutti gli altri valori per **Theme** (Tema) sono di colore nero.
+7. **Linea Media**: Viene calcolata la media per tutti gli altri valori possibili per **tema** tranne **usabilità**. Pertanto il calcolo si applica a tutti i valori in nero. Indica la percentuale di altra **temi** ha fornito un livello di gravità basso. In altre parole, quando viene specificata una classificazione da un cliente, che il cliente descrive anche il motivo o del tema per la classificazione. Alcuni temi sono l'usabilità, velocità e sicurezza. 
 
-7. ***Linea media*** - La media viene calcolata per tutti gli altri valori possibili di **Theme** (Tema), salvo per **Usability** (Usabilità). Pertanto il calcolo si applica a tutti i valori in nero. Indica la percentuale degli altri **temi** che ha restituito valutazioni basse. In altre parole, quando un cliente dà una valutazione, descrive anche il motivo o **tema** della valutazione. Alcuni esempi di temi sono l'usabilità, la velocità, la sicurezza e così via. Secondo l'oggetto visivo nel riquadro a sinistra, il **tema** **Usability** (Usabilità) è il secondo fattore di influenza chiave in ordine di importanza per una valutazione bassa. Se si calcola la media di tutti gli altri temi e il loro contributo a una valutazione **low** (bassa), si ottiene il risultato visualizzato qui in rosso. Di tutti gli altri temi, solo per l'11,35% i valori sono maggiori rispetto a **usability**. 
+   **Tema è usabilità** quello dell'influencer più alto seconda chiave per una valutazione bassa, in base all'oggetto visivo nel riquadro sinistro. Se si calcola la media tutti gli altri temi e il loro contributo a una classificazione compresa tra **bassa**, si ottiene il risultato visualizzato in rosso. Di tutti gli altri temi forniti, è superiore al solo % 11.35 **usabilità**.
 
-8. ***Casella di controllo*** - Visualizza solo i valori che sono fattori di influenza.
+8. **Casella di controllo**: **Mostra solo i valori che sono fattori di influenza**.
 
 ## <a name="create-a-key-influencers-visual"></a>Creare un oggetto visivo Fattori di influenza chiave 
  
-Guardare questo video per informazioni sulla creazione di un oggetto visivo Fattori di influenza chiave e quindi seguire la procedura riportata di seguito per creare l'oggetto visivo. 
+Guardare questo video per imparare a creare un fattori di influenza chiave oggetto visivo. Attenersi alla seguente procedura per crearne uno. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Il product manager vuole determinare i fattori per cui i clienti danno valutazioni negative al servizio cloud dell'azienda.  Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
+Il Product Manager desidera di scoprire quali fattori ai clienti lead per lasciare recensioni negative sul servizio cloud. Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
 
 > [!NOTE]
-> Il set di dati di commenti e suggerimenti dei clienti è basato sul lavoro [Moro et al., 2014] S. Moro, P. Cortez e P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing (Un approccio basato sui dati per la previsione del successo del telemarketing bancario). Decision Support Systems, Elsevier, 62:22 - 31 giugno 2014 
+> Il set di dati di commenti e suggerimenti dei clienti è basato su [Moro e così via, 2014] Moro S. P. Cortez e Rita P. "Un basate sui dati approccio per stimare la riuscita della banca Telemarketing." *Decision Trees supporta i sistemi*, Elsevier, 62:22-31, giugno 2014. 
 
-1. Aprire il report e selezionare l'icona Fattori di influenza chiave.  
+1. Aprire il report e selezionare il **fattori di influenza chiave** icona. 
 
     ![Nel riquadro Visualizzazioni selezionare il modello Fattori di influenza chiave](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Trascinare la metrica da esaminare nel campo **Analisi**. Il campo **Analisi** supporta solo le variabili categoriche (non continue). Poiché l'obiettivo corrente è determinare i motivi alla base di una valutazione **Low** (Bassa) del servizio da parte dei clienti, selezionare **Customer Table (Tabella cliente)** > **Rating (Valutazione)**.    
-3. Quindi trascinare i campi che si ritiene potrebbero influenzare **Rating (Valutazione)** nell'area **Spiega in base a**. È possibile trascinare il numero di campi desiderato. In questo caso si inizia con: 
-    - Country-Region (Paese-Regione) 
+2. Spostare la metrica da analizzare nel **Analyze** campo. Il **Analyze** campo supporta solo le variabili categoriche o non continua,. Per visualizzare ciò che comporta un cliente classificazione del servizio deve essere basso, selezionare **tabella Customer** > **classificazione**. 
+3. Spostare i campi che si ritiene che potrebbero influire sulla **Rating** nel **spiegano da** campo. È possibile spostare tutti i campi desiderati. In questo caso, iniziare con:
+    - Country-Region 
     - Role in Org (Ruolo nell'organizzazione) 
     - Subscription Type (Tipo di sottoscrizione) 
     - Company size (Dimensione dell'azienda) 
-    - Theme     
-4. Dato che interessano le valutazioni negative, selezionare **Bassa** nell'elenco a discesa **Fattore che influisce su Valutazione in modo che sia**.  
+    - Theme 
+1. Per evidenziare le classificazioni negative, selezionare **bassa** nel **ciò che influenza eccellenti** casella di riepilogo a discesa.  
 
-    ![Selezionare Bassa nell'elenco a discesa](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
+    ![Selezionare Low dall'elenco a discesa](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
-L'analisi viene eseguita a livello di tabella per il campo che si sta analizzando. In questo caso la metrica di interesse è **Rating (Valutazione)**, che viene definita a livello del cliente (ogni cliente ha assegnato un punteggio alto o basso al servizio). Tutti fattori esplicativi devono essere definiti a livello del cliente per abilitarne l'uso nell'oggetto visivo. 
+L'analisi viene eseguita a livello di tabella per il campo analizzato. In questo caso, ha il **Rating** metrica. Questa metrica è definita a livello dei clienti. Ogni cliente ha assegnato un punteggio alto o un punteggio basso. Tutti i fattori esplicativi devono essere definiti a livello di clienti per l'oggetto visivo rendere di usarle. 
 
-Nell'esempio precedente tutti i fattori esplicativi hanno una relazione uno-a-uno o molti-a-uno con la metrica. Ad esempio a ogni punteggio è associato esattamente un tema (corrispondente al tema principale della recensione del cliente). Analogamente i clienti provengono da un paese specifico e hanno un solo tipo di appartenenza e un solo ruolo all'interno dell'organizzazione. Di conseguenza i fattori esplicativi sono già attributi di un cliente e non richiedono trasformazioni, ovvero l'oggetto visivo può usarli immediatamente. 
+Nell'esempio precedente, tutti i fattori esplicativo hanno un a uno o una relazione molti-a-uno con la metrica. In questo caso, ogni punteggio ha esattamente un tema associato. Il tema è stato il tema principale della revisione del cliente. Analogamente, i clienti provengono da un paese, avere un tipo di appartenenza ed eseguire un ruolo all'interno dell'organizzazione. I fattori esplicativi sono già gli attributi di un cliente e non sono necessari alcuna trasformazione. L'oggetto visivo può rendere utilizzo immediato di essi. 
 
-Più avanti nell'esercitazione si esamineranno esempi più complessi con relazioni uno-a-molti. In questi casi, prima di poter eseguire l'analisi è necessario aggregare le colonne fino al livello cliente.  
+Più avanti nell'esercitazione, esaminiamo esempi più complessi che dispongono di relazioni uno-a-molti. In questi casi, le colonne devono prima essere aggregati fino al livello cliente prima di poter eseguire l'analisi. 
 
-Anche le misure e le aggregazioni usate come fattori esplicativi vengono valutate al livello tabella della metrica **Analisi** e si vedranno alcuni esempi più avanti in questo articolo. 
+Misure e utilizzati come fattori esplicativi vengono inoltre valutati a livello di tabella di funzioni di aggregazione il **Analyze** metrica. Più avanti in questo articolo vengono illustrati alcuni esempi. 
 
-## <a name="interpreting-categorical-key-influencers"></a>Interpretazione dei fattori di influenza chiave categorici 
-Ora si prendono in considerazione i fattori di influenza chiave per le valutazioni basse. 
+## <a name="interpret-categorical-key-influencers"></a>Interpretare i fattori di influenza chiave per categoria 
+Diamo un'occhiata a fattori di influenza chiave per valutazioni basse. 
 
-### <a name="top-single-factor-influencing-likelihood-of-a-low-rating"></a>Singolo fattore principale che influenza la probabilità di una valutazione bassa
+### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Superiore a fattore singolo che influenza le probabilità di un livello di gravità basso
 
-L'organizzazione ha tre ruoli: consumatori, amministratori ed editori. Si rileva che l'appartenenza al ruolo consumatore è il fattore principale che contribuisce a una valutazione bassa. 
+L'organizzazione in questo esempio ha tre ruoli: consumer, amministratore e server di pubblicazione. Un consumer è il fattore principale che contribuisce a un livello di gravità basso. 
 
-![Il ruolo selezionato nell'organizzazione è consumatore](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
+![Selezionare un ruolo nell'organizzazione è consumer](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
 
-Più precisamente, i consumatori hanno una probabilità 2,57 volte maggiore di assegnare una valutazione negativa. Nel grafico dei fattori di influenza chiave, **Role in Org is consumer** (Ruolo nell'organizzazione è consumatore) è al primo posto nell'elenco a sinistra. Se si seleziona **Role in Org is consumer** (Ruolo nell'organizzazione è consumatore), Power BI visualizza dettagli aggiuntivi nel riquadro destro, ovvero l'effetto comparativo di ogni **ruolo** sulla probabilità di una valutazione bassa.
+Più precisamente, gli utenti sono più volte 2,57 possibilità di assegnare un punteggio negativo al servizio. I fattori di influenza chiave grafico elenchi **ruolo nell'organizzazione è consumer** prima nell'elenco a sinistra. Selezionando **ruolo nell'organizzazione è consumer**, Power BI Visualizza dettagli aggiuntivi nel riquadro di destra. Viene illustrato l'effetto di ogni ruolo comparativa sulla probabilità di un livello di gravità basso.
   
-- Il 14,93% dei consumatori assegna un punteggio basso  
-- In media solo il 5,78% di tutti gli altri ruoli assegna un punteggio basso 
-- Pertanto i consumatori hanno una probabilità 2,57 volte maggiore di assegnare un punteggio basso rispetto a tutti gli altri ruoli (differenza tra la barra verde e la linea rossa punteggiata) 
+- % 14.93 del consumer di assegnare un punteggio basso. 
+- Tutti gli altri ruoli in Media, assegnare un punteggio basso 5.78% del tempo.
+- I consumer sono 2,57 volte più possibilità di assegnare un punteggio basso rispetto a tutti gli altri ruoli. È possibile determinare tale aspetto dividendo la barra verde per la linea tratteggiata rossa. 
 
-### <a name="second-single-factor-influencing-likelihood-of-a-low-rating"></a>Secondo fattore singolo che influenza la probabilità di una valutazione bassa
+### <a name="second-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Secondo fattore che influenza le probabilità di un livello di gravità basso
 
-L'oggetto visivo Fattori di influenza chiave è in grado di confrontare e includere in una classifica fattori derivanti da variabili diverse.  Il secondo fattore di influenza non ha nulla a che vedere con **Role in Org** (Ruolo nell'organizzazione).  Selezionare il secondo fattore di influenza nell'elenco: **Theme is usability** (Il tema è l'usabilità). 
+I fattori di influenza chiave visual Confronta e classifica i fattori da molte variabili diverse. Non ha nulla a che fare con quello dell'influencer secondo **ruoli di organigramma**. Selezionare dall'elenco, che è quello dell'influencer secondo **tema è usabilità**. 
 
-![Selezionare Theme is usability (Il tema è l'usabilità)](media/power-bi-visualization-influencers/power-bi-theme.png)
+![selezione del tema è usabilità](media/power-bi-visualization-influencers/power-bi-theme.png)
 
-Qui si nota che il secondo fattore di influenza in ordine di importanza è correlato al tema della valutazione del cliente. I clienti che hanno aggiunto un commento sull'*usabilità* del prodotto avevano una probabilità 2,21 volte più alta di assegnare un punteggio basso rispetto ai clienti che hanno aggiunto un commento su altri temi, quali l'affidabilità, il design o la velocità. 
+Il fattore in secondo luogo più importante è correlato al tema della revisione del cliente. I clienti che hanno aggiunto un commento sull'usabilità del prodotto sono stati 2.55 volte più possibilità di assegnare un punteggio basso rispetto ai clienti che hanno aggiunto un commento su altri temi, ad esempio l'affidabilità, progettazione o dalla velocità. 
 
-È possibile vedere tra gli oggetti visivi che la media (linea rossa punteggiata) è cambiata dal 5,78% all'11,34%. La media è dinamica, perché è basata sulla media di tutti gli altri valori. Nel caso del primo fattore di influenza la media escludeva il ruolo del cliente, mentre nel caso del secondo fattore escludeva il tema dell'usabilità. 
+Tra gli oggetti visivi, la media, che è illustrata dalla linea rossa tratteggiata, modificato da % 5.78 a 11.34%. La media è dinamica perché è basato sulla media di tutti gli altri valori. Per primo quello dell'influencer, la media escluso il ruolo di cliente. Per il secondo influencer, escluso è il tema dell'usabilità. 
  
-Se si seleziona la casella nella parte inferiore dell'oggetto visivo, la visualizzazione viene filtrata e include solo i valori influenti (in questo caso i ruoli che determinano un punteggio basso). Pertanto si passa dalla visualizzazione di 12 temi a quella dei soli quattro temi che Power BI ha identificato come fattori che originano valutazioni basse. 
+Selezionare il **Mostra solo i valori che sono fattori di influenza** casella di controllo per applicare un filtro utilizzando solo i valori influenti. In questo caso, si tratta di ruoli che determinano un punteggio basso. I temi di dodici siano ridotti ai quattro che Power BI identificati come temi che drive di valutazioni basse. 
 
 ![Selezionare la casella di controllo](media/power-bi-visualization-influencers/power-bi-only-show.png)
 
-## <a name="interacting-with-other-visuals"></a>Interazione con altri oggetti visivi 
+## <a name="interact-with-other-visuals"></a>Interagire con altri oggetti visivi 
  
-Ogni volta che un utente fa clic su un filtro, un filtro dei dati o un altro oggetto visivo nell'area di disegno, l'oggetto visivo Fattori di influenza chiave ripete l'analisi sul nuovo gruppo di dati. Ad esempio è possibile trascinare Company Size (Dimensioni dell'azienda) nel report e usarlo come un filtro dei dati. Si vuole vedere se i fattori di influenza chiave per i clienti enterprise (aziende con personale superiore a 50.000 unità) sono diversi da quelli per i clienti comuni.  
+Ogni volta che si seleziona un filtro dei dati, il filtro o altro oggetto visivo nell'area di disegno, i fattori di influenza chiave visual consente di rieseguire l'analisi nella nuova parte di dati. Ad esempio, è possibile spostare **dimensioni dell'azienda** nel report e utilizzarlo come un filtro dei dati. Usarlo per verificare se i fattori di influenza chiave per i clienti aziendali sono diversi rispetto a popolamento generale. Dimensioni dell'azienda un enterprise sono maggiore di 50.000 dipendenti.
  
-Se si seleziona **> 50.000** l'analisi viene rieseguita e si noterà che i fattori di influenza sono cambiati. Per i clienti di aziende di grandi dimensioni, il fattore di influenza più importante per le valutazioni basse ha un **tema** associato alla **sicurezza**. Può risultare utile approfondire l'analisi, per vedere se sono presenti funzionalità associate alla sicurezza di cui i grandi clienti non sono soddisfatti. 
+Selezionando **> 50.000** una riesecuzione dell'analisi, è possibile verificare che i fattori di influenza modificato. Per i clienti aziendali di grandi dimensioni, quello dell'influencer superiore per valutazioni basse dispone di un tema relativa alla sicurezza. Si potrebbe voler analizzare ulteriormente per vedere se sono presenti i clienti di grandi dimensioni siano scontenti sulle funzionalità di sicurezza specifiche. 
 
-![sezione per dimensioni dell'azienda](media/power-bi-visualization-influencers/power-bi-filter.png)
+![Sezione da dimensioni dell'azienda](media/power-bi-visualization-influencers/power-bi-filter.png)
 
-## <a name="interpreting-continuous-key-influencers"></a>Interpretazione dei fattori di influenza chiave continui 
+## <a name="interpret-continuous-key-influencers"></a>Interpretare continua fattori di influenza chiave 
  
-Fin qui l'oggetto visivo è stato usato per esplorare l'effetto dei diversi campi categorici sulle valutazioni basse. È anche possibile fare in modo che "Spiega in base a" includa fattori continui (ad esempio, età, altezza, prezzo). Ora si esamina cosa accade se si include "Tenure" (Permanenza) dalla tabella Customer (Cliente) a "Spiega in base a". Tenure (Permanenza) indica da quanto tempo il cliente usa il servizio. 
+Finora si è appreso come usare l'oggetto visivo per esplorare i campi categorici come i vari influenzare valutazioni basse. È anche possibile avere continuati fattori, ad esempio età, altezza e prezzo per il **spiegano da** campo. Vediamo cosa succede quando **permanenza** viene spostato dalla tabella customer in **spiegano da**. Permanenza illustra quanto tempo un cliente ha usato il servizio. 
  
-Si rileva che maggiore è il valore di **Tenure** (Permanenza), maggiore è la probabilità di ricevere una valutazione bassa. Questa tendenza suggerisce che i clienti che usano il servizio da più tempo hanno maggiori probabilità di dare un punteggio negativo. Si tratta di informazioni dettagliate interessanti, che vale la pena approfondire in seguito.  
+Man mano che aumenta permanenza, aumenta anche la probabilità di ricevere una classificazione più basso. Questa tendenza suggerisce che i clienti a lungo termine sono più possibilità di assegnare un punteggio negativo. Queste informazioni sono interessante e uno che è possibile da completare in un secondo momento. 
  
-La visualizzazione indica che ogni volta che la permanenza aumenta di 13,44 mesi, anche la probabilità di una valutazione bassa aumenta in media di 1,23 volte. In questo caso 13,44 rappresenta la deviazione standard della permanenza. Pertanto le informazioni dettagliate ricevute analizzano come l'aumento della permanenza con un valore di tempo standard (deviazione standard della permanenza) ha effetto sulla probabilità di ricevere una valutazione bassa. 
+La visualizzazione mostra che ogni volta che permanenza aumenta 13.44 mesi, in Media aumenta la probabilità di un livello di gravità basso in base all'1,23 ora. In questo caso 13,44 rappresenta la deviazione standard della permanenza. In modo che rispecchi l'informazione viene visualizzato come l'aumento di permanenza di una quantità standard, ovvero la deviazione standard della permanenza, interessa la probabilità di ricevere un livello di gravità basso. 
  
-Il grafico a dispersione sul lato destro definisce la percentuale media di valutazioni basse per ogni valore di permanenza e include una linea di tendenza per evidenziare l'inclinazione.  
-
-
-![Grafico a dispersione per la permanenza](media/power-bi-visualization-influencers/power-bi-tenure.png)
-
-## <a name="interpreting-measuresaggregate-as-key-influencers"></a>Interpretazione di misure e aggregati come fattori di influenza chiave 
- 
-Infine gli utenti possono usare le misure e le aggregazioni come fattori esplicativi nel contesto dell'analisi. Ad esempio si vuole vedere l'effetto del numero di ticket di supporto clienti o della durata media di un ticket aperto sulla valutazione ricevuta. 
- 
-In questo caso si vuole vedere se il numero di ticket di supporto che ha un cliente ha effetto sulla valutazione specificata da quel cliente. Si trascina l'ID ticket di supporto dalla tabella Support Ticket (Ticket di supporto). Dato che un cliente può avere più ticket di supporto, è necessario aggregare l'ID a livello del cliente. Questa aggregazione è importante, perché l'analisi viene eseguita a livello del cliente e pertanto tutti i driver devono essere definiti a quel livello di granularità. 
- 
-Si vuole esaminare il numero di ID (in modo che a ogni riga cliente sia associato un conteggio del numero di ticket corrispondenti). In questo caso si rileva che man mano che il numero di ticket di supporto aumenta, anche la probabilità che la valutazione sia bassa aumenta di 5,51 volte. L'oggetto visivo sul lato destro visualizza il numero medio di ticket di supporto per diversi valori di Rating (Valutazione) (calcolati a livello del cliente). 
-
-![Influenza dell'ID ticket di supporto](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
+Il grafico a dispersione nel riquadro di destra viene tracciata la percentuale media di valutazioni basse per ogni valore di permanenza. Verrà evidenziato l'inclinazione con una linea di tendenza.
 
 
+![Grafico a dispersione per permanenza](media/power-bi-visualization-influencers/power-bi-tenure.png)
 
-## <a name="interpreting-the-results-top-segments"></a>Interpretazione dei risultati: segmenti principali 
+## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretare le misure e le aggregazioni come fattori di influenza chiave 
  
-Mentre la scheda "Fattori di influenza chiave" consente di valutare ogni singolo fattore, gli utenti possono passare a "Segmenti principali" per visualizzare l'effetto di una combinazione di fattori sulla metrica che stanno analizzando. 
+È possibile utilizzare le misure e le aggregazioni come fattori esplicativi all'interno di analisi. Ad esempio, voler vedere quale effetto il numero di cliente di ticket di supporto o la durata media di un ticket aperto con il punteggio di ricezione. 
  
-Inizialmente Segmenti principali visualizza una panoramica di tutti i segmenti trovati da Power BI. Nell'esempio seguente si noterà che sono stati rilevati sei segmenti. Questi segmenti vengono classificati in base alla percentuale di valutazioni basse incluse nel segmento. Ad esempio nel segmento 1 il 74,3% delle valutazioni dei clienti sono basse.  Più in alto è posizionata la bolla, maggiore è la proporzione di valutazioni basse. Le dimensioni della bolla rappresentano invece il numero di clienti inclusi nel segmento. 
-
-![Selezionare la scheda Segmenti principali](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
-
-Se si seleziona una bolla si esegue il drill down nei dettagli del segmento corrispondente. Se ad esempio si seleziona il segmento 1, si nota che è costituito da clienti relativamente fedeli (che sono clienti da oltre 29 mesi) e hanno un numero elevato di ticket di supporto (maggiore di 4). Infine non sono editori (pertanto sono consumatori o amministratori).  
+In questo caso, si desidera vedere se il numero di ticket di supporto che dispone di un cliente influenza il punteggio che offrono. A questo punto si importano **ID Ticket di supporto** dalla tabella di ticket di supporto. Poiché un cliente può disporre di più i ticket di supporto, è aggregare l'ID per il livello dei clienti. Aggregazione è importante perché l'analisi viene eseguita a livello di clienti, in modo che tutti i driver devono essere definiti a tale livello di granularità. 
  
-Il 74,3% dei clienti di questo gruppo ha dato una valutazione bassa. In media i clienti che danno una valutazione bassa sono l'11,7%, per cui questo segmento include una proporzione molto più elevata di valutazioni basse (superiore di 63 punti percentuali alla media). Si noti anche che il segmento 1 contiene circa il 2,2% dei dati, pertanto rappresenta una parte non trascurabile della popolazione. 
+Verrà ora esaminato il numero di ID. Ogni riga del cliente ha un numero di ticket di supporto associato. In questo caso, come il conteggio di aumenta i ticket di supporto, la probabilità del punteggio sottoposto aumenta bassi 5.51 volte. L'oggetto visivo a destra mostra il numero medio di ticket di supporto da diverse **Rating** valori valutati a livello del cliente. 
 
-![Selezionare il primo segmento principale](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
+![influenza di ID Ticket di supporto](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
+
+
+## <a name="interpret-the-results-top-segments"></a>Interpretare i risultati: Segmenti principali 
+ 
+È possibile usare la **fattori di influenza chiave** pressione di tab per valutare ogni fattore singolarmente. È anche possibile usare la **primi segmenti** pressione di tab per visualizzare come una combinazione di fattori di influenza la metrica che si sta analizzando. 
+ 
+Inizialmente, segmenti superiore mostrano una panoramica di tutti i segmenti che Power BI individuati. Nell'esempio seguente mostra che sono stati trovati sei segmenti. Questi segmenti vengono classificati in base alla percentuale di classificazioni bassa all'interno del segmento. Segmento 1, ad esempio, ha le classificazioni di raggiungendo i 74,3% dei clienti che sono basse. Più in alto è posizionata la bolla, maggiore è la proporzione di valutazioni basse. Le dimensioni della bolla rappresentano il numero di clienti si trovano all'interno del segmento. 
+
+![Selezionare la scheda segmenti superiore](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
+
+Se si seleziona una bolla si esegue il drill down nei dettagli del segmento corrispondente. Se si seleziona 1 segmento, ad esempio, si noterà che si è costituito da clienti relativamente specifici. Che hai visitato i clienti per più mesi 29 e avere più di quattro i ticket di supporto. Infine, non sono server di pubblicazione, in modo che siano utenti o amministratori. 
+ 
+In questo gruppo, raggiungendo i 74,3% dei clienti ha offerto un livello di gravità basso. Il cliente medio è stato assegnato un valore basso rating dell'11,7% del tempo, in modo da questo segmento ha una percentuale più grande di valutazioni basse. È 63 punti percentuali. Segmento 1 contiene anche circa 2.2% dei dati, in modo che rappresenta una parte indirizzabile della popolazione. 
+
+![Seleziona primo segmento superiore](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
+
+## <a name="working-with-numerical-data"></a>Utilizzo di dati numerici
+
+Se si sposta un campo numerico nel **Analyze** campo, è possibile scegliere come gestire tale scenario. È possibile modificare il comportamento dell'oggetto visivo, passare al **riquadro di formattazione** e il passaggio tra **tipo categorico Analysis** e **tipo di analisi continua**.
+
+![Modificare da categoriche a continua](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
+
+Oggetto **tipo categorico Analysis** si comporta come descritto in precedenza. Ad esempio, se si sta cercando i punteggi di sondaggio compreso tra 1 e 10, si può chiedere 'Ciò che influenza i punteggi di sondaggio sia 1'?
+
+Oggetto **tipo di analisi continua** modifica la domanda in uno continuo. Nell'esempio precedente, la nuova domanda sarebbe 'Ciò che influenza i punteggi di sondaggio per aumentare o ridurre'?
+
+Questa distinzione è molto utile quando si dispone di un numero elevato di valori univoci nel campo che si stanno analizzando. Nell'esempio riportato di seguito vengono esaminati i prezzi di casa. Non è molto senso porsi 'Ciò che influenza il prezzo di casa per essere 156,214'? come è molto specifici e si sono potrebbero non avere dati sufficienti per dedurre un modello.
+
+In alternativa si può decidere di porre, 'Ciò che influisce sul prezzo di casa per aumentare'? che consente di trattare i prezzi di casa come un intervallo anziché come valori distinti.
+
+![Domanda numerico](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
+
+## <a name="interpret-the-results-key-influencers"></a>Interpretare i risultati: Fattori di influenza chiave 
+
+In questo scenario è Esaminiamo 'Ciò che influisce sul prezzo di casa per aumentare'. Si sta esaminando una serie di fattori esplicativi che possono influire su un prezzo di casa, ad esempio **anno compilati** (anno della casa è stata creata), **KitchenQual** (qualità cucina) e **YearRemodAdd** (anno che della casa è stata modificata). 
+
+Nell'esempio seguente illustra l'influencer superiore che è in corso di eccellente qualità di cucina. I risultati sono molto simili a quelle che abbiamo visto quando abbiamo stavamo analizza metriche categoriche con alcune importanti differenze:
+
+- Il grafico a barre a destra viene analizzato il medie anziché le percentuali. Pertanto visualizzerà il prezzo medio di casa di casa con un'eccellente kitchen What (verde a barre) rispetto al prezzo di casa medio di una casa senza un'eccellente kitchen (linea punteggiata)
+- Il numero il cerchio è ancora la differenza tra la linea rossa punteggiata e una barra verde, ma viene espresso sotto forma di numero ($158. 49K) anziché una probabilità (1.93 x). Pertanto, in Media, edifici con cucine eccellente sono quasi $160 KB più costoso di case senza cucine eccellente.
+
+![Fattori di influenza categoriche destinazione numerica](media/power-bi-visualization-influencers/power-bi-ki-numeric-categorical.png)
+
+Nell'esempio seguente che si esamina l'impatto dispone di un fattore di continuo (anno casa prodotto è stata rimodellata) sul prezzo di casa. Come indicato di seguito sono riportate le differenze rispetto a come si analizzano gli influencer continuati per le metriche categoriche:
+
+-   Il grafico a dispersione nel riquadro di destra consente di tracciare il prezzo medio di casa per ogni valore distinct dell'anno rimodellato. 
+-   Il valore in bolla Mostra per quanti casa Media aumenta prezzo (in questo caso $2. k 87) quando l'anno della casa è stata rimodellati aumenta per la deviazione standard (in questo caso 20 anni)
+
+![Fattori di influenza destinazione numerico continuo](media/power-bi-visualization-influencers/power-bi-ki-numeric-continuous.png)
+
+Infine, nel caso di misure in esame l'anno medio è stata compilata una casa. In questo caso l'analisi è il seguente:
+
+-   Grafico a dispersione nel riquadro di destra viene tracciata il prezzo medio di casa per ogni valore distinto nella tabella
+-   Il valore in bolla Mostra per quanti casa Media aumenta prezzo (in questo caso $1. 35K) quando l'anno medio aumenta la deviazione standard (in questo caso 30 anni)
+
+![Fattori di influenza di misure di destinazione numerica](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+
+## <a name="interpret-the-results-top-segments"></a>Interpretare i risultati: Segmenti superiore
+
+Segmenti superiore per destinazioni numeriche visualizzati i gruppi in cui la casa i prezzi in Media sono maggiori del set di dati complessivo. Ad esempio, di seguito è possibile osservare che **1 segmento** è costituito da parti in cui **GarageCars** (numero di automobili disponibile è sufficiente l'officina) è maggiore di 2 e il **RoofStyle** è Hip. Edifici con queste caratteristiche hanno un prezzo medio di $355K rispetto alla media complessiva dei dati che è $180 KB.
+
+![Fattori di influenza di misure di destinazione numerica](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi 
  
 **Quali sono le limitazioni per l'anteprima?** 
  
-L'oggetto visivo Fattori di influenza chiave è attualmente in anteprima pubblica e gli utenti devono tenere presenti diverse limitazioni. Le funzionalità attualmente non disponibili includono: 
-- Analisi delle metriche corrispondenti ad aggregazioni/misure 
-- Uso dell'oggetto visivo in Power BI Embedded
-- Uso dell'oggetto visivo nelle app per dispositivi mobili Power BI
-- Supporto della sicurezza a livello di riga 
-- Supporto di DirectQuery 
-- Supporto delle connessioni dinamiche 
+I fattori di influenza chiave visual è attualmente in anteprima pubblica e presenta alcune limitazioni. Funzionalità non sono attualmente disponibili includono: 
+- Analizzare le metriche che vengono aggregati o misure.
+- Utilizza l'oggetto visivo in Power BI Embedded.
+- Utilizza l'oggetto visivo nelle App per dispositivi mobili di Power BI.
+- Il supporto a livello di riga.
+- Supporto per DirectQuery.
+- Supporto di connessione in tempo reale.
+
+![Domanda numerico](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
+
+**Viene visualizzato un errore che sono stati trovati non fattori di influenza o segmenti. Perché?** 
+
+![Nessun fattori di influenza errore trovati](media/power-bi-visualization-influencers/power-bi-error1.png)
+
+
+Questo errore si verifica quando incluso in campi **spiegano da** ma non gli influencer sono stati trovati. 
+- Inclusa la metrica si erano analizzando sia in **Analyze** e **spiegano da**. La rimozione dal **spiegano da**. 
+- I campi esplicativi hanno un numero eccessivo di categorie con poche osservazioni. Questa situazione rende difficile per la visualizzazione determinare quali fattori sono fattori di influenza. È difficile generalizzare base solo alcune osservazioni. Se si analizza un campo numerico è possibile passare dalla **categoriche Analysis** a **analisi continua** nel **Riquadro formattazione** sotto il  **Analisi** carta.
+- I fattori esplicativi hanno sufficiente osservazioni per generalizzare, ma la visualizzazione non trova eventuali correlazioni significative al report.
  
-**Un messaggio di errore indica che non sono stati trovati fattori di influenza/segmenti. Perché?**  
+**Viene visualizzato un errore che la metrica che si analizzano non avere dati sufficienti per eseguire l'analisi su. Perché?** 
 
-![Errore - Non sono stati trovati fattori di influenza](media/power-bi-visualization-influencers/power-bi-error1.png)
+![Errore non sono sufficienti i dati](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
 
+La visualizzazione funziona esaminando i modelli nei dati per un gruppo rispetto ad altri gruppi. Ad esempio, cerca i clienti che ha fornito le valutazioni basse rispetto ai clienti che ha fornito valutazioni elevate fanno. Se i dati nel modello a dispone solo alcune osservazioni, i modelli sono difficili da individuare. Se la visualizzazione non ha dati sufficienti per trovare gli influencer significativi, indica che sono necessari più dati per eseguire l'analisi. 
 
-Questo errore si verifica quando sono stati inclusi campi in **Spiega in base a** ma non è stato rilevato nessun fattore di influenza.   
-- La metrica che si stava analizzando è stata inclusa sia in "Analisi" che in "Spiega in base a" (è necessario rimuoverla da **Spiega in base a**) 
-- I campi esplicativi hanno un numero eccessivo di categorie con poche osservazioni. La visualizzazione ha difficoltà a determinare quali fattori sono fattori di influenza, perché è difficile generalizzare a partire da una base di osservazioni limitata 
-- I fattori esplicativi dispongono di una quantità di informazioni sufficiente per formulare generalizzazioni, ma la visualizzazione non ha rilevato nessuna correlazione significativa da elaborare 
+È consigliabile che si abbiano almeno 100 osservazioni per lo stato selezionato. Lo stato è in questo caso, i clienti che hanno varianza. È anche necessario almeno 10 osservazioni per gli Stati che è utilizzare per il confronto. Lo stato di confronto è in questo caso, i clienti che non varianza.
+
+Se si analizza un campo numerico è possibile passare dalla **categoriche Analysis** a **analisi continua** nel **Riquadro formattazione** sotto il  **Analisi** carta.
+
+**Viene visualizzato un errore che un campo *spiegano da* in modo univoco non è correlata alla tabella che contiene la metrica si analizzano. Perché?**
  
-**Un errore segnala che la metrica analizzata non dispone di una quantità di dati sufficiente per l'esecuzione dell'analisi. Perché?**  
+L'analisi viene eseguita a livello di tabella per il campo analizzato. Ad esempio, se si analizza il feedback dei clienti per il servizio, si potrebbe creare una tabella che indica se un cliente ha offerto una valutazione elevata o un livello di gravità basso. In questo caso, l'analisi è in esecuzione a livello di tabella dei clienti. 
 
-![Errore - I dati non sono sufficienti](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
-
-La visualizzazione funziona esaminando i criteri nei dati di un gruppo (ad esempio i clienti che hanno dato valutazioni basse) rispetto ad altri gruppi (ad esempio i clienti che hanno dato valutazioni elevate). Se i dati nel modello hanno un numero di osservazioni molto ridotto, è difficile definire criteri. Se la visualizzazione non dispone di dati sufficienti per trovare fattori di influenza significativi, sono necessari più dati per eseguire l'analisi. È consigliabile avere almeno 100 osservazioni per lo stato selezionato (clienti che abbandonano) e almeno 10 osservazioni per gli stati in uso per il confronto (clienti che non abbandonano).  
+Se si dispone di una tabella correlata che viene definita a un livello più granulare rispetto alla tabella che contiene l'unità di misura, viene visualizzato questo errore. Di seguito è riportato un esempio: 
  
-**Un errore indica che un campo in "Spiega in base a" non è correlato in modo univoco alla tabella contenente la metrica che si sta analizzando. Perché?**  
+- Analizzare ciò che comporta ai clienti di fornire valutazioni basse del servizio.
+- Si desidera vedere se il dispositivo in cui il cliente utilizza il servizio influenza le recensioni che offrono.
+- Un cliente può usare il servizio in più modi diversi.
+- Nell'esempio seguente, cliente 10000000 Usa sia un browser e un tablet per interagire con il servizio.
+
+![Una tabella correlata definita a un livello più granulare rispetto alla tabella che contiene l'unità di misura](media/power-bi-visualization-influencers/power-bi-error2.png)
+
+Se si prova a usare la colonna di dispositivo come un fattore esplicativo, viene visualizzato l'errore seguente: 
+
+![Errore colonna non corretta](media/power-bi-visualization-influencers/power-bi-error3.png)
+
+Questo errore viene visualizzato perché il dispositivo non è definito a livello di clienti. Un cliente può utilizzare il servizio su più dispositivi. Per la visualizzazione individuare modelli, il dispositivo deve essere un attributo del cliente. Esistono diverse soluzioni che dipendono dalla comprensione del business: 
  
-L'analisi viene eseguita a livello di tabella per il campo che si sta analizzando. Se ad esempio si stanno analizzando commenti e suggerimenti dei clienti per il servizio, è possibile che sia presente una tabella che indica se un cliente ha dato una valutazione elevata o bassa. In questo caso, l'analisi viene eseguita a livello della tabella cliente. 
-
-Se è presente di una tabella correlata che ha un livello di definizione più granulare rispetto alla tabella che contiene la metrica di interesse, viene restituito questo errore. Ecco un esempio: 
+- È possibile modificare il riepilogo dei dispositivi da contare. Usare count, ad esempio, se il numero di dispositivi potrebbe influire sul punteggio che offra un cliente. 
+- È possibile trasformare tramite pivot la colonna di dispositivo per vedere se l'utilizzo del servizio in un dispositivo specifico influenza classificazione del cliente.
  
-- Si stanno analizzando i motivi per cui i clienti danno valutazioni basse del servizio 
-- Si è interessati a visualizzare se il dispositivo in cui il cliente usa il servizio influenza la valutazione 
-- Un cliente può usare il servizio in modi diversi   
-- Nell'esempio seguente il cliente 10000000 usa sia un browser che un tablet per interagire con il servizio 
+In questo esempio, i dati è stato trasformato tramite pivot per creare nuove colonne per browser, dispositivi mobili e tablet. È ora possibile usare questi dispositivi specifici in **spiegano da**. Tutti i dispositivi risultare come fattori di influenza, e il browser il più grande influisce sul punteggio di clienti.
 
-![Errore - È presente di una tabella correlata che ha un livello di definizione più granulare rispetto alla tabella che contiene la metrica](media/power-bi-visualization-influencers/power-bi-error2.png)
+Più precisamente, i clienti che non usano il browser per utilizzare il servizio sono 3,79 volte più possibilità di assegnare un punteggio basso di clienti che eseguono. Inferiore nell'elenco, per dispositivi mobili l'operazione inversa è true. I clienti che usano l'app per dispositivi mobili sono più possibilità di assegnare un punteggio basso rispetto ai clienti che non lo fanno. 
 
-Se si prova a usare la colonna del dispositivo come fattore esplicativo, viene visualizzato l'errore seguente: 
+![Risolto](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-![Errore - Colonna errata](media/power-bi-visualization-influencers/power-bi-error3.png)
+**Viene visualizzato un avviso che le misure non sono stati inclusi nella mio analysis. Perché?** 
 
-Questo avviene perché il dispositivo non è definito al livello del cliente: un cliente può usare il servizio su più dispositivi. Perché la visualizzazione possa definire i criteri, è necessario che il dispositivo diventi un attributo del cliente. In questo caso sono disponibili diverse soluzioni in base alla conoscenza dell'ambiente: 
+![Le misure non inclusi come errore](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
+
+
+L'analisi viene eseguita a livello di tabella per il campo analizzato. Se si analizza l'abbandono dei clienti, si potrebbe creare una tabella che indica se un cliente varianza o No. In questo caso, l'analisi viene eseguita a livello di tabella dei clienti.
  
-- È possibile modificare il riepilogo dei dispositivi impostandolo ad esempio su Conteggio se si ritiene che il numero di dispositivi possa avere effetto sul punteggio dato da un cliente 
-- È possibile trasformare tramite pivot la colonna del dispositivo per vedere se l'uso del servizio in un dispositivo specifico ha effetto sulla valutazione data dal cliente  
+Misure e le aggregazioni sono per impostazione predefinita analizzato a livello di tabella. Se vi sono una misura per la spesa mensile Media, potrebbe essere analizzato a livello di tabella dei clienti. 
+
+Se la tabella customer non dispone di un identificatore univoco, è Impossibile valutarne la misura e viene ignorata nell'analisi. Per evitare questa situazione, assicurarsi che la tabella contenente l'unità di misura è un identificatore univoco. In questo caso, si tratta della tabella customer e l'identificatore univoco è l'ID cliente. È anche facile aggiungere una colonna dell'indice mediante Power Query.
  
-In questo esempio i dati sono stati trasformati tramite pivot per creare nuove colonne "browser", "mobile" (dispositivo mobile) e "tablet". Ora è possibile usare questi risultati in "Spiega in base a". Si rileva che tutti i dispositivi risultano essere fattori di influenza e che il browser ha l'impatto maggiore sulla valutazione data dai clienti. 
+**Viene visualizzato un avviso che la metrica che si analizzano ha più di 10 valori univoci e che questa quantità potrebbe influire sulla qualità della mia analisi. Perché?** 
 
-Più precisamente, i clienti che non usano il browser per il servizio hanno probabilità 3,79 volte maggiori di dare una valutazione bassa rispetto ai clienti che usano il browser. Più in basso nell'elenco si noterà che nel caso dei dispositivi mobili è vero il contrario. I clienti che usano l'app per dispositivi mobili hanno più probabilità di dare una valutazione bassa rispetto ai clienti che non usano l'app.  
+La visualizzazione di intelligenza artificiale consente di analizzare i campi categorici e i campi numerici. Nel caso i campi categorici, ad esempio può essere varianza è Sì o No, e la soddisfazione dei clienti è alta, Media o bassa. L'aumento del numero di categorie da analizzare, significa che sono presenti un minor numero di osservazioni per categoria. Questa situazione rende più difficile per la visualizzazione per individuare modelli nei dati. 
 
-![Errore - Problema risolto](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
+Durante l'analisi dei campi numerici, è possibile scegliere tra considerando i campi numerici, ad esempio testo, nel qual caso si eseguirà la stessa analisi come avviene per i dati categorici (**categoriche Analysis**). Se si dispone di un numero elevato di distinti valori è consigliabile passare l'analisi **analisi continua** come ciò significa che è possibile ottenere i modelli da quando i numeri di aumentare o diminuire anziché considerarle come distinte di valori. È possibile passare da **categoriche Analysis** a **analisi continua** nel **Riquadro formattazione** sotto il **Analysis** carta.
 
-**Un avviso indica che le misure non sono state incluse nell'analisi effettuata. Perché?** 
+Per trovare gli influencer più avanzati, è consigliabile raggruppare valori analoghi in una singola unità. Ad esempio, se si dispone di una metrica per prezzo, è probabile che ottenere risultati migliori eseguendo il raggruppamento di prezzi simili in alta, Media e bassa categorie o usando i punti di singole prezzo. 
 
-![Errore - Misure non incluse](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
+![Più di 10 fattori unici avviso](media/power-bi-visualization-influencers/power-bi-error4.png)
 
 
-L'analisi viene eseguita a livello di tabella per il campo che si sta analizzando. Se si sta analizzando l'abbandono dei clienti, è possibile che si abbia una tabella che indica se un cliente ha abbandonato o meno l'organizzazione. In questo caso, l'analisi viene eseguita a livello della tabella cliente.
+**Sono presenti i fattori di dati che sembrano dovrebbero essere fattori di influenza chiave, ma non sono. Perché si verifica questa situazione?**
+
+Nell'esempio seguente, i clienti che sono consumer unità valutazioni basse, con % 14.93 delle valutazioni basse. Il ruolo di amministratore ha anche un numero elevato di valutazioni, nel percorso % 13.42, ma non è considerato un Influenzatore. 
+
+Il motivo di questo aspetto è che la visualizzazione considera anche il numero di punti dati quando trova fattori di influenza. Nell'esempio seguente ha più di 29,000 consumer e gli amministratori di un numero minore di 10 volte, circa 2,900. 390 solo di essi ha offerto un livello di gravità basso. L'oggetto visivo non avere dati sufficienti per determinare se è stata trovata una serie con un amministratore o se è semplicemente una probabilità la ricerca. 
+
+![Come vengono determinati gli influencer](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Come è possibile calcolare fattori di influenza chiave per l'analisi categoriche?**
+
+Dietro le quinte, Usa la visualizzazione di intelligenza artificiale [a ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per eseguire una regressione logistica per calcolare i fattori di influenza chiave. Una regressione logistica è un modello statistico che confronta diversi gruppi. 
+
+Se si desidera vedere ciò che comporta valutazioni basse, la regressione logistica esamina le differenze tra i clienti che hanno stato assegnato un punteggio basso tra i clienti che hanno stato assegnato un punteggio alto. Se si dispone di più categorie, ad esempio neutri, alto e bassi punteggi, si esamina le differenze tra i clienti che hanno stato assegnato un livello di gravità basso tra i clienti che non ha generato un livello di gravità basso. In questo caso, i clienti che hanno stato assegnato un punteggio basso le differenze tra i clienti che ha fornito una valutazione elevata o una classificazione neutra? 
  
-Per impostazione predefinita, le misure e le aggregazioni vengono analizzate a questo livello di tabella. Se fosse presente una misura per "Spesa mensile media", questa misura verrebbe analizzata a livello della tabella cliente.  
-
-Se la tabella cliente non ha un identificatore univoco, non è possibile valutare la misura e questa viene ignorata nell'analisi. Per evitare questo problema, assicurarsi che la tabella contenente la metrica (in questo caso la tabella cliente) contenga un identificatore univoco (ad esempio ID cliente). È anche molto semplice aggiungere una colonna indice usando Power Query.
+La regressione logistica Cerca modelli nei dati e cerca i clienti che ha fornito un livello di gravità basso potrebbero le differenze tra i clienti che ha fornito una valutazione elevata al contributo. È possibile, ad esempio, che i clienti con più i ticket di supporto forniscono una percentuale più elevata di valutazioni basse rispetto ai clienti con pochi o nessun ticket di supporto.
  
-**Un avviso indica che la metrica analizzata ha più di 10 valori unici e che questo può influire sulla qualità dell'analisi. Perché?**  
+La regressione logistica prende in considerazione anche il numero di punti dati è presente. Ad esempio, se i clienti che svolgono un ruolo di amministratore assegnare punteggi in proporzione più negativi, ma esistono solo alcuni amministratori, questo fattore non è considerato influente. Questa operazione viene eseguita perché non sono sufficienti punti dati disponibili per dedurre un modello. Un test statistico, noto come un test Wald, viene usato per determinare se un fattore viene considerato un Influenzatore. L'oggetto visivo usa un valore p pari a 0,05 per determinare la soglia. 
 
-La visualizzazione Intelligenza artificiale è ottimizzata per l'analisi delle categorie, ad esempio Churn (Abbandono) è "Yes" o "No", Customer Satisfaction (Indice di soddisfazione dei clienti) è "High" (Alta), "Medium" (Media) o "Low" (Bassa) e così via. All'aumento del numero di categorie da analizzare corrisponde una riduzione del numero di osservazioni per ogni categoria e ciò rende più difficile per la visualizzazione definire criteri per i dati. 
+**Come è possibile calcolare fattori di influenza chiave per l'analisi numerica?**
 
-Per ottenere fattori di influenza più rappresentativi è consigliabile raggruppare i valori simili in una singola unità. Se ad esempio si ha una metrica per il prezzo, è probabile che si ottengano risultati ottimali raggruppando i prezzi simili in bucket di tipo "High" (Alto), "Medium" (Medio), "Low" (Basso) anziché usare prezzi singoli. 
+Dietro le quinte, Usa la visualizzazione di intelligenza artificiale [a ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per eseguire una regressione lineare per calcolare i fattori di influenza chiave. Una regressione lineare è un modello statistico che esamina come il risultato del campo che si analizzano cambia in base i fattori esplicativi.
 
-![Errore - Più di 10 fattori univoci](media/power-bi-visualization-influencers/power-bi-error4.png)
+Ad esempio, se analizzati prezzi, una regressione lineare avrà un aspetto nell'impatto con che un'eccellente kitchen avranno sul prezzo di casa. Edifici con cucine eccellente hanno in genere i prezzi di casa inferiori o superiori rispetto a fornitori senza cucine eccellente?
 
-
-**I dati contengono fattori che dovrebbero essere fattori di influenza chiave, ma non lo sono. Perché si verifica questa situazione?**
-
-Nell'esempio seguente i clienti che sono consumatori fanno registrare valutazioni basse (il 14,93% delle valutazioni). È interessante notare che anche il ruolo di amministratore fa registrare una percentuale elevata di valutazioni basse (13,42 %) ma non è considerato un fattore di influenza. 
-
-Il motivo è che per la definizione dei fattori di influenza la visualizzazione prende in considerazione anche il numero di punti dati. Nell'esempio seguente sono presenti oltre 29.000 clienti consumatori, mentre il numero di amministratori è inferiore di 10 volte (circa 2900). Inoltre solo 390 amministratori hanno registrato una valutazione bassa. Pertanto l'oggetto visivo non dispone di dati sufficienti per determinare se le valutazioni del ruolo amministratore sono criteri o se sono solo un rilevamento casuale.  
-
-![Errore - Come vengono determinati i fattori di influenza](media/power-bi-visualization-influencers/power-bi-error5.png)
-
-**Come vengono calcolati i fattori di influenza chiave?**
-
-In background, la visualizzazione Intelligenza artificiale (AI) usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per eseguire una regressione logistica per calcolare i fattori di influenza chiave. Una regressione logistica è un modello statistico che confronta diversi gruppi. Se si stavano cercando i fattori all'origine delle valutazioni basse, la regressione logistica esamina la differenza tra i clienti che hanno dato un punteggio basso e quelli che hanno dato un punteggio elevato. Se sono presenti più categorie (punteggio elevato, neutro, basso) si esamina la differenza tra quelle che hanno dato una valutazione bassa e quelle che non hanno dato una valutazione bassa (come si differenziano da quelle che hanno dato una valutazione elevata o una valutazione neutra). 
- 
-La regressione logistica ricerca criteri nei dati e prova a determinare le differenze tra i clienti che hanno dato una valutazione bassa e quelli che hanno dato una valutazione elevata. Ad esempio può determinare che i clienti con un numero maggiore di ticket di supporto hanno dato una percentuale molto più elevata di valutazioni basse rispetto ai clienti che hanno pochi ticket di supporto o nessun ticket.
- 
-La regressione logistica prende in considerazione anche il numero di punti dati presenti. Se ad esempio i clienti con ruolo di amministratore assegnano una proporzione maggiore di valutazioni negative, ma il numero di amministratori è limitato, questo fattore non viene considerato importante. Il motivo è che i punti dati presenti non sono sufficienti per definire criteri. Per determinare se un fattore può essere considerato come fattore di influenza, viene usato un test statistico (test di Wald). L'oggetto visivo usa un valore p pari a 0,05 per determinare la soglia. 
-
+La regressione lineare prende in considerazione anche il numero di punti dati. Ad esempio, se edifici con autorità giudiziarie tennis hanno prezzi più elevati ma non contiene un numero molto ridotto che hanno un campo da tennis è disponibile, questo fattore non è considerato influente. Questa operazione viene eseguita perché non sono sufficienti punti dati disponibili per dedurre un modello. Un test statistico, noto come un test Wald, viene usato per determinare se un fattore viene considerato un Influenzatore. L'oggetto visivo usa un valore p pari a 0,05 per determinare la soglia. 
 
 **Come vengono calcolati i segmenti?**
 
-In background, la visualizzazione Intelligenza artificiale (AI) usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per eseguire un albero delle decisioni per rilevare i sottogruppi di interesse. Lo scopo dell'albero delle decisioni è definire un sottogruppo di punti dati con un valore relativamente alto per la metrica di interesse (ad esempio i clienti che ha dato una valutazione bassa). 
+Dietro le quinte, Usa la visualizzazione di intelligenza artificiale [a ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) per l'esecuzione di un albero delle decisioni per trovare i sottogruppi interessanti. L'obiettivo di albero delle decisioni è finire con un sottogruppo di punti dati che è relativamente alto nella metrica che si è interessati. Potrebbe trattarsi di clienti con un livello basso o case con prezzi elevati.
 
-L'albero delle decisioni considera i singoli fattori esplicativi e determina quale fattore offre la migliore suddivisione. Se ad esempio si filtrano i dati in modo da includere solo i clienti di aziende di grandi dimensioni, i clienti che hanno dato una valutazione elevata verranno separati da quelli che hanno dato una valutazione bassa? O forse è preferibile filtrare i dati per includere solo i clienti che hanno formulato commenti sulla sicurezza? 
+L'albero delle decisioni accetta ogni fattore esplicativo e tenta di motivo quale factor offre il meglio *dividere*. Ad esempio, se si filtra i dati in modo da includere solo i clienti aziendali di grandi dimensioni, che separa i clienti che ha fornito una valutazione elevata al contributo e un livello di gravità basso? O forse è preferibile per filtrare i dati in modo da includere solo i clienti che hanno aggiunto un commento sulla sicurezza? 
 
-Quando l'albero delle decisioni esegue una divisione, accetta il sottogruppo di dati (ad esempio i clienti che hanno aggiunto un commento sulla sicurezza) e prova a definire la suddivisione successiva più opportuna solo a partire da quei dati. Dopo ogni divisione, l'albero delle decisioni determina anche se il numero di punti dati è sufficiente a rendere il gruppo rappresentativo per la deduzione di criteri o se può essere solo un'anomalia dei dati e pertanto non rappresenta un segmento reale. Viene applicato anche un altro test statistico per verificare la rilevanza statistica della condizione di divisione, con un valore p pari a 0,05. 
+Dopo che l'albero delle decisioni esegue una divisione, viene preso il sottogruppo di dati e determina la suddivisione migliore successiva per tali dati. In questo caso, il sottogruppo è i clienti che hanno aggiunto un commento sulla sicurezza. Dopo ogni divisione, considera anche se dispone di sufficienti punti dati per questo gruppo rappresentativa abbastanza per dedurre un modello da o se si tratta di un'anomalia nei dati di e non un segmento reale. Un altro test statistico viene applicato per verificare la presenza della rilevanza statistica della condizione di divisione con p-pari a 0,05. 
 
-Al termine dell'esecuzione, l'albero delle decisioni riunisce tutte le divisioni (commenti sulla sicurezza, azienda di grandi dimensioni) e crea filtri di Power BI. Questa combinazione di filtri viene integrata in un segmento dell'oggetto visivo. 
+Al termine dell'esecuzione dell'albero delle decisioni, accetta tutte le divisioni, ad esempio i commenti di sicurezza e aziendali di grandi dimensioni e crea i filtri di Power BI. Questa combinazione di filtri viene integrata in un segmento dell'oggetto visivo. 
  
-**Perché alcuni fattori diventano fattori di influenza o smettono di esserlo man mano che si trascinano altri campi in "Spiega in base a"?**
+**Il motivo per cui in alcuni casi diventano i fattori di influenza o non venga più fattori di influenza come si spostano più campi nel *spiegano da* campo?**
 
-La visualizzazione valuta tutti i fattori esplicativi insieme. Ciò significa che di per sé un fattore potrebbe essere un fattore di influenza, ma se viene preso in considerazione con altri fattori potrebbe smettere di esserlo. Si supponga di analizzare le cause per cui il prezzo di una casa è elevato, con il numero di camere da letto e la metratura della casa come fattori esplicativi: 
-- Di per sé il numero di camere da letto può essere un fattore di origine per i prezzi elevati 
-- Se si include nell'analisi la metratura della casa, si passa a considerare le camere in relazione a una metratura costante 
-- Se ad esempio la metratura della casa è pari a circa 140 metri quadri, è poco probabile che a un aumento del numero di camere da letto corrisponda un aumento notevole del prezzo della casa. Il numero di camere da letto non è più un fattore così importante come lo era prima che venisse inclusa la metratura della casa. 
+La visualizzazione valuta tutti i fattori esplicativi insieme. Un fattore potrebbe essere un Influenzatore da solo, ma quando viene considerato con altri fattori potrebbe non. Si supponga di che voler analizzare ciò che comporta un prezzo di casa sia elevata, con camere da letto e le dimensioni di casa come fattori esplicativi:
+
+- Di per sé camere da letto più potrebbe essere un driver per i prezzi di casa sia elevato.
+- Dimensioni di casa incluse nell'analisi indica che osservi ora cosa accade per camere da letto mentre house rimarranno invariate.
+- Se le dimensioni di casa sono fissata a piedi quadrati 1.500, è improbabile che un continuo aumento del numero di camere da letto aumenta notevolmente il prezzo di casa. 
+- Camere da letto non può essere importante di un fattore com'era prima erano considerata le dimensioni di casa. 
 
 
 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Grafici combinati in Power BI](power-bi-visualization-combo-chart.md)
-
-[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Grafici combinati in Power BI](power-bi-visualization-combo-chart.md)
+- [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

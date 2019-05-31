@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 408009ad87f02808edac6f382f708f336dff02be
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 948ead2cfa551d6342f9bab87b281d9b6d1e15bc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287463"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514076"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Selezione multipla di elementi dati in oggetti visivi con Power BI Desktop
 
-In **Power BI Desktop** è possibile evidenziare un punto dati in un determinato oggetto visivo facendo semplicemente clic sul punto dati nell'oggetto visivo. Ad esempio, in presenza di una barra o di un elemento di un grafico importante, se si vogliono evidenziare i dati negli altri oggetti visivi nella pagina del report in base alla selezione, è possibile fare clic sull'elemento dati in un oggetto visivo e vedere i risultati rispecchiati negli altri oggetti visivi nella pagina. Si tratta di un'evidenziazione semplice, con singola selezione. La figura seguente mostra un'evidenziazione semplice. 
+In Power BI Desktop, è possibile evidenziare un punto dati in un determinato oggetto visivo facendo semplicemente clic sul punto dati nell'oggetto visivo. Ad esempio, in presenza di una barra o di un elemento di un grafico importante, se si vogliono evidenziare i dati negli altri oggetti visivi nella pagina del report in base alla selezione, è possibile fare clic sull'elemento dati in un oggetto visivo e vedere i risultati rispecchiati negli altri oggetti visivi nella pagina. Si tratta di un'evidenziazione semplice, con singola selezione. La figura seguente mostra un'evidenziazione semplice. 
 
-![](media/desktop-multi-select/multi-select_01.png)
+![Singolo punto dati selezionato](media/desktop-multi-select/multi-select_01.png)
 
 Con la selezione multipla, è ora possibile selezionare più di un punto dati nella pagina del report di **Power BI Desktop** ed evidenziare i risultati in tutti gli oggetti visivi nella pagina. Ciò equivale a un'istruzione **and** o a funzionalità del tipo "evidenzia risultati per Lombardia **and** Piemonte". Per la selezione multipla di punti dati negli oggetti visivi, è sufficiente usare **CTRL+clic** per selezionare più punti dati. La figura seguente mostra **più punti dati** selezionati (selezione multipla).
 
-![](media/desktop-multi-select/multi-select_02.png)
+![Più punti dati selezionati](media/desktop-multi-select/multi-select_02.png)
 
 Anche se si tratta apparentemente di una funzionalità semplice, apre le porte a moltissime opportunità durante la creazione, la condivisione e l'interazione con i report. 
 

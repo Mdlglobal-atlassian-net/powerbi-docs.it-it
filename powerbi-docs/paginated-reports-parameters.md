@@ -1,26 +1,26 @@
 ---
 title: Creare i parametri per i report impaginati nel servizio Power BI (anteprima)
 description: Questo articolo descrive come creare i parametri per i report impaginati nel servizio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 2240d2bf622122527d4d052a9d7098be648e368d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324622"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987674"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Creare i parametri per i report impaginati nel servizio Power BI (anteprima)
 
 Questo articolo descrive come creare i parametri per i report impaginati nel servizio Power BI.  Un parametro del report consente di scegliere i dati di un report e variare la presentazione del report. È possibile specificare un valore predefinito e un elenco di valori disponibili e i lettori del report possono modificare la selezione in base alle proprie preferenze.  
 
-La figura seguente mostra la visualizzazione di progettazione in Generatore Report per un report con i parametri @BuyingGroup, @Customer, @FromDate e @ToDate. 
+La figura seguente mostra la visualizzazione progettazione in Generatore Report di Power BI per un report con i parametri @BuyingGroup, @Customer, @FromDate, e @ToDate. 
   
 ![Parametri in Generatore report](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ La figura seguente mostra la visualizzazione di progettazione in Generatore Repo
   
 ## <a name="create-or-edit-a-report-parameter"></a>Creare o modificare un parametro del report  
   
-1.  Aprire il report impaginato in Generatore Report.
+1.  Aprire il report impaginato in Generatore Report di Power BI.
 
 1. Nel riquadro **Dati report** fare clic con il pulsante destro del mouse sul nodo **Parametri** > **Aggiungi parametro**. Viene visualizzata la finestra di dialogo **Proprietà parametri report**.  
   

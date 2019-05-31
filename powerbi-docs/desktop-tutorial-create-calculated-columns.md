@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514548"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Esercitazione: Creare colonne calcolate in Power BI Desktop
@@ -44,7 +44,7 @@ Si supponga di voler visualizzare nel proprio Report vendite le categorie e le s
     
     ![Barra della formula](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  Per impostazione predefinita, una nuova colonna calcolata viene denominata semplicemente Column. Se non la si rinomina, eventuali nuove colonne aggiuntive verranno denominate Column 2, Column 3 e così via. Se si vuole semplificare l'identificazione della colonna, poiché il nome **Column** è già evidenziato nella barra della formula, rinominarla digitando **ProductFullCategory** e quindi digitare un segno di uguale (**=**).
+2.  Per impostazione predefinita, una nuova colonna calcolata viene denominata semplicemente Column. Se non la si rinomina, eventuali nuove colonne aggiuntive verranno denominate Column 2, Column 3 e così via. Se si vuole semplificare l'identificazione della colonna, poiché il nome **Column** è già evidenziato nella barra della formula, rinominarla digitando **ProductFullCategory** e quindi digitare un segno di uguale ( **=** ).
     
 3.  Si vuole che i valori nella nuova colonna inizino con il nome ProductCategory. Dal momento che questa colonna si trova in una tabella diversa, ma correlata, è possibile usare la funzione [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) per eseguire l'operazione.
     
@@ -56,19 +56,19 @@ Si supponga di voler visualizzare nel proprio Report vendite le categorie e le s
     
     ![Scegliere ProductCategory](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-4.  Si vuole usare la colonna **ProductCategory** dalla tabella **ProductCategory**. Selezionare **ProductCategory[ProductCategory]**, premere **INVIO** e quindi digitare una parentesi chiusa.
+4.  Si vuole usare la colonna **ProductCategory** dalla tabella **ProductCategory**. Selezionare **ProductCategory[ProductCategory]** , premere **INVIO** e quindi digitare una parentesi chiusa.
     
     > [!TIP]
     > Gli errori di sintassi sono spesso causati da una parentesi di chiusura mancante o posizionata in modo errato, anche se in alcuni casi Power BI Desktop la aggiungerà automaticamente.
     
-4. Si desidera che ProductCategories e ProductSubcategories nei nuovi valori siano separate da trattini e spazi. Dopo la parentesi di chiusura della prima espressione, digitare quindi spazio, e commerciale (**&**), virgolette doppie (**"**), spazio, trattino (**-**), poi ancora spazio, virgolette doppie ed e commerciale. La formula a questo punto dovrebbe essere simile alla seguente:
+4. Si desidera che ProductCategories e ProductSubcategories nei nuovi valori siano separate da trattini e spazi. Dopo la parentesi di chiusura della prima espressione, digitare quindi spazio, e commerciale ( **&** ), virgolette doppie ( **"** ), spazio, trattino ( **-** ), poi ancora spazio, virgolette doppie ed e commerciale. La formula a questo punto dovrebbe essere simile alla seguente:
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > Se è necessario più spazio, selezionare la freccia di espansione verso il basso sul lato destro della barra della formula per espandere l'editor di formule. Nell'editor premere **ALT+INVIO** per spostarsi di una riga verso il basso e **TAB** per spostare gli elementi.
     
-5.  Immettere una parentesi quadra aperta (**[**) e selezionare la colonna **[ProductSubcategory]** per completare la formula. 
+5.  Immettere una parentesi quadra aperta ( **[** ) e selezionare la colonna **[ProductSubcategory]** per completare la formula. 
     
     ![Scegliere ProductSubcategory](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -106,15 +106,15 @@ Fortunatamente, la tabella Stores include una colonna denominata **Status**, con
     
     ![Selezionare IF](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-3.  Il primo argomento per IF è un test logico per verificare se lo stato di un punto vendita è "On". Digitare una parentesi quadra aperta **[**, in modo da elencare le colonne della tabella Stores, e selezionare **[Status]**.
+3.  Il primo argomento per IF è un test logico per verificare se lo stato di un punto vendita è "On". Digitare una parentesi quadra aperta **[** , in modo da elencare le colonne della tabella Stores, e selezionare **[Status]** .
     
     ![Selezionare Status](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  Subito dopo **[Status]** digitare **="On"** e quindi digitare una virgola (**,**) per terminare l'argomento. La descrizione del comando indica che è necessario aggiungere un valore da restituire quando il risultato è TRUE.
+4.  Subito dopo **[Status]** digitare **="On"** e quindi digitare una virgola ( **,** ) per terminare l'argomento. La descrizione del comando indica che è necessario aggiungere un valore da restituire quando il risultato è TRUE.
     
     ![Aggiungere il valore TRUE](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-5.  Se lo stato del punto vendita è impostato su "On", si vuole visualizzare il relativo nome. Digitare una parentesi quadra aperta (**[**) e selezionare la colonna **[StoreName]**, quindi digitare un'altra virgola. La descrizione del comando ora indica che è necessario aggiungere un valore da restituire quando il risultato è FALSE. 
+5.  Se lo stato del punto vendita è impostato su "On", si vuole visualizzare il relativo nome. Digitare una parentesi quadra aperta ( **[** ) e selezionare la colonna **[StoreName]** , quindi digitare un'altra virgola. La descrizione del comando ora indica che è necessario aggiungere un valore da restituire quando il risultato è FALSE. 
     
     ![Aggiungere il valore FALSE](media/desktop-tutorial-create-calculated-columns/if4.png)
     

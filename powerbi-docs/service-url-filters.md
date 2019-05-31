@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2019
+ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f9195ecb4b8679ab65ad6535a85d4d271582d7d
-ms.sourcegitcommit: e05b3863c7758f639894d771193b98b12b93022a
-ms.translationtype: HT
+ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2019
-ms.locfileid: "55648698"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051300"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -43,11 +43,11 @@ URL?filter=***Tabella***/***Campo*** eq '***valore***'
 
 ### <a name="reports-in-apps"></a>Report nelle app
 
-Se si vuole aggiungere un filtro URL a un report in un'app, la formattazione è leggermente diversa. I collegamenti ai report in un'app hanno un parametro di query (ctid) che viene aggiunto all'URL. I parametri di query devono essere separati da una e commerciale (&). Pertanto è necessario aggiungere alla fine della query "&filter=" (dopo il parametro ctid) invece di "?filter=". 
+Se si vuole aggiungere un filtro URL a un report in un'app, la formattazione è leggermente diversa. I collegamenti ai report in un'app hanno un parametro di query (ctid) che viene aggiunto all'URL. Separare i parametri di query con una e commerciale (&). Mantenere "? filtro =" e spostare il parametro ctid alla fine dell'URL, preceduto da una e commerciale (&). 
 
 Come in questo esempio:
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?ctid=*ctid*&filter=*Table*/*Field* eq '*value*'
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
 
 ### <a name="field-types"></a>Tipi di campo
 
@@ -83,7 +83,7 @@ Per filtrare il report in modo da visualizzare solo i dati relativi ai negozi in
 
 Il report viene filtrato in base alla Carolina del Nord; tutte le visualizzazioni nella pagina del report mostrano solo i dati relativi alla Carolina del Nord.
 
-![](media/service-url-filters/power-bi-report4.png)
+![Report filtrato per la Carolina del Nord](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>Filtrare in base a più campi
 
@@ -105,7 +105,7 @@ Per filtrare in base a campi aggiuntivi, aggiungere un operatore "**and**" e un 
 
 Power BI supporta molti operatori oltre a "**and**". La tabella seguente elenca tali operatori insieme al tipo di contenuto supportato.
 
-|Operatore  | Definizione | Stringa  | Numero | Date |  Esempio|
+|Operatore  | Definizione | Stringa  | Numero | Data |  Esempio|
 |---------|---------|---------|---------|---------|---------|
 |**and**     | e |  sì      | sì |  sì|  prodotto/prezzo le 200 and prezzo gt 3.5 |
 |**eq**     | è uguale a |  sì      | sì   |  sì       | Indirizzo/Città eq 'Milano' |
@@ -133,19 +133,19 @@ Un filtro URL di Power BI può includere numeri nei formati seguenti.
 
 ### <a name="date-data-types"></a>Tipi di dati di data
 
-Power BI supporta OData V3 e V4 per i tipi di dati **Date** e **DateTimeOffset**.  Le date sono rappresentate nel formato EDM (2019-02-12T00:00:00), quindi quando si specifica una data come AAAA-MM-GG, Power BI la interpreta come AAAA-MM-GGT00:00:00.
+Power BI supporta OData V3 e V4 per i tipi di dati **Date** e **DateTimeOffset**.  Le date vengono rappresentate usando il formato di modello EDM (2019-02-12T00:00:00), in modo che quando si specifica una data come 'Aaaa-MM-GG', Power BI vengono interpretati come ' aaaa-MM-DDT00:00:00'.
 
-Perché è importante questa distinzione? Si supponga di creare un parametro di stringa di query **Table/Date gt 2018-08-03**.  I risultati includeranno il 3 agosto 2018 oppure partiranno dal 4 agosto 2018? Dato che Power BI converte la query in **Table/Date gt 2018-08-03T00:00:00**, i risultati includono tutte le date con una parte dell'ora diversa da zero, poiché tali date saranno maggiori di **2018-08-03T00:00:00**.
+Perché è importante questa distinzione? Si supponga che si crea un parametro di stringa di query **tabella di date e ore gt ' 2018-08-03'** .  I risultati includeranno il 3 agosto 2018 oppure partiranno dal 4 agosto 2018? Poiché Power BI converte le query per **tabella di date e ore gt ' 2018-08-03T00:00:00'** , i risultati includono tutte le date con una parte dell'ora diverso da zero, poiché tali date sarà maggiore **' 2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>Caratteri speciali nei filtri di URL
 
-Gli spazi e i caratteri speciali richiedono alcuni elementi di formattazione aggiuntivi. Quando la query contiene spazi, trattini o altri caratteri non ASCII, anteporre a questi caratteri speciali un *codice di escape* costituito da un carattere di sottolineatura e da una X (**_x**), seguiti dal codice **Unicode** di quattro cifre e da un altro carattere di sottolineatura. Se il codice Unicode è composto da meno di quattro caratteri, è necessario aggiungere zeri. Di seguito sono riportati alcuni esempi.
+Gli spazi e i caratteri speciali richiedono alcuni elementi di formattazione aggiuntivi. Quando la query contiene spazi, trattini o altri caratteri non ASCII, anteporre a questi caratteri speciali un *codice di escape* costituito da un carattere di sottolineatura e da una X ( **_x**), seguiti dal codice **Unicode** di quattro cifre e da un altro carattere di sottolineatura. Se il codice Unicode è composto da meno di quattro caratteri, è necessario aggiungere zeri. Di seguito sono riportati alcuni esempi.
 
 |Identificatore  |Unicode  | Codice per Power BI  |
 |---------|---------|---------|
 |**Nome tabella**     | Lo spazio è 0x20        |  Nome_x0020_tabella       |
 |**Colonna**@**Numero**     |   @ è 0x40     |  Colonna_x0040_Numero       |
-|**[Colonna]**     |  [0x0058] è 0x0050       |  _x0058_Colonna_x0050       |
+|**[Colonna]**     |  [0x0058] è 0x0050       |  _x0058_Column_x0050_       |
 |**Colonna+Più**     | + è 0x2B        |  Colonna_x002B_Più       |
 
 Tabella_x0020_Nome/Colonna_x002B_Più eq 3 ![oggetto visivo tabella che mostra caratteri speciali](media/service-url-filters/power-bi-special-characters1.png)
@@ -177,7 +177,7 @@ Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della 
 
 * Quando si usa l'operatore *in*, i valori a destra di *in* devono essere un elenco delimitato da virgole racchiuso tra parentesi.    
 * Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno un prefisso in quanto vengono passati direttamente al motore di elaborazione dei report.
-* I filtri della stringa di query non funzionano con l'opzione [Pubblica sul Web](service-publish-to-web.md).
+* Filtri della stringa di query non funziona con [pubblica sul web](service-publish-to-web.md) oppure [esportare in formato PDF](consumer/end-user-pdf.md).
 * La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
 * Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.
 * I filtri URL dei report hanno un limite di 10 espressioni (10 filtri connessi tramite AND).

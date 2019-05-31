@@ -12,11 +12,11 @@ ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215988"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61139942"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI
 
@@ -43,7 +43,7 @@ Per aggiungere un riquadro a un dashboard si può procedere in diversi modi. È 
 * [un altro dashboard](service-pin-tile-to-another-dashboard.md)
 * [Cartella di lavoro di Excel in OneDrive for Business](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher per Excel](publisher-for-excel.md)
-* [Informazioni rapide](service-insights.md)
+* [Quick Insights (Informazioni rapide)](service-insights.md)
 * [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 È anche possibile creare riquadri autonomi per immagini, caselle di testo, video, streaming di dati e contenuto Web direttamente nel dashboard usando [Aggiungi riquadro](service-dashboard-add-widget.md).

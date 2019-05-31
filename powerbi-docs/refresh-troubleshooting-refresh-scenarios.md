@@ -1,21 +1,21 @@
 ---
 title: Scenari per la risoluzione dei problemi di aggiornamento
 description: Scenari per la risoluzione dei problemi di aggiornamento
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285117"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770538"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Scenari per la risoluzione dei problemi di aggiornamento
 In questo articolo è possibile trovare informazioni relative a vari scenari che si possono incontrare durante l'aggiornamento dei dati all'interno del servizio Power BI.
@@ -57,6 +57,9 @@ La dimensione massima per i set di dati importati nel **servizio Power BI** è 1
 
 ## <a name="scheduled-refresh-timeout"></a>Timeout dell'aggiornamento pianificato
 Il timeout di un aggiornamento pianificato per i set di dati importati si verifica dopo due ore. Questo timeout è aumentato fino a cinque ore per i set di dati nelle aree di lavoro **Premium**. Se si riscontra questo limite, è possibile considerare la possibilità di ridurre le dimensioni o la complessità del set di dati oppure di suddividere il set di dati in parti più piccole.
+
+## <a name="scheduled-refresh-failures"></a>Errori di aggiornamento pianificato
+Se un aggiornamento pianificato non riesce quattro volte in una riga, Power BI consente di disattivare l'aggiornamento. Risolvere il problema di origine e quindi abilitare nuovamente l'aggiornamento pianificato.
 
 ## <a name="access-to-the-resource-is-forbidden"></a>Accesso alla risorsa non consentito  
 Questo errore può verificarsi a causa di credenziali memorizzate nella cache scadute. Cancellare la cache del browser Internet accedendo a Power BI e andando a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. In questo modo viene forzato un aggiornamento delle credenziali. 

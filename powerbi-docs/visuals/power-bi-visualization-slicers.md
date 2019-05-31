@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/25/2018
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2c9daf54ec18b53655043cd4a472674ee5123be
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f5eed81a5750bebb4df968a09cd1fcfd2aa069d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295954"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710900"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 Si desidera consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
@@ -42,7 +42,7 @@ I filtri dei dati di Power BI presentano le limitazioni seguenti:
 
 ## <a name="create-slicers"></a>Creare filtri dei dati
 
-Per creare un nuovo filtro dei dati, è possibile selezionare l'icona corrispondente e quindi selezionare il campo dati in base al quale applicare il filtro oppure trascinarlo nella casella **Campi** nel riquadro **Visualizzazioni**. In alternativa, è possibile prima selezionare o trascinare il campo dati per creare una visualizzazione e dopo selezionare l'icona del filtro dei dati per convertire la visualizzazione in un filtro. A seconda del tipo di dati, vengono creati tipi diversi di filtri dei dati, con effetti e opzioni differenti. 
+Per creare un nuovo sezionamento, è possibile selezionare l'icona del filtro dei dati e quindi selezionare il campo di dati per filtrare in base (o trascinarlo in modo che il **filtri** nella casella il **visualizzazioni** riquadro), oppure è possibile selezionare o trascinare il campo di dati prima di tutto creare una visualizzazione e quindi selezionare l'icona filtro dei dati per convertire la visualizzazione in un filtro dei dati. A seconda del tipo di dati, vengono creati tipi diversi di filtri dei dati, con effetti e opzioni differenti. 
 
 La prima volta che si modifica un report, il pulsante **Ripristina impostazioni predefinite** diventa attivo. L'attivazione indica che è stata apportata una modifica alle impostazioni del report originale. Se si esce dal report, la modifica viene salvata. Quando si visualizza nuovamente il report non è necessario filtrare nuovamente i dati del report.  Tuttavia, se si vuole ripristinare le impostazioni predefinite dell'autore del report, selezionare il pulsante **Ripristina impostazioni predefinite** dalla barra dei menu superiore.
 
@@ -51,26 +51,30 @@ La prima volta che si modifica un report, il pulsante **Ripristina impostazioni 
 > [!NOTE]
 > Se il pulsante **Ripristina impostazioni predefinite** rimane disabilitato, significa che l'autore del report ha disabilitato la funzionalità per il report o che il report contiene un oggetto visivo personalizzato. È sufficiente passare il mouse sul pulsante per leggere la descrizione comando per una spiegazione. 
 
-**Per creare un nuovo filtro dei dati in base al direttore di zona**
+**Creare un nuovo filtro dei dati per filtrare i dati dal direttore di zona**
 
-1. In Power BI Desktop o nel servizio Power BI aprire l'[esempio di analisi delle vendite al dettaglio](../sample-retail-analysis.md). Nel servizio Power BI selezionare **Modifica report** in alto a sinistra.
-2. Nella pagina **Panoramica**, senza elementi selezionati nel canvas, selezionare l'icona **Filtro dei dati** ![icona del filtro dei dati](media/power-bi-visualization-slicers/slicer-icon.png) nel riquadro **Visualizzazioni** per creare un nuovo filtro dei dati. 
-3. Con il nuovo filtro dei dati selezionato, selezionare **District Manager** (Direttore di zona) in **District** (Zona) nel riquadro **Campi** per popolare il filtro dei dati. Il nuovo filtro dei dati è costituito da un elenco di nomi preceduti da caselle di selezione. 
+1. In Power BI Desktop o nel servizio Power BI, aprire il [Retail Analysis Sample](../sample-retail-analysis.md). Nel servizio Power BI selezionare **Modifica report** in alto a sinistra.
+2. Nella pagina di panoramica, senza elementi selezionati nell'area di disegno, selezionare la **sezionamento** icona ![icona filtro dei dati](media/power-bi-visualization-slicers/slicer-icon.png) nel **visualizzazioni** riquadro per creare un nuovo filtro dei dati. 
+3. Con il nuovo filtro dei dati selezionata, nel riquadro campi, selezionare **District** > **DM** per popolare il filtro dei dati. Il nuovo filtro dei dati è costituito da un elenco di nomi preceduti da caselle di selezione. 
     
-    ![Nuovo filtro dei dati](media/power-bi-visualization-slicers/2-slicer.png)
+    ![Nuovo filtro dei dati](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
 4. Ridimensionare e trascinare il filtro dei dati e gli altri elementi nel canvas per liberare spazio per il filtro. Si noti che i nomi degli elementi del filtro dei dati vengono troncati se si riducono troppo le dimensioni del filtro. 
-5. Selezionare i nomi nel filtro dei dati e osservare gli effetti prodotti sulle altre visualizzazioni nella pagina. Selezionare di nuovo i nomi per deselezionarli e tenere premuto **CTRL** per selezionare più nomi. Selezionando tutti i nomi si ottiene lo stesso effetto di quando nessun nome è selezionato. 
+5. Selezionare i nomi nel filtro dei dati e osservare gli effetti prodotti sulle altre visualizzazioni nella pagina. Selezionare di nuovo i nomi per deselezionarli e tenere premuto **CTRL** per selezionare più nomi. Selezionando tutti i nomi si ottiene lo stesso effetto di quando nessun nome è selezionato. \
 
+6. In alternativa, selezionare l'icona del rullo per formattare il filtro dei dati. Vi sono semplicemente troppo numerose opzioni per descriverle tutte in questo articolo: pertanto, sperimentare e creare un filtro dei dati che funziona per l'utente. Negli esempi seguenti, il primo filtro dei dati è stata convertita in un elenco a discesa per risparmiare spazio e l'opzione "Seleziona tutto" è stato aggiunto.  Il secondo filtro dei dati è stata formattata con i colori, dimensioni, i tipi di carattere e consente solo una selezione singola.
+
+   ![Nuovo filtro dei dati](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->Per impostazione predefinita, gli elementi del filtro dei dati con elenco sono disposti in ordine alfanumerico crescente. Per visualizzarli in ordine decrescente, selezionare i puntini di sospensione (**...**) nell'angolo superiore destro del filtro dei dati e scegliere **Ordina per District Manager** nell'elenco a discesa. 
+>Per impostazione predefinita, gli elementi del filtro dei dati con elenco sono disposti in ordine alfanumerico crescente. Per visualizzarli in ordine decrescente, selezionare i puntini di sospensione ( **...** ) nell'angolo superiore destro del filtro dei dati e scegliere **Ordina per District Manager** nell'elenco a discesa. 
 
 **Per creare un nuovo filtro dei dati in base a un intervallo di date**
 
-1. Senza elementi selezionati nel canvas, selezionare l'elenco a discesa **Tempo** nel riquadro Campi e trascinare **Mese** (oppure **Data** nel servizio Power BI) nella casella **Valori** nel riquadro Visualizzazioni per creare una nuova visualizzazione.
+1. Senza elementi selezionati nell'area di disegno, elenco a discesa **data** nel riquadro campi e trascinare **data** per il **valori** casella nel riquadro visualizzazioni per creare una nuova visualizzazione.
 2. Con la nuova visualizzazione selezionata, selezionare l'icona **Filtro dei dati** per convertire la nuova visualizzazione in un filtro dei dati. Quest'ultimo consiste in un dispositivo di scorrimento con un intervallo di date specificato.
     
-    ![Nuovo filtro dei dati basato su intervallo](media/power-bi-visualization-slicers/2a-date-slicer.png)
+    ![Nuovo filtro dei dati basato su intervallo](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
+
     
 4. Ridimensionare e trascinare il filtro dei dati e gli altri elementi nel canvas per liberare spazio per il filtro. Si noti che le dimensioni del dispositivo di scorrimento cambiano in base a quelle del filtro dei dati, ma il controllo non è più visibile e le date vengono troncate se si riducono troppo le dimensioni del filtro. 
 4. Selezionare diversi intervalli di date con il dispositivo di scorrimento oppure selezionare un campo data per digitare un valore o visualizzare un calendario popup per una selezione più precisa. Osservare gli effetti sulle altre visualizzazioni nella pagina.
@@ -78,8 +82,11 @@ La prima volta che si modifica un report, il pulsante **Ripristina impostazioni 
     >[!NOTE]
     >I tipi di dati numerici e data/ora generano per impostazione predefinita filtri dei dati con dispositivi di scorrimento per intervalli. A partire dall'aggiornamento di Power BI del mese di febbraio 2018, i dispositivi di scorrimento per intervalli di numeri interi si allineano ai numeri interi anziché mostrare i valori decimali. 
 
->[!TIP]
->Anche se il campo dati **Mese** genera per impostazione predefinita un tipo di filtro dei dati con dispositivo di scorrimento per un intervallo **Tra**, è possibile impostare altri tipi di filtro dei dati e altre opzioni di selezione. Per modificare il tipo di filtro dei dati, passare il puntatore del mouse sull'area in alto a destra del filtro selezionato, selezionare la freccia in giù e scegliere una delle altre opzioni, ad esempio **Elenco** o **Prima**. Osservare come cambiano le opzioni di selezione e l'aspetto del filtro dei dati. 
+
+5. A questo punto modificare il valore del campo da **data** al **MonthIndex**.  Questa operazione genera una **tra** tipo di filtro dei dati per dispositivo di scorrimento di intervalli per impostazione predefinita, ma è possibile modificarla per altri tipi di filtro dei dati e le opzioni di selezione. Per modificare il tipo di filtro dei dati, passare il puntatore del mouse sull'area in alto a destra del filtro selezionato, selezionare la freccia in giù e scegliere una delle altre opzioni, ad esempio **Elenco** o **Prima**. Osservare come cambiano le opzioni di selezione e l'aspetto del filtro dei dati. 
+ 
+    ![Nuovo filtro dei dati basato su intervallo](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
+
 
 Per altre informazioni sulla creazione e l'uso di filtri dei dati per un intervallo numerico, guardare il video seguente e vedere [Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop](../desktop-slicer-numeric-range.md).
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 

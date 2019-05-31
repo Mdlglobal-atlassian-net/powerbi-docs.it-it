@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283668"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61274661"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
 Si applica a:
@@ -23,7 +23,7 @@ Si applica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Telefoni Android |Tablet Android |Dispositivi Windows 10 |
 
-Con una [licenza di Power BI Pro](../../service-features-license-type.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](../../service-premium.md).
+Con una [licenza di Power BI Pro](../../service-features-license-type.md) è possibile invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. La condivisione è possibile con chiunque, all'interno o all'esterno dell'organizzazione, con o senza un account di posta elettronica aziendale. Anche i destinatari devono avere una licenza di Power BI Pro. In caso contrario, il contenuto deve essere incluso in una [capacità Premium](../../service-premium-what-is.md).
 
 Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [aggiungere annotazioni e condividere lo snapshot di un riquadro, un report o un oggetto visivo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con chiunque. 
 

@@ -1,20 +1,20 @@
 ---
 title: Proprietà dei set di dati di Power BI
 description: Informazioni sulle proprietà delle API dei set di dati di Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248931"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61386294"
 ---
 # <a name="dataset-properties"></a>Proprietà dei set di dati
 
@@ -31,7 +31,7 @@ id     |  Guid       | Identificatore univoco a livello di sistema per il set di
 nome     | String        | Nome del set di dati definito dall'utente.        | False        | True        
 tables     | Table[]        | Raccolta di tabelle.        |  False       | False        
 relationships     | Relationship[]        | Raccolta di relazioni tra tabelle.        | False        |  False  
-defaultMode     | String        | Determina se il set di dati è sottoposto a push, trasmesso in streaming, o entrambi, con valori di "Push", "Streaming" e "PushStreaming".         | False        |  False
+defaultMode     | Stringa        | Determina se il set di dati viene inserito, lo streaming, o entrambi, con valori di "Push" e "Streaming".         | False        |  False
 
 ## <a name="table"></a>Tabella
 

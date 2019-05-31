@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255711"
+---
 Con Power BI è facile analizzare i dati basati sul tempo. Gli strumenti di modellazione in Power BI Desktop includono campi generati automaticamente che consentono di eseguire il drill-down in anni, trimestri, mesi e giorni con un solo clic.  
 
 Quando si crea una visualizzazione di tabella nel report usando un campo di data, Power BI Desktop include automaticamente suddivisioni basate sul periodo di tempo. Ad esempio, il singolo campo relativo alla data nella tabella **Data** è stato automaticamente suddiviso in colonne relative ad anno, trimestre, mese e giorno da Power BI, come illustrato nella figura seguente.
@@ -23,7 +31,7 @@ Per tornare alla date singole anziché usare la gerarchia temporale, fare sempli
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-**Congratulazioni!** Questa sezione del corso di **apprendimento guidato** per Power BI è stata completata. Ora che sono stati appresi i concetti di *modellazione* dei dati, si è pronti per apprendere le interessanti nozioni illustrate nella prossima sezione: **Visualizzazioni**.
+**Congratulazioni!** Questa sezione del corso di **apprendimento guidato** per Power BI è stata completata. Ora che è a conoscenza *modellazione* dati, si è pronti per apprendere le interessanti appresi nella sezione successiva: **Visualizations**.
 
 Come già spiegato, questo corso consente di approfondire le conoscenze seguendo il comune flusso di lavoro in Power BI:
 

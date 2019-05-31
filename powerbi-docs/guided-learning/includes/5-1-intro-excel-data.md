@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271379"
+---
 Questa è la sezione relativa a **Power BI ed Excel** del corso di **apprendimento guidato** per Power BI.
 
 È probabile che si abbia già familiarità con **Excel**. Probabilmente Excel è stato già usato per creare o visualizzare report o per creare grafici a torta o altri oggetti visivi. Oppure si potrebbe avere già usato **Power Pivot** o **Power Query** per creare soluzioni leggermente più tecniche. In questo caso, Power BI risulterà familiare e così le cartelle di lavoro.

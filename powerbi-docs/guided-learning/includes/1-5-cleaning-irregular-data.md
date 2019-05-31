@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa6296485897b983c3ca4044ffa2875de3326dec
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265116"
+---
 Mentre Power BI può importare i dati da quasi ogni origine, gli strumenti di visualizzazione e modellazione operano meglio con i dati disposti in colonne. Talvolta i dati non vengono formattati in semplici colonne, come spesso capita con i fogli di calcolo di Excel: il layout della tabella può sembrare adeguato all'occhio umano ma non necessariamente ottimale ai fini delle query automatizzate. Ad esempio, il foglio di calcolo seguente contiene intestazioni che si estendono su più colonne.
 
 ![](media/1-5-cleaning-irregular-data/1-5_1.png)

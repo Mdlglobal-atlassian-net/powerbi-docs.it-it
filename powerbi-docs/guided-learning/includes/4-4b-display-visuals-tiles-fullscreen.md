@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263788"
+---
 Quando si esaminano i dashboard di Power BI o i report del servizio, può a volte essere utile concentrarsi su un singolo grafico o su una sola visualizzazione. È possibile eseguire questa operazione in due modi diversi.
 
 Nel dashboard passare il mouse su un riquadro per visualizzare diverse opzioni a icona nell'angolo superiore a destra. Quando si selezionano i puntini di sospensione (tre punti) viene visualizzata una raccolta di icone che rappresentano azioni da eseguire sul riquadro.

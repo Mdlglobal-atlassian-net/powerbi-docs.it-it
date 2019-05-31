@@ -1,25 +1,25 @@
 ---
-title: Chiusura dell'account di Power BI
-description: Chiusura dell'account di Power BI
+title: Chiudere l'account di Power BI
+description: Se non si vuole più usare Power BI, è possibile chiudere l'account.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/26/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e58461df8325871205877b8561308e3cc4f1f048
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: a285c6188e8b9298702645e28ad686e33147c3a9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295615"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65101081"
 ---
-# <a name="closing-your-power-bi-account"></a>Chiusura dell'account di Power BI
+# <a name="close-your-power-bi-account"></a>Chiudere l'account di Power BI
 
-Se non si vuole più usare Power BI, è possibile chiudere l'account.  Dopo la chiusura dell'account, non sarà più possibile accedere a Power BI. Tutti i dati del cliente caricati o creati in Power BI saranno eliminati in base ai criteri di conservazione dei dati menzionati nelle condizioni per l'utilizzo del servizio Power BI.
+Se non si vuole più usare Power BI, è possibile chiudere l'account.  Dopo aver chiuso l'account, è possibile accedere a Power BI. Inoltre, come indicato nei criteri di conservazione dei dati nelle condizioni del servizio Power BI, Power BI consente di eliminare tutti i dati cliente caricati o creati. Non viene conservata.
 
 ## <a name="individual-power-bi-users"></a>Singoli utenti di Power BI
 
@@ -27,28 +27,28 @@ Se è stata effettuata l'iscrizione per Power BI come singolo utente, è possibi
 
 1. In Power BI selezionare l'ingranaggio in alto a destra e quindi selezionare **Impostazioni**.
 
-    ![Impostazioni](media/service-admin-closing-your-account/closeaccount-settings.png)
+    ![Screenshot dell'angolo superiore destro dell'interfaccia utente con l'icona a forma di ingranaggio e l'opzione delle impostazioni indicata.](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. Nella scheda **Generale** selezionare **Chiudi account**.
 
-    ![Chiudi account](media/service-admin-closing-your-account/closeaccount-settings2.png)
+    ![Screenshot dell'angolo superiore sinistro della pagina delle impostazioni con l'opzione di chiusura account indicate.](media/service-admin-closing-your-account/close-account-settings-2.png)
 
 1. Selezionare un motivo per chiudere l'account (1). È anche possibile fornire altre informazioni (2). Selezionare quindi **Chiudi account**.
 
-    ![Selezionare un motivo](media/service-admin-closing-your-account/closeaccount-settings3.png)
+    ![Screenshot della finestra di dialogo di chiusura account con l'opzione di chiusura account indicata.](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. Confermare che si vuole chiudere l'account.
 
-    ![Confermare la chiusura](media/service-admin-closing-your-account/closeaccount-settings4.png)
+    ![Screenshot della finestra di dialogo di conferma Chiudi account con l'opzione Sì indicate.](media/service-admin-closing-your-account/close-account-settings-4.png)
 
-    Verrà visualizzato un messaggio di conferma di chiusura dell'account. Se necessario, è possibile riaprire l'account da qui.
+    Verrà visualizzato un messaggio di conferma che Power BI chiuso l'account. Se necessario, è possibile riaprire l'account da qui.
 
-    ![Conferma dell'account](media/service-admin-closing-your-account/closeaccount-settings5.png)
+    ![Screenshot della chiusura dell'account della finestra.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>Utenti del tenant gestito
 
 Se si è stati iscritti a Power BI dall'organizzazione, contattare l'amministratore del tenant. Chiedergli di annullare l'assegnazione della licenza dall'account.
 
-![Chiusura dell'account gestita](media/service-admin-closing-your-account/closeaccountmanaged.png)
+![Chiusura dell'account gestita](media/service-admin-closing-your-account/close-account-managed.png)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

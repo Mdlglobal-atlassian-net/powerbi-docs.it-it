@@ -1,20 +1,20 @@
 ---
 title: Origini dati dei report di Power BI nel server di report di Power BI
 description: I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
-ms.author: maghan
-ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291762"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770797"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -60,7 +60,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | OLE DB |Sì |Sì |No |
 | Database Oracle |Sì |Sì |Sì |
 | Database PostgreSQL |Sì |Sì |No |
-| servizio Power BI |No |No |No |
+| Servizio Power BI |No |No |No |
 | Script R |Sì |No |No |
 | Oggetti Salesforce |Sì |No |No |
 | Report di Salesforce |Sì |No |No |
@@ -146,7 +146,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | OLE DB |Sì |No |Sì |Sì |
 | Database Oracle |No |No |Sì |Sì |
 | Database PostgreSQL |No |No |Sì |No |
-| servizio Power BI |No |No |No |No |
+| Servizio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
 | Oggetti Salesforce |No |No |No |No |
 | Report di Salesforce |No |No |No |No |

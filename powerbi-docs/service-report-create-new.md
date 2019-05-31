@@ -1,36 +1,36 @@
 ---
-title: 'Creare un nuovo report da un set di dati '
-description: Informazioni su come creare un nuovo report di Power BI da un set di dati.
+title: Creare un report da un set di dati
+description: Creare un report di Power BI da un set di dati.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/24/2018
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216954"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770220"
 ---
-# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creare un nuovo report del servizio Power BI importando un set di dati
-Dopo aver letto [Report in Power BI](consumer/end-user-reports.md) si supponga di voler creare un report personalizzato. È possibile creare un report in molti modi, ma in questo articolo verrà spiegato come crearne uno molto semplice da un set di dati di Excel tramite il servizio Power BI. Una volta apprese le nozioni di base relative alla creazione di un report, è possibile consultare gli argomenti più avanzati elencati nella sezione **Passaggi successivi** alla fine di questo articolo.  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Creare un report nel servizio Power BI importando un set di dati
+Dopo aver letto [Report in Power BI](consumer/end-user-reports.md) si supponga di voler creare un report personalizzato. Esistono diversi modi per creare un report. In questo articolo, si inizierà creando un report di base nel servizio Power BI da un set di dati di Excel. Dopo aver appreso le nozioni di base della creazione di un report, consultare il [passaggi successivi](#next-steps) alla fine per più avanzata negli argomenti di report.  
 
 ## <a name="prerequisites"></a>Prerequisiti
-> - Servizio Power BI (per la creazione di report con Power BI Desktop, vedere [Visualizzazione Report in Power BI Desktop](desktop-report-view.md))  
-> - Set di dati dell'esempio di analisi delle vendite al dettaglio
+- [Effettuare l'iscrizione per il servizio Power BI](service-self-service-signup-for-power-bi.md). Per la creazione di report usando Power BI Desktop, vedere [visualizzazione report Desktop](desktop-report-view.md). 
+- [Scaricare il set di dati di analisi delle vendite al dettaglio esempio Excel](http://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business o in locale.
 
 ## <a name="import-the-dataset"></a>Importare il set di dati
-In questo metodo di creazione del report si inizia con un set di dati e un'area di disegno report vuota. Per seguire la procedura, [scaricare il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio](http://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business (scelta consigliata) o in locale.
+In questo metodo di creazione del report si inizia con un set di dati e un'area di disegno report vuota. È possibile seguire la procedura del set di dati di analisi delle vendite al dettaglio esempio Excel.
 
-1. Dal momento che il report verrà creato in un'area di lavoro del servizio Power BI, selezionare un'area di lavoro esistente o crearne una nuova.
+1. Si sarà il report creato in un'area di lavoro del servizio Power BI, selezionare un'area di lavoro esistente o crearne un'uno.
    
    ![Elenco di aree di lavoro per le app](media/service-report-create-new/power-bi-workspaces2.png)
-2. Nella parte inferiore del riquadro di spostamento sinistro selezionare **Recupera dati**.
+2. Nella parte inferiore del riquadro di spostamento a sinistra, selezionare **ottenere dati**.
    
    ![Recupera dati](media/service-report-create-new/power-bi-get-data3.png)
 3. Selezionare **File** e passare al percorso in cui è stato salvato l'esempio di analisi delle vendite al dettaglio.
@@ -46,8 +46,8 @@ In questo metodo di creazione del report si inizia con un set di dati e un'area 
    
    ![Editor di report](media/service-report-create-new/power-bi-blank-report.png)
 
-> **SUGGERIMENTO**: se non si ha familiarità con l'area di disegno per la modifica dei report o non se ne ricorda l'uso, prima di continuare è possibile eseguire la [presentazione dell'editor di report](service-the-report-editor-take-a-tour.md).
-> 
+> [!TIP]
+> Se si ha familiarità con il Modifica area di disegno del report o un processo di aggiornamento, è necessario [presentazione dell'editor di report](service-the-report-editor-take-a-tour.md) prima di continuare. > 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Aggiungere un misuratore radiale al report
@@ -62,7 +62,7 @@ Dopo aver importato il set di dati, è possibile iniziare a rispondere ad alcune
 3. Trascinare anche **Sales** > **This Year Sales** > **Obiettivo** in **Valore di destinazione**. La procedura è quasi finita.
    
     ![Oggetto visivo misuratore con Obiettivo come valore di destinazione](media/service-report-create-new/power-bi-report-step3.png)
-4. A questo punto è opportuno [salvare il report](service-report-save.md).
+4. A questo punto sarebbe un buon momento per salvare il report.
    
    ![Menu File](media/service-report-create-new/powerbi-save.png)
 
@@ -78,7 +78,7 @@ Il responsabile marketing ha altre domande a cui è necessario dare una risposta
    
     ![Editor di report con il grafico ad area attivo](media/service-report-create-new/power-bi-report-step5.png)
 5. Per ordinare la visualizzazione in base a un periodo di tempo, selezionare i puntini di sospensione e scegliere **Ordina per periodo**.
-6. A questo punto verrà aggiunto il filtro dei dati. Selezionare un'area vuota nell'area di disegno e scegliere il modello Filtro dei dati ![Icona Filtro dei dati](media/service-report-create-new/power-bi-slicer-icon.png)    . All'area di disegno verrà aggiunto un filtro dei dati vuoto.
+6. A questo punto verrà aggiunto il filtro dei dati. Selezionare un'area vuota nell'area di disegno e scegliere il modello Filtro dei dati ![Icona Filtro dei dati](media/service-report-create-new/power-bi-slicer-icon.png) . È ora disponibile un filtro dei dati vuoto nell'area di disegno.
    
     ![Area di disegno report](media/service-report-create-new/power-bi-report-step6.png)    
 7. Selezionare **District** > **District** nel riquadro Campi. Spostare e ridimensionare il filtro dei dati.

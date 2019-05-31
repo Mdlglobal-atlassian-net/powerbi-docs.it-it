@@ -1,20 +1,20 @@
 ---
 title: Aggiungere commenti a un report in un server di report di Power BI
 description: Informazioni su come aggiungere commenti a Power BI o a un report impaginato in un server di report di Power BI o a un server di report di SQL Server Reporting Services.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.openlocfilehash: 7e2dcc24cde68275899b25ff457b7731583c1bc5
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 87b0c3b1c50c38d69009e28513188362b52549dc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324232"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769649"
 ---
 # <a name="add-comments-to-a-report-in-a-report-server---power-bi-report-server"></a>Aggiungere commenti a un report in un server di report - Server di report di Power BI
 
@@ -37,7 +37,7 @@ ms.locfileid: "56324232"
    > [!TIP]
    > Non tutti lo sanno, ma è possibile [annotare i report di Power BI nell'app di Power BI per dispositivi mobili](../consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) e condividere i report annotati con altri utenti.
 
-## <a name="permissions"></a>applicazione
+## <a name="permissions"></a>Autorizzazioni
 
 A seconda delle autorizzazioni, è possibile:
 

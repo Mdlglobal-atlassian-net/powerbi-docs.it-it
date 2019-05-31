@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 64957fa71249c551b4f69b619a12baf03fae6b06
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513704"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
@@ -47,9 +47,9 @@ Questa formula include gli elementi di sintassi seguenti:
 
 **A.** Il nome della misura è **Total Sales**.
 
-**B.** L'operatore di segno uguale (**=**) indica l'inizio della formula. Quando calcolata, restituirà un risultato.
+**B.** L'operatore di segno uguale ( **=** ) indica l'inizio della formula. Quando calcolata, restituirà un risultato.
 
-**C.** La funzione DAX **SUM** somma tutti i numeri nella colonna **Sales[SalesAmount]**. Verranno fornite altre informazioni sulle funzioni più avanti.
+**C.** La funzione DAX **SUM** somma tutti i numeri nella colonna **Sales[SalesAmount]** . Verranno fornite altre informazioni sulle funzioni più avanti.
 
 **D.** Le parentesi **()** racchiudono un'espressione contenente uno o più argomenti. Tutte le funzioni richiedono almeno un argomento. Un argomento passa un valore a una funzione.
 
@@ -91,19 +91,19 @@ Per completare questa attività, è necessario aprire il file Contoso Sales Samp
 
    La funzione CALCULATE verrà usata per filtrare gli importi da sommare in base a un argomento che viene passato alla funzione CALCOLATE. Questo è ciò che viene definita funzione di annidamento. La funzione CALCULATE ha almeno due argomenti. Il primo è l'espressione da valutare e il secondo è un filtro.
    
-4. Dopo la parentesi aperta **(** per la funzione **CALCULATE**, digitare **SUM** e quindi un'altra parentesi aperta **(**. È ora necessario passare un argomento alla funzione SUM.
+4. Dopo la parentesi aperta **(** per la funzione **CALCULATE**, digitare **SUM** e quindi un'altra parentesi aperta **(** . È ora necessario passare un argomento alla funzione SUM.
 
-5. Iniziare digitando **Sal**, selezionare **Sales[SalesAmount]** e quindi digitare una parentesi chiusa **)**. Questo è il primo argomento di espressione per la funzione CALCULATE.
+5. Iniziare digitando **Sal**, selezionare **Sales[SalesAmount]** e quindi digitare una parentesi chiusa **)** . Questo è il primo argomento di espressione per la funzione CALCULATE.
     
-6. Digitare una virgola (**,**) seguita da uno spazio per specificare il primo filtro e quindi digitare **PREVIOUSQUARTER**. Questo è il filtro.
+6. Digitare una virgola ( **,** ) seguita da uno spazio per specificare il primo filtro e quindi digitare **PREVIOUSQUARTER**. Questo è il filtro.
     
    Per filtrare i risultati SUM in base al trimestre precedente verrà usata la funzionalità di Business Intelligence per le gerarchie temporali PREVIOUSQUARTER.
     
-7. Dopo la parentesi aperta **(** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]**.
+7. Dopo la parentesi aperta **(** per la funzione PREVIOUSQUARTER, digitare **Calendar[DateKey]** .
     
    La funzione PREVIOUSQUARTER ha un solo argomento, una colonna contenente un intervallo contiguo di date. In questo caso, si tratta della colonna DateKey della tabella Calendar.
     
-8. Assicurarsi che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi digitando due parentesi chiuse **))**.
+8. Assicurarsi che entrambi gli argomenti passati alla funzione PREVIOUSQUARTER e alla funzione CALCULATE siano chiusi digitando due parentesi chiuse **))** .
     
    La formula a questo punto dovrebbe essere simile alla seguente:
     
@@ -176,7 +176,7 @@ Questa formula include gli elementi di sintassi seguenti:
 
 **A.** Il nome della misura è **Store Sales**.
 
-**B.** L'operatore di segno uguale (**=**) indica l'inizio della formula.
+**B.** L'operatore di segno uguale ( **=** ) indica l'inizio della formula.
 
 **C.** La funzione **CALCULATE** valuta un'espressione come argomento in un contesto modificato dai filtri specificati.
 
@@ -184,9 +184,9 @@ Questa formula include gli elementi di sintassi seguenti:
 
 **E.** Una misura **[Total Sales]** nella stessa tabella come espressione. La misura Total Sales ha la formula: =SUM(Sales[SalesAmount]).
 
-**F.** Una virgola (**,**) separa il primo argomento di espressione dall'argomento di filtro.
+**F.** Una virgola ( **,** ) separa il primo argomento di espressione dall'argomento di filtro.
 
-**G.** La colonna di riferimento completa **Channel[ChannelName]**. Questo è il contesto di riga. Ogni riga in questa colonna specifica un canale: Store, Online e così via.
+**G.** La colonna di riferimento completa **Channel[ChannelName]** . Questo è il contesto di riga. Ogni riga in questa colonna specifica un canale: Store, Online e così via.
 
 **H.** Il valore particolare, **Store**, come filtro. Questo è il contesto di filtro.
 

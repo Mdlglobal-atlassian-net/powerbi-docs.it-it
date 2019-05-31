@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513601"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
@@ -32,10 +32,10 @@ Durante questa esercitazione viene fornita una descrizione dettagliata dei passa
 * Creare un nuovo dashboard in base al report e, infine,
 * Condividere il dashboard con i colleghi
 
-Per seguire i passaggi di questa esercitazione è necessario il database **AdventureworksDW2012**, che si può scaricare dal **[repository](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**.
+Per seguire i passaggi di questa esercitazione è necessario il database **AdventureworksDW2012**, che si può scaricare dal **[repository](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** .
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Attività 1: Creare la tabella di sicurezza utente e definire le relazioni di dati
-Sono disponibili molti articoli pubblicati che descrivono come definire la sicurezza dinamica livello di riga con il modello **tabulare SQL Server Analysis Services (SSAS)**. Per questo esempio si segue la lezione supplementare sull'[implementazione della sicurezza dinamica con i filtri di riga](https://msdn.microsoft.com/library/hh479759.aspx). I passaggi seguenti consentono di eseguire la prima attività dell'esercitazione:
+Sono disponibili molti articoli pubblicati che descrivono come definire la sicurezza dinamica livello di riga con il modello **tabulare SQL Server Analysis Services (SSAS)** . Per questo esempio si segue la lezione supplementare sull'[implementazione della sicurezza dinamica con i filtri di riga](https://msdn.microsoft.com/library/hh479759.aspx). I passaggi seguenti consentono di eseguire la prima attività dell'esercitazione:
 
 1. Per l'esempio si userà il database relazionale **AdventureworksDW2012**. Nel database creare la tabella **DimUserSecurity**, come illustrato nell'immagine seguente. Per questo esempio verrà usato SQL Server Management Studio (SSMS) per creare la tabella.
    
@@ -56,7 +56,7 @@ Sono disponibili molti articoli pubblicati che descrivono come definire la sicur
 5. Si noti che l'immagine precedente mostra informazioni quali l'identità degli utenti responsabili di specifiche aree di vendita. Tali dati vengono visualizzati per effetto della relazione creata nel **passaggio 2**. Si noti anche che l'utente **Jon Doe fa parte dell'area di vendita Australia**. Gli aspetti correlati a Jon Doe saranno trattati nelle attività e nei passaggi che verranno eseguiti successivamente.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Attività 2: Compilare il modello tabulare con tabelle dei fatti e delle dimensioni
-1. Dopo aver creato il data warehouse relazionale, è necessario definire il modello tabulare. Il modello può essere creato usando **SQL Server Data Tools (SSDT)**. Per altre informazioni su come definire un modello tabulare, vedere la [lezione relativa alla creazione di un modello tabulare](https://msdn.microsoft.com/library/hh231689.aspx).
+1. Dopo aver creato il data warehouse relazionale, è necessario definire il modello tabulare. Il modello può essere creato usando **SQL Server Data Tools (SSDT)** . Per altre informazioni su come definire un modello tabulare, vedere la [lezione relativa alla creazione di un modello tabulare](https://msdn.microsoft.com/library/hh231689.aspx).
 2. Importare tutte le tabelle necessarie nel modello come illustrato di seguito.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -70,7 +70,7 @@ Sono disponibili molti articoli pubblicati che descrivono come definire la sicur
 6. In questo passaggio verrà usata la funzione **LOOKUPVALUE** per restituire i valori per una colonna in cui il nome utente di Windows è uguale a quello restituito dalla funzione **USERNAME**. È possibile, quindi, limitare le query quando i valori restituiti da **LOOKUPVALUE** corrispondono ai valori nella stessa tabella o nella tabella correlata. Nella colonna **Filtro DAX** digitare la formula seguente:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-    In questa formula la funzione **LOOKUPVALUE** restituisce tutti i valori per la colonna **DimUserSecurity [SalesTerritoryID]**, dove **DimUserSecurity [UserName]** è uguale al nome utente di Windows connesso e **DimUserSecurity [SalesTerritoryID]** è uguale a **DimSalesTerritory [SalesTerritoryKey]**.
+    In questa formula la funzione **LOOKUPVALUE** restituisce tutti i valori per la colonna **DimUserSecurity [SalesTerritoryID]** , dove **DimUserSecurity [UserName]** è uguale al nome utente di Windows connesso e **DimUserSecurity [SalesTerritoryID]** è uguale a **DimSalesTerritory [SalesTerritoryKey]** .
    
     > [!IMPORTANT]
     > Tenere presente che la funzione DAX [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) non è supportata quando si usa la sicurezza a livello di riga.
@@ -85,7 +85,7 @@ Sono disponibili molti articoli pubblicati che descrivono come definire la sicur
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Attività 3: Aggiunta di origini dati all'interno del gateway dati locale
 1. Quando il modello tabulare è stato distribuito ed è pronto per l'uso, è necessario aggiungere una connessione origine dati al server tabulare di Analysis Services locale nel portale di Power BI.
-2. Per consentire al **servizio Power BI** di accedere all'istanza di Analysis Services locale, è necessario che nell'ambiente sia installato e configurato un **[gateway dati locale](service-gateway-onprem.md)**.
+2. Per consentire al **servizio Power BI** di accedere all'istanza di Analysis Services locale, è necessario che nell'ambiente sia installato e configurato un **[gateway dati locale](service-gateway-onprem.md)** .
 3. Dopo aver configurato correttamente il gateway, è necessario creare una connessione all'origine dati per l'istanza tabulare di **Analysis Services**. Questo articolo descrive come [aggiungere un'origine dati nel portale di Power BI](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

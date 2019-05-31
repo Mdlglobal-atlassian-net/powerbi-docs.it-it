@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008788"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138521"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Connettersi a Ziosk Survey Analytics con Power BI
 Il pacchetto di contenuto Ziosk Survey Analytics per Power BI offre ai ristoranti con tablet Ziosk un accesso senza confronti ai dati di analisi forniti da Ziosk, tra cui la segmentazione in base a giorno, luogo, dipendente e altro.

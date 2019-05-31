@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4b45c6708f2f4c1ec0f8df2a330dcbb683210926
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292048"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222275"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formattazione condizionale nelle tabelle 
 La formattazione condizionale nelle tabelle consente di specificare colori delle celle personalizzati in base ai valori della cella o ad altri valori o campi, e anche di usare sfumature. È anche possibile visualizzare i valori delle celle con barre dei dati. 
@@ -129,6 +129,12 @@ Si potrebbero quindi ottenere risultati simili alla matrice seguente.
 ![Oggetto visivo matrice con un colore basato sull'indicatore KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
 
 Esistono molte altre varianti che è possibile creare, semplicemente usando l'immaginazione ed espressioni DAX.
+
+È possibile usare uno dei valori elencati nella specifica di colori CSS al [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) per colorare gli oggetti visivi:
+* 3, 6 o 8 hex cifra codici, ad esempio & 3E4AFF. Assicurarsi di che includere il simbolo # all'inizio del codice. "3E4AFF" non è accettata. 
+* I valori RGB o RGBA, ad esempio RGBA (234, 234, 234, 0,5)
+* Ad esempio, HSL e HSLA valori HSLA (123, 75%, 75%, 0,5)
+* Ad esempio PeachPuff verde, SkyBlue, nomi dei colori 
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni, vedere l'articolo seguente:  

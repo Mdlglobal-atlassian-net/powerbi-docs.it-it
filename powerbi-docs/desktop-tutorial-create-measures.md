@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513862"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Esercitazione: Creare misure personalizzate in Power BI Desktop
@@ -89,7 +89,7 @@ Si supponga di voler analizzare il fatturato netto sottraendo sconti e resi dagl
     
     ![Selezionare SalesAmount](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure_formula_salesam.png)
     
-4. Selezionare **Sales[SalesAmount]**, quindi digitare una parentesi chiusa.
+4. Selezionare **Sales[SalesAmount]** , quindi digitare una parentesi chiusa.
     
     > [!TIP]
     > Gli errori di sintassi sono spesso causati da parentesi chiuse mancanti o nella posizione sbagliata.
@@ -97,7 +97,7 @@ Si supponga di voler analizzare il fatturato netto sottraendo sconti e resi dagl
     
     
 5.  Per sottrarre le altre due colonne:
-    1. Dopo la parentesi chiusa della prima espressione digitare uno spazio, un operatore di sottrazione (**-**) e un altro spazio. 
+    1. Dopo la parentesi chiusa della prima espressione digitare uno spazio, un operatore di sottrazione ( **-** ) e un altro spazio. 
     2. Immettere un'altra funzione SUM e iniziare a digitare "DiscountAmount" fino a quando non è possibile scegliere la colonna **Sales[DiscountAmount]** come argomento. Aggiungere una parentesi di chiusura. 
     3. Digitare uno spazio, un altro operatore di sottrazione, uno spazio, un'altra funzione SUM con **Sales[ReturnAmount]** come argomento e una parentesi di chiusura.
     
@@ -160,15 +160,15 @@ Si supponga di voler scoprire quali prodotti registrano il fatturato netto maggi
 
 1.  Creare una nuova misura denominata **Net Sales per Unit** nella tabella Sales.
     
-2.  Nella barra della formula iniziare a digitare **Net Sales**. L'elenco di suggerimenti mostrerà gli elementi che è possibile aggiungere. Selezionare **[Net Sales]**.
+2.  Nella barra della formula iniziare a digitare **Net Sales**. L'elenco di suggerimenti mostrerà gli elementi che è possibile aggiungere. Selezionare **[Net Sales]** .
     
     ![Formula che usa Net Sales](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2a.png)
     
-    È anche possibile fare riferimento alle misure semplicemente digitando una parentesi aperta (**[**). L'elenco di suggerimenti mostrerà solo le misure per l'aggiunta alla formula.
+    È anche possibile fare riferimento alle misure semplicemente digitando una parentesi aperta ( **[** ). L'elenco di suggerimenti mostrerà solo le misure per l'aggiunta alla formula.
     
     ![Con la parentesi quadra vengono visualizzate solo le misure](media/desktop-tutorial-create-measures/meastut_nspu_formulastep2b.png)
     
-3.  Immettere uno spazio, un operatore di divisione (**/**), un altro spazio, una funzione SUM e quindi digitare **Quantity**. L'elenco dei suggerimenti mostra tutte le colonne il cui nome contiene il termine Quantity. Selezionare **Sales[SalesQuantity]**, digitare la parentesi di chiusura e premere INVIO o selezionare il segno di spunta per convalidare la formula. La formula dovrebbe essere simile alla seguente:
+3.  Immettere uno spazio, un operatore di divisione ( **/** ), un altro spazio, una funzione SUM e quindi digitare **Quantity**. L'elenco dei suggerimenti mostra tutte le colonne il cui nome contiene il termine Quantity. Selezionare **Sales[SalesQuantity]** , digitare la parentesi di chiusura e premere INVIO o selezionare il segno di spunta per convalidare la formula. La formula dovrebbe essere simile alla seguente:
     
     `Net Sales per Unit = [Net Sales] / SUM(Sales[SalesQuantity])`
     

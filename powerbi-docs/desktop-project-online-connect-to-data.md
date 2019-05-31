@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f55d09de68d5ac29b81c72f3b1dc6cf98c1597
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289947"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513776"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: connettersi ai dati con Power BI Desktop
 È possibile connettersi ai dati in Project Online con Power BI Desktop.
@@ -30,16 +30,16 @@ ms.locfileid: "54289947"
 3. Scegliere **Feed OData** e selezionare **Connetti**.
 4. Immettere l'indirizzo per il feed OData nella casella URL e fare clic su OK.
    
-   Se l'indirizzo del sito Project Web App è simile a https://\<nometenant\>.sharepoint.com/sites/pwa, l'indirizzo da inserire per il feed OData sarà https://\<nometenant\>.sharepoint.com/sites/pwa/\_api/Projectdata.
+   Se l'indirizzo del sito Project Web App è simile *https://\<nometenant\>.sharepoint.com/sites/pwa*, quindi è l'indirizzo da inserire per il OData Feed *https://\<nometenant\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    Per questo esempio, verrà usato https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. Power BI Desktop richiederà di eseguire l'autenticazione con l'account Office 365. Selezionare l'account aziendale e quindi immettere le proprie credenziali.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-Si noti che l'account che si usa per connettersi al feed OData deve essere in grado di accedere almeno come visualizzatore del Portfolio al sito Project Web App. 
+L'account usato per connettersi a OData feed è necessario definire almeno come visualizzatore del Portfolio accedere al sito Project Web App. 
 
-A questo punto, è possibile scegliere a quali tabelle ci si vuole connettere e compilare una query.  Per un'idea di come iniziare,  leggere il post di blog seguente che illustra come creare un grafico burn-down a partire dai dati di Project Online.  Il post di blog riguarda l'uso di Power Query per connettersi a Project Online, ma si applica anche a Power BI Desktop.
+A questo punto, è possibile scegliere a quali tabelle ci si vuole connettere e compilare una query.  Per un'idea di come iniziare,  Post di blog seguente viene illustrato come creare un burn verso il basso grafico dai tuoi dati di Project Online.  Il post di blog riguarda l'uso di Power Query per connettersi a Project Online, ma si applica anche a Power BI Desktop.
 
-[Creazione di grafici burn-down per Project Online usando Power Pivot e Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[Creazione di masterizzazione verso il basso i grafici per il progetto usando Power Pivot e Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

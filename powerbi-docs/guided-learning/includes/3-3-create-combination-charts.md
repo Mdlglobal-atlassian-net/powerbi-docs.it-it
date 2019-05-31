@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c7af7eb4a75ebe22416dba74a40c2edcf00c1194
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397774"
+---
 Quando si vuole visualizzare due misure che hanno scale diverse, ad esempio i ricavi e le unità, è molto utile un **grafico combinato**, che mostra una linea e una barra con scale degli assi diverse. Power BI supporta molti tipi diversi di grafici combinati per impostazione predefinita, tra cui i diffusi grafici **Linee** e **Istogramma in pila**.
 
 ![](media/3-3-create-combination-charts/3-3_1.png)

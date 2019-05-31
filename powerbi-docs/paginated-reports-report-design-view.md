@@ -1,24 +1,24 @@
 ---
 title: Elementi della visualizzazione Progettazione report per i report impaginati (anteprima)
 description: La visualizzazione Progettazione report in Generatore report è lo spazio di progettazione per la creazione di report impaginati che è possibile pubblicare nel servizio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 7b84b967a9e6228258027302fc2e4ad4df5b0073
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174776"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61423370"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Elementi della visualizzazione Progettazione report per i report impaginati (anteprima)
 
-La visualizzazione Progettazione report in Generatore report è lo spazio di progettazione per la creazione di report impaginati che è possibile pubblicare nel servizio Power BI. L'area di progettazione è al centro di Generatore report e attorno vi sono la barra multifunzione e i riquadri. L'area di progettazione è la posizione in cui vengono aggiunti e organizzati gli elementi del report. Questo articolo illustra i riquadri che vengono usati per aggiungere, selezionare e organizzare le risorse del report e modificare le proprietà degli elementi del report.  
+Visualizzazione di progettazione report in Generatore Report di Power BI è lo spazio di progettazione per la creazione di report impaginati che è possibile pubblicare nel servizio Power BI. L'area di progettazione è al centro di Generatore report e attorno vi sono la barra multifunzione e i riquadri. L'area di progettazione è la posizione in cui vengono aggiunti e organizzati gli elementi del report. Questo articolo illustra i riquadri che vengono usati per aggiungere, selezionare e organizzare le risorse del report e modificare le proprietà degli elementi del report.  
 
 ![Visualizzazione Progettazione report di Generatore report](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 

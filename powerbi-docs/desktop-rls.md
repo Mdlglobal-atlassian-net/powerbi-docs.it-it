@@ -1,21 +1,22 @@
 ---
 title: Informazioni sulla sicurezza a livello di riga con Power BI Desktop
 description: Come configurare la sicurezza a livello di riga per i set di dati importati e DirectQuery con Power BI Desktop.
-author: markingmyname
-ms.author: maghan
+author: davidiseminger
+ms.author: davidi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
+ms.custom: ''
 ms.date: 05/03/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: a5f594f241fb4964775055a022b2f7c943dd05a1
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
-ms.translationtype: HT
+ms.openlocfilehash: e53805c8aa76fd2fe80246eb0974ec73bedd4d4f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488777"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769563"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Sicurezza a livello di riga con Power BI Desktop
 

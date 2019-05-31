@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662136"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608355"
 ---
 # <a name="apps-in-power-bi"></a>App in Power BI
 ## <a name="what-is-a-power-bi-app"></a>Informazioni sulle app di Power BI
@@ -30,10 +30,10 @@ Le app vengono organizzate nell'elenco di contenuti **App**.
 > Per usare le app è richiesta una licenza Power BI Pro. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>***Designer*** di app e ***utenti*** di app
-In base al ruolo, si potrebbe essere qualcuno che crea le app (designer) per uso personale o da condividere con i colleghi oppure qualcuno che riceve e scarica le app (utente) create da altri. Questo articolo può essere utile per gli *utenti* delle app.
+In base al ruolo, potrebbe essere un utente che crea le App (*progettazione*) per uso personale o da condividere con i colleghi. Oppure, potrebbe essere un utente che riceve e scarica le App (*consumatore*) create da altri utenti. Questo articolo può essere utile per gli *utenti* delle app.
 
 ## <a name="advantages-of-apps"></a>Vantaggi delle app
-Le app possono essere facilmente trovate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nel dispositivo mobile. Dopo l'installazione di un'app non è necessario ricordare i nomi di molti dashboard diversi, perché sono tutti riuniti in un'app, nel browser o nel dispositivo mobile.
+Le app possono essere facilmente individuate e installate nel servizio Power BI ([https://powerbi.com](https://powerbi.com)) e nel dispositivo mobile. Dopo l'installazione di un'app non è necessario ricordare i nomi di molti dashboard diversi, perché sono tutti riuniti in un'app, nel browser o nel dispositivo mobile.
 
 Ogni volta che l'autore dell'app rilascia aggiornamenti, le modifiche vengono visualizzate automaticamente nelle app. L'autore controlla anche la frequenza con cui è pianificato l'aggiornamento dei dati, dunque non è necessario preoccuparsi di stare al passo. 
 

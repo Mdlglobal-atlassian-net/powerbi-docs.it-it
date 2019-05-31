@@ -1,21 +1,21 @@
 ---
 title: Configurare le impostazioni del flusso di dati dell'area di lavoro
-description: Configurare un'area di lavoro per app in Power BI per archiviare i file di definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
+description: Configurare un'area di lavoro in Power BI per archiviare la definizione del flusso di dati e file di dati in Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223629"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168553"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)
 
@@ -47,14 +47,11 @@ Nella finestra di dialogo visualizzata, è possibile assegnare un nome univoco a
 
 ![Assegnare un nome alla nuova area di lavoro](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Espandere quindi l'area **Avanzate** della finestra di dialogo **Crea area di lavoro per le app** in cui è possibile attivare l'impostazione **Archiviazione del flusso di dati (anteprima)**.
+Espandere quindi l'area **Avanzate** della finestra di dialogo **Crea area di lavoro per le app** in cui è possibile attivare l'impostazione **Archiviazione del flusso di dati (anteprima)** .
 
 ![Impostazioni avanzate per la nuova area di lavoro](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 Selezionare **Salva** per creare la nuova area di lavoro. Qualsiasi nuovo flusso di dati creato nell'area di lavoro archivia ora il file di definizione (file Model.json) e i dati nell'account di Azure Data Lake Storage Gen2 dell'organizzazione. 
-
-> [!NOTE]
-> La funzionalità dei flussi di dati è disponibile in anteprima ed è soggetta a modifiche e aggiornamenti prima della disponibilità generale.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Aggiornare l'archiviazione del flusso di dati per un'area di lavoro esistente
 

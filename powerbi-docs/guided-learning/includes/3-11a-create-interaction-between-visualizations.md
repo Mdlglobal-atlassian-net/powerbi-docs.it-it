@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397653"
+---
 Quando si dispone di più visualizzazioni nella stessa pagina del report, la selezione di un particolare segmento, facendo clic o utilizzando un filtro dei dati avrà effetto su tutti gli oggetti visivi in tale pagina. In alcuni casi, tuttavia, è consigliabile suddividere gli oggetti visivi specifici. Ciò vale soprattutto quando si utilizzano elementi quali grafici a dispersione, nei casi in cui la limitazione dei dati da un segmento specifico comporta la rimozione di un significato fondamentale. Fortunatamente, Power BI Desktop consente di controllare le modalità di flusso delle interazioni tra gli oggetti visivi.
 
 Per modificare l'interazione tra le visualizzazioni, selezionare **Modifica** dalla sezione Oggetti visivi della barra multifunzione **Home** per attivare o disattivare **la modalità di modifica**.

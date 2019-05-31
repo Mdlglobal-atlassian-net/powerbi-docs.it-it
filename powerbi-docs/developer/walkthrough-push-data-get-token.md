@@ -1,20 +1,20 @@
 ---
 title: Ottenere un token di accesso per l'autenticazione
 description: Procedura dettagliata per il push dei dati - Ottenere un token di accesso per l'autenticazione
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 0840d01a53a8d1f2c19ef1d5d263bf9a3d2d8f81
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710365"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passaggio 2: Ottenere un token di accesso per l'autenticazione
 
@@ -27,13 +27,11 @@ Ecco come ottenere un token di accesso per l'autenticazione.
 ## <a name="get-an-authentication-access-token"></a>Ottenere un token di accesso per l'autenticazione
 
 > **NOTA**: Prima di iniziare, assicurarsi di aver seguito i passaggi precedenti della procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
-> 
-> 
 
-1. In Visual Studio 2015 creare un progetto **Applicazione console** .
-2. Installare il [pacchetto NuGet Azure AD Authentication Library per .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Questo pacchetto viene usato per ottenere un token di sicurezza per l'autenticazione in un'app .NET. Ecco come installare il pacchetto:
+1. In Visual Studio (2015 o versione successiva), creare un **applicazione Console** progetto.
+2. Installare il [pacchetto NuGet Azure AD Authentication Library per .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Questo pacchetto viene usato per ottenere un token di sicurezza per l'autenticazione in un'app .NET. Ecco come installare il pacchetto:
 
-     a. In Visual Studio 2015 scegliere **Strumenti** > **Gestione pacchetti NuGet** > **Console di Gestione pacchetti**.
+     a. In Visual Studio (2015 o versione successiva), scegliere **degli strumenti** > **Gestione pacchetti NuGet** > **Package Manager Console**.
 
      b. In **Console di Gestione pacchetti**immettere Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
 3. Aggiungere il codice seguente nella classe Program {…}.
@@ -152,7 +150,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

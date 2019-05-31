@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285761"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368561"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Esercitazione: Combinare dati di vendita da Excel e da un feed OData
 
@@ -114,7 +114,7 @@ L'Editor di Power Query consente di creare calcoli e campi personalizzati per ot
    
 2. Nella finestra di dialogo **Colonna personalizzata** digitare **LineTotal** nel campo **Nome nuova colonna**.
 
-3. Nel campo **Formula colonna personalizzata** dopo **=** immettere **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]**. È anche possibile selezionare i nomi dei campi dalla casella di scorrimento **Colonne disponibili** e selezionare **<< Inserisci** invece di digitarli. 
+3. Nel campo **Formula colonna personalizzata** dopo **=** immettere **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . È anche possibile selezionare i nomi dei campi dalla casella di scorrimento **Colonne disponibili** e selezionare **<< Inserisci** invece di digitarli. 
 3. Selezionare **OK**.
    
    ![Finestra di dialogo Colonna personalizzata](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
@@ -208,7 +208,7 @@ Per prima cosa, creare un istogramma a colonne in pila che usa i campi da entram
    
 2. Selezionare **ProductName** da **Products** nel riquadro **Campi** oppure trascinarlo nel grafico per mostrare la quantità di ogni prodotto ordinato. 
    
-3. Per ordinare i prodotti dai più ordinati ai meno ordinati, selezionare i puntini di sospensione (**...**) **Altre opzioni** in alto a destra nella visualizzazione e quindi selezionare **Ordina per quantità**.
+3. Per ordinare i prodotti dai più ordinati ai meno ordinati, selezionare i puntini di sospensione ( **...** ) **Altre opzioni** in alto a destra nella visualizzazione e quindi selezionare **Ordina per quantità**.
    
 4. Usare i punti di controllo negli angoli del grafico per aumentarne le dimensioni in modo che siano visibili più nomi di prodotto. 
    

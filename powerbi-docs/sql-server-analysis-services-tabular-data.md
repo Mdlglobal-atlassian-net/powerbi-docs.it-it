@@ -1,48 +1,56 @@
 ---
 title: Dati dinamici di SQL Server Analysis Services in Power BI
 description: Dati dinamici di SQL Server Analysis Services in Power BI. Questi dati possono essere visualizzati attraverso un'origine dati configurata per un gateway aziendale.
-author: markingmyname
-manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
+author: Minewiskan
+ms.author: owend
+manager: kfile
+ms.reviewer: ''
+ms.custom: ''
 ms.date: 08/10/2017
-ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2716696f4884b967735778db46a2300385a86988
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215827"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769927"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dati dinamici di SQL Server Analysis Services in Power BI
+
 In Power BI è possibile connettersi a un server SQL Server Analysis Services dinamico in due modi. In **Recupera dati** è possibile connettersi a un server SQL Server Analysis Services oppure è possibile connettersi a un [file di Power BI Desktop](service-desktop-files.md), o a una [cartella di lavoro di Excel](service-excel-workbook-files.md) che si connette già a un server Analysis Services. Come procedura consigliata, Microsoft consiglia di usare Power BI Desktop grazie alla completezza del set di strumenti e alla possibilità di mantenere una copia di backup del file di Power BI Desktop in locale.
 
- >[!IMPORTANT]
- >* Per connettersi a un server Analysis Services dinamico, è necessario che un gateway dati locale sia installato e configurato da un amministratore. Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md).
- >* Quando si usa il gateway, i dati rimangono in locale.  I report creati in base a tali dati vengono salvati nel servizio Power BI. 
- >* Le [domande e risposte per query in linguaggio naturale](service-q-and-a-direct-query.md) sono disponibili in anteprima per le connessioni dinamiche ad Analysis Services.
+>[!IMPORTANT]
+> * Per connettersi a un server Analysis Services dinamico, è necessario che un gateway dati locale sia installato e configurato da un amministratore. Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md).
+> * Quando si usa il gateway, i dati rimangono in locale.  I report creati in base a tali dati vengono salvati nel servizio Power BI. 
+> * Le [domande e risposte per query in linguaggio naturale](service-q-and-a-direct-query.md) sono disponibili in anteprima per le connessioni dinamiche ad Analysis Services.
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>Per connettersi a un modello da Recupera dati
+
 1. Dall'**Area di lavoro personale** selezionare **Recupera dati**. È anche possibile passare a un'area di lavoro di un gruppo, se disponibile.
-   
-   ![](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+
+   ![Connettersi al pulsante Recupera dati](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+
 2. Selezionare **Database e altro**.
-   
-   ![](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
-3. Selezionare **SQL Server Analysis Services** > **Connetti**. 
-   
-   ![](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+
+   ![Connettiti per ottenere dati 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+
+3. Selezionare **SQL Server Analysis Services** > **Connetti**.
+
+   ![Connettiti per ottenere dati 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+
 4. Selezionare un server. Se non è elencato alcun server, significa che un gateway e un'origine dati non sono configurati o che l'account non è presente nella scheda **utenti** dell'origine dati, nel gateway. Rivolgersi all'amministratore.
+
 5. Selezionare il modello a cui ci si vuole connettere. Può essere un modello tabulare o multidimensionale.
 
 Dopo aver eseguito la connessione al modello, verrà visualizzato nel sito di Power BI in **Area di lavoro personale/Set di dati**. Se si è passati a un'area di lavoro di gruppo, il set di dati verrà visualizzato all'interno del gruppo.
 
-![](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
+![Connettersi al set di dati](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
 ## <a name="dashboard-tiles"></a>I riquadri del dashboard
+
 Se si bloccano elementi visivi di un report sul dashboard, i riquadri bloccati vengono aggiornati automaticamente ogni 10 minuti. Se i dati nel server Analysis Services locale vengono aggiornati, i riquadri verranno aggiornati automaticamente dopo 10 minuti.
 
 ## <a name="common-issues"></a>Problemi comuni
@@ -50,7 +58,9 @@ Se si bloccano elementi visivi di un report sul dashboard, i riquadri bloccati v
 * Non è possibile caricare l'errore dello schema del modello - Questo errore si verifica quando l'utente che si connette a SSAS non ha accesso a database SSAS, cubo e modello.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Gateway dati locale](service-gateway-onprem.md)  
-[Gestire origini dati di Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
+
+* [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)  
+* [Gestire origini dati di Analysis Services](service-gateway-enterprise-manage-ssas.md)  
+* [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
+
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

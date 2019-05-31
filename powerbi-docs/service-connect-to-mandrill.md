@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007822"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61163086"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Connettersi a Mandrill con Power BI
 Il pacchetto di contenuto Power BI estrae i dati dall'account Mandrill e genera un dashboard, un set di report e un set di dati utili per l'esplorazione dei dati. Usare l'analisi di Mandrill per ottenere rapidamente informazioni sulla newsletter o sulla campagna di marketing. I dati sono impostati in modo da essere aggiornati quotidianamente.

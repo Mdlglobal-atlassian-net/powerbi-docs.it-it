@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d2ba689be99955c649930c1ee4b203b67577619c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397754"
+---
 In molti casi si potrebbe voler modificare i colori usati in grafici o oggetti visivi. Power BI offre un elevato livello di controllo sulla visualizzazione dei colori. Per iniziare, selezionare un oggetto visivo e quindi fare clic sull'icona del **pennello** nel riquadro **Visualizzazioni**.
 
 ![](media/3-9a-modifying-colors/3-9a_1.png)

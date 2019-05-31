@@ -1,24 +1,24 @@
 ---
 title: 'Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI (anteprima)'
 description: In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Poi si usa una procedura guidata in Generatore report per creare un report impaginato. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325244"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989909"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI (anteprima)
 
-In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Poi si usa una procedura guidata in Generatore report per creare un report impaginato con una tabella estesa su più pagine. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI. I report impaginati nel servizio Power BI sono attualmente in anteprima.
+In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Usare quindi una procedura guidata in Generatore Report di Power BI per creare un report impaginato con una tabella che esegue il wrapping di più pagine. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI. I report impaginati nel servizio Power BI sono attualmente in anteprima.
 
 ![Report impaginato nel servizio Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ Ecco i passaggi che verranno completati in questa esercitazione:
 
 > [!div class="checklist"]
 > * Creare un database di esempio di Azure.
-> * Creare una matrice in Generatore report con l'aiuto di una procedura guidata.
+> * Creare una matrice in Generatore Report di Power BI con l'aiuto di una procedura guidata.
 > * Formattare il report con titolo, numeri di pagina e intestazioni di colonna in ogni pagina.
 > * Formattare la valuta.
 > * Caricare il report nel servizio Power BI.
@@ -37,18 +37,18 @@ Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account g
 
 Questi sono i prerequisiti per la creazione del report impaginato:
 
-- Installare [Generatore report dall'Area download Microsoft](http://go.microsoft.com/fwlink/?LinkID=734968). 
+- Installare [di Power BI Report Builder dall'area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
 
 - Seguire la guida introduttiva [Creare un database SQL di Azure nel portale di Azure](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Copiare e salvare il valore nella casella **Nome server** nella scheda **Panoramica**. Ricordare il nome utente e la password creati in Azure.
 
 Questi sono i prerequisiti per il caricamento del report impaginato nel servizio Power BI:
 
 - È necessaria una [licenza di Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- È necessaria un'area di lavoro per le app nel servizio in una [capacità Power BI Premium](service-premium.md). È contraddistinta da un'icona a forma di diamante ![icona a forma di diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) accanto al nome dell'area di lavoro.
+- È necessaria un'area di lavoro per le app nel servizio in una [capacità Power BI Premium](service-premium-what-is.md). È contraddistinta da un'icona a forma di diamante ![icona a forma di diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) accanto al nome dell'area di lavoro.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Creare la matrice con una procedura guidata
   
-1.  Avviare Generatore report dal computer.  
+1.  Avviare Generatore Report di Power BI dal computer.  
   
      Verrà visualizzata la finestra di dialogo **Attività iniziali**.  
   
@@ -107,7 +107,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 10. Nella pagina **Progetta query** espandere SalesLT, espandere Tabelle e selezionare queste tabelle:
 
     - Indirizzo
-    - Cliente
+    - Customer
     - Product
     - ProductCategory
     - SalesOrderDetail
@@ -177,7 +177,7 @@ Per visualizzare i valori effettivi, è necessario eseguire il report.
 
 1. Selezionare **Esegui** sulla barra degli strumenti **Home**.
 
-   È ora possibile visualizzare i valori. La matrice ha molte più righe di quante erano visibili nella visualizzazione progettazione. Si noti che Generatore report indica che questa è la pagina **1** di **2?**. Generatore report carica il report il più rapidamente possibile, quindi recupera solo dati sufficienti per poche pagine alla volta. Il punto interrogativo indica che Generatore report non ha ancora caricato tutti i dati.
+   È ora possibile visualizzare i valori. La matrice ha molte più righe di quante erano visibili nella visualizzazione progettazione. Si noti che Generatore report indica che questa è la pagina **1** di **2?** . Generatore report carica il report il più rapidamente possibile, quindi recupera solo dati sufficienti per poche pagine alla volta. Il punto interrogativo indica che Generatore report non ha ancora caricato tutti i dati.
 
    ![Eseguire il report](media/paginated-reports-quickstart-aw/power-bi-paginated-run-report.png)
 
@@ -249,7 +249,7 @@ Durante l'esecuzione del report si è probabilmente notato che gli importi in de
 
     ![Selezionare le celle con valori di valuta](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. Nella scheda **Home** selezionare il simbolo della valuta per il dollaro (**$**) e quindi selezionare la freccia accanto a **Stili segnaposto**  >  **Valori di esempio**.
+2. Nella scheda **Home** selezionare il simbolo della valuta per il dollaro ( **$** ) e quindi selezionare la freccia accanto a **Stili segnaposto**  >  **Valori di esempio**.
  
     ![Visualizzare i valori di esempio](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 

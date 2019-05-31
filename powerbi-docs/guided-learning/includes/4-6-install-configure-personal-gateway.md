@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: ea958349988cade1045e80b073254ab1f29bbe9e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263842"
+---
 Negli argomenti precedenti abbiamo esaminato come utilizzare Power BI per connettersi alle origini dati e come aggiornare manualmente set di dati nel servizio Power BI. Tuttavia, non si intende eseguire manualmente operazioni di aggiornamento a ogni modifica dei dati, pertanto è possibile utilizzare Power BI per impostare un aggiornamento pianificato che si connetterà alle origini dati e li pubblica nel servizio Power BI automaticamente. Ciò consente inoltre di connettersi al servizio con le origini dati locale, inclusi i file di Excel, i database di Access, database SQL e altro.
 
 Il sistema che consente di connettersi alle origini dati locali per il servizio Power BI viene chiamato **Data gateway**. Si tratta di una piccola applicazione che viene eseguita nel computer e usa una pianificazione preordinata per connettersi ai dati, raccogliere tutti gli aggiornamenti e inviarli al servizio Power BI. Il **gateway personale** è una versione di **Data gateway** che può essere usata senza alcuna configurazione da parte dell'amministratore.

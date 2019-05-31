@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b42efb2c9237baf85a71be12cfaf61da189601d4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255686"
+---
 I dati importati spesso contengono campi che non sono così rilevanti ai fini della generazione di report e visualizzazioni o perché si tratta di informazioni in più o perché sono già disponibili in un'altra colonna. Power BI Desktop offre strumenti per ottimizzare i dati e consentirne un migliore impiego nella creazione di report e oggetti visivi, nonché per visualizzare i report condivisi.
 
 ## <a name="hiding-fields"></a>Nascondere i campi

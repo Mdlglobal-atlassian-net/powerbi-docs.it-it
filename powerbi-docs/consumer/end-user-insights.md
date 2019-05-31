@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: fcfb16de53b4e6c67b7c46fec87ab614d07cb9b1
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661561"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61049233"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualizzare informazioni dettagliate sui dati per i riquadri del dashboard con Power BI
 Ogni riquadro di visualizzazione nel dashboard è una porta di accesso per l'esplorazione dei dati. Quando si seleziona un riquadro, viene aperto un report in cui è possibile filtrare e ordinare e approfondire il set di dati del report. E quando si eseguono informazioni dettagliate, Power BI esegue automaticamente l'esplorazione dei dati.
@@ -59,7 +59,7 @@ Per tornare all'area di disegno originale delle informazioni dettagliate, nell'a
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 - **Visualizza informazioni dettagliate** non funziona con DirectQuery, ma solo con i dati caricati in Power BI.
-- **Visualizza informazioni dettagliate** non funziona con tutti i tipi di riquadri del dashboard. Non è ad esempio disponibile per gli oggetti visivi personalizzati.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **Visualizza informazioni dettagliate** non funziona con tutti i tipi di riquadri del dashboard. Non è ad esempio, disponibile per gli oggetti visivi personalizzati.<!--[custom visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>Passaggi successivi

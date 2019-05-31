@@ -12,11 +12,11 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 9c265a5d8ad1a08396e0bb4fb553a87a134472fd
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306459"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61317987"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Connettersi all'API Microsoft Graph Security in Power BI Desktop
 
@@ -49,7 +49,7 @@ Per usare il connettore, seguire la procedura qui sotto:
 
 1. Selezionare **Recupera dati** > **Altro** nella scheda **Home** della barra multifunzione in Power BI Desktop.
 2. Selezionare **Servizi online** dall'elenco di categorie riportato a sinistra.
-3. Selezionare **Microsoft Graph Security (Beta)**.
+3. Selezionare **Microsoft Graph Security (Beta)** .
 
     ![Finestra di dialogo Recupera dati](media/desktop-connect-graph-security/GetData.PNG)
     

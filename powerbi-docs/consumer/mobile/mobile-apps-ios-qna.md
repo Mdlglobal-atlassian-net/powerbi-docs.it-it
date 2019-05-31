@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
 ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278701"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60977484"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
 
@@ -65,7 +65,7 @@ Il primo passaggio consiste nel download degli esempi di analisi delle vendite a
  
 8. Selezionare **Connetti**.  
   
-   ![Retail Analysis Sample](./media/mobile-apps-ios-qna/retail16.png)
+   ![Esempio di analisi delle vendite al dettaglio](./media/mobile-apps-ios-qna/retail16.png)
    
 5. Power BI importa il pacchetto di contenuto e aggiunge un nuovo dashboard, report e set di dati all'area di lavoro corrente.
    
@@ -75,7 +75,7 @@ Il primo passaggio consiste nel download degli esempi di analisi delle vendite a
 
 - Ripetere la procedura eseguita per l'esempio di analisi delle vendite al dettaglio, ma al passaggio 4 selezionare **Esempio di analisi delle opportunità**.
 
-    ![Retail Analysis Sample](./media/mobile-apps-ios-qna/power-bi-oa.png)
+    ![Esempio di analisi delle vendite al dettaglio](./media/mobile-apps-ios-qna/power-bi-oa.png)
   
 A questo punto si è pronti per visualizzare gli esempi nel dispositivo iOS.
 

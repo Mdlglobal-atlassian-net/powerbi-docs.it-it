@@ -1,27 +1,27 @@
 ---
 title: Incorporare un report in un portale o un sito Web sicuro
-description: Con la funzionalità di incorporamento sicuro di Power BI è possibile consentire agli utenti di incorporare report nei portali Web interni in modo facile e sicuro.
-author: markingmyname
-ms.author: maghan
+description: Power BI consente di incorporare con facilità funzionalità consente agli utenti di e incorporare in modo sicuro i report nei portali web interni.
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: b816b504d3eed3aa91eb25c0bb3c6189d3075d1f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285830"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222249"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporare un report in un portale o un sito Web sicuro
 
-La nuova opzione **Incorpora** sicura per i report in Power BI consente agli utenti di incorporare i report in modo facile e sicuro nei portali Web interni, sia **basati sul cloud** che **ospitati in locale**, come SharePoint 2019. I report incorporati in questo modo rispettano tutte le autorizzazioni per gli elementi e i criteri di sicurezza dei dati tramite Sicurezza a livello di riga. La funzionalità è progettata per consentire l'incorporamento senza codice in qualsiasi portale che accetta un URL o un iFrame da incorporare.
+Con la nuova **incorporamento** opzione per Power BI i report, è possibile in modo sicuro e facilmente incorporare report nei portali web interni. Questi portali possono essere **basati sul cloud** oppure **ospitate in locale**, ad esempio SharePoint 2019. I report incorporati rispettano tutti i dati e le autorizzazioni di sicurezza degli elementi dei attraverso [a livello di riga (RLS) security](service-admin-rls.md). Forniscono senza codice di incorporamento in qualsiasi portale che accetta un URL o un iFrame. 
 
-L'opzione **Incorpora** supporta anche i [filtri URL](service-url-filters.md) e impostazioni per gli URL. L'opzione **Incorpora** consente l'integrazione con i portali con un approccio che richiede poco codice e conoscenze di base di HTML e JavaScript.
+Il **incorporamento** opzione supporta [filtri URL](service-url-filters.md) e impostazioni dell'URL. Permette l'integrazione con portali usando un approccio di poco codice che richiedono solo HTML e JavaScript conoscenza di base.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Come **incorporare** report di Power BI nei portali
 
@@ -29,66 +29,66 @@ L'opzione **Incorpora** supporta anche i [filtri URL](service-url-filters.md) e 
 
     ![Opzione dell'elenco per l'incorporamento sicuro](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. Selezionare l'opzione Incorpora per aprire una finestra di dialogo che offre un collegamento e un iFrame usato per incorporare il report in modo sicuro.
+2. Selezionare il **incorporamento** opzione per aprire una finestra di dialogo che fornisce un collegamento e un iFrame, è possibile usare per incorporare il report in modo sicuro.
 
     ![Finestra di dialogo dell'opzione Incorpora](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. Dopo avere incorporato l'URL nel portale Web o se si apre direttamente l'URL, l'utente viene autenticato prima di ottenere l'accesso al report. Di seguito, l'utente non ha eseguito l'accesso a Power BI nella sessione del browser. Quando preme **Accedi**, potrebbe essere necessario aprire una nuova finestra o scheda del browser. Controllare il blocco popup se non viene richiesto di accedere.
+3. Se un utente apre direttamente un URL del report o uno incorporati in un portale web, l'accesso a report richiede l'autenticazione. Se un utente ha non firmati di partecipare a Power BI nella sessione del browser, viene visualizzata la schermata seguente. Quando si seleziona **Accedi**, è stato possibile aprire una nuova finestra del browser o scheda. È possibile cercare i blocchi popup se essi non ottenere chiesto di accedere.
 
     ![Eseguire l'accesso per visualizzare questo report](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. Dopo che l'utente ha eseguito l'accesso, si apre il report, che mostra i dati e consente agli utenti di spostarsi tra le pagine e impostare filtri. Il report viene visualizzato solo per gli utenti con l'autorizzazione per visualizzare il report in Power BI. Vengono applicate anche tutte le regole di Sicurezza a livello di riga. Infine, l'utente deve disporre di una licenza corretta, ovvero avere una licenza di Power BI Pro oppure il report deve essere in un'area di lavoro inclusa in una capacità di Power BI Premium. L'utente deve eseguire l'accesso ogni volta che apre una nuova finestra del browser, ma dopo aver effettuato l'accesso gli altri report vengono caricati automaticamente.
+4. Dopo che l'utente ha eseguito l'accesso, si apre il report, che mostra i dati e consentendo la navigazione e impostazione del filtro. Solo gli utenti che dispongono dell'autorizzazione view per visualizzare il report in Power BI. Tutti i [a livello di riga (RLS) security](service-admin-rls.md) vengono anche applicate regole. Infine, l'utente deve disporre di una licenza corretta, ovvero avere una licenza di Power BI Pro oppure il report deve essere in un'area di lavoro inclusa in una capacità di Power BI Premium. L'utente deve eseguire l'accesso ogni volta che aprono una nuova finestra del browser. Tuttavia, una volta effettuato l'accesso, altri report caricato automaticamente.
 
     ![Incorporare un report](media/service-embed-secure/secure-embed-report.png)
 
-5. Quando si usa l'opzione iFrame, è consigliabile modificare il codice HTML fornito per specificare l'altezza e la larghezza desiderate ottimali per la pagina Web del portale.
+5. Quando si usa un iFrame, potrebbe essere necessario modificare il **altezza** e **larghezza** in modo che rientrano in una pagina web del portale.
 
     ![Impostare altezza e larghezza](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-access-to-reports"></a>Concessione dell'accesso ai report
+## <a name="granting-report-access"></a>Concessione dell'accesso al report
 
-L'opzione Incorpora non consente automaticamente agli utenti di visualizzare il report. Le autorizzazioni per visualizzare il report vengono impostate all'interno del servizio Power BI.
+Il **incorporamento** opzione non consente automaticamente agli utenti di visualizzare il report. Visualizzare le autorizzazioni vengono impostate nel servizio Power BI.
 
-Per fornire l'accesso al report nel servizio Power BI, è possibile condividere il report con gli utenti che richiedono l'accesso al report incorporato. Se si usa un gruppo di Office 365, è possibile elencare l'utente come un membro dell'area di lavoro per le app all'interno del servizio Power BI. Per altre informazioni, vedere come [gestire un'area di lavoro per le app](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Nel servizio Power BI, è possibile condividere i report incorporati con gli utenti che richiedono l'accesso. Se si usa un gruppo di Office 365, è possibile elencare l'utente come membro dell'area di lavoro di app. Per altre informazioni, vedere come [gestire l'area di lavoro di app in Power BI e Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Gestione delle licenze
 
-Gli utenti che visualizzano il report incorporato devono avere una licenza di Power BI Pro oppure il contenuto deve essere in un'area di lavoro inclusa in una [capacità Premium di Power BI (SKU EM o P)](service-admin-premium-purchase.md).
+Per visualizzare il report incorporato, gli utenti devono avere entrambi una licenza Power BI Pro o il contenuto deve essere in un'area di lavoro che si trova in una [capacità di Power BI Premium (EM o SKU P)](service-admin-premium-purchase.md).
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>Personalizzare l'esperienza di incorporamento usando le impostazioni per l'URL
 
-L'URL di incorporamento supporta diverse impostazioni di input che consentono di personalizzare l'esperienza utente. Se si usa l'iFrame fornito, assicurarsi di aggiornare l'URL nelle impostazioni src dell'iFrame.
+È possibile personalizzare l'esperienza dell'utente usando le impostazioni di input dell'URL di incorporamento. L'iFrame fornito, è possibile aggiornare l'URL **src** impostazioni.
 
 | Property  | Descrizione  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | È possibile usare il parametro della stringa di query **pageName** per impostare la pagina del report da aprire. Il valore **pageName** corrisponde alla fine dell'URL del report quando si visualizza un report nel servizio Power BI, come illustrato di seguito. |  |  |  |
-| Filtri URL  | È possibile usare [filtri URL](service-url-filters.md) nell'URL di incorporamento ricevuto dall'interfaccia utente di Power BI per filtrare il contenuto dell'incorporamento. In questo modo è possibile realizzare integrazioni con poco codice e conoscenze di base di HTML e JavaScript.  |  |  |  |
+| pageName  | È possibile usare la **pageName** eseguire query sui parametri di stringa per impostare la pagina di report da aprire. È possibile trovare questo valore alla fine dell'URL di report quando si visualizza un report nel servizio Power BI, come illustrato di seguito. |  |  |  |
+| Filtri URL  | È possibile usare [filtri URL](service-url-filters.md) nell'URL di incorporamento ricevuto dall'interfaccia utente Power BI per filtrare il contenuto di incorporamento. In questo modo è possibile realizzare integrazioni con poco codice e conoscenze di base di HTML e JavaScript.  |  |  |  |
 
-## <a name="set-which-page-opens-when-the-report-is-embedded"></a>Impostare la pagina che viene aperta quando il report viene incorporato
+## <a name="set-which-page-opens-for-an-embedded-report"></a>Set consente di aprire la pagina per un report incorporato 
 
-Il valore specificato nell'impostazione *pageName* corrisponde alla fine dell'URL del report quando si visualizza un report nel servizio Power BI.
+È possibile trovare il **pageName** valore alla fine dell'URL di report quando si visualizza un report nel servizio Power BI.
 
-1. Aprire il report dal servizio Power BI nel Web browser e quindi copiare l'URL dalla barra degli indirizzi.
+1. Aprire il report dal servizio Power BI nel web browser e quindi copiare l'URL dell'indirizzo.
 
     ![Sezione del report](media/service-embed-secure/secure-embed-report-section.png)
 
-2. Aggiungere l'impostazione *pageName* all'URL.
+2. Aggiungere l'impostazione **pageName** all'URL.
 
     ![Aggiungere pageName](media/service-embed-secure/secure-embed-append-page-name.png)
 
-## <a name="filter-report-content-using-url-filters"></a>Filtrare il contenuto del report con i filtri URL
+## <a name="filter-report-content-using-url-filters"></a>Filtrare il contenuto del report con i filtri URL 
 
-Per alcune funzionalità avanzate, è possibile usare i [filtri URL](service-url-filters.md) per creare altre esperienze con il report. Ad esempio, l'URL seguente filtra il report in modo da visualizzare i dati per il settore energetico.
+È possibile usare [filtri URL](service-url-filters.md) per fornire visualizzazioni diverse dei report. Ad esempio, l'URL seguente filtra il report in modo da visualizzare i dati per il settore energetico.
 
 L'uso combinato di **pageName** e [filtri URL](service-url-filters.md) offre grandi potenzialità. È possibile creare esperienze con codice HTML e JavaScript molto semplice.
 
-Ad esempio, ecco come è possibile aggiungere un pulsante in una pagina HTML:
+Ecco ad esempio, un pulsante che è possibile aggiungere a una pagina HTML:
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-Una volta premuto, il pulsante chiama una funzione per aggiornare l'iFrame con un URL aggiornato, che include il filtro per il settore energetico.
+Se selezionata, il pulsante chiama una funzione per aggiornare l'iFrame con un URL aggiornato, che include il filtro del settore energetico.
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,20 @@ report.src = newUrl;
 
 * L'incorporamento sicuro è disponibile per i report pubblicati nel servizio Power BI.
 
-* L'utente deve effettuare l'accesso per visualizzare il report ogni volta che apre una nuova finestra del browser.
+* L'utente deve eseguire l'accesso per visualizzare il report, ogni volta che aprono una nuova finestra del browser.
 
-* Alcuni browser richiedono di aggiornare la pagina dopo aver effettuato l'accesso, soprattutto quando si usa la modalità InPrivate o in incognito.
+* Alcuni browser richiedono di aggiornare la pagina dopo l'iscrizione, soprattutto quando si usa la modalità InPrivate o in Incognito.
 
-* Per ottenere un'esperienza Single Sign-On, usare l'opzione Incorpora in SharePoint Online o creare un'integrazione personalizzata con l'approccio [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md). Altre informazioni sull'approccio [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md).
+* Per ottenere un'esperienza single sign-on, usare l'incorporamento in SharePoint Online opzione o compilare un'integrazione personalizzata con il [utente è proprietario data](developer/embed-sample-for-your-organization.md) incorporamento (metodo). 
 
-* La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare l'approccio all'incorporamento [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md). Altre informazioni sull'approccio [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md).
+* La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare il [utente è proprietario data](developer/embed-sample-for-your-organization.md) incorporamento (metodo). 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Modalità per la condivisione del lavoro](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Modalità di condivisione del lavoro in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [Filtri URL](service-url-filters.md)
+* [Filtrare un report usando i parametri della stringa di query nell'URL](service-url-filters.md)
 
-* [Web part report di SharePoint Online](service-embed-report-spo.md)
+* [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md)
 
-* [Pubblicazione sul Web](service-publish-to-web.md)
+* [Pubblica sul Web da Power BI](service-publish-to-web.md)

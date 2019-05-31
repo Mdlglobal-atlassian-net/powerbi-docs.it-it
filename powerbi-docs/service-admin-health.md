@@ -7,34 +7,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 05/14/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.openlocfilehash: 37108c88b3a4f1efe2d324d2b182276252072d78
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383154"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710458"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Tenere traccia dell'integrità del servizio Power BI in Office 365
 
-L'interfaccia di amministrazione di Microsoft 365 offre strumenti importanti agli amministratori di Power BI, tra cui informazioni attuali e cronologiche sull'integrità del servizio. Per accedere a queste informazioni, è necessario appartenere a uno dei ruoli seguenti: Amministratore del servizio Power BI o Amministratore globale di Office 365. Per altre informazioni sui ruoli, vedere [Ruoli di amministratore correlati a Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
+L'interfaccia di amministrazione di Microsoft 365 offre strumenti importanti per gli amministratori di Power BI. Gli strumenti includono le informazioni attuali e cronologiche sull'integrità del servizio. Per accedere alle informazioni sull'integrità del servizio, è necessario essere in uno dei seguenti ruoli:
+
+* Amministratore del servizio Power BI
+
+* Amministratore globale di Office 365
+
+Per altre informazioni sui ruoli, vedere [ruoli di amministratore correlati a Power BI](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 
 1. Accedere all'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal).
 
-1. Selezionare il riquadro **Integrità dei servizi**.
+1. Dalla barra di spostamento a sinistra, selezionare **Mostra tutto** > **integrità** > **integrità del servizio**. Viene visualizzata la pagina di integrità del servizio:
 
-    ![Riquadro Integrità dei servizi](media/service-admin-health/service-health-tile.png)
+    ![Screenshot dell'interfaccia di amministrazione di Microsoft 365 con le opzioni di integrità in integrità e il servizio indicati.](media/service-admin-health/service-health-tile.png)
 
-1. Nell'elenco corrente selezionare **N avvisi**  oppure **N eventi** ed esaminare i risultati. Nella figura seguente è visibile uno dei tre avvisi attivi.
+1. Dal **tutti i servizi** elenco, selezionare **avvisi** o **degli eventi imprevisti** ed esaminare i risultati. Nella schermata seguente, si verifica uno dei tre avvisi attivi.
 
-    ![Avvisi attivi](media/service-admin-health/active-advisories.png)
+    ![Screenshot della pagina di integrità del servizio con i tre avvisi per Power BI e l'opzione Mostra i dettagli indicati.](media/service-admin-health/active-advisories.png)
 
-1. Per altre informazioni, selezionare **Mostra dettagli** per un elemento. Nella figura seguente sono visibili dettagli aggiuntivi, tra cui gli aggiornamenti di stato recenti.
+1. Per altre informazioni, selezionare **Mostra dettagli** per un elemento. Nella schermata seguente, si vedere dettagli aggiuntivi, inclusi i recenti aggiornamenti di stato.
 
-    ![Dettagli avviso](media/service-admin-health/advisory-details.png)
+    ![Schermata di consulenza dettagli.](media/service-admin-health/advisory-details.png)
 
     Scorrere verso il basso per visualizzare altre informazioni, chiudere il riquadro al termine.
 
-1. Per visualizzare informazioni cronologiche per tutti i servizi, in alto a destra nell'elenco principale selezionare **Visualizza cronologia**. Quindi selezionare **Ultimi 7 giorni** oppure **Ultimi 30 giorni**. Per tornare all'integrità del servizio corrente, selezionare **Visualizza lo stato corrente**.
+1. Per visualizzare le informazioni cronologiche in tutti i servizi, nell'angolo superiore destro del **del servizio integrità** pagina, selezionare **visualizzare la cronologia**. Quindi selezionare **Ultimi 7 giorni** oppure **Ultimi 30 giorni**. 
+
+1. Per tornare all'integrità del servizio corrente, selezionare **Visualizza lo stato corrente**.

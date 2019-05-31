@@ -1,5 +1,5 @@
 ---
-title: Risorse per sviluppatori per i flussi di dati Power BI (anteprima)
+title: Risorse per sviluppatori per flussi di dati di Power BI
 description: Trovare le risorse per lo sviluppo e i flussi di dati Power BI
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274698"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136764"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>Risorse per sviluppatori per i flussi di dati Power BI (anteprima)
+# <a name="developer-resources-for-power-bi-dataflows"></a>Risorse per sviluppatori per flussi di dati di Power BI
 
 Esistono diversi modi per usare i flussi di dati senza codice, creando o connettendosi a entità nel servizio Power BI e connettendosi in Power BI Desktop. Molte organizzazioni necessitano della flessibilità per sviluppare soluzioni personalizzate. Questo articolo fornisce informazioni sull'API REST di Power BI e altre risorse per sviluppatori.
 
@@ -38,8 +38,8 @@ Questo articolo ha fornito informazioni sulle risorse per sviluppatori per i flu
 
 * [Preparazione dei dati self-service con flussi di dati](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
-* [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
+* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
 
 Per informazioni sullo sviluppo CDM e risorse per esercitarsi, vedere gli argomenti seguenti:
 * [Panoramica del modello CDM (Common Data Model)](https://docs.microsoft.com/powerapps/common-data-model/overview)

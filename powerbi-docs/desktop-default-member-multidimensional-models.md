@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 01b0cdf70c985169d474a130ed4ad846ad708963
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284749"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61308841"
 ---
 # <a name="default-member-in-multidimensional-models-in-power-bi"></a>Membro predefinito nei modelli multidimensionali in Power BI Desktop
 
@@ -36,7 +36,7 @@ Si supponga ad esempio di avere una colonna *Valuta* con membro predefinito *EUR
 * In questo caso di esempio, in presenza di una scheda che visualizza il *Totale vendite*, al valore sarà applicato il membro predefinito e verranno visualizzate le vendite corrispondenti a "EURO".
 * Se si trascina *Valuta* nel riquadro della scheda filtro, il valore predefinito selezionato sarà *EURO*. Il valore di *Totale vendite* rimane invariato, perché è applicato il membro predefinito.
 * Tuttavia, se si deseleziona il valore *EURO* nella scheda filtro, il membro predefinito per *Valuta* viene cancellato e *Totale vendite* mostra tutte le valute.
-* Di conseguenza, quando si seleziona un altro valore nella scheda filtro (ad esempio *USD*), insieme al membro predefinito, il *Totale vendite* rispecchia il filtro *VALUTA IN {EURO, USD}*.
+* Di conseguenza, quando si seleziona un altro valore nella scheda filtro (ad esempio *USD*), insieme al membro predefinito, il *Totale vendite* rispecchia il filtro *VALUTA IN {EURO, USD}* .
 
 ## <a name="grouping-behavior"></a>Comportamento di raggruppamento
 

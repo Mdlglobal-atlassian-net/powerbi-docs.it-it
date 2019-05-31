@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fcf73962534ec8f1fda009304768fd43aaa0955a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61255700"
+---
 La creazione di colonne calcolate è un modo semplice per arricchire e migliorare i dati. Una **colonna calcolata** è una nuova colonna creata mediante la definizione di un calcolo che trasforma o combina due o più elementi di dati esistenti. Ad esempio, è possibile creare una nuova colonna unendone due.
 
 Una ragione valida per creare una colonna calcolata è quella di stabilire una relazione tra tabelle quando non sono presenti campi univoci da poter usare per stabilire una relazione. L'assenza di una relazione è evidente quando si crea un semplice oggetto visivo in formato tabella in Power BI Desktop e si ottiene lo stesso valore per tutte le voci anche se i dati sottostanti sono diversi.

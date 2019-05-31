@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3fd97374836978a4902a878da141865c271df643
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397673"
+---
 Le visualizzazioni vengono in genere usate per confrontare due o più valori diversi. Quando si creano report, tuttavia, a volte può essere necessario tenere traccia di un unico indicatore di prestazioni chiave o metrica nel tempo. A questo scopo, in Power BI Desktop è possibile usare un oggetto visivo **misuratore** o scheda con **numero singolo**. Per creare un grafico vuoto di entrambi i tipi, selezionarne l'icona nel riquadro **Visualizzazioni**.
 
 ![](media/3-9-create-gauges-cards/3-9_1.png)

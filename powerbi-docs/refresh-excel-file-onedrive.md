@@ -1,21 +1,21 @@
 ---
 title: Aggiornare un set di dati creato da una cartella di lavoro di Excel - cloud
 description: Aggiornare un set di dati creato da una cartella di lavoro di Excel in OneDrive o SharePoint Online
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2636eb92d3c86268acc19c05a6c791b62a58d43b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296019"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414501"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Aggiornare un set di dati creato da una cartella di lavoro di Excel in OneDrive o SharePoint Online
 È possibile importare le cartelle di lavoro di Excel archiviate nel computer locale o nella memoria cloud, ad esempio OneDrive for Business o SharePoint Online. Verranno ora esaminati i vantaggi dell'uso dell'archiviazione cloud per i file Excel. Per altre informazioni su come importare i file Excel in Power BI, vedere [Ottenere dati dai file delle cartelle di lavoro di Excel](service-excel-workbook-files.md).

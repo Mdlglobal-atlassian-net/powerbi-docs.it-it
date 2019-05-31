@@ -1,20 +1,20 @@
 ---
 title: Autorizzazioni di Power BI
 description: Autorizzazioni di Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 548f84c38705e269998fd3c124b4f93d3c83d2ef
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215459"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269354"
 ---
 # <a name="power-bi-permissions"></a>Autorizzazioni di Power BI
 
@@ -27,7 +27,7 @@ Le autorizzazioni di Power BI permettono a un'applicazione di eseguire determina
 | Visualizza tutti i set di dati |L'app può visualizzare tutti i set di dati per l'utente connesso e i set di dati a cui l'utente può accedere. |Dataset.Read.All |
 | Lettura e scrittura in tutti i set di dati |L'app può visualizzare e scrivere in tutti i set di dati per l'utente connesso e i set di dati a cui l'utente può accedere. |Dataset.ReadWrite.All |
 | Aggiungi dati al set di dati dell'utente |Offre a un'app l'accesso per aggiungere o eliminare righe dei set di dati di un utente. Questa autorizzazione non concede all'app l'accesso ai dati dell'utente. |Data.Alter_Any |
-| Crea contenuto |L'app può creare automaticamente contenuti e set di dati per un utente. |Content.Create |
+| Crea contenuti |L'app può creare automaticamente contenuti e set di dati per un utente. |Content.Create |
 | Visualizza gruppi di utenti |L'app può visualizzare tutti i gruppi a cui appartiene l'utente connesso. |Group.Read |
 | Visualizzare tutti i gruppi |L'app può visualizzare tutti i gruppi a cui appartiene l'utente connesso. |Group.Read.All |
 | Leggi e scrivi in tutti i gruppi |L'app può visualizzare e scrivere in tutti i gruppi per l'utente connesso e in tutti i gruppi a cui l'utente può accedere. |Group.ReadWrite.All |

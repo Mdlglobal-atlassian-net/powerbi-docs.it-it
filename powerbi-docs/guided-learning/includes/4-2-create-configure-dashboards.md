@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263860"
+---
 I **dashboard** in Power BI sono raccolte di visualizzazioni di una pagina che vengono create all'interno del servizio Power BI. I dashboard vengono creati **aggiungendo** visualizzazioni dei report creati e pubblicati tramite Power BI Desktop o visualizzazioni create all'interno dello stesso servizio Power BI. **Aggiungere** un oggetto visivo in un dashboard è come aggiungere un'immagine da una lavagnetta su una parete: l'oggetto visivo viene fissato in un punto particolare perché venga visto da tutti gli utenti. Per aggiungere un oggetto visivo, aprire il report nel servizio Power BI. Passare il puntatore del mouse sull'oggetto visivo da aggiungere, quindi selezionare l'icona della **puntina**.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

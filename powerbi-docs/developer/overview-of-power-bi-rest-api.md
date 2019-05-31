@@ -1,20 +1,20 @@
 ---
 title: Cosa si può fare con l'API Power BI
 description: Cosa si può fare con l'API Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: 443aa370ebb4122d0f979f60726ba953ce13195d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872571"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269448"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Quali operazioni possono eseguire gli sviluppatori con l'API Power BI?
 
@@ -24,9 +24,9 @@ Con l'API REST di Power BI è possibile eseguire attività di gestione su oggett
 
 Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 
-| **Per altre informazioni** | **Vedere questo argomento** |
+| **Per altre informazioni** | **Queste informazioni di riferimento** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, i report e i riquadri di Power BI ](embedding-content.md) |
+| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, report e riquadri di Power BI ](embedding-content.md) |
 | Eseguire attività di gestione per oggetti di Power BI. | [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
 | Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. | [Eseguire il push dei dati in un dashboard ](walkthrough-push-data.md) |
 | Eseguire l'autenticazione a Power BI. | [Eseguire l'autenticazione a Power BI ](get-azuread-access-token.md) |
@@ -38,8 +38,8 @@ Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 
 | Strumento/i | Descrizione |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-| [Strumento Playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Un esempio d'uso completo delle API JavaScript di Power BI. Questo strumento consente di riprodurre in modo rapido vari tipi di esempi di Power BI Embedded. |  |  |
-| [Wiki JavaScript di Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Offre informazioni aggiuntive sulle API JavaScript di Power BI. |  |  |
+| [Strumento playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Un esempio d'uso completo delle API JavaScript di Power BI. Questo strumento consente di riprodurre in modo rapido vari tipi di esempi di Power BI Embedded. |  |  |
+| [Wiki di Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) | Offre informazioni aggiuntive sulle API JavaScript di Power BI. |  |  |
 | [Postman](https://www.getpostman.com/) | Consente di eseguire richieste, test, operazioni di debug, monitoraggio, test automatici e altro ancora. |
 
 ## <a name="push-data-into-power-bi"></a>Push dei dati in Power BI
@@ -57,7 +57,7 @@ Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Eseguire il push dei dati in un set di dati](walkthrough-push-data.md)
-* [Sviluppo di un oggetto visivo personalizzato di Power BI](custom-visual-develop-tutorial.md)
+* [Developing a Power BI custom visual](custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI)
 * [Riferimento all'API REST di Power BI](rest-api-reference.md)
 * [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 

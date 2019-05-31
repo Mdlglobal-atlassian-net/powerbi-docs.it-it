@@ -11,11 +11,11 @@ ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279988"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61370461"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Visualizzare elementi senza dati in Power BI
 
@@ -36,7 +36,7 @@ Per iniziare a comprendere come Power BI determina quali dati sono rilevanti per
 |Blu     |Piccola         |
 |Rosso     |Grande         |
 
-In questo esempio, Power BI visualizza le combinazioni di *[Colore-Misura]* presenti nella tabella *[Prodotto]*. 
+In questo esempio, Power BI visualizza le combinazioni di *[Colore-Misura]* presenti nella tabella *[Prodotto]* . 
 
 Si esamini ora una diversa combinazione:
 
@@ -47,7 +47,7 @@ Si esamini ora una diversa combinazione:
 |Lucido     |Blu         |10         |
 |Opaco     |Blu         |15         |
 
-In questo esempio, Power BI visualizza solo le combinazioni esistenti. Ad esempio, non visualizzerà ("Nessuno" + "Blu") o ("Opaco" + "Rosso") perché queste combinazioni non esistono nel modello. La condizione che determina quali combinazioni esistono è un valore non vuoto per *Somma(Vendite[Quantità])*.
+In questo esempio, Power BI visualizza solo le combinazioni esistenti. Ad esempio, non visualizzerà ("Nessuno" + "Blu") o ("Opaco" + "Rosso") perché queste combinazioni non esistono nel modello. La condizione che determina quali combinazioni esistono è un valore non vuoto per *Somma(Vendite[Quantità])* .
 
 Si esamini ora un caso diverso: 
 
@@ -61,7 +61,7 @@ Si esamini ora un caso diverso:
 
 Poiché non è presente alcuna misura esplicita e le due tabelle sono direttamente correlate, Power BI tenta di inserire una misura per vincolare le combinazioni risultanti. In questo caso, Power BI inserisce una misura *CALCULATE(COUNTROWS('Prodotto'))* che non deve essere vuota, perché *Prodotto* è la tabella comune a entrambe le tabelle.
 
-Power BI visualizza quindi le combinazioni con elementi nella tabella Prodotto, escludendo pertanto le combinazioni *("Nessuno" + "Blu")* e *("Opaco" + "Rosso")*.
+Power BI visualizza quindi le combinazioni con elementi nella tabella Prodotto, escludendo pertanto le combinazioni *("Nessuno" + "Blu")* e *("Opaco" + "Rosso")* .
 
 **4. Gruppi da tabelle diverse e non correlate**
 
@@ -130,12 +130,12 @@ Visualizzazione con la funzionalità **Mostra elementi senza dati** attivata:
 |Lucido     |Blu         |10         |
 |Lucido     |Rosso         |         |
 |Opaco     |Blu         |15         |
-|Nessuno     |         |         |
+|None     |         |         |
 
 Si noti che *(Lucido-Rosso)* e *(Nessuno, vuoto)* sono state visualizzate come combinazioni. Ecco il motivo per che cui sono state visualizzate:
 * Power BI ha preso prima di tutto in considerazione StileProdotto[Finitura] e selezionato tutti i valori per la visualizzazione, con il risultato Lucido, Opaco, Nessuno.
 * Usando ognuno di questi valori, Power BI ha selezionato tutti gli elementi *Prodotto [Colore]* corrispondenti 
-* Dato che *Nessuno* non corrisponde ad alcun *Prodotto[Colore]*, per tale valore viene visualizzato uno spazio vuoto
+* Dato che *Nessuno* non corrisponde ad alcun *Prodotto[Colore]* , per tale valore viene visualizzato uno spazio vuoto
 
 È importante notare che il meccanismo di selezione dei valori per le colonne è dipendente dall'ordine e può essere paragonato a un'operazione di *outer join sinistro* tra tabelle. Se viene modificato l'ordine delle colonne, cambieranno anche i risultati.
 
@@ -181,7 +181,7 @@ In questa sezione viene illustrato il modello di dati di esempio usato negli ese
 |---------|---------|---------|
 |1  |Lucido  |Sì |
 |2  |Opaco  |No |
-|3  |Nessuno   |No |
+|3  |None   |No |
 
 
 |Vendite[IdVendita]| Vendite[IdProdotto]|   Vendite[Data]|    Vendite[Quantità]|

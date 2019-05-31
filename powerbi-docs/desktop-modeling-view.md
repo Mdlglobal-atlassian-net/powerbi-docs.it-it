@@ -1,5 +1,5 @@
 ---
-title: Usare la visualizzazione di modellazione in Power BI Desktop (anteprima)
+title: Utilizzare la visualizzazione di modellazione in Power BI Desktop
 description: Usare la visualizzazione di modellazione per vedere set di dati complessi in formato visivo in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216310"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941350"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Visualizzazione di modellazione in Power BI Desktop (anteprima)
+# <a name="modeling-view-in-power-bi-desktop"></a>Visualizzazione di modellazione in Power BI Desktop
 
-Con la **visualizzazione di modellazione** in **Power BI Desktop**, è possibile visualizzare e usare set di dati complessi contenenti molte tabelle. Con la visualizzazione di modellazione, è possibile eseguire le operazioni seguenti:
+Con la **visualizzazione di modellazione** in **Power BI Desktop**, è possibile visualizzare e usare set di dati complessi contenenti molte tabelle.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>Abilitazione della funzionalità in anteprima visualizzazione di modellazione
-
-La funzionalità visualizzazione di modellazione è disponibile in anteprima e deve essere abilitata in **Power BI Desktop**. Per abilitare la visualizzazione di modellazione, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima** e quindi selezionare la casella di controllo **Visualizzazione di modellazione** come illustrato nell'immagine seguente.
-
-![Abilitare la funzionalità in anteprima visualizzazione di modellazione in Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
-
-Verrà indicato che è necessario riavviare **Power BI Desktop** per rendere effettiva la funzionalità in anteprima. 
-
-![Riavviare Power BI Desktop per abilitare le funzionalità in anteprima](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>Uso della visualizzazione di modellazione
 
@@ -66,9 +56,9 @@ In visualizzazione di modellazione è possibile selezionare più oggetti contemp
 Gli articoli seguenti includono altre informazioni sui modelli di dati e descrivono anche la modalità DirectQuery in modo dettagliato.
 
 * [Aggregazioni in Power BI Desktop (anteprima)](desktop-aggregations.md)
-* [Modelli compositi in Power BI Desktop (anteprima)](desktop-composite-models.md)
+* [Modelli compositi in Power BI Desktop](desktop-composite-models.md)
 * [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md)
-* [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md)
+* [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md)
 
 
 Articoli su DirectQuery:

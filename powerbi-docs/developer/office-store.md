@@ -8,13 +8,13 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 10/30/2018
-ms.openlocfilehash: 2db993a9521b25db28973a5a987edfde4271c5cd
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.date: 3/27/2019
+ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695197"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61269815"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
 
@@ -30,7 +30,7 @@ Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo i
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparazione per l'invio dell'oggetto visivo personalizzato
 
-Dopo aver terminato le operazioni di codifica e [test dell'oggetto visivo personalizzato](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e averlo inserito in un pacchetto PBIVIZ, è necessario che anche gli elementi seguenti siano pronti per l'invio.
+Dopo aver completato le operazioni di lettura nostri [linee guida per gli oggetti visivi di Power BI](guidelines-powerbi-visuals.md), la codifica e [test dell'oggetto visivo personalizzato](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e averlo inserito in un file pbiviz, è inoltre necessario avere quanto segue sia pronto per l'invio.
 
 | Item | Obbligatorio | Descrizione |
 | --- | --- | --- |

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 74d45bf5fcaf51c29d1f1818b3d14d85d73ff086
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397654"
+---
 Questo articolo illustra come creare nuovi grafici a barre, grafici a torta e mappe ad albero e personalizzare questi elementi in modo che siano appropriati per i report.
 
 Ci sono due modi diversi per creare una nuova visualizzazione in Power BI Desktop:

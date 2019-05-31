@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695151"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380145"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 
@@ -211,7 +211,7 @@ Immettere i valori delle proprietà per il progetto di oggetto visivo personaliz
 
 6. Salvare il file **pbiviz.json**.
 
-7. Nell'oggetto **assets** si noti che il documento definisce un percorso per un'icona. L'icona è l'immagine visualizzata nel riquadro **_Visualizzazioni_**. Deve essere un file **PNG** con dimensioni di *20 pixel per 20 pixel*.
+7. Nell'oggetto **assets** si noti che il documento definisce un percorso per un'icona. L'icona è l'immagine visualizzata nel riquadro **_Visualizzazioni_** . Deve essere un file **PNG** con dimensioni di *20 pixel per 20 pixel*.
 
 8. In Esplora risorse copiare il file icon.png e quindi incollarlo per sostituire il file predefinito che si trova nella cartella assets.
 
@@ -251,7 +251,7 @@ A questo punto è possibile aprire il report di Power BI Desktop e importare l'o
 
 6. Al termine dell'importazione dell'oggetto visivo selezionare **OK**.
 
-7. Verificare che l'oggetto visivo sia stato aggiunto al riquadro **_Visualizzazioni_**.
+7. Verificare che l'oggetto visivo sia stato aggiunto al riquadro **_Visualizzazioni_** .
 
     ![Visualizzare l'oggetto visivo nel riquadro Visualizzazioni in PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

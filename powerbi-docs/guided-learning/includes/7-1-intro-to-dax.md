@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8af5b1cf243d599ab68e9c2db1a3c6003f82c29f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273405"
+---
 La sezione di **apprendimento guidato** di Power BI è stata progettata per fornire informazioni introduttive su **DAX**.
 
 **DAX** è l'acronimo di **Data Analysis Expressions** e indica il linguaggio delle formule usato in Power BI, anche in background. DAX è disponibile anche in altre offerte Microsoft, ad esempio Power Pivot e il modello tabulare di SSAS, ma questa raccolta di argomenti di apprendimento guidato è incentrata sulla modalità di utilizzo di DAX, anche da parte dell'utente, in Power BI.
@@ -16,11 +24,11 @@ DAX è un *linguaggio funzionale*, ovvero tutto il codice eseguito è contenuto 
 
 In DAX le funzioni possono contenere altri elementi annidati, come funzioni, istruzioni condizionali e riferimenti a valori. L'esecuzione in DAX inizia dalla funzione o parametro più interno e procede verso l'esterno. Poiché in Power BI le formule DAX sono scritte su una singola riga, la corretta formattazione delle funzioni è un aspetto importante ai fini della leggibilità.
 
-DAX è progettato per essere usato con tabelle e di conseguenza ha solo due tipi di dati principali, **numerici** e **di altro tipo**. Il tipo **numerico** può includere *interi*, *decimali* e *valute*. Tra gli **altri tipi di dati** sono inclusi *stringhe* e *oggetti binari*. Di conseguenza, se la funzione DAX viene creata per supportare un tipo di numero, funzionerà anche con qualsiasi altro tipo di dati numerici.
+DAX è progettato per essere usato con tabelle, di conseguenza ha solo due tipi di dati primario: **Numerico** e **altri**. Il tipo **numerico** può includere *interi*, *decimali* e *valute*. Tra gli **altri tipi di dati** sono inclusi *stringhe* e *oggetti binari*. Di conseguenza, se la funzione DAX viene creata per supportare un tipo di numero, funzionerà anche con qualsiasi altro tipo di dati numerici.
 
 DAX usa l'overload degli operatori, ovvero è possibile combinare tipi di dati nei calcoli perché i risultati cambino in base al tipo usato negli input. La conversione viene eseguita automaticamente. Questo significa che non è necessario identificare i tipi di dati delle colonne usate in Power BI, ma anche che a volte la conversione può avvenire in modi imprevisti. È consigliabile saper identificare i dati usati per garantire che gli operatori si comportino nel modo previsto.
 
-Un tipo di dati in particolare è probabile che verrà usato molto in Power BI, ovvero **Data/Ora**. Il tipo di dati **Data/Ora** è archiviato come valore a virgola mobile con una parte intera e una decimale. Il tipo di dati Data/Ora può essere usato in modo accurato per calcoli di qualsiasi periodo di tempo successivo al 1° marzo 1900.
+Vi è un tipo di dati in particolare è probabile che essere usato con molto in Power BI: **DateTime**. Il tipo di dati **Data/Ora** è archiviato come valore a virgola mobile con una parte intera e una decimale. Il tipo di dati Data/Ora può essere usato in modo accurato per calcoli di qualsiasi periodo di tempo successivo al 1° marzo 1900.
 
 > Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 

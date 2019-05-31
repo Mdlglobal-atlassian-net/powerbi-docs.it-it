@@ -12,11 +12,11 @@ ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014462"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61411848"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
 Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione della mappa autonomamente, richiede l'aiuto di Bing Maps. 
@@ -49,7 +49,7 @@ Se si ha accesso al set di dati usato per creare la visualizzazione della mappa,
 
 In Power BI Desktop è possibile assicurarsi che la codifica geografica dei campi venga eseguita correttamente impostando la *categoria di dati* per i campi dati. Selezionare la tabella specifica, passare alla scheda **Avanzate** della barra multifunzione e quindi impostare **Categoria di dati** su **Indirizzo**, **Città**, **Continente**, **Paese/area geografica**, **Paese**, **Codice postale**, **Stato** o **Provincia**. Queste categorie di dati consentiranno a Bing di codificare correttamente la data. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](../desktop-data-categorization.md). Se si esegue una connessione dinamica a SQL Server Analysis Services, sarà necessario impostare la categorizzazione dei dati all'esterno di Power BI usando [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
-**2. Usare più colonne di località.**    
+**2. Usare più colonne di località.**     
  In alcuni casi, anche l'impostazione delle categorie di dati per la creazione di mappe non è sufficiente per consentire a Bing di individuare correttamente la posizione. Alcune designazioni sono ambigue perché la località esiste in più paesi o aree geografiche. Ad esempio, esiste una città chiamata ***Southampton*** in Inghilterra, Pennsylvania e New York.
 
 Power BI usa il [servizio del modello URL non strutturato](https://msdn.microsoft.com/library/ff701714.aspx) di Bing per ottenere le coordinate di latitudine e longitudine, in base a un set di valori di indirizzo per qualsiasi paese. Se i dati non contengano dati sufficienti sulla posizione, aggiungere tali colonne e classificarle in modo appropriato.

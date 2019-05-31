@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892253"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61297335"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Usare informazioni dettagliate in Power BI Desktop per spiegare gli aumenti e le diminuzioni rilevate negli oggetti visivi (anteprima)
 
@@ -59,7 +59,7 @@ Le icone del *pollice in su* e del *pollice in giù* nella parte superiore della
 
 I dettagli restituiti nelle informazioni dettagliate evidenziano le differenze tra i due periodi, per consentire di comprendere cosa è cambiato.  
 
-Se ad esempio *Vendite* è aumentato di un 55% complessivo tra il *3° trim.* e il *4° trim.*, e questo è vero per ogni *Categoria* di prodotto (le vendite di Computer sono aumentate del 55%, le vendite di Audio sono aumentate del 55% e così via), ed è vero anche per ogni paese e per ogni tipo di cliente, i dati non contengono elementi identificabili che possono spiegare la variazione. Tuttavia questo scenario è molto raro e in genere si rilevano differenze nei dati, ad esempio *Computer* ed *Elettrodomestici* hanno registrato una crescita molto più elevata (63%) mentre *TV e video* è cresciuto solo del 23%, pertanto *Computer* ed *Elettrodomestici* hanno contribuito con una percentuale più elevata del totale nel *4° trimestre* rispetto al *3° trimestre*.  In base a questo esempio, una spiegazione ragionevole dell'incremento sarebbe: *vendite in netta crescita per Computer e TV e Audio*. 
+Se ad esempio *Vendite* è aumentato di un 55% complessivo tra il *3° trim.* e il *4° trim.* , e questo è vero per ogni *Categoria* di prodotto (le vendite di Computer sono aumentate del 55%, le vendite di Audio sono aumentate del 55% e così via), ed è vero anche per ogni paese e per ogni tipo di cliente, i dati non contengono elementi identificabili che possono spiegare la variazione. Tuttavia questo scenario è molto raro e in genere si rilevano differenze nei dati, ad esempio *Computer* ed *Elettrodomestici* hanno registrato una crescita molto più elevata (63%) mentre *TV e video* è cresciuto solo del 23%, pertanto *Computer* ed *Elettrodomestici* hanno contribuito con una percentuale più elevata del totale nel *4° trimestre* rispetto al *3° trimestre*.  In base a questo esempio, una spiegazione ragionevole dell'incremento sarebbe: *vendite in netta crescita per Computer e TV e Audio*. 
 
 Pertanto l'algoritmo non si limita a restituire i valori da cui dipende la quantità più grande della modifica. Se ad esempio la quasi totalità delle vendite (98%) proviene dagli Stati Uniti, in genere accade che anche la maggior parte dell'aumento sia stata registrata negli Stati Uniti. Tuttavia, salvo se gli Stati Uniti o altri paesi hanno registrato una variazione significativa del loro contributo relativo al totale, *Paese* non è considerato interessante in questo contesto.  
 

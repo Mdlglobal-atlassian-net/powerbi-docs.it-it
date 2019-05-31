@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397674"
+---
 Power BI Desktop ti consente di controllare il layout e la formattazione delle pagine del report, ad esempio dimensioni e orientamento.
 
 Utilizza il menu **Visualizzazione pagina** dalla scheda Home per modificare scala delle pagine del report. Le opzioni disponibili includono **Adatta alla pagina** (predefinito), **Adatta in larghezza** e **Dimensioni effettive**.

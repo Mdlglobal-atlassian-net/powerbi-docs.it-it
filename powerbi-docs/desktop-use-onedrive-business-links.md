@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8597904e2753f198b3f99cdcad6062d756b734a0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513789"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usare collegamenti OneDrive for Business in Power BI Desktop
@@ -52,7 +52,7 @@ In Power BI Desktop è possibile usare il collegamento che è stato appena copia
 Verrà visualizzata la finestra **Strumento di navigazione** che consente di selezionare dall'elenco di tabelle, fogli e intervalli disponibili nella cartella di lavoro di Excel. Da qui è possibile usare il file di OneDrive for Business come qualsiasi altro file di Excel, creare report e usarli nei set di dati come con qualsiasi altra origine dati.
 
 > [!NOTE]
-> Per usare un file di **OneDrive for Business** come origine dati nel servizio Power BI, con l'**aggiornamento del servizio** abilitato per tale file, assicurarsi di selezionare **OAuth2** come **metodo di autenticazione** quando si configurano le impostazioni di aggiornamento. In caso contrario è possibile riscontrare un errore (ad esempio *L'aggiornamento delle credenziali dell'origine dati non è riuscito.*) quando si prova a connettersi o ad aggiornare. Selezionare **OAuth2** come metodo di autenticazione per risolvere l'errore delle credenziali.
+> Per usare un file di **OneDrive for Business** come origine dati nel servizio Power BI, con l'**aggiornamento del servizio** abilitato per tale file, assicurarsi di selezionare **OAuth2** come **metodo di autenticazione** quando si configurano le impostazioni di aggiornamento. In caso contrario è possibile riscontrare un errore (ad esempio *L'aggiornamento delle credenziali dell'origine dati non è riuscito.* ) quando si prova a connettersi o ad aggiornare. Selezionare **OAuth2** come metodo di autenticazione per risolvere l'errore delle credenziali.
 > 
 > 
 

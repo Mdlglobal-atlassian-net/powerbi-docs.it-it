@@ -7,24 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 7532b0b381e43c6e413d27fa141c22e58dfba84e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215602"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61150483"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integrazione di flussi di dati e Azure Data Lake (anteprima)
 
 Per impostazione predefinita, i dati usati con Power BI vengono archiviati nello spazio di archiviazione interno fornito da Power BI. Con l'integrazione di flussi di dati e Azure Data Lake Storage Gen2 (ADLS Gen2), è possibile archiviare i flussi di dati nell'account di Azure Data Lake Storage Gen2 della propria organizzazione. 
 
 ![flussi di dati in archiviazione di Azure](media/service-dataflows-azure-data-lake-integration/dataflows-azure-integration_01.jpg)
-
-> [!NOTE]
-> La funzionalità dei flussi di dati è disponibile in anteprima ed è soggetta a modifiche e aggiornamenti prima della disponibilità generale.
 
 ## <a name="how-cdm-folders-relate-to-dataflows"></a>Relazione tra cartelle CDM e flussi di dati
 
@@ -87,9 +84,9 @@ Per altre informazioni su flussi di dati, CDM e Azure Data Lake Storage Gen2, ve
 Per informazioni sui flussi di dati in generale, vedere questi articoli:
 
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
-* [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
+* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
 
 Per altre informazioni sull'archiviazione di Azure, è possibile leggere questi articoli:
 * [Guida alla sicurezza di Archiviazione di Azure](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e8b920763ea619fe74af2b71730164183f333a95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265138"
+---
 **Power BI Desktop** include l'**Editor di query**, un potente strumento per data shaping e trasformazione dei dati in grado di renderli idonei per modelli e visualizzazioni. L'opzione Modifica dello Strumento di navigazione consente di avviare l'Editor di query e popolarlo con tabelle o altre entità selezionate dall'origine dati.
 
 È anche possibile avviare l'**Editor di query** direttamente da **Power BI Desktop** tramite il pulsante **Modifica query** nella barra multifunzione **Home**.

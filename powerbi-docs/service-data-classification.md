@@ -11,11 +11,11 @@ ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
 ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276101"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140974"
 ---
 # <a name="dashboard-data-classification"></a>Classificazione dei dati del dashboard
 Ogni dashboard è diverso e, a seconda dell'origine dati a cui ci si connette e ai dati che si condividono con i colleghi, è necessario adottare precauzioni specifiche per garantire la riservatezza dei dati. Alcuni dashboard non devono essere mai stampati o condivisi con persone esterne all'azienda, mentre altri possono essere condivisi liberamente. Con la classificazione dei dati del dashboard è possibile informare gli utenti che visualizzano i dashboard sul livello di sicurezza da usare. È possibile contrassegnare i dashboard con classificazioni definite dal reparto IT della propria azienda, in modo che tutti quelli che visualizzano il contenuto abbiano lo stesso livello di informazioni relative alla riservatezza dei dati.

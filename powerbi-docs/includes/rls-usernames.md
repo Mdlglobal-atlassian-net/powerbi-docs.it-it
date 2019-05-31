@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 3e89344ef1298864b485f465b28c56397a7e1511
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61194082"
+---
 ## <a name="using-the-username-or-userprincipalname-dax-function"></a>Uso della funzione DAX username() o userprincipalname()
 È possibile sfruttare la funzione DAX *username()* o *userprincipalname()* all'interno del set di dati. Queste funzioni possono essere usate all'interno di espressioni in Power BI Desktop. Quando si pubblica il modello, verrà usata all'interno del servizio Power BI.
 

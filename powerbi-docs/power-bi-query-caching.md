@@ -7,15 +7,15 @@ ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/03/2019
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: ''
-ms.openlocfilehash: fbfd8c98743144e0c9604aca4174d6ef32916e77
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: c981a3e2a05129a470c8d26675226bfb42c1bb68
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914277"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769542"
 ---
 # <a name="query-caching-in-power-bi-premium"></a>Memorizzazione di query nella cache in Power BI Premium
 
@@ -26,9 +26,7 @@ Le organizzazioni con Power BI Premium possono sfruttare la *memorizzazione di q
 
 I risultati delle query memorizzate nella cache sono specifici per l'utente e il contesto del set di dati e rispettano sempre le regole di sicurezza. Attualmente il servizio esegue la memorizzazione di query nella cache solo per la pagina iniziale che viene visualizzata. In altre parole le query non vengono memorizzate nella cache quando si interagisce con il report. La cache riflette i segnalibri personali e i filtri permanenti. Anche i [riquadri del dashboard](service-dashboard-tiles.md) basati sulle stesse query traggono vantaggi a livello di prestazioni quando le query vengono memorizzate nella cache. Il vantaggio in termini di prestazioni è particolarmente evidente quando si accede spesso a un set di dati che non richiede aggiornamenti frequenti. La memorizzazione di query nella cache può anche ridurre il carico di lavoro della capacità Premium, riducendo il numero complessivo di query.
 
-È possibile controllare il comportamento di memorizzazione query nella cache tramite la pagina **Impostazioni** del set di dati nel servizio Power BI. Le impostazioni possibili sono tre:
-
-- **Capacità predefinita**: Il set di dati eredita l'impostazione dalla capacità Premium. la capacità predefinita è controllata dall'amministratore di capacità di Power BI Premium.
+È possibile controllare il comportamento di memorizzazione query nella cache tramite la pagina **Impostazioni** del set di dati nel servizio Power BI. Dispone di due impostazioni:
 
 - **Disattivata**: la memorizzazione di query nella cache non viene usata per questo set di dati.
 

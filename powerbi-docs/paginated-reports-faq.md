@@ -1,20 +1,20 @@
 ---
 title: 'Report impaginati in Power BI: Domande frequenti (anteprima)'
 description: Questo articolo include le risposte alle domande frequenti sui report impaginati. Questi report includono output con formattazione avanzata e perfetto al pixel ottimizzato per la stampa o per la creazione di PDF.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324739"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987786"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Report impaginati in Power BI: Domande frequenti (anteprima)
 
@@ -63,7 +63,7 @@ Sì, il monitoraggio è disponibile in una nuova scheda con gli stessi dettagli 
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>È necessaria una licenza Pro per creare e pubblicare report impaginati?
 
-Sì. Non è possibile caricare i report nell'area di lavoro senza una licenza Pro. Si può scaricare e provare Generatore report senza la licenza Pro, ma non pubblicare i report impaginati creati. 
+Sì. Non è possibile caricare i report nell'area di lavoro senza una licenza Pro. Si consiglia di scaricare e usare il generatore di Report di Power BI anche senza la licenza Pro, ma non è possibile pubblicare i report impaginati creati senza di essa. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>Cosa accade se esiste un report impaginato in un'area di lavoro e il carico di lavoro per i report impaginati viene disattivato?
 
@@ -85,13 +85,13 @@ I report impaginati sono ideali per scenari che richiedono output con formattazi
 
 I report di Power BI sono ottimizzati per l'esplorazione e l'interattività.  Un report delle vendite in cui diversi venditori vogliono analizzare i dati nello stesso report in base ad area/settore/cliente specifici per esaminare le variazioni, è un esempio di report che è consigliabile gestire come report di Power BI.
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>La documentazione indica Generatore report come strumento preferito per la creazione di questi report. È possibile creare report impaginati in SQL Server Data Tools per Power BI?
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>La documentazione di Generatore Report di Power BI è lo strumento di creazione preferito indicato. È possibile creare report impaginati in SQL Server Data Tools per Power BI?
 
 Sì, ma il servizio Power BI consente solo di caricare un singolo elemento alla volta, quindi molti degli scenari usati dagli autori con SQL Server Data Tools (SSDT) non sono ancora supportati. Visualizzare l'[elenco completo delle funzionalità non supportate](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) disponibile più avanti in queste domande frequenti.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>Quali versioni di Generatore report sono supportate?
 
-Usare la versione più recente di Generatore report di SQL Server 2016 per creare e pubblicare i report nel servizio Power BI. Installare [Generatore report dall'Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53613).
+Abbiamo rilasciato di recente il generatore di Report di Power BI come il principale strumento di creazione di report impaginati nel servizio Power BI. Installare [di Power BI Report Builder dall'area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>Come si possono trasferire in Power BI i report esistenti salvati in SQL Server Reporting Services?
 
@@ -99,7 +99,7 @@ Usare la versione più recente di Generatore report di SQL Server 2016 per crear
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>È possibile aprire i report e pubblicarli direttamente nel servizio?
 
-In questo momento, no. Verrà aggiunto il supporto per l'apertura dei report e la loro pubblicazione diretta nel servizio da Generatore report, come è possibile con Power BI Desktop.
+In questo momento, no. Stiamo aggiungendo il supporto per l'apertura di report e la relativa pubblicazione diretta al servizio dal generatore di Report di Power BI prima della disponibilità generale, come è possibile con Power BI Desktop.
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>Quali funzionalità dei report impaginati di SSRS non sono ancora supportate in Power BI?
 
@@ -118,17 +118,27 @@ Viene visualizzato un messaggio di errore se si prova a caricare un file con una
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Quali origini dati sono attualmente supportate per i report impaginati?
 
-Sono supportati il database SQL di Azure, SQL Server e i modelli tabulari (DAX) e multidimensionali (MDX) di SQL Server Analysis Services (SSAS) tramite il gateway locale.
+Supportiamo l'origine dati seguente: 
+
+- Set di dati di Power BI Premium
+- Azure Analysis Services (tramite single sign-on (SSO))
+- Database SQL di Azure
+- SQL Server*
+- SQL Server Analysis Services (SSAS) in formato tabulare (DAX) e i modelli multidimensionali di (MDX MultiDimensional Expression) * 
+- Oracle * 
+- Teradata* 
+
+* è necessario il Gateway da sito locale.
 
 Quando si accede a SSAS tramite il gateway, l'utente con le credenziali archiviate deve avere autorizzazioni con privilegi elevati in SSAS per lavorare tramite il gateway.
 
 ### <a name="what-authentication-methods-do-you-support"></a>Quali metodi di autenticazione sono supportati?
 
-Attualmente è necessario archiviare un nome utente e una password con l'origine dati nel portale o nel gateway.  Più avanti nel periodo di anteprima saranno disponibili altri metodi di autenticazione aggiuntivi per supportare funzionalità come la sicurezza a livello di riga.
+Supportiamo l'accesso SSO per le origini dati di Azure Analysis Services e Power BI Premium.  Per tutte le altre origini dati, è attualmente necessario archiviare un nome utente e password con l'origine dati nel portale o gateway.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>È possibile usare un set di dati di Power BI come origine dati per il report impaginato?
 
-Non ancora, ma questa funzionalità sarà presto supportata.
+Sì, i set di dati di Power BI Premium è ora supportata come origini dati per i report impaginati.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>È possibile usare stored procedure tramite il gateway?
 
@@ -140,7 +150,7 @@ Non ancora, ma questa funzionalità sarà presto supportata.
 
 ### <a name="can-i-print-paginated-reports"></a>È possibile stampare i report impaginati?
 
-Sì, la stampa è disponibile per i report impaginati e include una funzionalità di anteprima nuova e migliorata. 
+Sì, la stampa è disponibile per i report impaginati, tra cui un'esperienza di anteprima di stampa nuove e migliorate. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Sono già disponibili sottoscrizioni tramite posta elettronica per i report impaginati?
 
@@ -168,15 +178,11 @@ Non ancora, ma è assolutamente previsto il supporto di questo scenario.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>È possibile condividere il contenuto di un report impaginato tramite un'app Power BI?
 
-Attualmente è possibile condividere singoli report impaginati con altri utenti tramite l'azione di condivisione nel portale o tramite la barra degli strumenti. Non è ancora supportata la condivisione in un'app, ma lo sarà presto. 
+Sì, i report impaginati sono supportati da distribuire con le app dalle aree di lavoro v1 e v2. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>Le altre funzionalità specifiche dei report in Power BI, come l'aggiunta di riquadri di report ai dashboard, saranno disponibili anche con i report impaginati?
 
 È previsto che i report supportino gli stessi scenari principali nel servizio quanto più possibile.  In teoria, anche se lo strumento di creazione è diverso, dal punto di vista del consumatore si tratta semplicemente di un altro report nel relativo elenco nel portale. Per questi utenti è irrilevante come è stato creato, se consente loro di fare ciò che serve.  Un buon esempio di questa parità delle funzionalità è il supporto previsto dei commenti. Anche se la funzionalità stessa potrebbe essere leggermente diversa per ogni tipo di report, sarà possibile usare i commenti per entrambi.
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>È prevista l'introduzione di un nuovo strumento di creazione per i report impaginati nel servizio Power BI?  Generatore report non supportata attualmente tutte le funzionalità necessarie.
-
-Sono ancora in esame diverse opzioni per offrire gli strumenti migliori per i report impaginati in Power BI. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>È previsto uno strumento di migrazione per consentire ai clienti di SSRS di trasferire report e asset esistenti in Power BI?
 
@@ -196,5 +202,5 @@ No, non è attualmente possibile cercare i report impaginati da Home page.  Sono
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Installare Generatore report dall'Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53613)
+- [Installare Power BI Report Builder dall'area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Esercitazione: Creare un report impaginato](paginated-reports-quickstart-aw.md)

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d600581b9d1df8c8436da45e9629fccb79873c21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260480"
+---
 Come illustrato precedentemente, il comune flusso di lavoro in Power BI consiste nel creare un report in Power BI Desktop, pubblicarlo nel servizio Power BI, quindi condividerlo con altri utenti e consentire di visualizzarlo nel servizio o in un'app per dispositivi mobili.
 
 Tuttavia, poiché alcune persone iniziano con il servizio Power BI, è importante offrire una breve presentazione e scoprire un modo semplice ed efficace di creare oggetti visivi in Power BI in tempi rapidi: i *pacchetti di contenuto*.
@@ -33,7 +41,7 @@ Oltre al **dashboard**, è disponibile anche il **report** generato come parte d
 
 ![](media/0-3-dashboards-cloud-services/c0a3_6.png)
 
-Nel dashboard, è possibile fare clic su uno qualsiasi degli oggetti visivi per andare automaticamente alla pagina **Report** da cui è stato creato l'oggetto visivo. Facendo clic sull'oggetto visivo **Top 5 users by pull requests (Primi 5 utenti per richieste pull)**, Power BI aprirà la pagina **Richieste pull** in Report, ovvero la pagina Report da cui è stato creato l'oggetto visivo.
+Nel dashboard, è possibile fare clic su uno qualsiasi degli oggetti visivi per andare automaticamente alla pagina **Report** da cui è stato creato l'oggetto visivo. Facendo clic sull'oggetto visivo **Top 5 users by pull requests (Primi 5 utenti per richieste pull)** , Power BI aprirà la pagina **Richieste pull** in Report, ovvero la pagina Report da cui è stato creato l'oggetto visivo.
 
 ## <a name="asking-questions-of-your-data"></a>Porre domande sui dati
 È possibile inoltre porre domande sui dati e ottenere in risposta oggetti visivi pertinenti creati in tempo reale dal servizio Power BI. Nell'immagine seguente, si può vedere in che modo Power BI crea un oggetto visivo numerico per indicare il conteggio dei problemi risolti sulla base delle informazioni digitate nella barra di **query in linguaggio naturale**.

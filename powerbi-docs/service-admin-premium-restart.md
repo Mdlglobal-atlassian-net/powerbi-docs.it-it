@@ -1,8 +1,8 @@
 ---
 title: Riavviare una capacità Power BI Premium
 description: Informazioni su come riavviare una capacità Power BI Premium per risolvere i problemi di prestazioni.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7fbd8bd9c7712dbd2476544fef900547310f35fa
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 214b9fe48d5254e1bd2d436dd873b3c2d1d35f98
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794966"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564926"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Riavviare una capacità Power BI Premium
 
@@ -31,7 +31,7 @@ Power BI è oggetto di costanti miglioramenti per proteggere gli utenti della ca
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Il processo di riavvio è sicuro? Si perderanno dati?
 
-Tutti i dati, le definizioni, i report e i dashboard salvati nella capacità rimangono completamente invariati dopo il riavvio. Quando si riavvia una capacità, tutti gli aggiornamenti pianificati e ad hoc in corso vengono arrestati. Gli aggiornamenti vengono riavviati quando la capacità è disponibile. Gli utenti che interagiscono con la capacità perderanno il lavoro non salvato. Dovranno aggiornare i browser dopo aver completato il riavvio.
+Tutti i dati, le definizioni, i report e i dashboard salvati nella capacità rimangono completamente invariati dopo il riavvio. Quando si riavvia una capacità, tutti gli aggiornamenti pianificati e ad hoc in corso vengono arrestati. Il servizio tenta di ripetere gli aggiornamenti quando la capacità è disponibile. Gli utenti che interagiscono con la capacità perderanno il lavoro non salvato. Dovranno aggiornare i browser dopo aver completato il riavvio.
 
 ## <a name="how-do-i-restart-a-capacity"></a>Come riavviare una capacità?
 
@@ -57,6 +57,6 @@ Il modo migliore per evitare problemi è informare gli utenti sulla modellazione
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cos'è Power BI Premium?](service-premium.md)
+[Che cos'è Power BI Premium?](service-premium-what-is.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

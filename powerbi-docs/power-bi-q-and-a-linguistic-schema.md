@@ -11,11 +11,11 @@ ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289924"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61420704"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Modificare lo schema linguistico per Domande e risposte e aggiungere formulazioni in Power BI Desktop 
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in Power BI. Quando si formula una domanda a Domande e risposte in Power BI, il sistema fa del suo meglio per rispondere correttamente. 

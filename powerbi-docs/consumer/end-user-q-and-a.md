@@ -1,5 +1,5 @@
 ---
-title: Panoramica di Domande e risposte nel servizio Power BI
+title: Domande e risposte per gli utenti di Power BI
 description: Panoramica della documentazione per le query in linguaggio naturale Domande e risposte di Power BI.
 author: mihart
 manager: kvivek
@@ -8,19 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/01/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: e6f95eedbd84ad5f512bbc1a1255cee7130a60d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 35ff71d5956c1c48c304324c121f79addf04cb56
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661976"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625122"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Domande e risposte per i **consumer** di Power BI
 ## <a name="what-is-qa"></a>Che cosa sono le domande e risposte?
-A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale. ad esempio "a quanto ammontano le vendite totali dello scorso anno".  
+A volte il modo più rapido per ottenere una risposta dai dati consiste nel porre una domanda usando il linguaggio naturale. ad esempio "a quanto ammontano le vendite totali dello scorso anno".
+
 Domande e risposte consente di esplorare i dati tramite funzionalità intuitive basate sul linguaggio naturale e di ricevere le risposte sotto forma di grafici. Domande e risposte è diverso da un motore di ricerca in quanto consente di ottenere risultati relativi solo ai dati in Power BI.
 
 **Domande e risposte di Power BI** supporta solo le risposte alle query in linguaggio naturale espresse in inglese. È disponibile un'anteprima per lo spagnolo che può essere abilitata dall'amministratore di Power BI.
@@ -35,7 +36,7 @@ Porre la domanda è solo l'inizio.  È possibile spostarsi tra i dati perfeziona
 L'esperienza è completamente interattiva... e veloce. Basata su un sistema di archiviazione in memoria, la risposta è quasi istantanea.
 
 ## <a name="where-can-i-use-qa"></a>Dove è possibile usare Domande e risposte?
-Le Domande e risposte sono disponibili nei dashboard del servizio Power BI, nella parte inferiore del dashboard in Power BI per dispositivi mobili e sopra la visualizzazione in Power BI Embedded. Se il designer non concede all'utente le autorizzazioni di modifica, è possibile usare Domande e risposte per esplorare i dati, ma non sarà possibile salvare le visualizzazioni create con Domande e risposte.
+Troverai risposte nei dashboard e report nel servizio Power BI e nella parte inferiore del dashboard in Power BI per dispositivi mobili. Se il designer non concede all'utente le autorizzazioni di modifica, è possibile usare Domande e risposte per esplorare i dati, ma non sarà possibile salvare le visualizzazioni create con Domande e risposte.
 
 ![Casella delle domande](media/end-user-q-and-a/powerbi-qna.png)
 
@@ -68,7 +69,7 @@ Domande e risposte sceglie la visualizzazione ottimale in base ai dati da visual
 **Risposta 1**: se non viene visualizzata una casella della domanda, prima di tutto verificare le impostazioni. Per fare ciò selezionare l'icona della ruota dentata in alto a destra nella barra degli strumenti di Power BI.   
 ![icona della ruota dentata](media/end-user-q-and-a/power-bi-settings.png)
 
-Quindi scegliere **Impostazioni** > **Dashboard**. Verificare che sia presente un segno di spunta accanto a **Visualizza la casella di ricerca di Domande e risposte in questo dashboard**.
+Quindi scegliere **Impostazioni** > **Dashboard**. Verificare che sia presente un segno di spunta accanto a **Visualizza la casella di ricerca di Domande e risposte in questo dashboard**.    
 ![Impostazioni di domande e risposte per il dashboard](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 

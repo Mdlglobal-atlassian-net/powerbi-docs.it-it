@@ -1,20 +1,20 @@
 ---
 title: Pubblicare un report impaginato nel servizio Power BI (anteprima)
 description: Questa esercitazione illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174546"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424009"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Pubblicare un report impaginato nel servizio Power BI (anteprima)
 
@@ -26,7 +26,7 @@ Se l'origine dati del report è in locale, sarà necessario [creare un gateway](
 
 Se accanto al nome dell'area di lavoro non è presente l'icona a forma di diamante ![Icona a forma di diamante della capacità di Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) , è necessario aggiungere l'area di lavoro a una capacità Premium. 
 
-1. Selezionare **Aree di lavoro**, selezionare i puntini di sospensione (**...**) accanto al nome dell'area di lavoro e quindi scegliere **Modifica area di lavoro**.
+1. Selezionare **Aree di lavoro**, selezionare i puntini di sospensione ( **...** ) accanto al nome dell'area di lavoro e quindi scegliere **Modifica area di lavoro**.
 
     ![Selezionare Modifica area di lavoro](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 

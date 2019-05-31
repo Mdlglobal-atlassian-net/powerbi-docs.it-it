@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ec221939d6eb96567469a3221f914509a6789839
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280080"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514077"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Acquisire dati da una pagina Web fornendo un esempio
 
@@ -64,7 +64,7 @@ Da qui, è possibile creare oggetti visivi o usare i dati della pagina Web in mo
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando **Power BI Desktop**. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
-* [Aggiungere una colonna da un esempio](desktop-add-column-from-example.md)
+* [Aggiungi colonna da esempio](desktop-add-column-from-example.md)
 * [Connettersi a una pagina Web](desktop-connect-to-web.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)

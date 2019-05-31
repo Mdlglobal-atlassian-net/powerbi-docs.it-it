@@ -1,5 +1,5 @@
 ---
-title: Creare una visualizzazione di un dashboard di Power BI per telefoni cellulari
+title: Ottimizzare un dashboard per i telefoni cellulari - Power BI
 description: Informazioni su come creare una visualizzazione personalizzata di un dashboard nel servizio Power BI in particolare per la visualizzazione nei telefoni cellulari.
 author: maggiesMSFT
 manager: kfile
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd7df8383ad22d273ebf396fc1cf8297f110dde5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288153"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61158266"
 ---
-# <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Creare una visualizzazione di un dashboard di Power BI ottimizzata per telefoni cellulari
-Quando si visualizzano i dashboard nell'app per dispositivi mobili di Power BI in un telefono, si noterà che i riquadri del dashboard sono disposti uno dopo l'altro, tutti con le stesse dimensioni. Nel servizio Power BI è possibile creare una visualizzazione personalizzata di qualsiasi dashboard di cui si è proprietari, in particolare per i telefoni.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Ottimizzare un dashboard per i telefoni cellulari - Power BI 
+Quando si visualizzano i dashboard in modalità verticale sul telefono, si noterà che i riquadri del dashboard sono disposti uno dopo l'altro, tutto con le stesse dimensioni. Nel servizio Power BI, è possibile creare una visualizzazione personalizzata di un dashboard, in particolare per la modalità verticale nei telefoni. Anche se si crea una visualizzazione telefono, quando si ruota il telefono lateralmente ed è disponibile, viene visualizzato il dashboard è uguale a quello nel servizio.
 
-Quando si posiziona il telefono in orizzontale, l'aspetto del dashboard è uguale a quello nel servizio, non alla visualizzazione progettata per il telefono.
+Si sta cercando informazioni sulla visualizzazione dashboard in un dispositivo mobile? Provare questa Guida introduttiva [esplorare dashboard e report nelle App per dispositivi mobili di Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) invece.
 
 > [!NOTE]
 > Durante la modifica della visualizzazione telefono, chiunque visualizzi il dashboard in un telefono potrà visualizzare in tempo reale le modifiche apportate. Se, ad esempio, si rimuovono tutti i riquadri nella visualizzazione telefono del dashboard, improvvisamente il dashboard nel telefono non avrà alcun riquadro. 

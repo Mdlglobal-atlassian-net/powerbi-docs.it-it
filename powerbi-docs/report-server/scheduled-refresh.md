@@ -1,20 +1,20 @@
 ---
 title: Aggiornamento pianificato dei report di Power BI nel server di report di Power BI
 description: I report di Power BI possono connettersi a varie origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051009"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Aggiornamento pianificato dei report di Power BI nel server di report di Power BI
 L'aggiornamento pianificato per i report di Power BI permette di mantenere aggiornati i dati di un report.
@@ -34,6 +34,7 @@ Per l'aggiornamento pianificato per i report di Power BI sono coinvolti numerosi
 * Il modello di dati è caricato in un'istanza di Analysis Services.
 * Per alcune origini dati, viene il motore di mashup di Power Query per connettersi alle origini dati e trasformare i dati. Altre origini dati possono essere connesse direttamente da un servizio Analysis Services usato per ospitare i modelli di dati per il server di report di Power BI.
 * I nuovi dati vengono caricati nel modello di dati in Analysis Services.
+* In una configurazione di scalabilità orizzontale, il modello di dati può essere replicato tra i nodi.
 * Analysis Services elabora i dati ed esegue i calcoli necessari.
 
 Il server di report di Power BI mantiene una coda di eventi per tutte le operazioni pianificate. Esegue il polling della coda a intervalli regolari per verificare la presenza di nuovi eventi. Per impostazione predefinita, la coda viene analizzata a intervalli di 10 secondi. Per cambiare l'intervallo, modificare le impostazioni di configurazione **PollingInterval**, **IsNotificationService** e **IsEventService** nel file RSReportServer.config. Per impostare se un server di report deve elaborare gli eventi pianificati, è anche possibile usare **IsDataModelRefreshService**.

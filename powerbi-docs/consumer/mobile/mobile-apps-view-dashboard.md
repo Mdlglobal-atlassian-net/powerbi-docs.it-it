@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279229"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140609"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -87,7 +87,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
    
    * Le stelle gialle ![stella Preferiti](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) indicano quali dashboard sono i preferiti. 
    * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
-3. È possibile condividere un dashboard dall'area di lavoro. Toccare i puntini di sospensione (**...**) nell'angolo in basso a destra del riquadro del dashboard e toccare **Invita altri**.
+3. È possibile condividere un dashboard dall'area di lavoro. Toccare i puntini di sospensione ( **...** ) nell'angolo in basso a destra del riquadro del dashboard e toccare **Invita altri**.
    
    ![icona Invita](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. È anche possibile toccare un dashboard per aprirlo e visualizzare i riquadri nel dashboard. Dal dashboard è possibile interagire con esso:

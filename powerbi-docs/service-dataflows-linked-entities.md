@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52876f05eba098466b3f0b8cebc614d10a3cd277
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220909"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136497"
 ---
-# <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Collegare entità tra flussi di dati in Power BI (anteprima)
+# <a name="link-entities-between-dataflows-in-power-bi"></a>Collegare entità tra flussi di dati in Power BI
 
 Con i flussi di dati in Power BI, è possibile avere un'unica origine di archiviazione dati a livello di organizzazione in cui i business analyst possono preparare e gestire i dati una sola volta per riutilizzarli tra le diverse app di analisi all'interno dell'organizzazione. 
 
@@ -29,7 +29,7 @@ Le entità collegate sono **di sola lettura**. Se si vogliono creare trasformazi
 
 ## <a name="linked-entity-availability"></a>Disponibilità delle entità collegate
 
-Le entità collegate richiedono una sottoscrizione [Power BI Premium](service-premium.md) per l'aggiornamento. Le entità collegate sono disponibili in qualsiasi flusso di dati in un'area di lavoro ospitata nella capacità Power BI Premium. Non sono previsti limiti per il flusso di dati di origine.
+Le entità collegate richiedono una sottoscrizione [Power BI Premium](service-premium-what-is.md) per l'aggiornamento. Le entità collegate sono disponibili in qualsiasi flusso di dati in un'area di lavoro ospitata nella capacità Power BI Premium. Non sono previsti limiti per il flusso di dati di origine.
 
 Le entità collegate funzionano correttamente solo nelle nuove aree di lavoro di Power BI. Sono disponibili altre informazioni sulle [nuove aree di lavoro di Power BI](service-create-the-new-workspaces.md). Tutti i flussi di dati collegati devono trovarsi nelle nuove aree di lavoro per funzionare correttamente.
 
@@ -88,11 +88,11 @@ Esistono alcune limitazioni da tenere presenti quando si lavora con le entità c
 
 Gli articoli seguenti possono essere utili quando si crea o si lavora con un flusso di dati. 
 
-* [Preparazione dei dati self-service in Power BI (anteprima)](service-dataflows-overview.md)
+* [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Uso delle entità calcolate in Power BI Premium (anteprima)](service-dataflows-computed-entities-premium.md)
-* [Uso di flussi di dati con origini dati locali (anteprima)](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per i flussi di dati Power BI (anteprima)](service-dataflows-developer-resources.md)
+* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
+* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
 
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)

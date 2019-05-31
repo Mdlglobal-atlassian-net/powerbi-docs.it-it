@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 282edb7e5ee8eb787e45876e16dbbb52d2f2b788
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853741"
+---
 Nelle lezioni precedenti sono già stati creati un pacchetto di contenuto e un gruppo. In questa lezione si creerà un'istanza del pacchetto di contenuto per tutti gli utenti nel gruppo.
 
 Iniziare da Area di lavoro personale...
@@ -8,29 +16,29 @@ Iniziare da Area di lavoro personale...
 
 ![Condivisione e collaborazione in Power BI](./media/6-3-use-content-packs/pbi_learn06_03switch2group.png)
 
-Il gruppo è ancora privo di dashboard, report o set di dati. Usare ora il pacchetto di contenuto creato. Esplorare i pacchetti di contenuto dell'organizzazione invece di quelli di servizi di terze parti.
+Il gruppo è ancora privo di dashboard, report o set di dati. Devo usare l'app che è stata creata. Esplorare le app dalla mia organizzazione anziché quelle di servizi di terze parti.
 
 ![Condivisione e collaborazione in Power BI](./media/6-3-use-content-packs/pbi_learn06_03myorgcontpk.png)
 
-Trovare il pacchetto di contenuto creato qualche istante fa. È importante assegnargli un titolo, una descrizione e un'immagine appropriati, perché gli altri utenti riescano a trovarlo. Connettersi al pacchetto di contenuto.
+Trovare le app che ho creato un minuto fa. È importante assegnargli un titolo, una descrizione e un'immagine appropriati, perché gli altri utenti riescano a trovarlo. Connettersi al pacchetto di contenuto.
 
 ![Condivisione e collaborazione in Power BI](./media/6-3-use-content-packs/pbi_learn06_03contgallry.png)
 
-Power BI importa i dashboard, i report e i set di dati inclusi nel pacchetto di contenuto.
+Power BI Importa i dashboard, report e i set di dati nell'app.
 
 ![Condivisione e collaborazione in Power BI](./media/6-3-use-content-packs/pbi_learn06_03added2group.png)
 
-Quando si seleziona il set di dati, Power BI chiede se si vuole personalizzare il pacchetto di contenuto.
+Quando si seleziona il set di dati, Power BI chiede se si vuole personalizzare l'app.
 
 ![Condivisione e collaborazione in Power BI](./media/6-3-use-content-packs/pbi_learn06_03personalize.png)
 
-Creare una copia del pacchetto di contenuto a cui è quindi possibile apportare modifiche e disconnetterla dalla versione pubblicata del pacchetto di contenuto. Se chi ha creato il pacchetto di contenuto apporta modifiche alla versione pubblicata, non si otterranno automaticamente questi aggiornamenti.
+Sto creando una copia dell'app che è possibile apportare modifiche e disconnetterla dalla versione pubblicata dell'app. Se all'autore dell'app apporta modifiche alla versione pubblicata, si otterranno automaticamente gli aggiornamenti.
 
 Tuttavia, è possibile modificare il dashboard, il report e persino il set di dati, se si vuole.
 
 ![Condivisione e collaborazione in Power BI](./media/6-3-use-content-packs/pbi_learn06_03editreport.png)
 
-I pacchetti di contenuto sono un semplice strumento per riutilizzare contenuto creato da altri utenti nell'organizzazione.
+Pertanto, l'app si trovino in modo semplice per riutilizzare contenuto creato da altri utenti nell'organizzazione.
 
 Alla prossima lezione!
 

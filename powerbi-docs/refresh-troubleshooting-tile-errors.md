@@ -1,22 +1,22 @@
 ---
 title: Risoluzione degli errori del riquadro
 description: Errori più comuni che possono essere rilevati durante un tentativo di aggiornamento di un riquadro in Power BI
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086633"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051005"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
 Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri e la relativa spiegazione.
@@ -64,6 +64,17 @@ Il campo probabilmente è stato eliminato o rinominato. È possibile rimuovere i
 **Non è stato possibile recuperare i dati per questo elemento visivo. Riprovare più tardi.**
 
 In genere, si tratta di un problema temporaneo, Se il messaggio viene visualizzato di nuovo durante un tentativo successivo, contattare il supporto tecnico.
+
+**I riquadri continuano a mostrare i dati non filtrati dopo l'abilitazione di single sign-on (SSO).**
+
+Questa situazione può verificarsi se il set di dati sottostante è configurato per usare la modalità DirectQuery o una connessione dinamica ad Analysis Services tramite un gateway dati locale. In questo caso, i riquadri continuano a mostrare i dati non filtrati dopo l'abilitazione di SSO per l'origine dati fino a quando non al successivo aggiornamento della sezione è in scadenza. Al successivo aggiornamento della tessera, Power BI Usa l'accesso SSO in base alla configurazione e i riquadri visualizzati i dati filtrati in base alle identità dell'utente. 
+
+Se si desidera visualizzare immediatamente i dati filtrati, è possibile forzare l'aggiornamento di un riquadro selezionando i puntini di sospensione (...) in alto a destra di un dashboard e selezionando **Aggiorna riquadri del dashboard**.
+
+Il proprietario di un set di dati è anche possibile modificare la frequenza di aggiornamento del riquadro e impostarlo su 15 minuti per accelerare l'aggiornamento del riquadro. Selezionare l'icona a forma di ingranaggio in alto a destra del servizio Power BI, quindi selezionare **impostazioni**. Nel **le impostazioni** pagina, selezionare la **i set di dati** scheda. Espandere **aggiornamento pianificato della cache** e modificare **frequenza di aggiornamento**. Assicurarsi di che reimpostare la configurazione per la frequenza di aggiornamento originale dopo che Power BI ha eseguito l'aggiornamento del riquadro successivo.
+
+> [!NOTE]
+> Il **aggiornamento pianificato della cache** sezione è disponibile solo per i set di dati in modalità DirectQuery/LiveConnection. Set di dati in modalità di importazione non richiedono un aggiornamento del riquadro separati perché i riquadri vengono aggiornati automaticamente durante l'aggiornamento dati pianificato successivo.
 
 ## <a name="contact-support"></a>Contact support
 Se il problema riscontrato persiste, [contattare il supporto tecnico](https://support.powerbi.com) per ulteriori verifiche.

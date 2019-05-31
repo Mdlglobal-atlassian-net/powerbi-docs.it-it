@@ -1,20 +1,20 @@
 ---
 title: Creare un report di Power BI per Server di report di Power BI
 description: Informazioni su come creare un report di Power BI per il server di report di Power BI in pochi semplici passi.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
-ms.author: maghan
-ms.openlocfilehash: 7d97e375f7743b381f222d64e230d71133060464
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.author: maggies
+ms.openlocfilehash: 2401064f1f7f3be63c23d72e79987784e1ec7049
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324873"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187531"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creare un report di Power BI per Server di report di Power BI
 È possibile archiviare e gestire report di Power BI nel portale Web del Server di report di Power BI, proprio come nel cloud nel servizio Power BI (https://powerbi.com)). È possibile creare e modificare i report in Power BI Desktop e pubblicarli nel portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili su un dispositivo mobile.
@@ -31,7 +31,7 @@ Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pr
 
     ![Scaricare Power BI Desktop dal portale Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    In alternativa, passare direttamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (ottimizzato per il server di report di Power BI - agosto 2018) nell'Area download Microsoft.
+    Oppure passare direttamente al [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (ottimizzato per il Server di Report di Power BI - maggio 2019) nel Microsoft Download Center.
 
 2. Nella pagina dell'Area download selezionare **Scarica**.
 
@@ -41,13 +41,13 @@ Se sono già stati creati report di Power BI in Power BI Desktop, si è quasi pr
 
     - **PBIDesktopRS_x64.msi** (versione a 64 bit).
 
-4. Dopo il download del programma di installazione, eseguire l'installazione guidata di Power BI Desktop (agosto 2018).
+4. Dopo aver scaricato il programma di installazione, eseguire l'installazione guidata di Power BI Desktop (maggio 2019).
 
 2. Al termine dell'installazione, selezionare **Avvia Power BI Desktop**.
    
-    Verrà avviato automaticamente e si è pronti per iniziare. Per determinare se la versione in uso è quella corretta, verificare che nella barra del titolo sia presente "Power BI Desktop (agosto 2018)".
+    Verrà avviato automaticamente e si è pronti per iniziare. È possibile indicare che sia installata la versione corretta perché è "Power BI Desktop (maggio 2019)" nella barra del titolo.
 
-    ![Power BI Desktop versione di agosto 2018](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-august-2018.png)
+    ![Power BI Desktop versione di maggio 2019](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2019.png)
 
 3. Se non si ha familiarità con Power BI Desktop, è consigliabile guardare i video nella schermata iniziale.
    

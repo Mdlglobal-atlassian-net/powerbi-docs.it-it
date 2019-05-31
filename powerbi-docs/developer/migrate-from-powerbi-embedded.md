@@ -1,18 +1,18 @@
 ---
 title: Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI
 description: Informazioni su come eseguire la migrazione dalla raccolta di aree di lavoro di Power BI a Power BI Embedded e sfruttare i miglioramenti per l'incorporamento nelle app.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223606"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270456"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI in Power BI Embedded
 
@@ -131,7 +131,7 @@ I set di dati memorizzati nella cache fanno riferimento ai file PBIX che conteng
 3. Salvare i file PBIX.
 4. Chiamare Import PBIX nell'area di lavoro SaaS.
 5. Aggiornare la stringa di connessione chiamando POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
-6. Ottenere l'ID GW e dell'origine dati chiamando GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+6. Ottenere gli identificatori GW e dell'origine dati chiamando - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Aggiornare le credenziali dell'utente chiamando PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Report e set di dati precedenti
@@ -200,7 +200,7 @@ Quando si è pronti a passare alla produzione, è necessario eseguire le operazi
 [Strumento di migrazione di Power BI Embedded](migrate-tool.md)  
 [Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI](migrate-code-snippets.md)  
 [Come incorporare i dashboard, i report e i riquadri di Power BI](embedding-content.md)  
-[Power BI Premium - what is it?](../service-premium.md) (Power BI Premium: definizione)  
+[Power BI Premium - what is it?](../service-premium-what-is.md) (Power BI Premium: definizione)  
 [Archivio GIT API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Archivio GIT C# di Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513680"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Esercitazione: Analisi di Facebook con Power BI Desktop
@@ -23,7 +23,7 @@ Questa esercitazione illustra come importare dati da Facebook e usarli in Power 
 
 ## <a name="connect-to-a-facebook-page"></a>Connettersi a una pagina di Facebook
 
-In questa esercitazione vengono usati dati dalla [pagina Facebook di Microsoft Power BI](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). Non sono necessarie credenziali speciali per connettersi a questa pagina e importare dati, ad eccezione di un account Facebook personale.
+In questa esercitazione vengono usati dati dalla [pagina Facebook di Microsoft Power BI](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ). Non sono necessarie credenziali speciali per connettersi a questa pagina e importare dati, ad eccezione di un account Facebook personale.
 
 1. Aprire Power BI Desktop e selezionare **Recupera dati** nella finestra di dialogo **Attività iniziali** oppure nella scheda **Home** della barra multifunzione, selezionare **Recupera dati** e quindi selezionare **Altro**.
    
@@ -220,7 +220,7 @@ Si decide di assegnare al grafico un titolo più descrittivo e interessante.
 1. Con il grafico selezionato, selezionare l'icona **Formato** e selezionare la freccia in giù per espandere **Titolo**.
 2. Specificare **Commenti per post** in **Testo titolo**. 
 3. Selezionare la freccia in giù accanto a **Colore carattere** e selezionare un colore verde abbinato alle barre verdi della visualizzazione.
-4. Aumentare **Dimensioni testo** a **10** e impostare **Famiglia di caratteri** su **Segoe (grassetto)**.
+4. Aumentare **Dimensioni testo** a **10** e impostare **Famiglia di caratteri** su **Segoe (grassetto)** .
 
 ![Formattare il titolo del grafico](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

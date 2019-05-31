@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: b3f0232fdf377ba75a31f5057f1e094bf9fac39d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54273594"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61342992"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Annotare e condividere un riquadro, un report o un oggetto visivo nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -29,7 +29,7 @@ Si applica a:
 
 *Un report con annotazioni*
 
-Il messaggio di posta elettronica con lo snapshot del riquadro, del report o dell'oggetto visivo include anche un collegamento all'oggetto effettivo nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). I destinatari possono fare clic sul collegamento e passare direttamente a tale riquadro, report o oggetto visivo, se l'utente e i destinatari hanno licenze Power BI Pro o il contenuto ha una [capacità Premium](../../service-premium.md) e si è già condiviso l'elemento con essi. 
+Il messaggio di posta elettronica con lo snapshot del riquadro, del report o dell'oggetto visivo include anche un collegamento all'oggetto effettivo nel servizio Power BI ([https://powerbi.com](https://powerbi.com)). I destinatari possono fare clic sul collegamento e passare direttamente a tale riquadro, report o oggetto visivo, se l'utente e i destinatari hanno licenze Power BI Pro o il contenuto ha una [capacità Premium](../../service-premium-what-is.md) e si è già condiviso l'elemento con essi. 
 
 È possibile [condividere un riquadro anche dall'app Power BI per dispositivi mobili Windows 10](mobile-windows-10-phone-app-get-started.md), ma non annotarlo.
 

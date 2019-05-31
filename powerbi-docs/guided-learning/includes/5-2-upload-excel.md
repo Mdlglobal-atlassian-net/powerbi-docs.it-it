@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271384"
+---
 In questo argomento verranno innanzitutto analizzate le modalità di importazione di un file cartella di lavoro di Excel contenente una semplice **tabella** da un'unità locale in Power BI. Si apprenderà quindi come iniziare a esplorare i dati della tabella in Power BI tramite la creazione di un report.
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>Verificare che i dati siano formattati come tabella

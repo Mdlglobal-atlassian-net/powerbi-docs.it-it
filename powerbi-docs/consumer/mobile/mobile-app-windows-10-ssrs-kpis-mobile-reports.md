@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: 98c76fd5903a44c8cc1ef5b175f235f1ec4382e9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289372"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61340846"
 ---
 # <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Visualizzare report per dispositivi mobili e indicatori KPI di Reporting Services (SSRS) nell'app Power BI per dispositivi mobili per Windows 10
 L'app Power BI per dispositivi mobili per Windows 10 consente di accedere in tempo reale a informazioni aziendali importanti in locale usando dispositivi mobili abilitati per il tocco in SQL Server 2016 Reporting Services. 
@@ -103,7 +103,7 @@ Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi m
     ![Rimuovi server](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-remove-server-menu.png)
 
 ## <a name="create-reporting-services-mobile-reports-and-kpis"></a>Creare Report per dispositivi mobili e indicatori KPI di Reporting Services
-Non creare gli indicatori KPI e i report per dispositivi mobili di Reporting Services nell'app Power BI per dispositivi mobili. ma crearli in SQL Server Mobile Report Publisher e un portale Web di SQL Server 2016 Reporting Services 
+Non creare gli indicatori KPI e i report per dispositivi mobili di Reporting Services nell'app Power BI per dispositivi mobili. ma crearli in SQL Server Mobile Report Publisher e un portale Web di SQL Server 2016 Reporting Services
 
 * [Creare report per dispositivi mobili personalizzati di Reporting Services](https://msdn.microsoft.com/library/mt652547.aspx) e pubblicarli in un portale Web di Reporting Services.
 * Creare [indicatori KPI in un portale Web di Reporting Services](https://msdn.microsoft.com/library/mt683632.aspx)

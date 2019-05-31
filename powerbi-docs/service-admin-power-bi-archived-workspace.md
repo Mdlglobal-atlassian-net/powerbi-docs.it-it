@@ -11,11 +11,11 @@ ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292362"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187055"
 ---
 # <a name="power-bi-archived-workspace"></a>Area di lavoro contenuto archiviato di Power BI
 
@@ -29,9 +29,9 @@ Power BI non eliminerà il contenuto dall'area di lavoro contenuto archiviato. �
 
 * **OneDrive for Business**: per i set di dati nell'area di lavoro contenuto archiviato, non è più possibile recuperare dati o aggiornarli da OneDrive for Business.  Se si prova a connettersi a questa origine, si riceve un avviso.
 
-* **Condivisione di dashboard**: Non è possibile condividere i dashboard con altri utenti dall'area di lavoro contenuto archiviato.  Qualsiasi utente che abbia già accesso continua a poter visualizzare i dashboard condivisi accedendo alla propria area di lavoro contenuto archiviato.
+* **Condivisione di dashboard**: È possibile condividere i dashboard con altri utenti dall'area di lavoro contenuto archiviato.  Qualsiasi utente che abbia già accesso continua a poter visualizzare i dashboard condivisi accedendo alla propria area di lavoro contenuto archiviato.
 
-* **Creazione di gruppi**: Non è possibile creare gruppi nell'area di lavoro contenuto archiviato.
+* **Creazione di gruppi**: È possibile creare gruppi nell'area di lavoro contenuto archiviato.
 
 * **Accesso alle app Power BI per dispositivi mobili**: anche se è ancora possibile visualizzare contenuto sul Web nell'area di lavoro contenuto archiviato, questo contenuto non verrà più visualizzato nelle app per dispositivi mobili di Power BI.
 

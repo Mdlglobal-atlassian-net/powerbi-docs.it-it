@@ -11,11 +11,11 @@ ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4372f37cf6afc8fe51d6650ddd888bd41d3ea678
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280126"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394900"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Ottimizzare un oggetto visivo di Power BI per qualsiasi dimensione
 Per impostazione predefinita, quando si crea un nuovo report, gli oggetti visivi sono *reattivi*, ovvero cambiano in modo dinamico per visualizzare la quantità massima di dati e informazioni dettagliate, indipendentemente dalle dimensioni dello schermo. Anche per i report meno recenti è possibile impostare gli oggetti visivi in modo che vengano ridimensionati in modo dinamico.

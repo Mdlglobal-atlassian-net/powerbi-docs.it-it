@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 226fdd59b00dc2daa625f9b1941599d21cc35087
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397633"
+---
 Con Power BI Desktop, è possibile eseguire analisi statistica e analitica e creare oggetti visivi interessanti grazie all'integrazione con R. È possibile eseguire l’hosting di tali visualizzazioni R all'interno del report di Power BI Desktop.
 
 Quando si seleziona l’icona **dell’oggetto visivo R** dal riquadro **Visualizzazioni**, Power BI crea un segnaposto nell'area di disegno per l’hosting dell'oggetto visivo R e quindi presenta un editor di script R destinato all'utilizzo nell'area di disegno. Quando si aggiungono campi all’oggetto visivo R, Power BI Desktop li aggiunge al riquadro dell'editor di script R.

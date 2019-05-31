@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
 ms.openlocfilehash: 07441bd0446e37353984efe97e435ac83d2c355d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249069"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978374"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URL di Power BI per l'elenco elementi consentiti
 
@@ -109,6 +109,6 @@ Power BI si collega ad altri siti correlati. Si tratta di siti relativi a docume
 | 4 | **Facoltativo:** reindirizzamenti esterni | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Facoltativo:** sito di commenti e suggerimenti Ideas| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
 | 6 | **Facoltativo:** sito di Power BI: pagina di destinazione, collegamenti ad altre informazioni, sito del supporto, collegamenti di download, showcase dei partner e così via. | powerbi.microsoft.com | TCP 443 |
-| 7 | **Facoltativo:** Power BI Dev Center | dev.powerbi.com | TCP 443 |
+| 7 | **Facoltativo:** Centro per sviluppatori di Power BI | dev.powerbi.com | TCP 443 |
 | 8 | **Facoltativo:** sito del supporto tecnico | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

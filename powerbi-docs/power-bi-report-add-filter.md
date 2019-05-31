@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 774a90b946be30d26217a450edff541136bdb863
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 3666335394222d32bc13ce86d8d0a4ed421b5f73
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283852"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187645"
 ---
 # <a name="add-a-filter-to-a-report-in-editing-view"></a>Aggiungere un filtro a un report in Visualizzazione di modifica
 
@@ -23,10 +23,12 @@ Questo articolo illustra come aggiungere un filtro di pagina, di visualizzazione
 
 **Non tutti lo sanno, ma** Power BI include una nuova esperienza di filtro, attualmente in anteprima. Per altre informazioni, vedere [Nuova esperienza di filtro nei report di Power BI](power-bi-report-filter-preview.md).
 
+![Nuova esperienza di filtro](media/power-bi-report-add-filter/power-bi-filter-reading.png)
+
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtri nella visualizzazione di modifica o nella visualizzazione di lettura
 È possibile interagire con i report in due visualizzazioni diverse, ovvero di lettura e di modifica. Le funzionalità di filtro disponibili dipendono dalla visualizzazione aperta. Per i dettagli, vedere [Informazioni su filtri ed evidenziazione nei report di Power BI](power-bi-reports-filters-and-highlighting.md).
 
-Questo articolo descrive come creare filtri nella **visualizzazione di modifica** dei report.  Per altre informazioni sui filtri nella visualizzazione di lettura, vedere [Interagire con i filtri nella visualizzazione di lettura dei report](consumer/end-user-reading-view.md).
+Questo articolo descrive come creare filtri nella **visualizzazione di modifica** dei report.  Per altre informazioni sui filtri nella visualizzazione di lettura, vedere [Interagire con i filtri nella visualizzazione di lettura dei report](consumer/end-user-report-filter.md).
 
 ## <a name="filter-types-in-the-filters-pane"></a>Tipi di filtri nel riquadro Filtri
 Sia in Power BI Desktop che nel servizio Power BI il riquadro Filtri è visualizzato sul lato destro dell'area di disegno report. Se il riquadro Filtri non è visibile, selezionare l'icona ">" nell'angolo superiore destro per espanderlo.
@@ -40,7 +42,7 @@ Poiché i filtri sono *persistenti*, quando si esce dal report Power BI mantiene
 ![pulsante di filtri permanenti](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-visual"></a>Aggiungere un filtro a un oggetto visivo
-È possibile aggiungere un filtro a un oggetto visivo specifico (noto anche come filtro visivo) in due modi diversi. 
+È possibile aggiungere un filtro a livello di oggetto visivo a un oggetto visivo specifico in due modi diversi. 
 
 * Filtrare un campo già usato dalla visualizzazione.
 * Identificare un campo non ancora usato dalla visualizzazione e aggiungerlo direttamente al bucket **Filtri a livello di oggetto visivo**.
@@ -50,28 +52,29 @@ Questa procedura usa l'esempio di analisi delle vendite al dettaglio, che è pos
 ### <a name="filter-the-fields-in-the-visual"></a>Filtrare i campi nell'oggetto visivo
 
 
-1. Aprire il [report in visualizzazione di modifica](service-the-report-editor-take-a-tour.md).
+1. Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
    
-   ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
+   ![Pulsante Modifica report](media/power-bi-report-add-filter/power-bi-edit-view.png)
+
 2. Aprire il riquadro Visualizzazioni e Filtri e il riquadro Campi (se non sono già aperti).
    
-   ![](media/power-bi-report-add-filter/power-bi-display-panes.png)
+   ![Visualizzazioni, filtri e campi riquadri](media/power-bi-report-add-filter/power-bi-display-panes.png)
 3. Selezionare un oggetto visivo per attivarlo. Tutti i campi usati dall'oggetto visivo sono elencati nel riquadro **Campi** e anche nel riquadro **Filtri** sotto l'intestazione **Filtri a livello di oggetto visivo**.
    
-   ![](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
+   ![Selezionare i filtri a livello visivo](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
 4. A questo punto, verrà aggiunto un filtro a un campo già usato dalla visualizzazione. 
    
     Scorrere verso il basso fino all'area **Filtri a livello di oggetto visivo** e scegliere la freccia per espandere il campo da filtrare. In questo esempio il filtro verrà applicato a **StoreNumberName**.
      
-    ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
+    ![La freccia consente di espandere il filtro](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
     
     Impostare i controlli **Filtro di base**, **Filtro avanzato** o **Primi N**. In questo esempio viene eseguita una ricerca di **cha** nel filtro di base e vengono selezionati i cinque negozi trovati.
      
-    ![](media/power-bi-report-add-filter/power-bi-search-filter.png) 
+    ![Cercare nel filtro di base](media/power-bi-report-add-filter/power-bi-search-filter.png) 
    
     L'oggetto visivo cambia per riflettere il nuovo filtro. Se si salva il report insieme al filtro, i lettori del report vedranno inizialmente l'oggetto visivo filtrato e potranno interagire con il filtro nella visualizzazione di lettura selezionando o deselezionando i valori.
      
-    ![](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![L'oggetto visivo filtrato](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Filtrare con un campo non presente nell'oggetto visivo
 
@@ -79,29 +82,32 @@ Aggiungere ora un nuovo campo alla visualizzazione come filtro a livello di ogge
    
 1. Nel riquadro Campi selezionare il campo da aggiungere come nuovo filtro a livello di oggetto visivo e trascinarlo nell'area **Filtri a livello di oggetto visivo**.  In questo esempio il campo **District Manager** viene trascinato nel bucket **Filtri a livello di oggetto visivo**, viene eseguita la ricerca di **an** e vengono selezionati i tre manager trovati. 
      
-    ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
+    ![Aggiungere un campo nel riquadro filtri](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
     Si noti che **District Manager** *non* è stato aggiunto alla visualizzazione. La visualizzazione è ancora costituita dall'asse **StoreNumberName** e dal valore **This Year Sales**.  
      
-    ![](media/power-bi-report-add-filter/power-bi-visualization.png)
+    ![Il campo non è nell'oggetto visivo](media/power-bi-report-add-filter/power-bi-visualization.png)
 
     La visualizzazione è ora filtrata in modo da mostrare solo le vendite di tali manager per l'anno in corso per i negozi specificati.
      
-    ![](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![L'oggetto visivo filtrato](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Se si salva il report insieme al filtro, i lettori del report potranno interagire con il filtro **District Manager** nella visualizzazione di lettura, selezionando o deselezionando i valori.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>Aggiungere un filtro a un'intera pagina
 
-È anche possibile aggiungere un filtro a un'intera pagina (filtro di visualizzazione pagina)
-1. Aprire il [report in visualizzazione di modifica](service-the-report-editor-take-a-tour.md).
+È possibile anche aggiungere un livello di pagina filtro per un'intera pagina.
+
+1. Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
+   
+   ![Pulsante Modifica report](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Aprire il riquadro Visualizzazioni e Filtri e il riquadro Campi (se non sono già aperti).
 3. Nel riquadro Campi selezionare il campo da aggiungere come nuovo filtro a livello di pagina e trascinarlo nell'area **Filtri a livello di pagina**.  
 4. Selezionare i valori da filtrare e impostare il controllo **Filtro di base** o **Filtro avanzato**.
    
-   L'intera visualizzazione nella pagina interessata da questo filtro cambia in modo da rispecchiare la modifica. 
+   Tutte le visualizzazioni nella pagina vengono ridisegnate per riflettere la modifica.
    
-   ![](media/power-bi-report-add-filter/filterpage.gif)
+   ![Aggiungere un filtro e selezionare i valori](media/power-bi-report-add-filter/filterpage.gif)
 
     Se si salva il report insieme al filtro, i lettori del report potranno interagire con il filtro nella visualizzazione di lettura, selezionando o deselezionando i valori.
 
@@ -109,17 +115,21 @@ Aggiungere ora un nuovo campo alla visualizzazione come filtro a livello di ogge
 Con il drill-through nel servizio Power BI e in Power BI Desktop è possibile creare una pagina di report di *destinazione* incentrata su una specifica entità, ad esempio un fornitore, un cliente o un produttore. Dalle altre pagine del report gli utenti possono ora fare clic con il pulsante destro del mouse su un punto dati per tale entità ed eseguire il drill-through fino alla pagina con stato attivo.
 
 ### <a name="create-a-drillthrough-filter"></a>Creare un filtro di drill-through
-Per eseguire la procedura, aprire l'esempio Redditività clienti nella visualizzazione di modifica. Si supponga di volere una pagina incentrata sulle aree commerciali Executive.   
+Per proseguire, scaricare il [Customer Profitability sample](sample-customer-profitability.md). Si supponga di volere una pagina incentrata sulle aree commerciali Executive.
+
+1. Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
+   
+   ![Pulsante Modifica report](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Aggiungere una nuova pagina al report e denominarla **Team Executive**. Questa pagina sarà la *destinazione* del drill-through.
 2. Aggiungere visualizzazioni che tengono traccia delle metriche essenziali per le aree commerciali del team Executive.    
 3. Aggiungere **Executive > Executive Name** all'area dei filtri di drill-through.    
    
-    ![](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
+    ![Aggiungere un valore per i filtri di drill-through](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
     Si noti che Power BI aggiunge una freccia indietro alla pagina del report.  La selezione della freccia indietro riporta gli utenti alla pagina di *origine* del report, ovvero la pagina attiva quando è stato scelto il drill-through. La freccia indietro funziona solo nella visualizzazione di lettura.
    
-     ![](media/power-bi-report-add-filter/power-bi-back-arrow.png)
+     ![La freccia indietro](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
 ### <a name="use-the-drillthrough-filter"></a>Usare il filtro di drill-through
 Di seguito viene illustrato il funzionamento del filtro di drill-through.
@@ -127,14 +137,18 @@ Di seguito viene illustrato il funzionamento del filtro di drill-through.
 1. Aprire la pagina **Team Scorecard** del report.    
 2. Si supponga di essere Andrew Ma e di volere visualizzare la pagina del report Team Executive con un filtro che mostra solo i propri dati.  Dal grafico ad area in alto a sinistra fare clic con il pulsante destro del mouse su qualsiasi punto dati verde per aprire l'opzione di menu Drill-through.
    
-    ![](media/power-bi-report-add-filter/power-bi-drillthrough.png)
+    ![Avvia l'azione di drill-through](media/power-bi-report-add-filter/power-bi-drillthrough.png)
 3. Selezionare **Drill-through > Team Executive** per eseguire il drill-through fino alla pagina del report denominata **Team Executive**. La pagina viene filtrata in modo da visualizzare informazioni sul punto dati su cui è stato fatto clic con il pulsante destro del mouse, in questo caso Andrew Ma. Solo il campo nell'area Filtri di drill-through viene passato alla pagina del report di drill-through.  
    
-    ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
+    ![Selezionare l'azione di drill-through](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
-## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Aggiungere un filtro a un intero report (anche noto come filtro del report)
-1. Aprire il [report in visualizzazione di modifica](service-the-report-editor-take-a-tour.md).
-2. Aprire il riquadro Visualizzazioni e Filtri e il riquadro Campi (se non sono già aperti).
+## <a name="add-a-report-level-filter-to-filter-an-entire-report"></a>Aggiungere a un report a livello di filtro per un intero report
+
+1. Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
+   
+   ![Pulsante Modifica report](media/power-bi-report-add-filter/power-bi-edit-view.png)
+
+2. Aprire il riquadro visualizzazioni e filtri e nel riquadro campi, se non sono già aperti.
 3. Nel riquadro Campi selezionare il campo da aggiungere come nuovo filtro a livello di report e trascinarlo nell'area **Filtri a livello di report**.  
 4. Selezionare i valori da filtrare.
 

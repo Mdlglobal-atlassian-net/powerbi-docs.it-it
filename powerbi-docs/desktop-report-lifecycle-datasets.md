@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275572"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987918"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. Ciò significa che è possibile creare il modello di dati ideale in Power BI Desktop, pubblicarlo nel servizio Power BI, quindi sarà possibile creare più report diversi (in file con estensione pbix separati) in base allo stesso modello di dati comuni. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -77,9 +77,8 @@ Una volta completato, **Power BI Desktop** mostra l'esito positivo e indica alcu
 A questo punto si vedrà in che modo gli altri colleghi che hanno accesso all'area di lavoro in cui è stato pubblicato il report possono connettersi al set di dati e creare report personalizzati.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Stabilire una connessione dinamica al servizio Power BI con il set di dati pubblicato
-Per stabilire una connessione con il report pubblicato e creare un report personalizzato in base al set di dati pubblicato, selezionare **Recupera dati** dalla barra multifunzione **Home** in **Power BI Desktop** e selezionare **Servizio Power BI**. È anche possibile selezionare **Recupera dati > Online Services > Servizio Power BI**.
+Per stabilire una connessione per il report pubblicato e creare un report basato sul set di dati pubblicato, selezionare **recupera dati** dalle **Home** della barra multifunzione nel **Power BI Desktop** , selezionare **Power BI** dal riquadro a sinistra e quindi selezionare **i set di dati di Power BI**.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Se non è stato fatto, verrà chiesto di eseguire l'accesso a Power BI. Una volta effettuato l'accesso, viene presentata una finestra che mostra di quali aree di lavoro si è membri di ed è possibile selezionare l'area di lavoro che contiene il set di dati in cui si vuole stabilire un **connessione dinamica al servizio Power BI**.
 

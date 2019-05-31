@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513112"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Ottenere dati dai file delle cartelle di lavoro di Excel
@@ -119,7 +119,7 @@ La funzionalità **Pubblica in Power BI** in Excel 2016 equivale all'uso di **Re
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Il file della cartella di lavoro è troppo grande? Consultare [Ridurre le dimensioni di una cartella di lavoro di Excel per visualizzarla in Power BI](reduce-the-size-of-an-excel-workbook.md).
 
-Attualmente, quando si sceglie Importa, Power BI importa solo i dati appartenenti a una tabella o a un modello di dati. Pertanto, se la cartella di lavoro non contiene tabelle denominate, fogli di Power View o modelli di dati di Excel, potrebbe essere visualizzato l'errore seguente: **"Non sono stati trovati dati nella cartella di lavoro di Excel"**. [Questo articolo](service-admin-troubleshoot-excel-workbook-data.md) illustra come correggere la cartella di lavoro e reimportarla.
+Attualmente, quando si sceglie Importa, Power BI importa solo i dati appartenenti a una tabella o a un modello di dati. Pertanto, se la cartella di lavoro non contiene tabelle denominate, fogli di Power View o modelli di dati di Excel, potrebbe essere visualizzato l'errore seguente: **"Non sono stati trovati dati nella cartella di lavoro di Excel"** . [Questo articolo](service-admin-troubleshoot-excel-workbook-data.md) illustra come correggere la cartella di lavoro e reimportarla.
 
 ## <a name="next-steps"></a>Passaggi successivi
 **Esplorare i dati**: una volta importati i dati e i report dal file in Power BI, è possibile iniziare a esplorarli. Fare semplicemente clic con il pulsante destro del mouse sul nuovo set di dati e quindi scegliere Esplora. Se si sceglie di connettersi a un file della cartella di lavoro in OneDrive nel passaggio 4, la cartella di lavoro verrà visualizzata in Report. Quando si fa clic su di essa, si aprirà in Power BI, esattamente come se fosse in Excel Online.

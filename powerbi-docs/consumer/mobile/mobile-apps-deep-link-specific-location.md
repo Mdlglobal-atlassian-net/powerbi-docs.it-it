@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278401"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906521"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creare un collegamento a una posizione specifica nelle app Power BI per dispositivi mobili
-È possibile creare e usare un collegamento Uniform Resource Identifier (URI) per collegarsi a una posizione specifica (un *collegamento diretto*) all'interno delle app Power BI per dispositivi mobili su tutte le piattaforme per dispositivi mobili: iOS, dispositivi Android e Windows 10.
+È possibile utilizzare i collegamenti per accedere direttamente a elementi specifici in Power BI: Report, Dashboard e riquadro.
 
-I collegamenti URI possono puntare direttamente a dashboard, riquadri e report.
+Esistono essenzialmente due scenari per l'uso di collegamenti in Power BI per dispositivi mobili: 
 
-La destinazione del collegamento diretto determina il formato dell'URI. Seguire questi passaggi per creare collegamenti diretti a diverse posizioni. 
-
-## <a name="open-the-power-bi-mobile-app"></a>Aprire l'app Power BI per dispositivi mobili
-Usare questo URI per aprire l'app Power BI per dispositivi mobili in qualsiasi dispositivo:
-
-    mspbi://app/
+* Per aprire Power BI dal **all'esterno dell'app**e di accedere a contenuto specifico (report/dashboard/app). Si tratta in genere uno scenario di integrazione, quando si desidera aprire Power BI per dispositivi mobili da altre app. 
+* Per **spostarsi** all'interno di Power BI. Si tratta in genere quando si desidera creare una navigazione personalizzata in Power BI.
 
 
-## <a name="open-to-a-specific-dashboard"></a>Aprire un dashboard specifico
-Questo URI aprirà un dashboard specifico nell'app Power BI per dispositivi mobili:
+## <a name="use-links-from-outside-of-power-bi"></a>Usare i collegamenti di fuori di Power BI
+Quando si usa un collegamento all'esterno di app di Power BI, si desidera assicurarsi che verrà aperta dall'app, e se l'app non è installato nel dispositivo, quindi offrendo all'utente per installarlo. È stato creato un formato di collegamento speciale per supportare tale. Questo formato di collegamento, garantirà che il dispositivo usa l'app per aprire il collegamento, e se l'app non è installato nel dispositivo, verrà richiesto all'utente di Vai allo store per ottenerla.
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+Il collegamento deve iniziare con il codice seguente  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-Per trovare l'ID oggetto del dashboard con 36 caratteri, passare al dashboard specifico nel servizio Power BI (https://powerbi.com). Ad esempio, vedere la sezione evidenziata dell'URL:
+> [!IMPORTANT]
+> Se il contenuto è ospitato nel Data Center speciali, ad esempio con governi, Cina, e così via. Il collegamento deve iniziare con l'indirizzo di Power BI a destra, ad esempio `app.powerbigov.us` o `app.powerbi.cn`.   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-Se il dashboard si trova in un gruppo diverso da Area di lavoro, aggiungere `&GroupObjectId=<36-character-group-id>` prima o dopo l'ID del dashboard. Ad esempio: 
+Il **PARAMS QUERY** sono:
+* **azione** (obbligatorio) = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** = se si vuole aprire un report o un dashboard che fanno parte di un'app 
+* **groupObjectId** = se si vuole aprire un report o un dashboard che fanno parte dell'area di lavoro (ma non l'area di lavoro)
+* **dashboardObjectId** = ID oggetto del dashboard (se l'azione è OpenDashboard o OpenTile)
+* **reportObjectId** = ID oggetto del report (se l'azione è ApriReport)
+* **tileObjectId** = ID dell'oggetto riquadro (se azione OpenTile)
+* **reportPage** = se si desidera aprire sezione del report specifica (se l'azione è ApriReport)
+* **CTID** = ID dell'elemento organizzazione (rilevanti per uno scenario B2B. Ciò può essere omesso se l'elemento appartiene all'organizzazione dell'utente).
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**Esempi:**
 
-Si noti la e commerciale (&) tra i due ID.
+* Collegamento app aperte 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>Aprire un riquadro specifico in modalità messa a fuoco
-Questo URI aprirà un riquadro specifico in modalità messa a fuoco nell'app Power BI per dispositivi mobili:
+* Aprire il dashboard che fa parte di un'app 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* Apri report che fa parte di un'area di lavoro
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-Per trovare gli ID oggetto del dashboard e del riquadro con 36 caratteri, passare al dashboard specifico nel servizio Power BI (https://powerbi.com) e aprire il riquadro in modalità messa a fuoco. Ad esempio, vedere le sezioni evidenziate dell'URL:
+### <a name="how-to-get-the-right-link-format"></a>Come ottenere il formato di collegamento a destra
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>Collegamenti di App e gli elementi nell'app
 
-Per questo riquadro, l'URI sarà:
+Per la **le App e i report e dashboard che fanno parte di un'app**, è il modo più semplice per ottenere il collegamento per tornare all'area di lavoro di app e scegliere "Aggiorna app". Verrà aperto l'esperienza "Publish app", e nella scheda accesso, si noterà una **collegamenti** sezione. Espansione di sezione e si verrà visualizzato l'elenco di app e tutti i relativi contenuti i collegamenti che è utilizzabile per l'accesso diretto.
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Pubblica i collegamenti di app di Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-Si noti la e commerciale (&) tra i due ID.
+#### <a name="links-of-items-not-in-app"></a>Collegamenti di elementi non nell'app 
 
-Se il dashboard si trova in un gruppo diverso da Area di lavoro, aggiungere `&GroupObjectId=<36-character-group-id>`.
+Per i report e dashboard che non fanno parte di un'app, è necessario estrarre l'ID dall'URL dell'elemento.
 
-## <a name="open-to-a-specific-report"></a>Aprire un report specifico
-Questo URI aprirà un report specifico nell'app Power BI per dispositivi mobili:
+Ad esempio, per trovare il carattere di 36 **dashboard** ID di oggetto, passare al dashboard specifico nel servizio Power BI 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-Per trovare l'ID oggetto del report con 36 caratteri, passare al report specifico nel servizio Power BI (https://powerbi.com). Ad esempio, vedere la sezione evidenziata dell'URL:
+Per trovare il carattere di 36 **report** ID di oggetto, passare al report specifico nel servizio Power BI.
+Questo è un esempio di report da "Area di lavoro personale"
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+L'URL precedente contiene anche pagina del report specifica **"ReportSection3"** .
 
-Se il report si trova in un gruppo diverso da Area di lavoro personale, aggiungere `&GroupObjectId=<36-character-group-id>` prima o dopo l'ID del report. Ad esempio: 
+Questo è un esempio di un report da un'area di lavoro (non area di lavoro personale)
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-Si noti la e commerciale (&) tra i due ID.
+## <a name="use-links-inside-power-bi"></a>Usare i collegamenti all'interno di Power BI
 
-## <a name="open-to-a-specific-report-page"></a>Aprire un pagina del report specifica
-Questo URI aprirà una pagina del report specifica nell'app Power BI per dispositivi mobili:
+Collegamenti all'interno di Power BI Usa l'App per dispositivi mobili esattamente come nel servizio Power BI.
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+Se si desidera aggiungere un collegamento al report che punta a un altro elemento di Power BI, è possibile copiare solo tale URL dell'elemento dalla barra degli indirizzi del browser. Altre informazioni, vedere [come aggiungere un collegamento ipertestuale a una casella di testo in un report](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
 
-Il titolo della pagina del report è "ReportSection", seguito da un numero. Ancora una volta, aprire il report nel servizio Power BI (https://powerbi.com) e passare alla pagina del report specifica. 
+## <a name="use-report-url-with-filter"></a>Usare l'URL del report con filtro
+Uguale a servizio Power BI, le app di Power BI per dispositivi mobili supportano anche URL di report che contiene un parametro di query di filtro. È possibile aprire un report nell'app Power BI per dispositivi mobili e filtrarlo per uno stato specifico. Ad esempio, questo URL verrà aperto il report Sales e filtrarla by Territory
 
-Ad esempio, vedere la sezione evidenziata dell'URL:
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>Apri in modalità schermo intero
-Aggiungere il parametro in grassetto per aprire un report specifico in modalità schermo intero:
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-ad esempio: 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>Aggiungere contesto (facoltativo)
-È anche possibile aggiungere contesto nella stringa. In tal modo, se è necessario contattare Microsoft, è possibile usare tale contesto per filtrare i dati all'applicazione in uso. Aggiungere `&context=<app-name>` al collegamento
-
-Ad esempio, vedere la sezione evidenziata dell'URL: 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+Altre informazioni, Leggi [come creare parametri di query per filtrare i report](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Passaggi successivi
 I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementare in futuro, quindi non perdete l'occasione di votare quali funzionalità vorreste avere a disposizione nelle app per dispositivi mobili di Power BI. 

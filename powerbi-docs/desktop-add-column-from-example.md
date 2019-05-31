@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239809"
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Aggiungere una colonna da un esempio in Power BI Desktop
@@ -61,7 +61,7 @@ Questo è il riquadro **Aggiungi colonne da esempi** e consiste in quattro aree 
 
 Mentre si digita il proprio esempio nella nuova colonna, Power BI offre un'anteprima dell'aspetto della colonna che si sta creando, in base alle trasformazioni che rileva. Se ad esempio si digita *Alabama* nella prima riga, questo corrisponde al valore *Alabama* nella prima colonna della tabella: non appena si preme *INVIO*, Power BI compila la colonna in base a tale valore.
 
-Si supponga ora di andare alla riga che include *Massachusetts[E]* e di eliminare l'ultima parte, *[E]*, perché non è più necessaria. Power BI rileva la modifica e usa l'esempio per creare una trasformazione. Si noti la spiegazione della trasformazione nel riquadro centrale superiore.
+Si supponga ora di andare alla riga che include *Massachusetts[E]* e di eliminare l'ultima parte, *[E]* , perché non è più necessaria. Power BI rileva la modifica e usa l'esempio per creare una trasformazione. Si noti la spiegazione della trasformazione nel riquadro centrale superiore.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 

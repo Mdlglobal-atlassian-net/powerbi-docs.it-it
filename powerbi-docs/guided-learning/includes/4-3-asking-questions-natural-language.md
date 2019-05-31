@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61263783"
+---
 Power BI include un potente motore di riconoscimento della lingua che permette di porre domande sui dati con frasi e domande colloquiali. Di conseguenza, oltre a creare report e visualizzazioni con Power BI, è possibile creare anche diagrammi e grafici ponendo semplici domande.
 
 Per porre una domanda sui dati, aprire un dashboard in Power BI perché nella parte superiore dello schermo venga visualizzata una casella di input, in cui è possibile rivolgere domande sui dati visualizzati. Questa funzionalità si chiama *Domande* **e risposte**.

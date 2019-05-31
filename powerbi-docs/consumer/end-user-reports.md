@@ -8,63 +8,59 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 5/10/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 42648c4b2ad82eb3091ee1aa9ca75af1c87edd42
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 02652bd027d7dab8a40d77fb92c5aae8f09d8820
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662182"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65607874"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 ## <a name="what-is-a-power-bi-report"></a>Che cos'è un report di Power BI?
-Un ***report*** di Power BI consente di visualizzare un set di dati da più punti di vista, grazie a visualizzazioni che rappresentano conclusioni e approfondimenti diversi ottenuti da tale set di dati.  Un report può includere una sola visualizzazione oppure contenere pagine con più visualizzazioni. In base al proprio ruolo, si può essere un utente che *crea* report e/o che *utilizza* report.
+Power BI ***report*** visualizzare più punti di vista in un set di dati con oggetti visivi che rappresentano diversi conclusioni e approfondimenti dal set di dati.  Un report può avere un singolo oggetto visivo o pagine con più oggetti visivi. In base al ruolo di lavoro, può essere un utente che ha *progettazioni* i report e/o si può essere un utente che ha *consuma* o utilizza i report.
 
-![Pagina del report](./media/end-user-reports/reportview.png)
+![Pagina del report](./media/end-user-reports/power-bi-report.png)
 
-Questo report è costituito da tre pagine (o schede). La pagina attualmente visualizzata è Store Sales Overview, costituita da sei diverse visualizzazioni e da un titolo. Le visualizzazioni possono essere *aggiunte* ai dashboard, in modo tale che quando si seleziona una visualizzazione aggiunta venga aperto il report da cui è stata aggiunta.
+Questo report include sei pagine (o schede) e attualmente visualizzata è la pagina del Sentiment. In questa pagina sono 6 oggetti visivi diversi e un titolo della pagina.  
 
 Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md)
 
-I report sono una funzionalità del servizio Power BI e di Power BI Desktop. L'esperienza di utilizzo dei report è quasi identica. Con i dispositivi mobili non è però possibile creare report, ma solo [visualizzarli, condividerli e aggiungere annotazioni](mobile/mobile-reports-in-the-mobile-apps.md).
+I report sono disponibili per la visualizzazione, la condivisione e l'annotazione nei dispositivi mobili. Per altre informazioni, vedere [report di Power BI per dispositivi mobili](mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Vantaggi dei report
-I report sono basati su un singolo set di dati. Le visualizzazioni in un report rappresentano ognuna una parte di informazioni. Le visualizzazioni non sono statiche: è infatti possibile aggiungere e rimuovere dati, cambiare i tipi di visualizzazione e applicare filtri e filtri dei dati quando si analizzano i dati per individuare informazioni dettagliate e cercare risposte. Analogamente a un dashboard, ma in misura maggiore, un report è un elemento altamente interattivo e personalizzabile in cui le visualizzazioni vengono aggiornate quando cambiano i dati sottostanti.
+I report sono basati su un singolo set di dati. Gli oggetti visivi in un report vengono creati dal rapporto *finestre di progettazione* e rappresentano ognuna una parte delle informazioni. E gli oggetti visivi non sono statici. è possibile interagire con i filtri e gli oggetti visivi quando si analizzano i dati per ricavare informazioni e cercare risposte. Analogamente a un dashboard, ma ancora-questa operazione, un report è altamente interattivo e personalizzabile e gli oggetti visivi aggiornate quando cambiano i dati sottostanti.
+
+### <a name="safely-interact-with-content"></a>Interagire in modo sicuro con i contenuti
+Come è possibile esplorare e interagire con il contenuto, filtro, il sezionamento, sottoscrizione e l'esportazione, goditi; il lavoro non interessa il set di dati sottostante o il contenuto condiviso originale (dashboard, report e App).
+ 
+> [!NOTE]
+> Tenere presente che è non è possibile ridurre i dati. Power BI è un posto ideale per poter esplorare e sperimentare senza doversi preoccupare che si sarà "break" alcuna operazione.
+
+### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Salvare le modifiche oppure ripristinare le impostazioni predefinite
+Ciò non significa che non è possibile salvare le modifiche; è possibile, ma tali modifiche influiscono solo la visualizzazione del contenuto. Ripristinando la visualizzazione predefinita originale è semplice quanto la selezione di reimpostazione del pulsante predefinito.
 
 ## <a name="dashboards-versus-reports"></a>Dashboard e report a confronto
-I [dashboard](end-user-dashboards.md) sono spesso confusi con i report perché sono anch'essi costituiti da aree di disegno contenenti visualizzazioni. Tuttavia, ci sono alcune importanti differenze.  
+[Dashboard](end-user-dashboards.md) sono spesso confusi con i report perché sono anch Canvas riempita con oggetti visivi. Tuttavia, ci sono alcune importanti differenze.  
 
 | **Capacità** | **Dashboard** | **Report** |
 | --- | --- | --- |
 | Pagine |Una pagina |Una o più pagine |
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
-| Disponibile in Power BI Desktop |No |Sì, è possibile creare e visualizzare i report in Power BI Desktop |
-| Aggiunta |È possibile aggiungere visualizzazioni esistenti (riquadri) solo dal dashboard corrente ad altri dashboard |È possibile aggiungere visualizzazioni (come riquadri) a uno dei dashboard. È possibile aggiungere tutte le pagine del report a uno dei dashboard. |
-| Sottoscrivi |Non è possibile sottoscriversi a un dashboard |È possibile sottoscriversi alle pagine del report |
 | Applicazione di filtri |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
 | Impostazione di avvisi |Permette di creare avvisi per e-mail quando vengono soddisfatte determinate condizioni |No |
 | Funzionalità |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
-| Query in linguaggio naturale |Disponibile dal dashboard |Non disponibile dai report |
-| Permette di modificare il tipo di visualizzazione |No. Infatti, se il proprietario di un report modifica il tipo di visualizzazione nel report, la visualizzazione bloccata nel dashboard non viene aggiornata |Sì |
-| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
-| Permette di creare le visualizzazioni |Si limita all'aggiunta di widget al dashboard tramite "Aggiungi riquadro" |È possibile creare molti tipi diversi di elementi visivi, aggiungere elementi visivi personalizzati, modificare gli elementi visivi e altro ancora con le autorizzazioni di modifica |
-| Personalizzazione |È possibile fare operazioni con le visualizzazioni (riquadri) come spostare e disporre, ridimensionare, aggiungere collegamenti, rinominare, eliminare e visualizzare a schermo intero. Ma i dati e le visualizzazioni sono di sola lettura. |Nella visualizzazione di lettura è possibile pubblicare, incorporare, filtrare, esportare, scaricare come file .pbix, visualizzare il contenuto correlato, generare codici QR, analizzare in Excel e così via.  Nella visualizzazione di modifica è possibile eseguire tutte le operazioni indicate finora e molto altro. |
+| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare dati, ma non è possibile vedere le tabelle di set di dati e campi nel dashboard stesso. |Sì. Possono vedere le tabelle di set di dati, i campi e valori che si è autorizzati a visualizzare. |
+| Customization |No  |Possono filtrare, esportare, visualizzare il contenuto correlato, aggiungere segnalibri, generare codici QR, analizzare in Excel e altro ancora.   |
+
+<!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
+| Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
 ## <a name="report-creators-and-report-consumers"></a>***Creatori*** di report e ***fruitori*** di report
-In base al proprio ruolo, si può essere un utente che crea report per uso personale o da condividere con i colleghi. Si supponga di voler imparare a creare e condividere report o ricevere report da altri utenti, nonché di voler imparare a conoscere e a interagire con i report.
+In base al ruolo, potrebbe essere un' *progettazione*, un utente che crea report per uso personale o da condividere con i colleghi. Si supponga di voler imparare a creare e condividere report o ricevere report da altri utenti, nonché di voler imparare a conoscere e a interagire con i report. Se si è un report **consumatore**, questi collegamenti fanno al caso. 
 
-Per iniziare, è possibile leggere gli argomenti seguenti organizzati in base al ruolo.
-
-### <a name="if-you-will-be-creating-and-sharing-reports"></a>Se si intende creare e condividere report
-* Iniziare con una [presentazione del servizio Power BI](end-user-basic-concepts.md), in cui viene spiegato dove trovare i report e i relativi strumenti.
-* Fare clic sul collegamento per una presentazione dell'[editor di report](../service-the-report-editor-take-a-tour.md).
-* Fare clic sul collegamento per informazioni su come [creare un report da un set di dati](../service-report-create-new.md).
-* Fare clic sul collegamento per informazioni su come [usare i filtri a livello di visualizzazione, pagina e report](end-user-report-filter.md).
-* Fare clic sul collegamento per scoprire i vari modi in cui è possibile [condividere un report con i colleghi](../service-share-dashboards.md).
-
-### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Se si intende ricevere e utilizzare i report
 * Iniziare con una [presentazione del servizio Power BI](end-user-basic-concepts.md), in cui viene spiegato dove trovare i report e i relativi strumenti.
 * Fare clic sul collegamento per informazioni su come [aprire un report](end-user-report-open.md) e su tutte le interazioni disponibili nella [Visualizzazione di lettura](end-user-reading-view.md).
 * Per acquisire familiarità con i report, eseguire la presentazione di uno degli [esempi](../sample-tutorial-connect-to-the-samples.md) forniti.  

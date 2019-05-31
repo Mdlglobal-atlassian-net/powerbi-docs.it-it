@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6c63f0bbcf836c90eecf7407d2d9805fc9ab443a
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430324"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61404397"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Esercitazione: Richiamare un modello di Machine Learning Studio in Power BI (anteprima)
 
@@ -48,7 +48,7 @@ Accedere al [portale di Azure](https://portal.azure.com) e passare alla pagina *
 
 ![Portale di Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selezionare la sottoscrizione di Azure usata per pubblicare il modello e quindi selezionare **Controllo di accesso (IAM)**. Selezionare **Aggiungi assegnazione di ruolo**, quindi il ruolo **Lettore** e infine l'utente di Power BI. Al termine, selezionare **Salva**. La figura seguente mostra queste selezioni.
+Selezionare la sottoscrizione di Azure usata per pubblicare il modello e quindi selezionare **Controllo di accesso (IAM)** . Selezionare **Aggiungi assegnazione di ruolo**, quindi il ruolo **Lettore** e infine l'utente di Power BI. Al termine, selezionare **Salva**. La figura seguente mostra queste selezioni.
 
 ![Controllo di accesso nel portale di Azure](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -76,7 +76,7 @@ Una volta creata l'area di lavoro, è possibile selezionare **Ignora** nell'ango
 
 ![Ignora](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_04.png)
 
-Selezionare la scheda **Flussi di dati (anteprima)**, quindi selezionare il pulsante **Crea** nell'angolo superiore destro dell'area di lavoro e infine selezionare **Flusso di dati**.
+Selezionare la scheda **Flussi di dati (anteprima)** , quindi selezionare il pulsante **Crea** nell'angolo superiore destro dell'area di lavoro e infine selezionare **Flusso di dati**.
 
 ![Flussi di dati (anteprima)](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_05.png)
 
@@ -90,7 +90,7 @@ Selezionare **Testo/CSV** come origine dati.
 
 Nella schermata successiva viene chiesto di connettersi a un'origine dati. Incollare il collegamento ai dati usati per creare il modello di Azure Machine Learning. Se sono stati usati i dati del modello di _stima del prezzo di un'automobile_, è possibile incollare il collegamento seguente nella casella **URL o percorso del file** e quindi selezionare **Avanti**.
 
-`https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv`
+`https://raw.githubusercontent.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/master/Module7/Automobile%20price%20data%20_Raw_.csv`
 
 ![Connetti a origine dati](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_08.png)
 

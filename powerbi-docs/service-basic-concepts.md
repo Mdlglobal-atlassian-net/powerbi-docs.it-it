@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
-ms.translationtype: HT
+ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971718"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770790"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
@@ -44,22 +44,22 @@ Queste funzionalità verranno illustrate più avanti. Per il momento verranno pr
 
 
 ## <a name="power-bi-concepts"></a>Concetti di Power BI
-I quattro elementi fondamentali di Power BI sono: **_dashboard_**, **_report_**, **_cartelle di lavoro_** e **_set di dati_**. Questi elementi sono organizzati in **_aree di lavoro_**. È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
+I quattro elementi fondamentali di Power BI sono: **_dashboard_** , **_report_** , **_cartelle di lavoro_** e **_set di dati_** . Questi elementi sono organizzati in **_aree di lavoro_** . È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
 
-## <a name="workspaces"></a>Workspaces
+## <a name="workspaces"></a>Aree di lavoro
 Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per gli utenti finali di Power BI dell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle.
 
 - L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro per le app.      
--  Le *aree di lavoro per le app* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro per le app e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri delle aree di lavoro per le app necessitano di licenze di Power BI Pro, ma gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente disporre di una licenza Pro.  
+-  Le *aree di lavoro per le app* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro per le app e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri dell'area di lavoro di app necessitano licenze di Power BI Pro. Gli utenti delle App, i colleghi che hanno accesso alle App, non devono necessariamente licenze Pro. Altre informazioni, vedere la [nuove aree di lavoro](service-create-the-new-workspaces.md).  
 
-Per altre informazioni, iniziare con [Modalità per la condivisione del lavoro in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md).
+Per altre informazioni sulla condivisione in generale, iniziare con [modi per condividere i dashboard del lavoro](service-how-to-collaborate-distribute-dashboards-reports.md).
 
 Ora verranno approfonditi gli elementi fondamentali di Power BI. Poiché i dashboard o i report sono utili solo quando contengono dati, vengono ora descritti i **set di dati**.
 
-## <a name="datasets"></a>Datasets
+## <a name="datasets"></a>Set di dati
 Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione.  
 
-I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. [Fare clic sul collegamento per visualizzare l'elenco dei tipi di set di dati utilizzabili con Power BI](service-get-data.md).
+I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. Visualizzare l'elenco delle [tipi di set di dati utilizzabili con Power BI](service-get-data.md).
 
 Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite e marketing" ed è stato fatto clic sulla scheda **Set di dati**.
 
@@ -75,41 +75,41 @@ Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite 
 
 Per [connettersi o importare un set di dati](service-get-data.md), selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento a sinistra. Seguire le istruzioni per la connessione o l'importazione dell'origine specifica e aggiungere il set di dati all'area di lavoro attiva. I nuovi set di dati sono contrassegnati con un asterisco giallo. Le operazioni effettuate in Power BI non comportano la modifica del set di dati sottostante.
 
-Se si [fa parte di un'**_area di lavoro per le app_**](service-collaborate-power-bi-workspace.md), i set di dati aggiunti da un membro dell'area di lavoro sono disponibili per gli altri membri dell'area di lavoro.
+I DataSets aggiunti da un membro dell'area di lavoro sono disponibili per gli altri membri dell'area di lavoro con un *admin*, *membro*, o *collaboratore* ruolo.
 
 I set di dati possono essere aggiornati, rinominati, esplorati e rimossi. Usare un set di dati per creare un report da zero o tramite l'esecuzione di [informazioni rapide](service-insights.md).  Per visualizzare i report e i dashboard che già usano un set di dati, selezionare **Visualizza elementi correlati**. Per esplorare un set di dati, selezionarlo. Il set di dati viene quindi aperto nell'editor di report in cui è possibile approfondire l’analisi dei dati e creare visualizzazioni. Passiamo all'argomento successivo, ossia i report.
 
 ### <a name="dig-deeper"></a>Approfondimento
-* [Che cos'è Power BI Premium?](service-premium.md)
+* [Che cos'è Power BI Premium?](service-premium-what-is.md)
 * [Recuperare dati per Power BI](service-get-data.md)
 * [Set di dati di esempio per Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Report
-Un report di Power BI è costituito da una o più pagine di visualizzazioni, ad esempio grafici a linee, mappe e mappe ad albero. Le visualizzazioni sono dette anche **_oggetti visivi_**. Tutte le visualizzazioni in un report provengono da un unico set di dati. I report possono essere creati da zero all'interno di Power BI, importati con dashboard condivisi dai colleghi oppure essere creati quando l'utente si connette ai set di dati da Excel, Power BI Desktop, database, applicazioni SaaS e [app](service-get-data.md).  Ad esempio, quando si è connessi a una cartella di lavoro di Excel che contiene fogli di Power View, Power BI crea un report basato su tali fogli. Inoltre, quando ci si connette a un'applicazione SaaS, Power BI importa un report predefinito.
+Un report di Power BI è costituito da una o più pagine di visualizzazioni, ad esempio grafici a linee, mappe e mappe ad albero. Le visualizzazioni sono dette anche **_oggetti visivi_** . Tutte le visualizzazioni in un report provengono da un unico set di dati. È possibile creare report da zero all'interno di Power BI, importati con dashboard i colleghi o Power BI può creare li quando ci si connette ai set di dati da Excel, Power BI Desktop, database e applicazioni SaaS.  Ad esempio, quando si è connessi a una cartella di lavoro di Excel che contiene fogli di Power View, Power BI crea un report basato su tali fogli. Inoltre, quando ci si connette a un'applicazione SaaS, Power BI importa un report predefinito.
 
-È possibile visualizzare i report e interagire con essi in due modalità: [visualizzazione di lettura e visualizzazione di modifica](service-reading-view-and-editing-view.md).  Solo la persona che ha creato il report, i comproprietari e gli utenti autorizzati possono usare tutte le funzionalità di esplorazione, progettazione, creazione e condivisione in **_Visualizzazione di modifica_**. Gli utenti con i quali il report è stato condiviso possono esplorarlo e interagire con esso nella **_visualizzazione di lettura_**.   
+È possibile visualizzare i report e interagire con essi in due modalità: *Visualizzazione di lettura* e *Modifica visualizzazione*. Quando si apre un report, viene aperto in visualizzazione di lettura. Se si dispone delle autorizzazioni di modifica, quindi viene visualizzato **Modifica report** nell'angolo superiore sinistro, ed è possibile visualizzare il report in visualizzazione di modifica.  Se un report è in un'area di lavoro, tutti gli utenti con un *admin*, *membro*, o *collaboratore* ruolo può essere modificata. Hanno accesso a tutti l'esplorazione, progettazione, compilazione e la condivisione delle funzionalità di modifica consente di visualizzare per il report. Coloro che condividono il report con è possibile esplorare e interagire con il report in visualizzazione di lettura.   
 
 Quando si apre un'area di lavoro, i report associati sono elencati nella scheda **Report**. Ogni report elencato rappresenta una o più pagine di visualizzazioni basate su uno solo dei set di dati sottostanti. Per aprire un report, selezionarlo.
 
-Quando si apre un'app, verrà visualizzato un dashboard.  Per accedere al report sottostante, selezionare un riquadro del dashboard (altre informazioni sui riquadri sono disponibili più avanti) che è stato aggiunto da un report. Tenere presente che non tutti i riquadri vengono aggiunti dai report, quindi è possibile dover fare clic su alcuni riquadri prima di trovare un report.
+Quando si apre un'app, viene visualizzato un dashboard.  Per accedere al report sottostante, selezionare un riquadro del dashboard (altre informazioni sui riquadri sono disponibili più avanti) che è stato aggiunto da un report. Tenere presente che non tutti i riquadri vengono aggiunti dai report, quindi è possibile dover fare clic su alcuni riquadri prima di trovare un report.
 
 Per impostazione predefinita, il report viene aperto in Visualizzazione di lettura.  Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica (se si hanno le autorizzazioni necessarie).
 
-Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite e marketing" ed è stato fatto clic sulla scheda **Report**.
+Nell'esempio seguente, seleziona l'area di lavoro di app "Vendite e marketing" e si sceglie la scheda relativa **report**.
 
 ![Report selezionati](media/service-basic-concepts/power-bi-reports.png)
 
 **UN** report
 
 * è contenuto in una singola area di lavoro.
-* può essere associato a più dashboard all'interno dell'area di lavoro, ovvero i riquadri aggiunti da un report possono essere visualizzati in più dashboard.
-* può essere creato usando i dati di un solo set di dati. Per ovviare a questa limitazione, è possibile usare Power BI Desktop per combinare più set di dati in un singolo report e importare tale report in Power BI.
+* può essere associato a più dashboard all'interno di tale area di lavoro. I riquadri aggiunti da che un unico report può essere visualizzate in più dashboard.
+* può essere creato usando i dati di un solo set di dati. Power BI Desktop per combinare più di un'origine dati in un singolo set di dati in un report e tale report può essere importato in Power BI.
 
   ![Diagramma dei report](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>Approfondimento
-* [Report nel servizio Power BI e in Power BI Desktop](service-reports.md)
-* [Report nelle app Power BI per dispositivi mobili](mobile-reports-in-the-mobile-apps.md)
+- [Creare un report nel servizio Power BI importando un set di dati](service-report-create-new.md)
+- [Ottimizzare i report per le App per dispositivi mobili di Power BI](desktop-create-phone-report.md)
 
 ## <a name="dashboards"></a>Dashboard
 Per *dashboard* si intende un elemento che viene creato nel **servizio Power BI** oppure creato da un collega nel **servizio Power BI** e condiviso con l'utente. Si tratta di una singola area di disegno che può contenere più riquadri e widget oppure non contenerne affatto. In ogni riquadro aggiunto da un report o da [Domande e risposte](power-bi-q-and-a.md) compare una singola [visualizzazione](power-bi-report-visualizations.md) che è stata creata da un set di dati e aggiunta al dashboard. È anche possibile aggiungere a un dashboard intere pagine del report come un singolo riquadro. Per aggiungere riquadri al dashboard esistono molti modi, che non possono essere tuttavia trattati in questo contesto. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](service-dashboard-tiles.md).
@@ -136,7 +136,7 @@ Quando si apre un'area di lavoro, i dashboard associati sono elencati nella sche
   ![Dashboard selezionato](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>Approfondimento
-* [Creare un nuovo dashboard vuoto e recuperare alcuni dati](service-dashboard-create.md).
+* [Creare un dashboard vuoto e recuperare alcuni dati](service-dashboard-create.md) .
 * [Duplicare un dashboard](service-dashboard-copy.md)
 * [Creare una visualizzazione telefono di un dashboard](service-create-dashboard-mobile-phone-view.md)
 
@@ -200,7 +200,7 @@ Le icone nell'angolo in alto a destra consentono di accedere alle impostazioni, 
 
 ![pulsanti delle icone](media/service-basic-concepts/power-bi-icons.png)
 
-### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Titolo del dashboard** (percorso di navigazione)
+### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **Titolo del dashboard** (percorso di navigazione o percorsi di navigazione)
 Non sempre è facile individuare quali sono le aree di lavoro e i dashboard attivi, di conseguenza Power BI crea automaticamente un percorso di navigazione.  In questo esempio viene mostrata l'area di lavoro (Area di lavoro personale) e il titolo del dashboard (Retail Analysis Sample).  Se si aprisse un report, il nome del report verrebbe aggiunto alla fine del percorso di navigazione.  Ogni sezione del percorso è un collegamento ipertestuale attivo.  
 
 Si noti l'icona "C" dopo il titolo del dashboard. Significa che questo dashboard presenta un [tag di classificazione dati](service-data-classification.md) "Confidential" (Riservati). Il tag identifica il livello di sensibilità e sicurezza dei dati. Se l'amministratore ha abilitato la classificazione dei dati, per ogni dashboard verrà impostato un tag predefinito. I proprietari dei dashboard possono modificare il tag in base al livello di sicurezza appropriato per il dashboard.

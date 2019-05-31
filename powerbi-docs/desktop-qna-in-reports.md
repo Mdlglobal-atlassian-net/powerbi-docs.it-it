@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 440874b96b4bf01023c86e3ef053e8c77e9ef289
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430102"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285038"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usare Domande e risposte in Power BI Desktop per eseguire query in linguaggio naturale
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Ed è ancora più potente quando i dati rispondono, ovvero quello che fa Domande e risposte in **Power BI Desktop**.
@@ -23,7 +23,7 @@ L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è 
 Per consentire a Domande e risposte di interpretare correttamente l'ampia raccolta di domande a cui è in grado di rispondere, Domande e risposte deve fare ipotesi sul modello. Se la struttura del modello non soddisfa una o più di tali ipotesi, sarà necessario rettificare il modello. Le rettifiche per Domande e risposte corrispondono alle procedure di ottimizzazione consigliate per qualsiasi modello in Power BI, indipendentemente dal fatto che si usi Domande e risposte o meno. 
 
 > [!NOTE]
-> Le Domande e risposte sono disponibili solo quando si usa un modello contenente dati **importati**. Le connessioni dinamiche a modelli SSAS e DirectQuery non sono supportate.
+> Domande e risposte è disponibile solo quando si lavora con un modello che contiene **importato** dati o per le connessioni in tempo reale a SSAS. I modelli DirectQuery non sono supportati.
 >
 > Le Domande e risposte richiedono il seguente aggiornamento del runtime C se si usa una versione di Windows precedente a Windows 10. È possibile provare a installare aggiornamenti importanti da Windows Update oppure installare manualmente il componente richiesto da Microsoft Knowledge Base (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
 >

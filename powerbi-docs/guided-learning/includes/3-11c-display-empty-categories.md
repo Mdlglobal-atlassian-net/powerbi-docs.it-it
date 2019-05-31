@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397714"
+---
 Per impostazione predefinita, le intestazioni di colonna vengono visualizzate nei report solo se contengono dati. Se, ad esempio, si stanno visualizzando i ricavi in base al paese e non sono state concluse vendite in Norvegia, la Norvegia non sarà presente nella visualizzazione.
 
 Per visualizzare le categorie vuote, fare clic sulla freccia rivolta verso il basso nel campo da modificare nel riquadro **Visualizzazioni** e selezionare **Mostra elementi senza dati**.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872732"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991049"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,17 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>Aprile 2019
+
+### <a name="key-influencers-visual"></a>Fattori di influenza chiave visual 
+Fattori di influenza chiave visual è ora disponibile in app per dispositivi mobili. Questo oggetto visivo consente di eseguire l'analisi dei principali driver sui tuoi dati, con solo poche scelte.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Aggiungere commenti al contenuto del report (Android e iOS)
+A questo punto è possibile utilizzare i commenti per collaborare e condividere i commenti e le pagine del report e oggetti visivi. Altre informazioni su report commenti nel servizio Power BI e per dispositivi mobili [in questo blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Ingrandire la vista con la modalità schermo intero (Android e iOS)
+È stato aggiunto nuovo pulsante che consentono di controllare la modalità di concentrarsi sui dati di rimozione di intestazioni e piè di pagina e fornendo lo spazio massimo per la visualizzazione dei report.
 
 ## <a name="march-2019"></a>Marzo 2019
 
@@ -31,7 +42,20 @@ per le relative informazioni incluse nelle "Novità", vedere:
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Ottimizzazione delle presentazioni in Windows con la funzionalità di presentazione (Windows)
 
-La funzionalità di [presentazione](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) consente di usare gli schermi pubblici disponibili nell'ufficio aziendale per eseguire i report di Power BI in modalità schermo intero, con rotazione automatica tra le pagine del report.  
+Con [slideshow](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) pubbliche consente di visualizzare che si trova nella sede è possibile usare per eseguire i report di Power BI in modalità schermo intero che verrà automaticamente ruota tra pagine del report.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Report di PBI-RS di supporto sulla configurazione di ad FS e WAP (solo iOS)
+
+Power BI i report (PBIX) ospitati in PBI-RS sulla configurazione di ad FS ora è accessibile dall'app Power BI per iOS.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Abilitazione di interazione tramite tocco singola con oggetti visivi del report
+
+Interazione con i report è stato modificato in modo che richiederanno un solo tocco su un oggetto visivo, pulsante o filtro dei dati per interagire con i relativi dati immediatamente. Gli utenti non è più necessario toccare su un oggetto visivo per selezionarlo e toccare di nuovo per interagire con esso, eseguirà entrambi un singolo tocco.
+
+![Interazione tramite tocco singolo](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> Gli utenti esistenti dovranno attivare questo comportamento nell'impostazione dell'app. Per altre informazioni, vedere la [Jak nakonfigurovat interazione con i report singolo tocco](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) articolo.
 
 ## <a name="january---february-2019"></a>Gennaio - febbraio 2019
  
@@ -326,7 +350,7 @@ Se si scansiona un codice a matrice per un dashboard a cui non si ha accesso, è
 Ora è possibile scorrere nei grafici a barre e negli istogrammi in un report toccando il grafico stesso anziché la barra di scorrimento laterale.
 
 #### <a name="ios-devices"></a>Dispositivi iOS
-**Ottenere risposte dai dati con un'anteprima di domande e risposte** 
+**Ottenere risposte dai dati con le un'anteprima di domande e risposte** 
 
 Con Domande e risposte è possibile porre domande sui dati usando il linguaggio naturale e ottenere le risposte da Power BI. Domande e risposte è già presente nel servizio Power BI su http://powerbi.com. Ora è [disponibile anche nell'app per dispositivi mobili su iPhone o iPad](mobile-apps-ios-qna.md).
 
@@ -362,7 +386,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di ge
 Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di dicembre 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016).
 
 #### <a name="all-devices"></a>Tutti i dispositivi
-**Aggiornamento in background offline**
+**Aggiornamento in background non in linea**
 
 Per assicurarsi che sia possibile accedere ai dati più recenti mentre non in linea, viene eseguito un aggiornamento in background dell'app in modo che le informazioni aziendali siano aggiornate, anche se non vi si accede da tempo. Per assicurarsi che determinati dashboard siano sempre aggiornati, contrassegnarli come preferiti. Altre informazioni sulle [funzionalità offline nelle app Power BI per dispositivi mobili](mobile-apps-offline-data.md).
 
@@ -387,7 +411,7 @@ Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario 
 
 È ora possibile aggiornare i dati di Apple Watch direttamente dall'app Watch. Nella pagina di indice del dashboard premere forte per aggiornare i dati. Per il corretto funzionamento, l'app Power BI per dispositivi mobili deve essere in esecuzione in background nell'iPhone.
 
-#### <a name="android"></a>Telefoni
+#### <a name="android"></a>Android
 **URL personalizzato nel riquadro immagine**
 
 Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario del dashboard, quando si tocca il riquadro si passa direttamente a tale URL senza aprire il riquadro nella modalità messa a fuoco. In più, i riquadri del dashboard che contengono gli URL personalizzati predefiniti possono ora reindirizzare i lettori a report all'interno dell'app.

@@ -1,20 +1,20 @@
 ---
 title: Procedure consigliate per le prestazioni di Power BI Embedded
 description: Questo articolo offre indicazioni sulle procedure consigliate per l'analisi incorporata
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-embedded
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 50fbb175640e38431db62df34276417f1080e42a
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.openlocfilehash: ac8052b78e452f5da1f3db8988a180923c08e0b6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430351"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61343169"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI Embedded
 
@@ -26,9 +26,9 @@ Il metodo Powerbi.embed() riceve alcuni parametri per incorporare un report, un 
 
 ### <a name="embed-url"></a>URL di incorporamento
 
-Evitare di generare manualmente l'URL di incorporamento. Assicurarsi invece di ricevere l'URL di chiamando l'API [Get Reports](/rest/api/power-bi/reports/getreportsingroup), [Get Dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) o [Get Tiles](/rest/api/power-bi/dashboards/gettilesingroup). È stato aggiunto all'URL un nuovo parametro denominato **_config_**, usato per migliorare le prestazioni.
+Evitare di generare manualmente l'URL di incorporamento. Assicurarsi invece di ricevere l'URL di chiamando l'API [Get Reports](/rest/api/power-bi/reports/getreportsingroup), [Get Dashboards](/rest/api/power-bi/dashboards/getdashboardsingroup) o [Get Tiles](/rest/api/power-bi/dashboards/gettilesingroup). È stato aggiunto all'URL un nuovo parametro denominato **_config_** , usato per migliorare le prestazioni.
 
-### <a name="permissions"></a>applicazione
+### <a name="permissions"></a>Autorizzazioni
 
 Concedere le autorizzazioni per la **visualizzazione** se non si prevede di incorporare un report in **modalità di modifica**. In questo modo il codice di incorporamento non inizializza i componenti usati per la modalità di modifica.
 

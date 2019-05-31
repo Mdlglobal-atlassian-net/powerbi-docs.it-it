@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: a99d18d424421949ede9bacd5642235b04170659
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430902"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61338923"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Esplorare i dati nell'app Power BI per dispositivi mobili in Apple Watch
 Con l'app Power BI per Apple Watch è possibile visualizzare gli indicatori KPI e i riquadri del dashboard di Power BI direttamente sull'orologio. Gli indicatori KPI e i riquadri sono ideali per fornire una misura heartbeat su uno schermo di piccole dimensioni. È possibile aggiornare un dashboard da iPhone o dallo stesso Apple Watch.

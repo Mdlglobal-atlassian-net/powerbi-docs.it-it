@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d39f9a6a974e194c38c2f4e9bf69314ff6d0cec2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: it-IT
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256290"
+---
 La pubblicazione dei report nel servizio Power BI è un'operazione rapida e semplice.
 
 Dopo aver completato la creazione del report in **Power BI Desktop**, è sufficiente selezionare il pulsante **Pubblica** nella scheda **Home** in Power BI Desktop per avviare il processo.
