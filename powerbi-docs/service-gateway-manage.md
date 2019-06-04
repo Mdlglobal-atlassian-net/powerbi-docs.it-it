@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9a2fac64959ece431471eb8d3f32961c9d592c66
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
+ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
+ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324864"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "66469773"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Gestire un gateway locale di Power BI
 
@@ -38,26 +38,26 @@ Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti spe
 
     ![Gestisci gateway](media/service-gateway-manage/manage-gateways.png)
 
-2. Selezionare un gateway > **Aggiungi origine dati** oppure passare a Gateway > **Aggiungi origine dati**.
+1. Selezionare un gateway > **Aggiungi origine dati** oppure passare a Gateway > **Aggiungi origine dati**.
 
     ![Aggiungere l'origine dati](media/service-gateway-manage/add-data-source.png)
 
-3. Selezionare il **Tipo di origine dati**.
+1. Selezionare il **Tipo di origine dati**.
 
     ![Selezionare SQL Server](media/service-gateway-manage/select-sql-server.png)
 
 
-4. Immettere le informazioni per l'origine dati. In questo esempio si tratta di **Server**, **Database** e altri dettagli.  
+1. Immettere le informazioni per l'origine dati. In questo esempio si tratta di **Server**, **Database** e altri dettagli.  
 
     ![Impostazioni origine dati](media/service-gateway-manage/data-source-settings.png)
 
-5. Per SQL Server, scegliere il **Metodo di autenticazione** **Windows** oppure **Di base** (autenticazione SQL).  Se si sceglie **Di base**, immettere le credenziali per l'origine dati.
+1. Per SQL Server, scegliere il **Metodo di autenticazione** **Windows** oppure **Di base** (autenticazione SQL).  Se si sceglie **Di base**, immettere le credenziali per l'origine dati.
 
-6. Facoltativamente, in **Impostazioni avanzate** configurare il [Livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
+1. In **Impostazioni avanzate** facoltativamente, configurare il [Livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
 
     ![Impostazioni avanzate](media/service-gateway-manage/advanced-settings.png)
 
-7. Selezionare **Aggiungi**. Se il processo ha esito positivo viene visualizzato il messaggio *Connessione riuscita*.
+1. Selezionare **Aggiungi**. Se il processo ha esito positivo viene visualizzato il messaggio *Connessione riuscita*.
 
     ![Connessione riuscita](media/service-gateway-manage/connection-successful.png)
 
@@ -91,7 +91,7 @@ Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso alla spec
 
 4. Selezionare **Aggiungi**. Il membro aggiunto compare nella casella.
 
-    ![Aggiungere un utente](media/service-gateway-manage/add-user.png)
+    ![Aggiungere l'utente](media/service-gateway-manage/add-user.png)
 
 Non sono richieste altre operazioni. Non dimenticare che è necessario aggiungere utenti a ogni origine dati a cui si vuole concedere l'accesso. L'elenco di utenti è diverso per ogni origine dati, di conseguenza è necessario aggiungere gli utenti a ogni origine dati separatamente.
 
