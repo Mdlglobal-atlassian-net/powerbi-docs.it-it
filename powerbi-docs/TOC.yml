@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
               href: service-dataflows-add-cdm-folder.md
-            - name: Integrare Machine Learning in Power BI (anteprima)
+            - name: Integrare Machine Learning in Power BI
               href: service-machine-learning-integration.md
-            - name: Usare Servizi cognitivi in Power BI (anteprima)
+            - name: Usare Servizi cognitivi in Power BI
               href: service-cognitive-services.md
             - name: Machine Learning automatizzato in Power BI (anteprima)
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Risoluzione dei problemi di valori annidati restituiti come testo
-              href: service-troubleshooting-nested-values.md
             - name: Risoluzione dei problemi relativi all'aggiornamento pianificato per i database SQL di Azure
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: Configurare Multi-Geo
           href: service-admin-premium-multi-geo.md
+        - name: Usare chiavi di crittografia personalizzate
+          href: service-encryption-byok.md
         - name: Riavviare una capacità Premium
           href: service-admin-premium-restart.md
         - name: Connettersi a set di dati con applicazioni client e strumenti
@@ -1275,7 +1275,7 @@
           href: service-gateway-enterprise-manage-ssas.md
         - name: Gestire l'origine dati aziendale - SAP HANA
           href: service-gateway-enterprise-manage-sap.md
-        - name: 'Gestire l''origine dati aziendale - SQL '
+        - name: Gestire l'origine dati aziendale - SQL
           href: service-gateway-enterprise-manage-sql.md
         - name: Gestire l'origine dati - Oracle
           href: service-gateway-onprem-manage-oracle.md
