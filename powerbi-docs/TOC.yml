@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Aggiungere una colonna personalizzata
               href: desktop-add-custom-column.md
-            - name: Crea oggetti visivi reattivi in Power BI
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Usare le etichette di gerarchia inline in Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: Usare il filtro dei dati per intervalli numerici
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: Report impaginati in Power BI
           items:
-            - name: Che cosa sono i report impaginati? (anteprima)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: Domande frequenti sui report impaginati (anteprima)
-              href: paginated-reports-faq.md
-            - name: Creare un report impaginato e caricarlo (anteprima)
-              href: paginated-reports-quickstart-aw.md
-            - name: Presentazione della visualizzazione Progettazione report (anteprima)
-              href: paginated-reports-report-design-view.md
-            - name: Immettere i dati direttamente in un report impaginato (anteprima)
-              href: paginated-reports-enter-data.md
-            - name: Creare un'origine dati incorporata (anteprima)
-              href: paginated-reports-embedded-data-source.md
-            - name: Creare un set di dati incorporato (anteprima)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Creare parametri (anteprima)
-              href: paginated-reports-parameters.md
-            - name: Pubblicare un report impaginato (anteprima)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Visualizzare un report impaginato (anteprima)
               href: paginated-reports-view-power-bi-service.md
             - name: Interagire con i parametri (anteprima)
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: Connettersi a set di dati con applicazioni client e strumenti
           href: service-premium-connect-tools.md
+- name: Generatore report impaginato di Power BI
+  items:
+    - name: Panoramica
+      items:
+        - name: Che cosa sono i report impaginati?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: Generatore report in Power BI
+          href: report-builder-power-bi.md
+    - name: Esercitazioni
+      items:
+        - name: Creare un report impaginato e caricare Interact
+          href: paginated-reports-quickstart-aw.md
+    - name: Concetti
+      items:
+        - name: Presentazione della visualizzazione Progettazione report
+          href: paginated-reports-report-design-view.md
+        - name: Pianificazione di un report
+          href: report-builder-planning-report.md
+        - name: Dati di Generatore report
+          href: report-builder-data.md
+        - name: Suggerimenti relativi alla progettazione
+          href: report-builder-design-tips.md
+        - name: 'Tabelle, matrici, elenchi'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parametri
+          href: report-builder-parameters.md
+        - name: Espressioni
+          href: report-builder-expressions.md
+        - name: Esempi di espressioni
+          href: report-builder-expression-examples.md
+        - name: Anteprima dei report
+          href: report-builder-previewing-reports.md
+        - name: Domande frequenti sui report impaginati
+          href: paginated-reports-faq.md
+    - name: Procedure
+      items:
+        - name: Immettere i dati direttamente in un report impaginato
+          href: paginated-reports-enter-data.md
+        - name: Creare un'origine dati incorporata
+          href: paginated-reports-embedded-data-source.md
+        - name: Creare un set di dati incorporato
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Creare parametri
+          href: paginated-reports-parameters.md
+        - name: Pubblicare un report impaginato
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI per sviluppatori
   items:
     - name: Quali operazioni possono eseguire gli sviluppatori con Power BI?
