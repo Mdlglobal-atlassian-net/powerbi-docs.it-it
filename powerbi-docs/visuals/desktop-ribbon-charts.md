@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2019
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 08a2de32b092ba24b66ddd9f173be1eaea8819ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394463"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66840084"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
 È possibile usare grafici a nastri per visualizzare i dati e individuare rapidamente la categoria di dati di livello più alto (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. 
@@ -27,7 +27,7 @@ Per seguire la procedura, aprire il [report di esempio di analisi delle vendite 
 
 1. Per creare un grafico a nastri, selezionare **Grafico a nastri** nel riquadro **Visualizzazioni**.
 
-    ![modelli di visualizzazione](media/desktop-ribbon-charts/ribbon-charts_02.png)
+    ![modelli di visualizzazione](media/desktop-ribbon-charts/power-bi-template.png)
 
     I grafici a nastri collegano una categoria di dati in relazione al periodo di tempo visualizzato tramite nastri, consentendo di osservare la posizione di una categoria lungo l'asse X del grafico, che in genere rappresenta la sequenza temporale.
 

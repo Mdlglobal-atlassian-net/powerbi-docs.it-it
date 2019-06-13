@@ -1,5 +1,5 @@
 ---
-title: Pubblicare un report impaginato nel servizio Power BI (anteprima)
+title: Pubblicare un report impaginato nel servizio Power BI
 description: Questa esercitazione illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424009"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839607"
 ---
-# <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Pubblicare un report impaginato nel servizio Power BI (anteprima)
+# <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Pubblicare un report impaginato nel servizio Power BI
 
 Questo articolo illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale. È possibile caricare report impaginati nell'Area di lavoro personale o in qualsiasi altra area di lavoro se l'area di lavoro è assegnata a una capacità Premium. Cercare l'icona a forma di diamante ![Icona a forma di diamante della capacità di Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) accanto al nome dell'area di lavoro. 
 
@@ -89,5 +89,5 @@ Attualmente i gateway non supportano parametri multivalore.
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Visualizzare un report impaginato nel servizio Power BI](paginated-reports-view-power-bi-service.md)
-- [Che cosa sono i report impaginati in Power BI Premium? (anteprima)](paginated-reports-report-builder-power-bi.md)
+- [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 
