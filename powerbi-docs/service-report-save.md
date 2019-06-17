@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d5237ebbaf1be6aac7fcde252754436067ae932e
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407289"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720818"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Salvare un report nel servizio Power BI e in Power BI Desktop
 Dopo aver apportato le modifiche a un report in Power BI, è possibile salvarlo con un nuovo nome oppure chiuderlo senza salvare le modifiche. Si supponga di aprire un report, creare una visualizzazione e aggiungerla al dashboard. Se il report viene chiuso senza salvare le modifiche, il riquadro resta nel dashboard, ma la visualizzazione non viene salvata nel report. Quando si fa clic su tale riquadro nel dashboard, il report si apre, ma la visualizzazione non esiste nel report.
@@ -39,7 +39,7 @@ Dopo aver apportato le modifiche a un report in Power BI, è possibile salvarlo 
 ### <a name="next-steps"></a>Passaggi successivi
 Altre informazioni sui [report in Power BI](consumer/end-user-reports.md)
 
-[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
+[Concetti di base per responsabili di progettazione del servizio Power BI](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

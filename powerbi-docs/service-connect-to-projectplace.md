@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9c98257ac352893d074ea91c27e8b1cf3d83e4a3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8827f7dc500ff23e69577ac67b43480d8633f5ef
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168801"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721262"
 ---
 # <a name="connect-to-projectplace-by-planview-with-power-bi"></a>Connettersi a Projectplace di Planview con Power BI
 Con il pacchetto di contenuto Projectplace di Planview è possibile visualizzare i dati di un progetto di collaborazione in modi del tutto nuovi direttamente in Power BI. Usare le credenziali di accesso a Projectplace per visualizzare in modo interattivo statistiche di progetto di importanza fondamentale, scoprire chi sono i membri del team più attivi e produttivi e identificare schede e le attività a rischio per i progetti nell'account Projectplace. È anche possibile estendere il dashboard e i report predefiniti per ottenere le informazioni più importanti.
@@ -60,5 +60,5 @@ Per importare i dati di Projectplace in Power BI è necessario essere un utente 
 ## <a name="next-steps"></a>Passaggi successivi
 [Che cos'è Power BI?](power-bi-overview.md)
 
-[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
+[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 

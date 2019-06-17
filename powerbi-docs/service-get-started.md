@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7eb30d00cdb03c0f0f879d0cb4b0ab152d1dae37
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61238884"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721520"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Esercitazione: Introduzione al servizio Power BI (app.powerbi.com)
 Questa esercitazione illustra come iniziare a usare il ***servizio Power BI***. Per comprendere come si posiziona il servizio Power BI rispetto alle altre offerte Power BI, è prima di tutto consigliabile leggere [Che cos'è Power BI](power-bi-overview.md).
@@ -53,7 +53,7 @@ Visitare la nostra [playlist su YouTube](https://www.youtube.com/playlist?list=P
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>Che cos'è il servizio Power BI?
-Il servizio Microsoft Power BI è talvolta denominato Power BI online o app.powerbi.com. Power BI consente di rimanere aggiornati sulle informazioni a cui si è interessati.  Nel servizio Power BI i ***dashboard*** aiutano a tenere sotto controllo l'andamento dell'attività.  I dashboard mostrano ***riquadri*** su cui è possibile fare clic per aprire i ***report*** e ottenere informazioni ancora più dettagliate.  È possibile connettersi a più ***set di dati*** per visualizzare tutti i dati rilevanti insieme in un'unica posizione. Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - Concetti di base](consumer/end-user-basic-concepts.md).
+Il servizio Microsoft Power BI è talvolta denominato Power BI online o app.powerbi.com. Power BI consente di rimanere aggiornati sulle informazioni a cui si è interessati.  Nel servizio Power BI i ***dashboard*** aiutano a tenere sotto controllo l'andamento dell'attività.  I dashboard mostrano ***riquadri*** su cui è possibile fare clic per aprire i ***report*** e ottenere informazioni ancora più dettagliate.  È possibile connettersi a più ***set di dati*** per visualizzare tutti i dati rilevanti insieme in un'unica posizione. Per saperne di più sui componenti essenziali di Power BI,  Vedere [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md).
 
 Se sono presenti dati importanti in file Excel o CSV, è possibile creare un dashboard di Power BI per rimanere sempre aggiornati e condividere informazioni dettagliate con altre persone.  Coloro che hanno una sottoscrizione a un'applicazione SaaS come Salesforce  si avvantaggeranno connettendosi a Salesforce per creare automaticamente un dashboard in base a tali dati o [dare un'occhiata a tutte le altre applicazioni SaaS](service-get-data.md) a cui è possibile connettersi. Se si fa parte di un'organizzazione, verificare la disponibilità di eventuali [app](service-create-distribute-apps.md) pubblicate automaticamente.
 

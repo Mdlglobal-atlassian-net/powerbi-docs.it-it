@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/27/2019
+ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565302"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497984"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorare le capacità Premium con l'app
 
 Il monitoraggio delle capacità è essenziale per prendere decisioni informate sull'uso ottimale delle risorse della capacità Premium. È possibile monitorare le capacità nel portale di amministrazione o tramite l'app **Power BI Premium Capacity Metrics**. Questo articolo descrive l'uso dell'app Premium Capacity Metrics. L'app fornisce le informazioni più dettagliate sulle prestazioni delle capacità. Per informazioni più generiche sulle metriche d'uso medie negli ultimi sette giorni, è possibile usare il portale di amministrazione. Per altre informazioni sul monitoraggio nel portale, vedere [Monitorare le capacità Premium nel portale di amministrazione](service-admin-premium-monitor-portal.md).
 
-L'app viene aggiornata periodicamente con nuove caratteristiche e funzionalità. Assicurarsi che si esegue la versione più recente. Se è già installata una versione precedente dell'app, è consigliabile eliminarla dalle app e premere CTRL+F5 per aggiornare. 
+L'app viene aggiornata periodicamente con nuove caratteristiche e funzionalità. Verificare di eseguire la versione più recente. Se è già installata una versione precedente dell'app, è consigliabile eliminarla dalle app e premere CTRL+F5 per aggiornare. 
 
 ## <a name="install-the-app"></a>Installare l'app
 
@@ -49,7 +49,7 @@ Viene visualizzato l'ultimo aggiornamento; in alternativa fare clic su **Cronolo
 
 ## <a name="monitor-capacities-with-the-app"></a>Monitorare le capacità con l'app
 
-Dopo aver installato l'app è possibile visualizzare le metriche relative alle capacità all'interno dell'organizzazione. L'app fornisce un Dashboard con informazioni di riepilogo delle metriche e i report dettagliato sulle metriche.
+Dopo aver installato l'app è possibile visualizzare le metriche relative alle capacità all'interno dell'organizzazione. L'app offre un dashboard con riepiloghi delle metriche e report delle metriche dettagliati.
 
 ### <a name="dashboard"></a>Dashboard
 
@@ -133,18 +133,18 @@ Il dashboard include le metriche seguenti:
 | Memory - Paginated Reports Average (GB) | Utilizzo medio della memoria del carico di lavoro dei report impaginati negli ultimi sette giorni. |
 |||
 
-#### <a name="ai-summary"></a>Riepilogo di intelligenza artificiale
+#### <a name="ai-summary"></a>AI Summary
 
 | Metrica | Descrizione |
 | --- | --- |
-| Refreshes Total | Numero totale di aggiornamenti negli ultimi sette giorni. |
-| Refresh Reliability (%) | Numero di aggiornamenti con esito positivo, diviso per il numero totale di aggiornamenti negli ultimi sette giorni. |
-| CPU Max (%)| Consumo di CPU massimo per il carico di lavoro di intelligenza artificiale negli ultimi sette giorni. |
-| Memoria massima (GB) | Numero massimo consumo di memoria per il carico di lavoro di intelligenza artificiale negli ultimi sette giorni.|
-| Consente di aggiornare il tempo massimo di attesa (MS) | Quantità massima di tempo prima di avviare l'aggiornamento. |
-| Tempo medio di attesa di aggiornamenti (MS)| Quantità media di tempo prima di avviare l'aggiornamento. |
-| Aggiorna la durata Max (MS) | Quantità massima di tempo per l'aggiornamento completo. |
-| Gli aggiornamenti della durata media (MS)| Quantità media di tempo per completare l'aggiornamento. |
+| AI Function Execution | Numero totale di esecuzioni negli ultimi sette giorni. |
+| AI Function Execution Reliability (%) | Numero di esecuzioni completate, diviso per il numero totale di esecuzioni negli ultimi sette giorni. |
+| CPU Max (%)| Utilizzo massimo della CPU da parte del carico di lavoro di intelligenza artificiale negli ultimi sette giorni. |
+| Memory Max (GB) | Utilizzo massimo della memoria da parte del carico di lavoro di intelligenza artificiale negli ultimi sette giorni.|
+| AI Function Execution Max Wait Time (MS) | Quantità massima di tempo prima dell'avvio dell'esecuzione. |
+| AI Function Execution Average Wait Time (MS)| Quantità media di tempo prima dell'avvio dell'esecuzione. |
+| AI Function Execution Max Duration (MS) | Quantità massima di tempo per il completamento l'esecuzione. |
+| AI Function Execution Average Duration (MS)| Quantità media di tempo per il completamento l'esecuzione. |
 | | |
 
 ### <a name="reports"></a>Report
@@ -156,7 +156,7 @@ Nella parte inferiore del report sono presenti *cinque schede*:
 [**Datasets**](#datasets) (Set di dati): metriche dettagliate sull'integrità dei set di dati di Power BI nelle capacità.
 [**Paginated Reports**](#paginated-reports) (Report impaginati): metriche dettagliate sull'integrità dei report impaginati nelle capacità.
 [**Dataflows**](#dataflows) (Flussi di dati): metriche di aggiornamento dettagliate per i flussi di dati nelle capacità.
-[**Intelligenza artificiale** ](#ai) -fornisce metriche dettagliate sull'integrità delle funzioni per intelligenza artificiale usati nelle capacità.
+[**AI**](#ai) (Intelligenza artificiale): metriche dettagliate sull'integrità delle funzioni di intelligenza artificiale usate nelle capacità.
 [**Resource Consumption**](#resource-consumption) (Consumo risorsa): metriche sulle risorse dettagliate, ad esempio metriche di utilizzo elevato della CPU e della memoria.
 [**IDs and Info**](#ids-and-info) (ID e informazioni): nomi, ID e proprietari di capacità, aree di lavoro e carichi di lavoro.
 
@@ -170,7 +170,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 | Sezione del report | Metrica |
 | --- | --- |
-| Refreshes |  Total Count (Conteggio totale): aggiornamenti totali per ogni set di dati.<br>  Affidabilità: La percentuale degli aggiornamenti completata per ogni set di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il set di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il set di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il set di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il set di dati, espressa in minuti. |
+| Refreshes |  Total Count (Conteggio totale): aggiornamenti totali per ogni set di dati.<br>  Reliability (Affidabilità): percentuale di aggiornamenti completati per ogni set di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il set di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il set di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il set di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il set di dati, espressa in minuti. |
 | Top 5 Datasets by Average Duration (minutes) |  I cinque set di dati con la durata media dell'aggiornamento più lunga, espressa in minuti. |
 | Top 5 Datasets by Average Wait Time (minutes) |  I cinque set di dati con il tempo di attesa medio dell'aggiornamento più lungo, espresso in minuti. |
 | Hourly Refresh Count and Memory Consumption (GB) |  Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
@@ -224,7 +224,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
-| Refreshes |  Totale: aggiornamenti totali per ogni flusso di dati.<br>  Affidabilità: La percentuale degli aggiornamenti completata per ogni flusso di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il flusso di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il flusso di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il flusso di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il flusso di dati, espressa in minuti. |
+| Refreshes |  Totale: aggiornamenti totali per ogni flusso di dati.<br>  Reliability (Affidabilità): percentuale di aggiornamenti completati per ogni flusso di dati.<br>  Avg Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un aggiornamento per il flusso di dati, espresso in minuti.<br>  Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo per il flusso di dati, espresso in minuti.<br>  Avg Duration (Durata media): durata media dell'aggiornamento per il flusso di dati, espressa in minuti.<br>  Max Duration (Durata massima): durata dell'aggiornamento con esecuzione più prolungata per il flusso di dati, espressa in minuti. |
 | Top 5 dataflows by Average Refresh Duration |  I cinque flussi di dati con la durata media dell'aggiornamento più lunga, espressa in minuti. |
 | Top 5 dataflows by Average Wait Time |  I cinque flussi di dati con il tempo di attesa medio dell'aggiornamento più lungo, espresso in minuti. |
 | Hourly Average Refresh Wait Times |  Tempo di attesa medio degli aggiornamenti, suddiviso in bucket di un'ora, indicato nell'ora UTC. La presenza di più picchi con tempi di attesa degli aggiornamenti elevati è indicativa di un livello di utilizzo molto alto della capacità. |
@@ -235,11 +235,9 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
-| Overall Usage | Conteggio totale: Numero di funzioni di intelligenza artificiale in un'area di lavoro o del flusso di dati. <br> Affidabilità: La percentuale di aggiornamenti completate.<br> Media Tempo di attesa: L'intervallo medio tra l'ora pianificata e l'avvio di un aggiornamento, in millisecondi.<br> Max Wait Time (Tempo massimo di attesa): Il tempo di attesa massimo, espresso in millisecondi.<br> Media Durata: Durata media di un aggiornamento, in millisecondi.<br> Max Duration (Durata massima): La durata dell'aggiornamento massimo tempo di esecuzione, in millisecondi.<br> Input di medie dimensioni: Le dimensioni medie di input, espressa in byte, per la funzione di intelligenza artificiale eseguite da un aggiornamento del flusso di dati.<br> Dimensioni medie Output: Le dimensioni di output medio, in byte, per la funzione di intelligenza artificiale eseguite da un aggiornamento del flusso di dati. |
-| Primi 5 funzioni per intelligenza artificiale per durata media | Le cinque funzioni con il valore medio più lungo di aggiornamento durata, espressa in millisecondi. |
-| Primi 5 funzioni per intelligenza artificiale per dimensioni medie di Input | Le cinque funzioni con i dati più grande di medie dimensioni, in byte di input. |
-| Hourly Refresh Count and Memory Consumption | Operazioni riuscite, errori e utilizzo della memoria, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
-| Durata media oraria | La durata media di un aggiornamento, suddividere in bucket di un'ora, espresso in ora UTC. |
+| AI Memory Consumption | Utilizzo della memoria in GB, suddiviso in bucket di un'ora, indicati nell'ora UTC. |
+| Hourly AI Function Execution and Average Wait Time | Esecuzioni di intelligenza artificiale e tempo medio di attesa, in millisecondi, suddivisi in bucket di un'ora, indicati nell'ora UTC. |
+| Overall Usage | Total count (Conteggio totale): numero di funzioni di intelligenza artificiale in un'area di lavoro o flusso di dati. <br> System Reliability (Affidabilità del sistema): percentuale di esecuzioni completate.<br> Media Wait Time (Tempo medio di attesa): ritardo medio tra l'ora pianificata e l'inizio di un'esecuzione, espresso in millisecondi.<br> Max Wait Time (Tempo massimo di attesa): tempo di attesa massimo, espresso in millisecondi.<br> Media Duration (Durata media): durata media di un'esecuzione, espressa in millisecondi.<br> Max Duration (Durata massima): durata dell'esecuzione più prolungata, espressa in millisecondi.<br> Avg Total Size (Dimensioni totali medie): dimensioni medie, in byte, dei dati di input e output per la funzione di intelligenza artificiale. |
 | | |
 
 ### <a name="resource-consumption"></a>Resource Consumption
@@ -296,7 +294,7 @@ La scheda **IDs and Info** (ID e informazioni) contiene aree per **Capacities** 
 
 1. Aprire la capacità nel portale di Azure.
 
-1. Fare clic su **Controllo di accesso (IAM)** e quindi aggiungere l'app **Power BI Premium** al ruolo lettore. Se non si riesce a trovare l'app in base al nome, è possibile aggiungerlo anche dall'identificatore client: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. Fare clic su **Controllo di accesso (IAM)** e quindi aggiungere l'app **Power BI Premium** al ruolo lettore. Se non si riesce a trovare l'app in base al nome, è possibile aggiungerla anche in base all'ID client: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Autorizzazioni per Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 
@@ -307,4 +305,4 @@ La scheda **IDs and Info** (ID e informazioni) contiene aree per **Capacities** 
 ## <a name="next-steps"></a>Passaggi successivi
 
 > [!div class="nextstepaction"]
-> [Ottimizzazione della capacità di Power BI Premium](service-premium-capacity-optimize.md)
+> [Ottimizzazione delle capacità di Power BI Premium](service-premium-capacity-optimize.md)

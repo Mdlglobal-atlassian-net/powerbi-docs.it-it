@@ -11,23 +11,23 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 45d029d5f3aa51057a9ff9c3a18c5c324d21fac1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61206625"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721493"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Quali dati di esempio sono disponibili per l'uso con Power BI?
-Non si ha dimestichezza con Power BI e si vorrebbe provarlo, ma non si hanno dati da usare?  O forse si dispone di un set di dati. Non conoscendo (ancora) funzionamento di Power BI, è necessario che si teme di danneggiare il set di dati?
+Non si ha dimestichezza con Power BI e si vorrebbe provarlo, ma non si hanno dati da usare?  Oppure si ha un set di dati ma, non conoscendo ancora il funzionamento di Power BI, si teme di danneggiare in qualche modo il set di dati?
 
-Nessun problema! obviEnce ([www.obvience.com](http://www.obvience.com/)) e Microsoft hanno creato esempi che è possibile usare per acquisire familiarità con Power BI.  I dati sono stati resi anonimi e sono rappresentativi di diversi settori, come finanze, risorse umane, vendite e altri. Inoltre, la documentazione online Usa questi dati di esempio nelle esercitazioni ed esempi, pertanto sarà in grado di seguire la procedura.      
+Nessun problema! obviEnce ([www.obvience.com](http://www.obvience.com/)) e Microsoft hanno creato esempi che è possibile usare per acquisire familiarità con Power BI.  I dati sono stati resi anonimi e sono rappresentativi di diversi settori, come finanze, risorse umane, vendite e altri. Inoltre, la documentazione online usa questi stessi dati nelle esercitazioni e negli esempi, pertanto sarà possibile seguirne lo svolgimento.      
 
    ![Esempi disponibili](media/sample-datasets/power-bi-samples.png)
 
-Ognuno di questi esempi è disponibile in diversi formati: come pacchetto di contenuto, come singola cartella di lavoro di Excel e come file con estensione pbix. Se non si conoscono questi elementi o non si sa come ottenerli, nessun problema. Verranno illustrati più avanti in questo articolo. Per ogni esempio è stata creata una *tour*. Le presentazioni sono articoli che racconta la storia dietro il codice di esempio e illustra diversi scenari. Gli scenari possibili includono, ad esempio, la risposta alle domande per il responsabile, la ricerca di approfondimenti sulla concorrenza o la creazione di report e dashboard da condividere oppure la spiegazione di una variazione di business.   
+Ognuno di questi esempi è disponibile in diversi formati: come pacchetto di contenuto, come singola cartella di lavoro di Excel e come file con estensione pbix. Se non si conoscono questi elementi o non si sa come ottenerli, nessun problema. Verranno illustrati più avanti in questo articolo. Per ogni esempio è stata creata una *presentazione*. Le presentazioni sono articoli che raccontano la storia degli esempi e illustrano diversi scenari. Gli scenari possibili includono, ad esempio, la risposta alle domande per il responsabile, la ricerca di approfondimenti sulla concorrenza o la creazione di report e dashboard da condividere oppure la spiegazione di una variazione di business.   
 
-Prima di iniziare, ecco le linee guida legali per l'uso di esempi. Al termine, si introducono gli esempi e Mostra come usarli.   
+Prima di iniziare, leggere queste linee guida legali sull'uso degli esempi, quindi passare alla presentazione degli esempi e alla dimostrazione di come usarli.   
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Linee guida per l'utilizzo delle cartelle di lavoro di Excel di esempio per Power BI
 
@@ -39,7 +39,7 @@ Le cartelle di lavoro e i dati correlati sono forniti da obviEnce. [www.obvience
 
 ObviEnce è un ISV e un incubatore di proprietà intellettuale (IP) che si occupa principalmente di Microsoft Business Intelligence. ObviEnce collabora a stretto contatto con Microsoft per sviluppare procedure consigliate e leadership di pensiero per ottimizzare e distribuire soluzioni Microsoft Business Intelligence.
 
-Le cartelle di lavoro e i dati sono di proprietà di obviEnce, LLC e sono stati condivisi solo scopo di illustrare la funzionalità di Power BI con dati di esempio del settore.
+Le cartelle di lavoro e i dati sono di proprietà di obviEnce, LLC e sono stati condivisi al solo scopo di illustrare le funzionalità di Power BI con dati di esempio del settore.
 
 Eventuali usi delle cartelle di lavoro e/o dei dati devono includere l'attribuzione precedente (presente anche nel foglio di lavoro Info di ogni cartella di lavoro). La cartella di lavoro e le eventuali visualizzazioni devono essere accompagnate dal seguente avviso di copyright: obviEnce©.
 
@@ -51,17 +51,17 @@ Sono disponibili otto esempi che è possibile usare.  Ognuno di essi rappresenta
 ### <a name="customer-profitability-sample--customer-profitability-samplemediasample-datasetspower-bi-cp2png"></a>Esempio di analisi della redditività dei clienti  ![Esempio di analisi della redditività dei clienti](media/sample-datasets/power-bi-cp2.png)
 [Presentazione dell'esempio di analisi della redditività dei clienti](sample-customer-profitability.md)
 
-Questo esempio di settore analizza le metriche principali di una responsabile amministrativa per i dirigenti della società, prodotti e clienti. È possibile esaminare quali fattori influiscono sulla redditività della società.
+Questo esempio di settore analizza le metriche principali di una responsabile amministrativa relative ai dirigenti, prodotti e clienti dell'azienda. È possibile esaminare quali fattori influiscono sulla redditività della società.
 
 ### <a name="human-resources-sample--human-resources-samplemediasample-datasetspower-bi-hrpng"></a>Esempio di analisi delle risorse umane  ![Esempio di analisi delle risorse umane](media/sample-datasets/power-bi-hr.png)
 [Presentazione dell'esempio sulle risorse umane](sample-human-resources.md)
 
-Questo esempio di settore è incentrato sulla strategia di assunzione per una società analizzando i nuovi assunti, dipendenti attivi e i dipendenti che hanno lasciato.  Esplorando i dati è possibile trovare le tendenze relative alle separazioni volontarie e i pregiudizi nella strategia di assunzione.
+Questo esempio di settore esamina la strategia di assunzione di una società analizzando i dati relativi a nuovi assunti, dipendenti attivi ed ex dipendenti.  Esplorando i dati è possibile trovare le tendenze relative alle separazioni volontarie e i pregiudizi nella strategia di assunzione.
 
 ### <a name="it-spend-analysis-sample-it-spend-analysis-samplemediasample-datasetspower-bi-itpng"></a>Esempio di analisi della spesa IT ![Esempio di analisi della spesa IT](media/sample-datasets/power-bi-it.png)
 [Presentazione dell'esempio di analisi della spesa IT](sample-it-spend.md)
 
-In questo esempio di settore, vengono analizzati i pianificata e i costi effettivi del reparto IT di un'azienda. Il confronto consente di valutare l'accuratezza delle pianificazioni per l'anno in corso e verificare le aree che evidenziano importanti deviazioni dalla pianificazione. La società di questo esempio prevede un ciclo di pianificazione annuale e genera una nuova ultima stima ogni trimestre per valutare le variazioni nella spesa IT nel corso dell'esercizio fiscale.
+In questo esempio di settore vengono messi a confronto i costi pianificati e i costi effettivi del reparto IT di una società. Il confronto consente di valutare l'accuratezza delle pianificazioni per l'anno in corso e verificare le aree che evidenziano importanti deviazioni dalla pianificazione. La società di questo esempio prevede un ciclo di pianificazione annuale e genera una nuova ultima stima ogni trimestre per valutare le variazioni nella spesa IT nel corso dell'esercizio fiscale.
 
 ### <a name="opportunity-analysis-sample--opportunity-analysis-samplemediasample-datasetspower-bi-oapng"></a>Opportunity Analysis Sample  ![Opportunity Analysis Sample](media/sample-datasets/power-bi-oa.png)
 [Presentazione dell'esempio di analisi delle opportunità](sample-opportunity-analysis.md)
@@ -71,7 +71,7 @@ Questo esempio di settore esamina il canale di vendita di una società di softwa
 ### <a name="procurement-analysis-sample--procurement-analysis-samplemediasample-datasetspower-bi-papng"></a>Esempio di analisi dell'approvvigionamento  ![Esempio di analisi dell'approvvigionamento](media/sample-datasets/power-bi-pa.png)
 [Presentazione dell'esempio di analisi dell'approvvigionamento](sample-procurement.md)
 
-Questo esempio di settore analizza le metriche principali di una responsabile amministrativa per i dirigenti della società, prodotti e clienti. È possibile esaminare quali fattori influiscono sulla redditività della società.
+Questo esempio di settore analizza le metriche principali di una responsabile amministrativa relative ai dirigenti, prodotti e clienti dell'azienda. È possibile esaminare quali fattori influiscono sulla redditività della società.
 
 ### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Esempio di analisi delle vendite al dettaglio  ![Esempio di analisi delle vendite al dettaglio](media/sample-datasets/power-bi-rs.png)
 [Presentazione dell'esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md)
@@ -91,14 +91,14 @@ Questo esempio di settore è incentrato su una delle problematiche tipiche della
 Una volta indicato quali esempi sono disponibili, vediamo dove trovarli.  
 
 ## <a name="how-to-get-the-samples"></a>Come ottenere gli esempi
-Come spiegato sopra, gli esempi sono disponibili in vari formati: pacchetti di contenuto, cartelle di lavoro di Excel e file con estensione pbix. Verrà illustrato come utilizzare ognuno di questi formati, a partire da pacchetti di contenuto.
+Come spiegato sopra, gli esempi sono disponibili in vari formati: pacchetti di contenuto, cartelle di lavoro di Excel e file con estensione pbix. Verrà illustrato come usare ognuno di questi, a partire dai pacchetti di contenuto.
 
 ## <a name="the-power-bi-samples-as-content-packs"></a>Esempi di Power BI come pacchetti di contenuto
-I pacchetti di contenuto sono l'unico formato di esempio disponibile in Power BI e non è necessario uscire da Power BI per trovarli. Un pacchetto di contenuto è essenzialmente un raggruppamento di uno o più dashboard, i set di dati e report che un utente crea e che può essere utilizzato con il servizio Power BI. Gli utenti creano pacchetti di contenuto da condividere con i colleghi. Ognuno dei pacchetti di contenuto di esempio per Power BI contiene un set di dati, un report e un dashboard.  I pacchetti di contenuto non sono disponibili per Power BI Desktop. Per altre informazioni sui pacchetti di contenuto, vedere [Introduzione ai pacchetti di contenuto in Power BI](service-organizational-content-pack-introduction.md).
+I pacchetti di contenuto sono l'unico formato di esempio disponibile in Power BI e non è necessario uscire da Power BI per trovarli. Un pacchetto di contenuto è essenzialmente un'aggregazione di uno o più dashboard, set di dati e report creata da un utente e utilizzabile con il servizio Power BI. Gli utenti creano pacchetti di contenuto da condividere con i colleghi. Ognuno dei pacchetti di contenuto di esempio per Power BI contiene un set di dati, un report e un dashboard.  I pacchetti di contenuto non sono disponibili per Power BI Desktop. Per altre informazioni sui pacchetti di contenuto, vedere [Introduzione ai pacchetti di contenuto in Power BI](service-organizational-content-pack-introduction.md).
 
 ### <a name="get-and-open-a-sample-content-pack-in-power-bi-service"></a>Ottenere e aprire un pacchetto di contenuto di esempio nel servizio Power BI
 1. Aprire il servizio Power BI (app.powerbi.com) e accedere.
-2. Nell'angolo inferiore sinistro, selezionare **ottenere dati**.
+2. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
 
     ![Icona Recupera dati](media/sample-datasets/power-bi-get-data.png)
 3. Nella pagina Recupera dati che viene visualizzata selezionare l'icona **Esempi**.
@@ -128,8 +128,8 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella 
    * [Esempio di analisi di vendite e marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
 2. Salvare il file scaricato. La posizione di salvataggio è importante.
 
-   * ![Locale](media/sample-datasets/power-bi-local-file2.png) **Locale**: se si salva il file in un'unità locale del computer o in un'altra posizione all'interno dell'organizzazione, da Power BI è possibile importare il file in Power BI. Il file effettivamente rimarrà nell'unità locale, in modo che l'intero file non verranno importato in Power BI. Cosa accade è un nuovo set di dati viene creato il sito di Power BI e i dati e in alcuni casi, il modello di dati, vengono caricati nel set di dati. Se il file contiene report, questi report vengono visualizzati nel sito di Power BI in report.
-   * ![Aziendale di OneDrive](media/sample-datasets/power-bi-onedrive-file.png) **onedrive for Business** : se si ha OneDrive for Business e accesso al suo interno con lo stesso account di accesso a Power BI, OneDrive for Business è di gran lunga il modo migliore per sincronizzare il lavoro in Excel Power BI, o un oggetto. CSV file sincronizzati con il set di dati, report e dashboard in Power BI. Dato che sia Power BI che OneDrive sono nel cloud, Power BI si connette al file in OneDrive all'incirca ogni ora. Se vengono rilevate modifiche, il set di dati, i report e i dashboard vengono aggiornati automaticamente in Power BI.
+   * ![Locale](media/sample-datasets/power-bi-local-file2.png) **Locale**: se si salva il file in un'unità locale del computer o in un'altra posizione all'interno dell'organizzazione, da Power BI è possibile importare il file in Power BI. Il file in realtà rimane memorizzato nel disco locale, per cui non viene importato in Power BI. Viene invece creato un nuovo set di dati nel sito di Power BI e i dati, e in alcuni casi, il modello di dati, vengono caricati nel set di dati. Se il file contiene report, verranno visualizzati nel sito Power BI in Report.
+   * ![OneDrive Business](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business**: se si ha OneDrive for Business e si esegue l'accesso con lo stesso account con cui si accede a Power BI, OneDrive for Business è decisamente il modo migliore per mantenere il lavoro in un file di Excel, Power BI o in un file con estensione csv sincronizzato con il set di dati, i report e i dashboard in Power BI. Dato che sia Power BI che OneDrive sono nel cloud, Power BI si connette al file in OneDrive all'incirca ogni ora. Se vengono rilevate modifiche, il set di dati, i report e i dashboard vengono aggiornati automaticamente in Power BI.
    * ![OneDrive Personale](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personale**: se si salvano i file nel proprio account OneDrive personale, si ottengono molti dei vantaggi offerti da OneDrive for Business. La differenza principale consiste nel fatto che quando ci si connette al file per la prima volta (scegliendo Recupera dati > File > OneDrive - Personale) è necessario accedere a OneDrive con il proprio account Microsoft, che in genere è diverso da quello usato per accedere a Power BI. Quando si accede a OneDrive con l'account Microsoft, assicurarsi di selezionare l'opzione Mantieni l'accesso. In questo modo, Power BI potrà connettersi al file circa ogni ora e verificare che il set di dati in Power BI sia sincronizzato.
    * ![SharePoint - Siti del team](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Siti del team**: il salvataggio dei file di Power BI in SharePoint - Siti del team corrisponde a grandi linee al salvataggio in OneDrive for Business. La differenza principale è rappresentata dalla modalità di connessione al file da Power BI. Si può specificare un URL o connettersi alla cartella radice.
 1. Aprire il servizio Power BI (app.powerbi.com) e accedere.
@@ -138,7 +138,7 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella 
    > A questo punto è consigliabile creare un nuovo dashboard e assegnargli un nome corrispondente al file che si intende importare.  In caso contrario, quando si importerà il set di dati di Excel, Power BI non creerà un nuovo dashboard denominato in base all'esempio, ma aggiungerà un riquadro al dashboard attualmente aperto. Selezionando questo riquadro verrà visualizzato il report del set di dati. La differenza non è sostanziale perché è sempre possibile creare un nuovo dashboard in un secondo momento, ma se si inizia da un nuovo dashboard si risparmiano alcuni passaggi.
    >
    >
-4. Nell'angolo inferiore sinistro, selezionare **ottenere dati**.
+4. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
 
     ![Icona Recupera dati](media/sample-datasets/power-bi-get-data.png)
 5. Nella pagina Recupera dati che viene visualizzata selezionare **File > Recupera**.
@@ -147,27 +147,27 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella 
 6. Passare al percorso in cui è stato scaricato e salvato l'esempio.
 
    ![Percorso in cui è stato salvato l'esempio](media/sample-datasets/power-bi-files3.png)
-7. Selezionare il file, in questo caso **approvvigionamento Analysis Sample. xlsx**, che è stato salvato in OneDrive for Business e scegliere **Connect**.
+7. Selezionare il file, in questo caso **Procurement Analysis Sample.xlsx**, che è stato salvato in OneDrive for Business e scegliere **Connetti**.
 
    ![OneDrive for Business > Connetti](media/sample-datasets/power-bi-connect2.png)
 8. Scegliere se importare i dati o caricare la cartella di lavoro in Power BI e visualizzarla esattamente com'è in Excel Online.
 
     ![Importa o Connetti](media/sample-datasets/power-bi-import.png)
 9. Se si seleziona **Importa**, Power BI importa la cartella di lavoro e la aggiunge come nuovo set di dati denominato **Procurement Analysis Sample**.  Se la cartella di lavoro contiene fogli, tabelle o intervalli di Power View oppure un modello di dati, Power BI crea anche un report (con lo stesso nome). Inoltre, se non si è già aperto un dashboard, Power BI ne crea automaticamente uno nuovo. Se invece è già aperto un dashboard quando si fa clic su **Recupera dati**, si noterà un nuovo riquadro vuoto nel dashboard.  Selezionando questo riquadro è possibile accedere al report per il set di dati appena aggiunto. Il nuovo contenuto è denominato in base all'esempio ed è contrassegnato da un asterisco giallo.
-10. Quando viene visualizzata la schermata **Il set di dati è pronto** verrà visualizzata la schermata, selezionare **Visualizza set di dati** oppure **Ottieni informazioni rapide** oppure utilizzare la barra di spostamento a sinistra di Power BI per individuare e aprire il report associato o il dashboard.  
+10. Quando viene visualizzata la schermata **Il set di dati è pronto** selezionare **Visualizza set di dati** o **Ottieni informazioni rapide** oppure usare la barra di spostamento sinistra di Power BI per trovare e aprire il report o il dashboard associato.  
 
      ![Visualizza set di dati](media/sample-datasets/power-bi-ready.png)
 
 ### <a name="optional-take-a-look-at-the-excel-samples-from-inside-excel-itself"></a>(Facoltativo) Esaminare gli esempi di Excel direttamente da Excel
 Se si vuole comprendere come vengono convertiti i dati in una cartella di lavoro di Excel in report e set di dati di Power BI, aprendo gli esempi di Excel ***in Excel*** ed esplorando i fogli di lavoro è possibile ottenere alcuni chiarimenti utili.
 
-* Quando si apre una cartella di lavoro di esempio in Excel per la prima volta, possono essere visualizzati due avvisi. Il primo avviso sostiene che la cartella di lavoro è in visualizzazione protetta. Selezionare **Abilita modifica**. Il secondo avviso potrebbe indicare che la cartella di lavoro contiene connessioni dati esterne. Selezionare **Abilita contenuto**.
+* Quando si apre una cartella di lavoro di esempio in Excel per la prima volta, possono essere visualizzati due avvisi. Nel primo avviso si viene informati che la cartella di lavoro è in visualizzazione protetta. Selezionare **Abilita modifica**. Il secondo avviso potrebbe indicare che la cartella di lavoro contiene connessioni a dati esterni. Selezionare **Abilita contenuto**.
 * Ogni cartella di lavoro contiene più fogli di Power View. Se si desidera visualizzare i fogli di Power View in Excel, è necessario [abilitare il componente aggiuntivo Power View](https://support.office.com/article/flash-silverlight-and-shockwave-controls-blocked-in-microsoft-office-55738f12-a01d-420e-a533-7cef1ff6aeb1) scaricando un pacchetto di chiavi del Registro di sistema.
-* I dati effettivi si trovano nel modello di dati di Power Pivot. I fogli di Power View per visualizzare i dati non è necessario. Nel **PowerPivot** scheda, seleziona **Gestisci**.
+* I dati effettivi si trovano nel modello di dati di Power Pivot. Non sono necessari i fogli di Power View per visualizzare i dati. Nella scheda **PowerPivot** selezionare **Gestisci**.
 
-    Non vengono visualizzati i **Power Pivot** scheda? [abilitare il componente aggiuntivo Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
+    Se la scheda **PowerPivot** non è visibile, [abilitare il componente aggiuntivo Power Pivot](https://support.office.com/article/Start-Power-Pivot-in-Microsoft-Excel-2013-add-in-A891A66D-36E3-43FC-81E8-FC4798F39EA8).
 
-    In Power Pivot, è possibile visualizzare i dati in tutte le tabelle sottostanti, oltre a tutte le formule DAX. 
+    In Power Pivot è possibile visualizzare i dati di tutte le tabelle sottostanti oltre a tutte le formule DAX. 
 
 * La scheda Info fornisce informazioni su obviEnce, la società che ha creato l'esempio.
 
@@ -192,7 +192,7 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come file con 
 4. Selezionare il file con estensione pbix per aprirlo in Power BI Desktop.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
+[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 
 [Esercitazione: Connettersi agli esempi di Power BI](sample-tutorial-connect-to-the-samples.md)
 

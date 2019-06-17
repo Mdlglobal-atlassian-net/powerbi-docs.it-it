@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1166808dc827448f94bb84cc37bf4000df178c1d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e24e6f86cddcf328497c050f82612d36efa3a4ed
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61138052"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720506"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Connettersi a Webtrends con Power BI
 Il pacchetto di contenuto Webtrends per Power BI include una serie di metriche predefinite come, ad esempio, visualizzazioni pagina totali e visite per origine traffico. La visualizzazione dei dati Webtrends in Power BI inizia con la connessione al proprio account Webtrends. È possibile usare il dashboard e i report forniti oppure personalizzarli per evidenziare le informazioni a cui si è maggiormente interessati.  I dati verranno aggiornati automaticamente una volta al giorno.
@@ -103,5 +103,5 @@ Le credenziali sono uguali a quelle immesse per l'accesso a Webtrends, tuttavia 
 ## <a name="next-steps"></a>Passaggi successivi
 [Che cos'è Power BI?](power-bi-overview.md)
 
-[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
+[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 

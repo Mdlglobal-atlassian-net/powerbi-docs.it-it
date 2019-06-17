@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770258"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448442"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
@@ -40,7 +40,7 @@ Queste restrizioni e note possono cambiare dal momento che le esperienze vengono
 
 Il modo più semplice per spostarsi tra SQL Data Warehouse e Power BI consiste nell'usare il pulsante **Apri in Power BI** nel portale di Azure, che consente di iniziare a creare facilmente nuovi dashboard in Power BI.
 
-1. Per iniziare, passare all'istanza di SQL Data Warehouse nel portale di Azure. Si noti che al momento SQL Data Warehouse è presente solo nel portale di anteprima di Azure.
+1. Per iniziare, passare all'istanza di SQL Data Warehouse nel portale di Azure. Si noti che, al momento, solo SQL Data Warehouse è presente nel portale di Azure.
 
 2. Fare clic sul pulsante **Apri in Power BI**
 
@@ -64,13 +64,13 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
 
 3. Selezionare **SQL Data Warehouse**\>**Connetti**.
 
-    ![Azure SQL Data Warehouse con direct connect](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Azure SQL DW con connessione diretta](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. Immettere le informazioni necessarie per connettersi. Nella sezione in cui **trovare i parametri** descritta sotto, viene indicata la posizione dei dati nel portale di Azure.
+4. Immettere le informazioni necessarie per connettersi. La sezione **Trovare i valori dei parametri** indica la posizione di questi dati nel portale di Azure.
 
     ![Nome del server](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![Nome del server avanzate](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![Nome del server avanzato](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![Nome utente](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -83,16 +83,18 @@ SQL Data Warehouse è elencato anche nella pagina Recupera dati di Power BI.
 
 6. È possibile esplorare tutte le tabelle e le colonne. Selezionando una colonna verrà inviata una query all'origine e verrà quindi creato dinamicamente l'oggetto visivo. I filtri verranno anche convertiti in query nel proprio data warehouse. Questi elementi visivi possono essere salvati in un nuovo report e aggiunti al proprio dashboard.
 
-    ![Esplorare 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+    ![Esplora 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
 
 ## <a name="finding-parameter-values"></a>Trovare i valori dei parametri
 
-I nomi completi del server e del database sono disponibili nel portale di Azure. Si noti che al momento SQL Data Warehouse è presente solo nel portale di anteprima di Azure.
+I nomi completi del server e del database sono disponibili nel portale di Azure. Si noti che, al momento, solo SQL Data Warehouse è presente nel portale di Azure.
 
 ![Portale di Azure](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Se il tenant di Power BI è nella stessa area di Azure SQL Data Warehouse non saranno applicati costi di uscita. Per sapere dove si trova il tenant di Power BI usare [queste istruzioni](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Passaggi successivi
 

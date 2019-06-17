@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a8acb5ab382c541b330d3448da8187238c42a3f5
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136294"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720301"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Aggiungere un riquadro a un dashboard di Power BI da un report
 ## <a name="pinning-tiles-from-a-report"></a>Aggiunta di riquadri da un report
@@ -66,7 +66,7 @@ Per altre informazioni, vedere [Aggiungere un'intera pagina del report](service-
 
 [Aggiornamento dei dati in Power BI](refresh-data.md)
 
-[Concetti di base di Power BI](consumer/end-user-basic-concepts.md)
+[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

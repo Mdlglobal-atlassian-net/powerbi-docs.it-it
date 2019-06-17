@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9836cd88bef5066f61a8ae44eabe7685196e2bed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59c9488def297537cc2ea944f6c0fc4f59ba29ba
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65624932"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720903"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Abilitare Domande e risposte con le connessioni dinamiche in Power BI
 ## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>Che cos'è il gateway dati locale?  Che cos'è una connessione dinamica?
-I set di dati in Power BI possono essere importati in Power BI oppure è possibile creare una connessione dinamica ad essi. Live connessione i set di dati vengono spesso definite come "locale". Le connessioni dinamiche vengono gestite con un [gateway](service-gateway-onprem.md) e lo scambio dei dati e delle richieste di informazioni avviene usando query dinamiche.
+I set di dati in Power BI possono essere importati in Power BI oppure è possibile creare una connessione dinamica ad essi. I set di dati con connessione dinamica sono spesso definiti "locali". Le connessioni dinamiche vengono gestite con un [gateway](service-gateway-onprem.md) e lo scambio dei dati e delle richieste di informazioni avviene usando query dinamiche.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>Domande e risposte sui set di dati del gateway dati locale
 Se si intende usare Domande e risposte con i set di dati a cui si accede tramite un gateway, è prima necessario abilitarli.
@@ -33,7 +33,7 @@ Poiché Domande e risposte di Power BI usa i valori di testo e schema dell'origi
 Per altre informazioni, vedere:
 
 * Che cos'è il [gateway dati locale](service-gateway-onprem.md)?
-* [Per gli utenti di Power BI Q & a](consumer/end-user-q-and-a.md)
+* [Domande e risposte per i consumer di Power BI](consumer/end-user-q-and-a.md)
 
 ## <a name="enable-qa"></a>Abilitare Domande e risposte
 Dopo aver configurato il gateway dati, connettersi ai dati da Power BI.  Creare un dashboard usando i dati locali oppure caricare un file con estensione pbix che usa i dati locali.  È possibile che già si disponga di dati locali in dashboard, report e set di dati precedentemente condivisi con l’utente.
@@ -54,16 +54,16 @@ Quando si abilita Domande e risposte per i dati locali, nella cache del servizio
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 La funzionalità presenta alcune limitazioni:
 
-* La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. Esperienza di domande e risposte non è ancora supportata per la modalità multidimensionale. Altre origini dati supportate dal gateway dati locale verranno implementate durante in futuro.
-* Il supporto completo per la sicurezza a livello di riga definito in SQL Server Analysis Services non è disponibile inizialmente. Quando si formulano domande in domande e risposte, il "completamento automatico" delle domande durante la digitazione può mostrare valori di stringa un utente non ha accesso a. Tuttavia, poiché la sicurezza a livello di riga definita nel modello viene rispettata per gli oggetti visivi dei report e dei grafici, non c’è la possibilità che vengano esposti i dati numerici sottostanti. Le opzioni per controllare questo comportamento verranno rilasciate nei prossimi aggiornamenti.
-* Sicurezza a livello di oggetto (amministrazione) non è supportata. Domande e risposte non rispettino la sicurezza a livello di oggetto e consente di rilevare nomi di tabella o colonna per gli utenti autorizzati ad accedere a essi. Si consiglia pertanto di abilitare la sicurezza a livello di riga per fare in modo che anche i valori dei dati siano protetti in modo adeguato. 
-* Le connessioni dinamiche sono supportate solo con il gateway dati locale. Di conseguenza, questo non è utilizzabile con il gateway personale.
+* La funzionalità è inizialmente disponibile solo per le origini dati tabulari di SQL Server 2016 Analysis Services. La funzionalità è ottimizzata per funzionare con i dati tabulari. L'uso di Domande e risposte non è ancora supportato per la modalità multidimensionale. Altre origini dati supportate dal gateway dati locale verranno implementate durante in futuro.
+* Il supporto completo per la sicurezza a livello di riga definito in SQL Server Analysis Services non è inizialmente disponibile. Quando si formulano domande in Domande e risposte, il "completamento automatico" delle domande durante la digitazione può mostrare valori di stringa a cui un utente non ha accesso. Tuttavia, poiché la sicurezza a livello di riga definita nel modello viene rispettata per gli oggetti visivi dei report e dei grafici, non c’è la possibilità che vengano esposti i dati numerici sottostanti. Le opzioni per controllare questo comportamento verranno rilasciate nei prossimi aggiornamenti.
+* La sicurezza a livello di oggetto non è supportata. Domande e risposte non rispetta la sicurezza a livello di oggetto e può rivelare nomi di tabella o colonna ad utenti non autorizzati ad accedervi. Si consiglia pertanto di abilitare la sicurezza a livello di riga per fare in modo che anche i valori dei dati siano protetti in modo adeguato. 
+* Le connessioni dinamiche sono supportate solo con il gateway dati locale. Di conseguenza, esso non è utilizzabile con il gateway personale.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Gateway dati locale](service-gateway-onprem.md)  
 - [Gestire l'origine dati - Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-- [Power BI: Concetti di base](consumer/end-user-basic-concepts.md)  
+- [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
 - [Panoramica di Domande e risposte di Power BI](consumer/end-user-q-and-a.md)  
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

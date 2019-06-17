@@ -1,6 +1,6 @@
 ---
-title: Sottoscrivere autonomamente e altri report e dashboard - Power BI
-description: Informazioni su come sottoscrivere uno snapshot di una pagina di report di Power BI, dashboard o report impaginato di se stessi e ad altri utenti.
+title: Sottoscrivere per se stessi e altri utenti report e dashboard - Power BI
+description: Informazioni su come sottoscrivere per se stessi e altri utenti uno snapshot di una pagina di report, un dashboard o un report impaginato di Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991123"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498077"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
-È possibile sottoscrivere autonomamente e i colleghi per le pagine del report, dashboard e report impaginati che più importanti. Power BI via email uno snapshot nella posta in arrivo. Indicare a Power BI con che frequenza si vuole ricevere i messaggi di posta elettronica: giornaliera, settimanale o una volta al giorno dopo l'aggiornamento iniziale dei dati.  Se si sceglie giornaliera o settimanale, è possibile scegliere l'ora si desidera avere la sottoscrizione eseguire.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni pagina di report e dashboard.
+È possibile effettuare una sottoscrizione per se stessi e i propri colleghi per le pagine di report, i dashboard e i report impaginati più importanti. Power BI invierà uno snapshot alla Posta in arrivo. Indicare a Power BI con che frequenza si vuole ricevere i messaggi di posta elettronica: giornaliera, settimanale o una volta al giorno dopo l'aggiornamento iniziale dei dati.  Se si sceglie la frequenza giornaliera o settimanale, è possibile scegliere gli orari in cui eseguire la sottoscrizione.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni pagina di report e dashboard.
 
 ![Snapshot tramite posta elettronica del dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -30,13 +30,12 @@ ms.locfileid: "65991123"
 
 - La **creazione** di una sottoscrizione è una funzionalità di Power BI Pro.
 - Non sono necessarie autorizzazioni per la modifica del contenuto (dashboard o report) per creare una sottoscrizione per se stessi, ma tali autorizzazioni sono obbligatorie se si vuole creare una sottoscrizione per altri. 
-- A partire da gennaio 2019, non è necessario che sia configurato l'aggiornamento del set di dati per eseguire una sottoscrizione,  che viene eseguita a prescindere da eventuali aggiornamenti pianificati configurati.  
 
-## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Sottoscrivere un dashboard, una pagina del report o un report impaginato
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Sottoscrivere un dashboard, una pagina di report o un report impaginato
 
-Fatto che si sottoscriva un dashboard, report, o report impaginato, il processo è simile. Lo stesso pulsante consente di effettuare la sottoscrizione ai dashboard e ai report del servizio Power BI.
+Il processo di sottoscrizione a un dashboard, un report o un report impaginato è molto simile. Lo stesso pulsante consente di effettuare la sottoscrizione ai dashboard e ai report del servizio Power BI.
 
-Sottoscrivere i report impaginati è leggermente diverso. Visualizzare [sottoscrivere un report impaginato nel servizio Power BI se stessi e ad altri utenti](paginated-reports-subscriptions.md) per informazioni dettagliate.
+Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli, vedere [Subscribe yourself and others to a paginated report in the Power BI service](paginated-reports-subscriptions.md) (Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI).
  
 ![Selezionare l'icona Sottoscrivi](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -64,7 +63,7 @@ Sottoscrivere i report impaginati è leggermente diverso. Visualizzare [sottoscr
 7. Selezionare **Salva e chiudi**. Gli utenti con sottoscrizione ricevono un messaggio di posta elettronica e uno snapshot della pagina di report o del dashboard per la frequenza e l'ora selezionate. In tutto, si possono creare fino a 24 sottoscrizioni per report o dashboard ed è possibile specificare destinatari, frequenze e orari univoci per ogni sottoscrizione.  Tutte le sottoscrizioni impostate su **Dopo l'aggiornamento dei dati** per il dashboard o report invieranno ancora un messaggio di posta elettronica dopo il primo aggiornamento pianificato.   
       
    > [!TIP]
-   > Se si vuole inviare il messaggio di posta elettronica da una sottoscrizione immediatamente o su richiesta in qualsiasi momento, selezionare **Esegui** per le sottoscrizioni per il dashboard o il report da inviare. Verrà visualizzata la notifica dell'invio di un messaggio di posta elettronica a tutti gli utenti per la sottoscrizione specifica.  È possibile farlo con la frequenza nel modo desiderato. dato che non viene conteggiata per il limite di 24 esecuzioni pianificate al giorno per report o dashboard per la sottoscrizione. Non attiva un aggiornamento di dati del set di dati sottostante. 
+   > Se si vuole inviare il messaggio di posta elettronica da una sottoscrizione immediatamente o su richiesta in qualsiasi momento, selezionare **Esegui** per le sottoscrizioni per il dashboard o il report da inviare. Verrà visualizzata la notifica dell'invio di un messaggio di posta elettronica a tutti gli utenti per la sottoscrizione specifica.  È possibile eseguire questa operazione ogni volta che si vuole, dato che non viene conteggiata per il limite di 24 esecuzioni pianificate al giorno per report o dashboard per la sottoscrizione. Tale esecuzione NON attiva l'aggiornamento dei dati del set di dati sottostante. 
    > 
    > 
    
@@ -87,10 +86,11 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
-* È possibile che i dashboard con più di 25 riquadri aggiunti o più di 4 pagine report dinamiche aggiunte non vengano visualizzati interamente nei messaggi di posta elettronica della sottoscrizione inviati agli utenti.  Le sottoscrizioni ai dashboard tramite questi numero di riquadri non vengono bloccate. Tuttavia, sono considerate non è supportato se si verificano problemi. È possibile modificare di conseguenza per rientrano in un intervallo supportato.
-* Quando si configurano le sottoscrizioni tramite posta elettronica, tenere presente che si verifica un ritardo tra quando viene avviato il processo di sottoscrizione e l'ora esatta che viene inviato il messaggio di posta elettronica.  Per ridurre al minimo il ritardo tra i due, consente di impostare un'ora diversa per l'aggiornamento pianificato dei dati rispetto a quando la sottoscrizione di posta elettronica è pianificata l'esecuzione.
-* Per le sottoscrizioni tramite posta elettronica di dashboard, se tutte le sezioni dispone di sicurezza a livello di riga (RLS) applicata, tali riquadri non vengono visualizzati.  
-* Per le sottoscrizioni tramite posta elettronica di report, se il set di dati Usa a livello di riga, è possibile creare una sottoscrizione per se stessi. È possibile sottoscrivere altri utenti a un report con sicurezza a livello di riga (RLS) applicata.
+* È possibile che i dashboard con più di 25 riquadri aggiunti o più di 4 pagine report dinamiche aggiunte non vengano visualizzati interamente nei messaggi di posta elettronica della sottoscrizione inviati agli utenti.  Le sottoscrizioni di dashboard con un numero superiore di riquadri non vengono bloccate. Tuttavia, vengono considerate senza supporto nel caso in cui si verifichino problemi. Considerare la possibilità di modificarli in modo da farli rientrare in un intervallo supportato.
+* Questo è il momento in cui inizia il processo di sottoscrizione. In alcune situazioni possono trascorrere alcuni minuti prima che il messaggio venga recapitato alla Posta in arrivo.
+* In rare occasioni il recapito delle sottoscrizioni via posta elettronica ai destinatari può richiedere più di 15 minuti. In questo caso è consigliabile eseguire l'aggiornamento dei dati e la sottoscrizione via posta elettronica in momenti diversi per garantire il recapito tempestivo. Se il problema persiste, contattare il supporto di Power BI.
+* Per le sottoscrizioni via posta elettronica dei dashboard, i riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.  
+* Per le sottoscrizioni via posta elettronica dei report, gli utenti non possono creare una sottoscrizione da soli se il set di dati usa la sicurezza a livello di riga. Non è possibile sottoscrivere per altri utenti un report a cui è stata applicata la sicurezza a livello di riga.
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e dopo la si rinomina, è necessario ricreare la sottoscrizione.
 * L'organizzazione potrebbe configurare determinate impostazioni in Azure Active Directory per limitare la possibilità di usare le sottoscrizioni tramite posta elettronica in Power BI.  Queste limitazioni includono, a titolo di esempio, l'autenticazione a più fattori o la presenza di restrizioni dell'intervallo IP quando si accede alle risorse.
 * Attualmente le sottoscrizioni tramite posta elettronica per report e dashboard che usano connessioni dinamiche non sono supportate per le sottoscrizioni di altri utenti.
@@ -105,6 +105,6 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Sottoscrizione di se stessi o altri utenti a un report impaginato nel servizio Power BI](paginated-reports-subscriptions.md)
+- [Subscribe yourself and others to a paginated report in the Power BI service](paginated-reports-subscriptions.md) (Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI)
 - Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)    
 - [Leggere il post di blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

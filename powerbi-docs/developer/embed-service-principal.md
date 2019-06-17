@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375072"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720350"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entità servizio con Power BI (anteprima)
 
@@ -120,7 +120,7 @@ A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entit�
 
 5. Aggiungere l'entità servizio come **amministratore** alla nuova area di lavoro creata. È possibile gestire questa attività tramite le [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o il servizio Power BI.
 
-    ![Aggiungere un'entità servizio come amministratore per un'area di lavoro](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Aggiungere un'entità servizio come amministratore a un'area di lavoro](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Scegliere se incorporare il contenuto all'interno di un'applicazione di esempio o all'interno della propria applicazione.
 
@@ -168,17 +168,17 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 
 * L'entità servizio funziona solo con [nuove aree di lavoro dell'app](../service-create-the-new-workspaces.md).
 * L'**area di lavoro personale** non è supportata durante l'uso dell'entità servizio.
-* La capacità Premium dedicata è necessaria per passare alla produzione.
+* La capacità dedicata è necessaria per passare alla produzione.
 * Non è possibile accedere al portale di Power BI usando l'entità servizio.
 * Per abilitare l'entità servizio nelle impostazioni sviluppatore all'interno del portale di amministrazione di Power BI sono necessari i diritti di amministratore di Power BI.
 * Non è possibile installare o gestire un gateway dati locale usando l'entità servizio.
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non sono in grado di usare l'entità servizio.
 * La gestione dei [flussi di dati](../service-dataflows-overview.md) non è supportata.
-* Entità servizio attualmente non supporta tutte le API di amministrazione.
+* L'entità servizio attualmente non supporta le API di amministrazione.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Registrare un'app](register-app.md)
 * [Power BI Embedded per i clienti](embed-sample-for-customers.md)
 * [Oggetti applicazione e oggetti entità servizio in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Sicurezza a livello di riga usando il gateway dati locale con l'entità servizio (anteprima)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Sicurezza a livello di riga con gateway dati locale con entità servizio (anteprima)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

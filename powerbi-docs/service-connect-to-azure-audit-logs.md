@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 85872b43e984a1cf9c08500bb03f6ed50baef31e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 005913bc6af73f9b20db3cff7d12733f721eef3a
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61178926"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720600"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Connettersi ai log di controllo di Azure con Power BI
 Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare e visualizzare le informazioni archiviate nei log di controllo. Power BI recupera i dati, crea un dashboard predefinito e report basati su tali dati.
@@ -70,5 +70,5 @@ Se viene visualizzato un errore di credenziali o un errore durante il tentativo 
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Che cos'è Power BI?](power-bi-overview.md)  
-[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)  
+[Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
 

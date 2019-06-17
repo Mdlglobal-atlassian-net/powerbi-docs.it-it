@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f7e8d58e5fd738e5da678723ef239f5303be5070
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226123"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721183"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
@@ -75,6 +75,6 @@ Tutti i membri del gruppo di distribuzione hanno le stesse autorizzazioni per i 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare e pubblicare un pacchetto di contenuto aziendale](service-organizational-content-pack-create-and-publish.md)
 * [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md) 
-* [Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
+* [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 * Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

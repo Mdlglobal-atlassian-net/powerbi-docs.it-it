@@ -1,6 +1,6 @@
 ---
 title: Aggiungere collegamenti ipertestuali a una tabella
-description: Usare Power BI Desktop per creare collegamenti ipertestuali. Quindi usare Power BI Desktop o nel servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle di report e alle matrici.
+description: Usare Power BI Desktop per creare collegamenti ipertestuali. Usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421580"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721369"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Aggiungere collegamenti ipertestuali a una tabella
 Questo argomento illustra come usare Power BI Desktop per creare collegamenti ipertestuali. Usare quindi Power BI Desktop o il servizio Power BI per aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici di report. 
@@ -24,11 +24,11 @@ Questo argomento illustra come usare Power BI Desktop per creare collegamenti ip
 ![Tabella con collegamenti ipertestuali](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> È possibile creare i collegamenti ipertestuali [riquadri nei dashboard](service-dashboard-edit-tile.md) e [caselle di testo nei dashboard](service-dashboard-add-widget.md) al volo usando il servizio Power BI. È possibile creare i collegamenti ipertestuali [caselle di testo nei report](service-add-hyperlink-to-text-box.md) al volo usando il servizio Power BI e Power BI Desktop.
+> È possibile creare i collegamenti ipertestuali nei [riquadri dei dashboard](service-dashboard-edit-tile.md) e le [caselle di testo nei dashboard](service-dashboard-add-widget.md) in tempo reale con il servizio Power BI. I collegamenti ipertestuali nelle [caselle di testo nei report](service-add-hyperlink-to-text-box.md) possono essere creati in tempo reale con il servizio Power BI e Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Per creare un collegamento ipertestuale in una tabella o in una matrice con Power BI Desktop
-È possibile creare collegamenti ipertestuali in tabelle e matrici in Power BI Desktop, ma non nel servizio Power BI. È anche possibile creare collegamenti ipertestuali in Excel Power Pivot prima di importare la cartella di lavoro in Power BI. Entrambi i metodi sono descritti di seguito.
+È possibile creare collegamenti ipertestuali in tabelle e matrici in Power BI Desktop ma non nel servizio Power BI. I collegamenti ipertestuali possono anche essere creati in Power Pivot per Excel prima dell'importazione della cartella di lavoro in Power BI. Entrambi i metodi sono descritti di seguito.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Creare un collegamento ipertestuale alla tabella o alla matrice in Power BI Desktop
 La procedura per aggiungere un collegamento ipertestuale varia a seconda che i dati siano stati importati o connessi al server con DirectQuery. Entrambi gli scenari sono descritti di seguito.
@@ -99,7 +99,7 @@ R: No. È possibile usare un'icona di collegamento. Se è necessario testo perso
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI - Concetti di base](consumer/end-user-basic-concepts.md)
+[Concetti di base del servizio Power BI](service-basic-concepts.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 
