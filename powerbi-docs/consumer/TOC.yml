@@ -106,6 +106,8 @@
       items:
         - name: Glossario e terminologia
           href: end-user-glossary.md
+        - name: Domande frequenti
+          href: end-user-faq.md
         - name: Browser supportati
           href: end-user-browsers.md
         - name: Tipi di informazioni rapide supportate da Power BI
