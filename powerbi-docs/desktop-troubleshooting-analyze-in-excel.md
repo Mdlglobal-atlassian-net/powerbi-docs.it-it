@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514576"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408328"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Risoluzione dei problemi di Analizza in Excel
+
 Quando si usa Analizza in Excel, a volte si ottiene un risultato imprevisto oppure la funzionalità non funziona correttamente. Questa pagina offre soluzioni per problemi comuni nell'uso di Analizza in Excel.
 
 > [!NOTE]
@@ -57,8 +58,6 @@ Nella finestra di dialogo visualizzata selezionare **Scarica (anteprima)** .
 Se le librerie client del provider OLE DB di Excel sono aggiornate, verrà visualizzata una finestra di dialogo simile alla seguente:
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-content-pr\articles\media\powerbi-desktop-troubleshooting-analyze-in-excel
 
 Se invece la versione in fase di installazione è più recente della versione presente nel computer, verrà visualizzata la finestra di dialogo seguente:
 
