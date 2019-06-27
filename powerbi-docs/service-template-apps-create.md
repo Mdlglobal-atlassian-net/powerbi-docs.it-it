@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: maggies
-ms.openlocfilehash: 653050fbe5c860ef1902a4700c3a70a8af2f7092
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514977"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751203"
 ---
 # <a name="create-a-template-app-in-power-bi-preview"></a>Creare un'app modello in Power BI (anteprima)
 
 Le nuove *app modello* di Power BI consentono ai partner Power BI di creare app Power BI con un uso minimo o nullo di codice e quindi di distribuire le app a qualsiasi cliente Power BI.  Questo articolo contiene istruzioni dettagliate per la creazione di un'app modello di Power BI.
 
-Se è possibile creare dashboard e report di Power BI, può diventare una *generatore di app modello* e compila e Impacchetta contenuti analitici in un *app*. È possibile distribuire l'app ad altri tenant di Power BI tramite qualsiasi piattaforma disponibile, ad esempio AppSource o utilizzandolo in un proprio servizio web. Come generatore si ha la possibilità per creare un pacchetto protetto analitica per la distribuzione.
+Se si ha familiarità con la creazione di report e dashboard di Power BI, è possibile diventare un *creatore di app modello* per integrare e organizzare contenuti analitici in un'*app*. È possibile distribuire l'app ad altri tenant di Power BI tramite qualsiasi piattaforma disponibile, ad esempio con AppSource, oppure usandola nel proprio servizio Web. In qualità di creatore dell'app è possibile creare un pacchetto analitico protetto per la distribuzione.
 
-Gli amministratori tenant di Power BI determinano quali utenti dell'organizzazione sono autorizzati a creare app modello e quali utenti possono installare tali app. Gli utenti che sono autorizzati possono installare l'app di modello, quindi modificarla e distribuirla agli utenti di Power BI all'interno dell'organizzazione.
+Gli amministratori tenant di Power BI determinano quali utenti dell'organizzazione sono autorizzati a creare app modello e quali utenti possono installare tali app. Gli utenti autorizzati possono installare l'app modello, quindi modificarla e distribuirla agli utenti Power BI dell'organizzazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -30,7 +30,7 @@ I requisiti per la creazione di un'app modello sono i seguenti:
 
 - Una [licenza di Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Un'[installazione di Power BI Desktop](desktop-get-the-desktop.md) (facoltativa)
-- Familiarità con la [concetti di base di Power BI](service-basic-concepts.md)
+- Conoscenza dei [concetti di base di Power BI](service-basic-concepts.md)
 - Autorizzazioni per la creazione di un'app modello. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale dell'amministratore](service-admin-portal.md#template-apps-settings-preview) di Power BI.
 
 ## <a name="enable-app-developer-mode"></a>Abilitare la modalità di sviluppo app
@@ -66,7 +66,7 @@ Per creare un'app distribuibile ad altri tenant di Power BI è necessario crearl
 
 5. Selezionare **Salva**.
 >[!NOTE]
->L'amministratore di Power BI per alzare di livello App modello sono necessarie autorizzazioni.
+>Sono necessarie le autorizzazioni dell'amministratore di Power BI per alzare di livello le app modello.
 
 ## <a name="create-the-content-in-your-template-app"></a>Creare il contenuto nell'app modello
 
@@ -86,43 +86,43 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
 
     ![Crea app](media/service-template-apps-create/power-bi-create-app.png)
 
-    In questo caso, riempire nelle opzioni di compilazione aggiuntivi per l'app di modello, in cinque categorie:
+    Definire le opzioni di compilazione aggiuntive per l'app modello, suddivise in cinque categorie:
 
     **Personalizzazione**
 
     ![Personalizzazione](media/service-template-apps-create/power-bi-create-branding.png)
     - Nome dell'app
     - Descrizione
-    - Sito del supporto tecnico (collegamento viene presentato sotto info app dopo la ridistribuzione di modello app come app per l'organizzazione)
-    - Logo dell'App (dimensione massima dei file 45 KB, proporzioni 1:1, i formati JPEG. jpg. PNG)
-    - Colore del tema App
+    - Sito del supporto (il collegamento viene presentato sotto le info dell'app dopo la ridistribuzione dell'app modello come app per l'organizzazione)
+    - Logo dell'app (dimensione massima dei file 45K, proporzioni 1:1, formato png, jpg, jpeg)
+    - Colore del tema dell'app
 
     **Contenuto**
 
-    **Pagina di destinazione di App:** Definire un report o dashboard in cui eseguire la pagina di destinazione dell'app, usare una pagina di destinazione che fornirà l'impressione di destra:
+    **Pagina di destinazione dell'app:** Definire il report o dashboard che sarà la pagina di destinazione dell'app, usare una pagina di destinazione che dia l'impressione giusta:
 
     ![Contenuto](media/service-template-apps-create/power-bi-create-content.png)
 
     **Controllo**
 
-    Impostare i limiti e restrizioni che gli utenti dell'applicazione hanno con il contenuto dell'applicazione. È possibile utilizzare questo controllo per la protezione della proprietà intellettuale nell'app.
+    Impostare limitazioni e restrizioni per gli utenti dell'applicazione in merito al contenuto dell'applicazione. È possibile usare questo controllo per proteggere i dati dell'app coperti da proprietà intellettuale.
 
     ![Controllo](media/service-template-apps-create/power-bi-create-control.png)
 
     >[!NOTE]
-    >Esportazione in formato pbix è sempre bloccato per gli utenti che installano l'app.
+    >L'esportazione in formato pbix è sempre bloccata per gli utenti che installano l'app.
 
     **Parametri**
 
-    Usare questa categoria per gestire il comportamento di parametro quando ci si connette a origini dati. Altre informazioni sulle [creazione di parametri di query](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
+    Usare questa categoria per gestire il comportamento dei parametri quando ci si connette a origini dati. Per altre informazioni, vedere la [creazione di parametri di query](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).
 
     ![Parametri](media/service-template-apps-create/power-bi-create-parameters.png)
-    - **Valore**: il valore di parametro predefinito.
-    - **Obbligatorio**: utilizzare questa opzione per richiedere il programma di installazione inserire un parametro specifico dell'utente.
-    - **Blocco**: Il blocco impedisce l'aggiornamento di un parametro il programma di installazione.
-    - **Statico**: Abilitare nel caso in cui l'app contiene *solo* campionare i dati. Quando si seleziona **statici**, l'installazione guidata non chiede agli utenti di connettersi a un'origine dati.
+    - **Valore**: valore del parametro predefinito.
+    - **Obbligatorio**: usare questa opzione per richiedere che il programma di installazione inserisca un parametro specifico dell'utente.
+    - **Blocco**: il blocco impedisce al programma di installazione di aggiornare un parametro.
+    - **Static** (Statico): abilitare l'opzione nel caso in cui l'app contenga *solo* dati di esempio. Quando si seleziona **Static** (Statico), l'installazione guidata non chiede agli utenti di connettersi a un'origine dati.
 
-    **Accesso** nella fase di test, decidere quali altri utenti nell'organizzazione possono installare e testare l'app. Non preoccuparti, è sempre possibile tornare indietro e modificare queste impostazioni in un secondo momento (impostazione non influisce sull'accesso dell'app modello distribuito).
+    **Accesso** Nella fase di test è possibile decidere quali altri utenti nell'organizzazione possono installare e testare l'app. È sempre possibile tornare indietro e modificare queste impostazioni in un secondo momento. Questa impostazione non influisce sull'accesso all'app modello distribuita.
 
 2. Selezionare **Crea app**.
 
@@ -141,9 +141,9 @@ Prima di rilasciare pubblicamente l'app modello è importante verificare che sia
 - Alzare di livello il pacchetto di pre-produzione a Produzione: versione di produzione.
 - Eliminare tutti i pacchetti o iniziare di nuovo dalla fase precedente.
 
-L'URL non cambia quando si spostano tra le fasi di rilascio. Innalzamento di livello non ha alcun effetto nell'URL stesso.
+L'URL non cambia passando da una fase di rilascio a un'altra. L'innalzamento di livello non ha alcun effetto sull'URL.
 
-Verrà ora analizzato le fasi:
+Di seguito sono riportate le fasi in dettaglio:
 
 1. Nell'area di lavoro delle app modello selezionare **Release Management**.
 
@@ -171,15 +171,15 @@ Verrà ora analizzato le fasi:
     ![Operazioni iniziali con la nuova app](media/service-template-apps-create/power-bi-template-app-get-started.png)
 8. Selezionare **Esplora app** per verificare l'app di test con i dati di esempio.
 9. Per apportare modifiche, tornare all'app nell'area di lavoro originale. Aggiornare l'app di test fino a quando non si è soddisfatti.
-10. Quando si è pronti a promuovere l'app nell'ambiente di pre-produzione per altri test all'esterno del tenant, tornare indietro per la **Release Management** riquadro, quindi selezionare **Alza di livello app**. 
+10. Quando si è pronti per alzare di livello l'app alla pre-produzione per altri test all'esterno del tenant, tornare al riquadro **Release Management** e selezionare **Alza di livello app**. 
 
     ![Alzare di livello l'app alla versione di pre-produzione](media/service-template-apps-create/power-bi-template-app-promote.png)
 
     >[!NOTE]
-    > Quando l'app viene promossa diventa disponibile pubblicamente all'esterno dell'organizzazione.
+    > Quando l'app viene alzata di livello diventa disponibile pubblicamente all'esterno dell'organizzazione.
 
 11. Selezionare **Alza di livello** per confermare la scelta.
-12. Copiare il nuovo URL da condividere all'esterno del tenant per i test. Questo collegamento è anche quello l'invio per iniziare il processo di distribuzione dell'app in AppSource mediante la creazione di un [nuova offerta Cloud Partner Portal](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Inviare solo pre-produzione collegamenti al portale Cloud Partner. Solo dopo che l'app viene approvata e si riceve notifica che la pubblicazione in AppSource, quindi è possibile alzare di livello questo pacchetto nell'ambiente di produzione in Power BI.
+12. Copiare il nuovo URL da condividere all'esterno del tenant per i test. Questo collegamento è lo stesso che si invia per iniziare il processo di distribuzione dell'app in AppSource creando una [nuova offerta nel portale Cloud Partner](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Inviare solo collegamenti di pre-produzione nel portale Cloud Partner. Solo dopo che l'app viene approvata e si riceve la notifica della pubblicazione in AppSource, è possibile alzare di livello questo pacchetto alla produzione in Power BI.
 13. Quando l'app è pronta per la produzione o la condivisione tramite AppSource, tornare al riquadro **Release Management** e selezionare **Alza di livello app** accanto a **Pre-produzione**.
 14. Selezionare **Alza di livello** per confermare la scelta.
 
@@ -202,11 +202,11 @@ Ora che l'app è in fase di produzione è possibile riattivare la fase di test, 
 
     ![Due versioni di un'app modello](media/service-template-apps-create/power-bi-template-app-2-versions.png)
 
-5. Quando si è pronti a promuovere l'app nell'ambiente di pre-produzione per altri test all'esterno del tenant, tornare al riquadro di Release Management e selezionare **Alza di livello app** accanto a **test**.
-6. È ora disponibile anche il collegamento, inviarla nuovamente al portale Cloud Partner seguendo i passaggi descritti in [aggiornamento di App di Power BI offerta](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
+5. Quando si è pronti per alzare di livello l'app alla pre-produzione per altri test all'esterno del tenant, tornare al riquadro Release Management e selezionare **Alza di livello app** accanto a **Test**.
+6. A questo punto il collegamento è attivo. Inviarlo nuovamente al portale Cloud Partner seguendo la procedura riportata in [Aggiornamento offerta app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
 
 >[!NOTE]
->Promuovi la tua app alla fase di produzione solo dopo che l'app viene approvata dal portale per Cloud Partner ed è stato pubblicato.
+>Alzare di livello l'app alla produzione solo dopo che l'app è stata approvata nel portale Cloud Partner e pubblicata.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770486"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823330"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Risolvere i problemi dell'applicazione incorporata
 
@@ -80,6 +80,7 @@ Potrebbe essere necessaria un'acquisizione Fiddler per ulteriori indagini. Le ca
 * Il token di autenticazione di Azure AD è scaduto.
 * L'utente autenticato non è un membro del gruppo (area di lavoro dell'app).
 * L'utente autenticato non è un amministratore del gruppo (area di lavoro dell'app).
+* L'utente autenticato non dispone delle autorizzazioni. Le autorizzazioni possono essere aggiornate usando l'[API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
 * L'intestazione dell'autorizzazione potrebbe non essere corretta. Assicurarsi che non siano presenti errori di ortografia.
 
 Il back-end dell'applicazione potrebbe dover aggiornare il token di autenticazione prima di chiamare GenerateToken.
@@ -187,7 +188,7 @@ Il consenso dell'utente è disabilitato per il tenant.
 
 ### <a name="cs1061-error"></a>Errore CS1061
 
-Scaricare [ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) se si verifica un "'AuthenticationContext' non contiene una definizione per 'AcquireToken' e non AcquireToken accessibile' ' e di che accetta un primo argomento di tipo ' AuthenticationContext' è stato trovato (probabilmente manca un utilizzo della direttiva o un riferimento all'assembly?) "errore.
+Scaricare [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) se viene visualizzato un messaggio di errore: "'AuthenticationContext' doesn't contain a definition for 'AcquireToken' and no accessible 'AcquireToken' accepting a first argument of type 'AuthenticationContext' could be found (are you missing a using directive or an assembly reference?)" ('AuthenticationContext' non contiene una definizione per 'AcquireToken' e non è possibile trovare alcun 'AcquireToken' accessibile che accetti un primo argomento di tipo 'AuthenticationContext' - direttiva using o riferimento assembly mancante).
 
 ## <a name="data-sources"></a>Origini dati
 

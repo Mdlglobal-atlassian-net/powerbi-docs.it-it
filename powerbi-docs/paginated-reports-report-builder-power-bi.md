@@ -1,5 +1,5 @@
 ---
-title: Che cosa sono i report impaginati in Power BI Premium? (anteprima)
+title: Che cosa sono i report impaginati in Power BI Premium?
 description: I report impaginati, da lungo tempo il formato di report standard in SQL Server Reporting Services, sono ora disponibili nel servizio Power BI. Questi report possono essere stampati o condivisi. È possibile controllare esattamente il layout del report. Consentono di visualizzare tutti i dati in una tabella, ad esempio, anche se la tabella si estende su più pagine.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,41 +8,42 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/20/2019
-ms.openlocfilehash: 8da24bb8f7d3b8d507dbb6792556004083b673fe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: f7cf5091c60a6a916b24d6170eae96b3c1ee64dc
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991076"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839646"
 ---
-# <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>Che cosa sono i report impaginati in Power BI Premium? (anteprima)
+# <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
 I report impaginati, da lungo tempo il formato di report standard in SQL Server Reporting Services, sono ora disponibili nel servizio Power BI. Questi report possono essere stampati o condivisi. Vengono definiti "impaginati" perché sono formattati in modo da adattarsi meglio alla pagina. Visualizzano tutti i dati in una tabella, anche se la tabella si estende su più pagine. Vengono talvolta definiti "perfetti al pixel" perché è possibile controllare esattamente il layout di pagina del report. I report impaginati sono basati sulla tecnologia di report RDL in SQL Server Reporting Services. Generatore report è lo strumento autonomo per la creazione di report impaginati. 
 
 I report impaginati possono avere molte pagine. Ad esempio, questo report contiene 563 pagine. Ogni pagina ha un layout esatto, con una pagina per ogni fattura e intestazioni e piè di pagina ripetuti.
 
-![Report impaginato nel servizio Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+![Impaginato](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, http://app.powerbi.com. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro per le app, purché l'area di lavoro sia in una capacità Power BI Premium. Inoltre, un amministratore di Power BI deve abilitare i report impaginati nel portale di amministrazione di Power BI. 
+![Report impaginato nel servizio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-## <a name="create-reports-in-power-bi-report-builder"></a>Creare report in Generatore Report di Power BI
+È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, http://app.powerbi.com. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro per le app, purché l'area di lavoro sia in una capacità Power BI Premium. Un amministratore di Power BI deve anche abilitare i report impaginati nella [sezione Capacità Premium](service-admin-premium-workloads.md#paginated-reports-preview) nel portale di amministrazione di Power BI. 
 
-I report impaginati sono proprio strumento di progettazione, Generatore Report di Power BI. È un nuovo strumento che condivide le stesse basi degli strumenti che è stata utilizzata per creare report impaginati per il Server di Report di Power BI o SQL Server Reporting Services (SSRS). I report impaginati creati per SSRS 2016 e 2017 o per Server di Report di Power BI in locale sono infatti compatibili con il servizio Power BI. Il servizio Power BI garantisce la compatibilità con le versioni precedenti, in modo da poter trasferire i report e aggiornare qualsiasi report impaginato di una versione precedente. Non tutte le funzionalità di report sono disponibili al momento del lancio. Per i dettagli, vedere [Limitazioni e considerazioni](#limitations-and-considerations) in questo articolo.
+## <a name="create-reports-in-power-bi-report-builder"></a>Creare report in Generatore report di Power BI
+
+Per i report impaginati è disponibile uno strumento di progettazione apposito chiamato Generatore report di Power BI. Si tratta di un nuovo strumento che condivide le stesse basi degli strumenti usati in precedenza per creare report impaginati per Server di report di Power BI o SQL Server Reporting Services (SSRS). I report impaginati creati per SSRS 2016 e 2017 o per Server di Report di Power BI in locale sono infatti compatibili con il servizio Power BI. Il servizio Power BI garantisce la compatibilità con le versioni precedenti, in modo da poter trasferire i report e aggiornare qualsiasi report impaginato di una versione precedente. Non tutte le funzionalità di report sono disponibili al momento del lancio. Per i dettagli, vedere [Limitazioni e considerazioni](#limitations-and-considerations) in questo articolo.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Report da un'ampia gamma di origini dati
 
-Un singolo report impaginato può avere numerose origini dati diverse e non è basato su un modello di dati sottostante, come per i report di Power BI. Per la versione iniziale dei report impaginati nel servizio Power BI, è necessario creare origini dati e set di dati incorporati nel report stesso. Per il momento, non è possibile usare origini dati condivise o set di dati condivisi. I report vengono creati in Generatore report nel computer locale. Se un report si connette ai dati in locale, dopo aver caricato il report nel servizio Power BI è necessario creare un gateway e reindirizzare la connessione dati. Di seguito sono le origini dati che è possibile connettersi a questo momento:
+Un singolo report impaginato può avere numerose origini dati diverse e non è basato su un modello di dati sottostante, come per i report di Power BI. Per la versione iniziale dei report impaginati nel servizio Power BI, è necessario creare origini dati e set di dati incorporati nel report stesso. Per il momento, non è possibile usare origini dati condivise o set di dati condivisi. I report vengono creati in Generatore report nel computer locale. Se un report si connette ai dati in locale, dopo aver caricato il report nel servizio Power BI è necessario creare un gateway e reindirizzare la connessione dati. Di seguito sono elencate le origini dati a cui è possibile connettersi in questo momento:
 
 - Database SQL di Azure e Azure SQL Data Warehouse
-- Azure Analysis Services (via SSO)
+- Azure Analysis Services (tramite SSO)
 - SQL Server tramite un gateway
 - SQL Server Analysis Services tramite un gateway
 - Set di dati di Power BI Premium
 - Oracle
 - Teradata
- 
-Altre origini dati diventeranno disponibili durante il periodo di anteprima.
+- Altre origini aggiuntive
 
 ## <a name="design-your-report"></a>Progettare il report  
 
@@ -69,9 +70,9 @@ Nel servizio Power BI il report impaginato viene visualizzato in un browser e ne
 
 ## <a name="create-a-subscription-to-your-report"></a>Creare una sottoscrizione al report
 
-È ora possibile configurare sottoscrizioni tramite posta elettronica per se stessi e ad altri utenti per i report impaginati nel servizio Power BI. In generale, il processo è identica alla sottoscrizione ai report e dashboard nel servizio Power BI. Nell'impostazione di sottoscrizioni, scegliere la frequenza con cui si desidera ricevere messaggi di posta elettronica: giornaliera, settimanale o ogni ora. La sottoscrizione contiene un allegato di file PDF dell'output intero report.
+È ora possibile configurare la sottoscrizione per se stessi e altri utenti di report impaginati nel servizio Power BI tramite un messaggio di posta elettronica. Il processo è generalmente identico a quello previsto per la sottoscrizione di report e dashboard nel servizio Power BI. Durante la configurazione delle sottoscrizioni, è possibile scegliere la frequenza di ricezione dei messaggi di posta elettronica: giornaliera, settimanale oppure oraria. La sottoscrizione contiene un allegato PDF dell'output dell'intero report.
 
-Per informazioni dettagliate, vedere l'articolo [sottoscrivere i report impaginati nel servizio Power BI se stessi e ad altri utenti](paginated-reports-subscriptions.md). 
+Per informazioni dettagliate, vedere l'articolo [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](paginated-reports-subscriptions.md). 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
@@ -85,7 +86,7 @@ L'elenco seguente include alcune altre funzionalità non supportate nella versio
  
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Installare Power BI Report Builder dall'area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Installare Generatore report di Power BI dall'Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Esercitazione: Creare un report impaginato](paginated-reports-quickstart-aw.md)
 - [Immettere i dati direttamente in un report impaginato](paginated-reports-enter-data.md)
 

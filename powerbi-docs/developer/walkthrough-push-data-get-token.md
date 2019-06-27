@@ -1,6 +1,6 @@
 ---
 title: Ottenere un token di accesso per l'autenticazione
-description: Procedura dettagliata per il push dei dati - Ottenere un token di accesso per l'autenticazione
+description: "Procedura dettagliata per il push dei dati: Ottenere un token di accesso per l'autenticazione"
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -8,42 +8,49 @@ ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 4a0b0f5e7d697c137da343576d05fbcc91b4a4f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/29/2019
+ms.openlocfilehash: 5cb741d194d787014fec39f963e19d04de59a668
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710365"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809088"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Passaggio 2: Ottenere un token di accesso per l'autenticazione
 
-Questo articolo fa parte di una procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
+Questo articolo è il secondo passaggio della serie [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md).
 
-Nel **passaggio 1** [Registrare l'app in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) della procedura per il push dei dati in un set di dati è stata registrata un'app client in Azure AD. In questo passaggio si ottiene un token di accesso per l'autenticazione. Le app di Power BI sono integrate con **Azure AD** per fornire funzionalità sicure di accesso e autorizzazione per l'app. Si usa un token per l'autenticazione in **Azure AD** e l'accesso alle risorse di Power BI.
-
-Ecco come ottenere un token di accesso per l'autenticazione.
+Nel passaggio 1 è stata eseguita la [registrazione di un'app client in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md). In questo passaggio si ottiene un token di accesso per l'autenticazione. Le app di Power BI sono integrate con Azure Active Directory per offrire accesso e autorizzazione sicuri per l'app. L'app usa un token per l'autenticazione in Azure AD e per l'accesso alle risorse di Power BI.
 
 ## <a name="get-an-authentication-access-token"></a>Ottenere un token di accesso per l'autenticazione
 
-> **NOTA**: Prima di iniziare, assicurarsi di aver seguito i passaggi precedenti della procedura dettagliata per il [push dei dati in un set di dati](walkthrough-push-data.md).
+Prima di iniziare, assicurarsi di aver completato il [passaggio precedente](walkthrough-push-data-register-app-with-azure-ad.md) della serie [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md). 
 
-1. In Visual Studio (2015 o versione successiva), creare un **applicazione Console** progetto.
-2. Installare il [pacchetto NuGet Azure AD Authentication Library per .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Questo pacchetto viene usato per ottenere un token di sicurezza per l'autenticazione in un'app .NET. Ecco come installare il pacchetto:
+Questa procedura richiede Visual Studio 2015 o versione successiva.
 
-     a. In Visual Studio (2015 o versione successiva), scegliere **degli strumenti** > **Gestione pacchetti NuGet** > **Package Manager Console**.
+1. In Visual Studio creare un nuovo progetto **Applicazione console** in C#.
 
-     b. In **Console di Gestione pacchetti**immettere Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
-3. Aggiungere il codice seguente nella classe Program {…}.
-4. Sostituire "{ClientID}" con l' **ID client** ottenuto in fase di registrazione dell'app. Vedere [Registrare l'app in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
-5. Dopo aver installato il pacchetto Microsoft.IdentityModel.Clients.ActiveDirectory, aggiungere **using Microsoft.IdentityModel.Clients.ActiveDirectory;** a Program.cs.
-6. Eseguire l'app console e accedere al proprio account di Power BI. Nella finestra della console dovrebbe essere presente una stringa di token.
+2. Installare il [pacchetto NuGet Azure AD Authentication Library per .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Questo pacchetto viene usato dall'app .NET per ottenere un token di sicurezza per l'autenticazione. 
+
+     a. Selezionare **Strumenti** > **Gestione pacchetti NuGet** > **Console di Gestione pacchetti**.
+
+     b. Immettere **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**
+
+     c. In Program.cs aggiungere `using Microsoft.IdentityModel.Clients.ActiveDirectory;`.
+
+3. Aggiungere a Program.cs il codice di esempio riportato dopo la procedura.
+
+4. Sostituire "{ClientID}", con l'**ID Client** ottenuto nel [precedente articolo della serie](walkthrough-push-data-register-app-with-azure-ad.md) quando l'app è stata registrata.
+
+5. Eseguire l'app console e accedere al proprio account di Power BI. 
+
+   Nella finestra della console dovrebbe essere presente una stringa di token.
 
 **Codice di esempio per ottenere il token di sicurezza per l'autenticazione**
 
 Aggiungere questo codice a Program {...}.
 
-* Una variabile token per chiamare le operazioni:
+* Una variabile token per chiamare le operazioni: 
   
   ```csharp
   private static string token = string.Empty;
@@ -104,13 +111,10 @@ Aggiungere questo codice a Program {...}.
        #endregion
 ```
 
-Dopo avere ottenuto un token di autenticazione, è possibile chiamare qualsiasi operazione di Power BI. Il passaggio successivo illustra come chiamare l'operazione [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) per creare un set di dati ed eseguire il push dei dati in un dashboard.
+Dopo avere ottenuto un token di autenticazione, è possibile chiamare qualsiasi operazione di Power BI.
 
-Il passaggio successivo illustra come [creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md).
+L'articolo successivo della serie illustra come [creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md).
 
-Di seguito è riportato il [listato di codice completo](#code).
-
-<a name="code"/>
 
 ## <a name="complete-code-listing"></a>Listato di codice completo
 
@@ -175,14 +179,13 @@ namespace walkthrough_push_data
 }
 ```
 
-[Passaggio successivo >](walkthrough-push-data-create-dataset.md)
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md)  
-[Registrare un'app in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
-[Azure AD Authentication Library per il pacchetto NuGet .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
-[Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md)  
+[Articolo successivo della serie > Creare un set di dati in Power BI](walkthrough-push-data-create-dataset.md)
+
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
-[Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+[API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

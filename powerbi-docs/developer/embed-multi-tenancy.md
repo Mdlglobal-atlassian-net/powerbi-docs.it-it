@@ -6,15 +6,15 @@ ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
-ms.subservice: powerbi - developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 31222828d1a12a5f46fd7c04b3aa32240ff35736
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 56b417cb60f7c149b926f4307be0a50b33c278d6
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374689"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751027"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gestire il multi-tenancy con le funzionalità di analisi incorporata di Power BI
 
@@ -142,9 +142,9 @@ Per aggiungere ulteriore isolamento, uno sviluppatore di applicazioni può defin
 
 ### <a name="scalability"></a>Scalabilità
 
-Un vantaggio di questo modello è che la separazione dei dati in più set di dati per ogni tenant consente di superare i [limiti di dimensioni di un singolo set di dati](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (attualmente 10 GB in una capacità). Quando è sottoposto a overload della capacità, è possibile eliminare i set di dati inutilizzata per liberare la memoria per i set di dati attivi. Questa attività non è possibile con un singolo set di dati di grandi dimensioni. Con l'uso di più set di dati è anche possibile separare i tenant in più capacità di Power BI, se necessario.
+Un vantaggio di questo modello è che la separazione dei dati in più set di dati per ogni tenant consente di superare i [limiti di dimensioni di un singolo set di dati](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (attualmente 10 GB in una capacità). In caso si sovraccarico della capacità è possibile eliminare i set di dati inutilizzati per liberare memoria per i set di dati attivi. Questa attività non è possibile con un singolo set di dati di grandi dimensioni. Con l'uso di più set di dati è anche possibile separare i tenant in più capacità di Power BI, se necessario.
 
-Nonostante questi vantaggi, è necessario considerare la possibile scala futura dell'applicazione SaaS. Ad esempio, si potrebbero raggiungere i limiti per il numero di artefatti che è possibile gestire. Per altri dettagli, vedere le [limitazioni](#summary-comparison-of-the-different-approaches) per la distribuzione più avanti in questo articolo. La capacità che SKU utilizzato presenta un limite per le dimensioni della memoria che richiedono set di dati in modo da adattarlo, quanti aggiornamenti è possono eseguire in contemporanea e la frequenza massima di aggiornamenti di dati. È consigliabile eseguire test quando si gestiscono centinaia o migliaia di set di dati. È anche consigliabile tenere conto del volume medio e di picco per l'utilizzo, così come di eventuali tenant specifici con grandi set di dati o di modelli di utilizzo diversi, gestiti in modo differente rispetto agli altri tenant.
+Nonostante questi vantaggi, è necessario considerare la possibile scala futura dell'applicazione SaaS. Ad esempio, si potrebbero raggiungere i limiti per il numero di artefatti che è possibile gestire. Per altri dettagli, vedere le [limitazioni](#summary-comparison-of-the-different-approaches) per la distribuzione più avanti in questo articolo. Lo SKU della capacità usato introduce un limite per le dimensioni della memoria disponibile per i set di dati, per il numero di aggiornamenti eseguibili contemporaneamente e per la frequenza massima di aggiornamenti dei dati. È consigliabile eseguire test quando si gestiscono centinaia o migliaia di set di dati. È anche consigliabile tenere conto del volume medio e di picco per l'utilizzo, così come di eventuali tenant specifici con grandi set di dati o di modelli di utilizzo diversi, gestiti in modo differente rispetto agli altri tenant.
 
 ### <a name="automation--operational-complexity"></a>Automazione e complessità operativa
 

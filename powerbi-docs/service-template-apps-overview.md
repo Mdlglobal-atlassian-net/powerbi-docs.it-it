@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578521"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751095"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>Che cosa sono le app modello di Power BI? (anteprima)
 
@@ -24,10 +24,10 @@ Le app modello sostituiscono gli attuali pacchetti di contenuto dei servizi. I p
 
 È possibile compilare app modello che consentono ai clienti di connettersi e creare un'istanza con i propri account. In qualità di esperti di dominio, possono sbloccare i dati in modo da renderli facilmente utilizzabili dai loro utenti aziendali.  
 
-Inviare le app di modello per il portale Cloud Partner. e diventano quindi disponibili pubblicamente nella raccolta di app di Power BI (app.powerbi.com/getdata/services) e in Microsoft AppSource (appsource.microsoft.com). Ecco una presentazione di alto livello di esperienza di creazione di app modello pubblico.  
+Le app modello vengono inviate al portale Cloud Partner. e diventano quindi disponibili pubblicamente nella raccolta di app di Power BI (app.powerbi.com/getdata/services) e in Microsoft AppSource (appsource.microsoft.com). Di seguito viene riportata una presentazione generale dell'esperienza di creazione di un'app modello pubblica.  
 
 ## <a name="process"></a>Processo
-Il processo generale per sviluppare e inviare una modello app è costituita da fasi diverse. Alcune fasi possono includere più attività allo stesso tempo.
+Il processo generale di sviluppo e invio di un'app modello comporta diverse fasi. Alcune fasi possono includere più attività allo stesso tempo.
 
 
 | Fase | Power BI Desktop |  |Servizio Power BI  |  |Portale Cloud Partner  |

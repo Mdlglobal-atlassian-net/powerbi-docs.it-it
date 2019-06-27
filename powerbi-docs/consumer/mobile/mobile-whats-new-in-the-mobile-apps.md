@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991049"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038903"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -23,16 +23,45 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
 
+## <a name="may-2019"></a>Maggio 2019
+
+### <a name="siri-shortcuts-support-ios"></a>Supporto dei comandi rapidi di Siri (iOS)
+Gli utenti possono creare comandi rapidi di Siri per i report e i dashboard di Power BI e quindi aprirli direttamente dall'interfaccia vocale Siri. [Informazioni su come usare i comandi rapidi di Siri nell'app Power BI per iOS](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+### <a name="device-search-ios"></a>Ricerca nel dispositivo (iOS)
+Integrazione di Power BI con la ricerca nel dispositivo iOS (Spotlight). La ricerca del contenuto in un iPhone o iPad include ora anche gli elementi di Power BI. Quando gli utenti usano la ricerca nativa nel dispositivo, nei risultati vengono elencati anche i report, i dashboard, le app, le aree di lavoro e le persone di Power BI corrispondenti ai criteri di ricerca. [Per altre informazioni, visitare il post di blog](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+
+### <a name="single-tap-report-interaction---ga"></a>Interazione con i report a tocco singolo - disponibile a livello generale
+
+Il tocco singolo è ora disponibile a livello generale e diventerà l'interazione touch predefinita per i nuovi utenti. Gli utenti potranno comunque attivarlo e disattivarlo e impostare il doppio tocco nelle impostazioni dell'app.
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>Protezione avanzata di accesso condizionale (iOS, Android)
+
+È stata integrata una [nuova funzionalità di accesso condizionale basata sulla protezione delle app](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) di AAD per aumentare la sicurezza limitando l'accesso a Power BI prima che vengano applicati i criteri delle app.
+
+### <a name="device-protection-ios"></a>Protezione del dispositivo (iOS)
+
+Gli utenti possono usare la protezione incorporata del dispositivo per proteggere Power BI, richiedendo un Face ID, Touch ID o passcode per l'accesso a Power BI. Questa funzionalità può essere controllata dagli utenti tramite le impostazioni dell'app ma anche dagli amministratori tramite Intune e qualsiasi altro strumento MDM. [Altre informazioni](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)
+
+### <a name="one-page-report-slideshow-windows"></a>Presentazione di report a una pagina (Windows)
+
+L'aggiornamento automatico è supportato ora anche per i report a una pagina nelle presentazioni. Se l'origine dati sottostante del report viene aggiornata, verranno quindi prelevati e aggiornati i dati nella pagina.
+
+
 ## <a name="april-2019"></a>Aprile 2019
 
-### <a name="key-influencers-visual"></a>Fattori di influenza chiave visual 
-Fattori di influenza chiave visual è ora disponibile in app per dispositivi mobili. Questo oggetto visivo consente di eseguire l'analisi dei principali driver sui tuoi dati, con solo poche scelte.
+### <a name="key-influencers-visual"></a>Oggetto visivo Fattori di influenza chiave 
+
+L'oggetto visivo Fattori di influenza chiave è ora disponibile nell'app per dispositivi mobili. Questo oggetto visivo consente di eseguire in pochi tocchi l'analisi dei fattori principali nei dati.
 
 ### <a name="add-comments-to-report-content-android-and-ios"></a>Aggiungere commenti al contenuto del report (Android e iOS)
-A questo punto è possibile utilizzare i commenti per collaborare e condividere i commenti e le pagine del report e oggetti visivi. Altre informazioni su report commenti nel servizio Power BI e per dispositivi mobili [in questo blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+È ora possibile usare i commenti per collaborare e condividere feedback sulle pagine e gli oggetti visivi dei report. Per altre informazioni su come commentare i report nel servizio Power BI e per dispositivi mobili, leggere [questo blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
 
 ### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Ingrandire la vista con la modalità schermo intero (Android e iOS)
-È stato aggiunto nuovo pulsante che consentono di controllare la modalità di concentrarsi sui dati di rimozione di intestazioni e piè di pagina e fornendo lo spazio massimo per la visualizzazione dei report.
+
+È stato aggiunto nuovo pulsante che consente un controllo quando l'utente si concentra sui dati rimuovendo intestazioni e piè di pagina e offrendo il massimo spazio per la visualizzazione dei report.
 
 ## <a name="march-2019"></a>Marzo 2019
 
@@ -42,20 +71,20 @@ A questo punto è possibile utilizzare i commenti per collaborare e condividere 
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Ottimizzazione delle presentazioni in Windows con la funzionalità di presentazione (Windows)
 
-Con [slideshow](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) pubbliche consente di visualizzare che si trova nella sede è possibile usare per eseguire i report di Power BI in modalità schermo intero che verrà automaticamente ruota tra pagine del report.  
+La funzionalità di [presentazione](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) consente di usare gli schermi pubblici disponibili nell'ufficio aziendale per eseguire i report di Power BI in modalità schermo intero, con rotazione automatica tra le pagine del report.  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Report di PBI-RS di supporto sulla configurazione di ad FS e WAP (solo iOS)
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Supporto dei report di PBI-RS nella configurazione del file system distribuito di Azure e WAP (solo iOS)
 
-Power BI i report (PBIX) ospitati in PBI-RS sulla configurazione di ad FS ora è accessibile dall'app Power BI per iOS.
+I report di Power BI (PBIX) ospitati in PBI-RS nella configurazione del file system distribuito di Azure sono ora accessibili dall'app Power BI per iOS.
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Abilitazione di interazione tramite tocco singola con oggetti visivi del report
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Abilitazione dell'interazione tramite tocco singolo con gli oggetti visivi del report
 
-Interazione con i report è stato modificato in modo che richiederanno un solo tocco su un oggetto visivo, pulsante o filtro dei dati per interagire con i relativi dati immediatamente. Gli utenti non è più necessario toccare su un oggetto visivo per selezionarlo e toccare di nuovo per interagire con esso, eseguirà entrambi un singolo tocco.
+È stata modificata l'interazione nei report, che richiede ora un tocco singolo su oggetti visivi, pulsanti o filtri dei dati per un'interazione immediata con i dati. Gli utenti non devono più toccare un oggetto visivo per selezionarlo e toccarlo di nuovo per interagire con esso: è sufficiente un tocco singolo.
 
 ![Interazione tramite tocco singolo](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Gli utenti esistenti dovranno attivare questo comportamento nell'impostazione dell'app. Per altre informazioni, vedere la [Jak nakonfigurovat interazione con i report singolo tocco](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) articolo.
+> Gli utenti esistenti dovranno attivare questo comportamento nell'impostazione dell'app. Per altre informazioni, vedere l'articolo [Come configurare l'interazione nei report tramite tocco singolo](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap).
 
 ## <a name="january---february-2019"></a>Gennaio - febbraio 2019
  

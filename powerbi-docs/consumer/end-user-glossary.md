@@ -6,15 +6,15 @@ ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: resource
+ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412893"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751020"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -142,7 +142,7 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 ## <a name="h"></a>H
 **high-density visuals (oggetti visivi ad alta densità)** Oggetti visivi con più punti dati di quanti Power BI possa eseguire il rendering. Power BI preleva esempi dei dati per visualizzarne forma e outlier.
 
-**Home** la durata per gli utenti del servizio Power BI di destinazione predefinita. Non modifica alcuna operazione. Può essere chiamato Power BI Home o semplicemente Home.
+**Home** La pagina di destinazione predefinita per gli utenti del servizio Power BI. Non modifica niente. Può essere chiamata Home di Power BI o semplicemente Home.
 
 ## <a name="i"></a>I
 

@@ -1,5 +1,5 @@
 ---
-title: Immettere i dati direttamente in un report impaginato in Generatore report (anteprima)
+title: Immettere i dati direttamente in un report impaginato in Generatore report
 description: Questo articolo spiega come si possono immettere dati direttamente in un report impaginato in Generatore report.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424467"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839101"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report (anteprima) - Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report - Power BI
 
 In questo articolo viene illustrata una funzionalità della nuova versione di Generatore report di SQL Server 2016 che consente di immettere dati direttamente in un report RDL come set di dati incorporato.  Questa funzionalità è simile a Power BI Desktop. È possibile digitare i dati direttamente in un set di dati nel report o incollarli da un altro programma, ad esempio Microsoft Excel. Dopo l'immissione dei dati, il set di dati così creato può essere usato come qualsiasi altro set di dati incorporato creato in precedenza. Inoltre, è possibile aggiungere più di una tabella e usarne una come filtro per le altre. Questa funzionalità è particolarmente utile per i set di dati statici di piccole dimensioni che possono essere necessari per il report, ad esempio i parametri del report.
  
@@ -76,7 +76,7 @@ Dopo aver scaricato e installato Generatore report, seguire lo stesso flusso di 
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Caricare il report impaginato nel servizio Power BI
 
-Ora che i report impaginati sono supportati nel servizio Power BI in versione di anteprima, è possibile caricare il proprio report impaginato in una capacità Premium. Per i dettagli, vedere [Caricare un report impaginato](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
+Ora che i report impaginati sono supportati nel servizio Power BI, è possibile caricare il report impaginato in una capacità Premium. Per i dettagli, vedere [Caricare un report impaginato](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Creare il report impaginato in un server di report
 
@@ -98,5 +98,5 @@ Questo è tutto: ora è possibile pubblicare i report che usano questa nuova fun
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-- [Che cosa sono i report impaginati in Power BI Premium? (anteprima)](paginated-reports-report-builder-power-bi.md)
+- [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [Che cos'è Server di report di Power BI?](report-server/get-started.md)

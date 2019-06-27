@@ -1,5 +1,5 @@
 ---
-title: Creare un set di dati incorporato per un report impaginato di Power BI (anteprima)
+title: Creare un set di dati incorporato per un report impaginato di Power BI
 description: Questo articolo descrive come creare un set di dati incorporato, basato su un'origine dati incorporata, per un report impaginato nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.openlocfilehash: 3e095da10e9f96c7ec0f10ffbb94995d44effab4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf41b404385139561a97f1d5b081ae1c48ff2885
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423736"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839022"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Creare un set di dati incorporato per un report impaginato nel servizio Power BI (anteprima)
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Creare un set di dati incorporato per un report impaginato nel servizio Power BI
 
-Questo articolo descrive come creare un set di dati incorporato, basato su un'origine dati incorporata, per un report impaginato nel servizio Power BI. I set di dati incorporati sono contenuti in un singolo report impaginato e possono essere usati solo in quel report. I report impaginati pubblicati nel servizio Power BI richiedono attualmente set di dati incorporati e origini dati incorporate. Si crea l'origine dati incorporata e set di dati in Generatore Report di Power BI, anche se si sta creando il report. 
+Questo articolo descrive come creare un set di dati incorporato, basato su un'origine dati incorporata, per un report impaginato nel servizio Power BI. I set di dati incorporati sono contenuti in un singolo report impaginato e possono essere usati solo in quel report. I report impaginati pubblicati nel servizio Power BI richiedono attualmente set di dati incorporati e origini dati incorporate. È possibile creare l'origine dati incorporata e il set di dati incorporato in Generatore Report di Power BI durante la creazione del report. 
 
 Prima di poter creare il set di dati, è necessario creare un'origine dati. Per altre informazioni, vedere [Origini dati incorporate per i report impaginati nel servizio Power BI](paginated-reports-embedded-data-source.md).
   
 ## <a name="create-an-embedded-dataset"></a>Creare un set di dati incorporato
   
-1. Nel riquadro dati Report in Generatore Report di Power BI, selezionare **New** > **Dataset**.
+1. Nel riquadro Dati report di Generatore Report di Power BI selezionare **Nuovo** > **Set di dati**.
 
 1. Nella scheda **Query** della finestra di dialogo **Proprietà set di dati** assegnare un nome al set di dati. L'origine dati incorporata si trova già nella casella **Origine dati** oppure è possibile creare un'origine dati incorporata diversa selezionando l'opzione **Nuovo**.
  
@@ -56,7 +56,7 @@ Prima di poter creare il set di dati, è necessario creare un'origine dati. Per 
  
 ## <a name="next-steps"></a>Passaggi successivi 
 
-- [Che cosa sono i report impaginati in Power BI Premium? (anteprima)](paginated-reports-report-builder-power-bi.md)  
+- [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
 - [Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI](paginated-reports-quickstart-aw.md)
 - [Pubblicare un report impaginato nel servizio Power BI](paginated-reports-save-to-power-bi-service.md)
 

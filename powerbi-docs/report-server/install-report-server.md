@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187739"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839444"
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
 
@@ -22,11 +22,11 @@ Informazioni su come installare il server di report di Power BI.
 
 ## <a name="download-power-bi-report-server"></a>Scaricare il server di report di Power BI
 
-[Scaricare Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722) dall'area download Microsoft.
+[Scaricare il server di report di Power BI](https://www.microsoft.com/download/details.aspx?id=56722) dall'Area download Microsoft.
 
-È anche una versione di valutazione gratuita. Nel [creazione di report con Power BI Report Server On-premises](https://powerbi.microsoft.com/report-server/) pagina, selezionare **scaricare una versione di valutazione gratuita**.
+È anche disponibile una versione di prova gratuita. Nella pagina [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/) selezionare **Scarica la versione di prova gratuita**.
 
-## <a name="before-you-install"></a>Prima di installare
+## <a name="before-you-install"></a>Prima di eseguire l'installazione
 
 Prima di installare il server di report di Power BI è consigliabile esaminare i [requisiti hardware e software per l'installazione del server di report di Power BI](system-requirements.md).
 
@@ -35,7 +35,7 @@ Prima di installare il server di report di Power BI è consigliabile esaminare i
 
 ### <a name="power-bi-report-server-product-key"></a>Codice Product Key del Server di report Power BI
 
-È possibile ottenere il codice product key per il Server di Report di Power BI da due origini diverse:
+È possibile ottenere il codice Product Key per il server di report di Power BI da due origini diverse:
 
 - Power BI Premium
 - SQL Server Enterprise Software Assurance (SA)
@@ -75,8 +75,8 @@ Al momento dell'installazione non è necessario un server del motore di database
 
     ![Edizione 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    In caso contrario, immettere il codice product key ottenuto dal servizio Power BI o Volume License Service Center. Per altre informazioni su come ottenere il codice product key, vedere la [prima di installare](#before-you-install) sezione precedente.
-4. Leggere e accettare le condizioni di licenza, quindi selezionare **successivo**.
+    Altrimenti, immettere il codice Product Key ottenuto dal servizio Power BI o dal Volume Licensing Service Center. Per altre informazioni su come ottenere il codice Product Key, vedere la sezione precedente [Prima di eseguire l'installazione](#before-you-install).
+4. Leggere e accettare i termini e le condizioni di licenza, quindi selezionare **Avanti**.
 
     ![Condizioni di licenza](media/install-report-server/pbireportserver-eula.png)
 5. È necessario avere un motore di database per archiviare il database del server di report. Selezionare **Next** per installare solo il server di report.

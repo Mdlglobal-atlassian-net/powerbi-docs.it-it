@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461857"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816655"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Usare set di dati in aree di lavoro diverse (anteprima)
 
 Business intelligence è un'attività di collaborazione. È importante definire set di dati standardizzati che possono essere l'unica "fonte sicura". L'individuazione e il riutilizzo di tali set di dati standardizzati è fondamentale. Quando gli esperti di modellazione dati dell'organizzazione creano e condividono set di dati ottimizzati, gli autori di report possono iniziare a compilare report accurati partendo da questi set di dati. L'organizzazione può quindi usare dati coerenti per prendere decisioni e disporre di una cultura di dati integra.
+
+![Selezionare un set di dati condiviso](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 In Power BI è più semplice per gli autori di set di dati certificare o promuovere i set di dati in modo che possano essere individuati da altri utenti. Gli autori di report possono quindi trovare set di dati di qualità e ufficiali da usare ovunque in Power BI. I proprietari dei set di dati possono controllare chi può accedere ai dati usando l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Per gli amministratori tenant è disponibile una nuova impostazione tenant per [controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md).
 

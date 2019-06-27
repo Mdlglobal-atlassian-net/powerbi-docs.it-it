@@ -1,21 +1,21 @@
 ---
 title: Aggiornamento incrementale in Power BI Premium
 description: Informazioni su come abilitare set di dati molto grandi nel servizio Power BI Premium.
-author: christianwade
+author: mgblythe
 manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/10/2019
-ms.author: chwade
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: b338044433d1d87f07ab38d64c15974a1cfaa173
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65536131"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408572"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Aggiornamento incrementale in Power BI Premium
 
@@ -41,7 +41,7 @@ I set di dati di grandi dimensioni, contenenti anche miliardi di righe, potrebbe
 
 #### <a name="rangestart-and-rangeend-parameters"></a>Parametri RangeStart e RangeEnd
 
-Per l'aggiornamento incrementale,i set di dati vengono filtrati tramite i parametri data/ora di Power Query **RangeStart** e **RangeEnd**, i cui nomi sono riservati e fanno distinzione tra maiuscole e minuscole. Questi parametri vengono usati per filtrare i dati importati in Power BI Desktop, nonché per partizionare in modo dinamico i dati in intervalli dopo la pubblicazione nel servizio Power BI. I valori dei parametri vengono sostituiti dal servizio per ogni partizione a cui viene applicato il filtro. Dopo essere stati pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI. Non è necessario definirli nelle impostazioni del set di dati nel servizio. Dopo essere stati pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI. 
+Per l'aggiornamento incrementale,i set di dati vengono filtrati tramite i parametri data/ora di Power Query **RangeStart** e **RangeEnd**, i cui nomi sono riservati e fanno distinzione tra maiuscole e minuscole. Questi parametri vengono usati per filtrare i dati importati in Power BI Desktop, nonché per partizionare in modo dinamico i dati in intervalli dopo la pubblicazione nel servizio Power BI. I valori dei parametri vengono sostituiti dal servizio per ogni partizione a cui viene applicato il filtro. Non è necessario definirli nelle impostazioni del set di dati nel servizio. Dopo essere stati pubblicati, i valori dei parametri vengono automaticamente sottoposti a override dal servizio Power BI.
 
 Per definire i parametri con valori predefiniti, nell'editor di Power Query selezionare **Gestisci parametri**.
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>Limitazioni
 
-Attualmente, per [modelli compositi](desktop-composite-models.md), l'aggiornamento incrementale è supportato per SQL, Oracle, e solo le origini dati Teradata.
+Attualmente, per i [modelli compositi](desktop-composite-models.md), l'aggiornamento incrementale è supportato solo per SQL, Oracle, e le origini dati Teradata.

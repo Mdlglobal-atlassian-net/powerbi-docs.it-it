@@ -1,7 +1,7 @@
 ---
 title: Log delle modifiche per il server di report Power BI
 description: Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990613"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751120"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -25,31 +25,31 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 ## <a name="may-2019"></a>Maggio 2019
 
 - **Server di report Power BI**          
-    - *Versione 1.5.7074.36177 (Build 15.0.1102.371), rilasciato: 21 maggio 2019*
+    - *Versione 1.5.7074.36177 (build 15.0.1102.371), data di rilascio: 21 maggio 2019*
         - Correzioni di bug
             - Paginated Reports
-                - Correzione di abilitare sempre l'incorporamento tipi di carattere pdf.
-                - Correzione per impostare i cookie inviati su https come Secure
-                - Risolvere errori di pop up a causa di errori di script
-                - Correzione di problemi di visualizzazione con App per dispositivi mobili nei telefoni Android
-                - Correzione per Navigator tempo di Report per dispositivi mobili mostrare i numeri di settimana corretto indipendentemente dall'inizio dell'anno fiscale
-                - Aggiunto 'RestrictedResourceMimeTypeForUpload' da escludere proprietà configurabile agli amministratori di specificare i tipi di mime
+                - Correzione per abilitare sempre l'incorporamento di tipi di carattere in pdf.
+                - Correzione per impostare i cookie inviati in https come sicuri
+                - Correzione di errori di pop up causati da errori di script
+                - Correzione di problemi di visualizzazione con app per dispositivi mobili nei telefoni Android
+                - Correzione dello strumento di spostamento temporale per report dispositivi mobili in modo che siano visualizzati i numeri di settimana corretti indipendentemente dall'inizio dell'anno fiscale
+                - Aggiunta della proprietà configurabile "RestrictedResourceMimeTypeForUpload" per consentire agli amministratori di specificare tipi di MIME esclusi
          - Funzionalità
-            - Aggiunta del supporto per gli oggetti visivi attendibili a PBIRS
+            - Aggiunta del supporto per gli oggetti visivi attendibili in PBIRS
 
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
-    - *Versione: 2.69.5467.1801 (maggio 2019), rilasciato: 21 maggio 2019*
+    - *Versione: 2.69.5467.1801 (maggio 2019), data di rilascio: 21 maggio 2019*
         - Correzioni di bug
-            - Correzione per evitare la reintroduzione delle credenziali durante il caricamento file PBIX PBIRS
-            - Correzioni di apertura di documenti con & nel nome file
-            - Aggiunta del collegamento più semplice per la navigazione indietro nella finestra PBIRS scelta
-            - Correzione alla modalità a contrasto elevato in PBIRS da visualizzare sul pulsante Indietro, visualizzare visual messaggi di avviso.
-            - Area di disegno correzioni dell'interfaccia utente al riquadro di selezione, la scalabilità.
+            - Correzione per evitare la reintroduzione delle credenziali durante il caricamento di file PBIX in PBIRS
+            - Correzioni per l'apertura di documenti con # nel nome file
+            - Aggiunta del collegamento per tornare indietro nella navigazione in modo più semplice nella finestra di selezione PBIRS
+            - Correzione della modalità a contrasto elevato in PBIRS in modo da visualizzare il pulsante Indietro, visualizzazione di messaggi di avviso relativi agli oggetti visivi.
+            - Correzioni dell'interfaccia utente nel riquadro di selezione, scalabilità del canvas.
 
 ## <a name="january-2019"></a>Gennaio 2019
 
 - **Server di report Power BI**          
-    - *Versione 1.4.7024.16477 (Build 15.0.1102.299), rilasciato: 28 marzo 2019*
+    - *Versione 1.4.7024.16477 (build 15.0.1102.299), data di rilascio: 28 marzo 2019*
         - Correzioni di bug
             - Report di Power BI
                 - Risolto il problema con le credenziali di base quando si usa DirectQuery per SAP Hana e SAP BW

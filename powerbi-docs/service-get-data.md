@@ -7,91 +7,111 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/02/2019
+ms.date: 05/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 26c7c1b428f513fe2b79a3377085004506412604
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61235397"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816754"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origini dati per il servizio Power BI
-I dati sono il fulcro di Power BI. Ogni volta che si esplorano dati, si creano grafici e dashboard o si pongono domande con Domande e risposte, i dati sottostanti di tutte le visualizzazioni e le risposte ottenute derivano da un set di dati. Ma i set di dati da dove provengono? Da un'origine dati, ovviamente.
+I dati sono il fulcro di Power BI. Si supponga di esplorare i dati. È possibile farlo creando grafici e dashboard o ponendo domande con **Domande e risposte**. Le visualizzazioni e le risposte che appaiono usano i relativi dati sottostanti contenuti in un set di dati. Ma i set di dati da dove provengono? Provengono da un'origine dati.
 
-In questo articolo verranno esaminati i diversi tipi di origini dati a cui è possibile connettersi dal servizio Power BI. Tenere presente che esistono anche molti altri tipi di origini dati da cui è possibile ottenere i dati. Per queste origini potrebbe tuttavia essere necessario usare prima Power BI Desktop o le funzionalità avanzate di query e modellazione dei dati di Excel. Questi aspetti verranno approfonditi più avanti. Per ora esaminiamo i diversi tipi di origini dati a cui è possibile connettersi dal sito del servizio Power BI.
+In questo articolo verranno esaminati i tipi di origini dati a cui è possibile connettersi dal servizio Power BI. Tenere presente che esistono anche molti altri tipi di origini dati da cui è possibile ottenere i dati. Se si scelgono queste origini dati, può essere necessario eseguire prima query avanzate sui dati o usare le funzionalità di modellazione in Excel o Power BI Desktop. Queste opzioni verranno approfondite più avanti. Per ora verranno esaminati i diversi tipi di origini dati disponibili direttamente dal sito del servizio Power BI.
 
-In Power BI è possibile ottenere dati da una qualsiasi di queste origini dati facendo clic su **Area di lavoro personale** > **Recupera dati**.
+È possibile ottenere dati da una qualsiasi delle origini dati disponibili in Power BI selezionando **Recupera dati** nell'angolo inferiore sinistro della pagina.
 
-![](media/service-get-data/pbi_getdata_startscreen.png)
+![](media/service-get-data/pbi-getdata-navigation-link.png) 
 
-## <a name="files"></a>File
+Dopo aver selezionato **Recupera dati** è possibile scegliere i dati a cui si vuole accedere
+
+![](media/service-get-data/pbi-getdata-startscreen.png)
+
+## <a name="discover-content"></a>Individuare contenuto
+![](media/service-get-data/pbi-getdata-discovercontent.png)
+
+La sezione **Individuare contenuto** contiene tutti i dati e i report necessari, già pronti per l'utente. In Power BI sono disponibili due tipi di pacchetti di contenuto: Aziendale e Servizi. 
+
+**Aziendale**: Con un account Power BI Pro, gli utenti dell'organizzazione possono creare, condividere e usare pacchetti di contenuto. Per altre informazioni, vedere [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md).
+
+**Servizi**: Sono disponibili decine di servizi con pacchetti di contenuto per Power BI e ne vengono aggiunti continuamente altri. Per la maggior parte dei servizi è necessario avere un account. Per altre informazioni, vedere [Connettersi ai servizi usati con Power BI](service-connect-to-services.md).
+
+## <a name="create-new-content"></a>Creare nuovo contenuto
+
+La sezione **Creare nuovo contenuto** contiene opzioni per la creazione e l'importazione del contenuto. In Power BI esistono due modi per creare o importare i propri contenuti: file e database. 
+
+### <a name="files"></a>File
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** (con estensione xlsx, xlsm): Excel è unico perché una cartella di lavoro può includere sia dati immessi manualmente nei fogli di lavoro sia dati caricati da origini dati esterne tramite Power Query (Recupera e trasforma in Excel 2016) o Power Pivot. È possibile importare dati presenti nelle tabelle nei fogli di lavoro (i dati *devono* trovarsi in una tabella) o importare i dati che vengono caricati in un modello di dati. Per altre informazioni, vedere [Ottenere dati da file di Excel](service-get-data-from-files.md).
+**Excel** (*XLSX*, *XLSM*): Excel è uno strumento di grande utilità. Le sue cartelle di lavoro possono includere diversi tipi di dati. Ad esempio, possono includere i dati immessi dall'utente nei fogli di lavoro. Possono anche includere dati su cui sono state eseguite query e che sono stati caricati da origini dati esterne con Power Query. Power Query è disponibile da **Recupera e trasforma** in Excel 2016 o Power Pivot. È possibile importare nei fogli di lavoro i dati di tabelle o modelli di dati. Per altre informazioni, vedere [Ottenere dati dai file per Power BI](service-get-data-from-files.md).
 
-**Power BI Desktop** (con estensione pbix): è possibile usare Power BI Desktop per eseguire query e caricare dati da origini dati esterne, estendere il modello di dati con misure e relazioni e creare report. È possibile importare i file di Power BI Desktop nel sito Power BI. Power BI Desktop è ideale per gli utenti più avanzati che hanno una buona conoscenza delle origini dati che usano, delle query sui dati e della trasformazione dei dati, nonché dei concetti di modellazione dei dati. Per altre informazioni, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
+**Power BI Desktop** (*PBIX*): è possibile usare Power BI Desktop per eseguire query e caricare dati da origini dati esterne e per creare report. È anche possibile estendere il modello di dati con misure e relazioni o importare il file di Power BI Desktop nel sito di Power BI. Power BI Desktop è ideale per gli utenti più avanzati. In genere questi utenti hanno maggiore dimestichezza con l'uso delle proprie origini dati, con l'esecuzione di query e trasformazioni dei dati e con i concetti di modellazione dei dati. Per altre informazioni, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
 
-**Con valori delimitati da virgole** (con estensione csv): sono semplici file di testo con righe di dati. Ogni riga può contenere uno o più valori separati da una virgola. Ad esempio, un file con estensione csv contenente dati come nomi e indirizzi può avere un certo numero di righe con valori per nome, cognome, indirizzo, città, stato e così via. Non è possibile importare dati in un file con estensione csv, ma molte applicazioni, ad esempio Excel, possono salvare i dati di tabella semplice come file csv.
+**Con valori delimitati da virgole** (*CSV*): i file sono semplici file di testo con righe di dati. Ogni riga può contenere uno o più valori separati da una virgola. Ad esempio, un file *CSV* contenente dati relativi a nomi e indirizzi può avere molte righe. Ogni riga può avere valori per nome, cognome, indirizzo, città, stato e così via. Non è possibile importare dati in un file *CSV*, ma molte applicazioni, ad esempio Excel, sono in grado di salvare i dati di una tabella semplice come file *CSV*.
 
-Per altri tipi di file come le tabelle XML (con estensione xml) o i file di testo (con estensione txt), è possibile usare prima di tutto Recupera e trasforma per eseguire query sui dati, trasformarli e caricarli in un file di Excel o Power BI Desktop, che quindi potrà essere importato in Power BI.
+Per altri tipi di file, ad esempio le tabelle XML (*XML*) o i file di testo (*TXT*), è possibile usare **Recupera e trasforma** per eseguire query sui dati, trasformarli e caricarli prima in un file di Excel o Power BI Desktop, che quindi potrà essere importato in Power BI.
 
-Anche il percorso in cui si archiviano i file ha una grande importanza. OneDrive for Business offre il massimo di flessibilità e integrazione con Power BI. È possibile mantenere i file nell'unità locale, ma se occorre aggiornare i dati saranno necessari alcuni passaggi aggiuntivi. Negli articoli correlati vengono forniti maggiori dettagli.
+Anche il percorso in cui si archiviano i file ha una grande importanza. OneDrive for Business offre il massimo di flessibilità e integrazione con Power BI. I file si possono tenere nell'unità locale, ma se è necessario aggiornarli, si devono eseguire alcuni passaggi aggiuntivi. Per altre informazioni, vedere i collegamenti agli articoli riportati di seguito.
 
-## <a name="content-packs"></a>Pacchetti di contenuto
-![](media/service-get-data/pbi_getdata_contentpacks.png)
-
-I pacchetti di contenuto contengono tutti i dati e i report necessari, già pronti per l'utente. In Power BI sono disponibili due tipi di pacchetti di contenuto: quelli dei servizi, ad esempio Google Analytics, Marketo o Salesforce e quelli creati e condivisi da altri utenti dell'organizzazione.
-
-**Servizi**: sono disponibili decine di servizi con pacchetti di contenuto per Power BI e ne vengono aggiunti continuamente altri. Per la maggior parte dei servizi è necessario avere un account. Per altre informazioni, vedere [Connettersi ai servizi](service-connect-to-services.md).
-
-**Contenuti aziendali**: con un account Power BI Pro, gli utenti all'interno dell'organizzazione possono creare, condividere e usare pacchetti di contenuto. Per altre informazioni, vedere [Pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md).
-
-## <a name="databases"></a>Database
+### <a name="databases"></a>Database
 ![](media/service-get-data/pbi_getdata_databases.png)
 
-**Database nel cloud**: dal servizio Power BI è possibile connettersi in tempo reale al database SQL di Azure, ad Azure SQL Data Warehouse, a Spark in Azure HDInsight e a SQL Server Analysis Services tramite DirectQuery. Le connessioni da Power BI a questi database sono dinamiche, vale a dire che quando ci si connette, ad esempio, a un database SQL di Azure e si inizia a esplorarne i dati creando report in Power BI, oppure ogni volta che si suddividono i dati o si aggiunge un altro campo a una visualizzazione, viene eseguita una query direttamente nel database. Per altre informazioni, vedere [Azure e Power BI](service-azure-and-power-bi.md).
+**Database nel Cloud**: dal servizio Power BI è possibile connettersi in tempo reale a:
 
-**Database locali**: dal servizio Power BI è possibile connettersi direttamente ai database modello tabulari di SQL Server Analysis Services. È necessario avere Power BI Enterprise Gateway. In caso di dubbi sulla connessione al database modello tabulare dell'organizzazione, contattare l'amministratore o il reparto IT. Per altre informazioni, vedere [Dati tabulari di SQL Server Analysis Services in Power BI](sql-server-analysis-services-tabular-data.md).
+* Database SQL di Azure
+* Azure SQL Data Warehouse
+* Spark in Azure HDInsight
 
-Per altri tipi di database all'interno dell'organizzazione, è necessario innanzitutto usare Power BI Desktop o Excel per connettersi, eseguire query e caricare i dati in un modello di dati. È quindi possibile importare il file in Power BI, dove viene creato un set di dati. Se si configura l'aggiornamento pianificato, Power BI userà le informazioni di connessione contenute nel file insieme alle impostazioni di aggiornamento configurate per connettersi direttamente all'origine dati e verificare la disponibilità di aggiornamenti. Gli aggiornamenti vengono quindi caricati nel set di dati in Power BI. Per altre informazioni, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
+Le connessioni da Power BI a questi database sono dinamiche. Si supponga di connettersi a un database SQL di Azure e di iniziare a esplorarne i dati creando report in Power BI. Ogni volta che si sezionano i dati o si aggiunge un altro campo a una visualizzazione, Power BI esegue una query direttamente sul database. Per altre informazioni, vedere [Azure e Power BI](service-azure-and-power-bi.md).
+
+**Database locali**: dal servizio Power BI è possibile connettersi direttamente ai database modello tabulari di SQL Server Analysis Services. A tale scopo, è necessario un gateway Power BI Enterprise. In caso di dubbi sulla connessione al database modello tabulare dell'organizzazione, contattare l'amministratore o il reparto IT. Per altre informazioni, vedere [Dati dinamici di SQL Server Analysis Services in Power BI](sql-server-analysis-services-tabular-data.md).
+
+Per altri tipi di database all'interno dell'organizzazione, è necessario usare Power BI Desktop o Excel per connettersi, eseguire query e caricare i dati in un modello di dati. È quindi possibile importare il file in Power BI, dove esiste un set di dati. Se si configura un aggiornamento pianificato, Power BI userà le informazioni di connessione contenute nel file per connettersi direttamente all'origine dati e verificare la disponibilità di aggiornamenti. Power BI carica quindi gli aggiornamenti nel set di dati. Per altre informazioni, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
 
 ## <a name="what-if-my-data-comes-from-a-different-source"></a>Dati provenienti da un'origine diversa
-Esistono letteralmente centinaia di origini dati diverse che si possono usare con Power BI. Indipendentemente dalla loro provenienza, i dati devono avere un formato che il servizio Power BI può usare per creare report e dashboard, rispondere a domande con Domande e risposte, e così via.
+Esistono centinaia di origini dati diverse che si possono usare con Power BI. Indipendentemente dall'origine da cui si ottengono, i dati devono essere in un formato che può essere usato dal servizio Power BI. Con quei dati il servizio Power BI è in grado di creare report e dashboard, rispondere alle domande con **Domande e risposte** e così via.
 
-Alcune origini dati dispongono già di dati in un formato pronto per il servizio Power BI, ad esempio i pacchetti di contenuto dei provider di servizi come Google Analytics e Twilio. Anche i database modello tabulari di SQL Server Analysis Services sono già pronti. Ed è possibile connettersi in tempo reale ai database nel cloud, ad esempio al database SQL di Azure e Spark in HDInsight.
+Alcune origini dati contengono già dati formattati per il servizio Power BI. Queste origini sono simili ai pacchetti di contenuto offerti da provider di servizi come Google Analytics e Twilio. Anche i database modello tabulari di SQL Server Analysis Services sono già pronti per l'uso. È anche possibile connettersi in tempo reale ai database nel cloud, ad esempio al database SQL di Azure e Spark in HDInsight.
 
-In altri casi, potrebbe essere necessario eseguire una query e caricare i dati desiderati in un file. Si supponga ad esempio di avere dati logistici in un database del data warehouse in un server dell'organizzazione. Nel servizio Power BI non è possibile connettersi direttamente a tale database e iniziare l'esplorazione dei dati, a meno che non sia un database modello tabulare. È possibile, tuttavia, usare Power BI Desktop o Excel per eseguire query e caricare i dati logistici in un modello di dati da salvare poi in un file. È quindi possibile importare il file in Power BI, dove viene creato un set di dati.
+In altri casi, potrebbe essere necessario eseguire una query e caricare i dati desiderati in un file. Si supponga ad esempio di avere dati logistici nella propria organizzazione. I dati vengono archiviati in un database del data warehouse in un server. Nel servizio Power BI non è possibile connettersi a tale database e iniziare l'esplorazione dei dati, a meno che non sia un database modello tabulare, ma è possibile usare Power BI Desktop o Excel per eseguire query e caricare i dati logistici in un modello di dati da salvare poi in un file. È quindi possibile importare il file in Power BI dove esiste un set di dati.
 
-Una probabile obiezione potrebbe essere che i dati logistici nel database cambiano continuamente. Come è possibile assicurarsi che il set di dati in Power Bi venga aggiornato? Le informazioni di connessione del file di Power BI Desktop o di Excel vengono importate nel set di dati insieme ai dati. Se si configura l'aggiornamento pianificato o si esegue un aggiornamento manuale nel set di dati, Power BI userà le informazioni di connessione del set di dati, oltre ad altre impostazioni, per connettersi direttamente al database, verificare la disponibilità di aggiornamenti e caricarli nel set di dati. Sarà probabilmente necessario un Power BI Gateway per proteggere e trasferire i dati tra il server locale e Power BI. Le visualizzazioni in report e dashboard vengono aggiornate automaticamente.
+Una probabile obiezione potrebbe essere che i dati logistici nel database cambiano continuamente e il set di dati di Power BI deve essere aggiornato. Quando si importano i dati nel set di dati, si importano anche le informazioni di connessione dal file di Excel o Power BI Desktop.
 
-Il fatto che non sia possibile connettersi direttamente all'origine dati dal servizio Power BI non significa che non si possa disporre di quei dati in Power BI. Si tratta solo di eseguire qualche passaggio in più e forse di chiedere un piccolo aiuto al reparto IT. Vedere [Origini dati in Power BI Desktop](desktop-data-sources.md) per altre informazioni.
+Si supponga di configurare un aggiornamento pianificato o di eseguire un aggiornamento manuale del set di dati. Power BI usa le informazioni di connessione del set di dati, oltre a un paio di altre impostazioni, per connettersi direttamente al database. Verifica quindi se sono presenti aggiornamenti e li carica nel set di dati. Sarà probabilmente necessario un gateway di Power BI per proteggere e trasferire i dati tra il server locale e Power BI. Completato il trasferimento, eventuali visualizzazioni nei report e dashboard vengono automaticamente aggiornate.
+
+Anche se non è possibile connettersi direttamente all'origine dati dal servizio Power BI, si possono comunque ottenere i dati in Power BI. Si tratta solo di eseguire qualche passaggio in più e forse di chiedere un piccolo aiuto al reparto IT. Vedere [Origini dati in Power BI Desktop](desktop-data-sources.md) per altre informazioni.
 
 ## <a name="some-more-details"></a>Altri dettagli
-Si noterà che i termini set di dati e origine dati vengono usati spesso in Power BI. Sono usati di frequente come sinonimi, ma in realtà sono due cose diverse anche se correlate.
+Si noterà che i termini set di dati e origine dati vengono usati spesso in Power BI. Vengono usati spesso come sinonimi, ma in realtà sono due cose diverse anche se correlate.
 
-Un ***set di dati*** viene creato automaticamente in Power BI quando si usa Recupera dati per connettersi e importare i dati da un pacchetto di contenuto o a un file oppure per connettersi a un'origine dati dinamica. Un set di dati contiene informazioni sull'origine dati, le credenziali dell'origine dati e, in molti casi, un subset di dati copiati dall'origine dati. Nella maggior parte dei casi, quando si creano visualizzazioni in report e dashboard, si stanno usando i dati del set di dati.
+Si crea automaticamente un **set di dati** in Power BI quando si usa **Recupera dati**. **Recupera dati** consente di connettersi e importare i dati di un pacchetto di contenuto o un file oppure di connettersi a un'origine dati in tempo reale. Un set di dati contiene informazioni sull'origine dati e sulle credenziali dell'origine dati. In molti casi include anche un subset di dati copiati dall'origine dati. Quando si creano visualizzazioni in report e dashboard spesso si usano i dati del set di dati.
 
-Un'***origine dati*** è l'elemento da cui provengono effettivamente i dati presenti in un set di dati. Ad esempio, un servizio online come Google Analytics o QuickBooks, un database nel cloud come il database SQL di Azure oppure un database o un file in un server o un computer locale dell'organizzazione.
+Un'**origine dati** è l'elemento da cui provengono i dati presenti in un set di dati. Ad esempio, i dati possono provenire da:
 
-### <a name="data-refresh"></a>Aggiornamento dei dati
-Se si salvano i file sul disco locale o su un'unità in un punto qualsiasi all'interno dell'organizzazione, per aggiornare il set di dati in Power BI potrebbe essere necessario un Power BI Gateway. E il computer in cui è salvato il file deve essere acceso durante l'aggiornamento. È inoltre possibile importare nuovamente il file o usare Pubblica da Excel o Power BI Desktop, ma non si tratta di processi automatizzati.
+* Un servizio online come Google Analytics o QuickBooks
+* Un database nel cloud come il database SQL di Azure
+* Un database o file in un computer locale o un server dell'organizzazione
 
-Se si salvano i file in OneDrive for Business o nei siti del team di SharePoint e quindi si esegue la connessione o si importano i file in Power BI, il set di dati, i report e il dashboard saranno sempre aggiornati. Poiché sia OneDrive for Business che Power BI risiedono nel cloud, Power BI può connettersi direttamente al file salvato circa una volta ogni ora per verificare la presenza di aggiornamenti. Se li trova, il set di dati e le eventuali visualizzazioni vengono aggiornati automaticamente.
+## <a name="data-refresh"></a>Aggiornamento dei dati
+Forse l'utente salva i file nella propria unità locale o un'unità che si trova in un'altra parte dell'organizzazione. Può essere necessario un gateway di Power BI in modo che sia possibile aggiornare il set di dati in Power BI. Il computer in cui è archiviato il file deve essere acceso durante l'aggiornamento. È possibile importare nuovamente il file o usare Pubblica da Excel o Power BI Desktop, ma tali opzioni non sono processi automatizzati.
 
-I pacchetti di contenuto dai servizi vengono aggiornati automaticamente. Nella maggior parte dei casi, una volta al giorno. È possibile eseguire l'aggiornamento manualmente, ma la presenza o meno di dati aggiornati dipenderà dal provider di servizi. L'aggiornamento dei pacchetti di contenuto di altri utenti dell'organizzazione dipenderà dalle origini dati usate e dalle impostazioni di aggiornamento configurate da chi ha creato il pacchetto di contenuto.
+Se si salvano i file in OneDrive for Business o nei siti del team di SharePoint, è possibile connettersi ai file o importare i file in Power BI. Quindi, il set di dati, i report e il dashboard saranno sempre aggiornati. Poiché sia OneDrive for Business che Power BI risiedono nel cloud, Power BI può connettersi direttamente al file salvato circa una volta ogni ora per verificare la presenza di aggiornamenti. Il set di dati e le eventuali visualizzazioni si aggiornano automaticamente se sono presenti aggiornamenti.
 
-Database SQL di Azure, Azure SQL Data Warehouse e Spark in Azure HDInsight sono caratterizzati dal fatto di essere origini dati nel cloud. Poiché anche il servizio Power BI risiede nel cloud, Power BI può connettersi a queste origini dati in modo dinamico, tramite DirectQuery. Le informazioni disponibili in Power BI sono sempre sincronizzate e non è necessario configurare l'aggiornamento.
+I pacchetti di contenuto dai servizi vengono aggiornati automaticamente. Nella maggior parte dei casi vengono aggiornati una volta al giorno. È possibile eseguire l'aggiornamento manualmente, ma la presenza o meno di dati aggiornati dipenderà dal provider di servizi. Gli aggiornamenti dei pacchetti di contenuto degli utenti dell'organizzazione dipenderanno dalle origini dati usate. Dipenderanno inoltre dal modo in cui la persona che ha creato il pacchetto di contenuto ha configurato l'aggiornamento.
 
-Nel caso di SQL Server Analysis Services, invece, la connessione da Power BI è una connessione dinamica come per un database di Azure nel cloud, ma il database si trova in un server all'interno dell'organizzazione. Questo tipo di connessione richiede un Power BI Gateway, che viene in genere configurato dal reparto IT.
+Database SQL di Azure, Azure SQL Data Warehouse e Spark in Azure HDInsight sono caratterizzati dal fatto di essere origini dati nel cloud. Anche il servizio Power BI risiede nel cloud quindi Power BI può connettersi a queste origini dati in tempo reale usando **DirectQuery**. Le informazioni disponibili in Power BI sono sempre sincronizzate e non è necessario configurare un aggiornamento pianificato.
+
+SQL Server Analysis Services è un prodotto singolare. Quando ci si connette a esso da Power BI, la connessione è dinamica proprio come quella a un database di Azure nel cloud. La differenza è che il database si trova in un server dell'organizzazione. Questo tipo di connessione richiede un gateway di Power BI configurato dal reparto IT.
 
 L'aggiornamento dei dati è un aspetto estremamente importante di Power BI ed è troppo complesso per essere illustrato qui in modo esaustivo. Per un'analisi più approfondita, vedere [Aggiornamento dei dati in Power BI](refresh-data.md).
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
-Per tutte le origini dati usate nel servizio Power BI, si applicano le considerazioni e le limitazioni seguenti. Esistono altre limitazioni applicabili a funzionalità specifiche, ma l'elenco seguente si applica al servizio Power BI in generale:
+Per tutte le origini dati usate nel servizio Power BI, tenere presenti le limitazioni seguenti. Esistono altre limitazioni applicabili a funzionalità specifiche, ma l'elenco seguente è valido per il servizio Power BI completo:
 
 * **Limite dimensioni del set di dati**: è previsto un limite di 1 GB per ogni set di dati nel servizio Power BI.
-* **Limite di righe**: il numero massimo di righe nel set di dati (quando non si usa DirectQuery) è 2 miliardi, con tre di queste righe riservate (risultante in un massimo di 1.999.999.997 righe utilizzabili); il numero massimo di righe quando si usa DirectQuery è 1 milione di righe.
-* **Limite di colonne**: il numero massimo di colonne consentite in un set di dati, in tutte le tabelle nel set di dati, è 16.000. Questa limitazione si applica al servizio Power BI e ai set di dati usati in Power BI Desktop. Power BI usa una colonna dei numeri di riga interna per tabella inclusa nel set di dati, cioè il numero massimo di colonne è 16.000 meno una per ogni tabella usata nel set di dati.
+* **Limite di righe**: il numero massimo di righe nel set di dati quando non si usa **DirectQuery** è 2 miliardi. Tre di tali righe sono riservate, quindi risultano al massimo 1.999.999.997 righe utilizzabili. Il numero massimo di righe quando si usa **DirectQuery** è 1 milione.
+* **Limite di colonne**: il numero massimo di colonne consentite in un set di dati, in tutte le tabelle nel set di dati, è 16.000. Questo limite si applica al servizio Power BI e ai set di dati usati in Power BI Desktop. Power BI usa una colonna dei numeri di riga interna per tabella nel set di dati, ovvero il numero massimo di colonne è 16.000 meno una per ogni tabella del set di dati.
 

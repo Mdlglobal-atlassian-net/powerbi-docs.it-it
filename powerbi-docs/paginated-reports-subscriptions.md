@@ -1,6 +1,6 @@
 ---
-title: Sottoscrivere i report impaginati nel servizio Power BI
-description: In questo articolo descrive aspetti da tenere a mente sulla sottoscrizione di report impaginati nel servizio Power BI.
+title: Sottoscrivere report impaginati nel servizio Power BI
+description: In questo articolo vengono illustrati aspetti importanti sulla sottoscrizione di report impaginati nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
 manager: kfile
@@ -9,37 +9,37 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 05/24/2019
-ms.openlocfilehash: ccec6658808d94728f2a4f14de67c36da0f51def
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222186"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839568"
 ---
-# <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Sottoscrivere i report impaginati nel servizio Power BI se stessi e ad altri utenti 
+# <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI 
 
-È ora possibile configurare sottoscrizioni tramite posta elettronica per se stessi e ad altri utenti per i report impaginati nel servizio Power BI. In generale, il processo è identico [sottoscrizione di report e dashboard nel servizio Power BI](service-report-subscribe.md). Questo articolo illustra in dettaglio le differenze e considerazioni. 
+È ora possibile configurare la sottoscrizione per se stessi e altri utenti di report impaginati nel servizio Power BI tramite un messaggio di posta elettronica. Il processo è generalmente identico a quello previsto per la [sottoscrizione di report e dashboard nel servizio Power BI](service-report-subscribe.md). Questo articolo illustra nel dettaglio differenze e considerazioni. 
 
-Nell'impostazione di sottoscrizioni, scegliere la frequenza con cui si desidera ricevere messaggi di posta elettronica: giornaliera, settimanale o ogni ora. Se si sceglie giornaliera o settimanale, è possibile scegliere l'ora si preferisce l'esecuzione della sottoscrizione. In tutti, è possibile impostare fino a 24 sottoscrizioni diverse per ogni giorno per ogni report. 
+Durante la configurazione delle sottoscrizioni, è possibile scegliere la frequenza di ricezione dei messaggi di posta elettronica: giornaliera, settimanale oppure oraria. Se si sceglie la frequenza giornaliera o settimanale, è possibile scegliere gli orari in cui eseguire la sottoscrizione. In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni report. 
 
-## <a name="considerations-for-paginated-report-subscriptions"></a>Considerazioni relative alle sottoscrizioni di report impaginato 
+## <a name="considerations-for-paginated-report-subscriptions"></a>Considerazioni per le sottoscrizioni di report impaginati 
 
-- A differenza delle sottoscrizioni per i dashboard o report di Power BI, la sottoscrizione contiene un allegato dell'output intero report.  Sono supportati i seguenti tipi di attacco: PDF, presentazione di PowerPoint (PPTX), cartella di lavoro di Excel (XLSX), il documento di Word (DOCX), file CSV e XML.
+- A differenza delle sottoscrizioni per dashboard o report di Power BI, la sottoscrizione contiene un allegato dell'output dell'intero report.  Sono supportati i tipi di allegato seguenti: PDF, presentazione di PowerPoint (PPTX), cartella di lavoro di Excel (XLSX), documento di Word (DOCX), file CSV e XML.
 
-- Non vi è alcuna immagine di anteprima del report nel corpo del messaggio di posta elettronica.  Ma è previsto che l'immagine della prima pagina del report come un elemento facoltativo. 
+- Il corpo del messaggio di posta elettronica non contiene un'immagine di anteprima del report.  È previsto l'inserimento dell'immagine della prima pagina del report come elemento facoltativo. 
 
-- La dimensione massima dei report dell'allegato è 25 MB. 
+- Le dimensioni del report allegato non possono superare i 25 MB. 
 
-- È possibile sottoscrivere altri utenti per i report impaginati che si connettono a tutte le origini dati attualmente supportate, inclusi i set di dati di Power BI o Azure Analysis Services. Tenere a mente che l'allegato del report riflette i dati di base delle autorizzazioni, come avviene per SQL Server Reporting Services oggi stesso. 
+- È possibile sottoscrivere altri utenti per report impaginati che si connettono a una qualsiasi origine dati attualmente supportata, tra cui Azure Analysis Services o set di dati di Power BI. Considerare che l'allegato del report riflette i dati in base alle autorizzazioni, come avviene attualmente per SQL Server Reporting Services. 
 
-- Le sottoscrizioni di pagina report sono collegate al nome del report.  
+- Le sottoscrizioni alle pagine dei report sono associate al nome del report.  
 
-- Sottoscrizioni tramite posta elettronica vengono inviate con valori predefiniti dei parametri del report. 
+- Le sottoscrizioni tramite posta elettronica vengono inviate con i valori dei parametri predefiniti. 
 
-- È presente alcun **dopo l'aggiornamento dati** opzione per la frequenza con i report impaginati. È sempre possibile ottenere i valori più recenti dall'origine dati sottostante. 
+- Con i report impaginati, non esiste l'opzione di frequenza **Dopo l'aggiornamento dei dati**. Si ottengono sempre i valori più recenti dall'origine dati sottostante. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Sottoscrivere autonomamente e altri report e dashboard nel servizio Power BI](service-report-subscribe.md)
+[Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI](service-report-subscribe.md)
 
-[Che cosa sono i report impaginati in Power BI Premium? (anteprima)](paginated-reports-report-builder-power-bi.md)
+[Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)

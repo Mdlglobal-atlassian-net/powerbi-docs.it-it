@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394795"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839197"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
@@ -27,15 +27,15 @@ Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offro
 
 L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **Forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Oggetto visivo forme mappa**. Dopo aver effettuato la selezione è necessario riavviare Power BI Desktop.
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![Abilitare la funzionalità di anteprima Forme mappa](media/desktop-shape-map/power-bi-preview-features.png)
 
-Dopo aver abilitato **forme mappa**, fare clic sul controllo **Forme mappa** nel riquadro **Visualizzazioni**.
+Dopo aver abilitato **Forme mappa**, selezionare l'icona **Forme mappa** nel riquadro **Visualizzazioni**.
 
-![](media/desktop-shape-map/shape-map_2.png)
+![selezionare il modello per la forma della mappa](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop crea un'area di disegno vuota dell'oggetto visivo **forme mappa**.
 
-![](media/desktop-shape-map/shape-map_3.png)
+![viene visualizzata una forma di mappa vuota nell'area di disegno](media/desktop-shape-map/shape-map-3.png)
 
 Per creare **forme mappa**, seguire la procedura illustrata di seguito:
 
@@ -46,26 +46,23 @@ Per creare **forme mappa**, seguire la procedura illustrata di seguito:
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![creare la forma di mappa](media/desktop-shape-map/shape-map-3a.png)
 2. Nel riquadro Impostazioni **Formato** espandere **Forma** ed effettuare una selezione dall'elenco a discesa **Mappe standard** per visualizzare i dati. A questo punto viene visualizzato il rendering, come illustrato nell'immagine seguente.
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![aprire il riquadro Formattazione e selezionare Forma](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > La sezione **Chiavi aree** riportata alla fine di questo articolo fornisce una raccolta di tabelle con chiavi di aree mappa che è possibile usare per testare l'oggetto visivo **forme mappa**.
    > 
    > 
-3. È quindi possibile modificare le impostazioni relative alla proiezione delle mappe, nonché i colori dei punti dati, dal riquadro Impostazioni **Formato**. È anche possibile modificare le impostazioni di ingrandimento. Ad esempio, è possibile modificare i colori, impostare i valori minimo e massimo e così via.
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. È anche possibile aggiungere una colonna di dati di categoria per il bucket **Legenda** e classificare le aree delle mappe in base alle categorie.
+3. È quindi possibile modificare la mappa usando le opzioni di Formattazione, ad esempio **Colore predefinito**, **Zoom** e così via. È anche possibile aggiungere una colonna di dati di categoria al bucket **Legenda** e classificare le aree delle mappe in base alle categorie.
 
 ## <a name="use-custom-maps"></a>Usare le mappe personalizzate
 È possibile usare mappe personalizzate con **Forme mappa** purché siano nel formato **TopoJSON**. Se la mappa è in un altro formato, è possibile usare strumenti online come [**Map Shaper**](http://mapshaper.org/) per convertire i *file di forma* o le mappe *GeoJSON* nel formato **TopoJSON**.
 
 Per usare il file di mappa **TopoJSON**, aggiungere un oggetto visivo ShapeMap al report e aggiungere alcuni dati nei bucket *Percorso* e *Saturazione colore*. Quindi, nel riquadro **Visualizzazioni** con la sezione **Formato** selezionata (mostrata come (1) nell'immagine seguente), espandere la sezione **Forma** e selezionare **+ Aggiungi mappa**.
 
-![](media/desktop-shape-map/shape-map_6.png)
+![aprire il riquadro Formattazione e selezionare Aggiungi mappa](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>Mappa personalizzata di esempio
 L'ente *Offices of the United States Attorneys* (Ente federale dei procuratori distrettuali degli Stati Uniti) rilascia un report finanziario annuale con dati finanziari relativi alle pratiche e al volume di casi.  Tutti i report sono disponibili nel collegamento riportato di seguito:
@@ -74,11 +71,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 Poiché gli stati degli Stati Uniti possono essere suddivisi in distretti, è necessario usare forme mappa personalizzate.  Mediante l'importazione della mappa **TopoJSON** dei distretti giudiziari degli Stati Uniti in **Power BI Desktop** è possibile visualizzare i dati finanziari annuali corrispondenti al procuratore distrettuale.  L'immagine seguente mostra un esempio di questa mappa.
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![forme mappa personalizzate](media/desktop-shape-map/shape-map-7a.png)
 
 È possibile eseguire operazioni interessanti anche con le mappe dei singoli stati e visualizzare maggiori dettagli in base ai distretti contenuti nella mappa. 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![Forme mappa Texas](media/desktop-shape-map/shape-map-7b.png)
 
 Per eseguire test con questo set di dati e questa visualizzazione, è possibile scaricare il file originale con estensione pbix usato per generare il report usando il collegamento seguente.
 
@@ -87,11 +84,11 @@ Per eseguire test con questo set di dati e questa visualizzazione, è possibile 
 ## <a name="getting-map-data"></a>Recupero dei dati mappa
 Per inserire rapidamente i dati in un modello per poter testare le **forme mappa**, è possibile copiare una delle tabelle riportate alla fine di questo articolo, quindi selezionare **Immettere i dati** dalla barra multifunzione **Home**.
 
-![](media/desktop-shape-map/shape-map_4.png)
+![In Desktop selezionare Immettere i dati](media/desktop-shape-map/shape-map-4-new.png)
 
 Se i dati includono più colonne, sarà necessario usare un editor come Excel per incollare i dati e quindi copiare separatamente ogni colonna di dati. È quindi possibile incollare i dati in Power BI Desktop. La riga superiore viene automaticamente identificata come intestazione.
 
-![](media/desktop-shape-map/shape-map_5.png)
+![riquadro Crea tabella](media/desktop-shape-map/shape-map-5.png)
 
 È possibile immettere una nuova colonna semplicemente digitandone il nome (nella colonna vuota a destra), quindi aggiungere i valori in ogni cella, esattamente come in Excel. Al termine, selezionare **Carica** per aggiungere la tabella al modello di dati per Power BI Desktop.
 

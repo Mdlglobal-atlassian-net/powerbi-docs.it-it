@@ -1,5 +1,5 @@
 ---
-title: 'Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI (anteprima)'
+title: 'Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI'
 description: In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Poi si usa una procedura guidata in Generatore report per creare un report impaginato. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60989909"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839745"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI (anteprima)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI
 
-In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Usare quindi una procedura guidata in Generatore Report di Power BI per creare un report impaginato con una tabella che esegue il wrapping di più pagine. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI. I report impaginati nel servizio Power BI sono attualmente in anteprima.
+In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Poi si usa una procedura guidata in Generatore report di Power BI per creare un report impaginato con una tabella estesa su più pagine. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI.
 
 ![Report impaginato nel servizio Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ Ecco i passaggi che verranno completati in questa esercitazione:
 
 > [!div class="checklist"]
 > * Creare un database di esempio di Azure.
-> * Creare una matrice in Generatore Report di Power BI con l'aiuto di una procedura guidata.
+> * Creare una matrice in Generatore report di Power BI con l'aiuto di una procedura guidata.
 > * Formattare il report con titolo, numeri di pagina e intestazioni di colonna in ogni pagina.
 > * Formattare la valuta.
 > * Caricare il report nel servizio Power BI.
@@ -37,7 +37,7 @@ Se non si ha una sottoscrizione di Azure, prima di iniziare creare un [account g
 
 Questi sono i prerequisiti per la creazione del report impaginato:
 
-- Installare [di Power BI Report Builder dall'area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
+- Installare [Generatore report di Power BI dall'Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
 
 - Seguire la guida introduttiva [Creare un database SQL di Azure nel portale di Azure](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Copiare e salvare il valore nella casella **Nome server** nella scheda **Panoramica**. Ricordare il nome utente e la password creati in Azure.
 
@@ -48,7 +48,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Creare la matrice con una procedura guidata
   
-1.  Avviare Generatore Report di Power BI dal computer.  
+1.  Avviare Generatore report di Power BI dal computer.  
   
      Verrà visualizzata la finestra di dialogo **Attività iniziali**.  
   
@@ -329,5 +329,5 @@ Ora che è stato creato il report impaginato, è possibile caricarlo nel servizi
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cosa sono i report impaginati in Power BI Premium? (anteprima)](paginated-reports-report-builder-power-bi.md)
+[Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 

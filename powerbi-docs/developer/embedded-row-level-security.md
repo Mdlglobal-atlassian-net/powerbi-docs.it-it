@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354150"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823418"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
@@ -215,7 +215,7 @@ La procedura seguente descrive come iniziare a configurare la funzionalità Cust
 
 7. Usare le API Power BI per usare la funzionalità CustomData nell'applicazione.  Quando si genera un token con la funzionalità CustomData, è necessario avere un nome utente. Il nome utente deve essere uguale all'UPN dell'utente master. L'utente master deve essere un membro dei ruoli creati. Se non viene specificato alcun ruolo, per la valutazione della sicurezza a livello di riga vengono usati tutti i ruoli di cui è membro l'utente master.
 
-    Quando si lavora con un [entità servizio](embed-service-principal.md), è anche necessario eseguire i passaggi precedenti al posto di un account master. Durante la generazione di token di incorporamento, usare il [ID dell'oggetto entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id) come nome utente.
+    Quando si lavora con un'[entità servizio](embed-service-principal.md), è necessario eseguire anche i passaggi precedenti al posto di usare un account master. Durante la generazione di un token di incorporamento, usare l'[ID oggetto entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id) come nome utente.
 
     > [!Note]
     > Quando si è pronti per distribuire l'applicazione nell'ambiente di produzione, il campo o l'opzione dell'account dell'utente master non deve essere visibile per l'utente finale.
@@ -310,7 +310,7 @@ Il valore specificato nel BLOB di identità deve essere un token di accesso vali
 
    ![Registrazione dell'app](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Gateway dati locale con entità servizio (anteprima)
+## <a name="on-premises-data-gateway-with-service-principal"></a>Gateway dati locale con entità servizio
 
 I clienti che configurano la sicurezza a livello di riga mediante un'origine dati con connessione dinamica locale SQL Server Analysis Services (SSAS) possono usare la nuova funzionalità [entità servizio](embed-service-principal.md) per la gestione degli utenti e del loro accesso ai dati in SSAS, nel contesto dell'integrazione con **Power BI Embedded**.
 

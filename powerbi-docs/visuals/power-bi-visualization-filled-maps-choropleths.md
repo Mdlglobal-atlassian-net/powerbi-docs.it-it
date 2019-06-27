@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61145423"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839830"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mappe colorate (cloroplete) in Power BI
 Nelle mappe colorate vengono usate ombreggiature, tinte o motivi per visualizzare proporzionalmente le differenze relative a un valore in un'area geografica.  In questo modo è possibile visualizzare queste differenze relative con ombreggiature chiare (frequenza o valore minore) e scure (frequenza o valore maggiore).    
 
-![Mappa degli Stati Uniti](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![Mappa degli Stati Uniti](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Cosa viene inviato a Bing
 Power BI si integra con Bing per fornire coordinate della mappa predefinite (un processo denominato geocodifica). Quando si crea una visualizzazione mappa nel servizio Power BI o Power BI Desktop, i dati contenuti nei bucket **Posizione**, **Latitudine** e **Longitudine** (usati per creare tale visualizzazione) vengono inviati a Bing.
@@ -55,10 +55,11 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Ottenere i dati e aggiungere una nuova pagina vuota al report
-1. Per creare una mappa colorata personalizzata, [scaricare l'esempio di analisi delle vendite e marketing](../sample-datasets.md) accedendo a Power BI e selezionando **Recupera dati \> Esempi \> Vendite e marketing \> Connetti**.
-2. Quando viene visualizzato il messaggio di conferma, chiuderlo e selezionare la scheda **Report**. Scegliere quindi **Esempio di analisi di vendite e marketing** per aprire il report.
+1. Per creare una mappa colorata personalizzata, [scaricare l'esempio di analisi delle vendite e marketing](../sample-datasets.md) accedendo a Power BI e selezionando **Recupera dati \> Esempi \> Vendite e marketing \> Connetti**. In alternativa ottenere l'app **Vendite e marketing Power BI** in appsource.com. 
 
-   ![Elenco del contenuto del report](media/power-bi-visualization-filled-maps-choropleths/power-bi-content-reports2.png)
+2. Aprire il report Vendite e marketing.
+
+   ![Viene aperto il report Vendite e marketing](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
 3. Power BI apre il report. Selezionare **Modifica report** per aprire il report in [visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
 
 4. Aggiungere una nuova pagina selezionando il segno più (+) di colore giallo nella parte inferiore dell'area di disegno del report.
@@ -123,13 +124,13 @@ Evidenziando una località in una mappa colorata viene applicato il filtro incro
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 I dati delle mappe possono essere ambigui.  Ad esempio, Washington può corrispondere sia a un nome di città che di stato. I dati geografici sono probabilmente archiviati in colonne distinte, una per i nomi di città e una per i nomi di stati o province, di conseguenza Bing potrebbe non essere in grado di indicare a cosa si riferisce il nome Washington. Se il set di dati contiene già i dati relativi a latitudine e longitudine, Power BI include speciali campi per ovviare alle ambiguità dei dati delle mappe. È sufficiente trascinare il campo che contiene i dati relativi alla latitudine nell'area Visualizzazioni \> Latitudine e fare  altrettanto per i dati relativi alla longitudine.    
 
-![Riquadri Visualizzazioni e Campi](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![Riquadri Visualizzazioni e Campi](media/power-bi-visualization-filled-maps-choropleths/pbi-latitude.png)
 
 Se si dispone delle autorizzazioni per modificare il set di dati in Power BI Desktop, guardare questo video per informazioni su come risolvere le ambiguità della mappa.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
 
-Se i dati relativi a latitudine e longitudine non sono disponibili, [seguire queste istruzioni per aggiornare il set di dati](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
+Se i dati relativi a latitudine e longitudine non sono disponibili, ma si dispone dell'accesso per la modifica del set di dati, [seguire queste istruzioni per aggiornare il set di dati](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
 Per ulteriori informazioni sulle visualizzazioni mappa, vedere [Suggerimenti e consigli per le visualizzazioni mappa](../power-bi-map-tips-and-tricks.md).
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
+ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66459575"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826628"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -61,9 +61,17 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
    
      ![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. In **Autorizzazioni** decidere chi ha accesso all'app e le operazioni consentite. 
+5. In **Autorizzazioni** decidere chi ha accesso all'app e quali operazioni può eseguire. 
     - Nelle [aree di lavoro classiche](service-create-workspaces.md): tutti gli utenti nell'organizzazione, utenti specifici o gruppi di sicurezza di Azure Active Directory (AAD).
-    - Nelle [aree di lavoro della nuova esperienza](service-create-the-new-workspaces.md): utenti specifici, gruppi di sicurezza e liste di distribuzione di AAD e gruppi di Office 365.
+    - Nelle [aree di lavoro della nuova esperienza](service-create-the-new-workspaces.md): utenti specifici, gruppi di sicurezza e liste di distribuzione di AAD e gruppi di Office 365. Viene concesso automaticamente l'accesso all'app per l'area di lavoro a tutti gli utenti dell'area di lavoro.
+    - È possibile consentire agli utenti dell'app di connettersi a set di dati sottostanti dell'app con l'autorizzazione di compilazione. Questi set di dati verranno visualizzati nelle esperienze di ricerca di set di dati.
+    - È possibile consentire agli utenti dell'app di creare una copia dei report dell'app nella loro area di lavoro personale. 
+    
+    >[!IMPORTANT]
+    >Se l'app si basa su set di dati di altre aree di lavoro, è necessario verificare che tutti gli utenti dell'app abbiano accesso ai set di dati sottostanti.
+> 
+>     
+
 
 6. È possibile installare l'app in modo automatico per i destinatari, se l'amministratore di Power BI ha abilitato questa impostazione nel portale di amministrazione di Power BI. Vedere altre informazioni sull'[installazione automatica di un'app](#automatically-install-apps-for-end-users) in questo articolo.
 
@@ -151,6 +159,14 @@ Ecco alcuni aspetti da tenere in considerazione quando si effettua il push delle
 * Cercare di non sovraccaricare gli utenti. Prestare attenzione a non effettuare il push di troppe app in modo che gli utenti capiscano che le app preinstallate sono utili. È consigliabile controllare chi può effettuare il push delle app agli utenti finali per coordinare i tempi. Stabilire un punto di contatto per il push delle app disponibili nell'organizzazione agli utenti finali.
 
 * Per gli utenti guest che non hanno accettato un invito, le app non verranno installate automaticamente.  
+
+## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Consentire agli utenti di connettersi ai set di dati sottostanti dell'app
+Se si seleziona l'opzione per consentire a tutti gli utenti di connettersi ai set di dati sottostanti dell'app, gli utenti dell'app ricevono l'autorizzazione di compilazione nel set di dati sottostante. Ciò consente agli utenti di [usare i set di dati dell'app tra aree di lavoro](service-datasets-across-workspaces.md) per cercare questi set di dati in Power BI Desktop nonché fare in modo che il servizio recuperi i dati e creare report e dashboard usando questi set di dati. 
+
+Se si deseleziona questa opzione, ai nuovi utenti che vengono aggiunti all'app non viene più concessa l'autorizzazione di compilazione. Tuttavia, le autorizzazioni esistenti per i set di dati sottostanti non cambiano. Per rimuovere manualmente l'autorizzazione di compilazione per gli utenti dell'app che non devono più averla, è possibile usare l'interfaccia utente specificata. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Consentire agli utenti di creare una copia dei report nell'app
+Se si seleziona l'opzione **Consentire agli utenti di creare una copia dei report in questa app**, si consente agli utenti di salvare i report dell'app nella propria area di lavoro personale. Questi report potranno poi essere personalizzati in base a esigenze specifiche. Questa opzione richiede che l'opzione **Consente a tutti gli utenti di connettersi ai set di dati sottostanti dell'app usando l'autorizzazione di compilazione** sia abilitata. Questa funzionalità si comporta come la nuova funzionalità di [copia dei report da altre aree di lavoro](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Annullare la pubblicazione di un'app
 Qualsiasi membro di un'area di lavoro per le app può annullare la pubblicazione dell'app.

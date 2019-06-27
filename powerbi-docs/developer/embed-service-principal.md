@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720350"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823286"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Entità servizio con Power BI (anteprima)
+# <a name="service-principal-with-power-bi"></a>Entità servizio con Power BI
 
 Con l'**entità servizio** è possibile incorporare il contenuto di Power BI in un'applicazione e usare l'automazione con Power BI con un token **solo app**. L'entità servizio è utile quando si usa **Power BI Embedded** o durante l'**automatizzazione di processi e attività di Power BI**.
 
@@ -94,7 +94,7 @@ A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entit�
    > [!Important]
    > Dopo aver abilitato l'entità servizio da usare con Power BI, le autorizzazioni AD dell'applicazione non hanno più effetto. Le autorizzazioni dell'applicazione vengono quindi gestite dal portale di amministrazione di Power BI.
 
-2. Creare un [gruppo di sicurezza in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) e aggiungere l'applicazione creata al gruppo di sicurezza. È possibile creare un gruppo di sicurezza AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Consigliato**: creare un [gruppo di sicurezza in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) e aggiungere l'applicazione creata al gruppo di sicurezza. È possibile creare un gruppo di sicurezza AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     Di seguito è riportato uno script di esempio per creare un nuovo gruppo di sicurezza e aggiungere un'applicazione al gruppo di sicurezza.
 
@@ -109,7 +109,7 @@ A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entit�
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. L'amministratore di Power BI deve abilitare l'entità servizio in **Impostazioni modalità sviluppatore** nel portale di amministrazione di Power BI. Aggiungere il gruppo di sicurezza creato in Azure AD alla sezione **Gruppi di sicurezza specifici** in **Impostazioni modalità sviluppatore**.
+3. L'amministratore di Power BI deve abilitare l'entità servizio in **Impostazioni modalità sviluppatore** nel portale di amministrazione di Power BI. Aggiungere il gruppo di sicurezza creato in Azure AD alla sezione dei gruppi di sicurezza specifici in **Impostazioni modalità sviluppatore**. È anche possibile abilitare l'accesso dell'entità servizio per l'intera organizzazione, nel cui caso il passaggio 2 non è necessario.
 
    > [!Important]
    > Le entità servizio hanno accesso a tutte le impostazioni del tenant abilitate per l'intera organizzazione o per gruppi di sicurezza che includono entità servizio come parte del gruppo. Per limitare l'accesso dell'entità servizio a impostazioni specifiche del tenant, consentire l'accesso solo a gruppi di sicurezza specifici oppure creare un gruppo di sicurezza dedicato per le entità servizio e quindi escluderlo.
@@ -181,4 +181,4 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 * [Registrare un'app](register-app.md)
 * [Power BI Embedded per i clienti](embed-sample-for-customers.md)
 * [Oggetti applicazione e oggetti entità servizio in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Sicurezza a livello di riga con gateway dati locale con entità servizio (anteprima)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Sicurezza a livello di riga con gateway dati locale con entità servizio](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

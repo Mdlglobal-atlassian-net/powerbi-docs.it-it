@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393247"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839860"
 ---
 # <a name="basic-area-chart"></a>Grafico ad aree di base
 Il grafico ad aree di base, detto anche grafico ad aree su più livelli, è basato sul grafico a linee. L'area compresa tra l'asse e la linea viene riempita con colori per indicare un volume. 
@@ -40,11 +40,11 @@ Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati \> E
  
 
 1. Dal dashboard "Esempio di analisi delle vendite al dettaglio" selezionare il riquadro **Total Stores** per aprire il report "Esempio di analisi delle vendite al dettaglio".
-2. Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica.
+2. Selezionare **Modifica** per aprire il report in visualizzazione di modifica.
 3. Aggiungere una nuova pagina del report selezionando l'icona con il segno più (+) di colore giallo nella parte inferiore del report stesso.
 4. Creare un grafico ad aree che visualizzi le vendite dell'anno e le vendite dell'anno precedente per mese.
    
-   a. Nel riquadro CAMPI selezionare **Sales \> Last Year Sales** e **This Year Sales > Value**.
+   a. Nel riquadro Campi selezionare **Sales \> Last Year Sales** e **This Year Sales > Value**.
 
    ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 

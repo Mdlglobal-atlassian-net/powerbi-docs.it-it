@@ -1,5 +1,5 @@
 ---
-title: Elementi della visualizzazione Progettazione report per i report impaginati (anteprima)
+title: Elementi della visualizzazione Progettazione report per i report impaginati
 description: La visualizzazione Progettazione report in Generatore report è lo spazio di progettazione per la creazione di report impaginati che è possibile pubblicare nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423370"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839543"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Elementi della visualizzazione Progettazione report per i report impaginati (anteprima)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Elementi della visualizzazione Progettazione report per i report impaginati
 
-Visualizzazione di progettazione report in Generatore Report di Power BI è lo spazio di progettazione per la creazione di report impaginati che è possibile pubblicare nel servizio Power BI. L'area di progettazione è al centro di Generatore report e attorno vi sono la barra multifunzione e i riquadri. L'area di progettazione è la posizione in cui vengono aggiunti e organizzati gli elementi del report. Questo articolo illustra i riquadri che vengono usati per aggiungere, selezionare e organizzare le risorse del report e modificare le proprietà degli elementi del report.  
+La visualizzazione di progettazione Report in Generatore report di Power BI è lo spazio di progettazione per la creazione di report impaginati che è possibile pubblicare nel servizio Power BI. L'area di progettazione è al centro di Generatore report e attorno vi sono la barra multifunzione e i riquadri. L'area di progettazione è la posizione in cui vengono aggiunti e organizzati gli elementi del report. Questo articolo illustra i riquadri che vengono usati per aggiungere, selezionare e organizzare le risorse del report e modificare le proprietà degli elementi del report.  
 
 ![Visualizzazione Progettazione report di Generatore report](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ La barra di stato del report corrente mostra il nome del server a cui è conness
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cosa sono i report impaginati in Power BI Premium? (anteprima)](paginated-reports-report-builder-power-bi.md) 
+[Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md) 
 
   
   

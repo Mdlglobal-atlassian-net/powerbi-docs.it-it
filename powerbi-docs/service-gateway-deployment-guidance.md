@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051148"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809262"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Indicazioni per la distribuzione di un gateway dati per Power BI
 
@@ -42,7 +42,7 @@ In **Power BI** esiste un vincolo che consente *un solo* gateway per *report*, p
 ### <a name="connection-type"></a>Tipo di connessione
 **Power BI** offre due tipi di connessioni: **DirectQuery** e **importazione**. Non tutte le origini dati supportano entrambi i tipi di connessione e diversi motivi possono contribuire alla scelta di uno di essi, ad esempio requisiti di sicurezza, prestazioni, limiti di dati e le dimensioni dei modelli di dati. Per altre informazioni sul tipo di connessione e sulle origini dati supportate vedere la sezione dell'*elenco dei tipi di origini dati disponibili* dell'[articolo sul gateway dati locale](service-gateway-onprem.md).
 
-A seconda di quale tipo di connessione viene usato, utilizzo del gateway può essere diverso. Ad esempio, è consigliabile separare le origini dati **DirectQuery** dalle origini dati di **Aggiornamento pianificato** laddove possibile (presupponendo che si trovino in report diversi e possano essere separate). In questo modo impedisce al gateway di accumulare migliaia di **DirectQuery** richieste messe in coda, contemporaneamente l'aggiornamento pianificato del mattino di un modello di dati di grandi dimensioni che viene usato per il dashboard principale dell'azienda. Ecco i fattori da considerare per ciascuno di essi:
+A seconda del tipo di connessione in uso, l'utilizzo del gateway può essere diverso. Ad esempio, è consigliabile separare le origini dati **DirectQuery** dalle origini dati di **Aggiornamento pianificato** laddove possibile (presupponendo che si trovino in report diversi e possano essere separate). In questo modo si impedisce al gateway di accumulare migliaia di richieste **DirectQuery** in coda, contemporaneamente all'aggiornamento pianificato del mattino di un modello di dati di grandi dimensioni che viene usato per il dashboard principale della società. Ecco i fattori da considerare per ciascuno di essi:
 
 * Per **Aggiornamento pianificato**: a seconda delle dimensioni della query e del numero di aggiornamenti che si verificano ogni giorno, è possibile scegliere di restare nei requisiti hardware minimi consigliati oppure eseguire l'aggiornamento a un computer con prestazioni superiori. Se una determinata query non è stata ridotta, si verificano trasformazioni nel computer del gateway e, di conseguenza, il computer del gateway trae vantaggio dalla maggiore quantità di RAM disponibile.
 * Per **DirectQuery**: viene inviata una query ogni volta che un utente apre il report o esamina i dati. Dunque, se si prevede l'accesso simultaneo di più di 1.000 utenti, è consigliabile assicurarsi che il computer abbia componenti hardware soli di affidabili. Un numero maggiore di memorie centrali CPU garantisce una migliore velocità effettiva per una connessione **DirectQuery**.
@@ -104,14 +104,34 @@ Il gateway crea una connessione in uscita al **Bus di servizio di Azure**. Il ga
 
 Il gateway *non* richiede porte in entrata. Tutte le porte richieste sono elencate nell'elenco precedente.
 
-È consigliabile aggiungere all'elenco elementi consentiti nel firewall gli indirizzi IP per l'area dati. È possibile scaricare l'elenco di indirizzi, IP, disponibile nell'[elenco di IP del data center di Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Questo elenco viene aggiornato ogni settimana. Il gateway comunicherà con un **Bus di servizio di Azure** usando l'indirizzo IP specificato insieme al nome di dominio completo (FQDN). Se si impone al gateway di comunicare tramite HTTPS, verrà usato esclusivamente il nome di dominio completo e non avrà luogo alcuna comunicazione usando gli indirizzi IP.
+È consigliabile aggiungere all'elenco degli indirizzi consentiti nel firewall gli indirizzi IP per l'area dati. È possibile scaricare l'elenco di indirizzi, IP, disponibile nell'[elenco di IP del data center di Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Questo elenco viene aggiornato ogni settimana. Il gateway comunicherà con un **Bus di servizio di Azure** usando l'indirizzo IP specificato insieme al nome di dominio completo (FQDN). Se si impone al gateway di comunicare tramite HTTPS, verrà usato esclusivamente il nome di dominio completo e non avrà luogo alcuna comunicazione usando gli indirizzi IP.
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>Forzare la comunicazione HTTPS con il bus di servizio di Azure
-È possibile imporre al gateway di comunicare con il **bus di servizio di Azure** usando HTTPS anziché TCP diretto. Questo però determina una lieve riduzione delle prestazioni. È anche possibile forzare il gateway a comunicare con il **bus di servizio di Azure** usando HTTPS con l'interfaccia utente del gateway (a partire dalla versione di marzo 2017 del gateway).
 
-A tale scopo, nel gateway selezionare **Rete**, quindi impostare **Modalità di connettività del bus di servizio di Azure** su **Attiva**.
+È possibile forzare la comunicazione del gateway con il bus di servizio di Azure tramite HTTPS anziché TCP diretto.
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> A partire dalla versione di giugno 2019, nelle nuove installazioni, ma non negli aggiornamenti, HTTPS è l'opzione predefinita al posto di TCP, sulla base dei suggerimenti ricevuti dal bus di servizio di Azure.
+
+Per forzare la comunicazione tramite HTTPS, modificare il file *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* cambiando il valore da `AutoDetect` a `Https`, come illustrato nel frammento di codice riportato subito dopo questo paragrafo. Per impostazione predefinita, il file si trova in *C:\Programmi\Gateway dati locale*.
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+Il valore del parametro *ServiceBusSystemConnectivityModeString* rispetta la distinzione tra maiuscole e minuscole. I valori validi sono *AutoDetect* e *Https*.
+
+In alternativa, è possibile imporre al gateway di adottare questo comportamento usando l'interfaccia utente del gateway. Nell'interfaccia utente del gateway selezionare **Rete**, quindi impostare **Modalità di connettività del bus di servizio di Azure** su **Attiva**.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+Una volta modificato, quando si seleziona **Applica** (un pulsante che viene visualizzato solo quando si apporta una modifica), il *gateway del servizio Windows* viene riavviato automaticamente, in modo che le modifiche abbiano effetto.
+
+Per riferimento futuro, è possibile riavviare il *servizio Windows del gateway* nella finestra di dialogo dell'interfaccia utente, selezionando **Impostazioni servizio** e quindi *Riavvia adesso*.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>Informazioni aggiuntive
 Questa sezione contiene indicazioni aggiuntive per la distribuzione e la gestione dei gateway.

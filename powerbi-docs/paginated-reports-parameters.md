@@ -1,5 +1,5 @@
 ---
-title: Creare i parametri per i report impaginati nel servizio Power BI (anteprima)
+title: Creare i parametri per i report impaginati nel servizio Power BI
 description: Questo articolo descrive come creare i parametri per i report impaginati nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: adec7af0032772022a330e3ab25377205de9ace5
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60987674"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66838983"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Creare i parametri per i report impaginati nel servizio Power BI (anteprima)
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creare i parametri per i report impaginati nel servizio Power BI
 
 Questo articolo descrive come creare i parametri per i report impaginati nel servizio Power BI.  Un parametro del report consente di scegliere i dati di un report e variare la presentazione del report. È possibile specificare un valore predefinito e un elenco di valori disponibili e i lettori del report possono modificare la selezione in base alle proprie preferenze.  
 
-La figura seguente mostra la visualizzazione progettazione in Generatore Report di Power BI per un report con i parametri @BuyingGroup, @Customer, @FromDate, e @ToDate. 
+La figura seguente illustra la visualizzazione di progettazione in Generatore Report di Power BI per un report con i parametri @BuyingGroup, @Customer, @FromDate e @ToDate. 
   
 ![Parametri in Generatore report](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -67,4 +67,4 @@ La figura seguente mostra la visualizzazione progettazione in Generatore Report 
 
 Per informazioni sulla visualizzazione dei parametri nel servizio Power BI, vedere l'articolo [Visualizzare i parametri per i report impaginati](paginated-reports-view-parameters.md).
 
-Per informazioni dettagliate sui parametri dei report impaginati, vedere l'articolo [Parametri report (Generatore report e Progettazione report)](https://docs.microsoft.com/sql/reporting-services/report-design/report-parameters-report-builder-and-report-designer) nella documentazione di SQL Server Reporting Services  
+Per informazioni dettagliate sui parametri in report impaginati, vedere [Parametri dei report in Generatore report di Power BI](report-builder-parameters.md).

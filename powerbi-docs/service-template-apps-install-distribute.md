@@ -5,24 +5,24 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64578578"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751250"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Installare e distribuire le app modello nell'organizzazione - Power BI (anteprima)
 
-Sei un analista di Power BI? Se, pertanto, questo articolo illustra la procedura per installare *App modello* per connettersi a molti dei servizi usati per eseguire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics e Google Analitica. È possibile modificare il dashboard e report per soddisfare le esigenze dell'organizzazione e quindi distribuirli ai colleghi come un *app*. 
+Se l'utente è un analista di Power BI, troverà utile questo articolo che illustra la procedura per installare *app modello* da connettere a molti dei servizi usati per eseguire l'attività aziendale, come ad esempio Salesforce, Microsoft Dynamics e Google Analytics. È possibile modificare dashboard e report per soddisfare le esigenze dell'organizzazione e quindi distribuirli ai colleghi come un'*app*. 
 
 ![App Power BI installate](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Se si vuole creare app modello da distribuire autonomamente, vedere [Creare un'app modello in Power BI](service-template-apps-create.md). Partner Power BI possono compilare le app di Power BI con una minima o senza alcuna codifica e distribuirli ai clienti di Power BI. 
+Se si vuole creare app modello da distribuire autonomamente, vedere [Creare un'app modello in Power BI](service-template-apps-create.md). I partner Power BI possono compilare app di Power BI con un uso minimo o nullo di codice e distribuirle ai clienti Power BI. 
 
 ## <a name="prerequisites"></a>Prerequisiti  
 
