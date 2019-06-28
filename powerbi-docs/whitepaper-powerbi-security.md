@@ -149,7 +149,7 @@ La sequenza di autenticazione utente per il servizio Power BI avviene come descr
 
 2. Il browser invia un cookie che è stato ottenuto dall'accesso con esito positivo a Microsoft Online Services, che viene controllato dal **Servizio ASP.NET** nel **cluster front-end Web**.
 
-3. Il cluster front-end Web esegue un controllo con il servizio **Azure Active Directory** (**AAD**) per autenticare la sottoscrizione del servizio Power BI dell'utente e per ottenere un token di sicurezza AAD. Quando AAD conferma l'autenticazione dell'utente e restituisce un token di sicurezza AAD, il cluster front-end Web consulta il **servizio globale**** Power BI** che gestisce un elenco dei tenant e delle posizioni cluster Power BI back-end relative, e determina quale cluster del servizio Power BI contiene il tenant dell'utente. Il cluster front-end Web indirizza l'utente al cluster di Power BI in cui risiede il tenant e restituisce una raccolta di elementi per il browser dell'utente:
+3. Il cluster front-end Web esegue un controllo con il servizio **Azure Active Directory** (**AAD**) per autenticare la sottoscrizione del servizio Power BI dell'utente e per ottenere un token di sicurezza AAD. Quando AAD conferma l'autenticazione dell'utente e restituisce un token di sicurezza AAD, il cluster front-end Web consulta il **servizio globale Power BI** che gestisce un elenco dei tenant e delle posizioni cluster Power BI back-end relative, e determina quale cluster del servizio Power BI contiene il tenant dell'utente. Il cluster front-end Web indirizza l'utente al cluster di Power BI in cui risiede il tenant e restituisce una raccolta di elementi per il browser dell'utente:
 
       - Il **token di sicurezza di AAD**
       - **Informazioni sulla sessione**
