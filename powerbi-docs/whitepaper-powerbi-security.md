@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051502"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418699"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -167,7 +167,7 @@ Nel servizio Power BI i dati possono essere _inattivi_, ovvero dati disponibili 
 
 Il servizio Power BI gestisce i dati in modo diverso a seconda che siano accessibili con **DirectQuery** o tramite importazione. Quindi esistono due categorie di dati utente per Power BI: dati a cui si accede da DirectQuery e dati a cui non si accede da DirectQuery.
 
-**DirectQuery** consente di generare query utente di Power BI convertendole dal linguaggio DAX (Data Analysis Expressions) di Microsoft, ovvero il linguaggio di programmazione usato da Power BI e da altri prodotti Microsoft per generare query, nel linguaggio nativo dell'origine dati, come ad esempio T-SQL o altri linguaggi di database nativi. I dati associati con DirectQuery vengono archiviati solo come riferimento, quindi i dati di origine non vengono archiviati in Power BI quando DirectQuery non è attivo, fatto salvo per i dati di visualizzazione usati per visualizzare dashboard e report, come descritto in seguito nella sezione _Dati in fase di elaborazione (spostamento dei dati)_. Vengono invece archiviati i riferimenti ai dati di DirectQuery che consentono di accedere ai dati durante l'esecuzione di DirectQuery. DirectQuery contiene tutte le informazioni necessarie per eseguire la query, tra cui la stringa di connessione e le credenziali usate per accedere alle origini dati, che consentono a DirectQuery di connettersi alle origini dati incluse per l'aggiornamento automatico. Con DirectQuery, le informazioni sul modello di dati sottostanti vengono incorporate in DirectQuery.
+**DirectQuery** consente di generare query utente di Power BI convertendole dal linguaggio DAX (Data Analysis Expressions) di Microsoft, ovvero il linguaggio di programmazione usato da Power BI e da altri prodotti Microsoft per generare query, nel linguaggio nativo dell'origine dati, come ad esempio T-SQL o altri linguaggi di database nativi. I dati associati con DirectQuery vengono archiviati solo come riferimento, quindi i dati di origine non vengono archiviati in Power BI quando DirectQuery non è attivo, fatto salvo per i dati di visualizzazione usati per visualizzare dashboard e report, come descritto in seguito nella sezione _Dati in fase di elaborazione (spostamento dei dati)_ . Vengono invece archiviati i riferimenti ai dati di DirectQuery che consentono di accedere ai dati durante l'esecuzione di DirectQuery. DirectQuery contiene tutte le informazioni necessarie per eseguire la query, tra cui la stringa di connessione e le credenziali usate per accedere alle origini dati, che consentono a DirectQuery di connettersi alle origini dati incluse per l'aggiornamento automatico. Con DirectQuery, le informazioni sul modello di dati sottostanti vengono incorporate in DirectQuery.
 
 Una query per un seti di dati di importazione è costituita da una raccolta di query DAX che _non_ vengono convertite direttamente nel linguaggio nativo dell'origine dati sottostante. Le query di importazione non includono le credenziali per i dati sottostanti e i dati sottostanti vengono caricati nel servizio Power BI a meno che non si tratti di dati locali accessibili tramite [Power BI Gateway](service-gateway-onprem.md), nel qual caso la query archivia solo i riferimenti ai dati locali.
 
@@ -320,7 +320,7 @@ Con ogni origine dati, un utente stabilisce una connessione basata sul proprio a
 
 Quando un utente condivide query, dashboard, report o una visualizzazione, l'accesso a tali dati e visualizzazioni dipende dal fatto che le origini dati sottostanti supportino o meno la sicurezza a livello di ruolo.
 
-Se un'origine dati sottostante supporta la **sicurezza a livello di ruolo di Power BI*****, il servizio Power BI applica la sicurezza a livello di ruolo e gli utenti che non hanno credenziali sufficienti per accedere ai dati sottostanti, ad esempio una query usata in un dashboard, report o altro artefatto di dati, non visualizzeranno i dati per i quali non hanno privilegi sufficienti. Se l'accesso di un utente ai dati sottostanti è diverso dall'utente che ha creato il dashboard o il report, le visualizzazioni e altri artefatti visualizzeranno solo i dati basati sul livello di accesso dell'utente ai dati.
+Se un'origine dati sottostante supporta la **sicurezza a livello di ruolo di Power BI***** , il servizio Power BI applica la sicurezza a livello di ruolo e gli utenti che non hanno credenziali sufficienti per accedere ai dati sottostanti, ad esempio una query usata in un dashboard, report o altro artefatto di dati, non visualizzeranno i dati per i quali non hanno privilegi sufficienti. Se l'accesso di un utente ai dati sottostanti è diverso dall'utente che ha creato il dashboard o il report, le visualizzazioni e altri artefatti visualizzeranno solo i dati basati sul livello di accesso dell'utente ai dati.
 
 Se un'origine dati **non** applica la sicurezza a livello di ruolo, le credenziali di accesso di Power BI vengono applicate all'origine dati sottostante o, se vengono specificate altre credenziali durante la connessione, vengono applicate le credenziali specificate. Quando un utente carica i dati nel servizio Power BI da origini dati senza sicurezza a livello di ruolo, i dati vengono archiviati in Power BI come descritto nella sezione relativa ad **archiviazione e spostamento dei dati** in questo documento. Per le origini dati senza sicurezza a livello di ruolo, quando i dati vengono condivisi con altri utenti, ad esempio in un dashboard o report, o si verifica un aggiornamento dei dati, vengono usate le credenziali originali per accedere o visualizzare i dati.
 
@@ -380,7 +380,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 **In che modo gli utenti possono connettersi e ottenere l'accesso alle origini dati con Power BI?**
 
-* **Credenziali di Power BI e credenziali di dominio:** Gli utenti accedono a Power BI usando un indirizzo di posta elettronica. Quando un utente prova a connettersi a una risorsa dati, Power BI usa l'indirizzo di posta elettronica di accesso a Power BI come credenziale. Per le risorse connesse a un dominio (locale o basato sul cloud), l'indirizzo di posta elettronica di accesso viene associato a un _nome dell'entità utente_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) dal servizio directory per determinare se sono presenti credenziali sufficienti per consentire l'accesso. Per le organizzazioni che accedono a Power BI tramite indirizzi di posta elettronica di lavoro (gli stessi usati per accedere alle risorse di lavoro, ad esempio _david@contoso.com_), il mapping avviene facilmente. Per le organizzazioni che non usano indirizzi di posta elettronica di lavoro (ad esempio _david@contoso.onmicrosoft.com_), per consentire l'accesso alle risorse locali con le credenziali di accesso di Power BI è necessario definire il mapping della directory.
+* **Credenziali di Power BI e credenziali di dominio:** Gli utenti accedono a Power BI usando un indirizzo di posta elettronica. Quando un utente prova a connettersi a una risorsa dati, Power BI usa l'indirizzo di posta elettronica di accesso a Power BI come credenziale. Per le risorse connesse a un dominio (locale o basato sul cloud), l'indirizzo di posta elettronica di accesso viene associato a un _nome dell'entità utente_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) dal servizio directory per determinare se sono presenti credenziali sufficienti per consentire l'accesso. Per le organizzazioni che accedono a Power BI tramite indirizzi di posta elettronica di lavoro (gli stessi usati per accedere alle risorse di lavoro, ad esempio _david@contoso.com_ ), il mapping avviene facilmente. Per le organizzazioni che non usano indirizzi di posta elettronica di lavoro (ad esempio _david@contoso.onmicrosoft.com_ ), per consentire l'accesso alle risorse locali con le credenziali di accesso di Power BI è necessario definire il mapping della directory.
 
 * **SQL Server Analysis Services e Power BI:** per le organizzazioni che usano un'istanza locale di SQL Server Analysis Services, è disponibile il gateway dati locale di Power BI, un **Gateway** descritto nelle sezioni precedenti.  Il gateway dati locale di Power BI è in grado di applicare la sicurezza a livello di ruolo sulle origini dati. Per altre informazioni sulla sicurezza a livello di ruolo, vedere **Autenticazione utente alle origini dati** più indietro in questo documento. È anche possibile leggere un articolo approfondito su [Power BI Gateway](service-gateway-manage.md).
 
@@ -426,14 +426,11 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 **Quando si usa il gateway dati locale, come si usano le chiavi di ripristino e dove sono archiviate? Ci sono indicazioni per una gestione sicura delle credenziali?**
 
-* Durante l'installazione e la configurazione del gateway, l'amministratore digita una **chiave di ripristino** del gateway. Tale **chiave di ripristino** viene usata per generare due set di chiavi molto più avanzate:
+* Durante l'installazione e la configurazione del gateway, l'amministratore digita una **chiave di ripristino** del gateway. Che **chiave di ripristino** viene usato per generare un nome sicuro **AES** chiave simmetrica. Un' **RSA** chiave asimmetrica viene creata anche nello stesso momento.
 
-  - Una chiave asimmetrica **RSA**
-  - Una chiave simmetrica **AES**
+    Queste chiavi generate (**RSA** e **AES**) vengono archiviate in un file all'interno del computer locale. Anche questo file è crittografato. Il contenuto del file può essere decrittografato solo da quel computer Windows e solo da quell'account del servizio gateway.
 
-  Queste chiavi generate (**RSA** e **AES**) vengono archiviate in un file all'interno del computer locale. Anche questo file è crittografato. Il contenuto del file può essere decrittografato solo da quel computer Windows e solo da quell'account del servizio gateway.
-
-  Quando un utente immette le credenziali dell'origine dati nell'interfaccia utente del servizio Power BI, le credenziali vengono crittografate con la chiave pubblica nel browser. Il gateway crittografa di nuovo le credenziali già crittografate con una chiave simmetrica AES prima che i dati vengano archiviati in Power BI. Con questo processo, il servizio Power BI non ha mai accesso ai dati non crittografati.
+    Quando un utente immette le credenziali dell'origine dati nell'interfaccia utente del servizio Power BI, le credenziali vengono crittografate con la chiave pubblica nel browser. Il gateway decrittografa le credenziali usando la chiave privata RSA e li crittografa di nuovo con una chiave simmetrica AES prima che i dati vengono archiviati nel servizio Power BI. Con questo processo, il servizio Power BI non ha mai accesso ai dati non crittografati.
 
 **Quali protocolli di comunicazione vengono usati dal gateway dati locale e come vengono protetti?**
 
