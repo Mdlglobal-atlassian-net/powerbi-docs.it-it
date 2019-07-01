@@ -1,22 +1,22 @@
 ---
-title: Che cosa sono le app modello di Power BI? (anteprima)
+title: Che cosa sono le app modello di Power BI?
 description: Questo articolo è una panoramica del programma delle app modello di Power BI. Informazioni su come compilare app di Power BI con un uso minimo o nullo di codice e su come distribuire le app a qualsiasi cliente Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751095"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408205"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>Che cosa sono le app modello di Power BI? (anteprima)
+# <a name="what-are-power-bi-template-apps"></a>Che cosa sono le app modello di Power BI?
 
 Le nuove *app modello* di Power BI consentono ai partner Power BI di creare app Power BI con un uso minimo o nullo di codice e quindi di distribuire le app a qualsiasi cliente Power BI.  Questo articolo è una panoramica del programma delle app modello di Power BI.
 
@@ -37,7 +37,7 @@ Il processo generale di sviluppo e invio di un'app modello comporta diverse fasi
 | **3** | |  | Alzare al livello di pre-produzione il pacchetto di test per la convalida al di fuori del tenant di Power BI e inviarlo ad AppSource  |  | Con il pacchetto di pre-produzione, creare un'offerta di app modello di Power BI e avviare il processo di convalida |
 | **4** | |  | Alzare al livello di produzione il pacchetto di pre-produzione |  | Procedere alla pubblicazione |
 
-## <a name="requirements"></a>Requisiti
+## <a name="before-you-begin"></a>Prima di iniziare
 
 Per creare l'app modello, sono necessarie autorizzazioni specifiche. Per informazioni dettagliate, vedere Impostazioni app modello nel portale di amministrazione di Power BI. 
 
@@ -66,9 +66,11 @@ Ecco i passaggi di alto livello.
 
 ## <a name="requirements"></a>Requisiti
 
-Per creare l'app modello, sono necessarie autorizzazioni specifiche. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings-preview) di Power BI. 
+Per creare l'app modello, sono necessarie autorizzazioni specifiche. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI. 
 
 Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessario soddisfare i requisiti per [diventare un editore del Marketplace cloud](https://docs.microsoft.com/azure/marketplace/become-publisher).
+ > [!NOTE] 
+ > Gli invi di app modello vengono gestiti nel [portale Cloud Partner](https://cloudpartner.azure.com). Usare lo stesso account di registrazione del Centro per sviluppatori Microsoft per l'accesso. È necessario un solo account Microsoft per le offerte in AppSource. Gli account non devono essere specifici per singoli servizi o offerte.
 
 ## <a name="tips"></a>Suggerimenti 
 
@@ -78,7 +80,7 @@ Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessari
 - Valutare la possibilità di offrire più app modello per scenari univoci separati. 
 - Abilitare la personalizzazione dei dati, ad esempio supportare la personalizzazione delle connessioni e la configurazione dei parametri tramite il programma di installazione.
 
-Per altri suggerimenti, vedere [Suggerimenti per la creazione di app modello in Power BI (anteprima)](service-template-apps-tips.md).
+Per altri suggerimenti, vedere [Suggerimenti per la creazione di app modello in Power BI](service-template-apps-tips.md).
 
 ## <a name="support"></a>Supporto
 Per il supporto durante lo sviluppo, usare [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Questo sito viene monitorato e gestito attivamente. Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.

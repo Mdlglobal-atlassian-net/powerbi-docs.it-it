@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
-ms:date: 05/10/2019
-ms.openlocfilehash: cebaf83edd2fab39502c7b2953922dec0446c8bc
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms:date: 06/10/2019
+ms.openlocfilehash: e1a6700f2f266cffb788f4d8b0f10be88f79e643
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533661"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264459"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -38,7 +38,7 @@ ms.locfileid: "65533661"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Power BI per i consumer</h3>
-                                                    <p>Introduzione a Power BI Vengono presentati i diversi prodotti e servizi che compongono Power BI con una descrizione delle operazioni che consentono di svolgere.</p>
+                                                    <p>Se si usano report e dashboard creati da altri utenti per prendere decisioni aziendali, è il momento di fare conoscenza con il servizio Power BI per i consumer.</p>
                                                 </div>
                                             </div>
                                         </div>

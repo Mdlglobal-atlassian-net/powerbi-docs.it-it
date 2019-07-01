@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839830"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299324"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mappe colorate (cloroplete) in Power BI
 Nelle mappe colorate vengono usate ombreggiature, tinte o motivi per visualizzare proporzionalmente le differenze relative a un valore in un'area geografica.  In questo modo è possibile visualizzare queste differenze relative con ombreggiature chiare (frequenza o valore minore) e scure (frequenza o valore maggiore).    
@@ -70,10 +70,10 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
 1. Nel riquadro Campi selezionare il campo **Geo** \> **State**.    
 
    ![Segno di spunta giallo accanto allo stato](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [Convertire il grafico](power-bi-report-change-visualization-type.md) in una mappa colorata. Si noti che **State** ora è presente nell'area **Location**. Bing Mappe usa il campo nell'area **Location** per creare la mappa.  La posizione può essere una qualsiasi tra quelle valide, ad esempio paesi, stati, province, CAP o altri codici postali. Bing Mappe fornisce le forme di mappa colorata per le varie posizioni a livello mondiale. Se non è presente una voce valida nell'area Località, Power BI non può creare la mappa colorata.  
+2. [Convertire il grafico](power-bi-report-change-visualization-type.md) in una mappa colorata. Si noti che **State** ora è presente nell'area **Location**. Bing Mappe usa il campo nell'area **Location** per creare la mappa.  La posizione può essere una qualsiasi tra quelle valide, ad esempio paesi, stati, province, CAP o altri codici postali. Bing Mappe fornisce le forme di mappa colorata per le varie posizioni a livello mondiale. Se non è presente una voce valida nell'area Località, Power BI non può creare la mappa colorata.  
 
    ![Modelli con l'icona per la mappa colorata evidenziata](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. Filtrare la mappa in modo da visualizzare solo gli Stati Uniti continentali.
+3. Filtrare la mappa in modo da visualizzare solo gli Stati Uniti continentali.
 
    a.  Nella parte inferiore del riquadro Visualizzazioni cercare l'area **Filtri** .
 
@@ -83,21 +83,24 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
    c.  Apporre un segno di spunta accanto a **All** e rimuovere quello accanto ad **AK**.
 
    ![Elenco a discesa State con tutti gli stati e AK non selezionato](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. Selezionare **SalesFact** \> **Sentiment** per aggiungerlo all'area **Saturazione colore**. Il campo nell'area **Saturazione colore** controlla l'ombreggiatura della mappa.  
-   ![Sentiment nell'area del campo saturazione colore](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. L'ombreggiatura applicata alla mappa colorata delle valutazioni è di colore verde e rosso, in cui il rosso rappresenta valori di valutazione inferiori e il verde valori superiori, corrispondenti a una valutazione più positiva.  Nella figura seguente è evidenziato lo stato del Wyoming (WY) in cui il valore del sentiment è particolarmente alto (74).  
-   ![Finestra di dialogo nera con State e Sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [Salvare il report](../service-report-save.md).
-##    <a name="adjust-the-color-formatting"></a>Rettificare la formattazione dei colori
-Power BI consente un ampio controllo sull'aspetto della mappa colorata.
-1. Selezionare l'icona del rullo per aprire il riquadro Formattazione.
+4. Selezionare l'icona del rullo per aprire il riquadro Formattazione e scegliere **Colori dati**.
 
-    ![Riquadro di formattazione](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![Opzione Colori dati nel riquadro Formattazione](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. Selezionare **Colori dati** per visualizzare le opzioni relative ai colori.
-3. Impostare i valori Minimo e Massimo per i colori su giallo e blu. Aggiungere quindi i valori Minimo e Massimo in base ai dati. Sperimentare con questi controlli fino a ottenere l'aspetto voluto. 
+5. Selezionare i tre punti verticali e scegliere **Formattazione condizionale**.
 
-    ![colori non divergenti](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![Pulsante Formattazione condizionale per Colori dati](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. Usare la schermata **Colore predefinito - Colori dati** per determinare come verrà applicata l'ombreggiatura alla mappa colorata. Le opzioni disponibili includono il campo su cui basare l'ombreggiatura e la modalità di applicazione dell'ombreggiatura. In questo esempio viene usato il campo **SalesFact** > **Sentiment** e il valore più basso per il sentiment viene impostato su rosso, mentre quello più alto su verde. I valori compresi tra il valore massimo e minimo saranno caratterizzati da varie sfumature di verde e rosso. La figura nella parte inferiore della schermata mostra l'intervallo di colori che verrà usato. 
+
+    ![Riquadro Colore predefinito con l'opzione Sentiment selezionata](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. L'ombreggiatura applicata alla mappa colorata delle valutazioni è di colore verde e rosso, in cui il rosso rappresenta valori di valutazione inferiori e il verde valori superiori, corrispondenti a una valutazione più positiva.  Per visualizzare altri dettagli, trascinare un campo nell'area delle descrizioni comandi.  In questo caso è stato aggiunto il campo **Sentiment Gap** (Gap del sentiment) ed è stato evidenziato lo stato dell'Idaho (ID). Come si può vedere, il gap del sentiment è basso: 6.
+   ![mappa colorata che mostra le descrizioni comandi per l'Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [Salvare il report](../service-report-save.md).
+
+Power BI consente un ampio controllo sull'aspetto della mappa colorata. Sperimentare liberamente con questi controlli dei colori dei dati fino a ottenere l'aspetto desiderato. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
 Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).

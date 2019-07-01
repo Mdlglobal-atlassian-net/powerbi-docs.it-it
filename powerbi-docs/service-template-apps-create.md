@@ -1,22 +1,22 @@
 ---
-title: Creare app modello in Power BI (anteprima)
+title: Creare app modello in Power BI
 description: Come creare in Power BI app modello distribuibili a tutti i clienti Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751203"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264559"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Creare un'app modello in Power BI (anteprima)
+# <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
 Le nuove *app modello* di Power BI consentono ai partner Power BI di creare app Power BI con un uso minimo o nullo di codice e quindi di distribuire le app a qualsiasi cliente Power BI.  Questo articolo contiene istruzioni dettagliate per la creazione di un'app modello di Power BI.
 
@@ -31,20 +31,7 @@ I requisiti per la creazione di un'app modello sono i seguenti:
 - Una [licenza di Power BI Pro](service-self-service-signup-for-power-bi.md)
 - Un'[installazione di Power BI Desktop](desktop-get-the-desktop.md) (facoltativa)
 - Conoscenza dei [concetti di base di Power BI](service-basic-concepts.md)
-- Autorizzazioni per la creazione di un'app modello. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale dell'amministratore](service-admin-portal.md#template-apps-settings-preview) di Power BI.
-
-## <a name="enable-app-developer-mode"></a>Abilitare la modalità di sviluppo app
-
-Per creare un'app distribuibile ad altri tenant di Power BI è necessario aver attivato la modalità di sviluppo app. In caso contrario si crea semplicemente un'app per utenti di Power BI nell'organizzazione di appartenenza.
-
-1. Aprire il servizio Power BI in un browser.
-2. Passare a **Impostazioni** > **Generali** > **Sviluppatore** > **Abilita modalità di sviluppo app modello**.
-
-    ![Abilitare le app modello](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    Se l'opzione non è visibile, contattare l'amministratore di Power BI per ottenere le [autorizzazioni per lo sviluppo di app modello](service-admin-portal.md#template-apps-settings-preview) nel portale di amministrazione.
-
-3. Selezionare **Applica**.
+- Autorizzazioni per condividere un'app modello pubblicamente. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI.
 
 ## <a name="create-the-template-app-workspace"></a>Creare l'area di lavoro app modello
 
@@ -54,9 +41,9 @@ Per creare un'app distribuibile ad altri tenant di Power BI è necessario crearl
 
     ![Crea area di lavoro per le app](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. In **Crea area di lavoro per le app** in **Anteprima aree di lavoro migliorate** selezionare **Prova adesso**.
+2. In **Crea area di lavoro per le app** selezionare **Esegui aggiornamento alla nuova versione**.
 
-    ![Provare le nuove aree di lavoro](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![Provare le nuove aree di lavoro](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. Immettere il nome, la descrizione (facoltativa) e l'immagine del logo (facoltativa) dell'area di lavoro per le app.
 
@@ -70,13 +57,13 @@ Per creare un'app distribuibile ad altri tenant di Power BI è necessario crearl
 
 ## <a name="create-the-content-in-your-template-app"></a>Creare il contenuto nell'app modello
 
-Come in qualsiasi area di lavoro per le app di Power BI, il passaggio successivo è la creazione del contenuto nell'area di lavoro.  In questa versione di anteprima delle app modello è supportato un solo elemento di ogni tipo: un solo set di dati, un solo report e un solo dashboard.
+Come in qualsiasi area di lavoro per le app di Power BI, il passaggio successivo è la creazione del contenuto nell'area di lavoro.  
 
 - [Creare il contenuto di Power BI](power-bi-creator-landing.md) nell'area di lavoro per le app.
 
 Se si usano parametri in Power Query, assicurarsi che abbiano un tipo ben definito (ad esempio Testo). I tipi Qualsiasi e Binario non sono supportati.
 
-[Suggerimenti per la creazione di app modello in Power BI (anteprima)](service-template-apps-tips.md) include suggerimenti utili per la creazione di report e dashboard per l'app modello.
+[Suggerimenti per la creazione di app modello in Power BI](service-template-apps-tips.md) include suggerimenti utili per la creazione di report e dashboard per l'app modello.
 
 ## <a name="create-the-test-template-app"></a>Creare l'app modello di test
 
@@ -174,10 +161,10 @@ Di seguito sono riportate le fasi in dettaglio:
 10. Quando si è pronti per alzare di livello l'app alla pre-produzione per altri test all'esterno del tenant, tornare al riquadro **Release Management** e selezionare **Alza di livello app**. 
 
     ![Alzare di livello l'app alla versione di pre-produzione](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > Quando l'app viene alzata di livello diventa disponibile pubblicamente all'esterno dell'organizzazione.
 
+    Se l'opzione non è visibile, contattare l'amministratore di Power BI per ottenere le [autorizzazioni per lo sviluppo di app modello](service-admin-portal.md#template-apps-settings) nel portale di amministrazione.
 11. Selezionare **Alza di livello** per confermare la scelta.
 12. Copiare il nuovo URL da condividere all'esterno del tenant per i test. Questo collegamento è lo stesso che si invia per iniziare il processo di distribuzione dell'app in AppSource creando una [nuova offerta nel portale Cloud Partner](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Inviare solo collegamenti di pre-produzione nel portale Cloud Partner. Solo dopo che l'app viene approvata e si riceve la notifica della pubblicazione in AppSource, è possibile alzare di livello questo pacchetto alla produzione in Power BI.
 13. Quando l'app è pronta per la produzione o la condivisione tramite AppSource, tornare al riquadro **Release Management** e selezionare **Alza di livello app** accanto a **Pre-produzione**.
@@ -188,25 +175,6 @@ Di seguito sono riportate le fasi in dettaglio:
     ![App in produzione](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Per rendere disponibile l'app a migliaia di utenti di Power BI in tutto il mondo è consigliabile inviarla ad AppSource. Per informazioni dettagliate, vedere [Offerta di applicazione Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
-
-## <a name="update-your-app"></a>Aggiornare l'app
-
-Ora che l'app è in fase di produzione è possibile riattivare la fase di test, senza alcun effetto sull'app nell'ambiente di produzione.
-
-1. Nel riquadro **Release Management** selezionare **Crea app**.
-2. Ripetere il processo di creazione app.
-3. Dopo aver impostato le opzioni in **Personalizzazione**, **Contenuto**, **Controllo** e **Accesso** selezionare di nuovo **Crea app**.
-4. Selezionare **Chiudi** e tornare a **Release Management**.
-
-   Ora sono disponibili due versioni: la versione nell'ambiente di produzione e una nuova versione di test.
-
-    ![Due versioni di un'app modello](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. Quando si è pronti per alzare di livello l'app alla pre-produzione per altri test all'esterno del tenant, tornare al riquadro Release Management e selezionare **Alza di livello app** accanto a **Test**.
-6. A questo punto il collegamento è attivo. Inviarlo nuovamente al portale Cloud Partner seguendo la procedura riportata in [Aggiornamento offerta app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-
->[!NOTE]
->Alzare di livello l'app alla produzione solo dopo che l'app è stata approvata nel portale Cloud Partner e pubblicata.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

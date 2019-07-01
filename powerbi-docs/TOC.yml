@@ -417,50 +417,46 @@
           href: service-whats-new.md
         - name: Concetti di base
           items:
-            - name: Concetti di base per responsabili di progettazione
+            - name: Informazioni sul servizio Power BI
               href: service-basic-concepts.md
-            - name: Tipi di dati in Power BI
-              href: service-get-data.md
             - name: Presentazione dell'editor di report
               href: service-the-report-editor-take-a-tour.md
-        - name: Flusso di lavoro in Power BI
-          items:
-            - name: Organizzazione del lavoro
-              href: service-new-workspaces.md
-            - name: Modalità per la condivisione del lavoro
-              href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Come mantenere aggiornati i dati
+            - name: Origini dati di Power BI
+              href: service-get-data.md
+            - name: Aggiornamento dei dati in Power BI
               href: refresh-data.md
-            - name: Monitoraggio dell'uso
+        - name: Collaborazione in Power BI
+          items:
+            - name: Organizzare il lavoro
+              href: service-new-workspaces.md
+            - name: Condividere il lavoro
+              href: service-how-to-collaborate-distribute-dashboards-reports.md
+            - name: Monitorare l'utilizzo di Power BI
               href: service-usage-metrics.md
         - name: Gestione delle licenze
           items:
-            - name: Iscrizione in modalità self-service
+            - name: Iscriversi a Power BI
               href: service-self-service-signup-for-power-bi.md
-            - name: Gestione delle licenze nell'organizzazione
+            - name: Gestire le licenze di Power BI
               href: service-admin-licensing-organization.md
             - name: Funzionalità in base al tipo di licenza
               href: service-features-license-type.md
-        - name: Altri concetti
+            - name: Power BI per il Governo degli Stati Uniti
+              href: service-govus-overview.md
+            - name: Domande frequenti per i clienti del Cloud Germania
+              href: service-govde-faq.md
+        - name: Accedere alle risorse di assistenza e supporto
           items:
-            - name: 10 suggerimenti per chiedere assistenza
-              href: service-tips-for-finding-help.md
             - name: Opzioni di supporto di Power BI
               href: service-support-options.md
-            - name: Gestione delle licenze per casi speciali
-              items:
-                - name: Attivazione versione di valutazione Pro estesa
-                  href: service-extended-pro-trial.md
-                - name: Power BI per il Governo degli Stati Uniti
-                  href: service-govus-overview.md
-                - name: Domande frequenti per i clienti del Cloud Germania
-                  href: service-govde-faq.md
-            - name: Altro
-              items:
-                - name: Microsoft Flow e Power BI
-                  href: service-flow-integration.md
-                - name: Introduzione ad app di terze parti
-                  href: service-power-bi-get-started-third-party-apps.md
+            - name: 10 suggerimenti per chiedere assistenza
+              href: service-tips-for-finding-help.md
+        - name: Estendi Power BI
+          items:
+            - name: Microsoft Flow e Power BI
+              href: service-flow-integration.md
+            - name: Usare app di terze parti
+              href: service-power-bi-get-started-third-party-apps.md
     - name: Procedure
       items:
         - name: Ottenere dati da file
@@ -859,14 +855,12 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: Rimuovere una connessione a un pacchetto di contenuto
                   href: service-organizational-content-pack-disconnect.md
+        - name: Riferimento
+          items:
+            - name: Lingue e paesi/aree geografiche supportate
+          href: supported-languages-countries-regions.md
     - name: Risorse
       items:
-        - name: Video
-          href: videos.md
-        - name: Webinar
-          href: webinars.md
-        - name: Lingue e paesi/aree geografiche supportate
-          href: supported-languages-countries-regions.md
         - name: White paper
           items:
             - name: Panoramica dei white paper
@@ -877,6 +871,10 @@
               href: whitepaper-powerbi-premium-deployment.md
             - name: Distribuire Power BI esternamente usando Azure Active Directory B2B
               href: whitepaper-azure-b2b-power-bi.md
+        - name: Video
+          href: videos.md
+        - name: Webinar
+          href: webinars.md
 - name: Power BI Premium
   items:
     - name: Panoramica

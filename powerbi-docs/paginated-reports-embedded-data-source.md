@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838940"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345492"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
 
 Questo articolo descrive come creare e modificare un'origine dati incorporata per un report impaginato nel servizio Power BI. È possibile definire un'origine dati incorporata in un unico report e usarla solo in quel report. I report impaginati pubblicati nel servizio Power BI richiedono attualmente set di dati incorporati e origini dati incorporate e possono connettersi alle origini dati seguenti:
 
-- Database SQL di Azure e Azure SQL Data Warehouse
+- Azure Analysis Services
+- database SQL di Azure e 
+- Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ Questo articolo descrive come creare e modificare un'origine dati incorporata pe
 
 Per le origini dati seguenti, usare l'opzione [Connessione SQL Server Analysis Services](service-premium-connect-tools.md):
 
-- Azure Analysis Services
 - Set di dati di Power BI Premium
 
 I report impaginati si connettono alle origini dati locali tramite un [gateway di Power BI](service-gateway-getting-started.md). che può essere configurato solo dopo aver pubblicato il report nel servizio Power BI.
@@ -66,6 +67,30 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
 5.  Selezionare **OK**.  
   
      L'origine dati viene visualizzata nel riquadro Dati report.  
+     
+## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
+
+I report impaginati connessi a set di dati di Power BI seguono le regole per i set di dati condivisi in Power BI con alcune piccole modifiche.  Per fare in modo che gli utenti possano visualizzare correttamente i report impaginati con i set di dati di Power BI e per accertarsi che la sicurezza a livello di riga venga abilitata e applicata per gli utenti, assicurarsi di seguire queste regole:
+
+### <a name="classic-apps-and-app-workspaces"></a>App e aree di lavoro per le app classiche
+
+- File con estensione rdl nella stessa area di lavoro del set di dati (stesso proprietario): Supportato
+- File con estensione rdl in un'area di lavoro diversa dal set di dati (stesso proprietario): Supportato
+- File con estensione rdl condiviso: ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
+- App condivisa: ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
+- File con estensione rdl nella stessa area di lavoro del set di dati (utente diverso): Supportato
+- File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
+- Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione.
+
+### <a name="new-experience-apps-and-app-workspaces"></a>App e aree di lavoro per app nella nuova esperienza
+
+- File con estensione rdl nella stessa area di lavoro del set di dati: Supportato
+- File con estensione rdl in un'area di lavoro diversa dal set di dati (stesso proprietario): Supportato
+- File con estensione rdl condiviso: ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
+- App condivisa: ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
+- File con estensione rdl nella stessa area di lavoro del set di dati - Supportato
+- File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
+- Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere le autorizzazioni di compilazione
 
 ## <a name="next-steps"></a>Passaggi successivi
 
