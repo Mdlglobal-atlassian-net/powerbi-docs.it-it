@@ -223,14 +223,16 @@
               href: desktop-qna-in-reports.md
             - name: Riquadro Analisi in Power BI Desktop
               href: desktop-analytics-pane.md
-            - name: Uso delle informazioni dettagliate per spiegare gli aumenti e le diminuzioni
+            - name: Usare le informazioni dettagliate per spiegare gli aumenti e le diminuzioni
               href: desktop-insights.md
-            - name: Uso delle informazioni dettagliate per trovare i punti in cui la distribuzione è diversa nei grafici
+            - name: Usare le informazioni dettagliate per trovare i punti in cui la distribuzione è diversa nei grafici
               href: desktop-insights-find-where-different.md
             - name: Segnalibri in Power BI
               href: desktop-bookmarks.md
             - name: Usare i temi dei report
               href: desktop-report-themes.md
+            - name: Tipi di filtri
+              href: power-bi-report-filter-types.md
             - name: Provare la nuova esperienza di filtro
               href: power-bi-report-filter-preview.md
             - name: Usare le misure rapide
@@ -523,8 +525,6 @@
               href: refresh-csv-file-onedrive.md
             - name: Memorizzazione di query nella cache in Power BI Premium
               href: power-bi-query-caching.md
-            - name: Scenari per la risoluzione dei problemi di aggiornamento
-              href: refresh-troubleshooting-refresh-scenarios.md
         - name: Dashboard
           items:
             - name: Introduzione ai dashboard
@@ -705,6 +705,8 @@
           items:
             - name: Password dimenticata per Power BI?
               href: service-admin-forgot-your-password.md
+            - name: Non riesci ad accedere?
+              href: power-bi-cannot-sign-in.md
             - name: Acquisizione di informazioni diagnostiche aggiuntive per Power BI
               href: service-admin-capturing-additional-diagnostic-information-for-power-bi.md
             - name: Indirizzo di posta elettronica alternativo per Power BI
@@ -713,26 +715,26 @@
               href: service-admin-how-to-use-the-same-account-as-azure.md
             - name: Office 365 dedicato - problemi noti
               href: service-admin-office-365-dedicated-known-issues.md
-            - name: Risolvere i problemi di Cortana
-              href: service-cortana-troubleshoot.md
-            - name: Risoluzione dei problemi di Analizza in Excel
-              href: desktop-troubleshooting-analyze-in-excel.md
-            - name: Risoluzione dei problemi del gateway dati locale
-              href: service-gateway-onprem-tshoot.md
-            - name: Risoluzione dei problemi relativi a Power BI Gateway - Personal
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
-            - name: Risoluzione dei problemi relativi all'origine dati non supportata per l'aggiornamento
+            - name: Scenari per la risoluzione dei problemi di aggiornamento
+              href: refresh-troubleshooting-refresh-scenarios.md
+            - name: Risolvere i problemi relativi a un'origine dati non supportata per l'aggiornamento
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Risoluzione dei problemi relativi all'aggiornamento pianificato per i database SQL di Azure
+            - name: Risolvere i problemi relativi all'aggiornamento pianificato per i database SQL di Azure
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+            - name: Risolvere gli errori del riquadro
+              href: refresh-troubleshooting-tile-errors.md
+            - name: Risolvere i problemi del gateway dati locale
+              href: service-gateway-onprem-tshoot.md
+            - name: Risolvere i problemi relativi a Power BI Gateway - Personal
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
+            - name: Risolvere i problemi di Analizza in Excel
+              href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
               href: service-admin-troubleshoot-excel-workbook-data.md
-            - name: Risoluzione degli errori del riquadro
-              href: refresh-troubleshooting-tile-errors.md
+            - name: Risolvere i problemi di Cortana
+              href: service-cortana-troubleshoot.md
             - name: Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
               href: service-refresh-xero-credentials.md
-            - name: Non riesci ad accedere
-              href: power-bi-cannot-sign-in.md
         - name: Altre attività
           items:
             - name: Rinominare il contenuto all'interno di Power BI
@@ -855,9 +857,9 @@
                   href: service-organizational-content-pack-manage-update-delete.md
                 - name: Rimuovere una connessione a un pacchetto di contenuto
                   href: service-organizational-content-pack-disconnect.md
-        - name: Riferimento
-          items:
-            - name: Lingue e paesi/aree geografiche supportate
+    - name: Riferimento
+      items:
+        - name: Lingue e paesi/aree geografiche supportate
           href: supported-languages-countries-regions.md
     - name: Risorse
       items:
@@ -1331,7 +1333,7 @@
           href: service-gateway-personal-mode.md
         - name: Connettori personalizzati
           href: service-gateway-custom-connectors.md
-        - name: Risoluzione dei problemi del gateway dati locale
+        - name: Risolvere i problemi del gateway dati locale
           href: service-gateway-onprem-tshoot.md
     - name: Risorse
       items:
