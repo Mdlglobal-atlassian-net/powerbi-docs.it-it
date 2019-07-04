@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349353"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418755"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Esempio Analisi della redditività dei clienti per Power BI: Presentazione
 
-## <a name="overview-of-the-customer-profitability-sample"></a>Panoramica dell'esempio di analisi della redditività dei clienti
 Il pacchetto di contenuto di esempio Analisi della redditività dei clienti contiene un dashboard, un report e un set di dati per una società che produce materiali di marketing. Il dashboard è stato creato da una responsabile amministrativa per ottenere le metriche principali relative ai cinque responsabili di business unit, ai prodotti, ai clienti e ai margini lordi e trovare subito i fattori che influiscono negativamente sulla redditività.
 
 ![Dashboard per l'esempio Redditività clienti](media/sample-customer-profitability/power-bi-dash.png)
@@ -203,9 +202,8 @@ Verrà ora esaminato il settore Distribution.
 
     In maniera simile, è possibile esplorare altri settori e persino aggiungere clienti agli elementi visivi per comprendere le cause delle prestazioni di Valery.
 
+## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Questo ambiente è sicuro perché è possibile scegliere di non salvare le modifiche, ma, se le si salva, è sempre possibile scegliere **Recupera dati** per ottenere una nuova copia di questo esempio.
 
-## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard di Power BI, le domande e risposte e i report forniscono informazioni dettagliate sui dati del cliente. È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione al servizio Power BI](service-get-started.md).
 
-[Esempi per Power BI](sample-datasets.md)  

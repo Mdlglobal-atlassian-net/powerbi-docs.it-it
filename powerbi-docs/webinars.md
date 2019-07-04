@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389543"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418639"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -22,11 +22,7 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="upcoming-webinars"></a>Webinar futuri
 
-È possibile registrarsi per ascoltare gli esperti di Power BI e partecipare alle sessioni di domande e risposte in diretta.
-
-**Power BI: How to Get Insights from Your Workday HR Data** (Come ottenere informazioni dettagliate dai dati di Workday HR)
-<br>di Iman Eftekhari, Julia Paton di Agile Analytics e Shahram Karimi di QBE Insurance
-<br>[Registrarsi per guardare il 27 giugno, 13:30-14:30 PST](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+Nessun webinar ancora pianificato. Ricontrollare presto per informazioni sugli eventi futuri.
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ Iniziare dai webinar on demand più popolari
 
 ### <a name="partner-solutions-series"></a>Partner Solutions Series ###
 [Guarda la serie](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: How to Get Insights from Your Workday HR Data** (Come ottenere informazioni dettagliate dai dati di Workday HR)
+<br>di Iman Eftekhari, Julia Paton di Agile Analytics e Shahram Karimi di QBE Insurance
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Come ottenere una situazione vantaggiosa sia per i produttori di beni di consumo che per i rivenditori)
 <br>di Liz McCreesh, Thorogood
