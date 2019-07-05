@@ -137,7 +137,7 @@
               href: desktop-r-scripts.md
             - name: Uso di R nell'Editor di query
               href: desktop-r-in-query-editor.md
-            - name: Usare un IDE R esterno con Power BI
+            - name: Usare una IDE R esterna con Power BI
               href: desktop-r-ide.md
             - name: Pacchetti R supportati
               href: service-r-packages-support.md
@@ -153,7 +153,7 @@
               href: desktop-connect-bigquery.md
             - name: Connettersi a un database Impala in Power BI Desktop
               href: desktop-connect-impala.md
-            - name: Connettersi a un feed OData in Power BI Desktop
+            - name: Connettersi a feed OData in Power BI Desktop
               href: desktop-connect-odata.md
             - name: Connettersi a un database Amazon Redshift in Power BI Desktop
               href: desktop-connect-redshift.md
@@ -175,11 +175,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery e SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Considerare l'impostazione di integrità referenziale in Power BI Desktop
+            - name: Considerare le impostazioni di integrità referenziale in Power BI Desktop
               href: desktop-assume-referential-integrity.md
             - name: Usare il connettore SAP BW in Power BI Desktop
               href: desktop-sap-bw-connector.md
-            - name: Usare collegamenti OneDrive for Business in Power BI Desktop
+            - name: Usare i collegamenti di OneDrive for Business in Power BI Desktop
               href: desktop-use-onedrive-business-links.md
             - name: 'Servizio di terze parti: Connettore Facebook per Power BI Desktop'
               href: service-facebook-connector.md
@@ -221,7 +221,7 @@
               href: desktop-export-to-pdf.md
             - name: Domande e risposte in Power BI Desktop
               href: desktop-qna-in-reports.md
-            - name: Riquadro Analisi in Power BI Desktop
+            - name: Riquadro analisi in Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Usare le informazioni dettagliate per spiegare gli aumenti e le diminuzioni
               href: desktop-insights.md
@@ -339,7 +339,7 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Oggetto visivo matrice
               href: visuals/desktop-matrix-visual.md
-            - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
+            - name: Creare analisi e visualizzazioni avanzate con gli script R in Power BI
               href: visuals/service-r-visuals.md
             - name: Grafici a misuratore radiale in Power BI
               href: visuals/power-bi-visualization-radial-gauge-charts.md
@@ -349,7 +349,7 @@
               href: visuals/power-bi-visualization-scatter.md
             - name: Grafici a dispersione a densità elevata
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Usare le forme mappa in Power BI Desktop (anteprima)
+            - name: Forme mappa in Power BI Desktop (anteprima)
               href: visuals/desktop-shape-map.md
             - name: Filtri dei dati in Power BI
               href: visuals/power-bi-visualization-slicers.md
@@ -383,7 +383,7 @@
       items:
         - name: Video su Power BI Desktop
           href: desktop-videos.md
-        - name: Precedenti aggiornamenti mensili per Power BI Desktop
+        - name: Aggiornamenti mensili precedenti a Power BI Desktop
           href: desktop-latest-update-archive.md
         - name: Informativa sulla privacy Invia smile di Power BI Desktop
           href: desktop-send-smile-privacy-statement.md
@@ -507,7 +507,7 @@
               href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: Database SQL di Azure con DirectQuery
               href: service-azure-sql-database-with-direct-connect.md
-            - name: Dati dinamici di SQL Server Analysis Services in Power BI
+            - name: Dati in tempo reale di SQL Server Analysis Services in Power BI
               href: sql-server-analysis-services-tabular-data.md
         - name: Aggiorna dati
           items:
@@ -559,11 +559,11 @@
               href: service-create-qr-code-for-tile.md
             - name: Aggiungere un'immagine a un dashboard
               href: service-dashboard-add-image.md
-            - name: Classificazione dei dati del dashboard
+            - name: Classificazione dati del dashboard
               href: service-data-classification.md
             - name: Temi del dashboard
               href: service-dashboard-themes.md
-        - name: Report
+        - name: Relazioni
           items:
             - name: Creare un report da un set di dati
               href: service-report-create-new.md
@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Report impaginati in Power BI
           items:
-            - name: Visualizzare un report impaginato (anteprima)
+            - name: Visualizzare un report impaginato
               href: paginated-reports-view-power-bi-service.md
-            - name: Interagire con i parametri (anteprima)
+            - name: Interagire con i parametri
               href: paginated-reports-view-parameters.md
             - name: Abbonarsi o abbonare altri utenti
               href: paginated-reports-subscriptions.md
@@ -759,11 +759,11 @@
                   href: service-connect-to-application-insights.md
                 - name: AT Internet Bridge
                   href: service-connect-to-at-internet.md
-                - name: Azure Audit Logs
+                - name: Log di controllo di Azure
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
                   href: service-connect-to-azure-mobile.md
-                - name: Microsoft Azure Consumption Insights
+                - name: Informazioni sul consumo di Microsoft Azure
                   href: service-connect-to-azure-consumption-insights.md
                 - name: Ricerca di Azure
                   href: service-connect-to-azure-search.md
@@ -815,7 +815,7 @@
                   href: service-connect-to-smartsheet.md
                 - name: SparkPost
                   href: service-connect-to-sparkpost.md
-                - name: SQL Database Auditing
+                - name: Controllo del database SQL
                   href: service-connect-to-azure-sql-database-auditing.md
                 - name: SQL Sentry
                   href: service-connect-to-sql-sentry.md
@@ -1063,7 +1063,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Overflow dello stack
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Oggetti visivi personalizzati
+    - name: Elementi visivi personalizzati
       items:
         - name: Panoramica
           items:
@@ -1169,7 +1169,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Download SDK .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-- name: Server di report di Power BI
+- name: Server di report Power BI
   items:
     - name: Panoramica
       items:
@@ -1253,7 +1253,7 @@
               href: report-server/upgrade.md
             - name: Eseguire la migrazione di un server di report
               href: report-server/migrate-report-server.md
-            - name: Configurare Kerberos per l'uso di report di Power BI
+            - name: Configurare Kerberos in modo da usare i report di Power BI
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Configurare l'accesso all'app per dispositivi mobili in modalità remota
               href: report-server/configure-powerbi-mobile-apps-remote.md
@@ -1339,7 +1339,7 @@
       items:
         - name: Aggiornamenti mensili dei gateway
           href: service-gateway-monthly-updates.md
-- name: Administration
+- name: Amministrazione
   items:
     - name: Panoramica
       items:
