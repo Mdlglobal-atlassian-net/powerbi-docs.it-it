@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/18/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b671d2f55135312fb529d4b4b30af3941c525a26
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
+ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448313"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67235061"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Connettersi a set di dati con applicazioni client e strumenti (anteprima)
 
@@ -100,6 +100,10 @@ I set di dati seguenti non sono accessibili tramite gli endpoint XMLA. Questi se
 I set di dati seguenti non sono supportati nel servizio Power BI:   
 
 - Set di dati con una connessione dinamica a un set di dati di Power BI.
+
+### <a name="roles-and-role-memberships"></a>Ruoli e appartenenze a ruoli
+
+Attualmente, i ruoli dei modelli e le appartenenze ai ruoli non sono individuabili né visualizzati tramite gli endpoint XMLA.
 
 ## <a name="audit-logs"></a>Log di controllo 
 

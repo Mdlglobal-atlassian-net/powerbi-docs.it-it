@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61067993"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161108"
 ---
 # <a name="funnel-charts"></a>Grafici a imbuto
 Un grafico a imbuto consente di visualizzare un processo lineare caratterizzato da fasi connesse in sequenza, Ad esempio un imbuto delle vendite che tiene traccia dei clienti in varie fasi: Lead \> Lead qualificato \> Potenziale cliente \> Contratto \> Chiusura.  La forma dell'imbuto indica a colpo d'occhio lo stato del processo di cui si sta tenendo traccia.
@@ -53,7 +53,7 @@ Questo video mostra come creare un grafico a imbuto usando l’esempio di analis
 
 Creare ora un grafico a imbuto che mostri il numero di opportunità presenti nelle fasi di vendita.
 
-Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o Power BI Desktop.   
+Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o per Power BI Desktop.   
 
 1. Iniziare in una pagina di report vuota e selezionare il campo **SalesStage** \> **Sales Stage**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
    
@@ -61,7 +61,7 @@ Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguir
 2. [Convertire il grafico](power-bi-report-change-visualization-type.md) in un imbuto. Si noti che **Fase vendite** è anche nel **gruppo** . 
 3. Dal riquadro **Campi**, selezionare **Fact** \> **Opportunity Count**.
    
-    ![Compilare il grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![Compilare il grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Quando si passa il puntatore del mouse su una barra, vengono visualizzate molte informazioni.
    
    * Il nome della fase

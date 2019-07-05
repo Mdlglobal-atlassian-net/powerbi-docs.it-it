@@ -3,72 +3,87 @@ title: Grafici a linee in Power BI
 description: Grafici a linee in Power BI
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0654dccf55b1e13f26d8ecaabee0349f0e56afc6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65535791"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408612"
 ---
 # <a name="line-charts-in-power-bi"></a>Grafici a linee in Power BI
-Un grafico a linee è una serie di punti dati che sono rappresentati da punti e uniti da linee rette. Un grafico a linee può avere uno o più righe. I grafici a linee sono una X e un asse Y. 
+Un grafico a linee è costituito da una serie di punti dati uniti da linee rette. Un grafico a linee può includere una o più linee. I grafici a linee hanno un asse X e un asse Y. 
 
-![grafico a linee](media/power-bi-line-charts/power-bi-line.png)
+![grafico a linee semplice](media/power-bi-line-charts/power-bi-line.png)
 
 ## <a name="create-a-line-chart"></a>Creare un grafico a linee
-Queste istruzioni l'uso di vendita e app di esempio di Marketing per creare un grafico a linee che visualizzi le vendite dell'anno per categoria. Per proseguire, scaricare l'app di esempio da appsource.com.
+In queste istruzioni viene usata l'app Sales and Marketing Sample per creare un grafico a linee che mostra le vendite dell'anno in corso suddivise per categoria. Per seguire le istruzioni, scaricare l'app di esempio da appsource.com.
 
-1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
+1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report in [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
 
-2. Nel riquadro campi, selezionare **SalesFact** \> **Total units**e selezionare **Date** > **mese**.  Power BI crea un istogramma a colonne nell'area di disegno report.
+2. Nel riquadro Campi selezionare **SalesFact** \> **Total units** (Dati vendite > Unità totali) e quindi **Date** > **Month** (Data > Mese).  Power BI crea un istogramma nell'area di disegno del report.
 
-    ![Selezionare il riquadro campi](media/power-bi-line-charts/power-bi-step1.png)
+    ![Selezionare le opzioni nel riquadro Campi](media/power-bi-line-charts/power-bi-step1.png)
 
-4. Convertire in un grafico a linee selezionando il modello di linea del grafico nel riquadro visualizzazioni. 
+4. Convertire in un grafico a linee selezionando il modello di tale grafico nel riquadro Visualizzazioni. 
 
-    ![Converti in grafico a linee](media/power-bi-line-charts/power-bi-convert-to-line.png)
+    ![Convertire in un grafico a linee](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Filtrare il grafico a linee per visualizzare i dati per gli anni 2012, 2014. Se il riquadro filtri è compresso, espanderlo. Nel riquadro campi, selezionare **data** \> **anno** e trascinarla nel riquadro filtri. Rilasciarla sotto l'intestazione **filtri di questo oggetto visivo**. 
+4. Filtrare il grafico a linee per visualizzare i dati relativi agli anni 2012-2014. Se il riquadro Filtri è compresso, espanderlo. Nel riquadro Campi selezionare **Date** \> **Year** (Data > Anno) e trascinare la selezione nel riquadro Filtri. Rilasciarla sotto l'intestazione **Filtri in questo oggetto visivo**. 
      
-    ![riga accanto al riquadro campi](media/power-bi-line-charts/power-bi-year-filter.png)
+    ![Linea accanto al riquadro Campi](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    Change **Advanced filters** al **filtri di base** e selezionare **2012**, **2013** e **2014**.
+    Modificare **Filtro avanzato** in **Filtro di base** e selezionare **2012**, **2013** e **2014**.
 
     ![Filtro per anno](media/power-bi-line-charts/power-bi-filter-year.png)
 
 6. Facoltativamente, [modificare le dimensioni e il colore del testo del grafico](power-bi-visualization-customize-title-background-and-legend.md). 
 
-    ![Aumentare le dimensioni del carattere e modificare axisfont Y](media/power-bi-line-charts/power-bi-line-3years.png)
+    ![Aumentare la dimensione del carattere e cambiare il carattere dell'asse Y](media/power-bi-line-charts/power-bi-line-3years.png)
 
-## <a name="add-additional-lines-to-the-chart"></a>Aggiungere altre righe al grafico
-I grafici a linee può avere molte righe diverse. E, in alcuni casi, i valori nelle righe potrebbero essere così divergenti che non contengono bene insieme. Esaminiamo l'aggiunta di altre righe al nostro corrente del grafico e quindi informazioni su come formattare il grafico quando i valori rappresentati dalle linee sono molto diversi. 
+## <a name="add-additional-lines-to-the-chart"></a>Aggiungere altre linee al grafico
+I grafici a linee possono avere molte linee diverse. In alcuni casi, i valori sulle linee possono essere così divergenti da non risultare ben definiti. Si vedrà ora come aggiungere altre linee al grafico e quindi formattare il grafico quando i valori rappresentati dalle linee sono molto diversi. 
 
 ### <a name="add-additional-lines"></a>Aggiungere altre righe
-Invece di esaminare le unità totali per tutte le aree come una singola riga nel grafico, è possibile suddividere i totale unità per area. Aggiungere altre righe trascinando **geografica** > **area** per l'area della legenda.
+Invece di esaminare le unità totali per tutte le aree come una singola linea nel grafico, è possibile suddividere le unità totali per area. Per aggiungere altre linee, trascinare **Geo** > **Region** (Posizione geografica > Area) nell'area Legenda.
 
-   ![Una riga per ogni area](media/power-bi-line-charts/power-bi-line-regions.png)
+   ![Una linea per ogni area](media/power-bi-line-charts/power-bi-line-regions.png)
 
 
 ### <a name="use-two-y-axes"></a>Usare due assi Y
-Cosa accade se si desidera esaminare le vendite totali e totale unità nello stesso grafico? I numeri di vendita sono molto superiori a numeri di unità, rendendo inutilizzabile il grafico a linee. In effetti, la linea rossa per totale unità sembra essere zero.
+Cosa accade se si vogliono esaminare le vendite totali e le unità totali nello stesso grafico? I valori delle vendite sono molto superiori rispetto a quelli delle unità e quindi il grafico a linee risulta inutilizzabile. In effetti, la linea rossa relativa alle unità totali sembra essere zero.
 
-   ![elevata divergenti valori](media/power-bi-line-charts/power-bi-diverging.png)
+   ![valori altamente divergenti](media/power-bi-line-charts/power-bi-diverging.png)
 
-Per visualizzare valori altamente divergenti nello stesso grafico, utilizzare un grafico combinato. È possibile Scopri tutto sui grafici combinati leggendo [grafici combinati in Power BI](power-bi-visualization-combo-chart.md). Nell'esempio riportato di seguito, è possibile visualizzare le unità di vendita e totali tra loro nello stesso grafico mediante l'aggiunta di un secondo asse Y. 
+Per visualizzare valori altamente divergenti nello stesso grafico, usare un grafico combinato. Per informazioni dettagliate sui grafici combinati, leggere [Grafici combinati in Power BI](power-bi-visualization-combo-chart.md). Nell'esempio seguente è possibile visualizzare i valori delle vendite e quelli delle unità totali in uno stesso grafico aggiungendo un secondo asse Y. 
 
-   ![elevata divergenti valori](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![valori altamente divergenti](media/power-bi-line-charts/power-bi-dual-axes.png)
+
+## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
+Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
+
+La selezione di un punto dati su un grafico a linee ha l'effetto di applicare l'evidenziazione incrociata e il filtro incrociato alle altre visualizzazioni nella pagina del report e viceversa. Per seguire le istruzioni, aprire la scheda **Market Share** (Quota di mercato).  
+
+In un grafico a linee, un singolo punto dati rappresenta l'intersezione di un punto sugli assi X e Y. Quando si seleziona un punto dati, Power BI aggiunge marcatori che indicano quale punto (per una singola riga) o quali punti (se sono presenti due o più righe) costituiscono l'origine dell'evidenziazione incrociata e del filtro incrociato degli altri oggetti visivi nella pagina del report. Se l'oggetto visivo presenta una densità elevata, Power BI selezionerà il punto più vicino alla posizione in cui si fa clic sull'oggetto visivo.
+
+In questo esempio è stato selezionato un punto dati che include i dati seguenti: Luglio 2014, % quota di mercato unità R12 del 33,16% e % quota di mercato unità del 34,74%.
+
+![selezionare un singolo punto dati in un grafico a linee](media/power-bi-line-charts/power-bi-single-select.png)
+
+È possibile notare l'evidenziazione incrociata dell'istogramma e il filtro incrociato del misuratore.
+
+Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../service-reports-visual-interactions.md).
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-* Un grafico a linee non può avere due assi Y.  È necessario usare invece un grafico combinato.
-* Negli esempi precedenti, i grafici sono stati formattati per aumentare la dimensione del carattere, modificare il colore del carattere, aggiungere i titoli degli assi, allineare al centro il titolo del grafico e una legenda, avviare entrambi gli assi a zero e altro ancora. Il riquadro formattazione (icona del rullo) ha un set di opzioni per rendere l'aspetto di grafici nel modo desiderato per apparentemente infinito. Il modo migliore per imparare è possibile aprire il riquadro formattazione ed esplorare.
+* Un unico grafico a linee non può avere due assi Y.  È necessario usare in alternativa un grafico combinato.
+* Negli esempi precedenti i grafici sono stati formattati in modo da aumentare la dimensione del carattere, cambiare il colore del carattere, aggiungere i titoli degli assi, allineare al centro il titolo del grafico e la legenda, definire zero come punto iniziale per entrambi gli assi e altro ancora. Il riquadro per la formattazione (icona del rullo) include un'ampia gamma di opzioni per personalizzare l'aspetto dei grafici nel modo desiderato. Il modo migliore per imparare a modificare l'aspetto di un grafico è quello di aprire il riquadro per la formattazione ed esplorare le opzioni disponibili.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

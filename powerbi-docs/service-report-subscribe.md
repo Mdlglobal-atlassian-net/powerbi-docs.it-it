@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498077"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264609"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
@@ -28,8 +28,12 @@ ms.locfileid: "66498077"
 
 ## <a name="requirements"></a>Requisiti
 
-- La **creazione** di una sottoscrizione è una funzionalità di Power BI Pro.
-- Non sono necessarie autorizzazioni per la modifica del contenuto (dashboard o report) per creare una sottoscrizione per se stessi, ma tali autorizzazioni sono obbligatorie se si vuole creare una sottoscrizione per altri. 
+La **creazione** di una sottoscrizione può essere eseguita da:
+
+- Utenti con una licenza di Power BI Pro
+- Gli utenti che visualizzano contenuti in un'app o un'area di lavoro Premium possono inoltre sottoscrivere i contenuti disponibili in tale posizione, anche senza una licenza di Power BI Pro.
+
+Non sono necessarie autorizzazioni per la modifica del contenuto (dashboard o report) per creare una sottoscrizione per se stessi, ma tali autorizzazioni sono obbligatorie se si vuole creare una sottoscrizione per altri. 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Sottoscrivere un dashboard, una pagina di report o un report impaginato
 
@@ -87,8 +91,7 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
 * È possibile che i dashboard con più di 25 riquadri aggiunti o più di 4 pagine report dinamiche aggiunte non vengano visualizzati interamente nei messaggi di posta elettronica della sottoscrizione inviati agli utenti.  Le sottoscrizioni di dashboard con un numero superiore di riquadri non vengono bloccate. Tuttavia, vengono considerate senza supporto nel caso in cui si verifichino problemi. Considerare la possibilità di modificarli in modo da farli rientrare in un intervallo supportato.
-* Questo è il momento in cui inizia il processo di sottoscrizione. In alcune situazioni possono trascorrere alcuni minuti prima che il messaggio venga recapitato alla Posta in arrivo.
-* In rare occasioni il recapito delle sottoscrizioni via posta elettronica ai destinatari può richiedere più di 15 minuti. In questo caso è consigliabile eseguire l'aggiornamento dei dati e la sottoscrizione via posta elettronica in momenti diversi per garantire il recapito tempestivo. Se il problema persiste, contattare il supporto di Power BI.
+* In rare occasioni il recapito delle sottoscrizioni via posta elettronica ai destinatari può richiedere più di quindici minuti. In questo caso è consigliabile eseguire l'aggiornamento dei dati e la sottoscrizione via posta elettronica in momenti diversi per garantire il recapito tempestivo. Se il problema persiste, contattare il supporto di Power BI.
 * Per le sottoscrizioni via posta elettronica dei dashboard, i riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.  
 * Per le sottoscrizioni via posta elettronica dei report, gli utenti non possono creare una sottoscrizione da soli se il set di dati usa la sicurezza a livello di riga. Non è possibile sottoscrivere per altri utenti un report a cui è stata applicata la sicurezza a livello di riga.
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e dopo la si rinomina, è necessario ricreare la sottoscrizione.

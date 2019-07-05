@@ -1,22 +1,22 @@
 ---
-title: Suggerimenti per la creazione di app modello in Power BI (anteprima)
+title: Suggerimenti per la creazione di app modello in Power BI
 description: Suggerimenti per la creazione di query, modelli di dati, report e dashboard per app modello efficaci
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/26/2019
+ms.author: tebercov
+ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514854"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408346"
 ---
-# <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>Suggerimenti per la creazione di app modello in Power BI (anteprima)
+# <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
 Il processo di [creazione di un'app modello](service-template-apps-create.md) in Power BI include la logistica per creare l'area di lavoro, il test e la produzione. L'altro aspetto importante del processo di creazione è la creazione del report e del dashboard. Il processo di creazione può essere suddiviso in quattro componenti principali. Il lavoro su questi componenti consente di creare la miglior app modello possibile:
 
@@ -24,7 +24,7 @@ Il processo di [creazione di un'app modello](service-template-apps-create.md) in
 * Nel **modello di dati** si creano le [relazioni](desktop-create-and-manage-relationships.md), le [misure](desktop-measures.md) e i miglioramenti di Domande e risposte.  
 * Le **[pagine dei report](desktop-report-view.md)** includono oggetti visivi e filtri che consentono di offrire informazioni dettagliate sui dati.  
 * I **[dashboard](consumer/end-user-dashboards.md)** e i [riquadri](service-dashboard-create.md) offrono una panoramica delle informazioni dettagliate incluse.
-* I dati di esempio rendono individuabili l'app immediatamente dopo l'installazione.
+* I dati di esempio rendono l'app individuabile immediatamente dopo l'installazione.
 
 Ogni elemento potrebbe essere noto come funzionalità di Power BI esistente. Quando si compila un'app modello è necessario considerare altri aspetti per ogni singolo componente. Vedere le sezioni seguenti per ulteriori dettagli.
 
@@ -36,12 +36,10 @@ Per le app modello, le query sviluppate in Power BI Desktop vengono usate per co
 ### <a name="connect-to-your-api"></a>Connettersi all'API
 Per iniziare, è necessario connettersi all'API da Power BI Desktop per avviare la compilazione delle query.
 
-È possibile usare i connettori di dati che sono disponibili per impostazione predefinita in Power BI Desktop per connettersi all'API. È possibile usare il connettore dati Web (Recupera dati -> Web) per connettersi all'API Rest oppure il connettore OData (Recupera dati -> Feed OData) per connettersi al proprio feed OData. Questi connettori possono essere usati immediatamente solo se l'API supporta l'autenticazione di base.
+È possibile usare i connettori di dati disponibili in Power BI Desktop per connettersi all'API. È possibile usare il connettore dati Web (Recupera dati -> Web) per connettersi all'API Rest oppure il connettore OData (Recupera dati -> Feed OData) per connettersi al proprio feed OData.
 
 > [!NOTE]
-> Se l'API usa altri tipi di autenticazione, ad esempio OAuth 2.0 o la chiave API Web, è necessario sviluppare il proprio connettore dati per consentire a Power BI Desktop di connettersi correttamente ed eseguire l'autenticazione nell'API. Il connettore personalizzato deve essere aggiunto al servizio PBI per renderla accessibile dal programma di installazione app modello. <br> Per informazioni dettagliate su come sviluppare il proprio connettore dati per l'app modello, vedere la [documentazione sui connettori dati](https://aka.ms/DataConnectors). 
->
->
+> Attualmente le app modello non supportano i connettori personalizzati. È consigliabile esaminare l'uso di Odatafeed Auth 2.0 come mitigazione per alcuni casi d'uso relativi alla connessione oppure inviare un connettore personalizzato per la certificazione. Per informazioni dettagliate su come sviluppare un connettore e ottenere la certificazione, vedere la [documentazione sui connettori di dati](https://aka.ms/DataConnectors).
 
 ### <a name="consider-the-source"></a>Considerare l'origine
 Le query definiscono i dati inclusi nel modello di dati. A seconda delle dimensioni del sistema, le query devono includere anche i filtri per garantire che i clienti usino una dimensione gestibile, idonea allo scenario aziendale.
@@ -115,41 +113,41 @@ Per creare un dashboard per l'app modello, è sufficiente caricare il PBIX scegl
 * Tutti i riquadri del dashboard devono avere titoli o sottotitoli appropriati.  
 * Prendere in considerazione i raggruppamenti nel dashboard per diversi scenari, verticalmente oppure orizzontalmente.  
 
-## <a name="sample-data"></a>dati di esempio
-Le app di modello, come parte della fase di creazione di app, esegue il wrapping dei dati della cache nell'area di lavoro come parte dell'app:
+## <a name="sample-data"></a>Dati di esempio
+Le app modello, nella fase di creazione di app, eseguono il wrapping dei dati della cache nell'area di lavoro come parte dell'app:
 
-* Consente il programma di installazione comprendere le funzionalità e scopo dell'app prima della connessione dati.
-* Crea un'esperienza che consente di guidare il programma di installazione per esplorare ulteriormente le funzionalità delle app, che porta alla connessione del set di dati di app.
+* Viene consentito al programma di installazione di comprendere la funzionalità e lo scopo dell'app prima della connessione dei dati.
+* Viene creata un'esperienza che porta il programma di installazione a esplorare ulteriormente le funzionalità dell'app e, di conseguenza, a connettere il set di dati dell'app.
 
-È consigliabile avere dati di esempio di qualità prima di creare l'app. Verificare che i report per l'app e i dashboard vengono popolati con dati.
+È consigliabile predisporre dati di esempio di alta qualità prima di creare l'app. Assicurarsi che i dashboard e i report per l'app vengano popolati con dati.
 
 ## <a name="publishing-on-appsource"></a>Pubblicazione in AppSource
-Le app di modello possono essere pubblicate in AppSource, seguire queste linee guida prima di inviare l'app in AppSource:
+Le app modello possono essere pubblicate in AppSource. Seguire queste linee guida prima di inviare l'app ad AppSource:
 
-* Assicurarsi di creare un'app per il modello con impegno dei dati di esempio che possono aiutare il programma di installazione a comprendere ciò che è possibile eseguire l'app (dashboard e report vuoti non sono approvati).
-Le app di modello supportano solo le app dei dati di esempio, assicurarsi di selezionare la casella di controllo app statica. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Disporre di istruzioni per il team di convalida da seguire che include le credenziali e i parametri necessari per connettersi ai dati.
-* Applicazione deve includere un'icona di App in Power BI e sull'offerta CPP. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Pagina di destinazione configurato. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Assicurarsi di seguire la documentazione di [offerta per l'App di Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
-* Nel caso in cui un dashboard fa parte dell'app, assicurarsi che non è vuota.
-* Installare l'app usando il collegamento all'app prima dell'invio, verificare che sia possibile connettersi al set di dati e l'esperienza delle app è come si è pianificata.
-* Prima di caricare bpix nell'area di lavoro di app modello, assicurarsi di scaricare tutte le connessioni non necessari.
-* Power BI seguire [procedure consigliate per i report e oggetti visivi progettazione](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) per ottenere il massimo impatto su utenti e ottenere l'approvazione per la distribuzione.
+* Assicurarsi di creare un'app modello con dati di esempio significativi, che possono aiutare, in fase di installazione, a comprendere ciò che l'app può fare (report e dashboard vuoti non vengono approvati).
+Le app modello supportano le app con soli dati di esempio, assicurarsi di selezionare la casella di controllo relativa all'app statica. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Creare istruzioni che il team di convalida deve seguire includendo le credenziali e i parametri necessari per la connessione ai dati.
+* L'applicazione deve includere un'icona dell'app in Power BI e nell'offerta CPP. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Configurare la pagina di destinazione. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Assicurarsi di seguire la documentazione in [Offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+* Nel caso in cui un dashboard faccia parte dell'app, assicurarsi che non sia vuoto.
+* Installare l'app usando il collegamento all'app prima dell'invio, verificare che sia possibile connettersi al set di dati e che l'esperienza dell'app sia conforme a quanto previsto.
+* Prima di caricare il file con estensione bpix nell'area di lavoro dell'app modello, assicurarsi di scaricare tutte le connessioni non necessarie.
+* Seguire quanto indicato in [Procedure consigliate per la progettazione di report e oggetti visivi](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) di Power BI per ottimizzare l'impatto sugli utenti e ottenere l'approvazione per la distribuzione.
 
 ## <a name="known-limitations"></a>Limitazioni note
 
 | Feature | Limitazione nota |
 |---------|---------|
 |Contenuto:  Set di dati   | È necessario che sia presente un solo set di dati. Sono consentiti solo i set di dati creati in Power BI Desktop (file con estensione pbix). <br>Non supportati: Set di dati di altre app modello, set di dati di più aree di lavoro, report impaginati (file con estensione rdl), cartelle di lavoro di Excel |
-|Contenuto: Dashboard | Non sono consentiti i riquadri in tempo reale (in altre parole, nessun supporto per i set di dati di streaming o push) |
-|Contenuto: Dataflows | Non supportati: Dataflows |
+|Contenuto: Dashboard | Non sono consentiti riquadri in tempo reale (in altre parole, non è disponibile il supporto per set di dati di push o di streaming) |
+|Contenuto: Flussi di dati | Non supportati: Flussi di dati |
 |Contenuti dei file | Sono supportati solo i file PBIX. <br>Non supportati: file con estensione rdl (report impaginati), cartelle di lavoro di Excel   |
-| Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>In origini dati locali (gateway personali e aziendali non sono supportati)</li> <li>In tempo reale (Nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
+| Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>Origini dati locali (i gateway personali e aziendali non sono supportati)</li> <li>Tempo reale (nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
 | Set di dati: di più aree di lavoro | Non sono consentiti set di dati di più aree di lavoro  |
 | Parametri di query | Non supportati: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
 | Oggetti visivi personalizzati | Sono supportati solo gli oggetti visivi personalizzati disponibili pubblicamente. [Oggetti visivi personalizzati dell'organizzazione](power-bi-custom-visuals-organization.md) non supportati |
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cosa sono le app modello di Power BI? (anteprima)](service-template-apps-overview.md)
+[Che cosa sono le app modello di Power BI?](service-template-apps-overview.md)

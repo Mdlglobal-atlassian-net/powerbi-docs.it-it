@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6c9d59bbc2c6bf81242166bef4cd7584f52fb633
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65941598"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67409179"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -34,7 +34,7 @@ Per ottenere l'accesso al portale di amministrazione di Power BI, l'account deve
 
     ![Impostazioni per il portale di amministrazione](media/service-admin-portal/powerbi-admin-settings.png)
 
-Sono disponibili nove schede nel portale. Il resto di questo articolo fornisce informazioni su ognuna di queste schede.
+Nel portale sono presenti nove schede. Il resto di questo articolo fornisce informazioni su ognuna di queste schede.
 
 ![Navigazione nel portale di amministrazione](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,7 +44,7 @@ Sono disponibili nove schede nel portale. Il resto di questo articolo fornisce i
 * [Impostazioni tenant](#tenant-settings)
 * [Impostazioni capacità](#capacity-settings)
 * [Codici di incorporamento](#embed-codes)
-* [Oggetti visivi dell'organizzazione](#organization-visuals)
+* [Oggetti visivi dell'organizzazione](#organizational-visuals)
 * [Archiviazione del flusso di dati (anteprima)](#dataflowStorage)
 * [Aree di lavoro](#workspaces)
 
@@ -59,11 +59,11 @@ Al termine del caricamento del dashboard vengono visualizzate due sezioni di riq
 
 Di seguito è riportata la suddivisione dei dati visualizzati in ogni riquadro:
 
-* Conteggio distinto di tutti i dashboard, i report e i set di dati nell'area di lavoro dell'utente
+* Conteggio distinto di tutti i dashboard, i report e i set di dati nell'area di lavoro dell'utente.
   
     ![Conteggio distinto di dashboard, report e set di dati](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Dashboard più utilizzato in base al numero di utenti che possono accedervi. Ad esempio, se è disponibile un dashboard condiviso con 3 utenti e tale dashboard è stato aggiunto anche a un pacchetto di contenuto a cui sono connessi due utenti diversi, il conteggio sarebbe 6 (1 + 3 + 2)
+* Dashboard più utilizzato in base al numero di utenti che possono accedervi. Ad esempio, se si ha un dashboard condiviso con 3 utenti e tale dashboard è stato aggiunto anche a un pacchetto di contenuto a cui sono connessi due utenti diversi, il conteggio è 6 (1 + 3 + 2).
   
     ![Dashboard più utilizzati](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
@@ -128,23 +128,23 @@ Le impostazioni possono avere tre stati:
 
 Le sezioni successive forniscono una panoramica dei diversi tipi di impostazioni del tenant.
 
-## <a name="help-and-support-settings"></a>Guida e supporto tecnico di impostazioni
+## <a name="help-and-support-settings"></a>Impostazioni per Guida e supporto tecnico
 
-### <a name="publish-get-help-information"></a>Pubblicare le informazioni di "Get-Help"
+### <a name="publish-get-help-information"></a>Pubblica informazioni su "Supporto"
 
-Gli utenti dell'organizzazione possono passare alla Guida interna e supporta le risorse dal menu della Guida di Power BI. In particolare, questi parametri di modificano il comportamento delle voci di menu Guida fare riferimento alle informazioni della Community e Get.
+Gli utenti dell'organizzazione possono usare le risorse interne di Guida e supporto tecnico tramite il menu della Guida di Power BI. In particolare, questi parametri modificano il comportamento delle voci di menu Informazioni, Community e Guida.
 
-È anche possibile specificare un URL per indirizzare gli utenti a una soluzione personalizzata per le richieste di licenze. Questo parametro consente di personalizzare l'URL di destinazione del pulsante di aggiornamento di account in grado di trovare un utente senza una licenza Power BI Pro nell'aggiornamento di Power BI Pro nella finestra di dialogo, nonché nella pagina Gestisci archiviazione personale.
+È anche possibile specificare un URL per indirizzare gli utenti a una soluzione personalizzata per le richieste di licenze. Questo parametro consente di personalizzare l'URL di destinazione del pulsante Aggiorna account che un utente senza una licenza di Power BI Pro può trovare nella finestra di dialogo di aggiornamento a Power BI Pro, nonché nella pagina Gestisci archivio personale.
 
 ## <a name="workspace-settings"></a>Impostazioni dell'area di lavoro
 
 ### <a name="create-workspaces"></a>Creare aree di lavoro
 
-Gli amministratori usano il **creare aree di lavoro** impostazione per indicare quali utenti dell'organizzazione possono creare aree di lavoro di app per collaborare su dashboard, report e altro contenuto. Altre informazioni sulle [aree di lavoro app](service-create-the-new-workspaces.md).
+Gli amministratori usano l'impostazione **Crea aree di lavoro** per indicare gli utenti dell'organizzazione che possono creare aree di lavoro per le app per collaborare a dashboard, report e altro contenuto. Vedere altre informazioni sulle [aree di lavoro per le app](service-create-the-new-workspaces.md).
 
-Il portale di amministrazione ha un'altra sezione di impostazioni sulle aree di lavoro nel tenant. In questa sezione, è possibile ordinare e filtrare l'elenco delle aree di lavoro e visualizzare i dettagli per ogni area di lavoro. Visualizzare [aree di lavoro](#workspaces) per informazioni dettagliate.
+Il portale di amministrazione ha un'altra sezione di impostazioni relative alle aree di lavoro nel tenant. In tale sezione è possibile ordinare e filtrare l'elenco di aree di lavoro e visualizzare i dettagli per ognuna di esse. Per informazioni dettagliate, vedere [Aree di lavoro](#workspaces).
 
-Nel portale di amministrazione, è inoltre controllare quali utenti dispongono delle autorizzazioni per distribuire le App per l'organizzazione. Visualizzare [pubblicare i pacchetti di contenuto e App per l'intera organizzazione](#publish-content-packs-and-apps-to-the-entire-organization) in questo articolo per informazioni dettagliate.
+Nel portale di amministrazione è anche possibile controllare gli utenti autorizzati a distribuire le app nell'organizzazione. Per informazioni dettagliate, vedere [Pubblicare pacchetti di contenuto e app per l'intera organizzazione](#publish-content-packs-and-apps-to-the-entire-organization) in questo articolo.
 
 ## <a name="export-and-sharing-settings"></a>Impostazioni di esportazione e condivisione
 
@@ -213,23 +213,28 @@ L'immagine seguente mostra l'opzione Consenti agli utenti guest esterni di modif
 
 ![Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
 
+### <a name="email-subscriptions"></a>Sottoscrizioni di posta elettronica
+Gli utenti dell'organizzazione possono creare sottoscrizioni di posta elettronica. Vedere altre informazioni sulle [sottoscrizioni](service-report-subscribe.md).
+
+![Abilitare le sottoscrizioni di posta elettronica](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
+
 ## <a name="content-pack-and-app-settings"></a>Impostazioni dell'app e del pacchetto di contenuto
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Pubblicare pacchetti di contenuto e app per l'intera organizzazione
 
-Gli amministratori di usano questa impostazione per stabilire quali utenti possono pubblicare pacchetti di contenuto e App per l'intera organizzazione, piuttosto che solo determinati gruppi. Altre informazioni sulle [pubblicazione di app](service-create-distribute-apps.md).
+Gli amministratori usano questa impostazione per determinare quali utenti possono pubblicare pacchetti di contenuto e app per l'intera organizzazione, invece che per gruppi specifici. Vedere altre informazioni sulla [pubblicazione di app](service-create-distribute-apps.md).
 
 La figura seguente mostra l'opzione **Intera organizzazione** quando si crea un pacchetto di contenuto.
 
 ![Pubblicare il pacchetto di contenuto per l'organizzazione](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-apps-and-organizational-content-packs"></a>Creare app di modello e pacchetti di contenuto aziendali
+### <a name="create-template-apps-and-organizational-content-packs"></a>Creare app modello e pacchetti di contenuto dell'organizzazione
 
-Gli utenti dell'organizzazione possono creare modello App e pacchetti di contenuto aziendali che usano set di dati basati su un'origine dati in Power BI Desktop. Altre informazioni sulle [App modello](template-content-pack-authoring.md).
+Gli utenti dell'organizzazione possono creare app modello e pacchetti di contenuto dell'organizzazione che usano set di dati basati su un'origine dati in Power BI Desktop. Vedere altre informazioni sulle [app modello](template-content-pack-authoring.md).
 
 ### <a name="push-apps-to-end-users"></a>Push delle app agli utenti finali
 
-Gli autori del report possono condividere le app direttamente con gli utenti finali senza richiedere l'installazione dal [AppSource](https://appsource.microsoft.com). Altre informazioni sulle [automaticamente l'installazione di App per gli utenti finali](service-create-distribute-apps.md#automatically-install-apps-for-end-users).
+I creatori di report possono condividere le app direttamente con gli utenti finali senza necessità di installazione da [AppSource](https://appsource.microsoft.com). Vedere altre informazioni sull'[installazione automatica di app per gli utenti finali](service-create-distribute-apps.md#automatically-install-apps-for-end-users).
 
 ## <a name="integration-settings"></a>Impostazioni di integrazione
 
@@ -351,7 +356,7 @@ Gli utenti dell'organizzazione possono incorporare i dashboard e i report di Pow
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>Consenti alle entità servizio di usare le API Power BI
 
-Le app Web registrate in Azure Active Directory (Azure AD) utilizzerà un'entità di servizio assegnati per accedere alle API di Power BI senza utente connesso. Per consentire a un'app per usare l'autenticazione dell'entità servizio relativa entità servizio deve essere incluso in un gruppo di sicurezza consentiti. [Altre informazioni](developer/embed-service-principal.md)
+Le app Web registrate in Azure Active Directory (Azure AD) useranno un'entità servizio assegnata per accedere alle API Power BI senza un utente connesso. Per consentire a un'app di usare l'autenticazione dell'entità servizio, l'entità servizio deve essere inclusa in un gruppo di sicurezza consentito. [Altre informazioni](developer/embed-service-principal.md)
 
 > [!NOTE]
 > Le entità servizio ereditano le autorizzazioni per tutte le impostazioni del tenant di Power BI dal relativo gruppo di sicurezza. Per limitare le autorizzazioni, creare un gruppo di sicurezza dedicato per le entità servizio e aggiungerlo all'elenco "Eccetto gruppi di sicurezza specifici" relativo alle impostazioni pertinenti abilitate di Power BI.
@@ -360,29 +365,34 @@ Le app Web registrate in Azure Active Directory (Azure AD) utilizzerà un'entit�
 
 ### <a name="create-and-use-dataflows"></a>Creare e usare flussi di dati
 
-Gli utenti dell'organizzazione possono creare e usare flussi di dati. Per una panoramica dei flussi di dati, vedere [di preparazione dei dati self-servizi in Power BI](service-dataflows-overview.md). Per abilitare i flussi di dati in una capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
+Gli utenti dell'organizzazione possono creare e usare flussi di dati. Per una panoramica dei flussi di dati, vedere [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md). Per abilitare i flussi di dati in una capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 
 > [!NOTE]
 > Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
 
-## <a name="template-apps-settings-preview"></a>Impostazioni app modello (anteprima)
+## <a name="template-apps-settings"></a>Impostazioni app modello
 
-Sono due le impostazioni che controllano le app modello. 
+Tre impostazioni controllano la capacità delle app modello di pubblicare o installare app di modello.
 
 ![Impostazioni di app modello del portale di amministrazione di Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
-### <a name="create-template-apps-preview"></a>Crea app modello (anteprima)
+### <a name="publish-template-apps"></a>Pubblica app modello
 
-Gli utenti dell'organizzazione possono creare app di modello. Gli autori di app di modello possono quindi distribuirli ai client esterni all'organizzazione tramite [AppSource](https://appsource.microsoft.com) o altri metodi di distribuzione.
+Gli utenti dell'organizzazione possono creare aree di lavoro per app modello. È possibile controllare gli utenti che possono pubblicare app modello o distribuirle ai client esterni all'organizzazione tramite [AppSource](https://appsource.microsoft.com) o altri metodi di distribuzione.
 
 ![Portale di amministrazione di Power BI, impostazione Crea app modello](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
-### <a name="install-template-apps-preview"></a>Installare le app di modello (anteprima)
+### <a name="install-template-apps-listed-on-appsource"></a>Install template apps listed on AppSource (Installa app modello elencate in AppSource)
 
-Gli utenti dell'organizzazione è possono scaricare e installare le app di modello dal [AppSource](https://appsource.microsoft.com) o un'altra origine.
+Gli utenti dell'organizzazione possono scaricare e installare le app modello **solo** da [AppSource](https://appsource.microsoft.com). È possibile controllare gli utenti o gruppi di sicurezza specifici che possono installare le app modello da AppSource.
 
-> [!NOTE]
-> Questa impostazione determina quali utenti possono installare le app di modello per i loro account Power BI.
+![Portale di amministrazione di Power BI, impostazioni di installazione app modello](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+
+### <a name="install-template-apps-not-listed-on-appsource"></a>Installa app modello non elencate in AppSource
+
+È possibile controllare gli utenti dell'organizzazione che possono scaricare e installare le app modello **non elencate in [AppSource](https://appsource.microsoft.com)** .
+
+![Portale di amministrazione di Power BI, impostazioni di installazione app modello](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>Impostazioni di capacità
 
@@ -394,7 +404,7 @@ La scheda **Power BI Premium** consente di gestire qualsiasi capacità di Power 
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-La scheda **Power BI Embedded** consente di visualizzare le capacità di Power BI Embedded (SKU A) acquistate per il cliente. Poiché è possibile acquistare solo SKU di Azure, si [Gestisci capacità incorporate in Azure](developer/azure-pbie-create-capacity.md) dalla **portale di Azure**.
+La scheda **Power BI Embedded** consente di visualizzare le capacità di Power BI Embedded (SKU A) acquistate per il cliente. Poiché è possibile acquistare SKU A solo da Azure, [gestire le capacità incorporate in Azure](developer/azure-pbie-create-capacity.md) dal **portale di Azure**.
 
 Per altre informazioni su come gestire le impostazioni di Power BI Embedded (SKU) A, vedere [Che cos'è Azure Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md).
 
@@ -404,7 +414,7 @@ Un amministratore può visualizzare i codici di incorporamento generati per il t
 
 ![Codici di incorporamento nel portale di amministrazione di Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organizational-visuals">Oggetti visivi dell'organizzazione</a>
+ ## <a name="organizational-visuals">Oggetti visivi dell'organizzazione</a> 
 
 La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](power-bi-custom-visuals-organization.md)
 
@@ -470,7 +480,7 @@ Per impostazione predefinita, i dati usati con Power BI vengono archiviati nello
 
 ## <a name="workspaces"></a>Aree di lavoro
 
-Come amministratore, è possibile visualizzare le aree di lavoro esistenti nel tenant. È possibile ordinare e filtrare l'elenco delle aree di lavoro e visualizzare i dettagli per ognuna di esse. Le colonne della tabella corrispondono alle proprietà restituite dai [API Rest di amministrazione di Power BI](/rest/api/power-bi/admin) per aree di lavoro. Le aree di lavoro personale sono di tipo **PersonalGroup**, sono di tipo classici aree di lavoro **gruppo**, e la nuova area di lavoro esperienza le aree di lavoro sono di tipo **area di lavoro**. Per altre informazioni, vedere [creare le nuove aree di lavoro in Power BI](service-create-the-new-workspaces.md).
+Come amministratore, è possibile visualizzare le aree di lavoro esistenti nel tenant. È possibile ordinare e filtrare l'elenco delle aree di lavoro e visualizzare i dettagli per ognuna di esse. Le colonne della tabella corrispondono alle proprietà restituite dall'[API REST di amministrazione di Power BI](/rest/api/power-bi/admin) per le aree di lavoro. Le aree di lavoro personali sono di tipo **PersonalGroup**, le aree di lavoro classiche sono di tipo **Group** e le aree di lavoro della nuova esperienza sono di tipo **Workspace**. Per altre informazioni, vedere [Creare le nuove aree di lavoro in Power BI](service-create-the-new-workspaces.md).
 
 ![Elenco delle aree di lavoro](media/service-admin-portal/workspaces-list.png)
 

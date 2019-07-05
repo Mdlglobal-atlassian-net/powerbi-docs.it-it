@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038948"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418776"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -234,7 +234,7 @@ Esistono due opzioni per configurare un gateway dati in modo che sia possibile u
 
 ![Aggiornamento con il cluster di gateway](media/refresh-data/refresh-gateway-cluster.png)
 
-Se si seleziona la casella di controllo **Consente l'aggiornamento delle origini dati cloud dell'utente tramite questo cluster di gateway nella configurazione del gateway**, come nello screenshot precedente, Power BI è in grado di usare la configurazione definita dall'utente per l'origine cloud in **Credenziali origine dati** nelle impostazioni del set di dati. Ciò può favorire la riduzione dell'overhead della configurazione del gateway. D'altra parte, se si vuole avere un maggiore controllo sulle connessioni stabilite dal gateway, non è consigliabile abilitare questa casella di controllo. In questo caso è necessario aggiungere al gateway una definizione di origine dati esplicita per ogni origine cloud da supportare. È anche possibile abilitare la casella di controllo e aggiungere a un gateway le definizioni di origini dati esplicite per le origini cloud. In questo caso il gateway usa le definizioni di origini dati per tutte le origini corrispondenti.
+Se si seleziona la casella di controllo **Consenti l'aggiornamento delle origini dati cloud dell'utente tramite questo cluster di gateway**, come illustrato in questo screenshot, Power BI potrà usare la configurazione definita dall'utente per l'origine cloud in **Credenziali origine dati** nelle impostazioni del set di dati. Ciò può favorire la riduzione dell'overhead della configurazione del gateway. D'altra parte, se si vuole avere un maggiore controllo sulle connessioni stabilite dal gateway, non è consigliabile abilitare questa casella di controllo. In questo caso è necessario aggiungere al gateway una definizione di origine dati esplicita per ogni origine cloud da supportare. È anche possibile abilitare la casella di controllo e aggiungere a un gateway le definizioni di origini dati esplicite per le origini cloud. In questo caso il gateway usa le definizioni di origini dati per tutte le origini corrispondenti.
 
 ### <a name="configuring-query-parameters"></a>Configurazione dei parametri di query
 
@@ -272,7 +272,7 @@ Nella sezione **Aggiornamento pianificato** è possibile definire la frequenza e
 
 ![Configurare l'aggiornamento pianificato](media/refresh-data/configure-scheduled-refresh.png)
 
-Se è stata configurata una pianificazione dell'aggiornamento, nella pagina delle impostazioni del set di dati viene visualizzato l'orario dell'aggiornamento successivo, come illustrato nello screenshot precedente. Per aggiornare prima i dati, ad esempio per testare la configurazione del gateway e dell'origine dati, eseguire un aggiornamento su richiesta usando l'opzione Aggiorna ora nel menu del set di dati nel riquadro di spostamento a sinistra. Gli aggiornamenti su richiesta non influiscono sull'orario del successivo aggiornamento pianificato, ma vengono conteggiati rispetto al limite di aggiornamenti giornalieri, come spiegato in precedenza in questo articolo.
+Se è stata configurata una pianificazione dell'aggiornamento, nella pagina delle impostazioni del set di dati viene visualizzato l'orario dell'aggiornamento successivo, come illustrato nello screenshot precedente. Per aggiornare i dati prima dell'ora pianificata, ad esempio per testare la configurazione del gateway e dell'origine dati, eseguire un aggiornamento su richiesta usando l'opzione **Aggiorna ora** nel menu del set di dati nel riquadro di spostamento a sinistra. Gli aggiornamenti su richiesta non influiscono sull'orario del successivo aggiornamento pianificato, ma vengono conteggiati rispetto al limite di aggiornamenti giornalieri, come spiegato in precedenza in questo articolo.
 
 Si noti inoltre che l'orario configurato per l'aggiornamento potrebbe non essere esattamente l'ora in cui Power BI avvia il processo pianificato successivo. Power BI avvia gli aggiornamenti pianificati in base ad approssimazioni ottimali. L'obiettivo è avviare l'aggiornamento entro 15 minuti dall'orario pianificato, ma può verificarsi un ritardo fino a un'ora se il servizio non è in grado di allocare prima le risorse necessarie.
 
@@ -283,7 +283,7 @@ Si noti inoltre che l'orario configurato per l'aggiornamento potrebbe non essere
 
 Per impostazione predefinita, Power BI invia notifiche relative agli errori di aggiornamento via posta elettronica al proprietario del set di dati in modo che possa agire in modo tempestivo in caso di problemi. Power BI invia una notifica anche quando il servizio disabilita la pianificazione a causa di ripetuti tentativi non riusciti. Microsoft consiglia di lasciare selezionata la casella di controllo **Invia messaggi di notifica di aggiornamento non riuscito a me**.
 
-Si noti che Power BI invia notifiche non solo in caso di aggiornamento non riuscito, ma anche quando il servizio sospende un aggiornamento pianificato a causa di inattività. Dopo due mesi, se un utente non ha visitato alcun dashboard o report creato nel set di dati, Power BI considera il set di dati non attivo. In questa situazione Power BI invia un messaggio di posta elettronica al proprietario del set di dati per indicare che il servizio ha disabilitato la pianificazione dell'aggiornamento per il set di dati. Vedere lo screenshot seguente per un esempio di tale notifica.
+Si noti che Power BI invia notifiche non solo in caso di aggiornamento non riuscito, ma anche quando il servizio sospende un aggiornamento pianificato a causa di inattività. Dopo due mesi, se un utente non ha visitato alcun dashboard o report creato nel set di dati, Power BI considera il set di dati non attivo. In questa situazione, Power BI invia un messaggio di posta elettronica al proprietario del set di dati per informarlo che il servizio ha sospeso la pianificazione aggiornamenti per il set di dati. Vedere lo screenshot seguente per un esempio di tale notifica.
 
 ![Messaggio di posta elettronica per l'aggiornamento in pausa](media/refresh-data/email-paused-refresh.png)
 

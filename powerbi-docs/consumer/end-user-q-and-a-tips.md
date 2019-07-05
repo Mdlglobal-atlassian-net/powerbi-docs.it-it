@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048135"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408185"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Suggerimenti per porre domande in Domande e risposte di Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Parole e terminologia riconosciute da Domande e risposte
@@ -66,23 +66,23 @@ L'elenco seguente usa i tempi verbali presenti, ma tutti i tempi verbali vengono
 |  |  |
 |**Primi N**     |     (ordine, classificazione): principale, inferiore, più alto, più basso, primo, ultimo, successivo, meno recente, più recente, più vecchio, più nuovo, recentissimo, successivo            |
 |        |         |
-|**Tipi di oggetti visivi**     |  tutti i tipi di oggetti visivi nativi di Power BI.  Se è un'opzione disponibile nel riquadro Visualizzazioni, è possibile includere il valore nella domanda.  L'eccezione è costituita dagli [oggetti visivi personalizzati](../power-bi-custom-visuals.md), aggiunti manualmente al riquadro Visualizzazioni.  |
+|**Tipi di oggetti visivi**     |  tutti i tipi di oggetti visivi nativi di Power BI.  Se è un'opzione disponibile nel riquadro Visualizzazioni, è possibile includere il valore nella domanda.  L'eccezione a questa regola è costituita dagli [oggetti visivi personalizzati](../power-bi-custom-visuals.md) aggiunti manualmente al riquadro Visualizzazioni.  |
 |  |  Esempio: mostra aree in base al mese e al totale vendite sotto forma di grafico a barre               |
 |        |         |
 |**Relazione (qualificata)**  | quando, dove, quale, chi, a chi, quanti, quale quantità, quante volte, quanto spesso, con che frequenza, importo, numero, quantità, durata, cosa                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>Domande e risposte aiuta a formulare la domanda
-Domande e risposte cerca di comprendere e rispondere al meglio alla domanda posta. Questa operazione viene eseguita in diversi modi. Per tutti questi, è possibile accettare l'azione in modo completo, in parte o non accettarla. Quando si digita la domanda, Domande e risposte:
+Domande e risposte cerca di comprendere e rispondere al meglio alla domanda posta. Questa operazione viene eseguita in diversi modi. Per tutte queste formulazioni, è possibile accettare l'azione in modo completo, in parte o non accettarla. Quando si digita la domanda, Domande e risposte:
 
-* completa automaticamente parole e domande. Usa varie strategie, tra cui il completamento automatico delle parole riconosciute e le domande usate in precedenza che hanno restituito risposte valide. Se è disponibile più di un'opzione di completamento automatico, vengono presentate in un elenco a discesa.
+* completa automaticamente parole e domande. Usa varie strategie, tra cui il completamento automatico delle parole riconosciute, le domande archiviate e le domande usate in precedenza che hanno restituito risposte valide. Se è disponibile più di un'opzione di completamento automatico, vengono presentate in un elenco a discesa.
 * corregge l'ortografia.
-* fornisce un'anteprima della risposta sotto forma di visualizzazione. La visualizzazione si aggiorna quando si digita e modifica la domanda, senza attendere che l'utente prema INVIO.
+* fornisce un'anteprima della risposta sotto forma di oggetto visivo. L'oggetto visivo si aggiorna quando si digita e modifica la domanda, senza attendere che l'utente prema INVIO.
 * suggerisce termini sostitutivi dai set di dati sottostanti quando si sposta il cursore nella casella della domanda.
 * riformula la domanda in base ai dati nei set di dati sottostanti. Domande e risposte sostituisce le parole usate con sinonimi dai set di dati sottostanti. Leggendo la domanda riformulata è possibile capire se Domande e risposte ha compreso o meno la domanda. 
 * offusca parole che non riconosce.
 
 ## <a name="dont-stop-now"></a>Non interrompere ora
-Dopo che Domande e risposte ha mostrato i risultati, continuare la conversazione! Utilizzare le funzionalità interattive della visualizzazione e di Domande e risposte per scoprire ulteriori approfondimenti.
+Dopo che Domande e risposte ha mostrato i risultati, continuare la conversazione! Usare le funzionalità interattive dell'oggetto visivo e di Domande e risposte per scoprire altri approfondimenti.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Tornare a [Domande e risposte in Power BI](end-user-q-and-a.md)  
