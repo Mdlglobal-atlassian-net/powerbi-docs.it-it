@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3fc93f255d6645ffa6f15676b9a70f24326fcfdc
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: eea93888cf3a8ea5c7ca7b6eb9389cbabc79dc9c
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349135"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418720"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della spesa IT per Power BI: Presentazione
 
-## <a name="overview-of-the-it-spend-analysis-sample"></a>Panoramica dell'esempio di analisi della spesa IT
 Il pacchetto di contenuto dell'esempio di analisi della spesa IT contiene un dashboard, un report e un set di dati e consente di confrontare i costi pianificati ed effettivi di un reparto IT. Il confronto consente di valutare l'accuratezza delle pianificazioni per l'anno in corso e verificare le aree che evidenziano importanti deviazioni dalla pianificazione. La società di questo esempio prevede un ciclo di pianificazione annuale e genera una nuova ultima stima ogni trimestre per valutare le variazioni nella spesa IT nel corso dell'esercizio fiscale.
 
 ![Dashboard per l'esempio di analisi della spesa IT](media/sample-it-spend/it1.png)
@@ -124,7 +123,7 @@ Selezionare **Modifica report** nell'angolo in alto a sinistra per esplorarlo in
 * Modificare il tipo di visualizzazione per ogni grafico.
 * Aggiungere i grafici di interesse al dashboard.
 
+## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Questo ambiente è sicuro perché è possibile scegliere di non salvare le modifiche, ma, se le si salva, è sempre possibile scegliere **Recupera dati** per ottenere una nuova copia di questo esempio.
 
-## <a name="next-steps-connect-to-your-data"></a>Passaggi successivi: Connettersi ai dati
 Ci auguriamo che questa presentazione abbia illustrato in che modo i dashboard di Power BI, le domande e risposte e i report forniscono informazioni dettagliate sui dati della spesa IT. È ora possibile iniziare e connettersi ai propri dati. Con Power BI è possibile connettersi a una vasta gamma di origini dati. Per altre informazioni, vedere [Introduzione al servizio Power BI](service-get-started.md).
