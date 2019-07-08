@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
+ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418776"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67561806"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -177,6 +177,8 @@ Microsoft consiglia di usare un gateway dati aziendale anziché un gateway perso
 La connessione di un set di dati a un gateway aziendale è relativamente semplice se si è un amministratore del gateway. Con le autorizzazioni di amministratore, è possibile aggiornare rapidamente il gateway e aggiungere le origini dati mancanti, se necessario. Di fatto è possibile aggiungere un'origine dati mancante al gateway direttamente dalla pagina delle impostazioni del set di dati. Espandere il pulsante di attivazione e disattivazione per visualizzare le origini dati e selezionare il collegamento **Aggiungi al gateway**, come nello screenshot seguente. Se non si è un amministratore del gateway, d'altra parte, usare le informazioni di contatto visualizzate per richiedere a un amministratore del gateway l'aggiunta della definizione di origine dati necessaria.
 
 ![Aggiungi al gateway](media/refresh-data/add-to-gateway.png)
+
+Assicurarsi di eseguire il mapping all'origine dati della definizione dell'origine dati corretta. Come risulta chiaro dallo screenshot precedente, gli amministratori del gateway possono creare più definizioni in un singolo gateway e connetterli alla stessa origine dati, ognuno con credenziali diverse. Nell'esempio illustrato, il proprietario di un set di dati del reparto Sales sceglierebbe la definizione dell'origine dati AdventureWorksProducts-Sales mentre il proprietario di un set di dati del reparto Support eseguirebbe il mapping del set di dati alla definizione AdventureWorksProducts-Support. Se i nomi della definizione dell'origine dati non sono intuitivi, contattare l'amministratore del gateway per capire quale definizione selezionare.
 
 > [!NOTE]
 > Un set di dati può usare solo una singola connessione gateway. In altre parole, non è possibile accedere alle origini dati locali usando più connessioni gateway. Di conseguenza, è necessario aggiungere tutte le definizioni di origini dati necessarie allo stesso gateway.

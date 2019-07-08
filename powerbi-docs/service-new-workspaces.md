@@ -1,5 +1,5 @@
 ---
-title: Organizzare il lavoro nelle nuove aree di lavoro - Power BI
+title: Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 description: Informazioni sulle nuove aree di lavoro, ovvero raccolte di dashboard e report che hanno lo scopo di fornire all'organizzazione le metriche chiave.
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345530"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418661"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -135,7 +135,7 @@ Alcune funzionalità delle nuove aree di lavoro si comportano diversamente da qu
 - Ricondivisione/Non è possibile ricondividere per i membri: funzionalità sostituita dal ruolo Collaboratore
 - Aree di lavoro di sola lettura: invece di concedere agli utenti l'accesso di sola lettura a un'area di lavoro, è possibile assegnare agli utenti il ruolo Visualizzatore, che consente un simile accesso di sola lettura al contenuto in un'area di lavoro.
 - Gli utenti senza una licenza Pro possono accedere all'area di lavoro se questa è in una capacità Power BI Premium, anche se hanno solo il ruolo Visualizzatore.
-- Per consentire agli utenti con ruolo Visualizzatore di esportare i dati, assicurarsi che abbiano il ruolo di compilazione sui set di dati nell'area di lavoro.
+- Per consentire agli utenti con ruolo Visualizzatore di esportare i dati, assicurarsi che abbiano il ruolo di compilazione sui set di dati nell'area di lavoro. Per altre informazioni, vedere [Compilare l'autorizzazione per i set di dati](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 - Il pulsante **Lascia l'area di lavoro** non è disponibile.
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
