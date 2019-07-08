@@ -8,86 +8,124 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/23/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 892e056413212e319815341eb9ae95262ed54d46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4c28071917dbe5669e6e35bd416236ef7047eb24
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276916"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408818"
 ---
 # <a name="treemaps-in-power-bi"></a>Mappe ad albero in Power BI
-Le mappe ad albero mostrano dati gerarchici in un set di rettangoli annidati.  Ogni livello della gerarchia è rappresentato da un rettangolo colorato (detto anche "ramo") che contiene altri rettangoli ("foglie").  Lo spazio all'interno di ogni rettangolo viene allocato in base al valore in corso di misurazione e i rettangoli vengono disposti per dimensione dall'angolo superiore sinistro (il più grande) all'angolo inferiore destro (il più piccolo).
 
-![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
+Le mappe ad albero mostrano dati gerarchici in un set di rettangoli annidati. Ogni livello della gerarchia è rappresentato da un rettangolo colorato (ramo) che contiene rettangoli più piccoli (foglie). Power BI basa le dimensioni dello spazio all'interno di ogni rettangolo sul valore misurato. I rettangoli vengono disposti per dimensioni dall'angolo superiore sinistro (il più grande) all'angolo inferiore destro (il più piccolo).
 
-Se, ad esempio, si analizzano le vendite, i rettangoli di livello superiore (detti anche *rami*) possono rappresentare le categorie di abbigliamento **Urban**, **Rural**, **Youth** e **Mix**.  I rettangoli delle categorie possono essere suddivisi in rettangoli più piccoli, detti anche *foglie*, che rappresentano i produttori di abbigliamento all'interno della rispettiva categoria. Le dimensioni e l'ombreggiatura di questi rettangoli più piccoli si basano sul numero di capi venduti.  
+![Screenshot di Count of Product by Category e della mappa ad albero Manufacturer.](media/power-bi-visualization-treemaps/pbi-nancy-viz-treemap.png)
 
-Nel ramo **Urban** citato in precedenza, è stato venduto un numero elevato di capi `Maximus`, un numero inferiore di capi `Natura` e `Fama` e un numero basso di capi `Leo`.  Il ramo **Urban** della mappa ad albero avrà quindi:
-* il rettangolo più grande per `Maximus` nell'angolo superiore sinistro
-* rettangoli leggermente più piccoli per `Natura` e `Fama`
-* molti altri rettangoli per tutti gli altri capi venduti 
-* un rettangolo molto piccolo per `Leo`.  
+Ad esempio, per l'analisi delle vendite potrebbero essere disponibili rami di primo livello per le categorie di abbigliamento: **Urban**, **Rural**, **Youth** e **Mix**. Power BI suddividerebbe i rettangoli delle categorie in foglie, per i produttori di abbigliamento all'interno di tale categoria. I rettangoli foglia verrebbero dimensionati e ombreggiati in base al numero di articoli venduti.
+
+Nel ramo **Urban** citato in precedenza, è stato venduto un numero elevato di capi **VanArsdel**, un numero minore di capi **Natura** e **Fama** e solo pochi capi **Leo**. Il ramo **Urban** della mappa ad albero ha quindi:
+
+* Il rettangolo più grande per **VanArsdel** nell'angolo superiore sinistro.
+
+* Rettangoli leggermente più piccoli per **Natura** e **Fama**.
+
+* Molti altri rettangoli per tutti gli altri capi venduti.
+
+* Un rettangolo molto piccolo per **Leo**.
 
 È anche possibile confrontare il numero di articoli venduti nelle altre categorie di abbigliamento confrontando le dimensioni e l'ombreggiatura di ogni nodo foglia: i rettangoli più grandi e più scuri rappresentano valori più alti.
 
-## <a name="when-to-use-a-treemap"></a>Quando usare una mappa ad albero
-La mappe ad albero rappresentano un'ottima scelta nelle seguenti situazioni:
-
-* per visualizzare grandi quantità di dati gerarchici.
-* quando un grafico a barre non consente di gestire in modo efficiente un numero elevato di valori.
-* per visualizzare le proporzioni tra le singole parti e l'insieme.
-* per mostrare il modello di distribuzione della misura nei vari livelli di categorie nella gerarchia.
-* per visualizzare gli attributi mediante la dimensione e la codifica a colori.
-* per individuare modelli, outlier, elementi più importanti ed eccezioni.
-
-### <a name="prerequisites"></a>Prerequisiti
- - Servizio Power BI o Power BI Desktop
- - Esempio di analisi delle vendite al dettaglio
-
-## <a name="create-a-basic-treemap"></a>Creare una mappa ad albero di base
-Se si preferisce prima assistere alla creazione di una mappa ad albero,  Andare al minuto 2:10 di questo video per vedere come creare una mappa ad albero.
+Se si preferisce prima assistere alla creazione di una mappa ad albero, Andare al minuto 2:10 di questo video per vedere come creare una mappa ad albero.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-In alternativa, creare autonomamente una mappa ad albero personalizzata. Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per seguire la procedura, accedere al servizio Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio \> Connetti \> Vai al dashboard**. Per creare visualizzazioni in un report sono necessarie autorizzazioni di modifica per il set di dati e il report. Fortunatamente, gli esempi di Power BI sono modificabili. Ma non è possibile aggiungere visualizzazioni a un report che un altro utente ha condiviso con l'utente corrente.  
+## <a name="when-to-use-a-treemap"></a>Quando usare una mappa ad albero
 
-1. Selezionare il riquadro "Total Stores" per aprire il report di esempio di analisi delle vendite al dettaglio.    
-2. Aprire la [visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md) e selezionare la misura **Sales** > **Last Years Sales**.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
-3. Convertire il grafico in una mappa ad albero.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
-4. Trascinare **Item** > **Category** nell'area **Gruppo**. Power BI crea una mappa ad albero in cui le dimensioni dei rettangoli si basano sul totale delle vendite e in cui il colore rappresenta la categoria.  In sintesi, è stata creata una gerarchia che descrive visivamente la dimensione relativa del totale delle vendite per categoria.  La categoria **Mens** è quella con il volume di vendite maggiore, mentre la categoria **Hosiery** è quella con il volume minore.   
-   ![](media/power-bi-visualization-treemaps/power-bi-complete.png)   
-5. Trascinare**Store** > **Chain** nell'area **Dettagli** per completare la mappa ad albero. A questo punto è possibile confrontare le vendite dell'anno per categoria e catena.   
-   ![](media/power-bi-visualization-treemaps/power-bi-details.png)
-   
+La mappe ad albero rappresentano un'ottima scelta nelle seguenti situazioni:
+
+* Per visualizzare grandi quantità di dati gerarchici.
+
+* Quando un grafico a barre non consente di gestire in modo efficiente un numero di valori elevato.
+
+* Per visualizzare le proporzioni tra le singole parti e l'insieme.
+
+* Per mostrare il modello di distribuzione della misura nei vari livelli di categorie nella gerarchia.
+
+* Per visualizzare gli attributi mediante le dimensioni e la codifica a colori.
+
+* Per individuare modelli, outlier, elementi con il maggiore contributo ed eccezioni.
+
+## <a name="prerequisites"></a>Prerequisiti
+
+* Servizio Power BI o Power BI Desktop
+
+* Report Retail Analysis Sample
+
+## <a name="get-the-retail-analysis-sample-report"></a>Ottenere il report Retail Analysis Sample
+
+Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per creare una visualizzazione sono necessarie autorizzazioni di modifica per il set di dati e per il report. Fortunatamente, gli esempi di Power BI sono tutti modificabili. Non è possibile creare visualizzazioni nei report condivisi da altri utenti. Per seguire la procedura, scaricare il [report Retail Analysis Sample](../sample-datasets.md).
+
+Dopo avere scaricato il set di dati **Retail Analysis Sample**, è possibile iniziare.
+
+## <a name="create-a-basic-treemap"></a>Creare una mappa ad albero di base
+
+Verrà creato un report e si aggiungerà una mappa ad albero semplice.
+
+1. Da **Area di lavoro personale** selezionare **Set di dati** > **Crea report**.
+
+    ![Screenshot di Set di dati > Crea report.](media/power-bi-visualization-treemaps/power-bi-create-a-report.png)
+
+1. Dal riquadro **Campi** selezionare la misura **Sales** > **Last Year Sales**.
+
+   ![Screenshot della selezione di Sales > Last Year Sales e dell'oggetto visivo risultante.](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
+
+1. Selezionare l'icona della mappa ad albero ![Screenshot dell'icona della mappa ad albero](media/power-bi-visualization-treemaps/power-bi-treemap-icon.png) per convertire il grafico in una mappa ad albero.
+
+   ![Screenshot della mappa ad albero senza configurazione.](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
+
+1. Trascinare **Item** > **Category** nell'area **Gruppo**.
+
+    Power BI crea una mappa ad albero in cui le dimensioni dei rettangoli si basano sul totale delle vendite e in cui il colore rappresenta la categoria. In sintesi, è stata creata una gerarchia che descrive visivamente la dimensione relativa del totale delle vendite per categoria. La categoria **Mens** è quella con il volume di vendite maggiore, mentre la categoria **Hosiery** è quella con il volume minore.
+
+    ![Screenshot della mappa ad albero configurata.](media/power-bi-visualization-treemaps/power-bi-complete.png)
+
+1. Trascinare**Store** > **Chain** nell'area **Dettagli** per completare la mappa ad albero. A questo punto è possibile confrontare le vendite dell'anno per categoria e catena.
+
+   ![Screenshot della mappa ad albero con Store > Chain aggiunto all'area Dettagli.](media/power-bi-visualization-treemaps/power-bi-details.png)
+
    > [!NOTE]
    > Le opzioni Saturazione colore e Dettagli non possono essere usate contemporaneamente.
-   > 
-   > 
-5. Passare il mouse su un’area **Chain** per visualizzare la descrizione comando per la parte del titolo della **Categoria**.  Se ad esempio si posiziona il mouse su **Fashions Direct** nel rettangolo **090-Home**, viene visualizzata la descrizione comando per la parte relativa a Fashions Direct della categoria Home.  
-   ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Aggiungere la mappa ad albero come riquadro del dashboard (aggiungendo l'oggetto visivo)](../service-dashboard-tiles.md). 
-7. [Salvare il report](../service-report-save.md).
+
+1. Passare il mouse su un’area **Chain** per visualizzare la descrizione comando per la parte del titolo della **Categoria**.
+
+    Se ad esempio si posiziona il mouse su **Fashions Direct** nel rettangolo **090-Home**, viene visualizzata la descrizione comando per la parte relativa a Fashions Direct della categoria Home.
+
+   ![Screenshot della descrizione comando per Home visualizzata.](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
+
+1. Aggiungere la mappa ad albero come [riquadro del dashboard (aggiungendo l'oggetto visivo)](../service-dashboard-tiles.md).
+
+1. Salvare il [report](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
-Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
 
-Se si evidenzia una categoria o un dettaglio in una mappa ad albero, vengono applicati l'evidenziazione incrociata e i filtri incrociati nelle altre visualizzazioni della pagina del report e viceversa. Per seguire la procedura, aggiungere alcuni oggetti visivi alla pagina del report o copiare la mappa ad albero in una delle altre pagine non vuote in questo report.
+Per informazioni sull'uso del riquadro **Filtri**, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
 
-1. Nella mappa ad albero selezionare una voce Category o Chain all'interno di una categoria.  per evidenziare in modo incrociato le altre visualizzazioni nella pagina. Se ad esempio si seleziona **050-Shoes**, viene mostrato che l'anno scorso sono state vendute scarpe per 3.640.471 dollari, di cui 2.174.185 dollari riferiti a Fashions Direct.  
-   ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
+Se si evidenzia una **categoria** o un **dettaglio** in una mappa ad albero, vengono applicati l'evidenziazione incrociata e i filtri incrociati nelle altre visualizzazioni della pagina del report e viceversa. Per seguire la procedura, aggiungere alcuni oggetti visivi alla pagina del report o copiare la mappa ad albero in una delle altre pagine in questo report.
 
-2. Nel grafico a torta **Last Year Sales by Chain** selezionare la sezione **Fashions Direct** per applicare un filtro incrociato alla mappa ad albero.  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+1. Nella mappa ad albero selezionare una voce **Category** o **Chain** all'interno di una **categoria**. Verrà applicata l'evidenziazione incrociata alle altre visualizzazioni nella pagina. Se si seleziona **050-Shoes**, ad esempio, viene mostrato che l'anno scorso sono state vendute scarpe per **3.640.471** dollari, di cui **2.174.185** dollari riferiti a **Fashions Direct**.
 
-3. Per gestire il modo in cui i grafici si evidenziano e applicano i filtri incrociati tra di loro, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../service-reports-visual-interactions.md).
+   ![Screenshot del report Store Sales Overview che mostra l'evidenziazione incrociata.](media/power-bi-visualization-treemaps/treemaphiliting.png)
+
+1. Nel grafico a torta **Last Year Sales by Chain** selezionare la sezione **Fashions Direct** per applicare un filtro incrociato alla mappa ad albero.
+   ![Dimostrazione GIF della funzionalità filtro incrociato.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+1. Per gestire il modo in cui i grafici applicano reciprocamente l'evidenziazione incrociata e il filtro incrociato, vedere [Modificare l'interazione degli oggetti visivi in un report di Power BI](../service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md)
+* [Grafici a cascata in Power BI](power-bi-visualization-waterfall-charts.md)
 
-[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
