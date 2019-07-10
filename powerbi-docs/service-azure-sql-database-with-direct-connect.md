@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448355"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468145"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Database SQL di Azure con DirectQuery
 
@@ -26,11 +26,11 @@ Con DirectQuery, le query vengono inviate nuovamente al database SQL di Azure du
 
 **Note:**
 
-* Specificare il nome completo del server durante la connessione (vedere di seguito per altri dettagli).
-* Verificare che le regole del firewall per il database siano impostate su "[Consenti l'accesso a Servizi di Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)"
-* A ogni azione, come la selezione di una colonna o l'aggiunta di un filtro, verrà inviata una query al database.
-* I riquadri vengono aggiornati ogni ora. L'aggiornamento non deve essere pianificato. È possibile regolare questo intervallo nelle impostazioni avanzate al momento della connessione.
-* La funzione Domande e risposte non è disponibile per i set di dati di DirectQuery
+* Specificare il nome completo del server al momento della connessione (vedere di seguito per altri dettagli).
+* Assicurarsi che le regole del firewall per il database siano impostate su "[Consenti l'accesso a Servizi di Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Ogni azione, come la selezione di una colonna o l'aggiunta di un filtro, restituirà una query al database.
+* I riquadri vengono aggiornati ogni ora. L'aggiornamento non deve essere pianificato. È possibile regolare la frequenza di aggiornamento nelle impostazioni avanzate al momento della connessione.
+* La funzione Domande e risposte non è disponibile per i set di dati di DirectQuery.
 * Le modifiche allo schema non vengono selezionate automaticamente.
 
 Queste restrizioni e note possono cambiare dal momento che le esperienze vengono costantemente migliorate. La procedura per la connessione è illustrata di seguito.
@@ -42,9 +42,9 @@ Queste restrizioni e note possono cambiare dal momento che le esperienze vengono
 
 Per connettersi al database SQL di Azure tramite DirectQuery, è necessario usare Power BI Desktop. Questo approccio offre capacità e flessibilità aggiuntive. I report creati con Power BI Desktop potranno successivamente essere pubblicati nel servizio Power BI. Sono disponibili altre informazioni su come connettersi al [database SQL di Azure tramite DirectQuery](desktop-use-directquery.md) in Power BI Desktop.
 
-## <a name="finding-parameter-values"></a>Trovare i valori dei parametri
+## <a name="find-parameter-values"></a>Trovare i valori dei parametri
 
-I nomi completi del server e del database sono disponibili nel portale di Azure.
+È possibile trovare il nome completo del server e il nome del database nel portale di Azure.
 
 ![Nuovo aggiornamento del portale di Azure](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Effettuare una scansione di un codice a barre con un iPhone dall'app Power BI per dispositivi mobili
+title: Effettuare la scansione di un codice a barre dall'app Power BI per dispositivi mobili
 description: Effettuare la scansione di codici a barre nel mondo reale per passare direttamente a informazioni di business intelligence filtrate nell'app per dispositivi mobili di Power BI.
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137333"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559011"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Effettuare una scansione di un codice a barre con un iPhone dall'app Power BI per dispositivi mobili
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Effettuare la scansione di un codice a barre con il dispositivo dall'app Power BI per dispositivi mobili
 Effettuare la scansione di codici a barre nel mondo reale per passare direttamente a informazioni di business intelligence filtrate nell'app per dispositivi mobili di Power BI.
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+Si applica a:
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Telefoni](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android (telefono, tablet) | 
 
 Si supponga che un collega abbia [contrassegnato un campo di codice a barre in un report di Power BI Desktop](../../desktop-mobile-barcodes.md) e abbia condiviso il report con l'utente. 
 
-Quando si effettua la scansione del codice a barre di un prodotto con lo scanner nell'app di Power BI su iPhone, viene visualizzato il report o l'elenco di report con tale codice a barre. È possibile aprire il report su iPhone, filtrato in modo da visualizzare il codice a barre specifico.
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+Quando si effettua la scansione del codice a barre di un prodotto con lo scanner nell'app Power BI del dispositivo, viene visualizzato il report o l'elenco di report con tale codice a barre. È possibile aprire il report filtrato in base a tale codice a barre.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Effettuare la scansione di un codice a barre con lo scanner di Power BI
 1. Nell'app per dispositivi mobili di Power BI aprire il menu di navigazione principale ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) in alto a sinistra. 
@@ -34,10 +41,10 @@ Quando si effettua la scansione del codice a barre di un prodotto con lo scanner
 4. Posizionare lo scanner in corrispondenza del codice a barre su un prodotto. 
    
     Viene visualizzato un elenco di report associati al codice a barre.
-5. Toccare il nome del report per aprirlo su iPhone, filtrato automaticamente in modo da visualizzare il codice a barre.
+5. Toccare il nome del report per aprirlo nel dispositivo, filtrato automaticamente in base a tale codice a barre.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrare in base ad altri codici a barre con un report aperto
-Quando si visualizza un report filtrato in base a un codice a barre su iPhone, è possibile filtrare lo stesso report in base a un codice a barre diverso.
+Quando si visualizza sul dispositivo un report filtrato in base a un codice a barre, può essere necessario filtrare lo stesso report in base a un codice a barre diverso.
 
 * Se l'icona del codice a barre ha un filtro ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), il filtro è attivo e il report è già filtrato in base a un codice a barre. 
 * Se l'icona non contiene alcun filtro ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), il filtro non è attivo e il report non è filtrato in base ad alcun codice a barre. 

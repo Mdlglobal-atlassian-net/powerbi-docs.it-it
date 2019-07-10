@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: a6718ed8f582150ad8f13d638308700f9004a354
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67038903"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67558983"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,15 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="june-2019"></a>Giugno 2019
+
+### <a name="barcode-scanning-is-now-available-in-android"></a>La scansione del codice a barre è ora disponibile in Android
+È ora possibile usare l'app Power BI con Android (telefono e tablet) per effettuare la scansione di codici a barre stampati su prodotti o scaffali del punto vendita e visualizzare i report di Power BI correlati filtrati in base al valore ottenuto con la scansione. Altre informazioni su come [filtrare i dati con i codici a barre](mobile-apps-scan-barcode-iphone.md).
+
+### <a name="supporting-pbix-reports-hosted-in-pbi-rs-over-adfs-configuration-ios-android"></a>Supporto di report PBIX ospitati in una configurazione PBI-RS su file system distribuito di Azure (iOS, Android)
+
+I report di Power BI (PBIX) ospitati in una configurazione PBI-RS su file system distribuito di Azure sono ora accessibili anche dall'app Power BI per dispositivi mobili.
 
 ## <a name="may-2019"></a>Maggio 2019
 

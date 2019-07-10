@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2018
-ms.openlocfilehash: ae56a27393ba476828ff87d7f458815318ea79c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9673217cfd7c5af70bdd293e8d5df51e5e7dee07
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770361"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559073"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 
@@ -25,7 +25,7 @@ Informazioni su come configurare l'ambiente per supportare l'autenticazione OAut
 È possibile usare OAuth per connettersi al Server di report di Power BI e a Reporting Services e visualizzare report per dispositivi mobili o indicatori KPI. Per consentire questo tipo di autenticazione, Windows Server 2016 offre alcuni miglioramenti per il ruolo di Proxy applicazione Web.
 
    > [!NOTE]
-   > Visualizzazione di report di Power BI ospitati nel Server di Report di Power BI tramite WAP per eseguire l'autenticazione è attualmente supportata solo nelle app per iOS. App per Android non è ufficialmente supportata in questo momento.
+   > La visualizzazione dei report di Power BI ospitati nel Server di report di Power BI che usano WAP per l'autenticazione è ora supportata per le app iOS e Android.
 
 ## <a name="requirements"></a>Requisiti
 
@@ -81,7 +81,7 @@ Per altre informazioni, vedere [Modificare un file di configurazione di Reportin
 
 ### <a name="create-an-application-group"></a>Creare un gruppo di applicazioni
 
-All'interno della schermata di gestione di ADFS, è consigliabile creare un gruppo di applicazioni per Reporting Services, che includerà informazioni per le app Power BI per dispositivi mobili.
+All'interno della schermata di gestione di AD FS è necessario creare un gruppo di applicazioni per Reporting Services, che includerà informazioni per le app Power BI per dispositivi mobili.
 
 È possibile creare il gruppo di applicazioni con i passaggi seguenti.
 
@@ -113,12 +113,12 @@ All'interno della schermata di gestione di ADFS, è consigliabile creare un grup
    ![AD FS - Aggiunta guidata gruppo di applicazioni 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
 7. Fare clic su **Avanti**.
 
-8. Fornire l'URL del server di report. Questo è l'URL esterno che raggiungerà il Proxy di applicazione Web. Deve essere nel formato seguente.
+8. Fornire l'URL del server di report. Si tratta dell'URL esterno che raggiungerà il proxy applicazione Web. Deve essere nel formato seguente.
 
    > [!NOTE]
    > L'URL rispetta la distinzione tra maiuscole e minuscole.
 
-   *url del server di report; https://&lt > / reports*
+   *https://<URL server di report>/reports*
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
 9. Fare clic su **Avanti**.
@@ -239,7 +239,7 @@ Dopo aver selezionato **Accedi**, verranno visualizzati gli elementi dal server 
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 
-### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-please-verify-server-configuration"></a>Viene visualizzato l'errore Non è stato possibile connettersi al server SSRS. Verificare la configurazione server.
+### <a name="you-receive-the-error-failed-to-login-to-ssrs-server-verify-server-configuration"></a>Viene visualizzato l'errore Non è stato possibile connettersi al server SSRS. Verificare la configurazione del server.
 
 ![](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 

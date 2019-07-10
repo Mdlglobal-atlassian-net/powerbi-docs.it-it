@@ -1,21 +1,21 @@
 ---
-title: Usare le forme mappa in Power BI Desktop (anteprima)
-description: Creare confronti relativi alle aree usando le forme mappa in Power BI Desktop
+title: Usare forme mappa in Power BI Desktop (anteprima)
+description: Creare confronti relativi con aree usando forme mappa in Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 2e0fc8ae6a6d2b01121ffb1c52c29652af21f21e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839197"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533131"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
@@ -108,11 +108,12 @@ Per questa versione di anteprima di **forme mappa** è necessario tenere conto d
 * L'oggetto visivo **Forme mappa** traccia un massimo di 1000 punti dati.
 
 ## <a name="region-keys"></a>Chiavi area
+
 Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **forme mappa**.
 
 ### <a name="australia-states"></a>Australia: Stati
 
-| `id` | `abbr` | `iso` | `name` | `postal` |
+| id | abbr | iso | nome | postale |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia occidentale |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -125,7 +126,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="austria-states"></a>Austria: Stati
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -139,7 +140,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="brazil-states"></a>Brasile: Stati
 
-| `id` |
+| id |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -175,7 +176,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="canada-provinces"></a>Canada: Province
 
-| `id` | `iso` | `name` | `postal` |
+| id | iso | nome | postale |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territori del Nord-Ovest |NT |
@@ -193,9 +194,9 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="france-regions"></a>Francia: Regioni
 
-| `id` | `name` | `name-en` |
+| id | nome | nome-it |
 | --- | --- | --- |
-| Alsazia |Alsace |Alsazia |
+| Alsace |Alsace |Alsazia |
 | Rhone Alpes |Rhône-Alpes |Rodano-Alpi |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provenza-Alpi-Costa Azzurra |
 | Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
@@ -220,7 +221,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="germany-states"></a>Germania: Stati
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlino |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -241,7 +242,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="ireland-counties"></a>Irlanda: Contee
 
-| `id` |
+| id |
 | --- |
 | Wicklow |
 | Wexford |
@@ -272,7 +273,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="italy-regions"></a>Italia: Regioni
 
-| `id` | `iso` | `name` | `name-en` | `postal` |
+| id | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle d'Aosta |VD |
@@ -297,7 +298,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="mexico-states"></a>Messico: Stati
 
-| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
+| id | abbreviazione | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -334,7 +335,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="netherlands-provinces"></a>Paesi Bassi: Province
 
-| `id` | `iso` | `name` | `name-en` |
+| id | iso | nome | nome-it |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -351,7 +352,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="uk-countries"></a>Regno Unito: Paesi
 
-| `id` | `iso` | `name` |
+| id | iso | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galles |
 | gb-sct |GB-SCT |Scozia |
@@ -360,7 +361,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="usa-states"></a>USA: Stati
 
-| `id` | `name` | `postal` |
+| id | nome | postale |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -415,6 +416,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | us-wa |Washington |WA |
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Oggetto visivo matrice in Power BI](desktop-matrix-visual.md)
 
-[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Oggetto visivo matrice in Power BI](desktop-matrix-visual.md)
+
+* [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

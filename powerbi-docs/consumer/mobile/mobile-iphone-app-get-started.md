@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137435"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498999"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi iOS
 L'app Microsoft Power BI per iOS in dispositivi iPhone, iPad o iPod Touch offre l'esperienza BI per dispositivi mobili per Power BI, il Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. Tenersi al corrente con i dati più aggiornati sul proprio [Apple Watch](mobile-apple-watch.md).  
@@ -33,7 +33,7 @@ Informazioni sulle [Novità delle app Power BI per dispositivi mobili](mobile-wh
 ## <a name="download-the-app"></a>Scarica l'app
 [Scaricare l'app iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app iOS") dall'App Store di Apple per iPhone, iPad o iPod Touch.
 
-È possibile eseguire l'app Power BI per iOS su iPhone 5 e versioni successive con iOS 10 o versioni successive. È anche possibile eseguirla in un iPad o iPod Touch con iOS 10 o versioni successive. 
+È possibile eseguire l'app Power BI per iOS in qualsiasi dispositivo che esegue iOS 11 o versioni successive. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Iscriversi al servizio Power BI
 Se non si è ancora eseguito l'accesso, andare a [powerbi.com](https://powerbi.microsoft.com/get-started/) e in **Power BI - Cloud collaboration and sharing** (Collaborazione e condivisione nel cloud), selezionare **Prova gratuitamente**.

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144134"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67533176"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -119,7 +119,7 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* Questo codice incorpora un tweet e mantiene nel dashboard dei collegamenti separati per podcast **AFK**, **la pagina di Twitter di @GuyInACube** , **Segui**, **#analytics**, **risposta**, **retweet** e **mi piace**.  Selezionando il riquadro si raggiunge il podcast su Twitter.
+* Questo codice incorpora un tweet e mantiene, come collegamenti separati nel dashboard, collegamenti per il podcast **AFK**, per la **\@pagina Twitter di GuyInACube** e per **Segui**, **#analytics**, **risposta**, **retweet** e **Mi piace**.  Selezionando il riquadro si raggiunge il podcast su Twitter.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">

@@ -8,43 +8,52 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e2d3bec59078577e2b4d4595c0925753b2cbb53a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608090"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532497"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Modificare la visualizzazione di una pagina del report
-I report vengono visualizzati su dispositivi diversi con diverse dimensioni dello schermo e le proporzioni.  Modificare il modo in cui viene visualizzata una pagina di report per soddisfare le esigenze.    
 
-![Consente di visualizzare report nell'area di disegno](media/end-user-report-view/power-bi-report.png)
+Le persone visualizzano i report su molti dispositivi diversi con dimensioni dello schermo e proporzioni diverse. Modificare il modo in cui viene visualizzata una pagina del report in base alle proprie esigenze.
+
+![Screenshot di come viene visualizzato un report nel canvas.](media/end-user-report-view/power-bi-report.png)
 
 ## <a name="explore-the-view-menu"></a>Esplorare il menu Visualizza
-Le opzioni nel menu Visualizza offrono flessibilità per visualizzare le pagine del report nel server di dimensioni e si sceglie di larghezza.
 
-- Si supponga che si sta visualizzando un report in un dispositivo di piccole dimensioni ed è difficile visualizzare i titoli e legende.  Selezionare **View** > **dimensioni effettive** per aumentare le dimensioni della pagina del report. Usare le barre di scorrimento per spostarsi all'interno del report. 
-
-    ![report visualizzato nell'area di disegno con due barre di scorrimento](media/end-user-report-view/power-bi-actual-size-new.png)
+![Screenshot delle opzioni del menu a discesa Visualizza.](media/end-user-report-view/power-bi-view-menu.png)
 
 
-- In alternativa è possibile regolare il report per la larghezza dello schermo selezionando **adatta in larghezza**. Ciò potrebbe richiedere ancora l'utilizzo di una barra di scorrimento verticale.
+Le opzioni del menu **Visualizza** offrono la flessibilità necessaria per visualizzare le pagine del report in base alle dimensioni e alla larghezza scelte:
 
-  ![report viene visualizzata con l'intera area di disegno larghezza](media/end-user-report-view/power-bi-fit-to-width-new.png)
+- Si supponga di visualizzare un report in un dispositivo di piccole dimensioni e che la lettura di titoli e legende risulti difficile.  Selezionare **Visualizza** > **Dimensioni effettive** per aumentare le dimensioni della pagina del report. Usare le barre di scorrimento per spostarsi all'interno del report.
 
-- Se si preferisce non tutte le barre di scorrimento, ma si desidera usare al meglio le dimensioni dello schermo.  Selezionare **adatta alla pagina**.
+    ![Screenshot di un report impostato su Dimensioni effettive con due barre di scorrimento evidenziate.](media/end-user-report-view/power-bi-actual-size-new.png)
 
-   ![Consente di visualizzare report senza barre di scorrimento](media/end-user-report-view/power-bi-fit-to-width.png)
+- Un'altra opzione consiste nell'adattare il report alla larghezza dello schermo selezionando **Adatta in larghezza**. Poiché viene adattata solo la larghezza e non l'altezza, può essere comunque necessario usare la barra di scorrimento verticale.
 
-   
-- L'opzione finale **a schermo intero**, consente di visualizzare la pagina del report senza le intestazioni e nelle barre dei menu. Schermo intero potrebbe essere una buona scelta per schermi di piccole dimensioni in cui i dettagli sono difficili da vedere.  Schermo intero può essere anche una scelta ottimale quando la proiezione di pagine del report su schermi di grandi dimensioni agli utenti di visualizzare ma non interagisce.  
+  ![Screenshot di un report impostato su Adatta in larghezza con la barra di scorrimento verticale evidenziata.](media/end-user-report-view/power-bi-fit-to-width-new.png)
 
-    ![report visualizzato a schermo intero](media/end-user-report-view/power-bi-full-screen.png)
+- Se si preferisce non visualizzare le barre di scorrimento, ma si vuole usare al meglio le dimensioni del proprio schermo, selezionare **Adatta alla pagina**.
 
-Quando si esce da report, non vengono salvate le impostazioni di visualizzazione, ma ripristino i valori predefiniti. Se è importante per l'utente per salvare queste impostazioni, usare [segnalibri](end-user-bookmarks.md). 
+   ![Screenshot di un report impostato su Adatta alla pagina.](media/end-user-report-view/power-bi-fit-to-width.png)
+
+- **A colori a contrasto elevato** consente inoltre la scelta tra quattro opzioni: Contrasto elevato n. 1, Contrasto elevato n. 2, Nero a contrasto elevato e Bianco a contrasto elevato. Si tratta di una funzionalità di accessibilità che è possibile usare per consentire alle persone con problemi di vista di vedere meglio i report:
+
+    ![Screenshot di un report impostato su Contrasto elevato n. 1.](media/end-user-report-view/power-bi-high-contrast-1.png)![Screenshot di un report impostato su Contrasto elevato n. 2.](media/end-user-report-view/power-bi-high-contrast-2.png)
+    ![Screenshot di un report impostato su Nero a contrasto elevato.](media/end-user-report-view/power-bi-high-contrast-black.png)![Screenshot di un report impostato su Bianco a contrasto elevato.](media/end-user-report-view/power-bi-high-contrast-white.png)
+
+- L'ultima opzione, **Schermo intero**, consente di visualizzare la pagina del report senza barre dei menu e intestazioni. Lo schermo intero può essere una buona scelta per schermi di piccole dimensioni in cui i dettagli sono difficili da vedere.  Lo schermo intero può essere una buona scelta anche per la proiezione delle pagine del report su schermi di grandi dimensioni quando le persone devono semplicemente vedere le pagine, ma non interagire con esse.  
+
+    ![Report visualizzato a schermo intero](media/end-user-report-view/power-bi-full-screen.png)
+
+Quando si esce dal report, le impostazioni del menu **Visualizza** non vengono salvate, ma vengono ripristinate quelle predefinite. Se è importante salvare queste impostazioni, usare i [segnalibri](end-user-bookmarks.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Creare report per Cortana](../service-cortana-answer-cards.md)
+
+* [Presentazione del riquadro Filtri del report](end-user-report-filter.md)

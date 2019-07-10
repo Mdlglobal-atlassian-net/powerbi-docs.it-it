@@ -1,16 +1,37 @@
+---
+title: "Creare un'area di lavoro: Power BI"
+description: Come creare un'area di lavoro - includi
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534652"
+---
 1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Creare un'area di lavoro per le app**. 
    
-     ![Creare un'area di lavoro per le app](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Crea area di lavoro per le app](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    Questa sarà la posizione in cui inserire il contenuto su cui collaborare assieme ai colleghi.
+    Qui si inserirà il contenuto su cui si lavora insieme ai colleghi.
 
-2. Assegnare un nome all'area di lavoro. Se il corrispondente **ID area di lavoro** non è disponibile, modificarlo in modo da ottenere un ID univoco.
+2. Nel banner **Verrà creata un'area di lavoro aggiornata** fare clic su **Ripristina versione classica**. 
+
+    ![Opzione dell'area di lavoro Ripristina versione classica](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. Assegnare un nome all'area di lavoro. Se il corrispondente **ID area di lavoro** non è disponibile, modificarlo in modo da ottenere un ID univoco.
    
-     Questo sarà anche il nome dell'app.
+     L'app avrà lo stesso nome.
    
      ![Denominare l'area di lavoro](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. Ci sono alcune opzioni da impostare. Se si sceglie **Pubblica**, chiunque nell'organizzazione potrà visualizzare il contenuto dell'area di lavoro. **Privata**, d'altra parte, significa che solo i membri dell'area di lavoro potranno visualizzarne il contenuto.
+3. Ci sono alcune opzioni da impostare. Se si sceglie **Pubblica**, chiunque nell'organizzazione potrà visualizzare il contenuto dell'area di lavoro. **Privata** significa che solo i membri dell'area di lavoro possono visualizzarne il contenuto.
    
      ![Scegliere l'impostazione Privata o Pubblica](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    

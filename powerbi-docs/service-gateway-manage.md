@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469773"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559052"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Gestire un gateway locale di Power BI
 
@@ -31,6 +31,8 @@ Se si è appena installato un gateway, è consigliabile per prima cosa [aggiunge
 
 Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti specifici. Un gateway può essere usato per una singola origine dati o più origini dati. Questo esempio illustra l'aggiunta di un'origine dati SQL Server, ma i passaggi per altre origini dati sono simili.
 
+> [!NOTE]
+> Gli amministratori dei gateway possono ora creare più origini dati connesse alla stessa origine, ognuna con una credenziale diversa e aggiungere utenti a ognuna di queste origini dati in base al livello di accesso.
 
 ### <a name="add-a-data-source"></a>Aggiungere un'origine dati
 
@@ -53,7 +55,12 @@ Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti spe
 
 1. Per SQL Server, scegliere il **Metodo di autenticazione** **Windows** oppure **Di base** (autenticazione SQL).  Se si sceglie **Di base**, immettere le credenziali per l'origine dati.
 
-1. In **Impostazioni avanzate** facoltativamente, configurare il [Livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
+1. Se l'origine dati non è attualmente disponibile oppure è lenta, selezionare **Ignora test della connessione**. In caso contrario, la creazione dell'origine dati potrebbe non riuscire.
+
+    > [!NOTE]
+    > L'opzione per ignorare il test della connessione non è supportata per Analysis Services.
+
+1. Facoltativamente, in **Impostazioni avanzate** configurare il [Livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
 
     ![Impostazioni avanzate](media/service-gateway-manage/advanced-settings.png)
 
@@ -74,7 +81,7 @@ Per rimuovere un'origine dati, passare all'origine dati e selezionare **Rimuovi*
 
 ## <a name="manage-users-and-administrators"></a>Gestire utenti e amministratori
 
-Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso alla specifica origine dati (non all'intero gateway) a utenti e gruppi di sicurezza. L'elenco di utenti di un'origine dati controlla soltanto chi è autorizzato a pubblicare report che includono dati provenienti da tale origine. I proprietari di report possono creare dashboard, pacchetti di contenuto e app e condividerli con altri utenti.
+Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso all'origine dati specifica (non all'intero gateway) a utenti e gruppi di sicurezza abilitati per la posta elettronica. L'elenco di utenti di un'origine dati controlla soltanto chi è autorizzato a pubblicare report che includono dati provenienti da tale origine. I proprietari di report possono creare dashboard, pacchetti di contenuto e app e condividerli con altri utenti.
 
 È anche possibile concedere a utenti e gruppi di sicurezza l'accesso amministrativo al gateway.
 
@@ -91,21 +98,21 @@ Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso alla spec
 
 4. Selezionare **Aggiungi**. Il membro aggiunto compare nella casella.
 
-    ![Aggiungere l'utente](media/service-gateway-manage/add-user.png)
+    ![Aggiungere un utente](media/service-gateway-manage/add-user.png)
 
 Non sono richieste altre operazioni. Non dimenticare che è necessario aggiungere utenti a ogni origine dati a cui si vuole concedere l'accesso. L'elenco di utenti è diverso per ogni origine dati, di conseguenza è necessario aggiungere gli utenti a ogni origine dati separatamente.
 
 
 ### <a name="remove-users-from-a-data-source"></a>Rimuovere utenti da un'origine dati
 
-Nella scheda **Utenti** dell'origine dati è possibile rimuovere gli utenti o i gruppi di sicurezza che possono usare l'origine dati.
+Nella scheda **Utenti** dell'origine dati è possibile rimuovere gli utenti o i gruppi di sicurezza abilitati per la posta elettronica che usano l'origine dati.
 
 ![Rimuovi utente](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>Aggiungere e rimuovere amministratori
 
-Nella scheda **Amministratori** del gateway è possibile aggiungere e rimuovere gli utenti o i gruppi di sicurezza che possono gestire il gateway.
+Nella scheda **Amministratori** del gateway è possibile aggiungere e rimuovere gli utenti o i gruppi di sicurezza abilitati per la posta elettronica che possono gestire il gateway.
 
 ![Scheda Amministratori](media/service-gateway-manage/administrators-tab.png)
 
