@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 31c1cd7a8455232fdaa3bb3d391fb93e87ad5062
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e0b2036192ace4404816f5ba64ad07569949452e
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61404397"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596596"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Esercitazione: Richiamare un modello di Machine Learning Studio in Power BI (anteprima)
 
@@ -62,7 +62,7 @@ Accedere al servizio Power BI con le credenziali utente per cui si è ottenuto l
 
 Questo passaggio presuppone che si abbiano a disposizione i dati a cui si vuole assegnare un punteggio con il modello di Azure Machine Learning in formato CSV.  Se è stato usato l'**esperimento relativo alla stima del prezzo di un'automobile** per creare il modello in Machine Learning Studio, il set di dati è condiviso tramite il collegamento seguente:
 
-* [Modello di esempio di Azure Learning Studio](https://raw.githubusercontent.com/santoshc1/PowerBI‑AI‑samples/master/Tutorial\_MLStudio\_model\_integration/Automobile%20price%20data%20\_Raw\_.csv)
+* [Modello di esempio di Azure Learning Studio](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>Creare un flusso di dati
 

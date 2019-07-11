@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d73d2ea5e21196d4856d2906805e6dec1f7e60b7
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468352"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596628"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Aggiornare i dati da un database di SQL Server locale
 
@@ -35,7 +35,7 @@ In questa esercitazione viene completata la procedura seguente:
 
 - Se non è già stato fatto in precedenza, registrarsi per ottenere una [versione di prova gratuita di Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 - [Installare Power BI Desktop](https://powerbi.microsoft.com/desktop/) in un computer locale.
-- [Installare SQL Server](/sql/database-engine/install-windows/install-sql-server) in un computer locale e ripristinare il [database di esempio da un backup]((https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak)). Per altre informazioni su AdventureWorks, vedere [Configurazione e installazione di AdventureWorks](/sql/samples/adventureworks-install-configure).
+- [Installare SQL Server](/sql/database-engine/install-windows/install-sql-server) in un computer locale e ripristinare il [database di esempio da un backup](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). Per altre informazioni su AdventureWorks, vedere [Configurazione e installazione di AdventureWorks](/sql/samples/adventureworks-install-configure).
 - [Installare un gateway dati locale](service-gateway-install.md) nello stesso computer locale (nell'ambiente di produzione si usa in genere un computer diverso).
 
 > [!NOTE]
