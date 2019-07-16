@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 17a8e1c9e0d46a56d6b6ff3e46c0fda6da8ffe12
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816655"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567836"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Usare set di dati in aree di lavoro diverse (anteprima)
 
@@ -23,13 +23,13 @@ Business intelligence è un'attività di collaborazione. È importante definire 
 
 ![Selezionare un set di dati condiviso](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-In Power BI è più semplice per gli autori di set di dati certificare o promuovere i set di dati in modo che possano essere individuati da altri utenti. Gli autori di report possono quindi trovare set di dati di qualità e ufficiali da usare ovunque in Power BI. I proprietari dei set di dati possono controllare chi può accedere ai dati usando l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Per gli amministratori tenant è disponibile una nuova impostazione tenant per [controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md).
+In Power BI gli autori di set di dati possono *certificare* o *promuovere* i set di dati in modo che possano essere individuati da altri utenti. In questo modo, gli autori di report sanno quali sono i set di dati di qualità elevata e ufficiali e possono usarli ovunque creino report in Power BI. I proprietari dei set di dati possono controllare chi può accedere ai dati usando l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Per gli amministratori tenant è disponibile una nuova impostazione tenant per [controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Condivisione di set di dati e nuova esperienza delle aree di lavoro
 
 La compilazione di report basati su set di dati in aree di lavoro diverse e la copia di report in aree di lavoro diverse sono operazioni strettamente correlate alla [nuova esperienza delle aree di lavoro](service-create-the-new-workspaces.md):
 
-- Quando nel servizio si apre il catalogo di set di dati da una nuova esperienza delle aree di lavoro, il catalogo di set di dati elenca i set di dati disponibili nell'area di lavoro personale e nella nuova esperienza delle aree di lavoro. 
+- Quando nel servizio si apre il catalogo di set di dati da una nuova esperienza delle aree di lavoro, il catalogo di set di dati mostra i set di dati disponibili nell'area di lavoro personale e nella nuova esperienza delle aree di lavoro. 
 - Quando si apre il catalogo di set di dati da un'area di lavoro classica, vengono visualizzati solo i set di dati di quell'area di lavoro specifica, non quelli di altre aree di lavoro.
 - In Desktop è possibile pubblicare report Live Connect in diverse aree di lavoro, purché i relativi set di dati si trovino nelle aree di lavoro della nuova esperienza.
 - Quando si copiano i report in aree di lavoro diverse, l'area di lavoro di destinazione deve essere un'area della nuova esperienza.

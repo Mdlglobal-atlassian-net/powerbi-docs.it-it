@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 06/27/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 992524d3467ebe9bb130b3c61476301ab2bc563c
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409179"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67568133"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -50,7 +50,7 @@ Nel portale sono presenti nove schede. Il resto di questo articolo fornisce info
 
 ## <a name="usage-metrics"></a>Metriche di utilizzo
 
-La scheda **Metriche di utilizzo** consente di monitorare l'utilizzo di Power BI per l'organizzazione. Consente inoltre di vedere quali sono gli utenti e i gruppi più attivi all'interno di Power BI per l'organizzazione.
+La scheda **Metriche di utilizzo** consente di monitorare l'utilizzo di Power BI per l'organizzazione. Consente inoltre di vedere quali sono gli utenti e i gruppi più attivi all'interno di Power BI per l'organizzazione. 
 
 > [!NOTE]
 > Al primo accesso al dashboard o quando si accede di nuovo al dashboard dopo un lungo periodo di inutilizzo, è probabile che venga visualizzata una schermata di caricamento mentre viene caricato il dashboard.
@@ -82,6 +82,40 @@ Di seguito è riportata la suddivisione dei dati visualizzati in ogni riquadro:
 La seconda sezione mostra lo stesso tipo di informazioni, ma in base ai gruppi. In questo modo è possibile stabilire quali sono i gruppi più attivi all'interno dell'organizzazione e quale tipo di contenuto usano.
 
 Con queste informazioni è possibile ottenere informazioni dettagliate reali in merito alla modalità d'uso di Power BI all'interno dell'organizzazione ed è possibile individuare gli utenti e i gruppi particolarmente attivi nell'organizzazione.
+
+## <a name="control-usage-metrics"></a>Controllare le metriche di utilizzo
+
+I report sulle metriche di utilizzo sono una funzionalità che l'amministratore di Power BI o Office 365 può attivare o disattivare. Gli amministratori hanno un controllo granulare sugli utenti che hanno accesso alle metriche di utilizzo. Questa funzionalità è **attiva** per impostazione predefinita per tutti gli utenti dell'organizzazione.
+
+Gli amministratori possono anche stabilire se gli autori di contenuti possono vedere i dati per utente nelle metriche di utilizzo. 
+
+Vedere [Monitorare le metriche di utilizzo per dashboard e report di Power BI](service-usage-metrics.md) per informazioni dettagliate su tali report.
+
+### <a name="usage-metrics-for-content-creators"></a>Metriche di utilizzo per i creatori di contenuti
+
+1. Nel portale di amministrazione selezionare **Impostazioni tenant** > **Metriche di utilizzo per i creatori di contenuti**.
+
+    ![Metriche di utilizzo nelle impostazioni del tenant nel portale di amministrazione](media/service-admin-portal/power-bi-admin-usage-metrics.png)
+
+1. Abilitare (o disabilitare) le metriche di utilizzo > **Applica**.
+
+    ![Metriche di utilizzo abilitate](media/service-usage-metrics/power-bi-tenant-settings-updated.png)
+
+
+### <a name="per-user-data-in-usage-metrics"></a>Dati per utente nelle metriche di utilizzo
+
+Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del consumer di contenuto sono incluse nel report delle metriche. Se non si desidera includere queste informazioni per alcuni o tutti gli utenti, disabilitare la funzionalità per specifici gruppi di sicurezza o per un'intera organizzazione. Le informazioni sull'account vengono quindi visualizzate nel report come *Senza nome*.
+
+![Dati di utilizzo per utente](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
+
+### <a name="delete-all-existing-usage-metrics-content"></a>Eliminare tutto il contenuto delle metriche di utilizzo esistente
+
+Quando si disabilitano le metriche di utilizzo per l'intera organizzazione, gli amministratori possono anche scegliere una o entrambe le opzioni seguenti:
+
+- **Elimina tutto il contenuto della metrica di utilizzo esistente** per eliminare tutti i report esistenti e i riquadri di dashboard creati usando report sulle metriche di utilizzo e set di dati. Questa opzione rimuove completamente l'accesso ai dati delle metriche di utilizzo per tutti gli utenti dell'organizzazione che le usano. 
+- **Elimina tutti i dati per utente nel contenuto della metrica di utilizzo corrente**. Questa opzione rimuove completamente l'accesso ai dati per utente per tutti gli utenti dell'organizzazione che potrebbe già usarli. 
+
+Occorre prestare attenzione, perché l'eliminazione del contenuto delle metriche di utilizzo e per utente esistente è irreversibile.
 
 ## <a name="users"></a>Utenti
 
