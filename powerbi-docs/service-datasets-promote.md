@@ -7,21 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 366f80ccb1db2d226a80528da610b15082c44ed6
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461374"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567349"
 ---
 # <a name="promote-your-dataset-preview"></a>Promuovere il set di dati (anteprima)
 
 Gli autori di report di Power BI possono ora accedere a set di dati diversi. È quindi necessario che le aziende li indirizzino a set di dati affidabili e di alta qualità. Power BI offre due modi per *approvare* i set di dati:
 
-- **Promozione**: I proprietari di set di dati possono promuovere i propri set di dati quando i set di dati sono pronti per un uso a livello capillare. La promozione supporta la distribuzione collaborativa di set di dati all'interno di organizzazioni. Questo articolo descrive la promozione del set di dati.
+- **Promozione**: I proprietari di set di dati possono promuovere i propri set di dati quando i set di dati sono pronti per un uso a livello capillare. Qualsiasi membro dell'area di lavoro con autorizzazioni di scrittura può promuovere un set di dati. Non sono previste restrizioni per chi può promuovere un set di dati. La promozione supporta la distribuzione collaborativa di set di dati all'interno di organizzazioni. Questo articolo descrive la promozione del set di dati.
 - **Certificazione**: È possibile richiedere la certificazione di un set di dati promosso. Un gruppo selezionato di utenti definito nell'impostazione dell'amministratore tenant **Certificazione del set di dati** decide quali set di dati certificare. Visualizzare [Certificare set di dati (anteprima)](service-datasets-certify.md) per informazioni dettagliate.
 
 ## <a name="promote-a-dataset"></a>Promuovere un set di dati

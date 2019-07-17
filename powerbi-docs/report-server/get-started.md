@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59913e5d17d15dad8729cd5c96582d09f708c30a
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187472"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791850"
 ---
 # <a name="what-is-power-bi-report-server"></a>Che cos'è Server di report di Power BI?
 
@@ -24,7 +24,7 @@ Server di report di Power BI è un server di report locale con un portale Web in
 ![Portale Web del server di report di Power BI](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Confronto di Server di report di Power BI 
-Server di report di Power BI è simile a SQL Server Reporting Services e al servizio Power BI online, ma per aspetti diversi. Analogamente al servizio Power BI, Power BI Report Server ospita i report di Power BI (. Con estensione PBIX) i file di Excel e i report impaginati (. RDL). Ad esempio Reporting Services, il Server di Report di Power BI è in locale. Le funzionalità di Power BI Report Server sono un superset di Reporting Services: tutto ciò che è possibile eseguire in Reporting Services, è possibile eseguire con il Server di Report di Power BI, insieme al supporto per i report di Power BI. Per informazioni dettagliate, vedere [Confronto tra Server di report di Power BI e il servizio Power BI](compare-report-server-service.md).
+Server di report di Power BI è simile a SQL Server Reporting Services e al servizio Power BI online, ma per aspetti diversi. Come il servizio Power BI, Server di report di Power BI ospita report di Power BI (PBIX) e file di Excel e report impaginati (RDL). Come Reporting Services, Server di report di Power BI è in locale. Le funzionalità di Server di report di Power BI sono un soprainsieme di Reporting Services. In Server di report di Power BI si può fare tutto ciò che si fa in Reporting Services, con l'aggiunta del supporto per i report di Power BI. Per informazioni dettagliate, vedere [Confronto tra Server di report di Power BI e il servizio Power BI](compare-report-server-service.md).
 
 ## <a name="licensing-power-bi-report-server"></a>Licenze di Server di report di Power BI
 Il Server di report di Power BI è disponibile tramite due licenze diverse: [Power BI Premium](../service-premium-what-is.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licenza di Power BI Premium è possibile creare una distribuzione ibrida cloud e locale.  
@@ -48,14 +48,14 @@ I report di Power BI (PBIX) si creano con la versione di Power BI Desktop ottimi
 
 Un report di Power BI consente di visualizzare un modello di dati da più punti di vista, grazie a visualizzazioni che rappresentano conclusioni e approfondimenti diversi ottenuti da tale modello di dati.  Un report può includere una sola visualizzazione oppure contenere pagine con più visualizzazioni. In base al proprio ruolo, è possibile leggere ed esplorare i report oppure crearli per altri utenti.
 
-Conoscenza [installazione di Microsoft Power BI Desktop](install-powerbi-desktop.md).
+Informazioni sull'[installazione di Microsoft Power BI Desktop](install-powerbi-desktop.md).
 
 ## <a name="paginated-reports"></a>Report impaginati
 I report impaginati (. RDL) sono report in formato documento con visualizzazioni, in cui tabelle si espandono orizzontalmente e verticalmente per mostrare tutti i dati, continuando da una pagina all'altra in base alle esigenze. Sono ideali per generare documenti con layout fisso e ad alta risoluzione grafica ottimizzati per la stampa, ad esempio file in formato PDF e Word. 
 
 ![Report impaginati in Server di report di Power BI](media/get-started/paginated-reports.png)
 
-È possibile creare usando i report impaginati [Generatore Report](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o progettazione Report in [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
+È possibile creare report impaginati con [Generatore report](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o Progettazione report in [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
 ## <a name="reporting-services-mobile-reports"></a>Report per dispositivi mobili di Reporting Services
 I report per dispositivi mobili si connettono ai dati locali e hanno un layout reattivo che si adatta a diversi dispositivi e ai diversi modi per impugnarli. Si creano con Microsoft SQL Server Mobile Report Publisher.

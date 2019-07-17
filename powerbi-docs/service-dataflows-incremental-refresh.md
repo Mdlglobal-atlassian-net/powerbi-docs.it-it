@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mblythe
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1bc9e0d5de909c5d0859b6d31185cf0cb27bda23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7e9d8779480eb7a00dacfc9fc52fc81987629e7b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136664"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791920"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Uso dell'aggiornamento incrementale con i flussi di dati Power BI
 
@@ -33,7 +33,7 @@ L'uso dell'aggiornamento incrementale per i flussi di dati Power BI richiede che
 
 Un flusso di dati può contenere molte entità. L'aggiornamento incrementale è configurato a livello di entità, in modo da consentire a un flusso di dati di contenere sia le entità completamente aggiornate che quelle aggiornate in modo incrementale.
 
-Per configurare un'entità aggiornata in modo incrementale, iniziare configurando normalmente l'entità. Per altre informazioni sulla configurazione di un flusso di dati, vedere [di preparazione dei dati self-servizi in Power BI](service-dataflows-overview.md).
+Per configurare un'entità aggiornata in modo incrementale, iniziare configurando normalmente l'entità. Per altre informazioni sulla configurazione di un flusso di dati, vedere [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md).
 
 Dopo aver creato e salvato il flusso di dati, selezionare l'icona dell'**aggiornamento incrementale** nella visualizzazione entità, come illustrato nell'immagine seguente:
 
@@ -157,7 +157,7 @@ Questo articolo ha illustrato l'aggiornamento incrementale per i flussi di dati.
 * [Preparazione dei dati self-service con flussi di dati](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
 * [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
+* [Risorse per sviluppatori per i flussi di dati Power BI](service-dataflows-developer-resources.md)
 
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:
 * [Panoramica delle query in Power BI Desktop](desktop-query-overview.md)

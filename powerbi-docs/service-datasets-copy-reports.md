@@ -7,21 +7,19 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 507af4de9d57d2d54fe3e28bca8b1aff7da5cf30
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461466"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567408"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiare report da altre aree di lavoro (anteprima)
 
-Di seguito viene descritto come copiare un report da un'area di lavoro e salvarlo in un'area di lavoro diversa. È poi possibile modificare tale report, aggiungendo o eliminando oggetti visivi e altri elementi.
-
-Quando si individua un report interessante, che si trovi in un'area di lavoro oppure in un'app, è possibile crearne una copia e modificarlo in base alle esigenze. Non è necessario creare il modello di dati, perché è già stato creato. È molto più semplice modificare un report esistente anziché crearlo da zero.
+Quando si individua un report interessante, che si trovi in un'area di lavoro oppure in un'app, è possibile crearne una copia e salvarlo in un'area di lavoro diversa. È poi possibile modificare tale report, aggiungendo o eliminando oggetti visivi e altri elementi. Non è necessario creare il modello di dati, perché è già stato creato. È molto più semplice modificare un report esistente anziché crearlo da zero. Non è tuttavia possibile pubblicare la copia del report in un'app dalla nuova area di lavoro. Vedere l'elenco delle altre [considerazioni e limitazioni](service-datasets-across-workspaces.md#considerations-and-limitations) nell'articolo "Usare set di dati in aree di lavoro diverse".
 
 ## <a name="save-a-copy-of-a-report"></a>Salvare una copia di un report
 
@@ -61,6 +59,21 @@ Quando un report si trova in un'area di lavoro, si potrebbe volere sapere su qua
 1. Nella finestra di dialogo **Contenuto correlato** vengono visualizzati tutti gli elementi correlati. In questo elenco il set di dati è uguale a tutti gli altri. Non è possibile stabilire se si trova in un'area di lavoro diversa. Si tratta di un problema noto.
  
     ![Finestra di dialogo Contenuto correlato](media/service-datasets-copy-reports/power-bi-dataset-related.png)
+
+## <a name="delete-a-report-and-its-shared-dataset"></a>Eliminare un report e il relativo set di dati condiviso
+
+Si potrebbe decidere che il report e il set di dati condiviso associato nell'area di lavoro non sono più necessari.
+
+1. Eliminare il report. Nell'elenco dei report nell'area di lavoro selezionare l'icona **Elimina**.
+
+    ![Icona per eliminare il report](media/service-datasets-across-workspaces/power-bi-datasets-delete-report.png)
+
+2. Nell'elenco dei set di dati si può notare che l'icona **Elimina** non è disponibile per i set di dati condivisi. Aggiornare la pagina o passare a una pagina diversa e tornare. Il set di dati non sarà più incluso nell'elenco. In caso contrario, selezionare **Visualizza elementi correlati**. Potrebbe essere correlato a un'altra tabella nell'area di lavoro.
+
+    ![Icona Visualizza elementi correlati](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+
+    > [!NOTE]
+    > L'eliminazione del set di dati condiviso in questa area di lavoro non elimina il set di dati, ma elimina solo il riferimento a esso.
 
 
 ## <a name="next-steps"></a>Passaggi successivi

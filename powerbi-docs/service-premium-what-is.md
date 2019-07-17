@@ -8,28 +8,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/22/2019
+ms.date: 07/06/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c2f867140c5a717c80d39db75b3a54e40bd1e34
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721060"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596545"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
 Power BI Premium offre risorse dedicate e avanzate per l'esecuzione del servizio Power BI per l'organizzazione. ad esempio:
 
-- Maggiore scalabilità e prestazioni migliori
-- Flessibilità di acquisire le licenze in base alla capacità
-- Unificazione della business intelligence self-service e aziendale
-- Estensione della business intelligence locale con Server di report di Power BI
-- Supporto della residenza dei dati per area (Multi-Geo)
-- Condivisione dei dati con tutti gli utenti senza la necessità di acquistare una licenza per utente
+> [!div class="checklist"]
+> * Maggiore scalabilità e prestazioni migliori
+> * Flessibilità di acquisire le licenze in base alla capacità
+> * Unificazione della business intelligence self-service e aziendale
+> * Estensione della business intelligence locale con Server di report di Power BI
+> * Supporto della residenza dei dati per area (Multi-Geo)
+> * Condivisione dei dati con tutti gli utenti senza la necessità di acquistare una licenza per utente
 
-Questo articolo non offre informazioni dettagliate su ogni funzione di Power BI Premium ma ne offre una panoramica. Dove necessario, sono forniti collegamenti a ulteriori articoli con informazioni più dettagliate.
+Questo articolo presenta le funzionalità principali di Power BI Premium. Dove necessario, sono forniti collegamenti a ulteriori articoli con informazioni più dettagliate.
 
 ## <a name="subscriptions-and-licensing"></a>Sottoscrizioni e licenze
 
@@ -38,7 +39,7 @@ Power BI Premium è una sottoscrizione di Office 365 a livello di tenant disponi
 - SKU **EM** (EM1-EM3) per l'incorporamento, richiedono un impegno annuale, con fatturazione mensile. Le SKU EM1 ed EM2 sono disponibili solo attraverso piani di contratti multilicenza. L'acquisto diretto non è possibile.
 - SKU **P** (P1-P3) per l'incorporamento e funzionalità Enterprise, richiedono un impegno mensile o annuale, con fatturazione mensile e includono una licenza per l'installazione di Server di report di Power BI in locale.
 
-Un approccio alternativo consiste nell'acquistare una sottoscrizione **Azure Power BI Embedded** con una singola famiglia di SKU **A** (A1-A6) per l'incorporamento e a solo scopo di test delle capacità. Sebbene tutte le SKU offrano memorie centrali virtuali per creare le capacità, le SKU EM sono limitati a un incorporamento di scalabilità minore. Le SKU EM1, EM2, A1 e A2 con meno di quattro memorie centrali virtuali non vengono eseguite in un'infrastruttura dedicata.
+Un approccio alternativo consiste nell'acquistare una sottoscrizione **Azure Power BI Embedded** con una singola famiglia di SKU **A** (A1-A6) per l'incorporamento e a solo scopo di test delle capacità. Sebbene tutte le SKU offrano memorie centrali virtuali per creare le capacità, le SKU EM sono limitati a un incorporamento di scalabilità minore. Le SKU EM1, EM2, A1 e A2 con meno di quattro vCore non vengono eseguite in un'infrastruttura dedicata.
 
 Sebbene in questo articolo siano descritte le SKU P, molte delle informazioni fornite si applicano anche alle SKU A. A differenza delle SKU della sottoscrizione Premium, le SKU di Azure non richiedono un impegno per un periodo di tempo e vengono fatturare su base oraria. Offrono la massima elasticità permettendo aumenti, riduzioni, sospensioni, ripristini ed eliminazioni. 
 
@@ -50,9 +51,9 @@ Le sottoscrizioni di Power BI Premium vengono acquistate dagli amministratori ne
 
 ## <a name="dedicated-capacities"></a>Capacità dedicate
 
-Con Power BI Premium si ottengono *capacità dedicate*. A differenza di una capacità condivisa in cui i carichi di lavoro vengono eseguiti in risorse di elaborazione condivise con altri clienti, una capacità dedicata è destinata all'uso esclusivo da parte di un'organizzazione. La capacità dedicata è isolata con risorse di elaborazione dedicate che offrono prestazioni affidabili e coerenti per il contenuto ospitato. 
+Con Power BI Premium si ottengono *capacità dedicate*. A differenza di una capacità condivisa in cui i carichi di lavoro vengono eseguiti in risorse di elaborazione condivise con altri clienti, una capacità dedicata è destinata all'uso esclusivo da parte di un'organizzazione. La capacità dedicata è isolata con risorse di calcolo dedicate che offrono prestazioni affidabili e coerenti per il contenuto ospitato. 
 
-Le aree di lavoro si trovano all'interno delle capacità. Ogni utente di Power BI ha un'area di lavoro chiamata **Area di lavoro personale**. È possibile creare aree di lavoro aggiuntive per la collaborazione e la distribuzione. Queste aree di lavoro sono chiamate **Aree di lavoro per le app**. Per impostazione predefinita, le aree di lavoro, incluse le aree di lavoro personale, vengono create nella capacità condivisa. Quando si hanno le capacità Premium, le aree di lavoro personali e le aree di lavoro per le app possono essere assegnate alle capacità Premium.
+Le aree di lavoro si trovano all'interno delle capacità. Ogni utente di Power BI ha un'area di lavoro chiamata **Area di lavoro personale**. Si possono creare nuove aree di lavoro dette **aree di lavoro per le app** per agevolare la collaborazione. Per impostazione predefinita, le aree di lavoro, incluse le aree di lavoro personale, vengono create nella capacità condivisa. Quando si hanno le capacità Premium, le aree di lavoro personali e le aree di lavoro per le app possono essere assegnate alle capacità Premium.
 
 ### <a name="capacity-nodes"></a>Nodi delle capacità
 
@@ -60,7 +61,7 @@ Come descritto nella sezione [Sottoscrizioni e licenze](#subscriptions-and-licen
 
 L'elaborazione avviene tramite un determinato numero di vCore, suddiviso equamente tra back-end e front-end.
 
-I **vCore di back-end** sono responsabili della funzionalità di Power BI relativa alla memoria centrale che include elaborazione delle query, gestione della cache, esecuzione dei servizi R, aggiornamento dei modelli, elaborazione del linguaggio naturale (Domande e risposte) e rendering lato server di report e immagini. Ai vCore di back-end viene assegnata una quantità fissa di memoria che viene usata principalmente per ospitare i modelli, chiamati anche set di dati attivi.
+I **vCore di back-end** sono responsabili della funzionalità di Power BI relativa alla memoria centrale che include elaborazione delle query, gestione della cache, esecuzione dei servizi R, aggiornamento dei modelli, elaborazione del linguaggio naturale (Domande e risposte) e rendering lato server di report e immagini. Ai vCore di back-end viene assegnata una quantità fissa di memoria che viene usata principalmente per ospitare i modelli, noti anche come set di dati attivi.
 
 I **vCore di front-end** sono responsabili della gestione dei documenti relativi a servizio Web, dashboard e report, della gestione dei diritti di accesso, della pianificazione, delle API, dei caricamenti e dei download e in genere di tutto ciò che riguarda l'esperienza utente.
 
@@ -100,9 +101,9 @@ I modelli di importazione devono essere caricati completamente nella memoria per
 
 Per questa ragione, i modelli di importazione vengono caricati e rimossi dalla memoria in base all'utilizzo. Un modello di importazione viene caricato quando vengono eseguite query (operazione interattiva) e non è ancora stato caricato in memoria o quando deve essere aggiornato (operazione in background).
 
-L'eliminazione di un modello dalla memoria è chiamata *rimozione*. È un'operazione che Power BI può eseguire rapidamente a seconda delle dimensioni dei modelli. Se non si verifica alcun problema di memoria per la capacità, i modelli vengono semplicemente caricati e mantenuti in memoria. Tuttavia, quando la memoria non è sufficiente per caricare un modello, il servizio Power BI dovrà innanzitutto liberare memoria. Il servizio libera la memoria individuando i modelli inattivi cercando i modelli che non sono stati usati negli ultimi tre minuti \[[1](#endnote-1)\] e quindi rimuovendoli. Se non sono presenti modelli inattivi da rimuovere, il servizio Power BI effettua una ricerca per rimuovere i modelli caricati per le operazioni in background. Un'ultima possibilità, dopo 30 secondi di tentativi non riusciti \[[1](#endnote-1)\], consiste nel bloccare l'operazione interattiva. In questo caso, l'utente del report riceve una notifica di errore con il suggerimento di riprovare più tardi. In alcuni casi è possibile che i modelli vengano scaricati dalla memoria a causa di operazioni del servizio.
+L'eliminazione di un modello dalla memoria è chiamata *rimozione*. È un'operazione che Power BI può eseguire rapidamente a seconda delle dimensioni dei modelli. Se non si verifica alcun problema di memoria per la capacità, i modelli vengono semplicemente caricati e mantenuti in memoria. Tuttavia, quando la memoria non è sufficiente per caricare un modello, il servizio Power BI dovrà innanzitutto liberare memoria. Il servizio libera la memoria individuando i modelli diventati inattivi, cercando i modelli che non sono stati usati negli ultimi tre minuti \[[1](#endnote-1)\] e quindi rimuovendoli. Se non sono presenti modelli inattivi da rimuovere, il servizio Power BI effettua una ricerca per rimuovere i modelli caricati per le operazioni in background. Un'ultima possibilità, dopo 30 secondi di tentativi non riusciti \[[1](#endnote-1)\], consiste nel bloccare l'operazione interattiva. In questo caso, l'utente del report riceve una notifica di errore con il suggerimento di riprovare più tardi. In alcuni casi è possibile che i modelli vengano scaricati dalla memoria a causa di operazioni del servizio.
 
-È importante sottolineare che la rimozione dei set di dati è un comportamento normale e previsto. Questo comportamento mira a ottimizzare l'utilizzo della memoria tramite il caricamento e lo scaricamento dei modelli con dimensioni combinate che possono superare la memoria disponibile. Si tratta di un comportamento legato alla progettazione e completamente trasparente agli utenti dei report. Percentuali di rimozione elevate non indicano necessariamente che la capacità non include risorse sufficienti. Potrebbero tuttavia rappresentare un problema nel caso in cui abbiano effetti negativi sulla velocità di risposta alle query o agli aggiornamenti.
+È importante sottolineare che la rimozione dei set di dati è un comportamento normale e previsto. Questo comportamento mira a ottimizzare l'utilizzo della memoria tramite il caricamento e lo scaricamento dei modelli con dimensioni combinate che possono superare la memoria disponibile. Si tratta di un comportamento previsto dalla progettazione e completamente trasparente per gli utenti dei report. Percentuali di rimozione elevate non indicano necessariamente che la capacità non include risorse sufficienti. Potrebbero tuttavia rappresentare un problema nel caso in cui abbiano effetti negativi sulla velocità di risposta alle query o agli aggiornamenti.
 
 Gli aggiornamenti dei modelli di importazione comportano sempre un utilizzo intensivo della memoria poiché i modelli devono essere caricati in memoria. Per l'elaborazione è necessaria memoria aggiuntiva. Un aggiornamento completo può usare circa il doppio della quantità di memoria necessaria per il modello. Ciò garantisce la possibilità di eseguire query sul modello anche durante l'elaborazione (poiché le query vengono inviate al modello esistente) fino a quando non viene completato l'aggiornamento e non sono disponibili i nuovi dati del modello. L'aggiornamento incrementale richiederà meno memoria e potrà essere completato più rapidamente riducendo sostanzialmente l'utilizzo elevato delle risorse della capacità. Anche gli aggiornamenti possono richiedere un utilizzo elevato della CPU per i modelli, in particolari quelli con trasformazioni Power Query complesse o tabelle/colonne calcolate complesse o basate su tabelle di grandi dimensioni.
 
@@ -175,7 +176,7 @@ La tabella seguente descrive gli SKU consigliati in base alle dimensioni del fil
    |P2    | < 6 GB        |
    |P3, P4, P5    | fino a 10 GB   |
 
-Lo SKU A4 di Power BI Embedded equivale allo SKU P1, A5 = P2 e A6 = P3. Tenere presente che la pubblicazione di modelli di grandi dimensioni in SKU A ed EM può restituire errori non specifici dell'errore di limitazione delle dimensioni del modello nella capacità condivisa. È probabile che gli errori di aggiornamento per i modelli di grandi dimensioni in SKU A ed EM indichino il timeout. 
+Lo SKU A4 di Power BI Embedded equivale allo SKU P1, A5 = P2 e A6 = P3. La pubblicazione di modelli di grandi dimensioni in SKU A ed EM può restituire errori non specifici dell'errore di limitazione delle dimensioni del modello nella capacità condivisa. È probabile che gli errori di aggiornamento per i modelli di grandi dimensioni in SKU A ed EM indichino il timeout. 
 
 I file con estensione pbix rappresentano i dati in *stato di compressione molto elevata*. I dati si espanderanno più volte una volta caricati nella memoria e si espanderanno ulteriormente durante l'aggiornamento dei dati.
 

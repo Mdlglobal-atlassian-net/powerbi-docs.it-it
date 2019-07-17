@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418699"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68272000"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -174,7 +174,7 @@ Una query per un seti di dati di importazione è costituita da una raccolta di q
 La tabella seguente descrive i dati di Power BI in base al tipo di query in uso. Una **X** indica la presenza di dati di Power BI quando si usa il tipo di query associata.
 
 
-|  |Importa  |DirectQuery  |Live Connect  |
+|  |Import  |DirectQuery  |Live Connect  |
 |---------|---------|---------|---------|
 |Schema     |     X    |    X     |         |
 |Riga di dati     |    X     |         |         |
@@ -225,7 +225,7 @@ Per le origini dati basate su cloud, il ruolo di spostamento dei dati consente d
         - Se il set di dati è impostato per l'aggiornamento, le credenziali vengono archiviate crittografate nel database SQL di Azure usato per lo spostamento dati. La chiave di crittografia viene archiviata nel computer che esegue il gateway nell'infrastruttura del cliente.
         - Se il set di dati non è impostato per l'aggiornamento, non sono disponibili credenziali archiviate per le origini dati
 
-1. Dati
+1. Data
 
     a. Analysis Services in locale e DirectQuery: non viene archiviato nulla nel servizio Power BI.
 
@@ -302,7 +302,7 @@ I dispositivi non volatile sono dispositivi dotati di memoria che rende persiste
     c. Push dei dati: nessuno (non applicabile)
 
     d. ETL: nessuno (non vengono archiviati dati nel nodo di calcolo né in modo diverso da quello illustrato nella sezione relativa ai **dati inattivi**)
-4. Dati
+4. Data
 
     Alcuni artefatti di dati possono essere archiviati sul disco dei nodi di calcolo per un periodo di tempo limitato.
 
@@ -355,8 +355,8 @@ La tabella seguente elenca il supporto dell'autenticazione basata su certificati
 
 | **Supporto dell'autenticazione basata su certificati** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (accesso al servizio) | Supportato | Supportato | Non supportato |
-| **File system distribuito di Azure SSRS** (connessione al server SSRS) | Non supportato | Supportato | Non supportato |
+| **Power BI** (accesso al servizio) | Supportato | Supportato | Non supportate |
+| **File system distribuito di Azure SSRS** (connessione al server SSRS) | Non supportate | Supportato | Non supportate |
 
 Le app Power BI per dispositivi mobili comunicano attivamente con il servizio Power BI. Per raccogliere statistiche sull'utilizzo delle app per dispositivi mobili e dati simili per la trasmissione a servizi di monitoraggio dell'utilizzo e dell'attività, viene usata la telemetria. Con i dati di telemetria non vengono inviati dati personali dell'utente.
 
@@ -382,7 +382,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 * **Credenziali di Power BI e credenziali di dominio:** Gli utenti accedono a Power BI usando un indirizzo di posta elettronica. Quando un utente prova a connettersi a una risorsa dati, Power BI usa l'indirizzo di posta elettronica di accesso a Power BI come credenziale. Per le risorse connesse a un dominio (locale o basato sul cloud), l'indirizzo di posta elettronica di accesso viene associato a un _nome dell'entità utente_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) dal servizio directory per determinare se sono presenti credenziali sufficienti per consentire l'accesso. Per le organizzazioni che accedono a Power BI tramite indirizzi di posta elettronica di lavoro (gli stessi usati per accedere alle risorse di lavoro, ad esempio _david@contoso.com_ ), il mapping avviene facilmente. Per le organizzazioni che non usano indirizzi di posta elettronica di lavoro (ad esempio _david@contoso.onmicrosoft.com_ ), per consentire l'accesso alle risorse locali con le credenziali di accesso di Power BI è necessario definire il mapping della directory.
 
-* **SQL Server Analysis Services e Power BI:** per le organizzazioni che usano un'istanza locale di SQL Server Analysis Services, è disponibile il gateway dati locale di Power BI, un **Gateway** descritto nelle sezioni precedenti.  Il gateway dati locale di Power BI è in grado di applicare la sicurezza a livello di ruolo sulle origini dati. Per altre informazioni sulla sicurezza a livello di ruolo, vedere **Autenticazione utente alle origini dati** più indietro in questo documento. È anche possibile leggere un articolo approfondito su [Power BI Gateway](service-gateway-manage.md).
+* **SQL Server Analysis Services e Power BI:** per le organizzazioni che usano un'istanza locale di SQL Server Analysis Services, è disponibile il gateway dati locale di Power BI, un **Gateway** descritto nelle sezioni precedenti.  Il gateway dati locale di Power BI è in grado di applicare la sicurezza a livello di ruolo sulle origini dati. Per altre informazioni sulla sicurezza a livello di ruolo, vedere **Autenticazione utente alle origini dati** più indietro in questo documento. Per altre informazioni sui gateway, vedere [gateway dati locale](service-gateway-onprem.md).
 
   Le organizzazioni possono anche usare Kerberos per **l'accesso Single Sign-On** (SSO) e connettersi in modo semplice da Power BI a origini dati locali, ad esempio SQL Server, SAP HANA e Teradata. Per altre informazioni e per i requisiti di configurazione specifici, vedere [ **Usare Kerberos per SSO da Power BI alle origini dati locali**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
@@ -422,7 +422,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 **Quali porte vengono usate dal gateway dati locale e dal gateway personale? Ci sono nomi di dominio che devono essere consentiti a scopo di connettività?**
 
-* La risposta dettagliata a questa domanda è disponibile nella pagina corrispondente al collegamento seguente: [Power BI Gateway](service-gateway-manage.md)
+* La risposta dettagliata a questa domanda è disponibile nella pagina corrispondente al collegamento seguente: [Porte gateway](/data-integration/gateway/service-gateway-communication#ports)
 
 **Quando si usa il gateway dati locale, come si usano le chiavi di ripristino e dove sono archiviate? Ci sono indicazioni per una gestione sicura delle credenziali?**
 
@@ -438,7 +438,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
   - **AMQP 1.0 – TCP + TLS**: questo protocollo richiede che le porte 443, 5671-5672 e 9350-9354 siano aperte per le comunicazioni in uscita. Questo protocollo è preferibile, perché ha un overhead di comunicazione più basso.
 
-  - **HTTPS - WebSockets over HTTPS + TLS**: questo protocollo usa solo la porta 443. L'avvio di WebSocket viene attivato da un unico messaggio HTTP CONNECT. Dopo che il canale è stato stabilito, la comunicazione è essenzialmente TCP + TLS. È possibile imporre al gateway di usare questo protocollo modificando un'impostazione descritta nell'[articolo Gateway dati locali](service-gateway-manage.md).
+  - **HTTPS - WebSockets over HTTPS + TLS**: questo protocollo usa solo la porta 443. L'avvio di WebSocket viene attivato da un unico messaggio HTTP CONNECT. Dopo che il canale è stato stabilito, la comunicazione è essenzialmente TCP + TLS. È possibile forzare il gateway per usare questo protocollo modificando un'impostazione descritta nel [articolo sul gateway da sito locale](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
 
 **Qual è il ruolo della Rete di distribuzione dei contenuti di Azure in Power BI?**
 
@@ -470,7 +470,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
 * Le connessioni stabilite per i clienti con sottoscrizioni di Power BI Premium implementano un processo di autorizzazione [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) usando Azure Active Directory (AD) per abilitare il controllo di accesso e autorizzazione. Power BI gestisce le connessioni provenienti dai sottoscrittori di Power BI Premium verso le risorse di Power BI Premium esattamente come gestisce qualsiasi altro utente di Azure AD.
 
-## <a name="conclusion"></a>Conclusioni
+## <a name="conclusion"></a>Conclusione
 
 L'architettura del servizio Power BI è basata su due cluster: il cluster Web front-end (WFE) e il cluster back-end. Il cluster WFE è responsabile della connessione e dell'autenticazione iniziale al servizio Power BI e, dopo l'autenticazione, il cluster Back End gestisce tutte le successive interazioni con l'utente. Power BI usa Azure Active Directory (AAD) per archiviare e gestire le identità degli utenti e gestisce l'archiviazione di dati e metadati usando rispettivamente l'archivio BLOB di Azure e il database SQL di Azure.
 
@@ -486,10 +486,9 @@ Per altre informazioni su Power BI, vedere le risorse seguenti.
 
 - [Gruppi in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Introduzione a Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Panoramica dell'API REST di Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Riferimento all'API di Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises data gateway (Gateway dati locale)](service-gateway-manage.md)
+- [On-premises data gateway (Gateway dati locale)](service-gateway-onprem.md)
 - [Power BI ed ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Cloud nazionali di Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)

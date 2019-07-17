@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461328"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567330"
 ---
 # <a name="certify-datasets-preview"></a>Certificare set di dati (anteprima)
 
@@ -23,8 +23,8 @@ L'organizzazione può certificare set di dati con origine autorevole per informa
 
 Gli utenti di Power BI possono ora accedere a set di dati diversi. È quindi necessario che le aziende indirizzino gli utenti nella scelta di set di dati affidabili e di alta qualità. Power BI offre due modi per *approvare* i set di dati:
 
-- **Promozione**: I proprietari di set di dati possono promuovere i propri set di dati quando i set di dati sono pronti per un uso a livello capillare. Vedere [Promuovere il set di dati](service-datasets-promote.md) per informazioni dettagliate. 
-- **Certificazione**: I proprietari di set di dati possono richiedere la certificazione di un set di dati promosso. Un gruppo selezionato di utenti definito nell'impostazione dell'amministratore tenant **Certificazione del set di dati** decide quali set di dati certificare.
+- **Promozione**: I proprietari dei set di dati e altri utenti in un'area di lavoro possono promuovere i rispettivi set di dati quando sono pronti per l'utilizzo diffuso. Vedere [Promuovere il set di dati](service-datasets-promote.md) per informazioni dettagliate. 
+- **Certificazione**: I proprietari di set di dati possono richiedere la certificazione di un set di dati promosso. Un gruppo selezionato di utenti definito nell'impostazione dell'amministratore tenant **Certificazione del set di dati** decide quali set di dati certificare. Il nome della persona che certifica un set di dati viene visualizzato in una descrizione comando durante l'esperienza di individuazione di set di dati. Per visualizzarlo è sufficiente passare il mouse sull'etichetta **Certificato**.
 
 ## <a name="certify-a-dataset"></a>Certificare un set di dati
 

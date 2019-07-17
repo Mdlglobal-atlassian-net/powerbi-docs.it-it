@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99769b78060756c557223dd366da550ad3e11056
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461282"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567445"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Creare report basati su set di dati di aree di lavoro diverse (anteprima)
 
@@ -51,7 +51,7 @@ In questo modo, i membri dell'area di lavoro possono indicare quali report e das
 
 ## <a name="find-an-endorsed-dataset"></a>Trovare un set di dati approvato
 
-Esistono due tipi diversi di set di dati approvati. I proprietari di set di dati possono *promuovere* un set di dati consigliato. Gli amministratori tenant Power BI possono designare esperti nell'organizzazione per *certificare* i set di dati che tutti possono usare. Sia i set di dati promossi sia quelli certificati visualizzano *notifiche* che vengono visualizzate durante la ricerca di un set di dati e nell'elenco dei set di dati in un'area di lavoro. 
+Esistono due tipi diversi di set di dati approvati. I proprietari di set di dati possono *promuovere* un set di dati consigliato. Gli amministratori tenant di Power BI possono anche designare esperti nell'organizzazione per *certificare* i set di dati che tutti possono usare. Sia i set di dati promossi sia quelli certificati visualizzano *notifiche* che vengono visualizzate durante la ricerca di un set di dati e nell'elenco dei set di dati in un'area di lavoro. Il nome della persona che certifica un set di dati viene visualizzato in una descrizione comando durante l'esperienza di individuazione di set di dati. Per visualizzarlo è sufficiente passare il mouse sull'etichetta **Certificato**.
 
 - Nel servizio Power BI: **Recupera dati** > **Set di dati pubblicati**.
 - In Power BI Desktop: **Recupera dati** > **Set di dati Power BI**.
