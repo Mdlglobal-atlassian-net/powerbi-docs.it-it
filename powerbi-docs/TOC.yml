@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: Gateway dati locale (modalità personale)
           href: service-gateway-personal-mode.md
-        - name: Gestire utenti e amministratori
-          href: service-gateway-manage-admins.md
         - name: Gestire le origini dati
           items:
             - name: Gestire le origini dati
