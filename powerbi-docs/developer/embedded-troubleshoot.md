@@ -110,7 +110,7 @@ Per risolvere questo problema è necessario tagliare "oauth2/authorize/" alla fi
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Autenticazione non riuscita con AADSTS70002 o AADSTS50053
 
-** _(AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con un ID utente o una password non corretti)_ **
+** _(AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con un ID utente o una password non corretti)_**
 
 Se si usa Power BI Embedded con l'autenticazione diretta di Azure AD e si ricevono messaggi in fase di accesso, ad esempio ***error:unauthorized_client, error_description:AADSTS70002: Errore durante la convalida delle credenziali. AADSTS50053: Si è tentato di accedere troppe volte con una password o un account non corretto***, significa che l'autenticazione diretta non è più in uso a partire dal 14 giugno 2018 per impostazione predefinita.
 
@@ -162,7 +162,7 @@ Per verificare qual è la causa, seguire questa procedura.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: The grant requires admin permission (La concessione richiede l'autorizzazione di amministratore)
 
-**_Sintomi:_ **<br>
+**_Sintomi:_**<br>
 Quando un utente non amministratore tenta di accedere a un'applicazione per la prima volta e di concedere l'autorizzazione, si verifica uno degli errori seguenti:
 
 * Per accedere alle risorse aziendali, ConsentTest necessita di un'autorizzazione che può essere concessa solo da un amministratore. Prima di usarla, è necessario chiedere a un amministratore di concedere l'autorizzazione a questa app.
@@ -172,10 +172,10 @@ Quando un utente non amministratore tenta di accedere a un'applicazione per la p
 
 Un utente amministratore può accedere e concedere l'autorizzazione correttamente.
 
-**_Causa principale:_ **<br>
+**_Causa principale:_**<br>
 Il consenso dell'utente è disabilitato per il tenant.
 
-**_Sono possibili diverse correzioni:_ **
+**_Sono possibili diverse correzioni:_**
 
 *Abilitare il consenso dell'utente per l'intero tenant (tutti gli utenti, tutte le applicazioni)*
 
