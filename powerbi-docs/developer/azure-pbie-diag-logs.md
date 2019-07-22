@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 695d1f219b3438f07125447db04aad3ba971683a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385384"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289860"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registrazione diagnostica per Power BI Embedded in Azure
 
@@ -22,7 +22,6 @@ Con i [log di diagnostica per le risorse di Azure](https://docs.microsoft.com/az
 L'uso della diagnostica può essere di aiuto in vari scenari, ad esempio:
 
 * Rilevamento delle query con esecuzione prolungata o problematiche.
-* Rilevamento degli errori quando si sta per raggiungere il limite della capacità.
 * Derivazione di [metriche della capacità](https://powerbi.microsoft.com/blog/power-bi-developer-community-april-update/).
 * Monitoraggio dell'utilizzo di set di dati specifici.
 
@@ -127,9 +126,6 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 | JobID | 0 | ID processo per l'individuazione dello stato. |
 | ObjectID | 464 | ID oggetto |
 | ObjectType | 802012 | ObjectType |
-| ObjectName | SalesLT Customer | ObjectName |
-| ObjectPath | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527.Model.SalesLT Customer | Percorso dell'oggetto. Elenco delimitato da virgole di elementi padre, a partire dall'elemento padre dell'oggetto. |
-| ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Model</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Riferimento a un oggetto. Codificato in formato XML per tutti gli oggetti padre. L'oggetto è descritto tramite tag. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Ora di fine dell'evento. |
 | Durata | 0 | Quantità di tempo (in millisecondi) richiesta dall'evento. |
 | SessionType | Utente | Tipo di sessione. Indica l'entità che ha causato l'operazione. |
@@ -138,7 +134,6 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 | Severity | 0 | Livello di gravità di un'eccezione. |
 | Success | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
 | Errore | 0 | Numero di errore di un evento specifico. |
-| TextData | SET DC_KIND=\"AUTO\";  SELECT  [SalesLT Customer (464)].[rowguid (606)] AS [SalesLT Customer (464)$rowguid (606)]  FROM [SalesLT Customer (464)]; [Estimated size (volume marshalling bytes): 850 6800] | Dati di tipo testo associati all'evento. |
 | ConnectionID | 3 | ID connessione univoco. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID del set di dati in cui è in esecuzione l'istruzione dell'utente. |
 | SessionID | 3D063F66-A111-48EE-B960-141DEBDA8951 | GUID della sessione. |
@@ -146,8 +141,7 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 | ClientProcessID | null | ID processo dell'applicazione client. |
 | ApplicationName | null | Nome dell'applicazione client che ha creato la connessione al server. |
 | CapacityName | pbi641fb41260f84aa2b778a85891ae2d97 | Nome della risorsa capacità Power BI Embedded. |
-| RequestParameters |  |  |
-| RequestProperties |  |  |
+
 
 ### <a name="allmetrics"></a>AllMetrics
 

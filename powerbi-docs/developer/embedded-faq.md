@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 1bee1b31b5e264ec8cd092a90484fc20866db0b3
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823360"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270964"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
 * Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/).
 
-## <a name="general"></a>Generali
+## <a name="general"></a>Generale
 
 ### <a name="what-is-power-bi-embedded"></a>Che cos'è Power BI Embedded?
 
@@ -95,7 +95,7 @@ Ecco un elenco parziale delle differenze nelle funzionalità.
 
 * Utilizzo del [portale di amministrazione di Power BI](../service-admin-portal.md#power-bi-embedded).
 
-* Download dell'[app metrica](https://review.docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI.
+* Download dell'[app metrica](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI.
 
 * Utilizzo della [registrazione diagnostica di Azure](azure-pbie-diag-logs.md).
 

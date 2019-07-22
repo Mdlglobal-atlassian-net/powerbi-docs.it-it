@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 68e21e14227aff538c56951249edbddc249d68eb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
+ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497984"
+ms.lasthandoff: 07/20/2019
+ms.locfileid: "68362745"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorare le capacità Premium con l'app
 
@@ -41,7 +41,7 @@ L'app viene aggiornata periodicamente con nuove caratteristiche e funzionalità.
 
 Per verificare quando è stato effettuato l'ultimo aggiornamento dell'app Premium Capacity Metrics, fare clic su **Impostazioni** > **Set di dati** > **Power BI Premium Capacity Metrics** > **Cronologia aggiornamenti**. 
 
-![Cronologia aggiornamenti in Impostazioni](media/settings-refresh-history.png)
+![Cronologia aggiornamenti in Impostazioni](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
 Viene visualizzato l'ultimo aggiornamento; in alternativa fare clic su **Cronologia aggiornamenti** per visualizzare gli aggiornamenti pianificati e su richiesta.
 
@@ -109,7 +109,7 @@ Il dashboard include le metriche seguenti:
 
 | Metrica | Descrizione |
 | --- | --- |
-| Dataflows |  Numero totale di flussi di dati in tutte le aree di lavoro delle capacità.|
+| Flussi di dati |  Numero totale di flussi di dati in tutte le aree di lavoro delle capacità.|
 | Refreshes Total | Numero totale di aggiornamenti negli ultimi sette giorni.|  
 | Refreshes Average Duration (Minutes) | Tempo impiegato per completare l'aggiornamento. |
 | Refreshes Average Wait Times (Minutes) | Intervallo tra l'ora pianificata e l'inizio effettivo dell'aggiornamento.|
@@ -220,7 +220,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | Hourly Durations |  Tempo di recupero dati rispetto al tempo di elaborazione e di rendering, suddiviso in bucket di un'ora, indicato nell'ora UTC. |
 |  |  |
 
-### <a name="dataflows"></a>Dataflows
+### <a name="dataflows"></a>Flussi di dati
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
@@ -285,7 +285,7 @@ La scheda **IDs and Info** (ID e informazioni) contiene aree per **Capacities** 
 
 | Sezione del report | Metrica |
 | --- | --- |
-| Dataflows | Nomi dei flussi di dati, nomi di area di lavoro e ID per tutti i flussi di dati. |
+| Flussi di dati | Nomi dei flussi di dati, nomi di area di lavoro e ID per tutti i flussi di dati. |
 |||
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Monitorare la capacità di Power BI Embedded

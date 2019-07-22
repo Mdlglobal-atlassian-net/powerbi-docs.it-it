@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cd2c7acbec9b8d21aeb78cbb159df2a46b12564
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67409776"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342189"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Aggiungere un filtro a un report in Power BI
 
 Questo articolo illustra come aggiungere un filtro di pagina, di visualizzazione, di report o di drill-through a un report in Power BI. Gli esempi di questo articolo si riferiscono al servizio Power BI. I passaggi sono quasi identici in Power BI Desktop.
 
-**Non tutti lo sanno, ma** Power BI include una nuova esperienza di filtro, attualmente in anteprima. Per altre informazioni, vedere [Nuova esperienza di filtro nei report di Power BI](power-bi-report-filter-preview.md).
+**Non tutti lo sanno, ma** Power BI include una nuova esperienza di filtro, attualmente in anteprima. Per altre informazioni, vedere [Nuova esperienza di filtro nei report di Power BI](power-bi-report-filter.md).
 
 ![Nuova esperienza di filtro](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 

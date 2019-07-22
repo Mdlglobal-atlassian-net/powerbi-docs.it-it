@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: 83e3ffbae43d25e89cf52077acaa731cdee9b502
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345492"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270840"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
 
@@ -32,7 +32,7 @@ Per le origini dati seguenti, usare l'opzione [Connessione SQL Server Analysis S
 
 - Set di dati di Power BI Premium
 
-I report impaginati si connettono alle origini dati locali tramite un [gateway di Power BI](service-gateway-getting-started.md). che può essere configurato solo dopo aver pubblicato il report nel servizio Power BI.
+I report impaginati si connettono alle origini dati locali tramite un [gateway di Power BI](service-gateway-onprem.md). che può essere configurato solo dopo aver pubblicato il report nel servizio Power BI.
 
 Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-data.md) per informazioni più dettagliate.
 
