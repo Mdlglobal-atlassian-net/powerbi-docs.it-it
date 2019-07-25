@@ -311,7 +311,7 @@ Di seguito è riportato il [listato di codice completo](#code).
     }
 ```
 
-Anche se nel codice precedente si specifica ** _//Get the first id_** (Ottiene il primo ID), l'operazione corretta da eseguire è quella di cercare il set di dati in base al nome.
+Anche se nel codice precedente si specifica **_//Get the first id_** (Ottiene il primo ID), l'operazione corretta da eseguire è quella di cercare il set di dati in base al nome.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Eseguire il push dei dati in un dashboard di Power BI](walkthrough-push-data.md)  
