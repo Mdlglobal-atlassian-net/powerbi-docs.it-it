@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/02/2019
+ms.date: 06/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 68467894850248d6acb841dc2ed651f595f19b95
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fa1311f93cd6b543d552070b990f1bada551a699
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61363685"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68306999"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop
-Con il **filtro dei dati per l'intervallo numerico**, è possibile applicare qualsiasi filtro a qualsiasi colonna numerica nel modello di dati. Si può decidere di usare il filtro **Tra** su più numeri oppure **Minore o uguale a** o **Maggiore o uguale a** rispetto a un numero. Anche se può sembrare semplice, è un modo molto efficace per filtrare i dati.
+Con il filtro dei dati per l'intervallo numerico è possibile applicare qualsiasi filtro a qualsiasi colonna numerica nel modello di dati. Per filtrare i dati numerici sono disponibili tre opzioni: tra numeri, minore o uguale a un numero oppure maggiore o uguale a un numero. Può sembrare semplice, ma è un ottimo modo per filtrare i dati.
 
 ![Oggetto visivo con filtro dei dati per l'intervallo numerico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="using-the-numeric-range-slicer"></a>Uso del filtro dei dati per l'intervallo numerico
-È possibile usare il filtro dei dati per l'intervallo numerico come qualsiasi altro filtro dei dati. È sufficiente creare un oggetto visivo **filtro dei dati** per il report e quindi selezionare un valore numerico per il valore **Campo**. Nell'immagine seguente è selezionato il campo *LineTotal*.
+## <a name="use-the-numeric-range-slicer"></a>Usare il filtro dei dati per intervalli numerici
+È possibile usare il filtro dei dati per l'intervallo numerico proprio come si userebbe qualsiasi altro filtro dei dati. È sufficiente creare un oggetto visivo **filtro dei dati** per il report e quindi selezionare un valore numerico per il valore **Campo**. Nell'immagine seguente è stato selezionato il campo **LineTotal**.
 
 ![Creare un filtro dei dati per l'intervallo numerico](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
@@ -33,13 +33,13 @@ Selezionare il collegamento freccia giù nell'angolo in alto a destra del **filt
 
 Per l'intervallo numerico è possibile selezionare una delle tre opzioni seguenti:
 
-* Tra
-* Minore o uguale a
-* Maggiore o uguale a
+* **Tra**
+* **Minore o uguale a**
+* **Maggiore o uguale a**
 
-Quando si seleziona **Tra**, viene visualizzato un dispositivo di scorrimento che consente di applicare il filtro ai valori numerici compresi tra i numeri specificati. Oltre a usare la barra del dispositivo di scorrimento, è possibile fare clic nelle due caselle e digitare i valori. Questo risulta utile quando occorre filtrare in base a specifici numeri ma la granularità del dispositivo di scorrimento rende difficile selezionare il numero esatto.
+Quando si seleziona **Tra** dal menu, viene visualizzato un dispositivo di scorrimento. È possibile usare il dispositivo di scorrimento per selezionare i valori numerici compresi tra i numeri. A volte la granularità del dispositivo di scorrimento rende difficile selezionare il numero esatto. È anche possibile usare il dispositivo di scorrimento e selezionare una delle caselle per digitare i valori desiderati. Questa opzione è utile quando si vuole filtrare i dati in base a numeri specifici. 
 
-Nell'immagine seguente la pagina del report è filtrata in base ai valori *LineTotal* compresi tra 2500,00 e 6000,00.
+Nell'immagine seguente la pagina del report filtra i valori **LineTotal** compresi tra 2500,00 e 6000,00.
 
 ![Filtro dei dati per l'intervallo numerico con Tra](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-3-between-range.png)
 
@@ -47,26 +47,25 @@ Quando si seleziona **Minore o uguale a**, il punto di controllo a sinistra (val
 
 ![Filtro dei dati per l'intervallo numerico con Minore di](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-4-less-than.png)
 
-Infine, quando si seleziona **Maggiore o uguale a**, il punto di controllo a destra (valore più alto) della barra del dispositivo di scorrimento scompare ed è possibile modificare solo il valore inferiore, come mostrato nell'immagine seguente. A questo punto, negli oggetti visivi nella pagina del report vengono visualizzati solo gli elementi il cui valore *LineTotal* è superiore o uguale a 4902,99.
+Infine, quando si seleziona **Maggiore o uguale a**, il punto di controllo a destra (valore più alto) della barra del dispositivo di scorrimento scompare. È quindi possibile modificare il valore più basso, come illustrato nell'immagine seguente. A questo punto, negli oggetti visivi della pagina del report vengono visualizzati solo gli elementi il cui valore **LineTotal** è maggiore o uguale a 4902,99.
 
 ![Filtro dei dati per l'intervallo numerico con Maggiore di](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-5-greater-than.png)
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Allineamento ai numeri interi con il filtro dei dati per l'intervallo numerico
 
-Se i dati del campo sottostante sono di tipo **numero intero**, un filtro dei dati di intervallo numerico verrà allineato ai numeri interi. In questo modo il filtro dei dati sarà allineato correttamente ai numeri interi. I campi di tipo **numero decimale** consentono di immettere o selezionare le frazioni di un numero. La formattazione applicata nella casella di testo corrisponde alla formattazione impostata nel campo, anche se è possibile digitare o selezionare numeri più precisi.
+Un filtro dei dati per l'intervallo numerico si allinea a numeri interi se i dati del campo sottostante sono di tipo **Numero intero**. Questa funzionalità consente al filtro dei dati di allinearsi correttamente ai numeri interi. I campi **Numero decimale** consentono di immettere o selezionare le frazioni di un numero. La formattazione impostata nella casella di testo corrisponde a quella impostata nel campo, anche se è possibile digitare o selezionare numeri più precisi.
 
 ## <a name="display-formatting-with-the-date-range-slicer"></a>Visualizzare la formattazione con il filtro dei dati dell'intervallo di date
 
-Quando si usa un filtro dei dati per visualizzare o impostare un intervallo di date, il formato della data viene sempre visualizzato usando **Data breve**, in base alle impostazioni locali del browser o del sistema operativo dell'utente. Questo è il formato di visualizzazione indipendentemente dalle impostazioni del tipo di dati per il modello o i dati sottostanti. 
+Quando si usa un filtro dei dati per visualizzare o impostare un intervallo di date, queste vengono visualizzate nel formato **Data breve**. Il formato della data è determinato dalle impostazioni locali del browser o del sistema operativo dell'utente. Di conseguenza, sarà il formato di visualizzazione indipendentemente dalle impostazioni del tipo di dati per il modello o i dati sottostanti. 
 
-Ad esempio, si può avere un formato di data estesa per il tipo di dati sottostante (ad esempio *gggg, g MMMM aaaa* che formatta una data in altri oggetti visivi o circostanze come *Mercoledì, 14 marzo 2001*), ma la stessa data nel filtro dei dati dell'intervallo di date verrebbe visualizzata come *14/03/2001*.
+È possibile, ad esempio, avere un formato di data estesa per il tipo di dati sottostante. In questo caso, un formato di data quale ad esempio *gggg, MMMM g, aaaa* determinerebbe la formattazione di una data in altri oggetti visivi o in altre circostanze come *Mercoledì, Marzo 14, 2001*. Ma nel filtro dei dati per l'intervallo di date, questa data viene visualizzata come *03/14/2001*.
 
 La visualizzazione del formato **Data breve** nel filtro dei dati assicura che la lunghezza della stringa rimanga coerente e compatta nel filtro. 
-
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Per il **filtro dei dati per l'intervallo numerico** è opportuno tenere presenti queste limitazioni e considerazioni:
 
-* Il **filtro dei dati per l'intervallo numerico** attualmente filtra tutte le righe sottostanti nei dati, non i valori aggregati. Ad esempio, se si usa un filtro *Sales Amount*, viene filtrata ogni transazione basata su *Sales Amount*, non la somma di *Sales Amount* per ogni punto dati di un oggetto visivo.
+* Il **filtro dei dati per l'intervallo numerico** filtra tutte le righe sottostanti nei dati, non i valori aggregati. Si supponga, ad esempio, di usare un campo *Sales Amount* (Importo vendite). Il filtro dei dati filtrerà ogni transazione in base all'importo delle vendite, non alla somma dell'importo delle vendite per ogni punto dati di un oggetto visivo.
 * Attualmente non funziona con le misure.
-* È possibile digitare un qualsiasi numero nelle caselle di testo in un filtro dei dati numerico, anche se non è compreso nell'intervallo di valori nella colonna sottostante. Ciò consente di impostare filtri per dati che possono cambiare in futuro.
+* È possibile digitare un qualsiasi numero nelle caselle di testo in un filtro dei dati numerico, anche se non è compreso nell'intervallo di valori nella colonna sottostante. Questa opzione consente di configurare filtri se si sa che in futuro i dati possono cambiare.

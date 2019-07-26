@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565530"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230290"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -32,78 +32,85 @@ Un report di Power BI è una vista interattiva dei dati con elementi visivi che 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Aprire un report di Power BI nell'app per dispositivi mobili
 A seconda della provenienza, i report di Power BI sono archiviati in posizioni diverse nell'app per dispositivi mobili. Possono trovarsi in App, Condivisi con l'utente corrente, Aree di lavoro (inclusa l'Area di lavoro personale) oppure in un server di report. In alcuni casi si accede attraverso un dashboard correlato per ottenere un report, e talvolta sono elencati.
 
-In elenchi e i menu, si noterà un'icona accanto a un nome di report, consentendo di comprendere che questo elemento è un report. 
+Negli elenchi e nei menu viene visualizzata un'icona accanto al nome del report che indica che l'elemento è un report. 
 
-![report nell'area di lavoro](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+![report nell'area di lavoro personale](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
 
-Sono presenti due icone per i report nelle App Power BI per dispositivi mobili:
+Sono disponibili due icone per i report nelle app Power BI per dispositivi mobili:
 
-* ![Icona del report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che verrà visualizzato con orientamento orizzontale nell'app e avranno lo stesso aspetto come si presenta nel browser.
+* ![Icona del report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che verrà visualizzato con orientamento orizzontale nell'app e apparirà come viene visualizzato nel browser.
 
-* ![Icona di rapporto telefono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un report che include almeno una pagina di report ottimizzato phone, che verrà visualizzata in verticale. 
+* ![icona del report per il telefono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un report che include almeno una pagina del report ottimizzata per il telefono che verrà visualizzata con orientamento verticale. 
 
-Nota: Mantenendo il telefono in orizzontale, si otterranno sempre il layout verticale, anche se la pagina del report dispone di layout del telefono. 
+Nota: se il telefono viene tenuto in orizzontale, verrà sempre visualizzato il layout orizzontale, anche se la pagina del report ha un layout telefono. 
 
-Per visualizzare un report da un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro > **aprire report**.
+Per passare a un report da un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro > **Apri report**.
   
   ![Apri report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   Non tutti i riquadri offrono l'opzione di apertura in un report. Ad esempio, i riquadri creati ponendo una domanda nella casella Domande e risposte non aprono i report quando vengono toccati. 
   
-## <a name="interacting-with-reports"></a>Interagire con i report
-Dopo aver creato un report aperto nell'app, è possibile iniziare a utilizzarlo. Esistono molti aspetti che è possibile eseguire con i report e i relativi dati. Nel piè di pagina report sono disponibili azioni che è possibile eseguire il report e toccando e se si tocca lungo i dati visualizzati nel report è possibile anche suddividere e ripartire i dati.
+## <a name="interacting-with-reports"></a>Interazione con i report
+Dopo aver aperto un report nell'app, è possibile iniziare a usarlo. È possibile eseguire molte operazioni con il report e i relativi dati. Nel piè di pagina del report sono indicate le azioni che è possibile eseguire sul report, mentre toccando per alcuni secondi i dati visualizzati nel report è anche possibile visualizzare i dati in dettaglio.
 
-### <a name="using-tap-and-long-tap"></a>Usando toccare e durata
-Fare clic su TAP uguale a quando il mouse. Pertanto, se si desidera eseguire l'evidenziazione incrociata il report in base a un punto dati, toccare su tale punto dati.
-Toccare un valore di filtro dei dati, rende tale valore selezionato e il resto del report di sezionamento per tale valore. Se si tocca un collegamento, pulsante o un segnalibro verrà attivarlo in base all'azione definito dall'autore.
+### <a name="using-tap-and-long-tap"></a>Uso del tocco e del tocco lungo
+Toccare equivale a fare clic con il mouse. Di conseguenza, per evidenziare il report in base a un punto dati, toccare il punto dati.
+Se si tocca un valore di filtro dei dati, il valore viene selezionato e viene eseguito il sezionamento della parte rimanente del report in base al valore. Se si tocca un collegamento, un pulsante o un segnalibro, l'elemento viene attivato in base all'azione definita dall'autore.
 
-Si sarà probabilmente notato che quando toccano in un oggetto visivo, viene visualizzato un bordo. Nell'angolo superiore destro del bordo, sono i puntini di sospensione (...). Se tocchi su di esso verranno visualizzato un menu con operazioni che possono essere eseguite su tale oggetto visivo.
+Probabilmente si è notato che quando si tocca un oggetto visivo, viene visualizzato un bordo. Nell'angolo superiore destro del bordo sono visualizzati i puntini di sospensione (...). Se si toccano i punti di sospensione, viene visualizzato un menu con le azioni che è possibile eseguire sull'oggetto visivo.
 
-![oggetto visivo del report e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
+![oggetto visivo e menu del report](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-### <a name="tooltip-and-drill-actions"></a>Azioni di Drill e della descrizione comando
+### <a name="tooltip-and-drill-actions"></a>Azioni Descrizione comando e Drill
 
-Quando si prolungata tocca (toccare e tenere premuto) un punto dati, una descrizione comando verrà visualizzata la presentazione di punto dati rappresenta i valori. 
+Durante il tocco lungo (toccare e tenere premuto) su un punto dati, viene visualizzata una descrizione comando con i valori rappresentati dal punto dati. 
 
 ![descrizione comando del report](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-Gli autori di report è possono definire le gerarchie nei dati e le relazioni tra le pagine del report. Gerarchia consente il drill-down, drill backup e il drill-through da un oggetto visivo e un valore di un'altra pagina del report. Pertanto, quando si tocca prolungata su un valore, oltre alla descrizione comandi, le opzioni di drill rilevante verranno visualizzato nel piè di pagina. 
+Se l'autore del report ha configurato la descrizione comando della pagina del report, la descrizione comando predefinita viene sostituita dalla descrizione comando della pagina del report.
 
-![segnalare azioni di drill](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
+![descrizione comando della pagina del report](./media/mobile-reports-in-the-mobile-apps/report-page-tooltip.png)
+
+> [!NOTE]
+> Le descrizioni comando del report sono supportate per i dispositivi con dimensioni maggiori di 640 pixel e un riquadro di visualizzazione di 320. Se il dispositivo è più piccolo, l'app usa le descrizioni comando predefinite.
+
+Gli autori del report possono definire gerarchie nei dati e relazioni tra le pagine del report. La gerarchia consente di eseguire il drill-down, il drill-up e il drill-through di un'altra pagina del report da un oggetto visivo e un valore. Di conseguenza, quando si tocca un valore per alcuni secondi, oltre alla descrizione comando, vengono visualizzate anche le opzioni di drill nel piè di pagina. 
+
+![azioni di drill del report](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo, Power BI consente di passare a un'altra pagina nel report, filtrata in base al valore scelto.  L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. In tal caso, è possibile scegliere la pagina di cui eseguire il drill-through. Il pulsante Indietro consente di tornare alla pagina del report precedente.
 
 Leggere le informazioni su come [aggiungere il drill-through in Power BI Desktop](../../desktop-drillthrough.md).
    
    > [!IMPORTANT]
-   > Nell'app Power BI per dispositivi mobili, drill negli oggetti visivi tabella e matrice è abilitato tramite un solo valore di cella e non da intestazioni di riga e colonna.
+   > Nell'app Power BI per dispositivi mobili il drill negli oggetti visivi di matrici e tabelle viene abilitato solo tramite un valore di cella e non tramite le intestazioni di riga e colonna.
    
    
    
-### <a name="using-the-actions-in-the-report-footer"></a>Usare le azioni nel piè di pagina report
-Il piè di pagina del report sono disponibili azioni che è possibile eseguire nella pagina del report corrente o per l'intero report. Il piè di pagina ha un accesso rapido alle azioni più utili e tutte le azioni sono accessibili i puntini di sospensione (...).
+### <a name="using-the-actions-in-the-report-footer"></a>Uso delle azioni del piè di pagina del report
+Il piè di pagina del report include le azioni che è possibile eseguire nella pagina del report corrente o nell'intero report. Il piè di pagina offre l'accesso rapido alle azioni più utili. Per accedere a tutte le azioni, usare i puntini di sospensione (...).
 
-![piè di pagina report](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
+![piè di pagina del report](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-Le azioni che eseguibili nel piè di pagina sono:
-1) Tra le selezioni di evidenziazione allo stato originale e reimpostare il filtro di report.
-2) Aprire il riquadro di conversazione per visualizzare o aggiungere commenti su questo report.
-3) Aprire il riquadro filtro per visualizzare e modificare il filtro correntemente applicato nel report.
-4) Elencare tutte le pagine di questo report. Se si tocca il nome di pagina verrà caricato e presentare tale pagina.
-Lo spostamento tra pagine del report è possibile scorrendo rapidamente dal bordo dello schermo al centro.
-5) Consente di visualizzare tutte le azioni report.
+Dal piè di pagina è possibile eseguire le azioni seguenti:
+1) Ripristinare lo stato originale del filtro del report e delle evidenziazioni incrociate.
+2) Aprire il riquadro conversazione per visualizzare o aggiungere commenti al report.
+3) Aprire il riquadro filtro per visualizzare e modificare il filtro applicato al report.
+4) Visualizzare un elenco di tutte le pagine del report. Se si tocca il nome di una pagina, la pagina viene caricata e visualizzata.
+Il passaggio da una pagina del report a un'altra può essere eseguito scorrendo dal bordo dello schermo verso il centro.
+5) Visualizzare tutte le azioni del report.
 
-#### <a name="all-report-actions"></a>Tutte le azioni report
-Toccando il... Seleziona l'opzione nel piè di pagina report, consentiranno di elaborare tutte le azioni che eseguibili in un report. 
+#### <a name="all-report-actions"></a>Tutte le azioni del report
+Se si tocca sull'opzione puntini di sospensione (...) nel piè di pagina del report, vengono visualizzate tutte le azioni che è possibile eseguire nel report. 
 
-![tutte le azioni report](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-Alcune delle azioni potrebbe disabilitare, poiché dipendono le funzionalità di report specifico.
+È possibile che alcune azioni siano disabilitate poiché dipendono dalle funzionalità specifiche del report.
 ad esempio:
-1) **Filtra per località corrente** è abilitato se i dati nel report è stati categorizzati dall'autore con i dati geografici. [Informazioni su come identificare i dati geografici nel report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
-2) **Analisi per filtrare il report dal codice a barre** è abilitata solo se il set di dati nel report è stato contrassegnato come codice a barre. [Come si contrassegnare codici a barre in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
-3) **Invitare** è abilitata solo se si è autorizzati a condividere questo report con altri utenti. Hai l'autorizzazione solo se si è proprietari del report o se assegnato dal proprietario delle autorizzazioni di ricondivisione.
-4) **Aggiungere annotazioni e condividere** potrebbe essere disable se è presente un' [criteri di protezione Intune](https://docs.microsoft.com/intune/app-protection-policies) nell'organizzazione che vietata la condivisione dall'app Power BI per dispositivi mobili. 
+1) Il **filtro in base alla posizione** è abilitato se l'autore ha creato categorie dei dati basate su dati geografici. [Altre informazioni su come identificare i dati geografici nel report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+2) L'**analisi per filtrare il report in base al codice a barre** è abilitata solo se il set di dati nel report è stato contrassegnato come codice a barre. [Come contrassegnare codici a barre in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
+3) L'**invito** è abilitato solo se si dispone dell'autorizzazione per condividere il report con altri utenti. Si disporrà dell'autorizzazione solo se si è il proprietario del report o se è stata assegnata l'autorizzazione di ricondivisione da parte del proprietario.
+4) L'**annotazione e la condivisione** potrebbero essere disabilitate in presenza di [criteri di protezione di Intune](https://docs.microsoft.com/intune/app-protection-policies) nell'organizzazione che impediscono la condivisione dall'app Power BI per dispositivi mobili. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)

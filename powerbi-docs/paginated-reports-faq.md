@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345522"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270788"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: DOMANDE FREQUENTI 
 
@@ -119,10 +119,10 @@ Viene visualizzato un messaggio di errore se si prova a caricare un file con una
 
 Sono supportate le origini dati seguenti: 
 
-- Set di dati di Power BI Premium
+- Set di dati di Power BI (tramite Single Sign-On (SSO))
 - Azure Analysis Services (tramite Single Sign-On (SSO) e oAuth)
 - Azure SQL Data Warehouse
-- Database SQL di Azure (nome utente/password e oAuth)
+- Database SQL di Azure (nome utente/password, SSO e oAuth)
 - SQL Server*
 - Modelli tabulari (DAX) e multidimensionali (MDX) di SQL Server Analysis Services (SSAS)* 
 - Oracle* 
@@ -134,11 +134,11 @@ Quando si accede a SSAS tramite il gateway, l'utente con le credenziali archivia
 
 ### <a name="what-authentication-methods-do-you-support"></a>Quali metodi di autenticazione sono supportati?
 
-È supportato l'accesso SSO sia per le origini dati di Azure Analysis Services che di Power BI Premium e sono supportati oAuth e l'accesso SSO per il database SQL di Azure.  Per le altre origini dati, attualmente è necessario archiviare un nome utente e una password con l'origine dati nel portale o nel gateway.  
+L'accesso SSO è supportato per Azure Analysis Services, il database SQL di Azure e le origini dati Power BI.  È supportato anche OAuth per il database SQL di Azure e Azure Analysis Services.  Per le altre origini dati, attualmente è necessario archiviare un nome utente e una password con l'origine dati nel portale o nel gateway.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>È possibile usare un set di dati di Power BI come origine dati per il report impaginato?
 
-Sì, i set di dati di Power BI Premium sono supportati come origini dati per i report impaginati.
+Sì, i set di dati di Power BI sono supportati come origini dati per i report impaginati.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>È possibile usare stored procedure tramite il gateway?
 
@@ -179,10 +179,6 @@ Sì, è supportata la distribuzione dei report impaginati con le app dalle aree 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>È previsto uno strumento di migrazione per consentire ai clienti di SSRS di trasferire report e asset esistenti in Power BI?
 
 Verranno valutate opzioni per consentire lo spostamento del contenuto in Power BI in modo automatico, ma non saranno disponibili prima della versione GA.
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>Sarà mai possibile creare report impaginati e report di Power BI in un unico strumento di creazione?
-
-Sono stati esaminati alcuni modi per abilitare questo scenario, ma al momento non è prevista l'implementazione di questa funzionalità.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Esiste un controllo visualizzatore report per i report impaginati nel servizio Power BI?
 

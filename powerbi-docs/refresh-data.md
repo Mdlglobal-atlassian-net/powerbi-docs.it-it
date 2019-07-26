@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
-ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
+ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67561806"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325029"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -55,7 +55,7 @@ Power BI memorizza i dati nella cache, quindi le dimensioni dei set di dati in m
 | --- | --- |
 | Condiviso, A1, A2 o A3 | 1 GB |
 | A4 o P1 | 3 GB |
-| A4 o P2 | 6 GB |
+| A5 o P2 | 6 GB |
 | A6 o P3 | 10 GB |
 | | |
 
@@ -160,7 +160,7 @@ Indipendentemente dalla modalità di archiviazione, nessun aggiornamento dei dat
 
 ### <a name="connecting-to-on-premises-data-sources"></a>Connessione a origini dati locali
 
-Se il set di dati usa un'origine dati a cui Power BI non è in grado di accedere usando una connessione diretta alla rete, è necessario configurare una connessione gateway per il set di dati per poter abilitare una pianificazione dell'aggiornamento o eseguire un aggiornamento dei dati su richiesta. Per altre informazioni sui gateway dati e sul relativo funzionamento, vedere [Informazioni sui gateway dati locali](service-gateway-getting-started.md).
+Se il set di dati usa un'origine dati a cui Power BI non è in grado di accedere usando una connessione diretta alla rete, è necessario configurare una connessione gateway per il set di dati per poter abilitare una pianificazione dell'aggiornamento o eseguire un aggiornamento dei dati su richiesta. Per altre informazioni sui gateway dati e sul relativo funzionamento, vedere [Informazioni sui gateway dati locali](service-gateway-onprem.md).
 
 Sono disponibili le opzioni seguenti:
 
@@ -174,7 +174,10 @@ Sono disponibili le opzioni seguenti:
 
 Microsoft consiglia di usare un gateway dati aziendale anziché un gateway personale per connettere un set di dati a un'origine dati locale. Assicurarsi che il gateway sia configurato correttamente, ovvero che abbia gli aggiornamenti più recenti e tutte le definizioni di origini dati richieste. Con la definizione di origine dati Power BI ha a disposizione le informazioni di connessione per una determinata origine, tra cui gli endpoint di connessione, la modalità di autenticazione e le credenziali. Per altre informazioni sulla gestione delle origini dati in un gateway, vedere [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md).
 
-La connessione di un set di dati a un gateway aziendale è relativamente semplice se si è un amministratore del gateway. Con le autorizzazioni di amministratore, è possibile aggiornare rapidamente il gateway e aggiungere le origini dati mancanti, se necessario. Di fatto è possibile aggiungere un'origine dati mancante al gateway direttamente dalla pagina delle impostazioni del set di dati. Espandere il pulsante di attivazione e disattivazione per visualizzare le origini dati e selezionare il collegamento **Aggiungi al gateway**, come nello screenshot seguente. Se non si è un amministratore del gateway, d'altra parte, usare le informazioni di contatto visualizzate per richiedere a un amministratore del gateway l'aggiunta della definizione di origine dati necessaria.
+La connessione di un set di dati a un gateway aziendale è relativamente semplice se si è un amministratore del gateway. Con le autorizzazioni di amministratore, è possibile aggiornare rapidamente il gateway e aggiungere le origini dati mancanti, se necessario. Di fatto è possibile aggiungere un'origine dati mancante al gateway direttamente dalla pagina delle impostazioni del set di dati. Espandere il pulsante di attivazione e disattivazione per visualizzare le origini dati e selezionare il collegamento **Aggiungi al gateway**, come nello screenshot seguente. Se invece non si è un amministratore del gateway, è necessario contattarne uno per aggiungere la definizione dell'origine dati richiesta.
+
+> [!NOTE]
+> Solo gli amministratori del gateway possono aggiungere origini dati a un gateway. Assicurarsi anche che l'amministratore del gateway aggiunga l'account utente all'elenco di utenti con le autorizzazioni per l'uso dell'origine dati. La pagina delle impostazioni del set di dati consente solo di selezionare un gateway aziendale con un'origine dati corrispondente per cui si hanno le autorizzazioni.
 
 ![Aggiungi al gateway](media/refresh-data/add-to-gateway.png)
 
@@ -284,6 +287,8 @@ Si noti inoltre che l'orario configurato per l'aggiornamento potrebbe non essere
 ### <a name="getting-refresh-failure-notifications"></a>Notifiche di aggiornamento non riuscito
 
 Per impostazione predefinita, Power BI invia notifiche relative agli errori di aggiornamento via posta elettronica al proprietario del set di dati in modo che possa agire in modo tempestivo in caso di problemi. Power BI invia una notifica anche quando il servizio disabilita la pianificazione a causa di ripetuti tentativi non riusciti. Microsoft consiglia di lasciare selezionata la casella di controllo **Invia messaggi di notifica di aggiornamento non riuscito a me**.
+
+È anche consigliabile specificare altri destinatari usando la casella di testo **Invia un messaggio di posta elettronica a questi utenti quando l'aggiornamento non riesce**. Oltre al proprietario del set di dati, anche i destinatari specificati ricevono le notifiche degli errori di aggiornamento. Tali destinatari possono essere, ad esempio, il collega che si occupa dei propri set di dati quando si è in vacanza. Oppure l'alias di posta elettronica del team di supporto che si occupa dei problemi di aggiornamento per il reparto o l'organizzazione. L'invio delle notifiche degli errori di aggiornamento ad altri utenti oltre al proprietario del set di dati è utile per garantire che i problemi vengano rilevati e risolti in modo tempestivo.
 
 Si noti che Power BI invia notifiche non solo in caso di aggiornamento non riuscito, ma anche quando il servizio sospende un aggiornamento pianificato a causa di inattività. Dopo due mesi, se un utente non ha visitato alcun dashboard o report creato nel set di dati, Power BI considera il set di dati non attivo. In questa situazione, Power BI invia un messaggio di posta elettronica al proprietario del set di dati per informarlo che il servizio ha sospeso la pianificazione aggiornamenti per il set di dati. Vedere lo screenshot seguente per un esempio di tale notifica.
 

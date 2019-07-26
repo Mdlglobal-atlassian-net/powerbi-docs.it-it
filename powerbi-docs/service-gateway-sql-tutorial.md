@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
-ms.date: 05/03/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1c77c272bf5c03ce7df0a5173d194a4c0583ccf2
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596628"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307385"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Aggiornare i dati da un database di SQL Server locale
 
@@ -36,7 +36,7 @@ In questa esercitazione viene completata la procedura seguente:
 - Se non è già stato fatto in precedenza, registrarsi per ottenere una [versione di prova gratuita di Power BI](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 - [Installare Power BI Desktop](https://powerbi.microsoft.com/desktop/) in un computer locale.
 - [Installare SQL Server](/sql/database-engine/install-windows/install-sql-server) in un computer locale e ripristinare il [database di esempio da un backup](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2017.bak). Per altre informazioni su AdventureWorks, vedere [Configurazione e installazione di AdventureWorks](/sql/samples/adventureworks-install-configure).
-- [Installare un gateway dati locale](service-gateway-install.md) nello stesso computer locale (nell'ambiente di produzione si usa in genere un computer diverso).
+- [Installare un gateway dati locale](service-gateway-onprem.md) nello stesso computer locale (nell'ambiente di produzione si usa in genere un computer diverso).
 
 > [!NOTE]
 > Se non si è un amministratore di gateway e non si vuole installare un gateway, contattare un amministratore di gateway dell'organizzazione. L'amministratore può creare la definizione dell'origine dati necessaria per connettere il set di dati al database di SQL Server.
@@ -202,6 +202,6 @@ Se non si vogliono più usare i dati di esempio, eliminare il database in SQL Se
 
 In questa esercitazione è stato descritto come importare dati da un database di SQL Server locale in un set di dati di Power BI e come aggiornare il set di dati in base a una pianificazione e su richiesta per mantenere aggiornati i report e i dashboard che usano il set di dati in Power BI. A questo punto è possibile ottenere altre informazioni sulla gestione dei gateway dati e delle origini dati in Power BI. Potrebbe anche essere una buona idea rivedere l'articolo concettuale Aggiornamento dei dati in Power BI.
 
-- [Gestire un gateway locale di Power BI](service-gateway-manage.md)
+- [Gestire un gateway dati locale](/data-integration/gateway/service-gateway-manage)
 - [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md)
 - [Aggiornamento dei dati in Power BI](refresh-data.md)

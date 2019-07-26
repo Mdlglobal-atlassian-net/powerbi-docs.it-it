@@ -7,24 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272652"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352187"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Unire o aggiungere origini dati locali e cloud
 
-Il gateway dati locale consente di unire o aggiungere origini dati locali e cloud nella stessa query. Questa funzionalità risulta utile quando si vuole eseguire il mashup di dati da più origini senza usare query separate.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+Il gateway dati locale consente di unire o aggiungere origini dati locali e cloud nella stessa query. Questa funzionalità risulta utile quando si vuole combinare i dati di più origini senza usare query separate.
+
+>[!NOTE]
+>Questo articolo si applica solo ai set di dati con origini dati cloud e locali unite o accodate in una singola query. Per i set di dati che includono query separate, una con connessione a un'istanza locale e l'altra a un'origine dati cloud, la query che usa l'origine dati cloud non verrà eseguita con il gateway.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-- Un [gateway installato](service-gateway-install.md) in un computer locale.
+- Un [gateway installato](/data-integration/gateway/service-gateway-install) in un computer locale.
 - Un file di Power BI Desktop con query in cui sono combinate origini dati locali e cloud.
+
+>[!NOTE]
+>Per accedere a tutte le origini dati cloud, è necessario assicurarsi che il gateway abbia accesso a tali origini dati.
 
 1. Nell'angolo in alto a destra del servizio Power BI selezionare l'icona dell'ingranaggio ![Icona dell'ingranaggio Impostazioni](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Gestisci gateway**.
 
@@ -46,10 +54,11 @@ Il gateway dati locale consente di unire o aggiungere origini dati locali e clou
 
    - In **Credenziali dell'origine dati** modificare le credenziali dell'origine dati cloud come necessario.
 
+    Verificare che i livelli di privacy per le origini dati sia cloud che locali siano impostati in modo appropriato per assicurarsi che i join vengano gestiti in modo sicuro.
+
      ![Impostazioni set di dati](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
 7. Dopo che le credenziali cloud sono state impostate sarà possibile aggiornare il set di dati tramite l'opzione **Aggiorna adesso** oppure pianificarne l'aggiornamento periodico.
-
 
 ## <a name="next-steps"></a>Passaggi successivi
 

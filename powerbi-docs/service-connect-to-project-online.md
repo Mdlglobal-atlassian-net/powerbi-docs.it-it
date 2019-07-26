@@ -10,42 +10,49 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61146691"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324873"
 ---
-# <a name="connect-to-project-online-with-power-bi"></a>Connettersi a Project Online con Power BI
-Microsoft Project Online è una soluzione online flessibile per la gestione del portfolio di progetti (PPM) e il lavoro quotidiano. Progetto Online consente alle organizzazioni di iniziare, definire le priorità degli investimenti nel portfolio di progetti e offrire i vantaggi aziendali previsti. Il pacchetto di contenuto Project Online per Power BI consente di recuperare informazioni dettagliate da Project Online e di usarle per facilitare la gestione di progetti, raccolte e risorse.
+# <a name="connect-to-project-web-app-with-power-bi"></a>Connettersi a Project Web App con Power BI
+Microsoft Project Web App è una soluzione online flessibile per la gestione del portfolio di progetti (PPM) e le attività quotidiane. Consente alle organizzazioni di essere operative da subito, definire le priorità degli investimenti nel portfolio di progetti e offrire i vantaggi aziendali attesi. L'app modello di Project Web App per Power BI consente di recuperare informazioni dettagliate da Project Web App per la gestione di progetti, portfolio e risorse.
 
-Connettersi al [pacchetto di contenuto Project Online](https://app.powerbi.com/getdata/services/project-online) per Power BI.
+Connettersi all'[app modello di Project Web App](https://appsource.microsoft.com/product/power-bi/pbi_msprojectonline.pbi-microsoftprojectwebapp) per Power BI.
 
 ## <a name="how-to-connect"></a>Come connettersi
-1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.
-   
-    ![](media/service-connect-to-project-online/getdata.png)
+
+   ![](media/service-connect-to-project-online/GetApps.png)
+1. Selezionare **App** nel riquadro di spostamento a sinistra > selezionare **Scarica app** nell'angolo superiore destro.
 2. Nella casella **Servizi** selezionare **Recupera**.
    
-   ![](media/service-connect-to-project-online/services.png)
-3. Selezionare **Microsoft Project Online** \> **Recupera**.
+   ![](media/service-connect-to-project-online/AppSource.png)
+3. In AppSource selezionare la scheda **App** e cercare e selezionare **Microsoft Project Web App**.
+   
+4. Verrà visualizzato il messaggio **Installare questa app di Power BI?** Selezionare **Installa**. 
+
+   ![](media/service-connect-to-project-online/ProjectTile.png)
+5. Nel riquadro **App** selezionare **Microsoft Project Web App**. 
+   
+   ![](media/service-connect-to-project-online/getstarted.png)
+6. In **Operazioni iniziali con la nuova app** selezionare **Connetti dati**.
    
    ![](media/service-connect-to-project-online/mproject.png)
-4. Nella casella di testo **URL Project Web App** immettere l'URL di Project Web App a cui connettersi e selezionare **Avanti**. Si noti che questo può differire dall'esempio se è presente un dominio personalizzato. Nella casella di testo **Lingua sito PWA**, digitare il numero corrispondente alla lingua scelta per il sito Project Web Access. Digitare la cifra "1" per l'inglese, "2" per il francese, "3" per il tedesco, "4" per il portoghese (Brasile), " 5" per portoghese (Portogallo) e "6" per lo spagnolo. 
+7. Nella casella di testo **URL Project Web App** immettere l'URL per Project Web App a cui connettersi.  Si noti che questo può differire dall'esempio se è presente un dominio personalizzato. Nella casella di testo **Lingua sito PWA**, digitare il numero corrispondente alla lingua scelta per il sito Project Web Access. Digitare la cifra "1" per l'inglese, "2" per il francese, "3" per il tedesco, "4" per il portoghese (Brasile), " 5" per portoghese (Portogallo) e "6" per lo spagnolo. 
    
-    ![](media/service-connect-to-project-online/params.png)
-5. In Metodo di autenticazione selezionare **oAuth2** \> **Accedi**. Quando richiesto, immettere le credenziali di Project Online e seguire il processo di autenticazione.
-   
-    ![](media/service-connect-to-project-online/creds.png)
+   ![](media/service-connect-to-project-online/params.png)
+8. In Metodo di autenticazione selezionare **oAuth2** \> **Accedi**. Quando richiesto, immettere le credenziali di Project Web App e seguire il processo di autenticazione.
+
     
 Si noti che è necessario disporre di Visualizzatore portfolio, Program Manager o delle autorizzazioni di amministratore per l'istanza di Project Web App a cui ci si connette.
 
-6. Una notifica indicherà che è in corso il caricamento dei dati. A seconda delle dimensioni dell'account l'operazione potrebbe richiedere alcuni minuti. Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento sinistro vengono visualizzati il nuovo dashboard, 13 report e il nuovo set di dati. Si tratta del dashboard predefinito creato da Power BI per visualizzare i dati, che è possibile modificare per visualizzare i dati nel modo desiderato.
+9. Una notifica indicherà che è in corso il caricamento dei dati. A seconda delle dimensioni dell'account l'operazione potrebbe richiedere alcuni minuti. Quando Power BI ha terminato di importare i dati, verrà visualizzato il contenuto della nuova area di lavoro. Può essere necessario aggiornare il set di dati per ottenere gli aggiornamenti più recenti. 
 
-   ![](media/service-connect-to-project-online/dashboard2.png)
+Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento a sinistra vengono visualizzati il report con 13 pagine e il set di dati. 
 
-7. Una volta pronti i dashboard e i report, si può iniziare a esplorare i dati di Project Online. Il pacchetto di contenuto contiene 13 report avanzati e dettagliati per la panoramica portfolio (6 pagine di report), panoramica risorse (5 pagine di report) e stato progetto (2 pagine di report). 
+10. Una volta pronti i report, si può iniziare a esplorare i dati di Project Web App. L'app modello contiene 13 pagine di report avanzate e dettagliate per la panoramica portfolio (6 pagine di report), panoramica risorse (5 pagine di report) e stato progetto (2 pagine di report). 
 
    ![](media/service-connect-to-project-online/report1.png)
    
@@ -55,12 +62,9 @@ Si noti che è necessario disporre di Visualizzatore portfolio, Program Manager 
 
 **Altre operazioni**
 
-* Provare a [porre una domanda nella casella Domande e risposte](consumer/end-user-q-and-a.md) nella parte superiore del dashboard
-* [Cambiare i riquadri](service-dashboard-edit-tile.md) nel dashboard.
-* [Selezionare un riquadro](consumer/end-user-tiles.md) per aprire il report sottostante.
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
-**Espandere il pacchetto di contenuto**
+**Espandere l'app modello**
 
 Scaricare il [file PBIT GitHub](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) per personalizzare e aggiornare ulteriormente il pacchetto di contenuto
 

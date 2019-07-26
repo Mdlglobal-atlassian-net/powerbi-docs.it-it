@@ -1,5 +1,5 @@
 ---
-title: Usare le aggregazioni in Power BI Desktop (anteprima)
+title: Usare le aggregazioni in Power BI Desktop
 description: Eseguire analisi interattive su big data in Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239585"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325176"
 ---
-# <a name="aggregations-in-power-bi-desktop-preview"></a>Aggregazioni in Power BI Desktop (anteprima)
+# <a name="aggregations-in-power-bi-desktop"></a>Aggregazioni in Power BI Desktop
 
 L'uso delle **aggregazioni** in Power BI consente di eseguire analisi interattive su Big Data in modi che in precedenza non erano possibili. Le **aggregazioni** possono ridurre notevolmente il costo dello sblocco di grandi set di dati da impiegare per processi decisionali.
 
@@ -36,16 +36,6 @@ L'archiviazione a livello di tabella viene in genere usata insieme alla funziona
 Le aggregazioni vengono usate con origini dati che rappresentano modelli dimensionali, ad esempio data warehouse, data mart e origini Big Data basate su Hadoop. Questo articolo descrive le comuni differenze di modellazione in Power BI per ogni tipo di origine dati.
 
 Tutte le origini Import e DirectQuery (non multidimensionali) di Power BI funzionano con le aggregazioni.
-
-## <a name="enabling-the-aggregations-preview-feature"></a>Abilitazione della funzionalità di anteprima delle aggregazioni
-
-La funzionalità **aggregazioni** è disponibile in anteprima e deve essere abilitata in **Power BI Desktop**. Per abilitare le **aggregazioni**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità di anteprima** e quindi selezionare le caselle di controllo **Modelli compositi** e **Gestisci aggregazioni**. 
-
-![abilitazione delle funzionalità in anteprima](media/desktop-aggregations/aggregations_01.jpg)
-
-È necessario riavviare **Power BI Desktop** per rendere effettiva la modifica.
-
-![riavvio richiesto per rendere effettive le modifiche](media/desktop-composite-models/composite-models_03.png)
 
 ## <a name="aggregations-based-on-relationships"></a>Aggregazioni basate su relazioni
 
@@ -103,8 +93,10 @@ Un relazione *tra origini diverse* è considerata forte esclusivamente se entram
 
 Per i riscontri di aggregazione *tra origini diverse* che non dipendono da relazioni, vedere più avanti la sezione sulle aggregazioni basate su colonne Group-By.
 
-### <a name="aggregation-table-is-hidden"></a>La tabella di aggregazione è nascosta
-La tabella **Sales Agg** è nascosta. Le tabelle di aggregazione devono essere sempre nascoste dai consumer del set di dati. I consumer e le query fanno riferimento alla tabella dettagli, non alla tabella di aggregazione. Non è nemmeno necessario che siano a conoscenza dell'esistenza della tabella di aggregazione.
+### <a name="aggregation-tables-are-not-addressable"></a>Tabelle di aggregazione non direttamente accessibili
+Gli utenti con accesso in sola lettura al set di dati non possono eseguire query sulle tabelle di aggregazione. In questo modo si evitano problemi di sicurezza quando vengono usate con la sicurezza a livello di riga. I consumer e le query fanno riferimento alla tabella dettagli, non alla tabella di aggregazione. Non è nemmeno necessario che siano a conoscenza dell'esistenza della tabella di aggregazione.
+
+Per questo motivo, la tabella **Sales Agg** deve essere nascosta. Se non lo è, la finestra di dialogo Gestisci aggregazioni la imposterà come nascosta quando si fa clic sul pulsante Applica tutto.
 
 ### <a name="manage-aggregations-dialog"></a>finestra di dialogo Gestisci aggregazioni
 A questo punto verranno definite le aggregazioni. Selezionare il menu di scelta rapida **Gestisci aggregazioni** per **Sales Agg** facendo clic sulla tabella con il pulsante destro del mouse.
@@ -136,11 +128,7 @@ Dalla finestra di dialogo vengono applicate le seguenti importanti convalide:
 * La colonna dettagli selezionata deve avere lo stesso tipo di dati della colonna aggregazioni, eccettuato per le funzioni di Conteggio e Conta righe della tabella. Conteggio e Conta righe della tabella sono presenti solo per colonne di aggregazione di tipo integer e non richiedono un tipo di dati corrispondente.
 * Le aggregazioni concatenate che coprono tre o più tabelle non sono consentite. Non è ad esempio possibile configurare le aggregazioni nella **Tabella A** che fa riferimento alla **Tabella B** contenente aggregazioni che fanno riferimento alla **Tabella C**.
 * Le aggregazioni duplicate in cui due voci usano la stessa funzione di riepilogo e fanno riferimento alla stessa tabella/colonna dettagli non sono consentite.
-
-Durante questa anteprima pubblica delle **aggregazioni** vengono applicate anche le convalide seguenti. Si prevede che queste convalide vengano rimosse prima del rilascio per la disponibilità generale.
-
-* Le aggregazioni non sono utilizzabili con la sicurezza a livello di riga. *Limitazione dell'anteprima pubblica.*
-* La tabella dettagli deve essere DirectQuery, non Import. *Limitazione dell'anteprima pubblica.*
+* La tabella dettagli deve essere DirectQuery, non Import.
 
 La maggior parte delle convalide di questo tipo vengono applicate disabilitando i valori dell'elenco a discesa e visualizzando il testo esplicativo nella descrizione comando, come illustrato nell'immagine seguente.
 
@@ -149,6 +137,9 @@ La maggior parte delle convalide di questo tipo vengono applicate disabilitando 
 ### <a name="group-by-columns"></a>Colonne GroupBy
 
 In questo esempio, le tre voci GroupBy sono facoltative, non influiscono sulla modalità di aggregazione con la sola eccezione della query di esempio DISTINCTCOUNT, illustrata nella prossima figura. Sono incluse principalmente per scopi di leggibilità. Senza queste voci GroupBy, le aggregazioni verrebbero ancora raggiunte in base alle relazioni. Questo comportamento si distingue dall'utilizzo delle aggregazioni senza relazioni, come illustrato nell'esempio dei big data più avanti in questo articolo.
+
+### <a name="inactive-relationships"></a>Relazioni inattive
+Il raggruppamento in base a una colonna di chiave esterna usata da una relazione inattiva e l'uso della funzione USERELATIONSHIP per i riscontri di aggregazione non sono supportati.
 
 ### <a name="detecting-whether-aggregations-are-hit-or-missed-by-queries"></a>Rilevare se le aggregazioni sono raggiunte o ignorate dalle query
 
@@ -191,6 +182,17 @@ In alcuni casi, la funzione DISTINCTCOUNT può trarre vantaggio dalle aggregazio
 
 ![esempio di query](media/desktop-aggregations/aggregations-code_07.jpg)
 
+### <a name="rls"></a>RLS
+Per il corretto funzionamento, le espressioni di sicurezza a livello di riga devono filtrare sia la tabella di aggregazione, sia la tabella dei dettagli. Come illustrato nell'esempio, un'espressione di sicurezza a livello di riga sulla tabella **Geography** funzionerà perché Geography è presente sul lato del filtro delle relazioni sia con la tabella **Sales** che con la tabella **Sales Agg**. La sicurezza a livello di riga verrà applicata correttamente alle query che raggiungono la tabella di aggregazione e a quelle che non la raggiungono.
+
+![gestione dei ruoli nelle aggregazioni](media/desktop-aggregations/manage-roles.jpg)
+
+Un'espressione di sicurezza a livello di riga sulla tabella **Product** filtra soltanto la tabella **Sales**, non la tabella **Sales Agg**. Questa operazione non è consigliata. Le query inviate dagli utenti che accedono al set di dati con questo ruolo non trarranno vantaggio dai riscontri di aggregazione. Dal momento che la tabella di aggregazione è semplicemente un'altra rappresentazione degli stessi dati presenti nella tabella dei dettagli, rispondere alle query dalla tabella di aggregazione non è un'operazione sicura perché il filtro della sicurezza a livello di riga non può essere applicato.
+
+Un'espressione di sicurezza a livello di riga sulla tabella **Sales Agg** stessa filtra soltanto la tabella di aggregazione e non la tabella dei dettagli. Questa operazione non è consentita.
+
+![gestione dei ruoli nelle aggregazioni](media/desktop-aggregations/filter-agg-error.jpg)
+
 ## <a name="aggregations-based-on-group-by-columns"></a>Aggregazioni basate su colonne Group-By 
 
 I modelli di big data basati su Hadoop hanno caratteristiche diverse rispetto ai modelli dimensionali. Per evitare join tra tabelle di grandi dimensioni, essi non si basano, in genere, sulle relazioni. Al contrario, gli attributi dimensione sono spesso denormalizzati e trasformati in tabelle dei fatti. Questi grossi modelli di big data possono essere sbloccati per l'analisi interattiva tramite **aggregazioni** basate su colonne Group-By.
@@ -225,6 +227,10 @@ In particolare per i modelli che contengono attributi di filtro nelle tabelle de
 
 ![finestra di dialogo Filtri](media/desktop-aggregations/aggregations_12.jpg)
 
+### <a name="rls"></a>RLS
+
+Le stesse regole di sicurezza a livello di riga illustrate in precedenza per le aggregazioni basate sulle relazioni, relative alla possibilità che un'espressione di sicurezza a livello di riga possa filtrare la tabella di aggregazione, la tabella dei dettagli o entrambe, si applicano anche alle aggregazioni basate su colonne GroupBy. Nell'esempio è possibile usare un'espressione di sicurezza a livello di riga applicata alla tabella **Driver Activity** per filtrare la tabella **Driver Activity Agg** perché tutte le colonne GroupBy nella tabella di aggregazione sono previste dalla tabella dei dettagli. Un filtro di sicurezza a livello di riga sulla tabella **Driver Activity Agg**, d'altra parte, non può essere applicato alla tabella **Driver Activity**, quindi l'operazione non è consentita.
+
 ## <a name="aggregation-precedence"></a>Precedenza di aggregazione
 
 La precedenza di aggregazione consente a più tabelle di aggregazione di essere considerate da una singola sottoquery.
@@ -232,8 +238,11 @@ La precedenza di aggregazione consente a più tabelle di aggregazione di essere 
 Si consideri l'esempio seguente. Si tratta di un [modello composito](desktop-composite-models.md) contenente più origini DirectQuery.
 
 * La tabella **Driver Activity Agg2** di tipo Import ha una granularità molto elevata perché gli attributi group-by sono pochi e con cardinalità bassa. Il numero di righe potrebbe essere di appena qualche migliaio, pertanto la tabella potrebbe stare facilmente in un'istanza di cache in memoria. Poiché accade che questi attributi vengano utilizzati da un pannello personale di alto profilo, le query che fanno riferimento a essi devono essere più veloci possibile.
-* La tabella **Driver Activity Agg** è una tabella di aggregazione intermedia con modalità DirectQuery. Contiene oltre un miliardo di righe ed è ottimizzata nell'origine tramite indici columnstore.
+* La tabella **Driver Activity Agg** è una tabella di aggregazione intermedia con modalità DirectQuery. Contiene oltre un miliardo di righe in Azure SQL Data Warehouse ed è ottimizzata all'origine tramite indici columnstore.
 * La tabella **Driver Activity** è in modalità DirectQuery e contiene oltre un trilione di righe di dati IoT originati da un sistema per big data. Serve query drill-through per visualizzare singole letture IoT in contesti filtro controllati.
+
+> [!NOTE]
+> Le tabelle di aggregazione DirectQuery che usano un'origine dati diversa per la tabella dei dettagli sono supportate solo se la tabella di aggregazione proviene da un'origine SQL Server, Azure SQL o Azure SQL Data Warehouse.
 
 Il footprint della memoria di questo modello è relativamente piccolo, ma sblocca un set di dati di grandi dimensioni. Rappresenta un'architettura bilanciata perché distribuisce il carico di query tra i componenti dell'architettura e li utilizza in base ai punti di forza.
 
@@ -261,8 +270,6 @@ La tabella seguente mostra le voci impostate nella finestra di dialogo **Gestisc
 
 ![Tabella di aggregazione Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Nota: poiché si tratta di una tabella dei dettagli, questo modello richiede che la tabella **Date** sia in modalità DirectQuery per compilare la finestra di dialogo Gestisci aggregazioni. Si tratta di una limitazione dell'anteprima che verrà probabilmente rimossa per la disponibilità generale.
-
 ### <a name="query-examples"></a>Esempi di query
 
 La query seguente raggiunge l'aggregazione perché CalendarMonth è coperto dalla tabella di aggregazione e CategoryName è accessibile tramite le relazioni uno-a-molti. Verrà utilizzata l'aggregazione Sum per **SalesAmount**.
@@ -285,9 +292,9 @@ Le **aggregazioni** in cui le modalità di archiviazione DirectQuery e Import e/
 
 Gli articoli seguenti includono ulteriori informazioni sui modelli compositi e descrivono anche la modalità DirectQuery in modo dettagliato.
 
-* [Modelli compositi in Power BI Desktop (anteprima)](desktop-composite-models.md)
-* [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md)
-* [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md)
+* [Modelli compositi in Power BI Desktop](desktop-composite-models.md)
+* [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md)
+* [Modalità di archiviazione in Power BI Desktop](desktop-storage-mode.md)
 
 Articoli su DirectQuery:
 

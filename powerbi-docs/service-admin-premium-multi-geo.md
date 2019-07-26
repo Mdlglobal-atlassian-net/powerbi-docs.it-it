@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564932"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289842"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurare il supporto Multi-Geo Capabilities per Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurare il supporto di più aree geografiche per Power BI Premium
 
 Il supporto di più aree geografiche è una funzionalità di Power BI Premium che consente ai clienti multinazionali di soddisfare requisiti regionali, specifici del settore o di residenza dei dati dell'organizzazione. I clienti di Power BI Premium possono distribuire contenuto ai data center in aree diverse dall'area iniziale del tenant di Power BI. Un'area geografica può contenere più di un'area. Ad esempio, Stati Uniti è un'area geografica e Stati Uniti centro-occidentali e Stati Uniti centro-meridionali sono aree negli Stati Uniti. È possibile scegliere di distribuire il contenuto in qualsiasi area geografica tra le seguenti:
 
@@ -68,7 +68,7 @@ Questi elementi rimangono nell'area iniziale per il tenant:
 - Autorizzazioni
 - Credenziali del set di dati
 
-## <a name="view-capacity-regions"></a>Visualizza le aree di capacità
+## <a name="view-capacity-regions"></a>Visualizzare le aree delle capacità
 
 Nel portale di amministrazione è possibile visualizzare tutte le capacità per il tenant di Power BI e le aree in cui si trovano attualmente.
 
@@ -94,7 +94,7 @@ Se è necessario modificare l'area per il contenuto esistente, sono disponibili 
 - Una query memorizzata nella cache archiviata in un'area remota resta in tale area quando è inattiva. Tuttavia, gli altri dati in transito potrebbero spostarsi tra più aree geografiche.
 - Quando si spostano dati da un'area a un'altra in un ambiente con più aree geografiche, i dati di origine possono rimanere nell'area da cui vengono spostati fino a 30 giorni. Durante tale periodo, gli utenti finali non potranno accedervi. I dati verranno rimossi da quest'area ed eliminati definitivamente durante il periodo di 30 giorni.
 - Il supporto di più aree geografiche non comporta prestazioni migliori in generale. Il caricamento di report e dashboard comporta comunque richieste all'area iniziale per i metadati.
-- La funzionalità [Flussi di dati](service-dataflows-overview.md) (in anteprima) attualmente non è supportata in Multi-Geo.
+- La funzionalità [Flussi di dati](service-dataflows-overview.md) non è attualmente supportata in Multi-Geo.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

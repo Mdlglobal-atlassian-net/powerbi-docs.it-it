@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 05/24/2019
-ms.openlocfilehash: 472606fcb3b823cdcb722c9d8d6421d0ec652d24
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.date: 07/15/2019
+ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
+ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839568"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68307074"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI 
 
@@ -26,15 +26,15 @@ Durante la configurazione delle sottoscrizioni, è possibile scegliere la freque
 
 - A differenza delle sottoscrizioni per dashboard o report di Power BI, la sottoscrizione contiene un allegato dell'output dell'intero report.  Sono supportati i tipi di allegato seguenti: PDF, presentazione di PowerPoint (PPTX), cartella di lavoro di Excel (XLSX), documento di Word (DOCX), file CSV e XML.
 
-- Il corpo del messaggio di posta elettronica non contiene un'immagine di anteprima del report.  È previsto l'inserimento dell'immagine della prima pagina del report come elemento facoltativo. 
+- Nel corpo del messaggio di posta elettronica è possibile inserire un'immagine di anteprima del report.  Questa operazione è facoltativa e l'immagine può variare leggermente rispetto alla prima pagina del documento del report allegato, a seconda del formato di allegato selezionato. 
 
 - Le dimensioni del report allegato non possono superare i 25 MB. 
 
 - È possibile sottoscrivere altri utenti per report impaginati che si connettono a una qualsiasi origine dati attualmente supportata, tra cui Azure Analysis Services o set di dati di Power BI. Considerare che l'allegato del report riflette i dati in base alle autorizzazioni, come avviene attualmente per SQL Server Reporting Services. 
 
-- Le sottoscrizioni alle pagine dei report sono associate al nome del report.  
+- Le sottoscrizioni tramite posta elettronica possono essere inviate con i parametri attualmente selezionati o i parametri predefiniti per il report.  È possibile impostare valori di parametro diversi per ogni sottoscrizione creata per il report. 
 
-- Le sottoscrizioni tramite posta elettronica vengono inviate con i valori dei parametri predefiniti. 
+- Se l'autore del report ha impostato parametri basati su espressioni (ad esempio, il valore predefinito è sempre la data odierna), la sottoscrizione userà questo tipo di parametri come valore predefinito. Sebbene sia possibile modificare altri valori di parametro e scegliere di usare i valori correnti, se il valore non viene modificato in modo esplicito, la sottoscrizione userà il parametro basato su espressione.
 
 - Con i report impaginati, non esiste l'opzione di frequenza **Dopo l'aggiornamento dei dati**. Si ottengono sempre i valori più recenti dall'origine dati sottostante. 
 

@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61342767"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271193"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Linee guida per gli oggetti visivi di Power BI
+Prima di [pubblicare](https://docs.microsoft.com/power-bi/developer/office-store) l'oggetto visivo in AppSource in modo che altri utenti possano trovarlo e usarlo, seguire con attenzione le linee guida per creare un'esperienza ottimale per gli utenti. 
+
+## <a name="context-menu"></a>Menu di scelta rapida
+Il menu di scelta rapida è il menu visualizzato quando l'utente passa il mouse su un oggetto visivo.
+Tutti gli oggetti visivi Power BI dovrebbero includere il menu di scelta rapida per offrire un'esperienza unificata. Per informazioni su come aggiungere un menu di scelta rapida, leggere [questo articolo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md).
+
+
+## <a name="logo-guidelines"></a>Linee guida per il logo
+
+In questa sezione vengono descritte le specifiche per l'aggiunta dei logo negli oggetti visivi.
+
+> [!IMPORTANT]
+> I logo sono consentiti solo in *modalità di modifica*. I logo *non possono* essere visualizzati in modalità di visualizzazione.
+
+![Definizioni](media/guidelines-powerbi-visuals/definitions.png)
+
+![Aspetti da tenere a mente](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![Cose da evitare](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![Dimensioni e formato](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![Margini e dimensioni](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![Modalità di modifica](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Linee guida per gli oggetti visivi di Power BI con acquisti aggiuntivi
 
@@ -36,31 +62,13 @@ Gli sviluppatori caricano gli oggetti visivi con acquisto in-app in AppSource us
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>Che cos'è un oggetto visivo di Power BI con funzionalità con acquisto in-app?
 
-Un oggetto visivo con acquisto in-app è un oggetto visivo **gratuito** che offre **funzionalità gratuite**. Include anche alcune funzionalità avanzate per l'uso delle quali potrebbe essere previsto un costo aggiuntivo. Nella descrizione dell'oggetto visivo gli sviluppatori devono segnalare agli utenti la presenza di funzionalità che richiedono un acquisto aggiuntivo per poter essere usate. Attualmente, Microsoft non fornisce API native per supportare l'acquisto di app e componenti aggiuntivi.
+Un oggetto visivo con acquisto in-app è un oggetto visivo *gratuito* che offre *funzionalità gratuite*. Include anche alcune funzionalità avanzate per l'uso delle quali potrebbe essere previsto un costo aggiuntivo. Nella descrizione dell'oggetto visivo gli sviluppatori devono segnalare agli utenti la presenza di funzionalità che richiedono un acquisto aggiuntivo per poter essere usate. Attualmente, Microsoft non fornisce API native per supportare l'acquisto di app e componenti aggiuntivi.
 
 Per questo tipo di acquisti, gli sviluppatori possono usare un sistema di pagamento di terze parti. Per altre informazioni, vedere l'[informativa per lo store](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
 > Le filigrane non sono consentite per le funzionalità gratuite o gli oggetti visivi gratuiti. È possibile applicare le filigrane nelle funzionalità a pagamento usate senza una licenza valida. È consigliabile visualizzare una finestra popup che contiene tutte le informazioni correlate alla licenza per sapere se le funzionalità avanzate a pagamento vengono usate senza una licenza valida.  
 
-## <a name="logo-guidelines"></a>Linee guida per il logo
-
-In questa sezione vengono descritte le specifiche per l'aggiunta dei logo negli oggetti visivi.
-
-> [!IMPORTANT]
-> I logo sono consentiti solo in **modalità di modifica**. I logo **non possono** essere visualizzati in modalità di visualizzazione.
-
-![Definizioni](media/guidelines-powerbi-visuals/definitions.png)
-
-![Aspetti da tenere a mente](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![Cose da evitare](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![Dimensioni e formato](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![Margini e dimensioni](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![Modalità di modifica](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Procedure consigliate
 

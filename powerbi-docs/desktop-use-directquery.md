@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61348836"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324805"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usare DirectQuery in Power BI Desktop
 Con **Power BI Desktop**, quando ci si connette all'origine dati, è sempre possibile importare una copia dei dati in **Power BI Desktop**. Per alcune origini dati è disponibile un approccio alternativo: connettersi direttamente all'origine dati usando **DirectQuery**.
@@ -50,12 +50,10 @@ Esistono attualmente alcune limitazioni all'uso di **DirectQuery**:
 
 * Tutte le tabelle devono provenire da un database singolo, a meno che non vengano usati [modelli compositi](desktop-composite-models.md)
 * Se la query dell'**editor di query** è eccessivamente complessa, si verifica un errore. Per risolvere l'errore è necessario eliminare il passaggio problematico nell'**Editor di query** o *importare* i dati invece di usare **DirectQuery**. Per origini multidimensionali, ad esempio SAP Business Warehouse, non è disponibile alcun **Editor di query**
-* Il filtro delle relazioni è limitato a un'unica direzione, invece di includere entrambe le direzioni (benché sia possibile abilitare il filtro incrociato in entrambe le direzioni per **DirectQuery** come Funzionalità di anteprima). Per origini multidimensionali, ad esempio SAP Business Warehouse, non vengono definite relazioni nel modello
+* Il filtro delle relazioni è limitato a un'unica direzione, invece di includere entrambe le direzioni (benché sia possibile abilitare il filtro incrociato in entrambe le direzioni per **DirectQuery**). Per origini multidimensionali, ad esempio SAP Business Warehouse, non vengono definite relazioni nel modello
 * Le funzionalità di Business Intelligence per le gerarchie temporali non sono disponibili in **DirectQuery**. Ad esempio, la gestione speciale delle colonne di date (anno, trimestre, mese, giorno e così via) non è supportata in modalità **DirectQuery**.
-* Per impostazione predefinita, le limitazioni vengono inserite in espressioni DAX consentite nelle misurazioni. Per altre informazioni, vedere il paragrafo seguente (dopo questo elenco puntato).
+* Per garantire prestazioni accettabili per le query inviate all'origine dati sottostante, le espressioni DAX consentite nelle misure prevedono limitazioni.
 * È previsto un limite di un milione di righe per la restituzione di dati quando si usa **DirectQuery**. Il limite non influenza le aggregazioni o i calcoli usati per creare il set di dati restituito usando **DirectQuery**, ma solo le righe restituite. Ad esempio, è possibile aggregare 10 milioni di righe con la query eseguita sull'origine dati e restituire in modo accurato i risultati di tale aggregazione a Power BI usando **DirectQuery** purché i dati restituiti a Power BI siano inferiori a 1 milione di righe. Se **DirectQuery** restituisce oltre 1 milione di righe, Power BI restituisce un errore.
-
-Per assicurarsi che le prestazioni delle query inviate all'origine dati sottostante siano accettabili, vengono imposte limitazioni alle misure per impostazione predefinita. Gli utenti avanzati possono scegliere di ignorare questa limitazione selezionando **File > Opzioni e impostazioni > Opzioni**, quindi **DirectQuery** e infine l'opzione *Consenti misure senza limitazioni in modalità DirectQuery*. Quando questa opzione è selezionata, è possibile usare un'espressione DAX valida per una misura. Gli utenti, tuttavia, devono tenere presente che alcune espressioni, che hanno prestazioni molto elevate quando i dati vengono importati, possono restituire query molto lente nell'origine back-end quando sono in modalità DirectQuery.
 
 ## <a name="important-considerations-when-using-directquery"></a>Considerazioni importanti relative all'utilizzo di DirectQuery
 I tre punti seguenti devono essere presi in considerazione quando si usa **DirectQuery**:

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383361"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271935"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare Kerberos basato sulle risorse per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -23,15 +23,15 @@ Usare la [delega vincolata Kerberos basata sulle risorse](/windows-server/securi
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Preparazione della delega vincolata Kerberos basata sulle risorse
 
-Per il corretto funzionamento della delega vincolata Kerberos, è necessario configurare numerosi elementi, ad esempio i _nomi delle entità servizio_ e le impostazioni di delega negli account del servizio. 
+Per il corretto funzionamento della delega vincolata Kerberos, è necessario configurare numerosi elementi, ad esempio i _nomi delle entità servizio_ e le impostazioni di delega negli account del servizio.
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>Prerequisito 1: requisiti del sistema operativo
 
 La delega vincolata basata sulle risorse può essere configurata solo in un controller di dominio che esegue Windows Server 2012 R2 o Windows Server 2012 o versione successiva.
 
-### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>Prerequisito 2: installare e configurare il gateway dati locale
+### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>Prerequisito 2: Installare e configurare il gateway dati locale
 
-Questa versione del gateway dati locale supporta un aggiornamento sul posto, nonché l'_acquisizione della proprietà delle impostazioni_ dei gateway esistenti.
+Il gateway dati locale supporta un aggiornamento sul posto nonché l'_acquisizione della proprietà delle impostazioni_ dei gateway esistenti.
 
 ### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>Prerequisito 3: eseguire il servizio di Windows gateway come account di dominio
 
@@ -39,7 +39,7 @@ In un'installazione standard, il gateway è in esecuzione come account del servi
 
 ![Account di dominio](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Per abilitare la **delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che il servizio Azure AD non sia già sincronizzato con Active Directory locale tramite Azure AD DirSync/Connect. Se è necessario passare a un account di dominio, vedere [Modifica dell'account del servizio gateway in un account di dominio](service-gateway-sso-kerberos.md).
+Per abilitare la **delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che il servizio Azure AD non sia già sincronizzato con Active Directory locale tramite Azure AD DirSync/Connect. Se è necessario passare a un account di dominio, vedere [Modificare l'account del servizio gateway](/data-integration/gateway/service-gateway-service-account).
 
 Se Azure AD DirSync/Connect viene configurato e gli account utente vengono sincronizzati, il servizio gateway non dovrà eseguire ricerche in AD locali in fase di esecuzione. È possibile usare il SID del servizio locale, anziché un account di dominio, per il servizio gateway. La procedura di configurazione della delega vincolata Kerberos descritta in questo articolo corrisponde a questa configurazione e viene semplicemente applicata all'oggetto computer del gateway in Active Directory invece che all'account di dominio.
 
@@ -51,9 +51,9 @@ Anche se è tecnicamente possibile per un amministratore di dominio concedere te
 
 Per la corretta configurazione del sistema, è necessario impostare o convalidare due elementi:
 
-1. Se necessario, configurare un nome dell'entità servizio per l'account di dominio del servizio gateway.
+* Se necessario, configurare un nome dell'entità servizio per l'account di dominio del servizio gateway.
 
-1. Configurare le impostazioni di delega nell'account di dominio del servizio gateway.
+* Configurare le impostazioni di delega nell'account di dominio del servizio gateway.
 
 Si noti che per eseguire questi due passaggi di configurazione, è necessario essere un amministratore di dominio.
 
@@ -65,11 +65,11 @@ Determinare innanzitutto se è già stato creato un nome dell'entità servizio p
 
 1. Come amministratore di dominio, avviare **Utenti e computer di Active Directory**.
 
-1. Fare clic con il pulsante destro del mouse sul dominio, scegliere **Trova** e digitare il nome dell'account dell'account del servizio gateway
+1. Fare clic con il pulsante destro del mouse sul dominio, scegliere **Trova** e digitare il nome dell'account dell'account del servizio gateway.
 
 1. Nei risultati della ricerca fare clic con il pulsante destro del mouse sull'account del servizio gateway e scegliere **Proprietà**.
 
-1. Se la scheda **Delega** è visualizzata nella finestra di dialogo **Proprietà**, significa che un nome dell'entità servizio è già stato creato ed è possibile passare alla sottosezione sulla configurazione della delega.
+1. Se la scheda **Delega** è visualizzata nella finestra di dialogo **Proprietà**, significa che un nome dell'entità servizio è già stato creato ed è possibile passare alla sottosezione sulla [configurazione della delega](#configure-delegation-settings).
 
     Se la scheda **Delega** non è visualizzata nella finestra di dialogo **Proprietà**, è possibile creare manualmente un nome dell'entità servizio per l'account e la scheda **Delega** verrà aggiunta. Questo è il modo più facile per configurare le impostazioni di delega. Per creare un nome dell'entità servizio è possibile usare lo [strumento setspn](https://technet.microsoft.com/library/cc731241.aspx) incluso in Windows. Per creare il nome dell'entità servizio sono necessari diritti di amministratore.
 
@@ -83,10 +83,10 @@ Determinare innanzitutto se è già stato creato un nome dell'entità servizio p
 
 Nella procedura seguente si presuppone un ambiente locale con due computer in domini diversi: un computer gateway e un server di database che eseguono SQL Server. Ai fini di questo esempio, si presuppongono anche le impostazioni e i nomi seguenti:
 
-- Nome del computer del gateway: **PBIEgwTestGW**
-- Account del servizio gateway: **PBIEgwTestFrontEnd\GatewaySvc** (nome visualizzato dell'account: Gateway Connector)
-- Nome del computer dell'origine dati SQL Server: **PBIEgwTestSQL**
-- Account del servizio dell'origine dati SQL Server: **PBIEgwTestBackEnd\SQLService**
+* Nome del computer del gateway: **PBIEgwTestGW**
+* Account del servizio gateway: **PBIEgwTestFrontEnd\GatewaySvc** (nome visualizzato dell'account: Gateway Connector)
+* Nome del computer dell'origine dati SQL Server: **PBIEgwTestSQL**
+* Account del servizio dell'origine dati SQL Server: **PBIEgwTestBackEnd\SQLService**
 
 In base a questi nomi e impostazioni, usare la procedura di configurazione seguente:
 
@@ -125,7 +125,7 @@ Infine, nel computer in cui è in esecuzione il servizio gateway, **PBIEgwTestGW
 
 1. Fare clic con il pulsante destro del mouse su **Rappresenta un client dopo l'autenticazione**, scegliere **Proprietà** e quindi controllare l'elenco degli account. Accertarsi che includa l'account del servizio gateway (**PBIEgwTestFront-end** **\GatewaySvc**).
 
-1. Nell'elenco di criteri in **Diritti assegnazione utente** selezionare **Agire come parte del sistema operativo (SeTcbPrivilege)**. Anche in questo caso, accertarsi che l'account del servizio gateway sia incluso nell'elenco degli account.
+1. Nell'elenco di criteri in **Diritti assegnazione utente** selezionare **Agire come parte del sistema operativo (SeTcbPrivilege)** . Anche in questo caso, accertarsi che l'account del servizio gateway sia incluso nell'elenco degli account.
 
 1. Riavviare il processo del servizio **Gateway dati locale**.
 
@@ -139,10 +139,10 @@ Questa configurazione funzionerà nella maggior parte dei casi. Con Kerberos, tu
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per altre informazioni su **Gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
+Per altre informazioni sul **gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
 
-- [Gateway dati locale](service-gateway-onprem.md)
-- [DirectQuery in Power BI](desktop-directquery-about.md)
-- [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
-- [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
+* [Informazioni sul gateway dati locale](/data-integration/gateway/service-gateway-onprem.md)
+* [DirectQuery in Power BI](desktop-directquery-about.md)
+* [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
+* [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)

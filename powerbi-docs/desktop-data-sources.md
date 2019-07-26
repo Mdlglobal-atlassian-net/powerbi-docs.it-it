@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 06/15/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823523"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324830"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -114,6 +114,7 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Archiviazione BLOB di Azure
 * Archiviazione tabelle di Azure
 * Azure Cosmos DB (Beta)
+* Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
@@ -167,6 +168,7 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Microsoft Graph Security (Beta)
 * Quick Base
 * TeamDesk (beta)
+* Dynamics 365 Customer Insights (Beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Online Services**.
 
