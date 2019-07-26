@@ -44,13 +44,13 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
   
 1. **Riquadro dei parametri** La barra degli strumenti del Visualizzatore di report visualizza una richiesta di inserimento e un valore predefinito per ogni parametro. È possibile personalizzare il layout dei parametri nel riquadro dei parametri.  
   
-2. Parametro **@SalesDate**  Il tipo di dati del parametro @SalesDate è **DateTime**. Accanto alla casella di testo è visualizzata la richiesta Selezionare la data. Per modificare la data, digitare una nuova data nella casella di testo o usare il controllo calendario.  
+2. **@SalesDate parametro** il parametro @SalesDate è di tipo di dati **DateTime**. Accanto alla casella di testo è visualizzata la richiesta Selezionare la data. Per modificare la data, digitare una nuova data nella casella di testo o usare il controllo calendario.  
   
-3. Parametro **@ShowAll**  Il tipo di dati del parametro @ShowAll è **Boolean**. Usare i pulsanti di opzione per specificare **Vero** o **Falso**.  
+3. **@ShowAll parametro** il parametro @ShowAll è di tipo di dati **booleano**. Usare i pulsanti di opzione per specificare **Vero** o **Falso**.  
   
 4. **Quadratino di ridimensionamento Mostra o Nascondi area parametri** Sulla barra degli strumenti del Visualizzatore di report fare clic su questa freccia per visualizzare o nascondere il riquadro dei parametri.  
   
-5. Parametro **@CategoryQuota**  Il tipo di dati del parametro @CategoryQuota è **Float**. Il parametro accetta quindi un valore numerico.  @CategoryQuota è impostato in modo da consentire più valori.  
+5. **@CategoryQuota parametro** il parametro @CategoryQuota è di tipo di dati **Float**, in modo che accetta un valore numerico.  @CategoryQuota è impostato in modo da consentire più valori.  
   
 6. **Visualizza report** Dopo avere immesso i valori dei parametri, fare clic su **Visualizza report** per eseguire il report. Se a tutti i parametri sono associati valori predefiniti, il report viene eseguito automaticamente alla prima visualizzazione.  
   
