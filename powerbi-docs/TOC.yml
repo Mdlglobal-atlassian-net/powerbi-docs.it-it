@@ -933,6 +933,8 @@
           href: report-builder-planning-report.md
         - name: Dati di Generatore report
           href: report-builder-data.md
+        - name: Usare set di dati condivisi di Power BI
+          href: report-builder-shared-datasets.md
         - name: Suggerimenti relativi alla progettazione
           href: report-builder-design-tips.md
         - name: 'Tabelle, matrici, elenchi'
