@@ -165,6 +165,8 @@
               href: desktop-connect-azure-consumption-insights.md
             - name: Usare SAP HANA in Power BI Desktop
               href: desktop-sap-hana.md
+            - name: Abilitare la crittografia per SAP HANA
+              href: desktop-sap-hana-encryption.md
             - name: Dati tabulari di Analysis Services in Power BI Desktop
               href: desktop-analysis-services-tabular-data.md
             - name: Usare DirectQuery in Power BI Desktop
