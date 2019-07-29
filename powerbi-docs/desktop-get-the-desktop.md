@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454543"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590481"
 ---
 # <a name="get-power-bi-desktop"></a>Ottenere Power BI Desktop
 **Power BI Desktop** consente di creare query, modelli e report avanzati per la visualizzazione dei dati. Con **Power BI Desktop**, è possibile creare modelli di dati, creare report e condividere il proprio lavoro pubblicandolo nel servizio Power BI.  Il download di **Power BI Desktop** è gratuito.
@@ -93,7 +93,7 @@ Di seguito sono elencati i requisiti minimi per l'esecuzione di **Power BI Deskt
 
 * Windows 7 / Windows Server 2008 R2 o versioni successive
 * .NET 4.5
-* Internet Explorer 9 o versioni successive
+* Internet Explorer 10 o versioni successive
 * **Memoria (RAM):** almeno 1 GB disponibile, 1,5 GB o più consigliati.
 * **Schermo:** almeno 1440x900 o 1600x900 (16:9) consigliato. Risoluzioni inferiori, ad esempio 1024 x 768 o 1280 x 800 non sono consigliate, perché alcuni controlli (ad esempio la chiusura della schermata iniziale) vengono visualizzati oltre tali risoluzioni.
 * **Impostazioni dello schermo di Windows:** se le impostazioni di visualizzazione sono configurate per la modifica delle dimensioni di testo, app e altri elementi fino a un valore superiore al 100%, è possibile che non si riesca a visualizzare alcune finestre di dialogo che devono essere chiuse o a cui occorre rispondere per poter continuare a usare **Power BI Desktop**. Se si verifica questo problema, controllare le **Impostazioni dello schermo** passando a **Impostazioni > Sistema > Schermo** in Windows, quindi usare il dispositivo di scorrimento per ripristinare il valore 100% per le impostazioni di visualizzazione.

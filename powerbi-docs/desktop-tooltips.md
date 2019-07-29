@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514511"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590514"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creare descrizioni comando basate sulle pagine del report in Power BI Desktop
 È possibile creare **descrizioni comando** graficamente avanzate che appaiono quando si passa il mouse sugli oggetti visivi, in base alle pagine del report create in **Power BI Desktop**. Creando una pagina del report che funge da descrizione comando, le descrizioni comando personalizzate possono includere oggetti visivi, immagini e qualsiasi altra raccolta di elementi creati nella pagina del report. 
@@ -113,7 +113,6 @@ Quando un oggetto visivo viene evidenziato in modo incrociato in un report, le d
 Occorre tenere presenti alcune limitazioni e considerazioni relative alle **descrizioni comando**.
 
 * A partire dalla versione di dicembre 2018 di **Power BI Desktop**, anche gli oggetti visivi dei pulsanti supportano le descrizioni comando.
-* Le descrizioni comando dei report non sono supportate per i report visualizzati con app per dispositivi mobili. 
 * Le descrizioni comando dei report non sono supportate per gli oggetti visivi personalizzati. 
 * I cluster non sono attualmente supportati come i campi che possono essere visualizzati nelle descrizioni comando dei report. 
 * Quando si sceglie un campo da visualizzare per le descrizioni comando del report, se si usa un campo rispetto a una categoria, gli oggetti visivi che contengono tale campo visualizzano la descrizione comando specificata solo quando il riepilogo con il campo selezionato corrisponde. 
