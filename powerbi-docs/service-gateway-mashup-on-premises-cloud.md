@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352187"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462233"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Unire o aggiungere origini dati locali e cloud
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Il gateway dati locale consente di unire o aggiungere origini dati locali e cloud nella stessa query. Questa funzionalità risulta utile quando si vuole combinare i dati di più origini senza usare query separate.
+È possibile usare il gateway dati locale per unire o aggiungere origini dati locali e cloud nella stessa query. Questa soluzione risulta utile quando si vuole combinare i dati di più origini senza usare query separate.
 
 >[!NOTE]
->Questo articolo si applica solo ai set di dati con origini dati cloud e locali unite o accodate in una singola query. Per i set di dati che includono query separate, una con connessione a un'istanza locale e l'altra a un'origine dati cloud, la query che usa l'origine dati cloud non verrà eseguita con il gateway.
+>Questo articolo si applica solo ai set di dati con origini dati cloud e locali unite o accodate in una singola query. Per i set di dati che includono query separate, una con connessione a un'origine dati locale e l'altra a un'origine dati cloud, il gateway non esegue la query per l'origine dati cloud.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -51,14 +51,13 @@ Il gateway dati locale consente di unire o aggiungere origini dati locali e clou
 6. Nella pagina **Impostazioni set di dati** per il nuovo set di dati:
 
    - Per l'origine locale, selezionare il gateway associato a questa origine dati.
-
    - In **Credenziali dell'origine dati** modificare le credenziali dell'origine dati cloud come necessario.
 
     Verificare che i livelli di privacy per le origini dati sia cloud che locali siano impostati in modo appropriato per assicurarsi che i join vengano gestiti in modo sicuro.
 
      ![Impostazioni set di dati](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. Dopo che le credenziali cloud sono state impostate sarà possibile aggiornare il set di dati tramite l'opzione **Aggiorna adesso** oppure pianificarne l'aggiornamento periodico.
+7. Dopo che le credenziali cloud sono state impostate, è possibile aggiornare il set di dati tramite l'opzione **Aggiorna adesso**. In alternativa, è possibile pianificare l'aggiornamento periodico.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

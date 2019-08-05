@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514146"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523199"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Misure in Power BI Desktop
 
@@ -41,13 +41,13 @@ Le misure calcolano un risultato da una formula di espressione. Quando si creano
 Le formule DAX sono molto simili alle formule di Excel. DAX include anche molte delle stesse funzioni disponibili in Excel, ad esempio DATE, SUM e LEFT. Le funzioni DAX, tuttavia, sono pensate per essere usate con dati relazionali come quelli in Power BI Desktop.
 
 ## <a name="lets-look-at-an-example"></a>Esempio
-Jan è un responsabile delle vendite di Contoso. Le è stato richiesto di fornire delle proiezioni sulle vendite dei rivenditori per il prossimo anno fiscale. Jan decide di basare le stime sull'importo delle vendite dell'anno precedente, con un 6% di incremento annuale risultante da diverse promozioni pianificate nei successivi sei mesi.
+Jan è un responsabile delle vendite di Contoso. A Jan è stato chiesto di fornire proiezioni sulle vendite dei rivenditori per il prossimo anno fiscale. Jan decide di basare le stime sull'importo delle vendite dell'anno precedente, con un 6% di incremento annuale risultante da diverse promozioni pianificate nei successivi sei mesi.
 
-Per visualizzare le stime, Jan importa i dati sulle vendite dell'anno precedente in Power BI Desktop. Individua il campo SalesAmount nella tabella Reseller Sales. I dati importati contengono solo l'importo delle vendite dell'anno precedente, quindi rinomina il campo SalesAmount in Last Years Sales. Jan trascina quindi Last Years Sales nell'area di disegno del report, in cui viene visualizzato in un grafico come valore singolo pari alla somma di tutte le vendite dei rivenditori dell'anno precedente.
+Per visualizzare le stime, Jan importa i dati sulle vendite dell'anno precedente in Power BI Desktop. Individua il campo SalesAmount nella tabella Reseller Sales. I dati importati contengono solo l'importo delle vendite dell'anno precedente, quindi rinomina il campo SalesAmount in Last Years Sales. Jan trascina quindi Last Years Sales nell'area di disegno report, in cui viene visualizzato in un grafico come valore singolo pari alla somma di tutte le vendite dei rivenditori dell'anno precedente.
 
-Jan nota che anche se non ha specificato un calcolo, ne è stato fornito uno automaticamente. Power BI Desktop ha creato la propria misura sommando tutti i valori in Last Years Sales.
+Jan nota che anche se non è stato specificato un calcolo, ne è stato fornito uno automaticamente. Power BI Desktop ha creato la propria misura sommando tutti i valori in Last Years Sales.
 
-Tuttavia, a Jan occorre una misura per calcolare le proiezioni delle vendite per l'anno successivo, che saranno basate sulle vendite dell'anno precedente moltiplicate per 1,06 per tenere conto dell'incremento del 6% previsto per le vendite. Per questo calcolo crea una misura personalizzata. Usando la funzionalità Nuova misura, crea una nuova misura e immette la seguente formula DAX:
+Tuttavia, a Jan occorre una misura per calcolare le proiezioni delle vendite per l'anno successivo, che saranno basate sulle vendite dell'anno precedente moltiplicate per 1,06 per tenere conto dell'incremento del 6% previsto per le vendite. Per questo calcolo, Jan crea una misura personalizzata. Usando la funzionalità Nuova misura, crea una nuova misura e quindi immette la formula DAX seguente:
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 

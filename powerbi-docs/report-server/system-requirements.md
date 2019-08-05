@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/08/2018
-ms.openlocfilehash: 063ab8083c3091a7a41ca30e9045ce3a791112d2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/23/2019
+ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770020"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415362"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisiti hardware e software per l'installazione del server di report di Power BI
 
@@ -50,6 +50,7 @@ Quando si crea il database del server di report in un computer remoto, è necess
 
 Il server di Report di Power BI installerà i valori predefiniti per configurare le impostazioni principali necessarie per rendere operativo un server di report. Presenta i requisiti seguenti:
 
+* Le lingue supportate per Server di report di Power BI sono: inglese, tedesco, spagnolo, giapponese, italiano, francese, russo, cinese semplificato, cinese tradizionale, portoghese (Brasile), coreano
 * Disponibilità di un motore di database di SQL Server dopo l'installazione e prima della configurazione del database per il server di report. L'istanza del motore di database ospita il database del server di report che verrà creato da Reporting Services Configuration Manager. Il motore di database non è necessario per l'effettiva esperienza di configurazione.
 * [Funzionalità di Reporting Services supportate dalle edizioni di SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) descrive le differenze tra le edizioni di SQL Server.
 * L'account utente che esegue il programma di installazione deve essere un membro del gruppo di amministratori locali.

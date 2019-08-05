@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: df2e31ea9c8030e00001081e5fbe280605188bc5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187383"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523293"
 ---
 # <a name="power-bi-security"></a>Sicurezza di Power BI
 
@@ -56,7 +56,7 @@ La sicurezza della piattaforma per Power BI include anche la sicurezza dell'ambi
 
 Per altre informazioni, visitare il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter).
 
-Come descritto in precedenza in questo articolo, l'accesso di un utente a Power BI viene usato dai server di Active Directory locali per eseguire il mapping a un UPN per le credenziali. Tuttavia, è **importante** notare che gli utenti sono responsabili per i dati che condividono: se un utente si connette alle origini dati usando le proprie credenziali e quindi condivide un report (o un dashboard o un set di dati) in base a tali dati, gli utenti con cui condivide il dashboard non vengono autenticati rispetto all'origine dati originale e avranno l'accesso al report.
+Come descritto in precedenza in questo articolo, l'accesso di un utente a Power BI viene usato dai server di Active Directory locali per eseguire il mapping a un UPN per le credenziali. Tuttavia, è **importante** notare che gli utenti sono responsabili per i dati che condividono: se un utente si connette alle origini dati usando le proprie credenziali e quindi condivide un report (o un dashboard o un set di dati) basato su tali dati, gli utenti con cui il dashboard viene condiviso non vengono autenticati rispetto all'origine dati originale e avranno l'accesso al report.
 
 Un'eccezione riguarda le connessioni a **SQL Server Analysis Services** con il **gateway dati locale**. I dashboard vengono memorizzati nella cache in Power BI, ma l'accesso ai report o ai set di dati sottostanti avvia l'autenticazione dell'utente che prova ad accedere al report o al set di dati. L'accesso viene concesso solo se l'utente ha credenziali sufficienti per accedere ai dati richiesti. Per altre informazioni, vedere [Analisi approfondita del gateway dati locale](service-gateway-onprem-indepth.md).
 

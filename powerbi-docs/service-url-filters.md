@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051300"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523330"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -43,7 +43,7 @@ URL?filter=***Tabella***/***Campo*** eq '***valore***'
 
 ### <a name="reports-in-apps"></a>Report nelle app
 
-Se si vuole aggiungere un filtro URL a un report in un'app, la formattazione è leggermente diversa. I collegamenti ai report in un'app hanno un parametro di query (ctid) che viene aggiunto all'URL. Separare i parametri di query con una e commerciale (&). Mantenere "? filtro =" e spostare il parametro ctid alla fine dell'URL, preceduto da una e commerciale (&). 
+Se si vuole aggiungere un filtro URL a un report in un'app, la formattazione è leggermente diversa. I collegamenti ai report in un'app hanno un parametro di query (ctid) che viene aggiunto all'URL. Separare i parametri di query con una e commerciale (&). Mantenere "?filter=" e spostare il parametro ctid alla fine dell'URL, preceduto da una e commerciale (&). 
 
 Come in questo esempio:
 
@@ -133,9 +133,9 @@ Un filtro URL di Power BI può includere numeri nei formati seguenti.
 
 ### <a name="date-data-types"></a>Tipi di dati di data
 
-Power BI supporta OData V3 e V4 per i tipi di dati **Date** e **DateTimeOffset**.  Le date vengono rappresentate usando il formato di modello EDM (2019-02-12T00:00:00), in modo che quando si specifica una data come 'Aaaa-MM-GG', Power BI vengono interpretati come ' aaaa-MM-DDT00:00:00'.
+Power BI supporta OData V3 e V4 per i tipi di dati **Date** e **DateTimeOffset**.  Le date sono rappresentate nel formato EDM (2019-02-12T00:00:00), quindi quando si specifica una data come "AAAA-MM-GG", Power BI la interpreta come "AAAA-MM-GGT00:00:00".
 
-Perché è importante questa distinzione? Si supponga che si crea un parametro di stringa di query **tabella di date e ore gt ' 2018-08-03'** .  I risultati includeranno il 3 agosto 2018 oppure partiranno dal 4 agosto 2018? Poiché Power BI converte le query per **tabella di date e ore gt ' 2018-08-03T00:00:00'** , i risultati includono tutte le date con una parte dell'ora diverso da zero, poiché tali date sarà maggiore **' 2018-08-03T00:00:00'** .
+Perché è importante questa distinzione? Si supponga di creare un parametro di stringa di query **Table/Date gt '2018-08-03'** .  I risultati includeranno il 3 agosto 2018 oppure partiranno dal 4 agosto 2018? Dato che Power BI converte la query in **Table/Date gt '2018-08-03T00:00:00'** , i risultati includono tutte le date con una parte dell'ora diversa da zero, poiché tali date saranno maggiori di **'2018-08-03T00:00:00'** .
 
 ## <a name="special-characters-in-url-filters"></a>Caratteri speciali nei filtri di URL
 
@@ -177,7 +177,7 @@ Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della 
 
 * Quando si usa l'operatore *in*, i valori a destra di *in* devono essere un elenco delimitato da virgole racchiuso tra parentesi.    
 * Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno un prefisso in quanto vengono passati direttamente al motore di elaborazione dei report.
-* Filtri della stringa di query non funziona con [pubblica sul web](service-publish-to-web.md) oppure [esportare in formato PDF](consumer/end-user-pdf.md).
+* Il filtro della stringa di query non funziona con l'opzione [Pubblica sul Web](service-publish-to-web.md) o [Esporta in PDF](consumer/end-user-pdf.md).
 * La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
 * Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.
 * I filtri URL dei report hanno un limite di 10 espressioni (10 filtri connessi tramite AND).

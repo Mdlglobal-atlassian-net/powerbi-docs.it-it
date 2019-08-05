@@ -12,17 +12,17 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 34bb77c84d1813e32421b87e957e24a946f282f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 68e0a7985997a4512fe26812547f12f1b9be648f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61066232"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522730"
 ---
 # <a name="view-power-bi-notifications"></a>Visualizzare le notifiche di Power BI
 Il centro notifiche è un feed sequenziale di informazioni relative all'esperienza utente di Power BI. Contiene messaggi sui nuovi dashboard condivisi con l'utente, sulle modifiche apportate allo spazio del gruppo, sulle informazioni relative a eventi e riunioni di Power BI, sugli avvisi impostati e altro ancora. È possibile [impostare gli avvisi nel servizio Power BI](../service-set-data-alerts.md) e anche nelle app per dispositivi mobili di Power BI.
 
-Il video seguente mostra come esaminare le notifiche ricevute, gestirle e inviare le opportune risposte. Seguire quindi le istruzioni sotto il video per fare una prova in prima persona.
+In questo video Amanda esamina e gestisce le notifiche e risponde a esse. Seguire quindi le istruzioni sotto il video per fare una prova in prima persona.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 

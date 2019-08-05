@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 07/25/2019
 ms.author: mblythe
-ms.openlocfilehash: 0bb78e29cc3e9b9792d5916050179703281aa01a
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: a33ace000917311cbd060c853e0122034a396ae2
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68366750"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501742"
 ---
 # <a name="service-interruption-notifications"></a>Notifiche di interruzione del servizio
 
@@ -28,10 +28,10 @@ Attualmente i messaggi di posta elettronica vengono inviati per gli _scenari di 
 - Affidabilità aggiornamento modello
 - Affidabilità aggiornamento query
 
-Dopo la risoluzione di un evento imprevisto, si riceve un messaggio di posta elettronica di completamento.
+Vengono, ad esempio, inviate notifiche quando si verifica un ritardo prolungato in operazioni come l'apertura di report, l'aggiornamento del set di dati o le esecuzioni di query. Dopo la risoluzione di un evento imprevisto, si riceve un messaggio di posta elettronica di completamento.
 
 > [!NOTE]
-> Questa funzionalità attualmente è disponibile solo per capacità dedicate in Power BI Premium. Non è disponibile per la capacità condivisa.
+> Questa funzionalità attualmente è disponibile solo per capacità dedicate in Power BI Premium. Non è disponibile per la capacità condivisa o incorporata.
 
 ## <a name="enable-notifications"></a>Abilitare le notifiche
 

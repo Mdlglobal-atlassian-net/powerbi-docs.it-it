@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721183"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523448"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
@@ -50,27 +50,27 @@ Il ciclo di vita è simile al seguente:
 1. In Power BI Pro Mattia crea un pacchetto di contenuto e lo pubblica nel gruppo di distribuzione Marketing. Le impostazioni di aggiornamento vengono ereditate con il set di dati e possono essere modificate solo da Mattia.
    
    > [!NOTE]
-   > Se Mattia crea il pacchetto di contenuto dall'interno di un'[area di lavoro dell'app Power BI](service-create-distribute-apps.md) di appartenenza, ma anche se lascia l'area di lavoro, altri utenti dell'area di lavoro di Power BI possono acquisirne la proprietà.
+   > Se Mattia crea il pacchetto di contenuto dall'interno di un'[area di lavoro per le app Power BI](service-create-distribute-apps.md) di appartenenza, anche se lascia l'area di lavoro, altri utenti dell'area di lavoro di Power BI possono acquisirne la proprietà.
    > 
    > 
 2. Mattia invia un messaggio di posta elettronica al gruppo di distribuzione, per informarlo del nuovo pacchetto di contenuto.
-3. In Power BI Pro, Giorgia, membro del gruppo di distribuzione Marketing, cerca questo pacchetto di contenuto in AppSource e vi si connette. Ora Giorgia ha una copia di sola lettura  e lo sa perché nel riquadro di spostamento sinistro è presente un'icona di condivisione, a sinistra del nome del dashboard e del report. Quando Giorgia seleziona il dashboard, un'icona di lucchetto la informa che sta visualizzando il dashboard di un pacchetto di contenuto. 
-4. Ad esempio Giorgia decide di personalizzarlo. Giorgia ha ora la propria copia del dashboard e del report. Il suo lavoro non incide sull'origine, sul pacchetto di contenuto originale o su altri membri del gruppo di distribuzione. Giorgia può ora lavorare alla propria copia del dashboard e del report.
+3. In Power BI Pro Giorgia, membro del gruppo di distribuzione Marketing, cerca un pacchetto di contenuto in AppSource e vi si connette. Ora Giorgia ha una copia di sola lettura. Giorgia sa che la copia è di sola lettura perché nel riquadro di spostamento sinistro è presente un'icona di condivisione, a sinistra del nome del dashboard e del report. E quando Giorgia seleziona il dashboard, un'icona di lucchetto la informa che sta visualizzando il dashboard di un pacchetto di contenuto. 
+4. Si immagini che Giorgia decida di personalizzarlo. Giorgia avrà ora la propria copia del dashboard e dei report. Il suo lavoro non incide sull'origine, sul pacchetto di contenuto originale o su altri membri del gruppo di distribuzione. Ognuno sta ora lavorando alla propria copia del dashboard e del report.
 5. Mattia aggiorna il dashboard e, quando questo è pronto, pubblica una nuova versione del pacchetto di contenuto.
    
    * Giulio, un altro membro del gruppo di distribuzione, non ha personalizzato il pacchetto di contenuto originale. Le nuove modifiche vengono applicate automaticamente alla sua versione del pacchetto di contenuto.  
-   * Giorgia ha personalizzato il pacchetto di contenuto. Riceve una notifica che è disponibile una nuova versione.  Potrà quindi passare ad AppSource e scaricare il pacchetto aggiornato senza perdere la sua versione personalizzata. Giorgia ha ora due versioni: quella personalizzata e il pacchetto di contenuto aggiornato.
+   * Giorgia ha personalizzato il pacchetto di contenuto. Riceve quindi una notifica che indica che è disponibile una nuova versione.  Potrà quindi passare ad AppSource e scaricare il pacchetto di contenuto aggiornato senza perdere la versione personalizzata. Giorgia ora ha due versioni: quella personalizzata e il pacchetto di contenuto aggiornato.
 6. Ad esempio Mattia modifica le impostazioni di sicurezza. Giulio e Giorgia non hanno più accesso al contenuto. In alternativa, vengono rimossi dal gruppo di distribuzione Marketing.
    
    * Giulio non ha personalizzato il pacchetto di contenuto originale, quindi il contenuto viene rimosso automaticamente. 
-   * Giorgia ha personalizzato il pacchetto di contenuto. Alla successiva apertura del dashboard tutti i riquadri del pacchetto di contenuto originale sono stati eliminati, ma sono ancora visualizzati i riquadri che ha aggiunto da altri report (per i quali dispone ancora di autorizzazioni per l'uso). I report e il set di dati associati non sono più disponibili (e non sono visualizzati nel suo riquadro di spostamento sinistro).
+   * Giorgia ha personalizzato il pacchetto di contenuto. Alla successiva apertura del dashboard da parte di Giorgia, tutti i riquadri del pacchetto di contenuto originale sono stati eliminati, ma i riquadri aggiunti da altri report (per i quali dispone ancora di autorizzazioni per l'uso) sono ancora visualizzati. I report e il set di dati associati non sono più disponibili (e non vengono visualizzati nel riquadro di spostamento sinistro).
 7. In alternativa, Mattia elimina il pacchetto di contenuto.
    
    * Giulio non ha personalizzato il pacchetto di contenuto originale, quindi il contenuto viene rimosso automaticamente. 
-   * Giorgia ha personalizzato il pacchetto di contenuto. Alla successiva apertura del dashboard tutti i riquadri del pacchetto di contenuto originale sono stati eliminati, ma sono ancora visualizzati i riquadri che ha aggiunto da altri report. I report e il set di dati associati non sono più disponibili (e non sono visualizzati nel suo riquadro di spostamento sinistro).
+   * Giorgia ha personalizzato il pacchetto di contenuto. Alla successiva apertura del dashboard da parte di Giorgia tutti i riquadri del pacchetto di contenuto originale sono stati eliminati, ma i riquadri aggiunti da altri report sono ancora visualizzati. I report e il set di dati associati non sono più disponibili (e non vengono visualizzati nel riquadro di spostamento sinistro).
 
 ## <a name="data-security"></a>Sicurezza dei dati
-Tutti i membri del gruppo di distribuzione hanno le stesse autorizzazioni per i dati dell'autore del pacchetto di contenuto. L'unica eccezione sono i set di dati tabulari locali di SQL Server Analysis Services (SSAS). Dal momento che i report e i dashboard si connettono direttamente al modello SSAS locale, vengono usate le credenziali di ogni singolo membro del gruppo di distribuzione per determinare i dati ai quali può accedere.
+Tutti i membri del gruppo di distribuzione hanno le stesse autorizzazioni per i dati dell'autore del pacchetto di contenuto. L'unica eccezione sono i set di dati tabulari locali di SQL Server Analysis Services (SSAS). Dal momento che i report e i dashboard si connettono direttamente al modello SSAS locale, le credenziali di ogni singolo membro del gruppo di distribuzione vengono usate per determinare i dati a cui ognuno può accedere.
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare e pubblicare un pacchetto di contenuto aziendale](service-organizational-content-pack-create-and-publish.md)

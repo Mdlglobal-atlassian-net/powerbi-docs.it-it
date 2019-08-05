@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342189"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380257"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Aggiungere un filtro a un report in Power BI
 
@@ -76,6 +76,8 @@ Questa procedura usa l'esempio di analisi delle vendite al dettaglio, che è pos
     L'oggetto visivo cambia per riflettere il nuovo filtro. Se si salva il report insieme al filtro, i lettori del report vedranno inizialmente l'oggetto visivo filtrato e potranno interagire con il filtro nella visualizzazione di lettura selezionando o deselezionando i valori.
      
     ![Oggetto visivo filtrato](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    Quando si usa il filtro in un campo usato nell'oggetto visivo in cui il campo è aggregato (ad esempio una somma, una media o un conteggio), si filtra in base al valore *aggregato* in ogni punto dati. Se quindi si applica un filtro all'oggetto visivo in cui **This Year Sales > 500000**, nel risultato sarà presente solo il punto dati **13 - Charleston Fashion Direct**. I filtri in base alle [misure del modello](desktop-measures.md) si applicano sempre al valore aggregato del punto dati.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Filtrare con un campo non presente nell'oggetto visivo
 
@@ -94,6 +96,8 @@ Aggiungere ora un nuovo campo alla visualizzazione come filtro a livello di ogge
     ![Oggetto visivo filtrato](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Se si salva il report insieme al filtro, i lettori del report potranno interagire con il filtro **District Manager** nella visualizzazione di lettura, selezionando o deselezionando i valori.
+    
+    Se si trascina una *colonna numerica* nel riquadro di filtro per creare un filtro a livello di oggetto visivo, il filtro viene applicato alle *righe di dati sottostanti*. Se, ad esempio, si aggiunge un filtro nel campo **UnitCost** e si imposta **UnitCost** > 20, verranno visualizzati solo i dati per le righe dei prodotti in cui il costo unitario è maggiore di 20, indipendentemente dal costo unitario totale per i punti dati presenti nell'oggetto visivo.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>Aggiungere un filtro a un'intera pagina
 
@@ -158,10 +162,6 @@ Di seguito viene illustrato il funzionamento del filtro di drill-through.
 1. Selezionare la freccia indietro per tornare alla pagina precedente del report.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-
-- In alcune situazioni il filtro a livello di oggetto visivo e il filtro a livello di pagina possono restituire risultati diversi.  Ad esempio, quando si aggiunge un filtro a livello di oggetto visivo, Power BI filtra i risultati aggregati.  L'aggregazione predefinita è Sum, ma è possibile [modificare il tipo di aggregazione](service-aggregates.md).  
-
-    In seguito, quando si aggiunge un filtro a livello pagina, Power BI filtra senza l'aggregazione.  Non esegue l'aggregazione perché una pagina può contenere numerosi oggetti visivi, ognuno dei quali può utilizzare tipi diversi di aggregazione.  Pertanto, il filtro viene applicato su ogni riga di dati.
 
 - Se il riquadro Filtri non è visualizzato, verificare che sia attiva la [Visualizzazione di modifica](service-interact-with-a-report-in-editing-view.md) del report.    
 - Se sono state apportate numerose modifiche ai filtri e si vuole ripristinare le impostazioni predefinite dell'autore del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore.

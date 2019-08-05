@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8b68f6ee5e475c1b53f914c84372a0875fe87b5d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839152"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590496"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. In questo modo si può creare il modello di dati ideale in Power BI Desktop e pubblicarlo nel servizio Power BI. Partendo dallo stesso modello di dati comune, tutti possono così creare più report diversi (in file con estensione pbix separati) e salvarli in aree di lavoro diverse. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -28,20 +28,20 @@ Questa funzionalità comporta vari vantaggi, tra cui procedure consigliate che s
 Uno dei problemi relativi alla popolarità di Power BI è la proliferazione di rapporti, dashboard e dei relativi modelli di dati sottostanti. Il motivo è che è facile creare report interessanti in **Power BI Desktop**, quindi condividerli ([pubblicarli](desktop-upload-desktop-files.md)) nel **servizio Power BI** e creare dashboard eccezionali in base a tali set di dati. Dato che molti utenti procedevano in questo modo, spesso usando gli stessi (o quasi) set di dati, sapere quale report fosse basato su quale set di dati, e quanto fosse aggiornato ogni set di dati, è diventato un problema. La **Connessione dinamica al servizio Power BI** risolve questo problema, rendendo più semplici e coerenti le operazioni di creazione, condivisione ed espansione dei report e dei dashboard dei set di dati comuni.
 
 ### <a name="create-a-dataset-everyone-can-use-then-share-it"></a>Creare un set di dati che tutti possano usare, quindi condividerlo
-Si supponga che Anna, un'analista aziendale, faccia parte del proprio team e che sia molto brava a creare dei modelli di dati validi (spesso chiamati set di dati). Grazie alla sua esperienza, Anna riesce a creare un set di dati e un report e quindi a condividere tale report nel **servizio Power BI**.
+Si supponga che Anna, un'analista aziendale, faccia parte del proprio team e che sia molto brava a creare modelli di dati validi (spesso chiamati set di dati). Grazie alla sua esperienza, Anna può creare un set di dati e un report e quindi condividere tale report nel **servizio Power BI**.
 
 ![Pubblicare nel servizio Power BI](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-Tutti apprezzano il report e il set di dati creati da Anna ed è qui che ha origine il problema: ogni membro del team proverebbe a creare *la propria versione* dello stesso set di dati e quindi a condividere i propri report con il team. All'improvviso, l'area di lavoro del team nel **servizio Power BI** pullulerebbe di report provenienti da diversi set di dati. Qual è il più recente? I set di dati erano gli stessi o quasi? Quali erano le differenze? Con la funzionalità **Connessione dinamica al servizio Power BI**, tutto questo può cambiare in meglio. Nella sezione successiva si vedrà in che modo gli altri colleghi possono usare il set di dati pubblicato da Anna per personalizzare i report nelle proprie aree di lavoro e consentire a chiunque di usare lo stesso set di dati comune, esaminato e pubblicato per compilare i report univoci.
+Tutti apprezzano il report e il set di dati di Anna ed è qui che iniziano i guai: ogni membro del team vuole provare a creare una *versione personalizzata* del set di dati e quindi condividere i propri report con il team. All'improvviso, l'area di lavoro del team nel **servizio Power BI** si riempie di moltissimi report, provenienti da diversi set di dati. Qual è il più recente? I set di dati erano gli stessi o quasi? Quali erano le differenze? Con la funzionalità **Connessione dinamica al servizio Power BI**, tutto questo può cambiare in meglio. Nella sezione successiva si vedrà in che modo gli altri colleghi possono usare il set di dati pubblicato da Anna per personalizzare i report nelle proprie aree di lavoro e consentire a chiunque di usare lo stesso set di dati comune, esaminato e pubblicato per compilare i report univoci.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Connettersi a un set di dati del servizio Power BI usando una connessione dinamica
-Quando Anna avrà creato un report (e il set di dati su cui è basato) e lo pubblicherà nel **servizio Power BI**, questo verrà visualizzato nell'area di lavoro del suo team nel servizio Power BI. Se lo salverà in un'*area di lavoro della nuova esperienza*, Anna potrà impostare l'autorizzazione di compilazione affinché il report diventi disponibile e tutti i colleghi all'interno o all'esterno della sua area di lavoro possano visualizzarlo e usarlo.
+Se Anna crea un report (e il set di dati su cui è basato) e quindi lo pubblica nel **servizio Power BI**, viene visualizzato nell'area di lavoro del suo team nel servizio Power BI. Se Anna lo salva in un'*area di lavoro della nuova esperienza*, può impostare l'autorizzazione di creazione affinché il report diventi disponibile per la visualizzazione e l'uso per tutti i colleghi all'interno o all'esterno della sua area di lavoro.
 
 Per altre informazioni sulle aree di lavoro della nuova esperienza, vedere le [aree di lavoro per le app](service-new-workspaces.md).
 
-Altri membri all'interno e all'esterno dell'area di lavoro di Anna potranno ora stabilire una connessione dinamica al suo modello di dati condiviso (usando la funzionalità **Connessione dinamica al servizio Power BI**) e creare report personalizzati sulla base del *suo set di dati originale* nelle *proprie aree di lavoro della nuova esperienza*.
+Altri membri all'interno e all'esterno dell'area di lavoro di Anna possono ora stabilire una connessione dinamica al suo modello di dati condiviso (usando la funzionalità **Connessione dinamica al servizio Power BI**) e creare report personalizzati basati sul *set di dati originale* nelle *proprie aree di lavoro della nuova esperienza*.
 
-Nella figura seguente, si vedrà in che modo Anna crea un report di **Power BI Desktop** e lo pubblica (incluso il modello di dati) nel **servizio Power BI**. Quindi, altri colleghi potranno connettersi al suo modello di dati usando la funzionalità **Connessione dinamica al servizio Power BI** e creare report univoci basati sul suo set di dati nelle proprie aree di lavoro.
+Nella figura seguente, si vedrà in che modo Anna crea un report di **Power BI Desktop** e lo pubblica (incluso il modello di dati) nel **servizio Power BI**. Quindi, altri colleghi potranno connettersi al modello di dati di Anna usando la funzionalità **Connessione dinamica al servizio Power BI** e creare report personalizzati basati sul set di dati di Anna nelle proprie aree di lavoro.
 
 ![Più report basati sullo stesso set di dati](media/desktop-report-lifecycle-datasets/report-lifecycle_03.png)
 
@@ -54,15 +54,15 @@ Nella figura seguente, si vedrà in che modo Anna crea un report di **Power BI D
 Ora che si conosce l'utilità della funzionalità **Connessione dinamica al servizio Power BI** e come è possibile usarla come approccio ottimale alla gestione del ciclo di vita del report, si passerà a esaminare i passaggi che portano dall'utile report (e set di dati) di Anna a un set di dati condiviso che i sui colleghi di Power BI potranno usare.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Pubblicare un report e un set di dati di Power BI
-Il primo passaggio nella gestione del ciclo di vita del report con una **connessione dinamica al servizio Power BI** consiste nel creare un report (e set di dati) che i colleghi vorranno usare. Pertanto Anna dovrà innanzitutto **pubblicare** il suo report da **Power BI Desktop**. A tale scopo, seleziona **Pubblica** dalla barra multifunzione **Home** in Power BI Desktop.
+Il primo passaggio nella gestione del ciclo di vita del report con una **connessione dinamica al servizio Power BI** consiste nel creare un report (e set di dati) che i colleghi vorranno usare. Anna deve quindi prima **pubblicare** il report da **Power BI Desktop**. A tale scopo, è necessario selezionare **Pubblica** sulla barra multifunzione **Home** in Power BI Desktop.
 
 ![Pubblicare un report](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
-Se non ha ancora effettuato l'accesso al suo account del servizio Power BI, le verrà richiesto di farlo.
+Se Anna non ha ancora effettuato l'accesso all'account del servizio Power BI, verrà visualizzata una notifica popup in cui viene chiesto di farlo.
 
 ![Accedere a Power BI Desktop](media/desktop-report-lifecycle-datasets/report-lifecycle_04.png)
 
-Da lì, sarà possibile scegliere l'area di lavoro di destinazione nella quale verranno pubblicati il report e il set di dati. Tenere presente che se Anna salva il report in un'area di lavoro della nuova esperienza, chiunque disponga dell'autorizzazione di compilazione potrà accedere al set di dati. L'autorizzazione di compilazione viene impostata nel servizio Power BI dopo la pubblicazione. Se salva il report in un'area di lavoro classica, solo i membri che hanno accesso all'area di lavoro in cui è pubblicato il report potranno accedere al relativo set di dati usando una **connessione dinamica al servizio Power BI**.
+A questo punto, Anna può scegliere l'area di lavoro di destinazione nella quale verranno pubblicati il report e il set di dati. Tenere presente che se Anna salva il report in un'area di lavoro della nuova esperienza, chiunque abbia l'autorizzazione di creazione potrà accedere al set di dati. L'autorizzazione di compilazione viene impostata nel servizio Power BI dopo la pubblicazione. Se il lavoro viene salvato in un'area di lavoro classica, solo i membri che hanno accesso all'area di lavoro in cui è pubblicato il report potranno accedere al relativo set di dati usando la funzionalità **Connessione dinamica al servizio Power BI**.
 
 ![Pubblicare nel servizio Power BI](media/desktop-report-lifecycle-datasets/report-lifecycle_05.png)
 
@@ -100,8 +100,8 @@ Quando si usa la **Connessione dinamica al servizio Power BI** occorre tenere pr
 
 * Solo gli utenti con autorizzazione di compilazione per un set di dati possono connettersi a un set di dati pubblicato usando la funzionalità **Connessione dinamica al servizio Power BI**. 
 * Gli utenti del piano gratuito visualizzano solo i set di dati dell'area di lavoro personale e delle aree di lavoro con capacità Premium.
-* Dato che si tratta di una connessione dinamica, lo spostamento a sinistra e la modellazione sono disabilitati, analogamente al comportamento riscontrato quando si è connessi a **SQL Server Analysis Services**.
-* Dato che si tratta di una connessione dinamica, vengono applicati la sicurezza a livello di riga e di ruolo, OneDrive for Business e altri simili comportamenti di connessione, esattamente come quando si è connessi a **SQL Server Analysis Services**.
+* Poiché si tratta di una connessione dinamica, lo spostamento a sinistra e la modellazione sono disabilitati, analogamente al comportamento riscontrato quando si è connessi a **SQL Server Analysis Services**, ed è possibile solo connettersi a un set di dati in ogni report.
+* Poiché si tratta di una connessione dinamica, vengono applicati la sicurezza a livello di riga e di ruolo e altri comportamenti di connessione simili, esattamente come quando si è connessi a **SQL Server Analysis Services**.
 * Se si modifica il file originale con estensione pbix condiviso, il set di dati e il report condivisi nel **servizio Power BI** vengono sovrascritti. I report basati su tale set di dati non vengano sovrascritti, ma eventuali modifiche al set di dati saranno visibili nel report.
 * I membri di un'area di lavoro non possono sostituire il report condiviso in origine. Se si prova a farlo, verrà visualizzato un avviso che richiede di rinominare il file e pubblicarlo.
 * Se si elimina il set di dati condiviso nel **servizio Power BI**, gli altri report basati su tale set di dati non funzioneranno più correttamente né visualizzeranno gli oggetti visivi.

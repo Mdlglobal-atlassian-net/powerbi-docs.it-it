@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 07/15/2019
 ms.author: mblythe
-ms.openlocfilehash: 38993bd6ab28787acd13a9b544d37f9cb5fe2125
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4ec2c2c60a55dd4b7fd89f7fe7368c8b52f13baf
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270877"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462216"
 ---
 > [!NOTE]
-> Di recente è stata rivista la documentazione relativa al gateway locale, che è stata suddivisa in [contenuto specifico di Power BI](/power-bi/service-gateway-onprem) e [contenuto generale applicabile a tutti i servizi](/data-integration/gateway/service-gateway-onprem) supportati dal gateway. Ci si trova attualmente nel contenuto di Power BI. Per inviare commenti e suggerimenti su questo articolo o sull'esperienza generale relativa alla documentazione sul gateway, scorrere fino alla fine dell'articolo.
+> Di recente è stata rivista la documentazione sul gateway dati locale. Gli argomenti sono stati suddivisi in [contenuti specifici di Power BI](/power-bi/service-gateway-onprem) e [contenuti generali applicabili a tutti i servizi](/data-integration/gateway/service-gateway-onprem) supportati dal gateway. Ci si trova attualmente nel contenuto di Power BI. Per inviare commenti e suggerimenti su questo articolo o sull'esperienza generale relativa alla documentazione sul gateway, scorrere fino alla fine dell'articolo.

@@ -1,6 +1,6 @@
 ---
-title: Oggetti visivi personalizzati dell'organizzazione in Power BI
-description: Usare, gestire e creare oggetti visivi personalizzati dell'organizzazione in Power BI
+title: Oggetti visivi dell'organizzazione in Power BI
+description: Usare, gestire e creare oggetti visivi dell'organizzazione in Power BI
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421914"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415348"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Oggetti visivi personalizzati dell'organizzazione in Power BI
+# <a name="organizational-visuals-in-power-bi"></a>Oggetti visivi dell'organizzazione in Power BI
 
 È possibile usare oggetti visivi personalizzati in Power BI per creare un tipo di oggetto visivo esclusivo su misura. Gli oggetti visivi personalizzati vengono creati dagli sviluppatori e spesso vengono creati quando la grande varietà di oggetti visivi inclusi in Power BI non soddisfa esigenze specifiche.
 

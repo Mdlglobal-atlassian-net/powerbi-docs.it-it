@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826669"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523222"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 
@@ -144,7 +144,7 @@ Quando il modello tabulare è stato distribuito ed è pronto per l'uso, è neces
    
    Nel ruolo di **Responsabile vendite** l'utente Sumit può visualizzare i dati di tutte le varie aree di vendita. Sumit crea il report, vale a dire quello creato nei precedenti passaggi delle attività, e lo pubblica nel servizio Power BI.
    
-   Dopo aver pubblicato il report, nel servizio Power BI crea un dashboard denominato **TabularDynamicSec** basato su tale report. Nell'immagine seguente si può notare che Sumit può visualizzare i dati corrispondenti all'intera area di vendita.
+   Dopo aver pubblicato il report, Sumit crea un dashboard nel servizio Power BI denominato **TabularDynamicSec**, basato su tale report. Nell'immagine seguente si può notare che Sumit può visualizzare i dati corrispondenti all'intera area di vendita.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 

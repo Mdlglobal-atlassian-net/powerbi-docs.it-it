@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67300192"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523734"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Procedure consigliate per la progettazione di report e oggetti visivi
 
@@ -1007,7 +1007,7 @@ Per altre informazioni sulle mappe ad albero, vedere:
 
 In generale, i grafici a barre, gli istogrammi e i grafici a linee saranno appropriati nella maggior parte dei casi. È ormai appurato che è difficile interpretare correttamente i grafici a torta e ad anello. In effetti, questi grafici spesso distorcono i dati. Evitarli pertanto quando possibile. Stephen Few ha scritto un ottimo articolo sulla storia di questi grafici e i loro rischi in [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf) (Lasciare le torte per i dessert).
 
-In questo articolo spiega l'unico caso in cui i grafici a torta possono essere utili, ovvero per il confronto delle relazioni tra le parti e il rispettivo intero. Raramente questo tipo di grafico risulta migliore di un grafico a barre in pila 100%.
+In questo articolo spiega l'unico caso in cui i grafici a torta possono essere utili, ovvero per il confronto di relazioni tra la parte e il tutto. Raramente questo tipo di grafico risulta migliore di un grafico a barre in pila 100%.
 
 Un altro articolo divertente (con animazione) sui grafici a torta è disponibile nel [sito di Darkhorse Analytics](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
 

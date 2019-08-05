@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299428"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523344"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 
@@ -150,9 +150,9 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
 
 - Per esportare i dati da un oggetto visivo, è necessario disporre dell'[autorizzazione di compilazione per il set di dati sottostante](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
 
--  Il numero massimo di righe che **Power BI Desktop** e il **servizio Power BI** possono esportare in un file con estensione *csv* è 30.000.
+-  Il numero massimo di righe che **Power BI Desktop** e il **servizio Power BI** possono esportare da un **report in modalità di importazione** in un file *CSV* è 30.000.
 
-- Il numero massimo di righe che le applicazioni possono esportare in un file *xlsx* è 150.000.
+- Il numero massimo di righe che le applicazioni possono esportare da un **report in modalità di importazione** in un file *XLSX* è 150.000.
 
 - L'esportazione mediante *Dati sottostanti* non funziona nei casi seguenti:
 
@@ -166,7 +166,7 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
 
 - L'esportazione tramite *Dati sottostanti* non funziona se si abilita l'opzione *Mostra elementi senza dati* per la visualizzazione esportata da Power BI.
 
-- Quando si usa DirectQuery, Power BI può esportare al massimo 16 MB di dati. Tra i risultati imprevisti può verificarsi il caso in cui l'esportazione è inferiore al numero massimo di righe. Ciò può accadere se:
+- Quando si usa DirectQuery, Power BI può esportare al massimo 16 MB di dati non compressi. Tra i risultati imprevisti può verificarsi il caso in cui l'esportazione è inferiore al numero massimo di righe. Ciò può accadere se:
 
     - Sono presenti molte colonne.
 

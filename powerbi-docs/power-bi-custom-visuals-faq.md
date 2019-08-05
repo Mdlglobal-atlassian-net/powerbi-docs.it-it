@@ -1,5 +1,5 @@
 ---
-title: Domande frequenti sugli oggetti visivi personalizzati di Power BI
+title: Domande frequenti sugli oggetti visivi di Power BI
 description: Esplorare un elenco di domande frequenti e risposte relative agli oggetti visivi personalizzati di Power BI
 author: sranins
 ms.author: rasala
@@ -10,16 +10,18 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 58fa65abfa2d2cff5e02b34fe8db8aa10b36ee14
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497920"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415395"
 ---
-# <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Domande frequenti sugli oggetti visivi personalizzati di Power BI
+# <a name="frequently-asked-questions-about-power-bi-visuals"></a>Domande frequenti sugli oggetti visivi di Power BI
 
 ## <a name="organizational-custom-visuals"></a>Oggetti visivi personalizzati dell'organizzazione
+
+Il portale di amministrazione consente di gestire gli oggetti visivi di Power BI per l'organizzazione.
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>In quale modo l'amministratore può gestire gli oggetti visivi personalizzati dell'organizzazione?
 

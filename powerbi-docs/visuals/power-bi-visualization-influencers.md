@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751264"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590595"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
 L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori che stanno alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Ad esempio si supponga di voler scoprire che cosa influenza l'avvicendamento dei dipendenti. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
@@ -132,8 +132,13 @@ La visualizzazione indica che ogni volta che la permanenza aumenta di 13,44 mesi
  
 Il grafico a dispersione nel riquadro a destra visualizza la percentuale media di valutazioni basse per ogni valore di permanenza. L'inclinazione viene evidenziata con una linea di tendenza.
 
-
 ![Grafico a dispersione per la permanenza](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>Fattori di influenza chiave continui sottoposti a binning
+
+In alcuni casi è possibile che i fattori continui siano stati trasformati automaticamente in fattori categorici. Ciò è dovuto al fatto che la relazione tra le variabili non è lineare e quindi non è possibile descrivere la relazione come semplicemente crescente o decrescente (come nell'esempio precedente).
+
+Vengono eseguiti test di correlazione per determinare la linearità del fattore di influenza rispetto all'obiettivo. Se l'obiettivo è continuo, viene eseguita la correlazione di Perasons, mentre se è categorico, vengono eseguiti test di correlazione punto-biseriale. Se si rileva che la relazione non è sufficientemente lineare, viene eseguito il binning sotto supervisione, con la generazione di un massimo di 5 contenitori. Per capire quali sono i contenitori più sensati, viene usato un metodo di binning sotto supervisione che esamina la relazione tra il fattore esplicativo e l'obiettivo analizzato.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretare misure e aggregazioni come fattori di influenza chiave 
  
@@ -210,15 +215,14 @@ I segmenti principali per le destinazioni numeriche visualizzano i gruppi in cui
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi 
  
-**Quali sono le limitazioni per l'anteprima?** 
+**Quali sono le limitazioni per l'oggetto visivo?** 
  
-L'oggetto visivo dei fattori di influenza chiave è attualmente in anteprima pubblica e presenta alcune limitazioni. Le funzionalità attualmente non disponibili includono: 
-- Analisi delle metriche corrispondenti ad aggregazioni o misure.
-- Uso dell'oggetto visivo in Power BI Embedded.
-- Uso dell'oggetto visivo nelle app per dispositivi mobili Power BI.
-- Supporto della sicurezza a livello di riga.
-- Supporto di DirectQuery.
-- Supporto delle connessioni dinamiche.
+L'oggetto visivo relativo ai fattori di influenza chiave ha alcune limitazioni:
+
+- Non è disponibile il supporto di DirectQuery
+- Non è disponibile il supporto della connessione dinamica ad Azure Analysis Services e SQL Server Analysis Services
+- Non è disponibile il supporto della funzionalità Pubblica sul Web
+- È necessario .NET Framework 4.6 o versione successiva
 
 ![Domanda di tipo numerico](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -264,7 +268,7 @@ Questo errore viene visualizzato perché il dispositivo non è definito a livell
 - È possibile modificare il riepilogo dei dispositivi impostandolo su count (conteggio). Usare ad esempio count se il numero di dispositivi potrebbe influire sul punteggio assegnato da un cliente. 
 - È possibile trasformare tramite pivot la colonna del dispositivo per vedere se l'uso del servizio in un dispositivo specifico ha effetto sulla valutazione data dal cliente.
  
-In questo esempio i dati sono stati trasformati tramite pivot per creare nuove colonne "browser", "mobile" (dispositivo mobile) e "tablet". Ora è possibile usare questi dispositivi specifici in **Spiega in base a**. Tutti i dispositivi risultano essere fattori di influenza e il browser ha l'effetto maggiore sulla valutazione data dai clienti.
+In questo esempio, i dati sono stati trasformati tramite pivot per creare nuove colonne per browser, dispositivi mobili e tablet (assicurarsi di eliminare e ricreare le relazioni nella visualizzazione di modellazione dopo la trasformazione dei dati tramite pivot). Ora è possibile usare questi dispositivi specifici in **Spiega in base a**. Tutti i dispositivi risultano essere fattori di influenza e il browser ha l'effetto maggiore sulla valutazione data dai clienti.
 
 Più precisamente, i clienti che non usano il browser per il servizio hanno probabilità 3,79 volte maggiori di dare una valutazione bassa rispetto ai clienti che usano il browser. Più in basso nell'elenco, si noti che per i dispositivi mobili è vero il contrario. I clienti che usano l'app per dispositivi mobili hanno più probabilità di dare una valutazione bassa rispetto ai clienti che non usano l'app. 
 

@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791996"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523416"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Esempio Analisi della redditività dei clienti per Power BI: Presentazione
 
-Il pacchetto di contenuto di esempio Analisi della redditività dei clienti contiene un dashboard, un report e un set di dati per una società che produce materiali di marketing. Il dashboard è stato creato da una responsabile amministrativa per ottenere le metriche principali relative ai cinque responsabili di business unit, ai prodotti, ai clienti e ai margini lordi e trovare subito i fattori che influiscono negativamente sulla redditività.
+Il pacchetto di contenuto di esempio Analisi della redditività dei clienti contiene un dashboard, un report e un set di dati per una società che produce materiali di marketing. Il dashboard è stato creato da una responsabile amministrativa per ottenere le metriche principali relative ai cinque responsabili di business unit (dirigenti), ai prodotti, ai clienti e ai margini lordi. È possibile capire a prima vista quali fattori influiscono sulla redditività.
 
 ![Dashboard per l'esempio Redditività clienti](media/sample-customer-profitability/power-bi-dash.png)
 
-Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. L'esempio è stato creato con dati reali messi a disposizione da [obviEnce](http://www.obvience.com/) che sono stati resi anonimi. I dati sono disponibili in diversi formati: pacchetto di contenuto, file di Power BI Desktop con estensione pbix o cartella di lavoro di Excel. Vedere [Esempi per Power BI](sample-datasets.md). 
+Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. L'esempio è stato creato con dati reali di [obviEnce](http://www.obvience.com/), che sono stati resi anonimi. I dati sono disponibili in diversi formati: pacchetto di contenuto, file di Power BI Desktop con estensione pbix o cartella di lavoro di Excel. Vedere [Esempi per Power BI](sample-datasets.md). 
 
 Questa esercitazione esplora il pacchetto di contenuto Customer Profitability Sample nel servizio Power BI. Dato che l'esperienza per i report è simile in Power BI Desktop e nel servizio, è anche possibile seguire le descrizioni usando il file con estensione pbix dell'esempio in Power BI Desktop. 
 
@@ -66,7 +66,7 @@ Nell'area di lavoro in cui è stato salvato l'esempio trovare il dashboard Reddi
 ![Dashboard per l'esempio Redditività clienti](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Riquadri del dashboard a livello societario
-1. Aprire il dashboard nel servizio Power BI. I riquadri del dashboard offrono alla responsabile amministrativa una visualizzazione delle metriche aziendali di alto livello più importanti. Quando trova dati interessanti, può selezionare un riquadro per analizzarli in dettaglio.
+1. Aprire il dashboard nel servizio Power BI. I riquadri del dashboard offrono alla responsabile amministrativa una visualizzazione generale delle metriche aziendali più importanti. Quando vengono individuati dati interessanti, è possibile selezionare un riquadro per analizzarli in dettaglio.
 
 2. Esaminare i riquadri sul lato sinistro del dashboard.
 
@@ -81,7 +81,7 @@ Nell'area di lavoro in cui è stato salvato l'esempio trovare il dashboard Reddi
    - Il fatturato totale per l'anno in corso è vicino al budget.
 
 ### <a name="manager-specific-dashboard-tiles"></a>Riquadri del dashboard specifici del responsabile
-I riquadri sul lato destro del dashboard forniscono una scorecard del team. La responsabile amministrativa deve monitorare i responsabili a lei sottoposti e questi riquadri le offrono una panoramica del profitto di alto livello, usando la percentuale di margine lordo. Se la tendenza della percentuale di margine lordo è imprevista per qualsiasi responsabile, la responsabile amministrativa potrà eseguire ulteriori indagini.
+I riquadri sul lato destro del dashboard forniscono una scorecard del team. La responsabile amministrativa deve monitorare i responsabili a lei sottoposti e questi riquadri forniscono una panoramica generale del profitto in base alla percentuale di margine lordo. Se per un responsabile la tendenza della percentuale di margine lordo è diversa da quanto previsto, è possibile indagare ulteriormente.
 
 ![Percentuale di margine lordo per i responsabili](media/sample-customer-profitability/power-bi-manager2.png)
 
@@ -89,7 +89,7 @@ Analizzando i riquadri del dashboard riservati ai responsabili si possono formul
 
 - Tutti i dirigenti, ad eccezione di Carlos, hanno già superato gli obiettivi di vendita. Le vendite effettive di Carlos sono, tuttavia, le più alte.
 - La percentuale di margine lordo di Annelie è la più bassa, ma si osserva un aumento costante a partire da marzo.
-- Valery, d'altro canto, ha visto un calo significativo della sua percentuale di margine lordo.
+- Per Valery, d'altro canto, si è verificato un calo significativo della percentuale di margine lordo.
 - Andrew ha avuto un anno volatile.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Esplorare i dati sottostanti del dashboard
@@ -106,7 +106,7 @@ Due riquadri in questo dashboard, **Target vs Actual** (Vendite previste ed effe
 
     a. Dal dispositivo di scorrimento **Executive** (Responsabile) selezionare **Carlos Grilo**.   
 
-    b. La prima tabella pivot indica che la crescita dei ricavi di Carlos per il suo prodotto principale, Primus, è diminuita del 152% rispetto all'anno precedente. Il grafico **YoY Revenue Variance** (Varianza dei ricavi negli anni) indica che per la maggior parte dei mesi non raggiunge il budget.  
+    b. La prima tabella pivot indica che la crescita dei ricavi di Carlos per il suo prodotto principale, Primus, è diminuita del 152% rispetto all'anno precedente. Il grafico **YoY Revenue Variance** mostra che per la maggior parte dei mesi Carlos non ha raggiunto il budget.  
 
     ![Tabella pivot](media/sample-customer-profitability/power-bi-pivotchart.png)
 
@@ -139,10 +139,10 @@ Verranno ora esaminati nel dettaglio due membri del team per ottenere informazio
 1. Nel filtro dei dati **Executive** a sinistra selezionare il nome di Andrew per filtrare la pagina del report in modo da visualizzare solo i dati su Andrew:
 
    * Per un indicatore KPI rapido, esaminare lo stato dei ricavi di Andrew in **Revenue Status (Total Year)** . È verde, il che significa che sta ottenendo ottimi risultati.
-   * Il grafico **Revenue % Variance to Budget by Month and Executive** mostra che, fatta eccezione per una flessione a febbraio, Andrew sta ottenendo buoni risultati. La sua area dominante è l'est, in cui gestisce 49 clienti e 5 prodotti su 7. La sua percentuale di margine lordo non è la più elevata né la più ridotta.
+   * Il grafico **Revenue % Variance to Budget by Month and Executive** mostra che, fatta eccezione per una flessione a febbraio, Andrew sta ottenendo buoni risultati. L'area dominante di Andrew è l'est, in cui gestisce 49 clienti e 5 prodotti su 7. La percentuale di margine lordo di Andrew non è la più elevata né la più bassa.
    * Il grafico **RevenueTY and Revenue % Var to Budget by Month** (Ricavi annuali e % varianza ricavi rispetto al budget per mese) mostra un profitto costante e uniforme. Tuttavia, se si filtra il grafico selezionando il quadrato dell'area **Central** nella mappa ad albero, si scopre che Andrew può contare su ricavi solo a marzo e solo nello stato dell'Indiana. Questa tendenza è intenzionale oppure è un fatto su cui indagare ulteriormente?
 
-2. Passiamo ora a Valery. Nel filtro dei dati **Executive** selezionare il nome di Valery per filtrare la pagina del report e visualizzare solo i dati sull'utente. 
+2. Passiamo ora a Valery. Nel filtro dei dati **Executive** selezionare il nome di Valery per filtrare la pagina del report e visualizzare solo i dati su di lei. 
 
    ![Dati di Valery](media/sample-customer-profitability/customer3.png)
 
@@ -150,7 +150,7 @@ Verranno ora esaminati nel dettaglio due membri del team per ottenere informazio
    * Anche la varianza dei ricavi di Valery dipinge un quadro preoccupante: non ha raggiunto i margini di ricavo previsti.
    * Valery ha solo nove clienti, gestisce solo due prodotti e lavora quasi esclusivamente con i clienti nell'area nord. Questa specializzazione potrebbe spiegare le ampie fluttuazioni nelle sue metriche.
    * Se si seleziona il quadrato **North** nella mappa ad albero si scopre che il margine lordo di Valery nell'area nord è coerente con il suo margine complessivo.
-   * Selezionando uno a uno gli altri quadrati di **Total Revenue by Region** (Ricavi totali per area) si apprende che la sua percentuale di margine lordo va dal 23% al 79% e le cifre dei ricavi, in tutte le aree tranne quella nord, sono estremamente stagionali.
+   * Selezionando ognuno degli altri quadrati **Total Revenue by Region** si può notare un dato interessante: la percentuale di margine lordo va dal 23% al 79%. Le cifre relative ai ricavi di Valery, in tutte le aree tranne quella nord, sono estremamente stagionali.
 
 3. Continuiamo a esplorare per scoprire il motivo per cui l'area di Valery non offre buoni risultati. Osservare le aree, le altre business unit e la pagina successiva del report: **Industry Margin Analysis** (Analisi del margine di settore).
 
@@ -165,10 +165,10 @@ Questa pagina del report mostra una sezione diversa dei dati. Illustra il margin
 
 3. Man mano che si selezionano i singoli responsabili nel grafico, si noti quanto segue:
    * L'area di influenza di Andrew attraversa molti segmenti del settore differenti, con percentuali di varianza e di margine lordo assai variabili (la maggior parte verso il lato positivo)
-   * Il grafico di Annelie è simile, tranne per il fatto che lei si concentra solo su una manciata di segmenti del settore, con particolare attenzione al segmento Federal e al prodotto Gladius.
-   * Carlos è chiaramente concentrato sul segmento Services, con buoni risultati. Ha migliorato notevolmente la percentuale di varianza per il segmento High Tech e in un nuovo segmento, Industrial, ha prodotto risultati eccezionali rispetto al budget.
+   * Il grafico di Annelie è simile, tranne per il fatto che lei si concentra solo su alcuni segmenti del settore, con particolare attenzione al segmento Federal e al prodotto Gladius.
+   * Carlos è chiaramente concentrato sul segmento Services, con buoni risultati. Anche Carlos ha migliorato notevolmente la percentuale di varianza per il segmento High Tech e in un nuovo segmento, Industrial, ha ottenuto risultati eccezionali rispetto al budget.
    * Tina lavora con pochi segmenti e vanta la percentuale di margine lordo più alta di tutti, ma le dimensioni in gran parte ridotte delle sue bolle mostrano che il suo impatto sul bilancio aziendale è minimo.
-   * Valery, che è responsabile di un solo prodotto, lavora solo in cinque segmenti del settore. La sua influenza sul settore è stagionale, ma produce sempre una bolla di grandi dimensioni, che indica un impatto significativo sul bilancio aziendale. I segmenti del settore possono spiegare i suoi risultati negativi?
+   * Valery, che è responsabile di un solo prodotto, lavora solo in cinque segmenti del settore. L'influenza di Valery sul settore è stagionale, ma produce sempre una bolla di grandi dimensioni, che indica un impatto significativo sul bilancio aziendale. I segmenti del settore possono spiegare i risultati negativi?
 
 ### <a name="executive-scorecard"></a>Executive Scorecard
 Questa pagina è formattata come una pagina di risposte per Cortana. Per altre informazioni, vedere [Creare una pagina di risposte personalizzata per Cortana](service-cortana-answer-cards.md).

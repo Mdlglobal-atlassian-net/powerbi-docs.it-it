@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239481"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522220"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Uso delle tabelle calcolate in Power BI Desktop
 Con le tabelle calcolate è possibile aggiungere una nuova tabella al modello. Tuttavia, invece di eseguire query e caricare i valori nelle colonne della nuova tabella da un'origine dati, viene creata una formula Data Analysis Expressions (DAX) che definisce i valori della tabella. In Power BI Desktop, le tabelle calcolate vengono create usando la funzionalità Nuova tabella in Visualizzazione Report o Vista dati.
@@ -39,7 +39,7 @@ Jeff, responsabile di progetto in Contoso, ha una tabella con i dipendenti dell'
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Unire queste due tabelle con una tabella calcolate è piuttosto semplice. Sebbene Jeff possa creare una tabella calcolata in Visualizzazione Report o Vista dati, è un po' più semplice crearla in Vista dati perché è possibile visualizzare immediatamente la nuova tabella calcolata.
+Unire queste due tabelle con una tabella calcolate è piuttosto semplice. Sebbene Jeff possa creare una tabella calcolata nella visualizzazione report o dati, è un po' più semplice crearla nella visualizzazione dati perché è possibile vedere immediatamente la nuova tabella calcolata.
 
 Nella scheda **Creazione di modelli**di **Vista dati** Jeff fa clic su **Nuova tabella**. Viene visualizzata una barra della formula.
 
@@ -53,7 +53,7 @@ Viene creata una nuova tabella denominata Western Region Employees.
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-La nuova tabella Western Region Employees di Jeff viene visualizzata nell'elenco Campi proprio come qualsiasi altra tabella. Jeff può creare relazioni ad altre tabelle, aggiungere misure e colonne calcolate nonché aggiungere uno dei campi della tabella ai report analogamente a qualsiasi altra tabella.
+La nuova tabella Western Region Employees di Jeff viene visualizzata nell'elenco Campi proprio come qualsiasi altra tabella. Jeff può anche creare relazioni con altre tabelle, aggiungere misure e colonne calcolate nonché aggiungere i campi desiderati della tabella ai report analogamente a qualsiasi altra tabella.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235061"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475623"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Connettersi a set di dati con applicazioni client e strumenti (anteprima)
 
-Le aree di lavoro e i set di dati di Power BI Premium supportano le connessioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti. 
+Le aree di lavoro e i set di dati di Power BI Premium supportano le connessioni di *sola lettura* da applicazioni client e strumenti Microsoft e di terze parti. Per impostazione predefinita, le connessioni sono abilitate
 
 > [!NOTE]
 > Questo articolo offre un'introduzione alla connettività di sola lettura alle aree di lavoro e ai set di dati di Power BI Premium. L'articolo *non* include informazioni dettagliate su programmazione, strumenti e applicazioni specifici, architettura e gestione delle aree di lavoro e dei set di dati. Gli argomenti descritti richiedono una conoscenza approfondita dell'architettura e dell'amministrazione dei database modello tabulare di Analysis Services.
@@ -104,6 +104,10 @@ I set di dati seguenti non sono supportati nel servizio Power BI:
 ### <a name="roles-and-role-memberships"></a>Ruoli e appartenenze a ruoli
 
 Attualmente, i ruoli dei modelli e le appartenenze ai ruoli non sono individuabili né visualizzati tramite gli endpoint XMLA.
+
+## <a name="disable-connectivity"></a>Disabilitare la connettività
+
+Per impostazione predefinita, la connettività dell'endpoint XMLA è abilitata per il carico di lavoro dei set di dati. È possibile disabilitare la connettività nelle [impostazioni del carico di lavoro](service-admin-premium-workloads.md#workload-settings).
 
 ## <a name="audit-logs"></a>Log di controllo 
 

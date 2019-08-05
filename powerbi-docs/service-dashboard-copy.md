@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ffa05d34b86ba2a4673e3d9db39e15f030fb17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136649"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523181"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Creare una copia di un dashboard nel servizio Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
- Esistono molte ragioni diverse per creare una copia di un dashboard. Ad esempio, potrebbe essere opportuno apportare modifiche e testarne le prestazioni rispetto all'originale oppure creare versioni lievemente differenti da distribuire in base a colleghi, area o team. Forse un collega ammira la progettazione del dashboard e vuole usarlo per la creazione di report da inviare al proprio responsabile. Un altro motivo potrebbe essere se si ha un nuovo database con la stessa struttura di dati e gli stessi tipi di dati e si vuole riutilizzare il dashboard già creato; tuttavia, ciò richiederebbe alcune operazioni in Power BI Desktop. 
+ Esistono molte ragioni diverse per creare una copia di un dashboard. Ad esempio, potrebbe essere opportuno apportare modifiche e testarne le prestazioni rispetto all'originale oppure creare versioni lievemente differenti da distribuire in base a colleghi, area o team. Magari un collega ammira la progettazione del dashboard e vuole usarlo per la creazione di report da inviare al proprio responsabile. Un altro motivo potrebbe essere se si ha un nuovo database con la stessa struttura di dati e gli stessi tipi di dati e si vuole riutilizzare il dashboard già creato; tuttavia, ciò richiederebbe alcune operazioni in Power BI Desktop. 
 
 I dashboard vengono creati e copiati tramite il servizio Power BI e possono essere visualizzati in Power BI per dispositivi mobili e in Power BI Embedded.  I dashboard non sono disponibili in Power BI Desktop. 
 

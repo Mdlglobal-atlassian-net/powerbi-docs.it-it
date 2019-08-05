@@ -1,6 +1,6 @@
 ---
 title: Configurare le impostazioni del flusso di dati dell'area di lavoro
-description: Configurare un'area di lavoro in Power BI per archiviare la definizione del flusso di dati e file di dati in Azure Data Lake Storage Gen2
+description: Configurare un'area di lavoro per le app in Power BI per archiviare i file di definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61168553"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523513"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)
 

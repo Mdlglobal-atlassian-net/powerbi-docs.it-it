@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c7a2b3580516c563d8a2a6d79fdc48d241e89849
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239858"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522209"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Uso delle colonne calcolate in Power BI Desktop
 Con le colonne calcolate, è possibile aggiungere nuovi dati a una tabella già presente nel modello. Tuttavia, invece di eseguire query e caricare i valori nella nuova colonna da un'origine dati, viene creata una formula Data Analysis Expressions (DAX) che definisce i valori della colonna. In Power BI Desktop, le colonne calcolate vengono create usando la funzionalità Nuova colonna in Visualizzazione Report.
@@ -31,13 +31,13 @@ Le colonne calcolate calcolano i risultati usando [Data Analysis Expressions](ht
 Le formule DAX somigliano alle formule di Excel. In effetti, DAX ha molte funzioni analoghe ad Excel. Le funzioni DAX, tuttavia, sono concepite per funzionare su dati suddivisi in modo interattivo o filtrati in un report, come in Power BI Desktop. A differenza di Excel, in cui si possono avere formule diverse per ogni riga nella tabella, quando si crea una formula DAX per una nuova colonna il risultato viene calcolato per tutte le righe nella tabella. I valori della colonna vengono ricalcolati in base alle esigenze, ad esempio quando vengono aggiornati i dati sottostanti e vengono modificati i valori.
 
 ## <a name="lets-look-at-an-example"></a>Esempio
-Jeff è un responsabile delle spedizioni di Contoso. Vuole creare un report che mostri il numero di spedizioni nelle diverse città. Ha una tabella Geography con campi separati per città e stato, ma vuole che il report visualizzi City, State come un unico valore sulla stessa riga. Al momento, la tabella Geography di Jeff non contiene il campo che vuole.
+Jeff è un responsabile delle spedizioni di Contoso e vuole creare un report che mostri il numero di spedizioni nelle diverse città. Ha una tabella Geography con campi separati per città e stato. Jeff vuole tuttavia che i report visualizzino City, State come un unico valore sulla stessa riga. Al momento, la tabella Geography di Jeff non contiene il campo che vuole.
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
-Tuttavia con una colonna calcolata Jeff può semplicemente unire o concatenare le città della colonna City con gli stati della colonna State.
+Con una colonna calcolata, tuttavia, Jeff può unire o concatenare le città della colonna City con gli stati della colonna State.
 
-Jeff fa clic con il pulsante destro del mouse sulla tabella Geography, quindi sceglie Nuova colonna. Immette quindi la seguente formula DAX nella barra della formula:
+Jeff fa clic con il pulsante destro del mouse sulla tabella Geography, quindi sceglie Nuova colonna. Immette quindi la formula DAX seguente nella barra della formula:
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
@@ -47,7 +47,7 @@ Ora Jeff ha il campo che vuole.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Può aggiungerlo all'area di disegno report insieme al numero di spedizioni. Molto velocemente e con il minimo sforzo, ora Jeff ha un campo City, State che può aggiungere a quasi tutti i tipi di visualizzazione. Jeff osserva che, quando crea una visualizzazione mappa, Power BI Desktop riesce anche a leggere i valori City, State nella nuova colonna.
+Può aggiungerlo all'area di disegno report insieme al numero di spedizioni. Molto velocemente e con il minimo sforzo, ora Jeff ha un campo City, State che può aggiungere a quasi tutti i tipi di visualizzazione. Jeff osserva che, quando viene creata una visualizzazione mappa, Power BI Desktop è già in grado di leggere i valori City, State nella nuova colonna.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

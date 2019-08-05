@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568133"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501762"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -133,7 +133,7 @@ Per usare i log di controllo, assicurarsi che l'impostazione [**Creare log di co
 
 La scheda **Impostazioni tenant** consente di controllare in modo dettagliato le funzionalità rese disponibili per l'organizzazione. Se i dati sensibili rappresentano una criticità, è possibile che alcune delle funzionalità non siano adatte all'organizzazione o che per un determinato gruppo sia preferibile rendere disponibile solo una specifica funzionalità.
 
-L'immagine seguente mostra le prime due sezioni della scheda **Impostazioni tenant**.
+L'immagine seguente mostra diverse impostazioni della scheda **Impostazioni tenant**.
 
 ![Impostazioni tenant](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Le sezioni successive forniscono una panoramica dei diversi tipi di impostazioni
 Gli utenti dell'organizzazione possono usare le risorse interne di Guida e supporto tecnico tramite il menu della Guida di Power BI. In particolare, questi parametri modificano il comportamento delle voci di menu Informazioni, Community e Guida.
 
 È anche possibile specificare un URL per indirizzare gli utenti a una soluzione personalizzata per le richieste di licenze. Questo parametro consente di personalizzare l'URL di destinazione del pulsante Aggiorna account che un utente senza una licenza di Power BI Pro può trovare nella finestra di dialogo di aggiornamento a Power BI Pro, nonché nella pagina Gestisci archivio personale.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Ricevi notifiche di posta elettronica per interruzioni del servizio o eventi imprevisti
+
+I gruppi di sicurezza abilitati per la posta elettronica riceveranno notifiche di posta elettronica se si verifica un'interruzione del servizio o un evento imprevisto che interessa il tenant. Vedere altre informazioni sulle [notifiche di interruzione del servizio](service-interruption-notifications.md).
 
 ## <a name="workspace-settings"></a>Impostazioni dell'area di lavoro
 

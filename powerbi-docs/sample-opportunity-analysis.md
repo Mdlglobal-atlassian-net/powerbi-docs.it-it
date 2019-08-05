@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: 233b4c36b5e59b38c82f5c3ccc1f0b49b70c5ac8
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791888"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523467"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle opportunità per Power BI: Presentazione
 
@@ -33,7 +33,7 @@ Questo esempio si basa su due misure dei ricavi:
 
 ![Dashboard per Opportunity Analysis Sample](media/sample-opportunity-analysis/opportunity1.png)
 
-Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. L'esempio è stato creato con dati reali messi a disposizione da [obviEnce](http://www.obvience.com/) che sono stati resi anonimi. I dati sono disponibili in diversi formati: pacchetto di contenuto, file di Power BI Desktop con estensione pbix o cartella di lavoro di Excel. Vedere [Esempi per Power BI](sample-datasets.md). 
+Questo esempio fa parte di una serie che illustra come usare Power BI con dati, report e dashboard orientati al business. L'esempio è stato creato con dati reali di [obviEnce](http://www.obvience.com/), che sono stati resi anonimi. I dati sono disponibili in diversi formati: pacchetto di contenuto, file di Power BI Desktop con estensione pbix o cartella di lavoro di Excel. Vedere [Esempi per Power BI](sample-datasets.md). 
 
 Questa esercitazione illustra il pacchetto di contenuto Opportunity Analysis Sample nel servizio Power BI. Dato che l'esperienza per i report è simile in Power BI Desktop e nel servizio, è anche possibile seguire le descrizioni usando il file con estensione pbix dell'esempio in Power BI Desktop. 
 
@@ -70,7 +70,7 @@ In alternativa, è possibile scaricare Opportunity Analysis Sample come [file co
 Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529782). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
-La responsabile delle vendite ha creato un dashboard per tener traccia delle metriche più rilevanti. Quando trova dati interessanti, può selezionare un riquadro per analizzarli in dettaglio:
+La responsabile delle vendite ha creato un dashboard per tenere traccia delle metriche più rilevanti. Quando vengono individuati dati interessanti, è possibile selezionare un riquadro per analizzarli in dettaglio:
 
 - I ricavi della società ammontano a due miliardi di dollari, mentre i ricavi fattorizzati a 461 milioni.
 - Il numero di opportunità e i ricavi seguono un modello a imbuto familiare, in cui i totali diminuiscono a ogni fase successiva.
@@ -127,7 +127,7 @@ Anche in questa pagina vengono presentati fattori simili, ma con una prospettiva
  
 ![Pagina Upcoming Opportunities](media/sample-opportunity-analysis/opportunity6.png)
 
-La responsabile amministrativa usa questa pagina per gestire il carico di lavoro. Osservando le opportunità di ricavi per fase di vendita e mese, può elaborare una pianificazione efficace.
+La responsabile amministrativa usa questa pagina per gestire il carico di lavoro. Osservando le opportunità di ricavi per fase di vendita e mese, è possibile elaborare una pianificazione efficace.
 
 Tenere presenti questi dettagli:
 * I ricavi di vendita medi più alti sono quelli della fase Finalize. La chiusura di queste trattative è prioritaria.
