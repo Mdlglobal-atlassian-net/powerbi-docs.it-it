@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230180"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665421"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -649,8 +649,6 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 Visualizzare i dashboard in [modalità orizzontale sui telefoni Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>App Power BI per dispositivi Windows 10
-Visualizzare i dashboard in [modalità orizzontale sui telefoni Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device).
-
 Visualizzare i [report su un telefono Windows 10](mobile-reports-in-the-mobile-apps.md).
 
 Tempi più brevi per [ottenere le informazioni dettagliate nei dashboard per dispositivi mobili Windows 10](mobile-tiles-in-the-mobile-apps.md): condividere lo snapshot di un riquadro o aprire un report direttamente dal dashboard.
