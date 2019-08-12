@@ -7,59 +7,59 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 07/17/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 61d7bf9f9794545e963ca19c8f983d6d6cfefa54
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61150414"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624034"
 ---
-# <a name="intro-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard per le finestre di progettazione di Power BI
+# <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard di Power BI per i progettisti
 
-Un ***dashboard*** di Power BI è costituito da una singola pagina, spesso chiamata area di disegno, che offre una narrazione tramite le visualizzazioni. Essendo limitato a una pagina, un dashboard ben progettato contiene solo gli elementi più importanti della narrazione. I lettori possono visualizzare i report correlati per i dettagli.
+Un *dashboard* di Power BI è costituito da una singola pagina, spesso chiamata area di disegno, che offre una narrazione tramite le visualizzazioni. Essendo limitato a una pagina, un dashboard ben progettato contiene solo gli elementi più importanti della narrazione. I lettori possono visualizzare i report correlati per i dettagli.
 
-![dashboard](media/service-dashboards/power-bi-dashboard2.png)
+![Dashboard](media/service-dashboards/power-bi-dashboard2.png)
 
-I dashboard sono una funzionalità del servizio Power BI. Non sono disponibili in Power BI Desktop. Non è possibile creare dashboard nei dispositivi mobili, ma è possibile [visualizzarli e condividerli](mobile-apps-view-dashboard.md).
+I dashboard sono una funzionalità solo del servizio Power BI. Non sono disponibili in Power BI Desktop. Non è possibile creare dashboard nei dispositivi mobili, ma è possibile [visualizzarli e condividerli](mobile-apps-view-dashboard.md) in tali dispositivi.
 
 ## <a name="dashboard-basics"></a>Nozioni di base sui dashboard 
 
-Le visualizzazioni mostrate nel dashboard sono chiamate *riquadri*. I riquadri vengono *aggiunti* a un dashboard dai report. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](service-basic-concepts.md).
+Le visualizzazioni mostrate nel dashboard sono chiamate *riquadri*. I riquadri vengono *aggiunti* a un dashboard dai report. Se non si ha familiarità con Power BI, è possibile apprendere le nozioni di base utili leggendo [Basic concepts for designers in the Power BI service](service-basic-concepts.md) (Concetti di base sul servizio Power BI per i progettisti).
 
 > [!IMPORTANT]
 > Per creare i dashboard è necessaria una licenza [Power BI Pro](service-free-vs-pro.md).
 
-Le visualizzazioni in un dashboard provengono dai report e ogni report è basato su un set di dati. Un dashboard può essere considerato una via d'accesso ai report e ai set di dati sottostanti. Selezionando una visualizzazione si accede al report e al set di dati su cui è basata.
+Le visualizzazioni in un dashboard provengono da report e ogni report è basato su un set di dati. Un dashboard può essere considerato una via d'accesso ai report e ai set di dati sottostanti. Selezionando una visualizzazione si accede al report e al set di dati su cui è basata.
 
 ![Diagramma che illustra la relazione tra dashboard, report e set di dati](media/service-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Vantaggi dei dashboard
-I dashboard sono uno strumento molto utile per monitorare l'attività aziendale e visualizzare tutte le metriche più importanti. Le visualizzazioni in un dashboard potrebbero provenire da uno o più set di dati e report sottostanti. Un dashboard combina i dati locali e quelli del cloud, offrendo una visualizzazione consolidata indipendentemente dalla posizione dei dati.
+I dashboard sono uno strumento molto utile per monitorare l'attività aziendale e visualizzare tutte le metriche più importanti. Le visualizzazioni in un dashboard possono provenire da uno o più set di dati e uno o più report sottostanti. Un dashboard combina i dati locali e quelli del cloud, offrendo una visualizzazione consolidata indipendentemente dalla posizione dei dati.
 
 Un dashboard non è solo un bel quadro d'insieme, ma è estremamente interattivo e i riquadri si aggiornano al variare dei dati sottostanti.
 
 ## <a name="dashboards-versus-reports"></a>Dashboard e report a confronto
-I [report](service-reports.md) e i dashboard appaiono simili poiché sono entrambi aree di disegno contenenti visualizzazioni. Esistono tuttavia alcune importanti differenze.
+I [report](service-reports.md) e i dashboard appaiono simili poiché sono entrambi aree di disegno contenenti visualizzazioni. Esistono tuttavia alcune differenze principali, come si può notare nella tabella seguente.
 
 | **Capacità** | **Dashboard** | **Report** |
 | --- | --- | --- |
 | Pagine |Una pagina |Una o più pagine |
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
-| Disponibile in Power BI Desktop |No | È possibile creare e visualizzare i report in Power BI Desktop |
-| Sottoscrivi |È possibile sottoscrivere un dashboard |È possibile sottoscriversi alle pagine del report |
-| Applicazione di filtri |Non è possibile filtrare o sezionare |Molti modi diversi di filtrare, evidenziare e sezionare |
-| In primo piano |Permette di impostare un dashboard come dashboard "in primo piano" |Non permette di creare un report in primo piano |
-| Preferito | È possibile impostare i dashboard come *preferiti* | È possibile impostare i report come *preferiti*
-| Impostazione di avvisi |Disponibile per i riquadri del dashboard in determinate circostanze |Non disponibile dai report |
-| Query in linguaggio naturale (Domande e risposte) |Disponibili nei dashboard | Disponibili nei report |
-| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
+| Disponibile in Power BI Desktop |No | Sì. È possibile creare e visualizzare i report in Power BI Desktop |
+| Sottoscrivi |Sì. È possibile sottoscrivere un dashboard |Sì. È possibile sottoscrivere una pagina di un report |
+| Applicazione di filtri |No. Non è possibile filtrare o sezionare |Sì. Molti modi diversi di filtrare, evidenziare e sezionare |
+| In primo piano |Sì. È possibile impostare un dashboard come *in primo piano* |No |
+| Preferito | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
+| Impostazione di avvisi |Sì. Disponibile per i riquadri del dashboard in determinate circostanze |No |
+| Query in linguaggio naturale (Domande e risposte) |Sì | Sì, i progettisti dispongono delle autorizzazioni di modifica per il report e per il set di dati sottostante |
+| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì |
 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * Per acquisire familiarità con i dashboard, consultare la presentazione di uno dei [dashboard di esempio](sample-tutorial-connect-to-the-samples.md).
 * Ottenere informazioni sui [riquadri del dashboard](service-dashboard-tiles.md).
-* Si desidera monitorare un singolo riquadro del dashboard e ricevere un'e-mail quando raggiunge una certa soglia? [Creare avvisi sui riquadri](service-set-data-alerts.md).
+* Si desidera monitorare un singolo riquadro del dashboard e ricevere un'e-mail quando raggiunge una certa soglia? [Creare un avviso in un riquadro](service-set-data-alerts.md).
 * Informazioni su come usare lo strumento [Domande e risposte di Power BI](power-bi-tutorial-q-and-a.md) per porre una domanda sui dati e ottenere una risposta sotto forma di visualizzazione.

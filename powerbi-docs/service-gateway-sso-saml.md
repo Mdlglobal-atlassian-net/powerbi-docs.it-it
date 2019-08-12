@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1d84e9de9ae6d6fd8306fce4865977a8d273652
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289939"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757691"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Usare SAML (Security Assertion Markup Language) per abilitare Single Sign-On (SSO) da Power BI alle origini dati locali
 
@@ -33,7 +33,7 @@ Si noti che per HANA è **vivamente** consigliato abilitare la crittografia prim
 
 Per usare SAML, è necessario stabilire una relazione di trust tra il server o i server HANA per i quali si vuole abilitare l'accesso SSO e il gateway, che funge da provider di identità (IdP) SAML in questo scenario. Esistono vari modi per stabilire questa relazione, ad esempio l'importazione del certificato x509 del provider di identità del gateway nell'archivio attendibilità del server o dei server HANA o la firma del certificato x509 del gateway da parte di un'autorità di certificazione (CA) radice attendibile per il server o i server HANA. In questa Guida viene descritto il secondo approccio, ma è possibile usarne un altro, se risulta più pratico.
 
-Si noti anche che questa Guida usa OpenSSL come provider del servizio di crittografia del server HANA, ma è anche possibile usare la libreria di crittografia SAP (nota anche come CommonCryptoLib o sapcrypto) invece di OpenSSL per completare la procedura di configurazione in cui si stabilisce la relazione di trust. Per altre informazioni, fare riferimento alla documentazione SAP ufficiale.
+Si noti anche che questa Guida usa OpenSSL come provider del servizio di crittografia del server HANA. SAP consiglia di usare la libreria di crittografia SAP (nota anche come CommonCryptoLib o sapcrypto) invece di OpenSSL per completare la procedura di configurazione in cui si stabilisce la relazione di trust. Per altre informazioni, fare riferimento alla documentazione SAP ufficiale.
 
 I passaggi seguenti descrivono come stabilire una relazione di trust tra un server HANA e il provider di identità del gateway usando la firma del certificato x509 del provider di identità del gateway attraverso un'autorità di certificazione radice attendibile per il server HANA.
 
@@ -180,7 +180,7 @@ Le tracce di autenticazione sul lato server offrono informazioni dettagliate per
 
 Per altre informazioni sul **gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
 
-* [Informazioni sul gateway dati locale](/data-integration/gateway/service-gateway-getting-started)
+* [Informazioni sul gateway dati locale](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
 * [DirectQuery e SAP BW](desktop-directquery-sap-bw.md)

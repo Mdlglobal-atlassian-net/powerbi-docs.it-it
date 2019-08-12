@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140609"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665494"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefono Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Dispositivi Windows 10](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefono Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Telefoni Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Tablet Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Dispositivi Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhone](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPad](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Telefoni Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Tablet Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 I dashboard rappresentano il portale per accedere al ciclo di vita e ai processi aziendali. Un dashboard offre infatti una panoramica, ovvero una posizione unica da cui controllare lo stato corrente delle attività aziendali.
 
@@ -57,7 +57,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
    > 
    > 
    
-    In alternativa, è sufficiente ruotare il telefono lateralmente per visualizzare il dashboard in modalità orizzontale sullo schermo.
+    In alternativa, basta ruotare lo smartphone per vedere il dashboard in formato orizzontale.
    
     ![Vista orizzontale del dashboard](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 3. Scorrere rapidamente su e giù per visualizzare tutti i riquadri del dashboard. è possibile:
@@ -145,45 +145,6 @@ Ecco un dashboard di Power BI nel servizio Power BI:
     ![Barra di navigazione](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     È possibile avvicinare o allontanare le dita per eseguire lo zoom avanti e indietro nelle varie aree del dashboard e scorrere per esplorarlo. È anche possibile [toccare un riquadro](mobile-tiles-in-the-mobile-apps.md) per aprirlo in modalità messa a fuoco e interagire con i dati.
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Visualizzare i dashboard nel dispositivo Windows 10
-1. Aprire l'app Power BI nel dispositivo Windows 10 ed eseguire l'accesso.
-   
-   Se è necessario [scaricare prima l'app](http://go.microsoft.com/fwlink/?LinkID=526478), procedere come segue.
-2. Toccare un dashboard per aprirlo.   
-   
-   ![Schermata iniziale del dashboard](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * Le stelle nere indicano quali dashboard sono i preferiti. 
-   * La notazione sotto il nome di ogni dashboard (in questo esempio **MBI**) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
-   
-   I dashboard di Power BI hanno un aspetto leggermente diverso sul telefono Windows 10. Tutti i riquadri hanno la stessa larghezza e sono disposti consecutivamente dall'alto verso il basso.
-   
-   ![Vista verticale del dashboard](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    È anche possibile ruotare il telefono lateralmente per visualizzare i dashboard in modalità orizzontale sullo schermo.
-   
-   > [!TIP]
-   > I proprietari dei dashboard possono [creare una visualizzazione del dashboard in modo specifico per i telefoni](../../service-create-dashboard-mobile-phone-view.md) in modalità verticale nel servizio Power BI. 
-   > 
-   > 
-3. Nel dashboard è possibile:
-   
-   * [Toccare un riquadro](mobile-tiles-in-the-mobile-apps.md) per aprirlo e interagire con esso.
-   * Toccare l'icona **Schermo intero** ![icona Schermo intero](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) per presentare il dashboard di Power BI senza bordi o menu, come nella visualizzazione **Presentazione** di PowerPoint.
-   * Toccare l'icona **Invita** ![icona Invita](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) per [condividere il dashboard](mobile-share-dashboard-from-the-mobile-apps.md) con un collega.
-   * Toccare la stella ![stella Preferiti](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) per [aggiungere il dashboard ai preferiti](mobile-apps-favorites.md).
-   * Toccare l'icona **Aggiungi a Start** per [aggiungere il dashboard alla schermata Start di Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). 
-4. Per tornare alla home page dei dashboard, toccare il nome del dashboard per aprire la traccia degli spostamenti, quindi toccare **Area di lavoro**:
-   
-    ![Barra di navigazione](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Visualizzare i dashboard in modalità orizzontale nel telefono Windows 10
-È anche possibile visualizzare i dashboard in modalità orizzontale semplicemente ruotando il telefono. Il layout del dashboard cambia: invece di una serie di riquadri viene visualizzato l'intero dashboard, con tutti i riquadri disposti come nel servizio Power BI.
-
-![Vista orizzontale del dashboard](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-È possibile avvicinare o allontanare le dita per eseguire lo zoom avanti e indietro nelle varie aree del dashboard e scorrere per esplorarlo. È anche possibile [toccare un riquadro](mobile-tiles-in-the-mobile-apps.md) per aprirlo in modalità messa a fuoco e interagire con i dati.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Creare una visualizzazione telefono di un dashboard nel servizio Power BI
 I proprietari dei dashboard possono creare una visualizzazione del dashboard in modo specifico per i telefoni in modalità verticale *nel servizio Power BI*. 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 07/15/2019
-ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270788"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665362"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: DOMANDE FREQUENTI 
 
@@ -162,7 +162,7 @@ Sì, è supportata la possibilità di eseguire il codice nei report come in SSRS
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>È possibile usare Power BI Embedded per incorporare i report impaginati in un'app ospitata?
 
-L'incorporamento SaaS sarà supportato intorno a giugno.  È previsto anche il supporto dell'incorporamento PaaS con le API esistenti di Power BI, ma non sono ancora disponibili informazioni sulla tempistica di implementazione.
+L'incorporamento in SaaS è già supportato. L'incorporamento in PaaS al momento non è supportato.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>È possibile eseguire il drill-through da un report di Power BI a un report impaginato?
 

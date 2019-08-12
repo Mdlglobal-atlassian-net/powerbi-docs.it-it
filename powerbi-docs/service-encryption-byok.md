@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391128"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665391"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Usare chiavi di crittografia personalizzate per Power BI (anteprima)
 
-Power BI consente di crittografare i dati _inattivi_ e _in elaborazione_. Per impostazione predefinita, Power BI usa chiavi gestite da Microsoft per crittografare i dati. In Power BI Premium è anche possibile usare chiavi personalizzate per i dati inattivi che vengono importati in un set di dati. Per altre informazioni, vedere [Considerazioni su origine e archiviazione dei dati](#data-source-and-storage-considerations). Questo approccio viene spesso descritto come _BYOK (Bring Your Own Key)_ .
+Power BI consente di crittografare i dati _inattivi_ e _in elaborazione_ . Per impostazione predefinita, Power BI usa chiavi gestite da Microsoft per crittografare i dati. In Power BI Premium è anche possibile usare chiavi personalizzate per i dati inattivi che vengono importati in un set di dati. Per altre informazioni, vedere [Considerazioni su origine e archiviazione dei dati](#data-source-and-storage-considerations). Questo approccio viene spesso descritto come _BYOK (Bring Your Own Key)_ .
 
 ## <a name="why-use-byok"></a>Vantaggi derivanti dall'uso di BYOK
 
@@ -64,6 +64,9 @@ Le istruzioni riportate in questa sezione presuppongono la conoscenza di base di
     ![Componenti file PBIX](media/service-encryption-byok/service-principal.png)
 
 1. Selezionare **OK** e quindi **Salva**.
+
+> [!NOTE]
+> Per revocare l'accesso di Power BI ai dati in futuro, rimuovere i diritti di accesso a questa entità servizio da Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Creare una chiave RSA
 
@@ -152,7 +155,7 @@ Power BI offre altri cmdlet per gestire la crittografia BYOK nel tenant:
 
     Si noti che la crittografia è abilitata a livello di capacità, ma lo stato della crittografia viene ottenuto a livello di set di dati per l'area di lavoro specificata.
 
-- Usare [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) per cambiare (o _ruotare_) la versione della chiave usata per la crittografia. Il cmdlet aggiorna semplicemente l'elemento `-KeyVaultKeyUri` per una chiave `-Name`:
+- Usare [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) per cambiare (o _ruotare_ ) la versione della chiave usata per la crittografia. Il cmdlet aggiorna semplicemente l'elemento `-KeyVaultKeyUri` per una chiave `-Name`:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

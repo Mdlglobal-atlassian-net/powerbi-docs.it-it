@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751120"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729802"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -45,6 +45,10 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
             - Aggiunta del collegamento per tornare indietro nella navigazione in modo più semplice nella finestra di selezione PBIRS
             - Correzione della modalità a contrasto elevato in PBIRS in modo da visualizzare il pulsante Indietro, visualizzazione di messaggi di avviso relativi agli oggetti visivi.
             - Correzioni dell'interfaccia utente nel riquadro di selezione, scalabilità del canvas.
+
+    - *Versione: 2.69.5467.5201 (maggio 2019), data di rilascio: 30 luglio 2019*
+        - Correzioni di bug
+            - Correzione per la registrazione dei dati di telemetria non corretta
 
 ## <a name="january-2019"></a>Gennaio 2019
 
@@ -93,8 +97,11 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
         - Il collegamento e le icone aggiunte rimangono dopo la disinstallazione di Server di report di Power BI
         - Correzione per l'aggiunta di Server di report di Power BI al menu Start con testo nero su un'icona nera
 
-    - *Versione: 2.65.5313.1421 (gennaio 2019), data di rilascio: 22 gennaio 2019*
-        - Include modifiche necessarie per la connessione a Server di report di Power BI (gennaio 2019)  
+    - *Versione: 2.65.5313.1421 (gennaio 2019), data di rilascio: 22 gennaio 2019* (nuova build e nuova versione)
+        - Include modifiche necessarie per la connessione a Server di report di Power BI (gennaio 2019) 
+    - *Versione: 2.65.5313.5141 (gennaio 2019), data di rilascio: 31 luglio 2019* (nuova build e nuova versione)
+        - Correzioni di bug
+            - Correzione per la registrazione dei dati di telemetria non corretta
 
 ## <a name="august-2018"></a>Agosto 2018
 

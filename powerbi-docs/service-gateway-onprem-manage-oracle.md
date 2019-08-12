@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: af3ebd421a82448ce8a3f13661801ffc1d0051e0
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 3e3e51bf13a904e46552529d9131dbbb4665cb7d
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271465"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730250"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gestire l'origine dati - Oracle
 
@@ -73,7 +73,7 @@ Dopo aver selezionato il tipo di origine dati Oracle, inserire le informazioni p
 È inoltre necessario scegliere un **metodo di autenticazione**,  **Windows** o **Basic**.  È preferibile scegliere **Basic** se si intende usare un account creato all'interno di Oracle anziché l'autenticazione di Windows. Immettere le credenziali che verranno utilizzate per questa origine dati.
 
 > [!NOTE]
-> Tutte le query all'origine dati verranno eseguite utilizzando queste credenziali. Per altre informazioni su come vengono archiviate le credenziali, vedere [Archiviazione di credenziali crittografate nel cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud).
+> Tutte le query all'origine dati verranno eseguite utilizzando queste credenziali. Per altre informazioni sulla modalità di archiviazione delle credenziali, vedere [Archiviazione di credenziali crittografate nel cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud).
 
 ![Compilazione delle impostazioni origine dati](media/service-gateway-onprem-manage-oracle/data-source-oracle2.png)
 

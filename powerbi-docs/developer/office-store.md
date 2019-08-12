@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269815"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623796"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Pubblicare oggetti visivi personalizzati in AppSource
 
@@ -22,7 +22,7 @@ Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in 
 
 Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo in AppSource in modo che altri utenti possano individuarlo e usarlo. A tale scopo, sono necessarie alcune operazioni preliminari. Per altre informazioni su come creare un oggetto visivo personalizzato, vedere [Sviluppo di un oggetto visivo personalizzato di Power BI](custom-visual-develop-tutorial.md).
 
-   ![Archivio di Office](media/office-store/AppSource_01.jpg)
+   ![Archivio di Office](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>Informazioni su AppSource
 
@@ -30,7 +30,7 @@ Dopo aver creato l'oggetto visivo personalizzato può essere utile pubblicarlo i
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparazione per l'invio dell'oggetto visivo personalizzato
 
-Dopo aver completato le operazioni di lettura nostri [linee guida per gli oggetti visivi di Power BI](guidelines-powerbi-visuals.md), la codifica e [test dell'oggetto visivo personalizzato](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e averlo inserito in un file pbiviz, è inoltre necessario avere quanto segue sia pronto per l'invio.
+Dopo aver letto le [guide agli oggetti visivi di Power BI](guidelines-powerbi-visuals.md), aver terminato le operazioni di codifica e [test dell'oggetto visivo personalizzato](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) e averne creato un pacchetto con estensione PBIVIZ, occorre preparare all'invio anche gli elementi seguenti.
 
 | Item | Obbligatorio | Descrizione |
 | --- | --- | --- |

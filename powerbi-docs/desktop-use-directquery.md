@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324805"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757606"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usare DirectQuery in Power BI Desktop
 Con **Power BI Desktop**, quando ci si connette all'origine dati, è sempre possibile importare una copia dei dati in **Power BI Desktop**. Per alcune origini dati è disponibile un approccio alternativo: connettersi direttamente all'origine dati usando **DirectQuery**.
@@ -62,10 +62,9 @@ I tre punti seguenti devono essere presi in considerazione quando si usa **Direc
   
   È necessario prendere in considerazione anche il carico sul database di origine, in base al numero di utenti di Power BI che utilizzerà il report pubblicato. Anche l'utilizzo della *sicurezza a livello di riga* (RLS) può influire in modo significativo. Un riquadro del dashboard non RLS condiviso da più utenti produce una sola query al database, mentre se si usa RLS in un riquadro del dashboard, quando questo viene aggiornato in genere viene richiesta una singola query *per ogni utente*, il che aumenta in modo significativo il carico sul database di origine e, potenzialmente, può avere ripercussioni negative sulle prestazioni.
   
-  Power BI crea query il più efficaci possibile. In determinate situazioni, tuttavia, la query generata potrebbe non essere abbastanza efficace da evitare un aggiornamento che non riesce. Ad esempio, quando una query generata recupera un numero eccessivamente elevato di righe, ossia oltre un milione, dall'origine dati back-end, si verifica l'errore seguente:
+  Power BI crea query il più efficaci possibile. In determinate situazioni, tuttavia, la query generata potrebbe non essere abbastanza efficace da evitare un aggiornamento che non riesce. Quando ad esempio una query generata recupera un numero eccessivamente elevato di righe dall'origine dati back-end, si verifica l'errore seguente:
   
       The resultset of a query to external data source has exceeded
-      the maximum allowed size of '1000000' rows.
   
   Questa situazione può verificarsi con un grafico semplice che include una colonna di cardinalità molto elevata, con l'opzione di aggregazione impostata su *Non riepilogare*. L'oggetto visivo deve contenere solo colonne con una cardinalità inferiore a un milione o deve avere i filtri appropriati applicati.
 * **Sicurezza**: tutti gli utenti che utilizzano un report pubblicato si connettono all'origine dati back-end con le credenziali immesse dopo la pubblicazione del servizio Power BI. Si tratta della stessa situazione che si verifica quando si importano i dati: tutti gli utenti vedono gli stessi dati, indipendentemente dalle eventuali regole di sicurezza definite nell'origine back-end. I clienti che vogliono implementare la sicurezza per ogni utente con origini DirectQuery devono usare la sicurezza a livello di riga. [Altre informazioni sulla sicurezza a livello di riga](service-admin-rls.md).

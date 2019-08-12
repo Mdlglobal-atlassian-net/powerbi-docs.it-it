@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523344"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730073"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 
@@ -79,6 +79,8 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
     ![Screenshot della schermata Esporta dati con i dati di riepilogo, xlsx, e le opzioni di esportazione in evidenza.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     Se sono stati applicati filtri alla visualizzazione, i dati verranno esportati come filtrati. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
+    
+    Vengono esportati tutti i dati usati dalla gerarchia, non solo quelli usati per il livello drill attuale per l'oggetto visivo. Se, ad esempio, la visualizzazione non è stata ancora sottoposta a drill-down dal primo livello, i dati esportati includeranno tutti i dati nella gerarchia, non solo quelli usati per creare l'oggetto visivo al relativo livello drill attuale.
 
     **Riepilogo dati**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo.  Questo tipo di esportazione consente di visualizzare solo i dati (colonne e misure) scelti per creare l'oggetto visivo.  Se l'oggetto visivo contiene un'aggregazione, è necessario esportare i dati aggregati. Ad esempio, se è presente un grafico a barre che mostra quattro barre, si otterranno quattro righe di dati. Il riepilogo dati è disponibile in file con estensione *xlsx* e *csv*.
 
@@ -92,6 +94,8 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
     > A seconda delle impostazioni del report, è possibile che non sia disponibile l'opzione per esportare i dati sottostanti.
 
     Se sono stati applicati filtri alla visualizzazione, i dati verranno esportati come filtrati. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
+    
+    Vengono esportati tutti i dati usati dalla gerarchia, non solo quelli usati per il livello drill attuale per l'oggetto visivo. Se, ad esempio, la visualizzazione non è stata ancora sottoposta a drill-down dal primo livello, i dati esportati includeranno tutti i dati nella gerarchia, non solo quelli usati per creare l'oggetto visivo al relativo livello drill attuale.
 
     >[!WARNING]
     >L'esportazione dei dati sottostanti consente agli utenti di visualizzare tutti i dati dettagliati, ovvero ogni colonna nei dati. Gli amministratori del servizio Power BI possono disattivare questa funzionalità per la loro organizzazione. Se si dispone di un set di dati, è possibile impostare le colonne proprietarie su **nascosto** in modo che non vengono visualizzate nell'elenco **Campi** nel servizio Power BI o in Power BI Desktop.

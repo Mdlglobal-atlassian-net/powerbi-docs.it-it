@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271571"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730064"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gestire l'origine dati - SQL Server
 
@@ -37,7 +37,7 @@ Inserire le informazioni per l'origine dati, tra cui il **Server** e il **Databa
 È inoltre necessario scegliere un **metodo di autenticazione**, **Windows** o **Basic**. È preferibile scegliere **Basic** se si intende utilizzare l'autenticazione SQL anziché l'autenticazione di Windows. Immettere le credenziali che verranno utilizzate per questa origine dati.
 
 > [!NOTE]
-> Tutte le query all'origine dati verranno eseguite usando queste credenziali, a meno che Kerberos Single Sign On (SSO) sia configurato e attivato per l'origine dati. Con SSO, i set di dati di importazione usano le credenziali archiviate, ma i set di dati di DirectQuery usano l'utente di Power BI corrente per eseguire le query che usano SSO. Per altre informazioni su come vengono archiviate le credenziali, vedere [Archiviazione di credenziali crittografate nel cloud](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud) o l'articolo che descrive come [usare Kerberos per SSO (Single Sign-On) da Power BI alle origini dati locali](service-gateway-sso-kerberos.md).
+> Tutte le query all'origine dati verranno eseguite usando queste credenziali, a meno che Kerberos Single Sign On (SSO) sia configurato e attivato per l'origine dati. Con SSO, i set di dati di importazione usano le credenziali archiviate, ma i set di dati di DirectQuery usano l'utente di Power BI corrente per eseguire le query che usano SSO. Per altre informazioni su come vengono archiviate le credenziali, vedere [Archiviazione di credenziali crittografate nel cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) o l'articolo che descrive come [usare Kerberos per SSO (Single Sign-On) da Power BI alle origini dati locali](service-gateway-sso-kerberos.md).
 
 ![Compilazione delle impostazioni origine dati](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 

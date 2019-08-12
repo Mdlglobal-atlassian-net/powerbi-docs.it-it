@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840304"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624140"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Esempi di espressioni nel Generatore report di Power BI
 Le espressioni sono usate di frequente nei report impaginati del Generatore report impaginati di Power BI per controllare il contenuto e l'aspetto del report. Le espressioni vengono scritte in Microsoft Visual Basic e possono usare funzioni predefinite, codice personalizzato, variabili di report e gruppi e variabili definite dall'utente. Le espressioni iniziano con un segno di uguale (=).   
@@ -40,7 +40,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
 ##  <a name="VisualBasicFunctions"></a> Funzioni di Visual Basic  
  È possibile usare le funzioni di Visual Basic per manipolare i dati visualizzati nelle caselle di testo o usati per parametri, proprietà o altre aree del report. Questa sezione include esempi che illustrano alcune funzioni. Per altre informazioni, vedere [Membri della libreria di runtime di Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) su MSDN.  
   
- .NET Framework offre numerose opzioni di formato personalizzato, ad esempio per formati di data specifici. Per altre informazioni, vedere [Formattazione di tipi](https://go.microsoft.com/fwlink/?LinkId=112024) su MSDN.  
+ .NET Framework offre numerose opzioni di formato personalizzato, ad esempio per formati di data specifici. Per altre informazioni, vedere [Formattazione di tipi](/dotnet/standard/base-types/formatting-types).  
   
 ### <a name="math-functions"></a>Funzioni matematiche  
   

@@ -10,48 +10,50 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 16b96d91a9dd37fa8a502bbcca772438c703cb63
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: 7d5d743dda31d05df0beb528648c5a43ffc6b335
+ms.sourcegitcommit: 32a44dd17a44ccfd4a2d86a0d235251c2fda1c5c
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66412988"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "68702099"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Estendibilità dei connettori in Power BI
 
-In Power BI, i clienti e gli sviluppatori possono estendere le origini dati a cui si connettono in molti modi. Usano i connettori esistenti e origini dati generiche (ad esempio ODBC, OData, Oledb, Web, CSV, XML, JSON). In alternativa, gli sviluppatori di creano estensioni per i dati, dette **connettori personalizzati**e renderli **Certified connettori**.
+In Power BI, i clienti e gli sviluppatori possono estendere le origini dati a cui si connettono in molti modi. Possono usare connettori esistenti e origini dati generiche (ad esempio ODBC, OData, OLEDB, Web, CSV, XML, JSON). In alternativa, gli sviluppatori possono creare estensioni per i dati, denominate **connettori personalizzati**, e trasformarle in **connettori certificati**.
 
-Attualmente, si abilita **connettori personalizzati** tramite un menu che consente in modo sicuro controllare il livello di codice personalizzato che si desidera lasciare in esecuzione nel sistema. È possibile scegliere tutti i connettori personalizzati oppure solo i connettori certified e distribuiti da Microsoft nel **recupera dati** finestra di dialogo.
+È attualmente possibile attivare i **connettori personalizzati** usando un menu che consente di controllare in modo sicuro il livello di codice personalizzato che si vuole lasciar eseguire nel sistema. È possibile scegliere tutti i connettori personalizzati o solo quelli certificati e distribuiti da Microsoft nella finestra di dialogo **Recupera dati**.
 
 ## <a name="custom-connectors"></a>Connettori personalizzati
 
-**I connettori personalizzati** può includere un'ampia gamma di possibilità, che vanno dalle API di piccole dimensioni critiche per l'azienda, ai grandi servizi specifici del settore che Microsoft non ha rilasciato un connettore per. Molti connettori vengono distribuiti dal fornitore. Se si ha l'esigenza per un connettore dati specifici, è necessario contattare un fornitore.
+I **connettori personalizzati** possono includere un'ampia gamma di possibilità, che spazia dalle API di piccole dimensioni fondamentali per l'attività aziendale ai grandi servizi specifici del settore per i quali Microsoft non ha rilasciato un connettore. Molti connettori vengono distribuiti dal fornitore. Se è necessario un connettore di dati specifico, è necessario contattare il fornitore.
 
-Usare un **Custom Connector**, inserirlo nel  *\[documenti]\\Power BI Desktop\\i connettori personalizzati* cartella e modificare le impostazioni di sicurezza come descritto in la sezione seguente.
+Per usare un **connettore personalizzato**, inserirlo nella cartella *\[Documenti]\\Power BI Desktop\\Connettori personalizzati* e modificare le impostazioni di sicurezza come descritto nella sezione seguente.
 
 Non è necessario modificare le impostazioni di sicurezza per usare i **connettori certificati**.
 
 ## <a name="data-extension-security"></a>Sicurezza dell'estensione per i dati
 
-Per modificare impostazioni di sicurezza di estensione dei dati, nella **Power BI Desktop** selezionate **File > Opzioni e impostazioni > Opzioni > sicurezza**.
+Per modificare le impostazioni di sicurezza dell'estensione per i dati, in **Power BI Desktop** selezionare **File > Opzioni e impostazioni > Opzioni > Sicurezza**.
 
-![Controllare se si desidera caricare i connettori personalizzati con le opzioni di sicurezza di estensione dei dati](media/desktop-connector-extensibility/data-extension-security-1.png)
+![Verificare se si desidera caricare i connettori personalizzati con le opzioni di sicurezza delle estensioni per i dati](media/desktop-connector-extensibility/data-extension-security-1.png)
 
 In **Estensioni dati** è possibile selezionare uno dei due livelli di sicurezza:
 
 * (Consigliato) per consentire solo il caricamento delle estensioni certificate
 * (Non consigliato) per consentire il caricamento di tutte le estensioni senza avviso
 
-Se si prevede di usare **connettori personalizzati** o i connettori che è o terze parti hanno sviluppato, è necessario selezionare **"(Not Recommended) consentire qualsiasi estensione caricare senza alcun avviso"** . Questa impostazione di sicurezza non è consigliata a meno che non completamente attendibile i connettori personalizzati. Poiché il codice in questa posizione può gestire le credenziali, tra cui vengono inviati tramite HTTP e ignorare i livelli di privacy.
+Se si intende usare **connettori personalizzati** o connettori sviluppati personalmente o da terze parti, è necessario selezionare **"(Scelta non consigliata) Consenti in caricamento di qualsiasi estensione senza convalida o avviso"** . Questa impostazione di sicurezza non è consigliabile a meno che non si sia certi dell'assoluta attendibilità dei connettori personalizzati. Il codice in essi contenuto può infatti gestire le credenziali, ad esempio inviarle tramite HTTP, e ignorare i livelli di privacy.
 
-Nel **"(scelta consigliata)"** sicurezza impostazione, se sono presenti connettori personalizzati nel sistema, viene visualizzato un errore che descrive i connettori che non è possibile caricare a causa di sicurezza.
+Nell'impostazione di sicurezza **"(Scelta consigliata)"** , se nel sistema sono presenti connettori personalizzati, viene visualizzato l'errore "Il connettore seguente non è stato certificato e non è possibile verificarne la sicurezza d'uso" seguito da un elenco di connettori che non possono essere caricati in modo sicuro.
 
-![Una finestra di dialogo vengono descritti i connettori personalizzati che non è possibile caricare a causa di impostazioni di sicurezza, in questo caso TripPin](media/desktop-connector-extensibility/data-extension-security-2.png)
+![Una finestra di dialogo descrive i connettori personalizzati che non possono essere caricati a causa delle impostazioni di sicurezza, in questo caso TripPin](media/desktop-connector-extensibility/data-extension-security-2.png)
 
-Per risolvere l'errore e usare questi connettori, modificare le impostazioni di sicurezza per il **"(Not Recommended) consentire qualsiasi estensione caricare senza alcun avviso"** impostazione come descritto in precedenza. Quindi, riavviare **Power BI Desktop**.
+Per risolvere il problema senza modificare le impostazioni di sicurezza, rimuovere i connettori non firmati dalla cartella "Connettori personalizzati".
+
+Se invece li si vuole usare, modificare le impostazioni di sicurezza in **"(Scelta non consigliata) Consenti in caricamento di qualsiasi estensione senza convalida o avviso"** come descritto in precedenza. Riavviare **Power BI Desktop**.
 
 ## <a name="certified-connectors"></a>Connettori certificati
 
-Un sottoinsieme limitato delle estensioni per i dati viene considerato **Certified**. Connettori di certificati di accesso di **recupera dati** finestra di dialogo. Tuttavia, lo sviluppatore di terze parti che ha creato il connettore è responsabile per la manutenzione e supporto. Mentre Microsoft distribuisce i connettori, non è responsabile per le prestazioni o una funzione costante.
+Un sottoinsieme limitato di estensioni per i dati viene considerato **Certificato**. Accedere ai connettori certificati nella finestra di dialogo **Recupera dati**. La manutenzione e il supporto del connettore sono responsabilità dello sviluppatore di terze parti che lo ha creato. Sebbene distribuisca questi connettori, Microsoft non è responsabile delle loro prestazioni o della loro continuità di funzionamento.
 
 Per certificare un connettore personalizzato, è necessario che il fornitore contatti dataconnectors@microsoft.com.
