@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770797"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808228"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -202,7 +202,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Database SQL di Azure |No |No |Sì |No |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |No |
 | Database Oracle |No |No |Sì |Sì |Sì |
-| Server SAP Business Warehouse |No |No |Sì |No |Sì |
+| Server SAP Business Warehouse |No |No |Sì |No |No |
 | Database SAP HANA |No |No |Sì |Sì |No |
 | Database Teradata |No |No |Sì |Sì |Sì |
 
