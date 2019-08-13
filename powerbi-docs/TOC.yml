@@ -593,6 +593,8 @@
               href: service-export-to-pbix.md
             - name: Filtrare un report usando parametri nell'URL
               href: service-url-filters.md
+            - name: Modificare le variabili SAP
+              href: service-edit-sap-variables.md
             - name: Procedure consigliate per creare report veloci e affidabili
               href: power-bi-reports-performance.md
         - name: Ottenere risposte dai dati
@@ -1159,7 +1161,7 @@
               href: developer/walkthrough-push-data.md
             - name: Ottenere un token di accesso per l'autenticazione
               href: developer/walkthrough-push-data-get-token.md
-            - name: Creare un set di dati
+            - name: Crea un set di dati
               href: developer/walkthrough-push-data-create-dataset.md
             - name: Ottenere un set di dati per aggiungere righe
               href: developer/walkthrough-push-data-get-datasets.md
