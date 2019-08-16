@@ -1289,6 +1289,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Configurare l'accesso all'app per dispositivi mobili in modalità remota
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Accesso a dispositivi mobili in remoto con Azure AD
+              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Ospitare cartelle di lavoro di Excel
               href: report-server/excel-oos.md
     - name: Riferimento
@@ -1424,3 +1426,7 @@
           href: service-admin-governance.md
         - name: Sicurezza di Power BI
           href: service-admin-power-bi-security.md
+- name: Informazioni aggiuntive
+  items:
+    - name: Che cos'è uno schema a stella?
+      href: guidance/star-schema.md
