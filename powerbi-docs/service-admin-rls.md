@@ -11,12 +11,12 @@ ms.author: mblythe
 ms.date: 01/02/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6f7e6848b292e1e2d24cc946b2a52449b5c74376
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: f26d1d394446653764b8b0f7371a44fc178b01e2
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751210"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490414"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicurezza a livello di riga con Power BI
 
@@ -26,7 +26,7 @@ La sicurezza a livello di riga con Power BI può essere usata per limitare l'acc
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
-Per impostazione predefinita, i filtri per la sicurezza a livello di riga usano i filtri unidirezionali, indipendentemente dal fatto che le relazioni siano impostate su unidirezionali o bidirezionali. È possibile abilitare manualmente il filtro incrociato bidirezionale con la sicurezza a livello di riga selezionando la selezione e selezionando la casella di controllo **Applica filtro di sicurezza in entrambe le direzioni**. È necessario selezionare questa casella quando si implementa la [sicurezza dinamica a livello di riga](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters), che consente di fornire la sicurezza a livello di riga in base a un nome utente o un ID di accesso.
+Per impostazione predefinita, i filtri per la sicurezza a livello di riga usano i filtri unidirezionali, indipendentemente dal fatto che le relazioni siano impostate su unidirezionali o bidirezionali. È possibile abilitare manualmente il filtro incrociato bidirezionale con la sicurezza a livello di riga selezionando la selezione e selezionando la casella di controllo **Applica filtro di sicurezza in entrambe le direzioni**. È necessario selezionare questa casella quando si implementa la [sicurezza dinamica a livello di riga](https://docs.microsoft.com/sql/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters), che consente di fornire la sicurezza a livello di riga in base a un nome utente o un ID di accesso.
 
 Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery in Power BI Desktop](desktop-bidirectional-filtering.md) e l'articolo tecnico [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protezione del modello semantico tabulare di BI).
 

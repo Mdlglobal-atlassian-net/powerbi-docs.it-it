@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523389"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490313"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -38,7 +38,6 @@ Questo articolo contiene le risposte alle domande frequenti sull'amministrazione
 
 * [Come cambierà la gestione delle identità per gli attuali utenti dell'organizzazione?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [Come si gestisce Power BI?](#how-do-we-manage-power-bi)
-* [Qual è la procedura per gestire un tenant creato da Microsoft per gli utenti?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Se si hanno più domini, è possibile controllare il tenant di Office 365 in cui vengono aggiunti gli utenti?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [Come si rimuove Power BI per gli utenti che hanno già effettuato l'iscrizione?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [Come si può sapere se nuovi utenti si aggiungono al tenant?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,18 +172,6 @@ Esistono tre possibili scenari:
 Power BI offre un portale di amministrazione che consente di visualizzare le statistiche di utilizzo, fornisce un collegamento all'interfaccia di amministrazione di Microsoft 365 per gestire utenti e gruppi e offre la possibilità di controllare le impostazioni a livello di tenant.
 
 Per usare il portale di amministrazione di Power BI, l'account deve essere contrassegnato come **Amministratore globale** in Office 365 o in Azure Active Directory o avere ricevuto il ruolo di amministratore del servizio Power BI. Per altre informazioni, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md) e [Portale di amministrazione di Power BI](service-admin-portal.md).
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual è la procedura per gestire un tenant creato da Microsoft per gli utenti?
-
-Quando un utente self-service si iscrive a un servizio cloud che usa Azure AD, viene aggiunto a una directory di Azure AD non gestita in base al dominio di posta elettronica. È possibile richiedere e gestire il tenant creato da un altro utente con un processo noto come *acquisizione della proprietà come amministratore*. Il tipo di acquisizione della proprietà dipende dalla presenza o meno di un tenant gestito esistente associato al dominio:
-
-* Usare un'*acquisizione interna della proprietà* per creare un nuovo tenant gestito per il dominio.
-
-* Usare un'*acquisizione esterna della proprietà* per spostare il dominio in un tenant gestito esistente.
-
-Per altre informazioni, vedere [Acquisire la proprietà di una directory non gestita come amministratore in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
-
-Quando si esegue un'acquisizione esterna della proprietà, il contenuto di Power BI creato prima dell'acquisizione viene inserito in un'[area di lavoro contenuto archiviato di Power BI](service-admin-power-bi-archived-workspace.md). È necessario eseguire manualmente la migrazione di qualsiasi contenuto che si vuole usare nel nuovo tenant.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Se si hanno più domini, è possibile controllare il tenant di Office 365 in cui vengono aggiunti gli utenti?
 
