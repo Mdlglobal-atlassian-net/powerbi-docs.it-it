@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 92dd8d7221c9c60fa4ffcd3e3ceefeda319d8670
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264609"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940922"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
@@ -54,9 +54,9 @@ Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli,
 
 5. Specificare i dettagli dell'**oggetto** e del **messaggio** di posta elettronica. 
 
-5. Selezionare una **frequenza** per la sottoscrizione: **Ogni giorno**, **Ogni settimana** o **Dopo l'aggiornamento dei dati (una volta al giorno)** .  Per ricevere il messaggio della sottoscrizione solo in determinati giorni, selezionare **Ogni settimana** e selezionare i giorni in cui si vuole riceverlo.  Ad esempio, se si vuole ricevere il messaggio della sottoscrizione solo nei giorni feriali, selezionare **Ogni settimana** e deselezionare le caselle **Sab** e **Dom**.  
+5. Selezionare una **frequenza** per la sottoscrizione: **Ogni giorno**, **Ogni ora**, **Ogni settimana** o **Dopo l'aggiornamento dei dati (una volta al giorno)** .  Per ricevere il messaggio di posta elettronica della sottoscrizione solo in determinati giorni, selezionare **Ogni ora** o **Ogni settimana** e scegliere i giorni desiderati.  Ad esempio, se si vuole ricevere il messaggio della sottoscrizione solo nei giorni feriali, selezionare **Ogni settimana** e deselezionare le caselle **Sab** e **Dom**.  
 
-6. Se si sceglie **Ogni giorno** oppure **Ogni settimana**, è anche possibile scegliere un'**Ora pianificata** per la sottoscrizione.  L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti.  Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario.
+6. Se si sceglie **Ogni giorno** oppure **Ogni settimana**, è anche possibile scegliere un'**Ora pianificata** per la sottoscrizione.  L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti.  Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario.  Se si sceglie **Ogni ora**, in **Ora pianificata** selezionare l'orario desiderato per l'avvio della sottoscrizione e il messaggio verrà inviato ogni ora a partire da quella indicata.
 
 7. Per impostazione predefinita, la data di inizio per la sottoscrizione è la data in cui viene creata. Si ha la possibilità di selezionare una data di fine. Se non viene impostata, la data di fine è automaticamente un anno dopo la data di inizio. È possibile modificarla impostando una data nel futuro (fino all'anno 9999) in qualsiasi momento prima della scadenza della sottoscrizione. Quando una sottoscrizione raggiunge una data di fine, viene interrotta finché non viene riabilitata. Si riceveranno delle notifiche prima della data di fine pianificata in cui viene chiesto se si intende prorogare la sottoscrizione.    
 
@@ -93,13 +93,13 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 * È possibile che i dashboard con più di 25 riquadri aggiunti o più di 4 pagine report dinamiche aggiunte non vengano visualizzati interamente nei messaggi di posta elettronica della sottoscrizione inviati agli utenti.  Le sottoscrizioni di dashboard con un numero superiore di riquadri non vengono bloccate. Tuttavia, vengono considerate senza supporto nel caso in cui si verifichino problemi. Considerare la possibilità di modificarli in modo da farli rientrare in un intervallo supportato.
 * In rare occasioni il recapito delle sottoscrizioni via posta elettronica ai destinatari può richiedere più di quindici minuti. In questo caso è consigliabile eseguire l'aggiornamento dei dati e la sottoscrizione via posta elettronica in momenti diversi per garantire il recapito tempestivo. Se il problema persiste, contattare il supporto di Power BI.
 * Per le sottoscrizioni via posta elettronica dei dashboard, i riquadri a cui è stata applicata la sicurezza a livello di riga non vengono visualizzati.  
-* Per le sottoscrizioni via posta elettronica dei report, gli utenti non possono creare una sottoscrizione da soli se il set di dati usa la sicurezza a livello di riga. Non è possibile sottoscrivere per altri utenti un report a cui è stata applicata la sicurezza a livello di riga.
+* Per le sottoscrizioni via posta elettronica dei report, gli utenti non possono creare una sottoscrizione da soli se il set di dati usa la sicurezza a livello di riga. Non è possibile sottoscrivere un report per altri utenti con la sicurezza a livello di riga applicata a meno che non si usi un report impaginato, che consente di inviare la sottoscrizione ad altri utenti usando il proprio contesto di protezione. 
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e dopo la si rinomina, è necessario ricreare la sottoscrizione.
 * L'organizzazione potrebbe configurare determinate impostazioni in Azure Active Directory per limitare la possibilità di usare le sottoscrizioni tramite posta elettronica in Power BI.  Queste limitazioni includono, a titolo di esempio, l'autenticazione a più fattori o la presenza di restrizioni dell'intervallo IP quando si accede alle risorse.
-* Attualmente le sottoscrizioni tramite posta elettronica per report e dashboard che usano connessioni dinamiche non sono supportate per le sottoscrizioni di altri utenti.
+* Attualmente, le sottoscrizioni di posta elettronica per report e dashboard che usano set di dati con connessione dinamica non sono supportate per altri utenti oltre a se stessi, a meno che non si usi un report impaginato, che consente di inviare la sottoscrizione ad altri utenti usando il proprio contesto di protezione. 
 * Le sottoscrizioni via posta elettronica non supportano la maggior parte degli [oggetti visivi personalizzati](power-bi-custom-visuals.md).  L'unica eccezione è costituita dagli oggetti visivi personalizzati che sono stati [certificati](power-bi-custom-visuals-certified.md).  
 * Attualmente le sottoscrizioni via posta elettronica non supportano oggetti visivi R personalizzati.  
-* Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.    
+* Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.  I report impaginati supportano questa funzionalità e consentono di impostare i valori dei parametri specifici per ogni sottoscrizione.   
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     
 * Se si condivide un dashboard con un collega al di fuori del tenant, non è possibile creare anche una sottoscrizione per il collega. Di conseguenza, se si è aaron@xyz.com è possibile condividere con anyone@ABC.com, ma non è possibile sottoscrivere anyone@ABC.com che non può sottoscrivere contenuto condiviso.      
 * Power BI sospende automaticamente l'aggiornamento nei set di dati associati ai dashboard e ai report che non vengono visitati da più di due mesi.  Tuttavia, se si aggiunge una sottoscrizione a un dashboard o un report, l'aggiornamento non viene sospeso anche nel caso in cui non sia stato visitato.    

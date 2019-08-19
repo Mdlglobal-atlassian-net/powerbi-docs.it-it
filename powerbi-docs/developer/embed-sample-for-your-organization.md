@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 02e11e167d859d3ef23124fed4f9f699766db8fe
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665542"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808238"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione
 
@@ -83,7 +83,7 @@ Se si incorporano report, dashboard o riquadri per i clienti, è necessario inse
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Creare e pubblicare i report di Power BI
 
-È possibile creare report impaginati usando [Generatore report di Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). È quindi possibile [caricare il report](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) in un'area di lavoro dell'app a cui è assegnata almeno la capacità A4/P1. Per eseguire la pubblicazione in un'area di lavoro dell'app, l'utente finale che esegue il caricamento del report deve disporre di una licenza Power BI Pro.
+È possibile creare report impaginati usando [Generatore report di Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). È quindi possibile [caricare il report](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) in un'area di lavoro per app a cui è assegnata almeno la capacità A4/P1. Per eseguire la pubblicazione in un'area di lavoro per app, l'utente finale che esegue il caricamento del report deve avere una licenza di Power BI Pro.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporare il contenuto usando l'applicazione di esempio
 
@@ -173,9 +173,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Immettere le informazioni di **AADAuthorityUrl** specificando l'URL che consente l'incorporamento all'interno del tenant dell'organizzazione o l'incorporamento con un utente guest.
 
-Per l'incorporamento con il tenant dell'organizzazione, usare l'URL *https://login.microsoftonline.com/common/oauth2/authorize* .
+Per l'incorporamento con il tenant dell'organizzazione, usare l'URL *https://login.microsoftonline.com/common/oauth2/authorize*.
 
-Per l'incorporamento con l'utente guest, usare l'URL *https://login.microsoftonline.com/report-owner-tenant-id* , in cui è possibile aggiungere l'ID tenant del proprietario del report in sostituzione a *report-owner-tenant-id*.
+Per l'incorporamento con l'utente guest, usare l'URL *https://login.microsoftonline.com/report-owner-tenant-id*, in cui è possibile aggiungere l'ID tenant del proprietario del report in sostituzione a *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Eseguire l'applicazione
 
@@ -209,7 +209,7 @@ Per ottenere un report di Power BI o impaginato, usare l'operazione [Get Reports
 
 L'operazione [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) restituisce un elenco di report. È possibile ottenere un singolo report dall'elenco di report.
 
-Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}* .
+Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
 
 #### <a name="get-reports-with-the-rest-api"></a>Ottenere report con l'API REST
 

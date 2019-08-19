@@ -53,6 +53,8 @@
       items:
         - name: Novità dell'ultimo aggiornamento di Power BI Desktop
           href: desktop-latest-update.md
+        - name: Raggruppamento di oggetti visivi in Power BI Desktop
+          href: desktop-grouping-visuals.md
         - name: Visualizzazione di modellazione in Power BI Desktop
           href: desktop-modeling-view.md
         - name: Aggregazioni in Power BI Desktop
@@ -487,9 +489,9 @@
               href: reduce-the-size-of-an-excel-workbook.md
         - name: Ottenere dati da set di dati condivisi
           items:
-            - name: Usare set di dati in aree di lavoro diverse
+            - name: Usa i set di dati in tutte le aree di lavoro
               href: service-datasets-across-workspaces.md
-            - name: Creare e condividere set di dati (anteprima)
+            - name: Condividere set di dati (anteprima)
               href: service-datasets-build-permissions.md
             - name: Creare report basati su set di dati
               href: service-datasets-discover-across-workspaces.md
@@ -1335,7 +1337,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: Gestire l'origine dati aziendale - SQL
+            - name: 'Gestire l''origine dati aziendale - SQL '
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
@@ -1430,3 +1432,5 @@
   items:
     - name: Che cos'è uno schema a stella?
       href: guidance/star-schema.md
+    - name: Ridurre le dimensioni del modello di dati
+      href: guidance/import-modeling-data-reduction.md

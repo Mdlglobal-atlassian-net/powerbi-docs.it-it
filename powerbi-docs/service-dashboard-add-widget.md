@@ -1,5 +1,5 @@
 ---
-title: Aggiungere immagini, testo, video e dati di streaming al dashboard
+title: Aggiungere immagini, video e altri elementi al dashboard
 description: Documentazione su come usare il widget Aggiungi riquadro per aggiungere un riquadro per immagini, video, caselle di testo, codice Web e dati di streaming a un dashboard.
 author: maggiesMSFT
 manager: kfile
@@ -8,103 +8,198 @@ featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
+ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67533176"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68832543"
 ---
-# <a name="add-image-text-video-and-more-to-your-dashboard"></a>Aggiungere immagini, testo, video e altri elementi al dashboard
+# <a name="add-images-videos-and-more-to-your-dashboard"></a>Aggiungere immagini, video e altri elementi al dashboard
+
+Aggiungendo un riquadro al dashboard, è possibile inserire un'immagine, una casella di testo, un video, dati in streaming o codice Web al dashboard. 
+
+Nel video Amanda aggiunge riquadri a un dashboard.
+
+   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="add-tile"></a>Aggiungi riquadro
-Il controllo **Aggiungi riquadro** consente di aggiungere direttamente un'immagine, una casella di testo, un video, uno streaming di dati o un codice Web al dashboard.
+## <a name="add-an-image-video-or-other-tile"></a>Aggiungere un'immagine, un video o un altro riquadro
+È possibile aggiungere un'immagine, una casella di testo, un video, dati in streaming o codice Web direttamente al dashboard.
 
-1. Selezionare **Aggiungi riquadro** nella barra dei menu superiore. A seconda delle limitazioni di spazio, potrebbe essere visualizzato solo il segno più ![segno più](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Selezionare **Aggiungi riquadro** nella barra dei menu superiore del dashboard. A seconda delle limitazioni di spazio, potrebbe essere visualizzato solo il segno più ![segno più](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
     ![Icona Aggiungi riquadro](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. Selezionare il tipo di riquadro da aggiungere: **Immagine**, **Casella di testo**, **Video**, **Contenuto Web** o **Dati in streaming personalizzati**.
+2. Selezionare il tipo di riquadro da aggiungere: 
+
+    **[Contenuto Web](#add-web-content)**
+
+    **[Immagine](#add-an-image)**
+
+    **[Casella di testo](#add-a-text-box-or-dashboard-heading)**
+
+    **[Video](#add-a-video)**
+
+    **[Dati in streaming personalizzati](#add-streaming-data)**
    
     ![Finestra Aggiungi riquadro](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Aggiungere un'immagine
-Si supponga di volere aggiungere il logo aziendale o un'altra immagine al dashboard. È necessario salvare il file di immagine online e creare un collegamento. Assicurarsi che non siano necessarie credenziali speciali per accedere al file di immagine. Ad esempio OneDrive e SharePoint richiedono l'autenticazione, quindi le immagini che vi sono archiviate non possono essere aggiunte a un dashboard in questo modo.  
+Se si vuole aggiungere il logo aziendale o un'altra immagine al dashboard, salvare il file di immagine online e aggiungere un collegamento a esso. Assicurarsi che non siano necessarie credenziali di sicurezza per accedere al file di immagine. Ad esempio OneDrive e SharePoint richiedono l'autenticazione, quindi le immagini archiviate in queste posizioni non possono essere aggiunte a un dashboard in questo modo.  
 
-1. Selezionare **Immagine** > **Avanti**.
-2. Aggiungere le informazioni alla finestra **Aggiungi riquadro immagine**.
+1. Nella finestra **Aggiungi riquadro** selezionare **Immagine** > **Avanti**.
+
+2. Nella finestra **Aggiungi riquadro immagine** aggiungere le informazioni sull'immagine:   
    
-    ![Finestra Aggiungi riquadro immagine](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
-   
-   * Per visualizzare un titolo sopra l'immagine, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo.
-   * Immettere l'URL dell'immagine.
-   * Per trasformare il riquadro in un collegamento ipertestuale, selezionare **Imposta collegamento personalizzato** e immettere l'URL.  Quando i colleghi selezionano questa immagine o questo titolo, verrà aperta la pagina corrispondente all'URL.
-   * Selezionare **Applica**.  Nel dashboard ridimensionare e spostare l'immagine in base alla necessità.
+   a. Per visualizzare un titolo sopra l'immagine, selezionare **Mostra titolo e sottotitolo** e immettere i valori per **Titolo** e, facoltativamente, **Sottotitolo**.
+
+   b. Immettere l'**URL** per l'immagine.
+
+   c. Per trasformare il riquadro in un collegamento ipertestuale, selezionare **Imposta collegamento personalizzato** e immettere il valore per **URL**. 
+
+      Quando i colleghi fanno clic sull'immagine o sul titolo, verrà aperta la pagina corrispondente all'URL.
+
+   d. Selezionare **Applica**. 
+
+      ![Finestra Aggiungi riquadro immagine](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+
+3. Nel dashboard ridimensionare e spostare l'immagine in base alla necessità.
      
      ![Immagine nel dashboard](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Aggiungere un'intestazione per una casella di testo o un dashboard
-1. Selezionare **Casella di testo > Avanti**.
-   
-   > **NOTA**: per aggiungere l'intestazione di un dashboard, digitarne il nome nella casella di testo e aumentare il tipo di carattere.
-   > 
+
+per aggiungere l'intestazione di un dashboard, digitarne il nome nella casella di testo e aumentare il tipo di carattere.
+
+1. Nella finestra **Aggiungi riquadro** selezionare **Casella di testo** > **Avanti**.
+
 2. Formattare la casella di testo:
    
-   * Per visualizzare un titolo sopra la casella di testo, selezionare **Mostra titolo e sottotitolo** e digitare un titolo e/o un sottotitolo.
-   * Immettere e formattare il contenuto per la casella di testo.  
-   * Facoltativamente, impostare un collegamento personalizzato per il titolo. Un collegamento personalizzato può essere un sito esterno o un dashboard oppure un report nell'area di lavoro. In questo esempio, tuttavia, sono stati aggiunti collegamenti ipertestuali entro la casella di testo, quindi occorre lasciare deselezionata l'opzione **Imposta collegamento personalizzato**.
+   a. Per visualizzare un titolo sopra la casella di testo, selezionare **Mostra titolo e sottotitolo** e immettere i valori per **Titolo** e, facoltativamente, **Sottotitolo**.
+
+   b. Immettere e formattare il testo della casella di testo in **Contenuto**.  
+
+   c. Facoltativamente, impostare un collegamento personalizzato per il titolo. Un collegamento personalizzato può essere un sito esterno o un dashboard oppure un report nell'area di lavoro. In questo esempio, tuttavia, sono stati aggiunti collegamenti ipertestuali all'interno della casella di testo, quindi l'opzione **Imposta collegamento personalizzato** deve rimanere deselezionata.
+
+   d. Selezionare **Applica**. 
 
      ![Finestra Aggiungi riquadro casella di testo](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
-3. Selezionare **Applica**.  Nel dashboard ridimensionare e spostare la casella di testo in base alla necessità.
+3. Nel dashboard ridimensionare e spostare la casella di testo in base alla necessità.
    
    ![Dashboard con immagine e casella di testo](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Aggiungere un video
 Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video viene riprodotto direttamente nel dashboard.
 
-1. Selezionare **Video > Avanti**.
-2. Aggiungere le informazioni sul video al riquadro **Aggiungi riquadro video**.
+1. Nella finestra **Aggiungi riquadro** selezionare **Video** > **Avanti**.
+2. Aggiungere le informazioni sul video nella finestra **Aggiungi riquadro video**:   
    
-    ![Finestra Aggiungi riquadro video](media/service-dashboard-add-widget/power-bi-add-video-new.png)
-   
-   * Per visualizzare un titolo e un sottotitolo nella parte superiore del riquadro del video, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo. In questo esempio si aggiungerà un sottotitolo e quindi lo si trasformerà in un collegamento ipertestuale relativo all'intera playlist su YouTube.
-   * Immettere l'URL per il video.
-   * Aggiungere un collegamento ipertestuale per il titolo e il sottotitolo.  Se, dopo che i colleghi hanno guardato il video incorporato, si vuole che visualizzino l'intera playlist su YouTube, aggiungere qui un collegamento alla playlist.
-   * Selezionare **Applica**.  Nel dashboard ridimensionare e spostare il video in base alla necessità.
+   a. Per visualizzare un titolo e un sottotitolo nella parte superiore del riquadro del video, selezionare **Mostra titolo e sottotitolo** e immettere i valori per **Titolo** e, facoltativamente, **Sottotitolo**. In questo esempio si aggiungeranno le informazioni per **Sottotitolo** e il contenuto verrà quindi convertito in un collegamento ipertestuale all'intera playlist su YouTube.
+
+   b. Immettere il valore di **URL video** per il video.
+
+   c. Aggiungere un collegamento ipertestuale per **Titolo** e **Sottotitolo** in modo che i colleghi possano visualizzare l'intera playlist su YouTube dopo aver guardato il video incorporato. A tale scopo, in **Funzionalità** selezionare **Imposta collegamento personalizzato** e quindi immettere il valore di **URL** per la playlist.
+
+   d. Selezionare **Applica**.  
+
+   ![Finestra Aggiungi riquadro video](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+
+3. Nel dashboard ridimensionare e spostare il video in base alla necessità.
      
-      ![Dashboard con riquadro video aggiunto](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
-3. Selezionare il riquadro video per riprodurre il video.
-4. Selezionare il sottotitolo per visitare la playlist su YouTube.
+   ![Dashboard con riquadro video aggiunto](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+4. Selezionare il riquadro video per riprodurre il video.
+5. Selezionare il sottotitolo per visitare la playlist su YouTube.
 
 ## <a name="add-streaming-data"></a>Aggiungere lo streaming di dati
+È possibile usare PubNub per aggiungere dati in streaming, ad esempio feed di Twitter o dati dei sensori, a un riquadro nel dashboard. Power BI ha creato un'integrazione per ottenere i dati da PubNub. In questo video Will spiega come funziona.
+   
+
+È possibile usare PubNub per aggiungere dati in streaming, ad esempio feed di Twitter o dati dei sensori, a un riquadro nel dashboard. Power BI ha creato un'integrazione per ottenere i dati da PubNub. In questo video Will spiega come funziona. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
+1. Nella finestra **Aggiungi riquadro** selezionare **Dati in streaming personalizzati** > **Avanti**.
+2. Selezionare **Aggiungi set di dati di streaming**.
+3. Scegliere **Nuovo set di dati di streaming** per creare un nuovo set di dati in streaming usando l'API Power BI o PubNub.
+4. Inserire le informazioni nei campi **Nome set di dati**, **Chiave sottoscrizione** e **Nome del canale**. Se si tratta di una connessione sicura, è presente anche una chiave di autorizzazione. È possibile usare i valori di esempio di PubNub per provare.
+5. Fare clic su **Avanti**.
+    Verranno visualizzati i campi disponibili nel set di dati, con i relativi tipi di dati e il formato JSON.
+6. Selezionare **Connetti**.
+    È stato creato un set di dati in streaming.
+7. Tornare al dashboard e selezionare di nuovo **Aggiungi riquadro** > **Dati in streaming personalizzati** > **Avanti**.
+8. Selezionare il set di dati del sensore creato > **Avanti**.
+9. Selezionare il tipo di oggetto visivo desiderato. Spesso per questi dati è appropriato un grafico a linee.
+10. Selezionare **Asse**, **Legenda** e **Valori**.
+11. Stabilire la quantità di tempo da visualizzare, in secondi, minuti o ore.
+12. Fare clic su **Avanti**.
+13. Immettere i valori per **Titolo** e **Sottotitolo**, se si desidera.
+14. Aggiungere l'oggetto al dashboard.
+
+
+1. Nella finestra **Aggiungi riquadro** selezionare **Dati in streaming personalizzati** > **Avanti**.
+
+2. Selezionare **Aggiungi set di dati di streaming**.
+
+3. Scegliere **Nuovo set di dati di streaming** per creare un nuovo set di dati in streaming usando l'API Power BI o PubNub.
+
+4. Inserire le informazioni nei campi **Nome set di dati**, **Chiave sottoscrizione** e **Nome del canale**. Se si tratta di una connessione sicura, è presente anche una chiave di autorizzazione. È possibile usare i valori di esempio di PubNub per provare.
+
+5. Fare clic su **Avanti**.
+
+   Verranno visualizzati i campi disponibili nel set di dati, con i relativi tipi di dati e il formato JSON.
+
+6. Selezionare **Connetti**.
+
+   È stato creato un set di dati in streaming.
+
+7. Tornare al dashboard e selezionare di nuovo **Aggiungi riquadro** > **Dati in streaming personalizzati** > **Avanti**.
+
+8. Selezionare il set di dati del sensore creato > **Avanti**.
+
+9. Selezionare il tipo di oggetto visivo desiderato. Spesso per questi dati è appropriato un grafico a linee.
+
+10. Selezionare **Asse**, **Legenda** e **Valori**.
+
+11. Stabilire la quantità di tempo da visualizzare, in secondi, minuti o ore.
+
+12. Fare clic su **Avanti**.
+
+13. Facoltativamente, immettere i valori per **Titolo** e **Sottotitolo**.
+
+14. Aggiungere l'oggetto al dashboard.
+
 ## <a name="add-web-content"></a>Aggiungere contenuto Web
-Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquadro al dashboard. Immettere il codice di incorporamento manualmente oppure copiare e incollare da siti quali Twitter, YouTube, embed.ly e così via.
+È possibile incollare o digitare qualsiasi contenuto HTML, come riquadro, nel report o nel dashboard. Immettere il codice di incorporamento manualmente oppure copiare e incollare da siti come Twitter, YouTube, embed.ly e così via.
 
-1. Selezionare **Contenuto Web > Avanti**.
-2. Aggiungere le informazioni nel riquadro **Aggiungi riquadro contenuto Web**.
+1. Nella finestra **Aggiungi riquadro** selezionare **Contenuto Web** > **Avanti**.
+
+2. Aggiungere le informazioni nella finestra **Aggiungi riquadro contenuto Web**:
    
-    ![Finestra Aggiungi riquadro contenuto Web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+   a. Per visualizzare un titolo sopra il riquadro, selezionare **Mostra titolo e sottotitolo** e immettere i valori per **Titolo** e, facoltativamente, **Sottotitolo**.
+
+   b. Immettere il codice di incorporamento. In questo esempio viene copiato e incollato un feed di Twitter.
+
+   c. Selezionare **Applica**.
+
+   ![Finestra Aggiungi riquadro contenuto Web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
-   * Per visualizzare un titolo sopra il riquadro, selezionare *Mostra titolo e sottotitolo* e digitare un titolo e/o un sottotitolo.
-   * Immettere il codice di incorporamento. In questo esempio viene copiato e incollato un feed di Twitter.
-3. Selezionare **Applica**.  Nel dashboard ridimensionare e spostare il contenuto Web in base alla necessità.
+
+3. Nel dashboard ridimensionare e spostare il contenuto Web in base alla necessità.
      
-      ![Dashboard con 4 riquadri](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+   ![Dashboard con quattro riquadri](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
-## <a name="tips-for-embedding-web-content"></a>Suggerimenti per l'incorporamento di contenuto Web
-* Per iframes, usare un'origine sicura. Se si immette il codice di incorporamento iframe codice e si ottiene un riquadro vuoto, controllare se è usato **http** per l'origine iframe.  In questo caso, modificarlo in **https**.
+### <a name="tips-for-embedding-web-content"></a>Suggerimenti per l'incorporamento di contenuto Web
+* Per iframes, usare un'origine sicura. Se si immette il codice di incorporamento iframe e si ottiene un riquadro vuoto, controllare se è stato usato *http* per l'origine iframe. In questo caso, modificare in *https*.
   
   ```html
   <iframe src="https://xyz.com">
   ```
-* Modificare le informazioni su larghezza e altezza. Questo codice incorpora un video e imposta il lettore video su 560 x 315 pixel.  Queste dimensioni non cambierà quando si ridimensiona il riquadro.
+* Modificare le informazioni su larghezza e altezza. Il codice di incorporamento incorpora un video e imposta il lettore video su 560 x 315 pixel. Queste dimensioni non cambiano quando si ridimensiona il riquadro.
   
   ```html
   <iframe width="560" height="315"
@@ -112,14 +207,14 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
    allowfullscreen></iframe>
   ```
   
-  Se si vuole ridimensionare il lettore per adattarlo ai riquadri, impostare larghezza e altezza su 100%.
+  Se si vuole che il lettore venga ridimensionato per adattarlo al riquadro, impostare larghezza e altezza su 100%.
   
   ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* Questo codice incorpora un tweet e mantiene, come collegamenti separati nel dashboard, collegamenti per il podcast **AFK**, per la **\@pagina Twitter di GuyInACube** e per **Segui**, **#analytics**, **risposta**, **retweet** e **Mi piace**.  Selezionando il riquadro si raggiunge il podcast su Twitter.
+* Questo codice incorpora un tweet e mantiene, come collegamenti separati nel dashboard, collegamenti per il podcast AFK, per la pagina Twitter di \@GuyInACube, per #analytics e per le opzioni Segui, Rispondi, Retweet e Mi piace.  Selezionando il riquadro si raggiunge il podcast su Twitter.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
@@ -135,21 +230,21 @@ Incollare o digitare qualsiasi contenuto HTML.  Power BI lo aggiunge come riquad
   ```
 
 ## <a name="edit-a-tile"></a>Modificare un riquadro
-Per modificare un riquadro:
+Per modificare un riquadro esistente:
 
-1. Passare il puntatore nell'angolo in alto a destra del riquadro e selezionare i puntini di sospensione.
+1. Passare il puntatore nell'angolo in alto a destra del riquadro e selezionare i puntini di sospensione (...).
    
     ![Selezionare i puntini di sospensione del riquadro](media/service-dashboard-add-widget/pbi_ellipses.png)
-2. Selezionare l'icona di modifica per riaprire il riquadro **Dettagli riquadro** e apportare modifiche.
+2. Selezionare **Modifica dettagli** per visualizzare la finestra **Dettagli riquadro** e apportare le modifiche.
    
-    ![Icona di modifica a forma di matita](media/service-dashboard-add-widget/pbi-edit.png)
+    ![Modifica dettagli](media/service-dashboard-add-widget/pbi-edit.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-* Per semplificare lo spostamento del riquadro nel dashboard, aggiungere un titolo e/o un sottotitolo.
-* Se si vuole incorporare un contenuto da un sito Web, che però non fornisce il codice di incorporamento da copiare e incollare, consultare embed.ly per indicazioni su come generare il codice di incorporamento.
+* Per semplificare lo spostamento del riquadro nel dashboard, aggiungere un titolo e un sottotitolo facoltativo.
+* Se si vuole incorporare un contenuto da un sito Web, che però non fornisce il codice di incorporamento da copiare e incollare, vedere embed.ly per indicazioni su come generare il codice di incorporamento.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Riquadri del dashboard](consumer/end-user-tiles.md)
+[Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI](service-dashboard-tiles.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
 

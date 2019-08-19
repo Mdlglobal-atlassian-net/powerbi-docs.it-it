@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 0aa1d964485297c5e0dae3f4a309cc0dd15b92b2
+ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729802"
+ms.lasthandoff: 08/10/2019
+ms.locfileid: "68940914"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -79,7 +79,7 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
                 - Copia e incolla tra file con estensione pbix
                 - Guide intelligenti per l'allineamento
                 - Supporto per le funzionalità di SAP BW Connector 2.0
-            - Administrators
+            - Amministratori
                 - Possibilità di limitare le estensioni delle risorse caricabili nel server di report
                 - Possibilità di limitare gli schemi di collegamento ipertestuale supportati
             - Programmazione
@@ -124,7 +124,10 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
     - *Versione: 2.61.5192.641 (agosto 2018), data di rilascio: 15 agosto 2018*
         - Include modifiche necessarie per la connessione a Server di report di Power BI (agosto 2018)         
-        
+    - *Versione: 2.61.5192.7701 (agosto 2018), data di rilascio: 8 agosto 2019* (nuova build e nuova versione)
+        - Correzioni di bug
+            - Correzione per la registrazione dei dati di telemetria non corretta
+            
 ## <a name="march-2018"></a>Marzo 2018
 
 - **Server di report Power BI**

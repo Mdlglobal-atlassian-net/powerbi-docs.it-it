@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730252"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867064"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Domande frequenti sul gateway dati locale - Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730252"
 
 ## <a name="power-bi"></a>Power BI
 
-**Domanda**: è necessario eseguire l'aggiornamento del gateway personale? 
+**Domanda**: È necessario aggiornare il gateway dati locale (modalità personale)?
 
-**Risposta**: no, si può continuare a usare il gateway personale di Power BI.
+**Risposta**: No, è possibile continuare a usare il gateway (modalità personale) per Power BI.
 
 **Domanda**: Sono necessarie autorizzazioni speciali per installare il gateway e gestirlo nel servizio Power BI?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730252"
 
 **Domanda**: perché non è possibile connettersi al server Oracle? 
 
-**Risposta**: potrebbe essere necessario installare il client Oracle e configurare il file tnsnames.ora con le informazioni sul server corretto per consentire la connessione al server Oracle. Si tratta di un'installazione separata all'esterno del gateway. Per altre informazioni, vedere [Installazione del client Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Risposta**: potrebbe essere necessario installare il client Oracle e configurare il file tnsnames.ora con le informazioni sul server corretto per consentire la connessione al server Oracle. Si tratta di un'installazione separata all'esterno del gateway. Per altre informazioni, vedere [Installazione del client Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
 
 **Domanda**: il gateway funzionerà con Azure ExpressRoute? 
 
