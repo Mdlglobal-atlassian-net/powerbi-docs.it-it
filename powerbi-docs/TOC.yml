@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: Raggruppamento di oggetti visivi in Power BI Desktop
           href: desktop-grouping-visuals.md
+        - name: Uso dei modelli in Power BI Desktop
+          href: desktop-templates.md
         - name: Visualizzazione di modellazione in Power BI Desktop
           href: desktop-modeling-view.md
         - name: Aggregazioni in Power BI Desktop
@@ -659,7 +661,7 @@
           items:
             - name: Preparazione dei dati self-service con flussi di dati
               href: service-dataflows-overview.md
-            - name: Creare e usare flussi di dati
+            - name: Crea e usa flussi di dati
               href: service-dataflows-create-use.md
             - name: Entità calcolate con Power BI Premium
               href: service-dataflows-computed-entities-premium.md
@@ -1203,7 +1205,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
             - name: Download SDK .NET
               href: 'https://go.microsoft.com/fwlink/?linkid=848274'
-- name: Server di report di Power BI
+- name: Server di report Power BI
   items:
     - name: Panoramica
       items:
@@ -1337,7 +1339,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: 'Gestire l''origine dati aziendale - SQL '
+            - name: Gestire l'origine dati aziendale - SQL
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
