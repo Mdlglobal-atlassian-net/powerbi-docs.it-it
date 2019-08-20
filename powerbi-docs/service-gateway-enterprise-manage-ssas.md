@@ -168,7 +168,7 @@ Quando si seleziona un elemento nell'elenco, è possibile scegliere di riordinar
 
 ### <a name="use-a-wildcard"></a>Usare un carattere jolly
 
-È possibile usare un carattere jolly per la stringa **Sostituisci (nome originale)** . Il carattere jolly può essere usato da solo, ma non con nessun'altra parte della stringa. Usare un carattere jolly se si intende usare tutti gli utenti e passare un singolo valore all'origine dati. Tale approccio è utile quando si desidera che tutti gli utenti nell'organizzazione usino lo stesso nome utente nell'ambiente locale.
+È possibile usare un carattere jolly (*) per la stringa **Sostituisci (nome originale)** . Il carattere jolly può essere usato da solo, ma non con nessun'altra parte della stringa. Usare un carattere jolly se si intende usare tutti gli utenti e passare un singolo valore all'origine dati. Tale approccio è utile quando si desidera che tutti gli utenti nell'organizzazione usino lo stesso nome utente nell'ambiente locale.
 
 ### <a name="test-a-mapping-rule"></a>Testare una regola di mapping
 
