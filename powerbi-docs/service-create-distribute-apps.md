@@ -6,23 +6,23 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826628"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530596"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
-In Power BI è possibile creare contenuto ufficiale in pacchetti e quindi distribuirlo a un'ampia platea sotto forma di *app*. È possibile creare app nelle *aree di lavoro per le app*, in cui è possibile collaborare sul contenuto di Power BI con i colleghi. È quindi possibile pubblicare le app complete in ampi gruppi di persone all'interno dell'organizzazione. 
+In Power BI è possibile creare contenuto ufficiale in pacchetti e quindi distribuirlo a un'ampia platea sotto forma di *app*. È possibile creare app nelle *aree di lavoro*, in cui è possibile collaborare sul contenuto di Power BI con i colleghi. È quindi possibile pubblicare le app complete in ampi gruppi di persone all'interno dell'organizzazione. 
 
 ![App di Power BI](media/service-create-distribute-apps/power-bi-new-apps.png)
 
-Gli utenti aziendali spesso hanno bisogno di più dashboard e report di Power BI per l'esecuzione delle loro attività aziendali. Con le app Power BI è possibile creare raccolte di dashboard e report e pubblicare le app nell'intera organizzazione o soltanto a gruppi o utenti specifici. Per l'utente amministratore o autore del report, le app rendono più semplice gestire le autorizzazioni per queste raccolte.
+Gli utenti aziendali spesso hanno bisogno di più dashboard e report di Power BI per l'esecuzione delle loro attività aziendali. Con le app Power BI è possibile creare raccolte di dashboard e report e pubblicare le raccolte come app nell'intera organizzazione o soltanto per gruppi o utenti specifici. Per l'utente amministratore o autore del report, le app rendono più semplice gestire le autorizzazioni per queste raccolte.
 
 Gli utenti aziendali possono ottenere le app in diversi modi:
 
@@ -30,13 +30,13 @@ Gli utenti aziendali possono ottenere le app in diversi modi:
 - È possibile inviare un collegamento diretto.
 - Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi.
 
-È possibile creare l'app con la relativa struttura di spostamento predefinita, in modo che gli utenti possano orientarsi facilmente all'interno del contenuto. Gli utenti non possono modificare il contenuto dell'app. Possono interagire con esso nel servizio Power BI o in una delle app per dispositivi mobili filtrando, evidenziando e ordinando i dati autonomamente. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](consumer/end-user-apps.md).
+È possibile creare l'app con la relativa struttura di spostamento predefinita, in modo che gli utenti possano orientarsi facilmente all'interno del contenuto. Gli utenti non possono modificare il contenuto dell'app. Possono interagire con esso nel servizio Power BI o in una delle app per dispositivi mobili filtrando, evidenziando e ordinando i dati autonomamente. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. È anche possibile assegnare loro le autorizzazioni di compilazione per connettersi ai set di dati sottostanti e per creare copie dei report nell'app. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 
 ## <a name="licenses-for-apps"></a>Licenze per le app
 Per creare o aggiornare un'app è necessaria una licenza Power BI Pro. Per gli *utenti* dell'app sono disponibili due opzioni.
 
-* Opzione 1: tutti gli utenti aziendali devono disporre di una licenza **Power BI Pro** per visualizzare le app. 
-* Opzione 2: gli utenti del piano gratuito all'interno dell'organizzazione possono visualizzare il contenuto dell'app se la relativa area di lavoro risiede in una capacità Power BI Premium. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium.md) (Che cos'è Power BI Premium?).
+* **Opzione 1** L'area di lavoro per questa app *non* è in una capacità Power BI Premium: tutti gli utenti aziendali devono avere licenze Power BI Pro per visualizzare l'app. 
+* **Opzione 2** L'area di lavoro per questa app *è* in una capacità Power BI Premium: gli utenti aziendali senza licenze di Power BI Pro all'interno dell'organizzazione possono visualizzare il contenuto dell'app. Non possono tuttavia copiare i report o creare report basati sui set di dati sottostanti. Per informazioni dettagliate, leggere [What is Power BI Premium?](service-premium.md) (Che cos'è Power BI Premium?).
 
 ## <a name="publish-your-app"></a>Pubblicare l'app
 Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile scegliere i dashboard e i report da pubblicare e quindi pubblicarli come app. 
@@ -57,21 +57,19 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
    
      ![Compilare l'app](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. In **Navigazione** selezionare il contenuto da pubblicare come parte dell'app. Aggiungere quindi la struttura di spostamento dell'app per organizzare il contenuto in sezioni. Per i dettagli, vedere [Progettare l'esperienza di navigazione per l'app](#design-the-navigation-experience-for-your-app) in questo articolo.
+4. In **Navigazione** selezionare il contenuto da pubblicare come parte dell'app. Aggiungere quindi la struttura di spostamento dell'app per organizzare il contenuto in sezioni. Per i dettagli, vedere [Progettare l'esperienza di navigazione per l'app](#design-the-navigation-experience) in questo articolo.
    
      ![Struttura di spostamento dell'app](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. In **Autorizzazioni** decidere chi ha accesso all'app e quali operazioni può eseguire. 
     - Nelle [aree di lavoro classiche](service-create-workspaces.md): tutti gli utenti nell'organizzazione, utenti specifici o gruppi di sicurezza di Azure Active Directory (AAD).
     - Nelle [aree di lavoro della nuova esperienza](service-create-the-new-workspaces.md): utenti specifici, gruppi di sicurezza e liste di distribuzione di AAD e gruppi di Office 365. Viene concesso automaticamente l'accesso all'app per l'area di lavoro a tutti gli utenti dell'area di lavoro.
-    - È possibile consentire agli utenti dell'app di connettersi a set di dati sottostanti dell'app con l'autorizzazione di compilazione. Questi set di dati verranno visualizzati nelle esperienze di ricerca di set di dati.
-    - È possibile consentire agli utenti dell'app di creare una copia dei report dell'app nella loro area di lavoro personale. 
+    - È possibile consentire agli utenti dell'app di connettersi a set di dati sottostanti dell'app concedendo loro l'autorizzazione di compilazione. Questi set di dati verranno visualizzati durante la ricerca dei set di dati condivisi. Per altre informazioni su come [consentire agli utenti di connettersi ai set di dati dell'app](#allow-users-to-connect-to-datasets), vedere più avanti in questo articolo.
+    - Gli utenti con l'autorizzazione di compilazione possono anche avere l'autorizzazione per copiare i report da questa app a un'altra area di lavoro. Per altre informazioni su come [consentire agli utenti di copiare i report nell'app](#allow-users-to-copy-reports), vedere più avanti in questo articolo.
     
     >[!IMPORTANT]
     >Se l'app si basa su set di dati di altre aree di lavoro, è necessario verificare che tutti gli utenti dell'app abbiano accesso ai set di dati sottostanti.
-> 
->     
-
+    >
 
 6. È possibile installare l'app in modo automatico per i destinatari, se l'amministratore di Power BI ha abilitato questa impostazione nel portale di amministrazione di Power BI. Vedere altre informazioni sull'[installazione automatica di un'app](#automatically-install-apps-for-end-users) in questo articolo.
 
@@ -84,26 +82,26 @@ Quando i dashboard e i report dell'area di lavoro sono pronti, è possibile sceg
 È possibile inviare il collegamento diretto alle persone con cui l'app è stata condivisa oppure questa sarà reperibile nella scheda App passando a **Scarica ed esplora altre app da AppSource**. Altre informazioni sull'[esperienza dell'app per gli utenti aziendali](consumer/end-user-apps.md).
 
 ## <a name="change-your-published-app"></a>Modificare l'app pubblicata
-Dopo aver pubblicato l'app, si potrebbe volerla modificare o aggiornare. È facile aggiornarla se si è un amministratore o un membro dell'area di lavoro della nuova app. 
+Dopo aver pubblicato l'app, si potrebbe volerla modificare o aggiornare. È facile aggiornarla se si è un amministratore o un membro della nuova area di lavoro. 
 
-1. Aprire l'area di lavoro per le app che corrisponde all'app. 
+1. Aprire l'area di lavoro che corrisponde all'app. 
    
      ![Apri area di lavoro](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Modificare i dashboard o i report in base alle esigenze.
  
-     L'area di lavoro per le app è l'area di gestione temporanea personale, quindi le modifiche nell'app non vengono eseguite in tempo reale fino a quando non si pubblica di nuovo l'app. Ciò consente di apportare modifiche senza influire sulle app pubblicate.  
+     L'area di lavoro è l'area di staging personale, quindi le modifiche non risultano applicate nell'app fino a quando non si pubblica di nuovo l'app. Ciò consente di apportare modifiche senza influire sulle app pubblicate.  
  
     > [!IMPORTANT]
     > Se si rimuove un report e si aggiorna l'app, anche se il report viene di nuovo aggiunto all'app, gli utenti perderanno tutte le personalizzazioni, ad esempio segnalibri, commenti e così via.  
  
-3. Tornare all'elenco di contenuti dell'area di lavoro dell'app e selezionare **Aggiorna app** nell'angolo superiore destro.
+3. Tornare all'elenco di contenuti dell'area di lavoro e selezionare **Aggiorna app** nell'angolo superiore destro.
    
 1. Aggiornare **Installazione**, **Navigazione** e **Autorizzazioni**, se necessario, quindi selezionare **Aggiorna app**.
    
 Le persone per cui è stata pubblicata l'app visualizzano automaticamente la versione aggiornata dell'app. 
 
-## <a name="design-the-navigation-experience-for-your-app"></a>Progettare l'esperienza di navigazione per l'app
+## <a name="design-the-navigation-experience"></a>Progettare l'esperienza di navigazione
 L'opzione **Nuovo generatore di struttura di spostamento** consente di creare una struttura di spostamento personalizzata per l'app. La struttura di spostamento personalizzata consente agli utenti di trovare e usare più facilmente il contenuto disponibile nell'app. Le app esistenti hanno questa opzione disattivata, mentre per le nuove app l'opzione è attivata per impostazione predefinita.
 
 Quando questa opzione è disattivata, in **Pagina di destinazione dell'app** è possibile selezionare **Contenuto specifico**, ad esempio un dashboard o un report, oppure **Nessuna** in modo che l'utente visualizzi un elenco di contenuti di base.
@@ -160,27 +158,32 @@ Ecco alcuni aspetti da tenere in considerazione quando si effettua il push delle
 
 * Per gli utenti guest che non hanno accettato un invito, le app non verranno installate automaticamente.  
 
-## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Consentire agli utenti di connettersi ai set di dati sottostanti dell'app
-Se si seleziona l'opzione per consentire a tutti gli utenti di connettersi ai set di dati sottostanti dell'app, gli utenti dell'app ricevono l'autorizzazione di compilazione nel set di dati sottostante. Ciò consente agli utenti di [usare i set di dati dell'app tra aree di lavoro](service-datasets-across-workspaces.md) per cercare questi set di dati in Power BI Desktop nonché fare in modo che il servizio recuperi i dati e creare report e dashboard usando questi set di dati. 
+## <a name="allow-users-to-connect-to-datasets"></a>Consentire agli utenti di connettersi ai set di dati
 
-Se si deseleziona questa opzione, ai nuovi utenti che vengono aggiunti all'app non viene più concessa l'autorizzazione di compilazione. Tuttavia, le autorizzazioni esistenti per i set di dati sottostanti non cambiano. Per rimuovere manualmente l'autorizzazione di compilazione per gli utenti dell'app che non devono più averla, è possibile usare l'interfaccia utente specificata. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Quando si seleziona l'opzione **Allow users to connect to the app's underlying datasets** (Consente agli utenti di connettersi ai set di dati sottostanti dell'app), si concede agli utenti dell'app l'*autorizzazione di compilazione* per tali set di dati. Con questa autorizzazione, possono eseguire diverse azioni chiave:
 
-## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Consentire agli utenti di creare una copia dei report nell'app
-Se si seleziona l'opzione **Consentire agli utenti di creare una copia dei report in questa app**, si consente agli utenti di salvare i report dell'app nella propria area di lavoro personale. Questi report potranno poi essere personalizzati in base a esigenze specifiche. Questa opzione richiede che l'opzione **Consente a tutti gli utenti di connettersi ai set di dati sottostanti dell'app usando l'autorizzazione di compilazione** sia abilitata. Questa funzionalità si comporta come la nuova funzionalità di [copia dei report da altre aree di lavoro](service-datasets-copy-reports.md).
+- [Usare i set di dati dell'app](service-datasets-across-workspaces.md) come base per i report.
+- Cercare questi set di dati in Power BI Desktop e nell'esperienza di acquisizione dei dati nel servizio Power BI.
+- Creare report e dashboard basati su questi set di dati.
+
+Se si deseleziona questa opzione, i nuovi utenti aggiunti all'app non ottengono l'autorizzazione di compilazione. Tuttavia, per gli utenti esistenti dell'app, le autorizzazioni per i set di dati sottostanti non cambiano. È possibile rimuovere manualmente l'autorizzazione di compilazione per gli utenti dell'app che non devono più averla. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allow-users-to-copy-reports"></a>Consentire agli utenti di copiare i report
+
+Quando si seleziona l'opzione **Consente agli utenti di creare una copia dei report in questa app**, gli utenti possono salvare i report dell'app in Area di lavoro personale o in un'altra area di lavoro. Per creare una copia, gli utenti devono avere una licenza Pro, anche se il report originale si trova in un'area di lavoro in una capacità Premium. Questi report potranno poi essere personalizzati in base a esigenze specifiche. È necessario selezionare prima l'opzione **Consente a tutti gli utenti di connettersi ai set di dati sottostanti dell'app usando l'autorizzazione di compilazione**. Selezionando queste opzioni, si abilita la nuova funzionalità di [copia di report da altre aree di lavoro](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Annullare la pubblicazione di un'app
-Qualsiasi membro di un'area di lavoro per le app può annullare la pubblicazione dell'app.
+Qualsiasi membro di un'area di lavoro può annullare la pubblicazione dell'app.
 
 >[!IMPORTANT]
 >Quando si annulla la pubblicazione di un'app, gli utenti dell'app perdono le loro personalizzazioni. Segnalibri e commenti personali o sottoscrizioni associate al contenuto dell'app andranno persi. Annullare la pubblicazione di un'app solo se è necessario rimuoverla.
 > 
-> 
 
-* In un'area di lavoro per le app, selezionare i punti di sospensione ( **...** ) nell'angolo superiore destro > **Annulla pubblicazione app**.
+* In un'area di lavoro selezionare i puntini di sospensione ( **...** ) nell'angolo superiore destro > **Annulla pubblicazione app**.
   
      ![Annulla pubblicazione app](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
-Questa azione disinstalla l'app per tutti gli utenti a cui è stata pubblicata, i quali non potranno più accedervi. Non verranno eliminati l'area di lavoro per le app o il relativo contenuto.
+Questa azione disinstalla l'app per tutti gli utenti a cui è stata pubblicata, i quali non potranno più accedervi. L'area di lavoro o il relativo contenuto non verrà eliminato.
 
 ## <a name="view-your-published-app"></a>Visualizzare l'app pubblicata
 
@@ -189,7 +192,7 @@ All'apertura dell'app, gli utenti vedono la struttura di spostamento creata, anz
 ![App con struttura di spostamento](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Creare un'area di lavoro per le app](service-create-workspaces.md)
+* [Creare un'area di lavoro](service-create-workspaces.md)
 * [Installare e usare app in Power BI](consumer/end-user-apps.md)
 * [App Power BI per dispositivi esterni](service-connect-to-services.md)
 * [Portale di amministrazione di Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: aa41e1e2869ad4d2f77224e3bec99dc00c59c536
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a60fe526e83e5220e9b310097c8ba37682a396e
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61337339"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995231"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introduzione all'app Power BI per dispositivi mobili per Windows 10
 Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile accedere a informazioni aziendali aggiornate tramite tablet o telefoni abilitati per il tocco, nonché visualizzare e interagire con i dashboard aziendali ovunque ci si trovi, direttamente dalla [schermata Start di Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -33,7 +33,7 @@ Grazie all'app Power BI per dispositivi mobili per Windows 10 è possibile acced
 * Informazioni sulle [Novità delle app Power BI per dispositivi mobili](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Iscriversi al servizio Power BI sul Web
-Se non è ancora stata eseguita l'iscrizione, passare al [servizio Power BI](http://powerbi.com/) per registrare un account per creare e archiviare i dashboard i report e riunire i dati. Accedere quindi a Power BI dal dispositivo Windows 10 per visualizzare i propri dashboard ovunque ci si trovi.
+Se non è ancora stata effettuata l'iscrizione, passare al [servizio Power BI](http://powerbi.com/). Registrare un account per creare e archiviare i dashboard e report e riunire i dati. Accedere quindi a Power BI dal dispositivo Windows 10 per visualizzare i propri dashboard ovunque ci si trovi.
 
 1. Nel servizio Power BI toccare [Iscriviti](http://go.microsoft.com/fwlink/?LinkID=513879) per creare un account di Power BI.
 2. Iniziare a [creare dashboard e report personalizzati](../../service-get-started.md).
@@ -53,7 +53,7 @@ Se non è ancora stata eseguita l'iscrizione, passare al [servizio Power BI](htt
 Anche senza iscriversi, è possibile provare a usare gli esempi di Power BI e Reporting Services. Dopo avere scaricato l'app, è possibile visualizzare gli esempi o iniziare a usarli. È possibile tornare agli esempi in qualsiasi momento dalla home page dei dashboard.
 
 ### <a name="power-bi-samples"></a>Esempi di Power BI
-È possibile visualizzare e interagire con gli esempi di dashboard Power BI, ma non sarà possibile eseguire alcune operazioni, come ad esempio aprire i report dietro i dashboard, condividere gli esempi con altre persone o impostarli come preferiti.
+È possibile visualizzare e interagire con gli esempi di dashboard di Power BI, con cui tuttavia non è possibile eseguire alcune operazioni, come ad esempio aprire i report dietro i dashboard, condividere gli esempi con altre persone o impostarli come preferiti.
 
 1. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) nell'angolo in alto a sinistra.
 2. Toccare l'icona **Impostazioni** ![icona Impostazioni](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), toccare il nome, quindi toccare **Visualizza esempi**.
@@ -92,7 +92,7 @@ A seconda della provenienza, i dashboard e i report sono memorizzati in posizion
 ![Barra di spostamento a sinistra di Power BI](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Visualizzare i dashboard, i report e gli indicatori KPI preferiti
-Nella pagina Preferiti delle app per dispositivi mobili vengono visualizzati tutti i dashboard preferiti di Power BI, insieme ai report per dispositivi mobili e agli indicatori KPI di Reporting Services. Quando si aggiunge un dashboard ai *Preferiti* nell'app Power BI per dispositivi mobili, è possibile accedervi da tutti i dispositivi, incluso il servizio Power BI nel proprio browser. 
+Nella pagina Preferiti delle app per dispositivi mobili visualizzare tutti i dashboard preferiti di Power BI, insieme ai report per dispositivi mobili e agli indicatori KPI di Reporting Services. Quando si aggiunge un dashboard ai *Preferiti* nell'app Power BI per dispositivi mobili, è possibile accedervi da tutti i dispositivi, incluso il servizio Power BI nel proprio browser. 
 
 * Toccare **Preferiti**.
   
@@ -105,7 +105,7 @@ Nella pagina Preferiti delle app per dispositivi mobili vengono visualizzati tut
 Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi mobili](mobile-apps-favorites.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositivi Windows 10 con dashboard e report di Power BI e con report per dispositivi mobili di Reporting Services e indicatori KPI nel portale Web di Reporting Services
+Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositivi Windows 10 con dashboard e report di Power BI e con report per dispositivi mobili di Reporting Services e indicatori KPI nel portale Web di Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Dashboard e report di Power BI
 * Visualizzare le [app](../../service-create-distribute-apps.md).

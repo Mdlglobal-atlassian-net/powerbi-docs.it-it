@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324830"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560882"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
 
 Per connettersi ai dati, selezionare **Recupera dati** dalla barra multifunzione **Home** . Se si seleziona la freccia Giù o il testo **Recupera dati** sul pulsante viene visualizzato il menu dei tipi di dati **Più comuni**, riportato nella figura seguente:
 
-![Recupera dati in Power BI Desktop](media/desktop-data-sources/data-sources_01.png)
+![Recupera dati in Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
 Se si sceglie **Altro** dal menu **Più comuni**, viene visualizzata la finestra **Recupera dati**. È anche possibile visualizzare la finestra **Recupera dati** (e ignorare il menu **Più comuni** ) selezionando direttamente il **pulsante dell'icona** **Recupera dati** .
 
-![Pulsante Recupera dati](media/desktop-data-sources/data-sources_02.png)
+![Pulsante Recupera dati](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Il team di Power BI espande in continuazione le origini dati disponibili in **Power BI Desktop** e nel **servizio Power BI**. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come *Beta* o *Anteprima*. Qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione.
+> Il team di Power BI espande in continuazione le origini dati disponibili in **Power BI Desktop** e nel **servizio Power BI**. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come *Beta* o *Anteprima*. Qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione. 
+
+> Inoltre, qualsiasi origine dati contrassegnata come *Beta* o *Preview* per **Power BI Desktop** potrebbe non essere disponibile per l'uso nel **servizio Power BI** o in altri servizi Microsoft finché l'origine dati non diventa disponibile a livello generale (GA).
 
 ## <a name="data-sources"></a>Origini dati
 I tipi di dati sono organizzati nelle categorie seguenti:
@@ -56,7 +58,7 @@ La categoria **File** fornisce le connessioni dati seguenti:
 
 La figura seguente mostra la finestra **Recupera dati** per **File**.
 
-![Recupera dati > File](media/desktop-data-sources/data-sources_03.png)
+![Recupera dati > File](media/desktop-data-sources/data-sources-03.png)
 
 La categoria **Database** fornisce le connessioni dati seguenti:
 
@@ -95,16 +97,18 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 
 La figura seguente mostra la finestra **Recupera dati** per **Database**.
 
-![Recupera dati > Database](media/desktop-data-sources/data-sources_04.png)
+![Recupera dati > Database](media/desktop-data-sources/data-sources-04.png)
 
-La categoria **Power BI** fornisce le connessioni dati seguenti:
+La categoria **Power Platform** fornisce le connessioni dati seguenti:
 
 * Set di dati Power BI
 * Flussi di dati Power BI
+* Common Data Service
+* Flussi di dati Power Platform (Beta)
 
-La figura seguente mostra la finestra **Recupera dati** per **Power BI**.
+L'immagine seguente mostra la finestra **Recupera dati** per **Power Platform**.
 
-![Recupera dati > Power BI](media/desktop-data-sources/data-sources_05.png)
+![Recupera dati > Power BI](media/desktop-data-sources/data-sources-05.png)
 
 La categoria **Azure** fornisce le connessioni dati seguenti:
 
@@ -113,7 +117,7 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Database di Azure Analysis Services
 * Archiviazione BLOB di Azure
 * Archiviazione tabelle di Azure
-* Azure Cosmos DB (Beta)
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
-![Recupera dati > Azure](media/desktop-data-sources/data-sources_06.png)
+![Recupera dati > Azure](media/desktop-data-sources/data-sources-06.png)
 
 La categoria **Online Services** fornisce le connessioni dati seguenti:
 
@@ -134,7 +138,6 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (locale)
-* Common Data Service
 * Informazioni dettagliate sul consumo di Microsoft Azure (beta)
 * Azure DevOps (beta)
 * Azure DevOps Server (beta)
@@ -161,6 +164,7 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* Dynamics 365 Customer Insights (Beta)
 * Origine dati Emigo (Beta)
 * Entersoft Business Suite (Beta)
 * Industrial App Store
@@ -168,11 +172,11 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Microsoft Graph Security (Beta)
 * Quick Base
 * TeamDesk (beta)
-* Dynamics 365 Customer Insights (Beta)
+
 
 La figura seguente mostra la finestra **Recupera dati** per **Online Services**.
 
-![Recupera dati > Servizi online](media/desktop-data-sources/data-sources_07.png)
+![Recupera dati > Servizi online](media/desktop-data-sources/data-sources-07.png)
 
 La categoria **Altro** fornisce le connessioni dati seguenti:
 
@@ -200,7 +204,7 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 
 La figura seguente mostra la finestra **Recupera dati** per **Altro**.
 
-![Recupera dati > Altro](media/desktop-data-sources/data-sources_08.png)
+![Recupera dati > Altro](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Al momento non è possibile connettersi a origini dati personalizzate protette con Azure Active Directory.
@@ -208,15 +212,15 @@ La figura seguente mostra la finestra **Recupera dati** per **Altro**.
 ## <a name="connecting-to-a-data-source"></a>Connessione a un'origine dati
 Per connettersi a un'origine dati, selezionare l'origine dati dalla finestra **Recupera dati** e selezionare **Connetti**. Nella figura seguente **Web** viene selezionato dalla categoria di connessione dati **Altro** .
 
-![Connettersi al Web](media/desktop-data-sources/data-sources_08.png)
+![Connettersi al Web](media/desktop-data-sources/data-sources-08.png)
 
 Viene visualizzata una finestra di connessione specifica per il tipo di connessione dati. Se sono necessarie credenziali, sarà necessario fornirle. L'immagine seguente illustrata un URL immesso per connettersi a un'origine dati Web.
 
-![Immettere un URL Web](media/desktop-data-sources/datasources_fromwebbox.png)
+![Immettere un URL Web](media/desktop-data-sources/datasources-fromwebbox.png)
 
 Quando viene immesso l'URL o le informazioni di connessione alla risorsa, selezionare **OK**. Power BI Desktop stabilisce la connessione all'origine dati e presenta le origini dati disponibili nello **Strumento di navigazione**.
 
-![Schermata Strumento di navigazione](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Schermata Strumento di navigazione](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 È possibile caricare i dati selezionando il pulsante **Carica** nella parte inferiore del riquadro **Strumento di navigazione** oppure modificare la query prima di caricare i dati selezionando il pulsante **Modifica** .
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418661"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530490"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -36,7 +36,7 @@ Con le nuove aree di lavoro è possibile:
 Quando si crea una delle nuove aree di lavoro, non si crea un gruppo di Office 365 sottostante associato. Tutta l'amministrazione dell'area di lavoro viene gestita da Power BI e non da Office 365. Con la nuova esperienza delle aree di lavoro, è ora possibile aggiungere un gruppo di Office 365 all'elenco di accesso dell'area di lavoro per continuare a gestire l'accesso degli utenti al contenuto tramite i gruppi di Office 365.
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>Amministrazione delle aree di lavoro della nuova esperienza
-L'amministrazione delle aree di lavoro della nuova esperienza avviene ora in Power BI e gli amministratori di Power BI decidono chi può creare aree di lavoro in un'organizzazione. Gli amministratori possono anche gestire e ripristinare le aree di lavoro. A tale scopo, è necessario usare il portale di amministrazione di Power BI o i cmdlet di PowerShell. Per le aree di lavoro classiche basate su Gruppi di Office 365, l'amministrazione continua ad avvenire nel portale di amministrazione di Office 365 e in Azure Active Directory.
+L'amministrazione delle aree di lavoro della nuova esperienza avviene ora in Power BI e gli amministratori di Power BI decidono chi può creare aree di lavoro in un'organizzazione. Possono anche gestire e recuperare le aree di lavoro, usando il portale di amministrazione di Power BI o i cmdlet di PowerShell. Per le aree di lavoro classiche basate su Gruppi di Office 365, l'amministrazione continua ad avvenire nel portale di amministrazione di Office 365 e in Azure Active Directory.
 
 In **Impostazioni area di lavoro** nel portale di amministrazione gli amministratori possono usare l'impostazione Crea aree di lavoro (nuova esperienza delle aree di lavoro) per consentire a tutti gli utenti o a nessun utente in un'organizzazione di creare aree di lavoro della nuova esperienza. Possono anche limitare la creazione ai membri di gruppi di sicurezza specifici.
 
@@ -59,9 +59,9 @@ Per concedere l'accesso a una nuova area di lavoro, aggiungere gruppi di utenti 
 
 I ruoli consentono di gestire chi può fare cosa in un'area di lavoro per permettere ai team di collaborare. Le nuove aree di lavoro consentono di assegnare ruoli a singoli utenti e gruppi di utenti: gruppi di sicurezza, gruppi di Office 365 e liste di distribuzione. 
 
-Quando si assegnano i ruoli a un gruppo di utenti, i singoli utenti del gruppo possono accedere al contenuto. Se si annidano gruppi di utenti, tutti gli utenti contenuti sono autorizzati. Un utente incluso in più gruppi di utenti con ruoli diversi ottiene il livello più elevato dell'autorizzazione concessa. 
+Quando si assegnano i ruoli a un gruppo di utenti, i singoli utenti del gruppo possono accedere al contenuto. Se si annidano gruppi di utenti, tutti gli utenti contenuti sono autorizzati.
 
-Le nuove aree di lavoro offrono quattro ruoli: amministratori, membri, collaboratori e visualizzatori.
+Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori.
 
 |Capacità   | Amministratore  | Membro  | Collaboratore  | Visualizzatore |
 |---|---|---|---|---|
@@ -74,19 +74,22 @@ Le nuove aree di lavoro offrono quattro ruoli: amministratori, membri, collabora
 | Creare, modificare ed eliminare contenuto nell'area di lavoro.  |  X | X  | X  |   |
 | Pubblicare report nell'area di lavoro, eliminare contenuto.  |  X | X  | X  |   |
 | Visualizzare un elemento. |  X | X  | X  | X  |
- 
+| Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro. |  X | X  | X  | X <sup>1</sup>  |
+| Copiare un report. | X | X | X | X <sup>1</sup> |
+
+**1** Richiede una licenza di Power BI Pro e l'[autorizzazione di compilazione per i set di dati](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
 ## <a name="licensing"></a>Gestione delle licenze
 Tutti gli utenti che vengono aggiunti a un'area di lavoro nella capacità condivisa devono avere una licenza di Power BI Pro. Nell'area di lavoro tutti gli utenti possono collaborare sui dashboard e i report che si intende pubblicare e rendere disponibili a un pubblico più ampio o all'intera organizzazione. 
 
 Per distribuire contenuto ad altri utenti all'interno dell'organizzazione, è possibile assegnare loro licenze di Power BI Pro oppure assegnare l'area di lavoro a una capacità Power BI Premium.
 
-Quando l'area di lavoro è in una capacità Power BI Premium, gli utenti con il ruolo Visualizzatore possono accedere all'area di lavoro anche se non hanno una licenza di Power BI Pro. Se tuttavia si assegna a questi utenti un ruolo più alto, ad esempio di amministratore, membro o collaboratore, non potranno accedere all'area di lavoro. Verrà chiesto loro di avviare una versione di valutazione Pro quando cercano di accedere all'area di lavoro. Per sfruttare le capacità del ruolo Visualizzatore per gli utenti senza licenze Pro, assicurarsi che gli utenti con ruolo Visualizzatore non siano inclusi in altri ruoli delle aree di lavoro, individualmente o tramite un gruppo di utenti. 
+Quando l'area di lavoro è in una capacità Power BI Premium, gli utenti con il ruolo Visualizzatore possono accedere all'area di lavoro anche se non hanno una licenza di Power BI Pro. Se tuttavia si assegna a questi utenti un ruolo più elevato, ad esempio di amministratore, membro o collaboratore, verrà loro richiesto di avviare una versione di valutazione Pro quando provano ad accedere all'area di lavoro. Per sfruttare le capacità del ruolo Visualizzatore per gli utenti senza licenze Pro, assicurarsi che gli utenti con ruolo Visualizzatore non siano inclusi in altri ruoli delle aree di lavoro, individualmente o tramite un gruppo di utenti. 
 
 > [!NOTE]
 > Per la pubblicazione di report nella nuova esperienza delle aree di lavoro, le regole relative alle licenze vengono applicate in modo più rigoroso. Se gli utenti provano a pubblicare da Power BI Desktop o altri strumenti client senza una licenza Pro, viene visualizzato l'errore "Solo gli utenti con licenze di Power BI Pro possono pubblicare in quest'area di lavoro".
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>Quali sono le differenze tra le nuove aree di lavoro e quelle correnti?
+## <a name="how-the-new-workspaces-are-different"></a>Differenze delle nuove aree di lavoro
 
 Con le nuove aree di lavoro, alcune funzionalità sono state riprogettate. Ecco le modifiche che verranno mantenute definitivamente. 
 

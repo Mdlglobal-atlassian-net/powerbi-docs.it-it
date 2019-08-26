@@ -1,5 +1,5 @@
 ---
-title: Creare e condividere set di dati (anteprima) - Power BI
+title: Condividere un set di dati (anteprima)
 description: Il proprietario di un set di dati può creare e condividere set di dati che possono poi essere usati da altri utenti. Di seguito viene descritto come controllare chi può accedere ai dati usando l'autorizzazione di compilazione.
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22339b3d5062c01b3795086eede24ed6a8e7d7e7
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461765"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530522"
 ---
-# <a name="create-and-share-datasets-preview"></a>Creare e condividere set di dati (anteprima)
+# <a name="share-a-dataset-preview"></a>Condividere un set di dati (anteprima)
 
 I *modelli di dati* creati in Power BI Desktop possono essere condivisi come *set di dati* nel servizio Power BI. I set di dati condivisi possono poi essere facilmente individuati e riusati per creare report. Di seguito viene descritto come condividere set di dati e controllare chi può accedere ai dati usando l'autorizzazione di compilazione.
 
@@ -31,7 +31,7 @@ I *modelli di dati* creati in Power BI Desktop possono essere condivisi come *se
     
     Altri membri di quest'area di lavoro possono già creare report in altre aree di lavoro basati su questo set di dati.
 
-1. Ora è però possibile [creare un'app](service-create-distribute-apps.md) da quest'area di lavoro. Se si crea un'app, selezionare nella pagina **Autorizzazioni** gli utenti autorizzati e le operazioni a loro consentite.
+1. È anche possibile [pubblicare un'app](service-create-distribute-apps.md) da quest'area di lavoro. Se si crea un'app, selezionare nella pagina **Autorizzazioni** gli utenti autorizzati e le operazioni a loro consentite.
 
     > [!NOTE]
     > Se si seleziona **Intera organizzazione**, a nessun membro dell'organizzazione saranno concesse autorizzazioni di compilazione. Si tratta di un problema noto. Specificare quindi gli indirizzi di posta elettronica in **Gruppi o utenti specifici**.  Se si vuole concedere autorizzazioni di compilazione all'intera organizzazione, specificare un alias di posta elettronica per l'intera organizzazione.
@@ -46,6 +46,8 @@ Il tipo di autorizzazione di compilazione è rilevante solo per i set di dati. C
 
 Gli utenti ottengono l'autorizzazione di compilazione in modi diversi:
 
+- Se si è membri di un'area di lavoro con almeno un ruolo Collaboratore, sono automaticamente disponibili l'autorizzazione di compilazione per un set di dati e l'autorizzazione per copiare un report.
+ 
 - Un membro dell'area di lavoro in cui si trova il set di dati può assegnare l'autorizzazione a utenti o gruppi di sicurezza specifici nel centro delle autorizzazioni. Selezionare i puntini di sospensione (…) accanto al set di dati > **Gestisci autorizzazioni**.
 
     ![Selezionare i puntini di sospensione](media/service-datasets-build-permissions/power-bi-dataset-manage-permissions.png)
@@ -54,13 +56,13 @@ Gli utenti ottengono l'autorizzazione di compilazione in modi diversi:
 
     ![Centro delle autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions.png)
 
-- Gli amministratori o i membri dell'area di lavoro in cui si trova il set di dati possono decidere durante la pubblicazione dell'app che gli utenti con autorizzazione per l'app ottengano anche l'autorizzazione di compilazione per i set di dati sottostanti. Vedere [Passaggi per la condivisione del set di dati](#steps-to-sharing-your-dataset) per informazioni dettagliate.
+- Gli amministratori o i membri dell'area di lavoro in cui si trova il set di dati possono decidere durante la pubblicazione dell'app che gli utenti con autorizzazione per l'app ottengano anche l'autorizzazione di compilazione per i set di dati sottostanti. Vedere [Passaggi per la condivisione del set di dati](#steps-to-sharing-your-dataset) in questo articolo per informazioni dettagliate.
 
 - Si supponga di avere le autorizzazioni di ricondivisione e compilazione per un set di dati. Quando si condivide un report o un dashboard basato su questo set di dati è possibile specificare che i destinatari ottengano anche l'autorizzazione di compilazione per il set di dati sottostante.
 
     ![Autorizzazioni di compilazione](media/service-datasets-build-permissions/power-bi-share-report-allow-users.png)
 
-È possibile rimuovere le autorizzazioni di compilazione degli utenti per un set di dati. In questo caso, tali utenti potranno comunque visualizzare il report compilato nel set di dati condiviso, ma non potranno più condividerlo.
+È possibile rimuovere le autorizzazioni di compilazione di una persona per un set di dati. In questo caso, tali utenti potranno comunque visualizzare il report compilato nel set di dati condiviso, ma non potranno più condividerlo.
 
 ## <a name="more-granular-permissions"></a>Autorizzazioni più granulari
 

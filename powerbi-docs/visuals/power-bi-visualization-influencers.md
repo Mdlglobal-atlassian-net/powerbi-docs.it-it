@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590595"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995276"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
 L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori che stanno alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Ad esempio si supponga di voler scoprire che cosa influenza l'avvicendamento dei dipendenti. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
@@ -24,9 +24,6 @@ L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fatto
 L'oggetto visivo Fattori di influenza chiave è ideale: 
 - Per vedere quali fattori influiscono sulla metrica che si sta analizzando.
 - Per confrontare l'importanza relativa di questi fattori. Ad esempio, i contratti a breve termine hanno un'influenza maggiore sull'abbandono dei dipendenti rispetto ai contratti a lungo termine? 
-
-## <a name="key-influencer-requirements"></a>Requisiti per i fattori di influenza chiave 
-La metrica analizzata deve essere un campo categoria o numerico (le aggregazioni e le misure non sono ancora supportate).
 
 ## <a name="features-of-the-key-influencers-visual"></a>Funzionalità dell'oggetto visivo Fattori di influenza chiave
 
@@ -44,15 +41,13 @@ La metrica analizzata deve essere un campo categoria o numerico (le aggregazioni
 
 6. **Riquadro a destra**: il riquadro a destra contiene un oggetto visivo. In questo caso il grafico a colonne visualizza tutti i valori del fattore di influenza chiave **Theme** (Tema) selezionato nel riquadro sinistro. Il valore specifico di **usabilità** nel riquadro a sinistra viene visualizzato in verde. Tutti gli altri valori per **Theme** vengono visualizzati in nero.
 
-7. **Linea media**: la media viene calcolata per tutti gli altri valori possibili di **Theme**, salvo per **Usability** (Usabilità). Pertanto il calcolo si applica a tutti i valori in nero. Indica la percentuale degli altri **temi** che hanno restituito valutazioni basse. In altre parole, quando un cliente attribuisce una valutazione, descrive anche il motivo o tema della valutazione. Alcuni esempi di temi sono l'usabilità, la velocità e la sicurezza. 
+7. **Linea media**: la media viene calcolata per tutti i valori possibili di **Theme**, salvo per **Usability** (Usabilità), che è il fattore di influenza selezionato. Pertanto il calcolo si applica a tutti i valori in nero. Indica la percentuale degli altri **temi** che hanno avuto valutazioni basse. In questo caso l'11,35% ha avuto una valutazione bassa (indicata dalla linea tratteggiata).
 
-   Secondo l'oggetto visivo nel riquadro a sinistra, **Theme is usability** è il secondo fattore di influenza chiave in ordine di importanza per una valutazione bassa. Se si calcola la media di tutti gli altri temi e il loro contributo a una valutazione **Low** (bassa), si ottiene il risultato visualizzato in rosso. Tra tutti gli altri temi dati, solo l'11,35% ha valori maggiori rispetto a **usability**.
+8. **Casella di controllo**: filtra l'oggetto visivo nel riquadro destro per visualizzare solo i valori che sono fattori di influenza per tale campo. In questo esempio verrà filtrato l'oggetto visivo per usability (Usabilità), security (Sicurezza) e navigation (Navigazione).
 
-8. **Casella di controllo**: **Mostra solo i valori che sono fattori di influenza**.
-
-## <a name="create-a-key-influencers-visual"></a>Creare un oggetto visivo Fattori di influenza chiave 
+## <a name="analyze-a-metric-that-is-categorical"></a>Analizzare una metrica categorica
  
-Guardare questo video per imparare a creare un oggetto visivo Fattori di influenza chiave. Quindi creare un oggetto seguendo questa procedura. 
+Guardare questo video per imparare a creare un oggetto visivo Fattori di influenza chiave con una metrica categorica. Quindi creare un oggetto seguendo questa procedura. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,20 +60,24 @@ Il product manager richiede di determinare i fattori per cui i clienti danno val
 
     ![Nel riquadro Visualizzazioni selezionare il modello Fattori di influenza chiave](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Spostare la metrica da esaminare nel campo **Analisi**. Il campo **Analisi** supporta solo le variabili categoriche (non continue). Per visualizzare i fattori che influenzano una valutazione bassa del servizio, selezionare **tabella Customer** > **Rating**. 
+2. Spostare la metrica da esaminare nel campo **Analisi**. Per visualizzare i fattori che influenzano una valutazione bassa del servizio, selezionare **tabella Customer** > **Rating**.
+
 3. Spostare i campi che si ritiene potrebbero influenzare **Rating** nell'area **Spiega in base a**. È possibile spostare tutti i campi desiderati. In questo caso iniziare con:
     - Country-Region 
     - Role in Org (Ruolo nell'organizzazione) 
     - Subscription Type (Tipo di sottoscrizione) 
     - Company size (Dimensione dell'azienda) 
-    - Theme 
-1. Per concentrarsi sulle classificazioni negative, selezionare **Low** (Bassa) nell'elenco a discesa **Fattore che influisce su Rating in modo che sia**.  
+    - Theme
+    
+4. Lasciare vuoto il campo **Espandi in base a**. Questo campo viene usato solo per l'analisi di una misura o di un campo riepilogativo. 
+
+5. Per concentrarsi sulle classificazioni negative, selezionare **Low** (Bassa) nell'elenco a discesa **Fattore che influisce su Rating in modo che sia**.  
 
     ![Selezionare Low (Bassa) nell'elenco a discesa](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
 L'analisi viene eseguita a livello di tabella per il campo che si sta analizzando. In questo caso si tratta della metrica **Rating**. Questa metrica è definita a livello dei clienti. Ogni cliente ha assegnato un punteggio alto o un punteggio basso. Tutti i fattori esplicativi devono essere definiti a livello del cliente per abilitarne l'uso nell'oggetto visivo. 
 
-Nell'esempio precedente, tutti i fattori esplicativi hanno una relazione uno-a-uno o molti-a-uno con la metrica. In questo caso ogni punteggio ha esattamente un tema associato. Il tema è stato il tema principale della revisione del cliente. Analogamente, i clienti provengono da un paese specifico e hanno un solo tipo di appartenenza e un solo ruolo all'interno dell'organizzazione. I fattori esplicativi sono già attributi di un cliente e non richiedono trasformazioni. L'oggetto visivo può usarli immediatamente. 
+Nell'esempio precedente, tutti i fattori esplicativi hanno una relazione uno-a-uno o molti-a-uno con la metrica. In questo caso, ogni cliente ha assegnato un singolo tema alla valutazione. Analogamente, i clienti provengono da un paese specifico e hanno un solo tipo di appartenenza e un solo ruolo all'interno dell'organizzazione. I fattori esplicativi sono già attributi di un cliente e non richiedono trasformazioni. L'oggetto visivo può usarli immediatamente. 
 
 Più avanti nell'esercitazione si esamineranno esempi più complessi con relazioni uno-a-molti. In questi casi, prima di poter eseguire l'analisi è necessario aggregare le colonne fino al livello cliente. 
 
@@ -89,7 +88,7 @@ Ora si prendono in considerazione i fattori di influenza chiave per le valutazio
 
 ### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Singolo fattore principale che influenza la probabilità di una valutazione bassa
 
-L'organizzazione in questo esempio ha tre ruoli: consumer (consumatore), administrator (amministratore) e publisher (editore). L'appartenenza al ruolo consumatore è il fattore principale che contribuisce a una valutazione bassa. 
+Il cliente in questo esempio può avere tre ruoli: consumer (consumatore), administrator (amministratore) e publisher (editore). L'appartenenza al ruolo consumatore è il fattore principale che contribuisce a una valutazione bassa. 
 
 ![Il ruolo selezionato nell'organizzazione è consumatore](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
@@ -138,7 +137,7 @@ Il grafico a dispersione nel riquadro a destra visualizza la percentuale media d
 
 In alcuni casi è possibile che i fattori continui siano stati trasformati automaticamente in fattori categorici. Ciò è dovuto al fatto che la relazione tra le variabili non è lineare e quindi non è possibile descrivere la relazione come semplicemente crescente o decrescente (come nell'esempio precedente).
 
-Vengono eseguiti test di correlazione per determinare la linearità del fattore di influenza rispetto all'obiettivo. Se l'obiettivo è continuo, viene eseguita la correlazione di Perasons, mentre se è categorico, vengono eseguiti test di correlazione punto-biseriale. Se si rileva che la relazione non è sufficientemente lineare, viene eseguito il binning sotto supervisione, con la generazione di un massimo di 5 contenitori. Per capire quali sono i contenitori più sensati, viene usato un metodo di binning sotto supervisione che esamina la relazione tra il fattore esplicativo e l'obiettivo analizzato.
+Vengono eseguiti test di correlazione per determinare la linearità del fattore di influenza rispetto all'obiettivo. Se l'obiettivo è continuo, viene eseguita la correlazione di Pearsons, mentre se è categorico, vengono eseguiti test di correlazione punto-biseriale. Se si rileva che la relazione non è sufficientemente lineare, viene eseguito il binning sotto supervisione, con la generazione di un massimo di 5 contenitori. Per capire quali sono i contenitori più sensati, viene usato un metodo di binning sotto supervisione che esamina la relazione tra il fattore esplicativo e l'obiettivo analizzato.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretare misure e aggregazioni come fattori di influenza chiave 
  
@@ -165,9 +164,29 @@ In questo gruppo il 74,3% dei clienti ha dato una valutazione bassa. In media i 
 
 ![Selezionare il primo segmento principale](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
-## <a name="working-with-numerical-data"></a>Uso dei dati numerici
+## <a name="adding-counts"></a>Aggiunta di conteggi
 
-Se si sposta un campo numerico nel campo **Analisi** è possibile scegliere come gestire tale scenario. Per modificare il comportamento dell'oggetto visivo, passare al **riquadro di formattazione** e alternare tra i valori di Tipo di analisi
+A volte un fattore di influenza può avere un impatto notevole, ma rappresentare pochissimi dati. **Theme** è **usability**, ad esempio, è il secondo maggior fattore di influenza per le valutazioni basse. Tuttavia solo pochi clienti potrebbero essersi lamentati dell'usabilità. I conteggi consentono di definire le priorità dei fattori di influenza da considerare rilevanti.
+
+È possibile attivare i conteggi nella **scheda Analisi** del riquadro di formattazione.
+
+![Aggiungere i conteggi](media/power-bi-visualization-influencers/power-bi-ki-counts-toggle.png)
+
+Una volta attivati i conteggi, viene visualizzato un anello attorno alla bolla di ogni fattore di influenza, che rappresenta la percentuale approssimativa di dati contenuti in tale fattore di influenza. L'estensione dell'anello intorno alla bolla è direttamente proporzionale al numero di dati contenuti. Si può osservare che **Theme** è **usability** contiene una proporzione di dati molto bassa.
+
+![Mostrare i conteggi](media/power-bi-visualization-influencers/power-bi-ki-counts-ring.png)
+
+È anche possibile usare l'interruttore Ordina per nell'angolo in basso a sinistra dell'oggetto visivo per ordinare le bolle prima per conteggio invece che per impatto. **Subscription Type** è **Premier** è il primo fattore di influenza in base al conteggio.
+
+![Ordinare per colonna](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
+
+Se l'anello attorno al cerchio è completo significa che il fattore di influenza contiene il 100% dei dati. Per fare in modo che il tipo di conteggio sia relativo al fattore di influenza principale, usare l'elenco a discesa **Tipo di conteggio** nella **scheda Analisi** del riquadro di formattazione. Ora il fattore di influenza con la maggior quantità di dati sarà rappresentato da un anello completo e tutti gli altri conteggi saranno relativi a esso.
+
+![Mostrare i conteggi relativi](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
+
+## <a name="analyze-a-metric-that-is-numeric"></a>Analizzare una metrica numerica
+
+Se si sposta un campo numerico non riepilogativo nel campo **Analisi** è possibile scegliere come gestire tale scenario. Per modificare il comportamento dell'oggetto visivo, passare al **riquadro di formattazione** e alternare tra i valori di Tipo di analisi
 **Categorie** e **Continuo**.
 
 ![Passare da Categorie a Continuo](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
@@ -213,6 +232,30 @@ I segmenti principali per le destinazioni numeriche visualizzano i gruppi in cui
 
 ![Fattori di influenza con misure per destinazioni numeriche](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
+## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Analizzare una metrica costituita da una misura o da una colonna riepilogativa
+
+Nel caso di una misura o di una colonna riepilogativa, l'analisi è impostata sul valore predefinito **Continuo di Tipo di analisi** descritto [sopra](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Non è possibile modificare questa impostazione. La differenza principale tra l'analisi di una misura/colonna riepilogativa e quella di una colonna numerica non riepilogativa è il livello di esecuzione dell'analisi.
+
+Nel caso delle colonne non riepilogative, l'analisi viene sempre eseguita a livello di tabella. Nell'esempio precedente relativo al prezzo della casa è stata analizzata la metrica **House Price** (Prezzo della casa) per vedere quali fattori influenzano l'aumento o la diminuzione del prezzo di una casa. L'analisi viene eseguita automaticamente a livello di tabella. La tabella ha un ID univoco per ogni casa, quindi l'analisi viene eseguita a livello di casa.
+
+![Tabella delle misure](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+
+Per le misure e le colonne riepilogative, il livello dell'analisi non è noto fin dall'inizio. Se **House Price** (Prezzo della casa) fosse riepilogato come **media**, si dovrebbe considerare a quale livello sarebbe opportuno calcolare questo prezzo medio della casa. A livello di quartiere? O a livello di zona?
+
+Le misure e le colonne riepilogative vengono automaticamente analizzate a livello dei campi **Spiega in base a** usati. Si supponga di essere interessati a tre campi in **Spiega in base a**: **Kitchen Quality** (Stato della cucina), **Building Type** (Tipo di stabile) e **Air Conditioning** (Climatizzazione). Il **prezzo medio della casa** verrebbe calcolato per ogni combinazione univoca di questi tre campi. È spesso utile passare a una visualizzazione tabella per esaminare i dati da valutare.
+
+![Tabella delle misure](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+
+Questa analisi è molto riepilogativa, quindi sarà difficile per il modello di regressione trovare nei dati schemi da cui poter apprendere. Per ottenere risultati migliori, è consigliabile eseguire l'analisi a un livello più dettagliato. Se si volesse analizzare il prezzo della casa a livello di casa, sarebbe necessario aggiungere all'analisi il campo **ID** in modo esplicito. Tuttavia, non si vuole che l'ID della casa sia considerato un fattore di influenza. Non è di nessuna utilità sapere che, man mano che aumenta l'ID di una casa, ne aumenta anche il prezzo. È a questo punto che entra in gioco l'opzione **Espandi in base a**. È possibile usare **Espandi in base a** per aggiungere i campi da usare per impostare il livello dell'analisi senza cercare nuovi fattori di influenza.
+
+Vediamo come appare la visualizzazione dopo aver aggiunto **ID** a **Espandi in base a**. Dopo aver definito il livello in cui valutare la misura, l'interpretazione dei fattori di influenza è identica a quella applicata per le [colonne numeriche non riepilogative](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
+
+![Tabella delle misure](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+
+Per altre informazioni su come analizzare le misure con la visualizzazione dei fattori di influenza chiave, vedere l'esercitazione seguente.
+
+<iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi 
  
 **Quali sono le limitazioni per l'oggetto visivo?** 
@@ -245,6 +288,12 @@ La visualizzazione funziona esaminando i criteri nei dati per un gruppo rispetto
 È consigliabile avere almeno 100 osservazioni per lo stato selezionato. In questo caso lo stato è rappresentato dai clienti che passano a un'altra azienda. È anche necessario avere almeno 10 osservazioni per gli stati usati per il confronto. In questo caso, lo stato usato per il confronto è quello dei clienti che non passano a un'altra azienda.
 
 Se si analizza un campo numerico, può essere utile passare dall'analisi di tipo **Categorie** all'analisi di tipo **Continuo** nel **riquadro Formattazione** della scheda **Analisi**.
+
+**Un errore segnala che, quando l'analisi non è riepilogativa, viene sempre eseguita al livello di riga della tabella padre. Non è consentito modificare questo livello tramite i campi "Espandi in base a". Perché?**
+
+Quando si analizza una colonna numerica o categorica, l'analisi viene sempre eseguita a livello di tabella. Se ad esempio si analizzano i prezzi delle case e la tabella contiene una colonna ID, l'analisi verrà eseguita automaticamente a livello di ID della casa. 
+
+Quando si analizza una misura o una colonna riepilogativa, è necessario indicare in modo esplicito il livello in cui eseguire l'analisi. È possibile usare **Espandi in base a** per modificare il livello dell'analisi per le misure e le colonne riepilogative senza aggiungere nuovi fattori di influenza. Se **House price** (Prezzo della casa) fosse definito come misura, sarebbe possibile aggiungere la colonna degli ID delle case a **Espandi in base a** per modificare il livello dell'analisi.
 
 **Un errore indica che un campo in *Spiega in base a* non è correlato in modo univoco alla tabella contenente la metrica che si sta analizzando. Perché?**
  

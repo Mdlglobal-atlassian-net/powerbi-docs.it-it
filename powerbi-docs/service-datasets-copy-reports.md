@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567408"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530601"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiare report da altre aree di lavoro (anteprima)
 
-Quando si individua un report interessante, che si trovi in un'area di lavoro oppure in un'app, è possibile crearne una copia e salvarlo in un'area di lavoro diversa. È poi possibile modificare tale report, aggiungendo o eliminando oggetti visivi e altri elementi. Non è necessario creare il modello di dati, perché è già stato creato. È molto più semplice modificare un report esistente anziché crearlo da zero. Non è tuttavia possibile pubblicare la copia del report in un'app dalla nuova area di lavoro. Vedere l'elenco delle altre [considerazioni e limitazioni](service-datasets-across-workspaces.md#considerations-and-limitations) nell'articolo "Usare set di dati in aree di lavoro diverse".
+Quando si trova un report interessante in un'area di lavoro oppure in un'app, è possibile crearne una copia e salvarlo in un'area di lavoro diversa. È poi possibile modificare la copia del report, aggiungendo o eliminando oggetti visivi e altri elementi. Non è necessario creare il modello di dati, perché è già stato creato. È molto più semplice modificare un report esistente anziché crearlo da zero. Tuttavia, quando si crea un'app dalla nuova area di lavoro, a volte non è possibile pubblicare la copia del report nell'app. Per informazioni dettagliate, vedere [Considerazioni e limitazioni nell'articolo "Usare set di dati in aree di lavoro diverse"](service-datasets-across-workspaces.md#considerations-and-limitations).
+
+> [!NOTE]
+> Per creare una copia, è necessaria una licenza Pro, anche se il report originale si trova in un'area di lavoro in una capacità Premium.
 
 ## <a name="save-a-copy-of-a-report"></a>Salvare una copia di un report
 

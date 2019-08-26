@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fcad10a77ad531562443470296c9d712b2aa9724
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 6664924a10b89e057765d70499208aede2d7fdad
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757606"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654795"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usare DirectQuery in Power BI Desktop
 Con **Power BI Desktop**, quando ci si connette all'origine dati, è sempre possibile importare una copia dei dati in **Power BI Desktop**. Per alcune origini dati è disponibile un approccio alternativo: connettersi direttamente all'origine dati usando **DirectQuery**.
@@ -49,10 +49,13 @@ L'uso di **DirectQuery** comporta alcuni vantaggi:
 Esistono attualmente alcune limitazioni all'uso di **DirectQuery**:
 
 * Tutte le tabelle devono provenire da un database singolo, a meno che non vengano usati [modelli compositi](desktop-composite-models.md)
+
 * Se la query dell'**editor di query** è eccessivamente complessa, si verifica un errore. Per risolvere l'errore è necessario eliminare il passaggio problematico nell'**Editor di query** o *importare* i dati invece di usare **DirectQuery**. Per origini multidimensionali, ad esempio SAP Business Warehouse, non è disponibile alcun **Editor di query**
-* Il filtro delle relazioni è limitato a un'unica direzione, invece di includere entrambe le direzioni (benché sia possibile abilitare il filtro incrociato in entrambe le direzioni per **DirectQuery**). Per origini multidimensionali, ad esempio SAP Business Warehouse, non vengono definite relazioni nel modello
+
 * Le funzionalità di Business Intelligence per le gerarchie temporali non sono disponibili in **DirectQuery**. Ad esempio, la gestione speciale delle colonne di date (anno, trimestre, mese, giorno e così via) non è supportata in modalità **DirectQuery**.
+
 * Per garantire prestazioni accettabili per le query inviate all'origine dati sottostante, le espressioni DAX consentite nelle misure prevedono limitazioni.
+
 * È previsto un limite di un milione di righe per la restituzione di dati quando si usa **DirectQuery**. Il limite non influenza le aggregazioni o i calcoli usati per creare il set di dati restituito usando **DirectQuery**, ma solo le righe restituite. Ad esempio, è possibile aggregare 10 milioni di righe con la query eseguita sull'origine dati e restituire in modo accurato i risultati di tale aggregazione a Power BI usando **DirectQuery** purché i dati restituiti a Power BI siano inferiori a 1 milione di righe. Se **DirectQuery** restituisce oltre 1 milione di righe, Power BI restituisce un errore.
 
 ## <a name="important-considerations-when-using-directquery"></a>Considerazioni importanti relative all'utilizzo di DirectQuery

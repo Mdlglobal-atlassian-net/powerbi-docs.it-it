@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370461"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560841"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Visualizzare elementi senza dati in Power BI
 
@@ -25,7 +25,7 @@ Power BI consente di visualizzare tutti i tipi di dati da varie origini. Quando 
 
 ## <a name="determining-relevant-data"></a>Determinare i dati rilevanti
 
-Per iniziare a comprendere come Power BI determina quali dati sono rilevanti per la visualizzazione, si consideri una tabella come semplice esempio. Usando il modello rappresentato nella sezione degli esempi, alla fine di questo articolo, prendere in considerazione la creazione di una tabella con le impostazioni seguenti:
+Per iniziare a comprendere come Power BI determina quali dati sono rilevanti per la visualizzazione, si consideri una tabella come semplice esempio. Usando il modello rappresentato nel [modello di dati di esempio](#example-data-model), alla fine di questo articolo, prendere in considerazione la creazione di una tabella con le impostazioni seguenti:
 
 **1. Gruppi dalla stessa tabella:** *Prodotto[Colore] - Prodotto[Misura]*
 
@@ -130,7 +130,7 @@ Visualizzazione con la funzionalità **Mostra elementi senza dati** attivata:
 |Lucido     |Blu         |10         |
 |Lucido     |Rosso         |         |
 |Opaco     |Blu         |15         |
-|None     |         |         |
+|Nessuna     |         |         |
 
 Si noti che *(Lucido-Rosso)* e *(Nessuno, vuoto)* sono state visualizzate come combinazioni. Ecco il motivo per che cui sono state visualizzate:
 * Power BI ha preso prima di tutto in considerazione StileProdotto[Finitura] e selezionato tutti i valori per la visualizzazione, con il risultato Lucido, Opaco, Nessuno.
@@ -152,6 +152,25 @@ Visualizzazione con la funzionalità **Mostra elementi senza dati** attivata:
 |Rosso     |Lucido         |         |
 
 In questo caso, si noti che*StileProdotto[Finitura]=Nessuno* non compare nella tabella. Il motivo è che, in questo caso, Power BI ha prima di tutto selezionato tutti i valori *Colore* nella tabella *Prodotto*. Per ogni colore, Power BI ha selezionato i valori *Finitura* corrispondenti contenenti dati. Dato che *Nessuno* non compare in alcuna combinazione di *Colore*, non viene selezionato.
+
+
+## <a name="power-bi-visual-behavior"></a>Comportamento degli oggetti visivi in Power BI
+
+Quando l'opzione **Mostra elementi senza dati** è abilitata in un unico campo di un oggetto visivo, la funzionalità viene abilitata automaticamente per tutti gli altri campi presenti nella stessa gerarchia o nello stesso *bucket dell'oggetto visivo*. Una gerarchia o un bucket di un oggetto visivo può essere costituito dal relativo **Asse** o **Legenda** oppure da **Categoria**, **Righe** o **Colonne**.
+
+![Campi per l'asse e la legenda](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+In un oggetto visivo Matrice con quattro campi nel bucket **Righe**, se l'opzione **Mostra elementi senza dati** è abilitata per un campo, lo è anche per tutti gli elementi della matrice. Nell'immagine seguente l'opzione **Mostra elementi senza dati** è abilitata nel primo campo del bucket **Righe**, ovvero il campo *SupplierID*. L'opzione è quindi abilitata automaticamente anche negli altri campi del bucket **Righe**.
+
+![Campi nello stesso oggetto visivo per cui l'opzione Mostra elementi senza dati è abilitata automaticamente](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+Al contrario, per il campo *Continent* visualizzato nel bucket **Colonne**, l'opzione **Mostra elementi senza dati** *non* è abilitata automaticamente. 
+
+Questo comportamento viene riscontrato spesso quando un oggetto visivo viene convertito in un tipo diverso, ad esempio da Matrice a Tabella. In tali conversioni, l'opzione **Mostra elementi senza dati** viene abilitata automaticamente per i campi spostati in un bucket che contiene un campo in cui è abilitata la funzionalità. Nell'esempio precedente, se per il campo *SupplierID* è abilitata la funzionalità **Mostra elementi senza dati** e l'oggetto visivo viene convertito in una tabella, il campo *Continent* del bucket **Colonne** viene spostato (insieme ai campi del bucket **Righe**) nell'unico bucket usato in un oggetto visivo Tabella, ovvero il bucket **Valori**. Di conseguenza, per tutti i campi del bucket **Valori** sarà abilitata l'opzione **Mostra elementi senza dati**.
+
+### <a name="exporting-data"></a>Esportazione dei dati
+
+Quando si usa la funzionalità per l'**esportazione dei dati di riepilogo**, il comportamento di **Mostra elementi senza dati** equivale a quello riscontrato quando l'esportazione viene convertita in un oggetto visivo Tabella. Di conseguenza, quando si esporta un oggetto visivo, ad esempio di tipo Matrice di grafico, i dati esportati possono apparire in modo diverso rispetto all'oggetto visivo visualizzato. Ciò è dovuto al fatto che la conversione in un oggetto visivo Tabella, come parte del processo di esportazione, consentirebbe di abilitare **Mostra elementi senza dati** per tutti i campi esportati. 
 
 ## <a name="example-data-model"></a>Modello di dati di esempio
 
@@ -181,7 +200,7 @@ In questa sezione viene illustrato il modello di dati di esempio usato negli ese
 |---------|---------|---------|
 |1  |Lucido  |Sì |
 |2  |Opaco  |No |
-|3  |None   |No |
+|3  |Nessuna   |No |
 
 
 |Vendite[IdVendita]| Vendite[IdProdotto]|   Vendite[Data]|    Vendite[Quantità]|

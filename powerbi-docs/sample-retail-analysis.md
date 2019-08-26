@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462381"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962225"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione
 
@@ -92,10 +92,10 @@ Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Esaminare un riquadro creato con Domande e risposte di Power BI
 Entriamo nello specifico.
 
-1. Cambiare la domanda in *this year sales **by district***. Osservare il risultato: la risposta viene automaticamente inserita in un grafico a barre e vengono suggerite altre frasi:
+1. Cambiare la domanda in _this year sales **by district**_ . Osservare il risultato: la risposta viene automaticamente inserita in un grafico a barre e vengono suggerite altre frasi:
 
    ![This year's sales by district in Domande e risposte](media/sample-retail-analysis/retail8.png)
-2. Modificare ora la domanda in *this year sales **by zip and chain***.
+2. Modificare ora la domanda in _this year sales **by zip and chain**_ .
 
    Come si può osservare, Power BI risponde alla domanda mentre si digita e visualizza il grafico appropriato.
 3. Provare a porre altre domande e a vedere quali risultati si ottengono.

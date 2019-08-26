@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808238"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490400"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione
 
@@ -35,7 +35,7 @@ Per iniziare, è necessario avere:
 * Un [account di Power BI Pro](../service-self-service-signup-for-power-bi.md).
 * Una sottoscrizione di [Microsoft Azure](https://azure.microsoft.com/).
 * È necessario aver configurato un [tenant di Azure Active Directory](create-an-azure-active-directory-tenant.md).
-* Per l'incorporamento di report impaginati è necessario almeno una capacità A4/P1. Vedere [Quale capacità Premium è necessaria per i report impaginati?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* Per l'incorporamento di report impaginati è necessaria almeno una capacità P1. Vedere [Quale capacità Premium è necessaria per i report impaginati?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/pricing/) prima di iniziare.
 
@@ -45,7 +45,7 @@ Se non si ha una sottoscrizione di Azure, [creare un account gratuito](https://a
 
 Prima di iniziare a incorporare report, dashboard o riquadri in un'applicazione, è necessario assicurarsi che l'ambiente consenta l'incorporamento con Power BI.
 
-È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup/UserOwnsData) per iniziare rapidamente e scaricare un'applicazione di esempio che facilita la creazione di un ambiente e l'incorporamento di un report. Nel caso di incorporamento di un report impaginato, è necessario assegnare almeno la capacità A4/P1 all'area di lavoro dell'app creata.
+È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup/UserOwnsData) per iniziare rapidamente e scaricare un'applicazione di esempio che facilita la creazione di un ambiente e l'incorporamento di un report. Nel caso di incorporamento di un report impaginato, è necessario assegnare almeno una capacità P1 all'area di lavoro dell'app creata.
 
 Se tuttavia si sceglie di configurare l'ambiente manualmente, è possibile continuare con le istruzioni che seguono.
 
@@ -83,7 +83,7 @@ Se si incorporano report, dashboard o riquadri per i clienti, è necessario inse
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Creare e pubblicare i report di Power BI
 
-È possibile creare report impaginati usando [Generatore report di Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). È quindi possibile [caricare il report](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) in un'area di lavoro per app a cui è assegnata almeno la capacità A4/P1. Per eseguire la pubblicazione in un'area di lavoro per app, l'utente finale che esegue il caricamento del report deve avere una licenza di Power BI Pro.
+È possibile creare report impaginati usando [Generatore report di Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). È quindi possibile [caricare il report](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) in un'area di lavoro dell'app con almeno una capacità P1. Per eseguire la pubblicazione in un'area di lavoro per app, l'utente finale che esegue il caricamento del report deve avere una licenza di Power BI Pro.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporare il contenuto usando l'applicazione di esempio
 
@@ -153,9 +153,6 @@ URL nuovo report Power BI <br>
 
 ![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
 
-URL report impaginato <br>
-
-
 
 URL report impaginato<br>
 
@@ -173,9 +170,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 Immettere le informazioni di **AADAuthorityUrl** specificando l'URL che consente l'incorporamento all'interno del tenant dell'organizzazione o l'incorporamento con un utente guest.
 
-Per l'incorporamento con il tenant dell'organizzazione, usare l'URL *https://login.microsoftonline.com/common/oauth2/authorize*.
+Per l'incorporamento con il tenant dell'organizzazione, usare l'URL *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Per l'incorporamento con l'utente guest, usare l'URL *https://login.microsoftonline.com/report-owner-tenant-id*, in cui è possibile aggiungere l'ID tenant del proprietario del report in sostituzione a *report-owner-tenant-id*.
+Per l'incorporamento con l'utente guest, usare l'URL *https://login.microsoftonline.com/report-owner-tenant-id* , in cui è possibile aggiungere l'ID tenant del proprietario del report in sostituzione a *report-owner-tenant-id*.
 
 ### <a name="run-the-application"></a>Eseguire l'applicazione
 
@@ -209,7 +206,7 @@ Per ottenere un report di Power BI o impaginato, usare l'operazione [Get Reports
 
 L'operazione [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) restituisce un elenco di report. È possibile ottenere un singolo report dall'elenco di report.
 
-Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}*.
+Per effettuare la chiamata all'API REST, è necessario includere un'intestazione *Authorization* con formato *Bearer {token di accesso}* .
 
 #### <a name="get-reports-with-the-rest-api"></a>Ottenere report con l'API REST
 
@@ -384,7 +381,7 @@ Dopo aver terminato lo sviluppo dell'applicazione, è necessario eseguire il bac
 
 ### <a name="create-a-dedicated-capacity"></a>Creare una capacità dedicata
 
-Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata al contenuto dell'area di lavoro dell'app. Per i report impaginati è necessario supportare l'area di lavoro dell'app con capacità minima di A4/P1. È possibile creare una capacità dedicata usando [Power BI Premium](../service-premium-what-is.md).
+Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata al contenuto dell'area di lavoro dell'app. Per i report impaginati è necessario supportare l'area di lavoro dell'app con almeno una capacità P1. È possibile creare una capacità dedicata usando [Power BI Premium ](../service-premium-what-is.md).
 
 La tabella seguente elenca gli SKU di Power BI Premium disponibili in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -425,7 +422,7 @@ Gli amministratori globali o gli amministratori del servizio Power BI possono at
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-In questa esercitazione è stato descritto come incorporare il contenuto di Power BI in un'applicazione usando l'account dell'organizzazione di Power BI. È ora possibile provare a incorporare il contenuto di Power BI in un'applicazione usando le app. È anche possibile provare a incorporare contenuto Power BI per i clienti (non ancora supportato per l'incorporamento di report impaginati):
+In questa esercitazione è stato descritto come incorporare il contenuto di Power BI in un'applicazione usando l'account dell'organizzazione di Power BI. È ora possibile provare a incorporare il contenuto di Power BI in un'applicazione usando le app. È anche possibile provare a incorporare contenuto di Power BI per i clienti (funzionalità non ancora supportata per l'incorporamento di report impaginati):
 
 > [!div class="nextstepaction"]
 > [Incorporare contenuti dalle app](embed-from-apps.md)

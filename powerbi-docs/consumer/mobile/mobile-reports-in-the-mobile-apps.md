@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/21/2019
+ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: 3105736c6576428af2d00b6f502c94f94c409977
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230290"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995255"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -30,7 +30,7 @@ Un report di Power BI è una vista interattiva dei dati con elementi visivi che 
 3. È quindi possibile interagire con questi report nelle app Power BI per dispositivi mobili.
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Aprire un report di Power BI nell'app per dispositivi mobili
-A seconda della provenienza, i report di Power BI sono archiviati in posizioni diverse nell'app per dispositivi mobili. Possono trovarsi in App, Condivisi con l'utente corrente, Aree di lavoro (inclusa l'Area di lavoro personale) oppure in un server di report. In alcuni casi si accede attraverso un dashboard correlato per ottenere un report, e talvolta sono elencati.
+A seconda della provenienza, i report di Power BI sono archiviati in posizioni diverse nell'app per dispositivi mobili. Possono trovarsi in App, Condivisi con l'utente corrente, Aree di lavoro (inclusa l'Area di lavoro personale) oppure in un server di report. In alcuni casi, si accede attraverso un dashboard correlato per ottenere un report, e talvolta sono elencati.
 
 Negli elenchi e nei menu viene visualizzata un'icona accanto al nome del report che indica che l'elemento è un report. 
 
@@ -38,20 +38,21 @@ Negli elenchi e nei menu viene visualizzata un'icona accanto al nome del report 
 
 Sono disponibili due icone per i report nelle app Power BI per dispositivi mobili:
 
-* ![Icona del report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che verrà visualizzato con orientamento orizzontale nell'app e apparirà come viene visualizzato nel browser.
+* ![Icona del report](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un report che viene visualizzato con orientamento orizzontale nell'app e appare come viene visualizzato nel browser.
 
-* ![icona del report per il telefono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un report che include almeno una pagina del report ottimizzata per il telefono che verrà visualizzata con orientamento verticale. 
+* ![icona del report per il telefono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un report che include almeno una pagina del report ottimizzata per il telefono che viene visualizzata con orientamento verticale. 
 
-Nota: se il telefono viene tenuto in orizzontale, verrà sempre visualizzato il layout orizzontale, anche se la pagina del report ha un layout telefono. 
+> [!NOTE]
+> Se il telefono viene tenuto in orizzontale, verrà sempre visualizzato il layout orizzontale, anche se la pagina del report ha un layout telefono. 
 
 Per passare a un report da un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro > **Apri report**.
   
   ![Apri report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
-  Non tutti i riquadri offrono l'opzione di apertura in un report. Ad esempio, i riquadri creati ponendo una domanda nella casella Domande e risposte non aprono i report quando vengono toccati. 
+  non tutti i riquadri possono essere aperti in un report. Ad esempio, i riquadri creati ponendo una domanda nella casella Domande e risposte non aprono i report quando vengono toccati. 
   
 ## <a name="interacting-with-reports"></a>Interazione con i report
-Dopo aver aperto un report nell'app, è possibile iniziare a usarlo. È possibile eseguire molte operazioni con il report e i relativi dati. Nel piè di pagina del report sono indicate le azioni che è possibile eseguire sul report, mentre toccando per alcuni secondi i dati visualizzati nel report è anche possibile visualizzare i dati in dettaglio.
+Dopo aver aperto un report nell'app, è possibile iniziare a usarlo. È possibile eseguire molte operazioni con il report e i relativi dati. Nel piè di pagina del report sono disponibili le azioni da eseguire sul report. Grazie al tocco e al tocco prolungato sui dati visualizzati nel report, è possibile visualizzare i dati in dettaglio.
 
 ### <a name="using-tap-and-long-tap"></a>Uso del tocco e del tocco lungo
 Toccare equivale a fare clic con il mouse. Di conseguenza, per evidenziare il report in base a un punto dati, toccare il punto dati.
@@ -78,7 +79,7 @@ Gli autori del report possono definire gerarchie nei dati e relazioni tra le pag
 
 ![azioni di drill del report](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
-Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo, Power BI consente di passare a un'altra pagina nel report, filtrata in base al valore scelto.  L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. In tal caso, è possibile scegliere la pagina di cui eseguire il drill-through. Il pulsante Indietro consente di tornare alla pagina del report precedente.
+Con il *drill-through*, quando si tocca una parte specifica di un oggetto visivo, Power BI consente di passare a un'altra pagina nel report, filtrata in base al valore scelto. L'autore del report può definire una o più opzioni di drill-through che portano a pagine diverse. È possibile scegliere la pagina di cui eseguire il drill-through. Il pulsante Indietro consente di tornare alla pagina del report precedente.
 
 Leggere le informazioni su come [aggiungere il drill-through in Power BI Desktop](../../desktop-drillthrough.md).
    
@@ -97,7 +98,7 @@ Dal piè di pagina è possibile eseguire le azioni seguenti:
 2) Aprire il riquadro conversazione per visualizzare o aggiungere commenti al report.
 3) Aprire il riquadro filtro per visualizzare e modificare il filtro applicato al report.
 4) Visualizzare un elenco di tutte le pagine del report. Se si tocca il nome di una pagina, la pagina viene caricata e visualizzata.
-Il passaggio da una pagina del report a un'altra può essere eseguito scorrendo dal bordo dello schermo verso il centro.
+È possibile passare da una pagina del report a un'altra scorrendo dal bordo dello schermo verso il centro.
 5) Visualizzare tutte le azioni del report.
 
 #### <a name="all-report-actions"></a>Tutte le azioni del report
@@ -105,11 +106,11 @@ Se si tocca sull'opzione puntini di sospensione (...) nel piè di pagina del rep
 
 ![tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-È possibile che alcune azioni siano disabilitate poiché dipendono dalle funzionalità specifiche del report.
+È possibile che alcune azioni siano disabilitate perché dipendono dalle funzionalità specifiche del report.
 ad esempio:
 1) Il **filtro in base alla posizione** è abilitato se l'autore ha creato categorie dei dati basate su dati geografici. [Altre informazioni su come identificare i dati geografici nel report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
 2) L'**analisi per filtrare il report in base al codice a barre** è abilitata solo se il set di dati nel report è stato contrassegnato come codice a barre. [Come contrassegnare codici a barre in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
-3) L'**invito** è abilitato solo se si dispone dell'autorizzazione per condividere il report con altri utenti. Si disporrà dell'autorizzazione solo se si è il proprietario del report o se è stata assegnata l'autorizzazione di ricondivisione da parte del proprietario.
+3) L'**invito** è abilitato solo se si ha l'autorizzazione per condividere il report con altri utenti. L'autorizzazione è disponibile solo per il proprietario del report oppure se è stata assegnata l'autorizzazione di ricondivisione da parte del proprietario.
 4) L'**annotazione e la condivisione** potrebbero essere disabilitate in presenza di [criteri di protezione di Intune](https://docs.microsoft.com/intune/app-protection-policies) nell'organizzazione che impediscono la condivisione dall'app Power BI per dispositivi mobili. 
 
 ## <a name="next-steps"></a>Passaggi successivi

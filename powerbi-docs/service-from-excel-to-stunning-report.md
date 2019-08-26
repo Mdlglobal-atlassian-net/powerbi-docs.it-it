@@ -1,103 +1,144 @@
 ---
-title: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
-description: Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
+title: Da cartella di lavoro di Excel a straordinari report nel servizio Power BI
+description: Questo articolo illustra come è possibile creare rapidamente un report straordinario da una cartella di lavoro di Excel.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522867"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68995152"
 ---
-# <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Da cartella di lavoro di Excel a straordinari report in pochissimo tempo
-Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato si avrebbero impiegato ore per creare elementi visivi e formattare un report. L'ansia sale.
+# <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da cartella di lavoro di Excel a straordinari report nel servizio Power BI
+Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato sarebbero state necessarie ore per creare elementi visivi e formattare un report e l'ansia sarebbe salita.
 
 Niente panico. Con Power BI, è possibile creare un report straordinario in poco tempo.
 
 In questo esempio, si caricherà un file di Excel da un sistema locale, si creerà un nuovo report e lo si condividerà con i colleghi, tutto da Power BI.
 
 ## <a name="prepare-your-data"></a>Preparare i dati
-Si prenderà un semplice file di Excel come esempio. Prima di caricare il file di Excel in Power BI, è necessario organizzare i dati in una tabella flat. Ciò significa che ogni colonna contiene lo stesso tipo di dati, ad esempio, testo, data, numero o valuta. È necessaria una riga di intestazione, ma non dovrebbe essere presente una colonna o una riga in cui vengono visualizzati i totali.
+Si prenderà un semplice file di Excel come esempio. 
 
-![Dati organizzati in Excel](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
+1. Prima di caricare il file di Excel in Power BI, è necessario organizzare i dati in una tabella flat. In una tabella flat ogni colonna contiene lo stesso tipo di dati, ad esempio testo, data, numero o valuta. La tabella deve contenere una riga di intestazione, ma non tutte le colonne o le righe che visualizzano i totali.
 
-Successivamente, formattare i dati come una tabella. In Excel, nella scheda Home, nel gruppo di stili, selezionare **Formatta come tabella**. Selezionare uno stile di tabella da applicare al foglio di lavoro. Il foglio di lavoro di Excel è ora pronto per essere caricato in Power BI.
+   ![Dati organizzati in Excel](media/service-from-excel-to-stunning-report/pbi_excel_file.png)
 
-![Dati formattati come tabella](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
+2. Successivamente, formattare i dati come una tabella. Nella scheda **Home** di Excel selezionare **Formatta come tabella** nel gruppo **Stili**. 
 
-## <a name="upload-your-excel-file-into-power-bi"></a>Caricare il file di Excel in Power BI
-Power BI si connette a molte origini dati, inclusi i file di Excel che risiedono nel computer in uso. Per iniziare, accedere al servizio Power BI. Se non si è ancora iscritti, [è possibile farlo gratuitamente](https://powerbi.com).
+3. Selezionare uno stile di tabella da applicare al foglio di lavoro. 
 
-Si desidera creare un nuovo dashboard. Aprire **Area di lavoro personale** e selezionare l'icona **+ Crea**.
+   Il foglio di lavoro di Excel è ora pronto per essere caricato in Power BI.
 
-![Icona Crea](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
+   ![Dati formattati come tabella](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
-Selezionare **Dashboard**, immettere un nome e scegliere **Crea**. Verrà visualizzato il nuovo dashboard senza dati.
+## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Caricare il file di Excel nel servizio Power BI
+Il servizio Power BI si connette a molte origini dati, inclusi i file di Excel che risiedono nel computer in uso. 
 
-![Elenco a discesa Crea](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
+ > [!NOTE] 
+ > Per proseguire questa esercitazione, usare la [cartella di lavoro di esempio Financial](sample-financial-download.md).
 
-Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro. Nella pagina Recupera dati, in Importa o Connetti ai dati, nella casella file, selezionare **Recupera**.
+1. Per iniziare, accedere al servizio Power BI. Se non si è ancora iscritti, [è possibile farlo gratuitamente](https://powerbi.com).
 
-![Ottenere dati da file](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+2. Si desidera creare un nuovo dashboard. Aprire **Area di lavoro personale** e selezionare l'icona **Crea**.
 
-Nella pagina del file, selezionare **File locale**. Passare al file della cartella di lavoro di Excel nel computer in uso e selezionarlo per caricarlo in Power BI. Selezionare **Importa**.
+   ![Icona Crea](media/service-from-excel-to-stunning-report/power-bi-new-dash.png)
 
-> **NOTA**: per proseguire questa esercitazione, usare la [cartella di lavoro di esempio Financial](sample-financial-download.md).
-> 
-> 
+3. Selezionare **Dashboard**, immettere un nome e quindi scegliere **Crea**. 
 
-![Finestra Recupera dati > File](media/service-from-excel-to-stunning-report/pbi_local_file.png)
+   Verrà visualizzato il nuovo dashboard senza dati.
+
+   ![Elenco a discesa Crea](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
+
+4. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro. 
+
+5. Nella pagina **Recupera dati** selezionare **Recupera** nella casella **File** sotto **Creare nuovo contenuto**.
+
+   ![Ottenere dati da file](media/service-from-excel-to-stunning-report/pbi_get_files.png)
+
+6. Nella pagina **File** selezionare **File locale**. Passare al file della cartella di lavoro di Excel nel computer in uso e selezionare **Apri** per caricarlo nel servizio Power BI. 
+
+   ![Finestra Recupera dati > File](media/service-from-excel-to-stunning-report/pbi_local_file.png)
+
+7. Nella pagina **File locale** selezionare **Importa**.
+
 
 ## <a name="build-your-report"></a>Creare il report
-Dopo l'importazione del file di Excel in Power BI, è possibile iniziare a creare il report. Quando viene visualizzato il messaggio **Il set di dati è pronto**, selezionare **Visualizza set di dati**.  Power BI viene aperto nella Visualizzazione di modifica e visualizza l'area di disegno report. Sul lato destro sono presenti i riquadri Visualizzazioni, Filtri e Campi.
+Dopo l'importazione del file di Excel nel servizio Power BI, si inizia a creare il report. 
 
-Si noti che i dati della tabella della cartella di lavoro di Excel vengono visualizzati nel riquadro Campi. Sotto il nome della tabella, Power BI elenca le intestazioni di colonna come campi individuali.
+1. Quando viene visualizzato il messaggio **Il set di dati è pronto**, selezionare **Visualizza set di dati**.  
 
-![Aspetto dei dati di Excel nel riquadro Campi](media/service-from-excel-to-stunning-report/pbi_report_fields.png)
+   Power BI viene aperto nella Visualizzazione di modifica e visualizza l'area di disegno report. Sul lato destro sono presenti i riquadri **Visualizzazioni**, **Filtri** e **Campi**. Si noti che i dati della tabella della cartella di lavoro di Excel vengono visualizzati nel riquadro **Campi**. Sotto il nome della tabella, Power BI elenca le intestazioni di colonna come campi individuali.
 
-È ora possibile iniziare a creare le visualizzazioni. Il manager desidera vedere i profitti nel tempo. Nel riquadro Campi trascinare **Profitti** all'area di disegno report. Power BI visualizza un grafico a barre per impostazione predefinita. Trascinare quindi **Data** all'area di disegno report. Power BI aggiorna il grafico a barre per visualizzare i profitti per data.
+   ![Aspetto dei dati di Excel nel riquadro Campi](media/service-from-excel-to-stunning-report/pbi_report_fields.png)
 
-![Istogramma nell'editor di report](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
+2. È ora possibile iniziare a creare le visualizzazioni. Supponiamo che il responsabile voglia vedere i profitti nel tempo. Nel riquadro **Campi** trascinare **Profit** nel canvas del report. 
 
-> **SUGGERIMENTO**: se il grafico non soddisfa le aspettative, controllare le aggregazioni. Ad esempio, nell'area **Valore** fare clic con il pulsante destro del mouse sul campo appena aggiunto e assicurarsi che i dati vengano aggregati nel modo appropriato.  In questo esempio verrà usato **Somma**.
-> 
-> 
+   Per impostazione predefinita, Power BI visualizza un grafico a barre. 
 
-La manager desidera sapere quali sono i paesi più produttivi. Sarà stupita nel vedere una visualizzazione mappa. Selezionare un'area vuota nell'area di disegno e, dal riquadro Campi, trascinare semplicemente gli elementi sui campi **Country** e quindi **Profit**. Power BI crea una mappa di visualizzazione con bolle che rappresenta il profitto relativo di ogni località.
+3. Trascinare **Date** nel canvas del report. 
 
-![Oggetto visivo mappa nell'editor di report](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
+   Power BI aggiorna il grafico a barre per visualizzare i profitti per data.
 
-Visualizzazione delle vendite per prodotti e segmenti di mercato Facile. Nel riquadro Campi, selezionare le caselle di controllo accanto ai campi Vendite, Prodotto e Segmento. Power BI crea immediatamente un grafico a barre. Modificare il tipo di grafico scegliendo una delle icone nel menu Visualizzazioni. Ad esempio, modificarlo in un grafico a barre in pila.  Per ordinare il grafico, selezionare i puntini di sospensione (...) > **Ordina per**.
+   ![Istogramma nell'editor di report](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-![Istogramma in pila nell'editor di report](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
+   > [!TIP]
+   > Se il grafico non soddisfa le aspettative, controllare le aggregazioni. Ad esempio, nell'area **Valore** fare clic con il pulsante destro del mouse sul campo appena aggiunto e assicurarsi che i dati vengano aggregati nel modo appropriato. In questo esempio verrà usato **Somma**.
+   > 
 
-Aggiungere tutte le visualizzazioni al Dashboard. Si è pronti per condividerle con i colleghi.
+La manager desidera sapere quali sono i paesi più produttivi. Sarà stupita nel vedere una visualizzazione mappa. 
 
-![Dashboard con 3 oggetti visivi aggiunti](media/service-from-excel-to-stunning-report/pbi_report.png)
+1. Selezionare un'area vuota nel canvas del report. 
+
+2. Dal riquadro **Campi** trascinare i campi **Country** e **Profit** nel canvas del report.
+
+   Power BI crea una mappa di visualizzazione con bolle che rappresenta il profitto relativo di ogni località.
+
+   ![Oggetto visivo mappa nell'editor di report](media/service-from-excel-to-stunning-report/pbi_report_map-new.png)
+
+Visualizzazione delle vendite per prodotti e segmenti di mercato Facile. 
+
+1. Nel riquadro **Campi** selezionare i campi **Sales**, **Product** e **Segment**. 
+   
+   Power BI crea immediatamente un grafico a barre. 
+
+2. Modificare il tipo di grafico scegliendo una delle icone nel menu **Visualizzazioni**. Ad esempio, modificarlo in un **istogramma in pila**. 
+
+3. Per ordinare il grafico, selezionare i puntini di sospensione (...) > **Ordina per**.
+
+   ![Istogramma in pila nell'editor di report](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
+
+Aggiungere tutte le visualizzazioni al dashboard. Ora si è pronti per condividerle con i colleghi.
+
+   ![Dashboard con tre oggetti visivi aggiunti](media/service-from-excel-to-stunning-report/pbi_report.png)
 
 ## <a name="share-your-dashboard"></a>Condividere il dashboard
-Si desidera condividere il dashboard con la manager, Paula. Con i colleghi che dispongono di un account Power BI, è possibile condividere il dashboard e il report sottostante. Possono modificare i report, ma non salvare le modifiche.
+Supponiamo di voler condividere il dashboard con il responsabile. Con i colleghi che dispongono di un account Power BI, è possibile condividere il dashboard e il report sottostante. Possono modificare i report, ma non salvare le modifiche.
 
-Per condividere il report, nella parte superiore del dashboard, selezionare **Condividi**.
+1. Per condividere il report, nella parte superiore del dashboard, selezionare **Condividi**.
 
-![Icona di condivisione](media/service-from-excel-to-stunning-report/power-bi-share.png)
+   ![Icona di condivisione](media/service-from-excel-to-stunning-report/power-bi-share.png)
 
-Power BI visualizza la pagina Condivisione dashboard. Nell'area superiore, immettere gli indirizzi di posta elettronica dei destinatari. Aggiungere un messaggio nel campo sottostante. Per consentire ai destinatari di condividere il dashboard con altri utenti, selezionare **Consenti ai destinatari di condividere il dashboard**. Seleziona **Condividi**.
+   Power BI visualizza la pagina **Condividi dashboard**. 
 
-![Finestra Condividi dashboard](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
+2. Immettere gli indirizzi di posta elettronica dei destinatari nella casella **Immettere gli indirizzi di posta elettronica** e aggiungere un messaggio nella casella sottostante. 
 
-Passaggi successivi
+3. Per consentire ai destinatari di condividere il dashboard con altri utenti, selezionare **Consenti ai destinatari di condividere il dashboard**. Seleziona **Condividi**.
+
+   ![Finestra Condividi dashboard](media/service-from-excel-to-stunning-report/power-bi-share-dash-new.png)
+
+## <a name="next-steps"></a>Passaggi successivi
 
 * [Introduzione al servizio Power BI](service-get-started.md)
 * [Introduzione a Power BI Desktop](desktop-getting-started.md)
 * [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+
+Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
 

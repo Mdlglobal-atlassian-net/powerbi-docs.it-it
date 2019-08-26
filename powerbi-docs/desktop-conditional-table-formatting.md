@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e23fd2aca90ee14c2376b0175c7c8b5132cf9a9f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222275"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69561073"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formattazione condizionale nelle tabelle 
 La formattazione condizionale nelle tabelle consente di specificare colori delle celle personalizzati in base ai valori della cella o ad altri valori o campi, e anche di usare sfumature. È anche possibile visualizzare i valori delle celle con barre dei dati. 
@@ -130,11 +130,17 @@ Si potrebbero quindi ottenere risultati simili alla matrice seguente.
 
 Esistono molte altre varianti che è possibile creare, semplicemente usando l'immaginazione ed espressioni DAX.
 
-È possibile usare uno dei valori elencati nella specifica di colori CSS al [ https://www.w3.org/TR/css-color-3/ ](https://www.w3.org/TR/css-color-3/) per colorare gli oggetti visivi:
-* 3, 6 o 8 hex cifra codici, ad esempio & 3E4AFF. Assicurarsi di che includere il simbolo # all'inizio del codice. "3E4AFF" non è accettata. 
-* I valori RGB o RGBA, ad esempio RGBA (234, 234, 234, 0,5)
-* Ad esempio, HSL e HSLA valori HSLA (123, 75%, 75%, 0,5)
-* Ad esempio PeachPuff verde, SkyBlue, nomi dei colori 
+Per colorare gli oggetti visivi è possibile usare uno dei valori elencati nella specifica dei colori CSS in [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/):
+* codici esadecimali a 3, 6 o 8 cifre, ad esempio #3E4AFF. Assicurarsi di includere il simbolo cancelletto (#) all'inizio del codice. "3E4AFF" non viene accettato. 
+* Valori RGB o RGBA, ad esempio RGBA(234, 234, 234, 0.5)
+* Valori HSL o HSLA, ad esempio HSLA(123, 75%, 75%, 0.5)
+* Nomi dei colori, ad esempio Green, SkyBlue, PeachPuff 
+
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+Quando si lavora con la formattazione condizionale nelle tabelle, è necessario tenere presenti alcune considerazioni:
+
+* La formattazione condizionale viene applicata solo ai valori di un oggetto visivo **Matrice** e non è applicabile a subtotali o totali complessivi. 
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni, vedere l'articolo seguente:  
