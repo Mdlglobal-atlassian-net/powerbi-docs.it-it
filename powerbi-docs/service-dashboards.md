@@ -54,8 +54,8 @@ I [report](service-reports.md) e i dashboard appaiono simili poiché sono entram
 | In primo piano |Sì. È possibile impostare un dashboard come *in primo piano* |No |
 | Preferito | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
 | Impostazione di avvisi |Sì. Disponibile per i riquadri del dashboard in determinate circostanze |No |
-| Query in linguaggio naturale (Domande e risposte) |Sì | Sì, i progettisti dispongono delle autorizzazioni di modifica per il report e per il set di dati sottostante |
-| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì |
+| Query in linguaggio naturale (Domande e risposte) |Sì | Sì, purché si disponga delle autorizzazioni di modifica per il report e per il set di dati sottostante |
+| Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati, ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì |
 
 
 ## <a name="next-steps"></a>Passaggi successivi

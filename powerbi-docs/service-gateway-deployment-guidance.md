@@ -45,7 +45,7 @@ Un vincolo presente in Power BI consente solo *un* gateway per *report*. Anche s
 
 In Power BI sono disponibili due tipi di connessioni, ovvero DirectQuery e importazione. Non tutte le origini dati supportano entrambi i tipi di connessione. Molti fattori possono contribuire a una scelta rispetto all'altra, ad esempio i requisiti di sicurezza, le prestazioni, i limiti dei dati e le dimensioni del modello di dati. Per altre informazioni sui tipi di connessione e sulle origini dati supportate, vedere l'[elenco dei tipi di origini dati disponibili](service-gateway-data-sources.md#list-of-available-data-source-types).
 
-A seconda del tipo di connessione in uso, l'utilizzo del gateway può essere diverso. Provare ad esempio a separare le origini dati DirectQuery dalle origini dati di aggiornamento pianificato, quando possibile. Si presuppone che le origini dati si trovino in report diversi e che possano essere separate. La separazione delle origini impedisce al gateway di accumulare migliaia di richieste DirectQuery, contemporaneamente all'aggiornamento pianificato del mattino, di un modello di dati di grandi dimensioni usato per il dashboard principale della società. 
+A seconda del tipo di connessione in uso, l'utilizzo del gateway può essere diverso. Provare ad esempio a separare le origini dati DirectQuery dalle origini dati di aggiornamento pianificato, quando possibile. Si presuppone che le origini dati si trovino in report diversi e che possano essere separate. La separazione delle origini impedisce al gateway di accumulare migliaia di richieste DirectQuery, accodate contemporaneamente all'aggiornamento pianificato del mattino, di un modello di dati di grandi dimensioni usato per il dashboard principale della società. 
 
 Di seguito vengono indicati i fattori da considerare per ogni opzione.
 
@@ -61,7 +61,7 @@ La posizione di installazione del gateway può avere un impatto significativo su
 
 ![Determinare il percorso del tenant Power BI](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_02.png)
 
-Se si intende usare il gateway Power BI con Azure Analysis Services, verificare inoltre che le aree dati di entrambi corrispondano. Per altre informazioni su come impostare le aree dati per più servizi, guardare [questo video](https://guyinacube.com/2018/01/power-bi-azure-analysis-services-gateway-data-region/).
+Se si intende usare il gateway Power BI con Azure Analysis Services, verificare che le aree dati di entrambi corrispondano. Per altre informazioni su come impostare le aree dati per più servizi, guardare [questo video](https://guyinacube.com/2018/01/power-bi-azure-analysis-services-gateway-data-region/).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
