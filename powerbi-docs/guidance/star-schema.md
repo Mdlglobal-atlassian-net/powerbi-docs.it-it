@@ -9,14 +9,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: df8a7b2f8564c8862a5c2db3177df42640ce295d
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: bb8c0582e08d8e1e05c78c30df0b59bd89aafbd0
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68996060"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985796"
 ---
-# <a name="understand-a-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
+# <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
 Questo articolo è destinato a esperti di modellazione di dati in Power BI Desktop. Illustra la progettazione di uno schema a stella e la pertinenza di questo schema per lo sviluppo di modelli di dati di Power BI ottimizzati per le prestazioni e l'usabilità.
 
@@ -66,7 +66,7 @@ Esistono molte altre entità correlate alla progettazione di uno schema a stella
 
 Nella progettazione di uno schema a stella, una **misura** è una colonna della tabella dei fatti in cui vengono archiviati i valori da riepilogare.
 
-In un modello di Power BI una **misura** ha una definizione diversa, anche se simile. Si tratta di una formula scritta in [DAX (Data Analysis Expressions)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) che consente la generazione di riepiloghi. Le espressioni di misura utilizzano spesso funzioni di aggregazione DAX, come SUM, MIN, MAX, AVERAGE e così via, per generare un risultato di valore scalare in fase di query (i valori non vengono mai archiviati nel modello). Un'espressione di misura può variare da semplici aggregazioni di colonne a formule più sofisticate che sostituiscono le propagazioni di relazioni e/o contesti di filtro. Per altre informazioni, vedere l'articolo [Nozioni di DAX in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics). Collegamento Altre informazioni?
+In un modello di Power BI una **misura** ha una definizione diversa, anche se simile. Si tratta di una formula scritta in [DAX (Data Analysis Expressions)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) che consente la generazione di riepiloghi. Le espressioni di misura utilizzano spesso funzioni di aggregazione DAX, come SUM, MIN, MAX, AVERAGE e così via, per generare un risultato di valore scalare in fase di query (i valori non vengono mai archiviati nel modello). Un'espressione di misura può variare da semplici aggregazioni di colonne a formule più sofisticate che sostituiscono la propagazione di relazioni e/o contesti di filtro. Per altre informazioni, vedere l'articolo [Nozioni di DAX in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).
 
 È importante comprendere che i modelli di Power BI supportano un secondo metodo per la generazione di riepiloghi. Le colonne, e in genere quelle numeriche, possono essere riepilogate in base a un oggetto visivo di report o a Domande e risposte. Questa è una soluzione pratica per gli sviluppatori di modelli, poiché in molti casi non è necessario creare misure. Ad esempio, la colonna **Sales Amount** relativa alle vendite dei rivenditori di Adventure Works può essere riepilogata in diversi modi (sum, count, average, median, min, max e così via), senza che sia necessario creare una misura per ogni tipo di aggregazione possibile.
 

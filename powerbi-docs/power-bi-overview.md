@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 05/30/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d6c9eb47d5f88a2d835c1ba6835e871b0c64bf1c
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324784"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654975"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. I dati potrebbero essere un foglio di calcolo di Excel o una raccolta di data warehouse basati sul cloud o ibridi locali. Power BI consente di connettersi facilmente alle origini dati, visualizzare e scoprire le informazioni importanti e condividerle con tutti gli utenti o con quelli necessari.
@@ -25,11 +25,11 @@ Power BI può essere semplice e rapido, in grado di ricavare informazioni veloci
 
 ## <a name="the-parts-of-power-bi"></a>Gli elementi di Power BI
 Power BI è costituito da: 
-- Un'applicazione desktop di Windows denominata **Power BI Desktop**
-- Un servizio SaaS (*Software as a Service*) online denominato **servizio Power BI** 
-- **App Power BI per dispositivi mobili** per dispositivi Windows, iOS e Android
+- Un'applicazione desktop Windows denominata **Power BI Desktop**.
+- Un servizio SaaS (*Software as a Service*) online denominato **servizio Power BI**. 
+- **App per dispositivi mobili** Power BI per dispositivi Windows, iOS e Android.
 
-![Power BI Desktop, servizio, dispositivi mobili](media/power-bi-overview/power-bi-blocks.png)
+![Power BI Desktop, servizio, dispositivi mobili](media/power-bi-overview/power-bi-overview-blocks.png)
 
 Questi tre elementi, ovvero &mdash;Power BI Desktop, il servizio e le app per dispositivi mobili&mdash;, sono progettati per consentire agli utenti di creare, condividere e sfruttare al meglio le informazioni aziendali a livello personale o professionale.
 

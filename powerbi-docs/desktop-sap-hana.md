@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b3a59ae8926ce5e302cfcdecec617d1f3fd107b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f40ed1b3950ace0b3cb362a22670e98c3ef83112
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513849"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985680"
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Usare SAP HANA in Power BI Desktop
 Con Power BI Desktop è ora possibile accedere ai database **SAP HANA** . Per usare **SAP HANA**, il driver ODBC di SAP HANA deve essere installato nel computer client locale in modo che la connessione dati **SAP HANA** di Power BI Desktop funzioni correttamente. È possibile scaricare il driver ODBC di SAP HANA da [SAP Software Download Center](https://support.sap.com/swdc). Da qui, cercare il CLIENT SAP HANA per i computer Windows. Dal momento che **SAP Software Download Center** cambia struttura di frequente, non sono disponibili indicazioni più specifiche per la navigazione.
@@ -40,6 +40,9 @@ Questa versione presenta molte funzionalità per **SAP HANA**, come illustrato n
 * Con **SAP HANA** è possibile usare anche la funzionalità SQL diretta per la connessione alle tabelle Riga e Colonna
 * Esso include la struttura ottimizzata per i modelli HANA
 * Power BI supporta le variabili e i parametri di input di **SAP HANA**
+* Viste di calcolo basate su contenitori HDI
+  * Il supporto per le viste di calcolo basate su contenitori HDI è in anteprima pubblica nella versione di agosto 2019 di Power BI Desktop. Per accedere alle viste di calcolo basate su contenitori HDI in Power BI, assicurarsi che gli utenti del database HANA usati con Power BI abbiano le autorizzazioni per accedere al contenitore di runtime HDI che archivia le viste a cui si vuole accedere. Per concedere questo accesso, è necessario creare un ruolo che consenta l'accesso al contenitore HDI e assegnare il ruolo all'utente del database HANA che verrà usato con Power BI. L'utente deve anche avere le autorizzazioni di lettura dalle tabelle di sistema nello schema \_SYS\_BI, come di consueto. Consultare la documentazione di SAP ufficiale per istruzioni dettagliate su come creare e assegnare i ruoli del database. [Questo post del blog SAP](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fblogs.sap.com%2F2018%2F01%2F24%2Fthe-easy-way-to-make-your-hdi-container-accessible-to-a-classic-database-user%2F&data=02%7C01%7Cv-adbold%40microsoft.com%7Cf7e0a405fe334598ba0608d7096ef5b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636988244476739316&sdata=PuRu61GPRYp34mLuGbQk6gdbRikdgbxfqo8q1RBQtm0%3D&reserved=0) può essere un buon punto di partenza.
+  * Si noti che esistono attualmente alcune limitazioni per le variabili HANA associate alle viste di calcolo basate su HDI. Queste limitazioni sono dovute a errori sul lato HANA e verranno superate nelle versioni future di SAP HANA. In primo luogo, non è possibile applicare una variabile HANA a una colonna condivisa di una vista di calcolo basata su contenitori HDI. Questa limitazione può essere evitata eseguendo l'aggiornamento a HANA 2 versione 37.02 e successive o a HANA 2 versione 42 e successive. In secondo luogo, i valori predefiniti multi-voce per variabili e parametri attualmente non vengono visualizzati nell'interfaccia utente di Power BI. Ciò è dovuto anche a un errore in SAP HANA. Tuttavia, SAP non ha ancora annunciato una correzione.
 
 ## <a name="limitations-of-sap-hana"></a>Limitazioni di SAP HANA
 Esistono inoltre alcune limitazioni all'uso di **SAP HANA**, come illustrato di seguito:
@@ -51,9 +54,11 @@ Esistono inoltre alcune limitazioni all'uso di **SAP HANA**, come illustrato di 
 
 
 ## <a name="next-steps"></a>Passaggi successivi
-Per altre informazioni su DirectQuery, vedere le risorse seguenti:
+Per altre informazioni su DirectQuery e SAP HANA, vedere le risorse seguenti:
 
 * [DirectQuery and SAP HANA](desktop-directquery-sap-hana.md) (DirectQuery e SAP HANA)
 * [DirectQuery in Power BI](desktop-directquery-about.md)
 * [Data sources supported by DirectQuery](desktop-directquery-data-sources.md) (Origini dati supportate da DirectQuery)
+* [Abilitare la crittografia per SAP HANA](desktop-sap-hana-encryption.md)
+
 

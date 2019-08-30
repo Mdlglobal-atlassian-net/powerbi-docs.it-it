@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/09/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65533584"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654566"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usare modelli compositi in Power BI Desktop
 
-In precedenza in Power BI Desktop, quando si utilizza DirectQuery in un report, senza altre connessioni dati - se DirectQuery o importazione - sono stati consentiti per il report. Con i modelli compositi questa restrizione non esiste più. Un report può includere senza problemi connessioni dati da più di una connessione dati DirectQuery o Importa, in qualsiasi combinazione scelta.
+In precedenza, quando si usava DirectQuery in un report in Power BI Desktop, non erano consentite altre connessioni dati per tale report, sia di tipo DirectQuery che Importa. Con i modelli compositi questa restrizione non esiste più. Un report può includere senza problemi connessioni dati da più di una connessione dati DirectQuery o Importa, in qualsiasi combinazione scelta.
 
 ![Modelli compositi in Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Con i modelli compositi è possibile connettersi a un'ampia gamma di origini dat
 * Importando i dati in Power BI, che è il modo più comune per ottenere i dati.
 * Connettendosi direttamente ai dati nel relativo repository di origine tramite DirectQuery. Per altre informazioni su DirectQuery, vedere [Uso di DirectQuery in Power BI](desktop-directquery-about.md).
 
-Quando si usa DirectQuery, *modelli compositi* rendono possibile la creazione di un modello di Power BI (ad esempio una singola *con estensione pbix* file di Power BI Desktop) che consente di eseguire una o entrambe le operazioni seguenti:
+Quando si usa DirectQuery, i *modelli compositi* consentono di creare un modello di Power BI (ad esempio un singolo file di Power BI Desktop *con estensione pbix*) che consente di eseguire una o entrambe le operazioni seguenti:
 
 * Combina i dati da una o più origini DirectQuery.
 * Combina i dati da origini DirectQuery e dati importati.
@@ -100,7 +100,7 @@ La relazione così stabilita è ora inclusa nella visualizzazione **Relazione** 
 
 ![Riquadro Campi](media/desktop-composite-models/composite-models_11.png)
 
-L'esempio seguente mostra un caso comune di un *dimensione* della tabella, ad esempio *prodotto* oppure *cliente* -che viene estesa con alcuni dati aggiuntivi importati da un'altra posizione. È anche possibile configurare le tabelle per l'uso di DirectQuery per connettersi a varie origini. Per continuare con questo esempio, si immagini che i valori di *SalesTargets* per ogni *Country* e *Period* siano archiviati in un database di reparto separato. È possibile usare *GetData* per connettersi a tali dati come di consueto, come illustrato nell'immagine seguente: 
+L'esempio seguente mostra un caso comune di una tabella delle *dimensioni*, ad esempio *Product* oppure *Customer*, che viene estesa con dati aggiuntivi importati da altre origini. È anche possibile configurare le tabelle per l'uso di DirectQuery per connettersi a varie origini. Per continuare con questo esempio, si immagini che i valori di *SalesTargets* per ogni *Country* e *Period* siano archiviati in un database di reparto separato. È possibile usare *GetData* per connettersi a tali dati come di consueto, come illustrato nell'immagine seguente: 
 
 ![Finestra Strumento di navigazione](media/desktop-composite-models/composite-models_12.png)
 
@@ -125,6 +125,9 @@ La modalità di archiviazione può anche essere visualizzata nella descrizione c
 Per qualsiasi file di Power BI Desktop (con estensione *pbix*) che contiene alcune tabelle da DirectQuery e alcune tabelle importate importazione, la barra di stato visualizza la modalità di archiviazione **Mista**. È possibile fare clic su tale termine nella barra di stato e passare facilmente a tutte le tabelle da importare.
 
 Per altre informazioni sulla modalità di archiviazione, vedere [Modalità di archiviazione in Power BI Desktop (anteprima)](desktop-storage-mode.md).  
+
+> [!NOTE]
+> È possibile usare la modalità di archiviazione *Mista* in Power BI Desktop e nel servizio Power BI.
 
 ## <a name="calculated-tables"></a>Tabelle calcolate
 
@@ -152,7 +155,7 @@ Per motivi analoghi, prestare attenzione quando si apre un file di Power BI Desk
 
 Quando si usa DirectQuery, occorre tenere sempre conto delle prestazioni, principalmente per garantire che l'origine back-end abbia risorse sufficienti per offrire una buona esperienza agli utenti. Un'esperienza ottimale significa che gli oggetti visivi vengono aggiornati in massimo cinque secondi. È anche consigliabile seguire i consigli per le prestazioni nell'articolo [Uso di DirectQuery in Power BI](desktop-directquery-about.md). 
 
-Esistono considerazioni aggiuntive per le prestazioni di cui tenere conto quando si usano i modelli compositi. Un singolo oggetto visivo può comportare l'invio di query a più origini, che spesso passano i risultati da una query in una seconda origine. Questa situazione può portare alle forme di esecuzione seguenti:
+Esistono considerazioni aggiuntive per le prestazioni di cui tenere conto quando si usano i modelli compositi. Un singolo oggetto visivo può comportare l'invio di query a più origini, operazione che implica spesso il passaggio dei risultati da una query attraverso una seconda origine. Questa situazione può portare alle forme di esecuzione seguenti:
 
 * **Una query SQL che include un numero elevato di valori letterali**: ad esempio, un oggetto visivo che richiede il totale di *Sales Amount* per un set di *Product Manager* selezionati dovrebbe prima di tutto trovare i *Product* gestiti da tali responsabili di prodotto. Questa sequenza deve essere eseguita prima che l'oggetto visivo invii una query SQL che include tutti gli ID di prodotto in una clausola *WHERE*.
 
@@ -160,7 +163,7 @@ Esistono considerazioni aggiuntive per le prestazioni di cui tenere conto quando
 
 * **Più query SQL, una per ogni valore di raggruppamento**: quando l'aggregazione usa **DistinctCount**, con raggruppamento in base a una colonna dall'altra origine, se l'origine esterna non supporta il passaggio efficiente di molti valori letterali che definiscono il raggruppamento, è necessario inviare una query SQL per ogni valore di raggruppamento. 
 
-   Ad esempio, un oggetto visivo che richiede il conteggio di valori univoci per *CustomerAccountNumber* (dalla tabella di SQL Server) in base a *Product Manager* (importato dal foglio di calcolo) dovrebbe passare i dettagli dalla tabella *Product Managers* nella query inviata a SQL Server. Su altre origini (Redshift, ad esempio), questa azione non è fattibile. Al contrario, non vi sarà una query SQL inviata per ogni *responsabile vendite* : fino a un limite pratico, momento in cui la query avrà esito negativo. 
+   Ad esempio, un oggetto visivo che richiede il conteggio di valori univoci per *CustomerAccountNumber* (dalla tabella di SQL Server) in base a *Product Manager* (importato dal foglio di calcolo) dovrebbe passare i dettagli dalla tabella *Product Managers* nella query inviata a SQL Server. Su altre origini (Redshift, ad esempio), questa azione non è fattibile. Verrebbe invece inviata una query SQL per ogni *Product Manager* fino a un limite pratico e la query avrebbe poi esito negativo. 
 
 Per ognuno di questi casi esistono implicazioni specifiche per le prestazioni e i dettagli esatti variano per ogni origine dati. Anche se la cardinalità delle colonne usate nella relazione che unisce le due origini resta ridotta (alcune migliaia), non dovrebbero esserci effetti sulle prestazioni. Man mano che aumenta la cardinalità, è necessario prestare maggiore attenzione all'impatto sulle prestazioni risultanti. È buona norma applicare queste linee guida. 
 
@@ -168,9 +171,9 @@ Inoltre, l'uso delle relazioni *molti-a-molti* significa che è necessario invia
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
-Questa versione dei modelli compositi presenta alcune limitazioni:
+Esistono alcune limitazioni per questa versione dei modelli compositi:
 
-Attualmente [l'aggiornamento incrementale](service-premium-incremental-refresh.md) è supportata per i modelli compositi la connessione a SQL, Oracle e Teradata solo alle origini dati.
+Attualmente l'[aggiornamento incrementale](service-premium-incremental-refresh.md) è supportato solo per i modelli compositi che si connettono a origini dati SQL, Oracle e Teradata.
 
 Le origini Live Connect (multidimensionali) seguenti non possono essere usate con i modelli compositi:
 

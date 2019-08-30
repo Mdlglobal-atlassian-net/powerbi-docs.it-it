@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565371"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654280"
 ---
 # <a name="power-bi-premium-faq"></a>Domande frequenti su Power BI Premium
 
@@ -76,9 +76,9 @@ Power BI Premium è disponibile come componente aggiuntivo di Power BI Pro. Offi
 
 **Che cos'è il server di report di Power BI? Ciò significa che Power BI sarà disponibile in locale?**
 
-Il server di report di Power BI è un server locale che consente la distribuzione dei report interattivi di Power BI, nonché dei report impaginati, completamente all'interno del firewall dell'organizzazione. Il server di report di Power BI è disponibile tramite Power BI Premium o come vantaggio per i clienti con SQL Server Enterprise Edition con Software Assurance. Contattare il rappresentante di vendita Microsoft per altre informazioni.
+Il server di report di Power BI è un server locale che consente la distribuzione dei report interattivi di Power BI, nonché dei report impaginati, completamente all'interno del firewall dell'organizzazione. Il server di report di Power BI è disponibile tramite Power BI Premium o come vantaggio per i clienti con SQL Server Enterprise Edition con Software Assurance. Per informazioni sulle licenze, vedere [Licenze di Server di report di Power BI](report-server/get-started.md#licensing-power-bi-report-server). Contattare il rappresentante di vendita Microsoft per altri dettagli.
 
-Con Power BI Premium, lo stesso numero di memorie centrali virtuali di cui un'organizzazione esegue il provisioning nel cloud può anche essere distribuito in locale tramite il server di report di Power BI. Non è necessario dividere la capacità. Le organizzazioni possono scegliere Power BI nel cloud oppure decidere di mantenere i report in locale con il server di report Power BI, spostandoli nel cloud secondo i propri ritmi.
+Con Power BI Premium lo stesso numero di vCore di cui un'organizzazione esegue il provisioning nel cloud può anche essere distribuito in locale tramite Server di report di Power BI. Non è necessario dividere la capacità. Le organizzazioni possono scegliere Power BI nel cloud oppure decidere di mantenere i report in locale con il server di report Power BI, spostandoli nel cloud secondo i propri ritmi.
 
 Per altre informazioni vedere [Introduzione al server di report di Power BI](report-server/get-started.md).
 

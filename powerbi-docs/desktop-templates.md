@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563667"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985648"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Uso dei modelli in Power BI Desktop
 
@@ -70,7 +70,10 @@ Dopo che sono stati specificati i parametri e i dati, viene creato un report con
 Questo è tutto. In Power BI Desktop è possibile creare e usare con facilità modelli di report e quindi riprodurre facilmente layout accattivanti e altri aspetti dei report e condividerli con altri utenti.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
+Potrebbe anche essere interessante scoprire di più sui **parametri di query**:
+* [Uso dei parametri di query in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-query-parameters)
+
+Power BI Desktop offre inoltre molte altre possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)

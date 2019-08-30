@@ -8,18 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 49a1f02e5aa327c2704b6c2d789934a43b760ad0
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962022"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985698"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
-Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro per le capacità Power BI Premium. Per impostazione predefinita le capacità supportano solo il carico di lavoro associato all'esecuzione delle query di Power BI. È anche possibile abilitare e configurare carichi di lavoro aggiuntivi per **[intelligenza artificiale (Servizi cognitivi)](service-cognitive-services.md)**, **[flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[report impaginati](paginated-reports-save-to-power-bi-service.md)**.
+Questo articolo descrive l'abilitazione e la configurazione di carichi di lavoro per le capacità Power BI Premium. Per impostazione predefinita le capacità supportano solo il carico di lavoro associato all'esecuzione delle query di Power BI. È anche possibile abilitare e configurare carichi di lavoro aggiuntivi per **[intelligenza artificiale (Servizi cognitivi)](service-cognitive-services.md)** , **[flussi di dati](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** e **[report impaginati](paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Impostazioni predefinite della memoria
 
@@ -47,39 +47,67 @@ I carichi di lavoro delle query sono ottimizzati e limitati alle risorse determi
 
 ### <a name="ai-preview"></a>Intelligenza artificiale (anteprima)
 
-Oltre all'impostazione **Memoria massima**, il carico di lavoro Intelligenza artificiale ha un'impostazione aggiuntiva, **Consente l'utilizzo da Power BI Desktop**. Il valore predefinito è **No**. Questa impostazione è riservata per un uso futuro e potrebbe non essere presente in tutti i tenant.
+Il carico di lavoro Intelligenza artificiale consente di usare servizi cognitivi e Machine Learning automatizzato in Power BI. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro.
 
-### <a name="datasets-preview"></a>Set di dati (anteprima)
+| Nome dell'impostazione | Descrizione |
+|---------------------------------|----------------------------------------|
+| **Memoria massima (%)** | Percentuale massima di memoria disponibile che i processi di intelligenza artificiale possono usare in una capacità. |
+| **Consente l'utilizzo da Power BI Desktop** | Questa impostazione è riservata per un uso futuro e non è presente in tutti i tenant. |
+| **Consente la creazione di modelli di Machine Learning** | Specifica se gli analisti aziendali possono eseguire il training, nonché convalidare e richiamare i modelli di Machine Learning direttamente in Power BI. Per altre informazioni, vedere [Machine Learning automatizzato in Power BI (anteprima](service-machine-learning-automated.md)). |
+| **Abilita parallelismo per le richieste di intelligenza artificiale** | Specifica se le richieste di intelligenza artificiale possono essere eseguite in parallelo. |
+|  |  |
 
-Per impostazione predefinita, il carico di lavoro Set di dati è abilitato e non può essere disabilitato. Questo carico di lavoro contiene un'impostazione aggiuntiva per l'_endpoint XMLA_ e un set di impostazioni relative alle prestazioni. Questa impostazione **Endpoint XMLA** specifica che le connessioni dalle applicazioni client rispettano l'appartenenza al gruppo di sicurezza impostata a livello di area di lavoro e di app. Per altre informazioni, vedere [Connettersi ai set di dati con applicazioni client e strumenti](service-premium-connect-tools.md).
+### <a name="datasets"></a>Set di dati
 
-Le impostazioni relative alle prestazioni sono descritte nella tabella seguente.
+Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non può essere disabilitato. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro.
 
-| Nome dell'impostazione | Descrizione | Usage |
-|---------------------------------|----------------------------------------|----------------------------------------|
-| **Max Intermediate Row Set Count** (Numero massimo di set di righe intermedie) | Numero massimo di righe intermedie restituite da DirectQuery. Il valore predefinito è impostato su 1000000 e l'intervallo consentito è compreso tra 100000 e 2147483647 | Controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
-| **Dimensioni massime del set di dati offline (GB)** | Dimensioni massime del set di dati offline in memoria. Si tratta delle dimensioni compresse su disco. Il valore predefinito è impostato dallo SKU e l'intervallo consentito è compreso tra 0,1 e 10 GB | Impedire agli autori di report di pubblicare un set di dati di grandi dimensioni che potrebbe compromettere la capacità. |
-| **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Definisce il numero massimo di righe restituite in una query DAX. Il valore predefinito è impostato su -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647 | Controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
-| **Limite di memoria query (%)** | Si applica solo alle misure e alle query DAX. È specificato come percentuale e limita la quantità di memoria che può essere usata dai risultati temporanei durante una query. | Controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
-| **Timeout query (secondi)** | Numero intero che definisce il timeout, in secondi, per le query. Il valore predefinito è 3600 secondi (ovvero 60 minuti). Zero (0) indica che nessuna query raggiungerà il timeout. | Mantenere un controllo migliore sulle query con esecuzione prolungata. |
+| Nome dell'impostazione | Descrizione |
+|---------------------------------|----------------------------------------|
+| **Memoria massima (%)** | Percentuale massima di memoria disponibile che i set di dati possono usare in una capacità. |
+| **Endpoint XMLA** | Specifica che le connessioni dalle applicazioni client rispettano l'appartenenza al gruppo di sicurezza impostata a livello di area di lavoro e di app. Per altre informazioni, vedere [Connettersi ai set di dati con applicazioni client e strumenti](service-premium-connect-tools.md). |
+| **Max Intermediate Row Set Count** (Numero massimo di set di righe intermedie) | Numero massimo di righe intermedie restituite da DirectQuery. Il valore predefinito è 1 milione e l'intervallo consentito è compreso tra 100000 e 2147483647. Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
+| **Dimensioni massime del set di dati offline (GB)** | Dimensioni massime del set di dati offline in memoria. Si tratta delle dimensioni compresse su disco. Il valore predefinito è impostato dallo SKU e l'intervallo consentito è compreso tra 0,1 e 10 GB. Usare questa impostazione per impedire agli autori di report di pubblicare un set di dati di grandi dimensioni che potrebbe influire negativamente sulla capacità. |
+| **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Numero massimo di righe restituite in una query DAX. Il valore predefinito è -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647. Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
+| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile che può essere usata per i risultati temporanei in una query o in una misura DAX. Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
+| **Timeout query (secondi)** | Quantità massima di tempo prima del timeout di una query. Il valore predefinito è 3600 secondi (1 ora). Il valore 0 specifica che non è previsto un timeout per le query. Usare questa impostazione per mantenere un controllo migliore sulle query con esecuzione prolungata. |
 |  |  |  |
 
 ### <a name="dataflows"></a>Flussi di dati
 
-Oltre all'impostazione **Memoria massima**, il carico di lavoro Flussi di dati ha un'impostazione aggiuntiva, **Dimensioni contenitore**. Questa impostazione consente di ottimizzare le prestazioni del carico di lavoro Flussi di dati per l'elaborazione di flussi di lavoro più complessi e a elevato utilizzo di calcoli.
+Il carico di lavoro Flussi di dati consente di usare la preparazione dei dati self-service con flussi di dati per inserire, trasformare, integrare e arricchire i dati. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro.
 
-Quando si aggiorna un flusso di dati, il carico di lavoro Flussi di dati genera un contenitore per ogni entità nel flusso di dati. Ogni contenitore può arrivare a usare una quantità di memoria pari al volume specificato nell'impostazione Dimensioni contenitore. L'impostazione predefinita per tutti gli SKU è **700 MB**. Potrebbe essere necessario modificare questa impostazione se:
+| Nome dell'impostazione | Descrizione |
+|---------------------------------|----------------------------------------|
+| **Memoria massima (%)** | Percentuale massima di memoria disponibile che i flussi di dati possono usare in una capacità. |
+| **Motore di calcolo dei flussi di dati avanzato (anteprima)** | Abilitare questa opzione per ottenere calcoli fino a 20 volte più veloci per le entità calcolate quando si utilizzano volumi di dati su larga scala. **Per attivare il nuovo motore, è necessario riavviare la capacità.** Per altre informazioni, vedere [Motore di calcolo dei flussi di dati avanzato](#enhanced-dataflows-compute-engine). |
+| **Dimensioni del contenitore** | Dimensioni massime del contenitore usate dai flussi di dati per ogni entità nel flusso di dati. Il valore predefinito è 700 MB. Per altre informazioni, vedere [Dimensioni del contenitore](#container-size). |
+|  |  |
+
+#### <a name="enhanced-dataflows-compute-engine"></a>Motore di calcolo dei flussi di dati avanzato
+
+Per trarre vantaggio dal nuovo motore di calcolo, suddividere l'inserimento di dati in flussi di dati distinti e inserire la logica di trasformazione in entità calcolate in flussi di dati diversi. Questo approccio è consigliato perché il motore di calcolo opera sui flussi di dati che fanno riferimento a un flusso di dati esistente. Non funziona sui flussi di dati di inserimento. Seguendo queste linee guida si garantisce che il nuovo motore di calcolo gestisca le fasi di trasformazione, ad esempio join e unioni, per ottenere prestazioni ottimali.
+
+#### <a name="container-size"></a>Dimensioni del contenitore
+
+Quando si aggiorna un flusso di dati, il carico di lavoro Flussi di dati genera un contenitore per ogni entità nel flusso di dati. Ogni contenitore può arrivare a usare una quantità di memoria pari al volume specificato nell'impostazione **Dimensioni contenitore. L'impostazione predefinita per tutti gli SKU è 700 MB. Potrebbe essere necessario modificare questa impostazione se:
 
 - L'aggiornamento dei flussi di dati richiede troppo tempo oppure l'aggiornamento dei flussi di dati non riesce a causa di un timeout.
 - Le entità dei flussi di flussi includono passaggi di calcolo, ad esempio un join.  
 
-È consigliabile usare l'app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md) per analizzare le prestazioni del carico di lavoro Flussi di dati. 
+È consigliabile usare l'app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md) per analizzare le prestazioni del carico di lavoro Flussi di dati.
 
 In alcuni casi, l'aumento delle dimensioni del contenitore potrebbe non migliorare le prestazioni. Se ad esempio il flusso di dati recupera i dati solo da un'origine senza eseguire calcoli significativi, la modifica delle dimensioni del contenitore potrebbe non essere utile. L'aumento delle dimensioni del contenitore può essere utile se consente al carico di lavoro Flussi di dati di allocare ulteriore memoria per le operazioni di aggiornamento delle entità. Con più memoria allocata, è possibile ridurre il tempo necessario per aggiornare le entità a elevato utilizzo di calcoli.
 
 Il valore di Dimensioni contenitore non può superare la quantità massima di memoria per il carico di lavoro Flussi di dati. Una capacità P1, ad esempio, ha 25 GB di memoria. Se la quantità massima di memoria (%) del carico di lavoro Flussi di dati è impostata sul 20%, il valore di Dimensioni del contenitore (MB) non può essere superiore a 5000. In tutti i casi, le dimensioni del contenitore non possono superare la quantità di memoria massima, anche se si imposta un valore superiore.
 
-### <a name="paginated-reports-preview"></a>Report impaginati (anteprima)
+### <a name="paginated-reports"></a>Report impaginati
+
+Il carico di lavoro Report impaginati consente di eseguire report impaginati, in base al formato di SQL Server Reporting Services standard, nel servizio Power BI. Usare l'impostazione seguente per controllare il comportamento del carico di lavoro.
+
+| Nome dell'impostazione | Descrizione |
+|---------------------------------|----------------------------------------|
+| **Memoria massima (%)** | Percentuale massima di memoria disponibile che i report impaginati possono usare in una capacità. |
+|  |  |
 
 I report impaginati consentono l'esecuzione di codice personalizzato durante il rendering di un report, ad esempio quando si modifica in modo dinamico il colore del testo in base al contenuto, il che può richiedere memoria aggiuntiva. Power BI Premium esegue i report impaginati in uno spazio contenuto all'interno della capacità. Viene usata la memoria massima specificata, *indipendentemente dal fatto che il carico di lavoro sia attivo o meno*. Se si modifica l'impostazione predefinita di Memoria massima, assicurarsi di impostarla su un valore sufficientemente basso da non influire negativamente sugli altri carichi di lavoro.
 

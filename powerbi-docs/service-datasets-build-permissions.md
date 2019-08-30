@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530522"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654906"
 ---
 # <a name="share-a-dataset-preview"></a>Condividere un set di dati (anteprima)
 
@@ -42,7 +42,7 @@ I *modelli di dati* creati in Power BI Desktop possono essere condivisi come *se
 
 ## <a name="build-permissions-for-shared-datasets"></a>Autorizzazioni di compilazione per set di dati condivisi
 
-Il tipo di autorizzazione di compilazione è rilevante solo per i set di dati. Con questo tipo di autorizzazione, gli utenti possono compilare nuovo contenuto in un set di dati, ad esempio report, dashboard, riquadri aggiunti da Domande e risposte e Insights Discovery. Possono anche compilare nuovo contenuto nel set di dati esterno a Power BI, ad esempio in fogli di Excel, usando Analizza in Excel, XMLA ed Esporta.
+Il tipo di autorizzazione di compilazione è rilevante solo per i set di dati. Con questo tipo di autorizzazione, gli utenti possono compilare nuovo contenuto in un set di dati, ad esempio report, dashboard, riquadri aggiunti da Domande e risposte e Insights Discovery. Possono anche compilare nuovo contenuto nel set di dati esterno a Power BI, ad esempio in fogli di Excel, usando Analizza in Excel, XMLA e l'esportazione dei dati sottostanti.
 
 Gli utenti ottengono l'autorizzazione di compilazione in modi diversi:
 
@@ -72,7 +72,7 @@ Con questa autorizzazione di compilazione più granulare, è possibile scegliere
 
 Se il set di dati viene usato da un report all'esterno dell'area di lavoro del set di dati, non è possibile eliminare tale set di dati. Sarà visualizzato un messaggio di errore.
 
-Le autorizzazioni di compilazione possono essere rimosse. In questo caso, gli utenti ai quali vengono revocate le autorizzazioni possono comunque visualizzare il report, ma non lo possono più modificare.
+Le autorizzazioni di compilazione possono essere rimosse. In questo caso, gli utenti ai quali vengono revocate le autorizzazioni possono comunque visualizzare il report, ma non lo possono più modificare oppure non possono esportare i dati sottostanti. Gli utenti con solo autorizzazioni di lettura possono comunque esportare i dati riepilogati. 
 
 ## <a name="track-your-dataset-usage"></a>Tenere traccia dell'utilizzo di set di dati
 

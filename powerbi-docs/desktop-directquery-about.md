@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 591a837bb085ba901316e672112b568923995718
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590551"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654763"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso di DirectQuery in Power BI
 Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità:
@@ -140,11 +140,8 @@ Quando si usa **DirectQuery** è comunque possibile apportare molti di questi mi
 * **Limitazioni nelle colonne calcolate:** le colonne calcolate possono essere solo intrariga, ovvero possono fare riferimento solo ai valori delle altre colonne della stessa tabella, senza usare funzioni di aggregazione. Le funzioni scalari DAX, ad esempio LEFT(), consentite saranno limitate a quelle che possono essere semplicemente inserite nell'origine sottostante, quindi varieranno a seconda delle funzionalità dell'origine. Le funzioni non supportate non verranno elencate nel completamento automatico quando si crea la funzione DAX per una colonna calcolata e produrranno un errore se usate.
 * **Nessun supporto per le funzioni DAX padre-figlio:** nel modello DirectQuery non è possibile usare la famiglia di funzioni DAX PATH() che in genere gestiscono strutture padre-figlio, ad esempio piani dei conti o gerarchie dei dipendenti.
 * **Le tabelle calcolate non sono supportate:** la possibilità di definire una tabella calcolata usando un'espressione DAX non è supportata nella modalità DirectQuery.
-* **Il filtro delle relazioni è limitato a una sola direzione:** quando si usa DirectQuery, non è possibile impostare la direzione del filtro incrociato per una relazione su "Entrambi". Con le tre tabelle sottostanti, ad esempio, non sarebbe possibile compilare un oggetto visivo che visualizzi ogni Customer[Gender] e il numero di Product[Category] acquistato da ognuno. L'uso di questo filtro bidirezionale viene descritto [in questo white paper dettagliato](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) che contiene esempi relativi a SQL Server Analysis Services, ma i punti fondamentali sono ugualmente applicabili a Power BI.
-  
-  ![](media/desktop-directquery-about/directquery-about_01.png)
-  
-  Anche in questo caso, il limite viene imposto a causa delle implicazioni sulle prestazioni. Un'applicazione particolarmente importante si ha quando si definisce la sicurezza a livello di riga nell'ambito del report, perché è comune adottare una relazione molti-a-molti tra gli utenti e le entità cui sono autorizzati ad accedere e l'uso del filtro bidirezionale è necessario a tale scopo. I filtri bidirezionali devono essere tuttavia usati con cautela per i modelli DirectQuery, con particolare attenzione a qualsiasi impatto negativo sulle prestazioni.  
+* **Filtro delle relazioni:** l'uso del filtro bidirezionale viene descritto [in questo white paper dettagliato](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) che contiene esempi relativi a SQL Server Analysis Services, ma i punti fondamentali sono ugualmente applicabili a Power BI.
+
 * **Nessun clustering:** con DirectQuery non è possibile usare la funzionalità di clustering per trovare automaticamente i gruppi.
 
 ### <a name="reporting-limitations"></a>Limitazioni della creazione di report

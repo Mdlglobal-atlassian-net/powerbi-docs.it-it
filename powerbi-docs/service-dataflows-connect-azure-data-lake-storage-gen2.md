@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dee2ff4376242883d30f606e687184c0dde43ffe
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523475"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621243"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
 
@@ -177,6 +177,7 @@ Questa funzionalità è in anteprima e il relativo comportamento potrebbe cambia
 * Solo i proprietari di un flusso di dati archiviato in Azure Data Lake Storage Gen2 possono accedere ai dati per impostazione predefinita. Per autorizzare altri utenti per i flussi di dati archiviati in Azure, è necessario aggiungerli alla cartella CDM del flusso di dati 
 * La creazione di flussi di dati con entità collegate è possibile solo quando sono archiviate nello stesso account di archiviazione
 * Le origini dati locali, nelle capacità condivise di Power BI, non sono supportate nei flussi di dati archiviati nel data lake dell'organizzazione
+* Gli snapshot non vengono eliminati automaticamente in Azure Data Lake Storage Gen2. Se si vuole liberare spazio, è possibile creare una funzione di Azure per pulire periodicamente gli snapshot obsoleti.
 
 Esistono anche alcuni problemi noti, come descritto in questa sezione.
 

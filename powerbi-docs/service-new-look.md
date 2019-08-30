@@ -1,5 +1,5 @@
 ---
-title: Esplorare il nuovo aspetto del servizio Power BI
+title: Nuovo aspetto del servizio Power BI
 description: Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto. Questo articolo descrive come spostarsi tra i report con il nuovo aspetto.
 author: maggiesMSFT
 manager: kfile
@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: aa7de324e77b8f2b1c58e558c0814df97d997631
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471308"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654935"
 ---
-# <a name="navigate-the-new-look-of-the-power-bi-service"></a>Esplorare il nuovo aspetto del servizio Power BI
+# <a name="the-new-look-of-the-power-bi-service"></a>Nuovo aspetto del servizio Power BI
 
-Il servizio Power BI ha un nuovo aspetto. La visualizzazione dei report è ora più semplice. Il nuovo aspetto è un'esperienza moderna più semplice che si basa sulla familiarità con altri prodotti Microsoft. Nel servizio Power BI il contenuto del report viene messo in evidenza grazie al passaggio a una combinazione di colori più chiara e all'aggiornamento delle icone. Ecco una panoramica delle modifiche apportate con il nuovo aspetto. Per informazioni dettagliate, vedere le sezioni numerate:
+Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto che rende più semplice la visualizzazione e l'interazione con i report. Il nuovo aspetto è un'esperienza moderna più semplice che si basa sulla familiarità con altri prodotti Microsoft. Nel servizio Power BI il contenuto del report viene messo in evidenza grazie al passaggio a una combinazione di colori più chiara e all'aggiornamento delle icone. Ecco una panoramica delle modifiche apportate con il nuovo aspetto. Per informazioni dettagliate, vedere le sezioni numerate:
 
 ![Panoramica delle modifiche apportate con il nuovo aspetto](media/service-new-look/power-bi-new-look-changes.png)
 
@@ -35,7 +35,7 @@ Qualsiasi utente del servizio Power BI può acconsentire esplicitamente al nuovo
 
 ![Consenso esplicito al nuovo aspetto](media/service-new-look/power-bi-new-look-off.png)
 
-Se è necessario tornare all'aspetto precedente, selezionare il menu con i puntini di sospensione nell'angolo in alto a destra.
+Se è necessario tornare all'aspetto precedente, è sufficiente scorrere per tornare a **Disattiva nuovo aspetto** ![Attiva nuovo aspetto](media/service-new-look/power-bi-new-look-toggle-on.png). Se questo controllo non è visualizzato, selezionare il menu con i puntini di sospensione nell'angolo in alto a destra.
 
 ![Rifiuto esplicito del nuovo aspetto](media/service-new-look/power-bi-new-look-on.png)
 

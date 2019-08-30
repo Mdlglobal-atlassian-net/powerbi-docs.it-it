@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757732"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655144"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -188,7 +188,7 @@ Nel portale di amministrazione è anche possibile controllare gli utenti autoriz
 
 ### <a name="share-content-with-external-users"></a>Condividi contenuti con utenti esterni
 
-Gli utenti dell'organizzazione possono condividere i dashboard con utenti esterni all'organizzazione. [Altre informazioni](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+Gli utenti dell'organizzazione possono condividere i dashboard con utenti esterni all'organizzazione. Altre informazioni sulla [condivisione esterna](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Impostazione per gli utenti esterni](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -290,7 +290,7 @@ Gli utenti dell'organizzazione possono usare Excel per visualizzare set di dati 
 > [!NOTE]
 > Se si disabilita l'impostazione **Esporta dati**, gli utenti non possono usare neanche la funzionalità **Analizza in Excel**.
 
-### <a name="use-arcgis-maps-for-power-bi"></a>Usa Mappe ArcGIS per Power BI
+### <a name="use-arcgis-maps-for-power-bi"></a>Usa ArcGIS Maps for Power BI
 
 Gli utenti dell'organizzazione possono usare la visualizzazione ArcGIS Maps for Power BI offerta da Esri. [Altre informazioni](visuals/power-bi-visualization-arcgis.md)
 
@@ -371,9 +371,9 @@ Questa impostazione deve essere abilitata per la registrazione delle voci del lo
 
 Gli utenti dell'organizzazione possono visualizzare le metriche di utilizzo dei dashboard e dei report creati. [Altre informazioni](service-usage-metrics.md)
 
-### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Dati per utente nelle metriche di utilizzo per i creatori di contenuti
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Dati per utente nella metrica di utilizzo per i creatori di contenuti
 
-Le metriche di utilizzo per i creatori di contenuti esporranno i nomi visualizzati e gli indirizzi di posta elettronica degli utenti che accedono ai contenuti. [Altre informazioni](service-usage-metrics.md)
+La metrica di utilizzo per i creatori di contenuti esporrà i nomi visualizzati e gli indirizzi di posta elettronica degli utenti che accedono ai contenuti. [Altre informazioni](service-usage-metrics.md)
 
 Per impostazione predefinita, i dati per utente sono abilitati nelle metriche di utilizzo e le informazioni sull'account del creatore di contenuto sono incluse nel report delle metriche. Se non si desidera raccogliere queste informazioni per tutti gli utenti, è possibile disabilitare la funzionalità per gruppi di sicurezza specificati o per un'intera organizzazione. Le informazioni sugli account degli utenti esclusi verranno quindi visualizzate nel report come *Senza nome*.
 
@@ -401,7 +401,7 @@ Le app Web registrate in Azure Active Directory (Azure AD) useranno un'entità s
 
 ## <a name="dataflow-settings"></a>Impostazioni del flusso di dati
 
-### <a name="create-and-use-dataflows"></a>Creare e usare flussi di dati
+### <a name="create-and-use-dataflows"></a>Crea e usa flussi di dati
 
 Gli utenti dell'organizzazione possono creare e usare flussi di dati. Per una panoramica dei flussi di dati, vedere [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md). Per abilitare i flussi di dati in una capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 

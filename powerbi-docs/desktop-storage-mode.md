@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364370"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654747"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modalità di archiviazione in Power BI Desktop
 
@@ -62,6 +62,10 @@ Esistono tre valori per la modalità di archiviazione:
 * **Doppia**: le tabelle con questa impostazione possono essere o meno memorizzate nella cache, a seconda del contesto della query inviata al set di dati di Power BI. In alcuni casi, le query possono essere soddisfatte con i dati memorizzati nella cache. In altri casi, per soddisfare le query occorre eseguire una query su richiesta sull'origine dati.
 
 L'impostazione di una tabella su **Importa** è un'operazione *irreversibile*. Non è possibile modificare questa proprietà impostandola su DirectQuery o Doppia.
+
+> [!NOTE]
+> È possibile usare la modalità di archiviazione *Doppia* in Power BI Desktop e nel servizio Power BI.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Vincoli delle impostazioni DirectQuery e Doppia per le tabelle
 

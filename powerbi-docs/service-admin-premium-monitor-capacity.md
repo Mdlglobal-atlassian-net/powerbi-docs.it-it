@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362745"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008126"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorare le capacità Premium con l'app
 
 Il monitoraggio delle capacità è essenziale per prendere decisioni informate sull'uso ottimale delle risorse della capacità Premium. È possibile monitorare le capacità nel portale di amministrazione o tramite l'app **Power BI Premium Capacity Metrics**. Questo articolo descrive l'uso dell'app Premium Capacity Metrics. L'app fornisce le informazioni più dettagliate sulle prestazioni delle capacità. Per informazioni più generiche sulle metriche d'uso medie negli ultimi sette giorni, è possibile usare il portale di amministrazione. Per altre informazioni sul monitoraggio nel portale, vedere [Monitorare le capacità Premium nel portale di amministrazione](service-admin-premium-monitor-portal.md).
 
-L'app viene aggiornata periodicamente con nuove caratteristiche e funzionalità. Verificare di eseguire la versione più recente. Se è già installata una versione precedente dell'app, è consigliabile eliminarla dalle app e premere CTRL+F5 per aggiornare. 
+L'app viene aggiornata periodicamente con nuove caratteristiche e funzionalità. Verificare di eseguire la versione più recente. Se è già installata una versione precedente dell'app, è consigliabile eliminarla dalle app e premere CTRL+F5 per aggiornare.
 
 ## <a name="install-the-app"></a>Installare l'app
 
 È possibile passare direttamente all'[app Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) oppure installarla come le altre app in Power BI.
 
+1. In Power BI fare clic su **App**.
 
-1. In Power BI fare clic su **App**.   
     ![Passare ad App](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. Sul lato destro fare clic su **Get apps** (Ottieni app).
@@ -59,11 +59,11 @@ Per visualizzare un dashboard che riepiloga le metriche principali per le capaci
 
 Il dashboard include le metriche seguenti:
 
-#### <a name="top"></a>Top
+#### <a name="top"></a>All'inizio
 
 | Metrica | Descrizione |
 | --- | --- |
-| Version | Versione dell'app. | 
+| Versione | Versione dell'app. | 
 | Capacities | Numero di capacità per cui si è amministratori. | 
 | Aree di lavoro | Numero di aree di lavoro nelle capacità che segnalano metriche.|
 |||
@@ -245,7 +245,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 | **Sezione del report** | **Metriche** |
 | --- | --- |
 | CPU consumption |  Utilizzo per carico di lavoro come percentuale della capacità totale della CPU. Visualizzazione su base oraria per i sette giorni precedenti. |
-| Memory consumption |  Utilizzo di memoria in GB per carico di lavoro (linee a tinta unita) e limiti del carico di lavoro sovrapposti (linea tratteggiata). Visualizzazione su base oraria per i sette giorni precedenti. |
+| Memory consumption |  Utilizzo massimo della memoria nell'ora, in GB per carico di lavoro (linee a tinta unita) e limiti del carico di lavoro sovrapposti (linea tratteggiata). Visualizzazione su base oraria per i sette giorni precedenti. |
 |  |  |
 
 ### <a name="ids-and-info"></a>IDs and Info
@@ -257,7 +257,7 @@ La scheda **IDs and Info** (ID e informazioni) contiene aree per **Capacities** 
 | Sezione del report | Metrica |
 | --- | --- |
 | SKU and Workload Information | Impostazioni dello SKU e del carico di lavoro per la capacità. |
-| Administrators | Nomi degli amministratori per la capacità. |
+| Amministratori | Nomi degli amministratori per la capacità. |
 |||
 
 #### <a name="workspaces-area"></a>Area Workspaces

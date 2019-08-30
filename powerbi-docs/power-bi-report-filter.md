@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/18/2019
+ms.date: 08/19/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 148f4881f78b5bba9b6936f5688ba6aaea3a0145
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68346454"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654486"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Nuova esperienza di filtro nei report di Power BI
 
@@ -48,6 +48,10 @@ La nuova esperienza di filtro è attivata per impostazione predefinita per i nuo
 3. In **Esperienza di filtro** selezionare **Abilita il riquadro del filtro aggiornato e visualizza i filtri nell'intestazione dell'oggetto visivo per questo report**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Attivare i nuovi filtri per un report esistente nel servizio
+
+Se è stato attivato il **nuovo aspetto** nel servizio Power BI ![Attiva nuovo aspetto](media/power-bi-report-filter/power-bi-new-look-on.png), la nuova esperienza di filtro viene attivata automaticamente. Vedere altre informazioni sul [nuovo aspetto nel servizio Power BI.](service-new-look.md)
+
+Se non è stato attivato il nuovo aspetto, è comunque possibile visualizzare la nuova esperienza di filtro seguendo questa procedura.
 
 1. Nel servizio Power BI selezionare la scheda **Report** nell'elenco del contenuto per un'area di lavoro.
 2. Individuare il report che si vuole abilitare e selezionare l'icona **Impostazioni** ![icona Impostazioni report](media/power-bi-report-filter/power-bi-settings-icon.png) per il report.
@@ -114,22 +118,20 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 - Bordo: attivato o disattivato
 - Colore bordo
 - Carattere, colore e dimensioni del testo
-- Colore delle caselle di input
+- Colore caselle di input
 
 ### <a name="format-the-filters-pane-and-cards"></a>Formattare il riquadro Filtri e le schede
 
 1. Nel report fare clic sul report stesso o sullo *sfondo*, quindi nel riquadro **Visualizzazioni** selezionare **Formato**. 
     Vengono visualizzate le opzioni per formattare la pagina del report, lo sfondo e anche il riquadro Filtri e le schede filtro.
 
-    ![Selezionare l'icona Formato](media/power-bi-report-filter/power-bi-filter-format.png)    
-
 1. Espandere **Riquadro filtro** per impostare il colore per lo sfondo, l'icona e il bordo sinistro in modo che rispecchino la pagina del report.
 
-    ![Espandere Riquadro filtro](media/power-bi-report-filter/power-bi-filter-format-pane-font.png)
+    ![Espandere Riquadro filtro](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
 1. Espandere **Schede filtro** per impostare il colore e il bordo **disponibili** e **applicati**. Se le schede disponibili e applicate hanno colori diversi, è facile capire quali filtri sono applicati. 
   
-    ![Espandere Schede filtro](media/power-bi-report-filter/power-bi-filter-format-card-font.png)
+    ![Espandere Schede filtro](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
 ## <a name="theming-for-filter-pane"></a>Applicazione di un tema per il riquadro di filtro
 È ora possibile modificare le impostazioni predefinite del riquadro di filtro con il file del tema. Ecco un frammento di codice relativo a un tema di esempio per provare:

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665494"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654614"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -31,7 +31,7 @@ I dashboard rappresentano il portale per accedere al ciclo di vita e ai processi
 Per visualizzare dashboard e report nel dispositivo mobile, è necessario creare tali elementi o accedervi da un Web browser. 
 
 1. Accedere al servizio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [iscriversi per creare un account](../../service-self-service-signup-for-power-bi.md).
-2. [Creare dashboard e report di Power BI personalizzati](../../service-get-started.md) o connettersi ad [app Power BI](../../service-connect-to-services.md) esistenti per ottenere una vasta gamma di servizi, ad esempio [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) e [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
+2. [Creare dashboard e report Power BI personalizzati](../../service-get-started.md) o connettersi ad [app Power BI](../../service-connect-to-services.md) esistenti per ottenere una vasta gamma di servizi, ad esempio [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md).
 
 Ecco un dashboard di Power BI nel servizio Power BI:
 

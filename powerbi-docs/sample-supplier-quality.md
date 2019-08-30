@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391271"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621326"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della qualità dei fornitori per Power BI: Presentazione
 
@@ -144,7 +144,7 @@ Il tipo di materiale che consente una gestione migliore è quello con il tempo d
     I difetti delle materie prime erano molto più numerosi nel 2014 rispetto al 2013.  
 
     ![Domanda di Domande e risposte: show material types, year, and total defect qty](media/sample-supplier-quality/supplier12.png)  
-6. Cambiare quindi la domanda in: *show material types, year, and total **downtime minutes***.  
+6. Cambiare quindi la domanda in: _show material types, year, and total **downtime minutes**_ .  
 
    ![Domanda di Domande e risposte: show material types, year, and total downtime minutes](media/sample-supplier-quality/supplier13.png)
 
