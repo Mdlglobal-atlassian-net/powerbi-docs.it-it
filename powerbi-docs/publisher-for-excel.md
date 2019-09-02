@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514344"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200979"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher per Excel
 Con **Microsoft Power BI Publisher per Excel** è possibile acquisire snapshot delle informazioni più importanti in Excel, come tabelle pivot, grafici e intervalli, per poi aggiungerli al dashboard in Power BI.
@@ -32,7 +32,7 @@ Quando si aggiunge un elemento da Excel, viene aggiunto un nuovo riquadro a un d
 ## <a name="download-and-install"></a>Download e installazione
 Power BI Publisher per Excel è un componente aggiuntivo che si può scaricare e installare nelle versioni desktop di Microsoft Excel 2007 e versioni successive.
 
-[Scarica Power BI Publisher per Excel](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Scarica Power BI Publisher per Excel](https://www.microsoft.com/download/details.aspx?id=50729)
 
 Al termine dell'installazione si noterà una nuova barra multifunzione **Power BI** in Excel, in cui è possibile accedere a Power BI (o disconnettersi), aggiungere elementi ai dashboard e gestire gli elementi già aggiunti.
 
