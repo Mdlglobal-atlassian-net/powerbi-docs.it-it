@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 80eb366015de3822b9c8c455f1ee386a34e1f457
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: 0474bc4182f77e7084ca8cb78062ba0f2063e7ae
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561014"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160215"
 ---
 # <a name="analyze-azure-cost-and-usage-data-in-power-bi-desktop"></a>Analizzare i dati sui costi e i dati di utilizzo di Azure in Power BI Desktop
 
@@ -27,6 +27,10 @@ Power BI attualmente supporta la connessione agli account di fatturazione contra
 * Gli utenti con **Contratto Enterprise** devono connettersi usando il **connettore Informazioni dettagliate sul consumo di Azure** (di seguito).
 
 * Gli utenti con **contratto del cliente** devono connettersi con il [**connettore Gestione costi di Azure**](#connect-with-azure-cost-management).
+
+> [!NOTE]
+> I clienti Enterprise Agreement che usano il connettore di Gestione costi di Azure e non vedono l'*ID profilo di fatturazione* nel pannello Gestione costi non sono inclusi in Modern Commerce Platform. In questi casi, usare il connettore Informazioni dettagliate sul consumo di Azure che richiede il numero di registrazione EA anziché l'*ID profilo di fatturazione*.
+
 
 ## <a name="connect-with-azure-consumption-insights"></a>Connettersi con Informazioni dettagliate sul consumo di Azure
 

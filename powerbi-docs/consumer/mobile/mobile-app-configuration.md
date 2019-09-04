@@ -1,7 +1,7 @@
 ---
 title: Impostazioni di configurazione dell'app Power BI per iOS
 description: Come personalizzare il comportamento di Power BI per iOS usando lo strumento MDM
-author: mshenhav
+author: paulinbar
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: a0883927f3a0a09bbe4d1ed618b7d5f708807464
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: bc9c6dd8cd892ab0304cc5a99a3bb780486f32f0
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66817008"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160165"
 ---
 # <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI per iOS usando lo strumento di gestione dei dispositivi mobili (MDM)
 
@@ -34,7 +34,7 @@ L'app Power BI per iOS consente agli amministratori di eseguire il push in modal
 | com.microsoft.powerbi.mobile.ServerURL | Stringa | URL del server di report.<br><br>Deve iniziare con http/https.|
 | com.microsoft.powerbi.mobile.ServerUsername | Stringa | [facoltativo]<br><br>Nome utente da usare per connettere il server.<br><br>Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.|
 | com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [facoltativo]<br><br>Il valore predefinito è True. Se impostato su True, esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione.<br><br>Impostandolo su False vengono aggiunti i valori di cui è stato eseguito il push, lasciando invariate le impostazioni esistenti. Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [facoltativo]<br><br>Il valore predefinito è True. Se impostato su True, esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione.<br><br>Impostandolo su False vengono aggiunti i valori inviati lasciando le impostazioni esistenti. Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
 ## <a name="data-protection-setting"></a>Impostazione di protezione dei dati
 

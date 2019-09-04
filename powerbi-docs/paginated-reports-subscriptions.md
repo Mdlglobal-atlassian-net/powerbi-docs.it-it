@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/15/2019
-ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.date: 08/29/2019
+ms.openlocfilehash: 4b0ead5697dc94497609ac925a0a46142584f0ba
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307074"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185602"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI 
 
 È ora possibile configurare la sottoscrizione per se stessi e altri utenti di report impaginati nel servizio Power BI tramite un messaggio di posta elettronica. Il processo è generalmente identico a quello previsto per la [sottoscrizione di report e dashboard nel servizio Power BI](service-report-subscribe.md). Questo articolo illustra nel dettaglio differenze e considerazioni. 
 
-Durante la configurazione delle sottoscrizioni, è possibile scegliere la frequenza di ricezione dei messaggi di posta elettronica: giornaliera, settimanale oppure oraria. Se si sceglie la frequenza giornaliera o settimanale, è possibile scegliere gli orari in cui eseguire la sottoscrizione. In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni report. 
+Durante la configurazione delle sottoscrizioni, è possibile scegliere la frequenza di ricezione dei messaggi di posta elettronica: giornaliera, settimanale, mensile oppure oraria. È anche possibile scegliere l'ora in cui si vuole eseguire la sottoscrizione. In tutto, è possibile impostare fino a 24 sottoscrizioni diverse per ogni report. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Considerazioni per le sottoscrizioni di report impaginati 
 

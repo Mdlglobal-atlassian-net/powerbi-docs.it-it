@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514752"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160231"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Connettersi ai modelli multidimensionali SSAS in Power BI Desktop
 Con Power BI Desktop è possibile accedere ai **modelli multidimensionali di SSAS**, comunemente noti come **MD SSAS**.
@@ -78,7 +78,8 @@ I modelli multidimensionali supportano la sicurezza a livello di dimensione e di
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Esistono alcune limitazioni all'uso di **MD SSAS**:
 
-* Per il corretto funzionamento del connettore MD SSAS di Power BI Desktop, sui server deve essere in esecuzione SQL Server 2012 SP1 CU4 o versioni successive di Analysis Service
+* Per il corretto funzionamento del connettore MD SSAS di Power BI Desktop, nei server devono essere in esecuzione SQL Server 2012 SP1 CU4 o versioni successive di Analysis Services.
+* Solo le edizioni Enterprise e BI di SQL Server 2012 e SQL Server 2014 supportano le connessioni dinamiche. Per la versione standard di SQL Server, è necessario SQL Server 2016 o versione successiva per le connessioni dinamiche.
 * *Azioni* e *set denominati* non sono esposti in Power BI. È comunque possibile connettersi a cubi che contengono anche *azioni* o *set denominati* e creare oggetti visivi e report.
 * Può verificarsi un problema per cui Power BI visualizza metadati per un modello SSAS, ma non è possibile recuperare dati dal modello. Questo problema può verificarsi quando nel sistema è installata la versione a 32 bit del provider MSOLAP e non è disponibile la versione a 64 bit. Il problema viene in genere risolto con l'installazione della versione a 64 bit.
 * Non è possibile creare misure a livello di report quando si crea un report con connessione dinamica a un modello multidimensionale di SSAS. Le uniche misure disponibili sono quelle definite nel modello MD.

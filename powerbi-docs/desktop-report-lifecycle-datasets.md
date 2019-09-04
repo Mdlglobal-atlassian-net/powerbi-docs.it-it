@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cccbfb6bbe43e70ebcea94322923f7600d58aca8
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: 5477d7772681f0dd5ac4426335521f6ab1a7844e
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590496"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160334"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. In questo modo si può creare il modello di dati ideale in Power BI Desktop e pubblicarlo nel servizio Power BI. Partendo dallo stesso modello di dati comune, tutti possono così creare più report diversi (in file con estensione pbix separati) e salvarli in aree di lavoro diverse. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -108,4 +108,5 @@ Quando si usa la **Connessione dinamica al servizio Power BI** occorre tenere pr
 * Per i pacchetti di contenuto, è necessario creare una copia di un pacchetto di contenuto prima di usarlo come base per la condivisione di un report PBIX e un set di dati con il **servizio Power BI**.
 * Per i pacchetti di contenuto da *Organizzazione*, una volta copiati, non è possibile sostituire il report creato nel servizio e/o un report creato come parte della copia di un pacchetto di contenuto con una connessione dinamica. Se si prova a farlo, verrà visualizzato un avviso che richiede di rinominare il file e pubblicarlo. In questo caso, è possibile sostituire solo i report pubblicati con connessione dinamica.
 * Se viene eliminato un set di dati condiviso nel **servizio Power BI**, nessuno potrà più accedere a tale set di dati da **Power BI Desktop**.
+* I report che condividono un set di dati nel servizio Power BI non supportano le distribuzioni automatiche con l'API REST di Power BI.
 

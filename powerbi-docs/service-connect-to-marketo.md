@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172810"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200988"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Connettersi a Marketo con Power BI
 Il pacchetto di contenuto Marketo per Power BI consente di ottenere informazioni dettagliate sull'account Marketo, con dati relativi ai lead e alle rispettive attività. La creazione di questa connessione consente di recuperare i dati e fornisce automaticamente un dashboard e i report correlati basati su tali dati.
+
+>[!IMPORTANT]
+>Questo pacchetto di contenuto verrà deprecato il 4 settembre 2019. Se questo pacchetto di contenuto è stato installato prima di tale data, continuerà a funzionare, ma non sarà possibile installarne uno nuovo. Le app modello sono la sostituzione per i pacchetti di contenuto dei servizi.
 
 Connettersi al [pacchetto di contenuto Marketo](https://app.powerbi.com/getdata/services/marketo) per Power BI.
 
@@ -79,10 +82,10 @@ La quantità di chiamate API che Power BI invia a Marketo dipende dalla quantit�
 | Tipo di dati | Numero di righe | Chiamate API |
 | --- | --- | --- |
 | Informazioni sui lead |15.000 |50 |
-| Attività di posta elettronica |150.000 |1.000 |
+| Attività di posta elettronica |150.000 |1\.000 |
 | Attività del programma |15.000 |100 |
-| Attività Web |150.000 |1.000 |
-| Modifiche al programma |7.500 |50 |
+| Attività Web |150.000 |1\.000 |
+| Modifiche al programma |7\.500 |50 |
 | **Totale chiamate API** | |**2,200** |
 
 ## <a name="next-steps"></a>Passaggi successivi

@@ -1,29 +1,29 @@
 ---
 title: Connettersi a Office365Mon con Power BI
 description: Office365Mon per Power BI
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170225"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159895"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Connettersi a Office365Mon con Power BI
-Con Power BI e il pacchetto di contenuto Office365Mon è facile analizzare i dati sulle prestazioni, sull'integrità e sulle interruzioni di servizio di Office 365. Power BI recupera i dati, inclusi i probe di integrità e interruzione del servizio, quindi crea il dashboard e i report predefiniti in base a tali dati.
+Con Power BI e l'app modello Office365Mon è facile analizzare i dati sulle prestazioni, sull'integrità e sulle interruzioni di servizio di Office 365. Power BI recupera i dati, inclusi i probe di integrità e interruzione del servizio, quindi crea il dashboard e i report predefiniti in base a tali dati.
 
-Connettersi al [Pacchetto di contenuto Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) per Power BI.
+Connettersi all'[app modello Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) per Power BI.
 
 >[!NOTE]
->È necessario un account di amministratore Office365Mon per connettersi e caricare il pacchetto di contenuto di Power BI.
+>È necessario un account amministratore di Office365Mon per connettersi e caricare l'app modello di Power BI.
 
 ## <a name="how-to-connect"></a>Come connettersi
 1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.

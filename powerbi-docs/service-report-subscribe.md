@@ -8,19 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 92dd8d7221c9c60fa4ffcd3e3ceefeda319d8670
-ms.sourcegitcommit: 90ad0572a92f640684cdc32c9a6478d299de9dc0
+ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "68940922"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185726"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
-È possibile effettuare una sottoscrizione per se stessi e i propri colleghi per le pagine di report, i dashboard e i report impaginati più importanti. Power BI invierà uno snapshot alla Posta in arrivo. Indicare a Power BI con che frequenza si vuole ricevere i messaggi di posta elettronica: giornaliera, settimanale o una volta al giorno dopo l'aggiornamento iniziale dei dati.  Se si sceglie la frequenza giornaliera o settimanale, è possibile scegliere gli orari in cui eseguire la sottoscrizione.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni pagina di report e dashboard.
+È possibile effettuare una sottoscrizione per se stessi e i propri colleghi per le pagine di report, i dashboard e i report impaginati più importanti. Power BI invierà uno snapshot alla Posta in arrivo. Indicare a Power BI con che frequenza si vuole ricevere i messaggi di posta elettronica: giornaliera, settimanale, oraria o mensile o una volta al giorno dopo l'aggiornamento iniziale dei dati.  Se si sceglie la frequenza giornaliera, settimanale, oraria o mensile, è possibile scegliere gli orari in cui eseguire la sottoscrizione.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni pagina di report e dashboard.
 
 ![Snapshot tramite posta elettronica del dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -54,9 +54,9 @@ Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli,
 
 5. Specificare i dettagli dell'**oggetto** e del **messaggio** di posta elettronica. 
 
-5. Selezionare una **frequenza** per la sottoscrizione: **Ogni giorno**, **Ogni ora**, **Ogni settimana** o **Dopo l'aggiornamento dei dati (una volta al giorno)** .  Per ricevere il messaggio di posta elettronica della sottoscrizione solo in determinati giorni, selezionare **Ogni ora** o **Ogni settimana** e scegliere i giorni desiderati.  Ad esempio, se si vuole ricevere il messaggio della sottoscrizione solo nei giorni feriali, selezionare **Ogni settimana** e deselezionare le caselle **Sab** e **Dom**.  
+5. Selezionare una **frequenza** per la sottoscrizione: **Ogni giorno**, **Ogni ora**, **Ogni settimana**, **Ogni mese** o **Dopo l'aggiornamento dei dati (una volta al giorno)** .  Per ricevere il messaggio di posta elettronica della sottoscrizione solo in determinati giorni, selezionare **Ogni ora** o **Ogni settimana** e scegliere i giorni desiderati.  Ad esempio, se si vuole ricevere il messaggio della sottoscrizione solo nei giorni feriali, selezionare **Ogni settimana** e deselezionare le caselle **Sab** e **Dom**.  Se si seleziona **Ogni mese**, immettere il giorno o i giorni del mese per i quali si desidera ricevere il messaggio di posta elettronica di sottoscrizione.  
 
-6. Se si sceglie **Ogni giorno** oppure **Ogni settimana**, è anche possibile scegliere un'**Ora pianificata** per la sottoscrizione.  L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti.  Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario.  Se si sceglie **Ogni ora**, in **Ora pianificata** selezionare l'orario desiderato per l'avvio della sottoscrizione e il messaggio verrà inviato ogni ora a partire da quella indicata.
+6. Se si sceglie **Ogni giorno**, **Ogni ora, **Ogni mese** o **Ogni settimana**, è anche possibile scegliere un'**Ora pianificata** per la sottoscrizione.  L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti.  Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario.  Se si sceglie **Ogni ora**, in **Ora pianificata** selezionare l'orario desiderato per l'avvio della sottoscrizione e l'esecuzione avverrà ogni ora dopo tale orario.
 
 7. Per impostazione predefinita, la data di inizio per la sottoscrizione è la data in cui viene creata. Si ha la possibilità di selezionare una data di fine. Se non viene impostata, la data di fine è automaticamente un anno dopo la data di inizio. È possibile modificarla impostando una data nel futuro (fino all'anno 9999) in qualsiasi momento prima della scadenza della sottoscrizione. Quando una sottoscrizione raggiunge una data di fine, viene interrotta finché non viene riabilitata. Si riceveranno delle notifiche prima della data di fine pianificata in cui viene chiesto se si intende prorogare la sottoscrizione.    
 
@@ -67,7 +67,7 @@ Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli,
 7. Selezionare **Salva e chiudi**. Gli utenti con sottoscrizione ricevono un messaggio di posta elettronica e uno snapshot della pagina di report o del dashboard per la frequenza e l'ora selezionate. In tutto, si possono creare fino a 24 sottoscrizioni per report o dashboard ed è possibile specificare destinatari, frequenze e orari univoci per ogni sottoscrizione.  Tutte le sottoscrizioni impostate su **Dopo l'aggiornamento dei dati** per il dashboard o report invieranno ancora un messaggio di posta elettronica dopo il primo aggiornamento pianificato.   
       
    > [!TIP]
-   > Se si vuole inviare il messaggio di posta elettronica da una sottoscrizione immediatamente o su richiesta in qualsiasi momento, selezionare **Esegui** per le sottoscrizioni per il dashboard o il report da inviare. Verrà visualizzata la notifica dell'invio di un messaggio di posta elettronica a tutti gli utenti per la sottoscrizione specifica.  È possibile eseguire questa operazione ogni volta che si vuole, dato che non viene conteggiata per il limite di 24 esecuzioni pianificate al giorno per report o dashboard per la sottoscrizione. Tale esecuzione NON attiva l'aggiornamento dei dati del set di dati sottostante. 
+   > Se si vuole inviare il messaggio di posta elettronica da una sottoscrizione immediatamente o su richiesta in qualsiasi momento, selezionare **Esegui** per le sottoscrizioni per il dashboard o il report da inviare. Verrà visualizzata la notifica dell'invio di un messaggio di posta elettronica a tutti gli utenti per la sottoscrizione specifica.  Questa azione non viene conteggiata per il limite di 24 esecuzioni pianificate al giorno per report o dashboard per la sottoscrizione. Tale esecuzione NON attiva l'aggiornamento dei dati del set di dati sottostante. 
    > 
    > 
    
@@ -103,7 +103,7 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     
 * Se si condivide un dashboard con un collega al di fuori del tenant, non è possibile creare anche una sottoscrizione per il collega. Di conseguenza, se si è aaron@xyz.com è possibile condividere con anyone@ABC.com, ma non è possibile sottoscrivere anyone@ABC.com che non può sottoscrivere contenuto condiviso.      
 * Power BI sospende automaticamente l'aggiornamento nei set di dati associati ai dashboard e ai report che non vengono visitati da più di due mesi.  Tuttavia, se si aggiunge una sottoscrizione a un dashboard o un report, l'aggiornamento non viene sospeso anche nel caso in cui non sia stato visitato.    
-* Se non si ricevono i messaggi di posta elettronica relativi alla sottoscrizione, assicurarsi che il Nome dell'entità utente sia in grado di ricevere messaggi di posta elettronica. [Il team di Power BI si sta impegnando per rendere meno rigoroso questo requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163) e fornirà presto notizie in merito. 
+* Se non si ricevono i messaggi di posta elettronica relativi alla sottoscrizione, assicurarsi che il Nome dell'entità utente sia in grado di ricevere messaggi di posta elettronica. 
 * Se il dashboard o il report è nella capacità Premium, è possibile usare alias di posta elettronica di gruppo per le sottoscrizioni anziché eseguire le sottoscrizioni per un indirizzo alla volta. Gli alias sono basati sull'istanza corrente di Active Directory. 
 
 ## <a name="next-steps"></a>Passaggi successivi

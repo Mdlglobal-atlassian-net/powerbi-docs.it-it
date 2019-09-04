@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307283"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185709"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accessibilità al report di Power BI Desktop
 Power BI offre funzionalità che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Queste funzionalità includono la possibilità di usare un report tramite la tastiera o un'utilità per la lettura dello schermo, la tabulazione per evidenziare vari oggetti in una pagina e l'uso ponderato dei marcatori nelle visualizzazioni.
@@ -75,6 +75,9 @@ I suggerimenti seguenti consentono di creare report di **Power BI Desktop** più
 * Per ogni oggetto di un report, includere testo alternativo. In questo modo, gli utenti del report comprenderanno ciò che si vuole comunicare con un oggetto visivo. Il testo alternativo è utile anche nel caso in cui l'utente non possa vedere l'oggetto visivo, l'immagine, la forma o la casella di testo. In un report di **Power BI Desktop** è possibile includere testo alternativo per qualsiasi oggetto. Selezionare l'oggetto, ad esempio un oggetto visivo, una forma e così via, quindi nel riquadro **Visualizzazioni** selezionare la sezione **Formato**. Espandere quindi la sezione **Generale**, scorrere verso il basso e immettere il testo nella casella **Testo alternativo**.
   
   ![Il testo alternativo per gli oggetti in un report può essere aggiunto in Visualizzazioni > Formato > Generale > casella Testo alternativo](media/desktop-accessibility/accessibility-02.png)
+  
+  Il testo alternativo può anche essere modificato dinamicamente con un'espressione, ad esempio per rispecchiare i filtri applicati a un oggetto visivo. Si imposta un'espressione nello stesso modo valido per il titolo di un oggetto visivo. [Formattazione condizionale per i titoli degli oggetti visivi](desktop-conditional-format-visual-titles.md)
+  
 * Assicurarsi che il contrasto tra testo e colori di sfondo nei report sia sufficiente. Sono disponibili diversi strumenti, ad esempio un [analizzatore del contrasto dei colori](https://developer.paciellogroup.com/resources/contrastanalyser/), che possono essere usati per controllare i colori del report. 
 * Usare dimensioni di testo e tipi di carattere facilmente leggibili. Testo di piccole dimensioni o tipi di carattere difficili da leggere non favoriscono l'accessibilità.
 * Includere il titolo, le etichette degli assi e le etichette dei dati in tutti gli oggetti visivi.

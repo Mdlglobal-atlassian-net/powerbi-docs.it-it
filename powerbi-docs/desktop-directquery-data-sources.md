@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/29/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809123"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159959"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origini dati supportate da DirectQuery in Power BI
 
@@ -34,6 +34,7 @@ Le origini dati seguenti supportano DirectQuery in Power BI:
 * Database IBM DB2
 * IBM Netezza
 * Impala (versione 2.x)
+* MarkLogic
 * Database di Oracle (versione 12 e successive)
 * Oracle Essbase
 * Server applicazioni SAP Business Warehouse
@@ -47,7 +48,7 @@ Le origini dati seguenti supportano DirectQuery in Power BI:
 
 Le origini dati il cui nome è seguito da **(Beta)** o **(Anteprima)** sono soggette a modifiche e non sono supportate per l'uso in produzione. Possono anche non essere supportate dopo la pubblicazione di un report per il **servizio Power BI**, il che significa che l'apertura di un report pubblicato o l'esplorazione del set di dati può comportare un errore.
 
-L'unica differenza tra le origini dati **(Beta)** e **(Anteprima)** è che le origini **(anteprima)** devono essere abilitate come funzionalità di anteprima prima di poter essere usate. Per abilitare un connettore dati **(Anteprima)**, in **Power BI Desktop**, passare a **File > Opzioni e impostazioni** e quindi selezionare **Funzionalità di anteprima**.
+L'unica differenza tra le origini dati **(Beta)** e **(Anteprima)** è che le origini **(anteprima)** devono essere abilitate come funzionalità di anteprima prima di poter essere usate. Per abilitare un connettore dati **(Anteprima)** , in **Power BI Desktop**, passare a **File > Opzioni e impostazioni** e quindi selezionare **Funzionalità di anteprima**.
 
 > [!NOTE]
 > Le query DirectQuery per SQL Server richiedono l'autenticazione tramite credenziali di autenticazione di Windows o credenziali del database valide per stabilire l'accesso. Le credenziali alternative non sono supportate.

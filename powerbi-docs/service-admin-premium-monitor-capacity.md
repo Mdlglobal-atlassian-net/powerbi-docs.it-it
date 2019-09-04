@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
-ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
+ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008126"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030179"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Monitorare le capacità Premium con l'app
 
@@ -244,7 +244,7 @@ La pagina Datasets (Set di dati) è suddivisa in varie *aree* che includono **Re
 
 | **Sezione del report** | **Metriche** |
 | --- | --- |
-| CPU consumption |  Utilizzo per carico di lavoro come percentuale della capacità totale della CPU. Visualizzazione su base oraria per i sette giorni precedenti. |
+| CPU consumption |  Utilizzo massimo della CPU nell'ora, in base al carico di lavoro come percentuale della capacità totale della CPU. Visualizzazione su base oraria per i sette giorni precedenti. |
 | Memory consumption |  Utilizzo massimo della memoria nell'ora, in GB per carico di lavoro (linee a tinta unita) e limiti del carico di lavoro sovrapposti (linea tratteggiata). Visualizzazione su base oraria per i sette giorni precedenti. |
 |  |  |
 

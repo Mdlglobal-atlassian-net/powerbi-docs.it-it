@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 05/22/2019
-ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 08/29/2019
+ms.openlocfilehash: 0755b41fbeef1f62d2722e3529007dc4f8773634
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187676"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186075"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -23,7 +23,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 
 ## <a name="features-of-power-bi-report-server-and-the-power-bi-service"></a>Funzionalità di Server di report di Power BI e del servizio Power BI
 
-| Funzionalità | Server di report di Power BI | Servizio Power BI | Note |
+| Funzionalità | Server di report Power BI | Servizio Power BI | Note |
 |---------|---------|---------|---------|
 | Distribuzione | Cloud locale o ospitato | Cloud | Server di report di Power BI può essere distribuito nelle macchine virtuali di Azure (cloud ospitato) se concesso in licenza tramite Power BI Premium |
 | Dati di origine | Cloud e/o locali | Cloud e/o locali |  |
@@ -44,10 +44,10 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Report impaginati | Sì | Sì | [I report impaginati sono disponibili nel servizio Power BI](../paginated-reports-report-builder-power-bi.md) in anteprima in una capacità Premium |
 | App Power BI per dispositivi mobili | Sì | Sì | [Panoramica sulle app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mappe ArcGIS | No | Sì | [Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop](../visuals/power-bi-visualization-arcgis.md) |
-| Sottoscrizioni tramite posta elettronica per i report di Power BI | No | Sì | [Sottoscrivere per se stessi o altri utenti](../service-report-subscribe.md) un report o dashboard nel servizio Power BI |
-| Sottoscrizioni tramite posta elettronica per report impaginati | Sì | No | [Recapito tramite posta elettronica in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| Sottoscrizioni tramite posta elettronica per i report di Power BI | Sì | Sì | [Sottoscrivere per se stessi o altri utenti](../service-report-subscribe.md) un report o dashboard nel servizio Power BI |
+| Sottoscrizioni tramite posta elettronica per report impaginati | Sì | Sì | [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](../paginated-reports-subscriptions.md)<br><br>[Recapito tramite posta elettronica in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | Avvisi per i dati | No | Sì | [Avvisi per i dati](../service-set-data-alerts.md) nel servizio Power BI
-| Sicurezza a livello di riga | Sì | Sì | Disponibile in modalità DirectQuery (origine dati) e importazione <br>Sicurezza a livello di riga nel [servizio Power BI](../service-admin-rls.md) <br>Sicurezza a livello di riga in [Server di report di Power BI](row-level-security-report-server.md) |
+| Sicurezza a livello di riga | Sì | Sì | Disponibile in modalità DirectQuery (origine dati) e importazione <br><br>Sicurezza a livello di riga nel [servizio Power BI](../service-admin-rls.md) <br><br>Sicurezza a livello di riga in [Server di report di Power BI](row-level-security-report-server.md) |
 | Modalità schermo intero | No | Sì | [Modalità schermo intero](../consumer/end-user-focus.md) nel servizio Power BI |
 | Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro per le app](../service-collaborate-power-bi-workspace.md) con Office 365 |
 | Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../desktop-r-visuals.md) in Power BI Desktop e pubblicarli nel servizio Power BI. Non è possibile salvare i report di Power BI con oggetti visivi R in Server di report di Power BI.  |

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f67f73dd66da7f1d3e8d84a3373a15d20f81645e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69e458d966e656847a4e2122df148e90c1834a58
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513811"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160308"
 ---
 # <a name="publish-from-power-bi-desktop"></a>Pubblicare da Power BI Desktop
 Quando si pubblica un file di **Power BI Desktop** nel **servizio Power BI**, i dati nel modello e i report creati nella visualizzazione **Report** vengono pubblicati nell'area di lavoro di Power BI. Viene visualizzato un nuovo set di dati con lo stesso nome e tutti i report nello strumento di navigazione dell'area di lavoro.
@@ -28,7 +28,7 @@ La pubblicazione da **Power BI Desktop** consente di raggiungere lo stesso risul
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Per pubblicare un set di dati e i report di Power BI Desktop
-1. In Power BI Desktop selezionare **File** \> **pubblica** \> **pubblica in Power BI** oppure fare clic su **pubblica** di sulla barra multifunzione.  
+1. In Power BI Desktop selezionare **File** \> **Pubblica** \> **Pubblica in Power BI** oppure fare clic su **Pubblica** nella barra multifunzione.  
 
    ![Pulsante Pubblica](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
@@ -44,10 +44,11 @@ Al termine viene visualizzato un collegamento al report. Fare clic sul collegame
 ## <a name="re-publish-or-replace-a-dataset-published-from-power-bi-desktop"></a>Ripubblicare o sostituire un set di dati pubblicato da Power BI Desktop
 Quando si pubblica un file di **Power BI Desktop**, il set di dati e i report creati in **Power BI Desktop** vengono caricati nel sito Power BI. Quando si ripubblica il file di **Power BI Desktop**, il set di dati nel sito Power BI viene sostituito con il set di dati caricato dal file di **Power BI Desktop**.
 
-Questo è tutto molto semplice, ma esistono alcuni aspetti da conoscere:
+La procedura è semplice, ma è necessario tenere presenti alcuni aspetti:
 
 * Se si hanno già due o più set di dati in Power BI con lo stesso nome del file di **Power BI Desktop**, la pubblicazione potrebbe non riuscire. Verificare che in Power BI sia presente solo un set di dati con lo stesso nome. È anche possibile rinominare il file e pubblicarlo, creando un nuovo set di dati con lo stesso nome del file.
 * Se si rinomina o si elimina una colonna o una misura, le visualizzazioni già presenti in Power BI che contengono questo campo potrebbero essere interrotte. 
 * Power BI ignora alcune modifiche al formato delle colonne esistenti, ad esempio quando si modifica il formato di una colonna da 0,25 a 25%.
 * Se è configurata una pianificazione degli aggiornamenti per il set di dati esistente in Power BI e si aggiungono nuove origini dati al file e lo si ripubblica, sarà necessario accedere a tali origini dati in *Gestisci origini dati* prima dell'aggiornamento pianificato successivo.
+* Quando si ripubblica un set di dati pubblicato da **Power BI Desktop** ed esiste una pianificazione di aggiornamento definita, viene avviato un aggiornamento del set di dati non appena si esegue la ripubblicazione. 
 

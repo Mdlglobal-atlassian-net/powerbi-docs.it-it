@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654821"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201022"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
@@ -105,6 +105,9 @@ Se si seleziona **Modifica**, viene avviato l'Editor di query e viene presentata
  ![](media/desktop-getting-started/designer_gsg_editquery.png)
 
 Per altre informazioni sulla connessione ai dati, vedere [Connettersi ai dati in Power BI Desktop](desktop-connect-to-data.md).
+
+> [!NOTE]
+> I dati della tabella a cui si fa riferimento in questo articolo potrebbero cambiare nel corso del tempo. Di conseguenza, la procedura da seguire potrebbe variare rispetto a quanto riportato di seguito. Sarà quindi necessario essere creativi per adeguare i vari passaggi o i risultati, operazioni comunque utili per l'apprendimento. 
 
 Nella sezione successiva i dati verranno modificati per essere adattati alle esigenze specifiche. Il processo di modifica dei dati connessi viene definito *data shaping* .
 

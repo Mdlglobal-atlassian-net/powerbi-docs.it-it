@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
+ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665421"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "70030172"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,12 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="august-2019"></a>Agosto 2019
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Accesso protetto con Azure Active Directory (AAD) Application Proxy
+
+Il team di Power BI ha collaborato con il team di Azure Active Directory per integrare le applicazioni Power BI per dispositivi mobili con Azure Active Directory (AAD) Application Proxy. Con questa configurazione è possibile connettersi al server di report ospitato all'interno dei limiti aziendali dall'app Power BI per dispositivi mobili, senza dover definire una configurazione locale complessa. Vedere altre informazioni sull'[integrazione di Power BI per dispositivi mobili e Azure AD Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Informazioni su [come configurare Azure AD Application Proxy e Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Luglio 2019
 
