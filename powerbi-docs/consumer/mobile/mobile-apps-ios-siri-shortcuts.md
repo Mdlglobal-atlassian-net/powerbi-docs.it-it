@@ -1,7 +1,7 @@
 ---
 title: Integrazione dell'App Power BI per dispositivi mobili con tasti di scelta rapida Siri
 description: Come usare i comandi rapidi di Siri per accedere direttamente al contenuto di Power BI necessario.
-author: michalfo
+author: KesemSharabi
 manager: mshenhav
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 0fd94e7e8f1ea54dd6544eb5c0da13c90808d7e2
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816801"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391507"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Uso dei comandi rapidi di Siri nell'app Power BI per dispositivi mobili iOS (anteprima)
 
