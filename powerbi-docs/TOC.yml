@@ -403,6 +403,8 @@
       items:
         - name: Che cos'è Power BI?
           href: power-bi-overview.md
+        - name: Che cos'è il servizio Power BI?
+          href: power-bi-service-overview.md
         - name: Confronto tra Power BI Desktop e il servizio
           href: service-service-vs-desktop.md
     - name: Esercitazioni
