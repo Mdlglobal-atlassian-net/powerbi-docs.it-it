@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: b089c3e51ce80fdb776455519f2569ee8fa24572
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160231"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751643"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Connettersi ai modelli multidimensionali SSAS in Power BI Desktop
 Con Power BI Desktop è possibile accedere ai **modelli multidimensionali di SSAS**, comunemente noti come **MD SSAS**.
@@ -87,7 +87,7 @@ Esistono alcune limitazioni all'uso di **MD SSAS**:
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Funzionalità supportate di SSAS MD in Power BI Desktop
 Le seguenti funzionalità di SSAS MD sono supportate in Power BI Desktop:
 
-* In questa versione di **MD SSAS** è supportato l'utilizzo degli elementi seguenti (su queste funzionalità sono disponibili [altre informazioni](https://msdn.microsoft.com/library/jj969574.aspx)):
+* In questa versione di **MD SSAS** è supportato l'utilizzo degli elementi seguenti (su queste funzionalità sono disponibili [altre informazioni](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014)):
   * Cartelle di visualizzazione
   * Tendenze degli indicatori KPI
   * Membri predefiniti

@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523222"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751685"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 
@@ -35,7 +35,7 @@ In questa esercitazione è necessario il [**database AdventureworksDW2012**](htt
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Attività 1: Creare la tabella di sicurezza utente e definire le relazioni di dati
 
-Esistono molti articoli che descrivono come definire la sicurezza dinamica livello di riga con il modello **tabulare di SQL Server Analysis Services (SSAS)** . Per questo esempio si seguiranno le istruzioni dell'articolo [Implementare la sicurezza dinamica tramite filtri di riga](https://msdn.microsoft.com/library/hh479759.aspx). 
+Esistono molti articoli che descrivono come definire la sicurezza dinamica livello di riga con il modello **tabulare di SQL Server Analysis Services (SSAS)** . Per questo esempio si seguiranno le istruzioni dell'articolo [Implementare la sicurezza dinamica tramite filtri di riga](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters). 
 
 Per eseguire questi passaggi è necessario usare il database relazionale **AdventureworksDW2012**.
 
