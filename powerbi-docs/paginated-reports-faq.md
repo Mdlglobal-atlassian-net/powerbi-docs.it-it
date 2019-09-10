@@ -7,14 +7,14 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: overview
-ms.date: 07/15/2019
-ms.openlocfilehash: 2e59499b93f4d1b4879cdec5b807f863a80718aa
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.topic: conceptual
+ms.date: 09/04/2019
+ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665362"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751520"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: DOMANDE FREQUENTI 
 
@@ -26,11 +26,11 @@ Questo articolo risponde a molte domande comuni sui report impaginati in Power B
 
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Quale capacità Premium è necessaria per i report impaginati?
 
-Il carico di lavoro per i report impaginati è disponibile negli SKU P1-P3.  È anche possibile usarlo con gli SKU A4-A6 per scenari di incorporamento SaaS.
+Il carico di lavoro per i report impaginati è disponibile negli SKU P1-P3.  È anche possibile usarlo con gli SKU A4-A6 per scenari di incorporamento o di test/sviluppo.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Qual è la soglia di memoria massima che è possibile impostare per i report impaginati per la capacità?
 
-Entro la fine del 2019, sarà possibile usare fino al 100% della memoria per questo carico di lavoro. 
+È possibile usare fino al 100% della memoria per questo carico di lavoro.
 
 ### <a name="how-does-user-access-work-for-paginated-reports"></a>Come funziona l'accesso utente per i report impaginati?
 
@@ -152,7 +152,7 @@ Sì, i set di dati di Power BI sono supportati come origini dati per i report im
 
 Sì, la stampa è disponibile per i report impaginati e include un'esperienza di anteprima di stampa nuova e migliorata. 
 
-### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>Sono già disponibili sottoscrizioni tramite posta elettronica per i report impaginati?
+### <a name="are-e-mail-subscriptions-available-for-paginated-reports"></a>Sono disponibili sottoscrizioni tramite posta elettronica per i report impaginati?
 
 Sì, le sottoscrizioni di posta elettronica sono pienamente supportate per i report impaginati ed è incluso il supporto per sei diversi formati di file e valori dei parametri.
 
@@ -166,7 +166,7 @@ L'incorporamento in SaaS è già supportato. L'incorporamento in PaaS al momento
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>È possibile eseguire il drill-through da un report di Power BI a un report impaginato?
 
-Non ancora, ma è assolutamente previsto il supporto di questo scenario.
+Sì, questa operazione può essere eseguita usando i parametri URL con i report impaginati.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>È possibile condividere il contenuto di un report impaginato tramite un'app Power BI?
 
