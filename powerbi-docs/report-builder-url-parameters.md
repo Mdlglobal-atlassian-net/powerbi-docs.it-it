@@ -9,12 +9,12 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: 4dae849a18bbfc6e85eedc7ae9e338ad205cb436
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189347"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302662"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parametri URL nei report impaginati in Power BI
 
@@ -68,12 +68,12 @@ Per esempi relativi al passaggio di parametri di report nell'URL, vedere  [Pas
 
 ### <a name="report-commands-rdl"></a>Comandi del report (`rdl:`) 
 
-**Formato di esportazione** Specifica il formato per il rendering e l'esportazione di un report. I valori includono: 
-- PPTX 
+**Formato di esportazione** Specifica il formato per il rendering e l'esportazione di un report. I valori disponibili sono: 
+- PPTX (PowerPoint)
 - MHTML 
 - IMMAGINE 
-- EXCEL 
-- WORD 
+- EXCELOPENXML (EXCEL) 
+- WORDOPENXML (WORD) 
 - CSV 
 - PDF 
 - XML 

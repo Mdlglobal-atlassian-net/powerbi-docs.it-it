@@ -1,21 +1,21 @@
 ---
 title: Funzionalità di analisi incorporata per incorporare contenuto di Power BI nell'applicazione per i clienti
 description: Informazioni su come integrare o incorporare un report, un dashboard o un riquadro in un'applicazione tramite le API di Power BI per l'analisi incorporata per i clienti. Informazioni su come integrare Power BI nell'applicazione usando software di analisi incorporata, strumenti di analisi incorporata o strumenti di business intelligence incorporata.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
-ms.reviewer: nishalit
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
+ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710960"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391797"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti
 
@@ -198,9 +198,9 @@ Per ottenere il valore **ApplicationSecret**, seguire questa procedura:
 
     ![Scegliere un'app](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Selezionare **certificati e i segreti** sotto **Gestisci**.
+4. Selezionare **Certificati e segreti** in **Gestisci**.
 
-5. Selezionare **nuovi segreti client**.
+5. Selezionare **New client secrets** (Nuovi segreti client).
 
 6. Immettere un nome nella casella **Descrizione** e selezionare una durata. Quindi selezionare **Salva** per ottenere il **Valore** per l'applicazione. Chiudendo il riquadro **Chiavi** dopo aver salvato il valore della chiave, il campo del valore viene visualizzato solo come nascosto. A questo punto, non è possibile recuperare il valore della chiave. Se il valore della chiave viene perso, crearne uno nuovo all'interno del portale di Azure.
 

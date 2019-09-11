@@ -1,6 +1,6 @@
 ---
-title: Abilitare la funzionalità Sincronizza filtri dei dati
-description: Come aggiungere la funzionalità Sincronizza filtri dei dati per gli oggetti visivi di Power BI
+title: Abilitare la funzionalità Sincronizza filtri dei dati negli oggetti visivi di Power BI
+description: Questo articolo descrive come aggiungere la funzionalità Sincronizza filtri dei dati agli oggetti visivi di Power BI.
 author: EugeneElkin
 ms.author: v-evelk
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 9966475e8bcaccad2090451b47ef09ef0a9af125
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 4d7b73a5d06f34fd197464d4444d0e19d6c1c026
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425023"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237199"
 ---
-# <a name="sync-slicers"></a>Sincronizza filtri dei dati
+# <a name="sync-slicers-in-power-bi-visuals"></a>Sincronizzare i filtri dei dati negli oggetti visivi di Power BI
 
-Per supportare la funzionalità [Sincronizza filtri dei dati](https://docs.microsoft.com/power-bi/desktop-slicers), l'oggetto visivo filtro dei dati personalizzato deve usare l'API 1.13 o versione successiva.
+Per supportare la funzionalità [Sincronizza filtri dei dati](https://docs.microsoft.com/power-bi/desktop-slicers), l'oggetto visivo filtro dei dati personalizzato deve usare l'API versione 1.13 o successiva.
 
-Il secondo aspetto necessario è che l'opzione sia abilitata in `capabilities.json` (vedere un esempio di seguito).
+È anche necessario abilitare l'opzione nel file *capabilities.json*, come illustrato nel codice seguente:
 
 ```json
 {
@@ -34,11 +34,11 @@ Il secondo aspetto necessario è che l'opzione sia abilitata in `capabilities.js
 }
 ```
 
-Una volta apportate le modifiche in `capabilities.json`, è possibile visualizzare il pannello delle opzioni Sincronizza filtri dei dati quando si fa clic sull'oggetto visivo filtro dei dati personalizzato.
+Dopo aver aggiornato il file *capabilities.json* è possibile visualizzare il riquadro delle opzioni **Sincronizza filtri dei dati** quando si seleziona l'oggetto visivo filtro dei dati personalizzato.
 
 > [!NOTE]
-> Se il filtro dei dati contiene più di un campo (categoria o misura), la funzionalità verrà disabilitata perché non supporta la presenza di più campi.
+> La funzionalità Sincronizza filtri dei dati non supporta più di un campo. Se il filtro dei dati ha più di un campo (**Categoria** o **Misura**), la funzionalità è disabilitata.
 
-![Riquadro Sincronizza filtri dei dati](./media/sync-slicers-panel.png)
+![Riquadro "Sincronizza filtri dei dati"](./media/sync-slicers-panel.png)
 
-Nel pannello è possibile osservare che la visibilità del filtro dei dati e l'applicazione del filtro possono essere applicate per diverse pagine del report.
+Nel riquadro **Sincronizza filtri dei dati** è possibile osservare che la visibilità del filtro dei dati e l'operazione di filtro possono essere applicate a diverse pagine del report.

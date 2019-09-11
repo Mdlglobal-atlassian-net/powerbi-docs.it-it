@@ -4,20 +4,19 @@ description: Questo argomento illustra i metodi disponibili per i consumer e gli
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184748"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391726"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
 Un report è costituito da una o più pagine di oggetti visivi. I report vengono creati dai *progettisti* di Power BI e [condivisi con i *consumer* direttamente](end-user-shared-with-me.md) o nel contesto di un'[app](end-user-apps.md). 
 
 Esistono diversi modi per aprire un report e ne verranno illustrati due: apertura da Home e apertura da un dashboard. 
@@ -31,7 +30,7 @@ Di seguito viene descritta la procedura per aprire un report che è stato condiv
    ![Home page](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Aprire un report condiviso con l'utente
-I *progettisti* di Power BI possono condividere un report direttamente con l'utente. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nella barra di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
+I *progettisti* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo a Home di Power BI. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nella barra di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
 
 1. Aprire il servizio Power BI (app.powerbi.com).
 
@@ -45,13 +44,13 @@ I *progettisti* di Power BI possono condividere un report direttamente con l'ute
 
 4. È sufficiente selezionare la *scheda* del report per aprirlo.
 
-   ![Pagina del report](./media/end-user-report-open/power-bi-report-open.png)
+   ![Pagina del report](./media/end-user-report-open/power-bi-open.png)
 
 5. Si notino le schede lungo il lato sinistro.  Ogni scheda rappresenta una *pagina* del report. È attualmente aperta la pagina *Growth Opportunity*. Selezionare la *YTD Category* per aprire tale pagina del report. 
 
    ![Schede delle pagine del report](./media/end-user-report-open/power-bi-ytd.png)
 
-6. Al momento è visualizzata l'intera pagina del report. Per modificare la visualizzazione (zoom) della pagina, selezionare l'elenco a discesa Visualizza nell'angolo superiore destro ( **>** ) e scegliere **Dimensioni effettive**.
+6. Al momento è visualizzata l'intera pagina del report. Per modificare la visualizzazione (zoom) della pagina, selezionare l'elenco a discesa Visualizza nell'angolo superiore destro e scegliere **Dimensioni effettive**.
 
    ![Modificare lo zoom](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Se si ricevono app da colleghi o da AppSource, tali app sono disponibili da Home
 
    ![Home page](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Selezionare una delle app per aprirla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard, un report o un elenco del contenuto dell'app. Se quando si seleziona l'app:
+8. Selezionare una delle app per aprirla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard o un report. Se quando si seleziona l'app:
     - Viene aperto il report, è tutto pronto.
     - Viene aperto un dashboard, vedere ***Aprire un report da un dashboard*** di seguito.
 
@@ -95,5 +94,5 @@ Quando si acquisisce maggiore familiarità con gli spostamenti all'interno del s
 - E altro ancora.
 
 ## <a name="next-steps"></a>Passaggi successivi
-Esistono [moltissimi modi per interagire con un report](end-user-reading-view.md).  Iniziare l'esplorazione selezionando ogni scheda a lato dell'area di disegno report.
+[Aprire e visualizzare un dashboard](end-user-dashboard-open.md)
 

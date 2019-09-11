@@ -1,6 +1,6 @@
 ---
-title: Rendering di eventi
-description: Gli oggetti visivi di Power BI possono indicare a Power BI che sono pronti per l'esportazione in PowerPoint/PDF
+title: Eseguire il rendering degli eventi negli oggetti visivi di Power BI
+description: Gli oggetti visivi di Power BI possono indicare a Power BI che sono pronti per l'esportazione in PowerPoint o PDF.
 author: Yarovinsky
 ms.author: alexyar
 manager: rkarlin
@@ -9,22 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 46166b3503a770e033b98474fcf9240235296cc2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425092"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237160"
 ---
-# <a name="event-service"></a>Servizio eventi
+# <a name="render-events-in-power-bi-visuals"></a>Eseguire il rendering degli eventi negli oggetti visivi di Power BI
 
-La nuova API è costituita da tre metodi (Started, Finished e Failed) che devono essere chiamati durante il rendering.
+La nuova API è costituita da tre metodi (`started`, `finished` o `failed`) che devono essere chiamati durante il rendering.
 
-All'avvio del rendering, il codice dell'oggetto visivo personalizzato chiama il metodo renderingStarted per indicare che il processo di rendering è stato avviato.
+All'avvio del rendering, il codice dell'oggetto visivo di Power BI chiama il metodo `renderingStarted` per indicare che il processo di rendering è stato avviato.
 
-Se il rendering viene completato correttamente, il codice dell'oggetto visivo personalizzato chiama immediatamente il metodo `renderingFinished`, indicando ai listener (**soprattutto "Esporta in PDF" ed "Esporta in PowerPoint"** ) che l'immagine dell'oggetto visivo è pronta.
+Se il rendering viene completato correttamente, il codice dell'oggetto visivo di Power BI chiama immediatamente il metodo `renderingFinished`, indicando ai listener (principalmente *Esporta in PDF* ed *Esporta in PowerPoint*) che l'immagine dell'oggetto visivo è pronta.
 
-Si supponga un caso in cui si è verificato un problema durante il processo di rendering, impedendo il completamento dell'oggetto visivo personalizzato. Il codice dell'oggetto visivo personalizzato deve chiamare il metodo `renderingFailed` per indicare al listener che il processo di rendering non è stato completato. Questo metodo fornisce anche una stringa facoltativa per la causa dell'errore.
+Se si verifica un problema durante il processo, il rendering dell'oggetto visivo Power BI non può essere eseguito correttamente. Per segnalare ai listener che il processo di rendering non è stato completato, il codice dell'oggetto visivo di Power BI deve chiamare il metodo `renderingFailed`. Questo metodo include anche una stringa facoltativa per indicare la causa dell'errore.
 
 ## <a name="usage"></a>Usage
 
@@ -38,31 +38,31 @@ export interface IVisualHost extends extensibility.IVisualHost {
  */
 export interface IVisualEventService {
     /**
-     * Should be called just before the actual rendering was started. 
-     * Usually at the very start of the update method.
+     * Should be called just before the actual rendering starts, 
+     * usually at the start of the update method
      *
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingStarted(options: VisualUpdateOptions): void;
 
     /**
-     * Shoudl be called immediately after finishing successfull rendering.
+     * Should be called immediately after rendering finishes successfully
      * 
-     * @param options - the visual update options received as update parameter
+     * @param options - the visual update options received as an update parameter
      */
     renderingFinished(options: VisualUpdateOptions): void;
 
     /**
-     * Called when rendering failed with optional reason string
+     * Called when rendering fails, with an optional reason string
      * 
-     * @param options - the visual update options received as update parameter
-     * @param reason - the option failure reason string
+     * @param options - the visual update options received as an update parameter
+     * @param reason - the optional failure reason string
      */
     renderingFailed(options: VisualUpdateOptions, reason?: string): void;
 }
 ```
 
-### <a name="simple-sample-the-visual-hasnt-any-animations-on-rendering"></a>Esempio semplice: l'oggetto visivo non include animazioni per il rendering
+### <a name="sample-the-visual-displays-no-animations"></a>Esempio: l'oggetto visivo non visualizza animazioni
 
 ```typescript
     export class Visual implements IVisual {
@@ -83,7 +83,7 @@ export interface IVisualEventService {
         }
 ```
 
-### <a name="sample-the-visual-with-animation"></a>Esempio: oggetto visivo con animazioni Oggetto visivo con animazioni
+### <a name="sample-the-visual-displays-animations"></a>Esempio: l'oggetto visivo visualizza le animazioni
 
 Se l'oggetto visivo include animazioni o funzioni asincrone per il rendering, il metodo `renderingFinished` deve essere chiamato dopo l'animazione o all'interno della funzione asincrona.
 
@@ -104,7 +104,7 @@ Se l'oggetto visivo include animazioni o funzioni asincrone per il rendering, il
         public update(options: VisualUpdateOptions) {
             this.events.renderingStarted(options);
             ...
-            // read more https://github.com/d3/d3-transition/blob/master/README.md#transition_end
+            // Learn more at https://github.com/d3/d3-transition/blob/master/README.md#transition_end
             d3.select(this.element).transition().duration(100).style("opacity","0").end().then(() => {
                 // renderingFinished called after transition end
                 this.events.renderingFinished(options);
@@ -114,4 +114,4 @@ Se l'oggetto visivo include animazioni o funzioni asincrone per il rendering, il
 
 ## <a name="rendering-events-for-visual-certification"></a>Eventi di rendering per la certificazione degli oggetti visivi
 
-Il supporto degli eventi di rendering da parte dell'oggetto visivo è uno dei requisiti della certificazione degli oggetti visivi. Per altre informazioni, vedere [Requisiti di certificazione](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements)
+Il supporto degli eventi di rendering da parte dell'oggetto visivo è uno dei requisiti per la certificazione degli oggetti visivi. Per altre informazioni, vedere [Requisiti di certificazione](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements).

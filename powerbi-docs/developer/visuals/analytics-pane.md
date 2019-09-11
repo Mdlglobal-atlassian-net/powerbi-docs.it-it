@@ -1,6 +1,6 @@
 ---
-title: Riquadro di analisi
-description: Come creare linee di riferimento dinamiche negli oggetti visivi di Power BI
+title: Riquadro Analisi negli oggetti visivi di Power BI
+description: Questo articolo descrive come creare linee di riferimento dinamiche negli oggetti visivi di Power BI.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,34 +9,36 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b3b50f8dbcf40a3923e86422e24f8ed020894445
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 208c6cbbd4cd8cdabde039c53aab536ee989bc7d
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425529"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237328"
 ---
-# <a name="analytics-pane-in-power-bi-visuals"></a>Riquadro di analisi negli oggetti visivi di Power BI
+# <a name="the-analytics-pane-in-power-bi-visuals"></a>Riquadro Analisi negli oggetti visivi di Power BI
 
-Il **riquadro di analisi** è stato [introdotto per gli oggetti visivi nativi ](https://docs.microsoft.com/power-bi/desktop-analytics-pane) a novembre 2018.
-Gli oggetti visivi personalizzati con l'API v2.5.0 possono presentare e gestire le proprie proprietà nel **riquadro di analisi**.
+Il riquadro **Analisi** è stato introdotto per gli [oggetti visivi nativi](https://docs.microsoft.com/power-bi/desktop-analytics-pane) a novembre 2018.
+Questo articolo illustra come gli oggetti visivi di Power BI con l'API v2.5.0 possono presentare e gestire le proprie proprietà nel riquadro **Analisi**.
 
-![Riquadro di analisi](./media/visualization-pane-analytics-tab.png)
+![Riquadro Analisi](./media/visualization-pane-analytics-tab.png)
 
-Viene gestito in modo analogo alla [gestione delle proprietà nel riquadro Formato](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), definendo un oggetto nel file capabilities.json dell'oggetto visivo. 
+## <a name="manage-the-analytics-pane"></a>Gestire il riquadro Analisi
 
-Le differenze sono le seguenti:
+Analogamente a come si gestiscono le proprietà nel [riquadro **Formato**](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), per gestire il riquadro **Analisi** si definisce un oggetto nel file *capabilities.json* dell'oggetto visivo. 
 
-1. Nella definizione di `object` aggiungere un campo `objectCategory` con valore 2.
+Per il riquadro **Analisi**, le differenze sono le seguenti:
+
+* Nella definizione dell'oggetto si aggiunge un campo **objectCategory** con il valore 2.
 
     > [!NOTE]
-    > Il campo `objectCategory` è un campo facoltativo introdotto nell'API 2.5.0. Definisce l'aspetto dell'oggetto visivo controllato dall'oggetto (1 = Formatting, 2 = Analytics). La categoria "Formatting" viene usata per aspetto, colori, assi, etichette e così via. La categoria "Analytics" viene usata per previsioni, linee di tendenza, linee di riferimento, forme e così via.
+    > Il campo `objectCategory` facoltativo è stato introdotto nell'API 2.5.0. Definisce l'aspetto dell'oggetto visivo controllato dall'oggetto (1 = Formatting, 2 = Analytics). `Formatting` viene usato per elementi come l'aspetto, i colori, gli assi e le etichette. `Analytics` viene usato per elementi come le previsioni, le linee di tendenza, le linee di riferimento e le forme.
     >
-    > Se omesso, il valore predefinito di `objectCategory` è "Formatting".
+    > Se il valore non è specificato, `objectCategory` viene impostato su "Formatting".
 
-2. L'oggetto deve avere le due proprietà seguenti:
-    1. `show` di tipo booleano con valore predefinito false.
-    2. `displayName` di tipo testo. Il valore predefinito scelto diventerà il nome visualizzato iniziale dell'istanza.
+* L'oggetto deve avere le due proprietà seguenti:
+    * `show` di tipo `bool`, con il valore predefinito `false`.
+    * `displayName` di tipo `text`. Il valore predefinito scelto diventa il nome visualizzato iniziale dell'istanza.
 
 ```json
 {
@@ -63,13 +65,13 @@ Le differenze sono le seguenti:
 }
 ```
 
-Tutte le altre proprietà devono essere definite in modo analogo a quanto avviene per gli oggetti di formattazione. L'enumerazione degli oggetti viene eseguita esattamente come nel **riquadro Formato**.
+È possibile definire altre proprietà come è possibile fare per gli oggetti **Format** ed è possibile enumerare gli oggetti come si fa nel riquadro **Format**.
 
-***Limitazioni e problemi noti***
+## <a name="known-limitations-and-issues-of-the-analytics-pane"></a>Limitazioni e problemi noti del riquadro Analisi
 
-  1. Non sono ancora supportate più istanze. Gli oggetti non possono avere un [selettore](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector) diverso da uno statico, ovvero "selector" = null, e gli oggetti visivi personalizzati non possono avere più istanze di una scheda definite dall'utente.
-  2. Le proprietà di tipo `integer` non vengono visualizzate correttamente. Come soluzione alternativa, usare invece il tipo `numeric`.
+* Il riquadro **Analytics** non supporta ancora più istanze. Gli oggetti non possono avere un [selettore](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/#selector) diverso da uno statico, ovvero "selector" = null, e gli oggetti visivi di Power BI non possono avere più istanze di una scheda definite dall'utente.
+* Le proprietà di tipo `integer` non vengono visualizzate correttamente. Come soluzione alternativa, usare invece il tipo `numeric`.
 
 > [!NOTE]
-> Usare il riquadro di analisi solo per gli oggetti che aggiungono nuove informazioni o fanno luce sulle informazioni presentate. Ad esempio, le linee di riferimento dinamiche che illustrano tendenze importanti.
-> Tutte le opzioni che controllano l'aspetto dell'oggetto visivo, ovvero la formattazione, devono essere mantenute nel riquadro di formattazione.
+> * Usare il riquadro **Analisi** solo per gli oggetti che aggiungono nuove informazioni o fanno luce sulle informazioni presentate (ad esempio, le linee di riferimento dinamiche che illustrano tendenze importanti).
+> * Tutte le opzioni che controllano l'aspetto dell'oggetto visivo (ovvero la formattazione) devono essere limitate al riquadro **Formattazione**.

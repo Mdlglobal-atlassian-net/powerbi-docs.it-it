@@ -1,30 +1,29 @@
 ---
-title: Visualizzare un report in Power BI
-description: Report in Power BI
+title: Report nel servizio Power BI
+description: Report nel servizio Power BI per i consumer
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532161"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391380"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 
 Un report di Power BI consente di visualizzare un set di dati da più punti di vista, grazie a oggetti visivi che rappresentano conclusioni e approfondimenti diversi ottenuti dal set di dati.  Un report può includere un solo oggetto visivo oppure contenere pagine con più oggetti visivi. A seconda del ruolo, si può essere una persona che *progetta* i report. Oppure si può essere una persona che *consuma* o usa i report.
 
-![Screenshot della pagina di un report.](./media/end-user-reports/power-bi-report.png)
+![Screenshot della pagina di un report.](./media/end-user-reports/power-bi-reports.png)
 
-Questo report è composto da quattro pagine (o schede) e si sta attualmente visualizzando la pagina **Sentiment**. Questa pagina contiene cinque diversi oggetti visivi e il titolo della pagina.
+Questo report è composto da sei pagine (o schede) e si sta attualmente visualizzando la pagina **Sentiment**. Questa pagina contiene cinque diversi oggetti visivi e il titolo della pagina. Il riquadro *Filtri* mostra un filtro applicato a tutte le pagine del report. Per comprimere il riquadro Filtri, selezionare la freccia ( **>** ).
 
 Se non si ha familiarità con Power BI, è possibile apprendere le nozioni di base utili leggendo [Concetti di base del servizio Power BI per i consumer](end-user-basic-concepts.md). I report sono disponibili per la visualizzazione, la condivisione e l'annotazione nei dispositivi mobili. Per altre informazioni, vedere [Esplorare i report nelle app Power BI per dispositivi mobili](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -42,6 +41,8 @@ Durante l'esplorazione e l'interazione con il contenuto, ovvero l'applicazione d
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Salvare le modifiche oppure ripristinare le impostazioni predefinite
 
 Ciò non significa che non sia possibile salvare le modifiche apportate. È possibile, ma queste modifiche interesseranno solo la propria visualizzazione del contenuto. Per ripristinare la visualizzazione predefinita originale del report, selezionare **Ripristina impostazioni predefinite**.
+
+![Screenshot dell'opzione Ripristina impostazioni predefinite.](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>Dashboard e report a confronto
 
@@ -76,6 +77,5 @@ Oppure si può essere un *consumer*, ovvero una persona che riceve i report da a
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Che cos'è Power BI?](../power-bi-overview.md)
-
-[Concetti di base del servizio Power BI per i consumer](end-user-basic-concepts.md)
+[Aprire e visualizzare un report](end-user-report-open.md)    
+[Dashboard nel servizio Power BI](end-user-dashboards.md)

@@ -1,5 +1,5 @@
 ---
-title: Segnalibri
+title: Aggiungere il supporto per i segnalibri per oggetti visivi di Power BI
 description: Gli oggetti visivi di Power BI possono gestire il passaggio tra segnalibri
 author: zBritva
 ms.author: v-ilgali
@@ -9,57 +9,54 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 90e3fc73cd49a5c84a5c2acc68a8cf5e0e4aa42b
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425506"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237270"
 ---
-# <a name="add-bookmarks-support-for-power-bi-visuals"></a>Aggiungere il supporto per i segnalibri per oggetti visivi di Power BI
+# <a name="add-bookmark-support-for-power-bi-visuals"></a>Aggiungere il supporto per i segnalibri per oggetti visivi di Power BI
 
-I segnalibri dei report di Power BI permettono l'acquisizione della visualizzazione configurata di una pagina del report, uno stato di selezione e uno stato di filtro dell'oggetto visivo. Tuttavia, è necessaria un'azione aggiuntiva dal lato degli oggetti visivi personalizzati per supportare i segnalibri e rispondere correttamente alle modifiche.
+Con i segnalibri dei report di Power BI, è possibile acquisire una visualizzazione configurata di una pagina del report, lo stato di selezione e lo stato di filtro dell'oggetto visivo. Tuttavia, è necessaria un'azione aggiuntiva dal lato degli oggetti visivi personalizzati per supportare i segnalibri e rispondere correttamente alle modifiche.
 
-Altre informazioni sui segnalibri sono disponibili nella [documentazione](https://docs.microsoft.com/power-bi/desktop-bookmarks)
+Per altre informazioni sui segnalibri, vedere [Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Supporto per segnalibri del report nell'oggetto visivo
 
 Se l'oggetto visivo interagisce con altri oggetti visivi, seleziona punti dati o filtra altri oggetti visivi, è necessario ripristinare lo stato dalle proprietà.
 
-## <a name="how-to-add-report-bookmarks-support"></a>Come aggiungere il supporto per i segnalibri del report
+## <a name="add-report-bookmarks-support"></a>Aggiungere il supporto per i segnalibri del report
 
-1. Installare (o aggiornare) l'utilità necessaria: `powerbi-visuals-utils-interactivityutils`(https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) versione 3.0.0 o successiva. Contiene classi aggiuntive da modificare con lo stato selezione o filtro. È necessaria per gli oggetti visivi di filtro e per qualsiasi oggetto visivo che usa `InteractivityService`.
+1. Installare (o aggiornare) l'utilità necessaria, [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) versione 3.0.0 o successiva. Contiene classi aggiuntive da modificare con lo stato selezione o filtro. È necessaria per gli oggetti visivi di filtro e per qualsiasi oggetto visivo che usa `InteractivityService`.
 
-2. Aggiornare l'API dell'oggetto visivo alla versione 1.11.0 per l'uso di `registerOnSelectCallback` nell'istanza di `SelectionManager`. È necessaria per gli oggetti visivi non di filtro che usano `SelectionManager` semplice anziché `InteractivityService`.
+2. Aggiornare l'API per oggetti visivi alla versione 1.11.0 per usare `registerOnSelectCallback` in un'istanza di `SelectionManager`. È necessaria per gli oggetti visivi non di filtro che usano `SelectionManager` semplice anziché `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-the-report-bookmarks-scenario"></a>Interazione degli oggetti visivi personalizzati con Power BI nello scenario dei segnalibri del report
+### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Interazione degli oggetti visivi personalizzati con Power BI nei segnalibri del report
 
-Si consideri l'esempio seguente: Un utente crea diversi segnalibri nella pagina del report, con uno stato di selezione diverso in ogni segnalibro.
+Si consideri lo scenario seguente: si vogliono creare diversi segnalibri nella pagina del report, con uno stato di selezione diverso in ogni segnalibro.
 
-In primo luogo, l'utente seleziona un punto dati nell'oggetto visivo. L'oggetto visivo interagisce con Power BI e altri oggetti visivi passando le selezioni all'host. L'utente seleziona quindi "Aggiungi" in `Bookmark panel` e Power BI salva le selezioni correnti per il nuovo segnalibro.
+In primo luogo, si seleziona un punto dati nell'oggetto visivo. L'oggetto visivo interagisce con Power BI e altri oggetti visivi passando le selezioni all'host. Si seleziona quindi **Aggiungi** nel riquadro **Segnalibro** e Power BI salva le selezioni correnti per il nuovo segnalibro.
 
-Questo si verifica ripetutamente quando l'utente modifica la selezione e aggiunge nuovi segnalibri.
-Una volta creato il segnalibro, l'utente può passare tra un segnalibro e l'altro.
+Questo si verifica ripetutamente quando si modifica la selezione e si aggiungono nuovi segnalibri. Dopo aver creato i segnalibri, è possibile spostarsi tra di essi.
 
-Quando gli utenti selezionano un segnalibro, Power BI ripristina lo stato di selezione o di filtro salvato e passa agli oggetti visivi. Gli altri oggetti visivi verranno evidenziati o filtrati in base allo stato archiviato nel segnalibro. L'host Power BI è responsabile delle azioni. L'oggetto visivo è responsabile di far riflettere correttamente il nuovo stato di selezione, ad esempio la modifica del colore dei punti dati di cui è stato eseguito il rendering.
+Quando si seleziona un segnalibro, Power BI ripristina lo stato di selezione o di filtro salvato e lo passa agli oggetti visivi. Gli altri oggetti visivi vengono evidenziati o filtrati in base allo stato archiviato nel segnalibro. L'host Power BI è responsabile delle azioni. L'oggetto visivo è responsabile di far riflettere correttamente il nuovo stato di selezione, ad esempio per la modifica dei colori dei punti dati di cui è stato eseguito il rendering.
 
-Il nuovo stato di selezione viene comunicato all'oggetto visivo tramite il metodo `update`. L'argomento `options` conterrà una proprietà speciale: `options.jsonFilters`. Si tratta di JSONFilter e la proprietà può contenere `Advanced Filter` e `Tuple Filter`.
+Il nuovo stato di selezione viene comunicato all'oggetto visivo tramite il metodo `update`. L'argomento `options` contiene una proprietà speciale, `options.jsonFilters`. La proprietà JSONFilter può contenere `Advanced Filter` e `Tuple Filter`.
 
-L'oggetto visivo deve ripristinare i valori di filtro per visualizzare lo stato corrispondente dell'oggetto visivo per il segnalibro selezionato.
+L'oggetto visivo deve ripristinare i valori di filtro per visualizzare lo stato corrispondente dell'oggetto visivo per il segnalibro selezionato. In alternativa, se l'oggetto visivo usa solo selezioni, è possibile usare la chiamata della funzione di callback speciale registrata come metodo `registerOnSelectCallback` di ISelectionManager.
 
-In alternativa, usare la chiamata della funzione di callback speciale registrata nel metodo `registerOnSelectCallback` di ISelectionManager, se l'oggetto visivo usa solo selezioni.
+### <a name="visuals-with-selection"></a>Oggetti visivi con selezione
 
-### <a name="visuals-with-selections"></a>Oggetti visivi con selezioni
+Se l'oggetto visivo interagisce con altri oggetti visivi usando [Selection](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), è possibile aggiungere i segnalibri in uno dei due modi seguenti:
 
-Se gli oggetti visivi interagiscono con altri oggetti visivi tramite [selezioni](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), è possibile aggiungere segnalibri in due modi diversi.
+* Se l'oggetto visivo non ha già usato [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md), è possibile usare il metodo `FilterManager.restoreSelectionIds`.
 
-* È possibile usare il metodo `FilterManager.restoreSelectionIds` se **non è stato usato [`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** in precedenza nell'oggetto visivo.
+* Se l'oggetto visivo usa già [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) per gestire le selezioni, è consigliabile usare il metodo `applySelectionFromFilter` nell'istanza di `InteractivityService`.
 
-* Se l'oggetto visivo usa già **[`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** per gestire le selezioni, è necessario usare il metodo `applySelectionFromFilter` nell'istanza di `InteractivityService`.
+#### <a name="use-iselectionmanagerregisteronselectcallback"></a>Usare ISelectionManager.registerOnSelectCallback
 
-#### <a name="using-iselectionmanagerregisteronselectcallback"></a>Uso di `ISelectionManager.registerOnSelectCallback`
-
-Quando un utente fa clic sui segnalibri, Power BI chiama il metodo `callback` dell'oggetto visivo con le selezioni corrispondenti. 
+Quando si seleziona un segnalibro, Power BI chiama il metodo `callback` dell'oggetto visivo con le selezioni corrispondenti. 
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -69,7 +66,7 @@ this.selectionManager.registerOnSelectCallback(
 );
 ```
 
-Si supponga che nell'oggetto visivo sia presente un punto dati creato nel metodo [`'visualTransform'`](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74).
+Si supponga di avere un punto dati nell'oggetto visivo creato nel metodo [visualTransform](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74).
 
 `datapoints` ha un aspetto simile al seguente:
 
@@ -84,9 +81,9 @@ visualDataPoints.push({
 });
 ```
 
-Di conseguenza, sono presenti `visualDataPoints` come punti dati e la matrice `ids` passata alla funzione `callback`.
+Sono ora presenti `visualDataPoints` come punti dati e la matrice `ids` passata alla funzione `callback`.
 
-A questo punto, l'oggetto visivo deve confrontare la matrice di `ISelectionId[]` con le selezioni nella matrice `visualDataPoints` e contrassegnare i punti dati corrispondenti come selezionati.
+A questo punto, l'oggetto visivo deve confrontare la matrice `ISelectionId[]` con le selezioni nella matrice `visualDataPoints` e contrassegnare i punti dati corrispondenti come selezionati.
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -104,17 +101,19 @@ this.selectionManager.registerOnSelectCallback(
 
 Una volta aggiornati, i punti dati riflettono lo stato di selezione corrente archiviato nell'oggetto `filter`. Quando viene eseguito il rendering dei punti dati, lo stato di selezione dell'oggetto visivo personalizzato corrisponderà allo stato del segnalibro.
 
-### <a name="using-interactivityservice-for-control-selections-in-the-visual"></a>Uso di `InteractivityService` per le selezioni dei controlli nell'oggetto visivo
+### <a name="use-interactivityservice-for-control-selections-in-the-visual"></a>Usare InteractivityService per le selezioni dei controlli nell'oggetto visivo
 
 Se l'oggetto visivo usa `InteractivityService`, non è necessario eseguire altre azioni per supportare i segnalibri al suo interno.
 
-L'utilità gestirà lo stato di selezione dell'oggetto visivo quando l'utente seleziona i segnalibri.
+Quando si selezionano i segnalibri, l'utilità gestisce lo stato di selezione dell'oggetto visivo.
 
-### <a name="visuals-with-filter"></a>Oggetti visivi con filtro
+### <a name="visuals-with-a-filter"></a>Oggetti visivi con un filtro
 
-Si supponga che l'oggetto visivo crei un filtro di dati in base all'intervallo di date. `startDate` e `endDate` corrispondono all'inizio e alla fine dell'intervallo.
+Si supponga che l'oggetto visivo crei un filtro di dati in base all'intervallo di date. `startDate` ed `endDate` sono le date di inizio e di fine dell'intervallo.
+
 L'oggetto visivo crea un filtro avanzato e chiama il metodo host `applyJsonFilter` per filtrare i dati in base alle condizioni pertinenti.
-`target` è la tabella per il filtro.
+
+La destinazione è la tabella usata per il filtro.
 
 ```typescript
 import { AdvancedFilter } from "powerbi-models";
@@ -145,7 +144,7 @@ this.host.applyJsonFilter(
 );
 ```
 
-Ogni volta che un utente fa clic su un segnalibro, l'oggetto visivo riceve una chiamata `update`.
+Ogni volta che si seleziona un segnalibro, l'oggetto visivo riceve una chiamata `update`.
 
 L'oggetto visivo personalizzato deve controllare il filtro nell'oggetto:
 
@@ -176,21 +175,21 @@ if (jsonFilters
 }
 ```
 
-L'oggetto visivo deve quindi modificare il proprio stato interno, ovvero i punti dati e gli oggetti di visualizzazione (linee, rettangoli e così via), in modo da riflettere le condizioni correnti.
+A questo punto, l'oggetto visivo deve modificare lo stato interno per riflettere le condizioni correnti. Lo stato interno include i punti dati e gli oggetti di visualizzazione (linee, rettangoli e così via).
 
 > [!IMPORTANT]
-> Nello scenario dei segnalibri del report, l'oggetto visivo non deve chiamare `applyJsonFilter` per filtrare altri oggetti visivi, che verranno già filtrati da Power BI.
+> Nello scenario dei segnalibri del report, l'oggetto visivo non deve chiamare `applyJsonFilter` per filtrare gli altri oggetti visivi, che verranno già filtrati da Power BI.
 
-L'oggetto visivo del filtro dati della sequenza temporale modifica il selettore di intervallo in modo che corrisponda agli intervalli di dati.
+L'oggetto visivo del filtro dei dati della sequenza temporale imposta il selettore di intervallo sugli intervalli di dati corrispondenti.
 
 Per altre informazioni, vedere il [repository di Timeline Slicer](https://github.com/Microsoft/powerbi-visuals-timeline/commit/606f1152f59f82b5b5a367ff3b117372d129e597?diff=unified#diff-b6ef9a9ac3a3225f8bd0de84bee0a0df).
 
-### <a name="filter-state-to-save-visual-properties-in-bookmarks"></a>Filtrare lo stato per salvare le proprietà dell'oggetto visivo nei segnalibri
+### <a name="filter-the-state-to-save-visual-properties-in-bookmarks"></a>Filtrare lo stato per salvare le proprietà dell'oggetto visivo nei segnalibri
 
-La proprietà `filterState` crea una proprietà di una parte del filtro. L'oggetto visivo può archiviare valori diversi nei segnalibri.
+La proprietà `filterState` crea una proprietà di una parte del filtro. L'oggetto visivo può archiviare svariati valori nei segnalibri.
 
-Per salvare il valore della proprietà come stato di filtro, la proprietà dell'oggetto deve essere contrassegnata come `"filterState": true` in `capabilities.json`.
+Per salvare il valore della proprietà come stato del filtro, contrassegnare la proprietà dell'oggetto come `"filterState": true` nel file *capabilities.json*.
 
-Esempio: `Timeline Slicer` archivia i valori della proprietà `Granularity` nel filtro. Permette quindi di modificare la granularità corrente alla modifica dei segnalibri da parte dell'utente.
+Il filtro dei dati della sequenza temporale, ad esempio, archivia i valori della proprietà `Granularity` in un filtro. Consente la modifica della granularità corrente quando si modificano i segnalibri.
 
 Per altre informazioni, vedere il [repository di Timeline Slicer](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334).

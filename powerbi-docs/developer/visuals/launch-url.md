@@ -1,6 +1,6 @@
 ---
-title: URL di avvio
-description: Gli oggetti visivi di Power BI possono aprire un URL in una nuova scheda
+title: Creare un URL di avvio
+description: Questo articolo descrive come aprire l'URL in una nuova scheda usando gli oggetti visivi di Power BI.
 author: Guy-Moses
 ms.author: guymos
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1a7002c3b45f341c0cbc0db683bc4f8a113e21f9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 3ef6be9383b606ce865b4bcd3ccda397e471301b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424862"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236647"
 ---
-# <a name="launch-url"></a>URL di avvio
+# <a name="create-a-launch-url"></a>Creare un URL di avvio
 
-L'URL di avvio permette di aprire una nuova scheda o finestra del browser, delegando l'effettiva operazione a Power BI.
+Creando un URL di avvio, è possibile aprire una nuova scheda o finestra del browser, delegando l'effettiva operazione a Power BI.
 
 ## <a name="sample"></a>Esempio
 
@@ -36,18 +36,21 @@ this.host.launchUrl('http://some.link.net');
 
 ## <a name="restrictions"></a>Restrizioni
 
-* Usare solo i percorsi assoluti, non quelli relativi. `http://some.link.net/subfolder/page.html` è corretto, mentre `/page.html` non verrà aperto.
-* Attualmente sono supportati solo i protocolli `http` e `https`. Evitare `ftp`, `mailto` e così via.
+* Usare solo i percorsi assoluti, non quelli relativi. Ad esempio, usare un percorso assoluto come `http://some.link.net/subfolder/page.html`. Il percorso relativo, `/page.html`, non verrà aperto.
+
+* Attualmente sono supportati solo i protocolli *HTTP* e *HTTPS*. Evitare *FTP*, *MAILTO* e così via.
 
 ## <a name="best-practices"></a>Procedure consigliate
 
-1. Per la maggior parte dei casi, è preferibile aprire un collegamento solo come risposta a un'azione esplicita dell'utente. Spiegare chiaramente all'utente che facendo clic sul collegamento o sul pulsante verrà aperta una nuova scheda. L'attivazione di una chiamata `launchUrl()` senza un'azione da parte dell'utente o come effetto collaterale di un'azione diversa può causare confusione o frustrazione nell'utente.
-2. Se il collegamento non è essenziale per il corretto funzionamento dell'oggetto visivo, è consigliabile fornire all'autore del report un modo per disabilitare e nascondere il collegamento. Questo è particolarmente importante per i casi d'uso speciali di Power BI, ad esempio l'incorporamento di un report in un'applicazione di terze parti o la sua pubblicazione sul Web.
-3. Evitare di attivare una chiamata `launchUrl()` all'interno di un ciclo, della funzione `update` dell'oggetto visivo o di qualsiasi altro codice che ricorre di frequente.
+* In genere, è preferibile aprire un collegamento solo come risposta a un'azione esplicita dell'utente. Spiegare chiaramente all'utente che facendo clic sul collegamento o sul pulsante verrà aperta una nuova scheda. L'attivazione di una chiamata `launchUrl()` senza un'azione da parte dell'utente o come effetto collaterale di un'azione diversa può causare confusione o frustrazione nell'utente.
 
-## <a name="step-by-step-example"></a>Esempio dettagliato
+* Se il collegamento non è essenziale per il corretto funzionamento dell'oggetto visivo, è consigliabile fornire all'autore del report un modo per disabilitare e nascondere il collegamento. Questo è particolarmente importante per i casi d'uso speciali di Power BI, ad esempio l'incorporamento di un report in un'applicazione di terze parti o la sua pubblicazione sul Web.
 
-### <a name="adding-a-link-launching-element"></a>Aggiunta di un elemento di avvio di un collegamento
+* Evitare di attivare una chiamata `launchUrl()` all'interno di un ciclo, della funzione `update` dell'oggetto visivo o di qualsiasi altro codice che ricorre di frequente.
+
+## <a name="a-step-by-step-example"></a>Esempio dettagliato
+
+### <a name="add-a-link-launching-element"></a>Aggiungere un elemento di avvio di un collegamento
 
 Sono state aggiunte le righe seguenti alla funzione `constructor`:
 
@@ -56,7 +59,7 @@ Sono state aggiunte le righe seguenti alla funzione `constructor`:
     options.element.appendChild(this.helpLinkElement);
 ```
 
-È stata inoltre aggiunta una funzione privata creando e collegando l'elemento di ancoraggio:
+È stata aggiunta una funzione privata che crea e collega l'elemento di ancoraggio:
 
 ```typescript
 private createHelpLinkElement(): Element {
@@ -71,7 +74,7 @@ private createHelpLinkElement(): Element {
 };
 ```
 
-Infine, una voce nel file visual.less definisce lo stile per l'elemento link:
+Infine, una voce nel file *visual.less* definisce lo stile per l'elemento link:
 
 ```less
 .helpLink {
@@ -103,10 +106,11 @@ Infine, una voce nel file visual.less definisce lo stile per l'elemento link:
 }
 ```
 
-### <a name="adding-a-toggling-mechanism"></a>Aggiunta di un meccanismo di attivazione/disattivazione
+### <a name="add-a-toggling-mechanism"></a>Aggiungere un meccanismo di attivazione/disattivazione
 
-Questa operazione richiede l'aggiunta di un oggetto statico (vedere l'[esercitazione sugli oggetti statici](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties)), in modo che l'autore del report possa attivare o disattivare la visibilità dell'elemento link. L'impostazione predefinita consiste nel nascondere l'elemento.
-Un oggetto statico booleano `showHelpLink` è stato aggiunto alla voce objects in `capabilities.json`:
+Per aggiungere un meccanismo di attivazione/disattivazione, è necessario aggiungere un oggetto statico, in modo che l'autore del report possa attivare o disattivare la visibilità dell'elemento link. Il valore predefinito è *hidden*. Per altre informazioni, vedere l'[esercitazione sugli oggetti statici](https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties).
+
+Un oggetto statico booleano `showHelpLink` è stato aggiunto alla voce objects del file *capabilities.json*, come illustrato nel codice seguente:
 
 ```typescript
 "objects": {
@@ -136,4 +140,4 @@ if (settings.generalView.showHelpLink) {
 }
 ```
 
-In visual.less è stata definita la classe `hidden` per controllare la visualizzazione dell'elemento.
+Nel file *visual.less* è stata definita la classe *hidden* per controllare la visualizzazione dell'elemento.

@@ -1,6 +1,6 @@
 ---
-title: Pagina di destinazione
-description: Come aggiungere una pagina di destinazione a oggetti visivi di Power BI
+title: Aggiungere una pagina di destinazione a oggetti visivi di Power BI
+description: Questo articolo descrive come aggiungere una pagina di destinazione a oggetti visivi di Power BI.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424885"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236698"
 ---
-# <a name="landing-page"></a>Pagina di destinazione
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Aggiungere una pagina di destinazione a oggetti visivi di Power BI
 
-Con l'API 2.3.0 è possibile aggiungere una pagina di destinazione all'oggetto visivo. A questo scopo, aggiungere la proprietà `supportsLandingPage` alle funzionalità e impostarla su true. L'oggetto visivo verrà inizializzato e aggiornato ancora prima di aggiungervi dati, ovvero non mostrerà più una filigrana, in modo da poter progettare una pagina di destinazione personalizzata da visualizzare nell'oggetto visivo, purché non contenga dati.
+Con l'API 2.3.0 è possibile aggiungere una pagina di destinazione agli oggetti visivi di Power BI. A tale scopo, aggiungere la proprietà `supportsLandingPage` alle funzionalità e impostarla su true. Questa azione inizializza e aggiorna l'oggetto visivo prima dell'aggiunta di dati. Poiché l'oggetto visivo non mostra più una filigrana, è possibile progettare una pagina di destinazione personalizzata da visualizzare nell'oggetto visivo, purché non contenga dati.
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-Esempio
+Una pagina di destinazione di esempio è illustrata nell'immagine seguente:
 
 ![Screenshot della pagina di destinazione](./media/landing-page.png)

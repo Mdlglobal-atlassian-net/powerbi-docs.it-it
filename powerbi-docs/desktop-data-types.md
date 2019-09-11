@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 04/10/2019
+ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61309005"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391780"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -44,7 +44,7 @@ Power BI Desktop supporta tre tipi numerici:
 
 **Numero decimale fisso** : contiene una posizione fissa per il separatore decimale. Il separatore decimale ha sempre quattro cifre a destra e consente 19 cifre significative.  Il valore più grande che può rappresentare è 922.337.203.685.477,5807 (positivo o negativo).  Il tipo Numero decimale fisso è utile nei casi in cui l'arrotondamento potrebbe introdurre errori.  Quando si lavora con molti numeri che hanno piccoli valori frazionari, talvolta questi possono accumularsi forzando un numero a non essere propriamente corretto.  Poiché i valori dopo le quattro cifre a destra del separatore decimale vengono troncati, il tipo Numero decimale fisso può consentire di evitare questi tipi di errori.   Se si ha familiarità con SQL Server, questo tipo di dati corrisponde al tipo Decimale di SQL Server (19,4) o al tipo di dati Valuta in Power Pivot. 
 
-**Numero intero** : rappresenta un valore intero a 64 bit (8 byte). Poiché si tratta di un numero intero, non ci sono cifre a destra della posizione decimale. Consente 19 cifre e ammette numeri interi positivi o negativi compresi tra -9.223.372.036.854.775.808 (-2^63) e 9.223.372.036.854.775.807 (2^63-1).  Può rappresentare il numero più grande possibile dei vari tipi di dati numerici.  Analogamente al tipo Numero decimale fisso, il tipo Numero intero può essere utile nei casi in cui sia necessario controllare l'arrotondamento. 
+**Numero intero** : rappresenta un valore intero a 64 bit (8 byte). Poiché si tratta di un numero intero, non ci sono cifre a destra della posizione decimale. Consente 19 cifre e ammette numeri interi positivi o negativi compresi tra -9.223.372.036.854.775.807 (-2^63+1) e 9.223.372.036.854.775.806 (2^63-2). Può rappresentare il numero più grande possibile dei vari tipi di dati numerici.  Analogamente al tipo Numero decimale fisso, il tipo Numero intero può essere utile nei casi in cui sia necessario controllare l'arrotondamento. 
 
 > [!NOTE]
 >  Il modello di dati di Power BI Desktop supporta valori interi a 64 bit, ma il numero più grande che gli oggetti visivi possono esprimere in modo sicuro è 9.007.199.254.740.991 (2^53-1) a causa delle limitazioni di JavaScript. Se nel modello di dati si lavora con numeri più grandi di questo, è possibile ridurne le dimensioni tramite calcoli prima di aggiungerli a un oggetto visivo 

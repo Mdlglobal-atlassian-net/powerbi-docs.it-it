@@ -1,6 +1,6 @@
 ---
-title: Recuperare altri dati
-description: Abilitare il recupero segmentato di set di dati di grandi dimensioni per gli oggetti visivi di Power BI
+title: Recuperare altri dati da Power BI
+description: Questo articolo illustra come abilitare un recupero segmentato di set di dati di grandi dimensioni per gli oggetti visivi di Power BI.
 author: AviSander
 ms.author: asander
 manager: rkarlin
@@ -9,23 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: bc8ff673927fd66bf44164e4e9950c279b98c6c1
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 7e5ecc0e317a21d10e76e9413926822ac4d6760b
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425069"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237146"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Recuperare altri dati da Power BI
 
-L'API per il caricamento di altri dati permette di superare il rigido limite di 30.000 punti dati. L'API restituisce i dati in blocchi. Le dimensioni dei blocchi sono configurabili per migliorare le prestazioni in base al caso d'uso.  
+Questo articolo illustra come caricare più dati per ignorare il rigido limite di un punto dati da 30 KB. Questo approccio fornisce i dati in blocchi. Per migliorare le prestazioni, è possibile configurare le dimensioni dei blocchi in base al caso d'uso.  
 
-## <a name="enable-segmented-fetch-of-large-datasets"></a>Abilitare il recupero segmentato di set di dati di grandi dimensioni
+## <a name="enable-a-segmented-fetch-of-large-datasets"></a>Abilitare un recupero segmentato di set di dati di grandi dimensioni
 
-Per la modalità di segmentazione `dataview`, definire una "finestra" dataReductionAlgorithm nel file `capabilities.json` dell'oggetto visivo per l'oggetto dataViewMapping necessario.
-`count` determina le dimensioni della finestra, che limita il numero di nuove righe di dati accodate a `dataview` in ogni aggiornamento.
+Per la modalità di segmentazione `dataview`, definire le dimensioni della finestra per dataReductionAlgorithm nel file *capabilities.json* dell'oggetto visivo per l'oggetto dataViewMapping necessario. `count` determina le dimensioni della finestra, che limita il numero di nuove righe di dati che possono essere accodate a `dataview` in ogni aggiornamento.
 
-Da aggiungere nel file capabilities.json
+Aggiungere il codice seguente nel file *capabilities.json*:
 
 ```typescript
 "dataViewMappings": [
@@ -47,9 +46,9 @@ Da aggiungere nel file capabilities.json
 
 I nuovi segmenti vengono accodati all'oggetto `dataview` esistente e forniti all'oggetto visivo come chiamata `update`.
 
-## <a name="usage-in-the-custom-visual"></a>Utilizzo nell'oggetto visivo personalizzato
+## <a name="usage-in-the-power-bi-visual"></a>Uso nell'oggetto visivo di Power BI
 
-I dati di indicazione sono presenti o non possono essere determinati controllando l'esistenza di `dataView.metadata.segment`:
+È possibile determinare se i dati sono presenti verificando l'esistenza di `dataView.metadata.segment`:
 
 ```typescript
     public update(options: VisualUpdateOptions) {
@@ -59,9 +58,7 @@ I dati di indicazione sono presenti o non possono essere determinati controlland
     }
 ```
 
-È anche possibile verificare se si tratta del primo aggiornamento o di uno successivo controllando `options.operationKind`.
-
-`VisualDataChangeOperationKind.Create` indica il primo segmento, `VisualDataChangeOperationKind.Append` indica i segmenti successivi.
+È anche possibile verificare se si tratta del primo aggiornamento o di uno successivo controllando `options.operationKind`. Nel codice seguente, `VisualDataChangeOperationKind.Create` fa riferimento al primo segmento e `VisualDataChangeOperationKind.Append` fa riferimento ai segmenti successivi.
 
 Per un'implementazione di esempio, vedere il frammento di codice seguente:
 
@@ -73,7 +70,7 @@ public update(options: VisualUpdateOptions) {
 
     }
 
-    // on second or subesquent segments:
+    // on second or subsequent segments:
     if (options.operationKind == VisualDataChangeOperationKind.Append) {
 
     }
@@ -82,24 +79,24 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-Il metodo `fetchMoreData` può anche essere richiamato da un gestore eventi dell'interfaccia utente
+È anche possibile richiamare il metodo `fetchMoreData` da un gestore eventi dell'interfaccia utente, come illustrato di seguito:
 
 ```typescript
 btn_click(){
 {
-    // check if more data is expected for the current dataview
+    // check if more data is expected for the current data view
     if (dataView.metadata.segment) {
-        //request for more data if available, as resopnce Power BI will call update method
+        //request for more data if available; as a response, Power BI will call update method
         let request_accepted: bool = this.host.fetchMoreData();
         // handle rejection
         if (!request_accepted) {
-            // for example when the 100 MB limit has been reached
+            // for example, when the 100 MB limit has been reached
         }
     }
 }
 ```
 
-Power BI chiamerà il metodo `this.host.fetchMoreData` dell'oggetto visivo con un nuovo segmento di dati come risposta alla chiamata del metodo `update`.
+Come risposta alla chiamata del metodo `this.host.fetchMoreData`, Power BI chiama il metodo `update` dell'oggetto visivo con un nuovo segmento di dati.
 
 > [!NOTE]
-> Power BI attualmente limita i dati recuperati totali a **100 MB** per evitare vincoli di memoria del client. È possibile rilevare il raggiungimento di questo limite quando fetchMoreData () restituisce "false".*
+> Per evitare vincoli di memoria del client, Power BI attualmente limita i dati recuperati totali a 100 MB. È possibile rilevare il raggiungimento del limite quando fetchMoreData() restituisce `false`.

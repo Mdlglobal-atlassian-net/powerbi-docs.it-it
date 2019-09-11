@@ -1,6 +1,6 @@
 ---
-title: Supporto per la modalità a contrasto elevato
-description: Aggiungere il supporto per la modalità a contrasto elevato agli oggetti visivi di Power BI
+title: Supporto per la modalità a contrasto elevato negli oggetti visivi di Power BI
+description: Questo articolo descrive come aggiungere il supporto per la modalità a contrasto elevato agli oggetti visivi di Power BI.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,30 +9,22 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cb77ea012fdfdbd5be62c58c6f9b94a0355db1a9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f7f1a2277b3cdf38554039136010ab60c8f09bae
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424931"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237196"
 ---
-# <a name="high-contrast-mode-support"></a>Supporto per la modalità a contrasto elevato
+# <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Supporto per la modalità a contrasto elevato negli oggetti visivi di Power BI
 
-L'impostazione *Contrasto elevato* di Windows migliora la visualizzazione di testo e app usando colori più nitidi.
-Per altre informazioni, vedere [Supporto per il contrasto elevato in Power BI](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast).
+L'impostazione *Contrasto elevato* di Windows migliora la visualizzazione di testo e app usando colori più nitidi. Questo articolo descrive come aggiungere il supporto per la modalità a contrasto elevato agli oggetti visivi di Power BI. Per altre informazioni, vedere [Supporto per il contrasto elevato in Power BI](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast).
 
-Per aggiungere il supporto per il contrasto elevato a un oggetto visivo, è necessario:
+Per visualizzare un'implementazione del supporto per il contrasto elevato, vedere il [repository dell'oggetto visivo PowerBI-visuals-sampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6).
 
-1. All'inizializzazione: Determinare se Power BI è in modalità a contrasto elevato e, se sì, ottenere i colori a contrasto elevato correnti.
-2. A ogni aggiornamento: Modificare il modo in cui viene eseguito il rendering dell'oggetto visivo per semplificarne la visualizzazione.
+## <a name="on-initialization"></a>Durante l'inizializzazione
 
-L'oggetto visivo PowerBI-visuals-sampleBarChart include l'implementazione del supporto per il contrasto elevato.
-
-Per altre informazioni, vedere il [repository dell'oggetto visivo PowerBI-visuals-sampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6)
-
-## <a name="on-init"></a>All'inizializzazione
-
-Il membro colorPalette di `options.host` include diverse proprietà per la modalità a contrasto elevato. Usare queste proprietà per determinare se la modalità a contrasto elevato è attiva e, se sì, quali colori usare.
+Il membro colorPalette di `options.host` include diverse proprietà per la modalità a contrasto elevato. Usare queste proprietà per determinare se la modalità a contrasto elevato è attiva e, in tal caso, quali colori usare.
 
 ### <a name="detect-that-power-bi-is-in-high-contrast-mode"></a>Determinare che Power BI è in modalità a contrasto elevato
 
@@ -40,7 +32,7 @@ Se `host.colorPalette.isHighContrast` è `true`, la modalità a contrasto elevat
 
 ### <a name="get-high-contrast-colors"></a>Ottenere i colori a contrasto elevato
 
-In modalità a contrasto elevato l'oggetto visivo deve limitarsi ai colori seguenti:
+In modalità a contrasto elevato l'oggetto visivo deve limitarsi alle impostazioni seguenti:
 
 * Il colore di **primo piano** viene usato per disegnare qualsiasi linea, icona, testo, contorno o riempimento delle forme.
 * Il colore di **sfondo** viene usato per lo sfondo e come colore di riempimento delle forme con contorno.
@@ -50,7 +42,7 @@ In modalità a contrasto elevato l'oggetto visivo deve limitarsi ai colori segue
 > [!NOTE]
 > Se è necessario un colore secondario, è possibile usare il colore di primo piano con una certa opacità. Gli oggetti visivi nativi di Power BI usano un'opacità del 40%. Usare questa opzione con cautela per mantenere facilmente visualizzabili i dettagli degli oggetti visivi.
 
-È possibile archiviare questi valori durante l'inizializzazione:
+Durante l'inizializzazione, è possibile archiviare i valori seguenti:
 
 ```typescript
 private isHighContrast: boolean;
@@ -78,24 +70,24 @@ In alternativa, è possibile archiviare l'oggetto `host` durante l'inizializzazi
 
 ## <a name="on-update"></a>All'aggiornamento
 
-Le implementazioni specifiche del supporto per il contrasto elevato variano a seconda dell'oggetto visivo e dipendono dai dettagli della progettazione grafica. In genere, la modalità a contrasto elevato richiede una progettazione leggermente diversa da quella predefinita, per rendere i dettagli importanti più facilmente distinguibili con i colori limitati.
+Le implementazioni specifiche del supporto per il contrasto elevato variano a seconda dell'oggetto visivo e dipendono dai dettagli della progettazione grafica. Per rendere i dettagli importanti più facilmente distinguibili con i colori limitati, in genere la modalità a contrasto elevato richiede una progettazione leggermente diversa da quella predefinita.
 
-Ecco alcune linee guida seguite dagli oggetti visivi nativi di Power BI:
+Gli oggetti visivi nativi di Power BI seguono le linee guida seguenti:
 
 * Tutti i punti dati usano lo stesso colore (di primo piano).
-* Tutto il testo e tutti gli assi, le frecce, le linee così via usano il colore di primo piano.
+* Tutto il testo, gli assi, le frecce, le linee e così via usano il colore di primo piano.
 * Le forme spesse vengono disegnate come contorni, con tratti spessi (almeno due pixel) e riempimento del colore di sfondo.
-* Quando necessario, i punti dati si distinguono tramite forme del marcatore diverse, mentre le righe di dati si distinguono per il tratteggio diverso.
+* Quando sono rilevanti, i punti dati si distinguono tramite forme del marcatore diverse, mentre le righe di dati si distinguono per il tratteggio diverso.
 * Quando un elemento dati è evidenziato, tutti gli altri elementi passano a un'opacità del 40%.
 * Per i filtri dei dati, gli elementi del filtro attivo usano il colore selezionato in primo piano.
 
-Nel grafico a barre di esempio tutte le barre vengono disegnate con un contorno nel colore di primo piano di due pixel e un riempimento di sfondo. Confrontare il modo in cui appare con i colori predefiniti e con un paio di temi a contrasto elevato:
+Nel grafico a barre di esempio seguente tutte le barre vengono disegnate con un contorno nel colore di primo piano di due pixel e un riempimento di sfondo. Confrontare il modo in cui appare con i colori predefiniti e con un paio di temi a contrasto elevato:
 
 ![Grafico a barre di esempio che usa colori standard](./media/hc-samplebarchart-standard.png)
 ![Grafico a barre di esempio che usa la combinazione di colori *Scuro n. 2*](./media/hc-samplebarchart-dark2.png)
 ![Grafico a barre di esempio che usa la combinazione di colori *Bianco*](./media/hc-samplebarchart-white.png)
 
-Ecco un punto nella funzione `visualTransform` che è stato modificato per supportare il contrasto elevato. Viene chiamato come parte del rendering durante `update`:
+La sezione successiva mostra un punto nella funzione `visualTransform` che è stato modificato per supportare il contrasto elevato. Viene chiamato come parte del rendering durante l'aggiornamento.
 
 ### <a name="before"></a>Prima
 
