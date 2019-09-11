@@ -6,22 +6,18 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: overview
-ms.date: 08/19/2019
+ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0e12d110708c955e0c63e11f7578523222375448
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 3ee116f4467abaeecf8c96f6e7e469f3265a9ebe
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654975"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751621"
 ---
 # <a name="what-is-power-bi"></a>Che cos'è Power BI?
 **Power BI** è una raccolta di servizi software, app e connettori che interagiscono per trasformare le origini dei dati non correlate in un insieme di informazioni coerenti, visivamente accattivanti e interattive. I dati potrebbero essere un foglio di calcolo di Excel o una raccolta di data warehouse basati sul cloud o ibridi locali. Power BI consente di connettersi facilmente alle origini dati, visualizzare e scoprire le informazioni importanti e condividerle con tutti gli utenti o con quelli necessari.
-
-![diagramma che illustra le origini di input per Power BI](media/power-bi-overview/power-bi-input-new.png)
-
-Power BI può essere semplice e rapido, in grado di ricavare informazioni veloci da un foglio di calcolo di Excel o un database locale. Power BI è tuttavia anche un prodotto solido e di classe enterprise, pronto per la modellazione su vasta scala e l'analisi in tempo reale, nonché per lo sviluppo personalizzato. Può essere usato come strumento personale per report e visualizzazioni e anche ricoprire la funzione di motore per le analisi e le decisioni in progetti di gruppo, reparti o intere aziende.
 
 ## <a name="the-parts-of-power-bi"></a>Gli elementi di Power BI
 Power BI è costituito da: 
@@ -38,7 +34,7 @@ Un quarto elemento, **Server di report di Power BI**, consente di pubblicare rep
 ## <a name="how-power-bi-matches-your-role"></a>Vantaggi di Power BI in base al ruolo
 Il modo di usare Power BI può variare in base al ruolo ricoperto all'interno di un progetto o di un team. Utenti con altri ruoli possono usare Power BI in modo completamente diverso.
 
-Ad esempio, può capitare che un utente usi principalmente il **servizio Power BI** e che i suoi colleghi addetti a calcoli e report aziendali usino invece **Power BI Desktop** per creare i report e pubblicarli nel servizio Power BI, dove l'utente iniziale può visualizzarli. Un altro collega che si occupa di vendite potrebbe sfruttare in misura maggiore l'**app per telefoni di Power BI** per monitorare l'avanzamento delle quote di vendita e approfondire nuovi dettagli importanti dal proprio dispositivo.
+Ad esempio, può capitare che un utente usi principalmente il **servizio Power BI** per visualizzare report e dashboard e che i suoi colleghi addetti a calcoli e report aziendali usino invece **Power BI Desktop** per creare i report e pubblicarli nel servizio Power BI, dove l'utente iniziale può visualizzarli. Un altro collega che si occupa di vendite potrebbe sfruttare in misura maggiore l'**app per telefoni di Power BI** per monitorare l'avanzamento delle quote di vendita e accedere ai dettagli sui nuovi clienti potenziali.
 
 Gli sviluppatori possono usare le API di Power BI per eseguire il push dei dati in un set di dati oppure per incorporare dashboard e report in applicazioni personalizzate. Se si ha un'idea per un nuovo oggetto visivo, è possibile crearlo e condividerlo con altri utenti.  
 
@@ -47,10 +43,10 @@ Può capitare anche che i singoli elementi di Power BI vengano usati in momenti 
 Il modo in cui si usa Power BI può essere basato sulla funzionalità o sul servizio di Power BI che rappresenta lo strumento ottimale per ogni situazione. È possibile ad esempio usare Power BI Desktop per creare report per il team sulle statistiche relative al coinvolgimento del cliente e visualizzare l'inventario e l'avanzamento della produzione in un dashboard in tempo reale nel servizio Power BI. Tutte le parti di Power BI sono a disposizione ed è questo il motivo per cui questo strumento è così flessibile ed efficace.
 
 Esplorare i documenti pertinenti al ruolo:
-- Power BI per [***responsabili di progettazione***](desktop-what-is-desktop.md)
-- Power BI per [***consumer***](consumer/end-user-consumer.md)
-- Power BI per [***sviluppatori***](developer/what-can-you-do.md)
-- Power BI per [***amministratori***](service-admin-administering-power-bi-in-your-organization.md)
+- Power BI Desktop per [*progettisti*](desktop-what-is-desktop.md)
+- Power BI per [*consumer*](consumer/end-user-consumer.md)
+- Power BI per [*sviluppatori*](developer/what-can-you-do.md)
+- Power BI per [*amministratori*](service-admin-administering-power-bi-in-your-organization.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Il flusso di lavoro in Power BI
 Un flusso di lavoro comune in Power BI inizia con la connessione alle origini dati e la creazione di un report in Power BI Desktop. Il report viene poi pubblicato da Power BI Desktop nel servizio Power BI e condiviso, in modo che gli utenti finali del servizio Power BI e dei dispositivi mobili possano visualizzare e interagire con il report.
@@ -58,10 +54,11 @@ Questo flusso di lavoro è comune e illustra le interazioni e la complementariet
 
 Di seguito viene proposto un [confronto dettagliato tra Power BI Desktop e il servizio Power BI](service-service-vs-desktop.md).
 
-Se non si è pronti a passare al cloud e si vogliono mantenere i report dietro un firewall aziendale,  continuare a leggere.
-
 ## <a name="on-premises-reporting-with-power-bi-report-server"></a>Creazione di report in locale con il server di report di Power BI
-Creare, distribuire e gestire Power BI per dispositivi mobili e i report impaginati in locale con la gamma di strumenti e servizi pronti per l'uso offerti dal Server di report di Power BI.
+
+Se non si è pronti a passare al cloud ed è necessario mantenere i report dietro un firewall aziendale,  continuare a leggere.
+
+È possibile creare, distribuire e gestire Power BI per dispositivi mobili e i report impaginati in locale con la gamma di strumenti e servizi pronti per l'uso offerti dal Server di report di Power BI.
 
 ![diagramma per locale](media/power-bi-overview/power-bi-report-server2.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530490"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750889"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -61,7 +61,7 @@ I ruoli consentono di gestire chi può fare cosa in un'area di lavoro per permet
 
 Quando si assegnano i ruoli a un gruppo di utenti, i singoli utenti del gruppo possono accedere al contenuto. Se si annidano gruppi di utenti, tutti gli utenti contenuti sono autorizzati.
 
-Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori.
+Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori. Tutte queste funzionalità, ad eccezione dell'ultima, richiedono una licenza di Power BI Pro.
 
 |Capacità   | Amministratore  | Membro  | Collaboratore  | Visualizzatore |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e
 | Consentire ad altri utenti di ricondividere a loro volta gli elementi. |  X | X  |   |   |
 | Creare, modificare ed eliminare contenuto nell'area di lavoro.  |  X | X  | X  |   |
 | Pubblicare report nell'area di lavoro, eliminare contenuto.  |  X | X  | X  |   |
-| Visualizzare un elemento. |  X | X  | X  | X  |
 | Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro. |  X | X  | X  | X <sup>1</sup>  |
 | Copiare un report. | X | X | X | X <sup>1</sup> |
+| Visualizzare un elemento e interagire con esso. |  X | X  | X  | X  |
 
 **1** Richiede una licenza di Power BI Pro e l'[autorizzazione di compilazione per i set di dati](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
