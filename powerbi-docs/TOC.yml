@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Collegamenti ipertestuali nelle tabelle
               href: power-bi-hyperlinks-in-tables.md
+            - name: Stringhe di formato personalizzate
+              href: desktop-custom-format-strings.md
             - name: Formattazione condizionale delle tabelle
               href: desktop-conditional-table-formatting.md
             - name: Formattazione condizionale del titolo basato sull'espressione
@@ -669,12 +671,14 @@
               href: service-dataflows-computed-entities-premium.md
             - name: Connettersi alle origini dati con flussi di dati
               href: service-dataflows-data-sources.md
-            - name: Uso di flussi di dati con origini dati locali
+            - name: Usare flussi di dati con origini dati locali
               href: service-dataflows-on-premises-gateways.md
             - name: Collegare entità tra flussi di dati
               href: service-dataflows-linked-entities.md
-            - name: Uso dell'aggiornamento incrementale con i flussi di dati
+            - name: Usare l'aggiornamento incrementale con i flussi di dati
               href: service-dataflows-incremental-refresh.md
+            - name: Procedure consigliate per i flussi di dati
+              href: service-dataflows-best-practices.md
             - name: Risorse per sviluppatori per i flussi di dati
               href: service-dataflows-developer-resources.md
             - name: Connettersi a flussi di dati in Power BI Desktop
@@ -715,6 +719,8 @@
               href: service-template-apps-install-distribute.md
             - name: 'Aggiornare, eliminare ed estrarre un''app modello di Power BI'
               href: service-template-update-delete-extract.md
+            - name: Esempi di app modello
+              href: service-template-apps-samples.md
         - name: Risoluzione dei problemi
           items:
             - name: Password dimenticata per Power BI?
