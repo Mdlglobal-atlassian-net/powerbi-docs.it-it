@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Collegamenti ipertestuali nelle tabelle
               href: power-bi-hyperlinks-in-tables.md
+            - name: Visualizzare immagini nelle tabelle
+              href: power-bi-images-tables.md
             - name: Stringhe di formato personalizzate
               href: desktop-custom-format-strings.md
             - name: Formattazione condizionale delle tabelle
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Creare un codice a matrice per un riquadro
               href: service-create-qr-code-for-tile.md
-            - name: Aggiungere un'immagine a un dashboard
-              href: service-dashboard-add-image.md
             - name: Classificazione dei dati del dashboard
               href: service-data-classification.md
             - name: Temi del dashboard
