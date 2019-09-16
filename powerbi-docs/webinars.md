@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023424"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936254"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -22,9 +22,7 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="upcoming-webinars"></a>Webinar futuri
 
-**Using Power BI with Dynamics 365 Finance and Operations** (Uso di Power BI con Dynamics 365 Finance and Operations)
-<br>di Kevin Horlock
-<br>[Registrarsi per guardare l'11 settembre](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+Nessun webinar ancora pianificato. Ricontrollare presto per informazioni sugli eventi futuri.
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ Iniziare dai webinar on demand più popolari
 **Migliorare le competenze di modellazione dei dati con Power BI**
 <br>di Kasper de Jonge
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**Using Power BI with Dynamics 365 Finance and Operations** (Uso di Power BI con Dynamics 365 Finance and Operations)
+<br>di Kevin Horlock
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Microsoft Runs on Power BI – Financial Planning & Analysis Made Easy** (Esecuzioni di Microsoft in Power BI: pianificazione finanziaria e analisi rese più semplici)
 <br>di Cory Hrncirik e Miguel Martinez

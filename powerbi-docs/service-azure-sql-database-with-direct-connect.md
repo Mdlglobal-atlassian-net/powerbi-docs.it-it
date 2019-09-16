@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468145"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70986996"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Database SQL di Azure con DirectQuery
 
@@ -27,7 +27,7 @@ Con DirectQuery, le query vengono inviate nuovamente al database SQL di Azure du
 **Note:**
 
 * Specificare il nome completo del server al momento della connessione (vedere di seguito per altri dettagli).
-* Assicurarsi che le regole del firewall per il database siano impostate su "[Consenti l'accesso a Servizi di Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Assicurarsi che le regole del firewall per il database siano impostate su "[Consenti l'accesso a Servizi di Azure](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
 * Ogni azione, come la selezione di una colonna o l'aggiunta di un filtro, restituirà una query al database.
 * I riquadri vengono aggiornati ogni ora. L'aggiornamento non deve essere pianificato. È possibile regolare la frequenza di aggiornamento nelle impostazioni avanzate al momento della connessione.
 * La funzione Domande e risposte non è disponibile per i set di dati di DirectQuery.

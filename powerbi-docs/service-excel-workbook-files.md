@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513112"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70840950"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Ottenere dati dai file delle cartelle di lavoro di Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -77,8 +77,6 @@ In Excel 2016, è anche possibile usare Pubblica > Esporta. È praticamente la s
 Quando si sceglie **Connetti**, la cartella di lavoro viene visualizzata in Power BI esattamente come in Excel Online. A differenza di Excel Online, però, sono disponibili alcune utilissime funzionalità per aggiungere elementi dai fogli di lavoro direttamente ai dashboard.
 
 Non è possibile modificare la cartella di lavoro in Power BI. Se è necessario apportare modifiche, fare clic su Modifica e quindi scegliere se modificare la cartella di lavoro in Excel Online oppure aprirla in Excel nel computer. Le modifiche apportate vengono salvate nella cartella di lavoro in OneDrive.
-
-Quando si sceglie questa modalità, Power BI crea un set di dati corrispondente per la cartella di lavoro collegata. È possibile usare questo set di dati per creare un report di Power BI, se necessario. La cartella di lavoro verrà visualizzata anche nel riquadro di spostamento dell'area di lavoro di Power BI in Report. Le cartelle di lavoro collegate hanno una speciale icona di Excel.
 
 Scegliere questa opzione se i fogli di lavoro contengono solo dati o se sono presenti intervalli, tabelle pivot e grafici che si vuole aggiungere ai dashboard.
 

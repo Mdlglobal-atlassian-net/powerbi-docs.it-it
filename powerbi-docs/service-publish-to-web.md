@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: d18e61343496eef63dee29afae0a9e95fb382848
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497995"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70987012"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -137,7 +137,7 @@ La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle o
 - Report che contengono misure DAX a livello di report.
 - Modelli di query di dati Single Sign-On.
 - [Proteggere le informazioni riservate o di proprietà](#publish-to-web-from-power-bi).
-- La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare l'approccio all'incorporamento [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md). Altre informazioni sull'approccio [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md).
+- La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare l'approccio all'incorporamento [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md).
 
 ## <a name="tenant-setting"></a>Impostazione del tenant
 
