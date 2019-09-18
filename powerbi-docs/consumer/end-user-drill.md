@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265661"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modalità di espansione in una visualizzazione in Power BI
@@ -48,7 +48,7 @@ Le date sono un tipo univoco di gerarchia. Quando si aggiunge un campo data a un
 
     | Area | Campo |
     | ---- | ----- |
-    | Valore |Vendite<br>\|\_ Total Units This Year (Unità totali di quest'anno) |
+    | Valore |Sales<br>\|\_ Total Units This Year (Unità totali di quest'anno) |
     | Raggruppa | Negozio<br>\|\_ Territory (Territorio)<br>\|\_ City (Città)<br>\|\_ Postal Code (Codice postale)<br>\|\_ Name (Nome)
 
     La mappa ad albero presenta una gerarchia composta da territorio, città, codice postale e nome città. Ogni territorio include una o più città, ogni città include uno o più codici di avviamento postale e così via. Per impostazione predefinita, la visualizzazione mostra solo i dati del territorio, perché *Territory* (Territorio) viene visualizzato per primo nell'elenco.
@@ -209,7 +209,7 @@ Per questo esempio:
     | Area | Campo |
     | ---- | ----- |
     | Asse | Ora<br>\|\_ Month (Mese) |
-    | Valori | Vendite<br>\|\_ TotalSales (Vendite totali) |
+    | Valori | Sales<br>\|\_ TotalSales (Vendite totali) |
 
     Anche se il campo dati Asse è **Mese**, viene tuttavia creata una categoria **Anno** nell'area **Asse**, perché Power BI fornisce la struttura DateTime completa per tutti i valori letti. Nella parte superiore della gerarchia vengono visualizzati i dati per l'anno.
 
@@ -225,7 +225,7 @@ Per questo esempio:
 
 Oltre che nella visualizzazione, la gerarchia è visibile nei dati restituiti per ogni report. Nell'angolo in alto a destra selezionare i puntini di sospensione e quindi selezionare **Mostra dati**. La tabella seguente illustra i risultati del drill-down da un singolo mese o da tutti i mesi:
 
-|Modalità di espansione|Anno|Trimestre|Mese|Giorno|
+|Modalità di espansione|Year|Trimestre|Mese|Giorno|
 | --- |:---:|:---:|:---:|---|
 |Singola|![singolo anno](./media/end-user-drill/power-bi-hierarchical-year.png)|![singolo trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![singolo mese](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![singolo giorno](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Tutti|![tutti gli anni](./media/end-user-drill/power-bi-hierarchical-year.png)|![tutti i trimestri](media/end-user-drill/power-bi-hierarchical-quarter.png)|![tutti i mesi](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![tutti i giorni](media/end-user-drill/power-bi-hierarchical-all-day.png)|
@@ -244,7 +244,7 @@ Per questo esempio:
 
     | Area | Campo |
     | ---- | ----- |
-    | Valore |Vendite<br>\|\_ Total Units This Year (Unità totali di quest'anno) |
+    | Valore |Sales<br>\|\_ Total Units This Year (Unità totali di quest'anno) |
     | Asse | Negozio<br>\|\_ Territory (Territorio)<br>\|\_ City (Città) - potrebbe essere necessario trascinare City (Città) dall'area **Legenda** all'area **Asse**.<br>\|\_ Postal Code (Codice postale)<br>\|\_ Name (Nome) |
 
     ![Screenshot del grafico a barre che mostra le unità totali dell'anno per territorio.](media/end-user-drill/power-bi-hierarchical-axis-category-1.png)

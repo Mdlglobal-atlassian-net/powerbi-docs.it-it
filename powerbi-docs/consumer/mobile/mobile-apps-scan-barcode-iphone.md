@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
 ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
-ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67559011"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Effettuare la scansione di un codice a barre con il dispositivo dall'app Power BI per dispositivi mobili
