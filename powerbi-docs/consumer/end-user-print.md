@@ -1,6 +1,6 @@
 ---
-title: Stampa dal servizio Power BI
-description: Stampa di dashboard, riquadro o una pagina del report dal servizio Power BI.
+title: Stampare dal servizio Power BI
+description: Stampa di un dashboard, di un riquadro o di una pagina del report dal servizio Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -13,21 +13,21 @@ ms.date: 05/13/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608576"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Stampa dal servizio Power BI
-Stampare un dashboard intero, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.
+È possibile stampare un intero dashboard, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.
 
    > [!NOTE]
    > La finestra di dialogo di stampa che viene visualizzata dipende dal browser in uso.
    > 
 ## <a name="print-a-dashboard"></a>Stampare un dashboard
 1. Aprire il dashboard che si vuole stampare.
-2. Nell'angolo superiore sinistro, selezionare l'esportazione e scegliere **stampare questa pagina**.
+2. Nell'angolo in alto a sinistra selezionare Esporta e scegliere **Stampa questa pagina**.
    
     ![Opzione Stampa dashboard](./media/end-user-print/power-bi-dashboard-print.png)
 3. Viene visualizzata la finestra di stampa del browser in uso. Scegliere le impostazioni e la destinazione di stampa e selezionare **Stampa**.
@@ -37,8 +37,8 @@ Stampare un dashboard intero, un riquadro del dashboard, una pagina del report o
     ![Finestra di dialogo Stampa](./media/end-user-print/pbi_print_dash_new2.png)
 
 ## <a name="print-a-dashboard-tile"></a>Stampare un riquadro del dashboard
-1. Aprire il dashboard in [modalità schermo intero](end-user-focus.md) selezionando l'icona schermo intero ![icona schermo intero](./media/end-user-print/power-bi-full-screen-icon.png) dalla barra dei menu superiore.
-3. [Aprire il riquadro in modalità messa a fuoco](end-user-focus.md) passando il mouse per visualizzare i puntini di sospensione (...) e scegliendo **aperto in modalità messa a fuoco** o l'icona messa a fuoco ![icona messa a fuoco](./media/end-user-print/power-bi-focus-icon.png).
+1. Per aprire il dashboard nella [modalità schermo intero](end-user-focus.md), selezionare l'icona di tale modalità ![Icona Schermo intero](./media/end-user-print/power-bi-full-screen-icon.png) nella barra dei menu superiore.
+3. [Aprire il riquadro in modalità messa a fuoco](end-user-focus.md) passando il puntatore per visualizzare i puntini di sospensione (...) e scegliendo **Apri in modalità messa a fuoco** o l'icona della modalità messa a fuoco ![Icona Modalità messa a fuoco](./media/end-user-print/power-bi-focus-icon.png).
    
     ![Menu di puntini di sospensione](./media/end-user-print/power-bi-menu-options.png)
 4. Passare il puntatore sul riquadro per visualizzare il menu delle opzioni.
@@ -50,7 +50,7 @@ Stampare un dashboard intero, un riquadro del dashboard, una pagina del report o
 ## <a name="print-a-report-page"></a>Stampare una pagina del report
 I report possono essere stampati una pagina alla volta.
 
-1. Aprire il report, quindi scegliere **esportare** > **stampa** per stampare la pagina del report corrente.
+1. Aprire il report e selezionare **Esporta** > **Stampa** per stampare la pagina del report corrente.
    
     ![Menu File di Power BI](./media/end-user-print/power-bi-report-print.png)
 3. Viene visualizzata la finestra di stampa del browser in uso.
@@ -60,7 +60,7 @@ I report possono essere stampati una pagina alla volta.
 ## <a name="print-a-report-visual"></a>Stampare un oggetto visivo del report
 1. Per [aprire l'oggetto visivo nella modalità messa a fuoco](end-user-focus.md), passare con il puntatore del mouse sul riquadro e selezionare l'icona di tale modalità ![Icona Messa a fuoco](./media/end-user-print/power-bi-focus-icon.png) nell'angolo in alto a destra.
 
-2. Nell'angolo superiore sinistro, selezionare **esportare** > **stampa** per stampare l'oggetto visivo.
+2. Nell'angolo in alto a sinistra selezionare **Esporta** > **Stampa** per stampare l'oggetto visivo.
 
     ![Menu File di Power BI](./media/end-user-print/power-bi-report-print.png)
 
@@ -75,7 +75,7 @@ I report possono essere stampati una pagina alla volta.
 * D: quando si seleziona **Stampa**, la visualizzazione non corrisponde a quanto mostrato in questo articolo.    
 * R: le schermate di stampa variano a seconda del browser e della versione del software.
 * D: l'immagine stampata non è ridimensionata correttamente.  Il dashboard non si rientra nella pagina. Altre domande su ridimensionamento e orientamento.    
-* R: È possibile garantire che la copia stampata sarà esattamente lo stesso così come appare nel servizio Power BI. Elementi come il ridimensionamento, i margini, le informazioni visive, l'orientamento e le dimensioni non sono controllati da Power BI. Per informazioni su problemi del genere, consultare la documentazione relativa al browser in uso.      
+* R: non è possibile garantire che la copia stampata sarà esattamente identica a come appare nel servizio Power BI. Elementi come il ridimensionamento, i margini, le informazioni visive, l'orientamento e le dimensioni non sono controllati da Power BI. Per informazioni su problemi del genere, consultare la documentazione relativa al browser in uso.      
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Condividere dashboard e report con i colleghi e altri utenti](../service-share-dashboards.md)

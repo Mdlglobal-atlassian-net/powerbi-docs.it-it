@@ -1,5 +1,5 @@
 ---
-title: Visualizzare i dati che è stati usati per creare l'oggetto visivo
+title: Visualizzare i dati usati per creare l'oggetto visivo
 description: Questo documento illustra come gli utenti di Power BI possono "vedere" i dati usati per creare un oggetto visivo.
 author: mihart
 manager: kvivek
@@ -12,18 +12,18 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65607953"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Visualizzare i dati che è stati usati per creare l'oggetto visivo
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Visualizzare i dati usati per creare l'oggetto visivo
 
-Un oggetto visivo di Power BI viene costruito usando i dati di set di dati sottostanti. Se si è interessati a visualizzare il "dietro le quinte", Power BI consente di *visualizzare* i dati usati per creare l'oggetto visivo. Quando si seleziona **Mostra i dati**, Power BI Visualizza i dati di sotto (o accanto a) l'oggetto visivo.
+Un oggetto visivo di Power BI viene costruito con i dati dei set di dati sottostanti. Se si è interessati a visualizzare il "dietro le quinte", Power BI consente di *visualizzare* i dati usati per creare l'oggetto visivo. Quando si seleziona **Mostra i dati**, Power BI mostra i dati di sotto o accanto all'oggetto visivo.
 
 
-1. Nel servizio Power BI [apre un report](end-user-report-open.md) e selezionare un oggetto visivo.  
+1. Nel servizio Power BI [aprire un report](end-user-report-open.md) e selezionare un oggetto visivo.  
 2. Per visualizzare i dati su cui si basa l'oggetto visivo, selezionare i puntini di sospensione (...) e scegliere **Mostra i dati**.
    
    ![Selezionare Mostra i dati](./media/end-user-show-data/power-bi-explore-show-data-newer.png)

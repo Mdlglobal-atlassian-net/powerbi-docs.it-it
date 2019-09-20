@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
 ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65100950"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Visualizzare i report di Power BI ottimizzati per il proprio telefono
@@ -24,7 +24,7 @@ Si applica a:
 |:--- |:--- |
 | iPhone |Telefoni Android |
 
-Quando si visualizza un report di Power BI sul telefono, Power BI verifica se il report è stato ottimizzato per telefoni. In questo caso, Power BI apre automaticamente il report ottimizzato in visualizzazione verticale.
+Quando si visualizza un report di Power BI nel telefono, Power BI verifica se il report è stato ottimizzato per i telefoni. In caso affermativo, Power BI apre automaticamente il report ottimizzato in visualizzazione verticale.
 
 ![Report in modalità verticale](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -38,7 +38,7 @@ Tutte le altre funzionalità dei report di Power BI continueranno a funzionare n
 * [Report nei telefoni Android](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrare la pagina del report in un telefono
-Se per un report ottimizzato per il telefono sono stati definiti dei filtri, quando si visualizza il report in un telefono è possibile usare tali filtri. Il report viene aperto sul telefono, filtrati in base a valori usati per filtrare il report sul web. Viene visualizzato un messaggio che indica che sono presenti filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
+Se per un report ottimizzato per il telefono sono stati definiti dei filtri, quando si visualizza il report in un telefono è possibile usare tali filtri. Il report viene aperto in un telefono, filtrato in base ai valori usati per filtrare il report sul Web. Viene visualizzato un messaggio che indica che sono presenti filtri attivi nella pagina. È possibile modificare i filtri nel telefono.
 
 1. Toccare l'icona del filtro ![Icona del filtro del telefono](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) nella parte inferiore della pagina. 
 2. Usare il filtro di base o avanzato per visualizzare i risultati desiderati.
@@ -46,7 +46,7 @@ Se per un report ottimizzato per il telefono sono stati definiti dei filtri, qua
     ![Filtro avanzato nei report di Power BI per telefoni](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Evidenziare oggetti visivi
-Evidenziazione degli oggetti visivi in modalità verticale Vista funziona come nel servizio Power BI e nei telefoni in visualizzazione orizzontale: quando si selezionano i dati in un oggetto visivo, vengono evidenziati i dati correlati negli altri oggetti visivi in tale pagina.
+L'evidenziazione incrociata degli oggetti visivi nella visualizzazione verticale funziona come nel servizio Power BI e sul telefono in visualizzazione orizzontale: quando si selezionano i dati in un oggetto visivo, vengono evidenziati i dati correlati negli altri oggetti visivi in tale pagina.
 
 Altre informazioni su [filtri ed evidenziazione in Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -56,13 +56,13 @@ Nei report per il telefono, quando si seleziona un oggetto visivo il report per 
 Con l'oggetto visivo selezionato è possibile eseguire operazioni come lo scorrimento al suo interno. Per deselezionare un oggetto visivo, è sufficiente toccare in un punto qualsiasi all'esterno dell'area dell'oggetto visivo.
 
 ## <a name="open-visuals-in-focus-mode"></a>Aprire gli oggetti visivi in modalità messa a fuoco
-Report per il telefono offrono anche una modalità messa a fuoco: Ottenere una visualizzazione più grande di un singolo oggetto visivo e di esplorarli più facilmente.
+I report per il telefono offrono anche una modalità messa a fuoco, che consente di ottenere una visualizzazione più ampia di un singolo oggetto visivo e di esplorarlo più facilmente.
 
 * In un report per il telefono toccare i puntini di sospensione ( **...** ) nell'angolo in alto a destra di un oggetto visivo > **Espandi in modalità messa a fuoco**.
   
     ![Espandi in modalità messa a fuoco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-Operazioni in modalità messa a fuoco riporta all'area di disegno report e viceversa. Ad esempio, se si evidenzia un valore in un oggetto visivo, tornare al report intero, il report viene filtrato per il valore evidenziato nell'oggetto visivo.
+Le operazioni eseguite in modalità messa a fuoco si estendono all'area di disegno del report e viceversa. Se ad esempio si evidenzia un valore in un oggetto visivo e quindi si torna al report completo, questo viene filtrato in base al valore evidenziato nell'oggetto visivo.
 
 Alcune azioni sono possibili solo in modalità messa a fuoco a causa di limitazioni delle dimensioni dello schermo:
 
@@ -74,23 +74,23 @@ Alcune azioni sono possibili solo in modalità messa a fuoco a causa di limitazi
   
     ![Annulla](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
-    Ripristinare è disponibile a livello di report, la cancellazione di esplorazione da tutti gli oggetti visivi, o a livello visivo, la cancellazione di esplorazione dell'oggetto visivo selezionato.   
+    L'annullamento è disponibile a livello di report, per cancellare qualsiasi esplorazione da tutti gli oggetti visivi, oppure a livello di oggetto visivo, per cancellare l'esplorazione dall'oggetto visivo selezionato.   
 
 ## <a name="drill-down-in-a-visual"></a>Eseguire il drill-down in un oggetto visivo
 Se in un oggetto visivo sono definiti i livelli della gerarchia, è possibile eseguire il drill-down nelle informazioni dettagliate visualizzate in un oggetto visivo, quindi eseguire il backup. È possibile [aggiungere il drill-down in un oggetto visivo](../end-user-drill.md) nel servizio Power BI o in Power BI Desktop.
 
-Esistono alcuni tipi di drill-down:
+Sono disponibili alcuni tipi di drill-down:
 
-### <a name="drill-down-on-a-value"></a>Il drill-down su un valore
-1. Toccare Long (toccare e tenere premuto) su un punto dati in un oggetto visivo.
-2. Descrizione comando verrà visualizzata e se viene definita una gerarchia, il piè di pagina della descrizione comando verrà visualizzato il drill down e up freccia.
+### <a name="drill-down-on-a-value"></a>Drill-down su un valore
+1. Tocco prolungato (toccare e tenere premuto) su un punto dati in un oggetto visivo.
+2. Verrà visualizzata la descrizione comando e, se la gerarchia è definita, il piè di pagina della descrizione comando visualizzerà le frecce per il drill-down e per il drill-up.
 3. Toccare la freccia verso il basso per eseguire il drill-down
 
-    ![Toccare il drill down](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Toccare la freccia verso il basso](././media/mobile-apps-view-phone-report/report-drill-down.png)
     
-4. Toccare la freccia verso l'alto per il drill-up.
+4. Toccare la freccia verso l'alto per eseguire il drill-up.
 
-### <a name="drill-to-next-level"></a>Eseguire il drill-al livello successivo
+### <a name="drill-to-next-level"></a>Espansione del livello successivo
 1. In un report nel telefono toccare i puntini di sospensione ( **...** ) nell'angolo in alto a destra > **Espandi in modalità messa a fuoco**.
    
     ![Espandi in modalità messa a fuoco](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
@@ -113,21 +113,21 @@ Esistono alcuni tipi di drill-down:
    
     ![Annulla](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
-## <a name="drill-through-from-a-value"></a>Il drill-through da un valore
-Drill-through, i valori in una pagina del report, si connette con altre pagine del report. Quando il drill-through da un punto dati a un'altra pagina del report, i valori dei punti dati vengono utilizzati per filtrare il trapanato pagina oppure sia nel contesto dei dati selezionati.
-Gli autori di report possono [definiscono il drill-through](https://docs.microsoft.com/power-bi/desktop-drillthrough) quando si crea il report.
+## <a name="drill-through-from-a-value"></a>Drill-through da un valore
+Il drill-through connette i valori in una pagina del report, con altre pagine del report. Quando si esegue il drill-through da un punto dati a un'altra pagina del report, i valori del punto dati vengono usati per filtrare la pagina a cui viene eseguito il drill-through, che altrimenti si troverà nel contesto dei dati selezionati.
+Gli autori del report possono [definire il drill-through](https://docs.microsoft.com/power-bi/desktop-drillthrough) quando creano il report.
 
-1. Toccare Long (toccare e tenere premuto) su un punto dati in un oggetto visivo.
-2. Descrizione comando verrà visualizzata e se il drill-through è definito, il piè di pagina della descrizione comando verrà visualizzato il drill-through freccia.
-3. Toccare la freccia di drill-through.
+1. Tocco prolungato (toccare e tenere premuto) su un punto dati in un oggetto visivo.
+2. Verrà visualizzata la descrizione comando e, se il drill-through è definito, il piè di pagina della descrizione comando visualizzerà la freccia per il drill-through.
+3. Toccare la freccia per eseguire il drill-through
 
-    ![Toccare il drill-through](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Toccare la freccia per il drill-through](././media/mobile-apps-view-phone-report/report-drill-through1.png)
 
-4. Scegliere quale pagina report drill-through
+4. Scegliere la pagina del report per il drill-through
 
-    ![Scegliere la pagina di report](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Choose report page](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
-5. Usare il pulsante Indietro, nell'intestazione di app per tornare alla pagina che da cui sei partito.
+5. Usare il pulsante Indietro nell'intestazione dell'app per tornare alla pagina iniziale.
 
 
 ## <a name="next-steps"></a>Passaggi successivi

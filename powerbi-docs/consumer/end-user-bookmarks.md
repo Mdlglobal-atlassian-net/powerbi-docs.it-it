@@ -1,5 +1,5 @@
 ---
-title: Panoramica di segnalibri nel report del servizio Power BI
+title: Panoramica dei segnalibri nei report del servizio Power BI
 description: Panoramica della documentazione per le query in linguaggio naturale Domande e risposte di Power BI.
 author: mihart
 manager: kvivek
@@ -12,33 +12,33 @@ ms.date: 05/10/2019
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608313"
 ---
-# <a name="what-are-bookmarks"></a>Quali sono i segnalibri?
-Segnalibri di acquisire la visualizzazione attualmente configurata di una pagina del report, inclusi i filtri, filtri dei dati e lo stato degli oggetti visivi. Quando si seleziona un segnalibro, Power BI consente di tornare alla visualizzazione. Esistono due tipi di segnalibri: quelle create personalmente e quelle create dal report *finestre di progettazione*.
+# <a name="what-are-bookmarks"></a>Che cosa sono i segnalibri?
+I segnalibri acquisiscono la visualizzazione attualmente configurata di una pagina del report, tra cui filtri, filtri dei dati e lo stato degli oggetti visivi. Quando si seleziona un segnalibro, Power BI consente di tornare a tale visualizzazione. Esistono due tipi di segnalibri, quelli creati dall'utente e quelli creati dai *progettisti* di report.
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
-Esistono molti usi per i segnalibri. Si supponga di individua un'informazione interessante e desidera conservarlo--crea un segnalibro in modo che è possibile tornare più tardi. È necessario lasciare e si desidera conservare il lavoro corrente, creare un segnalibro. È anche possibile rendere un segnalibro a cui restituire la visualizzazione predefinita del report, in modo che ogni volta che si, che la visualizzazione della pagina del report si apre innanzitutto. 
+I segnalibri possono avere diversi usi. Supponiamo di aver trovato un'informazione interessante che non si vuole perdere: creando un segnalibro, sarà possibile tornarvi in seguito. Se è necessario allontanarsi e non si vuole perdere il lavoro corrente, creare un segnalibro. È anche possibile creare un segnalibro per la visualizzazione predefinita del report, in modo che, ogni volta che vi si torna, si apra prima quella visualizzazione della pagina del report. 
 
-È anche possibile creare una raccolta di segnalibri, disporli nell'ordine desiderato e successivamente passare da un segnalibro a altro in una presentazione per evidenziare una serie di informazioni dettagliate per raccontare una storia.  
+È anche possibile creare una raccolta di segnalibri, disporli nell'ordine desiderato e successivamente passare da un segnalibro all'altro in una presentazione per evidenziare una serie di informazioni dettagliate che narrano una storia.  
 
-![Mostra riquadro segnalibri, selezionarlo dalla barra multifunzione.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![Per visualizzare il riquadro dei segnalibri, selezionarlo dalla barra multifunzione.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
 
 ## <a name="using-bookmarks"></a>Utilizzo dei segnalibri
-Per aprire il riquadro dei segnalibri, selezionare **segnalibri** dalla barra dei menu. Per tornare alla visualizzazione pubblicata originale del report, selezionare **Ripristina impostazioni predefinite**.
+Per aprire il riquadro dei segnalibri, selezionare **Segnalibri** dalla barra dei menu. Per tornare alla visualizzazione originale pubblicata del report, selezionare **Ripristina impostazioni predefinite**.
 
 ### <a name="report-bookmarks"></a>Segnalibri report
-Se il report *designer* inclusi segnalibri di report, è possibile trovarli nel **segnalibri del Report** intestazione. 
+Se il *progettista* del report ha incluso segnalibri, sarà possibile trovarli sotto l'intestazione **Segnalibri report**. 
 
-![Mostrare i segnalibri di Report.](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![Visualizzare i segnalibri del report.](media/end-user-bookmarks/power-bi-report-bookmark.png)
 
-Selezionare un segnalibro per passare alla visualizzazione report. 
+Selezionare un segnalibro per passare a tale visualizzazione del report. 
 
-![Video che mostra il report consente di contrassegnare la selezione.](media/end-user-bookmarks/power-bi-bookmarks.gif)
+![Video che mostra la selezione dei segnalibri del report.](media/end-user-bookmarks/power-bi-bookmarks.gif)
 
 ### <a name="personal-bookmarks"></a>Segnalibri personali
 
@@ -53,13 +53,13 @@ Quando si crea un segnalibro, insieme al segnalibro stesso vengono salvati gli e
 * Visibilità (di un oggetto, usando il riquadro **Selezione**)
 * Modalità messa a fuoco o **In evidenza** di qualsiasi oggetto visibile
 
-Configurare una pagina di report nel modo in cui si vuole che venga visualizzata nel segnalibro. Dopo aver disposto la pagina del report e gli oggetti visivi nel modo desiderato, per aggiungere un segnalibro selezionare **Aggiungi** nel riquadro **Segnalibri**. In questo esempio è stato aggiunto alcuni filtri per data e area. 
+Configurare una pagina di report nel modo in cui si vuole che venga visualizzata nel segnalibro. Dopo aver disposto la pagina del report e gli oggetti visivi nel modo desiderato, per aggiungere un segnalibro selezionare **Aggiungi** nel riquadro **Segnalibri**. In questo esempio sono stati aggiunti alcuni filtri per l'area e la data. 
 
 ![Aggiungere segnalibri personali.](media/end-user-bookmarks/power-bi-add-personal.png)
 
-**Power BI** crea un segnalibro e gli assegna un nome generico o un nome specificato. È possibile *rinominare*, *eliminare*, o *aggiornare* un segnalibro, selezionare i puntini di sospensione accanto al nome del segnalibro e quindi selezionando un'azione dal menu visualizzato.
+**Power BI** crea un segnalibro e gli assegna un nome generico o un nome immesso dall'utente. Per *rinominare*, *eliminare* o *aggiornare* un segnalibro, selezionare i puntini di sospensione accanto al nome del segnalibro e quindi scegliere un'azione dal menu visualizzato.
 
-Dopo aver creato un segnalibro, è possibile visualizzarlo semplicemente selezionando il segnalibro nella **segnalibri** riquadro. 
+Una volta creato un segnalibro, è possibile visualizzarlo selezionando il segnalibro nel riquadro **Segnalibri**. 
 
 ![Aggiungere segnalibri personali.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
 
@@ -77,7 +77,7 @@ The order of your bookmarks can become important when you use the **View** featu
 -->
 
 ## <a name="bookmarks-as-a-slide-show"></a>Segnalibri come presentazione
-Per presentare o visualizzare segnalibri, in ordine, selezionare **View** dalle **segnalibri** riquadro per avviare una presentazione.
+Per presentare o visualizzare i segnalibri in un determinato ordine, selezionare **Visualizza** dal riquadro **Segnalibri** per iniziare una presentazione.
 
 Quando si passa alla modalità **Visualizzazione**, è necessario tenere conto degli aspetti seguenti:
 
@@ -85,7 +85,7 @@ Quando si passa alla modalità **Visualizzazione**, è necessario tenere conto d
 2. Le frecce disponibili nella barra del titolo del segnalibro consentono di passare al segnalibro precedente o successivo.
 3. Per uscire dalla modalità **Visualizzazione**, selezionare **Esci** nel riquadro **Segnalibri** o la **X** nella barra del titolo del segnalibro. 
 
-![Presentazione di segnalibro](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![Presentazione dei segnalibri](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
 
 Nella modalità **Visualizzazione** è possibile chiudere il riquadro **Segnalibri** (facendo clic sulla X nel riquadro stesso) per lasciare più spazio alla presentazione. Sempre nella modalità **Visualizzazione**, tutti gli oggetti visivi sono interattivi e disponibili per l'evidenziazione incrociata, come accade normalmente quando si interagisce con essi. 
 
@@ -155,7 +155,7 @@ Per questa versione dei **segnalibri**, tenere presenti alcune limitazioni e con
 * La maggior parte degli oggetti visivi personalizzati dovrebbero funzionare bene con i segnalibri. Se si verificano problemi con i segnalibri e un oggetto visivo personalizzato, contattare l'autore di tale oggetto visivo personalizzato e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo. 
 * Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo verrà visualizzato nel suo stato predefinito. Questo significa anche se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporterà in base allo stato predefinito.
 * Se dopo aver creato un segnalibro gli oggetti visivi vengono spostati, le modifiche si rifletteranno nel segnalibro. 
-* In generale, i segnalibri non saranno interessati se il rapporto *progettazione* aggiorna o di nuovo il report. Tuttavia, se la finestra di progettazione effettua importanti modifiche al report, ad esempio rimuovere campi usati da un segnalibro, quindi si riceverà un messaggio di errore al successivo che tentativo di aprire il segnalibro. 
+* Se il *progettista* del report aggiorna o ripubblica il report, in genere i segnalibri personali non ne saranno interessati. Se tuttavia il progettista apporta modifiche sostanziali al report, ad esempio la rimozione di campi usati da un segnalibro, al successivo tentativo di apertura del segnalibro verrà visualizzato un messaggio di errore. 
 
 <!--
 ## Next steps

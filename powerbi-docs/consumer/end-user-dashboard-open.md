@@ -12,14 +12,14 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: cd0b680265d526ecf7adbf4db8c54b77535eadf8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608456"
 ---
 # <a name="view-a-dashboard"></a>Visualizzare un dashboard
-Power BI *consumatore* dedicano molto tempo a visualizzare i dashboard. I dashboard sono progettati per evidenziare informazioni specifiche dai report e dai set di dati sottostanti. E i consumer di Power BI usano tali informazioni per attività di rilevamento, monitoraggio e test, per rispondere a domande e altro ancora, per poter prendere decisioni aziendali basate sui dati.
+I *consumer* di Power BI dedicano molto tempo a visualizzare i dashboard. I dashboard sono progettati per evidenziare informazioni specifiche dai report e dai set di dati sottostanti. E i consumer di Power BI usano tali informazioni per attività di rilevamento, monitoraggio e test, per rispondere a domande e altro ancora, per poter prendere decisioni aziendali basate sui dati.
 
 ![dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
@@ -32,7 +32,7 @@ Power BI Pro è necessario per condividere un dashboard e visualizzare un dashbo
 
 |              |         |
 |------------|--------------------------------|
-|![icona di dashboard](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Dashboard possono essere aperto da molte posizioni nel servizio Power BI. <br> Cercare semplicemente questa icona del dashboard. Dopo aver identificato un <br>dashboard, aprirlo è semplice: è sufficiente selezionarlo e il dashboard riempie <br>l'area di disegno di Power BI. |
+|![icona di dashboard](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |I dashboard possono essere aperti da molte posizioni nel servizio Power BI. <br> Cercare semplicemente questa icona del dashboard. Dopo aver identificato un <br>dashboard, aprirlo è semplice: è sufficiente selezionarlo e il dashboard riempie <br>l'area di disegno di Power BI. |
 |                    |          |
 
 

@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522805"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073541"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Aggiungere commenti a un dashboard o un report
 Aggiungere un commento personale o avviare una conversazione su un dashboard o un report con i colleghi. La funzionalità di **commento** è solo uno dei modi in cui un *utente* può collaborare con altri. 
@@ -25,16 +25,18 @@ Aggiungere un commento personale o avviare una conversazione su un dashboard o u
 ![video sui commenti](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>Come usare la funzionalità Commenti
-I commenti possono essere aggiunti a un intero dashboard, a singoli oggetti visivi in un dashboard, a una pagina di un report e a singoli oggetti visivi in una pagina di un report. Aggiungere un commento generale o un commento mirato destinato a colleghi specifici.  
+I commenti possono essere aggiunti a un intero dashboard, a singoli oggetti visivi in un dashboard, a una pagina di un report, a un report impaginato e a singoli oggetti visivi in una pagina di un report. Aggiungere un commento generale o un commento mirato destinato a colleghi specifici.  
 
 Quando si aggiunge un commento a un report, Power BI acquisisce i valori di filtro e filtro dei dati correnti. Ciò significa che quando si seleziona un commento o si risponde a esso, la pagina del report o l'oggetto visivo del report può cambiare per visualizzare le selezioni di filtro e filtro dei dati che erano attive quando il commento è stato aggiunto per la prima volta.  
 
 ![video sui report con filtri](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-Perché è importante? Si immagini che un collega abbia applicato un filtro che ha rivelato interessanti informazioni dettagliate che vuole condividere con il team. Senza tale filtro selezionato, il commento potrebbe non avere senso. 
+Perché è importante? Si immagini che un collega abbia applicato un filtro che ha rivelato interessanti informazioni dettagliate che vuole condividere con il team. Senza tale filtro selezionato, il commento potrebbe non avere senso.
+
+Se si usa un report impaginato, è possibile lasciare solo un commento generale sul report.  Il supporto per lasciare commenti sui singoli oggetti visivi del report non è disponibile.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Aggiungere un commento generale a un dashboard o un report
-I processi per l'aggiunta di commenti a un dashboard o a un report sono simili. In questo esempio viene usato un dashboard. 
+I processi per l'aggiunta di commenti a un dashboard o a un report sono simili.  In questo esempio viene usato un dashboard. 
 
 1. Aprire un dashboard o un report di Power BI e selezionare l'icona **Commenti**. Verrà visualizzata la finestra di dialogo Commenti.
 

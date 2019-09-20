@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608339"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
@@ -24,7 +24,7 @@ Un ***dashboard*** Power BI è una singola pagina, spesso denominata area di dis
 
 ![dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
 
-Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e sono *aggiunti* al dashboard da report *finestre di progettazione*. Nella maggior parte dei casi, se si seleziona un riquadro consente di visualizzare la pagina del report in cui è stata creata la visualizzazione. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
+Le visualizzazioni mostrate nel dashboard vengono chiamate *riquadri* e vengono *aggiunte* al dashboard dai *progettisti* dei report. Nella maggio parte dei casi, selezionando un riquadro viene aperta la pagina del report in cui è stata creata la visualizzazione. Se non si ha familiarità con Power BI, è possibile imparare le nozioni di base utili leggendo [Concetti di base di Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
 > I dashboard possono essere [visualizzati e condivisi nei dispositivi mobili](mobile/mobile-apps-view-dashboard.md).
@@ -39,7 +39,7 @@ Le visualizzazioni in un dashboard provengono dai report e ogni report è basato
 ## <a name="advantages-of-dashboards"></a>Vantaggi dei dashboard
 I dashboard sono uno strumento eccezionale per monitorare l'attività aziendale, per cercare le risposte e per esaminare tutte le metriche più importanti al primo colpo. Le visualizzazioni in un dashboard potrebbero provenire da uno o più set di dati e report sottostanti. Un dashboard può combinare i dati locali e quelli del cloud, offrendo una visualizzazione consolidata indipendentemente dalla posizione dei dati.
 
-Un dashboard non è solo un bel quadro d'insieme; è interattivo i riquadri vengono aggiornate quando cambiano i dati sottostanti.
+Un dashboard non è solo un'immagine accattivante: è interattivo e i riquadri si aggiornano al variare dei dati sottostanti.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Differenze tra dashboard e report per i ***consumer*** di Power BI
 I report sono spesso confusi con i dashboard poiché sono composti da troppe aree di contenuto con le visualizzazioni. Tuttavia, ci sono alcune importanti differenze dal punto di vista di un *consumer* di Power BI.

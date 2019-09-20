@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: mshenhav
 ms.openlocfilehash: ac9072c69edfd245454e92855dcefa461e80cc23
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61338260"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Visualizzare report e dashboard in modalità presentazione in Surface Hub e nei dispositivi Windows 10
@@ -43,7 +43,7 @@ Nella barra degli strumenti è possibile eseguire le azioni seguenti:
 1. Toccare l'icona Indietro ![Icona Indietro](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png) per tornare alla pagina precedente. Tenendo premuta l'icona vengono visualizzate le finestre dei percorsi di navigazione, che consentono di andare alla cartella contenente il report o dashboard.
 2. L'icona dell'input penna ![icona dell'input penna](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png) consente di scegliere un colore quando si usa la penna di Surface per disegnare e aggiungere annotazioni nella pagina del report. 
 3. Usare l'icona delle pagine ![icona di paginazione](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png) per sostituire la pagina del report che si sta presentando attualmente.
-4. L'icona di riproduzione  ![Icona Riproduci](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) verrà nascondere la barra delle azioni e Avvia presentazione, in cui l'app verrà auto ruota tra le pagine del report. 
+4. L'icona di riproduzione  ![Icona Riproduci](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png) nasconde la barra delle azioni e avvia la presentazione, in cui l'app ruoterà automaticamente tra le pagine del report. 
 5. Toccare l'icona di ricerca ![icona Cerca](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png) per cercare altri artefatti in Power BI.
 6. Per uscire dalla modalità presentazione, toccare l'icona con due frecce rivolte verso l'interno ![Esci dalla modalità schermo intero](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png) sulla barra degli strumenti.
 
