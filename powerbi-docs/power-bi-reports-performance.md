@@ -1,8 +1,8 @@
 ---
 title: Procedure consigliate per le prestazioni di Power BI
 description: Questo articolo fornisce indicazioni per creare report veloci e affidabili in Power BI
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,20 +10,24 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665350"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841494"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI
 
 Questo articolo offre indicazioni per creare report veloci e affidabili in Power BI.  
 
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>Scegliere una modalità di archiviazione appropriata: importazione, DirectQuery
+
+Nella maggior parte dei casi la modalità di importazione è la scelta migliore poiché offre la massima velocità sfruttando i dati memorizzati in locale nella cache compressi con l'archiviazione a colonne. La modalità di importazione consente anche la funzionalità DAX completa. Valutare DirectQuery (e i modelli compositi) quando il volume dei dati di origine è troppo grande per adattarsi alla capacità di Power BI. DirectQuery è utile anche quando è necessario recuperare i dati più recenti dall'origine ogni volta che viene caricato un report. Se non si hanno questi requisiti e gli utenti devono solo visualizzare i dati aggiornati qualche volta al giorno o meno (ad esempio, da un data warehouse aziendale), è consigliabile usare l'importazione. In modalità DirectQuery, gli utenti possono provare ad aggiornare il report senza rendersi conto di recuperare esattamente gli stessi dati dall'origine.      
+
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Usare i filtri per limitare gli oggetti visivi nei report e visualizzare solo gli elementi necessari 
 
-Maggiore è il numero dei dati da visualizzare in un oggetto visivo, più lento sarà il caricamento dell'oggetto stesso. Sebbene questo principio possa sembrare ovvio, spesso lo si dimentica. Si supponga ad esempio di avere un set di dati di grandi dimensioni, su cui si crea un report con una tabella della tabella. Gli utenti finali usano i filtri dei dati nella pagina per visualizzare le righe desiderate, in genere qualche decina.
+Maggiore è il numero dei dati da visualizzare in un oggetto visivo, più lento sarà il caricamento dell'oggetto stesso. Sebbene questo principio possa sembrare ovvio, spesso lo si dimentica. Si supponga ad esempio di avere un set di dati di grandi dimensioni. su cui si crea un report con una tabella della tabella. Gli utenti finali usano i filtri dei dati nella pagina per visualizzare le righe desiderate, in genere qualche decina.
 
 Un errore comune è lasciare la visualizzazione predefinita della tabella non filtrata, ovvero con oltre 100 milioni di righe. I dati di queste righe vengono caricati nella memoria e decompressi a ogni aggiornamento, provocando un notevole sovraccarico della memoria. Soluzione: usare il filtro "Primi N" per ridurre il numero massimo di elementi visualizzati dalla tabella. È possibile impostare il numero massimo di elementi su un valore maggiore rispetto a quello necessario per gli utenti, ad esempio 10.000. L'esperienza dell'utente finale non cambia, ma l'uso della memoria diminuisce in modo significativo e le prestazioni migliorano.
 
@@ -57,7 +61,7 @@ Quando si distribuiscono report di Power BI basati su DirectQuery e sulla connes
 ## <a name="directquery-best-practices"></a>Procedure consigliate per DirectQuery
 
 La sezione seguente descrive le procedure consigliate generali per la connessione tramite DirectQuery.
-  
+
 ### <a name="db-design-guidance"></a>Indicazioni per la progettazione del database
 
 - Inserire le colonne calcolate e le misure nell'origine, dove possibile. Maggiore è la vicinanza all'origine, maggiore è la probabilità di prestazioni.

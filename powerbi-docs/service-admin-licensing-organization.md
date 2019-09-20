@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 003d179902ad3eeb5dc6dea841936a217a292d0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c5a3b2b3e74d636f8d9af75e4c84b7fd61bd2139
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65099812"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877886"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Gestione delle licenze di Power BI nell'organizzazione
 
@@ -35,7 +35,7 @@ L'amministratore può acquistare e assegnare le licenze Power BI Pro e iscrivers
 
 È previsto un periodo di tolleranza dopo la scadenza di una licenza di Power BI Pro. Per le licenze che fanno parte dell'acquisto di un contratto multilicenza, il periodo di tolleranza è 90 giorni. Se la licenza è stata acquistata direttamente, il periodo di tolleranza è di 30 giorni.
 
-Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per altre informazioni, vedere [cosa accade ai dati e l'accesso al termine di Office 365 per la sottoscrizione di business?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
+Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per altre informazioni, vedere [Che cosa succede ai dati e all'accesso al termine della sottoscrizione di Office 365 per le aziende](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ### <a name="power-bi-pro-trial-for-individuals"></a>Versione di valutazione di Power BI Pro per utenti singoli
 
@@ -125,7 +125,7 @@ Se il blocco delle licenze di Power BI (gratuito) illimitato non è disponibile 
 
 L'amministratore può abilitare o disabilitare le iscrizioni come utente singolo in Azure Active Directory (AAD). Questa sezione dell'articolo illustra come gestire le iscrizioni con i comandi di PowerShell. Per altre informazioni su Azure PowerShell, vedere [Panoramica di Azure PowerShell](/powershell/azure/overview).
 
-L'impostazione di AAD che controlla l'iscrizione è **AllowAdHocSubscriptions**. Nella maggior parte dei tenant questa opzione è impostata su *true*, il che significa che è abilitata. Se Power BI è stato acquistato tramite un partner, è possibile che questa opzione sia impostata su *false*, il che significa che è disabilitata. Se si modifica l'impostazione da *true* a *false*, ai nuovi utenti dell'organizzazione viene impedito di eseguire l'iscrizione singolarmente. Gli utenti iscritti a Power BI prima della modifica dell'impostazione mantengono le proprie licenze.
+L'impostazione di Azure AD che controlla l'iscrizione è **AllowAdHocSubscriptions**. Nella maggior parte dei tenant questa opzione è impostata su *true*, il che significa che è abilitata. Se Power BI è stato acquistato tramite un partner, è possibile che questa opzione sia impostata su *false*, il che significa che è disabilitata. Se si modifica l'impostazione da *true* a *false*, ai nuovi utenti dell'organizzazione viene impedito di eseguire l'iscrizione singolarmente. Gli utenti iscritti a Power BI prima della modifica dell'impostazione mantengono le proprie licenze. Si noti che con l'impostazione *false* gli utenti possono comunque iscriversi per una versione di valutazione di Pro.
 
 1. Accedere ad Azure Active Directory usando le credenziali di Office 365. La prima riga dello script PowerShell seguente richiede le credenziali. La seconda riga si connette ad Azure Active Directory.
 
@@ -136,7 +136,7 @@ L'impostazione di AAD che controlla l'iscrizione è **AllowAdHocSubscriptions**.
 
    ![Accesso ad Azure Active Directory](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
-1. Dopo aver eseguito l'accesso, eseguire il comando seguente per vedere come è configurato il tenant. (Si noti che "fl" seguente usa la lettera "l", non il numero 1).
+1. Dopo aver eseguito l'accesso, eseguire il comando seguente per vedere come è configurato il tenant. Si noti che 'fl' di seguito usa la lettera "l", non il numero 1.
 
     ```powershell
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions 

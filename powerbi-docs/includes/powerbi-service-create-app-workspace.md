@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534652"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903847"
 ---
-1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Creare un'area di lavoro per le app**. 
+1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Crea area di lavoro**. 
    
-     ![Crea area di lavoro per le app](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Creare l'area di lavoro](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     Qui si inserirà il contenuto su cui si lavora insieme ai colleghi.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534652"
    
      ![Impostare su Modifica o Solo visualizzazione](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Aggiungere all'area di lavoro per le app solo utenti che possono modificare il contenuto. Se l'utente potrà soltanto visualizzare il contenuto, non aggiungerlo all'area di lavoro. È possibile includerlo quando si pubblica l'app.
+     Aggiungere all'area di lavoro solo utenti che possono modificare il contenuto. Se l'utente potrà soltanto visualizzare il contenuto, non aggiungerlo all'area di lavoro. È possibile includerlo quando si pubblica l'app.
 
 5. Aggiungere gli indirizzi di posta elettronica delle persone che avranno accesso all'area di lavoro e selezionare **Aggiungi**. Non è possibile aggiungere alias di gruppo, soli singoli utenti.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534652"
 
 Power BI crea l'area di lavoro, che verrà aperta e visualizzata nell'elenco delle aree di lavoro di cui si è membri. Gli amministratori potranno a questo punto selezionare i puntini di sospensione (…) per tornare indietro e apportare modifiche, aggiungere nuovi membri o modificarne le autorizzazioni.
 
-![Modifica area di lavoro](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Modifica area di lavoro](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

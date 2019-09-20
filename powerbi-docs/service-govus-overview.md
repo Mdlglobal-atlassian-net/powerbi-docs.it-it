@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590456"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841621"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI per i clienti del Governo degli Stati Uniti
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione commerciale del **servizio Power BI**.
@@ -85,13 +85,13 @@ Le seguenti domande (e risposte) hanno l'obiettivo di aiutare a ottenere rapidam
 
 **Risposta**: la registrazione (spesso chiamata *onboarding*) potrebbe differire in base alla licenza e alla sottoscrizione esistenti. Per altre informazioni, vedere l'articolo [Iscrizione a Power BI per il Governo degli Stati Uniti](service-govus-signup.md).
 
-**Domanda**: l'URL per la connessione a **Power BI** per il Governo degli Stati Uniti è diverso dall'URL della versione commerciale di **Power BI**?
+**Domanda**: l'URL per la connessione a **Power BI** per il Governo degli Stati Uniti è diverso dall'URL della versione commerciale di **Power BI**? Esiste un URL diverso per i clienti di GCC High?
 
 **Risposta**: sì, gli URL sono diversi. La tabella seguente illustra ciascun URL:
 
-| URL versione commerciale | URL versione Governo degli Stati Uniti |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| URL versione commerciale | URL versione Governo degli Stati Uniti | URL del Governo degli Stati Uniti per GCC High |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **Domanda**: il provisioning del mio account viene eseguito in più di un cloud sovrano. Quando uso **Power BI Desktop**, come posso selezionare il cloud a cui connettermi?
 

@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 73db8f9741685549042dbaf1172e57a55a26ab36
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654486"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841292"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>Nuova esperienza di filtro nei report di Power BI
 
 I filtri di Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Quando si sceglie di usare la nuova esperienza di filtro, è possibile formattare il riquadro Filtri in modo analogo al resto del report. È possibile bloccare i filtri e anche nasconderli. Quando si progetta un report, non viene più visualizzato il riquadro Filtri precedente nel riquadro Visualizzazioni. Tutte le operazioni di modifica e formattazione vengono eseguite in un unico riquadro Filtri. 
 
-![Nuova esperienza di filtro](media/power-bi-report-filter/power-bi-filter-reading.png)
+![Nuova esperienza di filtro](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Durante la progettazione di report è possibile eseguire le operazioni seguenti nel nuovo riquadro unico Filtri:
+Di seguito sono elencate alcune delle operazioni che si possono eseguire nel nuovo riquadro unico Filtri durante la progettazione di report:
 
 - Aggiungere e rimuovere campi da usare per il filtro. 
 - Modificare lo stato del filtro.
@@ -207,7 +207,7 @@ Un aspetto interessante di questa nuova esperienza è la possibilità di formatt
 
 ## <a name="sort-the-filter-pane"></a>Ordinare il riquadro di filtro
 
-La funzionalità di ordinamento personalizzato fa parte della nuova esperienza del riquadro di filtro. I creatori di report possono trascinare e rilasciare i filtri per ridisporli nell'ordine desiderato.
+La funzionalità di ordinamento personalizzato fa parte della nuova esperienza del riquadro di filtro. I creatori di report possono trascinare e rilasciare i filtri per ridisporli in qualsiasi ordine.
 
 ![Modificare l'ordinamento dei filtri](media/power-bi-report-filter/power-bi-filter-sort.gif)
 

@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 6a66d134a3399fed3ee03eddd7059265b5cf7c13
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: b9622a08506c6f5ade900296d91b449c64dc374c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751020"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903669"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -60,14 +60,19 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **calculation (calcolo)** Una determinazione matematica delle dimensioni o del numero di un elemento.
 
+**card (scheda)** (tipo di oggetto visivo) Un [tipo di oggetto visivo](end-user-visual-type.md) di Power BI.
+
+**card (scheda)** (Home di Power BI) In Home di Power BI vengono visualizzate immagini rettangolari e quadrate che rappresentano dashboard, report, app e altro ancora. Queste immagini sono dette *schede*.
+
 **certified custom visual (oggetto visivo personalizzato certificato)** Un oggetto visivo personalizzato di Power BI che ha soddisfatto una serie di requisiti e ha superato rigorosi test di sicurezza.
 
 **classification (classificazione)** Chiamata anche classificazione dei dati. Questa opzione può essere attivata dagli amministratori di Power BI per informare gli utenti del livello di sicurezza richiesto per un dashboard. I tipi di classificazione possono essere personalizzati da un'organizzazione.
 
 **connect live (connessione in tempo reale)** Un metodo per la connessione ai modelli di dati di SQL Server Analysis Services. Chiamata anche connessione dinamica.
 
-**content (contenuto)**
+**container (contenitore)** Le aree nella barra di spostamento sono dette *contenitori*. Nella barra di spostamento sono disponibili contenitori per: Preferiti, Recenti, App, Condivisi con l'utente corrente e Home. 
 
+**content ( contenuto)**  Il contenuto per il servizio Power BI è solitamente costituito da dashboard, report e app. Possono essere inclusi anche cartelle di lavoro e set di dati.
 
 **content list (elenco del contenuto)** L'indice del contenuto per un'app.
 
@@ -109,7 +114,8 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **Editing View (Visualizzazione di modifica)** La modalità in cui i *responsabili della progettazione* di report possono esplorare, progettare, compilare e condividere un report.
 
-**ellipsis (puntini di sospensione)** ...
+**ellipsis (puntini di sospensione)** ...    
+Selezionando i puntini di sospensione vengono visualizzate opzioni di menu aggiuntive.
 
 **embed code (codice di incorporamento)** Uno standard comune in Internet. In Power BI il cliente può generare un codice di incorporamento e copiarlo per posizionare contenuto, ad esempio l'elemento visivo di un report in un sito Web o blog.
 
@@ -158,7 +164,8 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 ## <a name="l"></a>L
 
-**left navigation (left nav) (riquadro di spostamento a sinistra (riquadro a sinistra))** I controlli lungo il bordo sinistro del servizio Power BI.
+**left navigation (spostamento a sinistra)** È stato sostituito dalla **barra di spostamento** ma viene ancora usato in alcune parti della documentazione.    
+I controlli lungo il bordo sinistro del servizio Power BI.
 
 Prima istanza: riquadro di spostamento a sinistra Menzioni successive: riquadro a sinistra
 
@@ -176,7 +183,11 @@ Prima istanza: riquadro di spostamento a sinistra Menzioni successive: riquadro 
 
 **native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)* . È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi personalizzati.
 
-**navigation pane (riquadro di spostamento)** Vedere la voce **riquadro di spostamento a sinistra**
+**navigation bar**  o **nav bar (barra di spostamento)** I controlli lungo il bordo sinistro del servizio Power BI.
+
+Prima istanza: barra di spostamento (navigation bar) Menzioni successive: barra di spostamento (nav bar)
+
+**navigation pane (riquadro di spostamento)** Vedere **navigation bar (barra di spostamento)**
 
 **notification (notifica)** Messaggi inviati da e al centro notifiche di Power BI.  
 

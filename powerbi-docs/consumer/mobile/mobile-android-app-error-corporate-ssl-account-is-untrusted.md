@@ -2,20 +2,20 @@
 title: Risoluzione di "Il certificato SSL aziendale non è considerato attendibile"
 description: Quando si accede all'app Android per Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile
 .": ''
-author: mshenhav
-manager: kfile
+author: paulinbar
+manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61341352"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70840912"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Risoluzione di "Il certificato SSL aziendale non è considerato attendibile" - Power BI
 Quando si accede all'app per dispositivi mobili Android per Microsoft Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile da questo dispositivo. Contattare l'amministratore IT della società". 

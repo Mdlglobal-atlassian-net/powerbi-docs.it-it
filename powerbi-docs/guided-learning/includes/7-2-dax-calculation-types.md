@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6ed1690ec77880467007200c30038d185c98d6c2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273380"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847699"
 ---
 Esistono due calcoli principali che è possibile creare con DAX:
 
@@ -26,7 +26,7 @@ La figura seguente mostra una formula DAX creata in Power BI:
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_1.png)
 
-È anche possibile omettere il nome di tabella completamente e usare solo il nome di colonna, ma questa non è una procedura consigliata per scrivere funzioni chiare e di conseguenza per ottenere un codice DAX chiaro. I nomi di colonna devono sempre includere le parentesi quadre.
+È anche possibile omettere completamente il nome della tabella e usare solo il nome della colonna. Non è tuttavia una procedura ottimale per scrivere funzioni chiare e di conseguenza ottenere un codice DAX chiaro. I nomi di colonna devono sempre includere le parentesi quadre.
 
 È consigliabile osservare *sempre* le indicazioni seguenti:
 
@@ -36,7 +36,7 @@ La figura seguente mostra una formula DAX creata in Power BI:
 ## <a name="creating-calculated-columns"></a>Creazione di colonne calcolate
 Le **colonne calcolate** sono utili quando si vuole filtrare in base al valore oppure se si vuole un calcolo per ogni riga nella tabella.
 
-È possibile creare colonne calcolate in Power BI Desktop selezionando **Nuova colonna** nella scheda **Creazione di modelli**. È preferibile usare la vista Dati (anziché la vista Report o **Relazioni**), perché è possibile visualizzare la nuova colonna creata e la **barra della formula** viene popolata ed è pronta per la formula DAX.
+È possibile creare colonne calcolate in Power BI Desktop selezionando **Nuova colonna** nella scheda **Creazione di modelli**. È preferibile usare la vista **Dati** (anziché la vista **Report** o **Relazioni**), perché è possibile visualizzare la nuova colonna creata e la **barra della formula** viene popolata ed è pronta per la formula DAX.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 

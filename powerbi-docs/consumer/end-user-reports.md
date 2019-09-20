@@ -7,23 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391380"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903710"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
 
-Un report di Power BI consente di visualizzare un set di dati da più punti di vista, grazie a oggetti visivi che rappresentano conclusioni e approfondimenti diversi ottenuti dal set di dati.  Un report può includere un solo oggetto visivo oppure contenere pagine con più oggetti visivi. A seconda del ruolo, si può essere una persona che *progetta* i report. Oppure si può essere una persona che *consuma* o usa i report.
+Un report di Power BI consente di visualizzare un set di dati da più punti di vista, grazie a oggetti visivi che rappresentano conclusioni e approfondimenti diversi ottenuti dal set di dati.  Un report può includere un solo oggetto visivo oppure contenere pagine con più oggetti visivi. A seconda del ruolo, si può essere una persona che *progetta* i report. Oppure si può essere una persona che *consuma* o usa i report. Questo articolo può essere utile ai *consumer*.
 
-![Screenshot della pagina di un report.](./media/end-user-reports/power-bi-reports.png)
+![Screenshot della pagina di un report.](./media/end-user-reports/power-bi-report.png)
 
-Questo report è composto da sei pagine (o schede) e si sta attualmente visualizzando la pagina **Sentiment**. Questa pagina contiene cinque diversi oggetti visivi e il titolo della pagina. Il riquadro *Filtri* mostra un filtro applicato a tutte le pagine del report. Per comprimere il riquadro Filtri, selezionare la freccia ( **>** ).
+A. Questo report è composto da sei pagine (o schede) e si sta attualmente visualizzando la pagina **Sentiment**.    
+B. Questa pagina contiene cinque diversi oggetti visivi e il titolo della pagina.    
+C. Il riquadro *Filtri* mostra un filtro applicato a tutte le pagine del report. Per comprimere il riquadro Filtri, selezionare la freccia ( **>** ).    
+D. Nel banner di Power BI vengono visualizzati il nome del report e la data dell'ultimo aggiornamento. Selezionare la freccia per aprire un menu in cui viene visualizzato anche il nome del proprietario del report.    
+E. La barra delle azioni contiene le azioni che è possibile eseguire su questo report.  Ad esempio, è possibile aggiungere un commento, visualizzare un segnalibro o esportare dati dal report.  Selezionare i puntini di sospensione (...) per visualizzare un elenco di funzionalità aggiuntive per il report.    
 
 Se non si ha familiarità con Power BI, è possibile apprendere le nozioni di base utili leggendo [Concetti di base del servizio Power BI per i consumer](end-user-basic-concepts.md). I report sono disponibili per la visualizzazione, la condivisione e l'annotazione nei dispositivi mobili. Per altre informazioni, vedere [Esplorare i report nelle app Power BI per dispositivi mobili](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -68,9 +72,9 @@ In base al proprio ruolo, si può essere un *designer*, ovvero una persona che c
 Oppure si può essere un *consumer*, ovvero una persona che riceve i report da altri. In questo caso, si sarà interessati a imparare a comprendere i report e interagire con essi. I collegamenti riportati di seguito sono utili per i *consumer* di report:
 
 * Iniziare con una [presentazione del servizio Power BI](end-user-basic-concepts.md) in cui viene spiegato dove trovare i report e i relativi strumenti.
-* Fare clic sul collegamento per informazioni su come [aprire un report](end-user-report-open.md) e su tutte le interazioni disponibili nella [Visualizzazione di lettura](end-user-reading-view.md).
+* Informazioni su come [aprire un report](end-user-report-open.md) e su tutte le [interazioni disponibili per i consumer](end-user-reading-view.md).
 * Per acquisire familiarità con i report, eseguire la presentazione di uno degli [esempi](../sample-tutorial-connect-to-the-samples.md) forniti.  
-* Per vedere il set di dati usato nel report e i dashboard contenenti riquadri aggiunti dal report, vedere [Visualizzare il contenuto correlato nel servizio Power BI](end-user-related.md).
+* Per vedere il set di dati usato nel report e i dashboard contenenti gli oggetti visivi del report (*elementi aggiunti*), vedere [Visualizzare il contenuto correlato nel servizio Power BI](end-user-related.md).
 
 > [!TIP]
 > Se non si è trovato ciò che si stava cercando, usare il sommario a sinistra per sfogliare tutti gli articoli dedicati ai *report*.

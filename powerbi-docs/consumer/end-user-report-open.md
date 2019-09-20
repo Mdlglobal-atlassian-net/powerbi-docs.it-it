@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391726"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903804"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
 Un report è costituito da una o più pagine di oggetti visivi. I report vengono creati dai *progettisti* di Power BI e [condivisi con i *consumer* direttamente](end-user-shared-with-me.md) o nel contesto di un'[app](end-user-apps.md). 
@@ -30,7 +30,7 @@ Di seguito viene descritta la procedura per aprire un report che è stato condiv
    ![Home page](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Aprire un report condiviso con l'utente
-I *progettisti* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo a Home di Power BI. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nella barra di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
+I *designer* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo automaticamente. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nella barra di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
 
 1. Aprire il servizio Power BI (app.powerbi.com).
 
@@ -50,6 +50,12 @@ I *progettisti* di Power BI possono condividere un singolo report direttamente c
 
    ![Schede delle pagine del report](./media/end-user-report-open/power-bi-ytd.png)
 
+6. Si noti il riquadro **Filtri** sulla destra. I filtri applicati a questa pagina del report o all'intero report vengono visualizzati qui.
+
+7. Passando il mouse su un oggetto visivo del report vengono visualizzate diverse icone e i puntini di sospensione (...). Per visualizzare i filtri applicati a un oggetto visivo specifico, selezionare l'icona del filtro. Qui è stata selezionata l'icona del filtro per il grafico a linee *Total units by rolling period and region*.
+
+   ![Schede delle pagine del report](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. Al momento è visualizzata l'intera pagina del report. Per modificare la visualizzazione (zoom) della pagina, selezionare l'elenco a discesa Visualizza nell'angolo superiore destro e scegliere **Dimensioni effettive**.
 
    ![Modificare lo zoom](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,21 +65,26 @@ I *progettisti* di Power BI possono condividere un singolo report direttamente c
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Aprire un report che fa parte di un'app
 Se si ricevono app da colleghi o da AppSource, tali app sono disponibili da Home e dal contenitore **App** nella barra di spostamento. Un'[app](end-user-apps.md) è un'aggregazione di dashboard e report.
 
+### <a name="prerequisites"></a>Prerequisiti
+Per procedere, scaricare l'app Sales and Marketing.
+1. Nel browser passare ad appsource.microsoft.com.
+1. Cercare "Sales and Marketing" e selezionare **Microsoft sample - Sales & Marketing**.
+1. Selezionare **Scarica adesso** > **Continua** > **Installa** per installare l'app nel contenitore App. 
+
+È possibile aprire l'app dal contenitore App o da Home.
 1. Tornare a Home selezionando **Home** sulla barra di spostamento.
 
 7. Scorrere verso il basso fino a visualizzare **App personali**.
 
-   ![Home page](./media/end-user-report-open/power-bi-my-apps.png)
+   ![Home page](./media/end-user-report-open/power-bi-app.png)
 
-8. Selezionare una delle app per aprirla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard o un report. Se quando si seleziona l'app:
-    - Viene aperto il report, è tutto pronto.
-    - Viene aperto un dashboard, vedere ***Aprire un report da un dashboard*** di seguito.
+8. Per aprire la nuova app Sales and marketing, selezionarla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard o un report. Quest'app si apre automaticamente con un dashboard.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Aprire un report da un dashboard
 I report possono essere aperti da un dashboard. La maggior parte dei [riquadri](end-user-tiles.md) del dashboard viene *aggiunta* dai report. Se si seleziona un riquadro, viene aperto il report usato per creare il riquadro stesso. 
 
-1. In un dashboard selezionare un riquadro. In questo esempio è stato selezionato il riquadro dell'istogramma "Total Units YTD".
+1. Nel dashboard selezionare un riquadro. In questo esempio è stato selezionato il riquadro dell'istogramma "Total Units YTD".
 
     ![Dashboard con riquadro selezionato](./media/end-user-report-open/power-bi-dashboard.png)
 
@@ -94,5 +105,6 @@ Quando si acquisisce maggiore familiarità con gli spostamenti all'interno del s
 - E altro ancora.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Aprire e visualizzare un dashboard](end-user-dashboard-open.md)
+[Aprire e visualizzare un dashboard](end-user-dashboard-open.md)    
+[Filtri dei report](end-user-report-filter.md)
 

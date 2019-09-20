@@ -6,17 +6,17 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 05/29/2019
+ms.date: 09/11/2019
 ms.author: mihart
 layout: HubPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 7dae9f7a2768a8e9f51d5454019cff740304fe2f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66270604"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073391"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -41,8 +41,8 @@ ms.locfileid: "66270604"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Attività iniziali</h3>
-                                                <p><a href="/power-bi/service-get-started" data-linktype="absolute-path">Presentazione del servizio Power BI</a></p>
+                                                <h3>Inizia</h3>
+                                                <p><a href="/power-bi/consumer/end-user-reading-view" data-linktype="absolute-path">Presentazione del servizio Power BI</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-consumer" data-linktype="absolute-path">Che cos'è un <b><i>consumer</i></b> di Power BI?</a></p>
                                                 <p><b>Qual è la differenza:</b> <a href="/power-bi/consumer/end-user-reports" data-linktype="absolute-path">Report</a>, <a href="/power-bi/consumer/end-user-dashboards" data-linktype="absolute-path">dashboard</a>, <a href="/power-bi/consumer/end-user-apps" data-linktype="absolute-path">app</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-sign-in" data-linktype="absolute-path">Accedere e disconnettersi</a></p>
@@ -65,7 +65,7 @@ ms.locfileid: "66270604"
                                                 <p><a href="/power-bi/consumer/end-user-report-open" data-linktype="absolute-path">Visualizzare un report</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-dashboard-open" data-linktype="absolute-path">Visualizzare un dashboard</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-app-view" data-linktype="absolute-path">Visualizzare un'app</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-export" data-linktype="absolute-path">Esportazione dei dati</a>
+                                                <p><a href="/power-bi/consumer/end-user-export" data-linktype="absolute-path">Esportare dati</a>
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +122,7 @@ ms.locfileid: "66270604"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Guida</h3>
-                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Corsi di formazione Microsoft LEARN</a></p>
+                                            <p><a href="https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/" data-linktype="absolute-path">Formazione gratuita Microsoft LEARN</a></p>
                                                 <p><a href="https://powerbi.microsoft.com/blog/" data-linktype="absolute-path">Blog su Power BI</a></p>
                                                 <p><a href="http://community.powerbi.com/" data-linktype="absolute-path">Porre domande nei forum di Power BI</a></p>
                                             </div>
@@ -152,10 +152,10 @@ ms.locfileid: "66270604"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark">Concetti e terminologia</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark"> Concetti e terminologia </a>
                 <ul id="concepts-terminology">
                     <li>
-                        <a href="#conceptsterminology" data-linktype="self-bookmark">Concetti e terminologia</a>
+                        <a href="#conceptsterminology" data-linktype="self-bookmark"> Concetti e terminologia</a>
                         <ul id="conceptsterminology" class="cardsC">
                             <br>
                             <li>
@@ -314,25 +314,6 @@ ms.locfileid: "66270604"
                                                 <div class="cardText">
                                                     <h3>Accessibilità</h3>
                                                     <p>Informazione sulle funzionalità Microsoft che consentono agli utenti con esigenze particolari di interagire più facilmente con i report di Power BI. </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>                            
-                            <li>
-                                <a href="/power-bi/consumer/end-user-browsers" data-linktype="absolute-path">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="media/end-user-consumer/browser-info.svg" alt="Browsers Info" data-linktype="relative-path">
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Informazioni sui browser</h3>
-                                                    <p>Vedere l'elenco dei browser che funzionano meglio con Power BI. </p>
                                                 </div>
                                             </div>
                                         </div>

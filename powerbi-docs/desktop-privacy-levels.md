@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 05/08/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513907"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841336"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Livelli di privacy di Power BI Desktop
 In **Power BI Desktop**, i livelli di privacy specificano un livello di isolamento che definisce in che misura un'origine dati verrà isolata dalle altre. Anche se un livello di isolamento restrittivo impedisce lo scambio di informazioni tra le origini dati, può ridurre le funzionalità e compromettere le prestazioni.
@@ -52,7 +52,7 @@ L'impostazione **Livelli di privacy** è configurata su **Combina i dati in base
 | **Combina i dati in base alle impostazioni del livello di privacy per ogni origine** (attivata per impostazione predefinita) |Le impostazioni del livello di privacy vengono usate per determinare il livello di isolamento tra le origini dati durante la combinazione dei dati. |
 | **Ignora i livelli di privacy per un potenziale miglioramento delle prestazioni** (disattivata) |I livelli di privacy non vengono tenuti in considerazione durante la combinazione dei dati, ma le prestazioni e le funzionalità dei dati potrebbero incrementare. |
 
-> **Nota sulla sicurezza:** quando si abilita **Livelli di privacy** selezionando **Ignora i livelli di privacy per un potenziale miglioramento delle prestazioni** nella finestra di dialogo **Livelli di privacy** è possibile che vengano esposti dati sensibili o riservati a persone non autorizzate. Non abilitare **Livelli di privacy** a meno che non si sia certi che l'origine dati non contiene dati sensibili o riservati.
+> **Nota sulla sicurezza:** Se si seleziona **Ignora i livelli di privacy per un potenziale miglioramento delle prestazioni** nella finestra di dialogo **Livelli di privacy**, è possibile che i dati sensibili o riservati vengano esposti a persone non autorizzate. Non impostare questa opzione su *Disattivato*, a meno che non si sia certi che l'origine dati non contenga dati sensibili o riservati.
 > 
 > 
 

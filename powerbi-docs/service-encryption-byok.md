@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 39c6dc8a60be67f8f9e99e01ae1c7249166c5ddb
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665391"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877742"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Usare chiavi di crittografia personalizzate per Power BI (anteprima)
 
-Power BI consente di crittografare i dati _inattivi_ e _in elaborazione_ . Per impostazione predefinita, Power BI usa chiavi gestite da Microsoft per crittografare i dati. In Power BI Premium è anche possibile usare chiavi personalizzate per i dati inattivi che vengono importati in un set di dati. Per altre informazioni, vedere [Considerazioni su origine e archiviazione dei dati](#data-source-and-storage-considerations). Questo approccio viene spesso descritto come _BYOK (Bring Your Own Key)_ .
+Power BI consente di crittografare i dati _inattivi_ e _in elaborazione_. Per impostazione predefinita, Power BI usa chiavi gestite da Microsoft per crittografare i dati. In Power BI Premium è anche possibile usare chiavi personalizzate per i dati inattivi che vengono importati in un set di dati. Per altre informazioni, vedere [Considerazioni su origine e archiviazione dei dati](#data-source-and-storage-considerations). Questo approccio viene spesso descritto come _BYOK (Bring Your Own Key)_ .
 
 ## <a name="why-use-byok"></a>Vantaggi derivanti dall'uso di BYOK
 
@@ -123,11 +123,31 @@ Il cmdlet accetta due parametri opzionali che influiscono sulla crittografia per
 > [!IMPORTANT]
 > Se si specifica `-Default`, tutte le capacità create nel tenant da questo momento verranno crittografate con la chiave specificata (o con una chiave predefinita aggiornata). Non è possibile annullare l'operazione predefinita, quindi non è possibile creare nel tenant una capacità Premium che non usi la funzionalità BYOK (Bring Your Own Key).
 
-Dopo aver abilitato la funzionalità BYOK nel tenant, usare [ `Set-PowerBICapacityEncryptionKey` ](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) per impostare la chiave di crittografia per una o più capacità di Power BI:
+Dopo aver abilitato la funzionalità BYOK nel tenant, impostare la chiave di crittografia per una o più capacità di Power BI:
 
-```powershell
-Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-```
+1. Usare [`Get-PowerBICapacity`](/powershell/module/microsoftpowerbimgmt.capacities/get-powerbicapacity) per ottenere l'ID capacità necessario per il passaggio successivo.
+
+    ```powershell
+    Get-PowerBICapacity -Scope Individual
+    ```
+
+    Il cmdlet restituisce un output simile all'output seguente:
+
+    ```
+    Id              : xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    DisplayName     : Test Capacity
+    Admins          : adam@sometestdomain.com
+    Sku             : P1
+    State           : Active
+    UserAccessRight : Admin
+    Region          : North Central US
+    ```
+
+1. Usare [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) per impostare la chiave di crittografia:
+
+    ```powershell
+    Set-PowerBICapacityEncryptionKey-CapacityId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -KeyName 'Contoso Sales'
+    ```
 
 È possibile controllare la modalità di uso della crittografia BYOK in tutto il tenant. Ad esempio, per crittografare una capacità singola, chiamare `Add-PowerBIEncryptionKey` senza `-Activate`, o `-Default`. Chiamare quindi `Set-PowerBICapacityEncryptionKey` per la capacità in cui si vuole abilitare la crittografia BYOK.
 
@@ -155,7 +175,7 @@ Power BI offre altri cmdlet per gestire la crittografia BYOK nel tenant:
 
     Si noti che la crittografia è abilitata a livello di capacità, ma lo stato della crittografia viene ottenuto a livello di set di dati per l'area di lavoro specificata.
 
-- Usare [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) per cambiare (o _ruotare_ ) la versione della chiave usata per la crittografia. Il cmdlet aggiorna semplicemente l'elemento `-KeyVaultKeyUri` per una chiave `-Name`:
+- Usare [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) per cambiare (o _ruotare_) la versione della chiave usata per la crittografia. Il cmdlet aggiorna semplicemente l'elemento `-KeyVaultKeyUri` per una chiave `-Name`:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

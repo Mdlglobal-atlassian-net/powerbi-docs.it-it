@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490313"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877799"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
 
@@ -119,9 +119,9 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>Come è possibile impedire agli utenti di iniziare a usare Power BI?
 
-L'impostazione di Azure AD che controlla questa operazione è **AllowAdHocSubscriptions**. Per la maggior parte dei tenant questa opzione è true, ovvero abilitata. Se Power BI è stato acquistato tramite un partner, l'impostazione potrebbe essere false, ovvero disabilitata.
+L'impostazione di Azure AD che controlla questa operazione è **AllowAdHocSubscriptions**. Per la maggior parte dei tenant questa opzione è *true*, ovvero abilitata. Se Power BI è stato acquistato attraverso un partner, l'impostazione potrebbe essere *false*, ovvero disabilitata.
 
-Usare lo script di PowerShell seguente per disabilitare le sottoscrizioni ad hoc. [Altre informazioni su PowerShell][1].
+Usare lo script di PowerShell seguente per disabilitare le sottoscrizioni ad hoc. ([Altre informazioni su PowerShell][1].)
 
 1. Accedere ad Azure Active Directory usando le credenziali di Office 365. La prima riga dello script PowerShell seguente richiede le credenziali. La seconda riga si connette ad Azure Active Directory.
 
@@ -145,7 +145,7 @@ Usare lo script di PowerShell seguente per disabilitare le sottoscrizioni ad hoc
     ```
 
 > [!NOTE]
-> Usare il flag **AllowAdHocSubscriptions** per controllare diverse funzionalità utente nell'organizzazione, tra cui la possibilità per gli utenti di iscriversi al servizio Azure Rights Management. La modifica di questo flag ha effetto su tutte queste funzionalità.
+> Usare il flag **AllowAdHocSubscriptions** per controllare diverse funzionalità utente nell'organizzazione, tra cui la possibilità per gli utenti di iscriversi al servizio Azure Rights Management. La modifica di questo flag ha effetto su tutte queste funzionalità. Con l'impostazione *false* gli utenti possono comunque iscriversi per una versione di valutazione di Pro.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>Come si può consentire agli utenti esistenti di iscriversi a Power BI?
 

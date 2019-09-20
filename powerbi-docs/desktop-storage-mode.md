@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654747"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841299"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modalità di archiviazione in Power BI Desktop
 
@@ -42,6 +42,9 @@ L'impostazione della modalità di archiviazione in Power BI Desktop corrisponde 
 * **Relazioni molti-a-molti**: con i *modelli compositi* è possibile stabilire *relazioni molti-a-molti* tra le tabelle. *Relazioni molti-a-molti* rimuove i requisiti per valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per altre informazioni, vedere [Relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Modalità di archiviazione**: è ora possibile specificare gli oggetti visivi che richiedono una query per origini dati back-end. Quelli che non la richiedono vengono importati anche se basati su DirectQuery, con conseguente miglioramento delle prestazioni e riduzione del carico per il back-end. In precedenza, anche oggetti visivi semplici, come i filtri dei dati, attivavano query che venivano inviate alle origini di back-end. La modalità di archiviazione è descritta più dettagliatamente in questo articolo.
+
+> [!NOTE]
+> Per visualizzare la modalità di archiviazione corrente, selezionare la visualizzazione **Modello** e la tabella desiderata e quindi nella sezione **Avanzate** del riquadro **Proprietà** visualizzare il valore **Modalità di archiviazione**.
 
 ## <a name="use-the-storage-mode-property"></a>Usare la proprietà modalità di archiviazione
 

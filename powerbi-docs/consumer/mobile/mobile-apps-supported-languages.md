@@ -9,15 +9,15 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8a6ee2e16b5c5190c969c6017101257f331775f9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 97fa91dda195d6976d92b027a0f96fca8e2ccea1
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269397"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841410"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Lingue supportate nelle app Power BI per dispositivi mobili
-L'app Power Bi per dispositivi mobili attualmente supporta queste lingue:
+L'app Power BI per dispositivi mobili attualmente supporta queste lingue:
 
 * Arabo (solo iOS)
 * Catalano - català
