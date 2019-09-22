@@ -1,6 +1,6 @@
 ---
 title: Esportare dati da un oggetto visivo di Power BI
-description: Esportare i dati da un oggetto visivo del report e dashboard visivo e visualizzarlo in Excel.
+description: Esportare dati da un oggetto visivo del report e del dashboard e visualizzarli in Excel.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,73 +8,76 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 4/9/2019
+ms.date: 09/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: d4384db8e05a69b138e76377e7c7b845867fa881
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3ab3b7a96fb629b303263b1ccf5c2f31603300b4
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61063857"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073138"
 ---
-# <a name="export-data-from-visual"></a>Esportare i dati da visual
-Se si desidera visualizzare i dati che viene usati per creare un oggetto visivo [è possibile visualizzare i dati in Power BI](end-user-show-data.md) o esportarli in Excel. L'opzione per esportare i dati richiede un determinato tipo o licenza e modificare le autorizzazioni per il contenuto. Se non è possibile esportare, rivolgersi all'amministratore di Power BI. 
+# <a name="export-data-from-a-visual"></a>Esportare dati da un oggetto visivo
+I dati usati per creare un oggetto visivo [possono essere visualizzati in Power BI](end-user-show-data.md) oppure possono essere esportati in Excel. L'opzione per esportare i dati richiede un certo tipo o una licenza e le autorizzazioni di modifica per il contenuto. Se non è possibile eseguire l'esportazione, contattare l'amministratore di Power BI. 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Da un oggetto visivo in un dashboard di Power BI
 
-1. Iniziare in un dashboard di Power BI. Qui usiamo i dashboard tramite il ***Marketing e vendita di esempio*** app. È possibile [scaricare questa app da AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Iniziare con un dashboard di Power BI. In questo caso viene usato il dashboard dell'app ***Marketing and sales sample***. È possibile [scaricare questa app da AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
 
-    ![](media/end-user-export/power-bi-dashboard.png)
+    ![Dashboard dell'app](media/end-user-export/power-bi-dashboards.png)
 
-2. Passare il mouse su un oggetto visivo per visualizzare i puntini di sospensione (...) e fare clic per visualizzare il menu azione.
+2. Passare il puntatore del mouse su un oggetto visivo per visualizzare i puntini di sospensione (...) e fare clic per visualizzare il menu di azione.
 
-    ![](media/end-user-export/power-bi-dashboard-export-visual.png)
+    ![Menu visualizzato quando si selezionano i puntini di sospensione](media/end-user-export/power-bi-action-menu.png)
 
 3. Selezionare **Esporta in Excel**.
 
-4. Ciò che accade dipende dal browser in uso. Potrebbe essere richiesto di salvare il file o maggio visualizzato un collegamento per il file esportato nella parte inferiore del browser. 
+4. Il risultato varia a seconda del browser in uso. Nella parte inferiore del browser potrebbe essere richiesto di salvare il file o di visualizzare un collegamento al file esportato. 
 
-    ![](media/end-user-export/power-bi-export-browser.png)
+    ![Browser Chrome con il collegamento al file esportato](media/end-user-export/power-bi-dashboard-exports.png)
 
-5. Aprire il file di Excel.  
+5. Aprire il file in Excel.  
 
-    ![](media/end-user-export/power-bi-excel.png)
+    ![Total Units YTD in Excel](media/end-user-export/power-bi-excel.png)
 
 
 ## <a name="from-a-visual-in-a-report"></a>Da un oggetto visivo in un report
-È possibile esportare dati da un oggetto visivo in un report come file con estensione xlsx (Excel) o con estensione csv formato. 
+È possibile esportare i dati da un oggetto visivo in un report usando il formato CSV o xlsx (Excel). 
 
-1. In un dashboard, selezionare un riquadro per aprire il report sottostante.  In questo esempio selezioniamo HyperV come lo stesso oggetto visivo precedente, *totale unità YTD Var %* . 
+1. Nel dashboard selezionare un riquadro per aprire il report sottostante.  In questo esempio viene selezionato lo stesso oggetto visivo usato in precedenza, vale a dire *Total Units YTD var%.* 
 
-    ![](media/end-user-export/power-bi-export-report.png)
+    ![Riquadro del dashboard evidenziato](media/end-user-export/power-bi-export-reports.png)
 
-    Poiché questo riquadro è stato creato dal *esempio di vendite e Marketing* report, ovvero il report visualizzato. E si apre la pagina che contiene l'oggetto visivo riquadro selezionato. 
+    Il riquadro è stato creato dal report *Sales and Marketing Sample*. Si aprirà quindi questo report e sarà visualizzata la pagina contenente l'oggetto visivo del riquadro selezionato. 
 
-2. Selezionare il riquadro del report. Si noti che il **filtri** riquadro a destra. Questo oggetto visivo è stati applicati filtri. Per altre informazioni sui filtri, vedere [usare i filtri in un report](end-user-report-filter.md).
+2. Selezionare il riquadro nel report. Si noti il riquadro **Filtri** sulla destra. All'oggetto visivo sono applicati filtri. Per altre informazioni sui filtri, vedere [Usare i filtri in un report](end-user-report-filter.md).
 
-    ![](media/end-user-export/power-bi-export-filters.png)
+    ![Riquadro filtro selezionato](media/end-user-export/power-bi-export-filter.png)
 
 
-3. Selezionare i puntini di sospensione nell'angolo in alto a destra della visualizzazione. Scegli **esportare i dati**.
+3. Selezionare i puntini di sospensione nell'angolo superiore destro della visualizzazione. Scegliere **Esporta dati**.
 
-    ![](media/end-user-export/power-bi-export-report2.png)
+    ![Esportare i dati selezionati dall'elenco a discesa](media/end-user-export/power-bi-export-report.png)
 
-4. Verranno visualizzate opzioni per esportare i dati di riepilogo o di dati sottostante. Se si usa la *esempio di vendite e marketing* app **dei dati sottostanti** verrà disabilitata. Ma è possibile riscontrare i report in cui entrambe le opzioni sono abilitate. Di seguito è riportata una spiegazione della differenza.
+4. Verranno visualizzate le opzioni per esportare il Riepilogo dati o i Dati sottostanti. Se si usa l'app *Sales and marketing sample*, i **Dati sottostanti** saranno disabiliti. È tuttavia possibile trovare report in cui entrambe le opzioni sono abilitate. Di seguito viene illustrata la differenza.
 
-    **I dati di riepilogo**: selezionare questa opzione se si desidera esportare i dati per ciò che viene visualizzato nell'oggetto visivo.  Questo tipo di esportazione Mostra solo i dati che è stati utilizzati per creare l'oggetto visivo. Se l'oggetto visivo è stati applicati filtri, verranno filtrati anche i dati esportati. Ad esempio, per questo oggetto visivo, l'esportazione includerà solo i dati per il 2014 e l'area centrale e solo i dati per quattro dei produttori: VanArsdel, Natura, Aliqui e Prirum.
+    **Riepilogo dati**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo.  Questo tipo di esportazione consente di visualizzare solo i dati usati per creare l'oggetto visivo. Se all'oggetto visivo sono applicati filtri, anche i dati esportati saranno filtrati. Ad esempio, per questo oggetto visivo l'esportazione includerà solo i dati del 2014, l'area centrale e solo i dati relativi a quattro dei produttori, vale a dire VanArsdel, Natura, Aliqui e Pirum.
   
 
-    **I dati sottostanti**: selezionare questa opzione se si desidera esportare i dati per ciò che viene visualizzato nell'oggetto visivo **plus** dati aggiuntivi dal set di dati sottostante.  Questo può includere i dati contenuti nel set di dati ma non usati nell'oggetto visivo. 
+    **Dati sottostanti**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo **oltre a** dati aggiuntivi provenienti dal set di dati sottostante.  Possono quindi essere inclusi dati che sono contenuti nel set di dati, ma che non sono usati nell'oggetto visivo. 
 
-    ![](media/end-user-export/power-bi-export-report3.png)
+    ![Menu in cui si sceglie il riepilogo dati o i dati sottostanti](media/end-user-export/power-bi-export-option.png)
 
-5. Ciò che accade dipende dal browser in uso. Potrebbe essere richiesto di salvare il file o maggio visualizzato un collegamento per il file esportato nella parte inferiore del browser. 
+5. Il risultato varia a seconda del browser in uso. Nella parte inferiore del browser potrebbe essere richiesto di salvare il file o di visualizzare un collegamento al file esportato. 
 
-    ![](media/end-user-export/power-bi-export-edge.png)
+    ![Visualizzazione del file esportato nel browser Microsoft Edge](media/end-user-export/power-bi-export-edge-browser.png)
 
 
-7. Aprire il file di Excel. Confrontare la quantità di dati esportati i dati che sono esportati dall'oggetto visivo nel dashboard stesso. La differenza è che questa esportazione include **dei dati sottostanti**. 
+6. Aprire il file in Excel. Confrontare la quantità di dati esportati con i dati esportati dallo stesso oggetto visivo nel dashboard. La differenza è che questo tipo di esportazione include i **dati sottostanti**. 
 
-    ![](media/end-user-export/power-bi-underlying.png)
+    ![Esempio in Excel](media/end-user-export/power-bi-underlying.png)
 
+## <a name="next-steps"></a>Passaggi successivi
+
+[Visualizzare i dati usati per creare un oggetto visivo](end-user-show-data.md)
