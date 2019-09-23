@@ -1,5 +1,5 @@
 ### YamlMime:Tutorial
-title: Creazione di modelli
+title: Modellazione
 metadata:
   title: Modellazione | Microsoft Power BI
   description: È possibile connettersi a più origini dati, quindi combinarle in modo da creare un modello di dati univoco che soddisfi le proprie esigenze.
@@ -16,7 +16,7 @@ metadata:
   ms.author: davidi
   ms.openlocfilehash: c7c6a0b58ddff463597de29f7a40568af9e3e62c
   ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: it-IT
   ms.lasthandoff: 05/29/2019
   ms.locfileid: "65239814"
