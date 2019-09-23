@@ -5,19 +5,18 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/13/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 02aed3d69ee5d6ce344138a57853bd0b2a06036b
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608576"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100172"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Stampa dal servizio Power BI
 È possibile stampare un intero dashboard, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.
@@ -34,7 +33,7 @@ ms.locfileid: "65608576"
    
 
    
-    ![Finestra di dialogo Stampa](./media/end-user-print/pbi_print_dash_new2.png)
+    ![Finestra di dialogo Stampa](./media/end-user-print/power-bi-print-dash.png)
 
 ## <a name="print-a-dashboard-tile"></a>Stampare un riquadro del dashboard
 1. Per aprire il dashboard nella [modalità schermo intero](end-user-focus.md), selezionare l'icona di tale modalità ![Icona Schermo intero](./media/end-user-print/power-bi-full-screen-icon.png) nella barra dei menu superiore.

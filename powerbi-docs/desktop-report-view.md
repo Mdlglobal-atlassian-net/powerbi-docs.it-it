@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514618"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142203"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Visualizzazione report in Power BI Desktop
 Se si usa già Power BI, si saprà già quanto sia facile creare report che offrono prospettive dinamiche e informazioni dettagliate sui dati. Power BI include però funzionalità più avanzate in Power BI Desktop. Grazie a Power BI Desktop è infatti possibile creare query avanzate, combinare dati di più origini, creare relazioni tra tabelle e altro ancora.
@@ -61,9 +61,11 @@ Per eliminare una pagina, fare clic sulla **X** nella scheda della pagina nella 
 
 La possibilità di copiare e incollare gli oggetti visivi è utile per chi compila e aggiorna frequentemente più report. Quando si esegue la copia tra file, le impostazioni e la formattazione impostate in modo esplicito nel riquadro di formattazione verranno riportate, mentre gli oggetti visivi basati su un tema o sulle impostazioni predefinite vengono aggiornati automaticamente in modo che corrispondano al tema del report di destinazione. Pertanto, quando si crea un oggetto visivo con la formattazione e l'aspetto desiderati, è possibile copiarlo e incollarlo in nuovi report e conservare la formattazione valida.
 
-![Errore durante l'operazione di copia/incolla dell'oggetto visivo: nessun campo dati](media/desktop-report-view/report-view_05.png)
+Se i campi nel modello sono diversi, verranno visualizzati un errore relativo all'oggetto visivo e un avviso sui campi inesistenti. L'errore è simile all'esperienza visualizzata quando si elimina un campo nel modello usato da un oggetto visivo. 
 
-Se i campi nel modello sono diversi, verranno visualizzati un errore relativo all'oggetto visivo e un avviso sui campi inesistenti. L'errore è simile all'esperienza visualizzata quando si elimina un campo nel modello usato da un oggetto visivo. Per correggere l'errore, è sufficiente sostituire i campi interrotti con i campi che si vuole usare dal modello nel report in cui è stato incollato l'oggetto visivo. Se si usa un oggetto visivo personalizzato, è anche necessario importare tale oggetto visivo personalizzato nel report di destinazione.
+![Errore durante l'operazione di copia/incolla dell'oggetto visivo: nessun campo dati](media/desktop-report-view/report-view_07.png)
+
+Per correggere l'errore, è sufficiente sostituire i campi interrotti con i campi che si vuole usare dal modello nel report in cui è stato incollato l'oggetto visivo. Se si usa un oggetto visivo personalizzato, è anche necessario importare tale oggetto visivo personalizzato nel report di destinazione.
 
 
 

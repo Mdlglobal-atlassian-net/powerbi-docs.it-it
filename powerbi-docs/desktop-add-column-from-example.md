@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c172ca90a849ca83a1faeed5dbab3bda96698c1a
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239809"
@@ -115,7 +115,7 @@ Sono disponibili molte trasformazioni quando si usa il riquadro **Aggiungi colon
   * Settimana del mese
   * Settimana dell'anno
   * Year
-  * Age
+  * Età
   * Inizio dell'anno
   * Fine dell'anno
   * Inizio del mese

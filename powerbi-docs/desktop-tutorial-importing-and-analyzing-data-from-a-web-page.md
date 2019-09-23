@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514629"
@@ -71,7 +71,7 @@ Per prima cosa, rimuovere dalla tabella tutte le colonne ad eccezione di **Year*
    
 2. Fare clic con il pulsante destro del mouse e scegliere **Rimuovi altre colonne** dall'elenco a discesa oppure selezionare **Rimuovi colonne** > **Rimuovi altre colonne** nel gruppo **Gestisci colonne** nella scheda **Home** della barra multifunzione per rimuovere tutte le altre colonne dalla tabella. 
    
-   ![Elenco a discesa Rimuovi altre colonne](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) oppure ![Rimuovi altre colonne - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
+   ![Elenco a discesa Rimuovi altre colonne](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) or ![Rimuovi altre colonne - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
 Successivamente, rimuovere la parola superflua **Details** dalle celle della colonna **Year**.
 
@@ -79,7 +79,7 @@ Successivamente, rimuovere la parola superflua **Details** dalle celle della col
    
 2. Fare clic con il pulsante destro del mouse e scegliere **Sostituisci valori** dall'elenco a discesa oppure selezionare **Sostituisci valori** nel gruppo **Trasforma** della scheda **Home** della barra multifunzione (disponibile anche nel gruppo **Qualsiasi colonna** della scheda **Trasforma**). 
    
-   ![Elenco a discesa Sostituisci valori](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) oppure ![Sostituisci valori - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
+   ![Elenco a discesa Sostituisci valori](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) or ![Sostituisci valori - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
 3. Nella finestra di dialogo **Sostituisci valori** digitare **Details** nella casella di testo **Valore da trovare**, lasciare vuota la casella di testo **Sostituisci con** e quindi scegliere **OK** per eliminare la parola "Details" dalle voci **Year**.
    
@@ -99,7 +99,7 @@ Dopo la pulizia dei dati nella colonna **Year** è possibile passare alla colonn
    - Fare clic con il pulsante destro del mouse sull'intestazione di colonna **Final Winners** e selezionare **Rinomina** dall'elenco a discesa o 
    - Selezionare la colonna **Final Winners** e selezionare **Rinomina** nel gruppo **Qualsiasi colonna** nella scheda **Trasforma** della barra multifunzione. 
    
-   ![Elenco a discesa Rinomina](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) oppure ![Rinomina - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   ![Elenco a discesa Rinomina](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) or ![Rinomina - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
    
 2. Digitare **Country** nell'intestazione e premere **INVIO** per rinominare la colonna.
 

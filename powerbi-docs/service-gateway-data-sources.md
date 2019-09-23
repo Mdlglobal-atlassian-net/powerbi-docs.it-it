@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730212"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164529"
 ---
 # <a name="manage-data-sources"></a>Gestire le origini dati
 
@@ -102,7 +102,7 @@ Dopo avere aggiunto un'origine dati a un gateway, si concede l'accesso all'origi
 
 4. Selezionare **Aggiungi**. Il nome del membro aggiunto verrà visualizzato nella casella.
 
-    ![Aggiungere un utente](media/service-gateway-data-sources/add-user.png)
+    ![Aggiungi utente](media/service-gateway-data-sources/add-user.png)
 
 Non dimenticare che è necessario aggiungere utenti a ogni origine dati a cui si vuole concedere l'accesso. Ogni origine dati dispone di un elenco separato di utenti. Aggiungere gli utenti a ciascuna origine dati separatamente.
 
@@ -123,9 +123,9 @@ Il gateway dati locale supporta le seguenti origini dati per Power BI. Oltre all
 | **Origine dati** | **Dinamico/DirectQuery** | **Aggiornamento pianificato o manuale (configurato dall'utente)** |
 | --- | --- | --- |
 | Amazon Redshift |Sì |Sì |
+| Analysis Services |Sì |Sì |
 | Cubi AtScale |Sì |Sì |
 | Azure Active Directory |No |Sì |
-| Azure Analysis Services |Sì |Sì |
 | Archiviazione BLOB di Azure |No |Sì |
 | Azure DevOps Server |No |Sì |
 | Archiviazione tabelle di Azure |No |Sì |

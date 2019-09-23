@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61143941"
@@ -162,9 +162,9 @@ In alcuni casi potrebbero verificarsi problemi di connessione alle origini dati 
 In questo articolo è stato illustrato come creare un **flusso di dati** personalizzato e come creare un set di dati e un report in **Power BI Desktop** per sfruttarne i vantaggi. Gli articoli seguenti forniscono altre informazioni e illustrano scenari d'uso dei flussi di dati:
 
 * [Preparazione dei dati self-service con flussi di dati](service-dataflows-overview.md)
-* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso delle entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
+* [Risorse per sviluppatori per i flussi di dati Power BI](service-dataflows-developer-resources.md)
 * [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md)
 
 Per altre informazioni sul modello CDM (Common Data Model), è possibile leggere l'articolo di panoramica:

@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 6699167cecebea5085eff4621c077096fd4c6c2e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61385144"
@@ -23,7 +23,7 @@ ms.locfileid: "61385144"
 * Massimo 75 colonne
 * Massimo 75 tabelle
 * Massimo 10.000 righe per ogni singola richiesta di POST di righe  
-* 1.000.000 di righe aggiunte all'ora per set di dati  
+* 1\.000.000 di righe aggiunte all'ora per set di dati  
 * Massimo 5 richieste di POST di righe in sospeso per set di dati  
 * 120 richieste di POST di righe al minuto per set di dati
 * Se la tabella include 250.000 o più righe, 120 richieste di POST di righe all'ora per set di dati

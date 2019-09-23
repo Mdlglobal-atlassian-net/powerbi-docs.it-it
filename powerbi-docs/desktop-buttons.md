@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9d884df7fdfa6d0f16e7963c00a1100186d70546
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239488"
@@ -39,7 +39,7 @@ I pulsanti in Power BI presentano tre stati: predefinito (aspetto dei pulsanti q
 
 Le sezioni seguenti nel riquadro **Visualizzazioni** consentono di modificare la formattazione o il comportamento di un pulsante in base ai relativi tre stati:
 
-* Testo pulsante
+* Testo del pulsante
 * Icona
 * Bordo
 * Riempimento

@@ -11,7 +11,7 @@ ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "60976742"
@@ -29,8 +29,8 @@ Con una topologia di quattro server per il server di report di Power BI e un'asp
 
 | Carico di lavoro | 8 core/32 GB di RAM | 16 core/64 GB di RAM |
 | --- | --- | --- |
-| **Power BI Report Heavy** (>60%) |1.000 utenti |3.000 utenti |
-| **Paginated (RDL) Report Heavy** (>60%) |2.000 utenti |3.200 utenti |
+| **Power BI Report Heavy** (>60%) |1\.000 utenti |3\.000 utenti |
+| **Paginated (RDL) Report Heavy** (>60%) |2\.000 utenti |3\.200 utenti |
 
 In ogni esecuzione la risorsa che presenta il sovraccarico maggiore è la CPU. L'aumento del numero di core per il server di report di Power BI potrebbe quindi permettere di ottenere un incremento superiore a livello di affidabilità del sistema rispetto all'aumento della quantità di memoria o dello spazio su disco rigido. 
 
@@ -42,7 +42,7 @@ La distribuzione del server di report di Power BI è costituita dalle macchine v
 
 * Controller di dominio di Active Directory: usato dal motore di database di SQL Server, da SQL Server Analysis Services e dal server di report di Power BI per l'autenticazione sicura di tutte le richieste.
 * Motore di database di SQL Server e SQL Server Analysis Services: posizione in cui sono stati archiviati tutti i database che i report devono utilizzare in fase di rendering.
-* Server di report di Power BI
+* Server di report Power BI
 * Database del server di report Power BI. Il database del server di report è ospitato in una macchina virtuale rispetto al server di report di Power BI, in modo che non debba competere con il motore di database di SQL Server per memoria, CPU, risorse di rete e di disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -86,8 +86,8 @@ Presso Microsoft è disponibile una distribuzione di produzione del server di re
 
 | Carico di lavoro | 8 core/32 GB | 16 core/64 GB |
 | --- | --- | --- |
-| **Power BI Report Heavy** |1.000 utenti |3.000 utenti |
-| **Paginated Report Heavy** |2.000 utenti |3.200 utenti |
+| **Power BI Report Heavy** |1\.000 utenti |3\.000 utenti |
+| **Paginated Report Heavy** |2\.000 utenti |3\.200 utenti |
 
 ### <a name="view-results"></a>Visualizzare i risultati
 Selezionare un report per visualizzare i risultati del test di carico.
