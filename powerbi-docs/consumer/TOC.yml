@@ -92,6 +92,8 @@
               href: end-user-insights.md
             - name: Attivare le funzionalità di anteprima
               href: end-user-preview-features.md
+            - name: Ottenere notifiche nel servizio Power BI
+              href: end-user-notification-center.md
         - name: Recupera dati
           items:
             - name: App in Power BI
