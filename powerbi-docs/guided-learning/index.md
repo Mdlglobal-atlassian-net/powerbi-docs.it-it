@@ -4,14 +4,14 @@ description: Inizia il tuo percorso di apprendimento con questa raccolta di cors
 layout: LandingPage
 ms.service: powerbi
 ms.author: davidiseminger
-ms.date: 05/10/2019
+ms.date: 09/20/2019
 ms.topic: hub-page
-ms.openlocfilehash: 69bb6ce574c1ee6922c83f4ae2fcc06479eba440
-ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
+ms.openlocfilehash: 0d42295d3f6a3ccb6f3147d8293f1544ca0a3095
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65533678"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192073"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -22,6 +22,7 @@ ms.locfileid: "65533678"
                   <p>Inizia il tuo percorso di apprendimento con questa raccolta di corsi in sequenza e scopri le funzionalità complete e potenti di Microsoft Power BI.</p>
               </div>
           </li>
+          
           <li>
             <div class="cardSize">
                 <div class="cardPadding">
@@ -33,18 +34,36 @@ ms.locfileid: "65533678"
                                 <img src="media/logo_power-bi.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Attività iniziali </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/explore-power-bi-service" style="text-decoration: none">Informazioni sulle funzionalità di Power BI</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/">Introduzione a Power BI con Microsoft Learn</a>
-                                <span style="margin-left: 32px; align-self: center;">47m</span>
-                              </li>                              
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/1-why-power-bi">Cosa è possibile fare con il servizio Power BI come consumer? </a>
+                                <span style="margin-left: 32px; align-self: center;">12 minuti</span>
+                              </li>      
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/2-find-content">Visualizzare il contenuto nel servizio Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">10 minuti</span>
+                              </li>     
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/3-navigate-content">Esplorare con dashboard, report e app in Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">15 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share">Collaborare e condividere in Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">15 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1">Trovare e visualizzare dashboard e report</a>
+                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
+                              </li>
                           </ul>
                       </div>
                     </div>
                 </div>
             </div>
           </li>
+          
           <li>
             <div class="cardSize">
                 <div class="cardPadding">
@@ -56,31 +75,24 @@ Attività iniziali </h3>
                                 <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Acquisizione dei dati </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi" style="text-decoration: none">Analizzare i dati con Power BI</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=1">Panoramica di Power BI Desktop</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/1-filtering-data">Filtrare i dati con Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">15 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=2">Introduzione a Power BI Desktop</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/2-exploring-with-numbers">Visualizzare i dati</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=3">Connettere le origini dati in Power BI Desktop</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/3-asking-questions-data">Porre domande sui dati</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=4">Pulire e trasformare i dati con l'Editor di query</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=5">Trasformazione e origini dati più avanzate</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingdata.yml?tutorial-step=6">Pulizia dei dati non correttamente formattati</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/analyze-data-power-bi/4-lab-2">Applicare filtri ai report</a>
+                                <span style="margin-left: 32px; align-self: center;">25 minuti</span>
                               </li>
                           </ul>
                       </div>
@@ -88,7 +100,8 @@ Acquisizione dei dati </h3>
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -96,133 +109,27 @@ Acquisizione dei dati </h3>
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-modeling.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Creazione di modelli </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi" style="text-decoration: none">Introduzione alla compilazione con Power BI</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=1">Introduzione alla modellazione dei dati</a>
-                                <span style="margin-left: 32px; align-self: center;">3 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=2">Come gestire le relazioni tra i dati</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=3">Creare colonne calcolate</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=4">Ottimizzare i modelli di dati</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=5">Creare misure calcolate</a>
-                                <span style="margin-left: 32px; align-self: center;">14 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=6">Creare tabelle calcolate</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="modeling.yml?tutorial-step=7">Esplorare i dati basati sul tempo</a>
-                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
-                              </li>
-                          </ul>
-                      </div>
-                    </div>
-                </div>
-            </div>
-          </li>
-          <li>
-            <div class="cardSize">
-                <div class="cardPadding">
-                  <div class="card" style="padding: 0 12px 54px 0;">
-                      <div class="cardText" style="box-shadow: 0 2px 5px #e8e8e8; border: 1px solid #dbdbdb;">
-                          <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
-                            <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
-                              <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-visualizations.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
-                              </div>
-                            </div>
-Visualizzazioni </h3>
-                          <ul class="noBullet" style="margin: 24px;">
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=1">Introduzione agli oggetti visivi in Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">2 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=2">Creare e personalizzare visualizzazioni semplici</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=3">Grafici combinati</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=4">Filtri dei dati</a>
-                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=5">Visualizzazioni della mappa</a>
-                                <span style="margin-left: 32px; align-self: center;">11 m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=6">Matrici e tabelle</a>
-                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=7">Grafici a dispersione</a>
-                                <span style="margin-left: 32px; align-self: center;">9 m</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=8">Grafici a imbuto e a cascata</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=9">Misuratori e schede con numero singolo</a>
-                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=10">Modificare i colori in grafici e oggetti visivi</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=11">Forme, caselle di testo e immagini</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/1-introduction">Introduzione</a>
                                 <span style="margin-left: 32px; align-self: center;">6 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=12">Formattazione e layout di pagina</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=13">Interazioni di gruppo tra visualizzazioni</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=14">Duplicare una pagina di un report</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/2-using-power-bi">Usare Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">2 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=15">Mostrare le categorie senza dati</a>
-                                <span style="margin-left: 32px; align-self: center;">3 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/3-building-blocks-of-power-bi">Creazione di blocchi predefiniti di Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">12 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=16">Opzioni di riepilogo e categoria</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=17">Ordine Z</a>
-                                <span style="margin-left: 32px; align-self: center;">3 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=18">Gerarchie ed esplorazione degli oggetti visivi</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="visualizations.yml?tutorial-step=19">Integrazione R in Power BI Desktop</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi">Tour e utilizzo del servizio Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">12 minuti</span>
                               </li>
                           </ul>
                       </div>
@@ -230,7 +137,8 @@ Visualizzazioni </h3>
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -238,50 +146,39 @@ Visualizzazioni </h3>
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-exploring-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Esplorazione dei dati </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/get-data-power-bi" style="text-decoration: none">Recuperare dati con Power BI Desktop</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=1">Introduzione al servizio Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">2 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=2">Quick Insights in Power BI</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/1-overview-power-bi-desktop">Panoramica di Power BI Desktop</a>
                                 <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=3">Creare e configurare un dashboard</a>
-                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop">Esplorare Power BI Desktop</a>
+                                <span style="margin-left: 32px; align-self: center;">10 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=4">Porre domande sui dati con il linguaggio naturale</a>
-                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop">Connettersi alle origini dati</a>
+                                <span style="margin-left: 32px; align-self: center;">10 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Creare suggerimenti di Domande &amp; risposte personalizzati</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=6">Condividere i dashboard con l'organizzazione</a>
-                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=7">Visualizzare oggetti visivi e riquadri a schermo intero</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=8">Modificare i dettagli del riquadro e aggiungere widget</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel">Recuperare dati da Excel</a>
                                 <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=9">Ottenere più spazio nel dashboard</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor">Trasformare i dati da includere in un report</a>
+                                <span style="margin-left: 32px; align-self: center;">10 minuti</span>
+                                <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/5-advanced-data-sources-transformation">Combinare i dati da più origini</a>
+                                <span style="margin-left: 32px; align-self: center;">10 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=10">Installare e configurare un Gateway personale</a>
-                                <span style="margin-left: 32px; align-self: center;">11 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/get-data-power-bi/6-cleaning-data">Pulire i dati da includere in un report</a>
+                                <span style="margin-left: 32px; align-self: center;">10 minuti</span>
+                              </li>
                               </li>
                           </ul>
                       </div>
@@ -289,7 +186,8 @@ Esplorazione dei dati </h3>
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -297,30 +195,39 @@ Esplorazione dei dati </h3>
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/logo_excel-blk.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Power BI ed Excel </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/model-data-power-bi" style="text-decoration: none">Modellare i dati in Power BI</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=1">Introduzione all'uso di dati di Excel in Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">2 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/1-overview-power-bi">Introduzione alla modellazione dei dati</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=2">Caricare dati di Excel su Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=3">Importare Power View e Power Pivot in Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=4">Connettere OneDrive for Business a Power BI</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/2-how-to-manage-data-relationships">Come gestire le relazioni tra i dati</a>
                                 <span style="margin-left: 32px; align-self: center;">8 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="powerbiandexcel.yml?tutorial-step=5">Excel in Power BI: riepilogo</a>
-                                <span style="margin-left: 32px; align-self: center;">2 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns">Creare colonne calcolate</a>
+                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models">Ottimizzare i modelli di dati</a>
+                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures">Creare misure calcolate</a>
+                                <span style="margin-left: 32px; align-self: center;">15 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables">Creare tabelle calcolate</a>
+                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data">Esplorare i dati basati sul tempo</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                           </ul>
                       </div>
@@ -328,7 +235,8 @@ Power BI ed Excel </h3>
                 </div>
             </div>
           </li>
-          <li>
+          
+                    <li>
             <div class="cardSize">
                 <div class="cardPadding">
                   <div class="card" style="padding: 0 12px 54px 0;">
@@ -336,58 +244,43 @@ Power BI ed Excel </h3>
                           <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
                             <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
                               <div class="cardImage" style="width: 32px;">
-                                <img src="media/pbi-pub-sharing.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Pubblicazione e condivisione </h3>
+                            <a href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi" style="text-decoration: none">Usare gli oggetti visivi in Power BI</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=1">Introduzione a pacchetti di contenuto, sicurezza e gruppi</a>
-                                <span style="margin-left: 32px; align-self: center;">2 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=2">Pubblicare report di Power BI Desktop</a>
-                                <span style="margin-left: 32px; align-self: center;">2 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=3">Stampare ed esportare dashboard e report</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=4">Ripubblicazione e aggiornamento manuali dei dati</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=5">Introduzione a Power BI per dispositivi mobili</a>
-                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=6">Creare gruppi in Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=7">Creare pacchetti di contenuto</a>
-                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=8">Usare pacchetti di contenuto</a>
-                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=9">Aggiornare pacchetti di contenuto</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
-                              </li>
-                              <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=10">Integrare OneDrive for Business con Power BI</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals">Introduzione agli oggetti visivi in Power BI</a>
                                 <span style="margin-left: 32px; align-self: center;">3 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=11">Pubblicare sul Web</a>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals">Creare e personalizzare visualizzazioni semplici</a>
+                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/4-create-slicers">Creare filtri dei dati</a>
+                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/5-map-visualizations">Visualizzazioni della mappa</a>
                                 <span style="margin-left: 32px; align-self: center;">5 minuti</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="publishingandsharing.yml?tutorial-step=12">Completamento dell'apprendimento guidato di Power BI</a>
-                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables">Matrici e tabelle</a>
+                                <span style="margin-left: 32px; align-self: center;">8 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts">Creare grafici a dispersione, a cascata e a imbuto</a>
+                                <span style="margin-left: 32px; align-self: center;">9 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors">Modificare i colori in grafici e oggetti visivi</a>
+                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting">Formattazione e layout di pagina</a>
+                                <span style="margin-left: 32px; align-self: center;">12 minuti</span>
                               </li>
                           </ul>
                       </div>
@@ -395,6 +288,122 @@ Pubblicazione e condivisione </h3>
                 </div>
             </div>
           </li>
+          
+                    <li>
+            <div class="cardSize">
+                <div class="cardPadding">
+                  <div class="card" style="padding: 0 12px 54px 0;">
+                      <div class="cardText" style="box-shadow: 0 2px 5px #e8e8e8; border: 1px solid #dbdbdb;">
+                          <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
+                            <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
+                              <div class="cardImage" style="width: 32px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                              </div>
+                            </div>
+                            <a href="https://docs.microsoft.com/learn/modules/explore-data-power-bi" style="text-decoration: none">Esplorare i dati in Power BI</a>
+                          </h3>
+                          <ul class="noBullet" style="margin: 24px;">
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/1-introduction-power-bi-service">Introduzione al servizio Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights">Informazioni rapide su Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard">Creare e configurare un dashboard</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions">Porre domande sui dati con il linguaggio naturale</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa">Creare suggerimenti di Domande e risposte personalizzati</a>
+                                <span style="margin-left: 32px; align-self: center;">4 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards">Condividere i dashboard con l'organizzazione</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/7-display-full-screen">Visualizzare oggetti visivi e riquadri a schermo intero</a>
+                                <span style="margin-left: 32px; align-self: center;">3 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/8-edit-tile-details">Modificare i dettagli del riquadro e aggiungere widget</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/explore-data-power-bi/9-get-more-space-on-dashboard">Ottenere più spazio nel dashboard</a>
+                                <span style="margin-left: 32px; align-self: center;">3 minuti</span>
+                              </li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </li>
+          
+                    <li>
+            <div class="cardSize">
+                <div class="cardPadding">
+                  <div class="card" style="padding: 0 12px 54px 0;">
+                      <div class="cardText" style="box-shadow: 0 2px 5px #e8e8e8; border: 1px solid #dbdbdb;">
+                          <h3 class="bgdAccent1" style="padding: 8px; display: flex; background: #f2c811; font-weight: bold; border-bottom: 0; margin-bottom: 0; line-height: 42px">
+                            <div class="cardImageOuter" style="margin: 0 8px 0 10px;">
+                              <div class="cardImage" style="width: 32px;">
+                                <img src="media/pbi-getting-data.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
+                              </div>
+                            </div>
+                            <a href="https://docs.microsoft.com/learn/modules/publish-share-power-bi" style="text-decoration: none">Pubblicare e condividere in Power BI</a>
+                          </h3>
+                          <ul class="noBullet" style="margin: 24px;">
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs">Introduzione a pacchetti di contenuto, sicurezza e gruppi</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports">Pubblicare report di Power BI Desktop</a>
+                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports">Stampare ed esportare dashboard e report</a>
+                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/5-power-bi-mobile">Introduzione a Power BI per dispositivi mobili</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/6-create-groups">Creare aree di lavoro in Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/7-build-apps">Compilare app</a>
+                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/8-use-apps">Usare le app</a>
+                                <span style="margin-left: 32px; align-self: center;">6 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/10-integrate-onedrive">Integrare OneDrive for Business con Power BI</a>
+                                <span style="margin-left: 32px; align-self: center;">7 minuti</span>
+                              </li>
+                              <li style="display: flex; justify-content: space-between;">
+                                <a class="barLink" href="https://docs.microsoft.com/learn/modules/publish-share-power-bi/11-publish-web">Pubblicare sul Web</a>
+                                <span style="margin-left: 32px; align-self: center;">5 minuti</span>
+                              </li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </li>
+     
+          
           <li>
             <div class="cardSize">
                 <div class="cardPadding">
@@ -406,7 +415,8 @@ Pubblicazione e condivisione </h3>
                                 <img src="media/pbi-dax-intro.svg" alt="" data-linktype="absolute-path" class="x-hidden-focus" style="position: relative; top: 6px;">
                               </div>
                             </div>
-Introduzione a DAX </h3>
+                            <a href="introductiontodax.yml?tutorial-step=1" style="text-decoration: none">Introduzione a DAX</a>
+                          </h3>
                           <ul class="noBullet" style="margin: 24px;">
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="introductiontodax.yml?tutorial-step=1">Introduzione a DAX</a>
