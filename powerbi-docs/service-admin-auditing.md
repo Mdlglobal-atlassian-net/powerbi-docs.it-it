@@ -1,5 +1,5 @@
 ---
-title: Usare il controllo all'interno dell'organizzazione
+title: Usare il controllo nell'organizzazione
 description: Informazioni sulla modalità d'uso della funzionalità di controllo con Power BI per monitorare ed esaminare le azioni eseguite. È possibile usare il Centro sicurezza e conformità o PowerShell.
 author: mgblythe
 manager: kfile
@@ -7,119 +7,119 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/23/2019
+ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 559ff45974274420e2545228720000359d5fe971
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cd12546c91e9f967c8ed4cdd6e4dac9884f73670
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906864"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075848"
 ---
-# <a name="use-auditing-within-your-organization"></a>Usare il controllo all'interno dell'organizzazione
+# <a name="use-auditing-within-your-organization"></a>Usare il controllo nell'organizzazione
 
-Conoscere chi sta eseguendo un'azione su un determinato elemento in Power BI tenant può essere fondamentale per aiutare l'organizzazione a soddisfare le proprie esigenze, come la conformità alle normative e la gestione dei record. Usare il controllo per controllare le azioni eseguite dagli utenti, ad esempio "Visualizza Report" e "Visualizzazione Dashboard" di Power BI. È possibile utilizzare il controllo per controllare le autorizzazioni.
+Il fatto di sapere chi sta eseguendo un'azione su un determinato elemento del tenant di Power BI è essenziale per aiutare l'organizzazione a soddisfare i propri requisiti, ad esempio la conformità alle normative e la gestione dei record. Usare la funzione di controllo di Power BI per controllare le azioni eseguite dagli utenti, ad esempio "Visualizza report" e "Visualizza dashboard". Non è possibile usare la funzione di controllo per controllare le autorizzazioni.
 
 Si utilizzano le funzionalità di controllo del Centro sicurezza e conformità di Office 365 o si usa PowerShell. Il controllo si basa su funzionalità in Exchange Online, di cui viene eseguito automaticamente il provisioning per il supporto di Power BI.
 
-È possibile filtrare i dati di controllo dall'intervallo di date, utente, il dashboard, report, set di dati e tipo di attività. È anche possibile scaricare le attività in un file csv (valori delimitati da virgole) per l'analisi offline.
+È possibile filtrare i dati del controllo per intervallo di date, utente, dashboard, report, set di dati e tipo di attività. È anche possibile scaricare le attività in un file con estensione csv (valori delimitati da virgole) per l'analisi offline.
 
 ## <a name="requirements"></a>Requisiti
 
 Per accedere ai log di controllo, è necessario rispettare questi requisiti:
 
-* È necessario essere un amministratore globale o assegnato il ruolo log di controllo o log di controllo amministratore di Exchange Online per il log di controllo di accesso. Per impostazione predefinita, i gruppi di ruoli di gestione della conformità e gestione dell'organizzazione dotati di questi ruoli assegnati per il **autorizzazioni** pagina nell'interfaccia di amministrazione di Exchange.
+* È necessario essere un amministratore globale o avere il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) in Exchange Online per accedere al log di controllo. Per impostazione predefinita questi ruoli sono assegnati ai gruppi di ruoli Gestione conformità e Gestione organizzazione nella pagina **Autorizzazioni** dell'interfaccia di amministrazione di Exchange.
 
-    Per specificare gli account senza privilegi di amministratore con accesso al log di controllo, è necessario aggiungere l'utente come membro di uno di questi gruppi di ruoli. Se si desidera eseguire un altro modo, è possibile creare un gruppo di ruolo personalizzate nel centro di amministrazione di Exchange, assegnare il ruolo log di controllo o log di controllo amministratore per questo gruppo e quindi aggiungere l'account senza privilegi di amministratore per il nuovo gruppo di ruolo. Per altre informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/Exchange/permissions-exo/role-groups).
+    Per consentire l'accesso al log di controllo agli account senza privilegi di amministratore, è necessario aggiungere l'utente come membro di uno di questi gruppi di ruoli. In alternativa è possibile creare un gruppo di ruoli personalizzato nell'interfaccia di amministrazione di Exchange, assegnare il ruolo Audit Logs (Log di controllo) o View-Only Audit Logs (Log di controllo sola visualizzazione) a questo gruppo e quindi aggiungere l'account senza privilegi di amministratore al nuovo gruppo di ruoli. Per altre informazioni, vedere [Gestire i gruppi di ruoli in Exchange Online](/Exchange/permissions-exo/role-groups).
 
     Se non è possibile accedere all'interfaccia di amministrazione di Exchange dall'interfaccia di amministrazione di Microsoft 365, passare a https://outlook.office365.com/ecp ed eseguire l'accesso usando le credenziali personali.
 
-* Se ha accesso al log di controllo ma non un amministratore globale o amministratore di servizio Power BI, sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario usare un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+* Se si può accedere al log di controllo ma non si è un amministratore globale o un amministratore del servizio Power BI, non sarà possibile accedere al portale di amministrazione di Power BI. In questo caso, è necessario usare un collegamento diretto al [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
-## <a name="access-your-audit-logs"></a>I log di controllo di accesso
+## <a name="access-your-audit-logs"></a>Accedere ai log di controllo
 
-Per accedere ai log, prima di tutto assicurarsi di abilitare la registrazione in Power BI. Per altre informazioni, vedere [Log di controllo](service-admin-portal.md#audit-logs) nella documentazione del portale di amministrazione. Può esistere fino a un ritardo di 48 ore tra il momento in cui che si abilita il controllo, quando è possibile visualizzare i dati di controllo. Se i dati non vengono visualizzati immediatamente, controllare i log di controllo successivamente. Un ritardo simile può verificarsi tra l'assegnazione dell'autorizzazione per la visualizzazione dei log di controllo e l'accesso ai log.
+Per poter accedere ai log abilitare la registrazione in Power BI. Per altre informazioni, vedere [Log di controllo](service-admin-portal.md#audit-logs) nella documentazione del portale di amministrazione. Tra l'abilitazione della funzione di controllo e la visualizzazione dei dati di controllo può verificarsi un ritardo massimo di 48 ore. Se i dati non vengono visualizzati immediatamente, controllare i log di controllo successivamente. Un ritardo simile può verificarsi tra l'assegnazione dell'autorizzazione per la visualizzazione dei log di controllo e l'accesso ai log.
 
-I log di controllo di Power BI sono disponibili direttamente tramite il [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog). È anche disponibile un collegamento dal portale di amministrazione di Power BI:
+I log di controllo di Power BI sono disponibili direttamente tramite il [Centro sicurezza e conformità di Office 365](https://sip.protection.office.com/#/unifiedauditlog). È disponibile un collegamento anche dal portale di amministrazione di Power BI:
 
-1. In Power BI, selezionare la **icona dell'ingranaggio** nell'angolo superiore destro, quindi selezionare **portale di amministrazione**.
+1. In Power BI selezionare l'**icona a forma di ingranaggio** nell'angolo superiore destro e quindi selezionare **Portale di amministrazione**.
 
-   ![Screenshot del menu elenco a discesa a forma di ingranaggio con l'opzione portale amministratore chiamato.](media/service-admin-auditing/powerbi-admin.png)
+   ![Screenshot del menu a discesa dell'ingranaggio con l'opzione Portale di amministrazione evidenziata.](media/service-admin-auditing/powerbi-admin.png)
 
 1. Selezionare **Log di controllo**.
 
 1. Selezionare **Passa all'interfaccia di amministrazione di O365**.
 
-   ![Screenshot del portale di amministrazione con il controllo Registra opzione e il consumo indicate le opzioni di interfaccia di amministrazione di Microsoft Office 365.](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Screenshot del portale di amministrazione con le opzioni Log di controllo e Passa all'interfaccia di amministrazione di O365 evidenziate.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Eseguire solo la ricerca delle attività di Power BI
 
 Limitare i risultati alle sole attività di Power BI seguendo questa procedura. Per un elenco delle attività, vedere l'elenco delle [attività controllate da Power BI](#activities-audited-by-power-bi) più avanti in questo articolo.
 
-1. Nel **ricerca dei log di controllo** nella pagina **ricerca**, selezionare l'elenco a discesa **le attività**.
+1. Nella pagina **Ricerca log di controllo** selezionare l'elenco a discesa **Attività** in **Cerca**.
 
 2. Selezionare **Attività di Power BI**.
 
-   ![Ricerca di log schermata di controllo con indicate le attività di Power BI.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Screenshot della pagina Ricerca log di controllo con le attività di Power BI evidenziate.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. Selezionare un punto qualsiasi all'esterno della casella di selezione per chiuderla.
 
-Le ricerche verranno restituite solo le attività di Power BI.
+Le ricerche restituiranno solo le attività di Power BI.
 
 ## <a name="search-the-audit-logs-by-date"></a>Eseguire la ricerca dei log di controllo per data
 
-È possibile cercare i log in base all'intervallo di date usando i campi **Data di inizio** e **Data di fine**. La selezione predefinita è degli ultimi sette giorni. Il video presenta la data e ora nel formato Coordinated Universal Time (UTC). L'intervallo massimo che è possibile specificare è 90 giorni. 
+È possibile cercare i log in base all'intervallo di date usando i campi **Data di inizio** e **Data di fine**. La selezione predefinita corrisponde agli ultimi sette giorni. La data e l'ora vengono visualizzate in formato UTC (Coordinated Universal Time). L'intervallo massimo che è possibile specificare è 90 giorni. 
 
-Si riceverà un errore se l'intervallo di date selezionato è maggiore di 90 giorni. Se si usa l'intervallo massimo di 90 giorni, selezionare l'ora corrente per **Data di inizio**. In caso contrario, un errore informerà che la data di inizio è precedente alla data di fine. Se il controllo è stato attivato negli ultimi 90 giorni, l'intervallo di date non può cominciare prima della data di attivazione del controllo.
+Se l'intervallo di date selezionato è maggiore di 90 giorni viene visualizzato un errore. Se si usa l'intervallo massimo di 90 giorni, selezionare l'ora corrente per **Data di inizio**. In caso contrario, un errore informerà che la data di inizio è precedente alla data di fine. Se il controllo è stato attivato negli ultimi 90 giorni, l'intervallo di date non può cominciare prima della data di attivazione del controllo.
 
-![Ricerca di log schermata di controllo con le opzioni di data di inizio e data di fine indicate.](media/service-admin-auditing/search-audit-log-by-date.png)
+![Screenshot della ricerca dei log di controllo con le opzioni Data di inizio e Data di fine evidenziate.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ## <a name="search-the-audit-logs-by-users"></a>Eseguire la ricerca dei log di controllo per utente
 
-È possibile cercare le voci di log di controllo per le attività eseguite dagli utenti specifici. Immettere uno o più nomi utente nel **utenti** campo. Il nome utente è simile a un indirizzo di posta elettronica. È l'account che gli utenti accedono a Power BI. Lasciare questa casella vuota per visualizzare le voci di tutti gli utenti (e account del servizio) dell'organizzazione.
+È possibile cercare le voci del log di controllo in base alle attività eseguite da utenti specifici. Immettere uno o più nomi utente nel campo **Utenti**. Il nome utente somiglia a un indirizzo di posta elettronica. Si tratta dell'account con il quale gli utenti accedono a Power BI. Lasciare questa casella vuota per visualizzare le voci di tutti gli utenti (e account del servizio) dell'organizzazione.
 
 ![Ricerca in base agli utenti](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ## <a name="view-search-results"></a>Visualizzare i risultati della ricerca
 
-Dopo aver selezionato **ricerca**, caricare i risultati della ricerca. Dopo alcuni istanti, essi verranno visualizzati nel **risultati**. Al termine della ricerca, la visualizzazione Mostra il numero di risultati trovati. **Ricerca dei log di controllo** consente di visualizzare un massimo di 1000 eventi. Se più di 1000 eventi soddisfano i criteri di ricerca, l'app Visualizza i 1000 eventi più recenti.
+Dopo aver selezionato **Cerca** vengono caricati i risultati della ricerca. Dopo alcuni istanti i risultati vengono visualizzati in **Risultati**. Al termine della ricerca viene visualizzato il numero di risultati trovati. In **Ricerca log di controllo** vengono visualizzati fino a 1000 eventi. Se gli eventi che soddisfano i criteri di ricerca sono più di 1000, l'app visualizza i 1000 eventi più recenti.
 
 ### <a name="view-the-main-results"></a>Visualizzare i risultati principali
 
-Il **risultati** area contiene le informazioni seguenti per ogni evento restituito dalla ricerca. Per ordinare i risultati, selezionare un'intestazione di colonna in **Risultati**.
+L'area **Risultati** contiene le informazioni seguenti per ogni evento restituito dalla ricerca. Per ordinare i risultati, selezionare un'intestazione di colonna in **Risultati**.
 
 | **Colonna** | **Definizione** |
 | --- | --- |
 | Data |La data e l'ora (in formato UTC) in cui si è verificato l'evento. |
-| Indirizzo IP |L'indirizzo IP del dispositivo utilizzato per l'attività registrata. L'app Visualizza l'indirizzo IP in formato di indirizzo IPv4 o IPv6. |
+| Indirizzo IP |Indirizzo IP del dispositivo usato per l'attività registrata. L'app visualizza l'indirizzo IP in formato IPv4 o IPv6. |
 | Utente |L'utente (o l'account del servizio) che ha eseguito l'azione che ha generato l'evento. |
 | Attività |L'attività eseguita dall'utente. Questo valore corrisponde alle attività selezionate nell'elenco a discesa **Attività**. Per un evento proveniente dal registro di controllo dell'amministrazione di Exchange, il valore di questa colonna è un cmdlet di Exchange. |
-| Item |L'oggetto creato o modificato a causa di attività corrispondente. Ad esempio, il file visualizzato o modificato, o l'account utente aggiornati. Non tutte le attività presentano un valore in questa colonna. |
-| Dettagli |Dettagli aggiuntivi su un'attività. Anche in questo caso, non tutte le attività hanno un valore. |
+| Item |Oggetto creato o modificato in seguito all'attività corrispondente. Ad esempio il file visualizzato o modificato o l'account utente aggiornato. Non tutte le attività presentano un valore in questa colonna. |
+| Dettagli |Dettagli aggiuntivi su un'attività. Ancora una volta, non tutte le attività presentano un valore corrispondente. |
 
 ### <a name="view-the-details-for-an-event"></a>Visualizzare i dettagli di un evento
 
-Per visualizzare ulteriori dettagli su un evento, selezionare il record dell'evento nell'elenco dei risultati della ricerca. Oggetto **dettagli** verrà visualizzata la pagina contenente le proprietà del record dell'evento. Il **dettagli** pagina consente di visualizzare le proprietà in base al servizio di Office 365 in cui si verifica l'evento.
+Per visualizzare altri dettagli su un evento selezionare il record dell'evento nell'elenco dei risultati della ricerca. Viene visualizzata una pagina **Dettagli** che contiene le proprietà dettagliate del record dell'evento. Le proprietà visualizzate nella pagina **Dettagli** dipendono dal servizio Office 365 in cui si verifica l'evento.
 
 Per visualizzare questi dettagli, selezionare **Altre informazioni**. Tutte le voci di Power BI hanno un valore pari a 20 per la proprietà RecordType. Per informazioni su altre proprietà, vedere [Proprietà dettagliate nel log di controllo](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
-   ![Screenshot della finestra di dialogo Dettagli audit con l'opzione per ulteriori informazioni segnalata.](media/service-admin-auditing/audit-details.png)
+   ![Screenshot della finestra di dialogo Dettagli del controllo con l'opzione Altre informazioni evidenziata.](media/service-admin-auditing/audit-details.png)
 
 ## <a name="export-search-results"></a>Esportare i risultati della ricerca
 
-Per esportare il log di controllo di Power BI in un file CSV, seguire questa procedura.
+Per esportare il log di controllo di Power BI in un file con estensione csv seguire questa procedura.
 
 1. Selezionare **Esporta risultati**.
 
 1. Selezionare **Salva risultati caricati** o **Scarica tutti i risultati**.
 
-    ![Screenshot dell'esportazione comporta opzione.](media/service-admin-auditing/export-auditing-results.png)
+    ![Screenshot dell'opzione Esporta risultati.](media/service-admin-auditing/export-auditing-results.png)
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Usare PowerShell per eseguire ricerche nei log di controllo
 
-È anche possibile usare PowerShell per accedere ai log di controllo in base all'account di accesso. L'esempio seguente mostra come connettersi a Exchange Online PowerShell e quindi usare il comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) per il pull delle voci del log di controllo di Power BI. Per eseguire lo script, un amministratore deve assegnare è le autorizzazioni appropriate, come descritto nel [requisiti](#requirements) sezione.
+È anche possibile usare PowerShell per accedere ai log di controllo in base all'account di accesso. L'esempio seguente mostra come connettersi a Exchange Online PowerShell e quindi usare il comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) per il pull delle voci del log di controllo di Power BI. Per eseguire lo script un amministratore deve disporre delle autorizzazioni appropriate, come descritto nella sezione [Requisiti](#requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned

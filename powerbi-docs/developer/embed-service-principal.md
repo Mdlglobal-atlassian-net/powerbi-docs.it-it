@@ -1,21 +1,21 @@
 ---
 title: Entità servizio con Power BI
 description: Informazioni su come registrare un'applicazione in Azure Active Directory tramite un'entità servizio per incorporare il contenuto di Power BI.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823286"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073090"
 ---
 # <a name="service-principal-with-power-bi"></a>Entità servizio con Power BI
 
@@ -67,7 +67,7 @@ Esistono differenze tra l'uso di un'entità servizio e l'uso di un account maste
 
 ## <a name="get-started-with-a-service-principal"></a>Introduzione a un'entità servizio
 
-A differenza dell'utilizzo tradizionale di un account master, l'uso di un'entità servizio (token solo app) richiede la configurazione di alcuni componenti diversi. Per iniziare a usare un'entità servizio (token solo app), è necessario configurare l'ambiente appropriato.
+A differenza dell'uso tradizionale di un account master, l'uso di un'entità servizio (token solo app) richiede la configurazione di alcuni componenti diversi. Per iniziare a usare un'entità servizio (token solo app), è necessario configurare l'ambiente appropriato.
 
 1. [Registrare un'applicazione Web sul lato server](register-app.md) in Azure Active Directory (AAD) da usare con Power BI. Dopo aver registrato un'applicazione è possibile acquisire un ID applicazione, un segreto dell'applicazione e l'ID oggetto entità servizio per accedere al contenuto di Power BI. È possibile creare un'entità servizio con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 

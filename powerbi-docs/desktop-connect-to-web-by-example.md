@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 37efc295a3c79286458a862c255d987b0afde6d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514077"
@@ -64,7 +64,7 @@ Da qui, è possibile creare oggetti visivi o usare i dati della pagina Web in mo
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando **Power BI Desktop**. Per altre informazioni sulle origini dati, vedere le risorse seguenti:
 
-* [Aggiungi colonna da esempio](desktop-add-column-from-example.md)
+* [Aggiungi colonna in base all'esempio](desktop-add-column-from-example.md)
 * [Connettersi a una pagina Web](desktop-connect-to-web.md)
 * [Origini dati in Power BI Desktop](desktop-data-sources.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)

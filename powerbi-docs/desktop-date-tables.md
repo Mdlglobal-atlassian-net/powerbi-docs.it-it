@@ -12,14 +12,14 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454375"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Impostare e usare tabelle data in Power BI Desktop
 
-**Power BI Desktop** opera dietro le quinte identificare automaticamente le colonne che rappresentano le date e quindi crea le gerarchie di date e altri metadati per il modello per tuo conto. È quindi possibile usare tali gerarchie predefinite durante la creazione di funzionalità dei report come oggetti visivi, tabelle, misure rapide, filtri dei dati e così via. Power BI Desktop esegue queste operazioni tramite la creazione automatica di tabelle nascoste, poi utilizzabili per i report e le espressioni DAX.
+**Power BI Desktop** supporta l'identificazione automatica delle colonne che rappresentano date, quindi crea automaticamente gerarchie di data e altri metadati per il modello. È quindi possibile usare tali gerarchie predefinite durante la creazione di funzionalità dei report come oggetti visivi, tabelle, misure rapide, filtri dei dati e così via. Power BI Desktop esegue queste operazioni tramite la creazione automatica di tabelle nascoste, poi utilizzabili per i report e le espressioni DAX.
 
 Molti analisti di dati preferiscono creare autonomamente le tabelle data. In **Power BI Desktop** è possibile specificare la tabella che si vuole usare come **tabella data** nel modello e successivamente creare gli oggetti visivi, le tabelle, le misure rapide e altri elementi correlati alle date, usando i dati di data della tabella. Quando si specifica una tabella data personale, controllare le gerarchie di data create nel modello e usarle nelle **misure rapide** e per le altre operazioni che usano la tabella data del modello. 
 
@@ -52,7 +52,7 @@ Dopo aver specificato una tabella data, è possibile selezionare la colonna dell
 
 ![](media/desktop-date-tables/date-tables_03.png)
 
-È importante notare che quando si specifica una tabella data personale, **Power BI Desktop** non crea automaticamente le gerarchie che creerebbe invece nel modello con il processo automatico. Se si deseleziona in un secondo momento la tabella data e non è più disponibile una tabella data impostata manualmente, Power BI Desktop vengono ricreate le tabelle di data predefinita creata automaticamente per l'utente, le colonne di date nella tabella.
+È importante notare che quando si specifica una tabella data personale, **Power BI Desktop** non crea automaticamente le gerarchie che creerebbe invece nel modello con il processo automatico. Se in un secondo momento si deseleziona la tabella data e non è disponibile una tabella data impostata manualmente, Power BI Desktop ricrea automaticamente le tabelle data predefinite per le colonne di date nella tabella.
 
 È anche importante tenere presente che quando si contrassegna una tabella come tabella data, la tabella data predefinita (creata automaticamente) creata da Power BI Desktop viene rimossa e tutti gli oggetti visivi o le espressioni DAX creati in precedenza in base a tali tabelle predefinite non funzioneranno più in modo corretto. 
 

@@ -3,20 +3,19 @@ title: Esportare report da Power BI in PowerPoint
 description: Informazioni su come esportare un report di Power BI in PowerPoint.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063914"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141412"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Esportare report da Power BI in PowerPoint
 Con Power BI, è possibile pubblicare il report in **Microsoft PowerPoint** e creare facilmente una presentazione basata su un report di Power BI. Quando si **esporta in PowerPoint**, si verifica quanto segue:
@@ -29,27 +28,24 @@ Con Power BI, è possibile pubblicare il report in **Microsoft PowerPoint** e cr
 Esportare il **report di Power BI** in **PowerPoint** è veloce. basta seguire i passaggi descritti nella sezione successiva.
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Come esportare i report di Power BI in PowerPoint
-Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla pagina **Home**, da **App** o da qualsiasi altra sezione nel riquadro di spostamento a sinistra.
+Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla **Home** page, da **App** o da qualsiasi altro contenitore della barra di spostamento a sinistra.
 
-![Selezionare File nella barra dei menu, freccia rivolta verso Esporta in PowerPoint](media/end-user-powerpoint/power-bi-publish.png)
+Quando il report da esportare in PowerPoint è visualizzato nell'area di disegno, selezionare **Esporta > PowerPoint** dalla barra dei menu.
 
-Quando il report da esportare in PowerPoint è visualizzato nell'area di disegno, selezionare **File > Esporta in PowerPoint** dalla barra dei menu nel servizio Power BI.
+![Selezionare Esporta dalla barra dei menu](media/end-user-powerpoint/power-bi-export.png)
 
-![Vista ravvicinata della barra di spostamento a sinistra con l'area di lavoro personale selezionata e l'elenco a discesa File selezionato](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-Verrà visualizzata una finestra popup in cui è possibile selezionare **Visualizzazione corrente** oppure **Visualizzazione predefinita**.  **Visualizzazione corrente** consente di esportare il report nello stato corrente, comprese le modifiche attive apportate ai valori del filtro dei dati e del filtro.  La maggior parte degli utenti seleziona questa opzione.  In alternativa, se si seleziona **Visualizzazione predefinita**, il report viene esportato allo stato originale, ovvero come è stato condiviso dall'autore, e non riflette le modifiche apportate a tale stato.
+Verrà visualizzata una finestra popup in cui è possibile selezionare **Valori correnti** oppure **Valori predefiniti**.  **Valori correnti** consente di esportare il report nello stato corrente, comprese le modifiche attive apportate ai valori del filtro dei dati e del filtro.  La maggior parte degli utenti seleziona questa opzione.  In alternativa, se si seleziona **Visualizza valori**, il report viene esportato allo stato originale, ovvero come è stato condiviso dall'autore, e non riflette le modifiche apportate a tale stato.
+
+![Selezionare l'elemento da esportare](media/end-user-powerpoint/power-bi-current-values.png)
     
-È anche disponibile una casella di controllo per scegliere se esportare le schede nascoste di un report.  Selezionare questa casella se si vogliono esportare solo le schede del report che sono visibili all'utente nel browser.  Se si preferisce esportare tutte le schede nascoste, lasciare l'opzione deselezionata.  Se la casella di controllo è disattivata, non sono presenti schede nascoste nel report.  Dopo aver eseguito le selezioni, fare clic sul pulsante **Esporta** per continuare.
+È anche disponibile una casella di controllo per scegliere se esportare le schede nascoste di un report.  Selezionare questa casella se si vogliono esportare solo le schede del report che sono visibili all'utente nel browser.  Se si preferisce esportare tutte le schede nascoste, lasciare l'opzione deselezionata.  Se la casella di controllo è disattivata, non sono presenti schede nascoste nel report.  Dopo aver eseguito le selezioni, selezionare il pulsante **Esporta** per continuare.
 
 Nell'angolo in alto a destra della finestra del browser del servizio Power BI verrà visualizzato un banner di notifica che informa che si sta esportando il report in PowerPoint. L'esportazione del report potrebbe richiedere alcuni minuti ed è possibile continuare a lavorare in Power BI.
 
-![notifica dell'esportazione in PowerPoint in corso](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![notifica dell'esportazione in PowerPoint in corso](media/end-user-powerpoint/power-bi-export-progress.png)
 
-Al termine della procedura, il banner di notifica cambia, informando che il servizio Power BI ha terminato il processo di esportazione.
-
-![visualizzazione del messaggio di operazione completata](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-Il file sarà quindi disponibile nel percorso in cui il browser visualizza i file scaricati. Nella figura seguente, è visualizzato come banner di download nella parte inferiore della finestra del browser.
+Al termine della procedura, il banner di notifica cambia, informando che il servizio Power BI ha terminato il processo di esportazione. Il file sarà quindi disponibile nel percorso in cui il browser visualizza i file scaricati. Nella figura seguente, è visualizzato come banner di download nella parte inferiore della finestra del browser.
 
 ![freccia rivolta verso la notifica del browser, nella parte inferiore della schermata](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

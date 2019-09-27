@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61255711"
@@ -31,7 +31,7 @@ Per tornare alla date singole anziché usare la gerarchia temporale, fare sempli
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-**Congratulazioni!** Questa sezione del corso di **apprendimento guidato** per Power BI è stata completata. Ora che è a conoscenza *modellazione* dati, si è pronti per apprendere le interessanti appresi nella sezione successiva: **Visualizations**.
+**Congratulazioni!** Questa sezione del corso di **apprendimento guidato** per Power BI è stata completata. Ora che è stato appreso il concetto di*modellazione* dei dati è possibile passare alla parte più coinvolgente, illustrata nella sezione seguente: le **Visualizzazioni**.
 
 Come già spiegato, questo corso consente di approfondire le conoscenze seguendo il comune flusso di lavoro in Power BI:
 

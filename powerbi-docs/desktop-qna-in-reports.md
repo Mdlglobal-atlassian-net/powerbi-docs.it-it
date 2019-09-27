@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61285038"
@@ -23,9 +23,9 @@ L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è 
 Per consentire a Domande e risposte di interpretare correttamente l'ampia raccolta di domande a cui è in grado di rispondere, Domande e risposte deve fare ipotesi sul modello. Se la struttura del modello non soddisfa una o più di tali ipotesi, sarà necessario rettificare il modello. Le rettifiche per Domande e risposte corrispondono alle procedure di ottimizzazione consigliate per qualsiasi modello in Power BI, indipendentemente dal fatto che si usi Domande e risposte o meno. 
 
 > [!NOTE]
-> Domande e risposte è disponibile solo quando si lavora con un modello che contiene **importato** dati o per le connessioni in tempo reale a SSAS. I modelli DirectQuery non sono supportati.
+> Domande e risposte è disponibile solo quando si usa un modello contenente dati **importati** o con le connessioni dinamiche a SSAS. I modelli DirectQuery non sono supportati.
 >
-> Le Domande e risposte richiedono il seguente aggiornamento del runtime C se si usa una versione di Windows precedente a Windows 10. È possibile provare a installare aggiornamenti importanti da Windows Update oppure installare manualmente il componente richiesto da Microsoft Knowledge Base (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> Le Domande e risposte richiedono il seguente aggiornamento del runtime C se si usa una versione di Windows precedente a Windows 10. È possibile provare a installare aggiornamenti importanti da Windows Update oppure installare manualmente il componente richiesto da Microsoft Knowledge Base (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 

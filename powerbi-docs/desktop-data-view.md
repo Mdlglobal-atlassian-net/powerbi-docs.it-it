@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454473"
@@ -28,7 +28,7 @@ Di seguito si esaminano in dettaglio alcuni elementi della **Vista dati**.
 
 1. **Icona Vista dati**: selezionare questa icona per accedere alla vista dati.
 
-2. **Griglia dei dati**: visualizza la tabella selezionata e tutte le colonne e le righe in essa contenute. Le colonne nascoste nella **Visualizzazione report** sono visualizzate in grigio. È possibile fare doppio clic su una colonna per le opzioni.
+2. **Griglia dei dati**: visualizza la tabella selezionata e tutte le colonne e le righe in essa contenute. Le colonne nascoste nella **Visualizzazione report** sono visualizzate in grigio. È possibile fare clic con il pulsante destro del mouse su una colonna per visualizzare le opzioni.
 
 3. **Barra multifunzione Creazione di modelli**: consente di gestire relazioni, creare calcoli e modificare il tipo di dati, il formato e la categoria di dati per una colonna.
 

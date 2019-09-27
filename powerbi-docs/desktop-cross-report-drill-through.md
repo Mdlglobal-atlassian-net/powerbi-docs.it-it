@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903765"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100109"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Usare il drill-through tra report in Power BI Desktop
 
@@ -32,7 +32,7 @@ Con la funzionalità di drill-through tra report in Power BI Desktop, è possibi
 
 
 > [!NOTE]
-> È possibile accedere ai report condivisi singolarmente in *Area di lavoro personale*, ovvero ai report visualizzati come *[Condivisi con l'utente corrente](service-share-dashboards.md#share-a-dashboard-or-report)* , solo nell'area di lavoro da cui sono stati originariamente condivisi. 
+> Con la funzionalità di drill-through tra report in Power BI Desktop, è possibile passare contestualmente da un report a un altro. Questa condizione è valida purché i report si trovino all'interno della stessa area di lavoro o dell'app nel servizio Power BI. Non è applicabile quando si accede singolarmente ai report condivisi all'interno di *Area di lavoro personale* ([report condivisi con l'utente](service-share-dashboards.md#share-a-dashboard-or-report)). È necessario invece accedere al report nell'area di lavoro da cui è stato originariamente condiviso.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Abilitare il drill-through tra report

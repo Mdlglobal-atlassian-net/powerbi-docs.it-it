@@ -12,13 +12,13 @@ ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513228"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrare l'organizzazione governativa statunitense al servizio Power BI
-Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. Il **servizio Power BI** versione descritti in questo articolo è progettato per i clienti US Government ed è separata e diversa rispetto alla versione commerciale delle **servizio Power BI**.
+Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata per i clienti del Governo degli Stati Uniti ed è separata e diversa dalla versione a pagamento del **servizio Power BI**.
 
 Per altre informazioni sul **servizio Power BI** per il Governo degli Stati Uniti, incluse le funzionalità e limitazioni specifiche, consultare [Power BI per i clienti del Governo degli Stati Uniti - Panoramica](service-govus-overview.md).
 
@@ -58,7 +58,7 @@ Se l'organizzazione è un cliente esistente di **Office Government Cloud**, ma n
 > 
 > 
 
-1. Accedere a un account Office Government Cloud esistente e passare al portale di amministrazione
+1. Accedere all'account Office Government Cloud esistente e passare al portale di amministrazione
 2. Selezionare **Fatturazione**.
 3. Selezionare **Acquista servizio**.
 4. Selezionare l'opzione Power BI Pro Government e scegliere tra **Prova** e **Acquista ora**
@@ -66,7 +66,7 @@ Se l'organizzazione è un cliente esistente di **Office Government Cloud**, ma n
 6. Assegnare gli utenti all'account.
    
    ![](media/service-govus-signup/service_govus_signup_5.png)
-7. Accedi per il **servizio Power BI** per i clienti US Government [https://app.powerbigov.us](https://app.powerbigov.us)
+7. Accedere al **servizio Power BI** per i clienti del Governo degli Stati Uniti all'indirizzo [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ## <a name="additional-signup-information"></a>Altre informazioni sull'iscrizione
 Di seguito sono riportate informazioni aggiuntive per l'iscrizione a **Power BI per il Governo degli Stati Uniti** in diversi casi di migrazione delle licenze.
@@ -75,7 +75,7 @@ Di seguito sono riportate informazioni aggiuntive per l'iscrizione a **Power BI 
 * Fare clic su Fatturazione > Acquista servizio > PowerBI Pro Gov e selezionare Acquista, non Versione di valutazione
 * Compilare le informazioni necessarie e ottenere le licenze
 * Rimuovere la versione di valutazione di Power BI Pro o rimuovere le licenze precedenti e assegnare le nuove agli utenti
-* Accedi a [https://app.powerbigov.us](https://app.powerbigov.us)
+* Eseguire l'accesso a [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Onboarding del cliente dalla versione di valutazione di Power BI alla versione Pro del rivenditore
 Passare a **Fatturazione > Abbonamenti** e fare clic sulla sottoscrizione **Power BI Pro per enti pubblici**. Si vedrà:
@@ -90,14 +90,14 @@ Passare a **Fatturazione > Abbonamenti** e fare clic sulla sottoscrizione **Powe
 ### <a name="whitelisting-instructions"></a>Istruzioni per l'aggiunta all'elenco elementi consentiti
 Il team di progettazione di Power BI usa un processo di *aggiunta all'elenco elementi consentiti* per spostare i clienti dall'ambiente di cloud a pagamento al più sicuro ambiente di cloud governativo. In questo modo le funzionalità disponibili nel cloud del Governo degli Stati Uniti verranno eseguite nel modo previsto. Tutti i clienti US Government nuovi o esistenti che acquistano servizi **Power BI** US Government per la prima volta *devono* avviare il processo di aggiunta all'elenco elementi consentiti. Il processo deve essere eseguito prima dell'installazione o della migrazione ai servizi **Power BI** US Government. 
 
-Proprio tenant *nell'elenco elementi consentiti* per il cloud US Government, contattare il team degli account Microsoft per assistenza nell'elenco elementi consentiti. Solo gli amministratori possono effettuare questa richiesta. Il processo di *aggiunta all'elenco elementi consentiti* richiede circa tre settimane, durante le quali il team tecnico apporta le modifiche necessarie per consentire il corretto funzionamento del tenant nel cloud del Governo degli Stati Uniti.
+Per aggiungere il tenant all'*elenco degli elementi consentiti* per il cloud US Government, contattare il team degli account Microsoft per assistenza con l'inserimento nell'elenco degli elementi consentiti. Questa richiesta può essere eseguita solo dagli amministratori. Il processo di *aggiunta all'elenco elementi consentiti* richiede circa tre settimane, durante le quali il team tecnico apporta le modifiche necessarie per consentire il corretto funzionamento del tenant nel cloud del Governo degli Stati Uniti.
 
 I clienti che eseguono la migrazione da licenze **gratuite** di Power BI a quella di **Power BI per il Governo degli Stati Uniti** (e per definizione la migrazione alle funzionalità associate della licenza **Pro** descritte in precedenza in questo articolo) riscontreranno i problemi descritti nella sezione seguente di questo articolo finché il tenant non verrà *aggiunto all'elenco elementi consentiti* dal team tecnico di Power BI.
 
 ### <a name="mixed-free-and-pro-licenses-in-us-government-tenants"></a>Uso di combinazioni di licenze gratuite e Pro nei tenant per il Governo degli Stati Uniti
 Se nel tenant sono presenti sia licenze gratuite che Pro per il Governo degli Stati Uniti, entrambe le licenze rimarranno disponibili, ma ne funzionerà un solo tipo. Se il processo di *aggiunta all'elenco elementi consentiti* del tenant viene completato senza errori, si verifica quanto segue:
 
-* Eventuali utenti di licenze gratuite non saranno in grado di accedere a Power BI usando **Power BI Desktop**e alcune funzionalità descritte nella sezione seguente.
+* Gli utenti di licenze gratuite non potranno più accedere a Power BI usando **Power BI Desktop** e alcune funzionalità descritte nella sezione seguente non saranno disponibili.
 * Tutti i client assegnati alle licenze Pro per il Governo degli Stati Uniti funzioneranno nel modo previsto, inclusi i gateway, Power BI Desktop e le app per dispositivi mobili.
 
 Quando si usa una combinazione di licenze gratuite e Pro in un tenant del Governo degli Stati Uniti e si esegue il processo di *aggiunta all'elenco elementi consentiti*, si può verificare quanto segue:

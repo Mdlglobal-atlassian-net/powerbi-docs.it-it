@@ -9,18 +9,18 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 08/10/2017
+ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 11afe27ffbca295eec67fd07731cc646bcca56dc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769689"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073528"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introduzione ad app di terze parti
 
-Con Power BI, è possibile usare un'app creata da una società o da un utente diverso da Microsoft. Ad esempio, si potrebbe usare un'app di terze parti che integra i riquadri di Power BI in un'applicazione web personalizzata. Quando si usa un'app di terze parti, verrà richiesto di concedere a tale applicazione determinate autorizzazioni per l'account di Power BI e le risorse. È importante concedere le autorizzazioni solo alle applicazioni conosciute e attendibili. Le autorizzazioni per un'applicazione possono essere revocate in qualsiasi momento. Vedere [Revocare le autorizzazioni di app di terze parti](#revoke).
+Con Power BI, è possibile usare un'app creata da una società o da un utente diverso da Microsoft. Ad esempio è possibile usare un’app di terze parti che integra i riquadri di Power BI in un'applicazione Web personalizzata. Quando si usa un'app di terze parti, viene richiesto di concedere a tale applicazione determinate autorizzazioni per l'account e le risorse di Power BI. È importante concedere le autorizzazioni solo alle applicazioni conosciute e attendibili. Le autorizzazioni per un'applicazione possono essere revocate in qualsiasi momento. Vedere [Revocare le autorizzazioni di app di terze parti](#revoke).
 
 Di seguito sono indicati i tipi di accesso che un’applicazione può richiedere.
 
@@ -47,15 +47,15 @@ Di seguito sono indicati i tipi di accesso che un’applicazione può richiedere
 
 <a name="revoke"/>
 
-## <a name="revoke-third-party-app-permissions"></a>REVOKE-autorizzazioni per app di terze parti
+## <a name="revoke-third-party-app-permissions"></a>Revocare le autorizzazioni di app di terze parti
 
-Revocare le autorizzazioni per un'app di terze parti visitando il sito Office 365 My Apps.
+È possibile revocare le autorizzazioni per un'app di terze parti visitando il sito Office 365 My Apps.
 
-Nel **Office 365 My apps** del sito, di seguito viene illustrato come revocare le autorizzazioni di terze parti:
+Di seguito viene illustrato come revocare le autorizzazioni di terze parti nel sito **Office 365 My apps**:
 
 1. Accedere al [sito Office 365 My Apps](https://portal.office.com/myapps).
 
-2. Nel **le mie app** pagina, individuare l'app di terze parti.
+2. Nella pagina **App personali** trovare l'app di terze parti.
 
 3. Passare il mouse sul riquadro dell'app, fare clic sul pulsante **(...)** e fare clic su **Rimuovi**.
 

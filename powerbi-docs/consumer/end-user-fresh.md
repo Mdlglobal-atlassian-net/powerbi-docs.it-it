@@ -7,47 +7,54 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/08/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70751670"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141707"
 ---
 # <a name="your-content-is-up-to-date"></a>Contenuto aggiornato
 Gli *utenti* interagiscono con il contenuto creato dagli *sviluppatori* e condiviso. È possibile che l'utente voglia verificare se il contenuto è aggiornato oppure voglia solo conoscere la data dell'ultimo aggiornamento. La certezza di usare un contenuto aggiornato garantisce fiducia.  
  
-![Dashboard di Power BI](media/end-user-consumer/power-bi-service.png)
+![Dashboard di Power BI](media/end-user-fresh/power-bi-dashboards.png)
 
 
 La sicurezza di avere a disposizione i dati più recenti è spesso di importanza fondamentale nel processo decisionale. Come è possibile assicurarsi di usare il contenuto più recente? In molti casi non è necessario eseguire alcuna operazione. Le app condivise vengono aggiornate automaticamente in base a una pianificazione impostata dallo sviluppatore di app. Lo stesso avviene per i dashboard e i report condivisi: lo sviluppatore esegue l'aggiornamento del contenuto manualmente o tramite una pianificazione degli aggiornamenti automatizzata.  
 
 Per domande sull'aggiornamento dei dati, contattare lo sviluppatore.
 
-## <a name="how-to-locate-the-name-of-the-designer"></a>Come individuare il nome dello sviluppatore
+## <a name="how-to-locate-the-name-of-the-designer-or-owner"></a>Come individuare il nome dello sviluppatore o del proprietario
+
+### <a name="dashboard-or-report"></a>Dashboard o report
+
+Il nome del proprietario è disponibile nella barra del titolo di dashboard e report. Selezionare il nome del report o del dashboard per visualizzare ulteriori dettagli, incluso il **Proprietario**.
+
+![Proprietario del dashboard di Power BI](media/end-user-fresh/power-bi-owner.png)
+
 
 ### <a name="apps"></a>App
 
-La schermata dell'app mostra il nome dello sviluppatore e la data di creazione dell'app.  
+La schermata dell'app visualizza il nome dello sviluppatore e la data dell'ultimo aggiornamento dell'app.  
 
 1. Nel riquadro di spostamento a sinistra selezionare **App**.
 
-    ![Riquadro di spostamento a sinistra](media/end-user-fresh/power-bi-nav-apps.png)
+    ![Riquadro di spostamento a sinistra](media/end-user-fresh/power-bi-nav-app.png)
 
-    Per ogni app, viene visualizzato un titolo e la data di creazione. 
 
-2. Passare il mouse sopra l'app per visualizzare anche il nome dello sviluppatore. 
+
+2. Passare il puntatore del mouse sull'app per visualizzare il titolo, la data di aggiornamento e il nome dello sviluppatore. 
 
     ![Due app con un'app selezionata](media/end-user-fresh/power-bi-app.png)
 
 
 ### <a name="shared-with-me"></a>Condivisi con l'utente corrente
-La schermata **Condivisi con l'utente corrente** mostra il nome del proprietario del contenuto e la data di condivisione del contenuto.
+La schermata **Condivisi con l'utente corrente** visualizza il nome del proprietario del contenuto e la data dell'ultima condivisione del contenuto.
 
-![Schermata Condivisi con l'utente corrente con Data di modifica e Proprietario](media/end-user-fresh/power-bi-shared-new.png) 
+![Schermata Condivisi con l'utente corrente con Data di modifica e Proprietario](media/end-user-fresh/power-bi-share.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>Come cercare la data dell'ultimo aggiornamento
@@ -58,24 +65,24 @@ Per i riquadri del dashboard, visualizzare il riquadro nella modalità messa a f
 
 1. In un riquadro del dashboard selezionare i puntini di sospensione (...) e scegliere **Apri in modalità messa a fuoco**.
 
-    ![menu visualizzato dopo aver selezionato i puntini di sospensione](media/end-user-fresh/power-bi-focus.png)
+    ![menu visualizzato dopo aver selezionato i puntini di sospensione](media/end-user-fresh/power-bi-focus-mode.png)
 
 2. Nell'angolo superiore destro viene visualizzata la data dell'ultimo aggiornamento. Se la data non è visibile, espandere il browser per aumentarne la larghezza. 
 
     ![browser espanso con l'ultimo aggiornamento visualizzato](media/end-user-fresh/power-bi-last-refresh2.png)
 
-### <a name="from-dashboards-and-reports"></a>Da dashboard e report
-Un altro modo per cercare la data dell'ultimo aggiornamento consiste nell'usare **Visualizza elementi correlati**.  **Visualizza elementi correlati** è disponibile dalla barra dei menu superiore di Power BI.
+### <a name="dashboards-and-reports"></a>Dashboard e report
+Un altro modo per cercare la data dell'ultimo aggiornamento consiste nell'usare **Visualizza elementi correlati**.  **Visualizza elementi correlati** è disponibile selezionando i puntini di sospensione (...) nella barra dei menu superiore di Power BI.
 
-![Selezionare Visualizza elementi correlati dal menu](media/end-user-fresh/power-bi-view-related.png)
+![Selezionare Visualizza elementi correlati dal menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
 Il riquadro **Contenuto correlato** visualizza le informazioni sull'ultimo aggiornamento per il set di dati sottostante del dashboard o del report.
 
-![Dashboard di Power BI](media/end-user-fresh/power-bi-last-refresh.png)
+![Dashboard di Power BI](media/end-user-fresh/power-bi-refresh.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Cosa accade se un'app viene eliminata dallo sviluppatore
 
-Se uno sviluppatore elimina un'app, anche i dashboard e i report associati all'app vengono rimossi automaticamente dall'area di lavoro di Power BI. Dashboard e report non saranno più disponibili e l'app non verrà visualizzata nel riquadro di spostamento.
+Se uno sviluppatore elimina un'app, anche i dashboard e i report associati all'app vengono rimossi automaticamente dall'area di lavoro di Power BI. Dashboard e report non saranno più disponibili e l'app non verrà visualizzata nel contenitore App o in un'altra posizione nella barra di spostamento.
 
 
 ## <a name="subscribe-to-see-changes"></a>Eseguire la sottoscrizione per visualizzare le modifiche

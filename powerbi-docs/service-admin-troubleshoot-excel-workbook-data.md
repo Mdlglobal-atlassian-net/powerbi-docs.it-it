@@ -1,6 +1,6 @@
 ---
-title: 'Errore: È stato possibile trovare tutti i dati nella cartella di lavoro di Excel'
-description: 'Errore: È stato possibile trovare tutti i dati nella cartella di lavoro di Excel'
+title: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
+description: 'Errore: Non sono stati trovati dati nella cartella di lavoro di Excel'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -13,19 +13,19 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101358"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Errore: È stato possibile trovare tutti i dati nella cartella di lavoro di Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Errore: Non sono stati trovati dati nella cartella di lavoro di Excel
 
 >[!NOTE]  
 >Le informazioni di questo articolo si applicano a Excel 2007 e versioni successive.
 
 Quando si importa una cartella di lavoro di Excel in Power BI, è possibile che venga visualizzato l'errore seguente:
 
-*Errore: Non sono stati trovati dati formattati come tabella. Per importare da Excel nel servizio Power BI, è necessario formattare i dati sotto forma di tabella. Selezionare tutti i dati desiderati nella tabella e premere Ctrl + T.*
+*Errore: Non sono stati trovati dati formattati come tabella. Per importare dati da Excel nel servizio Power BI, è necessario formattarli come tabella. Selezionare tutti i dati desiderati nella tabella e premere CTRL+T.*
 
 ![Non sono stati trovati dati nella cartella di lavoro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

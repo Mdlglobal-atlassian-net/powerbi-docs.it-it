@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751410"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142254"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Risoluzione del problema dei valori annidati restituiti come testo nel servizio Power BI
 
 ## <a name="cause"></a>Causa
 
-In passato si sono verificati casi in cui l'aggiornamento di un report di Power BI è stato eseguito correttamente nel Desktop, ma non è riuscito nel servizio Power BI e ha generato un errore, ad esempio "Non è possibile convertire il valore"[Table]"nel tipo Table". Una delle cause di questo errore è che quando il firewall di privacy dei dati (collegamento qui?) memorizza nel buffer un'origine dati, i valori annidati non scalari, come ad esempio tabelle, record, elenchi e funzioni, vengono convertiti automaticamente in valori di testo (ad esempio "[Table]" o "[Record]").
+In passato si sono verificati casi in cui l'aggiornamento di un report di Power BI è stato eseguito correttamente nel Desktop, ma non è riuscito nel servizio Power BI e ha generato un errore, ad esempio "Non è possibile convertire il valore"[Table]"nel tipo Table". Una delle cause di questo errore è che quando il firewall di privacy dei dati memorizza nel buffer un'origine dati i valori annidati non scalari, come tabelle, record, elenchi e funzioni vengono convertiti automaticamente in valori di testo (ad esempio "[Table]" o "[Record]").
 
 Ora che il servizio Power BI supporta l'impostazione dei livelli di privacy (o la disattivazione completa del firewall), tali errori possono essere evitati [configurando le impostazioni sulla privacy dell'origine dati](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) nel servizio Power BI in modo che non siano private.
 

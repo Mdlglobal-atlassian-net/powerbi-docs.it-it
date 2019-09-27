@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189370"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71075989"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Passare un parametro di report in un URL per un report impaginato in Power BI 
 
-È possibile passare parametri di report a un report, includendoli nell'URL di un report impaginato. Tutti i parametri di query possono avere parametri di report corrispondenti. Pertanto, si passa un parametro di query a un report passando il parametro di report corrispondente. È necessario aggiungere il prefisso  `rp:` al nome del parametro, in modo che Power BI lo possa riconoscere nell'URL. 
+È possibile passare parametri di report a un report, includendoli nell'URL di un report impaginato. Tutti i parametri di query possono avere parametri di report corrispondenti. Pertanto, si passa un parametro di query a un report passando il parametro di report corrispondente. È necessario aggiungere il prefisso `rp:` al nome del parametro, in modo che Power BI lo possa riconoscere nell'URL. 
 
 I parametri di report fanno distinzione tra maiuscole e minuscole e usano questi caratteri speciali: 
 
@@ -63,7 +63,7 @@ rp:SalesOrderNumber:isnull=true
 Per passare un valore booleano, usare 0 per false e 1 per true. Per passare un valore float, includere il separatore decimale delle impostazioni locali del server.
 
 > [!NOTE]
-> Se il report contiene un parametro di report con un valore predefinito e il valore della proprietà  **Prompt** è  **false** (ovvero, la proprietà **Richiesta all'utente** non è selezionata in Gestione report), non è possibile passare un valore per tale parametro di report in un URL. Ciò consente agli amministratori di impedire agli utenti finali di aggiungere o modificare i valori di determinati parametri del report.
+> Se il report contiene un parametro di report con un valore predefinito e il valore della proprietà **Prompt** è **false** (ovvero, la proprietà **Richiesta all'utente** non è selezionata in Gestione report), non è possibile passare un valore per tale parametro di report in un URL. Ciò consente agli amministratori di impedire agli utenti finali di aggiungere o modificare i valori di determinati parametri del report.
 
 ## <a name="additional-examples"></a>Esempi aggiuntivi 
 

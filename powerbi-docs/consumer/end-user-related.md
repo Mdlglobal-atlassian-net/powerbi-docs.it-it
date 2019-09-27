@@ -9,85 +9,60 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/09/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050347"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100281"
 ---
-# <a name="view-related-content-in-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
-Il riquadro **Contenuto correlato** mostra come è interconnesso il contenuto del servizio Power BI: dashboard, report e set di dati. Il riquadro Contenuto correlato è anche un punto di partenza per eseguire azioni. Da qui è possibile aggiornare, rinominare, generare informazioni dettagliate e molto altro ancora. Selezionare un rapporto o un dashboard correlato per aprirlo nell'area di lavoro di Power BI.   
+# <a name="view-related-content-in-the-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
+Il riquadro **Contenuto correlato** mostra come è interconnesso il contenuto del servizio Power BI: dashboard, report e set di dati. Il riquadro **Contenuto correlato** è anche un punto di partenza per eseguire azioni. Da qui è possibile eseguire operazioni come aprire un dashboard, aprire un report, generare informazioni dettagliate, analizzare i dati in Excel e altro ancora.  
 
 In Power BI, i report sono basati sui set di dati, gli oggetti visivi del report vengono aggiunti ai dashboard e gli oggetti visivi del dashboard si collegano ai report. Ma come si fa a sapere quali dashboard ospitano gli oggetti visivi provenienti dal report Marketing? E come si individuano quei dashboard? Il dashboard Procurement usa oggetti visivi da più di un set di dati? In questo caso, come sono denominati e come è possibile aprirli e modificarli? Il set di dati HR è effettivamente usato in report o dashboard? Oppure può essere spostato senza causare collegamenti interrotti? Domande come queste trovano tutte una risposta nel riquadro **Contenuto correlato**.  Non solo il riquadro mostra il contenuto correlato, ma consente anche di intervenire sul contenuto e spostarsi facilmente tra il contenuto correlato.
 
-![Contenuto correlato](./media/end-user-related/power-bi-view-related-dashboard-new.png)
+![Contenuto correlato](./media/end-user-related/power-bi-list.png)
 
 > [!NOTE]
 > La funzionalità Contenuto correlato non funziona per i set di dati di streaming.
 > 
 > 
 
-## <a name="view-related-content-for-a-dashboard"></a>Visualizzare il contenuto correlato di un dashboard
+## <a name="view-related-content-for-a-dashboard-or-report"></a>Visualizzare il contenuto correlato di un dashboard o report
 Questo video illustra come visualizzare il contenuto correlato di un dashboard. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli usando il set di dati di esempio Analisi dell'approvvigionamento.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
+Con un dashboard o un report aperto, selezionare i puntini di sospensione (...) nella barra dei menu e scegliere **Visualizza elementi correlati** dall'elenco a discesa.
 
-Per aprire il riquadro *Contenuto correlato* sono necessarie almeno le autorizzazioni di **visualizzazione** per un dashboard. In questo esempio verrà usato l'esempio [Procurement Analysis Sample](../sample-procurement.md).
+![Menu a discesa puntini di sospensione](./media/end-user-related/power-bi-dropdown.png)
 
-**Metodo 1**
+Viene visualizzato il riquadro **Contenuto correlato**, Per un cruscotto digitale vengono visualizzati tutti i report con visualizzazioni aggiunte al dashboard e i set di dati associati. Per questo dashboard sono presenti visualizzazioni aggiunte da un solo report e il report è basato su un solo set di dati. 
 
-In un'area di lavoro selezionare la scheda **Dashboard** e quindi selezionare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png).
+![Riquadro Contenuto correlato](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-![Scheda Dashboard](./media/end-user-related/power-bi-view-related-dash-newer.png)
+A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di dashboard o report per aprirlo.  Per un report elencato, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md). Per un set di dati, è possibile visualizzare la data e l'ora dell'ultimo aggiornamento, selezionare [Analizza in Excel](end-user-insights.md) e [Ottieni informazioni dettagliate](../service-analyze-in-excel.md).  
 
-<br>
 
-**Metodo 2**
-
-Con un dashboard aperto, selezionare   ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-new.png) dalla barra dei menu superiore.
-
-Viene visualizzato il riquadro **Contenuto correlato**, che mostra tutti i report con visualizzazioni aggiunte al dashboard e i set di dati a esse associati. Per questo dashboard, sono state aggiunte visualizzazioni da tre report diversi, basati a loro volta su tre diversi set di dati.
-
-![Riquadro Contenuto correlato](./media/end-user-related/power-bi-view-related-dashboard-new.png)
-
-A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di report per aprirlo.  Per un report elencato, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md), [Rinomina](../service-rename.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md). Per un set di dati, selezionare l'icona [Crea un nuovo report](../service-report-create-new.md), [Aggiorna](../refresh-data.md), Rinomina, [Analizza in Excel](../service-analyze-in-excel.md), [Ottieni informazioni dettagliate](end-user-insights.md) o per aprire la finestra **Impostazioni** per il set di dati.  
-
-## <a name="view-related-content-for-a-report"></a>Visualizzare il contenuto correlato per un report
-Per aprire il riquadro *Contenuto correlato* sono necessarie almeno le autorizzazioni di **visualizzazione** per un report. In questo esempio verrà usato l'esempio [Procurement Analysis Sample](../sample-procurement.md).
-
-**Metodo 1**
-
-In un'area di lavoro selezionare la scheda **Report** e quindi selezionare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png).
-
-![Scheda Report](./media/end-user-related/power-bi-view-related-report-newer.png)
-
-<br>
-
-**Metodo 2**
-
-Aprire il report in [Visualizzazione di lettura](end-user-reading-view.md) e selezionare ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-new.png) dalla barra dei menu superiore.
-
-Viene visualizzato il riquadro **Contenuto correlato**, che mostra il set di dati associato e tutti i dashboard che hanno almeno un riquadro aggiunto dal report. Per questo report sono state aggiunte visualizzazioni da due diversi dashboard.
-
-![Riquadro Contenuto correlato](./media/end-user-related/power-bi-view-related-report.png)
-
-A questo punto, è possibile intervenire direttamente sul contenuto correlato.  Ad esempio, selezionare un nome di dashboard per aprirlo.  Per i dashboard nell'elenco, selezionare un'icona per [Condividere il dashboard con altri utenti](../service-share-dashboards.md) o per aprire la finestra **Impostazioni** per il dashboard. Per il set di dati, selezionare l'icona [Crea un nuovo report](../service-report-create-new.md), [Aggiorna](../refresh-data.md), Rinomina, [Analizza in Excel](../service-analyze-in-excel.md), [Ottieni informazioni dettagliate](end-user-insights.md) o per aprire la finestra **Impostazioni** per il set di dati.  
 
 ## <a name="view-related-content-for-a-dataset"></a>Visualizzare il contenuto correlato di un set di dati
 Per aprire il riquadro *Contenuto correlato* sono necessarie almeno le autorizzazioni di **visualizzazione** per un set di dati. In questo esempio verrà usato l'esempio [Procurement Analysis Sample](../sample-procurement.md).
 
+Dalla barra di spostamento individuare l'intestazione **Aree di lavoro** e selezionare un'area di lavoro nell'elenco. Se è presente contenuto in un'area di lavoro, verrà visualizzato nell'area di disegno a destra. 
+
+![aree di lavoro nella barra di spostamento a sinistra](./media/end-user-related/power-bi-workspace.png)
+
+
 In un'area di lavoro selezionare la scheda **Set di dati** e quindi trovare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png).
 
-![Scheda Set di dati](./media/end-user-related/power-bi-view-related-dataset-newer.png)
+![Scheda Set di dati](./media/end-user-related/power-bi-related-dataset.png)
 
 Selezionare l'icona per aprire il riquadro **Contenuto correlato**.
 
-![Il riquadro Contenuto correlato viene aperto in primo piano rispetto alla visualizzazione del contenuto di Power BI](media/end-user-related/power-bi-datasets.png)
+![Il riquadro Contenuto correlato viene aperto in primo piano rispetto alla visualizzazione del contenuto di Power BI](media/end-user-related/power-bi-dataset.png)
 
 A questo punto, è possibile intervenire direttamente sul contenuto correlato. Ad esempio, selezionare un nome di report o dashboard per aprirlo.  Per i dashboard nell'elenco, selezionare un'icona per [Condividere il dashboard con altri utenti](../service-share-dashboards.md) o per aprire la finestra **Impostazioni** per il dashboard. Per un report, selezionare l'icona [Analizza in Excel](../service-analyze-in-excel.md), [Rinomina](../service-rename.md) oppure [Ottieni informazioni dettagliate](end-user-insights.md).  
 

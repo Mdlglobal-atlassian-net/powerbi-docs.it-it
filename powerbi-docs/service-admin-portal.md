@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655144"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175252"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -47,6 +47,7 @@ Nel portale sono presenti nove schede. Il resto di questo articolo fornisce info
 * [Oggetti visivi dell'organizzazione](#organizational-visuals)
 * [Archiviazione del flusso di dati (anteprima)](#dataflowStorage)
 * [Aree di lavoro](#workspaces)
+* [Personalizzazione](#custom-branding)
 
 ## <a name="usage-metrics"></a>Metriche di utilizzo
 
@@ -522,7 +523,22 @@ Come amministratore, è possibile visualizzare le aree di lavoro esistenti nel t
 
 ![Elenco delle aree di lavoro](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>Personalizzazione
 
+In qualità di amministratore è possibile personalizzare l'aspetto di Power BI per l'intera organizzazione. Attualmente sono disponibili tre opzioni principali:
+
+![Opzioni di personalizzazione](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **Caricare il logo**: Per risultati ottimali, caricare un logo salvato come file con estensione png, di dimensioni non superiori a 10 kB e con almeno 200 x 30 pixel.
+
+* **Caricare l'immagine di copertina**: Per risultati ottimali, caricare un'immagine di copertina salvata come file con estensione jpg o png, di dimensioni non superiori a 1 MB e con almeno 1920 x 160 pixel.
+
+* **Selezionare il colore del tema**: È possibile selezionare il tema in base a un codice hex #, RGB, un valore o dal pallet in dotazione.
+
+
+Per altre informazioni, vedere [Personalizzazione per l'organizzazione](http://aka.ms/orgBranding).
+
+![Elenco delle aree di lavoro](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Amministrazione di Power BI nell'organizzazione](service-admin-administering-power-bi-in-your-organization.md)  

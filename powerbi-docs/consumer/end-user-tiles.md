@@ -4,24 +4,23 @@ description: Informazioni sui riquadri del dashboard in Power BI per i consumer.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050264"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142058"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
-Un riquadro è uno snapshot dei dati, aggiunto al dashboard da un *designer*. È possibile creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel, da SQL Server Reporting Services (SSRS) e da altre origini.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
+Un riquadro è uno snapshot dei dati, aggiunto al dashboard da un *designer*. Gli *sviluppatori* possono creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel, da SQL Server Reporting Services (SSRS) e da altre origini.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
 
-![Dashboard di Power BI](./media/end-user-tiles/power-bi-dashboard.png)
+![Dashboard di Power BI](./media/end-user-tiles/power-bi-dash.png)
 
 
 Oltre ai riquadri aggiunti dai report, i *designer* possono aggiungere riquadri autonomi direttamente nel dashboard usando **Aggiungi riquadro**. I riquadri autonomi includono caselle di testo, immagini, video, streaming di dati e contenuto Web.
@@ -38,15 +37,15 @@ Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - C
 
     - Riquadro creato con domande e risposte
    
-        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-menu1.png)
+        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-options-1.png)
 
     - Riquadro creato da una cartella di lavoro
    
-        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-menu2.png)
+        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-options-2.png)
 
     - Riquadro creato da un report
    
-        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-menu3.png)
+        ![Icona dei puntini di sospensione](./media/end-user-tiles/power-bi-options-3.png)
    
     Da qui è possibile:
    
@@ -56,9 +55,12 @@ Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - C
    
 
    * [Aprire il foglio di lavoro usato per creare questo riquadro ](end-user-reports.md) ![Icona del foglio di lavoro](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [Visualizzare il riquadro in modalità messa a fuoco ](end-user-focus.md) ![Icona della modalità messa a fuoco](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Eseguire analisi su informazioni dettagliate ](end-user-insights.md) ![Icona delle informazioni dettagliate](./media/end-user-tiles/power-bi-insights.png)
-    * [Aggiungere un commento e avviare una discussione](end-user-comment.md)![Icona del commento](./media/end-user-tiles/comment-icons.png)
+   * [Visualizzare il riquadro in modalità messa a fuoco ](end-user-focus.md) ![Icona della modalità messa a fuoco](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Visualizzare informazioni dettagliate ](end-user-insights.md) ![Icona delle informazioni dettagliate](./media/end-user-tiles/power-bi-insights.png)
+   * [Aggiungere un commento e avviare una discussione](end-user-comment.md)![Icona del commento](./media/end-user-tiles/comment-icons.png)
+   * [Gestire gli avvisi impostati sul riquadro del dashboard](end-user-alerts.md)  ![Icona degli avvisi](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Aprire i dati in Excel](end-user-export.md)  ![Icona di esportazione](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. Per chiudere il menu delle azioni, selezionare un'area vuota nell'area di disegno.
 

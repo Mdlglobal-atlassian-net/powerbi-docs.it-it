@@ -12,14 +12,14 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 948ead2cfa551d6342f9bab87b281d9b6d1e15bc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514076"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Selezione multipla di elementi dati in oggetti visivi con Power BI Desktop
 
-In Power BI Desktop, è possibile evidenziare un punto dati in un determinato oggetto visivo facendo semplicemente clic sul punto dati nell'oggetto visivo. Ad esempio, in presenza di una barra o di un elemento di un grafico importante, se si vogliono evidenziare i dati negli altri oggetti visivi nella pagina del report in base alla selezione, è possibile fare clic sull'elemento dati in un oggetto visivo e vedere i risultati rispecchiati negli altri oggetti visivi nella pagina. Si tratta di un'evidenziazione semplice, con singola selezione. La figura seguente mostra un'evidenziazione semplice. 
+In Power BI Desktop è possibile evidenziare un punto dati in un determinato oggetto visivo facendo semplicemente clic sul punto dati nell'oggetto visivo. Ad esempio, in presenza di una barra o di un elemento di un grafico importante, se si vogliono evidenziare i dati negli altri oggetti visivi nella pagina del report in base alla selezione, è possibile fare clic sull'elemento dati in un oggetto visivo e vedere i risultati rispecchiati negli altri oggetti visivi nella pagina. Si tratta di un'evidenziazione semplice, con singola selezione. La figura seguente mostra un'evidenziazione semplice. 
 
 ![Singolo punto dati selezionato](media/desktop-multi-select/multi-select_01.png)
 

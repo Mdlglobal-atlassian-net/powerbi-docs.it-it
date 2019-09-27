@@ -12,14 +12,14 @@ ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
 ms.openlocfilehash: 8c806f0de021c3857039649876864f47e1fffdb2
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454549"
 ---
 # <a name="certified-custom-visuals"></a>Oggetti visivi personalizzati certificati
 
-## <a name="what-are-certified-custom-visuals"></a>Che cosa sono gli oggetti visivi personalizzati **_certificati_** ?
+## <a name="what-are-_certified_-custom-visuals"></a>Che cosa sono gli oggetti visivi personalizzati **_certificati_** ?
 
 Gli oggetti visivi personalizzati certificati sono oggetti visivi nel **Marketplace** che soddisfano determinati requisiti di **codice specifico** e sono stati testati e approvati dal **team di Microsoft Power BI**. Quando un oggetto visivo viene certificato, offre più funzionalità. È ad esempio possibile [esportare in PowerPoint](consumer/end-user-powerpoint.md) e visualizzare l'oggetto visivo nei messaggi di posta elettronica ricevuti quando un utente [sottoscrive le pagine del report](consumer/end-user-subscribe.md).
 
@@ -44,34 +44,34 @@ Microsoft, a propria discrezione, può rimuovere un oggetto visivo dall'[elenco 
 Per ottenere la [certificazione](#certified-custom-visuals) dell'oggetto visivo personalizzato, assicurarsi che l'oggetto visivo personalizzato sia conforme ai requisiti seguenti:  
 
 * Approvato per Microsoft AppSource. L'oggetto visivo personalizzato deve essere disponibile in Microsoft [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
-* Oggetto visivo personalizzato viene scritto con controllo delle versioni **v2.5 API** o versione successiva.
-* Repository di codice è disponibile per la revisione dal team di Power BI (ad esempio, il codice sorgente (JavaScript o TypeScript) in formato leggibile non è disponibile, attraverso GitHub).
+* L'oggetto visivo personalizzato è scritto con l'**API v2.5** o versione successiva.
+* Il repository di codice è disponibile per la revisione da parte del team di Power BI, ad esempio, il codice sorgente JavaScript o TypeScript in formato leggibile è disponibile tramite GitHub.
 
     >[!Note]
     > Il codice non deve essere condiviso pubblicamente in Github.
 * Requisiti del repository di codice:
-   * Deve includere il set di file minimo richiesto:
+   * Deve includere il set minimo di file obbligatori:
       * .gitignore
       * capabilities.json
       * pbiviz.json
       * package.json
       * package-lock.json
       * tsconfig.json
-   * Non devono includere cartella node_modules (Aggiungi node_modules .gitingore file)
-   * **installare npm** comando non deve restituire eventuali errori.
-   * **controllo npm** comando non deve restituire tutti gli avvisi con livello moderato o elevato.
-   * **pacchetto pbiviz** comando non deve restituire eventuali errori.
-   * Deve includere [TSlint microsoftu](https://www.npmjs.com/package/tslint-microsoft-contrib) senza alcuna configurazione sottoposto a override, e questo comando non deve restituire eventuali errori di lint.
-   * Il pacchetto compilato dell'oggetto visivo personalizzato deve corrispondere pacchetto inviato (hash md5 dei file deve essere uguale).
+   * Non deve includere la cartella node_modules (aggiungere node_modules al file con estensione gitingore)
+   * Il comando **npm install** non deve restituire alcun errore.
+   * Il comando **npm audit** non deve restituire avvisi con livello elevato o moderato.
+   * Il comando **pbiviz package** non deve restituire alcun errore.
+   * Deve includere [TSlint da Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) senza configurazione sottoposta a override e questo comando non deve restituire alcun errore di lint.
+   * Il pacchetto compilato dell'oggetto visivo personalizzato deve corrispondere al pacchetto inviato, ovvero l'hash MD5 di entrambi i file deve essere uguale.
 * Requisiti del codice sorgente:
-   * L'oggetto visivo deve supportare [API degli eventi di Rendering](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
-   * Verificare che nessun codice arbitrario dinamici viene eseguito (non valida: Eval (), non è sicuro usare settimeout(), requestAnimationFrame(), setinterval (una funzione con l'input dell'utente), input/dati utente in esecuzione).
-   * Assicurarsi di DOM è stato modificato in modo sicuro (non valida: innerHTML, D3.html (< alcuni input utente/dati >), usare la purificazione dei processi per dati di input utente prima di aggiungerle al DOM.
-   * Assicurarsi che non sono presenti errori/eccezioni javascript nella console del browser per tutti i dati di input. Gli utenti usino l'oggetto visivo con un diverso intervallo di dati imprevisti, in modo che l'oggetto visivo non deve avere esito negativo. È possibile usare [report di esempio](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) come un set di dati di test.
+   * L'oggetto visivo deve supportare l'[API per gli eventi di rendering](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Assicurarsi che non venga eseguito alcun codice arbitrario/dinamico (bad: eval(), unsafe to use of settimeout(), requestAnimationFrame(), setinterval(some function with user input), running user input/data).
+   * Assicurarsi che il codice DOM venga modificato in modo sicuro (bad: innerHTML, D3.html(<some user/data input>), usare la bonifica per input/dati utente prima di aggiungerla al codice DOM.
+   * Assicurarsi che non siano presenti errori/eccezioni JavaScript nella console del browser per i dati di input. È possibile che gli utenti usino l'oggetto visivo con un intervallo diverso di dati imprevisti, quindi l'oggetto visivo non deve dare errore. È possibile usare [questo report di esempio](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) come set di dati di test.
 
-* Se vengono modificate tutte le proprietà nella capabilities.json, assicurarsi che non interrompano i report dell'utente esistente.
+* Se vengono modificate le proprietà in capabilities.json, assicurarsi che non interrompano i report dell'utente.
 
-* Assicurarsi che l'oggetto visivo è conforme con la [linee guida per gli oggetti visivi di Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Non sono consentite filigrane**.
+* Assicurarsi che l'oggetto visivo sia conforme alle [linee guida per gli oggetti visivi di Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Non sono consentite filigrane**.
 
 * Usa solo componenti OSS revisionabili pubblici (librerie JS o TypeScript pubbliche. Il codice sorgente è disponibile per la revisione e non presenta vulnerabilità note). Non è possibile verificare oggetti visivi personalizzati che usano un componente commerciale.
 

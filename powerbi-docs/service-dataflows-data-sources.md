@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141401"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164563"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Connettersi a origini dati per i flussi di dati di Power BI
 
@@ -23,7 +23,7 @@ Con i flussi di dati di Power BI è possibile connettersi a diverse origini dati
 
 Questo articolo elenca le numerose origini dati disponibili per la creazione o l'aggiunta di flussi di dati e descrive come usarle.
 
-Per una panoramica su come creare e usare flussi di dati, vedere [creazione e utilizzo di flussi di dati in Power BI](service-dataflows-create-use.md).
+Per una panoramica su come creare e usare i flussi di dati, vedere [Creazione e uso di flussi di dati in Power BI](service-dataflows-create-use.md).
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Creare un flusso di dati da un'origine dati
 
@@ -156,7 +156,6 @@ A questo punto lo script si connette all'origine dati specificata.
 
 Nell'elenco seguente vengono illustrati i connettori che è possibile usare attualmente per copiare e incollare la query M in una query vuota:
 
-* SAP Business Warehouse 
 * Azure Analysis Services
 * Adobe Analytics
 * ODBC
@@ -178,9 +177,9 @@ Questo articolo ha illustrato le origini dati che è possibile usare per connett
 
 * [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md)
 * [Creare e usare flussi di dati in Power BI](service-dataflows-create-use.md)
-* [Utilizzo di entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso delle entità calcolate in Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Uso di flussi di dati con origini dati locali](service-dataflows-on-premises-gateways.md)
-* [Risorse per sviluppatori per flussi di dati di Power BI](service-dataflows-developer-resources.md)
+* [Risorse per sviluppatori per i flussi di dati Power BI](service-dataflows-developer-resources.md)
 * [Integrazione di flussi di dati e Azure Data Lake (anteprima)](service-dataflows-azure-data-lake-integration.md)
 
 Per altre informazioni su Power Query e sull'aggiornamento pianificato, è possibile leggere questi articoli:

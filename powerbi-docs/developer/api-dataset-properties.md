@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61386294"
@@ -31,7 +31,7 @@ id     |  Guid       | Identificatore univoco a livello di sistema per il set di
 nome     | String        | Nome del set di dati definito dall'utente.        | False        | True        
 tables     | Table[]        | Raccolta di tabelle.        |  False       | False        
 relationships     | Relationship[]        | Raccolta di relazioni tra tabelle.        | False        |  False  
-defaultMode     | Stringa        | Determina se il set di dati viene inserito, lo streaming, o entrambi, con valori di "Push" e "Streaming".         | False        |  False
+defaultMode     | Stringa        | Determina se il set di dati è sottoposto a push, trasmesso in streaming o entrambi, con valori di "Push" e "Streaming".         | False        |  False
 
 ## <a name="table"></a>Tabella
 

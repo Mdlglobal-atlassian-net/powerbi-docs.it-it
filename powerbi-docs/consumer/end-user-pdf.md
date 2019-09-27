@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61047998"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141303"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 Con Power BI, è possibile pubblicare il report in formato PDF e creare facilmente un documento basato su un report di Power BI. Quando si **esporta in formato PDF** ogni pagina del report di Power BI diventa una singola pagina del documento PDF.
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Come esportare il report di Power BI in PDF
-Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla home page, da App o da qualsiasi altra sezione del riquadro di spostamento a sinistra.
+Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla home page, da App o da qualsiasi altro contenitore del riquadro di spostamento a sinistra.
 
-1. Selezionare **File** > **Esporta in PDF** dalla barra dei menu.
+1. Selezionare **Esporta** > **PDF** nella barra dei menu.
 
-    ![Selezionare File nella barra dei menu, freccia rivolta verso Esporta in PDF](media/end-user-pdf/power-bi-export-pdf.png)
+    ![Selezionare Esporta nella barra dei menu, freccia rivolta verso Esporta in PDF](media/end-user-pdf/power-bi-export.png)
 
-    Verrà visualizzata una finestra popup in cui è possibile selezionare **Visualizzazione corrente** oppure **Visualizzazione predefinita**.  **Visualizzazione corrente** consente di esportare il report nello stato corrente, comprese le modifiche attive apportate ai valori del filtro dei dati e del filtro.  La maggior parte degli utenti seleziona questa opzione.  In alternativa, se si seleziona **Visualizzazione predefinita**, il report viene esportato allo stato originale, ovvero come è stato condiviso dall'autore, e non riflette le modifiche apportate a tale stato.
+    Verrà visualizzata una finestra popup in cui è possibile selezionare **Valori correnti** oppure **Valori predefiniti**.  **Valori correnti** consente di esportare il report nello stato corrente, comprese le modifiche attive apportate ai valori del filtro dei dati e del filtro.  La maggior parte degli utenti seleziona questa opzione.  In alternativa, se si seleziona **Valori predefiniti**, il report viene esportato allo stato originale, ovvero come è stato condiviso dallo *sviluppatore*, e non riflette le modifiche apportate a tale stato.
     
-    È anche disponibile una casella di controllo per scegliere se esportare le schede nascoste di un report.  Selezionare questa casella se si vogliono esportare solo le schede del report che sono visibili all'utente nel browser.  Se si preferisce esportare tutte le schede nascoste, lasciare l'opzione deselezionata.  Se la casella di controllo è disattivata, non sono presenti schede nascoste nel report.  Dopo aver eseguito le selezioni, fare clic sul pulsante Esporta per continuare.
+    È anche disponibile una casella di controllo per scegliere se esportare le schede nascoste di un report.  Selezionare questa casella se si vogliono esportare solo le schede del report che sono visibili all'utente nel browser.  Se si preferisce esportare tutte le schede nascoste, lasciare l'opzione deselezionata.  Se la casella di controllo è disattivata, non sono presenti schede nascoste nel report.  Dopo aver eseguito le selezioni, selezionare il pulsante Esporta per continuare.
     
     Nell'angolo superiore destro viene visualizzato un indicatore di stato. L'esportazione del report può richiedere alcuni minuti ma consente di continuare a lavorare in Power BI.
 
-    ![Messaggio di stato dell'esportazione](media/end-user-pdf/power-bi-export-message.png)
+    ![Messaggio di stato dell'esportazione](media/end-user-pdf/power-bi-export-progress.png)
 
     Al termine della procedura, il banner di notifica cambia, informando che il servizio Power BI ha terminato il processo di esportazione.
 
 2. Il file sarà quindi disponibile nel percorso in cui il browser visualizza i file scaricati. Nella figura seguente, è visualizzato come banner di download nella parte inferiore della finestra del browser.
 
-    ![Percorso del file scaricato](media/end-user-pdf/power-bi-save-file.png)
+    ![Percorso del file scaricato](media/end-user-pdf/power-bi-export-done.png)
 
 E questo è tutto. È possibile scaricare il file e aprirlo con qualsiasi visualizzatore PDF, ad esempio quello disponibile in Microsoft Edge.
 

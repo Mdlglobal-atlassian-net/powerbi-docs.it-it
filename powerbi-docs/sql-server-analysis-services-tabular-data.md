@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769927"
@@ -35,11 +35,11 @@ In Power BI è possibile connettersi a un server SQL Server Analysis Services di
 
 2. Selezionare **Database e altro**.
 
-   ![Connettiti per ottenere dati 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Connettersi a Recupera dati 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. Selezionare **SQL Server Analysis Services** > **Connetti**.
 
-   ![Connettiti per ottenere dati 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Connettersi a Recupera dati 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Selezionare un server. Se non è elencato alcun server, significa che un gateway e un'origine dati non sono configurati o che l'account non è presente nella scheda **utenti** dell'origine dati, nel gateway. Rivolgersi all'amministratore.
 

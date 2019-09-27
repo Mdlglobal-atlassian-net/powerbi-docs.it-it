@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454135"
@@ -48,7 +48,7 @@ Per usare le informazioni dettagliate allo scopo di determinare dove le distribu
 
 I valori a cui è applicato il filtro selezionato sono visualizzati con il colore predefinito normale. I valori complessivi, come appaiono nell'oggetto visivo originale, sono visualizzati in grigio per facilitare il confronto. È possibile includere fino a tre filtri diversi (nell'esempio *Touring Bikes* (Bici da turismo), *Mountain Bikes* (Mountain bike), *Road Bikes* (Bici da strada)) e scegliere i filtri facendo clic su di essi oppure facendo clic e premendo CTRL per la selezione multipla.
 
-Per le misure aggiuntive semplici, ad esempio *Total Sales* (Vendite totali) nell'esempio, il confronto è basato su valori relativi anziché assoluti. Di conseguenza anche se le vendite di biciclette da turismo sono inferiori a vendite complessive per tutte le categorie, per impostazione predefinita l'oggetto visivo Usa un doppio asse per consentire il confronto tra la percentuale delle vendite in paesi diversi, per Touring Bikes rispetto a tutte le categorie di biciclette.  Attivando o disattivando l'interruttore sotto l'oggetto visivo è possibile visualizzare i due valori sullo stesso asse e confrontare in modo facile i valori assoluti (come mostra l'immagine seguente).    
+Per le misure aggiuntive semplici, ad esempio *Total Sales* (Vendite totali) nell'esempio, il confronto è basato su valori relativi anziché assoluti. Di conseguenza mentre le vendite relative a Touring Bikes sono inferiori alle vendite totali di tutte le categorie, per impostazione predefinita l'oggetto visivo usa un doppio asse per consentire il confronto tra la percentuale di vendite nei diversi paesi, per Touring Bikes rispetto a tutte le categorie di biciclette.  Attivando o disattivando l'interruttore sotto l'oggetto visivo è possibile visualizzare i due valori sullo stesso asse e confrontare in modo facile i valori assoluti (come mostra l'immagine seguente).    
 
 ![oggetti visivi visualizzati quando si usano le informazioni dettagliate](media/desktop-insights-find-where-different/find-where-different_04.png)
 
@@ -63,7 +63,7 @@ Le icone del *pollice in su* e del *pollice in giù* nella parte superiore della
 ## <a name="details-of-the-returned-results"></a>Dettagli dei risultati restituiti
 Si può presupporre che l'algoritmo prenda in considerazione tutte le altre colonne del modello e tutti i valori delle colonne e li applichi come filtri dell'oggetto visivo originale individuando i valori di filtro che producono il risultato più *diverso* rispetto all'originale.
 
-È probabile che chiedersi cosa *diversi* significa. Si supponga, ad esempio, che la differenza complessiva delle vendite tra Stati Uniti e Canada sia la seguente:
+È possibile che a questo punto ci si interroghi sul significato della *differenza*. Si supponga, ad esempio, che la differenza complessiva delle vendite tra Stati Uniti e Canada sia la seguente:
 
 |Paese  |Vendite ($ mio)|
 |---------|----------|
@@ -97,7 +97,7 @@ Considerata la natura di questo tipo di misure, è interessante notare che quest
 
 Gli oggetti visivi visualizzati hanno quindi lo scopo di illustrare chiaramente le differenze individuate tra la distribuzione complessiva (come appare nell'oggetto visivo originale) e il valore a cui è applicato un filtro specifico.  
 
-Pertanto, per le misure aggiuntive, come *Vendite* nell'esempio precedente, vengono usati un istogramma e un grafico a linee dove l'uso di un doppio asse con la scala appropriata consente di confrontare facilmente i valori relativi. Le colonne mostrano il valore a cui viene applicato il filtro, mentre la linea mostra il valore complessivo (con l'asse della colonna a sinistra e l'asse della linea a destra). La riga viene visualizzata usando una *rientri* stile, con una linea tratteggiata, compilato con grigio. Per l'esempio precedente, se il valore massimo dell'asse della colonna è 4 e il valore massimo dell'asse di riga è pari a 20, quindi avrebbe consentito semplice confronto dei valori relativi tra Stati Uniti e Canada per i valori filtrati e complessivi. 
+Pertanto, per le misure aggiuntive, come *Vendite* nell'esempio precedente, vengono usati un istogramma e un grafico a linee dove l'uso di un doppio asse con la scala appropriata consente di confrontare facilmente i valori relativi. Le colonne mostrano il valore a cui viene applicato il filtro, mentre la linea mostra il valore complessivo (con l'asse della colonna a sinistra e l'asse della linea a destra). La linea è visualizzata *con rientri*, è tratteggiata e ha un riempimento di colore grigio. Nell'esempio precedente se il valore massimo dell'asse della colonna è 4 e il valore massimo dell'asse della linea è 20, è possibile confrontare facilmente i valori relativi degli Stati Uniti rispetto al Canada per i valori filtrati e complessivi. 
 
 Analogamente, per le misure non aggiuntive, come *Margine* nell'esempio precedente, vengono usati un istogramma e un grafico a linee dove l'uso di un singolo asse consente di confrontare facilmente i valori assoluti. La linea (con riempimento grigio) mostra anche in questo caso il valore complessivo. Nel confronto di valori effettivi o relativi, l'individuazione del grado di differenza di due distribuzioni non consiste semplicemente nel calcolo della differenza tra i valori. ad esempio:
 
@@ -107,7 +107,7 @@ Analogamente, per le misure non aggiuntive, come *Margine* nell'esempio preceden
 
 * Vengono usate varie funzioni euristiche per selezionare i risultati più significativi, ad esempio considerando altre relazioni tra i dati.
      
-Dopo aver esaminato le diverse colonne e i valori di ciascuna colonna, vengono scelti i valori che offrono le differenze maggiori. Per facilitare la comprensione, i valori sono raggruppati per colonna, con la colonna i cui valori indicano la differenza maggiore elencata per prima. Fino a tre valori vengono visualizzati per ogni colonna, ma minore potrebbe essere visualizzato se si sono verificati meno di tre valori che hanno un notevole effetto oppure se alcuni valori sono molto più forte impatto rispetto ad altri. 
+Dopo aver esaminato le diverse colonne e i valori di ciascuna colonna, vengono scelti i valori che offrono le differenze maggiori. Per facilitare la comprensione, i valori sono raggruppati per colonna, con la colonna i cui valori indicano la differenza maggiore elencata per prima. Per ogni colonna vengono visualizzati un massimo di tre valori o meno se sono presenti meno di tre valori con grande impatto o se alcuni valori hanno un impatto di gran lunga maggiore rispetto ad altri. 
 
 Poiché non tutte le colonne del modello vengono esaminate necessariamente nel tempo disponibile, non è garantito che vengano visualizzati le colonne e i valori con maggiore impatto. Vengono tuttavia usate diverse funzioni euristiche per garantire che vengano esaminate per prime le colonne più probabili. Si supponga ad esempio che dopo aver esaminato tutte le colonne, si determini che le colonne o i valori seguenti hanno l'impatto maggiore sulla distribuzione, in ordine di impatto:
 

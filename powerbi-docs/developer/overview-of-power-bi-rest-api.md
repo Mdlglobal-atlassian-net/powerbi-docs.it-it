@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 03/25/2019
 ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61269448"
@@ -24,12 +24,12 @@ Con l'API REST di Power BI è possibile eseguire attività di gestione su oggett
 
 Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 
-| **Per altre informazioni** | **Queste informazioni di riferimento** |
+| **Per altre informazioni** | **Vedere questo argomento** |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, report e riquadri di Power BI ](embedding-content.md) |
+| Incorporare report, dashboard e riquadri per utenti di Power BI e utenti esterni a Power BI. | [Come incorporare i dashboard, i report e i riquadri di Power BI](embedding-content.md) |
 | Eseguire attività di gestione per oggetti di Power BI. | [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/) |
-| Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. | [Eseguire il push dei dati in un dashboard ](walkthrough-push-data.md) |
-| Eseguire l'autenticazione a Power BI. | [Eseguire l'autenticazione a Power BI ](get-azuread-access-token.md) |
+| Estendere un flusso di lavoro aziendale esistente per eseguire il push dei dati in un dashboard di Power BI. | [Eseguire il push dei dati in un dashboard](walkthrough-push-data.md) |
+| Eseguire l'autenticazione a Power BI. | [Eseguire l'autenticazione in Power BI](get-azuread-access-token.md) |
 
 > [!NOTE]
 > Le API di Power BI fanno ancora riferimento alle aree di lavoro per le app come gruppi. I riferimenti ai gruppi indicano che si stanno usando le aree di lavoro per le app.
@@ -39,7 +39,7 @@ Ecco alcune delle operazioni che è possibile eseguire con le API di Power BI.
 | Strumento/i | Descrizione |  |  |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---|---|
 | [Strumento playground](https://microsoft.github.io/PowerBI-JavaScript/demo) | Un esempio d'uso completo delle API JavaScript di Power BI. Questo strumento consente di riprodurre in modo rapido vari tipi di esempi di Power BI Embedded. |  |  |
-| [Wiki di Power BI JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki) | Offre informazioni aggiuntive sulle API JavaScript di Power BI. |  |  |
+| [Wiki JavaScript di Power BI](https://github.com/Microsoft/powerbi-javascript/wiki) | Offre informazioni aggiuntive sulle API JavaScript di Power BI. |  |  |
 | [Postman](https://www.getpostman.com/) | Consente di eseguire richieste, test, operazioni di debug, monitoraggio, test automatici e altro ancora. |
 
 ## <a name="push-data-into-power-bi"></a>Push dei dati in Power BI

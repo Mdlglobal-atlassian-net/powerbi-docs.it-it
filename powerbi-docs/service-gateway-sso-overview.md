@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271859"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100394"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Panoramica dell'accesso Single Sign-On (SSO) per i gateway in Power BI
 
-Per usufruire di un'esperienza di connettività Single Sign-On ottimale che abilita l'aggiornamento di report e dashboard di Power BI dai dati locali, è possibile configurare il gateway dati locale con la delega vincolata Kerberos o Security Assertion Markup Language (SAML). Il gateway dati locale semplifica l'accesso Single Sign-On grazie all'uso di DirectQuery per connettersi alle origini dati locali.
+Per usufruire di un'esperienza di connettività Single Sign-On ottimale che consenta l'aggiornamento in tempo reale di report e dashboard di Power BI dai dati locali, è possibile configurare il gateway dati locale con la delega vincolata Kerberos o Security Assertion Markup Language (SAML). Il gateway dati locale supporta il Single Sign-On grazie all'uso di DirectQuery per connettersi alle origini dati locali.
 
 Sono attualmente supportate le origini dati seguenti:
 
@@ -52,8 +52,7 @@ Dettagli aggiuntivi per questi tre passaggi:
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Dopo la descrizione delle nozioni di base sull'accesso SSO, leggere informazioni più dettagliate su Kerberos e SAML:
+Dopo aver appreso le nozioni di base sul Single Sign-On tramite il gateway, leggere informazioni più dettagliate su Kerberos e SAML:
 
 * [Single Sign-On (SSO) - Kerberos](service-gateway-sso-kerberos.md)
-* [Single Sign-On (SSO) - Kerberos - basato sulle risorse](service-gateway-sso-kerberos-resource.md)
 * [Single Sign-On (SSO) - SAML](service-gateway-sso-saml.md)

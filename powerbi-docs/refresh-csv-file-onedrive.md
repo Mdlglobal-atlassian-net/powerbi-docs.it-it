@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415654"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076085"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Aggiornare un set di dati creato da un file CSV in OneDrive o SharePoint Online
 ## <a name="what-are-the-advantages"></a>Quali sono i vantaggi?
@@ -36,7 +36,7 @@ La connessione a OneDrive for Business in Power BI in genere non crea problemi p
 
 Quando si accede all'account Microsoft, assicurarsi di selezionare Mantieni l'accesso. Power BI può quindi sincronizzare gli aggiornamenti con i set di dati in Power BI
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![Esempio di accesso](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Se si apportano modifiche al file CSV in OneDrive che non possono essere sincronizzate con il set di dati in Power BI perché le credenziali dell'account Microsoft sono state modificate, è necessario connettersi al file e importarlo nuovamente dall'account OneDrive personale.
 

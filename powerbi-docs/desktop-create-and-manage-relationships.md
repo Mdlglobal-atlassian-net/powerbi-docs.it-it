@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61312717"
@@ -21,7 +21,7 @@ ms.locfileid: "61312717"
 Quando si importano più tabelle, è probabile che verranno eseguite analisi con i dati inclusi nelle tabelle. Le relazioni tra le tabelle sono necessarie per calcolare con precisione i risultati e visualizzare le informazioni corrette nei report. Power BI Desktop semplifica la creazione di queste relazioni. Nella maggior parte dei casi, in effetti, tutte le operazioni verranno eseguite automaticamente dalla funzionalità Rilevamento automatico. In alcuni casi, tuttavia, potrebbe essere necessario creare manualmente le relazioni oppure apportare alcune modifiche a una relazione. È quindi importante comprendere le relazioni in Power BI Desktop e capire come crearle e modificarle.
 
 ## <a name="autodetect-during-load"></a>Rilevamento automatico durante il caricamento
-Se si esegue la query di due o più tabelle nello stesso momento, quando i dati vengono caricati, Power BI Desktop tenta di trovare e creare le relazioni. Le proprietà Cardinalità, Direzione filtro incrociato e Attiva vengono impostate automaticamente. Power BI Desktop esamina i nomi di colonna nelle tabelle sottoposte a query per determinare se sono presenti potenziali relazioni. Se le relazioni sono presenti, verranno create automaticamente. Se Power BI Desktop non riesce a determinare con un livello elevato di confidenza una corrispondenza, non crea automaticamente la relazione. È comunque possibile usare la finestra di dialogo Gestisci relazioni per creare o modificare le relazioni.
+Se si eseguono query in due o più tabelle alla volta, Power BI Desktop tenta di trovare e creare automaticamente le relazioni quando i dati vengono caricati. Le proprietà Cardinalità, Direzione filtro incrociato e Attiva vengono impostate automaticamente. Power BI Desktop esamina i nomi di colonna nelle tabelle sottoposte a query per determinare se sono presenti potenziali relazioni. Se le relazioni sono presenti, verranno create automaticamente. Se Power BI Desktop non riesce a determinare con un livello elevato di confidenza una corrispondenza, la relazione non viene creata automaticamente. È comunque possibile usare la finestra di dialogo Gestisci relazioni per creare o modificare le relazioni.
 
 ## <a name="create-a-relationship-by-using-autodetect"></a>Creare una relazione usando il Rilevamento automatico
 Nella scheda **Home** fare clic su **Gestisci relazioni**\>**Rilevamento automatico**.
@@ -30,21 +30,21 @@ Nella scheda **Home** fare clic su **Gestisci relazioni**\>**Rilevamento automat
 
 ## <a name="create-a-relationship-manually"></a>Creare manualmente una relazione
 1. Nella scheda **Home** fare clic su **Gestisci relazioni**\>**Nuovo**.
-2. Nel **Crea relazione** finestra di dialogo, nel primo elenco a discesa scegliere tabella, selezionare una tabella e quindi selezionare la colonna da usare nella relazione.
-3. Nel secondo elenco a discesa scegliere tabella, selezionare l'altra tabella nella relazione, quindi selezionare la colonna a cui si vuole usare e quindi fare clic su **OK**.
+2. Nella finestra di dialogo **Crea relazione** selezionare una tabella dal primo elenco a discesa di tabelle, quindi selezionare la colonna da usare nella relazione.
+3. Nel secondo elenco a discesa di tabelle selezionare l'altra tabella da inserire nella relazione, quindi selezionare la colonna da usare e infine fare clic su **OK**.
 
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
-Per impostazione predefinita, Power BI Desktop configura automaticamente la cardinalità (direzione), direzione filtro incrociato e la proprietà attiva per la nuova relazione; Tuttavia, è possibile modificare le impostazioni, se necessario. Per altre informazioni, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
+Per impostazione predefinita, Power BI Desktop configura automaticamente le proprietà Cardinalità (direzione), Direzione filtro incrociato e Attiva per la nuova relazione. È tuttavia possibile modificare le proprietà, se necessario. Per altre informazioni, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 
-Si noterà un errore che indica *una delle colonne deve contenere valori univoci* se nessuna delle tabelle selezionate per la relazione dispone di valori univoci. Almeno una tabella in una relazione *deve* avere un elenco distinto e unico di valori chiave. Questo è un requisito comune per tutte le tecnologie di database relazionali. 
+Se nessuna delle tabelle selezionate per la relazione ha valori univoci, verrà visualizzato un errore a indicare che *una delle colonne deve contenere valori univoci*. Almeno una tabella in una relazione *deve* avere un elenco distinto e unico di valori chiave. Questo è un requisito comune per tutte le tecnologie di database relazionali. 
 
 Se viene visualizzato questo errore, è possibile risolvere il problema in due modi:
 
 * Usare "Remove Duplicate Rows" (Rimuovi righe duplicate) per creare una colonna con valori univoci. Lo svantaggio di questo approccio è la perdita di informazioni con l'eliminazione delle righe duplicate: in molti casi una chiave (riga) è duplicata per un motivo valido.
 * Aggiungere al modello una tabella intermedia con l'elenco di valori di chiave univoci, che verrà quindi collegato a entrambe le colonne originali nella relazione.
 
-Per informazioni più dettagliate, vedere la [post di blog](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/).
+Per informazioni più dettagliate, vedere il [post di blog](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/).
 
 
 ## <a name="edit-a-relationship"></a>Modificare una relazione
@@ -52,21 +52,21 @@ Per informazioni più dettagliate, vedere la [post di blog](https://blogs.techne
 2. Nella finestra di dialogo **Gestisci relazioni** selezionare la relazione e quindi fare clic su **Modifica**.
 
 ## <a name="configure-additional-options"></a>Configurare opzioni aggiuntive
-Quando si crea o si modifica una relazione, è possibile configurare opzioni aggiuntive. Per impostazione predefinita, le opzioni aggiuntive vengono configurate automaticamente in base una stima, che può essere diversa per ogni relazione, in base ai dati nelle colonne.
+Quando si crea o si modifica una relazione, è possibile configurare opzioni aggiuntive. Per impostazione predefinita, le opzioni aggiuntive vengono configurate automaticamente in base a una maggiore probabilità, che può variare per ogni relazione a seconda dei dati contenuti nelle colonne.
 
 ## <a name="cardinality"></a>Cardinalità
-**Molti-a-uno (\*: 1)** : la maggior parte dei comuni, il tipo predefinito, ovvero la colonna in una tabella può avere più di un'istanza di un valore e l'altra tabella correlata, spesso nota come tabella di ricerca, include solo un'istanza di un valore.
+**Molti-a-uno (\*:1)**: il tipo predefinito più comune. Significa che la colonna in una tabella può avere più istanze di un valore e l'altra tabella correlata, spesso nota come tabella di ricerca, include solo un'istanza di un valore.
 
-**Uno a uno (1:1)** - la colonna in una tabella include solo un'istanza di un valore specifico e l'altra tabella correlata include solo un'istanza di un determinato valore.
+**Uno-a-uno (1:1)**: la colonna in una tabella include solo un'istanza di un valore specifico e l'altra tabella correlata include solo un'istanza di un valore specifico.
 
-**Relazioni molti-a-molti**: Con i modelli compositi, è possibile stabilire relazioni molti-a-molti tra le tabelle, che rimuove i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per informazioni più dettagliate, vedere [Relazioni con cardinalità molti-a-molti](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
+**Relazioni molti-a-molti**: Con i modelli compositi è possibile stabilire relazioni molti-a-molti tra le tabelle, rimuovendo così i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per informazioni più dettagliate, vedere [Relazioni con cardinalità molti-a-molti](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Per informazioni dettagliate su quando modificare la cardinalità, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 
 ## <a name="cross-filter-direction"></a>Direzione filtro incrociato
-**Entrambi** : la più comune, la direzione predefinita, ovvero per il filtro a scopo, entrambe le tabelle vengono considerate come se fossero una singola tabella. **Entrambi** funziona bene con una singola tabella che include un numero di tabelle di ricerca che la racchiudono. Un esempio è una tabella di valori effettivi delle vendite con una tabella di ricerca per reparto. Spesso si tratta di una configurazione di schema a stella (una tabella centrale con diverse tabelle di ricerca). Tuttavia, se si hanno due o più tabelle con tabelle di ricerca (con alcune in comune), è preferibile usare l'impostazione Entrambi. Per continuare l'esempio precedente, in questo caso, è anche presente una tabella delle vendite in budget che registra il budget mirato per ogni reparto. La tabella del reparto, infine, è connessa sia alla tabella vendite sia alla tabella budget. Evitare l'impostazione Entrambi per questo tipo di configurazione.
+**Entrambi**: la direzione predefinita più comune. Significa che per finalità relative ai filtri entrambe le tabelle vengono considerate come se fossero una singola tabella. **Entrambi**: funziona bene con una singola tabella che include un numero di tabelle di ricerca che la racchiudono. Un esempio è una tabella di valori effettivi delle vendite con una tabella di ricerca per reparto. Spesso si tratta di una configurazione di schema a stella (una tabella centrale con diverse tabelle di ricerca). Tuttavia, se si hanno due o più tabelle con tabelle di ricerca (con alcune in comune), è preferibile usare l'impostazione Entrambi. Per continuare l'esempio precedente, in questo caso, è anche presente una tabella delle vendite in budget che registra il budget mirato per ogni reparto. La tabella del reparto, infine, è connessa sia alla tabella vendite sia alla tabella budget. Evitare l'impostazione Entrambi per questo tipo di configurazione.
 
-**Singolo** -usare le opzioni del filtro nelle tabelle connesse per la tabella in cui vengono aggregati i valori. Se si importa una tabella di Power Pivot in Excel 2013 o in un modello di dati precedente, tutte le relazioni avranno un'unica direzione. 
+**Singola**: le opzioni del filtro nelle tabelle connesse vengono applicate alla tabella in cui vengono aggregati i valori. Se si importa una tabella di Power Pivot in Excel 2013 o in un modello di dati precedente, tutte le relazioni avranno un'unica direzione. 
 
 Per informazioni dettagliate su quando modificare la direzione del filtro incrociato, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 
@@ -76,9 +76,9 @@ Se selezionata, questa opzione significa che la relazione viene usata come relaz
 Per informazioni dettagliate su quando rendere attiva una relazione specifica, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 
 ## <a name="understanding-relationships"></a>Informazioni sulle relazioni
-Dopo avere connesso due tabelle con una relazione, sarà possibile usare i dati di entrambe le tabelle come se si trattasse di una singola tabella, senza doversi preoccupare dei dettagli delle relazioni o senza dovere ridurre le due tabelle a una tabella singola prima di importarle. In molte situazioni, Power BI Desktop può creare automaticamente le relazioni, in modo che non sia neanche necessaria la creazione manuale. Tuttavia, se Power BI Desktop non è possibile determinare con un livello elevato di confidenza l'esistenza di una relazione tra due tabelle, automaticamente la relazione non creata. In tal caso, è necessario creare la relazione. 
+Dopo avere connesso due tabelle con una relazione, sarà possibile usare i dati di entrambe le tabelle come se si trattasse di una singola tabella, senza doversi preoccupare dei dettagli delle relazioni o senza dovere ridurre le due tabelle a una tabella singola prima di importarle. In molte situazioni, Power BI Desktop può creare automaticamente le relazioni, in modo che non sia neanche necessaria la creazione manuale. Tuttavia, se Power BI Desktop non riesce a determinare con un livello elevato di certezza che deve esistere una relazione tra due tabelle, la relazione non viene creata automaticamente. In questo caso, è necessario creare manualmente la relazione. 
 
-Verrà ora analizzato un'esercitazione rapida, illustra il funzionamento delle relazioni in Power BI Desktop.
+La breve esercitazione seguente illustra il funzionamento delle relazioni in Power BI Desktop.
 
 >[!TIP]
 >È possibile completare personalmente questa lezione. Copiare la tabella ProjectHours seguente in un foglio di lavoro di Excel, selezionare tutte le celle, quindi fare clic su **INSERISCI**\>**Tabella**. Nella finestra di dialogo **Crea tabella** è sufficiente fare clic su **OK**. In **Nome tabella**digitare **ProjectHours**. Eseguire la stessa procedura per la tabella CompanyProject. Sarà quindi possibile importare i dati usando **Recupera dati** in Power BI Desktop. Selezionare la cartella di lavoro e le tabelle come origine dati.
@@ -114,7 +114,7 @@ La seconda tabella, CompanyProject, è un elenco di progetti a cui è stata asse
 | Purple |B |
 | Orange |C |
 
-Si noti che ogni tabella contiene una colonna del progetto. Ogni colonna ha un nome leggermente diverso, ma i valori sono simili. Questo è importante e ti contatteremo a breve.
+Si noti che ogni tabella contiene una colonna del progetto. Ogni colonna ha un nome leggermente diverso, ma i valori sono simili. Si tratta di un aspetto importante, che verrà esaminato a breve.
 
 Dopo avere importato le due tabelle in un modello, è possibile creare un report. Si vuole ottenere prima di tutto il numero di ore inviate in base alla priorità del progetto, sarà necessario selezionare **Priority** e **Hours** da Campi.
 
@@ -132,14 +132,14 @@ Se si esamina la colonna ProjName nella tabella CompanyProject, si noterà che �
 
 ### <a name="to-create-the-new-relationship"></a>Per creare la nuova relazione
 1. Fare clic su **Gestisci relazioni**.
-2. Nella **Gestisci relazioni**, fare clic su **New** per aprire il **Crea relazione** finestra di dialogo in cui è possibile selezionare le tabelle, colonne ed eventuali impostazioni aggiuntive da impostare per il Relazione.
+2. In **Gestisci relazioni** fare clic su **Nuovo** per aprile la finestra di dialogo **Crea relazione**, in cui è possibile selezionare tabelle, colonne ed eventuali impostazioni aggiuntive per la relazione.
 3. Nella prima tabella selezionare **ProjectHours**, quindi selezionare la colonna **Project** . Questo è il lato molti della relazione.
 4. Nella seconda tabella selezionare **CompanyProject**, quindi selezionare la colonna **ProjName** . Questo è il lato uno della relazione. 
 5. Fare clic su **OK** nella finestra di dialogo **Crea relazione** e nella finestra di dialogo **Gestisci relazioni** .
 
 ![](media/desktop-create-and-manage-relationships/candmrel_create_compproj.png)
 
-Complicata, è stata creata questa relazione il disco rigido. È stato sufficiente fare clic sul pulsante rilevamento automatico nella finestra di dialogo Gestisci relazioni. In effetti, il Rilevamento automatico potrebbe averlo già fatto automaticamente quando sono stati caricati i dati se entrambe le colonne avessero avuto lo stesso nome. È comunque utile conoscere la procedura manuale.
+Per offrire informazioni più esaustive, la relazione è stata creata eseguendo la procedura più complicata. Sarebbe sufficiente fare clic sul pulsante Rilevamento automatico nella finestra di dialogo Gestisci relazioni. In effetti, il Rilevamento automatico potrebbe averlo già fatto automaticamente quando sono stati caricati i dati se entrambe le colonne avessero avuto lo stesso nome. È comunque utile conoscere la procedura manuale.
 
 È ora possibile esaminare di nuovo la tabella nell'area di disegno Report.
 
@@ -147,33 +147,33 @@ Complicata, è stata creata questa relazione il disco rigido. È stato sufficien
 
 Ha un aspetto decisamente migliore.
 
-Quando si sommano le ore in base alla priorità, Power BI Desktop Cerca tutte le istanze di valori di colore univoci nella tabella di ricerca CompanyProject e quindi cercherà ogni istanza di ognuno di tali valori nella tabella CompanyProject e calcolerà una somma totale per ogni valore univoco .
+Quando si sommano le ore in base a Priority, Power BI Desktop cerca ogni istanza dei valori di colore univoci nella tabella di ricerca CompanyProject, quindi cerca ogni istanza di tali valori nella tabella CompanyProject e calcola una somma totale per ogni valore univoco.
 
-Che è stata semplice, in effetti, con rilevamento automatico, si potrebbe non essere necessaria.
+È stato semplice e con il Rilevamento automatico potrebbe essere persino meno complicato.
 
 ## <a name="understanding-additional-options"></a>Informazioni sulle opzioni aggiuntive
-Quando viene creata una relazione, con rilevamento automatico o che manualmente, Power BI Desktop configura automaticamente opzioni aggiuntive in base ai dati nelle tabelle. È possibile configurare queste proprietà aggiuntive per la relazione, disponibili nella parte inferiore della finestra di dialogo Crea/Modifica relazione.
+Quando viene creata una relazione, con il Rilevamento automatico o manualmente, Power BI Desktop configura automaticamente opzioni aggiuntive in base ai dati disponibili nelle tabelle. È possibile configurare queste proprietà aggiuntive per la relazione, disponibili nella parte inferiore della finestra di dialogo Crea/Modifica relazione.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_advancedoptions2.png)
 
 Come indicato, queste opzioni vengono in genere impostate automaticamente e non sarà necessario modificarle. In alcuni casi, tuttavia, potrebbe essere necessario configurare manualmente queste opzioni.
 
-## <a name="automatic-relationship-updates"></a>Aggiornamenti automatici di relazione
+## <a name="automatic-relationship-updates"></a>Aggiornamenti automatici delle relazioni
 
-È possibile gestire come Power BI considera e si adatta automaticamente le relazioni nei report e modelli. Per specificare la modalità di gestione le opzioni di relazioni in Power BI, selezionare **File > Opzioni e impostazioni > Opzioni** da Power BI Desktop, quindi selezionare **caricamento dei dati** nel riquadro sinistro. Quindi visualizzate le opzioni per la **relazioni**.
+È possibile gestire il modo in cui Power BI gestisce e automaticamente adatta le relazioni nei report e nei modelli. Per specificare il modo in cui Power BI gestisce le opzioni delle relazioni, selezionare **File > Opzioni e impostazioni > Opzioni** da Power BI Desktop, quindi selezionare **Caricamento dati** nel riquadro sinistro. Verranno quindi visualizzate le opzioni per **Relazioni**.
 
- ![Opzioni di relazioni](media/desktop-create-and-manage-relationships/relationships-options-01.png)
+ ![Opzioni delle relazioni](media/desktop-create-and-manage-relationships/relationships-options-01.png)
 
-Sono disponibili tre opzioni che possono essere selezionate e attivate. 
+È possibile selezionare e abilitare tre opzioni. 
 
-La prima opzione consiste *Importa relazioni dalle origini dati*, ed è selezionata per impostazione predefinita. Se selezionata, Power BI cerca le relazioni definite nell'origine dati, ad esempio una chiave esterna / primaria relazioni nel data warehouse di chiave. Se esistono, tali relazioni sono speculari nel modello di dati di Power BI quando si caricano inizialmente i dati. Questa opzione consente rapidamente iniziare a usare il modello, anziché dover trovare o definire manualmente le relazioni.
+La prima opzione è *Importa relazioni dalle origini dati* ed è selezionata per impostazione predefinita. Quando questa opzione è selezionata, Power BI controlla la presenza di relazioni definite nell'origine dati, ad esempio relazioni di chiave esterna/chiave primaria nel data warehouse. Se tali relazioni sono presenti, viene eseguito il mirroring nel modello di dati Power BI quando si caricano inizialmente i dati. Questa opzione consente di iniziare rapidamente a usare il modello, anziché dover trovare o definire tali relazioni manualmente.
 
-La seconda opzione prevede *aggiornamento o eliminazione di relazioni quando si aggiornano dati*, ed è disattivata per impostazione predefinita. Se selezionata (abilitato selezionando la casella accanto all'opzione), Power BI di verificare le modifiche nelle relazioni di origine dati quando viene aggiornato il set di dati. Se tali relazioni modificati o rimossi, Power BI rispecchia le modifiche in un proprio modello di dati, aggiornandole o eliminandole in modo che corrispondano.
+La seconda opzione è *Aggiorna o elimina le relazioni durante l'aggiornamento dei dati* ed è disabilitata per impostazione predefinita. Se questa opzione è selezionata (viene abilitata selezionando la casella accanto all'opzione), Power BI controlla la presenza di modifiche apportate alle relazioni dell'origine dati quando il set di dati viene aggiornato. Se tali relazioni sono state modificate o vengono rimosse, Power BI esegue il mirroring di tali modifiche nel modello di dati, aggiornandole o modificandole affinché siano corrispondenti.
 
 > [!WARNING]
-> Se si utilizza la sicurezza a livello di riga che si basa sulle relazioni definite, è consigliabile non selezionare la seconda opzione, *aggiornamento o eliminazione di relazioni quando si aggiornano dati*. Se una relazione di rimozione che le impostazioni a livello di riga si basano su, il modello potrebbe diventare meno sicuro. 
+> Se si usa la sicurezza a livello di riga che si basa sulle relazioni definite, non è consigliabile selezionare la seconda opzione *Aggiorna o elimina le relazioni durante l'aggiornamento dei dati*. Se viene rimossa una relazione su cui si basano le impostazioni di sicurezza a livello di riga, il modello potrebbe diventare meno sicuro. 
 
-La terza opzione consiste *rileva automaticamente le nuove relazioni al caricamento dei dati*, descritta nel [rilevamento automatico durante il caricamento](#autodetect-during-load) sezione, disponibili in precedenza in questo articolo. 
+La terza opzione è *Rileva automaticamente le nuove relazioni al caricamento dei dati*. Viene descritta nella sezione [Rilevamento automatico durante il caricamento](#autodetect-during-load) riportata in precedenza in questo articolo. 
 
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Gli aggiornamenti futuri ai dati richiedono una cardinalità diversa
@@ -229,7 +229,7 @@ Si supponga tuttavia che siano previste modifiche ai dati al successivo aggiorna
 | Blue |80,000 |6/1/2013 |
 | Red |90,000 |6/1/2013 |
 
- Ciò significa che la combinazione migliore delle due tabelle ha ora un aspetto analogo al seguente: 
+ Ciò significa che la combinazione migliore delle due tabelle ha ora un aspetto analogo al seguente:   
 
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
@@ -257,7 +257,7 @@ Con il filtro incrociato a direzione singola, se si crea un report che riepiloga
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-Specifica del filtro verrà propagati da CompanyProject a CompanyEmployee (come illustrato nell'immagine seguente), ma non verrà trasferiti fino a CompanyEmployee. Se tuttavia si imposta la direzione del filtro incrociato su Entrambi, il filtro funzionerà correttamente. L'impostazione Entrambi permette alla specifica del filtro di raggiungere Employee.
+La specifica del filtro procederà da CompanyProject a CompanyEmployee, come illustrato nella figura seguente, ma senza raggiungere CompanyEmployee. Se tuttavia si imposta la direzione del filtro incrociato su Entrambi, il filtro funzionerà correttamente. L'impostazione Entrambi permette alla specifica del filtro di raggiungere Employee.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_bidircrossfiltering.png)
 
@@ -317,7 +317,7 @@ Esaminiamo un esempio. La prima tabella è ProjectTickets e la seconda tabella �
 | Roman, Daniel |Project Sponsor |
 | Roth, Daniel |Project Sponsor |
 
-Sono effettivamente presenti due relazioni, una tra SubmittedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole e l'altra tra OpenedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole.
+Sono effettivamente presenti due relazioni, una tra SubmittedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole e l'altra tra OpenedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole. 
 
  ![](media/desktop-create-and-manage-relationships/candmrel_activerelview.png)
 
@@ -325,7 +325,7 @@ Se si aggiungono entrambe le relazioni al modello (prima di tutto OpenedBy), nel
 
  ![](media/desktop-create-and-manage-relationships/candmrel_managerelactive.png)
 
-A questo punto, se si crea un report che usa i campi Role ed Employee da EmployeeRole e il campo Hours da ProjectTickets in una visualizzazione tabella nell'area di disegno Report, si vedrà solo progetto sponsorizza perché sono gli unici aprire un ticket di progetto.
+Se ora si crea un report che usa i campi Role ed Employee da EmployeeRole e il campo Hours da ProjectTickets in una visualizzazione tabella nell'area di disegno Report, verranno visualizzati solo gli sponsor del progetto, perché sono gli unici ad avere aperto un ticket di progetto.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_repcrossfilteractive.png)
 

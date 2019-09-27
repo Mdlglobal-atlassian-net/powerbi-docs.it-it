@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530475"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074116"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introduzione ai set di dati in aree di lavoro diverse (anteprima)
 
@@ -23,7 +23,7 @@ Business intelligence è un'attività di collaborazione. È importante definire 
 
 ![Selezionare un set di dati condiviso](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-In Power BI gli autori di set di dati possono controllare chi può accedere ai dati usando l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Gli autori di set di dati possono anche *certificare* o *promuovere* i set di dati in modo che possano essere individuati da altri utenti. In questo modo, gli autori di report sanno quali sono i set di dati di qualità elevata e ufficiali e possono usarli ovunque creino report in Power BI. Per gli amministratori tenant è disponibile una nuova impostazione tenant per [controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md).
+In Power BI gli autori di set di dati possono controllare chi può accedere ai dati usando l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Gli autori di set di dati possono anche *certificare* o *promuovere* i set di dati in modo che possano essere individuati da altri utenti. In questo modo gli autori di report sanno quali sono i set di dati di qualità elevata e ufficiali e possono usarli ovunque creano report in Power BI. Per gli amministratori tenant è disponibile una nuova impostazione tenant per [controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Condivisione di set di dati e nuova esperienza delle aree di lavoro
 
@@ -55,6 +55,7 @@ Se si creano set di dati, quando si crea un set di dati che altri utenti possono
 Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set di dati condiviso sono concesse in licenza in base ai rispettivi scenari esistenti. ad esempio:
 
 - L'individuazione e la connessione a set di dati condivisi sono generalmente disponibili a tutti gli utenti. Gli utenti che però non hanno una licenza Pro possono connettersi solo a set di dati che si trovano nella propria area di lavoro personale.
+- Gli utenti che non hanno una licenza Pro possono usare report e dashboard basati su un set di dati condiviso solo se entrambe le aree di lavoro (quella che include il contenuto e quella che contiene il set di dati) sono ospitate in un'area Premium.
 - In Power BI Desktop gli utenti senza licenza Pro possono visualizzare solo i set di dati dell'area di lavoro personale.
 - Per la copia di report tra aree di lavoro è necessaria una licenza Pro.
 - Per copiare report da un'app, è richiesta una licenza Pro, come era necessario per i pacchetti di contenuto dell'organizzazione.
@@ -66,7 +67,7 @@ Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set d
 - Supponiamo di creare un report nell'area di lavoro A basato su un set di dati dell'area di lavoro B. Quando si crea un'app per l'area di lavoro A, è possibile includere tale report nell'app dell'area di lavoro A solo se si è membro anche dell'area di lavoro B.
 - In un'area di lavoro classica l'esperienza di individuazione di set di dati visualizza solo i set di dati in quell'area di lavoro.
 - Se si vuole aggiungere a un'app un report basato su un set di dati condiviso, è necessario essere membro dell'area di lavoro del set di dati. Si tratta di un problema noto.
-- La funzionalità "Pubblica sul Web" non funziona per un report basato su un set di dati condiviso. È un'impostazione predefinita.
+- Per impostazione predefinita la funzionalità "Pubblica sul Web" non funziona per un report basato su un set di dati condiviso.
 - Se due utenti sono membri di un'area di lavoro che ha accesso a un set di dati condiviso, è possibile che solo uno dei due possa visualizzare il set di dati correlato nell'area di lavoro. Solo gli utenti con almeno accesso in lettura al set di dati possono visualizzare il set di dati condiviso. 
 
 ## <a name="next-steps"></a>Passaggi successivi

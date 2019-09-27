@@ -1,6 +1,6 @@
 ---
 title: 'Esercitazione: Creare un modello di Machine Learning in Power BI (anteprima)'
-description: In questa esercitazione si compila un modello di Machine Learning in Power BI.
+description: In questa esercitazione viene creato un modello di Machine Learning in Power BI.
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -13,187 +13,187 @@ ms.author: davidi
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 611d6f6c923e6cb68af94840c4266a0b6dee7651
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61406742"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi-preview"></a>Esercitazione: Creare un modello di Machine Learning in Power BI (anteprima)
 
-In questo articolo dell'esercitazione, userà **automatizzati di Machine Learning** per creare e applicare un modello di stima binaria in Power BI. L'esercitazione include materiale sussidiario per la creazione di un flusso di dati di Power BI e con le entità definite nel flusso di dati per il training e di convalidare un modello di machine learning direttamente in Power BI. È quindi utilizzare il modello per il punteggio per generare stime.
+In questo articolo dell'esercitazione viene usato il **Machine Learning automatizzato** per creare e applicare un modello di previsione per dati binari in Power BI. L'esercitazione include le istruzioni per la creazione di un flusso di dati di Power BI e l'uso delle entità definite nel flusso di dati per eseguire il training e la convalida di un modello di Machine Learning direttamente in Power BI. Il modello viene quindi usato per l'assegnazione dei punteggi per generare le previsioni.
 
-In primo luogo, si creerà un binario stima modello di machine learning, per stimare l'intenzione di acquisto di acquirenti online basato su un set di attributi relativi sessione online. Un set di dati di benchmark machine learning viene usato per questo esercizio. Una volta che viene eseguito il training di un modello, Power BI genera automaticamente un report di convalida che spiega i risultati del modello. È quindi possibile esaminare il rapporto di convalida e applicare il modello ai dati per l'assegnazione dei punteggi.
+Viene innanzitutto creato un modello di Machine Learning di previsione per dati binari per prevedere la finalità di acquisto degli acquirenti online in base a un set di attributi della sessione online. Per questo esercizio viene usato un set di dati di Machine Learning benchmark. Dopo aver eseguito il training di un modello, Power BI genera automaticamente un report di convalida che illustra i risultati del modello. È quindi possibile esaminare il report di convalida e applicare il modello ai dati per l'assegnazione dei punteggi.
 
 Questa esercitazione prevede i passaggi seguenti:
 
 > [!div class="checklist"]
 > * Creare un flusso di dati con i dati di input
-> * Creare ed eseguire il training di un modello di machine learning
-> * Esaminare il rapporto di convalida del modello
+> * Creare ed eseguire il training di un modello di Machine Learning
+> * Esaminare il report di convalida del modello
 > * Applicare il modello a un'entità del flusso di dati
-> * Usando l'output con punteggio provenienti dal modello in un report di Power BI
+> * Uso dell'output con punteggio dal modello di un report Power BI
 
 ## <a name="create-a-dataflow-with-the-input-data"></a>Creare un flusso di dati con i dati di input
 
-La prima parte di questa esercitazione consiste nel creare un flusso di dati con dati di input. Questo processo richiede pochi passaggi, come illustrato nelle sezioni seguenti, che iniziano con il recupero di dati.
+La prima parte di questa esercitazione consiste nel creare un flusso di dati con i dati di input. Questo processo richiede alcuni passaggi, come illustrato nelle sezioni seguenti, a partire dal recupero dei dati.
 
 ### <a name="get-data"></a>Recupera dati
 
-Il primo passaggio nella creazione di un flusso di dati deve avere le origini dati pronte. In questo caso, usiamo un set di dati di apprendimento automatico da un insieme di sessioni online, alcuni dei quali culminato nell'acquisto di elaborazione. Il set di dati contiene un set di attributi relative alle sessioni, che verrà usata per il nostro modello di training.
+Il primo passaggio per la creazione di un flusso di dati consiste nell'avere le origini dati pronte. In questo caso viene usato un set di dati di Machine Learning di un set di sessioni online, alcune delle quali sono terminate con un acquisto. Il set di dati contiene un set di attributi relativi a queste sessioni che verrà usato per il training del modello.
 
-È possibile scaricare il set di dati dal sito Web UC Irvine.  Inoltre è disponibile, ai fini di questa esercitazione, dal collegamento seguente: [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv).
+È possibile scaricare il set di dati dal sito Web UC Irvine.  Il set di dati per questa esercitazione è disponibile anche al collegamento seguente: [online_shoppers_intention.csv](https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv).
 
 ### <a name="create-the-entities"></a>Creare le entità
 
 Per creare le entità nel flusso di dati, accedere al servizio Power BI e passare a un'area di lavoro nella propria capacità dedicata in cui sia abilitata l'anteprima delle funzionalità di intelligenza artificiale.
 
-Se si ha già un'area di lavoro, è possibile crearne uno selezionando **aree di lavoro** nel menu di spostamento a sinistra nel servizio Power BI e selezionare **Crea area di lavoro di app** nella parte inferiore del pannello che viene visualizzata. Verrà aperto un pannello a destra immettere i dettagli dell'area di lavoro. Immettere un nome dell'area di lavoro e selezionare **avanzate**. Verificare che l'area di lavoro utilizza capacità dedicata tramite il pulsante di opzione, che viene assegnato a un'istanza di capacità dedicata che ha attivato l'anteprima di intelligenza artificiale. Selezionare quindi **Salva**.
+Se non è già presente un'area di lavoro, è possibile crearne una selezionando **Aree di lavoro** nel menu di spostamento di sinistra nel servizio Power BI e selezionando **Crea area di lavoro per le app** nella parte inferiore del pannello visualizzato. Viene aperto un pannello a destra in cui immettere i dettagli dell'area di lavoro. Immettere il nome di un'area di lavoro e selezionare **Avanzate**. Verificare che l'area di lavoro usi la capacità dedicata con il pulsante di opzione e che sia assegnata a un'istanza di capacità dedicata per cui è attivata l'anteprima di intelligenza artificiale. Selezionare quindi **Salva**.
 
 ![Crea un'area di lavoro](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-01.png)
 
-Dopo aver creato l'area di lavoro, è possibile selezionare **Skip** in basso a destra della schermata iniziale, come illustrato nell'immagine seguente.
+Dopo aver creato l'area di lavoro, è possibile selezionare **Ignora** nella parte inferiore destra della schermata iniziale, come illustrato nell'immagine seguente.
 
-![Ignorare se si dispone di un'area di lavoro](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-02.png)
+![Ignorare se è presente un'area di lavoro](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-02.png)
 
-Selezionare il **flussi di dati (anteprima)** scheda. Selezionare il **Create** nella parte superiore destra dell'area di lavoro e quindi selezionare **flusso di dati**.
+Selezionare la scheda **Flussi di dati (anteprima)** . Selezionare il pulsante **Crea** nella parte superiore destra dell'area di lavoro e quindi selezionare **Flusso di dati**.
 
-![Creare flussi di dati](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-03.png)
+![Creare il flusso di dati](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-03.png)
 
-Selezionare **Aggiungi nuove entità**. Verrà avviata una **Power Query** editor nel browser.
+Selezionare **Aggiungi nuove entità**. Viene avviato un editor di **Power Query** nel browser.
 
 ![Aggiungi nuove entità](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-04.png)
 
-Selezionare **File di testo/CSV** come origine dati, illustrato nella figura seguente.
+Selezionare **File di testo/File CSV** come origine dati, come illustrato nell'immagine seguente.
 
-![File di testo/CSF selezionato](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
+![File di testo/File CSF selezionato](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-05.png)
 
-Nel **connettersi a un'origine dati** che viene visualizzata accanto, incollare il collegamento seguente per il *online_shoppers_intention.csv* nel **URL o percorso File** casella e quindi selezionare **Avanti**.
+In **Connessione a un'origine dati** copiare il link seguente a *online_shoppers_intention.csv* nella casella **Percorso file o URL** e quindi selezionare **Avanti**.
 
 `https://raw.githubusercontent.com/santoshc1/PowerBI-AI-samples/master/Tutorial_AutomatedML/online_shoppers_intention.csv`
 
-![Percorso del file](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-06.png)
+![Percorso file](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-06.png)
 
-Editor di Power Query viene visualizzata un'anteprima dei dati dal file CSV. Selezionare **tabella trasformare** nella barra multifunzione di comando e quindi selezionare **utilizza la prima riga come intestazioni** dal menu visualizzato. Verrà aggiunta la _alzate di livello le intestazioni_ passaggio della query nel **i passaggi applicati** sezione sulla destra della schermata. È possibile rinominare la query per un nome più descrittivo, modificando il valore nel **nome** casella trovata nel riquadro di destra. Ad esempio, è possibile modificare il nome della Query per _visitatore Online_.
+L'editor di Power Query visualizza un'anteprima dei dati del file CSV. Selezionare **Trasforma tabella** nella barra multifunzione dei comandi e quindi selezionare **Usa la prima riga come intestazione** dal menu visualizzato. Viene aggiunto il passaggio di query _Intestazioni alzate di livello_ nella sezione **Passaggi applicati** nella parte destra della schermata. È possibile rinominare la query con un nome più descrittivo modificando il valore nella casella **Nome** disponibile nel riquadro di destra. Ad esempio, è possibile modificare il nome della query in _Online Visitor_.
 
-![Sostituire con un nome descrittivo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-07.png)
+![Passare a un nome descrittivo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-07.png)
 
-Alcuni dei tipi di dati di attributi di questo set di dati sono _numerico_ oppure _booleano_, anche se questi possono essere interpretati come stringhe in base al **Power Query**. Selezionare l'icona del tipo di attributo nella parte superiore di ciascuna intestazione di colonna per modificare le colonne elencate di seguito per i tipi seguenti:
+Alcuni tipi di dati degli attributi in questo set di dati sono _numerici_ o _booleani_, sebbene possano essere interpretati come stringhe da **Power Query**. Selezionare l'icona del tipo di attributo nella parte superiore di ogni intestazione di colonna per modificare le colonne elencate di seguito nei tipi seguenti:
 
 * **Numero decimale:** Administrative_Duration; Informational_Duration; ProductRelated_Duration; BounceRates; ExitRates; PageValues; SpecialDay
-* **True o False:** Fine settimana; Ricavi
+* **Vero/Falso:** Weekend; Revenue
 
 ![Modificare il tipo di dati](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-08.png)
 
-Il **stima binaria** si eseguirà il training di modelli richiede un campo booleano come un'etichetta che identifica i risultati dalle ultime osservazioni. In questo set di dati, il _ricavi_ attributo indica l'acquisto e questo attributo è già disponibile come un valore booleano. Pertanto, non dobbiamo aggiungere una colonna calcolata per l'etichetta. In altri set di dati, potrebbe essere necessario trasformare gli attributi di etichetta esistenti in una colonna booleana.
+Il modello **Previsione per dati binari** di cui viene eseguito il training richiede un campo booleano come etichetta che identifica i risultati delle osservazioni precedenti. In questo set di dati l'attributo _Revenue_ indica l'acquisto ed è già disponibile come valore booleano. Non è quindi necessario aggiungere una colonna calcolata per l'etichetta. In altri set di dati potrebbe essere necessario trasformare gli attributi delle etichette esistenti in una colonna booleana.
 
-Selezionare **Fine** per chiudere l'Editor di Power Query. Viene visualizzato l'elenco di entità con la _visitatori Online_ dati è stata aggiunta. Selezionare **salvare** nell'angolo superiore destro, specificare un nome per il flusso di dati e quindi selezionare **salvare** nella finestra di dialogo, come illustrato nell'immagine seguente.
+Selezionare il pulsante **Fine** per chiudere l'editor di Power Query. Viene visualizzato l'elenco delle entità con i dati _Online Visitors_ aggiunti. Selezionare **Salva** nell'angolo superiore destro, specificare un nome per il flusso di dati e quindi selezionare **Salva** nella finestra di dialogo, come illustrato nell'immagine seguente.
 
 ![Salvare il flusso di dati](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-09.png)
 
 ### <a name="refresh-the-dataflow"></a>Aggiornare il flusso di dati
 
-Il salvataggio dei risultati del flusso di dati in viene visualizzata una notifica che informa che è stato salvato il flusso di dati. Selezionare **Aggiorna ora** acquisire i dati dall'origine nel flusso di dati.
+Se si salva il flusso di dati, viene visualizzata una notifica che indica che il flusso di dati è stato salvato. Selezionare **Aggiorna adesso** per inserire i dati dell'origine nel flusso di dati.
 
 ![Aggiorna adesso](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-10.png)
 
 Selezionare **Chiudi** nell'angolo in alto a destra e attendere il completamento dell'aggiornamento del flusso di dati.
 
-È anche possibile aggiornare il flusso di dati usando il **azioni** comandi. Il flusso di dati mostra il timestamp di quando l'aggiornamento è stata completata.
+È possibile aggiornare il flusso di dati anche con i comandi **Azioni**. Il flusso di dati mostra il timestamp al completamento dell'aggiornamento.
 
 ![Timestamp dell'aggiornamento](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-11.png)
 
-## <a name="create-and-train-a-machine-learning-model"></a>Creare ed eseguire il training di un modello di machine learning
+## <a name="create-and-train-a-machine-learning-model"></a>Creare ed eseguire il training di un modello di Machine Learning
 
-Selezionare il flusso di dati dopo aver completato l'aggiornamento. Per aggiungere un modello di machine learning, selezionare il **modello di Machine Learning applicate** pulsante il **azioni** elencati per l'entità di base che contiene le informazioni sull'etichetta e i dati di training e quindi selezionare **Aggiungi un modello di Machine learning**.
+Al termine dell'aggiornamento, selezionare il flusso di dati. Per aggiungere un modello di Machine Learning, selezionare il pulsante **Applica modello di ML** nell'elenco **Azioni** dell'entità di base che contiene i dati di training e le informazioni sull'etichetta e quindi selezionare **Aggiungi un modello di Machine Learning**.
 
 ![Aggiungi un modello di Machine Learning](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-12.png)
 
-Il primo passaggio per creare il modello di machine learning consiste nell'identificare i dati cronologici, tra cui il campo dell'etichetta che si desidera stimare. Verrà creato il modello di informazioni da questi dati.
+Il primo passaggio per la creazione del modello di Machine Learning consiste nell'identificare i dati cronologici, incluso il campo etichetta di cui eseguire la previsione. Il modello verrà creato in base a questi dati.
 
-Nel caso di set di dati viene usato, questo è il **ricavi** campo. Selezionare **Revenue** come il valore 'campo risultato cronologici' e quindi selezionare **successivo**.
+Nel caso del set di dati in uso, si tratta del campo **Revenue** (Ricavi). Selezionare **Revenue** (Ricavi) come valore 'Campo del risultato cronologico' e quindi selezionare **Avanti**.
 
 ![Selezionare i dati cronologici](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-13.png)
 
-Successivamente, è necessario selezionare il tipo di modello per creare di machine learning. Power BI analizza i valori nel campo risultato cronologici che è stato identificato e suggerisce i tipi di modelli di machine learning che possono essere creati per prevedere quel campo.
+Successivamente è necessario selezionare il tipo di modello di Machine Learning da creare. Power BI analizza i valori nel campo dei risultati cronologici identificato e suggerisce i tipi di modelli di Machine Learning che è possibile creare per prevedere il campo.
 
-In questo caso, poiché si sta stimare un risultato binario del fatto che un utente effettuerà un acquisto o non, selezionare **stima binaria** per il tipo di modello e quindi selezionare il pulsante Avanti.
+In questo caso poiché viene eseguita la previsione di un risultato binario che indica se un utente effettuerà un acquisto o meno, selezionare **Previsione per dati binari** come tipo di modello e quindi fare clic su Avanti.
 
-![Stima binaria selezionato](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-14.png)
+![Previsione per dati binari selezionata](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-14.png)
 
-Successivamente, Power BI esegue un'analisi preliminare dei dati e suggerisce gli input che è stato possibile usare il modello. È possibile personalizzare i campi di input utilizzati per il modello. Nel nostro set di dati curato per selezionare tutti i campi, selezionare la casella di controllo accanto al nome dell'entità. Selezionare **successivo** per accettare l'input.
+Power BI esegue quindi un'analisi preliminare dei dati e suggerisce gli input che possono essere usati dal modello. È possibile personalizzare i campi di input usati per il modello. Nel set di dati curato selezionare la casella di controllo accanto al nome dell'entità per selezionare tutti i campi. Selezionare **Avanti** per accettare gli input.
 
-![Selezionare la casella di controllo successivo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
+![Seleziona la casella di controllo Avanti](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-15.png)
 
-Nel passaggio finale, è necessario fornire un nome per il modello, nonché le etichette descrittive per i risultati da utilizzare nel report generato automaticamente che riepilogano i risultati della convalida del modello. Successivamente è necessario assegnare un nome modello _acquisto con finalità di stima_e le etichette true e false come _acquisto_ e _Purchase No_. Selezionare quindi **Salva**.
+Nel passaggio finale è necessario specificare un nome per il modello nonché le etichette descrittive per i risultati da usare nel report generato automaticamente che riepiloga i risultati della convalida del modello. È necessario quindi denominare il modello _Purchase Intent Prediction_ (Previsione finalità di acquisto) e le etichette Vero e Falso come _Purchase_ (Acquisto) e _No-Purchase_ (Nessun acquisto). Selezionare quindi **Salva**.
 
 ![Salvare il modello](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-16.png)
 
-Il modello di machine learning è ora pronto per il training. Selezionare **le opzioni Aggiorna ora** avviare training del modello.
+Il modello di Machine Learning è ora pronto per il training. Selezionare **Aggiorna adesso** per avviare il training del modello.
 
 ![Aggiorna adesso](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-17.png)
 
-Campionamento e normalizzazione dei dati cronologici e dividere il set di dati in due nuove entità viene avviato il processo di training *dati di Training di acquisto con finalità di stima* e *stima di acquisto con finalità di test Dati*.
+Il processo di training inizierà con il campionamento e la normalizzazione dei dati cronologici e la suddivisione del set di dati in due nuove entità *Purchase Intent Prediction Training Data* (Dati training previsione finalità di acquisto) e *Purchase Intent Prediction Testing Data* (Dati test previsione finalità di acquisto).
 
-A seconda delle dimensioni del set di dati, il processo di training può richiedere da pochi minuti a un paio d'ore. A questo punto, è possibile visualizzare il modello nel **di Machine learning i modelli** scheda del flusso di dati. Il _pronti_ lo stato indica che il modello è stato accodato per il training o si trova sotto la formazione.
+A seconda delle dimensioni del set di dati, il processo di training può richiedere da pochi minuti a un paio di ore. A questo punto è possibile visualizzare il modello nella scheda **Modelli di Machine Learning** del flusso di dati. Lo stato _Pronto_ indica che il modello è stato accodato per il training o è in fase di training.
 
 ![Pronto per il training](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-18.png)
 
-Mentre il modello di training, sarà possibile visualizzare o modificare il flusso di dati. È possibile verificare che il modello è in corso il training e convalidato tramite lo stato del flusso di dati. Questa opzione corrisponde a un aggiornamento di dati in corso nel **Dataflows** scheda dell'area di lavoro.
+Durante il training del modello non sarà possibile visualizzare o modificare il flusso di dati. È possibile verificare che il modello sia in fase di training e convalidato controllando lo stato del flusso di dati. Viene visualizzato un aggiornamento dei dati in corso nella scheda **Flussi di dati** dell'area di lavoro.
 
-![Nel processo](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-19.png)
+![In corso](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-19.png)
 
-Una volta completato il training del modello, il flusso di dati viene visualizzato un tempo di aggiornamento aggiornato. È possibile verificare che il training del modello, passando per la **di Machine learning i modelli** scheda nel flusso di dati. Il modello creato deve mostrare lo stato **Trained** e il **ultima training** ora risulterà aggiornata.
+Una volta completato il training del modello, il flusso di dati visualizza una nuova ora di aggiornamento. È possibile verificare che il modello sia in fase di training, passando alla scheda **Modelli di Machine Learning** nel flusso di dati. Il modello creato dovrebbe visualizzare lo stato **Con training** e l'ora **Ultimo training** dovrebbe essere aggiornata.
 
-![Ultimo sottoposto a training su](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-20.png)
+![Ultimo training](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-20.png)
 
-## <a name="review-the-model-validation-report"></a>Esaminare il rapporto di convalida del modello
+## <a name="review-the-model-validation-report"></a>Esaminare il report di convalida del modello
 
-Per esaminare il report di convalida del modello, nel **modelli di Machine learning, s** sceglie il **Visualizza report di prestazioni e applicare il modello** pulsante il **azioni** colonna per il modello . Questo report descrive come è probabile che le prestazioni del modello di machine learning.
+Per esaminare il report di convalida del modello, in **Modelli di Machine Learning** selezionare il pulsante **Visualizza il report prestazioni e applica il modello** nella colonna **Azioni** per il modello. Questo report descrive le prestazioni probabili del modello di Machine Learning.
 
-Nel **le prestazioni del modello** pagina del report, selezionare **fattori di influenza chiave** per visualizzare i predittori superiore per il modello. È possibile selezionare uno dei predittori per vedere come la distribuzione di risultato associato tale predittore.
+Nella pagina **Prestazioni del modello** del report selezionare **Fattori di influenza chiave** per visualizzare i fattori di previsione principali del modello. È possibile selezionare uno dei fattori di previsione per visualizzare la distribuzione dei risultati associata al fattore di previsione.
 
 ![Prestazioni del modello](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-21.png)
 
-È possibile usare la **soglia di probabilità** filtro dei dati nella pagina delle prestazioni dei modelli per esaminare la relativa influenza sulla precisione e richiamo per il modello.
+È possibile usare il filtro dei dati **Soglia probabilità** nella pagina Prestazioni del modello per esaminarne l'influenza sulla precisione e il richiamo del modello.
 
 ![Probability threshold](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-22.png)
 
-Le altre pagine del report descrivono le metriche delle prestazioni statistica per il modello.
+Le altre pagine del report descrivono le metriche delle prestazioni statistiche per il modello.
 
-Il report include anche una pagina di dettagli di Training che descrive le diverse iterazioni che sono stati eseguiti, come le funzionalità sono stati estratti dagli input e gli iperparametri per il modello finale utilizzato.
+Il report include anche una pagina Dettagli del training che descrive le diverse iterazioni eseguite, il modo in cui le funzionalità sono state estratte dagli input e gli iperparametri usati per il modello finale.
 
 ## <a name="apply-the-model-to-a-dataflow-entity"></a>Applicare il modello a un'entità del flusso di dati
 
-Selezionare il **Applica modello** nella parte superiore del report per richiamare questo modello quando viene aggiornato il flusso di dati. Nel **applica** finestra di dialogo è possibile specificare l'entità di destinazione che contiene i dati di origine a cui deve essere applicato il modello.
+Selezionare il pulsante **Applica modello** nella parte superiore del report per richiamare il modello quando viene aggiornato il flusso di dati. Nella finestra di dialogo **Applica** è possibile specificare l'entità di destinazione con i dati di origine a cui applicare il modello.
 
 ![Applica il modello](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-23.png)
 
-Quando richiesto, è necessario **Aggiorna** il flusso di dati per visualizzare in anteprima i risultati del modello.
+Quando richiesto, scegliere **Aggiorna** per aggiornare il flusso di dati per visualizzare in anteprima i risultati del modello.
 
-L'applicazione del modello creerà una nuova entità, con il suffisso **arricchiti < model_name >** aggiunto all'entità a cui è applicato il modello. In questo caso, l'applicazione del modello per il **OnlineShoppers** entità creerà **OnlineShoppers arricchiti acquisto con finalità di stima**, che include l'output stimato dal modello.
+Se si applica il modello, viene creata una nuova entità con il suffisso **enriched <nome_modello>** aggiunto all'entità a cui è stato applicato il modello. In questo caso l'applicazione del modello all'entità **OnlineShoppers** crea l'entità **OnlineShoppers enriched Purchase Intent Prediction** che include l'output previsto del modello.
 
-Applicare un modello di stima binaria aggiunte tre colonne con risultato stimato, punteggio di probabilità e i principali fattori di influenza di record specifici per la stima, ognuna con prefisso con il nome di colonna specificato.
+L'applicazione di un modello Previsione per dati binari aggiunge tre colonne con il risultato previsto, il punteggio di probabilità e i principali fattori di influenza specifici del record per la previsione, ognuno con il nome di colonna specificato.
 
-![Tre colonne del risultato](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-24.png)
+![Tre colonne di risultati](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-24.png)
 
-A causa di un problema noto, le colonne di output con punteggio nell'entità arricchiti sono accessibili solo da Power BI Desktop. Per visualizzare un'anteprima nel servizio, è necessario usare un'entità di anteprima speciale.
+A causa di un problema noto, le colonne di output con punteggio nell'entità arricchita sono accessibili solo da Power BI Desktop. Per visualizzare le anteprime nel servizio, è necessario usare un'entità di anteprima speciale.
 
-Una volta completato l'aggiornamento del flusso di dati, è possibile selezionare i **OnlineShoppers arricchiti acquisto con finalità di stima anteprima** entità per visualizzare i risultati.
+Una volta completato l'aggiornamento del flusso di dati, è possibile selezionare l'entità **OnlineShoppers enriched Purchase Intent Prediction Preview** per visualizzare i risultati.
 
 ![Visualizzare i risultati](media/service-tutorial-build-machine-learning-model/tutorial-build-machine-learning-model-25.png)
 
-## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Usando l'output con punteggio provenienti dal modello in un report di Power BI
+## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Uso dell'output con punteggio dal modello di un report Power BI
 
-Per usare l'output con punteggio del modello di machine learning, è possibile connettersi al flusso di dati da Power BI desktop, usando il connettore di flussi di dati. Il **OnlineShoppers arricchiti acquisto con finalità di stima** entità può ora essere usato per incorporare le stime dal modello di report di Power BI.
+Per usare l'output con punteggio del modello di Machine Learning, è possibile connettersi al flusso di dati da Power BI Desktop usando il connettore Flussi di dati. L'entità **OnlineShoppers enriched Purchase Intent Prediction** può ora essere usata per incorporare le previsioni del modello nei report di Power BI.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-In questa esercitazione è creato e applicato a un modello di stima binaria in Power BI attenendosi alla procedura seguente:
+In questa esercitazione è stato creato e applicato un modello di previsione per dati binari in Power BI eseguendo i passaggi seguenti:
 
 * Creare un flusso di dati con i dati di input
-* Creare ed eseguire il training di un modello di machine learning
-* Esaminare il rapporto di convalida del modello
+* Creare ed eseguire il training di un modello di Machine Learning
+* Esaminare il report di convalida del modello
 * Applicare il modello a un'entità del flusso di dati
-* Usando l'output con punteggio provenienti dal modello in un report di Power BI
+* Uso dell'output con punteggio dal modello di un report Power BI
 
-Per altre informazioni su automazione di Machine Learning in Power BI, vedere [automatizzati di Machine Learning in Power BI (anteprima)](service-machine-learning-automated.md).
+Per altre informazioni sull'automazione di Machine Learning in Power BI, vedere [Machine Learning automatizzato in Power BI (anteprima)](service-machine-learning-automated.md).

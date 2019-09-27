@@ -3,20 +3,19 @@ title: Che cos'è un dashboard e come si apre?
 description: I dashboard sono una funzionalità chiave del servizio Power BI.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608339"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141932"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Dashboard per i consumer del servizio Power BI
 
@@ -54,8 +53,8 @@ I report sono spesso confusi con i dashboard poiché sono composti da troppe are
 | Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. Consente di esportare i dati ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì. È possibile visualizzare le tabelle, i campi e valori del set di dati. |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Autori dei dashboard e utenti dei dashboard
-Come ***consumer*** di Power BI si ricevono i dashboard dagli *autori*. Altre informazioni sui dashboard sono disponibili in questi argomenti:
+## <a name="dashboard-designers-and-dashboard-consumers"></a>Sviluppatori di dashboard e utenti di dashboard
+L'***utente*** di Power BI riceve i dashboard dagli *sviluppatori*. Altre informazioni sui dashboard sono disponibili in questi argomenti:
 
 * [Visualizzare un dashboard](end-user-dashboard-open.md)
 * Informazioni sui [riquadri del dashboard](end-user-tiles.md) e cosa succede quando se ne seleziona uno.

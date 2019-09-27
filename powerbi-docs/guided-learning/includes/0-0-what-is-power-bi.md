@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051097"
@@ -31,7 +31,7 @@ Questi tre elementi, **Desktop**, **servizio** e **dispositivi mobili**, sono pr
 ## <a name="how-power-bi-matches-your-role"></a>Vantaggi di Power BI in base al ruolo
 Il modo di usare Power BI può variare in base al ruolo ricoperto all'interno di un progetto o di un team. È naturale che utenti con un altro ruolo usino Power BI in modo completamente diverso.
 
-Ad esempio, può capitare che un utente usi principalmente il **servizio Power BI** e che i suoi colleghi addetti a calcoli e report aziendali usino invece **Power BI Desktop** per pubblicare i report nel servizio che l'utente iniziale possa quindi visualizzare. E un altro collega, vendite, principalmente usino app telefono di Power BI per monitorare lo stato di avanzamento sulle quote di vendita e approfondire nuovi dettagli di lead di vendita.
+Ad esempio, può capitare che un utente usi principalmente il **servizio Power BI** e che i suoi colleghi addetti a calcoli e report aziendali usino invece **Power BI Desktop** per pubblicare i report nel servizio che l'utente iniziale possa quindi visualizzare. Un altro collega che si occupa di vendite potrebbe sfruttare in misura maggiore l'app per telefoni di Power BI per monitorare l'avanzamento delle quote di vendita e accedere ai dettagli sui nuovi clienti potenziali.
 
 Può capitare inoltre che gli elementi di **Power BI** vengano usati in momenti diversi a seconda degli obiettivi da raggiungere o del ruolo ricoperto in un determinato progetto o attività.
 

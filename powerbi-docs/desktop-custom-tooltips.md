@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239751"
@@ -22,10 +22,10 @@ Le descrizioni comando sono un modo elegante di offrire altre informazioni conte
 
 ![Descrizione comando predefinita](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Quando viene creata una visualizzazione, la descrizione comando predefinita visualizza il valore e la categoria del punto dati. Sono presenti molte istanze quando la personalizzazione delle informazioni di descrizione comando è utile e può fornire ulteriore contesto nonché informazioni per gli utenti visualizzano l'oggetto visivo. Le descrizioni comando personalizzate consentono di specificare più punti dati che vengono visualizzati come parte della descrizione comando.
+Quando viene creata una visualizzazione, la descrizione comando predefinita visualizza il valore e la categoria del punto dati. La possibilità di personalizzare le informazioni delle descrizioni comando è estremamente utile e consente di offrire più contesto e informazioni aggiuntive agli utenti che visualizzano l'oggetto visivo. Le descrizioni comando personalizzate consentono di specificare più punti dati che vengono visualizzati come parte della descrizione comando.
 
 ## <a name="how-to-customize-tooltips"></a>Come personalizzare le descrizioni comando
-Per creare una descrizione comando personalizzata, nelle **campi** del **visualizzazioni** riquadro trascinare un campo nel **descrizioni comando** bucket, illustrato nella figura seguente. Nell'immagine seguente sono stati posizionati due campi nel bucket **Descrizioni comando**.
+Per creare una descrizione comando personalizzata, nel contenitore **Campi** del riquadro **Visualizzazioni** trascinare un campo nel bucket **Descrizioni comando** come illustrato nell'immagine seguente. Nell'immagine seguente sono stati posizionati due campi nel bucket **Descrizioni comando**.
 
 ![Aggiunta di campi della descrizione comando](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ Dopo aver aggiunto le descrizioni comando nel contenitore di campi, quando si pa
 
 ![Descrizione comando con Calcolo rapido](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-Esistono diversi modi per personalizzare **descrizioni comando**, usando dei campi disponibili nel set di dati, per trasmettere informazioni rapide e approfondimenti agli utenti che visualizzano dashboard o report.
+Esistono diversi modi per personalizzare le **descrizioni comando** usando uno dei campi disponibili nel set di dati, quindi per trasmettere informazioni rapide e approfondimenti agli utenti che visualizzano dashboard o report.
 

@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 928e93c724a47f48aff1f87ee51f9a8c907774d6
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454294"
@@ -32,7 +32,7 @@ A partire dalla versione di settembre 2017 di **Power BI Desktop** e dagli aggio
 ## <a name="how-high-density-scatter-charts-work"></a>Funzionamento dei grafici a dispersione ad alta densità
 In precedenza, **Power BI** selezionava una raccolta di punti dati di esempio nell'intero intervallo di dati sottostanti in modo deterministico per cerare un grafico a dispersione. In particolare, Power BI seleziona la prima e l'ultima riga di dati nella serie del grafico a dispersione, quindi divide uniformemente le righe restanti in modo che un totale di 3.500 punti dati venga tracciato nel grafico a dispersione. Se ad esempio il campione ha 35.000 righe, la prima e l'ultima riga vengono selezionate per il tracciato, quindi viene tracciata anche una riga ogni dieci (35.000 / 10 = una riga ogni dieci = 3.500 punti dati). Sempre in precedenza, i punti o i valori Null che non potevano essere tracciati (ad esempio, i valori di testo) nella serie di dati non venivano visualizzati e quindi non tenuti in considerazione durante la generazione dell'oggetto visivo. Con tale campionamento, anche la densità percepita del grafico a dispersione si basava sui punti dati rappresentativi, quindi la densità implicita degli oggetti visivi era il risultato dei punti campionati, non della raccolta completa dei dati sottostanti.
 
-Quando si abilita **High-Density campionamento**, Power BI implementa un algoritmo che elimina la sovrapposizione dei punti e assicura che i punti sull'oggetto visivo possono essere raggiunto durante l'interazione con l'oggetto visivo. L'algoritmo assicura anche che tutti i punti del set di dati vengano rappresentati nell'oggetto visivo, fornendo contesto al significato dei punti selezionati, invece di limitarsi a tracciare un campione rappresentativo.
+Quando si abilita **Campionamento ad alta densità**, Power BI implementa un algoritmo che elimina la sovrapposizione dei punti e assicura che i punti nell'oggetto visivo siano raggiungibili quando si interagisce con l'oggetto visivo stesso. L'algoritmo assicura anche che tutti i punti del set di dati vengano rappresentati nell'oggetto visivo, fornendo contesto al significato dei punti selezionati, invece di limitarsi a tracciare un campione rappresentativo.
 
 Per definizione, verranno campionati i dati ad alta densità per creare abbastanza rapidamente le visualizzazioni disponibili all'interattività. Troppi punti dati su un oggetto visivo possono bloccarlo e possono comportare una riduzione della visibilità delle tendenze. Il modo in cui i dati verranno campionati è quindi ciò che comporta la creazione dell'algoritmo di campionamento per offrire la migliore esperienza di visualizzazione e assicurare che tutti i dati vengano rappresentati. In Power BI ora l'algoritmo è migliorato per fornire la combinazione migliore della velocità di risposta, della rappresentazione e della conservazione dei punti importanti nel set di dati completo.
 
@@ -42,7 +42,7 @@ Per definizione, verranno campionati i dati ad alta densità per creare abbastan
 > 
 
 ## <a name="how-the-new-scatter-chart-sampling-algorithm-works"></a>Funzionamento del nuovo algoritmo di campionamento dei grafici a dispersione
-Il nuovo algoritmo per **High-Density campionamento** per i grafici a dispersione Usa metodi che acquisiscono e rappresentano i dati sottostanti in modo più efficace ed elimina la sovrapposizione dei punti. Ciò avviene a partire da un raggio di piccole dimensioni per ogni punto dati (le dimensioni del cerchio dell'oggetto visivo per un determinato punto della visualizzazione). Il raggio di tutti i punti dati viene quindi aumentato. Quando due (o più) punti dati si sovrappongono, un singolo cerchio (con le dimensioni del raggio aumentate) rappresenta tali punti dati sovrapposti. L'algoritmo continua ad aumentare il raggio dei punti dati, finché il valore del raggio non restituisce un numero ragionevole di punti dati, 3.500, visualizzati nel grafico a dispersione.
+Il nuovo algoritmo per il **campionamento ad alta densità** per i grafici a dispersione usa metodi che acquisiscono e rappresentano i dati sottostanti in modo più efficace ed elimina la sovrapposizione dei punti. Ciò avviene a partire da un raggio di piccole dimensioni per ogni punto dati (le dimensioni del cerchio dell'oggetto visivo per un determinato punto della visualizzazione). Il raggio di tutti i punti dati viene quindi aumentato. Quando due (o più) punti dati si sovrappongono, un singolo cerchio (con le dimensioni del raggio aumentate) rappresenta tali punti dati sovrapposti. L'algoritmo continua ad aumentare il raggio dei punti dati, finché il valore del raggio non restituisce un numero ragionevole di punti dati, 3.500, visualizzati nel grafico a dispersione.
 
 I metodi di questo algoritmo assicurano che gli outlier vengano rappresentati nell'oggetto visivo risultante. L'algoritmo rispetta anche la scala quando determina la sovrapposizione, in modo che vengano visualizzate scale esponenziali fedeli ai punti visualizzati sottostanti.
 
@@ -56,7 +56,7 @@ L'algoritmo mantiene anche la forma complessiva del grafico a dispersione.
 Inoltre i punti dati che non possono essere tracciati (ad esempio, i valori Null o di testo) vengono ignorati, quindi viene selezionato un altro valore che può essere tracciato, per assicurare che venga mantenuta la vera forma del grafico a dispersione.
 
 ### <a name="when-the-standard-algorithm-for-scatter-charts-is-used"></a>Quando viene usato l'algoritmo standard per i grafici a dispersione
-Esistono circostanze in cui **High-Density campionamento** non può essere applicato a un grafico a dispersione e originale viene utilizzato l'algoritmo. Questi casi sono i seguenti:
+In alcuni casi non è possibile applicare il **campionamento ad alta densità** a un grafico a dispersione e viene quindi usato l'algoritmo originale. Questi casi sono i seguenti:
 
 * Se si fa clic con il pulsante destro del mouse su un valore in **Dettagli** e lo si imposta su **Mostra elementi senza dati** nel menu, il grafico a dispersione tornerà all'algoritmo originale.
   
@@ -68,7 +68,7 @@ Esistono circostanze in cui **High-Density campionamento** non può essere appli
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Come attivare il campionamento ad alta densità per un grafico a dispersione
-Per attivare **campionamento High-Density**, selezionare un grafico a dispersione, andare alla **formattazione** riquadro espandere la **generali** scheda e nella parte inferiore della scheda, far scorrere il **High-Density campionamento** Attiva/Disattiva dispositivo di scorrimento **su**.
+Per attivare **Campionamento ad alta densità**, selezionare un grafico a dispersione, andare al riquadro **Formattazione**, espandere la scheda **Generale** e nella parte inferiore della scheda posizionare il dispositivo di scorrimento **Campionamento ad alta densità** su **Sì**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
@@ -83,7 +83,7 @@ Per attivare **campionamento High-Density**, selezionare un grafico a dispersion
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 L'algoritmo per il campionamento ad alta densità è un miglioramento importante per Power BI, ma esistono alcune considerazioni da fare quando si elaborano valori e grafici a dispersione ad alta densità.
 
-* Il **High-Density campionamento** algoritmo funziona solo con le connessioni in tempo reale a modelli di base del servizio Power BI, ai modelli importati o DirectQuery.
+* L'algoritmo di **campionamento ad alta densità** funziona solo con le connessioni in tempo reale ai modelli basati sul servizio Power BI, ai modelli importati o a DirectQuery.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni sul campionamento ad alta densità in altri grafici, vedere l'articolo seguente.

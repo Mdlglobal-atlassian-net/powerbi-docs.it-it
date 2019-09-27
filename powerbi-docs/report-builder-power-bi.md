@@ -1,28 +1,33 @@
 ---
 title: Generatore report impaginato di Power BI
 description: Generatore report impaginati di Power BI è uno strumento per la creazione di report impaginati.
-ms.date: 06/06/2019
+ms.date: 09/16/2019
 ms.service: powerbi
 ms.subservice: report-builder
+featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 7ae945be1941fea4303b5cc74f9a2a4f104e8754
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840488"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076071"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Generatore report impaginato di Power BI
 
- Generatore report impaginati di Power BI è uno strumento per la creazione di report impaginati.  Quando si progetta un report impaginato, si crea una definizione del report che specifica i dati da recuperare, dove ottenerli e come visualizzarli. Quando si esegue il report, il componente Elaborazione report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicare il report nel servizio Power BI.
+ Generatore report impaginati di Power BI è uno strumento per la creazione di report impaginati.  Quando si progetta un report impaginato, si crea una definizione del report che specifica i dati da recuperare, dove ottenerli e come visualizzarli. Quando si esegue il report, il componente Elaborazione report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. Visualizzare in anteprima il report in Generatore report. e quindi pubblicare il report nel servizio Power BI.
+
+Se si preferisce imparare dai video, vedere su YouTube la serie di video sui report impaginati di Power BI di Chris Finlan, Power BI Principal Program Manager.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/78TZeiEhveY?list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ" frameborder="0" allowfullscreen></iframe>
+
+Il report impaginato seguente presenta una matrice con gruppi di righe e colonne, grafici sparkline, indicatori e un grafico a torta di riepilogo nella cella d'angolo, accompagnata da una mappa con due set di dati geografici rappresentati dal colore e dalle dimensioni del cerchio.  
 
 ![Report impaginato nel servizio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
- Questo report impaginato presenta una matrice con gruppi di righe e colonne, grafici sparkline, indicatori e un grafico a torta di riepilogo nella cella d'angolo, accompagnata da una mappa con due set di dati geografici rappresentati dal colore e dalle dimensioni del cerchio.  
-  
 ##  <a name="JumpStartReptCreation"></a> Iniziare a creare il report  
  
 -   **Iniziare con la Creazione guidata tabella, matrice o grafico**. Creare una connessione all'origine dati, trascinare i campi per creare una query di set di dati, selezionare il layout e lo stile e personalizzare il report.  
@@ -52,6 +57,9 @@ ms.locfileid: "66840488"
 -   **Scegliere un formato di presentazione** quando si apre il report o dopo averlo aperto. È possibile selezionare formati orientati al Web, di pagina o per applicazioni desktop. I formati disponibili sono MHTML, PDF, XML, CSV, Word ed Excel.  
   
 -   **Configurare sottoscrizioni.** Dopo aver pubblicato il report nel servizio Power BI, è possibile configurare il report per l'esecuzione a un'ora specifica e per l'invio come sottoscrizione tramite posta elettronica.  
+
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+
+- Vedere su YouTube la [serie di video sui report impaginati di Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) di Chris Finlan, Power BI Principal Program Manager.

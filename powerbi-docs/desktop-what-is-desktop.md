@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513503"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141955"
 ---
 # <a name="what-is-power-bi-desktop"></a>Che cos'è Power BI Desktop?
 
@@ -32,6 +32,16 @@ Gli usi più comuni di **Power BI Desktop** sono i seguenti:
 * Condividere i report con altri utenti tramite il **servizio Power BI**
 
 Gli utenti che si occupano di queste attività spesso sono chiamati *analisti di dati* (a volte semplicemente *analisti*) o professionisti di Business Intelligence (spesso chiamati anche *creatori di report*). Tuttavia, molte persone che non si considerano analisti né creatori di report usano **Power BI Desktop** per creare report efficaci o per eseguire il pull dei dati da origini diverse e creare modelli di dati condivisibili con i colleghi e le organizzazioni.
+
+In Power BI Desktop sono disponibili tre viste, visualizzate sul lato sinistro dell'area di disegno. Le viste, nell'ordine in cui sono visualizzate, sono le seguenti:
+* **Vista report**: qui si creano report e oggetti visivi e ci si dedica alle attività di creazione.
+* **Vista dati**: qui è possibile visualizzare le tabelle, le misure e altri dati usati nel modello di dati associato al report, nonché trasformare i dati per un uso ottimale nel modello del report.
+* **Vista modello**: in questa vista vengono visualizzate e gestite le relazioni tra le tabelle nel modello di dati.
+
+Nella figura seguente vengono illustrate le tre viste, così come vengono visualizzate sul lato sinistro dell'area di disegno:
+
+![viste diverse](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 Con **Power BI Desktop** è possibile creare report complessi e visivamente dettagliati usando dati provenienti da più origini, in un unico report che è possibile condividere con altri utenti nell'organizzazione. 
 

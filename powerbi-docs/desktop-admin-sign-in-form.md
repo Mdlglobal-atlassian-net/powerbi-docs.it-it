@@ -11,7 +11,7 @@ ms.date: 04/15/2019
 ms.author: davidi
 ms.openlocfilehash: 5c31277b640b16882bef5c5f2cd9c56b441ede82
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61329901"
@@ -27,7 +27,7 @@ Gli amministratori usano la chiave del Registro di sistema seguente per disabili
 Key: HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop
 valueName: ShowLeadGenDialog
 ```
-È anche possibile provare la chiave seguente, che è stata completata per alcuni clienti le loro configurazioni in base:
+È anche possibile provare la chiave seguente che ha avuto esito positivo per alcuni clienti in base alle relative configurazioni:
 
 ```
 Key: HKEY_CURRENT_USER\SOFTWARE\Microsoft\Microsoft Power BI Desktop

@@ -1,5 +1,5 @@
 ---
-title: Ottimizzare i report per l'App per dispositivi mobili - Power BI
+title: Ottimizzare report per le app per dispositivi mobili - Power BI
 description: Informazioni su come ottimizzare le pagine dei report per le app per dispositivi mobili Power BI creando una versione del report con orientamento verticale specifica per telefoni e tablet.
 author: maggiesMSFT
 manager: kfile
@@ -12,19 +12,19 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310798"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Ottimizzare i report per le App per dispositivi mobili di Power BI
-È possibile migliorare l'esperienza di visualizzazione dei report nelle App per dispositivi mobili mediante la creazione di un layout verticale. In Power BI Desktop e nel servizio Power BI, per ridisporre e ridimensionare elementi visivi del report per un'esperienza ottimale in modalità verticale.  
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Ottimizzare report per le app per dispositivi mobili Power BI
+È possibile migliorare l'esperienza di visualizzazione dei report nelle app per dispositivi mobili creando un layout verticale. In Power BI Desktop e nel servizio Power BI è possibile riorganizzare e ridimensionare gli oggetti visivi del report per un'esperienza ottimale in modalità verticale.  
 
-Cercare le informazioni sulla visualizzazione invece dei report in un dispositivo mobile? Provare questa Guida introduttiva [esplorare dashboard e report nelle App per dispositivi mobili di Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
+Per informazioni sulla visualizzazione dei report in un dispositivo mobile, vedere la guida introduttiva [Esplorare dashboard e report nelle app Power BI per dispositivi mobili](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Report ottimizzato in un telefono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-È anche possibile creare [ *reattivi* oggetti visivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-work-well-in-phone-reports) anche in un punto qualsiasi al ridimensionamento. Se si aggiungono filtri al report, vengono visualizzate automaticamente nel report ottimizzato.
+È anche possibile creare [*oggetti visivi* reattivi](#optimize-a-visual-for-any-size) e [filtri dei dati reattivi](#enhance-slicers-to-work-well-in-phone-reports) che si ridimensionano ovunque siano visualizzati. Se si aggiungono filtri al report, tali filtri vengono visualizzati automaticamente nel report ottimizzato.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Layout di una versione verticale di una pagina del report
 

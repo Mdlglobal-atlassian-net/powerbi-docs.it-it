@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 1c000b2bfce4b6eeaa40b1a641321a20cea49d13
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051111"
@@ -17,7 +17,7 @@ Mentre Will illustra la moltitudine di operazioni consentite da Power BI, è nec
 
 ![](media/0-1-intro-using-power-bi/c0a1_1.png)
 
-Come accennato in precedenza, non è un problema se una persona usa esclusivamente il **servizio Power BI** limitandosi a recuperare dati e creare dashboard. Qualcun altro membro del team può impiegare tutte del loro tempo nel **Power BI Desktop**, parallelamente. Tuttavia, per capire il flusso di lavoro completo di Power BI e le relative potenzialità, è necessario conoscere tutti i componenti. Solo così si potrà decidere come sfruttarlo al meglio.
+Come accennato in precedenza, non è un problema se una persona usa esclusivamente il **servizio Power BI** limitandosi a recuperare dati e creare dashboard. Parallelamente nello stesso team qualcun altro potrebbe usare solo **Power BI Desktop**. Tuttavia, per capire il flusso di lavoro completo di Power BI e le relative potenzialità, è necessario conoscere tutti i componenti. Solo così si potrà decidere come sfruttarlo al meglio.
 
 Andiamo avanti e lasciamoci guidare da Will in questa esperienza. L'obiettivo principale è quello di conoscere il funzionamento dei blocchi predefiniti di base di Power BI per capire meglio il modo in cui i dati vengono trasformati in report e oggetti visivi accattivanti.
 

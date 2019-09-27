@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608628"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141342"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Dashboard in primo piano nel servizio Power BI
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Dashboard in primo piano nel servizio Power BI
 ## <a name="create-a-featured-dashboard"></a>Creare un dashboard in primo piano
 Molti hanno un dashboard a cui accedono con maggiore frequenza rispetto ad altri.  Potrebbe trattarsi del dashboard usato per gestire la propria attività oppure di un dashboard che contiene un'aggregazione di riquadri provenienti da molti dashboard e report diversi.
 
@@ -52,7 +51,7 @@ Naturalmente, se in seguito si cambia idea, è possibile impostare un nuovo dash
 1. Seguire i passaggi 1 e 2 illustrati sopra.
    
     ![Finestra Cambia dashboard in primo piano](./media/end-user-featured/power-bi-change-feature.png)
-2. Selezionare **Imposta come in primo piano**. Quando si annulla il dashboard in primo piano, il dashboard non viene rimosso dall'area di lavoro.  
+2. Selezionare **Imposta come in primo piano**. Quando si annulla il dashboard in primo piano, il dashboard non viene rimosso da Power BI.  
    
     ![Messaggio di operazione completata](./media/end-user-featured/power-bi-unfeature-new.png)
 
