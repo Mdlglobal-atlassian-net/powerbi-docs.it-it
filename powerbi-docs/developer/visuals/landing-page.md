@@ -1,20 +1,20 @@
 ---
 title: Aggiungere una pagina di destinazione a oggetti visivi di Power BI
 description: Questo articolo descrive come aggiungere una pagina di destinazione a oggetti visivi di Power BI.
-author: sranins
-ms.author: rasala
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 79e362796e0694022bceb38f111a62bb62ddbabd
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236698"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193956"
 ---
 # <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Aggiungere una pagina di destinazione a oggetti visivi di Power BI
 

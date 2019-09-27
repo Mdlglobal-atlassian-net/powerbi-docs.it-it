@@ -177,7 +177,7 @@ Selezionare **EventClass\_s** o uno dei nomi degli eventi. Log Analytics prosegu
 
 Assicurarsi di visitare [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), che offre un sito Web con funzionalità avanzate per query, dashboard e avvisi sui dati raccolti.
 
-### <a name="queries"></a>Queries
+### <a name="queries"></a>query
 
 Sono disponibili centinaia di query che è possibile usare. Di seguito ne sono riportate alcune per iniziare. Per altre informazioni sull'uso del nuovo linguaggio di query per le ricerche log, vedere [Informazioni sulle ricerche log in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

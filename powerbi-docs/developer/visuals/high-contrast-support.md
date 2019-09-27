@@ -1,20 +1,20 @@
 ---
 title: Supporto per la modalità a contrasto elevato negli oggetti visivi di Power BI
 description: Questo articolo descrive come aggiungere il supporto per la modalità a contrasto elevato agli oggetti visivi di Power BI.
-author: sranins
-ms.author: rasala
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f7f1a2277b3cdf38554039136010ab60c8f09bae
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: f5e6d205a26648f8e157663ed7afd58e33b4b328
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237196"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193998"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Supporto per la modalità a contrasto elevato negli oggetti visivi di Power BI
 
