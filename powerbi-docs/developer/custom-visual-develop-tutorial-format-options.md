@@ -1,22 +1,22 @@
 ---
 title: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 description: Esercitazione su come sviluppare le opzioni di formattazione per gli oggetti visivi di Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380145"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194589"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 
 In questa esercitazione verrà illustrato come aggiungere proprietà comuni all'oggetto visivo.
 
@@ -263,4 +263,4 @@ Per suggerimenti sul debug dell'oggetto visivo personalizzato, vedere la [guida 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-È possibile elencare l'oggetto visivo di recente sviluppo per consentirne l'uso da parte di altri utenti inviandolo ad **AppSource**. Per altre informazioni su questo processo, fare riferimento a [Pubblicare oggetti visivi personalizzati in AppSource](office-store.md).
+È possibile elencare l'oggetto visivo di recente sviluppo per consentirne l'uso da parte di altri utenti inviandolo ad **AppSource**. Per altre informazioni su questo processo, vedere [Pubblicare oggetti visivi di Power BI in AppSource](office-store.md).

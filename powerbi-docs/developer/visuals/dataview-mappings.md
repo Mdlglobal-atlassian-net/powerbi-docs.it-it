@@ -1,20 +1,20 @@
 ---
 title: Informazioni sul mapping di viste dati in oggetti visivi di Power BI
 description: Questo articolo descrive il modo in cui Power BI trasforma i dati prima di passarli negli oggetti visivi.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237236"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193543"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informazioni sul mapping di viste dati in oggetti visivi di Power BI
 
@@ -281,10 +281,10 @@ Ecco il mapping della vista dati:
 
 La vista dati categorica potrebbe essere visualizzata in questo modo:
 
-| Categorical |  |  | | | |
+| Categorie |  |  | | | |
 |-----|-----|------|------|------|------|
-| | Anno | 2013 | 2014 | 2015 | 2016 |
-| Paese | | |
+| | Year | 2013 | 2014 | 2015 | 2016 |
+| Country | | |
 | USA | | x | x | 125 | 100 |
 | Canada | | x | 50 | 200 | x |
 | Messico | | 300 | x | x | x |
@@ -397,7 +397,7 @@ Con le funzionalità specificate:
 
 È possibile visualizzare la vista dati tabella come segue:  
 
-| Paese| Anno | Sales |
+| Country| Year | Sales |
 |-----|-----|------|
 | USA | 2016 | 100 |
 | USA | 2015 | 50 |
@@ -618,7 +618,7 @@ L'oggetto visivo ottiene la struttura dei dati come descritto nel codice seguent
 
 Per controllare la quantità di dati da ricevere nella vista dati, è possibile applicare un algoritmo di riduzione dei dati.
 
-Per impostazione predefinita, a tutti gli oggetti visivi personalizzati è applicato l'algoritmo di riduzione dei dati superiore con *count* impostato su 1000 punti dati. Questo equivale a impostare le proprietà seguenti nel file *capabilities.json*:
+Per impostazione predefinita, a tutti gli oggetti visivi di Power BI viene applicato l'algoritmo di riduzione dei dati superiore con *count* impostato su 1000 punti dati. Questo equivale a impostare le proprietà seguenti nel file *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ Per impostazione predefinita, a tutti gli oggetti visivi personalizzati è appli
 }
 ```
 
-È possibile modificare il valore *count* con qualsiasi valore intero fino a 30000. Gli oggetti visivi personalizzati basati su R possono supportare fino a 150.000 righe.
+È possibile modificare il valore *count* con qualsiasi valore intero fino a 30000. Gli oggetti visivi di Power BI basati su R possono supportare fino a 150.000 righe.
 
 ## <a name="data-reduction-algorithm-types"></a>Tipi di algoritmo di riduzione dei dati
 

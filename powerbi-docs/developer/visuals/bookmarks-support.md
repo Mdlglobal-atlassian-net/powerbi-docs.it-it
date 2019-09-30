@@ -1,24 +1,24 @@
 ---
 title: Aggiungere il supporto per i segnalibri per oggetti visivi di Power BI
 description: Gli oggetti visivi di Power BI possono gestire il passaggio tra segnalibri
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237270"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194447"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Aggiungere il supporto per i segnalibri per oggetti visivi di Power BI
 
-Con i segnalibri dei report di Power BI, è possibile acquisire una visualizzazione configurata di una pagina del report, lo stato di selezione e lo stato di filtro dell'oggetto visivo. Tuttavia, è necessaria un'azione aggiuntiva dal lato degli oggetti visivi personalizzati per supportare i segnalibri e rispondere correttamente alle modifiche.
+Con i segnalibri dei report di Power BI, è possibile acquisire una visualizzazione configurata di una pagina del report, lo stato di selezione e lo stato di filtro dell'oggetto visivo. Tuttavia è necessaria un'azione aggiuntiva sul lato degli oggetti visivi di Power BI, per supportare i segnalibri e rispondere correttamente alle modifiche.
 
 Per altre informazioni sui segnalibri, vedere [Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
@@ -32,7 +32,7 @@ Se l'oggetto visivo interagisce con altri oggetti visivi, seleziona punti dati o
 
 2. Aggiornare l'API per oggetti visivi alla versione 1.11.0 per usare `registerOnSelectCallback` in un'istanza di `SelectionManager`. È necessaria per gli oggetti visivi non di filtro che usano `SelectionManager` semplice anziché `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Interazione degli oggetti visivi personalizzati con Power BI nei segnalibri del report
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Interazione degli oggetti visivi di Power BI con Power BI nei segnalibri del report
 
 Si consideri lo scenario seguente: si vogliono creare diversi segnalibri nella pagina del report, con uno stato di selezione diverso in ogni segnalibro.
 

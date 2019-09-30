@@ -1,26 +1,26 @@
 ---
 title: Sviluppo di un oggetto visivo di Power BI
 description: Esercitazione su come sviluppare un oggetto visivo personalizzato di Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415426"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194482"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Esercitazione: Sviluppo di un oggetto visivo di Power BI
 
-Gli sviluppatori possono aggiungere in modo semplice oggetti visivi personalizzati in Power BI da usare in dashboard e report. Per iniziare, abbiamo pubblicato il codice di tutte le nostre visualizzazioni su GitHub.
+Gli sviluppatori possono aggiungere in modo semplice oggetti visivi di Power BI a Power BI, per l'uso in dashboard e report. Per iniziare, abbiamo pubblicato il codice di tutte le nostre visualizzazioni su GitHub.
 
-Oltre al framework di visualizzazione sono stati resi disponibili gruppi di test e strumenti per aiutare la community a creare oggetti visivi personalizzati di alta qualità per Power BI.
+Oltre al framework di visualizzazione sono stati resi disponibili gruppi di test e strumenti, per aiutare la community a creare oggetti visivi di Power BI di alta qualità per Power BI.
 
 Questa esercitazione illustra come sviluppare un oggetto visivo personalizzato di Power BI denominato Circle Card per visualizzare un valore di misura formattato all'interno di un cerchio. L'oggetto visivo Circle Card supporta la personalizzazione del colore di riempimento e dello spessore del contorno.
 

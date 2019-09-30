@@ -1,20 +1,20 @@
 ---
 title: Linee guida per gli oggetti visivi di Power BI
 description: Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo tramite acquisto.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
-ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
+ms.openlocfilehash: 71752a635c69e6712befbb00e942189fa4dacc36
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "68380226"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327722"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Linee guida per gli oggetti visivi di Power BI
 Prima di [pubblicare](https://docs.microsoft.com/power-bi/developer/office-store) l'oggetto visivo in AppSource in modo che altri utenti possano trovarlo e usarlo, seguire con attenzione le linee guida per creare un'esperienza ottimale per gli utenti. 
@@ -25,11 +25,14 @@ Tutti gli oggetti visivi Power BI dovrebbero includere il menu di scelta rapida 
 
 
 ## <a name="logo-guidelines"></a>Linee guida per il logo
+> [!NOTE]
+> Il logo con la parola in questo articolo fa riferimento a qualsiasi icona commerciale aziendale, come descritto nelle immagini seguenti. 
 
-In questa sezione vengono descritte le specifiche per l'aggiunta dei logo negli oggetti visivi. I logo non sono obbligatori. Se vengono aggiunti, è necessario che rispettino queste linee guida. 
+In questa sezione vengono descritte le specifiche per l'aggiunta di logo agli oggetti visivi di Power BI. I logo non sono obbligatori. Se vengono aggiunti, è necessario che rispettino queste linee guida. 
 
 > [!IMPORTANT]
 > I logo sono consentiti solo in *modalità di modifica*. I logo *non possono* essere visualizzati in modalità di visualizzazione.
+
 
 ![Definizioni](media/guidelines-powerbi-visuals/definitions.png)
 
@@ -44,11 +47,13 @@ In questa sezione vengono descritte le specifiche per l'aggiunta dei logo negli 
 ![Modalità di modifica](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 
+Le icone informative in modalità di lettura, se presenti, devono essere conformi al colore, alle dimensioni e alla posizione dei logo visualizzati in precedenza.
+
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Linee guida per gli oggetti visivi di Power BI con acquisti aggiuntivi
 
 Fino a poco tempo fa, il Marketplace (AppSource) accettava solo oggetti visivi di Power BI gratuiti. Questa regola è stata modificata a dicembre 2018 ed è possibile inviare in AppSource anche oggetti visivi con il tag di prezzo "Potrebbe essere necessario un acquisto aggiuntivo". 
 
-Gli oggetti visivi con il tag "Potrebbe essere necessario un acquisto aggiuntivo" sono analoghi ai componenti aggiuntivi con acquisto in-app disponibili in Office Store. Gli sviluppatori possono anche inviare questi oggetti visivi per richiedere la certificazione dopo aver ricevuto l'approvazione del team di AppSource e averne verificato la conformità con i requisiti. Per altre informazioni sui requisiti, vedere [Oggetti visivi personalizzati certificati](../power-bi-custom-visuals-certified.md).
+Gli oggetti visivi con il tag "Potrebbe essere necessario un acquisto aggiuntivo" sono analoghi ai componenti aggiuntivi con acquisto in-app disponibili in Office Store. Gli sviluppatori possono anche inviare questi oggetti visivi per richiedere la certificazione dopo aver ricevuto l'approvazione del team di AppSource e averne verificato la conformità con i requisiti. Per altre informazioni sui requisiti, vedere [Oggetti visivi di Power BI certificati](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
 > Perché l'oggetto visivo sia certificato, non deve avere accesso a servizi o risorse esterni.

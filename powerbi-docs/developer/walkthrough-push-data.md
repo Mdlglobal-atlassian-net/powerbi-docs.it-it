@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66222148"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Eseguire il push dei dati in un set di dati di Power BI
 
-L'API Power BI consente di eseguire il push dei dati in un set di dati di Power BI. In questo articolo viene illustrato come eseguire il push di un set di dati Sales Marketing che contiene una tabella Product in un set di dati.
+L'API Power BI consente di eseguire il push dei dati in un set di dati di Power BI. Questo articolo illustra come eseguire il push di un set di dati Sales Marketing contenente una tabella Product in un set di dati esistente.
 
-Prima di iniziare, è necessario un Azure Active Directory (Azure AD) e un [account di Power BI](create-an-azure-active-directory-tenant.md).
+Per iniziare è necessario avere Azure Active Directory (Azure AD) e un [account Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Procedura per eseguire il push dei dati in un set di dati
 
@@ -34,7 +34,7 @@ La sezione successiva fornisce una descrizione generale delle operazioni dell'AP
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operazioni dell'API di Power BI per eseguire il push dei dati
 
-Con l'API REST di Power BI è possibile eseguire il push di origini dati in Power BI. Quando un'app aggiunge righe a un set di dati, l'aggiornamento automaticamente con i nuovi dati riquadri del dashboard. Per eseguire il push dei dati, usare il [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) e [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) operazioni. Per trovare un set di dati, usare il [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) operazione. È possibile passare un ID di gruppo per lavorare con un gruppo per queste operazioni. Per ottenere un elenco di ID di gruppo, usare il [Get Groups](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) operazione.
+Con l'API REST di Power BI è possibile eseguire il push di origini dati in Power BI. Quando un'app aggiunge righe a un set di dati, i riquadri del dashboard vengono aggiornati automaticamente con i nuovi dati. Per eseguire il push dei dati usare le operazioni [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) (Carica set di dati) e [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) (Carica righe). Per trovare un set di dati usare l'operazione [Get Datasets](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) (Ottieni set di dati). Per ognuna di queste operazioni è possibile passare un ID di gruppo per lavorare con un gruppo. Per ottenere un elenco di ID del gruppo usare l'operazione [Get Groups](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) (Ottieni i gruppi).
 
 Ecco le operazioni per eseguire il push dei dati in un set di dati:
 
@@ -59,7 +59,7 @@ La stringa JSON per un set di dati ha il formato seguente:
         ]
     }
 
-Per questo esempio di set di dati Sales Marketing, si passa una stringa JSON come illustrato di seguito. In questo esempio **SalesMarketing** è il nome del set di dati e **prodotto** è il nome della tabella. Dopo aver definito la tabella, definire lo schema di tabella. Lo schema di tabella del set di dati **SalesMarketing** contiene queste colonne: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
+Per il set di dati di esempio Sales Marketing si passerà una stringa JSON, come nell'esempio seguente. In questo esempio il nome del set di dati è **SalesMarketing** e il nome della tabella è **Product**. Dopo aver definito la tabella, si definisce lo schema della tabella. Lo schema di tabella del set di dati **SalesMarketing** contiene queste colonne: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **Esempio JSON per l'oggetto set di dati**
 
@@ -105,10 +105,10 @@ Per uno schema di tabella di Power BI, è possibile usare i tipi di dati seguent
 | **Tipo di dati** | **Restrizioni** |
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue non sono consentiti. |
-| Double |Double.MaxValue e Double.MinValue non sono consentiti. NaN non supportato. + Infinity e - Infinity non supportati in alcune funzioni (ad esempio, Min, Max). |
+| Double |Double.MaxValue e Double.MinValue non sono consentiti. NaN non supportato. +Infinity e -Infinity non supportati in alcune funzioni, ad esempio Min, Max. |
 | Boolean |Nessuno |
-| DateTime |Durante il caricamento dei dati, vengono quantizzati con frazioni giornaliere fino a multipli interi di 1/300 secondi (3,33 ms) i valori. |
-| Stringa |Attualmente consente fino a 128 caratteri. |
+| DateTime |Durante il caricamento dei dati i valori vengono quantizzati con frazioni giornaliere fino a multipli interi di 1/300 secondi (3,33 ms). |
+| Stringa |Attualmente è consentito un massimo di 128.000 caratteri. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Altre informazioni sul push dei dati in Power BI
 

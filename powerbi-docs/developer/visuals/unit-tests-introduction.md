@@ -1,20 +1,20 @@
 ---
 title: Introduzione agli unit test per progetti con oggetti visivi di Power BI
 description: Questo articolo descrive come scrivere unit test per Power BI progetti con oggetti visivi
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70236728"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192466"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Esercitazione: Aggiungere unit test per progetti con oggetti visivi di Power BI
 
@@ -616,4 +616,4 @@ Nell'ambito del file è possibile visualizzare il codice sorgente. Le utilità `
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Quando l'oggetto visivo è pronto, è possibile inviarlo per la pubblicazione. Per altre informazioni, vedere [Pubblicare oggetti visivi personalizzati in AppSource](../office-store.md).
+Quando l'oggetto visivo è pronto, è possibile inviarlo per la pubblicazione. Per altre informazioni, vedere [Pubblicare oggetti visivi di Power BI in AppSource](../office-store.md).
