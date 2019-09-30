@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 37304f9d23c514c7223b3eca481bf3b7b2258ac4
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904414"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327848"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare modifiche alla struttura dell'intero report, ad esempio usando i colori aziendali, modificando i set di icone o applicando una nuova formattazione visuale predefinita. Quando si applica un **tema del report** tutti gli oggetti visivi del report usano i colori e la formattazione del tema selezionato. Ci sono alcune eccezioni, che vengono descritte più avanti in questo articolo.
@@ -475,7 +475,8 @@ Un'enumerazione, usata più comunemente per le opzioni di formattazione a disces
 
 
 ```json
-      "general":
+{
+      "general":{ 
         "responsive": {
           "type": [
             "bool"
@@ -486,7 +487,7 @@ Un'enumerazione, usata più comunemente per le opzioni di formattazione a disces
           "description": [
             "The visual will adapt to size changes"
           ]
-        }
+        },
         "legend": {
         "show": {
           "type": [
@@ -4378,4 +4379,6 @@ La sezione seguente definisce le enumerazioni che è possibile usare nel file JS
          ]
        }
     }
+  }
+}
 ```

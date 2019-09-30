@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808228"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401823"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -71,7 +71,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Elenco SharePoint Online |Sì |No |No |
 | Snowflake |Sì |No |No |
 | Database di Sybase |Sì |Sì |No |
-| Database Teradata |Sì |Sì |Sì |
+| Teradata |Sì |Sì |Sì |
 | Testo/CSV |Sì |Sì |No |
 | Web |Sì |Sì |No |
 | XML |Sì |Sì |No |

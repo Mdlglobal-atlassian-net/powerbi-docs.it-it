@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791820"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194800"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
@@ -30,7 +30,7 @@ Ogni elemento potrebbe essere noto come funzionalità di Power BI esistente. Qua
 
 <a name="queries"></a>
 
-## <a name="queries"></a>Queries
+## <a name="queries"></a>query
 Per le app modello, le query sviluppate in Power BI Desktop vengono usate per connettere l'origine dati e importare i dati. Queste query sono necessarie per restituire uno schema coerente e sono supportate per l'aggiornamento dei dati pianificato (DirectQuery non è supportata).
 
 ### <a name="connect-to-your-api"></a>Connettersi all'API
@@ -126,7 +126,6 @@ Le app modello possono essere pubblicate in AppSource. Seguire queste linee guid
 
 * Assicurarsi di creare un'app modello con dati di esempio significativi, che possono aiutare, in fase di installazione, a comprendere ciò che l'app può fare (report e dashboard vuoti non vengono approvati).
 Le app modello supportano le app con soli dati di esempio, assicurarsi di selezionare la casella di controllo relativa all'app statica. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* In generale, solo le applicazioni con funzionalità utili possono essere approvate per l'uso generale in AppSource. Le applicazioni contenenti solo dati di esempio deve avere solo valore educativo o statistico.
 * Creare istruzioni che il team di convalida deve seguire includendo le credenziali e i parametri necessari per la connessione ai dati.
 * L'applicazione deve includere un'icona dell'app in Power BI e nell'offerta CPP. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Configurare la pagina di destinazione. [Altre informazioni](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ Le app modello supportano le app con soli dati di esempio, assicurarsi di selezi
 * Installare l'app usando il collegamento all'app prima dell'invio, verificare che sia possibile connettersi al set di dati e che l'esperienza dell'app sia conforme a quanto previsto.
 * Prima di caricare il file con estensione bpix nell'area di lavoro dell'app modello, assicurarsi di scaricare tutte le connessioni non necessarie.
 * Seguire quanto indicato in [Procedure consigliate per la progettazione di report e oggetti visivi](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) di Power BI per ottimizzare l'impatto sugli utenti e ottenere l'approvazione per la distribuzione.
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>Limitazioni note
 

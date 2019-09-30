@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/06/2019
+ms.date: 09/17/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596545"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305851"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -202,7 +202,7 @@ In Power BI Premium i report impaginati sono un carico di lavoro che deve essere
 
 Per altre informazioni, vedere [Report impaginati in Power BI Premium](paginated-reports-report-builder-power-bi.md). Per altre informazioni sull'abilitazione del carico di lavoro dei report impaginati, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 
-## <a name="power-bi-report-server"></a>Server di report di Power BI
+## <a name="power-bi-report-server"></a>Server di report Power BI
  
 Incluso in Power BI Premium, Server di report di Power BI è un server di report *locale* con un portale Web. È possibile creare il proprio ambiente BI locale e distribuire i report dietro il firewall dell'organizzazione. Server di report offre agli utenti l'accesso a report interattivi avanzati e le funzionalità di creazione di report aziendali di SQL Server Reporting Services. Gli utenti possono esplorare visivamente i dati e individuare rapidamente modelli per prendere decisioni migliori e più rapide. Server di report offre una governance personalizzata. Quando opportuno, Server di report di Power BI semplifica la migrazione nel cloud dove l'organizzazione può usare al meglio tutte le funzionalità di Power BI Premium.
 
