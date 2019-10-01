@@ -81,7 +81,7 @@
           href: power-bi-custom-visuals-faq.md
     - name: Procedure
       items:
-        - name: Ottenere Power BI Desktop
+        - name: Scarica Power BI Desktop
           href: desktop-get-the-desktop.md
         - name: Guida introduttiva per Power BI Desktop
           href: desktop-getting-started.md
@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: Informazioni aggiuntive
   items:
-    - name: Procedure consigliate per i flussi di dati
-      href: service-dataflows-best-practices.md
+    - name: Panoramica
+      href: guidance/overview.md
     - name: Che cos'è uno schema a stella?
       href: guidance/star-schema.md
     - name: Ridurre le dimensioni del modello di dati
       href: guidance/import-modeling-data-reduction.md
     - name: Confronto tra funzione DIVIDE e operatore di divisione (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Procedure consigliate per i flussi di dati
+      href: service-dataflows-best-practices.md
