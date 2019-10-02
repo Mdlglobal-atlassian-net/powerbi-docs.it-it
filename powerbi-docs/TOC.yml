@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Machine Learning automatizzato in Power BI (anteprima)
               href: service-machine-learning-automated.md
+        - name: Derivazione dei dati
+          href: service-data-lineage.md
         - name: Report impaginati in Power BI
           items:
             - name: Visualizzare un report impaginato
@@ -867,6 +869,8 @@
       items:
         - name: Lingue e paesi/aree geografiche supportate
           href: supported-languages-countries-regions.md
+        - name: Browser supportati
+          href: power-bi-browsers.md
     - name: Risorse
       items:
         - name: White paper
