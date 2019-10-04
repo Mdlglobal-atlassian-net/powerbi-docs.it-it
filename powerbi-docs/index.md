@@ -8,12 +8,12 @@ ms.author: maggies
 author: maggiesMSFT
 ms.topic: hub-page
 ms:date: 06/10/2019
-ms.openlocfilehash: e1a6700f2f266cffb788f4d8b0f10be88f79e643
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 56385dfbaf4399a244df4b71561c14221e43ee93
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264459"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829525"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -103,7 +103,7 @@ ms.locfileid: "67264459"
                                 </a>
                             </li>
                             <li>
-                                <a href="https://powerbi.microsoft.com/blog/">
+                                <a href="guidance/overview.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -113,8 +113,8 @@ ms.locfileid: "67264459"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Blog su Power BI</h3>
-                                                    <p>Informazioni sempre aggiornate su tutti gli sviluppi più recenti in Power BI.</p>
+                                                    <h3>Indicazioni sulle procedure consigliate</h3>
+                                                    <p>Per sfruttare tutto il potenziale di Power BI è importante conoscerne le procedure consigliate.</p>
                                                 </div>
                                             </div>
                                         </div>
