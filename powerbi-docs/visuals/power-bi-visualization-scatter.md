@@ -11,19 +11,24 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8222194359077cb0d88286a33d1c9b2a05f6bd80
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: d776425d4c19070c00658cbd588c5421d22a0057
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390979"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192954"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Grafici a dispersione, grafici a bolle e tracciati a punti in Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Un grafico a dispersione ha sempre due assi di valori per mostrare un set di dati numerici lungo un asse orizzontale e un altro set di valori numerici lungo un asse verticale. Nel grafico vengono visualizzati i punti in corrispondenza dell'intersezione di un valore numerico x e un valore numerico y, combinando questi valori in punti dati singoli. Power BI può distribuire questi punti dati uniformemente o in maniera non uniforme sull'asse orizzontale, a seconda dei dati rappresentati nel grafico.
 
 Guardare questo video per seguire la creazione del grafico a dispersione e quindi seguire la procedura riportata più avanti per crearne uno.
-
+   > [!NOTE]
+   > Questo video usa una versione precedente di Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PVcfPoVE3Ys?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 È possibile impostare il numero di punti dati fino a un massimo di 10.000.  
@@ -65,7 +70,7 @@ Oltre alle potenzialità offerte dai grafici a dispersione, i grafici a bolle ra
 
 ### <a name="dot-plot-charts"></a>Tracciati a punti
 
-Un tracciato a punti è simile a un grafico a bolle e a un grafico a dispersione, ma è anche possibile tracciare dati numerici o categorici lungo l'asse X.
+Un tracciato a punti è simile a un grafico a bolle e a un grafico a dispersione, ma viene usato per tracciare dati categorici lungo l'asse X.
 
 ![Screenshot di un tracciato a punti.](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
@@ -73,17 +78,20 @@ Questi grafici sono un'ottima scelta se si vogliono includere dati categorici lu
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-* Servizio Power BI
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Report Retail Analysis Sample
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
+
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+
 
 ## <a name="create-a-scatter-chart"></a>Creare un grafico a dispersione
 
-Per seguire la procedura, accedere al [servizio Power BI](https://app.powerbi.com) e aprire il report [Retail Analysis Sample](../sample-datasets.md) nella visualizzazione [Modifica report](../service-interact-with-a-report-in-editing-view.md).
-
-1. Selezionare ![Screenshot dell'icona con segno più gialla.](media/power-bi-visualization-scatter/power-bi-yellow-plus-icon.png) per creare una pagina del report vuota.
-
-1. Nel riquadro **Campi** selezionare questi campi:
+1. Iniziare da una pagina di report vuota e selezionare i campi seguenti dal riquadro **Campi**:
 
     * **Vendite** > **Vendite per piedi quadrati**
 
@@ -113,11 +121,11 @@ Ora si aggiungerà una terza dimensione.
 
 1. Passare il mouse su una bolla. La dimensione della bolla riflette il valore delle **Vendite di quest’anno**.
 
-    ![visualizzazione delle descrizioni comando](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![visualizzazione delle descrizioni comando](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
 1. È possibile impostare il numero di punti dati da mostrare nel grafico a bolle nella sezione **Formato** del riquadro **Visualizzazioni** espandendo **Generale** e modificando **Volume dati**.
 
-    ![Screenshot del riquadro Visualizzazioni con l'icona Formato, l'elenco a discesa Generale e l'opzione Volume dati evidenziati.](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png)
+    ![Screenshot del riquadro Visualizzazioni con l'icona Formato, l'elenco a discesa Generale e l'opzione Volume dati evidenziati.](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
     È possibile impostare il volume dei dati su un numero massimo di 10.000. All'approssimarsi del numero massimo, è consigliabile eseguire un test per garantire migliori prestazioni.
 
@@ -128,7 +136,7 @@ Ora si aggiungerà una terza dimensione.
 
     Per [migliorare l'accessibilità](../desktop-accessibility.md), considerare la possibilità di aggiungere forme di marcatore a ogni riga. Per selezionare la forma del marcatore, espandere **Forme**, selezionare **Forma del marcatore** e selezionare una forma.
 
-    ![Screenshot dell'elenco a discesa Forme con le opzioni Forma del marcatore evidenziate.](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+    ![Screenshot dell'elenco a discesa Forme con le opzioni Forma del marcatore evidenziate.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     È possibile cambiare la forma del marcatore in rombo, triangolo o quadrato. L'uso di una forma del marcatore diversa per ogni riga consente agli utenti dei report di distinguere più facilmente le linee dalle aree.
 
@@ -146,15 +154,15 @@ Dal riquadro **Asse X** rimuovere **Sales per sq ft** e sostituirlo con **Distri
 
 Il grafico a dispersione ha solo un punto dati che aggrega tutti i valori sugli assi X e Y?  O forse aggrega tutti i valori lungo una singola riga orizzontale o verticale?
 
-![Screenshot di un grafico a dispersione con un punto dati.](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
+![Screenshot di un grafico a dispersione con un punto dati.](media/power-bi-visualization-scatter/pbi-scatter-tshoot1.png)
 
 Aggiungere un campo all'area **Dettagli** per indicare a Power BI come raggruppare i valori. Il campo deve essere univoco per ogni punto che si desidera tracciare. Ad esempio un numero di riga semplice o un campo ID.
 
-![Screenshot di un grafico a dispersione con RowNum aggiunto all'area Dettagli.](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
+![Screenshot di un grafico a dispersione con RowNum aggiunto all'area Dettagli.](media/power-bi-visualization-scatter/pbi-scatter-tshoot.png)
 
 Se non è disponibile un elemento di questo tipo nei dati, creare un campo che concatena i valori X e Y in un elemento univoco per ogni punto:
 
-![Screenshot di un grafico a dispersione con TempTime aggiunto all'area Dettagli.](media/power-bi-visualization-scatter/pbi_scatter_tshoot2.png)
+![Screenshot di un grafico a dispersione con TempTime aggiunto all'area Dettagli.](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
 Per creare un nuovo campo, [usare l'Editor di query di Power BI Desktop per aggiungere una colonna indice](../desktop-add-custom-column.md) al set di dati. Aggiungere quindi la colonna all'area **Dettagli** della visualizzazione.
 

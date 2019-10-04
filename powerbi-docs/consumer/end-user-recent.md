@@ -5,42 +5,53 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61054869"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256246"
 ---
-# <a name="recent-content-in-power-bi-service"></a>Contenuto **recente** nel servizio Power BI
-Il contenuto recente è costituito dagli ultimi elementi visitati nel servizio Power BI, per un massimo di 20 elementi.  Sono inclusi dashboard, report, app e cartelle di lavoro in tutte le aree di lavoro.
+# <a name="recent-content-in-the-power-bi-service"></a>Trovare il contenuto **recente** nel servizio Power BI
+Il contenuto recente è costituito dagli ultimi elementi visitati nel servizio Power BI, per un massimo di 20 elementi.  Sono inclusi dashboard, report, app e cartelle di lavoro.
 
-![Finestra del contenuto recente](./media/end-user-recent/power-bi-recent-screen.png)
+![Finestra del contenuto recente](./media/end-user-recent/power-bi-recent.png)
 
 Il video seguente illustra come vengono popolati gli elenchi di contenuti **Recenti** del servizio Power BI. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
+> [!NOTE]
+> Questo video usa una versione precedente del servizio Power BI.
+
 ## <a name="display-recent-content"></a>Visualizzare il contenuto recente
-Per visualizzare gli ultimi elementi visitati di recente, dal riquadro di spostamento a sinistra selezionare la freccia a destra di **Recenti**.  Da qui è possibile selezionare il contenuto recente per aprirlo. Sono elencati solo i cinque elementi più recenti.
+Per visualizzare gli ultimi cinque elementi visitati di recente, dal riquadro di spostamento selezionare la freccia a destra di **Recenti**.  Da qui è possibile selezionare il contenuto recente per aprirlo. Sono elencati solo i cinque elementi più recenti.
 
-![Riquadro a comparsa del contenuto recente](./media/end-user-recent/power-bi-recent-flyout-new.png)
+![Riquadro a comparsa del contenuto recente](./media/end-user-recent/power-bi-recent-flyout.png)
 
-Se sono presenti più di cinque elementi visitati di recente, selezionare **Visualizza tutto** per aprire la schermata Recenti (vedere di seguito). È anche possibile selezionare **Recenti** o l'icona Recenti ![Icona Recenti](./media/end-user-recent/power-bi-recent-icon.png) dal riquadro di spostamento a sinistra.
+Se sono presenti più di cinque elementi visitati di recente, selezionare **Visualizza tutto** per aprire la schermata Recenti. È anche possibile selezionare **Recenti** o l'icona Recenti ![Icona Recenti](./media/end-user-recent/power-bi-icon.png) dal riquadro di spostamento.
 
-![Visualizzare tutto il contenuto recente](./media/end-user-recent/power-bi-recent-list.png)
+![Visualizzare tutto il contenuto recente](./media/end-user-recent/power-bi-recent.png)
 
-Da qui è possibile interagire con il contenuto come si farebbe con le singole schede [**Dashboard**](end-user-dashboards.md), [**Report**](end-user-reports.md) e **Cartelle di lavoro** e con la schermata <!--[**Apps**](end-user-apps.md)--> delle app.
+## <a name="actions-available-from-the-recent-content-list"></a>Azioni disponibili dall'elenco di contenuto **Recenti**
+Le azioni disponibili dipenderanno dalle impostazioni assegnate dal *progettista* del contenuto. Ecco alcune delle opzioni:
+* Selezionare l'icona a forma di stella per [aggiungere un dashboard, un report o un'app a Preferiti](end-user-favorite.md) ![Icona a forma di stella](./media/end-user-shared-with-me/power-bi-star-icon.png).
+* Alcuni dashboard e report possono essere ricondivisi  ![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* [Aprire il report in Excel](end-user-export.md) ![Icona Esporta in Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [Visualizzare le informazioni dettagliate](end-user-insights.md) trovate da Power BI nei dati ![Icona Informazioni dettagliate](./media/end-user-shared-with-me/power-bi-insights.png).
+* In più, se gli elenchi si allungano, [usare il campo di ricerca e l'ordinamento per trovare le informazioni necessarie](end-user-search-sort.md). Per determinare se una colonna può essere ordinata, passare il puntatore del mouse sulla colonna per verificare se viene visualizzata una freccia. In questo esempio, se si passa il puntatore del mouse su **Ultimo accesso** viene visualizzata una freccia e ciò indica che il contenuto recente può essere ordinato in base alla data di accesso. 
+
+    ![Ordinare tutto il contenuto recente](./media/end-user-recent/power-bi-recent-sort.png)
+
 
 ## <a name="next-steps"></a>Passaggi successivi
-<!--[Power BI service Apps](end-user-apps.md)-->
+[App del servizio Power BI](end-user-apps.md)
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

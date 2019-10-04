@@ -5,48 +5,55 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/25/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4a4cbc152784d7536a5aa179769cf753645c932b
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d50ed2c06c81514fa6fb129ca3691ec56b8116b9
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61048784"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256229"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Visualizzare i dashboard e i report condivisi con l'utente corrente
-## <a name="shared-with-me"></a>Condivisi con l'utente corrente
+
 
 Quando un collega condivide contenuto con un altro utente tramite il pulsante **Condividi**, tale contenuto viene visualizzato nel contenitore **Condivisi con l'utente corrente** dell'utente di destinazione. Il dashboard o il report è disponibile solo da **Condivisi con l'utente corrente** e non da **App**.
 
-![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-dash.png)
+![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
 Il video seguente illustra l'elenco dei contenuti **Condivisi con l'utente corrente** e dimostra come accedervi e filtrarlo. Seguire quindi le istruzioni successive per sotto il video per fare una prova in prima persona. Per poter visualizzare i dashboard condivisi con l'utente è necessario disporre di una licenza Power BI Pro. Per informazioni dettagliate, leggere [What is Power BI Premium?](../service-premium-what-is.md) (Che cos'è Power BI Premium?).
+    
+
+> [!NOTE]
+> Questo video usa una versione precedente del servizio Power BI.
+    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
-Sono disponibili opzioni per l'interazione con i dashboard e i report, a seconda delle autorizzazioni assegnate dal progettista. Tra queste, c'è la possibilità di eseguire copie del dashboard, aprire il report nella [Visualizzazione di lettura](end-user-reading-view.md) e ripetere la condivisione con altri colleghi.
+## <a name="interact-with-shared-content"></a>Interagire con il contenuto condiviso
 
-![Contenitore Condivisi con l'utente corrente](./media/end-user-shared-with-me/power-bi-container.png)
+Sono disponibili opzioni per l'interazione con i dashboard e i report condivisi, a seconda delle autorizzazioni assegnate dal *progettista*. Tra queste, c'è la possibilità di eseguire copie del dashboard, aprire il report nella [Visualizzazione di lettura](end-user-reading-view.md) e ripetere la condivisione con altri colleghi.
 
-## <a name="actions-available-from-the-shared-with-me-container"></a>Azioni disponibili dal contenitore **Condivisi con l'utente corrente**
-* Selezionare l'icona a forma di stella per [Aggiungere un dashboard o un report a Preferiti](end-user-favorite.md).
-* Rimuovere un dashboard o un report  ![Icona a forma di Cestino](./media/end-user-shared-with-me/power-bi-delete-icon.png)
-* Alcuni dashboard e report possono essere ricondivisi  ![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-icon-new.png)
-* In più, se gli elenchi si allungano, [usare il campo di ricerca e l'ordinamento per trovare le informazioni necessarie](end-user-search-sort.md).
+![Contenitore Condivisi con l'utente corrente](./media/end-user-shared-with-me/power-bi-shared.png)
+
+### <a name="actions-available-from-the-shared-with-me-container"></a>Azioni disponibili dal contenitore **Condivisi con l'utente corrente**
+Le azioni disponibili dipenderanno dalle impostazioni assegnate dal *progettista* del contenuto. Ecco alcune delle opzioni:
+* Selezionare l'icona a forma di stella per [aggiungere un dashboard o un report a Preferiti](end-user-favorite.md) ![Icona a forma di stella](./media/end-user-shared-with-me/power-bi-star-icon.png).
+* Rimuovere un dashboard o un report  ![Icona a forma di Cestino](./media/end-user-shared-with-me/power-bi-delete-icon.png).
+* Alcuni dashboard e report possono essere ricondivisi  ![Icona di condivisione](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* [Aprire il report in Excel](end-user-export.md) ![Icona Esporta in Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [Visualizzare le informazioni dettagliate](end-user-insights.md) trovate da Power BI nei dati ![Icona Informazioni dettagliate](./media/end-user-shared-with-me/power-bi-insights.png).
   
   > [!NOTE]
-  > Per informazioni sulle classificazioni EGRC, selezionare il pulsante di classificazione o visitare [Classificazione dei dati del dashboard](../service-data-classification.md).
+  > Per informazioni sulle classificazioni EGRC, selezionare il pulsante **Classificazione** o vedere [Classificazione dei dati del dashboard](../service-data-classification.md).
   > 
-  > 
-* Selezionare il nome di un dashboard da aprire ed esplorare. Dopo aver aperto il dashboard condiviso è possibile usare Domande e risposte per porre domande sui dati sottostanti o selezionare un riquadro per aprire e interagire con il report nella Visualizzazione di lettura.
 
-## <a name="filter-shared-dashboards-by-owner"></a>Filtrare i dashboard condivisi in base al proprietario
-Il contenuto della schermata **Condivisi con l'utente corrente** può essere ulteriormente filtrato in base al proprietario del contenuto. Ad esempio, se si seleziona **Amanda**, viene visualizzato solo il dashboard che Amanda ha condiviso con l'utente corrente.
 
-![Dashboard filtrato per proprietario](./media/end-user-shared-with-me/power-bi-owner-new.png)
+## <a name="search-and-sort-shared-dashboards"></a>Cercare e ordinare i dashboard condivisi
+Se l'elenco di contenuti diventa lungo, sono disponibili diverse opzioni per trovare gli elementi necessari. È possibile usare il campo di ricerca, ordinare l'elenco per data oppure effettuare una selezione dalla colonna **Proprietario**.    
+
+![Proprietario e ricerca nel dashboard](./media/end-user-shared-with-me/power-bi-sort.png)

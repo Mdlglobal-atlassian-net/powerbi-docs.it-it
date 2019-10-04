@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919601"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305727"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Usare stringhe di formato personalizzate in Power BI Desktop
 
@@ -148,13 +148,14 @@ La tabella seguente identifica i caratteri che è possibile usare per creare **f
 | ( **E- E+ e- e+** ) | Formato scientifico. Se l'espressione di formato contiene almeno un segnaposto di cifra ( **0** oppure **#** ) a destra di E-, E+, e- o e+, il numero viene visualizzato in formato scientifico e viene inserito E o e tra il numero e il relativo esponente. Il numero di segnaposti di cifra a destra determina il numero di cifre nell'esponente. Usare E- o e- per inserire un segno meno accanto agli esponenti negativi. Usare E+ o e+ per inserire un segno meno accanto agli esponenti negativi e un segno più accanto agli esponenti positivi. |
 | **- + $**  ( ) | Visualizzare un carattere letterale. Per visualizzare un carattere diverso da uno di quelli elencati, farlo precedere da una barra rovesciata (\) o racchiuderlo tra virgolette doppie (&quot; &quot;). |
 | ( * *\** ) | Visualizzare il carattere successivo nella stringa di formato. Per visualizzare un carattere che ha un significato speciale come carattere letterale, farlo precedere da una barra rovesciata (\). La barra rovesciata non viene visualizzata. L'uso di una barra rovesciata equivale a racchiudere il carattere successivo tra virgolette doppie. Per visualizzare una barra rovesciata, usare due barre rovesciate (\\). I caratteri di formattazione di data e ora (a, c, d, h, m, n, p, q, s, t, w, y, / e :), i caratteri di formattazione numerica (#, 0, %, E, e, virgola e punto) e il caratteri di formattazione di stringa (@, &amp;, \&lt;, \&gt; e !) sono esempi di caratteri che possono essere visualizzati come caratteri letterali. |
-| (&quot;ABC&quot;) | Visualizzare la stringa racchiusa tra virgolette doppie (&quot; &quot;). Per includere una stringa in **formato** dall'interno del codice, è necessario usare **Chr(34)** per racchiudere il testo (34 è il codice carattere per le virgolette (&quot;)). |
+| (&quot;ABC&quot;) | Visualizzare la stringa racchiusa tra virgolette doppie (&quot; &quot;). |
 
 
 ## <a name="next-steps"></a>Passaggi successivi
 Potrebbero essere interessanti anche gli articoli seguenti:
 
 * [Stringhe di formato VBA](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Misure in Power BI Desktop](desktop-measures.md)
+* [Tipi di dati in Power BI Desktop](desktop-data-types.md)
 * [Formattazione condizionale nelle tabelle](desktop-conditional-table-formatting.md)
-* [Titoli basati su espressione in Power BI Desktop](desktop-conditional-format-visual-titles.md)
 

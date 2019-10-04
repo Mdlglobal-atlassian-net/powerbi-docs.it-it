@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 5dbfa400f25f6981f7a73bffe1afad2acf735334
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: b04feaff983f2a4384fc87028355143264c6e6b1
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391897"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71325528"
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
 A volte si vuole usare Excel per visualizzare e interagire con un set di dati disponibile in Power BI. Con **Analizza in Excel**, è anche possibile accedere alle funzionalità della tabella pivot, del grafico e del filtro dei dati di Excel in base al set di dati presente in Power BI.
@@ -25,11 +25,13 @@ A volte si vuole usare Excel per visualizzare e interagire con un set di dati di
 Vi sono alcuni requisiti per l'utilizzo di**Analizza in Excel**:
 
 * La funzionalità **Analizza in Excel** è supportata da Microsoft Excel 2010 SP1 e dalle versioni successive.
+
 * Le tabelle pivot di Excel non supportano l'aggregazione di campi numerici mediante trascinamento della selezione. Il set di dati in Power BI *deve avere misure predefinite*.
 * Alcune organizzazioni potrebbero disporre di norme per criteri di gruppo che impediscono l'installazione degli aggiornamenti **Analizza in Excel** necessari per Excel. Se non si riesce a installare gli aggiornamenti, rivolgersi all'amministratore.
 * **Analizza in Excel** richiede che il set di dati sia disponibile in Power BI Premium o che l'utente abbia una licenza Power BI Pro. Per altre informazioni sulle differenze a livello di funzionalità tra i tipi di licenza, vedere [Funzionalità di Power BI in base al tipo di licenza](service-features-license-type.md). 
 * Gli utenti possono connettersi ai set di dati tramite Analizza in Excel se hanno l'autorizzazione di lettura per il set di dati sottostante.  Un utente può ottenere questa autorizzazione in diversi modi, ad esempio perché è membro dell'area di lavoro che contiene il set di dati, perché condivide un report o un dashboard che usa il set di dati o perché dispone dell'autorizzazione per un'app che contiene il set di dati.
 * **Analizza in Excel** è una funzionalità del servizio Power BI e non è disponibile in Server di report di Power BI o Power BI Embedded. 
+* La funzionalità **Analizza in Excel** è supportata solo nei computer che eseguono Microsoft Windows.
 
 ## <a name="how-does-it-work"></a>Come funziona?
 Quando si seleziona **Analizza in Excel** dal menu di puntini di sospensione (...) assieme a un set di dati o un report di **Power BI**, Power BI stesso crea un file con estensione odc e lo scarica dal browser del computer.

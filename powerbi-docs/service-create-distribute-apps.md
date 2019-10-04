@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751566"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305751"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -190,6 +190,13 @@ Questa azione disinstalla l'app per tutti gli utenti a cui è stata pubblicata, 
 All'apertura dell'app, gli utenti vedono la struttura di spostamento creata, anziché il riquadro di spostamento sinistro standard di Power BI. La struttura di spostamento dell'app elenca i report e i dashboard nelle sezioni definite. Elenca inoltre le singole pagine di ogni report, anziché semplicemente il nome del report.
 
 ![App con struttura di spostamento](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
+
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+Aspetti da tenere presenti sulla pubblicazione di app:
+
+* È possibile avere al massimo 100 utenti o gruppi nell'elenco di accesso per l'app. Si può però consentire l'accesso a più di 100 utenti. A tale scopo, usare uno o più gruppi di utenti che contengono tutti gli utenti desiderati.
+* Per la nuova esperienza dell'area di lavoro, se l'utente aggiunto all'elenco di accesso all'app ha già accesso all'app tramite l'area di lavoro, non verrà visualizzato nell'elenco di accesso per l'app.  
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare un'area di lavoro](service-create-workspaces.md)

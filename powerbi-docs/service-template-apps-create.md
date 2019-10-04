@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264559"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195408"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
@@ -47,9 +47,9 @@ Per creare un'app distribuibile ad altri tenant di Power BI è necessario crearl
 
 3. Immettere il nome, la descrizione (facoltativa) e l'immagine del logo (facoltativa) dell'area di lavoro per le app.
 
-4. Selezionare **Sviluppa un'app modello**.
+4. Espandere la sezione **Avanzate** e selezionare **Sviluppa un'app modello**.
 
-    ![Sviluppare un'app modello](media/service-template-apps-create/power-bi-template-app-develop.png)
+    ![Sviluppa un'app modello](media/service-template-apps-create/power-bi-template-app-develop.png)
 
 5. Selezionare **Salva**.
 >[!NOTE]
@@ -78,17 +78,19 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
     **Personalizzazione**
 
     ![Personalizzazione](media/service-template-apps-create/power-bi-create-branding.png)
-    - Nome dell'app
+    - Nome app
     - Descrizione
     - Sito del supporto (il collegamento viene presentato sotto le info dell'app dopo la ridistribuzione dell'app modello come app per l'organizzazione)
     - Logo dell'app (dimensione massima dei file 45K, proporzioni 1:1, formato png, jpg, jpeg)
-    - Colore del tema dell'app
+    - Colore tema dell'app
 
-    **Contenuto**
+    **Struttura di spostamento**
 
-    **Pagina di destinazione dell'app:** Definire il report o dashboard che sarà la pagina di destinazione dell'app, usare una pagina di destinazione che dia l'impressione giusta:
+    Attivare il **Nuovo generatore di struttura di spostamento** in cui è possibile definire il riquadro di spostamento a sinistra dell'app. Per informazioni dettagliate, vedere [Progettare l'esperienza di spostamento](service-create-distribute-apps.md#design-the-navigation-experience) in questo articolo.
 
-    ![Contenuto](media/service-template-apps-create/power-bi-create-content.png)
+   ![Impostare la pagina di destinazione dell'app](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **Pagina di destinazione dell'app:** Se si decide di rifiutare esplicitamente il generatore della struttura di spostamento, è possibile selezionare la pagina di destinazione dell'app. definire un report o un dashboard come pagina di destinazione dell'app. Usare una pagina di destinazione che offra la giusta impressione.
 
     **Controllo**
 
@@ -107,7 +109,6 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
     - **Valore**: valore del parametro predefinito.
     - **Obbligatorio**: usare questa opzione per richiedere che il programma di installazione inserisca un parametro specifico dell'utente.
     - **Blocco**: il blocco impedisce al programma di installazione di aggiornare un parametro.
-    - **Static** (Statico): abilitare l'opzione nel caso in cui l'app contenga *solo* dati di esempio. Quando si seleziona **Static** (Statico), l'installazione guidata non chiede agli utenti di connettersi a un'origine dati.
 
     **Accesso** Nella fase di test è possibile decidere quali altri utenti nell'organizzazione possono installare e testare l'app. È sempre possibile tornare indietro e modificare queste impostazioni in un secondo momento. Questa impostazione non influisce sull'accesso all'app modello distribuita.
 

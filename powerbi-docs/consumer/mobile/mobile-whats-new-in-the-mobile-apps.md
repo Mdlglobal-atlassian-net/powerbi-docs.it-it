@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: e74bdacc1b8ee40ec6628337e9e78528e8fdee29
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: fe8f21bbbd0886b8ff4046f744884e53f8822912
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164515"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327748"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -22,6 +22,13 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="september-2019"></a>Settembre 2019
+
+### <a name="support-for-custom-app-navigation-ios-and-android"></a>Supporto per l'esperienza di spostamento personalizzata dell'app (iOS e Android)
+
+È stato aggiunto il supporto per l'esperienza di spostamento personalizzata dell'app. Ora, quando si apre un'app in Power BI per dispositivi mobili, sarà disponibile l'esperienza di spostamento personalizzata creata dall'autore dell'app. La struttura di spostamento delle app può essere organizzata in base al contenuto e può includere nuovi elementi, ad esempio collegamenti e sezioni comprimibili.
+Vedere altre informazioni sull'[esperienza di spostamento personalizzata](https://powerbi.microsoft.com/en-us/blog/designing-custom-navigation-for-power-bi-apps-is-now-available/).
 
 ## <a name="august-2019"></a>Agosto 2019
 

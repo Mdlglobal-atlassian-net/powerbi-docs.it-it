@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867139"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256462"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Lingue e paesi/aree geografiche supportate per Power BI
 
@@ -116,14 +116,14 @@ Power BI rileva la lingua in base alle preferenze del computer usato. Le modalit
    Per visualizzare la modifica potrebbe essere necessario chiudere e riaprire il browser.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Scegliere la lingua o le impostazioni locali di Power BI Desktop
-È possibile ottenere Power BI Desktop in due modi: scaricarlo o installarlo da Windows Store.
+È possibile ottenere Power BI Desktop in due modi: scaricarlo come programma di installazione autonomo o installarlo da Windows Store.
 
-* Quando si [installa Power BI Desktop da Windows Store](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), vengono installate tutte le lingue e viene mostrata la lingua corrispondente alla lingua predefinita di Windows.
-* Quando si [scarica Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop), si sceglie la lingua durante il download. 
+* Quando si installa Power BI Desktop da Windows Store, vengono installate tutte le lingue e per impostazione predefinita viene visualizzata la lingua corrispondente alla lingua predefinita di Windows.
+* Quando si scarica Power BI Desktop come programma di installazione autonomo, è possibile scegliere la lingua predefinita quando si esegue il programma di installazione e modificarla in un secondo momento.
 * È anche possibile [scegliere le impostazioni locali da usare durante l'importazione di dati](#choose-the-locale-for-importing-data-into-power-bi-desktop) per un report specifico.
 
-### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Scegliere una lingua per Power BI Desktop installato da Windows Store
-1. [Installare Power BI Desktop](http://aka.ms/pbidesktopstore) da Windows Store.
+### <a name="choose-a-language-for-power-bi-desktop"></a>Scegliere una lingua per Power BI Desktop 
+1. Installare Power BI Desktop [da Windows Store](http://aka.ms/pbidesktopstore) o come [programma di installazione autonomo](http://aka.ms/pbiSingleInstaller).
 2. Per cambiare la lingua, nel computer cercare **Impostazioni di Windows**. 
 3. Selezionare **Ora e lingua**.
    
@@ -140,11 +140,6 @@ Per eseguire l'override dell'impostazione predefinita e usare Power BI Desktop i
 3. Nella casella **Lingua dell'applicazione** selezionare impostazioni locali diverse. 
 
 Il supporto della lingua in Power BI Desktop è limitato alle lingue visualizzate nell'elenco a discesa Lingua dell'applicazione.
-
-### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Scegliere una lingua quando si scarica Power BI Desktop
-Se si usa la versione MSI del programma di installazione di Power BI Desktop, la lingua viene impostata al momento del download. È possibile scegliere la lingua nella pagina di [download di Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=45331). 
-
-Per cambiare la lingua in Power BI Desktop dopo avere eseguito questo tipo di installazione, tornare alla pagina di download ed eseguire il download in una lingua diversa.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Scegliere le impostazioni locali da usare per l'importazione di dati in Power BI Desktop
 Quando si scarica Power BI Desktop o lo si installa da Windows Store, è possibile scegliere impostazioni locali diverse per un report specifico rispetto alle impostazioni locali della versione di Power BI Desktop in uso. Le impostazioni locali influiscono sul modo in cui i dati vengono interpretati quando vengono importati dall'origine dati, ad esempio determinano se "3/4/2017" viene interpretato come 3 aprile o 4 marzo. 

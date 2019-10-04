@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264520"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195270"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Installare e distribuire le app modello nell'organizzazione - Power BI
 
@@ -82,7 +82,7 @@ In un browser selezionare il collegamento seguente per aprire AppSource con filt
    >[!NOTE]
    >Per installare app modello che non sono elencate in AppSource è necessario richiedere le autorizzazioni di amministratore. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI.
 
-## <a name="update-and-distribute-the-app"></a>Aggiornare e distribuire l'app
+## <a name="customize-and-publish-the-app"></a>Personalizzare e pubblicare l'app
 
 Dopo aver aggiornato l'app per la propria organizzazione, si è pronti per pubblicarla. I passaggi sono gli stessi della pubblicazione di qualsiasi altra app.
 
@@ -94,7 +94,7 @@ Dopo aver aggiornato l'app per la propria organizzazione, si è pronti per pubbl
 
    ![Impostare la descrizione e il colore dell'app](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. In **Contenuto** è possibile selezionare una pagina di destinazione, ovvero il dashboard o il report.
+3. In **Spostamento** è possibile usare il nuovo generatore della struttura di spostamento per l'app oppure selezionare il dashboard o il report per la pagina di destinazione. Vedere [Progettare l'esperienza di navigazione](service-create-distribute-apps.md#design-the-navigation-experience) per altri dettagli.
 
    ![Impostare la pagina di destinazione dell'app](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ Dopo aver aggiornato l'app per la propria organizzazione, si è pronti per pubbl
 
 6. Dopo la pubblicazione, è possibile copiare il collegamento e condividerlo con gli utenti cui è stato concesso l'accesso. Se l'app è stata condivisa, gli utenti visualizzano l'app anche nella scheda **Organizzazione** in AppSource.
 
-## <a name="next-steps"></a>Passaggi successivi 
+## <a name="update-a-template-app"></a>Caricare un'app modello
+
+Gli autori di app modello possono rilasciare nuove versioni delle app modello tramite AppSource o un collegamento diretto. Quando si esegue questa operazione, è possibile aggiornare l'app modello durante la reinstallazione dell'app con la stessa versione o una versione più recente.
+
+  >[!NOTE]
+  >L'installazione di una nuova versione sovrascrive tutte le modifiche apportate ai report e ai dashboard. Per conservare i report e i dashboard aggiornati, è possibile salvarli con un nome o un percorso diverso prima dell'installazione.
+
+- **Sovrascrivi una versione esistente:** sovrascrive l'area di lavoro esistente con la versione aggiornata dell'app modello.
+
+   ![Aggiornare l'app modello](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Installa in una nuova area di lavoro:** installa una versione aggiornata dell'area di lavoro e dell'app che è necessario riconfigurare
+
+### <a name="overwrite-behavior"></a>Comportamento di sovrascrittura
+
+* La sovrascrittura aggiorna i report, i dashboard e il set di dati all'interno dell'*area di lavoro* e non l'app. La sovrascrittura non modifica la struttura di spostamento, la configurazione e le autorizzazioni dell'app.
+* Dopo aver aggiornato l'area di lavoro, è necessario *aggiornare l'app* per applicare le modifiche dall'area di lavoro all'app aziendale.
+* La sovrascrittura mantiene i parametri e l'autenticazione configurati. Dopo l'aggiornamento, viene avviato un aggiornamento automatico dei set di dati. Durante questo periodo, l'app, i report e i dashboard dell'organizzazione presentano l'esperienza dei *dati di esempio*.
+  ![Dati di esempio](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* Con la sovrascrittura vengono sempre presentati i dati di esempio fino al completamento dell'aggiornamento. Se l'autore dell'app modello ha apportato modifiche al set di dati o ai parametri, gli utenti dell'area di lavoro e dell'app continuano a vedere l'esperienza dei *dati di esempio*.
+* La sovrascrittura non comporta mai l'eliminazione dei report o dei dashboard *nuovi* aggiunti all'area di lavoro. Vengono sovrascritti i report e i dashboard originali con le modifiche apportate dall'autore originale.
+
+>[!IMPORTANT]
+>Ricordarsi di [aggiornare l'app](#customize-and-publish-the-app) dopo la sovrascrittura per applicare le modifiche ai report e ai dashboard per gli utenti dell'app aziendale.
+
+## <a name="next-steps"></a>Passaggi successivi
 
 [Creare aree di lavoro con i colleghi in Power BI](service-create-workspaces.md)
-
-
-
-
-
-￼ 
-
- 

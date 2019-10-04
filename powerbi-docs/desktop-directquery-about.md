@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 11de32b8119e8b6922dcc1a971750e4256812932
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d303e20e524ad7ac67882812b6e4f5a1d9b06c33
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654763"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305793"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso di DirectQuery in Power BI
 Quando si usa **Power BI Desktop** o il **servizio Power BI** è possibile connettersi a tutti i tipi di origini dati ed effettuare tali connessioni dati in modi diversi. È possibile *importare* dati in Power BI, operazione che rappresenta il modo più comune per ottenere i dati, oppure connettersi direttamente ai dati nel relativo repository di origine tramite **DirectQuery**. Questo articolo descrive **DirectQuery** e le relative funzionalità:
@@ -137,6 +137,7 @@ In questo contesto il termine *modellazione* indica l'azione di modifica e arric
 Quando si usa **DirectQuery** è comunque possibile apportare molti di questi miglioramenti e vale comunque il principio di arricchire i dati non elaborati per migliorare l'uso in un momento successivo. Alcune funzionalità di modellazione non sono tuttavia disponibili o sono limitate quando si usa DirectQuery. Le limitazioni vengono in genere applicate per evitare problemi di prestazioni. Le limitazioni comuni a tutte le origini DirectQuery sono elencate nell'elenco puntato seguente. Possono essere applicabili limitazioni aggiuntive alle singole origini, come descritto in *Dettagli specifici dell'origine dati* verso la fine di questo articolo.
 
 * **Nessuna gerarchia di data predefinita:** quando si importano dati, per impostazione predefinita ogni colonna date/datetime ha anche una gerarchia di data predefinita. Se ad esempio si importa una tabella di ordini di vendita che include una colonna OrderDate, quando si usa OrderDate in un oggetto visivo sarà possibile scegliere il livello appropriato (anno, mese, giorno) da usare. Questa gerarchia di data predefinita non è disponibile quando si usa la modalità DirectQuery. Si noti tuttavia che se nell'origine sottostante è disponibile la tabella Date (come avviene spesso in molti data warehouse), è possibile usare le funzionalità DAX di Business Intelligence per le gerarchie temporali come di consueto.
+* **Supporto di data/ora solo con precisione al secondo:** quando si usano le colonne temporali nel set di dati, Power BI invia le query all'origine sottostante a un livello di dettaglio di secondi. Le query non vengono inviate all'origine DirectQuery per i millisecondi, pertanto sarà necessario rimuovere questa parte degli orari dalle colonne di origine.
 * **Limitazioni nelle colonne calcolate:** le colonne calcolate possono essere solo intrariga, ovvero possono fare riferimento solo ai valori delle altre colonne della stessa tabella, senza usare funzioni di aggregazione. Le funzioni scalari DAX, ad esempio LEFT(), consentite saranno limitate a quelle che possono essere semplicemente inserite nell'origine sottostante, quindi varieranno a seconda delle funzionalità dell'origine. Le funzioni non supportate non verranno elencate nel completamento automatico quando si crea la funzione DAX per una colonna calcolata e produrranno un errore se usate.
 * **Nessun supporto per le funzioni DAX padre-figlio:** nel modello DirectQuery non è possibile usare la famiglia di funzioni DAX PATH() che in genere gestiscono strutture padre-figlio, ad esempio piani dei conti o gerarchie dei dipendenti.
 * **Le tabelle calcolate non sono supportate:** la possibilità di definire una tabella calcolata usando un'espressione DAX non è supportata nella modalità DirectQuery.

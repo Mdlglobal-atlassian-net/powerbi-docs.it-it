@@ -10,22 +10,35 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd78fc1411f1eb4e9148bb12ddf6d9805954cfd7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d90ef12e1971ddc81928746f338ba927a48d5b23
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839708"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195114"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Grafici ad anello in Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Un grafico ad anello è simile a un grafico a torta perché mostra la relazione delle parti rispetto a un intero. L'unica differenza è data dal fatto che il centro è vuoto e consente di inserire un'etichetta o un'icona.
 
+## <a name="prerequisite"></a>Prerequisito
+
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
+
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+
+
 ## <a name="create-a-doughnut-chart"></a>Creare un grafico ad anello
-Queste istruzioni usano l'esempio di analisi delle vendite al dettaglio per creare un grafico ad anello che mostra le vendite dell'anno corrente per categoria. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI o per Power BI Desktop.
 
-1. Iniziare con una pagina del report vuota. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
-
-2. Dal riquadro Campi selezionare **Sales** \> **Last Year Sales**.  
+1. Iniziare da una pagina di report vuota e selezionare **Sales** \> **Last Year Sales** dal riquadro Campi.  
    
 3. Dal riquadro Visualizzazioni selezionare l'icona per il grafico ad anello ![icona del grafico ad anello](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) per convertire il grafico a barre in un grafico ad anello. Se **Last Year Sales** non è nell'area **Valori**, trascinarlo in tale area.
      

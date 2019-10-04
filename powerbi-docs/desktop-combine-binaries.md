@@ -7,37 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239623"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327814"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Combinare file (binari) in Power BI Desktop
-Un solido approccio all'importazione di dati in **Power BI Desktop** consiste nel combinare più file con lo stesso schema in un'unica tabella logica. Con la versione di **Power BI Desktop** di novembre 2016 (e le versioni successive) questo comodo e popolare approccio è stato reso più pratico ed esteso, come descritto in questo articolo.
+Un solido approccio all'importazione di dati in **Power BI Desktop** consiste nel combinare più file con lo stesso schema in un'unica tabella logica. Questo approccio comodo e popolare è stato reso più pratico ed esteso, come descritto in questo articolo.
 
 Per avviare il processo di combinazione di file dalla stessa cartella, selezionare **Recupera dati > File > Cartella**.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-files-binaries-behavior"></a>Comportamento precedente di combinazione dei file (binari)
-Prima della versione di **Power BI Desktop** di novembre 2016 questa funzionalità era denominata **Combina binari** ed era possibile combinare determinati tipi di file con la trasformazione **Combina binari**, ma esistevano alcune limitazioni:
 
-* Le trasformazioni non venivano considerate per ogni singolo file prima che i file fossero combinati in una singola tabella. Di conseguenza, spesso era necessario combinare i file, quindi escludere i *valori di intestazione* filtrando le righe come parte del processo di modifica.
-* La trasformazione **Combina binari** funzionava solo per i file di *testo* o *CSV*, ma non per altri formati di file supportati, ad esempio cartelle di lavoro di Excel, file JSON e altri.
-
-I clienti hanno richiesto un utilizzo più intuitivo dell'operazione **Combina binari**, quindi la trasformazione è stata migliorata e rinominata **Combina file**.
-
-## <a name="current-combine-files-behavior"></a>Comportamento attuale di combinazione dei file
-**Power BI Desktop** ora gestisce la trasformazione **Combina file** (binari) in modo più efficace. Iniziare selezionando **Combina file**, ad esempio dalla scheda della barra multifunzione **Home** nell'**Editor di query** o dalla colonna stessa.
+## <a name="combine-files-behavior"></a>Comportamento di combinazione dei file
+Per **combinare file (binari)** , è possibile selezionare **Combina file** dalla scheda della barra multifunzione **Home** nell'**Editor di query** o dalla colonna stessa.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-La trasformazione **Combina file** ora si comporta come segue:
+La trasformazione **Combina file** si comporta come segue:
 
 * La trasformazione **Combina file** analizza ogni file di input e determina il formato di file corretto da usare, ad esempio un file di *testo*, una *cartella di lavoro di Excel* o un file *JSON*.
 * La trasformazione consente di selezionare un oggetto specifico dal primo file, ad esempio una *cartella di lavoro di Excel*, da estrarre.
@@ -51,7 +44,11 @@ La trasformazione **Combina file** ora si comporta come segue:
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Con il nuovo comportamento di **Combina file**, è possibile combinare facilmente tutti i file con lo stesso tipo e struttura di file (ad esempio, le stesse colonne) in una determinata cartella.
+> [!NOTE]
+> L'ambito della selezione in una cartella di lavoro di Excel influirà sul comportamento dei file binari combinati. Ad esempio, è possibile selezionare un foglio di lavoro specifico per combinare tale foglio di lavoro oppure selezionare la radice per combinare il file completo. Selezionando una cartella vengono combinati i file presenti nella cartella. 
+
+
+Con il comportamento di **Combina file** è possibile combinare facilmente tutti i file con lo stesso tipo e struttura di file (ad esempio, le stesse colonne) in una determinata cartella.
 
 È anche possibile applicare facilmente altri passaggi di trasformazione o estrazione modificando la *query di esempio* creata automaticamente, senza doversi preoccupare di modificare o creare altri passaggi della *query della funzione*. Qualsiasi modifica apportata alla *query di esempio* viene automaticamente generata nella *query della funzione* collegata.
 

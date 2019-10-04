@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: ac9ffa4d1186a8ca6d4e2d55da4311bbce55903e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161108"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194734"
 ---
 # <a name="funnel-charts"></a>Grafici a imbuto
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Un grafico a imbuto consente di visualizzare un processo lineare caratterizzato da fasi connesse in sequenza, Ad esempio un imbuto delle vendite che tiene traccia dei clienti in varie fasi: Lead \> Lead qualificato \> Potenziale cliente \> Contratto \> Chiusura.  La forma dell'imbuto indica a colpo d'occhio lo stato del processo di cui si sta tenendo traccia.
 
 Ogni fase dell'imbuto rappresenta una percentuale del totale. Quindi, nella maggior parte dei casi un grafico a imbuto ha proprio la forma di un imbuto, con la prima fase nella parte più larga e ogni fase successiva più piccola rispetto alla precedente.  È utile anche un grafico a imbuto a forma di pera, che consente di identificare un problema nel processo.  Generalmente, la prima fase, ovvero la fase di "imbocco" è la più grande.
@@ -39,27 +42,43 @@ I grafici a imbuto rappresentano un'ottima scelta nelle seguenti situazioni:
 ## <a name="working-with-funnel-charts"></a>Uso dei grafici a imbuto
 Grafici a imbuto:
 
-* Possono essere aggiunti dai report e da Domande e risposte.
 * Possono essere ordinati.
 * Supportano i multipli.
 * Possono essere evidenziati e filtrati in modo incrociato da altre visualizzazioni nella stessa pagina del report.
 * Possono essere usati per evidenziare e filtrare in modo incrociato altre visualizzazioni nella stessa pagina del report.
+   > [!NOTE]
+   > Questo video mostra come creare un grafico a imbuto usando l'esempio Sales and Marketing Sample. Seguire poi la procedura indicata sotto al video per provare in autonomia usando il file di esempio Opportunity Analysis Sample PBIX.
+   > 
+   > 
+## <a name="prerequisite"></a>Prerequisito
+
+Questa esercitazione usa il [file Opportunity Analysis Sample PBIX](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
+).
+
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Opportunity Analysis Sample PBIX**
+
+1. Aprire il **file Opportunity Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+
 
 ## <a name="create-a-basic-funnel-chart"></a>Creare un grafico a imbuto di base
-Questo video mostra come creare un grafico a imbuto usando l’esempio di analisi di vendite e marketing.
+Questo video mostra come creare un grafico a imbuto usando l'esempio Sales and Marketing Sample.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Creare ora un grafico a imbuto che mostri il numero di opportunità presenti nelle fasi di vendita.
 
-Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguire le istruzioni, [scaricare l'esempio](../sample-datasets.md) per il servizio Power BI (app.powerbi.com) o per Power BI Desktop.   
-
-1. Iniziare in una pagina di report vuota e selezionare il campo **SalesStage** \> **Sales Stage**. Se si usa il servizio Power BI, assicurarsi di aprire il report nella [Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
+1. Iniziare in una pagina di report vuota e selezionare il campo **SalesStage** \> **Sales Stage**.
    
-    ![Selezionare Sales Stage](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
-2. [Convertire il grafico](power-bi-report-change-visualization-type.md) in un imbuto. Si noti che **Fase vendite** è anche nel **gruppo** . 
-3. Dal riquadro **Campi**, selezionare **Fact** \> **Opportunity Count**.
+    ![Selezionare Sales Stage](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
+
+1. Selezionare l'icona a forma di imbuto ![Icona del grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) per convertire l'istogramma in un grafico a imbuto.
+
+2. Dal riquadro **Campi**, selezionare **Fact** \> **Opportunity Count**.
    
     ![Compilare il grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Quando si passa il puntatore del mouse su una barra, vengono visualizzate molte informazioni.
@@ -69,8 +88,8 @@ Per queste istruzioni si usa l'esempio di analisi delle opportunità. Per seguir
    * Il tasso di conversione complessivo (% di lead) 
    * Il tasso di avanzamento da fase a fase, che corrisponde alla percentuale rispetto alla fase precedente (in questo caso fase di proposta/fase della soluzione)
      
-     ![Dettagli per la barra di proposta](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Aggiungere il grafico a imbuto come riquadro del dashboard](../service-dashboard-tiles.md). 
+     ![Dettagli per la barra di proposta](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
+
 6. [Salvare il report](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
@@ -82,15 +101,6 @@ Evidenziando una barra in un grafico a imbuto viene applicato il filtro incrocia
    
    ![Breve video che illustra interazioni con oggetti visivi](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Per impostare le preferenze di evidenziazione incrociata e filtro incrociato degli oggetti visivi, vedere [Interazioni con oggetti visivi in Power BI](../service-reports-visual-interactions.md).
-
-## <a name="create-a-funnel-chart-using-qa"></a>Creare un grafico a imbuto con Domande e risposte
-Aprire il dashboard dell'Esempio di analisi delle opportunità o qualsiasi altro dashboard a cui è stata aggiunta almeno una visualizzazione dal set di dati dell'Esempio di analisi delle opportunità.  Quando si digita una domanda in Domande e risposte, Power BI cercare le risposte in tutti i set di dati associati (o con riquadri aggiunti) al dashboard selezionato. Per altre informazioni, vedere [Power BI - Concetti di base](../service-basic-concepts.md).
-
-1. Nel dashboard dell'Esempio di analisi delle opportunità iniziare a digitare la domanda nella casella Domande e risposte.
-   
-   ![casella della domanda e grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
-   
-2. Aggiungere "come imbuto" per indicare a Power BI quale tipo di visualizzazione si preferisce.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

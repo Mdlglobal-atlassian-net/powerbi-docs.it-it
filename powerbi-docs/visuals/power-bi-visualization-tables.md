@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867198"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193282"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelle nei report e nei dashboard di Power BI
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Una tabella è una griglia contenente dati correlati in una serie logica di righe e colonne. Può anche contenere intestazioni e una riga per i totali. Le tabelle sono particolarmente utili per i confronti quantitativi in cui si analizzano molti valori per una singola categoria. Ad esempio, questa tabella mostra cinque diverse misure per **Categoria**.
 
-![Screenshot di una tabella che mostra cinque diverse misure per Categoria.](media/power-bi-visualization-tables/table.png)
+![Screenshot di una tabella che mostra cinque diverse misure per Categoria.](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 È possibile creare tabelle nei report e applicare l'evidenziazione incrociata degli elementi all'interno di una tabella con altri oggetti visivi nella stessa pagina del report. È anche possibile selezionare singole celle, colonne e righe e usare l'evidenziazione incrociata, nonché copiare e incollare singole celle e selezioni di più celle in altre applicazioni.
 
@@ -36,25 +38,23 @@ Le tabelle rappresentano un'ottima scelta nelle seguenti situazioni:
 
 * Per visualizzare i dati numerici per categorie.
 
-## <a name="prerequisites"></a>Prerequisiti
+## <a name="prerequisite"></a>Prerequisito
 
-* Servizio Power BI o Power BI Desktop
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Report Retail Analysis Sample
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
 
-## <a name="get-the-retail-analysis-sample-report"></a>Ottenere il report Retail Analysis Sample
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-Per queste istruzioni si usa l'esempio di analisi delle vendite al dettaglio. Per creare una visualizzazione sono necessarie autorizzazioni di modifica per il set di dati e per il report. Fortunatamente, gli esempi di Power BI sono tutti modificabili. Non è possibile creare visualizzazioni nei report condivisi da altri utenti. Per seguire la procedura, scaricare il [report Retail Analysis Sample](../sample-datasets.md).
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
-Dopo avere scaricato il set di dati **Retail Analysis Sample**, è possibile iniziare.
 
 ## <a name="create-a-table"></a>Creare una tabella
 
 Si creerà la tabella raffigurata all'inizio dell'articolo per visualizzare i valori delle vendite per categoria di elemento.
 
-1. Da **Area di lavoro personale** selezionare **Set di dati** > **Crea report**.
-
-    ![Screenshot di Set di dati > Crea report.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. Nel riquadro **Campi** selezionare **Elemento** > **Categoria**.
 
@@ -66,11 +66,10 @@ Si creerà la tabella raffigurata all'inizio dell'articolo per visualizzare i va
 
 1. Selezionare quindi **Sales > This Year Sales** (Vendite > Vendite anno in corso) e tutte e tre le opzioni: **Valore**, **Obiettivo** e **Stato**.
 
-1. Nel riquadro **Visualizzazioni** trovare l'area **Valori** e trascinare i valori finché l'ordine delle colonne del grafico non corrisponde alla prima immagine in questa pagina. L'area **Valori** dovrebbe avere un aspetto simile al seguente:
+1. Nel riquadro **Visualizzazioni** trovare l'area **Valori** e selezionare i valori finché l'ordine delle colonne del grafico non corrisponde alla prima immagine in questa pagina. Se necessario, trascinare i valori nell'area. L'area **Valori** dovrebbe avere un aspetto simile al seguente:
 
     ![Area Valori](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. Aggiungere la tabella al dashboard selezionando l'icona Aggiungi ![puntina da disegno](media/power-bi-visualization-tables/pbi_pintile.png) nell'angolo in alto a destra dell'oggetto visivo.
 
 ## <a name="format-the-table"></a>Formattare la tabella
 
@@ -170,10 +169,6 @@ Per copiare più celle:
 1. Selezionare **Copia** > **Copia selezione**.
 
     ![Opzioni di copia](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    La copia include le intestazioni di colonna e riga.
-
-    ![Incollare in Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Regolare la larghezza della colonna di una tabella
 

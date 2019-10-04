@@ -8,143 +8,123 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/23/2019
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4b7b4b336b376f6ccec0bc0fe56de107ab8bd09
-ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
+ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67124145"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194896"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
 
-Un grafico combinato in Power BI è una singola visualizzazione che combina un grafico a linee e un istogramma. La combinazione dei due grafici in uno permette di confrontare i dati in modo più rapido.
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+Un grafico combinato in Power BI è una singola visualizzazione che combina un grafico a linee e un istogramma. La combinazione dei 2 grafici in uno permette di confrontare i dati in modo più rapido.
 
 I grafici combinati possono avere uno o due assi Y.
 
 ## <a name="when-to-use-a-combo-chart"></a>Quando usare un grafico combinato
-
 I grafici combinati rappresentano un'ottima scelta nelle seguenti situazioni:
 
-* Quando si ha un grafico a linee e un istogramma con lo stesso asse X.
+* quando si ha un grafico a linee e un istogramma con lo stesso asse X.
+* per confrontare più misure con intervalli di valori diversi.
+* per illustrare la correlazione tra due misure in una visualizzazione.
+* per verificare se una misura incontra la destinazione definita da un'altra misura
+* per risparmiare spazio nell'area di disegno.
 
-* Per confrontare più misure con intervalli di valori diversi.
+### <a name="prerequisites"></a>Prerequisiti
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Per illustrare la correlazione tra due misure in un'unica visualizzazione.
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
 
-* Per verificare se una misura incontra la destinazione definita da un'altra misura.
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-* Per risparmiare spazio nell'area di disegno.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
-## <a name="prerequisites"></a>Prerequisiti
 
-I grafici combinati sono disponibili nel servizio Power BI e in Power BI Desktop. Questa esercitazione usa il servizio Power BI per creare un grafico combinato. Assicurarsi di avere le credenziali utente per accedere a Power BI.
 
+## <a name="create-a-basic-single-axis-combo-chart"></a>Creare un grafico combinato di base ad asse singolo
 Questo video mostra come creare un grafico combinato usando l’esempio di analisi di vendite e marketing.
-
+   > [!NOTE]
+   > Questo video usa una versione precedente di Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
-## <a name="create-a-basic-single-axis-combo-chart"></a>Creare un grafico combinato semplice ad asse singolo
+<a name="create"></a>
 
-Per seguire la procedura, aprire il servizio Power BI e connettersi all'esempio **Retail Analysis Sample**. Per creare un grafico combinato personalizzato, accedere a Power BI e selezionare **Recupera dati** > **Esempi** > **Retail Analysis Sample** > **Connetti**. Verrà visualizzato il dashboard di **Retail Analysis Sample**.
+1. Iniziare in una pagina di report vuota e creare un istogramma che visualizzi le vendite dell'anno e il margine lordo per mese.
 
-1. Dal dashboard di "Retail Analysis Sample" selezionare il riquadro **Total Stores** per aprire il report **Store Sales Overview**.
+    a.  Nel riquadro Campi selezionare **Sales** \> **This Year Sales** > **Value**.
 
-1. Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica.
+    b.  Trascinare **Sales** \> **Gross Margin This Year** nell'area **Valore**.
 
-1. Nella parte inferiore della pagina selezionare **+** per aggiungere una nuova pagina del report.
+    c. Selezionare **Time** \> **FiscalMonth** per aggiungerlo all'area **Asse**.
 
-1. Creare un istogramma che visualizzi le vendite dell'anno e il margine lordo per mese.
+    ![Esempio di esercitazione per un grafico combinato](media/power-bi-visualization-combo-chart/combotutorial1new.png)
+5. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione e selezionare **Sort by > FiscalMonth**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e scegliere **Ordinamento crescente** oppure **Ordinamento decrescente**. Per questo esempio si userà l'opzione **Ordinamento crescente**.
 
-    1. Nel riquadro Campi selezionare **Sales** \> **This Year Sales** > **Value**.
+6. Convertire l'istogramma in un grafico combinato. Sono disponibili due grafici combinati: **Grafico a linee e istogramma a colonne in pila** e **Grafico a linee e istogramma a colonne raggruppate**. Con l'istogramma selezionato, nel riquadro **Visualizzazioni** selezionare **Grafico a linee e istogramma a colonne raggruppate**.
 
-    1. Trascinare **Sales** \> **Gross Margin This Year** nell'area **Valore**.
+    ![Esempio di conversione di un grafico combinato](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
+7. Dal riquadro **Campi** trascinare **Sales** \> **Last Year Sales** all’area **Valori riga**.
 
-    1. Selezionare **Time** \> **FiscalMonth** per aggiungerlo all'area **Asse**.
+   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
-        ![Screenshot dell'istogramma appena creato.](media/power-bi-visualization-combo-chart/combotutorial1new.png)
+   Il grafico combinato dovrebbe essere simile al seguente:
 
-1. Selezionare i puntini di sospensione nell'angolo superiore destro della visualizzazione e selezionare **Ordina per > FiscalMonth**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e scegliere **Ordinamento crescente** oppure **Ordinamento decrescente**.
-
-1. Convertire l'istogramma in un grafico combinato. Sono disponibili due grafici combinati: **Grafico a linee e istogramma a colonne in pila** e **Grafico a linee e istogramma a colonne raggruppate**. Con l'istogramma selezionato, nel riquadro **Visualizzazioni** selezionare **Grafico a linee e istogramma a colonne raggruppate**.
-
-    ![Screenshot del riquadro Visualizzazioni con l'opzione Grafico a linee e istogramma a colonne raggruppate evidenziata.](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
-
-1. Dal riquadro **Campi** trascinare **Sales** > **Last Year Sales** nell'area **Valori riga**.
-
-    ![Screenshot dell'area Valori riga con Last Year Sales.](media/power-bi-visualization-combo-chart/linevaluebucket.png)
-
-    Il grafico combinato dovrebbe essere simile al seguente:
-
-    ![Screenshot dell'istogramma con il valore di riga Last Year Sales aggiunto.](media/power-bi-visualization-combo-chart/combochartdone-new.png)
+   ![Esempio di grafico combinato completato](media/power-bi-visualization-combo-chart/combochartdone-new.png)
 
 ## <a name="create-a-combo-chart-with-two-axes"></a>Creare un grafico combinato con due assi
-
 In questa attività, si confronteranno margine lordo e vendite.
 
-1. Creare un nuovo grafico a linee che tiene traccia della **percentuale di margine lordo dello scorso anno** per ogni **mese**. Selezionare i puntini di sospensione per ordinare per **mese** e in **ordine crescente**.
+1. Creare un nuovo grafico a linee che tiene traccia di **Gross Margin last year %** per **FiscalMonth**. Selezionare i puntini di sospensione per ordinare per **mese** e in **ordine crescente**.  
+La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
 
-    ![Screenshot del nuovo grafico a linee.](media/power-bi-visualization-combo-chart/combo1_new.png)
+   ![Esempio di vendite nel grafico combinato](media/power-bi-visualization-combo-chart/combo1-new.png)
+2. Aggiungere **This Year Sales > Value** e **Last Year Sales** al grafico a linee. La scala usata per **Gross Margin Last Year %** è notevolmente ridotta rispetto a quella di **Sales**, di conseguenza risulta difficile confrontarle.      
 
-     La % di margine lordo nel mese di gennaio ammontava al 35%, in aprile al 45%, per poi diminuire nel mese di luglio e aumentare nuovamente in agosto. Si vedrà un modello simile per le vendite dell’anno scorso e di quest'anno?
+   ![Esempio di linea piatta nel grafico combinato](media/power-bi-visualization-combo-chart/flatline-new.png)
+3. Per facilitare la lettura e l'interpretazione dell'oggetto visivo, convertire il grafico a linee in un grafico a linee e istogramma a colonne in pila.
 
-1. Aggiungere **This Year Sales** > **Valore** e **Last Year Sales** al grafico a linee. La scala usata per **Gross Margin Last Year %** è notevolmente ridotta rispetto a quella di **Sales**, di conseguenza risulta difficile confrontarle.
+   ![Esempio di conversione in grafico combinato](media/power-bi-visualization-combo-chart/converttocombo-new.png)
 
-    ![Screenshot del grafico a linee con Valore e Last Year Sales aggiunti.](media/power-bi-visualization-combo-chart/flatline_new.png)
+4. Trascinare **% di margine lordo dello scorso anno** dai **Valori colonna** nei **Valori riga**. Power BI crea due assi, consentendo in tal modo di ridimensionare i set di dati in modo diverso: quello di sinistra misura i dollari in vendite, mentre quello di destra la percentuale. La risposta alla domanda è che effettivamente si vede un modello simile.
 
-1. Per facilitare la lettura e l'interpretazione dell'oggetto visivo, convertire il grafico a linee in un grafico a linee e istogramma a colonne in pila.
-
-    ![Screenshot del riquadro Visualizzazioni con l'opzione Grafico a linee e istogramma a colonne in pila evidenziata.](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-
-1. Trascinare **% di margine lordo dello scorso anno** dai **Valori colonna** nei **Valori riga**. 
-
-    ![Screenshot del grafico a linee e istogramma a colonne in pila](media/power-bi-visualization-combo-chart/power-bi-combochart.png)
-
-    Power BI crea due assi, consentendo al servizio di ridimensionare diversamente i set di dati. L'asse di sinistra misura i dollari, mentre quello di destra misura le percentuali. Ed ecco la risposta alla domanda: Esiste un modello simile.
+   ![Esempio di grafico combinato cluster](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Aggiungere titoli agli assi
-
-1. Selezionare l'icona del rullo ![Screenshot dell'icona del rullo.](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) per aprire il riquadro Formato.
-
+1. Selezionare l'icona del rullo 
+1. ![Icona del rullo](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) per aprire il riquadro Formato.
 1. Selezionare la freccia rivolta verso il basso per espandere le opzioni relative all' **asse Y** .
+1. Per **Asse Y (colonna)** , impostare **Posizione** su **A sinistra**, **Titolo** su **Sì**, **Stile** su **Mostra solo titolo** e **Unità visualizzate** su **Milioni**.
 
-1. Per **Asse Y (colonna)** selezionare queste opzioni:
+   ![Esempio di asse Y nel grafico combinato](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. In **Asse Y (colonna)** scorrere verso il basso fino a visualizzare **Mostra secondario**. Sono disponibili così tante opzioni per gli assi Y che potrebbe essere necessario usare entrambe le barre di scorrimento. Nella sezione Mostra secondario sono visualizzate le opzioni per la formattazione della parte di grafico a linee del grafico combinato.
 
-    | Impostazione | Valore |
-    | ------- | ----- |
-    | Posizione | Selezionare **Sinistra**. |
-    | Unità visualizzate | Selezionare **Milioni**. |
-    | Titolo | Spostare il dispositivo di scorrimento su **Attiva**. |
-    | Stile | Selezionare **Mostra solo titolo**. |
-    | Mostra secondario | Spostare il dispositivo di scorrimento su **Attiva**.  In questo modo è possibile visualizzare le opzioni per la formattazione della parte di grafico a linee del grafico combinato. |
+   ![Esempio della sezione Mostra secondario del grafico combinato](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
+5. Per **Asse Y (riga)** , lasciare **Posizione** su **A destra**, **Titolo** su **On** e impostare **Stile** su **Mostra solo titolo**.
 
-1. Per **Asse Y (riga)** selezionare queste opzioni:
+   Il grafico combinato ora visualizzerà due assi, entrambi con un titolo.
 
-    | Impostazione | Valore |
-    | ------- | ----- |
-    | Posizione | Selezionare **Destra**. |
-    | Titolo | Spostare il dispositivo di scorrimento su **Attiva**. |
-    | Stile | Selezionare **Mostra solo titolo**. |
+   ![Esempio di titoli nel grafico combinato](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
-    Il grafico combinato mostra ora due assi, entrambi con titoli.
-
-    ![Screenshot del grafico a linee e istogramma a colonne in pila con i titoli attivati.](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
-
-1. È facoltativamente possibile modificare il tipo di carattere, le dimensioni e il colore del testo e configurare altre opzioni di formattazione per migliorare la visualizzazione e la leggibilità del grafico.
+6. È facoltativamente possibile modificare il tipo di carattere, le dimensioni e il colore del testo e configurare altre opzioni di formattazione per migliorare la visualizzazione e la leggibilità del grafico.
 
 Da qui è possibile:
 
 * [Aggiungere il grafico combinato come riquadro del dashboard](../service-dashboard-tiles.md).
-
 * [Salvare il report](../service-report-save.md).
-
 * [Rendere il report più accessibile agli utenti con particolari esigenze](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Evidenziazione incrociata e filtro incrociato
 
-Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report. Usare le [interazioni visive](../service-reports-visual-interactions.md) per modificare questo comportamento predefinito.
+Evidenziando una colonna o una linea in un grafico combinato vengono applicati l'evidenziazione incrociata e il filtro incrociato nelle altre visualizzazioni nella pagina del report e viceversa. Usare le [interazioni visive](../service-reports-visual-interactions.md) per modificare questo comportamento predefinito.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

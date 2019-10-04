@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985732"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305693"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
@@ -36,14 +36,13 @@ Per i report impaginati è disponibile uno strumento di progettazione apposito c
 
 Un singolo report impaginato può avere numerose origini dati diverse e non è basato su un modello di dati sottostante, come per i report di Power BI. Per la versione iniziale dei report impaginati nel servizio Power BI, è necessario creare origini dati e set di dati incorporati nel report stesso. Per il momento, non è possibile usare origini dati condivise o set di dati condivisi. I report vengono creati in Generatore report nel computer locale. Se un report si connette ai dati in locale, dopo aver caricato il report nel servizio Power BI è necessario creare un gateway e reindirizzare la connessione dati. Di seguito sono elencate le origini dati a cui è possibile connettersi in questo momento:
 
-- Database SQL di Azure e Azure SQL Data Warehouse
+- Database SQL di Azure e Azure SQL Data Warehouse (tramite Basic e oAuth)
 - Azure Analysis Services (tramite SSO)
 - SQL Server tramite un gateway
 - SQL Server Analysis Services tramite un gateway
-- Set di dati di Power BI Premium
+- Set di dati Power BI
 - Oracle
 - Teradata
-- Altre origini aggiuntive
 
 ## <a name="design-your-report"></a>Progettare il report  
 
@@ -79,10 +78,10 @@ Per informazioni dettagliate, vedere l'articolo [Sottoscrivere per se stessi e a
 L'elenco seguente include alcune altre funzionalità non supportate nella versione iniziale:
 
 - Aggiunta di pagine del report o oggetti visivi a dashboard di Power BI. È comunque possibile aggiungere visualizzazioni a un dashboard di Power BI da un report impaginato in locale in un Server di report di Power BI o un server di report di Reporting Services. Per altre informazioni, vedere [Pin Reporting Services items to Power BI Dashboards](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards) (Aggiungere elementi di Reporting Services ai dashboard di Power BI).
-- Funzionalità interattive come le mappe documento e i pulsanti Mostra/Nascondi.
-- Sottoreport e report drill-through.
+- Mappe documento.
+- Sottoreport e report drill-through.  È tuttavia possibile prendere in considerazione l'uso di parametri URL con i report impaginati per ottenere scenari di drill-through.
 - Origini dati condivise e set di dati condivisi.
-- Oggetti visivi da report di Power BI.
+
  
 ## <a name="next-steps"></a>Passaggi successivi
 

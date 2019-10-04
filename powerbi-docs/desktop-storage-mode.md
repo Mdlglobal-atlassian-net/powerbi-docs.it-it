@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841299"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327708"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modalità di archiviazione in Power BI Desktop
 
 In Microsoft Power BI Desktop è possibile specificare la *modalità di archiviazione* delle tabelle. La *modalità di archiviazione* consente di controllare se Power BI Desktop memorizza i dati delle tabelle nella cache in memoria per i report. 
 
-![Modalità di archiviazione in Power BI Desktop](media/desktop-storage-mode/storage-mode_01.png)
+![Modalità di archiviazione in Power BI Desktop](media/desktop-storage-mode/storage-mode-01.png)
 
 L'impostazione della modalità di archiviazione offre numerosi vantaggi. È possibile impostare la modalità di archiviazione per ogni tabella singolarmente nel modello. Questa azione abilita un singolo set di dati, che offre i vantaggi seguenti:
 
@@ -48,13 +48,10 @@ L'impostazione della modalità di archiviazione in Power BI Desktop corrisponde 
 
 ## <a name="use-the-storage-mode-property"></a>Usare la proprietà modalità di archiviazione
 
-La modalità di archiviazione è una proprietà che è possibile impostare per ogni tabella nel modello. Per impostare la modalità di archiviazione, nel riquadro **Campi** fare clic con il pulsante destro del mouse sulla tabella di cui si vogliono impostare le proprietà e quindi scegliere **Proprietà**.
+La modalità di archiviazione è una proprietà che è possibile impostare per ogni tabella nel modello. Per impostare la modalità di archiviazione o visualizzare l'impostazione corrente, nella visualizzazione **Modello** selezionare la tabella di cui si vogliono visualizzare o impostare le proprietà, selezionare il riquadro **Proprietà** e quindi espandere la sezione **Avanzate** e l'elenco a discesa **Modalità di archiviazione**.
 
-![Comando Proprietà nel menu di scelta rapida](media/desktop-storage-mode/storage-mode_02.png)
+![Comando Proprietà nel menu di scelta rapida](media/desktop-storage-mode/storage-mode-02.png)
 
-La proprietà corrente viene visualizzata nell'elenco a discesa **Modalità di archiviazione** nel riquadro **Proprietà campo** della tabella. Da qui è possibile visualizzare la modalità di archiviazione corrente o modificarla.
-
-![Impostare la modalità di archiviazione per una tabella](media/desktop-storage-mode/storage-mode_03.png)
 
 Esistono tre valori per la modalità di archiviazione:
 
@@ -77,11 +74,11 @@ Le tabelle Dual hanno gli stessi vincoli funzionali delle tabelle DirectQuery, i
 ## <a name="propagation-of-dual"></a>Propagazione di Doppia
 Si consideri il modello semplice seguente, in cui tutte le tabelle provengono da un'origine singola che supporta le impostazioni Importa e DirectQuery.
 
-![Visualizzazione Relazioni di esempio per la modalità di archiviazione](media/desktop-storage-mode/storage-mode_04.png)
+![Visualizzazione Relazioni di esempio per la modalità di archiviazione](media/desktop-storage-mode/storage-mode-04.png)
 
 Per iniziare, si supponga che tutte le tabelle in questo modello siano di tipo DirectQuery. Se si modifica la **modalità di archiviazione** della tabella *SurveyResponse* impostando Importa, viene visualizzata la finestra di avviso seguente:
 
-![Finestra di avviso per la modalità di archiviazione](media/desktop-storage-mode/storage-mode_05.png)
+![Finestra di avviso per la modalità di archiviazione](media/desktop-storage-mode/storage-mode-05.png)
 
 Le tabelle delle dimensioni (*Customer*, *Geography* e *Date*) possono essere impostate su **Dual** per ridurre il numero di relazioni deboli nel set di dati e migliorare le prestazioni. Le relazioni deboli implicano in genere almeno una tabella DirectQuery in cui non è possibile effettuare il push della logica di join nei sistemi di origine. Il fatto che le tabelle **Dual** possano fungere da DirectQuery o Import consente di evitare questo problema.
 
@@ -123,15 +120,15 @@ Le query che fanno riferimento a tabelle in modalità **Doppia** restituiscono d
 
 Proseguendo con l'esempio precedente, la query seguente fa riferimento solo a una colonna dalla tabella *Date*, in modalità **Doppia**. La query dovrebbe pertanto ottenere un riscontro positivo dalla cache.
 
-![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode_06.png)
+![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode-06.png)
 
 La query seguente fa riferimento solo a una colonna dalla tabella *Sales*, in modalità **DirectQuery**. Pertanto, *non* dovrebbe trovare riscontri nella cache.
 
-![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode_07.png)
+![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode-07.png)
 
 La query seguente è interessante perché combina entrambe le colonne. Questa query non ottiene un riscontro positivo dalla cache. Si potrebbe inizialmente prevedere di recuperare i valori *CalendarYear* dalla cache e i valori *SalesAmount* dall'origine e quindi combinare i risultati, ma questo approccio sarebbe meno efficiente rispetto all'invio dell'operazione SUM/GROUP BY al sistema di origine. Se viene eseguito il push dell'operazione all'origine, il numero di righe restituite sarà probabilmente molto inferiore. 
 
-![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode_08.png)
+![Script per la diagnostica della modalità di archiviazione](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Questo comportamento è diverso dalle [relazioni molti-a-molti in Power BI Desktop](desktop-many-to-many-relationships.md) quando le tabelle memorizzate nella cache e non memorizzate nella cache sono combinate.
@@ -145,7 +142,7 @@ La modalità di archiviazione *Doppia* è un'ottimizzazione delle prestazioni. D
 ## <a name="data-view"></a>Vista dati
 Se per almeno una tabella nel set di dati la modalità di archiviazione è impostata su **Importa** o **Doppia**, viene visualizzata la scheda **Vista dati**.
 
-![Visualizzazione dati in Power BI Desktop](media/desktop-storage-mode/storage-mode_09.png)
+![Visualizzazione dati in Power BI Desktop](media/desktop-storage-mode/storage-mode-03.png)
 
 Se selezionate in **Vista dati**, le tabelle in modalità **Doppia** e **Importa** mostrano i dati memorizzati nella cache. Le tabelle in modalità DirectQuery non mostrano dati e viene visualizzato un messaggio che indica che non è possibile visualizzare tabelle DirectQuery.
 

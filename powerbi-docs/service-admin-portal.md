@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/20/2019
+ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175252"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305888"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -522,6 +522,15 @@ Per impostazione predefinita, i dati usati con Power BI vengono archiviati nello
 Come amministratore, è possibile visualizzare le aree di lavoro esistenti nel tenant. È possibile ordinare e filtrare l'elenco delle aree di lavoro e visualizzare i dettagli per ognuna di esse. Le colonne della tabella corrispondono alle proprietà restituite dall'[API REST di amministrazione di Power BI](/rest/api/power-bi/admin) per le aree di lavoro. Le aree di lavoro personali sono di tipo **PersonalGroup**, le aree di lavoro classiche sono di tipo **Group** e le aree di lavoro della nuova esperienza sono di tipo **Workspace**. Per altre informazioni, vedere [Creare le nuove aree di lavoro in Power BI](service-create-the-new-workspaces.md).
 
 ![Elenco delle aree di lavoro](media/service-admin-portal/workspaces-list.png)
+
+Nella scheda **Aree di lavoro** viene visualizzato lo *stato* per ogni area di lavoro. Nella tabella seguente sono disponibili altri dettagli sul significato di tali stati.
+
+|State  |Descrizione  |
+|---------|---------|
+| Attivo | Una normale area di lavoro. Non indica informazioni sull'utilizzo o il contenuto, ma segnala solo che l'area di lavoro stessa è "normale". |
+| Orfana | Un'area di lavoro senza utente amministratore. |
+| Eliminata | Un'area di lavoro eliminata. Se lo si desidera, vengono mantenuti metadati sufficienti per ripristinare l'area di lavoro. |
+| Rimozione | È in corso l'eliminazione di un'area di lavoro, ma l'area di lavoro è ancora disponibile. Gli utenti possono eliminare le aree di lavoro personali, attivando lo stato Rimozione e poi Eliminata per gli elementi. |
 
 ## <a name="custom-branding"></a>Personalizzazione
 
