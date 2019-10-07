@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 28b77cfeda1f84f3643216dba45bef40bd6441ff
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ca9233f6373f8732f0996a09d7fe83ea18431f88
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513228"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715334"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrare l'organizzazione governativa statunitense al servizio Power BI
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata per i clienti del Governo degli Stati Uniti ed è separata e diversa dalla versione a pagamento del **servizio Power BI**.
@@ -123,7 +123,7 @@ Per identificare gli utenti del tenant che usano la licenza gratuita di Power BI
 Power BI offre infinite possibilità. Per altre informazioni e per la formazione, tra cui un articolo che illustra come effettuare l'iscrizione al servizio, vedere le risorse seguenti:
 
 * [Panoramica di Power BI per il Governo degli Stati Uniti](service-govus-overview.md)
-* [Apprendimento guidato per Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
+* [Apprendimento guidato per Power BI](guided-learning/index.md)
 * [Introduzione al servizio Power BI](service-get-started.md)
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 

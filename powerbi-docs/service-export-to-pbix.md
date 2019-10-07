@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994816"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715195"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Scaricare un report dal servizio Power BI in Power BI Desktop (anteprima)
 In Power BI Desktop è possibile pubblicare un report (un file con estensione *pbix*) dal computer locale al servizio Power BI. I report di Power BI possono essere scaricati anche nell'altra direzione, ovvero dal servizio Power BI a Power BI Desktop. L'estensione per un report Power BI, in entrambi i casi, è pbix.
@@ -26,7 +26,7 @@ Occorre tenere presenti alcune limitazioni e considerazioni, che verranno discus
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Scaricare il report come file con estensione pbix
 
-È possibile scaricare e aggiornare solo i report [creati con Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) dopo il 23 novembre 2016. Se un report è stato creato prima di tale data, la voce di menu **Scarica report** nel servizio Power BI è inattiva.
+È possibile scaricare e aggiornare solo i report [creati con Power BI Desktop](/learn/modules/publish-share-power-bi/2-publish-reports) dopo il 23 novembre 2016. Se un report è stato creato prima di tale data, la voce di menu **Scarica report** nel servizio Power BI è inattiva.
 
 Per scaricare il file con estensione pbix, seguire questi passaggi:
 

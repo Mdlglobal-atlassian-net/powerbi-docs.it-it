@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401823"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945822"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -157,7 +157,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Elenco SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
 | Database di Sybase |No |No |Sì |Sì |
-| Database Teradata |No |No |Sì |Sì |
+| Teradata |No |No |Sì |Sì |
 | appFigures (Beta) |No |No |No |No |
 | Database di Azure Analysis Services (Beta) |No |No |No |No |
 | Azure Cosmos DB (Beta) |No |No |No |No |
@@ -204,7 +204,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Database Oracle |No |No |Sì |Sì |Sì |
 | Server SAP Business Warehouse |No |No |Sì |No |No |
 | Database SAP HANA |No |No |Sì |Sì |No |
-| Database Teradata |No |No |Sì |Sì |Sì |
+| Teradata |No |No |Sì |Sì |Sì |
 
 
 ## <a name="next-steps"></a>Passaggi successivi

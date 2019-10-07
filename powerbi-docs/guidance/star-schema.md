@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840619"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715502"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
@@ -205,6 +205,6 @@ Questo approccio di progettazione basato su relazioni molti-a-molti è ben docum
 Per altre informazioni sulla progettazione di uno schema a stella o di un modello di Power BI, vedere gli articoli seguenti:
 
 - [Articolo di Wikipedia sulla modellazione dimensionale](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Creare e gestire le relazioni in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Relazioni con cardinalità molti-a-molti in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [Esperienza di apprendimento guidato per la creazione di modelli](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Creare e gestire le relazioni in Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Relazioni con cardinalità molti-a-molti in Power BI Desktop](../desktop-many-to-many-relationships.md)
+- [Esperienza di apprendimento guidato per la creazione di modelli](/learn/modules/model-data-power-bi/)
