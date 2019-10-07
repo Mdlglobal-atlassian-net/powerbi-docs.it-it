@@ -1253,7 +1253,7 @@
                       href: service-gateway-sso-kerberos-sap-hana.md
                     - name: SAP BW - sapcrypto.dll (Common Crypto Library)
                       href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
-                    - name: SAP BW - gx64krb5.dll e gsskrb5.dll
+                    - name: SAP BW - gx64krb5.dll
                       href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
             - name: SSO basato su SAML
               href: service-gateway-sso-saml.md
