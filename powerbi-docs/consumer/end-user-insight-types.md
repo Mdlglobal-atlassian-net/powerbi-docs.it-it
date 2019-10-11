@@ -4,23 +4,25 @@ description: Informazioni rapide e Visualizza informazioni dettagliate con Power
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327766"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943911"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipi di informazioni dettagliate supportate da Power BI
+
+Il servizio Power BI può cercare automaticamente informazioni dettagliate nei dashboard o nei report.
+
 ## <a name="how-does-insights-work"></a>Funzionamento delle informazioni dettagliate
-Power BI cerca rapidamente diversi subset del set di dati durante l'applicazione di una serie di algoritmi complessi per individuare informazioni potenzialmente interessanti. Power BI analizza il maggior numero possibile di set di dati in un periodo di tempo stabilito.
+Power BI cerca rapidamente diversi subset del set di dati. Durante la ricerca, Power BI applica un set di algoritmi sofisticati per individuare informazioni potenzialmente interessanti. Power BI analizza il maggior numero possibile di set di dati in un periodo di tempo stabilito.
 
 È possibile eseguire le informazioni dettagliate rispetto a un set di dati o a un riquadro del dashboard.   
 
@@ -74,8 +76,6 @@ Per i dati in una serie temporale, viene rilevato quando sono presenti date o or
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Informazioni dettagliate di Power BI](end-user-insights.md)
-
-Se è disponibile un set di dati, [ottimizzarlo per le informazioni dettagliate](../service-insights-optimize.md).
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
 

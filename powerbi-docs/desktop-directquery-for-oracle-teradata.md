@@ -1,6 +1,6 @@
 ---
-title: Uso di DirectQuery per database Oracle e Teradata in Power BI
-description: DirectQuery per database Oracle e Teradata
+title: Uso di DirectQuery per Oracle e Teradata in Power BI
+description: DirectQuery per Oracle e Teradata
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a5447ce377a3205d293559a78c1041d7cb8277c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 893671c6d8cd578b54cbf9e4cb78781c26defc0d
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61304031"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944912"
 ---
-# <a name="directquery-for-oracle-and-teradata-databases"></a>DirectQuery per database Oracle e Teradata
+# <a name="directquery-for-oracle-and-teradata"></a>DirectQuery per Oracle e Teradata 
 Per informazioni sulle origini dati e su DirectQuery, vedere [Origini dati di DirectQuery](desktop-directquery-data-sources.md).
 

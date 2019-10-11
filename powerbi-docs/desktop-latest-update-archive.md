@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142213"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944885"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
@@ -2290,8 +2290,8 @@ Grandi passi avanti questo mese con altri aggiornamenti. Febbraio quest'anno ha 
 
 ### <a name="data-connectivity"></a>Connettività dei dati:
 
--   Supporto di **DirectQuery** per database Oracle e Teradata
--   **DirectQuery**: supporto della creazione di colonne calcolate
+-   Supporto di **DirectQuery** per Oracle e Teradata
+-   Supporto di **DirectQuery** per la creazione di colonne calcolate
 -   Supporto della pubblicazione di report dinamici di Analysis Services
 -   Connettore per file JSON
 -   Connettore per SQL Sentry

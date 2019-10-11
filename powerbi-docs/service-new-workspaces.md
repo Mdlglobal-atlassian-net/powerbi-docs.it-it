@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750889"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715202"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "70750889"
 La nuova esperienza delle aree di lavoro è disponibile a livello generale ed è ora l'area di lavoro predefinita. È comunque possibile continuare a creare e usare [aree di lavoro classiche](service-create-workspaces.md) basate su Gruppi di Office 365. 
 
 > [!NOTE]
-> Per applicare la sicurezza a livello di riga per gli utenti che esplorano il contenuto in un'area di lavoro, usare il ruolo Visualizzatore. Se il ruolo Visualizzatore non è ancora disponibile nel tenant, continuare a usare le [aree di lavoro classiche](service-create-workspaces.md) e selezionare l'opzione **I membri possono solo visualizzare il contenuto di Power BI**. In alternativa, pubblicare un'app di Power BI per gli utenti oppure usare la condivisione per distribuire il contenuto.
+> Per applicare la sicurezza a livello di riga per gli utenti che esplorano il contenuto in un'area di lavoro, usare il ruolo Visualizzatore. Per applicare la sicurezza a livello di riga senza concedere l'accesso all'area di lavoro, pubblicare un'app Power BI per tali utenti o usare la condivisione per distribuire il contenuto.
 
 Con le nuove aree di lavoro è possibile:
 
@@ -73,11 +73,14 @@ Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e
 | Consentire ad altri utenti di ricondividere a loro volta gli elementi. |  X | X  |   |   |
 | Creare, modificare ed eliminare contenuto nell'area di lavoro.  |  X | X  | X  |   |
 | Pubblicare report nell'area di lavoro, eliminare contenuto.  |  X | X  | X  |   |
-| Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro. |  X | X  | X  | X <sup>1</sup>  |
-| Copiare un report. | X | X | X | X <sup>1</sup> |
+| Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro. |  X | X  | X  |   |
+| Copiare un report. | X | X | X |  |
 | Visualizzare un elemento e interagire con esso. |  X | X  | X  | X  |
 
-**1** Richiede una licenza di Power BI Pro e l'[autorizzazione di compilazione per i set di dati](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
+> [!NOTE]
+>Per copiare un report e creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro, gli utenti dovranno soddisfare criteri aggiuntivi:
+>- È necessaria una licenza di Power BI Pro. 
+>- È necessaria l'autorizzazione di creazione per il set di dati. Per i set di dati in questa area di lavoro, le persone con i ruoli Amministratore, Membro e Collaboratore hanno l'autorizzazione di creazione tramite il ruolo dell'area di lavoro.
  
 ## <a name="licensing"></a>Gestione delle licenze
 Tutti gli utenti che vengono aggiunti a un'area di lavoro nella capacità condivisa devono avere una licenza di Power BI Pro. Nell'area di lavoro tutti gli utenti possono collaborare sui dashboard e i report che si intende pubblicare e rendere disponibili a un pubblico più ampio o all'intera organizzazione. 

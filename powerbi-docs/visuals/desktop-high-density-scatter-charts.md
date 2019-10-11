@@ -10,24 +10,22 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d627b74d4c681e409424b18a117743e0488dc34c
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394112"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715460"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Campionamento ad alta densità nei grafici a dispersione di Power BI
-A partire dalla versione di settembre 2017 di **Power BI Desktop** e dagli aggiornamenti del **servizio Power BI**, è disponibile un nuovo algoritmo di campionamento che migliora il modo in cui i grafici a dispersione rappresentano i dati ad alta densità.
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+A partire dalla versione di settembre 2017 di **Power BI Desktop**, è disponibile un nuovo algoritmo di campionamento che migliora il modo in cui i grafici a dispersione rappresentano i dati ad alta densità.
 
 È ad esempio possibile creare un grafico a dispersione dall'attività di vendita dell'organizzazione, in cui ogni negozio ha decine di migliaia di punti dati ogni anno. Un grafico a dispersione di tali informazioni campionerebbe i dati (selezionerebbe cioè una rappresentazione significativa dei dati, per illustrare come le vendite procedono nel tempo) dai dati disponibili, creando un grafico a dispersione che rappresenta i dati sottostanti. Si tratta di una pratica comune nei grafici a dispersione ad alta densità. Power BI ha migliorato il campionamento dei dati ad alta densità, come descritto dettagliatamente in questo articolo.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
-
-> [!NOTE]
-> L'algoritmo di **campionamento ad alta densità** descritto in questo articolo è disponibile nei grafici a dispersione sia per **Power BI Desktop** che per il **servizio Power BI**.
-> 
-> 
+![esempio di grafico a dispersione](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
 
 ## <a name="how-high-density-scatter-charts-work"></a>Funzionamento dei grafici a dispersione ad alta densità
 In precedenza, **Power BI** selezionava una raccolta di punti dati di esempio nell'intero intervallo di dati sottostanti in modo deterministico per cerare un grafico a dispersione. In particolare, Power BI seleziona la prima e l'ultima riga di dati nella serie del grafico a dispersione, quindi divide uniformemente le righe restanti in modo che un totale di 3.500 punti dati venga tracciato nel grafico a dispersione. Se ad esempio il campione ha 35.000 righe, la prima e l'ultima riga vengono selezionate per il tracciato, quindi viene tracciata anche una riga ogni dieci (35.000 / 10 = una riga ogni dieci = 3.500 punti dati). Sempre in precedenza, i punti o i valori Null che non potevano essere tracciati (ad esempio, i valori di testo) nella serie di dati non venivano visualizzati e quindi non tenuti in considerazione durante la generazione dell'oggetto visivo. Con tale campionamento, anche la densità percepita del grafico a dispersione si basava sui punti dati rappresentativi, quindi la densità implicita degli oggetti visivi era il risultato dei punti campionati, non della raccolta completa dei dati sottostanti.
@@ -60,20 +58,22 @@ In alcuni casi non è possibile applicare il **campionamento ad alta densità** 
 
 * Se si fa clic con il pulsante destro del mouse su un valore in **Dettagli** e lo si imposta su **Mostra elementi senza dati** nel menu, il grafico a dispersione tornerà all'algoritmo originale.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![esempio di Mostra elementi senza dati](media/desktop-high-density-scatter-charts/high-density-scatter-charts-02.png)
 * Se sono presenti valori sull'asse di **riproduzione**, il grafico a dispersione ripristinerà l'algoritmo originale.
 * Se in un grafico a dispersione mancano sia l'asse X che l'asse Y, il grafico ripristina l'algoritmo originale.
 * Se si usa una **riga del rapporto** nel riquadro **Analisi**, il grafico ripristina l'algoritmo originale.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![esempio di utilizzo della linea del rapporto](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Come attivare il campionamento ad alta densità per un grafico a dispersione
 Per attivare **Campionamento ad alta densità**, selezionare un grafico a dispersione, andare al riquadro **Formattazione**, espandere la scheda **Generale** e nella parte inferiore della scheda posizionare il dispositivo di scorrimento **Campionamento ad alta densità** su **Sì**.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![esempio di campionamento ad alta densità](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
 
 > [!NOTE]
 > Dopo l'attivazione del dispositivo di scorrimento, Power BI proverà a usare l'algoritmo di **campionamento ad alta densità** ogni volta che sia possibile. Quando l'algoritmo non può essere usato (ad esempio, quando si inserisce un valore nell'asse di *riproduzione*), il dispositivo di scorrimento rimane impostato su **Attiva** anche se il grafico ha ripristinato l'algoritmo standard. Se quindi si rimuove un valore dall'asse di *riproduzione* (o cambiano le condizioni per abilitare l'uso dell'algoritmo di campionamento ad alta densità), il grafico userà automaticamente il campionamento ad alta densità per tale grafico, perché il dispositivo di scorrimento è attivo.
+> 
+
 > 
 > [!NOTE]
 > I punti dati vengono raggruppati o selezionati dall'indice. La presenza di una legenda non influisce sul campionamento per l'algoritmo, ma solo sull'ordinamento dell'oggetto visivo.

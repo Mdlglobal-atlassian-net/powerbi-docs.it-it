@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985698"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968921"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
@@ -59,18 +59,59 @@ Il carico di lavoro Intelligenza artificiale consente di usare servizi cognitivi
 
 ### <a name="datasets"></a>Set di dati
 
-Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non può essere disabilitato. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro.
+Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non può essere disabilitato. Usare le impostazioni seguenti per controllare il comportamento del carico di lavoro. Sotto la tabella sono disponibili altre informazioni sull'utilizzo per alcune impostazioni.
 
 | Nome dell'impostazione | Descrizione |
 |---------------------------------|----------------------------------------|
 | **Memoria massima (%)** | Percentuale massima di memoria disponibile che i set di dati possono usare in una capacità. |
 | **Endpoint XMLA** | Specifica che le connessioni dalle applicazioni client rispettano l'appartenenza al gruppo di sicurezza impostata a livello di area di lavoro e di app. Per altre informazioni, vedere [Connettersi ai set di dati con applicazioni client e strumenti](service-premium-connect-tools.md). |
-| **Max Intermediate Row Set Count** (Numero massimo di set di righe intermedie) | Numero massimo di righe intermedie restituite da DirectQuery. Il valore predefinito è 1 milione e l'intervallo consentito è compreso tra 100000 e 2147483647. Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
-| **Dimensioni massime del set di dati offline (GB)** | Dimensioni massime del set di dati offline in memoria. Si tratta delle dimensioni compresse su disco. Il valore predefinito è impostato dallo SKU e l'intervallo consentito è compreso tra 0,1 e 10 GB. Usare questa impostazione per impedire agli autori di report di pubblicare un set di dati di grandi dimensioni che potrebbe influire negativamente sulla capacità. |
-| **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Numero massimo di righe restituite in una query DAX. Il valore predefinito è -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647. Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
-| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile che può essere usata per i risultati temporanei in una query o in una misura DAX. Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. |
-| **Timeout query (secondi)** | Quantità massima di tempo prima del timeout di una query. Il valore predefinito è 3600 secondi (1 ora). Il valore 0 specifica che non è previsto un timeout per le query. Usare questa impostazione per mantenere un controllo migliore sulle query con esecuzione prolungata. |
+| **Max Intermediate Row Set Count** (Numero massimo di set di righe intermedie) | Numero massimo di righe intermedie restituite da DirectQuery. Il valore predefinito è 1 milione e l'intervallo consentito è compreso tra 100000 e 2147483647. |
+| **Dimensioni massime del set di dati offline (GB)** | Dimensioni massime del set di dati offline in memoria. Si tratta delle dimensioni compresse su disco. Il valore predefinito è impostato dallo SKU e l'intervallo consentito è compreso tra 0,1 e 10 GB. |
+| **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Numero massimo di righe restituite in una query DAX. Il valore predefinito è -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647. |
+| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile che può essere usata per i risultati temporanei in una query o in una misura DAX. |
+| **Timeout query (secondi)** | Quantità massima di tempo prima del timeout di una query. Il valore predefinito è 3600 secondi (1 ora). Il valore 0 specifica che non è previsto un timeout per le query. |
 |  |  |  |
+
+#### <a name="max-intermediate-row-set-count"></a>Max Intermediate Row Set Count (Numero massimo di set di righe intermedie)
+
+Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. Quando una query a un set di dati DirectQuery genera un risultato di dimensioni molto grandi dal database di origine, può causare un picco nell'utilizzo della memoria e nell'overhead di elaborazione. Questa situazione può causare un esaurimento quasi completo delle risorse di altri utenti e report. Questa impostazione consente all'amministratore della capacità di regolare il numero di righe che una singola query può recuperare dall'origine dati.
+
+In alternativa, se la capacità può supportare più di un milione di righe per impostazione predefinita e si ha un set di dati di grandi dimensioni, aumentare questa impostazione per recuperare più righe.
+
+Si noti che questa impostazione ha effetto solo sulle query DirectQuery, mentre [Max Result Row Set Count](#max-result-row-set-count) (Numero massimo di set di righe di risultati) ha effetto sulle query DAX.
+
+#### <a name="max-offline-dataset-size"></a>Dimensioni massime del set di dati offline
+
+Usare questa impostazione per impedire agli autori di report di pubblicare un set di dati di grandi dimensioni che potrebbe influire negativamente sulla capacità. Si noti che Power BI non riesce a determinare le dimensioni effettive in memoria finché il set di dati non viene caricato in memoria. È possibile che un set di dati con una dimensione offline inferiore abbia un footprint della memoria maggiore rispetto a un set di dati con una dimensione offline maggiore.
+
+Se un set di dati esistente ha dimensioni superiori a quelle specificate per questa impostazione, il set di dati non viene caricato quando un utente prova ad accedervi.
+
+#### <a name="max-result-row-set-count"></a>Max Result Row Set Count (Numero massimo di set di righe di risultati)
+
+Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. Se questo limite viene raggiunto in una query DAX, un utente del report visualizza l'errore seguente. Dovrà copiare i dettagli dell'errore e contattare un amministratore.
+
+![Non è stato possibile caricare i dati per questo elemento visivo](media/service-admin-premium-workloads/could-not-load-data.png)
+
+Si noti che questa impostazione ha effetto solo sulle query DAX, mentre [Max Intermediate Row Set Count](#max-intermediate-row-set-count) (Numero massimo di set di righe intermedie) ha effetto sulle query DirectQuery.
+
+#### <a name="query-memory-limit"></a>Limite di memoria query
+
+Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. Alcune query e calcoli possono produrre risultati intermedi che usano una grande quantità di memoria nella capacità. Questa situazione può rallentare molto l'esecuzione di altre query, causare l'eliminazione di altri set di dati dalla capacità e generare errori di memoria insufficiente per altri utenti della capacità.
+
+Questa impostazione si applica all'aggiornamento dei dati e al rendering del report. L'aggiornamento dei dati esegue sia l'aggiornamento dei dati dall'origine dati che l'aggiornamento delle query, a meno che l'aggiornamento delle query non sia disabilitato. Se l'aggiornamento delle query non è disabilitato, questo limite di memoria si applica anche a tali query. Tutte le query con esito negativo causano la segnalazione dello stato di aggiornamento pianificato come errore, anche se l'aggiornamento dei dati ha avuto esito positivo.
+
+#### <a name="query-timeout"></a>Timeout query
+
+Usare questa impostazione per mantenere un controllo migliore sulle query con esecuzione prolungata, che possono rallentare il caricamento dei report per gli utenti. Questa impostazione si applica all'aggiornamento dei dati e al rendering del report. L'aggiornamento dei dati esegue sia l'aggiornamento dei dati dall'origine dati che l'aggiornamento delle query, a meno che l'aggiornamento delle query non sia disabilitato. Se l'aggiornamento delle query non è disabilitato, questo limite di timeout si applica anche a tali query.
+
+Questa impostazione si applica a una singola query e non al tempo necessario per l'esecuzione di tutte le query associate all'aggiornamento di un set di dati o di un report. Si consideri l'esempio seguente:
+
+- L'impostazione **Timeout query** è pari a 1200 (20 minuti).
+- Devono essere eseguite cinque query, ognuna delle quali richiede 15 minuti.
+
+Il tempo totale per tutte le query è di 75 minuti, ma il limite dell'impostazione non viene raggiunto perché ogni singola query viene eseguita per meno di 20 minuti.
+
+Si noti che i report di Power BI eseguono l'override di questa impostazione predefinita con un timeout molto più ridotto per ogni query alla capacità. Il timeout per ogni query è in genere di circa tre minuti.
 
 ### <a name="dataflows"></a>Flussi di dati
 

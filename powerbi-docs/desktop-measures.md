@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730174"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715390"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Misure in Power BI Desktop
 
 **Power BI Desktop** consente di creare informazioni dettagliate sui dati con pochi semplici clic. Tuttavia, a volte i dati non includono tutto ciò che occorre per rispondere ad alcune domande importanti. A questo scopo possono essere usate le misure.
 
-Le misure vengono usate in alcune delle analisi dei dati più comuni. È possibile impostare alcuni semplici riepiloghi, ad esempio somme, medie, minime, massime e conteggi, attraverso l'area campi, come discusso nel video [Opzioni di riepilogo e categoria](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16). È possibile creare personalmente calcoli più avanzati usando una formula DAX. I risultati calcolati delle misure vengono aggiornati costantemente in base alle operazioni dell'utente nei report e consentono un'esplorazione dei dati ad hoc, rapida e dinamica, come verrà illustrato nelle sezioni successive.
+Le misure vengono usate in alcune delle analisi dei dati più comuni. È possibile impostare alcuni semplici riepiloghi, ad esempio somme, medie, minime, massime e conteggi, attraverso l'area campi. I risultati calcolati delle misure vengono aggiornati costantemente in base alle operazioni dell'utente nei report e consentono un'esplorazione dei dati ad hoc, rapida e dinamica, come verrà illustrato nelle sezioni successive. Per altre informazioni, vedere [Creare misure calcolate](/learn/modules/model-data-power-bi/4b-create-calculated-measures).
 
 ## <a name="understanding-measures"></a>Informazioni sulle misure
 

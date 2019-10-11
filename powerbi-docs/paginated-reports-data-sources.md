@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462324"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968663"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origini dati supportate per i report impaginati di Power BI
 
@@ -27,6 +27,7 @@ I report impaginati supportano in modalità nativa l'elenco di origini dati segu
 | Origine dati | Autenticazione | Note |
 | --- | --- | --- |
 | Database SQL di Azure <br>Azure SQL Data Warehouse | Di base, Single Sign-On (SSO), OAuth2 |   |
+| Istanza gestita di SQL di Azure | Di base | tramite l'endpoint pubblico con l'estensione per il database SQL di Azure  |
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Set di dati di Power BI | SSO | Set di dati di Power BI Premium e non Premium |
 | Set di dati di Power BI Premium (XMLA) | SSO |   |

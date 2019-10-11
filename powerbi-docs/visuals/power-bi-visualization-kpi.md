@@ -11,19 +11,24 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8fa39c7cc57e24f0c19e1a484c0e925bfeec94f7
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389681"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715237"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Oggetti visivi indicatore di prestazioni chiave (KPI)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Un indicatore di prestazioni chiave (KPI) è un segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. Per altre informazioni sugli indicatori KPI, vedere [Indicatori di prestazioni chiave (KPI) in PowerPivot](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110)).
 
 Il video seguente mostra come creare singoli oggetti visivi di metrica: misuratori, schede e indicatori KPI.
-
+   > [!NOTE]
+   > Questo video usa una versione precedente di Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>Quando usare un indicatore KPI
@@ -42,19 +47,19 @@ I set di dati degli indicatori KPI devono contenere valori obiettivo per gli ind
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* [Power BI Desktop](https://powerbi.microsoft.com/get-started/) è gratuito.
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
 
-* [File PBIX di Retail Analysis Sample](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 ## <a name="how-to-create-a-kpi"></a>Come creare un indicatore KPI
 
-Per seguire la procedura, aprire il [file con estensione pbix dell'esempio di analisi delle vendite al dettaglio](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) in Power BI Desktop. Verrà creato un indicatore KPI che misura lo stato di avanzamento verso il raggiungimento di un obiettivo di vendita.
-
-1. Aprire **Retail Analysis Sample** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
-
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+In questo esempio verrà creato un indicatore KPI che misura lo stato di avanzamento verso il raggiungimento di un obiettivo di vendita.
 
 1. Nel riquadro **Campi** selezionare **Sales > Total Units This Year**.  Questo valore sarà l'indicatore.
 

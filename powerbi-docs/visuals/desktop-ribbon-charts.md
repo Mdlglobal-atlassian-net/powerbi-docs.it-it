@@ -1,6 +1,6 @@
 ---
 title: Usare grafici a nastri in Power BI
-description: Creare e usare grafici a nastri nel servizio Power BI e in Power BI Desktop
+description: Creare e usare grafici a nastri in Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,20 +10,34 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840084"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715486"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Usare grafici a nastri in Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 È possibile usare grafici a nastri per visualizzare i dati e individuare rapidamente la categoria di dati di livello più alto (valore più elevato). I grafici a nastri rappresentano una valida opzione nella visualizzazione delle variazioni di posizione, con il valore massimo visualizzato sempre in cima per ogni periodo di tempo. 
 
-![Grafico a nastri](media/desktop-ribbon-charts/ribbon-charts_01.png)
+![Grafico a nastri](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+## <a name="prerequisites"></a>Prerequisiti
+
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
+
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 ## <a name="create-a-ribbon-chart"></a>Creare un grafico a nastri
-Per seguire la procedura, aprire il [report di esempio di analisi delle vendite al dettaglio](../sample-retail-analysis.md). 
 
 1. Per creare un grafico a nastri, selezionare **Grafico a nastri** nel riquadro **Visualizzazioni**.
 
@@ -31,13 +45,13 @@ Per seguire la procedura, aprire il [report di esempio di analisi delle vendite 
 
     I grafici a nastri collegano una categoria di dati in relazione al periodo di tempo visualizzato tramite nastri, consentendo di osservare la posizione di una categoria lungo l'asse X del grafico, che in genere rappresenta la sequenza temporale.
 
-2. Selezionare i campi per **Asse**, **Legenda** e **Valore**.  In questo esempio sono state effettuate le selezioni seguenti: **Date** (Data), **Category** (Categoria) e **This year sales** (Vendite anno corrente).  
+2. Selezionare i campi per **Asse**, **Legenda** e **Valore**.  In questo esempio sono state effettuate le selezioni seguenti: **Store** > **OpenDate**, **Item** > **Category** e **Sales** > **This year sales** > **Value**.  
 
-    ![campi selezionati](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
+    ![Campi selezionati](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    Poiché il set di dati contiene dati per un solo anno, il campo **Year** (Anno) è stato rimosso dall'area **Asse**. 
+    Poiché il set di dati contiene dati per un solo anno, il campo **Year** e **Quarter** sono stati rimossi dall'area **Asse**.
 
-3. Il grafico a nastri visualizza la classifica a mesi alterni. Si noti come la classifica varia nel tempo.  Ad esempio la categoria Home (Casa) passa dal terzo al quarto posto e quindi di nuovo al terzo posto. La categoria Juniors (Ragazzi) passa dal terzo al quinto posto nel mese di luglio. 
+3. Il grafico a nastri visualizza la classifica per ogni mese. Si noti come la classifica varia nel tempo. La categoria Home, ad esempio, passa da seconda in febbraio a quinta in marzo.
 
     ![Grafico a nastri](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
@@ -57,7 +71,7 @@ Dato che il grafico a nastri non dispone di etichette dell'asse y, può risultar
 
 ![opzioni di formattazione per le etichette dati](media/desktop-ribbon-charts/power-bi-labels.png)
 
-Impostare le opzioni di formattazione per le etichette dati.  In questo esempio il colore del testo è stato impostato su bianco, le cifre decimali su zero e le unità di visualizzazione su migliaia. 
+Impostare le opzioni di formattazione per le etichette dati. In questo esempio il colore del testo è stato impostato su bianco e le unità di visualizzazione su migliaia.
 
 ![modello di grafico a nastri nel riquadro Visualizzazione](media/desktop-ribbon-charts/power-bi-data-labels.png)
 

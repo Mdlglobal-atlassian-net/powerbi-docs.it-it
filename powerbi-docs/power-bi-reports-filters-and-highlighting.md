@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: cfae856cf80027a92fb7d19c27b990aa659d992d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342175"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968739"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtri ed evidenziazione nei report di Power BI
  Questo articolo illustra i filtri e l'evidenziazione nel servizio Power BI. L'esperienza è quasi identica in Power BI Desktop. Con i *filtri* viene rimosso tutto tranne i dati rilevanti. L'*evidenziazione* è un'operazione diversa dall'applicazione di filtri. Non vengono rimossi i dati, ma viene evidenziato un subset dei dati visibili. I dati non evidenziati rimangono visibili ma in grigio.
@@ -28,7 +28,7 @@ Esistono molti modi diversi per filtrare ed evidenziare i report in Power BI. In
 * Presentazione dettagliata dei [controlli filtro ed evidenziazione disponibili nella visualizzazione di modifica](power-bi-report-add-filter.md) in Power BI Desktop e nel servizio Power BI. Nell'articolo vengono esaminati in dettaglio i tipi di filtri, ad esempio data e ora, numeri e testo. Vengono anche illustrate le differenze tra le opzioni di base e avanzate.
 * Dopo aver appreso come funzionano i filtri e l'evidenziazione per impostazione predefinita, è possibile scoprire come [interagiscono le visualizzazioni in una pagina per quanto riguarda i filtri e l'evidenziazione](service-reports-visual-interactions.md)
 
-**Non tutti lo sanno, ma** Power BI include una nuova esperienza di filtro, attualmente in anteprima. Per altre informazioni, vedere [Nuova esperienza di filtro nei report di Power BI](power-bi-report-filter.md).
+**Non tutti lo sanno, ma** Power BI include una nuova esperienza di filtro. Per altre informazioni, vedere [Nuova esperienza di filtro nei report di Power BI](power-bi-report-filter.md).
 
 ![Nuova esperienza di filtro](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 

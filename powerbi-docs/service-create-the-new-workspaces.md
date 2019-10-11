@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904151"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715541"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creare le nuove aree di lavoro in Power BI
 
@@ -28,7 +28,7 @@ Ecco quali sono le differenze. Nelle nuove aree di lavoro è possibile:
 - Usare ruoli dell'area di lavoro con maggiore granularità per aumentare la flessibilità di gestione delle autorizzazioni in un'area di lavoro.
 
 > [!NOTE]
-> Per applicare la sicurezza a livello di riga per gli utenti di Power BI Pro che esplorano il contenuto in un'area di lavoro, continuare a usare le [aree di lavoro classiche](service-create-workspaces.md). Selezionare l'opzione **I membri possono solo visualizzare il contenuto di Power BI**. In alternativa, pubblicare un'app di Power BI per gli utenti oppure usare la condivisione per distribuire il contenuto. Il ruolo Visualizzatore disponibile a breve imminente consentirà questo tipo di scenario in futuro nelle nuove aree di lavoro.
+> Per applicare la sicurezza a livello di riga per gli utenti di Power BI Pro che esplorano il contenuto in un'area di lavoro, assegnare agli utenti il ruolo Visualizzatore.
 
 Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](service-new-workspaces.md).
 
@@ -40,9 +40,9 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
 
 2. Verrà automaticamente creata un'area di lavoro aggiornata, a meno che non si scelga di **ripristinare la versione classica**.
    
-     ![Nuova esperienza di area di lavoro](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
+     ![New workspace experience](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Se si seleziona **Ripristina versione classica**, si crea un'area di lavoro basata su un gruppo di Office 365. Usare questa opzione se è necessario usare **I membri possono solo visualizzare il contenuto di Power BI** per applicare la sicurezza a livello di riga per i membri dell'area di lavoro.
+     Se si seleziona **Ripristina versione classica**, si crea un'[area di lavoro basata su un gruppo di Office 365](service-create-workspaces.md). 
 
 2. Assegnare un nome all'area di lavoro. Se il nome non è disponibile, modificarlo in modo da ottenere un nome univoco.
    
