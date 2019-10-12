@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715237"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239939"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Oggetti visivi indicatore di prestazioni chiave (KPI)
 
@@ -50,12 +50,12 @@ I set di dati degli indicatori KPI devono contenere valori obiettivo per gli ind
 Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
-   
-2. Trovare la copia del **file Retail Analysis Sample PBIX**
 
-1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Trovare la copia del **file Retail Analysis Sample PBIX**
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Aprire il **file PBIX di Retail Analysis Sample** in visualizzazione report. ![Screenshot dell'icona della visualizzazione report.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Selezionare **+** per aggiungere una nuova pagina. ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>Come creare un indicatore KPI
 
