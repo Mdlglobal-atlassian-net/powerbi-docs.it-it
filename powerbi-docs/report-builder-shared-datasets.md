@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471584"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021037"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Usare set di dati condivisi in Generatore report di Power BI
 
@@ -20,14 +20,14 @@ ms.locfileid: "68471584"
 
 ![Dal report di Power BI Desktop al report impaginato di Generatore Report](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-Non è necessario che il set di dati si trovi in un'area di lavoro con capacità Premium né che l'utente sia membro di tale area di lavoro. È sufficiente avere l'[autorizzazione di creazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) per il set di dati. Per pubblicare il report impaginato, è necessaria una licenza di Power BI Pro. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium.
+Non è necessario che il set di dati si trovi in un'area di lavoro con capacità Premium né che l'utente sia membro di tale area di lavoro. È sufficiente avere l'[autorizzazione di creazione](service-datasets-build-permissions.md) per il set di dati. Per pubblicare il report impaginato, è necessaria una licenza di Power BI Pro. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium.
 
 ## <a name="what-you-need"></a>Elementi necessari
 
 Ecco un elenco degli elementi necessari e non necessari per usare un set di dati condiviso in Generatore report di Power BI.
 
 - Generatore report di Power BI. [Scaricare e installare Generatore report di Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Per accedere a un set di dati di Power BI, è necessaria l'autorizzazione di creazione per il set di dati. Leggere le informazioni sull'[autorizzazione di creazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Per accedere a un set di dati di Power BI, è necessaria l'autorizzazione di creazione per il set di dati. Leggere le informazioni sull'[autorizzazione di creazione](service-datasets-build-permissions.md).
 - Non è necessaria una licenza di Power BI Pro per creare un report impaginato in Generatore report. 
 - È necessaria una licenza di Power BI Pro per pubblicare il report impaginato. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium. 
 - Facoltativo: per seguire questo articolo, è possibile scaricare il [file con estensione pbix dell'esempio di analisi delle vendite al dettaglio](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) di Power BI Desktop, aprirlo in Power BI Desktop e aggiungere una tabella con numerose colonne. Nel riquadro **Formato** disattivare **Totali**. Pubblicare quindi il report in un'area di lavoro nel servizio Power BI.
