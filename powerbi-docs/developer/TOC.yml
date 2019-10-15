@@ -15,9 +15,9 @@
         - name: Esercitazioni
           items:
             - name: Sviluppare un oggetto visivo di Power BI
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: Aggiungere opzioni di formattazione
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: Aggiungere unit test per il progetto di oggetto visivo
               href: visuals/unit-tests-introduction.md
         - name: Concetti
