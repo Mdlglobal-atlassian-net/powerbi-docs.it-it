@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654935"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239951"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuovo aspetto del servizio Power BI
 
-Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto che rende più semplice la visualizzazione e l'interazione con i report. Il nuovo aspetto è un'esperienza moderna più semplice che si basa sulla familiarità con altri prodotti Microsoft. Nel servizio Power BI il contenuto del report viene messo in evidenza grazie al passaggio a una combinazione di colori più chiara e all'aggiornamento delle icone. Ecco una panoramica delle modifiche apportate con il nuovo aspetto. Per informazioni dettagliate, vedere le sezioni numerate:
+Il servizio Power BI (app.powerbi.com) ha un nuovo aspetto che rende più semplice la visualizzazione e l'interazione con i report. Il nuovo aspetto, più semplice, si basa sulla familiarità con altri prodotti Microsoft. Nel servizio Power BI il contenuto del report viene messo in evidenza grazie al passaggio a una combinazione di colori più chiara e all'aggiornamento delle icone. Ecco una panoramica delle modifiche apportate con il nuovo aspetto. Per informazioni dettagliate, vedere le sezioni numerate:
 
 ![Panoramica delle modifiche apportate con il nuovo aspetto](media/service-new-look/power-bi-new-look-changes.png)
+
+Per trovare un'azione specifica, vedere [Nuovo aspetto: dove sono le azioni?](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>Presentazione rapida delle modifiche
 
@@ -70,7 +72,7 @@ Si è alla ricerca delle azioni del menu **File**? Le azioni che in precedenza s
 
 ## <a name="6-new-filter-experience"></a>6. Nuova esperienza di filtro
 
-Gli aggiornamenti recenti, come la visualizzazione dei filtri applicati e il nuovo riquadro dei filtri, sono disponibili per impostazione predefinita con il nuovo aspetto. Anche se i progettisti di un report non hanno eseguito l'aggiornamento alla nuova esperienza dei filtri, verrà visualizzato il nuovo riquadro dei filtri.
+Gli aggiornamenti recenti, come la visualizzazione dei filtri applicati e il nuovo riquadro dei filtri, sono disponibili per impostazione predefinita con il nuovo aspetto. Anche se il designer di un report non ha eseguito l'aggiornamento alla nuova esperienza dei filtri, verrà visualizzato il nuovo riquadro dei filtri.
 
 ![Ripetizione filtro](media/service-new-look/power-bi-new-look-filters.png)
 

@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d83a57b2b1f8e2ca0887f2432f2de43647900b81
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721416"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020632"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Rimuovere la connessione a un pacchetto di contenuto aziendale di Power BI
 
 > [!NOTE]
-> Non è possibile creare pacchetti di contenuto aziendali né installarli nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
+> Non è possibile creare pacchetti di contenuto aziendali né installarli nelle nuove aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
 > 
 
 Un collaboratore ha creato un pacchetto di contenuto, che è stato individuato in AppSource e aggiunto all'area di lavoro di Power BI. Ora però non è più necessario.  Come fare a rimuoverlo?

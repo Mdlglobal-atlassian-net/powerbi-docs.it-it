@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624034"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019602"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard di Power BI per i progettisti
 
@@ -29,9 +29,6 @@ I dashboard sono una funzionalità solo del servizio Power BI. Non sono disponib
 
 Le visualizzazioni mostrate nel dashboard sono chiamate *riquadri*. I riquadri vengono *aggiunti* a un dashboard dai report. Se non si ha familiarità con Power BI, è possibile apprendere le nozioni di base utili leggendo [Basic concepts for designers in the Power BI service](service-basic-concepts.md) (Concetti di base sul servizio Power BI per i progettisti).
 
-> [!IMPORTANT]
-> Per creare i dashboard è necessaria una licenza [Power BI Pro](service-free-vs-pro.md).
-
 Le visualizzazioni in un dashboard provengono da report e ogni report è basato su un set di dati. Un dashboard può essere considerato una via d'accesso ai report e ai set di dati sottostanti. Selezionando una visualizzazione si accede al report e al set di dati su cui è basata.
 
 ![Diagramma che illustra la relazione tra dashboard, report e set di dati](media/service-dashboards/power-bi-diagram.png)
@@ -40,6 +37,13 @@ Le visualizzazioni in un dashboard provengono da report e ogni report è basato 
 I dashboard sono uno strumento molto utile per monitorare l'attività aziendale e visualizzare tutte le metriche più importanti. Le visualizzazioni in un dashboard possono provenire da uno o più set di dati e uno o più report sottostanti. Un dashboard combina i dati locali e quelli del cloud, offrendo una visualizzazione consolidata indipendentemente dalla posizione dei dati.
 
 Un dashboard non è solo un bel quadro d'insieme, ma è estremamente interattivo e i riquadri si aggiornano al variare dei dati sottostanti.
+
+## <a name="who-can-create-a-dashboard"></a>Chi può creare un dashboard?
+La creazione di un dashboard è una funzionalità per *autori* e richiede autorizzazioni di modifica sul report. Le autorizzazioni di modifica sono disponibili per gli autori dei report e per i colleghi a cui l'autore concede l'accesso. Ad esempio, se un utente crea un report in un'area di lavoro e aggiunge un altro utente come membro dell'area di lavoro, entrambi avranno le autorizzazioni di modifica. Se invece un report viene condiviso direttamente o come parte di un'[app Power BI](service-create-distribute-apps.md), significa che si sta *utilizzando* il report. Potrebbe non essere possibile aggiungere riquadri a un dashboard. 
+
+> [!IMPORTANT]
+> Per creare dashboard nelle aree di lavoro è necessaria una licenza [Power BI Pro](service-free-vs-pro.md). È possibile creare dashboard nell'area di lavoro personale senza una licenza Power BI Pro.
+
 
 ## <a name="dashboards-versus-reports"></a>Dashboard e report a confronto
 I [report](service-reports.md) e i dashboard appaiono simili poiché sono entrambi aree di disegno contenenti visualizzazioni. Esistono tuttavia alcune differenze principali, come si può notare nella tabella seguente.
@@ -52,7 +56,7 @@ I [report](service-reports.md) e i dashboard appaiono simili poiché sono entram
 | Sottoscrivi |Sì. È possibile sottoscrivere un dashboard |Sì. È possibile sottoscrivere una pagina di un report |
 | Applicazione di filtri |No. Non è possibile filtrare o sezionare |Sì. Molti modi diversi di filtrare, evidenziare e sezionare |
 | In primo piano |Sì. È possibile impostare un dashboard come *in primo piano* |No |
-| Preferito | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
+| Aggiungi a Preferiti | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
 | Impostazione di avvisi |Sì. Disponibile per i riquadri del dashboard in determinate circostanze |No |
 | Query in linguaggio naturale (Domande e risposte) |Sì | Sì, purché si disponga delle autorizzazioni di modifica per il report e per il set di dati sottostante |
 | Permette di visualizzare i campi e le tabelle del set di dati sottostante |No. È possibile esportare i dati, ma le tabelle e i campi nel dashboard stesso non sono visibili. |Sì |

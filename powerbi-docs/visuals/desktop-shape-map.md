@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623923"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164021"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Creare un oggetto visivo **forma mappa** per confrontare le aree di una mappa usando i colori. A differenza dell'oggetto visivo **mappa**, l'oggetto visivo **forma mappa** non è in grado di visualizzare la posizione geografica precisa dei punti dati su una mappa. Lo scopo principale di questo oggetto visivo è di illustrare il confronto tra aree in una mappa applicando alle aree colori diversi.
 
 Gli oggetti visivi **forme mappa** si basano sulle mappe ESRI/TopoJSON che offrono l'interessante possibilità di usare mappe personalizzate create dall'utente, ad esempio posizioni geografiche, disposizioni di posti a sedere, planimetrie e altro ancora. L'uso di mappe personalizzate non è disponibile in questa versione di anteprima di **Forme mappa**.
@@ -113,7 +116,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="australia-states"></a>Australia: Stati
 
-| id | abbr | iso | nome | postale |
+| ID | abbr | iso | nome | postale |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia occidentale |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,7 +129,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="austria-states"></a>Austria: Stati
 
-| id | iso | nome | nome-it | postale |
+| ID | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -140,7 +143,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="brazil-states"></a>Brasile: Stati
 
-| id |
+| ID |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -176,7 +179,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="canada-provinces"></a>Canada: Province
 
-| id | iso | nome | postale |
+| ID | iso | nome | postale |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territori del Nord-Ovest |NT |
@@ -194,7 +197,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="france-regions"></a>Francia: Regioni
 
-| id | nome | nome-it |
+| ID | nome | nome-it |
 | --- | --- | --- |
 | Alsace |Alsace |Alsazia |
 | Rhone Alpes |Rhône-Alpes |Rodano-Alpi |
@@ -221,7 +224,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="germany-states"></a>Germania: Stati
 
-| id | iso | nome | nome-it | postale |
+| ID | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlino |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -242,7 +245,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="ireland-counties"></a>Irlanda: Contee
 
-| id |
+| ID |
 | --- |
 | Wicklow |
 | Wexford |
@@ -273,7 +276,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="italy-regions"></a>Italia: Regioni
 
-| id | iso | nome | nome-it | postale |
+| ID | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle d'Aosta |VD |
@@ -298,7 +301,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="mexico-states"></a>Messico: Stati
 
-| id | abbreviazione | iso | nome | nome-it | postale |
+| ID | abbreviazione | iso | nome | nome-it | postale |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -335,7 +338,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="netherlands-provinces"></a>Paesi Bassi: Province
 
-| id | iso | nome | nome-it |
+| ID | iso | nome | nome-it |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -352,7 +355,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="uk-countries"></a>Regno Unito: Paesi
 
-| id | iso | nome |
+| ID | iso | nome |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galles |
 | gb-sct |GB-SCT |Scozia |
@@ -361,7 +364,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="usa-states"></a>USA: Stati
 
-| id | nome | postale |
+| ID | nome | postale |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |

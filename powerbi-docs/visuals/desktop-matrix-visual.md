@@ -10,17 +10,20 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2f50a6fc9fccc35333257caaf3efeb8185c8caff
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 0015921990bb35a7ac5e6652b018ef16485e5b9c
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67390382"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164537"
 ---
 # <a name="use-the-matrix-visual-in-power-bi"></a>Usare l'oggetto visivo Matrice in Power BI
-L'oggetto visivo **Matrice** è simile a una **tabella**.  Una tabella supporta due dimensioni e i dati non sono strutturati. In altre parole, i valori duplicati vengono visualizzati senza essere aggregati. Una matrice offre la possibilità di visualizzare facilmente i dati in modo significativo su più dimensioni poiché supporta un layout con rientri. La matrice aggrega automaticamente i dati e consente il drill-down. 
 
-È possibile creare oggetti visivi Matrice nei report di **Power BI Desktop** e del **servizio Power BI** e applicare l'evidenziazione incrociata degli elementi inclusi nella matrice con altri oggetti visivi nella pagina del report. È ad esempio possibile selezionare singole celle, colonne e righe e usare l'evidenziazione incrociata. Le singole celle e le selezioni di più celle possono inoltre essere copiate e incollate in altre applicazioni. 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+L'oggetto visivo Matrice è simile a una tabella.  Una tabella supporta due dimensioni e i dati non sono strutturati. In altre parole, i valori duplicati vengono visualizzati senza essere aggregati. Una matrice offre la possibilità di visualizzare facilmente i dati in modo significativo su più dimensioni poiché supporta un layout con rientri. La matrice aggrega automaticamente i dati e consente il drill-down. 
+
+È possibile creare oggetti visivi Matrice nei report di **Power BI Desktop** e applicare l'evidenziazione incrociata degli elementi inclusi nella matrice con altri oggetti visivi nella pagina del report. È ad esempio possibile selezionare singole celle, colonne e righe e usare l'evidenziazione incrociata. Le singole celle e le selezioni di più celle possono inoltre essere copiate e incollate in altre applicazioni. 
 
 ![matrice con evidenziazione incrociata e grafico ad anello](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -29,7 +32,7 @@ Alla matrice sono associate molte funzionalità, che verranno illustrate nelle s
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Informazioni sulla modalità di calcolo dei totali in Power BI
 
-Prima di passare alle informazioni su come usare l'oggetto visivo **Matrice**, è importante comprendere come Power BI calcola i valori totali e subtotali in tabelle e matrici. Per le righe di subtotale e totale, Power BI valuta la misura su tutte le righe nei dati sottostanti. Non si tratta di una semplice somma dei valori nelle righe visibili o visualizzate. Questo significa che la riga del totale può in effetti contenere valori diversi dal previsto.
+Prima di passare alle informazioni su come usare l'oggetto visivo Matrice, è importante comprendere come Power BI calcola i valori totali e subtotali in tabelle e matrici. Per le righe di subtotale e totale, Power BI valuta la misura su tutte le righe nei dati sottostanti. Non si tratta di una semplice somma dei valori nelle righe visibili o visualizzate. Questo significa che la riga del totale può in effetti contenere valori diversi dal previsto.
 
 Per meglio comprendere il concetto, iniziare esaminando gli oggetti visivi Matrice seguenti. 
 
@@ -83,7 +86,7 @@ Oltre a usare queste icone, è possibile selezionare una delle intestazioni di r
 
 Si noti che nel menu visualizzato sono presenti alcune opzioni, che generano risultati diversi:
 
-Se si seleziona **Drill-down**, la matrice viene espansa per lo *specifico* livello di riga, *escludendo* tutte le altre intestazioni di riga tranne quella selezionata. Nell'immagine seguente è stata selezionata **Proposal** (Proposta) > **Drill-down**. Si noti che le altre righe di livello principale non compaiono più nella matrice. Questa modalità di drilling è molto utile e risulterà particolarmente interessante nella sezione dedicata all'**evidenziazione incrociata**.
+Se si seleziona **Drill-down**, la matrice viene espansa per lo *specifico* livello di riga, *escludendo* tutte le altre intestazioni di riga tranne quella selezionata. Nell'immagine seguente è stata selezionata **Proposal** (Proposta) > **Drill-down**. Si noti che le altre righe di livello principale non compaiono più nella matrice. Questa modalità di drilling è molto utile e risulterà particolarmente interessante nella sezione dedicata all'evidenziazione incrociata.
 
 ![drill-down di un livello nella matrice](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
@@ -100,7 +103,7 @@ Selezionare l'icona **Drill-up** nell'angolo superiore sinistro per visualizzare
 ![Matrice dopo l'applicazione di Espandi a Proposal (Proposta)](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Drill-down in intestazioni di colonna
-Come per le righe, è possibile eseguire il drill-down nelle **colonne**. Nell'immagine seguente sono presenti due campi nell'area **Colonne** che creano una gerarchia simile a quella usata in precedenza per le righe in questo articolo. L'area **Colonne** include i campi *Region* (Area) e *Segment* (Segmento). Non appena è stato aggiunto il secondo campo a **Colonne**, viene visualizzato un nuovo menu a discesa sull'oggetto visivo in cui è presente la voce **Righe**.
+Come per le righe, è possibile eseguire il drill-down nelle colonne. Nell'immagine seguente sono presenti due campi nell'area **Colonne** che creano una gerarchia simile a quella usata in precedenza per le righe in questo articolo. L'area **Colonne** include i campi *Region* (Area) e *Segment* (Segmento). Non appena è stato aggiunto il secondo campo a **Colonne**, viene visualizzato un nuovo menu a discesa sull'oggetto visivo in cui è presente la voce **Righe**.
 
 ![Matrice dopo l'aggiunta del secondo valore della colonna](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
@@ -108,7 +111,7 @@ Per eseguire il drill-down nelle colonne, selezionare **Colonne** dal menu *Dril
 
 ![menu per il drill-down relativo alle colonne](media/desktop-matrix-visual/power-bi-matrix-column.png)
 
-Quando si seleziona **Drill-down**, viene visualizzato il livello successivo della gerarchia delle colonne per *Region > East* (Area > Orientale), che in questo caso è *Opportunity count* (Numero opportunità). L'altra area è visibile, ma risulta inattiva.
+Quando si seleziona **Drill-down**, viene visualizzato il livello successivo della gerarchia delle colonne per *Region > East* (Area > Orientale), che in questo caso è *Opportunity count* (Numero opportunità). L'altra area è nascosta.
 
 ![matrice con il drill-down di un livello per le colonne](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
@@ -119,21 +122,21 @@ Le altre voci di menu per le colonne funzionano esattamente come per le righe. V
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Layout con rientri con gli oggetti visivi matrice
 
-L'oggetto visivo **Matrice** applica automaticamente un rientro alle sottocategorie in una gerarchia al di sotto di ogni elemento padre. Questa struttura è definita **Layout con rientri**.
+L'oggetto visivo Matrice applica automaticamente un rientro alle sottocategorie in una gerarchia al di sotto di ogni elemento padre. Questa struttura è definita Layout con rientri.
 
-Nella versione originale dell'oggetto visivo Matrice, le sottocategorie sono visualizzate in una colonna totalmente diversa e occupano più spazio nell'oggetto visivo. L'immagine seguente illustra la tabella nell'oggetto visivo **Matrice** originale, con le sottocategorie visualizzate in una colonna separata.
+Nella versione originale dell'oggetto visivo Matrice, le sottocategorie sono visualizzate in una colonna totalmente diversa e occupano più spazio nell'oggetto visivo. L'immagine seguente illustra la tabella nell'oggetto visivo Matrice originale, con le sottocategorie visualizzate in una colonna separata.
 
 ![Screenshot dell'oggetto visivo Matrice precedente che mostra le sottocategorie in una colonna distinta.](media/desktop-matrix-visual/matrix-visual_14.png)
 
-Nell'immagine seguente è presente un oggetto visivo **Matrice** con la funzionalità **Layout con rientri** attiva. La categoria *Computers* include alcune sottocategorie (Computers Accessories, Desktops, Laptops, Monitors e così via) leggermente rientrate, per cui l'oggetto visivo risulta più chiaro e conciso.
+Nell'immagine seguente è presente un oggetto visivo Matrice con il Layout con rientri attivo. La categoria *Computers* include alcune sottocategorie (Computers Accessories, Desktops, Laptops, Monitors e così via) leggermente rientrate, per cui l'oggetto visivo risulta più chiaro e conciso.
 
 ![modalità attuale di formattazione dei dati della matrice](media/desktop-matrix-visual/matrix-visual_13.png)
 
-È possibile regolare facilmente le impostazioni di Layout con rientri. Con l'oggetto visivo **Matrice** selezionato, nella sezione **Formato** (icona del rullo) del riquadro **Visualizzazioni** espandere la sezione **Intestazioni di riga**. Sono disponibili due opzioni: l'interruttore **Layout con rientri** (per attivarlo o disattivarlo) e **Rientro del layout con rientri** (per specificare il rientro, in pixel).
+È possibile regolare facilmente le impostazioni di Layout con rientri. Con l'oggetto visivo Matrice selezionato, nella sezione **Formato** (icona del rullo) del riquadro **Visualizzazioni** espandere la sezione Intestazioni di riga. Sono disponibili due opzioni: l'interruttore Layout con rientri (per attivarlo o disattivarlo) e Rientro del layout con rientri (per specificare il rientro, in pixel).
 
 ![Scheda delle intestazioni di riga che mostra il controllo Layout con rientri](media/desktop-matrix-visual/power-bi-stepped-matrix.png)
 
-Se si disattiva **Layout con rientri**, Power BI mostra le sottocategorie in un'altra colonna, anziché rientrate sotto la categoria padre.
+Se si disattiva Layout con rientri, Power BI mostra le sottocategorie in un'altra colonna, anziché rientrate sotto la categoria padre.
 
 ## <a name="subtotals-with-matrix-visuals"></a>Subtotali con oggetti visivi matrice
 
@@ -141,7 +144,7 @@ Negli oggetti visivi matrice è possibile attivare o disattivare i subtotali, si
 
 ![matrice con subtotali e totali](media/desktop-matrix-visual/matrix-visual_20.png)
 
-Nella sezione **Formato** del riquadro **Visualizzazioni** espandere la scheda **Subtotali** e impostare il dispositivo di scorrimento **Subtotali righe** su **No**. In questo caso, i subtotali non vengono visualizzati.
+Nella sezione Formato del riquadro Visualizzazioni espandere la scheda **Subtotali** e impostare il dispositivo di scorrimento Subtotali righe su **No**. In questo caso, i subtotali non vengono visualizzati.
 
 ![matrice con subtotali disattivati](media/desktop-matrix-visual/matrix-visual_21.png)
 
@@ -149,16 +152,15 @@ Lo stesso processo vale per i subtotali delle colonne.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Evidenziazione incrociata con gli oggetti visivi matrice
 
-Con l'oggetto visivo **Matrice** è possibile selezionare qualsiasi elemento nella matrice come base per l'evidenziazione incrociata. Quando si seleziona una colonna in un oggetto visivo **Matrice**, Power BI evidenzia la colonna come per gli altri oggetti visivi nella pagina del report. Questo tipo di evidenziazione incrociata accomuna da sempre altri oggetti visivi e le selezioni di un punto dati, quindi ora è estesa anche all'oggetto visivo **Matrice**.
+Con l'oggetto visivo Matrice è possibile selezionare qualsiasi elemento nella matrice come base per l'evidenziazione incrociata. Quando si seleziona una colonna in un oggetto visivo Matrice, Power BI evidenzia la colonna come per gli altri oggetti visivi nella pagina del report. Questo tipo di evidenziazione incrociata accomuna da sempre altri oggetti visivi e le selezioni di un punto dati, quindi ora è estesa anche all'oggetto visivo Matrice.
 
-Anche per l'evidenziazione incrociata è possibile usare CTRL+clic per selezionare. Nell'immagine seguente, ad esempio, è stato selezionato un insieme di sottocategorie dall'oggetto visivo **Matrice**. Si noti come gli elementi che non sono stati selezionati nell'oggetto visivo sono visualizzati in grigio, mentre gli altri oggetti visivi nella pagina riflettono le selezioni effettuate nell'oggetto visivo **Matrice**.
+Anche per l'evidenziazione incrociata è possibile usare CTRL+clic per selezionare. Nell'immagine seguente, ad esempio, è stato selezionato un insieme di sottocategorie dall'oggetto visivo Matrice. Si noti come gli elementi che non sono stati selezionati nell'oggetto visivo sono visualizzati in grigio, mentre gli altri oggetti visivi nella pagina riflettono le selezioni effettuate nell'oggetto visivo Matrice.
 
 ![Screenshot dell'oggetto visivo Matrice insieme a due altri oggetti visivi che mostrano la funzione CTRL+clic per l'evidenziazione incrociata.](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Copia di valori da Power BI per l'uso in altre applicazioni
 
 La matrice o la tabella può includere contenuto da usare in altre applicazioni: Dynamics CRM, Excel e altri report di Power BI. Con il menu di scelta rapida di Power BI è possibile copiare negli Appunti una singola cella o una selezione di celle e quindi incollarle in altre applicazioni.
-
 
 
 * Per copiare il valore di una singola cella, selezionare la cella, fare clic con il pulsante destro del mouse e scegliere **Copia valore**. Con il valore della cella non formattato negli Appunti, è ora possibile incollarlo in un'altra applicazione.
@@ -175,8 +177,16 @@ La matrice o la tabella può includere contenuto da usare in altre applicazioni:
 
     ![Screenshot che mostra le righe e le colonne di Excel in cui sono stati incollati i valori.](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
+* Per creare una copia dell'oggetto visivo contenente solo le celle selezionate, selezionare una o più celle usando CTRL, fare clic con il pulsante destro del mouse e scegliere **Copia oggetto visivo**
+
+    ![Screenshot che mostra l'opzione Copia oggetto visivo](media/desktop-matrix-visual/power-bi-copy-visual.png)
+
+* La copia sarà un'altra visualizzazione della matrice, ma conterrà solo i dati copiati.
+
+    ![Screenshot che mostra un esempio di copia di oggetto visivo](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Ombreggiatura e colore carattere con gli oggetti visivi matrice
-Con l'oggetto visivo Matrice è possibile applicare la **formattazione condizionale** (colori, ombreggiatura e barre dei dati) allo sfondo delle celle nella matrice, nonché al testo e ai valori stessi.
+Con l'oggetto visivo Matrice è possibile applicare la formattazione condizionale (colori, ombreggiatura e barre dei dati) allo sfondo delle celle nella matrice, nonché al testo e ai valori stessi.
 
 Per applicare la formattazione condizionale, selezionare l'oggetto visivo Matrice e aprire il riquadro **Formato**. Espandere la scheda **Formattazione condizionale** e per **Colore di sfondo**, **Colore carattere** o **Barre dei dati** impostare il dispositivo di scorrimento su **Attivato**. Se si attiva una di queste opzioni, viene visualizzato un collegamento per *Controlli avanzati*, che consente di personalizzare i colori e i valori per la formattazione dei colori.
   

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715202"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020692"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -78,8 +78,8 @@ Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e
 | Visualizzare un elemento e interagire con esso. |  X | X  | X  | X  |
 
 > [!NOTE]
->Per copiare un report e creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro, gli utenti dovranno soddisfare criteri aggiuntivi:
->- È necessaria una licenza di Power BI Pro. 
+>Per copiare un report e crearne uno in un'altra area di lavoro in base a un set di dati all'interno di questa, gli utenti devono soddisfare criteri aggiuntivi:
+>- È necessaria una licenza di Power BI Pro. Per informazioni dettagliate, vedere la prossima sezione, [Gestione delle licenze](#licensing).
 >- È necessaria l'autorizzazione di creazione per il set di dati. Per i set di dati in questa area di lavoro, le persone con i ruoli Amministratore, Membro e Collaboratore hanno l'autorizzazione di creazione tramite il ruolo dell'area di lavoro.
  
 ## <a name="licensing"></a>Gestione delle licenze
@@ -141,7 +141,7 @@ Alcune funzionalità delle nuove aree di lavoro si comportano diversamente da qu
 - Ricondivisione/Non è possibile ricondividere per i membri: funzionalità sostituita dal ruolo Collaboratore
 - Aree di lavoro di sola lettura: invece di concedere agli utenti l'accesso di sola lettura a un'area di lavoro, è possibile assegnare agli utenti il ruolo Visualizzatore, che consente un simile accesso di sola lettura al contenuto in un'area di lavoro.
 - Gli utenti senza una licenza Pro possono accedere all'area di lavoro se questa è in una capacità Power BI Premium, anche se hanno solo il ruolo Visualizzatore.
-- Per consentire agli utenti con ruolo Visualizzatore di esportare i dati, assicurarsi che abbiano il ruolo di compilazione sui set di dati nell'area di lavoro. Per altre informazioni, vedere [Compilare l'autorizzazione per i set di dati](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Per consentire agli utenti con ruolo Visualizzatore di esportare i dati, assicurarsi che abbiano il ruolo di compilazione sui set di dati nell'area di lavoro. Per altre informazioni, vedere [Compilare l'autorizzazione per i set di dati](service-datasets-build-permissions.md).
 - Il pulsante **Lascia l'area di lavoro** non è disponibile.
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti

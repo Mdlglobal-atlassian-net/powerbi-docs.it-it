@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d48214cffcc17da9c105f7277b721c03946d5c2
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961804"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020664"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Esercitazione: Creare e pubblicare un pacchetto di contenuto aziendale di Power BI
 
@@ -26,7 +26,7 @@ La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboar
 Per creare un pacchetto di contenuto aziendale è necessario che l'utente e i colleghi dispongano di un [account di Power BI Pro](https://powerbi.microsoft.com/pricing).
 
 > [!NOTE]
-> Non è possibile creare o installare pacchetti di contenuto aziendali nell'anteprima delle nuove esperienze delle aree di lavoro. Se non si è ancora iniziato, questo è un buon momento per aggiornare i pacchetti di contenuto per le app. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
+> Non è possibile creare o installare pacchetti di contenuto aziendali nelle nuove aree di lavoro. Se non si è ancora iniziato, questo è un buon momento per aggiornare i pacchetti di contenuto per le app. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
 
 ## <a name="create-and-publish-a-content-pack"></a>Creare e pubblicare un pacchetto di contenuto
 

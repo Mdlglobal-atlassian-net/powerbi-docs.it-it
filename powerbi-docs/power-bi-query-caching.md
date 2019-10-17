@@ -2,20 +2,20 @@
 title: Memorizzazione di query nella cache in Power BI Premium
 description: Memorizzazione di query nella cache in Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076165"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020535"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Memorizzazione di query nella cache in Power BI Premium/Power BI Embedded
 
@@ -26,13 +26,13 @@ Le organizzazioni con Power BI Premium o Power BI Embedded possono sfruttare la 
 
 I risultati delle query memorizzate nella cache sono specifici per l'utente e il contesto del set di dati e rispettano sempre le regole di sicurezza. Attualmente il servizio esegue la memorizzazione di query nella cache solo per la pagina iniziale che viene visualizzata. In altre parole le query non vengono memorizzate nella cache quando si interagisce con il report. La cache delle query rispetta i [segnalibri personali](consumer/end-user-bookmarks.md#personal-bookmarks) e i [filtri permanenti](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/), pertanto le query generate da un report personalizzato verranno memorizzate nella cache. Anche i [riquadri del dashboard](service-dashboard-tiles.md) basati sulle stesse query traggono vantaggi a livello di prestazioni quando le query vengono memorizzate nella cache. Il vantaggio in termini di prestazioni è particolarmente evidente quando si accede spesso a un set di dati che non richiede aggiornamenti frequenti. La memorizzazione di query nella cache può anche diminuire il carico di lavoro della capacità Premium/Embedded, riducendo il numero complessivo di query.
 
-È possibile controllare il comportamento di memorizzazione query nella cache tramite la pagina **Impostazioni** del set di dati nel servizio Power BI. Le impostazioni possibili sono due:
+È possibile controllare il comportamento di memorizzazione query nella cache tramite la pagina **Impostazioni** del set di dati nel servizio Power BI. Le impostazioni possibili sono tre:
 
+- **Capacità predefinita**: memorizzazione query nella cache disabilitata
 - **Disattivata**: la memorizzazione di query nella cache non viene usata per questo set di dati.
-
 - **Attivata**: la memorizzazione di query nella cache viene usata per questo set di dati.
 
-![Finestra di dialogo Memorizzazione query nella cache](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Finestra di dialogo Memorizzazione query nella cache](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 

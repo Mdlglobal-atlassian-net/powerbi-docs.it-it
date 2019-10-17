@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715541"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020108"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creare le nuove aree di lavoro in Power BI
 
@@ -68,7 +68,7 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
 
 ## <a name="workspace-contact-list"></a>Elenco contatti dell'area di lavoro
 
-L'elenco contatti della nuova area di lavoro consente di specificare quali utenti ricevono una notifica relativa ai problemi che si verificano nell'area di lavoro. Per impostazione predefinita, qualsiasi utente o gruppo specificato come amministratore dell'area di lavoro riceve una notifica, ma è possibile personalizzare l'elenco. Gli utenti o i gruppi elencati nell'elenco contatti verranno visualizzati nell'interfaccia utente per consentire agli utenti di ottenere informazioni correlate all'area di lavoro.
+È possibile specificare gli utenti che ricevono una notifica relativa ai problemi che si verificano nell'area di lavoro. Per impostazione predefinita, qualsiasi utente o gruppo specificato come amministratore dell'area di lavoro riceve una notifica, ma è possibile personalizzare l'elenco aggiungendo gli utenti all'*elenco contatti*. Gli utenti o i gruppi inclusi nell'elenco contatti vengono visualizzati nell'interfaccia utente per consentire agli utenti di ottenere informazioni correlate all'area di lavoro.
 
 1. Accedere alla nuova impostazione **Elenco contatti** in uno dei due modi seguenti:
 
@@ -79,6 +79,9 @@ L'elenco contatti della nuova area di lavoro consente di specificare quali utent
     ![Impostazioni dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. In **Avanzate** > **Elenco contatti** accettare l'impostazione predefinita, **Amministratori dell'area di lavoro**, o aggiungere il proprio elenco di **Gruppi o utenti specifici**. 
+
+    ![Contatti dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
+
 3. Selezionare **Salva**.
 
 ## <a name="workspace-onedrive"></a>OneDrive area di lavoro
@@ -103,34 +106,15 @@ Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configura
 
 ### <a name="access-the-workspace-onedrive-location"></a>Accedere al percorso di OneDrive area di lavoro
 
-Dopo aver configurato la posizione di OneDrive, è possibile accedervi da diverse posizioni dell'area di lavoro:
+Dopo aver configurato la posizione di OneDrive, è possibile accedervi allo stesso modo in cui si accede ad altre origini dati nel servizio Power BI.
 
-- Selezionare **Aree di lavoro** > *nome area di lavoro* > menu puntini di sospensione ( **...** ) > **File**. 
+1. Nel riquadro di spostamento a sinistra selezionare **Dati**, quindi nella casella **File** selezionare **Scarica**.
 
-    ![Percorso dei file dell'area di lavoro](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![Recuperare dati e file](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
-- Selezionare il menu puntini di sospensione ( **...** ) nell'angolo superiore destro dell'area di lavoro > **File**.
-
-    ![Percorso dei file dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-    
-- Nell'esperienza **Recupera dati** > **File**. La voce **OneDrive - Business** è OneDrive for Business. Il secondo OneDrive è quello aggiunto.
+1.  La voce **OneDrive - Business** è OneDrive for Business. Il secondo OneDrive è quello aggiunto.
 
     ![Percorso dei file dell'area di lavoro - recupero dati](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
-
-## <a name="add-content-to-your-workspace"></a>Aggiungere contenuto all'area di lavoro
-
-Dopo aver creato una nuova esperienza di area di lavoro, è possibile aggiungere il contenuto. La procedura di aggiunta di contenuto è simile nelle aree di lavoro nuove e classiche. Usare il pulsante Crea o usare Recupera dati per aggiungere contenuto all'area di lavoro.
-
-1. Nella schermata di **benvenuto** della nuova area di lavoro è possibile aggiungere il contenuto. 
-
-    ![Schermata di benvenuto della nuova area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
-
-1. Ad esempio, selezionare **Esempi** > **Esempio di analisi della redditività dei clienti**.
-
-> [!NOTE]
-> Non è possibile aggiungere pacchetti di contenuto aziendali o pacchetti di contenuto di terze parti alle nuove aree di lavoro. Le app sono disponibili per molti pacchetti di contenuto di terze parti usati in precedenza. Usare le aree di lavoro classiche se è necessario continuare a usare i pacchetti di contenuto. I pacchetti di contenuto sono deprecati, quindi è consigliabile usare le app in alternativa.
-
-Quando si visualizza il contenuto nell'elenco del contenuto di un'area di lavoro, il nome dell'area di lavoro è indicato come proprietario.
 
 ### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Connessione a servizi di terze parti nelle nuove aree di lavoro
 
@@ -142,9 +126,7 @@ Nella nuova esperienza di area di lavoro non è possibile creare o usare pacchet
 
 1. Nell'elenco del contenuto dell'area di lavoro, poiché si è un amministratore, viene visualizzata una nuova azione, **Accesso**.
 
-    ![Elenco del contenuto dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-
-1. Selezionare **Accesso**.
+    ![Elenco del contenuto dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
 1. Aggiungere a queste aree di lavoro gruppi di sicurezza, liste di distribuzione, gruppi di Office 365 o singoli utenti come membri, collaboratori o amministratori. Per una spiegazione dei diversi ruoli disponibili, vedere [Ruoli nelle nuove aree di lavoro](service-new-workspaces.md#roles-in-the-new-workspaces).
 

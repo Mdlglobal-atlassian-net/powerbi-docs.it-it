@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523448"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020613"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
-> Non è possibile creare pacchetti di contenuto aziendali né installarli nell'anteprima delle nuove esperienze delle aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
+> Non è possibile creare pacchetti di contenuto aziendali né installarli nelle nuove aree di lavoro. Questo è un buon momento per aggiornare i pacchetti di contenuto per le app, se non è ancora stato fatto. [Altre informazioni sulla nuova esperienza dell'area di lavoro](service-create-the-new-workspaces.md).
 > 
 
 I report vengono distribuiti regolarmente tramite posta elettronica al team? Provare invece a creare pacchetti di dashboard, report, cartelle di lavoro di Excel e set di dati e pubblicarli per il team come *pacchetto di contenuto aziendale*. I pacchetti di contenuto sono facili da trovare per il team, perché sono tutti in AppSource. Dal momento che fanno parte di Power BI, sfruttano tutte le sue funzionalità, tra cui l'esplorazione interattiva dei dati, i nuovi elementi visivi, le domande e risposte, l'integrazione con altre origini dati, l'aggiornamento dei dati e molto altro.

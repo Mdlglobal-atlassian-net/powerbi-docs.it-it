@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5385512e534d866a2474fd4e3def10f45d52a1a0
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903972"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020256"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Creare aree di lavoro classiche in Power BI
 
@@ -90,11 +90,11 @@ Le app rappresentano l'evoluzione dei pacchetti di contenuto aziendali. Se si ha
 * Dopo che gli utenti aziendali avranno installato un pacchetto di contenuto, questo perde la propria identità raggruppata: è solo un elenco di dashboard e report intervallati da altri dashboard e report. Le app, d'altra parte, mantengono l'identità e il raggruppamento anche dopo l'installazione. Questo raggruppamento rende semplice per gli utenti aziendali continuare a passare alle app nel tempo.
 * È possibile creare più pacchetti di contenuto da qualsiasi area di lavoro, ma un'app ha una relazione 1:1 con la relativa area di lavoro. 
 * Nel corso del tempo i pacchetti di contenuto aziendali verranno deprecati, quindi si consiglia di creare app da oggi in poi.  
-* Con l'anteprima della nuova esperienza dell'area di lavoro, stiamo compiendo i primi passi verso la deprecazione dei pacchetti di contenuto dell'organizzazione. Non sarà possibile utilizzarli o crearli nelle aree di lavoro dell'anteprima.
+* Con la nuova esperienza dell'area di lavoro, vengono eseguiti i primi passaggi per la deprecazione dei pacchetti di contenuto dell'organizzazione. Non sarà possibile utilizzare o creare i pacchetti nelle nuove aree di lavoro.
 
 Per fare un confronto, vedere le [differenze tra le nuove aree di lavoro e quelle esistenti](service-new-workspaces.md#how-the-new-workspaces-are-different). 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Installare e usare app in Power BI](service-create-distribute-apps.md)
-- [Creare le nuove aree di lavoro (anteprima)](service-create-the-new-workspaces.md)
+- [Creare le nuove aree di lavoro](service-create-the-new-workspaces.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)

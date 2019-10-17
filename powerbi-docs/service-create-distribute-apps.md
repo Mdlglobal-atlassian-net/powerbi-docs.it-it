@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305751"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020234"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -30,7 +30,7 @@ Gli utenti aziendali possono ottenere le app in diversi modi:
 - È possibile inviare un collegamento diretto.
 - Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi.
 
-È possibile creare l'app con la relativa struttura di spostamento predefinita, in modo che gli utenti possano orientarsi facilmente all'interno del contenuto. Gli utenti non possono modificare il contenuto dell'app. Possono interagire con esso nel servizio Power BI o in una delle app per dispositivi mobili filtrando, evidenziando e ordinando i dati autonomamente. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. È anche possibile assegnare loro le autorizzazioni di compilazione per connettersi ai set di dati sottostanti e per creare copie dei report nell'app. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+È possibile creare l'app con la relativa struttura di spostamento predefinita, in modo che gli utenti possano orientarsi facilmente all'interno del contenuto. Gli utenti non possono modificare il contenuto dell'app. Possono interagire con esso nel servizio Power BI o in una delle app per dispositivi mobili filtrando, evidenziando e ordinando i dati autonomamente. Riceveranno gli aggiornamenti automaticamente e sarà possibile controllare la frequenza con cui vengono aggiornati i dati. È anche possibile assegnare loro l'autorizzazione di compilazione per connettersi ai set di dati sottostanti e per creare copie dei report nell'app. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md).
 
 ## <a name="licenses-for-apps"></a>Licenze per le app
 Per creare o aggiornare un'app è necessaria una licenza Power BI Pro. Per gli *utenti* dell'app sono disponibili due opzioni.
@@ -166,7 +166,7 @@ Quando si seleziona l'opzione **Allow users to connect to the app's underlying d
 - Cercare questi set di dati in Power BI Desktop e nell'esperienza di acquisizione dei dati nel servizio Power BI.
 - Creare report e dashboard basati su questi set di dati.
 
-Se si deseleziona questa opzione, i nuovi utenti aggiunti all'app non ottengono l'autorizzazione di compilazione. Tuttavia, per gli utenti esistenti dell'app, le autorizzazioni per i set di dati sottostanti non cambiano. È possibile rimuovere manualmente l'autorizzazione di compilazione per gli utenti dell'app che non devono più averla. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Se si deseleziona questa opzione, i nuovi utenti aggiunti all'app non ottengono l'autorizzazione di compilazione. Tuttavia, per gli utenti esistenti dell'app, le autorizzazioni per i set di dati sottostanti non cambiano. È possibile rimuovere manualmente l'autorizzazione di compilazione per gli utenti dell'app che non devono più averla. Per altre informazioni, vedere l'[autorizzazione di compilazione](service-datasets-build-permissions.md).
 
 ## <a name="allow-users-to-copy-reports"></a>Consentire agli utenti di copiare i report
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c60c3c29bbf87d7a5e18838dac0baa6157de6437
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530601"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020812"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiare report da altre aree di lavoro (anteprima)
 
@@ -32,7 +32,7 @@ Quando si trova un report interessante in un'area di lavoro oppure in un'app, è
 
     ![Salvare una copia di un report](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    L'icona **Salva una copia** viene visualizzata solo se il report si trova nell'area di lavoro della nuova esperienza e l'utente ha le [autorizzazioni di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Anche se si ha accesso all'area di lavoro, è necessario avere le autorizzazioni di compilazione per il set di dati.
+    L'icona **Salva una copia** viene visualizzata solo se il report si trova in un'area di lavoro della nuova esperienza e l'utente ha l'[autorizzazione per creazione report](service-datasets-build-permissions.md). Anche se si ha accesso all'area di lavoro, è necessario avere l'autorizzazione per creazione report per il set di dati.
 
 3. In **Salva una copia di questo report** assegnare un nome al report e selezionare l'area di lavoro di destinazione.
 

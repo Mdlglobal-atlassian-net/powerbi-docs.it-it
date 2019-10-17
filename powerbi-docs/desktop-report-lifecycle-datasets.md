@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164489"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020467"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. In questo modo si può creare il modello di dati ideale in Power BI Desktop e pubblicarlo nel servizio Power BI. Partendo dallo stesso modello di dati comune, tutti possono così creare più report diversi (in file con estensione pbix separati) e salvarli in aree di lavoro diverse. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -35,7 +35,7 @@ Si supponga che Anna, un'analista aziendale, faccia parte del proprio team e che
 Tutti apprezzano il report e il set di dati di Anna ed è qui che iniziano i guai: ogni membro del team vuole provare a creare una *versione personalizzata* del set di dati e quindi condividere i propri report con il team. All'improvviso, l'area di lavoro del team nel **servizio Power BI** si riempie di moltissimi report, provenienti da diversi set di dati. Qual è il più recente? I set di dati erano gli stessi o quasi? Quali erano le differenze? Con la funzionalità **Connessione dinamica al servizio Power BI**, tutto questo può cambiare in meglio. Nella sezione successiva si vedrà in che modo gli altri colleghi possono usare il set di dati pubblicato da Anna per personalizzare i report nelle proprie aree di lavoro e consentire a chiunque di usare lo stesso set di dati comune, esaminato e pubblicato per compilare i report univoci.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Connettersi a un set di dati del servizio Power BI usando una connessione dinamica
-Se Anna crea un report (e il set di dati su cui è basato) e quindi lo pubblica nel **servizio Power BI**, viene visualizzato nell'area di lavoro del suo team nel servizio Power BI. Se Anna lo salva in un'*area di lavoro della nuova esperienza*, può impostare l'autorizzazione di creazione affinché il report diventi disponibile per la visualizzazione e l'uso per tutti i colleghi all'interno o all'esterno della sua area di lavoro.
+Se Anna crea un report (e il set di dati su cui è basato) e quindi lo pubblica nel **servizio Power BI**, viene visualizzato nell'area di lavoro del suo team nel servizio Power BI. Se Anna lo salva in un'*area di lavoro della nuova esperienza*, può impostare l'autorizzazione di compilazione affinché il report diventi disponibile per la visualizzazione e l'uso per tutti i colleghi all'interno o all'esterno della sua area di lavoro.
 
 Per altre informazioni sulle aree di lavoro della nuova esperienza, vedere le [aree di lavoro per le app](service-new-workspaces.md).
 
@@ -76,7 +76,7 @@ Una volta completato, **Power BI Desktop** mostra l'esito positivo e indica alcu
 
 Ora che il report con il relativo set di dati si trova nel servizio Power BI, è anche possibile *promuoverlo* per attestarne la qualità e l'affidabilità. È anche possibile richiedere che sia *certificato* da un'autorità centrale nel tenant di Power BI. Con una di queste approvazioni, il set di dati sarà sempre elencato tra gli argomenti ogni volta che si eseguirà una ricerca di set di dati. Se necessario, sono disponibili altre informazioni sul processo di [promozione del set di dati](service-datasets-promote.md). 
 
-L'ultimo passaggio consiste nell'impostare l'*autorizzazione di compilazione* per il set di dati su cui è basato il report. L'autorizzazione di compilazione determina chi può visualizzare e usare il set di dati. È possibile impostarla nell'area di lavoro stessa o quando si condivide un'app dall'area di lavoro. Altre informazioni sull'[autorizzazione di compilazione](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+L'ultimo passaggio consiste nell'impostare l'*autorizzazione di compilazione* per il set di dati su cui è basato il report. L'autorizzazione di compilazione determina chi può visualizzare e usare il set di dati. È possibile impostarla nell'area di lavoro stessa o quando si condivide un'app dall'area di lavoro. Altre informazioni sull'[autorizzazione di compilazione](service-datasets-build-permissions.md).
 
 A questo punto si vedrà in che modo gli altri colleghi che hanno accesso all'area di lavoro in cui è stato pubblicato il report possono connettersi al set di dati e creare report personalizzati.
 
