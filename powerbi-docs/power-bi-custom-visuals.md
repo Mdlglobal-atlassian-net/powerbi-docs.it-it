@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a782726e34bec4d6a5b8557c88178d469f7987b6
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a8b1be9157fa34e9ed4c987628f0b67624b4c826
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946193"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307482"
 ---
 # <a name="visuals-in-power-bi"></a>Oggetti visivi in Power BI
 
@@ -57,7 +57,7 @@ Informazioni su [AppSource](developer/office-store.md) È il posto in cui è pos
 Gli oggetti visivi certificati di Power BI sono oggetti visivi del Marketplace che hanno superato test di qualità rigorosi e sono supportati anche in altri scenari, quali [sottoscrizioni di messaggi di posta elettronica](service-report-subscribe.md) ed [esportazione in PowerPoint](service-publish-to-powerpoint.md).
 Per visualizzare l'elenco di oggetti visivi di Power BI certificati o per inviare il proprio, vedere [Oggetti visivi di Power BI certificati](power-bi-custom-visuals-certified.md).
 
-Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in AppSource, possono Vedere [Sviluppo di un oggetto visivo personalizzato di Power BI](developer/custom-visual-develop-tutorial.md) e le informazioni su come [pubblicare oggetti visivi di Power BI in AppSource](developer/office-store.md).
+Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in AppSource, possono Vedere [Developing a Power BI custom visual](developer/visuals/custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI) e le informazioni su come [Pubblicare oggetti visivi personalizzati in AppSource](developer/office-store.md).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Importare un oggetto visivo personalizzato da un file
 
@@ -123,7 +123,7 @@ Sono disponibili due opzioni per scaricare e importare gli oggetti visivi di Pow
 
 6. Scorrere verso il basso per visualizzare i commenti.
 
-    ![Reviews](media/power-bi-custom-visuals/power-bi-reviews.png)
+    ![Recensioni](media/power-bi-custom-visuals/power-bi-reviews.png)
 
 7. Selezionare **Aggiungi** per importare l'oggetto visivo personalizzato. La relativa icona viene aggiunta nella parte inferiore del riquadro **Visualizzazioni** e può essere usata nei report.
 

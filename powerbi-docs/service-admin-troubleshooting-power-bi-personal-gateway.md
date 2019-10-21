@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: db74f38dac655ee4d3eac8722a1cd3f70b5ab1a3
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832595"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543530"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Risoluzione dei problemi relativi a Power BI Gateway (modalità personale)
 
@@ -135,7 +135,7 @@ I registri **Gateway di gestione dati** e **PowerBIGateway** sono presenti in **
 <a name="SetupLogs"></a>
 
 ### <a name="setup-logs"></a>Log di installazione
-Se l'installazione del gateway (modalità personale) non riesce, viene visualizzato un collegamento al log di installazione. Il log può contenere i dettagli dell'errore. Si tratta di log di Windows Installer, chiamati anche log di MSI. Possono essere piuttosto complessi e difficili da leggere. In genere l'errore risultante si trova nella parte inferiore, ma stabilire la causa dell'errore non è immediato. Potrebbe essere il risultato di errori in un altro log. In alternativa, potrebbe dipendere da un errore precedente nel log.
+Se l'installazione del gateway (modalità personale) non riesce, viene visualizzato un collegamento al log di installazione. che potrebbe contenere i dettagli dell'errore. Si tratta di log di Windows Installer, chiamati anche log di MSI. Possono essere piuttosto complessi e difficili da leggere. In genere l'errore risultante si trova nella parte inferiore, ma stabilire la causa dell'errore non è immediato. Potrebbe essere il risultato di errori in un altro log. In alternativa, potrebbe dipendere da un errore precedente nel log.
 
 ![Collegamento al log di installazione](media/service-admin-troubleshooting-power-bi-personal-gateway/setup-log.png)
 

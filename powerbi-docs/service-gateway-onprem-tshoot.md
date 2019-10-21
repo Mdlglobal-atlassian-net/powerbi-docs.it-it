@@ -7,15 +7,15 @@ manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6a846a0588aff7dd52e725bfed1435276730e2a3
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757699"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543830"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Risolvere i problemi relativi ai gateway - Power BI
 
@@ -124,14 +124,14 @@ La limitazione esatta è di 10 GB di dati non compressi per ogni tabella. Se si 
 
 ## <a name="reports"></a>Report
 
-### <a name="error-report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Errore: il report non è riuscito ad accedere all'origine dati perché non si ha accesso all’origine dati tramite un gateway dati locale.
+### <a name="error-report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>Errore: Il report non è riuscito ad accedere all'origine dati perché non si ha accesso all’origine dati tramite un gateway dati locale.
 
 Questo problema è in genere dovuto a uno dei motivi seguenti.
 
 - Le informazioni sull'origine dati non corrispondono al contenuto del set di dati sottostante. Il nome del server e del database devono corrispondere tra l'origine dati definita per il gateway dati locale e i dati forniti all'interno di Power BI Desktop. Se si usa un indirizzo IP in Power BI Desktop, anche l'origine dati per il gateway dati locale deve usare un indirizzo IP.
 - Non sono disponibili origini dati in alcun gateway dell'organizzazione. È possibile configurare l'origine dati in un gateway dati locale nuovo o esistente.
 
-### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Errore: si è verificato un errore di accesso all'origine dati. Contattare l'amministratore del gateway.
+### <a name="error-data-source-access-error-please-contact-the-gateway-administrator"></a>Errore: Si è verificato un errore di accesso all'origine dati. Contattare l'amministratore del gateway.
 
 Se questo report usa una connessione dinamica di Analysis Services, potrebbe verificarsi un problema con un valore passato a EffectiveUserName non valido o privo delle autorizzazioni per il computer di Analysis Services. Un problema di autenticazione dipende in genere dal fatto che il valore passato per EffectiveUserName non corrisponde al nome dell'entità utente locale.
 

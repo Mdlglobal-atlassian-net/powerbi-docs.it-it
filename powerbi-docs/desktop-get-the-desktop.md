@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e7a96186fe68ed0d70de7a502e81da4f24f4d802
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 7c99b00427ffe742511c0029da79b6ebde02d916
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903592"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511679"
 ---
-# <a name="get-power-bi-desktop"></a>Ottenere Power BI Desktop
+# <a name="get-power-bi-desktop"></a>Scarica Power BI Desktop
 **Power BI Desktop** consente di creare query, modelli e report avanzati per la visualizzazione dei dati. Con **Power BI Desktop**, è possibile creare modelli di dati, creare report e condividere il proprio lavoro pubblicandolo nel servizio Power BI.  Il download di **Power BI Desktop** è gratuito.
 
 È possibile ottenere **Power BI Desktop** in due modi, ognuno dei quali viene descritto nelle sezioni seguenti:
@@ -105,28 +105,6 @@ Di seguito sono elencati i requisiti minimi per l'esecuzione di **Power BI Deskt
 
 Microsoft desidera offrire un'esperienza straordinaria con Power BI Desktop. In alcuni casi potrebbe verificarsi un problema con Power BI Desktop, quindi in questa sezione vengono indicate le soluzioni o forniti suggerimenti per risolvere i problemi che potrebbero verificarsi. 
 
-### <a name="installing-power-bi-desktop-on-remote-machines"></a>Installazione di Power BI Desktop su computer remoti
-
-Se si distribuisce Power BI Desktop agli utenti con uno strumento che richiede un file di installazione Windows (file con estensione msi), è possibile estrarre il file con estensione msi dal file di installazione con estensione exe di Power BI Desktop. A tale scopo è possibile usare strumenti di terze parti, ad esempio WiX Toolset.
-
-> [!NOTE]
-> In quanto prodotto di terze parti, le opzioni di WiX Toolset possono subire modifiche senza preavviso. Per informazioni aggiornate, consultare la documentazione del prodotto e contattare la lista di distribuzione per assistenza.
-
-* Nel computer in cui è stato scaricato il programma di installazione di Power BI Desktop scaricare e installare la versione più recente di WiX Toolset dal sito Web WiX all'indirizzo https://wixtoolset.org/.
-* Aprire una finestra della riga di comando come amministratore e passare alla cartella in cui è stato installato WiX Toolset.
-* Eseguire il comando seguente: 
-    
-    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
-
-    Ad esempio, eseguire:
-
-    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
-
-* La cartella di output conterrà una cartella denominata *AttachedContainer* che include i file con estensione msi.
-
-
-
-
 ### <a name="using-command-line-options-during-installation"></a>Uso delle opzioni da riga di comando durante l'installazione 
 
 Quando si installa Power BI Desktop, è possibile impostare le proprietà e le opzioni usando le opzioni da riga di comando. Questa modalità è particolarmente utile per gli amministratori che gestiscono o facilitano l'installazione di Power BI Desktop in più organizzazioni. Queste opzioni si applicano alle installazioni di pacchetti con estensione msi ed exe. 
@@ -146,7 +124,6 @@ Quando si installa Power BI Desktop, è possibile impostare le proprietà e le o
 
 È anche possibile usare i **parametri di sintassi** seguenti, che sono specificati con la sintassi "PROPERTY=VALUE":
 
-
 |Parametro  |Significato  |
 |---------|---------|
 |ACCEPT_EULA     |Richiede un valore pari a 1 per accettare automaticamente le condizioni di licenza         |
@@ -156,12 +133,28 @@ Quando si installa Power BI Desktop, è possibile impostare le proprietà e le o
 |LANGUAGE     |Codice impostazioni locali, ad esempio en-US, de-DE, pr-BR, per forzare la lingua predefinita dell'applicazione. Se non viene specificata una lingua, Power BI Desktop visualizza la lingua del sistema operativo Windows. Questa impostazione può essere modificata dall'utente nella finestra di dialogo Opzioni.         |
 |REG_SHOWLEADGENDIALOG     |Il valore 0 disabilita la visualizzazione della finestra di dialogo visualizzata prima dell'accesso a Power BI Desktop         |
 
-
-
-
 Ad esempio, è possibile usare il parametro con la sintassi seguente per eseguire l'installazione senza alcuna interfaccia utente usando la lingua tedesca: 
 
 ```“-quiet LANG=de-DE ACCEPT_EULA=1”```
+
+### <a name="installing-power-bi-desktop-on-remote-machines"></a>Installazione di Power BI Desktop su computer remoti
+
+Se si distribuisce Power BI Desktop agli utenti con uno strumento che richiede un file di installazione Windows (file con estensione msi), è possibile estrarre il file con estensione msi dal file di installazione con estensione exe di Power BI Desktop. A tale scopo è possibile usare strumenti di terze parti, ad esempio WiX Toolset.
+
+> [!NOTE]
+> In quanto prodotto di terze parti, le opzioni di WiX Toolset possono subire modifiche senza preavviso. Per informazioni aggiornate, consultare la documentazione del prodotto e contattare la lista di distribuzione per assistenza.
+
+* Nel computer in cui è stato scaricato il programma di installazione di Power BI Desktop scaricare e installare la versione più recente di WiX Toolset dal sito Web WiX all'indirizzo https://wixtoolset.org/.
+* Aprire una finestra della riga di comando come amministratore e passare alla cartella in cui è stato installato WiX Toolset.
+* Eseguire il comando seguente: 
+    
+    ```Dark.exe <path to Power BI Desktop installer> -x <output folder>```
+
+    Ad esempio, eseguire:
+
+    ``` Dark.exe C:\PBIDesktop_x64.exe -x C:\output```
+
+* La cartella di output conterrà una cartella denominata *AttachedContainer* che include i file con estensione msi.
 
 
 ### <a name="issues-when-using-previous-releases-of-power-bi-desktop"></a>Problemi nell'uso delle versioni precedenti di Power BI Desktop

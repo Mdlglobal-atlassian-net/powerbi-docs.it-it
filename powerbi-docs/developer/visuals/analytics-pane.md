@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 67f9bc793b78d2019875b8165ea71fa712fd9d23
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 0782ea63a9833c220e4d96886d79d42af643e111
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193694"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307605"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Riquadro Analisi negli oggetti visivi di Power BI
 
@@ -26,7 +26,7 @@ Questo articolo illustra come gli oggetti visivi di Power BI con l'API v2.5.0 po
 
 ## <a name="manage-the-analytics-pane"></a>Gestire il riquadro Analisi
 
-Analogamente a come si gestiscono le proprietà nel [riquadro **Formato**](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options), per gestire il riquadro **Analisi** si definisce un oggetto nel file *capabilities.json* dell'oggetto visivo. 
+Analogamente a come si gestiscono le proprietà nel [riquadro **Formato**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options), per gestire il riquadro **Analisi** si definisce un oggetto nel file *capabilities.json* dell'oggetto visivo.
 
 Per il riquadro **Analisi**, le differenze sono le seguenti:
 

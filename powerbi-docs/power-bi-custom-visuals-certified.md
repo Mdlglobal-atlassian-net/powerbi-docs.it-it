@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 2203e3a9abddb52902c09fdc98665ba013f604ee
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946223"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307834"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Ottenere un oggetto visivo Power BI certificato
 
@@ -31,7 +31,7 @@ Il processo di certificazione è facoltativo. Spetta agli sviluppatori decidere 
 
 Gli **oggetti visivi di Power BI non certificati** non sono necessariamente oggetti visivi non sicuri. Alcuni oggetti visivi non vengono certificati perché non sono conformi a uno o più [requisiti di certificazione](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements), accedono ad esempio a un servizio esterno, come oggetti visivi mappa oppure oggetti visivi che usano librerie commerciali.
 
-Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in  **[Microsoft AppSource](https://appsource.microsoft.com)** , possono vedere  **[Sviluppare un oggetto visivo personalizzato di Power BI](developer/custom-visual-develop-tutorial.md)** per altre informazioni.
+Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in  **[Microsoft AppSource](https://appsource.microsoft.com)** , possono vedere  **[Sviluppare un oggetto visivo personalizzato di Power BI](developer/visuals/custom-visual-develop-tutorial.md)** per altre informazioni.
 
 ## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Rimozione di oggetti visivi di Power BI certificati
 
@@ -196,7 +196,7 @@ Per altre informazioni sugli oggetti visivi, vedere le [domande frequenti sugli 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Developing a Power BI custom visual](developer/custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI)
+* [Developing a Power BI custom visual](developer/visuals/custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI)
 * [Playlist degli oggetti visivi personalizzati di Microsoft su YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
 * [Visualizzazioni in Power BI](visuals/power-bi-report-visualizations.md)  
 * [Visualizzazioni personalizzate in Power BI](power-bi-custom-visuals.md)  
