@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Oggetto visivo matrice
               href: visuals/desktop-matrix-visual.md
+            - name: Oggetto visivo Domande e risposte
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: Creare analisi e visualizzazione avanzate con gli script R in Power BI
               href: visuals/service-r-visuals.md
             - name: Grafici a misuratore radiale in Power BI
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: Creare linee di riferimento dinamiche
               href: service-analytics-pane.md
+        - name: Linguaggio naturale
+          items:
+            - name: Introduzione a Domande e risposte
+              href: natural-language/q-and-a-intro.md
+            - name: Oggetto visivo Domande e risposte
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: Introduzione agli strumenti per Domande e risposte
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: Strumenti per Domande e risposte - Insegna a Domande e risposte
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: Strumenti avanzati per Domande e risposte
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: Procedure consigliate per Domande e risposte
+              href: natural-language/q-and-a-best-practices.md
+            - name: Limitazioni per Domande e risposte
+              href: natural-language/q-and-a-limitations.md
         - name: Risoluzione dei problemi
           items:
             - name: Risolvere problemi di importazione dei database di Access e dei fogli di calcolo di Excel in Power BI Desktop e Power Query
