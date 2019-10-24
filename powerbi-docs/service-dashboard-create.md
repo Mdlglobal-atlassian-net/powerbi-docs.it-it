@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020324"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543423"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creare un riquadro a un dashboard di Power BI da un report
 Dopo aver letto l'[introduzione ai dashboard in Power BI](service-dashboards.md) si può creare il proprio dashboard. Per creare un dashboard è possibile procedere in molti modi. Si può partire da un report, da zero, da un set di dati o dalla duplicazione di un dashboard esistente.  
@@ -68,9 +68,9 @@ In questa procedura viene importato uno dei set di dati di esempio di Power BI c
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Aprire il report e aggiungere alcuni riquadri a un dashboard
 1. Nella stessa area di lavoro selezionare la scheda **Report** e quindi selezionare **Esempio di analisi dell'approvvigionamento** per aprire il report.
 
-    ![Scheda Report](media/service-dashboard-create/power-bi-reports.png) Il report viene aperto nella visualizzazione di lettura. Si noti che sono presenti due schede nella parte inferiore: **Discount Analysis** (Analisi degli sconti) e **Spend Overview** (Panoramica di spesa). Ogni scheda rappresenta una pagina del report.
+    ![Scheda Report](media/service-dashboard-create/power-bi-reports.png) Il report viene aperto nella visualizzazione di lettura. Si noti la presenza di due schede a sinistra: **Discount Analysis** (Analisi degli sconti) e **Spend Overview** (Panoramica di spesa). Ogni scheda rappresenta una pagina del report.
 
-2. Selezionare **Modifica report** per aprire il report in visualizzazione di modifica.
+2. Selezionare **Altre opzioni (...)**  > **Modifica report** per aprire il report nella visualizzazione di modifica.
 
     ![Report nella visualizzazione di lettura](media/service-dashboard-create/power-bi-reading-view.png)
 3. Passare il mouse su una visualizzazione per vedere le opzioni disponibili. Per aggiungere una visualizzazione a un dashboard, selezionare l'icona di aggiunta. ![Icona Aggiungi](media/service-dashboard-create/power-bi-pin-icon.png).

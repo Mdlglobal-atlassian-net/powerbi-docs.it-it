@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968921"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307401"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
@@ -70,6 +70,8 @@ Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non 
 | **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Numero massimo di righe restituite in una query DAX. Il valore predefinito è -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647. |
 | **Limite di memoria query (%)** | Percentuale massima di memoria disponibile che può essere usata per i risultati temporanei in una query o in una misura DAX. |
 | **Timeout query (secondi)** | Quantità massima di tempo prima del timeout di una query. Il valore predefinito è 3600 secondi (1 ora). Il valore 0 specifica che non è previsto un timeout per le query. |
+| **Aggiornamento pagina automatico (anteprima)** | Abilitare/disabilitare l'opzione per consentire alle aree di lavoro Premium di avere report con aggiornamento automatico delle pagine. |
+| **Intervallo di aggiornamento minimo** | Se l'aggiornamento automatico delle pagine è abilitato, è l'intervallo minimo consentito per l'intervallo di aggiornamento della pagina. Il valore predefinito è 5 minuti, il minimo consentito è 1 secondo. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Max Intermediate Row Set Count (Numero massimo di set di righe intermedie)
@@ -112,6 +114,19 @@ Questa impostazione si applica a una singola query e non al tempo necessario per
 Il tempo totale per tutte le query è di 75 minuti, ma il limite dell'impostazione non viene raggiunto perché ogni singola query viene eseguita per meno di 20 minuti.
 
 Si noti che i report di Power BI eseguono l'override di questa impostazione predefinita con un timeout molto più ridotto per ogni query alla capacità. Il timeout per ogni query è in genere di circa tre minuti.
+
+#### <a name="automatic-page-refresh-preview"></a>Aggiornamento pagina automatico (anteprima)
+
+Se l'opzione è abilitata, l'aggiornamento automatico delle pagine consente agli utenti con capacità Premium di aggiornare le pagine del report in base a un intervallo definito per le origini DirectQuery. L'amministratore della capacità può eseguire le operazioni seguenti:
+
+1.  Abilitare e disabilitare l'aggiornamento automatico delle pagine
+2.  Definire un intervallo di aggiornamento minimo
+
+La figura seguente illustra il punto in cui viene impostato l'intervallo di aggiornamento automatico:
+
+![impostazione dell'amministratore per l'intervallo di aggiornamento automatico](media/service-admin-premium-workloads/automatic-refresh-interval.png)
+
+Le query create dall'aggiornamento automatico delle pagine vengono indirizzate direttamente all'origine dati. È quindi importante considerare l'affidabilità e il carico in tali origini quando si consente l'aggiornamento automatico delle pagine all'interno dell'organizzazione. 
 
 ### <a name="dataflows"></a>Flussi di dati
 
@@ -181,5 +196,6 @@ L'[app Metrica per la capacità Power BI Premium](service-admin-premium-monitor-
 [Ottimizzazione delle capacità di Power BI Premium](service-premium-capacity-optimize.md)     
 [Preparazione dei dati self-service in Power BI con flusso di dati](service-dataflows-overview.md)   
 [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
+[Aggiornamento automatico della pagina in Power BI Desktop (anteprima)](desktop-automatic-page-refresh.md)
 
 Altre domande? [Inviare una domanda alla community di Power BI](http://community.powerbi.com/)

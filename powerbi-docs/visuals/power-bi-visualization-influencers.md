@@ -10,14 +10,17 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e88d853f59a0e9a188d6d6796559ad2d9059a9
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995276"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544099"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 L'oggetto visivo Fattori di influenza chiave favorisce la comprensione dei fattori che stanno alla base di una metrica alla quale si è interessati. Analizza i dati, stila una classifica dei fattori importanti e li visualizza come fattori di influenza chiave. Ad esempio si supponga di voler scoprire che cosa influenza l'avvicendamento dei dipendenti. Un fattore potrebbe essere la durata del contratto, un altro potrebbe essere l'età del dipendente. 
  
 ## <a name="when-to-use-key-influencers"></a>Quando usare i fattori di influenza chiave 
@@ -49,6 +52,10 @@ L'oggetto visivo Fattori di influenza chiave è ideale:
  
 Guardare questo video per imparare a creare un oggetto visivo Fattori di influenza chiave con una metrica categorica. Quindi creare un oggetto seguendo questa procedura. 
 
+   > [!NOTE]
+   > Questo video usa una versione precedente di Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Il product manager richiede di determinare i fattori per cui i clienti danno valutazioni negative al servizio cloud dell'azienda. Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
@@ -137,7 +144,7 @@ Il grafico a dispersione nel riquadro a destra visualizza la percentuale media d
 
 In alcuni casi è possibile che i fattori continui siano stati trasformati automaticamente in fattori categorici. Ciò è dovuto al fatto che la relazione tra le variabili non è lineare e quindi non è possibile descrivere la relazione come semplicemente crescente o decrescente (come nell'esempio precedente).
 
-Vengono eseguiti test di correlazione per determinare la linearità del fattore di influenza rispetto all'obiettivo. Se l'obiettivo è continuo, viene eseguita la correlazione di Pearsons, mentre se è categorico, vengono eseguiti test di correlazione punto-biseriale. Se si rileva che la relazione non è sufficientemente lineare, viene eseguito il binning sotto supervisione, con la generazione di un massimo di 5 contenitori. Per capire quali sono i contenitori più sensati, viene usato un metodo di binning sotto supervisione che esamina la relazione tra il fattore esplicativo e l'obiettivo analizzato.
+Vengono eseguiti test di correlazione per determinare la linearità del fattore di influenza rispetto all'obiettivo. Se l'obiettivo è continuo, viene eseguita la correlazione di Pearson, mentre se è categorico, vengono eseguiti test di correlazione punto-biseriale. Se si rileva che la relazione non è sufficientemente lineare, viene eseguito il binning sotto supervisione, con la generazione di un massimo di 5 contenitori. Per capire quali sono i contenitori più sensati, viene usato un metodo di binning sotto supervisione che esamina la relazione tra il fattore esplicativo e l'obiettivo analizzato.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretare misure e aggregazioni come fattori di influenza chiave 
  
@@ -246,7 +253,7 @@ Le misure e le colonne riepilogative vengono automaticamente analizzate a livell
 
 ![Tabella delle misure](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
-Questa analisi è molto riepilogativa, quindi sarà difficile per il modello di regressione trovare nei dati schemi da cui poter apprendere. Per ottenere risultati migliori, è consigliabile eseguire l'analisi a un livello più dettagliato. Se si volesse analizzare il prezzo della casa a livello di casa, sarebbe necessario aggiungere all'analisi il campo **ID** in modo esplicito. Tuttavia, non si vuole che l'ID della casa sia considerato un fattore di influenza. Non è di nessuna utilità sapere che, man mano che aumenta l'ID di una casa, ne aumenta anche il prezzo. È a questo punto che entra in gioco l'opzione **Espandi in base a**. È possibile usare **Espandi in base a** per aggiungere i campi da usare per impostare il livello dell'analisi senza cercare nuovi fattori di influenza.
+Questa analisi è molto riepilogativa, quindi sarà difficile per il modello di regressione trovare nei dati schemi da cui poter apprendere. Per ottenere risultati migliori, è consigliabile eseguire l'analisi a un livello più dettagliato. Se si volesse analizzare il prezzo della casa a livello di casa, sarebbe necessario aggiungere all'analisi il campo **ID** in modo esplicito. Tuttavia, non si vuole che l'ID della casa sia considerato un fattore di influenza. Non è di nessuna utilità sapere che, man mano che aumenta l'ID di una casa, ne aumenta anche il prezzo. È a questo punto che si rivela utile l'opzione dell'area campi **Espandi in base a**. È possibile usare **Espandi in base a** per aggiungere i campi da usare per impostare il livello dell'analisi senza cercare nuovi fattori di influenza.
 
 Vediamo come appare la visualizzazione dopo aver aggiunto **ID** a **Espandi in base a**. Dopo aver definito il livello in cui valutare la misura, l'interpretazione dei fattori di influenza è identica a quella applicata per le [colonne numeriche non riepilogative](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
 

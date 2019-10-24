@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200957"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511671"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Origini dati per il servizio Power BI
 I dati sono il fulcro di Power BI. Si supponga di esplorare i dati. È possibile farlo creando grafici e dashboard o ponendo domande con **Domande e risposte**. Le visualizzazioni e le risposte che appaiono usano i relativi dati sottostanti contenuti in un set di dati. Ma i set di dati da dove provengono? Provengono da un'origine dati.
@@ -111,7 +111,11 @@ L'aggiornamento dei dati è un aspetto estremamente importante di Power BI ed è
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 Per tutte le origini dati usate nel servizio Power BI, tenere presenti le limitazioni seguenti. Esistono altre limitazioni applicabili a funzionalità specifiche, ma l'elenco seguente è valido per il servizio Power BI completo:
 
-* **Limite dimensioni del set di dati**: è previsto un limite di 1 GB per ogni set di dati nel servizio Power BI.
-* **Limite di righe**: il numero massimo di righe nel set di dati quando non si usa **DirectQuery** è 2 miliardi. Tre di tali righe sono riservate, quindi risultano al massimo 1.999.999.997 righe utilizzabili. Il numero massimo di righe quando si usa **DirectQuery** è 1 milione.
-* **Limite di colonne**: il numero massimo di colonne consentite in un set di dati, in tutte le tabelle nel set di dati, è 16.000. Questo limite si applica al servizio Power BI e ai set di dati usati in Power BI Desktop. Power BI usa una colonna dei numeri di riga interna per tabella nel set di dati, ovvero il numero massimo di colonne è 16.000 meno una per ogni tabella del set di dati.
+* **Limite delle dimensioni del set di dati**: è previsto un limite di 1 GB per i set di dati archiviati nelle capacità condivise del servizio Power BI. Se sono necessari set di impostazioni di dimensioni maggiori, è possibile usare [Power BI Premium](service-premium-what-is.md).
+
+* **Valori distinti in una colonna**: quando si memorizzano nella cache i dati in un set di dati di Power BI (operazione talvolta definita modalità di importazione), è previsto un limite di 1.999.999.997 per il numero di valori distinti che possono essere archiviati in una colonna.
+
+* **Limite di righe** : quando si usa **DirectQuery**, Power BI impone un limite ai risultati della query inviati all'origine dati sottostante. Se la query inviata all'origine dati restituisce più di 1 milione di righe, viene visualizzato un errore e la query ha esito negativo. I dati sottostanti possono comunque contenere più di 1 milione righe. Poiché la maggior parte dei report aggrega i dati in set di risultati di dimensioni più piccole, è improbabile che si incorra in questo limite.
+
+* **Limite di colonne**: il numero massimo di colonne consentite in un set di dati, in tutte le tabelle nel set di dati, è 16.000. Questo limite si applica al servizio Power BI e ai set di dati usati in Power BI Desktop. Power BI tiene traccia del numero di colonne e tabelle nel set di dati, quindi il numero massimo di colonne è 16.000 meno una per ogni tabella del set di dati.
 

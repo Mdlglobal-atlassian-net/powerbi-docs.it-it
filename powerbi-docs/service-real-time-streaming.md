@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 034dc98b1e623bd0d509eb2d174cdc3e3b865067
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f88d1e0458e6a1b3abe20c0b4dd889c037ede612
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514312"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307334"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
 Con lo streaming in tempo reale di Power BI, è possibile trasmettere i dati e aggiornare i dashboard in tempo reale. Gli oggetti visivi o i dashboard che possono essere creati in Power BI possono essere creati anche per visualizzare e aggiornare gli oggetti visivi e i dati in tempo reale. I dispositivi e le origini dei dati in streaming possono essere sensori factory, origini di social media, metriche di utilizzo del servizio e qualsiasi altra origine da cui si possano raccogliere o trasmettere dati per i quali i tempi sono importanti.
@@ -235,6 +235,13 @@ Di seguito è riportato un elenco di controllo che è possibile usare per risolv
 4. La query di Analisi di flusso di Azure invia esplicitamente l'output a Power BI? (usando la parola chiave INTO)
 5. Esiste un flusso di dati all'interno del processo di Analisi di flusso di Azure? Il set di dati verrà creato solo quando vengono trasmessi dei dati.
 6. È possibile analizzare i log di Analisi di flusso di Azure per verificare se esistono eventuali avvisi o errori?
+
+## <a name="automatic-page-refresh"></a>Aggiornamento automatico delle pagine
+
+L'aggiornamento automatico delle pagine funziona a livello di pagina del report e consente agli autori di report di impostare un intervallo di aggiornamento per gli oggetti visivi in una pagina che si attiva solo quando viene usata la pagina. L'aggiornamento automatico delle pagine è disponibile solo per le origini dati DirectQuery. L'intervallo di aggiornamento minimo dipende dal tipo di area di lavoro in cui viene pubblicato il report e dalle impostazioni di amministrazione della capacità per le aree di lavoro Premium.
+
+Per altre informazioni sull'aggiornamento automatico delle pagine, vedere l'articolo [Aggiornamento automatico della pagina](desktop-automatic-page-refresh.md).
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 Ecco alcuni collegamenti che possono risultare utili quando si lavora con lo streaming in tempo reale in Power BI:

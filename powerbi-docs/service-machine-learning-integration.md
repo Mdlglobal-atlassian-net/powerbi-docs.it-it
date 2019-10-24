@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 10ee974b73372fb2243febdcb4431b5decebdf4b
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823474"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259954"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Integrazione di Azure Machine Learning in Power BI
 
@@ -70,7 +70,7 @@ I data scientist usano principalmente Python per sviluppare, e persino per distr
 
 Questo file di schema deve essere incluso nel servizio Web distribuito per i modelli del servizio Machine Learning. Per generare automaticamente lo schema per il servizio Web, è necessario fornire un esempio di input/output nello script di ingresso per il modello distribuito. Vedere la sottosezione sulla generazione automatica (facoltativa) degli schemi Swagger nella documentazione sui modelli di distribuzione con il servizio Azure Machine Learning. Il collegamento include lo script di ingresso di esempio con le istruzioni per la generazione dello schema. 
 
-In particolare, le funzioni *@input_schema* e *@output_schema* nello script di ingresso fanno riferimento ai formati degli esempi di input e output nelle variabili *input_sample* e *output_sample* e usano questi esempi per generare una specifica OpenAPI (Swagger) per il servizio Web durante la distribuzione.
+In particolare, le funzioni *\@input_schema* e *\@output_schema* nello script di ingresso fanno riferimento ai formati degli esempi di input e output nelle variabili *input_sample* e *output_sample* e usano questi esempi per generare una specifica OpenAPI (Swagger) per il servizio Web durante la distribuzione.
 
 Le istruzioni per la generazione dello schema tramite l'aggiornamento dello script di ingresso devono essere applicate anche ai modelli creati con gli esperimenti di Machine Learning automatizzati e utilizzando l'SDK di Azure Machine Learning.
 

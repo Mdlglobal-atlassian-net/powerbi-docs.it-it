@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945212"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511647"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Origini dati supportate da DirectQuery in Power BI
 
@@ -76,7 +76,7 @@ La tabella seguente specifica se è necessario un **gateway dati locale** per co
 | Database Oracle |Sì |
 | PostgreSQL |Sì |
 | Server applicazioni SAP Business Warehouse |Sì |
-| Server messaggi SAP Business Warehouse |Non è ancora supportato nel **servizio Power BI** |
+| Server messaggi SAP Business Warehouse |Sì |
 | SAP HANA |Sì |
 | Snowflake |Sì |
 | Spark (Beta), versione 0.9 e successive |Sì |
@@ -97,6 +97,7 @@ L'opzione SSO interessa tutti i set di dati che usano l'origine dati specifica. 
 - Impala
 - SAP HANA
 - SAP BW
+- Server messaggi SAP BW (anteprima)
 - Spark
 - SQL Server
 - Teradata

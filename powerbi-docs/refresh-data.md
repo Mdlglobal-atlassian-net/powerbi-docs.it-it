@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325029"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307935"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -309,6 +309,13 @@ L'icona di avviso consente di rilevare i problemi correnti dei set di dati, ma �
 > [!NOTE]
 > È possibile trovare un collegamento per visualizzare la cronologia degli aggiornamenti nelle impostazioni del set di dati. È anche possibile attivare la cronologia degli aggiornamenti a livello di codice usando l'[API REST di Power BI](/rest/api/power-bi/datasets/getrefreshhistoryingroup). Usando una soluzione personalizzata, è possibile monitorare la cronologia degli aggiornamenti di più set di dati in modo centralizzato.
 
+## <a name="automatic-page-refresh"></a>Aggiornamento automatico delle pagine
+
+L'aggiornamento automatico delle pagine funziona a livello di pagina del report e consente agli autori di report di impostare un intervallo di aggiornamento per gli oggetti visivi in una pagina che si attiva solo quando viene usata la pagina. L'aggiornamento automatico delle pagine è disponibile solo per le origini dati DirectQuery. L'intervallo di aggiornamento minimo dipende dal tipo di area di lavoro in cui viene pubblicato il report e dalle impostazioni di amministrazione della capacità per le aree di lavoro Premium.
+
+Per altre informazioni sull'aggiornamento automatico delle pagine, vedere l'articolo [Aggiornamento automatico della pagina](desktop-automatic-page-refresh.md).
+
+
 ## <a name="best-practices"></a>Procedure consigliate
 
 Controllare regolarmente la cronologia degli aggiornamenti dei set di dati è una delle procedure consigliate più importanti da adottare per garantire che i report e i dashboard usino dati aggiornati. Se si rilevano problemi, risolverli tempestivamente e verificare l'esito con i proprietari delle origini dati e gli amministratori di gateway, se necessario.
@@ -324,6 +331,7 @@ Inoltre, prendere in considerazione i seguenti consigli per stabilire e gestire 
 - Usare una distribuzione affidabile con gateway dati aziendale per connettere i set di dati alle origini dati locali. Se si verificano errori di aggiornamento correlati al gateway, ad esempio gateway non disponibile o sovraccarico, rivolgersi agli amministratori dei gateway per aggiungere altri gateway a un cluster esistente o distribuire un nuovo cluster (scalabilità verticale e orizzontale).
 - Usare gateway dati separati per i set di dati di importazione e i set di dati DirectQuery/LiveConnect in modo che le importazioni di dati durante l'aggiornamento pianificato non influiscano sulle prestazioni di report e dashboard dei set di dati DirectQuery/LiveConnect, che eseguono query sulle origini dati ad ogni interazione dell'utente.
 - Verificare che Power BI sia in grado di inviare le notifiche relative agli errori di aggiornamento alla propria cassetta postale. A causa dei filtri per la posta indesiderata, i messaggi di posta elettronica potrebbero essere bloccati o spostati in una cartella separata e passare inosservati.
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 

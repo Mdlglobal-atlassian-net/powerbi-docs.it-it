@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299324"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544366"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mappe colorate (cloroplete) in Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Nelle mappe colorate vengono usate ombreggiature, tinte o motivi per visualizzare proporzionalmente le differenze relative a un valore in un'area geografica.  In questo modo è possibile visualizzare queste differenze relative con ombreggiature chiare (frequenza o valore minore) e scure (frequenza o valore maggiore).    
 
 ![Mappa degli Stati Uniti](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Le mappe colorate sono ideali nelle circostanze seguenti:
 * per ottenere una panoramica della distribuzione nelle varie località geografiche
 
 ### <a name="prerequisites"></a>Prerequisiti
-- Servizio Power BI o Power BI Desktop
-- Sales and Marketing Sample
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
 
-Per seguire la procedura, tenere presente che nell'esercitazione viene usato il servizio Power BI e non Power BI Desktop.
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+
 
 ## <a name="create-a-basic-filled-map"></a>Creare una mappa colorata di base
 Il video seguente mostra come creare una mappa di base e convertirla in una mappa colorata.
+   > [!NOTE]
+   > Questo video usa una versione precedente di Power BI Desktop.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Ottenere i dati e aggiungere una nuova pagina vuota al report
-1. Per creare una mappa colorata personalizzata, [scaricare l'esempio di analisi delle vendite e marketing](../sample-datasets.md) accedendo a Power BI e selezionando **Recupera dati \> Esempi \> Vendite e marketing \> Connetti**. In alternativa ottenere l'app **Vendite e marketing Power BI** in appsource.com. 
-
-2. Aprire il report Vendite e marketing.
-
-   ![Viene aperto il report Vendite e marketing](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI apre il report. Selezionare **Modifica report** per aprire il report in [visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
-
-4. Aggiungere una nuova pagina selezionando il segno più (+) di colore giallo nella parte inferiore dell'area di disegno del report.
-
-    ![Schede del report](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>Creare una mappa colorata
 1. Nel riquadro Campi selezionare il campo **Geo** \> **State**.    
@@ -75,9 +75,9 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
    ![Modelli con l'icona per la mappa colorata evidenziata](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Filtrare la mappa in modo da visualizzare solo gli Stati Uniti continentali.
 
-   a.  Nella parte inferiore del riquadro Visualizzazioni cercare l'area **Filtri** .
+   a.  A sinistra del riquadro Visualizzazioni individuare il riquadro **Filtri**. Espanderlo se è ridotto a icona
 
-   b.  Passare il puntatore su **State** e fare clic sulla freccia di espansione.  
+   b.  Passare il puntatore su **Stato** e selezionare la freccia di espansione  
    ![Filtri a livello di oggetto visivo che indicano State(All)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Apporre un segno di spunta accanto a **All** e rimuovere quello accanto ad **AK**.
@@ -115,11 +115,11 @@ Evidenziando una località in una mappa colorata viene applicato il filtro incro
 
     ![Scheda Sentiment selezionata](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Spostare e ridimensionare le visualizzazioni nella pagina per creare spazio e quindi incollare con CTRL-V la mappa colorata del report precedente.
+4. Spostare e ridimensionare le visualizzazioni nella pagina per creare spazio e quindi incollare con CTRL-V la mappa colorata del report precedente. (Vedere le immagini seguenti)
 
    ![Mappa colorata aggiunta alla pagina Sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Selezionare uno stato nella mappa colorata.  per evidenziare le altre visualizzazioni nella pagina. Selezionando **Texas**, ad esempio, viene illustrato che Sentiment è 74 e il Texas si trova in Central District \#23.   
+5. Selezionare uno stato nella mappa colorata.  Le altre visualizzazioni nella pagina vengono evidenziate e filtrate in modo incrociato. Selezionando **Texas**, ad esempio, si vedrà che il sentiment è 75 e che il Texas si trova nel Central District #23.   
    ![Texas selezionato](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. Selezionare un punto dati nel grafico a linee VanArsdel - Sentiment by Month per filtrare la mappa colorata in modo da visualizzare i dati relativi a Sentiment per VanArsdel e non per la concorrenza.  
    ![nuova ombreggiatura](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)

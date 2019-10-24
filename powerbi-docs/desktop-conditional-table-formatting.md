@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561073"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544006"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formattazione condizionale nelle tabelle 
 La formattazione condizionale nelle tabelle consente di specificare colori delle celle personalizzati in base ai valori della cella o ad altri valori o campi, e anche di usare sfumature. È anche possibile visualizzare i valori delle celle con barre dei dati. 
@@ -140,6 +140,9 @@ Per colorare gli oggetti visivi è possibile usare uno dei valori elencati nella
 Quando si lavora con la formattazione condizionale nelle tabelle, è necessario tenere presenti alcune considerazioni:
 
 * La formattazione condizionale viene applicata solo ai valori di un oggetto visivo **Matrice** e non è applicabile a subtotali o totali complessivi. 
+* La formattazione condizionale non viene applicata alla riga **Totale**
+* Tutte le tabelle che non hanno un raggruppamento vengono visualizzate come righe singole che non supportano la formattazione condizionale.
+* Se si usa il formato sfumatura con valori max/min automatici o la formattazione basata su regole con regole percentuali e i dati contengono valori NaN, non è possibile applicare la formattazione condizionale. NaN significa 'Not a number' (non un numero). La causa più frequente è un errore di divisione per zero. Per evitare errori di questo tipo è possibile usare la [funzione DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax).
 
 
 ## <a name="next-steps"></a>Passaggi successivi

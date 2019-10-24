@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770790"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543038"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
@@ -33,10 +33,11 @@ Quando si apre il servizio Power BI in un browser, si inizia dalla schermata Hom
 3. pulsante Home di Power BI
 4. Pulsanti delle icone, tra cui Impostazioni, Guida e Commenti e suggerimenti
 5. Casella di ricerca
-6. Riquadri di un dashboard preferito
-7. Dashboard e report preferiti usati di frequente
+6. Dashboard, report e aree di lavoro preferiti e usati di frequente
+7. Dashboard, report e aree di lavoro recenti
+8. Aree di lavoro personali
 
-Gli utenti finali per i report e i dashboard hanno la stessa esperienza di avvio nel servizio Power BI in un browser.
+L'utente e gli utenti finali dei report e dei dashboard hanno la stessa esperienza di avvio del servizio Power BI in un browser.
 
 Queste funzionalità verranno illustrate più avanti. Per il momento verranno presi in esame alcuni concetti di Power BI. In alternativa, è possibile guardare questo video prima di tutto.  Nel video vengono presentati i concetti di base e viene offerta una panoramica del servizio Power BI.
 
@@ -44,7 +45,7 @@ Queste funzionalità verranno illustrate più avanti. Per il momento verranno pr
 
 
 ## <a name="power-bi-concepts"></a>Concetti di Power BI
-I quattro elementi fondamentali di Power BI sono: **_dashboard_**, **_report_**, **_cartelle di lavoro_** e **_set di dati_**. Questi elementi sono organizzati in **_aree di lavoro_**. È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
+I quattro elementi fondamentali di Power BI sono: **_dashboard_** , **_report_** , **_cartelle di lavoro_** e **_set di dati_** . Questi elementi sono organizzati in **_aree di lavoro_** . È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
 
 ## <a name="workspaces"></a>Aree di lavoro
 Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per gli utenti finali di Power BI dell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle.
@@ -85,7 +86,7 @@ I set di dati possono essere aggiornati, rinominati, esplorati e rimossi. Usare 
 * [Set di dati di esempio per Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Report
-Un report di Power BI è costituito da una o più pagine di visualizzazioni, ad esempio grafici a linee, mappe e mappe ad albero. Le visualizzazioni sono dette anche **_oggetti visivi_**. Tutte le visualizzazioni in un report provengono da un unico set di dati. I report possono essere creati da zero all'interno di Power BI, importati con dashboard condivisi dai colleghi oppure essere creati da Power BI quando l'utente si connette ai set di dati da Excel, Power BI Desktop, database e applicazioni SaaS.  Ad esempio, quando si è connessi a una cartella di lavoro di Excel che contiene fogli di Power View, Power BI crea un report basato su tali fogli. Inoltre, quando ci si connette a un'applicazione SaaS, Power BI importa un report predefinito.
+Un report di Power BI è costituito da una o più pagine di visualizzazioni, ad esempio grafici a linee, mappe e mappe ad albero. Le visualizzazioni sono dette anche **_oggetti visivi_** . Tutte le visualizzazioni in un report provengono da un unico set di dati. I report possono essere creati da zero all'interno di Power BI, importati con dashboard condivisi dai colleghi oppure essere creati da Power BI quando l'utente si connette ai set di dati da Excel, Power BI Desktop, database e applicazioni SaaS.  Ad esempio, quando si è connessi a una cartella di lavoro di Excel che contiene fogli di Power View, Power BI crea un report basato su tali fogli. Inoltre, quando ci si connette a un'applicazione SaaS, Power BI importa un report predefinito.
 
 È possibile visualizzare i report e interagire con essi in due modalità: *Visualizzazione di lettura* e *Visualizzazione di modifica*. Quando si apre un report, viene aperto in Visualizzazione di lettura. Se si hanno autorizzazioni di modifica, viene visualizzata l'opzione **Modifica report** nell'angolo in alto a sinistra ed è possibile visualizzare il report in Visualizzazione di modifica.  Se un report si trova in un'area di lavoro, tutti gli utenti con un ruolo *amministratore*, *membro* o *collaboratore* possono modificarlo. Questi utenti hanno accesso a tutte le funzionalità di esplorazione, progettazione, compilazione e condivisione della Visualizzazione di modifica per il report. Gli utenti con cui è stato condiviso il report possono esplorarlo e modificarlo in Visualizzazione di lettura.   
 
@@ -195,8 +196,8 @@ Domande e risposte cerca una risposta nel set di dati connesso al dashboard,  ov
 
 Non appena si inizia a digitare la domanda, viene visualizzata la pagina Domande e risposte. Durante la digitazione vengono visualizzate informazioni utili per porre la domanda corretta e trovare la risposta migliore con richieste di riformulazione, compilazione automatica, suggerimenti e altro ancora. Una volta ottenuta la visualizzazione, ovvero la risposta desiderata, è possibile aggiungerla al dashboard. Per altre informazioni, vedere [Domande e risposte in Power BI](power-bi-q-and-a.md).
 
-### <a name="4-icon-buttons"></a>4. **Pulsanti delle icone**
-Le icone nell'angolo in alto a destra consentono di accedere alle impostazioni, alle notifiche, ai download e alla Guida e di inviare commenti e suggerimenti al team di Power BI. Selezionare la doppia freccia per aprire il dashboard in modalità **schermo intero**.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **Icone nella barra di intestazione nera**
+Le icone nell'angolo superiore destro consentono di accedere a impostazioni, notifiche, download e alla Guida, di attivare o disattivare il **nuovo aspetto** o di inviare commenti e suggerimenti al team di Power BI.  
 
 ![pulsanti delle icone](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Se si seleziona **Power BI** viene nuovamente visualizzata la home page di Power
 
    !["Power BI" nel servizio](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **Pulsanti delle icone con etichette**
-Questa area della schermata contiene opzioni aggiuntive per interagire con il contenuto, in questo caso con il dashboard.  Oltre alle icone con etichette visualizzate, è possibile selezionare i puntini di sospensione per visualizzare altre opzioni per duplicare, stampare, aggiornare il dashboard ed eseguire altre operazioni.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Icone con etichetta nella barra dei menu grigia**
+Questa area della schermata contiene opzioni aggiuntive per interagire con il contenuto, in questo caso con il dashboard.  Oltre alle icone con etichetta visualizzate, è possibile selezionare **Altre opzioni (...)** per visualizzare altre opzioni per duplicare, stampare, aggiornare il dashboard ed eseguire altre operazioni.
 
    ![Pulsanti delle icone con etichette](media/service-basic-concepts/power-bi-labeled-icons.png)
 

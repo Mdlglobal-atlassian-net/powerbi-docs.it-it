@@ -10,19 +10,22 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: b7a4021999a39d88b78d31aaa55d7f9c08a93d8e
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839860"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544189"
 ---
 # <a name="basic-area-chart"></a>Grafico ad aree di base
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Il grafico ad aree di base, detto anche grafico ad aree su più livelli, è basato sul grafico a linee. L'area compresa tra l'asse e la linea viene riempita con colori per indicare un volume. 
 
 I grafici ad aree enfatizzano l'entità del cambiamento nel tempo e possono essere usati per attirare l'attenzione sul valore totale in una tendenza. Ad esempio, i dati che rappresentano il profitto nel tempo possono essere tracciati in un grafico ad aree per enfatizzare il profitto totale.
 
-![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+![](media/power-bi-visualization-basic-area-chart/power-bi-chart-example.png)
 
 ## <a name="when-to-use-a-basic-area-chart"></a>Quando usare un grafico ad aree di base
 I grafici ad aree di base rappresentano un'ottima scelta nelle seguenti situazioni:
@@ -31,29 +34,32 @@ I grafici ad aree di base rappresentano un'ottima scelta nelle seguenti situazio
 * per singole serie che rappresentano un set fisicamente numerabile
 
 ### <a name="prerequisites"></a>Prerequisiti
- - Servizio Power BI
- - Esempio di analisi delle vendite al dettaglio
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-Per seguire la procedura, accedere a Power BI e selezionare **Recupera dati \> Esempi \> Esempio di analisi delle vendite al dettaglio**  Connetti e scegliere **Passa al dashboard**. 
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+   
+2. Trovare la copia del **file Retail Analysis Sample PBIX**
+
+1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+
 
 ## <a name="create-a-basic-area-chart"></a>Creare un grafico ad aree di base
  
 
-1. Dal dashboard "Esempio di analisi delle vendite al dettaglio" selezionare il riquadro **Total Stores** per aprire il report "Esempio di analisi delle vendite al dettaglio".
-2. Selezionare **Modifica** per aprire il report in visualizzazione di modifica.
-3. Aggiungere una nuova pagina del report selezionando l'icona con il segno più (+) di colore giallo nella parte inferiore del report stesso.
-4. Creare un grafico ad aree che visualizzi le vendite dell'anno e le vendite dell'anno precedente per mese.
+1. Questa procedura consente di creare un grafico ad area che visualizza le vendite di quest'anno e quelle dell'anno precedente per mese.
    
    a. Nel riquadro Campi selezionare **Sales \> Last Year Sales** e **This Year Sales > Value**.
 
-   ![](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
+   ![valori dei dati del grafico ad area](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
    b.  Convertire il grafico in un grafico ad area di base selezionando l'icona corrispondente nel riquadro Visualizzazioni.
 
-   ![](media/power-bi-visualization-basic-area-chart/convertchart.png)
+   ![icona del grafico ad area](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  Selezionare **Ora \> Mese** per aggiungerlo all'area **Asse**.   
-   ![](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
+   c.  Selezionare **Time \> FiscalMonth** per aggiungerlo all'area **Asse**.   
+   ![valori dell'asse del grafico ad area](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  Per visualizzare il grafico in base al mese, selezionare i puntini di sospensione (in alto a destra dell'oggetto visivo) e scegliere **Ordina per mese**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e selezionare **Ordinamento crescente** oppure **Ordinamento decrescente**.
 
@@ -62,14 +68,11 @@ Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un
 
 Per evidenziare un'area specifica nel grafico, selezionare l'area o il bordo superiore.  Diversamente da altri tipi di visualizzazioni, se nella stessa pagina sono presenti altre visualizzazioni, evidenziando un grafico ad area di base non viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report. Sono comunque una destinazione per i filtri incrociati applicati da altre visualizzazioni nella pagina del report. 
 
-1. Provare a selezionare il grafico ad area e a copiarlo in un'altra pagina del report (CTRL-C e CTRL-V).
-2. Selezionare una delle aree ombreggiate e quindi l'altra. Si noterà che questa operazione non ha alcun effetto sulle altre visualizzazioni nella pagina.
+1. Provare a selezionare il grafico ad area e a copiarlo nella pagina del report **New Store Analysis** (CTRL-C e CTRL-V).
+2. Selezionare una delle aree ombreggiate del grafico ad area e quindi selezionare l'altra. Si noterà che questa operazione non ha alcun effetto sulle altre visualizzazioni nella pagina.
+1. Ora selezionare un elemento. Si noti l'effetto sul grafico ad area: viene applicato il filtro incrociato.
 
-    ![Vendite dell'anno in corso selezionate nel grafico ad area](media/power-bi-visualization-basic-area-chart/power-bi-select-area.png)
-
-3. Selezionare ora un elemento in una delle altre visualizzazioni nella pagina, ad esempio una barra di un grafico a colonne o un mese in un grafico a linee. Si noti l'effetto sul grafico ad area, che viene filtrato.  
-
-    ![Barra Ft Oglethorpe selezionata](media/power-bi-visualization-basic-area-chart/power-bi-filter.png) 
+    ![Esempi di filtro](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
 Per altre informazioni, vedere [Interazioni tra le visualizzazioni nei report](../service-reports-visual-interactions.md).
 

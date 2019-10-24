@@ -8,15 +8,15 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/31/2018
-ms.openlocfilehash: 71c2135092b0b9bb2b02f4559d40c0b10814a51f
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.date: 10/09/2019
+ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
+ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325738"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "72259973"
 ---
-# <a name="changelog-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
+# <a name="change-log-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
 Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
 
@@ -24,12 +24,19 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 
 ## <a name="september-2019"></a>Settembre 2019
 
-- **Server di report Power BI**          
+- **Server di report Power BI**
+    - *Versione: 1.6.7221.30698 (build 15.0.1102.620), data di rilascio: 09 ottobre 2019*
+        - Correzioni di bug
+            - Correzione per l'oggetto visivo personalizzato Filtro testo.
+            - Correzione per le prestazioni dei filtri dei dati a discesa.
+            - Correzione per la rimozione di informazioni personali dalla telemetria.
+          - Correzione per gli URL perché non ci sia distinzione tra maiuscole e minuscole.
+             
     - *Versione 1.6.7206.38019 (build 15.0.1102.597), data di rilascio: 26 settembre 2019*
         - Aggiornamenti della sicurezza
         - Correzioni di bug
-           - Paginated Reports
-             - Correzione dei problemi di accessibilità riscontrati durante l'uso di IE e Edge.
+           - Report impaginati
+             - Correzione dei problemi di accessibilità riscontrati durante l'uso di Internet Explorer e Microsoft Edge.
              - Correzione di problemi di SAP HANA durante il test della connessione.
              - Correzione dei problemi rilevati durante l'inserimento di un elenco di indirizzi di posta elettronica.
              - Correzione per i report di Power BI che usano un'origine dati DirectQuery e l'autenticazione integrata.
@@ -43,10 +50,17 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
              - Aggiornamento dell'API Web /PowerBIReports({Id})/DataSources (PATCH) per consentire gli aggiornamenti della stringa di connessione.
          
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+
+    - *Versione: 2.73.5586.1241 (settembre 2019), data di rilascio: 09 ottobre 2019*
+        - Correzioni di bug
+            - Correzione per l'oggetto visivo personalizzato Filtro testo.
+            - Correzione per le prestazioni dei filtri dei dati a discesa.
+            - Correzione per la rimozione di informazioni personali dalla telemetria.
+            
     - *Versione: 2.73.5586.821 (settembre 2019), data di rilascio: 26 agosto 2019* (nuova build e nuova versione)
-    - Include modifiche necessarie per la connessione a Server di report di Power BI (settembre 2019)
+        - Include modifiche necessarie per la connessione a Server di report di Power BI (settembre 2019)
 
-
+    
 ## <a name="may-2019"></a>Maggio 2019
 
 - **Server di report Power BI**          
