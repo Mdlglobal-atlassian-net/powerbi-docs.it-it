@@ -211,8 +211,6 @@
               href: desktop-calculated-tables.md
             - name: Misure in Power BI Desktop
               href: desktop-measures.md
-            - name: Modificare uno schema linguistico di Domande e risposte
-              href: power-bi-q-and-a-linguistic-schema.md
             - name: Importare e visualizzare gli indicatori KPI (Anteprima)
               href: desktop-import-and-display-kpis.md
         - name: Creare report
@@ -227,8 +225,6 @@
               href: desktop-tooltips.md
             - name: Esportare i report in formato PDF e stamparli
               href: desktop-export-to-pdf.md
-            - name: Domande e risposte in Power BI Desktop
-              href: desktop-qna-in-reports.md
             - name: Riquadro Analisi in Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Usare le informazioni dettagliate per spiegare gli aumenti e le diminuzioni
@@ -443,7 +439,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Integrazione di Machine Learning
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Creare un modello di Machine Learning (anteprima)
+        - name: Creare un modello di Machine Learning
           href: service-tutorial-build-machine-learning-model.md
         - name: Aggiornare dati da SQL Server
           href: service-gateway-sql-tutorial.md
@@ -717,7 +713,7 @@
               href: service-machine-learning-integration.md
             - name: Usare Servizi cognitivi in Power BI
               href: service-cognitive-services.md
-            - name: Machine Learning automatizzato in Power BI (anteprima)
+            - name: Machine Learning automatizzato in Power BI
               href: service-machine-learning-automated.md
         - name: Derivazione dei dati
           href: service-data-lineage.md
@@ -1161,6 +1157,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: Confronto tra funzione DIVIDE e operatore di divisione (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Importanza della riduzione delle query
+      href: guidance/power-query-folding.md
     - name: Uso appropriato delle funzioni di errore
       href: guidance/dax-error-functions.md
     - name: Procedure consigliate per i flussi di dati
