@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: Modificare la modalità di visualizzazione di un report
               href: end-user-report-view.md
+            - name: Modificare l'ordinamento in un oggetto visivo
+              href: end-user-change-sort.md
             - name: Usare i filtri in un report
               href: end-user-report-filter.md
             - name: Informazioni su come si applicano le funzionalità di filtro incrociato agli oggetti visivi del report
