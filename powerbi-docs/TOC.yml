@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Informativa sulla privacy Invia smile di Power BI Desktop
           href: desktop-send-smile-privacy-statement.md
-        - name: Accessibilità nei report di Power BI
-          href: desktop-accessibility.md
         - name: Gestire il modulo di accesso di Power BI Desktop
           href: desktop-admin-sign-in-form.md
+        - name: Accessibilità
+          items:
+            - name: Panoramica dell'accessibilità in Power BI
+              href: desktop-accessibility-overview.md
+            - name: Creazione di report di Power BI accessibili
+              href: desktop-accessibility-creating-reports.md
+            - name: Utilizzo di report di Power BI con gli strumenti di accessibilità
+              href: desktop-accessibility-consuming-tools.md
+            - name: Creazione di report di Power BI con gli strumenti di accessibilità
+              href: desktop-accessibility-creating-tools.md
+            - name: Scelte rapide da tastiera per l'accessibilità per i report di Power BI
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Servizio Power BI
   items:
     - name: Panoramica
@@ -1113,7 +1123,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: Gestire l'origine dati aziendale - SQL
+            - name: 'Gestire l''origine dati aziendale - SQL '
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
