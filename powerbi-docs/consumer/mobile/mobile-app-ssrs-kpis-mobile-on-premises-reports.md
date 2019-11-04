@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61344129"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060248"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Visualizzare report e indicatori KPI locali dei server di report nelle app Power BI per dispositivi mobili
 
@@ -132,6 +132,6 @@ I report di Power BI, i report per dispositivi mobili di Reporting Services e gl
 3. Toccare **Rimuovi server**.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Che cos'è Power BI?](../../power-bi-overview.md)  
+* [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)  
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 

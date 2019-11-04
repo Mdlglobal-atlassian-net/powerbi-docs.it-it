@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b43408ef91e79d9489480d795329f2e80d0bb1be
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307742"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429716"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
@@ -107,8 +107,8 @@ Nel video seguente vengono descritti e mostrati ciascuno di questi aggiornamenti
 
 Selezionare i collegamenti seguenti per scaricare la versione precedente corrispondente: 
 
-* [Versione di settembre 2019 di Power BI Desktop - 32 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09.msi)
-* [Versione di settembre 2019 di Power BI Desktop - 64 bit](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-09_x64.msi)
+* [Versione di settembre 2019 di Power BI Desktop - 32 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09.exe)
+* [Versione di settembre 2019 di Power BI Desktop - 64 bit](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2019-09_x64.exe)
 
 
 ## <a name="august-2019-update-2725556801"></a>Aggiornamento di agosto 2019 (2.72.5556.801)
@@ -767,7 +767,7 @@ Gli aggiornamenti seguenti sono stati le novità di **Power BI Desktop** di otto
 ### <a name="reporting"></a>Reporting
 
 * Ricerca nelle schede filtro [[video]](https://youtu.be/cT3L2VzgBRU?t=56)  [[articolo]](power-bi-reports-filters-and-highlighting.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23search) 
-* Miglioramenti dell'accessibilità per le esperienze di creazione [[video]](https://youtu.be/cT3L2VzgBRU?t=118)  [[articolo]](desktop-accessibility.md#arranging-items-in-field-buckets)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
+* Miglioramenti dell'accessibilità per le esperienze di creazione [[video]](https://youtu.be/cT3L2VzgBRU?t=118)  [[articolo]](desktop-accessibility-overview.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23accessibility)
 * Miglioramenti delle prestazioni per la mappa ArcGIS [[video]](https://youtu.be/cT3L2VzgBRU?t=333)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23esri)
 
 
@@ -980,7 +980,7 @@ Gli aggiornamenti seguenti sono stati le novità di **Power BI Desktop** di giug
 
 ### <a name="reporting"></a>Reporting
 
-* Supporto del contrasto elevato per i report [[video]](https://youtu.be/4VpGtWSrssE?t=13s) [[articolo]](desktop-accessibility.md#high-contrast-support-for-reports) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
+* Supporto del contrasto elevato per i report [[video]](https://youtu.be/4VpGtWSrssE?t=13s) [[articolo]](desktop-accessibility-overview.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast) 
 * Controllo radiale ad anello  [[video]](https://youtu.be/4VpGtWSrssE?t=6m1s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#donutRadius) 
 * Controllo posizione delle etichette nei grafici a torta e ad anello [[video]](https://youtu.be/4VpGtWSrssE?t=7m19s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#detailLabels) 
 * Formattazione separata delle etichette dati per ogni misura in un grafico combinato [[video]](https://youtu.be/4VpGtWSrssE?t=9m29s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 

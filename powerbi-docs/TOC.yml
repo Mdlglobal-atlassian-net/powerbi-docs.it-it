@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Risolvere i problemi relativi all'avvio di Power BI Desktop
               href: desktop-error-launching-desktop.md
+            - name: Risoluzione dei problemi del modello DirectQuery in Power BI Desktop
+              href: desktop-directquery-troubleshoot.md
     - name: Riferimento
       items:
         - name: Tipi di dati in Power BI Desktop
@@ -661,7 +663,7 @@
           items:
             - name: Creare le nuove aree di lavoro
               href: service-create-the-new-workspaces.md
-            - name: Creare aree di lavoro per le app
+            - name: Creare aree di lavoro
               href: service-create-workspaces.md
             - name: Pubblicare app dalle aree di lavoro
               href: service-create-distribute-apps.md
@@ -1123,7 +1125,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: 'Gestire l''origine dati aziendale - SQL '
+            - name: Gestire l'origine dati aziendale - SQL
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: Procedure consigliate per i flussi di dati
       href: service-dataflows-best-practices.md
+    - name: Linee guida per il modello DirectQuery in Power BI Desktop
+      href: guidance/directquery-model-guidance.md
     - name: White paper
       items:
         - name: Panoramica dei white paper

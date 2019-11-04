@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: 84afdf7072241533bf1e70d6a2a49d18c3da1d8f
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: d0372af2727861a4af0f4ebb983cb447b020b821
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307834"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021367"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Ottenere un oggetto visivo Power BI certificato
 
@@ -71,7 +71,7 @@ Per ottenere la [certificazione](#get-a-power-bi-visual-certified) dell'oggetto 
 
 * Se vengono modificate le proprietà in capabilities.json, assicurarsi che non interrompano i report dell'utente.
 
-* Assicurarsi che l'oggetto visivo sia conforme alle [linee guida per gli oggetti visivi di Power BI](https://docs.microsoft.com/en-us/power-bi/developer/guidelines-powerbi-visuals#guidelines-for-power-bi-visuals-with-additional-purchases). **Non sono consentite filigrane**.
+* Assicurarsi che l'oggetto visivo sia conforme alle [linee guida per gli oggetti visivi di Power BI](./developer/guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **Non sono consentite filigrane**.
 
 * Usa solo componenti OSS revisionabili pubblici (librerie JS o TypeScript pubbliche. Il codice sorgente è disponibile per la revisione e non presenta vulnerabilità note). Non è possibile verificare oggetti visivi personalizzati che usano un componente commerciale.
 
@@ -192,7 +192,7 @@ Per inviare un oggetto visivo personalizzato per la certificazione:
 
 ## <a name="faq"></a>DOMANDE FREQUENTI
 
-Per altre informazioni sugli oggetti visivi, vedere le [domande frequenti sugli oggetti visivi certificati](#get-a-power-bi-visual-certified).
+Per altre informazioni sugli oggetti visivi, vedere le [domande frequenti sugli oggetti visivi certificati](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

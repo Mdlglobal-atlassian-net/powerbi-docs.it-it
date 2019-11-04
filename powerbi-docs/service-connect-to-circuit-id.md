@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3c8ef3e522c9f20ff9602d29670ccaf28cd92048
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 843d7769685c8ad960d4a4bc496bb7f8180da3da
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185943"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060580"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Connettersi a Circuit ID con Power BI
 L'analisi dei dati di comunicazione dall'ID circuito con Power BI è molto semplice. Power BI recupera infatti i dati, creando quindi un dashboard predefinito e report correlati basati su tali dati. Dopo aver creato la connessione, è possibile esplorare i dati e personalizzare il dashboard in base alle esigenze. I dati vengono aggiornati automaticamente ogni giorno.
@@ -49,7 +49,7 @@ Connettersi al [pacchetto di contenuto Circuit ID](https://app.powerbi.com/getda
 * Anche se la pianificazione prevede che il set di dati venga aggiornato quotidianamente, è possibile modificarne la frequenza di aggiornamento o provare ad aggiornarlo su richiesta usando **Aggiorna ora**
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](power-bi-overview.md)
+[Che cos'è Power BI?](fundamentals/power-bi-overview.md)
 
 [Recuperare dati per Power BI](service-get-data.md)
 
