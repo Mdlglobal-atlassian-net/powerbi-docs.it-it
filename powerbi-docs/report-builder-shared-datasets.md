@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021037"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431521"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Usare set di dati condivisi in Generatore report di Power BI
 
@@ -99,7 +99,7 @@ Quando si vuole che i dati nel report di Power BI e nel report di Generatore rep
 
     ![Risultati query](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. Selezionare **OK**. 
+1. Selezionare **OK**.
 
     La query verrà visualizzata nella sezione **Query** della finestra di dialogo **Proprietà set di dati**.
 

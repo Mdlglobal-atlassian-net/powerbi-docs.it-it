@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1fc8decc70ade009a7c4236686cfe9cf72adb54d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 52ca0405c17339580a971162d13cb4ba67f05979
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61161710"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060510"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Connettersi a SQL Sentry con Power BI
 L'analisi dei dati delle prestazioni raccolti da SQL Sentry è facile con Power BI. Power BI recupera infatti i dati, creando quindi un dashboard predefinito e report correlati basati su tali dati.
@@ -93,7 +93,7 @@ Se i dati di qualche app non vengono visualizzati in Power BI, verificare di sta
 Se non si è proprietari del database SQL Sentry in corso di sincronizzazione con <https://cloud.sqlsentry.com>, contattare l'amministratore per verificare di avere l'autorizzazione necessaria a visualizzare i dati raccolti.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](power-bi-overview.md)
+[Che cos'è Power BI?](fundamentals/power-bi-overview.md)
 
 [Recuperare dati per Power BI](service-get-data.md)
 

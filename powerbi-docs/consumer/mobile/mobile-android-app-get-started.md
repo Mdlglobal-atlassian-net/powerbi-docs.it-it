@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: c5d6549c449c77cea709783b1634318e12fc2e52
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5734c62485340417b6327f07df4abd7af3f2f185
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61350961"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060277"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
 L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. 
@@ -23,7 +23,7 @@ L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobil
 
 È possibile creare report di Power BI in Power BI Desktop e pubblicarli:
 
-* [Pubblicarli nel servizio Power BI](../../power-bi-overview.md) e creare dashboard.
+* [Pubblicarli nel servizio Power BI](../../fundamentals/power-bi-overview.md) e creare dashboard.
 * [Pubblicarli in locale nel Server di report di Power BI](../../report-server/quickstart-create-powerbi-report.md).
 
 Nell'app Power BI per Android è quindi possibile interagire con i dashboard e i report, in locale o nel cloud.
@@ -136,7 +136,7 @@ Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositi
 
 ### <a name="see-also"></a>Vedere anche
 * [Scaricare l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
-* [Che cos'è Power BI?](../../power-bi-overview.md)
+* [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
 * Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
 
 
