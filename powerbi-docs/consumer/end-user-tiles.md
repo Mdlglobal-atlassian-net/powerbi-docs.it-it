@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: ffacc95feef1557d5e6aaec2cca72821127d27d6
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142058"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716632"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Un riquadro è uno snapshot dei dati, aggiunto al dashboard da un *designer*. Gli *sviluppatori* possono creare un riquadro da un report, da un set di dati, da un dashboard, dalla casella Domande e risposte, da Excel, da SQL Server Reporting Services (SSRS) e da altre origini.  Questo screenshot mostra numerosi riquadri diversi aggiunti a un dashboard.
 
 ![Dashboard di Power BI](./media/end-user-tiles/power-bi-dash.png)

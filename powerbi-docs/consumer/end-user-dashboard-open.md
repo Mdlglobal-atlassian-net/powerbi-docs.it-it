@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141364"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716378"
 ---
 # <a name="view-a-dashboard"></a>Visualizzare un dashboard
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 I *consumer* di Power BI dedicano molto tempo a visualizzare i dashboard. I dashboard sono progettati per evidenziare informazioni specifiche dai report e dai set di dati sottostanti. E i consumer di Power BI usano tali informazioni per attività di rilevamento, monitoraggio e test, per rispondere a domande e altro ancora, per poter prendere decisioni aziendali basate sui dati.
 
 ![dashboard](media/end-user-dashboard-open/power-bi-new-dash-new.png)

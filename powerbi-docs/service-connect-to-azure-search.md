@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b8738701d2827147e651a233a32de5edc089099b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185977"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060919"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Connettersi a Ricerca di Azure con Power BI
 Analisi del traffico di Ricerca di Azure consente di monitorare e comprendere il traffico diretto al servizio di ricerca di Azure. Il pacchetto di contenuto Ricerca di Azure per Power BI fornisce informazioni dettagliate sui dati di ricerca, incluse la ricerca, l'indicizzazione, le statistiche del servizio e la latenza degli ultimi 30 giorni. Altre informazioni sono reperibili nel [post di blog di Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -58,7 +58,7 @@ Il pacchetto di contenuto Ricerca di Azure richiede che nell'account sia abilita
 Verificare che il nome dell'account di archiviazione e la chiave di accesso completa siano indicati correttamente. Il nome dell'account di archiviazione deve corrispondere all'account configurato con Analisi del traffico di Ricerca di Azure.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](power-bi-overview.md)
+[Che cos'è Power BI?](fundamentals/power-bi-overview.md)
 
 [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 

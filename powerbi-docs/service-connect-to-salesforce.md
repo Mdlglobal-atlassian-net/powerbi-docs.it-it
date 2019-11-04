@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc562c1c75f72e0ada23580aa0698f6463c129bb
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: b351ba2151937b62002dc0cfca849cff58985581
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814322"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060802"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Connettersi a Salesforce con Power BI
 Con Power BI è possibile connettersi facilmente all'account di Salesforce.com. Con questa connessione è possibile recuperare i dati di Salesforce e distribuire automaticamente un dashboard e i report.
@@ -91,7 +91,7 @@ Se quando si prova a connettersi all'account di Salesforce viene visualizzato il
 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](power-bi-overview.md)
+[Che cos'è Power BI?](fundamentals/power-bi-overview.md)
 
 [Origini dati per il servizio Power BI](service-get-data.md)
 

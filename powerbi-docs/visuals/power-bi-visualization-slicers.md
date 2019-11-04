@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/14/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9b6bab357a206184f07da96d3b516107628a851d
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: d400e2013d8f2cb8dda627cda790191fce52503b
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164422"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775879"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 
@@ -40,7 +40,7 @@ I filtri dei dati di Power BI presentano le limitazioni seguenti:
 
 - I filtri dei dati non supportano i campi di input.
 - Il drill-down non è supportato per i filtri dei dati.
-- I filtri dei dati non supportano i filtri a livello di oggetto visivo.
+
 
 ## <a name="create-slicers"></a>Creare filtri dei dati
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186059"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060601"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Connettersi ai log di controllo di Azure con Power BI
 Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare e visualizzare le informazioni archiviate nei log di controllo. Power BI recupera i dati, crea un dashboard predefinito e report basati su tali dati.
@@ -71,6 +71,6 @@ L'ID sottoscrizione sarà un lungo set di numeri e caratteri, simile a quello ne
 Se viene visualizzato un errore di credenziali o un errore durante il tentativo di aggiornamento a causa di credenziali non valide, provare a eliminare tutte le istanze del pacchetto di contenuto Log di controllo di Azure e a ricollegarsi.
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Che cos'è Power BI?](power-bi-overview.md)  
+[Che cos'è Power BI?](fundamentals/power-bi-overview.md)  
 [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
 

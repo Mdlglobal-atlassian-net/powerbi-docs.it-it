@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1d4a48f9116f76136b40f3f22df7ffa68f75a74b
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 53bca7d1c0fd4d8592ec694d67148a7e3ccd46ff
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020554"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891865"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtri ed evidenziazione nei report di Power BI
  Questo articolo illustra i filtri e l'evidenziazione nel servizio Power BI. L'esperienza è quasi identica in Power BI Desktop. Con i *filtri* viene rimosso tutto tranne i dati rilevanti. L'*evidenziazione* è un'operazione diversa dall'applicazione di filtri. Non vengono rimossi i dati, ma viene evidenziato un subset dei dati visibili. I dati non evidenziati rimangono visibili ma in grigio.
