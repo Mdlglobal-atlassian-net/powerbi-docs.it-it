@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7500b5b5ff7f3eabde730b527c16fb6fe2570b89
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523534"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432413"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuire Power BI contenuto a utenti Guest esterni usando Azure Active Directory B2B
 
 **Riepilogo:** Si tratta di un white paper tecnico che illustra come distribuire il contenuto agli utenti esterni all'organizzazione usando l'integrazione di Azure Active Directory business-to-business (Azure AD B2B).
 
-**Writer** Lukasz Pawlowski, Kasper de Jonge
+**Writer:** Lukasz Pawlowski, Kasper de Jonge
 
 **Revisori tecnici:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
@@ -97,7 +97,7 @@ Le app hanno anche una funzionalità univoca che consente agli autori di app di 
 
 Poiché Contoso continua a collaborare con i propri subappaltatori o fornitori, i tecnici esterni devono collaborare strettamente con gli analisti di contoso. Power BI offre diverse funzionalità di collaborazione che consentono agli utenti di comunicare sui contenuti che possono utilizzare. I commenti del dashboard (e presto i commenti di report) consentono agli utenti di discutere i punti dati che vedono e comunicano con gli autori del report per porre domande.
 
-Attualmente, gli utenti Guest esterni possono partecipare ai commenti lasciando commenti e leggendo le risposte. Tuttavia, a differenza degli utenti interni, gli utenti Guest @mentioned non possono essere né ricevere notifiche che hanno ricevuto un commento. Gli utenti guest non possono utilizzare la funzionalità delle sottoscrizioni all'interno Power BI al momento della stesura di questo documento. In una versione futura le restrizioni verranno revocate e l'utente Guest riceverà un messaggio di posta elettronica quando un @mentions commento o quando una sottoscrizione viene recapitata al messaggio di posta elettronica contenente un collegamento al contenuto in Power bi.
+Attualmente, gli utenti Guest esterni possono partecipare ai commenti lasciando commenti e leggendo le risposte. Tuttavia, a differenza degli utenti interni, gli utenti guest non possono essere @mentioned e non ricevono notifiche che hanno ricevuto un commento. Gli utenti guest non possono utilizzare la funzionalità delle sottoscrizioni all'interno Power BI al momento della stesura di questo documento. In una versione futura le restrizioni verranno revocate e l'utente Guest riceverà un messaggio di posta elettronica quando un commento @mentions o quando una sottoscrizione viene recapitata al messaggio di posta elettronica contenente un collegamento al contenuto Power BI.
 
 ### <a name="access-content-in-the-power-bi-mobile-apps"></a>Accedere al contenuto nelle app per dispositivi mobili Power BI
 
@@ -120,7 +120,7 @@ Quando tutti gli utenti di Power BI sono interni all'organizzazione, non è nece
 
 Di seguito vengono in genere rilevate strutture organizzative particolarmente adatte per Azure AD collaborazione tra organizzazioni di tipo B2B in Power BI. Azure AD B2B funziona bene nella maggior parte dei casi, ma in alcune situazioni è opportuno considerare gli approcci alternativi più comuni trattati alla fine di questo documento.
 
-### <a name="case-1-direct-collaboration-between-organizations"></a>Caso 1: Collaborazione diretta tra organizzazioni
+### <a name="case-1-direct-collaboration-between-organizations"></a>Caso 1: collaborazione diretta tra organizzazioni
 
 La relazione di Contoso con il suo fornitore radiante è un esempio di collaborazione diretta tra le organizzazioni. Poiché sono presenti relativamente pochi utenti presso Contoso e il suo fornitore che necessitano dell'accesso alle informazioni sull'affidabilità del radiatore, l'uso di Azure AD la condivisione esterna basata su B2B è la soluzione ideale. È facile da usare e semplice da amministrare. Si tratta di un modello comune in servizi di consulenza in cui un consulente potrebbe dover compilare contenuto per un'organizzazione.
 
@@ -129,7 +129,7 @@ La relazione di Contoso con il suo fornitore radiante è un esempio di collabora
 
 Questa condivisione viene in genere eseguita inizialmente utilizzando ad hoc per la condivisione di elementi. Tuttavia, man mano che i team crescono o aumentano le relazioni, l'approccio pianificato per la condivisione di elementi diventa il metodo preferito per ridurre il sovraccarico di gestione. Inoltre, la condivisione ad hoc o pianificata di app Power BI, commenti e sottoscrizioni al contenuto tra organizzazioni, l'accesso al contenuto nelle app per dispositivi mobili può entrare in gioco e la modifica e la gestione tra organizzazioni di Power BI contenuto. In particolare, se gli utenti di entrambe le organizzazioni hanno Power BI Pro licenze nelle rispettive organizzazioni, possono usare tali licenze Pro negli ambienti Power BI dell'altro. Questo offre una licenza vantaggiosa perché l'organizzazione che invia l'invito potrebbe non dover pagare una licenza di Power BI Pro per gli utenti esterni. Questo argomento viene illustrato più dettagliatamente nella sezione licenze più avanti in questo documento.
 
-### <a name="case-2-parent-and-its-subsidiaries-or-affiliates"></a>Caso 2: Padre e relative consociate o affiliate
+### <a name="case-2-parent-and-its-subsidiaries-or-affiliates"></a>Caso 2: padre e relative consociate o affiliate
 
 Alcune strutture dell'organizzazione sono più complesse, tra cui consociate parzialmente o interamente di proprietà, società affiliate o relazioni del provider di servizi gestiti. Queste organizzazioni hanno un'organizzazione padre, ad esempio una società di gestione, ma le organizzazioni sottostanti operano in modo semi-autonomo, a volte in base a requisiti regionali diversi. In questo modo, ogni organizzazione dispone di un proprio ambiente Azure AD e separa Power BI tenant.
 
@@ -173,7 +173,7 @@ Il secondo approccio si avvale del [database SQL di Azure](https://azure.microso
 
 Sono inoltre possibili approcci più sofisticati, tuttavia i precedenti sono di gran lunga i più comuni.
 
-### <a name="case-3-shared-environment-across-partners"></a>Caso 3: Ambiente condiviso tra partner
+### <a name="case-3-shared-environment-across-partners"></a>Caso 3: ambiente condiviso tra partner
 
 Contoso può partecipare a una partnership con un concorrente per creare congiuntamente un'auto su una linea di assembly condivisa, ma per distribuire il veicolo con marche diverse o in aree diverse. Questa operazione richiede un'ampia collaborazione e co-proprietà di dati, Intelligence e analisi tra le organizzazioni. Questa struttura è inoltre comune nel settore dei servizi di consulenza in cui un team di consulenti può eseguire analisi basate su progetti per un client.
 
@@ -195,18 +195,18 @@ Il processo è il seguente:
 2. Questo utente stabilisce quindi un tenant di Power BI e invita gli utenti richiesti da Contoso e dall'organizzazione partner. L'utente stabilisce anche tutti gli asset di dati condivisi, ad esempio Azure Analysis Services. Contoso e gli utenti del partner possono accedere al Power BI dell'organizzazione condivisa come utenti guest. Se è consentito modificare e gestire il contenuto in Power BI gli utenti esterni possono usare Power BI Home, usare le aree di lavoro, caricare o modificare il contenuto e condividere i report. In genere, tutti gli asset condivisi vengono archiviati e accessibili dall'organizzazione condivisa.
 3. A seconda del modo in cui le parti accettano di collaborare, ogni organizzazione può sviluppare i propri dati e analisi proprietarie usando risorse di data warehouse condivise. Possono distribuirli ai rispettivi utenti interni usando i tenant di Power BI interni.
 
-### <a name="case-4-distribution-to-hundreds-or-thousands-of-external-partners"></a>Caso 4: Distribuzione a centinaia o migliaia di partner esterni
+### <a name="case-4-distribution-to-hundreds-or-thousands-of-external-partners"></a>Caso 4: distribuzione a centinaia o migliaia di partner esterni
 
 Mentre Contoso ha creato un report sull'affidabilità del radiatore per un fornitore, ora Contoso desidera creare un set di report standardizzati per centinaia di fornitori. In questo modo contoso garantisce che tutti i fornitori abbiano le analisi necessarie per apportare miglioramenti o per risolvere i difetti di produzione.
 
 ![Distribuzione a molti partner](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_10.png)
 
 
-Quando un'organizzazione deve distribuire i dati standardizzati e le informazioni dettagliate a molti utenti/organizzazioni esterni, può usare la condivisione ad hoc o pianificata dello scenario Power BI Apps per creare un portale BI in modo rapido e senza costi di sviluppo estesi. Il processo per compilare un portale di questo tipo usando un'app Power BI viene trattato nel case study: Creazione di un portale BI con Power BI + Azure AD B2B: istruzioni dettagliate più avanti in questo documento.
+Quando un'organizzazione deve distribuire i dati standardizzati e le informazioni dettagliate a molti utenti/organizzazioni esterni, può usare la condivisione ad hoc o pianificata dello scenario Power BI Apps per creare un portale BI in modo rapido e senza costi di sviluppo estesi. Il processo per creare un portale di questo tipo usando un'app Power BI viene trattato nel case study: creazione di un portale BI con Power BI + Azure AD B2B-istruzioni dettagliate più avanti in questo documento.
 
 Una variante comune di questo caso è che un'organizzazione sta provando a condividere informazioni dettagliate con i clienti, soprattutto quando si vuole usare Azure B2C con Power BI. Power BI non supporta Azure B2C in modo nativo. Se si stanno valutando le opzioni per questo caso, è consigliabile usare l'opzione alternativa 2 nell'alternativa comune nella sezione più avanti in questo documento.
 
-## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>Case Study: Creazione di un portale BI con Power BI + Azure AD B2B-istruzioni dettagliate
+## <a name="case-study-building-a-bi-portal-using-power-bi--azure-ad-b2b--step-by-step-instructions"></a>Case Study: creazione di un portale BI con Power BI + Azure AD B2B-istruzioni dettagliate
 
 L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e senza problemi per fornire agli utenti guest un accesso sicuro al portale BI. Contoso può essere configurato con tre passaggi:
 
@@ -217,9 +217,9 @@ L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e
 
     La prima attività per Contoso consiste nel creare il portale BI in Power BI. Il portale BI di Contoso sarà costituito da una raccolta di dashboard e report creati per lo scopo che saranno resi disponibili per molti utenti interni e Guest. Il modo consigliato per eseguire questa operazione in Power BI consiste nel compilare un'app Power BI. Altre informazioni sulle [app sono disponibili in Power bi](https://powerbi.microsoft.com/blog/distribute-to-large-audiences-with-power-bi-apps/).
 
-- Il team di business intelligence di Contoso crea un'area di lavoro per le app in Power BI
+- Il team di business intelligence di Contoso crea un'area di lavoro in Power BI
 
-    ![Area di lavoro per le app](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![Area](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Altri autori vengono aggiunti all'area di lavoro
@@ -232,7 +232,7 @@ L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e
     ![Crea contenuto all'interno dell'area di lavoro](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_14.png)
 
 
-    Ora che il contenuto è stato creato in un'area di lavoro per le app, Contoso è pronto per invitare gli utenti guest nelle organizzazioni partner a utilizzare questo contenuto.
+    Ora che il contenuto è stato creato in un'area di lavoro, Contoso è pronto per invitare gli utenti guest nelle organizzazioni partner a utilizzare questo contenuto.
 
 2. Invitare gli utenti guest
 
@@ -315,11 +315,11 @@ L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e
 
     Spesso i singoli report e dashboard devono essere incorporati in un portale esistente. Questa operazione può essere eseguita anche riutilizzando molte delle tecniche illustrate nell'esempio. In questi casi, tuttavia, potrebbe essere più facile incorporare report o dashboard direttamente da un'area di lavoro. Il processo per l'invito e l'assegnazione dell'autorizzazione di sicurezza per gli utenti require rimane invariato.
 
-## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Dietro le quinte: In che modo Lucy di Supplier1 può accedere ai contenuti Power BI dal tenant di contoso?
+## <a name="under-the-hood-how-is-lucy-from-supplier1-able-to-access-power-bi-content-from-contosos-tenant"></a>Dietro le quinte: in che modo Lucy di Supplier1 è in grado di accedere ai contenuti Power BI dal tenant di contoso?
 
 Ora che abbiamo visto in che modo contoso è in grado di distribuire facilmente Power BI contenuto agli utenti guest nelle organizzazioni partner, possiamo esaminarne il funzionamento.
 
-Quando Contoso ha [lucy@supplier1.com](mailto:lucy@supplier1.com) invitato la propria directory, Azure ad crea un collegamento [Lucy@supplier1.com](mailto:Lucy@supplier1.com) tra e il tenant di Contoso Azure ad. Questo collegamento consente Azure ad informazioni che Lucy@supplier1.com possono accedere al contenuto nel tenant di contoso.
+Quando Contoso ha invitato [lucy@supplier1.com](mailto:lucy@supplier1.com) alla relativa directory, Azure ad crea un collegamento tra [Lucy@supplier1.com](mailto:Lucy@supplier1.com) e il tenant di Contoso Azure ad. Questo collegamento consente Azure AD di tenere presente che Lucy@supplier1.com possibile accedere al contenuto nel tenant di contoso.
 
 Quando Lucy tenta di accedere all'app Power BI di Contoso, Azure AD verifica che Lucy possa accedere al tenant Contoso e quindi fornisce Power BI un token che indica che Lucy è autenticato per accedere al contenuto nel tenant di contoso. Power BI usa questo token per autorizzare e garantire che Lucy abbia accesso all'app Power BI di contoso.
 
@@ -332,14 +332,14 @@ L'integrazione di Power BI con Azure AD B2B funziona con tutti gli indirizzi di 
 
 È importante riconoscere che l'account Azure AD verrà usato o creato nell'Azure AD della parte esterna, in modo che Lucy possa usare il nome utente e la password e le relative credenziali smetteranno automaticamente di funzionare in altri tenant ogni volta che Lucy lascia la società quando l'organizzazione usa anche Azure AD.
 
-## <a name="licensing"></a>Licenze
+## <a name="licensing"></a>Gestione delle licenze
 
 Contoso può scegliere uno dei tre approcci per concedere le licenze agli utenti Guest dei propri fornitori e organizzazioni partner per accedere ai contenuti Power BI.
 
 > [!NOTE]
-> _Il livello gratuito di Azure AD B2B's è sufficiente per l'uso di Power BI con Azure AD B2B. Alcune funzionalità avanzate Azure AD B2B come i gruppi dinamici richiedono licenze aggiuntive. Per ulteriori informazioni, fare riferimento alla documentazione di Azure AD B2B_ :[ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _Il livello gratuito di Azure ad B2B's è sufficiente per l'uso di Power bi con Azure ad B2B. Alcune funzionalità avanzate Azure AD B2B come i gruppi dinamici richiedono licenze aggiuntive. Per ulteriori informazioni, fare riferimento alla documentazione di Azure ad B2B:_ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
-### <a name="approach-1-contoso-uses-power-bi-premium"></a>Approccio 1: Contoso USA Power BI Premium
+### <a name="approach-1-contoso-uses-power-bi-premium"></a>Approccio 1: contoso USA Power BI Premium
 
 Con questo approccio, contoso Acquista Power BI Premium capacità e assegna a questa capacità il contenuto del portale BI. Ciò consente agli utenti guest di organizzazioni partner di accedere all'app Power BI di Contoso senza alcuna licenza Power BI.
 
@@ -355,17 +355,17 @@ Contoso può inoltre sfruttare le altre Power BI funzionalità Premium per le pr
 Con questo approccio, Contoso assegna licenze Pro agli utenti Guest dalle organizzazioni partner. questa operazione può essere eseguita dal centro di amministrazione Microsoft 365 di contoso. Ciò consente agli utenti guest di organizzazioni partner di accedere all'app Power BI di Contoso senza acquistare una licenza. Questo può essere appropriato per la condivisione con utenti esterni la cui organizzazione non ha ancora adottato Power BI.
 
 > [!NOTE]
-> _La licenza Pro di Contoso viene applicata agli utenti guest solo quando accedono al contenuto nel tenant di contoso. Le licenze Pro abilitano l'accesso a contenuto non in una capacità di Power BI Premium. Tuttavia, gli utenti esterni con una licenza Pro sono limitati per impostazione predefinita a un'esperienza di consumo. Questo può essere modificato usando l'approccio descritto nella_ sezione Abilitazione di _utenti esterni per modificare e gestire il contenuto all'interno di Power bi_ _più avanti in questo documento._
+> La licenza Pro di Contoso viene applicata agli utenti guest solo quando accedono al contenuto nel tenant di contoso. Le licenze Pro abilitano l'accesso a contenuto non in una capacità di Power BI Premium. Tuttavia, gli utenti esterni con una licenza Pro sono limitati per impostazione predefinita a un'esperienza di consumo. Questo può essere modificato usando l'approccio descritto nella sezione _Abilitazione di utenti esterni per modificare e gestire il contenuto all'interno di Power bi_ più avanti in questo documento.
 
 ![Informazioni sulle licenze](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_25.png)
 
 
-### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>Approccio 3: Gli utenti Guest portano la propria licenza Power BI Pro
+### <a name="approach-3-guest-users-bring-their-own-power-bi-pro-license"></a>Approccio 3: gli utenti Guest portano la propria licenza di Power BI Pro
 
 Con questo approccio, Supplier 1 assegna una licenza di Power BI Pro a Lucy. Possono quindi accedere all'app Power BI di Contoso con questa licenza. Poiché Lucy può utilizzare la propria licenza Pro dalla propria organizzazione per l'accesso a un ambiente di Power BI esterno, questo approccio viene talvolta definito BYOL ( _Bring your own License_ ). Se entrambe le organizzazioni usano Power BI, questo offre una licenza vantaggiosa per la soluzione di analisi complessiva e riduce al minimo l'overhead dovuto all'assegnazione di licenze a utenti esterni.
 
 > [!NOTE]
-> _La licenza Pro fornita a Lucy by Supplier 1 si applica a qualsiasi Power BI tenant in cui Lucy è un utente Guest. Le licenze Pro abilitano l'accesso a contenuto non in una capacità di Power BI Premium. Tuttavia, gli utenti esterni con una licenza Pro sono limitati per impostazione predefinita a un'esperienza di consumo. Questo può essere modificato usando l'approccio descritto nella_ sezione Abilitazione di _utenti esterni per modificare e gestire il contenuto all'interno di Power bi_ _più avanti in questo documento._
+> La licenza Pro fornita a Lucy by Supplier 1 si applica a qualsiasi Power BI tenant in cui Lucy è un utente Guest. Le licenze Pro abilitano l'accesso a contenuto non in una capacità di Power BI Premium. Tuttavia, gli utenti esterni con una licenza Pro sono limitati per impostazione predefinita a un'esperienza di consumo. Questo può essere modificato usando l'approccio descritto nella sezione _Abilitazione di utenti esterni per modificare e gestire il contenuto all'interno di Power bi_ più avanti in questo documento.
 
 ![Requisiti di licenza Pro](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_26.png)
 
@@ -400,7 +400,7 @@ Verrà visualizzata una pagina in cui il team di business intelligence di Contos
 
 ![Sicurezza a livello di riga](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_30.png)
 
-Nell'esempio contoso sta aggiungendo un utente in un'organizzazione partner con indirizzo di posta elettronica[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)"" al ruolo Europe:
+Nell'esempio contoso viene aggiunto un utente in un'organizzazione partner con indirizzo di posta elettronica "[adam@themeasuredproduct.com](mailto:adam@themeasuredproduct.com)" al ruolo Europe:
 
 ![Impostazioni di sicurezza a livello di riga](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_31.png)
 
@@ -460,7 +460,7 @@ Power BI offre la possibilità per Contoso di sfruttare le origini dati locali, 
 > [!NOTE]
 > Quando si installa un gateway per connettersi al tenant di Power BI, è necessario usare un utente creato nel tenant. Gli utenti esterni non possono installare un gateway e connetterlo al tenant. _
 
-Per gli utenti esterni, questo potrebbe essere più complicato perché gli utenti esterni non sono in genere noti ad Active Directory locale. Power BI offre una soluzione alternativa, consentendo agli amministratori di Contoso di eseguire il mapping dei nomi utente esterni ai nomi utente interni come descritto in [gestire l'origine dati-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). Ad esempio, [lucy@supplier1.com](mailto:lucy@supplier1.com) può essere mappato [a\_Lucy\_supplier1 comEXT@contoso.com#](mailto:lucy_supplier1_com).
+Per gli utenti esterni, questo potrebbe essere più complicato perché gli utenti esterni non sono in genere noti ad Active Directory locale. Power BI offre una soluzione alternativa, consentendo agli amministratori di Contoso di eseguire il mapping dei nomi utente esterni ai nomi utente interni come descritto in [gestire l'origine dati-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). È ad esempio possibile eseguire il mapping di [lucy@supplier1.com](mailto:lucy@supplier1.com) a [lucy\_supplier1\_com #EXT@contoso.com](mailto:lucy_supplier1_com).
 
 ![Mapping dei nomi utente](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
@@ -471,7 +471,7 @@ Questo metodo è corretto se Contoso dispone solo di un numero limitato di utent
 Contoso può consentire agli utenti esterni di contribuire al contenuto all'interno dell'organizzazione, come descritto in precedenza nella sezione relativa alla gestione e alla gestione di Power BI del contenuto tra organizzazioni.
 
 > [!NOTE]
-> Per modificare e gestire il contenuto all'interno dell'Power BI dell'organizzazione, l'utente deve disporre di una licenza di Power BI Pro in un'area di lavoro diversa da area di lavoro personale. Gli utenti possono ottenere le licenze Pro come indicato in The_ _Licensing__section di questo documento._
+> Per modificare e gestire il contenuto all'interno dell'Power BI dell'organizzazione, l'utente deve disporre di una licenza di Power BI Pro in un'area di lavoro diversa da area di lavoro personale. Gli utenti possono ottenere le licenze Pro come indicato nella sezione _licenze_ di questo documento.
 
 Il portale di amministrazione di Power BI consente **agli utenti Guest esterni di modificare e gestire il contenuto nell'impostazione dell'organizzazione** in impostazioni tenant. Per impostazione predefinita, l'impostazione è impostata su disabled, per indicare che gli utenti esterni ottengono un'esperienza di sola lettura vincolata per impostazione predefinita. L'impostazione si applica agli utenti con UserType impostato su Guest in Azure AD. La tabella seguente descrive i comportamenti riscontrati dagli utenti in base alla loro UserType e al modo in cui vengono configurate le impostazioni.
 
@@ -496,7 +496,7 @@ Per consentire a questi utenti di accedere a Power BI, fornire l'URL del tenant.
 
     ![URL tenant](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
-Quando si utilizza l'autorizzazione Consenti agli utenti Guest esterni di modificare e gestire il contenuto dell'organizzazione, gli utenti Guest specificati ottengono l'accesso ai Power BI dell'organizzazione e visualizzano i contenuti per i quali dispongono delle autorizzazioni. Possono accedere a Home, esplorare e contribuire al contenuto nelle aree di lavoro, installare le app dove si trovano nell'elenco di accesso e avere un'area di lavoro personale. Possono creare aree di lavoro che fanno uso dell'esperienza delle nuove aree di lavoro o esserne amministratori.
+Quando si utilizza l'autorizzazione Consenti agli utenti Guest esterni di modificare e gestire il contenuto dell'organizzazione, gli utenti Guest specificati ottengono l'accesso ai Power BI dell'organizzazione e visualizzano i contenuti per i quali dispongono delle autorizzazioni. Possono accedere a Home, esplorare e contribuire al contenuto nelle aree di lavoro, installare le app dove si trovano nell'elenco di accesso e avere un'area di lavoro personale. Possono creare aree di lavoro che fanno uso dell'esperienza della nuova area di lavoro o esserne amministratori.
 
 > [!NOTE]
 > Quando si usa questa opzione, assicurarsi di esaminare la sezione Governance di questo documento, perché le impostazioni predefinite Azure AD impediscono agli utenti guest di usare determinate funzionalità, ad esempio gli utenti che possono causare un'esperienza ridotta. * *
@@ -505,14 +505,14 @@ Per gli utenti Guest abilitati tramite il consentire agli utenti Guest esterni d
 
 - Pubblicazione diretta da Power BI Desktop al servizio Power BI
 - Gli utenti guest non possono usare Power BI desktop per connettersi ai set di dati del servizio nel servizio Power BI
-- Aree di lavoro classiche associate a gruppi di Office 365: Gli utenti guest non possono creare queste aree di lavoro o esserne amministratori; possono essere membri.
+- Aree di lavoro classiche associate a gruppi di Office 365: l'utente Guest non può creare o essere amministratori di queste aree di lavoro. possono essere membri.
 - L'invio di inviti ad hoc non è supportato per gli elenchi di accesso all'area di lavoro
 - Power BI Publisher per Excel non è supportato per gli utenti guest
 - Gli utenti guest non possono installare un Power BI Gateway e connetterlo all'organizzazione
 - Gli utenti guest non possono installare app di pubblicazione per l'intera organizzazione
 - Gli utenti guest non possono usare, creare, aggiornare o installare pacchetti di contenuto dell'organizzazione
 - Gli utenti guest non possono usare Analizza in Excel
-- Gli utenti guest non @mentioned possono partecipare a commenti (questa funzionalità verrà aggiunta in una versione futura)
+- Non è possibile @mentioned gli utenti guest nella creazione di commenti. questa funzionalità verrà aggiunta in una versione futura.
 - Gli utenti guest non possono usare le sottoscrizioni (questa funzionalità verrà aggiunta in una versione futura)
 - Gli utenti guest che usano questa funzionalità dovrebbero avere un account aziendale o dell'istituto di istruzione. Gli utenti guest che usano account personali presentano più limitazioni a causa delle restrizioni di accesso.
 
@@ -543,7 +543,7 @@ Power BI gli amministratori possono controllare la condivisione esterna solo per
 - Gli amministratori, il ruolo mittente dell'invito Guest e i membri possono invitare
 - Tutti gli utenti, inclusi i guest, possono invitare
 
-Per altre informazioni su questi criteri, vedere delegare gli [inviti per Azure Active Directory collaborazione B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations).
+Per altre informazioni su questi criteri, vedere [delegare gli inviti per Azure Active Directory collaborazione B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations).
 
 Tutte le azioni Power BI dagli utenti esterni vengono anche [controllate nel portale di controllo](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/).
 
@@ -555,7 +555,7 @@ Contoso può applicare criteri di accesso condizionale per gli utenti guest che 
 
 Sebbene Azure AD B2B semplifica la condivisione di dati e report tra organizzazioni, esistono molti altri approcci comunemente utilizzati e che potrebbero essere superiori in alcuni casi.
 
-### <a name="alternative-option-1-create-duplicate-identities-for-partner-users"></a>Opzione alternativa 1: Creare identità duplicate per gli utenti partner
+### <a name="alternative-option-1-create-duplicate-identities-for-partner-users"></a>Opzione alternativa 1: creare identità duplicate per gli utenti partner
 
 Con questa opzione, contoso doveva creare manualmente identità duplicate per ogni utente partner nel tenant Contoso, come illustrato nella figura seguente. All'interno di Power BI, Contoso può condividere le identità assegnate con i report, i dashboard o le app appropriati.
 
@@ -575,7 +575,7 @@ Motivi per non scegliere questa alternativa:
 - Quando l'utente lascia l'organizzazione, continua ad avere accesso alle risorse di contoso fino a quando l'amministratore di Contoso non elimina manualmente il proprio account
 - Gli amministratori di Contoso devono gestire l'identità del Guest, tra cui la creazione, la reimpostazione della password e così via.
 
-### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Opzione alternativa 2: Creare un'applicazione Power BI Embedded personalizzata usando l'autenticazione personalizzata
+### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Opzione alternativa 2: creare un'applicazione Power BI Embedded personalizzata usando l'autenticazione personalizzata
 
 Un'altra opzione per Contoso è la creazione di un'applicazione Power BI incorporata personalizzata con autenticazione personalizzata ([i dati](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers)sono di proprietà dell'app). Sebbene molte organizzazioni non dispongano del tempo o delle risorse necessarie per creare un'applicazione personalizzata per la distribuzione di contenuti Power BI ai partner esterni, per alcune organizzazioni questo è l'approccio migliore e merita una certa considerazione.
 
@@ -607,7 +607,7 @@ Motivi per non scegliere questa alternativa:
 
 
 
-## <a name="faq"></a>Domande frequenti
+## <a name="faq"></a>DOMANDE FREQUENTI
 
 **Contoso può inviare un invito che viene riscattato automaticamente, in modo che l'utente sia semplicemente pronto per l'uso? In alternativa, l'utente deve sempre fare clic sull'URL di riscatto?**
 
@@ -621,7 +621,7 @@ Sì. Per altre informazioni, vedere [accesso condizionale per gli utenti di coll
 
 **Come funziona la collaborazione B2B quando il partner invitato usa la Federazione per aggiungere la propria autenticazione locale?**
 
-Se il partner ha un tenant di Azure AD federato all'infrastruttura di autenticazione locale, viene automaticamente raggiunto l'accesso Single Sign-on (SSO) locale. Se il partner non ha un tenant di Azure AD, è possibile creare un account Azure AD per i nuovi utenti.
+Se il partner ha un tenant di Azure AD federato per l'infrastruttura di autenticazione locale, viene automaticamente eseguita la Single Sign-On locale (SSO). Se il partner non ha un tenant di Azure AD, è possibile creare un account Azure AD per i nuovi utenti.
 
 **È possibile invitare gli utenti guest con gli account di posta elettronica di un utente?**
 
