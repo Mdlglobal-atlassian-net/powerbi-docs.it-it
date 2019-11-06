@@ -1109,6 +1109,8 @@
       items:
         - name: White paper sulla pianificazione della capacità
           href: report-server/capacity-planning.md
+        - name: Conformità dell'estensione per il rendering PDF
+          href: report-server/rendering-extension-support.md
 - name: Gateway
   items:
     - name: Panoramica
