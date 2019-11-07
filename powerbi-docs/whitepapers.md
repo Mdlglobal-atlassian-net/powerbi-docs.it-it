@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
+ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194773"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73710778"
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
 I white paper consentono di esplorare gli argomenti di Power BI a un livello più profondo. Qui è possibile trovare un elenco dei white paper disponibili per Power BI.
 
-| White paper | Descrizione | Date |
+| White paper | Description | Data |
 | --- | --- | --- |
 | [Pianificazione della distribuzione aziendale di Power BI](https://go.microsoft.com/fwlink/?linkid=2057861) |Si tratta di un white paper tecnico che delinea le considerazioni per una distribuzione di Power BI aziendale con ottime prestazioni e sicura. | Luglio 2018 |
 | [Power BI e i flussi di dati](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| Questo white paper descrive i flussi di dati in dettagli tecnici e descrive le funzionalità e le iniziative su cui si basano le caratteristiche e le funzionalità del flusso di dati. | Novembre 2018 |
@@ -31,7 +31,6 @@ I white paper consentono di esplorare gli argomenti di Power BI a un livello pi�
 | [Sicurezza](service-admin-power-bi-security.md) |Fornisce una spiegazione dettagliata della sicurezza all'interno di Power BI. | Marzo 2019 |
 | [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|Questo articolo descrive come distribuire il contenuto a utenti esterni all'organizzazione usando l'integrazione di Azure Active Directory Business-to-business (AAD B2B).| Marzo 2019 |
 | [Advanced Analytics con Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Descrive le funzionalità analitiche avanzate di Power BI, tra cui l'analisi predittiva, le visualizzazioni personalizzate, l'integrazione di R e DAX (Data Analysis Expressions). | Febbraio 2017 |
-| [Procedure consigliate per la progettazione di report e oggetti visivi](visuals/power-bi-visualization-best-practices.md) |Indica le procedure consigliate per la progettazione di report in Power BI. | Giugno 2018 |
 | [Filtro bidirezionale](desktop-bidirectional-filtering.md) |Illustra il filtro incrociato bidirezionale in Power BI Desktop. Il white paper illustra anche SQL Server Analysis Services 2016, perché il comportamento è uguale in entrambi i casi. | Luglio 2018 |
 | [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |Per SQL Server 2016, DirectQuery è stato riprogettato per prestazioni e velocità notevolmente migliorate. Tuttavia, ora è anche più complesso da comprendere e implementare. | Gennaio 2017 |
 | [Power BI e SAP BW](https://aka.ms/powerbiandsapbw)| Questo documento descrive come i clienti SAP possano trarre vantaggio dal collegare Power BI ai loro sistemi SAP Business Warehouse (BW) esistenti.| Febbraio 2018 |
