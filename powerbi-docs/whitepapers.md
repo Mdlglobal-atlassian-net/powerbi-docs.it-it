@@ -2,19 +2,19 @@
 title: White paper per Power BI
 description: I white paper consentono di esplorare gli argomenti di Power BI a un livello più profondo.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
-ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
+ms.openlocfilehash: e88e6753df091fb7f046d475df59fa4344da5d98
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/07/2019
-ms.locfileid: "73710778"
+ms.locfileid: "73787311"
 ---
 # <a name="whitepapers-for-power-bi"></a>White paper per Power BI
 
@@ -34,9 +34,9 @@ I white paper consentono di esplorare gli argomenti di Power BI a un livello pi�
 | [Filtro bidirezionale](desktop-bidirectional-filtering.md) |Illustra il filtro incrociato bidirezionale in Power BI Desktop. Il white paper illustra anche SQL Server Analysis Services 2016, perché il comportamento è uguale in entrambi i casi. | Luglio 2018 |
 | [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |Per SQL Server 2016, DirectQuery è stato riprogettato per prestazioni e velocità notevolmente migliorate. Tuttavia, ora è anche più complesso da comprendere e implementare. | Gennaio 2017 |
 | [Power BI e SAP BW](https://aka.ms/powerbiandsapbw)| Questo documento descrive come i clienti SAP possano trarre vantaggio dal collegare Power BI ai loro sistemi SAP Business Warehouse (BW) esistenti.| Febbraio 2018 |
-| [Protezione del modello semantico BI tabulare](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Questo articolo presenta il modello di sicurezza per la semantica BI tabulare e per Power BI. Si apprenderà come creare ruoli, implementare la sicurezza dinamica, configurare le impostazioni di rappresentazione, gestire i ruoli e scegliere un metodo per la connessione ai modelli che funzioni nel contesto di sicurezza di rete. | Aprile 2016 |
+| [Protezione del modello semantico BI tabulare](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Questo articolo presenta il modello di sicurezza per la semantica BI tabulare e per Power BI. Si apprenderà come creare ruoli, implementare la sicurezza dinamica, configurare le impostazioni di rappresentazione, gestire i ruoli e scegliere un metodo per la connessione ai modelli che funzioni nel contesto di sicurezza di rete. | Aprile 2016 |
 | [Power BI e GDPR](https://aka.ms/power-bi-gdpr-whitepaper)| Collega all'elenco dei white paper sul Service Trust Portal, tra cui white paper sul Regolamento generale sulla protezione dei dati di Microsoft Power BI. | Aprile 2018 |
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-hybrid-note.md)]
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

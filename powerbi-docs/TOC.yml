@@ -53,6 +53,8 @@
       items:
         - name: Novità dell'ultimo aggiornamento di Power BI Desktop
           href: desktop-latest-update.md
+        - name: Relazioni nei modelli in Power BI Desktop
+          href: desktop-relationships-understand.md
         - name: Raggruppamento di oggetti visivi in Power BI Desktop
           href: desktop-grouping-visuals.md
         - name: Uso dei modelli in Power BI Desktop
@@ -303,8 +305,6 @@
           items:
             - name: Visualizzazioni in Power BI
               href: visuals/power-bi-report-visualizations.md
-            - name: Procedure consigliate per la visualizzazione
-              href: visuals/power-bi-visualization-best-practices.md
             - name: Modificare il tipo di visualizzazione in un report
               href: visuals/power-bi-report-change-visualization-type.md
             - name: Limiti dei punti dati in base al tipo di oggetto visivo
@@ -817,12 +817,6 @@
                   href: service-connect-to-azure-audit-logs.md
                 - name: Azure Mobile Engagement
                   href: service-connect-to-azure-mobile.md
-                - name: Microsoft Azure Consumption Insights
-                  href: service-connect-to-azure-consumption-insights.md
-                - name: Ricerca di Azure
-                  href: service-connect-to-azure-search.md
-                - name: Circuit ID
-                  href: service-connect-to-circuit-id.md
                 - name: ClickDimensions
                   href: service-connect-to-clickdimensions.md
                 - name: comScore Digital Analytix
@@ -837,12 +831,6 @@
                   href: service-connect-to-lithium.md
                 - name: Mandrill
                   href: service-connect-to-mandrill.md
-                - name: Microsoft Dynamics AX
-                  href: service-connect-to-microsoft-dynamics-ax.md
-                - name: Microsoft Dynamics CRM
-                  href: service-connect-to-microsoft-dynamics-crm.md
-                - name: Microsoft Dynamics NAV
-                  href: service-connect-to-microsoft-dynamics-nav.md
                 - name: Office365Mon
                   href: service-connect-to-office365mon.md
                 - name: Prevedere
@@ -861,18 +849,12 @@
                   href: service-connect-to-smartsheet.md
                 - name: SQL Sentry
                   href: service-connect-to-sql-sentry.md
-                - name: Stripe
-                  href: service-connect-to-stripe.md
                 - name: SweetIQ
                   href: service-connect-to-sweetiq.md
                 - name: Troux
                   href: service-connect-to-troux.md
                 - name: Twilio
                   href: service-connect-to-twilio.md
-                - name: tyGraph
-                  href: service-connect-to-tygraph.md
-                - name: UserVoice
-                  href: service-connect-to-uservoice.md
                 - name: VMob
                   href: service-connect-to-vmob.md
                 - name: Windows Dev Center
@@ -881,8 +863,6 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
-                - name: Ziosk
-                  href: service-connect-to-ziosk.md
             - name: Pacchetti di contenuto aziendali
               items:
                 - name: Introduzione ai pacchetti di contenuto aziendali

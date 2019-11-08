@@ -3,19 +3,19 @@ title: Distribuzione e gestione di capacità di Power BI Premium
 description: Scopri le potenzialità di Power BI Premium e Scopri come progettare, distribuire, monitorare e risolvere i problemi relativi alle soluzioni scalabili.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432358"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786336"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Distribuzione e gestione di capacità di Power BI Premium
 
@@ -42,13 +42,13 @@ Non è intenzione di questo white paper fornire una descrizione completa del ser
 
 Nel contesto di questo white paper, questa sezione presenta e descrive le capacità, Power BI tipi di contenuto, le modalità di archiviazione dei modelli e le licenze. La comprensione di questi argomenti è essenziale per la distribuzione e la gestione di Power BI Premium.
 
-### <a name="capacities"></a>Capacities
+### <a name="capacities"></a>Capacità
 
 Le **capacità** sono un concetto di base Power BI che rappresenta un set di risorse (archiviazione, processore e memoria) usate per ospitare e distribuire Power bi contenuto. Le capacità sono condivise o dedicate. Una **capacità condivisa** è condivisa con altri clienti Microsoft, mentre una **capacità dedicata** è dedicata interamente a un singolo cliente. Le capacità dedicate sono introdotte nell'argomento [capacità Premium](#premium-capacities) .
 
 Nella capacità condivisa i carichi di lavoro vengono eseguiti in risorse di calcolo condivise con altri clienti. Poiché la capacità deve condividere le risorse, vengono imposte limitazioni per garantire una riproduzione equa, ad esempio le dimensioni massime del modello (1 GB) e la frequenza di aggiornamento giornaliero massima (otto volte al giorno).
 
-### <a name="workspaces"></a>Aree di lavoro
+### <a name="workspaces"></a>Workspaces
 
 Le aree di lavoro Power BI si trovano all'interno delle capacità e rappresentano contenitori di sicurezza, collaborazione e distribuzione. Ogni utente di Power BI ha un'area di lavoro chiamata **Area di lavoro personale**. È possibile creare aree di lavoro aggiuntive per abilitare la collaborazione e la distribuzione, che sono note come **aree di lavoro**. Per impostazione predefinita, le aree di lavoro, incluse quelle personali, vengono create nella capacità condivisa.
 
@@ -60,13 +60,13 @@ Tutto il contenuto del Power BI viene archiviato e gestito all'interno di aree d
 
 Il contenuto Power BI seguente viene archiviato nelle aree di lavoro:
 
-- Flussi di dati
-- Set di dati
+- Dataflows
+- Datasets
 - Cartelle di lavoro
-- Report
-- Dashboard
+- Relazioni
+- Dashboards
 
-#### <a name="dataflows"></a>Flussi di dati
+#### <a name="dataflows"></a>Dataflows
 
 Power BI i flussi di dati consentono alle organizzazioni di unificare i dati provenienti da origini diverse. Possono essere considerati come dati preparati e gestiti temporaneamente per l'uso nei modelli, ma non possono essere usati direttamente come origine per la creazione di report. Sfruttano l'ampia raccolta di connettori dati Microsoft, consentendo l'inserimento di dati da origini dati locali e basate sul cloud.
 
@@ -74,7 +74,7 @@ I flussi di dati possono essere creati e gestiti solo nelle aree di lavoro e ven
 
 Per ulteriori informazioni, vedere il documento relativo alla [preparazione dei dati self-service in Power BI (anteprima)](service-dataflows-overview.md) .
 
-#### <a name="datasets"></a>Set di dati
+#### <a name="datasets"></a>Datasets
 
 Power BI set di dati rappresentano un'origine dei dati pronti per la creazione di report e la visualizzazione. Sono disponibili molti tipi di set di impostazioni, creati da:
 
@@ -131,7 +131,7 @@ Power BI cartelle di lavoro sono un tipo di contenuto Power BI \[[4](#endnote-04
 
 Per ulteriori informazioni, vedere il documento [recuperare i dati da file di cartella di lavoro di Excel](service-excel-workbook-files.md) .
 
-#### <a name="reports"></a>Report
+#### <a name="reports"></a>Relazioni
 
 Esistono due tipi di report: Power BI report e i report impaginati.
 
@@ -151,7 +151,7 @@ I due tipi di report supportati forniscono la scelta per gli autori di report, c
 
 Indipendentemente dal tipo di report, il raggiungimento del carico e degli aggiornamenti dei dati reattivi dei report (in caso di modifica di filtri o parametri) è fondamentale per garantire un'esperienza utente affidabile e con prestazioni ottimali.
 
-#### <a name="dashboards"></a>Dashboard
+#### <a name="dashboards"></a>Dashboards
 
 I dashboard Power BI hanno lo scopo di fornire esperienze di monitoraggio e sono concettualmente molto diversi dai report Power BI. I dashboard sono progettati per la visualizzazione in un singolo riquadro di vetro per esprimere i valori e le visualizzazioni dei dati nei riquadri. In genere, i dashboard offrono un minor numero di esperienze di interazione rispetto a Power BI report, con alcuni progetti di dashboard che non prevedono interazioni. Ad esempio, un dashboard automatico visualizzato in una schermata non touchscreen in una sala server. Un'altra differenza significativa è che i dashboard possono presentare riquadri che consentono di originare dati da più set di dati, mentre un Power BI report può essere basato solo su un singolo set di dati.
 
@@ -327,7 +327,7 @@ Nella tabella seguente sono descritte le risorse e i limiti di ogni SKU Premium 
 
 | Nodi delle capacità | Totale vCore | vCore back-end | RAM (GB) | vCore front-end | DQ/LC (al secondo) | Parallelismo di aggiornamento dei modelli |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
@@ -408,7 +408,7 @@ La memoria viene allocata in modo dinamico ai flussi di dati e in modo statico a
 |                     | EM3                      | P1                       | P2                      | P3                       |
 |---------------------|--------------------------|--------------------------|-------------------------|--------------------------|
 | Report impaginati | N/D | 20% predefinita; 10% minima | 20% predefinita; 5% minima | 20% predefinita; 2,5% minima |
-| Flussi di dati | 20% predefinita; 8% minima  | 20% predefinita; 4% minima  | 20% predefinita; 2% minima | 20% predefinita; 1% minima  |
+| Dataflows | 20% predefinita; 8% minima  | 20% predefinita; 4% minima  | 20% predefinita; 2% minima | 20% predefinita; 1% minima  |
 | AI | N/D | 20% predefinita; 20% minima  | 20% predefinita; 10% minima | 20% predefinita; 5% minima  |
 | | | | | |
 

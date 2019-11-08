@@ -2,7 +2,7 @@
 title: Distribuire Power BI contenuto a utenti Guest esterni usando Azure Active Directory B2B
 description: White paper in cui viene descritto come utilizzare Azure Active Directory B2B per distribuire Power BI a utenti Guest esterni
 author: davidiseminger
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0227072818b7c09463b47ba896c782ded1e7f248
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b8e6d046509dd9e2d3cf35a3d46e0812b2774587
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432413"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787353"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Distribuire Power BI contenuto a utenti Guest esterni usando Azure Active Directory B2B
 
@@ -219,7 +219,7 @@ L'integrazione di Power BI con Azure AD B2B offre a Contoso un metodo semplice e
 
 - Il team di business intelligence di Contoso crea un'area di lavoro in Power BI
 
-    ![Area](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
+    ![area](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_12.png)
     
 
 - Altri autori vengono aggiunti all'area di lavoro
