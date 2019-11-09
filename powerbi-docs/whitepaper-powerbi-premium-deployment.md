@@ -3,19 +3,18 @@ title: Distribuzione e gestione di capacità di Power BI Premium
 description: Scopri le potenzialità di Power BI Premium e Scopri come progettare, distribuire, monitorare e risolvere i problemi relativi alle soluzioni scalabili.
 author: mgblythe
 ms.author: mblythe
-manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 3ccd4af0f00e132c8bc0bd29a9ff23f89b13a15f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73786336"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880597"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Distribuzione e gestione di capacità di Power BI Premium
 
@@ -834,7 +833,7 @@ Per distribuire e gestire Power BI Premium capacità, gli amministratori e gli s
 
 ## <a name="end-notes"></a>Note finali
 
-<a name="endnote-01"></a>\[1\] questo documento tecnico riguarda Power BI Premium che è supportato solo dal servizio Power BI cloud, quindi Server di report di Power BI non rientra nell'ambito, tranne per indicare che la licenza necessaria per installare Server di report di Power BI è inclusa in alcuni Power BI Premium SKU.
+<a name="endnote-01"></a>\[1\] questo documento tecnico riguarda Power BI Premium che è supportato solo dal servizio Power BI cloud, quindi Server di report di Power BI non rientra nell'ambito, ad eccezione del fatto che la licenza necessaria per l'installazione di Server di report di Power BI è inclusa con alcuni SKU di Power BI Premium.
 
 <a name="endnote-02"></a>\[2\] Power BI come servizio cloud quando viene usato per incorporare il contenuto per conto degli utenti dell'applicazione è una piattaforma distribuita come servizio (PaaS). Questo tipo di incorporamento può essere effettuato con due prodotti diversi, uno dei quali è Power BI Premium.
 
