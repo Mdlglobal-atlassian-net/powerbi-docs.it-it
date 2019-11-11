@@ -2,7 +2,6 @@
 title: Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services in Power BI
 description: Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 author: selvarms
-manager: amitaro
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 09726bccdd5a0b9a88d4a2df4d5be3b902a64b8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751685"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876085"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
 
