@@ -2,19 +2,18 @@
 title: Single Sign-On nell'app per dispositivi mobili Power BI per Windows
 description: Informazioni sull'autenticazione Single Sign-On (SSO) nell'app per dispositivi mobili Power BI per Windows. SSO consente di accedere a tutte le applicazioni e a tutte le risorse necessarie per le proprie attività effettuando la procedura di accesso una sola volta, con un unico account utente.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/17/2018
 ms.author: mshenhav
-ms.openlocfilehash: fdbdebacc2ae41cdfa8296eb6b0c06e52f149cac
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61336845"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876662"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Single Sign-On nell'app per dispositivi mobili Power BI per Windows
 
@@ -35,5 +34,5 @@ Se non si vogliono usare le credenziali della sessione attiva di Windows per acc
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Introduzione all'app Power BI per dispositivi mobili per Windows 10](mobile-windows-10-phone-app-get-started.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

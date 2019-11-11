@@ -2,7 +2,6 @@
 title: Usare R nell'Editor di Power Query
 description: Usare R nell'Editor di query di Power BI Desktop per l'analisi avanzata
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b64b4b736291ce1c3bde02010b7e583a0c3dc406
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: d2ba33e18701ad147cb38072461804b4528101ea
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841520"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877933"
 ---
 # <a name="use-r-in-query-editor"></a>Usare R nell'Editor di query
 
@@ -50,7 +49,7 @@ Per installare **mice**:
 
 Per illustrare l'uso di **R** nell'**Editor di query** si userà un set di dati di esempio del mercato azionario contenuto in un file con estensione csv e si eseguirà la procedura seguente:
 
-1. [Scaricare il file **EuStockMarkets_NA.csv**](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Ricordare il percorso in cui viene salvato.
+1. [Scaricare il file **EuStockMarkets_NA.csv**](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). Ricordare il percorso in cui viene salvato.
 
 1. Caricare il file in **Power BI Desktop**: dalla scheda **Home** della barra multifunzione selezionare **Recupera dati > Testo/CSV**.
 
@@ -108,7 +107,7 @@ A questo punto è possibile creare un oggetto visivo per osservare come il codic
 È possibile salvare tutti gli oggetti visivi completati in un file con estensione pbix di **Power BI Desktop** e usare il modello di dati e i relativi script R nel servizio Power BI.
 
 > [!NOTE]
-> È possibile scaricare un [file con estensione pbix](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) con tutti questi passaggi completati.
+> È possibile scaricare un [file con estensione pbix](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete%20Values%20with%20R%20in%20PQ.pbix) con tutti questi passaggi completati.
 
 Dopo aver caricato il file con estensione pbix nel servizio Power BI, è necessario eseguire altri passaggi per abilitare l'aggiornamento dei dati del servizio e gli oggetti visivi aggiornati:  
 

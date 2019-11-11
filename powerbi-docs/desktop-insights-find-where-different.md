@@ -2,7 +2,6 @@
 title: Usare le informazioni dettagliate per trovare i punti in cui la distribuzione è diversa (anteprima)
 description: Ottenere facilmente informazioni dettagliate per individuare dove la distribuzione visualizzata in un grafico risulta diversa in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bb4e177ff813c332c8b60b490ead1f6d97a03935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454135"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867125"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Usare informazioni dettagliate in Power BI Desktop per determinare dove la distribuzione è diversa (anteprima)
 

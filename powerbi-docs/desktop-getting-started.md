@@ -2,7 +2,6 @@
 title: Introduzione a Power BI Desktop
 description: Introduzione a Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201022"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868006"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introduzione a Power BI Desktop
 Questo articolo fornisce una **Guida introduttiva a Power BI Desktop**. Questa breve panoramica di Power BI Desktop fornisce informazioni di base sul funzionamento, illustra le operazioni che è possibile eseguire e aiuta a creare rapidamente modelli di dati affidabili, oltre a report straordinari, a supporto delle attività di business intelligence. 
 
-Se si preferisce guardare un video invece di leggere un documento, è disponibile un [video introduttivo](desktop-videos.md). Per seguire le procedure del video usando dati di esempio corrispondenti, è possibile [scaricare questa cartella di lavoro di Excel di esempio](http://go.microsoft.com/fwlink/?LinkID=521962).
+Se si preferisce guardare un video invece di leggere un documento, è disponibile un [video introduttivo](desktop-videos.md). Per seguire le procedure del video usando dati di esempio corrispondenti, è possibile [scaricare questa cartella di lavoro di Excel di esempio](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Si supponga di andare in pensione e di volere abitare in un luogo con clima mite
 
 In ogni caso, la risorsa Web seguente offre dati interessanti su questi argomenti e altro ancora:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Selezionare **Recupera dati \> Web** e incollare l'indirizzo.
 
@@ -158,7 +157,7 @@ I dati sui diversi stati sono interessanti e saranno utili per la creazione di a
 
 Fortunatamente, è disponibile un'altra origine dati pubblica che esegue proprio questa operazione, ma è necessaria una quantità elevata di data shaping prima che sia possibile connettersi alla tabella relativa al pensionamento. La risorsa Web per le abbreviazioni dei nomi degli stati è la seguente:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 Sulla scheda **Home** della barra multifunzione nell'**Editor di query** selezionare **Recupera dati \> Web** e digitare l'indirizzo, quindi selezionare **OK**. La finestra **Strumento di navigazione** mostra i dati trovati nella pagina Web.
 

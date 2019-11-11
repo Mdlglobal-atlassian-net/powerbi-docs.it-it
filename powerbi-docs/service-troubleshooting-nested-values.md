@@ -2,7 +2,6 @@
 title: Risoluzione del problema dei valori annidati restituiti come testo nel servizio Power BI
 description: Informazioni su come correggere i valori annidati che vengono convertiti in una stringa quando si usano impostazioni della privacy dell'origine dati non corrette
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: 61181f9317718b6a4fb1cd73a767e4002b5b27f5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544251"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871272"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Risoluzione del problema dei valori annidati restituiti come testo nel servizio Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "72544251"
 
 In passato si sono verificati casi in cui l'aggiornamento di un report di Power BI è stato eseguito correttamente nel Desktop, ma non è riuscito nel servizio Power BI e ha generato un errore, ad esempio "Non è possibile convertire il valore"[Table]"nel tipo Table". Una delle cause di questo errore è che quando il firewall di privacy dei dati memorizza nel buffer un'origine dati i valori annidati non scalari, come tabelle, record, elenchi e funzioni vengono convertiti automaticamente in valori di testo (ad esempio "[Table]" o "[Record]").
 
-Ora che il servizio Power BI supporta l'impostazione dei livelli di privacy (o la disattivazione completa del firewall), tali errori possono essere evitati [configurando le impostazioni sulla privacy dell'origine dati](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) nel servizio Power BI in modo che non siano private.
+Ora che il servizio Power BI supporta l'impostazione dei livelli di privacy (o la disattivazione completa del firewall), tali errori possono essere evitati [configurando le impostazioni sulla privacy dell'origine dati](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) nel servizio Power BI in modo che non siano private.
 
 A partire dalla versione di Power BI di giugno, quando il firewall memorizza nel buffer tabelle,record,elenchi e altri oggetti annidati, invece di convertire tali valori in testo, genera l'errore seguente: 
 
@@ -57,4 +56,4 @@ Se non è possibile rimuovere la colonna, dovrebbe essere possibile replicare il
 `if [MyColumn] is table then "[Table]" else if [MyColumn] is record then "[Record]" else if [MyColumn] is list then "[List]" else if [MyColumn] is function then "[Function]" else [MyColumn]`
 
 Se il problema si ripresenta in Power BI Desktop se si impostano tutte le impostazioni di privacy dell'origine dati in modo che siano private,
-l'errore dovrebbe essere risolvibile [configurando le impostazioni sulla privacy dell'origine dati](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) nel servizio Power BI in modo che non siano private.
+l'errore dovrebbe essere risolvibile [configurando le impostazioni sulla privacy dell'origine dati](https://powerbi.microsoft.com/blog/privacy-levels-for-cloud-data-sources/) nel servizio Power BI in modo che non siano private.

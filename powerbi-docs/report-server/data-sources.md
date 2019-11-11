@@ -2,19 +2,18 @@
 title: Origini dati dei report di Power BI nel server di report di Power BI
 description: I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945822"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874196"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -89,7 +88,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | IBM Netezza (Beta) |Sì |No |No |
 | Kusto (Beta) |Sì |No |No |
 | MailChimp (Beta) |Sì |No |No |
-| Informazioni dettagliate sul consumo di Microsoft Azure (beta) |Sì |No |No |
+| Informazioni dettagliate sul consumo di Microsoft Azure (Beta) |Sì |No |No |
 | Mixpanel (Beta) |Sì |No |No |
 | Planview Enterprise (Beta) |Sì |No |No |
 | Projectplace (Beta) |Sì |No |No |
@@ -172,7 +171,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | IBM Netezza (Beta) |No |No |No |No |
 | Kusto (Beta) |No |No |No |No |
 | MailChimp (Beta) |No |No |No |No |
-| Informazioni dettagliate sul consumo di Microsoft Azure (beta) |No |No |No |No |
+| Informazioni dettagliate sul consumo di Microsoft Azure (Beta) |No |No |No |No |
 | Mixpanel (Beta) |No |No |No |No |
 | Planview Enterprise (Beta) |No |No |No |No |
 | Projectplace (Beta) |No |No |No |No |

@@ -2,7 +2,6 @@
 title: Usare le misure in Power BI Desktop
 description: Misure in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: c75300a05b58b82230540a1a61ae503d194d53e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715390"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878131"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Misure in Power BI Desktop
 
@@ -87,7 +86,7 @@ Le misure dispongono di una tabella *principale* che ne definisce la posizione n
 ## <a name="learn-more"></a>Altre informazioni
 In questo articolo è stata fornita solo una rapida introduzione alle misure, ma ci sono molte altre risorse che spiegano come creare misure personalizzate. Vedere [Esercitazione: Creare misurazioni personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md), in cui è possibile scaricare un file di esempio e ottenere lezioni passo-passo su come creare nuove misure.  
 
-Per approfondire la conoscenza su DAX, assicurarsi di consultare [Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) fornisce articoli dettagliati su tutte le funzioni, la sintassi, gli operatori e le convenzioni di denominazione. DAX è stato incluso per diversi anni in Power Pivot in Excel e in SQL Server Analysis Services, quindi sono disponibili molte altre risorse utili da consultare. Vedere la pagina [Wiki del centro risorse DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx), in cui membri esperti della community BI condividono le proprie conoscenze su DAX.
+Per approfondire la conoscenza su DAX, assicurarsi di consultare [Nozioni di DAX in Power BI Desktop](desktop-quickstart-learn-dax-basics.md). [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx) fornisce articoli dettagliati su tutte le funzioni, la sintassi, gli operatori e le convenzioni di denominazione. DAX è stato incluso per diversi anni in Power Pivot in Excel e in SQL Server Analysis Services, quindi sono disponibili molte altre risorse utili da consultare. Vedere la pagina [Wiki del centro risorse DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx), in cui membri esperti della community BI condividono le proprie conoscenze su DAX.
 
 
 

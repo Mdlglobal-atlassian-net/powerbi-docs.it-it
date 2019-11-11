@@ -2,7 +2,6 @@
 title: Introduzione alla formattazione delle visualizzazioni di Power BI
 description: Personalizzare il riquadro, lo sfondo e la legenda della visualizzazione
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389949"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880858"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizzare i titoli, le legende e gli sfondi delle visualizzazioni
 
@@ -141,7 +140,7 @@ Ecco un elenco delle visualizzazioni e delle opzioni di personalizzazione dispon
 | Barre | sì | sì |sì |
 | Scheda | sì | sì |n/a |
 | Scheda con più righe | sì | sì | n/a |
-| strutturata | sì | sì | sì |
+| Colonna | sì | sì | sì |
 | Grafico combinato | sì | sì | sì |
 | Grafico ad anello | sì | sì | sì |
 | Mappa colorata | sì | sì | sì |
@@ -167,4 +166,4 @@ Ecco un elenco delle visualizzazioni e delle opzioni di personalizzazione dispon
 
 - [Concetti di base del servizio Power BI per i consumer](../consumer/end-user-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

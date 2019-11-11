@@ -3,19 +3,18 @@ title: Dati dei report nel Generatore report di Power BI
 description: Il primo passaggio della progettazione di un report in Generatore report impaginati di Power BI consiste nel creare origini dati e set di dati che rappresentano i dati del report sottostanti.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 3c2f6882e9480802d40ff61580ebfda9bbf3b14a
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840327"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860425"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Dati dei report nel Generatore report di Power BI
 

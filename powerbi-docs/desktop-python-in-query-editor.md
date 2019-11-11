@@ -2,7 +2,6 @@
 title: Uso di Python nell'Editor di query di Power BI
 description: Usare Python nell'Editor di query di Power BI Desktop per l'analisi avanzata
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61286885"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878031"
 ---
 # <a name="using-python-in-query-editor"></a>Uso di Python nell'Editor di query
 È possibile usare **Python**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di Python nell'**Editor di query** consente di pulire i dati con Python ed eseguire operazioni di data shaping e analisi in set di dati, tra cui, per fare solo qualche esempio, completamento di dati mancanti, stime e clustering. **Python** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.
@@ -24,7 +23,7 @@ ms.locfileid: "61286885"
 Per usare **Python** nell'**Editor di query** di Power BI Desktop, è necessario installare **Python** nel computer locale. È possibile scaricare e installare **Python** gratuitamente da molte posizioni, tra cui la [pagina di download ufficiale di Python](https://www.python.org/) e [Anaconda](https://anaconda.org/anaconda/python/).
 
 ## <a name="using-python-in-query-editor"></a>Uso di Python nell'Editor di query
-Per comprendere l'uso di **Python** nell'**Editor di query**, usare questo esempio, tratto da un set di dati del mercato azionario e basato su un file con estensione csv, [scaricarlo da qui](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) e seguire la spiegazione. Ecco la procedura per questo esempio:
+Per comprendere l'uso di **Python** nell'**Editor di query**, usare questo esempio, tratto da un set di dati del mercato azionario e basato su un file con estensione csv, [scaricarlo da qui](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv) e seguire la spiegazione. Ecco la procedura per questo esempio:
 
 1. Prima di tutto, caricare i dati in **Power BI Desktop**. Caricare il file *EuStockMarkets_NA.csv* in questo esempio e selezionare **Recupera dati > CSV** dalla barra multifunzione **Home** in **Power BI Desktop**.
    
@@ -77,7 +76,7 @@ A questo punto è possibile creare un oggetto visivo per osservare come il codic
 Dopo aver completato l'oggetto visivo e aver creato tutti gli altri oggetti visivi necessari con **Power BI Desktop**, è possibile salvare il file di **Power BI Desktop** (con estensione pbix) e usare il modello di dati, compresi gli script Python che ne fanno parte, nel servizio Power BI.
 
 > [!NOTE]
-> Se si vuole visualizzare un file con estensione pbix completato con questa procedura, il file di **Power BI Desktop** completato usato in questo esempio è disponibile per il download [qui](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
+> Se si vuole visualizzare un file con estensione pbix completato con questa procedura, il file di **Power BI Desktop** completato usato in questo esempio è disponibile per il download [qui](https://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix).
 
 Dopo avere caricato il file con estensione pbix nel servizio Power BI, è necessario eseguire qualche altro passaggio per abilitare l'aggiornamento dei dati (nel servizio) e degli oggetti visivi nel servizio (perché gli oggetti visivi vengano aggiornati, i dati devono accedere a Python). I passaggi aggiuntivi sono i seguenti:
 

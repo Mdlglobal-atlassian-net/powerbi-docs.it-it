@@ -2,7 +2,6 @@
 title: Usare le aggregazioni (somma, media e così via) nel servizio Power BI
 description: Informazioni su come modificare l'aggregazione in un grafico (somma, media, valore massimo e così via) nel servizio Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710589"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873321"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Usare le aggregazioni (somma, media e così via) nel servizio Power BI
 
@@ -50,7 +49,7 @@ L'utilizzo delle aggregazioni nel servizio Power BI può creare confusione. È p
 
 In genere, il problema sottostante è la definizione del campo nel set di dati. Forse il proprietario del set di dati ha definito il campo come testo e questo spiega perché Power BI non è in grado di eseguire operazioni di somma o media. Sfortunatamente, [solo il proprietario del set di dati può modificare il modo in cui un campo è stato categorizzato](desktop-measures.md). Se si hanno le autorizzazioni di proprietario per il set di dati in Desktop o nel programma usato per creare il set di dati, ad esempio Excel, è possibile risolvere questo problema. In caso contrario, sarà necessario contattare il proprietario del set di dati per ottenere assistenza.  
 
-Alla fine di questo articolo è disponibile una sezione speciale intitolata [**Considerazioni e risoluzione dei problemi**](#considerations-and-troubleshooting) che fornisce suggerimenti e indicazioni. Se non si trova la risposta, inviare la domanda al [forum della Community di Power BI](http://community.powerbi.com). Si otterrà una risposta rapida direttamente dal team di Power BI.
+Alla fine di questo articolo è disponibile una sezione speciale intitolata [**Considerazioni e risoluzione dei problemi**](#considerations-and-troubleshooting) che fornisce suggerimenti e indicazioni. Se non si trova la risposta, inviare la domanda al [forum della Community di Power BI](https://community.powerbi.com). Si otterrà una risposta rapida direttamente dal team di Power BI.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Modificare la modalità di aggregazione di un campo numerico
 
@@ -188,4 +187,4 @@ D:  nell'elenco a discesa non è disponibile l'opzione **Non riepilogare**.
 
 R:  provare a rimuovere il campo e ad aggiungerlo di nuovo.
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

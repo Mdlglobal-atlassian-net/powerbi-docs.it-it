@@ -2,7 +2,6 @@
 title: Ottimizzare un dashboard per telefoni cellulari - Power BI
 description: Informazioni su come creare una visualizzazione personalizzata di un dashboard nel servizio Power BI in particolare per la visualizzazione nei telefoni cellulari.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61158266"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872852"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Ottimizzare un dashboard per telefoni cellulari - Power BI 
 Quando si visualizzano i dashboard in modalità verticale in un telefono, si noterà che i riquadri del dashboard sono disposti uno dopo l'altro, tutti con le stesse dimensioni. Nel servizio Power BI è possibile creare una visualizzazione personalizzata di un dashboard, in particolare per la visualizzazione verticale nei telefoni. Anche se si crea una visualizzazione telefono, quando si posiziona il telefono in orizzontale l'aspetto del dashboard è uguale a quello nel servizio.
@@ -59,5 +58,5 @@ Per informazioni sulla visualizzazione dei dashboard in un dispositivo mobile, v
 ## <a name="next-steps"></a>Passaggi successivi
 * [Creare report ottimizzati per le app per telefoni di Power BI](desktop-create-phone-report.md)
 * [Creare oggetti visivi reattivi ottimizzati per qualsiasi dimensione](visuals/desktop-create-responsive-visuals.md)
-* Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

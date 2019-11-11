@@ -2,7 +2,6 @@
 title: Due modi di condividere un report di Power BI filtrato
 description: Informazioni sui due modi di filtrare un report di Power BI e condividerlo con i colleghi all'interno dell'organizzazione.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877703"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871435"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Due modi di condividere un report di Power BI filtrato
 La *condivisione* è un approccio valido per consentire ad alcuni utenti di accedere ai dashboard e ai report. Cosa accade se si vuole condividere una versione filtrata di un report? Ad esempio, un report che mostri solo i dati relativi a una città, un venditore o un anno specifici. Provare a filtrare un report e condividerlo o a creare un URL personalizzato. Il report viene filtrato quando i destinatari lo aprono per la prima volta. I destinatari possono rimuovere il filtro modificando l'URL. 
@@ -74,6 +73,6 @@ Per maggiori dettagli, vedere l'articolo [Filtrare un report usando i parametri 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Modalità per la condivisione del lavoro in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Share a dashboard (Condividi un dashboard)](service-share-dashboards.md)
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/).
 * Per inviare suggerimenti, passare al [sito della community di Power BI](https://community.powerbi.com/).
 

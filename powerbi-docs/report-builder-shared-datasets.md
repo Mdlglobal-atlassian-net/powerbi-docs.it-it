@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431521"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791276"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Usare set di dati condivisi in Generatore report di Power BI
 
@@ -30,7 +30,7 @@ Ecco un elenco degli elementi necessari e non necessari per usare un set di dati
 - Per accedere a un set di dati di Power BI, è necessaria l'autorizzazione di creazione per il set di dati. Leggere le informazioni sull'[autorizzazione di creazione](service-datasets-build-permissions.md).
 - Non è necessaria una licenza di Power BI Pro per creare un report impaginato in Generatore report. 
 - È necessaria una licenza di Power BI Pro per pubblicare il report impaginato. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium. 
-- Facoltativo: per seguire questo articolo, è possibile scaricare il [file con estensione pbix dell'esempio di analisi delle vendite al dettaglio](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) di Power BI Desktop, aprirlo in Power BI Desktop e aggiungere una tabella con numerose colonne. Nel riquadro **Formato** disattivare **Totali**. Pubblicare quindi il report in un'area di lavoro nel servizio Power BI.
+- Facoltativo: per seguire questo articolo, è possibile scaricare il [file con estensione pbix dell'esempio di analisi delle vendite al dettaglio](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) di Power BI Desktop, aprirlo in Power BI Desktop e aggiungere una tabella con numerose colonne. Nel riquadro **Formato** disattivare **Totali**. Pubblicare quindi il report in un'area di lavoro nel servizio Power BI.
 
     ![Totali disattivati](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

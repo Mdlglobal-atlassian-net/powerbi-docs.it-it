@@ -2,7 +2,6 @@
 title: Password dimenticata per Power BI?
 description: Se si dimentica la password, è possibile usare un collegamento per richiedere la reimpostazione della password.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075193"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873600"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Password dimenticata per Power BI?
 
@@ -34,4 +33,4 @@ Si noti che questo numero di telefono non è quello del supporto del servizio Po
 > [!NOTE]
 > Power BI garantisce il supporto durante i normali orari di ufficio EST (Ora solare fuso orientale). Attualmente il supporto è disponibile solo in inglese.
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

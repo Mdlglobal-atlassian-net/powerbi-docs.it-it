@@ -2,7 +2,6 @@
 title: Visualizzare immagini in una tabella o matrice in un report
 description: In Power BI Desktop creare una colonna con collegamenti ipertestuali alle immagini. In Power BI Desktop o nel servizio Power BI aggiungere tali collegamenti ipertestuali a una tabella del report, matrice, filtro dei dati o scheda con più righe per visualizzare l'immagine.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715560"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874474"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Visualizzare immagini in una tabella, matrice o filtro dei dati in un report
 
@@ -48,5 +47,5 @@ Un modo efficace per migliorare i report consiste nell'aggiungere immagini. Le i
 
 [Concetti di base del servizio Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

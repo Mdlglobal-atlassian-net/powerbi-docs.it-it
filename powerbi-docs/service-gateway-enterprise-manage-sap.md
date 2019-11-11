@@ -2,7 +2,6 @@
 title: Gestire l'origine dati - SAP HANA
 description: Come gestire il gateway dati locale e le origini dati che vi appartengono. Questo articolo è specifico per SAP HANA.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303172"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881737"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Gestire l'origine dati - SAP HANA
 
@@ -74,5 +73,5 @@ Se si è presenti nella scheda **Utenti** dell'origine dati configurata all'inte
 * [Risoluzione dei problemi del gateway dati locale](/data-integration/gateway/service-gateway-tshoot)
 * [Risolvere i problemi relativi ai gateway - Power BI](service-gateway-onprem-tshoot.md) 
 
-Altre domande? Provare a chiedere alla [community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare a chiedere alla [community di Power BI](https://community.powerbi.com/).
 

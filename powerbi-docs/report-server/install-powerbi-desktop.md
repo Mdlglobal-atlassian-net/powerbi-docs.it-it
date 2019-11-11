@@ -3,18 +3,17 @@ title: Installare Power BI Desktop ottimizzato per il server di report di Power 
 description: Informazioni su come installare Power BI Desktop ottimizzato per il server di report di Power BI
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/03/2019
-ms.openlocfilehash: a97c8125af46eae193f6c592d0b3c1153ae9b50c
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874111"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 
@@ -55,7 +54,7 @@ La versione di Power BI Desktop per il servizio Power BI non include il mese e l
 ## <a name="file-extension-association"></a>Associazione dell'estensione di file
 Se sono stati installati sia Power BI Desktop sia Power BI Desktop ottimizzato per il server di report di Power BI nello stesso computer, l'installazione più recente di Power BI Desktop ha l'associazione con i file con estensione pbix. Di conseguenza, quando si fa doppio clic su un file con estensione pbix viene avviata l'istanza di Power BI Desktop installata più di recente.
 
-Se è stata eseguita l'installazione di Power BI Desktop ottimizzato per il server di report di Power BI in un computer che conteneva già Power BI Desktop, per impostazione predefinita tutti i file con estensione pbix vengono aperti in Power BI Desktop ottimizzato per il server di report di Power BI. Se come impostazione predefinita si preferisce avviare Power BI Desktop all'apertura di un file con estensione pbix, reinstallare [Power BI Desktop da Microsoft Store](http://aka.ms/pbidesktopstore).
+Se è stata eseguita l'installazione di Power BI Desktop ottimizzato per il server di report di Power BI in un computer che conteneva già Power BI Desktop, per impostazione predefinita tutti i file con estensione pbix vengono aperti in Power BI Desktop ottimizzato per il server di report di Power BI. Se come impostazione predefinita si preferisce avviare Power BI Desktop all'apertura di un file con estensione pbix, reinstallare [Power BI Desktop da Microsoft Store](https://aka.ms/pbidesktopstore).
 
 È sempre possibile aprire la versione di Power BI Desktop che si vuole usare per prima, quindi aprire il file da Power BI Desktop.
 
@@ -63,7 +62,7 @@ Se si modifica un report di Power BI dall'interno di Server di report di Power B
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-I report Power BI nel server di report di Power BI, nel servizio Power BI (http://app.powerbi.com) ) e nelle app per dispositivi mobili Power BI funzionano in modo quasi identico, ma alcune funzionalità sono diverse.
+I report Power BI nel server di report di Power BI, nel servizio Power BI (https://app.powerbi.com) ) e nelle app per dispositivi mobili Power BI funzionano in modo quasi identico, ma alcune funzionalità sono diverse.
 
 ### <a name="selecting-a-language"></a>Selezione di una lingua
 

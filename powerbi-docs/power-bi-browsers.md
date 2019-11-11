@@ -2,7 +2,6 @@
 title: Browser supportati per Power BI
 description: Visualizzare un elenco di browser che supportano Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e27fdf6c57eeaebe554011517d6bea79b7270055
-ms.sourcegitcommit: 35f7ee9280022c76033502b344e8ebc52d3ec1d1
+ms.openlocfilehash: d81e9e7142a05ac49969e98dbada0e0edf2fe3ba
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71705464"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875251"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Browser supportati per Power BI
 Power BI viene eseguito in questi browser:
@@ -30,6 +29,6 @@ Questi browser sono supportati su tutte le piattaforme in cui sono disponibili.
 
 ### <a name="next-steps"></a>Passaggi successivi
 * [Che cos'è Power BI?](power-bi-overview.md)
-* Provare a rivolgersi alla [community di Power BI](http://community.powerbi.com/).
+* Provare a rivolgersi alla [community di Power BI](https://community.powerbi.com/).
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/)
 

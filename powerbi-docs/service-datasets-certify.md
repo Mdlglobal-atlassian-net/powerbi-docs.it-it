@@ -2,7 +2,6 @@
 title: Certificare set di dati (anteprima) - Power BI
 description: Informazioni su come indirizzare gli utenti aziendali a set di dati affidabili e di alta qualità.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567330"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877149"
 ---
 # <a name="certify-datasets-preview"></a>Certificare set di dati (anteprima)
 
@@ -43,4 +42,4 @@ Sono disponibili altre informazioni su come gli amministratori tenant [controlla
 ## <a name="next-steps"></a>Passaggi successivi
 
 * Leggere [Usare set di dati in aree di lavoro diverse](service-datasets-across-workspaces.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

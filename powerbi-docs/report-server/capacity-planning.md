@@ -2,19 +2,18 @@
 title: Indicazioni sulla pianificazione della capacità per il server di report di Power BI
 description: Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di esecuzioni di test di carico di diversi carichi di lavoro.
 author: parthsha
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3631c814876c5fbb14fa2bab376b212137858b2a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: c286e921c47b46c20cd73d4b32146093adc74d7f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946130"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860138"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Indicazioni sulla pianificazione della capacità per il server di report di Power BI
 Il server di report di Power BI è una soluzione di business intelligence aziendale self-service e di creazione di report aziendali che i clienti possono distribuire localmente, dietro a firewall. Combina le funzionalità di report interattivi di Power BI Desktop con la piattaforma server locale di SQL Server Reporting Services. Con la crescita dell'utilizzo intenso delle analisi e dei report all'interno delle aziende, può risultare difficile allocare fondi sufficienti per l'infrastruttura hardware e le licenze software necessarie per la scalabilità per una base utenti aziendale. Questo articolo fornisce indicazioni sulla pianificazione della capacità per il server di report di Power BI, condividendo i risultati di numerose esecuzioni di test di carico di diversi carichi di lavoro in un server di report. Benché i report, le query e i modelli di utilizzo delle organizzazioni possano presentare differenze significative, i risultati presentati in questo articolo, oltre ai test effettivi usati e a una descrizione dettagliata della relativa modalità di esecuzione, possono servire da punto di riferimento per chiunque stia completando le fasi preliminari del processo di pianificazione della distribuzione del server di report di Power BI.
@@ -116,7 +115,7 @@ I risultati presentati in questo articolo sono basati sull'esecuzione di un set 
 
 Per concentrarsi esclusivamente sul comportamento del server di report di Power BI in configurazioni diverse, la configurazione delle VM per ogni tipo di macchina virtuale, ad eccezione della macchina virtuale che ospita il server di report di Power BI, è fissa. Ogni macchina virtuale è stata sottoposta a provisioning come VM di tipo Serie D (v2) di seconda generazione con dischi di archiviazione Premium. È possibile trovare informazioni dettagliate su ogni dimensione di macchina virtuale nella sezione "Utilizzo generico" in https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
-| Tipo di macchina virtuale | Processore | Memory | Dimensioni delle VM di Azure |
+| Tipo di macchina virtuale | Processore | Memoria | Dimensioni delle VM di Azure |
 | --- | --- | --- | --- |
 | **Controller di dominio di Active Directory** |2 core |7 GB |Standard_DS2_v2 |
 | **Motore di Database di SQL Server e SQL Server Analysis Services** |16 core |56 GB |Standard_DS5_v2 |
@@ -126,7 +125,7 @@ Per concentrarsi esclusivamente sul comportamento del server di report di Power 
 
 Per la macchina virtuale che ospita il server di report di Power BI sono state usate diverse configurazioni di processore e memoria. A differenza delle altre VM, questa macchina virtuale è stata sottoposta a provisioning come VM di tipo Serie D (v3) di terza generazione con dischi di archiviazione Premium. È possibile trovare informazioni dettagliate su questa dimensione di macchina virtuale nella sezione "Utilizzo generico" in https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
-| Macchina virtuale | Processore | Memory | Dimensioni delle VM di Azure |
+| Macchina virtuale | Processore | Memoria | Dimensioni delle VM di Azure |
 | --- | --- | --- | --- |
 | **Server di report Power BI (Small)** |8 core |32 GB |Standard_D8S_v3 |
 | **Server di report Power BI (Large)** |16 core |64 GB |vStandard_D16S_v3 |

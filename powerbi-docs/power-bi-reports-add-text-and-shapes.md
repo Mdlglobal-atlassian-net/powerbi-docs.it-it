@@ -2,7 +2,6 @@
 title: Caselle di testo e forme nei report di Power BI
 description: Aggiungere e creare caselle di testo e forme in un report usando il servizio Microsoft Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 3da18269817ef89dfff9524c8875814430bc6cce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715284"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874431"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Caselle di testo e forme nei report di Power BI
 È possibile aggiungere caselle di testo e forme ai report usando il servizio Power BI e Power BI Desktop. In entrambi i casi, è necessario disporre di autorizzazioni di modifica per il report. Se un report è stato condiviso nel servizio Power BI, non si avranno le autorizzazioni di modifica. 
@@ -68,4 +67,4 @@ Guardare questo video che illustra come usare Power BI Desktop per [aggiungere i
 
 [Concetti di base del servizio Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

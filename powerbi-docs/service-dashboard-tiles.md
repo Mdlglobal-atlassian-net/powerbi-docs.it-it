@@ -2,7 +2,6 @@
 title: Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI
 description: Questo articolo descrive i riquadri del dashboard in Power BI, inclusi i riquadri creati dai report di SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994858"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872791"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI
 
@@ -99,8 +98,8 @@ Quando si seleziona un riquadro, gli elementi visualizzati dipendono da come è 
 - [Introduzione ai dashboard di Power BI per i progettisti](service-dashboards.md)  
 - [Aggiornamento dei dati in Power BI](refresh-data.md)
 - [Concetti di base del servizio Power BI](service-basic-concepts.md)
-- [Integrating Power BI tiles into Office documents (Integrazione dei riquadri di Power BI nei documenti di Office)](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Integrating Power BI tiles into Office documents (Integrazione dei riquadri di Power BI nei documenti di Office)](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Aggiungere elementi di Reporting Services ai dashboard di Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/).
 

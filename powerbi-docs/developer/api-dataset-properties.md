@@ -3,18 +3,17 @@ title: Proprietà dei set di dati di Power BI
 description: Informazioni sulle proprietà delle API dei set di dati di Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 508f304e2f5033c301db683e3b7557856fb3731b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b0fabcb5915a4f642abc1af03979a4597e2aa2f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61386294"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864952"
 ---
 # <a name="dataset-properties"></a>Proprietà dei set di dati
 

@@ -3,18 +3,17 @@ title: Requisiti hardware e software per l'installazione del server di report di
 description: Questo articolo elenca i requisiti minimi di hardware e software per l'installazione e l'esecuzione del server di report di Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415362"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873926"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisiti hardware e software per l'installazione del server di report di Power BI
 
@@ -24,9 +23,9 @@ Questo articolo elenca i requisiti minimi di hardware e software per l'installaz
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.6<br><br>È possibile installare manualmente .NET Framework da [Microsoft .NET Framework 4.6 (programma di installazione Web) per Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Per altre informazioni, suggerimenti e indicazioni su .NET Framework 4.6 vedere [Guida alla distribuzione di .NET Framework per gli sviluppatori](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1, and Windows Server 2012 R2 richiedono [KB2919355](http://support.microsoft.com/kb/2919355) prima dell'installazione di .NET Framework 4.6. |
+| .NET Framework |4.6<br><br>È possibile installare manualmente .NET Framework da [Microsoft .NET Framework 4.6 (programma di installazione Web) per Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Per altre informazioni, suggerimenti e indicazioni su .NET Framework 4.6 vedere [Guida alla distribuzione di .NET Framework per gli sviluppatori](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1, and Windows Server 2012 R2 richiedono [KB2919355](https://support.microsoft.com/kb/2919355) prima dell'installazione di .NET Framework 4.6. |
 | Disco rigido |Il server di report di Power BI richiede almeno 1 GB di spazio su disco disponibile.<br><br>Sarà necessario spazio aggiuntivo nel server di database che ospita il database del server di report. |
-| Memory |**Minimo:** 1 GB<br/><br/> **Consigliato:** almeno 4 GB |
+| Memoria |**Minimo:** 1 GB<br/><br/> **Consigliato:** almeno 4 GB |
 | Velocità del processore |**Minimo:** processore x64: 1,4 GHz<br/><br/> **Consigliato:** 2,0 GHz o superiore |
 | Tipo di processore |Processore x64: AMD Opteron, AMD Athlon 64, Intel Xeon con supporto Intel EM64T, Intel Pentium IV con supporto EM64T |
 | Sistema operativo |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
@@ -77,6 +76,6 @@ Il server di Report di Power BI installerà i valori predefiniti per configurare
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

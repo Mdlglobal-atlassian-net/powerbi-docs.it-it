@@ -2,7 +2,6 @@
 title: Dove si trova il tenant di Power BI?
 description: Informazioni sulla posizione del tenant di Power BI e come viene selezionata la località. È importante tenere presente questo aspetto, perché può influire sulle interazioni con il servizio.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 621b15d682cf2992559f76fa9f8f18bfe68ac93b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3f12e6f0b54f85ebd626b2bd35bf1a03d513c17a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074166"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873336"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>Dove si trova il tenant di Power BI?
 
@@ -27,7 +26,7 @@ Informazioni sulla posizione del tenant di Power BI e come viene selezionata la 
 
 Per trovare l'area del tenant, seguire questa procedura.
 
-1. Nel servizio Power BI selezionare la guida (**?**) nel menu in alto, quindi **Informazioni su Power BI**.
+1. Nel servizio Power BI selezionare la guida ( **?** ) nel menu in alto, quindi **Informazioni su Power BI**.
 
 1. Cercare il valore accanto a **I dati sono archiviati in**. Questa è l'area in cui si trova il tenant. Il valore indica anche l'area in cui sono memorizzati i dati, a meno che non si usino capacità dedicate in aree diverse per le proprie aree di lavoro.
 
@@ -44,5 +43,5 @@ Power BI seleziona l'area dati più vicina alla selezione, determinando così do
 > [!IMPORTANT]
 > Dopo aver creato il tenant non è possibile modificare la selezione.
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

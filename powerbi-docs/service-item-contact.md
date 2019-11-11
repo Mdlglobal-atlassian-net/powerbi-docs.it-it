@@ -2,7 +2,6 @@
 title: Impostare le informazioni di contatto per report e dashboard
 description: Informazioni su come impostare le informazioni sul contatto per report e dashboard.
 author: LukaszPawlowski-MS
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2010
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b64bc2566be8787ad4bb4916ed8b8c8731a87ed7
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72245493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872139"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Impostare le informazioni sul contatto per report e dashboard nel servizio Power BI
 Questo articolo illustra come impostare le informazioni sul contatto per un dashboard o un report nel servizio Power BI.
@@ -65,4 +64,4 @@ Le informazioni dell'elenco contatti vengono usate anche in altre posizioni. Ad 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

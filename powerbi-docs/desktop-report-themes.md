@@ -2,7 +2,6 @@
 title: Usare i temi dei report in Power BI Desktop
 description: Informazioni su come usare una tavolozza di colori personalizzata e applicarla a un intero report in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64be68398ffa2ab8323307b45b5bff09ec511090
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327848"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879999"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare modifiche alla struttura dell'intero report, ad esempio usando i colori aziendali, modificando i set di icone o applicando una nuova formattazione visuale predefinita. Quando si applica un **tema del report** tutti gli oggetti visivi del report usano i colori e la formattazione del tema selezionato. Ci sono alcune eccezioni, che vengono descritte più avanti in questo articolo.
@@ -436,7 +435,7 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | percentBarLabel: Etichetta tasso di conversione |
 | plotArea: Area tracciato |
 | plotAreaShading: Ombreggiatura simmetrica |
-| ratioLine: Linea rapporto |
+| ratioLine: Riga del rapporto |
 | referenceLine: Linea costante |
 | ribbonChart: Barre multifunzione |
 | rotation: Rotazione |
@@ -447,7 +446,7 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | slider: Dispositivo di scorrimento |
 | status: Codifica a colori |
 | subTotals: Subtotali |
-| target: Target |
+| target: Destinazione |
 | total: Totale complessivo |
 | trend: Linea di tendenza |
 | trendline: Asse tendenza |

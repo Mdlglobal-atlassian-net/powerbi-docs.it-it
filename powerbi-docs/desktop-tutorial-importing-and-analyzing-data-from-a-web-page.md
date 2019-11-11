@@ -2,7 +2,6 @@
 title: 'Esercitazione: Importare e analizzare i dati da una pagina Web'
 description: 'Esercitazione: Importare e analizzare i dati da una pagina Web con Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514629"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879582"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Esercitazione: Analizzare i dati di una pagina Web con Power BI Desktop
 
@@ -29,7 +28,7 @@ Si supponga di voler creare un report sui vincitori delle diverse edizioni della
 
 ## <a name="connect-to-a-web-data-source"></a>Connettersi a un'origine dati Web
 
-I dati sui vincitori della Coppa UEFA sono disponibili nella tabella dei risultati nella pagina di Wikipedia sulla Coppa UEFA all'indirizzo http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
+I dati sui vincitori della Coppa UEFA sono disponibili nella tabella dei risultati nella pagina di Wikipedia sulla Coppa UEFA all'indirizzo https://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Tabella dei risultati di Wikipedia](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ Per importare i dati:
    >[!NOTE]
    >È possibile selezionare direttamente la voce **Dati** oppure selezionare **Recupera dati** nella finestra di dialogo **Attività iniziali** di Power BI, quindi selezionare **Web** nella sezione **Tutto** o **Altro** della finestra di dialogo **Recupera dati** e infine scegliere **Connetti**.
    
-2. Nella finestra di dialogo **Da Web** incollare l'URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` nella casella di testo **URL** e quindi scegliere **OK**.
+2. Nella finestra di dialogo **Da Web** incollare l'URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` nella casella di testo **URL** e quindi scegliere **OK**.
    
     ![Finestra di dialogo Recupera dati](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -71,7 +70,7 @@ Per prima cosa, rimuovere dalla tabella tutte le colonne ad eccezione di **Year*
    
 2. Fare clic con il pulsante destro del mouse e scegliere **Rimuovi altre colonne** dall'elenco a discesa oppure selezionare **Rimuovi colonne** > **Rimuovi altre colonne** nel gruppo **Gestisci colonne** nella scheda **Home** della barra multifunzione per rimuovere tutte le altre colonne dalla tabella. 
    
-   ![Elenco a discesa Rimuovi altre colonne](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) or ![Rimuovi altre colonne - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
+   ![Elenco a discesa Rimuovi altre colonne](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web6.png) o ![Rimuovi altre colonne - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage4.png)
 
 Successivamente, rimuovere la parola superflua **Details** dalle celle della colonna **Year**.
 
@@ -79,7 +78,7 @@ Successivamente, rimuovere la parola superflua **Details** dalle celle della col
    
 2. Fare clic con il pulsante destro del mouse e scegliere **Sostituisci valori** dall'elenco a discesa oppure selezionare **Sostituisci valori** nel gruppo **Trasforma** della scheda **Home** della barra multifunzione (disponibile anche nel gruppo **Qualsiasi colonna** della scheda **Trasforma**). 
    
-   ![Elenco a discesa Sostituisci valori](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) or ![Sostituisci valori - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
+   ![Elenco a discesa Sostituisci valori](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web7.png) o ![Sostituisci valori - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8a.png)
    
 3. Nella finestra di dialogo **Sostituisci valori** digitare **Details** nella casella di testo **Valore da trovare**, lasciare vuota la casella di testo **Sostituisci con** e quindi scegliere **OK** per eliminare la parola "Details" dalle voci **Year**.
    
@@ -99,7 +98,7 @@ Dopo la pulizia dei dati nella colonna **Year** è possibile passare alla colonn
    - Fare clic con il pulsante destro del mouse sull'intestazione di colonna **Final Winners** e selezionare **Rinomina** dall'elenco a discesa o 
    - Selezionare la colonna **Final Winners** e selezionare **Rinomina** nel gruppo **Qualsiasi colonna** nella scheda **Trasforma** della barra multifunzione. 
    
-   ![Elenco a discesa Rinomina](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) or ![Rinomina - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
+   ![Elenco a discesa Rinomina](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage7a.png) o ![Rinomina - Barra multifunzione](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web8.png)
    
 2. Digitare **Country** nell'intestazione e premere **INVIO** per rinominare la colonna.
 
@@ -186,8 +185,8 @@ Per modificare la mappa in un grafico a torta, selezionare la mappa e quindi sel
 Power BI Desktop offre un'esperienza end-to-end molto semplice, dal recupero di dati da una vasta gamma di origini dati, al data shaping per soddisfare le esigenze di analisi, fino alla visualizzazione dei dati in modi accattivanti e interattivi. Quando il report è pronto, è possibile [caricarlo in Power BI](desktop-upload-desktop-files.md) e creare dashboard basati sul report che potranno essere condivisi con altri utenti di Power BI.
 
 ## <a name="see-also"></a>Vedere anche
-* [Altre esercitazioni su Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Video su Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Forum di Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Blog su Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Altre esercitazioni su Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Video su Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Forum di Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Blog su Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

@@ -2,7 +2,6 @@
 title: Impossibile aggiungere Power BI al partner O365
 description: Impossibile aggiungere Power BI a un partner di diffusione di Office 365. Il modello diffuso su diversi canali è un modello di acquisto usato da Office 365.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: bb81df81a24046820a82c00915f637ab471eb054
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 558d939582b5ac7ec67d64a9f56305326bc34d03
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074190"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856660"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Impossibile aggiungere Power BI a una sottoscrizione partner di Office 365
 
@@ -84,4 +83,4 @@ Per abilitare le sottoscrizioni ad hoc, è possibile contattare il proprio partn
 
 [Gestione delle licenze di Power BI nell'organizzazione](service-admin-licensing-organization.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

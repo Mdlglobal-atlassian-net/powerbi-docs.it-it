@@ -2,7 +2,6 @@
 title: Creare oggetti visivi di Power BI tramite Python
 description: Creare oggetti visivi di Power BI tramite Python
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303016"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877990"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Creare oggetti visivi di Power BI tramite Python
 Con **Power BI Desktop** è possibile usare **Python** per visualizzare i dati.
@@ -158,7 +157,7 @@ Questa esercitazione è pensata per consentire di iniziare a creare oggetti visi
 * Documentazione nel sito Web [Matplotlib](https://matplotlib.org/). 
 * [Esercitazione su Matplotlib: guida di base per l'uso di Matplotlib con Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) 
 * [Esercitazione su Matplotlib: libreria Matplotlib Python con esempi](https://www.edureka.co/blog/python-matplotlib-tutorial/) 
-* [Informazioni di riferimento sulle API Pandas](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
+* [Informazioni di riferimento sulle API Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) 
 * [Visualizzazioni Python nel servizio Power BI](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
 * [Uso di oggetti visivi Python in Power BI](https://www.absentdata.com/how-to-user-python-and-power-bi/)
 

@@ -2,19 +2,18 @@
 title: Scansionare un codice a matrice di Power BI dal dispositivo mobile
 description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni di BI correlate nell'app Power BI per dispositivi mobili iPhone e Android.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236757"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879198"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scansionare un codice a matrice di Power BI dal dispositivo mobile
 Si applica a:
@@ -50,7 +49,7 @@ Se il collega non ha condiviso il dashboard o report, è possibile richiedere l'
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Scansionare un codice a matrice da uno scanner esterno sull’iPhone
 1. Puntare qualsiasi scanner installato nel telefono sul codice a matrice di Power BI rilevante per l'accesso immediato al riquadro o al report. 
-2. Se non è installata l'app Power BI, si verrà reindirizzati all’[App Store di Apple per effettuarne il download](http://go.microsoft.com/fwlink/?LinkId=522062) sul proprio iPhone.
+2. Se non è installata l'app Power BI, si verrà reindirizzati all’[App Store di Apple per effettuarne il download](https://go.microsoft.com/fwlink/?LinkId=522062) sul proprio iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Scansionare un codice a matrice di Power BI sul dispositivo Android con lo scanner di Power BI
 1. Nell'app Power BI per dispositivi mobili aprire il menu di spostamento globale ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) in alto a sinistra. 
@@ -67,12 +66,12 @@ Se il collega non ha condiviso il dashboard o report, è possibile richiedere l'
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Scansionare un codice a matrice da uno scanner esterno sul dispositivo Android
 1. Puntare qualsiasi scanner installato nel dispositivo Android in corrispondenza del rilevante codice a matrice di Power BI per l'accesso immediato al riquadro o al report. 
-2. Se non è installata l'app Power BI, si verrà reindirizzati a [Google Play per eseguirne il download](http://go.microsoft.com/fwlink/?LinkID=544867). 
+2. Se non è installata l'app Power BI, si verrà reindirizzati a [Google Play per eseguirne il download](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Connettersi ai dati di Power BI dal mondo reale](mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
 * [Creare un codice a matrice per un riquadro nel servizio Power BI](../../service-create-qr-code-for-tile.md)
 * [Creare un codice a matrice per un report nel servizio Power BI](../../service-create-qr-code-for-report.md)
 * È anche possibile eseguire la [scansione di un codice a matrice con l'app Power BI per realtà mista](mobile-mixed-reality-app.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

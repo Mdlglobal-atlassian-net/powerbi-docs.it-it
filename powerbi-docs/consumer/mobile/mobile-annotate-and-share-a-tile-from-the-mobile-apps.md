@@ -2,19 +2,18 @@
 title: Annotare e condividere nelle app Power BI per dispositivi mobili
 description: "Informazioni sull'annotazione e la condivisione di riquadri, report e oggetti visivi dall'app Microsoft Power BI per dispositivi mobili iOS e Android. "
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 013cbc58a8404fa803a14c73b1668be1215cf642
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841469"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879506"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Annotare e condividere un riquadro, un report o un oggetto visivo nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -74,5 +73,5 @@ Il messaggio di posta elettronica con lo snapshot del riquadro, del report o del
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Condividere un dashboard dall'app Power BI per dispositivi mobili](mobile-share-dashboard-from-the-mobile-apps.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

@@ -3,19 +3,18 @@ title: URL di Power BI per l'elenco elementi consentiti
 description: Questo articolo descrive gli endpoint che devono essere raggiungibili dai clienti che usano Power BI.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.custom: seodec18
-ms.openlocfilehash: 5b8cce3c62811509b5a2fa80bdde683c6278c7b2
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 2771329aef1fe7258065c42269060dc1b9e50bd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624171"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860644"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URL di Power BI per l'elenco elementi consentiti
 
@@ -38,7 +37,7 @@ Power BI dipende dagli endpoint obbligatori indicati nelle sezioni Autenticazion
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
-| 1 | **Obbligatorio:** autenticazione e identità | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office)  | N/D |
+| 1 | **Obbligatorio:** autenticazione e identità | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)  | N/D |
 
 ## <a name="general-site-usage"></a>Utilizzo generale del sito
 
@@ -47,7 +46,7 @@ Per l'uso generale di Power BI, è necessario essere in grado di connettersi agl
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** API back-end | *.analysis.windows.net | TCP 443 |
-| 2 | **Obbligatorio:** integrazione di Office 365 | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/D |
+| 2 | **Obbligatorio:** integrazione di Office 365 | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | 3 | **Obbligatorio:** portale | app.powerbi.com | TCP 443 |
 | 4 | **Obbligatorio:** dati di telemetria del servizio | dc.services.visualstudio.com | TCP 443 |
 | 5 | **Facoltativo:** messaggi informativi | dynmsg.modpim.com | TCP 443 |
@@ -60,7 +59,7 @@ Per eseguire funzioni amministrative all'interno di Power BI, è necessario esse
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
-| 1 | **Obbligatorio:** per la gestione degli utenti e la visualizzazione dei log di controllo | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/D |
+| 1 | **Obbligatorio:** per la gestione degli utenti e la visualizzazione dei log di controllo | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | | | |
 
 ## <a name="getting-data"></a>Acquisizione dei dati
@@ -82,7 +81,7 @@ Power BI dipende da determinati endpoint per supportare dashboard e report. È n
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
-| 1 | **Obbligatorio:** integrazione di Excel | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office) | N/D |
+| 1 | **Obbligatorio:** integrazione di Excel | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
 | | | |
 
 ## <a name="custom-visuals"></a>Oggetti visivi personalizzati
@@ -94,7 +93,7 @@ Power BI dipende da determinati endpoint per la visualizzazione e l'accesso agli
 | 1 | **Obbligatorio:** importare un oggetto visivo personalizzato dall'interfaccia del Marketplace o da un file | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
 | 2 | **Facoltativo:** Bing Maps | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **Facoltativo:** PowerApps | Vedere la [sezione Servizi necessari](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) dal sito dei requisiti di sistema di PowerApps | N/D |
-| 4 | **Facoltativo:** Visio | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office), nonché per [SharePoint Online e OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |
+| 4 | **Facoltativo:** Visio | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online), nonché per [SharePoint Online e OneDrive for Business](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) | N/D |
 | | | |
 
 ## <a name="related-external-sites"></a>Siti esterni correlati

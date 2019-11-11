@@ -2,7 +2,6 @@
 title: Controllare l'uso di set di dati in aree di lavoro diverse (anteprima) - Power BI
 description: Informazioni su come limitare il flusso di informazioni nel tenant Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363bf9b107722b3993ed7ac43138c73da03f410a
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d1ad29bebc148d9f30e8d22240dd149787251a0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461788"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872572"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces-preview"></a>Controllare l'uso di set di dati in aree di lavoro diverse (anteprima)
 
@@ -40,4 +39,4 @@ L'amministratore tenant può specificare un URL per il collegamento **Altre info
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Usare set di dati in aree di lavoro diverse (anteprima)](service-datasets-across-workspaces.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

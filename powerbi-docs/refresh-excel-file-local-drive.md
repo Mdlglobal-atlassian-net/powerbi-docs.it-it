@@ -2,7 +2,6 @@
 title: Aggiornare un set di dati creato da una cartella di lavoro di Excel - locale
 description: Aggiornare un set di dati creato da una cartella di lavoro di Excel in un'unità locale
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a71631c0ac8e45c7e268eb11a0539fa8305dfcd7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b69e908e378605facbdaea79618aaf5167ff7739
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61414747"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874399"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Aggiornare un set di dati creato da una cartella di lavoro di Excel in un'unità locale
 ## <a name="whats-supported"></a>Che cosa è supportato?
@@ -80,5 +79,5 @@ A volte, l'aggiornamento dei dati non funziona come previsto. In genere si tratt
 [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
 ## <a name="next-steps"></a>Passaggi successivi
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Aggiungere un collegamento ipertestuale a una casella di testo in un report
 description: Aggiungere un collegamento ipertestuale a una casella di testo in Power BI Desktop e nel servizio Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832419"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873787"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Aggiungere un collegamento ipertestuale a una casella di testo in un report
 È possibile aggiungere una casella di testo a un report in Power BI Desktop o nel servizio Power BI. È possibile aggiungere una casella di testo da un report a un dashboard oppure aggiungerne una direttamente in un dashboard. Ovunque si trovi la casella di testo, è sempre possibile aggiungervi un collegamento ipertestuale. Questo articolo illustra come aggiungere un collegamento ipertestuale a una casella di testo in un report. 
@@ -63,5 +62,5 @@ Per informazioni sui collegamenti ipertestuali nelle tabelle e nelle matrici di 
 ## <a name="next-steps"></a>Passaggi successivi
 [Caselle di testo e forme nei report di Power BI](power-bi-reports-add-text-and-shapes.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/).
 

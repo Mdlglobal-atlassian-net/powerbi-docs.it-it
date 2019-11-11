@@ -3,18 +3,17 @@ title: Layout personalizzati con il contenuto incorporato di Power BI
 description: Informazioni sui layout personalizzati durante l'incorporamento del contenuto di Power BI nell'applicazione.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.openlocfilehash: 28d11a30f7998dc63f86b98fd72d18968480e711
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cae661641149554a7ecedabda322eb3b181b7f1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61344175"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875839"
 ---
 # <a name="custom-layouts"></a>Layout personalizzati
 

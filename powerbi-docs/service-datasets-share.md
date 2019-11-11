@@ -2,7 +2,6 @@
 title: Condividere un set di dati (anteprima)
 description: Il proprietario di un set di dati può creare e condividere set di dati che possono poi essere usati da altri utenti. Informazioni su come condividerli.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c490228a1dfa1e6c842db3c41ab077a99f35f975
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: ce8a404a53eebb88bbd72998f10fd94a649b8af8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021115"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872499"
 ---
 # <a name="share-a-dataset-preview"></a>Condividere un set di dati (anteprima)
 
@@ -55,4 +54,4 @@ Quando un set di dati viene condiviso nell'area di lavoro, può essere necessari
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Usare set di dati in aree di lavoro diverse (anteprima)](service-datasets-across-workspaces.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

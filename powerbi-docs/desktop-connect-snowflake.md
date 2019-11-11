@@ -2,7 +2,6 @@
 title: Connettersi a un data warehouse Snowflake Computing in Power BI Desktop
 description: Connettersi facilmente a un data warehouse Snowflake Computing e usarlo in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c02eda44ec81fe31972055548996ae357bc4c4b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513838"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876418"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Connettersi a Snowflake in Power BI Desktop
 In Power BI Desktop è possibile connettersi a un data warehouse **Snowflake** Computing e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop. 
 
 > [!NOTE]
-> È anche *necessario* installare il **driver ODBC di Snowflake** nei computer che usano il connettore **Snowflake**, usando l'architettura corrispondente all'installazione di **Power BI Desktop**, a 32 o 64 bit. È sufficiente seguire il collegamento seguente e [scaricare il driver ODBC di Snowflake](http://go.microsoft.com/fwlink/?LinkID=823762).
+> È anche *necessario* installare il **driver ODBC di Snowflake** nei computer che usano il connettore **Snowflake**, usando l'architettura corrispondente all'installazione di **Power BI Desktop**, a 32 o 64 bit. È sufficiente seguire il collegamento seguente e [scaricare il driver ODBC di Snowflake](https://go.microsoft.com/fwlink/?LinkID=823762).
 > 
 > 
 

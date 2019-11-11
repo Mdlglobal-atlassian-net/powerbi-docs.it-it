@@ -2,7 +2,6 @@
 title: Gestire l'origine dati - Oracle
 description: Come gestire il gateway dati locale e le origini dati che vi appartengono.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832459"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872471"
 ---
 # <a name="manage-your-data-source---oracle"></a>Gestire l'origine dati - Oracle
 
@@ -29,11 +28,11 @@ Per connettere il gateway al server Oracle, è necessario avere installato e con
 
 Per le versioni a 32 bit di Power BI Desktop, usare il collegamento seguente per scaricare e installare il client Oracle a 32 bit:
 
-* [Oracle Data Access Components (ODAC) a 32 bit con strumenti di sviluppo Oracle per Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [Oracle Data Access Components (ODAC) a 32 bit con strumenti di sviluppo Oracle per Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 Per le versioni a 64 bit di Power BI Desktop o per il gateway dati locale, usare il collegamento seguente per scaricare e installare il client Oracle a 64 bit:
 
-* [ODAC 12.2c versione 1 (12.2.0.1.0) a 64 bit per Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [ODAC 12.2c versione 1 (12.2.0.1.0) a 64 bit per Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 Dopo l'installazione del client, configurare il file tnsnames.ora con le informazioni corrette per il proprio database. Power BI Desktop e il gateway si basano sul nome del servizio di rete net_service_name definito nel file tnsnames.ora. Se il valore di net_service_name non è configurato, non è possibile connettersi. Il percorso predefinito per il file tnsnames.ora è `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Per altre informazioni su come configurare i file tnsnames.ora, vedere [Oracle: Parametri di denominazione locale (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
@@ -83,7 +82,7 @@ Dopo aver compilato tutti i campi, selezionare **Aggiungi**. È ora possibile us
 
 ### <a name="advanced-settings"></a>Impostazioni avanzate
 
-È possibile configurare il livello di privacy per l'origine dati, se necessario. Questa impostazione controlla il modo in cui possono essere combinati i dati. e viene usata solo per l'aggiornamento pianificato, ma non si applica a DirectQuery. Per altre informazioni sui livelli di privacy per l'origine dati, vedere [Livelli di privacy (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
+È possibile configurare il livello di privacy per l'origine dati, se necessario. Questa impostazione controlla il modo in cui possono essere combinati i dati e viene usata solo per l'aggiornamento pianificato, ma non si applica a DirectQuery. Per altre informazioni sui livelli di privacy per l'origine dati, vedere [Livelli di privacy (Power Query)](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540).
 
 ![Impostazione del livello di privacy](media/service-gateway-onprem-manage-oracle/datasourcesettings9.png)
 
@@ -94,7 +93,7 @@ Dopo aver creato l'origine dati, è possibile usarla con le connessioni DirectQu
 > [!WARNING]
 > I nomi del server e del database devono corrispondere tra Power BI Desktop e l'origine dati all'interno del gateway dati locale.
 
-Il collegamento tra il set di dati e l'origine dati all'interno del gateway si basa sul nome del server e sul nome del database. Questi nomi devono corrispondere. Se ad esempio si specifica un indirizzo IP per il nome del server all'interno di Power BI Desktop, è necessario usare l'indirizzo IP per l'origine dati all'interno della configurazione del gateway. Anche questo nome deve corrispondere con un alias definito nel file tnsnames.ora. Per altre informazioni sul file tnsnames.ora, vedere [Installazione del client Oracle](#install-the-oracle-client).
+Il collegamento tra il set di dati e l'origine dati all'interno del gateway si basa sul nome del server e sul nome del database. Tali nomi devono corrispondere. Se ad esempio si specifica un indirizzo IP per il nome del server all'interno di Power BI Desktop, è necessario usare l'indirizzo IP per l'origine dati nella configurazione del gateway. Anche questo nome deve corrispondere con un alias definito nel file tnsnames.ora. Per altre informazioni sul file tnsnames.ora, vedere [Installazione del client Oracle](#install-the-oracle-client).
 
 Questo vale sia per DirectQuery che per l'aggiornamento pianificato.
 
@@ -132,5 +131,5 @@ Per altre informazioni sulla risoluzione dei problemi relativi al gateway, veder
 * [Risolvere i problemi relativi ai gateway - Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-Altre domande? Provare a chiedere alla [community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare a chiedere alla [community di Power BI](https://community.powerbi.com/).
 

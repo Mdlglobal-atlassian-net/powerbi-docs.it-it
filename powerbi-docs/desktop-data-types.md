@@ -2,7 +2,6 @@
 title: Tipi di dati in Power BI Desktop
 description: Tipi di dati in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868529"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -71,7 +70,7 @@ Power BI Desktop supporta cinque tipi di dati Data/ora in Visualizzazione query 
 **True/False** : valore booleano True o False.
 
 ### <a name="blanksnulls-type"></a>Tipo spazi vuoti/valori Null
-**Vuoto** : è un tipo di dati in DAX che rappresenta e sostituisce i valori Null di SQL. È possibile creare uno spazio vuoto usando la funzione [BLANK](http://msdn.microsoft.com/library/ee634820.aspx), nonché verificare la presenza di spazi vuoti usando la funzione logica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**Vuoto** : è un tipo di dati in DAX che rappresenta e sostituisce i valori Null di SQL. È possibile creare uno spazio vuoto usando la funzione [BLANK](https://msdn.microsoft.com/library/ee634820.aspx), nonché verificare la presenza di spazi vuoti usando la funzione logica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
 ### <a name="table-data-type"></a>Tipo di dati tabella
 DAX usa il tipo di dati tabella in molte funzioni, ad esempio aggregazioni e calcoli della funzionalità di Business Intelligence per le gerarchie temporali. Alcune funzioni richiedono un riferimento a una tabella, mentre altre restituiscono una tabella che può quindi essere usata come input per altre funzioni. In alcune funzioni che richiedono una tabella come input è possibile specificare un'espressione che restituisce una tabella. Per alcune funzioni è necessario un riferimento a una tabella di base. Per informazioni sui requisiti di funzioni specifiche, vedere [Riferimento alle funzioni DAX](https://msdn.microsoft.com/library/ee634396.aspx).

@@ -2,20 +2,19 @@
 title: Tipi di informazioni dettagliate supportate da Power BI
 description: Informazioni rapide e Visualizza informazioni dettagliate con Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/02/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f754c1164448be88a3269cb8e3d129b63a6115f
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: 75462c2414854d0848254a36b89bcdd1de365ec5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379897"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863475"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipi di informazioni dettagliate supportate da Power BI
 
@@ -32,17 +31,17 @@ Questi sono alcuni degli algoritmi utilizzati:
 ## <a name="category-outliers-topbottom"></a>Category outlier (dall'alto al basso)
 Evidenzia i casi in cui, per una misura nel modello, uno o due membri di una dimensione prevedono valori molto più grandi di altri membri della dimensione.  
 
-![Esempio di outlier categoria](./media/end-user-insight-types/pbi_auto_insight_types_category_outliers.png)
+![Esempio di outlier categoria](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
 
 ## <a name="change-points-in-a-time-series"></a>Punti di modifica in una serie temporale
 Evidenzia quando vi sono modifiche significative nelle tendenze in una serie temporale di dati.
 
-![Esempio di punti di modifica nella serie temporale](./media/end-user-insight-types/pbi_auto_insight_types_changepoint.png)
+![Esempio di punti di modifica nella serie temporale](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
 ## <a name="correlation"></a>Correlazione
 Consente di rilevare i casi in cui più misure mostrano una correlazione tra loro quando vengono tracciate in una dimensione del set di dati.
 
-![Esempio di correlazione](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
+![Esempio di correlazione](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ## <a name="low-variance"></a>Varianza bassa
 Consente di rilevare i casi in cui i punti dati non sono distanti dalla media.
@@ -52,30 +51,30 @@ Consente di rilevare i casi in cui i punti dati non sono distanti dalla media.
 ## <a name="majority-major-factors"></a>Maggioranza (fattori principali)
 Consente di trovare casi in cui la maggior parte di un valore totale può essere attribuita a un fattore singolo quando ripartito da un'altra dimensione.  
 
-![Esempio di fattori principali](./media/end-user-insight-types/pbi_auto_insight_types_majority.png)
+![Esempio di fattori principali](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
 
 ## <a name="overall-trends-in-time-series"></a>Tendenze generali nella serie temporale
 Rileva le tendenze verso l'alto o verso il basso nei dati della serie temporale.
 
-![Esempio di tendenze generali nella serie temporale](./media/end-user-insight-types/pbi_auto_insight_types_trend.png)
+![Esempio di tendenze generali nella serie temporale](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
 
 ## <a name="seasonality-in-time-series"></a>Stagionalità nella serie temporale
 Trova modelli periodici nei dati della serie temporale, ad esempio stagionalità settimanale, mensile o annuale.
 
-![Esempio di stagionalità](./media/end-user-insight-types/pbi_auto_insight_types_seasonality_new.png)
+![Esempio di stagionalità](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ## <a name="steady-share"></a>Condivisione stabile
 Evidenzia i casi in cui è presente una correlazione padre-figlio tra la condivisione di un valore figlio in relazione al valore complessivo dell'elemento padre in una variabile continua.
 
-![Esempio di condivisione stabile](./media/end-user-insight-types/pbi_auto_insight_types_steadyshare.png)
+![Esempio di condivisione stabile](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 
 ## <a name="time-series-outliers"></a>Outlier della serie temporale
 Per i dati in una serie temporale, viene rilevato quando sono presenti date o orari specifichi con valori sostanzialmente diversi da quella di altri valori di data/ora.
 
-![Esempio di outlier della serie temporale](./media/end-user-insight-types/pbi_auto_insight_types_time_series_outliers.png)
+![Esempio di outlier della serie temporale](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Informazioni dettagliate di Power BI](end-user-insights.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

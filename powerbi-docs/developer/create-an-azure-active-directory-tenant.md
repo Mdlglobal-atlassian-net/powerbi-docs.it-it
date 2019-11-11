@@ -3,18 +3,17 @@ title: Creare un tenant di Azure Active Directory da usare con Power BI
 description: Informazioni su come creare un nuovo tenant di Azure Active Directory (Azure AD) per un'applicazione personalizzata che chiama le API REST di Power BI.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 73dddd00b6f811cd29c76c97b04136358d6e6b7a
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 1297341014154267a7e99cbb8b1e85e36e6194b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809225"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864686"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Creare un tenant di Azure Active Directory da usare con Power BI
 
@@ -98,4 +97,4 @@ Dopo aver creato un tenant di Azure AD, è possibile usarlo per testare gli elem
  
 [Avvio rapido: Configurare un ambiente di sviluppo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Immettere dati direttamente in Power BI Desktop
 description: Immettere con facilità dati direttamente in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 10586d0fa685bb947b27a5c243117596517bdb52
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: b0ae068ebeae2d16984706340c6eb9b2f247db1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142244"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73867930"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Immettere dati direttamente in Power BI Desktop
 Power BI Desktop consente l'immissione diretta di dati e l'uso dei dati nei report e nelle visualizzazioni. È ad esempio possibile copiare parti di una cartella di lavoro o di una pagina Web e quindi incollarli in Power BI Desktop.

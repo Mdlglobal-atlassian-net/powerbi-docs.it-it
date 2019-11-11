@@ -2,7 +2,6 @@
 title: Eseguire script Python in Power BI Desktop
 description: Esecuzione di script Python in Power BI Desktop
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 25970d09feac02a0b45e83ab1b348e800efc022d
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: dbde3abec716e4868a6efce98129ea8c76506d7e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302945"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865981"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Eseguire script Python in Power BI Desktop
 
@@ -89,7 +88,7 @@ La preparazione e l'esecuzione di uno script Python in Power BI Desktop sono sog
 
 Per eseguire lo script Python in Power BI Desktop:
 
-1. Nella scheda Home della barra multifunzione selezionare **Recupera dati** > **Altro...**.
+1. Nella scheda Home della barra multifunzione selezionare **Recupera dati** > **Altro...** .
    
 1. Selezionare **Altro** > **Script Python**, come illustrato nell'immagine seguente:
 

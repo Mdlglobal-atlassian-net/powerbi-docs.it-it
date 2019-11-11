@@ -2,7 +2,6 @@
 title: Attività di query comuni in Power BI Desktop
 description: Attività di query comuni in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: dc6aa42691c7caa2593b28e441f96985b1e3bcda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239452"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878663"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
@@ -31,9 +30,9 @@ Le attività di query comuni illustrate in questo documento sono:
 
 Per completare queste attività, verranno usate alcune connessioni dati. I dati sono disponibili per il download o la connessione, nel caso in cui si voglia provare a eseguire autonomamente queste attività.
 
-La prima connessione dati è una cartella di lavoro di Excel che è possibile scaricare da [questo collegamento](http://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). L'altra è una risorsa Web, che viene usata anche in altri contenuti della Guida di Power BI Desktop e a cui è possibile accedere da questo indirizzo:
+La prima connessione dati è una cartella di lavoro di Excel che è possibile scaricare da [questo collegamento](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). L'altra è una risorsa Web, che viene usata anche in altri contenuti della Guida di Power BI Desktop e a cui è possibile accedere da questo indirizzo:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 La procedura necessaria per connettersi a entrambe queste origini dati coincide con l'inizio delle attività comuni di Query.
 
@@ -142,7 +141,7 @@ Nell'Editor di query tutti i passaggi applicati per ogni query vengono mantenuti
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-Questa è la finestra dell'**editor avanzato** con i passaggi associati alla query **USA\_StudentEnrollment**. Questi passaggi vengono creati nel linguaggio delle formule di Power Query, noto anche come **M**. Per informazioni, vedere [Informazioni sulle formule di Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Per visualizzare la specifica del linguaggio, vedere [Microsoft Power Query for Excel Formula Language Specification](http://go.microsoft.com/fwlink/?linkid=320633) (Specifica del linguaggio delle formule di Microsoft Power Query per Excel).
+Questa è la finestra dell'**editor avanzato** con i passaggi associati alla query **USA\_StudentEnrollment**. Questi passaggi vengono creati nel linguaggio delle formule di Power Query, noto anche come **M**. Per informazioni, vedere [Informazioni sulle formule di Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Per visualizzare la specifica del linguaggio, vedere [Microsoft Power Query for Excel Formula Language Specification](/powerquery-m/excel-workbook) (Specifica del linguaggio delle formule di Microsoft Power Query per Excel).
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 

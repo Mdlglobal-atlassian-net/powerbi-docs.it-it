@@ -3,19 +3,18 @@ title: Usare i connettori dati personalizzati con il gateway dati locale
 description: È possibile usare connettori dati personalizzati con il gateway dati locale.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832534"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881757"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Usare i connettori dati personalizzati con il gateway dati locale
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832534"
 
 I connettori dati per Power BI consentono di connettersi ai dati e di accedervi da un'applicazione, un servizio o un'origine dati. È possibile sviluppare connettori dati personalizzati e usarli in Power BI Desktop.
 
-Per altre informazioni su come sviluppare connettori dati personalizzati per Power BI, vedere la [pagina di GitHub relativa all'SDK per i connettori dati](http://aka.ms/dataconnectors). Questo sito include informazioni introduttive ed esempi per Power BI e Power Query.
+Per altre informazioni su come sviluppare connettori dati personalizzati per Power BI, vedere la [pagina di GitHub relativa all'SDK per i connettori dati](https://aka.ms/dataconnectors). Questo sito include informazioni introduttive ed esempi per Power BI e Power Query.
 
 Quando si creano report in Power BI Desktop che usano connettori dati personalizzati, è possibile usare il gateway dati locale per aggiornare i report dal servizio Power BI.
 
@@ -58,4 +57,4 @@ Quando questa opzione è abilitata, i connettori personalizzati vengono visualiz
 * [Configurare le impostazioni del proxy per il gateway dati locale](/data-integration/gateway/service-gateway-proxy)
 * [Usare Kerberos per l'accesso Single Sign-On (SSO) da Power BI alle origini dati locali](service-gateway-sso-kerberos.md)  
 
-Altre domande? Provare a chiedere alla [community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare a chiedere alla [community di Power BI](https://community.powerbi.com/).

@@ -2,7 +2,6 @@
 title: Tipi di oggetti visivi in Power BI per i consumer
 description: Tipi di oggetti visivi nel servizio Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302543"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861314"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipi di oggetti visivi in Power BI
 Gli oggetti visivi sono disponibili in report, dashboard e Domande e risposte. Alcuni di questi tipi di oggetti visivi sono inclusi in Power BI, mentre altri sono *oggetti visivi personalizzati*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dai *progettisti* dei report ai report, ai dashboard e alle app di Power BI. 
@@ -137,7 +136,7 @@ Le mappe delle forme confrontano le aree di una mappa usando i colori. Un oggett
 L'oggetto visivo matrice è un tipo di oggetto visivo tabella (vedere "Tabella" di seguito) che supporta un layout con rientri. Spesso, le progettazioni dei report inseriscono matrici nei report e nei dashboard per consentire agli utenti di selezionare uno o più elementi (righe, colonne, celle) nella matrice per evidenziare altri oggetti visivi in una pagina del report.  
 
 ### <a name="pie-charts"></a>Grafici a torta
-![grafico a torta](media/end-user-visual-type/pbi-nancy-viz-pie.png)
+![pie chart](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 I grafici a torta indicano la relazione tra un intero e le parti. 
 
@@ -232,4 +231,4 @@ Quando si digitano query in linguaggio naturale con Domande e risposte di Power 
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Interagire con gli oggetti visivi in report, dashboard e app](end-user-visualizations.md)    
-[Riferimento all'oggetto visivo a destra da sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[Riferimento all'oggetto visivo a destra da sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)

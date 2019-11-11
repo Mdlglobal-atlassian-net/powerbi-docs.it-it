@@ -2,7 +2,6 @@
 title: Creare domande in primo piano per Domande e risposte di Power BI
 description: Documentazione su come creare domande in primo piano per Domande e risposte di Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 138c14e98485777d84130854c7811a33b74dffd3
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721124"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881109"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Creare domande in primo piano per Domande e risposte di Power BI
 Se si ha un set di dati, è possibile aggiungere nuove domande in primo piano a questo set di dati. Domande e risposte di Power BI visualizzerà queste domande ai colleghi che utilizzano i report in base al set di dati.  Le domande in primo piano danno un'idea ai colleghi sul tipo di domande che possono porre sul set di dati. Le domande in primo piano aggiunte dipendono dall'utente; aggiungere domande frequenti, domande che consentono di visualizzare risultati interessanti o domande che potrebbero essere difficili da formulare.
@@ -50,5 +49,5 @@ Questo articolo usa l'[esempio di analisi delle vendite al dettaglio](sample-dat
 - [Usare Domande e risposte in dashboard e report](power-bi-tutorial-q-and-a.md)  
 - [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

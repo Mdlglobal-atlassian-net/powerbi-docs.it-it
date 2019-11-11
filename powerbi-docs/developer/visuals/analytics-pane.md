@@ -3,19 +3,18 @@ title: Riquadro Analisi negli oggetti visivi di Power BI
 description: Questo articolo descrive come creare linee di riferimento dinamiche negli oggetti visivi di Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: 0782ea63a9833c220e4d96886d79d42af643e111
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c5530767d37e9c9dfaf5270037d873fc4d1a58ec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307605"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880286"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Riquadro Analisi negli oggetti visivi di Power BI
 

@@ -2,7 +2,6 @@
 title: Usare stringhe di formato personalizzate in Power BI Desktop
 description: Informazioni su come personalizzare le stringhe di formato in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 1c1f049f8ba8c7808001b8566b1d10424a1b2ed1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305727"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878337"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Usare stringhe di formato personalizzate in Power BI Desktop
 
@@ -137,7 +136,7 @@ La tabella seguente identifica i caratteri che è possibile usare per creare **f
 
 | **Carattere** | **Descrizione** |
 | --- | --- |
-| Nessuna | Visualizzare il numero senza formattazione. |
+| Nessuno | Visualizzare il numero senza formattazione. |
 | ( **0** ) | Segnaposto della cifra. Visualizzare una cifra o uno zero. Se nell'espressione è presente una cifra nella posizione del valore 0 nella stringa di formato, visualizzarla; in caso contrario, visualizzare uno zero. Se il numero include meno cifre del numero di zeri presenti (in entrambi i lati del decimale) nell'espressione di formato, visualizzare zeri iniziali o finali. Se il numero ha più cifre a destra del separatore decimale del numero di zeri a destra del separatore decimale nell'espressione di formato, arrotondare il numero al numero di cifre decimali corrispondente al numero di zeri. Se il numero ha più cifre a sinistra del separatore decimale del numero di zeri a sinistra del separatore decimale nell'espressione di formato, visualizzare le cifre aggiuntive senza alcuna modifica. |
 | ( **#** ) | Segnaposto della cifra. Visualizzare una cifra o nessun elemento. Se nell'espressione è presente una cifra nella posizione di # nella stringa di formato, visualizzarla; in caso contrario, non visualizzare alcun elemento. Questo simbolo viene usato allo stesso modo del segnaposto 0 cifre, ad eccezione del fatto che gli zeri iniziali e finali non vengono visualizzati se il numero ha un numero di cifre uguale o inferiore al numero di caratteri # in entrambi i lati del separatore decimale nell'espressione di formato. |
 | ( **.** ) | Segnaposto decimale. In alcune impostazioni locali viene usata la virgola come separatore decimale. Il segnaposto decimale determina il numero di cifre visualizzate a sinistra e a destra del separatore decimale. Se l'espressione di formato contiene solo cancelletti a sinistra di questo simbolo, i numeri inferiori a 1 iniziano con un separatore decimale. Per visualizzare uno zero iniziale con i numeri frazionari, usare 0 come primo segnaposto di cifra a sinistra del separatore decimale. Il carattere effettivo usato come segnaposto decimale nell'output formattato dipende dal formato numerico riconosciuto dal sistema. |

@@ -2,19 +2,18 @@
 title: Supporto del browser per il server di report di Power BI
 description: Informazioni su quali versioni del browser sono supportate per la gestione e la visualizzazione del server di report di Power BI e i controlli del Visualizzatore report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 5a2ca653a06efbde161899602536b05c8f6ab666
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769761"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874296"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Supporto del browser per il server di report di Power BI
 Informazioni su quali versioni del browser sono supportate per la gestione e la visualizzazione del server di report di Power BI e i controlli del Visualizzatore report.
@@ -115,7 +114,7 @@ Usare un browser con il supporto script abilitato. Se il browser non può esegui
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

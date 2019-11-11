@@ -2,7 +2,6 @@
 title: Integrazione di Power BI con Microsoft Flow
 description: Informazioni su come creare flussi attivati dagli avvisi per i dati di Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: c02ce0a92e258055edf906cf17730fec56bcb450
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61147038"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881855"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
 
@@ -112,5 +111,5 @@ In questa attività si creerà da zero un semplice flusso che viene attivato da 
 * [Impostare gli avvisi per i dati nel servizio Power BI](service-set-data-alerts.md)
 * [Impostare gli avvisi per i dati nell'iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Impostare gli avvisi per i dati nell'app Power BI per dispositivi mobili per Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

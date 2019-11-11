@@ -3,18 +3,17 @@ title: Immettere i dati direttamente in un report impaginato in Generatore repor
 description: Questo articolo spiega come si possono immettere dati direttamente in un report impaginato in Generatore report.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 4690185b745408d99852f00851c7cf0933bd0b46
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839101"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874827"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report - Power BI
 
@@ -26,7 +25,7 @@ In questo articolo viene illustrata una funzionalità della nuova versione di Ge
 - Per salvare il report impaginato nel servizio Power BI, sono necessari un [account di Power BI Pro](service-self-service-signup-for-power-bi.md) e l'accesso in scrittura a un'area di lavoro in una [capacità Premium di Power BI](service-premium-what-is.md).
 - Per salvare il report impaginato in un server di report, sono necessarie autorizzazioni per [modificare il file RSReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
-## <a name="get-started"></a>Attività iniziali
+## <a name="get-started"></a>Inizia
 
 Dopo aver scaricato e installato Generatore report, seguire lo stesso flusso di lavoro usato per aggiungere un'origine dati e un set di dati incorporati al report. Nella procedura seguente, in **Origini dati** viene visualizzata una nuova opzione: **Immettere i dati**.  È sufficiente impostare questa origine dati una sola volta in un report. Successivamente, è possibile creare più tabelle di dati immessi come set di dati separati, usando quella singola origine dati.
 

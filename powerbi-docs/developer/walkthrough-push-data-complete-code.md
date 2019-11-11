@@ -3,18 +3,17 @@ title: Listato di codice completo
 description: Procedura dettagliata per il push dei dati - Listato di codice completo
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: cdf6bf157a3d8fe1f865c610238e3cd1f829ef9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ac534946b5f7e6fb5bb0164a1144523fa8f2aa94
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710300"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875487"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Listato di codice completo per il push dei dati in un set di dati
 
@@ -235,4 +234,4 @@ Al termine dei passaggi da 2 a 5 in **Eseguire il push dei dati in un set di dat
 [Riferimento all'API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

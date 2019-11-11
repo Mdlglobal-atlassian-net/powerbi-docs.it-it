@@ -2,7 +2,6 @@
 title: Analisi approfondita del gateway dati locale
 description: Questo articolo offre un'analisi approfondita del gateway dati locale. Illustra come funziona il servizio con Azure Active Directory e Active Directory locale quando si lavora con Analysis Services
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729955"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881586"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Analisi approfondita del gateway dati locale
 
@@ -106,4 +105,4 @@ Vedere [Riavviare un gateway](/data-integration/gateway/service-gateway-restart)
 
 [Informazioni sul gateway dati locale](service-gateway-onprem.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273391"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799934"
 ---
 Con DAX sono disponibili numerose funzioni per modellare, creare o analizzare i dati. Queste funzioni possono essere raggruppate nelle categorie seguenti:
 
@@ -97,7 +97,7 @@ DAX include le funzioni di **data** seguenti:
 
 Anche se queste funzioni sono utili per calcolare ed estrarre informazioni dai valori di *data*, non si applicano alla funzionalità di Business Intelligence per le gerarchie temporali, che usa una tabella data.
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

@@ -3,18 +3,17 @@ title: Eseguire il rendering degli eventi negli oggetti visivi di Power BI
 description: Gli oggetti visivi di Power BI possono indicare a Power BI che sono pronti per l'esportazione in PowerPoint o PDF.
 author: Yarovinsky
 ms.author: alexyar
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b481ce94e5025045466a05d71e30a00f02be7ead
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 261987a199af68611792367f514bef60dd584db8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237160"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880116"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Eseguire il rendering degli eventi negli oggetti visivi di Power BI
 

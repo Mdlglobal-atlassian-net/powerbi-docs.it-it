@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847700"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799933"
 ---
 La sezione di **apprendimento guidato** di Power BI è stata progettata per fornire informazioni introduttive su **DAX**.
 
 **DAX** è l'acronimo di **Data Analysis Expressions** e indica il linguaggio delle formule usato in Power BI, anche in background. DAX è disponibile anche in altre offerte Microsoft, ad esempio Power Pivot e il modello tabulare di SSAS, ma questi argomenti dell'apprendimento guidato sono incentrati sulla modalità di utilizzo di DAX, anche da parte dell'utente, in Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX e la serie di video di apprendimento guidato
-L'obiettivo di questa sezione di **apprendimento guidato** consiste nell'offrire informazioni di base su DAX, vale a dire informazioni generali su DAX, informazioni sul funzionamento e sulle funzionalità più utili, in base a quanto illustrato (e appreso con molta esperienza) da un noto esperto di DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax).
+L'obiettivo di questa sezione di **apprendimento guidato** consiste nell'offrire informazioni di base su DAX, vale a dire informazioni generali su DAX, informazioni sul funzionamento e sulle funzionalità più utili, in base a quanto illustrato (e appreso con molta esperienza) da un noto esperto di DAX, [Alberto Ferrari](https://www.sqlbi.com/learning-dax).
 
 ![Descrizione di Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX usa l'overload degli operatori. È quindi possibile combinare tipi di dati n
 
 Esiste un tipo di dati in particolare che si userà probabilmente spesso in Power BI: **DateTime**. Il tipo di dati **Data/Ora** è archiviato come valore a virgola mobile con una parte intera e una decimale. Il tipo di dati Data/Ora può essere usato in modo accurato per calcoli di qualsiasi periodo di tempo successivo al 1° marzo 1900.
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 
 > 
 

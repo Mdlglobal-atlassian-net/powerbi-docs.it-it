@@ -2,7 +2,6 @@
 title: Che cos'è Power BI Desktop?
 description: Informazioni su Power BI Desktop e su come iniziare a usarlo
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141955"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865140"
 ---
 # <a name="what-is-power-bi-desktop"></a>Che cos'è Power BI Desktop?
 
@@ -100,4 +99,4 @@ Dopo avere selezionato **Pubblica**, Power BI Desktop si connette al **servizio 
 Per iniziare a usare **Power BI Desktop**, per prima cosa occorre scaricare e installare l'applicazione. Esistono due modi per ottenere **Power BI Desktop**:
 
 * [Scaricare Power BI Desktop dal Web](desktop-get-the-desktop.md)
-* [Ottenere Power BI Desktop da Windows Store](http://aka.ms/pbidesktopstore)
+* [Ottenere Power BI Desktop da Windows Store](https://aka.ms/pbidesktopstore)

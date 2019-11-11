@@ -2,7 +2,6 @@
 title: 'Esercitazione: Filtri dei dati in Power BI'
 description: Filtri dei dati in Power BI
 author: v-thepet
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d400e2013d8f2cb8dda627cda790191fce52503b
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 808f27b94e53d5acf351772ef304f9cc69215007
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775879"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880803"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 
@@ -46,7 +45,7 @@ I filtri dei dati di Power BI presentano le limitazioni seguenti:
 
 **Creare un nuovo filtro dei dati in base al direttore di zona**
 
-Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
    

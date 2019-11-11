@@ -2,7 +2,6 @@
 title: Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 description: Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023759"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877416"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Suggerimenti per la progettazione di un dashboard di Power BI ottimale
 Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in modo che il dashboard non sia solo di gradevole da vedere, ma anche funzionale. Questo, in generale, significa mettere in risalto le informazioni più importanti in modo pulito e ordinato.
@@ -24,8 +23,6 @@ Dopo avere creato un dashboard e aggiunto alcuni riquadri, è opportuno fare in 
 
 > [!TIP]
 > Questo dashboard può essere scaricato insieme ai relativi report da AppSource. Passare a **Scarica i dati** > **Servizi**. Cercare **Microsoft Sample - Sales & Marketing** > **Scarica adesso**.
-
-Molti dei principi di progettazione validi per i report si applicano anche ai dashboard. Per altre informazioni, leggere il white paper [Procedure consigliate per la progettazione di report e oggetti visivi](visuals/power-bi-visualization-best-practices.md).
 
 Ecco alcuni suggerimenti per i dashboard.
 
@@ -85,4 +82,4 @@ Per progettare dashboard di altissimo livello, è utile apprendere i principi ba
 ## <a name="next-steps"></a>Passaggi successivi
 [Creare un dashboard da un report](service-dashboard-create.md)  
 [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)  
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

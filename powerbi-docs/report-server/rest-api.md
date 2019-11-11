@@ -3,18 +3,17 @@ title: Sviluppare con le API REST per un server di report di Power BI
 description: L'API REST offre l'accesso a livello di codice agli oggetti contenuti in un catalogo del server di report di Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770756"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874067"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Sviluppare con le API REST per un server di report di Power BI
 
@@ -41,7 +40,7 @@ Una coppia richiesta/risposta dell'API REST può essere suddivisa in cinque comp
 * Campi del **corpo del messaggio di richiesta** HTTP facoltativi, per supportare l'operazione HTTP e l'URI. Ad esempio, le operazioni POST contengono oggetti con codifica MIME passati come parametri complessi. Per le operazioni POST o PUT, è necessario specificare anche il tipo di codifica MIME per il corpo nell'intestazione della richiesta `Content-type`. Alcuni servizi richiedono di usare un tipo MIME specifico, come `application/json`.
 * Campi dell'**intestazione del messaggio della risposta** HTTP:
   
-  * [Codice di stato HTTP](http://www.w3.org/Protocols/HTTP/HTRESP.html), compreso tra 2xx per le operazioni riuscite e 4xx o 5xx per le operazioni con errori. In alternativa, può essere restituito un codice di stato definito dal servizio, come indicato nella documentazione dell'API.
+  * [Codice di stato HTTP](https://www.w3.org/Protocols/HTTP/HTRESP.html), compreso tra 2xx per le operazioni riuscite e 4xx o 5xx per le operazioni con errori. In alternativa, può essere restituito un codice di stato definito dal servizio, come indicato nella documentazione dell'API.
   * Campi dell'intestazione aggiuntivi facoltativi, per il supporto della risposta della richiesta, ad esempio un'intestazione della risposta `Content-type`.
 * Campi del **corpo del messaggio di risposta** HTTP facoltativi:
   
@@ -53,7 +52,7 @@ Un'API REST moderna richiede una documentazione API moderna. L'API REST è basat
 
 ## <a name="testing-api-calls"></a>Test delle chiamate API
 
-[Fiddler](http://www.telerik.com/fiddler) è uno strumento che permette di testare i messaggi di richiesta/risposta HTTP. Fiddler è un proxy di debug Web gratuito che intercetta le richieste REST semplificando così la diagnosi dei messaggi di richiesta/risposta HTTP.
+[Fiddler](https://www.telerik.com/fiddler) è uno strumento che permette di testare i messaggi di richiesta/risposta HTTP. Fiddler è un proxy di debug Web gratuito che intercetta le richieste REST semplificando così la diagnosi dei messaggi di richiesta/risposta HTTP.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

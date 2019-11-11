@@ -2,19 +2,18 @@
 title: Opzioni di supporto per Power BI Pro e Power BI Premium
 description: Questo articolo descrive le opzioni di supporto disponibili per i clienti di Power BI Pro e Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305828"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871403"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opzioni di supporto per Power BI Pro e Power BI Premium
 
@@ -55,4 +54,4 @@ Offre una panoramica completa della funzionalità e delle capacità di Power BI.
 
   - **WorkshopPLUS - Data AI: Advanced Data Analytics with Power BI** (WorkshopPLUS - Intelligenza artificiale per i dati: Analisi dei dati avanzata con Power BI) Questo corso offre le conoscenze necessarie per comprendere e implementare i principi fondamentali della modellazione dei dati in Power BI, usando strumenti come Power BI Desktop e gestendo il servizio cloud per la pubblicazione e l'uso di risorse di Business Intelligence. Il corso espone anche gli elementi di base per lo sviluppo di report, l'analitica incorporata in Power BI per l'inclusione del contenuto in applicazioni personalizzate, la creazione di dashboard in tempo reale e l'analitica avanzata con data science e sviluppo in Power BI.
 
-Per altre informazioni, contattare il Technical Account Manager Microsoft. Se non si ha un contratto Supporto tecnico Microsoft Premier, vedere [Supporto Premier](https://support.microsoft.com/en-us/premier) per altre informazioni.
+Per altre informazioni, contattare il Technical Account Manager Microsoft. Se non si ha un contratto Supporto tecnico Microsoft Premier, vedere [Supporto Premier](https://support.microsoft.com/premier) per altre informazioni.

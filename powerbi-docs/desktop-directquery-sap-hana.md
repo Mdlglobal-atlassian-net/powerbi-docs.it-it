@@ -2,7 +2,6 @@
 title: DirectQuery per SAP HANA in Power BI
 description: Considerazioni relative all'uso di DirectQuery con SAP HANA
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d7c5415d084ea7ca9b6a6dd4da3e84662fc6349
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61303796"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878309"
 ---
 # <a name="directquery-and-sap-hana"></a>DirectQuery e SAP HANA
 È possibile connettersi alle origini dati di **SAP HANA** usando direttamente **DirectQuery**. Sono disponibili due opzioni per la connessione a SAP HANA:
@@ -76,7 +75,7 @@ Le principali restrizioni di modellazione aggiuntive per la connessione a SAP HA
 Esistono alcune restrizioni per gli oggetti visivi durante la connessione a SAP HANA con DirectQuery (considerata come origine multidimensionale): 
 * **Nessuna aggregazione di colonne:** non è possibile modificare l'aggregazione per una colonna in un oggetto visivo ed è sempre *Non riepilogare*.
 
-## <a name="treat-sap-hana-as-a-relational-source"></a>Considerare SAP HANA come origine relazionale 
+## <a name="treat-sap-hana-as-a-relational-source"></a>Considera SAP HANA come origine relazionale 
 
 Se si sceglie di connettersi a SAP HANA come origine relazionale, si ha a disposizione una maggiore flessibilità. Ad esempio è possibile creare colonne calcolate, includere dati da più viste SAP HANA e creare relazioni tra le tabelle risultanti. Tuttavia, quando si usa SAP HANA in questo modo, è importante comprendere alcuni aspetti del modo in cui vengono considerate le connessioni, per assicurarsi che: 
 

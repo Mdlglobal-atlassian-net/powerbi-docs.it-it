@@ -2,7 +2,6 @@
 title: Introduzione alla formattazione dei colori e alle proprietà degli assi
 description: Introduzione alla formattazione dei colori e alle proprietà degli assi
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 340e32d6d3b29e266d81253378feb4266c01d000
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a01598bda6520bbf0bf82175ab4256cf7d529e84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61389937"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880692"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Introduzione alla formattazione dei colori e alle proprietà degli assi
 In **Power BI** è possibile cambiare il colore delle serie di dati, dei punti dati e persino lo sfondo delle visualizzazioni. È anche possibile modificare la presentazione degli assi x e y, in modo da poter controllare completamente l'aspetto di dashboard e report.
@@ -40,7 +39,7 @@ Quando si seleziona **Formato**, l'area sotto l'icona visualizza le personalizza
 * Colori dati
 * Etichette dati
 * Forme
-* Area tracciato
+* Area del tracciato
 * Titolo
 * Sfondo
 * Blocca proporzioni

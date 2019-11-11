@@ -2,7 +2,6 @@
 title: Grafici a linee in Power BI
 description: Grafici a linee in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4b2c7c237393fd0a8e76b7ca27987c479b5c411d
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408612"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871069"
 ---
 # <a name="line-charts-in-power-bi"></a>Grafici a linee in Power BI
 Un grafico a linee è costituito da una serie di punti dati uniti da linee rette. Un grafico a linee può includere una o più linee. I grafici a linee hanno un asse X e un asse Y. 

@@ -3,19 +3,18 @@ title: Risoluzione di "Il certificato SSL aziendale non è considerato attendibi
 description: Quando si accede all'app Android per Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile
 .": ''
 author: paulinbar
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/28/2019
 ms.author: mshenhav
-ms.openlocfilehash: 19bcdf08d4eacff5e080bf1a2f987ea848e4bfb9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cde8a4bbaed9ef10940b7a102d40a8bc6009e9b9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70840912"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879471"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Risoluzione di "Il certificato SSL aziendale non è considerato attendibile" - Power BI
 Quando si accede all'app per dispositivi mobili Android per Microsoft Power Bi potrebbe essere visualizzato il messaggio "Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile da questo dispositivo. Contattare l'amministratore IT della società". 
@@ -41,9 +40,9 @@ Le impostazioni di fuso orario nel dispositivo potrebbero essere errate.
 Passare a **Impostazioni** > **Sistema** > **Data e ora** per controllarle.
 
 ## <a name="custom-authentication-server"></a>Server di autenticazione personalizzata
-Se si usa un server di autenticazione personalizzata, il certificato SSL nel server di autenticazione aziendale potrebbe non essere valido. Collaborare con il reparto IT dell'organizzazione per testare la configurazione del server di autenticazione aziendale, seguendo le indicazioni in [questo articolo](https://support.microsoft.com/en-us/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
+Se si usa un server di autenticazione personalizzata, il certificato SSL nel server di autenticazione aziendale potrebbe non essere valido. Collaborare con il reparto IT dell'organizzazione per testare la configurazione del server di autenticazione aziendale, seguendo le indicazioni in [questo articolo](https://support.microsoft.com/help/3203929/using-adal-to-authenticate-from-android-devices-fails-if-additional-ce).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Scaricare l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/) 
+* [Scaricare l'app Android](https://go.microsoft.com/fwlink/?LinkID=544867) dall'App Store Android.
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/) 
 

@@ -2,19 +2,18 @@
 title: Configurare l'accesso delle app per dispositivi mobili iOS in modalità remota
 description: Informazioni su come configurare le app per dispositivi mobili iOS in modalità remota per il server di report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/08/2019
 ms.author: maggies
-ms.openlocfilehash: 7727157a9227a5340fccf0af129d87f69edd8c72
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994804"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874216"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota
 

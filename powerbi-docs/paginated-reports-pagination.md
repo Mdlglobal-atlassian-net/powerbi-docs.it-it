@@ -3,18 +3,17 @@ title: Paginazione dei report impaginati in Power BI
 description: In questo articolo sono descritte le origini dati supportate per i report impaginati del servizio Power BI ed è illustrato come connettersi alle origini dati del database SQL di Azure.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/22/2019
-ms.openlocfilehash: e91d3801cc2293ad22028a95a331d473f41288c0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624841"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874773"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginazione dei report impaginati in Power BI
 
@@ -90,4 +89,4 @@ ms.locfileid: "68624841"
 
 [Visualizzare un report impaginato nel servizio Power BI](paginated-reports-view-power-bi-service.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

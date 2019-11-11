@@ -2,7 +2,6 @@
 title: Usare le aggregazioni in Power BI Desktop
 description: Eseguire analisi interattive su big data in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325176"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876731"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Aggregazioni in Power BI Desktop
 
@@ -49,8 +48,8 @@ Quindi, la tabella **Sales Agg** verrà creata come tabella di aggregazione. Ha 
 
 Si supponga che le seguenti tabelle delle dimensioni siano quelle usate più spesso per le query con elevato valore per l'azienda. Sono le tabelle con le quali è possibile filtrare **Sales Agg** utilizzando relazioni *uno-a-molti* o *molti-a-uno*.
 
-* Geography
-* Customer
+* Geografia
+* Cliente
 * Data
 * Product Subcategory
 * Categoria prodotto
@@ -60,7 +59,7 @@ L'immagine seguente mostra questo modello.
 ![tabella di aggregazione in un modello](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> La tabella **Sales Agg** è semplicemente un'altra tabella, pertanto offre la flessibilità di essere caricata in vari modi. Ad esempio, l'aggregazione può essere eseguita nel database di origine utilizzando i processi ETL/ELT oppure usando l'[espressione M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) per la tabella. Può usare la modalità di archiviazione Import, con o senza [aggiornamento incrementale in Power BI Premium](service-premium-incremental-refresh.md), oppure la modalità DirectQuery ed essere ottimizzata per query veloci usando [gli indici columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Questa flessibilità consente di creare architetture bilanciate in cui il carico di query viene ripartito per evitare i colli di bottiglia.
+> La tabella **Sales Agg** è semplicemente un'altra tabella, pertanto offre la flessibilità di essere caricata in vari modi. Ad esempio, l'aggregazione può essere eseguita nel database di origine utilizzando i processi ETL/ELT oppure usando l'[espressione M](/powerquery-m/power-query-m-function-reference) per la tabella. Può usare la modalità di archiviazione Import, con o senza [aggiornamento incrementale in Power BI Premium](service-premium-incremental-refresh.md), oppure la modalità DirectQuery ed essere ottimizzata per query veloci usando [gli indici columnstore](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Questa flessibilità consente di creare architetture bilanciate in cui il carico di query viene ripartito per evitare i colli di bottiglia.
 
 ### <a name="storage-mode"></a>Modalità di archiviazione 
 Continuiamo con l'esempio illustrato. Impostiamo la modalità di archiviazione di **Sales Agg** su **Import** per velocizzare le query.

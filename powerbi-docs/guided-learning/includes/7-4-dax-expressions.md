@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5c2b254f20bd1eba97840a464a1b554cc4fe1238
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f22c12ec0ad5bd413f3658704132143c878df1aa
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273379"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73799936"
 ---
 L'uso delle **variabili** è una componente fondamentale di un'espressione DAX.
 
@@ -18,7 +18,7 @@ Le variabili possono essere di qualsiasi tipo di dati, incluse intere tabelle.
 
 Tenere presente che ogni volta che si fa riferimento a una variabile nell'espressione DAX, Power BI deve ricalcolarne il valore in base alla definizione. Per questo motivo, è consigliabile evitare di ripetere variabili in una funzione.
 
-> Contenuto video fornito da [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
+> Contenuto video fornito da [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

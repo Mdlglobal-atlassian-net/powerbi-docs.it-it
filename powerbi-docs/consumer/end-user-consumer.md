@@ -2,7 +2,6 @@
 title: Che cos'è un "consumer" di Power BI?
 description: Panoramica di Power BI per i consumer (noti anche come utenti finali o utenti aziendali).
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430280"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863816"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Servizio Power BI per i consumer
 
@@ -59,6 +58,6 @@ Ciò non significa che non è possibile salvare le modifiche apportate. Le modif
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Visualizzare la presentazione del servizio Power BI per i consumer](end-user-reading-view.md)    
-[Formazione per il servizio Power BI per i consumer](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[Formazione per il servizio Power BI per i consumer](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
 [Terminologia e concetti per i *consumer* di Power BI](end-user-basic-concepts.md)    
 

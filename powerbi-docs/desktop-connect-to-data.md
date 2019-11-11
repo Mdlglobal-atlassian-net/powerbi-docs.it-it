@@ -2,7 +2,6 @@
 title: Connettersi ai dati in Power BI Desktop
 description: Connettersi ai dati in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,15 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a582eb5c160685784c6db497353f92d2dd3d2cf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514131"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878494"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Connettersi ai dati in Power BI Desktop
-Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
+Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](https://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
 
 In Power BI Desktop sono disponibili origini dati *di ogni tipo* . La figura seguente mostra come connettersi ai dati, selezionando la scheda **File** della barra multifunzione e quindi facendo clic su **Recupera dati \> Altro**.
 
@@ -32,7 +31,7 @@ Si supponga di andare in pensione e di volere abitare in un luogo con clima mite
 
 In ogni caso, si troverà una risorsa Web che offre dati interessanti su questi argomenti e altro ancora:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Selezionare **Recupera dati \> Web** e digitare l'indirizzo.
 
@@ -75,7 +74,7 @@ Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capac
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   
 
-Per fornire commenti e suggerimenti, usare la voce di menu **Invia un'idea** in Power BI Desktop oppure visitare [Commenti e suggerimenti della community](http://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Saremo lieti di rispondere a qualsiasi domanda.
+Per fornire commenti e suggerimenti, usare la voce di menu **Invia un'idea** in Power BI Desktop oppure visitare [Commenti e suggerimenti della community](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback). Saremo lieti di rispondere a qualsiasi domanda.
 
 ![](media/desktop-connect-to-data/sendfeedback.png)
 

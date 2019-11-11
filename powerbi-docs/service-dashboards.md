@@ -2,7 +2,6 @@
 title: Introduzione ai dashboard per le finestre di progettazione di Power BI
 description: I dashboard sono una funzionalità chiave del servizio Power BI. I dashboard sono costituiti da una singola pagina, spesso chiamata area di disegno, che offre una narrazione tramite le visualizzazioni.
 author: maggieMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019602"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872752"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard di Power BI per i progettisti
 

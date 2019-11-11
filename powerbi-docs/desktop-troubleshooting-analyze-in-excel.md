@@ -2,7 +2,6 @@
 title: Risoluzione dei problemi di Analizza in Excel in Power BI Desktop
 description: Soluzioni a problemi comuni relativi ad Analizza in Excel
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: a2116f2146072590c4cbcc7f41d941950d9692f0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543976"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865770"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Risoluzione dei problemi di Analizza in Excel
 
@@ -24,7 +23,7 @@ Quando si usa Analizza in Excel, a volte si ottiene un risultato imprevisto oppu
 > [!NOTE]
 > È disponibile una pagina separata per la descrizione e l'abilitazione di [Analizza in Excel](service-analyze-in-excel.md).
 > 
-> Se si verifica uno scenario diverso da quelli elencati di seguito e che causa problemi, è possibile richiedere ulteriore assistenza sul [sito della community](http://community.powerbi.com/) oppure creare un [ticket di supporto](https://powerbi.microsoft.com/support/).
+> Se si verifica uno scenario diverso da quelli elencati di seguito e che causa problemi, è possibile richiedere ulteriore assistenza sul [sito della community](https://community.powerbi.com/) oppure creare un [ticket di supporto](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -40,7 +39,7 @@ Questo articolo contiene le sezioni seguenti per la risoluzione dei problemi:
 * Impossibile trascinare elementi nell'area Valori della tabella pivot (nessuna misura)
 
 ## <a name="update-excel-libraries-for-the-ole-db-provider"></a>Aggiornare le librerie di Excel per il provider OLE DB
-Per usare **Analizza in Excel**, il computer deve avere un provider OLE DB AS corrente installato. Questo [post della community](http://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081) è un'ottima fonte per verificare l'installazione del provider OLE DB o per scaricare una versione recente.
+Per usare **Analizza in Excel**, il computer deve avere un provider OLE DB AS corrente installato. Questo [post della community](https://community.powerbi.com/t5/Service/Analyze-in-Excel-Initialization-of-the-data-source-failed/m-p/30837#M8081) è un'ottima fonte per verificare l'installazione del provider OLE DB o per scaricare una versione recente.
 
 Le librerie di Excel devono corrispondere alla versione di Windows in termini di livello di bit. Se si usa Windows a 64 bit è necessario installare il provider OLE DB a 64 bit.
 

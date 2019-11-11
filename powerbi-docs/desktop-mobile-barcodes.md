@@ -3,18 +3,17 @@ title: Contrassegnare un campo di codice a barre in Power BI Desktop per disposi
 description: Quando si contrassegna un campo di codice a barre nel modello in Power BI Desktop, è possibile filtrare automaticamente i dati in base ai codici a barre nell'app di Power BI o in un iPhone.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: 43d722e6667114ce5c3705270a0b55b541685108
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61293597"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866595"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Contrassegnare codici a barre in Power BI Desktop per dispositivi mobili
 
@@ -48,5 +47,5 @@ Questi sono i codici a barre riconosciuti da Power BI se contrassegnati in un re
 * [Scansionare un codice a barre dall'app Power BI nell'iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md)
 * [Problemi di scansione dei codici a barre in un iPhone](consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Categorizzazione dei dati in Power BI Desktop](desktop-data-categorization.md)  
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

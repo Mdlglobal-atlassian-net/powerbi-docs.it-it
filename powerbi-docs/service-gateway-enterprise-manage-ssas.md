@@ -2,7 +2,6 @@
 title: Gestire l'origine dati - Analysis Services
 description: Come gestire il gateway dati locale e le origini dati che vi appartengono. Questo argomento è per Analysis Services in modalità tabulare e multidimensionale.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 02036d8b8fe35729a97a18dc5e058805d089b128
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 646bbc2e1923c3c325fce4c8f745e6b9914133f2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730195"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881666"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gestire l'origine dati - Analysis Services
 
@@ -189,7 +188,7 @@ Ogni volta che un utente interagisce con Analysis Services, il nome utente effet
 
 Questo indirizzo di posta elettronica deve corrispondere a un UPN definito all'interno del dominio di Active Directory locale. L'UPN è una proprietà di un account di Active Directory. Per accedere al server, questo account di Windows deve quindi essere presente in un ruolo di Analysis Services. Se in Active Directory non viene rilevata alcuna corrispondenza, non è possibile eseguire l'accesso.
 
-Analysis Services può anche fornire filtri basati su questo account che possono usare la sicurezza basata sui ruoli o la sicurezza a livello di riga.
+Analysis Services può anche fornire filtri basati su questo account. che possono usare la sicurezza basata sui ruoli o la sicurezza a livello di riga.
 
 ## <a name="role-based-security"></a>Sicurezza basata sui ruoli
 
@@ -284,5 +283,5 @@ Se l'utente corrente è presente nella scheda **Utenti** dell'origine dati confi
 * [Risoluzione dei problemi del gateway dati locale](/data-integration/gateway/service-gateway-tshoot)
 * [Risolvere i problemi relativi ai gateway - Power BI](service-gateway-onprem-tshoot.md)
 
-Altre domande? Provare la [Community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare la [Community di Power BI](https://community.powerbi.com/).
 

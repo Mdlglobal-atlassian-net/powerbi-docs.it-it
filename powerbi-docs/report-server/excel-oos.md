@@ -3,18 +3,17 @@ title: Ospitare cartelle di lavoro di Excel tramite Office Online Server (OOS) -
 description: Oltre a visualizzare i report di Power BI nel portale Web, Server di report di Power BI consente di ospitare cartelle di lavoro di Excel tramite Office Online Server (OOS).
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 5585750fcd5e6237f3cb00591cf5841f91393b84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769578"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874099"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configurare il server di report per l'hosting di cartelle di lavoro di Excel tramite Office Online Server (OOS)
 
@@ -54,7 +53,7 @@ Seguire queste procedure sul server che eseguirà Office Online Server. Il serve
 
 Se si prevede di usare funzionalità di Excel Online che utilizzano l'accesso a dati esterni, ad esempio PowerPivot, si noti che Office Online Server deve trovarsi nella stessa foresta di Active Directory in cui si trovano gli utenti ed eventuali origini dati esterne a cui si prevede di accedere tramite l'autenticazione basata su Windows.
 
-1. Scaricare Office Online Server dal [Volume Licensing Service Center (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). Il download è disponibile sotto i prodotti Office nel portale di VLSC. Per finalità di sviluppo, è possibile scaricare Office Online Server dai download per gli abbonati MSDN.
+1. Scaricare Office Online Server dal [Volume Licensing Service Center (VLSC)](https://go.microsoft.com/fwlink/p/?LinkId=256561). Il download è disponibile sotto i prodotti Office nel portale di VLSC. Per finalità di sviluppo, è possibile scaricare Office Online Server dai download per gli abbonati MSDN.
 2. Eseguire Setup.exe.
 3. Nella pagina **Leggi le Condizioni di licenza software Microsoft** selezionare **Accetto i termini del contratto** e quindi selezionare **Continua**.
 4. Nella pagina **Scegliere il percorso del file** selezionare la cartella in cui installare i file di Office Online Server, ad esempio C:\Programmi\Microsoft Office Web Apps\* e quindi selezionare **Installa ora**. Se la cartella specificata non esiste, verrà creata automaticamente dal programma di installazione.
@@ -69,7 +68,7 @@ I Language Pack di Office Online Server consentono agli utenti di visualizzare i
 
 Per installare i Language Pack, seguire questa procedura.
 
-1. Scaricare i Language Pack di Office Online Server dall'[Area download Microsoft](http://go.microsoft.com/fwlink/p/?LinkId=798136).
+1. Scaricare i Language Pack di Office Online Server dall'[Area download Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=798136).
 2. Eseguire **wacserverlanguagepack.exe**.
 3. Nella pagina **Leggi le Condizioni di licenza software Microsoft** della procedura guidata del Language Pack di Office Online Server selezionare **Accetto i termini del contratto** e quindi selezionare **Continua**.
 4. Al termine dell'installazione di Office Online Server, selezionare **Chiudi**.
@@ -86,7 +85,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parametri**
 
-* **–InternalURL** è il nome di dominio completo del server che esegue Office Online Server, ad esempio `http://servername.contoso.com`.
+* **–InternalURL** è il nome di dominio completo del server che esegue Office Online Server, ad esempio `https://servername.contoso.com`.
 * **–ExternalURL** è il nome di dominio completo accessibile su Internet.
 * **–CertificateName** è il nome descrittivo del certificato.
 
@@ -95,12 +94,12 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 Usare il comando New-OfficeWebAppsFarm per creare una nuova farm di Office Online Server costituita da un singolo server, come mostrato nell'esempio seguente.
 
 ```powershell
-New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
+New-OfficeWebAppsFarm -InternalURL "https://servername" -AllowHttp
 ```
 
 **Parametri**
 
-* **–InternalURL** è il nome del server che esegue Office Online Server, ad esempio `http://servername`.
+* **–InternalURL** è il nome del server che esegue Office Online Server, ad esempio `https://servername`.
 * **–AllowHttp** configura la farm per l'uso di HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Verificare che la farm di Office Online Server sia stata creata correttamente
@@ -168,7 +167,7 @@ Per evitare problemi relativi al firewall, potrebbe essere necessario aprire le 
 
 ## <a name="configure-power-bi-report-server-to-use-the-oos-server"></a>Configurare il Server di report di Power BI per l'uso del server di Office Online Server
 
-Nella pagina **Generale** di **Impostazioni del sito** immettere l'URL di individuazione di Office Online Server. L'URL di individuazione di Office Online Server corrisponde al valore *InternalUrl*, usato durante la distribuzione del server di Office Online Server, seguito da */hosting/discovery*. Ad esempio, `http://servername/hosting/discovery`, per HTTP. E `https://server.contoso.com/hosting/discovery` per HTTPS.
+Nella pagina **Generale** di **Impostazioni del sito** immettere l'URL di individuazione di Office Online Server. L'URL di individuazione di Office Online Server corrisponde al valore *InternalUrl*, usato durante la distribuzione del server di Office Online Server, seguito da */hosting/discovery*. Ad esempio, `https://servername/hosting/discovery`, per HTTP. E `https://server.contoso.com/hosting/discovery` per HTTPS.
 
 Per passare a **Impostazioni del sito**, selezionare l'**icona a forma di ingranaggio** in alto a destra e quindi selezionare **Impostazioni del sito**.
 
@@ -187,6 +186,6 @@ Dopo avere immesso l'URL di individuazione e avere selezionato **Applica**, la s
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

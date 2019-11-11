@@ -3,25 +3,24 @@ title: Domande frequenti su Power BI Premium
 description: Sfogliare un elenco di domande e risposte frequenti relative all'offerta Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: f7d23c291e77ebacd3ed19a14ed7ce2921da5673
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31335f01bd91355587634afbde9a10df5689226b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073319"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881176"
 ---
 # <a name="power-bi-premium-faq"></a>Domande frequenti su Power BI Premium
 
 Questo articolo contiene le risposte alle domande frequenti su Power BI Premium. Per una panoramica, vedere [Che cos'è Power BI Premium?](service-premium-what-is.md).
 
-* Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
+* Per altre domande, [provare a rivolgersi alla community di Power BI](https://community.powerbi.com/).
 * Ci sono ancora problemi? Visitare la [pagina del supporto tecnico di Power BI](https://powerbi.microsoft.com/support/).
 
 **Che cos'è Power BI Premium?**  

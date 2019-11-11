@@ -2,7 +2,6 @@
 title: Indicazioni per la distribuzione di un gateway dati per Power BI
 description: Procedure consigliate e considerazioni per la distribuzione di un gateway per Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729980"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881680"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Indicazioni per la distribuzione di un gateway dati per Power BI
 
@@ -27,7 +26,7 @@ Per informazioni su come scaricare, installare, configurare e gestire il gateway
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Considerazioni sull'installazione per il gateway dati locale
 
-Prima di installare il gateway dati locale per il servizio cloud Power BI, è necessario tenere presenti alcune considerazioni, descritte nelle sezioni seguenti.
+Prima di installare il gateway dati locale per il servizio cloud Power BI, è necessario tenere presenti alcune considerazioni, Le sezioni seguenti descrivono queste considerazioni.
 
 ### <a name="number-of-users"></a>Numero di utenti
 
@@ -55,7 +54,7 @@ Di seguito vengono indicati i fattori da considerare per ogni opzione.
 
 Per i requisiti di installazione del computer, vedere i [requisiti di installazione](/data-integration/gateway/service-gateway-install#requirements) del gateway dati locale.
 
-### <a name="location"></a>Posizione
+### <a name="location"></a>Località
 
 La posizione di installazione del gateway può avere un impatto significativo sulle prestazioni delle query, quindi verificare che il gateway, i percorsi delle origini dati e il tenant di Power BI siano il più vicino possibile tra loro per ridurre al minimo la latenza di rete. Per determinare la posizione del tenant di Power BI, nel servizio Power BI selezionare l'icona **?** nell'angolo in alto a destra e quindi scegliere **Informazioni su Power BI**.
 
@@ -69,5 +68,5 @@ Se si intende usare il gateway Power BI con Azure Analysis Services, verificare 
 * [Risolvere i problemi relativi ai gateway - Power BI](service-gateway-onprem-tshoot.md)  
 * [Domande frequenti sul gateway dati locale - Power BI](service-gateway-power-bi-faq.md)  
 
-Altre domande? Provare la [Community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare la [Community di Power BI](https://community.powerbi.com/).
 

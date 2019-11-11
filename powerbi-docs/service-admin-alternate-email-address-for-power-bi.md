@@ -2,7 +2,6 @@
 title: Usare un indirizzo di posta elettronica alternativo
 description: Usare un indirizzo di posta elettronica alternativo
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 88432f55fc8cfeefa07b66ea68437bbb23f12531
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6549ec04d8ec47381b4639d15242e909929b52de
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64906631"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858080"
 ---
 # <a name="use-an-alternate-email-address"></a>Usare un indirizzo di posta elettronica alternativo
 
@@ -70,4 +69,4 @@ Power BI seleziona l'indirizzo di posta elettronica da usare in base alla sequen
 
 1. Se non è presente nessuna delle condizioni precedenti viene usato l'indirizzo UPN.
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391507"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783558"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Uso dei comandi rapidi di Siri nell'app Power BI per dispositivi mobili iOS (anteprima)
 
@@ -66,7 +66,7 @@ Per eliminare un comando rapido, andare all'elemento e dal menu delle azioni (..
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni sull'app per dispositivi mobili Power BI, eseguire le operazioni seguenti: 
 
-* Scaricare l'[app Power BI per dispositivi mobili iPhone](http://go.microsoft.com/fwlink/?LinkId=522062)
+* Scaricare l'[app Power BI per dispositivi mobili iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
 * Seguire [@MSPowerBI su Twitter](https://twitter.com/MSPowerBI)
-* Partecipare alla conversazione nella [Community di Power BI](http://community.powerbi.com/)
+* Partecipare alla conversazione nella [Community di Power BI](https://community.powerbi.com/)
 
