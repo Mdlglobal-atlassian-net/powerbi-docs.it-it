@@ -2,7 +2,6 @@
 title: Informazioni sul ruolo di amministratore di Power BI
 description: Questo articolo descrive il ruolo di amministratore del servizio Power BI e illustra come usarlo nell'organizzazione.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b4d2382f89c48f20767cf72bc0468589c366cfe
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 900734a027a0f1af76f93709f80eec8d8e8b3108
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256427"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856720"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Informazioni sul ruolo di amministratore del servizio Power BI
 
@@ -111,4 +110,4 @@ Per il ruolo di quell'utente dovrebbe risultare **Amministratore del servizio Po
 [Amministrazione di Power BI nell'organizzazione](service-admin-administering-power-bi-in-your-organization.md)  
 [Portale di amministrazione di Power BI](service-admin-portal.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

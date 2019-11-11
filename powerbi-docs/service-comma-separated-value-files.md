@@ -2,7 +2,6 @@
 title: Ottenere dati da file con valori delimitati da virgole (CSV)
 description: Informazioni su come ottenere dati dai file CSV in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513320"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855534"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Ottenere dati da file con valori delimitati da virgole (CSV)
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-I file con valori delimitati da virgole, spesso noti come file CSV, sono semplici file di testo contenenti righe di dati in cui ogni valore è separato da una virgola. Questi tipi di file possono contenere grandi quantità di dati all'interno di un file di dimensioni relativamente ridotte, il che li rende un'origine dati ideale per Power BI. È possibile scaricare un file CSV di esempio [qui](http://go.microsoft.com/fwlink/?LinkID=619356).
+I file con valori delimitati da virgole, spesso noti come file CSV, sono semplici file di testo contenenti righe di dati in cui ogni valore è separato da una virgola. Questi tipi di file possono contenere grandi quantità di dati all'interno di un file di dimensioni relativamente ridotte, il che li rende un'origine dati ideale per Power BI. È possibile scaricare un file CSV di esempio [qui](https://go.microsoft.com/fwlink/?LinkID=619356).
 
 Se si ha un file CSV, è necessario scaricarlo nel sito Power BI come set di dati in cui è possibile iniziare l'esplorazione dei dati, creare alcuni dashboard e condividere informazioni con altri utenti.
 
