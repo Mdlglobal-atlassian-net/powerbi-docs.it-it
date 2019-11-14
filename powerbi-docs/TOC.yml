@@ -119,6 +119,8 @@
           items:
             - name: Origini dati in Power BI Desktop
               href: desktop-data-sources.md
+            - name: Connettersi a LinkedIn Sales Navigator (anteprima)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Connettersi a una pagina Web in base ad esempi (anteprima)
               href: desktop-connect-to-web-by-example.md
             - name: Connettersi ai set di dati nel servizio Power BI
@@ -201,6 +203,8 @@
           items:
             - name: Combinare file binari
               href: desktop-combine-binaries.md
+            - name: Usare Informazioni dettagliate sull'intelligenza artificiale in Power BI Desktop (anteprima)
+              href: desktop-ai-insights.md
         - name: Modellare i dati
           items:
             - name: Categorizzazione dei dati in Power BI Desktop
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Grafico combinato in Power BI
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: Albero di scomposizione in Power BI (anteprima)
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Grafici ad anello in Power BI
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Mappe colorate (cloroplete) in Power BI
@@ -405,6 +411,8 @@
       items:
         - name: Tipi di dati in Power BI Desktop
           href: desktop-data-types.md
+        - name: Usare la barra multifunzione aggiornata in Power BI Desktop (anteprima)
+          href: desktop-ribbon.md
         - name: Scelte rapide dell'editor formule per Power BI Desktop
           href: desktop-formula-editor.md
         - name: Livelli di privacy di Power BI Desktop
