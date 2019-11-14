@@ -381,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Grafici a cascata in Power BI
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: Creare linee di riferimento dinamiche
-              href: service-analytics-pane.md
         - name: Linguaggio naturale
           items:
             - name: Introduzione a Domande e risposte
