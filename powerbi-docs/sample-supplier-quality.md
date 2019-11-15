@@ -2,7 +2,6 @@
 title: 'Esempio di analisi della qualità dei fornitori per Power BI: Presentazione'
 description: 'Esempio di analisi della qualità dei fornitori per Power BI: Presentazione'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621326"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858425"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della qualità dei fornitori per Power BI: Presentazione
 
@@ -59,11 +58,11 @@ Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di cont
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare l'esempio di analisi della qualità dei fornitori come [file con estensione pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), progettato per l'uso con Power BI Desktop.
+In alternativa, è possibile scaricare l'esempio di analisi della qualità dei fornitori come [file con estensione pbix](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), progettato per l'uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529779). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529779). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tempo di inattività causato da materiali difettosi
 In questa sezione viene analizzato il tempo di inattività causato da materiali difettosi e vengono individuati i fornitori responsabili.  
@@ -94,7 +93,7 @@ In questa sezione viene analizzato il tempo di inattività causato da materiali 
     ![Grafico ad albero Downtime (min) by Vendor](media/sample-supplier-quality/supplier5.png)  
 
    Da questo grafico ad albero si vede che gli otto fornitori principali corrispondono agli otto blocchi a sinistra del grafico. Si osserva anche che sono responsabili di circa il 50% del tempo di inattività complessivo.  
-3. Selezionare **Esempio di analisi della qualità dei fornitori** nella barra di spostamento superiore per tornare al dashboard.
+3. Selezionare **Esempio di analisi della qualità dei fornitori** nel riquadro di spostamento superiore per tornare al dashboard.
 
 ### <a name="comparing-plants"></a>Confronto tra stabilimenti
 In questa sezione viene identificato lo stabilimento che offre le prestazioni migliori in termini di gestione dei materiali difettosi e che, di conseguenza, presenta un minor tempo di inattività.  
@@ -113,7 +112,7 @@ In questa sezione viene identificato lo stabilimento che offre le prestazioni mi
 3. Selezionare la bolla **Logistics** nel grafico a bolle e osservare gli stabilimenti di Springfield e Naperville, IL. Naperville sembra ottenere risultati migliori nella gestione dei materiali difettosi perché ha un alto numero di scarti, ma un impatto ridotto rispetto a Springfield.  
 
    ![Selezionare Logistics](media/sample-supplier-quality/supplier8.png)  
-4. Selezionare **Esempio di analisi della qualità dei fornitori** nella barra di spostamento superiore per tornare al dashboard.
+4. Selezionare **Esempio di analisi della qualità dei fornitori** nel riquadro di spostamento superiore per tornare al dashboard.
 
 ## <a name="which-material-type-is-best-managed"></a>Quale tipo di materiale viene gestito meglio?
 Il tipo di materiale che consente una gestione migliore è quello con il tempo di inattività minore o privo di impatti, indipendentemente dalla quantità di difetti.
@@ -138,7 +137,7 @@ Il tipo di materiale che consente una gestione migliore è quello con il tempo d
 
     ![Grafico Total Defect Qty by Month and Year](media/sample-supplier-quality/supplier11.png)  
 3. La presenza di più difetti si traduce in un tempo di inattività maggiore? Porre domande nella casella Domande e risposte per ottenere le informazioni desiderate.  
-4. Selezionare **Esempio di analisi della qualità dei fornitori** nella barra di spostamento superiore per tornare al dashboard.  
+4. Selezionare **Esempio di analisi della qualità dei fornitori** nel riquadro di spostamento superiore per tornare al dashboard.  
 5. Poiché si sa che le materie prime hanno il numero di difetti più alto, digitare *show material types, year and total defect qty* nella casella della domanda.  
 
     I difetti delle materie prime erano molto più numerosi nel 2014 rispetto al 2013.  

@@ -2,7 +2,6 @@
 title: 'Esempio di analisi delle risorse umane: Presentazione'
 description: 'Esempio di analisi delle risorse umane per Power BI: Presentazione'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462343"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858853"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle risorse umane per Power BI: Presentazione
 
@@ -58,11 +57,11 @@ Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di cont
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare l'esempio di analisi delle risorse umane come [file con estensione pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop.
+In alternativa, è possibile scaricare l'esempio di analisi delle risorse umane come [file con estensione pbix](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529780). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529780). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 ## <a name="new-hires"></a>Nuovi assunti
 Esaminare prima di tutto i nuovi assunti.
@@ -87,7 +86,7 @@ Esaminare prima di tutto i nuovi assunti.
 
 4. Selezionare le diverse fasce di età e i sessi nei grafici per esplorare le relazioni tra età, sesso, regione e gruppo etnico.
 
-5. Selezionare **Esempio di analisi delle risorse umane** nella barra di spostamento superiore per tornare al dashboard.
+5. Selezionare **Esempio di analisi delle risorse umane** nel riquadro di spostamento superiore per tornare al dashboard.
 
    ![Tornare al dashboard](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Verrà ora esaminato il report in Visualizzazione di modifica. È possibile modi
 
 8. È possibile seguire gli stessi passaggi anche per il grafico a torta **Active Employee Count by Gender** visualizzando gli ex dipendenti invece che i dipendenti attivi. Osservare i dati di separazione volontaria per sesso per determinare se è possibile reperire altre informazioni.
 
-9. Selezionare **Esempio di analisi delle risorse umane** nella barra di spostamento superiore per tornare al dashboard. È possibile scegliere di salvare le modifiche apportate al report.
+9. Selezionare **Esempio di analisi delle risorse umane** nel riquadro di spostamento superiore per tornare al dashboard. È possibile scegliere di salvare le modifiche apportate al report.
 
 ## <a name="bad-hires"></a>Assunzioni non andate a buon fine
 L'ultima area da esplorare è quella delle assunzioni non andate a buon fine, ossia quei dipendenti la cui collaborazione con l'azienda non è durata più di 60 giorni. Le assunzioni avvengono rapidamente, ma i candidati assunti sono buoni candidati?
@@ -147,7 +146,7 @@ L'ultima area da esplorare è quella delle assunzioni non andate a buon fine, os
 
 3. Osservando il grafico ad anello **Bad Hires by Gender** e selezionando diverse aree nel filtro dei dati **Region**, è possibile notare che l'area orientale è l'unica con più donne che uomini tra le assunzioni non andate a buon fine.  
 
-4. Per tornare al dashboard, selezionare il relativo nome nella barra di spostamento superiore.
+4. Per tornare al dashboard, selezionarne il nome nel riquadro di spostamento superiore.
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>Porre una domanda nella casella Domande e risposte del dashboard
 Nella [casella Domande e risposte](power-bi-tutorial-q-and-a.md) del dashboard è possibile porre una domanda sui dati usando il linguaggio naturale. Domande e risposte riconosce le parole digitate e determina la posizione nel set di dati in cui trovare la risposta.

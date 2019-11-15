@@ -1,8 +1,7 @@
 ---
-title: Attendibili i connettori di terze parti in Power BI
-description: Come rendere attendibile un connettore di terze parti firmato in Power BI
+title: Connettori di terze parti attendibili in Power BI
+description: Informazioni su come considerare attendibile un connettore di terze parti firmato in Power BI
 author: cpopell
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,41 +9,41 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 30b7457c6149320c43f24b967a842382821b01b1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ac3f795d6a80d5f143daf68436f41f5771b3c2bb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65607787"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876170"
 ---
-# <a name="trusting-third-party-connectors"></a>Concessione dell'attendibilità i connettori di terze parti
+# <a name="trusting-third-party-connectors"></a>Considerare attendibili i connettori di terze parti
 
-## <a name="why-do-you-need-trusted-third-party-connectors"></a>Il motivo per cui occorre connettori di terze parti attendibili?
+## <a name="why-do-you-need-trusted-third-party-connectors"></a>Perché sono necessari connettori di terze parti attendibili?
 
-In Power BI, è generalmente consigliabile mantenere a livello di 'sicurezza estensione dati' a un livello superiore, che impedisce il caricamento di codice non certificate da Microsoft. Tuttavia, potrebbero esserci molti i casi in cui si desidera caricare connettori specifici: quelli che già scritto o quelli forniti da un consulente o un fornitore all'esterno del percorso di certificazione Microsoft.
+In Power BI è in genere consigliabile mantenere l'opzione relativa alla sicurezza dell'estensione per i dati impostata su un livello più elevato per impedire il caricamento del codice non certificato da Microsoft. In alcuni casi, però, può essere necessario caricare connettori specifici, ovvero quelli scritti personalmente o forniti da un consulente o da un fornitore privo di certificazione Microsoft.
 
-Lo sviluppatore di un determinato oggetto connector possibile firmarla con un certificato e fornire le informazioni necessarie per caricarlo in modo sicuro senza riduzione delle impostazioni di sicurezza.
+Lo sviluppatore di un determinato connettore può firmarlo con un certificato e fornire le informazioni necessarie per caricarlo in modo sicuro senza che sia necessario ridurre le impostazioni di sicurezza.
 
-Se si desidera ottenere maggiori informazioni sulle impostazioni di sicurezza, è possibile leggere riguardo [qui](https://docs.microsoft.com/power-bi/desktop-connector-extensibility).
+Per altre informazioni sulle impostazioni di sicurezza, vedere [questo articolo](https://docs.microsoft.com/power-bi/desktop-connector-extensibility).
 
-## <a name="using-the-registry-to-trust-third-party-connectors"></a>Usando il Registro di sistema di considerare attendibili i connettori di terze parti
+## <a name="using-the-registry-to-trust-third-party-connectors"></a>Uso del Registro di sistema per considerare attendibili i connettori di terze parti
 
-Concessione dell'attendibilità connettori di terze parti in Power BI avviene elencando l'identificazione personale del certificato che si desidera considerare attendibile un valore del Registro di sistema. Se questa identificazione personale corrisponda all'identificazione personale del certificato da caricare nel connettore, sarà in grado di caricarla nel livello di protezione 'Consigliati' di Power BI. 
+Per verificare l'attendibilità dei connettori di terze parti in Power BI, è possibile indicare l'identificazione personale del certificato da considerare attendibile in un valore specificato del Registro di sistema. Se questa identificazione personale corrisponde a quella del certificato nel connettore che si vuole caricare, sarà possibile caricarlo nel livello di sicurezza consigliato di Power BI. 
 
-Il percorso del Registro di sistema è HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI Desktop. Assicurarsi che il percorso esista o crearla. Abbiamo scelto questo percorso a causa del principalmente controllati da criteri IT, nonché che richiedono accesso di amministrazione di computer locale da modificare. 
+Il percorso del Registro di sistema è HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Power BI Desktop. Assicurarsi che il percorso esista oppure crearlo. È stato scelto questo percorso perché viene controllato principalmente da criteri IT e perché per modificarlo richiede l'accesso come amministratore del computer locale. 
 
-![Registro di sistema di Power BI Desktop senza chiavi di terze parti attendibili impostare](media/desktop-trusted-third-party-connectors/desktoptrustedthird1.png)
+![Registro di sistema di Power BI Desktop senza chiavi di terze parti attendibili impostate](media/desktop-trusted-third-party-connectors/desktoptrustedthird1.png)
 
-Aggiungere un nuovo valore nel percorso specificato in precedenza. Il tipo deve essere "Valore multistringa" (REG_MULTI_SZ) e deve essere chiamato "TrustedCertificateThumbprints" 
+Aggiungere un nuovo valore nel percorso specificato in precedenza. Il tipo deve essere "Valore multistringa" (REG_MULTI_SZ) e il nome deve essere "TrustedCertificateThumbprints". 
 
-![Registro di sistema di Power BI Desktop con una voce per i connettori di terze parti attendibili ma non contiene chiavi](media/desktop-trusted-third-party-connectors/desktoptrustedthird2.png)
+![Registro di sistema di Power BI Desktop con una voce per i connettori di terze parti attendibili ma senza chiavi](media/desktop-trusted-third-party-connectors/desktoptrustedthird2.png)
 
-Aggiungere le identificazioni personali dei certificati di cui che si vuole considerare attendibili. È possibile aggiungere più certificati usando "\0" come un delimitatore o nell'editor del Registro di sistema, a destra fare clic su -> modificare e inserire ogni identificazione personale in una nuova riga. Identificazione personale di esempio viene eseguita da un certificato autofirmato. 
+Aggiungere le identificazioni personali dei certificati che si vuole considerare attendibili. È possibile aggiungere più certificati specificando "\0" come delimitatore. In alternativa, nell'editor del Registro di sistema fare clic con il pulsante destro del mouse e quindi modificare e inserire ogni identificazione personale su una nuova riga. L'identificazione personale di esempio è ottenuta da un certificato autofirmato. 
 
- ![Registro di sistema di Power BI Desktop con un set di chiavi di terze parti attendibile](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
+ ![Registro di sistema di Power BI Desktop con una chiave di terze parti attendibile impostata](media/desktop-trusted-third-party-connectors/desktoptrustedthird3.png)
 
-Se è stata seguita correttamente le istruzioni e viene fornito l'identificazione personale corretta per lo sviluppatore, dovrebbe ora essere in grado di attendibilità in modo sicuro i connettori firmati con il certificato associato.
+Se sono state seguite correttamente le istruzioni e l'identificazione personale corretta è stata fornita dallo sviluppatore, dovrebbe essere possibile proteggere in modo sicuro i connettori firmati con il certificato associato.
 
 ## <a name="how-to-sign-connectors"></a>Come firmare i connettori
 
-Se si dispone di un connettore è o uno sviluppatore devi accedere, è possibile leggere informazioni nella documentazione di Power Query [qui](https://docs.microsoft.com/power-query/handlingconnectorsigning).
+Per informazioni su come firmare un connettore, vedere [questo articolo](https://docs.microsoft.com/power-query/handlingconnectorsigning) nella documentazione di Power Query.

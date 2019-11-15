@@ -2,7 +2,6 @@
 title: Area di lavoro contenuto archiviato di Power BI
 description: Area di lavoro contenuto archiviato di Power BI dopo la gestione del tenant di Office 365
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 891ffffd885e2b5d59cba64e6e99ce7fe3cf811b
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175472"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873554"
 ---
 # <a name="power-bi-archived-workspace"></a>Area di lavoro contenuto archiviato di Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "71175472"
 
 Con Power BI, chiunque può iscriversi e iniziare a usare il servizio in pochissimi minuti.  In seguito, il reparto IT della propria organizzazione potrebbe scegliere di prendere il controllo della gestione di Power BI per conto degli utenti.  Se si verifica questa acquisizione della proprietà, si trae vantaggio dalla gestione centrale degli utenti e delle autorizzazioni all'interno dell'organizzazione. È anche possibile sfruttare l'accesso semplificato usando lo stesso nome utente e password usati per altri servizi all'interno dell'organizzazione.
 
-Qualsiasi contenuto creato prima che il reparto IT iniziasse a gestire Power BI sarà inserito in un'Area di lavoro contenuto archiviato di Power BI, accessibile dal riquadro di spostamento a sinistra di [Power BI](https://app.powerbi.com). È consigliabile iniziare a creare nell'Area di lavoro personale nuovo contenuto Power BI che è protetto e gestito dal reparto IT della propria organizzazione.  L'area di lavoro contenuto archiviato continuerà a esistere, ma le azioni che è possibile eseguire sul relativo contenuto saranno limitate.  Per rimuovere queste restrizioni, è necessario eseguire la migrazione del contenuto dall'area di lavoro contenuto archiviato all'area di lavoro personale, gestita dal proprio reparto IT.
+Qualsiasi contenuto creato prima che il reparto IT iniziasse a gestire Power BI sarà inserito in un'Area di lavoro contenuto archiviato di Power BI, accessibile dal riquadro di spostamento di [Power BI](https://app.powerbi.com). È consigliabile iniziare a creare nell'Area di lavoro personale nuovo contenuto Power BI che è protetto e gestito dal reparto IT della propria organizzazione.  L'area di lavoro contenuto archiviato continuerà a esistere, ma le azioni che è possibile eseguire sul relativo contenuto saranno limitate.  Per rimuovere queste restrizioni, è necessario eseguire la migrazione del contenuto dall'area di lavoro contenuto archiviato all'area di lavoro personale, gestita dal proprio reparto IT.
 
 ## <a name="restrictions-in-your-archived-workspace"></a>Restrizioni nell'area di lavoro contenuto archiviato
 
@@ -50,5 +49,5 @@ Per continuare a usare Power BI, è consigliabile creare nuovo contenuto nell'ar
 
 * **Dashboard**: i dashboard installati come parte dei pacchetti di contenuto vengono ricreati automaticamente quando si riesegue la connessione al pacchetto di contenuto nell'area di lavoro personale. Se sono stati creati dashboard personalizzati usando il servizio Power BI, creare nuovamente tali dashboard nell'area di lavoro personale.
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

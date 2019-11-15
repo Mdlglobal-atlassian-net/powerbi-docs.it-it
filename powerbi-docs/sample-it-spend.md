@@ -2,7 +2,6 @@
 title: 'Esempio di analisi della spesa IT per Power BI: Presentazione'
 description: 'Esempio di analisi della spesa IT per Power BI: Presentazione'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462258"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873918"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi della spesa IT per Power BI: Presentazione
 
@@ -54,11 +53,11 @@ Non occorre una licenza di Power BI per esplorare gli esempi in Power BI Desktop
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare l'esempio di analisi della spesa IT come [file con estensione pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop.
+In alternativa, è possibile scaricare l'esempio di analisi della spesa IT come [file con estensione pbix](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529783). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529783). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Dashboard di Esempio di analisi della spesa IT
 I due riquadri numerici nella parte sinistra del dashboard, **Var Plan %** (% piano di varianza) e **Variance Latest Estimate % Quarter 3** (% varianza ultima stima - 3° trimestre), offrono una panoramica dell'andamento rispetto ai piani e alla stima dell'ultimo trimestre (LE3 = Latest Estimate Quarter 3). In generale, la varianza rispetto al piano è di circa il 6%. Ma qual è la causa di questa varianza? Quando e dove si verifica e in quale categoria?
@@ -78,7 +77,7 @@ Tuttavia, osservare semplicemente il grafico e trarne delle conclusioni può ess
     A questo punto, occorre esplorare quale categoria negli Stati Uniti è causa della varianza.
 
 ## <a name="ask-questions-of-the-data"></a>Ottenere le risposte dai dati
-1. Selezionare **Esempio di analisi della spesa IT** nella barra di spostamento superiore per tornare al dashboard di esempio.
+1. Selezionare **Esempio di analisi della spesa IT** nel riquadro di spostamento superiore per tornare al dashboard di esempio.
 2. Selezionare **Porre una domanda sui dati**.
 3. Dall'elenco **Domande per iniziare** a sinistra selezionare **what is the plan by IT area** (qual è il piano per area IT).
 

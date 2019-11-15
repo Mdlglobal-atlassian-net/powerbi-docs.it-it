@@ -2,7 +2,6 @@
 title: Esportare report da Power BI in PowerPoint
 description: Informazioni su come esportare un report di Power BI in PowerPoint.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3215dfab54d1537ec5f7ca32ee4bd39b9ef997e5
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 840f2462ea9fc6b2d748b3803445c5ee4b155bdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717017"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862905"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Esportare report da Power BI in PowerPoint
 
@@ -31,7 +30,7 @@ Con Power BI è possibile pubblicare il report in Microsoft PowerPoint e creare 
 Esportare il **report di Power BI** in **PowerPoint** è veloce. Seguire i passaggi descritti nella sezione successiva.
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Esportare il report di Power BI in PowerPoint
-Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla pagina **Home**, da **App** o da qualsiasi altro contenitore dalla barra di spostamento a sinistra.
+Nel servizio Power BI selezionare un report per visualizzarlo nell'area di disegno. È anche possibile selezionare un report dalla pagina **Home**, da **App** o da qualsiasi altro contenitore del riquadro di spostamento.
 
 Quando il report da esportare in PowerPoint è visualizzato nell'area di disegno, selezionare **Esporta** > **PowerPoint** dalla barra dei menu.
 
@@ -60,7 +59,7 @@ Quando si apre il file di PowerPoint esportato da Power BI, si noteranno alcuni 
 
 1. La prima pagina della presentazione include il nome del report, nonché un collegamento per poter **visualizzare in Power BI** il report su cui è basata.
 2. Si ottengono anche alcune informazioni utili sul report. **Ultimo aggiornamento dati** Visualizza la data e l'ora dei dati su cui è basato il report esportato. **Downloaded at** (Data/ora download) indica la data e l'ora in cui il report di Power BI è stato esportato in un file di PowerPoint.
-3. Ogni pagina del report è una diapositiva separata, come mostrato nel riquadro di spostamento a sinistra. 
+3. Ogni pagina del report è una diapositiva separata, come mostrato nel riquadro di spostamento. 
 4. Il rendering del report pubblicato viene eseguito nella lingua delle impostazioni di Power BI oppure in base alle impostazioni locali del browser. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) > **Impostazioni** > **Generale** > **Lingua**. Per altre informazioni, vedere [Lingue e paesi o aree geografiche supportate per Power BI](../supported-languages-countries-regions.md).
 5. La presentazione di PowerPoint include una diapositiva di copertina con l'ora dell'esportazione nel fuso orario corretto.
 

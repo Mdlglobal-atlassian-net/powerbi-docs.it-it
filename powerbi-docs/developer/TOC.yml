@@ -12,7 +12,7 @@
         - name: Panoramica
           items:
             - name: Oggetti visivi in Power BI
-              href: ../power-bi-custom-visuals.md
+              href: power-bi-custom-visuals.md
         - name: Esercitazioni
           items:
             - name: Sviluppare un oggetto visivo di Power BI
@@ -24,11 +24,11 @@
         - name: Concetti
           items:
             - name: Oggetti visivi per le organizzazioni in Power BI
-              href: ../power-bi-custom-visuals-organization.md
+              href: power-bi-custom-visuals-organization.md
             - name: Linee guida per gli oggetti visivi di Power BI
               href: guidelines-powerbi-visuals.md
             - name: Domande frequenti sugli oggetti visivi
-              href: ../power-bi-custom-visuals-faq.md
+              href: power-bi-custom-visuals-faq.md
             - name: Uso delle funzionalità
               href: visuals/capabilities.md
             - name: Mapping di visualizzazione dati
@@ -40,12 +40,12 @@
         - name: Procedure
           items:
             - name: Ottenere la certificazione di un oggetto visivo
-              href: ../power-bi-custom-visuals-certified.md
+              href: power-bi-custom-visuals-certified.md
             - name: Pubblicare oggetti visivi personalizzati in AppSource
               href: office-store.md
             - name: Usare oggetti visivi personalizzati basati su R in Power BI
-              href: ../desktop-r-powered-custom-visuals.md
-            - name: Consentire le interazioni con gli oggetti visivi
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+            - name: Interazioni di oggetti visivi
               href: visuals/visuals-interactions.md
             - name: Aggiungere selezioni
               href: visuals/selection-api.md
@@ -68,9 +68,7 @@
             - name: Abilitare la sincronizzazione dei filtri dei dati
               href: visuals/enable-sync-slicers.md
             - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
-              href: ../power-bi-custom-visuals-troubleshoot.md
-            - name: Eseguire la migrazione alla nuova versione di powerbi-visuals-tools
-              href: visuals/migrate-to-new-tools.md
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Riferimento
           items:
             - name: Pagina di destinazione

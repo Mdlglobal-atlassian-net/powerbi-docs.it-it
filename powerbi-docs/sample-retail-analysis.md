@@ -2,7 +2,6 @@
 title: 'Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione'
 description: 'Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962225"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858559"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi delle vendite al dettaglio per Power BI: Presentazione
 
@@ -54,11 +53,11 @@ Non occorre una licenza di Power BI per esplorare gli esempi in Power BI Desktop
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare Retail Analysis Sample come [file con estensione pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop. 
+In alternativa, è possibile scaricare Retail Analysis Sample come [file con estensione pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529778). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529778). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniziare dal dashboard e aprire il report
 
@@ -78,7 +77,7 @@ Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche
 
    La zona **FD-01** ha il valore medio più elevato per**Sales per Square Foot** e la zona FD-02 ha il valore più basso per **Total Sales Variance** rispetto all'anno precedente. FD-03 e FD-04 hanno le peggiori prestazioni complessive.
 4. Fare clic su singole bolle o altri grafici per visualizzare l'evidenziazione incrociata, che rivela l'impatto delle selezioni.
-5. Per tornare al dashboard, selezionare **Retail Analysis Sample** dalla barra di spostamento superiore.
+5. Per tornare al dashboard, selezionare **Esempio di analisi delle vendite al dettaglio** nel riquadro di spostamento superiore.
 
    ![Barra di spostamento](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. Nel dashboard selezionare il riquadro **This Year's Sales New & Existing Stores**, operazione che equivale a digitare *This year sales* nella casella Domande e risposte.

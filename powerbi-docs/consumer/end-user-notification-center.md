@@ -2,21 +2,20 @@
 title: Visualizzare messaggi nel centro notifiche
 description: Il centro notifiche è un feed sequenziale di informazioni relative all'esperienza utente di Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/24/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: c4feda0e502a9363900901ebe76005219587167b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716947"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863021"
 ---
 # <a name="view-power-bi-notifications"></a>Visualizzare le notifiche di Power BI
 
@@ -31,7 +30,7 @@ In questo video Amanda esamina e gestisce le notifiche e risponde a esse. Seguir
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZMSv5KAlcE" frameborder="0" allowfullscreen></iframe>
 
-
+## <a name="view-your-notifications"></a>Visualizzare le notifiche
 1. Quando si accede a Power BI, al feed vengono aggiunte le nuove notifiche inviate all'utente mentre era offline. Se sono presenti nuove notifiche, Power BI mostra una bolla gialla con il numero di nuovi elementi.
    
    ![Icona di nuova notifica](./media/end-user-notification-center/power-bi-new-notification.png)
@@ -43,9 +42,9 @@ In questo video Amanda esamina e gestisce le notifiche e risponde a esse. Seguir
    ![Centro notifiche](./media/end-user-notification-center/power-bi-notification-center.png)
 4. Per eliminare una notifica, selezionare l'icona X.
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 * [Avvisi per i dati nel servizio Power BI](end-user-alerts.md)
 * [Impostare avvisi per i dati nell'app iPhone (Power BI per iOS)](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Impostare gli avvisi per i dati nell'app Power BI per dispositivi mobili per Windows 10](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

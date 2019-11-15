@@ -2,7 +2,6 @@
 title: Presentazione degli esempi disponibili con Power BI
 description: Pacchetti di contenuto, file PBIX e set di dati di Excel di esempio per Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 49c16e083b2119e94f23a78b10ea014efcd70c3c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858981"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Quali dati di esempio sono disponibili per l'uso con Power BI?
 Non si ha dimestichezza con Power BI e si vorrebbe provarlo, ma non si hanno dati da usare?  Oppure si ha un set di dati ma, non conoscendo ancora il funzionamento di Power BI, si teme di danneggiare in qualche modo il set di dati?
@@ -73,12 +72,12 @@ Questo esempio di settore esamina il canale di vendita di una società di softwa
 
 Questo esempio di settore analizza le metriche principali di una responsabile amministrativa relative ai dirigenti, prodotti e clienti dell'azienda. È possibile esaminare quali fattori influiscono sulla redditività della società.
 
-### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Esempio di analisi delle vendite al dettaglio  ![Esempio di analisi delle vendite al dettaglio](media/sample-datasets/power-bi-rs.png)
+### <a name="retail-analysis-sample--retail-analysis-samplemediasample-datasetspower-bi-rspng"></a>Retail Analysis sample  ![Retail Analysis sample](media/sample-datasets/power-bi-rs.png)
 [Presentazione dell'esempio di analisi delle vendite al dettaglio](sample-retail-analysis.md)
 
 Questo esempio di settore analizza i dati delle vendite al dettaglio relativi ad articoli venduti in più negozi e in più zone. Grazie alle metriche è possibile confrontare le prestazioni dell'anno corrente con quelle dell'anno precedente in diverse aree, tra cui vendite, unità, profitto lordo e scostamento, oltre ad analizzare i nuovi negozi.
 
-### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Esempio di analisi di vendite e marketing  ![Esempio di analisi di vendite e marketing](media/sample-datasets/power-bi-sm.png)
+### <a name="sales-and-marketing-sample--sales-and-marketing-samplemediasample-datasetspower-bi-smpng"></a>Sales and Marketing sample  ![Sales and Marketing sample](media/sample-datasets/power-bi-sm.png)
 [Presentazione dell'esempio di analisi di vendita e marketing](sample-sales-and-marketing.md)
 
 Questo esempio di settore analizza una società di produzione, VanArsdel Ltd. Consente al responsabile marketing di tenere sotto controllo il settore e la quota di mercato della società VanArsdel.  Esaminando l'esempio, è possibile trovare la quota di mercato, i volumi di produzione, le vendite e il sentiment della società.
@@ -116,16 +115,16 @@ Ora che si hanno i dati, si può procedere.  Seguire alcune delle esercitazioni 
 ## <a name="the-power-bi-samples-as-excel-files"></a>Esempi di Power BI come file Excel
 Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella di lavoro di Excel. Le cartelle di lavoro di Excel sono progettate per l'uso con il servizio Power BI.  
 
-1. Scaricare i singoli file usando i collegamenti seguenti oppure [scaricare un file ZIP con tutti i file di esempio](http://go.microsoft.com/fwlink/?LinkId=535020). Per gli utenti avanzati può essere utile scaricare le cartelle di lavoro di Excel per esaminare o modificare i modelli di dati.
+1. Scaricare i singoli file usando i collegamenti seguenti oppure [scaricare un file ZIP con tutti i file di esempio](https://go.microsoft.com/fwlink/?LinkId=535020). Per gli utenti avanzati può essere utile scaricare le cartelle di lavoro di Excel per esaminare o modificare i modelli di dati.
 
-   * [Esempio di analisi delle vendite al dettaglio](http://go.microsoft.com/fwlink/?LinkId=529778)
-   * [Esempio di analisi della qualità dei fornitori](http://go.microsoft.com/fwlink/?LinkId=529779)
-   * [Esempio di analisi delle risorse umane](http://go.microsoft.com/fwlink/?LinkId=529780)
-   * [Esempio di analisi della redditività dei clienti](http://go.microsoft.com/fwlink/?LinkId=529781)
-   * [Esempio di analisi delle opportunità](http://go.microsoft.com/fwlink/?LinkId=529782)
-   * [Esempio di analisi della spesa IT](http://go.microsoft.com/fwlink/?LinkId=529783)
-   * [Esempio di analisi dell'approvvigionamento](http://go.microsoft.com/fwlink/?LinkId=529784)
-   * [Esempio di analisi di vendite e marketing](http://go.microsoft.com/fwlink/?LinkId=529785)
+   * [Esempio di analisi delle vendite al dettaglio](https://go.microsoft.com/fwlink/?LinkId=529778)
+   * [Esempio di analisi della qualità dei fornitori](https://go.microsoft.com/fwlink/?LinkId=529779)
+   * [Esempio di analisi delle risorse umane](https://go.microsoft.com/fwlink/?LinkId=529780)
+   * [Esempio di analisi della redditività dei clienti](https://go.microsoft.com/fwlink/?LinkId=529781)
+   * [Esempio di analisi delle opportunità](https://go.microsoft.com/fwlink/?LinkId=529782)
+   * [Esempio di analisi della spesa IT](https://go.microsoft.com/fwlink/?LinkId=529783)
+   * [Esempio di analisi dell'approvvigionamento](https://go.microsoft.com/fwlink/?LinkId=529784)
+   * [Esempio di analisi di vendite e marketing](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Salvare il file scaricato. La posizione di salvataggio è importante.
 
    * ![Locale](media/sample-datasets/power-bi-local-file2.png) **Locale**: se si salva il file in un'unità locale del computer o in un'altra posizione all'interno dell'organizzazione, da Power BI è possibile importare il file in Power BI. Il file in realtà rimane memorizzato nel disco locale, per cui non viene importato in Power BI. Viene invece creato un nuovo set di dati nel sito di Power BI e i dati, e in alcuni casi, il modello di dati, vengono caricati nel set di dati. Se il file contiene report, verranno visualizzati nel sito Power BI in Report.
@@ -154,7 +153,7 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella 
 
     ![Importa o Connetti](media/sample-datasets/power-bi-import.png)
 9. Se si seleziona **Importa**, Power BI importa la cartella di lavoro e la aggiunge come nuovo set di dati denominato **Procurement Analysis Sample**.  Se la cartella di lavoro contiene fogli, tabelle o intervalli di Power View oppure un modello di dati, Power BI crea anche un report (con lo stesso nome). Inoltre, se non si è già aperto un dashboard, Power BI ne crea automaticamente uno nuovo. Se invece è già aperto un dashboard quando si fa clic su **Recupera dati**, si noterà un nuovo riquadro vuoto nel dashboard.  Selezionando questo riquadro è possibile accedere al report per il set di dati appena aggiunto. Il nuovo contenuto è denominato in base all'esempio ed è contrassegnato da un asterisco giallo.
-10. Quando viene visualizzata la schermata **Il set di dati è pronto** selezionare **Visualizza set di dati** o **Ottieni informazioni rapide** oppure usare la barra di spostamento sinistra di Power BI per trovare e aprire il report o il dashboard associato.  
+10. Quando viene visualizzata la schermata **Il set di dati è pronto** selezionare **Visualizza set di dati** o **Informazioni rapide** oppure usare il riquadro di spostamento di Power BI per trovare e aprire il report o il dashboard associato.  
 
      ![Visualizza set di dati](media/sample-datasets/power-bi-ready.png)
 
@@ -176,15 +175,15 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come file con 
 
 1. Per scaricare i singoli file, usare i collegamenti riportati di seguito. Se si selezionano questi collegamenti il file viene salvato automaticamente nella cartella Download. 
 
-   * [Esempio di analisi delle vendite come file con estensione pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [Esempio di analisi della qualità dei fornitori come file con estensione pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   * [Esempio di analisi delle vendite come file con estensione pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
+   * [Esempio di analisi della qualità dei fornitori come file con estensione pbix](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
    <!-- Previous link doesn't work -->
-   * [Esempio di analisi delle risorse umane come file con estensione pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
-   * [Esempio di analisi della redditività dei clienti come file con estensione pbix](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
-   * [Esempio di analisi delle opportunità come file con estensione pbix](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
-   * [Esempio di analisi della spesa IT come file con estensione pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
-   * [Esempio di analisi di approvvigionamento come file con estensione pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
-   * [Esempio di analisi di vendite e marketing come file con estensione pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+   * [Esempio di analisi delle risorse umane come file con estensione pbix](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
+   * [Esempio di analisi della redditività dei clienti come file con estensione pbix](https://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
+   * [Esempio di analisi delle opportunità come file con estensione pbix](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+   * [Esempio di analisi della spesa IT come file con estensione pbix](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix)
+   * [Esempio di analisi di approvvigionamento come file con estensione pbix](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+   * [Esempio di analisi di vendite e marketing come file con estensione pbix](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
 
 1. Da Power BI Desktop selezionare **File > Apri** e passare alla posizione in cui è stato salvato l'esempio in formato pbix.
 
@@ -198,4 +197,4 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come file con 
 
 [Origini dati per Power BI](service-get-data.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

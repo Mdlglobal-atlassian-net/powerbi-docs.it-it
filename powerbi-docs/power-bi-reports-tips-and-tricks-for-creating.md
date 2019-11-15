@@ -2,7 +2,6 @@
 title: Suggerimenti per la creazione di report straordinari
 description: Suggerimenti e consigli per creare report nel servizio Power BI e in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721346"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860877"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Suggerimenti e consigli per creare report in Power BI Desktop e nel servizio Power BI
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop, nel servizio Power BI *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato.
@@ -163,12 +162,9 @@ DAX è il linguaggio delle formule di calcolo in Power BI Desktop,  ottimizzato 
 
 [Informazioni di riferimento su DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Centro risorse DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Centro risorse DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Servizio Power BI *e* Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Leggere il white paper: [Principi della progettazione di report di Power BI](visuals/power-bi-visualization-best-practices.md)
-Questo documento illustra le procedure consigliate per la progettazione di report in Power BI. Partendo dalla pianificazione, vengono presentati i principi di progettazione applicabili ai report, così come alle pagine e ai singoli oggetti visivi che compongono un report. Molte di queste procedure consigliate sono valide anche per la progettazione di dashboard.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leggere e/o guardare "How to design visually stunning reports (and dashboards) in Power BI" (Come progettare report e dashboard di grande impatto visivo in Power BI)
 Il membro della community Miguel Myers è un Data Scientist oltre che un progettista grafico.
@@ -226,4 +222,4 @@ Ecco alcune pubblicazioni che possono essere utili:
 
 [Report in Power BI](consumer/end-user-reports.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

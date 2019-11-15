@@ -2,7 +2,6 @@
 title: Uso delle visualizzazioni (oggetti visivi) come consumer
 description: Concetti e terminologia di Power BI - Visualizzazioni, oggetti visivi. Che cos'è una visualizzazione o un oggetto visivo di Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379964"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860976"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagire con gli oggetti visivi in report, dashboard e app
 
@@ -52,7 +51,7 @@ Per molte di queste opzioni, l'amministratore o il *progettista* può impedire d
 |[Chiedere a Power BI di cercare fatti o tendenze interessanti](end-user-insights.md) nei dati dell'oggetto visivo.  Questi oggetti visivi generati automaticamente sono chiamati *informazioni dettagliate*.     |    sì     |  per l'intero report, non per i singoli oggetti visivi       | no   |
 |[Visualizzare un solo oggetto visivo alla volta tramite la modalità *messa a fuoco*](end-user-focus.md).     | sì        |   sì      | n/d  |
 |[Cercare l'ultimo aggiornamento dell'oggetto visivo](end-user-fresh.md).     |  sì       |    sì     | n/d  |
-|[Visualizzare un solo oggetto visivo alla volta, senza bordi o barre di spostamento, nella *modalità a schermo intero* o nella modalità *messa a fuoco*](end-user-focus.md).     |   sì      |  sì       | per impostazione predefinita  |
+|[Visualizzare un solo oggetto visivo alla volta, senza bordi o riquadri di spostamento, nella modalità *schermo intero* o *messa a fuoco*](end-user-focus.md).     |   sì      |  sì       | per impostazione predefinita  |
 |[Stampare](end-user-print.md).     |  sì       |   sì      | no  |
 |[Esaminare l'oggetto visivo aggiungendo e modificando i filtri dell'oggetto visivo.](end-user-report-filter.md)     |    no     |   sì      | no  |
 |Passare il mouse su un oggetto visivo per vedere dettagli aggiuntivi e descrizioni comando.     |    sì     |   sì      | sì  |

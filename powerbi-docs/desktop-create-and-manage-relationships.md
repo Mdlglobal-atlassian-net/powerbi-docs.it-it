@@ -2,7 +2,6 @@
 title: Creare e gestire le relazioni in Power BI Desktop
 description: Creare e gestire le relazioni in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312717"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869124"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Creare e gestire le relazioni in Power BI Desktop
 Quando si importano più tabelle, è probabile che verranno eseguite analisi con i dati inclusi nelle tabelle. Le relazioni tra le tabelle sono necessarie per calcolare con precisione i risultati e visualizzare le informazioni corrette nei report. Power BI Desktop semplifica la creazione di queste relazioni. Nella maggior parte dei casi, in effetti, tutte le operazioni verranno eseguite automaticamente dalla funzionalità Rilevamento automatico. In alcuni casi, tuttavia, potrebbe essere necessario creare manualmente le relazioni oppure apportare alcune modifiche a una relazione. È quindi importante comprendere le relazioni in Power BI Desktop e capire come crearle e modificarle.
@@ -55,18 +54,18 @@ Per informazioni più dettagliate, vedere il [post di blog](https://blogs.techne
 Quando si crea o si modifica una relazione, è possibile configurare opzioni aggiuntive. Per impostazione predefinita, le opzioni aggiuntive vengono configurate automaticamente in base a una maggiore probabilità, che può variare per ogni relazione a seconda dei dati contenuti nelle colonne.
 
 ## <a name="cardinality"></a>Cardinalità
-**Molti-a-uno (\*:1)**: il tipo predefinito più comune. Significa che la colonna in una tabella può avere più istanze di un valore e l'altra tabella correlata, spesso nota come tabella di ricerca, include solo un'istanza di un valore.
+**Molti-a-uno (\*:1)** : il tipo predefinito più comune. Significa che la colonna in una tabella può avere più istanze di un valore e l'altra tabella correlata, spesso nota come tabella di ricerca, include solo un'istanza di un valore.
 
-**Uno-a-uno (1:1)**: la colonna in una tabella include solo un'istanza di un valore specifico e l'altra tabella correlata include solo un'istanza di un valore specifico.
+**Uno-a-uno (1:1)** : la colonna in una tabella include solo un'istanza di un valore specifico e l'altra tabella correlata include solo un'istanza di un valore specifico.
 
 **Relazioni molti-a-molti**: Con i modelli compositi è possibile stabilire relazioni molti-a-molti tra le tabelle, rimuovendo così i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. Per informazioni più dettagliate, vedere [Relazioni con cardinalità molti-a-molti](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships). 
 
 Per informazioni dettagliate su quando modificare la cardinalità, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 
 ## <a name="cross-filter-direction"></a>Direzione filtro incrociato
-**Entrambi**: la direzione predefinita più comune. Significa che per finalità relative ai filtri entrambe le tabelle vengono considerate come se fossero una singola tabella. **Entrambi**: funziona bene con una singola tabella che include un numero di tabelle di ricerca che la racchiudono. Un esempio è una tabella di valori effettivi delle vendite con una tabella di ricerca per reparto. Spesso si tratta di una configurazione di schema a stella (una tabella centrale con diverse tabelle di ricerca). Tuttavia, se si hanno due o più tabelle con tabelle di ricerca (con alcune in comune), è preferibile usare l'impostazione Entrambi. Per continuare l'esempio precedente, in questo caso, è anche presente una tabella delle vendite in budget che registra il budget mirato per ogni reparto. La tabella del reparto, infine, è connessa sia alla tabella vendite sia alla tabella budget. Evitare l'impostazione Entrambi per questo tipo di configurazione.
+**Entrambi**: ai fini dei filtri entrambe le tabelle vengono considerate come se fossero una singola tabella. **Entrambi**: funziona bene con una singola tabella che include un numero di tabelle di ricerca che la racchiudono. Un esempio è una tabella di valori effettivi delle vendite con una tabella di ricerca per reparto. Spesso si tratta di una configurazione di schema a stella (una tabella centrale con diverse tabelle di ricerca). Tuttavia, se si hanno due o più tabelle con tabelle di ricerca (con alcune in comune), è preferibile usare l'impostazione Entrambi. Per continuare l'esempio precedente, in questo caso, è anche presente una tabella delle vendite in budget che registra il budget mirato per ogni reparto. La tabella del reparto, infine, è connessa sia alla tabella vendite sia alla tabella budget. Evitare l'impostazione Entrambi per questo tipo di configurazione.
 
-**Singola**: le opzioni del filtro nelle tabelle connesse vengono applicate alla tabella in cui vengono aggregati i valori. Se si importa una tabella di Power Pivot in Excel 2013 o in un modello di dati precedente, tutte le relazioni avranno un'unica direzione. 
+**Singola**: la direzione predefinita più comune; indica che le opzioni del filtro nelle tabelle connesse vengono applicate alla tabella in cui vengono aggregati i valori. Se si importa una tabella di Power Pivot in Excel 2013 o in un modello di dati precedente, tutte le relazioni avranno un'unica direzione. 
 
 Per informazioni dettagliate su quando modificare la direzione del filtro incrociato, vedere la sezione Informazioni sulle opzioni aggiuntive più avanti in questo articolo.
 
@@ -229,7 +228,7 @@ Si supponga tuttavia che siano previste modifiche ai dati al successivo aggiorna
 | Blue |80,000 |6/1/2013 |
 | Red |90,000 |6/1/2013 |
 
- Ciò significa che la combinazione migliore delle due tabelle ha ora un aspetto analogo al seguente:   
+ Ciò significa che la combinazione migliore delle due tabelle ha ora un aspetto analogo al seguente: 
 
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
@@ -317,7 +316,7 @@ Esaminiamo un esempio. La prima tabella è ProjectTickets e la seconda tabella �
 | Roman, Daniel |Project Sponsor |
 | Roth, Daniel |Project Sponsor |
 
-Sono effettivamente presenti due relazioni, una tra SubmittedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole e l'altra tra OpenedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole. 
+Sono effettivamente presenti due relazioni, una tra SubmittedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole e l'altra tra OpenedBy nella tabella ProjectTickets ed Employee nella tabella EmployeeRole.
 
  ![](media/desktop-create-and-manage-relationships/candmrel_activerelview.png)
 

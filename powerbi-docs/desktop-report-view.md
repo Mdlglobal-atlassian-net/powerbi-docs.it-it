@@ -2,7 +2,6 @@
 title: Visualizzazione report in Power BI Desktop
 description: Visualizzazione report in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142203"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877855"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Visualizzazione report in Power BI Desktop
 Se si usa già Power BI, si saprà già quanto sia facile creare report che offrono prospettive dinamiche e informazioni dettagliate sui dati. Power BI include però funzionalità più avanzate in Power BI Desktop. Grazie a Power BI Desktop è infatti possibile creare query avanzate, combinare dati di più origini, creare relazioni tra tabelle e altro ancora.
@@ -29,7 +28,7 @@ Quando si caricano i dati in Power BI Desktop per la prima volta, **Visualizzazi
 
 ![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-Per spostarsi tra **Visualizzazione report**, **Visualizzazione dati** e **Visualizzazione relazioni** selezionare le icone nella barra di spostamento a sinistra:
+Per spostarsi tra **Visualizzazione report**, **Visualizzazione dati** e **Visualizzazione relazioni** selezionare le icone nel riquadro di spostamento a sinistra:
 
 ![Icona Visualizzazione report](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

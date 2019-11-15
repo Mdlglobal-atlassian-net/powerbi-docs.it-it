@@ -2,7 +2,6 @@
 title: Suggerimenti e consigli per creare report in Power BI
 description: Informazioni sulle procedure consigliate per la creazione di report nel servizio Power BI e in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514063"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865834"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Suggerimenti e consigli per creare report in Power BI Desktop
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato. 
@@ -28,19 +27,19 @@ Altre informazioni sono disponibili nel [Centro risorse di Power Query](https://
 È anche possibile visualizzare le [informazioni sulle formule](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ## <a name="data-types-in-query-editor"></a>Tipi di dati nell'Editor di query
-Quando si usa l'Editor di query in Power BI Desktop per caricare i dati, il tipo di dati viene rilevato in base all'ipotesi più probabile. Quando si usano formule, a volte le impostazioni del tipo di dati nelle colonne non vengono mantenute. Verificare che il tipo di dati delle colonne siano corrette dopo avere eseguito le operazioni seguenti:  Caricamento iniziale dei dati nella scheda di query, prima riga come intestazione, aggiunta di una colonna, raggruppamento, unione e accodamento, nonché prima del caricamento dei dati per la prima volta.
+Quando si usa l'Editor di query in Power BI Desktop per caricare i dati, il tipo di dati viene rilevato in base all'ipotesi più probabile. Quando si usano formule, a volte le impostazioni del tipo di dati nelle colonne non vengono mantenute. Assicurarsi che il tipo di dati delle colonne sia corretto dopo le operazioni seguenti:  Caricamento iniziale dei dati nella scheda di query, prima riga come intestazione, aggiunta di una colonna, raggruppamento, unione e accodamento, nonché prima del caricamento dei dati per la prima volta.
 
 Un aspetto importante da ricordare è che il corsivo nella griglia dei dati non significa che il tipo sia impostato correttamente, ma solo che i dati non vengono considerati come testo.
 
 ## <a name="reference-queries-in-the-query-editor"></a>Query di riferimento nell'Editor di query
-Nello strumento di navigazione dell'Editor di Query in Power BI Desktop, facendo clic su una delle query, è disponibile un'opzione "Riferimento". Questa opzione è utile per il motivo seguente:
+Nello strumento di navigazione dell'Editor di query in Power BI Desktop, quando si fa clic con il pulsante destro del mouse su una delle query, è disponibile l'opzione "Riferimento". Questa opzione è utile per il motivo seguente:
 
 * Quando si usano file come origine dati per una query, il percorso assoluto del file è archiviato nella query. Quando si condivide o si sposta un file di Power BI Desktop o una cartella di lavoro di Excel, è possibile risparmiare tempo nell'aggiornamento dei percorsi eseguendo un solo aggiornamento anziché dover aggiornare tutti i percorsi.
 
-Per impostazione predefinita, tutte le query vengono caricate in un foglio di lavoro di Excel o nel modello di dati (o in entrambe le posizioni). Alcune query sono passaggi intermedi e non per gli utenti finali. Quando si fa riferimento alle query come indicato in precedenza, questo è spesso vero. È possibile controllare query comportamento di caricamento facendo clic su query nello strumento di spostamento e attivare e disattivare l'opzione "Abilita caricamento". Quando *Abilita caricamento* non è un segno di spunta accanto a esso, la query è ancora disponibile nella scheda della query ed è possibile usarlo con altre query. Ciò è particolarmente utile in combinazione con trasformazioni di merge, accodamento e riferimento. Tuttavia, poiché i risultati della query non vengono caricati nel modello di dati, la query non crea confusione nell'elenco di campi del report o nel modello di dati. 
+Per impostazione predefinita, tutte le query vengono caricate in un foglio di lavoro di Excel o nel modello di dati (o in entrambe le posizioni). Alcune query sono passaggi intermedi non destinati all'uso da parte degli utenti finali. Quando si fa riferimento alle query come indicato in precedenza, questo è spesso vero. È possibile controllare il comportamento di caricamento delle query facendo clic con il pulsante destro del mouse sulla query nello strumento di navigazione e attivando o disattivando l'opzione "Abilita caricamento". Quando accanto all'opzione *Abilita caricamento* non è presente un segno di spunta, la query è comunque disponibile nella scheda della query ed è possibile usarla con altre query. Ciò è particolarmente utile in combinazione con trasformazioni di merge, accodamento e riferimento. Tuttavia, poiché i risultati della query non vengono caricati nel modello di dati, la query non crea confusione nell'elenco di campi del report o nel modello di dati. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Necessità di un identificatore di punto nei grafici a dispersione
-Si prenda come esempio una semplice tabella con valori delle temperature e dell'ora in cui è stata eseguita la misurazione. Se si tracciano questi valori direttamente in un grafico a dispersione, Power BI aggrega tutti i valori in un singolo punto. Per visualizzare i singoli punti dati, è necessario aggiungere anche un campo al bucket dettagli nel campo. Per eseguire in modo semplice questa operazione in Power BI Desktop, nella scheda della query usare l'opzione "Aggiungi colonna indice" della scheda "Aggiungi colonna" sulla barra multifunzione. 
+Si prenda come esempio una semplice tabella con valori delle temperature e dell'ora in cui è stata eseguita la misurazione. Se si tracciano questi valori direttamente in un grafico a dispersione, Power BI aggrega tutti i valori in un singolo punto. Per mostrare i singoli punti dati, è necessario aggiungere un campo al bucket Dettagli nel contenitore di campi. Per eseguire in modo semplice questa operazione in Power BI Desktop, nella scheda della query usare l'opzione "Aggiungi colonna indice" della scheda "Aggiungi colonna" sulla barra multifunzione. 
 
 ## <a name="reference-lines-in-your-report"></a>Linee di riferimento nel report
 È possibile usare una colonna calcolata in Power BI Desktop per definire una linea di riferimento. Identificare la tabella e la colonna in cui si vuole creare una linea di riferimento. Selezionare "Nuova colonna" sulla barra multifunzione e nella barra della formula digitare la formula seguente:
@@ -50,7 +49,7 @@ Si prenda come esempio una semplice tabella con valori delle temperature e dell'
 Questa colonna calcolata restituirà il valore 100 indipendentemente da dove viene usata. La nuova colonna verrà visualizzata nell'elenco dei campi. Aggiungere la colonna calcolata Valore di destinazione in un grafico a linee per mostrare la relazione tra le serie e la linea di riferimento specifica. 
 
 ## <a name="sort-by-another-column"></a>Ordinamento in base a un'altra colonna
-Quando si usa un valore di categoria (stringa) in Power BI per gli assi del grafico oppure in un filtro dei dati o in un filtro, l'ordine predefinito è quello alfabetico. Se è necessario eseguire l'override di questo ordine, ad esempio per elementi come i giorni della settimana o i mesi, quindi è possibile impostare Power BI Desktop per ordinare in base a una colonna diversa. Per altre informazioni, vedere [ordinare per colonna in Power BI Desktop](desktop-sort-by-column.md).
+Quando si usa un valore di categoria (stringa) in Power BI per gli assi del grafico oppure in un filtro dei dati o in un filtro, l'ordine predefinito è quello alfabetico. Se è necessario applicare un ordine diverso, ad esempio per elementi come i giorni della settimana o i mesi, è possibile impostare Power BI Desktop in modo da eseguire l'ordinamento in base a una colonna diversa. Per altre informazioni, vedere [Ordinare per colonna in Power BI Desktop](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Creazione più semplice di mappe con hint a Bing
 Power BI si integra con Bing per fornire coordinate della mappa predefinite (un processo denominato geocodifica) in modo da semplificare la creazione di mappe. Bing usa alcuni algoritmi e hint per cercare di ottenere la posizione corretta, ma si tratta di una stima. Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrette, usare i suggerimenti seguenti:
@@ -62,7 +61,7 @@ Alcune designazioni sono ambigue se considerate nel contesto di più paesi. In a
 È sempre possibile fornire informazioni specifiche su latitudine e longitudine per le posizioni nel servizio Power BI o in Power BI Desktop. In tal caso, sarà necessario passare anche un campo relativo alla posizione, altrimenti i dati vengono aggregati per impostazione predefinita e la posizione corrispondente a latitudine e longitudine indicate potrebbe non corrispondere a quella prevista.
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Categorizzazione di campi geografici come hint per la geocodifica di Bing
-Un altro modo per verificare che la geocodifica dei campi venga eseguita correttamente consiste nell'impostare la categoria di dati per i campi dati. In Power BI Desktop, selezionare la tabella desiderata, passare alla barra multifunzione avanzata e quindi impostare la categoria di dati su indirizzo, città, Continente, paese/area geografica, paese, CAP, stato o provincia. Queste categorie di dati consentono a Bing di codificare i dati correttamente. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](desktop-data-categorization.md).
+Un altro modo per verificare che la geocodifica dei campi venga eseguita correttamente consiste nell'impostare la categoria di dati per i campi dati. In Power BI Desktop selezionare la tabella desiderata, passare alla scheda Avanzate della barra multifunzione e quindi impostare la categoria di dati su Indirizzo, Città, Continente, Paese/area geografica, Paese, Codice postale, Stato o Provincia. Queste categorie di dati consentono a Bing di codificare i dati correttamente. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](desktop-data-categorization.md).
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>Geocodifica migliore con posizioni più specifiche
 In alcuni casi, l'impostazione delle categorie di dati per la creazione di mappe non è sufficiente. Creare una posizione più specifica, come un indirizzo stradale, usando l'Editor di query di Power BI Desktop. Usare la funzionalità Aggiungi colonna per creare una colonna personalizzata. Creare quindi la posizione desiderata come indicato di seguito: 
@@ -86,7 +85,7 @@ Definizione di bucket per la creazione di un istogramma: determinare la query co
 
 Verificare che il tipo di dati sia un numero per la colonna aggregata risultante. A questo punto è possibile usare la tecnica di raggruppamento descritta per l'istogramma più semplice per ottenere l'istogramma. Questa opzione consente di gestire più punti dati ma non consente comunque il collegamento di oggetti visivi.
 
-Altri oggetti visivi nella pagina del report la definizione di un istogramma che supporta collegamento di oggetti visivi: collegamento di oggetti visivi fa quando gli oggetti visivi sono collegati tra loro in modo che quando un utente seleziona un punto dati in un oggetto visivo, evidenziare o filtrare i punti dati correlati al punto dati selezionato. Poiché i dati vengono modificati in fase di query, è necessario creare una relazione tra tabelle e assicurarsi di sapere quale elemento dei dettagli è correlato al bucket nell'istogramma e viceversa.
+Definizione di un istogramma che supporta il collegamento di oggetti visivi: il collegamento di oggetti visivi fa in modo che, quando un utente seleziona un punto dati in un oggetto visivo, vengono evidenziati altri oggetti visivi nella pagina del report oppure vengono filtrati i punti dati correlati al punto dati selezionato. Poiché i dati vengono modificati in fase di query, è necessario creare una relazione tra tabelle e assicurarsi di sapere quale elemento dei dettagli è correlato al bucket nell'istogramma e viceversa.
 
 Iniziare il processo usando l'opzione "Riferimento" nella query contenente il campo in base a cui si vuole creare un istogramma. Assegnare alla nuova query il nome "Bucket". Per questo esempio la query originale verrà denominata "Dettagli". Rimuovere quindi tutte le colonne ad eccezione di quella da usare come bucket per l'istogramma. Usare poi la funzionalità "Rimuovi duplicati" nella query. Questa opzione è disponibile nel menu di scelta rapida quando si seleziona una colonna e consente di lasciare solo valori univoci nella colonna. Se sono presenti numeri decimali, è prima possibile applicare il suggerimento per la definizione di bucket per la creazione di un istogramma, in modo da ottenere un set gestibile di bucket. Controllare ora i dati visualizzati nell'anteprima della query. Se sono presenti valori vuoti o null, è necessario correggerli prima di creare una relazione. Vedere "Creazione di relazioni quando i dati contengono valori null o vuoti". Questo approccio può essere problematico a causa della necessità di eseguire l'ordinamento. Per ordinare i bucket in modo corretto, vedere l'argomento relativo a ordinamento e visualizzazione delle categorie nell'ordine desiderato. 
 
@@ -161,4 +160,4 @@ DAX è il linguaggio delle formule di calcolo in Power BI Desktop, ottimizzato p
 
 [Informazioni di riferimento su DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Centro risorse DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Centro risorse DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)

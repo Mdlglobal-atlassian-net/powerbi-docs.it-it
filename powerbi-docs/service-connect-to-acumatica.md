@@ -2,7 +2,6 @@
 title: Connettersi ad Acumatica con Power BI
 description: Acumatica per Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d2ee7a338f34e4c29fdbefae6518bede9e94badb
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 09e55aef3a1167143694c8e26a342cb1b8f0875c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186150"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873211"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Connettersi ad Acumatica con Power BI
 Il pacchetto di contenuto Acumatica di Power BI consente di ottenere rapidamente informazioni sui dati relativi alle opportunità. Power BI recupera infatti i dati, inclusi quelli relativi alle opportunità, agli account e ai clienti, creando quindi un dashboard predefinito e report correlati basati su tali dati.
@@ -28,7 +27,7 @@ Connettersi al [pacchetto di contenuto Acumatica](https://app.powerbi.com/getdat
 >Questo pacchetto di contenuto richiede Acumatica 5.2 o versioni successive.
 
 ## <a name="how-to-connect"></a>Come connettersi
-1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.
+1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento.
    
    ![](media/service-connect-to-acumatica/getdata3.png)
 2. Nella casella **Servizi** selezionare **Recupera**.
@@ -47,7 +46,7 @@ Connettersi al [pacchetto di contenuto Acumatica](https://app.powerbi.com/getdat
 5. In Metodo di autenticazione selezionare **Di base**. Immettere il nome utente e la password dall'account Acumatica, quindi fare clic su **Accedi**.
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento sinistro vengono visualizzati il nuovo dashboard, il nuovo report e il nuovo set di dati. I nuovi elementi sono contrassegnati con un asterisco \* giallo che scompare quando viene selezionato. Se si sceglie il dashboard, il layout risultante sarà simile al seguente:
+6. Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento vengono visualizzati il nuovo dashboard, il nuovo report e il nuovo set di dati. I nuovi elementi sono contrassegnati con un asterisco \* giallo che scompare quando viene selezionato. Se si sceglie il dashboard, il layout risultante sarà simile al seguente:
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

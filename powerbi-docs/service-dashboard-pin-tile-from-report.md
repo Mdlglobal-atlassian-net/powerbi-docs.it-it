@@ -2,7 +2,6 @@
 title: Aggiungere un riquadro a un dashboard di Power BI da un report
 description: Aggiungere un riquadro a un dashboard di Power BI da un report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624068"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852620"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Aggiungere un riquadro a un dashboard di Power BI da un report
 
@@ -66,5 +65,5 @@ Per altre informazioni, vedere [Aggiungere un'intera pagina del report](service-
 - [Aggiornamento dei dati in Power BI](refresh-data.md)
 - [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

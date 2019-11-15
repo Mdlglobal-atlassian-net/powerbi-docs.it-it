@@ -3,19 +3,18 @@ title: Modificare le variabili SAP nel servizio Power BI (anteprima)
 description: Azure e Power BI
 author: Sujata994
 ms.author: sunaraya
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: db1d4a8a9734c910514b4952b664bf7ebce324c1
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: d78124045767323cca657fa41d4415ca2e929f3d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654886"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881920"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>Modificare le variabili SAP nel servizio Power BI (anteprima)
 
@@ -31,7 +30,7 @@ Esistono alcuni requisiti usare la funzionalità di modifica delle variabili SAP
 
 **Nuova esperienza di filtro obbligatoria**: la [nuova esperienza di filtro](power-bi-report-filter.md) deve essere abilitata per il report. Ecco come è possibile abilitarla per il report in Power BI Desktop:
 - In Power BI Desktop selezionare **File** > **Opzioni e impostazioni** > **Opzioni**
-- Nella barra di spostamento a sinistra, in **File corrente** selezionare **Impostazioni report**.
+- Nel riquadro di spostamento selezionare **Impostazioni report** in **File corrente**.
 - In **Esperienza di filtro** selezionare **Abilita il riquadro del filtro aggiornato**.
 
 **Connessioni DirectQuery obbligatorie**: è necessario connettersi all'origine dati SAP usando DirectQuery. Le connessioni di importazione non sono supportate.

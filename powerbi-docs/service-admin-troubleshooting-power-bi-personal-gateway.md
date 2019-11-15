@@ -2,7 +2,6 @@
 title: Risoluzione dei problemi relativi a Power BI Gateway (modalità personale)
 description: Risoluzione dei problemi relativi a Power BI Gateway (modalità personale)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543530"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873385"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Risoluzione dei problemi relativi a Power BI Gateway (modalità personale)
 
@@ -111,7 +110,7 @@ Se viene visualizzato un errore quando vengono aggiornati i riquadri del dashboa
 ### <a name="refresh-history"></a>Cronologia aggiornamenti
 **Cronologia aggiornamenti** consente di visualizzare gli errori che si sono verificati e offre dati utili nel caso sia necessario creare una richiesta di supporto. È possibile visualizzare sia gli aggiornamenti pianificati che quelli su richiesta. Ecco come accedere a **Cronologia aggiornamenti**.
 
-1. In **Set di dati** nel riquadro di spostamento di Power BI selezionare un set di dati. Aprire il menu e selezionare **Pianifica aggiornamenti**.
+1. Nel riquadro di spostamento di Power BI selezionare un set di dati In **Set di dati**. Aprire il menu e selezionare **Pianifica aggiornamenti**.
 
    ![Selezionare Pianifica aggiornamenti](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
 1. In **Impostazioni per** selezionare **Cronologia aggiornamenti**. 
@@ -128,7 +127,7 @@ I registri **Gateway di gestione dati** e **PowerBIGateway** sono presenti in **
 ![Log Gateway di gestione dati e PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Traccia di Fiddler
-[Fiddler](http://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP. È possibile visualizzare la comunicazione con il servizio Power BI dal computer client. La comunicazione potrebbe visualizzare errori e altre informazioni correlate.
+[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP. È possibile visualizzare la comunicazione con il servizio Power BI dal computer client. La comunicazione potrebbe visualizzare errori e altre informazioni correlate.
 
 ![Traccia di Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ In alternativa, è possibile passare alla cartella temporanea (%temp%) e cercare
 - [Risoluzione degli errori del riquadro](refresh-troubleshooting-tile-errors.md)  
 - [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md) 
  
-Altre domande? Provare a chiedere alla [community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare a chiedere alla [community di Power BI](https://community.powerbi.com/).
 

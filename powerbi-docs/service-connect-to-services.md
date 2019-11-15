@@ -2,19 +2,18 @@
 title: Connettersi ai servizi usati con Power BI
 description: Connettersi a molti dei servizi usati per gestire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics CRM e Google Analytics.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 41881c1de66293689439364f3d1049f3d6b40607
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159991"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873016"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Connettersi ai servizi usati con Power BI
 Con Power BI è possibile connettersi a una serie di servizi usati per gestire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics e Google Analytics. Power BI inizia usando le credenziali dell'utente per connettersi al servizio e quindi crea un'*area di lavoro* di Power BI con un dashboard e un set di report di Power BI che visualizzano automaticamente i dati e forniscono informazioni grafiche dettagliate sull'azienda.
@@ -36,7 +35,7 @@ Dopo aver installato l'app è possibile visualizzare i dashboard e i report nell
 ## <a name="edit-the-dashboard-and-reports"></a>Modificare il dashboard e i report
 Al termine dell'importazione, la nuova app verrà visualizzata nella pagina App.
 
-1. Selezionare **App** nel riquadro di spostamento a sinistra e selezionare l'app.
+1. Selezionare **App** nel riquadro di spostamento e selezionare l'app.
    
      ![Pagina App](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. È possibile porre una domanda digitandola in Domande e risposte o fare clic su un riquadro per aprire il report sottostante. 
@@ -71,6 +70,6 @@ Se si vuole creare app modello da distribuire autonomamente, vedere [Creare un'a
 ## <a name="next-steps"></a>Passaggi successivi
 * [Distribuire le app ai colleghi](service-create-distribute-apps.md)
 * [Creare le nuove aree di lavoro in Power BI](service-create-the-new-workspaces.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
-* Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

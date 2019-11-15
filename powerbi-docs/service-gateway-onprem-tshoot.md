@@ -3,25 +3,24 @@ title: Risolvere i problemi relativi ai gateway - Power BI
 description: Questo articolo illustra come individuare e risolvere i problemi relativi al gateway dati locale e a Power BI. Fornisce soluzioni alternative potenziali per problemi noti e strumenti utili.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543830"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881564"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Risolvere i problemi relativi ai gateway - Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Questo articolo illustra alcuni problemi comuni che si verificano quando si usa il gateway dati locale con Power BI. Se si verifica un problema non elencato, è possibile accedere al sito della [community](http://community.powerbi.com) di Power BI. In alternativa, è possibile creare [un ticket di supporto](http://powerbi.microsoft.com/support).
+Questo articolo illustra alcuni problemi comuni che si verificano quando si usa il gateway dati locale con Power BI. Se si verifica un problema non elencato, è possibile accedere al sito della [community](https://community.powerbi.com) di Power BI. In alternativa, è possibile creare [un ticket di supporto](https://powerbi.microsoft.com/support).
 
 ## <a name="configuration"></a>Configurazione
 
@@ -227,7 +226,7 @@ Se la delega non è configurata correttamente in Active Directory, viene ricevut
 
 Quando si usa il gateway per un aggiornamento pianificato, **Cronologia aggiornamenti** consente di visualizzare gli errori che si sono verificati, nonché di fornire dati utili nel caso in cui sia necessario creare una richiesta di supporto. È possibile visualizzare gli aggiornamenti pianificati e quelli su richiesta. Per accedere alla Cronologia aggiornamenti, eseguire queste operazioni.
 
-1. In **Set di dati** nel riquadro di spostamento di Power BI selezionare un set di dati. Aprire il menu e selezionare **Pianifica aggiornamento.**
+1. Nel riquadro di spostamento di Power BI selezionare un set di dati In **Set di dati**. Aprire il menu e selezionare **Pianifica aggiornamento.**
 
     ![Come selezionare Pianifica aggiornamento](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ Per altre informazioni sulla risoluzione dei problemi di aggiornamento, vedere [
 
 ## <a name="fiddler-trace"></a>Traccia di Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP. È possibile visualizzare il traffico dal servizio Power BI al computer client e viceversa. Potrebbero essere visualizzati errori e altre informazioni correlate.
+[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP. È possibile visualizzare il traffico dal servizio Power BI al computer client e viceversa. Potrebbero essere visualizzati errori e altre informazioni correlate.
 
 ![Uso della traccia di Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ Per altre informazioni sulla risoluzione dei problemi di aggiornamento, vedere [
 * [Gestire l'origine dati - SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Gestire l'origine dati - Importazione/aggiornamento pianificato](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-Altre domande? Provare la [Community di Power BI](http://community.powerbi.com/).
+Altre domande? Provare la [Community di Power BI](https://community.powerbi.com/).

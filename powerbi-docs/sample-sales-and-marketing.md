@@ -2,7 +2,6 @@
 title: 'Esempio di analisi di vendite e marketing per Power BI: Presentazione'
 description: 'Esempio di analisi di vendite e marketing per Power BI: Presentazione'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391401"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873826"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Esempio di analisi di vendite e marketing per Power BI: Presentazione
 
@@ -56,11 +55,11 @@ Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di cont
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare l'esempio di analisi di vendite e marketing come [file con estensione pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop.
+In alternativa, è possibile scaricare l'esempio di analisi di vendite e marketing come [file con estensione pbix](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529785). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529785). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>Informazioni fornite dal dashboard
 Si osservi il dashboard e i riquadri che il CMO ha scelto di aggiungere. Sono visualizzate le informazioni sulla quota di mercato, le vendite e la valutazione, suddivise per area, tempo e concorrenza.
@@ -82,7 +81,7 @@ Tramite Domande e risposte è possibile individuare dettagli aggiuntivi nei dati
 
    ![Domanda di Domande e risposte: total units by segment for VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. La quota nelle categorie **Moderation** e **Convenience** è alta e indica che questi sono i segmenti in cui la società è competitiva.
-4. Tornare al dashboard selezionando **Esempio di analisi di vendite e marketing** nella barra di spostamento superiore.
+4. Per tornare al dashboard, selezionare **Esempio di analisi di vendite e marketing** nel riquadro di spostamento superiore.
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Come viene visualizzata la quota di mercato delle unità totali per categoria (invece che per area)?
 1. Si noti il riquadro **Total Units YTD by Manufacturer, Region**. Qual è la quota di mercato delle unità totali per categoria?

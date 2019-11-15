@@ -2,7 +2,6 @@
 title: Preferiti nel servizio Power BI (dashboard, report, app)
 description: Documentazione per impostare i dashboard, i report e le app come Preferiti nel servizio Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852641"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Aggiungere a Preferiti dashboard, report e app nel servizio Power BI
 Quando si imposta un contenuto come *preferito*, è possibile accedervi rapidamente dall'elenco di contenuti **Preferiti** e da **Home di Power BI** > **Preferiti e ad accesso frequente**. I preferiti sono in genere i contenuti che si visitano più spesso e sono identificati con una stella gialla.
@@ -62,7 +61,7 @@ Quando si imposta un contenuto come *preferito*, è possibile accedervi rapidame
 ## <a name="unfavorite-content"></a>Rimuovere contenuti da Preferiti
 Se non si usa più un report frequentemente come prima, è possibile rimuoverlo da Preferiti. I contenuti rimossi da Preferiti non vengono rimossi da Power BI.
 
-1. Nel riquadro di spostamento a sinistra selezionare **Preferiti** per aprire la schermata **Preferiti**.
+1. Nel riquadro di spostamento selezionare **Preferiti** per aprire la schermata **Preferiti**.
    
    ![Schermata Preferiti](./media/end-user-favorite/power-bi-un-favorite.png)
 2. Selezionare la stella gialla accanto al contenuto da rimuovere da Preferiti.
@@ -76,5 +75,5 @@ Per il momento, è possibile aggiungere a un'app ai Preferiti e questa operazion
 
 ## <a name="next-steps"></a>Passaggi successivi
 - [Power BI: Concetti di base](end-user-basic-concepts.md)
-- Altre domande? Provare la [Community di Power BI](http://community.powerbi.com/).
+- Altre domande? Provare la [Community di Power BI](https://community.powerbi.com/).
 

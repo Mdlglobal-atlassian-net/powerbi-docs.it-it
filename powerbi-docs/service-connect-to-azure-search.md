@@ -2,7 +2,6 @@
 title: Connettersi a Ricerca di Azure con Power BI
 description: Ricerca di Azure per Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060919"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873115"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Connettersi a Ricerca di Azure con Power BI
 Analisi del traffico di Ricerca di Azure consente di monitorare e comprendere il traffico diretto al servizio di ricerca di Azure. Il pacchetto di contenuto Ricerca di Azure per Power BI fornisce informazioni dettagliate sui dati di ricerca, incluse la ricerca, l'indicizzazione, le statistiche del servizio e la latenza degli ultimi 30 giorni. Altre informazioni sono reperibili nel [post di blog di Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -25,7 +24,7 @@ Analisi del traffico di Ricerca di Azure consente di monitorare e comprendere il
 Connettersi al [pacchetto di contenuto Ricerca di Azure](https://app.powerbi.com/getdata/services/azure-search) per Power BI.
 
 ## <a name="how-to-connect"></a>Come connettersi
-1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.
+1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. Nella casella **Servizi** selezionare **Recupera**.

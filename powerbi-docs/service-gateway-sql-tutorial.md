@@ -2,7 +2,6 @@
 title: 'Esercitazione: Connettersi a dati locali in SQL Server'
 description: Informazioni su come usare SQL Server come origine dati di gateway, incluse le modalità di aggiornamento dei dati.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307385"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881540"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Aggiornare i dati da un database di SQL Server locale
 
@@ -131,7 +130,7 @@ Sebbene in Power BI Desktop sia stata stabilita una connessione diretta al datab
 
 Dopo aver connesso il set di dati in Power BI al database di SQL Server locale attraverso un gateway dati, seguire questa procedura per configurare una pianificazione per gli aggiornamenti. L'aggiornamento dei set di dati in base a una pianificazione assicura che i report e i dashboard includano i dati più recenti.
 
-1. Nel riquadro di spostamento a sinistra aprire **Area di lavoro personale** \> **Set di dati**. Selezionare i puntini di sospensione ( **. . .** ) per il set di dati **AdventureWorksProducts** e quindi selezionare **Pianifica aggiornamento**.
+1. Nel riquadro di spostamento aprire **Area di lavoro personale** \> **Set di dati**. Selezionare i puntini di sospensione ( **. . .** ) per il set di dati **AdventureWorksProducts** e quindi selezionare **Pianifica aggiornamento**.
 
     > [!NOTE]
     > Assicurarsi di selezionare i puntini di sospensione per il set di dati **AdventureWorksProducts** e non i puntini di sospensione per il report con lo stesso nome. Il menu di scelta rapida del report **AdventureWorksProducts** non include l'opzione **Pianifica aggiornamento**.
@@ -149,7 +148,7 @@ Dopo aver connesso il set di dati in Power BI al database di SQL Server locale a
 
 ## <a name="perform-an-on-demand-refresh"></a>Eseguire un aggiornamento su richiesta
 
-Dopo aver configurato una pianificazione per gli aggiornamenti, Power BI aggiorna il set di dati al successivo orario pianificato, entro un margine di 15 minuti. Per aggiornare i dati prima dell'orario pianificato, ad esempio per testare la configurazione del gateway e dell'origine dati, eseguire un aggiornamento su richiesta usando l'opzione **Aggiorna adesso** nel menu del set di dati nel riquadro di spostamento a sinistra. Gli aggiornamenti su richiesta non influiscono sull'orario del successivo aggiornamento pianificato, ma vengono conteggiati rispetto al limite di aggiornamenti giornalieri, come descritto nella sezione precedente.
+Dopo aver configurato una pianificazione per gli aggiornamenti, Power BI aggiorna il set di dati al successivo orario pianificato, entro un margine di 15 minuti. Per aggiornare i dati prima dell'orario pianificato, ad esempio per testare la configurazione del gateway e dell'origine dati, eseguire un aggiornamento su richiesta usando l'opzione **Aggiorna adesso** nel menu del set di dati nel riquadro di spostamento. Gli aggiornamenti su richiesta non influiscono sull'orario del successivo aggiornamento pianificato, ma vengono conteggiati rispetto al limite di aggiornamenti giornalieri, come descritto nella sezione precedente.
 
 A scopo illustrativo, simulare una modifica ai dati di esempio aggiornando la tabella DimProduct del database AdventureWorksDW tramite SQL Server Management Studio (SSMS).
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 A questo punto seguire questa procedura in modo che i dati aggiornati possano passare attraverso la connessione del gateway al set di dati e nei report in Power BI.
 
-1. Nel riquadro di spostamento a sinistra del servizio Power BI selezionare ed espandere **Area di lavoro personale**.
+1. Nel riquadro di spostamento del servizio Power BI selezionare ed espandere **Area di lavoro personale**.
 
 2. In **Set di dati** per il set di dati **AdventureWorksProducts** selezionare i puntini di sospensione ( **. . .** ) e quindi selezionare **Aggiorna adesso**.
 

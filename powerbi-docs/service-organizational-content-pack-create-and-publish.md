@@ -2,7 +2,6 @@
 title: Creare e pubblicare un pacchetto di contenuto aziendale - Power BI
 description: In questa esercitazione è possibile creare un pacchetto di contenuto aziendale, limitare l'accesso a un gruppo specifico e pubblicare il pacchetto nella libreria di pacchetti di contenuto dell'organizzazione in Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eb1940f7d5a4e809590b5b425b8005776040a5cc
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020664"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871998"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Esercitazione: Creare e pubblicare un pacchetto di contenuto aziendale di Power BI
 
@@ -34,9 +33,9 @@ Si immagini di essere il responsabile del rilascio presso Contoso e di dover pre
 
 Per iniziare, Nel [servizio Power BI](https://powerbi.com) passare all'**Area di lavoro personale**. Passare quindi a **Recupera dati** > **Esempi** > **Esempio di analisi delle opportunità** > **Connetti** per ottenere una copia personale.
 
-1. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro** > **Area di lavoro personale**.
+1. Nel riquadro di spostamento selezionare **Aree di lavoro** > **Aree di lavoro personali**.
 
-1. Nella barra di spostamento superiore selezionare l'icona dell'ingranaggio ![Screenshot dell'icona dell'ingranaggio](media/service-organizational-content-pack-create-and-publish/cog.png) > **Crea pacchetto di contenuto**.
+1. Nel riquadro di spostamento superiore selezionare l'icona dell'ingranaggio ![Screenshot dell'icona dell'ingranaggio](media/service-organizational-content-pack-create-and-publish/cog.png). > **Crea pacchetto di contenuto**.
 
    ![Screenshot dell'interfaccia utente con l'icona dell'ingranaggio e l'opzione Crea pacchetto di contenuto evidenziate.](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -100,4 +99,4 @@ Per iniziare, Nel [servizio Power BI](https://powerbi.com) passare all'**Area di
 
 * [OneDrive for Business](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

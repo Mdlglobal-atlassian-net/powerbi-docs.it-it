@@ -2,7 +2,6 @@
 title: "Esempio di analisi dell'approvvigionamento: Presentazione"
 description: "Esempio di analisi dell'approvvigionamento per Power BI: Presentazione"
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 9e27d09414167f9625e046204c14a5fb57112cd9
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 0998ebec15a4e02262ab54a3b08593a65f37af4e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462265"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873868"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Esempio di analisi dell'approvvigionamento per Power BI: Presentazione
 
@@ -58,11 +57,11 @@ Prima di poter usare l'esempio, è necessario scaricarlo come [pacchetto di cont
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Scaricare il file con estensione pbix per questo esempio
 
-In alternativa, è possibile scaricare Procurement Analysis Sample come [file con estensione pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop. 
+In alternativa, è possibile scaricare Procurement Analysis Sample come [file con estensione pbix](https://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), progettato per l'uso con Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Scaricare la cartella di lavoro di Excel per questo esempio
 
-Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](http://go.microsoft.com/fwlink/?LinkId=529784). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
+Se si vuole visualizzare l'origine dati per questo esempio, è disponibile anche come [cartella di lavoro di Excel](https://go.microsoft.com/fwlink/?LinkId=529784). La cartella di lavoro contiene fogli di Power View che è possibile visualizzare e modificare. Per vedere i dati non elaborati, abilitare i componenti aggiuntivi di Analisi dati, quindi selezionare **Power Pivot > Gestisci**. Per abilitare i componenti aggiuntivi Power View e Power Pivot, vedere [Esaminare gli esempi di Excel direttamente da Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) per informazioni dettagliate.
 
 
 ## <a name="spending-trends"></a>Tendenze di spesa
@@ -99,7 +98,7 @@ Di seguito verranno analizzate le aree di spesa in Messico.
       ![Drill-down di Indirect Goods & Services per Mexico](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selezionare la freccia rivolta verso l'alto nell'angolo in alto a sinistra del grafico per eseguire il drill-up.
 4. Selezionare di nuovo la freccia di drill-down per disattivare il drill-down.  
-5. Nella barra di spostamento superiore selezionare **Procurement Analysis Sample** per tornare al dashboard.
+5. Nel riquadro di spostamento superiore selezionare **Esempio di analisi dell'approvvigionamento** per tornare al dashboard.
 
 ## <a name="evaluate-different-cities"></a>Valutare diverse città
 È possibile usare l'evidenziazione per valutare città diverse.

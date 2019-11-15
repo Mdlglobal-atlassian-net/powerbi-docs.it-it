@@ -2,7 +2,6 @@
 title: Usare i parametri What if per visualizzare le variabili
 description: Creare una variabile analisi di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513494"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876059"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare un parametro analisi di simulazione per visualizzare le variabili in Power BI Desktop
 A partire dalla versione di **Power BI Desktop** di agosto 2018, è possibile creare variabili di **analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori chiave nei report.
@@ -50,7 +49,7 @@ Verrà ora creato un semplice esempio di utilizzo di un parametro **Analisi di s
 
 ![](media/desktop-what-if/what-if_05.png)
 
-La nuova misura rappresenta l'importo totale delle vendite a cui è applicata la percentuale di sconto. È possibile creare misure complesse e interessanti per consentire agli utenti dei report di visualizzare la variabile del parametro **Analisi di simulazione**. Ad esempio, è possibile creare un report che consente ai venditori di visualizzare che i propri compensi se soddisfano determinati obiettivi di vendita o percentuali oppure vedere l'effetto di aumentare sconti sulle vendite per una maggiore.
+La nuova misura rappresenta l'importo totale delle vendite a cui è applicata la percentuale di sconto. È possibile creare misure complesse e interessanti per consentire agli utenti dei report di visualizzare la variabile del parametro **Analisi di simulazione**. Ad esempio, si può creare un report che permette al personale delle vendite di visualizzare i propri compensi in caso di raggiungimento di determinati obiettivi o percentuali di vendite o per visualizzare l'incidenza dell'aumento delle vendite su sconti più elevati.
 
 Dopo aver digitato la formula della misura nella barra della formula e assegnato il nome **Sales after Discount**, viene visualizzato il risultato:
 

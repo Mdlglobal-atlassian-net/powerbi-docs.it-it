@@ -2,7 +2,6 @@
 title: Impostare e usare tabelle data in Power BI Desktop
 description: Informazioni su come impostare una tabella come tabella data in Power BI Desktop e sui concetti correlati
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b2a7f4434ac82a125352eaefdd2417d9039b710f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454375"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868612"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Impostare e usare tabelle data in Power BI Desktop
 
 **Power BI Desktop** supporta l'identificazione automatica delle colonne che rappresentano date, quindi crea automaticamente gerarchie di data e altri metadati per il modello. È quindi possibile usare tali gerarchie predefinite durante la creazione di funzionalità dei report come oggetti visivi, tabelle, misure rapide, filtri dei dati e così via. Power BI Desktop esegue queste operazioni tramite la creazione automatica di tabelle nascoste, poi utilizzabili per i report e le espressioni DAX.
+
+Per altre informazioni su questo comportamento automatico, vedere l'articolo [Data/ora automatica in Power BI Desktop](desktop-auto-date-time.md).
 
 Molti analisti di dati preferiscono creare autonomamente le tabelle data. In **Power BI Desktop** è possibile specificare la tabella che si vuole usare come **tabella data** nel modello e successivamente creare gli oggetti visivi, le tabelle, le misure rapide e altri elementi correlati alle date, usando i dati di data della tabella. Quando si specifica una tabella data personale, controllare le gerarchie di data create nel modello e usarle nelle **misure rapide** e per le altre operazioni che usano la tabella data del modello. 
 
@@ -73,8 +74,7 @@ Quando si specifica una **tabella data** personale, è necessario assicurarsi di
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Potrebbero essere interessanti anche gli articoli seguenti.
+Potrebbero essere interessanti anche gli articoli seguenti:
 
+* [Data/ora automatica in Power BI Desktop](desktop-auto-date-time.md)
 * [Tipi di dati in Power BI Desktop](desktop-data-types.md)
-
- 

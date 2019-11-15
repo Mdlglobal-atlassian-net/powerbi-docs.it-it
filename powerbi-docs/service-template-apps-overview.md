@@ -2,19 +2,18 @@
 title: Che cosa sono le app modello di Power BI?
 description: Questo articolo è una panoramica del programma delle app modello di Power BI. Informazioni su come compilare app di Power BI con un uso minimo o nullo di codice e su come distribuire le app a qualsiasi cliente Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: tebercov
-ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408205"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871331"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Che cosa sono le app modello di Power BI?
 

@@ -2,7 +2,6 @@
 title: Presentazione dell'editor di report
 description: In Power BI Desktop e nel servizio Power BI l'editor di report consente di progettare i report visualizzati dagli utenti finali. È simile nei due ambienti.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023730"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871356"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Presentazione dell'editor di report in Power BI
 
@@ -34,14 +33,14 @@ Nel servizio Power BI l'editor di report è disponibile solo nella visualizzazio
 
 L'editor di report di Power BI è suddiviso in diverse sezioni principali:  
 
-1. Barra di spostamento superiore
+1. Riquadro di spostamento superiore
 1. Canvas del report
 1. Riquadro Filtri
 1. Riquadro Visualizzazioni
 1. Riquadro Campi
 
-## <a name="1-the-top-navigation-bar"></a>1. Barra di spostamento superiore
-Le azioni disponibili nella barra di spostamento superiore sono numerose e in continuo aumento. Per informazioni su una determinata azione, usare il Sommario della documentazione o la casella di ricerca di Power BI.
+## <a name="1-the-top-nav-pane"></a>1. Riquadro di spostamento superiore
+Le azioni disponibili nel riquadro di spostamento superiore sono numerose e in continuo aumento. Per informazioni su una determinata azione, usare il Sommario della documentazione o la casella di ricerca di Power BI.
 
 
 ## <a name="2-the-report-canvas"></a>2. Area di disegno report
@@ -147,7 +146,7 @@ Power BI usa una serie di icone diverse per indicare i tipi di campi in un repor
 |![Dati geografici](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Dati geografici: questi campi di posizione possono essere usati per creare visualizzazioni mappa. |
 | ![Campo di identità](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | Campo di identità: i campi con questa icona sono *campi univoci*, impostati in modo da mostrare tutti i valori, anche se hanno duplicati. Ad esempio i dati potrebbero contenere record per due utenti diversi denominati "Robin Smith" e ognuno verrà considerato come univoco. Non verranno sommati.   |
 |![Parametro](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | Parametro: impostare i parametri in modo che le parti dei report e dei modelli di dati (ad esempio un filtro di query, un riferimento a un'origine dati, una definizione di misura e così via) dipendano da uno o più valori dei parametri. Per altre informazioni, vedere questo post di blog di Power BI sui [parametri di query](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/). |
-| ![Calendar](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Campo di data del calendario con una tabella di date predefinita |
+| ![Calendario](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Campo di data del calendario con una tabella di date predefinita |
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Creare un report](service-report-create-new.md)
@@ -156,5 +155,5 @@ Altre informazioni sui report nel [servizio Power BI](service-report-create-new.
 
 [Concetti di base per responsabili di progettazione di Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

@@ -2,19 +2,18 @@
 title: Pubblicare un'app in Power BI
 description: Informazioni su come pubblicare le nuove app, ovvero le raccolte di dashboard e report con struttura di spostamento predefinita.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020234"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853633"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Pubblicare un'app in Power BI
 
@@ -115,7 +114,7 @@ Per personalizzare ulteriormente la struttura di spostamento dell'app è possibi
 * Rinominare gli elementi in **Dettagli report**, **Dettagli dashboard** e **Dettagli della cartella di lavoro**.
 * Nascondere determinati elementi nella struttura di spostamento.
 * Usare l'opzione **Nuovo** per aggiungere **sezioni** per raggruppare contenuti correlati.
-* Usare l'opzione **Nuovo** per aggiungere un **collegamento** a una risorsa esterna nel riquadro di spostamento a sinistra. 
+* Usare l'opzione **Nuovo** per aggiungere un **collegamento** a una risorsa esterna nel riquadro di spostamento. 
 
 Quando si aggiunge un **collegamento**, in **Dettagli collegamento** è possibile scegliere dove questo verrà aperto. Per impostazione predefinita, i collegamenti vengono aperti in **Scheda corrente**, ma è possibile selezionare **Nuova scheda** o **Area del contenuto**. 
 
@@ -187,7 +186,7 @@ Questa azione disinstalla l'app per tutti gli utenti a cui è stata pubblicata, 
 
 ## <a name="view-your-published-app"></a>Visualizzare l'app pubblicata
 
-All'apertura dell'app, gli utenti vedono la struttura di spostamento creata, anziché il riquadro di spostamento sinistro standard di Power BI. La struttura di spostamento dell'app elenca i report e i dashboard nelle sezioni definite. Elenca inoltre le singole pagine di ogni report, anziché semplicemente il nome del report.
+All'apertura dell'app, gli utenti visualizzano la struttura di spostamento creata, invece del riquadro di spostamento standard di Power BI. La struttura di spostamento dell'app elenca i report e i dashboard nelle sezioni definite. Elenca inoltre le singole pagine di ogni report, anziché semplicemente il nome del report.
 
 ![App con struttura di spostamento](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Aspetti da tenere presenti sulla pubblicazione di app:
 * [Installare e usare app in Power BI](consumer/end-user-apps.md)
 * [App Power BI per dispositivi esterni](service-connect-to-services.md)
 * [Portale di amministrazione di Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

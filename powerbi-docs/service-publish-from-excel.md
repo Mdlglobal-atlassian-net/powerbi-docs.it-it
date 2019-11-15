@@ -2,7 +2,6 @@
 title: Pubblicare in Power BI da Excel 2016
 description: Informazioni su come pubblicare una cartella di lavoro di Excel nel sito di Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bb9ff3ae6b08111156616a84ee795131c708f42c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 81bc53bae43cb16af92a9ecaf20c26c594a24368
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514790"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881120"
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Pubblicare in Power BI da Excel 2016
 Excel 2016 consente di pubblicare una cartella di lavoro di Excel direttamente nel sito di [Power BI](https://powerbi.microsoft.com), in cui è possibile creare report e dashboard estremamente interattivi sulla base dei dati presenti nella cartella di lavoro. È quindi possibile condividere le informazioni con altri utenti dell'organizzazione.
@@ -88,5 +87,5 @@ Al termine è possibile passare a Power BI direttamente da Excel.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Dati di Excel in Power BI](service-excel-workbook-files.md)  
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

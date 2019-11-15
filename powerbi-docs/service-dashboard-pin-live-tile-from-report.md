@@ -2,7 +2,6 @@
 title: "Come aggiungere un'intera pagina del report a un dashboard di Power BI "
 description: Documentazione su come aggiungere un'intera pagina dinamica del report a un dashboard di Power BI da un report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140120"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853065"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Aggiungere un'intera pagina del report, come riquadro animato, a un dashboard di Power BI
 Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è anche possibile aggiungere un'intera pagina del report. Questo è un modo semplice per aggiungere più di una visualizzazione contemporaneamente.  Inoltre, quando si aggiunge un'intera pagina, i riquadri sono *animati*. È possibile interagire con essi direttamente nel dashboard. Le modifiche apportate a qualsiasi visualizzazione nell'editor di report, ad esempio l’aggiunta di un filtro o la modifica dei campi utilizzati nel grafico, vengono riflesse anche nel riquadro del dashboard.  
@@ -55,5 +54,5 @@ Il video seguente mostra come aggiungere una pagina dinamica del report. Seguire
 ## <a name="next-steps"></a>Passaggi successivi
 [Dashboard in Power BI](consumer/end-user-dashboards.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

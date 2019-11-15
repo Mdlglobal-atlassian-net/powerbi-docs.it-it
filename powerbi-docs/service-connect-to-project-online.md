@@ -2,7 +2,6 @@
 title: Connettersi a Project Online con Power BI
 description: Project Online per Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023772"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854648"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Connettersi a Project Web App con Power BI
 Microsoft Project Web App è una soluzione online flessibile per la gestione del portfolio di progetti (PPM) e le attività quotidiane. Consente alle organizzazioni di essere operative da subito, definire le priorità degli investimenti nel portfolio di progetti e offrire i vantaggi aziendali attesi. L'app modello di Project Web App per Power BI consente di recuperare informazioni dettagliate da Project Web App per la gestione di progetti, portfolio e risorse.
@@ -24,7 +23,7 @@ Connettersi all'[app modello di Project Web App](https://appsource.microsoft.com
 
 ## <a name="how-to-connect"></a>Come connettersi
 
-1. Selezionare **App** nel riquadro di spostamento a sinistra > selezionare **Scarica app** nell'angolo superiore destro.
+1. Selezionare **App** nel riquadro di spostamento e quindi **Scarica app** nell'angolo in alto a destra.
 
     ![Scarica app](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Connettersi all'[app modello di Project Web App](https://appsource.microsoft.com
 
 9. Una notifica indicherà che è in corso il caricamento dei dati. A seconda delle dimensioni dell'account l'operazione potrebbe richiedere alcuni minuti. Quando Power BI ha terminato di importare i dati, verrà visualizzato il contenuto della nuova area di lavoro. Può essere necessario aggiornare il set di dati per ottenere gli aggiornamenti più recenti. 
 
-    Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento a sinistra vengono visualizzati il report con 13 pagine e il set di dati. 
+    Dopo l'importazione dei dati in Power BI, nel riquadro di spostamento vengono visualizzati il report con 13 pagine e il set di dati. 
 
 10. Una volta pronti i report, si può iniziare a esplorare i dati di Project Web App. L'app modello contiene 13 pagine di report avanzate e dettagliate per la panoramica portfolio (6 pagine di report), panoramica risorse (5 pagine di report) e stato progetto (2 pagine di report). 
 

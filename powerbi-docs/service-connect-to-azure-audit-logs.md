@@ -2,7 +2,6 @@
 title: Connettersi ai log di controllo di Azure con Power BI
 description: Log di controllo di Azure per Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060601"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855381"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Connettersi ai log di controllo di Azure con Power BI
 Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare e visualizzare le informazioni archiviate nei log di controllo. Power BI recupera i dati, crea un dashboard predefinito e report basati su tali dati.
@@ -25,7 +24,7 @@ Con il pacchetto di contenuto Log di controllo di Azure è possibile analizzare 
 [Connettersi al pacchetto di contenuto Log di controllo di Azure](https://app.powerbi.com/getdata/services/azure-audit-logs) oppure ottenere altre informazioni sull'[integrazione di Log di controllo di Azure](https://powerbi.microsoft.com/integrations/azure-audit-logs) con Power BI.
 
 ## <a name="how-to-connect"></a>Come connettersi
-1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.  
+1. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento.  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. Nella casella **Servizi** selezionare **Recupera**.  

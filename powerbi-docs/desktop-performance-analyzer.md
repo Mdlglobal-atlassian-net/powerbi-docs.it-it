@@ -1,8 +1,7 @@
 ---
-title: Utilizzare Performance Analyzer per esaminare le prestazioni di elemento di report in Power BI Desktop
-description: Scoprire la modalità di esecuzione di oggetti visivi ed elementi del report in termini di velocità di risposta e dell'utilizzo delle risorse
+title: Usare l'analizzatore prestazioni per esaminare le prestazioni degli elementi del report in Power BI Desktop
+description: Informazioni su come esaminare le prestazioni di oggetti visivi ed elementi del report in termini di utilizzo delle risorse e velocità di risposta
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,74 +9,74 @@ ms.topic: conceptual
 ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1851e0a55bf01073a6591f64de43830a72eca89b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65854414"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866438"
 ---
-# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Utilizzare Performance Analyzer per esaminare le prestazioni di elemento di report
+# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usare l'analizzatore prestazioni per esaminare le prestazioni degli elementi del report
 
-Nelle **Power BI Desktop** è possibile trovare ognuno degli elementi del report, ad esempio gli oggetti visivi e le formule DAX, prestazioni delle istanze. Usando il **Performance Analyzer**, è possibile visualizzare e record di log che misura come ognuno degli elementi del report esegue quando gli utenti interagiscono con essi, e gli aspetti delle loro prestazioni utilizzano molte risorse la maggior parte delle (o meno).
+In **Power BI Desktop** è possibile esaminare le prestazioni di tutti gli elementi del report, ad esempio oggetti visivi e formule DAX. L'**analizzatore prestazioni** consente di visualizzare e registrare log che misurano le prestazioni di ogni elemento del report durante l'interazione con gli utenti e di conoscere gli aspetti che usano più o meno risorse dal punto di vista delle prestazioni.
 
 ![Analizzatore prestazioni](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
-Performance Analyzer analizza e visualizza l'intervallo di tempo necessario per l'aggiornamento o l'aggiornamento di tutti gli oggetti visivi che avviare le interazioni dell'utente e presenta le informazioni in modo che è possibile visualizzare, eseguire il drill-o esportare i risultati. Analizzatore prestazioni consente di identificare gli oggetti visivi che incidono sulle prestazioni dei report e identificare il motivo per l'impatto.
+L'analizzatore prestazioni esamina e visualizza la durata necessaria per aggiornare tutti gli oggetti visivi avviati dalle interazioni utente e presenta le informazioni in modo che sia possibile visualizzare, eseguire il drill-down o esportare i risultati. L'analizzatore prestazioni consente di identificare gli oggetti visivi che incidono sulle prestazioni dei report e di identificarne il motivo.
 
-## <a name="displaying-the-performance-analyzer-pane"></a>Visualizzazione del riquadro Performance Analyzer
+## <a name="displaying-the-performance-analyzer-pane"></a>Visualizzazione del riquadro dell'analizzatore prestazioni
 
-Nelle **Power BI Desktop** selezionare la **visualizzazione** della barra multifunzione. Nel **mostrare** area della **vista** della barra multifunzione è possibile selezionare la casella di controllo accanto a **Performance Analyzer** per visualizzare il riquadro Performance Analyzer.
+In **Power BI Desktop** selezionare la barra multifunzione **Visualizza**. Nell'area **Mostra** della barra multifunzione di **Visualizza** è possibile selezionare la casella di controllo accanto a **Analizzatore prestazioni** per visualizzare il riquadro dell'analizzatore prestazioni.
 
-![Selezionare Performance analyzer nella barra multifunzione Visualizza](media/desktop-performance-analyzer/performance-analyzer-02.png)
+![Selezionare Analizzatore prestazioni nella barra multifunzione di Visualizza](media/desktop-performance-analyzer/performance-analyzer-02.png)
 
-Una volta selezionata, l'analizzatore delle prestazioni viene visualizzato in un proprio riquadro a destra dell'area di disegno report.
+Quando selezionato, l'analizzatore prestazioni viene visualizzato nel relativo riquadro a destra dell'area di disegno report.
 
-## <a name="using-performance-analyzer"></a>Tramite Performance Analyzer
+## <a name="using-performance-analyzer"></a>Uso dell'analizzatore prestazioni
 
-Le misurazioni di Analizzatore prestazioni il tempo di elaborazione (incluso il tempo necessario per creare o aggiornare un oggetto visivo) necessario per aggiornare gli elementi di report avviati in seguito a alcuna interazione dell'utente che risulta in esecuzione una query. La regolazione di un filtro dei dati, ad esempio, richiede l'oggetto visivo di filtro dei dati da modificare, una query da inviare al modello di dati e oggetti visivi interessati che devono essere aggiornati in seguito le nuove impostazioni. 
+Performance Analyzer misura il tempo di elaborazione (incluso il tempo necessario per creare o aggiornare un oggetto visivo) necessario per aggiornare gli elementi del report avviati in seguito a qualsiasi interazione dell'utente che comporta l'esecuzione di una query. La modifica di un filtro dei dati richiede, ad esempio, la modifica dell'oggetto visivo del filtro dei dati, l'invio di una query al modello di dati e la restituzione degli oggetti visivi interessati come risultato delle nuove impostazioni. 
 
-Per iniziare a registrare Performance Analyzer, selezionare semplicemente **avviare la registrazione**
+Per avviare la registrazione nell'analizzatore prestazioni, è sufficiente selezionare **Avvia registrazione**.
 
 ![Avvia registrazione](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
-Qualsiasi azione eseguita nel report vengono visualizzati e registrati nel riquadro Performance Analyzer, nell'ordine che l'oggetto visivo venga caricato da Power BI. Ad esempio, forse disponibile un report che gli utenti hanno detto richiede molto tempo per aggiornare. O alcuni oggetti visivi in un report richiedono molto tempo da visualizzare quando viene modificato un dispositivo di scorrimento. Analizzatore prestazioni può indicare che è l'oggetto visivo è la causa del problema e identifica quali aspetti dell'oggetto visivo sta richiedendo la durata più lunga per l'elaborazione. 
+Tutte le azioni eseguite nel report vengono visualizzate e registrate nel riquadro dell'analizzatore prestazioni, nell'ordine in cui l'oggetto visivo viene caricato da Power BI. È, ad esempio, possibile avere un report il cui caricamento richiede molto tempo secondo quanto segnalato dagli utenti, oppure che la visualizzazione di determinati oggetti visivi in un report richieda molto tempo durante la regolazione di un dispositivo di scorrimento. L'analizzatore prestazioni può indicare l'oggetto visivo responsabile del rallentamento e identificare gli aspetti dell'oggetto visivo che richiedono più tempo per l'elaborazione. 
 
-Dopo aver avviato la registrazione, il **avviare la registrazione** diventa inattivo out (inattivo, poiché si è già avviata la registrazione) e il **arrestare** pulsante è attivo. 
+Dopo aver avviato la registrazione, il pulsante **Avvia registrazione** risulta inattivo perché la registrazione è già stata avviata, mentre il pulsante **Arresta** è attivo. 
 
-Analizzatore prestazioni raccoglie e visualizza le informazioni di misurazione delle prestazioni in tempo reale. Pertanto ogni volta che si fa clic su un oggetto visivo, spostare un filtro dei dati o interagire in altro modo, Performance Analyzer visualizza immediatamente i risultati delle prestazioni nel relativo riquadro.
+L'analizzatore prestazioni raccoglie e visualizza le informazioni sulla misurazione delle prestazioni in tempo reale. Di conseguenza, ogni volta che si fa clic su un oggetto visivo, si sposta un filtro dei dati o si interagisce in altro modo, l'analizzatore prestazioni visualizza immediatamente i risultati delle prestazioni nel relativo riquadro.
 
-Se il riquadro ha altre informazioni che possono essere visualizzate, viene visualizzata una barra di scorrimento per passare a informazioni aggiuntive.
+Se il riquadro contiene una quantità di informazioni maggiore rispetto a quella visualizzabile, viene visualizzata una barra di scorrimento che consente di passare alle altre informazioni.
 
-Ogni interazione ha un identificatore di sezione nel riquadro, che descrive l'azione che ha avviato le voci di log. Nell'immagine seguente, l'interazione è che gli utenti di modifichino un filtro dei dati.
+A ogni interazione è assegnato un identificatore di sezione nel riquadro, che descrive l'azione che ha avviato le registrazioni nel log. Nell'immagine seguente l'interazione si riferisce alla modifica di un filtro dei dati da parte degli utenti.
 
-![Sezioni in base al tipo di interazione](media/desktop-performance-analyzer/performance-analyzer-04.png)
+![Sezioni basate sul tipo di interazione](media/desktop-performance-analyzer/performance-analyzer-04.png)
 
-Le informazioni sul log di ogni dell'oggetto visivo include il tempo impiegato (durata) per completare le seguenti categorie di attività:
+Le informazioni del log di ogni oggetto visivo includono il tempo trascorso (durata) per completare le categorie di attività seguenti:
 
-* **Query DAX** -se una query DAX è obbligatoria, questo è il tempo tra l'oggetto visivo inviando la query e per Analysis Services restituire i risultati.
-* **Rappresentazione visiva** -tempo necessario per l'oggetto visivo disegnare sullo schermo, inclusi tempo richiesto per recuperare le immagini di web o la geocodifica. 
-* **Altri** -tempo richiesto dall'oggetto visivo per la preparazione di query, in attesa di altri oggetti visivi completare o eseguire altre elaborazioni in background.
+* **Query DAX**: se è stata richiesta una query DAX, indica il tempo che intercorre tra l'invio della query da parte dell'oggetto visivo e la restituzione dei risultati da parte di Analysis Services.
+* **Visualizzazione oggetti visivi**: indica il tempo necessario per il disegno dell'oggetto visivo sullo schermo, incluso il tempo necessario per recuperare eventuali immagini Web o informazioni di geocodifica. 
+* **Altro**: indica il tempo richiesto dall'oggetto visivo per la preparazione delle query, l'attesa del completamento di altri oggetti visivi o l'esecuzione di altre operazioni di elaborazione in background.
 
-![elementi di informazioni di log](media/desktop-performance-analyzer/performance-analyzer-06.png)
+![Elementi delle informazioni del log](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
-Dopo che è stata ha interagito con elementi del report che si desidera misurare con Performance Analyzer, è possibile selezionare i **arrestare** pulsante. Le informazioni sulle prestazioni rimangono nel riquadro dopo aver selezionato **arrestare** analisi.
+Dopo avere interagito con gli elementi del report che si intende misurare con l'analizzatore prestazioni, è possibile selezionare il pulsante **Arresta**. Dopo aver selezionato **Arresta**, le informazioni sulle prestazioni continuano a essere visibili nel riquadro in modo che sia possibile analizzarle.
 
-Per cancellare le informazioni contenute nel riquadro di Performance Analyzer, selezionare **cancellare**. Tutte le informazioni vengono cancellate e non viene salvate quando si seleziona **chiaro**. Vedere la sezione successiva per informazioni su come salvare le informazioni nei log. 
+Per cancellare le informazioni nel riquadro dell'analizzatore prestazioni, selezionare **Cancella**. Quando si seleziona **Cancella**, tutte le informazioni vengono cancellate e non vengono salvate. Per informazioni su come salvare le informazioni nei log, vedere la sezione successiva. 
 
-## <a name="refreshing-visuals"></a>L'aggiornamento di oggetti visivi
+## <a name="refreshing-visuals"></a>Aggiornamento degli oggetti visivi
 
-È possibile selezionare **Aggiorna gli oggetti visivi** nel riquadro Performance Analyzer per aggiornare tutti gli oggetti visivi nella pagina corrente del report e in tal modo sono Performance Analyzer raccogliere informazioni su tutti questi oggetti visivi.
+È possibile selezionare **Aggiorna gli oggetti visivi** nel riquadro dell'analizzatore prestazioni per aggiornare tutti gli oggetti visivi nella pagina corrente del report e quindi fare in modo che l'analizzatore prestazioni raccolga informazioni su tutti gli oggetti visivi.
 
-È anche possibile aggiornare i singoli oggetti visivi. Quando si sta registrando Performance Analyzer, è possibile selezionare **aggiornare questo oggetto visivo** nell'angolo superiore destro di ogni oggetto visivo, tale oggetto visivo, aggiornare e acquisire le informazioni sulle prestazioni.
+È anche possibile aggiornare singoli oggetti visivi. Quando l'analizzatore prestazioni esegue la registrazione, è possibile selezionare l'opzione **Aggiorna questo oggetto visivo** presente nell'angolo in alto a destra destro di ogni oggetto visivo, per aggiornare l'oggetto visivo e acquisire le informazioni sulle prestazioni.
 
-![aggiornare un singolo oggetto visivo](media/desktop-performance-analyzer/performance-analyzer-07.png)
+![Aggiornare un singolo oggetto visivo](media/desktop-performance-analyzer/performance-analyzer-07.png)
 
 ## <a name="saving-performance-information"></a>Salvataggio delle informazioni sulle prestazioni
 
-È possibile salvare le informazioni che Performance Analyzer consente di creare un report selezionando il **esportare** pulsante. Selezionando **esportare** crea un file con estensione JSON con informazioni dal riquadro Performance Analyzer. 
+Per salvare le informazioni relative a un report create dall'analizzatore prestazioni, selezionare il pulsante **Esporta**. Quando si seleziona **Esporta**, viene creato un file con estensione JSON contenente le informazioni del riquadro dell'analizzatore prestazioni. 
 
-![Salvare il file di log per l'analizzatore delle prestazioni](media/desktop-performance-analyzer/performance-analyzer-05.png)
+![Salvare il file di log per l'analizzatore prestazioni](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
 ## <a name="next-steps"></a>Passaggi successivi
