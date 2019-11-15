@@ -2,19 +2,18 @@
 title: "Esercitazione: Porre domande con l'analista virtuale Domande e risposte nelle app iOS"
 description: In questa esercitazione è possibile porre domande sui dati di esempio con parole proprie con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili sul dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869643"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Esercitazione: Porre domande sui dati con l'analista virtuale Domande e risposte nelle app Power BI per iOS
 
@@ -42,7 +41,7 @@ Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione d
 ## <a name="prerequisites"></a>Prerequisiti
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Installare l'app Power BI per iOS
-[Scaricare l'app iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app iPhone") dall'App Store di Apple nell'iPad, iPhone o iPod Touch.
+[Scaricare l'app per iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app per iPhone") dall'App Store di Apple nel dispositivo iPad, iPhone o iPod Touch.
 
 Queste versioni supportano l'app Power BI per iOS:
 - iPad con iOS 10 o versioni successive.
@@ -54,11 +53,11 @@ Il primo passaggio dell'esercitazione consiste nel download dell'esempio di anal
 
 1. Aprire il servizio Power BI nel browser (app.powerbi.com) ed eseguire l'accesso.
 
-1. Selezionare l'icona di spostamento globale per aprire il riquadro di spostamento a sinistra.
+1. Selezionare l'icona di spostamento globale per aprire il riquadro di spostamento.
 
     ![icona di spostamento globale](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro** > **Area di lavoro personale**.
+2. Nel riquadro di spostamento selezionare **Aree di lavoro** > **Area di lavoro personale**.
 
     ![Area di lavoro personale](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -72,7 +71,7 @@ Il primo passaggio dell'esercitazione consiste nel download dell'esempio di anal
 
 4. Selezionare **Esempio di analisi delle opportunità**.
  
-    ![Esempio di analisi delle opportunità](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Opportunity Analysis Sample](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Selezionare **Connetti**.  
   
@@ -117,7 +116,7 @@ Al termine dell'esercitazione è possibile eliminare il dashboard, il report e i
 
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
 
-2. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro** > **Area di lavoro personale**.
+2. Nel riquadro di spostamento selezionare **Aree di lavoro** > **Area di lavoro personale**.
 
 3. Nella scheda **Dashboard** selezionare l'icona **Elimina** a forma di bidone della spazzatura accanto al dashboard dell'esempio di analisi delle opportunità.
 

@@ -3,17 +3,16 @@ title: Registrazione diagnostica per il servizio Power BI Embedded in Azure | Mi
 description: Informazioni sulla configurazione della registrazione diagnostica per il servizio Power BI Embedded in Azure.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289860"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875969"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registrazione diagnostica per Power BI Embedded in Azure
 
@@ -29,7 +28,7 @@ L'uso della diagnostica può essere di aiuto in vari scenari, ad esempio:
 
 ### <a name="azure-portal"></a>Portale di Azure
 
-1. Nelle [portale di Azure](https://portal.azure.com) > risorsa di Power BI Embedded, selezionare **Log di diagnostica** nel riquadro di spostamento a sinistra e quindi selezionare **Turn on diagnostics** (Attiva diagnostica).
+1. Nel [portale di Azure](https://portal.azure.com) > risorsa Power BI Embedded selezionare **Log di diagnostica** nel riquadro di spostamento e quindi selezionare **Abilita diagnostica**.
 
     ![Attivare la registrazione diagnostica per Power BI Embedded nel portale di Azure](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
@@ -177,7 +176,7 @@ Selezionare **EventClass\_s** o uno dei nomi degli eventi. Log Analytics prosegu
 
 Assicurarsi di visitare [Log Analytics](https://docs.microsoft.com/azure/log-analytics/), che offre un sito Web con funzionalità avanzate per query, dashboard e avvisi sui dati raccolti.
 
-### <a name="queries"></a>query
+### <a name="queries"></a>Query
 
 Sono disponibili centinaia di query che è possibile usare. Di seguito ne sono riportate alcune per iniziare. Per altre informazioni sull'uso del nuovo linguaggio di query per le ricerche log, vedere [Informazioni sulle ricerche log in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search).
 

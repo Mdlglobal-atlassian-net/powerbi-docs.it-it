@@ -3,18 +3,17 @@ title: Registrare un'app per incorporare il contenuto di Power BI
 description: Informazioni su come registrare un'applicazione in Azure Active Directory per incorporare il contenuto di Power BI.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: eb9b5190341b50aa911f5d8aaca07bd7d04ba90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269696"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880402"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registrare un'applicazione di Azure AD da usare con Power BI
 
@@ -83,7 +82,7 @@ L'altra opzione per la registrazione dell'applicazione consiste nell'eseguire l'
 
 3. Scegliere il tenant di Azure AD selezionando l'account nell'angolo in alto a destra della pagina.
 
-4. Nel riquadro di spostamento a sinistra scegliere **Tutti i servizi**, selezionare **Registrazioni per l'app** e quindi scegliere **Nuova registrazione**.
+4. Nel riquadro di spostamento a sinistra passare a **Tutti i servizi**, selezionare **Registrazioni app** e quindi scegliere **Nuova registrazione**.
 
 5. Seguire le istruzioni e creare una nuova applicazione.
 
@@ -199,4 +198,4 @@ Oltre a quanto visualizzato nella pagina di registrazione dell'app, abilitare al
 
 Dopo avere registrato l'applicazione in Azure AD è necessario autenticare gli utenti all'interno dell'applicazione. Per altre informazioni, vedere [Autenticare gli utenti e ottenere un token di accesso di Azure AD per l'app Power BI](get-azuread-access-token.md).
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

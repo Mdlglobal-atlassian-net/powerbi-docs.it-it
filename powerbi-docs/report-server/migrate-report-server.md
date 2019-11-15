@@ -3,18 +3,17 @@ title: Migrazione di un'installazione del server di report
 description: Informazioni su come eseguire la migrazione dell'istanza di SQL Server Reporting Services esistente a un'istanza del server di report di Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/17/2019
-ms.openlocfilehash: 01c87d425b1ada76e322af411188a4a2717562d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc3b196313266be64e7a63a66f33ef4020574d2a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770179"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858886"
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrazione di un'installazione del server di report
 
@@ -35,7 +34,7 @@ La migrazione è definita come lo spostamento dei file di dati dell'applicazione
 
 La migrazione da un'istanza SSRS (modalità nativa) al server di report di Power BI è costituita da alcuni passaggi.
 
-![Eseguire la migrazione dalla modalità nativa SSRS al server di report di Power BI](media/migrate-report-server/migrate-from-ssrs-native.png "Eseguire la migrazione dalla modalità nativa SSRS al server di report di Power BI")
+![Eseguire la migrazione dalla modalità nativa SSRS al Server di report di Power BI](media/migrate-report-server/migrate-from-ssrs-native.png "Eseguire la migrazione dalla modalità nativa SSRS al Server di report di Power BI")
 
 > [!NOTE]
 > SQL Server 2008 Reporting Services e versioni successive sono supportati per la migrazione.
@@ -55,7 +54,7 @@ La migrazione da un'istanza SSRS (modalità nativa) al server di report di Power
 
 La migrazione da un'istanza SSRS (modalità integrata SharePoint) al server di report di Power BI non è diretta come la modalità nativa. Mentre questi passaggi forniscono alcune indicazioni, potrebbero esserci altri file e risorse all'interno di SharePoint che è necessario gestire al di fuori di questi passaggi.
 
-![Eseguire la migrazione dalla modalità integrata SharePoint SSRS al server di report di Power BI](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Eseguire la migrazione dalla modalità integrata SharePoint SSRS al server di report di Power BI")
+![Eseguire la migrazione dalla modalità SSRS integrata in SharePoint al Server di report di Power BI](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Eseguire la migrazione dalla modalità SSRS integrata in SharePoint al Server di report di Power BI")
 
 È necessario eseguire la migrazione del contenuto del server di report specifico da SharePoint al server di report di Power BI. È necessario avere già installato il server di report di Power BI nell'ambiente in uso. Per altre informazioni sull'installazione di un server di report di Power BI, vedere [Installare il server di report di Power BI](install-report-server.md).
 
@@ -70,10 +69,10 @@ Se si vuole copiare il contenuto del server di report dall'ambiente di SharePoin
 Sample Script
 rs.exe
 -i ssrs_migration.rss -e Mgmt2010
--s http://SourceServer/_vti_bin/reportserver
+-s https://SourceServer/_vti_bin/reportserver
 -v st="sites/bi" -v f="Shared Documents“
 -u Domain\User1 -p Password
--v ts=http://TargetServer/reportserver
+-v ts=https://TargetServer/reportserver
 -v tu="Domain\User" -v tp="Password"
 ```
 
@@ -81,7 +80,7 @@ rs.exe
 
 La migrazione da un server di report di Power BI è lo stesso processo della migrazione da SSRS (modalità nativa).
 
-![Eseguire la migrazione da server di report di Power BI a server di report di Power BI](media/migrate-report-server/migrate-from-pbirs.png "Eseguire la migrazione da server di report di Power BI a server di report di Power BI")
+![Eseguire la migrazione da un Server di report di Power BI all'altro](media/migrate-report-server/migrate-from-pbirs.png "Eseguire la migrazione da un Server di report di Power BI all'altro")
 
 * File di configurazione, applicazione e database di backup
 * Eseguire il backup della chiave di crittografia

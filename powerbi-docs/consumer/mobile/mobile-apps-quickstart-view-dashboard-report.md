@@ -2,19 +2,18 @@
 title: 'Avvio rapido: Esplorare dashboard e report nelle app per dispositivi mobili'
 description: In questa guida introduttiva si esplorano un dashboard e un report di esempio nelle app Power BI per dispositivi mobili.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 04/18/2019
 ms.author: mshenhav
-ms.openlocfilehash: 173142d9aaf2b445504028e1f7987abe21806c37
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9af245b51fa2520dca1ccca535ec44f14360a54c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60976114"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879263"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Avvio rapido: Esplorare dashboard e report nelle app Power BI per dispositivi mobili
 In questa guida introduttiva si esplorano un dashboard e un report di esempio nell'app Power BI per dispositivi mobili su un dispositivo Android. È possibile seguire la procedura anche nelle altre app per dispositivi mobili. 
@@ -35,7 +34,7 @@ I dashboard rappresentano il portale per accedere al ciclo di vita e ai processi
 Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
 
 ### <a name="install-the-power-bi-for-android-app"></a>Installare l'app Power BI per Android
-[Scaricare l'app Power BI per Android](http://go.microsoft.com/fwlink/?LinkID=544867) da Google Play.
+[Scaricare l'app Power BI per Android](https://go.microsoft.com/fwlink/?LinkID=544867) da Google Play.
 
 Power BI può essere eseguito nei dispositivi Android con sistema operativo Android 5.0 o versioni successive. Per verificare la versione nel proprio dispositivo, passare a **Impostazioni** > **Informazioni sul dispositivo** > **Versione di Android**.
 
@@ -44,11 +43,11 @@ Il primo passaggio della guida introduttiva consiste nel download dell'esempio d
 
 1. Aprire il servizio Power BI nel browser (app.powerbi.com) ed eseguire l'accesso.
 
-1. Selezionare l'icona di spostamento globale per aprire il riquadro di spostamento a sinistra.
+1. Selezionare l'icona di spostamento globale per aprire il riquadro di spostamento.
 
     ![icona di spostamento globale](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-global-nav-icon.png)
 
-2. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro** > **Area di lavoro personale**.
+2. Nel riquadro di spostamento selezionare **Aree di lavoro** > **Area di lavoro personale**.
 
     ![Area di lavoro personale](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
@@ -135,7 +134,7 @@ Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il 
 
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
 
-2. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro** > **Area di lavoro personale**.
+2. Nel riquadro di spostamento selezionare **Aree di lavoro** > **Area di lavoro personale**.
 
     La stella gialla indica che si tratta di un Preferito.
 

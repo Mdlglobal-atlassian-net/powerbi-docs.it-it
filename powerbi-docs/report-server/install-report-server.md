@@ -3,18 +3,17 @@ title: Installare il server di report di Power BI
 description: Informazioni su come installare il server di report di Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839444"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874146"
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
 
@@ -50,7 +49,7 @@ Se è stato acquistato Power BI Premium, nella scheda **Impostazioni Premium** d
 
 Se si seleziona **Chiave del server di report di Power BI** viene visualizzata una finestra di dialogo con il codice Product Key. È possibile copiarlo e usarlo durante l'installazione.
 
-![Codice Product key](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Codice Product Key del Server di report di Power BI")
+![Codice Product Key](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Codice Product Key del Server di report Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>SQL Server Enterprise Software Assurance (SA)
 
@@ -127,14 +126,14 @@ Le prenotazioni URL sono composte da un prefisso, un nome host, una porta e una 
 | Parte | Descrizione |
 | --- | --- |
 | Prefisso |Il prefisso predefinito è HTTP. Se è stato precedentemente installato un certificato SSL (Secure Sockets Layer), il programma di installazione prova a creare prenotazioni URL che usano il prefisso HTTPS. |
-| Nome host |Il nome host predefinito è un carattere jolly complesso (+). Specifica che il server di report accetta qualsiasi richiesta HTTP sulla porta designata per qualsiasi nome host risolto nel computer, tra cui `http://<computername>/reportserver`, `http://localhost/reportserver`, o `http://<IPAddress>/reportserver.` |
+| Nome host |Il nome host predefinito è un carattere jolly complesso (+). Specifica che il server di report accetta qualsiasi richiesta HTTP sulla porta designata per qualsiasi nome host risolto nel computer, tra cui `https://<computername>/reportserver`, `https://localhost/reportserver`, o `https://<IPAddress>/reportserver.` |
 | Porta |La porta predefinita è 80. Se si usa una porta diversa dalla porta 80, è necessario aggiungerla in modo esplicito all'URL quando si apre il portale Web in una finestra del browser. |
 | Directory virtuale |Per impostazione predefinita, le directory virtuali vengono create nel formato di ReportServer per il servizio Web ReportServer e Report per il portale Web. Per il servizio Web ReportServer, la directory virtuale predefinita è **reportserver**. Per il portale web, la directory virtuale predefinita è **reports**. |
 
 Un esempio di stringa dell'URL completa potrebbe essere come segue:
 
-* `http://+:80/reportserver`, fornisce l'accesso al server di report.
-* `http://+:80/reports`, fornisce l'accesso al portale Web.
+* `https://+:80/reportserver`, fornisce l'accesso al server di report.
+* `https://+:80/reports`, fornisce l'accesso al portale Web.
 
 ## <a name="firewall"></a>Firewall
 

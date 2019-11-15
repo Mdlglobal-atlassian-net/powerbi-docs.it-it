@@ -3,18 +3,17 @@ title: Pubblicare oggetti visivi di Power BI in AppSource
 description: Informazioni su come pubblicare l'oggetto visivo personalizzato in AppSource in modo che altri utenti possano individuarlo e usarlo.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: f97c38301eb69422c123503364e2e3f11ce5368a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307669"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880522"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Pubblicare oggetti visivi di Power BI in AppSource
 
@@ -152,4 +151,4 @@ Dopo aver creato l'oggetto visivo, è possibile ottenere facoltativamente la cer
 [Visualizzazioni personalizzate in Power BI](../power-bi-custom-visuals.md)  
 [*Certificare* un oggetto visivo personalizzato](../power-bi-custom-visuals-certified.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

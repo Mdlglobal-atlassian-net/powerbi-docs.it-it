@@ -3,18 +3,17 @@ title: Eseguire il push dei dati in un set di dati
 description: Eseguire il push dei dati in un set di dati di Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222148"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875459"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Eseguire il push dei dati in un set di dati di Power BI
 
@@ -43,7 +42,7 @@ Ecco le operazioni per eseguire il push dei dati in un set di dati:
 * [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [Recupera gruppi](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Viene creato un set di dati in Power BI passando una stringa JSON (JavaScript Object Notation) al servizio Power BI. Per altre informazioni su JSON, vedere l'[introduzione a JSON](http://json.org/).
+Viene creato un set di dati in Power BI passando una stringa JSON (JavaScript Object Notation) al servizio Power BI. Per altre informazioni su JSON, vedere l'[introduzione a JSON](https://json.org/).
 
 La stringa JSON per un set di dati ha il formato seguente:
 
@@ -112,13 +111,13 @@ Per uno schema di tabella di Power BI, è possibile usare i tipi di dati seguent
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Altre informazioni sul push dei dati in Power BI
 
-Per iniziare il push dei dati in un set di dati, vedere [Passaggio 1: Registrare un'app in Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) nel riquadro di spostamento a sinistra.
+Per iniziare il push dei dati in un set di dati, vedere [Passaggio 1: Registrare un'app con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) nel riquadro di spostamento.
 
 [Passaggio successivo >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Iscriversi a Power BI](create-an-azure-active-directory-tenant.md)  
-[Introduzione a JSON](http://json.org/)  
+[Introduzione a JSON](https://json.org/)  
 [Panoramica dell'API REST di Power BI](overview-of-power-bi-rest-api.md)  
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

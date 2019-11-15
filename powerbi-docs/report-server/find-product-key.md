@@ -2,19 +2,18 @@
 title: Come trovare il codice Product Key del server di report
 description: Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769619"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859692"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Come trovare il codice Product Key del server di report
 Informazioni su come è possibile trovare il codice Product Key del server di report di Power BI per installare il server in un ambiente di produzione.
@@ -42,13 +41,13 @@ Se si dispone di un contratto SQL Server Enterprise SA, è possibile ottenere il
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Centro servizi per contratti multilicenza")
+![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Installare il server di report di Power BI](install-report-server.md)  
 [Installare Power BI Desktop ottimizzato per il server di report di Power BI](install-powerbi-desktop.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

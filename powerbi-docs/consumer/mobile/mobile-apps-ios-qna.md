@@ -2,19 +2,18 @@
 title: Analista virtuale Domande e risposte nelle app iOS - Power BI
 description: Porre domande sui dati di esempio con parole proprie con l'analista virtuale Domande e risposte nell'app Power BI per dispositivi mobili sul dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977484"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879392"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtuale Domande e risposte nelle app iOS - Power BI
 
@@ -35,7 +34,7 @@ Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione d
 ## <a name="prerequisites"></a>Prerequisiti
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Installare l'app Power BI per iOS
-[Scaricare l'app iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app iPhone") dall'App Store di Apple nell'iPad, iPhone o iPod Touch.
+[Scaricare l'app per iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app per iPhone") dall'App Store di Apple nel dispositivo iPad, iPhone o iPod Touch.
 
 Queste versioni supportano l'app Power BI per iOS:
 - iPad con iOS 10 o versioni successive.
@@ -49,7 +48,7 @@ Il primo passaggio consiste nel download degli esempi di analisi delle vendite a
 
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.
 
-2. Nel riquadro di spostamento a sinistra selezionare **Aree di lavoro**, **Area di lavoro personale**.
+2. Nel riquadro di spostamento selezionare **Aree di lavoro**, **Area di lavoro personale**.
 
 3. Nell'angolo in basso a sinistra selezionare **Recupera dati**.
    
