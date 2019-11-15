@@ -2,22 +2,21 @@
 title: Navigazione nel servizio Power BI
 description: Panoramica dell'esperienza di navigazione di Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589446"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851517"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
 
@@ -57,7 +56,7 @@ All'interno dell'area di lavoro personale, il contenuto è organizzato in 4 sche
 
 ![Schermata Area di lavoro personale](./media/end-user-experience/power-bi-my-workspace.png)
 
-Selezionare un'area di lavoro nel riquadro di spostamento a sinistra: le schede relative al contenuto associato (dashboard, report, cartelle di lavoro, set di dati) vengono visualizzate nell'area di disegno di Power BI a destra.
+Selezionare un'area di lavoro nel riquadro di spostamento sinistro: le schede per il contenuto associato (dashboard, report, cartelle di lavoro, set di dati) sono visualizzate nell'area di disegno di Power BI a destra.
 
 Se si è un nuovo utente, verrà visualizzata una sola area di lavoro, ovvero **Area di lavoro personale**.
 
@@ -82,7 +81,7 @@ L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più impor
    
    ![Rimuovere da Preferiti](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. Per visualizzare l'elenco di tutti i contenuti aggiunti a Preferiti, nel riquadro di spostamento a sinistra selezionare la freccia a destra di **Preferiti**. Il riquadro di spostamento a sinistra è una funzionalità permanente del servizio Power BI, pertanto è possibile accedere a questo elenco da qualsiasi punto del servizio Power BI.
+2. Per visualizzare l'elenco di tutti i contenuti aggiunti a Preferiti, nel riquadro di spostamento sinistro selezionare la freccia a destra di **Preferiti**. Dato che il riquadro di spostamento sinistro è una funzionalità permanente, è accessibile da qualsiasi punto del servizio Power BI.
    
     ![Riquadro a comparsa Preferiti](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più impor
    
    ![Contrassegnare come preferito](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. Aprire il *riquadro* **Preferiti**, selezionando **Aggiungi a Preferiti** nel riquadro di spostamento di sinistra o selezionando l'icona a forma di stella ![](media/end-user-experience/powerbi-star-icon.png).
+3. Aprire il *riquadro* **Preferiti**, selezionando **Preferiti** nel riquadro di spostamento sinistro o selezionando l'icona a forma di stella ![screenshot dell'icona a forma di stella gialla](media/end-user-experience/powerbi-star-icon.png).
    
    ![Aprire la schermata Preferiti](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Per altre informazioni, vedere [Preferiti](end-user-favorite.md).
 
 ## <a name="locate-your-most-recent-content"></a>Individuare il contenuto più recente
 
-1. Come per Preferiti, è possibile visualizzare rapidamente il contenuto al quale è stato eseguito l'accesso più di recente da qualsiasi punto del servizio Power BI selezionando la freccia accanto a **Recenti** nel riquadro di spostamento di sinistra.
+1. Come per Preferiti, è possibile visualizzare rapidamente il contenuto aperto più di recente da qualsiasi punto del servizio Power BI selezionando la freccia accanto a **Recenti** nel riquadro di spostamento sinistro.
 
    ![Riquadro a comparsa Recenti](./media/end-user-experience/power-bi-recent-flyout.png)
 
     Dal riquadro a comparsa, selezionare il contenuto per aprirlo.
 
-2. Talvolta non si vuole semplicemente aprire il contenuto recente, ma si vuole anche visualizzare informazioni o eseguire altre azioni, ad esempio visualizzare Insights oppure esportare in Excel. In questi casi, aprire il riquadro **Recenti** selezionando **Recenti** o la relativa icona nel riquadro di spostamento di sinistra. Se si aveva più di un'area di lavoro, questo elenco includerà il contenuto di tutte le aree di lavoro.
+2. Talvolta non si vuole semplicemente aprire il contenuto recente, ma si vuole anche visualizzare informazioni o eseguire altre azioni, ad esempio visualizzare Insights oppure esportare in Excel. In questi casi, aprire il riquadro **Recenti** selezionando **Recenti** o la relativa icona nel riquadro di spostamento sinistro. Se si aveva più di un'area di lavoro, questo elenco includerà il contenuto di tutte le aree di lavoro.
 
    ![Riquadro Recenti](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,8 +137,8 @@ Per altre informazioni, vedere [Power BI navigation: search and sort](end-user-s
 Dopo aver completato questa Guida rapida, se si vuole è possibile eliminare il dashboard, il report e il set di dati dell'esempio di analisi delle vendite al dettaglio.
 
 1. Aprire il servizio Power BI (app.powerbi.com) ed eseguire l'accesso.    
-2. Nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro > Area di lavoro personale**.  
-    La stella gialla indica che si tratta di un'opzione preferita.    
+2. Nel riquadro di spostamento selezionare **Aree di lavoro > Area di lavoro personale**.  
+    La stella gialla indica che si tratta di un Preferito.    
 3. Nella scheda **Dashboard** selezionare l'icona **Elimina** a forma di bidone della spazzatura accanto al dashboard di analisi delle vendite al dettaglio.    
 
     ![Elimina dashboard](./media/end-user-experience/power-bi-cleanup.png)

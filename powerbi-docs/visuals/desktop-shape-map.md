@@ -2,20 +2,19 @@
 title: Usare forme mappa in Power BI Desktop (anteprima)
 description: Creare confronti relativi con aree usando forme mappa in Power BI Desktop
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164021"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871131"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 
@@ -61,7 +60,7 @@ Per creare **forme mappa**, seguire la procedura illustrata di seguito:
 3. È quindi possibile modificare la mappa usando le opzioni di Formattazione, ad esempio **Colore predefinito**, **Zoom** e così via. È anche possibile aggiungere una colonna di dati di categoria al bucket **Legenda** e classificare le aree delle mappe in base alle categorie.
 
 ## <a name="use-custom-maps"></a>Usare le mappe personalizzate
-È possibile usare mappe personalizzate con **Forme mappa** purché siano nel formato **TopoJSON**. Se la mappa è in un altro formato, è possibile usare strumenti online come [**Map Shaper**](http://mapshaper.org/) per convertire i *file di forma* o le mappe *GeoJSON* nel formato **TopoJSON**.
+È possibile usare mappe personalizzate con **Forme mappa** purché siano nel formato **TopoJSON**. Se la mappa è in un altro formato, è possibile usare strumenti online come [**Map Shaper**](https://mapshaper.org/) per convertire i *file di forma* o le mappe *GeoJSON* nel formato **TopoJSON**.
 
 Per usare il file di mappa **TopoJSON**, aggiungere un oggetto visivo ShapeMap al report e aggiungere alcuni dati nei bucket *Percorso* e *Saturazione colore*. Quindi, nel riquadro **Visualizzazioni** con la sezione **Formato** selezionata (mostrata come (1) nell'immagine seguente), espandere la sezione **Forma** e selezionare **+ Aggiungi mappa**.
 
@@ -82,7 +81,7 @@ Poiché gli stati degli Stati Uniti possono essere suddivisi in distretti, è ne
 
 Per eseguire test con questo set di dati e questa visualizzazione, è possibile scaricare il file originale con estensione pbix usato per generare il report usando il collegamento seguente.
 
-* [File demo con estensione pbix delle forme mappa personalizzate](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [File demo con estensione pbix delle forme mappa personalizzate](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Recupero dei dati mappa
 Per inserire rapidamente i dati in un modello per poter testare le **forme mappa**, è possibile copiare una delle tabelle riportate alla fine di questo articolo, quindi selezionare **Immettere i dati** dalla barra multifunzione **Home**.
@@ -108,7 +107,7 @@ Per questa versione di anteprima di **forme mappa** è necessario tenere conto d
 * L'oggetto visivo **forme mappa** è disponibile in anteprima e deve essere abilitato in Power BI Desktop. Per abilitare **Forme mappa**, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo **Oggetto visivo forme mappa**.
 * Attualmente deve essere impostato anche il bucket **Saturazione colore** perché la classificazione **Legenda** funzioni correttamente.
 * La versione finale di **Forme mappa** avrà un'interfaccia utente che mostra le chiavi della mappa selezionata. Non è ancora stata definita la data della versione finale e la funzionalità **Forme mappa** è ancora in anteprima. In questa versione di anteprima è possibile fare riferimento alle chiavi delle aree della mappa nelle tabelle disponibili nella sezione **Chiavi area** di seguito in questo articolo.
-* L'oggetto visivo **Forme mappa** traccia un massimo di 1000 punti dati.
+* L'oggetto visivo **Forme mappa** traccia un massimo di 1500 punti dati.
 
 ## <a name="region-keys"></a>Chiavi area
 

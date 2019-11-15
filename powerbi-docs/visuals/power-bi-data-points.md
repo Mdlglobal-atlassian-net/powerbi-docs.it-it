@@ -2,20 +2,19 @@
 title: Set di dati di grandi dimensioni, limiti dei punti dati e strategie per i dati
 description: Limiti dei dati per gli oggetti visivi e strategie per la riduzione dei dati
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b45d0fb20dbb9a697e6d079a6b28c0fc86290627
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276427"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881068"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Limiti dei dati per gli oggetti visivi e strategie in base al tipo di oggetto visivo
 
@@ -64,7 +63,7 @@ Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../desktop-
 - In modalità per categorie
     - Categorie: virtualizzazione con finestra di 500 righe alla volta
     - Serie: prime 60
-    - In modalità scalare (potrebbe usare limiti dinamici)
+    - In modalità scalare (potrebbero essere usati limiti dinamici)
         - Max punti: 10.000
         - Categorie: campione di 500 valori
         - Serie: primi 20 valori
@@ -109,12 +108,12 @@ Vedere [Campionamento ad alta densità](../desktop-high-density-sampling.md)
 A seconda della configurazione, una mappa può avere:
 - Posizione: primi 3.500
 - Posizione, dimensioni: primi 3.500
-- Aggregazioni di posizione, latitudine e longitudine (+ /-dimensioni): primi 3.500
+- Aggregazioni di posizione, latitudine e longitudine (+/-dimensioni): primi 3.500
 - Latitudine, longitudine: vedere [Campionamento ad alta densità nei grafici a dispersione](desktop-high-density-scatter-charts.md)
 - Latitudine, longitudine, dimensioni: primi 3.500
 - Legenda, latitudine, longitudine: vedere [Campionamento ad alta densità nei grafici a dispersione](desktop-high-density-scatter-charts.md)
 - Legenda, latitudine, longitudine, dimensioni: prime 233 legende, primi 15 valori di latitudine e longitudine (potrebbero essere usati limiti dinamici o statistiche)
-- Posizione, legenda, longitudine e latitudine come aggregazioni (+/- dimensioni): prime 233 posizioni, prime 15 legende (potrebbero essere usati limiti dinamici o statistiche)
+- Posizione, legenda, longitudine e latitudine come aggregazioni (+/-dimensioni): prime 233 posizioni, prime 15 legende (potrebbero essere usati limiti dinamici o statistiche)
 
 ### <a name="matrix"></a>Matrice
 - Righe: virtualizzazione con finestra di 500 righe alla volta
@@ -142,21 +141,21 @@ Limitati a 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono 
 - In modalità per categorie
     - Categorie: Virtualizzazione (windowing dei dati) usando una finestra di 500 righe alla volta
     - Serie: prime 60
-    - In modalità scalare (potrebbe usare limiti dinamici)
+    - In modalità scalare (potrebbero essere usati limiti dinamici)
         - Max punti: 10.000
         - Categorie: campione di 500 valori
         - Serie: primi 20 valori
 
-### <a name="shape-map"></a>Forme mappa
-La mappa colorata può usare statistiche o limiti dinamici. 
-- Max punti: 10.000
+### <a name="shape-map-preview"></a>Forme mappe (anteprima)
+L'opzione forme mappe può usare statistiche o limiti dinamici. 
+- Max punti: 1.500
 - Categorie: primi 500
 - Serie (se sono presenti sia X che Y): primi 20
 
 ### <a name="table"></a>Tabella
 - Valori: Virtualizzazione (windowing dei dati) usando una finestra di 500 righe alla volta
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Mappa ad albero (potrebbero essere usati limiti dinamici o statistiche)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>Mappa ad albero (potrebbero essere usati limiti dinamici o statistiche)
 - Max punti: 3.500
 - Gruppo: primi 500
 - Dettagli: primi 20

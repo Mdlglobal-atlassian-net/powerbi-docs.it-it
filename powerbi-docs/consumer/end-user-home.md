@@ -2,7 +2,6 @@
 title: Trovare il contenuto nel servizio Power BI
 description: Iniziare dall'area Home e individuare e aprire report, dashboard e app.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d97b5a93060869d65de6652af869b472baf8cd10
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: b905b738dc9fa38e390a94fb1b893aba8e45a0db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71077785"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863705"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Trovare i dashboard, i report e le app
 In Power BI il termine *contenuto* si riferisce ad app, dashboard e report. Il contenuto viene creato dai *progettisti* di Power BI, che lo condividono con i colleghi. Il contenuto è accessibile e visualizzabile nel servizio Power BI e il punto di partenza migliore per lavorare in Power BI è la pagina di destinazione principale.
@@ -28,7 +27,7 @@ Quando si accede, Power BI si apre e visualizza l'area Home, come illustrato nel
 Home di Power BI consente di individuare e visualizzare il contenuto in tre modi diversi. Tutti e tre permettono di accedere allo stesso pool di contenuti, sono semplicemente modi diversi per ottenere tale contenuto. In alcuni casi, la ricerca sarà il modo più semplice e rapido per trovare qualcosa, in altri invece l'opzione migliore consisterà nel selezionare una *scheda* nell'area Home.
 
 - L'area Home visualizza e organizza i contenuti preferiti e più recenti, oltre ai contenuti consigliati e alle risorse per l'apprendimento. Ogni parte del contenuto viene visualizzata come *scheda*, con un titolo e un'icona. Selezionando una scheda si apre il contenuto.
-- Lungo il lato sinistro si trova un riquadro di spostamento, denominato barra di spostamento. In questo riquadro lo stesso contenuto è organizzato in modo leggermente diverso, in Preferiti, Recenti, App e Condivisi con l'utente corrente. Da qui è possibile visualizzare gli elenchi di contenuto e selezionare quello da aprire.
+- Lungo il lato sinistro si trova un riquadro di spostamento. In questo riquadro lo stesso contenuto è organizzato in modo leggermente diverso, in Preferiti, Recenti, App e Condivisi con l'utente corrente. Da qui è possibile visualizzare gli elenchi di contenuto e selezionare quello da aprire.
 - Nell'angolo superiore destro la casella di ricerca globale consente di cercare il contenuto in base al titolo, al nome o alla parola chiave.
 
 Negli argomenti seguenti vengono esaminate tutte le opzioni disponibili per la ricerca e la visualizzazione del contenuto.
@@ -65,23 +64,23 @@ In base all'attività e alle impostazioni dell'account, Power BI visualizza un s
 ### <a name="learning-resources"></a>Risorse per l'apprendimento
 Nella parte inferiore dell'area Home è presente un set di risorse per l'apprendimento. Le risorse esatte visualizzate dipendono dall'attività e dalle impostazioni e dall'amministratore di Power BI. 
  
-## <a name="explore-the-navigation-pane-nav-bar"></a>Esplorare il riquadro di spostamento (barra di spostamento)
+## <a name="explore-the-nav-pane"></a>Esplorare il riquadro di spostamento
 
-![Screenshot della barra di spostamento per il servizio Power BI.](media/end-user-home/power-bi-nav-bar.png)
+![Screenshot del riquadro di spostamento per il servizio Power BI.](media/end-user-home/power-bi-nav-bar.png)
 
 
-Usare il riquadro di spostamento (barra di spostamento) a sinistra per individuare e spostarsi tra dashboard, report e app. In alcuni casi, l'uso della barra di spostamento sarà il modo più rapido per ottenere il contenuto.
-La barra di spostamento viene visualizzata quando si apre la pagina di destinazione Home e rimane statica mentre si aprono altre aree del servizio Power BI.
+Usare il riquadro di spostamento per individuare e spostarsi tra dashboard, report e app. In alcuni casi, l'uso del riquadro di spostamento è il modo più rapido per accedere al contenuto.
+Il riquadro di spostamento viene visualizzato quando si apre la pagina di destinazione Home e rimane statico mentre si aprono altre aree del servizio Power BI.
   
-La barra di spostamento organizza il contenuto in contenitori simili a quelli già visti nell'area Home: Preferiti, Recenti, App e Condivisi con l'utente corrente. Usando i riquadri a comparsa, è possibile visualizzare solo il contenuto più recente in ognuno di questi contenitori oppure è possibile passare agli elenchi di contenuto per visualizzare tutto il contenuto per ogni categoria di contenitore.
+Il riquadro di spostamento organizza il contenuto in contenitori simili a quelli già visti nell'area Home: Preferiti, Recenti, App e Condivisi con l'utente corrente. Usando i riquadri a comparsa, è possibile visualizzare solo il contenuto più recente in ognuno di questi contenitori oppure è possibile passare agli elenchi di contenuto per visualizzare tutto il contenuto per ogni categoria di contenitore.
  
 - Per aprire una di queste sezioni di contenuto e visualizzare un elenco di tutti gli elementi, selezionare l'intestazione.
 - Per visualizzare gli elementi più recenti in ogni contenitore, selezionare il riquadro a comparsa ( **>** ).
 
-    ![Video relativo all'uso della barra di spostamento per Recenti](media/end-user-home/power-bi-nav-bar.gif)
+    ![Video sull'uso del riquadro di spostamento per Recenti](media/end-user-home/power-bi-nav-bar.gif)
 
  
-La barra di spostamento è un altro modo per trovare rapidamente il contenuto desiderato. Il contenuto è organizzato in modo simile all'area Home, ma viene visualizzato in elenchi invece che in schede. 
+Il riquadro di spostamento offre un altro modo per trovare rapidamente il contenuto desiderato. Il contenuto è organizzato in modo simile all'area Home, ma viene visualizzato in elenchi invece che in schede. 
 
 ## <a name="search-all-of-your-content"></a>Cercare tutto il contenuto
 In alcuni casi, il modo più rapido per trovare il contenuto è cercarlo. Si supponga, ad esempio, di essersi accorti che un dashboard che non viene usato da un po' non è visualizzato nell'area Home o magari si ricorda che il collega Aaron lo ha condiviso, ma non si ricorda come lo ha chiamato o che tipo di contenuto ha condiviso, indipendentemente dal fatto che fosse un dashboard o un report.

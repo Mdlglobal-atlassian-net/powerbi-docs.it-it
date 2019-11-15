@@ -2,7 +2,6 @@
 title: Esportare dati da una visualizzazione di Power BI
 description: Esportare dati da una visualizzazione di report e da una visualizzazione di dashboard e visualizzarli in Excel.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
@@ -11,16 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 6ee1b0aa9ff6e3b0668d208775cbea50534b1572
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431101"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880882"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 
-È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione e anche esportarli in Excel come file con estensione *xlsx* o *csv*. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report.
+È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione e anche esportarli in Excel come file con estensione *xlsx* o *csv*. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel report, salvati come file con estensione *xlsx* e aperti in Excel. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
 
@@ -152,7 +151,7 @@ Per impostare queste opzioni:
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizio Power BI, tra cui Power BI Pro e Premium.
 
-- Per esportare i dati da un oggetto visivo, è necessario disporre dell'[autorizzazione di compilazione per il set di dati sottostante](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
+- Per esportare i dati da un oggetto visivo, è necessario disporre dell'[autorizzazione di compilazione per il set di dati sottostante](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
 
 -  Il numero massimo di righe che **Power BI Desktop** e il **servizio Power BI** possono esportare da un **report in modalità di importazione** in un file *CSV* è 30.000.
 
@@ -160,13 +159,13 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
 
 - L'esportazione mediante *Dati sottostanti* non funziona nei casi seguenti:
 
-  - L'origine dati è una connessione dinamica ad Analysis Services.
+  - L'origine dati è una connessione dinamica ad Azure Analysis Services o a SQL Server Analysis Services.
 
   - La versione è anteriore al 2016.
 
-  - Le tabelle nel modello non dispongono di una chiave univoca.
+  - Le tabelle nel modello non hanno una chiave univoca.
     
-  -  Se un amministratore o un progettista di report ha disabilitato questa funzionalità.
+  -  Un amministratore o un progettista di report ha disabilitato questa funzionalità.
 
 - L'esportazione tramite *Dati sottostanti* non funziona se si abilita l'opzione *Mostra elementi senza dati* per la visualizzazione esportata da Power BI.
 
@@ -196,4 +195,4 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
 
 - Gli amministratori di Power BI possono disabilitare l'esportazione dei dati.
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

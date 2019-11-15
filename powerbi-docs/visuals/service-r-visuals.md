@@ -2,20 +2,19 @@
 title: Creare analisi e visualizzazioni avanzate con gli script R
 description: Usare script R in Power BI per creare analisi e visualizzazioni avanzate
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 93b3be374707b3e49f87d0875795d160f4530410
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: f3b5cd09e77ed3530b9040edec46712171d061dd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655014"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880661"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Creazione di oggetti visivi R nel servizio Power BI
 Il servizio Power BI supporta la visualizzazione e l'interazione con oggetti visivi creati con gli script R. Gli oggetti visivi creati con gli script R, comunemente denominati *oggetti visivi R*, possono presentare funzionalità avanzate di data shaping e analisi, ad esempio le previsioni, usando le funzionalità avanzate di analisi e visualizzazione di R.
@@ -27,23 +26,23 @@ Il servizio Power BI supporta la visualizzazione e l'interazione con oggetti vis
 
 L'immagine seguente mostra un dashboard di Power BI con una raccolta di oggetti visivi R usati per l'analisi avanzata.
 
-![](media/service-r-visuals/r-visuals-service_1.png)
+![Screenshot dell'area di disegno report del servizio Power BI](media/service-r-visuals/r-visuals-service_1.png)
 
 Gli oggetti visivi R vengono creati in un [report di Power BI Desktop](../desktop-get-the-desktop.md), simile al report mostrato nell'immagine seguente.
 
-![](media/service-r-visuals/r-visuals-service_2a.png)
+![Report desktop con due oggetti visivi](media/service-r-visuals/r-visuals-service_2a.png)
 
 Dopo aver creato il report in **Power BI Desktop**, è possibile pubblicare il report che contiene uno o più oggetti visivi di R nel servizio Power BI. Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per maggiori informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R (Power BI Desktop)](../desktop-r-visuals.md).
 
 Si noti che non tutti i pacchetti R sono supportati nel servizio. L'elenco dei pacchetti attualmente supportati nel servizio Power BI è riportato alla fine di questo articolo.
 
-È possibile scaricare il [file Power BI Desktop di esempio](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (file PBIX) che contiene alcuni oggetti visivi R utili per vedere il funzionamento del servizio e provare a usarlo.
+È possibile scaricare il [file Power BI Desktop di esempio](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (file PBIX) che contiene alcuni oggetti visivi R utili per vedere il funzionamento del servizio e provare a usarlo.
 
 Gli oggetti visivi R che vengono creati in **Power BI Desktop**, e quindi pubblicati nel servizio Power BI, nella maggior parte dei casi si comportano come qualsiasi altro oggetto visivo nel servizio Power BI; è possibile interagire con essi, filtrarli, suddividerli e quindi aggiungerli a un dashboard oppure condividerli con altri. Per maggiori informazioni sulla condivisione di dashboard e oggetti visivi, vedere [Condividere un dashboard con i colleghi e altri utenti](../service-share-dashboards.md). Rispetto ad altri oggetti visivi, gli oggetti visivi R non possono visualizzare descrizioni comandi e non possono essere usati per filtrare altri oggetti visivi.
 
 Come è possibile vedere nell'immagine seguente, gli oggetti visivi R nel servizio Power BI, in dashboard o report, nella maggior parte dei casi vengono visualizzati e si comportano come qualsiasi altro oggetto visivo e non richiedono la conoscenza dello script R sottostante da parte degli utenti.
 
-![](media/service-r-visuals/r-visuals-service_3a.png)
+![screenshot della pagina di report nel servizio Power BI](media/service-r-visuals/r-visuals-service_3a.png)
 
 ## <a name="r-scripts-security"></a>Sicurezza degli script R
 Gli oggetti visivi R vengono creati in base agli script R, che potrebbero contenere codice con rischi per la sicurezza o per la privacy.
@@ -61,7 +60,7 @@ In caso di errore di uno script R, l'oggetto visivo R non viene tracciato e vien
 
 Come ulteriore esempio, l'immagine seguente mostra il messaggio di errore visualizzato quando uno script R non è stato eseguito correttamente a causa di un pacchetto R mancante in Azure.
 
-![](media/service-r-visuals/r-visuals-service_5.png)
+![Screenshot che mostra un errore di runtime](media/service-r-visuals/r-visuals-service_5.png)
 
 ## <a name="licensing"></a>Gestione delle licenze
 Gli oggetti visivi R richiedono una licenza [Power BI Pro](../service-self-service-signup-for-power-bi.md) per il rendering nei report, l'aggiornamento, il filtro e il filtro incrociato. Per maggiori informazioni sulle licenze Power BI Pro e sugli aspetti che le distinguono dalle licenze gratuite, vedere [Contenuto Power BI Pro: di cosa si tratta?](../service-admin-purchasing-power-bi-pro.md)

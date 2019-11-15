@@ -2,21 +2,20 @@
 title: Suggerimenti e consigli per le mappe (inclusa l'integrazione di Bing Maps)
 description: 'Suggerimenti e consigli per le viste mappa di Power BI, oggetti visivi, località, longitudine e latitudine e rispettivo funzionamento con Bing Maps. '
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: dd35f06a685d1fd4620ef6a2ee3dc7f90e702a6a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61411848"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881029"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
 Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione della mappa autonomamente, richiede l'aiuto di Bing Maps. 
@@ -26,12 +25,13 @@ L'utente, o l'amministratore, potrebbe dover aggiornare il firewall per consenti
 * https://platform.bing.com/geo/spatial/v1/public/Geodata
 * https://www.bing.com/api/maps/mapcontrol
 
-Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrette, usare i suggerimenti seguenti. Il primo set di suggerimenti serve se si ha accesso al set di dati, mentre il secondo set di suggerimenti contiene le operazioni che è possibile eseguire in Power BI se non si ha accesso al set di dati. E il set finale è un elenco di URL
+Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrette, usare i suggerimenti seguenti. Il primo set di suggerimenti serve se si ha accesso al set di dati, mentre il secondo set di suggerimenti contiene le operazioni che è possibile eseguire in Power BI se non si ha accesso al set di dati. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>Cosa viene inviato a Bing Maps?
 Il servizio di Power BI e Power BI Desktop inviano a Bing i dati geografici necessari per creare la visualizzazione mappa. Sono inclusi i dati nel bucket **Posizione**, **Latitudine**, e **Longitudine** e i campi geografici in uno dei bucket del filtro **Livello report**, **Page level** (Livello pagina) o **Visual level** (Livello oggetto visivo). Per la precisione gli elementi inviati variano in base al tipo di mappa. Per altre informazioni, vedere [Privacy di Bing Mappe](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Per le mappe, in particolare per le mappe a bolle, se vengono indicati i valori di latitudine e longitudine non viene inviato alcun dato a Bing. In caso contrario, tutti i dati nei bucket **Posizione** e filtro vengono inviati a Bing.     
+* Per le mappe, in particolare per le mappe a bolle, a dispersione e con tracciato a punti, se vengono indicati i valori di latitudine e longitudine non viene inviato alcun dato a Bing. In caso contrario, tutti i dati nei bucket **Posizione** e filtro vengono inviati a Bing.     
+
 * Le mappe colorate richiedono un campo nel bucket **Posizione**, anche se vengono forniti i valori latitudine e longitudine. Qualsiasi dato incluso nel bucket **Posizione**, **Latitudine** o **Longitudine** viene inviato a Bing.
   
     Nell'esempio seguente, il campo **Fornitore** viene usato per la codifica geografica, pertanto tutti i dati del fornitore vengono inviati a Bing. I dati dei bucket **Dimensioni** e **Saturazione colore** non vengono inviati a Bing.
@@ -47,7 +47,7 @@ Se si ha accesso al set di dati usato per creare la visualizzazione della mappa,
 
 **1. Classificare i campi geografici in Power BI Desktop**
 
-In Power BI Desktop è possibile assicurarsi che la codifica geografica dei campi venga eseguita correttamente impostando la *categoria di dati* per i campi dati. Selezionare la tabella specifica, passare alla scheda **Avanzate** della barra multifunzione e quindi impostare **Categoria di dati** su **Indirizzo**, **Città**, **Continente**, **Paese/area geografica**, **Paese**, **Codice postale**, **Stato** o **Provincia**. Queste categorie di dati consentiranno a Bing di codificare correttamente la data. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](../desktop-data-categorization.md). Se si esegue una connessione dinamica a SQL Server Analysis Services, sarà necessario impostare la categorizzazione dei dati all'esterno di Power BI usando [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
+In Power BI Desktop è possibile assicurarsi che la codifica geografica dei campi venga eseguita correttamente impostando la *categoria di dati* per i campi dati. In Vista dati selezionare la colonna desiderata. Sulla barra multifunzione selezionare la scheda **Modellazione** e impostare **Categoria di dati** su **Indirizzo**, **Città**, **Continente**, **Paese/area geografica**, **Regione**, **Codice postale**, **Stato** o **Provincia**. Queste categorie di dati consentiranno a Bing di codificare correttamente la data. Per altre informazioni, vedere [Categorizzazione dei dati in Power BI Desktop](../desktop-data-categorization.md). Se si esegue una connessione dinamica a SQL Server Analysis Services, sarà necessario impostare la categorizzazione dei dati all'esterno di Power BI usando [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Usare più colonne di località.**     
  In alcuni casi, anche l'impostazione delle categorie di dati per la creazione di mappe non è sufficiente per consentire a Bing di individuare correttamente la posizione. Alcune designazioni sono ambigue perché la località esiste in più paesi o aree geografiche. Ad esempio, esiste una città chiamata ***Southampton*** in Inghilterra, Pennsylvania e New York.
@@ -56,7 +56,7 @@ Power BI usa il [servizio del modello URL non strutturato](https://msdn.microsof
 
  Ad esempio, se si ha solo una colonna Città, Bing potrebbe riscontrare problemi nella geocodifica. Aggiungere altre colonne geografiche per ovviare alle ambiguità della località.  A volte non serve altro che aggiungere un'altra colonna di località al set di dati, in questo caso stato/provincia. Non dimenticare poi di suddividerlo correttamente in categorie (vedere il punto 1).
 
-Assicurarsi che ogni campo contenta solo le informazioni specifiche associate alla categorizzazione.  Ad esempio, il campo di posizione Città dovrebbe essere **Southampton**, non **Southampton, New York**,  e i campi di posizione Indirizzo dovrebbero essere **1 Microsoft Way** e non **1 Microsoft Way, Redmond, WA**.
+Verificare che ogni campo includa una sola categoria di località. Ad esempio, il campo di posizione Città dovrebbe essere **Southampton**, non **Southampton, New York**,  e i campi di posizione Indirizzo dovrebbero essere **1 Microsoft Way** e non **1 Microsoft Way, Redmond, WA**.
 
 **3. Usare latitudine e longitudine specifiche**
 
@@ -84,8 +84,8 @@ Quando il set di dati ha già diversi livelli di dati sulla posizione, è possib
 
 Quando si esaminano le gerarchie geografiche, è importante conoscere il funzionamento di ogni pulsante di espansione e ciò che viene inviato a Bing Maps. 
 
-* Il pulsante di espansione a destra, chiamato Modalità di espansione ![](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png), consente di selezionare una posizione sulla mappa ed eseguire il drill-down in quella posizione specifica un livello alla volta. Ad esempio, se si attiva Drill-down e si fa clic su America del Nord, ci si sposta verso il basso nella gerarchia al livello successivo, cioè gli stati nell'America del Nord. Per la geocodifica, Power BI invia a Bing Maps solo i dati relativi a paesi e stati dell'America del Nord.  
-* A sinistra ci sono altre due opzioni di analisi. La prima opzione, ![](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png), esegue il drill-down fino al livello successivo della gerarchia per tutte le posizioni in una sola volta. Ad esempio, se si stanno attualmente esaminando paesi e quindi si usa questa opzione per spostarsi il livello successivo, cioè gli stati, Power BI visualizza i dati relativi agli stati per tutti i paesi. Per la geocodifica, Power BI invia a Bing Maps i dati di stato (nessun dato paese) per tutte le posizioni. Questa opzione è utile se ogni livello della gerarchia non è correlato al livello direttamente superiore. 
+* Il pulsante Modalità di espansione all'estrema destra ![Icona Modalità di espansione](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) , consente di selezionare una posizione sulla mappa ed eseguire il drill-down in quella specifica posizione un livello alla volta. Ad esempio, se si attiva Drill-down e si fa clic su America del Nord, ci si sposta verso il basso nella gerarchia al livello successivo, cioè gli stati nell'America del Nord. Per la geocodifica, Power BI invia a Bing Maps solo i dati relativi a paesi e stati dell'America del Nord.  
+* A sinistra ci sono altre due opzioni di analisi. La prima opzione, ![la prima opzione di espansione](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) , esegue il drill-down fino al livello successivo della gerarchia per tutte le posizioni contemporaneamente. Ad esempio, se si stanno attualmente esaminando paesi e quindi si usa questa opzione per spostarsi il livello successivo, cioè gli stati, Power BI visualizza i dati relativi agli stati per tutti i paesi. Per la geocodifica, Power BI invia a Bing Maps i dati di stato (nessun dato paese) per tutte le posizioni. Questa opzione è utile se ogni livello della gerarchia non è correlato al livello direttamente superiore. 
 * La seconda opzione, ![il drill-down con le mappe](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) è simile al drill-down, ad eccezione del fatto che non è necessario fare clic sulla mappa,  perché si espande verso il basso fino al livello successivo della gerarchia ricordando il contesto del livello corrente. Ad esempio, se si stanno esaminando i paesi si seleziona questa icona, ci si sposta verso il basso nella gerarchia al livello successivo, cioè gli stati. Per la geocodifica, Power BI invia i dati per ogni stato e il corrispondente paese per consentire a Bing Maps di eseguire la geocodifica in modo più accurato. Nella maggior parte delle mappe, si userà questa opzione o l'opzione di drill-down a destra, per poter inviare a Bing quante più informazioni possibili con cui ottenere informazioni sul percorso accurate. 
 
 ## <a name="next-steps"></a>Passaggi successivi
@@ -93,5 +93,5 @@ Quando si esaminano le gerarchie geografiche, è importante conoscere il funzion
 
 [Visualizzazioni di Power BI](power-bi-report-visualizations.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 
