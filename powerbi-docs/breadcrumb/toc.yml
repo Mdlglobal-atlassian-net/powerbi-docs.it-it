@@ -18,3 +18,6 @@
         - name: di report di Power BI
           tocHref: /power-bi/report-server/
           topicHref: /power-bi/report-server/get-started
+        - name: Informazioni aggiuntive
+          tocHref: /power-bi/guidance/
+          topicHref: /power-bi/guidance/index
