@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: Origini dati di Power BI
               href: service-get-data.md
+            - name: Informazioni sui set di dati di Power BI
+              href: service-datasets-understand.md
+            - name: Informazioni sulle modalità dei set di dati di Power BI
+              href: service-dataset-modes-understand.md
             - name: Aggiornamento dei dati in Power BI
               href: refresh-data.md
         - name: Collaborazione in Power BI
@@ -1089,7 +1093,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: Gestire l'origine dati aziendale - SQL
+            - name: 'Gestire l''origine dati aziendale - SQL '
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
@@ -1125,31 +1129,3 @@
       items:
         - name: Aggiornamenti mensili dei gateway
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Informazioni aggiuntive
-  items:
-    - name: Panoramica
-      href: guidance/overview.md
-    - name: Che cos'è uno schema a stella?
-      href: guidance/star-schema.md
-    - name: Ridurre le dimensioni del modello di dati
-      href: guidance/import-modeling-data-reduction.md
-    - name: Confronto tra funzione DIVIDE e operatore di divisione (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: Importanza della riduzione delle query
-      href: guidance/power-query-folding.md
-    - name: Uso appropriato delle funzioni di errore
-      href: guidance/dax-error-functions.md
-    - name: Procedure consigliate per i flussi di dati
-      href: service-dataflows-best-practices.md
-    - name: Linee guida per il modello DirectQuery in Power BI Desktop
-      href: guidance/directquery-model-guidance.md
-    - name: White paper
-      items:
-        - name: Panoramica dei white paper
-          href: whitepapers.md
-        - name: White paper sulla sicurezza di Power BI
-          href: whitepaper-powerbi-security.md
-        - name: Distribuzione di Power BI Premium
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: Distribuire Power BI esternamente usando Azure Active Directory B2B
-          href: whitepaper-azure-b2b-power-bi.md

@@ -1,0 +1,36 @@
+- name: Documentazione delle linee guida per Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Panoramica
+      expanded: true
+      items:
+        - name: Panoramica
+          href: overview.md
+    - name: Concetti
+      expanded: true
+      items:
+        - name: Che cos'è uno schema a stella?
+          href: star-schema.md
+        - name: Ridurre le dimensioni del modello di dati
+          href: import-modeling-data-reduction.md
+        - name: Confronto tra funzione DIVIDE e operatore di divisione (/)
+          href: dax-divide-function-operator.md
+        - name: Importanza della riduzione delle query
+          href: power-query-folding.md
+        - name: Uso appropriato delle funzioni di errore
+          href: dax-error-functions.md
+        - name: Procedure consigliate per i flussi di dati
+          href: ../service-dataflows-best-practices.md
+        - name: Linee guida per il modello DirectQuery in Power BI Desktop
+          href: directquery-model-guidance.md
+    - name: White paper
+      items:
+        - name: Panoramica dei white paper
+          href: ../whitepapers.md
+        - name: White paper sulla sicurezza di Power BI
+          href: ../whitepaper-powerbi-security.md
+        - name: Distribuzione di Power BI Premium
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Distribuire Power BI esternamente usando Azure Active Directory B2B
+          href: ../whitepaper-azure-b2b-power-bi.md

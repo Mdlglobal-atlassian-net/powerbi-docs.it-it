@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: Documentazione delle linee guida per Power BI
+summary: La documentazione delle linee guida per Power BI include le procedure consigliate dal team che realizza Power BI e da altri esperti che lavorano con i clienti aziendali Microsoft. Sono disponibili informazioni di grande utilità per migliorare le prestazioni di Power BI e usarlo con successo. Questi articoli verranno aggiornati e integrati non appena saranno disponibili nuove informazioni.
+metadata:
+  title: Documentazione delle linee guida per Power BI
+  description: La documentazione delle linee guida per Power BI include le procedure consigliate dal team che realizza Power BI e da altri esperti che lavorano con i clienti aziendali Microsoft. Sono disponibili informazioni di grande utilità per migliorare le prestazioni di Power BI e usarlo con successo. Questi articoli verranno aggiornati e integrati non appena saranno disponibili nuove informazioni.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133843"
+landingContent:
+- title: Linee guida per Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Linee guida per Power BI
+      url: overview.md
+    - text: Panoramica dei white paper
+      url: ../whitepapers.md
+- title: Modellazione dei dati
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Che cos'è uno schema a stella?
+      url: star-schema.md
+    - text: Tecniche di riduzione dei dati
+      url: import-modeling-data-reduction.md
+    - text: Importanza della riduzione delle query
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Confronto tra funzione DIVIDE e operatore di divisione
+      url: dax-divide-function-operator.md
+    - text: Uso appropriato delle funzioni di errore
+      url: dax-error-functions.md
+- title: Flussi di dati
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Procedure consigliate per i flussi di dati
+      url: ../service-dataflows-best-practices.md
