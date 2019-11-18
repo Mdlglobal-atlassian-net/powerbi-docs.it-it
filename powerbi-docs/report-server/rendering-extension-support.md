@@ -100,13 +100,13 @@ Non applicabile
 
 Non applicabile
 
-## <a name="disclaimer"></a>Dichiarazione di non responsabilità
+## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. Tutti i diritti sono riservati. I nomi di società e prodotti effettivi citati in questo documento possono essere marchi dei rispettivi proprietari. Le informazioni contenute in questo documento rappresentano il punto di vista corrente di Microsoft Corporation in merito ai problemi discussi alla data della pubblicazione. Microsoft non garantisce l'accuratezza di eventuali informazioni presentate dopo la data di pubblicazione. Microsoft aggiorna regolarmente i propri siti Web con nuove informazioni sull'accessibilità dei prodotti, non appena tali informazioni diventano disponibili.
+© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
-La personalizzazione del prodotto annulla questa dichiarazione di conformità di Microsoft. Per le specifiche di compatibilità dei singoli prodotti Assistive Technology, rivolgersi ai fornitori di Assistive Technology.
+Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-Questo documento è esclusivamente a scopo informativo. MICROSOFT NON RILASCIA ALCUNA GARANZIA, ESPRESSA O IMPLICITA, IN QUESTO DOCUMENTO.
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>Passaggi successivi
