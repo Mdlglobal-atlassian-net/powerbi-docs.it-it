@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: f97c38301eb69422c123503364e2e3f11ce5368a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880522"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128051"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Pubblicare oggetti visivi di Power BI in AppSource
 
@@ -142,13 +142,13 @@ Dopo l'invio, sarà possibile visualizzare lo stato di invio nel [dashboard dell
 
 ## <a name="certify-your-visual"></a>Certificare l'oggetto visivo
 
-Dopo aver creato l'oggetto visivo, è possibile ottenere facoltativamente la certificazione per tale oggetto. Per questo motivo, è possibile eseguirlo all'interno del servizio Power BI e usarlo con altre funzionalità del servizio, quali l'esportazione in PowerPoint. Per altre informazioni, vedere [*Certificare* un oggetto visivo personalizzato](../power-bi-custom-visuals-certified.md).
+Dopo aver creato l'oggetto visivo, è possibile ottenere facoltativamente la certificazione per tale oggetto. Per questo motivo, è possibile eseguirlo all'interno del servizio Power BI e usarlo con altre funzionalità del servizio, quali l'esportazione in PowerPoint. Per altre informazioni, vedere [*Certificare* un oggetto visivo personalizzato](../developer/power-bi-custom-visuals-certified.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Developing a Power BI custom visual](visuals/custom-visual-develop-tutorial.md) (Sviluppo di un oggetto visivo personalizzato di Power BI)  
 [Visualizzazioni in Power BI](../visuals/power-bi-report-visualizations.md)  
-[Visualizzazioni personalizzate in Power BI](../power-bi-custom-visuals.md)  
-[*Certificare* un oggetto visivo personalizzato](../power-bi-custom-visuals-certified.md)
+[Visualizzazioni personalizzate in Power BI](../developer/power-bi-custom-visuals.md)  
+[*Certificare* un oggetto visivo personalizzato](../developer/power-bi-custom-visuals-certified.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -2,20 +2,21 @@
 title: Esportare dati da una visualizzazione di Power BI
 description: Esportare dati da una visualizzazione di report e da una visualizzazione di dashboard e visualizzarli in Excel.
 author: mihart
-ms.reviewer: ''
+manager: kvivek
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6ee1b0aa9ff6e3b0668d208775cbea50534b1572
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880882"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060475"
 ---
 # <a name="export-data-from-visualizations"></a>Esportare dati dalle visualizzazioni
 
@@ -158,8 +159,6 @@ Queste limitazioni e considerazioni si applicano a Power BI Desktop e al servizi
 - Il numero massimo di righe che le applicazioni possono esportare da un **report in modalità di importazione** in un file *XLSX* è 150.000.
 
 - L'esportazione mediante *Dati sottostanti* non funziona nei casi seguenti:
-
-  - L'origine dati è una connessione dinamica ad Azure Analysis Services o a SQL Server Analysis Services.
 
   - La versione è anteriore al 2016.
 

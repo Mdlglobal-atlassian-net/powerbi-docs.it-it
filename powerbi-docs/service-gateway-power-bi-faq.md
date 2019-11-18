@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872399"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010834"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Domande frequenti sul gateway dati locale - Power BI
 
@@ -41,10 +41,6 @@ ms.locfileid: "73872399"
 **Domanda**: perché non è possibile connettersi al server Oracle? 
 
 **Risposta**: potrebbe essere necessario installare il client Oracle e configurare il file tnsnames.ora con le informazioni sul server corretto per consentire la connessione al server Oracle. Si tratta di un'installazione separata all'esterno del gateway. Per altre informazioni, vedere [Installazione del client Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
-
-**Domanda**: il gateway funzionerà con Azure ExpressRoute? 
-
-**Risposta**: Sì. Per altre informazioni su ExpressRoute e Power BI, vedere [Power BI ed ExpressRoute](service-admin-power-bi-expressroute.md).
 
 **Domanda**: l'uso di script R è supportato?
 

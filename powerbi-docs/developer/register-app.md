@@ -1,19 +1,19 @@
 ---
 title: Registrare un'app per incorporare il contenuto di Power BI
 description: Informazioni su come registrare un'applicazione in Azure Active Directory per incorporare il contenuto di Power BI.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: eb9b5190341b50aa911f5d8aaca07bd7d04ba90d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880402"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009809"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registrare un'applicazione di Azure AD da usare con Power BI
 
@@ -104,7 +104,7 @@ Oltre a quanto visualizzato nella pagina di registrazione dell'app, abilitare al
 
 ### <a name="using-the-azure-ad-portal"></a>Uso del portale di Azure AD
 
-1. Passare a [Registrazioni per l'app](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) nel portale di Azure e selezionare l'app che si usa per l'incorporamento.
+1. Passare a [Registrazioni per l'app](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) nel portale di Azure e selezionare l'app che si usa per l'incorporamento.
 
 2. Selezionare **Autorizzazioni API** in **Gestione**.
 
