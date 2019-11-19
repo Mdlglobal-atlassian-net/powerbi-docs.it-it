@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160360"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432009"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
 
@@ -183,7 +183,7 @@ Esistono anche alcuni problemi noti, come descritto in questa sezione.
 
 I clienti di Power BI Desktop non possono accedere ai flussi di dati archiviati in un **account di Azure Data Lake Storage** a meno che non siano proprietari del flusso di dati oppure non siano stati autorizzati per la cartella CDM nel data lake. Lo scenario è il seguente:
 
-1. Anna ha creato una nuova area di lavoro per app e l'ha configurata per archiviare i flussi di dati nel data lake dell'organizzazione. 
+1. Anna ha creato una nuova area di lavoro e l'ha configurata per l'archiviazione dei flussi di dati nel data lake dell'organizzazione. 
 2. Bruno, anch'esso membro dell'area di lavoro creata da Anna, vorrebbe sfruttare Power BI Desktop e il connettore per i flussi di dati per ottenere dati dal flusso creato da Anna.
 3. Bruno riceve un errore simile perché non ha ricevuto l'autorizzazione per la cartella CDM del flusso di dati nel data lake.
 

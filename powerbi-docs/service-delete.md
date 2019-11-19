@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157673"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431976"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come eliminare un dashboard, un report, una cartella di lavoro, un set di dati, un'app, una visualizzazione e un'area di lavoro nel servizio Power BI.
@@ -71,7 +71,7 @@ Se un set di dati fa parte di uno o più [pacchetti di contenuto aziendali](serv
 
 ### <a name="to-delete-a-dataset"></a>Per eliminare un set di dati
 1. Nell'area di lavoro selezionare la scheda **Set di dati**.
-2. Trovare il set di dati da eliminare e scegliere i puntini di sospensione (...).  
+2. Trovare il set di dati da eliminare e selezionare **Altre opzioni** (...).  
 
     ![Scheda Set di dati](media/service-delete/power-bi-delete-datasetnew.png)
 3. Nel menu a discesa, selezionare **Elimina**.
@@ -81,40 +81,41 @@ Se un set di dati fa parte di uno o più [pacchetti di contenuto aziendali](serv
 
    ![Finestra di dialogo Elimina dashboard](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>Eliminare un'area di lavoro per le app
+## <a name="delete-a-workspace"></a>Eliminare un'area di lavoro
 > [!WARNING]
-> Quando si crea un'area di lavoro per le app, si crea un gruppo di Office 365. E quando si elimina un'area di lavoro per le app, si elimina tale gruppo di Office 365. Ciò significa che il gruppo verrà eliminato anche da altri prodotti di Office 365, quali SharePoint e Microsoft Teams.
+> Quando si crea un'area di lavoro, si crea un gruppo di Office 365. E quando si elimina un'area di lavoro, si elimina tale gruppo di Office 365. Ciò significa che il gruppo verrà eliminato anche da altri prodotti di Office 365, quali SharePoint e Microsoft Teams.
 >
 >
 
-L'autore dell'area di lavoro per le app ha la possibilità di eliminarla. In questo caso, l'app associata verrà anche eliminata per tutti i membri del gruppo e rimossa da AppSource se era stata pubblicata nell'intera organizzazione. Eliminare un'area di lavoro per le app non è la stessa cosa che uscirne.
+L'autore dell'area di lavoro ha la possibilità di eliminarla. In questo caso, l'app associata verrà anche eliminata per tutti i membri del gruppo e rimossa da AppSource se era stata pubblicata nell'intera organizzazione. Eliminare un'area di lavoro non è la stessa cosa che uscirne.
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Per eliminare un'area di lavoro per le app se si è amministratori
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Per eliminare un'area di lavoro se si è amministratori
 1. Nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro**
 
-    ![Aree di lavoro per le app](media/service-delete/power-bi-delete-workspace.png)
-2. Selezionare i puntini di sospensione (...) a destra dell'area di lavoro da eliminare e scegliere **Modifica area di lavoro**.
+2. Selezionare **Altre opzioni** (...) a destra dell'area di lavoro da eliminare e scegliere **Modifica area di lavoro**.
 
-   ![Menu di puntini di sospensione > Modifica area di lavoro](media/service-delete/power-bi-edit-workspace.png)
+    ![Aree di lavoro](media/service-delete/power-bi-delete-workspace.png)
+
 3. Nella finestra **Modifica area di lavoro**, selezionare **Elimina area di lavoro** > **Elimina**.
 
     ![Eliminare l'area di lavoro](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>Per rimuovere un'area di lavoro per le app dall'elenco
-Se non si vuole più far parte di un'area di lavoro per le app, è possibile ***uscirne*** per rimuoverla dall'elenco. L'uscita da un'area di lavoro non ne comporta l'eliminazione per gli altri membri.  
+### <a name="to-remove-a-workspace-from-your-list"></a>Per rimuovere un'area di lavoro dall'elenco
+Se non si vuole più far parte di un'area di lavoro, è possibile ***uscirne*** per rimuoverla dall'elenco. L'uscita da un'area di lavoro non ne comporta l'eliminazione per gli altri membri.  
 
 > [!IMPORTANT]
-> Se si è l'unico amministratore dell'area di lavoro per le app, non sarà possibile uscirne.
+> Se si è l'unico amministratore dell'area di lavoro, non sarà possibile uscirne.
 >
 >
 
-1. Iniziare nell'area di lavoro per le app che si vuole rimuovere.
-2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Lascia l'area di lavoro** > **Esci**.
+1. Iniziare nell'area di lavoro che si vuole rimuovere.
+
+2. Nell'angolo in alto a destra selezionare **Altre opzioni** (...) e scegliere **Lascia l'area di lavoro** > **Esci**.
 
       ![Lasciare l'area di lavoro](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > Le opzioni disponibili nel menu a discesa variano a seconda che si sia un amministratore o un membro dell'area di lavoro per le app.
+   > Le opzioni disponibili nel menu a discesa variano a seconda che si sia un amministratore o un membro dell'area di lavoro.
    >
    >
 

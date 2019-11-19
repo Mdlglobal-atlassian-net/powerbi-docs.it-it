@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: a2b51d2a03a9d3b88d31bc7d7d232fef0b2251d6
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175221"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431730"
 ---
 # <a name="managing-premium-capacities"></a>Gestire le capacità Premium
 
@@ -42,7 +42,7 @@ Quando si crea una capacità Premium, è necessario che gli amministratori defin
 
 Gli amministratori della capacità non possono accedere al contenuto dell'area di lavoro, a meno che non vengano assegnati esplicitamente nelle autorizzazioni dell'area di lavoro. Gli amministratori della capacità non hanno accesso a tutte le aree di amministrazione di Power BI (se non assegnati esplicitamente) come ad esempio le metriche di utilizzo, i log di controllo o le impostazioni del tenant. In particolare gli amministratori della capacità non hanno le autorizzazioni per creare nuove capacità o ridimensionare le capacità esistenti. Gli amministratori vengono assegnati in base alla capacità, garantendo in questo modo che possano solo visualizzare e gestire le capacità a cui sono assegnati.
 
-Le dimensioni della capacità vengono selezionate da un elenco disponibile di opzioni SKU che è limitato dal numero di vCore disponibili nel pool. È possibile creare più capacità dal pool, che possono essere originate da uno o più SKU acquistati. Ad esempio, è possibile usare uno SKU P3 (32 vCore) per creare tre capacità: una P2 (16 vCore) e due P1 (2 x 8 vCore). Per ottenere prestazioni e scalabilità migliori, è possibile creare capacità di dimensioni minori, come descritto nell'articolo [Ottimizzazione delle capacità Premium](service-premium-capacity-optimize.md). L'immagine seguente mostra una configurazione di esempio per l'organizzazione fittizia Contoso costituita da cinque capacità Premium (3 x P1 e 2 x P3) ciascuna contenente aree di lavoro per le app e diverse aree di lavoro in capacità condivisa.
+Le dimensioni della capacità vengono selezionate da un elenco disponibile di opzioni SKU che è limitato dal numero di vCore disponibili nel pool. È possibile creare più capacità dal pool, che possono essere originate da uno o più SKU acquistati. Ad esempio, è possibile usare uno SKU P3 (32 vCore) per creare tre capacità: una P2 (16 vCore) e due P1 (2 x 8 vCore). Per ottenere prestazioni e scalabilità migliori, è possibile creare capacità di dimensioni minori, come descritto nell'articolo [Ottimizzazione delle capacità Premium](service-premium-capacity-optimize.md). L'immagine seguente illustra una configurazione di esempio per l'organizzazione fittizia Contoso costituita da cinque capacità Premium (3 x P1 e 2 x P3), ognuna contenente aree di lavoro e diverse aree di lavoro in capacità condivisa.
 
 ![Configurazione di esempio per l'organizzazione fittizia Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +66,7 @@ L'eliminazione di una capacità Premium è possibile e non comporta l'eliminazio
 
 ### <a name="assigning-workspaces-to-capacities"></a>Assegnazione delle aree di lavoro alle capacità
 
-Le aree di lavoro possono essere assegnate a una capacità Premium nel portale di amministrazione di Power BI o, per un'area di lavoro per le app, nel riquadro **Area di lavoro**.
+Le aree di lavoro possono essere assegnate a una capacità Premium nel portale di amministrazione di Power BI o, per un'area di lavoro, nel riquadro **Area di lavoro**.
 
 Gli amministratori della capacità, nonché gli amministratori globali di Office 365 o gli amministratori del servizio Power BI, possono assegnare in blocco le aree di lavoro nel portale di amministrazione di Power BI. L'assegnazione in blocco può essere applicata ad:
 

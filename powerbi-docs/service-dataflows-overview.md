@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: b8d5da9fed1910b5cb4164a513757f4944e78188
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136370"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431951"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Preparazione dei dati self-service in Power BI
 
@@ -25,7 +25,7 @@ Di pari passo con il costante aumento del volume dei dati, anche la sfida di org
 
 Power BI introduce i **flussi di dati** per aiutare le organizzazioni a unificare i dati provenienti da origini diverse e prepararli per la modellazione. Gli analisti possono creare facilmente i flussi di dati, usando strumenti familiari e self-service. I flussi di dati vengono usati per inserire, trasformare, integrare e arricchire i Big Data con la definizione di connessioni a origini dati, logica ETL, pianificazioni degli aggiornamenti e altro ancora. Il nuovo motore di calcolo basato su modelli, integrato nei flussi di dati, poi, rende il processo di preparazione dei dati più gestibile, maggiormente deterministico e meno complesso per analisti dei dati e autori di report. In modo analogo a quello in cui i fogli di calcolo gestiscono le operazioni di ricalcolo per tutte le formule interessate, i flussi di dati gestiscono le modifiche per un'entità o un elemento dati per conto dell'utente, automatizzando gli aggiornamenti e mitigando la ripetitività e il dispendio di tempo dei controlli logici richiesti anche per un aggiornamento dei dati di base. Con i flussi di dati, le attività che in precedenza richiedevano la supervisione dei data scientist (e molte ore o giorni per il completamento) possono essere ora gestite con pochi clic dagli analisti e dagli autori di report. 
 
-I dati vengono archiviati come entità nel [**modello CDM (Common Data Model)** ](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2. I flussi di dati vengono creati e gestiti in aree di lavoro per le app usando il servizio Power BI.  
+I dati vengono archiviati come entità nel [**modello CDM (Common Data Model)** ](https://docs.microsoft.com/powerapps/common-data-model/overview) in Azure Data Lake Storage Gen2. I flussi di dati vengono creati e gestiti in aree di lavoro usando il servizio Power BI.  
  
 I **flussi di dati** sono progettati per usare il **modello CDM**, una raccolta standardizzata, modulare ed estendibile di schemi di dati pubblicata da Microsoft allo scopo di semplificare la compilazione, l'uso e l'analisi dei dati. Con questo modello, è possibile passare dalle origini dati ai dashboard di Power BI senza alcun problema.
 

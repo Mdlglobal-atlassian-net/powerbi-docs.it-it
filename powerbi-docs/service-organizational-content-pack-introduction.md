@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e54750d928918fd77c2bf93577cf1d3d0634ca97
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: c5f56df51a1f18db7c2080afb79f4ac7abfb2444
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020613"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431737"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Introduzione ai pacchetti di contenuto aziendali in Power BI
 > [!NOTE]
@@ -26,7 +26,7 @@ I report vengono distribuiti regolarmente tramite posta elettronica al team? Pro
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
-La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboard o dalla collaborazione negli stessi in un'area di lavoro dell'app. Per scegliere la soluzione migliore in base alla situazione specifica, leggere [Come si condividono i dashboard e i report e in che modo ci si collabora?](service-how-to-collaborate-distribute-dashboards-reports.md). 
+La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboard o dalla collaborazione all'interno di questi in un'area di lavoro. Per scegliere la soluzione migliore in base alla situazione specifica, leggere [Come si condividono i dashboard e i report e in che modo ci si collabora?](service-how-to-collaborate-distribute-dashboards-reports.md). 
 
 In AppSource è possibile sfogliare o cercare i pacchetti di contenuto pubblicati per l'intera organizzazione, per i gruppi di distribuzione o sicurezza e per i [gruppi di Office 365 a cui si appartiene](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9). Se non si è membri di un gruppo specifico, non saranno visualizzati i pacchetti di contenuto condivisi con tale gruppo. Tutti i membri del gruppo avranno lo stesso accesso in sola lettura ai dati del pacchetto di contenuto, ai report, alle cartelle di lavoro e ai dashboard (a meno che l'origine dati non sia di tipo SQL Server Analysis Services (SSAS), nel qual caso i privilegi verranno ereditati con l'origine dati).
 
@@ -50,7 +50,7 @@ Il ciclo di vita è simile al seguente:
 1. In Power BI Pro Mattia crea un pacchetto di contenuto e lo pubblica nel gruppo di distribuzione Marketing. Le impostazioni di aggiornamento vengono ereditate con il set di dati e possono essere modificate solo da Mattia.
    
    > [!NOTE]
-   > Se Mattia crea il pacchetto di contenuto dall'interno di un'[area di lavoro per le app Power BI](service-create-distribute-apps.md) di appartenenza, anche se lascia l'area di lavoro, altri utenti dell'area di lavoro di Power BI possono acquisirne la proprietà.
+   > Se Mattia crea il pacchetto di contenuto dall'interno di un'[area di lavoro di Power BI](service-create-distribute-apps.md) di appartenenza, anche se lascia l'area di lavoro, altri utenti dell'area di lavoro di Power BI possono acquisirne la proprietà.
    > 
    > 
 2. Mattia invia un messaggio di posta elettronica al gruppo di distribuzione, per informarlo del nuovo pacchetto di contenuto.
