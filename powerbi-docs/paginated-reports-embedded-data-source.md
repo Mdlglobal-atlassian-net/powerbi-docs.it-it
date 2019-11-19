@@ -3,18 +3,17 @@ title: Origini dati incorporate per report impaginati nel servizio Power BI
 description: Questo articolo descrive come creare e modificare un'origine dati incorporata in un report impaginato nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020793"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875318"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
 
@@ -72,7 +71,7 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
 
 I report impaginati connessi a set di dati di Power BI seguono le regole per i set di dati condivisi in Power BI con alcune piccole modifiche.  Per fare in modo che gli utenti possano visualizzare correttamente i report impaginati con i set di dati di Power BI e per accertarsi che la sicurezza a livello di riga venga abilitata e applicata per gli utenti, assicurarsi di seguire queste regole:
 
-### <a name="classic-apps-and-app-workspaces"></a>App e aree di lavoro per le app classiche
+### <a name="classic-apps-and-workspaces"></a>App e aree di lavoro classiche
 
 - File con estensione rdl nella stessa area di lavoro del set di dati (stesso proprietario): Supportato
 - File con estensione rdl in un'area di lavoro diversa dal set di dati (stesso proprietario): Supportato
@@ -82,7 +81,7 @@ I report impaginati connessi a set di dati di Power BI seguono le regole per i s
 - File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
 - Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>App e aree di lavoro per app nella nuova esperienza
+### <a name="new-experience-apps-and-workspaces"></a>App e aree di lavoro nella nuova esperienza
 
 - File con estensione rdl nella stessa area di lavoro del set di dati: Supportato
 - File con estensione rdl in un'area di lavoro diversa dal set di dati (stesso proprietario): Supportato

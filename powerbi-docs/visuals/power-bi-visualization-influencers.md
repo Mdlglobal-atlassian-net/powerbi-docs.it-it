@@ -7,15 +7,15 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b11d2e5ce330c111313ef0d4bd8f2b1f1a89ce43
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544099"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72776010"
 ---
 # <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
 
@@ -58,7 +58,7 @@ Guardare questo video per imparare a creare un oggetto visivo Fattori di influen
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Il product manager richiede di determinare i fattori per cui i clienti danno valutazioni negative al servizio cloud dell'azienda. Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
+Il product manager richiede di determinare i fattori per cui i clienti danno valutazioni negative al servizio cloud dell'azienda. Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Selezionare uno dei due collegamenti e quindi selezionare **Download** nella pagina di GitHub visualizzata.
 
 > [!NOTE]
 > Il set di dati di commenti e suggerimenti dei clienti è basato sul lavoro di [Moro et al., 2014] S. Moro, P. Cortez e P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing" (Un approccio basato sui dati per la previsione del successo del telemarketing bancario). *Decision Support Systems*, Elsevier, 62:22-31, giugno 2014. 
@@ -241,7 +241,7 @@ I segmenti principali per le destinazioni numeriche visualizzano i gruppi in cui
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Analizzare una metrica costituita da una misura o da una colonna riepilogativa
 
-Nel caso di una misura o di una colonna riepilogativa, l'analisi è impostata sul valore predefinito **Continuo di Tipo di analisi** descritto [sopra](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Non è possibile modificare questa impostazione. La differenza principale tra l'analisi di una misura/colonna riepilogativa e quella di una colonna numerica non riepilogativa è il livello di esecuzione dell'analisi.
+Nel caso di una misura o di una colonna riepilogativa, l'analisi è impostata sul valore predefinito **Continuo di Tipo di analisi** descritto [sopra](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Non è possibile modificare questa impostazione. La differenza principale tra l'analisi di una misura/colonna riepilogativa e quella di una colonna numerica non riepilogativa è il livello di esecuzione dell'analisi.
 
 Nel caso delle colonne non riepilogative, l'analisi viene sempre eseguita a livello di tabella. Nell'esempio precedente relativo al prezzo della casa è stata analizzata la metrica **House Price** (Prezzo della casa) per vedere quali fattori influenzano l'aumento o la diminuzione del prezzo di una casa. L'analisi viene eseguita automaticamente a livello di tabella. La tabella ha un ID univoco per ogni casa, quindi l'analisi viene eseguita a livello di casa.
 
@@ -255,7 +255,7 @@ Le misure e le colonne riepilogative vengono automaticamente analizzate a livell
 
 Questa analisi è molto riepilogativa, quindi sarà difficile per il modello di regressione trovare nei dati schemi da cui poter apprendere. Per ottenere risultati migliori, è consigliabile eseguire l'analisi a un livello più dettagliato. Se si volesse analizzare il prezzo della casa a livello di casa, sarebbe necessario aggiungere all'analisi il campo **ID** in modo esplicito. Tuttavia, non si vuole che l'ID della casa sia considerato un fattore di influenza. Non è di nessuna utilità sapere che, man mano che aumenta l'ID di una casa, ne aumenta anche il prezzo. È a questo punto che si rivela utile l'opzione dell'area campi **Espandi in base a**. È possibile usare **Espandi in base a** per aggiungere i campi da usare per impostare il livello dell'analisi senza cercare nuovi fattori di influenza.
 
-Vediamo come appare la visualizzazione dopo aver aggiunto **ID** a **Espandi in base a**. Dopo aver definito il livello in cui valutare la misura, l'interpretazione dei fattori di influenza è identica a quella applicata per le [colonne numeriche non riepilogative](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
+Vediamo come appare la visualizzazione dopo aver aggiunto **ID** a **Espandi in base a**. Dopo aver definito il livello in cui valutare la misura, l'interpretazione dei fattori di influenza è identica a quella applicata per le [colonne numeriche non riepilogative](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
 
 ![Tabella delle misure](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841390"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73018076"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Esercitazione: Analisi di Facebook con Power BI Desktop
 
@@ -147,7 +147,7 @@ Dopo aver importato i dati dalla pagina Facebook, è possibile ricavare in manie
    
    ![Grafico a barre](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione e quindi selezionare **Ordina per Numero di commenti** per disporre la tabella in ordine decrescente in base al numero di commenti. 
+4. Selezionare **Altre opzioni** (...) nell'angolo superiore destro della visualizzazione e quindi selezionare **Ordina per Numero di commenti** per disporre la tabella in ordine decrescente in base al numero di commenti. 
    
    ![Ordina per numero di commenti](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +184,7 @@ L'asse X (numero di commenti) del grafico non mostra valori esatti ed è poco vi
 
 La visualizzazione è migliore, ma tutte le etichette dei dati hanno la cifra decimale **.0**, che risulta un elemento di distrazione oltre a essere fuorviante, dato che **Numero di commenti** deve essere un numero intero. È necessario modificare il tipo di dati della colonna **Numero di commenti** impostando Numero intero.
 
-1. Per modificare il tipo di dati, fare clic con il pulsante destro del mouse su **Query1** nell'elenco Campi o passare il mouse sul campo e selezionare i puntini di sospensione **Altre opzioni** (...), quindi selezionare **Modifica query**. È anche possibile selezionare **Modifica query** dall'area **Dati esterni** della scheda Home nella barra multifunzione e quindi selezionare **Modifica query** nell'elenco a discesa. L'**editor di Power Query** di Power BI Desktop viene aperto in una finestra separata.
+1. Per modificare il tipo di dati, fare clic con il pulsante destro del mouse su **Query1** nell'elenco Campi o passare il mouse sul campo, selezionare **Altre opzioni** (...) e quindi selezionare **Modifica query**. È anche possibile selezionare **Modifica query** dall'area **Dati esterni** della scheda Home nella barra multifunzione e quindi selezionare **Modifica query** nell'elenco a discesa. L'**editor di Power Query** di Power BI Desktop viene aperto in una finestra separata.
    
    ![Modifica query dall'elenco Campi](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Modifica query dalla barra multifunzione](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    

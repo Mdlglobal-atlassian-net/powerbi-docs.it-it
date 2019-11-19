@@ -3,19 +3,18 @@ title: Configurare e gestire le capacità in Power BI Premium
 description: Informazioni su come gestire Power BI Premium e abilitare l'accesso al contenuto per tutta l'organizzazione.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e9214fbb78b501b49e8c2115423ec1c6f55e65d7
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 04f5b1f639b7abdbbe789a23e5d7a54790ad50a5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175591"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857095"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Configurare e gestire le capacità in Power BI Premium
 
@@ -98,7 +97,7 @@ Gli amministratori di Power BI e gli amministratori globali di Office 365 posson
 
 ### <a name="manage-user-permissions"></a>Gestire le autorizzazioni utente
 
-È possibile assegnare altri amministratori della capacità, nonché assegnare gli utenti che hanno le autorizzazioni di *assegnazione della capacità*, che potranno assegnare un'area di lavoro per le app alla capacità se sono anche amministratori di tale area di lavoro, oltre ad assegnare l'*Area di lavoro personale* alla capacità. Gli utenti con autorizzazioni di assegnazione non avranno accesso all'interfaccia di amministrazione.
+È possibile assegnare altri amministratori della capacità, nonché assegnare gli utenti che hanno le autorizzazioni di *assegnazione della capacità*, che potranno assegnare un'area di lavoro alla capacità se sono anche amministratori di tale area di lavoro, oltre ad assegnare l'*Area di lavoro personale* alla capacità. Gli utenti con autorizzazioni di assegnazione non avranno accesso all'interfaccia di amministrazione.
 
 > [!NOTE]
 > Per Power BI Embedded, gli amministratori della capacità vengono definiti nel portale di Microsoft Azure.
@@ -109,7 +108,7 @@ Sotto **Autorizzazioni utente** espandere **Utenti con autorizzazioni di assegna
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Assegnare un'area di lavoro a una capacità
 
-Esistono due modi per assegnare un'area di lavoro a una capacità: nell'interfaccia di amministrazione e da un'area di lavoro per le app.
+Esistono due modi per assegnare un'area di lavoro a una capacità: nell'interfaccia di amministrazione e da un'area di lavoro.
 
 ### <a name="assign-from-the-admin-portal"></a>Assegnazione dall'interfaccia di amministrazione
 
@@ -127,22 +126,22 @@ Gli amministratori della capacità, insieme con gli amministratori di Power BI e
    | --- | --- |
    | **Aree di lavoro in base agli utenti** | Quando si assegnano le aree di lavoro per utente o gruppo, tutte le aree di lavoro appartenenti a tali utenti vengono assegnate alla capacità Premium, tra cui l'area di lavoro personale dell'utente. Tali utenti ottengono automaticamente le autorizzazioni di assegnazione dell'area di lavoro.<br>Ciò include le aree di lavoro già assegnata a una capacità diversa. |
    | **Aree di lavoro specifiche** | Immettere il nome di un'area di lavoro specifica da assegnare alla capacità selezionata. |
-   | **Aree di lavoro dell'intera organizzazione** | L'assegnazione di aree di lavoro dell'intera organizzazione alla capacità Premium comporta l'assegnazione di tutte le aree di lavoro per le app e delle aree di lavoro personali, all'interno dell'organizzazione, a questa capacità Premium. In più, tutti gli utenti attuali e futuri saranno autorizzati a riassegnare singole aree di lavoro a questa capacità. |
+   | **Aree di lavoro dell'intera organizzazione** | L'assegnazione di aree di lavoro dell'intera organizzazione alla capacità Premium comporta l'assegnazione di tutte le aree di lavoro e delle aree di lavoro personali all'interno dell'organizzazione a tale capacità Premium. In più, tutti gli utenti attuali e futuri saranno autorizzati a riassegnare singole aree di lavoro a questa capacità. |
    | | |
 
 1. Selezionare **Applica**.
 
-### <a name="assign-from-app-workspace-settings"></a>Assegnazione dalle impostazioni dell'area di lavoro per le app
+### <a name="assign-from-workspace-settings"></a>Eseguire l'assegnazione dalle impostazioni dell'area di lavoro
 
-È anche possibile assegnare capacità Premium a un'area di lavoro per le app dalle relative impostazioni. Per spostare un'area di lavoro nella capacità, è necessario avere le autorizzazioni di amministratore per tale area di lavoro, nonché le autorizzazioni di assegnazione di capacità per tale capacità. Gli amministratori dell'area di lavoro possono sempre rimuovere un'area di lavoro dalla capacità Premium.
+È anche possibile assegnare a una capacità Premium un'area di lavoro dalle impostazioni di quest'ultima. Per spostare un'area di lavoro nella capacità, è necessario avere le autorizzazioni di amministratore per tale area di lavoro, nonché le autorizzazioni di assegnazione di capacità per tale capacità. Gli amministratori dell'area di lavoro possono sempre rimuovere un'area di lavoro dalla capacità Premium.
 
-1. Modificare un'area di lavoro per le app selezionando i puntini di sospensione **(. . .)** e selezionando **Modifica area di lavoro**.
+1. Modificare un'area di lavoro selezionando i puntini di sospensione **(. . .)** e quindi selezionando **Modifica area di lavoro**.
 
     ![Menu di scelta rapida Modifica area di lavoro visualizzato selezionando i puntini di sospensione](media/service-admin-premium-manage/edit-app-workspace.png)
 
 1. In **Modifica area di lavoro** espandere **Avanzate**.
 
-1. Selezionare la capacità che si vuole assegnare a questa area di lavoro per le app.
+1. Selezionare la capacità a cui si vuole assegnare questa area di lavoro.
 
     ![Elenco a discesa di selezione della capacità](media/service-admin-premium-manage/app-workspace-advanced.png)
 
@@ -166,4 +165,4 @@ Per altre informazioni, vedere [Install Power BI Report Server](report-server/in
 
 [Gestione delle capacità Premium](service-premium-capacity-manage.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

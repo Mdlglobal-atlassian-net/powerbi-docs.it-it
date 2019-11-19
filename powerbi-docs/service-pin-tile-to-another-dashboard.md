@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d4e9c095dc0114ec3b5fe2fdd6d52fd25aa76d97
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225867"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020110"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Aggiungere un riquadro da un dashboard a un altro dashboard
 Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è possibile copiarlo da un altro dashboard. Ognuno di questi riquadri, quando si fa clic su di esso, è un collegamento per tornare al punto in cui è stato creato, ovvero in Domande e risposte o in un report. 
@@ -26,7 +26,7 @@ Per aggiungere un nuovo [riquadro del dashboard](consumer/end-user-tiles.md), è
 ## <a name="pin-a-tile-to-another-dashboard"></a>Aggiungere un riquadro a un altro dashboard
 1. [Recuperare i dati](service-get-data.md). Questo esempio usa [Esempio di analisi della spesa IT](sample-it-spend.md).
 2. Aprire un [dashboard](consumer/end-user-dashboards.md).
-3. Passare il puntatore del mouse sul riquadro da aggiungere, quindi selezionare i puntini di sospensione (...) e scegliere **Aggiungi sezione**.  
+3. Passare il puntatore del mouse sul riquadro da aggiungere, selezionare **Altre opzioni** (...) e scegliere **Aggiungi sezione**.  
    
    ![Menu di puntini di sospensione](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Aggiungere il riquadro a un dashboard esistente o a un nuovo dashboard. 

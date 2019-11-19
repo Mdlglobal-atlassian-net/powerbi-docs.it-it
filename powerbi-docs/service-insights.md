@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994971"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020230"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
 Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si desidera cercare le informazioni dettagliate perse?
@@ -38,7 +38,7 @@ Il video seguente illustra come eseguire Informazioni rapide su un set di dati, 
 
 Passare ora all'azione. Esplorare le informazioni dettagliate usando l'[esempio di analisi della qualità dei fornitori](sample-supplier-quality.md).
 
-1. Nella scheda **Set di dati** fare clic sui puntini di sospensione (...) e quindi scegliere **Informazioni rapide**.
+1. Nella scheda **Set di dati** selezionare **Altre opzioni** (...) e quindi scegliere **Ottieni informazioni rapide**.
    
     ![Scheda Set di dati](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +62,7 @@ Passare ora all'azione. Esplorare le informazioni dettagliate usando l'[esempio 
 
 1. Passare il puntatore del mouse su una scheda e selezionare l'icona a forma di puntina per aggiungere la visualizzazione a un dashboard.
 
-2. Passare il puntatore del mouse su una scheda, selezionare i puntini di sospensione (...) e quindi scegliere **Visualizza informazioni dettagliate**. 
+2. Passare il puntatore del mouse su una scheda, selezionare **Altre opzioni** (...) e quindi scegliere **Visualizza informazioni dettagliate**. 
 
     La schermata delle informazioni dettagliate si apre in modalità messa a fuoco.
    
@@ -86,7 +86,7 @@ Passare ora all'azione. Esplorare le informazioni dettagliate usando l'[esempio 
 Invece di cercare informazioni dettagliate in un intero set di dati, è possibile limitare la ricerca per eseguire le informazioni dettagliate con ambito sui dati usati per creare un singolo riquadro del dashboard. 
 
 1. Aprire un dashboard.
-2. Passare il mouse su un riquadro. Selezionare i puntini di sospensione (...) e quindi scegliere **Visualizza informazioni dettagliate**. Il riquadro verrà aperto in [modalità messa a fuoco](service-focus-mode.md) con le schede delle informazioni dettagliate visualizzate sul lato destro.    
+2. Passare il mouse su un riquadro. Selezionare **Altre opzioni** (...) e quindi scegliere **Visualizza informazioni dettagliate**. Il riquadro verrà aperto in [modalità messa a fuoco](service-focus-mode.md) con le schede delle informazioni dettagliate visualizzate sul lato destro.    
    
     ![Modalità messa a fuoco](media/service-insights/pbi-insights-tile.png)    
 3. Se un approfondimento attira l'interesse, selezionare la scheda di informazioni dettagliate per un approfondimento. Le informazioni dettagliate selezionate vengono visualizzate a sinistra, mentre le nuove schede di informazioni, basate esclusivamente sui dati presenti in tali informazioni dettagliate specifiche, vengono visualizzate a destra.    

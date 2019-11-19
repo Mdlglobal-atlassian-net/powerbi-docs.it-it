@@ -2,19 +2,18 @@
 title: Creare un collegamento a una posizione specifica nelle app Power BI per dispositivi mobili
 description: Informazioni su come creare un collegamento diretto a un dashboard, un riquadro o un report specifico nell'app Power BI per dispositivi mobili con un collegamento Uniform Resource Identifier (URI).
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906521"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879285"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creare un collegamento a una posizione specifica nelle app Power BI per dispositivi mobili
 È possibile usare i collegamenti per accedere direttamente a elementi specifici in Power BI: report, dashboard e riquadro.
@@ -69,7 +68,7 @@ I **PARAMETRI DELLA QUERY** sono:
 
 #### <a name="links-of-apps-and-items-in-app"></a>Collegamenti di app ed elementi nell'app
 
-Per le **app e per i report e il dashboard che fanno parte di un'app**, il modo più semplice per ottenere il collegamento consiste nell'accedere all'area di lavoro dell'app e scegliere "Aggiorna app". Verrà aperta l'esperienza "Pubblica app" e nella scheda Accesso sarà presente una sezione **Collegamenti**. Espandendo tale sezione, verrà visualizzato l'elenco dell'app e tutti i collegamenti al contenuto che possono essere usati per accedervi direttamente.
+Per le **app e i report e il dashboard che fanno parte di un'app**, il modo più semplice per ottenere il collegamento consiste nell'accedere all'area di lavoro e scegliere "Aggiorna app". Verrà aperta l'esperienza "Pubblica app" e nella scheda Accesso sarà presente una sezione **Collegamenti**. Espandendo tale sezione, verrà visualizzato l'elenco dell'app e tutti i collegamenti al contenuto che possono essere usati per accedervi direttamente.
 
 ![Collegamenti di Pubblica app di Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -117,6 +116,6 @@ I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementa
 
 * [App Power BI per dispositivi mobili](mobile-apps-for-mobile-devices.md)
 * Seguire @MSPowerBI su Twitter
-* Partecipare alla conversazione nella [community di Power BI](http://community.powerbi.com/)
-* [Che cos'è Power BI?](../../power-bi-overview.md)
+* Partecipare alla conversazione nella [community di Power BI](https://community.powerbi.com/)
+* [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: 1612ae952489a047be884a25842bd47fd70d8447
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239951"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020199"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuovo aspetto del servizio Power BI
 
@@ -66,7 +66,7 @@ Rispetto all'aspetto precedente, non è stata rimossa alcuna funzionalità. È p
 
 ### <a name="where-are-file-menu-actions"></a>Dove sono le azioni del menu File?
 
-Si è alla ricerca delle azioni del menu **File**? Le azioni che in precedenza si trovavano nel menu **File** sono ora anch'esse disponibili tramite il menu con i puntini di sospensione (...). 
+Si è alla ricerca delle azioni del menu **File**? Le azioni che in precedenza si trovavano nel menu **File** sono ora anch'esse disponibili nel menu **Altre opzioni** (...). 
 
 ![Menu File con il nuovo aspetto](media/service-new-look/power-bi-file-menu-new-look.gif)
 

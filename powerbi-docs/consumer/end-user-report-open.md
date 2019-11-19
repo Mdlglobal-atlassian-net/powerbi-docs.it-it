@@ -9,14 +9,17 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903804"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019461"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Un report è costituito da una o più pagine di oggetti visivi. I report vengono creati dai *progettisti* di Power BI e [condivisi con i *consumer* direttamente](end-user-shared-with-me.md) o nel contesto di un'[app](end-user-apps.md). 
 
 Esistono diversi modi per aprire un report e ne verranno illustrati due: apertura da Home e apertura da un dashboard. 
@@ -52,7 +55,7 @@ I *designer* di Power BI possono condividere un singolo report direttamente con 
 
 6. Si noti il riquadro **Filtri** sulla destra. I filtri applicati a questa pagina del report o all'intero report vengono visualizzati qui.
 
-7. Passando il mouse su un oggetto visivo del report vengono visualizzate diverse icone e i puntini di sospensione (...). Per visualizzare i filtri applicati a un oggetto visivo specifico, selezionare l'icona del filtro. Qui è stata selezionata l'icona del filtro per il grafico a linee *Total units by rolling period and region*.
+7. Passando il mouse su un oggetto visivo del report vengono visualizzati varie icone e il pulsante **Altre opzioni** (...). Per visualizzare i filtri applicati a un oggetto visivo specifico, selezionare l'icona del filtro. Qui è stata selezionata l'icona del filtro per il grafico a linee *Total units by rolling period and region*.
 
    ![Schede delle pagine del report](./media/end-user-report-open/power-bi-visual-filters.png)
 
@@ -102,6 +105,7 @@ Quando si acquisisce maggiore familiarità con gli spostamenti all'interno del s
 - Tramite [Visualizza elementi correlati](end-user-related.md).    
 - In un messaggio di posta elettronica in caso di [condivisione con l'utente](../service-share-reports.md) o quando si [configura un avviso](end-user-alerts.md)    
 - Dal [centro notifiche](end-user-notification-center.md).    
+- Da un'area di lavoro
 - E altro ancora.
 
 ## <a name="next-steps"></a>Passaggi successivi

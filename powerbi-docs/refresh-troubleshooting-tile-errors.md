@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544274"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021540"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
 Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri e la relativa spiegazione.
@@ -69,7 +69,7 @@ In genere, si tratta di un problema temporaneo, Se il messaggio viene visualizza
 
 Questo problema può verificarsi se il set di dati sottostante è configurato per l'uso della modalità DirectQuery o di una connessione dinamica ad Analysis Services tramite un gateway dati locale. In questo caso, i riquadri continuano a visualizzare dati non filtrati dopo l'abilitazione di SSO per l'origine dati fino al momento dell'aggiornamento dei riquadri successivo. All'aggiornamento dei riquadri successivo, Power BI usa SSO così come è stato configurato e i riquadri visualizzano i dati filtrati in base all'identità dell'utente. 
 
-Per vedere immediatamente i dati filtrati, è possibile forzare l'aggiornamento dei riquadri selezionando i puntini di sospensione (...) nella parte superiore destra della dashboard e selezionando **Aggiorna riquadri del dashboard**.
+Per vedere immediatamente i dati filtrati, è possibile forzare l'aggiornamento dei riquadri selezionando **Altre opzioni** (...) nella parte superiore destra del dashboard e selezionando **Aggiorna riquadri del dashboard**.
 
 Per accelerare l'aggiornamento dei riquadri, il proprietario di un set di dati può anche modificare la frequenza di aggiornamento e impostarla su 15 minuti. Selezionare l'icona dell'ingranaggio nell'angolo superiore destro del servizio Power BI e quindi selezionare **Impostazioni**. Nella pagina **Impostazioni** selezionare la scheda **Set di dati**. Espandere **Aggiornamento pianificato della cache** e modificare **Frequenza di aggiornamento**. Assicurarsi di reimpostare la configurazione sulla frequenza di aggiornamento originaria dopo che Power BI ha eseguito l'aggiornamento dei riquadri successivo.
 

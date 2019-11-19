@@ -2,21 +2,20 @@
 title: Esportare dati da un oggetto visivo di Power BI
 description: Esportare dati da un oggetto visivo del report e del dashboard e visualizzarli in Excel.
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589517"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851324"
 ---
 # <a name="export-data-from-a-visual"></a>Esportare dati da un oggetto visivo
 
@@ -26,11 +25,11 @@ I dati usati per creare un oggetto visivo [possono essere visualizzati in Power 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Da un oggetto visivo in un dashboard di Power BI
 
-1. Iniziare con un dashboard di Power BI. In questo caso viene usato il dashboard dell'app ***Marketing and sales sample***. È possibile [scaricare questa app da AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Iniziare con un dashboard di Power BI. In questo caso viene usato il dashboard dell'app ***Marketing and sales sample***. È possibile [scaricare questa app da AppSource.com](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
 
     ![Dashboard dell'app](media/end-user-export/power-bi-dashboards.png)
 
-2. Passare il puntatore del mouse su un oggetto visivo per visualizzare i puntini di sospensione (...) e fare clic per visualizzare il menu di azione.
+2. Passare il puntatore del mouse su un oggetto visivo per visualizzare **Altre opzioni** (...) e fare clic per visualizzare il menu delle azioni.
 
     ![Menu visualizzato quando si selezionano i puntini di sospensione](media/end-user-export/power-bi-action-menu.png)
 

@@ -2,7 +2,6 @@
 title: Creare un codice a matrice per un report da usare nelle app Power BI per dispositivi mobili
 description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI nell’app per dispositivi mobili Power BI, senza dover eseguire ricerche.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: eb2ea1fbb96138e892ed563d5999f5bc9da8e59f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61160701"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853378"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un report in Power BI da usare nelle app per dispositivi mobili
 I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI &#151; senza dover effettuare nessuno spostamento o ricerca.
@@ -26,7 +25,7 @@ I colleghi con cui si è condiviso il report possono [scansionare il codice a ma
 
 ## <a name="create-a-qr-code-for-a-report"></a>Creare un codice a matrice per un report
 1. Aprire un report nel servizio Power BI.
-2. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra e selezionare **Genera codice a matrice**. 
+2. Selezionare **Altre opzioni** (...) nell'angolo in alto a destra e quindi **Genera codice a matrice**. 
    
     ![](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. Viene visualizzata una finestra di dialogo con il codice a matrice. 
@@ -51,5 +50,5 @@ Power BI genera il codice a matrice come file JPG, pronto per la stampa.
 * [Connettersi ai dati di Power BI dal mondo reale](consumer/mobile/mobile-apps-data-in-real-world-context.md) con le app per dispositivi mobili
 * [Scansionare un codice a matrice di Power BI dal dispositivo mobile](consumer/mobile/mobile-apps-qr-code.md)
 * [Creare un codice a matrice per un riquadro](service-create-qr-code-for-tile.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

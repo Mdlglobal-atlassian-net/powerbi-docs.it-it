@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e08d37f3db6156de21f00813a90b1c7544345abe
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61169051"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021174"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Creare un codice a matrice per un riquadro in Power BI da usare nelle app per dispositivi mobili
 I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni correlate di BI &#151; senza dover effettuare nessuno spostamento o ricerca.
@@ -27,8 +27,8 @@ I colleghi con cui si è condiviso il dashboard possono [scansionare il codice a
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Creare un codice a matrice per un riquadro
 1. Aprire un dashboard nel servizio Power BI.
-2. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra del riquadro e selezionare **Modalità messa a fuoco** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
-3. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra e selezionare **Genera codice a matrice**. 
+2. Selezionare **Altre opzioni** (...) nell'angolo in alto a destra del riquadro e quindi **Modalità messa a fuoco** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+3. Selezionare **Altre opzioni** (...) nell'angolo in alto a destra e quindi **Genera codice a matrice**. 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Viene visualizzata una finestra di dialogo con il codice a matrice. 

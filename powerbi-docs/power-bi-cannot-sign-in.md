@@ -3,19 +3,18 @@ title: Impossibile contattare il supporto di Power BI
 description: Soluzioni alternative per creare un caso Power BI se un utente non può accedere
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769840"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874602"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Risoluzione dei problemi di accesso per Power BI
 
@@ -27,7 +26,7 @@ Se invece si è un **amministratore tenant** dell'organizzazione e non si riesce
 
 ## <a name="engage-the-support-team"></a>Contattare il team di supporto
 
-Per prima cosa tentare di creare un ticket di supporto tramite la [pagina di supporto di Power BI](https://powerbi.microsoft.com/en-us/support/).
+Per prima cosa tentare di creare un ticket di supporto tramite la [pagina di supporto di Power BI](https://powerbi.microsoft.com/support/).
 
 Se non è possibile accedere alla pagina di supporto di Power BI, tentare di creare un ticket tramite la [pagina di supporto di Office 365 (O365)](https://support.office.com/home/contact).
 
@@ -50,9 +49,11 @@ Per contattare Microsoft e richiedere supporto, è anche possibile acquistare il
 
 Per poter creare un post del forum nella pagina della community, è necessario aver eseguito l'accesso al [forum della community di Power BI](https://community.powerbi.com/).
 
+> [!Note]
+> Per altre informazioni, vedere [Community Support](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport) (Supporto della community).
+
 ## <a name="next-steps"></a>Passaggi successivi
 
 Per altre informazioni sul supporto di Power BI, visitare i siti seguenti:
 
 * [Documentazione di Power BI](https://docs.microsoft.com/power-bi/)
-* [Creating Power BI Support Cases](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/) (Creazione di casi di supporto per Power BI)

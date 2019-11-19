@@ -10,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 26741d229b260a0114f5f089018b79f34bc41938
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903710"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019324"
 ---
 # <a name="reports-in-power-bi"></a>Report in Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Un report di Power BI consente di visualizzare un set di dati da più punti di vista, grazie a oggetti visivi che rappresentano conclusioni e approfondimenti diversi ottenuti dal set di dati.  Un report può includere un solo oggetto visivo oppure contenere pagine con più oggetti visivi. A seconda del ruolo, si può essere una persona che *progetta* i report. Oppure si può essere una persona che *consuma* o usa i report. Questo articolo può essere utile ai *consumer*.
 
@@ -27,7 +29,7 @@ A. Questo report è composto da sei pagine (o schede) e si sta attualmente visua
 B. Questa pagina contiene cinque diversi oggetti visivi e il titolo della pagina.    
 C. Il riquadro *Filtri* mostra un filtro applicato a tutte le pagine del report. Per comprimere il riquadro Filtri, selezionare la freccia ( **>** ).    
 D. Nel banner di Power BI vengono visualizzati il nome del report e la data dell'ultimo aggiornamento. Selezionare la freccia per aprire un menu in cui viene visualizzato anche il nome del proprietario del report.    
-E. La barra delle azioni contiene le azioni che è possibile eseguire su questo report.  Ad esempio, è possibile aggiungere un commento, visualizzare un segnalibro o esportare dati dal report.  Selezionare i puntini di sospensione (...) per visualizzare un elenco di funzionalità aggiuntive per il report.    
+E. La barra delle azioni contiene le azioni che è possibile eseguire su questo report.  Ad esempio, è possibile aggiungere un commento, visualizzare un segnalibro o esportare dati dal report.  Selezionare **Altre opzioni** (...) per visualizzare un elenco di funzionalità aggiuntive per il report.    
 
 Se non si ha familiarità con Power BI, è possibile apprendere le nozioni di base utili leggendo [Concetti di base del servizio Power BI per i consumer](end-user-basic-concepts.md). I report sono disponibili per la visualizzazione, la condivisione e l'annotazione nei dispositivi mobili. Per altre informazioni, vedere [Esplorare i report nelle app Power BI per dispositivi mobili](mobile/mobile-reports-in-the-mobile-apps.md).
 

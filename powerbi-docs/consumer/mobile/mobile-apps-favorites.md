@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339576"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017840"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creare e visualizzare i Preferiti nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -44,7 +44,7 @@ Quando si crea un preferito nelle app Power BI per dispositivi mobili, è possib
   ![Pagina Preferiti](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>Aggiungere un'app ai Preferiti
-1. Nell'elenco di app nell'app per dispositivi mobili toccare i puntini di sospensione (...) accanto all'app > **Aggiungi a Preferiti**.
+1. Nell'elenco di app nell'app per dispositivi mobili toccare **Altre opzioni** (...) accanto all'app > **Aggiungi a Preferiti**.
    
     ![Menu Aggiungi a preferiti per le app](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +65,7 @@ Quando si crea un preferito nelle app Power BI per dispositivi mobili, è possib
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Aggiungere un dashboard o un report ai Preferiti nelle app per dispositivi mobili Android
 È possibile aggiungere un dashboard o un report ai Preferiti dall'elenco dei dashboard o dei report oppure dal dashboard o dal report stesso.
 
-* Nell'elenco dei dashboard o dei report nell'app per dispositivi mobili toccare i puntini di sospensione verticali (...) accanto al nome e quindi toccare **Preferiti**. Verrà visualizzata una stella gialla accanto al nome ![Icona Preferiti](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* Nell'elenco dei dashboard o dei report nell'app per dispositivi mobili toccare il pulsante **Altre opzioni** (...) accanto al nome e quindi toccare **Aggiungi a Preferiti**. Verrà visualizzata una stella gialla accanto al nome ![Icona Preferiti](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![Menu Preferiti Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * Nel dashboard o nel report toccare la stella vuota sulla barra multifunzione ![Icona non preferito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). La stella diventa di colore grigio scuro ![Icona Preferiti](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).

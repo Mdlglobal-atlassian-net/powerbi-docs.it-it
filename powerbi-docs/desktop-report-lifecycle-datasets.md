@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020467"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429811"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. In questo modo si può creare il modello di dati ideale in Power BI Desktop e pubblicarlo nel servizio Power BI. Partendo dallo stesso modello di dati comune, tutti possono così creare più report diversi (in file con estensione pbix separati) e salvarli in aree di lavoro diverse. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.
@@ -37,7 +37,7 @@ Tutti apprezzano il report e il set di dati di Anna ed è qui che iniziano i gua
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Connettersi a un set di dati del servizio Power BI usando una connessione dinamica
 Se Anna crea un report (e il set di dati su cui è basato) e quindi lo pubblica nel **servizio Power BI**, viene visualizzato nell'area di lavoro del suo team nel servizio Power BI. Se Anna lo salva in un'*area di lavoro della nuova esperienza*, può impostare l'autorizzazione di compilazione affinché il report diventi disponibile per la visualizzazione e l'uso per tutti i colleghi all'interno o all'esterno della sua area di lavoro.
 
-Per altre informazioni sulle aree di lavoro della nuova esperienza, vedere le [aree di lavoro per le app](service-new-workspaces.md).
+Per altre informazioni sulle aree di lavoro della nuova esperienza, vedere le [aree di lavoro](service-new-workspaces.md).
 
 Altri membri all'interno e all'esterno dell'area di lavoro di Anna possono ora stabilire una connessione dinamica al suo modello di dati condiviso (usando la funzionalità **Connessione dinamica al servizio Power BI**) e creare report personalizzati basati sul *set di dati originale* nelle *proprie aree di lavoro della nuova esperienza*.
 

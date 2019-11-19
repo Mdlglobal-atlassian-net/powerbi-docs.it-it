@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195270"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432332"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Installare e distribuire le app modello nell'organizzazione - Power BI
 
@@ -57,7 +57,7 @@ In un browser selezionare il collegamento seguente per aprire AppSource con filt
 
 4. Nella finestra di dialogo selezionare **Installa**.
 
-    ![Installare l'app](media/service-template-apps-install-distribute/power-install-dialog.png) Se si ha una licenza di Power BI Pro, l'app viene installata con l'area di lavoro per le app associata. È possibile personalizzare l'app nell'area di lavoro associata.
+    ![Installare l'app](media/service-template-apps-install-distribute/power-install-dialog.png) Se si ha una licenza di Power BI Pro, l'app viene installata con l'area di lavoro associata. È possibile personalizzare l'app nell'area di lavoro associata.
 
     Al completamento dell'installazione una notifica indica che la nuova app è pronta.
 4. Selezionare **Vai all'app**.
@@ -71,7 +71,7 @@ In un browser selezionare il collegamento seguente per aprire AppSource con filt
 
     In alternativa, ignorare questa finestra di dialogo e accedere all'area di lavoro associata direttamente tramite **Aree di lavoro** nel riquadro di spostamento a sinistra.
     >[!NOTE]
-    >L'installazione di un'app modello ha installato un'*app aziendale* e un'*area di lavoro per le app*. Altre informazioni sulla [distribuzione delle app in Power BI](service-create-distribute-apps.md).
+    >L'installazione di un'app modello ha installato un'*app aziendale* e un'*area di lavoro*. Altre informazioni sulla [distribuzione delle app in Power BI](service-create-distribute-apps.md).
  
 6. Prima di condividere l'app con i colleghi, si vorrà connetterla ai propri dati. È anche possibile modificare il report o il dashboard per adattarlo alla propria organizzazione. A questo punto è anche possibile aggiungere altri report o dashboard.
 

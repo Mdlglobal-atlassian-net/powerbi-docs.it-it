@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514548"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017810"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Esercitazione: Creare colonne calcolate in Power BI Desktop
 
@@ -36,7 +36,7 @@ Si supponga di voler visualizzare nel proprio Report vendite le categorie e le s
 
  ![Colonne nell'elenco Campi](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  Selezionare i puntini di sospensione (...) di **Altre opzioni** o fare clic con il pulsante destro del mouse sulla tabella **ProductSubcategory** nell'elenco Campi e quindi scegliere **Nuova colonna**. In questo modo, la nuova colonna viene creata nella tabella ProductSubcategory.
+1.  Selezionare **Altre opzioni** (...) o fare clic con il pulsante destro del mouse sulla tabella **ProductSubcategory** nell'elenco Campi e quindi scegliere **Nuova colonna**. In questo modo, la nuova colonna viene creata nella tabella ProductSubcategory.
     
     ![Nuova colonna](media/desktop-tutorial-create-calculated-columns/create2.png)
     

@@ -1,6 +1,6 @@
 ---
 title: Connettersi ai dati di Gestione costi di Azure in Power BI Desktop
-description: Connettersi ad Azure e ottenere informazioni dettagliate sulla gestione dei costi con Power BI Desktop
+description: Connettersi ad Azure e ottenere informazioni dettagliate sui costi di Azure e sull'utilizzo con Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -11,21 +11,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: dccae9f8f9519495da9056599939169e7157873c
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308008"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891767"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>Connettersi ai dati di Gestione costi di Azure in Power BI Desktop
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Connettersi a Gestione costi di Azure in Power BI Desktop
 
 È possibile usare il connettore Gestione costi di Azure per Power BI Desktop per creare visualizzazioni e report potenti e personalizzati che consentono di comprendere meglio i costi di Azure. Il connettore Gestione costi di Azure supporta attualmente i clienti con un [Contratto del cliente Microsoft](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) o un [Contratto Enterprise](https://azure.microsoft.com/pricing/enterprise-agreement/).  
 
-Il connettore Gestione costi di Azure usa OAuth 2.0 per l'autenticazione con Azure. Per connettersi, è necessario usare un account [amministratore Enterprise](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) per il Contratto Enterprise o un [proprietario dell'account di fatturazione](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) per il Contratti del cliente Microsoft. 
+Il connettore Gestione costi di Azure usa OAuth 2.0 per l'autenticazione con Azure e identifica gli utenti che useranno il connettore. I token generati in questo processo sono validi per un periodo specifico. Power BI conserva il token per l'accesso successivo. OAuth 2.0, è uno standard per il processo che viene eseguito in background per garantire la gestione sicura di tali autorizzazioni. Per connettersi, è necessario usare un account [amministratore Enterprise](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) per il Contratto Enterprise o un [proprietario dell'account di fatturazione](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) per il Contratti del cliente Microsoft. 
 
 > [!NOTE]
-> Questo connettore sostituisce il connettore [Gestione costi di Azure (Beta)](desktop-connect-azure-consumption-insights.md) disponibile in precedenza. Tutti i report creati con il connettore precedente devono essere ricreati usando questo connettore.
+> Questo connettore sostituisce i connettori [Informazioni dettagliate sul consumo di Azure e Gestione costi di Azure (Beta)](desktop-connect-azure-consumption-insights.md) disponibili in precedenza. Tutti i report creati con il connettore precedente devono essere ricreati usando questo connettore.
 
 ## <a name="connect-using-azure-cost-management"></a>Connettersi con Gestione costi di Azure
 

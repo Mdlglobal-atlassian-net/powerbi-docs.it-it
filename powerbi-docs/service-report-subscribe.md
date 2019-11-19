@@ -1,5 +1,5 @@
 ---
-title: Sottoscrivere per se stessi e altri utenti report e dashboard - Power BI
+title: Eseguire la sottoscrizione a report e dashboard per se stessi e altri utenti
 description: Informazioni su come sottoscrivere per se stessi e altri utenti uno snapshot di una pagina di report, un dashboard o un report impaginato di Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -8,19 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
+ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073427"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "72891836"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
-È possibile effettuare una sottoscrizione per se stessi e i propri colleghi per le pagine di report, i dashboard e i report impaginati più importanti. Power BI invierà uno snapshot alla Posta in arrivo. Indicare a Power BI con che frequenza si vuole ricevere i messaggi di posta elettronica: giornaliera, settimanale, oraria o mensile o una volta al giorno dopo l'aggiornamento iniziale dei dati.  Se si sceglie la frequenza giornaliera, settimanale, oraria o mensile, è possibile scegliere gli orari in cui eseguire la sottoscrizione.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse al giorno, per ogni pagina di report e dashboard.
+È possibile effettuare una sottoscrizione per se stessi e i propri colleghi per le pagine di report, i dashboard e i report impaginati più importanti. Power BI invierà uno snapshot alla Posta in arrivo. Indicare a Power BI con che frequenza si vuole ricevere i messaggi di posta elettronica: giornaliera, settimanale, oraria o mensile o una volta al giorno dopo l'aggiornamento iniziale dei dati.  Se si sceglie la frequenza giornaliera, settimanale, oraria o mensile, è possibile scegliere gli orari in cui eseguire la sottoscrizione.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse per ogni report o dashboard.
 
 ![Snapshot tramite posta elettronica del dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -54,7 +54,7 @@ Sottoscrivere i report impaginati è leggermente diverso. Per maggiori dettagli,
 
 5. Specificare i dettagli dell'**oggetto** e del **messaggio** di posta elettronica. 
 
-5. Selezionare una **frequenza** per la sottoscrizione: **Ogni giorno**, **Ogni ora**, **Ogni settimana**, **Ogni mese** o **Dopo l'aggiornamento dei dati (una volta al giorno)**.  Per ricevere il messaggio di posta elettronica della sottoscrizione solo in determinati giorni, selezionare **Ogni ora** o **Ogni settimana** e scegliere i giorni desiderati.  Ad esempio, se si vuole ricevere il messaggio della sottoscrizione solo nei giorni feriali, selezionare **Ogni settimana** e deselezionare le caselle **Sab** e **Dom**.  Se si seleziona **Ogni mese**, immettere il giorno o i giorni del mese per i quali si desidera ricevere il messaggio di posta elettronica di sottoscrizione.  
+5. Selezionare una **frequenza** per la sottoscrizione: **Ogni giorno**, **Ogni ora**, **Ogni settimana**, **Ogni mese** o **Dopo l'aggiornamento dei dati (una volta al giorno)** .  Per ricevere il messaggio di posta elettronica della sottoscrizione solo in determinati giorni, selezionare **Ogni ora** o **Ogni settimana** e scegliere i giorni desiderati.  Ad esempio, se si vuole ricevere il messaggio della sottoscrizione solo nei giorni feriali, selezionare **Ogni settimana** e deselezionare le caselle **Sab** e **Dom**.  Se si seleziona **Ogni mese**, immettere il giorno o i giorni del mese per i quali si desidera ricevere il messaggio di posta elettronica di sottoscrizione.  
 
 6. Se si sceglie **Ogni giorno**, **Ogni ora**, **Ogni mese** o **Ogni settimana** è anche possibile scegliere un'**Ora pianificata** per la sottoscrizione.  L'orario può essere l'ora in punto o l'ora e 15, 30 o 45 minuti.  Selezionare mattina (AM) o pomeriggio/sera (PM). È anche possibile specificare il fuso orario.  Se si sceglie **Ogni ora**, in **Ora pianificata** selezionare l'orario desiderato per l'avvio della sottoscrizione e l'esecuzione avverrà ogni ora dopo tale orario.
 

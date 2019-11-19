@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175235"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442902"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
 
@@ -30,17 +30,17 @@ Quando una sottoscrizione Premium scade, l'accesso completo alla capacità è ga
 
 ## <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Creare un nuovo tenant con Power BI Premium P1
 
-Se non si ha un tenant esistente e si vuole crearne uno, è possibile acquistare contemporaneamente Power BI Premium. Il collegamento seguente guida attraverso il processo di creazione di un nuovo tenant e consente di acquistare Power BI Premium: [Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Quando si crea il tenant, si viene automaticamente assegnati al ruolo di amministratore globale di Office 365 per il tenant.
+Se non si ha un tenant esistente e si vuole crearne uno, è possibile acquistare contemporaneamente Power BI Premium. Il collegamento seguente guida attraverso il processo di creazione di un nuovo tenant e consente di acquistare Power BI Premium: [Power BI Premium P1](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). Quando si crea il tenant, si viene automaticamente assegnati al ruolo di amministratore globale di Microsoft 365 per il tenant.
 
 ## <a name="purchase-a-power-bi-premium-capacity-for-an-existing-organization"></a>Acquistare capacità di Power BI Premium per l'organizzazione
 
-Se si ha un'organizzazione esistente (tenant), è necessario avere il ruolo di amministratore globale di Office 365 o di amministratore fatturazione per l'acquisto di sottoscrizioni e licenze. Per altre informazioni, vedere [Informazioni sui ruoli di amministratore di Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
+Se si ha un'organizzazione esistente (tenant), è necessario avere il ruolo di amministratore globale di Microsoft 365 o di amministratore fatturazione per l'acquisto di sottoscrizioni e licenze. Per altre informazioni, vedere [Informazioni sui ruoli di amministratore di Microsoft 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 Per acquistare la capacità Premium, seguire questa procedura.
 
-1. Dal servizio Power BI scegliere Office 365 dalla selezione app e quindi **Amministratore**.
+1. Dal servizio Power BI selezionare la selezione app Microsoft 365 e quindi **Amministratore**.
 
-    ![Selezione app di Office 365](media/service-admin-premium-purchase/o365-app-picker.png)
+    ![Selezione app Microsoft 365](media/service-admin-premium-purchase/o365-app-picker.png)
 
     In alternativa, è possibile passare al centro di amministrazione di Microsoft 365, passando a https://portal.office.com e selezionando **Amministratore**.
 
@@ -66,7 +66,7 @@ Ora che si ha una capacità, è possibile aggiungerne altre in base alle esigenz
 
 1. Trovare l'elemento di Power BI Premium che si desidera acquistare in **Other plans** (Altri piani).
 
-1. Passare il mouse sui **puntini di sospensione (...)**  e quindi selezionare **Change license quantity** (Modifica la quantità di licenze).
+1. Passare il mouse su **Altre opzioni** (...) e quindi selezionare **Cambia la quantità di licenze**.
 
     ![Cambia la quantità di licenze](media/service-admin-premium-purchase/premium-purchase-more.png)
 

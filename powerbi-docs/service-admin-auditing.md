@@ -2,7 +2,6 @@
 title: Usare il controllo nell'organizzazione
 description: Informazioni sulla modalità d'uso della funzionalità di controllo con Power BI per monitorare ed esaminare le azioni eseguite. È possibile usare il Centro sicurezza e conformità o PowerShell.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325456"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873778"
 ---
 # <a name="use-auditing-within-your-organization"></a>Usare il controllo nell'organizzazione
 
@@ -162,7 +161,9 @@ Le attività seguenti sono controllate da Power BI:
 | Account di archiviazione del flusso di dati collegato al tenant dall'amministratore | AdminAttachedDataflowStorageAccountToTenant | Attualmente non in uso                       |
 | Analizzato un set di dati di Power BI                         | AnalyzedByExternalApplication               |                                          |
 | Report di Power BI analizzato                          | AnalyzeInExcel                              |                                          |
+| Account di archiviazione del flusso di dati collegato                 | AttachedDataflowStorageAccount              |                                          |
 | Set di dati di Power BI associato al gateway                | BindToGateway                               |                                          |
+| Aggiornamento del flusso di dati annullato                        | CancelDataflowRefresh                       |                                          |
 | Stato capacità modificato                            | ChangeCapacityState                         |                                          |
 | Assegnazione utente capacità modificata                  | UpdateCapacityUsersAssignment               |                                          |
 | Connessioni del set di dati di Power BI modificate              | SetAllConnections                           |                                          |
@@ -194,6 +195,7 @@ Le attività seguenti sono controllate da Power BI:
 | Report di Power BI eliminato                           | DeleteReport                                |                                          |
 | Origini dati del set di dati di Power BI individuate          | GetDatasources                              |                                          |
 | Report di Power BI scaricato                        | DownloadReport                              |                                          |
+| Proprietà del flusso di dati modificate                        | EditDataflowProperties                      |                                          |
 | Autorizzazione di certificazione di Power BI modificata          | EditCertificationPermission                 | Attualmente non in uso                       |
 | Dashboard di Power BI modificato                         | EditDashboard                               | Attualmente non in uso                       |
 | Set di dati di Power BI modificato                           | EditDataset                                 |                                          |
@@ -213,7 +215,7 @@ Le attività seguenti sono controllate da Power BI:
 | Dashboard di Power BI stampato                        | PrintDashboard                              |                                          |
 | Pagina di report di Power BI stampata                      | PrintReport                                 |                                          |
 | Report di Power BI pubblicato sul Web                  | PublishToWebReport                          |                                          |
-| Segreto del flusso di dati di Power BI ricevuto da Key Vault  | ReceiveDataflowSecretFromKeyVault           | Attualmente non in uso                       |
+| Segreto del flusso di dati di Power BI ricevuto da Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Rimossa origine dati dal gateway di Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Membri del gruppo di Power BI rimossi                    | DeleteGroupMembers                          |                                          |
 | Area di lavoro rimossa da una capacità                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +223,7 @@ Le attività seguenti sono controllate da Power BI:
 | Aggiornamento del flusso di dati Power BI richiesto               | RequestDataflowRefresh                      | Attualmente non in uso                       |
 | Aggiornamento del set di dati di Power BI richiesto                | RefreshDataset                              |                                          |
 | Aree di lavoro di Power BI recuperate                     | GetWorkspaces                               |                                          |
+| Impostazione del percorso di archiviazione del flusso di dati per un'area di lavoro     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Aggiornamento pianificato impostato sul flusso di dati di Power BI        | SetScheduledRefreshOnDataflow               |                                          |
 | Aggiornamento pianificato impostato sul set di dati di Power BI         | SetScheduledRefresh                         |                                          |
 | Dashboard di Power BI condiviso                         | ShareDashboard                              |                                          |
@@ -229,10 +232,12 @@ Le attività seguenti sono controllate da Power BI:
 | Versione di valutazione di Power BI avviata                            | OptInForProTrial                            |                                          |
 | Origine dati di Power BI acquisita                   | TakeOverDatasource                          |                                          |
 | Set di dati di Power BI acquisito                        | TakeOverDataset                             |                                          |
+| Flusso di dati di Power BI acquisito                     | TookOverDataflow                             |                                          |
 | Pubblicazione dell'app Power BI annullata                          | UnpublishApp                                |                                          |
 | Aggiorna impostazioni di governance delle risorse di capacità      | UpdateCapacityResourceGovernanceSettings    | Attualmente non presente nell'interfaccia di amministrazione di Microsoft 365 |
 | Amministratore della capacità aggiornato                            | UpdateCapacityAdmins                        |                                          |
 | Nome visualizzato della capacità aggiornato                     | UpdateCapacityDisplayName                   |                                          |
+| Autorizzazioni di assegnazione dell'archiviazione del flusso di dati aggiornate   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Impostazioni Power BI dell'organizzazione aggiornate          | UpdatedAdminFeatureSwitch                   |                                          |
 | App Power BI aggiornata                              | UpdateApp                                   |                                          |
 | Flusso di dati di Power BI aggiornato                         | UpdateDataflow                              |                                          |
@@ -255,4 +260,4 @@ Le attività seguenti sono controllate da Power BI:
 
 [Portale di amministrazione di Power BI](service-admin-portal.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

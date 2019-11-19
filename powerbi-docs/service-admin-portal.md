@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305888"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442869"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -169,7 +169,9 @@ Le sezioni successive forniscono una panoramica dei diversi tipi di impostazioni
 
 Gli utenti dell'organizzazione possono usare le risorse interne di Guida e supporto tecnico tramite il menu della Guida di Power BI. In particolare, questi parametri modificano il comportamento delle voci di menu Informazioni, Community e Guida.
 
-È anche possibile specificare un URL per indirizzare gli utenti a una soluzione personalizzata per le richieste di licenze. Questo parametro consente di personalizzare l'URL di destinazione del pulsante Aggiorna account che un utente senza una licenza di Power BI Pro può trovare nella finestra di dialogo di aggiornamento a Power BI Pro, nonché nella pagina Gestisci archivio personale.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+Specificare un URL per le richieste di licenza consente di personalizzare l'URL di destinazione del pulsante **Aggiorna account** che un utente senza una licenza di Power BI Pro può trovare nella finestra di dialogo **Aggiorna a Power BI Pro**, nonché nella pagina **Gestisci archivio personale**. Inoltre, Power BI non offre più il pulsante **Prova gratuitamente la versione Pro** in questa finestra di dialogo o nella pagina di archiviazione per assicurarsi che Power BI guidi gli utenti in modo affidabile attraverso i processi definiti nell'organizzazione tramite la soluzione di gestione delle licenze.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Ricevi notifiche di posta elettronica per interruzioni del servizio o eventi imprevisti
 
@@ -179,7 +181,7 @@ I gruppi di sicurezza abilitati per la posta elettronica riceveranno notifiche d
 
 ### <a name="create-workspaces"></a>Creare aree di lavoro
 
-Gli amministratori usano l'impostazione **Crea aree di lavoro** per indicare gli utenti dell'organizzazione che possono creare aree di lavoro per le app per collaborare a dashboard, report e altro contenuto. Vedere altre informazioni sulle [aree di lavoro per le app](service-create-the-new-workspaces.md).
+Gli amministratori usano l'impostazione **Crea aree di lavoro** per indicare agli utenti dell'organizzazione che possono creare aree di lavoro per collaborare a dashboard, report e altro contenuto. Vedere altre informazioni sulle [aree di lavoro](service-create-the-new-workspaces.md).
 
 Il portale di amministrazione ha un'altra sezione di impostazioni relative alle aree di lavoro nel tenant. In tale sezione è possibile ordinare e filtrare l'elenco di aree di lavoro e visualizzare i dettagli per ognuna di esse. Per informazioni dettagliate, vedere [Aree di lavoro](#workspaces).
 
@@ -291,9 +293,9 @@ Gli utenti dell'organizzazione possono usare Excel per visualizzare set di dati 
 > [!NOTE]
 > Se si disabilita l'impostazione **Esporta dati**, gli utenti non possono usare neanche la funzionalità **Analizza in Excel**.
 
-### <a name="use-arcgis-maps-for-power-bi"></a>Usa ArcGIS Maps for Power BI
+### <a name="use-arcgis-maps-for-power-bi"></a>Usa Mappe ArcGIS per Power BI
 
-Gli utenti dell'organizzazione possono usare la visualizzazione ArcGIS Maps for Power BI offerta da Esri. [Altre informazioni](visuals/power-bi-visualization-arcgis.md)
+Gli utenti dell'organizzazione possono usare la visualizzazione Mappe ArcGIS per Power BI offerta da Esri. [Altre informazioni](visuals/power-bi-visualization-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Usa la ricerca globale per Power BI (anteprima)
 

@@ -1,6 +1,6 @@
 ---
 title: Configurare le impostazioni del flusso di dati dell'area di lavoro
-description: Configurare un'area di lavoro per le app in Power BI per archiviare i file di definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
+description: Configurare un'area di lavoro in Power BI per archiviare i file di definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 54c0936510c3d383df32fd8b1f99816726f74d9f
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523513"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431991"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configurare le impostazioni del flusso di dati dell'area di lavoro (anteprima)
 
@@ -35,11 +35,11 @@ Entrambi i modi verranno presentati nelle sezioni seguenti.
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Creare una nuova area di lavoro e configurare l'archiviazione del flusso di dati
 
-Per creare una nuova area di lavoro per app nel servizio Power BI, selezionare **Aree di lavoro > Crea area di lavoro per le app**.
+Per creare una nuova area di lavoro nel servizio Power BI, selezionare **Aree di lavoro > Crea area di lavoro**.
 
 ![Aggiungere una nuova area di lavoro](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-Nella finestra di dialogo Crea area di lavoro per le app potrebbe essere visualizzata una casella gialla con il titolo **Anteprima aree di lavoro migliorate**. In tale area selezionare **Prova adesso**.
+Nella finestra di dialogo Crea area di lavoro può essere visualizzata una casella gialla con il titolo **Anteprima aree di lavoro migliorate**. In tale area selezionare **Prova adesso**.
 
 ![Anteprima delle aree di lavoro migliorate](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +47,7 @@ Nella finestra di dialogo visualizzata, è possibile assegnare un nome univoco a
 
 ![Assegnare un nome alla nuova area di lavoro](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-Espandere quindi l'area **Avanzate** della finestra di dialogo **Crea area di lavoro per le app** in cui è possibile attivare l'impostazione **Archiviazione del flusso di dati (anteprima)** .
+Espandere quindi l'area **Avanzate** della finestra di dialogo **Crea area di lavoro** in cui è possibile attivare l'impostazione **Archiviazione del flusso di dati (anteprima)** .
 
 ![Impostazioni avanzate per la nuova area di lavoro](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +57,7 @@ Selezionare **Salva** per creare la nuova area di lavoro. Qualsiasi nuovo flusso
 
 In alternativa alla creazione di una nuova area di lavoro, è possibile aggiornare un'area di lavoro esistente per archiviare i file di definizione e di dati nell'account di Azure Data Lake Storage Gen2 della propria organizzazione. Ricordarsi che l'impostazione di archiviazione del flusso di dati può essere modificata solo se l'area di lavoro non contiene già flussi di dati.
 
-Per modificare un'area di lavoro per le app, selezionare i puntini di sospensione **(...)** e quindi selezionare **Modifica area di lavoro**. 
+Per modificare un'area di lavoro, selezionare i puntini di sospensione **(...)** e quindi selezionare **Modifica area di lavoro**. 
 
 ![Modifica area di lavoro](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,7 +103,7 @@ Esistono alcune altre considerazioni, descritte nell'elenco seguente:
 
 I clienti di **Power BI Desktop** non possono accedere ai flussi di dati archiviati in un account di Azure Data Lake Storage Gen2 a meno che non siano proprietari del flusso di dati. Considerare la situazione seguente:
 
-1.  Anna crea una nuova area di lavoro per app e la configura per archiviare i flussi di dati nel data lake dell'organizzazione.
+1.  Anna crea una nuova area di lavoro e la configura per l'archiviazione dei flussi di dati nel data lake dell'organizzazione.
 2.  Bruno, anch'esso membro dell'area di lavoro creata da Anna, vuole usare Power BI Desktop e il connettore per i flussi di dati per ottenere dati dal flusso creato da Anna.
 3.  Bruno riceve un errore perché non è stato aggiunto come utente autorizzato alla cartella CDM del flusso di dati nel data lake.
 

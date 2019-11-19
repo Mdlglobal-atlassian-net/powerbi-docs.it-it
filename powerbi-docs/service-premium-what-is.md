@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305851"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431647"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -53,7 +53,7 @@ Le sottoscrizioni di Power BI Premium vengono acquistate dagli amministratori ne
 
 Con Power BI Premium si ottengono *capacità dedicate*. A differenza di una capacità condivisa in cui i carichi di lavoro vengono eseguiti in risorse di elaborazione condivise con altri clienti, una capacità dedicata è destinata all'uso esclusivo da parte di un'organizzazione. La capacità dedicata è isolata con risorse di calcolo dedicate che offrono prestazioni affidabili e coerenti per il contenuto ospitato. 
 
-Le aree di lavoro si trovano all'interno delle capacità. Ogni utente di Power BI ha un'area di lavoro chiamata **Area di lavoro personale**. Si possono creare nuove aree di lavoro dette **aree di lavoro per le app** per agevolare la collaborazione. Per impostazione predefinita, le aree di lavoro, incluse le aree di lavoro personale, vengono create nella capacità condivisa. Quando si hanno le capacità Premium, le aree di lavoro personali e le aree di lavoro per le app possono essere assegnate alle capacità Premium.
+Le aree di lavoro si trovano all'interno delle capacità. Ogni utente di Power BI ha un'area di lavoro chiamata **Area di lavoro personale**. È possibile creare aree di lavoro aggiuntive chiamate **aree di lavoro** per consentire la collaborazione. Per impostazione predefinita, le aree di lavoro, incluse le aree di lavoro personale, vengono create nella capacità condivisa. Se si hanno capacità Premium, a queste possono essere assegnate sia aree di lavoro personali che aree di lavoro.
 
 ### <a name="capacity-nodes"></a>Nodi delle capacità
 
@@ -71,7 +71,7 @@ Le risorse e i limiti di ogni SKU Premium (e della SKU A di dimensioni equivalen
 
 | Nodi delle capacità | Totale vCore | vCore back-end | RAM (GB) | vCore front-end | Connessione dinamica/DirectQuery (al secondo) | Parallelismo di aggiornamento dei modelli |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

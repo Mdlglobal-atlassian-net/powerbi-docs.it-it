@@ -2,7 +2,6 @@
 title: Configurare l'aggiornamento pianificato
 description: Questo articolo descrive la procedura per selezionare un gateway e configurare l'aggiornamento pianificato.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816636"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860709"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurare l'aggiornamento pianificato
 
@@ -30,7 +29,7 @@ Verranno descritte le opzioni disponibili sia per il [gateway dati (modalità pe
 
 Per visualizzare la schermata **Pianifica aggiornamenti**, è possibile eseguire le operazioni indicate di seguito.
 
-1. Selezionare i **puntini di sospensione (...)** accanto a un set di dati elencato in **Set di dati**.
+1. Selezionare **Altre opzioni** (...) accanto a un set di dati elencato in **Set di dati**.
 2. Selezionare **Pianifica aggiornamenti**.
 
     ![Pianifica aggiornamenti](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -127,5 +126,5 @@ A volte, l'aggiornamento dei dati non funziona come previsto. In genere si tratt
 - [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 - [Risoluzione dei problemi di Gateway di Power BI - Personale](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

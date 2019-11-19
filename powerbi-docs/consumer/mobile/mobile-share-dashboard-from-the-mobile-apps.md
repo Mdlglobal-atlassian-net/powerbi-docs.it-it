@@ -2,19 +2,18 @@
 title: Condividere un dashboard o un report da app Power BI per dispositivi mobili
 description: Invitare altri utenti a visualizzare i dashboard e i report condividendo i collegamenti dalle app Power BI per dispositivi mobili. Come fare.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61274661"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879089"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Condividere un dashboard o un report da app Power BI per dispositivi mobili
 Si applica a:
@@ -86,7 +85,7 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
 3. Per annullare la condivisione, toccare il cerchio rosso accanto a un nome e toccare **Elimina**.
 
 ## <a name="share-from-your-android-device"></a>Condividere da un dispositivo Android
-1. Nella home page dei dashboard o dei report toccare i puntini di sospensione (...) e quindi **Invita un collega**.
+1. Nella home page dei dashboard o dei report toccare **Altre opzioni** (...) e quindi **Invita un collega**.
    
    ![Invita un collega](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
 2. In alternativa, in un dashboard o un report toccare l'icona Invita ![icona Invita](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
@@ -147,5 +146,5 @@ Dalle app per dispositivi mobili Power BI per iOS e Android è possibile anche [
 ## <a name="next-steps"></a>Passaggi successivi
 * [Annotate & share a snapshot of a tile, report, or visual in the mobile apps](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) (Aggiungere annotazioni e condividere lo snapshot di un riquadro, un report o un oggetto visivo nelle app per dispositivi mobili)
 * [Condividere un dashboard o un report in Power BI](../../service-share-dashboards.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

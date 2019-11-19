@@ -2,7 +2,6 @@
 title: Promuovere il set di dati (anteprima) - Power BI
 description: Informazioni su come promuovere il set di dati, indirizzare gli utenti aziendali a set di dati affidabili e di alta qualità.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567349"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877128"
 ---
 # <a name="promote-your-dataset-preview"></a>Promuovere il set di dati (anteprima)
 
@@ -30,7 +29,7 @@ Per essere promosso, è necessario che il set di dati si trovi in un'area di lav
 
 1. Passare all'elenco dei set di dati nell'area di lavoro.
  
-1. Selezionare i puntini di sospensione (...), quindi selezionare **Impostazioni**.
+1. Selezionare **Altre opzioni** (...) e quindi selezionare **Impostazioni**.
 
     ![Selezionare i puntini di sospensione corrispondenti al set di dati](media/service-datasets-certify-promote/power-bi-dataset-settings.png)
 
@@ -55,4 +54,4 @@ L'amministratore tenant ha identificato gli utenti dell'organizzazione che posso
 ## <a name="next-steps"></a>Passaggi successivi
 
 * Leggere [Usare set di dati in aree di lavoro diverse](service-datasets-across-workspaces.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

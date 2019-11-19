@@ -2,7 +2,6 @@
 title: Modificare un riquadro del dashboard
 description: Questa esercitazione illustra la creazione di un riquadro, l'aggiunta del riquadro a un dashboard e infine spiega come modificare il riquadro del dashboard, ovvero come ridimensionare, spostare, rinominare, aggiungere, eliminare il riquadro e aggiungere un collegamento ipertestuale.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720565"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877479"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Modificare o rimuovere un riquadro del dashboard
 
@@ -83,9 +82,9 @@ Individuare il nuovo riquadro nel dashboard. Selezionare e tenere premuto il riq
 ![Video](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>Menu di puntini di sospensione (...)
+## <a name="more-options--menu"></a>Menu **Altre opzioni** (...)
 
-1. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra del riquadro. 
+1. Selezionare **Altre opzioni** (...) nell'angolo in alto a destra del riquadro. 
    
    ![Puntini di sospensione del riquadro](media/service-dashboard-edit-tile/power-bi-tile.png)
 
@@ -148,5 +147,5 @@ Per impostazione predefinita, se si seleziona un riquadro viene in genere aperto
 
 [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

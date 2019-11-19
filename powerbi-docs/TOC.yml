@@ -513,7 +513,7 @@
               href: service-interruption-notifications.md
         - name: Estendi Power BI
           items:
-            - name: Microsoft Flow e Power BI
+            - name: Power Automate e Power BI
               href: service-flow-integration.md
             - name: Usare app di terze parti
               href: service-power-bi-get-started-third-party-apps.md
@@ -1093,7 +1093,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: 'Gestire l''origine dati aziendale - SQL '
+            - name: Gestire l'origine dati aziendale - SQL
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md

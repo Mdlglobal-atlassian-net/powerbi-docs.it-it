@@ -2,7 +2,6 @@
 title: Gestire l'area di lavoro in Power BI e Office 365
 description: Le aree di lavoro in Power BI costituiscono un'esperienza di collaborazione basata sui gruppi di Office 365. È possibile gestire le aree di lavoro sia in Power BI che in Office 365.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1317d11b11624ca6187eb91d5350a698bf164f63
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 7f1d86dd3da6665eb985db17ac3641768ff56947
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431815"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872085"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Gestire l'area di lavoro in Power BI e Office 365
 
@@ -87,4 +86,4 @@ Quando si distribuisce l'app dall'area di lavoro, l'immagine aggiunta qui divent
 
 * [Pubblicare un'app in Power BI](service-create-distribute-apps.md)
 
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

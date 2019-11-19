@@ -2,7 +2,6 @@
 title: Distribuire il contenuto agli utenti guest esterni usando Azure AD B2B
 description: Power BI si integra con Azure Active Directory Business-to-Business (AD B2B Azure) per consentire la distribuzione sicura di contenuto di Power BI agli utenti guest all'esterno dell'organizzazione.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b7327a7b32aacd222efc422263187f29285bd73
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075767"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858020"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B
 
@@ -81,7 +80,7 @@ Quando si usa la funzionalità [Consenti agli utenti guest esterni di modificare
 
 ### <a name="use-power-bi-premium"></a>Usare Power BI Premium
 
-L'assegnazione dell'area di lavoro per le app alla [capacità di Power BI Premium](service-premium-what-is.md) consente all'utente guest di usare l'app senza che sia necessaria una licenza di Power BI Pro. Power BI Premium consente anche alle app di sfruttare altre funzionalità come maggiori frequenze di aggiornamento, capacità dedicata e modelli di grandi dimensioni.
+L'assegnazione dell'area di lavoro alla [capacità di Power BI Premium](service-premium-what-is.md) consente all'utente guest di usare l'app senza che sia necessaria una licenza di Power BI Pro. Power BI Premium consente anche alle app di sfruttare altre funzionalità come maggiori frequenze di aggiornamento, capacità dedicata e modelli di grandi dimensioni.
 
 ![Diagramma dell'esperienza dell'utente guest con Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -113,6 +112,8 @@ Per aiutare questi utenti ad accedere a Power BI, fornire loro l'URL del tenant.
 
 * Per impostazione predefinita, gli utenti guest di Azure AD B2B esterni sono limitati all'utilizzo del contenuto. Gli utenti guest di Azure AD B2B esterni possono visualizzare app, dashboard e report, esportare i dati e creare sottoscrizioni di posta elettronica per i dashboard e i report. Non possono accedere alle aree di lavoro o pubblicare contenuto personale. Tuttavia, queste restrizioni non si applicano agli utenti guest che ottengono l'accesso tramite la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
 
+* Per invitare gli utenti guest è necessaria una licenza di Power BI Pro. Gli utenti della versione di valutazione Pro non possono invitare gli utenti guest in Power BI.
+
 * Alcune esperienze non sono disponibili per gli utenti guest abilitati tramite la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Per aggiornare o pubblicare report, devono usare l'interfaccia utente Web del servizio Power BI, tra cui l'opzione Scarica i dati per caricare i file di Power BI Desktop.  Le esperienze seguenti non sono supportate:
     * Pubblicazione diretta da Power BI Desktop al servizio Power BI
     * Gli utenti guest non possono usare Power BI Desktop per connettersi ai set di dati del servizio nel servizio Power BI
@@ -127,7 +128,12 @@ Per aiutare questi utenti ad accedere a Power BI, fornire loro l'URL del tenant.
     * Gli utenti guest non possono usare Analizza in Excel
     * Gli utenti guest non possono essere @mentioned nei commenti
     * Gli utenti guest non possono usare le sottoscrizioni
-    * Gli utenti guest che usano questa funzionalità dovrebbero avere un account aziendale o dell'istituto di istruzione. Gli utenti guest che usano account personali saranno soggetti a maggiori limitazioni a causa di restrizioni di accesso.
+    * Gli utenti guest che usano questa funzionalità dovrebbero avere un account aziendale o dell'istituto di istruzione. 
+    
+* Gli utenti guest che usano account personali saranno soggetti a maggiori limitazioni a causa di restrizioni di accesso.
+    * Possono usare le esperienze nel servizio Power BI tramite un Web browser
+    * Non possono usare le app per dispositivi mobili Power BI.
+    * Non saranno in grado di accedere per fornire le credenziali quando è richiesto un account aziendale o dell'istituto di istruzione.
 
 * Questa funzionalità non è attualmente disponibile nella Web part Report di SharePoint Online di Power BI.
 

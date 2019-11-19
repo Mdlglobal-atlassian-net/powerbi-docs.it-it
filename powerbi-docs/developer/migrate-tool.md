@@ -3,18 +3,17 @@ title: Strumento di migrazione di Power BI Embedded
 description: Questo strumento di migrazione può essere usato per copiare i report dal servizio Power BI Embedded Azure (PaaS) al servizio Power BI (SaaS).
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272254"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880585"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Strumento di migrazione di Power BI Embedded
 
@@ -130,9 +129,9 @@ Verrà creato automaticamente un percorso per l'utente, che è possibile modific
 > [!NOTE]
 > Questa operazione non esegue il download, ma consente solo di specificare la struttura in cui verranno scaricati i report.
 
-#### <a name="upload-plan"></a>Upload Plan (Piano di upload)
+#### <a name="upload-plan"></a>Piano di upload
 
-Qui è possibile specificare un prefisso da usare per le aree di lavoro per le app che verranno create all'interno del servizio Power BI. Dopo il prefisso ci sarà il GUID per l'area di lavoro esistente in Azure.
+Qui è possibile specificare un prefisso da usare per le aree di lavoro che verranno create all'interno del servizio Power BI. Dopo il prefisso ci sarà il GUID per l'area di lavoro esistente in Azure.
 
 ![Piano di upload](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +166,21 @@ Una volta completato il download, selezionare la scheda **Create Groups**.
 
 ## <a name="step-3-create-groups"></a>Passaggio 3: Crea gruppi
 
-Dopo avere scaricato i report disponibili, è possibile passare alla scheda **Create Groups**, che creerà le aree di lavoro per le app all'interno del servizio Power BI in base al piano di migrazione creato, con il nome fornito nella scheda **Upload** in **Analyze & Plan Migration**.
+Dopo avere scaricato i report disponibili, è possibile passare alla scheda **Create Groups**, che creerà le aree di lavoro all'interno del servizio Power BI in base al piano di migrazione creato, con il nome specificato nella scheda **Upload** (Carica) in **Analyze & Plan Migration** (Analizza e pianifica migrazione).
 
 ![Creare i gruppi](media/migrate-tool/migrate-tool-create-groups.png)
 
-Per creare le aree di lavoro per le app, è possibile selezionare **Create Selected Groups** o **Create All Missing Groups**.
+Per creare le aree di lavoro, è possibile selezionare **Create Selected Groups** (Crea gruppi selezionati) o **Create All Missing Groups** (Crea tutti i gruppi mancanti).
 
-Quando si seleziona una di queste opzioni, verrà richiesto di accedere. *È consigliabile usare le credenziali per il servizio Power BI in cui si vogliono creare le aree di lavoro per le app.*
+Quando si seleziona una di queste opzioni, verrà richiesto di accedere. *È consigliabile usare le credenziali per il servizio Power BI in cui si vogliono creare le aree di lavoro.*
 
 ![Creare l'accesso del gruppo](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-Verrà creata un'area di lavoro per le app all'interno del servizio Power BI, ma i report non verranno caricati nell'area di lavoro per le app.
+Verrà creata un'area di lavoro all'interno del servizio Power BI, ma i report non verranno caricati all'interno di questa.
 
-È possibile verificare che l'area di lavoro per le app sia stata creata eseguendo l'accesso a Power BI e confermando l'esistenza dell'area di lavoro. Si noterà che l'area di lavoro è priva di contenuto.
+È possibile verificare che l'area di lavoro sia stata creata eseguendo l'accesso a Power BI e confermando l'esistenza dell'area di lavoro. Si noterà che l'area di lavoro è priva di contenuto.
 
-![Area di lavoro per le app](media/migrate-tool/migrate-tool-app-workspace.png)
+![area di lavoro](media/migrate-tool/migrate-tool-app-workspace.png)
 
 Dopo aver creato l'area di lavoro, è possibile passare alla scheda **Upload**.
 
@@ -235,9 +234,9 @@ Per l'elemento non riuscito, è possibile modificare il nome del valore SaaSTarg
 
 Sarà quindi possibile aprire nuovamente il piano nello strumento di migrazione e caricare il report non riuscito.
 
-Tornando a Power BI, si noterà che sono stati caricati i report e i set di dati nell'area di lavoro per le app.
+Tornando a Power BI, si noterà che i report e i set di dati sono stati caricati nell'area di lavoro.
 
-![Caricare l'area di lavoro per le app](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![Area di lavoro di caricamento](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +263,7 @@ Dopo aver modificato il file XML, aprire nuovamente il piano nello strumento di 
 
 ## <a name="embedding"></a>Incorporamento
 
-Ora che è stata eseguita la migrazione dei report dal servizio di Azure di Power BI Embedded al servizio Power BI, è possibile aggiornare l'applicazione e iniziare a incorporare i report nell'area di lavoro per le app.
+Ora che è stata eseguita la migrazione dei report dal servizio di Azure Power BI Embedded al servizio Power BI, è possibile aggiornare l'applicazione e iniziare a incorporare i report nell'area di lavoro.
 
 Per altre informazioni, vedere [Come eseguire la migrazione del contenuto della raccolta di aree di lavoro di Power BI Embedded in Power BI](migrate-from-powerbi-embedded.md).
 
@@ -278,4 +277,4 @@ Per altre informazioni, vedere [Come eseguire la migrazione del contenuto della 
 [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [White paper su Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

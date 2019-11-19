@@ -3,18 +3,17 @@ title: Quali operazioni possono eseguire gli sviluppatori con Power BI?
 description: Power BI offre un'ampia gamma di opzioni per gli sviluppatori, che vanno dall'incorporamento agli oggetti visivi personalizzati fino ai set di dati in streaming.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307453"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875678"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>Quali operazioni possono eseguire gli sviluppatori con Power BI?
 
@@ -22,7 +21,7 @@ Gli sviluppatori hanno diverse opzioni per provare a includere contenuto di Powe
 
 ## <a name="embedding-power-bi-content"></a>Incorporamento di contenuto di Power BI
 
-Il servizio Power BI (SaaS) e il servizio Power BI Embedded in Azure (PaaS) offrono API per l'incorporamento di dashboard e report. Questa funzionalità consente di accedere alle funzionalità di Power BI più recenti, ad esempio dashboard, gateway e aree di lavoro per le app, quando si incorpora il contenuto.
+Il servizio Power BI (SaaS) e il servizio Power BI Embedded in Azure (PaaS) offrono API per l'incorporamento di dashboard e report. Questa funzionalità consente di accedere alle funzionalità di Power BI più recenti, ad esempio dashboard, gateway e aree di lavoro, quando si incorpora il contenuto.
 
 È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup) per iniziare rapidamente e scaricare un'applicazione di esempio.
 

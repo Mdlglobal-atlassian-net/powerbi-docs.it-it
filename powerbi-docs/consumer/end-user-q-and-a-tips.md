@@ -2,21 +2,19 @@
 title: Suggerimenti e idee per porre domande con Domande e risposte
 description: Suggerimenti e idee per porre domande con Domande e risposte in Power BI
 author: mihart
-manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408185"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099014"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Suggerimenti per porre domande in Domande e risposte di Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Parole e terminologia riconosciute da Domande e risposte
@@ -66,7 +64,7 @@ L'elenco seguente usa i tempi verbali presenti, ma tutti i tempi verbali vengono
 |  |  |
 |**Primi N**     |     (ordine, classificazione): principale, inferiore, più alto, più basso, primo, ultimo, successivo, meno recente, più recente, più vecchio, più nuovo, recentissimo, successivo            |
 |        |         |
-|**Tipi di oggetti visivi**     |  tutti i tipi di oggetti visivi nativi di Power BI.  Se è un'opzione disponibile nel riquadro Visualizzazioni, è possibile includere il valore nella domanda.  L'eccezione a questa regola è costituita dagli [oggetti visivi personalizzati](../power-bi-custom-visuals.md) aggiunti manualmente al riquadro Visualizzazioni.  |
+|**Tipi di oggetti visivi**     |  tutti i tipi di oggetti visivi nativi di Power BI.  Se è un'opzione disponibile nel riquadro Visualizzazioni, è possibile includere il valore nella domanda.  L'eccezione a questa regola è costituita dagli [oggetti visivi personalizzati](../developer/power-bi-custom-visuals.md) aggiunti manualmente al riquadro Visualizzazioni.  |
 |  |  Esempio: mostra aree in base al mese e al totale vendite sotto forma di grafico a barre               |
 |        |         |
 |**Relazione (qualificata)**  | quando, dove, quale, chi, a chi, quanti, quale quantità, quante volte, quanto spesso, con che frequenza, importo, numero, quantità, durata, cosa                |
@@ -79,7 +77,9 @@ Domande e risposte cerca di comprendere e rispondere al meglio alla domanda post
 * fornisce un'anteprima della risposta sotto forma di oggetto visivo. L'oggetto visivo si aggiorna quando si digita e modifica la domanda, senza attendere che l'utente prema INVIO.
 * suggerisce termini sostitutivi dai set di dati sottostanti quando si sposta il cursore nella casella della domanda.
 * riformula la domanda in base ai dati nei set di dati sottostanti. Domande e risposte sostituisce le parole usate con sinonimi dai set di dati sottostanti. Leggendo la domanda riformulata è possibile capire se Domande e risposte ha compreso o meno la domanda. 
-* offusca parole che non riconosce.
+* aggiunge una sottolineatura doppia alle parole che non riconosce.
+* aggiunge una singola sottolineatura alle parole che riconosce.
+* consente di contattare il proprietario del report o del dashboard quando il termine non viene trovato o se la domanda non restituisce risultati.
 
 ## <a name="dont-stop-now"></a>Non interrompere ora
 Dopo che Domande e risposte ha mostrato i risultati, continuare la conversazione! Usare le funzionalità interattive dell'oggetto visivo e di Domande e risposte per scoprire altri approfondimenti.
@@ -89,5 +89,5 @@ Tornare a [Domande e risposte in Power BI](end-user-q-and-a.md)
 
 [Power BI - Concetti di base](end-user-basic-concepts.md)  
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

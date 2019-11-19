@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: c4def89d7c91186295e4f2b3f07769792a8892e8
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191477"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017781"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Grafici a cascata in Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "71191477"
 
 I grafici a cascata mostrano il totale aggiornato ogni volta che Power BI aggiunge e sottrae valori. Sono utili per comprendere in che modo un valore iniziale (ad esempio, il reddito netto) è interessato da una serie di modifiche positive e negative.
 
-Le colonne sono contraddistinte dal colore per poter notare rapidamente gli aumenti e le diminuzioni. Le colonne del valore iniziale e del valore finale spesso [iniziano sull'asse orizzontale](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "iniziano sull’asse orizzontale"), mentre i valori intermedi sono colonne mobili. In virtù di questo stile, i grafici a cascata sono noti anche come grafici a ponte.
+Le colonne sono contraddistinte dal colore per poter notare rapidamente gli aumenti e le diminuzioni. Le colonne del valore iniziale e del valore finale spesso [iniziano sull'asse orizzontale](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "iniziano sull'asse orizzontale"), mentre i valori intermedi sono colonne mobili. In virtù di questo stile, i grafici a cascata sono noti anche come grafici a ponte.
 
    > [!NOTE]
    > Questo video usa una versione precedente di Power BI Desktop.
@@ -76,7 +76,7 @@ Verrà creato un grafico a cascata che visualizza la varianza delle vendite (con
 
     ![cascata](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Assicurarsi che Power BI abbia ordinato il grafico a cascata in ordine cronologico. Selezionare i puntini di sospensione (...) nell'angolo superiore destro del grafico.
+1. Assicurarsi che Power BI abbia ordinato il grafico a cascata in ordine cronologico. Selezionare **Altre opzioni** (...) nell'angolo superiore destro del grafico.
 
     Per questo esempio si selezionerà **Ordinamento crescente**
 

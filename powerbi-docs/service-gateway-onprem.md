@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 8ca43232cdc5781900dd7cf8b9f72c510dab2e37
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730289"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442795"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Informazioni sul gateway dati locale
 
@@ -42,13 +42,13 @@ Esistono due tipi di gateway diversi, ognuno per uno scenario diverso:
 I passaggi principali per usare un gateway sono quattro.
 
 1. [Scaricare e installare il gateway](/data-integration/gateway/service-gateway-install) in un computer locale.
-2. [Configurare](/data-integration/gateway/service-gateway-app) il gateway in base al firewall e ad altri requisiti di rete.
-3. [Aggiungere gli amministratori del gateway](/data-integration/gateway/service-gateway-manage) che possono anche gestire e amministrare altri requisiti di rete.
-4. [Risolvere i problemi](service-gateway-onprem-tshoot.md) del gateway in caso di errori.
+1. [Configurare](/data-integration/gateway/service-gateway-app) il gateway in base al firewall e ad altri requisiti di rete.
+1. [Aggiungere gli amministratori del gateway](/data-integration/gateway/service-gateway-manage) che possono anche gestire e amministrare altri requisiti di rete.
+1. [Usare il gateway](service-gateway-sql-tutorial.md) per aggiornare un'origine dati locale.
+1. [Risolvere i problemi](service-gateway-onprem-tshoot.md) del gateway in caso di errori.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Installare il gateway dati locale](/data-integration/gateway/service-gateway-install)
-
 
 Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)

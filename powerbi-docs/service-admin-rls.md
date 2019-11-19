@@ -2,7 +2,6 @@
 title: Sicurezza a livello di riga con Power BI
 description: Come configurare la sicurezza a livello di riga per i set di dati importati e DirectQuery nel servizio Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6ce3a65489c60cabb1dd705ce3243c4cec6abe40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074822"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873521"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Sicurezza a livello di riga con Power BI
 
@@ -28,7 +27,7 @@ La sicurezza a livello di riga con Power BI può essere usata per limitare l'acc
 
 Per impostazione predefinita, i filtri per la sicurezza a livello di riga usano i filtri unidirezionali, indipendentemente dal fatto che le relazioni siano impostate su unidirezionali o bidirezionali. È possibile abilitare manualmente il filtro incrociato bidirezionale con la sicurezza a livello di riga selezionando la selezione e selezionando la casella di controllo **Applica filtro di sicurezza in entrambe le direzioni**. È consigliabile selezionare questa casella quando è stata implementata anche la sicurezza a livello di riga dinamica a livello di server, in cui la sicurezza a livello di riga si basa sul nome utente o sull'ID di accesso.
 
-Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery in Power BI Desktop](desktop-bidirectional-filtering.md) e l'articolo tecnico [Securing the Tabular BI Semantic Model](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protezione del modello semantico tabulare di BI).
+Per altre informazioni, vedere [Filtro incrociato bidirezionale con DirectQuery in Power BI Desktop](desktop-bidirectional-filtering.md) e l'articolo tecnico [Securing the Tabular BI Semantic Model](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) (Protezione del modello semantico tabulare di BI).
 
 ![Applicare il filtro di sicurezza](media/service-admin-rls/rls-apply-security-filter.png)
 
@@ -70,7 +69,7 @@ Verrà visualizzata la pagina della sicurezza a livello di riga per aggiungere m
 
 È possibile convalidare il corretto funzionamento del ruolo definito testandolo. 
 
-1. Selezionare i **puntini di sospensione (…)** accanto al ruolo.
+1. Selezionare **Altre opzioni** (...) accanto al ruolo.
 2. Selezionare **Test dei dati come ruolo**
 
 ![Test come ruolo](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +88,12 @@ Per tornare alla visualizzazione normale, selezionare **Torna alla sicurezza a l
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Usare la sicurezza a livello di riga con le aree di lavoro per le app in Power BI
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Usare la sicurezza a livello di riga con le aree di lavoro in Power BI
 
-Se si pubblica il report di Power BI Desktop in un'area di lavoro per le app all'interno del servizio Power BI, i ruoli verranno applicati ai membri di sola lettura. È necessario indicare che i membri possono visualizzare il contenuto di Power BI solo entro le impostazioni dell'area di lavoro per le app.
+Se si pubblica il report di Power BI Desktop in un'area di lavoro all'interno del servizio Power BI, i ruoli verranno applicati ai membri di sola lettura. Sarà necessario indicare che i membri possono visualizzare il contenuto di Power BI solo entro le impostazioni dell'area di lavoro.
 
 > [!WARNING]
-> Se è stata configurata l'area di lavoro per le app in modo da assegnare le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Gli utenti riusciranno a visualizzare tutti i dati.
+> Se l'area di lavoro è stata configurata in modo da assegnare le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Gli utenti riusciranno a visualizzare tutti i dati.
 
 ![Impostazioni di gruppo](media/service-admin-rls/rls-group-settings.png)
 
@@ -105,4 +104,4 @@ Se si pubblica il report di Power BI Desktop in un'area di lavoro per le app all
 ## <a name="next-steps"></a>Passaggi successivi
 [Sicurezza a livello di riga con Power BI Desktop](desktop-rls.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

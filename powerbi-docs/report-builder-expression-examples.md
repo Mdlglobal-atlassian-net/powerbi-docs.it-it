@@ -1,19 +1,19 @@
 ---
 title: Esempi di espressioni nel Generatore report di Power BI
 description: Le espressioni sono usate di frequente nei report impaginati del Generatore report impaginati di Power BI per controllare il contenuto e l'aspetto del report.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624140"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728553"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Esempi di espressioni nel Generatore report di Power BI
 Le espressioni sono usate di frequente nei report impaginati del Generatore report impaginati di Power BI per controllare il contenuto e l'aspetto del report. Le espressioni vengono scritte in Microsoft Visual Basic e possono usare funzioni predefinite, codice personalizzato, variabili di report e gruppi e variabili definite dall'utente. Le espressioni iniziano con un segno di uguale (=).   
@@ -35,7 +35,7 @@ In questo argomento sono riportati esempi di espressioni che è possibile usare 
 Per altre informazioni su espressioni semplici e complesse, su dove è possibile usare le espressioni e sui tipi di riferimenti che è possibile includere in un'espressione, vedere gli argomenti contenuti in [Espressioni nel Generatore report di Power BI](report-builder-expressions.md). 
   
 ## <a name="functions"></a>Funzioni  
- Molte espressioni incluse in un report contengono funzioni. È possibile formattare i dati, applicare la logica e accedere ai metadati del report usando le funzioni. È possibile scrivere espressioni che usano funzioni dalla libreria di runtime di Microsoft Visual Basic e dagli spazi dei nomi `xref:System.Convert` e `xref:System.Math`. È possibile aggiungere riferimenti alle funzioni da altri assembly o codice personalizzato. È anche possibile usare le classi di Microsoft .NET Framework, tra cui `xref:System.Text.RegularExpressions`.  
+ Molte espressioni incluse in un report contengono funzioni. È possibile formattare i dati, applicare la logica e accedere ai metadati del report usando le funzioni. È possibile scrivere espressioni che usano funzioni dalla libreria di runtime di Microsoft Visual Basic e dagli spazi dei nomi `xref:System.Convert` e `xref:System.Math`. È possibile aggiungere i riferimenti alle funzioni nel codice personalizzato. È anche possibile usare le classi di Microsoft .NET Framework, tra cui `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="VisualBasicFunctions"></a> Funzioni di Visual Basic  
  È possibile usare le funzioni di Visual Basic per manipolare i dati visualizzati nelle caselle di testo o usati per parametri, proprietà o altre aree del report. Questa sezione include esempi che illustrano alcune funzioni. Per altre informazioni, vedere [Membri della libreria di runtime di Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) su MSDN.  
@@ -476,7 +476,7 @@ Per altre informazioni su espressioni semplici e complesse, su dove è possibile
     ```  
   
 ##  <a name="CustomCode"></a> Codice personalizzato  
- È possibile usare codice personalizzato in un report. Il codice personalizzato viene incorporato in un report o archiviato in un assembly personalizzato usato nel report.  
+ È possibile usare codice personalizzato incorporato in un report. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Uso di variabili di gruppo per l'aggregazione personalizzata  
  È possibile inizializzare il valore di una variabile di gruppo locale per l'ambito di un determinato gruppo e quindi includere un riferimento alla variabile nelle espressioni. Uno dei modi in cui è possibile usare una variabile di gruppo con codice personalizzato consiste nell'implementare un'aggregazione personalizzata. 

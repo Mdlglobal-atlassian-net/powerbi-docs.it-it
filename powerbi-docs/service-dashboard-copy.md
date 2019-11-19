@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5507356e42c58574a2d7c6787074fb987ddfeaec
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: fc255cda798b528acf7f782efac742872a442d41
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523181"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021076"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Creare una copia di un dashboard nel servizio Power BI
 ![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
@@ -28,7 +28,7 @@ I dashboard vengono creati e copiati tramite il servizio Power BI e possono esse
 Per creare una copia di un dashboard, è necessario essere l'*autore* del dashboard. I dashboard che sono stati condivisi con l'utente corrente come app non possono essere duplicati.
 
 1. Aprire il dashboard.
-2. Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e scegliere **Duplica dashboard**.
+2. Nell'angolo in alto a destra selezionare **Altre opzioni** (...) e scegliere **Duplica dashboard**.
    
    ![Menu di puntini di sospensione](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Assegnare un nome al dashboard e scegliere **Duplica**. 
@@ -40,10 +40,10 @@ Per creare una copia di un dashboard, è necessario essere l'*autore* del dashbo
 
 5.    Aprire il nuovo dashboard e apportare le modifiche necessarie. È possibile eseguire queste operazioni:    
     a. [Spostare, rinominare, ridimensionare o eliminare i riquadri](service-dashboard-edit-tile.md).  
-    b. Modificare i dettagli del riquadro e i collegamenti ipertestuali selezionando i puntini di sospensione (...) nel riquadro e scegliendo **Modifica dettagli**.  
+    b. Modificare i dettagli del riquadro e i collegamenti ipertestuali selezionando**Altre opzioni** (...) nel riquadro e scegliendo **Modifica dettagli**.  
     c. [Aggiungere nuovi riquadri dalla barra dei menu del dashboard](service-dashboard-add-widget.md) (**Aggiungi riquadro**).  
     d. Aggiungere nuovi riquadri [da Domande e risposte](service-dashboard-pin-tile-from-q-and-a.md) o [dai report](service-dashboard-pin-tile-from-report.md).  
-    e. Rinominare il dashboard, attivare o disattivare Domande e risposte e configurare il flusso del riquadro dal riquadro Impostazioni del dashboard.  Selezionare il menu a discesa con puntini di sospensione (...) del dashboard e scegliere **Impostazioni**.  
+    e. Rinominare il dashboard, attivare o disattivare Domande e risposte e configurare il flusso del riquadro dal riquadro Impostazioni del dashboard.  Selezionare il menu a discesa **Altre opzioni** (...) del dashboard e scegliere **Impostazioni**.  
     f. Condividere il dashboard direttamente con i colleghi o come parte di un'app di Power BI. 
 
 

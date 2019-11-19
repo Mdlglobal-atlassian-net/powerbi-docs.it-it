@@ -2,19 +2,18 @@
 title: Suggerimenti per la creazione di app modello in Power BI
 description: Suggerimenti per la creazione di query, modelli di dati, report e dashboard per app modello efficaci
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194800"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099740"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
@@ -30,7 +29,7 @@ Ogni elemento potrebbe essere noto come funzionalità di Power BI esistente. Qua
 
 <a name="queries"></a>
 
-## <a name="queries"></a>query
+## <a name="queries"></a>Query
 Per le app modello, le query sviluppate in Power BI Desktop vengono usate per connettere l'origine dati e importare i dati. Queste query sono necessarie per restituire uno schema coerente e sono supportate per l'aggiornamento dei dati pianificato (DirectQuery non è supportata).
 
 ### <a name="connect-to-your-api"></a>Connettersi all'API
@@ -132,7 +131,7 @@ Le app modello supportano le app con soli dati di esempio, assicurarsi di selezi
 * Assicurarsi di seguire la documentazione in [Offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
 * Nel caso in cui un dashboard faccia parte dell'app, assicurarsi che non sia vuoto.
 * Installare l'app usando il collegamento all'app prima dell'invio, verificare che sia possibile connettersi al set di dati e che l'esperienza dell'app sia conforme a quanto previsto.
-* Prima di caricare il file con estensione bpix nell'area di lavoro dell'app modello, assicurarsi di scaricare tutte le connessioni non necessarie.
+* Prima di caricare il file con estensione bpix nell'area di lavoro modello, assicurarsi di scaricare tutte le connessioni non necessarie.
 * Seguire quanto indicato in [Procedure consigliate per la progettazione di report e oggetti visivi](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) di Power BI per ottimizzare l'impatto sugli utenti e ottenere l'approvazione per la distribuzione.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
@@ -147,7 +146,7 @@ Le app modello supportano le app con soli dati di esempio, assicurarsi di selezi
 | Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>Origini dati locali (i gateway personali e aziendali non sono supportati)</li> <li>Tempo reale (nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
 | Set di dati: di più aree di lavoro | Non sono consentiti set di dati di più aree di lavoro  |
 | Parametri di query | Non supportati: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
-| Oggetti visivi personalizzati | Sono supportati solo gli oggetti visivi personalizzati disponibili pubblicamente. [Oggetti visivi personalizzati dell'organizzazione](power-bi-custom-visuals-organization.md) non supportati |
+| Oggetti visivi personalizzati | Sono supportati solo gli oggetti visivi personalizzati disponibili pubblicamente. [Oggetti visivi personalizzati dell'organizzazione](developer/power-bi-custom-visuals-organization.md) non supportati |
 
 ## <a name="next-steps"></a>Passaggi successivi
 

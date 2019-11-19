@@ -2,19 +2,18 @@
 title: Derivazione dei dati (anteprima)
 description: Nei moderni progetti di business intelligence (BI) una delle principali problematiche affrontate da molti clienti è la necessità di conoscere il flusso dei dati dall'origine dati alla destinazione.
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019578"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877356"
 ---
 # <a name="data-lineage-preview"></a>Derivazione dei dati (anteprima)
 Nei moderni progetti di business intelligence (BI) una delle possibili problematiche da affrontare è la necessità di conoscere il flusso dei dati dall'origine dati alla destinazione. La sfida è ancora più complessa se sono stati compilati progetti di analisi avanzati che comprendono più origini dati, elementi e dipendenze.  Rispondere a domande come "Che cosa accade se si modificano questi dati?" o "Perché questo report non è aggiornato?" può essere difficile. Per trovare una risposta potrebbe essere necessario un team di esperti o un'analisi approfondita. La visualizzazione di derivazione dei dati è stata pensata per poter rispondere a queste domande.
@@ -55,7 +54,7 @@ Nei set di dati viene visualizzata l'ora dell'ultimo aggiornamento e viene indic
  
 Se un report nell'area di lavoro si basa su un set di dati in un'altra area di lavoro, viene visualizzato il nome dell'area di lavoro di origine nella scheda del set di dati. Per passare all'area di lavoro di origine, selezionarne il nome.
  
-- Per qualsiasi elemento, selezionare i puntini di sospensione (...) per visualizzare il menu delle opzioni, che include le stesse azioni disponibili nella visualizzazione elenco.
+- Per qualsiasi elemento, selezionare **Altre opzioni** (...) per visualizzare il menu delle opzioni, che include le stesse azioni disponibili nella visualizzazione elenco.
   
 Per visualizzare altri metadati nei set di dati, selezionare la scheda di un set di dati. Informazioni aggiuntive sul set di dati vengono visualizzate in un riquadro laterale.
 
@@ -89,7 +88,8 @@ La visualizzazione di derivazione è un canvas interattivo. È possibile usare i
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-La visualizzazione di derivazione non è disponibile in Internet Explorer. Per informazioni dettagliate, vedere [Browser supportati per Power BI](power-bi-browsers.md).
+- La visualizzazione di derivazione non è disponibile in Internet Explorer. Per informazioni dettagliate, vedere [Browser supportati per Power BI](power-bi-browsers.md).
+- La visualizzazione di derivazione non è disponibile nell'area di lavoro personale.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

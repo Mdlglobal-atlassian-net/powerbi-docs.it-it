@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72021018"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020291"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Autorizzazione per creazione report per set di dati condivisi (anteprima)
 
@@ -29,7 +29,7 @@ Per concedere l'autorizzazione per creazione report per un set di dati sono disp
 
 - I membri di un'area di lavoro che hanno almeno il ruolo Collaboratore hanno automaticamente l'autorizzazione per creazione report per i set di dati di tale area di lavoro, nonché l'autorizzazione di copia di un report.
  
-- I membri dell'area di lavoro in cui si trova il set di dati possono assegnare l'autorizzazione a utenti o gruppi di sicurezza specifici tramite il centro autorizzazioni. I membri dell'area di lavoro possono selezionare i puntini di sospensione (…) accanto a un set di dati > **Gestisci autorizzazioni**.
+- I membri dell'area di lavoro in cui si trova il set di dati possono assegnare l'autorizzazione a utenti o gruppi di sicurezza specifici tramite il centro autorizzazioni. I membri dell'area di lavoro possono selezionare **Altre opzioni** (...) accanto a un set di dati > **Gestisci autorizzazioni**.
 
     ![Selezionare i puntini di sospensione](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +50,11 @@ Per concedere l'autorizzazione per creazione report per un set di dati sono disp
 A un certo punto potrebbe essere necessario rimuovere l'autorizzazione per creazione report per alcuni utenti di un set di dati condiviso. 
 
 1. In un'area di lavoro passare alla pagina di elenco **Set di dati**. 
-1. Selezionare i puntini di sospensione (...) accanto al set di dati > **Gestisci autorizzazioni**.
+1. Selezionare **Altre opzioni** (...) accanto al set di dati > **Gestisci autorizzazioni**.
 
     ![Gestisci autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selezionare i puntini di sospensione (...) accanto a un nome > **Rimuovi autorizzazione per creazione report**.
+1. Selezionare **Altre opzioni** (...) accanto a un nome > **Rimuovi autorizzazione per creazione report**.
 
     ![Rimuovi autorizzazione per creazione report](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +80,11 @@ Si supponga di aver distribuito un'app da un'area di lavoro a un gruppo di perso
 1. Selezionare **Aggiorna**.
 
 1. Nell'area di lavoro passare alla pagina di elenco **Set di dati**. 
-1. Selezionare i puntini di sospensione (...) accanto al set di dati > **Gestisci autorizzazioni**.
+1. Selezionare **Altre opzioni** (...) accanto al set di dati > **Gestisci autorizzazioni**.
 
     ![Gestisci autorizzazioni](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selezionare i puntini di sospensione (...) accanto ai nomi > **Rimuovi autorizzazione per creazione report**.
+1. Selezionare **Altre opzioni** (...) accanto al nome > **Rimuovi autorizzazione per creazione report**.
 
     ![Rimuovi autorizzazione per creazione report](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

@@ -11,12 +11,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542881"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432113"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Risolvere i problemi relativi a Cortana per Power BI
 Questo articolo fa parte di una serie. 
@@ -39,7 +39,7 @@ Se si verificano problemi di integrazione di Cortana con Power BI, leggere quest
    * "show sales" *non* restituirà alcun risultato di Power BI.   
    * "show me sales fy16", "sales fy16", "show sales fy16" e "show me sales f" *consentiranno* la restituzione di un risultato di Power BI.    
    * L'aggiunta delle parole "powerbi" viene conteggiata come una delle due parole necessarie, quindi "powerbi sales" *restituirà* un risultato di Power BI.
-5. Si hanno autorizzazioni di accesso o di modifica per report o dashboard? Per i report, assicurarsi che il contenuto che si prova a cercare includa una [scheda risposte](service-cortana-answer-cards.md).  Per i dashboard, assicurarsi che il contenuto che si prova a cercare si trovi in **Condivisi con l'utente corrente**, in un'area di lavoro dell'app o in **Area di lavoro personale**. [Usare lo strumento per la risoluzione dei problemi](#try-the-cortana-troubleshooting-tool) per semplificare l'identificazione del problema.
+5. Si hanno autorizzazioni di accesso o di modifica per report o dashboard? Per i report, assicurarsi che il contenuto che si prova a cercare includa una [scheda risposte](service-cortana-answer-cards.md).  Per i dashboard, assicurarsi che il contenuto che si sta cercando si trovi in **Condivisi con l'utente corrente**, in un'area di lavoro o in **Area di lavoro personale**. [Usare lo strumento per la risoluzione dei problemi](#try-the-cortana-troubleshooting-tool) per semplificare l'identificazione del problema.
 6. Si usa un dispositivo mobile?  L'integrazione di Power BI e Cortana è attualmente supportata solo nei dispositivi mobili Windows.
 7. In Cortana è configurata la lingua inglese?  L'integrazione tra Cortana e Power BI è attualmente supportata solo in lingua inglese. Aprire Cortana e selezionare l'icona della ruota dentata per visualizzare le impostazioni. Scorrere verso il basso fino a **Lingua di Cortana** e verificare che sia impostata su una delle opzioni relative alla lingua inglese.
 

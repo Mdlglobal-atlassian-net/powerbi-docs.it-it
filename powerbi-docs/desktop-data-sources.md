@@ -2,20 +2,19 @@
 title: Origini dati in Power BI Desktop
 description: Origini dati in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307852"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878380"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Un elenco completo delle origini dati disponibili è riportato alla fine di questa pagina.
@@ -234,7 +233,7 @@ I file PBIDS sono file di Power BI Desktop con una struttura specifica, identifi
 
 Quando un autore apre un file PBIDS, Power BI Desktop si apre e chiede le credenziali dell'utente per l'autenticazione e la connessione all'origine dati specificata nel file. Viene visualizzata la finestra di dialogo di spostamento e l'utente deve selezionare le tabelle dell'origine dati da caricare nel modello. È anche possibile che gli utenti debbano selezionare uno o più database, se non ne è stato specificato alcuno nel file con estensione PBIDS. 
 
-A questo punto, l'utente può iniziare a creare visualizzazioni o rivedere *Origini recenti per caricare un nuovo set di tabelle nel modello. 
+A questo punto, l'utente può iniziare a creare visualizzazioni o rivedere *Origini recenti* per caricare un nuovo set di tabelle nel modello. 
 
 I file con estensione PBIDS attualmente supportano solo un'unica origine dati in un unico file. Se si specificano più origini dati, si ottiene come risultato un errore. 
 
@@ -364,21 +363,20 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
 ```
  
 
+**Flusso di dati**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>Passaggi successivi

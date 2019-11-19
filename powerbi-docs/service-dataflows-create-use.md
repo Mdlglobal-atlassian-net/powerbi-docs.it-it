@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61143941"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432070"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creazione e uso di flussi di dati in Power BI
 
 Con la preparazione dei dati avanzata disponibile in **Power BI**, è possibile creare una raccolta di dati detta flusso di dati, che è quindi possibile usare per connettersi ai dati aziendali da diverse origini, pulire i dati, trasformarli e quindi caricarli nello spazio di archiviazione di Power BI.
 
-Un **flusso di dati** è una raccolta di *entità* (le entità sono simili alle tabelle) che vengono create e gestite in aree di lavoro per le app nel servizio Power BI. È possibile aggiungere e modificare le entità nel flusso di dati, oltre che gestire le pianificazioni per gli aggiornamenti dei dati, direttamente dall'area di lavoro in cui è stato creato il flusso di dati.
+Un **flusso di dati** è una raccolta di *entità* create e gestite in aree di lavoro nel servizio Power BI. Le entità sono simili alle tabelle. È possibile aggiungere e modificare le entità nel flusso di dati, oltre che gestire le pianificazioni per gli aggiornamenti dei dati, direttamente dall'area di lavoro in cui è stato creato il flusso di dati.
 
 Dopo aver creato un flusso di dati, è possibile usare **Power BI Desktop** e il **servizio Power BI** per creare set di dati, report, dashboard e app basati sui dati inseriti nei flussi di dati di Power BI e ottenere così informazioni dettagliate sulle attività aziendali.
 
@@ -36,13 +36,13 @@ I passaggi principali per l'uso di un flusso di dati sono tre:
 Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. è possibile iniziare subito.
 
 ## <a name="creating-a-dataflow"></a>Creazione di un flusso di dati
-Per creare un flusso di dati, avviare il servizio Power BI in un browser, quindi selezionare un'**area di lavoro per le app** (i flussi di dati non sono disponibili nell'*area di lavoro personale* nel servizio Power BI) dal riquadro di spostamento a sinistra, come illustrato nella schermata seguente. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati. 
+Per creare un flusso di dati, avviare il servizio Power BI in un browser e quindi selezionare un'**area di lavoro**  dal riquadro di spostamento a sinistra, come illustrato nella schermata seguente. I flussi di dati non sono disponibili nell'*area di lavoro personale* nel servizio Power BI. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati. 
 
 ![Creare un flusso di dati in Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Quando ci si trova in un'**area di lavoro per le app** dove è possibile creare un flusso di dati, viene visualizzato il pulsante **+ Crea** nell'angolo superiore destro dell'area di disegno. Selezionare il pulsante **+ Crea** e quindi selezionare **Flusso di dati** nell'elenco a discesa. 
+Quando si raggiunge un'**area di lavoro** in cui è possibile creare un flusso di dati, viene visualizzato il pulsante **+ Crea** nell'angolo superiore destro del canvas. Selezionare il pulsante **+ Crea** e quindi selezionare **Flusso di dati** nell'elenco a discesa. 
 
-È importante sapere che c'è solo *un proprietario* di un flusso di dati, ovvero la persona che lo crea. Solo il proprietario può modificare il flusso di dati. Tutti i membri dell'**area di lavoro per le app** con autorizzazioni di lettura o scrittura per l'area di lavoro per le app in cui viene creato il flusso di dati possono connettersi al flusso di dati da **Power BI Desktop**, come descritto più avanti in questo articolo.
+È importante sapere che c'è solo *un proprietario* di un flusso di dati, ovvero la persona che lo crea. Solo il proprietario può modificare il flusso di dati. Tutti i membri dell'**area di lavoro** con autorizzazioni di lettura o scrittura per l'area di lavoro in cui viene creato il flusso di dati possono connettersi al flusso di dati da **Power BI Desktop**, come descritto più avanti in questo articolo.
 
 ![Pulsante + Crea nel servizio Power BI per la creazione di un flusso di dati](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +111,7 @@ A questo punto è possibile eseguire il passaggio successivo, ovvero pianificare
 
 Dopo aver salvato il flusso di dati, è possibile pianificare la frequenza di aggiornamento per ognuna delle origini dati connesse.
 
-I flussi di dati di Power BI usano il processo di aggiornamento dei dati di Power BI per mantenere aggiornati i dati. Nel **servizio Power BI**, nella sezione dell'**area di lavoro per le app**, è presente una raccolta di aree in cui possono essere elencate le informazioni, inclusi i flussi di dati, come illustrato nell'immagine seguente.
+I flussi di dati di Power BI usano il processo di aggiornamento dei dati di Power BI per mantenere aggiornati i dati. Nella sezione **Aree di lavoro** del **servizio Power BI** è presente una raccolta di aree in cui possono essere elencate le informazioni, inclusi i flussi di dati, come illustrato nell'immagine seguente.
 
 ![Gestire i flussi di dati nel servizio Power BI](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +134,7 @@ Per connettersi al flusso di dati, in Power BI Desktop selezionare **Recupera da
 
 ![Connettersi ai flussi di dati da Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-Da questa posizione, passare all'**area di lavoro per le app** dove è stato salvato il flusso di dati, selezionare il flusso di dati e quindi selezionare le entità create nell'elenco.
+Da questa posizione, passare all'**area di lavoro** dove il flusso di dati è stato salvato, selezionarlo e quindi selezionare le entità create nell'elenco.
 
 È anche possibile usare la **barra di ricerca** nella parte superiore della finestra per trovare rapidamente il nome del flusso di dati o le entità tra le numerose entità del flusso di dati.
 

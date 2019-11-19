@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 59567b62c44a386b3890f68de49b9f7aed76aa45
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513862"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019361"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Esercitazione: Creare misure personalizzate in Power BI Desktop
 Con le misure è possibile creare alcune delle soluzioni di analisi dati più potenti in Power BI Desktop. Consentono infatti di eseguire calcoli sui dati durante l'interazione con i report. Questa esercitazione illustra il significato e la modalità di creazione delle misure di base in Power BI Desktop.
@@ -60,7 +60,7 @@ Quando si crea una misura personalizzata, questa viene aggiunta all'elenco Campi
 
 Si supponga di voler analizzare il fatturato netto sottraendo sconti e resi dagli importi delle vendite totali. Per qualsiasi contesto esistente in una visualizzazione, è necessaria una misura che sottrae la somma di DiscountAmount e ReturnAmount dalla somma di SalesAmount. Non è disponibile un campo per Net Sales nell'elenco Campi, ma sono disponibili i blocchi predefiniti per creare una misura personalizzata per calcolare il fatturato netto. 
 
-1.  Fare clic con il pulsante destro del mouse sulla tabella **Sales** nell'area Campi oppure passare il mouse sulla tabella e selezionare i puntini di sospensione (...) **Altre opzioni**, quindi selezionare **Nuova misura**. In questo modo la nuova misura verrà salvata nella tabella Sales, dove sarà più facilmente individuabile.
+1.  Fare clic con il pulsante destro del mouse sulla tabella **Sales** nell'area Campi oppure passare il mouse sulla tabella e selezionare **Altre opzioni** (...) e quindi **Nuova misura**. In questo modo la nuova misura verrà salvata nella tabella Sales, dove sarà più facilmente individuabile.
     
     ![Nuova misura](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

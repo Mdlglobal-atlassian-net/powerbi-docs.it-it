@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 3b33e2479ad114a2224c16c9d43e7797784624fc
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621285"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429641"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Gestire il multi-tenancy con le funzionalità di analisi incorporata di Power BI
 
@@ -37,7 +37,7 @@ Questo articolo descrive i diversi approcci e li analizza in base a diversi crit
 
 **Tenant** - Singolo cliente (organizzazione) che usa l'applicazione SaaS ed eventuali risorse o dati inseriti dal cliente nell'applicazione SaaS.
 
-**[Power BI](../power-bi-overview.md)**  - Servizio cloud di Power BI che funge da piattaforma per Power BI Embedded.
+**[Power BI](../fundamentals/power-bi-overview.md)**  - Servizio cloud di Power BI che funge da piattaforma per Power BI Embedded.
 
 **Tenant di Power BI** - Set di risorse di Power BI associato a un singolo tenant AAD.
 
@@ -55,7 +55,7 @@ Questo articolo descrive i diversi approcci e li analizza in base a diversi crit
 
 **Capacità** - Set di risorse dedicate all'esecuzione del servizio Power BI. [Capacità Premium di Power BI](../service-premium-what-is.md) - Destinate alle aziende di grandi dimensioni che usano Power BI internamente, mentre le [capacità di Power BI Embedded](azure-pbie-create-capacity.md) sono destinate agli sviluppatori per lo sviluppo di applicazioni SaaS per terze parti.
 
-**[Licenza di Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** - Licenza per utente che concede i diritti per pubblicare contenuti nelle aree di lavoro delle app, utilizzare le app senza capacità Premium, condividere i dashboard e sottoscrivere dashboard e report.
+**[Licenza di Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** : licenza per utente che concede i diritti per pubblicare contenuti nelle aree di lavoro, utilizzare le app senza capacità Premium, condividere i dashboard e sottoscrivere dashboard e report.
 
 **[Modalità di connettività dati](../desktop-directquery-about.md)**  - Connessione a origini dati in Power BI che può essere stabilita in modalità diverse:
 

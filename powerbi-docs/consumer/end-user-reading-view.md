@@ -13,12 +13,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236844"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019586"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Avvio rapido: Informazioni sulle funzionalità di Power BI per i *consumer*
 In questo Avvio rapido si apprende come interagire con Power BI per trovare informazioni dettagliate derivanti dai dati aziendali. Questo articolo non costituisce un'analisi approfondita, ma piuttosto un esame rapido di varie azioni disponibili per i **consumer** di Power BI.
@@ -118,7 +118,7 @@ Gli oggetti visivi sono costituiti da punti dati e, passando il puntatore del mo
 ### <a name="favorite-a-dashboard"></a>Aggiungere un dashboard ai Preferiti
 Dopo aver aggiunto contenuto ai *Preferiti* sarà possibile accedervi dalla barra di spostamento a sinistra. La barra di spostamento è visibile in quasi tutte le aree di Power BI. Gli elementi preferiti sono in genere i dashboard, le pagine di report e le app a cui si accede più spesso.
 
-Nell'angolo superiore destro del servizio Power BI selezionare **Preferito** o, se non è visibile, selezionare i puntini di sospensione (...) e selezionare **Preferito** nell'elenco a discesa. 
+Nell'angolo superiore destro del servizio Power BI selezionare **Aggiungi a Preferiti** o, se non è visibile, selezionare **Altre opzioni** (...) e selezionare **Aggiungi a preferiti** nell'elenco a discesa. 
    
 ![Icona Preferiti](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +168,7 @@ Altre informazioni sulla [modalità messa a fuoco e sulla modalità schermo inte
 ### <a name="sort-a-visualization"></a>Ordinare una visualizzazione
 Gli oggetti visivi in una pagina del report possono essere ordinati e salvati con le modifiche applicate. 
 
-Passare il puntatore del mouse su un oggetto visivo per attivarlo e selezionare i puntini di sospensione (...) per aprire le opzioni di ordinamento.
+Passare il puntatore del mouse su un oggetto visivo per attivarlo e selezionare **Altre opzioni** (...) per aprire le opzioni di ordinamento.
 
 ![Ordinare un grafico](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +177,7 @@ Altre informazioni sull'[ordinamento degli oggetti visivi](end-user-search-sort.
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrare i dati usati per creare la visualizzazione
 Una visualizzazione di Power BI viene costruita con i dati dei set di dati sottostanti. Se si è interessati a visualizzare il "dietro le quinte", Power BI consente di *visualizzare* i dati usati per creare l'oggetto visivo. Quando si seleziona **Mostra i dati**, Power BI mostra i dati di sotto o accanto alla visualizzazione.
 
-Con un oggetto visivo attivo, selezionare i puntini di sospensione (...) e scegliere **Mostra i dati**.
+Con un oggetto visivo attivo, selezionare **Altre opzioni** (...) e scegliere **Mostra i dati**.
    
    ![Selezionare Mostra i dati](./media/end-user-show-data/power-bi-explore-show-data.png)
 

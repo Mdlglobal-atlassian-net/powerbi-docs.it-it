@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 584dacbb3823f1a7c2475c780124985992a4b1d4
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375146"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020505"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Abilitare Cortana per l'accesso ai report di Power BI e ai rispettivi set di dati sottostanti
 Si è letto l'argomento [Introduzione a Cortana per Power BI](service-cortana-intro.md) (in caso contrario, è preferibile leggerlo prima di procedere). Ora si è pronti per provare in autonomia.  Prima di porre domande in linguaggio naturale in Cortana e trovare le risposte dai dati archiviati nei ***report*** di Power BI, è necessario che siano soddisfatti alcuni requisiti. In particolare, sono necessari gli elementi seguenti.
 
 > [!IMPORTANT]
-> Integrazione di Cortana è deprecato in Power BI. A partire da giugno 11, Cortana non funzionerà più per tutti i dashboard e report.
+> L'integrazione di Cortana verrà deprecata in Power BI. A partire dall'11 giugno, Cortana non funzionerà più per i dashboard e i report.
 
 Nel servizio Power BI
 
@@ -42,7 +42,7 @@ L'abilitazione dei report in Power BI per l'accesso da parte di Cortana è un pr
 2. Il set di dati associato a questo report è **Contoso Sales**.
    
     ![Set di dati Contoso Sales](media/service-cortana-enable/power-bi-identify-dataset.png)
-3. A destra del nome del set di dati selezionare i **puntini di sospensione (...) > Impostazioni**.  
+3. A destra del nome del set di dati selezionare **Altre opzioni** (...) > Impostazioni**.  
    
     ![Scegliere le impostazioni](media/service-cortana-enable/power-bi-settings-cortana.png)
 4. Selezionare **Domande e risposte e Cortana** > **Consenti a Cortana di accedere a questo set di dati** > **Applica**.

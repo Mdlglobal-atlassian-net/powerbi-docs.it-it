@@ -2,7 +2,6 @@
 title: Come aggiornare le credenziali del pacchetto di contenuto Xero
 description: Se si usa il pacchetto di contenuto Xero di Power BI, potrebbe essersi verificato un problema con l'aggiornamento giornaliero del pacchetto di contenuto a causa di un recente evento imprevisto del servizio Power BI.
 author: SarinaJoan
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 1d773f8c7509fa4bbf872ae62f03bbb4da815d84
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0a7268c041976a3cab3316c91470c1378a3685f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61221019"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871675"
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Come aggiornare le credenziali del pacchetto di contenuto Xero se l'aggiornamento non è riuscito
 Se si usa il pacchetto di contenuto Xero di Power BI, potrebbero essersi verificati alcuni problemi con l'aggiornamento giornaliero del pacchetto di contenuto a causa di un recente evento imprevisto del servizio Power BI.
@@ -26,7 +25,7 @@ Per verificare che il pacchetto di contenuto sia stato aggiornato correttamente,
 
 Se indica che tale aggiornamento non è riuscito, come illustrato sopra, seguire questa procedura per rinnovare le credenziali per il pacchetto di contenuto.
 
-1. Fare clic sui puntini di sospensione (...) accanto al set di dati Xero, quindi fare clic su **Pianifica aggiornamento**. Verrà visualizzata la pagina delle impostazioni per il pacchetto di contenuto Xero.
+1. Fare clic su **Altre opzioni** (...) accanto al set di dati Xero, quindi fare clic su **Pianifica aggiornamento**. Verrà visualizzata la pagina delle impostazioni per il pacchetto di contenuto Xero.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-schedule-refresh.png)
 2. Nella pagina **Impostazioni per Xero** selezionare **Credenziali origine dati** > **Modifica credenziali**.
@@ -38,17 +37,17 @@ Se indica che tale aggiornamento non è riuscito, come illustrato sopra, seguire
 4. Accedere con l'account Xero.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-welcome.png)
-5. Dopo aver aggiornato le credenziali, assicurarsi di aver pianificato l'esecuzione giornaliera dell'aggiornamento. Per verificarlo, fare clic sui puntini di sospensione (...) accanto al set di dati Xero, quindi fare di nuovo clic su **Pianifica aggiornamento**.
+5. Dopo aver aggiornato le credenziali, assicurarsi di aver pianificato l'esecuzione giornaliera dell'aggiornamento. Per verificarlo, fare clic su **Altre opzioni** (...) accanto al set di dati Xero, quindi fare di nuovo clic su **Pianifica aggiornamento**.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-schedule.png)
-6. È anche possibile scegliere di aggiornare immediatamente il set di dati. Fare clic sui puntini di sospensione (...) accanto al set di dati Xero, quindi fare clic su **Aggiorna adesso**.
+6. È anche possibile scegliere di aggiornare immediatamente il set di dati. Fare clic su **Altre opzioni** (...) accanto al set di dati Xero, quindi fare clic su **Aggiorna adesso**.
    
     ![](media/service-refresh-xero-credentials/powerbi-xero-refresh-now.png)
 
-Se si verificano ancora problemi di aggiornamento, non esitare a contattare Microsoft all'indirizzo [http://support.powerbi.com](http://support.powerbi.com) 
+Se si verificano ancora problemi di aggiornamento, non esitare a contattare Microsoft all'indirizzo [https://support.powerbi.com](https://support.powerbi.com) 
 
 Per altre informazioni sul pacchetto di contenuto Xero per Power BI, visitare la [pagina della Guida del pacchetto di contenuto Xero](service-connect-to-xero.md).
 
 ### <a name="next-steps"></a>Passaggi successivi
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523071"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432213"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Creare un report nel servizio Power BI importando un set di dati
 Dopo aver letto [Report in Power BI](consumer/end-user-reports.md) si supponga di voler creare un report personalizzato. Ci sono diversi modi per creare un report. In questo articolo si inizia creando un report di base nel servizio Power BI da un set di dati di Excel. Una volta apprese le nozioni di base relative alla creazione di un report, vedere gli argomenti più avanzati elencati in [Passaggi successivi](#next-steps) alla fine di questo articolo.  
@@ -29,7 +29,7 @@ In questo metodo di creazione del report si inizia con un set di dati e un'area 
 
 1. Poiché il report verrà creato in un'area di lavoro del servizio Power BI, selezionare un'area di lavoro esistente o crearne una.
    
-   ![Elenco di aree di lavoro per le app](media/service-report-create-new/power-bi-workspaces2.png)
+   ![Elenco di aree di lavoro](media/service-report-create-new/power-bi-workspaces2.png)
 2. Nella parte inferiore del riquadro di spostamento sinistro selezionare **Recupera dati**.
    
    ![Recupera dati](media/service-report-create-new/power-bi-get-data3.png)

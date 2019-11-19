@@ -1,40 +1,39 @@
 ---
-title: Usare l'accesso Single Sign-On (SSO) alle origini dati locali
+title: Panoramica dell'accesso Single Sign-On (SSO) per i gateway in Power BI
 description: Configurare il gateway per abilitare Single Sign-On (SSO) da Power BI alle origini dati locali.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b1379bb783b090362215eaf7c317bbea435d1eec
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 43394e8f09327ebcb858ff5644b30daee1793444
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259920"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872367"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Panoramica dell'accesso Single Sign-On (SSO) per i gateway in Power BI
 
-Per usufruire di un'esperienza di connettività Single Sign-On ottimale che consenta l'aggiornamento in tempo reale di report e dashboard di Power BI dai dati locali, è possibile configurare il gateway dati locale con la delega vincolata Kerberos o Security Assertion Markup Language (SAML). Il gateway dati locale supporta il Single Sign-On grazie all'uso di DirectQuery per connettersi alle origini dati locali.
+Per usufruire di un'esperienza di connettività Single Sign-On ottimale che abilita l'aggiornamento di report e dashboard di Power BI in tempo reale dai dati locali, è possibile configurare il gateway dati locale. È possibile configurare il gateway scegliendo tra la delega vincolata [Kerberos](service-gateway-sso-kerberos.md) e Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)). Il gateway dati locale supporta l'accesso Single Sign-On tramite [DirectQuery](desktop-directquery-about.md), che consente la connessione alle origini dati locali.
 
-Sono attualmente supportate le origini dati seguenti:
+Power BI supporta le origini dati seguenti:
 
-* SQL Server ([Kerberos](service-gateway-sso-kerberos.md))
-* SAP HANA ([Kerberos](service-gateway-sso-kerberos.md) e [SAML](service-gateway-sso-saml.md))
-* Server applicazioni SAP BW ([Kerberos](service-gateway-sso-kerberos.md))
-* Server messaggi SAP BW ([Kerberos ](service-gateway-sso-kerberos.md))- Anteprima pubblica
-* Oracle ([Kerberos](service-gateway-sso-kerberos.md))- Anteprima pubblica
-* Teradata ([Kerberos](service-gateway-sso-kerberos.md))
-* Spark ([Kerberos](service-gateway-sso-kerberos.md))
-* Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* SQL Server (Kerberos)
+* SAP HANA (Kerberos e SAML)
+* Server applicazioni SAP BW (Kerberos)
+* Server messaggi SAP BW (Kerberos ) - Anteprima pubblica
+* Oracle (Kerberos)- Anteprima pubblica
+* Teradata (Kerberos)
+* Spark (Kerberos)
+* Impala (Kerberos)
 
-L'accesso SSO non è attualmente supportato per le [estensioni M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
+L'accesso Single Sign-On non è attualmente supportato per le [estensioni M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
 
-Quando un utente interagisce con un report DirectQuery nel servizio Power BI, ogni operazione di filtro incrociato, filtro dei dati, ordinamento e modifica del report può comportare l'esecuzione di query in tempo reale sull'origine dati locale sottostante. Quando per l'origine dati è configurato l'accesso Single Sign-On, le query vengono eseguite in base all'identità dell'utente che interagisce con Power BI, ovvero tramite l'esperienza Web o le app Power BI per dispositivi mobili. Di conseguenza, ogni utente visualizza con precisione i dati a cui è autorizzato ad accedere nell'origine dati sottostante e, grazie all'accesso Single Sign-On, si evita la memorizzazione nella cache di dati condivisi tra diversi utenti.
+Quando un utente interagisce con un report DirectQuery nel servizio Power BI, ogni operazione di filtro incrociato, sezione, ordinamento e modifica di report può comportare l'esecuzione di query in tempo reale sull'origine dati locale sottostante. Quando si configura l'accesso Single Sign-On per l'origine dati, le query vengono eseguite in base all'identità dell'utente che interagisce con Power BI, ovvero tramite l'esperienza Web o le app Power BI per dispositivi mobili. Ogni utente, quindi, visualizza con precisione i dati a cui è autorizzato ad accedere nell'origine dati sottostante. Grazie all'accesso Single Sign-On, si evita la memorizzazione nella cache di dati condivisi tra utenti diversi.
 
 ## <a name="query-steps-when-running-sso"></a>Passi di query durante l'esecuzione di SSO
 
@@ -42,21 +41,21 @@ I passaggi per l'esecuzione di una query con accesso Single Sign-On sono tre, co
 
 ![Passi di query SSO](media/service-gateway-sso-overview/sso-query-steps.png)
 
-Dettagli aggiuntivi per questi tre passaggi:
+Ecco alcuni dettagli aggiuntivi su ogni passaggio:
 
-1. Per ogni query, il **servizio Power BI** include il *nome dell'entità utente* (UPN, ovvero il nome utente completo dell'utente attualmente connesso al servizio Power BI) quando si invia una richiesta di query al gateway configurato.
+1. Per ogni query, il servizio Power BI include il *nome dell'entità utente (UPN, User Principal Name)* , ovvero il nome utente completo dell'utente connesso al servizio Power BI quando il servizio invia una richiesta di query al gateway configurato.
 
-2. Il gateway deve eseguire il mapping del nome dell'entità utente di Azure Active Directory a un'identità di Active Directory locale.
+2. Il gateway deve eseguire il mapping del nome dell'entità utente di Azure Active Directory a un'identità di Active Directory locale:
 
-   a.  Se Azure AD DirSync (chiamato anche *Azure AD Connect*) è configurato, il mapping funziona automaticamente nel gateway.
+   a. Se Azure AD DirSync (chiamato anche *Azure AD Connect*) è configurato, il mapping funziona automaticamente nel gateway.
 
    b.  In caso contrario, il gateway può cercare ed eseguire il mapping del nome dell'entità utente (UPN) di Azure AD a un utente di AD locale eseguendo una ricerca nel dominio di Active Directory locale.
 
-3. Il processo del servizio gateway rappresenta l'utente locale mappato, apre la connessione con il database sottostante e invia la query. Il gateway non deve essere installato nello stesso computer del database.
+3. Il processo del servizio gateway rappresenta l'utente locale di cui è stato eseguito il mapping, apre la connessione con il database sottostante e quindi invia la query. Non è necessario installare il gateway nello stesso computer del database.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Dopo aver appreso le nozioni di base sul Single Sign-On tramite il gateway, leggere informazioni più dettagliate su Kerberos e SAML:
+Dopo aver appreso le nozioni di base per l'abilitazione dell'accesso Single Sign-On tramite il gateway, leggere informazioni più dettagliate su Kerberos e SAML:
 
 * [Single Sign-On (SSO) - Kerberos](service-gateway-sso-kerberos.md)
 * [Single Sign-On (SSO) - SAML](service-gateway-sso-saml.md)

@@ -11,15 +11,15 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7540083b49e0790bfd9062d28d2655ff024d577f
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867179"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020024"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Esercitazione: Connettersi a un repository GitHub con Power BI
-In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al *repository* pubblico di contenuti di Power BI e trovare risposte a domande relative a: numero di persone che contribuiscono al contento pubblico di Power BI, chi contribuisce di più, in quale giorno della settimana si registrano più contributi e altre domande. 
+In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al *repository* pubblico di contenuti di Power BI e trovare risposte a domande relative a: sul numero di persone che contribuiscono al contento pubblico di Power BI, sapere chi contribuisce di più, in quale giorno della settimana si registrano più contributi e altre domande. 
 
 ![Report di GitHub in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -76,7 +76,7 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
 
     ![App nel riquadro di spostamento a sinistra](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. Selezionare i puntini di sospensione (...) accanto al nome del dashboard > **Rinomina** > digitare **Dashboard GitHub**.
+10. Selezionare **Altre opzioni** (...) accanto al nome del dashboard > **Rinomina** > digitare **Dashboard GitHub**.
  
     ![Riquadro di GitHub in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

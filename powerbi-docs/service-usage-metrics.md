@@ -3,20 +3,19 @@ title: Monitorare le metriche di utilizzo per dashboard e report
 description: Come visualizzare, salvare e usare le metriche di utilizzo per i dashboard e i report di Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530535"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871217"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Monitorare le metriche di utilizzo per dashboard e report di Power BI
 
@@ -86,7 +85,7 @@ Per analizzare i dati dei report o creare report personalizzati in base al set d
 
 | Metrica | Dashboard | Report | Descrizione |
 | --- | --- | --- | --- |
-| Filtro dei dati del metodo di distribuzione |sì |sì |Il modo in cui gli utenti hanno ottenuto l'accesso al contenuto. Sono disponibili 3 metodi: gli utenti possono accedere al dashboard o al report se sono membri di un'[area di lavoro appl.](consumer/end-user-experience.md), consentendo la [condivisione del loro contenuto](service-share-dashboards.md) o installando un pacchetto/un'app di contenuto.  Si noti che le visualizzazioni tramite app sono conteggiate come "pacchetto di contenuto". |
+| Filtro dei dati del metodo di distribuzione |sì |sì |Il modo in cui gli utenti hanno ottenuto l'accesso al contenuto. Sono disponibili 3 metodi: gli utenti possono accedere al dashboard o al report se sono membri di un'[area di lavoro](consumer/end-user-experience.md), consentendo la [condivisione del proprio contenuto](service-share-dashboards.md) o installando un pacchetto di contenuto o un'app.  Si noti che le visualizzazioni tramite app sono conteggiate come "pacchetto di contenuto". |
 | Filtro dei dati delle piattaforme |sì |sì |L'accesso al dashboard o al report è stato eseguito attraverso il servizio Power BI (PowerBI.com) o un dispositivo mobile? I dispositivi mobili includono tutte le app per iOS, Android e Windows. |
 | Filtro dei dati pagine del report |no |sì |Se il report contiene più di una pagina filtrarlo in base alla pagina (o alle pagine) visualizzata. Se viene visualizzata un'opzione di elenco per "Vuoto", significa che la pagina del report è stata aggiunta di recente (entro 24 ore il nome effettivo della nuova pagina viene visualizzato nell'elenco del filtro dei dati) e/o che le pagine del report sono state eliminate. "Vuoto" acquisisce questo tipo di situazioni. |
 | Visualizzazioni al giorno |sì |sì |Numero totale delle visualizzazioni al giorno: per visualizzazione si intende il caricamento di una pagina del report o del dashboard da parte di un utente. |
@@ -152,11 +151,18 @@ Power BI è disponibile in cloud nazionali separati. Questi cloud offrono gli st
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>Discrepanze tra log di controllo e metriche di utilizzo
+
 È importante comprendere le differenze che possono verificarsi quando si confrontano i log di controllo e le metriche di utilizzo e il motivo di tali differenze. I *log di controllo* vengono raccolti usando i dati del servizio Power BI e le *metriche di utilizzo* vengono raccolte nel client. I conteggi aggregati delle attività nei log di controllo potrebbero non corrispondere sempre alle metriche di utilizzo, per i motivi seguenti:
 
 * Le metriche di utilizzo potrebbero talvolta sottostimare le attività a causa di connessioni di rete non coerenti, funzionalità di blocco degli annunci o altri problemi che possono interrompere l'invio di eventi dal client.
 * Alcuni tipi di visualizzazioni non sono inclusi nelle metriche di utilizzo, come descritto in precedenza in questo articolo.
 * Le metriche di utilizzo potrebbero talvolta sovrastimare le attività, ad esempio quando il client viene aggiornato senza necessità di inviare una richiesta al servizio Power BI.
+
+### <a name="other-considerations"></a>Altre considerazioni
+
+È necessario visualizzare il contenuto dell'area di lavoro, dall'interno di questa, almeno una volta. Se non risulta neanche una visualizzazione del contenuto dall'area di lavoro stessa, non viene creata la correlazione dei dati dalle visualizzazioni dell'applicazione nel report Metriche di utilizzo. Per sbloccare l'elaborazione dei dati per questo report, è sufficiente visualizzare il contenuto dell'area di lavoro almeno una volta.
+
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
 
@@ -188,4 +194,4 @@ Oltre alle potenziali differenze tra i log di controllo e le metriche di utilizz
 
 [Amministrazione di Power BI nel portale di amministrazione](service-admin-portal.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

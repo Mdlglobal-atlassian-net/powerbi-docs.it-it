@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ab96cc6d17d340c626775bf2a03e225968985835
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985741"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019384"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -45,7 +45,7 @@ Sono disponibili due icone per i report nelle app per dispositivi mobili Power B
 > [!NOTE]
 > Quando si tiene il telefono con un orientamento orizzontale, si otterrà sempre il layout orizzontale, anche se la pagina del report è nel layout telefono.
 
-Per passare a un report da un dashboard, toccare i puntini di sospensione (...) nell'angolo superiore destro di un riquadro e quindi toccare **Apri report**:
+Per passare a un report da un dashboard, toccare **Altre opzioni** (...) nell'angolo superiore destro di un riquadro e quindi toccare **Apri report**:
   
   ![Apri report](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +59,7 @@ Un tocco equivale a un clic del mouse. Di conseguenza, per l'evidenziazione incr
 Quando si tocca un valore di filtro dei dati, il valore viene selezionato e il resto del report viene filtrato in base a tale valore.
 Quando si tocca un collegamento, un pulsante o un segnalibro, viene eseguita l'azione definita dall'autore del report.
 
-Probabilmente si è notato che quando si tocca un oggetto visivo, viene visualizzato un bordo. Nell'angolo superiore destro del bordo sono visualizzati i puntini di sospensione (...). Se si toccano i puntini di sospensione, verrà visualizzato un menu di azioni che è possibile eseguire su tale oggetto visivo:
+Probabilmente si è notato che quando si tocca un oggetto visivo, viene visualizzato un bordo. Nell'angolo superiore destro del bordo sarà disponibile il pulsante **Altre opzioni** (...). Se si toccano i puntini di sospensione, verrà visualizzato un menu di azioni che è possibile eseguire su tale oggetto visivo:
 
 ![Oggetto visivo e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +92,7 @@ Per altre informazioni, vedere [come aggiungere il drill-through in Power BI Des
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>Uso delle azioni del piè di pagina del report
-Dal piè di pagina del report è possibile eseguire diverse azioni sulla pagina del report corrente o sull'intero report. Il piè di pagina consente di accedere rapidamente alle azioni usate più di frequente. È possibile accedere ad altre azioni toccando il pulsante con i puntini di sospensione (...):
+Dal piè di pagina del report è possibile eseguire diverse azioni sulla pagina del report corrente o sull'intero report. Il piè di pagina consente di accedere rapidamente alle azioni usate più di frequente. È possibile accedere ad altre azioni toccando il pulsante **Altre opzioni** (...):
 
 ![Piè di pagina del report](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +105,7 @@ Dal piè di pagina del report è possibile eseguire diverse azioni sulla pagina 
 - Visualizzare tutte le azioni del report.
 
 #### <a name="all-report-actions"></a>Tutte le azioni del report
-Quando si tocca il pulsante con i puntini di sospensione (...) nel piè di pagina del report, verranno visualizzate tutte le azioni che è possibile eseguire in un report:
+Quando si tocca il pulsante **Altre opzioni** (...) nel piè di pagina del report, verranno visualizzate tutte le azioni che è possibile eseguire in un report:
 
 
 ![Tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 97b21b6844ffb8633a37656e781a60f88cebbf43
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192466"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060429"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Esercitazione: Aggiungere unit test per progetti con oggetti visivi di Power BI
 
@@ -65,7 +65,7 @@ Aggiungere le librerie necessarie al file *package.json* nella sezione `devDepen
 "webpack": "4.26.0"
 ```
 
-Per altre informazioni sul pacchetto, vedere la descrizione.
+Per altre informazioni su *package.json*, vedere la descrizione in [npm-package.json](https://docs.npmjs.com/files/package.json).
 
 Salvare il file *package.json* ed eseguire il comando seguente nella posizione `package.json`:
 
