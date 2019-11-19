@@ -2,19 +2,18 @@
 title: Attivare Cortana per Power BI
 description: Utilizzare Cortana con Power BI per ottenere risposte dai dati. Attivare Cortana per ogni set di dati di Power BI e quindi abilitare Cortana per l'accesso ai set di dati da dispositivi Windows.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b1792abeed1a4a03cb8e3f49acb4ed8aa53b1be0
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a631bc37c193521b2acc367a0c6d8540419e3b79
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020505"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872893"
 ---
 # <a name="enable-cortana-to-access-power-bi-reports-and-their-underlying-datasets"></a>Abilitare Cortana per l'accesso ai report di Power BI e ai rispettivi set di dati sottostanti
 Si è letto l'argomento [Introduzione a Cortana per Power BI](service-cortana-intro.md) (in caso contrario, è preferibile leggerlo prima di procedere). Ora si è pronti per provare in autonomia.  Prima di porre domande in linguaggio naturale in Cortana e trovare le risposte dai dati archiviati nei ***report*** di Power BI, è necessario che siano soddisfatti alcuni requisiti. In particolare, sono necessari gli elementi seguenti.
@@ -84,5 +83,5 @@ Cortana utilizza l’account aziendale o dell’istituto di istruzione per contr
 
 [Risolvere i problemi di integrazione tra Cortana e Power BI](service-cortana-troubleshoot.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

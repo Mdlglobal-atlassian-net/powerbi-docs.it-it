@@ -2,7 +2,6 @@
 title: Introduzione ai set di dati in aree di lavoro diverse (anteprima)
 description: Di seguito viene descritto come è possibile condividere un set di dati con utenti in tutta l'organizzazione, che possono poi compilare report basati sul set di dati nelle proprie aree di lavoro.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e445f24f78d4171c0c2c12ccbe4a1bf55b9825d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431915"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877191"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introduzione ai set di dati in aree di lavoro diverse (anteprima)
 
@@ -73,4 +72,4 @@ Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set d
 - [Alzare di livello i set di dati](service-datasets-promote.md)
 - [Certificare i set di dati](service-datasets-certify.md)
 - [Controllare l'uso dei set di dati in aree di lavoro diverse](service-datasets-admin-across-workspaces.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

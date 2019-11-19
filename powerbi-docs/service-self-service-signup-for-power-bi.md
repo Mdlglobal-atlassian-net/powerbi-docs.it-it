@@ -2,7 +2,6 @@
 title: Iscriversi a Power BI come utente singolo
 description: Informazioni su come iscriversi a Power BI e iniziare a usarlo per le proprie esigenze di analisi e visualizzazione dei dati.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/31/2019
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 785aad2cb7fe369805d8562eb8e493fb65036ef0
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442854"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871536"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Iscriversi a Power BI come utente singolo
 
@@ -79,7 +78,7 @@ Nella maggior parte dei casi è possibile iscriversi a Power BI seguendo la proc
 
 | Sintomo/Messaggio di errore | Causa e soluzione |
 | ----------------------- | -------------------- |
-| <strong>Indirizzi di posta elettronica personali (ad esempio nancy@gmail.com)</strong> Durante l'iscrizione viene visualizzato un messaggio simile al seguente: <br /><br /> *È stato immesso un indirizzo di posta elettronica personale: immettere l'indirizzo di posta elettronica aziendale per permetterci di archiviare in modo sicuro i dati della società.* <br /><br /> or <br /><br /> *L'indirizzo di posta elettronica specificato sembra essere di tipo personale. Immettere l'indirizzo aziendale per poter entrare in contatto con altre persone nell'organizzazione. Questo L'indirizzo non verrà condiviso con nessuno.* | Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o di servizi di posta elettronica commerciali. <br /><br /> Per completare l'iscrizione, riprovare usando un indirizzo di posta elettronica assegnato dall'azienda o dall'istituto di istruzione. <br /><br /> Se non si riesce comunque a effettuare l'iscrizione e si è disposti a eseguire un processo di configurazione più avanzato, [richiedere un nuovo abbonamento di valutazione a Office 365 e usare tale indirizzo di posta elettronica per l'iscrizione](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> È anche possibile che un utente esistente [inviti l'utente come utente guest](service-admin-azure-ad-b2b.md). |
+| <strong>Indirizzi di posta elettronica personali (ad esempio nancy@gmail.com)</strong> Durante l'iscrizione viene visualizzato un messaggio simile al seguente: <br /><br /> *È stato immesso un indirizzo di posta elettronica personale: immettere l'indirizzo di posta elettronica aziendale per permetterci di archiviare in modo sicuro i dati della società.* <br /><br /> o <br /><br /> *L'indirizzo di posta elettronica specificato sembra essere di tipo personale. Immettere l'indirizzo aziendale per poter entrare in contatto con altre persone nell'organizzazione. Questo L'indirizzo non verrà condiviso con nessuno.* | Power BI non supporta gli indirizzi di posta elettronica forniti dai provider di telecomunicazioni o di servizi di posta elettronica commerciali. <br /><br /> Per completare l'iscrizione, riprovare usando un indirizzo di posta elettronica assegnato dall'azienda o dall'istituto di istruzione. <br /><br /> Se non si riesce comunque a effettuare l'iscrizione e si è disposti a eseguire un processo di configurazione più avanzato, [richiedere un nuovo abbonamento di valutazione a Office 365 e usare tale indirizzo di posta elettronica per l'iscrizione](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> È anche possibile che un utente esistente [inviti l'utente come utente guest](service-admin-azure-ad-b2b.md). |
 | **Iscrizione self-service disabilitata**: durante l'iscrizione viene visualizzato un messaggio simile a questo: <br /><br /> *Non è possibile completare l'iscrizione. Il reparto IT ha disattivato l'iscrizione per Microsoft Power BI. Contattarli per completare l'iscrizione.* <br /><br /> oppure <br /><br /> *L'indirizzo di posta elettronica specificato sembra essere di tipo personale. Immettere l'indirizzo aziendale per poter entrare in contatto con altre persone nell'organizzazione. Questo L'indirizzo non verrà condiviso con nessuno.* | L'amministratore IT dell'organizzazione ha disabilitato l'iscrizione a Power BI in modalità self-service. <br /><br /> Per completare l'iscrizione, contattare l'amministratore IT e chiedere di [seguire le istruzioni per abilitare l'iscrizione](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory). <br/><br/> Questo problema può verificarsi anche se è stata effettuata l'[iscrizione a Office 365 tramite un partner](service-admin-syndication-partner.md). |
 | **L'indirizzo di posta elettronica non è un ID di Office 365** Durante l'iscrizione viene visualizzato un messaggio simile a questo: <br /><br /> *Non è stato trovato l'ID in contoso.com.  Si usa un ID diverso al lavoro o a scuola? <br /><br /> Provare ad accedere con quello. Se non funziona, contattare il reparto IT.* | Gli ID usati dall'organizzazione per accedere a Office 365 e altri servizi Microsoft sono diversi rispetto al proprio indirizzo di posta elettronica.  Ad esempio, è possibile che il proprio indirizzo di posta elettronica sia Nancy.Smith@contoso.com mentre l'ID è nancys@contoso.com. <br /><br /> Per completare l'iscrizione, usare l'ID assegnato dall'organizzazione per l'accesso a Office 365 o ad altri servizi Microsoft.  Se non si conosce questo ID, contattare l'amministratore IT. <br /><br /> Se non si riesce comunque a effettuare l'iscrizione e si è disposti a eseguire un processo di configurazione più avanzato, [richiedere un nuovo abbonamento di valutazione a Office 365 e usare tale indirizzo di posta elettronica per l'iscrizione](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
@@ -88,4 +87,4 @@ Nella maggior parte dei casi è possibile iscriversi a Power BI seguendo la proc
 [Acquisto di Power BI Pro](service-admin-purchasing-power-bi-pro.md)  
 [Contratto di assistenza di Power BI per utenti singoli](https://powerbi.microsoft.com/terms-of-service/)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

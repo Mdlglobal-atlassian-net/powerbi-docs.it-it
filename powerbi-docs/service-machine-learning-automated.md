@@ -2,7 +2,6 @@
 title: Machine Learning automatizzato in Power BI
 description: Informazioni su come usare Machine Learning automatizzato (AutoML) in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 7511d82b87c3fdf4b5ca8c22457e976b8a4a51a0
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 49615e1b6c205d9b894df0bcca7ef4979f153ba7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891670"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872111"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Machine Learning automatizzato in Power BI
 

@@ -2,7 +2,6 @@
 title: Utilizzo di report in Power BI con gli strumenti di accessibilità
 description: Strumenti che rendono accessibile l'utilizzo di report in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b50b291b6d7f583252cce6e270ff135c1ba0de12
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: ca2f1cd4908f99d47519f2dfca42bf2afae5fbed
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73181184"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878939"
 ---
 # <a name="consuming-reports-in-power-bi-with-accessibility-tools"></a>Utilizzo di report in Power BI con gli strumenti di accessibilità
 Power BI ha diverse funzionalità predefinite che consentono agli utenti con particolari esigenze di interagire più facilmente con i report di Power BI. Grazie a questi strumenti gli utenti possono ottenere da un report le stesse informazioni ottenute da chi non usa l'assistive technology.

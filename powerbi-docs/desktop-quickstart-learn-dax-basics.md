@@ -2,7 +2,6 @@
 title: Nozioni di DAX in Power BI Desktop
 description: Nozioni di DAX in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 524d04655d01b527707a59b941c84f5254ffea20
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: fcff0bf1d6c68b9bdb000855f4984b3664b882c1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922493"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877903"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Nozioni di DAX in Power BI Desktop
 Questo articolo è destinato ai nuovi utenti di Power BI Desktop e offre una rapida e semplice introduzione su come usare Data Analysis Expressions (DAX) per risolvere una serie di problemi basilari di calcolo e analisi dei dati. Verranno prese in esame alcune informazioni concettuali, una serie di attività che è possibile completare e una verifica delle conoscenze per testare quanto appreso. Dopo aver completato questo articolo, si dovrebbe avere una buona conoscenza dei concetti fondamentali più importanti in DAX.
@@ -33,7 +32,7 @@ L'attenzione sarà rivolta principalmente alla comprensione delle formule DAX us
 
 ### <a name="example-workbook"></a>Cartella di lavoro di esempio
 
-Il modo migliore per imparare a usare DAX consiste nel creare alcune formule di base, usarle con dati effettivi e visualizzare i risultati autonomamente. Gli esempi e le attività qui illustrati usano il [file di esempio delle vendite di Contoso per Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip). Questo file di esempio è lo stesso usato nell'articolo [Esercitazione: Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). 
+Il modo migliore per imparare a usare DAX consiste nel creare alcune formule di base, usarle con dati effettivi e visualizzare i risultati autonomamente. Gli esempi e le attività qui illustrati usano il [file di esempio delle vendite di Contoso per Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip). Questo file di esempio è lo stesso usato nell'articolo [Esercitazione: Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). 
 
 ## <a name="lets-begin"></a>Introduzione
 L'approfondimento di DAX è imperniato su tre concetti fondamentali: *Sintassi*, *Funzioni* e *Contesto*. Esistono altri concetti importanti in DAX, ma la comprensione di questi tre concetti getterà la base più solida su cui fondare le proprie competenze DAX.
@@ -82,7 +81,7 @@ A questo punto verrà creata una semplice formula. Questa operazione consentirà
 
 ### <a name="task-create-a-measure-formula"></a>Attività: Creare una formula della misura
 
-1. [Scaricare](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) e aprire il file di esempio delle vendite di Contoso per Power BI Desktop. 
+1. [Scaricare](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip) e aprire il file di esempio delle vendite di Contoso per Power BI Desktop. 
     
 2. Nell'elenco dei campi della visualizzazione Report fare clic con il pulsante destro del mouse sulla tabella **Sales** e quindi selezionare **Nuova misura**.
     
@@ -213,7 +212,7 @@ Le risposte vengono fornite alla fine di questo articolo.
 ## <a name="summary"></a>Riepilogo
 Ora che sono state apprese le nozioni di base dei concetti più importanti in DAX, è possibile iniziare a creare formule DAX per misure personalizzate. DAX può essere effettivamente un po' complesso da apprendere, ma sono disponibili molte risorse di approfondimento. Dopo aver letto questo articolo e sperimentato con alcune delle formule personalizzate, sarà possibile apprendere altri concetti e formule DAX che consentono di risolvere altri problemi aziendali. Sono disponibili molte risorse DAX, la più importante delle quali è l'articolo [Riferimento a Data Analysis Expressions (DAX)](https://msdn.microsoft.com/library/gg413422.aspx).
 
-Poiché DAX è stato rilasciato da diversi anni in altri strumenti Microsoft BI, ad esempio Power Pivot e i modelli tabulari di Analysis Services, esiste molta disponibilità di informazioni. È possibile trovare altre informazioni in libri, white paper e blog pubblicati da Microsoft e dai principali professionisti di Business Intelligence. Anche la pagina [Wiki del centro risorse DAX su TechNet](http://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) è un ottimo punto di partenza.
+Poiché DAX è stato rilasciato da diversi anni in altri strumenti Microsoft BI, ad esempio Power Pivot e i modelli tabulari di Analysis Services, esiste molta disponibilità di informazioni. È possibile trovare altre informazioni in libri, white paper e blog pubblicati da Microsoft e dai principali professionisti di Business Intelligence. Anche la pagina [Wiki del centro risorse DAX su TechNet](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx) è un ottimo punto di partenza.
 
 ### <a name="quickquiz-answers"></a>Risposte del quiz veloce
 Sintassi:

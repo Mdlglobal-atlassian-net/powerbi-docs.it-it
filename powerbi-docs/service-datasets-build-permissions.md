@@ -2,7 +2,6 @@
 title: Autorizzazione per creazione report per set di dati condivisi (anteprima)
 description: Informazioni su come mantenere il controllo di chi può accedere ai dati usando l'autorizzazione per creazione report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 363f75305b4c0f7f698442ce4503ad3220627c71
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020291"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872549"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Autorizzazione per creazione report per set di dati condivisi (anteprima)
 
@@ -103,4 +102,4 @@ Le autorizzazioni per creazione report possono essere rimosse. In questo caso, g
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Usare set di dati in aree di lavoro diverse (anteprima)](service-datasets-across-workspaces.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

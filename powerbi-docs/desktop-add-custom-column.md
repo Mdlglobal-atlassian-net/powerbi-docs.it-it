@@ -2,7 +2,6 @@
 title: Aggiungere una colonna personalizzata in Power BI Desktop
 description: Creare rapidamente una nuova colonna personalizzata in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,16 @@ ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72922520"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878888"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aggiungere una colonna personalizzata in Power BI Desktop
 
-In Power BI Desktop è possibile aggiungere facilmente una nuova colonna di dati personalizzata al modello usando l'editor di query. Con l'editor di query è possibile creare e rinominare la colonna personalizzata per creare [query di formula Power Query M](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language) e definire la colonna personalizzata. Le query di formula Power Query M hanno un [set di contenuti di riferimento completo per le funzioni](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
+In Power BI Desktop è possibile aggiungere facilmente una nuova colonna di dati personalizzata al modello usando l'editor di query. Con l'editor di query è possibile creare e rinominare la colonna personalizzata per creare [query di formula Power Query M](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) e definire la colonna personalizzata. Le query di formula Power Query M hanno un [set di contenuti di riferimento completo per le funzioni](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
 
 Quando si crea una colonna personalizzata nell'editor di query, Power BI Desktop la aggiunge come **passaggio applicato** in **Impostazioni query** per la query. La colonna può essere cambiata, spostata o modificata in qualsiasi momento.
 
@@ -50,7 +49,7 @@ La finestra **Aggiungi colonna personalizzata** ha le funzionalità seguenti:
 
 - Il nome iniziale della colonna personalizzata nella casella **Nuovo nome colonna**. È possibile rinominare la colonna.
 
-- [Query di formula PowerQuery M](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference) nella casella **Formula colonna personalizzata**. Per creare queste query, creare la formula in base alla quale deve essere definita la nuova colonna personalizzata. 
+- [Query di formula PowerQuery M](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) nella casella **Formula colonna personalizzata**. Per creare queste query, creare la formula in base alla quale deve essere definita la nuova colonna personalizzata. 
 
    ![Pagina Aggiungi colonna personalizzata](media/desktop-add-custom-column/add-custom-column_03.png)
 

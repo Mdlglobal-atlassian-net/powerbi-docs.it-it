@@ -2,19 +2,18 @@
 title: Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 description: Dopo aver creato dashboard o report o aver eseguito la connessione a tali elementi nel servizio Power BI, è possibile visualizzarli nelle app Power BI per dispositivi mobili.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: b4c81e1c83ef53dcb16153b4e9996b259e9eb886
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73059804"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870656"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -40,7 +39,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
 ## <a name="view-dashboards-on-your-iphone"></a>Visualizzare i dashboard nell'iPhone
 1. Aprire l'app Power BI nell'iPhone ed eseguire l'accesso.
    
-   È necessario [scaricare l'app iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) dall'App Store di Apple?
+   È necessario [scaricare l'app iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) dall'App Store di Apple?
 2. Toccare un dashboard per aprirlo.  
    
     ![Toccare il dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
 ## <a name="view-dashboards-on-your-ipad"></a>Visualizzare i dashboard nell'iPad
 1. Aprire l'app Power BI.
    
-   Se è necessario [scaricare prima l'app iPad](http://go.microsoft.com/fwlink/?LinkId=522062) dall'App Store di Apple, procedere come segue.
+   Se è necessario [scaricare prima l'app iPad](https://go.microsoft.com/fwlink/?LinkId=522062) dall'App Store di Apple, procedere come segue.
 2. Toccare **Dashboard** nella parte superiore dell'app.  
    
    ![Schermata iniziale del dashboard](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
 ## <a name="view-dashboards-on-your-android-phone"></a>Visualizzare i dashboard sul telefono Android
 1. Aprire l'app Power BI sul telefono Android ed eseguire l'accesso.
    
-   Se è necessario [scaricare prima l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867), procedere come segue.
+   Se è necessario [scaricare prima l'app Android](https://go.microsoft.com/fwlink/?LinkID=544867), procedere come segue.
 2. Toccare un dashboard per aprirlo.   
    
    ![Schermata iniziale del dashboard](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -127,7 +126,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
 ## <a name="view-dashboards-on-your-android-tablet"></a>Visualizzare i dashboard sul tablet Android
 1. Aprire l'app Power BI sul tablet Android ed eseguire l'accesso.
    
-   Se è necessario [scaricare prima l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867), procedere come segue.
+   Se è necessario [scaricare prima l'app Android](https://go.microsoft.com/fwlink/?LinkID=544867), procedere come segue.
 2. Toccare un dashboard per aprirlo.   
    
    ![Schermata iniziale del dashboard](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -154,8 +153,8 @@ I proprietari dei dashboard possono creare una visualizzazione del dashboard in 
 Altre informazioni sulla [creazione di una visualizzazione telefono di un dashboard](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Scaricare l'app Android](http://go.microsoft.com/fwlink/?LinkID=544867) da Google Play  
+* [Scaricare l'app Android](https://go.microsoft.com/fwlink/?LinkID=544867) da Google Play  
 * [Introduzione all'app Android per Power BI](mobile-android-app-get-started.md)  
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

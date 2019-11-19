@@ -2,7 +2,6 @@
 title: Eseguire la sottoscrizione a report e dashboard per se stessi e altri utenti
 description: Informazioni su come sottoscrivere per se stessi e altri utenti uno snapshot di una pagina di report, un dashboard o un report impaginato di Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e3e22a40b385ab519767eb850617a0506dbfbfd2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891836"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099764"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Sottoscrivere per se stessi e altri utenti report e dashboard nel servizio Power BI
 
@@ -97,7 +96,7 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 * Le sottoscrizioni alle pagine dei report sono associate al nome della pagina del report. Se si sottoscrive una pagina del report e dopo la si rinomina, è necessario ricreare la sottoscrizione.
 * L'organizzazione potrebbe configurare determinate impostazioni in Azure Active Directory per limitare la possibilità di usare le sottoscrizioni tramite posta elettronica in Power BI.  Queste limitazioni includono, a titolo di esempio, l'autenticazione a più fattori o la presenza di restrizioni dell'intervallo IP quando si accede alle risorse.
 * Attualmente, le sottoscrizioni di posta elettronica per report e dashboard che usano set di dati con connessione dinamica non sono supportate per altri utenti oltre a se stessi, a meno che non si usi un report impaginato, che consente di inviare la sottoscrizione ad altri utenti usando il proprio contesto di protezione. 
-* Le sottoscrizioni via posta elettronica non supportano la maggior parte degli [oggetti visivi personalizzati](power-bi-custom-visuals.md).  L'unica eccezione è costituita dagli oggetti visivi personalizzati che sono stati [certificati](power-bi-custom-visuals-certified.md).  
+* Le sottoscrizioni via posta elettronica non supportano la maggior parte degli [oggetti visivi personalizzati](developer/power-bi-custom-visuals.md).  L'unica eccezione è costituita dagli oggetti visivi personalizzati che sono stati [certificati](developer/power-bi-custom-visuals-certified.md).  
 * Attualmente le sottoscrizioni via posta elettronica non supportano oggetti visivi R personalizzati.  
 * Le sottoscrizioni tramite posta elettronica vengono inviate con gli stati di filtro e filtro dei dati predefinito del report. Eventuali modifiche ai valori predefiniti apportate dopo la sottoscrizione non vengono visualizzate nel messaggio di posta elettronica.  I report impaginati supportano questa funzionalità e consentono di impostare i valori dei parametri specifici per ogni sottoscrizione.   
 * Per le sottoscrizioni ai dashboard, in particolare, alcuni tipi di riquadri non sono ancora supportati,  tra cui: riquadri di streaming, riquadri video, riquadri di contenuto Web personalizzato.     
@@ -109,5 +108,5 @@ Una sottoscrizione termina se la licenza Pro scade, il proprietario elimina il d
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Subscribe yourself and others to a paginated report in the Power BI service](paginated-reports-subscriptions.md) (Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI)
-- Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)    
+- Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)    
 - [Leggere il post di blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

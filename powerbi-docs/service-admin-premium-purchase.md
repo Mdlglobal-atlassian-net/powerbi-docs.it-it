@@ -3,19 +3,18 @@ title: Come acquistare Power BI Premium
 description: Informazioni su come acquistare Power BI Premium e abilitare l'accesso ai contenuti per tutta l'organizzazione.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 1d2ff47fdbc31598524986742319ab36c8f3e957
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: b9681b15b0eef4415849b59e903440f9d904b1f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442902"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856896"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
 
@@ -107,4 +106,4 @@ Quando si annulla la sottoscrizione Premium o la licenza per la capacità scade,
 [Domande frequenti su Power BI Premium](service-premium-faq.md)\
 [Planning a Power BI Enterprise Deployment whitepaper](https://aka.ms/pbienterprisedeploy) (White paper sulla pianificazione della distribuzione aziendale di Power BI)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -2,21 +2,20 @@
 title: Portale di amministrazione di Power BI
 description: Il portale di amministrazione consente la gestione del tenant di Power BI nell'organizzazione. Include elementi come le metriche di utilizzo, l'accesso all'interfaccia di amministrazione di Microsoft 365 e le impostazioni.
 author: mgblythe
-ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8a6e104a6fcb129a6e51d8424a8c2321ea74b49c
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442869"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128368"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -305,7 +304,7 @@ Gli utenti dell'organizzazione possono usare funzionalità di ricerca esterne ba
 
 ### <a name="add-and-use-custom-visuals"></a>Aggiungi e usa oggetti visivi personalizzati
 
-Gli utenti dell'organizzazione possono interagire con gli oggetti visivi personalizzati e condividerli. [Altre informazioni](power-bi-custom-visuals.md)
+Gli utenti dell'organizzazione possono interagire con gli oggetti visivi personalizzati e condividerli. [Altre informazioni](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Questa impostazione può essere applicata all'intera organizzazione o limitata a gruppi specifici.
@@ -457,7 +456,7 @@ Un amministratore può visualizzare i codici di incorporamento generati per il t
 
  ## <a name="organizational-visuals">Oggetti visivi dell'organizzazione</a> 
 
-La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](power-bi-custom-visuals-organization.md)
+La scheda **Oggetti visivi organizzazione** consente di distribuire e gestire gli oggetti visivi personalizzati all'interno dell'organizzazione. Con gli oggetti visivi dell'organizzazione, è possibile distribuire facilmente gli oggetti visivi proprietari nell'organizzazione, che gli autori dei report possono quindi individuare e importare nei report da Power BI Desktop. [Altre informazioni](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Un oggetto visivo personalizzato può contenere codice rischioso a livello di sicurezza o privacy. Verificare che l'autore e l'origine dell'oggetto visivo personalizzato siano attendibili prima di distribuirlo nel repository dell'organizzazione.
@@ -513,7 +512,7 @@ Per aggiornare l'oggetto visivo dall'archivio dell'organizzazione, selezionare l
 
 Assicurarsi che l'ID dell'oggetto visivo rimanga invariato. Il nuovo file sostituisce il file precedente per tutti i report in tutta l'organizzazione. Tuttavia, se esiste la possibilità che la nuova versione dell'oggetto visivo comprometta l'utilizzo o la struttura di dati della versione precedente dell'oggetto visivo, evitare di sostituire la versione precedente. In questo caso, è invece necessario creare una nuova voce per la nuova versione dell'oggetto visivo. Ad esempio, aggiungere un nuovo numero di versione (versione x.x) al titolo del nuovo oggetto visivo presentato. In questo modo risulta chiaro che si tratta dello stesso oggetto visivo solo con un numero di versione aggiornato e che la funzionalità dei report esistenti non verrà compromessa. Assicurarsi anche in questo caso che l'ID dell'oggetto visivo rimanga invariato. Al successivo accesso al repository dell'organizzazione da Power BI Desktop, gli utenti possono importare la nuova versione e viene loro richiesto di sostituire la versione corrente disponibile nei report.
 
-Per altre informazioni, vedere le [Domande frequenti sugli oggetti visivi personalizzati di Power BI](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals).
+Per altre informazioni, vedere le [Domande frequenti sugli oggetti visivi personalizzati di Power BI](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals).
 
 ## <a name="dataflowStorage">Archiviazione del flusso di dati (anteprima)</a>
 
@@ -547,7 +546,7 @@ In qualità di amministratore è possibile personalizzare l'aspetto di Power BI 
 * **Selezionare il colore del tema**: È possibile selezionare il tema in base a un codice hex #, RGB, un valore o dal pallet in dotazione.
 
 
-Per altre informazioni, vedere [Personalizzazione per l'organizzazione](http://aka.ms/orgBranding).
+Per altre informazioni, vedere [Personalizzazione per l'organizzazione](https://aka.ms/orgBranding).
 
 ![Elenco delle aree di lavoro](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Passaggi successivi

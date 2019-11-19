@@ -2,18 +2,17 @@
 title: Modificare lo schema linguistico per Domande e risposte e aggiungere formulazioni in Power BI Desktop
 description: Come usare Power BI Desktop per modificare lo schema linguistico utilizzato da Domande e risposte in Power BI.
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 3bd5902227742a89402218b99ef8a024681be416
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891496"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875337"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Modificare lo schema linguistico per Domande e risposte e aggiungere formulazioni in Power BI Desktop 
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Lo è ancora di più quando i dati restituiscono una risposta. Quando si formula una domanda a Domande e risposte in Power BI, il sistema fa del suo meglio per rispondere correttamente. Tuttavia, per interazioni ancora più efficaci, è possibile migliorare le risposte. A tale scopo una soluzione è quella di modificare lo schema linguistico. 
@@ -338,4 +337,4 @@ Se si apporta una modifica a un file con estensione lsdl.yaml che non è conform
 
 ![File yaml con errori](media/q-and-a-tooling-advanced/power-bi-yaml-errors.png)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

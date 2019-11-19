@@ -2,7 +2,6 @@
 title: Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 description: Usare un set di dati comune per più report di Power BI Desktop in più aree di lavoro e gestire il ciclo di vita del report
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: de72cab51a4d43d1a07d6ada0bd77888952817ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429811"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877883"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Connettersi ai set di dati nel servizio Power BI da Power BI Desktop
 È possibile stabilire una connessione attiva a un set di dati condiviso nel servizio Power BI e creare report diversi dal set di dati stesso. In questo modo si può creare il modello di dati ideale in Power BI Desktop e pubblicarlo nel servizio Power BI. Partendo dallo stesso modello di dati comune, tutti possono così creare più report diversi (in file con estensione pbix separati) e salvarli in aree di lavoro diverse. Questa funzionalità è denominata **Connessione dinamica al servizio Power BI**.

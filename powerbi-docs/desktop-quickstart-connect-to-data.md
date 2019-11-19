@@ -2,7 +2,6 @@
 title: 'Guida introduttiva: Connettersi ai dati'
 description: Connettersi a un'origine dati in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 05d8c990b7057ab59515826547a42ce1ee643ac2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891699"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876198"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Avvio rapido: Connettersi ai dati in Power BI Desktop
 
@@ -28,8 +27,8 @@ Se non si è ancora iscritti a Power BI, [iscriversi per ottenere una versione d
 ## <a name="prerequisites"></a>Prerequisiti
 
 Per completare i passaggi descritti in questo articolo, è necessario quanto segue:
-* Scaricare e installare **Power BI Desktop**, ovvero un'applicazione gratuita che viene eseguita nel computer locale. È possibile [scaricare **Power BI Desktop**](https://powerbi.microsoft.com/desktop) direttamente oppure [da **Microsoft Store**](http://aka.ms/pbidesktopstore).
-* [Scaricare questa cartella di lavoro di Excel di esempio](http://go.microsoft.com/fwlink/?LinkID=521962) e creare una cartella denominata *C:\PBID-qs* in cui archiviare il file di Excel. I passaggi successivi di questa guida introduttiva presuppongono che questo sia il percorso della cartella di lavoro di Excel scaricata.
+* Scaricare e installare **Power BI Desktop**, ovvero un'applicazione gratuita che viene eseguita nel computer locale. È possibile [scaricare **Power BI Desktop**](https://powerbi.microsoft.com/desktop) direttamente oppure [da **Microsoft Store**](https://aka.ms/pbidesktopstore).
+* [Scaricare questa cartella di lavoro di Excel di esempio](https://go.microsoft.com/fwlink/?LinkID=521962) e creare una cartella denominata *C:\PBID-qs* in cui archiviare il file di Excel. I passaggi successivi di questa guida introduttiva presuppongono che questo sia il percorso della cartella di lavoro di Excel scaricata.
 
 ## <a name="launch-power-bi-desktop"></a>Avviare Power BI Desktop
 

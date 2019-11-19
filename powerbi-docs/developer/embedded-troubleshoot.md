@@ -3,18 +3,17 @@ title: Risoluzione dei problemi dell'applicazione incorporata
 description: Questo articolo illustra alcuni problemi comuni che possono verificarsi quando si incorpora il contenuto da Power BI.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429321"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864100"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Risolvere i problemi dell'applicazione incorporata
 
@@ -24,7 +23,7 @@ Questo articolo illustra alcuni problemi comuni che possono verificarsi quando s
 
 ### <a name="fiddler-trace"></a>Traccia di Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP.  È possibile visualizzare il traffico con le API Power BI dal computer client. Questo strumento potrebbe visualizzare errori e altre informazioni correlate.
+[Fiddler](https://www.telerik.com/fiddler) è uno strumento gratuito di Telerik che monitora il traffico HTTP.  È possibile visualizzare il traffico con le API Power BI dal computer client. Questo strumento potrebbe visualizzare errori e altre informazioni correlate.
 
 ![Traccia di Fiddler](media/embedded-troubleshoot/fiddler.png)
 
@@ -80,7 +79,7 @@ Potrebbe essere necessaria un'acquisizione Fiddler per ulteriori indagini. Le ca
 * Il token di autenticazione di Azure AD è scaduto.
 * L'utente autenticato non è un membro del gruppo (area di lavoro).
 * L'utente autenticato non è un amministratore del gruppo (area di lavoro).
-* L'utente autenticato non dispone delle autorizzazioni. Le autorizzazioni possono essere aggiornate usando l'[API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
+* L'utente autenticato non dispone delle autorizzazioni. Le autorizzazioni possono essere aggiornate usando l'[API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)
 * L'intestazione dell'autorizzazione potrebbe non essere corretta. Assicurarsi che non siano presenti errori di ortografia.
 
 Il back-end dell'applicazione potrebbe dover aggiornare il token di autenticazione prima di chiamare GenerateToken.
@@ -293,7 +292,7 @@ Quando si esegue l'app di esempio **Incorporare per l'organizzazione**, viene vi
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-L'errore si verifica perché l'URL di reindirizzamento specificato per il server Web dell'applicazione è diverso dall'URL dell'esempio. Se si vuole registrare l'applicazione di esempio, usare `http://localhost:13526/` come URL di reindirizzamento.
+L'errore si verifica perché l'URL di reindirizzamento specificato per il server Web dell'applicazione è diverso dall'URL dell'esempio. Se si vuole registrare l'applicazione di esempio, usare `https://localhost:13526/` come URL di reindirizzamento.
 
 Se si vuole modificare l'applicazione registrata, leggere le informazioni su come [aggiornare l'applicazione registrata con Azure AD ](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) in modo che l'applicazione possa consentire l'accesso alle API Web.
 
@@ -305,7 +304,7 @@ Se viene visualizzato l'errore AADSTS50079: è necessario che l'utente usi l'aut
 
 Per altre informazioni, vedere [Power BI Embedded FAQ](embedded-faq.md) (Domande frequenti su Power BI Embedded).
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 
 Se è necessaria ulteriore assistenza, [contattare il supporto tecnico](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) oppure [creare un ticket di supporto dal portale di Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) e specificare i messaggi di errore riscontrati.
 
@@ -313,4 +312,4 @@ Se è necessaria ulteriore assistenza, [contattare il supporto tecnico](https://
 
 Per altre informazioni, vedere [Domande frequenti](embedded-faq.md).
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

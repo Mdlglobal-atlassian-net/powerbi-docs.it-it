@@ -2,19 +2,18 @@
 title: Insegnare a Domande e risposte di Power BI a riconoscere le domande e i termini usati nelle query
 description: Come usare Domande e risposte di Power BI per esplorare i dati
 author: mohaali
-manager: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mohaali
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: b6ae234991414f6971a656b43584710bde82dfaa
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 695ad9143aa7074e079ae8606a9ad0eb6f6c964f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72717696"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874911"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Insegnare a Domande e risposte di Power BI a riconoscere le domande e i termini usati nelle query
 

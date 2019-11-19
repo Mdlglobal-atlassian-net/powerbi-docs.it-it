@@ -2,7 +2,6 @@
 title: 'Esercitazione: Analisi di Facebook con Power BI Desktop'
 description: 'Esercitazione: Analisi di Facebook con Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 689d86029150fa66daa90c4f93b71ed15750b095
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73018076"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876284"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Esercitazione: Analisi di Facebook con Power BI Desktop
 
@@ -241,8 +240,8 @@ Come si può notare, è facile personalizzare le visualizzazioni nel report per 
 Power BI Desktop offre un'esperienza end-to-end molto semplice, dal recupero di dati da una vasta gamma di origini dati, al data shaping per soddisfare le esigenze di analisi, fino alla visualizzazione dei dati in modi accattivanti e interattivi. Quando il report è pronto, è possibile [caricarlo nel servizio Power BI](desktop-upload-desktop-files.md) e creare dashboard basati sul report che potranno essere condivisi con altri utenti di Power BI.
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Altre esercitazioni su Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Video su Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Forum di Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Blog su Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Altre esercitazioni su Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Video su Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Forum di Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Blog su Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

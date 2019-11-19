@@ -2,7 +2,6 @@
 title: Eseguire il drill-down e il drill-up in un oggetto visivo
 description: Questo articolo illustra come eseguire il drill-down in un oggetto visivo nel servizio Microsoft Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019907"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851451"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modalità di espansione in un oggetto visivo in Power BI
 
@@ -153,4 +152,4 @@ Per impostazione predefinita, il drill-down non filtra altri oggetti visivi in u
 
 [Power BI - Concetti di base](end-user-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

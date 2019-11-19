@@ -2,7 +2,6 @@
 title: 'Esercitazione: Creare colonne calcolate in Power BI Desktop'
 description: 'Esercitazione: Creare colonne calcolate in Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 92cd402c394fc2f03a9bba3149260c022116e9d7
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017810"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876136"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Esercitazione: Creare colonne calcolate in Power BI Desktop
 
@@ -28,7 +27,7 @@ Questa esercitazione illustra il significato e la modalità di creazione delle c
 ### <a name="prerequisites"></a>Prerequisiti
 - Questa esercitazione è destinata agli utenti di Power BI che sono già in grado di usare Power BI Desktop per creare modelli più avanzati. L'utente dovrebbe avere già acquisito familiarità con l'uso di **Recupera dati** e dell'**editor di Power Query** per importare i dati, con l'uso di più tabelle correlate e con l'aggiunta di campi al canvas del report. Se non si ha familiarità con Power BI Desktop, vedere l'articolo [Introduzione a Power BI Desktop](desktop-getting-started.md).
   
-- L'esercitazione usa il file [Contoso Sales Sample for Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), lo stesso esempio usato per l'esercitazione [Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). I dati delle vendite della società fittizia Contoso, Inc. sono stati importati da un database, non sarà quindi possibile connettersi all'origine dati o visualizzare i dati nell'editor di Power Query. Scaricare ed estrarre il file nel computer in uso e quindi aprirlo in Power BI Desktop.
+- L'esercitazione usa il file [Contoso Sales Sample for Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), lo stesso esempio usato per l'esercitazione [Creare misure personalizzate in Power BI Desktop](desktop-tutorial-create-measures.md). I dati delle vendite della società fittizia Contoso, Inc. sono stati importati da un database, non sarà quindi possibile connettersi all'origine dati o visualizzare i dati nell'editor di Power Query. Scaricare ed estrarre il file nel computer in uso e quindi aprirlo in Power BI Desktop.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Creare una colonna calcolata con i valori di tabelle correlate
 

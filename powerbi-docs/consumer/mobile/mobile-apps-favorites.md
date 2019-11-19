@@ -2,19 +2,18 @@
 title: Preferiti nelle app Power BI per dispositivi mobili
 description: Informazioni su come aggiungere ai Preferiti e visualizzare i dashboard, i report e le app preferiti di Power BI, oltre ai report e agli indicatori KPI del Server di report di Power BI e di Reporting Services nelle app per dispositivi mobili.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 53ea3444be75b32390789205ab96c87fa8ff2ce6
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73017840"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870692"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creare e visualizzare i Preferiti nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -77,5 +76,5 @@ Quando si crea un preferito nelle app Power BI per dispositivi mobili, è possib
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Aggiungere dashboard ai Preferiti nel servizio Power BI](../end-user-favorite.md) 
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

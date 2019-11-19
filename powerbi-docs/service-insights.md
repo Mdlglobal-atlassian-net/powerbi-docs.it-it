@@ -2,7 +2,6 @@
 title: Generare automaticamente informazioni dettagliate sui dati con Power BI
 description: Informazioni su come ottenere informazioni dettagliate su riquadri del dashboard e set di dati.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 428e392994a1b6934bf78d9cccbee1821744a622
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020230"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872238"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Generare automaticamente informazioni dettagliate sui dati con Power BI
 Si ha un nuovo set di dati e non si sa da dove iniziare?  È necessario creare velocemente un dashboard?  Si desidera cercare le informazioni dettagliate perse?
@@ -96,5 +95,5 @@ Invece di cercare informazioni dettagliate in un intero set di dati, è possibil
 - Se è disponibile un set di dati, [ottimizzarlo per Informazioni rapide](service-insights-optimize.md).
 - Altre informazioni sui [tipi di informazioni rapide disponibili](service-insight-types.md).
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/).
 

@@ -2,7 +2,6 @@
 title: Eseguire e visualizzare informazioni dettagliate per i riquadri del dashboard
 description: Informazioni per gli utenti finali di Power BI su come ottenere informazioni dettagliate sui riquadri del dashboard.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019620"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863392"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualizzare informazioni dettagliate sui dati per i riquadri del dashboard con Power BI
 Ogni [riquadro](end-user-tiles.md) di oggetto visivo nel dashboard è una porta di accesso per l'esplorazione dei dati. Quando si seleziona un riquadro, viene aperto un report o [viene aperto Domande e risposte](end-user-q-and-a.md) in cui è possibile filtrare e ordinare il set di dati del report oppure esaminare i dati in maggiore dettaglio. E quando si eseguono informazioni dettagliate, Power BI esegue automaticamente l'esplorazione dei dati.

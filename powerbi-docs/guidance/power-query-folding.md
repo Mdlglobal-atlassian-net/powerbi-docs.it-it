@@ -2,19 +2,18 @@
 title: Importanza della riduzione delle query
 description: Informazioni sull'importanza della riduzione della query con Power Query e su come ottenerla.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4f1873abe07b903d124ae7809c7f10fe03147697
-ms.sourcegitcommit: fd4787a060e2b5c79e91b63d3ede71f7efe50753
+ms.openlocfilehash: 1ddcc94e2286c82f7e865a2a8012b9d407b3c171
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "72815867"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875349"
 ---
 # <a name="the-importance-of-query-folding"></a>Importanza della riduzione delle query
 

@@ -3,18 +3,17 @@ title: Frammenti di codice per eseguire la migrazione del contenuto da Power BI 
 description: Ecco alcuni frammenti di codice di operazioni di base necessarie per la migrazione del contenuto
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429157"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880505"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI
 
@@ -240,4 +239,4 @@ In questo frammento di codice si presuppone che il set di dati di cui è possibi
 [Esempio di incorporamento JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [White paper su Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

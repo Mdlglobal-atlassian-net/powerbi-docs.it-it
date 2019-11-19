@@ -2,7 +2,6 @@
 title: Risolvere i problemi relativi a Cortana per Power BI
 description: Se si verificano problemi durante l'uso di Cortana con Power BI, provare a seguire questi suggerimenti.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 02e79522baa7580b019cec6956593d88260fb95b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432113"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872885"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Risolvere i problemi relativi a Cortana per Power BI
 Questo articolo fa parte di una serie. 
@@ -96,4 +95,4 @@ Si cerca un dashboard condiviso con l'utente corrente?  Aprire Power BI > **Cond
 * La query deve contenere 2 o più parole, da progettazione.  Se la query è troppo breve, aggiungere la parola "show".
 * Alcune stringhe di query con preposizioni potrebbero non funzionare (ad esempio, vendite per articolo). Provare a usare termini di query diversi che non contengano preposizioni e siano significativi/univoci.
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

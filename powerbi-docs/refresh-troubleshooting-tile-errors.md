@@ -2,7 +2,6 @@
 title: Risoluzione degli errori del riquadro
 description: Errori più comuni che possono essere rilevati durante un tentativo di aggiornamento di un riquadro in Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4ba6b4840a35e00c4b170a6b916bf3877508546a
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021540"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877494"
 ---
 # <a name="troubleshooting-tile-errors"></a>Risoluzione degli errori del riquadro
 Di seguito sono elencati gli errori comuni che possono verificarsi nei riquadri e la relativa spiegazione.
 
 > [!NOTE]
-> Se si verifica un errore diverso da quelli elencati di seguito che causa problemi, è possibile richiedere ulteriore assistenza nel [sito della community](http://community.powerbi.com/) oppure creare un [ticket di supporto](https://powerbi.microsoft.com/support/).
+> Se si verifica un errore diverso da quelli elencati di seguito che causa problemi, è possibile richiedere ulteriore assistenza nel [sito della community](https://community.powerbi.com/) oppure creare un [ticket di supporto](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -38,7 +37,7 @@ Contattare il proprietario del dashboard per verificare che le origini dati e il
 
 **Gli oggetti visivi sono stati disabilitati dall'amministratore.**
 
-L'amministratore di Power BI ha disabilitato l'utilizzo di oggetti visivi personalizzati per l'organizzazione o il gruppo di sicurezza. Non sarà possibile usare oggetti visivi personalizzati da [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) o importare oggetti visivi privati da un file. Sarà possibile usare solo il set di oggetti visivi già inserito nel pacchetto.
+L'amministratore di Power BI ha disabilitato l'utilizzo di oggetti visivi personalizzati per l'organizzazione o il gruppo di sicurezza. Non sarà possibile usare oggetti visivi personalizzati da [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) o importare oggetti visivi privati da un file. Sarà possibile usare solo il set di oggetti visivi già inserito nel pacchetto.
 
 
 **Le forme dati devono contenere almeno un gruppo o un calcolo che esegua l'output dei dati. Contattare il proprietario del dashboard.**
@@ -82,5 +81,5 @@ Se il problema riscontrato persiste, [contattare il supporto tecnico](https://su
 ## <a name="next-steps"></a>Passaggi successivi
 [Risoluzione dei problemi del gateway dati locale](service-gateway-onprem-tshoot.md)  
 [Risoluzione dei problemi relativi a Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 
