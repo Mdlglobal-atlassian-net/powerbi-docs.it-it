@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 667b6eac288d3be35eac619b669498b6d7381dc3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514777"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019261"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Usare Visualizza dati e Visualizza record in Power BI Desktop
 In **Power BI Desktop** è possibile esaminare i dettagli di una visualizzazione e visualizzare rappresentazioni testuali dei dati sottostanti o dei singoli record di dati per un oggetto visivo selezionato. Queste funzionalità vengono talvolta definite *click-through*, *drill-through* o *drill-through dei dettagli*.
@@ -41,7 +41,7 @@ In **Power BI Desktop** è possibile esaminare i dettagli di una visualizzazione
 
 ![Visualizza dati nella barra multifunzione](media/desktop-see-data-see-records/see-data1.png)
 
-È possibile visualizzare i dati anche facendo clic con il pulsante destro del mouse su una visualizzazione e selezionando **Mostra dati** nel menu visualizzato oppure selezionando i puntini di sospensione (...) **Altre opzioni** nell'angolo superiore destro di una visualizzazione e quindi **Mostra dati**.
+È possibile visualizzare i dati anche facendo clic con il pulsante destro del mouse su una visualizzazione e selezionando **Mostra dati** nel menu visualizzato oppure **Altre opzioni** (...) nell'angolo superiore destro di una visualizzazione e quindi **Mostra dati**.
 
 ![Mostra dati con il pulsante destro del mouse](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Mostra dati con Altre opzioni](media/desktop-see-data-see-records/see-data3.png)
 

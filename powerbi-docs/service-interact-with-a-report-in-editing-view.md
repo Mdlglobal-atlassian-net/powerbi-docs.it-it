@@ -2,7 +2,6 @@
 title: Interagire con un report nella visualizzazione di modifica
 description: Interagire con un report nella visualizzazione di modifica dei report nel servizio Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9ae34a354d41987f291aa891b713542901180eb6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234488"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872195"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagire con un report nella visualizzazione di modifica nel servizio Power BI
 Nel servizio Power BI e in Power BI Desktop è possibile creare e modificare i report. Nel servizio Power BI i report possono essere creati e modificati in **Visualizzazione di modifica**. In Power BI Desktop, invece, i report possono essere creati e modificati nella [**visualizzazione Report**](desktop-report-view.md). Questo articolo illustra Visualizzazione di modifica nel servizio Power BI. 
 
 Il servizio Power BI offre due modi diversi per interagire con i report, ovvero [Visualizzazione di lettura](consumer/end-user-reading-view.md) per i *consumer* dei report e Visualizzazione di modifica per i proprietari e gli autori dei report.  Per la condivisione e la modifica di report creati da altri utenti, è necessaria un licenza Power BI Pro. Un utente che non si dispone di una licenza Pro può comunque creare report, ma non può [condividerli](service-share-reports.md).    
 
-Nella visualizzazione di modifica del report sono disponibili numerose opzioni flessibili di esplorazione e progettazione. Sono infatti presenti tutte le funzionalità di [Visualizzazione di lettura](consumer/end-user-reading-view.md) e molto altro ancora. La Visualizzazione di modifica è disponibile solo all'autore del report o ai colleghi che sono [comproprietari di un report in quanto membri o amministratori dell'area di lavoro di un'app](service-create-distribute-apps.md).
+Nella visualizzazione di modifica del report sono disponibili numerose opzioni flessibili di esplorazione e progettazione. Sono infatti presenti tutte le funzionalità di [Visualizzazione di lettura](consumer/end-user-reading-view.md) e molto altro ancora. La visualizzazione di modifica è disponibile solo per l'autore del report o per i colleghi che sono [comproprietari di un report in quanto membri o amministratori di un'area di lavoro](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Funzionalità disponibili solo nella Visualizzazione di modifica
 Per un elenco degli argomenti disponibili, vedere l'intestazione **Report** nel sommario a sinistra. Si tratta di un elenco di argomenti lungo, alcuni dei quali riguardano funzionalità *disponibili solo se si dispone delle autorizzazioni di modifica per un report*.  Per spostarsi più facilmente nel sommario, è necessario usare la Visualizzazione di modifica per le operazioni seguenti:
@@ -45,5 +44,5 @@ Per modificare i report creati da altri utenti e per condividere i propri report
 ## <a name="next-steps"></a>Passaggi successivi
 Tornare a [Visualizzazione di lettura e Visualizzazione di modifica nel servizio Power BI](consumer/end-user-reading-view.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

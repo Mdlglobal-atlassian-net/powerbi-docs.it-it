@@ -2,21 +2,20 @@
 title: Aggiungere collegamenti ipertestuali (URL) a una tabella
 description: In questo argomento viene illustrato come aggiungere collegamenti ipertestuali (URL) a una tabella. Per aggiungere collegamenti ipertestuali (URL) a una tabella o matrice, usare Power BI Desktop. Con Power BI Desktop o il servizio Power BI è quindi possibile aggiungere tali collegamenti ipertestuali alle tabelle e matrici di report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715310"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874513"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Aggiungere collegamenti ipertestuali (URL) a una tabella
 In questo argomento viene illustrato come aggiungere collegamenti ipertestuali (URL) a una tabella. Per aggiungere collegamenti ipertestuali (URL) a una tabella o matrice, usare Power BI Desktop. Con Power BI Desktop o il servizio Power BI è quindi possibile aggiungere tali collegamenti ipertestuali alle tabelle e matrici di report. 
@@ -44,7 +43,7 @@ La procedura per aggiungere un collegamento ipertestuale varia a seconda che i d
     ![Collegamenti di colore blu e sottolineati](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > Gli URL devono iniziare con **http:// , https://** o **www**.
+    > Gli URL devono iniziare con determinati prefissi. Per l'elenco completo, vedere [Considerazioni e risoluzione dei problemi](#considerations-and-troubleshooting).
     >
    
 1. Se non si vuole visualizzare un URL lungo in una tabella, è possibile visualizzare un'icona di collegamento ipertestuale  ![Icona di collegamento ipertestuale](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) . Si noti che non è possibile visualizzare le icone nelle matrici.
@@ -80,8 +79,9 @@ Un altro modo per aggiungere collegamenti ipertestuali alle tabelle e matrici di
 4. Posizionare il cursore nella colonna che contiene gli URL da trasformare in collegamenti ipertestuali nelle tabelle di Power BI.
    
    > [!NOTE]
-   > Gli URL devono iniziare con **http:// , https://** o **www**.
+   > Gli URL devono iniziare con determinati prefissi. Per l'elenco completo, vedere [Considerazioni e risoluzione dei problemi](#considerations-and-troubleshooting).
    > 
+   
 5. Nel gruppo **Proprietà report** selezionare l'elenco a discesa **Categoria di dati** e scegliere **URL Web**. 
    
    ![Elenco a discesa Categoria di dati in Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +92,16 @@ Un altro modo per aggiungere collegamenti ipertestuali alle tabelle e matrici di
    ![Creare una tabella in Power BI con il campo URL](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+
+Gli URL devono iniziare con uno degli elementi seguenti:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 D: è possibile usare un URL personalizzato come collegamento ipertestuale in una tabella o matrice?    
 R: No. È possibile usare un'icona di collegamento. Se è necessario testo personalizzato per i collegamenti ipertestuali e l'elenco di URL è breve, valutare la possibilità di usare una casella di testo.
 
@@ -101,5 +111,5 @@ R: No. È possibile usare un'icona di collegamento. Se è necessario testo perso
 
 [Concetti di base del servizio Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

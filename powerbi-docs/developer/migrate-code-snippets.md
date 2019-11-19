@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 83c3257fb9aaaee01efdfceaac93c1d32aeebba0
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269230"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429157"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Frammenti di codice per eseguire la migrazione del contenuto dalla raccolta di aree di lavoro di Power BI
 
@@ -167,7 +167,7 @@ In questo frammento di codice per semplicità si usano le credenziali non critto
 
 È necessario ricompilare il report per il set di dati creato.
 
-In questo frammento di codice, si presuppone che il set di dati su cui è possibile eseguire il push si trovi già in un'area di lavoro per le app all'interno dell'ambiente SaaS. Per informazioni sull'API push, vedere [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md).
+In questo frammento di codice si presuppone che il set di dati di cui è possibile eseguire il push si trovi già in un'area di lavoro all'interno dell'ambiente SaaS. Per informazioni sull'API push, vedere [Eseguire il push dei dati in un set di dati di Power BI](walkthrough-push-data.md).
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");

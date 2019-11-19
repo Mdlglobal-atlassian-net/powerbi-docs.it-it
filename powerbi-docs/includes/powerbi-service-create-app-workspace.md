@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6d8de145f9158e4aa649fa39670fdf2808fc5af4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903847"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021085"
 ---
 1. Iniziare creando l'area di lavoro. Selezionare **Aree di lavoro** > **Crea area di lavoro**. 
    
@@ -53,7 +53,7 @@ ms.locfileid: "70903847"
 
 7. Selezionare **Salva**.
 
-Power BI crea l'area di lavoro, che verrà aperta e visualizzata nell'elenco delle aree di lavoro di cui si è membri. Gli amministratori potranno a questo punto selezionare i puntini di sospensione (…) per tornare indietro e apportare modifiche, aggiungere nuovi membri o modificarne le autorizzazioni.
+Power BI crea l'area di lavoro, che verrà aperta e visualizzata nell'elenco delle aree di lavoro di cui si è membri. Gli amministratori possono a questo punto selezionare **Altre opzioni** (...) per tornare indietro e apportare modifiche, aggiungere nuovi membri o modificarne le autorizzazioni.
 
 ![Modifica area di lavoro](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

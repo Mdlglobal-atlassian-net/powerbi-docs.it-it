@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691239"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431461"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -29,7 +29,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Dati di origine | Cloud e/o locali | Cloud e/o locali |  |
 | Licenza | Power BI Premium o SQL Server EE con SA | Power BI Pro e/o Power BI Premium | |  
 | Ciclo di vita | Criteri moderni del ciclo di vita | Servizio completamente gestito |  |
-| Ciclo di rilascio | Una volta ogni 4 mesi | Una volta al mese | Le correzioni e le funzionalità più recenti vengono introdotte innanzitutto nel servizio Power BI. La maggior parte delle funzionalità di base è disponibile in Server di report di Power BI nelle versioni immediatamente successive; alcune funzionalità sono pensate solo per il servizio Power BI. |
+| Ciclo di rilascio | Tre volte all'anno (gennaio, maggio, settembre) | Una volta al mese | Le correzioni e le funzionalità più recenti vengono introdotte innanzitutto nel servizio Power BI. La maggior parte delle funzionalità di base è disponibile in Server di report di Power BI nelle versioni immediatamente successive; alcune funzionalità sono pensate solo per il servizio Power BI. |
 | Creare report di Power BI in Power BI Desktop | Sì | Sì |  |
 | Creare report di Power BI nel browser | No | Sì |  |
 | Gateway richiesto | No | Sì per le origini dati locali |  |
@@ -49,7 +49,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Avvisi per i dati | No | Sì | [Avvisi per i dati](../service-set-data-alerts.md) nel servizio Power BI
 | Sicurezza a livello di riga | Sì | Sì | Disponibile in modalità DirectQuery (origine dati) e importazione <br><br>Sicurezza a livello di riga nel [servizio Power BI](../service-admin-rls.md) <br><br>Sicurezza a livello di riga in [Server di report di Power BI](row-level-security-report-server.md) |
 | Modalità schermo intero | No | Sì | [Modalità schermo intero](../consumer/end-user-focus.md) nel servizio Power BI |
-| Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro per le app](../service-collaborate-power-bi-workspace.md) con Office 365 |
+| Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro](../service-collaborate-power-bi-workspace.md) con Office 365 |
 | Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../desktop-r-visuals.md) in Power BI Desktop e pubblicarli nel servizio Power BI. Non è possibile salvare i report di Power BI con oggetti visivi R in Server di report di Power BI.  |
 | Funzionalità di anteprima | No | Sì | [Acconsentire esplicitamente alle funzionalità di anteprima del servizio Power BI](../consumer/end-user-preview-features.md) |
 | Oggetti visivi personalizzati | Sì | Sì | [Oggetti visivi personalizzati in Power BI](../power-bi-custom-visuals.md) |

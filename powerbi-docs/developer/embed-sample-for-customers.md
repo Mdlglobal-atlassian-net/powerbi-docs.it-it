@@ -10,16 +10,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: 8fd87174a1f94ac8a6472238164298c47aa5691e
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391797"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429662"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti
 
-Con **Power BI Embedded in Azure**, è possibile incorporare report, dashboard o riquadri in un'applicazione usando dati di proprietà dell'app. **I dati di proprietà dell'app** consistono nel disporre di un'applicazione che usa Power BI come piattaforma di analisi incorporata. Gli **sviluppatori ISV** possono creare contenuti Power BI che visualizzano report, dashboard o riquadri in un'applicazione completamente integrata e interattiva, senza richiedere agli utenti di disporre di una licenza Power BI. Questa esercitazione illustra come integrare un report in un'applicazione tramite .NET SDK di Power BI e l'API JavaScript di Power BI usando **Power BI Embedded in Azure** per i clienti.
+Con **Power BI Embedded in Azure** o l'**incorporamento di Power BI in Office** è possibile incorporare report, dashboard e riquadri in un'applicazione usando i dati dell'app. **I dati di proprietà dell'app** consistono nel disporre di un'applicazione che usa Power BI come piattaforma di analisi incorporata. Gli **ISV** e gli **sviluppatori** possono creare contenuti Power BI che visualizzano report, dashboard o riquadri in un'applicazione completamente integrata e interattiva, senza richiedere agli utenti il possesso di una licenza di Power BI. Questa esercitazione illustra come integrare un report in un'applicazione tramite .NET SDK di Power BI e l'API JavaScript di Power BI.
 
 ![Incorporare report di Power BI](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
@@ -33,12 +33,9 @@ In questa esercitazione viene illustrato come:
 Per iniziare, è necessario avere:
 
 * Un [account Power BI Pro](../service-self-service-signup-for-power-bi.md) (un account master con nome utente e password per accedere all'account Power BI Pro,) o un'[entità servizio (token solo app)](embed-service-principal.md).
-* Una sottoscrizione di [Microsoft Azure](https://azure.microsoft.com/).
 * È necessario aver configurato un [tenant di Azure Active Directory](create-an-azure-active-directory-tenant.md).
 
 Se non si è ancora iscritti a **Power BI Pro**, [iscriversi per ottenere una versione di prova gratuita](https://powerbi.microsoft.com/pricing/) prima di iniziare.
-
-Se non si ha una sottoscrizione di Azure, [creare un account gratuito](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) prima di iniziare.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configurare l'ambiente di sviluppo di analisi incorporata
 
@@ -60,13 +57,13 @@ Se invece si usa l'entità servizio, è necessario procedere con la registrazion
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
 
-### <a name="create-an-app-workspace"></a>Crea area di lavoro per le app
+### <a name="create-a-workspace"></a>Crea un'area di lavoro
 
-Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro per le app. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../service-create-workspaces.md) o le [nuove aree di lavoro](../service-create-the-new-workspaces.md). Se si usa un account *master*, non è importante il tipo di area di lavoro usato. Se invece si usa l' *[entità servizio](embed-service-principal.md)* per accedere all'applicazione, è necessario usare le nuove aree di lavoro. In entrambi gli scenari sia l'account *master* sia l'*entità servizio* deve essere amministratore delle aree di lavoro per le app interessate dall'applicazione.
+Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../service-create-workspaces.md) o le [nuove aree di lavoro](../service-create-the-new-workspaces.md). Se si usa un account *master*, non è importante il tipo di area di lavoro usato. Se invece si usa l' *[entità servizio](embed-service-principal.md)* per accedere all'applicazione, è necessario usare le nuove aree di lavoro. In entrambi gli scenari sia l'account *master* sia l'*entità servizio* deve essere un amministratore delle aree di lavoro interessate dall'applicazione.
 
 ### <a name="create-and-publish-your-reports"></a>Creare e pubblicare i report
 
-È possibile creare report e set di dati usando Power BI Desktop e quindi pubblicando tali report in un'area di lavoro per le app. Esistono due modi per eseguire questa attività. Un utente finale può pubblicare i report in un'area di lavoro per le app tradizionale usando un account master (licenza di Power BI Pro). Se si usa l'entità servizio, è possibile pubblicare i report nelle nuove aree di lavoro usando le [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+È possibile creare report e set di dati usando Power BI Desktop e quindi pubblicando tali report in un'area di lavoro. Esistono due modi per eseguire questa attività. Un utente finale può pubblicare i report in un'area di lavoro tradizionale usando un account master (licenza di Power BI Pro). Se si usa l'entità servizio, è possibile pubblicare i report nelle nuove aree di lavoro usando le [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
 
 La procedura seguente illustra come pubblicare il report in formato PBIX nell'area di lavoro di Power BI.
 
@@ -78,7 +75,7 @@ La procedura seguente illustra come pubblicare il report in formato PBIX nell'ar
 
    ![Report di PBI Desktop](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
 
-3. Pubblicare nelle **aree di lavoro per le app**. Questo processo varia a seconda che si stia usando un account master (licenza di Power Pro) oppure un'entità servizio. Se si usa un account master, è possibile pubblicare il report tramite Power BI Desktop.  Se si usa l'entità servizio, è necessario usare le API REST di Power BI.
+3. Pubblicare nelle **aree di lavoro**. Questo processo varia a seconda che si stia usando un account master (licenza di Power Pro) oppure un'entità servizio. Se si usa un account master, è possibile pubblicare il report tramite Power BI Desktop.  Se si usa l'entità servizio, è necessario usare le API REST di Power BI.
 
 ## <a name="embed-content-using-the-sample-application"></a>Incorporare il contenuto usando l'applicazione di esempio
 
@@ -139,7 +136,7 @@ Per ottenere il valore **applicationId** seguire questa procedura:
 
 Questo attributo è necessario per entrambe le opzioni di AuthenticationTypes (account master ed [entità servizio](embed-service-principal.md)).
 
-Compilare il campo **workspaceId** con il GUID (gruppo) dell'area di lavoro per le app di Power BI. È possibile ottenere queste informazioni dall'URL di accesso al servizio Power BI o usando Powershell.
+Compilare il campo **workspaceId** con il GUID dell'area di lavoro (del gruppo) di Power BI. È possibile ottenere queste informazioni dall'URL di accesso al servizio Power BI o usando Powershell.
 
 URL <br>
 
@@ -268,11 +265,23 @@ Report report = reports.Value.FirstOrDefault();
 ```
 
 ### <a name="create-the-embed-token"></a>Creare il token di incorporamento
+Generare un token di incorporamento che possa essere usato dall'API JavaScript. Esistono due tipi di API. Il primo gruppo contiene cinque API, ognuna delle quali genera un token di incorporamento per un elemento specifico. Il secondo gruppo, che contiene una sola API, genera un token che può essere usato per incorporare più elementi.
 
-Generare un token di incorporamento che possa essere usato dall'API JavaScript. Il token di incorporamento è specifico per l'elemento da incorporare. Ogni volta che si incorpora una parte di contenuto di Power BI, è pertanto necessario creare un nuovo token di incorporamento specifico. Per altre informazioni, incluso il valore **accessLevel** da usare, vedere [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx) (API GenerateToken).
+**API per la generazione di un token di incorporamento per un elemento specifico**
 
-*Un esempio di come creare un token di incorporamento per un report da incorporare, che si tratti di un report, dashboard o riquadro, è disponibile all'interno del file Services\EmbedService.cs nell'[applicazione di esempio](https://github.com/Microsoft/PowerBI-Developer-Samples).*
+Il token di incorporamento creato con queste API è specifico per l'elemento da incorporare. Ogni volta che si incorpora un elemento di Power BI (ad esempio un report, un dashboard o un riquadro) con queste API, è necessario creare un nuovo token di incorporamento per l'elemento.
+* [GenerateTokenInGroup per i dashboard](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [GenerateTokenInGroup per i set di dati](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [GenerateTokenForCreateInGroup per i report](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [GenerateTokenInGroup per i report](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [GenerateTokenInGroup per i riquadri](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
+Esempi di creazione di un token di incorporamento per un report, un dashboard o un riquadro sono disponibili nei file seguenti dell'[applicazione di esempio](https://github.com/Microsoft/PowerBI-Developer-Samples).
+* Services\EmbedService.cs
+* Models\EmbedConfig.cs
+* Models\TileEmbedConfig.cs
+
+Di seguito è riportato un esempio di codice per l'uso dell'API del token di incorporamento GenerateTokenInGroup per i report.
 ```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
@@ -290,7 +299,55 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-Viene creata una classe per **EmbedConfig** e **TileEmbedConfig**. Un esempio è disponibile nel file **Models\EmbedConfig.cs** e nel file **Models\TileEmbedConfig.cs**.
+**API per la generazione di un token di incorporamento per più elementi**<a id="multiEmbedToken"></a>
+
+L'API di incorporamento [GenerateToken](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) genera un token che può essere usato per incorporare più elementi.
+
+Può anche essere usato per selezionare in modo dinamico un set di dati durante l'incorporamento di un report. Per altre informazioni su questo uso dell'API, vedere il [binding dinamico](embed-dynamic-binding.md).
+
+
+Di seguito è riportato un esempio di uso di questa API.
+ 
+```csharp
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+var reports = new List<GenerateTokenRequestV2Report>()
+{ 
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = false,
+        Id = report1.Id
+    },
+    new GenerateTokenRequestV2Report()
+    {
+        AllowEdit = true,
+        Id = report2.Id
+    }
+};
+
+var datasets= new List<GenerateTokenRequestV2Dataset>()
+{
+    new GenerateTokenRequestV2Dataset(dataset1.Id),
+    new GenerateTokenRequestV2Dataset(dataset2.Id),
+    new GenerateTokenRequestV2Dataset(dataset3.Id),
+};
+
+var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
+{
+    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
+    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
+};
+
+var request = new GenerateTokenRequestV2()
+{
+    Datasets = datasetsRequestDetails ?? null,
+    Reports = reportsRequestDetails,
+    TargetWorkspaces = targetWSRequestdetials ?? null,
+};
+
+var token = client.GetClient().EmbedToken.GenerateToken(request);
+```
 
 ### <a name="load-an-item-using-javascript"></a>Caricare un elemento con JavaScript
 
@@ -345,35 +402,40 @@ Segue un esempio che usa un modello **EmbedConfig** e un modello **TileEmbedConf
 
 ## <a name="move-to-production"></a>Passare alla produzione
 
-Dopo aver terminato lo sviluppo dell'applicazione, è necessario eseguire il backup dell'area di lavoro dell'app con una capacità dedicata. 
+Lo sviluppo dell'applicazione è terminato. È ora necessario eseguire il backup dell'area di lavoro con una capacità dedicata. 
 
 > [!Important]
-> La capacità dedicata è necessaria per passare alla produzione.
+> La capacità dedicata è necessaria per passare alla produzione. Tutte le aree di lavoro (quelle contenenti i report o i dashboard e quelle contenenti il set di dati) devono essere assegnate a una capacità.
 
 ### <a name="create-a-dedicated-capacity"></a>Creare una capacità dedicata
 
-Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata destinata ai clienti. È possibile acquistare una capacità dedicata all'interno del [portale di Microsoft Azure](https://portal.azure.com). Per informazioni dettagliate su come creare una capacità per Power BI Embedded, vedere [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Creare capacità per Power BI Embedded nel portale di Azure).
+Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata destinata ai clienti. È possibile scegliere tra due tipi di capacità:
+* **Power BI Premium**: sottoscrizione di Office 356 a livello di tenant disponibile in due famiglie di SKU, *EM* e *P*. Quando si incorpora contenuto di Power BI, questa soluzione viene definita *incorporamento di Power BI*. Per altre informazioni su questa sottoscrizione, vedere [Che cos'è Power BI Premium?](../service-premium-what-is.md)
+* **Azure Power BI Embedded**: è possibile acquistare una capacità dedicata dal [portale di Microsoft Azure](https://portal.azure.com). Questa sottoscrizione usa gli SKU *A*. Per informazioni dettagliate su come creare una capacità per Power BI Embedded, vedere [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Creare capacità per Power BI Embedded nel portale di Azure).
+> [!NOTE]
+> Con gli SKU A non è possibile accedere al contenuto di Power BI con una licenza di Power BI gratuita.
 
-Usare la tabella seguente per individuare la capacità di Power BI Embedded più adatta alle proprie esigenze.
+La tabella seguente descrive le risorse e i limiti di ogni SKU. Per determinare la capacità più adatta alle proprie esigenze, vedere la tabella [Quale SKU devo acquistare per il mio scenario](https://docs.microsoft.com/power-bi/developer/embedded-faq#power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario).
 
-| Nodo della capacità | Totale core<br/>*(Back-end + front-end)* | Core di back-end | Core di front-end | Limiti di connessione dinamica/DirectQuery|
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 vCore |0,5 core, 3 GB RAM |0,5 core |0-5 al secondo |
-| A2 |2 vCore |1 core, 5 GB RAM |1 core | 10 al secondo |
-| A3 |4 vCore |2 core, 10 GB RAM |2 core | 15 al secondo |
-| A4 |8 vCore |4 core, 25 GB RAM |4 core |30 al secondo |
-| A5 |16 vCore |8 core, 50 GB RAM |8 core |60 al secondo |
-| A6 |32 vCore |16 core, 100 GB RAM |16 core |120 al secondo |
+| Nodi delle capacità | Totale vCore | vCore back-end | RAM (GB) | vCore front-end | Connessione dinamica/DirectQuery (al secondo) | Parallelismo di aggiornamento dei modelli |
+| --- | --- | --- | --- | --- | --- | --- |
+| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
+| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| | | | | | | |
 
-**_Con gli SKU A, non è possibile accedere al contenuto di Power BI con una licenza di Power BI gratuita._**
+### <a name="development-testing"></a>Test dello sviluppo
 
 I token di incorporamento con licenza Pro sono destinati al test dello sviluppo, pertanto il numero di token di incorporamento che un account master Power BI o un'entità servizio può generare è limitato. È richiesta una capacità dedicata per l'incorporamento in un ambiente di produzione. Con una capacità dedicata è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale. La quantità di utilizzo è calcolata per ogni account master.
 
 Per altre informazioni, vedere [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (White paper sulla pianificazione della capacità di analisi incorporata).
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro per le app a una capacità dedicata
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro a una capacità dedicata
 
-Dopo aver creato una capacità dedicata, è possibile assegnare l'area di lavoro dell'app alla capacità dedicata.
+Dopo aver creato una capacità dedicata, è possibile assegnare a questa l'area di lavoro.
 
 Per assegnare una capacità dedicata a un'area di lavoro con un'[entità servizio](embed-service-principal.md), usare l'[API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Quando si usano le API REST di Power BI, assicurarsi di usare l'[ID oggetto dell'entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 
@@ -387,9 +449,9 @@ Seguire questa procedura per assegnare una capacità dedicata a un'area di lavor
 
     ![Assegnare la capacità dedicata](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. Dopo aver selezionato **Salva** viene visualizzato un **rombo** accanto al nome dell'area di lavoro dell'app.
+3. Dopo aver selezionato **Salva** è possibile vedere l'icona di un **diamante** accanto al nome dell'area di lavoro.
 
-    ![area di lavoro dell'app assegnata a una capacità](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    ![Area di lavoro collegata a una capacità](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

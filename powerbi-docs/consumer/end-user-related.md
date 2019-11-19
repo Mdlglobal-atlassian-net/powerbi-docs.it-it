@@ -12,14 +12,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100281"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019456"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Il riquadro **Contenuto correlato** mostra come è interconnesso il contenuto del servizio Power BI: dashboard, report e set di dati. Il riquadro **Contenuto correlato** è anche un punto di partenza per eseguire azioni. Da qui è possibile eseguire operazioni come aprire un dashboard, aprire un report, generare informazioni dettagliate, analizzare i dati in Excel e altro ancora.  
 
 In Power BI, i report sono basati sui set di dati, gli oggetti visivi del report vengono aggiunti ai dashboard e gli oggetti visivi del dashboard si collegano ai report. Ma come si fa a sapere quali dashboard ospitano gli oggetti visivi provenienti dal report Marketing? E come si individuano quei dashboard? Il dashboard Procurement usa oggetti visivi da più di un set di dati? In questo caso, come sono denominati e come è possibile aprirli e modificarli? Il set di dati HR è effettivamente usato in report o dashboard? Oppure può essere spostato senza causare collegamenti interrotti? Domande come queste trovano tutte una risposta nel riquadro **Contenuto correlato**.  Non solo il riquadro mostra il contenuto correlato, ma consente anche di intervenire sul contenuto e spostarsi facilmente tra il contenuto correlato.
@@ -36,7 +39,7 @@ Questo video illustra come visualizzare il contenuto correlato di un dashboard. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-Con un dashboard o un report aperto, selezionare i puntini di sospensione (...) nella barra dei menu e scegliere **Visualizza elementi correlati** dall'elenco a discesa.
+Con un dashboard o un report aperto, selezionare **Altre opzioni** (...) nella barra dei menu e scegliere **Visualizza elementi correlati** nell'elenco a discesa.
 
 ![Menu a discesa puntini di sospensione](./media/end-user-related/power-bi-dropdown.png)
 

@@ -1,21 +1,20 @@
 ---
 title: Power BI per responsabili della progettazione di report
 description: Ci si connette ai dati, si progettano query e si creano report e dashboard in Power BI? L'utente è un amministratore di Power BI?
-author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 10/07/2019
 ms.author: maggies
+author: maggiesMSFT
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: cb80bad73a615621ad8a2459e71607900f8d493d
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239887"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128328"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI per responsabili della progettazione di report
 
@@ -37,7 +36,7 @@ L'utente è più di un semplice consumer di Power BI? Di nuovo benvenuti. È con
                                           <h3>Introduzione alla creazione con Power BI</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Introduzione a Power BI Desktop</a><br/> 
-                                               <a href="power-bi-overview.md">Introduzione al servizio Power BI</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Introduzione al servizio Power BI</a><br/> 
                                                <a href="report-server/get-started.md">Che cos'è Server di report di Power BI?</a>
                                     </div> 
                               </div> 
@@ -156,7 +155,7 @@ L'utente è più di un semplice consumer di Power BI? Di nuovo benvenuti. È con
                                           <h3>Condividere il lavoro</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">Modalità consigliate per la collaborazione e la condivisione</a><br/>
-                                                <a href="service-create-workspaces.md">Aree di lavoro per le app nel servizio Power BI</a> 
+                                                <a href="service-create-workspaces.md">Aree di lavoro nel servizio Power BI</a> 
                                     </div> 
                               </div> 
                         </div> 

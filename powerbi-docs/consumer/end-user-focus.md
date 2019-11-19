@@ -11,14 +11,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327788"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019812"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Visualizzare il contenuto in modo più dettagliato: modalità messa a fuoco e modalità schermo intero
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -97,11 +99,11 @@ Esistono due modi per aprire la modalità messa a fuoco: uno per i riquadri del 
 
 1. Aprire un dashboard nel servizio Power BI.
 
-2. Passare il puntatore del mouse su un riquadro del dashboard o un oggetto visivo del report, selezionare i puntini di sospensione (...) e scegliere **Apri in modalità messa a fuoco**.
+2. Passare il puntatore del mouse su un riquadro del dashboard o un oggetto visivo del report, selezionare **Altre opzioni** (...) e scegliere **Apri in modalità messa a fuoco**.
 
     ![Menu di puntini di sospensione per il riquadro](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. Il riquadro si apre e riempie l'intera area di disegno report. Si noti che è ancora presente un riquadro **Filtri** che è possibile usare per interagire con l'oggetto visivo. Il riquadro **Filtri** può essere compresso. 
+2. Il riquadro si apre e riempie l'intera area di disegno report. Si noti che è ancora presente un riquadro **Filtri** che è possibile usare per interagire con l'oggetto visivo. Il riquadro **Filtri** può essere compresso.
 
    ![Il riquadro riempie l'area di disegno del report](media/end-user-focus/power-bi-focus-filter.png)
 

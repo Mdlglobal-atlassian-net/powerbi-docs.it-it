@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 5009e186c801f71c9c1a4b8e156dfefaaeac79f1
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391463"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020643"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Connettersi agli esempi nel servizio Power BI
 
@@ -91,7 +91,7 @@ Ora è possibile esaminare il dashboard, il set di dati e il report autonomament
      
    ![Nuovo report](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. Un altro modo per esplorare il set di dati consiste nell'eseguire [Informazioni rapide](consumer/end-user-insights.md). Selezionare i puntini di sospensione (...) e quindi scegliere **Informazioni rapide**. Quando le informazioni sono pronte, selezionare **Visualizza informazioni dettagliate**.
+1. Un altro modo per esplorare il set di dati consiste nell'eseguire [Informazioni rapide](consumer/end-user-insights.md). Selezionare **Altre opzioni** (...) e quindi scegliere **Ottieni informazioni rapide**. Quando le informazioni sono pronte, selezionare **Visualizza informazioni dettagliate**.
      
     ![Report con informazioni dettagliate](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 

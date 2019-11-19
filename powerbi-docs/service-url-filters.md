@@ -3,20 +3,19 @@ title: Filtrare un report usando i parametri della stringa di query nell'URL
 description: Filtrare un report usando i parametri della stringa di query dell'URL, filtrando anche in base a più campi.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623901"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876916"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -153,13 +152,13 @@ Gli spazi e i caratteri speciali richiedono alcuni elementi di formattazione agg
 |---------|---------|---------|
 |**Nome tabella**     | Lo spazio è 0x20        |  Nome_x0020_tabella       |
 |**Colonna**@**Numero**     |   @ è 0x40     |  Colonna_x0040_Numero       |
-|**[Colonna]**     |  [0x0058] è 0x0050       |  _x0058_Column_x0050_       |
+|**[Colonna]**     |  [ è 0x005B ] è 0x005D       |  _x005B_Column_x005D_       |
 |**Colonna+Più**     | + è 0x2B        |  Colonna_x002B_Più       |
 
 Tabella_x0020_Nome/Colonna_x002B_Più eq 3 ![oggetto visivo tabella che mostra caratteri speciali](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Tabella_x0020_Speciale/ _ eq '[C]' ![oggetto visivo tabella che mostra caratteri speciali](media/service-url-filters/power-bi-special-characters2.png)
+Tabella_x0020_Speciale/_x005B_Colonna_x0020_ParentesiQuadre_x005D_ eq '[C]' ![oggetto visivo tabella che mostra caratteri speciali](media/service-url-filters/power-bi-special-characters2.png)
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>Usare DAX per filtrare in base a più valori
 
@@ -195,4 +194,4 @@ Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della 
 [Aggiungere una visualizzazione a un dashboard](service-dashboard-pin-tile-from-report.md)  
 [Iscriversi per una versione di valutazione gratuita](https://powerbi.microsoft.com/get-started/)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

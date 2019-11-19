@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 24dbce4d825e51d40fc9a42384561d4608f18035
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589498"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019907"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modalità di espansione in un oggetto visivo in Power BI
 
@@ -128,7 +128,7 @@ La visualizzazione di una mappa ad albero che mostra solo un codice postale non 
 ## <a name="show-the-data-as-you-drill"></a>Visualizzare i dati durante il drill
 Usare **Mostra i dati** per vedere che cosa accade in background. Ogni volta che si esegue il drill o l'espansione, **Mostra i dati** visualizza i dati che vengono usati per compilare l'oggetto visivo. Questo può essere utile per comprendere come le gerarchie, il drill e l'espansione interagiscono per compilare gli oggetti visivi. 
 
-Nell'angolo in alto a destra selezionare i puntini di sospensione (...) e quindi selezionare **Mostra i dati**. 
+Nell'angolo in alto a destra selezionare **Altre opzioni** (...) e quindi selezionare **Mostra i dati**. 
 
 ![Screenshot del menu dei puntini di sospensione.](./media/end-user-drill/power-bi-ellipses.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839745"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431684"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI
 
@@ -44,7 +44,7 @@ Questi sono i prerequisiti per la creazione del report impaginato:
 Questi sono i prerequisiti per il caricamento del report impaginato nel servizio Power BI:
 
 - È necessaria una [licenza di Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- È necessaria un'area di lavoro per le app nel servizio in una [capacità Power BI Premium](service-premium-what-is.md). È contraddistinta da un'icona a forma di diamante ![icona a forma di diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) accanto al nome dell'area di lavoro.
+- È necessaria un'area di lavoro nel servizio in una [capacità Power BI Premium](service-premium-what-is.md). È contraddistinta da un'icona a forma di diamante ![icona a forma di diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) accanto al nome dell'area di lavoro.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Creare la matrice con una procedura guidata
   
@@ -58,7 +58,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
   
 4.  Nella pagina **Scegliere un set di dati** selezionare **Creare un set di dati** > **Avanti**.  
 
-    ![Creare un set di dati](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
+    ![Crea un set di dati](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
 5.  Nella pagina **Scegliere una connessione a un'origine dati** selezionare **Nuova**. 
 
@@ -107,7 +107,7 @@ Questi sono i prerequisiti per il caricamento del report impaginato nel servizio
 10. Nella pagina **Progetta query** espandere SalesLT, espandere Tabelle e selezionare queste tabelle:
 
     - Indirizzo
-    - Customer
+    - Cliente
     - Product
     - ProductCategory
     - SalesOrderDetail
@@ -287,7 +287,7 @@ Si vedrà ora come apportare un altro miglioramento della formattazione prima di
 
 Ora che è stato creato il report impaginato, è possibile caricarlo nel servizio Power BI.
 
-1. Nel servizio Power BI (http://app.powerbi.com) nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro** > **Crea area di lavoro per le app**.
+1. Nel riquadro di spostamento a sinistra del servizio Power BI (http://app.powerbi.com) selezionare **Aree di lavoro** > **Crea area di lavoro**.
 
 2. Assegnare all'area di lavoro il nome **Azure AW** o un altro nome univoco. Per il momento si è l'unico membro. 
 

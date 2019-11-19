@@ -2,67 +2,72 @@
 title: Parte 1, Aggiungere visualizzazioni a un report di Power BI
 description: Parte 1, Aggiungere visualizzazioni a un report di Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c5838d12351c06d0a76a975c9c473b1c00856d97
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: d68abc7b4509595d4dfa3071dc56673e6af89e4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299291"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871058"
 ---
 # <a name="part-1-add-visualizations-to-a-power-bi-report"></a>Parte 1, Aggiungere visualizzazioni a un report di Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Questo articolo offre un'introduzione rapida alla creazione di una visualizzazione in un report. Le informazioni si applicano sia al servizio Power BI che a Power BI Desktop. Per contenuti più avanzati, [vedere la parte 2](power-bi-report-add-visualizations-ii.md) di questa serie. Nel video seguente Amanda illustra alcuni modi per creare, modificare e formattare gli oggetti visivi nell'area di disegno report. Sarà quindi possibile provare a usare l'[esempio di analisi di vendite e marketing](../sample-datasets.md) per creare il proprio report.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-## <a name="open-a-report-and-add-a-new-page"></a>Aprire un report e aggiungere una nuova pagina
+## <a name="prerequisites"></a>Prerequisiti
 
-1. Aprire un [report in Visualizzazione di modifica](../service-interact-with-a-report-in-editing-view.md).
+Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
 
-    Questa esercitazione usa l'[esempio di analisi di vendite e marketing](../sample-datasets.md).
+1. Nella sezione in alto a sinistra della barra dei menu di Power BI Desktop selezionare **File** > **Apri**.
+   
+2. Trovare la copia del **file Sales and Marketing Sample PBIX**
 
-1. Se il riquadro **Campi** non è visibile, selezionare l'icona a forma di freccia per aprirlo.
+1. Aprire il **file Sales and Marketing Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-   ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-
-1. Aggiungere una pagina vuota al report.
+1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
 ## <a name="add-visualizations-to-the-report"></a>Aggiungere visualizzazioni al report
 
 1. Creare una visualizzazione selezionando un campo dal riquadro **Campi**.
 
-    Iniziare con un campo numerico, ad esempio **SalesFact** > **Sales $** . Power BI crea un istogramma con una sola colonna.
+    Iniziare con un campo numerico, ad esempio **Sales** > **TotalSales**. Power BI crea un istogramma con una sola colonna.
 
-    ![Screenshot di un istogramma con una singola colonna.](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
+    ![Screenshot di un istogramma con una singola colonna.](media/power-bi-report-add-visualizations-i/power-bi-column-chart.png)
 
     In alternativa, iniziare con un campo categoria, ad esempio **Name** o **Product**. Power BI crea una tabella e aggiunge tale campo nell'area **Valori**.
 
-    ![GIF di un utente che selezione Product e poi la categoria per creare una tabella.](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
+    ![Screenshot di una tabella con quattro categorie](media/power-bi-report-add-visualizations-i/power-bi-product.png)
 
     Oppure, iniziare con un campo geografia, ad esempio **Geo** > **City**. Power BI e Bing Mappe creano una visualizzazione mappa.
 
-    ![Screenshot di una visualizzazione mappa.](media/power-bi-report-add-visualizations-i/power-bi-map.png)
+    ![Screenshot di una visualizzazione mappa.](media/power-bi-report-add-visualizations-i/power-bi-maps.png)
 
-1. Creare una visualizzazione e quindi modificarne il tipo. Selezionare **Product** > **Category** e quindi **Product** > **Count of Product** per aggiungerli entrambi all'area **Valori**.
+## <a name="change-the-type-of-visualization"></a>Modificare il tipo di visualizzazione
 
-   ![Screenshot del riquadro Campi con i valori evidenziati.](media/power-bi-report-add-visualizations-i/part1table1.png)
+ Creare una visualizzazione e quindi modificarne il tipo. 
+ 
+ 1. Selezionare **Product** > **Category** e quindi **Product** > **Count of Product** per aggiungerli entrambi all'area **Valori**.
+
+    ![Screenshot del riquadro Campi con i valori evidenziati.](media/power-bi-report-add-visualizations-i/power-bi-create-visual.png)
 
 1. Cambiare la visualizzazione in un istogramma selezionando l'icona **Istogramma a colonne in pila**.
 
-   ![Screenshot del riquadro Visualizzazioni con l'icona Istogramma a colonne in pila evidenziata.](media/power-bi-report-add-visualizations-i/part1converttocolumn.png)
+   ![Screenshot del riquadro Visualizzazioni con l'icona Istogramma a colonne in pila evidenziata.](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Quando si creano visualizzazioni nel report, è possibile [aggiungerle al dashboard](../service-dashboard-pin-tile-from-report.md). Per aggiungere la visualizzazione, selezionare l'icona Aggiungi ![Screenshot dell'icona Aggiungi](media/power-bi-report-add-visualizations-i/pinnooutline.png).
+1. Per modificare la modalità di ordinamento dell'oggetto visivo, selezionare **Altre azioni** (...).  Usare le opzioni di ordinamento per modificare la direzione di questo (crescente o decrescente) e cambiare la colonna usata per l'ordinamento (**Ordina per**).
 
-   ![Screenshot di una visualizzazione Istogramma con l'icona Aggiungi evidenziata.](media/power-bi-report-add-visualizations-i/part1pin1.png)
+   ![Screenshot dell'elenco a discesa Altre azioni.](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -72,6 +77,3 @@ Questo articolo offre un'introduzione rapida alla creazione di una visualizzazio
 
 * [Interagire con le visualizzazioni](../consumer/end-user-reading-view.md) nel report.
 
-* [Eseguire altre operazioni con le visualizzazioni](power-bi-report-visualizations.md).
-
-* [Salvare il report](../service-report-save.md).

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: e3e360a47d258c6103377fa26a16c10eb2c8d4d5
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207588"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019620"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualizzare informazioni dettagliate sui dati per i riquadri del dashboard con Power BI
 Ogni [riquadro](end-user-tiles.md) di oggetto visivo nel dashboard è una porta di accesso per l'esplorazione dei dati. Quando si seleziona un riquadro, viene aperto un report o [viene aperto Domande e risposte](end-user-q-and-a.md) in cui è possibile filtrare e ordinare il set di dati del report oppure esaminare i dati in maggiore dettaglio. E quando si eseguono informazioni dettagliate, Power BI esegue automaticamente l'esplorazione dei dati.
@@ -31,7 +31,7 @@ La funzionalità Informazioni dettagliate si basa su un [set di algoritmi analit
 Quando si eseguono informazioni dettagliate su un riquadro del dashboard, Power BI cerca solo i dati usati per creare tale riquadro specifico. 
 
 1. [Aprire un dashboard](end-user-dashboards.md).
-2. Passare il mouse su un riquadro. Selezionare i puntini di sospensione (...) e scegliere **Visualizza informazioni dettagliate**. 
+2. Passare il mouse su un riquadro. Selezionare **Altre opzioni** (...) e scegliere **Visualizza informazioni dettagliate**. 
 
     ![Menu puntini di sospensione](./media/end-user-insights/power-bi-hovers.png)
 

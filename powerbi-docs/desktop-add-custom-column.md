@@ -7,66 +7,93 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 25295447736ddb674d23a7b4ac34aa04f44887ba
+ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408566"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72922520"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aggiungere una colonna personalizzata in Power BI Desktop
-È possibile aggiungere facilmente una nuova colonna dei dati personalizzata al modello usando l'**Editor di query** in **Power BI Desktop**. È possibile creare e rinominare la colonna personalizzata usando semplici pulsanti per creare [formule M](https://msdn.microsoft.com/library/mt270235.aspx) che definiscono la colonna personalizzata. La formula M ha un [set di contenuti di riferimento completo per la funzione](https://msdn.microsoft.com/library/mt779182.aspx). 
 
-![](media/desktop-add-custom-column/add-custom-column_01.png)
+In Power BI Desktop è possibile aggiungere facilmente una nuova colonna di dati personalizzata al modello usando l'editor di query. Con l'editor di query è possibile creare e rinominare la colonna personalizzata per creare [query di formula Power Query M](https://docs.microsoft.com/en-us/powerquery-m/quick-tour-of-the-power-query-m-formula-language) e definire la colonna personalizzata. Le query di formula Power Query M hanno un [set di contenuti di riferimento completo per le funzioni](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
 
-La creazione di una colonna personalizzata è un altro **Passaggio applicato** alla query create in **Editor di query**, vale a dire che può essere modificata, spostata in avanti o indietro o modificata in qualsiasi momento.
+Quando si crea una colonna personalizzata nell'editor di query, Power BI Desktop la aggiunge come **passaggio applicato** in **Impostazioni query** per la query. La colonna può essere cambiata, spostata o modificata in qualsiasi momento.
 
-## <a name="use-query-editor-to-add-a-new-custom-column"></a>Usare l'Editor di query per aggiungere una nuova colonna personalizzata
-Per creare una nuova colonna personalizzata, avviare l'**Editor di query**. A tale scopo, selezionare **Modifica query** nella barra multifunzione **Home** in **Power BI Desktop**.
+![Pagina Aggiungi colonna personalizzata](media/desktop-add-custom-column/add-custom-column_01.png)
 
-![](media/desktop-add-custom-column/add-column-from-example_02.png)
+## <a name="use-query-editor-to-add-a-custom-column"></a>Usare l'editor di query per aggiungere una colonna personalizzata
 
-Dopo aver avviato l'**Editor di query** e caricato alcuni dati, sarà possibile aggiungere una colonna personalizzata selezionando la scheda **Aggiungi colonna** sulla barra multifunzione, quindi selezionando **Colonna personalizzata**.
+Per iniziare a creare una colonna personalizzata, seguire questa procedura:
 
-![](media/desktop-add-custom-column/add-custom-column_02.png)
+1. Avviare Power BI Desktop e caricare alcuni dati.
 
-Verrà visualizzata la finestra **Aggiungi colonna personalizzata**, descritta nella sezione seguente.
+2. Nella scheda **Home** sulla barra multifunzione selezionare **Modifica query**e quindi selezionare **Modifica query** dal menu.
+
+   ![Selezionare Modifica query](media/desktop-add-custom-column/add-column-from-example_02.png)
+
+   Verrà visualizzata la finestra **Editor di query**. 
+
+2. Nella scheda **Aggiungi colonna** sulla barra multifunzione selezionare **Colonna personalizzata**.
+
+   ![Selezionare Colonna personalizzata](media/desktop-add-custom-column/add-custom-column_02.png)
+
+   Verrà visualizzata la finestra **Aggiungi colonna personalizzata**.
 
 ## <a name="the-add-custom-column-window"></a>Finestra Aggiungi colonna personalizzata
-Nella finestra **Aggiungi colonna personalizzata** sono visibili l'elenco di campi disponibili nel riquadro di destra, il nome della colonna personalizzata nella parte superiore (è possibile rinominarla digitando un nuovo nome nella casella di testo) e la [formula **M**](https://msdn.microsoft.com/library/mt779182.aspx) creata (o scritta) in base all'inserimento di campi da destra, l'aggiunta di operatori e altrimenti la compilazione della formula sulla quale viene definita la nuova colonna personalizzata. 
 
-![](media/desktop-add-custom-column/add-custom-column_03.png)
+La finestra **Aggiungi colonna personalizzata** ha le funzionalità seguenti: 
+- Un elenco di colonne disponibili nell'elenco **Colonne disponibili** a destra.
+
+- Il nome iniziale della colonna personalizzata nella casella **Nuovo nome colonna**. È possibile rinominare la colonna.
+
+- [Query di formula PowerQuery M](https://docs.microsoft.com/en-us/powerquery-m/power-query-m-function-reference) nella casella **Formula colonna personalizzata**. Per creare queste query, creare la formula in base alla quale deve essere definita la nuova colonna personalizzata. 
+
+   ![Pagina Aggiungi colonna personalizzata](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Creare formule per la colonna personalizzata
-È possibile selezionare un campo dall'elenco **Colonne disponibili:** a destra e selezionare **<< Inserisci** per aggiungerlo alla formula della colonna personalizzata. È anche possibile fare semplicemente doppio clic su una colonna nell'elenco per aggiungerla.
 
-Mentre si digita la formula e si compila la colonna, nella parte inferiore della finestra verrà visualizzato un indicatore che informa in tempo reale (durante la digitazione) se vengono rilevati errori di sintassi. Se la sintassi è valida, verrà visualizzato un segno di spunta verde.
+1. Selezionare una colonna dall'elenco **Colonne disponibili** a destra e quindi selezionare **Inserisci** sotto l'elenco per aggiungerla alla formula colonna personalizzata. Per aggiungere una colonna è anche possibile fare doppio clic sulla colonna nell'elenco.
 
-![](media/desktop-add-custom-column/add-custom-column_04.png)
+2. Man mano che si immette la formula e si crea la colonna, si noti l'indicatore nella parte inferiore della finestra **Aggiungi colonna personalizzata**. 
 
-Se invece è presente un errore qualsiasi nella sintassi, verranno visualizzati un'icona di avviso di colore giallo, con l'errore rilevato, e un collegamento che posiziona il cursore (nella formula) sul punto in cui è stato rilevato l'errore.
+   Se non sono presenti errori, viene visualizzato un segno di spunta verde e il messaggio *Non sono stati rilevati errori di sintassi*.
 
-![](media/desktop-add-custom-column/add-custom-column_05.png)
+   ![Verifica della sintassi con esito positivo nella pagina Aggiungi colonna personalizzata](media/desktop-add-custom-column/add-custom-column_04.png)
 
-Quando si seleziona **OK**, la colonna personalizzata viene aggiunta al modello e il passaggio **Aggiunta colonna personalizzata** viene aggiunto ai **Passaggi applicati** della query.
+   Se è presente un errore di sintassi, vengono visualizzati un'icona di avviso gialla e un collegamento alla posizione dell'errore nella formula.
 
-![](media/desktop-add-custom-column/add-custom-column_06.png)
+   ![Errore nella pagina Aggiungi colonna personalizzata](media/desktop-add-custom-column/add-custom-column_05.png)
 
-Se si fa doppio clic sul passaggio **Aggiunta colonna personalizzata** nel riquadro **Passaggi applicati**, viene nuovamente visualizzata la finestra **Aggiungi colonna personalizzata**, con la formula di colonna personalizzata creato dall'utente già caricata e pronta per essere modificata, se necessario.
+3. Selezionare **OK**. 
 
-## <a name="using-the-advanced-editor-for-custom-columns"></a>Uso dell'Editor avanzato per le colonne personalizzate
-È anche possibile creare una colonna personalizzata (e modificare qualsiasi passaggio della query, d'altra parte) usando l'**Editor avanzato**. Nell'**Editor di query** selezionare la scheda **Visualizza**, quindi selezionare **Editor avanzato** per visualizzare l'**Editor avanzato**.
+   Power BI Desktop aggiunge la colonna personalizzata al modello e il passaggio **Aggiunta colonna personalizzata** all'elenco **Passaggi applicati** in **Impostazioni query**.
 
-![](media/desktop-add-custom-column/add-custom-column_07.png)
+   ![Colonna personalizzata aggiunta a Impostazioni query](media/desktop-add-custom-column/add-custom-column_06.png)
 
-L'**Editor avanzato** offre il controllo completo sulla query.
+4. Per modificare la colonna personalizzata, fare doppio clic sul passaggio **Aggiunta colonna personalizzata** nell'elenco **Passaggi applicati**. 
 
+   Verrà visualizzata la finestra **Aggiungi colonna personalizzata** con la formula della colonna personalizzata creata.
+
+## <a name="use-the-advanced-editor-for-custom-columns"></a>Usare l'editor avanzato per le colonne personalizzate
+
+Dopo aver creato la query, è anche possibile modificare qualsiasi passaggio di questa tramite l'**editor avanzato**. A tale scopo, seguire questa procedura:
+
+1. Nella finestra **Editor di query** selezionare la scheda **Visualizza** sulla barra multifunzione. 
+
+2. Selezionare **Editor avanzato**.
+
+   Verrà visualizzata la pagina **Editor avanzato**, che consente il controllo completo della query. 
+
+   ![Pagina Editor avanzato](media/desktop-add-custom-column/add-custom-column_07.png)
+
+   
 ## <a name="next-steps"></a>Passaggi successivi
-Sono disponibili altri modi per creare una colonna personalizzata, inclusa la creazione di una colonna in base ad esempi forniti dall'utente all'**Editor di query**. Per altre informazioni sulla creazione di colonne personalizzate da esempi, vedere l'articolo seguente:
 
-* [Aggiungere una colonna da un esempio in Power BI Desktop](desktop-add-column-from-example.md)
-* [Informazioni di riferimento su Power Query M](/powerquery-m/power-query-m-reference)  
+- È possibile creare una colonna personalizzata in altri modi, ad esempio creando una colonna in base ad esempi forniti dall'utente all'editor di query. Per altre informazioni, vedere [Aggiungere una colonna da un esempio in Power BI Desktop](desktop-add-column-from-example.md).
+
+- Per informazioni di riferimento su Power Query M, vedere [Informazioni di riferimento sulle funzioni di Power Query M](/powerquery-m/power-query-m-function-reference).
 

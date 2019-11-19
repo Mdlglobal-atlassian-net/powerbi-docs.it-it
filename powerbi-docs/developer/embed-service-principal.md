@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: d8e1edc7d9d474911e7e7a58c2c7da728358845c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073090"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429260"
 ---
 # <a name="service-principal-with-power-bi"></a>Entità servizio con Power BI
 
@@ -58,8 +58,8 @@ Esistono differenze tra l'uso di un'entità servizio e l'uso di un account maste
 |------------------------------------------------------|---------------------|-------------------|
 | Può accedere al servizio Power BI  | Sì | No |
 | Abilitata nel portale di amministrazione di Power BI | No | Sì |
-| [Può essere usata con le aree di lavoro dell'app (v1)](../service-create-workspaces.md) | Sì | No |
-| [Può essere usata con le nuove aree di lavoro dell'app (v2)](../service-create-the-new-workspaces.md) | Sì | Sì |
+| [Funzionamento con le aree di lavoro (v1)](../service-create-workspaces.md) | Sì | No |
+| [Funzionamento con le nuove aree di lavoro (v2)](../service-create-the-new-workspaces.md) | Sì | Sì |
 | Richiede un amministratore dell'area di lavoro se usata con Power BI Embedded | Sì | Sì |
 | Supporta le API REST di Power BI | Sì | Sì |
 | Richiede un amministratore globale per la creazione | Sì | No |
@@ -141,7 +141,7 @@ Poiché non è disponibile alcuna funzionalità dell'interfaccia utente per spos
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>Come ottenere l'ID oggetto entità servizio
 
-Per assegnare un'entità servizio a una nuova area di lavoro dell'app, usare le [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Per fare riferimento a un'entità servizio per le operazioni o apportare modifiche, usare l'**ID oggetto entità servizio**, applicando ad esempio un'entità servizio come amministratore a un'area di lavoro.
+Per assegnare un'entità servizio a una nuova area di lavoro, è possibile usare le [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Per fare riferimento a un'entità servizio per le operazioni o apportare modifiche, usare l'**ID oggetto entità servizio**, applicando ad esempio un'entità servizio come amministratore a un'area di lavoro.
 
 Di seguito è riportata la procedura per ottenere l'ID oggetto entità servizio dal portale di Azure.
 
@@ -166,7 +166,7 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-* L'entità servizio funziona solo con [nuove aree di lavoro dell'app](../service-create-the-new-workspaces.md).
+* L'entità servizio funziona solo con le [nuove aree di lavoro](../service-create-the-new-workspaces.md).
 * L'**area di lavoro personale** non è supportata durante l'uso dell'entità servizio.
 * La capacità dedicata è necessaria per passare alla produzione.
 * Non è possibile accedere al portale di Power BI usando l'entità servizio.

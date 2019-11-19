@@ -3,30 +3,29 @@ title: Panoramica delle visualizzazioni dei report nel servizio Power BI e in Po
 description: Panoramica delle visualizzazioni dei report (oggetti visivi) in Microsoft Power BI.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/01/2019
+ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307165"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099084"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizzazioni nei report di Power BI
 
 Le visualizzazioni, note anche come oggetti visivi, mostrano informazioni dettagliate individuate nei dati. Un report di Power BI può includere una singola pagina con un oggetto visivo oppure più pagine con molti oggetti visivi. Nel servizio Power BI gli oggetti visivi possono essere [aggiunti dai report ai dashboard](../service-dashboard-pin-tile-from-report.md).
 
-È importante distinguere tra *designer* di report e *consumer* di report.  Una persona che crea o modifica un report è un designer.  I designer hanno autorizzazioni di modifica per il report e per il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI è quindi possibile aprire il set di dati o il report nell'editor di report in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../consumer/end-user-shared-with-me.md), l'utente è un **consumer** del report. Sarà possibile visualizzare e interagire con il report e con gli oggetti visivi di questo, ma non sarà possibile salvare modifiche rilevanti.
+È importante distinguere tra *designer* di report e *consumer* di report.  Una persona che crea o modifica un report è un designer.  I designer hanno autorizzazioni di modifica per il report e per il set di dati sottostante. In Power BI Desktop queste autorizzazioni consentono di aprire il set di dati nella vista Dati e creare oggetti visivi nella visualizzazione Report. Nel servizio Power BI è quindi possibile aprire il set di dati o il report nell'editor di report in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Se un report o un dashboard è stato [condiviso con l'utente](../consumer/end-user-shared-with-me.md), l'utente è un *consumer* del report. Sarà possibile visualizzare e interagire con il report e con gli oggetti visivi di questo, ma non sarà possibile eseguire tante modifiche quante ne può eseguire un *designer*.
 
-Sono disponibili molti tipi diversi di oggetti visivi, direttamente dal riquadro VISUALIZZAZIONI di Power BI.
+Sono disponibili molti tipi diversi di oggetti visivi direttamente dal riquadro Visualizzazioni di Power BI.
 
-![](media/power-bi-report-visualizations/power-bi-templates.png)
+![riquadro con icone per ogni tipo di visualizzazione](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Per ampliare le opzioni, visitare il [sito della community di Microsoft AppSource](https://appsource.microsoft.com) per trovare e [scaricare](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [oggetti visivi personalizzati](../developer/visuals/custom-visual-develop-tutorial.md) forniti da Microsoft e dalla community.
 
@@ -49,7 +48,7 @@ Se ci si rende conto di usare lo stesso oggetto visivo personalizzato in molti r
 
 ![Pin to visualization pane (Aggiungi a riquadro delle visualizzazioni)](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-Dopo che è stato aggiunto, un oggetto visivo viene spostato verso l'alto e inserito tra gli altri oggetti visivi predefiniti. Questo oggetto visivo è ora collegato all'account che è stato usato per eseguire l'accesso e verrà incluso automaticamente in tutti i nuovi report creati durante la connessione con questo account. In questo modo è molto facile standardizzare in base a un oggetto visivo specifico senza doverlo aggiungere a ogni report.
+Dopo che è stato aggiunto, un oggetto visivo viene spostato verso l'alto e inserito tra gli altri oggetti visivi predefiniti. Questo oggetto visivo è ora collegato all'account usato per eseguire l'accesso e verrà incluso automaticamente in tutti i nuovi report creati durante la connessione con questo account. In questo modo è molto facile standardizzare in base a un oggetto visivo specifico senza doverlo aggiungere a ogni report.
 
 ![Riquadro delle visualizzazioni personalizzato](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
@@ -71,4 +70,4 @@ Quando si ottiene la visualizzazione desiderata, nel servizio Power BI è possib
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Oggetti visivi personalizzati](../power-bi-custom-visuals.md)
+* [Oggetti visivi personalizzati](../developer/power-bi-custom-visuals.md)

@@ -1,37 +1,39 @@
 ---
 title: Acquistare e assegnare licenze Power BI Pro
-description: Informazioni su come acquistare e assegnare licenze Power BI Pro in modo che gli utenti possano accedere a tutto il contenuto e a tutte le funzionalità del servizio Power BI.
+description: Informazioni su come acquistare e assegnare licenze utente di Power BI Pro in modo che gli utenti possano accedere al contenuto e collaborare con i colleghi nel servizio Power BI.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 09/09/2019
+ms.date: 10/29/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e7cd025388a5ae21b73fe05fca0e1c8433b562d
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 31739cee4371a8991f8c88e6ba67bfb48878a33c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074873"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431403"
 ---
-# <a name="purchase-and-assign-power-bi-pro-licenses"></a>Acquistare e assegnare licenze Power BI Pro
+# <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Acquistare e assegnare licenze utente di Power BI Pro
 
-Power BI Pro è una licenza singola che consente di accedere a tutto il contenuto e a tutte le funzionalità del servizio Power BI, inclusa la possibilità di condividere contenuto e collaborare con altri utenti Pro. Solo gli utenti della versione Pro possono pubblicare contenuti nelle aree di lavoro delle app, condividere i dashboard e sottoscrivere dashboard e report. Per altre informazioni, vedere [Funzionalità di Power BI in base al tipo di licenza](service-features-license-type.md).
+Power BI Pro è una licenza utente singola che consente agli utenti di leggere i report e i dashboard pubblicati da altri utenti nel servizio Power BI e di interagire con essi, nonché di condividere contenuto e collaborare con altri utenti di Power BI Pro. Solo gli utenti con una licenza utente di Power BI Pro possono pubblicare o condividere contenuto con altri utenti o utilizzare contenuto creato da altri utenti, a meno che il contenuto non sia ospitato in una capacità Power BI Premium. Per altre informazioni, vedere [Funzionalità di Power BI in base al tipo di licenza](service-features-license-type.md).
 
-Nella prima parte di questo articolo viene illustrato come acquistare licenze Power BI Pro in Office 365. In seguito vengono descritte le due opzioni disponibili per assegnare le licenze per singoli utenti: Office 365 e Azure (scegliere un'opzione).
+## <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Acquistare e assegnare licenze utente di Power BI Pro
 
-## <a name="prerequisites"></a>Prerequisiti
+Questo articolo spiega come acquistare licenze utente di Power BI Pro nell'interfaccia di amministrazione di Microsoft 365 e quindi illustra due opzioni disponibili per gli amministratori per l'assegnazione di tali licenze a singoli utenti: nell'interfaccia di amministrazione di Microsoft 365 e nel portale di Azure (scegliere un'opzione).
 
-È necessario essere membro del ruolo [**Amministratore globale** o **Amministratore fatturazione**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365.
+### <a name="prerequisites"></a>Prerequisiti
 
-Per assegnare le licenze in Azure, è necessario essere proprietario della sottoscrizione di Azure usata da Power BI per le ricerche di Active Directory.
+Per acquistare e assegnare licenze nell'interfaccia di amministrazione di Microsoft 365, è necessario essere membro del ruolo **[Amministratore globale o Amministratore fatturazione](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)** in Microsoft 365.
 
-## <a name="purchase-licenses-in-office-365"></a>Acquistare licenze in Office 365
+Per assegnare le licenze nel portale di Azure, è necessario essere proprietario della sottoscrizione di Azure usata da Power BI per le ricerche con Azure Active Directory.
 
-Seguire questi passaggi per acquistare licenze di Power BI Pro:
+### <a name="purchase-licenses-in-microsoft-365"></a>Acquistare licenze in Microsoft 365
+
+Seguire questa procedura per acquistare licenze di Power BI Pro nell'interfaccia di amministrazione di Microsoft 365:
 
 1. Aprire l'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
@@ -67,7 +69,7 @@ Seguire questi passaggi per acquistare licenze di Power BI Pro:
 
 9. Per aggiungere altre licenze dopo l'acquisto iniziale, selezionare **Power BI Pro** nella pagina **Sottoscrizioni** e fare clic su **Aggiungi/rimuovi licenze**.
 
-## <a name="assign-licenses-in-office-365"></a>Assegnare licenze in Office 365
+### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Assegnare licenze nell'interfaccia di amministrazione di Microsoft 365
 
 Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account utente:
 
@@ -89,7 +91,7 @@ Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account 
 
     ![Verificare lo stato della licenza](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
 
-## <a name="assign-licenses-in-azure"></a>Assegnare licenze in Azure
+### <a name="assign-licenses-in-the-azure-portal"></a>Assegnare licenze nel portale di Azure
 
 Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account utente:
 
@@ -107,7 +109,7 @@ Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account 
 
     ![Licenze - Tutti i prodotti](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
 
-5. Selezionare **Assegna** per aggiungere una licenza di Power BI Pro a un altro account utente.
+5. Selezionare **Assegna** per aggiungere una licenza di Power BI Pro a un account utente.
 
     ![Assegnare la licenza](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 

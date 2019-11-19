@@ -8,17 +8,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a1dee67279e6f43c0ff8008338f7b8a9f5a2d41a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3217691d68be6a351f87e5011fd5bc5ef347acfc
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841082"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72774786"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Presentazione del riquadro Filtri del report
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Questo articolo illustra il riquadro **Filtri** del report nel servizio Power BI. Usare i filtri per individuare nuove informazioni dettagliate nei dati.
 
@@ -34,11 +36,14 @@ Quando un collega condivide un report, cercare il riquadro **Filtri**. In alcuni
 
 Il riquadro **Filtri** contiene i filtri aggiunti al report dal *designer* del report. I *consumer* possono interagire con i filtri esistenti e salvare le modifiche, ma non possono aggiungere nuovi filtri al report. Ad esempio, nello screenshot precedente il designer ha aggiunto tre filtri a livello di pagina: **Segment is All**, **Year is 2014** e **Region is Central**. È possibile interagire con questi filtri e modificarli, ma non è possibile aggiungere un quarto filtro a livello di pagina.
 
-Nel servizio Power BI i report mantengono le modifiche apportate nel riquadro **Filtri**. Il servizio riporta le modifiche nella versione per dispositivi mobili del report.
+Nel servizio Power BI i report mantengono le modifiche apportate nel riquadro **Filtri**. Il servizio riporta le modifiche nella versione per dispositivi mobili del report. 
 
 Per ripristinare le impostazioni predefinite dal designer nel riquadro **Filtri**, selezionare **Ripristina impostazioni predefinite** nella barra dei menu superiore.
 
 ![Screenshot dell'icona Ripristina impostazioni predefinite.](media/end-user-report-filter/power-bi-reset-icon.png) 
+
+> [!NOTE]
+> Se non viene visualizzata l'opzione **Ripristina impostazioni predefinite**, è possibile che sia stata disabilitata dal *progettista* del report. Il *progettista* può anche bloccare filtri specifici, in modo da non consentirne la modifica.
 
 ## <a name="view-all-the-filters-for-a-report-page"></a>Visualizzare tutti i filtri per una pagina del report
 

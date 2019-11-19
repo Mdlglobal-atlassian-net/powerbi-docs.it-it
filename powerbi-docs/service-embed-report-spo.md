@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073603"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431899"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -79,11 +79,11 @@ Incorporare un report in SharePoint Online non autorizza automaticamente gli ute
 > [!IMPORTANT]
 > Assicurarsi di controllare chi può visualizzare il report all'interno del servizio Power BI e concedere l'accesso a chi non è elencato.
 
-Esistono due modi per consentire l'accesso ai report in Power BI. Il primo modo, se si usa un gruppo di Office 365 per creare il sito del team di SharePoint Online, è aggiungere l'utente come membro dell'**area di lavoro per le app all'interno del servizio Power BI** e della **pagina SharePoint**. Per altre informazioni, vedere come [gestire un'area di lavoro per le app](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Esistono due modi per consentire l'accesso ai report in Power BI. Il primo modo, se si usa un gruppo di Office 365 per creare il sito del team di SharePoint Online, è aggiungere l'utente come membro dell'**area di lavoro all'interno del servizio Power BI** e della **pagina SharePoint**. Per altre informazioni, vedere come [gestire un'area di lavoro](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 Il secondo consiste nell'incorporare un report all'interno di un'app e condividerlo direttamente con gli utenti:  
 
-1. L'autore, che deve essere un utente della versione Pro, crea un report in un'area di lavoro per le app. Per la condivisione con gli *utenti della versione gratuita di Power BI*, l'area di lavoro per le app deve essere impostata come *area di lavoro Premium*.
+1. L'autore, che deve essere un utente della versione Pro, crea un report in un'area di lavoro. Per la condivisione con gli *utenti della versione gratuita di Power BI*, l'area di lavoro deve essere impostata come *area di lavoro Premium*.
 
 2. L'autore pubblica l'app e la installa. L'autore deve installare l'app in modo da avere accesso all'URL del report usato per l'incorporamento in SharePoint Online.
 
@@ -93,7 +93,7 @@ Il secondo consiste nell'incorporare un report all'interno di un'app e condivide
 
 4. L'autore apre l'app e passa al report.
 
-5. L'autore copia l'URL del report per l'incorporamento dal report installato dall'app. Non usare l'URL del report originale dall'area di lavoro per le app.
+5. L'autore copia l'URL del report per l'incorporamento dal report installato dall'app. Non usare l'URL del report originale dall'area di lavoro.
 
 6. Creare un nuovo sito del team in SharePoint Online.
 

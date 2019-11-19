@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141707"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019788"
 ---
 # <a name="your-content-is-up-to-date"></a>Contenuto aggiornato
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Gli *utenti* interagiscono con il contenuto creato dagli *sviluppatori* e condiviso. È possibile che l'utente voglia verificare se il contenuto è aggiornato oppure voglia solo conoscere la data dell'ultimo aggiornamento. La certezza di usare un contenuto aggiornato garantisce fiducia.  
  
 ![Dashboard di Power BI](media/end-user-fresh/power-bi-dashboards.png)
@@ -63,7 +66,7 @@ Se necessario, è possibile cercare la data dell'ultimo aggiornamento per la mag
 ### <a name="dashboard-tiles"></a>I riquadri del dashboard
 Per i riquadri del dashboard, visualizzare il riquadro nella modalità messa a fuoco per visualizzare la data dell'ultimo aggiornamento.
 
-1. In un riquadro del dashboard selezionare i puntini di sospensione (...) e scegliere **Apri in modalità messa a fuoco**.
+1. In un riquadro del dashboard selezionare **Altre opzioni** (...) e scegliere **Apri in modalità messa a fuoco**.
 
     ![menu visualizzato dopo aver selezionato i puntini di sospensione](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +75,7 @@ Per i riquadri del dashboard, visualizzare il riquadro nella modalità messa a f
     ![browser espanso con l'ultimo aggiornamento visualizzato](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>Dashboard e report
-Un altro modo per cercare la data dell'ultimo aggiornamento consiste nell'usare **Visualizza elementi correlati**.  **Visualizza elementi correlati** è disponibile selezionando i puntini di sospensione (...) nella barra dei menu superiore di Power BI.
+Un altro modo per cercare la data dell'ultimo aggiornamento consiste nell'usare **Visualizza elementi correlati**.  **Visualizza elementi correlati** è disponibile selezionando **Altre opzioni** (...) nella barra dei menu superiore di Power BI.
 
 ![Selezionare Visualizza elementi correlati dal menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
 

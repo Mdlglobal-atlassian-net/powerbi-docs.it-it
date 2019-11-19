@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 5b9a0de8a3a9301219c15e5566854b591e79ba5e
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543914"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73429321"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Risolvere i problemi dell'applicazione incorporata
 
@@ -78,8 +78,8 @@ Potrebbe essere necessaria un'acquisizione Fiddler per ulteriori indagini. Le ca
 
 * L'utente ha superato la quantità di token di incorporamento che può essere generata in una capacità condivisa. Acquistare capacità di Azure per generare token di incorporamento e assegnare l'area di lavoro a tale capacità. Vedere [Creare la capacità di Power BI Embedded nel portale di Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * Il token di autenticazione di Azure AD è scaduto.
-* L'utente autenticato non è un membro del gruppo (area di lavoro dell'app).
-* L'utente autenticato non è un amministratore del gruppo (area di lavoro dell'app).
+* L'utente autenticato non è un membro del gruppo (area di lavoro).
+* L'utente autenticato non è un amministratore del gruppo (area di lavoro).
 * L'utente autenticato non dispone delle autorizzazioni. Le autorizzazioni possono essere aggiornate usando l'[API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
 * L'intestazione dell'autorizzazione potrebbe non essere corretta. Assicurarsi che non siano presenti errori di ortografia.
 

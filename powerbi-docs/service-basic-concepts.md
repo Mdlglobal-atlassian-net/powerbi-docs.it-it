@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543038"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431318"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
@@ -48,10 +48,10 @@ Queste funzionalità verranno illustrate più avanti. Per il momento verranno pr
 I quattro elementi fondamentali di Power BI sono: **_dashboard_** , **_report_** , **_cartelle di lavoro_** e **_set di dati_** . Questi elementi sono organizzati in **_aree di lavoro_** . È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
 
 ## <a name="workspaces"></a>Aree di lavoro
-Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro per le app*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per gli utenti finali di Power BI dell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle.
+Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per gli utenti finali di Power BI dell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle.
 
-- L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro per le app.      
--  Le *aree di lavoro per le app* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro per le app e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri dell'area di lavoro per le app devono avere una licenza Power BI Pro. Gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente avere una licenza Pro. Altre informazioni sulle [nuove aree di lavoro](service-create-the-new-workspaces.md).  
+- L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro.      
+-  Le *aree di lavoro* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri dell'area di lavoro devono avere una licenza di Power BI Pro. Gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente avere una licenza Pro. Altre informazioni sulle [nuove aree di lavoro](service-create-the-new-workspaces.md).  
 
 Per altre informazioni sulla condivisione in generale, iniziare con [Modalità per la condivisione del lavoro in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md).
 
@@ -62,7 +62,7 @@ Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce 
 
 I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. Visualizzare l'[elenco dei tipi di set di dati che è possibile usare con Power BI](service-get-data.md).
 
-Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite e marketing" ed è stato fatto clic sulla scheda **Set di dati**.
+Nell'esempio seguente è stata selezionata l'area di lavoro "Sales and marketing" ed è stato fatto clic sulla scheda **Set di dati**.
 
 ![I set di dati sono selezionati](media/service-basic-concepts/power-bi-datasets.png)
 
@@ -96,7 +96,7 @@ Quando si apre un'app viene visualizzato un dashboard.  Per accedere al report s
 
 Per impostazione predefinita, il report viene aperto in Visualizzazione di lettura.  Selezionare **Modifica report** per aprire il report in Visualizzazione di modifica (se si hanno le autorizzazioni necessarie).
 
-Nell'esempio seguente è stata selezionata l'area di lavoro per le app "Vendite e marketing" ed è stato fatto clic sulla scheda **Report**.
+Nell'esempio seguente è stata selezionata l'area di lavoro "Sales and marketing" ed è stato fatto clic sulla scheda **Report**.
 
 ![Report selezionati](media/service-basic-concepts/power-bi-reports.png)
 
@@ -224,7 +224,7 @@ Questa area della schermata contiene opzioni aggiuntive per interagire con il co
    ![Pulsanti delle icone con etichette](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-- [Che cos'è Power BI?](power-bi-overview.md)  
+- [Che cos'è Power BI?](fundamentals/power-bi-overview.md)  
 - [Video di Power BI](videos.md)  
 - [Presentazione dell'editor di report](service-the-report-editor-take-a-tour.md)
 

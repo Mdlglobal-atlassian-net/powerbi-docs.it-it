@@ -2,7 +2,6 @@
 title: Connettersi ai dati creati da flussi di dati Power BI in Power BI Desktop (beta)
 description: Connettersi e usare con facilità i flussi di dati in Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 63c10a0507b5e484ac4c104a5a1e83f5dd411d9d
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: f1d782aa7409dce43d960956406e996cc7951a57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523275"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876469"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Connettersi ai dati creati da flussi di dati Power BI in Power BI Desktop (beta)
 In **Power BI Desktop** è possibile connettersi ai dati creati dai **flussi di dati Power BI** esattamente come qualsiasi altra origine dati in Power BI Desktop.
@@ -40,7 +39,7 @@ Per usare questa versione beta del **connettore di flussi di dati Power BI** è 
 
 La maggior parte dei flussi di dati risiede nel tenant del servizio Power BI. Tuttavia, gli utenti di **Power BI Desktop** non possono accedere ai flussi di dati archiviati in un account di Azure Data Lake Storage Gen2 a meno che non siano proprietari del flusso di dati oppure non siano stati autorizzati in modo esplicito per la cartella CDM del flusso di dati. Considerare la situazione seguente:
 
-1.  Anna crea una nuova area di lavoro per app e la configura per archiviare i flussi di dati nel data lake dell'organizzazione.
+1.  Anna crea una nuova area di lavoro e la configura per l'archiviazione dei flussi di dati nel data lake dell'organizzazione.
 2.  Bruno, anch'esso membro dell'area di lavoro creata da Anna, vuole usare Power BI Desktop e il connettore per i flussi di dati per ottenere dati dal flusso creato da Anna.
 3.  Bruno riceve un errore perché non è stato aggiunto come utente autorizzato alla cartella CDM del flusso di dati nel data lake.
 

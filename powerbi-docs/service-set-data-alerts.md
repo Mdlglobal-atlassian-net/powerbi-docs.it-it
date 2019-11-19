@@ -2,21 +2,20 @@
 title: Impostare gli avvisi per i dati nel servizio Power BI
 description: Informazioni su come impostare gli avvisi per ricevere una notifica quando i dati in un dashboard superano i limiti impostati nel servizio Microsoft Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962597"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871552"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Avvisi per i dati nel servizio Power BI
 
@@ -24,7 +23,7 @@ Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard super
 
 È possibile impostare gli avvisi per i riquadri se si ha una licenza di Power BI Pro. È anche possibile impostare avvisi che informano se qualcuno condivide un dashboard che è in un livello di [capacità Premium](service-premium-what-is.md). Gli avvisi possono essere impostati solo in riquadri aggiunti da oggetti visivi del report e solo su misuratori, indicatori KPI e schede. Gli avvisi possono essere impostati negli oggetti visivi creati da set di dati in streaming aggiunti da un report a un dashboard. Gli avvisi non possono essere impostati nei riquadri in streaming creati direttamente nel dashboard usando **Aggiungi riquadro** > **Dati in streaming personalizzati**.
 
-Gli avvisi possono essere visualizzati solo da chi li imposta, anche se si condivide il dashboard. Gli avvisi per i dati sono completamente sincronizzati sulle piattaforme. È possibile quindi impostare e visualizzare gli avvisi per i dati [nell'app Power BI per dispositivi mobili](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e nel servizio Power BI. Non sono disponibili per Power BI Desktop. È anche possibile automatizzare e integrare gli avvisi con Microsoft Flow. Per provare, vedere l'articolo [Microsoft Flow e Power BI](service-flow-integration.md).
+Gli avvisi possono essere visualizzati solo da chi li imposta, anche se si condivide il dashboard. Neanche il proprietario del dashboard può visualizzare gli avvisi impostati dall'utente nella visualizzazione del dashboard. Gli avvisi per i dati sono completamente sincronizzati sulle piattaforme. È possibile quindi impostare e visualizzare gli avvisi per i dati [nell'app Power BI per dispositivi mobili](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e nel servizio Power BI. Non sono disponibili per Power BI Desktop. È anche possibile automatizzare e integrare gli avvisi con Microsoft Flow. Per provare, vedere l'articolo [Microsoft Flow e Power BI](service-flow-integration.md).
 
 ![Riquadri](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +115,13 @@ Sono disponibili molti modi per gestire gli avvisi:
 
 1. Da qui è possibile attivare e disattivare gli avvisi, aprire la finestra **Gestisci avvisi** per apportare modifiche o eliminare l'avviso.
 
-## <a name="tips-and-troubleshooting"></a>Suggerimenti e risoluzione dei problemi
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
 * Gli avvisi non sono supportati per i riquadri di tipo scheda con misure di data/ora.
-
 * Gli avvisi possono essere usati solo con tipi di dati numerici.
-
 * Gli avvisi funzionano solo per i dati aggiornati. Non possono essere usati con dati statici.
-
 * Gli avvisi funzionano nei set di dati in streaming solo se si crea un oggetto visivo del report di tipo indicatore KPI, scheda o misuratore e quindi si aggiunge l'oggetto visivo al dashboard.
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 
@@ -132,6 +129,6 @@ Sono disponibili molti modi per gestire gli avvisi:
 
 * [Impostare gli avvisi per i dati nel dispositivo mobile](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
-* [Che cos'è Power BI?](power-bi-overview.md)
+* [Che cos'è Power BI?](fundamentals/power-bi-overview.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195408"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432149"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
@@ -33,19 +33,19 @@ I requisiti per la creazione di un'app modello sono i seguenti:
 - Conoscenza dei [concetti di base di Power BI](service-basic-concepts.md)
 - Autorizzazioni per condividere un'app modello pubblicamente. Per informazioni dettagliate, vedere [Impostazioni app modello nel portale di amministrazione](service-admin-portal.md#template-apps-settings) di Power BI.
 
-## <a name="create-the-template-app-workspace"></a>Creare l'area di lavoro app modello
+## <a name="create-the-template-workspace"></a>Creare l'area di lavoro modello
 
-Per creare un'app distribuibile ad altri tenant di Power BI è necessario crearla in una delle nuove aree di lavoro per le app.
+Per creare un'app modello distribuibile ad altri tenant di Power BI, è necessario creare tale app in una delle nuove aree di lavoro.
 
-1. Nel servizio Power BI selezionare **Aree di lavoro** > **Crea area di lavoro per le app**.
+1. Nel servizio Power BI selezionare **Aree di lavoro** > **Crea area di lavoro**.
 
-    ![Crea area di lavoro per le app](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Creare l'area di lavoro](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. In **Crea area di lavoro per le app** selezionare **Esegui aggiornamento alla nuova versione**.
+2. In **Crea area di lavoro** selezionare **Esegui aggiornamento alla nuova versione**.
 
     ![Provare le nuove aree di lavoro](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. Immettere il nome, la descrizione (facoltativa) e l'immagine del logo (facoltativa) dell'area di lavoro per le app.
+3. Immettere il nome, la descrizione (facoltativa) e l'immagine del logo (facoltativa) dell'area di lavoro.
 
 4. Espandere la sezione **Avanzate** e selezionare **Sviluppa un'app modello**.
 
@@ -57,9 +57,9 @@ Per creare un'app distribuibile ad altri tenant di Power BI è necessario crearl
 
 ## <a name="create-the-content-in-your-template-app"></a>Creare il contenuto nell'app modello
 
-Come in qualsiasi area di lavoro per le app di Power BI, il passaggio successivo è la creazione del contenuto nell'area di lavoro.  
+Come in qualsiasi area di lavoro di Power BI, il passaggio successivo è la creazione del contenuto nell'area di lavoro.  
 
-- [Creare il contenuto di Power BI](power-bi-creator-landing.md) nell'area di lavoro per le app.
+- [Creare il contenuto di Power BI](power-bi-creator-landing.md) nell'area di lavoro.
 
 Se si usano parametri in Power Query, assicurarsi che abbiano un tipo ben definito (ad esempio Testo). I tipi Qualsiasi e Binario non sono supportati.
 
@@ -69,7 +69,7 @@ Se si usano parametri in Power Query, assicurarsi che abbiano un tipo ben defini
 
 Ora che l'area di lavoro include contenuto, è possibile integrare tale contenuto in un'app modello. Il primo passaggio è la creazione di un'app modello di test, accessibile solo dall'interno dell'organizzazione nel tenant.
 
-1. Nell'area di lavoro delle app modello selezionare **Crea app**.
+1. Nell'area di lavoro modello selezionare **Crea app**.
 
     ![Crea app](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -133,7 +133,7 @@ L'URL non cambia passando da una fase di rilascio a un'altra. L'innalzamento di 
 
 Di seguito sono riportate le fasi in dettaglio:
 
-1. Nell'area di lavoro delle app modello selezionare **Release Management**.
+1. Nell'area di lavoro modello selezionare **Release Management**.
 
     ![Icona Release Management](media/service-template-apps-create/power-bi-release-management-icon.png)
 

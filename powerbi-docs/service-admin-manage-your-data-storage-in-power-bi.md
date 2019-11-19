@@ -1,6 +1,6 @@
 ---
 title: Gestire l'archiviazione dei dati nelle aree di lavoro
-description: Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+description: Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,24 +11,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61190209"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431376"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gestire l'archiviazione dei dati nelle aree di lavoro di Power BI
 
-Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o per le app per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
 
-Le aree di lavoro per gli utenti e per le app hanno capacità di dati specifiche:
+Per gli utenti e le aree di lavoro esistono capacità di dati specifiche:
 
 * A tutti gli utenti viene assegnato uno spazio di archiviazione dati massimo di 10 GB.
-* Gli utenti con licenza Power BI Pro possono creare aree di lavoro per le app con al massimo 10 GB di spazio di archiviazione dati ognuna.
-* Un'area di lavoro per le app in una capacità Premium non viene conteggiata nello spazio di archiviazione di un utente di Power BI Pro.
+* Gli utenti con licenza di Power BI Pro possono creare aree di lavoro con al massimo 10 GB di spazio di archiviazione dati ognuna.
+* Un'area di lavoro in una capacità Premium non viene conteggiata nello spazio di archiviazione di un utente di Power BI Pro.
 
-A livello di tenant l'utilizzo totale non può superare 10 GB per utente della licenza Pro tra tutti gli utenti e le aree di lavoro per le app nel tenant.
+A livello di tenant l'utilizzo totale non può superare 10 GB per utente della licenza Pro tra tutti gli utenti e le aree di lavoro nel tenant.
 
 Per informazioni sulle altre funzionalità, vedere l'articolo sui [prezzi di Power BI](https://powerbi.microsoft.com/pricing).
 
@@ -63,15 +63,15 @@ Le dimensioni di un dashboard da condividere variano a seconda di ciò che è st
 
 Tenere presente che potrebbero esserci utenti che usano report e dashboard basati su un set di dati. Se quindi si elimina il set di dati, i report e i dashboard non funzioneranno più.
 
-## <a name="manage-your-app-workspace"></a>Gestire la propria area di lavoro per le app
-1. Selezionare la freccia accanto ad **Aree di lavoro** \>e quindi selezionare il nome dell'area di lavoro per le app.
+## <a name="manage-your-workspace"></a>Gestire l'area di lavoro
+1. Selezionare la freccia accanto ad **Aree di lavoro** \> selezionare il nome dell'area di lavoro.
    
-    ![Selezionare un'area di lavoro per le app](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![Selezionare un'area di lavoro](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra \>  **Gestisci archiviazione gruppo**.
    
     La barra in alto mostra il valore dello spazio di archiviazione del gruppo usato rispetto al limite.
    
-    ![Gestire lo spazio di archiviazione per l'area di lavoro per le app](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Gestire l'archiviazione dell'area di lavoro](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     I set di dati e i report sono separati in due schede:
    
@@ -80,7 +80,7 @@ Tenere presente che potrebbero esserci utenti che usano report e dashboard basat
 3. Per eliminare un set di dati o un report, selezionare l'icona del Cestino ![icona del Cestino](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > Tutti i membri di un'area di lavoro per le app che hanno le autorizzazioni di modifica sono autorizzati a eliminare dalla stessa i set di dati e i report.
+   > Tutti i membri di un'area di lavoro che hanno le autorizzazioni di modifica sono autorizzati a eliminare dalla stessa i set di dati e i report.
    > 
    > 
 

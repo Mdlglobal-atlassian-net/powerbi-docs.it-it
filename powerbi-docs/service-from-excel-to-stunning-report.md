@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995152"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020984"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da cartella di lavoro di Excel a straordinari report nel servizio Power BI
 Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato sarebbero state necessarie ore per creare elementi visivi e formattare un report e l'ansia sarebbe salita.
@@ -111,7 +111,7 @@ Visualizzazione delle vendite per prodotti e segmenti di mercato Facile.
 
 2. Modificare il tipo di grafico scegliendo una delle icone nel menu **Visualizzazioni**. Ad esempio, modificarlo in un **istogramma in pila**. 
 
-3. Per ordinare il grafico, selezionare i puntini di sospensione (...) > **Ordina per**.
+3. Per ordinare il grafico, selezionare **Altre opzioni** (...) > **Ordina per**.
 
    ![Istogramma in pila nell'editor di report](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 

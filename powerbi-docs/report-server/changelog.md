@@ -3,18 +3,17 @@ title: Log delle modifiche per il server di report Power BI
 description: Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259973"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874281"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
@@ -23,15 +22,22 @@ Questo log delle modifiche è relativo al server di report di Power BI ed elenca
 Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Server di report di Power BI](whats-new.md). 
 
 ## <a name="september-2019"></a>Settembre 2019
-
 - **Server di report Power BI**
-    - *Versione: 1.6.7221.30698 (build 15.0.1102.620), data di rilascio: 09 ottobre 2019*
+    - *Versione: 1.6.7236.4246 (build 15.0.1102.646), data di rilascio: 25 ottobre 2019*
+        - Aggiornamenti della sicurezza
+        - Correzioni di bug
+            - Correzione per .NET Framework 4.7 non installato.
+            - Correzione per i report impaginati per Teradata con parametri multivalore con errore 110083.
+            - La correzione per il valore URLRoot non funziona se sono presenti più binding di URL del servizio Web e uno di essi è https://+80/reportserver.
+          - Correzione per i valori dei parametri multivalore per report impaginati che vengono visualizzati all'esterno dell'area del report.
+          
+    - *Versione: 1.6.7221.30698 (build 15.0.1102.620), data di rilascio: 9 ottobre 2019*
         - Correzioni di bug
             - Correzione per l'oggetto visivo personalizzato Filtro testo.
             - Correzione per le prestazioni dei filtri dei dati a discesa.
             - Correzione per la rimozione di informazioni personali dalla telemetria.
           - Correzione per gli URL perché non ci sia distinzione tra maiuscole e minuscole.
-             
+          
     - *Versione 1.6.7206.38019 (build 15.0.1102.597), data di rilascio: 26 settembre 2019*
         - Aggiornamenti della sicurezza
         - Correzioni di bug
@@ -50,8 +56,11 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
              - Aggiornamento dell'API Web /PowerBIReports({Id})/DataSources (PATCH) per consentire gli aggiornamenti della stringa di connessione.
          
 - **Power BI Desktop (ottimizzato per il server di report di Power BI)**
-
-    - *Versione: 2.73.5586.1241 (settembre 2019), data di rilascio: 09 ottobre 2019*
+    - *Versione: 2.73.5586.1501 (settembre 2019), data di rilascio: 25 ottobre 2019*
+        - Correzioni di bug
+            - Correzione per la telemetria.
+            
+    - *Versione: 2.73.5586.1241 (settembre 2019), data di rilascio: 9 ottobre 2019*
         - Correzioni di bug
             - Correzione per l'oggetto visivo personalizzato Filtro testo.
             - Correzione per le prestazioni dei filtri dei dati a discesa.
@@ -295,6 +304,6 @@ Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Serv
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

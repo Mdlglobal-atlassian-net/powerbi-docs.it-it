@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b04c5b3325a9fd4d3bb11aa1943e62cf2c90c
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770145"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021469"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Gestire il contenuto nel portale Web 
 Il portale Web del Server di report di Power BI è un percorso locale per la visualizzazione, l'archiviazione e la gestione di indicatori KPI e di report impaginati, per dispositivi mobili e di Power BI.
@@ -56,7 +56,7 @@ L'applicazione del portale Web viene eseguita in un browser. Quando si avvia il 
 ## <a name="manage-items-in-the-web-portal"></a>Gestire gli elementi nel portale Web
 Il Server di Report di Power BI offre un controllo dettagliato degli elementi archiviati nel portale Web. Ad esempio, è possibile impostare sottoscrizioni, memorizzazione nella cache, snapshot e sicurezza per i singoli report impaginati.
 
-1. Selezionare i puntini di sospensione (...) nell'angolo superiore destro di un elemento e quindi selezionare **Gestisci**.
+1. Selezionare **Altre opzioni** (...) nell'angolo superiore destro di un elemento e quindi selezionare **Gestisci**.
    
     ![Selezionare Gestisci](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. Scegliere la proprietà o altre funzionalità che si vogliono impostare.

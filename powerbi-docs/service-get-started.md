@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751360"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060406"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Esercitazione: Introduzione al servizio Power BI
-Questa esercitazione è un'introduzione ad alcune delle funzionalità del *servizio Power BI* e descrive come connettersi ai dati, creare un report e un dashboard e porre domande sui dati. È possibile eseguire molte altre operazioni nel servizio Power BI e questa esercitazione è da intendersi come una semplice introduzione. Per comprendere come si posiziona il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere [Che cos'è Power BI](power-bi-overview.md).
+Questa esercitazione è un'introduzione ad alcune delle funzionalità del *servizio Power BI* e descrive come connettersi ai dati, creare un report e un dashboard e porre domande sui dati. È possibile eseguire molte altre operazioni nel servizio Power BI e questa esercitazione è da intendersi come una semplice introduzione. Per comprendere come si posiziona il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere [Che cos'è Power BI](fundamentals/power-bi-overview.md).
 
 ![Home page del servizio Power BI](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -115,7 +115,7 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
    
 8. Selezionare il nuovo riquadro nel dashboard per tornare al report. Power BI reindirizzerà l'utente al report nella visualizzazione di lettura. 
 
-1. Per tornare alla visualizzazione di modifica, selezionare i puntini di sospensione (...) nella barra di spostamento superiore > **Modifica**. Una volta tornati nella visualizzazione di modifica, è possibile continuare a esplorare e ad aggiungere i riquadri.
+1. Per tornare alla visualizzazione di modifica, selezionare **Altre opzioni** (...) nella barra di spostamento superiore > **Modifica**. Una volta tornati nella visualizzazione di modifica, è possibile continuare a esplorare e ad aggiungere i riquadri.
 
     ![Selezionare Modifica per modificare il report](media/service-get-started/power-bi-service-edit-report.png)
 
@@ -200,7 +200,7 @@ Dopo aver completo l'esercitazione, è possibile eliminare il set di dati, il re
 
 1. Nella barra di spostamento a sinistra verificare che sia attiva l'**Area di lavoro personale**.
 2. Selezionare la scheda **Set di dati** e individuare il set di dati che è stato importato per questa esercitazione.  
-3. Selezionare i puntini di sospensione (...) > **Elimina**.
+3. Selezionare **Altre opzioni** (...) > **Elimina**.
 
     ![Eliminare il set di dati](media/service-get-started/power-bi-service-delete-dataset.png)
 

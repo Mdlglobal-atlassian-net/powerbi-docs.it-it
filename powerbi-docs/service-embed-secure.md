@@ -3,19 +3,18 @@ title: Incorporare un report in un portale o un sito Web sicuro
 description: La funzionalità di incorporamento di Power BI consente agli utenti di incorporare report nei portali Web interni in modo facile e sicuro.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867097"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877092"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporare un report in un portale o un sito Web sicuro
 
@@ -49,7 +48,7 @@ L'opzione **Incorpora** supporta [filtri URL](service-url-filters.md) e impostaz
 
 L'opzione **Incorpora** non consente automaticamente agli utenti di visualizzare il report. Le autorizzazioni di visualizzazione sono impostate nel servizio Power BI.
 
-Nel servizio Power BI è possibile condividere report incorporati con gli utenti richiedendo l'accesso. Se si usa un gruppo di Office 365, è possibile elencare l'utente come membro dell'area di lavoro per le app. Per altre informazioni, vedere [Gestire l'area di lavoro per le app in Power BI e Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Nel servizio Power BI è possibile condividere report incorporati con gli utenti richiedendo l'accesso. Se si usa un gruppo di Office 365, è possibile elencare l'utente come membro dell'area di lavoro. Per altre informazioni, vedere come [gestire l'area di lavoro in Power BI e Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Gestione delle licenze
 

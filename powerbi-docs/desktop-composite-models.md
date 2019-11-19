@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: aef50d58dc11269c2c30010c1ca89843689f45c4
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654566"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73017674"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usare modelli compositi in Power BI Desktop
 
@@ -53,7 +53,7 @@ Ad esempio, usando i modelli compositi è possibile creare un modello che combin
 Un modello che combina dati da più di un'origine DirectQuery o combina origini DirectQuery con dati importati è noto come *modello composito*.
 
 
-È possibile creare relazioni tra tabelle come sempre, anche quando le tabelle provengono da origini diverse, con la restrizione seguente: le relazioni tra origini diverse devono essere definite con la cardinalità *molti-a-molti*, indipendentemente dalla cardinalità effettiva. Il comportamento per queste relazioni è quindi uguale al normale per le relazioni *molti-a-molti*, come descritto in [Relazioni molti-a-molti in Power BI Desktop (anteprima)](desktop-many-to-many-relationships.md). 
+È possibile creare relazioni tra le tabelle come sempre, anche quando le tabelle provengono da origini diverse. Tutte le relazioni tra origini vengono create con una cardinalità *molti-a-molti*, indipendentemente dalla cardinalità effettiva. È possibile modificarle in uno-a-molti, molti-a-uno o uno-a-uno. Indipendentemente dalla cardinalità impostata, le relazioni tra origini hanno un comportamento diverso perché non è possibile usare funzioni DAX per recuperare i valori sul lato uno dal lato molti. Si potrebbe anche osservare un impatto sulle prestazioni rispetto alle relazioni molti-a-molti all'interno della stessa origine.
 
 > [!NOTE]
 > Nel contesto dei modelli compositi, tutte le tabelle importate rappresentano in effetti una singola origine, indipendentemente dall'effettiva origine dati sottostante da cui vengono importate.   
@@ -88,7 +88,7 @@ Allo stesso modo, nella visualizzazione **Relazioni** in Power BI Desktop è ora
 
 ![Visualizzazione delle relazioni delle tabelle](media/desktop-composite-models/composite-models_08.png)
 
-È ora necessario mettere in relazione le tabelle con le altre tabelle nel modello. Come sempre, si crea una relazione tra la tabella **Bike** da SQL Server e la tabella **ProductManagers** importata. La relazione è tra *Bike[ProductName]* e *ProductManagers[ProductName]* . Come illustrato in precedenza, tutte le relazioni che attraversano l'origine devono avere la cardinalità predefinita *molti-a-molti*. 
+È ora necessario mettere in relazione le tabelle con le altre tabelle nel modello. Come sempre, si crea una relazione tra la tabella **Bike** da SQL Server e la tabella **ProductManagers** importata. La relazione è tra *Bike[ProductName]* e *ProductManagers[ProductName]* . Come illustrato in precedenza, tutte le relazioni che attraversano l'origine sono impostate sulla cardinalità predefinita *molti-a-molti*. 
 
 ![Finestra "Crea relazione"](media/desktop-composite-models/composite-models_09.png)
 

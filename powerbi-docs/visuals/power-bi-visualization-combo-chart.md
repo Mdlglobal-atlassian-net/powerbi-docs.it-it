@@ -2,7 +2,6 @@
 title: Grafico combinato in Power BI
 description: Questa esercitazione sui grafici combinati spiega quando usarli e come crearli nel servizio Power BI e in Power BI Desktop.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880952"
 ---
 # <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
 
@@ -36,7 +35,7 @@ I grafici combinati rappresentano un'ottima scelta nelle seguenti situazioni:
 * per risparmiare spazio nell'area di disegno.
 
 ### <a name="prerequisites"></a>Prerequisiti
-Questa esercitazione usa il [file Retail Analysis Sample PBIX](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
    
@@ -67,7 +66,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
     c. Selezionare **Time** \> **FiscalMonth** per aggiungerlo all'area **Asse**.
 
     ![Esempio di esercitazione per un grafico combinato](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione e selezionare **Sort by > FiscalMonth**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e scegliere **Ordinamento crescente** oppure **Ordinamento decrescente**. Per questo esempio si userà l'opzione **Ordinamento crescente**.
+5. Selezionare **Altre opzioni** (...) nell'angolo superiore destro della visualizzazione e selezionare **Ordina per > FiscalMonth**. Per modificare l'ordinamento, selezionare di nuovo i puntini di sospensione e scegliere **Ordinamento crescente** oppure **Ordinamento decrescente**. Per questo esempio si userà l'opzione **Ordinamento crescente**.
 
 6. Convertire l'istogramma in un grafico combinato. Sono disponibili due grafici combinati: **Grafico a linee e istogramma a colonne in pila** e **Grafico a linee e istogramma a colonne raggruppate**. Con l'istogramma selezionato, nel riquadro **Visualizzazioni** selezionare **Grafico a linee e istogramma a colonne raggruppate**.
 

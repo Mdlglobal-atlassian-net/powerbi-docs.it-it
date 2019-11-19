@@ -2,7 +2,6 @@
 title: "Pacchetti di contenuto dell'organizzazione: accesso e copia"
 description: Scoprire come creare copie e risolvere i problemi di accesso nei pacchetti di contenuto aziendali in Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fa7a7845686fd46e9d58ea138bdddd47a0a097
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 905e461c69a898b41b45e48405c3aaaa6e09cfec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019635"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881321"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Pacchetti di contenuto dell'organizzazione: Copiare, aggiornare e ottenere l'accesso
 
@@ -30,7 +29,7 @@ La creazione di pacchetti di contenuto è diversa dalla condivisione di dashboar
 ## <a name="create-a-copy-of-an-organizational-content-pack"></a>Creare una copia di un pacchetto di contenuto aziendale
 Creare la propria copia del pacchetto di contenuto, non visibile ad altri utenti.
 
-1. Selezionare i puntini di sospensione (...) accanto al dashboard del pacchetto di contenuto > Crea una copia.
+1. Selezionare **Altre opzioni** (...) accanto al dashboard del pacchetto di contenuto > Crea una copia.
 
     ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. Selezionare **Salva**.  
@@ -58,4 +57,4 @@ Vedere [Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali](servi
 ## <a name="next-steps"></a>Passaggi successivi
 * [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md)
 * [Creare un gruppo in Power BI](service-create-distribute-apps.md)
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 928b69bc1f7e8210f66bd1b99e211a7fe28a5a00
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100172"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73019569"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Stampa dal servizio Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 È possibile stampare un intero dashboard, un riquadro del dashboard, una pagina del report o un oggetto visivo del report dal servizio Power BI. I report possono essere stampati solo una pagina alla volta, ovvero non è possibile stampare l'intero report in una sola volta.
 
    > [!NOTE]
@@ -37,7 +40,7 @@ ms.locfileid: "71100172"
 
 ## <a name="print-a-dashboard-tile"></a>Stampare un riquadro del dashboard
 1. Per aprire il dashboard nella [modalità schermo intero](end-user-focus.md), selezionare l'icona di tale modalità ![Icona Schermo intero](./media/end-user-print/power-bi-full-screen-icon.png) nella barra dei menu superiore.
-3. [Aprire il riquadro in modalità messa a fuoco](end-user-focus.md) passando il puntatore per visualizzare i puntini di sospensione (...) e scegliendo **Apri in modalità messa a fuoco** o l'icona della modalità messa a fuoco ![Icona Modalità messa a fuoco](./media/end-user-print/power-bi-focus-icon.png).
+3. [Aprire il riquadro in modalità messa a fuoco](end-user-focus.md) passando il puntatore per visualizzare **Altre opzioni (...)** e scegliendo **Apri in modalità messa a fuoco** o l'icona della modalità messa a fuoco ![Icona Modalità messa a fuoco](./media/end-user-print/power-bi-focus-icon.png).
    
     ![Menu di puntini di sospensione](./media/end-user-print/power-bi-menu-options.png)
 4. Passare il puntatore sul riquadro per visualizzare il menu delle opzioni.

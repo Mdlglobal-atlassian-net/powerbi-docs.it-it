@@ -2,7 +2,6 @@
 title: Aggiungere immagini, video e altri elementi al dashboard
 description: Documentazione su come usare il widget Aggiungi riquadro per aggiungere un riquadro per immagini, video, caselle di testo, codice Web e dati di streaming a un dashboard.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832543"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853528"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Aggiungere immagini, video e altri elementi al dashboard
 
@@ -232,7 +231,7 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
 ## <a name="edit-a-tile"></a>Modificare un riquadro
 Per modificare un riquadro esistente:
 
-1. Passare il puntatore nell'angolo in alto a destra del riquadro e selezionare i puntini di sospensione (...).
+1. Passare il puntatore nell'angolo in alto a destra del riquadro e selezionare **Altre opzioni** (...).
    
     ![Selezionare i puntini di sospensione del riquadro](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selezionare **Modifica dettagli** per visualizzare la finestra **Dettagli riquadro** e apportare le modifiche.
@@ -246,5 +245,5 @@ Per modificare un riquadro esistente:
 ## <a name="next-steps"></a>Passaggi successivi
 [Introduzione ai riquadri del dashboard per le finestre di progettazione di Power BI](service-dashboard-tiles.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/).
 

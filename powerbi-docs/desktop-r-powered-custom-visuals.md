@@ -3,19 +3,18 @@ title: Usare oggetti visivi di Power BI basati su R in Power BI
 description: Usare oggetti visivi di Power BI basati su R in Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: ab0c4a7bf529f878796ea4b41177e57d19c79128
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945247"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128242"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Usare oggetti visivi di Power BI basati su R in Power BI
 
@@ -55,7 +54,7 @@ Di seguito è indicata la procedura per esplorare e selezionare gli oggetti visi
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Dopo aver scaricato l'oggetto visivo, eseguendo un'operazione simile al download di un file dal browser, passare a **Power BI Desktop**, fare clic sui puntini di sospensione (...) nel riquadro **Visualizzazioni** e quindi selezionare **Importa da file**.
+4. Dopo aver scaricato l'oggetto visivo, in modo analogo al download di un file dal browser, passare a **Power BI Desktop**, fare clic su **Altre opzioni** (...) nel riquadro **Visualizzazioni** e selezionare **Importa da file**.
 
    ![Oggetto visivo R 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Viene visualizzato un avviso in merito all'importazione di un oggetto visivo personalizzato, come illustrato nella figura seguente:

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020256"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021105"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Creare aree di lavoro classiche in Power BI
 
@@ -39,7 +39,7 @@ Quando la si crea per la prima volta potrebbe essere necessario attendere circa 
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Aggiungere un'immagine all'area di lavoro di Office 365 (facoltativo)
 Per impostazione predefinita, Power BI crea un cerchietto colorato per l'app, con le iniziali dell'app, ma potrebbe essere opportuno personalizzarlo con un'immagine. Per aggiungere un'immagine occorre una licenza per Exchange Online.
 
-1. Selezionare **Aree di lavoro**, selezionare i puntini di sospensione (...) accanto al nome dell'area di lavoro, quindi **Membri**. 
+1. Selezionare **Aree di lavoro**, **Altre opzioni** (...) accanto al nome dell'area di lavoro e quindi **Membri**. 
    
      ![Selezionare i membri dell'area di lavoro](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

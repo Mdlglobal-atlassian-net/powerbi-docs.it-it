@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240024"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73021616"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Esercitazione: Esplorare il portale Web di Server di report di Power BI in una macchina virtuale
 In questa esercitazione si crea una macchina virtuale di Azure con Server di Report di Power BI già installato per imparare a visualizzare, modificare e gestire report impaginati e indicatori KPI di esempio di Power BI.
@@ -189,7 +189,7 @@ Per impostazione predefinita, il portale Web visualizza il relativo contenuto ne
 
 ### <a name="manage-a-paginated-report"></a>Gestire un report impaginato
 
-1. Nel portale Web, in **Report impaginati**, selezionare i puntini di sospensione (...) accanto a **Sales Order** > **Gestisci**.
+1. Nel portale Web, in **Report impaginati**, selezionare **Altre opzioni** (...) accanto a **Sales Order** > **Gestisci**.
 
 1. Selezionare **Parametri**, modificare il valore predefinito per **SalesOrderNumber** in **SO50689** > **Applica**.
 
@@ -219,7 +219,7 @@ Per impostazione predefinita, il portale Web visualizza il relativo contenuto ne
 
 È possibile modificare i report impaginati in Generatore report, che si può avviare direttamente dal browser.
 
-1. Nel portale Web selezionare i puntini di sospensione (...) accanto a **Sales Order** > **Modifica in Generatore report**.
+1. Nel portale Web selezionare **Altre opzioni** (...) accanto a **Sales Order** > **Modifica in Generatore report**.
 
 1. Selezionare **Consenti** per consentire al sito Web di aprire un programma nel computer.
 

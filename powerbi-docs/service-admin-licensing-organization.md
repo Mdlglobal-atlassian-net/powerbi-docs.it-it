@@ -1,6 +1,6 @@
 ---
 title: Gestione delle licenze di Power BI nell'organizzazione
-description: 'Comprendere i vari tipi di licenza disponibili in Power BI: licenza gratuita, Power BI Pro e Power BI Premium.'
+description: 'Informazioni sui vari tipi di licenza disponibili in Power BI: licenze gratuite, Power BI Pro e Power BI Premium.'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 24cc798814e0c19de4f1dd4d0d6907fc7a0074a6
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
+ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075417"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "73442818"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Gestione delle licenze di Power BI nell'organizzazione
 
@@ -27,9 +27,9 @@ Questo articolo è incentrato sulle licenze per utente descritte dalla prospetti
 
 L'amministratore può acquistare e assegnare le licenze Power BI Pro e iscriversi a una versione di valutazione di Power BI Pro per la propria organizzazione. Anche i singoli utenti possono iscriversi a una versione di valutazione di Power BI Pro.
 
-### <a name="purchase-power-bi-pro"></a>Acquista Power BI Pro
+### <a name="purchase-power-bi-pro-licenses"></a>Acquistare licenze di Power BI Pro
 
-È possibile acquistare le licenze Power BI Pro tramite Microsoft Office 365 o rivolgendosi a un partner Microsoft certificato. Dopo aver acquistato le licenze, assegnarle ai singoli utenti. Per altre informazioni, vedere [Acquistare e assegnare licenze Power BI Pro](service-admin-purchasing-power-bi-pro.md).
+Come amministratore, è possibile acquistare le licenze di Power BI Pro tramite Microsoft 365 o rivolgendosi a un partner Microsoft certificato. Dopo aver acquistato le licenze, assegnarle ai singoli utenti. Per altre informazioni, vedere [Acquistare e assegnare licenze Power BI Pro](service-admin-purchasing-power-bi-pro.md).
 
 ### <a name="power-bi-pro-license-expiration"></a>Scadenza della licenza di Power BI Pro
 
@@ -41,7 +41,7 @@ Power BI Pro ha lo stesso ciclo di vita della sottoscrizione di Office 365. Per 
 
 I singoli utenti dell'organizzazione possono iscriversi a una versione di valutazione di Power BI Pro. Per altre informazioni, vedere [Iscrizione a Power BI come utente singolo](service-self-service-signup-for-power-bi.md).
 
-Gli utenti che usano la versione di valutazione di Power BI Pro inclusa nel prodotto non vengono visualizzati nell'interfaccia di amministrazione di Microsoft 365 come utenti della versione di valutazione Power BI Pro, ma come utenti del piano gratuito di Power BI. Verranno tuttavia visualizzati come utenti della versione di valutazione di Power BI Pro nella pagina Gestisci archiviazione di Power BI.
+Gli utenti che usano la versione di valutazione di Power BI Pro inclusa nel prodotto per utenti singoli non vengono visualizzati nell'interfaccia di amministrazione di Microsoft 365 come utenti della versione di valutazione Power BI Pro, ma come utenti del piano gratuito di Power BI. Verranno tuttavia visualizzati come utenti della versione di valutazione di Power BI Pro nella pagina Gestisci archiviazione di Power BI.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Versione di valutazione di Power BI Pro per le organizzazioni
 
@@ -49,7 +49,7 @@ Se si vogliono acquisire e distribuire le licenze della versione di valutazione 
 
 Prima di seguire i passaggi per l'iscrizione, tenere presente quanto segue:
 
-* Per iscriversi, è necessario essere membro del ruolo [**Amministratore globale** o **Amministratore fatturazione**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365.
+* Per iscriversi, è necessario essere membri del ruolo [**Amministratore globale** o **Amministratore fatturazione**](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365.
 
 * È previsto un limite di una versione di valutazione aziendale per ogni tenant. Ciò significa che se un utente ha già applicato Power BI Pro - Versione di valutazione al tenant, non è possibile ripetere l'operazione. Se è necessaria assistenza a tal riguardo, contattare il [supporto per la fatturazione di Office 365](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671).
 
@@ -79,11 +79,11 @@ Gli utenti all'interno dell'organizzazione possono accedere alle licenze gratuit
 
 * È possibile assegnare una licenza di Power BI agli utenti all'interno dell'interfaccia di amministrazione di Microsoft 365.
 
-* Se un utente [effettua l'iscrizione a una versione di valutazione di Power BI Pro](service-self-service-signup-for-power-bi.md) e la versione di valutazione scade, viene assegnate all'utente una licenza gratuita.
+* Se un utente [effettua l'iscrizione per un account di Power BI](service-self-service-signup-for-power-bi.md) gli viene assegnata una licenza gratuita.
 
 ### <a name="requesting-and-assigning-free-licenses"></a>Richiesta e assegnazione di licenze gratuite
 
-Se si prevede di gestire centralmente le richieste e le assegnazioni delle licenze, verificare prima di avere il blocco delle licenze Power BI (gratuito) illimitato.
+Se si prevede di gestire centralmente le richieste e le assegnazioni delle licenze, verificare prima di avere già il blocco delle licenze Power BI (gratuito) senza limiti nel tenant.
 
 Il blocco delle licenze è disponibile la prima volta in cui qualcuno tenta di iscriversi a Power BI come utente singolo. Durante questo processo, il blocco delle licenze viene associato all'organizzazione e viene assegnata una licenza all'utente che sta eseguendo l'iscrizione.
 
@@ -125,9 +125,9 @@ Se il blocco delle licenze di Power BI (gratuito) illimitato non è disponibile 
 
 L'amministratore può abilitare o disabilitare le iscrizioni come utente singolo in Azure Active Directory (AAD). Questa sezione dell'articolo illustra come gestire le iscrizioni con i comandi di PowerShell. Per altre informazioni su Azure PowerShell, vedere [Panoramica di Azure PowerShell](/powershell/azure/overview).
 
-L'impostazione di Azure AD che controlla l'iscrizione è **AllowAdHocSubscriptions**. Nella maggior parte dei tenant questa opzione è impostata su *true*, il che significa che è abilitata. Se Power BI è stato acquistato tramite un partner, è possibile che questa opzione sia impostata su *false*, il che significa che è disabilitata. Se si modifica l'impostazione da *true* a *false*, ai nuovi utenti dell'organizzazione viene impedito di eseguire l'iscrizione singolarmente. Gli utenti iscritti a Power BI prima della modifica dell'impostazione mantengono le proprie licenze. Si noti che con l'impostazione *false* gli utenti possono comunque iscriversi per una versione di valutazione di Pro.
+L'impostazione di Azure Active Directory che controlla l'iscrizione è **AllowAdHocSubscriptions**. Nella maggior parte dei tenant questa opzione è impostata su *true*, il che significa che è abilitata. Se Power BI è stato acquistato tramite un partner, è possibile che questa opzione sia impostata su *false*, il che significa che è disabilitata. Se si modifica l'impostazione da *true* a *false*, ai nuovi utenti dell'organizzazione viene impedito di eseguire l'iscrizione singolarmente. Gli utenti iscritti a Power BI prima della modifica dell'impostazione mantengono le proprie licenze. Si noti che con l'impostazione *false* gli utenti con una licenza di Power BI (gratuito) possono comunque iscriversi per una singola versione di valutazione di Power BI Pro.
 
-1. Accedere ad Azure Active Directory usando le credenziali di Office 365. La prima riga dello script PowerShell seguente richiede le credenziali. La seconda riga si connette ad Azure Active Directory.
+1. Accedere ad Azure Active Directory usando le credenziali di Microsoft 365. La prima riga dello script PowerShell seguente richiede le credenziali. La seconda riga si connette ad Azure Active Directory.
 
     ```powershell
      $msolcred = get-credential

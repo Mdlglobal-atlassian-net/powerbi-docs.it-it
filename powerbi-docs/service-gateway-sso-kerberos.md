@@ -1,5 +1,5 @@
 ---
-title: Configurare SSO - Kerberos
+title: Configurare il Single Sign-On basato su Kerberos dal servizio Power BI alle origini dati locali
 description: Configurare il gateway con Kerberos per abilitare l'accesso Single Sign-On da Power BI alle origini dati locali
 author: mgblythe
 ms.author: mblythe
@@ -8,82 +8,86 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: 030c1880915029739ca38b6a57f9ab310e9b1f60
+ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968992"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73020348"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurare il Single Sign-On basato su Kerberos dal servizio Power BI alle origini dati locali
 
-Usare la [delega vincolata Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) per abilitare una connettività SSO ottimale. L'abilitazione di SSO rende più semplice per i report e i dashboard di Power BI aggiornare i dati delle origini locali pur rispettando le autorizzazioni a livello di utente configurate per tali origini.
+L'abilitazione di SSO rende più semplice per i report e i dashboard di Power BI aggiornare i dati delle origini locali pur rispettando le autorizzazioni a livello di utente configurate per tali origini. Usare la [delega vincolata Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) per abilitare una connettività SSO ottimale. 
 
-Per il corretto funzionamento della delega vincolata Kerberos è necessario configurare diversi elementi, ad esempio i _nomi delle entità servizio_ e le impostazioni di delega negli account del servizio.
+## <a name="prerequisites"></a>Prerequisiti
 
-### <a name="prerequisite-1-install-and-configure-the-microsoft-on-premises-data-gateway"></a>Prerequisito 1: installare e configurare il gateway dati locale
+Per il corretto funzionamento della delega vincolata Kerberos è necessario configurare diversi elementi, ad esempio i _nomi delle entità servizio_ e le impostazioni di delega per gli account del servizio.
+
+### <a name="install-and-configure-the-microsoft-on-premises-data-gateway"></a>installare e configurare il gateway dati locale
 
 Il gateway dati locale supporta un aggiornamento sul posto nonché l'_acquisizione della proprietà delle impostazioni_ dei gateway esistenti.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Prerequisito 2: eseguire il servizio di Windows gateway come account di dominio
+### <a name="run-the-gateway-windows-service-as-a-domain-account"></a>eseguire il servizio di Windows gateway come account di dominio
 
-In un'installazione standard, il gateway viene eseguito come account del servizio locale del computer, ovvero _NT Service\PBIEgwService_, come illustrato nell'immagine seguente:
+In un'installazione standard, il gateway viene eseguito come account del servizio locale del computer, ovvero **NT Service\PBIEgwService**.
 
-![Screenshot dell'account del servizio](media/service-gateway-sso-kerberos/service-account.png)
+![Account del servizio locale del computer](media/service-gateway-sso-kerberos/service-account.png)
 
 Per abilitare la delega vincolata Kerberos, il gateway deve essere eseguito come account di dominio, a meno che l'istanza di Azure Active Directory (Azure AD) non sia già sincronizzata con l'istanza di Active Directory locale tramite Azure AD DirSync/Connect. Per passare a un account di dominio, vedere [Modificare l'account del servizio gateway](/data-integration/gateway/service-gateway-service-account).
 
 > [!NOTE]
-> Se Azure AD Connect è configurato e gli account utente sono sincronizzati, il servizio gateway non dovrà eseguire ricerche locali in Azure AD in fase di esecuzione. Per completare la configurazione necessaria in Azure Active Directory è invece possibile usare semplicemente l'ID di sicurezza (SID) del servizio locale per il servizio gateway. La procedura di configurazione della delega vincolata Kerberos descritta in questo articolo è uguale a quella necessaria nel contesto di Azure Active Directory. Viene semplicemente applicata all'oggetto computer del gateway, identificato dall'ID di sicurezza (SID) del servizio locale, in Azure AD anziché all'account di dominio.
+> Se Azure AD Connect è configurato e gli account utente sono sincronizzati, il servizio gateway non dovrà eseguire ricerche locali in Azure AD in fase di esecuzione. Per completare la configurazione necessaria in Azure AD, è invece possibile usare semplicemente l'ID di sicurezza (SID) del servizio locale per il servizio gateway. La procedura di configurazione della delega vincolata Kerberos descritta in questo articolo è uguale a quella necessaria nel contesto di Azure AD. Viene applicata all'oggetto computer del gateway, identificato dall'ID di sicurezza (SID) del servizio locale, in Azure AD anziché all'account di dominio.
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Prerequisito 3: ottenere i diritti di amministratore di dominio per configurare i nomi delle entità servizio (SetSPN) e le impostazioni di delega vincolata Kerberos
+## <a name="obtain-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Ottenere i diritti di amministratore di dominio per configurare i nomi delle entità servizio (SetSPN) e le impostazioni di delega vincolata Kerberos
 
-Non è consigliabile che un amministratore di dominio conceda a un altro utente, in via temporanea o definitiva, i diritti per configurare i nomi delle entità servizio e le impostazioni della delega Kerberos senza richiedere che questa persona abbia diritti di amministratore di dominio. Nella sezione seguente viene illustrata in modo più dettagliato la procedura di configurazione consigliata.
+Per configurare i nomi delle entità servizio e le impostazioni di delega Kerberos, un amministratore di dominio deve evitare di concedere diritti a un utente che non ha i diritti di amministratore di dominio. Nella sezione seguente viene illustrata in modo più dettagliato la procedura di configurazione consigliata.
 
 ## <a name="configure-kerberos-constrained-delegation-for-the-gateway-and-data-source"></a>Configurare la delega vincolata Kerberos per il gateway e l'origine dati
 
-Con un account amministratore di dominio configurare un nome dell'entità servizio (SPN) per l'account di dominio del servizio gateway, se necessario, e configurare le impostazioni di delega nell'account di dominio del servizio gateway.
+Se necessario, configurare un nome dell'entità servizio (SPN) per l'account di dominio del servizio gateway come amministratore di dominio e configurare le impostazioni di delega nell'account di dominio del servizio gateway.
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>Configurare un nome dell'entità servizio per l'account del servizio gateway
 
 Determinare prima se è già stato creato un nome dell'entità servizio per l'account di dominio usato come account del servizio gateway:
 
-1. Come amministratore di dominio, avviare **Utenti e computer di Active Directory**.
+1. Come amministratore di dominio avviare lo snap-in Microsoft Management Console (MMC) **Utenti e computer di Active Directory**.
 
-2. Fare clic con il pulsante destro del mouse sul dominio, selezionare **Trova** e immettere il nome dell'account del servizio gateway.
+2. Nel riquadro sinistro fare clic con il pulsante destro del mouse sul nome del dominio, scegliere **Trova** e quindi immettere il nome dell'account del servizio gateway.
 
 3. Nei risultati della ricerca fare clic con il pulsante destro del mouse sull'account del servizio gateway e scegliere **Proprietà**.
 
-4. Se la scheda **Delega** è visibile nella finestra di dialogo **Proprietà**, un nome dell'entità servizio è già stato creato ed è possibile passare a [Decidere se usare la delega vincolata Kerberos basata sulle risorse o quella standard](#decide-on-resource-based-or-standard-kerberos-constrained-delegation).
+4. Se la scheda **Delega** è visibile nella finestra di dialogo **Proprietà**, un nome dell'entità servizio è già stato creato ed è possibile passare a [Decidere il tipo di delega vincolata Kerberos da usare](#decide-on-the-type-of-kerberos-constrained-delegation-to-use).
 
-    Se la scheda **Delega** non è presente nella finestra di dialogo **Proprietà**, è possibile creare manualmente un nome dell'entità servizio nell'account per abilitarla. Usare lo [strumento setspn](https://technet.microsoft.com/library/cc731241.aspx) incluso in Windows. Per creare il nome SPN sono necessari diritti di amministratore di dominio.
+5. Se la scheda **Delega** non è presente nella finestra di dialogo **Proprietà**, è possibile creare manualmente un nome dell'entità servizio nell'account per abilitarla. Usare lo [strumento setspn](https://technet.microsoft.com/library/cc731241.aspx) incluso in Windows. Per creare il nome SPN sono necessari diritti di amministratore di dominio.
 
-    Si supponga, ad esempio, che l'account del servizio gateway sia **Contoso\GatewaySvc** e che il nome del computer in cui il servizio gateway è in esecuzione sia **MyGatewayMachine**. Per impostare il nome dell'entità servizio per l'account del servizio gateway, eseguire il comando seguente:
+   Si supponga, ad esempio, che l'account del servizio gateway sia **Contoso\GatewaySvc** e che il servizio gateway sia in esecuzione in un computer denominato **MyGatewayMachine**. Per impostare il nome dell'entità servizio per l'account del servizio gateway, eseguire il comando seguente:
 
-    ![Immagine del comando SPN impostato](media/service-gateway-sso-kerberos/set-spn.png)
+   ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
-    È possibile impostare il nome dell'entità servizio anche usando lo snap-in di MMC (Microsoft Management Console) Utenti e computer di Active Directory.
+   Per impostare il nome dell'entità servizio, è anche possibile usare lo snap-in MMC **Utenti e computer di Active Directory**.
 
-### <a name="decide-on-resource-based-or-standard-kerberos-constrained-delegation"></a>Decidere se usare la delega vincolata Kerberos basata sulle risorse o quella standard
+### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>Decidere il tipo di delega vincolata Kerberos da usare
 
-È possibile configurare le impostazioni di delega per la delega vincolata Kerberos basata sulle risorse _oppure_ per la delega vincolata Kerberos standard. Usare la delega basata sulle risorse se l'origine dati appartiene a un dominio diverso da quello del gateway, ma tenere presente che questo approccio richiede Windows Server 2012 o versione successiva. Vedere la [pagina della panoramica della delega vincolata Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) per altre informazioni sulle differenze tra i due approcci alla delega.
+È possibile configurare le impostazioni di delega per la delega vincolata Kerberos standard o per la delega vincolata Kerberos basata sulle risorse. Usare la delega basata sulle risorse (è richiesto Windows Server 2012 o versione successiva) se l'origine dati appartiene a un dominio diverso da quello del gateway. Per altre informazioni sulle differenze tra i due approcci alla delega, vedere [Panoramica della delega vincolata Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
 
- Dopo aver deciso quale approccio si vuole usare, passare a _una_ di queste due sezioni: [Configurare l'account del servizio gateway per la delega vincolata Kerberos standard](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation) _oppure_ [Configurare l'account del servizio gateway per la delega vincolata Kerberos basata sulle risorse](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation). Non completare entrambe le sottosezioni.
+ A seconda dell'approccio che si vuole usare, passare a una delle sezioni seguenti. Non completare entrambe le sezioni:
+ - [Configurare l'account del servizio gateway per la delega vincolata Kerberos standard](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation)
+- [Configurare l'account del servizio gateway per la delega vincolata Kerberos basata sulle risorse](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation) 
 
 ## <a name="configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation"></a>Configurare l'account del servizio gateway per la delega vincolata Kerberos standard
 
 > [!NOTE]
-> Completare i passaggi descritti in questa sezione se si vuole abilitare la delega vincolata Kerberos standard. Se si vuole abilitare la delega vincolata Kerberos basata sulle risorse, completare i passaggi descritti nella sottosezione [ Configurare l'account del servizio gateway per la delega vincolata Kerberos basata sulle risorse](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation).
+> Completare i passaggi descritti in questa sezione se si vuole [abilitare la delega vincolata Kerberos standard](/windows-server/security/kerberos/kerberos-constrained-delegation-overview). Se si vuole invece abilitare la delega vincolata Kerberos basata sulle risorse, completare i passaggi descritti in [Configurare l'account del servizio gateway per la delega vincolata Kerberos basata sulle risorse](#configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation).
 
-Verranno ora configurate le impostazioni di delega per l'account del servizio gateway. Per eseguire questi passaggi sono disponibili vari strumenti. Qui si userà Utenti e computer di Active Directory, uno snap-in di MMC (Microsoft Management Console) che consente di gestire e pubblicare informazioni nella directory. Nei controller di dominio è disponibile per impostazione predefinita, ma è possibile abilitarlo anche in altri computer tramite la configurazione delle funzionalità di Windows.
+Verranno ora configurate le impostazioni di delega per l'account del servizio gateway. Per eseguire questi passaggi sono disponibili vari strumenti. Qui si userà lo snap-in MMC **Utenti e computer di Active Directory** per amministrare e pubblicare le informazioni nella directory. Nei controller di dominio è disponibile per impostazione predefinita. In altri computer è possibile abilitarlo tramite la configurazione delle funzionalità di Windows.
 
-È necessario configurare la delega vincolata Kerberos con protocollo in transito. Con la delega vincolata, è necessario dichiarare esplicitamente a quali servizi il gateway potrà presentare credenziali delegate. Ad esempio, solo SQL Server o il server SAP HANA accettano le chiamate di delega dall'account del servizio gateway.
+È necessario configurare la delega vincolata Kerberos con protocollo in transito. Con la delega vincolata è necessario dichiarare esplicitamente a quali servizi il gateway potrà presentare credenziali delegate. Ad esempio, solo SQL Server o il server SAP HANA accettano le chiamate di delega dall'account del servizio gateway.
 
-Questa sezione presuppone che i nomi delle entità servizio per le origini dati sottostanti, ad esempio SQL Server, SAP HANA, SAP BW, Teradata o Spark, siano già stati configurati. Per informazioni su come configurare i nomi dell'entità servizio dei server delle origini dati, vedere la documentazione tecnica per i rispettivi server di database. È anche possibile visualizzare l'intestazione *What SPN does your app require?* (Quale SPN richiede l'app?) nel post di blog [My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160) (Elenco di controllo Kerberos personale).
+Questa sezione presuppone che i nomi delle entità servizio per le origini dati sottostanti, ad esempio SQL Server, SAP HANA, SAP BW, Teradata o Spark, siano già stati configurati. Per informazioni su come configurare i nomi dell'entità servizio del server dell'origine dati, fare riferimento alla documentazione tecnica per il rispettivo server di database e vedere la sezione *What SPN does your app require?* (Quale nome dell'entità servizio è richiesto per l'app?) nel post di blog [My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160) (Elenco di controllo per Kerberos).
 
-Nei passaggi seguenti si presuppone un ambiente locale con due computer nello stesso dominio: un computer gateway e un server di database con SQL Server che è già stato configurato per SSO basato su Kerberos. È possibile adottare i passaggi per una delle altre origini dati supportate, a condizione che questa sia già stata configurata per il Single Sign-On basato su Kerberos. Ai fini di questo esempio, si presuppongono anche le impostazioni e i nomi seguenti:
+Nei passaggi seguenti si presuppone un ambiente locale con due computer nello stesso dominio: un computer gateway e un server di database con SQL Server che è già stato configurato per SSO basato su Kerberos. È possibile adottare i passaggi per una delle altre origini dati supportate, a condizione che questa sia già stata configurata per il Single Sign-On basato su Kerberos. Per questo esempio, verranno usate le impostazioni seguenti:
 
 * Dominio di Active Directory (Netbios): **Contoso**
 * Nome del computer del gateway: **MyGatewayMachine**
@@ -93,7 +97,7 @@ Nei passaggi seguenti si presuppone un ambiente locale con due computer nello st
 
 Ecco come configurare le impostazioni di delega:
 
-1. Con diritti di amministratore di dominio aprire **Utenti e computer di Active Directory**.
+1. Aprire lo snap-in MMC **Utenti e computer di Active Directory** con diritti di amministratore di dominio.
 
 2. Fare clic con il pulsante destro del mouse sull'account del servizio gateway (**Contoso\GatewaySvc**) e selezionare **Proprietà**.
 
@@ -105,24 +109,30 @@ Ecco come configurare le impostazioni di delega:
 
 6. Nella nuova finestra di dialogo selezionare **Utenti o computer**.
 
-7. Immettere l'account del servizio per l'origine dati. Quello di un'origine dati SQL Server può essere ad esempio **Contoso\SQLService**. Un nome SPN appropriato per l'origine dati deve essere già stato impostato per l'account. Dopo aver aggiunto l'account, selezionare **OK**.
+7. Immettere l'account del servizio per l'origine dati e quindi selezionare **OK**.
 
-8. Selezionare il nome dell'entità servizio creato per il server di database. In questo esempio il nome SPN inizia con **MSSQLSvc**. Se sono stati aggiunti sia il nome di dominio completo sia il nome dell'entità servizio NetBIOS, verranno selezionati entrambi, ma potrebbe esserne visualizzato solo uno.
+   Ad esempio, un'origine dati di SQL Server può avere un account del servizio come *Contoso\SQLService*. Un nome SPN appropriato per l'origine dati deve essere già stato impostato per l'account. 
 
-9. Selezionare **OK**. A questo punto il nome SPN verrà visualizzato nell'elenco dei servizi a cui l'account del servizio gateway può presentare le credenziali delegate.
+8. Selezionare il nome dell'entità servizio creato per il server di database. 
 
-    ![Screenshot della finestra di dialogo Gateway Connector Properties (Proprietà connettore gateway)](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
+   In questo esempio il nome SPN inizia con *MSSQLSvc*. Se sono stati aggiunti sia il nome di dominio completo sia il nome dell'entità servizio NetBIOS, verranno selezionati entrambi, ma potrebbe esserne visibile solo uno.
 
-Ora passare a [Concedere all'account del servizio gateway diritti di criteri locali nel computer gateway](#grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine) per continuare il processo di configurazione.
+9. Selezionare **OK**. 
+
+   A questo punto il nome SPN verrà visualizzato nell'elenco dei servizi a cui l'account del servizio gateway può presentare le credenziali delegate.
+
+    ![Finestra di dialogo delle proprietà del connettore gateway](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
+
+10. Per continuare il processo di configurazione, passare a [Concedere all'account del servizio gateway diritti di criteri locali nel computer gateway](#grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine).
 
 ## <a name="configure-the-gateway-service-account-for-resource-based-kerberos-constrained-delegation"></a>Configurare l'account del servizio gateway per la delega vincolata Kerberos basata sulle risorse
 
 > [!NOTE]
-> Completare i passaggi descritti in questa sezione se si vuole abilitare la delega vincolata Kerberos basata sulle risorse. Se si vuole abilitare la delega vincolata Kerberos standard, completare i passaggi descritti nella sottosezione [ Configurare l'account del servizio gateway per la delega vincolata Kerberos standard](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation).
+> Completare i passaggi descritti in questa sezione se si vuole abilitare la [delega vincolata Kerberos basata sulle risorse](/windows-server/security/kerberos/kerberos-constrained-delegation-overview#resource-based-constrained-delegation-across-domains). Se si vuole invece abilitare la delega vincolata Kerberos standard, completare i passaggi descritti in [Configurare l'account del servizio gateway per la delega vincolata Kerberos standard](#configure-the-gateway-service-account-for-standard-kerberos-constrained-delegation).
 
-Usare la [delega vincolata Kerberos basata sulle risorse](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) per abilitare la connettività Single Sign-On per Windows Server 2012 e versioni successive, consentendo l'appartenenza a domini diversi per i servizi front-end e back-end. Per il corretto funzionamento, il dominio del servizio back-end deve considerare attendibile il dominio del servizio front-end.
+Usare la [delega vincolata Kerberos basata sulle risorse](/windows-server/security/kerberos/kerberos-constrained-delegation-overview#resource-based-constrained-delegation-across-domains) per abilitare la connettività Single Sign-On per Windows Server 2012 e versioni successive. Questo tipo di delega consente l'appartenenza a domini diversi per i servizi front-end e back-end. Per il corretto funzionamento, il dominio del servizio back-end deve considerare attendibile il dominio del servizio front-end.
 
-Nei passaggi seguenti si presuppone un ambiente locale con due computer in domini diversi: un computer gateway e un server di database con SQL Server che è già stato configurato per il Single Sign-On basato su Kerberos. È possibile adottare i passaggi per una delle altre origini dati supportate, a condizione che questa sia già stata configurata per il Single Sign-On basato su Kerberos. Ai fini di questo esempio, si presuppongono anche le impostazioni e i nomi seguenti:
+Nei passaggi seguenti si presuppone un ambiente locale con due computer in domini diversi: un computer gateway e un server di database con SQL Server che è già stato configurato per il Single Sign-On basato su Kerberos. È possibile adottare questi passaggi per una delle altre origini dati supportate, a condizione che questa sia già stata configurata per l'accesso Single Sign-On basato su Kerberos. Per questo esempio, verranno usate le impostazioni seguenti:
 
 * Dominio front-end di Active Directory (Netbios): **ContosoFrontEnd**
 * Dominio back-end di Active Directory (Netbios): **ContosoBackEnd**
@@ -131,21 +141,21 @@ Nei passaggi seguenti si presuppone un ambiente locale con due computer in domin
 * Nome del computer dell'origine dati SQL Server: **TestSQLServer**
 * Account del servizio dell'origine dati SQL Server: **ContosoBackEnd\SQLService**
 
-Con questi nomi e impostazioni di esempio, completare i passaggi di configurazione seguenti:
+Completare la procedura di configurazione seguente:
 
-1. Nel controller di dominio per il dominio **ContosoFrontEnd** verificare che per l'account del servizio gateway non siano applicate impostazioni di delega usando **Utenti e computer di Active Directory**, uno snap-in di Microsoft Management Console (MMC).
+1. Usare lo snap-MMC **Utenti e computer di Active Directory** nel controller di dominio per il dominio **ContosoFrontEnd** e verificare che non siano state applicate impostazioni di delega per l'account del servizio gateway.
 
     ![Proprietà del connettore gateway](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. Usando **Utenti e computer di Active Directory** nel controller di dominio per il dominio **ContosoBackEnd**, verificare che per l'account del servizio back-end non siano applicate impostazioni di delega.
+2. Usare **Utenti e computer di Active Directory** nel controller di dominio per il dominio **ContosoBackEnd** e verificare che per l'account del servizio back-end non siano applicate impostazioni di delega.
 
     ![Proprietà del servizio SQL](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. Verificare inoltre che l'attributo **msDS-AllowedToActOnBehalfOfOtherIdentity** per questo account non sia impostato. È possibile trovare questo attributo in **Editor attributi**, come illustrato nell'immagine seguente:
+3. Nella scheda **Editor attributi** delle proprietà dell'account verificare che l'attributo **msDS-AllowedToActOnBehalfOfOtherIdentity** non sia impostato.
 
     ![Attributi del servizio SQL](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
 
-4. Creare un gruppo in **Utenti e computer di Active Directory** nel controller di dominio per il dominio **ContosoBackEnd**. Aggiungere l'account del servizio gateway a questo gruppo come illustrato nell'immagine seguente. L'immagine illustra un nuovo gruppo denominato _ResourceDelGroup_ e l'account del servizio gateway, **GatewaySvc**, aggiunto a questo gruppo.
+4. In **Utenti e computer di Active Directory** creare un gruppo nel controller di dominio per il dominio **ContosoBackEnd**. Aggiungere l'account del servizio gateway **GatewaySvc** al gruppo **ResourceDelGroup**. 
 
     ![Proprietà del gruppo](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
@@ -156,78 +166,82 @@ Con questi nomi e impostazioni di esempio, completare i passaggi di configurazio
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-6. È possibile verificare che l'aggiornamento viene rispecchiato nella scheda "Editor attributi" nelle proprietà per l'account del servizio back-end in **Utenti e computer di Active Directory**. **msDS-AllowedToActOnBehalfOfOtherIdentity** ora dovrebbe essere impostato.
+6. In **Utenti e computer di Active Directory** verificare che l'aggiornamento sia rispecchiato nella scheda **Editor attributi** nelle proprietà per l'account del servizio back-end. 
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>Concedere all'account del servizio gateway diritti di criteri locali nel computer gateway
 
-Infine, nel computer in cui è in esecuzione il servizio gateway, **MyGatewayMachine** in questo esempio, è necessario concedere all'account del servizio gateway i criteri locali **Rappresenta un client dopo l'autenticazione** e **Agire come parte del sistema operativo (SeTcbPrivilege)** . È possibile eseguire e verificare questa configurazione con l'Editor Criteri di gruppo locali (**gpedit**).
+Infine, nel computer in cui è in esecuzione il servizio gateway, **MyGatewayMachine** in questo esempio, concedere all'account del servizio gateway i criteri locali **Rappresenta un client dopo l'autenticazione** e **Agire come parte del sistema operativo (SeTcbPrivilege)** . Eseguire questa configurazione con l'Editor Criteri di gruppo locali (**gpedit.msc**).
 
-1. Nel computer gateway eseguire *gpedit.msc*.
+1. Nel computer gateway eseguire **gpedit.msc**.
 
 2. Passare a **Criteri del computer locale** &gt; **Configurazione computer** &gt; **Impostazioni di Windows** &gt; **Impostazioni di sicurezza** &gt; **Criteri locali** &gt; **Assegnazione diritti utente**.
 
-    ![Screenshot della struttura di cartelle Criteri del computer locale](media/service-gateway-sso-kerberos/user-rights-assignment.png)
+    ![Struttura di cartelle di Criteri del computer locale](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
 3. Nell'elenco di criteri in **Assegnazione diritti utente** selezionare **Rappresenta un client dopo l'autenticazione**.
 
-    ![Screenshot dei criteri Rappresenta un client](media/service-gateway-sso-kerberos/impersonate-client.png)
+    ![Criterio Rappresenta un client](media/service-gateway-sso-kerberos/impersonate-client.png)
+    
+4. Fare clic con il pulsante destro del mouse sul criterio, scegliere **Proprietà** e quindi visualizzare l'elenco degli account. 
 
-    Fare clic con il pulsante destro del mouse e aprire **Proprietà**. Controllare l'elenco degli account. Deve includere l'account del servizio gateway (**Contoso\GatewaySvc** o **ContosoFrontEnd\GatewaySvc** a seconda del tipo di delega vincolata).
+    L'elenco deve includere l'account del servizio gateway (**Contoso\GatewaySvc** o **ContosoFrontEnd\GatewaySvc** a seconda del tipo di delega vincolata).
 
-4. Nell'elenco di criteri in **Assegnazione diritti utente** selezionare **Agire come parte del sistema operativo (SeTcbPrivilege)** . Anche in questo caso, accertarsi che l'account del servizio gateway sia incluso nell'elenco degli account.
+5. In **Diritti assegnazione utente** selezionare **Agire come parte del sistema operativo (SeTcbPrivilege)** nell'elenco dei criteri. Accertarsi che l'account del servizio gateway sia incluso nell'elenco degli account.
 
-5. Riavviare il processo del servizio **Gateway dati locale**.
+6. Riavviare il processo del servizio **Gateway dati locale**.
 
-### <a name="set-user-mapping-configuration-parameters-on-the-gateway-machine-if-required"></a>Impostare i parametri di configurazione del mapping utente nel computer gateway, se necessario
+### <a name="set-user-mapping-configuration-parameters-on-the-gateway-machine-if-necessary"></a>Impostare i parametri di configurazione del mapping utente nel computer gateway, se necessario
 
-Se Azure AD Connect non è configurato, seguire questa procedura per mappare un utente del servizio Power BI a un utente Active Directory locale. Ogni utente Active Directory mappato in questo modo deve avere le autorizzazioni SSO necessarie per l'origine dati. Per altre informazioni, vedere questo [video Guy in a Cube](https://www.youtube.com/watch?v=NG05PG9aiRw).
+Se Azure AD Connect non è configurato, seguire questa procedura per mappare un utente del servizio Power BI a un utente Active Directory locale. Ogni utente Active Directory mappato in questo modo deve avere le autorizzazioni SSO necessarie per l'origine dati. Per altre informazioni, vedere il [video Guy in a Cube](https://www.youtube.com/watch?v=NG05PG9aiRw).
 
-1. Aprire il file di configurazione principale del gateway, `Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll`. Per impostazione predefinita, il file si trova in C:\Programmi\Gateway dati locale.
+1. Aprire il file di configurazione del gateway principale Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll. Per impostazione predefinita, il file si trova in C:\Programmi\Gateway dati locale.
 
-1. Impostare **ADUserNameLookupProperty** su un attributo Active Directory non usato. Nei passaggi seguenti si suppone l'uso di `msDS-cloudExtensionAttribute1`, anche se questo attributo è disponibile solo in Windows Server 2012 e versioni successive. Impostare **ADUserNameReplacementProperty** su `SAMAccountName`. Salvare il file di configurazione.
+1. Impostare **ADUserNameLookupProperty** su un attributo Active Directory non usato. Nei passaggi successivi verrà usato `msDS-cloudExtensionAttribute1`. Questo attributo è disponibile solo in Windows Server 2012 e versioni successive. 
+
+1. Impostare **ADUserNameReplacementProperty** su `SAMAccountName` e quindi salvare il file di configurazione.
 
 1. Nella scheda **Servizi** di Gestione attività fare clic con il pulsante destro del mouse sul servizio gateway e selezionare **Riavvia**.
 
     ![Screenshot della scheda Servizi di Gestione attività](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. Per ogni utente del servizio Power BI per il quale si vuole abilitare L'accesso Single Sign-On Kerberos, impostare la proprietà `msDS-cloudExtensionAttribute1` di un utente Active Directory locale (con autorizzazione SSO per l'origine dati) sul nome utente completo (ad esempio, il nome UPN) dell'utente del servizio Power BI. Ad esempio, se si accede al servizio Power BI come `test@contoso.com` e si vuole mappare questo utente a un utente Active Directory locale con autorizzazioni SSO, quale ad esempio `test@LOCALDOMAIN.COM`, impostare l'attributo `msDS-cloudExtensionAttribute1` di `test@LOCALDOMAIN.COM` su `test@contoso.com`.
+1. Per ogni utente del servizio Power BI per il quale si vuole abilitare l'accesso Single Sign-On Kerberos, impostare la proprietà `msDS-cloudExtensionAttribute1` di un utente Active Directory locale (con autorizzazione SSO per l'origine dati) sul nome utente completo (UPN) dell'utente del servizio Power BI. Ad esempio, se si accede al servizio Power BI come test@contoso.com e si vuole mappare questo utente a un utente di Active Directory locale con autorizzazioni SSO, quale ad esempio test@LOCALDOMAIN.COM, impostare l'attributo `msDS-cloudExtensionAttribute1` dell'utente su test@contoso.com.
 
-    È possibile impostare la proprietà `msDS-cloudExtensionAttribute1` tramite lo snap-in di Microsof: Management Console (MMC) Utenti e computer di Active Directory:
+    È possibile impostare la proprietà `msDS-cloudExtensionAttribute1` con lo snap-in MMC Utenti e computer di Active Directory:
     
-    1. Come amministratore di dominio, avviare Utenti e computer di Active Directory.
+    1. Come amministratore di dominio, avviare **Utenti e computer di Active Directory**.
     
-    1. Fare clic con il pulsante destro del mouse sul dominio, selezionare Trova e digitare il nome account dell'utente Active Directory locale al quale si vuole eseguire il mapping.
+    1. Fare clic con il pulsante destro del mouse sul nome del dominio, scegliere **Trova** e quindi immettere il nome dell'account dell'utente di Active Directory locale da mappare.
     
     1. Selezionare la scheda **Editor attributi**.
     
-        Individuare la proprietà `msDS-cloudExtensionAttribute1` e fare doppio clic su di essa. Impostare il valore sul nome utente completo (ad esempio, il nome UPN) dell'utente usato per accedere al servizio Power BI.
+        Individuare la proprietà `msDS-cloudExtensionAttribute1` e fare doppio clic su di essa. Impostare il valore sul nome utente completo (UPN) dell'utente usato per accedere al servizio Power BI.
     
     1. Selezionare **OK**.
     
-        ![Screenshot della finestra di dialogo Editor attributo stringa](media/service-gateway-sso-kerberos/edit-attribute.png)
+        ![Finestra Editor attributo stringa](media/service-gateway-sso-kerberos/edit-attribute.png)
     
     1. Selezionare **Applica**. Verificare che sia stato impostato il valore corretto nella colonna **Valore**.
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>Completare i passaggi di configurazione specifici dell'origine dati
 
-SAP HANA e SAP BW hanno requisiti di configurazione specifici dell'origine dati e prerequisiti che è necessario soddisfare prima che sia possibile stabilire una connessione SSO tramite il gateway alle origini dati. Vedere [la pagina di configurazione di SAP HANA](service-gateway-sso-kerberos-sap-hana.md) e [la pagina di configurazione di SAP BW - CommonCryptoLib (sapcrypto.dll)](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md) per i dettagli. È anche possibile [configurare SAP BW per l'uso con la libreria SNC gx64krb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md), ma Microsoft non consiglia questa libreria in quanto non più supportata da SAP. Come libreria SNC, è consigliabile usare CommonCryptoLib _oppure_ gx64krb5. Non completare i passaggi di configurazione per entrambe le librerie.
+SAP HANA e SAP BW hanno requisiti di configurazione specifici dell'origine dati e prerequisiti che è necessario soddisfare prima che sia possibile stabilire una connessione SSO tramite il gateway a queste origini dati. Per altre informazioni, vedere la [configurazione di SAP HANA](service-gateway-sso-kerberos-sap-hana.md) e [la pagina di configurazione di SAP BW - CommonCryptoLib (sapcrypto.dll)](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md). Sebbene sia possibile [configurare SAP BW per l'uso con la libreria SNC gx64krb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md), questa libreria è sconsigliata perché non più supportata da SAP. Come libreria SNC, è consigliabile usare CommonCryptoLib _oppure_ gx64krb5. Non completare i passaggi di configurazione per entrambe le librerie.
 
 > [!NOTE]
-> Per il Single Sign-On a BW potrebbero funzionare anche altre librerie SNC, ma queste non sono ufficialmente supportate da Microsoft.
+> Sebbene per l'accesso SSO a BW possano essere usate anche altre librerie SNC, non sono ufficialmente supportate da Microsoft.
 
 ## <a name="run-a-power-bi-report"></a>Eseguire un report di Power BI
 
-Dopo aver completato tutti i passaggi di configurazione, è possibile usare la pagina **Gestisci gateway** in Power BI per configurare l'origine dati che verrà usata per il Single Sign-On. In presenza di più gateway, assicurarsi di selezionare il gateway configurato per il Single Sign-On Kerberos. In **Impostazioni avanzate** per l'origine dati verificare quindi che l'opzione **Usa SSO tramite Kerberos per le query DirectQuery** sia selezionata.
+Dopo aver completato tutti i passaggi di configurazione, usare la pagina **Gestisci gateway** in Power BI per configurare l'origine dati da usare per SSO. In presenza di più gateway, assicurarsi di selezionare il gateway configurato per il Single Sign-On Kerberos. In **Impostazioni avanzate** per l'origine dati verificare quindi che l'opzione **Usa SSO tramite Kerberos per le query DirectQuery** sia selezionata.
 
-![Screenshot dell'opzione Impostazioni avanzate](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Opzione Impostazioni avanzate](media/service-gateway-sso-kerberos/advanced-settings.png)
 
- Pubblicare un report **basato su DirectQuery** da Power BI Desktop. Questo report deve usare dati accessibili per l'utente mappato all'utente (Azure) Active Directory che accede al servizio Power BI. Dato il modo in cui funziona l'aggiornamento, è necessario usare DirectQuery invece dell'importazione. Quando si aggiornano report basati sull'importazione, il gateway usa le credenziali immesse nei campi **Nome utente** e **Password** al momento della creazione dell'origine dati. In altre parole, **non** viene usato l'accesso SSO Kerberos. Quando si esegue la pubblicazione, assicurarsi inoltre di selezionare il gateway configurato per il Single Sign-On se sono presenti più gateway. Nel servizio Power BI dovrebbe ora essere possibile aggiornare il report o creare un nuovo report basato sul set di dati pubblicato.
+ Pubblicare un report basato su DirectQuery da Power BI Desktop. Questo report deve usare dati accessibili per l'utente mappato all'utente di (Azure) Active Directory che accede al servizio Power BI. Dato il modo in cui funziona l'aggiornamento, è necessario usare DirectQuery invece dell'importazione. Quando aggiorna i report basati sull'importazione, il gateway usa le credenziali immesse nei campi **Nome utente** e **Password** al momento della creazione dell'origine dati. In altre parole, *non* viene usato l'accesso SSO Kerberos. Quando si esegue la pubblicazione, selezionare il gateway configurato per SSO se sono presenti più gateway. Nel servizio Power BI è ora possibile aggiornare il report o creare un nuovo report basato sul set di dati pubblicato.
 
-Questa configurazione funziona nella maggior parte dei casi. Con Kerberos, tuttavia, potrebbero essere necessarie configurazioni diverse a seconda dell'ambiente in uso. Se il report non viene caricato, contattare l'amministratore di dominio per indagini più approfondite. Se l'origine dati è SAP BW, si può fare riferimento anche alle sezioni relative alla risoluzione dei problemi delle pagine di configurazione specifiche dell'origine dati per [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) e [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), a seconda della libreria SNC scelta.
+Questa configurazione funziona nella maggior parte dei casi. Con Kerberos, tuttavia, potrebbero essere necessarie configurazioni diverse a seconda dell'ambiente in uso. Se il report non viene caricato, contattare l'amministratore di dominio per indagini più approfondite. Se l'origine dati è SAP BW, fare riferimento alle sezioni relative alla risoluzione dei problemi delle pagine di configurazione specifiche dell'origine dati per [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) e [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), a seconda della libreria SNC scelta.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per altre informazioni sul **gateway dati locale** e su **DirectQuery**, vedere le risorse seguenti:
+Per altre informazioni sul gateway dati locale e su DirectQuery, vedere le risorse seguenti:
 
 * [Informazioni sul gateway dati locale](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery in Power BI](desktop-directquery-about.md)

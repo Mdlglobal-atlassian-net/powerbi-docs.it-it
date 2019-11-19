@@ -2,19 +2,18 @@
 title: Notifiche di interruzione del servizio
 description: Informazioni su come ricevere notifiche tramite posta elettronica quando si verifica un'interruzione o una riduzione del servizio Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073564"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872173"
 ---
 # <a name="service-interruption-notifications"></a>Notifiche di interruzione del servizio
 
@@ -28,7 +27,7 @@ Attualmente i messaggi di posta elettronica vengono inviati per gli _scenari di 
 - Affidabilità aggiornamento modello
 - Affidabilità aggiornamento query
 
-Vengono, ad esempio, inviate notifiche quando si verifica un ritardo prolungato in operazioni come l'apertura di report, l'aggiornamento del set di dati o le esecuzioni di query. Dopo la risoluzione di un evento imprevisto, si riceve un messaggio di posta elettronica di completamento.
+Vengono inviate notifiche quando si verifica un _ritardo prolungato_ per operazioni come l'apertura di report, l'aggiornamento di set di dati o l'esecuzione di query. Dopo la risoluzione di un evento imprevisto, si riceve un messaggio di posta elettronica di completamento.
 
 > [!NOTE]
 > Questa funzionalità attualmente è disponibile solo per capacità dedicate in Power BI Premium. Non è disponibile per la capacità condivisa o incorporata.
@@ -52,4 +51,4 @@ Un amministratore di tenant di Power BI abilita le notifiche nel portale di ammi
 
 [Opzioni di supporto per Power BI Pro e Power BI Premium](service-support-options.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

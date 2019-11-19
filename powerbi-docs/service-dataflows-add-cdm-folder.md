@@ -1,6 +1,6 @@
 ---
 title: Aggiungere una cartella CDM a Power BI come flusso di dati
-description: Configurare un'area di lavoro per l'app per archiviare i file di definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
+description: Configurare un'area di lavoro per archiviare la definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522757"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73432034"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
 
@@ -33,7 +33,7 @@ Le sezioni seguenti descrivono come creare un flusso di dati da una cartella CDM
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Creare un flusso di dati da una cartella CDM
 
-Per iniziare a creare un flusso di dati da una cartella CDM, avviare il **servizio Power BI** e selezionare un'**area di lavoro per app** nel riquadro di spostamento a sinistra. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati.
+Per iniziare a creare un flusso di dati da una cartella CDM, avviare il **servizio Power BI** e selezionare un'**area di lavoro** nel riquadro di spostamento a sinistra. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati.
 
 ![Creare un flusso di dati nel servizio Power BI](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,7 +74,7 @@ Esistono alcune altre considerazioni, descritte nell'elenco seguente:
 
 I clienti di **Power BI Desktop** non possono accedere ai flussi di dati archiviati in un account di Azure Data Lake Storage Gen2 a meno che non siano proprietari del flusso di dati oppure non siano stati autorizzati in modo esplicito per la cartella CDM del flusso di dati. Considerare la situazione seguente:
 
-1.  Anna crea una nuova area di lavoro per app e la configura per archiviare flussi di dati da una cartella CDM.
+1.  Anna crea una nuova area di lavoro e la configura per l'archiviazione dei flussi di dati da una cartella CDM.
 2.  Bruno, anch'esso membro dell'area di lavoro creata da Anna, vuole usare Power BI Desktop e il connettore per i flussi di dati per ottenere dati dal flusso creato da Anna.
 3.  Bruno riceve un errore perché non è stato aggiunto come utente autorizzato alla cartella CDM del flusso di dati nel data lake.
 

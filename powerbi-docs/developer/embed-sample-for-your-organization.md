@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237395"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431076"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione
 
@@ -45,7 +45,7 @@ Se non si ha una sottoscrizione di Azure, [creare un account gratuito](https://a
 
 Prima di iniziare a incorporare report, dashboard o riquadri in un'applicazione, è necessario assicurarsi che l'ambiente consenta l'incorporamento con Power BI.
 
-È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup/UserOwnsData) per iniziare rapidamente e scaricare un'applicazione di esempio che facilita la creazione di un ambiente e l'incorporamento di un report. Nel caso di incorporamento di un report impaginato, è necessario assegnare almeno una capacità P1 all'area di lavoro dell'app creata.
+È possibile usare lo [strumento di installazione dell'incorporamento](https://aka.ms/embedsetup/UserOwnsData) per iniziare rapidamente e scaricare un'applicazione di esempio che facilita la creazione di un ambiente e l'incorporamento di un report. Nel caso di incorporamento di un report impaginato, è necessario assegnare almeno una capacità P1 all'area di lavoro creata.
 
 Se tuttavia si sceglie di configurare l'ambiente manualmente, è possibile continuare con le istruzioni che seguono.
 
@@ -57,13 +57,13 @@ Se tuttavia si sceglie di configurare l'ambiente manualmente, è possibile conti
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
 
-### <a name="create-an-app-workspace"></a>Crea area di lavoro per le app
+### <a name="create-a-workspace"></a>Crea un'area di lavoro
 
-Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro per le app. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../service-create-workspaces.md) o le [nuove aree di lavoro](../service-create-the-new-workspaces.md).
+Se si incorporano report, dashboard o riquadri per i clienti, è necessario inserire il contenuto all'interno di un'area di lavoro. Esistono diversi tipi di aree di lavoro configurabili: le [aree di lavoro tradizionali](../service-create-workspaces.md) o le [nuove aree di lavoro](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Creare e pubblicare i report di Power BI
 
-È possibile creare i report e i set di dati con Power BI Desktop. È quindi possibile pubblicare tali report nell'area di lavoro di un'app. Per poter pubblicare in un'area di lavoro dell'app, l'utente finale che pubblica report deve avere una licenza di Power BI Pro.
+È possibile creare i report e i set di dati con Power BI Desktop. È quindi possibile pubblicare tali report in un'area di lavoro. Per poter pubblicare report in un'area di lavoro, l'utente finale deve avere una licenza di Power BI Pro.
 
 1. Scaricare l'esempio [Demo](https://github.com/Microsoft/powerbi-desktop-samples) da GitHub.
 
@@ -73,7 +73,7 @@ Se si incorporano report, dashboard o riquadri per i clienti, è necessario inse
 
    ![Report di Power BI Desktop di esempio](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Eseguire la pubblicazione nell'area di lavoro per le app.
+3. Eseguire la pubblicazione nell'area di lavoro.
 
    ![Pubblicare un report di Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +83,7 @@ Se si incorporano report, dashboard o riquadri per i clienti, è necessario inse
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Creare e pubblicare i report di Power BI
 
-È possibile creare report impaginati usando [Generatore report di Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). È quindi possibile [caricare il report](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) in un'area di lavoro dell'app con almeno una capacità P1. Per eseguire la pubblicazione in un'area di lavoro per app, l'utente finale che esegue il caricamento del report deve avere una licenza di Power BI Pro.
+È possibile creare report impaginati usando [Generatore report di Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). È quindi possibile [caricare il report](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) in un'area di lavoro assegnata almeno a una capacità P1. Per eseguire la pubblicazione del report in un'area di lavoro, l'utente finale che carica il report deve avere una licenza di Power BI Pro.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Incorporare il contenuto usando l'applicazione di esempio
 
@@ -130,7 +130,7 @@ Per ottenere il valore **applicationId** seguire questa procedura:
 
 ### <a name="workspace-id"></a>ID area di lavoro
 
-Compilare il campo **workspaceId** con il GUID (gruppo) dell'area di lavoro per le app di Power BI. È possibile ottenere queste informazioni dall'URL di accesso al servizio Power BI o usando Powershell.
+Compilare il campo **workspaceId** con il GUID dell'area di lavoro (del gruppo) di Power BI. È possibile ottenere queste informazioni dall'URL di accesso al servizio Power BI o usando Powershell.
 
 URL <br>
 
@@ -376,11 +376,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Uso di una capacità Power BI Premium dedicata
 
-Dopo aver terminato lo sviluppo dell'applicazione, è necessario eseguire il backup dell'area di lavoro dell'app con una capacità dedicata.
+Lo sviluppo dell'applicazione è terminato. È ora necessario eseguire il backup dell'area di lavoro con una capacità dedicata.
 
 ### <a name="create-a-dedicated-capacity"></a>Creare una capacità dedicata
 
-Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata al contenuto dell'area di lavoro dell'app. Per i report impaginati è necessario supportare l'area di lavoro dell'app con almeno una capacità P1. È possibile creare una capacità dedicata usando [Power BI Premium ](../service-premium-what-is.md).
+Tramite la creazione di una capacità dedicata è possibile trarre vantaggio dalla disponibilità di una risorsa dedicata al contenuto dell'area di lavoro. Per i report impaginati è necessario supportare l'area di lavoro con almeno una capacità P1. È possibile creare una capacità dedicata usando [Power BI Premium ](../service-premium-what-is.md).
 
 La tabella seguente elenca gli SKU di Power BI Premium disponibili in [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -399,9 +399,9 @@ La tabella seguente elenca gli SKU di Power BI Premium disponibili in [Microsoft
 > - Quando si tenta di incorporare le applicazioni di Microsoft Office, è possibile usare i codici di riferimento del prodotto MT per accedere al contenuto con una licenza Power BI gratuita. Tuttavia, non è possibile accedere al contenuto con una licenza di Power BI gratuita se si usa Powerbi.com o Power BI per dispositivi mobili.
 > - Quando si tenta l'incorporamento tramite le app di Microsoft Office con Powerbi.com o Power BI per dispositivi mobili, è possibile accedere al contenuto con una licenza di Power BI gratuita.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro per le app a una capacità dedicata
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro a una capacità dedicata
 
-Dopo aver creato una capacità dedicata, è possibile assegnare l'area di lavoro dell'app alla capacità dedicata. Per completare questo processo, seguire questi passaggi:
+Dopo aver creato una capacità dedicata, è possibile assegnare a questa l'area di lavoro. Per completare questo processo, seguire questi passaggi:
 
 1. All'interno del servizio Power BI, espandere le aree di lavoro e selezionare i puntini di sospensione relativi all'area di lavoro in cui incorporare il contenuto. Quindi selezionare **Edit workspaces** (Modifica aree di lavoro).
 
@@ -411,9 +411,9 @@ Dopo aver creato una capacità dedicata, è possibile assegnare l'area di lavoro
 
     ![Assegnare una capacità dedicata](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Dopo aver selezionato **Salva** viene visualizzato un rombo accanto al nome dell'area di lavoro dell'app.
+3. Dopo aver selezionato **Salva** è possibile vedere l'icona di un diamante accanto al nome dell'area di lavoro.
 
-    ![Area di lavoro dell'app assegnata a una capacità](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![Area di lavoro collegata a una capacità](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Impostazioni di amministrazione
 
