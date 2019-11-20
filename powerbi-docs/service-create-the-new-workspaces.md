@@ -2,7 +2,6 @@
 title: Creare le nuove aree di lavoro - Power BI
 description: Informazioni su come creare nuove aree di lavoro, raccolte di dashboard, report e report impaginati creati per rendere disponibili le metriche strategiche per l'organizzazione.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fdc893ac8545df8fc64f45959a418018a189c84
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877527"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creare le nuove aree di lavoro in Power BI
 
@@ -40,7 +39,7 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
 
 2. Verrà automaticamente creata un'area di lavoro aggiornata, a meno che non si scelga di **ripristinare la versione classica**.
    
-     ![New workspace experience](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
+     ![Nuova esperienza delle aree di lavoro](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
      Se si seleziona **Ripristina versione classica**, si crea un'[area di lavoro basata su un gruppo di Office 365](service-create-workspaces.md). 
 
@@ -74,7 +73,7 @@ Per altre informazioni, vedere l'articolo relativo alle [nuove aree di lavoro](s
 
     Nel riquadro **Crea un'area di lavoro** quando si crea l'area per la prima volta.
 
-    Nel riquadro di spostamento a sinistra selezionare la freccia accanto ad **Aree di lavoro**, selezionare **Altre opzioni** (...) accanto al nome dell'area di lavoro > **Impostazioni dell'area di lavoro**. Si apre il riquadro **Impostazioni**.
+    Nel riquadro di spostamento selezionare la freccia accanto ad **Aree di lavoro**, selezionare **Altre opzioni** (...) accanto al nome dell'area di lavoro > **Impostazioni dell'area di lavoro**. Si apre il riquadro **Impostazioni**.
 
     ![Impostazioni dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +93,7 @@ Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configura
 
     Nel riquadro **Crea un'area di lavoro** quando si crea l'area per la prima volta.
 
-    Nel riquadro di spostamento a sinistra selezionare la freccia accanto ad **Aree di lavoro**, selezionare **Altre opzioni** (...) accanto al nome dell'area di lavoro > **Impostazioni dell'area di lavoro**. Si apre il riquadro **Impostazioni**.
+    Nel riquadro di spostamento selezionare la freccia accanto ad **Aree di lavoro**, selezionare **Altre opzioni** (...) accanto al nome dell'area di lavoro > **Impostazioni dell'area di lavoro**. Si apre il riquadro **Impostazioni**.
 
     ![Impostazioni dell'area di lavoro](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -108,7 +107,7 @@ Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configura
 
 Dopo aver configurato la posizione di OneDrive, è possibile accedervi allo stesso modo in cui si accede ad altre origini dati nel servizio Power BI.
 
-1. Nel riquadro di spostamento a sinistra selezionare **Dati**, quindi nella casella **File** selezionare **Scarica**.
+1. Nel riquadro di spostamento selezionare **Dati**, quindi nella casella **File** selezionare **Scarica**.
 
     ![Recuperare dati e file](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
@@ -145,4 +144,4 @@ Altre informazioni sulla [pubblicazione di un'app dalle nuove aree di lavoro](se
 * Informazioni su come [organizzare il lavoro nella nuova esperienza di area di lavoro in Power BI](service-new-workspaces.md)
 * [Creare le aree di lavoro classiche](service-create-workspaces.md)
 * [Pubblicare un'app dalle nuove aree di lavoro in Power BI](service-create-distribute-apps.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

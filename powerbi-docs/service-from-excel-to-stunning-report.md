@@ -2,7 +2,6 @@
 title: Da cartella di lavoro di Excel a straordinari report nel servizio Power BI
 description: Questo articolo illustra come è possibile creare rapidamente un report straordinario da una cartella di lavoro di Excel.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6c393611851e05c7c76983674f2e1de7b5454898
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020984"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872504"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Da cartella di lavoro di Excel a straordinari report nel servizio Power BI
 Il manager desidera visualizzare un report sulle ultime cifre di vendita combinate con le ultime impressioni sulla campagna entro la fine del giorno. Mentre i dati più recenti si trovano su vari sistemi di terze parti e sui file nel computer portatile. In passato sarebbero state necessarie ore per creare elementi visivi e formattare un report e l'ansia sarebbe salita.
@@ -57,7 +56,7 @@ Il servizio Power BI si connette a molte origini dati, inclusi i file di Excel c
 
    ![Elenco a discesa Crea](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro. 
+4. Nella parte inferiore del riquadro di spostamento selezionare **Recupera dati**. 
 
 5. Nella pagina **Recupera dati** selezionare **Recupera** nella casella **File** sotto **Creare nuovo contenuto**.
 
@@ -140,5 +139,5 @@ Supponiamo di voler condividere il dashboard con il responsabile. Con i colleghi
 * [Introduzione a Power BI Desktop](desktop-getting-started.md)
 * [Concetti di base sulle finestre di progettazione del servizio Power BI](service-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/).
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/).
 

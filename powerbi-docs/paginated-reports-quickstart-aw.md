@@ -3,18 +3,17 @@ title: 'Esercitazione: Creare un report impaginato e caricarlo nel servizio Powe
 description: In questa esercitazione, ci si connette a un database SQL di Azure di esempio. Poi si usa una procedura guidata in Generatore report per creare un report impaginato. Quindi si carica il report impaginato in un'area di lavoro in una capacità Premium nel servizio Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 59d3f943ff893024beceff59ce3d0db6bc4d764b
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: ab4cb14936ceff52a78f713877064d525de4b104
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431684"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875421"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Esercitazione: Creare un report impaginato e caricarlo nel servizio Power BI
 
@@ -287,7 +286,7 @@ Si vedrà ora come apportare un altro miglioramento della formattazione prima di
 
 Ora che è stato creato il report impaginato, è possibile caricarlo nel servizio Power BI.
 
-1. Nel riquadro di spostamento a sinistra del servizio Power BI (http://app.powerbi.com) selezionare **Aree di lavoro** > **Crea area di lavoro**.
+1. Nel riquadro di spostamento del servizio Power BI (https://app.powerbi.com) ) selezionare **Aree di lavoro** > **Crea area di lavoro**.
 
 2. Assegnare all'area di lavoro il nome **Azure AW** o un altro nome univoco. Per il momento si è l'unico membro. 
 

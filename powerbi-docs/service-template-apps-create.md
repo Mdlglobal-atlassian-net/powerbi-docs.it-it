@@ -2,19 +2,18 @@
 title: Creare app modello in Power BI
 description: Come creare in Power BI app modello distribuibili a tutti i clienti Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 836dfcc0569c906b145df3e3f3d14f03c08d4938
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432149"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871485"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creare un'app modello in Power BI
 
@@ -86,7 +85,7 @@ Ora che l'area di lavoro include contenuto, è possibile integrare tale contenut
 
     **Struttura di spostamento**
 
-    Attivare il **Nuovo generatore di struttura di spostamento** in cui è possibile definire il riquadro di spostamento a sinistra dell'app. Per informazioni dettagliate, vedere [Progettare l'esperienza di spostamento](service-create-distribute-apps.md#design-the-navigation-experience) in questo articolo.
+    Attivare il **Nuovo generatore di struttura di spostamento** in cui è possibile definire il riquadro di spostamento dell'app. Per informazioni dettagliate, vedere [Progettare l'esperienza di spostamento](service-create-distribute-apps.md#design-the-navigation-experience) in questo articolo.
 
    ![Impostare la pagina di destinazione dell'app](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     

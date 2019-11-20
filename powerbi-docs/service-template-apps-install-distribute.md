@@ -2,19 +2,18 @@
 title: Distribuire le app modello nell'organizzazione - Power BI
 description: Informazioni sull'installazione, la personalizzazione e la distribuzione di app modello nell'organizzazione in Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 4db4fbc0dd34ae558514058e0aa7af0a704d8411
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432332"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871409"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Installare e distribuire le app modello nell'organizzazione - Power BI
 
@@ -45,7 +44,7 @@ In un browser selezionare il collegamento seguente per aprire AppSource con filt
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Cercare in AppSource dal servizio Power BI
 
-1. Nel riquadro di spostamento a sinistra nel servizio Power BI selezionare **App** > **Scarica app**.
+1. Nel riquadro di spostamento del servizio Power BI selezionare **App** > **Scarica app**.
 
     ![Scarica app](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -69,7 +68,7 @@ In un browser selezionare il collegamento seguente per aprire AppSource con filt
     - **Connetti dati**: modificare l'origine dati dai dati di esempio alla propria origine dati. È possibile ridefinire i parametri dei set di dati e le credenziali dell'origine dati. Vedere [Limitazioni note](service-template-apps-tips.md#known-limitations) nell'articolo dei suggerimenti sulle app modello. 
     - **Vai all'area di lavoro** (opzione più avanzata): è possibile apportare qualsiasi modifica consentita dal generatore di app.
 
-    In alternativa, ignorare questa finestra di dialogo e accedere all'area di lavoro associata direttamente tramite **Aree di lavoro** nel riquadro di spostamento a sinistra.
+    In alternativa ignorare questa finestra di dialogo e accedere direttamente all'area di lavoro associata tramite **Aree di lavoro** nel riquadro di spostamento.
     >[!NOTE]
     >L'installazione di un'app modello ha installato un'*app aziendale* e un'*area di lavoro*. Altre informazioni sulla [distribuzione delle app in Power BI](service-create-distribute-apps.md).
  

@@ -2,7 +2,6 @@
 title: Creare un report da un set di dati
 description: Creare un report di Power BI da un set di dati.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,19 +9,19 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 1993ac0b300bb582d7b8a1946ff63cf6316c2d52
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432213"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871759"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Creare un report nel servizio Power BI importando un set di dati
 Dopo aver letto [Report in Power BI](consumer/end-user-reports.md) si supponga di voler creare un report personalizzato. Ci sono diversi modi per creare un report. In questo articolo si inizia creando un report di base nel servizio Power BI da un set di dati di Excel. Una volta apprese le nozioni di base relative alla creazione di un report, vedere gli argomenti più avanzati elencati in [Passaggi successivi](#next-steps) alla fine di questo articolo.  
 
 ## <a name="prerequisites"></a>Prerequisiti
 - [Iscriversi al servizio Power BI](service-self-service-signup-for-power-bi.md). Per creare report con Power BI Desktop, vedere [Visualizzazione report in Power BI Desktop](desktop-report-view.md). 
-- [Scaricare il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio](http://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business o in locale.
+- [Scaricare il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio](https://go.microsoft.com/fwlink/?LinkId=529778) e salvarlo in OneDrive for Business o in locale.
 
 ## <a name="import-the-dataset"></a>Importare il set di dati
 In questo metodo di creazione del report si inizia con un set di dati e un'area di disegno report vuota. È possibile seguire la procedura con il set di dati di Excel dell'esempio di analisi delle vendite al dettaglio.
@@ -30,7 +29,7 @@ In questo metodo di creazione del report si inizia con un set di dati e un'area 
 1. Poiché il report verrà creato in un'area di lavoro del servizio Power BI, selezionare un'area di lavoro esistente o crearne una.
    
    ![Elenco di aree di lavoro](media/service-report-create-new/power-bi-workspaces2.png)
-2. Nella parte inferiore del riquadro di spostamento sinistro selezionare **Recupera dati**.
+2. Nella parte inferiore del riquadro di spostamento selezionare **Recupera dati**.
    
    ![Recupera dati](media/service-report-create-new/power-bi-get-data3.png)
 3. Selezionare **File** e passare al percorso in cui è stato salvato l'esempio di analisi delle vendite al dettaglio.
@@ -93,5 +92,5 @@ Continuare con l'esplorazione dei dati e con l'aggiunta di visualizzazioni. Quan
 ## <a name="next-steps"></a>Passaggi successivi
 
 * Informazioni su come [aggiungere visualizzazioni a un dashboard](service-dashboard-pin-tile-from-report.md)   
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

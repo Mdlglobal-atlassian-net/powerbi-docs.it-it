@@ -2,7 +2,6 @@
 title: Parte 2, Aggiungere visualizzazioni a un report di Power BI
 description: Parte 2, Aggiungere visualizzazioni a un report di Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc50c54f826dd695b0aab459bd3d68d0da792abe
-ms.sourcegitcommit: 2a61d8b1e2707a24fe1284a8a4034b11c3999842
+ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049179"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881006"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte 2, Aggiungere visualizzazioni a un report di Power BI
 
@@ -29,7 +28,7 @@ In questa esercitazione verrà esaminato in dettaglio il set di dati Retail Anal
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Questa esercitazione usa il [file PBIX di esempio Retail Analysis](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) (Analisi delle vendite al dettaglio).
+Questa esercitazione usa il [file PBIX di esempio Retail Analysis](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) (Analisi delle vendite al dettaglio).
 
 1. Nella sezione in alto a sinistra della barra dei menu di Power BI Desktop selezionare **File** > **Apri**.
    
@@ -59,7 +58,7 @@ Creare una visualizzazione selezionando un campo dal riquadro **Campi**. Il tipo
 
 5. [Ridimensionare la visualizzazione](power-bi-visualization-move-and-resize.md) selezionandola e trascinando uno dei cerchi sul contorno. Ingrandirla quanto basta per eliminare la barra di scorrimento, ma lasciando spazio sufficiente per aggiungere un'altra visualizzazione.
    
-   ![](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
+   ![screenshot dell'oggetto visivo grafico ad area](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
 6. [Salvare il report](../service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>Aggiungere una visualizzazione della mappa in cui sono inclusi i dati sulle vendite per località
@@ -68,9 +67,9 @@ Creare una visualizzazione selezionando un campo dal riquadro **Campi**. Il tipo
    ![Grafico ad area](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
 2. Aggiungere una legenda.  Per visualizzare i dati in base al nome dell'archivio, trascinare **Store** > **Chain**.  
-   ![](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+   ![area di disegno report con freccia da Chain nell'elenco dei campi a Chain nel bucket Legenda](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 * Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md).  
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

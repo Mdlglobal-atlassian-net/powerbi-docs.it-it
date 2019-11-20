@@ -2,19 +2,18 @@
 title: Risoluzione dei problemi del modello DirectQuery in Power BI Desktop
 description: Risolvere i problemi del modello DirectQuery.
 author: peter-myers
-manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac585aef180bb852f79ad5135778cec20f35cf2d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 623a0bbd187a997003ce7b82cc76d5c4fbe9ce44
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432964"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868057"
 ---
 # <a name="directquery-model-troubleshooting-in-power-bi-desktop"></a>Risoluzione dei problemi del modello DirectQuery in Power BI Desktop
 
@@ -92,7 +91,7 @@ L'approccio consigliato per l'acquisizione di una traccia utile per la diagnosi 
 - Aprire SQL Server Profiler ed esaminare la traccia, come descritto in precedenza. Tenere presente che il file di traccia verrà eliminato al momento della chiusura di Power BI Desktop. Altre azioni in Power BI Desktop non verranno visualizzate immediatamente: è necessario chiudere e riaprire il file di traccia per vedere i nuovi eventi.
 - Mantenere le singole sessioni relativamente ridotte (10 secondi di azioni, non centinaia) per semplificare l'interpretazione del file di traccia e anche per tenere conto del limite applicato alle dimensioni del file stesso, dal quale, nel caso di sessioni di lunga durata, possono essere eliminati gli eventi meno recenti.
 
-## <a name="understand-the-form-of-query-sent-by-power-bi-desktop"></a>Informazioni sul formato delle query inviate da Power BI Desktop
+## <a name="understand-queries-sent-to-the-source"></a>Informazioni sulle query inviate all'origine
 
 Il formato generale delle query generate e inviate da Power BI Desktop usa sottoquery per ognuna delle tabelle del modello a cui si fa riferimento, dove la sottoquery è definita dalla query di Power Query. Si supponga ad esempio che siano presenti le tabelle TPC-DS seguenti in un database relazionale di SQL Server:
 

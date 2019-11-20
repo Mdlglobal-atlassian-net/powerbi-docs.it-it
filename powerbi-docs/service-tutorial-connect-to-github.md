@@ -2,7 +2,6 @@
 title: 'Esercitazione: Connettersi a un repository GitHub con Power BI'
 description: In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7f7fde7fcabc29238d9558739eff02519ef9cca3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020024"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871265"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Esercitazione: Connettersi a un repository GitHub con Power BI
 In questa esercitazione si esegue la connessione ai dati reali nel servizio GitHub usando Power BI, il quale crea automaticamente dashboard e report. È possibile connettersi al *repository* pubblico di contenuti di Power BI e trovare risposte a domande relative a: sul numero di persone che contribuiscono al contento pubblico di Power BI, sapere chi contribuisce di più, in quale giorno della settimana si registrano più contributi e altre domande. 
@@ -45,7 +44,7 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
 
 ## <a name="how-to-connect"></a>Come connettersi
 1. Accedere al servizio Power BI (https://app.powerbi.com). 
-2. Selezionare **App** e **Scarica app** nel riquadro di spostamento a sinistra.
+2. Nel riquadro di spostamento selezionare **App** e quindi **Scarica app**.
    
    ![Scarica app in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -72,15 +71,15 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
    A questo punto Power BI può connettersi a GitHub e ai dati.  I dati vengono aggiornati una volta al giorno.
 
 8. Quando Power BI importa i dati, vengono visualizzati i contenuti della nuova area di lavoro GitHub. 
-9. Selezionare la freccia accanto al nome dell'area di lavoro nella barra di spostamento a sinistra. È possibile vedere che l'area di lavoro contiene un dashboard e un report. 
+9. Selezionare la freccia accanto al nome dell'area di lavoro nel riquadro di spostamento. È possibile vedere che l'area di lavoro contiene un dashboard e un report. 
 
-    ![App nel riquadro di spostamento a sinistra](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+    ![App nel riquadro di spostamento](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
 10. Selezionare **Altre opzioni** (...) accanto al nome del dashboard > **Rinomina** > digitare **Dashboard GitHub**.
  
     ![Riquadro di GitHub in Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
-8. Selezionare l'icona di spostamento globale per ridurre a icone il riquadro di spostamento di sinistra e avere più spazio.
+8. Selezionare l'icona di spostamento globale per ridurre a icona il riquadro di spostamento e avere più spazio.
 
     ![Icona di spostamento globale](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 
@@ -129,7 +128,7 @@ Per completare questa esercitazione, è necessario un account GitHub, se non se 
 
 Dopo aver completo l'esercitazione, è possibile eliminare l'app GitHub. 
 
-1. Selezionare **App** dal riquadro di spostamento a sinistra.
+1. Nel riquadro di spostamento selezionare **App**.
 2. Passare il mouse sul riquadro di GitHub e selezionare l'icona a forma di bidone della spazzatura **Delete** (Elimina).
 
     ![Eliminare l'app GitHub](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)

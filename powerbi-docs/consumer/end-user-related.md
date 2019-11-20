@@ -2,7 +2,6 @@
 title: Visualizzare il contenuto correlato da dashboard, report e set di dati
 description: Navigazione semplificata, visualizzazione del contenuto correlato nel dashboard, report e set di dati
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 10fcb7420c261379d596666589a0f6707cf70160
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019456"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862269"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
 
@@ -54,9 +53,9 @@ A questo punto, è possibile intervenire direttamente sul contenuto correlato.  
 ## <a name="view-related-content-for-a-dataset"></a>Visualizzare il contenuto correlato di un set di dati
 Per aprire il riquadro *Contenuto correlato* sono necessarie almeno le autorizzazioni di **visualizzazione** per un set di dati. In questo esempio verrà usato l'esempio [Procurement Analysis Sample](../sample-procurement.md).
 
-Dalla barra di spostamento individuare l'intestazione **Aree di lavoro** e selezionare un'area di lavoro nell'elenco. Se è presente contenuto in un'area di lavoro, verrà visualizzato nell'area di disegno a destra. 
+Nel riquadro di spostamento trovare l'intestazione **Aree di lavoro** e selezionare un'area di lavoro nell'elenco. Se è presente contenuto in un'area di lavoro, verrà visualizzato nell'area di disegno a destra. 
 
-![aree di lavoro nella barra di spostamento a sinistra](./media/end-user-related/power-bi-workspace.png)
+![aree di lavoro nel riquadro di spostamento](./media/end-user-related/power-bi-workspace.png)
 
 
 In un'area di lavoro selezionare la scheda **Set di dati** e quindi trovare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png).
@@ -76,5 +75,5 @@ A questo punto, è possibile intervenire direttamente sul contenuto correlato. A
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Introduzione al servizio Power BI](../service-get-started.md)
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Panoramica dell'accessibilità in Power BI
 description: Funzionalità e suggerimenti per la creazione di report accessibili a Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 13017fed9a7cd54cde624424894341dc2ced0d9b
-ms.sourcegitcommit: ef6de7067ecb2bbc86d912784376a1627acc478d
+ms.openlocfilehash: e61df101d26dd95a771a64ce7633e40fcd9c9123
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73180977"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878908"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Panoramica dell'accessibilità in Power BI
 Quando si utilizza Power BI, è importante tenere conto dei diversi tipi di utenti che possono interagire con i report. La creazione e la presentazione di report di facile esplorazione e comprensione con la tastiera o con utilità per la lettura dello schermo consentono agli utenti con problemi di vista o fisici di ricevere le stesse informazioni.
@@ -30,10 +29,10 @@ Per progettazione universale si intende la progettazione di prodotti utilizzabil
 
 ## <a name="accessibility-standards"></a>Standard di accessibilità
 
-Power BI è conforme agli standard di accessibilità descritti di seguito.  Ciò garantisce che le esperienze di Power BI create siano accessibili al maggior numero di persone possibile.
+Power BI aderisce agli standard di accessibilità descritti di seguito.  Ciò garantisce che le esperienze di Power BI create siano accessibili al maggior numero di persone possibile.
 
 ### <a name="wcag-21"></a>WCAG 2.1
-Power BI aderisce alle linee guida per l'accessibilità del contenuto Web (WCAG, Web Content Accessibility Guidelines) 2.1. I principi chiave dello standard WCAG sono tre:
+Web Content Accessibility (WCAG) facilita l'accesso ai contenuti Web per le persone disabili. I principi chiave dello standard WCAG sono tre:
 
 1. **Percepibilità**: le informazioni e i componenti dell'interfaccia utente devono essere presentati in modo che siano percepibili dagli utenti.
 2. **Azionabilità**: i componenti dell'interfaccia utente e gli strumenti di spostamento devono essere azionabili.

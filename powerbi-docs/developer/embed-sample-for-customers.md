@@ -3,19 +3,18 @@ title: Funzionalità di analisi incorporata per incorporare contenuto di Power B
 description: Informazioni su come integrare o incorporare un report, un dashboard o un riquadro in un'applicazione tramite le API di Power BI per l'analisi incorporata per i clienti. Informazioni su come integrare Power BI nell'applicazione usando software di analisi incorporata, strumenti di analisi incorporata o strumenti di business intelligence incorporata.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: rkarlin
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 04/02/2019
-ms.openlocfilehash: e35f4f7bd870e51810d49c43a058e467bd724e6e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 24a9c0069cb80a20a84823655437a27a4f6c0e9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429662"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877702"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti
 
@@ -120,7 +119,7 @@ Per ottenere il valore **applicationId** seguire questa procedura:
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nel riquadro di spostamento a sinistra, scegliere **Tutti i servizi** e selezionare **Registrazioni app**.
+2. Nel riquadro di spostamento selezionare **Tutti i servizi** e quindi selezionare **Registrazioni app**.
 
     ![Ricerca di Registrazioni per l'app](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -187,7 +186,7 @@ Per ottenere il valore **ApplicationSecret**, seguire questa procedura:
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nel riquadro di spostamento a sinistra scegliere **Tutti i servizi** e selezionare **Registrazioni per l'app**.
+2. Nel riquadro di spostamento selezionare **Tutti i servizi** e quindi selezionare **Registrazioni app**.
 
     ![Ricerca di Registrazioni per l'app](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
@@ -460,4 +459,4 @@ In questa esercitazione è stato descritto come incorporare il contenuto di Powe
 > [!div class="nextstepaction"]
 >[Incorporare contenuto per l'organizzazione](embed-sample-for-your-organization.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

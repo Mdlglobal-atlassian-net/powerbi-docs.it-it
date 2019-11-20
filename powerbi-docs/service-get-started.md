@@ -2,7 +2,6 @@
 title: Introduzione al servizio Power BI
 description: Introduzione al servizio Power BI online (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 681c55f4425729b96860367858273d7eb1ad73b6
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060406"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872335"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Esercitazione: Introduzione al servizio Power BI
 Questa esercitazione è un'introduzione ad alcune delle funzionalità del *servizio Power BI* e descrive come connettersi ai dati, creare un report e un dashboard e porre domande sui dati. È possibile eseguire molte altre operazioni nel servizio Power BI e questa esercitazione è da intendersi come una semplice introduzione. Per comprendere come si posiziona il servizio Power BI rispetto alle altre offerte Power BI, è consigliabile leggere [Che cos'è Power BI](fundamentals/power-bi-overview.md).
@@ -35,7 +34,7 @@ In questa esercitazione viene completata la procedura seguente:
 > * Pulire le risorse eliminando il set di dati, il report e il dashboard.
 
 > [!TIP]
-> Se si preferisce un corso di formazione gratuito per l'autoapprendimento, [iscriversi al corso Analyzing and Visualizing Data su EdX](http://aka.ms/edxpbi) (Analisi e visualizzazione dei dati).
+> Se si preferisce un corso di formazione gratuito per l'autoapprendimento, [iscriversi al corso Analyzing and Visualizing Data su EdX](https://aka.ms/edxpbi) (Analisi e visualizzazione dei dati).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Iscriversi al servizio Power BI
 Se non si ha un account Power BI, [iscriversi per ottenere una versione di prova gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) prima di iniziare.
@@ -46,10 +45,10 @@ Dopo aver creato un account, immettere *app.powerbi.com* nel browser per aprire 
 
 Quando si vuole creare un report di Power BI, spesso si inizia in Power BI Desktop. In questo caso si inizierà da zero, creando un report nel servizio Power BI.
 
-In questa esercitazione si ottengono i dati da un file CSV. Per iniziare, [Scaricare il file CSV di esempio Financial](http://go.microsoft.com/fwlink/?LinkID=521962).
+In questa esercitazione si ottengono i dati da un file CSV. Per iniziare, [Scaricare il file CSV di esempio Financial](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Accedere a Power BI](http://www.powerbi.com/). Non si ha un account? Nessun problema: è possibile iscriversi a una versione di prova gratuita.
-2. Power BI viene aperto nel browser. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento sinistro.
+1. [Accedere a Power BI](https://www.powerbi.com/). Non si ha un account? Nessun problema: è possibile iscriversi a una versione di prova gratuita.
+2. Power BI viene aperto nel browser. Selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento.
 
     Verrà aperta la pagina **Recupera dati**.   
 
@@ -73,7 +72,7 @@ In questa esercitazione si ottengono i dati da un file CSV. Per iniziare, [Scari
 
     ![Canvas del report vuoto](media/service-get-started/power-bi-service-blank-report.png)
 
-7. Si noti l'opzione **Visualizzazione di lettura** sulla barra di spostamento superiore. Se questa opzione è visualizzata, significa che si sta usando la visualizzazione di modifica. Per acquisire familiarità con l'editor di report, è possibile [visualizzare la presentazione](service-the-report-editor-take-a-tour.md).
+7. Si noti l'opzione **Visualizzazione di lettura** nel riquadro di spostamento superiore. Se questa opzione è visualizzata, significa che si sta usando la visualizzazione di modifica. Per acquisire familiarità con l'editor di report, è possibile [visualizzare la presentazione](service-the-report-editor-take-a-tour.md).
 
     ![Opzione Visualizzazione di lettura](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Ora che si è connessi ai dati, è possibile iniziare l'esplorazione.  Se si tro
    
 8. Selezionare il nuovo riquadro nel dashboard per tornare al report. Power BI reindirizzerà l'utente al report nella visualizzazione di lettura. 
 
-1. Per tornare alla visualizzazione di modifica, selezionare **Altre opzioni** (...) nella barra di spostamento superiore > **Modifica**. Una volta tornati nella visualizzazione di modifica, è possibile continuare a esplorare e ad aggiungere i riquadri.
+1. Per tornare alla visualizzazione di modifica, selezionare **Altre opzioni** (...) nel riquadro di spostamento superiore > **Modifica**. Una volta tornati nella visualizzazione di modifica, è possibile continuare a esplorare e ad aggiungere i riquadri.
 
     ![Selezionare Modifica per modificare il report](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>Passaggio 3: Esplorare i dati con Domande e risposte
 
-Per l'esplorazione rapida dei dati, provare a formulare una domanda nella casella Domande e risposte. Domande e risposte crea query in linguaggio naturale sui dati. In un dashboard, la casella Domande e risposte è nella parte superiore (**Porre una domanda sui dati**). In un report, si trova nella barra di spostamento superiore (**Porre una domanda**).
+Per l'esplorazione rapida dei dati, provare a formulare una domanda nella casella Domande e risposte. Domande e risposte crea query in linguaggio naturale sui dati. In un dashboard, la casella Domande e risposte è nella parte superiore (**Porre una domanda sui dati**). In un report si trova nel riquadro di spostamento superiore (**Porre una domanda**).
 
 1. Per tornare al dashboard, selezionare **Area di lavoro personale** nella barra nera di **Power BI**.
 
@@ -198,7 +197,7 @@ Di seguito viene descritta un'ultima interazione da osservare, prima di iniziare
 ## <a name="clean-up-resources"></a>Pulire le risorse
 Dopo aver completo l'esercitazione, è possibile eliminare il set di dati, il report e il dashboard. 
 
-1. Nella barra di spostamento a sinistra verificare che sia attiva l'**Area di lavoro personale**.
+1. Nel riquadro di spostamento verificare che sia attiva l'**Area di lavoro personale**.
 2. Selezionare la scheda **Set di dati** e individuare il set di dati che è stato importato per questa esercitazione.  
 3. Selezionare **Altre opzioni** (...) > **Elimina**.
 

@@ -2,19 +2,18 @@
 title: Visualizzare un report
 description: Questo argomento illustra i metodi disponibili per i consumer e gli utenti finali di Power BI per aprire e visualizzare un report di Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: fab986cbd5c6b0a55c18157d663eea1ca0fd537e
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861960"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
 
@@ -33,11 +32,11 @@ Di seguito viene descritta la procedura per aprire un report che è stato condiv
    ![Home page](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Aprire un report condiviso con l'utente
-I *designer* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo automaticamente. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nella barra di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
+I *designer* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo automaticamente. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nel riquadro di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
 
 1. Aprire il servizio Power BI (app.powerbi.com).
 
-2. Dalla barra di navigazione selezionare **Home** per visualizzare l'area Home.  
+2. Nel riquadro di spostamento selezionare **Home** per visualizzare l'area Home.  
 
    ![Area Home](./media/end-user-report-open/power-bi-select-home-new.png)
    
@@ -66,7 +65,7 @@ I *designer* di Power BI possono condividere un singolo report direttamente con 
    ![Adatta alla pagina](./media/end-user-report-open/power-bi-actual.png)
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Aprire un report che fa parte di un'app
-Se si ricevono app da colleghi o da AppSource, tali app sono disponibili da Home e dal contenitore **App** nella barra di spostamento. Un'[app](end-user-apps.md) è un'aggregazione di dashboard e report.
+Se si ricevono app da colleghi o da AppSource, tali app sono disponibili nell'area Home e nel contenitore **App** del riquadro di spostamento. Un'[app](end-user-apps.md) è un'aggregazione di dashboard e report.
 
 ### <a name="prerequisites"></a>Prerequisiti
 Per procedere, scaricare l'app Sales and Marketing.
@@ -75,7 +74,7 @@ Per procedere, scaricare l'app Sales and Marketing.
 1. Selezionare **Scarica adesso** > **Continua** > **Installa** per installare l'app nel contenitore App. 
 
 È possibile aprire l'app dal contenitore App o da Home.
-1. Tornare a Home selezionando **Home** sulla barra di spostamento.
+1. Tornare a Home selezionando **Home** nel riquadro di spostamento.
 
 7. Scorrere verso il basso fino a visualizzare **App personali**.
 
@@ -101,7 +100,7 @@ I report possono essere aperti da un dashboard. La maggior parte dei [riquadri](
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Altri modi per aprire un report
 Quando si acquisisce maggiore familiarità con gli spostamenti all'interno del servizio Power BI, sarà possibile individuare i flussi di lavoro ottimali per le proprie esigenze. Altri modi per accedere ai report:
-- Dalla barra di spostamento usando **Preferiti** e **Recenti**    
+- Nel riquadro di spostamento usando **Preferiti** e **Recenti**    
 - Tramite [Visualizza elementi correlati](end-user-related.md).    
 - In un messaggio di posta elettronica in caso di [condivisione con l'utente](../service-share-reports.md) o quando si [configura un avviso](end-user-alerts.md)    
 - Dal [centro notifiche](end-user-notification-center.md).    

@@ -2,7 +2,6 @@
 title: "Pacchetti di contenuto dell'organizzazione: Gestire e aggiornare"
 description: Scoprire di più sulla gestione, sull'aggiornamento e sull'eliminazione dei pacchetti di contenuto aziendali in Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f2a80b075a56cdeccfa4c3675cdf31504b6a7e5d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431773"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881262"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Gestire, aggiornare ed eliminare pacchetti di contenuto aziendali
 > [!NOTE]
@@ -87,5 +86,5 @@ Solo l'autore di un pacchetto di contenuto può eliminarlo da AppSource. Se è s
 ## <a name="next-steps"></a>Passaggi successivi
 * [Introduzione ai pacchetti di contenuto aziendali](service-organizational-content-pack-introduction.md)
 * [Creare e distribuire un'app in Power BI](service-create-distribute-apps.md) 
-* Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+* Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

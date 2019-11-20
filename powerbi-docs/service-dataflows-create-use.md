@@ -2,7 +2,6 @@
 title: Creazione e uso di flussi di dati in Power BI
 description: Informazioni su come creare e usare flussi di dati in Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 38ecb04b45ef45a8345397c5b9ec3e89d9dfd232
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432070"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877386"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creazione e uso di flussi di dati in Power BI
 
@@ -36,7 +35,7 @@ I passaggi principali per l'uso di un flusso di dati sono tre:
 Nelle sezioni seguenti vengono esaminati questi passaggi e sarà possibile acquisire familiarità con gli strumenti disponibili per completare ogni passaggio. è possibile iniziare subito.
 
 ## <a name="creating-a-dataflow"></a>Creazione di un flusso di dati
-Per creare un flusso di dati, avviare il servizio Power BI in un browser e quindi selezionare un'**area di lavoro**  dal riquadro di spostamento a sinistra, come illustrato nella schermata seguente. I flussi di dati non sono disponibili nell'*area di lavoro personale* nel servizio Power BI. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati. 
+Per creare un flusso di dati, avviare il servizio Power BI in un browser e quindi selezionare un'**area di lavoro** dal riquadro di spostamento, come illustrato nella schermata seguente. I flussi di dati non sono disponibili nell'*area di lavoro personale* nel servizio Power BI. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati. 
 
 ![Creare un flusso di dati in Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 

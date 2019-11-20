@@ -2,7 +2,6 @@
 title: Gestire l'archiviazione dei dati nelle aree di lavoro
 description: Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: ea187de55eec2667abe2eed017481180910b7619
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431376"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873653"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gestire l'archiviazione dei dati nelle aree di lavoro di Power BI
 
@@ -46,7 +45,7 @@ Le dimensioni di un dashboard da condividere variano a seconda di ciò che è st
 
 È possibile sapere quante risorse di archiviazione dati si stanno usando nell'account di Power BI e gestire l'account.
 
-1. Per gestire lo spazio di archiviazione personale, passare a **Area di lavoro personale** nel riquadro di spostamento sinistro.
+1. Per gestire le risorse di archiviazione personali passare ad **Area di lavoro personale** nel riquadro di spostamento.
    
     ![Area di lavoro personale](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra \> **Gestisci archivio personale**.
@@ -104,5 +103,5 @@ Questo limite è indicato anche all'interno di **Gestisci archivio personale**.
 
  ![Limite di archiviazione superato](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+ Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

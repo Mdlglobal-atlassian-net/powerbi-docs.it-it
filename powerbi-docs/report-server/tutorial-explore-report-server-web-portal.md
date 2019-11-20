@@ -2,19 +2,18 @@
 title: 'Esercitazione: Esplorare Server di report di Power BI in una macchina virtuale'
 description: In questa esercitazione si crea una macchina virtuale con Server di Report di Power BI già installato e si esplora il portale Web.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: cd3e032375c5edaba2b0f90f982d0dbe5591c913
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021616"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859246"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Esercitazione: Esplorare il portale Web di Server di report di Power BI in una macchina virtuale
 In questa esercitazione si crea una macchina virtuale di Azure con Server di Report di Power BI già installato per imparare a visualizzare, modificare e gestire report impaginati e indicatori KPI di esempio di Power BI.
@@ -72,7 +71,7 @@ Il team di Power BI ha creato una macchina virtuale che viene fornita con Server
 
 ## <a name="connect-to-your-virtual-machine"></a>Connettersi alla macchina virtuale
 
-1. Nel riquadro di spostamento a sinistra di Azure selezionare **Macchine virtuali**. 
+1. Nel riquadro di spostamento di Azure selezionare **Macchine virtuali**. 
 
 2. Nella casella **Filtra per nome** digitare "report". 
 
@@ -108,7 +107,7 @@ Ecco gli elementi che compaiono sul desktop all'apertura della macchina virtuale
 |![Numero 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Apre il portale Web di Server di report di Power BI nel browser |
 |![Numero 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Avvia SQL Server Data Tools per la creazione di report impaginati (con estensione RDL) |
 
-Fare doppio clic sull'icona del **portale Web del server di report**. Il browser apre `http://localhost/reports/browse`. Nel portale Web sono visibili vari file raggruppati per tipo. 
+Fare doppio clic sull'icona del **portale Web del server di report**. Il browser apre `https://localhost/reports/browse`. Nel portale Web sono visibili vari file raggruppati per tipo. 
 
 ![Portale Web del server di report di Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 

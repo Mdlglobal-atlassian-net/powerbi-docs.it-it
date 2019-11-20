@@ -2,7 +2,6 @@
 title: Modificare il tipo di visualizzazione in un report
 description: Modificare il tipo di visualizzazione del report nel servizio Power BI e in Power BI Desktop
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,16 +9,18 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f002237c7417a749506d1343fd50630852286f30
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019085"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871031"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Modificare il tipo di visualizzazione in un report di Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+## <a name="select-a-new-visualization-type"></a>Selezionare un nuovo tipo di visualizzazione
 
 Provare tipi diversi di visualizzazioni nel servizio Power BI e in Power BI Desktop per trovare quello che descrive meglio i dati. 
 
@@ -33,10 +34,10 @@ Provare tipi diversi di visualizzazioni nel servizio Power BI e in Power BI Desk
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 Se si modifica il tipo di visualizzazione nel report dopo averlo aggiunto al dashboard, il riquadro non viene automaticamente aggiornato. Se quindi il servizio Power BI è stato usato per aggiungere la visualizzazione come grafico a linee e la visualizzazione è stata poi trasformata in un grafico a barre nel report, la versione dei dati già aggiunta resterà sotto forma di grafico a linee. Aggiungere il grafico a barre per visualizzarlo nel dashboard.
 
-### <a name="next-steps"></a>Passaggi successivi
+## <a name="next-steps"></a>Passaggi successivi
 Altre informazioni sulle [visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)
 
 [Power BI - Concetti di base](../consumer/end-user-basic-concepts.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)
 

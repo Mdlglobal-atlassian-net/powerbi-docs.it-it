@@ -2,7 +2,6 @@
 title: Contenuto sempre aggiornato con Power BI
 description: Informazioni su come Power BI garantisce l'uso della versione più recente di dati, report, dashboard e app.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5d81b1e69d9cfbba6e3ed57f678af75dab1698c3
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019788"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863871"
 ---
 # <a name="your-content-is-up-to-date"></a>Contenuto aggiornato
 
@@ -43,9 +42,9 @@ Il nome del proprietario è disponibile nella barra del titolo di dashboard e re
 
 La schermata dell'app visualizza il nome dello sviluppatore e la data dell'ultimo aggiornamento dell'app.  
 
-1. Nel riquadro di spostamento a sinistra selezionare **App**.
+1. Nel riquadro di spostamento selezionare **App**.
 
-    ![Riquadro di spostamento a sinistra](media/end-user-fresh/power-bi-nav-app.png)
+    ![riquadro di spostamento](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -85,7 +84,7 @@ Il riquadro **Contenuto correlato** visualizza le informazioni sull'ultimo aggio
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Cosa accade se un'app viene eliminata dallo sviluppatore
 
-Se uno sviluppatore elimina un'app, anche i dashboard e i report associati all'app vengono rimossi automaticamente dall'area di lavoro di Power BI. Dashboard e report non saranno più disponibili e l'app non verrà visualizzata nel contenitore App o in un'altra posizione nella barra di spostamento.
+Se uno sviluppatore elimina un'app, anche i dashboard e i report associati all'app vengono rimossi automaticamente dall'area di lavoro di Power BI. I dashboard e i report non saranno più disponibili e l'app non verrà visualizzata nel contenitore App o in un'altra posizione nel riquadro di spostamento.
 
 
 ## <a name="subscribe-to-see-changes"></a>Eseguire la sottoscrizione per visualizzare le modifiche

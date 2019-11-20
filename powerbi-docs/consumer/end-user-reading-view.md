@@ -4,7 +4,6 @@ description: In questo articolo di avvio rapido i **consumer** troveranno inform
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: 17a142249abe1162dbbcff79c476f33eb4b80366
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019586"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862680"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Avvio rapido: Informazioni sulle funzionalità di Power BI per i *consumer*
 In questo Avvio rapido si apprende come interagire con Power BI per trovare informazioni dettagliate derivanti dai dati aziendali. Questo articolo non costituisce un'analisi approfondita, ma piuttosto un esame rapido di varie azioni disponibili per i **consumer** di Power BI.
@@ -50,7 +49,7 @@ Quando si usa il termine "contenuto" in Power BI, si fa riferimento a report, da
 
 Un'*app* è un tipo di contenuto di Power BI che combina tutti i dashboard e i report correlati in un'unica posizione. Un'app può avere uno o più dashboard e uno o più report, tutti aggregati insieme. Le app vengono create dai *designer* di Power BI che distribuiscono e condividono le app con gli *utenti*. 
 
-Un modo per visualizzare le app consiste nel selezionare **App** dalla barra di spostamento e scegliere un'app da aprire.
+Un modo per visualizzare le app consiste nel selezionare **App** nel riquadro di spostamento e scegliere un'app da aprire.
 
 ![Icona Scarica app](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,7 +115,7 @@ Gli oggetti visivi sono costituiti da punti dati e, passando il puntatore del mo
 ![Passare il puntatore per visualizzare i dettagli](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Aggiungere un dashboard ai Preferiti
-Dopo aver aggiunto contenuto ai *Preferiti* sarà possibile accedervi dalla barra di spostamento a sinistra. La barra di spostamento è visibile in quasi tutte le aree di Power BI. Gli elementi preferiti sono in genere i dashboard, le pagine di report e le app a cui si accede più spesso.
+Dopo aver aggiunto contenuto ai *Preferiti* sarà possibile accedere al contenuto nel riquadro di spostamento. Il riquadro di spostamento è visibile in quasi tutte le aree di Power BI. Gli elementi preferiti sono in genere i dashboard, le pagine di report e le app a cui si accede più spesso.
 
 Nell'angolo superiore destro del servizio Power BI selezionare **Aggiungi a Preferiti** o, se non è visibile, selezionare **Altre opzioni** (...) e selezionare **Aggiungi a preferiti** nell'elenco a discesa. 
    
@@ -194,9 +193,9 @@ Oltre a visualizzare i dati usati per creare un oggetto visivo, è anche possibi
 Questa rapida panoramica ha illustrato solo alcune azioni eseguibili dal *consumer* con il servizio Power BI.  
 
 ## <a name="clean-up-resources"></a>Pulire le risorse
-- Se si è connessi a un'app, nella barra di spostamento a sinistra selezionare **App** per aprire l'elenco contenuti App. Passare il mouse sopra l'app da eliminare e selezionare l'icona del Cestino.
+- Se si è connessi a un'app, nel riquadro di spostamento selezionare **App** per aprire l'elenco contenuti App. Passare il mouse sopra l'app da eliminare e selezionare l'icona del Cestino.
 
-- Se è stata eseguita l'importazione o la connessione a un report di esempio di Power BI, nella barra di spostamento a sinistra aprire **Area di lavoro personale**. Usando le schede nella parte superiore trovare il dashboard, il report e il set di dati e selezionare l'icona Cestino per ogni elemento.
+- Se è stata eseguita l'importazione o la connessione a un report di esempio di Power BI, nel riquadro di spostamento aprire **Area di lavoro personale**. Usando le schede nella parte superiore trovare il dashboard, il report e il set di dati e selezionare l'icona Cestino per ogni elemento.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Power BI per i consumatori](end-user-consumer.md)

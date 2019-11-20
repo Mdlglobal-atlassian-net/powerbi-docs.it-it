@@ -2,7 +2,6 @@
 title: Aggiungere una cartella CDM a Power BI come flusso di dati
 description: Configurare un'area di lavoro per archiviare la definizione del flusso di dati e i file di dati in Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3adc642d539ab8e1c1f1f60981a61fdc58a460ab
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432034"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872703"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Aggiungere una cartella CDM a Power BI come flusso di dati (anteprima)
 
@@ -33,7 +32,7 @@ Le sezioni seguenti descrivono come creare un flusso di dati da una cartella CDM
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Creare un flusso di dati da una cartella CDM
 
-Per iniziare a creare un flusso di dati da una cartella CDM, avviare il **servizio Power BI** e selezionare un'**area di lavoro** nel riquadro di spostamento a sinistra. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati.
+Per iniziare a creare un flusso di dati da una cartella CDM, avviare il **servizio Power BI** e selezionare un'**area di lavoro** nel riquadro di spostamento. È anche possibile creare una nuova area di lavoro in cui creare il nuovo flusso di dati.
 
 ![Creare un flusso di dati nel servizio Power BI](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -110,5 +109,5 @@ Per altre informazioni sul modello CDM (Common Data Model), è possibile leggere
 * [Cartelle CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definizione del file del modello CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-È inoltre sempre possibile provare a [porre domande alla Community di Power BI](http://community.powerbi.com/).
+È inoltre sempre possibile provare a [porre domande alla Community di Power BI](https://community.powerbi.com/).
 

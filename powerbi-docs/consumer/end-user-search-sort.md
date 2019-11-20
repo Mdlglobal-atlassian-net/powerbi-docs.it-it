@@ -2,7 +2,6 @@
 title: Cercare e ordinare il contenuto nel servizio Power BI
 description: documentazione per la ricerca e l'ordinamento del contenuto nell'area di lavoro personale di Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d5bc5638d9f98c1a35f57edd1d5d838c91c8ebf2
-ms.sourcegitcommit: 96217747f07d923d1a9d31f67a853f1ef1d17b20
+ms.openlocfilehash: 5a7848cb5931d983ab434a19c934c9e9cb464724
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72891783"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861746"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Spostamento: ricerca e ordinamento del contenuto nel servizio Power BI
 
@@ -47,10 +46,10 @@ Se il contenuto è limitato, la ricerca e l'ordinamento non sono necessari.  In 
 Non tutte le colonne possono essere ordinate. Passare il mouse sulle intestazioni colonna per individuare le colonne che possono essere ordinate.
 
 ___________________________________________________________________
-## <a name="navigation-using-the-navigation-pane"></a>Spostamenti tramite il riquadro di spostamento
-Il riquadro di spostamento classifica il contenuto in modi utili per trovare le informazioni necessarie, rapidamente.  
+## <a name="navigation-using-the-nav-pane"></a>Spostamenti tramite il riquadro di spostamento
+Il riquadro di spostamento classifica il contenuto e consente di trovare le informazioni necessarie in modo semplice e rapido.  
 
-![Riquadro di spostamento a sinistra](./media/end-user-search-sort/power-bi-navbar.png)
+![riquadro di spostamento](./media/end-user-search-sort/power-bi-nav pane.png)
 
 
 - Il contenuto condiviso con l'utente è disponibile in **Condivisi con l'utente corrente**.
@@ -58,7 +57,7 @@ Il riquadro di spostamento classifica il contenuto in modi utili per trovare le 
 - Le app possono essere visualizzate selezionando **App**.
 - **Home** è una visualizzazione a pagina singola del contenuto più importante, del contenuto consigliato e delle fonti di informazioni per l'apprendimento.
 
-È anche possibile contrassegnare il contenuto come [preferito](end-user-favorite.md) e [in primo piano](end-user-featured.md). Scegliere un dashboard o un report che si prevede di visualizzare più spesso e impostarlo come contenuto *in primo piano*. Ogni volta che si apre il servizio Power BI, viene visualizzato per primo il dashboard in primo piano. Se si visitano spesso determinati dashboard e app, è possibile impostarli come preferiti in modo che siano sempre disponibili nel riquadro di spostamento a sinistra.
+È anche possibile contrassegnare il contenuto come [preferito](end-user-favorite.md) e [in primo piano](end-user-featured.md). Scegliere un dashboard o un report che si prevede di visualizzare più spesso e impostarlo come contenuto *in primo piano*. Ogni volta che si apre il servizio Power BI, viene visualizzato per primo il dashboard in primo piano. Se si visitano spesso determinati dashboard e app, è possibile impostarli come preferiti in modo che siano sempre disponibili nel riquadro di spostamento.
 
 ![Riquadro a comparsa Preferiti](./media/end-user-search-sort/power-bi-favorite.png).
 
@@ -70,4 +69,4 @@ Il riquadro di spostamento classifica il contenuto in modi utili per trovare le 
 ## <a name="next-steps"></a>Passaggi successivi
 [Ordinare gli oggetti visivi nei report](end-user-change-sort.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

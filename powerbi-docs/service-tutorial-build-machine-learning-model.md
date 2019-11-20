@@ -2,7 +2,6 @@
 title: 'Esercitazione: creare un modello di Machine Learning in Power BI'
 description: In questa esercitazione viene creato un modello di Machine Learning in Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 75f6449c4795fd0095c46a33b33fd3ef14045e35
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 78b29a4e71e75793e168da25987b3e9c4a8b13f4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432252"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877012"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Esercitazione: creare un modello di Machine Learning in Power BI
 
@@ -47,7 +46,7 @@ Il primo passaggio per la creazione di un flusso di dati consiste nell'avere le 
 
 Per creare le entità nel flusso di dati, accedere al servizio Power BI e passare a un'area di lavoro nella propria capacità dedicata in cui sia abilitata la funzionalità di intelligenza artificiale.
 
-Se non è già presente un'area di lavoro, è possibile crearne una selezionando **Aree di lavoro** nel menu di spostamento di sinistra nel servizio Power BI e selezionando **Crea area di lavoro** nella parte inferiore del pannello visualizzato. Viene aperto un pannello a destra in cui immettere i dettagli dell'area di lavoro. Immettere il nome di un'area di lavoro e selezionare **Avanzate**. Verificare che l'area di lavoro usi la capacità dedicata con il pulsante di opzione e che sia assegnata a un'istanza di capacità dedicata per cui è attivata l'anteprima di intelligenza artificiale. Selezionare quindi **Salva**.
+Se non è già presente un'area di lavoro, è possibile crearne una selezionando **Aree di lavoro** nel menu del riquadro di spostamento del servizio Power BI e selezionando **Crea area di lavoro** nella parte inferiore del pannello visualizzato. Viene aperto un pannello a destra in cui immettere i dettagli dell'area di lavoro. Immettere il nome di un'area di lavoro e selezionare **Avanzate**. Verificare che l'area di lavoro usi la capacità dedicata con il pulsante di opzione e che sia assegnata a un'istanza di capacità dedicata per cui è attivata l'anteprima di intelligenza artificiale. Selezionare quindi **Salva**.
 
 ![Crea un'area di lavoro](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-01.png)
 

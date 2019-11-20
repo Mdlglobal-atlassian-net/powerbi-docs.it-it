@@ -2,7 +2,6 @@
 title: Modalità messa a fuoco e modalità schermo intero - Come fare zoom avanti per visualizzare altri dettagli
 description: Documentazione per visualizzare un dashboard, un riquadro di un dashboard, un report o un oggetto visivo di un report di Power BI in modalità messa a fuoco o in modalità schermo intero
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3a4f120ec64376955433faf04e24dd0e8f623419
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73019812"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852737"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Visualizzare il contenuto in modo più dettagliato: modalità messa a fuoco e modalità schermo intero
 
@@ -38,7 +37,7 @@ La modalità schermo intero e la modalità messa a fuoco sono due modi diversi p
 
 ![Modalità schermo intero del dasboard - prima e dopo](media/end-user-focus/power-bi-dashboards-focus.png)
 
-È possibile visualizzare i contenuti del servizio Power BI (dashboard, pagine di report, riquadri e oggetti visivi) senza la distrazione di menu e barre di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV.   
+È possibile visualizzare i contenuti del servizio Power BI (dashboard, pagine di report, riquadri e oggetti visivi) senza la distrazione di menu e riquadri di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV.   
 
 Per aprire la modalità **schermo intero**, selezionare l'icona di tale modalità ![icona della modalità schermo intero ](media/end-user-focus/power-bi-full-screen-icon.png) dalla barra dei menu del servizio Power BI sopra il dashboard, il report, il riquadro o l'oggetto visivo in modalità messa a fuoco.  Il contenuto selezionato occupa l'intero schermo.
 Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -60,7 +59,7 @@ In modalità messa a fuoco un *utente* di Power BI può interagire con tutti i f
 
 ## <a name="working-in-full-screen-mode"></a>Uso della modalità schermo intero
 
-Per aprire un dashboard o una pagina del report in modalità schermo intero, selezionare l'icona di tale modalità ![icona Schermo intero](media/end-user-focus/power-bi-full-screen-icon.png) dalla barra di spostamento superiore. In modalità schermo intero, spostando il mouse o il cursore, viene visualizzato un menu di scelta rapida. Poiché la modalità schermo intero è disponibile per un'ampia gamma di contenuti, le opzioni del menu di scelta rapida possono variare leggermente, ma sono facilmente comprensibili.  È sufficiente passare il puntatore del mouse su un'icona per visualizzare una definizione.
+Per aprire un dashboard o una pagina del report in modalità schermo intero, selezionare l'icona di tale modalità ![icona Schermo intero](media/end-user-focus/power-bi-full-screen-icon.png) nel riquadro di spostamento superiore. In modalità schermo intero, spostando il mouse o il cursore, viene visualizzato un menu di scelta rapida. Poiché la modalità schermo intero è disponibile per un'ampia gamma di contenuti, le opzioni del menu di scelta rapida possono variare leggermente, ma sono facilmente comprensibili.  È sufficiente passare il puntatore del mouse su un'icona per visualizzare una definizione.
 
 Menu per i dashboard    
 ![Menu per i dashboard](media/end-user-focus/power-bi-full-screen-dash.png)    

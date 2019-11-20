@@ -2,7 +2,6 @@
 title: Informazioni su come connettere Azure Data Lake Storage Gen 2 a Power BI per l'archiviazione dei flussi di dati
 description: Archiviare i dati personali in flussi di dati con Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: df3c8b33de32bb9dd42507cc7bb601cee9f6e575
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432009"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872723"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Connettere Azure Data Lake Storage Gen2 per l'archiviazione dei flussi di dati (anteprima)
 
@@ -105,7 +104,7 @@ Per concedere le autorizzazioni al file system, si applicano impostazioni dell'e
 
 Per trovare le applicazioni del tenant, seguire questa procedura:
 
-1. Nel [portale di Azure](https://portal.azure.com/) selezionare **Azure Active Directory** dal pannello di navigazione a sinistra.
+1. Nel [portale di Azure](https://portal.azure.com/) selezionare **Azure Active Directory** nel riquadro di spostamento.
 2. Nel pannello **Azure Active Directory** selezionare **Applicazioni aziendali**.
 3. Nel menu a discesa **Tipo di applicazione** selezionare **Tutte le applicazioni** e quindi selezionare **Applica**. Viene visualizzato un elenco delle applicazioni del tenant, simile all'immagine seguente.
 
@@ -223,4 +222,4 @@ Per altre informazioni sul modello CDM (Common Data Model), è possibile leggere
 * [Cartelle CDM](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definizione del file del modello CDM](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-È inoltre sempre possibile provare a [porre domande alla Community di Power BI](http://community.powerbi.com/).
+È inoltre sempre possibile provare a [porre domande alla Community di Power BI](https://community.powerbi.com/).

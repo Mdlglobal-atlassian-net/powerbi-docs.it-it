@@ -3,7 +3,6 @@ title: Che cos'è Microsoft Power BI Premium?
 description: Power BI Premium offre capacità dedicate all'organizzazione o al team, con prestazioni più affidabili e volumi di dati superiori, senza richiedere l'acquisto di licenze per ogni utente.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: e57df395fd3efe439cb6ef009cb2c7a9f3fe99f9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431647"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871814"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -166,9 +165,9 @@ A seconda della SKU, Power BI Premium supporta il caricamento di file modello di
 
 ### <a name="size-considerations"></a>Considerazioni sulle dimensioni
 
-I modelli di grandi dimensioni possono richiedere un utilizzo elevato di risorse. Per i modelli con dimensioni maggiori di 1 GB è necessario avere almeno una SKU P1. Anche se la pubblicazione di modelli di grandi dimensioni in aree di lavoro supportate da SKU A fino ad A3 può funzionare, il relativo aggiornamento non funzionerà.
+I set di dati di grandi dimensioni possono richiedere un uso elevato di risorse. Per i set di dati con dimensioni superiori a 1 GB è necessario avere almeno una SKU P1. Anche se la pubblicazione di set di dati di grandi dimensioni in aree di lavoro supportate da SKU A fino ad A3 può funzionare, il relativo aggiornamento non funzionerà.
 
-La tabella seguente descrive gli SKU consigliati in base alle dimensioni del file PBIX:
+La tabella seguente visualizza gli SKU consigliati per il caricamento o la pubblicazione di file con estensione pbix nel servizio Power BI:
 
    |SKU  |Dimensioni PBIX   |
    |---------|---------|
@@ -176,9 +175,11 @@ La tabella seguente descrive gli SKU consigliati in base alle dimensioni del fil
    |P2    | < 6 GB        |
    |P3, P4, P5    | fino a 10 GB   |
 
-Lo SKU A4 di Power BI Embedded equivale allo SKU P1, A5 = P2 e A6 = P3. La pubblicazione di modelli di grandi dimensioni in SKU A ed EM può restituire errori non specifici dell'errore di limitazione delle dimensioni del modello nella capacità condivisa. È probabile che gli errori di aggiornamento per i modelli di grandi dimensioni in SKU A ed EM indichino il timeout. 
+Lo SKU A4 di Power BI Embedded equivale allo SKU P1, A5 = P2 e A6 = P3. La pubblicazione di set di dati di grandi dimensioni in SKU A ed EM può restituire errori non specifici di limitazione delle dimensioni del modello nella capacità condivisa. È probabile che gli errori di aggiornamento per i set di dati di grandi dimensioni in SKU A ed EM indichino il timeout.
 
-I file con estensione pbix rappresentano i dati in *stato di compressione molto elevata*. I dati si espanderanno più volte una volta caricati nella memoria e si espanderanno ulteriormente durante l'aggiornamento dei dati.
+Se si abilitano [modelli di grandi dimensioni](service-premium-large-models.md) in un set di dati, le limitazioni relative alle dimensioni del file con estensione pbix sono valide sia per il caricamento sia per la pubblicazione del file. Se tuttavia è presente una combinazione di aggiornamento incrementale e modelli di grandi dimensioni, i set di dati potrebbero superare di molto i limiti previsti. Con i modelli di grandi dimensioni, le dimensioni del set di dati sono limitate solo dalle dimensioni della capacità di Power BI Premium.
+
+I file con estensione pbix rappresentano i dati in *stato di compressione molto elevata*. I dati si espandono quando vengono caricati in memoria e potrebbero espandersi ulteriormente più volte durante l'aggiornamento dei dati.
 
 L'aggiornamento pianificato dei set di dati di grandi dimensioni può richiedere molto tempo e usare una quantità elevata di risorse. È importante evitare di pianificare un numero eccessivo di aggiornamenti sovrapposti. È consigliabile configurare l'[aggiornamento incrementale](service-premium-incremental-refresh.md) perché è più veloce, più affidabile e usa una quantità minore di risorse.
 

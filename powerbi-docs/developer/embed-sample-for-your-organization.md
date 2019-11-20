@@ -3,19 +3,18 @@ title: Funzionalità di analisi incorporata per incorporare contenuto di Power B
 description: Informazioni su come integrare o incorporare un report (Power BI o impaginato), un dashboard o un riquadro in un'applicazione usando le API di Power BI per l'analisi incorporata per l'organizzazione. Informazioni su come integrare Power BI nell'applicazione usando software di analisi incorporata, strumenti di analisi incorporata o strumenti di business intelligence incorporata.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 9c35d74249516b25a756a8a90ce666092e585a72
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431076"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876010"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione
 
@@ -118,7 +117,7 @@ Per ottenere il valore **applicationId** seguire questa procedura:
 
 1. Accedere al [portale di Azure](https://portal.azure.com).
 
-2. Nel riquadro di spostamento a sinistra, scegliere **Tutti i servizi** e selezionare **Registrazioni app**.
+2. Nel riquadro di spostamento selezionare **Tutti i servizi** e quindi selezionare **Registrazioni app**.
 
 3. Selezionare l'applicazione che deve usare il valore **applicationId**.
 
@@ -429,4 +428,4 @@ In questa esercitazione è stato descritto come incorporare il contenuto di Powe
 > [!div class="nextstepaction"]
 >[Incorporamento per i clienti](embed-sample-for-customers.md)
 
-Per altre domande, [provare a rivolgersi alla community di Power BI](http://community.powerbi.com/).
+Per altre domande, [provare a rivolgersi alla community di Power BI](https://community.powerbi.com/).

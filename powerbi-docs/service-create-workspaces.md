@@ -2,7 +2,6 @@
 title: Creare aree di lavoro classiche in Power BI
 description: Informazioni su come creare aree di lavoro, raccolte di dashboard, report e report impaginati creati per fornire all'organizzazione le metriche strategiche.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1087ac4301a172500c997e78ee3a16695f6b0d73
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73021105"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853544"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Creare aree di lavoro classiche in Power BI
 
@@ -75,7 +74,7 @@ Nelle aree di lavoro correnti è possibile connettersi anche con i pacchetti di 
 
 Per distribuire contenuto ufficiale a un ampio gruppo di destinatari all'interno dell'organizzazione, è possibile pubblicare un'app dall'area di lavoro.  Quando il contenuto è pronto, è possibile scegliere quali dashboard e report pubblicare e quindi pubblicarli come *app*. È possibile creare un'app da ogni area di lavoro.
 
-L'elenco App nel riquadro di spostamento a sinistra mostra tutte le app installate. I colleghi possono ottenere l'app in diversi modi. 
+L'elenco App nel riquadro di spostamento visualizza tutte le app installate. I colleghi possono ottenere l'app in diversi modi. 
 - Possono trovare l'app in Microsoft AppSource e installarla.
 - È possibile inviare un collegamento diretto. 
 - Se l'amministratore di Power BI concede l'autorizzazione, è possibile installarla automaticamente nell'account Power BI dei colleghi. 
@@ -97,4 +96,4 @@ Per fare un confronto, vedere le [differenze tra le nuove aree di lavoro e quell
 ## <a name="next-steps"></a>Passaggi successivi
 * [Installare e usare app in Power BI](service-create-distribute-apps.md)
 - [Creare le nuove aree di lavoro](service-create-the-new-workspaces.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

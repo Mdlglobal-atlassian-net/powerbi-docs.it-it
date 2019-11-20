@@ -3,7 +3,6 @@ title: Incorporare con web part report in SharePoint Online
 description: Con la nuova web part report di Power BI per SharePoint Online è possibile incorporare facilmente report interattivi di Power BI nelle pagine di SharePoint Online.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: 6fb02a3ea31dd3bed6f1013d5e81237345aef40c
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431899"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881892"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -123,8 +122,8 @@ Di seguito sono riportate le impostazioni che è possibile regolare per la web p
 | --- | --- |
 | Nome pagina |Imposta la pagina predefinita della web part. Selezionare un valore nell'elenco a discesa. Se non viene visualizzata alcuna pagina, il report contiene una sola pagina o l'URL incollato contiene un nome di pagina. Rimuovere la sezione del report dall'URL per selezionare una pagina specifica. |
 | Schermo |Adatta il report all'interno della pagina di SharePoint Online. |
-| Show Navigation Pane |Mostra o nasconde il riquadro di spostamento. |
-| Mostra riquadro Filtri |Mostra o nasconde il riquadro filtri. |
+| Mostra il riquadro di spostamento |Visualizza o nasconde il riquadro di spostamento nella pagina. |
+| Show Filter Pane |Mostra o nasconde il riquadro filtri. |
 
 ## <a name="reports-that-do-not-load"></a>Report che non vengono caricati
 
@@ -173,4 +172,4 @@ Gli utenti che visualizzano un report in SharePoint devono avere una **licenza d
 * [Che cos'è Power BI Premium?](service-premium-what-is.md)
 * [Incorporare un report in un portale o un sito Web sicuro](service-embed-secure.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

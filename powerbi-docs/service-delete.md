@@ -2,7 +2,6 @@
 title: Eliminare un dashboard, un report, una cartella di lavoro, un set di dati o un'area di lavoro
 description: Informazioni su come eliminare qualsiasi elemento da Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b010cfafc15c905cd792b9693777af94149cb1fe
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431976"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872534"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminare qualsiasi elemento nel servizio Power BI
 Questo articolo illustra come eliminare un dashboard, un report, una cartella di lavoro, un set di dati, un'app, una visualizzazione e un'area di lavoro nel servizio Power BI.
@@ -90,7 +89,7 @@ Se un set di dati fa parte di uno o più [pacchetti di contenuto aziendali](serv
 L'autore dell'area di lavoro ha la possibilità di eliminarla. In questo caso, l'app associata verrà anche eliminata per tutti i membri del gruppo e rimossa da AppSource se era stata pubblicata nell'intera organizzazione. Eliminare un'area di lavoro non è la stessa cosa che uscirne.
 
 ### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Per eliminare un'area di lavoro se si è amministratori
-1. Nel riquadro di spostamento a sinistra, selezionare **Aree di lavoro**
+1. Nel riquadro di spostamento selezionare **Aree di lavoro**.
 
 2. Selezionare **Altre opzioni** (...) a destra dell'area di lavoro da eliminare e scegliere **Modifica area di lavoro**.
 
@@ -125,7 +124,7 @@ Le app possono essere facilmente rimosse dalla pagina di elenco delle app. Tutta
 ### <a name="remove-an-app-from-your-app-list-page"></a>Rimuovere un'app dalla pagina di elenco delle app
 L'eliminazione di un'applicazione dalla pagina di elenco delle app non elimina l'app per gli altri membri.
 
-1. Nel riquadro di spostamento a sinistra, selezionare **App** per aprire la pagina di elenco delle app.
+1. Nel riquadro di spostamento selezionare **App** per aprire la pagina dell'elenco delle app.
 2. Passare il puntatore sopra l'app da eliminare e selezionare l'icona Elimina ![](media/service-delete/power-bi-delete-report2.png).
 
    ![Selezionare le app](media/service-delete/power-bi-delete-app.png)
@@ -141,4 +140,4 @@ Questo articolo ha descritto come eliminare i principali blocchi predefiniti del
 * [Eliminare un riquadro del dashboard](service-dashboard-edit-tile.md)
 * [Eliminare una visualizzazione del report](service-delete.md)
 
-Altre domande? [Provare la community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

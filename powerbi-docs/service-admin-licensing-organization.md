@@ -2,7 +2,6 @@
 title: Gestione delle licenze di Power BI nell'organizzazione
 description: 'Informazioni sui vari tipi di licenza disponibili in Power BI: licenze gratuite, Power BI Pro e Power BI Premium.'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e7a851a890fa734c045bb9cee60d429f87a3a602
-ms.sourcegitcommit: 2b7beec5237a597bab2da8eb6ffe69122a5d2ed9
+ms.openlocfilehash: 2cbf2498740d26a59ced5652368cf99b8fa5eec1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "73442818"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857719"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Gestione delle licenze di Power BI nell'organizzazione
 
@@ -55,7 +54,7 @@ Prima di seguire i passaggi per l'iscrizione, tenere presente quanto segue:
 
 1. Passare all'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-1. Nel riquadro di spostamento a sinistra, selezionare **Fatturazione** e quindi **Sottoscrizioni**.
+1. Nel riquadro di spostamento selezionare **Fatturazione** e quindi **Sottoscrizioni**.
 
    ![Fatturazione e sottoscrizioni](media/service-admin-licensing-organization/service-power-bi-pro-in-your-organization-05.png)
 
@@ -101,7 +100,7 @@ Se il blocco delle licenze di Power BI (gratuito) illimitato non è disponibile 
 
 1. Passare all'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/admin/default.aspx).
 
-1. Nel riquadro di spostamento a sinistra selezionare **Fatturazione** > **Abbonamenti**.
+1. Nel riquadro di spostamento selezionare **Fatturazione** > **Sottoscrizioni**.
 
 1. Selezionare **Aggiungi abbonamenti** a destra.
 
@@ -156,4 +155,4 @@ L'impostazione di Azure Active Directory che controlla l'iscrizione è **AllowAd
 
 [Acquistare e assegnare licenze Power BI Pro](service-admin-purchasing-power-bi-pro.md)
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
