@@ -3,19 +3,18 @@ title: Usare il Single Sign-On Kerberos per l'accesso SSO a SAP BW tramite Commo
 description: Configurare il server SAP BW per abilitare il Single Sign-On dal servizio Power BI usando CommonCryptoLib (sapcrypto.dll)
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 97cae53e102538bba7ed969cefe0541d500c33bc
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: 63b5abde7deb5f6d93fb7702f0b1244bd193a47d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020897"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872415"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usare il Single Sign-On Kerberos per l'accesso SSO a SAP BW tramite CommonCryptoLib (sapcrypto.dll)
 
@@ -31,7 +30,7 @@ Questo articolo descrive come configurare l'origine dati SAP BW per abilitare l'
 
 1. Verificare che il server BW sia configurato correttamente per il Single Sign-On Kerberos usando CommonCryptoLib. In caso affermativo, è possibile usare SSO per accedere al server BW, direttamente o tramite un server messaggi SAP BW, con uno strumento SAP quale l'interfaccia utente grafica SAP configurata per l'uso di CommonCryptoLib. 
 
-   Per altre informazioni sui passaggi di configurazione, vedere [Single Sign-On SAP: Eseguire l'autenticazione con Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Il server BW deve usare CommonCryptoLib come libreria SNC e avere un nome SNC che inizia con *CN =* , ad esempio *CN = BW1*. Per altre informazioni sui requisiti dei nomi SNC, in particolare il parametro snc/identity/as, vedere [Parametri SNC per la configurazione Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html).
+   Per altre informazioni sui passaggi di configurazione, vedere [Single Sign-On SAP: Eseguire l'autenticazione con Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Il server BW deve usare CommonCryptoLib come libreria SNC e avere un nome SNC che inizia con *CN =* , ad esempio *CN = BW1*. Per altre informazioni sui requisiti dei nomi SNC, in particolare il parametro snc/identity/as, vedere [Parametri SNC per la configurazione Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
 
 1. Se non è già stato fatto, installare la versione x64 del [connettore SAP .NET](https://support.sap.com/en/product/connectors/msnet.html) nel computer in cui è stato installato il gateway. 
    
@@ -60,7 +59,7 @@ Questo articolo descrive come configurare l'origine dati SAP BW per abilitare l'
     > [!NOTE]
     > Questi file devono essere archiviati nello stesso percorso. In altre parole, _/path/to/sapcrypto/_ deve contenere sia sapcrypto.ini che sapcrypto.dll.
 
-    Sia l'utente del servizio gateway che l'utente Active Directory (AD) rappresentato dall'utente del servizio necessitano delle autorizzazioni di lettura ed esecuzione per entrambi i file. È consigliabile concedere al gruppo Authenticated Users le autorizzazioni per entrambi i file con estensione ini e dll. A scopo di test, è anche possibile concedere queste autorizzazioni in modo esplicito all'utente del servizio gateway e all'utente Active Directory usati per il test. Nello screenshot seguente sono state concesse al gruppo Authenticated Users le autorizzazioni **Lettura ed esecuzione&amp; per sapcrypto.dll:
+    Sia l'utente del servizio gateway che l'utente Active Directory (AD) rappresentato dall'utente del servizio necessitano delle autorizzazioni di lettura ed esecuzione per entrambi i file. È consigliabile concedere al gruppo Authenticated Users le autorizzazioni per entrambi i file con estensione ini e dll. A scopo di test, è anche possibile concedere queste autorizzazioni in modo esplicito all'utente del servizio gateway e all'utente Active Directory usati per il test. Nello screenshot seguente sono state concesse al gruppo Authenticated Users le autorizzazioni **Lettura ed esecuzione** per sapcrypto.dll:
 
     ![Utenti autenticati](media/service-gateway-sso-kerberos/authenticated-users.png)
 
@@ -102,7 +101,7 @@ Se non è possibile aggiornare il report nel servizio Power BI, è possibile usa
 
 ### <a name="cpic-tracing"></a>Traccia di CPIC
 
-1. per abilitare la traccia di CPIC, impostare due variabili di ambiente: **CPIC**TRACE\_ e \_CPIC**TRACE\_DIR**. 
+1. per abilitare la traccia di CPIC, impostare due variabili di ambiente: **CPIC\_TRACE** e **CPIC\_TRACE\_DIR**. 
 
    La prima variabile imposta il livello di traccia e la seconda variabile imposta la directory dei file di traccia. La directory deve essere un percorso in cui i membri del gruppo Authenticated Users possono scrivere. 
  

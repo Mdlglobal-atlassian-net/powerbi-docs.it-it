@@ -3,19 +3,18 @@ title: Usare Kerberos per il Single Sign-On (SSO) a SAP BW tramite gx64krb5
 description: Configurare il server SAP BW per abilitare SSO dal servizio Power BI usando gx64krb5
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0063ca280667e12fb2cf4d0432651f8145495ac8
-ms.sourcegitcommit: 2aa83bd53faad6fb02eb059188ae623e26503b2a
+ms.openlocfilehash: a162ba686c3f548ed371e7a63c2d85dd1f697462
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73020316"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881486"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>Usare Kerberos per il Single Sign-On (SSO) a SAP BW tramite gx64krb5
 
@@ -189,7 +188,7 @@ Nel caso in cui si verifichi uno dei problemi riportati di seguito relativo all'
 
 1. Attivare la traccia SAP BW e rivedere i file di log generati. Sono disponibili diversi tipi di traccia SAP BW (ad esempio, la traccia di CPIC):
 
-   a. per abilitare la traccia di CPIC, impostare due variabili di ambiente: **CPIC**TRACE\_ e \_CPIC**TRACE\_DIR**.
+   a. per abilitare la traccia di CPIC, impostare due variabili di ambiente: **CPIC\_TRACE** e **CPIC\_TRACE\_DIR**.
 
       La prima variabile imposta il livello di traccia e la seconda variabile imposta la directory dei file di traccia. La directory deve essere un percorso in cui i membri del gruppo Authenticated Users possono scrivere. 
  
