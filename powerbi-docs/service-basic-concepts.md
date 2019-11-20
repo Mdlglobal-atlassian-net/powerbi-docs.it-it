@@ -1,22 +1,22 @@
 ---
 title: Concetti di base sulle finestre di progettazione del servizio Power BI
-description: Aree di lavoro, dashboard, report, set di dati e cartelle di lavoro del servizio Power BI.
+description: Capacità, aree di lavoro, dashboard, report, cartelle di lavoro, set di dati e flussi di dati del servizio Power BI.
 author: maggiesMSFT
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/25/2019
+ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 80d878cc5a8ed0df294b99390fb87d8099bfccb5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431318"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128350"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Concetti di base sulle finestre di progettazione del servizio Power BI
 
@@ -28,7 +28,7 @@ Per questo articolo, se non sono ancora disponibili report personali, provare a 
 
 Quando si apre il servizio Power BI in un browser, si inizia dalla schermata Home. Ecco gli elementi che potrebbero essere visualizzati:
 
-1. Riquadro di spostamento a sinistra
+1. Riquadro di spostamento
 2. Icona di avvio delle app di Office 365
 3. pulsante Home di Power BI
 4. Pulsanti delle icone, tra cui Impostazioni, Guida e Commenti e suggerimenti
@@ -45,20 +45,36 @@ Queste funzionalità verranno illustrate più avanti. Per il momento verranno pr
 
 
 ## <a name="power-bi-concepts"></a>Concetti di Power BI
-I quattro elementi fondamentali di Power BI sono: **_dashboard_** , **_report_** , **_cartelle di lavoro_** e **_set di dati_** . Questi elementi sono organizzati in **_aree di lavoro_** . È importante comprendere le aree di lavoro prima di approfondire i quattro elementi fondamentali.
+I cinque elementi fondamentali di Power BI sono: *dashboard*, *report*, *cartelle di lavoro*, *set di dati* e *flussi di dati*. Sono tutti organizzati in *aree di lavoro* e vengono creati nelle *capacità*.  È importante comprendere i concetti di capacità e area di lavoro prima di approfondire i cinque elementi fondamentali.
+
+## <a name="capacities"></a>Capacities
+Le capacità sono un concetto chiave di Power BI e rappresentano un set di risorse (archiviazione, processore e memoria) usate per ospitare e distribuire i contenuti di Power BI. Le capacità sono _condivise_ o _dedicate_. Una capacità condivisa è condivisa con altri clienti Microsoft, mentre una capacità dedicata è dedicata interamente a un singolo cliente. Le capacità dedicate richiedono una [sottoscrizione](service-premium-what-is.md) e sono descritte in modo completo nell'articolo [Gestire le capacità Premium](service-premium-capacity-manage.md).
+
+Per impostazione predefinita, le aree di lavoro vengono create in una capacità condivisa. Nella capacità condivisa i carichi di lavoro vengono eseguiti in risorse di calcolo condivise con altri clienti. Poiché la capacità deve condividere le risorse, vengono imposte limitazioni per garantire un'equa distribuzione, ad esempio le dimensioni massime del modello (1 GB) e la frequenza di aggiornamento giornaliero massima (otto volte al giorno).
 
 ## <a name="workspaces"></a>Aree di lavoro
-Le aree di lavoro sono contenitori per i dashboard, i report, le cartelle di lavoro e i set di dati in Power BI. Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro*. Che cos'è un'*app*? Un'*app* di Power BI è una raccolta di dashboard e report creati per visualizzare le metriche principali per gli utenti finali di Power BI dell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle.
+Le aree di lavoro vengono create nelle capacità. Sono essenzialmente contenitori per dashboard, report, cartelle di lavoro, set di dati e flussi di dati in Power BI.
+
+Le aree di lavoro sono di due tipi: *Area di lavoro personale* e *aree di lavoro*.
 
 - L'*Area di lavoro personale* è l'area di lavoro dedicata di ogni cliente Power BI per usare il contenuto personale. Solo l'utente può accedere all'Area di lavoro personale. È possibile condividere dashboard e report dall'Area di lavoro personale. Per collaborare a dashboard e report o creare un'app, è necessario usare un'area di lavoro.      
--  Le *aree di lavoro* vengono usate per collaborare e condividere il contenuto con i colleghi. Sono anche il luogo in cui si creano, pubblicano e gestiscono le app per l'organizzazione. È possibile considerarle come contenitori e aree di gestione temporanea per il contenuto che costituirà un'app di Power BI. È possibile aggiungere i colleghi alle aree di lavoro e collaborare su dashboard, report, cartelle di lavoro e set di dati. Tutti i membri dell'area di lavoro devono avere una licenza di Power BI Pro. Gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente avere una licenza Pro. Altre informazioni sulle [nuove aree di lavoro](service-create-the-new-workspaces.md).  
+-  Le *aree di lavoro* vengono usate per collaborare e condividere il contenuto con i colleghi. È possibile aggiungere i colleghi alle aree di lavoro e collaborare su dashboard, report, cartelle di lavoro e set di dati. Con una sola eccezione, tutti i membri dell'area di lavoro devono avere una licenza di Power BI Pro. Altre informazioni sulle [nuove aree di lavoro](service-create-the-new-workspaces.md). 
+
+    Le aree di lavoro sono anche la posizione in cui si creano, pubblicano e gestiscono le *app* per l'organizzazione. È possibile considerarle come contenitori e aree di staging per il contenuto che costituirà un'app di Power BI. Che cos'è un'*app*? È una raccolta di dashboard e report creati per offrire le metriche principali agli utenti finali di Power BI nell'organizzazione. Le app sono interattive ma gli utenti finali non possono modificarle. Gli utenti delle app, ovvero i colleghi che hanno accesso alle app, non devono necessariamente avere una licenza Pro.  
 
 Per altre informazioni sulla condivisione in generale, iniziare con [Modalità per la condivisione del lavoro in Power BI](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Ora verranno approfonditi gli elementi fondamentali di Power BI. Poiché i dashboard o i report sono utili solo quando contengono dati, vengono ora descritti i **set di dati**.
+Ora verranno approfonditi i cinque elementi fondamentali di Power BI.
+
+## <a name="dataflows"></a>Flussi di dati
+Un *flusso di dati* consente alle organizzazioni di unificare i dati provenienti da origini diverse. Sono facoltativi e vengono spesso usati in progetti complessi o di grandi dimensioni. Rappresentano i dati preparati e sottoposti a staging per l'uso da parte dei set di dati. Tuttavia, non possono essere usati direttamente come origine per la creazione di report. Sfruttano l'ampia raccolta di connettori dati Microsoft, consentendo l'inserimento di dati da origini dati locali e basate sul cloud.
+
+I flussi di dati vengono creati e gestiti solo nelle aree di lavoro, ma non nell'*area di lavoro personale*, e vengono archiviati come entità in Common Data Model (CDM) in Azure Data Lake Storage Gen2. In genere, sono pianificati per l'aggiornamento ricorrente per archiviare dati aggiornati. Sono ideali per preparare i dati per l'uso e per il potenziale riutilizzo da parte dei set di dati. Per altre informazioni, vedere l'articolo [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md).
+
+Poiché i dashboard o i report sono utili solo quando contengono dati, verranno di seguito presentati i **set di dati**.
 
 ## <a name="datasets"></a>Set di dati
-Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione.  
+Un *set di dati* è una raccolta di dati che si *importa* o a cui si stabilisce una *connessione*. Power BI consente di connettersi a tutti i set di dati, importarli e riunirli in un'unica posizione. I set di dati possono anche usare i flussi di dati come origine dati.
 
 I set di dati sono associati alle *aree di lavoro* e un singolo set di dati può far parte di più aree di lavoro. Quando si apre un'area di lavoro, i set di dati associati sono elencati nella scheda **Set di dati**. Ogni set di dati elencato rappresenta una singola origine dati, ad esempio una cartella di lavoro di Excel in OneDrive, un set di dati in formato tabulare SSAS locale o un database di Salesforce. Sono supportate numerose origini dati differenti, che sono in continuo aumento. Visualizzare l'[elenco dei tipi di set di dati che è possibile usare con Power BI](service-get-data.md).
 
@@ -74,13 +90,17 @@ Nell'esempio seguente è stata selezionata l'area di lavoro "Sales and marketing
 
   ![Diagramma del set di dati](media/service-basic-concepts/drawing2.png)
 
-Per [connettersi o importare un set di dati](service-get-data.md), selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento a sinistra. Seguire le istruzioni per la connessione o l'importazione dell'origine specifica e aggiungere il set di dati all'area di lavoro attiva. I nuovi set di dati sono contrassegnati con un asterisco giallo. Le operazioni effettuate in Power BI non comportano la modifica del set di dati sottostante.
+Per [connettersi o importare un set di dati](service-get-data.md), selezionare **Recupera dati** nella parte inferiore del riquadro di spostamento. Seguire le istruzioni per la connessione o l'importazione dell'origine specifica e aggiungere il set di dati all'area di lavoro attiva. I nuovi set di dati sono contrassegnati con un asterisco giallo. Le operazioni effettuate in Power BI non comportano la modifica del set di dati sottostante.
 
 I set di dati aggiunti da un membro dell'area di lavoro sono disponibili per gli altri membri dell'area di lavoro con ruolo *amministratore*, *membro* o *collaboratore*.
 
-I set di dati possono essere aggiornati, rinominati, esplorati e rimossi. Usare un set di dati per creare un report da zero o tramite l'esecuzione di [informazioni rapide](service-insights.md).  Per visualizzare i report e i dashboard che già usano un set di dati, selezionare **Visualizza elementi correlati**. Per esplorare un set di dati, selezionarlo. Il set di dati viene quindi aperto nell'editor di report in cui è possibile approfondire l’analisi dei dati e creare visualizzazioni. Passiamo all'argomento successivo, ossia i report.
+I set di dati possono essere aggiornati, rinominati, esplorati e rimossi. Usare un set di dati per creare un report da zero o tramite l'esecuzione di [informazioni rapide](service-insights.md).  Per visualizzare i report e i dashboard che già usano un set di dati, selezionare **Visualizza elementi correlati**. Per esplorare un set di dati, selezionarlo. Il set di dati viene quindi aperto nell'editor di report in cui è possibile in effetti esplorare i dati tramite la creazione di visualizzazioni.
+
+Si passerà ora all'argomento successivo, ossia i report.
 
 ### <a name="dig-deeper"></a>Approfondimento
+* [Set di dati nel servizio Power BI](service-datasets-understand.md)
+* [Modalità del set di dati nel servizio Power BI](service-dataset-modes-understand.md)
 * [Che cos'è Power BI Premium?](service-premium-what-is.md)
 * [Recuperare dati per Power BI](service-get-data.md)
 * [Set di dati di esempio per Power BI](sample-datasets.md)
@@ -159,13 +179,13 @@ Fino a qui sono stati illustrati gli elementi fondamentali e le aree di lavoro. 
 
 ![Servizio Power BI in un browser](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-nav"></a>1. **Riquadro di spostamento** a sinistra
-Usare il riquadro di spostamento per individuare le aree di lavoro spostarsi tra queste e gli elementi fondamentali di Power BI, ovvero dashboard, report, cartelle di lavoro e set di dati.  
+### <a name="1-navigation-pane"></a>1. **Riquadro di spostamento**
+Usare il riquadro di spostamento per individuare le aree di lavoro e spostarsi tra queste e gli elementi fondamentali di Power BI, ovvero dashboard, report, cartelle di lavoro e set di dati.  
 
   ![Riquadro di spostamento](media/service-basic-concepts/power-bi-navigation.png)
 
 * Selezionare **Recupera dati** per [aggiungere set di dati, report e dashboard a Power BI](service-get-data.md).
-* Espandere e comprimere il riquadro di spostamento con questa icona ![Icona del riquadro di spostamento](media/service-basic-concepts/expand-icon.png).
+* Espandere e comprimere la barra di spostamento con questa icona ![icona del riquadro di spostamento](media/service-basic-concepts/expand-icon.png).
 * Aprire o gestire il contenuto preferito selezionando **Preferiti**.
 * Visualizzare e aprire il contenuto visitato di recente selezionando **Recenti**.
 * Visualizzare, aprire o eliminare un'app selezionando **App**.
@@ -227,5 +247,4 @@ Questa area della schermata contiene opzioni aggiuntive per interagire con il co
 - [Che cos'è Power BI?](fundamentals/power-bi-overview.md)  
 - [Video di Power BI](videos.md)  
 - [Presentazione dell'editor di report](service-the-report-editor-take-a-tour.md)
-
-Altre domande? [Provare a rivolgersi alla community di Power BI](http://community.powerbi.com/)
+- Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

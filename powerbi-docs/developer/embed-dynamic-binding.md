@@ -1,48 +1,45 @@
 ---
-title: Binding dinamico
+title: Connessione di un report a un set di dati tramite binding dinamico
 description: Informazioni su come incorporare un report tramite il binding dinamico.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 09/25/2019
-ms.openlocfilehash: 8b42b397f726e492eda80a99eb730c215eb17ccb
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.date: 11/07/2019
+ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72776238"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925748"
 ---
-# <a name="dynamic-binding"></a>Binding dinamico
+# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>Connessione di un report a un set di dati tramite binding dinamico 
 
-Il binding dinamico consente di selezionare in modo dinamico un set di dati durante l'incorporamento di un report. Il report e il set di dati non devono necessariamente trovarsi nella stessa area di lavoro. Gli utenti finali visualizzano risultati diversi, a seconda del set di dati selezionato.
+L'uso del binding dinamico è pertinente solo quando un report viene connesso a un set di dati. La connessione tra il report e il set di dati è nota come *binding*. Quando il binding viene determinato al momento dell'incorporamento, anziché essere predeterminato in precedenza, è detto [binding dinamico](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0).
+ 
+Quando si incorpora un report di Power BI tramite *binding dinamico*, è possibile connettere lo stesso report a set di dati diversi a seconda delle credenziali dell'utente.
+ 
+Questo significa che è possibile usare un report per visualizzare informazioni diverse, a seconda del set di dati a cui è connesso. Ad esempio, un report che mostra i valori delle vendite al dettaglio può essere connesso a set di dati diversi del rivenditore e produrre risultati diversi a seconda del set di dati del rivenditore a cui è connesso.
+ 
+Il report e il set di dati non devono necessariamente trovarsi nella stessa area di lavoro. Entrambe le aree di lavoro (quella contenente il report e quella contenente il set di dati) devono essere assegnate a una [capacità](azure-pbie-create-capacity.md).
 
-Entrambe le aree di lavoro (quella contenente il report e quella contenente il set di dati) devono essere assegnate a una capacità.
+Come parte del processo di incorporamento, assicurarsi di *generare un token con autorizzazioni sufficienti* e di *adattare l'oggetto di configurazione*.
 
-L'incorporamento di un report tramite binding dinamico è costituito da due fasi:
-1. Generazione di un token
-2. Modifica dell'oggetto di configurazione
 
-## <a name="generating-a-token"></a>Generazione di un token
-Per generare un token, usare l'[API per la generazione di un token di incorporamento per più elementi](embed-sample-for-customers.md#multiEmbedToken).
+## <a name="generating-a-token-with-sufficient-permissions"></a>Generazione di un token con autorizzazioni sufficienti
 
-Il binding dinamico è supportato per entrambi gli scenari di incorporamento, ovvero per l'*incorporamento per l'organizzazione* e per l'*incorporamento per i clienti*.
+Il binding dinamico è supportato sia per l'*incorporamento per l'organizzazione* che per l'*incorporamento per i clienti*. Nella tabella seguente vengono descritte le considerazioni per ogni scenario.
 
-| Solution                   | Token                               | Requisiti                                                                                                                                                  |
-|---------------------------------|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Incorporamento per l'organizzazione* | Token di accesso per utenti di Power BI     | L'utente di cui viene usato il token di Azure AD deve avere le autorizzazioni appropriate per tutti gli artefatti.                                                                    |
-| *Incorporamento per i clienti*    | Token di accesso per utenti non di Power BI | Deve includere le autorizzazioni sia per il report che per il set di dati associato in modo dinamico. Usare la nuova API per generare un token di incorporamento che supporta più artefatti. |
+
+|Scenario  |Proprietà dei dati  |Token  |Requisiti  |
+|---------|---------|---------|---------|
+|*Incorporamento per l'organizzazione*    |I dati sono di proprietà dell'utente         |Token di accesso per utenti di Power BI         |L'utente di cui viene usato il token di Azure AD deve avere le autorizzazioni appropriate per tutti gli artefatti.         |
+|*Incorporamento per i clienti*     |I dati sono di proprietà dell'app         |Token di accesso per utenti non di Power BI         |Deve includere le autorizzazioni sia per il report che per il set di dati associato in modo dinamico. Usare l'[API per generare un token di incorporamento per più elementi](embed-sample-for-customers.md#multiEmbedToken), per generare un token di incorporamento che supporta più artefatti.         |
 
 ## <a name="adjusting-the-config-object"></a>Modifica dell'oggetto di configurazione
-Aggiungere `datasetBinding` all'oggetto di configurazione. Usare l'esempio nella parte inferiore della pagina come riferimento.
+Aggiungere `datasetBinding` all'oggetto di configurazione. Usare l'esempio riportato di seguito come riferimento.
 
-Se non si ha familiarità con l'incorporamento in Power BI, per informazioni su come incorporare contenuto di Power BI vedere queste esercitazioni:
-* [Incorporare contenuto di Power BI in un'applicazione per i clienti](embed-sample-for-customers.md)
-* [Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione](embed-sample-for-your-organization.md)
-
- ### <a name="example"></a>Esempio
 ```javascript
 var config = {
     type: 'report',
@@ -52,13 +49,11 @@ var config = {
     id: "reportId", // The wanted report id
     permissions: permissions,
 
-    /////////////////////////////////////////////
-    // Adjustment required for dynamic binding //
+    // -----  Adjustment required for dynamic binding ---- //
     datasetBinding: {
         datasetId: "notOriginalDatasetId",  // </The wanted dataset id
     }
-    // End of dynamic binding adjustment            //
-    /////////////////////////////////////////////
+    // ---- End of dynamic binding adjustment ---- //
 };
 
 // Get a reference to the embedded report HTML element
@@ -67,3 +62,9 @@ var embedContainer = $('#embedContainer')[0];
 // Embed the report and display it within the div container
 var report = powerbi.embed(embedContainer, config);
 ```
+
+## <a name="next-steps"></a>Passaggi successivi
+
+Se non si ha familiarità con l'incorporamento in Power BI, per informazioni su come incorporare contenuto di Power BI vedere queste esercitazioni:
+* [Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti](embed-sample-for-customers.md)
+* [Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione](embed-sample-for-your-organization.md)

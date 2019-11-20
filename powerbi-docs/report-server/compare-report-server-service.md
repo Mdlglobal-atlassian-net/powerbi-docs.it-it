@@ -7,15 +7,14 @@ ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: 877d3590fab67f0aed3c3ab6dc9de9a96ade5dc9
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431461"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128282"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -27,7 +26,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 |---------|---------|---------|---------|
 | Distribuzione | Cloud locale o ospitato | Cloud | Server di report di Power BI può essere distribuito nelle macchine virtuali di Azure (cloud ospitato) se concesso in licenza tramite Power BI Premium |
 | Dati di origine | Cloud e/o locali | Cloud e/o locali |  |
-| Licenza | Power BI Premium o SQL Server EE con SA | Power BI Pro e/o Power BI Premium | |  
+| Licenza | Power BI Premium o SQL Server EE con Software Assurance (SA) | Power BI Pro e/o Power BI Premium | |  
 | Ciclo di vita | Criteri moderni del ciclo di vita | Servizio completamente gestito |  |
 | Ciclo di rilascio | Tre volte all'anno (gennaio, maggio, settembre) | Una volta al mese | Le correzioni e le funzionalità più recenti vengono introdotte innanzitutto nel servizio Power BI. La maggior parte delle funzionalità di base è disponibile in Server di report di Power BI nelle versioni immediatamente successive; alcune funzionalità sono pensate solo per il servizio Power BI. |
 | Creare report di Power BI in Power BI Desktop | Sì | Sì |  |
@@ -52,9 +51,9 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | Collaborazione di Office 365 avanzata | No | Sì | [Collaborare in un'area di lavoro](../service-collaborate-power-bi-workspace.md) con Office 365 |
 | Oggetti visivi R | No | Sì | [Creare oggetti visivi R](../desktop-r-visuals.md) in Power BI Desktop e pubblicarli nel servizio Power BI. Non è possibile salvare i report di Power BI con oggetti visivi R in Server di report di Power BI.  |
 | Funzionalità di anteprima | No | Sì | [Acconsentire esplicitamente alle funzionalità di anteprima del servizio Power BI](../consumer/end-user-preview-features.md) |
-| Oggetti visivi personalizzati | Sì | Sì | [Oggetti visivi personalizzati in Power BI](../power-bi-custom-visuals.md) |
+| Oggetti visivi personalizzati | Sì | Sì | [Oggetti visivi personalizzati in Power BI](../developer/power-bi-custom-visuals.md) |
 | Modelli compositi | No | Sì |
-| Power BI Desktop | Versione ottimizzata per Server di report, disponibile per il download con Server di report | Versione ottimizzata per il servizio Power BI, disponibile da Windows Store | [Power BI Desktop per il server di report](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop per il servizio Power BI](http://aka.ms/pbidesktopstore) |
+| Power BI Desktop | Versione ottimizzata per Server di report, disponibile per il download con Server di report | Versione ottimizzata per il servizio Power BI, disponibile da Windows Store | [Power BI Desktop per il server di report](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop per il servizio Power BI](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Passaggi successivi
 

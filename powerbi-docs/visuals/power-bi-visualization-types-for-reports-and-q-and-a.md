@@ -2,26 +2,25 @@
 title: Tipi di visualizzazione in Power BI
 description: Tipi di visualizzazione in Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 639ea11eca69eea53968ed702e0524f46a97cdc4
-ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72775965"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099927"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
 Verranno presto aggiunte nuove visualizzazioni.
 
-Visitare [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), dove è possibile trovare un elenco costantemente aggiornato di [oggetti visivi personalizzati](../power-bi-custom-visuals.md) da scaricare e usare nei propri dashboard e report. Approccio creativo [Informazioni su come creare oggetti visivi personalizzati e aggiungerli al sito della community](../developer/office-store.md).  
+Visitare [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), dove è possibile trovare un elenco costantemente aggiornato di [oggetti visivi personalizzati](../developer/power-bi-custom-visuals.md) da scaricare e usare nei propri dashboard e report. Approccio creativo [Informazioni su come creare oggetti visivi personalizzati e aggiungerli al sito della community](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Elenco delle visualizzazioni disponibili in Power BI
 Tutte queste visualizzazioni possono essere aggiunte ai report di Power BI, specificate in domande e risposte e aggiunte al dashboard.
@@ -226,8 +225,8 @@ Quando si digitano query in linguaggio naturale con le Domande e risposte di Pow
 
 “***sales by state as a treemap***“
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Casella della domanda di Domande e risposte che mostra il tipo di visualizzazione specificato](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Visualizzazioni nei report di Power BI](power-bi-report-visualizations.md)    
-[Riferimento all'oggetto visivo a destra da sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+[Riferimento all'oggetto visivo a destra da sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
