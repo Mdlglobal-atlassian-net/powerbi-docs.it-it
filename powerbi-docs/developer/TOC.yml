@@ -44,7 +44,7 @@
             - name: Pubblicare oggetti visivi personalizzati in AppSource
               href: office-store.md
             - name: Usare oggetti visivi personalizzati basati su R in Power BI
-              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/toc.json&bc=/powerbi-docs/developer/breadcrumb/toc.json
+              href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
             - name: Interazioni di oggetti visivi
               href: visuals/visuals-interactions.md
             - name: Aggiungere selezioni
