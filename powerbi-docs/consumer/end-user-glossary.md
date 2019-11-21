@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: a48589e6126203856a306de796c964ce6e347c26
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429866"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73764714"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -68,7 +68,7 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **connect live (connessione in tempo reale)** Un metodo per la connessione ai modelli di dati di SQL Server Analysis Services. Chiamata anche connessione dinamica.
 
-**container (contenitore)** Le aree nella barra di spostamento sono dette *contenitori*. Nella barra di spostamento sono disponibili contenitori per: Preferiti, Recenti, App, Condivisi con l'utente corrente e Home. 
+**contenitore** Le aree nel riquadro di spostamento sono dette *contenitori*. Nel riquadro di spostamento sono disponibili contenitori per: Preferiti, Recenti, App, Condivisi con l'utente corrente e Home. 
 
 **content ( contenuto)**  Il contenuto per il servizio Power BI è solitamente costituito da dashboard, report e app. Possono essere inclusi anche cartelle di lavoro e set di dati.
 
@@ -162,12 +162,12 @@ Selezionando i puntini di sospensione vengono visualizzate opzioni di menu aggiu
 
 ## <a name="l"></a>L
 
-**left navigation (spostamento a sinistra)** È stato sostituito dalla **barra di spostamento** ma viene ancora usato in alcune parti della documentazione.    
+**barra di spostamento sinistra** È stata sostituita dal **riquadro di spostamento** ma è possibile che venga ancora citata in alcune parti della documentazione.    
 I controlli lungo il bordo sinistro del servizio Power BI.
 
-Prima istanza: riquadro di spostamento a sinistra Menzioni successive: riquadro a sinistra
+Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostamento
 
-**list page (pagina elenco)** o **elenco del contenuto** Una delle pagine di sezione per gli elementi nel riquadro di spostamento a sinistra. Ad esempio, Preferiti, Recenti, Area di lavoro personale, e così via.
+**pagina elenco** o **elenco del contenuto** Una delle pagine di sezione per gli elementi nel riquadro di spostamento. Ad esempio, Preferiti, Recenti, Area di lavoro personale, e così via.
 
 ## <a name="m"></a>M
 
@@ -181,11 +181,11 @@ Prima istanza: riquadro di spostamento a sinistra Menzioni successive: riquadro 
 
 **native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)* . È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi personalizzati.
 
-**navigation bar**  o **nav bar (barra di spostamento)** I controlli lungo il bordo sinistro del servizio Power BI.
+**riquadro di spostamento** **** Controlli visualizzati sul bordo sinistro della schermata del servizio Power BI.
 
-Prima istanza: barra di spostamento (navigation bar) Menzioni successive: barra di spostamento (nav bar)
+Prima istanza: riquadro di spostamento Menzioni successive o spazi ridotti: riquadro di spostamento
 
-**navigation pane (riquadro di spostamento)** Vedere **navigation bar (barra di spostamento)**
+**riquadro di spostamento** vedere **riquadro di spostamento**
 
 **notification (notifica)** Messaggi inviati da e al centro notifiche di Power BI.  
 
@@ -260,7 +260,7 @@ Aggiunta a un URL per pre-filtrare i risultati visualizzati in un report di Powe
 
 **real-time streaming (streaming in tempo reale)** La possibilità di trasmettere i dati e aggiornare i dashboard in tempo reale da origini come sensori, social media, metriche di utilizzo e qualsiasi altro elemento da cui si possano raccogliere o trasmettere dati per i quali i tempi sono importanti.  
 
-**Recent (Recenti)** Il contenitore nel riquadro di spostamento a sinistra che contiene tutti i singoli artefatti ai quali è stato eseguito l'accesso di recente.
+**Recenti** Contenitore nel riquadro di spostamento che include tutti i singoli artefatti ai quali è stato eseguito l'accesso di recente.
 
 **related content (contenuto correlato)** Visualizza i singoli contenuti che contribuiscono al contenuto corrente. Per un dashboard, ad esempio, è possibile visualizzare i report e set di dati che offrono i dati e le visualizzazioni nel dashboard.   
 
@@ -288,7 +288,7 @@ Una visualizzazione di un singolo set di dati da più punti di vista, grazie a v
 **share, sharing (condividere, condivisione)** In Power BI, condivisione significa in genere condividere direttamente un singolo artefatto, come un dashboard o report, con una o più persone usando il loro indirizzo e-mail. Richiede una licenza Power BI Pro per il mittente e destinatario.
 Nei dispositivi mobili, la condivisione può fare riferimento alla funzionalità di condivisione del sistema operativo nativa, ad esempio "aggiungere annotazioni e condividere".  
 
-**Shared with me (Condivisi con l'utente corrente)** Il contenitore nel riquadro di spostamento a sinistra che contiene tutti i singoli artefatti che sono stati condivisi direttamente da un altro utente di Power BI.
+**Condivisi con l'utente corrente** Contenitore nel riquadro di spostamento che include tutti i singoli artefatti che sono stati condivisi direttamente da un altro utente di Power BI.
 
 **snapshot**
 
