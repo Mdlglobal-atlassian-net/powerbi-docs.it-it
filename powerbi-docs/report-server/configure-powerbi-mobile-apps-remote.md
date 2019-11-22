@@ -1,25 +1,31 @@
 ---
-title: Configurare l'accesso delle app per dispositivi mobili iOS in modalità remota
-description: Informazioni su come configurare le app per dispositivi mobili iOS in modalità remota per il server di report.
-author: maggiesMSFT
+title: Configurare l'accesso delle app per dispositivi mobili al server di report
+description: Informazioni su come configurare le app per dispositivi mobili in modalità remota per il server di report.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874216"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925843"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurare l'accesso delle app per dispositivi mobili iOS di Power BI in modalità remota
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configurare l'accesso remoto delle app per dispositivi mobili di Power BI al server di report
 
-In questo articolo viene spiegato come usare lo strumento MDM dell'organizzazione per configurare l'accesso delle app per dispositivi mobili iOS di Power BI a un server di report. Per procedere a questa configurazione, gli amministratori IT creano criteri di configurazione dell'app con le informazioni necessarie da inviare all'app. 
+Si applica a:
 
- Con la connessione al server di report già configurata, gli utenti delle app per dispositivi mobili iOS di Power BI possono connettersi al server di report dell'organizzazione più facilmente. 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Telefono Android](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Telefoni |
+
+In questo articolo viene spiegato come usare lo strumento MDM dell'organizzazione per configurare l'accesso delle app per dispositivi mobili di Power BI a un server di report. Per procedere a questa configurazione, gli amministratori IT creano criteri di configurazione dell'app con le informazioni necessarie da inviare all'app. 
+
+ Con la connessione al server di report già configurata, gli utenti delle app per dispositivi mobili di Power BI possono connettersi al server di report dell'organizzazione più facilmente. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Creare i criteri di configurazione dell'app nello strumento MDM 
 
@@ -43,9 +49,9 @@ Di seguito è riportato un esempio di configurazione dei criteri di configurazio
 
 ![Impostazioni di configurazione di Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>Utenti finali che si connettono a un server di report
+## <a name="end-users-connecting-to-report-server"></a>Utenti finali che si connettono a un server di report
 
- Si supponga ad esempio di pubblicare i criteri di configurazione dell'app per una lista di distribuzione. Quando gli utenti e i dispositivi inclusi nella lista di distribuzione avviano l'app per dispositivi mobili per iOS si verifica quanto segue. 
+ Si supponga ad esempio di pubblicare i criteri di configurazione dell'app per una lista di distribuzione. Quando gli utenti e i dispositivi inclusi nella lista di distribuzione avviano l'app per dispositivi mobili si verifica quanto segue. 
 
 1. Viene visualizzato un messaggio che informa che l'app per dispositivi mobili è configurata con un server di report. Toccare **Accedi**.
 

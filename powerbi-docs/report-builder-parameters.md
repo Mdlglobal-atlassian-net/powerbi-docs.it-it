@@ -3,18 +3,18 @@ title: Parametri dei report in Generatore report di Power BI
 description: Questo argomento descrive gli usi comuni per i parametri dei report di Generatore report impaginati di Power BI, le proprietà che è possibile impostare e molto altro ancora.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840534"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128434"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parametri dei report in Generatore report di Power BI
 
@@ -40,7 +40,7 @@ Questo argomento descrive gli usi comuni per i parametri dei report di Generator
 
 Quando si apre un report con parametri, nella barra degli strumenti del Visualizzatore di report viene visualizzato ogni parametro in modo da poter specificare i valori in modo interattivo. La figura seguente mostra l'area dei parametri di un report con i parametri @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota e @SalesDate.  
 
-![Visualizzare report con parametri](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Visualizzare report con parametri")
+![Visualizzare un report con parametri](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Visualizzare un report con parametri")
   
 1. **Riquadro dei parametri** La barra degli strumenti del Visualizzatore di report visualizza una richiesta di inserimento e un valore predefinito per ogni parametro. È possibile personalizzare il layout dei parametri nel riquadro dei parametri.  
   
@@ -65,7 +65,7 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
   
  Aggiungere una query contenente variabili o una stored procedure contenente parametri di input per il set di dati. Per ogni variabile o parametro di input viene creato un parametro di set di dati e per ogni parametro di set di dati viene creato un parametro di report.  
   
-![Proprietà Set di dati in Parametri in Generatore report](media/report-builder-parameters/report-builder-parameter-dataset.png "Proprietà Set di dati in Parametri in Generatore report")
+![Proprietà del set di dati relative ai parametri in Generatore report](media/report-builder-parameters/report-builder-parameter-dataset.png "Proprietà del set di dati relative ai parametri in Generatore report")
 
   
  Questa immagine di Generatore report illustra:  

@@ -1,32 +1,32 @@
 ---
-title: Impostazioni di configurazione dell'app Power BI per iOS
-description: Come personalizzare il comportamento di Power BI per iOS usando lo strumento MDM
+title: Impostazioni di configurazione dell'app Power BI
+description: Come personalizzare il comportamento di Power BI usando lo strumento MDM
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2019
-ms.author: mshenhav
-ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879419"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925776"
 ---
-# <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI per iOS usando lo strumento di gestione dei dispositivi mobili (MDM)
+# <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI usando lo strumento di gestione dei dispositivi mobili (MDM)
 
-L'app Power BI per dispositivi mobili per iOS supporta le impostazioni dell'app che consentono agli amministratori di Office 365 e alla gestione dei dispositivi mobili (MDM), ad esempio Intune, di personalizzare il comportamento dell'app.
+L'app Power BI per dispositivi mobili per iOS e Android supporta le impostazioni dell'app che consentono agli amministratori di Office 365 e ai servizi di gestione dei dispositivi mobili (MDM), ad esempio Intune, di personalizzare il comportamento dell'app.
 
-L'app Power BI per dispositivi mobili iOS supporta gli scenari di configurazione seguenti:
+L'app Power BI per dispositivi mobili supporta gli scenari di configurazione seguenti:
 
-- Configurazione del server di report
-- Impostazioni di protezione dei dati
+- Configurazione del server di report (iOS e Android)
+- Impostazioni di protezione dei dati (iOS)
 
-## <a name="report-server-configuration"></a>Configurazione del server di report
+## <a name="report-server-configuration-ios-and-android"></a>Configurazione del server di report (iOS e Android)
 
-L'app Power BI per iOS consente agli amministratori di eseguire il push in modalità remota della configurazione del server di report con i dispositivi registrati.
+L'app Power BI per iOS e Android consente agli amministratori di eseguire il push in modalità remota della configurazione del server di report nei dispositivi registrati.
 
 | Key | Tipo | Descrizione |
 |---|---|---|
@@ -35,9 +35,9 @@ L'app Power BI per iOS consente agli amministratori di eseguire il push in modal
 | com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [facoltativo]<br><br>Il valore predefinito è True. Se impostato su True, esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione.<br><br>Impostandolo su False vengono aggiunti i valori inviati lasciando le impostazioni esistenti. Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
-## <a name="data-protection-setting"></a>Impostazione di protezione dei dati
+## <a name="data-protection-settings-ios"></a>Impostazioni di protezione dei dati (iOS)
 
-L'app Power BI per iOS offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso alle app di Power BI.
+L'app Power BI per iOS offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI.
 
 | Key | Tipo | Descrizione |
 |---|---|---|
@@ -45,21 +45,17 @@ L'app Power BI per iOS offre agli amministratori la possibilità di personalizza
 
 ## <a name="deploying-app-configuration-settings"></a>Distribuzione delle impostazioni di configurazione dell'app
 
-La procedura seguente consentirà di creare un criterio di configurazione dell'app. Dopo aver creato i criteri di configurazione, è possibile assegnare le impostazioni a gruppi di utenti.
+La procedura seguente consentirà di creare un criterio di configurazione dell'app. Dopo aver creato il criterio di configurazione, è possibile assegnare le impostazioni a gruppi di utenti.
 
 1. Connettere lo strumento MDM.
-
 2. Creare e denominare i nuovi criteri di configurazione dell'app.
-
 3. Scegliere gli utenti ai quali distribuire tali criteri di configurazione dell'app.
-
 4. Creare coppie chiave-valore per l'impostazione di cui si vuole eseguire il push agli utenti.
 
-Il portale di Intune consente agli amministratori di distribuire facilmente queste impostazioni all'app Power BI per iOS tramite criteri di configurazione delle app.
-È tuttavia supportato qualsiasi provider MDM. Se non si usa Intune, leggere la documentazione di MDM per informazioni su come distribuire queste impostazioni.
+Il portale di Intune consente agli amministratori di distribuire facilmente queste impostazioni all'app Power BI tramite criteri di configurazione delle app. È tuttavia supportato qualsiasi provider MDM. Se non si usa Intune, leggere la documentazione di MDM per informazioni su come distribuire queste impostazioni.
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* Scaricare l'[app Power BI per dispositivi mobili per iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
+* Ottenere l'app Power BI per dispositivi mobili dall'[App store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) e [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
 * Seguire [@MSPowerBI su Twitter](https://twitter.com/MSPowerBI)
 * Partecipare alla conversazione nella [community di Power BI](https://community.powerbi.com/)

@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41881c1de66293689439364f3d1049f3d6b40607
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873016"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925818"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Connettersi ai servizi usati con Power BI
 Con Power BI è possibile connettersi a una serie di servizi usati per gestire l'attività aziendale, ad esempio Salesforce, Microsoft Dynamics e Google Analytics. Power BI inizia usando le credenziali dell'utente per connettersi al servizio e quindi crea un'*area di lavoro* di Power BI con un dashboard e un set di report di Power BI che visualizzano automaticamente i dati e forniscono informazioni grafiche dettagliate sull'azienda.
 
 >[!IMPORTANT]
->Il 25 settembre 2019 verranno deprecati diversi pacchetti di contenuto. Tutti i pacchetti di contenuto installati continueranno a funzionare, ma non sarà possibile installarne uno nuovo. Le [app modello](https://docs.microsoft.com/power-bi/service-template-apps-overview) sostituiscono gli attuali pacchetti di contenuto dei servizi.
+>I pacchetti di contenuto del servizio verranno sostituiti da [app modello](https://docs.microsoft.com/power-bi/service-template-apps-overview). A partire dal 25 settembre 2019, molti pacchetti di contenuto sono già stati deprecati. Qualsiasi pacchetto di contenuto deprecato installato rimarrà nell'account, ma non verrà fornita alcuna documentazione o supporto né sarà possibile installarlo di nuovo.
 
 Accedere a Power BI per visualizzare tutti i [servizi ai quali è possibile connettersi](https://app.powerbi.com/getdata/services). 
 

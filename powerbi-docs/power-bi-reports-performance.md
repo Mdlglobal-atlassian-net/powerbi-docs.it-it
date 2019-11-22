@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 52beebb839907a6b4141cec089184fcb693fe817
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875099"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010694"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedure consigliate per le prestazioni di Power BI
 
@@ -152,8 +152,6 @@ Il gateway di gestione dati locale è un ottimo strumento per connettere il serv
 La latenza di rete può influire sulle prestazioni dei report allungando i tempi necessari alle richieste per raggiungere il servizio Power BI e per restituire le risposte. Ai tenant in Power BI è assegnata un'area specifica. Per visualizzare l'area del proprio tenant, passare a powerbi.com e selezionare **?** nell'angolo in alto a destra e quindi selezionare **Informazioni su Power BI**. Quando gli utenti in un tenant accedono al servizio Power BI, le richieste vengono sempre indirizzate a quest'area. Quando le richieste raggiungono il servizio Power BI, il servizio può inviare richieste aggiuntive, ad esempio al gateway o all'origine dati sottostante, a loro volta soggette alla latenza di rete.
 
 Alcuni strumenti, come il [test di velocità di Azure](https://azurespeedtest.azurewebsites.net/), forniscono un'indicazione della latenza di rete tra il client e l'area di Azure. In generale, per ridurre al minimo l'impatto della latenza di rete, cercare di tenere le origini dati, i gateway e il cluster di Power BI il più vicini possibile. Se la latenza di rete costituisce un problema, provare a cambiare l'area di gateway e origini dati collocandoli in macchine virtuali in un'area più vicina al cluster di Power BI.
-
-Per migliorare ulteriormente la latenza di rete, provare a usare [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) che consente di creare connessioni di rete più veloci e affidabili tra i client e i data center di Azure.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

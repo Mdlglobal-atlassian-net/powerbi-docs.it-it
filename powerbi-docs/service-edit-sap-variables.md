@@ -1,5 +1,5 @@
 ---
-title: Modificare le variabili SAP nel servizio Power BI (anteprima)
+title: Modificare le variabili SAP nel servizio Power BI
 description: Azure e Power BI
 author: Sujata994
 ms.author: sunaraya
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: d78124045767323cca657fa41d4415ca2e929f3d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881920"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010870"
 ---
-# <a name="edit-sap-variables-in-the-power-bi-service-preview"></a>Modificare le variabili SAP nel servizio Power BI (anteprima)
+# <a name="edit-sap-variables-in-the-power-bi-service"></a>Modificare le variabili SAP nel servizio Power BI
 
-Quando si usa SAP Business Warehouse o SAP HANA con DirectQuery, gli autori di report ora possono consentire agli utenti finali di modificare le variabili SAP nel **servizio Power BI** per le aree di lavoro Premium.
+Quando si usa SAP Business Warehouse o SAP HANA con DirectQuery, gli autori di report ora possono consentire agli utenti finali di modificare le variabili SAP nel **servizio Power BI** per le aree di lavoro Premium e condivise. Si noti che questa funzionalità NON funziona per i report nella scheda Condivisi con l'utente corrente dell'area di lavoro personale. 
 
 ![Finestra di dialogo Modifica variabili](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-Questo documento descrive i requisiti per modificare le variabili in Power BI, come abilitare questa funzionalità di anteprima e dove modificare le variabili nel servizio Power BI.
+Questo documento descrive i requisiti per modificare le variabili in Power BI, come abilitare questa funzionalità e dove modificare le variabili nel servizio Power BI.
 
 ## <a name="requirements-for-sap-edit-variables"></a>Requisiti per la modifica di variabili SAP
 
@@ -35,8 +35,6 @@ Esistono alcuni requisiti usare la funzionalità di modifica delle variabili SAP
 
 **Connessioni DirectQuery obbligatorie**: è necessario connettersi all'origine dati SAP usando DirectQuery. Le connessioni di importazione non sono supportate.
 
-**Sottoscrizione di Power BI Premium obbligatoria**: la funzionalità di modifica delle variabili SAP attualmente funziona solo nelle sottoscrizioni di Power BI Premium.
-
 **Configurazione SSO obbligatoria**: per questa funzionalità, l'accesso Single Sign-On (SSO) deve essere configurato. Per altre informazioni, vedere [Panoramica dell'accesso Single Sign-On (SSO)](service-gateway-sso-overview.md).
 
 **Componenti del nuovo gateway obbligatori**: scaricare il gateway più recente e aggiornare il gateway esistente. Per altre informazioni, vedere [Gateway del servizio](service-gateway-onprem.md).
@@ -47,7 +45,7 @@ Esistono alcuni requisiti usare la funzionalità di modifica delle variabili SAP
 
 ## <a name="how-to-enable-the-feature"></a>Come abilitare la funzionalità
 
-Per abilitare la funzionalità di **modifica delle variabili SAP**, in Power BI Desktop connettersi a un'origine dati SAP HANA o SAP BW. Passare quindi a **File > Opzioni e impostazioni > Opzioni** e nella sezione File corrente del riquadro sinistro selezionare **DirectQuery**. Quando si seleziona questa opzione, nel riquadro destro vengono visualizzate le opzioni di DirectQuery e la casella di controllo **Allow end users to change SAP variables in the report (preview)** (Consente agli utenti finali di modificare le variabili SAP nel report - Anteprima), come illustrato nell'immagine seguente.
+Per abilitare la funzionalità di **modifica delle variabili SAP**, in Power BI Desktop connettersi a un'origine dati SAP HANA o SAP BW. Passare quindi a **File > Opzioni e impostazioni > Opzioni** e nella sezione File corrente del riquadro sinistro selezionare **DirectQuery**. Quando si seleziona questa opzione, nel riquadro destro vengono visualizzate le opzioni di DirectQuery e la casella di controllo **Consenti agli utenti finali di modificare le variabili SAP per questo report**, come illustrato nell'immagine seguente.
 
 ![Opzioni di DirectQuery](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -77,10 +75,6 @@ A tale scopo, è possibile:
     ![Ripristina impostazioni predefinite](media/service-edit-sap-variables/reset-to-default.png)
 
 Quando lavora a un report pubblicato nel servizio Power BI che usa SAP HANA o SAP BW con la funzionalità **Modifica variabili** abilitata, il proprietario del report può modificare tali impostazioni predefinite. Il proprietario del report può modificare le variabili in modalità di modifica e salvare il report in modo che tali impostazioni diventino le *nuove impostazioni predefinite* per il report. Tutti gli altri utenti che accedono al report dopo che il proprietario del report ha apportato tali modifiche vedranno che queste nuove impostazioni sono quelle predefinite.
-
-## <a name="issues-and-considerations"></a>Problemi e considerazioni
-
-Al momento la funzionalità di modifica delle variabili SAP non è supportata nelle app.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

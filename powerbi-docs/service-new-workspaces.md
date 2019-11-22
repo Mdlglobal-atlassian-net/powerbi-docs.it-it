@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8ff32c2559570514f775d15d7da3f787ab85970a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872047"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099686"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -29,7 +29,7 @@ Con le nuove aree di lavoro è possibile:
 
 - Assegnare ruoli dell'area di lavoro a gruppi di utenti: gruppi di sicurezza, liste di distribuzione, gruppi di Office 365 e singoli utenti.
 - Creare un'area di lavoro in Power BI senza creare un gruppo di Office 365.
-- Usare ruoli dell'area di lavoro con maggiore granularità per aumentare la flessibilità di gestione delle autorizzazioni in un'area di lavoro.
+- Per aumentare la flessibilità di gestione delle autorizzazioni in un'area di lavoro, usare ruoli dell'area di lavoro con maggiore granularità.
 - L'amministratore di Power BI può controllare quali utenti possono creare aree di lavoro in Power BI.
 
 Quando si crea una delle nuove aree di lavoro, non si crea un gruppo di Office 365 sottostante associato. Tutta l'amministrazione dell'area di lavoro viene gestita da Power BI e non da Office 365. Con la nuova esperienza delle aree di lavoro, è ora possibile aggiungere un gruppo di Office 365 all'elenco di accesso dell'area di lavoro per continuare a gestire l'accesso degli utenti al contenuto tramite i gruppi di Office 365.

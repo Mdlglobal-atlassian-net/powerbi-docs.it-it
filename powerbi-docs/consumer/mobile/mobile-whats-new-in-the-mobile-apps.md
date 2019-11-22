@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/08/2019
+ms.date: 11/12/2019
 ms.author: painbar
-ms.openlocfilehash: 1741646057137fbfb28a2c0ec42a7fd6428dc86e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876751"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010026"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -23,6 +23,10 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Novità del servizio Power BI](../../service-whats-new.md)  
 
 ## <a name="october-2019"></a>Ottobre 2019
+
+### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>Supporto Android per la configurazione remota delle impostazioni di accesso al server di report
+
+È stato aggiunto il supporto Android per la configurazione remota delle impostazioni di accesso del server di report dell'app Power BI per dispositivi mobili. Gli amministratori IT possono ora usare lo strumento MDM dell'organizzazione per configurare in modalità remota queste impostazioni nei dispositivi iOS e Android. Per informazioni dettagliate, vedere [Configurare l'accesso al server di report delle app Power BI per dispositivi mobili in modalità remota](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote).
 
 ### <a name="cross-report-drillthrough"></a>Drill-through tra report
 
