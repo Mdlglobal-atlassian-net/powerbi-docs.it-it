@@ -407,6 +407,8 @@
       items:
         - name: Tipi di dati in Power BI Desktop
           href: desktop-data-types.md
+        - name: Origini dati di Power BI
+          href: power-bi-data-sources.md
         - name: Usare la barra multifunzione aggiornata in Power BI Desktop (anteprima)
           href: desktop-ribbon.md
         - name: Scelte rapide dell'editor formule per Power BI Desktop
