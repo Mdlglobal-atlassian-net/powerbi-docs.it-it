@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875135"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265878"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Impostazioni di visualizzazione della pagina in un report di Power BI
 È essenziale mantenere i pixel del layout del report in condizioni perfette. A volte può essere complesso perché gli utenti visualizzano i report su schermi con proporzioni e dimensioni diverse. 
@@ -66,8 +66,7 @@ Le impostazioni di **Dimensioni pagina** sono disponibili solo per i proprietari
 
 * proporzioni 4:3
 * proporzioni 16:9 (impostazione predefinita)
-* Cortana
-* Lettera
+* Letter
 * Personalizzata (altezza e larghezza in pixel)
 
 ## <a name="next-steps"></a>Passaggi successivi

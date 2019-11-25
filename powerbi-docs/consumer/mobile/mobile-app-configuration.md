@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73925776"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199429"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI usando lo strumento di gestione dei dispositivi mobili (MDM)
 
@@ -56,6 +56,6 @@ Il portale di Intune consente agli amministratori di distribuire facilmente ques
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* Ottenere l'app Power BI per dispositivi mobili dall'[App store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) e [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
+* Ottenere l'app Power BI per dispositivi mobili dall'[App store](https://apps.apple.com/app/microsoft-power-bi/id929738808) e [Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
 * Seguire [@MSPowerBI su Twitter](https://twitter.com/MSPowerBI)
 * Partecipare alla conversazione nella [community di Power BI](https://community.powerbi.com/)

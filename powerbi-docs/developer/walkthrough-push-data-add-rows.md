@@ -1,19 +1,19 @@
 ---
 title: Aggiungere righe a una tabella
 description: Procedura dettagliata per il push dei dati - Aggiungere righe a una tabella di Power BI
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 39bf8ec92fba25c6097cf663bdb6572705938a42
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 83ac50aac257adeaddb648c5afd0eedc95874909
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879841"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265164"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Passaggio 5: Aggiungere righe a una tabella di Power BI
 

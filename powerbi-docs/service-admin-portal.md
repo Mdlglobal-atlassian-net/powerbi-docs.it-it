@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128368"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265900"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -278,13 +278,6 @@ I creatori di report possono condividere le app direttamente con gli utenti fina
 
 ## <a name="integration-settings"></a>Impostazioni di integrazione
 
-### <a name="ask-questions-about-data-using-cortana"></a>Porre domande sui dati tramite Cortana
-
-Gli utenti dell'organizzazione possono porre domande sui dati tramite Cortana. [Altre informazioni](service-cortana-enable.md)
-
-> [!NOTE]
-> Questa impostazione si applica all'intera organizzazione e non può essere limitata a gruppi specifici.
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Usare Analizza in Excel con set di dati locali
 
 Gli utenti dell'organizzazione possono usare Excel per visualizzare set di dati di Power BI locali e interagire con essi. [Altre informazioni](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ Gli utenti dell'organizzazione possono usare la visualizzazione Mappe ArcGIS per
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Usa la ricerca globale per Power BI (anteprima)
 
-Gli utenti dell'organizzazione possono usare funzionalità di ricerca esterne basate su Ricerca di Azure. Gli utenti possono ad esempio usare Cortana per recuperare informazioni chiave direttamente dai dashboard e dai report di Power BI. [Altre informazioni](service-cortana-intro.md)
+Gli utenti dell'organizzazione possono usare funzionalità di ricerca esterne basate su Ricerca di Azure.
 
 ## <a name="custom-visuals-settings"></a>Impostazioni degli oggetti visivi personalizzati
 

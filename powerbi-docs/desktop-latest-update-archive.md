@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8ae5e8e348c982c7e1dffd469e180f4353910bf3
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 228bc9a7c6d02b5c2cdf34178c7b023c78fa23ea
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099497"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310808"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Precedenti aggiornamenti mensili per Power BI Desktop
 
@@ -1503,7 +1503,7 @@ Gli aggiornamenti seguenti sono le novità di **Power BI Desktop** di questo mes
 ### <a name="reporting"></a>Creazione di report:
 
 -   Aggiunta di segnalibri (anteprima) [[video]](https://youtu.be/jksjtR8GnBE?t=1m47s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#bookmarking) [[articolo]](desktop-bookmarks.md)
--   Riquadro di selezione e controlli di visualizzazione degli oggetti visivi [[video]](https://youtu.be/jksjtR8GnBE?t=7m26s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[articolo]](desktop-bookmarks.md#visibility---using-the-selection-pane) 
+-   Riquadro di selezione e controlli di visualizzazione degli oggetti visivi [[video]](https://youtu.be/jksjtR8GnBE?t=7m26s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#selectionPane) [[articolo]](desktop-bookmarks.md#visibility-using-the-selection-pane) 
 -   Collegamenti di segnalibri per forme e immagini [[video]](https://youtu.be/jksjtR8GnBE?t=8m54s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#links) [[articolo]](desktop-bookmarks.md#bookmarks-for-shapes-and-images)
 -   In evidenza [[video]](https://youtu.be/jksjtR8GnBE?t=5m39s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#spotlight) [[articolo]](desktop-bookmarks.md#using-spotlight)
 -   Dispersione e raggi della bolla [[video]](https://youtu.be/jksjtR8GnBE?t=17m20s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary/#markers) [[articolo]](desktop-accessibility.md)

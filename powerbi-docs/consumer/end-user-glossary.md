@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764714"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264867"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -34,8 +34,6 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 **alert, alerts (avviso, avvisi)** Una funzionalità che informa gli utenti di modifiche nei dati in base a limiti impostati. Gli avvisi possono essere impostati in riquadri aggiunti da oggetti visivi del report. Gli utenti ricevono avvisi sul servizio e sull'app per dispositivi mobili.
 
 **annotate (annotazione)** Consente di scrivere righe, testo o timbri su una copia snapshot di un riquadro, report o oggetto visivo nell'app Power BI per dispositivi mobili per iOS e Android.
-
-**answer card, answer page (scheda di risposta, pagina di risposta)** Vedere la voce scheda di risposta di Cortana.
 
 **app, apps (app)** 
 
@@ -77,10 +75,6 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 **content pack (pacchetto di contenuto)** Una raccolta di set di dati, report e dashboard in pacchetto. Ora **app**. Altre informazioni sulla [nuova esperienza dell'area di lavoro](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (visualizzazione contenuto)**
-
-**Cortana answer card (Scheda di risposta di Cortana)** La pagina del report dedicato da includere in un report di Power BI per poter creare risposte personalizzate di Cortana.
-
-**Cortana answer page (Pagina di risposte di Cortana)** Il nome della pagina di Cortana che viene visualizzata dal cliente.
 
 **cross filter, cross highlight (filtro incrociato, evidenziazione incrociata)**
 
@@ -181,7 +175,7 @@ Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostame
 
 **native (nativo)** Incluso con il prodotto. Ad esempio, Power BI include un set di tipi di visualizzazione *native (nativi)* . È tuttavia possibile importare anche altri tipi, ad esempio gli oggetti visivi personalizzati.
 
-**riquadro di spostamento** **** Controlli visualizzati sul bordo sinistro della schermata del servizio Power BI.
+**riquadro di** **spostamento** Controlli visualizzati sul bordo sinistro della schermata del servizio Power BI.
 
 Prima istanza: riquadro di spostamento Menzioni successive o spazi ridotti: riquadro di spostamento
 
