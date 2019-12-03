@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
+ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264867"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "74548544"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -177,7 +177,7 @@ Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostame
 
 **riquadro di** **spostamento** Controlli visualizzati sul bordo sinistro della schermata del servizio Power BI.
 
-Prima istanza: riquadro di spostamento Menzioni successive o spazi ridotti: riquadro di spostamento
+Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostamento
 
 **riquadro di spostamento** vedere **riquadro di spostamento**
 
