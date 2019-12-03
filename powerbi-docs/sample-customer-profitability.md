@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874032"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265540"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Esempio Analisi della redditività dei clienti per Power BI: Presentazione
 
@@ -128,7 +128,7 @@ Molti riquadri nel dashboard di esempio Redditività clienti sono stati aggiunti
 
     * **Team Scorecard** è incentrata sulle prestazioni dei cinque responsabili e il relativo fatturato clienti.
     * **Industry Margin Analysis** indica come analizzare la redditività rispetto all'andamento dell'intero settore.
-    * **Executive Scorecard** fornisce una vista di ciascuno dei manager formattata per la visualizzazione in Cortana.
+    * **Executive Scorecard** offre una visualizzazione di ogni manager in un formato di pagina di dimensioni personalizzate.
 
 ### <a name="team-scorecard-page"></a>Pagina Team Scorecard
 ![Pagina Team Scorecard del report](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Questa pagina del report mostra una sezione diversa dei dati. Illustra il margin
    * Valery, che è responsabile di un solo prodotto, lavora solo in cinque segmenti del settore. L'influenza di Valery sul settore è stagionale, ma produce sempre una bolla di grandi dimensioni, che indica un impatto significativo sul bilancio aziendale. I segmenti del settore possono spiegare i risultati negativi?
 
 ### <a name="executive-scorecard"></a>Executive Scorecard
-Questa pagina è formattata come una pagina di risposte per Cortana. Per altre informazioni, vedere [Creare una pagina di risposte personalizzata per Cortana](service-cortana-answer-cards.md).
+Questa pagina presenta un formato con dimensioni personalizzate.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Esaminare i dati in maniera più approfondita ponendo domande con le Domande e risposte
 Per questa analisi sarebbe utile determinare quale settore genera il maggior ricavo per Valery. A tale scopo, verranno usate le Domande e risposte.

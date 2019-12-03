@@ -2,20 +2,20 @@
 title: Grafici a dispersione, grafici a bolle e tracciati a punti in Power BI
 description: Grafici a dispersione, tracciati a punti e grafici a bolle in Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870828"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311690"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Grafici a dispersione, grafici a bolle e tracciati a punti in Power BI
 
@@ -131,13 +131,30 @@ Ora si aggiungerà una terza dimensione.
     > [!NOTE]
     > Più punti dati possono comportare tempi di caricamento più lunghi. Se si sceglie di pubblicare report con limiti ai livelli più elevati della scala, assicurarsi di testare i report anche nel Web e nei dispositivi mobili. È importante verificare che le prestazioni del grafico corrispondano alle aspettative degli utenti.
 
-1. È possibile [formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora](service-getting-started-with-color-formatting-and-axis-properties.md).
-
-    Per [migliorare l'accessibilità](../desktop-accessibility.md), considerare la possibilità di aggiungere forme di marcatore a ogni riga. Per selezionare la forma del marcatore, espandere **Forme**, selezionare **Forma del marcatore** e selezionare una forma.
+1. Continuare a formattare i colori della visualizzazione, le etichette, i titoli, lo sfondo e altro ancora. Per [migliorare l'accessibilità](../desktop-accessibility.md), considerare la possibilità di aggiungere forme di marcatore a ogni riga. Per selezionare la forma del marcatore, espandere **Forme**, selezionare **Forma del marcatore** e selezionare una forma.
 
     ![Screenshot dell'elenco a discesa Forme con le opzioni Forma del marcatore evidenziate.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    È possibile cambiare la forma del marcatore in rombo, triangolo o quadrato. L'uso di una forma del marcatore diversa per ogni riga consente agli utenti dei report di distinguere più facilmente le linee dalle aree.
+    Cambiare la forma del marcatore in rombo, triangolo o quadrato. L'uso di una forma del marcatore diversa per ogni riga consente agli utenti dei report di distinguere più facilmente le linee dalle aree.
+
+1. Aprire il riquadro Analisi ![Screenshot dell'icona del riquadro Analisi.](media/power-bi-visualization-scatter/power-bi-analytics.png) per aggiungere altre informazioni alla visualizzazione.  
+    - Aggiungere una linea mediana. Selezionare **Linea mediana** > **Aggiungi**. Per impostazione predefinita, Power BI aggiunge una linea mediana per *Sales per sq ft*. Questo non è molto utile perché, come si può vedere, ci sono 10 punti dati e la mediana verrà creata con cinque punti dati su ciascun lato. Impostare invece **Misura** su *Total Sales Variance %* .  
+
+        ![Screenshot del grafico a bolle con la linea mediana aggiunta.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - Aggiungere l'ombreggiatura simmetrica per indicare quali punti hanno un valore superiore della misura dell'asse x rispetto alla misura dell'asse y e viceversa. Quando si attiva l'ombreggiatura simmetrica nel riquadro Analisi, Power BI mostra lo sfondo del grafico a dispersione simmetricamente in base ai limiti superiore e inferiore dell'asse corrente. È un modo molto rapido per identificare la misura dell'asse favorita da un punto dati, specialmente in presenza di un intervallo di asse diverso per l'asse x e l'asse y.
+
+        a. Cambiare il campo **Total sales variance %** in **Gross margin last year %**
+
+        ![Screenshot del grafico a bolle con la linea mediana aggiunta.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. Dal riquadro Analisi aggiungere **Ombreggiatura simmetrica**. Come si può vedere dall'ombreggiatura, Hosiery (la bolla verde nell'area ombreggiata rosa) è l'unica categoria che favorisce il margine lordo rispetto alle vendite al metro quadro. 
+
+        ![Screenshot del grafico a bolle con l'ombreggiatura simmetrica aggiunta.](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - Continuare a esplorare il riquadro Analisi per scoprire informazioni dettagliate interessanti nei dati. 
+
+        ![Screenshot del grafico a bolle con l'ombreggiatura simmetrica aggiunta.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Creare un tracciato a punti
 

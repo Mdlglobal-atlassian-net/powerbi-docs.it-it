@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128165"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311735"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formattazione condizionale nelle tabelle 
 La formattazione condizionale nelle tabelle consente di specificare colori delle celle personalizzati in base ai valori della cella o ad altri valori o campi, e anche di usare sfumature. È anche possibile visualizzare i valori delle celle con barre dei dati. 
@@ -139,7 +139,7 @@ Per colorare gli oggetti visivi è possibile usare uno dei valori elencati nella
 Quando si lavora con la formattazione condizionale nelle tabelle, è necessario tenere presenti alcune considerazioni:
 
 * La formattazione condizionale viene applicata solo ai valori di un oggetto visivo **Matrice** e non è applicabile a subtotali o totali complessivi. 
-* La formattazione condizionale non viene applicata alla riga **Totale**
+* La formattazione condizionale non viene applicata alla riga **Totale**.
 * Tutte le tabelle che non hanno un raggruppamento vengono visualizzate come righe singole che non supportano la formattazione condizionale.
 * Se si usa il formato sfumatura con valori max/min automatici o la formattazione basata su regole con regole percentuali e i dati contengono valori NaN, non è possibile applicare la formattazione condizionale. NaN significa 'Not a number' (non un numero). La causa più frequente è un errore di divisione per zero. Per evitare errori di questo tipo è possibile usare la [funzione DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax).
 

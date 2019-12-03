@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060437"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164253"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -28,6 +28,10 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 **How Microsoft Is Changing BI Data Protection** (In che modo Microsoft sta cambiando la protezione dei dati di business intelligence)
 <br>di Anton Fritz e Adi Regev
 <br>[Registrarsi per guardare il 4 dicembre](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Nine Trends Shaping the Future of Big Data Analytics** (Nove tendenze che danno forma al futuro dell'analisi dei Big Data)
+<br>di Vijay Gopalakrishnan
+<br>[Registrarsi per guardare il 18 dicembre](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ Iniziare dai webinar on demand più popolari
 
 ### <a name="getting-started"></a>Attività iniziali
 
-**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Microsoft Flow** (Automatizzare i processi aziendali quotidiani con Power BI, PowerApps e Microsoft Flow)
+**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Power Automate** (Automatizzare i processi aziendali quotidiani con Power BI, Power Apps e Power Automate)
 <br>di Wim Coorevits ed Enrique Plaza Garcia
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ Iniziare dai webinar on demand più popolari
 <br>di Charles Sterling
 <br>[Guardare adesso](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**The Total Economic Impact di Microsoft Flow and PowerApps** (Impatto economico totale di Microsoft Flow e PowerApps)
+**The Total Economic Impact di Power Automate and PowerApps** (Impatto economico totale di Power Automate e Power Apps)
 <br>di Jonathan Lipsitz e Enrique Plaza Garcia
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

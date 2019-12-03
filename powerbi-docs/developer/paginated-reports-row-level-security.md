@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880459"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311499"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementazione della sicurezza a livello di riga nei report impaginati incorporati (anteprima)
 
@@ -30,7 +30,7 @@ Quando si applica la sicurezza a livello di riga a un report impaginato di Power
 
 Dopo aver assegnato il parametro a **UserID**, usare l'API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) per ottenere il token di incorporamento.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>Usare UserID come filtro a livello di report o di query
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Usare UserID come filtro a livello di report o di query
 
 È possibile usare **UserId** come *filtro* o in una *query* sull'origine dati nel [Generatore report impaginati di Power BI](../report-builder-power-bi.md).
 
@@ -66,7 +66,7 @@ Dopo aver assegnato il parametro a **UserID**, usare l'API [Reports GenerateToke
 
     ![Parametri di Generatore report di Power BI](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. In **Nome parametro** immettere **@UserID** e in **Valore parametro** aggiungere **[&UserID]** .
+2. In **Nome parametro** immettere **\@UserID** e in **Valore parametro** aggiungere **[&UserID]** .
 
     ![Nome parametro di Generatore report di Power BI](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

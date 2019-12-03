@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881764"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410875"
 ---
 # <a name="manage-data-sources"></a>Gestire le origini dati
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI supporta molte origini dati locali, ognuna delle quali ha requisiti specifici. Un gateway può essere usato per una singola origine dati o più origini dati. Per questo esempio viene illustrato come aggiungere SQL Server come origine dati. La procedura si ripete in modo simile per eventuali altre origini dati.
+Power BI supporta molte [origini dati locali](power-bi-data-sources.md), ognuna delle quali ha requisiti specifici. Un gateway può essere usato per una singola origine dati o più origini dati. Per questo esempio viene illustrato come aggiungere SQL Server come origine dati. La procedura si ripete in modo simile per eventuali altre origini dati.
 
 La maggior parte delle operazioni di gestione delle origini dati può essere eseguita anche usando le API. Per altre informazioni, vedere [API REST (gateway).](/rest/api/power-bi/gateways)
 
@@ -117,56 +117,7 @@ Quando si aggiunge un'origine dati al gateway, è necessario specificare le cred
 
 ## <a name="list-of-available-data-source-types"></a>Elenco di tipi di origini dati disponibili
 
-Il gateway dati locale supporta le seguenti origini dati per Power BI. Oltre alle origini dati locali, anche per le origini protette da un firewall, una VPN o una rete virtuale potrebbe essere necessario un gateway dati.
-
-| **Origine dati** | **Dinamico/DirectQuery** | **Aggiornamento pianificato o manuale (configurato dall'utente)** |
-| --- | --- | --- |
-| Amazon Redshift |Sì |Sì |
-| Analysis Services |Sì |Sì |
-| Cubi AtScale |Sì |Sì |
-| Azure Active Directory |No |Sì |
-| Archiviazione BLOB di Azure |No |Sì |
-| Azure DevOps Server |No |Sì |
-| Archiviazione tabelle di Azure |No |Sì |
-| Connettore BI |Sì |Sì |
-| Denodo |Sì |Sì |
-| Dremio |Sì |Sì |
-| EmigoDataSourceConnector |No |Sì |
-| Essbase |Sì |Sì |
-| Exasol |Sì |Sì |
-| File |No |Sì |
-| Cartella |No |Sì |
-| Paxata |No |Sì |
-| IBM DB2 |Sì |Sì |
-| Database Informix IBM |No |Sì |
-| IBM Netezza |Sì |Sì |
-| Impala |Sì |Sì |
-| ODBC Jethro |Sì |Sì |
-| Kyligence Enterprise |Sì |Sì |
-| ODBC MarkLogic |Sì |Sì |
-| Microsoft Graph Security |No |Sì |
-| MySQL |No |Sì |
-| ODBC |No |Sì |
-| OData |No |Sì |
-| OLE DB |No |Sì |
-| Oracle |Sì |Sì |
-| PostgreSQL |No |Sì |
-| QubolePresto |Sì |Sì |
-| Connettore di base rapido |No |Sì |
-| Server messaggi SAP Business Warehouse |Sì |Sì |
-| Server SAP Business Warehouse |Sì |Sì |
-| SAP HANA |Sì |Sì |
-| SQL Server |Sì |Sì |
-| SharePoint |No |Sì |
-| Snowflake |Sì |Sì |
-| Spark |Sì |Sì |
-| SurveyMonkey |No |Sì |
-| Sybase |No |Sì |
-| TeamDesk.Database |No |Sì |
-| Teradata |Sì |Sì |
-| Vertica |Sì |Sì |
-| Web |No |Sì |
-| Workforce Dimensions |No |Sì |
+Per informazioni sulle origini dati supportate dal gateway dati locale, vedere [Origini dati di Power BI](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

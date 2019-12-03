@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871552"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74163757"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Avvisi per i dati nel servizio Power BI
 
@@ -23,7 +23,7 @@ Impostare gli avvisi per ricevere una notifica quando i dati nei dashboard super
 
 È possibile impostare gli avvisi per i riquadri se si ha una licenza di Power BI Pro. È anche possibile impostare avvisi che informano se qualcuno condivide un dashboard che è in un livello di [capacità Premium](service-premium-what-is.md). Gli avvisi possono essere impostati solo in riquadri aggiunti da oggetti visivi del report e solo su misuratori, indicatori KPI e schede. Gli avvisi possono essere impostati negli oggetti visivi creati da set di dati in streaming aggiunti da un report a un dashboard. Gli avvisi non possono essere impostati nei riquadri in streaming creati direttamente nel dashboard usando **Aggiungi riquadro** > **Dati in streaming personalizzati**.
 
-Gli avvisi possono essere visualizzati solo da chi li imposta, anche se si condivide il dashboard. Neanche il proprietario del dashboard può visualizzare gli avvisi impostati dall'utente nella visualizzazione del dashboard. Gli avvisi per i dati sono completamente sincronizzati sulle piattaforme. È possibile quindi impostare e visualizzare gli avvisi per i dati [nell'app Power BI per dispositivi mobili](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e nel servizio Power BI. Non sono disponibili per Power BI Desktop. È anche possibile automatizzare e integrare gli avvisi con Microsoft Flow. Per provare, vedere l'articolo [Microsoft Flow e Power BI](service-flow-integration.md).
+Gli avvisi possono essere visualizzati solo da chi li imposta, anche se si condivide il dashboard. Neanche il proprietario del dashboard può visualizzare gli avvisi impostati dall'utente nella visualizzazione del dashboard. Gli avvisi per i dati sono completamente sincronizzati sulle piattaforme. È possibile quindi impostare e visualizzare gli avvisi per i dati [nell'app Power BI per dispositivi mobili](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) e nel servizio Power BI. Non sono disponibili per Power BI Desktop. È anche possibile automatizzare e integrare gli avvisi con Power Automate. Per provare, vedere l'articolo [Power Automate e Power BI](service-flow-integration.md).
 
 ![Riquadri](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -125,7 +125,7 @@ Sono disponibili molti modi per gestire gli avvisi:
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-* [Creare un flusso di Microsoft Flow che includa un avviso per i dati](service-flow-integration.md).
+* [Creare un flusso di Power Automate che includa un avviso per i dati](service-flow-integration.md).
 
 * [Impostare gli avvisi per i dati nel dispositivo mobile](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 

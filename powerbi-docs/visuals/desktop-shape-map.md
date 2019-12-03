@@ -2,19 +2,19 @@
 title: Usare forme mappa in Power BI Desktop (anteprima)
 description: Creare confronti relativi con aree usando forme mappa in Power BI Desktop
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871131"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199442"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
 
@@ -198,28 +198,23 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 | ID | nome | nome-it |
 | --- | --- | --- |
-| Alsace |Alsace |Alsazia |
-| Rhone Alpes |Rhône-Alpes |Rodano-Alpi |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provenza-Alpi-Costa Azzurra |
-| Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
-| Picardie |Picardie |Piccardia |
-| Pays de la Loire |Pays de la Loire |Paesi della Loira |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |Nord-Passo di Calais |
-| Midi-Pyrenees |Midi-Pyrénées |Midi-Pirenei |
-| Lorraine |Lorraine |Lorena |
-| Limousin |Limousin |Limosino |
-| Languedoc-Roussillon |Languedoc-Roussillon |Linguadoca-Rossiglione |
-| Ile-del-Francia |Île-de-France |Île-de-France |
-| Haute Normandie |Haute Normandie |Alta Normandia |
-| Franche-Comte |Franche Comté |Franca Contea |
-| Corse |Corse |Corsica |
-| Champagne-Ardenne |Champagne-Ardenne |Champagne-Ardenne |
-| Centre-Val de Loire |Centre-Val de Loire |Centro-Valle della Loira |
+| Auvergne-Rhone-Alpes |  |  |
+| Bourgogne-Franche-Comte |  |  |
 | Bretagne |Bretagne |Bretagna |
-| Bourgogne |Bourgogne |Borgogna |
-| Basse-Normandie |Basse-Normandie |Bassa Normandia |
-| Auvergne |Auvergne |Alvernia |
-| Aquitaine |Aquitaine |Aquitaine |
+| Centro-Valle della Loira |Centre-Val de Loire |Centro-Valle della Loira |
+| Corse |Corse |Corsica |
+| Grand Est |  |  |
+| Guadalupa | |   |
+| Hauts-de-France |  |  |
+| Île-de-France |Île-de-France |Île-de-France |
+| La Reunion |  |  |
+| Mayotte  |  |  |
+| Normandie |Normandie |  |
+| Nouvelle-Aquitaine |  |  |
+| Occitanie  |  |  |
+| Pays de la Loire |Pays de la Loire |Pays de la Loire |
+| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
+|  |  |  |
 
 ### <a name="germany-states"></a>Germania: Stati
 

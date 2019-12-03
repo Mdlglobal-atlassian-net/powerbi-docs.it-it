@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875616"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410768"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Tecniche di riduzione dei dati per i modelli di importazione
 
@@ -21,14 +21,14 @@ Questo articolo è destinato a esperti di modellazione di dati in Power BI Deskt
 
 I modelli di importazione vengono caricati con dati compressi e ottimizzati e quindi archiviati su disco tramite il motore di archiviazione VertiPaq. Durante il caricamento dei dati di origine in memoria, è possibile osservare la compressione 10x ed è quindi ragionevole aspettarsi che 10 GB di dati di origine possano essere compressi in circa 1 GB. Inoltre, quando viene eseguito il salvataggio permanente su disco, è possibile ottenere un'ulteriore riduzione del 20%.
 
-Nonostante il livello di efficienza del motore di archiviazione VertiPaq, è importante cercare di ridurre al minimo i dati da caricare nei modelli. Questo è particolarmente vero per i modelli di grandi dimensioni o i modelli per i quali si prevede un notevole aumento di dimensioni nel tempo. Di seguito sono elencati i quattro motivi principali:
+Nonostante il livello di efficienza del motore di archiviazione VertiPaq, è importante cercare di ridurre al minimo i dati da caricare nei modelli. Questo è particolarmente vero per i modelli di grandi dimensioni o per i modelli per i quali si prevede un notevole aumento di dimensioni nel tempo. Di seguito sono elencati i quattro motivi principali:
 
 - Le dimensioni più grandi dei modelli possono non essere supportate dalla capacità. La capacità condivisa può ospitare modelli di dimensioni fino a 1 GB, mentre le capacità Premium possono ospitare modelli di dimensioni fino a 13 GB. Per altre informazioni, vedere l'articolo [Supporto di Power BI Premium per set di dati di grandi dimensioni](../service-premium-large-datasets.md).
-- Le dimensioni più piccole dei modelli riducono la contesa per le risorse di capacità, in particolare della memoria. In questo modo è possibile caricare simultaneamente più modelli per periodi di tempo più lunghi, con conseguente riduzione del tasso di rimozione. Per altre informazioni, vedere l'argomento relativo alla [modalità di funzionamento delle capacità](../whitepaper-powerbi-premium-deployment.md#how-capacities-function) nel white paper [Distribuzione di Power BI Premium](../whitepaper-powerbi-premium-deployment.md).
+- Le dimensioni più piccole dei modelli riducono la contesa per le risorse di capacità, in particolare della memoria. In questo modo è possibile caricare simultaneamente più modelli per periodi di tempo più lunghi, con conseguente riduzione del tasso di rimozione. Per altre informazioni, vedere [Gestione delle capacità Premium](../service-premium-capacity-manage.md).
 - I modelli più piccoli vengono aggiornati più velocemente, consentendo così una riduzione della latenza, una velocità effettiva di aggiornamento del set di dati più elevata e minore pressione sulle risorse di capacità e di sistema di origine.
 - Un numero minore di righe di tabella può risultare in una maggiore velocità di valutazione dei calcoli, con conseguente miglioramento delle prestazioni generali delle query.
 
-In questo articolo sono illustrate otto tecniche diverse per la riduzione dei dati. Tra queste sono incluse:
+In questo articolo sono illustrate otto tecniche diverse per la riduzione dei dati. Queste tecniche includono:
 
 - [Rimuovere le colonne inutili](#remove-unnecessary-columns)
 - [Rimuovere le righe inutili](#remove-unnecessary-rows)
@@ -43,12 +43,12 @@ In questo articolo sono illustrate otto tecniche diverse per la riduzione dei da
 
 Le colonne delle tabelle del modello hanno due scopi principali:
 
-- La **creazione di report**, ovvero ottenere strutture di report appropriate per filtrare, raggruppare e riepilogare i dati del modello
+- La **creazione di report**, per ottenere strutture di report appropriate per filtrare, raggruppare e riepilogare i dati del modello
 - La **struttura del modello**, ovvero supportare le relazioni tra modelli, i calcoli del modello, i ruoli di sicurezza e anche la formattazione a colori dei dati
 
 Le colonne che non servono a questi scopi possono probabilmente essere rimosse. La rimozione di colonne è definita _filtraggio verticale_.
 
-È consigliabile progettare modelli con il numero esatto di colonne in base ai requisiti di reporting noti. Naturalmente questi requisiti possono cambiare nel tempo, ma è bene tenere presente che è più semplice aggiungere colonne in un secondo momento che non rimuoverle. La rimozione di colonne può causare interruzioni nei report o nella struttura del modello.
+È consigliabile progettare modelli con il numero esatto di colonne in base ai requisiti di reporting noti. I requisiti possono cambiare nel tempo, ma è bene tenere presente che è più semplice aggiungere colonne in un secondo momento che non rimuoverle. La rimozione di colonne può causare interruzioni nei report o nella struttura del modello.
 
 ## <a name="remove-unnecessary-rows"></a>Rimuovere le righe inutili
 
@@ -62,7 +62,7 @@ Il **filtraggio in base al tempo** consiste nella limitazione della _cronologia 
 
 La tecnica più efficace per ridurre la dimensione di un modello è quella di caricare dati già riepilogati. Questa tecnica può essere usata per aumentare la granularità delle tabelle di tipo fatto. Ciò comporta tuttavia un chiaro compromesso che ha come risultato una perdita di dettaglio.
 
-In una tabella dei fatti di vendita di origine, ad esempio, viene archiviata una riga per ogni riga di ordine. Per ottenere una riduzione significativa dei dati è possibile riepilogare tutte le metriche relative alle vendite, raggruppando per data, cliente e prodotto. Si tenga quindi presente che è possibile ottenere una riduzione dei dati ancora più significativa raggruppando per data _a livello di mese_. In questo modo si può ottenere una riduzione della dimensione del modello pari al 99%, ma ovviamente la generazione di report a livello di giorno o di singolo ordine non è più possibile. La decisione di riepilogare i dati di tipo fatto presuppone sempre un compromesso, che può essere attenuato da un struttura del modello di tipo misto, come verrà discusso più avanti nell'argomento [Passare alla modalità mista](#switch-to-mixed-mode).
+In una tabella dei fatti di vendita di origine, ad esempio, viene archiviata una riga per ogni riga di ordine. Per ottenere una riduzione significativa dei dati è possibile riepilogare tutte le metriche relative alle vendite, raggruppando per data, cliente e prodotto. Si tenga quindi presente che è possibile ottenere una riduzione dei dati ancora più significativa raggruppando per data _a livello di mese_. In questo modo si può ottenere una riduzione della dimensione del modello pari al 99%, ma la generazione di report a livello di giorno o di singolo ordine non è più possibile. La decisione di riepilogare i dati di tipo fatto presuppone sempre un compromesso, che può essere attenuato da un struttura del modello di tipo misto. Questa opzione viene descritta nell'argomento [Passare alla modalità mista](#switch-to-mixed-mode).
 
 ## <a name="optimize-column-data-types"></a>Ottimizzare i tipi di dati delle colonne
 
@@ -94,7 +94,7 @@ Power BI Desktop include un'opzione denominata _Data/ora automatica_. Quando è 
 
 In Power BI Desktop, una progettazione in modalità mista ha l'effetto di produrre un modello composito. Consente essenzialmente di determinare la modalità di archiviazione _per ogni tabella_. Ogni tabella può quindi avere una specifica proprietà Modalità di archiviazione impostata come Importa o DirectQuery (un'altra opzione possibile è Doppia).
 
-Una tecnica efficace per ridurre le dimensioni del modello consiste nell'impostare su DirectQuery la proprietà Modalità di archiviazione per le tabelle di tipo fatto più grandi. Tenere presente che questo approccio di progettazione potrebbe funzionare bene insieme all'argomento [Raggruppare e riepilogare](#group-by-and-summarize) introdotto in precedenza. Ad esempio, i dati di vendita riepilogati potrebbero essere usati per ottenere report di riepilogo con prestazioni elevate. Una pagina di drill-through potrebbe visualizzare le vendite granulari per un contesto di filtro specifico (e limitato), visualizzando tutti gli ordini di vendita nel contesto. In questo esempio, la pagina di drill-through includerebbe oggetti visivi basati su una tabella DirectQuery per recuperare i dati degli ordini di vendita.
+Una tecnica efficace per ridurre le dimensioni del modello consiste nell'impostare su DirectQuery la proprietà Modalità di archiviazione per le tabelle di tipo fatto più grandi. Tenere presente che questo approccio di progettazione potrebbe funzionare bene insieme alla tecnica [Raggruppare e riepilogare](#group-by-and-summarize) introdotta in precedenza. Ad esempio, i dati di vendita riepilogati potrebbero essere usati per ottenere report di riepilogo con prestazioni elevate. Una pagina di drill-through potrebbe visualizzare le vendite granulari per un contesto di filtro specifico (e limitato), visualizzando tutti gli ordini di vendita nel contesto. In questo esempio, la pagina di drill-through includerebbe oggetti visivi basati su una tabella DirectQuery per recuperare i dati degli ordini di vendita.
 
 Esistono tuttavia molte implicazioni in materia di sicurezza e prestazioni correlate ai modelli compositi. Per altre informazioni, vedere l'articolo [Usare modelli compositi in Power BI Desktop](../desktop-composite-models.md).
 
@@ -104,3 +104,4 @@ Per altre informazioni sulla struttura di un modello di importazione di Power BI
 
 - [Usare modelli compositi in Power BI Desktop](../desktop-composite-models.md)
 - [Modalità di archiviazione in Power BI Desktop](../desktop-storage-mode.md)
+- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

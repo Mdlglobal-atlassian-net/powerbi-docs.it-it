@@ -1,31 +1,31 @@
 ---
-title: 'Esercitazione: Filtri dei dati in Power BI'
-description: Filtri dei dati in Power BI
+title: Filtri dei dati in Power BI
+description: Un filtro dei dati di Power BI offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report.
 author: v-thepet
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 11/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 808f27b94e53d5acf351772ef304f9cc69215007
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880803"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265426"
 ---
 # <a name="slicers-in-power-bi"></a>Filtri dei dati in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Si desidera consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
+Si supponga di voler consentire ai lettori dei report di esaminare le metriche relative alle vendite complessive, ma anche di evidenziare le prestazioni per i singoli direttori di zona relative a diversi intervalli di tempo. A tal fine, è possibile creare report separati o grafici comparativi oppure è possibile usare i filtri dei dati. Un filtro dei dati offre una modalità di filtro alternativa che consente di ridurre la parte del set di dati mostrata nelle altre visualizzazioni all'interno di un report. 
 
 In questa esercitazione viene usato l'[esempio di analisi delle vendite al dettaglio](../sample-retail-analysis.md) disponibile gratuitamente per illustrare una procedura dettagliata per creare, formattare e usare filtri dei dati basati su un elenco o un intervallo di date. Si noterà che vi sono molti modi per formattare e usare i filtri dei dati. 
 
-![filtro dei dati](media/power-bi-visualization-slicers/slicer2.gif)
+![Animazione del filtro dei dati](media/power-bi-visualization-slicers/slicer2.gif)
 
 ## <a name="when-to-use-a-slicer"></a>Quando usare un filtro dei dati
 I filtri dei dati rappresentano un'ottima scelta quando si vuole eseguire quanto segue:
@@ -35,58 +35,65 @@ I filtri dei dati rappresentano un'ottima scelta quando si vuole eseguire quanto
 * Filtrare per colonne non necessarie e nascoste nelle tabelle di dati.
 * Creare più report mirati inserendo i filtri dei dati in corrispondenza di oggetti visivi importanti.
 
-I filtri dei dati di Power BI presentano le limitazioni seguenti:
+I filtri dei dati di Power BI non supportano:
 
-- I filtri dei dati non supportano i campi di input.
-- Il drill-down non è supportato per i filtri dei dati.
+- Campi di input
+- Drilldown
 
 
 ## <a name="create-slicers"></a>Creare filtri dei dati
 
 **Creare un nuovo filtro dei dati in base al direttore di zona**
 
-Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+1. Scaricare il [file PBIX Retail Analysis Sample](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
+1. Nella barra dei menu di Power BI Desktop selezionare **File** > **Apri**.
    
-2. Trovare la copia del **file Retail Analysis Sample PBIX**
+1. Passare al file **Retail Analysis Sample PBIX.pbix** e quindi selezionare **Apri**.
 
-1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Nel riquadro sinistro selezionare l'icona **Report** ![icona Report](media/power-bi-visualization-kpi/power-bi-report-view.png) per aprire il file in visualizzazione report.
 
-1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
+1. Nella pagina **Overview**, senza elementi selezionati nell'area di disegno del report, selezionare l'icona **Filtro dei dati** ![icona Filtro dei dati](media/power-bi-visualization-slicers/slicer-icon.png) nel riquadro **Visualizzazioni** per creare un nuovo filtro dei dati. 
 
-2. Nella pagina Overview, senza elementi selezionati nel canvas, selezionare l'icona **Filtro dei dati** ![icona del filtro dei dati](media/power-bi-visualization-slicers/slicer-icon.png) nel riquadro **Visualizzazioni** per creare un nuovo filtro dei dati. 
-3. Con il nuovo filtro dei dati selezionato, selezionare **District** > **DM** nel riquadro Campi per popolare il filtro dei dati. Il nuovo filtro dei dati è costituito da un elenco di nomi preceduti da caselle di selezione. 
+1. Con il nuovo filtro dei dati selezionato, selezionare **District** > **DM** nel riquadro **Campi** per popolare il filtro dei dati. 
+
+    Il nuovo filtro dei dati viene ora popolato con un elenco di nomi di direttori di zona con le relative caselle di selezione.
     
-    ![Nuovo filtro dei dati](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
+    ![Filtro dei dati popolato con i nomi dei direttori di zona](media/power-bi-visualization-slicers/power-bi-new-slicer.png)
     
-4. Ridimensionare e trascinare il filtro dei dati e gli altri elementi nel canvas per liberare spazio per il filtro. Si noti che i nomi degli elementi del filtro dei dati vengono troncati se si riducono troppo le dimensioni del filtro. 
-5. Selezionare i nomi nel filtro dei dati e osservare gli effetti prodotti sulle altre visualizzazioni nella pagina. Selezionare di nuovo i nomi per deselezionarli e tenere premuto **CTRL** per selezionare più nomi. Selezionando tutti i nomi si ottiene lo stesso effetto di quando nessun nome è selezionato. 
+1. Ridimensionare e trascinare gli elementi nell'area di disegno per liberare spazio per il filtro. Si noti che, se si riducono troppo le dimensioni del filtro dei dati, i nomi degli elementi vengono troncati. 
 
-6. In alternativa, selezionare l'icona del rullo per formattare il filtro dei dati. Le opzioni sono tantissime per poterle descrivere tutte. È consigliabile provarle e creare un filtro dei dati adatto. Negli esempi seguenti il primo filtro dei dati usa un orientamento orizzontale e sfondi colorati per gli elementi. Il secondo filtro dei dati ha mantenuto l'orientamento verticale, mentre colora il testo per un aspetto più standard.
+1. Selezionare i nomi nel filtro dei dati e osservare gli effetti prodotti sulle altre visualizzazioni nella pagina. Selezionare di nuovo i nomi per deselezionarli o tenere premuto **CTRL** per selezionare più nomi. Selezionando tutti i nomi si ottiene lo stesso effetto di quando nessun nome è selezionato. 
 
-   ![Nuovo filtro dei dati](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
->[!TIP]
->Per impostazione predefinita, gli elementi del filtro dei dati con elenco vengono elencati in ordine crescente. Per visualizzarli in ordine decrescente, selezionare i puntini di sospensione ( **...** ) nell'angolo superiore destro del filtro dei dati e scegliere **Ordinamento decrescente**.
+1. In alternativa, selezionare **Formato** (icona del rullo) nel riquadro **Visualizzazioni** per formattare il filtro dei dati. 
 
-**Per creare un nuovo filtro dei dati in base a un intervallo di date**
+   Le opzioni sono tantissime per poterle descrivere tutte. È consigliabile provarle e creare un filtro dei dati adatto. Nell'immagine seguente il primo filtro dei dati ha un orientamento orizzontale e sfondi colorati per gli elementi. Il secondo filtro dei dati ha un aspetto più standard, con un orientamento verticale e testo colorato.
 
-1. Senza elementi selezionati nel canvas, selezionare l'elenco a discesa **Store** nel riquadro Campi e trascinare **OpenDate** nell'area **Valori** nel riquadro Visualizzazioni per creare una nuova visualizzazione.
-2. Con la nuova visualizzazione selezionata, selezionare l'icona **Filtro dei dati** per convertire la nuova visualizzazione in un filtro dei dati. Quest'ultimo consiste in un dispositivo di scorrimento con un intervallo di date specificato.
+   ![Filtro dei dati formattato](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
+
+   >[!TIP]
+   >Per impostazione predefinita, gli elementi dell'elenco del filtro dei dati vengono elencati in ordine crescente. Per visualizzarli in ordine decrescente, selezionare i puntini di sospensione ( **...** ) nell'angolo superiore destro del filtro dei dati e scegliere **Ordinamento decrescente**.
+
+**Creare un nuovo filtro dei dati in base a un intervallo di date**
+
+1. Selezionare la pagina **Overview** del report. Se non è stato selezionato alcun elemento nell'area di disegno report, nel riquadro **Campi** selezionare **Store** >  **OpenDate**.
+
+    Questa azione popola la casella **Valori** nel riquadro **Visualizzazioni** per creare una nuova visualizzazione.
+
+1. Con la nuova visualizzazione selezionata nel report, selezionare l'icona **Filtro dei dati** nel riquadro **Visualizzazioni** per convertire la nuova visualizzazione in un filtro dei dati. Questo filtro dei dati **OpenDate** consiste in un dispositivo di scorrimento con un intervallo di date specificato.
     
-    ![Nuovo filtro dei dati basato su intervallo](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
+    ![Creare la visualizzazione OpenDate](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
 
-    
-4. Ridimensionare e trascinare il filtro dei dati e gli altri elementi nel canvas per liberare spazio per il filtro. Si noti che le dimensioni del dispositivo di scorrimento cambiano in base a quelle del filtro dei dati, ma il controllo non è più visibile e le date vengono troncate se si riducono troppo le dimensioni del filtro. 
-4. Selezionare diversi intervalli di date con il dispositivo di scorrimento oppure selezionare un campo data per digitare un valore o visualizzare un calendario popup per una selezione più precisa. Osservare gli effetti sulle altre visualizzazioni nella pagina.
+1. Ridimensionare e trascinare il filtro dei dati e gli altri elementi nell'area di disegno per liberare spazio per il filtro. Anche se le dimensioni del dispositivo di scorrimento cambiano in base a quelle del filtro dei dati, il controllo non è più visibile e le date vengono troncate se si riducono troppo le dimensioni del filtro. 
+
+1. Selezionare diversi intervalli di date con il dispositivo di scorrimento oppure selezionare un campo data per immettere una data o visualizzare un calendario popup per una selezione più precisa. Osservare gli effetti sulle altre visualizzazioni nella pagina.
     
     >[!NOTE]
     >I tipi di dati numerici e data/ora generano per impostazione predefinita filtri dei dati con dispositivi di scorrimento per intervalli. A partire dall'aggiornamento di Power BI del mese di febbraio 2018, i dispositivi di scorrimento per intervalli di numeri interi si allineano ai numeri interi anziché mostrare i valori decimali. 
 
-
-5. Per modificare il tipo di filtro dei dati, passare il puntatore del mouse sull'area in alto a destra del filtro selezionato, selezionare la freccia in giù e scegliere una delle altre opzioni, ad esempio **Elenco** o **Prima**. Osservare come cambiano le opzioni di selezione e l'aspetto del filtro dei dati. 
+1. Per modificare il tipo di filtro dei dati, passare il puntatore del mouse sull'area in alto a destra del filtro selezionato, selezionare l'icona della freccia verso il basso e scegliere una delle opzioni, ad esempio **Elenco** o **Prima**. Osservare come cambiano le opzioni di selezione e l'aspetto del filtro dei dati. 
  
-    ![Nuovo filtro dei dati basato su intervallo](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
+    ![Nuovo intervallo per il filtro dei dati](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
 
 
 Per altre informazioni sulla creazione e l'uso di filtri dei dati per un intervallo numerico, guardare il video seguente e vedere [Usare il filtro dei dati per l'intervallo numerico in Power BI Desktop](../desktop-slicer-numeric-range.md).
@@ -94,116 +101,149 @@ Per altre informazioni sulla creazione e l'uso di filtri dei dati per un interva
    > Questo video usa una versione precedente di Power BI Desktop.
    > 
    > 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>Controllare su quali oggetti visivi della pagina hanno effetto i filtri dei dati
 Per impostazione predefinita, i filtri dei dati in una pagina di report hanno effetto su tutte le altre visualizzazioni nella pagina, incluse le interazioni tra le visualizzazioni. Mentre si scelgono i valori nell'elenco e nei dispositivi di scorrimento delle date appena creati, osservare gli effetti prodotti sulle altre visualizzazioni. I dati filtrati risultano da un'intersezione dei valori selezionati in entrambi i filtri dei dati. 
 
-È possibile usare **Interazioni oggetti visivi** per impedire che alcune visualizzazioni nella pagina abbiano effetto su altre. Nella pagina **Panoramica** il grafico "Total Sales Variance by FiscalMonth and District Manager" (Varianza vendite complessive per mese fiscale e direttore di zona) mostra i dati comparativi delle vendite complessive per i responsabili di zona in base al mese, che si desidera mantenere sempre visibili. Per impedire alle selezioni del filtro dei dati di filtrare i dati in questo grafico, è possibile usare **Interazioni oggetti visivi**. 
+Usare le interazioni degli oggetti visivi per impedire che alcune visualizzazioni nella pagina abbiano effetto su altre. Nella pagina **Overview** il grafico **Total Sales Variance by FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) mostra i dati comparativi delle vendite complessive per i direttori di zona in base al mese, che si vogliono mantenere sempre visibili. Per impedire alle selezioni del filtro dei dati di filtrare i dati in questo grafico, usare le interazioni degli oggetti visivi. 
 
-1. Con il filtro dei dati District Manager nella pagina **District Monthly Sales** selezionata:
-    - In Power BI Desktop fare clic sul menu **Formatta** in **Strumenti visivi** e selezionare **Modifica interazioni**.
-   
-   I controlli del filtro ![controlli del filtro](media/power-bi-visualization-slicers/filter-controls.png) vengono visualizzati sopra tutti gli altri oggetti visivi della pagina. Inizialmente tutte le icone **Filtro** sono selezionate.
-   
-2. Selezionare l'icona **Nessuno** sopra il grafico **Total Sales Variance by FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) per impedire l'applicazione del filtro dei dati al grafico. 
-3. Selezionare il filtro dei dati **Mese** e quindi di nuovo l'icona **Nessuno** sopra il grafico **Total Sales Variance da FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) per impedire l'applicazione del filtro dei dati al grafico. Per effetto di queste impostazioni, quando si selezionano nomi e intervalli di date nei filtri dei dati, il grafico Total Sales Variance dal grafico FiscalMonth and District Manager (Varianza vendite complessive per mese fiscale e direttore di zona) rimane invariato. 
+1. Passare alla pagina **Overview** del report e quindi selezionare il filtro dei dati **DM** creato in precedenza.
 
-Per altre informazioni sulla modifica delle interazioni, vedere [Interazioni tra le visualizzazioni in un report di Power BI](../service-reports-visual-interactions.md).
+1. Nel menu di Power BI Desktop fare clic sul menu **Formatta** in **Strumenti visivi** e quindi selezionare **Modifica interazioni**.
+   
+   I controlli del filtro ![Controlli del filtro](media/power-bi-visualization-slicers/filter-controls.png), ognuno con un'opzione **Filtro** e un'opzione **Nessuno**, vengono visualizzati sopra tutti gli oggetti visivi della pagina. L'opzione **Filtro** è inizialmente preselezionata in tutti i controlli.
+   
+1. Selezionare l'opzione **Nessuno** nel filtro sopra il grafico **Total Sales Variance by FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) per impedire l'applicazione del filtro dei dati **DM** al grafico. 
+
+1. Selezionare il filtro dei dati **OpenDate** e quindi selezionare l'opzione **Nessuno** sopra il grafico **Total Sales Variance by FiscalMonth and District Manager** per impedire l'applicazione del filtro dei dati. 
+
+   Per effetto di queste impostazioni, quando si selezionano nomi e intervalli di date nei filtri dei dati, il grafico **Total Sales Variance by FiscalMonth and District Manager** (Varianza vendite complessive per mese fiscale e direttore di zona) rimane invariato.
+
+Per altre informazioni sulla modifica delle interazioni, vedere [Modificare l'interazione degli oggetti visivi in un report di Power BI](../service-reports-visual-interactions.md).
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronizzare e usare i filtri dei dati in altre pagine
 A partire dall'aggiornamento di febbraio 2018 di Power BI, è possibile sincronizzare un filtro dei dati e usarlo in una pagina qualsiasi o in tutte le pagine di un report. 
 
-Nel report corrente la pagina **District Monthly Sales** contiene anche un filtro dei dati **District Manager**. E se si volesse tale filtro dei dati anche nella pagina **Overview**? Anche nella pagina **New Stores** è disponibile una sezione che contiene però solo informazioni relative all'elemento **Store Name**. Con il riquadro **Sincronizza filtri dei dati** è possibile sincronizzare il filtro dei dati **District Manager** con queste pagine in modo che le selezioni del filtro in una delle tre abbiano effetto sulle visualizzazioni in tutte le altre.
+Nel report corrente la pagina **District Monthly Sales** contiene un filtro dei dati **District Manager**. E se si volesse tale filtro dei dati anche nella pagina **New Stores**? Nella pagina **New Stores** è disponibile un filtro dei dati che contiene però solo informazioni relative all'elemento **Store Name**. Con il riquadro **Sincronizza filtri dei dati**, è possibile sincronizzare il filtro dei dati **District Manager** con queste pagine in modo che le selezioni del filtro in una delle tre abbiano effetto sulle visualizzazioni in tutte le altre.
 
 1. Nel menu **Visualizza** di Power BI Desktop selezionare **Sincronizza filtri dei dati**.
 
-    ![Sincronizza filtri dei dati](media/power-bi-visualization-slicers/power-bi-slicer-view-sync.png)
+    ![Selezione di Sincronizza filtri dei dati](media/power-bi-visualization-slicers/power-bi-slicer-view-sync.png)
 
-1.  Il riquadro **Sincronizza filtri dei dati** viene visualizzato tra il riquadro **Filtri** e **Visualizzazioni**.  
+    Il riquadro **Sincronizza filtri dei dati** viene visualizzato tra i riquadri **Filtri** e **Visualizzazioni**.
 
-    ![Sincronizza filtri dei dati](media/power-bi-visualization-slicers/power-bi-slicer-sync-pane.png)
+    ![Riquadro Sincronizza filtri dei dati](media/power-bi-visualization-slicers/power-bi-slicer-sync-pane.png)
 
-1. Nella pagina **District Monthly Sales** selezionare il filtro dei dati **District Manager**. 
+1. Nella pagina **District Monthly Sales** del report selezionare il filtro dei dati **District Manager**. 
+
+    Poiché è già stato creato un filtro dei dati **District Manager** (**DM**) nella pagina **Overview**, il riquadro **Sincronizza filtri dei dati** è simile al seguente:
     
-    ![Sincronizza filtri dei dati](media/power-bi-visualization-slicers/9-sync-slicers.png)
+    ![Sincronizzare il filtro dei dati District Monthly Sales](media/power-bi-visualization-slicers/9-sync-slicers.png)
     
-3. Nella colonna **Sincronizza** selezionare la pagina **New Stores** e la pagina **Overview** per sincronizzare il filtro dei dati **District Monthly Sales** in tali pagine. 
+1. Nella colonna **Sincronizza** del riquadro **Sincronizza filtri dei dati** selezionare le pagine **Overview**, **District Monthly Sales** e **New Stores**. 
+
+    Questa selezione determina la sincronizzazione tra le tre pagine del filtro dei dati **District Monthly Sales**. 
     
-3. Nella colonna **Visibile** selezionare la pagina **New Stores** e la pagina **Overview**. Il riquadro **Sincronizza filtri dei dati** dovrebbe ora essere simile all'immagine seguente:
+1. Nella colonna **Visibile** del riquadro **Sincronizza filtri dei dati** selezionare la pagina **New Stores**. 
 
-    ![Sincronizza filtri dei dati](media/power-bi-visualization-slicers/power-bi-sync-slicer-finished.png)
+    Questa selezione determina la visibilità del filtro dei dati **District Monthly Sales** in queste tre pagine. Il riquadro **Sincronizza filtri dei dati** ha ora l'aspetto seguente:
 
-1. Osservare gli effetti delle impostazioni di sincronizzazione e visibilità del filtro dei dati nelle altre pagine. Nella pagina **District Monthly Sales** (Vendite mensili zona) il filtro dei dati **District Manager** (Direttore di zona) mostra ora le stesse selezioni del filtro dei dati nella pagina **Panoramica**. Nella pagina **New Stores** (Nuovi punti vendita) le selezioni del filtro dei dati **District Manager** (Direttore di zona) hanno effetto su quelle disponibili nel filtro dei dati **Store Name** (Nome punto vendita). 
+    ![Selezionare le pagine in Sincronizza filtri dei dati](media/power-bi-visualization-slicers/power-bi-sync-slicer-finished.png)
+
+1. Osservare gli effetti delle impostazioni di sincronizzazione e visibilità del filtro dei dati nelle altre pagine. Si noti che nella pagina **District Monthly Sales** (Vendite mensili zona) il filtro dei dati **District Manager** (Direttore di zona) mostra ora le stesse selezioni del filtro dei dati nella pagina **Overview**. Nella pagina **New Stores** (Nuovi punti vendita) il filtro dei dati **District Manager** (Direttore di zona) è ora visibile e le selezioni hanno effetto su quelle visibili nel filtro dei dati **Store Name** (Nome punto vendita). 
     
     >[!TIP]
     >Anche se inizialmente il filtro dei dati appare nelle pagine sincronizzate con le stesse dimensioni e nella stessa posizione rispetto alla pagina originale, è possibile spostare, ridimensionare e formattare in modo indipendente i filtri dei dati sincronizzati nelle varie pagine. 
 
->[!NOTE]
->Se si sincronizza un filtro dei dati con una pagina, senza renderlo visibile in tale pagina, le selezioni dei filtro definite nelle altre pagine hanno comunque effetto sui dati visualizzati nella pagina.
+    >[!NOTE]
+    >Se si sincronizza un filtro dei dati con una pagina, senza renderlo visibile in tale pagina, le selezioni del filtro definite nelle altre pagine hanno comunque effetto sui dati visualizzati nella pagina.
  
 ## <a name="format-slicers"></a>Formattare i filtri dei dati
 A seconda del tipo di filtro dei dati sono disponibili diverse opzioni di formattazione. Usando l'orientamento **Orizzontale**, il layout **Reattivo** e la colorazione **Elemento**, è possibile generare pulsanti o riquadri, anziché voci di elenco standard, e ridimensionare gli elementi del filtro dei dati in base a layout e dimensioni dello schermo differenti.  
 
 1. Con il filtro dei dati **District Manager** selezionato in una pagina qualsiasi, nel riquadro **Visualizzazioni** selezionare l'icona **Formatta** ![icona di formattazione](media/power-bi-visualization-slicers/power-bi-paintroller.png) per visualizzare i controlli di formattazione. 
     
-    ![Formattazione](media/power-bi-visualization-slicers/3-format.png)
+    ![Selezione di Formatta](media/power-bi-visualization-slicers/3-format.png)
     
-2. Selezionare la freccia a discesa accanto a ogni categoria per visualizzare e modificare le opzioni. 
+1. Selezionare la freccia a discesa accanto a ogni categoria per visualizzare e modificare le opzioni. 
 
 ### <a name="general-options"></a>Opzioni generali
-1. Selezionare il rosso in **Colore bordo** e modificare **Spessore bordo** impostandolo su "2". In questo modo vengono impostati il colore e lo spessore dei bordi e delle sottolineature degli elementi e delle intestazioni, se abilitati. 
-2. In **Orientamento** è selezionata per impostazione predefinita l'opzione **Verticale**. Selezionare **Orizzontale** per generare un filtro dei dati con riquadri o pulsanti disposti in orizzontale e frecce di scorrimento per accedere agli elementi che non rientrano nell'area visualizzata del filtro.
+1. In **Formatta** selezionare **Generale**, selezionare un colore rosso in **Colore bordo** e quindi impostare **Spessore bordo** su *2*. 
+
+    Questa impostazione modifica il colore e lo spessore dei bordi e delle sottolineature degli elementi e delle intestazioni.
+
+1. Per **Orientamento** è selezionata per impostazione predefinita l'opzione **Verticale**. Selezionare **Orizzontale** per generare un filtro dei dati con riquadri o pulsanti disposti in orizzontale e frecce di scorrimento per accedere agli elementi che non rientrano nell'area visualizzata del filtro.
     
-    ![Orizzontale](media/power-bi-visualization-slicers/4-horizontal.png)
+    ![Selezioni generali](media/power-bi-visualization-slicers/4-horizontal.png)
     
-3. Attivare il layout **Reattivo** per modificare le dimensioni e la disposizione degli elementi del filtro dei dati in base alle dimensioni dello schermo e del filtro. Per i filtri dei dati con elenco, il layout reattivo è disponibile solo nell'orientamento orizzontale e impedisce che gli elementi vengano troncati su schermi di piccole dimensioni. Per i filtri dei dati con dispositivo di scorrimento per intervalli, la formattazione reattiva modifica lo stile di tale dispositivo, che può essere ridimensionato in modo più flessibile. Entrambi i tipi di filtri dei dati diventano icone di filtro in caso di dimensioni di visualizzazione molto ridotte. 
+1. Impostare su **Sì** il layout **Reattivo** per modificare le dimensioni e la disposizione degli elementi del filtro dei dati in base alle dimensioni dello schermo e del filtro. 
+
+    Per i filtri dei dati con elenco, il layout reattivo impedisce che gli elementi vengano troncati su schermi di piccole dimensioni. È disponibile solo per gli orientamenti orizzontali. Per i filtri dei dati con dispositivo di scorrimento per intervalli, la formattazione reattiva modifica lo stile di tale dispositivo, che può essere ridimensionato in modo più flessibile. Entrambi i tipi di filtri dei dati diventano icone di filtro in caso di dimensioni di visualizzazione ridotte.
     
-    ![Reattivo](media/power-bi-visualization-slicers/5-responsive.png)
+    ![Impostare il layout reattivo](media/power-bi-visualization-slicers/5-responsive.png)
     
     >[!NOTE]
     >Le modifiche del layout reattivo possono sostituire formattazioni specifiche di intestazioni o elementi impostate precedentemente. 
     
-4. Impostare le dimensioni e la posizione del filtro dei dati con precisione numerica in **Posizione X**, **Posizione Y**, **Larghezza**, e **Altezza** o spostare e ridimensionare il filtro dei dati direttamente nel canvas. Provare a impostare dimensioni e disposizioni diverse per gli elementi e osservare come la formattazione reattiva cambia di conseguenza.  
+1. In **Posizione X**, **Posizione Y**, **Larghezza** e **Altezza** impostare le dimensioni e la posizione del filtro dei dati con precisione numerica o spostare e ridimensionare il filtro dei dati direttamente nell'area di disegno. 
 
-    ![Pulsanti orizzontali](media/power-bi-visualization-slicers/6-buttons.png)
+    Provare a impostare dimensioni e disposizioni diverse per gli elementi e osservare come la formattazione reattiva cambia di conseguenza. Queste opzioni sono disponibili solo quando si selezionano gli orientamenti orizzontali. 
 
-Per altre informazioni sull'orientamento orizzontale e il layout reattivo, vedere [Creare un filtro dei dati reattivo e ridimensionabile in Power BI](../power-bi-slicer-filter-responsive.md).
+    ![Opzioni orizzontali](media/power-bi-visualization-slicers/6-buttons.png)
+
+Per altre informazioni sugli orientamenti orizzontali e i layout reattivi, vedere [Creare un filtro dei dati reattivo e ridimensionabile in Power BI](../power-bi-slicer-filter-responsive.md).
 
 ### <a name="selection-controls-options-list-slicers-only"></a>Opzioni dei comandi di selezione (solo per filtri dei dati con elenco)
-1. **Mostra l'opzione "Seleziona tutto"** è disattivata per impostazione predefinita **.** Attivarla per aggiungere al filtro dei dati un'opzione **Seleziona tutto** che consenta di selezionare o deselezionare alternativamente tutti gli elementi **.** Quando tutti gli elementi sono selezionati, è possibile fare clic o toccare un elemento per deselezionarlo, attivando così un filtro di tipo "esclusivo". 
+1. In **Comandi di selezione** impostare **Mostra l'opzione "Seleziona tutto"** su **Sì** per aggiungere un elemento **Seleziona tutto** al filtro dei dati. 
+
+    **Mostra l'opzione "Seleziona tutto"** è impostata su **No** per impostazione predefinita. Se abilitata, questa opzione, quando viene attivata/disattivata, seleziona o deseleziona tutti gli elementi. Se si selezionano tutti gli elementi, selezionando un elemento lo si deseleziona, consentendo un tipo di filtro *non è*.
     
-    ![Seleziona tutto](media/power-bi-visualization-slicers/7-select-all.png)
+    ![Comandi di selezione](media/power-bi-visualization-slicers/7-select-all.png)
     
-2. L'opzione **Selezione singola** è attivata per impostazione predefinita **.** Fare clic o toccare ogni singolo elemento per selezionarlo e fare clic o toccare tenendo premuto **CTRL** per selezionare più elementi. **Disattivare** **Selezione singola** per consentire la selezione di più elementi senza tenere premuto **CTRL**. Fare clic o toccare di nuovo un elemento per deselezionarlo. 
+1. Impostare **Selezione singola** su **No** per poter selezionare più elementi senza dover tenere premuto **CTRL**. 
+
+    L'opzione **Selezione singola** è impostata su **Sì** per impostazione predefinita. Per selezionare un elemento è necessario selezionare l'elemento stesso, mentre tenendo premuto **CTRL** è possibile selezionare più elementi. Selezionare nuovamente un elemento per deselezionarlo.
 
 ### <a name="title-options"></a>Opzioni del titolo
-L'opzione **Titolo** è **attiva** per impostazione predefinita e visualizza il nome del campo dati nella parte superiore del filtro dei dati. 
-1. È possibile formattare il testo del titolo per rendere il **Colore carattere** rosso, le **Dimensioni testo** pari a 14 pt, impostare al centro l'**Allineamento** e usare Arial Black come **Famiglia di caratteri**. 
+**Titolo** è impostato su **Sì** per impostazione predefinita. Questa selezione mostra il nome del campo dati nella parte superiore del filtro dei dati. 
+- Per questa esercitazione, formattare il testo del titolo come segue: 
+   - **Colore carattere**: rosso
+   - **Dimensioni testo**: **14 pt**
+   - **Allineamento**: **Centro**
+   - **Famiglia di caratteri**: **Arial Black**
 
 
-### <a name="item-options-list-slicers-only"></a>Opzioni degli elementi (solo per filtri dei dati con elenco)
-1. Formattare il testo e lo sfondo degli elementi in modo che il **Colore carattere** sia nero, lo **Sfondo** rosso chiaro, le **Dimensioni testo** pari a 10 pt e la **Famiglia di caratteri** Arial. 
-2. In **Bordo** scegliere **Cornice** per disegnare un bordo intorno a ogni elemento con le dimensioni e il colore impostati nelle opzioni **Generali**. 
+### <a name="items-options-list-slicers-only"></a>Opzioni degli elementi (solo per filtri dei dati con elenco)
+1. Per questa esercitazione, formattare le opzioni di **Elementi** come segue:
+    - **Colore carattere**: nero
+    - **Sfondo**: rosso chiaro
+    - **Dimensioni testo**: **10 pt**
+    - **Famiglia di caratteri**: **Arial**
+ 
+1. Per **Bordo** scegliere **Cornice** per disegnare un bordo intorno a ogni elemento con le dimensioni e il colore impostati nelle opzioni **Generali**. 
     
-    ![Formattato](media/power-bi-visualization-slicers/8-formatted.png)
+    ![Opzioni della struttura cornice](media/power-bi-visualization-slicers/8-formatted.png)
     
     >[!TIP]
-    >- Con **Orientamento > Orizzontale**, gli elementi deselezionati vengono visualizzati con i colori del testo e dello sfondo selezionati, mentre gli elementi selezionati usano l'impostazione predefinita, in genere sfondo nero con testo bianco.
-    >- Con **Orientamento > Verticale**, gli elementi vengono visualizzati sempre con i colori impostati e le caselle di selezione sono sempre nere quando sono selezionate. 
+    >- Se si seleziona **Generale** > **Orientamento** > **Orizzontale**, gli elementi deselezionati vengono visualizzati con i colori del testo e dello sfondo selezionati, mentre gli elementi selezionati usano l'impostazione predefinita, in genere sfondo nero con testo bianco.
+    >- Se si seleziona **Generale** > **Orientamento > Verticale**, gli elementi vengono visualizzati sempre con i colori selezionati e le caselle di selezione sono sempre nere quando sono selezionate. 
 
 ### <a name="datenumeric-inputs-and-slider-options-range-slider-slicers-only"></a>Opzioni degli input di date/numerici e del dispositivo di scorrimento (solo per filtri dei dati con dispositivo di scorrimento per intervalli)
-- Le opzioni degli input di date/numerici sono identiche a quelle degli **elementi** per i filtri dei dati con elenco, ad eccezione del fatto non è disponibile l'opzione **Bordo** o quella per la sottolineatura.
-- Le opzioni del dispositivo di scorrimento per intervalli consentono di impostare il colore del dispositivo oppure di disattivare il dispositivo lasciando solo gli input numerici **.**
+- Per i filtri dei dati con elenco, le opzioni degli input di date/numerici sono identiche a quelle delle opzioni di **Elementi**, a eccezione del fatto non è disponibile l'opzione per il bordo o quella per la sottolineatura.
+- Le opzioni di **Dispositivo di scorrimento** consentono di impostare il colore del dispositivo di scorrimento per intervalli oppure di impostare il dispositivo su **No** lasciando solo gli input numerici.
 
 ### <a name="other-formatting-options"></a>Altre opzioni di formattazione
-Le altre opzioni di formattazione sono disattivate per impostazione predefinita. Quando vengono impostate su **On**: 
-- **Sfondo:** consente di aggiungere un colore di sfondo per tutto il filtro dei dati e ne imposta la trasparenza.
-- **Blocca proporzioni:** mantiene la forma del filtro dei dati se viene ridimensionato.
-- **Bordo:** consente di aggiungere un bordo di 1 pixel intorno al filtro dei dati e ne imposta il colore. Il bordo del filtro dei dati è indipendente dall'impostazione Bordo nelle impostazioni generali e non ne viene influenzato. 
+Le altre opzioni di formattazione sono impostate su **No** per impostazione predefinita. Per controllare queste opzioni, impostarle su **Sì**: 
+- **Sfondo**: aggiunge un colore di sfondo per il filtro dei dati e ne imposta la trasparenza.
+- **Blocca proporzioni**: mantiene la forma del filtro dei dati se viene ridimensionato.
+- **Bordo**: aggiunge un bordo intorno al filtro dei dati e ne imposta il colore. Il bordo del filtro dei dati è indipendente dalle impostazioni **Generali** e non ne viene influenzato. 
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+Per altre informazioni, vedere gli articoli seguenti:
 
-[Tabelle in Power BI](power-bi-visualization-tables.md)
+- [Tipi di visualizzazione in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+- [Tabelle in Power BI](power-bi-visualization-tables.md)
 

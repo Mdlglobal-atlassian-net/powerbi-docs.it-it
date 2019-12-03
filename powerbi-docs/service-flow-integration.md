@@ -1,5 +1,5 @@
 ---
-title: Integrazione di Power BI con Microsoft Flow
+title: Integrazione di Power BI con Power Automate
 description: Informazioni su come creare flussi attivati dagli avvisi per i dati di Power BI.
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881855"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164309"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow e Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate e Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) è un'applicazione SaaS che automatizza i flussi di lavoro nel crescente numero di applicazioni e servizi SaaS su cui si basano gli utenti aziendali. Con Flow è possibile automatizzare le attività grazie all'integrazione delle app preferite e dei servizi (incluso Power BI) per ricevere le notifiche, sincronizzare i file, raccogliere dati e altro ancora. Le attività ripetitive saranno facilitate con l'automazione del flusso di lavoro.
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) è un'applicazione SaaS che automatizza i flussi di lavoro nel crescente numero di applicazioni e servizi SaaS a cui si affidano gli utenti aziendali. Con Flow è possibile automatizzare le attività grazie all'integrazione delle app preferite e dei servizi (incluso Power BI) per ricevere le notifiche, sincronizzare i file, raccogliere dati e altro ancora. Le attività ripetitive saranno facilitate con l'automazione del flusso di lavoro.
 
 [Introduzione all'uso di Flow.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ Guardare il video per scoprire come creare un flusso che invia posta dettagliata
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Creare un flusso che sia attivato da un avviso per i dati di Power BI
 
 ### <a name="prerequisites"></a>Prerequisiti
-Questa esercitazione illustrerà come creare due diversi flussi, uno da un modello e l'altro da zero. Per iniziare, [creare un avviso per i dati in Power BI](service-set-data-alerts.md), creare un account Slack gratuito e [iscriversi a Microsoft Flow](https://flow.microsoft.com/#home-signup) gratuitamente.
+Questa esercitazione illustrerà come creare due diversi flussi, uno da un modello e l'altro da zero. Per iniziare, [creare un avviso per i dati in Power BI](service-set-data-alerts.md), creare un account Slack gratuito e [iscriversi a Power Automate](https://flow.microsoft.com/#home-signup) gratuitamente.
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Creare un flusso che usa Power BI in base a un modello
 In questa attività si userà un modello per creare un semplice flusso che viene attivato da un avviso (notifica) per i dati di Power BI.
 
-1. Accedere a Microsoft Flow (flow.microsoft.com).
+1. Accedere a Power Automate (flow.microsoft.com).
 2. Selezionare **Flussi personali**.
    
    ![Barra dei menu di Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -80,7 +80,7 @@ Questo modello prevede un trigger (avviso per i dati di Power BI per le nuove me
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Creare un flusso che usa Power BI da zero (vuoto)
 In questa attività si creerà da zero un semplice flusso che viene attivato da un avviso (notifica) per i dati di Power BI.
 
-1. Eseguire l'accesso a Microsoft Flow.
+1. Accedere a Power Automate.
 2. Selezionare **Flussi personali** > **Crea da zero**.
    
    ![Barra dei menu superiore di Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ In questa attività si creerà da zero un semplice flusso che viene attivato da 
     ![Flow attiva la notifica di Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Introduzione a Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
+* [Introduzione a Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [Impostare gli avvisi per i dati nel servizio Power BI](service-set-data-alerts.md)
 * [Impostare gli avvisi per i dati nell'iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Impostare gli avvisi per i dati nell'app Power BI per dispositivi mobili per Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

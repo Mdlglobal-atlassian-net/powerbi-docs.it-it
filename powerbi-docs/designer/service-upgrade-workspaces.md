@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34b0bd1a59ec66cf7a2e5eb41d2c1ec12a39d1e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128137"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410810"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Aggiornare le aree di lavoro classiche alle nuove aree di lavoro in Power BI
 
 Questo articolo illustra come aggiornare un'area di lavoro classica alla nuova esperienza delle aree di lavoro. È possibile aggiornare tutte le aree di lavoro classiche. Le nuove aree di lavoro hanno ruoli dell'area di lavoro più granulari per poter gestire meglio l'accesso al contenuto. Consentono di gestire le aree di lavoro aggiornate con maggiore flessibilità perché sono connesse in modo più generico al gruppo di Office 365 originale. Altre informazioni sulla [nuova esperienza delle aree di lavoro](../service-new-workspaces.md). 
 
 >[!NOTE]
->Questa documentazione si riferisce a una versione non definitiva e illustra una funzionalità che non è ancora disponibile. È stata pubblicata in modo che sia possibile prepararsi alla nuova funzionalità e chiarire eventuali dubbi prima della versione definitiva.  
+>L'aggiornamento dell'area di lavoro è disponibile come anteprima pubblica. 
 
 ![Aggiornamento riuscito](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -198,7 +198,15 @@ Alcune organizzazioni vogliono spostare molte o tutte le aree di lavoro nella nu
 2. Collaborare con i singoli proprietari del gruppo di Office 365 o con l'amministratore di Office 365 per aggiornare le aree di lavoro. Se si vuole aggiornare l'area di lavoro, è necessario diventare proprietario del gruppo.
 
 La funzionalità di aggiornamento dell'area di lavoro non offre gli strumenti per l'aggiornamento in blocco o l'aggiornamento a livello di codice. I nuovi gruppi di Office 365 creati nell'organizzazione continueranno a essere visualizzati in Power BI. 
-    
+   
+   
+## <a name="known-issues"></a>Problemi noti
+
+Possono verificarsi diversi problemi noti:
+- Dopo l'aggiornamento, può essere visualizzata la finestra di dialogo di avviso "Non è possibile caricare il modello". Questo messaggio viene visualizzato erroneamente e può essere ignorato. 
+- Dopo l'aggiornamento, i nomi di alcune aree di lavoro sono diversi. Quando si verifica questa situazione, viene ripristinato un nome precedente dell'area di lavoro o il nome dell'area di lavoro diventa vuoto. Per risolvere questo problema, rinominare l'area di lavoro con il nome desiderato.
+- Dopo l'aggiornamento di un'area di lavoro in cui è installato un pacchetto di contenuto, è possibile che nell'area di lavoro vengano visualizzati altri dashboard che non erano visibili prima dell'aggiornamento. Questo problema si verifica in alcuni casi se il pacchetto di contenuto non è stato aggiornato di recente. È possibile rimuovere senza problemi questi dashboard.
+
 
 
 ## <a name="next-steps"></a>Passaggi successivi

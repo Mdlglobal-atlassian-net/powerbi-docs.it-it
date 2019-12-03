@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881513"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164178"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Usare i gateway personali in Power BI
 
@@ -31,7 +31,7 @@ La tabella seguente descrive le differenze tra un gateway dati locale e un gatew
 
 |   |Gateway dati locale | Gateway dati locale (modalità personale) |
 | ---- | ---- | ---- |
-|Servizi cloud supportati |Power BI, PowerApps, App per la logica di Azure, Microsoft Flow, Azure Analysis Services, flussi di dati |Power BI |
+|Servizi cloud supportati |Power BI, Power Apps, App per la logica di Azure, Power Automate, Azure Analysis Services, flussi di dati |Power BI |
 |Esecuzioni |Come configurato dagli utenti che hanno accesso al gateway |Come per l'autenticazione di Windows e come configurato dall'utente per altri tipi di autenticazione |
 |Può eseguire l'installazione solo come amministratore del computer |Sì |No |
 |Gestione centralizzata di origini dati e gateway |Sì |No |

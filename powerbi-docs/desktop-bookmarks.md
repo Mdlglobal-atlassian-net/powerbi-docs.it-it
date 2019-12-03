@@ -1,46 +1,37 @@
 ---
-title: Uso dei segnalibri in Power BI
+title: Usare i segnalibri in Power BI Desktop per condividere informazioni dettagliate e creare storie
 description: I segnalibri in Power BI Desktop consentono di salvare visualizzazioni e impostazioni nei report e creare presentazioni di tipo storia
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 11/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b25c09e7dc24445b5ad2ba5263542bc62891b28f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d22ac09ac357f3060e4fd79a4e9344a059dace53
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876699"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311155"
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
-I **segnalibri** in Power BI consentono di acquisire la visualizzazione attualmente configurata di una pagina di report, inclusi i filtri e lo stato degli oggetti visivi, e di tornare a tale stato anche in un momento successivo semplicemente selezionando il segnalibro salvato. 
+# <a name="use-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Usare i segnalibri in Power BI Desktop per condividere informazioni dettagliate e creare storie
+Con i *segnalibri* in Power BI Desktop è possibile acquisire la visualizzazione attualmente configurata di una pagina del report, tra cui il filtro e lo stato degli oggetti visivi. In seguito, sarà possibile tornare a tale stato selezionando il segnalibro salvato. 
 
 È anche possibile creare una raccolta di segnalibri, disporli nell'ordine desiderato e successivamente passare da un segnalibro all'altro in una presentazione per evidenziare una serie di informazioni dettagliate oppure la storia che si vuole narrare tramite gli oggetti visivi e i report. 
 
 ![Segnalibri in Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
-I segnalibri possono avere diversi usi. È possibile usarli per tenere traccia dello stato di avanzamento per la creazione dei report (i segnalibri sono facili da aggiungere, eliminare e rinominare) oppure per creare una presentazione in stile PowerPoint che scorre i segnalibri nell'ordine specificato per comunicare una storia con un report. È anche possibile usare i segnalibri in altri modi, a seconda di come si ritiene più opportuno.
+I segnalibri possono avere diversi usi. È ad esempio possibile usare i segnalibri per tenere traccia dello stato di avanzamento per la creazione dei report (i segnalibri sono facili da aggiungere, eliminare e rinominare) oppure per creare una presentazione in stile PowerPoint che scorre i segnalibri nell'ordine specificato per comunicare una storia con un report. 
 
 > [!TIP]
-> Per informazioni sull'uso dei segnalibri personali nel servizio Power BI, leggere l'[annuncio sul blog](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) che descrive tale funzionalità. 
-
-### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Abilitare l'anteprima dei segnalibri (versioni precedenti all'aggiornamento di marzo 2018)
-A partire dalla versione di marzo 2018 di Power BI Desktop i segnalibri sono disponibili a livello generale. 
-
-È sempre consigliabile eseguire l'aggiornamento alla versione più recente. Tuttavia, se la versione di Power BI Desktop in uso è precedente, è possibile provare la nuova funzionalità **segnalibri** a partire dalla versione di **Power BI Desktop** di **ottobre 2017** e anche nel **servizio Power BI** per i report abilitati per i segnalibri. Per abilitare la funzionalità di anteprima, selezionare **File > Opzioni e impostazioni > Opzioni > Funzionalità in anteprima**, quindi selezionare la casella di controllo accanto a **Segnalibri**. 
-
-![Abilitare i segnalibri nella finestra Opzioni](media/desktop-bookmarks/bookmarks_02.png)
-
-Dopo aver effettuato la selezione è necessario riavviare **Power BI Desktop** per abilitare la versione di anteprima dei segnalibri.
+> Per informazioni sull'uso dei segnalibri personali nel servizio Power BI, vedere [Annuncio dei segnalibri personali nel servizio Power BI](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/). 
 
 ## <a name="using-bookmarks"></a>Utilizzo dei segnalibri
-Per usare i segnalibri, selezionare la barra multifunzione **Visualizza**, quindi selezionare la casella per **Riquadro dei segnalibri**. 
+Per usare i segnalibri, selezionare la scheda **Visualizza** sulla barra multifunzione di Power BI Desktop, quindi selezionare **Riquadro dei segnalibri**. 
 
-![Visualizzare il riquadro dei segnalibri attivandolo nella barra multifunzione Visualizza.](media/desktop-bookmarks/bookmarks_03.png)
+![Attivare il riquadro dei segnalibri](media/desktop-bookmarks/bookmarks_03.png)
 
 Quando si crea un segnalibro, insieme al segnalibro stesso vengono salvati gli elementi seguenti:
 
@@ -50,134 +41,166 @@ Quando si crea un segnalibro, insieme al segnalibro stesso vengono salvati gli e
 * Stato della selezione degli oggetti visivi (ad esempio filtri con evidenziazione incrociata)
 * Ordinamento
 * Posizione drill
-* Visibilità (di un oggetto, usando il riquadro **Selezione**)
+* Visibilità di un oggetto (usando il riquadro **Selezione**)
 * Modalità messa a fuoco o **In evidenza** di qualsiasi oggetto visibile
 
 Configurare una pagina di report nel modo in cui si vuole che venga visualizzata nel segnalibro. Dopo aver disposto la pagina del report e gli oggetti visivi nel modo desiderato, per aggiungere un segnalibro selezionare **Aggiungi** nel riquadro **Segnalibri**. 
 
 ![Aggiungere un segnalibro](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop** crea un segnalibro e gli assegna un nome generico. Per *rinominare*, *eliminare* o *aggiornare* un segnalibro facilmente, selezionare i puntini di sospensione accanto al nome del segnalibro e quindi scegliere un'azione dal menu visualizzato.
+Power BI Desktop crea un segnalibro e gli assegna un nome generico. Per **rinominare**, **eliminare** o **aggiornare** un segnalibro facilmente, selezionare i puntini di sospensione accanto al nome del segnalibro e quindi scegliere un'azione dal menu visualizzato.
 
-![Usare i puntini di sospensione per visualizzare il sottomenu per un segnalibro](media/desktop-bookmarks/bookmarks_05.png)
+![Selezionare il menu del segnalibro usando i puntini di sospensione](media/desktop-bookmarks/bookmarks_05.png)
 
-Una volta creato un segnalibro, è possibile visualizzarlo facendo clic sul segnalibro nel riquadro **Segnalibri**. 
+Dopo aver creato un segnalibro, visualizzarlo selezionandolo nel riquadro **Segnalibri**. 
 
-È anche possibile specificare se ogni segnalibro applicherà le proprietà dei *dati*, ad esempio filtri e filtri dei dati, le proprietà di *visualizzazione*, come evidenziazioni e relativa visibilità e le modifiche della pagina che presentano la pagina che era visibile quando è stato aggiunto il segnalibro. Queste funzionalità sono utili quando si usano i segnalibri per spostarsi tra visualizzazioni dei report o una selezione di oggetti visivi. In questo caso è probabile che si voglia disattivare le proprietà dei dati, in modo che i filtri non vengano reimpostati quando gli utenti cambiano visualizzazione selezionando un segnalibro. 
+È anche possibile specificare se ogni segnalibro applicherà le proprietà dei **dati**, ad esempio filtri e filtri dei dati, le proprietà di **visualizzazione**, come evidenziazioni e relativa visibilità e le modifiche della **pagina corrente**, che presentano la pagina che era visibile quando è stato aggiunto il segnalibro. Queste funzionalità sono utili quando si usano i segnalibri per spostarsi tra le visualizzazioni dei report o le selezioni di oggetti visivi. In questo caso è possibile disattivare le proprietà dei dati, in modo che i filtri non vengano reimpostati quando gli utenti cambiano visualizzazione selezionando un segnalibro. 
 
-Per apportare tali modifiche, selezionare i puntini di sospensione accanto al nome del segnalibro, come illustrato nell'immagine precedente, e selezionare o deselezionare i segni di spunta accanto a *Dati*, *Visualizzazione* e altri controlli. 
+Per apportare tali modifiche, selezionare i puntini di sospensione accanto al nome del segnalibro, quindi selezionare o deselezionare i segni di spunta accanto a **Dati**, **Visualizzazione** e altri controlli. 
 
 ## <a name="arranging-bookmarks"></a>Disposizione dei segnalibri
-Man mano che si creano i segnalibri, è possibile che l'ordine in cui vengono creati non è necessariamente lo stesso con cui si vuole presentarli ai destinatari. Riorganizzare l'ordine dei segnalibri è facile.
+Man mano che si creano i segnalibri, è possibile che l'ordine in cui vengono creati sia diverso da quello che si vuole presentare ai destinatari. Riorganizzare l'ordine dei segnalibri è facile.
 
-Nel riquadro **Segnalibri** è sufficiente trascinare i segnalibri per modificarne l'ordine, come mostrato nell'immagine seguente. La barra gialla tra i segnalibri indica la posizione in cui verrà collocato il segnalibro trascinato.
+- Nel riquadro **Segnalibri** trascinare i segnalibri selezionati per modificarne l'ordine. 
 
-![Modificare l'ordine dei segnalibri mediante trascinamento della selezione](media/desktop-bookmarks/bookmarks_06.png)
+   La barra gialla tra i segnalibri indica la posizione in cui verrà collocato il segnalibro trascinato.
 
-L'ordine dei segnalibri diventa importante quando si usa la funzionalità **Visualizzazione** dei segnalibri, come descritto nella sezione successiva.
+   ![Modificare l'ordine dei segnalibri mediante trascinamento della selezione](media/desktop-bookmarks/bookmarks_06.png)
+
+L'ordine dei segnalibri è importante quando si usa la funzionalità **Visualizzazione** dei segnalibri, come descritto nella sezione successiva.
 
 ## <a name="bookmarks-as-a-slide-show"></a>Segnalibri come presentazione
 Se si vuole presentare una raccolta di segnalibri nell'ordine in cui sono disposti, selezionare **Visualizzazione** nel riquadro **Segnalibri** per avviare una presentazione.
 
-Quando si passa alla modalità **Visualizzazione**, è necessario tenere conto degli aspetti seguenti:
+Quando si passa alla modalità **Visualizzazione**, è necessario tenere conto di alcuni aspetti.
+
+   ![Funzionalità della barra del titolo del segnalibro](media/desktop-bookmarks/bookmarks_07.png)
 
 1. Il nome del segnalibro viene visualizzato nella barra del titolo del segnalibro nella parte inferiore dell'area di disegno.
+
 2. Le frecce disponibili nella barra del titolo del segnalibro consentono di passare al segnalibro precedente o successivo.
+
 3. Per uscire dalla modalità **Visualizzazione**, selezionare **Esci** nel riquadro **Segnalibri** o la **X** nella barra del titolo del segnalibro. 
 
-![Funzionalità della barra del titolo del segnalibro](media/desktop-bookmarks/bookmarks_07.png)
+Nella modalità **Visualizzazione** è possibile chiudere il riquadro **Segnalibri**, selezionando la **X** nel riquadro stesso, per lasciare più spazio alla presentazione. Tutti gli oggetti visivi sono interattivi quando sono nella modalità **Visualizzazione** e disponibili per l'evidenziazione incrociata, come accade quando si interagisce direttamente con essi. 
 
-Nella modalità **Visualizzazione** è possibile chiudere il riquadro **Segnalibri** (facendo clic sulla X nel riquadro stesso) per lasciare più spazio alla presentazione. Sempre nella modalità **Visualizzazione**, tutti gli oggetti visivi sono interattivi e disponibili per l'evidenziazione incrociata, come accade normalmente quando si interagisce con essi. 
-
-## <a name="visibility---using-the-selection-pane"></a>Visibilità: utilizzo del riquadro Selezione
-Con i segnalibri, è stato introdotto anche il nuovo riquadro **Selezione**. Il riquadro **Selezione** fornisce un elenco di tutti gli oggetti nella pagina corrente e consente di selezionare l'oggetto e specificare se questo è visibile o meno. 
+## <a name="visibility-using-the-selection-pane"></a>Visibilità: uso del riquadro Selezione
+Il riquadro **Selezione**, correlato al riquadro **Segnalibri**, fornisce un elenco di tutti gli oggetti nella pagina corrente e consente di selezionare un oggetto e specificare se è visibile o meno. 
 
 ![Abilitare il riquadro Selezione](media/desktop-bookmarks/bookmarks_08.png)
 
-È possibile selezionare un oggetto usando il riquadro **Selezione**. È anche possibile attivare/disattivare la visibilità dell'oggetto facendo clic sull'icona a forma di occhio sulla destra dell'oggetto visivo. 
+Nel riquadro **Selezione** si seleziona un oggetto e si attiva/disattiva la visibilità dell'oggetto selezionando l'icona a forma di occhio a destra dell'oggetto. 
 
-![Riquadro Selezione](media/desktop-bookmarks/bookmarks_09.png)
+![Riquadro di selezione](media/desktop-bookmarks/bookmarks_09.png)
 
-Quando viene aggiunto un segnalibro, viene anche salvato lo stato di visibilità di ogni oggetto in base all'impostazione corrispondente nel riquadro **Selezione**. 
+Quando si aggiunge un segnalibro, viene anche salvato lo stato di visibilità di ogni oggetto, in base all'impostazione corrispondente nel riquadro **Selezione**. 
 
-È importante notare che i **filtri dei dati** continueranno a filtrare una pagina di report indipendentemente dal fatto che siano visibili o meno. Di conseguenza, è possibile creare molti segnalibri diversi, con impostazioni differenti per i filtri dei dati e ottenere una visualizzazione diversa (evidenziando informazioni dettagliate diverse) per una singola pagina di report in vari segnalibri.
+È importante notare che i filtri dei dati continueranno a filtrare una pagina di report indipendentemente dal fatto che siano visibili o meno. Di conseguenza, è possibile creare molti segnalibri diversi, con impostazioni differenti per i filtri dei dati e ottenere una visualizzazione diversa (evidenziando informazioni dettagliate diverse) per una singola pagina di report in vari segnalibri.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Segnalibri per forme e immagini
-È anche possibile collegare forme e immagini ai segnalibri. Con questa funzionalità, quando si fa clic su un oggetto, verrà mostrato il segnalibro associato a tale oggetto. Ciò può risultare particolarmente utile quando si utilizzano i pulsanti. Vedere l'articolo [Uso dei pulsanti in Power BI](desktop-buttons.md) per altre informazioni. 
+È anche possibile collegare forme e immagini ai segnalibri. Con questa funzionalità, quando si seleziona un oggetto, viene mostrato il segnalibro associato a tale oggetto. Questa funzionalità può essere particolarmente utile quando si utilizzano i pulsanti. Per altre informazioni, vedere [Uso dei pulsanti in Power BI](desktop-buttons.md). 
 
-Per assegnare un segnalibro a un oggetto, selezionare l'oggetto ed espandere la sezione **Azione** nel riquadro **Formato forma**, come illustrato nell'immagine seguente.
+Per assegnare un segnalibro a un oggetto: 
 
-![Aggiungere un collegamento a un segnalibro a un oggetto](media/desktop-bookmarks/bookmarks_10.png)
+1. Selezionare l'oggetto nell'area di disegno report, quindi nel riquadro **Formato forma** visualizzato impostare il dispositivo di scorrimento **Azione** su **Sì**.
 
-Dopo aver impostato il dispositivo di scorrimento **Azione** su **Attiva** è possibile specificare se l'oggetto è un pulsante Indietro, un segnalibro o un comando Domande e risposte. Se si seleziona il segnalibro, è quindi possibile specificare a quale segnalibro è collegato l'oggetto.
+2. Espandere la sezione **Azione**. In **Tipo** selezionare **Segnalibro**.
 
-Con i segnalibri collegati agli oggetti, è possibile effettuare diverse operazioni. Si può creare un sommario visivo nella pagina del report o fornire visualizzazioni diverse, ad esempio tipi di oggetti visivi, delle stesse informazioni, semplicemente facendo clic su un oggetto.
+3. In **Segnalibri** selezionare un segnalibro.
 
-Nella modalità di modifica è possibile usare la combinazione CTRL+clic per seguire il collegamento quando non è attivata la modalità di modifica è sufficiente fare clic sull'oggetto per aprire il collegamento. 
+   ![Aggiungere un collegamento a un segnalibro a un oggetto](media/desktop-bookmarks/bookmarks_10.png)
+
+Con i segnalibri collegati agli oggetti, è possibile effettuare diverse operazioni. Si può creare un sommario visivo nella pagina del report o fornire visualizzazioni diverse, ad esempio tipi di oggetti visivi, delle stesse informazioni.
+
+Nella modalità di modifica premere **CTRL** e selezionare il collegamento per seguirlo. Se non si è nella modalità di modifica, selezionare l'oggetto per seguire il collegamento. 
 
 ## <a name="bookmark-groups"></a>Gruppi di segnalibri
 
-A partire dalla versione di agosto 2018 di **Power BI Desktop**, è possibile creare e usare gruppi di segnalibri. Un gruppo di segnalibro è una raccolta di segnalibri specificati dall'utente, che possono essere visualizzati e organizzati come gruppo. 
+A partire dalla versione di agosto 2018 di Power BI Desktop, è possibile creare e usare gruppi di segnalibri. Un gruppo di segnalibro è una raccolta di segnalibri specificati dall'utente, che possono essere visualizzati e organizzati come gruppo. 
 
-Per creare un gruppo di segnalibri, tenere premuto CTRL, selezionare i segnalibri da includere nel gruppo e quindi fare clic sui puntini di sospensione accanto a uno qualsiasi dei segnalibri selezionati e selezionare **Gruppo** dal menu visualizzato.
+Per creare un gruppo di segnalibri: 
+1. Premere **CTRL** e selezionare i segnalibri che si vogliono includere nel gruppo. 
 
-![Creare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_15.png)
+2. Selezionare i puntini di sospensione accanto ai segnalibri selezionati e quindi scegliere **Raggruppa** dal menu visualizzato.
 
-**Power BI Desktop** denomina automaticamente il gruppo *Group 1*. Fortunatamente, è possibile semplicemente fare doppio clic sul nome e rinominarlo.
+   ![Creare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_15.png)
+
+Power BI Desktop denomina automaticamente il gruppo *Group 1*. È possibile selezionare i puntini di sospensione accanto a questo nome, selezionare **Rinomina** e rinominarlo nel modo desiderato.
 
 ![Rinominare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_16.png)
 
-Con qualsiasi gruppo di segnalibri, facendo clic sul nome del gruppo si espande o si comprime semplicemente il gruppo di segnalibri e il gruppo non rappresenta un segnalibro da solo. 
+Come con qualsiasi gruppo di segnalibri, espandendo il nome del gruppo si espande o si comprime semplicemente il gruppo di segnalibri e il gruppo non rappresenta un segnalibro da solo. 
 
-Quando si usa la funzionalità **Visualizza** per i segnalibri, si applica quanto segue:
+Quando si usa la funzionalità **Visualizza** per i segnalibri, si applicano i dettagli seguenti:
 
 * Se il segnalibro selezionato è in un gruppo quando si seleziona **Visualizza** dai segnalibri, solo i segnalibri *in tale gruppo* vengono visualizzati nella sessione di visualizzazione. 
 
 * Se il segnalibro selezionato non è in un gruppo o è nel primo livello (ad esempio è il nome di un gruppo di segnalibri), vengono riprodotti tutti i segnalibri per l'intero report, inclusi i segnalibri in qualsiasi gruppo. 
 
-Per separare i segnalibri, è sufficiente selezionare qualsiasi segnalibro in un gruppo, fare clic sui puntini di sospensione e quindi scegliere **Separa** dal menu visualizzato. 
+Per separare i segnalibri: 
+1. Selezionare un segnalibro in un gruppo e selezionare i puntini di sospensione. 
 
-![Separare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_17.png)
+2. Selezionare **Separa** dal menu visualizzato.
 
-Si noti che quando si seleziona **Separa** per qualsiasi segnalibro da un gruppo, tutti i segnalibri vengono rimossi dal gruppo e viene eliminato il gruppo, ma non i segnalibri stessi. Per rimuovere un singolo segnalibro da un gruppo, è quindi necessario usare **Separa** per qualsiasi membro del gruppo, eliminando così il raggruppamento, quindi selezionare i membri desiderati per il nuovo gruppo (con il tasto CTRL e facendo clic su ogni segnalibro) e selezionare di nuovo **Gruppo**. 
+   ![Separare un gruppo di segnalibri](media/desktop-bookmarks/bookmarks_17.png)
+
+   Quando si seleziona **Separa** per qualsiasi segnalibro di un gruppo, tutti i segnalibri vengono rimossi dal gruppo e viene eliminato il gruppo, ma non i segnalibri stessi. 
+
+Per rimuovere un singolo segnalibro da un gruppo: 
+1. Se si seleziona **Separa** per un membro di tale gruppo, viene eliminato l'intero raggruppamento. 
+
+2. Selezionare i membri da aggiungere al nuovo gruppo premendo **CTRL** e selezionando ogni segnalibro e quindi selezionare di nuovo **Raggruppa**. 
 
 
-## <a name="using-spotlight"></a>Utilizzo della funzionalità In evidenza
-La funzionalità **In evidenza** è un'altra novità introdotta con i segnalibri. **In evidenza** consente di attirare l'attenzione su un grafico specifico, ad esempio, quando si presentano i segnalibri nella modalità **Visualizzazione**.
+## <a name="using-spotlight"></a>Uso della funzionalità In evidenza
+La funzionalità *In evidenza* è un'altra novità introdotta con i segnalibri. In evidenza consente di attirare l'attenzione su un grafico specifico, ad esempio, quando si presentano i segnalibri nella modalità **Visualizzazione**.
 
-Ecco un confronto tra la modalità **In evidenza** e la modalità **messa a fuoco** e le relative differenze.
+Ecco un confronto tra la modalità In evidenza e la modalità messa a fuoco e le relative differenze:
 
-1. Nella modalità **messa a fuoco** un oggetto visivo può riempire l'intera area di disegno selezionando l'icona **modalità messa a fuoco**.
-2. Con la funzionalità **In evidenza**, è possibile evidenziare un oggetto visivo nelle sue dimensioni originali grazie a un effetto di dissolvenza che rende tutti gli altri oggetti visivi nella pagina quasi trasparenti. 
+1. Con la modalità messa a fuoco, si seleziona l'icona **Modalità messa a fuoco** di un oggetto visivo, che in questo modo occuperà l'intera area di disegno.
 
-![Confronto tra modalità messa a fuoco e in evidenza](media/desktop-bookmarks/bookmarks_11.png)
+2. Con la funzionalità In evidenza, si fa clic sui puntini di sospensione di un oggetto visivo e si seleziona **In evidenza** per evidenziarlo nelle dimensioni originali grazie a un effetto di dissolvenza che rende tutti gli altri oggetti visivi nella pagina quasi trasparenti. 
 
-Quando viene fatto clic sull'icona **messa a fuoco** dell'oggetto visivo nell'immagine precedente, l'aspetto della pagina è simile al seguente:
+![Confrontare la funzionalità In evidenza con la modalità messa a fuoco](media/desktop-bookmarks/bookmarks_11.png)
 
-![modalità messa a fuoco](media/desktop-bookmarks/bookmarks_12.png)
+Quando si seleziona l'icona **Modalità messa a fuoco** dell'oggetto visivo nell'immagine precedente, la pagina ha l'aspetto seguente:
 
-Al contrario, quando viene selezionata l'opzione **In evidenza** dal menu dei puntini di sospensione dell'oggetto visivo, l'aspetto della pagina è simile al seguente:
+![Modalità messa a fuoco](media/desktop-bookmarks/bookmarks_12.png)
 
-![modalità in evidenza](media/desktop-bookmarks/bookmarks_13.png)
+Al contrario, quando viene selezionata l'opzione **In evidenza** dal menu dei puntini di sospensione dell'oggetto visivo, la pagina ha l'aspetto seguente:
 
-Se quando viene aggiunto un segnalibro è selezionata l'una o l'altra modalità, la modalità attiva (messa a fuoco o in evidenza) viene mantenuta nel segnalibro.
+![Modalità In evidenza](media/desktop-bookmarks/bookmarks_13.png)
+
+Se quando si aggiunge un segnalibro è selezionata la modalità messa a fuoco o In evidenza, la modalità attiva viene mantenuta nel segnalibro.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Segnalibri nel servizio Power BI
-Quando si pubblica nel **servizio Power BI** un report con segnalibri, è possibile visualizzare e interagire con tali segnalibri nel **servizio Power BI**. Quando in un report sono disponibili segnalibri, è possibile selezionare **Visualizza > riquadro Selezione** oppure **Visualizza > riquadro Segnalibri** per visualizzare questi riquadri.
+Quando si pubblica nel servizio Power BI un report con segnalibri, è possibile visualizzare e interagire con tali segnalibri nel servizio Power BI. Quando in un report sono disponibili segnalibri, per visualizzare i riquadri **Selezione** e **Segnalibri**, selezionare **Visualizza** > **Riquadro di selezione** o **Visualizza** > **Riquadro dei segnalibri**. 
 
 ![Visualizzare i riquadri Segnalibri e Selezione nel servizio Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
-Nel **servizio Power BI** il **riquadro Segnalibri** funziona esattamente come in **Power BI Desktop** e consente di selezionare **Visualizza** per mostrare i segnalibri nell'ordine definito, come in una presentazione.
+Nel servizio Power BI il riquadro **Segnalibri** funziona esattamente come in Power BI Desktop e consente di selezionare **Visualizza** per mostrare i segnalibri nell'ordine definito, come in una presentazione.
 
-Si noti che per spostarsi tra i segnalibri è necessario usare la barra del titolo del segnalibro grigia e non le frecce nere, in quanto le frecce nere consentono di spostarsi tra le pagine del report e non tra i segnalibri.
+Usare la barra del titolo dei segnalibri grigia, invece delle frecce nere, per spostarsi tra i segnalibri. Le frecce nere consentono di spostarsi tra le pagine del report, non tra i segnalibri.
+
+## <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Abilitare l'anteprima dei segnalibri (versioni precedenti all'aggiornamento di marzo 2018)
+A partire dalla versione di marzo 2018 di Power BI Desktop i segnalibri sono disponibili a livello generale. 
+
+È sempre consigliabile eseguire l'aggiornamento alla versione più recente. Se tuttavia la versione di Power BI Desktop in uso è precedente, è possibile provare la nuova funzionalità dei segnalibri a partire dalla versione di Power BI Desktop di ottobre 2017 e anche nel servizio Power BI per i report abilitati per i segnalibri. 
+
+Per abilitare la funzionalità dei segnalibri in anteprima: 
+
+1. Selezionare **File** > **Opzioni e impostazioni** > **Opzioni** > **Funzionalità in anteprima** e quindi selezionare **Segnalibri**. 
+
+   ![Abilitare i segnalibri nella finestra Opzioni](media/desktop-bookmarks/bookmarks_02.png)
+
+2. Riavviare Power BI Desktop per abilitare la versione di anteprima dei segnalibri.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
-Per questa versione dei **segnalibri**, tenere presenti alcune limitazioni e considerazioni.
+Per questa versione della funzionalità dei segnalibri, tenere presenti alcune limitazioni e considerazioni.
 
-* La maggior parte degli oggetti visivi personalizzati dovrebbero funzionare bene con i segnalibri. Se si verificano problemi con i segnalibri e un oggetto visivo personalizzato, contattare l'autore di tale oggetto visivo personalizzato e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo. 
-* Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo verrà visualizzato nel suo stato predefinito. Questo significa anche se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporterà in base allo stato predefinito.
-* Se dopo aver creato un segnalibro gli oggetti visivi vengono spostati, le modifiche si rifletteranno nel segnalibro. 
-
+* La maggior parte degli oggetti visivi personalizzati dovrebbero funzionare bene con i segnalibri. Se tuttavia si verificano problemi con i segnalibri e un oggetto visivo personalizzato, contattare l'autore di tale oggetto visivo personalizzato e richiedere l'aggiunta del supporto dei segnalibri all'oggetto visivo. 
+* Se si aggiunge un oggetto visivo in una pagina del report dopo aver creato un segnalibro, l'oggetto visivo viene visualizzato nel suo stato predefinito, ovvero, se si aggiunge un filtro dei dati a una pagina in cui sono stati creati segnalibri in precedenza, il filtro dei dati si comporta in base allo stato predefinito.
+* Se dopo aver creato un segnalibro un oggetto visivo viene spostato, le modifiche si riflettono automaticamente nel segnalibro. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per altre informazioni sulle funzionalità simili o su come interagire con i segnalibri, vedere gli articoli seguenti:

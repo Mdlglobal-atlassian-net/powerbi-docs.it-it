@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5d26327e41e4236a3ea5e0eca2246c6f66a64be4
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099144"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164195"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 
@@ -61,6 +61,7 @@ Quando si usa la funzionalità **Esporta in PDF** è necessario tenere presenti 
 * Durante l'esportazione in formato PDF con report che contengono un'immagine di sfondo, si potrebbe vedere un'immagine distorta nell'esportazione se si usa l'opzione **Normale** o **Riempimento** per **Sfondo della pagina**. Per ottenere risultati ottimali, usare l'opzione **Adatta** per evitare problemi con il documento esportato.
 * Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PDF. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) > **Impostazioni** > **Generale** > **Lingua**.
 * I filtri URL non vengono attualmente rispettati quando si sceglie **Valori correnti** per l'esportazione.
+* Per i report con dimensioni di pagina personalizzate insolite possono verificarsi problemi negli scenari di esportazione. Per ottenere risultati ottimali, provare a passare a una dimensione della pagina standard.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Stampare un report](end-user-print.md)
