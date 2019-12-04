@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164253"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478641"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -32,6 +32,10 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 **Nine Trends Shaping the Future of Big Data Analytics** (Nove tendenze che danno forma al futuro dell'analisi dei Big Data)
 <br>di Vijay Gopalakrishnan
 <br>[Registrarsi per guardare il 18 dicembre](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+
+**Tre modi in cui l'intelligenza artificiale sta cambiando BI**
+<br>di Justyna Lucznik
+<br>[Registrarsi per partecipare l'8 gennaio](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
