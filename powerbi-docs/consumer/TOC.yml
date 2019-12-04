@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: Aggiungere un segnalibro a un report
               href: end-user-bookmarks.md
+            - name: Report impaginati
+              href: end-user-paginated-report.md
         - name: Visualizzazioni
           items:
             - name: Cosa si può fare con le visualizzazioni?
