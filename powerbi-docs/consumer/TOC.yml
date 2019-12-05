@@ -58,8 +58,16 @@
               href: end-user-pdf.md
             - name: Aggiungere un segnalibro a un report
               href: end-user-bookmarks.md
-            - name: Report impaginati
-              href: end-user-paginated-report.md
+            - name: Report impaginati in Power BI
+              items:
+                - name: Report impaginati
+                  href: end-user-paginated-report.md
+                - name: Visualizzare un report impaginato
+                  href: paginated-reports-view-power-bi-service.md
+                - name: Interagire con i parametri
+                  href: paginated-reports-view-parameters.md
+                - name: Abbonarsi o abbonare altri utenti
+                  href: paginated-reports-subscriptions.md
         - name: Visualizzazioni
           items:
             - name: Cosa si può fare con le visualizzazioni?
