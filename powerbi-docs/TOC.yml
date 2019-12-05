@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Derivazione dei dati
           href: service-data-lineage.md
-        - name: Report impaginati in Power BI
-          items:
-            - name: Visualizzare un report impaginato
-              href: paginated-reports-view-power-bi-service.md
-            - name: Origini dati supportate
-              href: paginated-reports-data-sources.md
-            - name: Interagire con i parametri
-              href: paginated-reports-view-parameters.md
-            - name: Abbonarsi o abbonare altri utenti
-              href: paginated-reports-subscriptions.md
         - name: App modello
           items:
             - name: Panoramica sulle app modello
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: Dati di Generatore report
           href: report-builder-data.md
+        - name: Origini dati supportate
+          href: paginated-reports-data-sources.md
         - name: Usare set di dati condivisi di Power BI
           href: report-builder-shared-datasets.md
         - name: Suggerimenti relativi alla progettazione
