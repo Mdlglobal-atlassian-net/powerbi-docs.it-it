@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/30/2019
+ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8a9e2094619d4c6b0e0f6feb2c9767902b4f7b09
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099686"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565330"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -60,9 +60,9 @@ I ruoli consentono di gestire chi può fare cosa in un'area di lavoro per permet
 
 Quando si assegnano i ruoli a un gruppo di utenti, i singoli utenti del gruppo possono accedere al contenuto. Se si annidano gruppi di utenti, tutti gli utenti contenuti sono autorizzati.
 
-Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori. Tutte queste funzionalità, ad eccezione dell'ultima, richiedono una licenza di Power BI Pro.
+Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori. Tutte queste funzionalità, a eccezione della visualizzazione e dell'interazione, richiedono una licenza di Power BI Pro.
 
-|Capacità   | Amministratore  | Membro  | Collaboratore  | Visualizzatore |
+|Capacità   | Admin  | Membro  | Collaboratore  | Visualizzatore |
 |---|---|---|---|---|
 | Aggiornare ed eliminare l'area di lavoro.  | X  |   |   |   | 
 | Aggiungere/rimuovere utenti, inclusi altri amministratori.  | X  |   |   |   |
@@ -72,15 +72,15 @@ Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e
 | Consentire ad altri utenti di ricondividere a loro volta gli elementi. |  X | X  |   |   |
 | Creare, modificare ed eliminare contenuto nell'area di lavoro.  |  X | X  | X  |   |
 | Pubblicare report nell'area di lavoro, eliminare contenuto.  |  X | X  | X  |   |
-| Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro. |  X | X  | X  |   |
-| Copiare un report. | X | X | X |  |
-| Visualizzare un elemento e interagire con esso. |  X | X  | X  | X  |
+| Creare un report in un'altra area di lavoro in base a un set di dati in questa area di lavoro.<sup>1</sup> |  X | X  | X  |   |
+| Copiare un report.<sup>1</sup> | X | X | X |  |
+| Visualizzare un elemento e interagire con esso.<sup>2</sup> |  X | X  | X  | X  |
 
-> [!NOTE]
->Per copiare un report e crearne uno in un'altra area di lavoro in base a un set di dati all'interno di questa, gli utenti devono soddisfare criteri aggiuntivi:
->- È necessaria una licenza di Power BI Pro. Per informazioni dettagliate, vedere la prossima sezione, [Gestione delle licenze](#licensing).
->- È necessaria l'autorizzazione di creazione per il set di dati. Per i set di dati in questa area di lavoro, le persone con i ruoli Amministratore, Membro e Collaboratore hanno l'autorizzazione di creazione tramite il ruolo dell'area di lavoro.
- 
+1. Per copiare un report e crearne uno in un'altra area di lavoro in base a un set di dati all'interno di questa, è necessario soddisfare criteri aggiuntivi:
+    - È necessaria una licenza di Power BI Pro. Per informazioni dettagliate, vedere la prossima sezione, [Gestione delle licenze](#licensing).
+    - È necessaria l'autorizzazione di creazione per il set di dati. Per i set di dati in questa area di lavoro, le persone con i ruoli Amministratore, Membro e Collaboratore hanno l'autorizzazione di creazione tramite il ruolo dell'area di lavoro.
+2. Anche se non si ha una licenza di Power BI Pro, è possibile visualizzare e interagire con gli elementi nel servizio Power BI se gli elementi si trovano in un'area di lavoro in una capacità Premium.
+
 ## <a name="licensing"></a>Gestione delle licenze
 Tutti gli utenti che vengono aggiunti a un'area di lavoro nella capacità condivisa devono avere una licenza di Power BI Pro. Nell'area di lavoro tutti gli utenti possono collaborare sui dashboard e i report che si intende pubblicare e rendere disponibili a un pubblico più ampio o all'intera organizzazione. 
 

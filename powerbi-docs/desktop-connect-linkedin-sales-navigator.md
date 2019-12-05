@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016251"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565631"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Connettersi a LinkedIn Sales Navigator in Power BI Desktop
 
@@ -106,11 +106,15 @@ Per passare dai dati di esempio ai propri dati, selezionare **modifica app** nel
 
 Da qui è possibile connettere i propri dati, selezionando il numero di giorni per cui caricare i dati. È possibile caricare fino a 365 giorni di dati. Eseguire l'accesso, ancora una volta usando lo stesso indirizzo di posta elettronica usato per accedere a LinkedIn Sales Navigator tramite il sito Web. 
 
-![Accedi](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
+![Eseguire l'accesso](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-17.png)
 
 In seguito l'app modello aggiorna i dati nell'app con i dati dell'utente. È anche possibile configurare un aggiornamento pianificato, in modo che i dati nell'app siano aggiornati in base alla frequenza specificata. 
 
 Una volta aggiornati i dati, è possibile visualizzare l'app popolata con i propri dati.
+
+## <a name="getting-help"></a>Chiedere assistenza
+
+Se si verificano problemi durante la connessione ai dati, è possibile contattare il supporto di LinkedIn Sales Navigator all'indirizzo https://www.linkedin.com/help/sales-navigator. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 È possibile connettersi a molti tipi di dati usando Power BI Desktop. Per altre informazioni sulle origini dati, vedere le risorse seguenti:

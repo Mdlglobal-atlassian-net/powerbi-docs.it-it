@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874719"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565712"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
@@ -21,9 +21,9 @@ I report impaginati, da lungo tempo il formato di report standard in SQL Server 
 
 I report impaginati possono avere molte pagine. Ad esempio, questo report contiene 563 pagine. Ogni pagina ha un layout esatto, con una pagina per ogni fattura e intestazioni e piè di pagina ripetuti.
 
-![Impaginato](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+Provare l'[esercitazione pratica Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Creare un report impaginato di Microsoft Power BI).
 
-![Report impaginato nel servizio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![Impaginato](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 È possibile visualizzare in anteprima il report in Generatore report e quindi pubblicarlo nel servizio Power BI, https://app.powerbi.com. È necessaria una licenza di Power BI Pro per pubblicare un report nel servizio. È possibile pubblicare e condividere i report impaginati nell'area di lavoro personale o in aree di lavoro, purché l'area di lavoro sia in una capacità Power BI Premium. Un amministratore di Power BI deve anche abilitare i report impaginati nella [sezione Capacità Premium](service-admin-premium-workloads.md#paginated-reports) nel portale di amministrazione di Power BI. 
 
@@ -87,6 +87,6 @@ L'elenco seguente include alcune altre funzionalità non supportate nella versio
 - [Installare Generatore report di Power BI dall'Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Esercitazione: Creare un report impaginato](paginated-reports-quickstart-aw.md)
 - [Immettere i dati direttamente in un report impaginato](paginated-reports-enter-data.md)
-
+- [Hands-on lab: Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Esercitazione pratica: Creare un report impaginato di Microsoft Power BI)
   
 

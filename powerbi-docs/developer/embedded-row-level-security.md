@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875808"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478672"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
@@ -333,8 +333,7 @@ Non è possibile impostare questa autorizzazione tramite il portale di amministr
 
 ### <a name="token-based-identity-limitations"></a>Limitazioni per l'identità basata su token
 
-* L'uso di questa funzionalità è limitato a Power BI Premium.
-* Questa funzionalità non funziona con SQL Server in locale.
-* Questa funzionalità non funziona con Multi-Geo.
+* È possibile usare la sicurezza a livello di riga solo se si ha una capacità dedicata.
+* La sicurezza a livello di riga non funziona con SQL Server in locale.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

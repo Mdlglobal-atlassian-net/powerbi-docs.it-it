@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874146"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565783"
 ---
 # <a name="install-power-bi-report-server"></a>Installare il server di report di Power BI
 
@@ -21,9 +21,9 @@ Informazioni su come installare il server di report di Power BI.
 
 ## <a name="download-power-bi-report-server"></a>Scaricare il server di report di Power BI
 
-[Scaricare il server di report di Power BI](https://www.microsoft.com/download/details.aspx?id=56722) dall'Area download Microsoft.
+Nella pagina [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/) selezionare **Scarica la versione di prova gratuita**.
 
-È anche disponibile una versione di prova gratuita. Nella pagina [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/) selezionare **Scarica la versione di prova gratuita**.
+Quando si esegue il file PowerBIReportServer.exe, si seleziona la versione di valutazione gratuita oppure si immette il codice Product Key. Continuare a leggere per informazioni dettagliate.
 
 ## <a name="before-you-install"></a>Prima di eseguire l'installazione
 
@@ -43,7 +43,7 @@ Continuare a leggere per informazioni dettagliate.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Se è stato acquistato Power BI Premium, nella scheda **Impostazioni Premium** del portale di amministratore di Power BI si ha accesso al codice Product Key del server di report di Power BI. Questo è disponibile solo per gli amministratori globali o per gli utenti a cui è stato assegnato il ruolo di amministratore del servizio Power BI.
+Se è stato acquistato Power BI Premium, nella scheda **Impostazioni Premium** del portale di amministrazione di Power BI si ha accesso al codice Product Key del server di report di Power BI. Il portale di amministrazione è disponibile solo per gli amministratori globali o per gli utenti a cui è stato assegnato il ruolo di amministratore del servizio Power BI.
 
 ![Impostazioni Premium](../report-server/media/install-report-server/pbirs-product-key.png "Codice Product Key del Server di report di Power BI all'interno di Impostazioni Premium")
 
@@ -70,7 +70,7 @@ Al momento dell'installazione non è necessario un server del motore di database
 
     ![Scegliere una versione](media/install-report-server/pbireportserver-choose-edition.png)
 
-    È possibile scegliere la versione Evaluation o Developer nell'elenco a discesa.
+    Scegliere la versione Evaluation o Developer.
 
     ![Edizione 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -78,7 +78,7 @@ Al momento dell'installazione non è necessario un server del motore di database
 4. Leggere e accettare i termini e le condizioni di licenza, quindi selezionare **Avanti**.
 
     ![Condizioni di licenza](media/install-report-server/pbireportserver-eula.png)
-5. È necessario avere un motore di database per archiviare il database del server di report. Selezionare **Next** per installare solo il server di report.
+5. È necessario un motore di database per archiviare il database del server di report. Selezionare **Next** per installare solo il server di report.
 
     ![Installare solo i file](media/install-report-server/pbireportserver-install-files-only.png)
 6. Specificare il percorso di installazione del server di report. Selezionare **Install** per continuare.
@@ -95,11 +95,11 @@ Al momento dell'installazione non è necessario un server del motore di database
 
 Dopo la selezione di **Configura Report Server** nel programma di installazione, viene visualizzato Gestione configurazione Reporting Services. Per altre informazioni, vedere [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode).
 
-È necessario [creare un database del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) per completare la configurazione iniziale di Reporting Services. Per completare questo passaggio è necessario un server di Database SQL Server.
+Per completare la configurazione iniziale di Reporting Services, è necessario [creare un database del server di report](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Per completare questo passaggio è necessario un server di Database SQL Server.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Creazione di un database in un server diverso
 
-Se si sta creando il database del server di report in un server di database in un computer diverso, è necessario modificare l'account di servizio del server di report in credenziali riconosciute nel server di database. 
+Se si sta creando il database del server di report in un server di database in un computer diverso, modificare l'account di servizio del server di report in credenziali riconosciute nel server di database. 
 
 Per impostazione predefinita, il server di report usa l'account del servizio virtuale. Se si prova a creare un database in un server diverso, potrebbe verificarsi l'errore seguente durante il passaggio Applicazione dei diritti di connessione.
 
@@ -137,9 +137,9 @@ Un esempio di stringa dell'URL completa potrebbe essere come segue:
 
 ## <a name="firewall"></a>Firewall
 
-Se si accede al server di report da un computer remoto, è consigliabile assicurarsi di aver configurato le regole del firewall, se è presente.
+Se si accede al server di report da un computer remoto, assicurarsi di aver configurato le regole del firewall, se è presente.
 
-È necessario aprire la porta TCP che è stata configurata per l'URL del servizio Web e l'URL del portale Web. Per impostazione predefinita, questi vengono configurati sulla porta TCP 80.
+Aprire la porta TCP che è stata configurata per l'URL del servizio Web e l'URL del portale Web. Per impostazione predefinita, questi vengono configurati sulla porta TCP 80.
 
 ## <a name="additional-configuration"></a>Configurazione aggiuntiva
 
