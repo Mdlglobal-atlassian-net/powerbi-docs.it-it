@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d7fcc054ccf0bea1a036eaf24cb9631a2abb3969
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410885"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478624"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Linee guida per il modello DirectQuery in Power BI Desktop
 
@@ -99,7 +99,7 @@ I report basati su un set di dati DirectQuery possono essere ottimizzati in dive
     
 - **Applicare prima i filtri:** quando si progettano report per la prima volta, è consigliabile applicare gli eventuali filtri applicabili, a livello di report, di pagina o di oggetto visivo, prima di eseguire il mapping dei campi ai campi dell'oggetto visivo. Ad esempio, anziché includere le misure **Country** e **Sales** e poi filtrare in base a un determinato anno, applicare prima il filtro al campo **Year**. Ogni passaggio della creazione di un oggetto visivo invia una query e, anche se è possibile apportare un'altra modifica prima del completamento della prima query, questa operazione genera un carico superfluo sull'origine sottostante. Applicando subito i filtri, le query intermedie diventano generalmente meno onerose e più veloci. Inoltre, la mancata applicazione dei filtri può causare il superamento del limite di un milione righe, come descritto in precedenza.
 - **Limitare il numero di oggetti visivi in una pagina:** quando viene aperta una pagina del report (e quando vengono applicati i filtri di pagina), vengono aggiornati tutti gli oggetti visivi in una pagina. Esiste tuttavia un limite al numero di query che possono essere inviate in parallelo, imposto dall'ambiente Power BI e dall'impostazione del modello **Numero massimo di connessioni per origine dati**, come descritto in precedenza. Pertanto, con l'aumentare del numero di oggetti visivi della pagina, è più probabile che vengano aggiornati in modo seriale. Diventa così maggiore il tempo necessario per aggiornare l'intera pagina e aumenta anche la probabilità che gli oggetti visivi visualizzino risultati incoerenti (per le origini dati volatili). Per questo motivo, è consigliabile limitare il numero di oggetti visivi presenti in una singola pagina e optare per varie pagine più semplici. La sostituzione di più oggetti visivi scheda con un singolo oggetto visivo scheda con più righe può consentire di ottenere un layout di pagina simile.
-- **Disattivare l'interazione tra gli oggetti visivi:** le interazioni di evidenziazione incrociata e filtro incrociato richiedono l'invio di query all'origine sottostante. Se queste interazioni non sono necessarie, è consigliabile disattivarle se il tempo necessario per rispondere alle selezioni degli utenti è molto lungo. Queste interazioni possono essere disattivate, sia per l'intero report (come descritto in precedenza per le opzioni di riduzione della query) o caso per caso come descritto nell'articolo [Filtro incrociato per gli oggetti visivi in un report di Power BI](../consumer/end-user-interactions.md).
+- **Disattivare l'interazione tra gli oggetti visivi:** le interazioni di evidenziazione incrociata e filtro incrociato richiedono l'invio di query all'origine sottostante. Se queste interazioni non sono necessarie, è consigliabile disattivarle se il tempo necessario per rispondere alle selezioni degli utenti è molto lungo. Queste interazioni possono essere disattivate, sia per l'intero report (come descritto in precedenza per le opzioni di Riduzione query) o caso per caso. Per altre informazioni, vedere [Filtro incrociato per gli oggetti visivi in un report di Power BI](../consumer/end-user-interactions.md).
 
 Oltre all'elenco delle tecniche di ottimizzazione precedente, ognuna delle funzionalità di creazione di report seguenti può contribuire a causare problemi di prestazioni:
 
@@ -110,8 +110,8 @@ Oltre all'elenco delle tecniche di ottimizzazione precedente, ognuna delle funzi
     
     Ciò può causare l'invio di due query all'origine sottostante:
     
-      - La prima query recupererà le categorie che soddisfano la condizione (Sales > $ 15 milioni)
-      - La seconda query recupererà quindi i dati necessari per l'oggetto visivo, aggiungendo le categorie che soddisfano la condizione nella clausola WHERE
+    - La prima query recupererà le categorie che soddisfano la condizione (Sales > $ 15 milioni)
+    - La seconda query recupererà quindi i dati necessari per l'oggetto visivo, aggiungendo le categorie che soddisfano la condizione nella clausola WHERE
     
     Questa query in genere funziona correttamente in presenza di centinaia o migliaia di categorie, come in questo esempio. Le prestazioni possono però ridursi se il numero di categorie è molto maggiore e in effetti la query avrà esito negativo se più di un milione di categorie soddisfano la condizione, a causa del limite di un milione di righe indicato in precedenza.
 - **Filtri PrimiN:** è possibile definire filtri avanzati in modo da filtrare solo i valori primi (o ultimi) N classificati in base a una misura. Ad esempio, per visualizzare solo le prime cinque categorie nell'oggetto visivo sopra riportato. Analogamente ai filtri delle misure, anche questa operazione comporterà l'invio di due query all'origine dati sottostante. La prima query restituirà tuttavia tutte le categorie dell'origine sottostante. Le prime N verranno poi determinate in base ai risultati restituiti. A seconda della cardinalità della colonna interessata, ciò può provocare problemi di prestazioni oppure l'esito negativo delle query a causa del limite di 1 milione di righe.
@@ -127,7 +127,7 @@ La conversione di un modello DirectQuery in un modello composito consente di ott
 
 ## <a name="educate-users"></a>Informare gli utenti
 
-È importante informare gli utenti su come usare in modo efficiente i report basati sui set di dati DirectQuery. Gli autori del report devono conoscere il contenuto dell'argomento [Ottimizzazione delle progettazioni di report](#optimize-report-designs).
+È importante informare gli utenti su come usare in modo efficiente i report basati sui set di dati DirectQuery. Gli autori del report devono conoscere il contenuto dell'argomento [Ottimizzazione delle progettazioni di report](#optimize-report-designs section).
 
 Si consiglia di informare gli utenti dei report sui report basati sui set di risultati DirectQuery. Può essere utile che comprendano l'architettura dei dati generale, incluse eventuali limitazioni rilevanti descritte in questo articolo. Si supponga di prevedere che le risposte di aggiornamento e i filtri interattivi possano talvolta essere lenti. Se gli utenti del report conoscono i motivi del calo delle prestazioni, è meno probabile che perdano fiducia nei report e nei dati.
 
