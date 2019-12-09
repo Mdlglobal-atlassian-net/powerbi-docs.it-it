@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: d1f23f52f484ec9e141b4870b50cc1b2758709d9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874730"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831189"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creare i parametri per i report impaginati nel servizio Power BI
 
@@ -64,6 +64,6 @@ La figura seguente illustra la visualizzazione di progettazione in Generatore Re
   
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per informazioni sulla visualizzazione dei parametri nel servizio Power BI, vedere l'articolo [Visualizzare i parametri per i report impaginati](paginated-reports-view-parameters.md).
+Per informazioni sulla visualizzazione dei parametri nel servizio Power BI, vedere l'articolo [Visualizzare i parametri per i report impaginati](consumer/paginated-reports-view-parameters.md).
 
 Per informazioni dettagliate sui parametri in report impaginati, vedere [Parametri dei report in Generatore report di Power BI](report-builder-parameters.md).

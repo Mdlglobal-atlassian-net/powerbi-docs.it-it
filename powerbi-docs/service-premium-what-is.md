@@ -1,8 +1,8 @@
 ---
 title: Che cos'è Microsoft Power BI Premium?
 description: Power BI Premium offre capacità dedicate all'organizzazione o al team, con prestazioni più affidabili e volumi di dati superiori, senza richiedere l'acquisto di licenze per ogni utente.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9434aa717ad10791e75366cf23ef8ece567389ea
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871814"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699131"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -70,7 +70,7 @@ Le risorse e i limiti di ogni SKU Premium (e della SKU A di dimensioni equivalen
 
 | Nodi delle capacità | Totale vCore | vCore back-end | RAM (GB) | vCore front-end | Connessione dinamica/DirectQuery (al secondo) | Parallelismo di aggiornamento dei modelli |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |

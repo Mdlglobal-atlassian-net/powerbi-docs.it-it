@@ -1,20 +1,20 @@
 ---
 title: Come configurare i carichi di lavoro in Power BI Premium
 description: Informazioni su come configurare i carichi di lavoro in una capacità Power BI Premium.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856822"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831289"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
@@ -164,7 +164,7 @@ Il carico di lavoro Report impaginati consente di eseguire report impaginati, in
 | **Memoria massima (%)** | Percentuale massima di memoria disponibile che i report impaginati possono usare in una capacità. |
 |  |  |
 
-I report impaginati consentono l'esecuzione di codice personalizzato durante il rendering di un report, ad esempio quando si modifica in modo dinamico il colore del testo in base al contenuto, il che può richiedere memoria aggiuntiva. Power BI Premium esegue i report impaginati in uno spazio contenuto all'interno della capacità. Viene usata la memoria massima specificata, *indipendentemente dal fatto che il carico di lavoro sia attivo o meno*. Se si modifica l'impostazione predefinita di Memoria massima, assicurarsi di impostarla su un valore sufficientemente basso da non influire negativamente sugli altri carichi di lavoro.
+I report impaginati consentono l'esecuzione di codice personalizzato durante il rendering di un report, ad esempio quando si modifica in modo dinamico il colore del testo in base al contenuto, il che può richiedere memoria aggiuntiva. Power BI Premium esegue i report impaginati in uno spazio contenuto all'interno della capacità. 
 
 In alcuni casi, il carico di lavoro Report impaginati può diventare non disponibile. In questo caso, per il carico di lavoro viene visualizzato uno stato di errore nel portale di amministrazione e gli utenti vedono il timeout per il rendering del report. Per attenuare questo problema, disabilitare il carico di lavoro e quindi riabilitarlo.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478641"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882764"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -24,10 +24,6 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 **Analytics in Azure virtual event: Accelerate time to insight with Azure Synapse Analytics** (Analisi nell'evento virtuale di Azure: accelerare i tempi di acquisizione di dati analitici con Azure Synapse Analytics)
 <br>di Gayle Sheppard e John Macintyre
 <br>[Registrarsi adesso](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**How Microsoft Is Changing BI Data Protection** (In che modo Microsoft sta cambiando la protezione dei dati di business intelligence)
-<br>di Anton Fritz e Adi Regev
-<br>[Registrarsi per guardare il 4 dicembre](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Nine Trends Shaping the Future of Big Data Analytics** (Nove tendenze che danno forma al futuro dell'analisi dei Big Data)
 <br>di Vijay Gopalakrishnan
@@ -42,6 +38,10 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 ## <a name="featured-webinars"></a>Webinar in primo piano
 
 Iniziare dai webinar on demand più popolari
+
+**How Microsoft Is Changing BI Data Protection** (In che modo Microsoft sta cambiando la protezione dei dati di business intelligence)
+<br>di Anton Fritz e Adi Regev
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI and the Future of Modern and Enterprise BI** (Power BI e il futuro della business intelligence moderna e aziendale)
 <br>di Arun Ulag e Amir Netz

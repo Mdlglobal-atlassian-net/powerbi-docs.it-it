@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 35f50f57f3874bbb87fcdd5fbcf7da987fea1d1a
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565712"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831162"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Che cosa sono i report impaginati in Power BI Premium?
 
@@ -70,7 +70,7 @@ Nel servizio Power BI il report impaginato viene visualizzato in un browser e ne
 
 È ora possibile configurare la sottoscrizione per se stessi e altri utenti di report impaginati nel servizio Power BI tramite un messaggio di posta elettronica. Il processo è generalmente identico a quello previsto per la sottoscrizione di report e dashboard nel servizio Power BI. Durante la configurazione delle sottoscrizioni, è possibile scegliere la frequenza di ricezione dei messaggi di posta elettronica: giornaliera, settimanale oppure oraria. La sottoscrizione contiene un allegato PDF dell'output dell'intero report.
 
-Per informazioni dettagliate, vedere l'articolo [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](paginated-reports-subscriptions.md). 
+Per informazioni dettagliate, vedere l'articolo [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](consumer/paginated-reports-subscriptions.md). 
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
