@@ -1,20 +1,20 @@
 ---
 title: Unire o aggiungere origini dati locali e cloud
 description: Usare il gateway dati locale per unire o aggiungere origini dati locali e cloud nella stessa query.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 079e3c785277c91bdc09f91c083e80abd6bdd36b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881612"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74697889"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Unire o aggiungere origini dati locali e cloud
 

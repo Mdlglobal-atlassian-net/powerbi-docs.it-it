@@ -1,20 +1,20 @@
 ---
 title: Uso dell'aggiornamento incrementale con i flussi di dati Power BI
 description: Informazioni sulla configurazione dell'aggiornamento incrementale per i flussi di dati
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 921d0c394377bb7df602105073cc46478e3a1e74
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de65fed27260f3e93c4e91fcb680d2e5190543b0
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872634"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698211"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Uso dell'aggiornamento incrementale con i flussi di dati Power BI
 

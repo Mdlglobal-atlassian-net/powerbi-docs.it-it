@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 09/13/2019
-ms.openlocfilehash: a36499863346244bb3830e7ba4733045c4ddf8ba
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.date: 12/03/2019
+ms.openlocfilehash: 88df45a95e485695a9a2f36358c1fcca9670f258
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128282"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831131"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Confronto tra Server di report di Power BI e il servizio Power BI
 
@@ -44,7 +44,7 @@ Server di report di Power BI e il servizio Power BI hanno molte caratteristiche 
 | App Power BI per dispositivi mobili | Sì | Sì | [Panoramica sulle app Power BI per dispositivi mobili](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | Mappe ArcGIS | No | Sì | [Mappe ArcGIS di Esri nel servizio Power BI e in Power BI Desktop](../visuals/power-bi-visualization-arcgis.md) |
 | Sottoscrizioni tramite posta elettronica per i report di Power BI | No | Sì | [Sottoscrivere per se stessi o altri utenti](../service-report-subscribe.md) un report o dashboard nel servizio Power BI |
-| Sottoscrizioni tramite posta elettronica per report impaginati | Sì | Sì | [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](../paginated-reports-subscriptions.md)<br><br>[Recapito tramite posta elettronica in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
+| Sottoscrizioni tramite posta elettronica per report impaginati | Sì | Sì | [Sottoscrivere per se stessi e altri utenti un report impaginato nel servizio Power BI](../consumer/paginated-reports-subscriptions.md)<br><br>[Recapito tramite posta elettronica in Reporting Services](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)  |
 | Avvisi per i dati | No | Sì | [Avvisi per i dati](../service-set-data-alerts.md) nel servizio Power BI
 | Sicurezza a livello di riga | Sì | Sì | Disponibile in modalità DirectQuery (origine dati) e importazione <br><br>Sicurezza a livello di riga nel [servizio Power BI](../service-admin-rls.md) <br><br>Sicurezza a livello di riga in [Server di report di Power BI](row-level-security-report-server.md) |
 | Modalità schermo intero | No | Sì | [Modalità schermo intero](../consumer/end-user-focus.md) nel servizio Power BI |

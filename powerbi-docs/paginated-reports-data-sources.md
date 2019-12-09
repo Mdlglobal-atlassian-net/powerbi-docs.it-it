@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/19/2019
-ms.openlocfilehash: fcc6e7880a3f27c6b35fe2192e76a0b2cc82abd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: f7662cbd2fb0085ad2e6fda6a33577d1cc29ddfb
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874860"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831284"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Origini dati supportate per i report impaginati di Power BI
 
@@ -30,7 +30,7 @@ I report impaginati supportano in modalità nativa l'elenco di origini dati segu
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Set di dati di Power BI | SSO | Set di dati di Power BI Premium e non Premium |
 | Set di dati di Power BI Premium (XMLA) | SSO |   |
-| Immettere i dati | N/D | I dati sono incorporati nel report. |
+| Immetti i dati | N/D | I dati sono incorporati nel report. |
 
 Ad eccezione del database SQL di Azure, tutte le origini dati sono pronte per l'uso dopo il caricamento del report nel servizio Power BI. Per impostazione predefinita, le origini dati usano Single Sign-on (SSO), dove applicabile. Per Azure Analysis Services, è possibile modificare il tipo di autenticazione in OAuth2.
 
@@ -71,6 +71,6 @@ Per il corretto funzionamento di SSO e OAuth2, il server del database SQL di Azu
   
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Visualizzare un report impaginato nel servizio Power BI](paginated-reports-view-power-bi-service.md)
+[Visualizzare un report impaginato nel servizio Power BI](consumer/paginated-reports-view-power-bi-service.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

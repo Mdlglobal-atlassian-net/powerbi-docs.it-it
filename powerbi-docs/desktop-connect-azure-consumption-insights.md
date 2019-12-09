@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 12/03/2019
 ms.locfileid: "73876539"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Connettersi ai dati di Azure Consumption Insights in Power BI Desktop
@@ -198,14 +198,14 @@ I nomi delle colonne e dei dettagli nel portale di Azure sono simili a quelli ne
 | DepartmentID |departmentId | |Sì |
 | ID istanza | | |Sì |
 | InstanceId |instanceId |ID istanza |No |
-| Località | | |Sì |
+| Posizione | | |Sì |
 | Meter Category |meterCategory |Meter Category |No |
 | Meter ID | | |Sì |
 | Meter Name |meterName |Meter Name |No |
 | Meter Region |meterRegion |Meter Region |No |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
-| Mese | |Mese |No |
+| Month | |Month |No |
 | Product |prodotto |Product |No |
 | ProductId |productId | |Sì |
 | Resource Group |resourceGroup |Resource Group |No |
@@ -224,7 +224,7 @@ I nomi delle colonne e dei dettagli nel portale di Azure sono simili a quelli ne
 | Tag |tags |Tag |No |
 | TagsId | | |Sì |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |No |
-| Year | |Year |No |
+| Anno | |Anno |No |
 | SubscriptionId |subscriptionId |SubscriptionId |Sì |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |No |
 
