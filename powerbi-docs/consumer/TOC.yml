@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: Esportare un report in formato PDF
               href: end-user-pdf.md
+            - name: Esportare un report in PowerPoint
+              href: end-user-powerpoint.md
             - name: Aggiungere un segnalibro a un report
               href: end-user-bookmarks.md
             - name: Report impaginati in Power BI
