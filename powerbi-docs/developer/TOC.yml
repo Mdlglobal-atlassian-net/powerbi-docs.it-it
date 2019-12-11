@@ -41,13 +41,13 @@
               href: visuals/advanced-edit-mode.md
         - name: Procedure
           items:
-            - name: Ottenere la certificazione di un oggetto visivo
+            - name: Ottenere un oggetto visivo Power BI certificato
               href: power-bi-custom-visuals-certified.md
-            - name: Pubblicare oggetti visivi personalizzati in AppSource
+            - name: Pubblicare oggetti visivi di Power BI in AppSource
               href: office-store.md
-            - name: Usare oggetti visivi personalizzati basati su R in Power BI
+            - name: Usare oggetti visivi di Power BI basati su R in Power BI
               href: ../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
-            - name: Interazioni di oggetti visivi
+            - name: Interazioni oggetti visivi
               href: visuals/visuals-interactions.md
             - name: Aggiungere selezioni
               href: visuals/selection-api.md
@@ -69,8 +69,6 @@
               href: visuals/high-contrast-support.md
             - name: Abilitare la sincronizzazione dei filtri dei dati
               href: visuals/enable-sync-slicers.md
-            - name: Aggiungere il supporto del drill-down
-              href: visuals/drill-down-support.md
             - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
               href: power-bi-custom-visuals-troubleshoot.md
         - name: Riferimento
@@ -85,14 +83,8 @@
               href: visuals/event-service.md
             - name: Ordinamento
               href: visuals/sort-options.md
-            - name: Localizzazione
-              href: visuals/localization.md
-            - name: Utilità per gli oggetti visivi di Power BI
-              items:
-                - name: Utilità di interattività
-                  href: visuals/utils-interactivity-selections.md
-                - name: Utilità per la formattazione
-                  href: visuals/utils-formatting.md
+            - name: Utilità di interattività
+              href: visuals/utils-interactivity-selections.md
         - name: Risorse
           items:
             - name: Dev Center
