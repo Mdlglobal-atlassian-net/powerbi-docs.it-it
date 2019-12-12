@@ -1,20 +1,20 @@
 ---
 title: Distribuire il contenuto agli utenti guest esterni usando Azure AD B2B
 description: Power BI si integra con Azure Active Directory Business-to-Business (AD B2B Azure) per consentire la distribuzione sicura di contenuto di Power BI agli utenti guest all'esterno dell'organizzazione.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: bcde2bc456ee48e8dc66d6c0ba6b17d79fbe43a8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858020"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882837"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B
 
@@ -30,7 +30,9 @@ Prima di invitare utenti guest, verificare che la funzionalità [Condividi conte
 
 ## <a name="who-can-you-invite"></a>Chi è possibile invitare?
 
-È possibile invitare utenti guest con qualsiasi indirizzo di posta elettronica, inclusi account personali, ad esempio gmail.com, outlook.com e hotmail.com. Azure AD B2B chiama questi indirizzi *identità di social network*.
+È possibile invitare utenti guest con la maggior parte degli indirizzi di posta elettronica, inclusi account personali, ad esempio gmail.com, outlook.com e hotmail.com. Azure AD B2B chiama questi indirizzi *identità di social network*.
+
+Non è possibile invitare gli utenti associati a un cloud per enti pubblici, ad esempio [Power BI per il Governo degli Stati Uniti](service-govus-overview.md).
 
 ## <a name="invite-guest-users"></a>Invitare gli utenti guest
 

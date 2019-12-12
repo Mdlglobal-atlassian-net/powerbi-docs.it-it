@@ -1,20 +1,20 @@
 ---
 title: Aggiornamento dei dati in Power BI
 description: Questo articolo descrive le funzionalità di aggiornamento dei dati di Power BI e le relative dipendenze a livello concettuale.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/14/2019
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415429"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791673"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -92,7 +92,7 @@ Un'operazione di aggiornamento di Power BI può essere costituita da più tipi d
 
 #### <a name="data-refresh"></a>Aggiornamento dei dati
 
-Per gli utenti di Power BI aggiornare i dati in genere significa importare i dati dalle origini dati originali in un set di dati, in base a un aggiornamento pianificato o su richiesta. È possibile eseguire più aggiornamenti del set di dati ogni giorno, operazione che potrebbe essere necessaria se i dati di origine sottostanti cambiano di frequente. Power BI limita i set di dati nella capacità condivisa a otto aggiornamenti al giorno. Se il set di dati si trova in una capacità Premium, è possibile pianificare fino a 48 aggiornamenti al giorno nelle impostazioni dei set di dati. Per altre informazioni, vedere la sezione relativa alla configurazione dell'aggiornamento pianificato più avanti in questo articolo.
+Per gli utenti di Power BI aggiornare i dati in genere significa importare i dati dalle origini dati originali in un set di dati, in base a un aggiornamento pianificato o su richiesta. È possibile eseguire più aggiornamenti del set di dati ogni giorno, operazione che potrebbe essere necessaria se i dati di origine sottostanti cambiano di frequente. Power BI limita i set di dati nella capacità condivisa a otto aggiornamenti al giorno. Se il set di dati si trova in una capacità Premium, è possibile pianificare fino a 48 aggiornamenti al giorno nelle impostazioni dei set di dati. Per altre informazioni, vedere [Configurare l'aggiornamento pianificato](#configure-scheduled-refresh) più avanti in questo articolo.
 
 È anche importante sottolineare che il limite di capacità condivisa per gli aggiornamenti giornalieri è valido sia per gli aggiornamenti pianificati che per quelli delle API e per le combinazioni dei due tipi. È anche possibile attivare un aggiornamento su richiesta selezionando **Aggiorna ora** nel menu del set di dati, come illustra lo screenshot seguente. Gli aggiornamenti su richiesta non sono inclusi nella limitazione dell'aggiornamento. Si noti anche che i set in dati di una capacità Premium non impongono limitazioni per gli aggiornamenti dell'API. Se si è interessati a realizzare una propria soluzione di aggiornamento usando l'API REST di Power BI, vedere [Set di dati - Aggiornare i set di dati](/rest/api/power-bi/datasets/refreshdataset).
 
@@ -283,7 +283,7 @@ Nella sezione **Aggiornamento pianificato** è possibile definire la frequenza e
 
 ![Configurare l'aggiornamento pianificato](media/refresh-data/configure-scheduled-refresh.png)
 
-Se è stata configurata una pianificazione dell'aggiornamento, nella pagina delle impostazioni del set di dati viene visualizzato l'orario dell'aggiornamento successivo, come illustrato nello screenshot precedente. Per aggiornare i dati prima dell'orario pianificato, ad esempio per testare la configurazione del gateway e dell'origine dati, eseguire un aggiornamento su richiesta usando l'opzione **Aggiorna adesso** nel menu del set di dati nel riquadro di spostamento. Gli aggiornamenti su richiesta non influiscono sull'orario del successivo aggiornamento pianificato, ma vengono conteggiati rispetto al limite di aggiornamenti giornalieri, come spiegato in precedenza in questo articolo.
+Se è stata configurata una pianificazione dell'aggiornamento, nella pagina delle impostazioni del set di dati viene visualizzato l'orario dell'aggiornamento successivo, come illustrato nello screenshot precedente. Per aggiornare i dati prima dell'orario pianificato, ad esempio per testare la configurazione del gateway e dell'origine dati, eseguire un aggiornamento su richiesta usando l'opzione **Aggiorna adesso** nel menu del set di dati nel riquadro di spostamento. Gli aggiornamenti on demand non influiscono sull'orario del prossimo aggiornamento pianificato.
 
 Si noti inoltre che l'orario configurato per l'aggiornamento potrebbe non essere esattamente l'ora in cui Power BI avvia il processo pianificato successivo. Power BI avvia gli aggiornamenti pianificati in base ad approssimazioni ottimali. L'obiettivo è avviare l'aggiornamento entro 15 minuti dall'orario pianificato, ma può verificarsi un ritardo fino a un'ora se il servizio non è in grado di allocare prima le risorse necessarie.
 

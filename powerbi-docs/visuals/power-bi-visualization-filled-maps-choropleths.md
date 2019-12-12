@@ -1,23 +1,23 @@
 ---
-title: Mappe colorate (cloroplete) in Power BI
-description: Documentazione sulla creazione di mappe colorate (Choropleth) in Power BI
+title: Mappe colorate (coropletiche) in Power BI
+description: Documentazione sulla creazione di mappe colorate (coropletiche) in Power BI
 author: mihart
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c35e97fba55230277f9f144a5155071656b6add
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870951"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907843"
 ---
-# <a name="filled-maps-choropleths-in-power-bi"></a>Mappe colorate (cloroplete) in Power BI
+# <a name="filled-maps-choropleth-in-power-bi"></a>Mappe colorate (coropletiche) in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -46,12 +46,12 @@ Le mappe colorate sono ideali nelle circostanze seguenti:
 * per ottenere una panoramica della distribuzione nelle varie località geografiche
 
 ### <a name="prerequisites"></a>Prerequisiti
-Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+Questa esercitazione usa il [file Sales and Marketing Sample PBIX](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
 1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** > **Apri**
    
-2. Trovare la copia del **file Retail Analysis Sample PBIX**
+2. Trovare la copia del **file Sales and Marketing Sample PBIX**
 
-1. Aprire il **file Retail Analysis Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Aprire il **file Sales and Marketing Sample PBIX** nella visualizzazione report ![Screenshot dell'icona della visualizzazione report](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
 1. Seleziona ![Screenshot della scheda gialla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) per aggiungere una nuova pagina.
 
@@ -63,13 +63,13 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
    > 
    > 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
+[VIDEO https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>Creare una mappa colorata
 1. Nel riquadro Campi selezionare il campo **Geo** \> **State**.    
 
    ![Segno di spunta giallo accanto allo stato](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-2. [Convertire il grafico](power-bi-report-change-visualization-type.md) in una mappa colorata. Si noti che **State** ora è presente nell'area **Location**. Bing Mappe usa il campo nell'area **Location** per creare la mappa.  La posizione può essere una qualsiasi tra quelle valide, ad esempio paesi, stati, province, CAP o altri codici postali. Bing Mappe fornisce le forme di mappa colorata per le varie posizioni a livello mondiale. Se non è presente una voce valida nell'area Località, Power BI non può creare la mappa colorata.  
+2. [Convertire il grafico](power-bi-report-change-visualization-type.md) in una mappa colorata. Si noti che **State** ora è presente nell'area **Location**. Bing Mappe usa il campo nell'area **Location** per creare la mappa.  La posizione può essere una qualsiasi tra quelle valide, ad esempio paesi, stati, province, città, CAP o altri codici postali e così via. Bing Mappe fornisce le forme di mappa colorata per le varie posizioni a livello mondiale. Se non è presente una voce valida nell'area Località, Power BI non può creare la mappa colorata.  
 
    ![Modelli con l'icona per la mappa colorata evidenziata](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Filtrare la mappa in modo da visualizzare solo gli Stati Uniti continentali.
@@ -84,27 +84,27 @@ Il video seguente mostra come creare una mappa di base e convertirla in una mapp
    ![Elenco a discesa State con tutti gli stati e AK non selezionato](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. Selezionare l'icona del rullo per aprire il riquadro Formattazione e scegliere **Colori dati**.
 
-    ![Opzione Colori dati nel riquadro Formattazione](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
+    ![Opzione Colori dati nel riquadro Formattazione](media/power-bi-visualization-filled-maps-choropleths/power-bi-colors-data.png)
 
 5. Selezionare i tre punti verticali e scegliere **Formattazione condizionale**.
 
-    ![Pulsante Formattazione condizionale per Colori dati](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+    ![Pulsante Formattazione condizionale per Colori dati](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
-6. Usare la schermata **Colore predefinito - Colori dati** per determinare come verrà applicata l'ombreggiatura alla mappa colorata. Le opzioni disponibili includono il campo su cui basare l'ombreggiatura e la modalità di applicazione dell'ombreggiatura. In questo esempio viene usato il campo **SalesFact** > **Sentiment** e il valore più basso per il sentiment viene impostato su rosso, mentre quello più alto su verde. I valori compresi tra il valore massimo e minimo saranno caratterizzati da varie sfumature di verde e rosso. La figura nella parte inferiore della schermata mostra l'intervallo di colori che verrà usato. 
+6. Usare la schermata **Colore predefinito - Colori dati** per determinare come verrà applicata l'ombreggiatura alla mappa colorata. Le opzioni disponibili includono il campo su cui basare l'ombreggiatura e la modalità di applicazione dell'ombreggiatura. In questo esempio viene usato il campo **SalesFact** > **Sentiment** e il valore più basso per il sentiment viene impostato su arancione, mentre quello più alto su blu. I valori compresi tra il valore massimo e minimo saranno caratterizzati da varie sfumature di arancione e blu. La figura nella parte inferiore della schermata mostra l'intervallo di colori che verrà usato. 
 
-    ![Riquadro Colore predefinito con l'opzione Sentiment selezionata](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+    ![Riquadro Colore predefinito con l'opzione Sentiment selezionata](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
-7. L'ombreggiatura applicata alla mappa colorata delle valutazioni è di colore verde e rosso, in cui il rosso rappresenta valori di valutazione inferiori e il verde valori superiori, corrispondenti a una valutazione più positiva.  Per visualizzare altri dettagli, trascinare un campo nell'area delle descrizioni comandi.  In questo caso è stato aggiunto il campo **Sentiment Gap** (Gap del sentiment) ed è stato evidenziato lo stato dell'Idaho (ID). Come si può vedere, il gap del sentiment è basso: 6.
-   ![mappa colorata che mostra le descrizioni comandi per l'Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+7. L'ombreggiatura applicata alla mappa colorata delle valutazioni è di colore verde e rosso, in cui il rosso rappresenta valori di valutazione inferiori e il verde valori superiori, corrispondenti a una valutazione più positiva.  Per visualizzare altri dettagli, trascinare un campo nell'area delle descrizioni comandi.  In questo esempio è stato aggiunto il campo **SalesFact** > **Sentiment gap**. L'evidenziazione dello stato dell'Idaho (ID) indica che il gap del sentiment è basso, ovvero 6.
+   ![mappa colorata che mostra le descrizioni comandi per l'Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
 10. [Salvare il report](../service-report-save.md).
 
-Power BI consente un ampio controllo sull'aspetto della mappa colorata. Sperimentare liberamente con questi controlli dei colori dei dati fino a ottenere l'aspetto desiderato. 
+Power BI consente un ampio controllo sull'aspetto della mappa colorata. Sperimentare con questi controlli per i colori dei dati fino a ottenere l'aspetto voluto. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Evidenziazione e filtro incrociato
 Per informazioni sull'uso del riquadro Filtri, vedere [Aggiungere un filtro a un report](../power-bi-report-add-filter.md).
 
-Evidenziando una località in una mappa colorata viene applicato il filtro incrociato con le altre visualizzazioni nella pagina del report e viceversa.
+Evidenziando una località in una mappa colorata viene applicato il filtro incrociato alle altre visualizzazioni nella pagina del report e viceversa.
 
 1. Per seguire la procedura, prima di tutto salvare il report selezionando **File > Salva**. 
 
@@ -118,19 +118,19 @@ Evidenziando una località in una mappa colorata viene applicato il filtro incro
 
    ![Mappa colorata aggiunta alla pagina Sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Selezionare uno stato nella mappa colorata.  Le altre visualizzazioni nella pagina vengono evidenziate e filtrate in modo incrociato. Selezionando **Texas**, ad esempio, si vedrà che il sentiment è 75 e che il Texas si trova nel Central District #23.   
-   ![Texas selezionato](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
+5. Selezionare uno stato nella mappa colorata.  Le altre visualizzazioni nella pagina vengono evidenziate e filtrate in modo incrociato. Selezionando **Texas**, ad esempio, vengono filtrate in modo incrociato le schede e viene evidenziato in modo incrociato il grafico a barre. Da questo si appura che il sentiment è 75 e che il Texas si trova nel Central District #23.   
+   ![Texas selezionato](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. Selezionare un punto dati nel grafico a linee VanArsdel - Sentiment by Month per filtrare la mappa colorata in modo da visualizzare i dati relativi a Sentiment per VanArsdel e non per la concorrenza.  
-   ![nuova ombreggiatura](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
+   ![nuova ombreggiatura](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 I dati delle mappe possono essere ambigui.  Ad esempio, Washington può corrispondere sia a un nome di città che di stato. I dati geografici sono probabilmente archiviati in colonne distinte, una per i nomi di città e una per i nomi di stati o province, di conseguenza Bing potrebbe non essere in grado di indicare a cosa si riferisce il nome Washington. Se il set di dati contiene già i dati relativi a latitudine e longitudine, Power BI include speciali campi per ovviare alle ambiguità dei dati delle mappe. È sufficiente trascinare il campo che contiene i dati relativi alla latitudine nell'area Visualizzazioni \> Latitudine e fare  altrettanto per i dati relativi alla longitudine.    
 
 ![Riquadri Visualizzazioni e Campi](media/power-bi-visualization-filled-maps-choropleths/pbi-latitude.png)
 
-Se si dispone delle autorizzazioni per modificare il set di dati in Power BI Desktop, guardare questo video per informazioni su come risolvere le ambiguità della mappa.
+Se sono disponibili le autorizzazioni per modificare il set di dati in Power BI Desktop, guardare questo video per informazioni su come risolvere le ambiguità della mappa.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allowfullscreen></iframe>
+[VIDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 Se i dati relativi a latitudine e longitudine non sono disponibili, ma si dispone dell'accesso per la modifica del set di dati, [seguire queste istruzioni per aggiornare il set di dati](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

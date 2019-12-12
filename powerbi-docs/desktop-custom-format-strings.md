@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1f049f8ba8c7808001b8566b1d10424a1b2ed1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3ec372a51177e5979cdfbca8408e11801aefb414
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878337"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791592"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Usare stringhe di formato personalizzate in Power BI Desktop
 
@@ -51,7 +51,6 @@ La tabella seguente mostra i **simboli di data** supportati:
 | _mm_ | 01-12 (mese dell'anno, con uno zero iniziale, a partire da gennaio = 01) |
 | _mmm_ | Visualizza i nomi dei mesi abbreviati (i nomi dei mesi Hijri non hanno abbreviazioni) |
 | _mmmm_ | Visualizza i nomi completi dei mesi |
-| _y_ | 1-366 (giorno dell'anno) |
 | _yy_ | 00-99 (ultime due cifre dell'anno) |
 | _yyyy_ | 100-9999 (anno a tre o quattro cifre) |
 
@@ -121,7 +120,6 @@ La tabella seguente identifica i caratteri che è possibile usare per creare **f
 | mm | Visualizzare il mese come numero con uno zero iniziale (01-12). Se m segue immediatamente h o hh, viene visualizzato il minuto anziché il mese. |
 | mmm | Visualizzare il nome del mese abbreviato (Gen–Dic). Localizzato. |
 | mmmm | Visualizzare il nome completo del mese (Gennaio-Dicembre). Localizzato. |
-| y | Visualizzare il giorno dell'anno sotto forma di numero (1-366). |
 | yy | Visualizzare l'anno come numero a 2 cifre (00-99). |
 | yyyy | Visualizzare l'anno come numero a 4 cifre (100-9999). |
 | h | Visualizzare l'ora sotto forma di numero senza zero iniziale (0-23). |
@@ -136,17 +134,17 @@ La tabella seguente identifica i caratteri che è possibile usare per creare **f
 
 | **Carattere** | **Descrizione** |
 | --- | --- |
-| Nessuno | Visualizzare il numero senza formattazione. |
+| Nessuna | Visualizzare il numero senza formattazione. |
 | ( **0** ) | Segnaposto della cifra. Visualizzare una cifra o uno zero. Se nell'espressione è presente una cifra nella posizione del valore 0 nella stringa di formato, visualizzarla; in caso contrario, visualizzare uno zero. Se il numero include meno cifre del numero di zeri presenti (in entrambi i lati del decimale) nell'espressione di formato, visualizzare zeri iniziali o finali. Se il numero ha più cifre a destra del separatore decimale del numero di zeri a destra del separatore decimale nell'espressione di formato, arrotondare il numero al numero di cifre decimali corrispondente al numero di zeri. Se il numero ha più cifre a sinistra del separatore decimale del numero di zeri a sinistra del separatore decimale nell'espressione di formato, visualizzare le cifre aggiuntive senza alcuna modifica. |
 | ( **#** ) | Segnaposto della cifra. Visualizzare una cifra o nessun elemento. Se nell'espressione è presente una cifra nella posizione di # nella stringa di formato, visualizzarla; in caso contrario, non visualizzare alcun elemento. Questo simbolo viene usato allo stesso modo del segnaposto 0 cifre, ad eccezione del fatto che gli zeri iniziali e finali non vengono visualizzati se il numero ha un numero di cifre uguale o inferiore al numero di caratteri # in entrambi i lati del separatore decimale nell'espressione di formato. |
 | ( **.** ) | Segnaposto decimale. In alcune impostazioni locali viene usata la virgola come separatore decimale. Il segnaposto decimale determina il numero di cifre visualizzate a sinistra e a destra del separatore decimale. Se l'espressione di formato contiene solo cancelletti a sinistra di questo simbolo, i numeri inferiori a 1 iniziano con un separatore decimale. Per visualizzare uno zero iniziale con i numeri frazionari, usare 0 come primo segnaposto di cifra a sinistra del separatore decimale. Il carattere effettivo usato come segnaposto decimale nell'output formattato dipende dal formato numerico riconosciuto dal sistema. |
-| ( **%)** | Segnaposto percentuale. L'espressione viene moltiplicata per 100. Il carattere di percentuale ( **%** ) viene inserito nella posizione in cui viene visualizzato nella stringa di formato. |
+| (**%)** | Segnaposto percentuale. L'espressione viene moltiplicata per 100. Il carattere di percentuale ( **%** ) viene inserito nella posizione in cui viene visualizzato nella stringa di formato. |
 | ( **,** ) | Separatore delle migliaia. In alcune impostazioni locali viene usato il punto come separatore delle migliaia. Il separatore delle migliaia separa le migliaia dalle centinaia all'interno di un numero con quattro o più posizioni a sinistra del separatore decimale. L'utilizzo standard del separatore delle migliaia viene specificato se il formato contiene un separatore delle migliaia racchiuso tra segnaposto di cifra ( **0** oppure **#** ). Due separatori delle migliaia adiacenti o un separatore delle migliaia immediatamente a sinistra del separatore decimale (indipendentemente dal fatto che sia specificato un decimale) indica il &quot;ridimensionamento del numero tramite divisione per 1000 con eventuale arrotondamento&quot;. Ad esempio, è possibile usare la stringa di formato &quot;##0,,&quot; per rappresentare 100 milioni come 100. I numeri inferiori a 1 milione vengono visualizzati come 0. Due separatori delle migliaia adiacenti in una posizione diversa dalla posizione immediatamente a sinistra del separatore decimale vengono considerati semplicemente la specifica dell'utilizzo di un separatore delle migliaia. Il carattere effettivo usato come segnaposto delle migliaia nell'output formattato dipende dal formato numerico riconosciuto dal sistema. |
 | ( **:** ) | Separatore dell'ora. In alcune impostazioni locali potrebbero essere usati altri caratteri per rappresentare il separatore dell'ora. Il separatore dell'ora separa le ore, i minuti e i secondi quando vengono formattati i valori di ora. Il carattere effettivo usato come separatore dell'ora nell'output formattato è determinato dalle impostazioni di sistema. |
 | ( **/** ) | Separatore della data. In alcune impostazioni locali potrebbero essere usati altri caratteri per rappresentare il separatore della data. Il separatore di data separa il giorno, il mese e l'anno in cui vengono formattati i valori di data. Il carattere effettivo usato come separatore della data nell'output formattato è determinato dalle impostazioni di sistema. |
 | ( **E- E+ e- e+** ) | Formato scientifico. Se l'espressione di formato contiene almeno un segnaposto di cifra ( **0** oppure **#** ) a destra di E-, E+, e- o e+, il numero viene visualizzato in formato scientifico e viene inserito E o e tra il numero e il relativo esponente. Il numero di segnaposti di cifra a destra determina il numero di cifre nell'esponente. Usare E- o e- per inserire un segno meno accanto agli esponenti negativi. Usare E+ o e+ per inserire un segno meno accanto agli esponenti negativi e un segno più accanto agli esponenti positivi. |
 | **- + $**  ( ) | Visualizzare un carattere letterale. Per visualizzare un carattere diverso da uno di quelli elencati, farlo precedere da una barra rovesciata (\) o racchiuderlo tra virgolette doppie (&quot; &quot;). |
-| ( * *\** ) | Visualizzare il carattere successivo nella stringa di formato. Per visualizzare un carattere che ha un significato speciale come carattere letterale, farlo precedere da una barra rovesciata (\). La barra rovesciata non viene visualizzata. L'uso di una barra rovesciata equivale a racchiudere il carattere successivo tra virgolette doppie. Per visualizzare una barra rovesciata, usare due barre rovesciate (\\). I caratteri di formattazione di data e ora (a, c, d, h, m, n, p, q, s, t, w, y, / e :), i caratteri di formattazione numerica (#, 0, %, E, e, virgola e punto) e il caratteri di formattazione di stringa (@, &amp;, \&lt;, \&gt; e !) sono esempi di caratteri che possono essere visualizzati come caratteri letterali. |
+| ( **\** ) | Visualizzare il carattere successivo nella stringa di formato. Per visualizzare un carattere che ha un significato speciale come carattere letterale, farlo precedere da una barra rovesciata (\). La barra rovesciata non viene visualizzata. L'uso di una barra rovesciata equivale a racchiudere il carattere successivo tra virgolette doppie. Per visualizzare una barra rovesciata, usare due barre rovesciate (\\). I caratteri di formattazione di data e ora (a, c, d, h, m, n, p, q, s, t, w, / e :), i caratteri di formattazione numerica (#, 0, %, E, e, virgola e punto) e il caratteri di formattazione di stringa (@, &amp;, \&lt;, \&gt; e !) sono esempi di caratteri che non possono essere visualizzati come caratteri letterali. |
 | (&quot;ABC&quot;) | Visualizzare la stringa racchiusa tra virgolette doppie (&quot; &quot;). |
 
 

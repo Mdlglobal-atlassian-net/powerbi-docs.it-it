@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870853"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791797"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Introduzione all'oggetto visivo Domande e risposte di Power BI
 
@@ -93,6 +93,10 @@ Se non si è certi del tipo di domande da porre o della terminologia da usare, e
 6. L'oggetto visivo verrà ora modificato in un istogramma. 
 
     ![Oggetto visivo Domande e risposte con "come istogramma" aggiunto alla domanda](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  Aggiungere altri oggetti visivi alla pagina del report e vedere in che modo l'oggetto visivo Domande e risposte interagisce con gli altri oggetti visivi nella pagina. In questo esempio, l'oggetto visivo Domande e risposte ha applicato un filtro incrociato al grafico a linee e alla mappa e l'evidenziazione incrociata al grafico a barre.
+
+    ![Oggetto visivo Domande e risposte con una barra selezionata e l'impatto sugli altri tre oggetti visivi nella pagina del report](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>Formattare e personalizzare l'oggetto visivo Domande e risposte
 L'oggetto visivo Domande e risposte può essere personalizzato usando il riquadro di formattazione e applicando un tema. 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876731"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907949"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Aggregazioni in Power BI Desktop
 
@@ -29,7 +29,7 @@ L'elenco seguente indica i vantaggi derivanti dall'utilizzo delle **aggregazioni
 * **Creazione di architetture bilanciate**: la cache in memoria di Power BI gestisce le query aggregate in modo efficace. Le query inviate all'origine dati in modalità DirectQuery sono limitate per facilitare il rispetto dei limiti di concorrenza. Le query che vengono accettate tendono ad essere query di livello transazionale filtrate che vengono, generalmente, gestite correttamente dai sistemi per big data e dai data warehouse.
 
 ### <a name="table-level-storage"></a>Archiviazione a livello di tabella
-L'archiviazione a livello di tabella viene in genere usata insieme alla funzionalità di aggregazione. Vedere l'articolo [Modalità di archiviazione in Power BI Desktop](desktop-storage-mode.md) per altre informazioni.
+L'archiviazione a livello di tabella viene in genere usata insieme alla funzionalità di aggregazione. Per altre informazioni, vedere l'articolo [Modalità di archiviazione in Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Tipi di origini dati
 Le aggregazioni vengono usate con origini dati che rappresentano modelli dimensionali, ad esempio data warehouse, data mart e origini Big Data basate su Hadoop. Questo articolo descrive le comuni differenze di modellazione in Power BI per ogni tipo di origine dati.
@@ -92,7 +92,7 @@ Un relazione *tra origini diverse* è considerata forte esclusivamente se entram
 
 Per i riscontri di aggregazione *tra origini diverse* che non dipendono da relazioni, vedere più avanti la sezione sulle aggregazioni basate su colonne Group-By.
 
-### <a name="aggregation-tables-are-not-addressable"></a>Tabelle di aggregazione non direttamente accessibili
+### <a name="aggregation-tables-arent-addressable"></a>Tabelle di aggregazione non direttamente accessibili
 Gli utenti con accesso in sola lettura al set di dati non possono eseguire query sulle tabelle di aggregazione. In questo modo si evitano problemi di sicurezza quando vengono usate con la sicurezza a livello di riga. I consumer e le query fanno riferimento alla tabella dettagli, non alla tabella di aggregazione. Non è nemmeno necessario che siano a conoscenza dell'esistenza della tabella di aggregazione.
 
 Per questo motivo, la tabella **Sales Agg** deve essere nascosta. Se non lo è, la finestra di dialogo Gestisci aggregazioni la imposterà come nascosta quando si fa clic sul pulsante Applica tutto.
@@ -184,7 +184,7 @@ In alcuni casi, la funzione DISTINCTCOUNT può trarre vantaggio dalle aggregazio
 ### <a name="rls"></a>RLS
 Per il corretto funzionamento, le espressioni di sicurezza a livello di riga devono filtrare sia la tabella di aggregazione, sia la tabella dei dettagli. Come illustrato nell'esempio, un'espressione di sicurezza a livello di riga sulla tabella **Geography** funzionerà perché Geography è presente sul lato del filtro delle relazioni sia con la tabella **Sales** che con la tabella **Sales Agg**. La sicurezza a livello di riga verrà applicata correttamente alle query che raggiungono la tabella di aggregazione e a quelle che non la raggiungono.
 
-![gestione dei ruoli nelle aggregazioni](media/desktop-aggregations/manage-roles.jpg)
+![gestione dei ruoli nelle aggregazioni](media/desktop-aggregations/manage-roles.png)
 
 Un'espressione di sicurezza a livello di riga sulla tabella **Product** filtra soltanto la tabella **Sales**, non la tabella **Sales Agg**. Questa operazione non è consigliata. Le query inviate dagli utenti che accedono al set di dati con questo ruolo non trarranno vantaggio dai riscontri di aggregazione. Dal momento che la tabella di aggregazione è semplicemente un'altra rappresentazione degli stessi dati presenti nella tabella dei dettagli, rispondere alle query dalla tabella di aggregazione non è un'operazione sicura perché il filtro della sicurezza a livello di riga non può essere applicato.
 

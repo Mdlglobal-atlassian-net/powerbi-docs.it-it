@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871747"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699096"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
 Con lo streaming in tempo reale di Power BI, è possibile trasmettere i dati e aggiornare i dashboard in tempo reale. Gli oggetti visivi o i dashboard che possono essere creati in Power BI possono essere creati anche per visualizzare e aggiornare gli oggetti visivi e i dati in tempo reale. I dispositivi e le origini dei dati in streaming possono essere sensori factory, origini di social media, metriche di utilizzo del servizio e qualsiasi altra origine da cui si possano raccogliere o trasmettere dati per i quali i tempi sono importanti.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![Screenshot che mostra i risultati dei sensori ambientali in tempo reale.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Questo articolo mostra come configurare il set di dati in streaming in tempo reale in Power BI. Ma prima di arrivarci, è importante conoscere i tipi di set di dati in tempo reale che sono progettati per la visualizzazione in riquadri (e dashboard) e le differenze tra questi set di dati.
 
@@ -198,7 +198,7 @@ In questo esempio verrà usato un flusso disponibile pubblicamente di **PubNub**
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Tornare all'area di lavoro di Power BI, creare un nuovo dashboard, quindi aggiungere un riquadro. Se necessario, vedere i passaggi descritti in precedenza. Questa volta, quando si crea un riquadro e si seleziona **Dati in streaming personalizzati**, verrà visualizzato un set di dati in streaming su cui lavorare. Proseguire ed esplorare le funzionalità. Se si aggiunge il campo *numero* ai grafici a linee e si aggiungono altri riquadri, è possibile ottenere un dashboard in tempo reale simile al seguente:
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![Screenshot che mostra i risultati dei sensori ambientali in tempo reale.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Provare a eseguire qualche attività con il set di dati di esempio. Passare quindi alla creazione dei set di dati e alla trasmissione di dati in tempo reale in Power BI.
 

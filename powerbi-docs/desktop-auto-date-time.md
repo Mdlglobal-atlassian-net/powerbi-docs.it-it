@@ -8,20 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7453854376923fbb55376182a8674e5f3d7d1b63
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878788"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696165"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Data/ora automatica in Power BI Desktop
 
-Questo articolo è destinato a esperti di modellazione di dati che sviluppano modelli di importazione o compositi in Power BI Desktop.
+Questo articolo è destinato a esperti di modellazione di dati che sviluppano modelli di importazione o compositi in Power BI Desktop. Introduce e descrive l'opzione _Data/ora automatica_.
 
-## <a name="background"></a>Sfondo
-
-_Data/ora automatica_ è un'opzione di caricamento dati disponibile in Power BI Desktop. Questa opzione facilita la creazione di report con funzionalità di Business Intelligence per le gerarchie temporali sulla base delle colonne della data caricate in un modello. In particolare, consente agli autori di report di filtrare, raggruppare ed eseguire il drill-down usando periodo di tempo di calendario senza richiedere all'esperto di modellazione di svilupparli in modo esplicito. I periodi di tempo del calendario includono anni, trimestri, mesi e giorni.
+Data/ora automatica è un'opzione di caricamento dati disponibile in Power BI Desktop. Questa opzione facilita la creazione di report con funzionalità di Business Intelligence per le gerarchie temporali sulla base delle colonne della data caricate in un modello. In particolare, consente agli autori di report che usano il modello di dati di filtrare, raggruppare ed eseguire il drill-down usando periodi di tempo del calendario (anni, trimestri, mesi e giorni). L'aspetto importante è che non è necessario sviluppare in modo esplicito queste funzionalità di Business Intelligence per le gerarchie temporali.
 
 Quando l'opzione è abilitata, Power BI Desktop crea una tabella di data/ora automatica nascosta per ogni colonna della data, purché siano soddisfatte tutte le condizioni seguenti:
 
@@ -34,11 +32,11 @@ Quando l'opzione è abilitata, Power BI Desktop crea una tabella di data/ora aut
 Ogni tabella di data/ora automatica è di fatto una [tabella calcolata](desktop-calculated-tables.md) che genera righe di dati tramite la funzione [CALENDAR](/dax/calendar-function-dax) di DAX. Ogni tabella include anche sei colonne calcolate: **Giorno**, **NumMese**, **Mese**, **NumTrimestre**, **Trimestre** e **Anno**.
 
 > [!NOTE]
-> I nomi e i valori delle colonne vengono convertiti e formattati in base alla [lingua del modello](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
+> Power BI converte e formatta i nomi e i valori delle colonne in base alla [lingua del modello](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
 
-Viene inoltre creata una relazione tra la colonna **Data** della tabella di data/ora automatica e la colonna della data del modello.
+Power BI Desktop crea anche una relazione tra la colonna **Data** della tabella di data/ora automatica e la colonna della data del modello.
 
-La tabella di data/ora automatica viene caricata con gli anni di calendario completi che comprendono tutti i valori di data archiviati nella colonna della data del modello. Se, ad esempio, il primo valore in una colonna della data è il 20 marzo 2016 e l'ultimo valore è il 23 ottobre 2019, la tabella conterrà 1.461 righe. Rappresenta una riga per ogni data nei quattro anni di calendario compresi tra il 2016 e il 2019. Se si aggiorna il modello, viene aggiornata anche ogni tabella di data/ora automatica per assicurarsi che contenga sempre le date che includono i valori delle colonne della data.
+La tabella di data/ora automatica contiene gli anni di calendario completi che comprendono tutti i valori di data archiviati nella colonna della data del modello. Ad esempio, se il primo valore in una colonna della data è il 20 marzo 2016 e l'ultimo valore è il 23 ottobre 2019, la tabella conterrà 1.461 righe. Rappresenta una riga per ogni data nei quattro anni di calendario compresi tra il 2016 e il 2019. Quando Power BI aggiorna il modello, viene aggiornata anche ogni tabella di data/ora automatica per assicurarsi che contenga le date che includono i valori delle colonne della data.
 
 Se fosse possibile visualizzare le righe di una tabella di data/ora automatica, l'aspetto sarebbe simile al seguente:
 
@@ -61,11 +59,11 @@ Quando esiste una tabella di data/ora automatica per una colonna della data (e t
 
 La gerarchia generata di data/ora automatica può essere usata per configurare un oggetto visivo in modo analogo alle normali gerarchie. È possibile configurare gli oggetti visivi usando l'intera gerarchia di **Gerarchia data** o livelli specifici della gerarchia.
 
-È però disponibile una funzionalità aggiunta, non supportata dalle normali gerarchie. Quando si aggiunge la gerarchia di data/ora automatica, o un livello della gerarchia, a un oggetto visivo, l'autore del report può scegliere di usare alternativamente la gerarchia o la colonna della data. Questo approccio è utile per alcuni oggetti visivi, quando è necessario solo la colonna della data e non la gerarchia e i relativi livelli. Per iniziare, configurare il campo dell'oggetto visivo (fare clic con il pulsante destro del mouse sul campo dell'oggetto visivo oppure fare clic sulla freccia verso il basso) e quindi usare il menu di scelta rapida per passare dalla colonna della data a Gerarchia data e viceversa.
+È però disponibile una funzionalità aggiunta, non supportata dalle normali gerarchie. Quando si aggiunge la gerarchia di data/ora automatica, o un livello della gerarchia, a un oggetto visivo, l'autore del report può scegliere di usare alternativamente la gerarchia o la colonna della data. Questo approccio è utile per alcuni oggetti visivi, quando è necessaria solo la colonna della data e non la gerarchia e i relativi livelli. Per iniziare, configurare il campo dell'oggetto visivo (fare clic con il pulsante destro del mouse sul campo dell'oggetto visivo oppure fare clic sulla freccia verso il basso) e quindi usare il menu di scelta rapida per passare dalla colonna della data alla gerarchia e viceversa.
 
 ![Esempio di configurazione di un campo oggetto visivo per la gerarchia OrderDate. Nel menu di scelta rapida aperto sono visualizzate due opzioni che consentono di usare alternativamente la colonna OrderDate o Gerarchia data.](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 
-I calcoli del modello, scritti in DAX, possono infine fare riferimento direttamente a una colonna della data o alle colonne nascoste della tabella di data/ora automatica.
+I calcoli del modello, scritti in DAX, possono infine fare riferimento _direttamente_ a una colonna della data o _indirettamente_ alle colonne nascoste della tabella di data/ora automatica.
 
 La formula scritta in Power BI Desktop può fare riferimento a una colonna della data nel modo consueto. Per fare riferimento alle colonne della tabella di data/ora automatica, è invece necessario usare una speciale sintassi estesa. Per iniziare, fare riferimento alla colonna della data e quindi aggiungere un punto (.) dopo di essa. La funzionalità di completamento automatico della barra della formula consentirà quindi di selezionare una colonna della tabella di data/ora automatica.
 
@@ -89,7 +87,7 @@ Anche l'opzione relativa al file corrente può essere attivata o disattivata in 
 > [!CAUTION]
 > Prestare attenzione quando si disattiva l'opzione relativa al file corrente, in quanto implica la rimozione delle tabelle di data/ora automatica. Assicurarsi di correggere eventuali filtri di report danneggiati o gli oggetti visivi che sono stati configurati per usarli.
 
-In Power BI Desktop selezionare _File > Opzioni e impostazioni > Opzioni_ e quindi selezionare la pagina **Globale** o **File corrente**. In una delle due pagine l'opzione è disponibile nella sezione **Funzionalità di Business Intelligence per le gerarchie temporali**.
+In Power BI Desktop selezionare _File > Opzioni e impostazioni > Opzioni_ e quindi selezionare la pagina **Globale** o **File corrente**. In entrambe le pagine l'opzione è disponibile nella sezione **Funzionalità di Business Intelligence per le gerarchie temporali**.
 
 ![Configurazione delle opzioni di Power BI Desktop. La pagina Caricamento dati del gruppo GLOBALE è selezionata. Nella sezione Funzionalità di Business Intelligence per le gerarchie temporali l'opzione Data/ora automatica per nuovi file è selezionata.](media/desktop-auto-date-time/auto-date-time-configure-global-options.png)
 

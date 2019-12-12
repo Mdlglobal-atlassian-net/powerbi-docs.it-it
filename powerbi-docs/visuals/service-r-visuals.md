@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b947fe3f2faf423a7b2ced4d0032578ded015f7a
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099870"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698993"
 ---
 # <a name="r-visuals-in-power-bi"></a>Oggetti visivi R in Power BI
 Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per altre informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R](../desktop-r-visuals.md).
@@ -94,6 +94,11 @@ Gli oggetti visivi R nel servizio Power BI presentano alcune limitazioni:
 * Gli oggetti visivi R non vengono visualizzati quando si usa l'opzione **Pubblica sul Web**.
 * Gli oggetti visivi R attualmente non vengono stampati quando si esegue la stampa di dashboard e report.
 * Gli oggetti visivi R non sono attualmente supportati nella modalità DirectQuery di Analysis Services.
+* Gli oggetti visivi R possono convertire le etichette di testo in elementi grafici. Per eseguire questa operazione nel servizio Power BI, è necessario eseguire questo passaggio aggiuntivo:
+  
+  * Aggiungere la riga seguente all'inizio dello script R:
+    
+        powerbi_rEnableShowText =  1
 * Per il corretto funzionamento dei tipi di carattere cinesi, giapponesi e coreani nel servizio Power BI è necessario eseguire le operazioni aggiuntive seguenti:
   
   * Installare innanzitutto il pacchetto R *showtext* e tutte le relative dipendenze È possibile farlo eseguendo lo script seguente:

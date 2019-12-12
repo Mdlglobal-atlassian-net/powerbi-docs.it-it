@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/22/2019
-ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874773"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831252"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginazione dei report impaginati in Power BI
 
- La paginazione indica il numero di pagine in un report e il modo in cui gli elementi del report vengono disposti in tali pagine. La paginazione nei report impaginati di Power BI varia a seconda dell'estensione per il rendering usata per visualizzare e distribuire il report. Quando nel server di report si esegue un report, quest'ultimo usa il renderer HTML. Il codice HTML segue un set di regole di impaginazione specifico. Se si esporta lo stesso report in formato PDF, ad esempio, viene usato il renderer PDF e viene applicato un set di regole diverso e di conseguenza il report viene impaginato in modo diverso. Per progettare in modo corretto un report di facile lettura ottimizzato per il renderer da usare per distribuire il report stesso, è necessario conoscere le regole usate per controllare la paginazione dei report impaginati in Power BI.  
+ Il termine *paginazione* si riferisce al numero di pagine di un report e alla disposizione degli elementi del report in tali pagine. La paginazione nei report impaginati di Power BI varia a seconda dell'estensione per il rendering usata per visualizzare e distribuire il report. Quando nel server di report si esegue un report, quest'ultimo usa il renderer HTML. Il codice HTML segue un set di regole di impaginazione specifico. Se si esporta lo stesso report in formato PDF, ad esempio, si userà il renderer PDF, che usa un set di regole diverso. Il report viene quindi impaginato in modo diverso. È necessario comprendere le regole usate per controllare la paginazione nei report impaginati di Power BI. È quindi possibile progettare correttamente un report di facile lettura ottimizzato per il renderer che si intende usare per recapitare il report.  
   
- Questo argomento descrive l'impatto delle dimensioni della pagina fisica e del layout del report sul modo in cui i renderer di interruzione di pagina manuale eseguono il rendering del report. È possibile impostare le proprietà per modificare le dimensioni e i margini delle pagine fisiche e dividere il report in colonne usando il riquadro **Proprietà report**, il riquadro **Proprietà** o la finestra di dialogo **Imposta pagina**. Per accedere al riquadro **Proprietà report**, fare clic sull'area blu all'esterno del corpo del report. Per accedere alla finestra di dialogo **Imposta pagina**, fare clic sulla scheda **Esegui** nella scheda Home e quindi fare clic su **Imposta pagina** nella scheda Esegui.  
+ Questo argomento descrive l'impatto delle dimensioni della pagina fisica e del layout del report sul modo in cui i renderer interruzione di pagina manuale eseguono il rendering del report. È possibile impostare le proprietà per modificare le dimensioni e i margini delle pagine fisiche e dividere il report in colonne. Usare il riquadro **Proprietà report**, il riquadro **Proprietà** o la finestra di dialogo **Imposta pagina**. Per accedere al riquadro **Proprietà report**, fare clic sull'area blu all'esterno del corpo del report. Per accedere alla finestra di dialogo **Imposta pagina**, fare clic sulla scheda **Esegui** nella scheda Home e quindi fare clic su **Imposta pagina** nella scheda Esegui.  
   
 > [!NOTE]  
 >  Se un report è stato progettato in modo con le dimensioni di una pagina, ma il rendering viene eseguito su più pagine, verificare che la larghezza del corpo del report, inclusi i margini, non sia maggiore della larghezza della pagina fisica. Per impedire l'aggiunta di pagine vuote al report, è possibile ridurre le dimensioni del contenitore trascinando l'angolo del contenitore verso sinistra.  
@@ -30,9 +30,9 @@ ms.locfileid: "73874773"
  È possibile formattare il corpo del report con un colore, uno stile e uno spessore del bordo. È anche possibile aggiungere un colore e un'immagine di sfondo.  
   
 ## <a name="the-physical-page"></a>Pagina fisica  
- Le dimensioni della pagina fisica corrispondono al formato della carta che controlla la modalità di rendering del report. Nei report di cui viene eseguito il rendering in formati di interruzioni di pagina manuale, le interruzioni vengono inserite orizzontalmente e verticalmente in base alle dimensioni della pagina fisica per offrire un'esperienza di lettura ottimizzata quando vengono stampati o visualizzati in un formato di file con interruzione di pagina manuale. Nei report di cui viene eseguito il rendering in formati di interruzioni di pagina automatiche, le interruzioni di pagina vengono inserite orizzontalmente in base alle dimensioni fisiche per offrire un'esperienza di lettura ottimizzata quando vengono visualizzati un Web browser.  
+ Le dimensioni della pagina fisica corrispondono al formato della carta che controlla la modalità di rendering del report. I report di cui viene eseguito il rendering in formati con interruzioni di pagina manuali inseriscono le interruzioni di pagina orizzontalmente e verticalmente in base alle dimensioni fisiche della pagina. Queste interruzioni di pagina offrono un'esperienza di lettura ottimizzata quando vengono stampate o visualizzate in un formato di file con interruzioni di pagina manuali. I report di cui viene eseguito il rendering in formati con interruzioni di pagina automatiche inseriscono le interruzioni di pagina orizzontalmente in base alle dimensioni fisiche. Anche in questo caso, le interruzioni di pagina offrono un'esperienza di lettura ottimizzata quando vengono visualizzate in un Web browser.  
   
- Per impostazione predefinita, le dimensioni della pagina sono 21,60 x 27,95 cm, ma è possibile modificarle nel riquadro **Proprietà report** o nella finestra di dialogo **Imposta proprietà** cambiando le proprietà PageHeight e PageWidth nel riquadro **Proprietà**. Le dimensioni della pagina non vengono aumentate o ridotte per adattarsi al contenuto del corpo del report. Se si desidera che il report venga visualizzato in una sola pagina, tutto il contenuto del corpo del report deve corrispondere alle dimensioni della pagina fisica. Se tali dimensioni non sono sufficienti e si usa il formato di interruzione di pagina manuale,per il report sono necessarie pagine aggiuntive. Se il corpo del report si estende oltre il bordo destro della pagina fisica, viene inserita un'interruzione di pagina orizzontale. Se il corpo del report si estende oltre il bordo inferiore della pagina fisica, viene inserita un'interruzione di pagina verticale.  
+ Per impostazione predefinita, le dimensioni della pagina sono 21,60 x 27,95 cm, ma è possibile modificarle nel riquadro **Proprietà report** o nella finestra di dialogo **Imposta proprietà** cambiando le proprietà PageHeight e PageWidth nel riquadro **Proprietà**. Le dimensioni della pagina non vengono aumentate o ridotte per adattarsi al contenuto del corpo del report. Se si desidera che il report venga visualizzato in una sola pagina, tutto il contenuto del corpo del report deve corrispondere alle dimensioni della pagina fisica. Se tali dimensioni non sono sufficienti e si usa il formato di interruzione di pagina manuale, per il report saranno necessarie pagine aggiuntive. Se il corpo del report si estende oltre il bordo destro della pagina fisica, viene inserita un'interruzione di pagina orizzontale. Se il corpo del report si estende oltre il bordo inferiore della pagina fisica, viene inserita un'interruzione di pagina verticale.  
   
  Se si intende ignorare le dimensioni della pagina fisica definite nel report, è possibile specificare le dimensioni della pagina fisica tramite le impostazioni relative alle informazioni sul dispositivo per il renderer specifico usato per esportare il report. Per un elenco completo, vedere [Impostazioni relative alle informazioni sul dispositivo per le estensioni di rendering](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017) nella documentazione di SQL Server Reporting Services.  
   
@@ -40,7 +40,7 @@ ms.locfileid: "73874773"
 
  I margini vengono tracciati dal bordo delle dimensioni della pagina fisica verso l'interno fino all'impostazione di margine specificata. Se un elemento del report si estende nell'area del margine, viene tagliato in modo che l'area sovrapposta non venga sottoposta a rendering. Se si specificano le dimensioni dei margini che determinano una larghezza orizzontale o verticale della pagina uguale a zero, i valori del margine sono pari a zero per impostazione predefinita. I margini vengono specificati nel riquadro **Proprietà report** o nella finestra di dialogo **Imposta pagina** oppure modificando le proprietà TopMargin, BottomMargin, LeftMargin e RightMargin nel riquadro **Proprietà**. Se si intende ignorare le dimensioni dei margini fisica definite nel report, è possibile specificare le dimensioni dei margini tramite le impostazioni relative alle informazioni sul dispositivo per il renderer specifico usato per esportare il report.  
   
- L'area della pagina fisica rimanente dopo l'allocazione dello spazio per margini, spaziatura delle colonne, intestazione e piè di pagina, è denominata *area utilizzabile della pagina*. I margini vengono applicati solo quando si esegue il rendering e si stampano report nei formati di interruzione di pagina manuale. L'immagine seguente indica il margine e l'area utilizzabile di una pagina fisica.  
+ L'area della pagina fisica rimanente dopo l'allocazione dello spazio per margini, spaziatura delle colonne, intestazione e piè di pagina, è denominata *area utilizzabile della pagina*. I margini vengono applicati solo quando si esegue il rendering e si stampano report nei formati del renderer interruzione di pagina manuale. L'immagine seguente indica il margine e l'area utilizzabile di una pagina fisica.  
   
 ![Pagina fisica con margini e area utilizzabile](media/paginated-reports-pagination/power-bi-paginated-rs-page-margins.png) 
   
@@ -87,6 +87,6 @@ ms.locfileid: "73874773"
   
 ## <a name="next-steps"></a>Passaggi successivi
 
-[Visualizzare un report impaginato nel servizio Power BI](paginated-reports-view-power-bi-service.md)
+[Visualizzare un report impaginato nel servizio Power BI](consumer/paginated-reports-view-power-bi-service.md)
 
 Altre domande? [Provare la community di Power BI](https://community.powerbi.com/)

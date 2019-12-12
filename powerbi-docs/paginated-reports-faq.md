@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874817"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831223"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Report impaginati in Power BI: DOMANDE FREQUENTI 
 
@@ -116,21 +116,7 @@ Viene visualizzato un messaggio di errore se si prova a caricare un file con una
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>Quali origini dati sono attualmente supportate per i report impaginati?
 
-Sono supportate le origini dati seguenti: 
-
-- Set di dati di Power BI (tramite Single Sign-On (SSO))
-- Azure Analysis Services (tramite Single Sign-On (SSO) e oAuth)
-- Azure SQL Data Warehouse
-- Database SQL di Azure (nome utente/password, SSO e oAuth)
-- Istanza gestita di SQL di Azure tramite endpoint pubblico (nome utente/password)
-- SQL Server*
-- Modelli tabulari (DAX) e multidimensionali (MDX) di SQL Server Analysis Services (SSAS)* 
-- Oracle* 
-- Teradata* 
-
-* è richiesto il gateway locale.
-
-Quando si accede a SSAS tramite il gateway, l'utente con le credenziali archiviate deve avere autorizzazioni con privilegi elevati in SSAS per lavorare tramite il gateway.
+Per un elenco di origini dati, vedere l'articolo [Origini dati supportate per i report impaginati di Power BI](paginated-reports-data-sources.md). 
 
 ### <a name="what-authentication-methods-do-you-support"></a>Quali metodi di autenticazione sono supportati?
 

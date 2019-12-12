@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061892"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696443"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Aggiungere interattività negli oggetti visivi tramite le selezioni degli oggetti visivi di Power BI
 
@@ -35,11 +35,11 @@ export interface ISelectionId {
 
 ## <a name="how-to-use-selectionmanager-to-select-data-points"></a>Come usare SelectionManager per selezionare i punti dati
 
-L'oggetto host dell'oggetto visivo offre il metodo per la creazione dell'istanza di gestione selezione. La gestione selezione è responsabile di selezionare, annullare la selezione, visualizzare il menu di scelta rapida, archiviare le selezioni correnti e verificare lo stato della selezione. La gestione selezione ha anche i metodi corrispondenti per queste azioni.
+L'oggetto host dell'oggetto visivo fornisce il metodo per la creazione di un'istanza di gestione selezione. La gestione selezione è responsabile di selezionare, annullare la selezione, visualizzare il menu di scelta rapida, archiviare le selezioni correnti e verificare lo stato della selezione. La gestione selezione ha anche i metodi corrispondenti per queste azioni.
 
-### <a name="create-instance-of-selection-manager"></a>Creare un'istanza di gestione selezione
+### <a name="create-an-instance-of-the-selection-manager"></a>Creare un'istanza della gestione selezione
 
-Per usare la gestione selezione è necessario creare la relativa istanza. Gli oggetti visivi creano in genere l'istanza di gestione selezione nell'elemento `constructor` dell'oggetto visivo.
+Per usare la gestione selezione è necessario creare la relativa istanza. Gli oggetti visivi creano in genere un'istanza di gestione selezione nell'elemento `constructor` dell'oggetto visivo.
 
 ```typescript
 export class Visual implements IVisual {
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>Creare un'istanza del generatore di selezione
+### <a name="create-an-instance-of-the-selection-builder"></a>Creare un'istanza del generatore di selezione
 
 Quando viene creata l'istanza di gestione selezione, è necessario creare `selections` per ogni punto dati dell'oggetto visivo. L'oggetto host dell'oggetto visivo offre il metodo `createSelectionIdBuilder` per generare la selezione per ogni punto dati. Questo metodo restituisce l'istanza dell'oggetto con l'interfaccia `powerbi.visuals.ISelectionIdBuilder`:
 
@@ -74,14 +74,14 @@ export interface ISelectionIdBuilder {
 Questo oggetto ha metodi corrispondenti per creare `selections` per diversi tipi di mapping di visualizzazione dati.
 
 > [!NOTE]
-> I metodi `withTable`, `withMatrixNode` sono stati introdotti nell'API 2.5.0 degli oggetti visivi di Power BI.
-> Se è necessario usare le selezioni per i mapping di visualizzazione dati di tabella o di matrice, è necessario aggiornare l'API alla versione 2.5.0 o successive.
+> I metodi `withTable` e `withMatrixNode` sono stati introdotti nell'API 2.5.0 degli oggetti visivi di Power BI.
+> Se è necessario usare le selezioni per i mapping di visualizzazione dati di tabella o di matrice, è necessario aggiornare l'API alla versione 2.5.0 o successiva.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>Creare selezioni per il mapping di visualizzazione dati categorica
 
 Esaminiamo il modo in cui le selezioni vengono rappresentate nel mapping di visualizzazione dati categorica per il set di dati di esempio:
 
-| Manafacturer | Tipo | Valore |
+| Produttore | Tipo | Valore |
 | - | - | - |
 | Chrysler | Domestic Car | 28883 |
 | Chrysler | Domestic Truck | 117131 |
@@ -155,13 +155,13 @@ L'oggetto visivo usa il mapping di visualizzazione dati seguente:
 }
 ```
 
-Nell'esempio `Manafacturer` è `columns` e `Type` è `rows`. Sono presenti serie create da valori di raggruppamenti per `rows` (`Type`).
+Nell'esempio `Manufacturer` è `columns` e `Type` è `rows`. Sono presenti serie create da valori di raggruppamenti per `rows` (`Type`).
 
-L'oggetto visivo può anche filtrare i dati per `Manafacturer` e `Type`.
+L'oggetto visivo può anche filtrare i dati per `Manufacturer` e `Type`.
 
-Quando ad esempio l'utente seleziona `Chrysler` per `Manafacturer`, gli altri oggetti visivi visualizzano i dati seguenti:
+Quando ad esempio l'utente seleziona `Chrysler` per `Manufacturer`, gli altri oggetti visivi visualizzano i dati seguenti:
 
-| Manafacturer | Tipo | Valore |
+| Produttore | Tipo | Valore |
 | - | - | - |
 | **Chrysler** | Domestic Car | 28883 |
 | **Chrysler** | Domestic Truck | 117131 |
@@ -170,7 +170,7 @@ Quando ad esempio l'utente seleziona `Chrysler` per `Manafacturer`, gli altri og
 
 Quando l'utente seleziona `Import Car` per `Type` (seleziona i dati in base alla serie), gli altri oggetti visivi visualizzano i dati seguenti:
 
-| Manafacturer | Tipo | Valore |
+| Produttore | Tipo | Valore |
 | - | - | - |
 | Chrysler | **Import Car** | 0 |
 | Ford | **Import Car** | 0 |
@@ -185,10 +185,10 @@ Quando l'utente seleziona `Import Car` per `Type` (seleziona i dati in base alla
 
 ![Carrelli dati dell'oggetto visivo con selezioni](media/visual-selections-databuckets.png)
 
-Sono presenti `Manafacturer` come categoria (colonne), `Type` come serie (righe) e `Value` come `Values` per le serie.
+Sono presenti `Manufacturer` come categoria (colonne), `Type` come serie (righe) e `Value` come `Values` per le serie.
 
 > [!NOTE]
-> Gli elementi `Values` sono necessari per le serie, perché in base al mapping di visualizzazione dati l'oggetto visivo prevede che `Values` verrà raggruppato in base ai dati `Rows`.
+> Gli elementi `Values` sono necessari per le serie perché in base al mapping di visualizzazione dati l'oggetto visivo prevede che `Values` verrà raggruppato in base ai dati `Rows`.
 
 #### <a name="create-selections-for-categories"></a>Creare selezioni per le categorie
 
@@ -196,7 +196,7 @@ Sono presenti `Manafacturer` come categoria (colonne), `Type` come serie (righe)
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -231,7 +231,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 
 Nel codice di esempio si può osservare che viene eseguita l'iterazione di tutte le categorie. In ogni iterazione viene chiamato il metodo `createSelectionIdBuilder` per creare la selezione successiva per ogni categoria chiamando il metodo `withCategory` del generatore di selezione. Il metodo `createSelectionId` viene usato come metodo finale per restituire l'oggetto `selection` generato.
 
-Nel metodo `withCategory` viene passata la colonna di `category`, nell'esempio si tratta di `Manafacturer` e dell'indice dell'elemento categoria.
+Nel metodo `withCategory` viene passata la colonna di `category`. Nell'esempio si tratta di `Manufacturer` e dell'indice dell'elemento categoria.
 
 #### <a name="create-selections-for-series"></a>Creare selezioni per le serie
 
@@ -295,7 +295,7 @@ Esempio di mapping di visualizzazione dati di tabella
 }
 ```
 
-Per creare la selezione per ogni riga del mapping di visualizzazione dati di tabella, è necessario chiamare il metodo `withTable` del generatore di selezione.
+Per creare una selezione per ogni riga del mapping di visualizzazione dati di tabella, è necessario chiamare il metodo `withTable` del generatore di selezione.
 
 ```typescript
 public update(options: VisualUpdateOptions) {
@@ -342,7 +342,7 @@ Nell'esempio `nodeWalker` esegue chiamate in modo ricorsivo per ogni nodo e nodo
 
 ## <a name="select-datapoints-to-slice-other-visuals"></a>Selezionare i punti dati per filtrare altri oggetti visivi
 
-Nei codici di esempio delle selezioni per il mapping di visualizzazione dati categorica sono stati creati gestori degli eventi clic per gli elementi pulsante. Il gestore chiama il metodo `select` di gestione selezione e passa l'oggetto di selezione.
+Nei codici di esempio delle selezioni per il mapping di visualizzazione dati categorica è stato creato un gestore degli eventi clic per gli elementi pulsante. Il gestore chiama il metodo `select` di gestione selezione e passa l'oggetto di selezione.
 
 ```typescript
 button.addEventListener("click", () => {
@@ -361,7 +361,7 @@ interface ISelectionManager {
 }
 ```
 
-Si noti che `select` può accettare una matrice di selezioni. Ciò significa che l'oggetto visivo può selezionare diversi punti dati. Il secondo parametro `multiSelect` è responsabile della selezione multipla. Se il valore è True, Power BI non annulla lo stato della selezione precedente e applica la selezione corrente; in caso contrario, viene ripristinata la selezione precedente.
+Si noti che `select` può accettare una matrice di selezioni. Ciò significa che l'oggetto visivo può selezionare diversi punti dati. Il secondo parametro `multiSelect` è responsabile della selezione multipla. Se il valore è True, Power BI non annulla lo stato della selezione precedente e applica la selezione corrente. In caso contrario, viene ripristinata la selezione precedente.
 
 Scenario tipico dell'uso di `multiSelect` per la gestione dello stato del pulsante CTRL su un evento clic.
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061823"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696283"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Eseguire la migrazione alla nuova versione di powerbi-visuals-tools 3.x.x
 
@@ -81,7 +81,7 @@ Esempio di oggetto visivo sampleBarChart e [modifiche](https://github.com/Micros
 
 La nuova versione di powerbi-visual-tools non include al suo interno tutte le versioni dell'API. Lo sviluppatore deve invece installare una versione specifica del pacchetto [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api). La versione del pacchetto corrisponde alla versione API degli oggetti visivi personalizzati di Power BI e include tutte le definizioni dei tipi per l'API degli oggetti visivi personalizzati di Power BI.
 
-Aggiungere `powerbi-visuals-api` nelle dipendenze del progetto eseguendo il comando `npm install --save-dev powerbi-visuals-api`.
+Aggiungere `powerbi-visuals-api` nelle dipendenze di un progetto eseguendo il comando `npm install --save-dev powerbi-visuals-api`.
 Rimuovere anche il collegamento alle definizioni dei tipi dell'API precedente. I tipi di `powerbi-visuals-api` vengono inclusi automaticamente da Webpack. Le modifiche corrispondenti sono in [questa](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) riga di `package.json`.
 
 ## <a name="update-tsconfigjson"></a>Aggiornare `tsconfig.json`
@@ -95,7 +95,7 @@ Per usare moduli esterni, è necessario cambiare l'opzione `out` in `outDir`.
 
 ## <a name="update-custom-visuals-utils"></a>Aggiornare le utilità degli oggetti visivi personalizzati
 
-Se si usa una delle utilità [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils), è necessario aggiornare anche questa alla versione più recente.
+Se si usa una delle utilità powerbi-visuals-utils (https://www.npmjs.com/search?q=powerbi-visuals-utils)), è necessario aggiornare anche questa alla versione più recente.
 
 Eseguire il comando `npm install powerbi-visuals-utils-<UTILNAME> --save`. Ad esempio, `npm install powerbi-visuals-utils-dataviewutils --save` per ottenere la nuova versione con i moduli esterni di TypeScript.
 

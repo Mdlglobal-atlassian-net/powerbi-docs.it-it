@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 91acaa3a2252250e2a10674bae0e9be81f142696
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410926"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695198"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: Confronto tra funzione DIVIDE e operatore di divisione (/)
 
@@ -25,7 +25,7 @@ Quando si usa la funzione DIVIDE, è necessario passare le espressioni del numer
 DIVIDE(<numerator>, <denominator> [,<alternateresult>])
 ```
 
-La funzione DIVIDE è stata progettata per gestire automaticamente i casi di divisione per zero. Se non viene passato un risultato alternativo e il denominatore è zero o BLANK, la funzione restituisce BLANK. Se viene passato un risultato alternativo, questo viene restituito al posto di BLANK.
+La funzione DIVIDE è stata progettata per gestire automaticamente i casi di divisione per zero. Se non viene passato un risultato alternativo e il denominatore è zero o BLANK, la funzione restituisce BLANK. Quando viene passato un risultato alternativo, questo viene restituito al posto di BLANK.
 
 La funzione DIVIDE è comoda perché consente di evitare di dover prima testare il valore del denominatore nell'espressione. La funzione è inoltre ottimizzata meglio per il test del valore del denominatore rispetto alla funzione [IF](/dax/if-function-dax). Il miglioramento delle prestazioni è significativo perché il controllo della divisione per zero è dispendioso. L'uso di DIVIDE consente anche di ottenere un'espressione più concisa ed elegante.
 
@@ -58,7 +58,7 @@ Si consiglia di usare la funzione DIVIDE ogni volta che il denominatore è un'es
 
 Se il denominatore è un valore costante, è consigliabile usare l'operatore di divisione. In questo caso, è garantita la riuscita della divisione e l'espressione offrirà prestazioni migliori, in quanto eviterà test superflui.
 
-Valutare attentamente se la funzione DIVIDE deve restituire un valore alternativo. Per le misure, la progettazione consigliata prevede in genere la restituzione di BLANK. La restituzione di BLANK è consigliata perché per impostazione predefinita gli oggetti visivi del report eliminano i raggruppamenti quando i riepiloghi sono BLANK. Questo consente all'oggetto visivo di concentrare l'attenzione sui gruppi in cui sono presenti dati. Quando necessario, è possibile configurare l'oggetto visivo per visualizzare tutti i gruppi (che restituiscono valori o BLANK) nel contesto di filtro abilitando l'opzione "Mostra elementi senza dati".
+Valutare attentamente se la funzione DIVIDE deve restituire un valore alternativo. È preferibile progettare le misure in modo che restituiscano BLANK quando non è possibile valutare un risultato significativo. Per altre informazioni, vedere [Evitare di convertire risultati BLANK in valori](dax-avoid-converting-blank.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

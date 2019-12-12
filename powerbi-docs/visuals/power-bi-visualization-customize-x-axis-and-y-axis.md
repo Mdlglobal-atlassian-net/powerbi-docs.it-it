@@ -7,16 +7,18 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 393f6f25fedddd9ff17d635ae67ce473ab57eea4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880933"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791786"
 ---
+- dove si trova la linea della percentuale del margine lordo per gli anni? Si possono vedere più grafici a barre, ma non più righe.
+
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
@@ -171,7 +173,7 @@ Alcune visualizzazioni possono beneficiare dalla presenza di due assi Y. I grafi
 
 ### <a name="create-a-chart-with-two-y-axes"></a>Creare un grafico con due assi Y
 
-1. Selezionare l'istogramma e cambiarlo in *Grafico a linee e istogramma a colonne in pila*. 
+1. Selezionare l'istogramma e cambiarlo in *Grafico a linee e istogramma a colonne in pila*. Questo tipo di oggetto visivo supporta un solo valore del grafico a linee e più valori di colonna in pila. 
 
     ![Screenshot del riquadro Visualizzazioni con l'icona Grafico a linee e istogramma a colonne in pila evidenziata.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo.png)
    
@@ -185,7 +187,7 @@ Alcune visualizzazioni possono beneficiare dalla presenza di due assi Y. I grafi
 
    ![Grafico combinato e riquadro Formato con dimensioni del carattere ridotte a 12](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-font-size.png)
 
-   Power BI crea due assi Y consentendo di ridimensionare separatamente i valori. L'asse di sinistra misura i dollari, mentre quello di destra misura le percentuali.
+   Power BI crea due assi Y consentendo di ridimensionare separatamente i valori. L'asse di sinistra misura le vendite in dollari, mentre quello di destra misura la percentuale del margine lordo.
 
 ### <a name="format-the-second-y-axis"></a>Formattare il secondo asse Y
 Poiché all'inizio la visualizzazione includeva un unico asse Y formattato, Power BI ha creato il secondo asse Y usando le stesse impostazioni. Ma è possibile cambiarle. 

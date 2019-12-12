@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c56433e27794798f2907f0d780002db96b2f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878070"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791304"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Livelli di privacy di Power BI Desktop
 In **Power BI Desktop**, i livelli di privacy specificano un livello di isolamento che definisce in che misura un'origine dati verrà isolata dalle altre. Anche se un livello di isolamento restrittivo impedisce lo scambio di informazioni tra le origini dati, può ridurre le funzionalità e compromettere le prestazioni.
@@ -44,7 +44,7 @@ Per configurare il livello di privacy per un'origine dati, selezionare l'origine
 > 
 
 ## <a name="configure-privacy-levels"></a>Configurare i livelli di privacy
-L'impostazione **Livelli di privacy** è configurata su **Combina i dati in base alle impostazioni del livello di privacy per ogni origine** per impostazione predefinita. In altri termini, **Livelli di privacy** non è abilitata.
+L'opzione **Livelli di privacy** è impostata su **Combina i dati in base alle impostazioni del livello di privacy per ogni origine** per impostazione predefinita e ciò significa che non vengono imposti **Livelli di privacy**.
 
 | Impostazione | Descrizione |
 | --- | --- |

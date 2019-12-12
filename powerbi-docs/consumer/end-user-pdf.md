@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 11/27/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8041fee4689c6319f219c26f20701c6062601a64
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164195"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791654"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Esportare report da Power BI in PDF
 
@@ -62,6 +62,7 @@ Quando si usa la funzionalità **Esporta in PDF** è necessario tenere presenti 
 * Il servizio Power BI usa l'impostazione di lingua di Power BI come lingua per l'esportazione in PDF. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/end-user-powerpoint/power-bi-settings-icon.png) > **Impostazioni** > **Generale** > **Lingua**.
 * I filtri URL non vengono attualmente rispettati quando si sceglie **Valori correnti** per l'esportazione.
 * Per i report con dimensioni di pagina personalizzate insolite possono verificarsi problemi negli scenari di esportazione. Per ottenere risultati ottimali, provare a passare a una dimensione della pagina standard.
+* Quando si esegue l'esportazione in un file PDF, nei report che usano temi con tipi di carattere personalizzati il tipo di carattere personalizzato verrà sostituito con un tipo di carattere predefinito.
 
 ## <a name="next-steps"></a>Passaggi successivi
 [Stampare un report](end-user-print.md)
