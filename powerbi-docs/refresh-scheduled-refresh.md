@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791606"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958403"
 ---
 # <a name="configure-scheduled-refresh"></a>Configurare l'aggiornamento pianificato
 
@@ -66,7 +66,7 @@ Se si usa il gateway dati locale per aggiornare i dati, non è necessario specif
 ![Comando Pianifica aggiornamenti](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Quando ci si connette a SharePoint locale per l'aggiornamento dei dati, Power BI supporta solo i meccanismi di autenticazione *Anonymous* (Anonimo), *Basic* (Di base) e *Windows (NTLM/Kerberos)*. Power BI non supporta *ADFS* o qualsiasi meccanismo di *autenticazione basata su form* per l'aggiornamento dei dati di origini dati di SharePoint locale.
+> Quando ci si connette a SharePoint locale per l'aggiornamento dei dati, Power BI supporta solo i meccanismi di autenticazione *Anonymous* (Anonimo), *Basic* (Di base) e *Windows (NTLM/Kerberos)* . Power BI non supporta *ADFS* o qualsiasi meccanismo di *autenticazione basata su form* per l'aggiornamento dei dati di origini dati di SharePoint locale.
 
 ## <a name="scheduled-refresh"></a>Aggiornamento pianificato
 
@@ -75,7 +75,7 @@ La sezione relativa all'**aggiornamento pianificato** viene usata per definire l
 Impostare il dispositivo di scorrimento **Mantieni aggiornati i dati** su **Sì** per configurare le impostazioni.
 
 > [!NOTE]
-> Il servizio Power BI mira ad avviare l'aggiornamento dei dati entro **15 minuti** dall'orario di aggiornamento programmato.
+> L'obiettivo è avviare l'aggiornamento entro 15 minuti dall'orario pianificato, ma può verificarsi un ritardo fino a un'ora se il servizio non è in grado di allocare prima le risorse necessarie.
 
 ![Finestra di dialogo Aggiornamento pianificato](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
