@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875337"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958518"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Modificare lo schema linguistico per Domande e risposte e aggiungere formulazioni in Power BI Desktop 
 L'uso del linguaggio naturale e di frasi comuni per porre le domande ai dati è una funzionalità molto potente. Lo è ancora di più quando i dati restituiscono una risposta. Quando si formula una domanda a Domande e risposte in Power BI, il sistema fa del suo meglio per rispondere correttamente. Tuttavia, per interazioni ancora più efficaci, è possibile migliorare le risposte. A tale scopo una soluzione è quella di modificare lo schema linguistico. 
 
-Si parte dai dati aziendali.  Più il modello di dati è di qualità, più sarà facile per gli utenti ottenere risposte appropriate. Uno dei modi per migliorare il modello consiste nell'aggiungere uno schema linguistico che definisce e classifica la terminologia e le relazioni tra i nomi delle tabelle e delle colonne nel set di dati. In Power BI Desktop è possibile gestire gli schemi linguistici. 
+Si parte dai dati aziendali.  Più il modello di dati è di qualità, più sarà facile per gli utenti ottenere risposte appropriate. Uno dei modi per migliorare il modello consiste nell'aggiungere uno schema linguistico che definisce e classifica la terminologia e le relazioni tra i nomi delle tabelle e delle colonne nel set di dati. In Power BI Desktop è possibile gestire gli schemi linguistici. 
 
-Sono due gli aspetti da considerare per Domande e risposte.  Il primo aspetto riguarda la preparazione, ovvero la *modellazione*.  Il secondo aspetto riguarda la formulazione di domande e l'esplorazione dei dati, ovvero l'*utilizzo*. In alcune aziende, i dipendenti con il ruolo di *modellatore di dati* o amministratore IT possono ricevere l'incarico di assemblare i set di dati, creare i modelli di dati e pubblicare i set di dati in Power BI.  Un secondo gruppo di dipendenti può invece avere il compito di "utilizzare" i dati online.  In altre aziende questi ruoli possono essere combinati. 
+Sono due gli aspetti da considerare per Domande e risposte.  Il primo aspetto riguarda la preparazione, ovvero la *modellazione*.  Il secondo aspetto riguarda la formulazione di domande e l'esplorazione dei dati, ovvero l'*utilizzo*. In alcune aziende, i dipendenti con il ruolo di *modellatore di dati* o amministratore IT possono ricevere l'incarico di assemblare i set di dati, creare i modelli di dati e pubblicare i set di dati in Power BI.  Un secondo gruppo di dipendenti può invece avere il compito di "utilizzare" i dati online.  In altre aziende questi ruoli possono essere combinati. 
 
 Questo articolo è destinato i modellatori di dati, ovvero agli utenti impegnati a ottimizzare i set di dati per restituire i migliori risultati possibili per Domande e risposte. 
 

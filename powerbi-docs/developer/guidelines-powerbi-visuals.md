@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565492"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000090"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Linee guida per gli oggetti visivi di Power BI
 Prima di [pubblicare](https://docs.microsoft.com/power-bi/developer/office-store) l'oggetto visivo di Power BI in Microsoft AppSource in modo che altri utenti possano trovarlo e usarlo, seguire con attenzione le linee guida per creare un'esperienza ottimale per gli utenti.
@@ -50,7 +50,12 @@ Le filigrane possono essere usate per presentare le funzionalità complete dell'
 
 ### <a name="submission-process"></a>Processo di invio
 
-Gli sviluppatori caricano gli oggetti visivi di Power BI con acquisto in-app in Microsoft AppSource usando il Dashboard venditori, come erano soliti fare per gli oggetti visivi gratuiti. Per indicare che l'oggetto visivo di Power BI inviato contiene funzionalità con acquisto in-app, gli sviluppatori devono indicare nelle note del dashboard venditori: "Oggetto visivo con acquisto in-app". Gli sviluppatori devono anche specificare anche un codice di licenza o un token in modo che il team di convalida possa convalidare le funzionalità con acquisto in-app. Dopo aver convalidato e approvato l'oggetto visivo di Power BI, nell'elenco Microsoft AppSource degli oggetti visivi di Power BI con acquisto in-app viene visualizzato "Potrebbe essere necessario un acquisto aggiuntivo" tra le opzioni di prezzo.
+Seguire il [processo di invio](office-store.md#submitting-to-appsource), quindi passare alla scheda *Configurazione prodotto* e selezionare la casella di controllo *Il prodotto richiede l'acquisto di un servizio*.
+
+Dopo aver convalidato e approvato l'oggetto visivo di Power BI, nell'elenco Microsoft AppSource degli oggetti visivi di Power BI con acquisto in-app viene visualizzato "Potrebbe essere necessario un acquisto aggiuntivo" tra le opzioni di prezzo.
+
+>[!NOTE]
+>Se l'oggetto visivo di Power BI è già stato inviato usando il [Dashboard venditori](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) e si vuole aggiungere una funzionalità con acquisto in-app, è necessario scrivere nelle note del Dashboard venditori "Oggetto visivo con acquisto in-app". È anche necessario specificare un codice di licenza o un token in modo che il team di convalida possa convalidare le funzionalità con acquisto in-app.
 
 ## <a name="context-menu"></a>Menu di scelta rapida
 Il menu di scelta rapida è il menu visualizzato quando l'utente passa il mouse su un oggetto visivo.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4f16cffe24d7eae5fe919dd2aa29949855258842
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698280"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958472"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Usare chiavi di crittografia personalizzate per Power BI (anteprima)
 
@@ -30,7 +30,8 @@ Per usare la crittografia BYOK, è necessario caricare i dati nel servizio Power
 
 - Connessione dinamica ad Analysis Services
 - Cartelle di lavoro di Excel, a meno che i dati vengano prima importati in Power BI Desktop
-- Set di dati di push
+- [Set di dati di push](/rest/api/power-bi/pushdatasets)
+- [Set di dati in streaming](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Modelli di grandi dimensioni](service-premium-large-models.md)
 
 La crittografia BYOK si applica solo al set di dati associato al file PBIX e non alle cache dei risultati di query per riquadri e oggetti visivi.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5374397dc9b89df7b7cbd86cfca5a44631b94e4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876476"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999791"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Connettersi all'API Microsoft Graph Security in Power BI Desktop
 
@@ -40,7 +40,7 @@ Per concedere il consenso per il connettore, l'amministratore del tenant di Azur
 
 * Rispondere a una richiesta inoltrata dall'app per la logica durante la prima esecuzione nell'[esperienza di consenso per l'applicazione](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
    
-L'account utente usato per l'accesso al connettore Microsoft Graph Security deve essere un membro del ruolo di amministratore con limitazioni con autorizzazioni di lettura per la sicurezza in Azure AD, in quanto *ruolo con autorizzazioni di lettura per la sicurezza* o *amministratore della protezione*. Vedere [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (Assegnare ruoli di Azure AD agli utenti).
+All'account utente usato per l'accesso al connettore Microsoft Graph Security deve essere assegnato un ruolo con autorizzazioni di lettura per la sicurezza di Azure AD **se** l'utente non è un membro del ruolo *Amministratore della sicurezza*. Vedere [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (Assegnare ruoli di Azure AD agli utenti).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Uso del connettore Microsoft Graph Security
 

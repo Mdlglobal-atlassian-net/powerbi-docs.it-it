@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696165"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000159"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Data/ora automatica in Power BI Desktop
 
@@ -36,7 +36,7 @@ Ogni tabella di data/ora automatica è di fatto una [tabella calcolata](desktop-
 
 Power BI Desktop crea anche una relazione tra la colonna **Data** della tabella di data/ora automatica e la colonna della data del modello.
 
-La tabella di data/ora automatica contiene gli anni di calendario completi che comprendono tutti i valori di data archiviati nella colonna della data del modello. Ad esempio, se il primo valore in una colonna della data è il 20 marzo 2016 e l'ultimo valore è il 23 ottobre 2019, la tabella conterrà 1.461 righe. Rappresenta una riga per ogni data nei quattro anni di calendario compresi tra il 2016 e il 2019. Quando Power BI aggiorna il modello, viene aggiornata anche ogni tabella di data/ora automatica per assicurarsi che contenga le date che includono i valori delle colonne della data.
+La tabella di data/ora automatica contiene gli anni di calendario completi che comprendono tutti i valori di data archiviati nella colonna della data del modello. Ad esempio, se il primo valore in una colonna della data è il 20 marzo 2016 e l'ultimo valore è il 23 ottobre 2019, la tabella conterrà 1.461 righe. Rappresenta una riga per ogni data nei quattro anni di calendario compresi tra il 2016 e il 2019. Quando Power BI aggiorna il modello, viene aggiornata anche ogni tabella di data/ora automatica. In questo modo il modello contiene sempre date che includono i valori della colonna della data.
 
 Se fosse possibile visualizzare le righe di una tabella di data/ora automatica, l'aspetto sarebbe simile al seguente:
 
@@ -93,7 +93,8 @@ In Power BI Desktop selezionare _File > Opzioni e impostazioni > Opzioni_ e quin
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Per altre informazioni sull'opzione di data/ora automatica e sugli argomenti correlati, vedere le risorse seguenti:
+Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
+- [Linee guida per Data/ora automatica in Power BI Desktop](guidance/auto-date-time.md)
 - [Impostare e usare tabelle data in Power BI Desktop](desktop-date-tables.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

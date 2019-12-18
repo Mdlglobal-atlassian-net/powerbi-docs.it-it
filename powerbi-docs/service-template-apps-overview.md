@@ -1,29 +1,38 @@
 ---
 title: Che cosa sono le app modello di Power BI?
 description: Questo articolo è una panoramica del programma delle app modello di Power BI. Informazioni su come compilare app di Power BI con un uso minimo o nullo di codice e su come distribuire le app a qualsiasi cliente Power BI.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: tebercov
-ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: f519665c78f8c96452091edb84ae9a40f9dc01ba
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871331"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000020"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Che cosa sono le app modello di Power BI?
 
 Le nuove *app modello* di Power BI consentono ai partner Power BI di creare app Power BI con un uso minimo o nullo di codice e quindi di distribuire le app a qualsiasi cliente Power BI.  Questo articolo è una panoramica del programma delle app modello di Power BI.
 
-Le app modello sostituiscono gli attuali pacchetti di contenuto dei servizi. I partner Power BI sono in grado di creare set di contenuti predefiniti per i clienti e di pubblicarli personalmente.  
+Le app modello sostituiscono gli attuali pacchetti di contenuto dei servizi. I partner Power BI possono creare set di contenuti predefiniti per i clienti e pubblicarli personalmente.  
 
-È possibile compilare app modello che consentono ai clienti di connettersi e creare un'istanza con i propri account. In qualità di esperti di dominio, possono sbloccare i dati in modo da renderli facilmente utilizzabili dai loro utenti aziendali.  
+È possibile compilare app modello che consentono ai clienti di connettersi e creare un'istanza con i propri account. Gli esperti di dominio possono sbloccare i dati in modo da renderli facilmente utilizzabili dagli utenti aziendali.  
 
-Le app modello vengono inviate al portale Cloud Partner. e diventano quindi disponibili pubblicamente nella raccolta di app di Power BI (app.powerbi.com/getdata/services) e in Microsoft AppSource (appsource.microsoft.com). Di seguito viene riportata una presentazione generale dell'esperienza di creazione di un'app modello pubblica.  
+Le app modello vengono inviate al portale Cloud Partner. Le app diventano quindi disponibili pubblicamente nel [marketplace di app per Power BI](https://app.powerbi.com/getdata/services) e in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Di seguito viene riportata una presentazione generale dell'esperienza di creazione di un'app modello pubblica.
+
+## <a name="power-bi-apps-marketplace"></a>Marketplace di app per Power BI
+
+Le app modello in Power BI consentono agli utenti Power BI Pro o Power BI Premium di ottenere informazioni immediate attraverso dashboard e report predefiniti che possono essere connessi a origini dati attive. Molte app per Power BI sono già disponibili nel [marketplace di app per Power BI](https://app.powerbi.com/getdata/services).
+
+|  |
+|     :---:      |
+| [![Foo](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3) [![Foo](./media/service-template-apps-overview/azure-backup.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-azurebackup.pbi-azurebackup-template) [![Foo](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Foo](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
+|  |
 
 ## <a name="process"></a>Processo
 Il processo generale di sviluppo e invio di un'app modello comporta diverse fasi. Alcune fasi possono includere più attività allo stesso tempo.
@@ -48,20 +57,21 @@ Ecco i passaggi di alto livello.
 
 1. [Rivedere i requisiti](#requirements) per assicurarsi di soddisfarli. 
 
-1. Creare un report in Power BI Desktop. Usare parametri, in modo che sia possibile salvare il report come file utilizzabile anche da altri utenti. 
+2. Creare un report in Power BI Desktop. Usare parametri, in modo che sia possibile salvare il report come file utilizzabile anche da altri utenti. 
 
-1. Creare un'area di lavoro per l'app modello nel proprio tenant nel servizio Power BI (app.powerbi.com). 
+3. Creare un'area di lavoro per l'app modello nel proprio tenant nel servizio Power BI (app.powerbi.com). 
 
-1. Importare il file con estensione pbix e aggiungere contenuto, ad esempio un dashboard nell'app. 
+4. Importare il file con estensione pbix e aggiungere contenuto, ad esempio un dashboard nell'app. 
 
-1. Creare un pacchetto di test per testare l'app modello all'interno dell'organizzazione. 
+5. Creare un pacchetto di test per testare l'app modello all'interno dell'organizzazione. 
 
-1. Alzare l'app di test al livello di pre-produzione per inviarla alla convalida in AppSource e testarla al di fuori del proprio tenant. 
+6. Alzare l'app di test al livello di pre-produzione per inviarla alla convalida in AppSource e testarla al di fuori del proprio tenant. 
 
-1. Inviare il contenuto alla piattaforma Cloud Partner per la pubblicazione. 
+7. Inviare il contenuto alla piattaforma Cloud Partner per la pubblicazione. 
 
-1. Pubblicare l'offerta in AppSource e passare l'app in produzione in Power BI.
-2. È ora possibile iniziare a sviluppare la versione successiva nella stessa area di lavoro, in fase di pre-produzione. 
+8. Pubblicare l'offerta in AppSource e passare l'app in produzione in Power BI.
+
+9. È ora possibile iniziare a sviluppare la versione successiva nella stessa area di lavoro, in fase di pre-produzione. 
 
 ## <a name="requirements"></a>Requisiti
 
@@ -80,6 +90,19 @@ Per pubblicare un'app modello nel servizio Power BI e in AppSource, è necessari
 - Abilitare la personalizzazione dei dati, ad esempio supportare la personalizzazione delle connessioni e la configurazione dei parametri tramite il programma di installazione.
 
 Per altri suggerimenti, vedere [Suggerimenti per la creazione di app modello in Power BI](service-template-apps-tips.md).
+
+## <a name="known-limitations"></a>Limitazioni note
+
+| Feature | Limitazione nota |
+|---------|---------|
+|Contenuto:  Set di dati   | È necessario che sia presente un solo set di dati. Sono consentiti solo i set di dati creati in Power BI Desktop (file con estensione pbix). <br>Non supportati: Set di dati di altre app modello, set di dati di più aree di lavoro, report impaginati (file con estensione rdl), cartelle di lavoro di Excel |
+|Contenuto: Dashboard | Non sono consentiti riquadri in tempo reale (in altre parole, non è disponibile il supporto per set di dati di push o di streaming) |
+|Contenuto: Flussi di dati | Non supportati: Flussi di dati |
+|Contenuti dei file | Sono supportati solo i file PBIX. <br>Non supportati: file con estensione rdl (report impaginati), cartelle di lavoro di Excel   |
+| Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>Origini dati locali (i gateway personali e aziendali non sono supportati)</li> <li>Tempo reale (nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
+| Set di dati: di più aree di lavoro | Non sono consentiti set di dati di più aree di lavoro  |
+| Parametri di query | Non supportati: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
+| Oggetti visivi personalizzati | Sono supportati solo gli oggetti visivi personalizzati disponibili pubblicamente. [Oggetti visivi personalizzati dell'organizzazione](developer/power-bi-custom-visuals-organization.md) non supportati |
 
 ## <a name="support"></a>Supporto
 Per il supporto durante lo sviluppo, usare [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Questo sito viene monitorato e gestito attivamente. Le richieste dei clienti vengono indirizzate rapidamente al team appropriato.
