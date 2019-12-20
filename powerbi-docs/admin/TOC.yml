@@ -7,6 +7,10 @@
       items:
         - name: Che cos'è l'amministrazione di Power BI?
           href: ../service-admin-administering-power-bi-in-your-organization.md
+        - name: Dove si trova il tenant?
+          href: ../service-admin-where-is-my-tenant-located.md
+        - name: Eseguire la migrazione alle aree tedesche "Go Local"
+          href: service-admin-migrate-data-germany.md
     - name: Concetti
       expanded: true
       items:
@@ -30,8 +34,6 @@
               href: ../service-admin-syndication-partner.md
         - name: Uso del portale di amministrazione
           href: ../service-admin-portal.md
-        - name: Dove si trova il tenant?
-          href: ../service-admin-where-is-my-tenant-located.md
         - name: Trovare utenti che hanno eseguito l'accesso
           href: ../service-admin-access-usage.md
         - name: Controllo

@@ -142,6 +142,8 @@
       items:
         - name: Cosa sono le app per dispositivi mobili?
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: Presentazione della home page
+          href: mobile/mobile-apps-home-page.md
     - name: Guide introduttive
       items:
         - name: Esplorare dashboard e report
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: Annotare e condividere nelle app per dispositivi mobili
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Scansionare un codice a barre dall'app nell'iPhone
+            - name: Effettuare la scansione di un codice a barre dall'app Power BI per dispositivi mobili
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: Configurazione mediante gestione dei dispositivi mobili
               href: mobile/mobile-app-configuration.md
