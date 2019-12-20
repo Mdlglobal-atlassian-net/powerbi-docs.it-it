@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: fa9c07be31f5110f44c2f200bbde249c95abe9ed
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 656f7e532702cef8c38af96e8c9df49ffc36734a
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: MT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009822"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304349"
 ---
 # <a name="power-bi-security-whitepaper"></a>White paper sulla sicurezza di Power BI
 
@@ -33,7 +33,7 @@ ms.locfileid: "74009822"
 
 **Power BI** è un servizio software online (_SaaS_, Software as a Service) offerto da Microsoft che consente di creare in modo semplice e rapido dashboard, report, set di dati e visualizzazioni di business intelligence in modalità self-service. Con Power BI è possibile connettersi a numerose origini dati diverse, combinare e definire le proprietà della forma dei dati provenienti dalle connessioni, quindi creare report e dashboard che possono essere condivisi con altri utenti.
 
-Il servizio Power BI è disciplinato dalle [Condizioni di Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e dall'[Informativa sulla privacy di Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Per la posizione di elaborazione dei dati, fare riferimento alle condizioni sulla posizione di elaborazione dei dati nelle Condizioni di Microsoft Online Services. Per informazioni sulla conformità, il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter) rappresenta la risorsa principale per Power BI. Il team di Power BI si sta impegnando per offrire ai propri clienti innovazioni più recenti e produttività. Power BI è attualmente nel livello D del [Framework di conformità di Office 365](https://go.microsoft.com/fwlink/p/?LinkID=618494).
+Il servizio Power BI è disciplinato dalle [Condizioni di Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) e dall'[Informativa sulla privacy di Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Per la posizione di elaborazione dei dati, fare riferimento alle condizioni sulla posizione di elaborazione dei dati nelle Condizioni di Microsoft Online Services. Per informazioni sulla conformità, il [Centro protezione Microsoft](https://www.microsoft.com/trustcenter) rappresenta la risorsa principale per Power BI. Il team di Power BI si sta impegnando per offrire ai propri clienti innovazioni più recenti e produttività. Power BI è attualmente nel livello D del [Framework di conformità di Office 365](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf).
 
 Questo articolo descrive la sicurezza di Power BI illustrando l'architettura di Power BI, la modalità di autenticazione degli utenti per Power BI e di creazione delle connessioni dati e infine descrivendo in che modo Power BI archivia e trasferisce i dati attraverso il servizio. L'ultima sezione è dedicata alle domande sulla sicurezza e alle relative risposte.
 
@@ -192,7 +192,7 @@ Quando i dati sono inattivi, il servizio Power BI archivia set di dati, report e
   - Nel gateway dati locale nell'infrastruttura del cliente, per le origini dati locali
   - Nel ruolo spostamento dati, per le origini dati basate su cloud
 
-La chiave di crittografia del contenuto usata per l'Archiviazione BLOB di Azure è una chiave a 256 bit generata in modo casuale. L'algoritmo che la chiave di crittografia del contenuto usa per crittografare il contenuto è AES\_CBC\_256.
+La chiave di crittografia del contenuto (CEK) usata per crittografare l'archivio BLOB Microsoft Azure è una chiave a 256 bit generata in modo casuale. L'algoritmo che la chiave di crittografia del contenuto usa per crittografare il contenuto è AES\_CBC\_256.
 
 La chiave di crittografia delle chiavi usata per crittografare la chiave di crittografia del contenuto è una chiave predefinita a 256 bit. L'algoritmo usato dalla chiave di crittografia delle chiavi per crittografare la chiave di crittografia del contenuto è A256KW.
 
@@ -378,7 +378,7 @@ Di seguito sono riportate domande comuni sulla sicurezza e le relative risposte 
 
   Le organizzazioni possono anche usare Kerberos per **l'accesso Single Sign-On** (SSO) e connettersi in modo semplice da Power BI a origini dati locali, ad esempio SQL Server, SAP HANA e Teradata. Per altre informazioni e per i requisiti di configurazione specifici, vedere [ **Usare Kerberos per SSO da Power BI alle origini dati locali**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
-* **Connessioni non di dominio**: per le connessioni dati non appartenenti a un dominio e che non sono idonee per la sicurezza a livello di ruolo, l'utente deve fornire le credenziali durante la sequenza di connessione, che Power bi quindi passa all'origine dati per stabilire il connessione. Se le autorizzazioni sono sufficienti, i dati vengono caricati dall'origine dati nel servizio Power BI.
+* **Connessioni non di dominio**: per le connessioni dati non appartenenti a un dominio e che non sono idonee per la sicurezza a livello di ruolo, l'utente deve fornire le credenziali durante la sequenza di connessione, che Power bi quindi passa all'origine dati per stabilire la connessione. Se le autorizzazioni sono sufficienti, i dati vengono caricati dall'origine dati nel servizio Power BI.
 
 **Come vengono trasferiti i dati in Power BI?**
 
