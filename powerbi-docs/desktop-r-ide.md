@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876242"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223456"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Usare un IDE R esterno con Power BI
 Con **Power BI Desktop**, è possibile usare un IDE (Integrated Development Environment) R esterno per creare e ridefinire gli script R e quindi usarli in Power BI.
@@ -31,7 +31,7 @@ A partire dal rilascio di settembre 2016 di **Power BI Desktop** (versione 2.39.
 Per usare questa funzionalità, è necessario installare un **IDE R** nel computer locale. **Power BI Desktop** non include, distribuisce o installa il motore R, quindi è necessario installare separatamente **R** nel computer locale. È possibile scegliere quale IDE R usare, con le opzioni seguenti:
 
 * È possibile installare il proprio IDE R preferito, molti dei quali sono disponibili gratuitamente, ad esempio la [pagina di download di Revolution Open](https://mran.revolutionanalytics.com/download/) e il [repository CRAN](https://cran.r-project.org/bin/windows/base/).
-* **Power BI Desktop** supporta anche [R Studio](https://www.rstudio.com/) e **Visual Studio 2015** con gli editor [*Strumenti R per Visual Studio*](https://beta.visualstudio.com/vs/rtvs/).
+* **Power BI Desktop** supporta anche [R Studio](https://www.rstudio.com/) e **Visual Studio 2015** con gli editor [*Strumenti R per Visual Studio*](/visualstudio/rtvs).
 * È anche possibile installare un IDE R diverso e configurare **Power BI Desktop** in modo da avviare tale **IDE R** effettuando una delle operazioni seguenti:
   
   * È possibile associare i file con estensione **R** all'IDE esterno che dovrà essere avviato da **Power BI Desktop**.

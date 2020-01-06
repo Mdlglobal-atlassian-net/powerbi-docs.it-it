@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73879066"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introduzione all'app Power BI per dispositivi mobili per Windows 10
@@ -55,7 +55,7 @@ Anche senza iscriversi, è possibile provare a usare gli esempi di Power BI e Re
 È possibile visualizzare e interagire con gli esempi di dashboard di Power BI, con cui tuttavia non è possibile eseguire alcune operazioni, come ad esempio aprire i report dietro i dashboard, condividere gli esempi con altre persone o impostarli come preferiti.
 
 1. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) nell'angolo in alto a sinistra.
-2. Toccare l'icona **Impostazioni** ![icona Impostazioni](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), toccare il nome, quindi toccare **Visualizza esempi**.
+2. Toccare l'icona **Impostazioni**![icona Impostazioni](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), toccare il nome, quindi toccare **Visualizza esempi**.
    
    ![Visualizza esempi](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. Selezionare un ruolo ed esplorare il dashboard degli esempi per tale ruolo.  
@@ -64,7 +64,7 @@ Anche senza iscriversi, è possibile provare a usare gli esempi di Power BI e Re
 
 ### <a name="reporting-services-mobile-report-samples"></a>Esempi di report per dispositivi mobili di Reporting Services
 1. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) nell'angolo in alto a sinistra.
-2. Toccare l'icona **Impostazioni** ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), fare clic con il pulsante destro del mouse oppure toccare e tenere premuto **Connetti al server**, quindi toccare **Visualizza esempi**.
+2. Toccare l'icona **Impostazioni**![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png), fare clic con il pulsante destro del mouse oppure toccare e tenere premuto **Connetti al server**, quindi toccare **Visualizza esempi**.
    
    ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. Aprire la cartella dei report sulle vendite al dettaglio o dei report sulle vendite per analizzare gli indicatori KPI e i report per dispositivi mobili.

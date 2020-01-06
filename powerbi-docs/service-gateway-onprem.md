@@ -10,31 +10,31 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74697544"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>Informazioni sul gateway dati locale
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Il gateway dati locale funge da ponte per consentire il trasferimento rapido e protetto tra i dati locali (cioè non presenti nel cloud) e i numerosi servizi cloud di Microsoft. Questi servizi cloud includono Power BI, Power Apps, Power Automate, Azure Analysis Services e App per la logica di Azure. L'uso di un gateway consente alle organizzazioni di mantenere i database e altre origini dati all'interno delle reti locali e allo stesso tempo di usare in sicurezza i dati locali nei servizi cloud.
+Il gateway dati locale funge da ponte per consentire il trasferimento rapido e protetto tra i dati locali (dati non presenti nel cloud) e i numerosi servizi cloud di Microsoft. Questi servizi cloud includono Power BI, Power Apps, Power Automate, Azure Analysis Services e App per la logica di Azure. L'uso di un gateway consente alle organizzazioni di mantenere i database e altre origini dati all'interno delle reti locali e allo stesso tempo di usare in sicurezza i dati locali nei servizi cloud.
 
-## <a name="how-the-gateway-works"></a>Come funziona il gateway
+## <a name="how-the-gateway-works"></a>Funzionamento del gateway
 
 ![Panoramica del gateway](media/service-gateway-onprem/on-premises-data-gateway.png)
 
-Per altre informazioni sul funzionamento del gateway, vedere [On-premises data gateway architecture](/data-integration/gateway/service-gateway-onprem-indepth) (Architettura del gateway dati locale).
+Per altre informazioni sul funzionamento del gateway, vedere [Architettura del gateway dati locale](/data-integration/gateway/service-gateway-onprem-indepth).
 
 ## <a name="types-of-gateways"></a>Tipi di gateway
 
 Esistono due tipi di gateway diversi, ognuno per uno scenario diverso:
 
-* **Gateway dati locale** - Consente a più utenti di connettersi a più origini dati locali. È possibile usare un gateway dati locale con tutti i servizi supportati, con un'unica installazione del gateway. Questo gateway è ideale per scenari complessi, in cui più utenti accedono a più origini dati.
+* Il **gateway dati locale** consente a più utenti di connettersi a più origini dati locali. È possibile usare un gateway dati locale con tutti i servizi supportati, con un'unica installazione del gateway. Questo gateway è ideale per scenari complessi in cui più utenti accedono a più origini dati.
 
-* **Gateway dati locale (modalità personale)** - Consente a un utente di connettersi alle origini e non può essere condiviso con altri utenti. Un gateway dati locale (modalità personale) può essere usato solo con Power BI. Questo gateway è ideale per gli scenari in cui si è l'unica persona che crea report e non è necessario condividere le origini dati con altri utenti.
+* Il **gateway dati locale (modalità personale)** consente a un utente di connettersi alle origini e non può essere condiviso con altri utenti. Un gateway dati locale (modalità personale) può essere usato solo con Power BI. Questo gateway è ideale per gli scenari in cui si è l'unica persona che crea report e non è necessario condividere le origini dati con altri utenti.
 
 ## <a name="use-a-gateway"></a>Usare un gateway
 

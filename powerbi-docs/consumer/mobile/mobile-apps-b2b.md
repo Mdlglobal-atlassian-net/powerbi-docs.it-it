@@ -1,19 +1,19 @@
 ---
 title: Visualizzare il contenuto di Power BI come utente guest esterno (Azure AD B2B)
 description: Usare le app Power BI per dispositivi mobili per visualizzare il contenuto condiviso con l'utente dall'organizzazione esterna.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879332"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219883"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualizzare il contenuto di Power BI condiviso con l'utente da un'organizzazione esterna
 
@@ -30,18 +30,18 @@ Si applica a:
 
 **In primo luogo, è necessario che qualcuno appartenente a un'organizzazione esterna condivida un elemento.** Quando qualcuno [condivide un elemento con un altro utente](../../service-share-dashboards.md), dalla stessa organizzazione o da un'organizzazione esterna, l'altro utente riceve un messaggio di posta elettronica contenente un collegamento all'elemento condiviso. Seguendo il collegamento nel dispositivo mobile, si apre l'app Power BI per dispositivi mobili. Se l'app rileva che l'elemento è stato condiviso da un'organizzazione esterna, si riconnette a tale organizzazione con l'identità del destinatario. L'app carica quindi tutti gli elementi che sono stati condivisi con tale utente dall'organizzazione.
 
-![Elemento condiviso aperto di Power BI dal messaggio di posta elettronica ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Elemento condiviso aperto di Power BI dal messaggio di posta elettronica ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Se questo è il primo elemento condiviso con l'utente guest esterno, è necessario richiedere l'invito in un browser. Non è possibile richiedere l'invito nell'app Power BI.
 
 Fino a quando si è connessi a un'organizzazione esterna, nell'app viene visualizzata un'intestazione nera. Questa intestazione indica che non si è connessi all'organizzazione principale. Per riconnettersi all'organizzazione principale, uscire dalla modalità Guest.
 
-![Intestazione dell'utente guest di Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Intestazione dell'utente guest di Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Anche se è necessario avere un collegamento a un artefatto di Power BI per connettersi a un'organizzazione esterna, dopo che l'app ha effettuato il passaggio, è possibile accedere a tutti gli elementi condivisi (non solo all'elemento aperto dal messaggio di posta elettronica). Per visualizzare tutti gli elementi a cui è possibile accedere nell'organizzazione esterna, passare al menu dell'app e selezionare **Condivisi con l'utente corrente**. In **App** si trovano anche le altre app che è possibile usare.
 
-![Menu dell'app Power BI come utente guest esterno](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menu dell'app Power BI come utente guest esterno](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Limitazioni
 
