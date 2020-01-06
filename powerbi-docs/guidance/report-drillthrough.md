@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834771"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223613"
 ---
 # <a name="report-page-drillthrough"></a>Drill-through nelle pagine dei report
 
@@ -63,7 +63,7 @@ In fase di progettazione del report, è consigliabile seguire queste procedure:
 - **Individuazione:** contribuire a promuovere la conoscenza di una pagina di drill-through impostando il testo dell'icona dell'intestazione dell'oggetto visivo o aggiungendo istruzioni in una casella di testo. È anche possibile progettare una sovrimpressione, come descritto in [questo post di blog](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
-> È anche possibile configurare il drill-through per i report impaginati di Power BI. Questa operazione può essere eseguita aggiungendo collegamenti ai report di Power BI. I collegamenti possono definire [parametri URL](/blog/url-parameters-for-paginated-reports-are-now-available/).
+> È anche possibile configurare il drill-through per i report impaginati di Power BI. Questa operazione può essere eseguita aggiungendo collegamenti ai report di Power BI. I collegamenti possono definire [parametri URL](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/).
 
 ## <a name="next-steps"></a>Passaggi successivi
 

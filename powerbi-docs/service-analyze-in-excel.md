@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958633"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223740"
 ---
 # <a name="analyze-in-excel"></a>Analizza in Excel
 A volte si vuole usare Excel per visualizzare e interagire con un set di dati disponibile in Power BI. Con **Analizza in Excel**, è anche possibile accedere alle funzionalità della tabella pivot, del grafico e del filtro dei dati di Excel in base al set di dati presente in Power BI.
@@ -95,7 +95,7 @@ Ora che Excel è aperto e si dispone di una tabella pivot vuota, è possibile es
 ## <a name="save"></a>Salva
 È possibile salvare questa cartella di lavoro collegata al set di dati Power BI esattamente come per qualsiasi altra cartella di lavoro. Tuttavia, non è possibile pubblicare o importare nuovamente la cartella di lavoro in Power BI poiché si tratta di un'operazione possibile solo con cartelle di lavoro che dispongono di dati nelle tabelle o di un modello di dati. Poiché la nuova cartella di lavoro dispone semplicemente di una connessione al set di dati in Power BI, pubblicarla o importarla in Power BI sarebbe un'operazione inutile.
 
-## <a name="share"></a>Condividere
+## <a name="share"></a>Condividi
 Dopo avere salvato la cartella di lavoro, è possibile condividerla con altri utenti di Power BI nell'organizzazione.
 
 Quando la cartella di lavoro viene aperta per la prima volta da un utente con cui è stata condivisa, le tabelle pivot e i dati visualizzati che risalgono all'ultimo salvataggio e che potrebbero non corrispondere alla versione più recente saranno visualizzati dall'utente. Per ottenere i dati più recenti, gli utenti devono utilizzare il pulsante**Aggiorna** sulla barra multifunzione**Dati**. E poiché la cartella di lavoro si connette a un set di dati in Power BI, gli utenti che tentano di aggiornarla devono accedere a Power BI e installare gli aggiornamenti di Excel con questo metodo al primo tentativo di aggiornamento.
@@ -104,3 +104,11 @@ Poiché gli utenti dovranno aggiornare il set di dati e l'operazione non è supp
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 Quando si usa Analizza in Excel, a volte si ottiene un risultato imprevisto oppure la funzionalità non funziona correttamente. [Questa pagina offre soluzioni per problemi comuni relativi all'uso di Analizza in Excel.](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>Passaggi successivi
+
+Potrebbero essere interessanti anche gli articoli seguenti:
+
+* [Usare il drill-through tra report in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Uso dei filtri dei dati in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
+

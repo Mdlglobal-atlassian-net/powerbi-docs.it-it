@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: daf4f2c4aaa010516f90cae54c1e8b6784fb0f64
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879714"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223430"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Ordinare per colonna in Power BI Desktop
 In **Power BI Desktop** e nel **servizio Power BI** è possibile modificare l'aspetto di un oggetto visivo ordinandolo in base a campi dati diversi. La modifica dell'ordinamento di un oggetto visivo consente di dare risalto alle informazioni da comunicare e di garantire che l'oggetto visivo evidenzi la tendenza prevista.
@@ -100,4 +100,11 @@ Se si torna al menu e si seleziona di nuovo **Quantità vendite**, l'oggetto vis
 ![Ordinamento predefinito](media/desktop-sort-by-column/sortbycolumn_7.png)
 
 Con così tante opzioni per l'ordinamento degli oggetti visivi, è facile creare l'immagine o il grafico desiderato.
+
+## <a name="next-steps"></a>Passaggi successivi
+
+Potrebbero essere interessanti anche gli articoli seguenti:
+
+* [Usare il drill-through tra report in Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Uso dei filtri dei dati in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265715"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registrazione diagnostica per Power BI Embedded in Azure
@@ -130,8 +130,8 @@ La categoria Motore indica alla risorsa di registrare gli eventi seguenti e per 
 | SessionType | Utente | Tipo di sessione. Indica l'entità che ha causato l'operazione. |
 | ProgressTotal | 0 | Stato complessivo. |
 | IntegerData | 0 | Dati integer. |
-| Severity | 0 | Livello di gravità di un'eccezione. |
-| Success | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
+| Gravità | 0 | Livello di gravità di un'eccezione. |
+| Operazione completata | 1 | 1 = esito positivo. 0 = esito negativo (ad esempio, il valore 1 indica che il controllo delle autorizzazioni ha avuto esito positivo e il valore 0 che tale controllo ha avuto esito negativo). |
 | Errore | 0 | Numero di errore di un evento specifico. |
 | ConnectionID | 3 | ID connessione univoco. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | ID del set di dati in cui è in esecuzione l'istruzione dell'utente. |

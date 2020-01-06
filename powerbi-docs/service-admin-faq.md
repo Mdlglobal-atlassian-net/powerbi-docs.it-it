@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698740"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Amministrazione di Power BI - Domande frequenti
@@ -153,7 +153,7 @@ Per consentire agli utenti esistenti di iscriversi a Power BI, eseguire il coman
 
 ## <a name="administration-of-power-bi"></a>Amministrazione di Power BI
 
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>Come cambierà la gestione delle identità per gli attuali utenti dell'organizzazione?
+### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>In che modo questo cambierà la gestione delle identità per gli utenti dell'organizzazione?
 
 Esistono tre possibili scenari:
 
@@ -171,7 +171,7 @@ Esistono tre possibili scenari:
 
 Power BI offre un portale di amministrazione di Power BI per gli utenti del ruolo Amministratore globale di Microsoft 365 e per gli utenti del ruolo di amministratore del servizio Power BI. Per usare il portale di amministrazione di Power BI, l'account deve essere contrassegnato come **Amministratore globale** in Microsoft 365 o in Azure Active Directory o avere ricevuto il ruolo di amministratore del servizio Power BI. Per altre informazioni, vedere [Informazioni sul ruolo di amministratore di Power BI](service-admin-role.md) e [Portale di amministrazione di Power BI](service-admin-portal.md). Il portale offre la possibilità di controllare le impostazioni a livello di tenant e di visualizzare le statistiche di utilizzo di Power BI, oltre a un collegamento all'interfaccia di amministrazione di Microsoft 365 per gestire utenti e gruppi.
 
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual è la procedura per gestire un tenant creato da Microsoft per gli utenti?
+### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Qual è il processo per gestire un tenant creato da Microsoft per gli utenti?
 
 Quando un utente self-service si iscrive a un servizio cloud che usa Azure AD, viene aggiunto a una directory di Azure AD non gestita in base al dominio di posta elettronica. È possibile richiedere e gestire un tenant creato da un altro utente con un processo noto come *acquisizione della proprietà come amministratore*. Per altre informazioni, vedere [Acquisire la proprietà di una directory non gestita come amministratore in Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover). Il tipo di acquisizione della proprietà dipende dalla presenza o meno di un tenant gestito esistente associato al dominio:
 
@@ -181,7 +181,7 @@ Quando un utente self-service si iscrive a un servizio cloud che usa Azure AD, v
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>Se si hanno più domini, è possibile controllare il tenant di Microsoft 365 in cui vengono aggiunti gli utenti?
 
-Se non si interviene in alcun modo, il servizio crea un tenant per ogni domino e sottodominio di posta elettronica degli utenti. Se si vuole che gli utenti stiano nello stesso tenant indipendentemente dalle estensioni dei loro indirizzi di posta elettronica: Creare un tenant di destinazione anticipatamente o usare un tenant esistente. Aggiungere quindi tutti i domini e i sottodomini esistenti da consolidare all'interno del tenant. Tutti gli utenti con indirizzi di posta elettronica che terminano con tali domini e sottodomini vengono automaticamente aggiunti al tenant di destinazione quando effettuano l'iscrizione.
+Se non si interviene in alcun modo, il servizio crea un tenant per ogni domino e sottodominio di posta elettronica degli utenti. Se si vuole che tutti gli utenti si trovino nello stesso tenant indipendentemente dalle estensioni degli indirizzi di posta elettronica: Creare un tenant di destinazione anticipatamente o usare un tenant esistente. Aggiungere quindi tutti i domini e i sottodomini esistenti da consolidare all'interno del tenant. Tutti gli utenti con indirizzi di posta elettronica che terminano con tali domini e sottodomini vengono automaticamente aggiunti al tenant di destinazione quando effettuano l'iscrizione.
 
 > [!IMPORTANT]
 > Una volta creati gli utenti, non c'è alcun meccanismo automatico supportato per spostarli tra tenant. Per informazioni sull'aggiunta di domini a un singolo tenant di Microsoft 365, vedere [Aggiungere utenti e dominio in Office 365](/office365/admin/setup/add-domain/).

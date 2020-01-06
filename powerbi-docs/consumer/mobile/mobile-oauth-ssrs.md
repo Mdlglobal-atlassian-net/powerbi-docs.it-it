@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870088"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220609"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Uso di OAuth per la connessione al Server di report di Power BI e a SSRS
 
@@ -94,7 +94,7 @@ All'interno della schermata di gestione di AD FS è necessario creare un gruppo 
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 01](media/mobile-oauth-ssrs/adfs-application-group-wizard1.png)
 
-3. Fare clic su **Avanti**.
+3. Selezionare **Next** (Avanti).
 
 4. Fornire un **nome** per l'applicazione che si sta aggiungendo. 
 
@@ -112,7 +112,7 @@ All'interno della schermata di gestione di AD FS è necessario creare un gruppo 
    urn:ietf:wg:oauth:2.0:oob
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
-7. Fare clic su **Avanti**.
+7. Selezionare **Next** (Avanti).
 
 8. Fornire l'URL del server di report. Si tratta dell'URL esterno che raggiungerà il proxy applicazione Web. Deve essere nel formato seguente.
 
@@ -122,17 +122,17 @@ All'interno della schermata di gestione di AD FS è necessario creare un gruppo 
    *https://< url server di report >/*
 
    ![AD FS - Aggiunta guidata gruppo di applicazioni 03](media/mobile-oauth-ssrs/adfs-application-group-wizard3.png)
-9. Fare clic su **Avanti**.
+9. Selezionare **Next** (Avanti).
 
 10. Scegliere i **Criteri di controllo di accesso** idonei alle esigenze della propria organizzazione.
 
     ![AD FS - Aggiunta guidata gruppo di applicazioni 04](media/mobile-oauth-ssrs/adfs-application-group-wizard4.png)
 
-11. Fare clic su **Avanti**.
+11. Selezionare **Next** (Avanti).
 
 12. Fare clic su **Avanti**.
 
-13. Fare clic su **Avanti**.
+13. Selezionare **Next** (Avanti).
 
 14. Selezionare **Chiudi**.
 
@@ -185,7 +185,7 @@ Per configurare la delega vincolata, eseguire le operazioni seguenti.
 
     ![Vincolato da WAP 04](media/mobile-oauth-ssrs/wap-contrained-delegation4.png)
 
-11. Selezionare **OK**.
+11. Seleziona **OK**.
 
 ### <a name="add-wap-application"></a>Aggiungere applicazione WAP
 
@@ -244,7 +244,7 @@ Dopo aver selezionato **Accedi**, vengono visualizzati gli elementi dal server d
 
 È possibile impostare [Fiddler](https://www.telerik.com/fiddler) in modo che funga da proxy per i dispositivi mobili e visualizzi l'avanzamento della richiesta. Per abilitare un proxy di Fiddler per il dispositivo telefonico, è necessario configurare [CertMaker per iOS e Android](https://www.telerik.com/fiddler/add-ons) nel computer che esegue Fiddler. Il componente aggiuntivo è di Telerik per Fiddler.
 
-Se l'accesso funziona correttamente quando si usa Fiddler, potrebbe essere un problema di certificato con l'applicazione WAP o il server ADFS. È possibile usare uno strumento come [Microsoft Message Analyzer](https://www.microsoft.com/download/details.aspx?id=44226) per verificare che i certificati siano validi.
+Se l'accesso funziona correttamente quando si usa Fiddler, potrebbe essere un problema di certificato con l'applicazione WAP o il server ADFS. 
 
 ## <a name="next-steps"></a>Passaggi successivi
 

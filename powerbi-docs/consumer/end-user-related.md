@@ -12,10 +12,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73862269"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Visualizzare il contenuto correlato nel servizio Power BI
@@ -58,7 +58,7 @@ Nel riquadro di spostamento trovare l'intestazione **Aree di lavoro** e selezion
 ![aree di lavoro nel riquadro di spostamento](./media/end-user-related/power-bi-workspace.png)
 
 
-In un'area di lavoro selezionare la scheda **Set di dati** e quindi trovare l'icona **Visualizza elementi correlati** ![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png).
+In un'area di lavoro selezionare la scheda **Set di dati** e quindi trovare l'icona **Visualizza elementi correlati**![Icona Visualizza elementi correlati](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Scheda Set di dati](./media/end-user-related/power-bi-related-dataset.png)
 

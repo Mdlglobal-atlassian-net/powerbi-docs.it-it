@@ -10,10 +10,10 @@ ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 0d2b316b53b4107c86a036cc8a436440dd8bd674
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74311533"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Esercitazione: Creare misure personalizzate in Power BI Desktop
@@ -67,7 +67,7 @@ Le formule DAX usano in molti casi funzioni, operatori e sintassi simili a quell
 
 Quando si crea una misura personalizzata, questa viene chiamata misura *modello* e viene aggiunta all'elenco **Campi** per la tabella selezionata. Alcuni vantaggi delle misure modello sono la possibilità di assegnare il nome preferito rendendole più identificabili, di usarle come argomenti in altre espressioni DAX e di usarle per eseguire calcoli complessi velocemente.
 
-### <a name="quick-measures"></a>Misure rapide
+### <a name="quick-measures"></a>Misura rapida
 
 A partire dalla versione di febbraio 2018 di Power BI Desktop, molti calcoli comuni sono disponibili in forma di *misure rapide*, che scrivono automaticamente le formule DAX in base all'input dell'utente in una finestra. Questi calcoli potenti e veloci sono anche molto utili per imparare il linguaggio DAX o come base per misure personalizzate. 
 

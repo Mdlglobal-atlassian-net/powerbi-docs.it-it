@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565330"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622434"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organizzare il lavoro nelle nuove aree di lavoro in Power BI
 
@@ -62,7 +62,7 @@ Quando si assegnano i ruoli a un gruppo di utenti, i singoli utenti del gruppo p
 
 Ecco le funzionalità dei quattro ruoli: amministratori, membri, collaboratori e visualizzatori. Tutte queste funzionalità, a eccezione della visualizzazione e dell'interazione, richiedono una licenza di Power BI Pro.
 
-|Capacità   | Admin  | Membro  | Collaboratore  | Visualizzatore |
+|Funzionalità   | Amministratore  | Membro  | Collaboratore  | Visualizzatore |
 |---|---|---|---|---|
 | Aggiornare ed eliminare l'area di lavoro.  | X  |   |   |   | 
 | Aggiungere/rimuovere utenti, inclusi altri amministratori.  | X  |   |   |   |
@@ -111,18 +111,19 @@ La funzionalità OneDrive area di lavoro consente di configurare un gruppo di Of
 Power BI non sincronizza le autorizzazioni di utenti o gruppi che sono configurati per l'accesso all'area di lavoro con l'appartenenza a un gruppo di Office 365. È consigliabile gestire l'accesso dell'area di lavoro tramite la stesso gruppo di Office 365 la cui archiviazione file si configura in questa impostazione. 
 
 Vedere le informazioni su come [impostare OneDrive area di lavoro e accedervi](service-create-the-new-workspaces.md#workspace-onedrive).  
-   
+
 ## <a name="auditing"></a>Controllo
+
 Le attività seguenti vengono controllate da Power BI per la nuova esperienza delle aree di lavoro.
 
-| Nome descrittivo |   Nome operazione |
+| Nome descrittivo | Nome operazione |
 |---|---|
 | Cartella di Power BI creata | CreateFolder |
 | Cartella di Power BI eliminata | DeleteFolder |
 | Cartella di Power BI aggiornata | UpdateFolder |
 | Accesso alla cartella di Power BI aggiornato| UpdateFolderAccess |
 
-Vedere altre informazioni sul [controllo in Power BI](service-admin-auditing.md#activities-audited-by-power-bi).
+Vedere altre informazioni sul [controllo in Power BI](service-admin-auditing.md).
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 

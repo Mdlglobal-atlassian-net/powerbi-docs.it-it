@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478624"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223656"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Linee guida per il modello DirectQuery in Power BI Desktop
 
@@ -87,7 +87,7 @@ Un modello DirectQuery può essere ottimizzato in diversi modi, come descritto n
 
     Se si aumenta il valore **Numero massimo di connessioni per origine dati**, è possibile inviare un numero maggiore di query, fino al numero massimo specificato, all'origine dati sottostante. Questo è utile se in un'unica pagina sono presenti numerosi oggetti visivi o se molti utenti accedono a un report contemporaneamente. Quando viene raggiunto il numero massimo di connessioni, le query in eccesso vengono accodate fino a quando non diventa disponibile una connessione. L'aumento di questo limite comporta un carico maggiore per l'origine dati sottostante. L'impostazione non garantisce quindi il miglioramento delle prestazioni complessive.
     
-    Quando il modello viene pubblicato in Power BI, il numero massimo di query simultanee inviate all'origine dati sottostante dipende anche dall'ambiente. Ambienti diversi (ad esempio Power BI, Power BI Premium o Server di report di Power BI) possono imporre ognuno vincoli diversi per la velocità effettiva. Per altre informazioni sulle limitazioni delle risorse relative alle capacità di Power BI Premium, vedere [Distribuzione e gestione delle capacità Power BI Premium](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities).
+    Quando il modello viene pubblicato in Power BI, il numero massimo di query simultanee inviate all'origine dati sottostante dipende anche dall'ambiente. Ambienti diversi (ad esempio Power BI, Power BI Premium o Server di report di Power BI) possono imporre ognuno vincoli diversi per la velocità effettiva. Per altre informazioni sulle limitazioni delle risorse relative alle capacità di Power BI Premium, vedere [Distribuzione e gestione delle capacità Power BI Premium](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment).
 
 ## <a name="optimize-report-designs"></a>Ottimizzazione delle progettazioni di report
 
