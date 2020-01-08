@@ -28,6 +28,8 @@
           href: dax-countrows.md
         - name: Evitare di convertire risultati BLANK in valori
           href: dax-avoid-converting-blank.md
+        - name: Riferimenti a colonne e misure
+          href: dax-column-measure-references.md
         - name: Procedure consigliate per i flussi di dati
           href: ../service-dataflows-best-practices.md
         - name: Linee guida per il modello DirectQuery in Power BI Desktop
@@ -42,6 +44,8 @@
           href: auto-date-time.md
         - name: Linee guida per le relazioni molti-a-molti
           href: relationships-many-to-many.md
+        - name: Disabilitare l'aggiornamento in background di Power Query
+          href: power-query-background-refresh.md
     - name: White paper
       items:
         - name: Panoramica dei white paper
