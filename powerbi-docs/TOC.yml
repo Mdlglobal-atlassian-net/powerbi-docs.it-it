@@ -173,7 +173,7 @@
               href: desktop-connect-snowflake.md
             - name: Connettersi ai dati di Gestione costi di Azure
               href: desktop-connect-azure-cost-management.md
-            - name: Connettersi ai dati di Informazioni sul consumo di Microsoft Azure
+            - name: Connettersi a Informazioni dettagliate sul consumo di Azure
               href: desktop-connect-azure-consumption-insights.md
             - name: Usare SAP HANA
               href: desktop-sap-hana.md
@@ -259,9 +259,9 @@
               href: desktop-grouping-and-binning.md
             - name: Usare R per creare oggetti visivi di Power BI
               href: desktop-r-visuals.md
-            - name: Usare oggetti visivi personalizzati basati su R
+            - name: Usare gli oggetti visivi personalizzati basati su R
               href: desktop-r-powered-custom-visuals.md
-            - name: Usare le linee griglia e l'opzione Blocca sulla griglia
+            - name: Usare le linee guida della griglia e del blocco alla griglia
               href: desktop-gridlines-snap-to-grid.md
             - name: Applicare le impostazioni di visualizzazione della pagina nei report di Power BI
               href: power-bi-report-display-settings.md
@@ -271,7 +271,7 @@
               href: desktop-add-custom-column.md
             - name: Usare le etichette di gerarchia inline
               href: desktop-inline-hierarchy-labels.md
-            - name: Usare il filtro dei dati per intervalli numerici
+            - name: Usare il filtro dei dati per l'intervallo numerico
               href: desktop-slicer-numeric-range.md
             - name: Usare il filtro e il filtro dei dati per la data relativa
               href: desktop-slicer-filter-date-range.md
@@ -495,7 +495,7 @@
               href: service-admin-licensing-organization.md
             - name: Funzionalità in base al tipo di licenza
               href: service-features-license-type.md
-            - name: Power BI per il Governo degli Stati Uniti
+            - name: Power BI per Governo degli Stati Uniti
               href: service-govus-overview.md
             - name: Domande frequenti per i clienti del Cloud Germania
               href: service-govde-faq.md
@@ -513,7 +513,7 @@
               href: service-flow-integration.md
             - name: Usare app di terze parti
               href: service-power-bi-get-started-third-party-apps.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Ottenere dati da file
           items:
@@ -631,7 +631,7 @@
               href: service-interact-with-a-report-in-editing-view.md
             - name: Analizza in Excel
               href: service-analyze-in-excel.md
-            - name: Suggerimenti e consigli per la creazione di report
+            - name: Suggerimenti e consigli per creare report
               href: power-bi-reports-tips-and-tricks-for-creating.md
             - name: Lavorare con aggregazioni nel servizio
               href: service-aggregates.md
@@ -705,7 +705,7 @@
           items:
             - name: Preparazione dei dati self-service con flussi di dati
               href: service-dataflows-overview.md
-            - name: Crea e usa flussi di dati
+            - name: Creare e usare flussi di dati
               href: service-dataflows-create-use.md
             - name: Entità calcolate con Power BI Premium
               href: service-dataflows-computed-entities-premium.md
@@ -791,7 +791,7 @@
               href: service-rename.md
             - name: Impostare i contatti per gli elementi
               href: service-item-contact.md
-            - name: Registrare la propria organizzazione del Governo degli Stati Uniti
+            - name: Registrare l'organizzazione governativa degli Stati Uniti
               href: service-govus-signup.md
             - name: Eliminare qualsiasi elemento in Power BI
               href: service-delete.md
@@ -855,7 +855,7 @@
           href: service-premium-capacity-scenarios.md
         - name: Domande frequenti su Power BI Premium
           href: service-premium-faq.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Acquistare Power BI Premium
           href: service-admin-premium-purchase.md
@@ -903,8 +903,6 @@
           href: report-builder-data.md
         - name: Origini dati supportate
           href: paginated-reports-data-sources.md
-        - name: Usare set di dati condivisi di Power BI
-          href: report-builder-shared-datasets.md
         - name: Suggerimenti relativi alla progettazione
           href: report-builder-design-tips.md
         - name: 'Tabelle, matrici, elenchi'
@@ -921,7 +919,7 @@
           href: report-builder-previewing-reports.md
         - name: Domande frequenti sui report impaginati
           href: paginated-reports-faq.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Immettere i dati direttamente in un report impaginato
           href: paginated-reports-enter-data.md
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Creare un set di dati incorporato
           href: paginated-reports-create-embedded-dataset.md
+        - name: Creare un report con un set di dati condiviso di Power BI
+          href: report-builder-shared-datasets.md
         - name: Creare parametri
           href: paginated-reports-parameters.md
         - name: Passare un parametro del report in un URL
@@ -957,7 +957,7 @@
           href: report-server/support-timeline.md
         - name: Requisiti hardware e software
           href: report-server/system-requirements.md
-        - name: Supporto del browser
+        - name: Supporto browser
           href: report-server/browser-support.md
         - name: Panoramica amministratore
           href: report-server/admin-handbook-overview.md
@@ -973,7 +973,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: Uso dell'app per dispositivi mobili
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'
-            - name: Risolvere i problemi dell'aggiornamento pianificato
+            - name: Risolvere i problemi relativi all'aggiornamento pianificato
               href: report-server/scheduled-refresh-troubleshoot.md
         - name: Server di report per gli sviluppatori
           items:
@@ -985,10 +985,12 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848723'
             - name: Incorporare report
               href: report-server/quickstart-embed.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Installare Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: Installare Generatore report
+          href: report-server/install-report-builder.md
         - name: Nozioni di base sul server di report
           items:
             - name: Creare un report di Power BI per un server di report
@@ -1017,7 +1019,7 @@
               href: report-server/install-report-server.md
             - name: Trovare il codice Product Key
               href: report-server/find-product-key.md
-            - name: Eseguire l'aggiornamento di un server di report
+            - name: Aggiornare un server di report
               href: report-server/upgrade.md
             - name: Eseguire la migrazione di un server di report
               href: report-server/migrate-report-server.md
@@ -1043,7 +1045,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848723'
     - name: Risorse
       items:
-        - name: White paper sulla pianificazione della capacità
+        - name: Whitepaper sulla pianificazione della capacità
           href: report-server/capacity-planning.md
         - name: Conformità dell'estensione per il rendering PDF
           href: report-server/rendering-extension-support.md
@@ -1059,7 +1061,7 @@
           href: service-gateway-deployment-guidance.md
         - name: Domande frequenti sul gateway dati locale
           href: service-gateway-power-bi-faq.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Gateway dati locale - Approfondimento
           href: service-gateway-onprem-indepth.md
