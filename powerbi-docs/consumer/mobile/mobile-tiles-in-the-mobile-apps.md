@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870046"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221193"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Esplorare i riquadri nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -40,11 +40,14 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    In un grafico a torta toccare una sezione della torta per visualizzarne i valori nella parte superiore della torta.  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. In una mappa toccare l'icona **Centra mappa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) per centrare la mappa rispetto alla posizione corrente.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. Toccare l'icona Condividi ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) per [aggiungere annotazioni a un riquadro e condividerlo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con altre persone.
+3. In una mappa toccare l'icona **Centra mappa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) per centrare la mappa rispetto alla posizione corrente.
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. Toccare l'icona a forma di matita ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) per [aggiungere un'annotazione a un riquadro](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e quindi l'icona di condivisione ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) per [condividerla con altri](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+
 5. [Aggiungere un avviso al riquadro](mobile-set-data-alerts-in-the-mobile-apps.md). Se i valori sono superiori o inferiori agli obiettivi, Power BI invierà una notifica.
+
 6. In alcuni casi l'autore del dashboard ha aggiunto un collegamento a un riquadro. In tal caso, il riquadro conterrà un'icona di collegamento ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) quando è in modalità di messa a fuoco:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -68,7 +71,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
     In questa modalità è possibile:
    
    * Toccare il grafico per spostare la barra in un grafico a linee, un grafico a barre, un istogramma o un grafico a bolle per visualizzare i valori relativi a un punto specifico della visualizzazione.  
-   * Toccare l'icona Condividi snapshot ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) per [aggiungere annotazioni al riquadro e condividerlo](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con altre persone.
+   * Toccare l'icona a forma di matita ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) per [aggiungere un'annotazione a un riquadro](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) e quindi l'icona Condividi snapshot ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) per [condividerlo con altri](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
    * Toccare l'icona Apri report ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) per [visualizzare il report](mobile-reports-in-the-mobile-apps.md) nell'app per dispositivi mobili.
 3. In alcuni casi l'autore del dashboard ha aggiunto un collegamento a un riquadro. In tal caso, quando si toccano i puntini di sospensione verticali ( **...** ) verrà visualizzata l'opzione **Apri collegamento** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
@@ -89,7 +92,7 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
     [Condividere uno snapshot del riquadro](mobile-windows-10-phone-app-get-started.md).
    
-    Toccare **Apri report** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)per [visualizzare il report sottostante](mobile-reports-in-the-mobile-apps.md).
+    Toccare **Apri report** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) per [visualizzare il report sottostante](mobile-reports-in-the-mobile-apps.md).
    
     [Aprire il collegamento](../../service-dashboard-edit-tile.md#hyperlink), se presente. I collegamenti possono indirizzare a dashboard di Power BI o a un URL esterno.
 3. Toccare **Espandi riquadro** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Viene aperto in stato attivo in modo da visualizzare ed esplorare i dati del riquadro più facilmente. In questo stato è possibile:
@@ -104,14 +107,14 @@ I riquadri sono snapshot dei dati in tempo reale aggiunti a un dashboard. I rela
    
    *In questo grafico a barre, i valori della barra **Decor** vengono visualizzati nella parte superiore del grafico.*
    
-   Toccare l'icona **Schermo intero** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) per aprire il riquadro in modalità schermo intero, senza le barre di spostamento e dei menu.
+   Toccare l'icona **Schermo intero**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) per aprire il riquadro in modalità schermo intero, senza le barre di spostamento e dei menu.
    
    > [!NOTE]
    > È anche possibile [visualizzare i dashboard e i report in modalità schermo intero](mobile-windows-10-app-presentation-mode.md) nell'app Power BI per dispositivi mobili per Windows 10.
    > 
    > 
    
-   In una mappa toccare l'icona **Centra mappa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) per centrare la mappa rispetto alla posizione corrente.
+   In una mappa toccare l'icona **Centra mappa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) per centrare la mappa rispetto alla posizione corrente.
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

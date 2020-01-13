@@ -1,21 +1,21 @@
 ---
 title: Incorporare con web part report in SharePoint Online
 description: Con la nuova web part report di Power BI per SharePoint Online è possibile incorporare facilmente report interattivi di Power BI nelle pagine di SharePoint Online.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881892"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221713"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Incorporare con web part report in SharePoint Online
 
@@ -29,6 +29,7 @@ Affinché i report di **Incorpora in SharePoint Online** funzionino, è necessar
 
 * Una licenza di Power BI Pro o una [capacità Power BI Premium (SKU EM o P)](service-premium-what-is.md) con una licenza di Power BI.
 * La web part Power BI per SharePoint Online richiede le [pagine moderne](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
+* Per utilizzare un report incorporato, gli utenti devono accedere al servizio Power BI per attivare la relativa licenza di Power BI.
 
 ## <a name="embed-your-report"></a>Incorporare il report
 Per incorporare il report in SharePoint Online, è necessario ottenere l'URL del report e usarlo con la web part Power BI di SharePoint Online.
@@ -118,10 +119,10 @@ Di seguito sono riportate le impostazioni che è possibile regolare per la web p
 
 ![Proprietà della web part SP](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
 
-| Property | Descrizione |
+| Proprietà | Descrizione |
 | --- | --- |
 | Nome pagina |Imposta la pagina predefinita della web part. Selezionare un valore nell'elenco a discesa. Se non viene visualizzata alcuna pagina, il report contiene una sola pagina o l'URL incollato contiene un nome di pagina. Rimuovere la sezione del report dall'URL per selezionare una pagina specifica. |
-| Schermo |Adatta il report all'interno della pagina di SharePoint Online. |
+| Visualizza |Adatta il report all'interno della pagina di SharePoint Online. |
 | Mostra il riquadro di spostamento |Visualizza o nasconde il riquadro di spostamento nella pagina. |
 | Show Filter Pane |Mostra o nasconde il riquadro filtri. |
 

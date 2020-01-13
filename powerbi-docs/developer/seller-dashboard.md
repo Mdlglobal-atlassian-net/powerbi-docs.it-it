@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/03/2019
-ms.openlocfilehash: 12ecde787bb268190f9b94a2db5992d5840080ac
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 73a6a3d16ae2515af41a3232a37579e18876f38b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75002536"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223679"
 ---
 # <a name="submit-a-power-bi-visual-to-appsource-using-seller-dashboard"></a>Inviare un oggetto visivo di Power BI ad AppSource usando il Dashboard venditori
 
@@ -103,7 +103,7 @@ Seguire le istruzioni riportate in questa sezione per inviare un oggetto visivo 
     * [Adesione ai requisiti](power-bi-custom-visuals-certified.md#certification-requirements)
     * Revisione del codice superata
 
-2. Il team degli oggetti visivi di Microsoft Power BI invia una notifica quando l'oggetto visivo di Power BI viene certificato e aggiunto all'[elenco degli oggetti visivi certificati](power-bi-custom-visuals-certified.md#list-of-power-bi-visuals-that-have-been-certified) o rifiutato con un report dei problemi che devono essere corretti. È responsabilità dello sviluppatore mantenere una linea di comunicazione aperta con Microsoft e aggiornare gli oggetti visivi certificati in base alle esigenze.
+2. Il team degli oggetti visivi di Microsoft Power BI invia una notifica quando l'oggetto visivo di Power BI viene certificato e aggiunto all'elenco degli [oggetti visivi certificati di Power BI](power-bi-custom-visuals-certified.md#certified-power-bi-visuals) o rifiutato con un report dei problemi che devono essere corretti. È responsabilità dello sviluppatore mantenere una linea di comunicazione aperta con Microsoft e aggiornare gli oggetti visivi certificati in base alle esigenze.
 
 ## <a name="tracking-submission-status-and-usage"></a>Rilevamento dello stato e dell'utilizzo dell'invio
 

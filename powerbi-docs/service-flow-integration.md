@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699683"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223794"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate e Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) è un'applicazione SaaS che automatizza i flussi di lavoro nel crescente numero di applicazioni e servizi SaaS a cui si affidano gli utenti aziendali. Con Flow è possibile automatizzare le attività grazie all'integrazione delle app preferite e dei servizi (incluso Power BI) per ricevere le notifiche, sincronizzare i file, raccogliere dati e altro ancora. Le attività ripetitive saranno facilitate con l'automazione del flusso di lavoro.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) è un'applicazione SaaS che automatizza i flussi di lavoro nel crescente numero di applicazioni e servizi SaaS a cui si affidano gli utenti aziendali. Con Flow è possibile automatizzare le attività grazie all'integrazione delle app preferite e dei servizi (incluso Power BI) per ricevere le notifiche, sincronizzare i file, raccogliere dati e altro ancora. Le attività ripetitive saranno facilitate con l'automazione del flusso di lavoro.
 
-[Introduzione all'uso di Flow.](https://flow.microsoft.com/documentation/getting-started)
+[Introduzione all'uso di Flow.](https://docs.microsoft.com/power-automate/getting-started)
 
-Guardare il video per scoprire come creare un flusso che invia posta dettagliata ai colleghi quando viene attivato un avviso di Power BI. Seguire quindi le istruzioni successive per sotto il video per fare una prova in prima persona.
+Guardare il video per scoprire come creare un flusso che invia posta dettagliata ai colleghi quando viene attivato un avviso di Power BI. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YhmNstC39Mw" frameborder="0" allowfullscreen></iframe>
 
@@ -47,7 +47,7 @@ In questa attività si userà un modello per creare un semplice flusso che viene
     ![Risultati della ricerca](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>Creare il flusso
+### <a name="build-the-flow"></a>Compilare il flusso
 Questo modello prevede un trigger (avviso per i dati di Power BI per le nuove medaglie olimpiche all'Irlanda) e un'azione (inviare un messaggio di posta elettronica). Quando si seleziona un campo, Flow mostra il contenuto dinamico che è possibile includere.  In questo esempio sono inclusi il valore e l'URL del riquadro nel corpo del messaggio.
 
 ![Modello di flusso](media/service-flow-integration/power-bi-template1.png)
@@ -107,7 +107,7 @@ In questa attività si creerà da zero un semplice flusso che viene attivato da 
     ![Flow attiva la notifica di Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-* [Introduzione a Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [Introduzione a Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [Impostare gli avvisi per i dati nel servizio Power BI](service-set-data-alerts.md)
 * [Impostare gli avvisi per i dati nell'iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Impostare gli avvisi per i dati nell'app Power BI per dispositivi mobili per Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

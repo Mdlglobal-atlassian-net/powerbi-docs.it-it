@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875318"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304317"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creare un'origine dati incorporata per i report impaginati nel servizio Power BI
 
@@ -53,7 +53,7 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
   
     -   Digitare la stringa di connessione direttamente nella casella di testo **Stringa di connessione**. 
   
-    -   Selezionare il pulsante espressione (**fx)** per creare un'espressione che restituisca una stringa di connessione. Nella finestra di dialogo **Espressione** digitare l'espressione nel riquadro Espressione. Selezionare **OK**. 
+    -   Selezionare il pulsante espressione (**fx)** per creare un'espressione che restituisca una stringa di connessione. Nella finestra di dialogo **Espressione** digitare l'espressione nel riquadro Espressione. Seleziona **OK**. 
   
     -   Selezionare **Compila** per aprire la finestra di dialogo **Proprietà di connessione** relativa all'origine dati scelta nel passaggio 2.  
   
@@ -63,7 +63,7 @@ Visualizzare [Dati dei report in Generatore report di Power BI](report-builder-d
   
      Specificare le credenziali da usare per questa origine dati. Il proprietario dell'origine dati sceglie il tipo di credenziali supportate. Per altre informazioni, vedere [Specificare le credenziali e le informazioni sulla connessione per le origini dati del report](https://docs.microsoft.com/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources).
   
-5.  Selezionare **OK**.  
+5.  Seleziona **OK**.  
   
      L'origine dati viene visualizzata nel riquadro Dati report.  
      
@@ -75,21 +75,21 @@ I report impaginati connessi a set di dati di Power BI seguono le regole per i s
 
 - File con estensione rdl nella stessa area di lavoro del set di dati (stesso proprietario): Supportato
 - File con estensione rdl in un'area di lavoro diversa dal set di dati (stesso proprietario): Supportato
-- File con estensione rdl condiviso: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
-- App condivisa: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
+- File con estensione rdl condiviso: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
+- App condivisa: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
 - File con estensione rdl nella stessa area di lavoro del set di dati (utente diverso): Supportato
-- File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
-- Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione.
+- File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
+- Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura.
 
 ### <a name="new-experience-apps-and-workspaces"></a>App e aree di lavoro nella nuova esperienza
 
 - File con estensione rdl nella stessa area di lavoro del set di dati: Supportato
 - File con estensione rdl in un'area di lavoro diversa dal set di dati (stesso proprietario): Supportato
-- File con estensione rdl condiviso: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
-- App condivisa: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
+- File con estensione rdl condiviso: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
+- App condivisa: ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
 - File con estensione rdl nella stessa area di lavoro del set di dati - Supportato
-- File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
-- Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di compilazione
+- File con estensione rdl in un'area di lavoro diversa dal set di dati (utente diverso): ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
+- Sicurezza a livello di ruolo: affinché sia applicata, ogni utente che visualizza il report a livello di set di dati deve avere l'autorizzazione di lettura
 
 ## <a name="next-steps"></a>Passaggi successivi
 

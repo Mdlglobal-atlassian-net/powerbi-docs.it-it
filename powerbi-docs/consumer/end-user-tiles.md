@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861423"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Riquadri del dashboard in Power BI
@@ -51,17 +51,17 @@ Per saperne di più sui componenti essenziali di Power BI,  vedere [Power BI - C
    
     Da qui è possibile:
    
-   * [Aprire il report usato per creare questo riquadro](end-user-reports.md) ![Icona del report](./media/end-user-tiles/chart-icon.jpg)  
+   * [Aprire il report usato per creare questo riquadro](end-user-reports.md) ![icona del report](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [Aprire la domanda di Domande e risposte usata per creare il riquadro ](end-user-reports.md) ![Icona Domande e risposte](./media/end-user-tiles/qna-icon.png)  
+   * [Aprire la domanda di Domande e risposte usata per creare il riquadro ](end-user-reports.md) ![icona Domande e risposte](./media/end-user-tiles/qna-icon.png)  
    
 
-   * [Aprire il foglio di lavoro usato per creare questo riquadro ](end-user-reports.md) ![Icona del foglio di lavoro](./media/end-user-tiles/power-bi-open-worksheet.png)  
-   * [Visualizzare il riquadro in modalità messa a fuoco ](end-user-focus.md) ![Icona della modalità messa a fuoco](./media/end-user-tiles/fullscreen-icon.jpg)  
-   * [Visualizzare informazioni dettagliate ](end-user-insights.md) ![Icona delle informazioni dettagliate](./media/end-user-tiles/power-bi-insights.png)
-   * [Aggiungere un commento e avviare una discussione](end-user-comment.md)![Icona del commento](./media/end-user-tiles/comment-icons.png)
-   * [Gestire gli avvisi impostati sul riquadro del dashboard](end-user-alerts.md)  ![Icona degli avvisi](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [Aprire i dati in Excel](end-user-export.md)  ![Icona di esportazione](./media/end-user-tiles/power-bi-export-icon.png)
+   * [Aprire il foglio di lavoro usato per creare il riquadro ](end-user-reports.md) ![icona del foglio di lavoro](./media/end-user-tiles/power-bi-open-worksheet.png)  
+   * [Visualizzare il riquadro in modalità messa a fuoco ](end-user-focus.md) ![icona della modalità messa a fuoco](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Visualizzare informazioni dettagliate ](end-user-insights.md) ![icona delle informazioni dettagliate](./media/end-user-tiles/power-bi-insights.png)
+   * [Aggiungere un commento e avviare una discussione](end-user-comment.md) ![icona del commento](./media/end-user-tiles/comment-icons.png)
+   * [Gestire gli avvisi impostati sul riquadro di un dashboard](end-user-alerts.md) ![icona degli avvisi](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Aprire i dati in Excel](end-user-export.md) ![icona di esportazione](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. Per chiudere il menu delle azioni, selezionare un'area vuota nell'area di disegno.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c97316b0509f7d243befa5cfe5310aa0f5826335
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4fdcfd4d7684cef3e6b703709b2739ebbff1badd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879999"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223595"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Usare i temi dei report in Power BI Desktop
 I **temi dei report** consentono di applicare modifiche alla struttura dell'intero report, ad esempio usando i colori aziendali, modificando i set di icone o applicando una nuova formattazione visuale predefinita. Quando si applica un **tema del report** tutti gli oggetti visivi del report usano i colori e la formattazione del tema selezionato. Ci sono alcune eccezioni, che vengono descritte più avanti in questo articolo.
@@ -23,10 +23,10 @@ I **temi dei report** consentono di applicare modifiche alla struttura dell'inte
 
 Quando si applica un **tema del report** personalizzato, è necessario un file JSON che usa una struttura di base. È quindi possibile importare il file JSON in Power BI Desktop e applicarlo al report.
 
-È anche possibile personalizzare e standardizzare quasi tutti gli elementi visualizzati nel riquadro **Formattazione** tramite il file JSON dei temi. L'obiettivo è quello di offrire il controllo completo sull'aspetto dei report, a un livello granulare.
+È anche possibile personalizzare e standardizzare quasi tutti gli elementi visualizzati nel riquadro **Formattazione** tramite personalizzazioni eseguite direttamente in Power BI Desktop o tramite il file JSON dei temi. L'obiettivo è quello di offrire il controllo completo sull'aspetto dei report, a un livello granulare.
 
 ## <a name="how-report-themes-work"></a>Come funzionano i temi dei report
-Per applicare un tema a un report di Power BI Desktop, è possibile scegliere tra i temi dei report predefiniti disponibili oppure importare un tema personalizzato.
+Per applicare un tema a un report di Power BI Desktop, è possibile scegliere tra i temi dei report predefiniti disponibili oppure creare o importare un tema personalizzato.
 
 | Tema del report predefinito | Sequenza di colori predefinita    |
 |------ |---------- |
@@ -70,7 +70,48 @@ Al termine del caricamento del file del tema, Power BI Desktop visualizza una no
 
 ![Il tema è stato importato](media/desktop-report-themes/report-themes_5.png)
 
-Ora che il file del tema è stato importato, osservare la struttura del file JSON.
+I temi in Power BI Desktop possono essere personalizzati in due modi, che verranno ora analizzati in dettaglio.
+
+
+## <a name="customize-report-themes-preview"></a>Personalizzare i temi del report (anteprima)
+
+A partire dalla versione di dicembre 2019 di **Power BI Desktop**, è ora possibile personalizzare un tema del report in due modi:
+
+* Creare e personalizzare un tema in Power BI Desktop (anteprima)
+* Creazione e personalizzazione di un file JSON del tema del report personalizzato
+
+Per personalizzare un tema direttamente in Power BI Desktop, è necessario selezionare innanzitutto **File > Opzioni e impostazioni > Opzioni** e quindi, nella sezione **Funzionalità di anteprima**, selezionare la casella accanto a **Personalizza tema corrente**, come illustrato nella figura seguente.
+
+![Abilitare i temi personalizzati](media/desktop-report-themes/report-themes_5a.png)
+
+Potrebbe essere richiesto di riavviare Power BI Desktop per rendere effettiva la funzionalità di anteprima.
+
+Dopo il riavvio, è possibile iniziare a personalizzare il tema corrente selezionando la barra multifunzione **Home** e quindi selezionando **Cambia tema > Personalizza tema corrente** dalla barra multifunzione. Verrà visualizzata una finestra di dialogo che riporta le diverse modalità con cui è possibile personalizzare un tema esistente.
+
+![Personalizzare il tema](media/desktop-report-themes/report-themes_5b.png)
+
+Se si apprezza particolarmente un tema esistente e si vogliono apportare solo alcune modifiche, è possibile selezionare il tema e quindi selezionare **Personalizza tema corrente** dalla finestra di dialogo, come illustrato nella figura seguente. 
+
+![Personalizzare il tema corrente](media/desktop-report-themes/report-themes_5c.png)
+
+> [!NOTE]
+> L'immagine precedente è stata acquisita con la nuova barra multifunzione, attualmente in anteprima, abilitata. È possibile abilitare la nuova barra multifunzione di anteprima selezionando **File > Opzioni e impostazioni > Opzioni** e quindi, nella sezione **Funzionalità di anteprima**, selezionare **New ribbon preview** (Nuova barra multifunzione - anteprima).
+
+Le impostazioni del tema che possono essere personalizzate rientrano nelle categorie seguenti e rispecchiano quelle della finestra di dialogo Personalizza tema:
+
+* Nome del tema (è possibile assegnare un nome al tema personalizzato) e varie impostazioni di colore (colori del tema, colori del sentiment, colori divergenti e altro)
+* Impostazioni del testo, tra cui famiglia di caratteri, dimensioni e colore, oltre a titoli degli assi, colori, schede, indicatori KPI e intestazioni delle schede
+* Elementi visivi, ad esempio sfondo, bordo, intestazione e descrizioni comando
+* Elementi della pagina, come gli sfondi
+* Impostazioni del riquadro filtro, inclusi colore di sfondo, trasparenza, colore dei caratteri e delle icone, dimensioni, schede dei filtri e altro ancora
+
+Dopo aver apportato le modifiche e selezionato il pulsante **Applica e salva**, il tema viene salvato, può essere usato nel report corrente e può essere esportato. 
+
+Personalizzare il tema corrente in questo modo è un metodo semplice e rapido per personalizzare i temi. Tuttavia, esistono alcune rettifiche finite per i temi che richiedono la modifica del file JSON del tema, come descritto nella sezione seguente.
+
+> [!TIP]
+> È possibile personalizzare la maggior parte degli elementi del tema tramite gli elementi visivi usando la finestra di dialogo **Personalizza tema corrente**, quindi è possibile esportare il file JSON e apportare manualmente le modifiche desiderate (modificando il file JSON stesso). Infine, è possibile rinominare il file JSON ottimizzato, importarlo e disporre di tutte le modifiche necessarie.
+
 
 ## <a name="structure-of-a-report-theme-json-file"></a>Struttura di un file JSON di tema del report
  Quando viene aperto in un editor, il file JSON di base selezionato nella sezione precedente, ovvero *St Patrick's Day.json*, ha un aspetto simile allo screenshot seguente:
@@ -423,7 +464,7 @@ La tabella seguente definisce i valori di *cardName*. Il primo valore in ogni ce
 | goals: Obiettivi |
 | grid: Griglia |
 | header: Intestazione |
-| imageScaling: Ridimensionamento |
+| imageScaling: Scala |
 | indicator: Indicatore |
 | items: Elementi |
 | labels: Etichette dati |

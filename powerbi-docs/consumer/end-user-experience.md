@@ -12,10 +12,10 @@ ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73851517"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guida introduttiva: navigazione nel servizio Power BI
@@ -91,7 +91,7 @@ L'opzione **Preferiti** consente di accedere rapidamente ai contenuti più impor
    
    ![Contrassegnare come preferito](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. Aprire il *riquadro* **Preferiti**, selezionando **Preferiti** nel riquadro di spostamento sinistro o selezionando l'icona a forma di stella ![screenshot dell'icona a forma di stella gialla](media/end-user-experience/powerbi-star-icon.png).
+3. Aprire il *riquadro* **Preferiti**, selezionando **Preferiti** nel riquadro di spostamento o selezionando l'icona a forma di stella ![screenshot dell'icona a forma di stella gialla](media/end-user-experience/powerbi-star-icon.png).
    
    ![Aprire la schermata Preferiti](./media/end-user-experience/power-bi-favorite-pane.png)
    

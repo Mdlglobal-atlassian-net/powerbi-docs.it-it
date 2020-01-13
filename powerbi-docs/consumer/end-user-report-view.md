@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861855"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217882"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Modificare la visualizzazione di una pagina del report
 
@@ -52,6 +52,26 @@ Le opzioni del menu **Visualizza** offrono la flessibilità necessaria per visua
     ![Report visualizzato a schermo intero](media/end-user-report-view/power-bi-full-screen.png)
 
 Quando si esce dal report, le impostazioni del menu **Visualizza** non vengono salvate, ma vengono ripristinate quelle predefinite. Se è importante salvare queste impostazioni, usare i [segnalibri](end-user-bookmarks.md).
+
+## <a name="use-your-browser-to-change-page-display"></a>Usare il browser per cambiare la visualizzazione della pagina
+
+I controlli zoom del browser aumentano e riducono l'area di disegno disponibile. Diminuendo lo zoom l'area di disegno disponibile si espande e viceversa. 
+
+![breve video che mostra i controlli zoom del browser](media/end-user-report-view/power-bi-zoom.png)
+
+Il ridimensionamento dell'intero browser è un altro modo per cambiare le dimensioni di visualizzazione del report. 
+
+![breve video che mostra il ridimensionamento del browser](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>Fare zoom avanti su un oggetto visivo
+A volte è difficile vedere i dettagli di un oggetto visivo. È però possibile aumentare la visualizzazione dell'oggetto visivo. Per altre informazioni, vedere [Modalità messa a fuoco e modalità schermo intero](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>Oggetto visivo nella modalità *messa a fuoco*
+
+![Screenshot di un oggetto visivo aperto in modalità messa a fuoco.](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>Oggetto visivo in modalità *schermo intero*
+![Screenshot di un oggetto visivo aperto in modalità schermo intero.](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

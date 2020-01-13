@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 28e6cea55b02fabddd0b2f118631a09c0344b66f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863101"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75303845"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Filtro incrociato per gli oggetti visivi in un report di Power BI
 Una delle funzionalità interessanti di Power BI è il modo in cui sono interconnessi tutti gli oggetti visivi in una pagina del report. Se si seleziona un punto dati in uno degli oggetti visivi, tutti gli altri oggetti visivi nella pagina che contengono tali dati cambiano in base alla selezione. 
@@ -27,20 +27,31 @@ Per impostazione predefinita, selezionando un punto dati in un oggetto visivo in
 
 Se non si conoscono ancora le gerarchie né i drill, per informazioni è possibile vedere [Eseguire il drill-down in Power BI](end-user-drill.md). 
 
-Il filtro incrociato e l'evidenziazione incrociata possono essere utili per identificare in che modo un valore nei dati contribuisce a un altro. Se ad esempio si seleziona il segmento Moderation nel grafico ad anello, viene evidenziato il contributo da tale segmento a ogni colonna del grafico "Total units by Month" e viene filtrato il grafico a linee.
+### <a name="cross-filtering-and-cross-highlighting"></a>Filtro incrociato ed evidenziazione incrociata
 
-![Immagine delle interazioni tra oggetti visivi](media/end-user-interactions/power-bi-interactions.png)
+Il filtro incrociato e l'evidenziazione incrociata possono essere utili per identificare in che modo un valore nei dati contribuisce a un altro. I termini *filtro incrociato* ed *evidenziazione incrociata* vengono usati per distinguere il comportamento qui descritto da ciò che accade quando si usa il riquadro **Filtri** per filtrare ed evidenziare gli oggetti visivi.  
 
-Vedere [Informazioni su filtri ed evidenziazione](end-user-report-filter.md). 
+Definiamo questi termini aiutandoci con le pagine di report seguenti. Il grafico ad anello "Total category volume by segment" ha due valori: "Moderation" e "Convenience". 
 
+![Pagina del report](media/end-user-interactions/power-bi-interactions-before.png)
 
-  
-> [!NOTE]
-> I termini *filtro incrociato* ed *evidenziazione incrociata* vengono usati per distinguere il comportamento qui descritto da ciò che accade quando si usa il riquadro **Filtri** per filtrare ed evidenziare gli oggetti visivi.  
+1. Vediamo cosa accade quando si seleziona **Moderation**.
+
+    ![Pagina del report dopo la selezione del segmento Moderation del grafico ad anello](media/end-user-interactions/power-bi-interactions-after.png)
+
+2. Il **filtro incrociato** rimuove i dati non pertinenti. Selezionando **Moderation** nel grafico ad anello viene applicato un filtro incrociato al grafico a linee. Il grafico a linee ora mostra solo i punti dati del segmento Moderation. 
+
+3. L'**evidenziazione incrociata** mantiene tutti i punti dati originali, ma disattiva la parte che non si applica alla selezione. Selezionando **Moderation** nel grafico ad anello viene applicata l'evidenziazione incrociata all'istogramma. L'istogramma disattiva tutti i dati che si applicano al segmento Convenience ed evidenzia tutti i dati che si applicano al segmento Moderation. 
+
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 - Se il report ha un oggetto visivo che supporta il [drill](end-user-drill.md) per impostazione predefinita, l'esecuzione del drill in un oggetto visivo non ha alcun impatto sugli altri oggetti visivi nella pagina del report.     
-- Se si usa visualA per interagire con visualB, i filtri a livello di oggetto visivo da visualA verranno applicati a visualB.
+- I filtri a livello di oggetto visivo vengono conservati quando si applica un filtro incrociato e l'evidenziazione incrociata ad altri oggetti visivi nella pagina del report. Se quindi l'oggetto visivo A dispone di filtri a livello di oggetto visivo applicati dal progettista del report o dall'utente e si usa tale oggetto visivo per interagire con l'oggetto visivo B, i filtri a livello di oggetto visivo di A verranno applicati a B.
+
+    ![Pagina del report dopo la selezione del segmento Moderation del grafico ad anello](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
-[Come usare i filtri dei report](../power-bi-how-to-report-filter.md)
+[Come usare i filtri dei report](../power-bi-how-to-report-filter.md)    
+
+
+[Informazioni su filtri ed evidenziazione](end-user-report-filter.md). 

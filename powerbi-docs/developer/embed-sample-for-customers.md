@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311087"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223421"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per i clienti
 
@@ -418,7 +418,7 @@ La tabella seguente descrive le risorse e i limiti di ogni SKU. Per determinare 
 
 | Nodi delle capacità | Totale vCore | vCore back-end | RAM (GB) | vCore front-end | Connessione dinamica/DirectQuery (al secondo) | Parallelismo di aggiornamento dei modelli |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
@@ -435,6 +435,8 @@ Per altre informazioni, vedere [Embedded analytics capacity planning whitepaper]
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Assegnare un'area di lavoro a una capacità dedicata
 
 Dopo aver creato una capacità dedicata, è possibile assegnare a questa l'area di lavoro.
+
+Tutte le aree di lavoro che contengono risorse di Power BI correlate al contenuto incorporato, inclusi set di dati, report e dashboard, devono essere assegnate a capacità dedicate. Ad esempio, se un report incorporato e il set di dati associato si trovano in aree di lavoro diverse, entrambe le aree di lavoro devono essere assegnate a capacità dedicate.
 
 Per assegnare una capacità dedicata a un'area di lavoro con un'[entità servizio](embed-service-principal.md), usare l'[API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Quando si usano le API REST di Power BI, assicurarsi di usare l'[ID oggetto dell'entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 

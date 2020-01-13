@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/29/2019
-ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/12/2019
+ms.openlocfilehash: dec23aaa4fd54761c62507b8c7a5a36c45c75afd
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264196"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223367"
 ---
 # <a name="service-principal-with-power-bi"></a>Entità servizio con Power BI
 
@@ -53,7 +53,7 @@ Poiché le **API di Power BI** e **Power BI .NET SDK** supportano ora le chiamat
 
 Esistono differenze tra l'uso di un'entità servizio e l'uso di un account master standard (licenza di Power BI Pro) per l'autenticazione. La tabella seguente evidenzia alcune differenze significative.
 
-| personalizzata | Account utente master <br> (licenza di Power BI Pro) | Entità servizio <br> (token solo app) |
+| Funzione | Account utente master <br> (licenza di Power BI Pro) | Entità servizio <br> (token solo app) |
 |------------------------------------------------------|---------------------|-------------------|
 | Può accedere al servizio Power BI  | Sì | No |
 | Abilitata nel portale di amministrazione di Power BI | No | Sì |
@@ -150,7 +150,7 @@ Di seguito è riportata la procedura per ottenere l'ID oggetto entità servizio 
 
    ![Applicazione gestita nella directory locale](media/embed-service-principal/managed-application-in-local-directory.png)
 
-    > [!Note]
+    > [!NOTE]
     > L'ID oggetto nell'immagine non corrisponde all'ID usato con l'entità servizio.
 
 3. Selezionare **Proprietà** per visualizzare l'ID oggetto.
@@ -174,6 +174,7 @@ Di seguito è riportato uno script di esempio per recuperare l'ID oggetto entit�
 * Le applicazioni [incorporate per l'organizzazione](embed-sample-for-your-organization.md) non sono in grado di usare l'entità servizio.
 * La gestione dei [flussi di dati](../service-dataflows-overview.md) non è supportata.
 * L'entità servizio attualmente non supporta le API di amministrazione.
+* Quando si usa un'entità servizio con un'origine dati di [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), l'entità servizio deve avere le autorizzazioni di un'istanza di Azure Analysis Services. L'uso di un gruppo di sicurezza che contiene l'entità servizio a questo scopo non è supportato.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

@@ -1,40 +1,43 @@
 ---
-title: Informazioni sul ruolo di amministratore di Power BI
-description: Questo articolo descrive il ruolo di amministratore del servizio Power BI e illustra come usarlo nell'organizzazione.
+title: Informazioni sui ruoli di amministratore del servizio Power BI
+description: Questo articolo descrive l'amministratore del servizio Power BI e i ruoli specifici che forniscono privilegi di amministratore.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a6121ca16250de9765557b9c9acbf73b513723ee
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 04ffeb01efeaa714b30b2246174584f2caf90468
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699913"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75622344"
 ---
-# <a name="understanding-the-power-bi-service-administrator-role"></a>Informazioni sul ruolo di amministratore del servizio Power BI
+# <a name="understanding-power-bi-service-administrator-roles"></a>Informazioni sui ruoli di amministratore del servizio Power BI
 
-Informazioni su come usare il ruolo di amministratore del servizio Power BI nell'organizzazione. Gli utenti con questo ruolo hanno il controllo completo su un tenant di Power BI e sulle relative funzionalità di amministrazione, tranne che sulle licenze.
+Per amministrare un tenant di Power BI, è necessario appartenere a uno dei ruoli seguenti: Amministratore di Power BI, Amministratore di Power Platform o Amministratore globale di Microsoft 365. Gli amministratori della gestione utenti di Microsoft 365 assegnano gli utenti ai ruoli di amministratore di Power BI o di amministratore di Power Platform nell'interfaccia di amministrazione di Microsoft 365 o tramite uno script di PowerShell.
 
-Il ruolo di amministratore del servizio Power BI può essere assegnato agli utenti che devono avere accesso al portale di amministrazione di Power BI, senza concedere a tali utenti l'accesso amministrativo completo per Office 365.
+Gli utenti nei ruoli di amministratore di Power BI e amministratore di Power Platform hanno il controllo completo su un tenant di Power BI e sulle relative funzionalità di amministrazione, tranne che sulle licenze. Gli utenti a cui viene assegnato questo ruolo possono accedere al [portale di amministrazione di Power BI](service-admin-portal.md). Lì hanno accesso alle metriche di utilizzo a livello di tenant e possono controllare l'utilizzo delle funzionalità di Power BI a livello di tenant. Questi ruoli di amministratore sono ideali per gli utenti che devono avere accesso al portale di amministrazione di Power BI, senza concedere a tali utenti l'accesso amministrativo completo per Microsoft 365.
 
-Gli amministratori della gestione utenti di Office 365 assegnano gli utenti al ruolo di amministratore del servizio Power BI nell'interfaccia di amministrazione di Microsoft 365 o tramite uno script di PowerShell. Gli utenti a cui viene assegnato questo ruolo possono accedere al [portale di amministrazione di Power BI](service-admin-portal.md). Lì hanno accesso alle metriche di utilizzo a livello di tenant e possono controllare l'utilizzo delle funzionalità di Power BI a livello di tenant.
+> [!NOTE]
+> Nella documentazione di Power BI il termine "amministratore di Power BI" si riferisce agli utenti con i ruoli di amministratore di Power BI o di amministratore di Power Platform. La documentazione indica in modo chiaro quando per un'attività è richiesto il ruolo di amministratore globale di Microsoft 365.
 
 ## <a name="limitations-and-considerations"></a>Limitazioni e considerazioni
 
-Il ruolo di amministratore del servizio Power BI non fornisce le funzionalità seguenti:
+I ruoli di amministratore del servizio Power BI e di amministratore di Power Platform non forniscono le capacità seguenti:
 
 * Possibilità di modificare gli utenti e le licenze nell'interfaccia di amministrazione di Microsoft 365.
 
-* Accesso ai log di controllo. Per altre informazioni, usare [Uso del controllo nell'organizzazione](service-admin-auditing.md).
+* Accesso ai log di controllo. Per altre informazioni, vedere [Tenere traccia delle attività degli utenti in Power BI](service-admin-auditing.md).
 
-## <a name="assign-users-to-the-admin-role-in-office-365"></a>Assegnare gli utenti al ruolo di amministratore in Office 365
+Queste funzionalità richiedono il ruolo di amministratore globale di Microsoft 365.
 
-Per assegnare utenti al ruolo di amministratore di Power BI nell'interfaccia di amministrazione di Microsoft 365, seguire questa procedura.
+## <a name="assign-users-to-an-admin-role-in-the-microsoft-365-admin-center"></a>Assegnare gli utenti a un ruolo di amministratore nell'interfaccia di amministrazione di Microsoft 365
+
+Per assegnare utenti a un ruolo di amministratore nell'interfaccia di amministrazione di Microsoft 365, seguire questa procedura.
 
 1. Nell'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal/home#/homepage) selezionare **Utenti** > **Utenti attivi**.
 
@@ -42,19 +45,15 @@ Per assegnare utenti al ruolo di amministratore di Power BI nell'interfaccia di 
 
 1. Selezionare l'utente a cui si vuole assegnare il ruolo.
 
-1. In **Ruoli** selezionare **Modifica**.
+1. In **Ruoli** selezionare **Gestisci ruoli**.
 
-    ![Modificare i ruoli](media/service-admin-role/powerbi-admin-edit-roles.png)
+    ![Gestisci ruoli](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. Selezionare **Amministratore personalizzato** > **Amministratore del servizio Power BI**.
+1. Espandere **Mostra tutti per categoria** e quindi selezionare **Amministratore di Power BI** o **Amministratore di Power Platform**.
 
-    ![Amministratore del servizio Power BI](media/service-admin-role/powerbi-admin-role.png)
+    ![Selezionare un ruolo di amministratore](media/service-admin-role/powerbi-admin-role.png)
 
-1. Selezionare **Salva**, quindi **Chiudi**.
-
-Per il ruolo di quell'utente dovrebbe risultare **Amministratore del servizio Power BI**.
-
-![Ruoli](media/service-admin-role/powerbi-admin-role-set.png)
+1. Selezionare **Save changes** (Salva modifiche).
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>Assegnare gli utenti al ruolo di amministratore con PowerShell
 

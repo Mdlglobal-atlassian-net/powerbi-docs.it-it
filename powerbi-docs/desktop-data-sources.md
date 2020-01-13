@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410969"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222149"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 
@@ -24,14 +24,12 @@ Per connettersi ai dati, selezionare **Recupera dati** dalla barra multifunzione
 
 ![Recupera dati in Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Se si sceglie **Altro** dal menu **Più comuni**, viene visualizzata la finestra **Recupera dati**. È anche possibile visualizzare la finestra **Recupera dati** (e ignorare il menu **Più comuni** ) selezionando direttamente il **pulsante dell'icona** **Recupera dati** .
+Se si sceglie **Altro** dal menu **Più comuni**, viene visualizzata la finestra **Recupera dati**. È anche possibile visualizzare la finestra **Recupera dati** (e ignorare il menu **Più comuni**) selezionando direttamente il **pulsante dell'icona** **Recupera dati**.
 
 ![Pulsante Recupera dati](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Il team di Power BI espande in continuazione le origini dati disponibili in **Power BI Desktop** e nel **servizio Power BI**. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come *Beta* o *Anteprima*. Qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione. 
-
-> Inoltre, qualsiasi origine dati contrassegnata come *Beta* o *Preview* per **Power BI Desktop** potrebbe non essere disponibile per l'uso nel **servizio Power BI** o in altri servizi Microsoft finché l'origine dati non diventa disponibile a livello generale (GA).
+> Il team di Power BI espande in continuazione le origini dati disponibili in **Power BI Desktop** e nel **servizio Power BI**. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come *Beta* o *Anteprima*. Qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione. Inoltre, qualsiasi origine dati contrassegnata come *Beta* o *Preview* per **Power BI Desktop** potrebbe non essere disponibile per l'uso nel **servizio Power BI** o in altri servizi Microsoft finché l'origine dati non diventa disponibile a livello generale (GA).
 
 ## <a name="data-sources"></a>Origini dati
 I tipi di dati sono organizzati nelle categorie seguenti:
@@ -41,7 +39,7 @@ I tipi di dati sono organizzati nelle categorie seguenti:
 * Database
 * Power BI
 * Azure
-* Online Services
+* Servizi online
 * Altro
 
 La categoria **Tutti** include tutti i tipi di connessione dati di tutte le categorie.
@@ -64,7 +62,7 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 
 * Database SQL Server
 * Database di Access
-* SQL Server Analysis Services
+* Database di SQL Server Analysis Services
 * Database Oracle
 * Database IBM DB2
 * Database Informix IBM (Beta)
@@ -82,7 +80,7 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Vertica
 * Snowflake
 * Essbase
-* Cubi AtScale (Beta)
+* Cubi AtScale
 * Connettore BI
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ La categoria **Power Platform** fornisce le connessioni dati seguenti:
 * Set di dati Power BI
 * Flussi di dati Power BI
 * Common Data Service
-* Flussi di dati Power Platform (Beta)
+* Flussi di dati Power Platform
 
 L'immagine seguente mostra la finestra **Recupera dati** per **Power Platform**.
 
@@ -118,13 +116,14 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 * Archiviazione BLOB di Azure
 * Archiviazione tabelle di Azure
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Beta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
 * Esplora dati di Azure (Kusto)
-* Gestione costi di Azure (Beta)
+* Gestione costi di Azure
+* Azure Time Series Insights (Beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
@@ -236,7 +235,7 @@ Quando un autore apre un file PBIDS, Power BI Desktop si apre e chiede le creden
 
 A questo punto, l'utente può iniziare a creare visualizzazioni o rivedere *Origini recenti* per caricare un nuovo set di tabelle nel modello. 
 
-I file con estensione PBIDS attualmente supportano solo un'unica origine dati in un unico file. Se si specificano più origini dati, si ottiene come risultato un errore. 
+I file con estensione PBIDS attualmente supportano un'unica origine dati in un singolo file. Se si specificano più origini dati, si ottiene come risultato un errore. 
 
 Per creare il file con estensione PBIDS, gli amministratori devono specificare gli input necessari per un'unica connessione e possono indicare la modalità di connessione, **DirectQuery** o **Import**. Se **mode** è mancante o Null nel file, all'utente che apre il file in Power BI Desktop viene richiesto di selezionare DirectQuery o Import. 
 

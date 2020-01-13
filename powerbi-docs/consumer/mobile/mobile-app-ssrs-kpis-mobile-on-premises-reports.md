@@ -1,19 +1,19 @@
 ---
 title: Visualizzare report e indicatori KPI locali nelle app per dispositivi mobili di Power BI
 description: L'app Power BI per dispositivi mobili consente di accedere in tempo reale a informazioni aziendali in locale usando dispositivi mobili abilitati per il tocco in SQL Server Reporting Services e nel server di report di Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: 50d44b99d8efea848588ab4c460a469ef6dc780b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/05/2019
+ms.author: painbar
+ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879463"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220071"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Visualizzare report e indicatori KPI locali dei server di report nelle app Power BI per dispositivi mobili
 
@@ -40,8 +40,9 @@ Quindi, nell'app Power BI per dispositivi mobili, connettersi a un massimo di ci
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>Esplorare gli esempi nelle app per dispositivi mobili senza una connessione al server
 Anche se non si ha accesso a un portale Web di Reporting Services, è comunque possibile esplorare le funzionalità dei report per dispositivi mobili e agli indicatori KPI di Reporting Services. 
 
-1. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png) nell'angolo superiore sinistro, quindi toccare l'icona a forma di ingranaggio in alto a destra ![Icona a forma di ingranaggio](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png).
-2. Toccare **Esempi per Reporting Services** quindi esplorare per interagire con gli indicatori KPI e i report per dispositivi mobili di esempio.
+1. Toccare l'immagine del profilo nell'angolo in alto a sinistra e quindi toccare **impostazioni** nel pannello degli account visualizzato.
+
+2. Nella pagina Impostazioni toccare **Esempi per Reporting Services** e quindi esplorare per interagire con gli indicatori KPI e i report per dispositivi mobili di esempio.
    
    ![Esempi di Reporting Services](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -53,36 +54,35 @@ Anche se non si ha accesso a un portale Web di Reporting Services, è comunque p
    
    ![Accedere a un server di report](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Se è già stato effettuato l'accesso all'app Power BI, toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-global-nav-button.png), quindi toccare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](././media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-settings-icon.png) in alto a destra.
-3. Toccare **Connetti al server**.
+   Se è già stato eseguito l'accesso all'app Power BI, toccare l'immagine del profilo nell'angolo in alto a sinistra e quindi toccare **impostazioni** nel pannello degli account visualizzato.
+3. Nella pagina Impostazioni toccare **Connetti al server**.
    
     ![Connetti al server](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
-     L'app per dispositivi mobili deve accedere al server in qualche modo. Sono disponibili alcune modalità:
+    L'app per dispositivi mobili deve accedere al server in qualche modo. Sono disponibili alcune modalità:
+     * L'uso della stessa rete o della stessa VPN è la modalità più semplice.
+     * È possibile usare un proxy applicazione Web per connettersi dall'esterno dell'organizzazione. Per informazioni dettagliate, vedere [Uso di OAuth per connettersi a Reporting Services](mobile-oauth-ssrs.md).
+     * Aprire una connessione (porta) nel firewall.
 
-    - L'uso della stessa rete o della stessa VPN è la modalità più semplice.
-    - È possibile usare un proxy applicazione Web per connettersi dall'esterno dell'organizzazione. Per informazioni dettagliate, vedere [Uso di OAuth per connettersi a Reporting Services](mobile-oauth-ssrs.md). 
-    - Aprire una connessione (porta) nel firewall.
-
-1. Specificare l'indirizzo del server, il nome utente e la password. Usare questo formato per l'indirizzo del server:
+4. Immettere l'indirizzo del server e assegnare al server un nome descrittivo, se si vuole. Usare questo formato per l'indirizzo del server:
    
      `https://<servername>/reports`
    
-     OR
+     OPPURE
    
      `https://<servername>/reports`
    
    Includere **http** o **https** davanti alla stringa di connessione.
    
     ![Finestra di dialogo Connetti al server](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. (Facoltativo) in **Opzioni avanzate** è possibile assegnare un nome descrittivo al server, se si vuole.
-6. È ora possibile visualizzare il server nel riquadro di spostamento (denominato "server di report di power bi" in questo esempio).
+5. Dopo aver digitato l'indirizzo del server e il nome descrittivo facoltativo, toccare **Connetti** e quindi immettere il nome utente e la password quando richiesto.
+6. Il nome del server è ora visualizzato nel riquadro Account (in questo esempio è "Work server").
    
    ![Server di report nel riquadro di spostamento](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
 
-## <a name="connect-to-an-on-premises-report-server-in-ios"></a>Connettersi a un server di report locale in iOS
+## <a name="connect-to-an-on-premises-report-server-in-ios-or-android"></a>Connettersi a un server di report locale in iOS o Android
 
-Se si sta visualizzando Power BI nell'app per dispositivi mobili iOS, l'amministratore IT potrebbe aver definito un criterio di configurazione dell'app. In tal caso, l'esperienza di connessione al server di report risulta semplificata e non sarà necessario specificare molte informazioni quando ci si connette a un server di report. 
+Se si sta visualizzando Power BI nell'app per dispositivi mobili iOS o Android, l'amministratore IT potrebbe aver definito un criterio di configurazione dell'app. In tal caso, l'esperienza di connessione al server di report risulta semplificata e non sarà necessario specificare molte informazioni quando ci si connette a un server di report. 
 
 1. Viene visualizzato un messaggio che informa che l'app per dispositivi mobili è configurata con un server di report. Toccare **Accedi**.
 
@@ -117,7 +117,7 @@ I report di Power BI, i report per dispositivi mobili di Reporting Services e gl
 ## <a name="view-your-favorite-kpis-and-reports"></a>Visualizzare i report e gli indicatori KPI preferiti
 È possibile contrassegnare gli indicatori KPI e i report come preferiti nel portale Web e quindi visualizzarli in un'unica cartella nel dispositivo mobile, assieme ai dashboard di Power BI preferiti.
 
-* Toccare **Preferiti**.
+* Toccare **Preferiti** sulla barra di spostamento.
   
    ![Preferiti nel riquadro di spostamento](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,7 +126,7 @@ I report di Power BI, i report per dispositivi mobili di Reporting Services e gl
    ![Report e dashboard di Power BI nella pagina Preferiti](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>Rimuovere una connessione a un server di report
-1. Nella parte inferiore del riquadro di spostamento toccare **Impostazioni**.
+1. Aprire il riquadro Account e toccare **Impostazioni**.
 2. Toccare il nome del server a cui non si vuole essere connessi.
 3. Toccare **Rimuovi server**.
 

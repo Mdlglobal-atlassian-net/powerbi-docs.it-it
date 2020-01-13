@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: cd252572c3080f300592b52ddc0f25cefcf7f084
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: ec0f98dfe56b6d2a6efe038622541f9f19d3899d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478672"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75223400"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Sicurezza a livello di riga con Power BI Embedded
 
@@ -130,6 +130,9 @@ La sicurezza a livello di riga può essere usata solo con le connessioni in temp
 
 L'identità effettiva specificata per la proprietà username deve essere un utente di Windows con autorizzazioni per il server Analysis Services.
 
+>[!NOTE]
+> Quando si usa un'entità servizio con un'origine dati di [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview), l'entità servizio deve avere le autorizzazioni di un'istanza di Azure Analysis Services. L'uso di un gruppo di sicurezza che contiene l'entità servizio a questo scopo non è supportato.
+
 ### <a name="on-premises-data-gateway-configuration"></a>Configurazione del gateway dati locale
 
 Un [gateway dati locale](../service-gateway-onprem.md) viene usato quando si lavora con connessioni dinamiche di Analysis Services. Quando si genera un token di incorporamento, con un'identità elencata, l'account principale deve essere elencato come amministratore del gateway. Se l'account master non è elencato, la sicurezza a livello di riga non viene applicata correttamente alla proprietà dei dati. Chi non è amministratore del gateway può fornire i ruoli, ma deve specificare il proprio nome utente per l'identità effettiva.
@@ -190,7 +193,7 @@ La procedura seguente descrive come iniziare a configurare la funzionalità Cust
 
     ![Creare un database di Azure Analysis Services](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
-    ![Database di Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
+    ![database Analysis Services](media/embedded-row-level-security/azure-analysis-services-database.png)
 
 2. Creare un ruolo nel server Analysis Services.
 

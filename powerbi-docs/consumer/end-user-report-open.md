@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/14/2019
 ms.author: mihart
-ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4b8dd876cfaca3fa4ad91bf5b4d94aa5b4be311
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861960"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218023"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualizzare un report nel servizio Power BI per i *consumer*
 
@@ -32,7 +32,7 @@ Di seguito viene descritta la procedura per aprire un report che è stato condiv
    ![Home page](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Aprire un report condiviso con l'utente
-I *designer* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo automaticamente. Il contenuto condiviso in questo modo viene visualizzato nel contenitore **Condivisi con l'utente corrente** nel riquadro di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
+I *progettisti* di Power BI possono condividere un singolo report direttamente con l'utente tramite un collegamento in un messaggio di posta elettronica o aggiungendolo automaticamente al contenuto di Power BI. I report condivisi in questo modo vengono visualizzati nel contenitore **Condivisi con l'utente corrente** nel riquadro di spostamento e nella sezione **Condivisi con l'utente corrente** dell'area Home dell'utente destinatario.
 
 1. Aprire il servizio Power BI (app.powerbi.com).
 
@@ -40,7 +40,7 @@ I *designer* di Power BI possono condividere un singolo report direttamente con 
 
    ![Area Home](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. Scorrere verso il basso fino a visualizzare **Condivisi con l'utente corrente**. Cercare l'icona del report ![icona del report](./media/end-user-report-open/power-bi-report-icon.png). In questo screenshot sono disponibili un dashboard e un report denominato *Sales and marketing sample*. 
+3. Scorrere verso il basso fino a visualizzare **Condivisi con l'utente corrente**. Cercare l'icona del report ![icona del report](./media/end-user-report-open/power-bi-report-icon.png). In questo screenshot sono disponibili un dashboard e un report. Il nome del report è *Sales and marketing sample*. 
    
    ![Sezione Condivisi con l'utente corrente della home page](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -64,8 +64,10 @@ I *designer* di Power BI possono condividere un singolo report direttamente con 
 
    ![Adatta alla pagina](./media/end-user-report-open/power-bi-actual.png)
 
+È possibile interagire con un report in diversi modi per individuare informazioni dettagliate e prendere decisioni aziendali.  Usare il sommario a sinistra per leggere altri articoli sui report di Power BI. 
+
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Aprire un report che fa parte di un'app
-Se si ricevono app da colleghi o da AppSource, tali app sono disponibili nell'area Home e nel contenitore **App** del riquadro di spostamento. Un'[app](end-user-apps.md) è un'aggregazione di dashboard e report.
+Se si ricevono app da colleghi o da AppSource, tali app sono disponibili nell'area Home e nel contenitore **App** del riquadro di spostamento. Un'[app](end-user-apps.md) è una raccolta di dashboard e report che sono stati raggruppati insieme da un *progettista* di Power BI.
 
 ### <a name="prerequisites"></a>Prerequisiti
 Per procedere, scaricare l'app Sales and Marketing.
@@ -80,17 +82,17 @@ Per procedere, scaricare l'app Sales and Marketing.
 
    ![Home page](./media/end-user-report-open/power-bi-app.png)
 
-8. Per aprire la nuova app Sales and marketing, selezionarla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard o un report. Quest'app si apre automaticamente con un dashboard.  
+8. Per aprire la nuova app *Sales and marketing*, selezionarla. A seconda delle opzioni impostate dal *progettista* dell'app, l'app aprirà un dashboard o un report. Quest'app si apre automaticamente con un dashboard.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Aprire un report da un dashboard
 I report possono essere aperti da un dashboard. La maggior parte dei [riquadri](end-user-tiles.md) del dashboard viene *aggiunta* dai report. Se si seleziona un riquadro, viene aperto il report usato per creare il riquadro stesso. 
 
-1. Nel dashboard selezionare un riquadro. In questo esempio è stato selezionato il riquadro dell'istogramma "Total Units YTD".
+1. Nel dashboard selezionare un riquadro. In questo esempio è stato selezionato il riquadro dell'istogramma *Total Units YTD*.
 
     ![Dashboard con riquadro selezionato](./media/end-user-report-open/power-bi-dashboard.png)
 
-2.  Viene aperto il report associato. Si noti che viene ora visualizzata la pagina "YTD Category". Si tratta della pagina del report che contiene l'istogramma selezionato dal dashboard.
+2.  Viene aperto il report associato. Ora la pagina attiva è la pagina *YTD Category*. Si tratta della pagina del report che contiene l'istogramma selezionato dal dashboard.
 
     ![Report aperto nella Visualizzazione di lettura](./media/end-user-report-open/power-bi-report-tabs.png)
 
@@ -100,7 +102,7 @@ I report possono essere aperti da un dashboard. La maggior parte dei [riquadri](
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Altri modi per aprire un report
 Quando si acquisisce maggiore familiarità con gli spostamenti all'interno del servizio Power BI, sarà possibile individuare i flussi di lavoro ottimali per le proprie esigenze. Altri modi per accedere ai report:
-- Nel riquadro di spostamento usando **Preferiti** e **Recenti**    
+- Nel riquadro di spostamento usando [Preferiti](end-user-favorite.md) e [Recenti](end-user-recent.md)    
 - Tramite [Visualizza elementi correlati](end-user-related.md).    
 - In un messaggio di posta elettronica in caso di [condivisione con l'utente](../service-share-reports.md) o quando si [configura un avviso](end-user-alerts.md)    
 - Dal [centro notifiche](end-user-notification-center.md).    

@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862648"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218246"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Domande e risposte per i **consumer** di Power BI
 
@@ -67,28 +67,30 @@ ad esempio:
 
 Una volta acquisita familiarità con i dati, tornare al dashboard e posizionare il cursore nella casella delle domande. Viene aperta la schermata Domande e risposte.
 
-![Schermata Domande e risposte](media/end-user-q-and-a/power-bi-screen.png) 
+![Schermata Domande e risposte](media/end-user-q-and-a/power-bi-suggested.png) 
 
 Ancora prima di iniziare a digitare, Domande e risposte mostra una nuova schermata con suggerimenti utili a formulare la domanda. Verranno visualizzate frasi e domande contenenti i nomi delle tabelle nei set di dati sottostanti e, in alcuni casi, domande *in primo piano* create dal proprietario del set di dati.
 
 È possibile selezionarne una qualsiasi per aggiungerla alla casella delle domande e perfezionarla per trovare una risposta specifica. 
 
-Domande e risposte aiuta a porre le domande anche tramite richieste di conferma, elementi di completamento automatico e suggerimenti visivi. 
+![Schermata Domande e risposte](media/end-user-q-and-a/power-bi-result.png) 
+
+Power BI aiuta a porre le domande anche tramite funzionalità come le richieste di conferma, il completamento automatico e i suggerimenti visivi. Fornisce questo aiuto per Domande e risposte nei dashboard e nei report e con l'oggetto visivo Domande e risposte. Queste funzionalità sono illustrate in dettaglio più avanti, nella sezione [Creare un oggetto visivo Domande e risposte digitando una query in linguaggio naturale](#create-a-qa-visual-by-typing-a-natural-language-query)
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>Oggetto visivo Domande e risposte
+## <a name="the-qa-visual-in-power-bi-reports"></a>Oggetto visivo Domande e risposte nei report di Power BI
 
-L'oggetto visivo Domande e risposte consente di porre domande in linguaggio naturale e ottenere risposte sotto forma di oggetti visivi. L'oggetto visivo Domande e risposte si comporta come qualsiasi altro oggetto visivo, può essere filtrato o evidenziato in modo incrociato e inoltre supporta segnalibri e commenti. 
+L'oggetto visivo Domande e risposte consente di porre domande in linguaggio naturale e ottenere risposte sotto forma di oggetti visivi. Dal momento che si comporta come qualsiasi altro oggetto visivo in un report, all'oggetto visivo Domande e risposte può essere applicato il filtro incrociato o l'evidenziazione incrociata, oltre a essere supportati anche i segnalibri e i commenti. 
 
 Un oggetto visivo Domande e risposte è identificabile in base alla casella delle domande visualizzata nella parte superiore, in cui è possibile immettere domande usando il linguaggio naturale. L'oggetto visivo Domande e risposte può essere usato più volte per porre domande sui dati. Quando si esce dal report, viene reimpostato l'oggetto visivo Domande e risposte predefinito. 
 
 ![Screenshot dell'oggetto visivo Domande e risposte predefinito](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>Usare l'oggetto visivo Domande e risposte
-Per usare l'oggetto visivo Domande e risposte, selezionare una delle domande suggerite o digitare una propria domanda in linguaggio naturale. 
+## <a name="use-qa"></a>Usare Domande e risposte 
+Per usare Domande e risposte in un dashboard o per usare l'oggetto visivo Domande e risposte in un report, selezionare una delle domande suggerite o digitare una propria domanda in linguaggio naturale. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Creare un oggetto visivo Domande e risposte usando una domanda suggerita
 
@@ -105,26 +107,45 @@ In questo esempio è stato selezionato **top geo states by total units**. Power 
 
 Se non si è certi del tipo di domande da porre o della terminologia da usare, espandere **Mostra tutti i suggerimenti** o esaminare gli altri oggetti visivi nel report. In questo modo si acquisirà familiarità con i termini e il contenuto del set di dati.
 
-1. Digitare la domanda nel campo di Domande e risposte usando il linguaggio naturale. Quando si digita una domanda, Power BI offre funzionalità di completamento automatico, suggerimenti e feedback.
+1. Digitare la domanda nel campo di Domande e risposte usando il linguaggio naturale. Quando si digita una domanda, Power BI offre funzionalità di completamento automatico, segnali visivi e feedback.
 
-    - Per le parole che Power BI non è in grado di riconoscere viene usata la sottolineatura rossa. Quando possibile, Power BI aiuta a definire queste parole. Se viene visualizzata la definizione corretta, selezionarla dall'elenco a discesa.  
+    **Completamento automatico**: mentre si digita la domanda, Domande e risposte di Power BI mostra i suggerimenti pertinenti e contestuali che consentono di diventare rapidamente produttivi con il linguaggio naturale. Durante la digitazione si ottengono feedback e risultati immediati. L'esperienza è simile alla digitazione in un motore di ricerca.
 
-        ![Termine sottolineato in rosso nella casella delle domande in Domande e risposte](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    In questo esempio, il suggerimento che ci interessa è l'ultimo. 
 
-    - Se nessuna delle definizioni è corretta, provare con un altro termine oppure selezionare la parola sottolineata in rosso per chiedere al proprietario del report di aggiungere la parola.
+    ![Domande e risposte con una parola sottolineata blu](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![Digitazione di una domanda nell'apposita casella in Domande e risposte](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **Sottolineature rosse e blu**: Domande e risposte di Power BI mostra le parole con sottolineature per facilitare l'individuazione delle parole che Power BI non ha riconosciuto. Una sottolineatura continua di colore blu indica che Power BI ha riconosciuto la parola. L'esempio seguente mostra che Domande e risposte ha riconosciuto la parola **store**.
 
-    - Mentre si va avanti a digitare, Power BI informa che non è in grado di comprendere la domanda e tenta di aiutare l'utente. Nell'esempio riportato di seguito Power BI chiede "Si intendeva..." e suggerisce un modo diverso per formulare una domanda usando la terminologia del set di dati. 
+    ![Domande e risposte con un elenco a discesa di suggerimenti per completare la domanda](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![Correzioni suggerite per l'oggetto visivo Domande e risposte](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    Selezionare una parola sottolineata blu per visualizzare un elenco a discesa di domande suggerite. 
 
-2. Dopo la selezione della correzione di Power BI, i risultati vengono visualizzati come grafico a linee. 
+    ![Elenco a discesa con suggerimenti "È anche possibile provare"](media/end-user-q-and-a/power-bi-try.png)
+
+
+    Spesso quando si digita una parola in Domande e risposte, questa viene contrassegnata con una sottolineatura rossa per indicare uno di due possibili problemi. Il primo tipo di problema è classificato come scarsa attendibilità. Se si digita una parola vaga o ambigua, il campo viene sottolineato in rosso. Un esempio può essere proprio la parola "Location". Poiché più campi possono contenere la parola "Location", il sistema usa una sottolineatura rossa per chiedere di specificare di quale campo si tratta. In questo esempio Power BI chiede di selezionare il campo che si vuole usare per "VanArsdel".
+    
+    ![Termine sottolineato in rosso nella casella delle domande in Domande e risposte](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    Un altro esempio di scarsa attendibilità può riguardare il caso in cui si digita la parola "area", ma la colonna corrispondente è in realtà identificata dalla parola "district". Domande e risposte di Power BI riconosce le parole che hanno lo stesso significato grazie all'integrazione con Bing e Office. In questo caso, la parola viene sottolineata in rosso per indicare all'utente che non si tratta di una corrispondenza diretta.
+
+    ![Domande e risposte riformula la domanda usando un sinonimo](media/end-user-q-and-a/power-bi-red.png)
+
+    Il secondo tipo di problema si verifica quando Domande e risposte non è in grado di riconoscere la parola. Un esempio è dato dall'uso della parola "geography" anche se questa non è presente nei dati. La parola è inclusa nel dizionario, ma Domande e risposte contrassegna questo termine con una sottolineatura rossa. Domande e risposte di Power BI non può creare una visualizzazione e suggerisce di chiedere al progettista del report di aggiungere il termine.
+
+    ![Domande e risposte con il suggerimento di chiedere al progettista di aggiungere la parola geography](media/end-user-q-and-a/power-bi-geography.png)
+
+    **Suggerimenti**: mentre si va avanti a digitare, Power BI informa che non è in grado di comprendere la domanda e tenta di aiutare l'utente. Nell'esempio riportato di seguito Power BI chiede "Si intendeva..." e suggerisce un modo diverso per formulare una domanda usando la terminologia del set di dati. 
+
+    ![Correzioni suggerite per l'oggetto visivo Domande e risposte](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Dopo la selezione della correzione di Power BI, i risultati vengono visualizzati come grafico a linee. 
 
     ![Risultati dell'oggetto visivo Domande e risposte come grafico a linee](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. È tuttavia possibile modificare il grafico a linee in un altro tipo di oggetto visivo.  
+    È tuttavia possibile modificare il grafico a linee in un altro tipo di oggetto visivo.  
 
     ![Oggetto visivo Domande e risposte con "come istogramma" aggiunto alla domanda](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

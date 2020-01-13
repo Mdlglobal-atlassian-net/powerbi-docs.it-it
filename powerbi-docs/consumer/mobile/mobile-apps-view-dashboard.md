@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870656"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218364"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualizzare dashboard e report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -119,7 +119,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
 
 1. Dal dashboard è possibile toccare il pulsante **Altre opzioni** (...) accanto al nome per invitare un collega, aggiornare o ottenere informazioni sul dashboard:
    
-   ![Menu puntini di sospensione](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+   ![Menu con i puntini di sospensione](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Scorrere rapidamente su e giù per visualizzare tutti i [riquadri del dashboard](mobile-tiles-in-the-mobile-apps.md). 
 3. Per tornare alla home page dei dashboard, toccare il nome del dashboard per aprire la traccia degli spostamenti, quindi toccare **Area di lavoro**.   
 
@@ -135,7 +135,7 @@ Ecco un dashboard di Power BI nel servizio Power BI:
    * La notazione sotto il nome di ogni dashboard (in questo esempio "MBI") ![Classificazione dati](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) illustra come vengono classificati i dati in ogni dashboard. Altre informazioni sulla [classificazione dei dati in Power BI](../../service-data-classification.md).
 3. Dal dashboard è possibile toccare il pulsante **Altre opzioni** (...) accanto al nome per invitare un collega, aggiornare o ottenere informazioni sul dashboard:
    
-   ![Menu puntini di sospensione](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+   ![Menu con i puntini di sospensione](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Scorrere rapidamente su e giù per visualizzare tutti i [riquadri del dashboard](mobile-tiles-in-the-mobile-apps.md). 
    
    È possibile avvicinare o allontanare le dita per eseguire lo zoom avanti e indietro nelle varie aree del dashboard e scorrere per esplorarlo. È anche possibile [toccare un riquadro](mobile-tiles-in-the-mobile-apps.md) per aprirlo in modalità messa a fuoco e interagire con i dati.

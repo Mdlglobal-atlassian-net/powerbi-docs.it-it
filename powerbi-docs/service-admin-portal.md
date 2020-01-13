@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882885"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224176"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -168,9 +168,9 @@ Le sezioni successive forniscono una panoramica dei diversi tipi di impostazioni
 
 Gli utenti dell'organizzazione possono usare le risorse interne di Guida e supporto tecnico tramite il menu della Guida di Power BI. In particolare, questi parametri modificano il comportamento delle voci di menu Informazioni, Community e Guida.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+Inoltre, specificando un URL per le richieste di licenza, è possibile personalizzare l'URL di destinazione del pulsante **Aggiorna account**. Gli utenti senza una licenza di Power BI Pro possono visualizzare questo pulsante nella finestra di dialogo **Aggiorna a Power BI Pro** e nella pagina **Gestisci archivio personale**. Inoltre, Power BI non offre più il pulsante **Prova gratuitamente la versione Pro** in questa finestra di dialogo o nella pagina dell'archivio. In questo modo si garantisce che gli utenti vengano guidati in modo affidabile da Power BI attraverso i processi definiti nell'organizzazione tramite la soluzione di gestione delle licenze.
 
-Specificare un URL per le richieste di licenza consente di personalizzare l'URL di destinazione del pulsante **Aggiorna account** che un utente senza una licenza di Power BI Pro può trovare nella finestra di dialogo **Aggiorna a Power BI Pro**, nonché nella pagina **Gestisci archivio personale**. Inoltre, Power BI non offre più il pulsante **Prova gratuitamente la versione Pro** in questa finestra di dialogo o nella pagina di archiviazione per assicurarsi che Power BI guidi gli utenti in modo affidabile attraverso i processi definiti nell'organizzazione tramite la soluzione di gestione delle licenze.
+![Impostazione per abilitare la funzionalità con eccezioni](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Ricevi notifiche di posta elettronica per interruzioni del servizio o eventi imprevisti
 
@@ -386,7 +386,7 @@ Gli utenti dell'organizzazione possono contrassegnare i dashboard con classifica
 
 ## <a name="developer-settings"></a>Impostazioni modalità sviluppatore
 
-### <a name="embed-content-in-apps"></a>Incorporare il contenuto nelle app
+### <a name="embed-content-in-apps"></a>Incorpora il contenuto nelle app
 
 Gli utenti dell'organizzazione possono incorporare i dashboard e i report di Power BI nelle applicazioni SaaS (Software as a Service). Se si disabilita questa impostazione, si impedisce agli utenti di usare le API REST per incorporare contenuto Power BI nelle loro applicazioni. [Altre informazioni](developer/embedding.md)
 
@@ -399,7 +399,7 @@ Le app Web registrate in Azure Active Directory (Azure AD) useranno un'entità s
 
 ## <a name="dataflow-settings"></a>Impostazioni del flusso di dati
 
-### <a name="create-and-use-dataflows"></a>Crea e usa flussi di dati
+### <a name="create-and-use-dataflows"></a>Creare e usare flussi di dati
 
 Gli utenti dell'organizzazione possono creare e usare flussi di dati. Per una panoramica dei flussi di dati, vedere [Preparazione dei dati self-service in Power BI](service-dataflows-overview.md). Per abilitare i flussi di dati in una capacità Premium, vedere [Configurare i carichi di lavoro](service-admin-premium-workloads.md).
 
@@ -426,7 +426,7 @@ Gli utenti dell'organizzazione possono scaricare e installare le app modello **s
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>Installa app modello non elencate in AppSource
 
-È possibile controllare gli utenti dell'organizzazione che possono scaricare e installare le app modello **non elencate in [AppSource](https://appsource.microsoft.com)**.
+È possibile controllare gli utenti dell'organizzazione che possono scaricare e installare le app modello **non elencate in [AppSource](https://appsource.microsoft.com)** .
 
 ![Portale di amministrazione di Power BI, impostazioni di installazione app modello](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 

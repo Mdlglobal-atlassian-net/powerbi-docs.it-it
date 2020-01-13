@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698970"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548579"
 ---
 # <a name="what-is-power-bi-administration"></a>Che cos'è l'amministrazione di Power BI?
 
@@ -61,7 +61,7 @@ Gli amministratori eseguono numerose attività per supportare il tenant di Power
 | Garanzia della conformità a criteri interni, leggi e normative | <ul><li>Gestire la classificazione dei dati aziendali<br><li>Contribuire all'applicazione di criteri di pubblicazione e condivisione del contenuto</ul>|
 | Gestione delle risorse di Power BI |<ul><li>Gestire le aree di lavoro<br><li>Pubblicare oggetti visivi personalizzati<br><li>Verificare i codici usati per incorporare Power BI in altre applicazioni|
 | Assistenza e supporto agli utenti del tenant |<ul><li>Risolvere i problemi di accesso ai dati e di altro tipo</ul>|
-| Altre attività |<ul><li>Distribuire Power BI Desktop, ad esempio mediante System Center Configuration Manager<br><li>Gestire la distribuzione dell'app Power BI per dispositivi mobili con Intune<br><li>Gestire la privacy e la sicurezza dei dati, ad esempio la sicurezza dei dati di origine</ul>|
+| Altre attività |<ul><li>Distribuire Power BI Desktop, ad esempio mediante Microsoft Endpoint Configuration Manager<br><li>Gestire la distribuzione dell'app Power BI per dispositivi mobili con Intune<br><li>Gestire la privacy e la sicurezza dei dati, ad esempio la sicurezza dei dati di origine</ul>|
 
 ## <a name="administrative-tools"></a>Strumenti di amministrazione
 

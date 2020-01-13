@@ -1,19 +1,19 @@
 ---
 title: Scansionare un codice a matrice di Power BI dal dispositivo mobile
 description: I codici a matrice in Power BI possono connettere qualsiasi cosa nel mondo reale direttamente a informazioni di BI correlate nell'app Power BI per dispositivi mobili iPhone e Android.
-author: KesemSharabi
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: d28596aae776d9a0087895cae38fc2e8848297b6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879198"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218941"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Scansionare un codice a matrice di Power BI dal dispositivo mobile
 Si applica a:
@@ -34,33 +34,38 @@ Se il collega non ha condiviso il dashboard o report, è possibile richiedere l'
 > È anche possibile eseguire la [scansione del codice a matrice di un report con l'app Power BI per realtà mista](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Acquisire un codice a matrice di Power BI sull'iPhone con lo scanner di Power BI
-1. Nell'app Power BI per dispositivi mobili aprire il menu di spostamento globale ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) in alto a sinistra. 
-2. Scorrere verso il basso fino a **Scanner** e selezionarlo. 
-   
-    ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)
-3. Se la fotocamera non è abilitata, è necessario consentire all'app di Power BI l’utilizzo della fotocamera. Questa approvazione è necessaria una sola volta. 
-4. Puntare lo scanner in corrispondenza del codice a matrice di Power BI. 
+
+1. Sulla barra di spostamento toccare **Altre opzioni** (...) e quindi toccare **Scanner**.
+
+    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+
+2. Se la fotocamera non è abilitata, è necessario consentire all'app di Power BI l’utilizzo della fotocamera. Questa approvazione è necessaria una sola volta. 
+ 
+3. Puntare lo scanner in corrispondenza del codice a matrice di Power BI. 
    
     ![](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
-5. Il riquadro o report apparirà come sospeso sullo sfondo nella realtà aumentata.
+4. Il riquadro o report apparirà come sospeso sullo sfondo nella realtà aumentata.
    
     ![](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
-6. Toccare il report o il riquadro per aprirlo in modalità messa a fuoco oppure tornare allo scanner.
+
+5. Toccare il report o il riquadro per aprirlo in modalità messa a fuoco oppure tornare allo scanner.
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Scansionare un codice a matrice da uno scanner esterno sull’iPhone
 1. Puntare qualsiasi scanner installato nel telefono sul codice a matrice di Power BI rilevante per l'accesso immediato al riquadro o al report. 
 2. Se non è installata l'app Power BI, si verrà reindirizzati all’[App Store di Apple per effettuarne il download](https://go.microsoft.com/fwlink/?LinkId=522062) sul proprio iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Scansionare un codice a matrice di Power BI sul dispositivo Android con lo scanner di Power BI
-1. Nell'app Power BI per dispositivi mobili aprire il menu di spostamento globale ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) in alto a sinistra. 
-2. Scorrere verso il basso fino a **Scanner a matrice** e selezionarlo.
-   
-    ![](media/mobile-apps-qr-code/power-bi-android-scanner-menu.png)
-3. Se la fotocamera non è abilitata, è necessario consentire all'app Power BI l’uso della fotocamera. Questa approvazione è necessaria una sola volta. 
-4. Puntare lo scanner in corrispondenza del codice a matrice di Power BI. 
+
+1. Sulla barra di spostamento toccare **Altre opzioni** (...) e quindi toccare **Scanner**.
+
+    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+
+2. Se la fotocamera non è abilitata, è necessario consentire all'app di Power BI l’utilizzo della fotocamera. Questa approvazione è necessaria una sola volta. 
+
+3. Puntare lo scanner in corrispondenza del codice a matrice di Power BI. 
    
     ![](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
-5. Il riquadro o report si apre automaticamente in Power BI.
+4. Il riquadro o report si apre automaticamente in Power BI.
    
     ![](media/mobile-apps-qr-code/power-bi-android-tile.png)
 

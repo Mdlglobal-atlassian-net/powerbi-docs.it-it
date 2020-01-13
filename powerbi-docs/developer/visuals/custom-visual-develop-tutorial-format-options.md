@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: 4d7f02d9f78eee4cf287e0bb83acb93a7b1b0355
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
+ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696854"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "75498492"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Esercitazione: Aggiunta di opzioni di formattazione a un oggetto visivo di Power BI
 
@@ -124,10 +124,12 @@ In questa esercitazione viene illustrato come:
 
 8. Nel file **visual.ts**
 
-    Importare la classe `VisualSettings`
+    importare `VisualSettings`, `VisualObjectInstanceEnumeration` e `EnumerateVisualObjectInstancesOptions`:
 
     ```typescript
     import { VisualSettings } from "./settings";
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
     ```
 
     e nella classe **Visual** aggiungere la proprietà seguente:
@@ -218,23 +220,34 @@ Immettere i valori delle proprietà per il progetto di oggetto visivo personaliz
 
     *Displays a formatted measure value inside a circle* (Visualizza un valore di misura formattato all'interno di un cerchio)
 
-5. Facoltativamente, immettere i dettagli personali nell'oggetto **author**.
+5. Compilare **supportUrl** e **gitHubUrl** per l'oggetto visivo.
 
-6. Salvare il file **pbiviz.json**.
+    Esempio:
 
-7. Nell'oggetto **assets** si noti che il documento definisce un percorso per un'icona. L'icona è l'immagine visualizzata nel riquadro **_Visualizzazioni_** . Deve essere un file **PNG** con dimensioni di *20 pixel per 20 pixel*.
+    ```json
+    {
+        "supportUrl": "https://community.powerbi.com",
+        "gitHubUrl": "https://github.com/microsoft/PowerBI-visuals-circlecard"
+    }
+    ```
 
-8. In Esplora risorse copiare il file icon.png e quindi incollarlo per sostituire il file predefinito che si trova nella cartella assets.
+6. Immettere i dettagli personali nell'oggetto **author**.
 
-9. In Visual Studio Code, nel riquadro Esplora risorse, espandere la cartella assets e quindi selezionare il file icon.png.
+7. Salvare il file **pbiviz.json**.
 
-10. Esaminare l'icona.
+8. Nell'oggetto **assets** si noti che il documento definisce un percorso per un'icona. L'icona è l'immagine visualizzata nel riquadro **_Visualizzazioni_** . Deve essere un file **PNG** con dimensioni di *20 pixel per 20 pixel*.
+
+9. In Esplora risorse copiare il file icon.png e quindi incollarlo per sostituire il file predefinito che si trova nella cartella assets.
+
+10. In Visual Studio Code, nel riquadro Esplora risorse, espandere la cartella assets e quindi selezionare il file icon.png.
+
+11. Esaminare l'icona.
 
     ![Immagine del riquadro dell'oggetto visivo](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
-11. In Visual Studio Code assicurarsi che tutti i file vengano salvati.
+12. In Visual Studio Code assicurarsi che tutti i file vengano salvati.
 
-12. Per creare un pacchetto per l'oggetto visivo personalizzato, in PowerShell immettere il comando seguente.
+13. Per creare un pacchetto per l'oggetto visivo personalizzato, in PowerShell immettere il comando seguente.
 
     ```powershell
     pbiviz package

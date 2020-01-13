@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696762"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223722"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelli di grandi dimensioni in Power BI Premium (anteprima)
 
@@ -118,23 +118,4 @@ Quando si usano modelli di grandi dimensioni, tenere presenti le restrizioni seg
 - **Supporto Multi-Geo**: i set di dati abilitati per File Premium e anche per [Multi-Geo](service-admin-premium-multi-geo.md) genereranno errori di capacità.
 
 - **Download in Power BI Desktop**: se un set di dati viene archiviato in File Premium, il [download come file con estensione pbix](service-export-to-pbix.md) avrà esito negativo.
-- **Aree supportate**: i modelli di grandi dimensioni sono supportati dalle aree seguenti.
-  - Australia orientale
-  - Australia sud-orientale
-  - Stati Uniti centrali
-  - Asia orientale
-  - Stati Uniti orientali
-  - Stati Uniti orientali 2
-  - Giappone orientale
-  - Giappone occidentale
-  - Corea centrale
-  - Corea meridionale
-  - Stati Uniti centro-settentrionali
-  - Europa settentrionale
-  - Stati Uniti centro-meridionali
-  - Asia sud-orientale
-  - Regno Unito meridionale
-  - Regno Unito occidentale
-  - Europa occidentale
-  - Stati Uniti occidentali
-  - Stati Uniti occidentali 2
+- **Aree supportate**: I modelli di grandi dimensioni sono supportati in tutte le aree di Azure che supportano l'archiviazione file Premium. Per altre informazioni, vedere [Prodotti disponibili in base all'area geografica](https://azure.microsoft.com/global-infrastructure/services/?products=storage).

@@ -1,19 +1,19 @@
 ---
 title: Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
 description: Informazioni sul modo in cui l'app Microsoft Power BI per dispositivi mobili per Android permette di accedere in qualsiasi momento a informazioni aziendali locali e nel cloud.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876788"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220219"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
 L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. 
@@ -43,7 +43,7 @@ Anche senza iscriversi o accedere, dopo aver aperto l'app è possibile passare t
 Informazioni sulle [Novità delle app Power BI per dispositivi mobili](../../mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Iscriversi al servizio Power BI sul Web
-Se non è ancora stata eseguita l'iscrizione, passare al [servizio Power BI https://powerbi.com/)](https://powerbi.com/) per registrare un account per creare e archiviare dashboard e report e riunire i dati. È quindi possibile accedere a Power BI dal dispositivo Android, per visualizzare i propri dashboard ovunque ci si trovi.
+Se non è ancora stata eseguita l'iscrizione, passare al [servizio Power BI](https://powerbi.com/) per registrare un account per creare e archiviare i dashboard i report e riunire i dati. È quindi possibile accedere a Power BI dal dispositivo Android, per visualizzare i propri dashboard ovunque ci si trovi.
 
 1. Nel servizio Power BI toccare [Iscriviti](https://go.microsoft.com/fwlink/?LinkID=513879) per creare un account di Power BI.
 2. Iniziare a [creare dashboard e report personalizzati](../../service-get-started.md).
@@ -61,44 +61,26 @@ Se non è ancora stata eseguita l'iscrizione, passare al [servizio Power BI http
    ![Accedere a Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Provare gli esempi di Power BI e Reporting Services
-Anche senza iscriversi, è possibile provare a usare gli esempi di Power BI e Reporting Services. Dopo avere scaricato l'app, è possibile visualizzare gli esempi o iniziare a usarli. È possibile tornare agli esempi in qualsiasi momento dalla home page dei dashboard.
+Anche senza iscriversi, è possibile visualizzare e interagire con gli esempi di Power BI e Reporting Services.
 
-### <a name="power-bi-samples"></a>Esempi di Power BI
-È possibile visualizzare e interagire con gli esempi di dashboard Power BI, ma non sarà possibile eseguire alcune operazioni, come ad esempio aprire i report dietro i dashboard, condividere gli esempi con altre persone o impostarli come preferiti.
+Per accedere agli esempi, toccare **Altre opzioni** (...) sulla barra di spostamento e scegliere **Esempi**.
 
-1. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) nell'angolo in alto a sinistra.
-2. Toccare **Impostazioni** > **Esplora gli esempi**, quindi selezionare un ruolo ed esplorare il dashboard degli esempi per tale ruolo.  
+Alcuni esempi di Power BI sono seguiti da diversi esempi di server di report.
    
    ![Esempi di Power BI per dispositivi mobili](./media/mobile-android-app-get-started/power-bi-android-power-bi-samples.png)
 
-### <a name="reporting-services-mobile-report-samples"></a>Esempi di report per dispositivi mobili di Reporting Services
-1. Toccare il pulsante di spostamento globale ![pulsante di spostamento globale](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) nell'angolo in alto a sinistra.
-2. Toccare **Esempi per Reporting Services**, quindi aprire la cartella dei report sulle vendite al dettaglio o dei report sulle vendite per analizzare gli indicatori KPI e i report per dispositivi mobili.
    
-   ![Esempi di Reporting Services](./media/mobile-android-app-get-started/power-bi-android-reporting-services-samples.png)
-
-## <a name="search-for-a-dashboard-or-report"></a>Ricerca di un dashboard o report
-* Toccare la lente di ingrandimento nell'angolo superiore destro ![icona Cerca](./media/mobile-android-app-get-started/power-bi-ipad-search-icon.png), quindi digitare il termine da trovare.
-  
-    ![Risultati della ricerca](./media/mobile-android-app-get-started/power-bi-android-tablet-search.png)
-  
-    Per impostazione predefinita la ricerca viene eseguita in tutti i dashboard e report, ma è anche possibile cercare solo nell'uno o nell'altro.
+   > [!NOTE]
+   > Non tutte le funzionalità sono disponibili negli esempi. Ad esempio, non è possibile visualizzare i report di esempio sottostanti ai dashboard, condividere gli esempi con altri utenti e impostarli come preferiti. 
+   > 
+   >
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Cercare il contenuto nelle app Power BI per dispositivi mobili
-A seconda della provenienza, i dashboard e i report sono memorizzati in posizioni diverse nelle app Power BI per dispositivi mobili. Leggere altre informazioni su come [cercare il contenuto nelle app per dispositivi mobili](../../mobile-apps-quickstart-view-dashboard-report.md). In più, è sempre possibile cercare qualsiasi contenuto presente nelle app Power BI per dispositivi mobili. 
 
-![Riquadro di spostamento](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+Toccare la lente di ingrandimento nell'intestazione per avviare la ricerca dei contenuti di Power BI.
 
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Visualizzare i dashboard, i report e gli indicatori KPI preferiti
-Nella pagina Preferiti delle app per dispositivi mobili vengono visualizzati tutti i dashboard preferiti di Power BI, insieme ai report e agli indicatori KPI del Server di report di Power BI e di Reporting Services. Quando si aggiunge un dashboard ai *Preferiti* nell'app Power BI per dispositivi mobili, è possibile accedervi da tutti i dispositivi, incluso il servizio Power BI nel proprio browser. 
-
-* Toccare **Preferiti**.
-  
-   ![Preferiti nel riquadro di spostamento](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
-  
-   I Preferiti di Power BI i preferiti nel Server di report di Power BI e nel portale Reporting Services vengono visualizzati tutti in questa pagina.
-  
-   ![Pagina Preferiti](./media/mobile-android-app-get-started/power-bi-android-favorites-callouts.png)
+## <a name="view-your-favorite-dashboards-and-reports"></a>Visualizzare i dashboard e i report preferiti
+Toccare **Preferiti**  (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) sulla barra di spostamento per visualizzare la pagina Preferiti. 
 
 Altre informazioni sui [dashboard preferiti nelle app Power BI per dispositivi mobili](mobile-apps-favorites.md).
 
@@ -112,7 +94,7 @@ Microsoft Intune permette alle organizzazioni di controllare aspetti come la ric
 > 
 > 
 
-Altre informazioni sulla [configurazione delle app Power BI per dispositivi mobili per Android con Microsoft Intune](../../service-admin-mobile-intune.md). 
+Altre informazioni sulla [configurazione delle app Power BI per dispositivi mobili con Microsoft Intune](../../service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Passaggi successivi
 Ecco alcune operazioni che è possibile eseguire nell'app Power BI per dispositivi Android con dashboard e report di Power BI e con report e indicatori KPI in Server di report di Power BI o nel portale Web di Reporting Services.

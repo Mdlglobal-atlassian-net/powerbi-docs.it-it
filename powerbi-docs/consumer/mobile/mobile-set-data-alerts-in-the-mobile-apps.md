@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/18/2017
-ms.author: mshenhav
-ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/11/2019
+ms.author: painbar
+ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870104"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221378"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -62,7 +62,8 @@ Si applica a:
 
 1. In un dashboard toccare il riquadro di tipo numero o misuratore che contiene un avviso.  
    
-   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
+   ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+
 2. Toccare l'icona a forma di campanello ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
 3. Toccare il nome dell'avviso per modificarlo, toccare il dispositivo di scorrimento per disattivare gli avvisi di posta elettronica o toccare l'icona a forma di bidone della spazzatura per eliminare l'avviso.
    
@@ -148,10 +149,12 @@ Le origini dati vengono spesso impostate in modo da essere aggiornate quotidiana
 2. Se è stato impostato anche l'invio di un messaggio di posta elettronica, nella posta in arrivo viene visualizzato un messaggio simile al seguente.
    
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI aggiunge un messaggio al **centro notifiche** e una nuova icona di avviso al riquadro ![](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) applicabile.
-4. Toccare il pulsante di spostamento ![](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) per [aprire il **Centro notifiche**](mobile-apps-notification-center.md) e visualizzare i dettagli dell'avviso.
+3. Power BI aggiunge un messaggio al [centro notifiche](mobile-apps-notification-center.md) e aggiunge un punto giallo all'icona a forma di campana ![icona a forma di campana](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) sulla barra del titolo (iOS e Android) o al pulsante di spostamento globale ![pulsante di spostamento globale](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (dispositivi Windows 10).
+
+
+4. Toccare l'icona a forma di campana ![icona a forma di campana](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) o il pulsante di spostamento globale ![pulsante di spostamento globale](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) per [aprire il **centro notifiche**](mobile-apps-notification-center.md) e visualizzare i dettagli dell'avviso.
    
-     ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-notifications.png) 
+     
 
 > [!NOTE]
 > Gli avvisi possono essere usati solo con dati aggiornati. Quando i dati vengono aggiornati, Power BI controlla se è impostato un avviso per tali dati. Se i dati raggiungono una soglia di avviso, viene generato un avviso.

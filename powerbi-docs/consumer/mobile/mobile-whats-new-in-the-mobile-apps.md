@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010026"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220518"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novità delle app per dispositivi mobili per Power BI
 per le relative informazioni incluse nelle "Novità", vedere:
@@ -21,6 +21,20 @@ per le relative informazioni incluse nelle "Novità", vedere:
 * [Blog del team di Power BI per le app per dispositivi mobili](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novità di Power BI Desktop](../../desktop-latest-update.md)  
 * [Novità del servizio Power BI](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>Novembre 2019
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>Il nuovo layout dell'app Power BI è ora attivato per impostazione predefinita
+ 
+Ora quando si apre l'app, il nuovo layout e le barre di spostamento vengono attivate automaticamente, semplificando l'individuazione e l'apertura dei contenuti. Usare la [home page](mobile-apps-home-page.md) dell'app come punto di partenza per accedere rapidamente ai contenuti più importanti, oltre che come [feed attività](mobile-apps-home-page.md#activity-feed) che permette di rimanere aggiornati con gli avvisi e le notifiche più recenti e altro ancora.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>Visualizzare tutte le attività più recenti di Power BI
+ 
+Il feed attività aiuta a tenere traccia di ciò che accade al contenuto di Power BI in tempo reale. Basta aprire la scheda Attività dalla home page dell'app per visualizzare gli ultimi avvisi, notifiche, commenti, @mentions e altro ancora. [Altre informazioni](mobile-apps-home-page.md#activity-feed)
+
+### <a name="use-bookmarks-in-your-reports"></a>Usare i segnalibri nei report
+
+L'app Power BI per dispositivi mobili supporta ora i segnalibri creati in Power BI. Dopo aver aperto l'app, è possibile sfruttare i segnalibri creati dall'autore del report e gli eventuali segnalibri creati personalmente. [Altre informazioni](mobile-reports-in-the-mobile-apps.md#bookmarks)
 
 ## <a name="october-2019"></a>Ottobre 2019
 
@@ -302,7 +316,7 @@ Nello sviluppo più recente per portare i dati ovunque, abbiamo creato l'app Pow
 
 Condividere i dashboard e i report con utenti esterni all'organizzazione, direttamente dall'app. La condivisione esterna è abilitata sia per gli account dell'organizzazione che per quelli di social networking. 
 
-#### <a name="persistent-filters"></a>Filtri persistenti
+#### <a name="persistent-filters"></a>Filtri permanenti
 
 Quando si impostano filtri e filtri dei dati in Power BI sul Web, le opzioni di filtro scelte vengono salvate anche nell'app per dispositivi mobili, in modo da poter riprendere da dove si è lasciato.
 
@@ -469,7 +483,7 @@ Leggere il [riepilogo delle funzionalità delle app per dispositivi mobili di ge
 #### <a name="ios"></a>iOS
 **Autenticazione SSRS con l'anteprima di Active Directory Federation Services (ADFS)** È ora possibile accedere ai server di SQL Server Reporting Services in locale dal dispositivo mobile con l'account aziendale. Altre informazioni sull'[uso di OAuth per la connessione ai server SSRS](mobile-oauth-ssrs.md).
 
-#### <a name="android"></a>Android
+#### <a name="android"></a>Telefoni
 **Autenticazione SSRS con l'anteprima di Active Directory Federation Services (ADFS)** È ora possibile accedere ai server di SQL Server Reporting Services in locale dal dispositivo mobile con l'account aziendale. Altre informazioni sull'[uso di OAuth per la connessione ai server SSRS](mobile-oauth-ssrs.md).
 
 **Novità e miglioramenti: Annotare e condividere le informazioni rapidamente** La condivisione e l'annotazione sono ora completamente funzionali nei dispositivi Android. Il menu migliorato rende più semplice e rapido aggiungere annotazioni e condividere informazioni ed è anche possibile condividere un report con annotazioni o direttamente dall'app Power BI.
@@ -503,7 +517,7 @@ Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario 
 
 È ora possibile aggiornare i dati di Apple Watch direttamente dall'app Watch. Nella pagina di indice del dashboard premere forte per aggiornare i dati. Per il corretto funzionamento, l'app Power BI per dispositivi mobili deve essere in esecuzione in background nell'iPhone.
 
-#### <a name="android"></a>Android
+#### <a name="android"></a>Telefoni
 **URL personalizzato nel riquadro immagine**
 
 Se un riquadro dell'immagine ha un URL personalizzato definito dal proprietario del dashboard, quando si tocca il riquadro si passa direttamente a tale URL senza aprire il riquadro nella modalità messa a fuoco. In più, i riquadri del dashboard che contengono gli URL personalizzati predefiniti possono ora reindirizzare i lettori a report all'interno dell'app.
@@ -520,7 +534,7 @@ Leggere il [riepilogo delle funzionalità delle app Power BI per dispositivi mob
 #### <a name="android-devices"></a>Dispositivi Android
 **Anteprima: Gestione di applicazioni mobili di Intune** Il supporto di Power BI per MAM (Mobile Application Manager) di Microsoft Intune è ora disponibile in anteprima per gli utenti di Power BI Pro su dispositivi Android. 
 
-**Preferiti** È possibile contrassegnare i dashboard preferiti nel dispositivo Android e visualizzare tutti i [dashboard di Power BI e i report e gli indicatori KPI per dispositivi mobili di Reporting Services preferiti ](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) raccolti in un'unica comoda posizione. 
+**Preferiti** È possibile contrassegnare i dashboard preferiti nel dispositivo Android e visualizzare tutti i [dashboard di Power BI e i report e gli indicatori KPI per dispositivi mobili di Reporting Services preferiti ](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) raccolti in un'unica comoda posizione. 
 
 #### <a name="ios-devices"></a>Dispositivi iOS
 **Collegamenti** È ora possibile fare clic sugli URL nei riquadri e nelle visualizzazioni per aprirli in un browser.
@@ -667,7 +681,7 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 **Riquadri Bing e R** Aprire i riquadri Bing e R in modalità messa a fuoco.​
 
 #### <a name="android-mobile-app"></a>App per dispositivi mobili Android
-**Report per dispositivi mobili e indicatori KPI di SQL Server 2016** [Visualizzare report per dispositivi mobili e indicatori KPI di SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) e spostarsi tra le cartelle SSRS.
+**Report per dispositivi mobili e indicatori KPI di SQL Server 2016**: [visualizzare report per dispositivi mobili e indicatori KPI di SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) e spostarsi tra le cartelle di SSRS.​
 
 **Visualizzare i report** Aprire i report dai riquadri nei dashboard.​
 
@@ -678,7 +692,7 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 
 **Riquadri Bing e R** Aprire i riquadri Bing e R in modalità messa a fuoco.​
 
-**Più riquadri animati nella schermata Start** [È possibile aggiungere indicatori KPI e schede con più righe ai riquadri animati della schermata Start](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) per visualizzare le metriche più importanti a colpo d'occhio.
+**Più riquadri animati nella schermata Start**: [è possibile aggiungere indicatori KPI e schede con più righe ai riquadri animati della schermata Start](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) per visualizzare le metriche più importanti a colpo d'occhio.
 
 **Zoom con avvicinamento delle dita**: si può usare lo zoom con avvicinamento delle dita su un tablet per visualizzare più dettagli nei dashboard.
 
@@ -687,7 +701,7 @@ Leggere gli [aggiornamenti di marzo 2016 sul blog delle app Power BI per disposi
 **Raccolta report** Aprire i report direttamente nella raccolta report.​
 
 ### <a name="february-2016"></a>Febbraio 2016
-#### <a name="android"></a>Android
+#### <a name="android"></a>Telefoni
 Visualizzare i dashboard in [modalità orizzontale sui telefoni Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>App Power BI per dispositivi Windows 10

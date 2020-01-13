@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699361"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Usare SAML (Security Assertion Markup Language) per l'accesso SSO da Power BI alle origini dati locali
@@ -100,11 +100,11 @@ Dopo aver configurato il certificato e l'identità del gateway, convertire il ce
 
 1. Copiare il file pfx nel computer gateway:
 
-    1. Fare doppio clic su samltest.pfx, quindi selezionare **Local Machine** (Computer locale) &gt; **Next** (Avanti).
+    1. Fare doppio clic su samltest.pfx e quindi selezionare **Computer locale** &gt; **Avanti**.
 
     1. Immettere la password e quindi selezionare **Next** (Avanti).
 
-    1. Selezionare **Place all certificates in the following store** (Inserire tutti i certificati nell'archivio seguente) e quindi selezionare **Browse** (Sfoglia) &gt; **Personal** (Personale) &gt; **OK**.
+    1. Selezionare **Colloca tutti i certificati nel seguente archivio** e quindi selezionare **Sfoglia** &gt; **Personale** &gt; **OK**.
 
     1. Selezionare **Next** (Avanti) e quindi **Finish** (Fine).
 
@@ -120,13 +120,13 @@ Dopo aver configurato il certificato e l'identità del gateway, convertire il ce
 
         ![Aggiungere lo snap-in](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. Selezionare **Certificates** (Certificati) &gt; **Add** (Aggiungi) e quindi selezionare **Computer account** (Account computer) &gt; **Next** (Avanti).
+    1. Selezionare **Certificati** &gt; **Aggiungi** e quindi selezionare **Account computer** &gt; **Avanti**.
 
-    1. Selezionare **Local Computer** (Computer locale) &gt; **Finish** (Fine) &gt; **OK**.
+    1. Selezionare **Computer locale** &gt; **Fine** &gt; **OK**.
 
-    1. Espandere **Certificates** (Certificati) &gt; **Personal** (Personale) &gt; **Certificates** (Certificati) e trovare il certificato.
+    1. Espandere **Certificati** &gt; **Personale** &gt; **Certificati** e trovare il certificato.
 
-    1. Fare clic con il pulsante destro del mouse sul certificato e passare a **All Tasks** (Tutte le attività) &gt; **Manage Private Keys** (Gestisci chiavi private).
+    1. Fare clic con il pulsante destro del mouse sul certificato e passare a **Tutte le attività** &gt; **Gestisci chiavi private**.
 
         ![Gestire le chiavi private](media/service-gateway-sso-saml/manage-private-keys.png)
 

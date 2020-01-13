@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000113"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configurare il Single Sign-On basato su Kerberos dal servizio Power BI alle origini dati locali
@@ -132,7 +132,7 @@ Ecco come configurare le impostazioni di delega:
 
    In questo esempio il nome SPN inizia con *MSSQLSvc*. Se sono stati aggiunti sia il nome di dominio completo sia il nome dell'entità servizio NetBIOS, verranno selezionati entrambi, ma potrebbe esserne visibile solo uno.
 
-9. Selezionare **OK**. 
+9. Seleziona **OK**. 
 
    A questo punto il nome SPN verrà visualizzato nell'elenco dei servizi a cui l'account del servizio gateway può presentare le credenziali delegate.
 
@@ -189,7 +189,7 @@ Infine, nel computer in cui è in esecuzione il servizio gateway, **MyGatewayMac
 
 1. Nel computer gateway eseguire **gpedit.msc**.
 
-2. Passare a **Criteri del computer locale** &gt; **Configurazione computer** &gt; **Impostazioni di Windows** &gt; **Impostazioni di sicurezza** &gt; **Criteri locali** &gt; **Assegnazione diritti utente**.
+2. Vai a **Criteri del computer locale** &gt; **Configurazione computer** &gt; **Impostazioni di Windows** &gt; **Impostazioni di sicurezza** &gt; **Criteri locali** &gt; **Assegnazione diritti utente**.
 
     ![Struttura di cartelle di Criteri del computer locale](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -231,7 +231,7 @@ Se Azure AD Connect non è configurato, seguire questa procedura per mappare un 
     
         Individuare la proprietà `msDS-cloudExtensionAttribute1` e fare doppio clic su di essa. Impostare il valore sul nome utente completo (UPN) dell'utente usato per accedere al servizio Power BI.
     
-    1. Selezionare **OK**.
+    1. Seleziona **OK**.
     
         ![Finestra Editor attributo stringa](media/service-gateway-sso-kerberos/edit-attribute.png)
     

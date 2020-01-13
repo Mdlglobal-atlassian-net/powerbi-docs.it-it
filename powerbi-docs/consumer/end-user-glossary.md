@@ -2,19 +2,18 @@
 title: Glossario per i consumer di Power BI
 description: Power BI introduce molti nuovi termini e nuovi usi per termini familiari. Usare il glossario per acquisire familiarità con la terminologia di Power BI.
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548544"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303919"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -76,7 +75,9 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **content view (visualizzazione contenuto)**
 
-**cross filter, cross highlight (filtro incrociato, evidenziazione incrociata)**
+**filtro incrociato** Si applica alle interazioni con oggetti visivi. Il filtro incrociato rimuove i dati non pertinenti. Ad esempio, selezionando **Moderation** nel grafico ad anello viene applicato un filtro incrociato al grafico a linee. Il grafico a linee ora mostra solo i punti dati che si applicano al segmento Moderation.
+
+**evidenziazione incrociata** Si applica alle interazioni con oggetti visivi. L'evidenziazione incrociata mantiene tutti i punti dati originali, ma disattiva la parte che non si applica alla selezione. Ad esempio, selezionando **Moderation** nel grafico ad anello viene applicata l'evidenziazione incrociata all'istogramma. L'istogramma disattiva tutti i dati che non si applicano al segmento Moderation ed evidenzia tutti i dati che si applicano al segmento Moderation.
 
 **custom visual (oggetto visivo personalizzato)** Gli oggetti visivi creati dalla community e da Microsoft. Possono essere scaricati da Office Store per l'uso nei report di Power BI.
 
@@ -310,6 +311,8 @@ I dashboard di Power BI contengono riquadri di report.
 **value, values (valore, valori)** Dati numerici da visualizzare.
 
 **visual, visualization (oggetto visivo, visualizzazione)** Un grafico. Alcuni esempi di oggetti visivi sono grafico a barre, mappa ad albero, grafico ad anello, mappa.
+
+**interazione oggetti visivi** Una delle funzionalità interessanti di Power BI è il modo in cui sono interconnessi tutti gli oggetti visivi in una pagina del report. Se si seleziona un punto dati in uno degli oggetti visivi, tutti gli altri oggetti visivi nella pagina che contengono tali dati cambiano in base alla selezione.
 
 **Visualizations pane (riquadro Visualizzazioni)** Nome dei modelli di visualizzazione disponibili nell'area di disegno report condivisa per Power BI Desktop e il servizio Power BI. Contiene i modelli di piccole dimensioni, detti anche icone, per ogni tipo di visualizzazione nativa.  
 

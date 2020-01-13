@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831189"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657168"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creare i parametri per i report impaginati nel servizio Power BI
 
@@ -60,8 +60,13 @@ La figura seguente illustra la visualizzazione di progettazione in Generatore Re
   
     -   Per nascondere il parametro e impedire che venga modificato sul server di report dopo la pubblicazione del report, selezionare **Interno**. Il parametro del report, quindi, potrà essere visualizzato solo nella definizione del report. Per questa opzione, è necessario impostare un valore predefinito o consentire al parametro di accettare un valore Null.  
   
-9. Selezionare **OK**. 
-  
+9. Seleziona **OK**. 
+
+## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
+
+- Se si usa un set di dati di Power BI o un modello di Analysis Services come origine dati, non è possibile passare più di 1.000 valori dei parametri in una singola richiesta, a causa delle limitazioni DAX. 
+
+ 
 ## <a name="next-steps"></a>Passaggi successivi
 
 Per informazioni sulla visualizzazione dei parametri nel servizio Power BI, vedere l'articolo [Visualizzare i parametri per i report impaginati](consumer/paginated-reports-view-parameters.md).

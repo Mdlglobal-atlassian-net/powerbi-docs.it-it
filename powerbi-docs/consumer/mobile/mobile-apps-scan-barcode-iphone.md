@@ -1,19 +1,19 @@
 ---
 title: Effettuare la scansione di un codice a barre dall'app Power BI per dispositivi mobili
 description: Effettuare la scansione di codici a barre nel mondo reale per passare direttamente a informazioni di business intelligence filtrate nell'app per dispositivi mobili di Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879170"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217814"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Effettuare la scansione di un codice a barre con il dispositivo dall'app Power BI per dispositivi mobili
 Effettuare la scansione di codici a barre nel mondo reale per passare direttamente a informazioni di business intelligence filtrate nell'app per dispositivi mobili di Power BI.
@@ -32,15 +32,13 @@ Si supponga che un collega abbia [contrassegnato un campo di codice a barre in u
 Quando si effettua la scansione del codice a barre di un prodotto con lo scanner nell'app Power BI del dispositivo, viene visualizzato il report o l'elenco di report con tale codice a barre. È possibile aprire il report filtrato in base a tale codice a barre.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Effettuare la scansione di un codice a barre con lo scanner di Power BI
-1. Nell'app per dispositivi mobili di Power BI aprire il menu di navigazione principale ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) in alto a sinistra. 
-2. Scorrere verso il basso fino a **Scanner** e selezionarlo. 
-   
+1. Sulla barra di spostamento toccare **Altre opzioni** (...) e quindi toccare **Scanner**.
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. Se la fotocamera non è abilitata, è necessario consentire all'app di Power BI l’utilizzo della fotocamera. Questa approvazione è necessaria una sola volta. 
-4. Posizionare lo scanner in corrispondenza del codice a barre su un prodotto. 
-   
-    Viene visualizzato un elenco di report associati al codice a barre.
-5. Toccare il nome del report per aprirlo nel dispositivo, filtrato automaticamente in base a tale codice a barre.
+
+2. Se la fotocamera non è abilitata, è necessario consentire all'app di Power BI l’utilizzo della fotocamera. Questa approvazione è necessaria una sola volta. 
+4. Posizionare lo scanner in corrispondenza del codice a barre su un prodotto. Viene visualizzato un elenco di report associati al codice a barre.
+5. Toccare il nome del report per aprirlo nel dispositivo, filtrato automaticamente in base al codice a barre.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrare in base ad altri codici a barre con un report aperto
 Quando si visualizza sul dispositivo un report filtrato in base a un codice a barre, può essere necessario filtrare lo stesso report in base a un codice a barre diverso.

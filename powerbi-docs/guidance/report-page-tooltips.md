@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834725"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221943"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>Estensione degli oggetti visivi con descrizioni comando per le pagine dei report
 
@@ -61,15 +61,15 @@ Viene mostrata una descrizione comando della pagina che presenta statistiche e a
 
 ### <a name="add-help"></a>Aggiungere il contenuto della Guida
 
-Le intestazioni degli oggetti visivi possono essere configurate per mostrare le descrizioni comando della pagina per le intestazioni degli oggetti visivi. È possibile aggiungere il contenuto della Guida a una descrizione comando della pagina usando caselle di testo con formattazione RTF. È anche possibile aggiungere immagini e forme.
+Le intestazioni degli oggetti visivi possono essere configurate per mostrare le descrizioni comando della pagina per le intestazioni degli oggetti visivi. È possibile aggiungere la documentazione della Guida a una descrizione comando della pagina usando caselle di testo con formattazione RTF. È anche possibile aggiungere immagini e forme.
 
 È interessante notare che pulsanti, immagini, caselle di testo e forme possono anche mostrare una descrizione comando di pagina per l'intestazione di un oggetto visivo.
 
-L'esempio seguente illustra che cosa accade quando l'utente del report passa il cursore sull'icona dell'intestazione dell'oggetto visivo.
+L'esempio seguente illustra che cosa accade quando l'utente del report passa il cursore sull'[icona dell'intestazione dell'oggetto visivo](../desktop-visual-elements-for-reports.md).
 
 ![Un utente del report ha passato il cursore sull'icona dell'intestazione di un oggetto visivo (icona del punto interrogativo). È apparsa una descrizione comando con formattazione RTF.](media/report-page-tooltips/suggestion-add-help.png)
 
-Viene mostrata una descrizione comando della pagina che presenta un testo con formattazione RTF che descrive le misure visualizzate dall'oggetto visivo. La descrizione comando include anche una forma (linea).
+Viene mostrata una descrizione comando della pagina Presenta il testo con formattazione RTF in quattro caselle di testo e una forma (riga). La descrizione comando di pagina fornisce informazioni che descrivono ogni acronimo visualizzato nell'oggetto visivo.
 
 ## <a name="recommendations"></a>Raccomandazioni
 
@@ -87,5 +87,6 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 
 - [Creare descrizioni comando basate sulle pagine del report in Power BI Desktop](../desktop-tooltips.md)
 - [Personalizzazione delle descrizioni comando in Power BI Desktop](../desktop-custom-tooltips.md)
-- Video Guy in a cube: [Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw) (Come crearne una descrizione comando di una pagina di un report di Power BI in Power BI Desktop)
+- [Usare gli elementi visivi per migliorare i report di Power BI](../desktop-visual-elements-for-reports.md)
+- Video Guy in a Cube: [Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw) (Come crearne una descrizione comando di una pagina di un report di Power BI in Power BI Desktop)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73874454"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Creare un oggetto visivo con Domande e risposte di Power BI
@@ -28,7 +28,7 @@ Per seguire la procedura serve un report che si possa modificare e quindi verrà
 
 Ecco come fare per creare questo grafico a linee con Domande e risposte.
 
-1. Nell'area di lavoro di Power BI selezionare **Recupera dati** \> **Esempi** \> **Esempio di analisi delle vendite al dettaglio** > **Connetti**.
+1. Nell'area di lavoro di Power BI selezionare **Recupera dati** \> **Esempi**  \> **Esempio di analisi delle vendite al dettaglio** > **Connetti**.
 
 1. Aprire il dashboard dell'esempio di analisi delle vendite e posizionare il cursore nella casella **Porre una domanda sui dati** di Domande e risposte.
 

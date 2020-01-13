@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8562d0fd5acee2f18576f0a6b6f2e3d613354f92
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 0029d275e5180c29e8653f549d8450014362b59b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74009625"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304232"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Relazioni nei modelli in Power BI Desktop
 
@@ -73,7 +73,7 @@ Quando si configura una relazione Uno-a-molti o Molti-a-uno, si sceglie quello c
 
 Un relazione **Uno-a-uno** indica che entrambe le colonne contengono valori univoci. Questo tipo di cardinalità non è comune ed è probabile che rappresenti una progettazione del modello non ottimale a causa dell'archiviazione di dati ridondanti.<!-- For guidance on using this cardinality type, see the [One-to-one relationship guidance](guidance/relationships-one-to-one) article.-->
 
-Un relazione **Molti-a-molti** indica che entrambe le colonne possono contenere valori duplicati. Questo tipo di cardinalità viene usato raramente. È in genere utile quando si progettano requisiti di modelli complessi.<!-- For guidance on using this cardinality type, see the [Many-to-many relationship guidance](guidance/relationships-many-to-many) article.-->
+Un relazione **Molti-a-molti** indica che entrambe le colonne possono contenere valori duplicati. Questo tipo di cardinalità viene usato raramente. È in genere utile quando si progettano requisiti di modelli complessi. Per istruzioni sull'uso di questo tipo di cardinalità, vedere [Linee guida per le relazioni molti-a-molti](guidance/relationships-many-to-many.md).
 
 > [!NOTE]
 > Il tipo di cardinalità Molti-a-molti non è attualmente supportato per i modelli sviluppati per il Server di report di Power BI.
@@ -226,4 +226,5 @@ Nell'elenco seguente vengono ordinate le prestazioni di propagazione del filtro,
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](guidance/star-schema.md)
+- [Linee guida per le relazioni molti-a-molti](guidance/relationships-many-to-many.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

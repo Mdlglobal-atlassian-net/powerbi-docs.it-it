@@ -1,19 +1,19 @@
 ---
 title: Visualizzazione dei dati offline nelle app per dispositivi mobili di Power BI
 description: Uno dei vantaggi della visualizzazione di Power BI in un'app per dispositivi mobili invece che in un browser, è che è possibile visualizzare i dati anche quando non si è connessi a una rete.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870605"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219079"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Visualizzazione dei dati offline nelle app per dispositivi mobili di Power BI
 Si applica a:
@@ -34,7 +34,7 @@ Quando si è offline si ha la possibilità di accedere e interagire con i dashbo
 È anche possibile accedere in sola lettura ai report di Power BI cui si ha eseguito l'accesso in precedenza dall'app per dispositivi mobili. È possibile visualizzare il report completo, ma non eseguire filtri o filtri incrociati, ordinare i dati o usare filtri dei dati.
 
 ## <a name="background-data-refresh"></a>Aggiornamento dei dati in background
-L'aggiornamento in background aggiorna i dashboard preferiti, oltre ai dashboard e ai report visualizzati nelle ultime due settimane, con i dati nel servizio Power BI (non l'origine dati). Se si è connessi alla rete wi-fi, l'aggiornamento in background viene eseguito ogni 2 ore. In caso contrario, se si è in una rete 3G, Power BI aggiorna il contenuto ogni 24 ore.
+L'aggiornamento in background aggiorna i dashboard preferiti, oltre ai dashboard e ai report visualizzati nelle ultime due settimane, con i dati nel servizio Power BI (non l'origine dati). Se si è connessi alla rete Wi-Fi, l'aggiornamento in background viene eseguito ogni 2 ore. In caso contrario, se si è in una rete 3G, Power BI aggiorna il contenuto ogni 24 ore.
 
 L'aggiornamento in background può essere disattivato, ad esempio per evitare l'uso della rete. Controllare le impostazioni del dispositivo.
 
@@ -52,7 +52,7 @@ Power BI fornisce indicatori chiari a indicare che si sta entrando o uscendo dal
 Quando si è offline con Power BI su dispositivo mobile, è possibile riscontrare queste limitazioni:
 
 * Power BI è in grado di archiviare offline nella memoria cache un massimo di 250 MB di dati.
-* Alcuni tipi di riquadro richiedono una connessione server attiva, quindi non sono disponibili offline; ad esempio, tessere mappa di Bing e alcuni riquadri personalizzati.
+* Alcuni tipi di riquadro, come le tessere mappa di Bing e alcuni riquadri personalizzati, richiedono una connessione server attiva, quindi non sono disponibili offline.
 * Intere cartelle di lavoro di Excel in Power BI non sono disponibili offline.
 * È possibile visualizzare report per dispositivi mobili di Reporting Services e indicatori KPI offline, se sono stati visualizzati durante la connessione. Non vengono aggiornati in background, ma ogni volta che vengono aperti.
 * Nelle app per dispositivi mobili di Power BI non è possibile visualizzare i file di Power BI Desktop (con estensione pbix) salvati nel Server di report di Power BI. 
@@ -65,4 +65,3 @@ I vostri commenti e suggerimenti ci aiutano a decidere quali funzioni implementa
 * Seguire @MSPowerBI su Twitter
 * Partecipare alla conversazione nella [community di Power BI](https://community.powerbi.com/)
 * [Che cos'è Power BI?](../../fundamentals/power-bi-overview.md)
-
