@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875157"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762532"
 ---
-# <a name="the-new-filter-experience-in-power-bi-reports"></a>Nuova esperienza di filtro nei report di Power BI
+# <a name="work-with-filters-in-power-bi-reports"></a>Usare i filtri nei report di Power BI
 
 I filtri di Power BI hanno nuove funzionalità e un nuovo aspetto grafico. Quando si sceglie di usare la nuova esperienza di filtro, è possibile formattare il riquadro Filtri in modo analogo al resto del report. È possibile bloccare i filtri e anche nasconderli. Quando si progetta un report, non viene più visualizzato il riquadro Filtri precedente nel riquadro Visualizzazioni. Tutte le operazioni di modifica e formattazione vengono eseguite in un unico riquadro Filtri. 
 

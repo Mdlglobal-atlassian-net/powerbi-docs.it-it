@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b9e006cb14d391b82c7a1f48ba760ad9c363062c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 61af482ca5a035325a6c3f6c5a661aa8c3fc0985
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878494"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761589"
 ---
-# <a name="connect-to-data-in-power-bi-desktop"></a>Connettersi ai dati in Power BI Desktop
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Connettere le origini dati in Power BI Desktop
 Power BI Desktop consente di connettersi facilmente al mondo dei dati in continua espansione. Se non si ha Power BI Desktop, è possibile [scaricarlo](https://go.microsoft.com/fwlink/?LinkID=521662) e installarlo.
 
 In Power BI Desktop sono disponibili origini dati *di ogni tipo* . La figura seguente mostra come connettersi ai dati, selezionando la scheda **File** della barra multifunzione e quindi facendo clic su **Recupera dati \> Altro**.

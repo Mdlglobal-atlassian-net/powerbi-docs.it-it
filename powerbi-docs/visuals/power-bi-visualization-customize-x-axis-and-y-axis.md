@@ -10,15 +10,13 @@ ms.topic: conceptual
 ms.date: 12/3/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bafcf3a754c58a040595279f93d885e8f317195e
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791786"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758107"
 ---
-- dove si trova la linea della percentuale del margine lordo per gli anni? Si possono vedere più grafici a barre, ma non più righe.
-
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalizzare le proprietà degli assi X e Y
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]

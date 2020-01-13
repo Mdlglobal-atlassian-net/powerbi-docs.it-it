@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548571"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837599"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -21,9 +21,7 @@ Eseguire la registrazione ai prossimi webinar in diretta oppure guardare le sess
 
 ## <a name="upcoming-webinars"></a>Webinar futuri
 
-**Tre modi in cui l'intelligenza artificiale sta cambiando BI**
-<br>di Justyna Lucznik
-<br>[Registrarsi per partecipare l'8 gennaio](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+Nessun webinar ancora pianificato. Ricontrollare presto per informazioni sugli eventi futuri.
 
 >[Webinar futuri della community di Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -38,6 +36,10 @@ Iniziare dai webinar on demand più popolari
 **How Microsoft Is Changing BI Data Protection** (In che modo Microsoft sta cambiando la protezione dei dati di business intelligence)
 <br>di Anton Fritz e Adi Regev
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Tre modi in cui l'intelligenza artificiale sta cambiando BI**
+<br>di Justyna Lucznik
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI and the Future of Modern and Enterprise BI** (Power BI e il futuro della business intelligence moderna e aziendale)
 <br>di Arun Ulag e Amir Netz

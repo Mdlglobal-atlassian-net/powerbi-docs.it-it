@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
+ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: f3170fb30011e50ba97f936d879a7f19cc795521
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d4d6ed36ea849e2bc9ba3d5212c5d5973ea9c953
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128404"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691332"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Immettere i dati direttamente in un report impaginato in Generatore report - Power BI
 
@@ -75,7 +75,7 @@ Dopo aver scaricato e installato Generatore report, seguire lo stesso flusso di 
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Caricare il report impaginato nel servizio Power BI
 
-Ora che i report impaginati sono supportati nel servizio Power BI, è possibile caricare il report impaginato in una capacità Premium. Per i dettagli, vedere [Caricare un report impaginato](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report).
+Ora che i report impaginati sono supportati nel servizio Power BI, è possibile caricare il report impaginato in una capacità Premium. Per i dettagli, vedere [Caricare un report impaginato](paginated-reports-save-to-power-bi-service.md).
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Creare il report impaginato in un server di report
 

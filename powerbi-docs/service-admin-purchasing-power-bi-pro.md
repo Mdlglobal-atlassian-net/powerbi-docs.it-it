@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: quickstart
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 55cdfad221aef276c790e98de83dd844bc13aafe
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 01eb30857b0b76f96e7e18115d92fb1d68dbef0c
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958700"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223838"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Acquistare e assegnare licenze utente di Power BI Pro
 
@@ -36,27 +36,17 @@ Seguire questa procedura per acquistare licenze di Power BI Pro nell'interfaccia
 
 1. Aprire l'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
-2. Nel riquadro di spostamento selezionare **Fatturazione** > **Sottoscrizioni**.
-
-    ![Riquadro di spostamento](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-01.png)
+2. Nel riquadro di spostamento selezionare **Fatturazione** e quindi selezionare **Sottoscrizioni**.
 
 3. Nell'angolo superiore destro della pagina **Sottoscrizioni** selezionare **Aggiungi abbonamenti**.
 
-    ![Sottoscrizione](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-02.png)
-
 4. Individuare l'offerta di sottoscrizione desiderata:
 
-    In **Enterprise Suite** selezionare **Office 365 Enterprise E5**.
+    - In **Enterprise Suite** selezionare **Office 365 Enterprise E5**.
 
-    ![sottoscrizione a Office E5](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-03.png)
-
-    In **Altri piani** selezionare **Power BI Pro**.
-
-    ![Sottoscrizione di Power BI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
+    - In **Altri piani** selezionare **Power BI Pro**.
 
 5. Passare il mouse sui puntini di sospensione ( **...** ) per la sottoscrizione richiesta e selezionare **Acquista ora**.
-
-    ![Buy Now (Acquista)](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 
 6. Scegliere **Pagamento mensile** o **Pagamento per un intero anno** in base alle proprie preferenze di fatturazione.
 
@@ -64,53 +54,27 @@ Seguire questa procedura per acquistare licenze di Power BI Pro nell'interfaccia
 
 8. Verificare che la sottoscrizione acquisita sia ora indicata nella pagina **Sottoscrizioni**.
 
-   ![Sottoscrizione acquisita](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-06.png)
-
-9. Per aggiungere altre licenze dopo l'acquisto iniziale, selezionare **Power BI Pro** nella pagina **Sottoscrizioni** e fare clic su **Aggiungi/rimuovi licenze**.
+9. Per aggiungere altre licenze dopo l'acquisto iniziale, selezionare **Power BI Pro** nella pagina **Sottoscrizioni** e quindi selezionare **Cambia la quantità di licenze**.
 
 ### <a name="assign-licenses-in-the-microsoft-365-admin-center"></a>Assegnare licenze nell'interfaccia di amministrazione di Microsoft 365
 
-Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account utente:
+Per informazioni sull'assegnazione di licenze nell'interfaccia di amministrazione di Microsoft 365, vedere [Assegnare licenze agli utenti](/office365/admin/manage/assign-licenses-to-users).
 
-1. Aprire l'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
-
-2. Nel riquadro di spostamento espandere **Utenti** e quindi selezionare **Utenti attivi**.
-
-    ![Utenti attivi](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-05.png)
-
-3. Selezionare un utente, quindi in **Licenze di prodotto** selezionare **Modifica**.
-
-    ![Modificare le licenze di prodotto](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-06.png)
-
-4. In **Power BI Pro** attivare l'impostazione **Sul** quindi fare clic su **Salva**.
-
-    ![Licenze di prodotto attivate](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-07.png)
-
-5. Nello **Stato** dell'account selezionato verificare che la licenza di Power BI Pro sia stata assegnata correttamente.
-
-    ![Verificare lo stato della licenza](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-08.png)
+Per gli utenti guest, vedere [Assegnare licenze agli utenti nella pagina Licenze](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Prima di assegnare le licenze Pro agli utenti guest, contattare il rappresentante dell'account Microsoft per assicurarsi della conformità con i termini del contratto con Microsoft.
 
 ### <a name="assign-licenses-in-the-azure-portal"></a>Assegnare licenze nel portale di Azure
 
 Seguire questi passaggi per assegnare licenze di Power BI Pro a singoli account utente:
 
-1. Aprire il [portale di Azure](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/39bc3cf7-31a4-43f6-954c-f2d69ca2f0).
+1. Aprire il [portale di Azure](https://portal.azure.com/).
 
-2. Nel riquadro di spostamento selezionare **Azure Active Directory**.
-
-    ![Azure Active Directory](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-01.png)
+2. Cercare e selezionare **Azure Active Directory**.
 
 3. In **Azure Active Directory** selezionare **Licenze**.
 
-    ![Licenses](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-02.png)
-
 4. In **Licenze** selezionare **Tutti i prodotti** e quindi selezionare **Power BI Pro** per visualizzare l'elenco degli utenti con licenza.
 
-    ![Licenze - Tutti i prodotti](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-03.png)
-
 5. Selezionare **Assegna** per aggiungere una licenza di Power BI Pro a un account utente.
-
-    ![Assegnare la licenza](media/service-admin-purchasing-power-bi-pro/service-assigning-power-bi-pro-licenses-04.png)
 
 ## <a name="next-steps"></a>Passaggi successivi
 

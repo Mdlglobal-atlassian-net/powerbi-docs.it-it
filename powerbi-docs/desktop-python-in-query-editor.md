@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 371779df3aaf7cf08d96f61f49039a6383eeda9c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 82a03731ffea49f7e41fc8582155fe09734d475b
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878031"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760843"
 ---
-# <a name="using-python-in-query-editor"></a>Uso di Python nell'Editor di query
+# <a name="use-python-in-query-editor"></a>Usare Python nell'editor di query
 È possibile usare **Python**, un linguaggio di programmazione ampiamente utilizzato da analisti e data scientist, nell'**Editor di query** di Power BI Desktop. L'integrazione di Python nell'**Editor di query** consente di pulire i dati con Python ed eseguire operazioni di data shaping e analisi in set di dati, tra cui, per fare solo qualche esempio, completamento di dati mancanti, stime e clustering. **Python** è un linguaggio potente e può essere usato nell'**Editor di query** per preparare il modello di dati e creare report.
 
 ## <a name="installing-python"></a>Installazione di Python

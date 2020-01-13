@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099740"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622444"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
@@ -131,7 +131,7 @@ Le app modello supportano le app con soli dati di esempio, assicurarsi di selezi
 * Assicurarsi di seguire la documentazione in [Offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
 * Nel caso in cui un dashboard faccia parte dell'app, assicurarsi che non sia vuoto.
 * Installare l'app usando il collegamento all'app prima dell'invio, verificare che sia possibile connettersi al set di dati e che l'esperienza dell'app sia conforme a quanto previsto.
-* Prima di caricare il file con estensione bpix nell'area di lavoro modello, assicurarsi di scaricare tutte le connessioni non necessarie.
+* Prima di caricare il file con estensione pbix nell'area di lavoro modello, assicurarsi di scaricare tutte le connessioni non necessarie.
 * Seguire quanto indicato in [Procedure consigliate per la progettazione di report e oggetti visivi](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) di Power BI per ottimizzare l'impatto sugli utenti e ottenere l'approvazione per la distribuzione.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 

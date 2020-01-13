@@ -9,14 +9,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 1e141c56387e4bbde1741752e40e600c37088e87
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199675"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758808"
 ---
-# <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interazione con le mappe ArcGIS in Power BI
+# <a name="interact-with-arcgis-maps-in-power-bi"></a>Interagire con le mappe ArcGIS in Power BI
 Questo argomento è stato scritto dal punto di vista di una persona che usa una mappa ArcGIS nel servizio Power BI, in Power BI Desktop o in Power BI per dispositivi mobili. Quando un progettista condivide un oggetto visivo di ArcGIS Maps for Power BI, è possibile interagire con esso in svariati modi.  Per altre informazioni sulla creazione di una mappa ArcGIS, vedere l'[esercitazione sulle mappe ArcGIS di Esri](../visuals/power-bi-visualization-arcgis.md).
 
 Dalla combinazione tra le mappe ArcGIS e Power BI nasce una soluzione di mapping di livello superiore, che non si limita alla presentazione di punti su una mappa. La prima cosa che fa un progettista di report è associare livelli di dati demografici alla mappa. La combinazione di livelli di dati basati sulla località (ad esempio dati di censimento) su una mappa con l'analisi spaziale consente di ottenere informazioni più approfondite sui dati nelle visualizzazioni.

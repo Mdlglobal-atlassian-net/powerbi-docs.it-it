@@ -1,19 +1,19 @@
 ---
 title: Esplorare i report nelle app Power BI per dispositivi mobili
 description: Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop e quindi interagire con essi nelle app per dispositivi mobili.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869774"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220745"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
 Si applica a:
@@ -96,29 +96,43 @@ Dal piè di pagina del report è possibile eseguire diverse azioni sulla pagina 
 ![Piè di pagina del report](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 È possibile eseguire queste azioni dal piè di pagina:
-- Ripristinare lo stato originale del filtro del report e delle evidenziazioni incrociate.
-- Aprire il riquadro conversazione per visualizzare commenti o aggiungere commenti al report.
-- Aprire il riquadro di filtro per visualizzare o modificare il filtro applicato al report.
-- Elencare tutte le pagine del report. Se si tocca il nome di una pagina, la pagina verrà caricata e visualizzata.
+* Ripristinare lo stato originale del filtro del report e delle evidenziazioni incrociate.
+* Aprire il riquadro conversazione per visualizzare commenti o aggiungere commenti al report.
+* Aprire il riquadro di filtro per visualizzare o modificare il filtro applicato al report.
+* Elencare tutte le pagine del report. Se si tocca il nome di una pagina, la pagina verrà caricata e visualizzata.
 È possibile passare da una pagina del report a un'altra scorrendo dal bordo dello schermo verso il centro.
-- Visualizzare tutte le azioni del report.
+* Visualizzare tutte le azioni del report.
 
 #### <a name="all-report-actions"></a>Tutte le azioni del report
 Quando si tocca il pulsante **Altre opzioni** (...) nel piè di pagina del report, verranno visualizzate tutte le azioni che è possibile eseguire in un report:
 
 
-![Tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![Tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 È possibile che alcune azioni siano disabilitate perché dipendono dalle funzionalità specifiche del report.
 ad esempio:
+
+**Segnalibri** è presente solo se nel report sono stati impostati [segnalibri](mobile-reports-in-the-mobile-apps.md#bookmarks). Vengono visualizzati sia i segnalibri personali che è possibile definire nel servizio Power BI che i segnalibri definiti dall'autore del report. Se uno dei segnalibri è stato definito come segnalibro predefinito, il report viene aperto su tale vista quando viene caricato.
+
+L'**annotazione e la condivisione** potrebbero essere disattivate in presenza di [criteri di protezione di Intune](https://docs.microsoft.com/intune/app-protection-policies) nell'organizzazione che impediscono la condivisione da un'app per dispositivi mobili Power BI.
+
+L'**invito** è abilitato solo se è disponibile l'autorizzazione per condividere il report con altri utenti. Si avrà l'autorizzazione solo se si è il proprietario del report o se il proprietario ha concesso l'autorizzazione di ricondivisione.
 
 Il **filtro in base alla posizione** è abilitato se l'autore ha creato categorie nel report con dati geografici. Per altre informazioni, vedere [come identificare i dati geografici in un report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
 
 L'**analisi per filtrare il report in base al codice a barre** è abilitata solo se il set di dati nel report è stato contrassegnato come **Codice a barre**. Per altre informazioni, vedere [come contrassegnare i codici a barre in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes).
 
-L'**invito** è abilitato solo se è disponibile l'autorizzazione per condividere il report con altri utenti. Si avrà l'autorizzazione solo se si è il proprietario del report o se il proprietario ha concesso l'autorizzazione di ricondivisione.
+### <a name="bookmarks"></a>Segnalibri
 
-L'**annotazione e la condivisione** potrebbero essere disattivate in presenza di [criteri di protezione di Intune](https://docs.microsoft.com/intune/app-protection-policies) nell'organizzazione che impediscono la condivisione da un'app per dispositivi mobili Power BI.
+L'app Power BI per dispositivi mobili supporta sia i segnalibri del report definiti dall'autore del report che i segnalibri personali che l'utente può definire nel servizio Power BI. il menu Segnalibri è disponibile in **Altre opzioni** (...) sulla [barra degli strumenti delle azioni del report](mobile-reports-in-the-mobile-apps.md#all-report-actions).
+
+![menu Segnalibri](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+Quando è aperta una vista segnalibro di un report, il nome del segnalibro viene visualizzato nella parte superiore del report.
+
+![vista segnalibro](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[Altre informazioni sui segnalibri nel servizio Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)

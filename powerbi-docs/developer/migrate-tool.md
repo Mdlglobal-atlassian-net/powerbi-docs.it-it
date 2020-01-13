@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.openlocfilehash: 01f79bfaae13b60d3c63abd8f7fc801998075ee6
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265272"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Strumento di migrazione di Power BI Embedded
@@ -26,7 +26,7 @@ La migrazione del contenuto dalle raccolte di aree di lavoro nel servizio Power 
 * Non è possibile scaricare i set di dati di push, quindi sarà necessario crearli di nuovo con le API REST di Power BI per il servizio Power BI.
 * Non sarà possibile scaricare i file PBIX importati prima del 26 novembre 2016.
 
-## <a name="download"></a>Scarica
+## <a name="download"></a>Download
 
 È possibile scaricare l'esempio di strumento di migrazione da [GitHub](https://github.com/Microsoft/powerbi-migration-sample). È possibile scaricare un file zip del repository oppure è possibile clonarlo localmente. Una volta scaricato, è possibile aprire *powerbi-migration-sample.sln* all'interno di Visual Studio per compilare ed eseguire lo strumento di migrazione.
 
@@ -112,7 +112,7 @@ Il colore rosso indica che alcuni report non possono essere scaricati. Il numero
 
 È possibile selezionare un elemento all'interno della topologia di PaaS per visualizzare i report nella sezione report.
 
-### <a name="reports"></a>Relazioni
+### <a name="reports"></a>Report
 
 La sezione del report elencherà i report disponibili indicando se possono essere scaricati o no.
 
