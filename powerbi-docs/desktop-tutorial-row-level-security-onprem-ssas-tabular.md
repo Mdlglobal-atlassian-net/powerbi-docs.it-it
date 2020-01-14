@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311465"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759521"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Sicurezza a livello di riga dinamica con il modello tabulare di Analysis Services
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementare la sicurezza a livello di riga in un modello tabulare di Analysis Services
 
 Partendo da un set di dati di esempio da usare durante la procedura descritta di seguito, questa esercitazione illustra come implementare la [**sicurezza a livello di riga**](service-admin-rls.md) in un **modello tabulare di Analysis Services** e usarlo in un report di Power BI. 
 
@@ -157,7 +157,7 @@ Quando il modello tabulare è stato distribuito ed è pronto per l'uso, è neces
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    Congratulazioni! Il **servizio Power BI** illustra la sicurezza dinamica a livello di riga definita nel modello tabulare di **Analysis Services** locale. Power BI usa la proprietà **EffectiveUserName** per inviare le credenziali dell'utente di Power BI corrente all'origine dati locale per eseguire le query.
+    Congratulazioni. Il **servizio Power BI** illustra la sicurezza dinamica a livello di riga definita nel modello tabulare di **Analysis Services** locale. Power BI usa la proprietà **EffectiveUserName** per inviare le credenziali dell'utente di Power BI corrente all'origine dati locale per eseguire le query.
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>Attività 6: Conoscere ciò che accade dietro le quinte
 
