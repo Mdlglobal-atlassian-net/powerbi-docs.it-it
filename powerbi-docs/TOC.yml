@@ -709,6 +709,8 @@
               href: service-dataflows-overview.md
             - name: Creare e usare flussi di dati
               href: service-dataflows-create-use.md
+            - name: Usare il motore di calcolo avanzato con i flussi di dati
+              href: service-dataflows-enhanced-compute-engine.md
             - name: Entità calcolate con Power BI Premium
               href: service-dataflows-computed-entities-premium.md
             - name: Connettersi alle origini dati con flussi di dati
@@ -801,6 +803,8 @@
               items:
                 - name: Connettersi ai servizi tramite le app
                   href: service-connect-to-services.md
+                - name: Azure Carbon Calculator
+                  href: service-connect-to-azure-carbon-calculator.md
                 - name: GitHub
                   href: service-connect-to-github.md
                 - name: Office365Mon
@@ -1077,7 +1081,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: 'Gestire l''origine dati aziendale - SQL '
+            - name: Gestire l'origine dati aziendale - SQL
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
