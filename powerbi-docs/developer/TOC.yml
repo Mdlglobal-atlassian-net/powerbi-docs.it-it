@@ -25,7 +25,7 @@
           items:
             - name: Struttura del progetto per un oggetto visivo di Power BI
               href: visuals/visual-project-structure.md
-            - name: Concetto visivo
+            - name: Concetti per gli oggetti visivi
               href: visuals/power-bi-visuals-concept.md
             - name: Oggetti visivi per le organizzazioni in Power BI
               href: power-bi-custom-visuals-organization.md
