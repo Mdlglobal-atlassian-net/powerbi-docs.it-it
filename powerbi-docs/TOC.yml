@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Creare e usare oggetti visivi matrice
               href: visuals/desktop-matrix-visual.md
+            - name: Creare e usare oggetti visivi di Power Apps
+              href: visuals/power-bi-visualization-powerapp.md
             - name: Informazioni sugli oggetti visivi Domande e risposte di Power BI
               href: visuals/power-bi-visualization-q-and-a.md
             - name: Creare e usare oggetti visivi R
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Configurare l'accesso all'app per dispositivi mobili in modalità remota
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: Configurare WAP e AD FS
+              href: report-server/connect-adfs-wap-report-server.md
             - name: Accesso a dispositivi mobili in remoto con Azure AD
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Ospitare cartelle di lavoro di Excel
@@ -1083,7 +1087,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: Gestire l'origine dati aziendale - SQL
+            - name: 'Gestire l''origine dati aziendale - SQL '
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md
