@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311438"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731244"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti (anteprima)
 
@@ -271,6 +271,12 @@ Per un esempio completo dell'uso dell'API JavaScript, è possibile usare lo [str
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-In questa esercitazione è stato descritto come incorporare i report impaginati di Power BI in un'applicazione per i clienti. È anche possibile provare a incorporare il contenuto di Power BI per l'organizzazione.
+In questa esercitazione è stato descritto come incorporare i report impaginati di Power BI in un'applicazione per i clienti. È anche possibile provare a incorporare il contenuto di Power BI per i clienti o per l'organizzazione.
+
+> [!div class="nextstepaction"]
+>[Incorporare contenuto per i clienti](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[Incorporare contenuto per l'organizzazione](embed-sample-for-your-organization.md)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

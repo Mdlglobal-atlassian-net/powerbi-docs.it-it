@@ -1,6 +1,6 @@
 ---
-title: Uso dei dati tabulari di SQL Server Analysis Services in Power BI Desktop
-description: Dati tabulari di SQL Server Analysis Services in Power BI Desktop
+title: Uso dei dati tabulari di Analysis Services in Power BI Desktop
+description: Dati tabulari di Analysis Services in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.openlocfilehash: 7ce20b8b6dc382cdafe61bde3e9305197fd33ea6
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75523028"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762072"
 ---
-# <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso dei dati tabulari di SQL Server Analysis Services in Power BI Desktop
+# <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Connettersi ai dati tabulari di Analysis Services in Power BI Desktop
 Con Power BI Desktop è possibile connettersi in due modi ai modelli tabulari di SQL Server Analysis Services e recuperare dati da tali modelli: Esplorare usando una connessione dinamica o Selezionare elementi e importarli in Power BI Desktop,
 
 come verrà illustrato nelle sezioni successive.
 
-**Esplorare usando una connessione in tempo reale** : quando si usa una connessione in tempo reale, gli elementi nel modello tabulare o nella prospettiva, come tabelle, colonne e misure compaiono nell'elenco dei campi di Power BI Desktop. È possibile usare gli strumenti di visualizzazione e report avanzati di Power BI Desktop per esplorare il modello tabulare in modi nuovi e altamente interattivi.
+**Esplorare il modello tabulare tramite una connessione in tempo reale**: quando si usa una connessione in tempo reale, gli elementi nel modello tabulare o nella prospettiva, come tabelle, colonne e misure, vengono visualizzati nell'elenco dei campi di Power BI Desktop. È possibile usare gli strumenti di visualizzazione e report avanzati di Power BI Desktop per esplorare il modello tabulare in modi nuovi e altamente interattivi.
 
-Durante la connessione in tempo reale, non viene importato alcun dato dal modello tabulare in Power BI Desktop. Ogni volta che si interagisce con una visualizzazione Power BI Desktop esegue una query sul modello tabulare e calcola i risultati visualizzati. I dati visualizzati sono sempre quelli più recenti disponibili nel modello tabulare, dall'ultima elaborazione o dalle tabelle DirectQuery disponibili nel modello tabulare. 
+Durante la connessione in tempo reale, non viene importato alcun dato dal modello tabulare in Power BI Desktop. Ogni volta che si interagisce con una visualizzazione, Power BI Desktop esegue una query sul modello tabulare e calcola i risultati visualizzati. I dati visualizzati sono sempre quelli più recenti disponibili nel modello tabulare, dall'ultima elaborazione o dalle tabelle DirectQuery disponibili nel modello tabulare. 
 
 Tenere presente che i modelli tabulari sono molto sicuri. Gli elementi visualizzati in Power BI Desktop dipendono dalle autorizzazioni per il modello tabulare a cui si è connessi.
 
-Dopo aver creato i report dinamici in Power BI Desktop, è possibile condividerli con la pubblicazione nel sito di Power BI. Quando si pubblica un file di Power BI Desktop con una connessione dinamica a un modello tabulare nel sito di Power BI, è necessario che il gateway dati locale sia installato e configurato dall'amministratore. Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md).
+Dopo aver creato i report dinamici in Power BI Desktop, è possibile condividerli con la pubblicazione nel sito di Power BI. Quando si pubblica un file di Power BI Desktop con una connessione in tempo reale a un modello tabulare nel sito di Power BI, è necessario che il gateway dati locale sia installato e configurato dall'amministratore. Per altre informazioni, vedere [Gateway dati locale](service-gateway-onprem.md).
 
-**Selezionare elementi e importarli in Power BI Desktop** : quando ci si connette con questa opzione, è possibile selezionare elementi quali tabelle, colonne e misure nel modello tabulare o prospettiva e caricarli in un modello di Power BI Desktop. È possibile usare l'Editor di query avanzato di Power BI Desktop per modellare ulteriormente i dati. È possibile usare le funzionalità di modellazione di Power BI Desktop per modellare ulteriormente i dati. Non viene mantenuta alcuna connessione in tempo reale tra Power BI Desktop e il modello tabulare. È quindi possibile esplorare il modello di Power BI Desktop offline o pubblicare nel sito di Power BI.
+**Select items and import into Power BI Desktop** (Selezionare gli elementi e importarli in Power BI Desktop): quando ci si connette con questa opzione, è possibile selezionare elementi quali tabelle, colonne e misure nel modello tabulare o nella prospettiva e caricarli in un modello di Power BI Desktop. È possibile usare l'Editor di query avanzato di Power BI Desktop per modellare ulteriormente i dati. È possibile usare le funzionalità di modellazione di Power BI Desktop per modellare ulteriormente i dati. Non viene mantenuta alcuna connessione in tempo reale tra Power BI Desktop e il modello tabulare. È quindi possibile esplorare il modello di Power BI Desktop offline o pubblicare nel sito di Power BI.
 
 ## <a name="to-connect-to-a-tabular-model"></a>Per connettersi a un modello tabulare
 1. In Power BI Desktop, fare clic su **Recupera dati** nella scheda **Home**.
@@ -43,10 +43,10 @@ Dopo aver creato i report dinamici in Power BI Desktop, è possibile condividerl
    ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. Questo passaggio dipende dalla modalità di connessione che è stata selezionata:
 
-* Se si esegue la connessione in tempo reale, nello Strumento di navigazione, selezionare un modello tabulare o una prospettiva.
+* Se si esegue la connessione in tempo reale, nello Strumento di navigazione selezionare un modello tabulare o una prospettiva.
   
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
-* Se si è scelto di selezionare gli elementi e recuperare i dati, nello Strumento di navigazione, selezionare un modello tabulare o una prospettiva. È anche possibile selezionare solo tabelle o colonne specifiche da caricare. Per effettuare il data shaping prima di caricare, fare clic su Modifica per aprire l'Editor di query. Quando si è pronti, fare clic su Carica per importare i dati in Power BI Desktop.
+* Se si è scelto di selezionare gli elementi e recuperare i dati, nello Strumento di navigazione selezionare un modello tabulare o una prospettiva. È anche possibile selezionare solo tabelle o colonne specifiche da caricare. Per effettuare il data shaping prima di caricare, fare clic su Modifica per aprire l'Editor di query. Quando si è pronti, fare clic su Carica per importare i dati in Power BI Desktop.
 
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
@@ -57,9 +57,9 @@ Dopo aver creato i report dinamici in Power BI Desktop, è possibile condividerl
 
 Se si sceglie di selezionare gli elementi e recuperare i dati, i dati del modello tabulare vengono importati direttamente nel file di Power BI Desktop, quindi non è necessario alcun gateway.
 
-**Domanda**: qual è la differenza tra la connessione dinamica reale a un modello tabulare dal servizio Power BI rispetto alla connessione dinamica da Power BI Desktop?
+**Domanda**: qual è la differenza tra la connessione in tempo reale a un modello tabulare dal servizio Power BI rispetto alla connessione in tempo reale da Power BI Desktop?
 
-**Risposta**: durante la connessione dinamica a un modello tabulare dal sito nel servizio Power BI a un database locale di Analysis Services all'interno dell'organizzazione, è necessario un gateway dati locale per proteggere le comunicazioni. Durante la connessione in tempo reale a un modello tabulare da Power BI Desktop, non è necessario un gateway perché sia Power BI Desktop che il server Analysis Services a cui ci si connette sono in esecuzione in locale all'interno dell'organizzazione. Tuttavia, se si pubblica il file di Power BI Desktop nel sito di Power BI, è necessario un gateway.
+**Risposta**: durante la connessione in tempo reale a un modello tabulare dal sito nel servizio Power BI a un database locale di Analysis Services all'interno dell'organizzazione, è necessario un gateway dati locale per proteggere le comunicazioni. Durante la connessione in tempo reale a un modello tabulare da Power BI Desktop, non è necessario un gateway perché sia Power BI Desktop che il server Analysis Services a cui ci si connette sono in esecuzione in locale all'interno dell'organizzazione. Tuttavia, se si pubblica il file di Power BI Desktop nel sito di Power BI, è necessario un gateway.
 
 **Domanda**: se è stata creata una connessione dinamica, è possibile connettersi a un'altra origine dati nello stesso file di Power BI Desktop?
 
