@@ -1,20 +1,20 @@
 ---
 title: Classificazione dei dati del dashboard
 description: Informazioni sulla classificazione dei dati del dashboard, inclusa la modalità di configurazione per gli amministratori e le opzioni di modifica della classificazione per i proprietari del dashboard.
-author: amandacofsky
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2017
-ms.author: amac
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 421c587c96563784d84500ba9ba06a41ed5cdade
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b9aeb033586eaf5c0effd838626af6c877080f64
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872755"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925724"
 ---
 # <a name="dashboard-data-classification"></a>Classificazione dei dati del dashboard
 Ogni dashboard è diverso e, a seconda dell'origine dati a cui ci si connette e ai dati che si condividono con i colleghi, è necessario adottare precauzioni specifiche per garantire la riservatezza dei dati. Alcuni dashboard non devono essere mai stampati o condivisi con persone esterne all'azienda, mentre altri possono essere condivisi liberamente. Con la classificazione dei dati del dashboard è possibile informare gli utenti che visualizzano i dashboard sul livello di sicurezza da usare. È possibile contrassegnare i dashboard con classificazioni definite dal reparto IT della propria azienda, in modo che tutti quelli che visualizzano il contenuto abbiano lo stesso livello di informazioni relative alla riservatezza dei dati.
