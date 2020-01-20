@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 046a8f61154db5956efa10a0e10e847bbb69374c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 69295657702f995786379b18d3ad1ed3641bcbb8
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265056"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729811"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Creare oggetti visivi di Power BI usando R
 Con Power BI Desktop, è possibile usare *R* per visualizzare i dati. [R](https://mran.revolutionanalytics.com/documents/what-is-r) è un linguaggio, nonché un ambiente per l'elaborazione statistica e la grafica.
@@ -128,6 +128,8 @@ Gli oggetti visivi R vengono creati in base agli script R, che potrebbero conten
 Gli oggetti visivi R in Power BI Desktop hanno le limitazioni seguenti:
 
 * Dimensioni dei dati: i dati usati da un oggetto visivo R per il tracciato sono limitati a 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono utilizzate solo le prime 150.000 righe e viene visualizzato un messaggio sull'immagine.
+
+* Risoluzione: Tutti gli oggetti visivi R vengono visualizzati a 72 DPI.
 
 * Tempi di calcolo: se il calcolo di un oggetto visivo R supera i cinque minuti, causa un errore di timeout.
 

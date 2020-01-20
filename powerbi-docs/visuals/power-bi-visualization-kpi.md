@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 42a9f2c641a0cdac9b7a129ffc5ecc6f7fb8cf8d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f477c21a337838fb275087f744eef02eb7fd57ce
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870878"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762371"
 ---
-# <a name="key-performance-indicator-kpi-visuals"></a>Oggetti visivi indicatore di prestazioni chiave (KPI)
+# <a name="create-key-performance-indicator-kpi-visualizations"></a>Creare oggetti visivi indicatore di prestazioni chiave (KPI) in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -97,7 +97,7 @@ Gli indicatori KPI sono disponibili anche nel servizio Power BI e nei dispositiv
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
-Se l'indicatore KPI non è simile al precedente, è possibile che non sia stato applicato l'ordinamento in base a **FiscalMonth**. Gli indicatori KPI non hanno un'opzione di ordinamento. È necessario ricominciare e impostare l'ordinamento in base a **FiscalMonth** *prima* di convertire la visualizzazione in un indicatore KPI.
+Se l'indicatore KPI non è simile al precedente, è possibile che non sia stato applicato l'ordinamento in base a **FiscalMonth**. Gli indicatori KPI non hanno un'opzione di ordinamento. È necessario iniziare di nuovo e impostare l'ordinamento in base a **FiscalMonth** *prima* di convertire la visualizzazione in indicatore KPI.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

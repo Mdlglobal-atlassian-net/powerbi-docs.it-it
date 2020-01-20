@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: efbeda396217c1a715f9a5d7ae4827c5f8d09a25
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74698993"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762211"
 ---
-# <a name="r-visuals-in-power-bi"></a>Oggetti visivi R in Power BI
+# <a name="create-and-use-r-visuals-in-power-bi"></a>Creare e usare oggetti visivi R in Power BI
 Attualmente gli oggetti visivi R possono essere creati solo in **Power BI Desktop** e quindi pubblicati nel servizio Power BI. Per altre informazioni sulla creazione di oggetti visivi R, vedere [Creare oggetti visivi di Power BI usando R](../desktop-r-visuals.md).
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Visualizzazione di oggetti visivi R nel servizio Power BI
@@ -87,6 +87,7 @@ Gli oggetti visivi R nel servizio Power BI presentano alcune limitazioni:
 
 * Il supporto per gli oggetti visivi R è limitato ai pacchetti identificati in [Pacchetti R nel servizio Power BI](../service-r-packages-support.md). Attualmente non è disponibile il supporto per i pacchetti personalizzati.
 * Limitazioni relative alle dimensioni di dati: i dati usati dall'oggetto visivo R per il tracciato sono limitati a 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono utilizzate solo le prime 150.000 righe e viene visualizzato un messaggio sull'immagine.
+* Risoluzione: tutti gli oggetti visivi R vengono visualizzati a 72 DPI.
 * Limitazione relativa al tempo di calcolo: se un calcolo dell'oggetto visivo R è maggiore di 60 secondi, si verifica il timeout dello script, determinando la generazione di un errore.
 * Gli oggetti visivi R vengono aggiornati al momento dell'aggiornamento, del filtraggio e dell'evidenziazione dei dati. Tuttavia, l'immagine stessa non è interattiva e non supporta le descrizioni comandi.
 * Gli oggetti visivi R rispondono all'evidenziazione di altri oggetti visivi, ma è possibile fare clic sugli elementi nell'oggetto visivo R per applicare un filtro incrociato ad altri elementi.

@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75000159"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761842"
 ---
-# <a name="auto-datetime-in-power-bi-desktop"></a>Data/ora automatica in Power BI Desktop
+# <a name="apply-auto-datetime-in-power-bi-desktop"></a>Applicare la funzionalità di data/ora automatica in Power BI Desktop
 
 Questo articolo è destinato a esperti di modellazione di dati che sviluppano modelli di importazione o compositi in Power BI Desktop. Introduce e descrive l'opzione _Data/ora automatica_.
 

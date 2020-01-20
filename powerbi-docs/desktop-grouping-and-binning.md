@@ -7,61 +7,60 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eae7ffdaa6f21ed0732500539f922cf10eb7bb61
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 525f7bf4c967722d8f98a9184127bc8c7907cea1
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878192"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729924"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Usare il raggruppamento e la creazione di contenitori in Power BI Desktop
-Quando **Power BI Desktop** crea oggetti visivi, aggrega i dati in blocchi (o gruppi) in base ai valori rilevati nei dati sottostanti. Tuttavia, a volte si potrebbe voler perfezionare la modalità di presentazione di tali blocchi. Ad esempio, si potrebbero voler inserire tre categorie di prodotti in una categoria maggiore (un *gruppo*). In alternativa, si potrebbero voler visualizzare le cifre delle vendite in dimensioni del contenitore di 1.000.000 euro, anziché 923.983 euro divisi uniformemente.
+Quando Power BI Desktop crea oggetti visivi, aggrega i dati in blocchi (o gruppi) in base ai valori trovati nei dati sottostanti. Tuttavia, a volte si potrebbe voler perfezionare la modalità di presentazione di tali blocchi. Ad esempio, si potrebbero voler inserire tre categorie di prodotti in una categoria maggiore (un *gruppo*). In alternativa, si potrebbero voler visualizzare le cifre delle vendite in dimensioni del contenitore di 1.000.000 di euro, anziché in blocchi di 923.983 euro.
 
-In Power BI Desktop è possibile **raggruppare** punti dati che consentono di visualizzare, analizzare ed esplorare più chiaramente dati e tendenze negli oggetti visivi. È anche possibile definire le **dimensioni del contenitore** in modo da inserire i valori in gruppi di uguali dimensioni che consentono una migliore visualizzazione dei dati *.*
+In Power BI Desktop, è possibile *raggruppare* punti dati che consentono di visualizzare, analizzare ed esplorare più chiaramente dati e tendenze negli oggetti visivi. È anche possibile definire le *dimensioni del contenitore* in modo da inserire i valori in gruppi di uguali dimensioni che consentono una migliore e più significativa visualizzazione dei dati. Questa azione è detta anche *binning*.
 
 ## <a name="using-grouping"></a>Uso del raggruppamento
-Per usare il raggruppamento, selezionare due o più elementi in un oggetto visivo tenendo premuto CTRL mentre si fa clic per selezionare più elementi. Fare quindi clic con il pulsante destro del mouse su uno degli elementi della selezione multipla e selezionare **Gruppo** dal menu visualizzato.
+Per usare il raggruppamento, selezionare due o più elementi in un oggetto visivo tenendo premuto CTRL mentre si fa clic per selezionare più elementi. Fare quindi clic con il pulsante destro del mouse su uno degli elementi della selezione multipla e scegliere **Raggruppa** dal menu di scelta rapida.
 
-![](media/desktop-grouping-and-binning/grouping-binning_1.png)
+![Comando Raggruppa, grafico, raggruppamento, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_1.png)
 
-Una volta creato, il gruppo viene aggiunto al bucket **Legenda** per l'oggetto visivo e viene visualizzato anche nell'elenco **Campi**.
+Una volta creato, il gruppo viene aggiunto al contenitore **Legenda** per l'oggetto visivo e viene visualizzato anche nell'elenco **Campi**.
 
-![](media/desktop-grouping-and-binning/grouping-binning_2.png)
+![Campi Legenda e Campi, raggruppamento, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_2.png)
 
-Dopo aver creato un gruppo, è possibile modificare facilmente i relativi membri facendo clic con il pulsante destro del mouse sul campo dal bucket **Legenda** o dall'elenco **Campi** e selezionando **Modifica gruppi**.
+Una volta creato un gruppo, è possibile modificarne facilmente i membri. Fare clic con il pulsante destro del mouse sul campo nel contenitore **Legenda** o nell'elenco **Campi**, quindi scegliere **Modifica gruppi**.
 
-![](media/desktop-grouping-and-binning/grouping-binning_3.png)
+![Comando Modifica gruppi, elenchi Legenda e Campi, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_3.png)
 
-Nella finestra **Gruppi** visualizzata è possibile creare nuovi gruppi o modificare i gruppi esistenti. È anche possibile *rinominare* qualsiasi gruppo facendo doppio clic sul titolo del gruppo nella casella **Gruppi e membri** e digitando un nuovo nome.
+Nella finestra di dialogo **Gruppi** è possibile creare nuovi gruppi o modificare i gruppi esistenti. È anche possibile *rinominare* qualsiasi gruppo. Basta fare doppio clic sul titolo del gruppo nella casella **Gruppi e membri** e quindi immettere un nuovo nome.
 
-Con i gruppi è possibile eseguire diverse operazioni. È possibile aggiungere elementi dall'elenco **Valori non raggruppati** in un nuovo gruppo o in uno dei gruppi esistenti. Per creare un nuovo gruppo, selezionare due o più elementi (premendo CTRL mentre si fa clic) dalla casella **Valori non raggruppati** e quindi fare clic sul pulsante **Gruppo** sotto tale casella.
+Con i gruppi è possibile eseguire ogni sorta di operazioni. È possibile aggiungere elementi dall'elenco **Valori non raggruppati** in un nuovo gruppo o in uno dei gruppi esistenti. Per creare un nuovo gruppo, selezionare due o più elementi (premendo CTRL mentre si fa clic) nella casella **Valori non raggruppati** e quindi selezionare il pulsante **Raggruppa** sotto tale casella.
 
-È possibile aggiungere un valore non raggruppato in un gruppo esistente: è sufficiente selezionare il valore non raggruppato, quindi selezionare il gruppo esistente a cui si vuole aggiungerlo e fare clic sul pulsante **Gruppo**. Per rimuovere un elemento da un gruppo, selezionarlo dalla casella **Gruppi e membri** e quindi fare clic su **Separa**. È anche possibile selezionare se le categorie separate devono essere inserite nel gruppo **Altro** o se devono rimanere non raggruppate.
+È possibile aggiungere un valore non raggruppato in un gruppo esistente: è sufficiente selezionare la voce corrispondente in **Valori non raggruppati**, quindi selezionare il gruppo esistente a cui si vuole aggiungerlo e selezionare il pulsante **Raggruppa**. Per rimuovere un elemento da un gruppo, selezionarlo nella casella **Gruppi e membri** e quindi selezionare **Separa**. È anche possibile spostare categorie non raggruppate nel gruppo **Altro** o lasciarle non raggruppate.
 
-![](media/desktop-grouping-and-binning/grouping-binning_4.png)
+![Finestra di dialogo Gruppi, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_4.png)
 
 > [!NOTE]
-> È possibile creare gruppi per qualsiasi campo nell'area **Campi** senza la necessità di eseguire la selezione multipla da un oggetto visivo esistente. Fare clic con il pulsante destro del mouse sul campo e selezionare **Nuovo gruppo** dal menu visualizzato.
+> È possibile creare gruppi per qualsiasi campo nell'elenco **Campi** senza dover selezionare più elementi da un oggetto visivo esistente. Fare clic con il pulsante destro del mouse sul campo e selezionare **Nuovo gruppo** dal menu visualizzato.
 
 ## <a name="using-binning"></a>Uso della creazione di contenitori
-È possibile impostare le dimensioni del contenitore per i campi numerici e ora in **Power BI Desktop**. È possibile usare la creazione di contenitori per assegnare le dimensioni appropriate ai dati visualizzati da **Power BI Desktop**.
+È possibile impostare le dimensioni del contenitore per i campi numerici e ora in **Power BI Desktop**. È possibile usare il binning, o creazione di contenitori, per assegnare le dimensioni appropriate ai dati visualizzati da Power BI Desktop.
 
-Per applicare una dimensione al contenitore, fare clic con il pulsante destro del mouse su un **campo** e selezionare **Nuovo gruppo**.
+Per applicare una dimensione al contenitore, fare clic con il pulsante destro del mouse su un **campo** e scegliere **Nuovo gruppo**.
 
-![](media/desktop-grouping-and-binning/grouping-binning_5.png)
+![Comando Nuovo gruppo, elenco Campi, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_5.png)
 
-Nella finestra **Gruppi** impostare le **Dimensioni contenitore** sulle dimensioni desiderate.
+Nella finestra di dialogo **Gruppi** impostare **Dimensioni contenitore** sulle dimensioni desiderate.
 
-![](media/desktop-grouping-and-binning/grouping-binning_6.png)
+![Dimensioni contenitore, finestra di dialogo Gruppi, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-Quando si seleziona **OK**, verrà visualizzato un nuovo campo nel riquadro **Campi** con *(contenitori)* accodato. È quindi possibile trascinare il campo nell'area di disegno per usare la dimensione del contenitore in un oggetto visivo.
+Quando si seleziona **OK**, verrà visualizzato un nuovo campo nel riquadro **Campi** con **(contenitori)** accodato. È quindi possibile trascinare il campo nell'area di disegno per usare la dimensione del contenitore in un oggetto visivo.
 
-![](media/desktop-grouping-and-binning/grouping-binning_7.png)
+![Trascinare il campo contenitori nell'area di disegno, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-Per vedere in azione la **creazione di contenitori**, dare uno sguardo a questo [video](https://www.youtube.com/watch?v=BRvdZSfO0DY).
+Per vedere in azione la *creazione di contenitori*, dare uno sguardo a questo [video](https://www.youtube.com/watch?v=BRvdZSfO0DY).
 
-E questo è tutto per quanto riguarda l'uso del **raggruppamento** e della **creazione di contenitori** per assicurarsi che gli oggetti visivi nei report mostrino i dati nel modo desiderato.
-
+E questo è tutto per quanto riguarda l'uso del *raggruppamento* e della *creazione di contenitori* per assicurarsi che gli oggetti visivi nei report mostrino i dati nel modo desiderato.

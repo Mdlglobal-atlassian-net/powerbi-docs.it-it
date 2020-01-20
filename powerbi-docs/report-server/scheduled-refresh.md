@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699016"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837605"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Aggiornamento pianificato dei report di Power BI nel server di report di Power BI
 L'aggiornamento pianificato per i report di Power BI permette di mantenere aggiornati i dati di un report.
@@ -61,8 +61,10 @@ Per informazioni su come monitorare un'istanza di Analysis Services, vedere [Mon
 
 Per informazioni sulle impostazioni della memoria in Analysis Services, vedere [Proprietà della memoria](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
 
+### <a name="data-model-size-limit"></a>Limite di dimensioni del modello di dati
+Il modello di dati caricato nel motore di Analysis Services interno durante un aggiornamento pianificato ha una dimensione massima di 2.000 MB (2 GB). La dimensione massima non può essere configurata. Se la dimensione del modello di dati aumenta oltre 2 GB, si riceverà l'errore di aggiornamento "la lunghezza del risultato supera la lunghezza massima consentita per il tipo di valori di grandi dimensioni di destinazione (2 GB)". In questo caso, è consigliabile ospitare il modello in un'istanza di Analysis Services e usare una connessione dinamica al modello nel report.
+
 ## <a name="next-steps"></a>Passaggi successivi
 Configurare l'[aggiornamento pianificato](configure-scheduled-refresh.md) in un report di Power BI.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

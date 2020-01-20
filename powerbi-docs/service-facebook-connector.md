@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 644e68ec827915c5457e22e1c1486a8f6f3299f6
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877028"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762417"
 ---
-# <a name="facebook-connector-for-power-bi-desktop"></a>Connettore Facebook per Power BI Desktop
+# <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Usare il connettore Facebook per Power BI Desktop
 Il connettore Facebook in **Power BI Desktop** si basa sull'API Facebook Graph. e di conseguenza le funzionalità e la disponibilità potrebbero variare nel tempo.
 
 È disponibile un'[esercitazione sul connettore Facebook per Power BI Desktop](desktop-tutorial-facebook-analytics.md).

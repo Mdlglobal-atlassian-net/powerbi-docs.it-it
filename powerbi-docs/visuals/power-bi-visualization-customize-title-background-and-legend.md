@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/04/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 252e83a543640ec47fbadd00012bf1a4d8074f84
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831542"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757832"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizzare i titoli, le legende e gli sfondi delle visualizzazioni
+# <a name="customize-visualization-titles-backgrounds-and-legends"></a>Personalizzare i titoli, gli sfondi e le legende delle visualizzazioni
 
 Questa esercitazione illustra alcuni modi disponibili per personalizzare le visualizzazioni. Esistono numerose opzioni per la personalizzazione delle visualizzazioni. Il modo migliore per conoscerle tutte è esplorando il riquadro **Formato** (selezionare l'icona del rullo). Per iniziare, questo articolo illustra come personalizzare il titolo, la legenda e lo sfondo di una visualizzazione, nonché come aggiungere un tema.
 

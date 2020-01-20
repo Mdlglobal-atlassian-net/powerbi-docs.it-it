@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868529"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729714"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipi di dati in Power BI Desktop
 Questo articolo descrive i tipi di dati supportati in Power BI Desktop e Data Analysis Expressions (DAX). 
@@ -51,7 +51,7 @@ Power BI Desktop supporta tre tipi numerici:
 >
 
 ### <a name="datetime-types"></a>Tipi Data/Ora
-Power BI Desktop supporta cinque tipi di dati Data/ora in Visualizzazione query e tre nel modello e in Visualizzazione report.   I tipi Data/Ora/Fuso orario e Durata vengono convertiti durante il caricamento nel modello.
+Power BI Desktop supporta cinque tipi di dati Data/Ora in visualizzazione Query.  I tipi Data/Ora/Fuso orario e Durata vengono convertiti durante il caricamento nel modello. Il modello di dati di Power BI Desktop supporta solo il tipo data/ora, ma è possibile applicare la formattazione come date o ore in modo indipendente. 
 
 **Data/Ora**: rappresenta un valore di data e di ora.  Nel sistema il valore Data/Ora viene archiviato come tipo Numero decimale,  per cui in effetti è possibile eseguire una conversione tra i due tipi.   La parte relativa all'ora di una data viene archiviata come frazione in multipli interi di 1/300 secondi (3,33 ms).  Sono supportate le date comprese tra gli anni 1900 e 9999.
 
@@ -59,7 +59,7 @@ Power BI Desktop supporta cinque tipi di dati Data/ora in Visualizzazione query 
 
 **Ora** : rappresenta solo l'ora (senza la parte della data).  Un valore Ora quando viene convertito nel modello corrisponde al valore Data/Ora senza cifre a sinistra della posizione decimale.
 
-**Data/Ora/Fuso orario** : rappresenta la data/ora in formato UTC.  Attualmente viene convertito in Data/Ora quando viene caricato nel modello.
+**Data/Ora/Fuso orario**: rappresenta la data/ora in formato UTC con la differenza di fuso orario.  Viene convertito in Data/Ora quando viene caricato nel modello. Il modello di Power BI non regola il fuso orario in base alla località, alle impostazioni locali o ad altre impostazioni dell'utente. Se il valore 09:00 viene caricato nel modello negli Stati Uniti, viene visualizzato come 09:00 ovunque il report venga aperto o visualizzato. 
 
 **Durata** : rappresenta la quantità di tempo. Viene convertito nel tipo Numero decimale quando viene caricato nel modello.  Analogamente al tipo Numero decimale, può essere aggiunto o sottratto da un campo Data/Ora con risultati corretti.  Può inoltre essere facilmente usato nelle visualizzazioni che mostrano un ordine di grandezza.
 
@@ -163,7 +163,7 @@ Le conversioni vengono eseguite in modo implicito per i tipi numerici o di data/
 | INTEGER |INTEGER |CURRENCY |REAL |REAL |
 | CURRENCY |CURRENCY |CURRENCY |REAL |REAL |
 | REAL |REAL |REAL |REAL |REAL |
-| Data/Ora |REAL |REAL |REAL |Data/Ora |
+| Data/Ora |REAL |REAL |REAL |Data/ora |
 
 ### <a name="handling-blanks-empty-strings-and-zero-values"></a>Gestione di spazi vuoti, stringhe vuote e valori zero
 In DAX un valore Null, un valore spazio vuoto, una cella vuota o un valore mancante sono tutti rappresentati dallo stesso nuovo tipo di valore, cioè BLANK. È anche possibile generare spazi vuoti usando la funzione BLANK, nonché verificare la presenza di spazi vuoti usando la funzione ISBLANK.

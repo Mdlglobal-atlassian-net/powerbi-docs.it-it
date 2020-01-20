@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: d2b034d6e58f98169a5b1b260571001d5a929f28
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e2b1c90c6a4ee237af0d800dd7d1c6e1dc8dc3ba
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866595"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760906"
 ---
-# <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Contrassegnare codici a barre in Power BI Desktop per dispositivi mobili
+# <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Contrassegnare codici a barre in Power BI Desktop per usarli in app per dispositivi mobili
 
 In Power BI Desktop è possibile [classificare i dati](desktop-data-categorization.md) in una colonna, in modo che Power BI Desktop sappia come gestire i valori negli oggetti visivi in un report. È anche possibile classificare una colonna come **Codice a barre**. Quando l'utente o i colleghi [effettuano la scansione di un codice a barre in un prodotto con l'app di Power BI](consumer/mobile/mobile-apps-scan-barcode-iphone.md) in un iPhone, vengono visualizzati tutti i report che includono tale codice a barre. Quando si apre il report nell'app per dispositivi mobili, Power BI filtra automaticamente il report per visualizzare i dati correlati al codice a barre.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 31e2e681bc4309e5dce31583e70e669bce5e466f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 3e6de89f66d6f6282fcde25a1d2be445e2721817
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877254"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762187"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Collegare entità tra flussi di dati in Power BI
 
@@ -81,6 +81,7 @@ Esistono alcune limitazioni da tenere presenti quando si lavora con le entità c
 * Le dipendenze cicliche delle entità collegate non sono consentite
 * Il flusso di dati deve trovarsi in una [nuova area di lavoro di Power BI](service-create-the-new-workspaces.md)
 * Un'entità collegata non può essere unita a un'entità normale che riceve i dati da un'origine dati locale
+* Quando una query (ad esempio, la query A) viene usata nel calcolo di un'altra query (query B) nei flussi di dati, la query B diventa un'entità calcolata. Le entità calcolate non possono fare riferimento a origini locali.
 
 
 ## <a name="next-steps"></a>Passaggi successivi

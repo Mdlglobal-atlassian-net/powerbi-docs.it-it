@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 12/03/2019
-ms.openlocfilehash: a7f0e6f08f25d47cd50789a3c8f296ae20c4cab0
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.date: 01/03/2020
+ms.openlocfilehash: 5f77e17eccf4c99e7a391ea310a34848c604e01d
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831207"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732085"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Pubblicare un report impaginato nel servizio Power BI
 
 Questo articolo illustra come pubblicare un report impaginato nel servizio Power BI caricandolo dal computer locale. È possibile caricare report impaginati nell'Area di lavoro personale o in qualsiasi altra area di lavoro se l'area di lavoro è assegnata a una capacità Premium. Cercare l'icona a forma di diamante ![Icona a forma di diamante della capacità di Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) accanto al nome dell'area di lavoro. 
 
-Se l'origine dati del report è in locale, sarà necessario [creare un gateway](#create-a-gateway) dopo aver caricato il report.
+Se l'origine dati del report è in locale, è necessario creare un gateway dopo aver caricato il report. Vedere la sezione [Creare un gateway](#create-a-gateway) più avanti in questo articolo.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Aggiungere un'area di lavoro a una capacità Premium
 
@@ -35,8 +35,33 @@ Se accanto al nome dell'area di lavoro non è presente l'icona a forma di diaman
 
    È possibile che questa impostazione non sia modificabile. In questo caso, contattare l'amministratore delle capacità di Power BI Premium per ottenere i diritti di assegnazione necessari per poter aggiungere l'area di lavoro a una capacità Premium.
 
+## <a name="from-report-builder-publish-a-paginated-report"></a>Pubblicare un report impaginato da Report Builder
 
-## <a name="upload-a-paginated-report"></a>Caricare un report impaginato
+1. Creare un report impaginato in Generatore Report e salvarlo nel computer locale.
+
+1. Dal menu **File** di Report Builder scegliere **Salva con nome**.
+
+    ![Menu File > Salva > Salva con nome](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+
+    Se non è ancora stato eseguito l'accesso a Power BI, eseguirlo ora oppure creare un account. Nell'angolo in alto a destra di Report Builder selezionare **Accedi** e completare i passaggi.
+
+2. Nell'elenco delle aree di lavoro a sinistra selezionare un'area di lavoro con l'icona a forma di diamante ![Icona a forma di diamante della capacità Power BI Premium](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) accanto al nome. Digitare un nome nella casella **Nome file** > **Salva**. 
+
+    ![Selezionare un'area di lavoro Premium](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-workspace.png)
+
+4. Aprire il servizio Power BI in un browser e passare all'area di lavoro Premium in cui è stato pubblicato il report impaginato. Il report verrà visualizzato nella scheda **Report**.
+
+    ![Report impaginato nell'elenco dei report](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
+
+5. Selezionare il report impaginato per aprirlo nel servizio Power BI. Se nel report sono presenti parametri, è necessario selezionarli prima di poter visualizzare il report.
+
+    ![Selezionare i parametri](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Se l'origine dati del report è locale, leggere le informazioni nella sezione [Creare un gateway](#create-a-gateway) in questo articolo per accedere all'origine dati.
+
+## <a name="from-the-power-bi-service-upload-a-paginated-report"></a>Caricare un report impaginato dal servizio Power BI
+
+È anche possibile partire dal servizio Power BI e caricare un report impaginato.
 
 1. Creare un report impaginato in Generatore Report e salvarlo nel computer locale.
 
@@ -62,13 +87,15 @@ Se accanto al nome dell'area di lavoro non è presente l'icona a forma di diaman
 
     ![Modifica credenziali](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-credentials.png)
 
-   Il report è ora visibile nell'elenco di report.
+   Il report verrà visualizzato nella scheda **Report**.
 
     ![Report impaginato nell'elenco dei report](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-wwi-report.png)
 
 1. Selezionarlo per aprirlo nel servizio Power BI. Se nel report sono presenti parametri, è necessario selezionarli prima di poter visualizzare il report.
  
     ![Selezionare i parametri](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-select-parameters.png)
+
+6. Se l'origine dati del report è locale, leggere le informazioni nella sezione [Creare un gateway](#create-a-gateway) in questo articolo per accedere all'origine dati.
 
 ## <a name="create-a-gateway"></a>Creare un gateway
 
@@ -89,4 +116,5 @@ Attualmente i gateway non supportano parametri multivalore.
 
 - [Visualizzare un report impaginato nel servizio Power BI](consumer/paginated-reports-view-power-bi-service.md)
 - [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
+- [Esercitazione: Incorporare report impaginati di Power BI in un'applicazione per i clienti](developer/embed-paginated-reports-customers.md)
 

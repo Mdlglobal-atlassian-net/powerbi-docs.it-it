@@ -1,20 +1,20 @@
 ---
-title: Usare set di dati condivisi in Generatore report impaginati di Power BI
-description: Connettersi ai set di dati condivisi da Generatore report impaginati di Power BI.
-ms.date: 07/23/2019
+title: Creare un report impaginato con un set di dati condiviso di Power BI - Power BI Report Builder
+description: Creare un report impaginato in Power BI Report Builder basato su un set di dati condiviso di Power BI.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791276"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691477"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Usare set di dati condivisi in Generatore report di Power BI
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creare un report impaginato basato su un set di dati condiviso di Power BI
 
 È possibile usare un set di dati creato in Power BI Desktop come origine dati per i report impaginati di Generatore report di Power BI. Si immagini questo scenario: è stato creato un report di Power BI in Power BI Desktop. È stato dedicato molto tempo alla progettazione del modello di dati e quindi è stato creato un bellissimo report di Power BI con molti oggetti visivi interessanti. Il report include una matrice con molte righe, quindi è necessario scorrere per visualizzarle tutte. I lettori del report vogliono un report da poter stampare, in cui siano visibili tutte le righe della matrice. A tale scopo, è possibile usare un report impaginato di Power BI: stampare una tabella o una matrice che occupa più pagine, con intestazioni e piè di pagina e un layout di pagina perfetto progettato dall'utente. Questo report corrisponderà al report di Power BI Desktop. Si vuole che siano basati sugli stessi dati, senza discrepanze, quindi si usa lo stesso set di dati.
 
@@ -99,13 +99,13 @@ Quando si vuole che i dati nel report di Power BI e nel report di Generatore rep
 
     ![Risultati query](media/report-builder-shared-datasets/power-bi-report-builder-query-results.png)
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
     La query verrà visualizzata nella sezione **Query** della finestra di dialogo **Proprietà set di dati**.
 
     ![Finestra di dialogo Proprietà set di dati](media/report-builder-shared-datasets/power-bi-report-builder-dataset-properties.png)
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
     A questo punto è possibile visualizzare il nuovo set di dati con un elenco dei relativi campi nel riquadro Dati report.
 

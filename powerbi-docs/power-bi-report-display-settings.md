@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265878"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762509"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Impostazioni di visualizzazione della pagina in un report di Power BI
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Applicare le impostazioni di visualizzazione della pagina in un report di Power BI
 È essenziale mantenere i pixel del layout del report in condizioni perfette. A volte può essere complesso perché gli utenti visualizzano i report su schermi con proporzioni e dimensioni diverse. 
 
 La visualizzazione predefinita è **Adatta alla pagina** e le dimensioni di visualizzazione predefinite sono **16:9**. Per bloccare proporzioni diverse o regolare il report in modo diverso, sono disponibili due strumenti: le impostazioni di ***Visualizzazione pagina*** e le impostazioni di ***Dimensioni pagina***.

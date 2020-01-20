@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858981"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762233"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>Quali dati di esempio sono disponibili per l'uso con Power BI?
-Non si ha dimestichezza con Power BI e si vorrebbe provarlo, ma non si hanno dati da usare?  Oppure si ha un set di dati ma, non conoscendo ancora il funzionamento di Power BI, si teme di danneggiare in qualche modo il set di dati?
+# <a name="get-sample-data-for-power-bi"></a>Ottenere dati di esempio per Power BI
+Non si ha dimestichezza con Power BI e si vorrebbe provarlo, ma non si hanno dati da usare?  Oppure si ha un set di dati ma, non conoscendo ancora il funzionamento di Power BI, si teme di danneggiarlo in qualche modo?
 
 Nessun problema! obviEnce ([www.obvience.com](http://www.obvience.com/)) e Microsoft hanno creato esempi che è possibile usare per acquisire familiarità con Power BI.  I dati sono stati resi anonimi e sono rappresentativi di diversi settori, come finanze, risorse umane, vendite e altri. Inoltre, la documentazione online usa questi stessi dati nelle esercitazioni e negli esempi, pertanto sarà possibile seguirne lo svolgimento.      
 
@@ -30,7 +30,7 @@ Prima di iniziare, leggere queste linee guida legali sull'uso degli esempi, quin
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Linee guida per l'utilizzo delle cartelle di lavoro di Excel di esempio per Power BI
 
-©2015 Microsoft Corporation. Tutti i diritti sono riservati. Documenti e cartelle di lavoro vengono forniti così come sono. Le informazioni e le opinioni espresse nel presente documento, inclusi gli URL e altri riferimenti a siti Web, possono essere soggette a modifiche senza preavviso. L'utente accetta di usarle a proprio rischio. Alcuni esempi vengono forniti a solo scopo illustrativo e sono fittizi. Nessuna associazione reale è intenzionale o può essere desunta. Microsoft non offre alcuna garanzia, esplicita o implicita, relativamente alle informazioni fornite.
+©2015 Microsoft Corporation. All rights reserved. Documenti e cartelle di lavoro vengono forniti così come sono. Le informazioni e le opinioni espresse nel presente documento, inclusi gli URL e altri riferimenti a siti Web, possono essere soggette a modifiche senza preavviso. L'utente accetta di usarle a proprio rischio. Alcuni esempi vengono forniti a solo scopo illustrativo e sono fittizi. Nessuna associazione reale è intenzionale o può essere desunta. Microsoft non offre alcuna garanzia, esplicita o implicita, relativamente alle informazioni fornite.
 
 Le cartelle di lavoro non implicano la concessione di alcun diritto legale di proprietà intellettuale relativo a prodotti Microsoft. È possibile copiare e usare questa cartella di lavoro per finalità di riferimento interni.
 
@@ -127,10 +127,10 @@ Ognuno dei pacchetti di contenuto di esempio è disponibile anche come cartella 
    * [Esempio di analisi di vendite e marketing](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Salvare il file scaricato. La posizione di salvataggio è importante.
 
-   * ![Locale](media/sample-datasets/power-bi-local-file2.png) **Locale**: se si salva il file in un'unità locale del computer o in un'altra posizione all'interno dell'organizzazione, da Power BI è possibile importare il file in Power BI. Il file in realtà rimane memorizzato nel disco locale, per cui non viene importato in Power BI. Viene invece creato un nuovo set di dati nel sito di Power BI e i dati, e in alcuni casi, il modello di dati, vengono caricati nel set di dati. Se il file contiene report, verranno visualizzati nel sito Power BI in Report.
-   * ![OneDrive Business](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business**: se si ha OneDrive for Business e si esegue l'accesso con lo stesso account con cui si accede a Power BI, OneDrive for Business è decisamente il modo migliore per mantenere il lavoro in un file di Excel, Power BI o in un file con estensione csv sincronizzato con il set di dati, i report e i dashboard in Power BI. Dato che sia Power BI che OneDrive sono nel cloud, Power BI si connette al file in OneDrive all'incirca ogni ora. Se vengono rilevate modifiche, il set di dati, i report e i dashboard vengono aggiornati automaticamente in Power BI.
-   * ![OneDrive Personale](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personale**: se si salvano i file nel proprio account OneDrive personale, si ottengono molti dei vantaggi offerti da OneDrive for Business. La differenza principale consiste nel fatto che quando ci si connette al file per la prima volta (scegliendo Recupera dati > File > OneDrive - Personale) è necessario accedere a OneDrive con il proprio account Microsoft, che in genere è diverso da quello usato per accedere a Power BI. Quando si accede a OneDrive con l'account Microsoft, assicurarsi di selezionare l'opzione Mantieni l'accesso. In questo modo, Power BI potrà connettersi al file circa ogni ora e verificare che il set di dati in Power BI sia sincronizzato.
-   * ![SharePoint - Siti del team](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Siti del team**: il salvataggio dei file di Power BI in SharePoint - Siti del team corrisponde a grandi linee al salvataggio in OneDrive for Business. La differenza principale è rappresentata dalla modalità di connessione al file da Power BI. Si può specificare un URL o connettersi alla cartella radice.
+   * ![Locale](media/sample-datasets/power-bi-local-file2.png)  **Locale** - Se si salva il file in un'unità locale del computer o in un'altra posizione all'interno dell'organizzazione, da Power BI è possibile importare il file in Power BI. Il file in realtà rimane memorizzato nel disco locale, per cui non viene importato in Power BI. Viene invece creato un nuovo set di dati nel sito di Power BI e i dati, e in alcuni casi, il modello di dati, vengono caricati nel set di dati. Se il file contiene report, verranno visualizzati nel sito Power BI in Report.
+   * ![OneDrive Business](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Business** - Se si ha OneDrive for Business e si esegue l'accesso con lo stesso account con cui si accede a Power BI, OneDrive for Business è decisamente il modo migliore per mantenere il lavoro in un file di Excel, Power BI o CSV sincronizzato con il set di dati, i report e i dashboard in Power BI. Dato che sia Power BI che OneDrive sono nel cloud, Power BI si connette al file in OneDrive all'incirca ogni ora. Se vengono rilevate modifiche, il set di dati, i report e i dashboard vengono aggiornati automaticamente in Power BI.
+   * ![OneDrive personale](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personale** - Se si salvano i file nell'account OneDrive personale, si ottengono molti dei vantaggi offerti da OneDrive for Business. La differenza principale consiste nel fatto che quando ci si connette al file per la prima volta (scegliendo Recupera dati > File > OneDrive - Personale) è necessario accedere a OneDrive con il proprio account Microsoft, che in genere è diverso da quello usato per accedere a Power BI. Quando si accede a OneDrive con l'account Microsoft, assicurarsi di selezionare l'opzione Mantieni l'accesso. In questo modo, Power BI potrà connettersi al file circa ogni ora e verificare che il set di dati in Power BI sia sincronizzato.
+   * ![Siti del team di SharePoint](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint - Siti del team** - Il salvataggio dei file di Power BI in SharePoint - Siti del team corrisponde al salvataggio in OneDrive for Business. La differenza principale è rappresentata dalla modalità di connessione al file da Power BI. Si può specificare un URL o connettersi alla cartella radice.
 1. Aprire il servizio Power BI (app.powerbi.com) e accedere.
 
    > [!TIP]

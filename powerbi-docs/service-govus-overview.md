@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265464"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762095"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI per i clienti del Governo degli Stati Uniti
 Il **servizio Power BI** ha una versione disponibile per i clienti del Governo degli Stati Uniti come parte delle sottoscrizioni al **piano Office 365 US Government Community**. La versione del **servizio Power BI** descritta in questo articolo è progettata specificamente per i clienti del Governo degli Stati Uniti ed è separato e diverso dalla versione commerciale del **servizio Power BI**.
@@ -40,7 +40,7 @@ Le funzionalità seguenti sono disponibili in **Power BI per il Governo degli St
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Connettività tra il servizio cloud di Azure globale e il servizio per enti pubblici 
 
-Azure è distribuito tra più cloud. Per impostazione predefinita, ai tenant è consentito aprire regole del firewall per un'istanza specifica del cloud, ma la rete tra cloud è diversa e richiede l'apertura di regole del firewall specifiche per la comunicazione tra servizi. I clienti di Power BI che devono accedere a istanze di SQL esistenti nel cloud pubblico devono aprire regole del firewall specifiche in SQL nello spazio di indirizzi IP del cloud Azure per enti pubblici per i data center seguenti:
+Azure viene distribuito tra più cloud. Per impostazione predefinita, ai tenant è consentito aprire regole del firewall per un'istanza specifica del cloud, ma la rete tra cloud è diversa e richiede l'apertura di regole del firewall specifiche per la comunicazione tra servizi. I clienti di Power BI che devono accedere a istanze di SQL esistenti nel cloud pubblico devono aprire regole del firewall specifiche in SQL nello spazio di indirizzi IP del cloud Azure per enti pubblici per i data center seguenti:
 
 * USGov Iowa
 * USGov Virginia
@@ -50,7 +50,7 @@ Azure è distribuito tra più cloud. Per impostazione predefinita, ai tenant è 
 Nel cloud pubblico gli spazi IP sono disponibili. Per il cloud per enti pubblici, fare riferimento alla [documentazione del servizio Azure per enti pubblici](https://www.microsoft.com/download/details.aspx?id=57063) che è possibile scaricare per le informazioni più recenti.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitazioni di Power BI per il Governo degli Stati Uniti
-Alcune delle funzionalità disponibili nella versione commerciale del **servizio Power BI** *non* sono disponibili nel **servizio Power BI** per i clienti del Governo degli Stati Uniti. Il team di Power BI è attivamente impegnato a rendere disponibili queste funzionalità ai clienti del Governo degli Stati Uniti e ad aggiornare questo articolo di conseguenza.
+Alcune delle funzionalità disponibili nella versione commerciale del **servizio Power BI***non* sono disponibili nel **servizio Power BI** per i clienti del Governo degli Stati Uniti. Il team di Power BI è attivamente impegnato a rendere disponibili queste funzionalità ai clienti del Governo degli Stati Uniti e ad aggiornare questo articolo di conseguenza.
 
 * **Incorpora in SharePoint Online** - Non è possibile incorporare il contenuto in SharePoint Online usando la web part di Power BI. Tuttavia, l'incorporamento sicuro non funziona usando la web part [*Incorpora*](https://docs.microsoft.com/power-bi/service-embed-secure). È necessario aggiungere *app.powerbigov.us* all'elenco delle eccezioni, che è possibile ottenere seguendo le istruzioni riportate nell'articolo [Allow or restrict the ability to embed content on SharePoint pages](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b) (Consentire o limitare la possibilità di incorporare contenuto nelle pagine di SharePoint).
 * **Power BI per il Governo degli Stati Uniti** è disponibile solo come licenza **Pro**. Tutti i riferimenti alle licenze gratuite di Power BI in un portale di amministrazione (o come utenti) vengono eseguiti in un cloud del servizio Power BI a pagamento.
@@ -59,6 +59,7 @@ Alcune delle funzionalità disponibili nella versione commerciale del **servizio
 * **Metriche di utilizzo per dashboard e report**: le metriche di utilizzo non sono disponibili per i report e i dashboard. Per ottenere informazioni sull'uso del contenuto nell'organizzazione, i clienti possono usare i dati dei log di controllo.
 * **Flussi di dati**: i flussi di dati non sono disponibili.
 * **Report impaginati** - I report impaginati sono attualmente disponibili solo in USGov Virginia.  Il supporto per USGov Texas è pianificato ma non ancora disponibile.
+* L'incorporamento di contenuto di Power BI da un cloud GCC (Government Community Cloud) può essere eseguito solo con SKU di Office 365. I clienti di GCC High possono usare [SKU di Office 365 o di Azure](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
 
 Se agli account sono assegnate licenze gratuite di **Power BI**, questi vengono eseguiti in una versione a pagamento del servizio **Power BI** e non sono incluse nell'offerta di **Power BI per il Governo degli Stati Uniti**. Con gli account delle licenze gratuite è possibile riscontrare i problemi seguenti:
 
@@ -88,7 +89,7 @@ Le seguenti domande (e risposte) hanno l'obiettivo di aiutare a ottenere rapidam
 
 **Risposta**: sì, gli URL sono diversi. La tabella seguente illustra ciascun URL:
 
-| URL versione commerciale | URL versione Governo degli Stati Uniti | URL del Governo degli Stati Uniti per GCC High |
+| URL versione commerciale | URL della versione US Government | URL del Governo degli Stati Uniti per GCC High |
 | --- | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 

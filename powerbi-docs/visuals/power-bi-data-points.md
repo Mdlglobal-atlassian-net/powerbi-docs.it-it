@@ -2,21 +2,21 @@
 title: Set di dati di grandi dimensioni, limiti dei punti dati e strategie per i dati
 description: Limiti dei dati per gli oggetti visivi e strategie per la riduzione dei dati
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011289"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885248"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>Limiti dei dati per gli oggetti visivi e strategie in base al tipo di oggetto visivo
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Applicare limiti e strategie per i punti dati in base al tipo di oggetto visivo
 
 Durante il rendering di un oggetto visivo in Power BI, la visualizzazione deve essere veloce e accurata. Ciò richiede la configurazione di algoritmi sottostanti per ogni tipo di oggetto visivo. Gli oggetti visivi in Power BI devono essere sufficientemente flessibili da gestire diverse dimensioni dei set di dati. Alcuni set di dati includono solo pochi punti dati, mentre altri set di dati ne includono svariati petabyte. Questo articolo illustra le strategie usate da Power BI per il rendering delle visualizzazioni.
 
@@ -75,7 +75,7 @@ Vedere [Funzionamento del nuovo algoritmo di campionamento di linee](../desktop-
  Usa le stesse strategie dell'istogramma. Si noti che la linea nel **grafico combinato** non usa l'algoritmo ad alta densità usato dal **grafico a linee**.
 
 ### <a name="custom-visuals"></a>Oggetti visivi personalizzati
-Si può arrivare fino a 30.000, ma sta agli autori dell'oggetto visivo indicare quali strategie usare
+È possibile arrivare fino a 30.000, ma sono gli autori dell'oggetto visivo che devono indicare le strategie da usare. Il limite predefinito è 1.000, ma l'autore dell'oggetto visivo può modificarlo, fino a un massimo di 30.000.
 
 ### <a name="doughnut"></a>Anello
 - Max punti: 3.500
@@ -119,6 +119,9 @@ A seconda della configurazione, una mappa può avere:
 - Righe: virtualizzazione con finestra di 500 righe alla volta
 - Colonne: prime 100 colonne di raggruppamento 
 - Valori: i valori multipli non contano per la riduzione dei dati
+
+### <a name="powerapps-visual"></a>Oggetto visivo di PowerApps
+È possibile arrivare fino a 30.000, ma sono gli autori dell'oggetto visivo che devono indicare le strategie da usare. Il limite predefinito è 1.000, ma l'autore dell'oggetto visivo può modificarlo, fino a un massimo di 30.000.
 
 ### <a name="radial-gauge"></a>Misuratore radiale
 Nessuna strategia di riduzione

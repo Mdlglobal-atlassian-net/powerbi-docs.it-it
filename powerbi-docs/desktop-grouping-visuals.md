@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67fbacece27ab75a3add89541dad77ce51a91f8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ced98b8290059b3098ce83efdd05bb2a20e2d5ee
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73867491"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761135"
 ---
-# <a name="use-grouping-in-power-bi-desktop"></a>Usare il raggruppamento in Power BI Desktop
+# <a name="group-visuals-in-power-bi-desktop-reports"></a>Raggruppare oggetti visivi in report di Power BI Desktop
 Con il **raggruppamento** in **Power BI Desktop**, è possibile raggruppare nel report gli oggetti visivi, ad esempio pulsanti, caselle di testo, immagini di forme e qualsiasi oggetto visivo creato, proprio come si raggruppano gli elementi in PowerPoint. Il raggruppamento di oggetti visivi in un report consente di trattare il gruppo come un oggetto singolo, rendendo più semplici, rapidi e intuitivi lo spostamento, il ridimensionamento e la gestione dei livelli nel report.
 
 ![Uso del raggruppamento](media/desktop-grouping-visuals/grouping-visuals-01.png)

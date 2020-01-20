@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880952"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758084"
 ---
-# <a name="combo-chart-in-power-bi"></a>Grafico combinato in Power BI
+# <a name="create-and-use-combo-charts-in-power-bi"></a>Creare e usare grafici combinati in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -59,7 +59,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 
 1. Iniziare in una pagina di report vuota e creare un istogramma che visualizzi le vendite dell'anno e il margine lordo per mese.
 
-    a.  Nel riquadro Campi selezionare **Sales** \> **This Year Sales** > **Value**.
+    a.  Nel riquadro Campi selezionare **Sales** \> **This Year Sales** > **Valore**.
 
     b.  Trascinare **Sales** \> **Gross Margin This Year** nell'area **Valore**.
 
@@ -71,7 +71,7 @@ Questo video mostra come creare un grafico combinato usando l’esempio di anali
 6. Convertire l'istogramma in un grafico combinato. Sono disponibili due grafici combinati: **Grafico a linee e istogramma a colonne in pila** e **Grafico a linee e istogramma a colonne raggruppate**. Con l'istogramma selezionato, nel riquadro **Visualizzazioni** selezionare **Grafico a linee e istogramma a colonne raggruppate**.
 
     ![Esempio di conversione di un grafico combinato](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. Dal riquadro **Campi** trascinare **Sales** \> **Last Year Sales** all’area **Valori riga**.
+7. Dal riquadro **Campi** trascinare **Sales** \> **Last Year Sales** nel bucket **Valori riga**.
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 

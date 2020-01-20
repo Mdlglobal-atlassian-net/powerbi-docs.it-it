@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37b7a85534e1ad8f1f301994dea895e098758d1b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2b584c0664623f62b6d1d77cce74eaa51b0e9041
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870982"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758038"
 ---
-# <a name="card-visualizations"></a>Visualizzazioni Scheda
+# <a name="create-card-visualizations"></a>Creare visualizzazioni Scheda
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,7 +28,7 @@ A volte l'unico elemento che si vuole visualizzare in un dashboard o in un repor
 
 Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
 
-1. Nella sezione superiore sinistra della barra dei menu selezionare **File** \> **Apri**
+1. Nella sezione in alto a sinistra della barra dei menu selezionare **File** \> **Apri**
    
 2. Trovare la copia del **file Retail Analysis Sample PBIX**
 
@@ -40,7 +40,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 Il primo metodo per creare una scheda consiste nell'usare l'editor di report in Power BI Desktop.
 
-1. Iniziare in una pagina di report vuota e selezionare il campo **Store** \> **Open store count**.
+1. Iniziare da una pagina di report vuota e selezionare il campo **Store** \> **Open store count**.
 
     Power BI crea un istogramma con un numero.
 

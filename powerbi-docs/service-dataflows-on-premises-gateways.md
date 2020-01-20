@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877257"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762578"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Uso di flussi di dati con origini dati locali
 
@@ -24,7 +24,8 @@ Con i **flussi di dati**, è possibile creare una raccolta di dati da svariate o
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Configurazione di un gateway aziendale per l'uso con i flussi di dati
 
-Per usare un'origine dati locale in un flusso di dati, l'utente che crea il flusso di dati deve avere un **gateway aziendale** installato e configurato. L'utente che crea il flusso di dati deve anche essere l'amministratore del gateway aziendale per poter usare tale gateway per un flusso di dati.
+Per creare un flusso di dati usando un gateway, è necessario che l'utente sia l'amministratore del gateway aziendale o che l'amministratore abbia condiviso l'origine dati che verrà usata con l'utente. 
+
 
 > [!NOTE]
 > I flussi di dati sono supportati solo con i gateway aziendali.
@@ -35,7 +36,7 @@ Quando si crea un flusso di dati, selezionare un'origine dati locale dall'elenco
 
 ![Scegliere un'origine dati locale](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-Dopo aver effettuato la selezione, viene chiesto di fornire i dettagli della connessione per il gateway aziendale che verrà usato per accedere ai dati locali. È necessario selezionare il gateway stesso e fornire le credenziali per il gateway selezionato. Nell'elenco a discesa vengono visualizzati solo i gateway di cui l'utente è amministratore.
+Dopo aver effettuato la selezione, viene chiesto di fornire i dettagli della connessione per il gateway aziendale che verrà usato per accedere ai dati locali. È necessario selezionare il gateway stesso e fornire le credenziali per il gateway selezionato.
 
 ![Fornire i dettagli della connessione](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

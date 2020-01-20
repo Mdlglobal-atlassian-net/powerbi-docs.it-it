@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060661"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885279"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Usare l'oggetto visivo albero di scomposizione in Power BI (anteprima)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Creare e visualizzare oggetti visivi albero di scomposizione in Power BI (anteprima)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 L'oggetto visivo albero di scomposizione in Power BI consente di visualizzare i dati in più dimensioni. Aggrega automaticamente i dati e consente di eseguire il drill-down nelle dimensioni in qualsiasi ordine. È anche una visualizzazione di intelligenza artificiale a cui è possibile chiedere di trovare la dimensione successiva in cui eseguire il drill-down in base a criteri specifici. Questo lo rende uno strumento prezioso per l'esplorazione ad hoc e l'esecuzione dell'analisi della causa radice.
@@ -131,6 +131,8 @@ Nell'esempio che segue i primi due livelli sono bloccati. Questo significa che g
 ![Blocco dell'albero di scomposizione](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Limitazioni note
+
+Il numero massimo di livelli per l'albero è 50. Il numero massimo di punti dati che è possibile visualizzare in una sola volta nell'albero è 5000. I livelli vengono troncati in modo da visualizzare i primi n. Attualmente il numero di primi n per livello è impostato su 10. 
 
 L'albero di scomposizione non è supportato negli scenari seguenti:  
 -   Analysis Services locale

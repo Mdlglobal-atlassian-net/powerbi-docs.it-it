@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ffff443716f11101347debd97f28349afc3904bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fee47524be70955a123d08e10dca5ee0dd3e07fd
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876315"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761181"
 ---
-# <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery e SAP Business Warehouse (BW)
+# <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Connettersi a SAP Business Warehouse usando DirectQuery in Power BI
 È possibile connettersi alle origini dati di **SAP Business Warehouse (BW)** usando direttamente **DirectQuery**. Data la natura OLAP/multidimensionale di SAP BW, esistono numerose differenze importanti tra DirectQuery in SAP BW e le origini relazionali, ad esempio SQL Server. Queste differenze sono riepilogate come segue:
 
 * In **DirectQuery** nelle origini relazionali è disponibile un set di query (così come definito nella finestra di dialogo **Recupera dati** o **Editor di query**) che definisce in modo logico i dati disponibili nell'elenco dei campi. Ciò *non* succede quando ci si connette a un'origine OLAP, ad esempio SAP BW. Al contrario, quando ci si connette al server SAP usando **Recupera dati**, vengono selezionati solo query Infocube o BEx. Quindi tutte le cifre chiave e le dimensioni della query Infocube/BEx selezionata saranno disponibili nell'elenco dei campi.   
@@ -48,7 +48,7 @@ Le principali restrizioni aggiuntive nelle visualizzazioni durante la connession
 ## <a name="support-for-sap-bw-features"></a>Supporto per le funzionalità di SAP BW
 La tabella seguente elenca tutte le funzionalità di SAP BW che non sono completamente supportate o che si comporteranno in modo diverso quando si usa Power BI.   
 
-| Funzionalità | Descrizione |
+| Feature | Descrizione |
 | --- | --- |
 | Calcoli locali |I calcoli locali definiti in una query BEx modificheranno i numeri visualizzati con strumenti come BEx Analyzer. Tuttavia, non sono riflessi dai numeri restituiti da SAP, attraverso l'interfaccia pubblica di MDX. <br/> <br/> **Di conseguenza, i numeri visualizzati in un oggetto visivo di Power BI non necessariamente corrisponderanno a quelli per un oggetto visivo corrispondente in uno strumento SAP.**<br/> <br/>  Ad esempio, quando ci si connette a un cubo di query da una query BEx che imposta l'aggregazione come Cumulated (cioè la somma parziale), Power BI riceverebbe i numeri di base, ignorando l'impostazione.  Un analista potrebbe certamente quindi applicare un calcolo di somma parziale localmente in Power BI, ma dovrebbe prestare attenzione a come i numeri vengono interpretati se questa operazione non fosse eseguita. |
 | Aggregazioni |In alcuni casi (in particolare quando si gestiscono più valute), i numeri aggregati restituiti dall'interfaccia pubblica di SAP non corrispondono quelli indicati dagli strumenti SAP. <br/> <br/> **Di conseguenza, i numeri visualizzati in un oggetto visivo di Power BI non necessariamente corrisponderanno a quelli per un oggetto visivo corrispondente in uno strumento SAP.** <br/> <br/> Ad esempio, i totali in diverse valute sarebbero visualizzati come "*" in BEx Analyzer, ma il totale verrebbe restituito dall'interfaccia pubblica di SAP, senza alcuna informazione sull'irrilevanza di tale numero aggregato. In questo modo il numero (che aggrega, ad esempio, $, EUR e AUD) verrebbe visualizzato da Power BI. |

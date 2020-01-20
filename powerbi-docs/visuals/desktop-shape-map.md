@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199442"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762325"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Forme mappa in Power BI Desktop (anteprima)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Creare oggetti visivi forme mappa in Power BI Desktop (anteprima)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -115,7 +115,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="australia-states"></a>Australia: Stati
 
-| ID | abbr | iso | nome | postale |
+| ID | abbr | iso | name | postale |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia occidentale |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="austria-states"></a>Austria: Stati
 
-| ID | iso | nome | nome-it | postale |
+| ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Vienna |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -178,7 +178,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="canada-provinces"></a>Canada: Province
 
-| ID | iso | nome | postale |
+| ID | iso | name | postale |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territori del Nord-Ovest |NT |
@@ -196,7 +196,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="france-regions"></a>Francia: Regioni
 
-| ID | nome | nome-it |
+| ID | name | nome-it |
 | --- | --- | --- |
 | Auvergne-Rhone-Alpes |  |  |
 | Bourgogne-Franche-Comte |  |  |
@@ -218,7 +218,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="germany-states"></a>Germania: Stati
 
-| ID | iso | nome | nome-it | postale |
+| ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlino |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -270,7 +270,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="italy-regions"></a>Italia: Regioni
 
-| ID | iso | nome | nome-it | postale |
+| ID | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Veneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle d'Aosta |VD |
@@ -295,7 +295,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="mexico-states"></a>Messico: Stati
 
-| ID | abbreviazione | iso | nome | nome-it | postale |
+| ID | abbreviazione | iso | name | nome-it | postale |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -332,7 +332,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="netherlands-provinces"></a>Paesi Bassi: Province
 
-| ID | iso | nome | nome-it |
+| ID | iso | name | nome-it |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Olanda Meridionale |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -349,7 +349,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="uk-countries"></a>Regno Unito: Paesi
 
-| ID | iso | nome |
+| ID | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Galles |
 | gb-sct |GB-SCT |Scozia |
@@ -358,7 +358,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 
 ### <a name="usa-states"></a>USA: Stati
 
-| ID | nome | postale |
+| ID | name | postale |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -400,7 +400,7 @@ Usare le **Chiavi area** seguenti di questa versione di anteprima per testare **
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |OPPURE |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

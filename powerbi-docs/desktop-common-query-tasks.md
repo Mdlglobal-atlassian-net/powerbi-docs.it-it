@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2b1cf2a7f10fd7249dcdec26b5c5f5d12ff15aca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878663"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761750"
 ---
-# <a name="common-query-tasks-in-power-bi-desktop"></a>Attività di query comuni in Power BI Desktop
+# <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Eseguire attività di query comuni in Power BI Desktop
 La finestra **Editor di query** di Power BI Desktop include alcune utili attività usate comunemente. Questo documento illustra queste attività comuni e fornisce i collegamenti per accedere a ulteriori informazioni. 
 
 Le attività di query comuni illustrate in questo documento sono:
@@ -155,7 +155,7 @@ Le categorie delle formule per l'Editor di query sono le seguenti:
   * Conversione e formattazione
   * Formato
   * Arrotondamento
-  * Operazioni
+  * Operations
   * Casuale
   * Trigonometria
   * Byte
@@ -185,7 +185,7 @@ Le categorie delle formule per l'Editor di query sono le seguenti:
   * Operazioni su set
   * Ordinamento
   * Medie
-  * Aggiunta
+  * Addizione
   * Valori numerici
   * Generatori
 * Tabella

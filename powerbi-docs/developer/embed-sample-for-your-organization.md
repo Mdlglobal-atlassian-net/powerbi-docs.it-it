@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 07/29/2019
-ms.openlocfilehash: c67ce4ef9b5b0ac2054d4ecdf76ee3a1a79571d8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 02/04/2020
+ms.openlocfilehash: 7a10df09bd6b0f4ce81ee32ae72700080a8020d9
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311074"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691363"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Esercitazione: Incorporare contenuto di Power BI in un'applicazione per l'organizzazione
 
@@ -53,6 +53,8 @@ Se tuttavia si sceglie di configurare l'ambiente manualmente, è possibile conti
 [Registrare l'applicazione](register-app.md) in Azure Active Directory per consentire all'applicazione di accedere alle [API REST di Power BI](https://docs.microsoft.com/rest/api/power-bi/). La registrazione consente di definire un'identità per l'applicazione e di specificare le autorizzazioni per accedere alle risorse REST di Power BI.
 
 È necessario procedere registrando un'**applicazione Web sul lato server**. Si registra un'applicazione Web sul lato server per creare un segreto dell'applicazione.
+
+Dopo aver creato l'applicazione in Azure, aprirla in Azure, passare ad *Autenticazione* e in *URI di reindirizzamento* aggiungere **/Redirect** a *URI di reindirizzamento*.
 
 ## <a name="set-up-your-power-bi-environment"></a>Configurare l'ambiente di Power BI
 

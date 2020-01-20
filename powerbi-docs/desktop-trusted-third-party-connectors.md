@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ac3f795d6a80d5f143daf68436f41f5771b3c2bb
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73876170"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759837"
 ---
-# <a name="trusting-third-party-connectors"></a>Considerare attendibili i connettori di terze parti
+# <a name="trusted-third-party-connectors"></a>Connettori di terze parti attendibili
 
 ## <a name="why-do-you-need-trusted-third-party-connectors"></a>Perché sono necessari connettori di terze parti attendibili?
 

@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879573"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759998"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Uso dei modelli in Power BI Desktop
+# <a name="create-report-templates-for-power-bi-desktop"></a>Creare modelli di report per Power BI Desktop
 
 **Power BI Desktop** consente di creare report accattivanti per la condivisione di informazioni dettagliate nell'ambito dell'intera organizzazione. Con i **modelli** di Power BI Desktop è possibile semplificare il lavoro creando un modello di report in base a uno già esistente, che può essere usato dall'autore o da altri utenti dell'organizzazione come punto di partenza per il layout, il modello di dati e le query di un nuovo report. Usando i modelli in **Power BI Desktop** è possibile iniziare subito a creare report e standardizzare questo processo di creazione.
 

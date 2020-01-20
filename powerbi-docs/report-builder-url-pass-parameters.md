@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: 44e56613a69069351f21aa7d515fc2bb296e6728
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128267"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762141"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Passare un parametro di report in un URL per un report impaginato in Power BI 
 
@@ -64,6 +64,8 @@ Per passare un valore booleano, usare 0 per false e 1 per true. Per passare un v
 
 > [!NOTE]
 > Se il report contiene un parametro di report con un valore predefinito e il valore della proprietà **Prompt** è **false** (ovvero, la proprietà **Richiesta all'utente** non è selezionata in Gestione report), non è possibile passare un valore per tale parametro di report in un URL. Ciò consente agli amministratori di impedire agli utenti finali di aggiungere o modificare i valori di determinati parametri del report.
+
+> Power BI non supporta una stringa di query con più di 900 caratteri.  Questo valore può essere superato se si usano parametri URL per visualizzare il report impaginato.  Ciò vale in particolare quando si usano parametri multivalore.
 
 ## <a name="additional-examples"></a>Esempi aggiuntivi 
 

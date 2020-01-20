@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875043"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732039"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creare un report impaginato per Server di report di Power BI
+In questo articolo è stato creato un report impaginato per il server di report di Power BI in pochi semplici passaggi.
+
+Per informazioni sulla creazione di report impaginati in Report Builder per il servizio Power BI, vedere invece [Generatore report impaginati di Power BI](../report-builder-power-bi.md).
+
 Come suggerisce il nome, i report impaginati possono contenere più pagine. Hanno un formato fisso e offrono opzioni di personalizzazione precise. I report impaginati sono file con estensione rdl.
 
 È possibile archiviare e gestire report impaginati nel portale Web del server di report di Power BI, proprio come nel portale Web di SQL Server Reporting Services (SSRS). È possibile crearli e modificarli in Generatore report o Progettazione report in SQL Server Data Tools (SSDT), quindi pubblicarli in un portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili sul proprio dispositivo.
@@ -24,7 +28,7 @@ Come suggerisce il nome, i report impaginati possono contenere più pagine. Hann
 
 Se sono già stati creati report impaginati in Generatore Report o Progettazione report, si è pronti per creare report impaginati per il Server di report di Power BI. In caso contrario, ecco alcuni passaggi rapidi per iniziare.
 
-## <a name="step-1-install-and-start-report-builder"></a>Passaggio 1: Installare e avviare Generatore report
+## <a name="step-1-start-report-builder"></a>Passaggio 1: Avviare Generatore report
 Si potrebbe già avere installato Generatore report per creare report per un server SSRS. È possibile usare la stessa versione o Generatore report per creare report per il server di report di Power BI. Se è ancora stato installato, il processo è semplice.
 
 1. Nel portale Web del Server di report di Power BI selezionare **Nuovo** > **Report impaginato**.

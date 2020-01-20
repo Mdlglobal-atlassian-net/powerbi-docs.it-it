@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 83a3cc769ea9451ffa5320710bd0f04934d51393
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1816fb7926ed378cdb70ce2e0ade08893828ce4c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878991"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761957"
 ---
-# <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Risolvere problemi di importazione dei file di Access e XLS in Power BI Desktop
+# <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Risolvere i problemi di importazione di file XLS di Access e di Excel in Power BI Desktop
 
 In Power BI Desktop, sia i database di Access che le prime versioni delle cartelle di lavoro di Excel (file con estensione XLS di tipo Excel 97-2003) usano il *motore di database di Access*. Esistono tre situazioni comuni che possono impedire il corretto funzionamento del motore di database di Access.
 

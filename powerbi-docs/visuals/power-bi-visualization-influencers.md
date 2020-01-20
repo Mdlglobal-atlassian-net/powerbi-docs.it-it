@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871012"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885319"
 ---
-# <a name="key-influencers-visualization"></a>Oggetto visivo Fattori di influenza chiave
+# <a name="create-key-influencers-visualizations"></a>Creare oggetti visivi Fattori di influenza chiave
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ Guardare questo video per imparare a creare un oggetto visivo Fattori di influen
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Il product manager richiede di determinare i fattori per cui i clienti danno valutazioni negative al servizio cloud dell'azienda. Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Selezionare uno dei due collegamenti e quindi selezionare **Download** nella pagina di GitHub visualizzata.
+Il product manager richiede di determinare i fattori per cui i clienti danno valutazioni negative al servizio cloud dell'azienda. Per seguire la procedura, aprire il [file con estensione pbix di commenti e suggerimenti degli utenti](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) in Power BI Desktop. È anche possibile scaricare il [file di Excel di commenti e suggerimenti dei clienti per il servizio Power BI o Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx). Selezionare uno dei due collegamenti e quindi selezionare **Download** nella pagina di GitHub visualizzata.
 
 > [!NOTE]
 > Il set di dati di commenti e suggerimenti dei clienti è basato sul lavoro di [Moro et al., 2014] S. Moro, P. Cortez e P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing" (Un approccio basato sui dati per la previsione del successo del telemarketing bancario). *Decision Support Systems*, Elsevier, 62:22-31, giugno 2014. 
@@ -268,6 +268,8 @@ Per altre informazioni su come analizzare le misure con la visualizzazione dei f
  
 L'oggetto visivo relativo ai fattori di influenza chiave ha alcune limitazioni:
 
+
+
 - Non è disponibile il supporto di DirectQuery
 - Non è disponibile il supporto della connessione dinamica ad Azure Analysis Services e SQL Server Analysis Services
 - Non è disponibile il supporto della funzionalità Pubblica sul Web
@@ -358,6 +360,9 @@ Nell'esempio seguente i clienti che sono consumatori registrano valutazioni bass
 Il motivo è che la visualizzazione considera anche il numero di punti dati quando rileva fattori di influenza. L'esempio seguente ha più di 29.000 consumatori e un numero di amministratori inferiore di 10 volte, circa 2900. Solo 390 amministratori hanno registrato una valutazione bassa. L'oggetto visivo non ha dati sufficienti per determinare se ha trovato un criterio con le valutazioni del ruolo amministratore se si tratta solo di un rilevamento casuale. 
 
 ![Come vengono determinati i fattori di influenza](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**Quali sono i limiti relativi ai punti dati per i fattori di influenza chiave?**
+L'analisi viene eseguita su un campione di 10.000 punti dati. Le bolle sul lato uno mostrano tutti i fattori di influenza trovati. Gli istogrammi e i grafici a dispersione sull'altro lato seguono le strategie di campionamento per gli oggetti visivi di base.
 
 **Come si calcolano i fattori di influenza chiave per l'analisi categorica?**
 

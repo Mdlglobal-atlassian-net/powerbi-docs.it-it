@@ -9,14 +9,15 @@ ms.topic: conceptual
 ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5417511b12c85cb467c3613671a1e101541c9609
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1598aabee45359b312d39f836cede8ca4198bb2
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73880631"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758624"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visualization"></a>Visualizzare i dati usati per creare la visualizzazione
+# <a name="display-a-visualizations-underlying-data"></a>Visualizzare i dati sottostanti di un oggetto visivo
+
 ## <a name="show-data"></a>Mostra i dati
 Una visualizzazione di Power BI viene costruita sulla base dei dati dei set di dati dell'utente. Se si è interessati a visualizzare il "dietro le quinte", Power BI consente di *visualizzare* i dati usati per creare l'oggetto visivo. Quando si seleziona **Mostra i dati**, Power BI mostra i dati di sotto o accanto alla visualizzazione.
 

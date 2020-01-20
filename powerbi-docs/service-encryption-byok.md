@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958472"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762118"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Usare chiavi di crittografia personalizzate per Power BI (anteprima)
 
@@ -104,6 +104,8 @@ Prima di abilitare la crittografia BYOK, tenere presente le considerazioni segue
 - In questa fase non è possibile disabilitare la crittografia BYOK dopo averla abilitata. A seconda di come vengono specificati i parametri per `Add-PowerBIEncryptionKey`, è possibile controllare la modalità con cui viene usata la crittografia BYOK per una o più capacità. Tuttavia, non è possibile annullare l'introduzione delle chiavi nel tenant. Per altre informazioni, vedere [Abilitare la crittografia BYOK](#enable-byok).
 
 - Non è possibile spostare _direttamente_ un'area di lavoro che usa BYOK da una capacità dedicata in Power BI Premium a una capacità condivisa. È necessario prima spostare l'area di lavoro in una capacità dedicata in cui la crittografia BYOK non è abilitata.
+
+- Se si sposta un'area di lavoro che usa BYOK da una capacità dedicata in Power BI Premium a una capacità condivisa, report e set di dati diventano inaccessibili, in quanto sono crittografati con la chiave. Per evitare che ciò accada, è necessario prima spostare l'area di lavoro in una capacità dedicata in cui la crittografia BYOK non è abilitata.
 
 ### <a name="enable-byok"></a>Abilitare la crittografia BYOK
 

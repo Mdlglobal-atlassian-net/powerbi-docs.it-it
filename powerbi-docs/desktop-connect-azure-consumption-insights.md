@@ -1,5 +1,5 @@
 ---
-title: Connettersi ai dati di Azure Consumption Insights in Power BI Desktop
+title: Connettersi ai dati di Informazioni dettagliate sul consumo di Azure in Power BI Desktop
 description: Connettersi ad Azure e ottenere informazioni dettagliate sull'utilizzo con Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876539"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761727"
 ---
-# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Connettersi ai dati di Azure Consumption Insights in Power BI Desktop
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Connettersi ai dati di Informazioni dettagliate sul consumo di Azure in Power BI Desktop
 
 È possibile usare Power BI Desktop per connettersi ad Azure e ottenere dati approfonditi sull'utilizzo dei servizi di Azure da parte dell'organizzazione. Con questi dati, è possibile creare misure e report personalizzati per comprendere e analizzare meglio le spese correlate ad Azure.
 

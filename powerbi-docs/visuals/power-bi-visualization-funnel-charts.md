@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880823"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762440"
 ---
-# <a name="funnel-charts"></a>Grafici a imbuto
+# <a name="create-and-use-funnel-charts"></a>Creare e usare grafici a imbuto
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -71,13 +71,13 @@ Questo video mostra come creare un grafico a imbuto usando l'esempio Sales and M
 
 Creare ora un grafico a imbuto che mostri il numero di opportunità presenti nelle fasi di vendita.
 
-1. Iniziare in una pagina di report vuota e selezionare il campo **SalesStage** \> **Sales Stage**.
+1. Iniziare da una pagina di report vuota e selezionare il campo **SalesStage** \> **Sales Stage**.
    
     ![Selezionare Sales Stage](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 
 1. Selezionare l'icona a forma di imbuto ![Icona del grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) per convertire l'istogramma in un grafico a imbuto.
 
-2. Dal riquadro **Campi**, selezionare **Fact** \> **Opportunity Count**.
+2. Dal riquadro **Campi** selezionare **Fact** \> **Opportunity Count**.
    
     ![Compilare il grafico a imbuto](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Quando si passa il puntatore del mouse su una barra, vengono visualizzate molte informazioni.

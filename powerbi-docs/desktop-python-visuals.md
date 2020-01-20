@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 21ec26182efe2d0b08b2a64227264d5b80756962
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877990"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760728"
 ---
-# <a name="create-power-bi-visuals-using-python"></a>Creare oggetti visivi di Power BI tramite Python
+# <a name="create-power-bi-visuals-by-using-python"></a>Creare oggetti visivi di Power BI tramite Python
 Con **Power BI Desktop** è possibile usare **Python** per visualizzare i dati.
 
 ## <a name="prerequisites"></a>Prerequisiti
@@ -167,6 +167,7 @@ Questa esercitazione è pensata per consentire di iniziare a creare oggetti visi
 Gli oggetti visivi Python in **Power BI Desktop** hanno alcune limitazioni:
 
 * Limitazioni relative alle dimensioni dei dati: i dati usati da un oggetto visivo Python per un tracciato hanno un limite di 150.000 righe. Se vengono selezionate più di 150.000 righe, vengono utilizzate solo le prime 150.000 righe e viene visualizzato un messaggio sull'immagine.
+* Risoluzione: tutti gli oggetti visivi Python vengono visualizzati a 72 DPI.
 * Limitazione relativa al tempo di calcolo: se un calcolo di un oggetto visivo Python supera i cinque minuti, si verifica un timeout di esecuzione e viene generato un errore.
 * Relazioni: come con altri oggetti visivi Power BI Desktop, se vengono selezionati campi di dati da diverse tabelle senza una relazione definita tra di esse, si verifica un errore.
 * Gli oggetti visivi Python vengono aggiornati al momento dell'aggiornamento, del filtraggio e dell'evidenziazione dei dati. Tuttavia, l'immagine in sé non è interattiva e non può essere l'origine del filtro incrociato.

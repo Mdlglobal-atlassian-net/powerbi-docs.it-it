@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4dd6f185ea7d4f4664626586f1374f67bd34f784
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0e870163552e64594e574669ed8dea6937633282
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870940"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757723"
 ---
-# <a name="doughnut-charts-in-power-bi"></a>Grafici ad anello in Power BI
+# <a name="create-and-use-doughnut-charts-in-power-bi"></a>Creare e usare grafici ad anello in Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -37,7 +37,7 @@ Questa esercitazione usa il [file Retail Analysis Sample PBIX](https://download.
 
 ## <a name="create-a-doughnut-chart"></a>Creare un grafico ad anello
 
-1. Iniziare da una pagina di report vuota e selezionare **Sales** \> **Last Year Sales** dal riquadro Campi.  
+1. Iniziare da una pagina di report vuota e nel riquadro Campi selezionare **Sales** \> **Last Year Sales**.  
    
 3. Dal riquadro Visualizzazioni selezionare l'icona per il grafico ad anello ![icona del grafico ad anello](media/power-bi-visualization-doughnut-charts/power-bi-icon.png) per convertire il grafico a barre in un grafico ad anello. Se **Last Year Sales** non è nell'area **Valori**, trascinarlo in tale area.
      
