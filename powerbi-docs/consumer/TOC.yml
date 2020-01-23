@@ -26,7 +26,7 @@
       items:
         - name: Creare un avviso dashboard
           href: end-user-alerts.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Dashboard
           items:
@@ -162,7 +162,7 @@
           href: mobile/mobile-apps-offline-data.md
         - name: App Power BI per realtà mista (anteprima)
           href: mobile/mobile-mixed-reality-app.md
-    - name: Procedure
+    - name: Procedura
       items:
         - name: Tutte le app per dispositivi mobili
           items:
@@ -176,8 +176,8 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Preferiti nelle app per dispositivi mobili
               href: mobile/mobile-apps-favorites.md
-            - name: Configurare l'interazione di report nelle app per dispositivi mobili (solo telefono)
-              href: mobile/mobile-app-single-tap.md
+            - name: Configurare le impostazioni di interazione (solo telefono)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Impostare gli avvisi per i dati nelle app Power BI per dispositivi mobili
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Ottenere le notifiche nelle app per dispositivi mobili di Power BI
