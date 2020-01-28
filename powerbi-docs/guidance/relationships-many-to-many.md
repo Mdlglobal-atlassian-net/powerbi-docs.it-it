@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308250"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161295"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Linee guida per le relazioni molti-a-molti
 
@@ -120,7 +120,7 @@ Per una relazione molti-a-molti tra tabelle di tipo dimensione, sono disponibili
 - Aggiungere una tabella di bridging per archiviare le entità associate
 - Creare relazioni uno-a-molti tra le tre tabelle
 - Configurare **una** relazione bidirezionale per consentire la propagazione del filtro fino alle tabelle di tipo fatto
-- Quando non è appropriato avere valori ID mancanti, impostare la proprietà **Is Nullable** delle colonne ID su TRUE. L'aggiornamento dei dati avrà esito negativo se i valori mancanti vengono originati.
+- Quando non è appropriato avere valori ID mancanti, impostare la proprietà **Is Nullable** delle colonne ID su FALSE. L'aggiornamento dei dati avrà esito negativo se vengono originati valori mancanti.
 - Nascondere la tabella di bridging (a meno che non contenga colonne o misure aggiuntive necessarie per la creazione di report)
 - Nascondere eventuali colonne ID non adatte per la creazione di report (ad esempio, quando gli ID sono chiavi sostitutive)
 - Se è opportuno lasciare visibile una colonna ID, assicurarsi che si trovi dal lato "uno" della relazione. Nascondere sempre la colonna dal lato "molti". In questo modo si garantiscono prestazioni ottimali per il filtro.

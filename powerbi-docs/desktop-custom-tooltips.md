@@ -6,36 +6,38 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08eda4e93a3e02e357c8153c656ec16811893ea9
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 93177ac56bc2d8ecfe4b85f4ab66daef6bf0f0f3
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761434"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161018"
 ---
 # <a name="customize-tooltips-in-power-bi-desktop"></a>Personalizzare le descrizioni comando in Power BI Desktop
+
 Le descrizioni comando sono un modo elegante di offrire altre informazioni contestuali e dettagli ai punti dati su un oggetto visivo. L'immagine seguente mostra una descrizione comando applicata a un grafico in Power BI Desktop.
 
 ![Descrizione comando predefinita](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Quando viene creata una visualizzazione, la descrizione comando predefinita visualizza il valore e la categoria del punto dati. La possibilità di personalizzare le informazioni delle descrizioni comando è estremamente utile e consente di offrire più contesto e informazioni aggiuntive agli utenti che visualizzano l'oggetto visivo. Le descrizioni comando personalizzate consentono di specificare più punti dati che vengono visualizzati come parte della descrizione comando.
+Quando viene creata una visualizzazione, la descrizione comando predefinita visualizza il valore e la categoria del punto dati. Quando si personalizzano le informazioni sulla descrizione comando sono disponibili molte istanze. La personalizzazione delle descrizioni comando offre ulteriore contesto e informazioni aggiuntive per gli utenti che visualizzano l'oggetto visivo. Le descrizioni comando personalizzate consentono di specificare più punti dati che vengono visualizzati come parte della descrizione comando.
 
 ## <a name="how-to-customize-tooltips"></a>Come personalizzare le descrizioni comando
-Per creare una descrizione comando personalizzata, nel contenitore **Campi** del riquadro **Visualizzazioni** trascinare un campo nel bucket **Descrizioni comando** come illustrato nell'immagine seguente. Nell'immagine seguente sono stati posizionati due campi nel bucket **Descrizioni comando**.
+
+Per creare una descrizione comando personalizzata, nel contenitore **Campi** del riquadro **Visualizzazioni** trascinare un campo nel bucket **Descrizioni comando** come illustrato nell'immagine seguente. Nell'immagine seguente sono stati posizionati tre campi nel bucket **Descrizioni comando**.
 
 ![Aggiunta di campi della descrizione comando](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
-Dopo aver aggiunto le descrizioni comando nel contenitore di campi, quando si passa il puntatore su un punto dati della visualizzazione, i valori dei campi vengono visualizzati nella descrizione comando.
+Dopo aver aggiunto le descrizioni comando a **Descrizioni comando**, quando si passa il mouse su un punto dati della visualizzazione, vengono visualizzati i valori di quei campi.
 
 ![Descrizione comando personalizzata](media/desktop-custom-tooltips/custom-tooltips-3.png)
 
-## <a name="customizing-tooltips-with-aggregation-or-quick-calcs"></a>Personalizzazione delle descrizioni comando tramite aggregazioni o Calcolo rapido
-È possibile personalizzare ulteriormente una descrizione comando tramite una funzione di aggregazione o un *Calcolo rapido* facendo clic sulla freccia accanto al campo nel bucket **Descrizioni comando** e scegliendo tra le opzioni disponibili.
+## <a name="customizing-tooltips-with-aggregation-or-quick-measures"></a>Personalizzazione delle descrizioni comando con aggregazioni o misure rapide
 
-![Descrizione comando con Calcolo rapido](media/desktop-custom-tooltips/custom-tooltips-4.png)
+È possibile personalizzare ulteriormente una descrizione comando selezionando una funzione di aggregazione o una *misura rapida*. Selezionare la freccia accanto al campo nel bucket **Descrizioni comando**. Quindi, selezionare una delle opzioni disponibili.
 
-Esistono diversi modi per personalizzare le **descrizioni comando** usando uno dei campi disponibili nel set di dati, quindi per trasmettere informazioni rapide e approfondimenti agli utenti che visualizzano dashboard o report.
+![Descrizione comando con misura rapida](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
+Esistono diversi modi per personalizzare le descrizioni comando, usando uno dei campi disponibili nel set di dati, e trasmettere informazioni rapide e approfondimenti agli utenti che visualizzano dashboard o report.

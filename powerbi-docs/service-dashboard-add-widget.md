@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0c9e3db46c66fcd440ebd304370d31539dd5c5c7
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73853528"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282026"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Aggiungere immagini, video e altri elementi al dashboard
 
@@ -118,15 +118,13 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
 È possibile usare PubNub per aggiungere dati in streaming, ad esempio feed di Twitter o dati dei sensori, a un riquadro nel dashboard. Power BI ha creato un'integrazione per ottenere i dati da PubNub. In questo video Will spiega come funziona.
    
 
-È possibile usare PubNub per aggiungere dati in streaming, ad esempio feed di Twitter o dati dei sensori, a un riquadro nel dashboard. Power BI ha creato un'integrazione per ottenere i dati da PubNub. In questo video Will spiega come funziona. 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
 1. Nella finestra **Aggiungi riquadro** selezionare **Dati in streaming personalizzati** > **Avanti**.
 2. Selezionare **Aggiungi set di dati di streaming**.
 3. Scegliere **Nuovo set di dati di streaming** per creare un nuovo set di dati in streaming usando l'API Power BI o PubNub.
 4. Inserire le informazioni nei campi **Nome set di dati**, **Chiave sottoscrizione** e **Nome del canale**. Se si tratta di una connessione sicura, è presente anche una chiave di autorizzazione. È possibile usare i valori di esempio di PubNub per provare.
-5. Fare clic su **Avanti**.
+5. Selezionare **Avanti**.
     Verranno visualizzati i campi disponibili nel set di dati, con i relativi tipi di dati e il formato JSON.
 6. Selezionare **Connetti**.
     È stato creato un set di dati in streaming.
@@ -135,7 +133,7 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
 9. Selezionare il tipo di oggetto visivo desiderato. Spesso per questi dati è appropriato un grafico a linee.
 10. Selezionare **Asse**, **Legenda** e **Valori**.
 11. Stabilire la quantità di tempo da visualizzare, in secondi, minuti o ore.
-12. Fare clic su **Avanti**.
+12. Selezionare **Avanti**.
 13. Immettere i valori per **Titolo** e **Sottotitolo**, se si desidera.
 14. Aggiungere l'oggetto al dashboard.
 
@@ -148,7 +146,7 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
 
 4. Inserire le informazioni nei campi **Nome set di dati**, **Chiave sottoscrizione** e **Nome del canale**. Se si tratta di una connessione sicura, è presente anche una chiave di autorizzazione. È possibile usare i valori di esempio di PubNub per provare.
 
-5. Fare clic su **Avanti**.
+5. Selezionare **Avanti**.
 
    Verranno visualizzati i campi disponibili nel set di dati, con i relativi tipi di dati e il formato JSON.
 
@@ -166,7 +164,7 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
 
 11. Stabilire la quantità di tempo da visualizzare, in secondi, minuti o ore.
 
-12. Fare clic su **Avanti**.
+12. Selezionare **Avanti**.
 
 13. Facoltativamente, immettere i valori per **Titolo** e **Sottotitolo**.
 
@@ -228,7 +226,7 @@ Quando si aggiunge un riquadro video di YouTube o Vimeo al dashboard, il video v
   January 30, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   ```
 
-## <a name="edit-a-tile"></a>Modificare un riquadro
+## <a name="edit-a-tile"></a>Modifica di un riquadro
 Per modificare un riquadro esistente:
 
 1. Passare il puntatore nell'angolo in alto a destra del riquadro e selezionare **Altre opzioni** (...).

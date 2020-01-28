@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099927"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040488"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipi di visualizzazione in Power BI
 ## <a name="power-bi-visualizations"></a>Visualizzazioni di Power BI
@@ -88,7 +88,7 @@ Un grafico dei fattori di influenza chiave visualizza i collaboratori principali
 
 Per altre informazioni, vedere [Grafici dei fattori di influenza chiave in Power BI](power-bi-visualization-influencers.md)
 
-### <a name="kpis"></a>Indicatori KPI
+### <a name="kpis"></a>KPI
 ![grafico KPI](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
 >[!TIP]
@@ -145,6 +145,13 @@ Per altre informazioni, vedere [Oggetti visivi matrice in Power BI](desktop-matr
 
 >[!TIP]
 >I grafici a torta indicano la relazione tra un intero e le parti. 
+
+### <a name="power-apps-visual"></a>Oggetto visivo di Power Apps
+![Oggetto visivo di Power Apps](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+Gli sviluppatori di report possono creare un'app di Power Apps e incorporarla in un report di Power BI come oggetto visivo. Gli utenti possono interagire con tale oggetto visivo all'interno del report di Power BI. 
+
+Per altre informazioni, vedere [Aggiungere un oggetto visivo di Power Apps al report](power-bi-visualization-powerapp.md).
 
 ### <a name="qa-visual"></a>Oggetto visivo Domande e risposte
 ![Oggetti visivi Domande e risposte](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

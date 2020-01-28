@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861314"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039129"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipi di oggetti visivi in Power BI
 Gli oggetti visivi sono disponibili in report, dashboard e Domande e risposte. Alcuni di questi tipi di oggetti visivi sono inclusi in Power BI, mentre altri sono *oggetti visivi personalizzati*. Gli oggetti visivi personalizzati vengono creati all'esterno di Power BI e in modo che possano essere aggiunti dai *progettisti* dei report ai report, ai dashboard e alle app di Power BI. 
@@ -59,7 +59,7 @@ I grafici combinati rappresentano un'ottima scelta nelle seguenti situazioni:
 - quando si ha un grafico a linee e un istogramma con lo stesso asse X.
 - per confrontare più misure con intervalli di valori diversi
 - per illustrare la correlazione tra due misure in un unico oggetto visivo
-- per verificare se una misura incontra la destinazione definita da un'altra misura
+- per verificare se una misura raggiunge la destinazione definita da un'altra misura
 - per risparmiare spazio nell'area di disegno
 
 ### <a name="doughnut-charts"></a>Grafici ad anello
@@ -96,7 +96,7 @@ Un grafico dei fattori di influenza chiave visualizza i collaboratori principali
 
 I fattori di influenza chiave rappresentano un'ottima scelta per comprendere i fattori che influenzano una metrica chiave. Ad esempio, *che cosa influenza i clienti nella scelta di effettuare un secondo ordine *oppure* perché le vendite sono state così elevate lo scorso giugno*. 
 
-### <a name="kpis"></a>Indicatori KPI
+### <a name="kpis"></a>KPI
 ![kpi](media/end-user-visual-type/power-bi-kpi.png)
 
 Un indicatore di prestazioni chiave (KPI) è un segnale visivo che comunica lo stato di avanzamento verso un obiettivo misurabile. 
@@ -140,6 +140,19 @@ L'oggetto visivo matrice è un tipo di oggetto visivo tabella (vedere "Tabella" 
 
 I grafici a torta indicano la relazione tra un intero e le parti. 
 
+### <a name="power-apps-visual"></a>Oggetto visivo di Power Apps
+![Oggetto visivo di Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Gli sviluppatori di report possono creare un'app di Power Apps e incorporarla in un report di Power BI. Gli utenti possono interagire con tale oggetto visivo all'interno del report di Power BI. 
+
+### <a name="qa-visual"></a>Oggetto visivo Domande e risposte
+![Oggetti visivi Domande e risposte](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>Analogamente all'[esperienza Domande e risposte nei dashboard](../power-bi-tutorial-q-and-a.md), l'oggetto visivo Domande e risposte consente di porre domande sui dati usando il linguaggio naturale. 
+
+Per altre informazioni, vedere [Oggetti visivi Domande e risposte in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+
 ### <a name="ribbon-chart"></a>Grafico a nastri
 ![Grafico a nastri](media/end-user-visual-type/power-bi-ribbon.png)
 
@@ -161,7 +174,7 @@ Un tracciato a punti è simile a un grafico a bolle e a un grafico a dispersione
 ![tracciato a punti](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Grafico a dispersione - Alta densità
-![dispersione ad alta intensità](media/end-user-visual-type/density-scatter.png)
+![grafico a dispersione ad alta densità](media/end-user-visual-type/density-scatter.png)
 
 Per definizione, verranno campionati i dati ad alta densità per creare abbastanza rapidamente gli oggetti visivi disponibili per l'interattività. Il campionamento ad alta densità usa un algoritmo che elimina la sovrapposizione dei punti e assicura che tutti i punti nel set di dati vengano rappresentati nell'oggetto visivo. Non si limita a tracciare un campione rappresentativo dei dati.  
 

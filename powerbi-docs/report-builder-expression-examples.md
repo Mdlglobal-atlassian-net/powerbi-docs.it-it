@@ -1,6 +1,6 @@
 ---
 title: Esempi di espressioni nel Generatore report di Power BI
-description: Le espressioni sono usate di frequente nei report impaginati del Generatore report impaginati di Power BI per controllare il contenuto e l'aspetto del report.
+description: Le espressioni sono usate di frequente nei report impaginati di Power BI Report Builder per controllare il contenuto e l'aspetto del report.
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728553"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953974"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Esempi di espressioni nel Generatore report di Power BI
-Le espressioni sono usate di frequente nei report impaginati del Generatore report impaginati di Power BI per controllare il contenuto e l'aspetto del report. Le espressioni vengono scritte in Microsoft Visual Basic e possono usare funzioni predefinite, codice personalizzato, variabili di report e gruppi e variabili definite dall'utente. Le espressioni iniziano con un segno di uguale (=).   
+Le espressioni sono usate di frequente nei report impaginati di Power BI Report Builder per controllare il contenuto e l'aspetto del report. Le espressioni vengono scritte in Microsoft Visual Basic e possono usare funzioni predefinite, codice personalizzato, variabili di report e gruppi e variabili definite dall'utente. Le espressioni iniziano con un segno di uguale (=).   
 
 In questo argomento sono riportati esempi di espressioni che è possibile usare per le attività comuni in un report.  
   

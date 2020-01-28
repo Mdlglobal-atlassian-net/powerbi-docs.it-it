@@ -8,16 +8,20 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: maggies
-ms.openlocfilehash: 77716514ffbb6dc8d3f128ada85276b46bf7af05
-ms.sourcegitcommit: 17f45a81b0dcbf9e3f1fb2a551584170baecd320
+ms.openlocfilehash: 5cdf29c71ef3e5f8dc02799945cf76ccc518dabe
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72923666"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953744"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Modificare le stringhe di connessione all'origine dati nei report di Power BI con PowerShell - Server di report di Power BI
 
+
 È possibile modificare le stringhe di connessione all'origine dati nei report di Power BI in Server di report di Power BI usando le API in PowerShell. 
+
+> [!NOTE]
+> Questa funzionalità attualmente funziona solo per DirectQuery. Il supporto per l'importazione e l'aggiornamento dei dati sarà presto disponibile.
 
 1. Installare i cmdlet di PowerShell per Server di report di Power BI. I cmdlet e le istruzioni di installazione sono disponibili all'indirizzo [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
 
@@ -67,4 +71,3 @@ ms.locfileid: "72923666"
 [Origini dati dei report impaginati nel Server di report di Power BI](connect-data-sources.md) 
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

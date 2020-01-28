@@ -1,6 +1,6 @@
 ---
 title: Espressioni in Generatore report di Power BI
-description: Nei report impaginati di Generatore report impaginati di Power BI le espressioni vengono ampiamente usate per recuperare, calcolare, visualizzare, raggruppare, ordinare, filtrare, parametrizzare e formattare i dati.
+description: Nei report impaginati di Power BI Report Builder le espressioni vengono ampiamente usate per recuperare, calcolare, visualizzare, raggruppare, ordinare, filtrare, parametrizzare e formattare i dati.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840626"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953871"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Espressioni in Generatore report di Power BI
-  Nei report impaginati di Generatore report impaginati di Power BI le espressioni vengono ampiamente usate per recuperare, calcolare, visualizzare, raggruppare, ordinare, filtrare, parametrizzare e formattare i dati. 
+  Nei report impaginati di Power BI Report Builder le espressioni vengono ampiamente usate per recuperare, calcolare, visualizzare, raggruppare, ordinare, filtrare, parametrizzare e formattare i dati. 
   
   Molti elementi del report possono essere impostati su un'espressione. Le espressioni consentono di controllare il contenuto, la progettazione e l'interattività del report. Le espressioni sono scritte in Microsoft Visual Basic, vengono salvate nella definizione del report e vengono valutate dal componente Elaborazione report quando si esegue il report.  
   

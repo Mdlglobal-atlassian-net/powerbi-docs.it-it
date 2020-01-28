@@ -1,31 +1,33 @@
 ---
-title: Copiare report da altre aree di lavoro (anteprima) - Power BI
-description: Di seguito viene descritto come è possibile condividere un set di dati con utenti in tutta l'organizzazione, che possono poi compilare report basati sul set di dati nelle proprie aree di lavoro.
+title: Copiare report da altre app o aree di lavoro (anteprima) - Power BI
+description: Informazioni su come creare una copia di un report e salvarla nella propria area di lavoro.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223852"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "76268931"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copiare report da altre aree di lavoro (anteprima)
 
-Quando si trova un report interessante in un'area di lavoro oppure in un'app, è possibile crearne una copia e salvarlo in un'area di lavoro diversa. È poi possibile modificare la copia del report, aggiungendo o eliminando oggetti visivi e altri elementi. Non è necessario creare il modello di dati, perché è già stato creato. È molto più semplice modificare un report esistente anziché crearlo da zero. Tuttavia, quando si crea un'app dalla nuova area di lavoro, a volte non è possibile pubblicare la copia del report nell'app. Per informazioni dettagliate, vedere [Considerazioni e limitazioni nell'articolo "Usare set di dati in aree di lavoro diverse"](service-datasets-across-workspaces.md#considerations-and-limitations).
+Quando si trova un report interessante in un'area di lavoro oppure in un'app, è possibile crearne una copia e salvarlo in un'area di lavoro diversa. È poi possibile modificare la copia del report, aggiungendo o eliminando oggetti visivi e altri elementi. Non è necessario creare il modello di dati, perché è già stato creato. È molto più semplice modificare un report esistente anziché crearlo da zero. Tuttavia, quando si crea un'app dall'area di lavoro, a volte non è possibile pubblicare la copia del report nell'app. Per informazioni dettagliate, vedere [Considerazioni e limitazioni nell'articolo "Usare set di dati in aree di lavoro diverse"](service-datasets-across-workspaces.md#considerations-and-limitations).
 
 > [!NOTE]
 > Per creare una copia, è necessaria una licenza Pro, anche se il report originale si trova in un'area di lavoro in una capacità Premium.
 
-## <a name="save-a-copy-of-a-report"></a>Salvare una copia di un report
+## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Salvare una copia di un report in un'area di lavoro
 
-1. Passare alla visualizzazione elenco Report in un'app o in un'area di lavoro.
+1. In un'area di lavoro passare alla visualizzazione elenco Report.
+
+    ![Visualizzazione elenco Report](media/service-datasets-copy-reports/power-bi-report-list-view.png)
 
 1. In **Azioni** selezionare **Salva una copia**.
 
@@ -37,22 +39,46 @@ Quando si trova un report interessante in un'area di lavoro oppure in un'app, è
 
     ![Finestra di dialogo Salva una copia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    L'area di lavoro in cui è possibile salvare dipende da dove si esegue la copia. Se si esegue la copia da un'area di lavoro, è possibile salvare il report nell'area di lavoro corrente o in un'area di lavoro diversa nel servizio Power BI. È possibile visualizzare solo le aree di lavoro della nuova esperienza, di cui si è membri. Quando si esegue la copia da un'app, è possibile salvare il report nell'area di lavoro personale.
+    È possibile salvare il report nell'area di lavoro corrente o in un'area di lavoro diversa nel servizio Power BI. È possibile visualizzare solo le aree di lavoro della nuova esperienza, di cui si è membri. 
   
 4. Selezionare **Salva**.
 
-    Quando si salva una copia del report, si crea una connessione dinamica al set di dati. Si può aprire l'esperienza di creazione di report con l'intero set di dati disponibile. In questo modo non è stata creata una copia del set di dati. Il set di dati rimane nel rispettivo percorso originale. È possibile usare tutte le tabelle e le misure del set di dati nel report personalizzato. Le restrizioni di sicurezza a livello di riga nel set di dati sono attive, pertanto è possibile visualizzare solo i dati per cui si dispone di autorizzazioni in base al ruolo nella sicurezza a livello di riga.
-
-    Power BI crea automaticamente una voce nell'elenco dei set di dati, se il report si basa su un set di dati esterno all'area di lavoro. L'icona per questo tipo di set di dati è diversa dall'icona per i set di dati che si trovano nell'area di lavoro: ![Icona Set di dati condiviso](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
-
-
+    Power BI crea automaticamente una copia del report e una voce nell'elenco dei set di dati se il report è basato su un set di dati esterno all'area di lavoro. L'icona per questo tipo di set di dati è diversa dall'icona per i set di dati che si trovano nell'area di lavoro: ![Icona Set di dati condiviso](media/service-datasets-discover-across-workspaces/power-bi-shared-dataset-icon.png)
+    
     In questo modo, i membri dell'area di lavoro possono indicare quali report e dashboard usano i set di dati esterni all'area di lavoro. Questa voce offre informazioni sul set di dati e alcune azioni di selezione.
 
     ![Azioni del set di dati](media/service-datasets-across-workspaces/power-bi-dataset-actions.png)
 
+    Per altre informazioni sul report e sul set di dati correlato, vedere [Copia del report](#your-copy-of-the-report) in questo articolo.
+
+## <a name="copy-a-report-in-an-app"></a>Copiare un report in un'app
+
+1. In un'app aprire il report che si vuole copiare.
+2. Nella barra dei menu selezionare **Altre opzioni** ( **...** ) > **Salva una copia**.
+
+    ![Salvare una copia del report](media/service-datasets-copy-reports/power-bi-save-copy.png)
+
+    L'opzione **Salva una copia** viene visualizzata solo se il report si trova in un'area di lavoro della nuova esperienza e si ha l'[autorizzazione per la creazione](service-datasets-build-permissions.md).
+
+3. Assegnare un nome al report e fare clic su **Salva**.
+
+    ![Assegnare un nome alla copia del report](media/service-datasets-copy-reports/power-bi-save-report-from-app.png)
+
+    La copia viene salvata automaticamente nell'area di lavoro personale.
+
+4. Selezionare **Vai al report** per aprire la copia.
+
+## <a name="your-copy-of-the-report"></a>Copia del report
+
+Quando si salva una copia del report, si crea una connessione dinamica al set di dati. Si può aprire l'esperienza di creazione di report con l'intero set di dati disponibile. 
+
+![Modificare la copia del report](media/service-datasets-copy-reports/power-bi-edit-report-copy.png)
+
+In questo modo non è stata creata una copia del set di dati. Il set di dati rimane nel rispettivo percorso originale. È possibile usare tutte le tabelle e le misure del set di dati nel report personalizzato. Le restrizioni di sicurezza a livello di riga nel set di dati sono attive, pertanto è possibile visualizzare solo i dati per cui si dispone di autorizzazioni in base al ruolo nella sicurezza a livello di riga.
+
 ## <a name="view-related-datasets"></a>Visualizzare i set di dati correlati
 
-Quando un report si trova in un'area di lavoro, si potrebbe volere sapere su quale set di dati si basa.
+Quando si usa un report in un'area di lavoro e il report è basato su un set di dati in un'altra area di lavoro, potrebbe essere necessario avere altre informazioni sul set di dati su cui è basato.
 
 1. Nella visualizzazione elenco Report selezionare **Visualizza elementi correlati**.
 

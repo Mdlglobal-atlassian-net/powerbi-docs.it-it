@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872803"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282014"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Aggiungere un riquadro a un dashboard da Domande e risposte
 ## <a name="how-to-pin-a-tile-from-qa"></a>Come aggiungere un riquadro dalle domande e risposte
@@ -53,7 +53,7 @@ Per seguire la procedura, aprire il [dashboard dell'esempio di analisi delle ven
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 * Quando si inizia a digitare una domanda, Domande e risposte inizia subito a cercare la risposta migliore in tutti i set di dati associati al dashboard corrente,  ovvero quello elencato nel riquadro di spostamento. Questa domanda, ad esempio, viene posta nel dashboard dell'**esempio di analisi delle vendite al dettaglio**, che fa parte dell'area di lavoro **mihart**.
 
-  ![Percorsi di navigazione](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![Percorsi di navigazione](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * **Per individuare i set di dati da usare**,  Domande e risposte accede a tutti i set di dati per cui è stata aggiunta almeno una visualizzazione al dashboard.
 
 * **Se non è possibile visualizzare la casella della domanda**, contattare l'amministratore di Power BI. L'amministratore può disabilitare Domande e risposte.

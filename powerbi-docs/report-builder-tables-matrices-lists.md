@@ -1,6 +1,6 @@
 ---
 title: Tabelle, matrici ed elenchi nel Generatore report di Power BI
-description: Nel Generatore report impaginati di Power BI le tabelle, le matrici e gli elenchi sono aree dati che visualizzano i dati del report impaginato in celle suddivise in righe e colonne.
+description: In Power BI Report Builder le tabelle, le matrici e gli elenchi sono aree dati che visualizzano i dati del report impaginato in celle suddivise in righe e colonne.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f48187edc3d955b3b87f902a3056e86a933817e1
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840212"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953836"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabelle, matrici ed elenchi nel Generatore report di Power BI
  Nel Generatore report le tabelle, le matrici e gli elenchi sono *aree dati* che visualizzano i dati del report impaginato in celle suddivise in righe e colonne. Le celle contengono in genere dati di testo, ad esempio testo, date e numeri ma possono contenere anche misuratori, grafici o elementi del report, ad esempio immagini. Tabelle, matrici ed elenchi vengono spesso definiti collettivamente come aree dati *Tablix*.  

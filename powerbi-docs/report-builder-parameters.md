@@ -1,6 +1,6 @@
 ---
 title: Parametri dei report in Generatore report di Power BI
-description: Questo argomento descrive gli usi comuni per i parametri dei report di Generatore report impaginati di Power BI, le proprietà che è possibile impostare e molto altro ancora.
+description: Questo argomento descrive gli usi comuni per i parametri dei report di Power BI Report Builder, le proprietà che è possibile impostare e molto altro ancora.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128434"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160858"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parametri dei report in Generatore report di Power BI
 
-Questo argomento descrive gli usi comuni per i parametri dei report di Generatore report impaginati di Power BI, le proprietà che è possibile impostare e molto altro ancora. I parametri dei report consentono di controllare i dati dei report, connettere report correlati e variare la presentazione dei report. È possibile usare i parametri dei report nei report impaginati creati in Generatore report.
+Questo argomento descrive gli usi comuni per i parametri dei report di Power BI Report Builder, le proprietà che è possibile impostare e molto altro ancora. I parametri dei report consentono di controllare i dati dei report, connettere report correlati e variare la presentazione dei report. È possibile usare i parametri dei report nei report impaginati creati in Generatore report.
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> Usi comuni per i parametri
 
@@ -93,7 +93,7 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
   
 - Selezionare più valori di parametro da un elenco a discesa.  
   
-- Selezionare un valore da un elenco a discesa per un parametro che determina i valori disponibili nell'elenco a discesa per un altro parametro. È il caso dei parametri a catena. I parametri a catena consentono di filtrare in successione i valori dei parametri dall'ordine delle migliaia a un numero gestibile.  
+- Selezionare un valore da un elenco a discesa per un parametro che determina i valori disponibili nell'elenco a discesa per un altro parametro. È il caso dei parametri a catena. I parametri a catena consentono di filtrare in successione i valori dei parametri dall'ordine delle migliaia a un numero gestibile. Per altre informazioni, vedere [Usare i parametri a cascata nei report impaginati](guidance/paginated-report-cascading-parameter.md).
   
 - Eseguire il report senza dover per prima cosa selezionare il valore di un parametro, perché per quest'ultimo è stato creato un valore predefinito.  
   
@@ -101,7 +101,7 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
 
  È possibile modificare le proprietà dei parametri dei report usando la finestra di dialogo Proprietà report. La tabella seguente riepiloga le proprietà che è possibile impostare per ogni parametro:  
   
-|Property|Descrizione|  
+|Proprietà|Descrizione|  
 |--------------|-----------------|  
 |Nome|Digitare un nome con distinzione maiuscole/minuscole per il parametro. Il nome deve iniziare con una lettera e può contenere lettere, numeri e un carattere di sottolineatura (_). Il nome non può contenere spazi. Per i parametri generati automaticamente, il nome corrisponde al parametro nella query del set di dati. Per impostazione predefinita, i nomi dei parametri creati manualmente sono simili a ParametroReport1.|  
 |Messaggio di richiesta|Il testo visualizzato accanto al parametro sulla barra degli strumenti del Visualizzatore di report.|  
@@ -148,5 +148,4 @@ Quando si apre un report con parametri, nella barra degli strumenti del Visualiz
 ## <a name="next-steps"></a>Passaggi successivi
 
 - [Che cosa sono i report impaginati in Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [Usare i parametri a cascata nei report impaginati](guidance/paginated-report-cascading-parameter.md)

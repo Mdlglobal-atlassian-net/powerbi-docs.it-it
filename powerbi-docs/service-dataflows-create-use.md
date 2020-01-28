@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/02/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877386"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040434"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creazione e uso di flussi di dati in Power BI
 
@@ -155,6 +155,14 @@ In alcuni casi potrebbero verificarsi problemi di connessione alle origini dati 
 * **Connettore file JSON**: attualmente è possibile connettersi a un file JSON usando solo l'autenticazione di base.  La connessione a un file JSON specificando le credenziali all'interno dell'URL (ad esempio, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg...) **non** è attualmente supportata.  
 
 * **Azure SQL Data Warehouse**: i flussi di dati non supportano attualmente l'autenticazione Azure Active Directory (AAD) per Azure SQL Data Warehouse. Usare l'autenticazione di base per questo scenario.
+
+## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+
+Ai flussi di dati si applicano alcune limitazioni note descritte di seguito.
+
+* Un flusso di dati deve restituire uno dei tipi seguenti: *Data/Ora, Numero decimale, Testo, Numero intero, Data/Ora/Fuso orario, Vero/Falso, Data, Ora*
+* Le funzioni dinamiche non sono attualmente supportate nei flussi di dati
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 

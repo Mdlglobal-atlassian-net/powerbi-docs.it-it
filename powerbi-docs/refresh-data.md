@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791673"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039045"
 ---
 # <a name="data-refresh-in-power-bi"></a>Aggiornamento dei dati in Power BI
 
@@ -317,10 +317,9 @@ L'icona di avviso consente di rilevare i problemi correnti dei set di dati, ma �
 
 ## <a name="automatic-page-refresh"></a>Aggiornamento automatico delle pagine
 
-L'aggiornamento automatico delle pagine funziona a livello di pagina del report e consente agli autori di report di impostare un intervallo di aggiornamento per gli oggetti visivi in una pagina che si attiva solo quando viene usata la pagina. L'aggiornamento automatico delle pagine è disponibile solo per le origini dati DirectQuery. L'intervallo di aggiornamento minimo dipende dal tipo di area di lavoro in cui viene pubblicato il report e dalle impostazioni di amministrazione della capacità per le aree di lavoro Premium.
+L'aggiornamento automatico delle pagine funziona a livello di pagina del report e consente agli autori di report di impostare un intervallo di aggiornamento per gli oggetti visivi in una pagina che si attiva solo quando viene usata la pagina. L'aggiornamento automatico delle pagine è disponibile solo per le origini dati DirectQuery. L'intervallo di aggiornamento minimo dipende dal tipo di area di lavoro in cui viene pubblicato il report e dalle impostazioni di amministrazione della capacità per le aree di lavoro Premium e le [aree di lavoro incorporate](developer/embedding.md).
 
 Per altre informazioni sull'aggiornamento automatico delle pagine, vedere l'articolo [Aggiornamento automatico della pagina](desktop-automatic-page-refresh.md).
-
 
 ## <a name="best-practices"></a>Procedure consigliate
 

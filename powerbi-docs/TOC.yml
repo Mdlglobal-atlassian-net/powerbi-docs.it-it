@@ -961,16 +961,18 @@
       items:
         - name: Novità
           href: report-server/whats-new.md
+        - name: Panoramica amministratore
+          href: report-server/admin-handbook-overview.md
         - name: Log delle modifiche
           href: report-server/changelog.md
         - name: Sequenza temporale del supporto
           href: report-server/support-timeline.md
+        - name: Supporto per Always Encrypted
+          href: report-server/always-encrypted-support.md
         - name: Requisiti hardware e software
           href: report-server/system-requirements.md
         - name: Supporto browser
           href: report-server/browser-support.md
-        - name: Panoramica amministratore
-          href: report-server/admin-handbook-overview.md
         - name: Nozioni di base sul server di report
           items:
             - name: Aggiornamento pianificato dei report di Power BI
@@ -1087,7 +1089,7 @@
               href: service-gateway-enterprise-manage-ssas.md
             - name: Gestire l'origine dati aziendale - SAP HANA
               href: service-gateway-enterprise-manage-sap.md
-            - name: 'Gestire l''origine dati aziendale - SQL '
+            - name: Gestire l'origine dati aziendale - SQL
               href: service-gateway-enterprise-manage-sql.md
             - name: Gestire l'origine dati - Oracle
               href: service-gateway-onprem-manage-oracle.md

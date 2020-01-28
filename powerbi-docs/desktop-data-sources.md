@@ -6,47 +6,50 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fd25e4ca6357dbfa5954eeabe0bf97fb6ccb8a1c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761365"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039801"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
 
 Power BI Desktop permette di connettersi a dati da molte origini diverse. Per un elenco completo delle origini dati disponibili, vedere [Origini dati di Power BI](power-bi-data-sources.md).
 
-Per connettersi ai dati, selezionare **Recupera dati** dalla barra multifunzione **Home** . Se si seleziona la freccia Giù o il testo **Recupera dati** sul pulsante viene visualizzato il menu dei tipi di dati **Più comuni**, riportato nella figura seguente:
+Per connettersi ai dati è possibile usare la barra multifunzione **Home**. Per visualizzare il menu **Più comuni** per i tipi di dati, selezionare l'etichetta del pulsante **Recupera dati** o la freccia a discesa.
 
-![Recupera dati in Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
+![Menu dei tipi di dati Più comuni, Recupera dati in Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Se si sceglie **Altro** dal menu **Più comuni**, viene visualizzata la finestra **Recupera dati**. È anche possibile visualizzare la finestra **Recupera dati** (e ignorare il menu **Più comuni**) selezionando direttamente il **pulsante dell'icona** **Recupera dati**.
+Per passare alla finestra di dialogo **Recupera dati** visualizzare il menu dei tipi di dati **Più comuni** e selezionare **Altro**. È anche possibile visualizzare la finestra di dialogo **Recupera dati** (e ignorare il menu **Più comuni**) selezionando direttamente l'icona **Recupera dati**.
 
-![Pulsante Recupera dati](media/desktop-data-sources/data-sources-02.png)
+![Pulsante Recupera dati, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Il team di Power BI espande in continuazione le origini dati disponibili in **Power BI Desktop** e nel **servizio Power BI**. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come *Beta* o *Anteprima*. Qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione. Inoltre, qualsiasi origine dati contrassegnata come *Beta* o *Preview* per **Power BI Desktop** potrebbe non essere disponibile per l'uso nel **servizio Power BI** o in altri servizi Microsoft finché l'origine dati non diventa disponibile a livello generale (GA).
+> Il team di Power BI espande in continuazione le origini dati disponibili in Power BI Desktop e nel servizio Power BI. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come **Beta** o **Anteprima**. Qualsiasi origine dati contrassegnata come **Beta** o **Anteprima** offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione. Inoltre qualsiasi origine dati contrassegnata come **Beta** o **Anteprima** per Power BI Desktop potrebbe non essere disponibile per l'uso nel servizio Power BI o in altri servizi Microsoft fino a quando l'origine dati non diventa disponibile a livello generale (GA).
 
 > [!NOTE]
 > Sono molti i connettori dati per Power BI Desktop che richiedono Internet Explorer 10 (o versione successiva) per l'autenticazione. 
 
 
 ## <a name="data-sources"></a>Origini dati
-I tipi di dati sono organizzati nelle categorie seguenti:
+
+La finestra di dialogo **Recupera dati** organizza i tipi di dati nelle categorie seguenti:
 
 * Tutti
 * File
 * Database
-* Power BI
+* Power Platform
 * Azure
 * Servizi online
 * Altro
 
 La categoria **Tutti** include tutti i tipi di connessione dati di tutte le categorie.
+
+### <a name="file-data-sources"></a>Origini dati di file
 
 La categoria **File** fornisce le connessioni dati seguenti:
 
@@ -60,7 +63,9 @@ La categoria **File** fornisce le connessioni dati seguenti:
 
 La figura seguente mostra la finestra **Recupera dati** per **File**.
 
-![Recupera dati > File](media/desktop-data-sources/data-sources-03.png)
+![Origini dati di file, finestra di dialogo Recupera dati, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
+
+### <a name="database-data-sources"></a>Origini dati dei database relazionali
 
 La categoria **Database** fornisce le connessioni dati seguenti:
 
@@ -73,8 +78,8 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * IBM Netezza
 * Database MySQL
 * Database PostgreSQL
-* Database di Sybase
-* Teradata
+* Database Sybase
+* Database Teradata
 * Database SAP HANA
 * Server applicazioni SAP Business Warehouse
 * Server messaggi SAP Business Warehouse
@@ -84,22 +89,25 @@ La categoria **Database** fornisce le connessioni dati seguenti:
 * Vertica
 * Snowflake
 * Essbase
-* Cubi AtScale
+* Cubi AtScale (Beta)
 * Connettore BI
+* Denodo
 * Dremio
 * Exasol
 * Indexima (Beta)
 * InterSystems IRIS (Beta)
 * Jethro (beta)
-* Kyligence Enterprise (Beta)
-* MarkLogic (Beta)
+* Kyligence
+* MarkLogic
 
 > [!NOTE]
 > Alcuni connettori di database devono essere abilitati selezionando **File > Opzioni e impostazioni > Opzioni** e quindi **Funzionalità in anteprima**. Se alcuni dei connettori citati sopra non sono visibili e si vuole usarli, controllare le impostazioni **Funzionalità in anteprima**. Si noti anche che qualsiasi origine dati contrassegnata come *Beta* o *Anteprima* offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione.
 
 La figura seguente mostra la finestra **Recupera dati** per **Database**.
 
-![Recupera dati > Database](media/desktop-data-sources/data-sources-04.png)
+![Origini dati di database, finestra di dialogo Ottieni dati, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
+
+### <a name="power-platform-data-sources"></a>Origini dati Power Platform
 
 La categoria **Power Platform** fornisce le connessioni dati seguenti:
 
@@ -110,7 +118,9 @@ La categoria **Power Platform** fornisce le connessioni dati seguenti:
 
 L'immagine seguente mostra la finestra **Recupera dati** per **Power Platform**.
 
-![Recupera dati > Power BI](media/desktop-data-sources/data-sources-05.png)
+![Origini dati Power Platform, finestra di dialogo Ottieni dati, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
+
+### <a name="azure-data-sources"></a>Origini dati di Azure
 
 La categoria **Azure** fornisce le connessioni dati seguenti:
 
@@ -131,7 +141,9 @@ La categoria **Azure** fornisce le connessioni dati seguenti:
 
 La figura seguente mostra la finestra **Recupera dati** per **Azure**.
 
-![Recupera dati > Azure](media/desktop-data-sources/data-sources-06.png)
+![Origini dati Azure, finestra di dialogo Recupera dati, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
+
+### <a name="online-services-data-sources"></a>Origini dati di Servizi online
 
 La categoria **Online Services** fornisce le connessioni dati seguenti:
 
@@ -152,6 +164,7 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * Data.World - Ottieni set di dati (Beta)
 * Facebook
 * GitHub (beta)
+* LinkedIn Sales Navigator (Beta)
 * MailChimp (Beta)
 * Marketo (Beta)
 * Mixpanel (Beta)
@@ -160,26 +173,28 @@ La categoria **Online Services** fornisce le connessioni dati seguenti:
 * QuickBooks Online (beta)
 * Smartsheet
 * SparkPost (Beta)
-* Stripe (Beta)
 * SweetIQ (beta)
-* Planview Enterprise One - CMT (Beta)
+* Planview Enterprise One - CTM (Beta)
 * Twilio (Beta)
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
 * Dynamics 365 Customer Insights (Beta)
-* Origine dati Emigo (Beta)
+* Origine dati Emigo
 * Entersoft Business Suite (Beta)
 * Industrial App Store
 * Data warehouse di Intune (Beta)
 * Microsoft Graph Security (Beta)
+* Product Insights (Beta)
 * Quick Base
 * TeamDesk (beta)
-
+* Workplace Analytics (Beta)
 
 La figura seguente mostra la finestra **Recupera dati** per **Online Services**.
 
-![Recupera dati > Servizi online](media/desktop-data-sources/data-sources-07.png)
+![Origini dati di Servizi online, finestra di dialogo Recupera dati, Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
+
+### <a name="other-data-sources"></a>Altre origini dati
 
 La categoria **Altro** fornisce le connessioni dati seguenti:
 
@@ -195,67 +210,69 @@ La categoria **Altro** fornisce le connessioni dati seguenti:
 * ODBC
 * OLE DB
 * BI360 - Budgeting & Financial Reporting (Beta)
-* Denodo
 * Information Grid (Beta)
-* Paxata 
+* Paxata
 * QubolePresto (Beta)
 * Roamler (Beta)
+* Siteimprove (beta)
 * SurveyMonkey (Beta)
 * Tenforce (Smart)List (Beta)
+* Vena (beta)
 * Workforce Dimensions (Beta)
 * Query vuota
 
 La figura seguente mostra la finestra **Recupera dati** per **Altro**.
 
-![Recupera dati > Altro](media/desktop-data-sources/data-sources-08.png)
+![Altre origini dati, finestra di dialogo Recupera dati, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Al momento non è possibile connettersi a origini dati personalizzate protette con Azure Active Directory.
 
 ## <a name="connecting-to-a-data-source"></a>Connessione a un'origine dati
+
 Per connettersi a un'origine dati, selezionare l'origine dati dalla finestra **Recupera dati** e selezionare **Connetti**. Nella figura seguente **Web** viene selezionato dalla categoria di connessione dati **Altro** .
 
-![Connettersi al Web](media/desktop-data-sources/data-sources-08.png)
+![Connessione al Web, finestra di dialogo Recupera dati, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 Viene visualizzata una finestra di connessione specifica per il tipo di connessione dati. Se sono necessarie credenziali, sarà necessario fornirle. L'immagine seguente illustrata un URL immesso per connettersi a un'origine dati Web.
 
-![Immettere un URL Web](media/desktop-data-sources/datasources-fromwebbox.png)
+![URL immesso, Finestra di dialogo Da Web, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-Quando viene immesso l'URL o le informazioni di connessione alla risorsa, selezionare **OK**. Power BI Desktop stabilisce la connessione all'origine dati e presenta le origini dati disponibili nello **Strumento di navigazione**.
+Immettere l'URL o le informazioni di connessione alla risorsa e selezionare **OK**. Power BI Desktop stabilisce la connessione all'origine dati e presenta le origini dati disponibili nello **Strumento di navigazione**.
 
-![Schermata Strumento di navigazione](media/desktop-data-sources/datasources-fromnavigatordialog.png)
+![Finestra di dialogo Strumento di navigazione, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
-È possibile caricare i dati selezionando il pulsante **Carica** nella parte inferiore del riquadro **Strumento di navigazione** oppure modificare la query prima di caricare i dati selezionando il pulsante **Modifica** .
+Per caricare i dati, selezionare il pulsante **Carica** nella parte inferiore del riquadro **Strumento di navigazione**. Per trasformare o modificare la query nell'editor di Power Query prima di caricare i dati, selezionare il pulsante **Trasforma dati**.
 
 Non sono necessarie altre operazioni per connettersi alle origini dati in Power BI Desktop. Provare a connettersi ai dati dall'elenco di origini dati in continua espansione ed esaminare spesso l'elenco, che viene continuamente ampliato.
 
 ## <a name="using-pbids-files-to-get-data"></a>Uso di file PBIDS per ottenere i dati
 
-I file PBIDS sono file di Power BI Desktop con una struttura specifica, identificati come file di origine dati di Power BI dall'estensione PBIDS.
+I file con estensione pbids sono file di Power BI Desktop con una struttura specifica e l'estensione li identifica come file origine dati di Power BI.
 
-È possibile creare un file con estensione PBIDS per semplificare l'esperienza di **recupero dei dati**  per gli autori di report all'interno dell'organizzazione. Si consiglia agli amministratori di creare file di questo tipo per le connessioni di uso comune, per facilitare l'uso dei file PBIDS per gli autori di nuovi report. 
+È possibile creare un file con estensione pbids per semplificare l'esperienza di **recupero dei dati** per gli autori di report all'interno dell'organizzazione. Per semplificare l'uso dei file con estensione pbids da parte di un nuovo autore di report, è consigliabile che un amministratore crei questi file per le connessioni usate di frequente.
 
-Quando un autore apre un file PBIDS, Power BI Desktop si apre e chiede le credenziali dell'utente per l'autenticazione e la connessione all'origine dati specificata nel file. Viene visualizzata la finestra di dialogo di spostamento e l'utente deve selezionare le tabelle dell'origine dati da caricare nel modello. È anche possibile che gli utenti debbano selezionare uno o più database, se non ne è stato specificato alcuno nel file con estensione PBIDS. 
+Quando un autore apre un file con estensione pbids, Power BI Desktop si apre e chiede le credenziali dell'utente per l'autenticazione e la connessione all'origine dati specificata nel file. Viene visualizzata la finestra di dialogo **Navigazione** e l'utente deve selezionare le tabelle dell'origine dati da caricare nel modello. È anche possibile che gli utenti debbano selezionare uno o più database, se non ne è stato specificato nessuno nel file con estensione pbids.
 
-A questo punto, l'utente può iniziare a creare visualizzazioni o rivedere *Origini recenti* per caricare un nuovo set di tabelle nel modello. 
+A questo punto l'utente può iniziare a creare visualizzazioni oppure selezionare **Origini recenti** per caricare un nuovo set di tabelle nel modello.
 
-I file con estensione PBIDS attualmente supportano un'unica origine dati in un singolo file. Se si specificano più origini dati, si ottiene come risultato un errore. 
+I file con estensione pbids attualmente supportano un'unica origine dati in un singolo file. Se si specificano più origini dati, si ottiene come risultato un errore.
 
-Per creare il file con estensione PBIDS, gli amministratori devono specificare gli input necessari per un'unica connessione e possono indicare la modalità di connessione, **DirectQuery** o **Import**. Se **mode** è mancante o Null nel file, all'utente che apre il file in Power BI Desktop viene richiesto di selezionare DirectQuery o Import. 
+Per creare il file con estensione pbids, un amministratore deve specificare gli input necessari per una singola connessione. Può anche specificare la modalità di connessione come DirectQuery o Import. Se **mode** è mancante o Null nel file, all'utente che apre il file in Power BI Desktop viene chiesto di selezionare **DirectQuery** o **Import**.
 
 ### <a name="pbids-file-examples"></a>Esempi di file PBIDS
 
-Questa sezione offre alcuni esempi relativi a origini dati di uso comune. Il tipo di file PBIDS supporta solo connessioni dati supportate anche in Power BI Desktop, con due eccezioni: Live Connect e query vuote. 
+Questa sezione offre alcuni esempi relativi a origini dati di uso comune. Il tipo di file pbids supporta solo connessioni dati supportate anche in Power BI Desktop, con due eccezioni: Live Connect e le query vuote.
 
-Il file con estensione PBIDS *non* include le informazioni di autenticazione né le informazioni sullo schema e sulla tabella.  
+Il file con estensione pbids *non* include le informazioni di autenticazione né le informazioni sulla tabella e sullo schema.  
 
-Di seguito sono riportati alcuni esempi comuni di file con estensione PBIDS. Tali esempi non sono completi né esaustivi. Per altre origini dati, è possibile fare riferimento al [formato DSR (Data Source Reference) per le informazioni relative al protocollo e all'indirizzo](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
+I frammenti di codice seguenti visualizzano esempi comuni di file con estensione pbids. Questi esempi non sono completi né esaustivi. Per altre origini dati, è possibile fare riferimento al [formato DSR (Data Source Reference) per le informazioni relative al protocollo e all'indirizzo](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
 
-Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non includono tutti i connettori supportati nel formato DSR. Gli amministratori e le organizzazioni possono creare origini dati personalizzate usando questi esempi come guide da cui trarre supporto. 
+Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non includono tutti i connettori supportati nel formato DSR. Un amministratore o un'organizzazione può creare origini dati personalizzate usando questi esempi come guide per la creazione e il supporto.
 
+#### <a name="azure-as"></a>Azure AS
 
-**Azure AS**
-```
+```json
 { 
     "version": "0.1", 
     "connections": [ 
@@ -271,11 +288,9 @@ Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non
 }
 ```
 
+#### <a name="folder"></a>Cartella
 
- 
-
-**Cartella**
-```
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -291,8 +306,9 @@ Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non
 } 
 ```
 
-**OData**
-```
+#### <a name="odata"></a>OData
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -307,9 +323,10 @@ Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non
   ] 
 } 
 ```
- 
-**SAP BW**
-```
+
+#### <a name="sap-bw"></a>SAP BW
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -326,9 +343,10 @@ Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non
   ] 
 } 
 ```
- 
-**SAP Hana**
-```
+
+#### <a name="sap-hana"></a>SAP Hana
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -344,10 +362,11 @@ Questi esempi hanno solo uno scopo pratico, non sono intesi come esaustivi e non
 } 
 ```
 
-**Elenco SharePoint**
+#### <a name="sharepoint-list"></a>Elenco SharePoint
 
-L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gli utenti ottengono uno strumento di navigazione che consente di selezionare uno o più elenchi da tale sito, ognuno dei quali diventa una tabella nel modello. 
-```
+L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gli utenti ottengono uno strumento di navigazione che consente di selezionare uno o più elenchi da tale sito, ognuno dei quali diventa una tabella nel modello.
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -362,10 +381,10 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
   ] 
 } 
 ```
- 
- 
-**SQL Server**
-```
+
+#### <a name="sql-server"></a>SQL Server
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -383,10 +402,10 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
   ] 
 } 
 ```
- 
 
-**File di testo**
-```
+#### <a name="text-file"></a>File di testo
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -401,10 +420,10 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
   ] 
 } 
 ```
- 
 
-**Web**
-```
+#### <a name="web"></a>Web
+
+```json
 { 
   "version": "0.1", 
   "connections": [ 
@@ -419,10 +438,10 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
   ] 
 } 
 ```
- 
 
-**Flusso di dati**
-```
+#### <a name="dataflow"></a>Flusso di dati
+
+```json
 {
   "version": "0.1",
   "connections": [
@@ -440,12 +459,12 @@ L'URL deve puntare al sito SharePoint e non a un elenco all'interno del sito. Gl
 }
 ```
 
-
 ## <a name="next-steps"></a>Passaggi successivi
+
 Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
 
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Tipi di dati in Power BI Desktop](desktop-data-types.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)    
+* [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)

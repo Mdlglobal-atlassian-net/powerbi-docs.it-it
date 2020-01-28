@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761043"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953498"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Novità in Power BI Desktop
 
@@ -23,7 +23,7 @@ ms.locfileid: "75761043"
 
 Gli aggiornamenti di dicembre sono tutti all'insegna del divertimento. 
 
-La versione più recente di Power BI Desktop può essere scaricata dall'[Area download](https://www.microsoft.com/download/details.aspx?id=58494). Se si esegue Windows 10, è possibile ottenere Power BI Desktop anche da Microsoft Store in Windows 10. Indipendentemente dalla modalità di installazione di Power BI Desktop, le versioni mensili sono uguali anche se la numerazione delle versioni può differire. Per altre informazioni sul download e l'installazione di Power BI Desktop, vedere [Ottenere Power BI Desktop](desktop-get-the-desktop.md). 
+La versione più recente di Power BI Desktop può essere scaricata dall'[Area download](https://www.microsoft.com/download/details.aspx?id=58494). Se si esegue Windows 10 è possibile ottenere Power BI Desktop anche in [Microsoft Store](https://aka.ms/pbidesktopstore). Indipendentemente dalla modalità di installazione di Power BI Desktop, le versioni mensili sono uguali anche se la numerazione delle versioni può differire. Per altre informazioni sul download e l'installazione di Power BI Desktop, vedere [Ottenere Power BI Desktop](desktop-get-the-desktop.md). 
 
 > [!IMPORTANT]
 > A partire dalla versione di settembre 2019, Power BI Desktop viene rilasciato solo come singolo file con estensione exe contenente tutte le lingue supportate. La versione MSI non viene più rilasciata.
@@ -92,7 +92,7 @@ Per informazioni dettagliate su ognuna di queste nuove funzionalità, vedere il 
 ## <a name="power-bi-desktop-monthly-update-video"></a>Video dell'aggiornamento mensile di Power BI Desktop
 Nel video seguente vengono descritti tutti questi aggiornamenti. È inoltre possibile guardare questo video dal post di blog:
 
-> [!VIDEO https://youtu.be/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
 
 
 ## <a name="more-videos"></a>Altri video

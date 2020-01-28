@@ -1,6 +1,6 @@
 ---
 title: Pianificazione di un report in Generatore report di Power BI
-description: Generatore report impaginati di Power BI consente di creare molti tipi di report impaginati. Per creare un report utile e facilmente comprensibile, è prima opportuno pianificarlo.
+description: Power BI Report Builder consente di creare molti tipi di report impaginati. Per creare un report utile e facilmente comprensibile, è prima opportuno pianificarlo.
 ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623860"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953824"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Pianificazione di un report in Generatore report di Power BI
 
-Generatore report impaginati di Power BI consente di creare molti tipi di report impaginati. È ad esempio possibile creare report che visualizzano dati di vendita dettagliati o riepilogativi, tendenze di marketing e vendite, report operativi o dashboard. È anche possibile creare report in grado di sfruttare testo in formato RTF, ad esempio per ordini di vendita, cataloghi di prodotti o lettere tipo. Tutti questi report vengono creati tramite combinazioni diverse degli stessi blocchi predefiniti di base in Generatore report. Per creare un report utile e facilmente comprensibile, è prima opportuno pianificarlo. Ecco alcuni aspetti che è necessario prendere in considerazione prima di iniziare:  
+Power BI Report Builder consente di creare molti tipi di report impaginati. È ad esempio possibile creare report che visualizzano dati di vendita dettagliati o riepilogativi, tendenze di marketing e vendite, report operativi o dashboard. È anche possibile creare report in grado di sfruttare testo in formato RTF, ad esempio per ordini di vendita, cataloghi di prodotti o lettere tipo. Tutti questi report vengono creati tramite combinazioni diverse degli stessi blocchi predefiniti di base in Generatore report. Per creare un report utile e facilmente comprensibile, è prima opportuno pianificarlo. Ecco alcuni aspetti che è necessario prendere in considerazione prima di iniziare:  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>In quale formato si vuole visualizzare il report?
   

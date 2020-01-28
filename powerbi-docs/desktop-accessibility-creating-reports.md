@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761980"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925682"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Progettare report di Power BI per l'accessibilità
 È possibile progettare e creare report accattivanti senza compromettere l'accessibilità. Ogni volta che si compila un report, indipendentemente dal tipo di destinatari, è consigliabile creare i report in modo che siano utilizzabili dal maggior numero di persone possibile, senza che sia necessario adattarli a una particolare progettazione.
@@ -22,6 +22,8 @@ ms.locfileid: "75761980"
 ![Impostazioni contrasto elevato di Windows](media/desktop-accessibility/accessibility-05.png)
 
 Questo articolo descrive le funzionalità di accessibilità e gli strumenti per la creazione di report accessibili in Power BI.
+
+In genere, quando si usa Power BI con un'utilità per la lettura dello schermo, è consigliabile disattivare la modalità di analisi o la modalità browse.
 
 Per migliorare il processo di creazione di report con le utilità per la lettura dello schermo, è disponibile un menu di scelta rapida. Il menu consente di spostare i campi presenti nell'area verso l'alto o verso il basso nell'elenco **Campi**. Il menu consente anche di spostare il campo in altre aree, ad esempio **Legenda** o **Valore** oppure altri.
 

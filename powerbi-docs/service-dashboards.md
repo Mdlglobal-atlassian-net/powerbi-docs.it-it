@@ -1,7 +1,7 @@
 ---
 title: Introduzione ai dashboard per le finestre di progettazione di Power BI
 description: I dashboard sono una funzionalità chiave del servizio Power BI. I dashboard sono costituiti da una singola pagina, spesso chiamata area di disegno, che offre una narrazione tramite le visualizzazioni.
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872752"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160789"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introduzione ai dashboard di Power BI per i progettisti
 
@@ -53,7 +53,7 @@ I [report](service-reports.md) e i dashboard appaiono simili poiché sono entram
 | Origini dati |Uno o più report e uno o più set di dati per dashboard |Un singolo set di dati per report |
 | Disponibile in Power BI Desktop |No | Sì. È possibile creare e visualizzare i report in Power BI Desktop |
 | Sottoscrivi |Sì. È possibile sottoscrivere un dashboard |Sì. È possibile sottoscrivere una pagina di un report |
-| Applicazione di filtri |No. Non è possibile filtrare o sezionare |Sì. Molti modi diversi di filtrare, evidenziare e sezionare |
+| Filtro |No. Non è possibile filtrare o sezionare |Sì. Molti modi diversi di filtrare, evidenziare e sezionare |
 | In primo piano |Sì. È possibile impostare un dashboard come *in primo piano* |No |
 | Aggiungi a Preferiti | Sì. È possibile impostare più dashboard come *preferiti* | Sì. È possibile impostare più report come *preferiti*
 | Impostazione di avvisi |Sì. Disponibile per i riquadri del dashboard in determinate circostanze |No |

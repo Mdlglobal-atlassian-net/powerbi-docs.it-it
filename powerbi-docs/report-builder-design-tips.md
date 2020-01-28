@@ -1,6 +1,6 @@
 ---
 title: Suggerimenti sulla progettazione di report nel Generatore report di Power BI
-description: Usare i suggerimenti seguenti per progettare i report impaginati nel Generatore report impaginati di Power BI.
+description: Usare i suggerimenti seguenti per progettare i report impaginati in Power BI Report Builder.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840350"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160536"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Suggerimenti sulla progettazione di report nel Generatore report di Power BI
-  Usare i suggerimenti seguenti per progettare i report impaginati nel Generatore report impaginati di Power BI.  
+  Usare i suggerimenti seguenti per progettare i report impaginati in Power BI Report Builder.  
   
    
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840350"
   
 -   Se si intende salvare il report come file con estensione pdf, la larghezza del report deve essere impostata esplicitamente su un valore che offre i risultati desiderati nel formato di file di esportazione. Ad esempio, impostare la larghezza della pagina del report su esattamente 7,9375 pollici e i margini sinistro e destro su 0,5 pollici.  
   
--   Usare **Layout di stampa** e **Imposta pagina** nella barra degli strumenti del visualizzatore report per eseguire il rendering di un report in una visualizzazione compatibile con la stampa. Per facilitare la rimozione delle pagine orizzontali non necessarie, eseguire le operazioni seguenti:  
+-   Usare **Layout di stampa** e **Imposta pagina** nella barra degli strumenti del visualizzatore report per eseguire il rendering di un report in una visualizzazione compatibile con la stampa. Per facilitare la rimozione delle pagine vuote non necessarie, eseguire le operazioni seguenti:  
   
     1.  Rimuovere tutti gli spazi vuoti aggiuntivi tra le aree dati e i bordi del report.  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840350"
     3.  Usare i **Rettangoli** come contenitori per controllare il rendering degli elementi del report.  
   
     4.  Nelle intestazioni di colonna modificare la proprietà della casella di testo WritingMode per usare il testo verticale.  
-  
- Questo comportamento, le proprietà di larghezza e altezza degli elementi del report, le dimensioni del corpo del report, la definizione dell'altezza e della larghezza della pagina, le impostazioni dei margini del report padre e il supporto specifico del renderer per l'impaginazione determinano insieme gli elementi del report che vengono inseriti in una pagina di cui viene eseguito il rendering. 
+
+ Per altre informazioni, vedere [Evitare le pagine vuote durante la stampa di report impaginati](guidance/report-paginated-blank-page.md).
+
+ Questo comportamento, le proprietà di larghezza e altezza degli elementi del report, le dimensioni del corpo del report, la definizione dell'altezza e della larghezza della pagina, le impostazioni dei margini del report padre e il supporto specifico del renderer per l'impaginazione determinano insieme gli elementi del report che vengono inseriti in una pagina di cui viene eseguito il rendering.
  
 ## <a name="next-steps"></a>Passaggi successivi
 

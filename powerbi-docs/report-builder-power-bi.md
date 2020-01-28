@@ -1,6 +1,6 @@
 ---
-title: Generatore report impaginato di Power BI
-description: Generatore report impaginati di Power BI è uno strumento per la creazione di report impaginati.
+title: Generatore report di Power BI
+description: Power BI Report Builder è uno strumento per la creazione di report impaginati.
 ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565303"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953913"
 ---
-# <a name="power-bi-paginated-report-builder"></a>Generatore report impaginato di Power BI
+# <a name="power-bi-report-builder"></a>Generatore report di Power BI
 
- Generatore report impaginati di Power BI è uno strumento per la creazione di report impaginati.  Quando si progetta un report impaginato, si crea una definizione del report che specifica i dati da recuperare, dove ottenerli e come visualizzarli. Quando si esegue il report, il componente Elaborazione report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. Visualizzare in anteprima il report in Generatore report. e quindi pubblicare il report nel servizio Power BI.
+ Power BI Report Builder è uno strumento per la creazione di report impaginati.  Quando si progetta un report impaginato, si crea una definizione del report che specifica i dati da recuperare, dove ottenerli e come visualizzarli. Quando si esegue il report, il componente Elaborazione report acquisisce la definizione del report specificata, recupera i dati e li combina con il layout del report per generare il report. Visualizzare in anteprima il report in Generatore report. e quindi pubblicare il report nel servizio Power BI.
 
 Provare l'[esercitazione pratica Create a Microsoft Power BI paginated report](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208) (Creare un report impaginato di Microsoft Power BI).
 

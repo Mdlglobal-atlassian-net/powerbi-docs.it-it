@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.openlocfilehash: 54416b314b03a5889c58004918513fecd7ff5ccd
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "75732039"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954258"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creare un report impaginato per Server di report di Power BI
 In questo articolo è stato creato un report impaginato per il server di report di Power BI in pochi semplici passaggi.
 
-Per informazioni sulla creazione di report impaginati in Report Builder per il servizio Power BI, vedere invece [Generatore report impaginati di Power BI](../report-builder-power-bi.md).
+Per informazioni sulla creazione di report impaginati in Report Builder per il servizio Power BI, vedere invece [Power BI Report Builder](../report-builder-power-bi.md).
 
 Come suggerisce il nome, i report impaginati possono contenere più pagine. Hanno un formato fisso e offrono opzioni di personalizzazione precise. I report impaginati sono file con estensione rdl.
 

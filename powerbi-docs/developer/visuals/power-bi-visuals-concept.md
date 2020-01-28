@@ -1,132 +1,134 @@
 ---
-title: Concetto di oggetto visivo in Power BI
-description: L'articolo descrive come un oggetto visivo si integra con Power BI
-author: zBritva
-ms.author: v-ilgali
+title: Concetti sugli oggetti visivi di Power BI
+description: Questo articolo descrive come gli oggetti visivi si integrano con Power BI e come un utente può interagire con un oggetto visivo in Power BI.
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 36742917829013a6efca9d74f88b01bc686437a8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: bb0834527ba23c6cfcc155cc65cd0318b296ba84
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74700847"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925605"
 ---
-# <a name="power-bi-visual-concept"></a>Concetto di oggetto visivo in Power BI
+# <a name="visuals-in-power-bi"></a>Oggetti visivi in Power BI
 
-Questo articolo illustra come un utente e un oggetto visivo interagiscono con Power BI e come un utente interagisce con l'oggetto visivo di Power BI. Nel diagramma sono visualizzate le azioni che influenzano l'oggetto visivo direttamente o tramite Power BI (ad esempio, quando l'utente seleziona i segnalibri).
+Questo articolo descrive come gli oggetti visivi si integrano con Power BI e come un utente può interagire con un oggetto visivo in Power BI. 
 
-![Oggetto visivo di Power BI](./media/visual-concept.svg)
+La figura seguente illustra in che modo le azioni comuni basate sugli oggetti visivi eseguite da un utente, ad esempio la selezione di un segnalibro, vengono elaborate in Power BI.
 
-## <a name="the-visual-gets-update-from-power-bi"></a>L'oggetto visivo ottiene l'aggiornamento da Power BI
+![Diagramma delle azioni su un oggetto visivo di Power BI](./media/visual-concept.svg)
 
-L'oggetto visivo ha il metodo `update` che in genere contiene la logica principale dell'oggetto visivo ed è responsabile del rendering del grafico o della visualizzazione dei dati.
+## <a name="visuals-get-updates-from-power-bi"></a>Aggiornamenti degli oggetti visivi da Power BI
 
-Il metodo `update` viene chiamato in più aggiornamenti.
+Un oggetto visivo chiama un metodo `update` per ottenere gli aggiornamenti da Power BI. Il metodo `update` contiene in genere la logica principale dell'oggetto visivo ed è responsabile del rendering di un grafico o della visualizzazione dei dati.
 
-### <a name="user-interacts-with-visual-through-power-bi"></a>L'utente interagisce con l'oggetto visivo tramite Power BI
+Gli aggiornamenti vengono attivati quando l'oggetto visivo chiama il metodo `update`.
 
-* L'utente apre il pannello delle proprietà degli oggetti visivi.
+## <a name="action-and-update-patterns"></a>Modelli di azione e di aggiornamento
 
-    Power BI recupera gli oggetti e le proprietà supportati dall'oggetto visivo `capabilities.json` e, per ricevere i valori effettivi delle proprietà, Power BI chiama il metodo `enumerateObjectInstances` dell'oggetto visivo.
+Le azioni e i successivi aggiornamenti degli oggetti visivi di Power BI si verificano sulla base di uno dei tre modelli seguenti:
 
-    L'oggetto visivo deve restituire i valori effettivi delle proprietà.
+* L'utente interagisce con un oggetto visivo tramite Power BI.
+* L'utente interagisce direttamente con l'oggetto visivo.
+* L'oggetto visivo interagisce con Power BI.
+
+### <a name="user-interacts-with-a-visual-through-power-bi"></a>L'utente interagisce con un oggetto visivo tramite Power BI
+
+* Un utente apre il pannello delle proprietà dell'oggetto visivo.
+
+    Quando un utente apre il pannello delle proprietà dell'oggetto visivo, Power BI recupera gli oggetti e le proprietà supportati dal file *capabilities.json* dell'oggetto visivo. Per ricevere i valori effettivi delle proprietà, Power BI chiama il metodo `enumerateObjectInstances` dell'oggetto visivo. L'oggetto visivo restituisce i valori effettivi delle proprietà.
 
     Per altre informazioni, vedere [Funzionalità e proprietà degli oggetti visivi di Power BI](capabilities.md).
 
-* L'[utente modifica la proprietà dell'oggetto visivo](../../visuals/power-bi-visualization-customize-title-background-and-legend.md) nel pannello di formattazione.
+* Un utente [modifica un proprietà dell'oggetto visivo](../../visuals/power-bi-visualization-customize-title-background-and-legend.md) nel pannello di formattazione.
 
-    Dopo la modifica del valore di una proprietà, Power BI chiama il metodo `update` dell'oggetto visivo e passa nel metodo update il nuovo elemento `options` con i nuovi valori degli oggetti.
+    Quando un utente modifica il valore di una proprietà nel pannello di formattazione, Power BI chiama il metodo `update` dell'oggetto visivo. Power BI passa il nuovo oggetto `options` al metodo `update`. Gli oggetti contengono i nuovi valori.
 
-    Per altre informazioni, vedere [Oggetti e proprietà degli oggetti visivi di Power BI](objects-properties.md).
+    Per altre informazioni, vedere [Oggetti e proprietà](objects-properties.md).
 
-* L'utente ridimensiona l'oggetto visivo.
+* Un utente ridimensiona l'oggetto visivo.
 
-    Quando un utente modifica una dimensione dell'oggetto visivo, Power BI chiama il metodo `update` con il nuovo oggetto `option`. Le opzioni hanno un oggetto `viewport` annidato con la nuova larghezza e altezza dell'oggetto visivo.
+    Quando un utente modifica le dimensioni di un oggetto visivo, Power BI chiama il metodo `update` con il nuovo oggetto `options`. Gli oggetti `options` includono gli oggetti `viewport` annidati che contengono i nuovi valori di larghezza e altezza dell'oggetto visivo.
 
-* L'utente applica un filtro a livello di report, pagina o oggetto visivo.
+* Un utente applica un filtro a livello di report, pagina oppure oggetto visivo.
 
-    Power BI filtra i dati in base alle condizioni del filtro e chiama il metodo `update` dell'oggetto visivo per fornire i nuovi dati all'oggetto visivo.
+    Power BI filtra i dati in base alle condizioni di filtro. Power BI chiama il metodo `update` dell'oggetto visivo per aggiornare l'oggetto visivo con i nuovi dati.
 
-    L'oggetto visivo ottiene il nuovo aggiornamento di `options` con nuovi dati in uno degli oggetti annidati. Dipende dalla configurazione del mapping di viste dati dell'oggetto visivo.
+    L'oggetto visivo ottiene un nuovo aggiornamento degli oggetti `options` quando in uno degli oggetti annidati sono presenti nuovi dati. La modalità di aggiornamento dipende dalla configurazione del mapping delle viste dati dell'oggetto visivo.
 
-    Per altre informazioni, vedere [Informazioni sul mapping di viste dati in oggetti visivi di Power BI](dataview-mappings.md).
+    Per altre informazioni, vedere [Mapping di viste dati in oggetti visivi di Power BI](dataview-mappings.md).
 
-* L'utente seleziona un punto dati in un altro oggetto visivo del report.
+* Un utente seleziona un punto dati in un altro oggetto visivo del report.
 
-    Power BI filtra o evidenzia i punti dati selezionati e chiama il metodo `update` dell'oggetto visivo.
+    Quando un utente seleziona un punto dati in un altro oggetto visivo nel report, Power BI filtra o evidenzia i punti dati selezionati e chiama il metodo `update` dell'oggetto visivo. L'oggetto visivo ottiene i nuovi dati filtrati o gli stessi dati con una matrice di evidenziazioni.
 
-    L'oggetto visivo ottiene i nuovi dati filtrati o gli stessi dati con la matrice di evidenziazioni.
+    Per altre informazioni,, vedere [Evidenziare i punti dati in oggetti visivi di Power BI](highlight.md).
 
-    Per altre informazioni, vedere [Evidenziare i punti dati in oggetti visivi di Power BI](highlight.md).
+* Un utente seleziona un segnalibro nel pannello dei segnalibri del report.
 
-* L'utente seleziona il segnalibro nel pannello dei segnalibri del report.
+    Quando un utente seleziona un segnalibro nel pannello dei segnalibri del report, può verificarsi una delle due azioni seguenti:
 
-    Possono verificarsi due azioni:
+    * Power BI chiama una funzione che viene passata e registrata dal metodo `registerOnSelectionCallback`. La funzione di callback ottiene le matrici delle selezioni per il segnalibro corrispondente.
 
-    1. Power BI chiama la funzione passata registrata dal metodo `registerOnSelectionCallback` e la funzione di callback ottiene le matrici di selezioni per il segnalibro corrispondente.
+    * Power BI chiama il metodo `update` con un oggetto `filter` corrispondente all'interno dell'oggetto `options`.
 
-    2. Power BI chiama il metodo `update` con l'oggetto per il filtro corrispondente all'interno di `options`.
+    In entrambi i casi l'oggetto visivo deve modificare lo stato in base alle selezioni ricevute o all'oggetto `filter`.
 
-    In entrambi i casi, l'oggetto visivo deve modificare lo stato della visualizzazione in base alle selezioni ricevute o all'oggetto per il filtro.
+    Per altre informazioni sui segnalibri e sui filtri, vedere [API dei filtri degli oggetti visivi negli oggetti visivi di Power BI](filter-api.md).
 
-    Per altre informazioni dettagliate sui segnalibri, vedere [API dei filtri degli oggetti visivi negli oggetti visivi di Power BI](filter-api.md).
+### <a name="user-interacts-with-the-visual-directly"></a>L'utente interagisce direttamente con l'oggetto visivo
 
-    Per altre informazioni sui filtri, vedere [API dei filtri degli oggetti visivi negli oggetti visivi di Power BI](filter-api.md).
+* Un utente passa il puntatore del mouse su un elemento dati.
 
-### <a name="user-interacts-with-visual-directly"></a>L'utente interagisce direttamente con l'oggetto visivo
+    Un oggetto visivo può visualizzare più informazioni su un punto dati tramite l'API delle descrizioni comando di Power BI. Quando un utente passa il puntatore del mouse su un elemento dell'oggetto visivo, l'oggetto visivo può gestire l'evento e visualizzare i dati relativi all'elemento descrizione comando associato. L'oggetto visivo può visualizzare una descrizione comando standard oppure una descrizione comando della pagina del report.
 
-* L'utente passa il mouse sull'elemento dati
+    Per altre informazioni, vedere [Descrizioni comando negli oggetti visivi di Power BI](add-tooltips.md).
 
-    L'oggetto visivo può visualizzare informazioni aggiuntive sul punto dati tramite l'API delle descrizioni comando di Power BI.
-    Quando l'utente passa il mouse sull'elemento visivo, l'oggetto visivo può gestire l'evento e visualizzare i dati sull'elemento della descrizione comando.
+* Un utente modifica le proprietà dell'oggetto visivo, ad esempio un utente espande un albero e l'oggetto visivo salva lo stato nelle proprietà dell'oggetto visivo.
 
-    L'oggetto visivo può visualizzare la descrizione comando standard o la descrizione comando della pagina del report.
+    Un oggetto visivo può salvare i valori delle proprietà tramite l'API Power BI. Quando ad esempio un utente interagisce con l'oggetto visivo e l'oggetto visivo deve salvare o aggiornare i valori delle proprietà, l'oggetto visivo può chiamare il metodo `presistProperties`.
 
-    Per altre informazioni, vedere la guida [Come aggiungere descrizioni comando](add-tooltips.md).
+* Un utente seleziona un URL.
 
-* L'utente modifica le proprietà dell'oggetto visivo, ad esempio espande l'albero e l'oggetto visivo salva lo stato nelle proprietà
-
-    L'oggetto visivo può salvare i valori delle proprietà tramite l'API Power BI. Ad esempio, quando l'utente interagisce con l'oggetto visivo e l'oggetto visivo deve salvare o aggiornare i valori delle proprietà, l'oggetto visivo può chiamare il metodo `presistProperties`.
-
-* L'utente fa clic sul collegamento URL.
-
-    Per impostazione predefinita, l'oggetto visivo non può aprire l'URL. Per aprire l'URL nella nuova scheda, l'oggetto visivo deve chiamare il metodo `launchURL` e passare l'URL come parametro.
+    Per impostazione predefinita, un oggetto visivo non può aprire direttamente un URL. Per aprire un URL in una nuova scheda, l'oggetto visivo può invece chiamare il metodo `launchUrl` e passare l'URL come parametro.
 
     Per altre informazioni, vedere [Creare un URL di avvio](launch-url.md).
 
-* L'utente applica il filtro tramite l'oggetto visivo
+* Un utente applica un filtro tramite l'oggetto visivo.
 
-    L'oggetto visivo chiama `applyJSONFilter` e passa le condizioni del filtro per filtrare i dati in altri oggetti visivi.
+    Un oggetto visivo può chiamare il metodo `applyJsonFilter` e passare le condizioni per filtrare i dati in altri oggetti visivi. Sono disponibili diversi tipi di filtri, inclusi i filtri di tipo base, avanzato e tupla.
 
-    L'oggetto visivo può usare diversi tipi di filtro, ad esempio un filtro di base, un filtro avanzato, un filtro di tuple.
+    Per altre informazioni, vedere [API dei filtri degli oggetti visivi negli oggetti visivi di Power BI](filter-api.md).
 
-    Per altre informazioni sui filtri, vedere [API dei filtri degli oggetti visivi negli oggetti visivi di Power BI](filter-api.md).
+* Un utente seleziona gli elementi nell'oggetto visivo.
 
-* L'utente fa clic o seleziona gli elementi nell'oggetto visivo.
+    Per altre informazioni sulle selezioni in un oggetto visivo di Power BI, vedere [Aggiungere interattività usando le selezioni degli oggetti visivi di Power BI](selection-api.md).
 
-    Per altre informazioni sulle selezioni, vedere [Aggiungere interattività negli oggetti visivi tramite le selezioni degli oggetti visivi di Power BI](selection-api.md).
+### <a name="visual-interacts-with-power-bi"></a>Un oggetto visivo interagisce con Power BI
 
-### <a name="the-visual-interacts-with-power-bi"></a>L'oggetto visivo interagisce con Power BI
+* Un oggetto visivo richiede più dati a Power BI.
 
-* L'oggetto visivo richiede altri dati a Power BI.
+    Un oggetto visivo elabora una parte dei dati per volta. Il metodo API `fetchMoreData` richiede il frammento successivo dei dati nel set di dati.
 
-    L'oggetto visivo può elaborare una parte dei dati alla volta. Il metodo dell'API FetchMoreData richiede il frammento successivo del set di dati.
+    Per altre informazioni, vedere [Recuperare altri dati da Power BI](fetch-more-data.md).
 
-    Per altre informazioni su `fetchMoreData`, vedere [Recuperare altri dati da Power BI](fetch-more-data.md)
+* Viene attivato il servizio eventi.
 
-* Servizio eventi
+    Power BI può esportare un report in formato PDF o inviare un report tramite posta elettronica (applicabile solo agli oggetti visivi certificati). Per notificare a Power BI che il rendering è completato e che l'oggetto visivo è pronto per essere acquisito come PDF o messaggio di posta elettronica, l'oggetto visivo deve chiamare l'API per gli eventi di rendering.
 
-    Power BI può esportare i report in formato PDF o inviarli tramite posta elettronica. Sono supportati solo gli oggetti visivi certificati. Per notificare a Power BI che il rendering è stato completato ed è pronto per l'acquisizione di PDF/posta elettronica, l'oggetto visivo deve chiamare l'API per gli eventi di rendering.
+    Per altre informazioni, vedere [Esportare report da Power BI in PDF](../../consumer/end-user-pdf.md).
 
-    Per altre informazioni, vedere [Esportare report da Power BI in PDF](../../consumer/end-user-pdf.md)
-
-    Vedere anche altre [informazioni sul servizio eventi](event-service.md)
+    Per informazioni sul servizio eventi, vedere [Eseguire il rendering degli eventi negli oggetti visivi di Power BI](event-service.md).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Gli sviluppatori Web interessati a creare visualizzazioni personalizzate e ad aggiungerle in AppSource, possono Vedere [Sviluppo di un oggetto visivo di Power BI](./custom-visual-develop-tutorial.md) e le informazioni su come [pubblicare oggetti visivi di Power BI in AppSource](../office-store.md).
+Sono disponibili altre informazioni sulla creazione di visualizzazioni e la relativa aggiunta a Microsoft AppSource. Vedere i seguenti articoli:
+
+* [Sviluppare un oggetto visivo di Power BI](./custom-visual-develop-tutorial.md)
+* [Pubblicare oggetti visivi di Power BI nel Centro per i partner](../office-store.md)

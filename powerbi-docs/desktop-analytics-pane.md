@@ -1,36 +1,39 @@
 ---
-title: Uso del riquadro Analisi in Power BI Desktop
+title: Usare il riquadro Analisi in Power BI Desktop
 description: Creare linee di riferimento dinamiche per gli oggetti visivi in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25d80cd81eb06913eb24c17ef10db47fa4d2bea5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 4ad843078e452502a94aa7d60b3304528fd25496
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761911"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038641"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Usare il riquadro Analisi in Power BI Desktop
-Con il riquadro **Analisi** in **Power BI Desktop** è possibile aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. Il riquadro **Analisi** è disponibile nell'area **Visualizzazioni** di Power BI Desktop.
 
-![](media/desktop-analytics-pane/analytics-pane_1.png)
+Il riquadro **Analisi** in Power BI Desktop consente di aggiungere *linee di riferimento* dinamiche agli oggetti visivi e incentrare l'attenzione su tendenze o informazioni importanti. L'icona e il riquadro **Analisi** sono disponibili nell'area **Visualizzazioni** di Power BI Desktop.
+
+![Riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_1.png)
 
 > [!NOTE]
 > Il riquadro **Analisi** viene visualizzato solo quando si seleziona un oggetto visivo nell'area di disegno di Power BI Desktop.
 
 ## <a name="search-within-the-analytics-pane"></a>Eseguire ricerche all'interno del riquadro Analisi
-A partire dalla versione di febbraio 2018 di **Power BI Desktop** (versione 2.55.5010.201 o versione successiva), è possibile eseguire ricerche all'interno del riquadro **Analisi**, ovvero una sottosezione del riquadro **Visualizzazioni** . Come illustrato nell'immagine seguente, la casella di ricerca viene visualizzata quando si seleziona il riquadro **Analisi**.
 
-![](media/desktop-analytics-pane/analytics-pane_1b.png)
+A partire dalla versione di febbraio 2018 di Power BI Desktop (versione 2.55.5010.201 o successive) è possibile eseguire ricerche all'interno del riquadro **Analisi** che è una sottosezione del riquadro **Visualizzazioni**. La casella di ricerca viene visualizzata quando si seleziona l'icona **Analisi**.
 
-## <a name="using-the-analytics-pane"></a>Uso del riquadro Analisi
-Con il riquadro **Analisi** è possibile creare i seguenti tipi di linee di riferimento dinamiche, anche se non tutte le linee sono disponibili per tutti i tipi di oggetti visivi:
+![Casella di ricerca, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_1b.png)
+
+## <a name="use-the-analytics-pane"></a>Usare il riquadro Analisi
+
+Con il riquadro **Analisi** è possibile creare i seguenti tipi di linee di riferimento dinamiche:
 
 * Linea costante asse X
 * Linea costante asse Y
@@ -39,82 +42,104 @@ Con il riquadro **Analisi** è possibile creare i seguenti tipi di linee di rife
 * Linea media
 * Linea mediana
 * Linea percentile
+* Ombreggiatura simmetrica
+
+> [!NOTE]
+> Non tutte le linee sono disponibili per tutti i tipi di oggetti visivi.
 
 Le sezioni seguenti mostrano come usare il riquadro **Analisi** e le linee di riferimento dinamiche nelle visualizzazioni.
 
 Per visualizzare le linee di riferimento dinamiche disponibili per un oggetto visivo, seguire questa procedura:
 
 1. Selezionare o creare un oggetto visivo, quindi selezionare l'icona **Analisi** dalla sezione **Visualizzazioni**.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_2.png)
-2. Selezionare la freccia rivolta verso il basso per il tipo di linea che si desidera creare per espandere le opzioni. In questo caso, si selezionerà **Linea media**.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_3.png)
-3. Per creare una nuova linea, selezionare **+ Aggiungi**. È quindi possibile specificare un nome per la linea facendo doppio clic sulla casella di testo, quindi digitando il nome.
-   
-   Sono disponibili moltissime opzioni per la linea, ad esempio per impostare *colore*, *trasparenza*, *stile* e *posizione* relativamente a elementi dati dell'oggetto visivo, oltre alla possibilità di scegliere se includere l'etichetta. In particolare è possibile selezionare la **Misura** dell'oggetto visivo sulla quale basare la linea selezionando il menu a discesa **Misura**, che viene automaticamente popolato con gli elementi dati dell'oggetto visivo. In questo caso, si selezionerà *Weather* come misura, si etichetterà l'opzione come *Average Weather* e si personalizzeranno altre opzioni come illustrato di seguito.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_4.png)
-4. Se si desidera visualizzare un'etichetta dati, spostare il dispositivo di scorrimento **Etichetta dati** su On. In questo caso, si ottiene una serie completa di opzioni aggiuntive per l'etichetta dati come illustrato nell'immagine seguente.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_5.png)
-5. Notare il numero visualizzato accanto all'elemento **Linea media** nel riquadro **Analisi**. Questo numero indica quante linee dinamiche sono attualmente presenti nell'oggetto visivo e di che tipo sono. Se si aggiunge una **Linea massima** per *Cost of Living*, è possibile vedere nel riquadro **Analisi** che è ora presente anche una linea di riferimento dinamica **Linea massima** applicata a questo oggetto visivo.
-   
-   ![](media/desktop-analytics-pane/analytics-pane_6.png)
 
-Se l'oggetto visivo selezionato non può contenere linee di riferimento dinamiche applicate, in questo caso un oggetto visivo **Mappa**, verrà visualizzato quanto segue nel momento in cui si seleziona il riquadro **Analisi**.
+    ![Visualizzare analisi per un oggetto visivo, riquadro Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_2.png)
 
-![](media/desktop-analytics-pane/analytics-pane_7.png)
+2. Selezionare il tipo di linea che si vuole creare per espandere le opzioni corrispondenti. In questo caso si selezionerà **Linea media**.
 
-Sono moltissime le informazioni interessanti da poter evidenziare creando linee di riferimento dinamiche con il riquadro **Analisi**.
+    ![Linea media, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_3.png)
 
-Sono previste altre funzionalità, ad esempio l'espansione degli oggetti visivi che possono avere linee di riferimento dinamiche applicate, pertanto è consigliabile tenersi aggiornati sulle novità.
+3. Per creare una nuova linea selezionare **+&nbsp;Aggiungi**. Quindi è possibile assegnare un nome alla linea. Fare doppio clic sulla casella di testo e immettere il nome.
+
+    Ora sono disponibili molte opzioni per la linea. È possibile specificare le opzioni **Colore**, percentuale di **Trasparenza**, **Stile linea** e **Posizione** (rispetto agli elementi dati dell'oggetto visivo). È anche possibile scegliere se includere l'**Etichetta dati**. Per specificare la misura visiva su cui basare la linea, selezionare l'elenco a discesa **Misura**, che viene popolato automaticamente con elementi dati dell'oggetto visivo. In questo caso si selezionerà **Culture** come misura, si etichetterà l'opzione come *Average of Culture* e si personalizzeranno altre opzioni.
+
+    ![Linea media di Culture, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_4.png)
+
+4. Se si vuole visualizzare un'etichetta dati, spostare il dispositivo di scorrimento **Etichetta dati** da **Disattivato** ad **Attivato**. In questo caso, si ottiene una serie completa di opzioni aggiuntive per l'etichetta dati.
+
+    ![Impostazioni Etichetta dati, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_5.png)
+
+5. Notare il numero visualizzato accanto all'elemento **Linea media** nel riquadro **Analisi**. Questo numero indica quante linee dinamiche sono attualmente presenti nell'oggetto visivo e di che tipo sono. Se si aggiunge una **Linea massima** per **Affordability** il riquadro **Analisi** ora visualizza anche una linea di riferimento dinamica **Linea massima** applicata a questo oggetto visivo.
+
+    ![Totali Linea massima e Linea media, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_6.png)
+
+Se non è possibile applicare linee di riferimento dinamiche all'oggetto visivo selezionato (in questo caso un oggetto visivo **Mappa**) quando si seleziona il riquadro **Analisi** viene visualizzato il messaggio seguente.
+
+![Analisi non disponibile per oggetto visivo Mappa, Riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_7.png)
+
+È possibile evidenziare molte informazioni interessanti creando linee di riferimento dinamiche con il riquadro **Analisi**.
+
+In futuro è prevista l'aggiunta di altre funzionalità, ad esempio l'espansione degli oggetti visivi ai quali è possibile applicare linee di riferimento dinamiche. Tornare spesso a questo argomento per visualizzare le novità.
 
 ## <a name="apply-forecasting"></a>Applicare la previsione
-È possibile usare la funzionalità **Previsione** selezionando un oggetto visivo, quindi espandendo la sezione **Previsione** del riquadro **Analisi**. È possibile specificare molti input per modificare la previsione, ad esempio *Lunghezza previsione*, *Intervallo di confidenza* e altri. La figura seguente mostra un oggetto visivo di base con previsione applicata, ma è possibile attingere alla propria immaginazione (e sperimentare con la funzionalità *Previsione*) per vedere come è possibile applicarla ai propri modelli.
 
-![](media/desktop-analytics-pane/analytics-pane_8.png)
+Se sono presenti dati temporali nell'origine dati, è possibile usare la funzionalità di *previsione*. Selezionare un oggetto visivo, quindi espandere la sezione **Previsione** del riquadro **Analisi**. È possibile specificare molti input per modificare la previsione, ad esempio **Lunghezza previsione** o **Intervallo di confidenza**. L'immagine seguente illustra un oggetto visivo a linee di base con la previsione applicata. È possibile sperimentare per applicare la funzionalità di previsione ai modelli in molti modi.
+
+![Funzionalità Previsione, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_8.png)
+
+> [!NOTE]
+> La funzionalità di previsione è disponibile solo per gli oggetti visivi grafico a linee.
 
 ## <a name="limitations"></a>Limitazioni
-La possibilità di usare linee di riferimento dinamiche dipende dal tipo di oggetto visivo in uso. L'elenco seguente mostra le linee dinamiche attualmente disponibili per i vari oggetti visivi:
 
-Gli oggetti visivi seguenti possono usufruire pienamente delle linee dinamiche:
+La possibilità di usare linee di riferimento dinamiche dipende dal tipo di oggetto visivo in uso. Gli elenchi seguenti descrivono in maggior dettaglio queste limitazioni.
+
+È possibile usare *Linea costante asse X*, *Linea costante asse Y* e *Ombreggiatura simmetrica* nel seguente oggetto visivo:
+
+* Grafico a dispersione
+
+L'uso di *Linea costante*, *Linea minima*, *Linea massima*, *Linea media*, *Linea mediana* e *Linea percentile* è disponibile negli oggetti visivi seguenti:
 
 * Grafico ad aree
+* Grafico a barre raggruppate
+* Istogramma a colonne raggruppate
 * Grafico a linee
 * Grafico a dispersione
-* Grafico a barre raggruppate
 
 Gli oggetti visivi seguenti possono usare solo una *linea costante* dal riquadro **Analisi**:
 
-* Area in pila
-* Barre in pila
-* Istogramma in pila
-* Barre in pila 100%
-* Istogramma in pila 100%
+* Grafico ad area in pila
+* Grafico a barre in pila
+* Istogramma a colonne in pila
+* Grafico a cascata
+* Grafico a barre in pila 100%
+* Istogramma a colonne in pila 100%
 
-Per gli oggetti visivi seguenti è attualmente disponibile solo la *linea di tendenza*:
+Gli oggetti visivi seguenti possono usare una *linea di tendenza* se sono presenti dati temporali:
 
-* Linee non in pila
+* Grafico ad aree
 * Istogramma a colonne raggruppate
+* Grafico a linee
+* Linea e Istogramma a colonne raggruppate
 
-Infine, gli oggetti visivi non cartesiani attualmente non possono applicare linee dinamiche dal riquadro **Analisi**, ad esempio:
+Infine non è attualmente possibile applicare linee dinamiche a molti oggetti visivi, tra cui (a titolo di esempio):
 
-* Matrice
-* Grafico a torta
-* Grafico ad anello
-* Tabella
+* Grafico a imbuto
+* Linea e Istogramma a colonne raggruppate
+* Grafico a linee e istogramma a colonne in pila
+* Grafico a nastri
+* Oggetti visivi non cartesiani come ad esempio Grafico ad anello, Misuratore, Matrice, Grafico a torta e Tabella
 
-La linea del percentile è disponibile solo quando si usano dati importati in **Power BI Desktop** o con una connessione dinamica a un modello in un server che esegue **Analysis Services 2016** o versione successiva, **Azure Analysis Services** o un set di dati nel servizio Power BI. 
+La *linea del percentile* è disponibile solo quando si usano dati importati in Power BI Desktop o con una connessione dinamica a un modello in un server che esegue **Analysis Services 2016** o versione successiva, **Azure Analysis Services** o un set di dati nel servizio Power BI.
 
 ## <a name="next-steps"></a>Passaggi successivi
+
 Power BI Desktop offre infinite possibilità. Per altre informazioni sulle capacità disponibili, vedere le risorse seguenti:
 
 * [Novità di Power BI Desktop](desktop-latest-update.md)
-* [Scarica Power BI Desktop](desktop-get-the-desktop.md)
+* [Ottenere Power BI Desktop](desktop-get-the-desktop.md)
 * [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
 * [Panoramica delle query con Power BI Desktop](desktop-query-overview.md)
 * [Tipi di dati in Power BI Desktop](desktop-data-types.md)
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
-* [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)    
-
+* [Eseguire attività comuni in Power BI Desktop](desktop-common-query-tasks.md)
