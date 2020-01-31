@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09f3a3e2dce7fd3462c5a21f014bf630bfc7c83e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ea4e8da2e821483fc567a3038c6133c60992e593
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879029"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538429"
 ---
 # <a name="apply-data-sensitivity-labels-in-power-bi-preview"></a>Applicare le etichette di riservatezza dei dati in Power BI (anteprima)
 
@@ -58,13 +58,16 @@ Nella pagina delle impostazioni per il set di dati aprire la sezione relativa al
 
 Per l'applicazione o la modifica di un'etichetta di riservatezza in un flusso di dati viene usata la stessa procedura descritta per i set di dati.
 
+## <a name="removing-sensitivity-labels"></a>Rimozione delle etichette di riservatezza
+Per rimuovere un'etichetta di riservatezza da un report, un dashboard, un set di dati o un flusso di dati, seguire la [stessa procedura usata per applicare le etichette](#applying-sensitivity-labels), ma scegliere **(Nessuno)** quando viene richiesto di classificare la riservatezza dei dati. 
+
 ## <a name="data-protection-in-exported-files"></a>Protezione dei dati nei file esportati
 
 Quando si [esportano dati da un report](https://docs.microsoft.com/power-bi/consumer/end-user-export) con un'etichetta di riservatezza, quest'ultima viene ereditata dal file generato, ovvero Excel, PowerPoint e PDF. I file CSV non sono supportati. L'etichetta di riservatezza sarà visibile nel file e l'accesso al file sarà limitato a coloro che dispongono di autorizzazioni sufficienti.
 
 ![Etichette di riservatezza dei dati in uso](media/service-security-apply-data-sensitivity-labels/apply-data-sensitivity-labels-04b.png)
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Per l'applicazione di etichette di riservatezza dei dati tenere presenti le considerazioni seguenti:
 
@@ -73,12 +76,12 @@ Per l'applicazione di etichette di riservatezza dei dati tenere presenti le cons
 * L'applicazione dei controlli di protezione e delle etichette nei file esportati è supportata solo per i file di Excel, di PowerPoint e in formato PDF. Le etichette e la protezione non vengono applicate quando i dati vengono esportati in file CSV, messaggi di posta elettronica di sottoscrizione, oggetti visivi incorporati e stampe.
 * Un utente che esporta un file da Power BI dispone delle autorizzazioni per modificare il file e accedervi in base alle impostazioni dell'etichetta di riservatezza. L'utente che esporta i dati non ottiene le autorizzazioni di proprietario sul file. 
 * Le etichette di riservatezza non sono attualmente disponibili per i [report impaginati]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) e le cartelle di lavoro. 
-* Attualmente non è possibile eliminare un'etichetta da un asset di Power BI dopo che è stata applicata.
 * Le etichette di riservatezza negli asset di Power BI sono visibili solo nell'elenco delle aree di lavoro e nelle visualizzazioni di derivazione. Non sono attualmente visibili nelle visualizzazioni dei contenuti preferiti, condivisi con l'utente, recenti o relativi alle app. Si noti, tuttavia, che un'etichetta applicata a un asset di Power BI, anche se non visibile, rimarrà sempre associata ai dati esportati nei file di Excel, di PowerPoint e in formato PDF.
 * L'*impostazione di crittografia dei file* dell'etichetta di riservatezza, configurata nel [Centro sicurezza Microsoft 365](https://security.microsoft.com/) o nel [Centro conformità Microsoft 365](https://compliance.microsoft.com/), si applica solo ai file che vengono *esportati da* Power BI. Non viene applicata *all'interno di* Power BI.
 * La [protezione HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) non è supportata per le etichette applicate in Power BI.
 * Per la visualizzazione e l'applicazione di etichette nelle app di Office devono essere soddisfatti determinati [requisiti di licenza](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Le etichette di riservatezza sono supportate solo per i tenant nel cloud globale (pubblico). Le etichette di riservatezza non sono supportate per i tenant in altri cloud.
+* Le etichette di riservatezza non sono supportate per [utenti esterni (utenti guest di Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Questo significa che gli utenti esterni non possono visualizzare le etichette e sarà loro impedito di esportare i dati in file di Excel, PDF e PPTX. [Rimuovere l'etichetta](#removing-sensitivity-labels) per consentire agli utenti esterni di esportare i dati in questi tipi di file.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

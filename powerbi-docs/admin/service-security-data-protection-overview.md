@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 01/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1349d62d0400c0ad283f6e9e234c44ffce0d63b9
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73766406"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537210"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Protezione dei dati in Power BI (anteprima)
 
@@ -91,7 +91,7 @@ Per l'uso delle etichette di riservatezza con Microsoft Cloud App Security, è n
 * Cloud App Security e Azure Information Protection [devono essere abilitati per il tenant](https://docs.microsoft.com/cloud-app-security/azip-integration).
 * L'app [deve essere connessa a Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps).
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 Nell'elenco seguente sono riportate alcune limitazioni delle etichette di riservatezza in Power BI:
 
@@ -99,13 +99,13 @@ Nell'elenco seguente sono riportate alcune limitazioni delle etichette di riserv
 * Le etichette di riservatezza possono essere applicate solo a dashboard, report, set di dati e flussi di dati.
 * L'applicazione dei controlli di protezione e delle etichette nei file esportati è supportata solo per i file di Excel, di PowerPoint e in formato PDF. Le etichette e la protezione non vengono applicate quando i dati vengono esportati in file CSV, messaggi di posta elettronica di sottoscrizione, oggetti visivi incorporati e stampe.
 * Un utente che esporta un file da Power BI dispone delle autorizzazioni per modificare il file e accedervi in base alle impostazioni dell'etichetta di riservatezza. L'utente che esporta i dati non ottiene le autorizzazioni di proprietario sul file. 
-* Le etichette di riservatezza non sono attualmente disponibili per i [report impaginati]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) e le cartelle di lavoro. 
-* Attualmente non è possibile eliminare un'etichetta da un asset di Power BI dopo che è stata applicata.
+* Le etichette di riservatezza non sono attualmente disponibili per i [report impaginati]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) e le cartelle di lavoro.
 * Le etichette di riservatezza negli asset di Power BI sono visibili solo nell'elenco delle aree di lavoro e nelle visualizzazioni di derivazione. Non sono attualmente visibili nelle visualizzazioni dei contenuti preferiti, condivisi con l'utente, recenti o relativi alle app. Si noti, tuttavia, che un'etichetta applicata a un asset di Power BI, anche se non visibile, rimarrà sempre associata ai dati esportati nei file di Excel, di PowerPoint e in formato PDF.
 * L'*impostazione di crittografia dei file* dell'etichetta di riservatezza, configurata nel [Centro sicurezza Microsoft 365](https://security.microsoft.com/) o nel [Centro conformità Microsoft 365](https://compliance.microsoft.com/), si applica solo ai file che vengono *esportati da* Power BI. Non viene applicata *all'interno di* Power BI.
 * La [protezione HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) non è supportata per le etichette applicate in Power BI.
 * Per la visualizzazione e l'applicazione di etichette nelle app di Office devono essere soddisfatti determinati [requisiti di licenza](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels).
 * Le etichette di riservatezza sono supportate solo per i tenant nel cloud globale (pubblico). Le etichette di riservatezza non sono supportate per i tenant in altri cloud.
+* Le etichette di riservatezza non sono supportate per [utenti esterni (utenti guest di Azure Active Directory B2B)](../service-admin-azure-ad-b2b.md). Questo significa che gli utenti esterni non possono visualizzare le etichette e sarà loro impedito di esportare i dati in file di Excel, PDF e PPTX. [Rimuovere l'etichetta](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels) per consentire agli utenti esterni di esportare i dati in questi tipi di file.
 
 
 
@@ -116,3 +116,4 @@ In questo articolo è stata presentata una panoramica della protezione dei dati 
 * [Abilitare le etichette di riservatezza dei dati in Power BI](service-security-enable-data-sensitivity-labels.md)
 * [Applicare le etichette di riservatezza dei dati in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Uso dei controlli di Microsoft Cloud App Security in Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Report sulle metriche di protezione dei dati](service-security-data-protection-metrics-report.md)

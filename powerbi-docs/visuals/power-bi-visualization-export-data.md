@@ -8,35 +8,45 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/13/2019
+ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5c2f448ff705f00bc443a6a27fa80e1b5164a901
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75757808"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539782"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Esportare i dati usati per creare una visualizzazione
 
-È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione e anche esportarli in Excel come file con estensione *xlsx* o *csv*. L'opzione per esportare i dati richiede una licenza Pro o Premium e le autorizzazioni di modifica per il set di dati e il report. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
+> [!IMPORTANT]
+> Non tutti i dati possono essere visualizzati o esportati da tutti gli utenti. Quando si creano dashboard e report, sono disponibili misure di sicurezza adottate da amministratori e progettisti di report. Alcuni dati sono limitati, nascosti o riservati e non possono essere visualizzati o esportati senza autorizzazioni speciali. 
 
-Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel report, salvati come file con estensione *xlsx* e aperti in Excel. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli.
+## <a name="who-can-export-data"></a>Utenti autorizzati a esportare i dati
+
+Se si hanno le autorizzazioni appropriate, è possibile visualizzare ed esportare i dati usati da Power BI per creare una visualizzazione. Spesso i dati sono riservati o limitati a utenti specifici. In questi casi, non è possibile visualizzarli o esportarli. Per informazioni dettagliate, vedere la sezione **Limitazioni e considerazioni** alla fine di questo documento. 
+
+
+## <a name="viewing-and-exporting-data"></a>Visualizzazione ed esportazione dei dati
+
+È possibile [visualizzare in Power BI i dati](service-reports-show-data.md) usati per creare una visualizzazione e anche esportarli in Excel come file con estensione *xlsx* o *csv*. Per usare l'opzione per l'esportazione dei dati, è necessario disporre di una licenza Pro o Premium e delle autorizzazioni di modifica per il set di dati e il report. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
+
+Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel report, salvati come file con estensione *xlsx* e aperti in Excel. Seguire quindi tutte le istruzioni riportate sotto il video per provare a farlo da soli. Tenere presente che questo video usa una versione precedente di Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KjheMTGjDXw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="export-data-from-a-power-bi-dashboard"></a>Esportare dati da un dashboard di Power BI
 
-1. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione.
+1. Selezionare Altre opzioni (...) nell'angolo in alto a destra della visualizzazione.
 
     ![Screenshot di una visualizzazione con una freccia rivolta verso il pulsante con i puntini di sospensione.](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
-1. Scegliere l'icona **Esporta dati**.
+1. Scegliere l'opzione **Esporta in CSV**.
 
-    ![Screenshot dell'elenco a discesa con i puntini di sospensione in cui è visualizzata l'opzione Esporta dati.](media/power-bi-visualization-export-data/pbi_export_dash.png)
+    ![Screenshot dell'elenco a discesa con i puntini di sospensione in cui è visualizzata l'opzione Esporta dati.](media/power-bi-visualization-export-data/power-bi-export-data.png)
 
-1. Power BI esporta i dati in un file con estensione *csv*. Se è stato applicato un filtro alla visualizzazione, l'app filtrerà i dati scaricati.
+1. Power BI esporta i dati in un file con estensione *csv*. Se è stato applicato un filtro alla visualizzazione, verrà filtrato anche il file di esportazione con estensione csv. 
 
 1. Il browser richiederà di salvare il file.  Dopo il salvataggio, aprire il file con estensione *csv* in Excel.
 
@@ -44,13 +54,17 @@ Osservare in che modo i dati vengono esportati da una delle visualizzazioni nel 
 
 ## <a name="export-data-from-a-report"></a>Esportare dati da un report
 
-Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](../sample-procurement.md) in Visualizzazione di modifica. Aggiungere una nuova pagina del report vuota. Seguire quindi questa procedura per aggiungere un'aggregazione e un filtro a livello di visualizzazione.
+Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento](../sample-procurement.md) del servizio Power BI in modalità di visualizzazione Modifica. Aggiungere una nuova pagina del report vuota. Seguire quindi questa procedura per aggiungere un'aggregazione, una gerarchia e un filtro a livello di visualizzazione.
+
+### <a name="create-a-stacked-column-chart"></a>Creare un istogramma a colonne in pila
 
 1. Creare un nuovo **Istogramma in pila**.
 
-1. Nel riquadro **Campi** selezionare **Location > City** (Posizione > Città) e **Invoice > Discount Percent** (Fattura > Percentuale sconto).  Potrebbe essere necessario spostare **Discount Percent** (Percentuale sconto) nell'area **Valore**.
+    ![Screenshot del modello di istogramma a colonne raggruppate.](media/power-bi-visualization-export-data/power-bi-clustered.png)
 
-    ![Screenshot della visualizzazione basata sui valori di City (Città) e Discount Percent (Percentuale sconto).](media/power-bi-visualization-export-data/power-bi-export-data3.png)
+1. Nel riquadro **Campi** selezionare **Location > City** (Posizione > Città), **Location > Country/Region** (Posizione > Paese/Area geografica) e **Invoice > Discount Percent** (Fattura > Percentuale sconto).  Potrebbe essere necessario spostare **Discount Percent** (Percentuale sconto) nell'area **Valore**.
+
+    ![Screenshot della visualizzazione basata sui valori di City (Città) e Discount Percent (Percentuale sconto).](media/power-bi-visualization-export-data/power-bi-build.png)
 
 1. Modificare l'aggregazione per **Discount Percent** da **Count** a **Average**. Nell'area **Valore** selezionare la freccia a destra di **Discount Percent** (Percentuale sconto), o **Count of Discount Percent** (Valore percentuale sconto), e scegliere **Media**.
 
@@ -58,71 +72,131 @@ Per iniziare, aprire il [report dell'esempio di analisi dell'approvvigionamento]
 
 1. Aggiungere un filtro a **City** (Città), selezionare tutte le città e quindi rimuovere **Atlanta**.
 
-    ![Screenshot del filtro City (Città) con la casella di controllo Atlanta, GA deselezionata in evidenza.](media/power-bi-visualization-export-data/power-bi-export-data4.png)
+    ![Screenshot del filtro City (Città) con la casella di controllo Atlanta, GA deselezionata in evidenza.](media/power-bi-visualization-export-data/power-bi-filter.png)
 
-   È ora possibile provare a usare entrambe le opzioni di esportazione dei dati.
+   
+1. Eseguire il drill-down di un livello nella gerarchia. Attivare ed eseguire il drill-down fino al livello **City** (Città). 
+
+    ![Screenshot del drill-down dell'oggetto visivo fino al livello City (Città).](media/power-bi-visualization-export-data/power-bi-drill.png)
+
+È ora possibile provare a usare entrambe le opzioni di esportazione dei dati.
+
+### <a name="export-summarized-data"></a>Esportare il ***riepilogo dati***
+Selezionare l'opzione **Riepilogo dati** se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo.  Questo tipo di esportazione consente di mostrare solo i dati (colonne e misure) usati per creare l'oggetto visivo.  Se l'oggetto visivo contiene un'aggregazione, è necessario esportare i dati aggregati. Se, ad esempio, si ha un grafico a barre con quattro barre, si otterranno quattro righe di dati di Excel. Il riepilogo dati è disponibile nel servizio Power BI come file con estensione *xlsx* e *csv* e in Power BI Desktop come file con estensione csv.
 
 1. Selezionare i puntini di sospensione (...) nell'angolo superiore destro della visualizzazione. Selezionare **Esporta dati**.
 
     ![Screenshot dell'angolo superiore destro con il pulsante con i puntini di sospensione e l'opzione Esporta dati in evidenza.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    In Power BI online, se la visualizzazione contiene un'aggregazione (ad esempio se si modifica **Count** in *average*, *sum* o *minimum*), si avranno due opzioni:
+    Nel servizio Power BI, dal momento che la visualizzazione contiene un'aggregazione (**Conteggio** è stata sostituita con *Media*), saranno disponibili due opzioni:
 
     - **Riepilogo dati**
 
     - **Dati sottostanti**
 
-    In Power BI Desktop è disponibile solo l'opzione **Riepilogo dati**. Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
+    Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
 
+
+    > [!NOTE]
+    > In Power BI Desktop è disponibile solo l'opzione per esportare il riepilogo dati come file con estensione csv. 
+    
+    
 1. Da **Esporta dati** selezionare **Riepilogo dati**, scegliere *.xlsx* o *.csv* e quindi selezionare **Esporta**. Power BI esporta i dati.
 
     ![Screenshot della schermata Esporta dati con i dati di riepilogo, xlsx, e le opzioni di esportazione in evidenza.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-    Se sono stati applicati filtri alla visualizzazione, i dati verranno esportati come filtrati. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
-    
-    Vengono esportati tutti i dati usati dalla gerarchia, non solo quelli usati per il livello drill attuale per l'oggetto visivo. Se, ad esempio, la visualizzazione non è stata ancora sottoposta a drill-down dal primo livello, i dati esportati includeranno tutti i dati nella gerarchia, non solo quelli usati per creare l'oggetto visivo al relativo livello drill attuale.
+1. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
 
-    **Riepilogo dati**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo.  Questo tipo di esportazione consente di visualizzare solo i dati (colonne e misure) scelti per creare l'oggetto visivo.  Se l'oggetto visivo contiene un'aggregazione, è necessario esportare i dati aggregati. Ad esempio, se è presente un grafico a barre che mostra quattro barre, si otterranno quattro righe di dati. Il riepilogo dati è disponibile in file con estensione *xlsx* e *csv*.
+    ![Screenshot dell'output di Excel.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
     In questo esempio, l'esportazione di Excel mostra un totale per ogni città. Poiché è stata filtrata, la città di Atlanta non è inclusa nei risultati. La prima riga del foglio di calcolo mostra i filtri usati da Power BI per l'estrazione dei dati.
+    
+    - Vengono esportati tutti i dati usati dalla gerarchia, non solo quelli usati per il livello drill attuale per l'oggetto visivo. È stato ad esempio eseguito il drill-down a livello di città, ma l'esportazione include anche i dati relativi ai paesi.  
 
-    ![Screenshot del file con estensione csv con i dati esportati visualizzati.](media/power-bi-visualization-export-data/power-bi-export-data7.png)
+    - I dati esportati vengono aggregati. Viene generato un totale, su un'unica riga, per ogni città.
 
-1. Provare ora a selezionare **Dati sottostanti**, *.xlsx* e quindi **Esporta**. Power BI esporta i dati. 
+    - Poiché sono stati applicati filtri alla visualizzazione, i dati vengono esportati come filtrati. Si noti che sulla prima riga è indicato **Filtri applicati: City non è Atlanta, GA**. 
+
+### <a name="export-underlying-data"></a>Esporta dati ***sottostanti***
+
+Selezionare questa opzione se si vogliono visualizzare i dati nell'oggetto visivo ***e*** dati aggiuntivi dal set di dati. Per i dettagli, vedere il grafico seguente. Se la visualizzazione contiene un'aggregazione, se si seleziona **Dati sottostanti** l'aggregazione viene rimossa. In questo esempio, l'esportazione Excel mostra una riga per ogni singola riga City (Città) nel set di dati e la percentuale di sconto per la specifica voce. Power BI rende flat i dati, non li aggrega.  
+
+Quando si seleziona **Esporta**, Power BI esporta i dati in un file con estensione *xlsx* e il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
+
+1. Selezionare i puntini di sospensione (...) nell'angolo in alto a destra della visualizzazione. Selezionare **Esporta dati**.
+
+    ![Screenshot dell'angolo superiore destro con il pulsante con i puntini di sospensione e l'opzione Esporta dati in evidenza.](media/power-bi-visualization-export-data/power-bi-export-data2.png)
+
+    Nel servizio Power BI, dal momento che la visualizzazione contiene un'aggregazione (**Conteggio** è stata sostituita con **Media**), saranno disponibili due opzioni:
+
+    - **Riepilogo dati**
+
+    - **Dati sottostanti**
+
+    Per altre informazioni sulle aggregazioni, vedere [Aggregazioni in Power BI](../service-aggregates.md).
+
 
     > [!NOTE]
-    > A seconda delle impostazioni del report, è possibile che non sia disponibile l'opzione per esportare i dati sottostanti.
-
-    Se sono stati applicati filtri alla visualizzazione, i dati verranno esportati come filtrati. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
+    > In Power BI Desktop è disponibile solo l'opzione per esportare il riepilogo dati. 
     
-    Vengono esportati tutti i dati usati dalla gerarchia, non solo quelli usati per il livello drill attuale per l'oggetto visivo. Se, ad esempio, la visualizzazione non è stata ancora sottoposta a drill-down dal primo livello, i dati esportati includeranno tutti i dati nella gerarchia, non solo quelli usati per creare l'oggetto visivo al relativo livello drill attuale.
+    
+1. In **Esporta dati** selezionare **Dati sottostanti** e quindi **Esporta**. Power BI esporta i dati.
 
-    >[!WARNING]
-    >L'esportazione dei dati sottostanti consente agli utenti di visualizzare tutti i dati dettagliati, ovvero ogni colonna nei dati. Gli amministratori del servizio Power BI possono disattivare questa funzionalità per la loro organizzazione. Se si dispone di un set di dati, è possibile impostare le colonne proprietarie su **nascosto** in modo che non vengono visualizzate nell'elenco **Campi** nel servizio Power BI o in Power BI Desktop.
+    ![Screenshot di Esporta dati con i dati sottostanti in evidenza.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-    **Dati sottostanti**: selezionare questa opzione se si vogliono visualizzare i dati nell'oggetto visivo ***e*** i dati aggiuntivi dal modello. Per i dettagli, vedere il grafico riportato di seguito. Se la visualizzazione contiene un'aggregazione, se si seleziona *Dati sottostanti* l'aggregazione viene rimossa. Quando si seleziona **Esporta**, Power BI esporta i dati in un file con estensione *xlsx* e il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
+1. Quando si seleziona **Esporta**, il browser richiede di salvare il file. Una volta salvato, aprire il file in Excel.
 
-    In questo esempio, l'esportazione Excel mostra una riga per ogni singola riga City (Città) nel set di dati e la percentuale di sconto per la specifica voce. Power BI appiattisce i dati. Non li aggrega. La prima riga del foglio di calcolo mostra i filtri usati da Power BI per l'estrazione dei dati.  
+    ![Screenshot del file con estensione xlsx con i dati esportati visualizzati.](media/power-bi-visualization-export-data/power-bi-excel.png)
+    
+    - Questo screenshot mostra solo una piccola parte del file di Excel, che contiene più di 100.000 righe.  
+    
+    - Vengono esportati tutti i dati usati dalla gerarchia, non solo quelli usati per il livello drill attuale per l'oggetto visivo. È stato ad esempio eseguito il drill-down a livello di città, ma l'esportazione include anche i dati relativi ai paesi.  
 
-    ![Screenshot del file con estensione csv con i dati esportati visualizzati.](media/power-bi-visualization-export-data/power-bi-export-data8.png)
+    - Poiché sono stati applicati filtri alla visualizzazione, i dati vengono esportati come filtrati. Si noti che sulla prima riga è indicato **Filtri applicati: City non è Atlanta, GA**. 
+
+## <a name="protecting-proprietary-data"></a>Protezione dei dati proprietari
+
+Il set di dati può includere contenuti che non devono essere visualizzati da tutti gli utenti. Se non si presta attenzione, l'esportazione dei dati sottostanti può consentire agli utenti di visualizzare tutti i dati dettagliati relativi all'oggetto visivo, ovvero ogni colonna e ogni riga dei dati. 
+
+Per gli amministratori e i progettisti di Power BI sono disponibili diverse strategie da adottare per proteggere i dati proprietari. 
+
+- I progettisti [decidono quali *opzioni di esportazione*](#set-the-export-options) sono disponibili per gli utenti.  
+
+- Gli amministratori di Power BI possono disattivare l'esportazione dei dati per l'organizzazione. 
+
+- I proprietari del set di dati possono impostare la sicurezza a livello di riga, che limita l'accesso agli utenti con diritti di sola lettura. Se tuttavia è stata configurata un'area di lavoro per le app e sono state assegnate le autorizzazioni di modifica ai membri, i ruoli di sicurezza a livello di riga non verranno applicati. Per altre informazioni, vedere [Sicurezza a livello di riga](../service-admin-rls.md).
+
+- I progettisti di report possono nascondere le colonne in modo che non compaiano nell'elenco **Campi**. Per altre informazioni, vedere [Proprietà dei set di dati](../developer/api-dataset-properties.md).
+
+- Gli amministratori di Power BI possono aggiungere [etichette di riservatezza](../admin/service-security-data-protection-overview.md) a dashboard, report, set di impostazioni e flussi di dati. Possono quindi applicare le impostazioni di protezione, ad esempio la crittografia o le filigrane, durante l'esportazione dei dati. 
+
+- Gli amministratori di Power BI possono usare [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md) per monitorare l'accesso e l'attività degli utenti, eseguire l'analisi dei rischi in tempo reale e impostare controlli specifici delle etichette. Le organizzazioni possono ad esempio usare Microsoft Cloud App Security per configurare un criterio che impedisca agli utenti di scaricare dati sensibili da Power BI in dispositivi non gestiti. 
+
 
 ## <a name="export-underlying-data-details"></a>Esportare i dettagli dei dati sottostanti
 
-I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Per comprendere questi dettagli può essere necessario richiedere l'aiuto dell'amministratore o del reparto IT. Nella visualizzazione report di Power BI Desktop o del servizio Power BI viene visualizzata una *misura* nell'elenco **Campi** con un'icona a forma di calcolatrice ![visualizzazione icona](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Power BI Desktop consente di creare misure. Questo non è possibile nel servizio Power BI.
+I dati visualizzati quando si seleziona **Dati sottostanti** possono variare. Per comprendere questi dettagli può essere necessario richiedere l'aiuto dell'amministratore o del reparto IT. 
+
+
+>
+
+
 
 | L'oggetto visivo contiene | Cosa viene visualizzato nell'esportazione  |
 |---------------- | ---------------------------|
 | Aggregazioni | la *prima* aggregazione e i dati non nascosti dell'intera tabella per tale aggregazione |
 | Aggregazioni | dati correlati: se l'oggetto visivo usa dati da altre tabelle di dati che sono *correlate* alla tabella di dati che contiene l'aggregazione (purché tale relazione sia \*: 1 o 1:1) |
-| Misure | Tutte le misure dell'oggetto visivo *e* tutte le misure di qualsiasi tabella di dati che contenga una misura usata nell'oggetto visivo |
-| Misure | Tutti i dati non nascosti delle tabelle contenenti la misura (purché la relazione sia \*:1 o 1:1) |
-| Misure | Tutti i dati di tutte le tabelle correlate alla tabella contenente le misure tramite una catena di \*:1 o 1:1 |
+| Misure* | Tutte le misure dell'oggetto visivo *e* tutte le misure di qualsiasi tabella di dati che contenga una misura usata nell'oggetto visivo |
+| Misure* | Tutti i dati non nascosti delle tabelle contenenti la misura (purché la relazione sia \*:1 o 1:1) |
+| Misure* | Tutti i dati di tutte le tabelle correlate alla tabella contenente le misure tramite una catena di \*:1 o 1:1 |
 | Solo misure | Tutte le colonne non nascoste di tutte le tabelle correlate (per espandere la misura) |
 | Solo misure | I dati di riepilogo per tutte le righe duplicate per le misure del modello |
 
+\* Nella visualizzazione Report di Power BI Desktop o del servizio Power BI viene mostrata una *misura* nell'elenco **Campi** con un'icona a forma di calcolatrice ![icona](media/power-bi-visualization-export-data/power-bi-calculator-icon.png). Le misure possono essere create in Power BI Desktop.
+
 ### <a name="set-the-export-options"></a>Impostare le opzioni di esportazione
 
-I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Le scelte disponibili sono:
+I progettisti di report di Power BI controllano i tipi di opzioni per l'esportazione dei dati che sono disponibili per i consumer. Scegliere tra:
 
 - Consenti agli utenti finali di esportare i dati di riepilogo dal servizio Power BI o da Server di report di Power BI
 

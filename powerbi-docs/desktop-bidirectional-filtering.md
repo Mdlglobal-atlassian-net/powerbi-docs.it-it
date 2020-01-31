@@ -7,38 +7,33 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8aeae0075ed32a832c27f475ef3786b7df76576c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761773"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709843"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>Abilitare il filtro incrociato bidirezionale con DirectQuery in Power BI Desktop
 
-Quando si filtrano tabelle per creare la visualizzazione appropriata di dati, gli autori di report devono determinare in che modo i filtri vengono applicati a un report. Il contesto di filtro di una tabella viene ad esempio mantenuto su un lato della relazione ma non sull'altro e sono quindi spesso necessarie formule DAX complesse per ottenere i risultati richiesti.
+Quando le tabelle vengono filtrate per creare la visualizzazione appropriata dei dati, per gli autori di report e di modelli di dati non è semplice determinare la corretta modalità di applicazione dei filtri a un report. In precedenza, il contesto di filtro della tabella era mantenuto su un lato della relazione, ma non sull'altro. In questo modo, era spesso necessario applicare una formula DAX complessa per ottenere i risultati desiderati.
 
-Il filtro incrociato bidirezionale consente agli autori di report e ai responsabili della modellazione dei dati di avere un controllo maggiore sul modo in cui i filtri vengono applicati quando si utilizzano tabelle correlate, permettendo l'applicazione di questi filtri su *entrambi* i lati di una relazione tra tabelle. Per ottenere questo risultato, il contesto di filtro viene propagato a una seconda tabella correlata nell'altro lato della relazione tra tabelle.
+Con il filtro incrociato bidirezionale, gli autori di report e modelli di dati hanno ora un maggiore controllo sulla modalità di applicazione dei filtri durante l'uso di tabelle correlate. Il filtro incrociato bidirezionale consente loro di applicare filtri su *entrambi* i lati di una relazione tra tabelle. Per ottenere questo risultato, il contesto di filtro viene propagato a una seconda tabella correlata sull'altro lato della relazione.
 
-## <a name="detailed-whitepaper-for-bidirectional-cross-filtering"></a>White paper dettagliato sul filtro incrociato bidirezionale
-È disponibile un [white paper dettagliato](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) che illustra il filtro incrociato bidirezionale in Power BI Desktop. Il white paper illustra anche SQL Server Analysis Services 2016, perché il comportamento è uguale in entrambi i casi.
+## <a name="enable-bidirectional-cross-filtering-for-directquery"></a>Abilitare il filtro incrociato bidirezionale per DirectQuery
 
-* Scaricare il white paper[Bidirectional cross-filtering for Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) (Filtro incrociato bidirezionale per Power BI Desktop).
+È possibile abilitare il filtro incrociato nella finestra di dialogo **Modifica relazione**. Per abilitare il filtro incrociato per una relazione, è necessario configurare le opzioni seguenti:
 
-## <a name="enabling-bidirectional-cross-filtering-for-directquery"></a>Abilitazione del filtro incrociato bidirezionale per DirectQuery
+* Impostare **Direzione filtro incrociato** su **Entrambi**.
+* Selezionare **Applica filtro di sicurezza in entrambe le direzioni**.
 
-Per abilitare il filtro incrociato, nella finestra di dialogo **Modifica relazione** per una relazione è necessario selezionare le opzioni seguenti:
-
-* L'opzione **Direzione filtro incrociato**deve essere impostata su **Entrambe**.
-* È necessario selezionare anche l'opzione **Applica filtro di sicurezza in entrambe le direzioni**.
-
-  ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
+  ![Configurare il filtro incrociato bidirezionale in Power BI Desktop.](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Quando si creano formule DAX per il filtro incrociato in Power BI Desktop, usare *UserPrincipalName*, che spesso corrisponde all'accesso dell'utente; ad esempio <em>joe@contoso.com</em>, invece di *UserName*. Potrebbe essere quindi necessario creare una tabella correlata che esegue il mapping di *UserName* o EmployeeID, ad esempio, a *UserPrincipalName*.
+> Quando si creano formule DAX per il filtro incrociato in Power BI Desktop, usare il campo *UserPrincipalName*, che spesso corrisponde all'account di accesso di un utente, ad esempio <em>joe@contoso.com</em>, invece di *UserName*. Può quindi essere necessario creare una tabella correlata per il mapping di *UserName* o*EmployeeID* a *UserPrincipalName*.
 
-Per altre informazioni e per esempi sul funzionamento del filtro incrociato bidirezionale, vedere il [white paper](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) indicato in precedenza in questo articolo.
+Per altre informazioni e per esempi sul funzionamento del filtro incrociato bidirezionale, vedere il [white paper sul filtro incrociato bidirezionale per Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 

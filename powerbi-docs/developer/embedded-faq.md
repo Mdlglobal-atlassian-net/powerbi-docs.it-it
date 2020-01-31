@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264074"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539050"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -22,7 +22,7 @@ ms.locfileid: "74264074"
 
 ## <a name="general"></a>Generale
 
-### <a name="what-is-power-bi-embedded"></a>Che cos'è Power BI Embedded?
+### <a name="what-is-power-bi-embedded"></a>Informazioni su Power BI Embedded
 
 [Microsoft Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) consente agli sviluppatori di applicazioni di incorporare straordinari report completamente interattivi nelle applicazioni evitando di creare controlli e visualizzazioni dei dati da zero.
 
@@ -32,7 +32,7 @@ A sviluppatori e aziende di sviluppo software che creano applicazioni, denominat
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Qual è la differenza tra Power BI Embedded e il servizio Power BI?
 
-Power BI è una soluzione di analisi distribuita come servizio che offre alle organizzazioni una visualizzazione centralizzata dei dati aziendali più strategici.
+Power BI è una soluzione di analisi SaaS (Software-as-a-Service) che offre alle organizzazioni una visualizzazione unica per i dati aziendali più importanti.
 
 Microsoft ha sviluppato Power BI Embedded per gli ISV che desiderano incorporare oggetti visivi nelle applicazioni per consentire ai clienti di prendere decisioni analitiche. In questo modo gli ISV possono evitare di creare soluzioni di analisi proprie. L'[analisi incorporata](embedding.md) consente agli utenti aziendali di accedere a dati aziendali ed eseguire query su di essi per generare informazioni dettagliate all'interno dell'applicazione.
 
@@ -53,7 +53,7 @@ In alcuni casi, un ISV, in genere di grandi dimensioni, oltre alla necessità di
 
 I token di incorporamento con licenza Pro sono destinati al test di sviluppo, pertanto un account master Power BI o un'[entità servizio](embed-service-principal.md) può generare un numero limitato di token di incorporamento. [Acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto di una capacità è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
 
-## <a name="technical"></a>Informazioni tecniche
+## <a name="technical"></a>Tecnici
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Qual è la differenza tra gli SKU A in Azure e gli SKU EM in Office 365?
 
@@ -63,12 +63,12 @@ Power BI Embedded è un set di API PaaS (piattaforma distribuita come servizio) 
 
 Ecco un elenco parziale delle differenze nelle funzionalità.
 
-| Feature | Power BI Embedded | Capacità Power BI Premium | Capacità Power BI Premium |
+| Funzionalità | Power BI Embedded | Capacità Power BI Premium | Capacità Power BI Premium |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | Capacità SKU A-Azure | Capacità SKU EM-O365 | Capacità SKU P-O365 |
 | Incorporamento di artefatti di un'area di lavoro di Power BI | Sì | Sì | Sì |
-| Uso dei report di Power BI in un'applicazione incorporata - SaaS | No | Sì | Sì |
-| Uso dei report di Power BI in un'applicazione incorporata - PaaS | Sì | Sì | Sì |
+| Uso dei report di Power BI in un'applicazione incorporata per l'organizzazione  | No | Sì | Sì |
+| Uso dei report di Power BI in un'applicazione incorporata per i clienti | Sì | Sì | Sì |
 | Utilizzo dei report di Power BI in SharePoint | No | Sì | Sì |
 | Utilizzo dei report di Power BI in Dynamics | No | Sì | Sì |
 | Utilizzo dei report di Power BI in Teams (esclude l'app per dispositivi mobili) | No | Sì | Sì |
@@ -81,7 +81,7 @@ Ecco un elenco parziale delle differenze nelle funzionalità.
 |---------|---------|---------|---------|
 |Purchase  |Portale di Azure |Office |Office |
 |Casi d'uso | Incorporamento di contenuto in un'applicazione personalizzata | <li> Incorporamento di contenuto in un'applicazione personalizzata <br><br><br> <li> Incorporamento di contenuto nelle applicazioni di MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (esclude l'app per dispositivi mobili)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Incorporamento di contenuto in un'applicazione personalizzata <br><br><br> <li> Incorporamento di contenuto nelle applicazioni di MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (esclude l'app per dispositivi mobili)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Condivisione di contenuto con gli utenti di Power BI tramite il [servizio Power BI](https://powerbi.microsoft.com/)  |
-|Fatturazione |Ogni ora |Ogni mese |Mensile |
+|Fatturazione |Oraria |Mensile |Mensile |
 |Impegno  |Nessun impegno |Annuale  |Mensile/Annuale |
 |Differenze |Elasticità completa: aumento/riduzione delle prestazioni, sospensione/ripresa delle risorse nel portale di Azure o tramite l'API  |Consente di incorporare contenuto in SharePoint Online e Microsoft Teams (esclude l'app per dispositivi mobili) |Combina l'incorporamento nelle applicazioni e usa il servizio Power BI nella stessa capacità |
 
@@ -224,7 +224,7 @@ Questa situazione è importante quando l'entità servizio viene aggiunta come **
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Quando si usa un ID applicazione o un ID oggetto dell'entità servizio?
 
-L' **[ID applicazione](embed-sample-for-customers.md#application-id)**  viene usato per creare il token di accesso quando si passa l'ID applicazione per l'autenticazione.
+L' **[ID applicazione](embed-sample-for-customers.md#application-id)** viene usato per creare il token di accesso quando si passa l'ID applicazione per l'autenticazione.
 
 Per fare riferimento a un'entità servizio per le operazioni o apportare modifiche, usare l' **[ID oggetto dell'entità servizio](embed-service-principal.md#how-to-get-the-service-principal-object-id)** , applicando ad esempio un'entità servizio come amministratore a un'area di lavoro.
 

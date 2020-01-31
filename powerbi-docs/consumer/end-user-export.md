@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851324"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537508"
 ---
 # <a name="export-data-from-a-visual"></a>Esportare dati da un oggetto visivo
 
@@ -31,15 +31,18 @@ I dati usati per creare un oggetto visivo [possono essere visualizzati in Power 
 
 2. Passare il puntatore del mouse su un oggetto visivo per visualizzare **Altre opzioni** (...) e fare clic per visualizzare il menu delle azioni.
 
-    ![Menu visualizzato quando si selezionano i puntini di sospensione](media/end-user-export/power-bi-action-menu.png)
+    ![Menu visualizzato quando si selezionano i puntini di sospensione](media/end-user-export/power-bi-options-menu.png)
 
-3. Selezionare **Esporta in Excel**.
+3. Selezionare **Esporta in CSV**.
 
 4. Il risultato varia a seconda del browser in uso. Nella parte inferiore del browser potrebbe essere richiesto di salvare il file o di visualizzare un collegamento al file esportato. 
 
     ![Browser Chrome con il collegamento al file esportato](media/end-user-export/power-bi-dashboard-exports.png)
 
-5. Aprire il file in Excel.  
+5. Aprire il file in Excel. 
+
+    > [!NOTE]
+    > Se non si hanno le autorizzazioni per i dati, non sarà possibile esportare o aprire il file in Excel.  
 
     ![Total Units YTD in Excel](media/end-user-export/power-bi-excel.png)
 
@@ -53,27 +56,30 @@ I dati usati per creare un oggetto visivo [possono essere visualizzati in Power 
 
     Il riquadro è stato creato dal report *Sales and Marketing Sample*. Si aprirà quindi questo report e sarà visualizzata la pagina contenente l'oggetto visivo del riquadro selezionato. 
 
-2. Selezionare il riquadro nel report. Si noti il riquadro **Filtri** sulla destra. All'oggetto visivo sono applicati filtri. Per altre informazioni sui filtri, vedere [Usare i filtri in un report](end-user-report-filter.md).
+2. Selezionare l'oggetto visivo nel report. Si noti il riquadro **Filtri** sulla destra. All'oggetto visivo sono applicati filtri. Per altre informazioni sui filtri, vedere [Usare i filtri in un report](end-user-report-filter.md).
 
     ![Riquadro filtro selezionato](media/end-user-export/power-bi-export-filter.png)
 
 
-3. Selezionare i puntini di sospensione nell'angolo superiore destro della visualizzazione. Scegliere **Esporta dati**.
+3. Selezionare **Altre opzioni** (...) nell'angolo in alto a destra della visualizzazione. Scegliere **Esporta dati**.
 
     ![Esportare i dati selezionati dall'elenco a discesa](media/end-user-export/power-bi-export-report.png)
 
 4. Verranno visualizzate le opzioni per esportare il Riepilogo dati o i Dati sottostanti. Se si usa l'app *Sales and marketing sample*, i **Dati sottostanti** saranno disabiliti. È tuttavia possibile trovare report in cui entrambe le opzioni sono abilitate. Di seguito viene illustrata la differenza.
 
-    **Riepilogo dati**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo.  Questo tipo di esportazione consente di visualizzare solo i dati usati per creare l'oggetto visivo. Se all'oggetto visivo sono applicati filtri, anche i dati esportati saranno filtrati. Ad esempio, per questo oggetto visivo l'esportazione includerà solo i dati del 2014, l'area centrale e solo i dati relativi a quattro dei produttori, vale a dire VanArsdel, Natura, Aliqui e Pirum.
+    **Riepilogo dati**: selezionare questa opzione se si vogliono esportare i dati di ciò che è attualmente visualizzato nell'oggetto visivo.  Questo tipo di esportazione consente di visualizzare solo i dati usati per creare lo stato corrente dell'oggetto visivo. Se all'oggetto visivo sono applicati filtri, anche i dati esportati saranno filtrati. Ad esempio, per questo oggetto visivo l'esportazione includerà solo i dati del 2014, l'area centrale e solo i dati relativi a quattro dei produttori, vale a dire VanArsdel, Natura, Aliqui e Pirum. Se l'oggetto visivo contiene aggregazioni (somma, media e così via), verrà aggregata anche l'esportazione. 
   
 
-    **Dati sottostanti**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo **oltre a** dati aggiuntivi provenienti dal set di dati sottostante.  Possono quindi essere inclusi dati che sono contenuti nel set di dati, ma che non sono usati nell'oggetto visivo. 
+    **Dati sottostanti**: selezionare questa opzione se si vogliono esportare i dati di ciò che viene visualizzato nell'oggetto visivo **oltre a** dati aggiuntivi provenienti dal set di dati sottostante.  Possono quindi essere inclusi dati che sono contenuti nel set di dati, ma che non sono usati nell'oggetto visivo. Se all'oggetto visivo sono applicati filtri, anche i dati esportati saranno filtrati.  Se l'oggetto visivo contiene aggregazioni (somma, media e così via), l'esportazione rimuoverà l'aggregazione, essenzialmente rendendo flat i dati. 
 
-    ![Menu in cui si sceglie il riepilogo dati o i dati sottostanti](media/end-user-export/power-bi-export-option.png)
+    ![Menu in cui si sceglie il riepilogo dati o i dati sottostanti](media/end-user-export/power-bi-export-underlying.png)
 
 5. Il risultato varia a seconda del browser in uso. Nella parte inferiore del browser potrebbe essere richiesto di salvare il file o di visualizzare un collegamento al file esportato. 
 
     ![Visualizzazione del file esportato nel browser Microsoft Edge](media/end-user-export/power-bi-export-edge-browser.png)
+
+    > [!NOTE]
+    > Se non si hanno le autorizzazioni per i dati, non sarà possibile esportare o aprire il file in Excel.  
 
 
 6. Aprire il file in Excel. Confrontare la quantità di dati esportati con i dati esportati dallo stesso oggetto visivo nel dashboard. La differenza è che questo tipo di esportazione include i **dati sottostanti**. 

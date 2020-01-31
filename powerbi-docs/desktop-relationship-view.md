@@ -1,33 +1,29 @@
 ---
-title: Visualizzazione delle relazioni in Power BI Desktop
-description: Visualizzazione delle relazioni in Power BI Desktop
+title: Visualizzazione Modello in Power BI Desktop
+description: Visualizzazione Modello in Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cd9671b8c38cb2aa1502c3aa00a871d125f819b1
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: ea568c061142e66e79351de8a6c0f0603a46f775
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760481"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753227"
 ---
-# <a name="work-with-relationship-view-in-power-bi-desktop"></a>Utilizzo di Visualizzazione relazioni in Power BI Desktop
-La **Visualizzazione relazioni** mostra tutte le tabelle, le colonne e le relazioni presenti nel modello. Ciò può essere particolarmente utile quando un modello contiene relazioni complesse tra molte tabelle.
+# <a name="work-with-model-view-in-power-bi-desktop"></a>Usare la visualizzazione Modello in Power BI Desktop
 
-Descrizione dettagliata
+La *visualizzazione Modello* mostra tutte le tabelle, le colonne e le relazioni presenti nel modello. Può essere particolarmente utile quando un modello contiene relazioni complesse tra molte tabelle.
 
-![](media/desktop-relationship-view/relationshipview_fullscreen.png)
+Selezionare l'icona **Modello** accanto al lato della finestra per attivare una visualizzazione del modello esistente. Passare il puntatore del mouse su una linea di relazione per visualizzare le colonne usate.
 
-**A.**  Icona della Visualizzazione relazioni: fare clic per visualizzare il modello nella Visualizzazione relazioni
+![Visualizzazione Modello, Power BI Desktop](media/desktop-relationship-view/model-view-full-screen.png)
 
-**B.** Relazione: è possibile passare il puntatore del mouse su una relazione per visualizzare le colonne usate. Fare doppio clic su una relazione per aprirla nella finestra di dialogo **Modifica relazione**. 
+Nella figura, la tabella *Stores* contiene una colonna *StoreKey* correlata alla tabella *Sales*, che contiene anch'essa una colonna *StoreKey*. Le due tabelle sono associate tramite una relazione *molti-a-uno* (\*:1). Una freccia al centro della linea mostra la direzione del flusso del contesto del filtro. Le doppie frecce indicano che la direzione del filtro incrociato è impostata su *Entrambi*.
 
-Nella figura sopra si può vedere che la tabella *Stores* contiene una colonna *StoreKey* correlata alla tabella *Sales*, anch'essa contenente una colonna *StoreKey*. Questa è una relazione *Molti-a-uno* (\*:1) e l'icona al centro della linea mostra la direzione del filtro incrociato impostata su *Entrambi*. La freccia sull'icona mostra la direzione del flusso di contesto di filtro.
-
-Per altre informazioni sulle relazioni, vedere [Creare e gestire le relazioni in Power BI Desktop](desktop-create-and-manage-relationships.md).
-
+È possibile fare doppio clic su una relazione per aprirla nella finestra di dialogo **Modifica relazione**. Per altre informazioni sulle relazioni, vedere [Creare e gestire le relazioni in Power BI Desktop](desktop-create-and-manage-relationships.md).

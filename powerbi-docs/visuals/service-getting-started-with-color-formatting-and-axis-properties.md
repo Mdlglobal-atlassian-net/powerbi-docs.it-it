@@ -1,27 +1,27 @@
 ---
-title: Introduzione alla formattazione dei colori e alle proprietà degli assi
-description: Introduzione alla formattazione dei colori e alle proprietà degli assi
+title: Introduzione alla formattazione delle visualizzazioni dei report
+description: Introduzione all'uso delle opzioni di formattazione delle visualizzazioni dei report
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762256"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540626"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>Introduzione alla formattazione dei colori e alle proprietà degli assi
-In **Power BI** è possibile cambiare il colore delle serie di dati, dei punti dati e persino lo sfondo delle visualizzazioni. È anche possibile modificare la presentazione degli assi x e y, in modo da poter controllare completamente l'aspetto di dashboard e report.
+# <a name="getting-started-with-the-formatting-pane"></a>Introduzione al riquadro di formattazione
+Se si hanno le autorizzazioni di modifica per un report, sono disponibili numerose opzioni di formattazione. Nei report di **Power BI** è possibile cambiare il colore delle serie di dati, dei punti dati e anche lo sfondo delle visualizzazioni. È inoltre possibile modificare il modo in cui vengono presentati l'asse X e l'asse Y, nonché formattare le proprietà dei tipi di carattere di visualizzazioni, forme e titoli. In questo modo, si ha il controllo completo sull'aspetto grafico dei report.
 
-Per iniziare, selezionare un **report** nel riquadro **Area di lavoro personale** . Nell'area del menu superiore selezionare **Modifica report**.  
+Per iniziare, aprire un report in Power BI Desktop o nel servizio Power BI. Entrambi offrono opzioni di formattazione quasi identiche. Quando si apre un report nel servizio Power BI, assicurarsi di selezionare **Modifica report** dalla barra dei menu.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![barra dei menu con l'opzione di modifica in evidenza](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 Quando si modifica un report ed è selezionata una visualizzazione, viene visualizzato il riquadro **Visualizzazioni** che consente di aggiungere o modificare le visualizzazioni. Proprio sotto le visualizzazioni disponibili sono presenti tre icone, ovvero **Campi** (una pila di barre), **Formato** (un pennello) e **Analisi** (una lente di ingrandimento). Nell'immagine seguente l'icona **Campi** è selezionata, come indicato dalla presenza di una barra gialla sotto l'icona.
 
@@ -41,7 +41,7 @@ Quando si seleziona **Formato**, l'area sotto l'icona visualizza le personalizza
 * Forme
 * Area del tracciato
 * Titolo
-* Sfondo
+* Background
 * Blocca proporzioni
 * Bordo
 

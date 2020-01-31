@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622444"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710155"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Suggerimenti per la creazione di app modello in Power BI
 
@@ -135,17 +135,28 @@ Le app modello supportano le app con soli dati di esempio, assicurarsi di selezi
 * Seguire quanto indicato in [Procedure consigliate per la progettazione di report e oggetti visivi](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) di Power BI per ottimizzare l'impatto sugli utenti e ottenere l'approvazione per la distribuzione.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
+## <a name="create-a-download-link-for-the-app"></a>Creare un collegamento per il download dell'app
+
+Dopo la pubblicazione dell'app modello in AppSource, provare a creare un collegamento di download dal sito Web a:
+* Pagina di download di AppSource: può essere visualizzata pubblicamente. Ottenere il collegamento dalla pagina di AppSource.
+* Power BI: può essere visualizzato da un utente di Power BI.
+
+Per reindirizzare un utente al collegamento di download dell'app in Power BI, vedere l'esempio di codice seguente: [Repository GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src).
+[![Collegamento di download dell'app](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
+
 ## <a name="known-limitations"></a>Limitazioni note
 
-| Feature | Limitazione nota |
+| Funzionalità | Limitazione nota |
 |---------|---------|
-|Contenuto:  Set di dati   | È necessario che sia presente un solo set di dati. Sono consentiti solo i set di dati creati in Power BI Desktop (file con estensione pbix). <br>Non supportati: Set di dati di altre app modello, set di dati di più aree di lavoro, report impaginati (file con estensione rdl), cartelle di lavoro di Excel |
+|Contenuto:  Set di dati   | È necessario che sia presente un solo set di dati. Sono consentiti solo i set di dati creati in Power BI Desktop (file con estensione pbix). <br>Non supportato: Set di dati di altre app modello, set di dati di più aree di lavoro, report impaginati (file con estensione rdl), cartelle di lavoro di Excel |
 |Contenuto: Dashboard | Non sono consentiti riquadri in tempo reale (in altre parole, non è disponibile il supporto per set di dati di push o di streaming) |
-|Contenuto: Flussi di dati | Non supportati: Flussi di dati |
+|Contenuto: Flussi di dati | Non supportato: Flussi di dati |
 |Contenuti dei file | Sono supportati solo i file PBIX. <br>Non supportati: file con estensione rdl (report impaginati), cartelle di lavoro di Excel   |
 | Origini dati | Le origini dati supportate per l'aggiornamento dati pianificato nel cloud sono consentite. <br>Non supportati: <li> DirectQuery</li><li>Connessioni dinamiche (non Azure AD)</li> <li>Origini dati locali (i gateway personali e aziendali non sono supportati)</li> <li>Tempo reale (nessun supporto per set di dati di push)</li> <li>Modelli compositi</li></ul> |
 | Set di dati: di più aree di lavoro | Non sono consentiti set di dati di più aree di lavoro  |
-| Parametri di query | Non supportati: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
+| Parametri di query | Non supportato: Parametri di tipo "Any" o "Binary" bloccano l'operazione di aggiornamento per il set di dati |
 | Oggetti visivi personalizzati | Sono supportati solo gli oggetti visivi personalizzati disponibili pubblicamente. [Oggetti visivi personalizzati dell'organizzazione](developer/power-bi-custom-visuals-organization.md) non supportati |
 
 ## <a name="next-steps"></a>Passaggi successivi

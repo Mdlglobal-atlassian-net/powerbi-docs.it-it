@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 01/21/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1cb683f050dfe6e77c0b199a2a156eb03dda7de2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f872d3b708733b28af83c0452e837638db0e65fe
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870910"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539533"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Copiare e incollare una visualizzazione di report
+Gli oggetti visivi nei report di Power BI possono essere copiati da una pagina del report alla stessa pagina o a una pagina diversa nello stesso report. 
+
 Per copiare e incollare una visualizzazione sono necessarie autorizzazioni di modifica per il report. Nel servizio Power BI è necessario aprire il report in [Visualizzazione di modifica](../consumer/end-user-reading-view.md). Non è possibile copiare e incollare le visualizzazioni nei dashboard.
 
 ## <a name="copy-and-paste-a-visual"></a>Copiare e incollare un oggetto visivo

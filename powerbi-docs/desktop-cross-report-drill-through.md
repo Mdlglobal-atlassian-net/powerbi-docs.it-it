@@ -6,116 +6,97 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7189ef77446446b56b1dcb55b43b022d0fc5c057
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: e500cb29bcc4472c59e7e8215fc0a7e7e728ea0d
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868769"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538854"
 ---
-# <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Usare il drill-through tra report in Power BI Desktop
+# <a name="use-cross-report-drillthrough-in-power-bi"></a>Usare il drill-through tra report in Power BI
 
-Con la funzionalità di drill-through tra report in Power BI Desktop, è possibile passare contestualmente da un report a un altro. Questa condizione è valida purché i report si trovino all'interno della stessa area di lavoro o dell'app nel servizio Power BI. Utilizzare il drill-through tra report per connettere due o più report con contenuto correlato e per passare il contesto di filtro insieme alla connessione tra i report. In questo articolo viene illustrato come configurare un drill-through tra report per i report Power BI e viene descritta l'esperienza degli utenti che usano il drill-through tra report.
+Con la funzionalità di *drill-through tra report* di Power BI, è possibile passare contestualmente da un report a un altro nella stessa app o area di lavoro del servizio Power BI. È possibile usare il drill-through tra report per connettere due o più report con contenuto correlato e per passare il contesto di filtro insieme alla connessione tra i report. 
 
-![Screenshot dell'opzione di drill-through di Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
+Per avviare il drill-through tra report, si seleziona un punto dati in un *oggetto visivo di origine* di un *report di origine* e quindi si seleziona la destinazione **Drill-through** tra report dal menu di scelta rapida. 
 
-È importante comprendere le definizioni seguenti prima di iniziare a configurare e a usare il drill-through tra report:
+![Opzione Drill-through tra report di Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
-* **Oggetto visivo di origine:** oggetto visivo che richiama l'azione di drill-through tramite il menu di scelta rapida visivo.
-* **Report di origine:** report che contiene l'oggetto visivo di origine per il drill-through tra report.
-* **Pagina di destinazione:** pagina visualizzata all'utente dopo l'avvio di un'azione di drill-through.
-* **Report di destinazione:** report che contiene la pagina di destinazione per il drill-through tra report.
+L'azione di drill-through apre la *pagina di destinazione* nel *report di destinazione*. 
 
+![Destinazione del drill-through tra report di Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
+
+Questo articolo illustra come configurare e usare il drill-through tra report per i report di Power BI.
 
 > [!NOTE]
-> Con la funzionalità di drill-through tra report in Power BI Desktop, è possibile passare contestualmente da un report a un altro. Questa condizione è valida purché i report si trovino all'interno della stessa area di lavoro o dell'app nel servizio Power BI. Non è applicabile quando si accede singolarmente ai report condivisi all'interno di *Area di lavoro personale* ([report condivisi con l'utente](service-share-dashboards.md#share-a-dashboard-or-report)). È necessario invece accedere al report nell'area di lavoro da cui è stato originariamente condiviso.
-
+> Non è possibile usare il drill-through tra i report con i singoli [report condivisi con l'utente corrente](service-share-dashboards.md#share-a-dashboard-or-report) in **Area di lavoro personale**. Per usare il drill-through tra report, è necessario accedere ai report nell'area di lavoro da cui sono stati condivisi.
 
 ## <a name="enable-cross-report-drillthrough"></a>Abilitare il drill-through tra report
 
-Per impostare un report come destinazione di un drill-through tra report, è necessario abilitare la funzionalità per il report nella finestra **Opzioni**. Passare a **File** > **Opzioni e impostazioni** > **Opzioni** e quindi a **Impostazioni report** nella parte inferiore della pagina a sinistra.
+Il primo passaggio per abilitare il drill-through tra report consiste nel convalidare i modelli di dati per i report di origine e di destinazione. Nonostante gli schemi in ogni report non debbano essere uguali, i campi che si vogliono passare devono esistere in entrambi i modelli di dati. I nomi dei campi e i nomi delle tabelle a cui appartengono devono essere identici. Le stringhe devono corrispondere e applicano la distinzione tra maiuscole e minuscole.
 
-Selezionare la casella di controllo **Consentire agli oggetti visivi in questo report di usare destinazioni di drill-through di altri report** come illustrato nell'immagine seguente.
+Ad esempio, se si vuole passare un filtro in un campo **State** all'interno di una tabella **US States**, entrambi i modelli devono avere una tabella **US States** e un campo **State** all'interno della tabella. Al contrario, è necessario aggiornare il nome di campo o il nome di tabella nel modello sottostante. Per il drill-through tra report non è sufficiente aggiornare il nome visualizzato dei campi.
 
-![Screenshot della finestra Opzioni con l'opzione Impostazioni report evidenziata](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
+Dopo aver convalidato i modelli, consentire al report di origine di usare il drill-through tra report. 
 
-Il drill-through tra report è ora abilitato.
+1. In Power BI Desktop passare a **File** > **Opzioni e impostazioni** > **Opzioni**. 
+1. Nel riquadro di spostamento a sinistra nella finestra **Opzioni**, nella parte inferiore della sezione **File corrente** selezionare **Impostazioni report**. 
+1. In basso a destra, in **Drill-through tra report** selezionare **Consentire agli oggetti visivi in questo report di usare destinazioni di drill-through di altri report**. 
+1. Selezionare **OK**. 
+   
+   ![Abilitare il drill-through tra report in Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
-## <a name="set-up-cross-report-drillthrough"></a>Configurare il drill-through tra report
+È anche possibile abilitare il drill-through tra report dal servizio Power BI.
+1. Nel servizio Power BI selezionare l'area di lavoro che contiene i report di destinazione e di origine.
+1. Accanto al nome del report di origine nell'elenco dell'area di lavoro selezionare il simbolo **Altre opzioni** e quindi selezionare **Impostazioni**. 
+1. Nella parte inferiore del riquadro **Impostazioni**, in **Drill-through tra report** selezionare **Consentire agli oggetti visivi in questo report di usare destinazioni di drill-through di altri report** e quindi selezionare **Salva**.
+   
+   ![Abilitare il drill-through tra report nel servizio Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
 
-La configurazione del drill-through tra report è simile alla configurazione del drill-through in un report. Il drill-through è abilitato nella pagina di destinazione, consentendo ad altri oggetti visivi di usare la pagina abilitata come destinazione del drill-through. Per le procedure per la creazione di drill-through all'interno di un singolo report, vedere [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md).
+## <a name="set-up-a-cross-report-drillthrough-target"></a>Configurare una destinazione di drill-through tra report
 
-Per avviare il processo di configurazione, è necessario eseguire un paio di passaggi iniziali:
+La configurazione di una pagina di destinazione per il drill-through tra report è simile alla configurazione del drill-through in un report. L'abilitazione del drill-through nella pagina di destinazione consente ad altri oggetti visivi di usare la pagina come destinazione del drill-through. Per creare il drill-through all'interno di un singolo report, vedere [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md).
 
-* Configurare una pagina di destinazione del drill-through a cui sarà possibile accedere da altri report nell'area di lavoro o nell'app.
-* Consentire a un report di visualizzare le pagine di drill-through dall'esterno del report.
+È possibile configurare una destinazione per il drill-through tra report in Power BI Desktop o nel servizio Power BI. 
+1. Modificare il file di destinazione e nella pagina destinazione del report di destinazione selezionare la sezione **Campi** del riquadro **Visualizzazioni**. 
+1. In **Drill-through** impostare l'interruttore **Tra report** su **Sì**. 
+1. Trascinare i campi da usare come destinazioni del drill-through in **Aggiungere qui i campi di drill-through**. Per ogni campo, indicare se si vuole consentire il drill-through quando il campo viene usato come categoria o quando viene riepilogato come una misura. 
+1. Se necessario, selezionare **Mantieni tutti i filtri** per l'oggetto visivo. Se non si vogliono passare all'oggetto visivo di destinazione i filtri applicati all'oggetto visivo di origine, selezionare **No**.
+   
+   ![Riquadro Visualizzazioni con le opzioni di drill-through evidenziate](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
+   
+1. Se si usa la pagina solo per il drill-through tra report, eliminare il pulsante **Indietro** aggiunto automaticamente al canvas. Il pulsante **Indietro** funziona solo per la navigazione all'interno di un report. 
+1. Dopo aver configurato la pagina di destinazione, salvare il report se si usa il servizio Power BI o salvare e pubblicare il report se si usa Power BI Desktop.
 
-Le opzioni di drill-through sono disponibili nella sezione **Campi** del riquadro **Visualizzazioni**, come illustrato nell'immagine seguente.
+È tutto. I report sono pronti per il drill-through tra i report. 
 
-![Screenshot del riquadro Visualizzazioni con le opzioni di drill-through evidenziate](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
+## <a name="use-cross-report-drillthrough"></a>Usare il drill-through tra report
 
-Il primo passaggio per abilitare il drill-through per una pagina consiste nel convalidare i modelli di dati per i report di origine e di destinazione. Assicurarsi che: 
+Per usare il drill-through tra report, selezionare il report di origine nel servizio Power BI, quindi selezionare un oggetto visivo in cui il campo di drill-through viene usato nel modo specificato durante la configurazione della pagina di destinazione. Fare clic con il pulsante destro del mouse su un punto dati per aprire il menu di scelta rapida dell'oggetto visivo, scegliere **Drill-through** e quindi selezionare la destinazione del drill-through. Le destinazioni dei drill-through tra report vengono formattate come **Nome pagina [nome report]** .
 
-* I campi che si vuole passare siano presenti in entrambi i modelli di dati.
-* I nomi dei campi e i nomi delle tabelle a cui appartengono sono identici (le stringhe devono anche corrispondere e fanno distinzione tra maiuscole e minuscole).
+![Opzione Drill-through tra report di Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
-Ad esempio, se si vuole passare un filtro nel campo *Paese* all'interno della tabella *Geografia*, entrambi i modelli devono avere una tabella *Geografia* e un campo *Paese* all'interno della tabella. Al contrario, è necessario aggiornare il nome di campo o il nome di tabella nel modello sottostante. Per il drill-through tra report non è sufficiente aggiornare il nome visualizzato dei campi. Si noti che gli schemi di ogni report non devono corrispondere esattamente.
+I risultati vengono visualizzati nella pagina di drill-through tra report di destinazione, in base alle impostazioni specificate al momento della creazione della destinazione. I risultati sono filtrati in base alle impostazioni di drill-through.
 
-Per iniziare la configurazione, è necessario preparare la pagina di destinazione. In Power BI Desktop passare alla pagina e verificare che l'opzione di drill-through **Tra report** sia impostata su **Attivato**. 
-
-![Screenshot dell'opzione Tra report impostata su Attivato](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
-
-Trascinare quindi i campi che si vuole usare come destinazione di drill-through nell'area di disegno. Specificare se si vuole che il campo venga usato come categoria o riepilogato come misura. A questo punto, è possibile specificare se si vuole disabilitare l'opzione **Mantieni tutti i filtri** per l'oggetto visivo. Se non si vuole passare altri filtri applicati dall'oggetto visivo di origine all'oggetto visivo di drill-through di destinazione, selezionare **Disattivato**.
-
-> [!NOTE]
-> Se si usa la pagina solo per il drill-through tra report, è necessario eliminare il pulsante **Indietro** aggiunto automaticamente. Il pulsante **Indietro** funziona solo per la navigazione all'interno di un singolo report. 
-
-Dopo aver configurato l'oggetto visivo, assicurarsi di salvare il report se si usa il servizio Power BI o di salvare e pubblicare il report se si usa Power BI Desktop.
-
-Nella sezione precedente è stato descritto come abilitare il drill-through tra report per Power BI Desktop (nella finestra **Opzioni**). Se si usa il servizio Power BI per creare una destinazione di drill-through tra report, per abilitare il drill-through tra report è necessario: 
-
-1. Selezionare l'area di lavoro in cui si trovano il report di destinazione e il report di origine.
-2. Selezionare **Report**.
-3. Selezionare l'icona **Impostazioni** per il report di origine.
-4. Verificare che l'opzione di drill-through tra report sia impostata su **Attivato**.
-5. Salvare il report.
-
-Questo è tutto. Il report è pronto per l'esperienza di drill-through tra report. 
-
-Nella sezione successiva l'esperienza verrà esaminata dal punto di vista dell'utente.
-
-## <a name="cross-report-drillthrough-experience"></a>Esperienza di drill-through tra report
-
-Quando si configura l'esperienza di drill-through tra report per un report, è possibile specificare la funzionalità da usare.
-
-Selezionare il report di origine nel servizio Power BI, quindi selezionare un oggetto visivo in cui il campo o i campi vengono usati nel modo specificato durante la configurazione della pagina di destinazione. Quindi fare clic con il pulsante destro del mouse su un punto dati per aprire il menu di scelta rapida visivo e selezionare **Drill-through**.
-
-![Screenshot del report di origine nel servizio Power BI con l'opzione Drill-through evidenziata](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
-
-I risultati verranno quindi visualizzati nella pagina di drill-through tra report di destinazione, in base alle impostazioni specificate al momento della creazione della destinazione. I risultati sono filtrati in base alle impostazioni di drill-through.
+![Destinazione del drill-through tra report di Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
 
 > [!IMPORTANT]
 > Power BI memorizza nella cache le destinazioni di drill-through tra report. Se si apportano modifiche, assicurarsi di aggiornare il browser se le destinazioni di drill-through non vengono visualizzate come previsto. 
 
-Le destinazioni tra report sono formattate nel modo seguente: 
+Se si imposta **Mantieni tutti i filtri** su **Sì** quando si configura la pagina di destinazione, il contesto di filtro dell'oggetto visivo di origine può includere gli elementi seguenti: 
 
-`Target Page Name [Target Report Name]`
+- Filtri a livello di report, di pagina e di oggetti visivi che hanno effetto sull'oggetto visivo di origine 
+- Filtro incrociato ed evidenziazione incrociata che hanno effetto sull'oggetto visivo di origine 
+- Filtri dei dati e filtri dei dati di sincronizzazione nella pagina
+- Parametri URL
 
-Dopo aver selezionato la pagina di destinazione del drill-through, Power BI passa alla pagina. Power BI passa anche il contesto di filtro in base alle impostazioni della pagina di destinazione. 
+Quando viene visualizzato il report di destinazione per il drill-through, Power BI applica solo i filtri per i campi con corrispondenze esatte per il nome del campo e il nome della tabella. 
 
-Il contesto di filtro dell'oggetto visivo di origine può includere gli elementi seguenti: 
+Power BI non applica filtri permanenti dal report di destinazione, ma applica il segnalibro personale predefinito, se presente. Se ad esempio il segnalibro personale predefinito include un filtro a livello di report per *Country = US*, Power BI applica il filtro prima di applicare il contesto di filtro dell'oggetto visivo di origine. 
 
-* Filtri a livello di report, di pagina e di oggetti visivi che hanno effetto sull'oggetto visivo di origine. 
-* Filtro incrociato ed evidenziazione incrociata che hanno effetto sull'oggetto visivo di origine. 
-* Filtri dei dati nella pagina e filtri dei dati di sincronizzazione.
-* Parametri URL.
-
-Quando viene visualizzato il report di destinazione per il drill-through, Power BI applica solo i filtri per i campi per i quali trova corrispondenze esatte per il nome del campo e il nome della tabella. Power BI non applica i filtri permanenti del report di destinazione. Viene tuttavia applicato il segnalibro personale predefinito, se disponibile. Ad esempio, se il segnalibro personale predefinito include un filtro a livello di report per *Paese = US*, Power BI applica il filtro prima di applicare il contesto di filtro dell'oggetto visivo di origine. 
-
-Per il drill-through tra report, Power BI passa il contesto di filtro a tutte le pagine standard del report di destinazione. Power BI non passa il contesto di filtro per le pagine di descrizione comando poiché le pagine di descrizione comando vengono filtrate in base all'oggetto visivo di origine che richiama la descrizione comando.
+Per il drill-through tra report, Power BI passa il contesto di filtro alle pagine standard del report di destinazione. Power BI non passa il contesto di filtro per le pagine di descrizione comando poiché le pagine di descrizione comando vengono filtrate in base all'oggetto visivo di origine che richiama la descrizione comando.
 
 Se si vuole tornare al report di origine dopo l'azione di drill-through tra report, usare il pulsante **Indietro** del browser. 
 
@@ -123,6 +104,6 @@ Se si vuole tornare al report di origine dopo l'azione di drill-through tra repo
 
 Potrebbero essere interessanti anche gli articoli seguenti:
 
-* [Uso dei filtri dei dati in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
-* [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
+- [Filtri dei dati in Power BI](visuals/power-bi-visualization-slicers.md)
+- [Usare il drill-through in Power BI Desktop](desktop-drillthrough.md)
 

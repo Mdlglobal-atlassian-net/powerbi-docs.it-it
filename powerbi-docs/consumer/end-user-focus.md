@@ -7,15 +7,15 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/23/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f2114d8d4be2e5f9c3b3f34589adc901a0ef4ebb
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852737"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537738"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Visualizzare il contenuto in modo più dettagliato: modalità messa a fuoco e modalità schermo intero
 
@@ -30,21 +30,20 @@ La modalità schermo intero e la modalità messa a fuoco sono due modi diversi p
 |Dashboard     |   Non consentita     | sì |
 |Pagina del report   | Non consentita  | sì|
 |Oggetto visivo del report | sì    | sì |
-|Riquadro del dashboard | sì    | sì |
+|Riquadro Dashboard | sì    | Non consentita |
 |Windows 10 Mobile | Non consentita | Sì |
 
 ## <a name="what-is-full-screen-mode"></a>Che cos'è la modalità schermo intero
 
 ![Modalità schermo intero del dasboard - prima e dopo](media/end-user-focus/power-bi-dashboards-focus.png)
 
-È possibile visualizzare i contenuti del servizio Power BI (dashboard, pagine di report, riquadri e oggetti visivi) senza la distrazione di menu e riquadri di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV.   
+È possibile visualizzare i contenuti del servizio Power BI (dashboard, pagine di report e oggetti visivi) senza la distrazione di menu e riquadri di spostamento.  Si ottiene una visualizzazione completa e immediata dei contenuti, in qualsiasi momento. È anche detta modalità TV.   
 
-Per aprire la modalità **schermo intero**, selezionare l'icona di tale modalità ![icona della modalità schermo intero ](media/end-user-focus/power-bi-full-screen-icon.png) dalla barra dei menu del servizio Power BI sopra il dashboard, il report, il riquadro o l'oggetto visivo in modalità messa a fuoco.  Il contenuto selezionato occupa l'intero schermo.
 Se si usa Power BI per dispositivi mobili, la modalità [schermo intero è disponibile per le app per dispositivi mobili Windows 10](./mobile/mobile-windows-10-app-presentation-mode.md). 
 
 Alcuni usi della modalità schermo intero sono:
 
-* presentazione del dashboard, riquadro, oggetto visivo o report in una riunione o conferenza
+* presentazione di un dashboard, un oggetto visivo o un report durante una riunione o conferenza
 * visualizzazione in un ufficio su schermi di grandi dimensioni o proiettori dedicati
 * visualizzazione su schermi di piccole dimensioni
 * revisione in modalità di blocco - possibilità di toccare la schermata o passare il mouse sui riquadri senza aprire il dashboard o il report sottostante
@@ -53,18 +52,30 @@ Alcuni usi della modalità schermo intero sono:
 
 La modalità ***messa a fuoco*** consente di espandere (aprire in una nuova finestra) un oggetto visivo o un riquadro per visualizzare più dettagli.  Se un dashboard o un report contiene molti elementi, potrebbe essere necessario fare zoom avanti su un solo oggetto visivo.  Si tratta di un uso ideale della modalità messa a fuoco.  
 
-![Modalità schermo intero del dasboard - prima e dopo](media/end-user-focus/power-bi-compare-dash.png)
+![modalità messa a fuoco del riquadro del dashboard - prima e dopo](media/end-user-focus/power-bi-compare-dash.png)
 
 In modalità messa a fuoco un *utente* di Power BI può interagire con tutti i filtri applicati al momento della creazione dell'oggetto visivo.  Nel servizio Power BI è possibile usare la modalità messa a fuoco su un riquadro del dashboard o un oggetto visivo del report.
 
 ## <a name="working-in-full-screen-mode"></a>Uso della modalità schermo intero
 
-Per aprire un dashboard o una pagina del report in modalità schermo intero, selezionare l'icona di tale modalità ![icona Schermo intero](media/end-user-focus/power-bi-full-screen-icon.png) nel riquadro di spostamento superiore. In modalità schermo intero, spostando il mouse o il cursore, viene visualizzato un menu di scelta rapida. Poiché la modalità schermo intero è disponibile per un'ampia gamma di contenuti, le opzioni del menu di scelta rapida possono variare leggermente, ma sono facilmente comprensibili.  È sufficiente passare il puntatore del mouse su un'icona per visualizzare una definizione.
+La modalità schermo intero è disponibile per dashboard, pagine di report e oggetti visivi dei report. 
+
+- Per aprire un dashboard in modalità schermo intero, selezionare l'icona Schermo intero ![icona Schermo intero](media/end-user-focus/power-bi-full-screen-icon.png) nella barra dei menu superiore. 
+
+- Per aprire una pagina del report in modalità schermo intero, selezionare **Visualizza** > **Schermo intero**.
+
+    ![selezione di Schermo intero dal menu Visualizza](media/end-user-focus/power-bi-view.png)
+
+
+- Per visualizzare un oggetto visivo in modalità schermo intero, aprirlo prima in modalità messa a fuoco e quindi selezionare **Visualizza** > **Schermo intero**.  
+
+
+Il contenuto selezionato occupa l'intero schermo.    In modalità schermo intero, spostando il mouse o il cursore, viene visualizzato un menu di scelta rapida. Poiché la modalità schermo intero è disponibile per un'ampia gamma di contenuti, le opzioni del menu di scelta rapida possono variare leggermente, ma sono facilmente comprensibili.  È sufficiente passare il puntatore del mouse su un'icona per visualizzare una definizione.
 
 Menu per i dashboard    
 ![Menu per i dashboard](media/end-user-focus/power-bi-full-screen-dash.png)    
 
-Menu per le pagine di report    
+Menu per le pagine dei report e gli oggetti visivi dei report    
 ![Menu per i report](media/end-user-focus/power-bi-report-full-screen.png)    
 
   * ![Icona Indietro](media/end-user-focus/power-bi-back-icon.png)    
@@ -92,46 +103,36 @@ Menu per le pagine di report
 
 ## <a name="working-in-focus-mode"></a>Uso della modalità messa a fuoco
 
-Esistono due modi per aprire la modalità messa a fuoco: uno per i riquadri del dashboard e un altro per gli oggetti visivi del report.
+La modalità messa a fuoco è disponibile per i riquadri dei dashboard e gli oggetti visivi dei report. 
 
-### <a name="focus-mode-in-dashboards"></a>Modalità messa a fuoco nei dashboard
+- Per aprire un riquadro del dashboard in modalità messa a fuoco, passare il puntatore del mouse su un riquadro del dashboard o un oggetto visivo del report, selezionare **Altre opzioni** (...) e scegliere **Apri in modalità messa a fuoco**.
 
-1. Aprire un dashboard nel servizio Power BI.
+    ![Menu di puntini di sospensione per il riquadro](media/end-user-focus/power-bi-dashboard-focus.png). 
 
-2. Passare il puntatore del mouse su un riquadro del dashboard o un oggetto visivo del report, selezionare **Altre opzioni** (...) e scegliere **Apri in modalità messa a fuoco**.
+- Per aprire un oggetto visivo del report in modalità messa a fuoco, passare il puntatore del mouse sull'oggetto visivo e selezionare l'icona della **modalità messa a fuoco** ![Icona modalità messa a fuoco](media/end-user-focus/pbi_popout.jpg).  
 
-    ![Menu di puntini di sospensione per il riquadro](media/end-user-focus/power-bi-dashboard-focus.png).
+   ![Icona della modalità messa a fuoco visualizzata nel riquadro](media/end-user-focus/power-bi-hover-focus-icon.png)
 
-2. Il riquadro si apre e riempie l'intera area di disegno report. Si noti che è ancora presente un riquadro **Filtri** che è possibile usare per interagire con l'oggetto visivo. Il riquadro **Filtri** può essere compresso.
+
+
+L'oggetto visivo si apre e riempie l'intera area di disegno. Si noti che è ancora presente un riquadro **Filtri** che è possibile usare per interagire con l'oggetto visivo. Il riquadro **Filtri** e il riquadro di spostamento possono essere compressi.
 
    ![Il riquadro riempie l'area di disegno del report](media/end-user-focus/power-bi-focus-filter.png)
 
-4. Per esplorare ulteriormente, [modificare i filtri](end-user-report-filter.md) e cercare informazioni interessanti nei dati.  
 
-5. Chiudere la modalità messa a fuoco e tornare al dashboard selezionando **Esci dalla modalità messa a fuoco** (nell'angolo in alto a sinistra dell'oggetto visivo).
+   ![il riquadro riempie il canvas del report ed entrambi i menu sono compressi](media/end-user-focus/power-bi-menu-collapse.png)  
 
-    ![Uscire dalla modalità messa a fuoco](media/end-user-focus/power-bi-exit.png)    
+Per esplorare ulteriormente, [modificare i filtri](end-user-report-filter.md) e cercare informazioni interessanti nei dati.  
 
+Analizzare i dati alla ricerca di nuove informazioni e risposte alle domande. I *consumer* non possono aggiungere nuovi filtri, modificare i campi usati negli oggetti visivi o creare nuovi oggetti visivi.  Tuttavia, è possibile interagire con i filtri esistenti. 
 
-## <a name="focus-mode-for-report-visuals"></a>Modalità messa a fuoco per gli oggetti visivi dei report
+Per un riquadro del dashboard, non è possibile salvare le modifiche. Per un oggetto visivo del report, eventuali modifiche apportate ai filtri esistenti vengono salvate quando si esce da Power BI. Se non si vogliono memorizzare le modifiche in Power BI, selezionare **Ripristina impostazioni predefinite**. ![Pulsante Ripristina impostazioni predefinite](media/end-user-focus/power-bi-resets.png)  
 
-1. Aprire un report nel servizio Power BI.  In questo esempio verrà illustrato l'uso dell'esempio Sales and Marketing.
+Uscire dalla modalità messa a fuoco e tornare al dashboard selezionando **Esci dalla modalità messa a fuoco** o **Torna al report** (nell'angolo in alto a sinistra dell'oggetto visivo).
 
-1. Dopo l'apertura del report selezionare la scheda **YTD Category**.
+![Uscire dalla modalità messa a fuoco](media/end-user-focus/power-bi-exit.png)    
 
-2. Passare il puntatore del mouse sulla mappa ad albero nell'angolo in alto a sinistra e selezionare l'icona della **modalità messa a fuoco** ![Icona della modalità messa a fuoco](media/end-user-focus/pbi_popout.jpg).  
-
-   ![Icona della modalità messa a fuoco visualizzata nel riquadro](media/end-user-focus/power-bi-hover-focus-icon.png)
-2. L'oggetto visivo si apre e riempie l'intera area di disegno.
-
-   ![Oggetto visivo nella modalità messa a fuoco](media/end-user-focus/power-bi-display-focus-new.png)
-
-3. Usare facoltativamente il riquadro **Filtri** per interagire con i filtri applicati a questo oggetto visivo. Analizzare i dati alla ricerca di nuove informazioni e risposte alle domande. I *consumer* non possono aggiungere nuovi filtri, modificare i campi usati negli oggetti visivi o creare nuovi oggetti visivi.  Tuttavia, eventuali modifiche apportate ai filtri esistenti vengono salvate quando si esce da Power BI. Se non si vogliono memorizzare le modifiche in Power BI, selezionare **Ripristina impostazioni predefinite**. ![Pulsante Ripristina impostazioni predefinite](media/end-user-focus/power-bi-resets.png)  
-
-
-5. Chiudere la modalità messa a fuoco e tornare al report selezionando **Torna al report** (nell'angolo in alto a sinistra dell'oggetto visivo).
-
-    ![Uscire dalla modalità messa a fuoco](media/end-user-focus/power-bi-back-to-report.png)  
+![Uscire dalla modalità messa a fuoco](media/end-user-focus/power-bi-back-to-report.png)  
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 

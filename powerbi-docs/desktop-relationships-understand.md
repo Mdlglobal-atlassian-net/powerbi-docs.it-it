@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 56ff7d09530030d1a1ae046a3439022cbf638b9d
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 124f373e7841cb899f0a26debb2bcc8302e8e970
+ms.sourcegitcommit: 7efbe508787029e960d6d535ac959a922c0846ca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760573"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76309120"
 ---
 # <a name="create-model-relationships-in-power-bi-desktop"></a>Creare relazioni di modelli in Power BI Desktop
 
@@ -87,9 +87,9 @@ Ogni relazione del modello deve essere definita con una direzione filtro incroci
 
 | Tipo di cardinalità | Opzioni di filtro incrociato |
 | --- | --- |
-| Uno-a-molti (o Molti-a-uno) | Singola<br>Entrambi |
-| Uno-a-uno | Entrambi |
-| Molti-a-molti | Single (da Table1 a Table2)<br>Single (da Table2 a Table1)<br>Entrambi |
+| Uno-a-molti (o Molti-a-uno) | Single<br>Entrambe |
+| Uno-a-uno | Entrambe |
+| Molti-a-molti | Single (da Table1 a Table2)<br>Single (da Table2 a Table1)<br>Entrambe |
 
 La direzione filtro incrociato _Singola_ significa "singola direzione" e _Entrambe_ significa "entrambe le direzioni". Una relazione che consente di filtrare in entrambe le direzioni viene comunemente descritta come _bidirezionale_.
 
@@ -227,4 +227,6 @@ Nell'elenco seguente vengono ordinate le prestazioni di propagazione del filtro,
 
 - [Informazioni su uno schema star e sull'importanza di questo schema per Power BI](guidance/star-schema.md)
 - [Linee guida per le relazioni molti-a-molti](guidance/relationships-many-to-many.md)
-- Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Video: [The Do's and Don'ts of Power BI Relationships](https://youtu.be/78d6mwR8GtA) (Operazioni consigliate e sconsigliate nelle relazioni di Power BI)
+- Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
+- Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com)

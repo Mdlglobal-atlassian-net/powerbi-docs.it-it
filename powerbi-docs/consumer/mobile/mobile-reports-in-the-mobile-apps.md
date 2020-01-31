@@ -1,21 +1,21 @@
 ---
-title: Esplorare i report nelle app Power BI per dispositivi mobili
+title: Esplorare i report nelle app per dispositivi mobili di Power BI
 description: Informazioni sulla visualizzazione e sull'interazione con i report nelle app Power BI nel telefono o nel tablet. Creare report nel servizio Power BI o Power BI Desktop e quindi interagire con essi nelle app per dispositivi mobili.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220745"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538129"
 ---
-# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app Power BI per dispositivi mobili
+# <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Esplorare i report nelle app per dispositivi mobili di Power BI
 Si applica a:
 
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Telefono Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Tablet Android](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Dispositivi Windows 10](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
@@ -53,6 +53,13 @@ Per passare a un report da un dashboard, toccare **Altre opzioni** (...) nell'an
 ## <a name="interact-with-reports"></a>Interagire con i report
 Dopo aver aperto un report nell'app, è possibile iniziare a usarlo. È possibile eseguire molte operazioni con i report e i relativi dati. Nel piè di pagina del report sono disponibili le azioni che è possibile eseguire sul report. Grazie al tocco e al tocco prolungato sui dati visualizzati nel report, è anche possibile visualizzare i dati in dettaglio.
 
+### <a name="single-tap-versus-double-tap-interaction"></a>Interazione con tocco singolo o doppio tocco
+Quando si scarica l'app per dispositivi mobili Power BI, è impostata per l'interazione con tocco singolo. Questo significa che quando si tocca un oggetto visivo per eseguire un'azione, ad esempio la selezione di un elemento del filtro dei dati, l'evidenziazione incrociata, il clic su un collegamento o un pulsante e così via, il tocco seleziona l'oggetto visivo ed esegue l'azione desiderata.
+
+Se si preferisce, è possibile passare all'interazione con doppio tocco. Con l'interazione con doppio tocco è prima necessario toccare un oggetto visivo per selezionarlo e poi toccare di nuovo l'oggetto visivo per eseguire l'azione desiderata.
+
+Per passare all'interazione con doppio tocco o per tornare all'interazione con tocco singolo, passare alle [impostazioni di interazione dell'app](./mobile-app-interaction-settings.md).
+
 ### <a name="using-tap-and-long-tap"></a>Uso del tocco e del tocco lungo
 Un tocco equivale a un clic del mouse. Di conseguenza, per l'evidenziazione incrociata del report in base a un punto dati, toccare il punto dati.
 Quando si tocca un valore di filtro dei dati, il valore viene selezionato e il resto del report viene filtrato in base a tale valore.
@@ -63,7 +70,6 @@ Probabilmente si è notato che quando si tocca un oggetto visivo, viene visualiz
 ![Oggetto visivo e menu](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>Descrizione comando e azioni di drill
-
 Con il tocco lungo (toccare e tenere premuto) su un punto dati, verrà visualizzata una descrizione comando con i valori rappresentati dal punto dati:
 
 ![Descrizione comando](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -110,7 +116,7 @@ Quando si tocca il pulsante **Altre opzioni** (...) nel piè di pagina del repor
 ![Tutte le azioni del report](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 È possibile che alcune azioni siano disabilitate perché dipendono dalle funzionalità specifiche del report.
-ad esempio:
+Ad esempio:
 
 **Segnalibri** è presente solo se nel report sono stati impostati [segnalibri](mobile-reports-in-the-mobile-apps.md#bookmarks). Vengono visualizzati sia i segnalibri personali che è possibile definire nel servizio Power BI che i segnalibri definiti dall'autore del report. Se uno dei segnalibri è stato definito come segnalibro predefinito, il report viene aperto su tale vista quando viene caricato.
 
@@ -126,6 +132,8 @@ L'**analisi per filtrare il report in base al codice a barre** è abilitata solo
 
 L'app Power BI per dispositivi mobili supporta sia i segnalibri del report definiti dall'autore del report che i segnalibri personali che l'utente può definire nel servizio Power BI. il menu Segnalibri è disponibile in **Altre opzioni** (...) sulla [barra degli strumenti delle azioni del report](mobile-reports-in-the-mobile-apps.md#all-report-actions).
 
+I segnalibri predefiniti sono indicati da un'icona speciale. Per i segnalibri personali è possibile impostare, annullare o modificare l'impostazione predefinita toccando **Altre opzioni (...)** accanto al segnalibro da modificare e scegliendo **Predefinito** o **Cancella predefinito**.
+
 ![menu Segnalibri](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 Quando è aperta una vista segnalibro di un report, il nome del segnalibro viene visualizzato nella parte superiore del report.
@@ -134,8 +142,17 @@ Quando è aperta una vista segnalibro di un report, il nome del segnalibro viene
 
 [Altre informazioni sui segnalibri nel servizio Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
+## <a name="configure-your-experience-with-reports"></a>Configurare l'esperienza con i report
+L'app per dispositivi mobili Power BI offre varie impostazioni che consentono di controllare l'esperienza con i report. Attualmente è possibile configurare
+* **Interazione con gli oggetti visivi del report**: è possibile scegliere di usare l'interazione con tocco singolo o doppio tocco.
+* **Metodo di aggiornamento dei dati**: è possibile scegliere di includere un pulsante di aggiornamento o un'azione di trascinamento verso il basso per aggiornare i dati del report.
+* **Visibilità del piè di pagina del report**: è possibile scegliere di includere un piè di pagina ancorato sempre visibile o un piè di pagina dinamico che viene nascosto e rivisualizzato a seconda delle azioni (ad esempio, lo scorrimento).
+
+Per informazioni su come modificare queste impostazioni, vedere le [impostazioni di interazione delle app](./mobile-app-interaction-settings.md).
+
+
 ## <a name="next-steps"></a>Passaggi successivi
 * [Visualizzare e interagire con i report di Power BI ottimizzati per il proprio telefono](mobile-apps-view-phone-report.md)
 * [Creare una versione di un report ottimizzata per i telefoni](../../desktop-create-phone-report.md)
-* Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+* Domande? [Contattare la community di Power BI](https://community.powerbi.com/)
 

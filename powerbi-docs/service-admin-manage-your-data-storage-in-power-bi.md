@@ -1,43 +1,52 @@
 ---
 title: Gestire l'archiviazione dei dati nelle aree di lavoro
-description: Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+description: Informazioni su come gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2018
+ms.date: 01/23/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bc8b8c16675e6d413c22d4ae88018222b02b17d6
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873653"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709875"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Gestire l'archiviazione dei dati nelle aree di lavoro di Power BI
 
-Informazioni su come è possibile gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per assicurarsi che sia possibile continuare a pubblicare report e set di dati.
+Informazioni su come gestire l'archiviazione dei dati nell'area di lavoro personale o in un'area di lavoro per poter continuare a pubblicare report e set di dati.
 
-Per gli utenti e le aree di lavoro esistono capacità di dati specifiche:
+## <a name="capacity-limits"></a>Limiti di capacità
 
-* A tutti gli utenti viene assegnato uno spazio di archiviazione dati massimo di 10 GB.
-* Gli utenti con licenza di Power BI Pro possono creare aree di lavoro con al massimo 10 GB di spazio di archiviazione dati ognuna.
-* Un'area di lavoro in una capacità Premium non viene conteggiata nello spazio di archiviazione di un utente di Power BI Pro.
+I limiti di archiviazione, sia l'area di lavoro personale sia per quella relativa alle app, variano a seconda che l'area di lavoro sia configurata con [capacità condivisa o Premium](service-basic-concepts.md#capacities).
 
-A livello di tenant l'utilizzo totale non può superare 10 GB per utente della licenza Pro tra tutti gli utenti e le aree di lavoro nel tenant.
+### <a name="shared-capacity-limits"></a>Limiti della capacità condivisa
+Per le aree di lavoro con capacità condivisa: 
+
+- È previsto un limite di archiviazione per area di lavoro di 10 GB.
+- Per le aree di lavoro relative alle app, l'utilizzo totale non può superare 10 GB, moltiplicati per il numero di licenze Pro nel tenant.
+
+### <a name="premium-capacity-limits"></a>Limiti della capacità Premium
+Per le aree di lavoro con capacità Premium:
+- È previsto un limite di 100 TB per capacità Premium.
+- Non esiste alcun limite di archiviazione per utente.
 
 Per informazioni sulle altre funzionalità, vedere l'articolo sui [prezzi di Power BI](https://powerbi.microsoft.com/pricing).
 
+## <a name="whats-included-in-storage"></a>Dati inclusi nella capacità di archiviazione
+
 Nel limite delle risorse di archiviazione dati rientrano i set di dati e i report di Excel personalizzati e gli elementi condivisi da altri utenti. I set di dati sono una delle origini dati caricate o a cui ci si è connessi. Queste origini dati includono i file di Power BI Desktop e le cartelle di lavoro di Excel in uso. Inoltre, sono inclusi nella capacità dei dati:
 
-* Intervalli di Excel aggiunti al dashboard.
+* Intervalli di Excel aggiunti a un dashboard.
 * Visualizzazioni locali di Reporting Services aggiunte al dashboard di Power BI
 * Immagini caricate.
 
-Le dimensioni di un dashboard da condividere variano a seconda di ciò che è stato aggiunto. Ad esempio, se si aggiungono elementi da due report che fanno parte di due set di dati diversi, le dimensioni includono entrambi i set di dati.
+La dimensione di un dashboard da condividere varia a seconda degli elementi aggiunti. Ad esempio, se si aggiungono elementi da due report che fanno parte di due set di dati diversi, le dimensioni includono entrambi i set di dati.
 
 <a name="manage"/>
 
@@ -45,9 +54,10 @@ Le dimensioni di un dashboard da condividere variano a seconda di ciò che è st
 
 È possibile sapere quante risorse di archiviazione dati si stanno usando nell'account di Power BI e gestire l'account.
 
-1. Per gestire le risorse di archiviazione personali passare ad **Area di lavoro personale** nel riquadro di spostamento.
+1. Per gestire lo spazio di archiviazione personale, passare ad **Area di lavoro personale** nel riquadro di spostamento.
    
     ![Area di lavoro personale](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+
 2. Selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) nell'angolo in alto a destra \> **Gestisci archivio personale**.
    
     La barra in alto mostra il valore dello spazio di archiviazione utente usato rispetto al limite.
@@ -57,6 +67,7 @@ Le dimensioni di un dashboard da condividere variano a seconda di ciò che è st
     I set di dati e i report sono separati in due schede:
    
     **Di mia proprietà:** questi report e set di dati sono stati caricati dall'utente nell'account di Power BI, inclusi i set di dati dei servizi, ad esempio di Salesforce e Dynamics CRM.  
+
     **Di proprietà di altri:** si tratta dei report e dei set di dati che altri utenti hanno condiviso con l'utente.
 1. Per eliminare un set di dati o un report, selezionare l'icona del Cestino ![icona del Cestino](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
@@ -75,15 +86,15 @@ Tenere presente che potrebbero esserci utenti che usano report e dashboard basat
     I set di dati e i report sono separati in due schede:
    
     **Di nostra proprietà:** questi report e set di dati caricati sono stati caricati dall'utente o da qualcun altro nell'account di Power BI del gruppo, inclusi i set di dati dei servizi, ad esempio di Salesforce e Dynamics CRM.
+
     **Di proprietà di altri:** si tratta dei report e dei set di dati che altri utenti hanno condiviso con il gruppo.
+
 3. Per eliminare un set di dati o un report, selezionare l'icona del Cestino ![icona del Cestino](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > Tutti i membri di un'area di lavoro che hanno le autorizzazioni di modifica sono autorizzati a eliminare dalla stessa i set di dati e i report.
-   > 
-   > 
-
-Tenere presente che nel gruppo potrebbero esserci utenti che usano report e dashboard basati su un set di dati. Se quindi si elimina il set di dati, i report e i dashboard non funzioneranno più.
+   > Tenere presente che nel gruppo potrebbero esserci utenti che usano report e dashboard basati su un set di dati. Se quindi si elimina il set di dati, i report e i dashboard non funzioneranno più.
+   
+   Tutti i membri di un'area di lavoro che hanno il ruolo di amministratore, membro o collaboratore sono autorizzati a eliminare dall'area i set di dati e i report.
 
 ## <a name="dataset-limits"></a>Limiti per i set di dati
 È previsto un limite di 1 GB per ogni set di dati importato in Power BI. Se si è scelto di mantenere l'esperienza di Excel, invece di importare i dati, il limite per il set di dati sarà è di 250 MB.
@@ -102,6 +113,8 @@ Questo limite è indicato anche all'interno di **Gestisci archivio personale**.
  Quando si tenta di eseguire un'azione che comporta il raggiungimento di uno dei limiti, viene visualizzato un messaggio che informa che è stato superato il limite. È possibile [gestire](#manage) lo spazio di archiviazione in modo da ridurre la quantità di archiviazione e superare il limite.
 
  ![Limite di archiviazione superato](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+
+ ## <a name="next-steps"></a>Passaggi successivi
 
  Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
 

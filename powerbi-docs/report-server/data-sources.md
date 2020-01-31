@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874196"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540591"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Origini dati dei report di Power BI nel server di report di Power BI
 I report di Power BI possono connettersi a numerose origini dati. A seconda di come vengono usati i dati, sono disponibili diverse origini dati. I dati possono essere importati oppure è possibile eseguire una query direttamente sui dati tramite DirectQuery o una connessione in tempo reale a SQL Server Analysis Services.
@@ -30,16 +30,16 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 
 | **Origine dati** | **Dati memorizzati nella cache** | **Aggiornamento pianificato** | **Dinamico/DirectQuery** |
 | --- | --- | --- | --- |
-| Database di SQL Server |Sì |Sì |Sì |
+| Database SQL Server |Sì |Sì |Sì |
 | SQL Server Analysis Services |Sì |Sì |Sì |
-| Database SQL di Azure |Sì |Sì |Sì |
+| database SQL di Azure |Sì |Sì |Sì |
 | Azure SQL Data Warehouse |Sì |Sì |Sì |
 | Excel |Sì |Sì |No |
 | Database di Access |Sì |Sì |No |
 | Active Directory |Sì |Sì |No |
 | Amazon Redshift |Sì |No |No |
 | Archiviazione BLOB di Azure |Sì |Sì |No |
-| Azure Data Lake Store |Sì |No |No |
+| Archivio Azure Data Lake |Sì |No |No |
 | Azure HDInsight (HDFS) |Sì |No |No |
 | Azure HDInsight (Spark) |Sì |Sì |No |
 | Archiviazione tabelle di Azure |Sì |Sì |No |
@@ -57,7 +57,7 @@ Altre origini dati potrebbero funzionare anche se non sono presenti nell'elenco 
 | Feed OData |Sì |Sì |No |
 | ODBC |Sì |Sì |No |
 | OLE DB |Sì |Sì |No |
-| Database Oracle |Sì |Sì |Sì |
+| Oracle Database |Sì |Sì |Sì |
 | Database PostgreSQL |Sì |Sì |No |
 | Servizio Power BI |No |No |No |
 | Script R |Sì |No |No |
@@ -118,15 +118,15 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 | **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** |
 | --- | --- | --- | --- | --- |
-| Database di SQL Server |No |No |Sì |Sì |
+| Database SQL Server |No |No |Sì |Sì |
 | SQL Server Analysis Services |No |No |Sì |Sì |
 | Web |Sì |No |Sì |Sì |
-| Database SQL di Azure |No |No |Sì |No |
+| database SQL di Azure |No |No |Sì |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |
 | Active Directory |No |No |Sì |Sì |
 | Amazon Redshift |No |No |No |No |
 | Archiviazione BLOB di Azure |Sì |Sì |No |No |
-| Azure Data Lake Store |No |No |No |No |
+| Archivio Azure Data Lake |No |No |No |No |
 | Azure HDInsight (HDFS) |No |No |No |No |
 | Azure HDInsight (Spark) |Sì |Sì |No |No |
 | Archiviazione tabelle di Azure |No |Sì |No |No |
@@ -143,7 +143,7 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 | Feed OData |Sì |Sì |Sì |Sì |
 | ODBC |Sì |No |Sì |Sì |
 | OLE DB |Sì |No |Sì |Sì |
-| Database Oracle |No |No |Sì |Sì |
+| Oracle Database |No |No |Sì |Sì |
 | Database PostgreSQL |No |No |Sì |No |
 | Servizio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
@@ -194,20 +194,20 @@ Il server di report di Microsoft Power BI non supporta l'autenticazione basata s
 
 Il server di report di Microsoft Power BI non supporta l'autenticazione basata su OAuth per DirectQuery.
 
-| **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** | **Autenticazione di Windows integrata** |
+| **Origine dati** | **Autenticazione anonima** | **Autenticazione con chiave** | **Nome utente e password** | **Autenticazione di Windows** | **Autenticazione integrata di Windows** |
 | --- | --- | --- | --- | --- | --- |
-| Database di SQL Server |No |No |Sì |Sì |Sì |
+| Database SQL Server |No |No |Sì |Sì |Sì |
 | SQL Server Analysis Services |No |No |Sì |Sì |Sì |
-| Database SQL di Azure |No |No |Sì |No |No |
+| database SQL di Azure |No |No |Sì |No |No |
 | Azure SQL Data Warehouse |No |No |Sì |No |No |
-| Database Oracle |No |No |Sì |Sì |Sì |
+| Oracle Database |No |No |Sì |Sì |Sì |
 | Server SAP Business Warehouse |No |No |Sì |No |No |
-| Database SAP HANA |No |No |Sì |Sì |No |
+| Database SAP HANA |No |No |Sì |Sì |Sì** |
 | Teradata |No |No |Sì |Sì |Sì |
 
+**SAP HANA supporta DirectQuery con Autenticazione integrata di Windows solo se usato come database relazionale nel file di Power BI Desktop pubblicato (PBIX).
 
 ## <a name="next-steps"></a>Passaggi successivi
 Dopo essersi connessi all'origine dati, [creare un report di Power BI](quickstart-create-powerbi-report.md) con i dati di questa origine dati.
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
-

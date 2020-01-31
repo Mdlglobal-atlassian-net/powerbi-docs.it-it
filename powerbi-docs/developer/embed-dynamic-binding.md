@@ -7,32 +7,30 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164052"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709536"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Connettere un report a un set di dati tramite binding dinamico 
 
-Quando un report è connesso a un set di dati è possibile usare il binding dinamico. La connessione tra il report e il set di dati è nota come *binding*. Quando il binding viene determinato al momento dell'incorporamento, anziché essere predeterminato in precedenza, è detto [binding dinamico](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0).
- 
+Quando un report è connesso a un set di dati è possibile usare il binding dinamico. La connessione tra il report e il set di dati è nota come *binding*. Quando il binding viene determinato al momento dell'incorporamento, anziché essere predeterminato in precedenza, è detto binding dinamico.
+
 Quando si incorpora un report di Power BI tramite *binding dinamico*, è possibile connettere lo stesso report a set di dati diversi a seconda delle credenziali dell'utente.
- 
+
 Questo significa che è possibile usare un report per visualizzare informazioni diverse, a seconda del set di dati a cui è connesso. Ad esempio, un report che mostra i valori delle vendite al dettaglio può essere connesso a set di dati diversi del rivenditore e produrre risultati diversi a seconda del set di dati del rivenditore a cui è connesso.
- 
+
 Il report e il set di dati non devono necessariamente trovarsi nella stessa area di lavoro. Entrambe le aree di lavoro (quella contenente il report e quella contenente il set di dati) devono essere assegnate a una [capacità](azure-pbie-create-capacity.md).
 
 Come parte del processo di incorporamento, assicurarsi di *generare un token con autorizzazioni sufficienti* e di *adattare l'oggetto di configurazione*.
-
 
 ## <a name="generating-a-token-with-sufficient-permissions"></a>Generazione di un token con autorizzazioni sufficienti
 
 Il binding dinamico è supportato sia per l'*incorporamento per l'organizzazione* che per l'*incorporamento per i clienti*. Nella tabella seguente vengono descritte le considerazioni per ogni scenario.
 
-
-|Scenario  |Proprietà dei dati  |Token  |Requisiti  |
+|Scenario  |Proprietà dei dati  |token  |Requisiti  |
 |---------|---------|---------|---------|
 |*Incorporamento per l'organizzazione*    |I dati sono di proprietà dell'utente         |Token di accesso per utenti di Power BI         |L'utente di cui viene usato il token di Azure AD deve avere le autorizzazioni appropriate per tutti gli artefatti.         |
 |*Incorporamento per i clienti*     |I dati sono di proprietà dell'app         |Token di accesso per utenti non di Power BI         |Deve includere le autorizzazioni sia per il report che per il set di dati associato in modo dinamico. Usare l'[API per generare un token di incorporamento per più elementi](embed-sample-for-customers.md#multiEmbedToken), per generare un token di incorporamento che supporta più artefatti.         |

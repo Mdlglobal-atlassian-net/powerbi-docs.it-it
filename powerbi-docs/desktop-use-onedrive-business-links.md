@@ -6,52 +6,52 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 226a5035ba6c93a7987d74ab0fea1dd4264df0b1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 706703985242284725fb4fc2d42bf46e54c605c7
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865298"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709746"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usare collegamenti OneDrive for Business in Power BI Desktop
-Molti utenti archiviano le cartelle di lavoro di Excel nell'unità OneDrive for Business, ottima per l'uso con Power BI Desktop. Con **Power BI Desktop** è possibile usare collegamenti online per file **Excel** archiviati in **OneDrive for Business** per creare report e oggetti visivi. È possibile usare un account di gruppo di **OneDrive for Business** oppure il proprio account **OneDrive for Business** personale.
+Molti utenti archiviano le cartelle di lavoro di Excel in OneDrive for Business, che offre un'ottima soluzione di interazione con Power BI Desktop. In Power BI Desktop si possono usare collegamenti online ai file di Excel archiviati in OneDrive for Business per creare report e oggetti visivi. È possibile usare un account di gruppo di OneDrive for Business oppure l'account OneDrive for Business personale.
 
-Per ottenere un collegamento online da **OneDrive for Business** sono necessari alcuni passaggi specifici. Le sezioni seguenti illustrano i passaggi che consentono di condividere il collegamento del file tra gruppi, tra computer e con i colleghi.
+Per ottenere un collegamento online da OneDrive for Business sono necessari alcuni passaggi specifici. Le sezioni seguenti illustrano i passaggi che consentono di condividere il collegamento del file tra gruppi, tra computer e con i colleghi.
 
-## <a name="get-a-link-from-excel-starting-in-the-browser"></a>Ottenere un collegamento da Excel, iniziando nel browser
+## <a name="get-a-link-from-excel"></a>Ottenere un collegamento da Excel
 1. Passare a OneDrive for Business usando un browser. Fare clic con il pulsante destro del mouse sul file da usare e quindi scegliere **Apri in Excel**.
    
    > [!NOTE]
-   > L'interfaccia del browser potrebbe non apparire esattamente come nell'immagine seguente. Esistono diversi modi per selezionare **Apri in Excel** per i file nell'interfaccia del browser di **OneDrive for Business**. È possibile usare qualsiasi opzione che consenta di aprire il file in Excel.
+   > L'interfaccia del browser potrebbe non apparire esattamente come nell'immagine seguente. Esistono diversi modi per selezionare **Apri in Excel** per i file nell'interfaccia del browser di OneDrive for Business. È possibile usare qualsiasi opzione che consenta di aprire il file in Excel.
    > 
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. In **Excel** selezionare **File > Informazioni** e quindi selezionare il collegamento sopra il pulsante **Proteggi cartella di lavoro**. Selezionare **Copia link negli Appunti**. È possibile che nella versione in uso venga visualizzato **Copia percorso negli Appunti**.
+2. In Excel selezionare **File** > **Informazioni** e quindi selezionare **Copia percorso** sopra **Proteggi cartella di lavoro**.
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
+   ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 
 ## <a name="use-the-link-in-power-bi-desktop"></a>Usare il collegamento in Power BI Desktop
-In Power BI Desktop è possibile usare il collegamento che è stato appena copiato negli Appunti. Eseguire queste operazioni:
+In Power BI Desktop è possibile usare il collegamento che è stato appena copiato negli Appunti. Eseguire questa procedura:
 
-1. In Power BI Desktop selezionare **Recupera dati > Web**.
+1. In Power BI Desktop selezionare **Recupera dati** > **Web**.
    
-   ![](media/desktop-use-onedrive-business-links/odb-links_04.png)
-2. Incollare il collegamento nella finestra di dialogo **Da Web**. **Non** selezionare ancora OK.
+   ![](media/desktop-use-onedrive-business-links/power-bi-web-link-onedrive.png)
+2. Con l'opzione **Di base** selezionata, incollare il collegamento nella finestra di dialogo **Da Web**.
+3. Rimuovere la stringa *?web=1* alla fine del collegamento, in modo che Power BI Desktop possa accedere correttamente al file, e quindi selezionare **OK**.
    
-    ![](media/desktop-use-onedrive-business-links/odb-links_05.png)
-3. Si noti la stringa *?web=1* alla fine del collegamento. È necessario *rimuovere quella parte della stringa dell'URL Web* **prima** di selezionare **OK** per far sì che **Power BI Desktop** passi al file.
-4. Se **Power BI Desktop** richiede le credenziali, scegliere **Windows** per i siti SharePoint locali o **Account aziendale** per i siti Office 365 o OneDrive for Business.
+    ![](media/desktop-use-onedrive-business-links/power-bi-web-link-confirmation.png) 
+4. Se Power BI Desktop richiede le credenziali, scegliere **Windows** per i siti SharePoint locali o **Account aziendale** per i siti Office 365 o OneDrive for Business.
    
    ![](media/desktop-use-onedrive-business-links/odb-links_06.png)
 
-Verrà visualizzata la finestra **Strumento di navigazione** che consente di selezionare dall'elenco di tabelle, fogli e intervalli disponibili nella cartella di lavoro di Excel. Da qui è possibile usare il file di OneDrive for Business come qualsiasi altro file di Excel, creare report e usarli nei set di dati come con qualsiasi altra origine dati.
+   Verrà visualizzata la finestra **Strumento di navigazione** che consente di eseguire operazioni di selezione dall'elenco di tabelle, fogli e intervalli disponibili nella cartella di lavoro di Excel. Da qui è possibile usare il file di OneDrive for Business esattamente come qualsiasi altro file di Excel. Si possono creare report e usarli nei set di dati proprio come per qualsiasi altra origine dati.
 
 > [!NOTE]
-> Per usare un file di **OneDrive for Business** come origine dati nel servizio Power BI, con l'**aggiornamento del servizio** abilitato per tale file, assicurarsi di selezionare **OAuth2** come **metodo di autenticazione** quando si configurano le impostazioni di aggiornamento. In caso contrario è possibile riscontrare un errore (ad esempio *L'aggiornamento delle credenziali dell'origine dati non è riuscito.* ) quando si prova a connettersi o ad aggiornare. Selezionare **OAuth2** come metodo di autenticazione per risolvere l'errore delle credenziali.
+> Per usare un file di OneDrive for Business come origine dati nel servizio Power BI, con l'**aggiornamento del servizio** abilitato per tale file, assicurarsi di selezionare **OAuth2** come **metodo di autenticazione** quando si configurano le impostazioni di aggiornamento. In caso contrario, è possibile che venga restituito un errore (ad esempio *L'aggiornamento delle credenziali dell'origine dati non è riuscito.* ) quando si prova a eseguire la connessione o l'aggiornamento. Selezionare **OAuth2** come metodo di autenticazione per risolvere l'errore delle credenziali.
 > 
 > 
 

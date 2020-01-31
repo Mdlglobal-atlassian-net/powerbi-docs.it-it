@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/07/2019
+ms.date: 01/17/2019
 ms.author: mihart
-ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836651"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537808"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glossario del servizio Power BI
 Con il servizio Power BI potrebbe essere introdotta terminologia ambigua o con la quale non si ha familiarità. Il glossario è perfetto per cercare la terminologia e potrebbe essere utile anche inserirlo tra i segnalibri. Un'altra risorsa preziosa per apprendere i fondamenti del servizio Power BI è la pagina dei [concetti di base](end-user-basic-concepts.md). I concetti di base offrono una panoramica generale delle *parti* che compongono Power BI e di come sono connesse.
@@ -45,7 +45,7 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **Auto Insights (Informazioni dettagliate automatiche)** sono ora denominate *Informazioni rapide*.
 
-## <a name="b"></a>B
+## <a name="b"></a>b
 
 **BI, business intelligence**
 
@@ -77,6 +77,10 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 
 **content view (visualizzazione contenuto)**
 
+**Variabile continua** - una variabile continua può essere qualsiasi valore compreso tra i limiti minimo e massimo. In caso contrario, è una variabile discreta. Alcuni esempi sono la temperatura, il peso, l'età e il tempo. Le variabili continue possono includere frazioni o parti del valore. Il numero totale di skateboard blu venduti è una variabile discreta perché non è possibile vendere metà di uno skateboard.
+
+**Correlazione** - una correlazione indica il modo in cui è correlato il comportamento degli elementi.  Se i modelli di aumento e riduzione sono simili, esiste una correlazione positiva. Se i modelli sono opposti, la correlazione è negativa. Ad esempio, se vendite dello skateboard rosso aumentano ogni volta che si conduce una campagna pubblicitaria in TV, le vendite dello skateboard rosso e la campagna TV sono correlate in modo positivo.
+
 **filtro incrociato** Si applica alle interazioni con oggetti visivi. Il filtro incrociato rimuove i dati non pertinenti. Ad esempio, selezionando **Moderation** nel grafico ad anello viene applicato un filtro incrociato al grafico a linee. Il grafico a linee ora mostra solo i punti dati che si applicano al segmento Moderation.
 
 **evidenziazione incrociata** Si applica alle interazioni con oggetti visivi. L'evidenziazione incrociata mantiene tutti i punti dati originali, ma disattiva la parte che non si applica alla selezione. Ad esempio, selezionando **Moderation** nel grafico ad anello viene applicata l'evidenziazione incrociata all'istogramma. L'istogramma disattiva tutti i dati che non si applicano al segmento Moderation ed evidenzia tutti i dati che si applicano al segmento Moderation.
@@ -102,8 +106,9 @@ Questo glossario è il risultato di un impegno a livello della community.  Se no
 **Desktop** o **Power BI Desktop** Strumento di Power BI gratuito usato principalmente da progettisti di report, amministratori e sviluppatori. 
 
 
-
 **diamond (rombo)** Power BI Premium. La forma dell'icona che indica un'area di lavoro è un'area di lavoro di capacità Premium.
+
+**Dimensione** - le dimensioni sono dati categorici (testo). Una dimensione descrive una persona, un oggetto, un elemento, i prodotti, la posizione e il tempo. In un set di dati, le dimensioni rappresentano un modo per raggruppare *misure* in categorie utili. Per l'azienda che produce skateboard dell'esempio, alcune dimensioni potrebbero includere l'analisi delle vendite (una misura) in base a modello, colore, paese o campagna pubblicitaria.   
 
 **drill up, drill down, drillthrough (drill-up, drill-down, drill-through)** In Power BI i termini drill-down e drill-up indicano la capacità di esplorare il livello di dettaglio successivo in un report o oggetto visivo. Il drill-through si riferisce alla capacità di selezionare una parte di un oggetto visivo e di visualizzarla in un'altra pagina del report, filtrata in base ai dati relativi alla parte dell'oggetto visivo selezionata nella pagina originale.
 Espandere i dettagli significa in genere visualizzare i record sottostanti.
@@ -168,6 +173,8 @@ Prima istanza: riquadro di spostamento Menzioni successive: riquadro di spostame
 **pagina elenco** o **elenco del contenuto** Una delle pagine di sezione per gli elementi nel riquadro di spostamento. Ad esempio, Preferiti, Recenti, Area di lavoro personale, e così via.
 
 ## <a name="m"></a>M
+
+**Misura** - una misura è un campo quantitativo (numerico) che può essere usato per eseguire calcoli. I calcoli comuni sono somma, media e minimo. Ad esempio, per un'azienda che produce e vende skateboard, le misure potrebbero essere il numero di skateboard venduti e il profitto medio annuale.
 
 **Mobile app (App per dispositivi mobili)** App che consentono di eseguire Power BI su dispositivi iOS, Android e Windows.
 
@@ -302,6 +309,8 @@ Nei dispositivi mobili, la condivisione può fare riferimento alla funzionalità
 ## <a name="t"></a>T
 **tiles (riquadri)**  
 I dashboard di Power BI contengono riquadri di report.
+
+**Serie temporale** - una serie temporale è un modo per visualizzare il tempo in forma di punti dati successivi. Questi punti dati possono essere incrementi, ad esempio secondi, ore, mesi o anni.  
 
 
 ## <a name="u"></a>U

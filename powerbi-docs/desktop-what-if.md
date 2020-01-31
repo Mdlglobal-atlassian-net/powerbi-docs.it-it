@@ -1,67 +1,69 @@
 ---
-title: Usare i parametri What if per visualizzare le variabili
-description: Creare una variabile analisi di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
+title: Usare i parametri di simulazione per visualizzare le variabili
+description: Creare una variabile di simulazione personalizzata per simulare e visualizzare le variabili nei report di Power BI
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8b9f1fc618e30d93da36b28f710dbd33f8125054
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8a72bc43bcceae6e676728934ceec81c8cb27d04
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759315"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539420"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>Creare e usare parametri di simulazione per visualizzare le variabili in Power BI Desktop
-A partire dalla versione di **Power BI Desktop** di agosto 2018, è possibile creare variabili di **analisi di simulazione** per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori chiave nei report.
 
-![](media/desktop-what-if/what-if_01.png)
+A partire dalla versione di *Power BI Desktop* di agosto 2018, è possibile creare variabili di *simulazione* per i report, interagire con la variabile come filtro dei dati e quindi visualizzare e quantificare diversi valori chiave nei report.
 
-Il parametro **Analisi di simulazione** è disponibile nella scheda **Creazione di modelli** in **Power BI Desktop**. Dopo averlo selezionato, viene visualizzata una finestra di dialogo in cui è possibile configurare il parametro.
+![Opzione Nuovo parametro](media/desktop-what-if/what-if_01.png)
 
-## <a name="creating-a-what-if-parameter"></a>Creazione di un parametro Analisi di simulazione
-Per creare un parametro **Analisi di simulazione**, selezionare il pulsante **Analisi di simulazione** nella scheda **Creazione di modelli** in **Power BI Desktop**. Nell'immagine seguente è stato creato un parametro denominato *Discount percentage* con il tipo di dati impostato su *Numero decimale.* Il valore *Minimo* è zero e il valore *Massimo* è 0,50 (50%). L'*Incremento* è stato impostato su 0,05, ovvero il 5%. Si tratta dei valori in base a cui verrà regolato il parametro quando si interagisce con esso in un report.
+È possibile creare un parametro di *simulazione* nella scheda **Creazione di modelli** di Power BI Desktop. Quando si seleziona il parametro, viene visualizzata una finestra di dialogo in cui è possibile configurarlo.
 
-![](media/desktop-what-if/what-if_02.png)
+## <a name="creating-a-what-if-parameter"></a>Creazione di un parametro di simulazione
+
+Per creare un parametro di simulazione, selezionare il pulsante **Nuovo parametro** nella scheda **Creazione di modelli** di Power BI Desktop. Nella figura seguente è stato creato un parametro denominato *Percentuale di sconto* con il tipo di dati impostato su **Numero decimale**. Il valore **Minimo** è 0. Il valore **Massimo** è 0,50 (50%). L'**Incremento** è stato impostato su 0,05, ovvero il 5%. Si tratta dei valori in base a cui verrà regolato il parametro quando si interagisce con esso in un report.
+
+![Valori del parametro di simulazione](media/desktop-what-if/what-if_02.png)
 
 > [!NOTE]
-> Per i numeri decimali, assicurarsi di aggiungere lo zero iniziale come in 0,50 anziché lasciare solo ,50. In caso contrario, il numero non verrà convalidato e non sarà possibile selezionare il pulsante **OK**.
+> Per i numeri decimali, assicurarsi di far precedere il valore da uno zero iniziale, come in 0,50, senza lasciare solo ,50. altrimenti il numero non verrà convalidato e il pulsante **OK** non sarà selezionabile.
 > 
 > 
 
-Per praticità, la casella di controllo **Aggiungi filtro dei dati alla pagina** aggiunge automaticamente un filtro dei dati con il parametro **Analisi di simulazione** nella pagina del report corrente.
+Per praticità, la casella di controllo **Aggiungi filtro dei dati alla pagina** aggiunge automaticamente un filtro dei dati con il parametro di simulazione nella pagina del report corrente.
 
-![](media/desktop-what-if/what-if_03.png)
+![Nuovo filtro dei dati nella pagina del report corrente](media/desktop-what-if/what-if_03.png)
 
-Oltre a creare il parametro stesso, quando si crea un parametro **Analisi di simulazione** viene creata anche una misura che è possibile usare per visualizzare il valore corrente del parametro **Analisi di simulazione**.
+Oltre a creare il parametro stesso, quando si crea un parametro di simulazione viene creata anche una misura che è possibile usare per visualizzare il valore corrente del parametro.
 
-![](media/desktop-what-if/what-if_04.png)
+![Misura creata per il parametro di simulazione](media/desktop-what-if/what-if_04.png)
 
-È importante notare che una volta creato un parametro **Analisi di simulazione**, sia il parametro sia la misura diventano parte del modello. Saranno quindi disponibili in tutto il report e potranno essere usati anche in altre pagine del report. Inoltre, dal momento che fanno parte del modello, è possibile eliminare il filtro dei dati dalla pagina del report. Se lo si vuole ripristinare in seguito, sarà sufficiente riprendere il parametro **Analisi di simulazione** dall'elenco **Campi** e trascinarlo nel canvas, modificando l'oggetto visivo in filtro dei dati, per rendere di nuovo disponibile il parametro nel report.
+È importante notare che, una volta creato un parametro di simulazione, sia il parametro sia la misura diventano parte del modello. Saranno quindi disponibili in tutto il report e potranno essere usati anche in altre pagine del report. Inoltre, dal momento che fanno parte del modello, è possibile eliminare il filtro dei dati dalla pagina del report. Se lo si vuole ripristinare in seguito, sarà sufficiente riprendere il parametro di simulazione dall'elenco **Campi** e trascinarlo nell'area di disegno, quindi modificare l'oggetto visivo in filtro dei dati.
 
-## <a name="using-a-what-if-parameter"></a>Utilizzo di un parametro Analisi di simulazione
-Verrà ora creato un semplice esempio di utilizzo di un parametro **Analisi di simulazione**. Nella sezione precedente è stato creato il parametro **Analisi di simulazione**. Per osservare come funziona verrà creata una nuova misura il cui valore viene regolato con il dispositivo di scorrimento. Per eseguire questa operazione, verrà creata una nuova misura.
+## <a name="using-a-what-if-parameter"></a>Uso di un parametro di simulazione
 
-![](media/desktop-what-if/what-if_05.png)
+Si creerà ora un semplice esempio d'uso di un parametro di simulazione. Il parametro è stato creato nella sezione precedente. Per osservare come funziona si creerà una nuova misura il cui valore viene regolato con il dispositivo di scorrimento.
 
-La nuova misura rappresenta l'importo totale delle vendite a cui è applicata la percentuale di sconto. È possibile creare misure complesse e interessanti per consentire agli utenti dei report di visualizzare la variabile del parametro **Analisi di simulazione**. Ad esempio, si può creare un report che permette al personale delle vendite di visualizzare i propri compensi in caso di raggiungimento di determinati obiettivi o percentuali di vendite o per visualizzare l'incidenza dell'aumento delle vendite su sconti più elevati.
+![Aggiungere una nuova misura da usare con il parametro](media/desktop-what-if/what-if_05.png)
 
-Dopo aver digitato la formula della misura nella barra della formula e assegnato il nome **Sales after Discount**, viene visualizzato il risultato:
+La nuova misura rappresenta l'importo totale delle vendite a cui è applicata la percentuale di sconto. È possibile creare misure complesse e interessanti per consentire agli utenti dei report di visualizzare la variabile del parametro di simulazione. Ad esempio, si può creare un report che permette al personale delle vendite di visualizzare i propri compensi in caso di raggiungimento di determinati obiettivi o percentuali di vendite o per visualizzare l'incidenza dell'aumento delle vendite su sconti più elevati.
 
-![](media/desktop-what-if/what-if_06.png)
+Immettere la formula della misura nella barra della formula e assegnare il nome *Sales after Discount* alla formula.
 
-Viene quindi creato un oggetto visivo colonna con *OrderDate* sull'asse e *SalesAmount* e la misura *Sales after Discount* appena creata come valori.
+![Definizione di Sales after Discount](media/desktop-what-if/what-if_06.png)
 
-![](media/desktop-what-if/what-if_07.png)
+Viene quindi creato un oggetto visivo colonna con **OrderDate** sull'asse e **SalesAmount** e la misura **Sales after Discount** appena creata come valori.
 
-A questo punto, man mano che si sposta il dispositivo di scorrimento, è possibile visualizzare che la colonna *Sales after Discount* riflette l'importo delle vendite scontato.
+![Visualizzazione per SalesAmount](media/desktop-what-if/what-if_07.png)
 
-![](media/desktop-what-if/what-if_08.png)
+A questo punto, man mano che si sposta il dispositivo di scorrimento, è possibile visualizzare che la colonna **Sales after Discount** riflette l'importo delle vendite scontato.
 
-Non sono richieste altre operazioni. È possibile usare i parametri **Analisi di simulazione** in qualsiasi situazione, per permettere agli utenti dei report di interagire con i diversi scenari creati nei report.
+![Il dispositivo di scorrimento interagisce con la visualizzazione](media/desktop-what-if/what-if_08.png)
 
+Non sono richieste altre operazioni. È possibile usare i parametri di simulazione in tutti i tipi di situazioni. Questi parametri consentono agli utenti dei report di interagire con i diversi scenari creati nei report.

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7aa0fb1c8707c18e583d0de6bbd602ef43291146
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548489"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537394"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Uso dei controlli di Microsoft Cloud App Security in Power BI (anteprima)
 
@@ -76,7 +76,7 @@ Le impostazioni per questi rilevamenti vengono configurate nel portale di Cloud 
 
 Quando si usa Microsoft Cloud App Security con Power BI viene creato un nuovo ruolo per gli amministratori di Power BI. Quando si accede come amministratore di Power BI al [portale di Cloud App Security](https://portal.cloudappsecurity.com/), si ha accesso limitato a dati, avvisi, utenti a rischio, log attività e altre informazioni relative a Power BI.
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni 
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti 
 L'uso di Cloud App Security con Power BI è stato pensato per proteggere il contenuto e i dati di un'organizzazione, con funzionalità di rilevamento che consentono di monitorare le sessioni utente e le relative attività. Quando si usa Cloud App Security con Power BI, è importante tenere presenti alcune considerazioni e limitazioni:
 
 * Microsoft Cloud App Security può funzionare solo su file di Excel, di PowerPoint e in formato PDF.
@@ -144,3 +144,4 @@ Possono essere interessanti anche gli articoli seguenti relativi ad Azure e alla
 * [Distribuire Controllo app per l'accesso condizionale per le app in primo piano](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
 * [Criteri di sessione](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
 * [Panoramica delle etichette di riservatezza](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Report sulle metriche di protezione dei dati](service-security-data-protection-metrics-report.md)

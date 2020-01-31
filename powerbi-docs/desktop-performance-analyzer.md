@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866438"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709759"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usare l'analizzatore prestazioni per esaminare le prestazioni degli elementi del report
 
@@ -58,6 +58,9 @@ Le informazioni del log di ogni oggetto visivo includono il tempo trascorso (dur
 * **Visualizzazione oggetti visivi**: indica il tempo necessario per il disegno dell'oggetto visivo sullo schermo, incluso il tempo necessario per recuperare eventuali immagini Web o informazioni di geocodifica. 
 * **Altro**: indica il tempo richiesto dall'oggetto visivo per la preparazione delle query, l'attesa del completamento di altri oggetti visivi o l'esecuzione di altre operazioni di elaborazione in background.
 
+I valori di **Durata (ms)** indicano la differenza tra un timestamp di *inizio* e uno di *fine* per ogni operazione. La maggior parte delle operazioni relative a canvas e oggetti visivi viene eseguita in sequenza in un singolo thread dell'interfaccia utente, condiviso da più operazioni. Le durate segnalate includono il tempo trascorso in coda mentre vengono completate altre operazioni. L'[esempio dell'analizzatore prestazioni](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) in GitHub e la [documentazione](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) associata forniscono informazioni dettagliate su come gli oggetti visivi eseguono le query e il rendering dei dati.
+
+
 ![Elementi delle informazioni del log](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 Dopo avere interagito con gli elementi del report che si intende misurare con l'analizzatore prestazioni, è possibile selezionare il pulsante **Arresta**. Dopo aver selezionato **Arresta**, le informazioni sulle prestazioni continuano a essere visibili nel riquadro in modo che sia possibile analizzarle.
@@ -89,3 +92,7 @@ Per altre informazioni su **Power BI Desktop** e su come iniziare, vedere gli ar
 * [Effettuare il data shaping e combinare i dati con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Attività di query comuni in Power BI Desktop](desktop-common-query-tasks.md)   
 
+Per informazioni sull'esempio dell'analizzatore prestazioni, vedere le risorse seguenti.
+
+* [Esempio dell'analizzatore prestazioni](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [Documentazione dell'esempio dell'analizzatore prestazioni](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73851298"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537600"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Installare e usare le app con dashboard e report in Power BI
 
@@ -48,12 +48,13 @@ Quando si seleziona il collegamento nel messaggio di posta elettronica nel dispo
 1. Selezionare **App**  > **Scarica app**. 
    
     ![Icona Scarica app](./media/end-user-app-view/power-bi-get-app2.png)    
-2. In AppSource in **La mia organizzazione**, è possibile eseguire una ricerca per limitare il numero di risultati e trovare l'app si sta cercando.
+2. In AppSource, in **Organizzazione** eseguire una ricerca per limitare il numero di risultati e trovare l'app che si sta cercando.
    
     ![In AppSource in Organizzazione](./media/end-user-app-view/power-bi-opportunity-app.png)
 3. Selezionare **Scarica adesso** per aggiungerla all'elenco di contenuti App. 
 
-## <a name="get-an-app-from-the-microsoft-appsource-website-httpsappsourcemicrosoftcom"></a>Ottenere un'app dal sito Web Microsoft AppSource (https://appsource.microsoft.com)
+## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Ottenere un'app dal sito Web Microsoft AppSource 
+
 In questo esempio verrà aperta una delle app di esempio Microsoft. In AppSource sono disponibili app per molti dei servizi usati per le attività aziendali,  ad esempio Salesforce, Microsoft Dynamics, Google Analytics, GitHub, Zendesk, Marketo e molti altri. Per altre informazioni, vedere [App per i servizi usati con Power BI](../service-connect-to-services.md). 
 
 1. In un browser aprire https://appsource.microsoft.com e selezionare **App Power BI**.
@@ -92,12 +93,36 @@ In questo esempio verrà aperta una delle app di esempio Microsoft. In AppSource
     ![Esplora con dati di esempio](./media/end-user-apps/power-bi-new-app.png)
 
 
-
-
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagire con i dashboard e i report nell'app
 Dedicare un po' di tempo a esplorare i dati nei dashboard e nei report che compongono l'app. È possibile accedere a tutte le interazioni standard di Power BI, ad esempio i filtri, l'evidenziazione, l'ordinamento e il drill-down.  Se ancora non sono del tutto chiare le differenze tra dashboard e report,  leggere l'[articolo sui dashboard](end-user-dashboards.md) e l'[articolo sui report](end-user-reports.md).  
 
+## <a name="update-an-app"></a>Aggiornare un'app 
 
+Gli autori di app possono rilasciare periodicamente nuove versioni delle app. Il modo in cui si ottiene la nuova versione dipende dalla modalità di ricezione dell'originale. 
+
+* Se l'app è stata ottenuta dall'organizzazione, l'aggiornamento alla nuova versione è completamente trasparente e non è necessario eseguire alcuna operazione. 
+
+* Se l'app è stata ottenuta da AppSource, alla successiva apertura dell'app verrà visualizzato un banner di notifica. La notifica informa che è disponibile una nuova versione. 
+
+    1. Selezionare **Scarica adesso** per ottenere l'aggiornamento.  
+
+        <!--![App update notification](./media/end-user-app-view/power-bi-new-app-version-notification.png) -->
+
+    2. Quando viene richiesto di installare l'app aggiornata, selezionare **Installa**. 
+
+        ![Installare l'aggiornamento](./media/end-user-app-view/power-bi-install.png) 
+
+    3. Dato che è già disponibile una versione di questa app, decidere se sostituire la versione esistente o se installare l'app aggiornata in una nuova area di lavoro.   
+
+        ![Sovrascrivere la versione precedente dell'app](./media/end-user-app-view/power-bi-already-installed.png) 
+
+
+    > [!NOTE] 
+    > L'installazione di una nuova versione sovrascrive tutte le modifiche apportate ai report e ai dashboard. Per conservare i report e i dashboard aggiornati, è possibile salvarli con un nome o un percorso diverso prima dell'installazione. 
+
+    4. Dopo aver installato la versione aggiornata, selezionare **Aggiorna app** per completare il processo di aggiornamento. 
+
+    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
 
 
 ## <a name="next-steps"></a>Passaggi successivi

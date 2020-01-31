@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218246"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709789"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Domande e risposte per i **consumer** di Power BI
+# <a name="qa-for-power-bi-consumers"></a>Domande e risposte per i consumer di Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -56,10 +56,10 @@ Nel servizio Power BI (app.powerbi.com) un dashboard contiene riquadri aggiunti 
 
 ![Visualizza elementi correlati dalla barra dei menu](media/end-user-q-and-a/power-bi-q-and-a-view-related.png)
 
-## <a name="how-do-i-start"></a>Come iniziare?
+## <a name="how-do-i-start"></a>Come si inizia?
 Prima di tutto è importante acquisire familiarità con il contenuto. Esaminare gli oggetti visivi nel dashboard e nel report. Farsi un'idea del tipo e della gamma di dati disponibili per l'utente. 
 
-ad esempio:
+Ad esempio:
 
 * Se le etichette dell'asse e i valori di un oggetto visivo includono "vendite", "account", "mese" e "opportunità", è possibile porre tranquillamente domande come questa: "Quale *account* ha la massima *opportunità*" oppure "Mostra le *vendite* per mese come grafico a barre".
 
@@ -153,7 +153,7 @@ Se non si è certi del tipo di domande da porre o della terminologia da usare, e
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
-**Domanda**: Domande e risposte non viene visualizzato nel dashboard corrente.    
+**Domanda:** Domande e risposte non viene visualizzato nel dashboard corrente.    
 **Risposta 1**: se non viene visualizzata una casella della domanda, prima di tutto verificare le impostazioni. Per fare ciò selezionare l'icona della ruota dentata in alto a destra nella barra degli strumenti di Power BI.   
 ![icona della ruota dentata](media/end-user-q-and-a/power-bi-settings.png)
 
@@ -163,10 +163,14 @@ Quindi scegliere **Impostazioni** > **Dashboard**. Verificare che sia presente u
 
 **Risposta 2**: in alcuni casi non è possibile accedere alle impostazioni. Se l'amministratore o il *designer* del dashboard ha disattivato Domande e risposte, contattarli per vedere se è possibile riattivare questa funzionalità.   
 
-**Domanda**: quando si digita una domanda, non si ottengono i risultati desiderati.    
-**Risposta**: selezionare l'opzione per contattare il proprietario del report o del dashboard. È possibile eseguire questa operazione direttamente dalla pagina del dashboard di Domande e risposte o dall'oggetto visivo Domande e risposte. In alternativa, è possibile cercare il proprietario dall'intestazione di Power BI.  Il designer può adottare varie misure per migliorare i risultati di Domande e risposte. Ad esempio, il designer può rinominare le colonne del set di dati usando termini di facile comprensione (`CustomerFirstName` invece di `CustFN`). Poiché conosce particolarmente bene il set di dati, il designer può anche ideare domande utili e aggiungerle alle domande suggerite di Domande e risposte.
+**Domanda:** quando si digita una domanda, non si ottengono i risultati desiderati.    
+**Risposta:** selezionare l'opzione per contattare il proprietario del report o del dashboard. È possibile eseguire questa operazione direttamente dalla pagina del dashboard di Domande e risposte o dall'oggetto visivo Domande e risposte. In alternativa, è possibile cercare il proprietario dall'intestazione di Power BI.  Il designer può adottare varie misure per migliorare i risultati di Domande e risposte. Ad esempio, il designer può rinominare le colonne del set di dati usando termini di facile comprensione (`CustomerFirstName` invece di `CustFN`). Poiché conosce particolarmente bene il set di dati, il designer può anche ideare domande utili e aggiungerle alle domande suggerite di Domande e risposte.
 
 ![Visualizzare le informazioni di contatto](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Privacy
+
+Microsoft può usare le domande dei clienti per migliorare Power BI. Per altre informazioni, vedere l'[Informativa sulla privacy di Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 ## <a name="next-steps"></a>Passaggi successivi
 Per informazioni sul modo in cui un oggetto visivo Domande e risposte viene creato e gestito da un *designer* di report, vedere [Tipo di oggetto visivo Domande e risposte](../visuals/power-bi-visualization-q-and-a.md).

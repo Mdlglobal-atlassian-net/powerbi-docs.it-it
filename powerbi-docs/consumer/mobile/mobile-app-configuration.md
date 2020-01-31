@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/07/2019
+ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622365"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538268"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configurare in modalità remota l'app Power BI usando lo strumento di gestione dei dispositivi mobili (MDM)
 
@@ -21,27 +21,38 @@ L'app Power BI per dispositivi mobili iOS e Android supporta le impostazioni del
 
 L'app Power BI per dispositivi mobili supporta gli scenari di configurazione seguenti:
 
-- Configurazione del server di report (iOS e Android)
-- Impostazioni di protezione dei dati (iOS)
+* Configurazione del server di report (iOS e Android)
+* Impostazioni di protezione dei dati (iOS e Android)
+* Impostazioni di interazione (Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>Configurazione del server di report (iOS e Android)
 
 L'app Power BI per iOS e Android consente agli amministratori di eseguire il push in modalità remota della configurazione del server di report nei dispositivi registrati.
 
-| Key | Tipo | Descrizione |
+| Chiave | Type | Descrizione |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ServerURL | Stringa | URL del server di report.<br><br>Deve iniziare con http/https.|
-| com.microsoft.powerbi.mobile.ServerUsername | Stringa | [facoltativo]<br><br>Nome utente da usare per connettere il server.<br><br>Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.|
-| com.microsoft.powerbi.mobile.ServerDisplayName | Stringa | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
+| com.microsoft.powerbi.mobile.ServerURL | string | URL del server di report.<br><br>Deve iniziare con http/https.|
+| com.microsoft.powerbi.mobile.ServerUsername | string | [facoltativo]<br><br>Nome utente da usare per connettere il server.<br><br>Se non esiste, l'app richiede all'utente di digitare il nome utente per la connessione.|
+| com.microsoft.powerbi.mobile.ServerDisplayName | string | [facoltativo]<br><br>Il valore predefinito è "Server di report"<br><br>Nome descrittivo usato nell'app per rappresentare il server. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [facoltativo]<br><br>Il valore predefinito è True. Se impostato su True, esegue l'override di qualsiasi definizione di server di report già presente nel dispositivo mobile. I server esistenti già configurati vengono eliminati. Impostando l'override su True si impedisce anche all'utente di rimuovere tale configurazione.<br><br>Impostandolo su False vengono aggiunti i valori inviati lasciando le impostazioni esistenti. Se nell'app per dispositivi mobili è già configurato l'URL dello stesso server, l'app lascia invariata la configurazione. Non chiede all'utente di ripetere l'autenticazione per lo stesso server. |
 
 ## <a name="data-protection-settings-ios"></a>Impostazioni di protezione dei dati (iOS)
 
-L'app Power BI per iOS offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI.
+L'app Power BI per iOS e Android offre agli amministratori la possibilità di personalizzare la configurazione predefinita per le impostazioni di sicurezza e privacy. È possibile imporre agli utenti di specificare il loro Face ID, Touch ID o passcode quando eseguono l'accesso all'app Power BI.
 
-| Key | Tipo | Descrizione |
+| Chiave | Type | Descrizione |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | Il valore predefinito è False. <br><br>Per consentire agli utenti di accedere all'app sul loro dispositivo, possono essere necessari dati biometrici come TouchID o FaceID. Quando richiesto, oltre all'autenticazione vengono usati dati biometrici.<br><br>Se si usano criteri di protezione delle app, è consigliabile disabilitare questa impostazione per impedire le richieste di doppio accesso. |
+
+## <a name="interaction-settings-android"></a>Impostazioni di interazione (Android)
+
+L'app Power BI per Android offre agli amministratori la possibilità di configurare le impostazioni di interazione se si decide che le impostazioni di interazione predefinite devono essere modificate per gruppi di utenti in un'organizzazione. 
+
+| Chiave | Type | Valori | Descrizione |
+|---|---|---|---|
+| com.microsoft.powerbi.mobile.ReportTapInteraction | string |  <nobr>single-tap</nobr><br><nobr>double-tap</nobr> | Consente di specificare se il tocco su un oggetto visivo consentirà anche di selezionare un punto dati. |
+| ccom.microsoft.powerbi.mobile.RefreshAction | string |  <nobr>pull-to-refresh</nobr><br>Pulsante | Consente di specificare se l'utente avrà a disposizione un pulsante per aggiornare il report o se dovrà trascinare verso il basso. |
+| com.microsoft.powerbi.mobile.FooterAppearance | string |  docked<br>dinamico | Consente di specificare se il piè di pagina del report sarà ancorato alla parte inferiore del report o nascosto automaticamente. |
 
 ## <a name="deploying-app-configuration-settings"></a>Distribuzione delle impostazioni di configurazione dell'app
 

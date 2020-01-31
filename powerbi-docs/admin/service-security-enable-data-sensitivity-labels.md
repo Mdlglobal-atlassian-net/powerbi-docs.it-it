@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 024e04bd309080b5b31e43bde7c783255bfc3dba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851081"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537233"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Abilitare le etichette di riservatezza dei dati in Power BI (anteprima)
 
@@ -52,7 +52,7 @@ Nella sezione **Information Protection** seguire questa procedura:
 > Solo gli utenti di Power BI Pro che dispongono delle autorizzazioni di *creazione* e *modifica* sull'asset, e che fanno parte del gruppo di sicurezza appropriato impostato in questa sezione, possono impostare e modificare le etichette di riservatezza. Queste operazioni non sono consentite agli utenti che non fanno parte di questo gruppo. 
 
 
-## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
+## <a name="considerations-and-limitations"></a>Considerazioni e limiti
 
 In Power BI vengono usate le etichette di riservatezza di Microsoft Information Protection. Se pertanto viene restituito un messaggio di errore quando si tenta di abilitare le etichette di riservatezza, il problema può essere dovuto a uno dei motivi seguenti:
 
@@ -73,3 +73,4 @@ In questo articolo è stato illustrato come abilitare le etichette di riservatez
 * [Panoramica della protezione dei dati in Power BI](service-security-data-protection-overview.md)
 * [Applicare le etichette di riservatezza dei dati in Power BI](../designer/service-security-apply-data-sensitivity-labels.md)
 * [Uso dei controlli di Microsoft Cloud App Security in Power BI](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Report sulle metriche di protezione dei dati](service-security-data-protection-metrics-report.md)
