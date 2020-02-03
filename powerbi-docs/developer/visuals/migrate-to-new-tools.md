@@ -1,20 +1,20 @@
 ---
 title: Eseguire la migrazione a powerbi-visuals-tools versione 3.x
 description: Introduzione alla nuova versione di powerbi-visuals-tools
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 manager: rkarlin
-ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 1b819aeb0f59df9ee0d48d7c41807abe62efed08
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: d9af0ab870732990201ab3478d71fdafa9e13439
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885144"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76818825"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-version-3x"></a>Eseguire la migrazione al nuovo powerbi-visuals-tools versione 3.*x*
 

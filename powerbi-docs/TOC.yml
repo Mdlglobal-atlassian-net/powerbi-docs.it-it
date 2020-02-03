@@ -489,8 +489,10 @@
               href: service-new-workspaces.md
             - name: Condividere il lavoro
               href: service-how-to-collaborate-distribute-dashboards-reports.md
-            - name: Monitorare l'utilizzo di Power BI
+            - name: Monitorare l'utilizzo nelle aree di lavoro classiche
               href: service-usage-metrics.md
+            - name: Monitorare l'utilizzo nelle nuove aree di lavoro
+              href: service-modern-usage-metrics.md
         - name: Gestione delle licenze
           items:
             - name: Iscriversi a Power BI
@@ -645,8 +647,6 @@
               href: service-create-qr-code-for-report.md
             - name: Esportare un report in Power BI Desktop (Preview)
               href: service-export-to-pbix.md
-            - name: Filtrare un report usando parametri nell'URL
-              href: service-url-filters.md
             - name: Modificare le variabili SAP
               href: service-edit-sap-variables.md
             - name: Procedure consigliate per creare report veloci e affidabili
@@ -691,8 +691,10 @@
           items:
             - name: Condividere dashboard e report
               href: service-share-dashboards.md
-            - name: Condividere un report filtrato
+            - name: Filtrare e condividere un report
               href: service-share-reports.md
+            - name: Filtrare un report usando parametri nell'URL
+              href: service-url-filters.md
             - name: Abbonarsi e abbonare altri utenti
               href: service-report-subscribe.md
             - name: Incorporare report in SharePoint Online
