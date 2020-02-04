@@ -457,6 +457,8 @@
           href: service-get-started.md
         - name: Connettersi a un esempio di GitHub
           href: service-tutorial-connect-to-github.md
+        - name: Usare Analizza in Excel
+          href: service-tutorial-analyze-in-excel.md
         - name: Usare Servizi cognitivi
           href: service-tutorial-use-cognitive-services.md
         - name: Integrazione di Machine Learning
