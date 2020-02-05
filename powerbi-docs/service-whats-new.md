@@ -10,10 +10,10 @@ ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
 ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74265349"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novità del servizio Power BI
@@ -353,7 +353,7 @@ Per tutti i dettagli, [visitare il blog del team di Power BI](https://powerbi.mi
 
 * Completamento automatico per "è": la funzionalità Domande e risposte suggerisce valori se si digita il nome di una colonna seguito da "è".
 
-***Dispositivi mobili***
+***Per dispositivi mobili***
 
 * Indicatori KPI in Apple Watch: possibilità di monitorare l'indicatore KPI e i riquadri senza dover aprire l'app Power BI.
 
@@ -405,7 +405,7 @@ Oggi sono stati rilasciate molte funzionalità a grande richiesta degli utenti. 
 * Impedire agli utenti di pubblicare pacchetti di contenuto per l'intera organizzazione
 * Possibilità di disabilitare la condivisione di contenuto con utenti esterni
 
-***Informazioni rapide***
+***Quick Insights (Informazioni rapide)***
 
 * Informazioni rapide durante la pubblicazione di file di Power BI Desktop
 

@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76538738"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Usare le aggregazioni in Power BI Desktop
@@ -50,7 +50,7 @@ L'elenco a discesa **Riepilogo** della finestra di dialogo **Gestisci aggregazio
 - GroupBy
 - Max
 - Min
-- SUM
+- Somma
 - Count table rows
 
 ![finestra di dialogo Gestisci aggregazioni](media/desktop-aggregations/aggregations_07.jpg)
@@ -116,8 +116,8 @@ Creare invece la tabella delle aggregazioni **Sales Agg**. Nella tabella **Sales
 
 Se le tabelle delle dimensioni seguenti sono le più usate per le query con valore di business elevato, possono filtrare **Sales Agg**, usando relazioni *uno-a-molti* o *molti-a-uno*.
 
-- Area geografica
-- Customer
+- Geografia
+- Cliente
 - Data
 - Product Subcategory
 - Categoria prodotto
