@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699096"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
@@ -39,7 +39,7 @@ Dopo aver creato un report usando il set di dati di push, sarà possibile aggiun
 
 Esistono due aspetti da considerare relativamente ai riquadri aggiunti da un set di dati di push:
 
-* L'aggiunta di un intero report con l'opzione *Aggiungi pagina dinamica* **non** comporta l'aggiornamento automatico dei dati.
+* L'aggiunta di un intero report con l'opzione *Aggiungi pagina dinamica***non** comporta l'aggiornamento automatico dei dati.
 * Dopo aver aggiunto un oggetto visivo a un dashboard, è possibile usare **Domande e risposte** per fare domande al set di dati di push in linguaggio naturale. Dopo aver eseguito una query **Domande e risposte** è possibile aggiungere nuovamente l'oggetto visivo risultante al dashboard, *anch'esso* aggiornato in tempo reale.
 
 ### <a name="streaming-dataset"></a>Set di dati di streaming
@@ -87,7 +87,7 @@ Se il valore *defaultMode* è impostato su *pushStreaming*, il set di dati è di
 > [!NOTE]
 > Quando si usano set di dati con il flag *defaultMode* impostato su *pushStreaming*, se una richiesta supera la limitazione delle dimensioni di 15 Kb per un set di dati di **streaming**, ma è inferiore rispetto alla limitazione delle dimensioni di 16 MB di un set di dati di **push**, la richiesta avrà esito positivo e i dati verranno aggiornati nel set di dati push. Tuttavia, tutti i riquadri di streaming avranno temporaneamente esito negativo.
 
-Dopo aver creato un set di dati, usare le API REST per eseguire il push dei dati usando l'API [ **PostRows**](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
+Dopo aver creato un set di dati, usare le API REST per eseguire il push dei dati usando l'API [**PostRows**](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
 
 Tutte le richieste alle API REST sono protette con **Azure AD OAuth**.
 

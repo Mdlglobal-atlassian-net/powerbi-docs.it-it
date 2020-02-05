@@ -11,10 +11,10 @@ ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
 ms.openlocfilehash: ef8e874c1f1a47d65845b87dccd441746651a68b
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999791"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Connettersi all'API Microsoft Graph Security in Power BI Desktop
@@ -28,7 +28,7 @@ L'API Microsoft Graph Security collega [diverse soluzioni di sicurezza](https://
 Per usare il connettore Microsoft Graph Security, è necessario ottenere l'autorizzazione *esplicita* dall'amministratore di tenant di Azure Active Directory (Azure AD). Vedere [Microsoft Graph Security authentication requirements](https://aka.ms/graphsecurityauth) (Requisiti di autenticazione di Microsoft Graph Security).
 Il consenso richiede l'ID e il nome applicazione del connettore che vengono citati qui e sono disponibili nel [portale di Azure](https://portal.azure.com):
 
-| Property | Valore |
+| Proprietà | Valore |
 |----------|-------|
 | **Nome applicazione** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **ID applicazione** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
@@ -74,7 +74,7 @@ Per usare il connettore, seguire la procedura qui sotto:
     
 9. Se si vuole eseguire una query avanzata con l'API Microsoft Graph Security, selezionare **Specify custom Microsoft Graph Security URL to filter results** (Specifica URL Microsoft Graph Security personalizzato per filtrare i risultati). Usare questa funzione per generare una query [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) sull'API Microsoft Graph Security con le autorizzazioni necessarie.
 
-   L'esempio seguente usa l'oggetto *serviceUri* `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'`. Per informazioni su come compilare query per filtrare, ordinare o recuperare i risultati più recenti, fare riferimento a [OData system query options](https://docs.microsoft.com/graph/query-parameters) (Opzioni query di sistema OData).
+   L'esempio seguente usa l'oggetto `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*. Per informazioni su come compilare query per filtrare, ordinare o recuperare i risultati più recenti, fare riferimento a [OData system query options](https://docs.microsoft.com/graph/query-parameters) (Opzioni query di sistema OData).
 
    ![Esempio di OdataFeed](media/desktop-connect-graph-security/ODataFeed.PNG)
     

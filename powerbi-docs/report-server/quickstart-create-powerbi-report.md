@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858965"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975011"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creare un report di Power BI per Server di report di Power BI
 È possibile archiviare e gestire report di Power BI nel portale Web del Server di report di Power BI, proprio come nel cloud nel servizio Power BI (https://powerbi.com) ). È possibile creare e modificare i report in Power BI Desktop e pubblicarli nel portale Web. Quindi, i lettori dei report nell'organizzazione possono visualizzarli in un browser oppure in un'app Power BI per dispositivi mobili su un dispositivo mobile.
@@ -90,6 +90,9 @@ Quando il report è pronto, salvarlo nel server di report di Power BI scelto nel
 2. A questo punto è possibile visualizzarlo nel portale Web.
    
     ![Visualizzare il report nel portale Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Se si sceglie di modificare il report in futuro, i dati del report visualizzati nel desktop saranno sempre i dati memorizzati nella cache da quando il report è stato creato inizialmente.  Per visualizzare i dati più recenti durante la modifica del report, è necessario aggiornare i dati nell'applicazione Power BI Desktop.
 
 ## <a name="next-steps"></a>Passaggi successivi
 ### <a name="power-bi-desktop"></a>Power BI Desktop
