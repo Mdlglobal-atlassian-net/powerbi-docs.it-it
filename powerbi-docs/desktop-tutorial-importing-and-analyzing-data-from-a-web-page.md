@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ef1d72754d7f77d7cb3c835c1a2b94e0f7e324f4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 5497c56f358470d0d24f69f0d67865dbbd7839a3
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039455"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026739"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Esercitazione: Analizzare i dati di una pagina Web con Power BI Desktop
 
@@ -140,7 +140,7 @@ La query viene caricata nella visualizzazione *Report* di Power BI Desktop, dove
 
 >[!TIP]
 >È sempre possibile tornare all'editor di Power Query per modificare e perfezionare la query come indicato di seguito:
->- Selezionare i puntini di sospensione **Altre opzioni** ( **...** ) accanto a **Euro Cup Winners** nel riquadro **Campi** e selezionare **Modifica query** oppure
+>- Selezionare i puntini di sospensione **Altre opzioni** (**...**) accanto a **Euro Cup Winners** nel riquadro **Campi** e selezionare **Modifica query** oppure
 >- Selezionare **Modifica query** > **Modifica query** nel gruppo **Dati esterni** della scheda **Home** della barra multifunzione in visualizzazione Report. 
 
 ## <a name="create-a-visualization"></a>Creare una visualizzazione
@@ -177,7 +177,7 @@ Come si può notare, è molto facile creare visualizzazioni basate sui dati. È 
 
 1. Selezionare **Titolo** per espandere le opzioni del titolo e nel campo **Testo titolo** digitare **Euro Cup Winners** al posto del titolo corrente.
 
-1. Impostare **Colore carattere** su rosso, **Dimensioni testo** su **12** e **Famiglia di caratteri** su **Segoe (grassetto)** .
+1. Impostare **Colore carattere** su rosso, **Dimensioni testo** su **12** e **Famiglia di caratteri** su **Segoe (grassetto)**.
 
    ![Formattare i colori dei dati](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
@@ -195,13 +195,13 @@ Per convertire la mappa in un grafico a torta, selezionare la mappa e quindi sel
 
 >[!TIP]
 >- È possibile usare le opzioni di formattazione di **Colori dati** per assegnare lo stesso colore alla Germania e alla Germania Ovest. 
->- Per raggruppare i paesi che hanno ottenuto il maggior numero di vittorie nel grafico a torta, selezionare i puntini di sospensione ( **...** ) nella parte superiore destra della visualizzazione e quindi selezionare **Ordina per Count of Year** (Ordina per numero di anni) dall'elenco a discesa.
+>- Per raggruppare i paesi che hanno ottenuto il maggior numero di vittorie nel grafico a torta, selezionare i puntini di sospensione (**...**) nella parte superiore destra della visualizzazione e quindi selezionare **Ordina per Count of Year** (Ordina per numero di anni) dall'elenco a discesa.
 
 Power BI Desktop offre un'esperienza end-to-end molto semplice, dal recupero di dati da una vasta gamma di origini dati, al data shaping per soddisfare le esigenze di analisi, fino alla visualizzazione dei dati in modi accattivanti e interattivi. Quando il report è pronto, è possibile [caricarlo in Power BI](desktop-upload-desktop-files.md) e creare dashboard basati sul report che potranno essere condivisi con altri utenti di Power BI.
 
 ## <a name="see-also"></a>Vedere anche
 
-* [Altre esercitazioni su Power BI Desktop](/guided-learning/)
+* [Altre esercitazioni su Power BI Desktop](/power-bi/guided-learning/)
 * [Video su Power BI Desktop](desktop-videos.md)
 * [Forum di Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Blog su Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

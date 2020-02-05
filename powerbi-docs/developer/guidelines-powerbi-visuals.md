@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
 ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75000090"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Linee guida per gli oggetti visivi di Power BI
@@ -160,7 +160,7 @@ Usare la pagina di destinazione per spiegare come usare l'oggetto visivo di Powe
 
 Per comodità dell'utente, aggiungere i campi correlati a codice di licenza o token nella parte superiore del riquadro formato.
 
-## <a name="faq"></a>DOMANDE FREQUENTI
+## <a name="faq"></a>Domande frequenti
 
 Per altre informazioni sugli oggetti visivi di Power BI, vedere le [domande frequenti sugli oggetti visivi di Power BI con acquisti aggiuntivi](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 

@@ -10,10 +10,10 @@ ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76039801"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Origini dati in Power BI Desktop
@@ -32,7 +32,7 @@ Per passare alla finestra di dialogo **Recupera dati** visualizzare il menu dei 
 > Il team di Power BI espande in continuazione le origini dati disponibili in Power BI Desktop e nel servizio Power BI. Di conseguenza, si noteranno spesso le prime versioni delle origini dati WIP contrassegnate come **Beta** o **Anteprima**. Qualsiasi origine dati contrassegnata come **Beta** o **Anteprima** offre supporto e funzionalità limitati e non deve essere usata in ambienti di produzione. Inoltre qualsiasi origine dati contrassegnata come **Beta** o **Anteprima** per Power BI Desktop potrebbe non essere disponibile per l'uso nel servizio Power BI o in altri servizi Microsoft fino a quando l'origine dati non diventa disponibile a livello generale (GA).
 
 > [!NOTE]
-> Sono molti i connettori dati per Power BI Desktop che richiedono Internet Explorer 10 (o versione successiva) per l'autenticazione. 
+> Ci sono molti connettori dati per Power BI Desktop che richiedono Internet Explorer 10 (o versione successiva) per l'autenticazione. 
 
 
 ## <a name="data-sources"></a>Origini dati

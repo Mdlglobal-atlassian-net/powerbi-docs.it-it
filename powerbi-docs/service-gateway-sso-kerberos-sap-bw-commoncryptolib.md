@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 02c8ac991fbf84051ae795ef4a80f2b3dc07a1ce
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75000182"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Usare il Single Sign-On Kerberos per l'accesso SSO a SAP BW tramite CommonCryptoLib (sapcrypto.dll)
@@ -30,7 +30,7 @@ Questo articolo descrive come configurare l'origine dati SAP BW per abilitare l'
 
 1. Verificare che il server BW sia configurato correttamente per il Single Sign-On Kerberos usando CommonCryptoLib. In caso affermativo, è possibile usare SSO per accedere al server BW, direttamente o tramite un server messaggi SAP BW, con uno strumento SAP quale l'interfaccia utente grafica SAP configurata per l'uso di CommonCryptoLib. 
 
-   Per altre informazioni sui passaggi di configurazione, vedere [Single Sign-On SAP: Eseguire l'autenticazione con Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Il server BW deve usare CommonCryptoLib come libreria SNC e avere un nome SNC che inizia con *CN =* , ad esempio *CN = BW1*. Per altre informazioni sui requisiti dei nomi SNC, in particolare il parametro snc/identity/as, vedere [Parametri SNC per la configurazione Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
+   Per altre informazioni sui passaggi di configurazione, vedere [Single Sign-On SAP: Eseguire l'autenticazione con Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/). Il server BW deve usare CommonCryptoLib come libreria SNC e avere un nome SNC che inizia con *CN =*, ad esempio *CN = BW1*. Per altre informazioni sui requisiti dei nomi SNC, in particolare il parametro snc/identity/as, vedere [Parametri SNC per la configurazione Kerberos](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/360534094511490d91b9589d20abb49a.html).
 
 1. Se non è già stato fatto, installare la versione x64 del [connettore SAP .NET](https://support.sap.com/en/product/connectors/msnet.html) nel computer in cui è stato installato il gateway. 
    
