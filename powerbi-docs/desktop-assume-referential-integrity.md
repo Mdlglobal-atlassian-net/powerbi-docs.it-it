@@ -37,10 +37,10 @@ L'esempio seguente mostra il comportamento di **Considera integrità referenzial
 1. Nella figura seguente che mostra la tabella **Orders** e la tabella **Products** esiste integrità referenziale tra **Orders[ProductID]** e **Products[ProductID]** . La colonna **[ProductID]** nella tabella **Orders** non è mai *Null* e tutti i valori vengono anche visualizzati nella tabella **Products**. Di conseguenza, **Considera integrità referenziale** deve essere impostato per ottenere query più efficienti. Questa impostazione non modifica i valori visualizzati negli oggetti visivi.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
-2. Nella figura seguente non esiste integrità referenziale tra **Orders[DepotID]** e **Depots[DepotID]** , perché **DepotID** è *Null* per alcuni elementi *Orders*. Di conseguenza, **Considera integrità referenziale***non* deve essere impostato.
+2. Nella figura seguente non esiste integrità referenziale tra **Orders[DepotID]** e **Depots[DepotID]** , perché **DepotID** è *Null* per alcuni elementi *Orders*. Di conseguenza, **Considera integrità referenziale** *non* deve essere impostato.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
-3. Infine, non esiste integrità referenziale tra **Orders[CustomerID]** e **Customers[CustomerID]** nelle tabelle seguenti. **CustomerID** contiene alcuni valori, in questo caso, *CustX*, che non esistono nella tabella *Customers*. Di conseguenza, **Considera integrità referenziale***non* deve essere impostato.
+3. Infine, non esiste integrità referenziale tra **Orders[CustomerID]** e **Customers[CustomerID]** nelle tabelle seguenti. **CustomerID** contiene alcuni valori, in questo caso, *CustX*, che non esistono nella tabella *Customers*. Di conseguenza, **Considera integrità referenziale** *non* deve essere impostato.
    
    ![](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)
 
