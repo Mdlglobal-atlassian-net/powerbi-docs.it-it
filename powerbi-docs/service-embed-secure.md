@@ -1,20 +1,20 @@
 ---
 title: Incorporare un report in un portale o un sito Web sicuro
 description: La funzionalità di incorporamento di Power BI consente agli utenti di incorporare report nei portali Web interni in modo facile e sicuro.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565749"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913602"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Incorporare un report in un portale o un sito Web sicuro
 
@@ -58,7 +58,7 @@ Per visualizzare il report incorporato, gli utenti devono avere una licenza di P
 
 È possibile personalizzare l'esperienza utente usando le impostazioni di input dell'URL di incorporamento. Nell'iFrame fornito è possibile aggiornare le impostazioni **src** dell'URL.
 
-| Property  | Descrizione  |  |  |  |
+| Proprietà  | Descrizione  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
 | pageName  | È possibile usare il parametro della stringa di query **pageName** per impostare la pagina del report da aprire. È possibile trovare questo valore alla fine dell'URL del report quando si visualizza un report nel servizio Power BI, come illustrato di seguito. |  |  |  |
 | Filtri URL  | È possibile usare [filtri URL](service-url-filters.md) nell'URL di incorporamento ricevuto dall'interfaccia utente di Power BI per filtrare il contenuto incorporato. In questo modo è possibile realizzare integrazioni con poco codice e conoscenze di base di HTML e JavaScript.  |  |  |  |
@@ -129,7 +129,11 @@ report.src = newUrl;
 
 * Alcuni browser richiedono di aggiornare la pagina dopo aver effettuato l'accesso, soprattutto quando si usa la modalità InPrivate o in incognito.
 
-* Per ottenere un'esperienza Single Sign-On, usare l'opzione Incorpora in SharePoint Online oppure creare un'integrazione personalizzata usando il metodo di incorporamento di [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md). 
+* È possibile che si verifichino problemi se si usano versioni del browser non supportate. Power BI supporta i [browser indicati di seguito](power-bi-browsers.md).
+
+* Il server SharePoint classico non è supportato perché richiede le versioni di Internet Explorer precedenti a 11 o l'abilitazione della modalità di visualizzazione di compatibilità.
+
+* Per ottenere un'esperienza Single Sign-On, usare l'[opzione Incorpora in SharePoint Online](service-embed-report-spo.md) oppure creare un'integrazione personalizzata usando il metodo di incorporamento di [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md). 
 
 * La funzionalità di autenticazione automatica fornita con l'opzione **Incorpora** non funziona con l'API JavaScript di Power BI. Per l'API JavaScript di Power BI, usare il metodo di incorporamento di [dati di proprietà dell'utente](developer/embed-sample-for-your-organization.md). 
 

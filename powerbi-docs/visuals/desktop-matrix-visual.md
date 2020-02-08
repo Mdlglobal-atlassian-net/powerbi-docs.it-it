@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040417"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895491"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creare oggetti visivi Matrice in Power BI
 
@@ -41,25 +41,24 @@ In questo esempio, ogni riga nell'oggetto visivo Matrice all'estrema destra most
 
 Quando si esaminano i totali e i subtotali, tenere presente che tali valori sono basati sui dati sottostanti e non esclusivamente sui valori visibili.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>Espansione e compressione di intestazioni di riga
+È possibile espandere le intestazioni di riga in due modi. Il primo è tramite il menu di scelta rapida, in cui vengono visualizzate le opzioni per espandere l'intestazione di riga specifica selezionata, l'intero livello o tutti gli elementi fino all'ultimo livello della gerarchia. Le opzioni sono simili per comprimere le intestazioni di riga.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+È anche possibile aggiungere i pulsanti +/- alle intestazioni di riga tramite il riquadro formattazione sotto la scheda **Intestazioni di riga**. Per impostazione predefinita, le icone corrisponderanno alla formattazione dell'intestazione di riga ma se necessario, è possibile personalizzare i colori e le dimensioni delle icone separatamente.
+
+Dopo essere state abilitate, le icone funzionano come le icone della tabella pivot in Excel.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+Lo stato di espansione della matrice viene salvato con il report. È possibile aggiungere una matrice a un dashboard espanso o compresso. Quando si seleziona il riquadro del dashboard e si apre il report, lo stato di espansione può comunque essere modificato nel report. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso del drill-down con l'oggetto visivo Matrice
 L'oggetto visivo Matrice consente di eseguire un'ampia varietà di interessanti attività di drill-down che in precedenza non erano disponibili. Tra queste, la possibilità di eseguire il drill-down usando righe e colonne e persino con sezioni e celle singole. Ecco una spiegazione del funzionamento di ognuna di queste attività.
 
@@ -183,6 +182,16 @@ La matrice o la tabella può includere contenuto da usare in altre applicazioni:
 * La copia sarà un'altra visualizzazione della matrice, ma conterrà solo i dati copiati.
 
     ![Screenshot che mostra un esempio di copia di oggetto visivo](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>Impostazione di un valore matrice come URL personalizzato
+
+Se è presente una colonna o una misura che contiene URL di siti Web, è possibile usare la formattazione condizionale per applicare gli URL ai campi come collegamenti attivi. Questa opzione è disponibile nella scheda **Formattazione condizionale** nel riquadro di formattazione.
+
+![scheda Filtri con le righe selezionate](media/desktop-matrix-visual/power-bi-web-url.png)
+
+Abilitare **URL Web** e selezionare un campo da usare come URL per la colonna. Dopo essere stati applicati, i valori in quel campo (colonna) diventeranno collegamenti attivi. Passare il mouse per visualizzare il collegamento e selezionarlo per passare a tale pagina. 
+
+Per altre informazioni, vedere [Formattazione condizionale delle tabelle](../desktop-conditional-table-formatting.md)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Ombreggiatura e colore carattere con gli oggetti visivi matrice
 Con l'oggetto visivo Matrice è possibile applicare la formattazione condizionale (colori, ombreggiatura e barre dei dati) allo sfondo delle celle nella matrice, nonché al testo e ai valori stessi.

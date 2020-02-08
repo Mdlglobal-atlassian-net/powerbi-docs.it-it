@@ -8,20 +8,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 01/30/2020
 rLocalizationGroup: Common tasks
-ms.openlocfilehash: a9339cc9f61a3a191e8783935c9ec38e119894e9
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099213"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888605"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Sottoscrivere un report o un dashboard nel servizio Power BI 
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Una volta eseguita la sottoscrizione alle pagine report e ai dashboard che interessano, Power BI invierà uno snapshot nella posta in arrivo. È possibile specificare in Power BI la frequenza di ricezione dei messaggi di posta elettronica desiderata: giornaliera, settimanale o all'aggiornamento dei dati. È anche possibile impostare in Power BI un'ora specifica per l'invio dei messaggi di posta elettronica oppure inviarli subito.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse per ogni report o dashboard.  
+Rimanere aggiornati sui dashboard e sui report più importanti non è mai stato così facile. Basta sottoscrivere le pagine dei report e dei dashboard più importanti e Power BI invierà uno snapshot nella posta in arrivo. È possibile specificare in Power BI la frequenza di ricezione dei messaggi di posta elettronica desiderata: giornaliera, settimanale o all'aggiornamento dei dati. È anche possibile impostare in Power BI un'ora specifica per l'invio dei messaggi di posta elettronica oppure inviarli subito.  In tutto, è possibile impostare fino a 24 sottoscrizioni diverse per ogni report o dashboard.  
 
 Per il messaggio di posta elettronica e lo snapshot verrà usata la lingua specificata nelle impostazioni di Power BI (vedere [Lingue e paesi/aree geografiche supportate per Power BI](../supported-languages-countries-regions.md)). Se non è definita alcuna lingua, Power BI usa la lingua in base alle impostazioni internazionali nel browser corrente. Per visualizzare o impostare la preferenza per la lingua, selezionare l'icona a forma di ingranaggio ![Icona a forma di ingranaggio](./media/end-user-subscribe/power-bi-settings-icon.png) > **Impostazioni > Generali > Lingua**. 
 
@@ -31,41 +31,43 @@ Il messaggio di posta elettronica ricevuto include un collegamento per passare a
 
 
 ## <a name="requirements"></a>Requisiti
-La **creazione** di una sottoscrizione per se stessi richiede una licenza di Power BI Pro. Gli utenti che visualizzano contenuti in un'app o un'area di lavoro Premium possono inoltre sottoscrivere i contenuti disponibili in tale posizione, anche senza una licenza di Power BI Pro. La **sottoscrizione per altri utenti** è disponibile solo per il proprietario del dashboard. 
+La **creazione** di una sottoscrizione per se stessi richiede un tipo di licenza specifico. Se non si riesce a creare una sottoscrizione, contattare l'amministratore di Power BI. La **sottoscrizione per altri utenti** è disponibile solo per il proprietario del dashboard o del report. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Sottoscrivere una pagina di report o dashboard
 Il processo di sottoscrizione a un dashboard o un report è molto simile. Lo stesso pulsante consente di effettuare la sottoscrizione ai dashboard e ai report del servizio Power BI.
  
-![Selezionare l'icona Sottoscrivi](./media/end-user-subscribe/power-bi-subscribe-orientation.png).
+![Selezionare l'icona Sottoscrivi](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. Aprire il dashboard o il report.
 2. Dalla barra dei menu superiore selezionare **Sottoscrivi** oppure selezionare l'icona a forma di busta ![Sottoscrivi](./media/end-user-subscribe/power-bi-icon-envelope.png).
    
-   ![Icona Sottoscrivi](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Finestra Sottoscrivi](./media/end-user-subscribe/power-bi-emails-newest.png)
+
+   ![Finestra Sottoscrivi](./media/end-user-subscribe/power-bi-emails-numbered.png)
     
-    La schermata a sinistra viene visualizzata quando si è all'interno di un dashboard e si seleziona **Sottoscrivi**. La schermata a destra viene visualizzata quando si è all'interno della pagina di un report e si seleziona **Sottoscrivi**. Per sottoscrivere più di una pagina di un report, selezionare **Aggiungi un'altra sottoscrizione** e selezionare una pagina diversa. 
+    La schermata a sinistra viene visualizzata quando si è all'interno di un dashboard e si seleziona **Sottoscrivi**. La schermata a destra viene visualizzata quando si è all'interno della pagina di un report e si seleziona **Sottoscrivi**. 
+    
+    a. Per effettuare una sottoscrizione a più di una pagina di un report, scegliere **Aggiungi un'altra sottoscrizione** e selezionare una pagina diversa dall'elenco a discesa nella parte superiore.
 
-4. Usare il dispositivo di scorrimento giallo per attivare e disattivare la sottoscrizione.  Lo spostamento del dispositivo di scorrimento sulla posizione Disattivato non comporta l'eliminazione della sottoscrizione. Per eliminare la sottoscrizione, selezionare l'icona a forma di cestino.
+    b. Usare il dispositivo di scorrimento giallo per attivare e disattivare la sottoscrizione.  Lo spostamento del dispositivo di scorrimento sulla posizione Disattivato non comporta l'eliminazione della sottoscrizione. Per eliminare la sottoscrizione, selezionare l'icona a forma di cestino.
 
-5. Facoltativamente, aggiungere un oggetto e i dettagli del messaggio di posta elettronica. 
+    c. Facoltativamente, aggiungere un oggetto e i dettagli del messaggio di posta elettronica. 
 
-5. Selezionare una **Frequenza** per la sottoscrizione.  È possibile scegliere Ogni giorno, Settimanale o Dopo l'aggiornamento dei dati (una volta al giorno).  Per ricevere il messaggio di posta elettronica di sottoscrizione solo in alcuni giorni, selezionare **Settimanale** e scegliere i giorni in cui si vuole ricevere il messaggio.  Ad esempio, se si vuole ricevere il messaggio di posta elettronica di sottoscrizione solo nei giorni lavorativi, selezionare la frequenza **Settimanale** e deselezionare le caselle sab e dom.   
+    d. Selezionare una **Frequenza** per la sottoscrizione.  È possibile scegliere Ogni giorno, Settimanale o Dopo l'aggiornamento dei dati (una volta al giorno).  Per ricevere il messaggio di posta elettronica di sottoscrizione solo in alcuni giorni, selezionare **Settimanale** e scegliere i giorni in cui si vuole ricevere il messaggio.  Ad esempio, se si vuole ricevere il messaggio di posta elettronica di sottoscrizione solo nei giorni lavorativi, selezionare la frequenza **Settimanale** e deselezionare le caselle sab e dom.   
 
-6. Pianificare l'ora di invio del messaggio di posta elettronica selezionando la frequenza Ogni giorno o Settimanale e specificando un'**Ora** **pianificata** per la sottoscrizione.  Questo è il momento in cui inizia il processo di sottoscrizione. Potrebbero passare alcuni minuti prima che il messaggio venga recapitato alla Posta in arrivo.    
+    e. Pianificare l'ora di invio del messaggio di posta elettronica selezionando la frequenza Ogni giorno o Settimanale e specificando un'**Ora** **pianificata** per la sottoscrizione.  Questo è il momento in cui inizia il processo di sottoscrizione. Potrebbero passare alcuni minuti prima che il messaggio venga recapitato alla Posta in arrivo.    
 
-7. Pianificare la data di inizio e fine immettendo le date nei campi di data. Per impostazione predefinita, l'ora di inizio della sottoscrizione corrisponde alla data di creazione e la data di fine a un anno più tardi. Quando una sottoscrizione raggiunge una data di fine, viene interrotta finché non viene riabilitata.  Si riceveranno delle notifiche prima della data di fine pianificata in cui viene chiesto se si intende prorogare la sottoscrizione.     
+    f. Pianificare la data di inizio e fine immettendo le date nei campi di data. Per impostazione predefinita, l'ora di inizio della sottoscrizione corrisponde alla data di creazione e la data di fine a un anno più tardi. Quando una sottoscrizione raggiunge una data di fine, viene interrotta finché non viene riabilitata.  Si riceveranno delle notifiche prima della data di fine pianificata in cui viene chiesto se si intende prorogare la sottoscrizione.     
 
-8. Per riesaminare e testare la sottoscrizione, selezionare **Esegui adesso**.  In questo modo il messaggio di posta elettronica viene immediatamente inviato all'utente. 
+    esempio Per riesaminare e testare la sottoscrizione, selezionare **Esegui adesso**.  In questo modo il messaggio di posta elettronica viene immediatamente inviato all'utente. 
 
-8. Se è tutto corretto, selezionare **Salva e chiudi** per salvare la sottoscrizione. Si riceverà un messaggio di posta elettronica e uno snapshot del dashboard o del report in base alla pianificazione impostata. Tutte le sottoscrizioni con la frequenza impostata su **Dopo l'aggiornamento dei dati** invieranno un messaggio di posta elettronica solo dopo il primo aggiornamento pianificato per quel giorno.
+3. Se è tutto corretto, selezionare **Salva e chiudi** per salvare la sottoscrizione. Si riceverà un messaggio di posta elettronica e uno snapshot del dashboard o del report in base alla pianificazione impostata. Tutte le sottoscrizioni con la frequenza impostata su **Dopo l'aggiornamento dei dati** invieranno un messaggio di posta elettronica solo dopo il primo aggiornamento pianificato per quel giorno.
    
    ![Snapshot tramite posta elettronica del dashboard](media/end-user-subscribe/power-bi-subscribe-email.png)
    
-    L'aggiornamento della pagina del report non aggiorna il set di dati. Solo il proprietario del set di dati può aggiornare manualmente un set di dati. Per cercare il nome dei set di dati sottostanti, selezionare **Visualizza elementi correlati** nella barra dei menu superiore o cercare il messaggio di posta elettronica originale della sottoscrizione.
+    L'aggiornamento della pagina del report non aggiorna il set di dati. Solo il proprietario del set di dati può aggiornare manualmente un set di dati. Per cercare il nome del proprietario dei set di dati sottostanti, selezionare l'elenco a discesa nella barra dei menu superiore o cercare il messaggio di posta elettronica originale della sottoscrizione.
    
-    ![Set di dati correlati](./media/end-user-subscribe/power-bi-view-related-screen.png)
+    ![trovare il proprietario](./media/end-user-subscribe/power-bi-owner.png)
 
 
 ## <a name="manage-your-subscriptions"></a>Gestire le sottoscrizioni

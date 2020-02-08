@@ -1,26 +1,26 @@
 ---
 title: URL di Power BI per l'elenco elementi consentiti
-description: Questo articolo descrive gli endpoint che devono essere raggiungibili dai clienti che usano Power BI.
+description: Questo articolo elenca gli endpoint e le porte URL per l'elenco di indirizzi attendibili per connettersi a Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698786"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894661"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>URL di Power BI per l'elenco elementi consentiti
 
 **Il servizio online Power BI**, noto anche come applicazione SaaS (software come servizio) di Power BI, richiede la connettività a Internet. Gli endpoint seguenti devono essere raggiungibili per i clienti che usano il servizio online Power BI.
 
-Per usare il servizio online Power BI, è necessario avere accesso per connettersi agli endpoint contrassegnati come **obbligatori** nelle tabelle riportate di seguito e a tutti gli endpoint contrassegnati come **obbligatori** nei siti collegati. Se il collegamento a un sito esterno fa riferimento a una sezione specifica, è sufficiente esaminare gli endpoint in tale sezione.
+Per usare il servizio online Power BI, è necessario potersi connettere agli endpoint contrassegnati come **obbligatori** nelle tabelle riportate di seguito e a tutti gli endpoint contrassegnati come **obbligatori** nei siti collegati. Se il collegamento a un sito esterno fa riferimento a una sezione specifica, è sufficiente esaminare gli endpoint in tale sezione.
 
 Gli endpoint contrassegnati come **facoltativi** possono anche essere inclusi nell'**elenco elementi consentiti** per funzionalità specifiche.
 
@@ -46,16 +46,17 @@ Per l'uso generale di Power BI, è necessario essere in grado di connettersi agl
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
 | 1 | **Obbligatorio:** API back-end | *.analysis.windows.net | TCP 443 |
-| 2 | **Obbligatorio:** integrazione di Office 365 | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
-| 3 | **Obbligatorio:** portale | app.powerbi.com | TCP 443 |
-| 4 | **Obbligatorio:** dati di telemetria del servizio | dc.services.visualstudio.com | TCP 443 |
-| 5 | **Facoltativo:** messaggi informativi | dynmsg.modpim.com | TCP 443 |
-| 6 | **Facoltativo:** sondaggi NPS | nps.onyx.azure.net | TCP 443 |
+| 2 | **Obbligatorio:** API back-end | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **Obbligatorio:** integrazione di Office 365 | Vedere la documentazione di Office 365 per [Office Online e URL comuni](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
+| 4 | **Obbligatorio:** portale | app.powerbi.com | TCP 443 |
+| 5 | **Obbligatorio:** dati di telemetria del servizio | dc.services.visualstudio.com | TCP 443 |
+| 6 | **Facoltativo:** messaggi informativi | dynmsg.modpim.com | TCP 443 |
+| 7 | **Facoltativo:** sondaggi NPS | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Administration
 
-Per eseguire funzioni amministrative all'interno di Power BI, è necessario essere in grado di connettersi agli endpoint nei siti collegati riportati di seguito.
+Per eseguire funzioni amministrative in Power BI, è necessario potersi connettere agli endpoint nei siti collegati riportati di seguito.
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
@@ -64,7 +65,7 @@ Per eseguire funzioni amministrative all'interno di Power BI, è necessario esse
 
 ## <a name="getting-data"></a>Acquisizione dei dati
 
-Per ottenere dati da origini dati specifiche, ad esempio OneDrive, è necessario potersi connettere agli endpoint nella tabella seguente. Potrebbe essere necessario accedere a URL e domini Internet aggiuntivi per origini dati specifiche usate all'interno dell'organizzazione.
+Per ottenere dati da origini dati specifiche, ad esempio OneDrive, è necessario potersi connettere agli endpoint nella tabella seguente. Potrebbe essere necessario accedere a URL e domini Internet aggiuntivi per origini dati specifiche usate nell'organizzazione.
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
@@ -86,7 +87,7 @@ Power BI dipende da determinati endpoint per supportare dashboard e report. È n
 
 ## <a name="custom-visuals"></a>Oggetti visivi personalizzati
 
-Power BI dipende da determinati endpoint per la visualizzazione e l'accesso agli oggetti visivi personalizzati. È necessario essere in grado di connettersi agli endpoint nella tabella e nei siti collegati seguenti.
+Power BI dipende da determinati endpoint per visualizzare e accedere a oggetti visivi personalizzati. È necessario essere in grado di connettersi agli endpoint nella tabella e nei siti collegati seguenti.
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ Power BI dipende da determinati endpoint per la visualizzazione e l'accesso agli
 
 ## <a name="related-external-sites"></a>Siti esterni correlati
 
-Power BI si collega ad altri siti correlati. Si tratta di siti relativi a documentazione, supporto, richieste di nuove funzionalità e altro ancora. Questi siti non influiranno sulla funzionalità di Power BI. Se si vuole, è pertanto possibile aggiungerli facoltativamente all'elenco degli elementi consentiti.
+Power BI si collega ad altri siti correlati. Si tratta di siti relativi a documentazione, supporto, richieste di nuove funzionalità e altro ancora. L'accesso a questi siti non influirà sulla funzionalità di Power BI, quindi l'elenco elementi consentiti è facoltativo.
 
 | Riga | Scopo | Destinazione/i | Porta/e |
 | --- | --- | --- | --- |
@@ -107,7 +108,7 @@ Power BI si collega ad altri siti correlati. Si tratta di siti relativi a docume
 | 3 | **Facoltativo:** sito di download (per Power BI Desktop e così via) | download.microsoft.com | TCP 443 |
 | 4 | **Facoltativo:** reindirizzamenti esterni | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Facoltativo:** sito di commenti e suggerimenti Ideas| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
-| 6 | **Facoltativo:** sito di Power BI: pagina di destinazione, collegamenti ad altre informazioni, sito del supporto, collegamenti di download, showcase dei partner e così via. | powerbi.microsoft.com | TCP 443 |
+| 6 | **Facoltativo:** sito di Power BI: pagina di destinazione, collegamenti ad altre informazioni, sito del supporto, collegamenti di download, showcase dei partner e altro ancora. | powerbi.microsoft.com | TCP 443 |
 | 7 | **Facoltativo:** Power BI Dev Center | dev.powerbi.com | TCP 443 |
 | 8 | **Facoltativo:** sito del supporto tecnico | support.powerbi.com <br> s3.amazonaws.com <br> *.olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

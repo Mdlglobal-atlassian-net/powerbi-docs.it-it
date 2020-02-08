@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759998"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913529"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Creare modelli di report per Power BI Desktop
 
@@ -32,7 +32,7 @@ I modelli di report di Power BI contengono le informazioni seguenti del report d
 
 Gli unici elementi *non* inclusi nei modelli sono i dati del report. 
 
-Per i modelli di report viene usata l'estensione di file pbit (diversamente dai report di Power BI Desktop, che usano l'estensione pbix). 
+Nei modelli di report si usa l'estensione pbit, a differenza dei report di Power BI Desktop che usano l'estensione pbix. 
 
 Per creare un modello di report, selezionare **File > Esporta > Modello di Power BI** dal menu. Viene così visualizzata la finestra seguente, in cui viene chiesto di specificare una descrizione per il modello. In questo esempio, la descrizione del modello è *Monthly sales report template.*
 

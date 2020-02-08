@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874281"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819538"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Log delle modifiche per il server di report Power BI
 
 Questo log delle modifiche è relativo al server di report di Power BI ed elenca i nuovi elementi e le correzioni di bug per ogni versione.
 
 Per informazioni dettagliate sulle nuove funzionalità, vedere [Novità del Server di report di Power BI](whats-new.md). 
+
+
+## <a name="january-2020"></a>Gennaio 2020
+- **Server di report Power BI**
+    - *Versione: 1.6.7327.3007 (build 15.0.1102.759), data di rilascio: 23 gennaio 2020*
+         - Funzionalità
+            -  Esportare in Excel da report di Power BI.
+           -  Supporto di set di dati di Power BI Premium per report impaginati.
+           -  Supporto di AltText (testo alternativo) per gli elementi di report impaginati.
+           -  Supporto per intestazioni personalizzate.
+           -  Supporto di Istanza gestita di database SQL di Azure come catalogo.
+           -  Transparent Data Encryption per il catalogo.
+        - Aggiornamenti della sicurezza
+        - Correzioni di bug
+            - Correzioni per l'accessibilità per utilità per la lettura dello schermo, il rendering dei report e gli spostamenti tramite tastiera.
+            - Correzione per il salvataggio di titoli di report a più byte.
+            - Correzione per la registrazione dettagliata che influisce sull'affidabilità del server di report.
+          - Correzione per garantire la disponibilità di dati in tempo reale nei report di Power BI su dispositivi mobili.
+          - Correzione per l'applicazione dell'evidenziazione incrociata tra oggetti visivi nell'esportazione filtrata di report di Power BI.
+          - Correzione per la scrittura del piè di pagina durante l'esportazione in Word con espressione per la visibilità per i report impaginati. 
+     
+- **Power BI Desktop (ottimizzato per il server di report di Power BI)**
+    - *Versione: 2.76.5678.1521 (gennaio 2020), data di rilascio: 23 gennaio 2020* (nuova build e nuova versione)
+        - Include modifiche necessarie per la connessione a Server di report di Power BI (gennaio 2020)        
+
 
 ## <a name="september-2019"></a>Settembre 2019
 - **Server di report Power BI**

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 01/29/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 37107c1092b12a8efc230718c624f104aa31520f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74958564"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889398"
 ---
 # <a name="what-is-power-bi-premium"></a>Che cos'è Power BI Premium?
 
@@ -223,7 +223,7 @@ Con Premium, tutti gli utenti, all'interno o all'esterno dell'organizzazione, po
 
 ![Condivisione dei contenuti](media/service-premium-what-is/premium-sharing.png)
 
-Premium consente anche una distribuzione generalizzata dei contenuti da parte degli utenti Pro senza richiedere licenze Pro per la visualizzazione del contenuto da parte dei destinatari. Le licenze Pro sono necessarie per gli autori dei contenuti. Gli autori si connettono alle origini dati, modellano i dati e creano report e dashboard che vengono offerti come app di aree di lavoro. 
+Premium consente anche una distribuzione generalizzata dei contenuti da parte degli utenti Pro senza richiedere licenze Pro per la visualizzazione del contenuto da parte dei destinatari. Le licenze Pro sono necessarie per gli autori dei contenuti. Gli autori si connettono alle origini dati, modellano i dati e creano report e dashboard che vengono offerti come app di aree di lavoro. Gli utenti senza una licenza Pro possono comunque accedere a un'area di lavoro all'interno della capacità Power BI Premium, a condizione che abbiano il ruolo Visualizzatore. 
 
 Per altre informazioni, vedere [Licenze di Power BI](service-admin-licensing-organization.md).
 

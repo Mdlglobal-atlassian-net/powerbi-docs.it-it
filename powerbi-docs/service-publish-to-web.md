@@ -1,20 +1,20 @@
 ---
 title: Pubblicare sul Web da Power BI
 description: La funzionalità Pubblica sul Web di Power BI consente di incorporare con facilità visualizzazioni interattive di Power BI online, ad esempio in post di blog, siti Web, via posta elettronica o social media, su qualsiasi dispositivo.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311718"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76913635"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
@@ -39,20 +39,24 @@ La procedura seguente illustra come usare la funzionalità **Pubblica sul Web**.
 1. Aprire un report modificabile nell'area di lavoro e selezionare **File > Pubblica sul Web**.
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. Contattare l'amministratore di Power BI se non si è autorizzati a creare codici di incorporamento
 
-2. Esaminare il contenuto della finestra di dialogo e selezionare **Crea codice di incorporamento**.
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. Esaminare il contenuto della finestra di dialogo e selezionare **Crea codice di incorporamento**.
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. Esaminare l'avviso, come indicato qui, e verificare che i dati si possano incorporare in un sito Web pubblico. In caso affermativo, selezionare **Pubblica**.
+4. Esaminare l'avviso, come indicato qui, e verificare che i dati si possano incorporare in un sito Web pubblico. In caso affermativo, selezionare **Pubblica**.
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. Viene visualizzata una finestra di dialogo con un collegamento. È possibile inviare il collegamento via posta elettronica, incorporarlo nel codice, ad esempio un iFrame, o incollarlo direttamente in una pagina Web o un blog.
+5. Viene visualizzata una finestra di dialogo con un collegamento. È possibile inviare il collegamento via posta elettronica, incorporarlo nel codice, ad esempio un iFrame, o incollarlo direttamente in una pagina Web o un blog.
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. Se in precedenza si è creato un codice di incorporamento per un report e si seleziona **Pubblica sul web**, le finestre di dialogo dei passaggi da 2 a 4 non vengono visualizzate. Viene invece visualizzata la finestra **Codice di incorporamento**:
+6. Se in precedenza si è creato un codice di incorporamento per un report e si seleziona **Pubblica sul web**, le finestre di dialogo dei passaggi da 2 a 4 non vengono visualizzate. Viene invece visualizzata la finestra **Codice di incorporamento**:
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -67,13 +71,13 @@ La tabella seguente include indicazioni sulla modalità di visualizzazione e sul
 
 | Modalità di visualizzazione | Aspetto dopo l'incorporamento |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Adatta alla pagina** rispetta l'altezza e la larghezza della pagina del report. Se si imposta la pagina su proporzioni *dinamiche*, ad esempio 16:9 o 4:3, il contenuto verrà ridimensionato in modo da adattarsi all'interno dell'iFrame. Se si incorpora il report in un iFrame, usando la modalità **Adatta alla pagina** si può ottenere il *letterboxing*, in cui viene visualizzato uno sfondo grigio nelle aree dell'iFrame dopo che il contenuto viene ridimensionato in modo che si adatti all'interno dell'iFrame. Per ridurre il letterboxing, impostare l'altezza e la larghezza dell'iFrame in modo appropriato. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Adatta alla pagina** rispetta l'altezza e la larghezza della pagina del report. Se si imposta la pagina su proporzioni *dinamiche*, ad esempio 16:9 o 4:3, il contenuto viene ridimensionato in modo da adattarsi all'interno dell'iFrame. Se si incorpora il report in un iFrame, usando la modalità **Adatta alla pagina** si può ottenere il *letterboxing*, in cui viene visualizzato uno sfondo grigio nelle aree dell'iFrame dopo che il contenuto viene ridimensionato in modo che si adatti all'interno dell'iFrame. Per ridurre il letterboxing, impostare l'altezza e la larghezza dell'iFrame in modo appropriato. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |La modalità **Dimensioni effettive** garantisce che vengano mantenute le dimensioni definite nella pagina del report. È quindi possibile che nell'iFrame siano visualizzate barre di scorrimento. Impostare l'altezza e la larghezza dell'iFrame per evitare le barre di scorrimento. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |La modalità **Adatta in larghezza** assicura che i contenuti si adattino all'area orizzontale dell'iFrame. Viene comunque visualizzato un bordo, ma il contenuto viene ridimensionato in modo da usare tutto lo spazio orizzontale disponibile. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Suggerimenti e consigli per l'altezza e la larghezza dell'iFrame
 
-Un codice di incorporamento di **Pubblica sul Web** è simile al seguente:
+Un codice di incorporamento di **Pubblica sul Web** è simile all'esempio seguente:
 
 ![PtW7](media/service-publish-to-web/publish_to_web7.png)
  
@@ -81,14 +85,14 @@ Un codice di incorporamento di **Pubblica sul Web** è simile al seguente:
 
 Per perfezionare ulteriormente il risultato, provare ad aggiungere 56 pixel all'altezza dell'iFrame per adattarla alla dimensione corrente della barra inferiore. Se la pagina del report usa dimensioni dinamiche, la tabella seguente specifica alcune dimensioni che è possibile usare per adattare gli oggetti senza letterboxing.
 
-| Proporzioni | Dimensioni | Dimensione (larghezza x altezza) |
+| Proporzioni | Dimensione | Dimensione (larghezza x altezza) |
 | --- | --- | --- |
-| 16:9 |Piccole |640 x 416 px |
-| 16:9 |Medie |800 x 506 px |
-| 16:9 |Grandi |960 x 596 px |
-| 4:3 |Piccole |640 x 536 px |
-| 4:3 |Medie |800 x 656 px |
-| 4:3 |Grandi |960 x 776 px |
+| 16:9 |Piccola |640 x 416 px |
+| 16:9 |Media |800 x 506 px |
+| 16:9 |Grande |960 x 596 px |
+| 4:3 |Piccola |640 x 536 px |
+| 4:3 |Media |800 x 656 px |
+| 4:3 |Grande |960 x 776 px |
 
 ## <a name="manage-embed-codes"></a>Gestisci codici di incorporamento
 
@@ -141,16 +145,27 @@ La funzionalità **Pubblica sul Web** è supportata per la maggior parte delle o
 
 ## <a name="tenant-setting"></a>Impostazione del tenant
 
-Gli amministratori di Power BI possono abilitare o disabilitare la funzionalità **Pubblica sul Web**. Possono anche limitare l'accesso a gruppi specifici, il che può influire sulla possibilità di creare un codice di incorporamento.
+L'impostazione **Pubblica sul Web** offre opzioni per le quali gli utenti possono creare codici di incorporamento.
+
+![Impostazione Pubblica sul Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+Verrà richiesto di contattare un amministratore di Power BI per creare un codice di incorporamento se l'opzione **Scegliere la modalità di lavoro dei codici di incorporamento** è impostata su **Consenti solo codici di incorporamento esistenti** e l'impostazione **Pubblica sul Web** è **abilitata**.
+
+![Prompt Pubblica sul Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Gli amministratori di Power BI possono abilitare o disabilitare la funzionalità **Pubblica sul Web**. Possono anche limitare l'accesso a gruppi specifici, il che può influire sulla possibilità di creare un codice di incorporamento. L'utente vedrà opzioni diverse nell'interfaccia utente in base all'impostazione di **Pubblica sul Web**.
 
 |Feature |Abilitata per l'intera organizzazione |Disabilitata per l'intera organizzazione |Gruppi di sicurezza specifici   |
 |---------|---------|---------|---------|
 |**Pubblica sul Web** nel menu **File** del report|Abilitata per tutti|Non visibile per tutti|Visibile solo per utenti o gruppi autorizzati.|
 |**Gestisci codici di incorporamento** in **Impostazioni**|Abilitata per tutti|Abilitata per tutti|Abilitata per tutti.<br><br>Opzione * **Elimina** solo per utenti o gruppi autorizzati.<br>Opzione * **Ottieni i codici** abilitata per tutti.|
-|**Incorpora codici** nel portale di amministrazione|Lo stato sarà uno dei seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato|Lo stato sarà **Disabilitato**|Lo stato sarà uno dei seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato<br><br>Se un utente non è autorizzato in base alla configurazione del tenant, lo stato sarà **Violazione**.|
+|**Incorpora codici** nel portale di amministrazione|Lo stato rifletterà uno degli stati seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato|Lo stato sarà **Disabilitato**|Lo stato rifletterà uno degli stati seguenti:<br>* Attivo<br>* Non supportato<br>* Bloccato<br><br>Se un utente non è autorizzato in base alla configurazione del tenant, lo stato sarà **Violazione**.|
 |Report pubblicati esistenti|Tutti abilitati|Tutti disabilitati|Il rendering di tutti i report viene continuato per tutti.|
 
 ## <a name="understanding-the-embed-code-status-column"></a>Informazioni sulla colonna dello stato del codice di incorporamento
+
+>[!Note]
+>È necessario esaminare periodicamente i codici di incorporamento pubblicati e rimuovere quelli che non devono più essere disponibili pubblicamente. 
 
 La pagina **Gestisci codici di incorporamento** include una colonna di stato. Per impostazione predefinita, lo stato dei codici di incorporamento è **Attivo**, ma può essere anche uno degli stati elencati di seguito.
 

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885289"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819584"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -203,11 +203,24 @@ La figura seguente mostra il messaggio che viene visualizzato al momento della c
 
 ### <a name="publish-to-web"></a>Pubblica sul Web
 
-Gli utenti dell'organizzazione possono pubblicare report sul Web. [Altre informazioni](service-publish-to-web.md)
+Gli utenti dell'organizzazione possono pubblicare report sul Web. [Altre informazioni](service-publish-to-web.md) In questo modo il report e i dati in esso contenuti vengono resi disponibili a chiunque sul Web.
+
+> [!NOTE]
+> Un amministratore di Power BI deve consentire la creazione di nuovi codici di incorporamento per la pubblicazione sul Web. Le organizzazioni potrebbero avere codici di incorporamento esistenti. Usare la pagina dei [codici di incorporamento](service-admin-portal.md#embed-codes) per visualizzare i report attualmente pubblicati.
 
 La figura seguente mostra il menu **File** per un report quando l'impostazione **Pubblica sul Web** è abilitata.
 
-![Impostazione Pubblica sul Web](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Pubblica sul Web nel menu File](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+L'impostazione **Pubblica sul Web** offre opzioni per le quali gli utenti possono creare codici di incorporamento.
+
+![Impostazione Pubblica sul Web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+Agli utenti verrà richiesto di contattare l'amministratore di Power BI perché consenta loro di creare un codice di incorporamento quando l'opzione **Scegliere la modalità di funzionamento dei codici di incorporamento** è impostata su **Consenti solo codici di incorporamento esistenti** e l'impostazione **Pubblica sul Web** è **Abilitata**.
+
+![Richiesta di Pubblica sul Web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'impostazione di **Pubblica sul Web**.
 
@@ -449,7 +462,7 @@ Per altre informazioni su come gestire le impostazioni di Power BI Embedded (SKU
 
 ## <a name="embed-codes"></a>Codici di incorporamento
 
-Un amministratore può visualizzare i codici di incorporamento generati per il tenant. È anche possibile revocare o eliminare i codici. [Altre informazioni](service-publish-to-web.md)
+Un amministratore può visualizzare i codici di incorporamento generati per il tenant per condividere i report pubblicamente. È anche possibile revocare o eliminare i codici. [Altre informazioni](service-publish-to-web.md)
 
 ![Codici di incorporamento nel portale di amministrazione di Power BI](media/service-admin-portal/embed-codes.png)
 

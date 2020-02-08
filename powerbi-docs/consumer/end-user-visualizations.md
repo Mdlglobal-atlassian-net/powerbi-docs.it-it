@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860976"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888525"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interagire con gli oggetti visivi in report, dashboard e app
 
@@ -37,7 +37,7 @@ Per molte di queste opzioni, l'amministratore o il *progettista* può impedire d
 
 
 > [!IMPORTANT]
-> Prima di tutto, è importante introdurre la funzionalità Domande e risposte. Domande e risposte è lo strumento di ricerca in linguaggio naturale di Power BI. Si digita una domanda usando il linguaggio naturale e lo strumento Domande e risposte offre risposte sotto forma di un oggetto visivo. Domande e risposte è un modo con cui i consumer possono creare oggetti visivi personalizzati. Tuttavia, gli oggetti visivi creati con Domande e risposte non possono essere salvati. Se però si vogliono ricavare informazioni specifiche dai dati e il progettista non ha incluso tali informazioni in un report o in un dashboard, lo strumento Domande e risposte è una valida opzione. Per altre informazioni su Domande e risposte, vedere [Domande e risposte per i consumer](end-user-q-and-a.md).
+> Prima di tutto, è importante introdurre la funzionalità Domande e risposte. Domande e risposte è lo strumento di ricerca in linguaggio naturale di Power BI. Si digita una domanda usando il linguaggio naturale e lo strumento Domande e risposte offre risposte sotto forma di un oggetto visivo. Domande e risposte è un modo con cui gli utenti finali possono creare velocemente oggetti visivi personalizzati. Tuttavia, gli oggetti visivi creati con Domande e risposte non possono essere salvati. Se però si vogliono ricavare informazioni specifiche dai dati e il progettista non ha incluso tali informazioni in un report o in un dashboard, lo strumento Domande e risposte è una valida opzione. Per altre informazioni su Domande e risposte, vedere [Domande e risposte per i consumer](end-user-q-and-a.md).
 
 
 
@@ -45,13 +45,13 @@ Per molte di queste opzioni, l'amministratore o il *progettista* può impedire d
 |---------|---------|---------|--------|
 |[Aggiungere commenti a un oggetto visivo per se stessi o avviare una conversazione con i colleghi sull'oggetto visivo](end-user-comment.md).     |  sì       |   sì      |  no  |
 |[Aprire ed esplorare il report in cui è stato creato l'oggetto visivo](end-user-tiles.md).     |    sì     |   n/d      |  no |
-|[Visualizzare un elenco dei filtri e dei filtri dei dati che interessano l'oggetto visivo](end-user-report-filter.md).     |    no     |   sì      |  sì |
+|[Visualizzare un elenco dei filtri e dei filtri dei dati che interessano l'oggetto visivo](end-user-report-filter.md).     |    se si apre in modalità messa a fuoco     |   sì      |  no |
 |[Aprire ed esplorare un oggetto visivo in Domande e risposte (se il *progettista* ha usato Domande e risposte per creare l'oggetto visivo)](end-user-q-and-a.md).     |   sì      |   n/d      |  n/d  |
 |[Creare un oggetto visivo in Domande e risposte (per l'esplorazione, non sarà possibile salvarlo)](end-user-q-and-a.md).     |   sì      |   se il progettista ha aggiunto Domande e risposte al report      |  sì  |
-|[Chiedere a Power BI di cercare fatti o tendenze interessanti](end-user-insights.md) nei dati dell'oggetto visivo.  Questi oggetti visivi generati automaticamente sono chiamati *informazioni dettagliate*.     |    sì     |  per l'intero report, non per i singoli oggetti visivi       | no   |
-|[Visualizzare un solo oggetto visivo alla volta tramite la modalità *messa a fuoco*](end-user-focus.md).     | sì        |   sì      | n/d  |
+|[Chiedere a Power BI di cercare fatti o tendenze interessanti](end-user-insights.md) nei dati dell'oggetto visivo.  Questi oggetti visivi generati automaticamente sono chiamati *informazioni dettagliate*.     |    sì, per i riquadri    |  no       | no   |
+|[Visualizzare un solo oggetto visivo alla volta tramite la modalità *messa a fuoco*](end-user-focus.md).     | sì, per i riquadri        |   sì, per gli oggetti visivi      | n/d  |
 |[Cercare l'ultimo aggiornamento dell'oggetto visivo](end-user-fresh.md).     |  sì       |    sì     | n/d  |
-|[Visualizzare un solo oggetto visivo alla volta, senza bordi o riquadri di spostamento, nella modalità *schermo intero* o *messa a fuoco*](end-user-focus.md).     |   sì      |  sì       | per impostazione predefinita  |
+|[Visualizzare un solo oggetto visivo alla volta, senza bordi o riquadri di spostamento, nella modalità *schermo intero*](end-user-focus.md).     |   sì      |  sì       | per impostazione predefinita  |
 |[Stampare](end-user-print.md).     |  sì       |   sì      | no  |
 |[Esaminare l'oggetto visivo aggiungendo e modificando i filtri dell'oggetto visivo.](end-user-report-filter.md)     |    no     |   sì      | no  |
 |Passare il mouse su un oggetto visivo per vedere dettagli aggiuntivi e descrizioni comando.     |    sì     |   sì      | sì  |
@@ -61,7 +61,7 @@ Per molte di queste opzioni, l'amministratore o il *progettista* può impedire d
 | Aggiungere un elemento in evidenza a un oggetto visivo. | no  | sì  |  no |
 | [Esportare in Excel.](end-user-export.md) | sì | sì | no|
 | [Creare un avviso](end-user-alerts.md) per ricevere una notifica quando un valore supera una soglia impostata.  | sì  | no  | no |
-| [Applicare il filtro incrociato e l'evidenziazione incrociata agli altri oggetti visivi nella pagina](end-user-report-filter.md).  | no      | sì  | no  |
+| [Applicare il filtro incrociato e l'evidenziazione incrociata agli altri oggetti visivi nella pagina](end-user-report-filter.md).  | no      | sì  | n/d |
 | [Eseguire il drill di un oggetto visivo con una gerarchia](end-user-drill.md).  | no  | sì   | no |
 
 ## <a name="next-steps"></a>Passaggi successivi

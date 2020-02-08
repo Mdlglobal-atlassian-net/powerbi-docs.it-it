@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886114"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889237"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Eseguire la migrazione di report di SQL Server Reporting Services in Power BI
 
@@ -104,6 +104,8 @@ Non è tuttavia possibile eseguire la migrazione in Power BI dei tipi di element
 
 Se i report RDL si basano su funzionalità [non ancora supportate dai report impaginati di Power BI](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), è possibile decidere di svilupparli di nuovo come [report di Power BI](../consumer/end-user-reports.md). Anche se è possibile eseguire la migrazione dei report RDL, è consigliabile valutarne la modernizzazione come report di Power BI, quando opportuno.
 
+Se i report RDL devono recuperare dati da _origini dati locali_, non possono usare la funzione Single Sign-On (SSO). Tutte le operazioni di recupero dei dati da queste origini vengono attualmente eseguite tramite il contesto di sicurezza dell'_account utente dell'origine dati del gateway_. Per SQL Server Analysis Services (SSAS) non è possibile applicare la sicurezza a livello di riga per utente singolo.
+
 In genere, i report impaginati di Power BI sono ottimizzati per la **stampa** o la **generazione di PDF**. I report di Power BI sono ottimizzati per **esplorazione e interattività**. Per altre informazioni, vedere [Quando usare report impaginati in Power BI](report-paginated-or-power-bi.md).
 
 ### <a name="prepare"></a>Prepara
@@ -116,6 +118,8 @@ L'obiettivo della fase di _preparazione_ è quello di preparare tutti gli elemen
 1. Acquisire familiarità con la condivisione di Power BI e stabilire come verrà distribuito il contenuto mediante la pubblicazione di [app Power BI](../service-create-distribute-apps.md).
 1. Prendere in considerazione l'uso di [set di dati di Power BI condivisi](../service-datasets-build-permissions.md) al posto delle origini dati condivise di SSRS.
 1. Usare [Power BI Desktop](../desktop-what-is-desktop.md) per lo sviluppo di report ottimizzati per i dispositivi mobili, eventualmente usando l'[oggetto visivo personalizzato Power KPI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview) al posto di indicatori KPI e report per dispositivi mobili di SSRS.
+1. Rivalutare l'uso del campo predefinito **ID utente** nei report. Se si fa affidamento sull'**ID utente** per proteggere i dati dei report, è necessario comprendere che per i report impaginati (se ospitati nel servizio Power BI) viene restituito il nome dell'entità utente (UPN, User Principal Name). Invece di restituire il nome dell'account NT, ad esempio _AW\mblythe_, il campo predefinito restituirà quindi qualcosa di simile a _m.blythe&commat;adventureworks.com_. Sarà necessario rivedere le definizioni del set di dati e, forse, i dati di origine. Dopo la revisione e la pubblicazione, è consigliabile testare accuratamente i report per verificare che le autorizzazioni per i dati funzionino come previsto.
+1. Rivalutare l'uso del campo predefinito **ExecutionTime** nei report. Per i report impaginati (se ospitati nel servizio Power BI), il campo predefinito restituisce la data e l'ora _nell'ora UTC_. Questo può influire sui valori predefiniti dei parametri dei report e sulle etichette dell'ora di esecuzione dei report, aggiunte in genere nel piè di pagina dei report.
 1. Assicurarsi che gli autori dei report dispongano di [Power BI Report Builder](../report-builder-power-bi.md) e che le versioni successive possano essere distribuite facilmente in tutta l'organizzazione.
 
 ## <a name="migration-stage"></a>Fase di migrazione

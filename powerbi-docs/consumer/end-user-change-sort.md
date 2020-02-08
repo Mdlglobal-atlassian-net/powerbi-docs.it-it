@@ -6,40 +6,40 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/01/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: fdd43320fec2b96aa708cb5bb1a21e269a117d2a
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76889214"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
+
+
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 > [!IMPORTANT]
-> **Questo articolo è destinato agli utenti di Power BI senza autorizzazioni di modifica per il report o il set di dati. Per istruzioni più dettagliate sull'ordinamento, vedere [Ordinare per colonna in Power BI Desktop](../desktop-sort-by-column.md)**.
+> **Questo articolo è destinato agli utenti di Power BI che non hanno le autorizzazioni di modifica per il report o il set di dati e che lavorano solo nella versione online di Power BI (servizio Power BI). Se si è un *progettista* di report, un *amministratore* o un *proprietario*, è possibile che questo articolo non contenga tutte le informazioni necessarie. Per altre informazioni, leggere [Ordinare per colonna in Power BI Desktop](../desktop-sort-by-column.md)** .
 
-Nel servizio Power BI è possibile modificare l'aspetto di un oggetto visivo ordinandolo in base a campi dati diversi. La modifica dell'ordinamento di un oggetto visivo consente di dare risalto alle informazioni da comunicare.
+Nel servizio Power BI è possibile modificare l'aspetto di un oggetto visivo ordinandolo in base a campi dati diversi. La modifica dell'ordinamento di un oggetto visivo consente di dare risalto alle informazioni da comunicare. Sia che si usino dati numerici (come cifre di vendita) o dati di tipo testo (come nomi di stati), è possibile ordinare le visualizzazioni in qualsiasi modo. In Power BI sono disponibili funzionalità estremamente flessibili per l'ordinamento, nonché menu rapidi. 
 
 Gli oggetti visivi in un dashboard non possono essere ordinati, ma in un report di Power BI è possibile ordinare la maggior parte delle visualizzazioni 
 
-Sia che si usino dati numerici (come cifre di vendita) o dati di tipo testo (come nomi di stati), è possibile ordinare le visualizzazioni in qualsiasi modo. In Power BI sono disponibili funzionalità estremamente flessibili per l'ordinamento, nonché menu rapidi. 
-
 ## <a name="get-started"></a>Inizia
 
-Per iniziare, selezionare un oggetto visivo e scegliere **Altre azioni** (...).  Per l'ordinamento sono disponibili tre opzioni: **Ordinamento decrescente**, **Ordinamento crescente** e **Ordina per**. 
+Per iniziare, selezionare un oggetto visivo di report e scegliere **Altre azioni** (...).  Per l'ordinamento sono disponibili tre opzioni: **Ordinamento decrescente**, **Ordinamento crescente** e **Ordina per**. 
     
 
 ![grafico a barre ordinato alfabeticamente in base all'asse X](media/end-user-change-sort/power-bi-more-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>Ordinare alfabeticamente o numericamente
 
-Gli oggetti visivi possono essere ordinati alfabeticamente in base ai nomi delle categorie contenute nell'oggetto visivo oppure in base ai valori numerici di ogni categoria. Ad esempio, questo grafico viene ordinato alfabeticamente in base alla categoria **Name** dell'asse X, indicante il negozio.
+Gli oggetti visivi possono essere ordinati alfabeticamente in base ai nomi testuali delle categorie contenute nell'oggetto visivo oppure in base ai valori numerici di ogni categoria. Ad esempio, questo grafico viene ordinato alfabeticamente in base alla categoria **Name** dell'asse X, indicante il negozio.
 
 ![grafico a barre ordinato alfabeticamente in base all'asse X](media/end-user-change-sort/powerbi-sort-category.png)
 
@@ -55,7 +55,7 @@ Se necessario, passare dall'ordinamento crescente a quello decrescente.  Selezio
 > non è possibile ordinare tutti gli oggetti visivi. Non è ad esempio possibile ordinare gli oggetti visivi seguenti: mappa ad albero, mappa, mappa colorata, grafico a dispersione, misuratore, scheda, grafico a cascata.
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Salvataggio delle modifiche all'ordinamento
-I report di Power BI mantengono i filtri, i filtri dei dati, l'ordinamento e altre modifiche alla visualizzazione dei dati. Se quindi si esce da un report e lo si visualizza di nuovo, le modifiche apportate all'ordinamento risultano salvate.  Per annullare le modifiche e ripristinare le impostazioni del progettista del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore. 
+I report di Power BI mantengono i filtri, i filtri dei dati, l'ordinamento e altre modifiche alla visualizzazione dei dati, anche se si lavora nella [visualizzazione di lettura](end-user-reading-view.md). Di conseguenza, se si esce da un report e lo si visualizza di nuovo, le modifiche apportate all'ordinamento risultano salvate.  Per annullare le modifiche e ripristinare le impostazioni del *progettista* del report, selezionare **Ripristina impostazioni predefinite** dalla barra dei menu superiore. 
 
 ![ordinamento permanente](media/end-user-change-sort/power-bi-reset.png)
 
@@ -65,7 +65,11 @@ Se tuttavia il pulsante **Ripristina impostazioni predefinite** appare disattiva
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 
 ### <a name="sorting-using-other-criteria"></a>Ordinamento in base ad altri criteri
-In alcuni casi, è necessario ordinare l'oggetto visivo usando un campo diverso, che non è incluso nell'oggetto visivo, o altri criteri.  È ad esempio possibile ordinare per mese in modo sequenziale (e non alfabeticamente) oppure ordinare per numeri interi invece che per cifra (esempio 0, 1, 9, 20 e non 0, 1, 20, 9).  Solo la persona che ha progettato il report può apportare queste modifiche. Per trovare le informazioni sul contatto del *progettista*, selezionare il nome del report nella barra dell'intestazione.
+In alcuni casi, è necessario ordinare l'oggetto visivo usando un campo diverso, che non è incluso nell'oggetto visivo, o altri criteri.  È ad esempio possibile ordinare per mese in modo sequenziale (e non alfabeticamente) oppure ordinare per numeri interi invece che per cifra (esempio 0, 1, 9, 20 e non 0, 1, 20, 9).  
+
+Solo la persona che ha progettato il report può apportare queste modifiche. Per trovare le informazioni sul contatto del *progettista*, selezionare il nome del report nella barra dell'intestazione.
+
+Se si è un *progettista* e si hanno le autorizzazioni di modifica per il contenuto, leggere [Ordinare per colonna in Power BI Desktop](../desktop-sort-by-column.md) per informazioni su come aggiornare il set di dati e abilitare questo tipo di ordinamento.
 
 ![Elenco a discesa che mostra le informazioni di contatto](media/end-user-change-sort/power-bi-contact.png)
 

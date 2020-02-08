@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836711"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913563"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -33,7 +33,7 @@ I parametri della stringa di query possono essere anche utili per la creazione d
 
 Con i parametri, è possibile filtrare il report per uno o più valori, anche se tali valori contengono spazi o caratteri speciali. La sintassi di base è molto semplice: iniziare con l'URL del report, aggiungere un punto interrogativo e quindi aggiungere la sintassi del filtro.
 
-URL?filter=***Tabella***/***Campo*** eq '***valore***'
+*URL*?filter=*Tabella*/*Campo* eq '*valore*'
 
 ![URL con filtro](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ Il report viene filtrato in base alla Carolina del Nord; tutte le visualizzazion
 
 ![Report filtrato per la Carolina del Nord](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>Filtrare in base a più di un valore in un campo
+
+Per applicare un filtro in base a più di un valore in un singolo campo, usare l'operatore **in** anziché l'operatore **and**. La sintassi è:
+
+*URL*?filter=*Tabella*/*Campo* **in** ('*valore1*', '*valore2*')
+
+Usando lo stesso esempio, per filtrare il report in modo da visualizzare solo i dati relativi ai negozi in "NC" (Carolina del Nord) o "TN" (Tennessee), aggiungere all'URL quanto segue:
+
+?filter=Store/Territory in ('NC', 'TN')
+
+Vedere la tabella [Operatori](#operators) più avanti nell'articolo per un elenco di altri operatori utili.
+
 ## <a name="filter-on-multiple-fields"></a>Filtrare in base a più campi
 
 È possibile anche filtrare in base a più campi aggiungendo parametri aggiuntivi all'URL. Tornare al parametro filtro originale.
@@ -97,8 +109,6 @@ Per filtrare in base a campi aggiuntivi, aggiungere un operatore "**and**" e un 
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>Operatori
 

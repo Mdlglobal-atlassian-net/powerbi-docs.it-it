@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759200"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889283"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usare DirectQuery in Power BI Desktop
 Con *Power BI Desktop*, quando ci si connette all'origine dati è sempre possibile importare una copia dei dati in Power BI Desktop. Per alcune origini dati è disponibile un approccio alternativo: connettersi direttamente all'origine dati usando DirectQuery.
@@ -55,9 +55,9 @@ Esistono attualmente alcune limitazioni all'uso di DirectQuery:
 
 - Per garantire prestazioni accettabili per le query inviate all'origine dati sottostante, le espressioni DAX consentite nelle misure prevedono limitazioni.
 
-- Quando si usa DirectQuery, è previsto un limite di un milione di righe per la restituzione di dati. Il limite non influenza le aggregazioni o i calcoli usati per creare il set di dati restituito usando DirectQuery, ma solo le righe restituite.
+- Quando si usa DirectQuery, è previsto un limite di un milione di righe per la restituzione di dati a meno che si usi una capacità Premium. Il limite non influenza le aggregazioni o i calcoli usati per creare il set di dati restituito usando DirectQuery, ma solo le righe restituite. Le capacità Premium possono impostare limiti massimi per le righe, come descritto in [questo post](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
 
-    È possibile, ad esempio, aggregare 10 milioni di righe con la query eseguita sull'origine dati. In questo modo, vengono restituiti in modo accurato i risultati dell'aggregazione a Power BI usando DirectQuery, purché i dati restituiti a Power BI siano inferiori a 1 milione di righe. Se DirectQuery restituisce oltre 1 milione di righe, in Power BI viene visualizzato un errore.
+    È possibile, ad esempio, aggregare 10 milioni di righe con la query eseguita sull'origine dati. In questo modo, vengono restituiti in modo accurato i risultati dell'aggregazione a Power BI usando DirectQuery, purché i dati restituiti a Power BI siano inferiori a 1 milione di righe. Se DirectQuery restituisce più di 1 milione di righe, Power BI restituirà un errore, a meno che non si usi una capacità Premium e il conteggio delle righe sia sotto il limite impostato dall'amministratore.
 
 ## <a name="important-considerations-when-using-directquery"></a>Considerazioni importanti relative all'utilizzo di DirectQuery
 Quando si usa DirectQuery, devono essere presi in considerazione i tre punti seguenti:

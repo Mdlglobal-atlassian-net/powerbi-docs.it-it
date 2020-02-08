@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831289"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889375"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configurare i carichi di lavoro in una capacità Premium
 
@@ -67,7 +67,7 @@ Il carico di lavoro Set di dati è abilitato per impostazione predefinita e non 
 | **Max Intermediate Row Set Count** (Numero massimo di set di righe intermedie) | Numero massimo di righe intermedie restituite da DirectQuery. Il valore predefinito è 1 milione e l'intervallo consentito è compreso tra 100000 e 2147483647. |
 | **Dimensioni massime del set di dati offline (GB)** | Dimensioni massime del set di dati offline in memoria. Si tratta delle dimensioni compresse su disco. Il valore predefinito è impostato dallo SKU e l'intervallo consentito è compreso tra 0,1 e 10 GB. |
 | **Max Result Row Set Count** (Numero massimo di set di righe di risultati) | Numero massimo di righe restituite in una query DAX. Il valore predefinito è -1 (nessun limite) e l'intervallo consentito è compreso tra 100000 e 2147483647. |
-| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile che può essere usata per i risultati temporanei in una query o in una misura DAX. |
+| **Limite di memoria query (%)** | Percentuale massima di memoria disponibile nel carico di lavoro che può essere usata per l'esecuzione di una query MDX o DAX. |
 | **Timeout query (secondi)** | Quantità massima di tempo prima del timeout di una query. Il valore predefinito è 3600 secondi (1 ora). Il valore 0 specifica che non è previsto un timeout per le query. |
 | **Aggiornamento pagina automatico (anteprima)** | Abilitare/disabilitare l'opzione per consentire alle aree di lavoro Premium di avere report con aggiornamento automatico delle pagine. |
 | **Intervallo di aggiornamento minimo** | Se l'aggiornamento automatico delle pagine è abilitato, è l'intervallo minimo consentito per l'intervallo di aggiornamento della pagina. Il valore predefinito è 5 minuti, il minimo consentito è 1 secondo. |
@@ -99,11 +99,17 @@ Si noti che questa impostazione ha effetto solo sulle query DAX, mentre [Max Int
 
 Usare questa impostazione per controllare l'effetto dei report a elevato utilizzo di risorse o progettati in modo non corretto. Alcune query e calcoli possono produrre risultati intermedi che usano una grande quantità di memoria nella capacità. Questa situazione può rallentare molto l'esecuzione di altre query, causare l'eliminazione di altri set di dati dalla capacità e generare errori di memoria insufficiente per altri utenti della capacità.
 
-Questa impostazione si applica all'aggiornamento dei dati e al rendering del report. L'aggiornamento dei dati esegue sia l'aggiornamento dei dati dall'origine dati che l'aggiornamento delle query, a meno che l'aggiornamento delle query non sia disabilitato. Se l'aggiornamento delle query non è disabilitato, questo limite di memoria si applica anche a tali query. Tutte le query con esito negativo causano la segnalazione dello stato di aggiornamento pianificato come errore, anche se l'aggiornamento dei dati ha avuto esito positivo.
+Questa impostazione si applica a tutte le query DAX e MDX eseguite da report Power BI, da report Analizza in Excel e da altri strumenti che possono connettersi tramite l'endpoint XMLA.
+
+Si noti che le operazioni di aggiornamento dei dati possono eseguire anche query DAX nell'ambito dell'aggiornamento dei riquadri del dashboard e delle cache visive dopo l'aggiornamento dei dati nel set di dati. È anche possibile che a causa di questa impostazione tali query abbiano esito negativo e che di conseguenza l'operazione di aggiornamento dei dati venga visualizzata con uno stato di errore, anche se i dati nel set di dati sono stati aggiornati correttamente.
 
 #### <a name="query-timeout"></a>Timeout query
 
-Usare questa impostazione per mantenere un controllo migliore sulle query con esecuzione prolungata, che possono rallentare il caricamento dei report per gli utenti. Questa impostazione si applica all'aggiornamento dei dati e al rendering del report. L'aggiornamento dei dati esegue sia l'aggiornamento dei dati dall'origine dati che l'aggiornamento delle query, a meno che l'aggiornamento delle query non sia disabilitato. Se l'aggiornamento delle query non è disabilitato, questo limite di timeout si applica anche a tali query.
+Usare questa impostazione per mantenere un controllo migliore sulle query con esecuzione prolungata, che possono rallentare il caricamento dei report per gli utenti.
+
+Questa impostazione si applica a tutte le query DAX e MDX eseguite da report Power BI, da report Analizza in Excel e da altri strumenti che possono connettersi tramite l'endpoint XMLA.
+
+Si noti che le operazioni di aggiornamento dei dati possono eseguire anche query DAX nell'ambito dell'aggiornamento dei riquadri del dashboard e delle cache visive dopo l'aggiornamento dei dati nel set di dati. È anche possibile che a causa di questa impostazione tali query abbiano esito negativo e che di conseguenza l'operazione di aggiornamento dei dati venga visualizzata con uno stato di errore, anche se i dati nel set di dati sono stati aggiornati correttamente.
 
 Questa impostazione si applica a una singola query e non al tempo necessario per l'esecuzione di tutte le query associate all'aggiornamento di un set di dati o di un report. Si consideri l'esempio seguente:
 
@@ -144,7 +150,7 @@ Per trarre vantaggio dal nuovo motore di calcolo, suddividere l'inserimento di d
 
 #### <a name="container-size"></a>Dimensioni del contenitore
 
-Quando si aggiorna un flusso di dati, il carico di lavoro Flussi di dati genera un contenitore per ogni entità nel flusso di dati. Ogni contenitore può arrivare a usare una quantità di memoria pari al volume specificato nell'impostazione **Dimensioni contenitore. L'impostazione predefinita per tutti gli SKU è 700 MB. Potrebbe essere necessario modificare questa impostazione se:
+Quando si aggiorna un flusso di dati, il carico di lavoro Flussi di dati genera un contenitore per ogni entità nel flusso di dati. Ogni contenitore può arrivare a usare una quantità di memoria pari al volume specificato nell'impostazione Dimensioni del contenitore. L'impostazione predefinita per tutti gli SKU è 700 MB. Potrebbe essere necessario modificare questa impostazione se:
 
 - L'aggiornamento dei flussi di dati richiede troppo tempo oppure l'aggiornamento dei flussi di dati non riesce a causa di un timeout.
 - Le entità dei flussi di flussi includono passaggi di calcolo, ad esempio un join.  

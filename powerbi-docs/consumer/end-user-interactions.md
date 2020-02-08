@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303845"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888501"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Filtro incrociato per gli oggetti visivi in un report di Power BI
 Una delle funzionalità interessanti di Power BI è il modo in cui sono interconnessi tutti gli oggetti visivi in una pagina del report. Se si seleziona un punto dati in uno degli oggetti visivi, tutti gli altri oggetti visivi nella pagina che contengono tali dati cambiano in base alla selezione. 
@@ -45,7 +45,8 @@ Definiamo questi termini aiutandoci con le pagine di report seguenti. Il grafico
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
-- Se il report ha un oggetto visivo che supporta il [drill](end-user-drill.md) per impostazione predefinita, l'esecuzione del drill in un oggetto visivo non ha alcun impatto sugli altri oggetti visivi nella pagina del report.     
+- Se il report ha un oggetto visivo che supporta il [drill](end-user-drill.md) per impostazione predefinita, l'esecuzione del drill in un oggetto visivo non ha alcun impatto sugli altri oggetti visivi nella pagina del report. Tuttavia, il *progettista* del report può modificare questo comportamento, quindi controllare gli oggetti visivi che supportano il drill per verificare se il **drill di filtri su altri oggetti visivi** è stato abilitato dal *progettista* del report.
+    
 - I filtri a livello di oggetto visivo vengono conservati quando si applica un filtro incrociato e l'evidenziazione incrociata ad altri oggetti visivi nella pagina del report. Se quindi l'oggetto visivo A dispone di filtri a livello di oggetto visivo applicati dal progettista del report o dall'utente e si usa tale oggetto visivo per interagire con l'oggetto visivo B, i filtri a livello di oggetto visivo di A verranno applicati a B.
 
     ![Pagina del report dopo la selezione del segmento Moderation del grafico ad anello](media/end-user-interactions/power-bi-visual-filters.png)

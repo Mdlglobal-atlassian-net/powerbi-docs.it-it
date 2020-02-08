@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 444a6978b0fcf841f0d0a3b2d50cc70062389cba
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6c2c41221e4a199d6a5d3a800f3820746ef7389a
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222046"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888363"
 ---
 # <a name="get-power-bi-desktop"></a>Scarica Power BI Desktop
 Power BI Desktop consente di creare query, modelli e report avanzati per la visualizzazione dei dati. Con Power BI Desktop, è possibile creare modelli di dati e report, nonché condividere il proprio lavoro pubblicandolo nel servizio Power BI. Il download di Power BI Desktop è gratuito.
@@ -132,6 +132,8 @@ Quando si installa Power BI Desktop, è possibile impostare le proprietà e le o
 |INSTALLLOCATION     |Percorso file in cui si vuole eseguire l'installazione         |
 |LANGUAGE     |Codice delle impostazioni locali, ad esempio en-US, de-DE, pr-BR, per forzare la lingua predefinita dell'applicazione. Se non si specifica la lingua, Power BI Desktop visualizza quella del sistema operativo Windows. È possibile modificare questa impostazione nella finestra di dialogo **Opzioni**.         |
 |REG_SHOWLEADGENDIALOG     |Il valore 0 disabilita la visualizzazione della finestra di dialogo che appare prima dell'accesso a Power BI Desktop.         |
+|DISABLE_UPDATE_NOTIFICATION     |Il valore 1 disabilita le notifiche di aggiornamento.         |
+
 
 È ad esempio possibile eseguire Power BI Desktop con le opzioni e i parametri seguenti per l'installazione senza interfaccia utente in lingua tedesca: 
 

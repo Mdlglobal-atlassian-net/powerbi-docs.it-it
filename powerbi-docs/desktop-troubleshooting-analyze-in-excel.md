@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 05/08/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 987078ae33af10e9c33b4d8a00f8e2e688be12a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8f4ed049fad2739ef8cc5cd307c06100f68419bd
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865770"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889306"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Risoluzione dei problemi di Analizza in Excel
 
@@ -84,7 +84,7 @@ Se viene visualizzato un errore di **token scaduto**, la funzionalità **Analizz
 Se si prova ad accedere a un set di dati con connessioni ai dati di Analysis Services locale si può ricevere un messaggi di errore. **Analizza in Excel** supporta la connessione a set di dati e report in **Analysis Services** locale con una stringa di connessione, purché il computer si trovi nello stesso dominio del server di **Analysis Services** e che l'account abbia accesso a tale server di **Analysis Services**.
 
 ## <a name="cant-drag-anything-to-the-pivottable-values-area-no-measures"></a>Impossibile trascinare elementi nell'area Valori della tabella pivot (nessuna misura)
-Quando **Analizza in Excel** si connette a un modello OLAP esterno (ovvero la modalità di connessione di Excel a Power BI), la *tabella pivot* [richiede **misure** da definire nel modello esterno](https://support.microsoft.com/kb/234700), poiché tutti i calcoli vengono eseguiti nel server. Questo comportamento è diverso rispetto a quando si lavora con un'origine dati locale (ad esempio le tabelle in Excel, o quando si lavora con set di dati in **Power BI Desktop** o **Servizio Power BI**), nel qual caso il modello tabulare è disponibile in locale ed [è possibile utilizzare le misure implicite](https://msdn.microsoft.com/library/gg399077.aspx), ovvero misure che vengono generate in modo dinamico e non sono archiviate nel modello di dati. In questi casi, il comportamento in Excel è diverso da quello in **Power BI Desktop** o **Servizio Power BI**: alcune colonne nei dati potrebbero essere considerate come misure in Power BI, ma non possono essere usate come valori (misure) in Excel.
+Quando **Analizza in Excel** si connette a un modello OLAP esterno (vale a dire la modalità di connessione di Excel a Power BI), la *tabella pivot* [richiede **misure** da definire nel modello esterno](https://support.microsoft.com/kb/234700), poiché tutti i calcoli vengono eseguiti nel server. Questo comportamento è diverso rispetto a quando si lavora con un'origine dati locale (ad esempio le tabelle in Excel, o quando si lavora con set di dati in **Power BI Desktop** o **Servizio Power BI**), nel qual caso il modello tabulare è disponibile in locale ed [è possibile utilizzare le misure implicite](https://msdn.microsoft.com/library/gg399077.aspx), ovvero misure che vengono generate in modo dinamico e non sono archiviate nel modello di dati. In questi casi, il comportamento in Excel è diverso da quello in **Power BI Desktop** o **Servizio Power BI**: alcune colonne nei dati potrebbero essere considerate come misure in Power BI, ma non possono essere usate come valori (misure) in Excel.
 
 Per risolvere questo problema, ci sono alcune opzioni:
 
@@ -105,5 +105,4 @@ Dopo aver definito le misure nel modello di Servizio Power BI, sarà possibile u
 
 [Aggiungere i dati di un foglio di lavoro a un modello di dati usando una tabella collegata](https://support.office.com/article/Add-worksheet-data-to-a-Data-Model-using-a-linked-table-d3665fc3-99b0-479d-ba09-a37640f5be42)
 
-[Differenze tra le tabelle pivot OLAP e non OLAP in Excel](https://support.microsoft.com/kb/234700)
 
