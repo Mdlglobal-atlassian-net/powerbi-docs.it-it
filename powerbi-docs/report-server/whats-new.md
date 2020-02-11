@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819561"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026716"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novità del Server di report di Power BI
 
@@ -160,7 +160,7 @@ Con Azure Active Directory Application Proxy non è più necessario gestire il p
 
 #### <a name="custom-headers"></a>Intestazioni personalizzate
 
-Impostare i valori di intestazione per tutti gli URL che corrispondono al modello regex specificato. Gli utenti possono aggiornare il valore dell'intestazione personalizzata con XML valido per impostare i valori di intestazione per gli URL di richiesta selezionati. Gli amministratori possono aggiungere un numero qualsiasi di intestazioni nel codice XML. Per informazioni dettagliate, vedere [Intestazioni personalizzate](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) nell'articolo **Pagina Avanzate delle proprietà del server** di Reporting Services.
+Impostare i valori di intestazione per tutti gli URL che corrispondono al modello regex specificato. Gli utenti possono aggiornare il valore dell'intestazione personalizzata con XML valido per impostare i valori di intestazione per gli URL di richiesta selezionati. Gli amministratori possono aggiungere un numero qualsiasi di intestazioni nel codice XML. Per informazioni dettagliate, vedere [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) nell'articolo **Pagina Avanzate delle proprietà del server** di Reporting Services.
 
 #### <a name="transparent-database-encryption"></a>Crittografia trasparente del database
 
