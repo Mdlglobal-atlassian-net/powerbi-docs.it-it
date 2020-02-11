@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837254"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076661"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informazioni sull'uso di DirectQuery in Power BI
 
@@ -312,7 +312,7 @@ Oltre ai suggerimenti precedenti, ognuna delle funzionalità di creazione di rep
 
 * **Mediana:** per le aggregazioni, come `Sum` o `Count Distinct`, viene in genere eseguito il push nell'origine sottostante. Questo non vale tuttavia per la mediana, perché questa aggregazione non è in genere supportata dall'origine sottostante. In questi casi, i dati di dettaglio vengono recuperati dall'origine sottostante e la mediana viene calcolata dai risultati restituiti. Questo approccio è appropriato quando la mediana deve essere calcolata su un numero relativamente ridotto di risultati, mentre si verificheranno problemi di prestazioni o errori di query a causa del limite di 1 milione di righe, se la cardinalità è di grandi dimensioni. La **mediana della popolazione nazionale** potrebbe essere ad esempio un'operazione ragionevole, mentre la **mediana del prezzo di vendita** potrebbe non esserlo.
 
-* **Filtri di testo avanzati (* contiene* e simili):* * quando si filtra una colonna di testo, il filtro avanzato accetta parametri come *contiene*, *inizia con* e così via. Questi filtri possono certamente comportare prestazioni ridotte per alcune origini dati. In particolare, il filtro *contiene* predefinito non deve essere usato se si vuole ottenere una corrispondenza esatta. Anche se i risultati possono essere gli stessi, a seconda dei dati effettivi, le prestazioni potrebbero differire notevolmente a causa dell'uso degli indici.
+* **Filtri per testo avanzati (_contiene_ e così via):** quando si filtra una colonna di testo, il filtro avanzato consente parametri come *contiene* *inizia con* e così via. Questi filtri possono certamente comportare prestazioni ridotte per alcune origini dati. In particolare, il filtro *contiene* predefinito non deve essere usato se si vuole ottenere una corrispondenza esatta. Anche se i risultati possono essere gli stessi, a seconda dei dati effettivi, le prestazioni potrebbero differire notevolmente a causa dell'uso degli indici.
 
 * **Filtri dei dati di selezione multipla:** per impostazione predefinita, i filtri dei dati consentono una sola selezione. Consentire la selezione multipla nei filtri può causare problemi di prestazioni, in quanto l'utente seleziona un set di elementi nel filtro dei dati. Ad esempio, se l'utente seleziona i 10 prodotti di interesse, ogni nuova selezione comporta l'invio di query all'origine. Anche se l'utente può selezionare l'elemento successivo prima che la query venga completata, questo approccio comporta in ogni caso un carico aggiuntivo sull'origine sottostante.
 

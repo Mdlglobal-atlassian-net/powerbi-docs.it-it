@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: e3154e5a143de63300e7f5dc87cec518188a3442
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75837599"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076677"
 ---
 # <a name="power-bi-webinars"></a>Webinar di Power BI
 
@@ -36,6 +36,10 @@ Iniziare dai webinar on demand più popolari
 **How Microsoft Is Changing BI Data Protection** (In che modo Microsoft sta cambiando la protezione dei dati di business intelligence)
 <br>di Anton Fritz e Adi Regev
 <br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Come diventare un'azienda basata sulle informazioni dettagliate**
+<br>di Amir Netz, Microsoft e Boris Evelson, Forrester
+<br>[Registrarsi e guardare adesso](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
 
 **Tre modi in cui l'intelligenza artificiale sta cambiando BI**
 <br>di Justyna Lucznik

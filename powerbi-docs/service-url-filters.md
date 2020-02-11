@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913563"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076626"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrare un report usando i parametri della stringa di query nell'URL
 
@@ -193,7 +193,7 @@ Questa discrepanza è utile quando si vogliono visualizzare risultati diversi, f
 Ci sono un paio di aspetti da tenere presenti quando si usano i parametri della stringa di query.
 
 * Quando si usa l'operatore *in*, i valori a destra di *in* devono essere un elenco delimitato da virgole racchiuso tra parentesi.    
-* Nel Server di report di Power BI è possibile [passare parametri del report](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) includendoli in un URL del report. Questi parametri URL non hanno un prefisso in quanto vengono passati direttamente al motore di elaborazione dei report.
+* Server di report di Power BI supporta anche la capacità di specificare filtri aggiuntivi tramite il parametro URL "fillter".  Ad esempio, in Server di report di Power BI l'URL potrebbe essere simile al seguente: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * Il filtro della stringa di query non funziona con l'opzione [Pubblica sul Web](service-publish-to-web.md) o [Esporta in PDF](consumer/end-user-pdf.md).
 * La funzione descritta in [Incorporare con web part report in SharePoint Online](service-embed-report-spo.md) non supporta i filtri URL.
 * Il tipo di dati long è (2^53-1) a causa di limitazioni di JavaScript.

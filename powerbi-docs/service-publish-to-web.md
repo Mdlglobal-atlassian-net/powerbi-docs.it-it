@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913635"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076709"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Pubblicare sul Web da Power BI
 
-L'opzione **Pubblica sul Web** di Power BI consente di incorporare con facilità visualizzazioni interattive di Power BI online, ad esempio in post di blog, siti Web, via posta elettronica o social media, da qualsiasi dispositivo. È anche possibile modificare, aggiornare o annullare facilmente la condivisione degli oggetti visivi pubblicati.
+L'opzione **Pubblica sul Web** di Power BI consente di incorporare con facilità visualizzazioni interattive di Power BI online, ad esempio in post di blog, siti Web, via posta elettronica o social media, da qualsiasi dispositivo. È anche possibile modificare, aggiornare o interrompere facilmente la condivisione degli oggetti visivi pubblicati.
 
 > [!WARNING]
 > Quando si usa **Pubblica sul Web**, chiunque su Internet può visualizzare il report o l'oggetto visivo pubblicato. Ciò non richiede alcuna autenticazione e include la visualizzazione dettagliata dei dati aggregati dai report. Prima di pubblicare un report, verificare che sia opportuno condividere pubblicamente i dati e le visualizzazioni. Non pubblicare informazioni riservate o di proprietà. In caso di dubbio, prima di procedere alla pubblicazione verificare i criteri dell'organizzazione.
@@ -40,9 +40,11 @@ La procedura seguente illustra come usare la funzionalità **Pubblica sul Web**.
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. Contattare l'amministratore di Power BI se non si è autorizzati a creare codici di incorporamento
+2. Contattare l'[amministratore di Power BI](service-admin-role.md) se non si è autorizzati a creare codici di incorporamento
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   Per assistenza su come trovare la persona in grado di abilitare la funzione Pubblica sul Web nell'organizzazione, [vedere questi suggerimenti](#how-to-find-your-power-bi-administrator).
 
 3. Esaminare il contenuto della finestra di dialogo e selezionare **Crea codice di incorporamento**.
 
@@ -73,7 +75,7 @@ La tabella seguente include indicazioni sulla modalità di visualizzazione e sul
 | --- | --- |
 | ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Adatta alla pagina** rispetta l'altezza e la larghezza della pagina del report. Se si imposta la pagina su proporzioni *dinamiche*, ad esempio 16:9 o 4:3, il contenuto viene ridimensionato in modo da adattarsi all'interno dell'iFrame. Se si incorpora il report in un iFrame, usando la modalità **Adatta alla pagina** si può ottenere il *letterboxing*, in cui viene visualizzato uno sfondo grigio nelle aree dell'iFrame dopo che il contenuto viene ridimensionato in modo che si adatti all'interno dell'iFrame. Per ridurre il letterboxing, impostare l'altezza e la larghezza dell'iFrame in modo appropriato. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |La modalità **Dimensioni effettive** garantisce che vengano mantenute le dimensioni definite nella pagina del report. È quindi possibile che nell'iFrame siano visualizzate barre di scorrimento. Impostare l'altezza e la larghezza dell'iFrame per evitare le barre di scorrimento. |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |La modalità **Adatta in larghezza** assicura che i contenuti si adattino all'area orizzontale dell'iFrame. Viene comunque visualizzato un bordo, ma il contenuto viene ridimensionato in modo da usare tutto lo spazio orizzontale disponibile. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |La modalità **Adatta in larghezza** assicura che i contenuti occupino l'area orizzontale dell'iFrame. Viene comunque visualizzato un bordo, ma il contenuto viene ridimensionato in modo da usare tutto lo spazio orizzontale disponibile. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Suggerimenti e consigli per l'altezza e la larghezza dell'iFrame
 
@@ -194,6 +196,21 @@ Per usare la funzionalità **Pubblica sul Web**, è necessario essere utenti di 
 Quando si crea un codice di incorporamento usando **Pubblica sul Web**, il report viene reso disponibile agli utenti di Internet. Essendo disponibile pubblicamente, è probabile che in futuro gli utenti condividano il report attraverso i social media. Quando gli utenti visualizzano il report, selezionando l'URL pubblico diretto o visualizzandolo incorporato in una pagina Web o un blog, Power BI memorizza nella cache la definizione del report e i risultati delle query necessarie per visualizzare il report. Ciò garantisce che migliaia di utenti simultanei possano visualizzare il report senza influire sulle prestazioni.
 
 La cache è di lunga durata, quindi se si aggiorna la definizione del report, ad esempio se si cambia la modalità di visualizzazione, o si aggiornano i dati del report, la visualizzazione dei cambiamenti nella versione del report visualizzata dagli utenti può richiedere circa un'ora. È quindi consigliabile eseguire anticipatamente lo staging del lavoro e creare il codice di incorporamento di **Pubblica sul Web** solo quando si è soddisfatti delle impostazioni.
+
+## <a name="how-to-find-your-power-bi-administrator"></a>Come trovare l'amministratore di Power BI
+
+Per modificare l'[impostazione Pubblica sul Web del tenant](#tenant-setting), sarà necessario collaborare con l'[amministratore di Power BI](service-admin-role.md) dell'organizzazione.
+
+Per le organizzazioni più piccole o gli utenti singoli iscritti a Power BI, potrebbe non essere ancora presente un amministratore di Power BI. Sarà necessario seguire la nostra [procedura per l'acquisizione dell'amministratore del tenant](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover). Dopo essere stato individuato, l'amministratore di Power BI può abilitare la creazione dei codici incorporati.
+
+Le organizzazioni avviate in genere hanno già un amministratore di Power BI. Le persone in possesso di uno qualsiasi dei ruoli seguenti possono agire come amministratori di Power BI:
+
+- Amministratori di Office 365
+- Amministratori di Azure Active Directory
+- Utenti con il ruolo di amministratore del servizio Power BI in Azure Active Directory
+
+È necessario [individuare una di queste persone](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) nell'organizzazione, che potrà quindi aggiornare l'impostazione.
+
 
 ## <a name="next-steps"></a>Passaggi successivi
 

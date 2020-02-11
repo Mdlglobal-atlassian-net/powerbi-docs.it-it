@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 016b83e983f2b3139eb040a1f1d8d48d70b44a52
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953498"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076600"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Novità in Power BI Desktop
 
@@ -31,9 +31,9 @@ La versione più recente di Power BI Desktop può essere scaricata dall'[Area do
 
 I collegamenti accanto a ogni funzionalità nell'elenco degli aggiornamenti di Power BI Desktop vengono interpretati nel modo seguente:
 
-* [blog]: Most features are explained in a section in the monthly update blog post.
-* [video]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
-* [article]: Some features have an article that provides more detail.
+* \[blog\]: La maggior parte delle funzionalità è descritta in una sezione nel post di blog dedicato all'aggiornamento mensile.
+* \[video\]: Alcune funzionalità includono un estratto video che illustra la funzionalità e viene riprodotto in una nuova scheda del browser.
+* \[articolo\]: Alcune funzionalità sono corredate da un articolo che offre informazioni più dettagliate.
 * Le funzionalità rimanenti sono di chiara interpretazione e non richiedono un articolo o un video specifico.
 
 È anche possibile guardare l'intero [video degli aggiornamenti mensili di Power BI Desktop](#power-bi-desktop-monthly-update-video).
