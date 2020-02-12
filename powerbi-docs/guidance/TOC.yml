@@ -66,6 +66,8 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: Amministrazione e distribuzione
           items:
+            - name: Impostazioni dell’amministratore tenant
+              href: admin-tenant-settings.md
             - name: Servizio gateway dati locale
               href: gateway-onprem-sizing.md
     - name: White paper
