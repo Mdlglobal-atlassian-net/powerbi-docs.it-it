@@ -25,7 +25,7 @@ Questo articolo illustra come incorporare un report di Server di report di Power
 * [Server di report di Power BI](https://powerbi.microsoft.com/report-server/) installato e configurato.
 * [Power BI Desktop ottimizzato per Server di report di Power BI](install-powerbi-desktop.md) installato.
 * Ambiente [SharePoint](https://docs.microsoft.com/sharepoint/install/install) installato e configurato.
-* Internet Explorer 11 è supportato solo se la modalità documento è impostata sulla modalità IE11 (Edge) o se si usa SharePoint Online. È possibile usare altri browser supportati con SharePoint locale e SharePoint Online.
+* Internet Explorer 11 è supportato solo se la modalità documento è impostata sulla modalità IE11 (Microsoft Edge) o se si usa SharePoint Online. È possibile usare altri browser supportati con SharePoint locale e SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Creare l'URL del report Power BI
 
