@@ -41,7 +41,7 @@
               href: visuals/objects-properties.md
             - name: Modalità di modifica avanzata
               href: visuals/advanced-edit-mode.md
-        - name: Procedura
+        - name: Procedure
           items:
             - name: Ottenere un oggetto visivo Power BI certificato
               href: power-bi-custom-visuals-certified.md
@@ -75,7 +75,7 @@
               href: visuals/enable-sync-slicers.md
             - name: Risoluzione dei problemi relativi agli oggetti visivi di Power BI
               href: power-bi-custom-visuals-troubleshoot.md
-        - name: Riferimento
+        - name: Informazioni di riferimento
           items:
             - name: Pagina di destinazione
               href: visuals/landing-page.md
@@ -105,7 +105,7 @@
                   href: visuals/utils-dataview.md
         - name: Risorse
           items:
-            - name: Dev Center
+            - name: Centro per sviluppatori
               href: 'https://powerbi.microsoft.com/developers/'
             - name: Esempi
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
@@ -152,7 +152,7 @@
               href: embedded-faq.md
             - name: Autorizzazioni di Power BI
               href: power-bi-permissions.md
-        - name: Procedura
+        - name: Procedure
           items:
             - name: Incorporare da un'app
               href: embed-from-apps.md
@@ -168,7 +168,7 @@
               href: embed-dynamic-binding.md
             - name: Incorporamento di domande e risposte
               href: qanda.md
-            - name: Risolvere i problemi dell'applicazione incorporata
+            - name: Risoluzione dei problemi dell'applicazione incorporata
               href: embedded-troubleshoot.md
             - name: Gestire le capacità in Azure
               items:
@@ -188,11 +188,11 @@
                   href: migrate-tool.md
                 - name: Frammenti di codice per la migrazione
                   href: migrate-code-snippets.md
-        - name: Riferimento
+        - name: Informazioni di riferimento
           items:
             - name: API
               items:
-                - name: API REST di gestione delle risorse di Azure
+                - name: API REST di Gestione delle risorse di Azure
                   href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
                 - name: API REST di Power BI
                   href: 'https://msdn.microsoft.com/library/mt147898.aspx'
@@ -204,13 +204,13 @@
               href: embedded-custom-layout.md
         - name: Risorse
           items:
-            - name: Dev Center
+            - name: Centro per sviluppatori
               href: 'https://powerbi.microsoft.com/en-us/developers/'
             - name: Strumento di installazione dell'incorporamento
               href: 'https://aka.ms/embedsetup'
-            - name: Esempio JavaScript Playground
+            - name: Esempio di playground JavaScript
               href: 'https://go.microsoft.com/fwlink/?linkid=848279'
-            - name: Wiki JavaScript di Power BI
+            - name: Wiki JavaScript Power BI
               href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
             - name: Repository Git JavaScript
               href: 'https://go.microsoft.com/fwlink/?linkid=848276'
@@ -235,7 +235,7 @@
               href: walkthrough-push-data.md
             - name: Ottenere un token di accesso per l'autenticazione
               href: walkthrough-push-data-get-token.md
-            - name: Crea un set di dati
+            - name: Creare un set di dati
               href: walkthrough-push-data-create-dataset.md
             - name: Ottenere un set di dati per aggiungere righe
               href: walkthrough-push-data-get-datasets.md
@@ -245,21 +245,21 @@
           items:
             - name: Criteri di conservazione automatici per dati in tempo reale
               href: api-automatic-retention-policy-for-real-time-data.md
-            - name: Push dei dati
+            - name: Effettuare il push dei dati
               items:
                 - name: Limitazioni dell'API REST di Power BI
                   href: api-rest-api-limitations.md
-                - name: Proprietà dei set di dati
+                - name: Proprietà del set di dati
                   href: api-dataset-properties.md
                 - name: Controllo delle versioni del modello di dati
                   href: api-data-model-versioning.md
-        - name: Procedura
+        - name: Procedure
           items:
             - name: Configurare le credenziali
               href: configure-credentials.md
             - name: Crittografare le credenziali
               href: encrypt-credentials.md
-        - name: Riferimento
+        - name: Informazioni di riferimento
           items:
             - name: API REST
               href: 'https://docs.microsoft.com/rest/api/power-bi'
@@ -269,7 +269,7 @@
               href: walkthrough-push-data-complete-code.md
         - name: Risorse
           items:
-            - name: Dev Center
+            - name: Centro per sviluppatori
               href: 'https://powerbi.microsoft.com/en-us/developers/'
             - name: 'Repository Git C# per Power BI'
               href: 'https://go.microsoft.com/fwlink/?linkid=848273'
