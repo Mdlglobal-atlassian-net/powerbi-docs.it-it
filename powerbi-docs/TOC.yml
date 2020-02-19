@@ -429,6 +429,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: 'Amministratori: Gestire il modulo di accesso di Power BI Desktop'
           href: desktop-admin-sign-in-form.md
+        - name: Risoluzione dei problemi di accesso per Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Accessibilità
           items:
             - name: Informazioni sull'accessibilità di Power BI
@@ -827,6 +829,8 @@
                   href: service-connect-to-xero.md
                 - name: Zendesk
                   href: service-connect-to-zendesk.md
+                - name: Data Warehouse di Snowflake
+                  href: service-connect-snowflake.md
             - name: Pacchetti di contenuto aziendali
               items:
                 - name: Introduzione ai pacchetti di contenuto aziendali
