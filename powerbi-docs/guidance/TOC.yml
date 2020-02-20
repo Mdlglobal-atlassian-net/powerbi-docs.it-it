@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: Evitare l'uso di FILTER come argomento di filtro
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Report di Power BI
+          items:
             - name: Estendere gli oggetti visivi con descrizioni comando per le pagine dei report
               href: report-page-tooltips.md
             - name: Usare il drill-through nelle pagine dei report
               href: report-drillthrough.md
-            - name: Quando usare report impaginati in Power BI
+        - name: Report impaginati di Power BI
+          items:
+            - name: Quando usare report impaginati
               href: report-paginated-or-power-bi.md
-            - name: Usare i parametri a cascata nei report impaginati
+            - name: Usare parametri a cascata
               href: paginated-report-cascading-parameter.md
-            - name: Evitare le pagine vuote durante la stampa di report impaginati
+            - name: Evitare le pagine vuote durante la stampa
               href: report-paginated-blank-page.md
             - name: Eseguire la migrazione di report SSRS in Power BI
               href: migrate-ssrs-reports-to-power-bi.md
