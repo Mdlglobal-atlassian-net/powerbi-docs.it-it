@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895491"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154407"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creare oggetti visivi Matrice in Power BI
 
@@ -136,17 +136,32 @@ Nell'immagine seguente è presente un oggetto visivo Matrice con il Layout con r
 
 Se si disattiva Layout con rientri, Power BI mostra le sottocategorie in un'altra colonna, anziché rientrate sotto la categoria padre.
 
-## <a name="subtotals-with-matrix-visuals"></a>Subtotali con oggetti visivi matrice
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>Subtotali e totali complessivi con oggetti visivi matrice
 
-Negli oggetti visivi matrice è possibile attivare o disattivare i subtotali, sia per le righe che per le colonne. L'immagine seguente mostra che i subtotali delle righe sono impostati su **Attivato**.
+Negli oggetti visivi matrice è possibile attivare o disattivare i subtotali, sia per le righe che per le colonne. Nell'immagine seguente è possibile notare che la visualizzazione dei subtotali delle righe è **attivata** e i subtotali sono impostati in modo da essere visualizzati in basso.
 
-![matrice con subtotali e totali](media/desktop-matrix-visual/matrix-visual_20.png)
+![matrice con subtotali e totali](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-Nella sezione Formato del riquadro Visualizzazioni espandere la scheda **Subtotali** e impostare il dispositivo di scorrimento Subtotali righe su **No**. In questo caso, i subtotali non vengono visualizzati.
+Quando si attiva **Subtotali** e si aggiunge un'etichetta, Power BI aggiunge anche una riga e la stessa etichetta per il valore totale complessivo. Per formattare il totale complessivo, selezionare l'opzione di formato per **Totale complessivo**. 
 
-![matrice con subtotali disattivati](media/desktop-matrix-visual/matrix-visual_21.png)
+![matrice che mostra la scheda Totale complessivo](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+Se si vogliono disattivare i subtotali e il totale complessivo, nella sezione Formato del riquadro Visualizzazioni espandere la scheda **Subtotali**. Impostare su **No** il dispositivo di scorrimento per i subtotali delle righe. In questo caso, i subtotali non vengono visualizzati.
+
+![matrice con subtotali disattivati](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 Lo stesso processo vale per i subtotali delle colonne.
+
+## <a name="add-conditional-icons"></a>Aggiungere icone condizionali
+È possibile aggiungere indicatori visivi alla tabella o alla matrice con le *icone condizionali*. 
+
+Nella sezione Formato del riquadro Visualizzazioni espandere la scheda **Formattazione condizionale**. Impostare su **Sì** il dispositivo di scorrimento **Icone** e selezionare **Controlli avanzati**.
+
+![Schermata della matrice con icone](media/desktop-matrix-visual/power-bi-icons.png)
+
+Modificare le condizioni, le icone e i colori per la matrice e selezionare **OK**. In questo esempio è stata usata una bandiera rossa per i valori bassi, il cerchio viola per i valori alti e il triangolo giallo per tutti gli elementi compresi tra i due. 
+
+![Matrice con icone visualizzate](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Evidenziazione incrociata con gli oggetti visivi matrice
 

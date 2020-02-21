@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220219"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259782"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi Android
 L'app Android per Microsoft Power BI offre l'esperienza BI per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. 
@@ -52,11 +52,11 @@ Se non è ancora stata eseguita l'iscrizione, passare al [servizio Power BI](htt
 1. Nel dispositivo Android aprire l'app Power BI per Android.
    
    ![Icona di Power BI](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Per visualizzare i dashboard e i report di Power BI, toccare **Power BI**.  
-   
-   Se viene visualizzato un messaggio che indica che non è possibile eseguire l'accesso a Power BI, vedere ["Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) per informazioni dettagliate su come risolvere il problema.
+2. Per accedere a Power BI, toccare la scheda **Power BI** e immettere i dettagli di accesso.
 
-   Per visualizzare i report e gli indicatori KPI del Server di report di Power BI e di Reporting Services, toccare **Server di report**.
+    Se viene visualizzato un messaggio che indica che non è possibile eseguire l'accesso a Power BI, vedere ["Non è stato possibile eseguire l'autenticazione perché il certificato SSL aziendale non è considerato attendibile"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) per informazioni dettagliate su come risolvere il problema.
+
+   Per accedere ai report per dispositivi mobili e agli indicatori KPI di Reporting Services, toccare la scheda **Server di report** e immettere i dettagli di accesso.
    
    ![Accedere a Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

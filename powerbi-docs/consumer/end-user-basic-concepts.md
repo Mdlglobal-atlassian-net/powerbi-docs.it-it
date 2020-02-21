@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852236"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260110"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Concetti di base del servizio Power BI per i consumer
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Questo articolo presuppone che l'utente abbia già letto gli articoli di [panoramica di Power BI](../fundamentals/power-bi-overview.md) e si sia identificato come [consumer***di***Power BI](end-user-consumer.md). I consumer ricevono il contenuto di Power BI, ad esempio dashboard e report, dai colleghi. I consumer usano il servizio Power BI, ovvero la versione di Power BI basata sul sito Web.
+Questo articolo presuppone che l'utente abbia già letto gli articoli di [panoramica di Power BI](../fundamentals/power-bi-overview.md) e si sia identificato come [ **_utente finale_** di Power BI](end-user-consumer.md). I consumer ricevono il contenuto di Power BI, ad esempio dashboard e report, dai colleghi. I consumer usano il servizio Power BI, ovvero la versione di Power BI basata sul sito Web.
 
 Il termine "Power BI Desktop", o semplicemente "Desktop", indica lo strumento autonomo usato dai *designer* che creano e condividono dashboard e report con gli utenti. È importante sapere che sono disponibili altri strumenti di Power BI, ma che i consumer usano solo il servizio Power BI. Questo articolo riguarda esclusivamente il servizio Power BI.
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Introduzione ai blocchi costitutivi
 
-Per un consumer di Power BI, i cinque blocchi costitutivi sono: ***visualizzazioni***, ***dashboard***, ***report***, ***app*** e ***set di dati***. Questi elementi sono talvolta detti ***contenuto*** di *Power BI*. Il *contenuto* esiste in un'***area di lavoro***. Un flusso di lavoro tipico prevede tutti i blocchi: Un *designer* di Power BI (in giallo nel diagramma seguente) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che evidenziano fatti interessanti e informazioni dettagliate, aggiunge le visualizzazioni dai report a un dashboard e condivide report e dashboard con i *consumer* come l'utente (in nero nel diagramma seguente). Il *designer* li condivide sotto forma di *app* o di altri tipi di contenuto condiviso.
+Per un utente finale di Power BI, i cinque blocchi costitutivi sono: **_visualizzazioni_** , **_dashboard_** , **_report_** , **_app_** e **_set di dati_** . Questi elementi sono talvolta definiti **_contenuto_** di *Power BI*. Il *contenuto* è presente nelle **_aree di lavoro_** . Un flusso di lavoro tipico prevede tutti i blocchi: Un *designer* di Power BI (in giallo nel diagramma seguente) raccoglie i dati dai *set di dati*, li inserisce in Power BI per l'analisi, crea *report* con *visualizzazioni* che evidenziano fatti interessanti e informazioni dettagliate, aggiunge le visualizzazioni dai report a un dashboard e condivide report e dashboard con i *consumer* come l'utente (in nero nel diagramma seguente). Il *designer* li condivide sotto forma di *app* o di altri tipi di contenuto condiviso.
 
 ![Grafico del flusso di lavoro di Power BI di base.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 Questa è la forma più semplice:
 
-- ![Screenshot dell'icona della visualizzazione.](media/end-user-basic-concepts/visual.png) Una ***visualizzazione*** (o *oggetto visivo*) è un tipo di grafico creato dai *designer* di Power BI. Gli oggetti visivi visualizzano i dati da *report* e *set di dati*. In genere i *designer* creano gli oggetti visivi in Power BI Desktop.
+- ![Screenshot dell'icona della visualizzazione.](media/end-user-basic-concepts/visual.png) Una **_visualizzazione_** (o *oggetto visivo*) è un tipo di grafico creato dai *progettisti* di Power BI. Gli oggetti visivi visualizzano i dati da *report* e *set di dati*. In genere i *designer* creano gli oggetti visivi in Power BI Desktop.
 
     Per altre informazioni, vedere [Interagire con gli oggetti visivi in report, dashboard e app](end-user-visualizations.md).
 
@@ -148,7 +148,7 @@ Un dashboard rappresenta una visualizzazione personalizzata di un subset di uno 
 
   ![Screenshot di un dashboard di esempio](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Un riquadro è il rendering di un oggetto visivo che un *designer* *aggiunge* al dashboard, ad esempio da un report. Ogni riquadro aggiunto contiene una [visualizzazione](end-user-visualizations.md) che un designer ha creato da un set di dati e aggiunto a tale dashboard. Un riquadro può anche contenere un'intera pagina del report oppure dati in streaming live o video. I *designer* possono aggiungere riquadri ai dashboard in molti modi, che non possono essere tuttavia trattati in questo articolo di panoramica. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md).
+Un riquadro è il rendering di un oggetto visivo che un *progettista* *aggiunge* al dashboard, ad esempio da un report. Ogni riquadro aggiunto contiene una [visualizzazione](end-user-visualizations.md) che un designer ha creato da un set di dati e aggiunto a tale dashboard. Un riquadro può anche contenere un'intera pagina del report oppure dati in streaming live o video. I *designer* possono aggiungere riquadri ai dashboard in molti modi, che non possono essere tuttavia trattati in questo articolo di panoramica. Per altre informazioni, vedere [Riquadri del dashboard in Power BI](end-user-tiles.md).
 
 I consumer non possono modificare i dashboard. Il consumer può tuttavia possibile aggiungere commenti, visualizzare dati correlati, impostare un dashboard come preferito, eseguire la sottoscrizione e così via.
 

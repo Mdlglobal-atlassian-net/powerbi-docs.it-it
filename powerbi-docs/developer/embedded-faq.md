@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539050"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259710"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Domande frequenti su Power BI Embedded
 
@@ -22,7 +22,7 @@ ms.locfileid: "76539050"
 
 ## <a name="general"></a>Generale
 
-### <a name="what-is-power-bi-embedded"></a>Informazioni su Power BI Embedded
+### <a name="what-is-power-bi-embedded"></a>Che cos'è Power BI Embedded?
 
 [Microsoft Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) consente agli sviluppatori di applicazioni di incorporare straordinari report completamente interattivi nelle applicazioni evitando di creare controlli e visualizzazioni dei dati da zero.
 
@@ -32,7 +32,7 @@ A sviluppatori e aziende di sviluppo software che creano applicazioni, denominat
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Qual è la differenza tra Power BI Embedded e il servizio Power BI?
 
-Power BI è una soluzione di analisi SaaS (Software-as-a-Service) che offre alle organizzazioni una visualizzazione unica per i dati aziendali più importanti.
+Power BI è una soluzione di analisi distribuita come servizio che offre alle organizzazioni una visualizzazione centralizzata dei dati aziendali più strategici.
 
 Microsoft ha sviluppato Power BI Embedded per gli ISV che desiderano incorporare oggetti visivi nelle applicazioni per consentire ai clienti di prendere decisioni analitiche. In questo modo gli ISV possono evitare di creare soluzioni di analisi proprie. L'[analisi incorporata](embedding.md) consente agli utenti aziendali di accedere a dati aziendali ed eseguire query su di essi per generare informazioni dettagliate all'interno dell'applicazione.
 
@@ -53,39 +53,13 @@ In alcuni casi, un ISV, in genere di grandi dimensioni, oltre alla necessità di
 
 I token di incorporamento con licenza Pro sono destinati al test di sviluppo, pertanto un account master Power BI o un'[entità servizio](embed-service-principal.md) può generare un numero limitato di token di incorporamento. [Acquistare una capacità](#technical) per l'incorporamento in un ambiente di produzione. Dopo l'acquisto di una capacità è possibile generare un numero illimitato di token di incorporamento. Vedere [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Funzionalità disponibili) per controllare il valore di utilizzo che indica l'attuale utilizzo incorporato espresso come percentuale.
 
-## <a name="technical"></a>Tecnici
+## <a name="technical"></a>Informazioni tecniche
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Qual è la differenza tra gli SKU A in Azure e gli SKU EM in Office 365?
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>Dove è possibile reperire altre informazioni sulla capacità e sugli SKU per le funzionalità di analisi incorporata di Power BI?
 
-PowerBI.com è una soluzione aziendale Software as a Service (SaaS) che include molte funzionalità, ad esempio la collaborazione, la sottoscrizione dei messaggi di posta elettronica e così via. PowerBI.com aiuta gli ISV a gestire il contenuto della soluzione di analisi incorporata e le impostazioni a livello del tenant.
+Vedere l'articolo [Capacità e SKU per le funzionalità di analisi incorporata di Power BI](embedded-capacity.md).
 
-Power BI Embedded è un set di API PaaS (piattaforma distribuita come servizio) per sviluppatori che consente di creare una soluzione di analisi incorporata.
-
-Ecco un elenco parziale delle differenze nelle funzionalità.
-
-| Funzionalità | Power BI Embedded | Capacità Power BI Premium | Capacità Power BI Premium |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | Capacità SKU A-Azure | Capacità SKU EM-O365 | Capacità SKU P-O365 |
-| Incorporamento di artefatti di un'area di lavoro di Power BI | Sì | Sì | Sì |
-| Uso dei report di Power BI in un'applicazione incorporata per l'organizzazione  | No | Sì | Sì |
-| Uso dei report di Power BI in un'applicazione incorporata per i clienti | Sì | Sì | Sì |
-| Utilizzo dei report di Power BI in SharePoint | No | Sì | Sì |
-| Utilizzo dei report di Power BI in Dynamics | No | Sì | Sì |
-| Utilizzo dei report di Power BI in Teams (esclude l'app per dispositivi mobili) | No | Sì | Sì |
-| Accesso ai contenuti con una licenza gratuita di Power BI in Powerbi.com e Power BI per dispositivi mobili | No | No | Sì |
-| Accesso ai contenuti con una licenza gratuita di Power BI incorporata nelle app di MS Office | No | Sì | Sì |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Ora Power BI offre tre tipi di SKU per l'incorporamento: SKU A, SKU EM e SKU P. Quale devo acquistare per il mio scenario?
-
-|  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
-|---------|---------|---------|---------|
-|Purchase  |Portale di Azure |Office |Office |
-|Casi d'uso | Incorporamento di contenuto in un'applicazione personalizzata | <li> Incorporamento di contenuto in un'applicazione personalizzata <br><br><br> <li> Incorporamento di contenuto nelle applicazioni di MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (esclude l'app per dispositivi mobili)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Incorporamento di contenuto in un'applicazione personalizzata <br><br><br> <li> Incorporamento di contenuto nelle applicazioni di MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (esclude l'app per dispositivi mobili)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Condivisione di contenuto con gli utenti di Power BI tramite il [servizio Power BI](https://powerbi.microsoft.com/)  |
-|Fatturazione |Oraria |Mensile |Mensile |
-|Impegno  |Nessun impegno |Annuale  |Mensile/Annuale |
-|Differenze |Elasticità completa: aumento/riduzione delle prestazioni, sospensione/ripresa delle risorse nel portale di Azure o tramite l'API  |Consente di incorporare contenuto in SharePoint Online e Microsoft Teams (esclude l'app per dispositivi mobili) |Combina l'incorporamento nelle applicazioni e usa il servizio Power BI nella stessa capacità |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Quali sono i prerequisiti per creare una capacità PBIE in Azure?
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>Quali sono i prerequisiti per creare una capacità PBIE in Azure?
 
 * È necessario accedere alla directory dell'organizzazione. Gli account Microsoft non sono supportati.
 * È necessario avere un tenant di Power BI, ovvero è necessario che almeno un utente nella directory abbia effettuato l'iscrizione a Power BI. 
@@ -158,7 +132,7 @@ Aree disponibili (16 - stesse aree di Power BI)
 * Asia Pacifico (2) - Asia sudorientale, Asia orientale
 * Brasile (1) - Brasile meridionale
 * Giappone (1) - Giappone orientale
-* Australia (1) - Australia sudorientale
+* Australia (1) - Australia sud-orientale
 * India (1) - India occidentale
 * Canada (1) - Canada centrale
 * Regno Unito (1) - Regno Unito meridionale

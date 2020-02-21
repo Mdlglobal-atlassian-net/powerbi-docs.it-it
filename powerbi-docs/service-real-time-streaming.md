@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699096"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115286"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Streaming in tempo reale in Power BI
 Con lo streaming in tempo reale di Power BI, è possibile trasmettere i dati e aggiornare i dashboard in tempo reale. Gli oggetti visivi o i dashboard che possono essere creati in Power BI possono essere creati anche per visualizzare e aggiornare gli oggetti visivi e i dati in tempo reale. I dispositivi e le origini dei dati in streaming possono essere sensori factory, origini di social media, metriche di utilizzo del servizio e qualsiasi altra origine da cui si possano raccogliere o trasmettere dati per i quali i tempi sono importanti.
@@ -80,7 +80,7 @@ Esistono tre modi principali in cui è possibile eseguire il push dei dati in un
 Verranno ora esaminati tutti gli approcci singolarmente.
 
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Uso delle API REST di Power BI per eseguire il push dei dati
-È possibile usare le **API REST di Power BI** per creare e inviare dati ai set di dati di **push** e ai set di dati di **streaming**. Quando si crea un set di dati con le API REST di Power BI, il flag *defaultMode* specifica se il set di dati è di tipo push o streaming. Se non viene impostato alcun flag *defaultMode*, il valore predefinito del set di dati è di tipo **push**.
+È possibile usare le **API REST di Power BI** per creare e inviare dati ai set di dati di **push** e di **streaming**. Quando si crea un set di dati con le API REST di Power BI, il flag *defaultMode* specifica se il set di dati è di tipo push o streaming. Se non viene impostato alcun flag *defaultMode*, il valore predefinito del set di dati è di tipo **push**.
 
 Se il valore *defaultMode* è impostato su *pushStreaming*, il set di dati è di tipo sia **push** *che* **streaming**, offrendo i vantaggi di entrambi i tipi di set di dati. 
 

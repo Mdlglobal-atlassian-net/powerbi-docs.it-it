@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 30bfacc1024035f0849440eec8b1c7051ff4d82a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a65b17c91640f6ea7fff1d762e8d5b71cc99575e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002444"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154144"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Linee guida per Data/ora automatica in Power BI Desktop
 
@@ -26,7 +26,7 @@ L'opzione _Data/ora automatica_ offre funzionalità di Business Intelligence per
 
 L'elenco puntato seguente descrive le considerazioni e le possibili limitazioni associate all'opzione _Data/ora automatica_.
 
-- **È valida per tutte le colonne o per nessuna di esse:** Quando è abilitata, l'opzione _Data/ora automatica_ viene applicata a tutte le colonne data nelle tabelle di importazione che non sono il lato &quot;molti&quot; di una relazione. Non può essere abilitata o disabilitata selettivamente colonna per colonna.
+- **È valida per tutte le colonne o per nessuna di esse:** quando è abilitata, l'opzione _Data/ora automatica_ viene applicata a tutte le colonne data (tranne le colonne calcolate) nelle tabelle di importazione che non sono il lato &quot;molti&quot; di una relazione. Non può essere abilitata o disabilitata selettivamente colonna per colonna.
 - **Solo periodi di calendario:** Le colonne anno e trimestre fanno riferimento a periodi di calendario. Questo significa che l'anno inizia il 1 gennaio e termina il 31 dicembre. Non è possibile personalizzare la data di inizio o di fine dell'anno.
 - **Personalizzazione:** Non è possibile personalizzare i valori usati per descrivere i periodi di tempo. Inoltre non è possibile aggiungere altre colonne per descrivere altri periodi di tempo, ad esempio le settimane.
 - **Filtro dell'anno:** I valori delle colonne **Trimestre**, **Mese** e **Giorno** non includono il valore dell'anno. Ad esempio la colonna **Mese** contiene solo i nomi dei mesi, ovvero Gennaio, Febbraio e così via. I valori non sono completamente autodescrittivi e in alcune strutture di report potrebbero non comunicare il contesto di filtro anno.
@@ -34,6 +34,7 @@ L'elenco puntato seguente descrive le considerazioni e le possibili limitazioni 
     Per questo motivo è importante che l'implementazione di filtri o il raggruppamento avvengano in base alla colonna **Anno**. Quando si esegue il drill-down usando la gerarchia l'anno verrà filtrato, salvo se il livello **Anno** viene rimosso intenzionalmente. Se non è presente alcun filtro o raggruppamento in base all'anno, un raggruppamento in base al mese, ad esempio, riepiloga i valori di tutti gli anni per quel mese.
 - **Applicazione di filtro data a una sola tabella:** Poiché ogni colonna della data produce una propria tabella di data/ora automatica (nascosta), non è possibile applicare un filtro ora a una tabella e propagarlo a più tabelle modello. L'applicazione di filtri con questa modalità è un requisito di modellazione comune durante la creazione di report su più soggetti (tabelle di tipo fact), come vendite e budget di vendite. Quando si usa la data/ora automatica, l'autore del report deve applicare filtri a ogni singola colonna data.
 - **Dimensioni del modello:** Ogni colonna data che genera una tabella data/ora automatica nascosta produce un incremento delle dimensioni del modello e prolunga il tempo necessario per l'aggiornamento dei dati.
+- **Altri strumenti di reporting:** non è possibile usare le tabelle di data/ora automatiche quando si esegue [Analizza in Excel](../service-analyze-in-excel.md) o ci si connette al modello tramite strumenti di progettazione dei report non Power BI.
 
 ## <a name="recommendations"></a>Raccomandazioni
 
@@ -50,3 +51,4 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Data/ora automatica in Power BI Desktop](../desktop-auto-date-time.md)
 - [Impostare e usare tabelle data in Power BI Desktop](../desktop-date-tables.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

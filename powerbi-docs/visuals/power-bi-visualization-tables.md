@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830877"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154280"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabelle nei report e nei dashboard di Power BI
 
@@ -98,22 +98,19 @@ Esistono molti modi per formattare una tabella. In questo articolo ne sono descr
 
 ### <a name="conditional-formatting"></a>Formattazione condizionale
 
-*Formattazione condizionale* è un tipo di formattazione. Power BI applica la formattazione condizionale ai campi nell'area **Valori** del riquadro **Visualizzazioni**.
+*Formattazione condizionale* è un tipo di formattazione. Power BI può applicare la formattazione condizionale a uno qualsiasi dei campi aggiunti nell'area **Valori** del riquadro **Visualizzazioni**.
 
-Con la formattazione condizionale per le tabelle, è possibile specificare i colori di sfondo e dei caratteri della cella personalizzati in base ai relativi valori, incluse le sfumature.
+![Riquadro Visualizzazione](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. Nel riquadro **Visualizzazioni** selezionare l'icona **Campi** ![icona Campi](media/power-bi-visualization-tables/power-bi-fields-icon.png).
+Con la formattazione condizionale per le tabelle, è possibile specificare icone, URL, colori di sfondo delle celle e colori dei caratteri in base ai valori delle celle, inclusi i colori sfumati.
 
-1. Selezionare la freccia rivolta verso il basso accanto al valore da formattare nell'area **Valori** o fare clic con il pulsante destro del mouse sul campo.
+1. Nel riquadro **Formato** aprire la scheda **Formattazione condizionale**.
 
-    > [!NOTE]
-    > È possibile gestire la formattazione condizionale solo per i campi nell'area **Valori** dell'area **Campi**.
+    ![Scheda Formattazione condizionale](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![percorso di Scale dei colori di sfondo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. Selezionare un campo da formattare e impostare su Sì il dispositivo di scorrimento **Colore di sfondo**. Power BI applica una sfumatura in base ai valori nella colonna. Per modificare i colori predefiniti, selezionare **Controlli avanzati**.
 
-1. Selezionare **Colore di sfondo**.
-
-1. Nella finestra di dialogo visualizzata è possibile configurare il colore e valori **Minimo** e **Massimo**. Se si seleziona l'opzione **Divergente**, è possibile configurare anche un valore **Centro** facoltativo.
+    Se si seleziona l'opzione **Divergente**, è possibile configurare anche un valore **Centro** facoltativo.
 
     ![Schermata Scale dei colori di sfondo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,24 +121,24 @@ Con la formattazione condizionale per le tabelle, è possibile specificare i col
 
     ![nuovo campo all'estremità destra](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. Aggiungere la formattazione condizionale della barra dei dati selezionando la freccia giù accanto a **Total Sales Variance** e scegliendo **Formattazione condizionale > Barre dei dati**.
+1. Aggiungere la formattazione condizionale delle barre dei dati impostando su Sì il dispositivo di scorrimento **Barre dei dati**.  
 
-    ![percorso per selezionare Barre dei dati](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![Scheda Formattazione condizionale con Barre dei dati impostato su Sì](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Nella finestra di dialogo visualizzata impostare i colori di **Barra positiva** e **Barra negativa**, selezionare l'opzione **Mostra solo barra** e apportare le modifiche desiderate.
+1. Per personalizzare le barre dei dati, selezionare **Controlli avanzati**. Nella finestra di dialogo visualizzata impostare i colori di **Barra positiva** e **Barra negativa**, selezionare l'opzione **Mostra solo barra** e apportare le modifiche desiderate.
 
     ![segno di spunta per Mostra solo barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
     Le barre dei dati sostituiscono i valori numerici nella tabella, rendendo più semplice l'analisi.
 
     ![stessa tabella ma con barre nell'ultima colonna](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-Per rimuovere la formattazione condizionale da una visualizzazione, fare nuovamente clic con il pulsante destro del mouse sul campo e scegliere **Rimuovi formattazione condizionale**.
+1. Aggiungere indicatori visivi alla tabella con *icone condizionali*.  Nella scheda **Formattazione condizionale** selezionare **Vendite anno corrente** dall'elenco a discesa. Impostare su **Sì** il dispositivo di scorrimento **Icone**.  Per personalizzare le icone, selezionare **Controlli avanzati**.
 
-> [!TIP]
-> La formattazione condizionale è disponibile anche nel riquadro **Formato**. Selezionare il valore da formattare e quindi impostare **Scale di colori** o **Barre dei dati** su **Sì** per applicare le impostazioni predefinite oppure selezionare **Controlli avanzati** per personalizzare le impostazioni.
+    ![Tabella con icone aggiunte](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Copiare i valori dalle tabelle di Power BI per l'uso in altre applicazioni
 
@@ -174,6 +171,7 @@ Per copiare più celle:
 A volte Power BI tronca un'intestazione di colonna in un report o un dashboard. Per visualizzare il nome della colonna per intero, passare il mouse sullo spazio a destra dell'intestazione in modo da visualizzare le doppie frecce, selezionare e trascinare.
 
 ![primo piano video del ridimensionamento della colonna](media/power-bi-visualization-tables/resizetable.gif)
+
 
 ## <a name="considerations-and-troubleshooting"></a>Considerazioni e risoluzione dei problemi
 

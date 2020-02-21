@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220343"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259760"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi iOS
 L'app Microsoft Power BI per iOS nell'iPhone e iPad offre l'esperienza di business intelligence per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. Tenersi al corrente con i dati più aggiornati sul proprio [Apple Watch](mobile-apple-watch.md).  
@@ -40,12 +40,12 @@ Se non si è ancora eseguito l'accesso, andare a [powerbi.com](https://powerbi.m
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introduzione all'app Power BI
 1. Aprire l'app Power BI nel dispositivo iOS.
-2. Per visualizzare i dashboard di Power BI, toccare **Power BI**.  
-   Per visualizzare i report per dispositivi mobili e gli indicatori KPI di Reporting Services, toccare **Server di report**.
+2. Per accedere a Power BI, toccare la scheda **Power BI** e immettere i dettagli di accesso.  
+   Per accedere ai report per dispositivi mobili e agli indicatori KPI di Reporting Services, toccare la scheda **Server di report** e immettere i dettagli di accesso.
    
    ![Accedere all'app Power BI per dispositivi mobili](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   All'interno dell'app, basta toccare l'immagine del profilo dell'account nell'angolo superiore sinistro della schermata per spostarsi tra i due. 
+   All'interno dell'app, basta toccare l'immagine del profilo dell'account nell'angolo superiore sinistro della schermata per spostarsi tra Power BI e il server di report. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Provare gli esempi di Power BI e Reporting Services
 Anche senza iscriversi, è possibile visualizzare e interagire con gli esempi di Power BI e Reporting Services.

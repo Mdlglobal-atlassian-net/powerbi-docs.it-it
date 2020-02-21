@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761842"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154213"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Applicare la funzionalità di data/ora automatica in Power BI Desktop
 
@@ -24,6 +24,7 @@ Data/ora automatica è un'opzione di caricamento dati disponibile in Power BI De
 Quando l'opzione è abilitata, Power BI Desktop crea una tabella di data/ora automatica nascosta per ogni colonna della data, purché siano soddisfatte tutte le condizioni seguenti:
 
 - La modalità di archiviazione tabelle è Importa
+- La colonna non è una colonna calcolata
 - Il tipo di dati della colonna è data o data/ora
 - La colonna non è il lato "molti" di una relazione del modello
 
@@ -44,6 +45,8 @@ Se fosse possibile visualizzare le righe di una tabella di data/ora automatica, 
 
 > [!NOTE]
 > Le tabelle di data/ora automatica sono nascoste in modo permanente e risultano invisibili anche agli esperti di modellazione. Non sono visibili nel riquadro **Campi** o nel diagramma della visualizzazione modello e le relative righe non sono visibili nella visualizzazione dati. Non è inoltre possibile fare riferimento direttamente alla tabella e alla relativa colonna in espressioni DAX.
+>
+> Non è inoltre possibile usarle quando si esegue [Analizza in Excel](service-analyze-in-excel.md) o ci si connette al modello tramite strumenti di progettazione dei report non Power BI.
 
 La tabella definisce anche una gerarchia, fornendo oggetti visivi con un percorso di drill-down nei livelli anno, trimestre, mese e giorno.
 
@@ -98,3 +101,4 @@ Per altre informazioni correlate a questo articolo, vedere le risorse seguenti:
 - [Linee guida per Data/ora automatica in Power BI Desktop](guidance/auto-date-time.md)
 - [Impostare e usare tabelle data in Power BI Desktop](desktop-date-tables.md)
 - Domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+- Se si hanno suggerimenti, [Contribuire con idee per migliorare Power BI](https://ideas.powerbi.com/)

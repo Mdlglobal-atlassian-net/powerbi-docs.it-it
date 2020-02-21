@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877191"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179221"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introduzione ai set di dati in aree di lavoro diverse (anteprima)
 
@@ -62,7 +62,7 @@ Le funzioni e le esperienze specifiche integrate nelle funzionalità di un set d
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
 - L'editore di un'app deve assicurarsi che il gruppo di destinatari abbia accesso ai set di dati all'esterno dell'area di lavoro. In caso contrario, gli utenti avranno problemi durante l'interazione con l'app: senza l'accesso ai set di dati i report non si apriranno e i riquadri dei dashboard verranno visualizzati come bloccati. Gli utenti, poi, non saranno in grado di aprire l'app se il primo elemento di spostamento di questa è un report senza accesso al set di dati.
-- La compilazione di un report basato su un set di dati in un'area di lavoro diversa richiede la nuova esperienza delle aree di lavoro su due fronti: Il report deve risiedere in una nuova esperienza delle aree di lavoro e il set di dati deve trovarsi in una nuova esperienza delle aree di lavoro.
+- La compilazione di un report basato su un set di dati in un'area di lavoro diversa richiede la nuova esperienza delle aree di lavoro su due fronti: Il report deve risiedere in una nuova esperienza delle aree di lavoro e il set di dati deve trovarsi in una nuova esperienza delle aree di lavoro. I report di una nuova esperienza di area di lavoro possono essere copiati solo in un'altra nuova esperienza di area di lavoro e non nelle aree di lavoro classiche o nell'area di lavoro personale. 
 - In un'area di lavoro classica l'esperienza di individuazione di set di dati visualizza solo i set di dati in quell'area di lavoro.
 - Per impostazione predefinita la funzionalità "Pubblica sul Web" non funziona per un report basato su un set di dati condiviso.
 - Se due utenti sono membri di un'area di lavoro che ha accesso a un set di dati condiviso, è possibile che solo uno dei due possa visualizzare il set di dati correlato nell'area di lavoro. Solo gli utenti con almeno accesso in lettura al set di dati possono visualizzare il set di dati condiviso. 
