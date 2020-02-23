@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: Documentazione di Power BI per utenti finali
+summary: Gli utenti finali ricevono dashboard e report dai colleghi e usano Power BI per esaminare e interagire con il contenuto, per prendere decisioni rilevanti per l'azienda.
+metadata:
+  title: Power BI per i consumer
+  description: Introduzione a Power BI Informazioni sulle caratteristiche e le funzionalità del servizio Power BI e sulle potenzialità offerte per i consumer e gli utenti finali di Power BI.
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: it-IT
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497794"
+landingContent:
+- title: Informazioni su Power BI per gli utenti finali
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Che cos'è un consumer di Power BI?
+      url: end-user-consumer.md
+    - text: Visualizzare una presentazione del servizio Power BI
+      url: end-user-reading-view.md
+    - text: Esaminare concetti e contenuto
+      url: end-user-basic-concepts.md
+- title: Inizia
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Accedi
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: Informazioni sui report
+      url: end-user-reports.md
+    - text: Informazioni sui dashboard
+      url: end-user-dashboards.md
+    - text: Informazioni sulle app
+      url: end-user-apps.md
+- title: Visualizzare il contenuto
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Visualizzare un report
+      url: end-user-report-view.md
+    - text: Visualizzare il contenuto più grande o da solo
+      url: end-user-focus.md
+    - text: Mostrare i dati usati per creare un oggetto visivo
+      url: end-user-show-data.md
+    - text: Esportare i dati in Excel
+      url: end-user-export.md
+- title: Interagire e analizzare
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Orientarsi in Power BI
+      url: end-user-experience.md
+    - text: Eseguire il drill-down in un oggetto visivo
+      url: end-user-drill.md
+    - text: Modificare la modalità di ordinamento di un oggetto visivo
+      url: end-user-change-sort.md
+    - text: Usare i filtri dei report
+      url: end-user-report-filter.md
+    - text: Porre una domanda in linguaggio naturale
+      url: end-user-q-and-a.md
+- title: Collaborare e condividere
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Pubblicare un report in PowerPoint
+      url: end-user-powerpoint.md
+    - text: Esportare un report in formato PDF
+      url: end-user-pdf.md
+    - text: Sottoscrivere contenuto
+      url: end-user-subscribe.md
+- title: Argomenti avanzati
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Creare e usare segnalibri
+      url: end-user-bookmarks.md
+    - text: Visualizzare le informazioni dettagliate automatiche
+      url: end-user-insights.md
+    - text: Visualizzare un report impaginato
+      url: paginated-reports-view-power-bi-service.md
+- title: Risorse
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Glossario
+      url: end-user-glossary.md
+    - text: Domande frequenti
+      url: end-user-faq.md
+    - text: Tipi di informazioni dettagliate
+      url: end-user-insight-types.md
+    - text: Tipi di oggetti visivi
+      url: end-user-visual-type.md
