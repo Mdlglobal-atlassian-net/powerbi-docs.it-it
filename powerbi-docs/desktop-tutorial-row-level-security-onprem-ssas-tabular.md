@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539615"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427370"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementare la sicurezza a livello di riga in un modello tabulare di Analysis Services
 
@@ -82,7 +82,7 @@ Dopo aver creato il data warehouse relazionale, è necessario definire il modell
 
 1. La funzione `LOOKUPVALUE` restituisce i valori per una colonna in cui il nome utente di Windows è uguale a quello restituito dalla funzione `USERNAME`. È quindi possibile limitare le query al punto in cui i valori restituiti dalla funzione `LOOKUPVALUE` sono uguali a quelli presenti nella stessa tabella o in quella correlata. Nella colonna **Filtro DAX** digitare la formula seguente:
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ Dopo aver creato il data warehouse relazionale, è necessario definire il modell
 
 1. Per la tabella `DimUserSecurity`, aggiungere la formula seguente nella colonna **Filtro DAX**:
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -123,7 +123,7 @@ Al termine di questa procedura, il gateway è configurato e pronto per interagir
 
    ![Connettersi al database di SQL Server Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-1. Inserire i dettagli dell'istanza tabulare di Analysis Services e selezionare **Connessione dinamica**. Selezionare **OK**.
+1. Inserire i dettagli dell'istanza tabulare di Analysis Services e selezionare **Connessione dinamica**. Selezionare quindi **OK**.
   
    ![Dettagli di Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
@@ -157,7 +157,7 @@ Ora Grace condivide il dashboard con una collega, Rita, responsabile delle vendi
 
 Quando Rita accede al servizio Power BI e visualizza il dashboard condiviso che Grace ha creato, può vedere solo le vendite dell'area Australia.
 
-Congratulazioni! Il servizio Power BI illustra la sicurezza dinamica a livello di riga definita nel modello tabulare di Analysis Services locale. Power BI usa la proprietà `EffectiveUserName` per inviare le credenziali dell'utente di Power BI corrente all'origine dati locale per eseguire le query.
+Congratulazioni. Il servizio Power BI illustra la sicurezza dinamica a livello di riga definita nel modello tabulare di Analysis Services locale. Power BI usa la proprietà `EffectiveUserName` per inviare le credenziali dell'utente di Power BI corrente all'origine dati locale per eseguire le query.
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>Attività 6: Conoscere ciò che accade dietro le quinte
 
@@ -175,7 +175,7 @@ Se vengono eseguite altre attività con il dashboard, in SQL Profiler si noterà
 
 È anche possibile vedere di seguito la query DAX, eseguita per popolare i dati del report.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

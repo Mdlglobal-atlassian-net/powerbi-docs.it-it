@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224099"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427738"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Come acquistare Power BI Premium
 
 Questo articolo descrive le modalità di acquisto della capacità Premium di Power BI per l'organizzazione. Questo articolo illustra due scenari:
 
-- Uso degli SKU P per scenari di produzione tipici. Gli SKU P richiedono un impegno mensile o annuale e vengono fatturati mensilmente. È possibile acquistare SKU P nell'[interfaccia di amministrazione di Microsoft 365](https://admmin.microsoft.com).
+- Uso degli SKU P per scenari di produzione tipici. Gli SKU P richiedono un impegno mensile o annuale e vengono fatturati mensilmente.
 
 - Uso degli SKU A per gli scenari di testing e nei casi in cui non sono disponibili le autorizzazioni necessarie per acquistare SKU P (ruolo Amministratore globale o Amministratore fatturazione di Microsoft 365). Gli SKU A non richiedono alcun impegno in termini di tempo e vengono fatturati su base oraria. Gli SKU A possono essere acquistati nel [portale di Azure](https://portal.azure.com).
 

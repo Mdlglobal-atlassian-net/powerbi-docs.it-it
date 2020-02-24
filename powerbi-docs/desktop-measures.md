@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9c181deb4e36624fa714242583e3fe209abdfb47
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: c166f2d72b170dfb76e3c1f7f6d50052083df6a2
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889329"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427393"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Creare misure per l'analisi dei dati in Power BI Desktop
 
@@ -49,7 +49,7 @@ Jan nota che, anche se non è stato specificato un calcolo, ne è stato fornito 
 
 Tuttavia, a Jan occorre una misura per calcolare le proiezioni delle vendite per l'anno successivo, che saranno basate sulle vendite dell'anno precedente moltiplicate per 1,06 per tenere conto dell'incremento del 6% previsto per le vendite. Per questo calcolo, Jan crea una misura. Usando la funzionalità *Nuova misura*, crea una nuova misura e immette la seguente formula DAX:
 
-```sql
+```dax
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 ```
 
