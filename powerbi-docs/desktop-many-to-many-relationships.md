@@ -24,7 +24,7 @@ Con le *relazioni con cardinalità molti-a-molti* di Power BI Desktop è possibi
 
 In Power BI Desktop, una *relazione con cardinalità molti-a-molti* è costituita da una delle tre funzionalità correlate seguenti:
 
-* **Modelli compositi**: consente a un report di avere due o più connessioni dati, tra cui connessioni DirectQuery o di importazione, in qualsiasi combinazione. Per altre informazioni, vedere [Usare modelli compositi in Power BI Desktop](desktop-composite-models.md).
+* **Modelli compositi**: Un *modello composito* consente a un report di avere due o più connessioni dati, tra cui connessioni DirectQuery o di importazione, in qualsiasi combinazione. Per altre informazioni, vedere [Usare modelli compositi in Power BI Desktop](desktop-composite-models.md).
 
 * **Relazioni con cardinalità molti-a-molti**: con i modelli compositi è possibile stabilire *relazioni con cardinalità molti-a-molti* tra le tabelle. Questo approccio consente di rimuovere i requisiti per i valori univoci nelle tabelle. Annulla anche le soluzioni alternative precedenti, ad esempio l'introduzione di nuove tabelle solo per stabilire relazioni. La funzionalità è descritta più dettagliatamente in questo articolo.
 
