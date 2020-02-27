@@ -39,7 +39,7 @@ Dopo aver creato un report usando il set di dati di push, sarà possibile aggiun
 
 Esistono due aspetti da considerare relativamente ai riquadri aggiunti da un set di dati di push:
 
-* L'aggiunta di un intero report con l'opzione *Aggiungi pagina dinamica***non** comporta l'aggiornamento automatico dei dati.
+* L'aggiunta di un intero report con l'opzione *Aggiungi pagina dinamica* **non** comporta l'aggiornamento automatico dei dati.
 * Dopo aver aggiunto un oggetto visivo a un dashboard, è possibile usare **Domande e risposte** per fare domande al set di dati di push in linguaggio naturale. Dopo aver eseguito una query **Domande e risposte** è possibile aggiungere nuovamente l'oggetto visivo risultante al dashboard, *anch'esso* aggiornato in tempo reale.
 
 ### <a name="streaming-dataset"></a>Set di dati di streaming
