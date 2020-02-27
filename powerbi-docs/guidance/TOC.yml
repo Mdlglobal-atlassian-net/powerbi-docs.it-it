@@ -7,6 +7,8 @@
       items:
         - name: Panoramica
           href: overview.md
+        - name: Guida all'ottimizzazione per Power BI
+          href: power-bi-optimization.md
     - name: Concetti
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: Servizio gateway dati locale
               href: gateway-onprem-sizing.md
+            - name: Monitorare le prestazioni dei report
+              href: monitor-report-performance.md
     - name: White paper
       items:
         - name: Panoramica dei white paper
