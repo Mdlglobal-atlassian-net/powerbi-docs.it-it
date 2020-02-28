@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538738"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427658"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Usare le aggregazioni in Power BI Desktop
 
@@ -185,6 +185,10 @@ La funzione AVERAGE può trarre vantaggio dalle aggregazioni. La query raggiunge
 In alcuni casi, la funzione DISTINCTCOUNT può trarre vantaggio dalle aggregazioni. La query seguente raggiunge l'aggregazione perché è presente una voce GroupBy per **CustomerKey**, che mantiene le specificità di **CustomerKey** nella tabella di aggregazione. Questa tecnica potrebbe comunque raggiungere la soglia delle prestazioni per la quale una quantità di valori distinct superiore a due - cinque milioni può influire sulle prestazioni delle query. Può tuttavia essere utile nelle situazioni in cui sono presenti miliardi di righe nella tabella dei dettagli, ma da due a cinque milioni di valori distinct nella colonna. In questo caso, l'operazione DISTINCTCOUNT può essere svolta più velocemente rispetto all'analisi della tabella con miliardi di righe, anche se è stata memorizzata nella cache in memoria.
 
 ![Query di aggregazione DISTINCTCOUNT](media/desktop-aggregations/aggregations-code_07.jpg)
+
+Le funzioni di time intelligence DAX sono compatibili con le aggregazioni. La query seguente raggiunge l'aggregazione perché la funzione DATESYTD genera una tabella di valori **CalendarDay** e la tabella di aggregazione è a un livello di granularità coperto per le colonne group-by nella tabella **Date**. Questo è un esempio di filtro con valori di tabella per la funzione CALCULATE, che può funzionare con le aggregazioni.
+
+![Query di aggregazione SUMMARIZECOLUMNS](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>Aggregazione basata su colonne GroupBy 
 

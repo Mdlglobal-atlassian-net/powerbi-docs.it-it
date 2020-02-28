@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889214"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496486"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Modificare l'ordinamento di un grafico in un report di Power BI
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ Gli oggetti visivi in un dashboard non possono essere ordinati, ma in un report 
 
 ## <a name="get-started"></a>Inizia
 
-Per iniziare, selezionare un oggetto visivo di report e scegliere **Altre azioni** (...).  Per l'ordinamento sono disponibili tre opzioni: **Ordinamento decrescente**, **Ordinamento crescente** e **Ordina per**. 
+Per iniziare, aprire un report che è stato condiviso. Selezionare un oggetto visivo (che può essere ordinato) e scegliere **Altre azioni** (...).  Per l'ordinamento sono disponibili tre opzioni: **Ordinamento decrescente**, **Ordinamento crescente** e **Ordina per**. 
     
 
 ![grafico a barre ordinato alfabeticamente in base all'asse X](media/end-user-change-sort/power-bi-more-actions.png)
@@ -69,9 +67,9 @@ In alcuni casi, è necessario ordinare l'oggetto visivo usando un campo diverso,
 
 Solo la persona che ha progettato il report può apportare queste modifiche. Per trovare le informazioni sul contatto del *progettista*, selezionare il nome del report nella barra dell'intestazione.
 
-Se si è un *progettista* e si hanno le autorizzazioni di modifica per il contenuto, leggere [Ordinare per colonna in Power BI Desktop](../desktop-sort-by-column.md) per informazioni su come aggiornare il set di dati e abilitare questo tipo di ordinamento.
-
 ![Elenco a discesa che mostra le informazioni di contatto](media/end-user-change-sort/power-bi-contact.png)
+
+Se si è un *progettista* e si hanno le autorizzazioni di modifica per il contenuto, leggere [Ordinare per colonna in Power BI Desktop](../desktop-sort-by-column.md) per informazioni su come aggiornare il set di dati e abilitare questo tipo di ordinamento.
 
 ## <a name="next-steps"></a>Passaggi successivi
 Altre informazioni sulle [visualizzazioni nei report di Power BI](end-user-visualizations.md).

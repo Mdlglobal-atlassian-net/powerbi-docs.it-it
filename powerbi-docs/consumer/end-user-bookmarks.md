@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852270"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496612"
 ---
 # <a name="what-are-bookmarks"></a>Che cosa sono i segnalibri?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-I segnalibri acquisiscono la visualizzazione attualmente configurata di una pagina del report, tra cui filtri, filtri dei dati e lo stato degli oggetti visivi. Quando si seleziona un segnalibro, Power BI consente di tornare a tale visualizzazione. Esistono due tipi di segnalibri, quelli creati dall'utente e quelli creati dai *progettisti* di report.
+I segnalibri acquisiscono la visualizzazione attualmente configurata di una pagina del report, tra cui filtri, filtri dei dati e lo stato degli oggetti visivi. Quando si seleziona un segnalibro, Power BI consente di tornare a tale visualizzazione. Esistono due tipi di segnalibri, quelli creati dall'utente e quelli creati dai *progettisti* di report. Qualsiasi utente di Power BI può creare segnalibri personali. Tuttavia, per poter usare i segnalibri creati da altri utenti è necessario avere una licenza di Power BI Pro o Premium. [Quali licenze sono disponibili?](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usare i segnalibri per condividere informazioni dettagliate e creare storie in Power BI 
 I segnalibri possono avere diversi usi. Supponiamo di aver trovato un'informazione interessante che non si vuole perdere: creando un segnalibro, sarà possibile tornarvi in seguito. Se è necessario allontanarsi e non si vuole perdere il lavoro corrente, creare un segnalibro. È anche possibile creare un segnalibro per la visualizzazione predefinita del report, in modo che, ogni volta che vi si torna, si apra prima quella visualizzazione della pagina del report. 
@@ -33,6 +35,9 @@ Per aprire il riquadro Segnalibri, selezionare **Segnalibri** > **Mostra altri s
 
 ### <a name="report-bookmarks"></a>Segnalibri report
 Se il *progettista* del report ha incluso segnalibri, sarà possibile trovarli sotto l'intestazione **Segnalibri report**. In questa pagina del report sono presenti due segnalibri, B1 e B2. 
+
+> [!NOTE]
+> Per visualizzare i report condivisi è necessario avere Power BI Pro o Premium. 
 
 ![Visualizzare i segnalibri del report.](media/end-user-bookmarks/power-bi-report.png)
 

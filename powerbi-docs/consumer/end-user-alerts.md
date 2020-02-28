@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851267"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496526"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Esercitazione: Impostare avvisi per i dashboard di Power BI
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Esercitazione: Impostare gli avvisi per i dashboard di Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,6 +114,7 @@ Sono disponibili molti modi per gestire gli avvisi: Dal riquadro del dashboard, 
 * Gli avvisi possono essere impostati solo per misuratori, indicatori KPI e schede.
 * Se non è possibile impostare un avviso per un misuratore, un indicatore KPI o una scheda, richiedere assistenza all'amministratore di sistema. A volte gli avvisi vengono disattivati o non sono disponibili per il dashboard o per tipi specifici di riquadri del dashboard.
 * Gli avvisi possono essere usati solo con dati aggiornati. Non possono essere usati con dati statici. La maggior parte degli esempi forniti da Microsoft è statica. 
+* Gli *utenti finali* non creano dashboard personalizzati, mentre i *progettisti* creano dashboard e li condividono con gli utenti finali. Per poter ricevere e visualizzare contenuto condiviso è necessario avere una licenza di Power BI Pro o Premium. Per altre informazioni, vedere [Quali licenze sono disponibili?](end-user-license.md) 
 
 
 ## <a name="clean-up-resources"></a>Pulire le risorse

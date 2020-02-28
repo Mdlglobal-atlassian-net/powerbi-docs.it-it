@@ -1,79 +1,81 @@
 ---
 title: Ordinare per colonna in Power BI Desktop
-description: Ordinare per colonna in Power BI Desktop
+description: In Power BI è possibile modificare l'aspetto di un oggetto visivo ordinandolo in base a campi dati diversi.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 01/30/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78632db52ae197a1643dcf1f2831e140568bc6fe
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 0cbba86bd77debda9ab2162b8f9b190e1846b99c
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223430"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464708"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Ordinare per colonna in Power BI Desktop
-In **Power BI Desktop** e nel **servizio Power BI** è possibile modificare l'aspetto di un oggetto visivo ordinandolo in base a campi dati diversi. La modifica dell'ordinamento di un oggetto visivo consente di dare risalto alle informazioni da comunicare e di garantire che l'oggetto visivo evidenzi la tendenza prevista.
+In Power BI Desktop e nel servizio Power BI è possibile modificare l'aspetto di un oggetto visivo ordinandolo in base a campi dati diversi. La modifica dell'ordinamento di un oggetto visivo consente di dare risalto alle informazioni da comunicare e di garantire che l'oggetto visivo evidenzi la tendenza prevista.
 
-Sia che si usino dati numerici (come cifre di vendita) o dati di tipo testo (come nomi di stati), è possibile ordinare le visualizzazioni in qualsiasi modo per ottenere l'aspetto desiderato.  In **Power BI** sono disponibili funzionalità estremamente flessibili per l'ordinamento, nonché menu rapidi. In qualsiasi oggetto visivo, selezionare il menu accessibile facendo clic sui puntini di sospensione (...) e quindi selezionare il campo in base al quale eseguire l'ordinamento, come illustrato nell'immagine seguente.
+Che si usino dati numerici (come cifre di vendita) o dati di tipo testo (come nomi di stati), è possibile ordinare le visualizzazioni in modo da ottenere l'aspetto desiderato. In Power BI sono disponibili funzionalità molto flessibili per l'ordinamento e menu rapidi. Per ordinare un oggetto visivo, selezionare il menu **Altre opzioni** (...), scegliere **Ordina per** e quindi selezionare il campo in base al quale eseguire l'ordinamento.
 
 ![Menu Altre opzioni](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-## <a name="more-depth-and-an-example"></a>Esempio con maggiore profondità
-In questa sezione verrà presentato un esempio caratterizzato da maggiore profondità e ne verrà illustrato il funzionamento in **Power BI Desktop**.
+## <a name="sorting-example"></a>Esempio di ordinamento
+In questa sezione verrà usato un esempio caratterizzato da maggiore profondità e ne verrà illustrato il funzionamento in Power BI Desktop.
 
-La visualizzazione seguente indica i costi, le quantità e gli importi per nome del produttore. Ecco come si presenta la visualizzazione prima di qualsiasi operazione di ordinamento.
+La visualizzazione seguente indica i costi, le quantità e gli importi per nome del produttore. Ecco come si presenta la visualizzazione prima di qualsiasi operazione di ordinamento:
 
 ![Visualizzazione iniziale](media/desktop-sort-by-column/sortbycolumn_1.png)
 
-L'oggetto visivo è attualmente ordinato in base a **Quantità vendite**, come si può dedurre osservando la corrispondenza tra il colore delle barre crescenti e la legenda. Un modo più efficiente per determinare la colonna di ordinamento corrente è il menu dei puntini di sospensione (...) nell'angolo superiore destro dell'oggetto visivo. Quando si selezionano i puntini di sospensione, viene visualizzato quanto segue:
+L'oggetto visivo è attualmente ordinato in base alla colonna **SalesQuantity**. È possibile determinare la colonna di ordinamento abbinando il colore delle barre ascendenti alla legenda, ma esiste un modo migliore: il menu **Altre opzioni** a cui si accede selezionando i puntini di sospensione (...).
 
 ![Menu Altre opzioni](media/desktop-sort-by-column/sortbycolumn_2.png)
 
-* Il campo di ordinamento corrente è **Quantità vendite**, indicato dal fatto che **Ordina per Quantità vendite** è in grassetto e ha una barra gialla. 
+Le selezioni di ordinamento sono le seguenti:
 
-* La direzione di ordinamento corrente è dal valore più piccolo al più grande, come indicato dalla piccola icona **A/Z** (A su Z) e dalla freccia verso il basso.
+* Il campo di ordinamento corrente è **SalesQuantity**, indicato dalla voce **SalesQuantity** in grassetto, preceduta da una barra gialla. 
+
+* La direzione di ordinamento corrente è crescente, come illustrato dalla voce **Ordinamento crescente** in grassetto, preceduta da una barra gialla.
 
 Il campo e la direzione di ordinamento vengono analizzati in dettaglio nelle due sezioni successive.
 
-## <a name="selecting-which-column-to-use-for-sorting"></a>Selezione della colonna da usare per l'ordinamento
-La barra gialla accanto a **Ordina per Quantità vendite** nel menu **Altre opzioni** indica che l'oggetto visivo è ordinato in base alla colonna **Quantità vendite**. Per eseguire l'ordinamento in base a un'altra colonna è sufficiente selezionare i puntini di sospensione per visualizzare il menu corrispondente e quindi selezionare un'altra colonna.
+## <a name="select-which-column-to-use-for-sorting"></a>Selezionare la colonna da usare per l'ordinamento
+Si è notato che la barra gialla visualizzata prima di **SalesQuantity** nel menu **Altre opzioni** indica che l'oggetto visivo è ordinato in base alla colonna **SalesQuantity**. L'ordinamento in base a un'altra colonna è semplice. Basta selezionare i puntini di sospensione (...) per visualizzare il menu **Altre opzioni**, scegliere **Ordina per** e quindi selezionare una colonna diversa.
 
-Nell'immagine seguente la colonna selezionata come base per l'ordinamento è *DiscountAmount* (Importo sconto). che corrisponde a una delle linee nell'oggetto visivo anziché a una delle barre. Ecco l'aspetto risultante dopo la selezione di **Sort By DiscountAmount** (Ordina per Importo sconto).
+Nell'immagine seguente la colonna selezionata come base per l'ordinamento è **DiscountAmount**, che corrisponde a una delle linee nell'oggetto visivo anziché a una delle barre. 
 
-![Ordina per Importo sconto](media/desktop-sort-by-column/sortbycolumn_3.png)
+![Ordinare in base a DiscountAmount](media/desktop-sort-by-column/sortbycolumn_3.png)
 
-Si noti come è stato modificato l'oggetto visivo. I valori sono ora ordinati dal valore massimo di DiscountAmount (Importo sconto), corrispondente in questo oggetto visivo a Fabrikam Inc., fino al valore minimo, corrispondente a Northwind Traders. 
+Si noti come è stato modificato l'oggetto visivo. I valori vengono ora ordinati dal valore massimo **DiscountAmount**, Fabrikam Inc., fino al valore minimo, Northwind Traders. 
 
-Se si vuole un ordinamento crescente anziché decrescente, la prossima sezione illustra come è possibile ottenere facilmente tale risultato.
+Se si vuole un ordinamento crescente anziché decrescente, la sezione seguente illustra come è possibile ottenere facilmente tale risultato.
 
-## <a name="selecting-the-sort-order---smallest-to-largest-largest-to-smallest"></a>Selezione dell'ordinamento dal più piccolo al più grande e viceversa
-Se si esamina in dettaglio il menu **Opzioni** dell'immagine precedente, si può osservare che l'icona accanto a **Sort By DiscountAmount** (Ordina per Importo sconto) contiene **Z/A** (con la Z sopra la A), come visualizzato di seguito:
+## <a name="select-the-sort-order"></a>Selezionare l'ordinamento
+Osservando più da vicino il menu **Altre opzioni** dell'immagine precedente, si noterà che la voce **Ordinamento decrescente** è visualizzata in grassetto, preceduta da una barra gialla.
 
 ![Ordina dal più grande al più piccolo](media/desktop-sort-by-column/sortbycolumn_4.png)
 
-Quando l'icona visualizza **Z/A**, l'oggetto visivo è ordinato in base alla colonna selezionata dal valore più grande al più piccolo. Se si vuole modificare tale ordinamento, è sufficiente toccare o fare clic sull'icona **Z/A**. L'ordinamento verrà modificato in **A/Z** e l'oggetto visivo verrà ordinato (in base alla colonna selezionata) dal valore più piccolo al più grande.
+Quando l'opzione **Ordinamento decrescente** è selezionata, l'oggetto visivo è ordinato in base alla colonna selezionata, dal valore più grande al più piccolo. Se si vuole modificare tale ordinamento, è sufficiente selezionare **Ordinamento crescente**. Il tipo di ordinamento della colonna selezionata cambierà dal valore più piccolo al più grande.
 
-Di seguito è riportato lo stesso oggetto visivo dopo che è stata toccata l'icona **Z/A** nel menu **Sort By DiscountAmount** (Ordina per Importo sconto) per modificarne l'ordinamento. Si noti che ora Northwind Traders è il primo produttore nell'elenco e Fabrikam Inc. è l'ultimo: l'ordinamento è opposto rispetto a quello precedente.
+Di seguito è riportato lo stesso oggetto visivo, dopo la modifica dell'ordinamento di **DiscountAmount**. Si noti che ora Northwind Traders è il primo produttore nell'elenco e Fabrikam Inc. è l'ultimo, con un ordinamento opposto rispetto al precedente.
 
 ![Ordina dal più piccolo al più grande](media/desktop-sort-by-column/sortbycolumn_5.png)
 
-È possibile eseguire l'ordinamento in base a qualsiasi colonna inclusa nell'oggetto visivo, ad esempio selezionare Quantità vendite come colonna base per l'ordinamento con **Ordina per Quantità vendite**, per visualizzare per primi i produttori con il volume di vendite maggiore mantenendo comunque nell'oggetto visivo le altre colonne, quale che sia la loro associazione con il produttore. Ecco come si presenta l'oggetto visivo con tali impostazioni.
+È possibile eseguire l'ordinamento in base a qualsiasi colonna inclusa nell'oggetto visivo, ad esempio selezionare **SalesQuantity** come colonna base dell'ordinamento per visualizzare per primi i produttori con il volume di vendite maggiore, mantenendo comunque nell'oggetto visivo le altre colonne nel modo in cui si applicano al produttore. Ecco come si presenta l'oggetto visivo con tali impostazioni:
 
 ![Ordina per Quantità vendite](media/desktop-sort-by-column/sortbycolumn_6.png)
 
 ## <a name="sort-using-the-sort-by-column-button"></a>Ordinamento con il pulsante Ordina per colonna
-È possibile ordinare i dati in un altro modo, e cioè usando il pulsante **Ordina per colonna** nella barra multifunzione **Modellazione**.
+È possibile ordinare i dati in un altro modo, ovvero usando il pulsante **Ordina per colonna** nella scheda **Creazione di modelli** della barra multifunzione.
 
 ![Pulsante Ordina per colonna](media/desktop-sort-by-column/sortbycolumn_8.png)
 
-Questo approccio all'ordinamento richiede di selezionare una colonna dal riquadro **Campi** e quindi selezionare il pulsante **Ordina per colonna** per scegliere come (in base a quale colonna) si vuole ordinare l'oggetto visivo. È necessario selezionare la colonna (il campo) che si vuole ordinare dal riquadro **Campi** per abilitare il pulsante **Ordina per colonna**, altrimenti il pulsante è inattivo.
+Per questo approccio all'ordinamento è necessario selezionare prima la colonna (campo) da ordinare dal riquadro **Campi** e quindi selezionare **Creazione di modelli** > **Ordina per colonna** per ordinare l'oggetto visivo. Se non si seleziona una colonna, il pulsante **Ordina per colonna** è inattivo.
 
-Si consideri un caso comune: sono disponibili i dati di ogni mese dell'anno e si vuole ordinarli in ordine cronologico. La procedura seguente illustra come fare.
+Si prenda ad esempio un caso comune. Sono disponibili i dati relativi a ogni mese dell'anno e si vuole ordinarli in ordine cronologico. La procedura seguente illustra come fare:
 
 1. Prima di tutto, si noti che quando l'oggetto visivo è selezionato, ma non è selezionata alcuna colonna nel riquadro **Campi**, il pulsante **Ordina per colonna** è inattivo (in grigio).
    
@@ -82,29 +84,32 @@ Si consideri un caso comune: sono disponibili i dati di ogni mese dell'anno e si
 2. Quando si seleziona la colonna in base alla quale si vuole eseguire l'ordinamento, nel riquadro **Campi** il pulsante **Ordina per colonna** diventa attivo.
    
    ![Pulsante Ordina per colonna attivo](media/desktop-sort-by-column/sortbycolumn_10.png)
-3. A questo punto, con l'oggetto visivo selezionato, è possibile selezionare *Mese dell'anno* anziché il valore predefinito (*Nome del mese*) e l'oggetto visivo viene ordinato nell'ordine desiderato, ovvero in base al mese dell'anno.
+3. A questo punto, con l'oggetto visivo selezionato, è possibile selezionare **MonthOfYear**, anziché il valore predefinito **MonthName**, e l'oggetto visivo viene ordinato in base al criterio desiderato, ovvero in base al mese dell'anno.
    
    ![Menu Ordina per colonna](media/desktop-sort-by-column/sortbycolumn_11.png)
 
-Tutto qui! Tenere presente che è necessario selezionare una colonna nel riquadro **Campi** per attivare il pulsante **Ordina per colonna**.
 
-## <a name="getting-back-to-default-column-for-sorting"></a>Ripristino dell'ordinamento in base alla colonna predefinita
-Si può eseguire l'ordinamento in base a qualsiasi colonna desiderata, ma talvolta si vuole ripristinare nell'oggetto visivo la colonna di ordinamento predefinita. ma si tratta di un problema facilmente risolvibile. Per un oggetto visivo in cui è selezionata una colonna di ordinamento (affiancata da una barra gialla nel menu puntini di sospensione, come illustrato in precedenza), è sufficiente aprire il menu **Altre opzioni** e selezionare nuovamente tale colonna. Nella visualizzazione viene ripristinata la colonna di ordinamento predefinita.
+<!---
+This functionality is no longer active. Jan 2020
 
-Ecco, ad esempio, il grafico precedente:
+## Getting back to default column for sorting
+You can sort by any column you'd like, but there may be times when you want the visual to return to its default sorting column. No problem. For a visual that has a sort column selected, open the **More options** menu and select that column again, and the visualization returns to its default sort column.
 
-![Visualizzazione iniziale](media/desktop-sort-by-column/sortbycolumn_6.png)
+For example, here's our previous chart:
 
-Se si torna al menu e si seleziona di nuovo **Quantità vendite**, l'oggetto visivo assume l'ordinamento alfabetico predefinito in base a **Produttore**, come illustrato nell'immagine seguente.
+![Initial visualization](media/desktop-sort-by-column/sortbycolumn_6.png)
 
-![Ordinamento predefinito](media/desktop-sort-by-column/sortbycolumn_7.png)
+When we go back to the menu and select **SalesQuantity** again, the visual defaults to being ordered alphabetically by **Manufacturer**, as shown in the following image.
 
-Con così tante opzioni per l'ordinamento degli oggetti visivi, è facile creare l'immagine o il grafico desiderato.
+![Default sort order](media/desktop-sort-by-column/sortbycolumn_7.png)
+
+With so many options for sorting your visuals, creating just the chart or image you want is easy.
+--->
 
 ## <a name="next-steps"></a>Passaggi successivi
 
 Potrebbero essere interessanti anche gli articoli seguenti:
 
 * [Usare il drill-through tra report in Power BI Desktop](desktop-cross-report-drill-through.md)
-* [Uso dei filtri dei dati in Power BI Desktop](visuals/power-bi-visualization-slicers.md)
+* [Filtri dei dati in Power BI](visuals/power-bi-visualization-slicers.md)
 

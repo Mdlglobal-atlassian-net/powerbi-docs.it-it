@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410837"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527523"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Informazioni su uno schema a stella e sull'importanza di questo schema per Power BI
 
@@ -71,9 +71,10 @@ In un modello di Power BI una **misura** ha una definizione diversa, anche se si
 
 ![Esempio di icona nell'elenco dei campi](media/star-schema/field-list-example.png)
 
-Vi sono tuttavia due validi motivi per creare misure, anche per semplici riepiloghi a livello di colonna:
+Vi sono tuttavia tre validi motivi per creare misure, anche per semplici riepiloghi a livello di colonna:
 
-- Se si è a conoscenza del fatto che gli autori dei report eseguiranno query sul modello usando [espressioni MDX](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), il modello deve includere _misure esplicite_. Le misure esplicite vengono definite tramite DAX. Questo approccio di progettazione è molto pertinente quando si eseguono query su un set di dati di Power BI tramite MDX, perché MDX non è in grado di ottenere il riepilogo dei valori di colonna. In particolare, il linguaggio MDX viene usato per l'esecuzione di [Analizza in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (le tabelle pivot rilasciano query MDX).
+- Se si è a conoscenza del fatto che gli autori dei report eseguiranno query sul modello usando [espressioni MDX (Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), il modello deve includere _misure esplicite_. Le misure esplicite vengono definite tramite DAX. Questo approccio di progettazione è molto pertinente quando si eseguono query su un set di dati di Power BI tramite MDX, perché MDX non è in grado di ottenere il riepilogo dei valori di colonna. In particolare, il linguaggio MDX viene usato per l'esecuzione di [Analizza in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (le tabelle pivot rilasciano query MDX).
+- Se si è a conoscenza del fatto che gli autori di report creeranno report impaginati di Power BI usando lo strumento di progettazione di query MDX, il modello deve includere misure esplicite. Solo lo strumento di progettazione di query MDX supporta gli [aggregati di server](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Pertanto, se gli autori di report devono disporre di misure valutate da Power BI, anziché dal motore dei report impaginati, devono usare lo strumento di progettazione di query MDX.
 - Se è necessario assicurarsi che gli autori dei report possano riepilogare le colonne solo in modi specifici. Ad esempio, la colonna **Unit Price** relativa alle vendite dei rivenditori (che rappresenta una tariffa per unità) può essere riepilogata, ma solo tramite funzioni di aggregazione specifiche. I valori della colonna non dovrebbero essere mai sommati, ma è opportuno riepilogarli usando altre funzioni di aggregazione (min, max, average e così via). In questo esempio, l'esperto di modellazione può nascondere la colonna **Unit Price** e creare misure per tutte le funzioni di aggregazione appropriate.
 
 Si noti che questo approccio di progettazione funziona bene per i report creati nel servizio Power BI e per Domande e risposte. Le connessioni dinamiche di Power BI Desktop, tuttavia, consentono agli autori di report di mostrare i campi nascosti nel riquadro **Campi**, eludendo così questo approccio di progettazione.

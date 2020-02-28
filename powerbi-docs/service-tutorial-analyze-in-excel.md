@@ -1,31 +1,31 @@
 ---
-title: 'Esercitazione: Usare Analizza in Excel'
-description: In questa esercitazione si usa la pagina Set di dati di Power BI per importare i set di dati in Excel.
+title: 'Esercitazione: Usare Analizza in Excel di Power BI, a partire da Excel'
+description: In questa esercitazione si inizia usando Excel e ci si connette alla pagina Set di dati di Power BI per importare i set di dati in Excel.
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921486"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426542"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>Esercitazione: Usare Analizza in Excel
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Esercitazione: Usare Analizza in Excel di Power BI, a partire da Excel
 
-L'organizzazione usa Power BI per condividere l'accesso ai dati. Con la funzionalità Analizza in Excel è possibile creare una tabella pivot e grafici pivot per aggiungere contesto all'analisi o ridurre il tempo necessario per individuare e importare i set di dati rilevanti.
+L'organizzazione usa Power BI per condividere l'accesso ai dati. Da Excel si avvia la funzionalità Analizza in Excel di Power BI per creare in Excel tabelle e grafici pivot che possono offrire contesto aggiuntivo ai dati dell'analisi o ridurre il tempo necessario per trovare e importare i set di dati rilevanti.
 
-Per iniziare, selezionare un set di dati, selezionare "Analizza in Excel". Verrà illustrata la creazione guidata di una tabella pivot in cui vengono usati i dati.  
+Per iniziare a usare un set di dati di Power BI, in Excel selezionare "Analizza in Excel". Verrà avviata la creazione guidata di una tabella pivot in cui vengono usati i dati.  
 
 È possibile trovare set di dati aggiuntivi condivisi dall'organizzazione tornando alla pagina Set di dati.
 
-Se si verificano problemi in qualsiasi momento, selezionare No nel passaggio appropriato del flusso seguente e aggiungere commenti nel modulo collegato.  
+Se si riscontrano problemi in qualsiasi momento, selezionare **No** nel passaggio appropriato del flusso seguente e aggiungere feedback nel modulo collegato.  
 
 In questa esercitazione viene illustrato come:
 

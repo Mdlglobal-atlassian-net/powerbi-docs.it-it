@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259760"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426634"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introduzione all'app Power BI per dispositivi mobili nei dispositivi iOS
 L'app Microsoft Power BI per iOS nell'iPhone e iPad offre l'esperienza di business intelligence per dispositivi mobili per Power BI, Server di report di Power BI e Reporting Services. Visualizzare e interagire con i dashboard aziendali locali e nel cloud ovunque ci si trovi con l'accesso mobile in tempo reale e abilitato per il tocco. Esplorare i dati nei dashboard e condividerli con i colleghi nei messaggi di posta elettronica o di testo. Tenersi al corrente con i dati più aggiornati sul proprio [Apple Watch](mobile-apple-watch.md).  
@@ -32,7 +32,7 @@ Informazioni sulle [Novità delle app Power BI per dispositivi mobili](mobile-wh
 ## <a name="download-the-app"></a>Scarica l'app
 [Scaricare l'app per iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Scaricare l'app iOS") dall'App Store di Apple nel dispositivo iPhone o iPad.
 
-È possibile eseguire l'app Power BI per iOS in qualsiasi dispositivo che esegue iOS 11 o versioni successive. 
+È possibile eseguire l'app per dispositivi mobili Power BI per iOS in qualsiasi dispositivo che esegue iOS 11 o versioni successive. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Iscriversi al servizio Power BI
 Se non si è ancora eseguito l'accesso, andare a [powerbi.com](https://powerbi.microsoft.com/get-started/) e in **Power BI - Cloud collaboration and sharing** (Collaborazione e condivisione nel cloud), selezionare **Prova gratuitamente**.

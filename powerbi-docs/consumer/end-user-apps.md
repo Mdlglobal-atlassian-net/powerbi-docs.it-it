@@ -3,21 +3,22 @@ title: Informazioni sulle app di Power BI
 description: In Power BI le app riuniscono dashboard e report correlati, tutti in un'unica posizione.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851009"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496696"
 ---
 # <a name="apps-in-power-bi"></a>App in Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ Le app vengono organizzate nell'elenco di contenuti **App**. È sufficiente sele
 ![App in Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> Per usare le app è richiesta una licenza Power BI Pro. <!-- add link to how to figure out your license -->
+> Per usare le app è richiesta una licenza Power BI Pro. [Cercare il tipo di licenza](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***Designer*** di app e ***utenti*** di app
+## <a name="app-designers-and-app-consumers"></a>*Designer* di app e *utenti* di app
 In base al ruolo, si potrebbe essere qualcuno che crea le app (*progettista*) per uso personale o da condividere con i colleghi oppure qualcuno che riceve e scarica le app (*consumer*) create da altri. Questo articolo può essere utile per gli *utenti* delle app.
 
 ## <a name="advantages-of-apps"></a>Vantaggi delle app

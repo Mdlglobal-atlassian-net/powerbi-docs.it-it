@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851451"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496383"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modalità di espansione in un oggetto visivo in Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ Le date sono un tipo univoco di gerarchia.  I progettisti di report spesso aggiu
 Se non si è certi di quali oggetti visivi di Power BI contengano una gerarchia, passare il mouse sopra un oggetto visivo. Se nella parte superiore viene visualizzata una combinazione di questi controlli di drill, significa che l'oggetto visivo ha una gerarchia.
 
 ![Screenshot delle icone di drill.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Informazioni su come eseguire il drill-down e il drill-up
 
@@ -108,7 +111,7 @@ Selezionare l'icona di drill-up ![Icona Drill-up](./media/end-user-drill/power-b
 
 La visualizzazione di una mappa ad albero che mostra solo un codice postale non è informativa.  *Espandere* di un livello verso il basso nella gerarchia.  
 
-1. Con la mappa ad albero attiva, selezionare l'icona di *espansione verso il basso* ![Screenshot dell'icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero mostra ora due livelli della gerarchia: codice postale e nome del negozio.
+1. Con la mappa ad albero attiva, selezionare l'icona di *espansione verso il basso*![Screenshot dell'icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero mostra ora due livelli della gerarchia: codice postale e nome del negozio.
 
     ![Screenshot della mappa ad albero che mostra il codice postale e il nome del negozio](./media/end-user-drill/power-bi-expand-one.png)
 
@@ -116,7 +119,7 @@ La visualizzazione di una mappa ad albero che mostra solo un codice postale non 
 
     ![Screenshot della mappa ad albero che mostra tutti i dati per TN.](media/end-user-drill/power-bi-expand-two.png)
 
-1. Assicurarsi che il drill-down sia ancora attivato ![Screenshot dell'icona di attivazione/disattivazione del drill-down attivata](./media/end-user-drill/power-bi-drill-icon2.png) e selezionare l'icona di *espansione verso il basso* ![Screenshot dell'icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero ora mostra lo stesso numero di foglie (caselle), ma ogni foglia presenta dettagli aggiuntivi. Invece di mostrare solo città e stato, la mappa mostra anche il codice postale.
+1. Assicurarsi che il drill-down sia ancora attivato ![Screenshot dell'icona di attivazione/disattivazione del drill-down attivata](./media/end-user-drill/power-bi-drill-icon2.png) e selezionare l'icona di *espansione verso il basso*![Screenshot dell'icona di espansione verso il basso](./media/end-user-drill/power-bi-drill-icon6.png). La mappa ad albero ora mostra lo stesso numero di foglie (caselle), ma ogni foglia presenta dettagli aggiuntivi. Invece di mostrare solo città e stato, la mappa mostra anche il codice postale.
 
     ![Screenshot dell'oggetto visivo che mostra città, stato e codice postale.](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,7 +144,9 @@ Si noti che i totali sono gli stessi per **City**, **PostalCode** e **Name**, ma
 
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
-Per impostazione predefinita, il drill-down non filtra altri oggetti visivi in un report. Il progettista del report, tuttavia, può modificare questo comportamento predefinito. Quando si esegue il drill, verificare se agli altri oggetti visivi nella pagina viene applicato il filtro incrociato o l'evidenziazione incrociata.
+- Per impostazione predefinita, il drill-down non filtra altri oggetti visivi in un report. Il progettista del report, tuttavia, può modificare questo comportamento predefinito. Quando si esegue il drill, verificare se agli altri oggetti visivi nella pagina viene applicato il filtro incrociato o l'evidenziazione incrociata.
+
+- Per visualizzare un report condiviso è necessario avere una licenza di Power BI Pro o Premium. [Quali licenze sono disponibili?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Passaggi successivi

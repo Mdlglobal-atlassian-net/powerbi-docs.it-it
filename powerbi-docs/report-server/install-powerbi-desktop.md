@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874111"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426657"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Installare Power BI Desktop ottimizzato per il server di report di Power BI
 
@@ -93,11 +93,15 @@ I report del server di report di Power BI non supportano queste funzionalità ne
 * Percorsi di navigazione
 * Filtro geografico o codici a barre
 
+### <a name="custom-security"></a>Sicurezza personalizzata
+
+Power BI Desktop ottimizzato per Server di report di Power BI non supporta la sicurezza personalizzata. Se Server di report di Power BI è configurato con un'estensione di sicurezza personalizzata, non è possibile salvare un report di Power BI da Power BI Desktop (ottimizzato per Server di report di Power BI) nell'istanza di Server di report di Power BI. È necessario salvare il file di report con estensione pbix da Power BI Desktop e caricarlo nel sito del portale di Server di report di Power BI.
+
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop per le versioni precedenti del server di report di Power BI
 
 Se la versione del server di report è precedente, è necessario disporre della versione corrispondente di Power BI Desktop. Ecco il collegamento per scaricare una versione precedente.
 
-- Microsoft Power BI Desktop ([ottimizzato per Server di report di Microsoft Power BI - Gennaio 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([ottimizzato per Server di report di Power BI - settembre 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>Passaggi successivi
 

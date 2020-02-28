@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871371"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497141"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Aggiornare, eliminare ed estrarre un'app modello
 
@@ -36,15 +36,21 @@ Se le modifiche sono state apportate in Power BI Desktop, iniziare dal passaggio
 
    Ora sono disponibili due versioni: la versione nell'ambiente di produzione e una nuova versione di test.
 
-    ![Due versioni di un'app modello](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![Due versioni di un'app modello](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. Quando si è pronti per alzare di livello l'app alla pre-produzione per altri test all'esterno del tenant, tornare al riquadro Gestione del rilascio e selezionare **Alza di livello app** accanto a **Test**.
-6. Il collegamento è ora attivo. Eseguire di nuovo l'invio al portale Cloud Partner (CPP) seguendo la procedura in [Aggiornare un'offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-7. Nel portale Cloud Partner è necessario **pubblicare** di nuovo l'offerta e farla convalidare di nuovo.
+1. Quando si è pronti per alzare di livello l'app alla pre-produzione per altri test all'esterno del tenant, tornare al riquadro Gestione del rilascio e selezionare **Alza di livello app** accanto a **Test**.
 
-   >[!NOTE]
-   >Alzare di livello l'app alla fase di produzione solo dopo che l'app è stata approvata nel portale Cloud Partner e pubblicata.
+   A questo punto sono disponibili una versione in produzione e una versione in pre-produzione.
 
+   ![Due versioni di un'app modello con il pulsante per alzare di livello disattivato](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   Il collegamento è ora attivo. **Si noti che il pulsante Alza di livello app nella fase di pre-produzione è disattivato**. Questo consente di evitare di sovrascrivere accidentalmente il collegamento di produzione dinamico alla versione dell'app corrente prima che il portale Cloud Partner abbia convalidato e approvato la nuova versione dell'app.
+
+1. Inviare di nuovo il collegamento al portale Cloud Partner (CPP) seguendo la procedura in [Aggiornare un'offerta di app Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). Nel portale Cloud Partner è necessario **pubblicare** di nuovo l'offerta e farla convalidare e approvare.
+
+   Quando l'offerta viene approvata, il pulsante Alza di livello app diventerà nuovamente attivo. 
+1. Alzare di livello l'app alla fase di produzione.
+   
 ### <a name="update-behavior"></a>Comportamento di aggiornamento
 
 1. L'aggiornamento dell'app consentirà al programma di installazione dell'app modello di [aggiornare un'app modello](service-template-apps-install-distribute.md#update-a-template-app) nell'area di lavoro già installata senza perdere la configurazione della connessione.

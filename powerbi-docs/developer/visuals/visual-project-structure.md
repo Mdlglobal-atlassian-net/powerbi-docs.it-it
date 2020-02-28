@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925525"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427071"
 ---
 # <a name="power-bi-visual-project-structure"></a>Struttura del progetto per un oggetto visivo di Power BI
 
@@ -115,7 +115,7 @@ Questo file contiene la [ configurazione di TSLint](https://palantir.github.io/t
 I commenti nelle didascalie del codice seguente del file `pbiviz.json` descrivono le voci dei metadati.
 
 > [!NOTE]
-> * Dalla versione 3. x. x dello strumento **pbiviz**, `externalJS` non è supportato.
+> * Dalla versione 3.x.x dello strumento **pbiviz**, `externalJS` non è supportato.
 > * Per il supporto della localizzazione, [aggiungere le impostazioni locali di Power BI all'oggetto visivo](./localization.md).
 
 ```json

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698188"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558699"
 ---
 # <a name="manage-data-sources"></a>Gestire le origini dati
 
@@ -45,11 +45,24 @@ La maggior parte delle operazioni di gestione delle origini dati può essere ese
 
 5. Per SQL Server, scegliere un **metodo di autenticazione** di **Windows** o **Di base** (Autenticazione SQL). Se si sceglie **Di base**, immettere le credenziali per l'origine dati.
 
-6. Facoltativamente, in **Impostazioni avanzate** configurare il [livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
+6. In **Impostazioni avanzate** è possibile configurare [Single Sign-On (SSO)](service-gateway-sso-overview.md) per l'origine dati. 
+
+    ![Impostazioni avanzate](media/service-gateway-data-sources/advanced-settings-02.png)
+
+È possibile configurare **Usa SSO tramite Kerberos per le query DirectQuery** o **Usa SSO tramite Kerberos per le query DirectQuery e di importazione** per i report basati su DirectQuery e **Usa SSO tramite Kerberos per le query DirectQuery e di importazione** per i report basati sull'aggiornamento.
+
+Se si attiva l'opzione **Usa SSO tramite Kerberos per le query DirectQuery** e si usa questa origine dati per un report basato su DirectQuery, verrà usato l'utente mappato all'utente di (Azure) Active Directory che accede al servizio Power BI. Per un report basato sull'aggiornamento, verranno usate le credenziali immesse nei campi **Nome utente** e **Password**.
+
+Se si attiva l'opzione **Usa SSO tramite Kerberos per le query DirectQuery e di importazione**, non è necessario specificare le credenziali. Se si usa questa origine dati per un report basato su DirectQuery, verrà usato l'utente mappato all'utente di (Azure) Active Directory che accede al servizio Power BI.  Per un report basato sull'aggiornamento, verrà usato il contesto di sicurezza del proprietario del set di dati.
+
+> [!NOTE]
+>SSO per le query di importazione è disponibile solo per l'elenco di origini dati SSO che usano la [delega vincolata Kerberos](service-gateway-sso-kerberos.md).
+
+7. Facoltativamente, in **Impostazioni avanzate** configurare il [livello di privacy](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) per l'origine dati (non si applica a [DirectQuery](desktop-directquery-about.md)).
 
     ![Impostazioni avanzate](media/service-gateway-data-sources/advanced-settings.png)
 
-7. Selezionare **Aggiungi**. Se il processo ha esito positivo viene visualizzato il messaggio *Connessione riuscita*.
+8. Selezionare **Aggiungi**. Se il processo ha esito positivo viene visualizzato il messaggio *Connessione riuscita*.
 
     ![Connessione riuscita](media/service-gateway-data-sources/connection-successful.png)
 

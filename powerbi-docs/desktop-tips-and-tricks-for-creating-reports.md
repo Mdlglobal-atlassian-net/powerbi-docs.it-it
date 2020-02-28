@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865834"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427255"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Suggerimenti e consigli per creare report in Power BI Desktop
 Per sfruttare al meglio i dati, talvolta è necessario un aiuto. Questo argomento raccoglie alcuni suggerimenti e consigli che è possibile usare quando si creano report in Microsoft Power BI Desktop *e* nelle edizioni di Microsoft Excel 2016 o Excel 2013 Pro-Plus con il componente aggiuntivo Power Pivot abilitato e Power Query installato e abilitato. 
@@ -36,7 +36,7 @@ Nello strumento di navigazione dell'Editor di query in Power BI Desktop, quando 
 
 * Quando si usano file come origine dati per una query, il percorso assoluto del file è archiviato nella query. Quando si condivide o si sposta un file di Power BI Desktop o una cartella di lavoro di Excel, è possibile risparmiare tempo nell'aggiornamento dei percorsi eseguendo un solo aggiornamento anziché dover aggiornare tutti i percorsi.
 
-Per impostazione predefinita, tutte le query vengono caricate in un foglio di lavoro di Excel o nel modello di dati (o in entrambe le posizioni). Alcune query sono passaggi intermedi non destinati all'uso da parte degli utenti finali. Quando si fa riferimento alle query come indicato in precedenza, questo è spesso vero. È possibile controllare il comportamento di caricamento delle query facendo clic con il pulsante destro del mouse sulla query nello strumento di navigazione e attivando o disattivando l'opzione "Abilita caricamento". Quando accanto all'opzione *Abilita caricamento* non è presente un segno di spunta, la query è comunque disponibile nella scheda della query ed è possibile usarla con altre query. Ciò è particolarmente utile in combinazione con trasformazioni di merge, accodamento e riferimento. Tuttavia, poiché i risultati della query non vengono caricati nel modello di dati, la query non crea confusione nell'elenco di campi del report o nel modello di dati. 
+Per impostazione predefinita, tutte le query vengono caricate nel modello di dati. Alcune query sono passaggi intermedi non destinati all'uso da parte degli utenti finali. Quando si fa riferimento alle query come indicato in precedenza, questo è spesso vero. È possibile controllare il comportamento di caricamento delle query facendo clic con il pulsante destro del mouse sulla query nello strumento di navigazione e attivando o disattivando l'opzione "Abilita caricamento". Quando accanto all'opzione *Abilita caricamento* non è presente un segno di spunta, la query è comunque disponibile nella scheda della query ed è possibile usarla con altre query. Ciò è particolarmente utile in combinazione con trasformazioni di merge, accodamento e riferimento. Tuttavia, poiché i risultati della query non vengono caricati nel modello di dati, la query non crea confusione nell'elenco di campi del report o nel modello di dati. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Necessità di un identificatore di punto nei grafici a dispersione
 Si prenda come esempio una semplice tabella con valori delle temperature e dell'ora in cui è stata eseguita la misurazione. Se si tracciano questi valori direttamente in un grafico a dispersione, Power BI aggrega tutti i valori in un singolo punto. Per mostrare i singoli punti dati, è necessario aggiungere un campo al bucket Dettagli nel contenitore di campi. Per eseguire in modo semplice questa operazione in Power BI Desktop, nella scheda della query usare l'opzione "Aggiungi colonna indice" della scheda "Aggiungi colonna" sulla barra multifunzione. 
@@ -116,7 +116,7 @@ Si caricano i set di dati relativi a richieste di assistenza clienti attive e un
 > 
 > 
 
-Quando si vuole tenere traccia di tutte le richieste e di tutti gli elementi di lavoro correlati a un NomeCliente specifico, non è sufficiente creare una relazione tra questi due set di dati. Alcuni ElementiLavoro potrebbero non essere correlati a un NomeCliente e quindi il campo sarebbe vuoto o NULL. Potrebbero esserci più record di ElementiLavoro e RichiesteClienti per un NomeCliente specifico. 
+Quando si vuole tenere traccia di tutti gli incidenti ed elementi di lavoro correlati a un NomeCliente specifico, non è sufficiente creare una relazione tra questi due set di dati. Alcuni ElementiLavoro potrebbero non essere correlati a un NomeCliente e quindi il campo sarebbe vuoto o NULL. Potrebbero esserci più record di ElementiLavoro e RichiesteClienti per un NomeCliente specifico. 
 
 ### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Creazione di relazioni in Power BI Desktop quando i dati contengono valori null o vuoti
 Spesso i set di dati contengono colonne con valori null o vuoti. Ciò può provocare problemi quando si cerca di usare le relazioni. Sono disponibili essenzialmente due opzioni per risolvere questi problemi. È possibile rimuovere le righe con valori null o vuoti. A tale scopo, è possibile usare la funzionalità di filtro nella scheda della query oppure, se si effettua il merge di query, selezionare l'opzione per mantenere solo le righe corrispondenti. In alternativa, è possibile sostituire i valori null o vuoti con valori appropriati per le relazioni, in genere stringhe come "NULL" e "(Vuoto)". Non esiste un unico approccio corretto. L'esclusione di stringhe con un filtro in fase di query comporta la rimozione delle righe e può influire su calcoli e statistiche di riepilogo. Il secondo approccio mantiene le righe di dati, ma può far apparire nel modello come correlate righe che invece non lo sono, portando a errori di calcolo. Se si adotta quest'ultima soluzione, accertarsi di usare i filtri nella vista o nel grafico dove appropriato, in modo da ottenere risultati accurati. È anche importante valutare quali righe vengono mantenute o rimosse e comprendere l'impatto globale sull'analisi. 
@@ -132,7 +132,7 @@ Si caricano i set di dati relativi a richieste di assistenza clienti attive e un
 > 
 > 
 
-Quando si vuole tenere traccia di tutte le richieste e di tutti gli elementi di lavoro correlati a un NomeCliente specifico, non è sufficiente creare una relazione tra questi due set di dati. Alcuni ElementiLavoro potrebbero non essere correlati a un NomeCliente e quindi il campo sarebbe vuoto o NULL. Se è presente un valore vuoto o null nella tabella relativa ai nomi dei clienti, potrebbe essere comunque possibile creare una relazione. Vedere Creazione di relazioni quando i dati contengono valori null o vuoti. Potrebbero essere presenti più ElementiLavoro e RichiesteClienti per un singolo NomeCliente. 
+Quando si vuole tenere traccia di tutti gli incidenti ed elementi di lavoro correlati a un NomeCliente specifico, non è sufficiente creare una relazione tra questi due set di dati. Alcuni ElementiLavoro potrebbero non essere correlati a un NomeCliente e quindi il campo sarebbe vuoto o NULL. Se è presente un valore vuoto o null nella tabella relativa ai nomi dei clienti, potrebbe essere comunque possibile creare una relazione. Vedere Creazione di relazioni quando i dati contengono valori null o vuoti. Potrebbero essere presenti più ElementiLavoro e RichiesteClienti per un singolo NomeCliente. 
 
 Per creare una relazione in questo caso, è necessario creare un set di dati logico di tutti i record NomeClienti tra i due set di dati. Nella scheda della query, è possibile usare la sequenza seguente per creare il set di dati logico:
 

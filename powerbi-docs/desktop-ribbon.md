@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016136"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527443"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Usare la barra multifunzione aggiornata in Power BI Desktop (anteprima)
 
@@ -51,7 +51,18 @@ Con l'aggiornamento della barra multifunzione si intende offrire i vantaggi di u
 
 * **Barra multifunzione su una riga che, se compressa, consente di risparmiare spazio**: un altro vantaggio della barra multifunzione aggiornata è la possibilità di comprimerla su una riga, visualizzando dinamicamente gli elementi della barra multifunzione in base al contesto. 
 
-    ![Temi migliori](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Barra multifunzione compressa](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Suggerimenti per spostarsi e selezionare i pulsanti**: per spostarsi nella barra multifunzione, è possibile premere **ALT+tasto Windows** per attivare i suggerimenti per i tasti di scelta. Dopo aver attivato i suggerimenti, per spostarsi è possibile premere sulla tastiera i tasti visualizzati.
+
+    ![Suggerimenti per i tasti di scelta](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Stringhe di formato personalizzate**: queste stringhe possono essere impostate nel riquadro *Proprietà* ma anche nella barra multifunzione. Selezionare la misura o la colonna che si vuole personalizzare. A seconda della selezione verrà visualizzata una scheda contestuale **Strumenti misura** o **Strumenti colonna**. Nella sezione della scheda relativa alla formattazione è possibile digitare la stringa di formato personalizzata direttamente nella casella a discesa.
+
+    ![Stringhe di formato personalizzate](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Accessibilità**: la barra del titolo, la barra multifunzione e il menu File sono completamente accessibili. Premere CTRL+F6 per passare alla sezione della barra multifunzione. A questo punto, è possibile usare il tasto **TAB** per spostarsi tra la barra superiore e quella inferiore e usare i tasti di direzione per spostarsi tra gli elementi.
+
 
 Oltre a queste modifiche visibili, una barra multifunzione aggiornata consente anche di apportare aggiornamenti futuri a Power BI Desktop e alla relativa barra multifunzione, quali ad esempio:
 

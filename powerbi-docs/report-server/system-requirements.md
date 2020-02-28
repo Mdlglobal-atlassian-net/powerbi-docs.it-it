@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540568"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558551"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisiti hardware e software per l'installazione del server di report di Power BI
 
 Questo articolo elenca i requisiti minimi di hardware e software per l'installazione e l'esecuzione del server di report di Power BI.
 
-## <a name="processor-memory-and-operating-system-requirements"></a>Requisiti del processore, della memoria e del sistema operativo
+## <a name="processor-memory-and-operating-system-requirements"></a>Requisiti di processore, memoria e sistema operativo
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.6<br><br>È possibile installare manualmente .NET Framework da [Microsoft .NET Framework 4.6 (programma di installazione Web) per Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Per altre informazioni, suggerimenti e indicazioni su .NET Framework 4.6 vedere [Guida alla distribuzione di .NET Framework per gli sviluppatori](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1, and Windows Server 2012 R2 richiedono [KB2919355](https://support.microsoft.com/kb/2919355) prima dell'installazione di .NET Framework 4.6. |
+| .NET Framework |4.7<br><br>È possibile installare manualmente .NET Framework da [Microsoft .NET Framework 4.7 (programma di installazione Web) per Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Per altre informazioni, suggerimenti e indicazioni su .NET Framework 4.7, vedere [Guida alla distribuzione di .NET Framework per gli sviluppatori](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 e Windows Server 2012 R2 richiedono [KB2919355](https://support.microsoft.com/kb/2919355) prima dell'installazione di .NET Framework 4.7. |
 | Disco rigido |Il server di report di Power BI richiede almeno 1 GB di spazio su disco disponibile.<br><br>Sarà necessario spazio aggiuntivo nel server di database che ospita il database del server di report. |
 | Memoria |**Minimo:** 1 GB<br/><br/> **Consigliato:** almeno 4 GB |
 | Velocità del processore |**Minimo:** processore x64: 1,4 GHz<br/><br/> **Consigliato:** 2,0 GHz o superiore |
@@ -34,10 +34,11 @@ Questo articolo elenca i requisiti minimi di hardware e software per l'installaz
 > L'installazione del server di report di Power BI è supportata solo nei processori x64.
 
 
-## <a name="database-server-version-requirements"></a>Requisiti relativi alla versione del server di database
+## <a name="database-server-version-requirements"></a>Requisiti della versione del server di database
 
 SQL Server viene usato per ospitare i database del server di report. L'istanza del motore di database di SQL Server può essere locale o remota. Di seguito sono elencate le versioni supportate del motore di database di SQL Server che possono essere usate per ospitare i database del server di report:
 
+* Istanza gestita di database SQL di Azure (Server di report di Power BI versione di gennaio 2020 e successive)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
@@ -48,7 +49,7 @@ Quando si crea il database del server di report in un computer remoto, è necess
 
 ## <a name="considerations"></a>Considerazioni
 
-Il server di Report di Power BI installerà i valori predefiniti per configurare le impostazioni principali necessarie per rendere operativo un server di report. Di seguito vengono indicati i requisiti per questa opzione di installazione:
+Il server di Report di Power BI installerà i valori predefiniti per configurare le impostazioni principali necessarie per rendere operativo un server di report. Presenta i requisiti seguenti:
 
 * Le lingue supportate per Server di report di Power BI sono: inglese, tedesco, spagnolo, giapponese, italiano, francese, russo, cinese semplificato, cinese tradizionale, portoghese (Brasile), coreano
 * Disponibilità di un motore di database di SQL Server dopo l'installazione e prima della configurazione del database per il server di report. L'istanza del motore di database ospita il database del server di report che verrà creato da Reporting Services Configuration Manager. Il motore di database non è necessario per l'effettiva esperienza di configurazione.
@@ -59,7 +60,7 @@ Il server di Report di Power BI installerà i valori predefiniti per configurare
 
 ## <a name="read-only-domain-controller-rodc"></a>Controller di dominio di sola lettura (RODC)
 
- È possibile installare il server di report in un ambiente con un controller di dominio di sola lettura (RODC). Tuttavia, Reporting Services deve accedere a un controller di dominio di lettura/scrittura per funzionare correttamente. Se Reporting Services può accedere solo a un controller di dominio di sola lettura, si possono verificare errori durante l'amministrazione del servizio.
+ È possibile installare il server di report in un ambiente con un controller di dominio di sola lettura (RODC). Tuttavia, Reporting Services deve accedere a un controller di dominio di lettura/scrittura per funzionare correttamente. Se Reporting Services può accedere solo a un RODC, si possono verificare errori quando si prova ad amministrare il servizio.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Report di Power BI e connessioni dinamiche di Analysis Services
 
@@ -77,6 +78,6 @@ Il server di Report di Power BI installerà i valori predefiniti per configurare
 [Panoramica amministratore](admin-handbook-overview.md)  
 [Installare il server di report di Power BI](install-report-server.md)  
 [Scaricare Generatore report](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Scaricare la versione più recente di SQL Server Data Tools](https://go.microsoft.com/fwlink/?LinkID=616714)
+[Scaricare SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)

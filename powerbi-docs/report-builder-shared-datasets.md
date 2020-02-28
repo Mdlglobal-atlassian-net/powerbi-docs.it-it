@@ -1,18 +1,18 @@
 ---
 title: Creare un report impaginato con un set di dati condiviso di Power BI - Power BI Report Builder
 description: Creare un report impaginato in Power BI Report Builder basato su un set di dati condiviso di Power BI.
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691477"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427842"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creare un report impaginato basato su un set di dati condiviso di Power BI
 
@@ -27,6 +27,7 @@ Non è necessario che il set di dati si trovi in un'area di lavoro con capacità
 Ecco un elenco degli elementi necessari e non necessari per usare un set di dati condiviso in Generatore report di Power BI.
 
 - Generatore report di Power BI. [Scaricare e installare Generatore report di Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Desktop. [Scaricare e installare Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 - Per accedere a un set di dati di Power BI, è necessaria l'autorizzazione di creazione per il set di dati. Leggere le informazioni sull'[autorizzazione di creazione](service-datasets-build-permissions.md).
 - Non è necessaria una licenza di Power BI Pro per creare un report impaginato in Generatore report. 
 - È necessaria una licenza di Power BI Pro per pubblicare il report impaginato. È anche necessario almeno un ruolo Collaboratore per un'area di lavoro con capacità Premium. 
@@ -57,12 +58,26 @@ Ecco un elenco degli elementi necessari e non necessari per usare un set di dati
     Tenere presente che è possibile connettersi a più set di dati di Power BI e ad altre origini dati nello stesso report impaginato.
 
 
-## <a name="get-the-query-for-the-dataset"></a>Ottenere la query per il set di dati
+## <a name="get-the-dax-query-for-the-dataset"></a>Ottenere la query DAX per il set di dati
 
 Quando si vuole che i dati nel report di Power BI e nel report di Generatore report corrispondano, non è sufficiente connettersi al set di dati. È necessaria anche la query basata su tale set di dati.
 
+### <a name="video-get-the-dax-query"></a>Video: Ottenere la query DAX
+
+Nel video seguente Chris Finlan illustra come ottenere il codice DAX necessario per il report impaginato.
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>Passaggi per ottenere la query DAX
+
+Ecco i passaggi per ottenere la query.
+
 1. Aprire il report di Power BI (con estensione pbix) in Power BI Desktop.
-1. Assicurarsi che nel report sia presente una tabella contenente tutti i dati che devono essere presenti nel report impaginato.
+1. Assicurarsi che nel report sia presente una tabella contenente tutti i dati che devono essere presenti nel report impaginato. La tabella deve soddisfare questi due requisiti:
+    - Deve essere una tabella flat, non una matrice o un altro oggetto visivo. Se non è una tabella, convertire ora l'oggetto in una tabella, eseguire i passaggi seguenti dell'analizzatore prestazioni e quindi riconvertire la tabella nell'oggetto visivo desiderato.
+    - Per i campi numerici, è necessario usare le *misure predefinite*, che sono contrassegnate da un simbolo di calcolatrice. Vedere le informazioni sulla [creazione di misure](desktop-measures.md). 
+
+        ![Icona di misura](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. Nella scheda **Visualizza** della barra multifunzione selezionare **Analizzatore prestazioni**.
 
@@ -204,6 +219,7 @@ Si immagini, ad esempio, che il formato del report sia 21 x 28 cm e che siano st
 
 - Per i set di dati che usano una connessione dinamica ad Analysis Services, è possibile connettersi direttamente usando la connessione di Analysis Services sottostante invece di un set di dati condiviso.
 - I set di dati con l'indicazione Innalzato o Certificato vengono visualizzati nell'elenco di set di dati disponibili, ma non contrassegnati come tali. 
+- Non è possibile incorporare report impaginati basati su set di dati condivisi di Power BI nello scenario in cui i dati sono di proprietà dell'app.
 
 ## <a name="next-steps"></a>Passaggi successivi
 

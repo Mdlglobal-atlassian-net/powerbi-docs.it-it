@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758509"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558577"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Suggerimenti e consigli per le visualizzazioni mappa di Power BI
 Power BI si integra con Bing Maps per fornire coordinate della mappa predefinite (un processo denominato geocodifica) e poter creare delle mappe. Insieme, usano algoritmi per identificare la posizione corretta, anche se in alcuni casi si tratta solo una stima. Se Power BI non riesce a creare la visualizzazione della mappa autonomamente, richiede l'aiuto di Bing Maps. 
@@ -28,17 +28,17 @@ L'utente, o l'amministratore, potrebbe dover aggiornare il firewall per consenti
 Per aumentare la probabilità di esecuzione di operazioni di geocodifica corrette, usare i suggerimenti seguenti. Il primo set di suggerimenti serve se si ha accesso al set di dati, mentre il secondo set di suggerimenti contiene le operazioni che è possibile eseguire in Power BI se non si ha accesso al set di dati. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>Cosa viene inviato a Bing Maps?
-Il servizio di Power BI e Power BI Desktop inviano a Bing i dati geografici necessari per creare la visualizzazione mappa. Sono inclusi i dati nel bucket **Posizione**, **Latitudine**, e **Longitudine** e i campi geografici in uno dei bucket del filtro **Livello report**, **Page level** (Livello pagina) o **Visual level** (Livello oggetto visivo). Per la precisione gli elementi inviati variano in base al tipo di mappa. Per altre informazioni, vedere [Privacy di Bing Mappe](https://go.microsoft.com/fwlink/?LinkID=248686).
+Il servizio di Power BI e Power BI Desktop inviano a Bing i dati geografici necessari per creare la visualizzazione mappa. Questo può includere i dati nei bucket **Posizione**, **Latitudine** e **Longitudine** dell'area dei campi dell'oggetto visivo. Per la precisione gli elementi inviati variano in base al tipo di mappa. Per altre informazioni, vedere [Privacy di Bing Mappe](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Per le mappe, in particolare per le mappe a bolle, a dispersione e con tracciato a punti, se vengono indicati i valori di latitudine e longitudine non viene inviato alcun dato a Bing. In caso contrario, tutti i dati nei bucket **Posizione** e filtro vengono inviati a Bing.     
+* Per le mappe, in particolare per le mappe a bolle, a dispersione e con tracciato a punti, se vengono indicati i valori di latitudine e longitudine non viene inviato alcun dato a Bing. In caso contrario, tutti i dati nei bucket **Posizione** vengono inviati a Bing.     
 
 * Le mappe colorate richiedono un campo nel bucket **Posizione**, anche se vengono forniti i valori latitudine e longitudine. Qualsiasi dato incluso nel bucket **Posizione**, **Latitudine** o **Longitudine** viene inviato a Bing.
   
-    Nell'esempio seguente, il campo **Fornitore** viene usato per la codifica geografica, pertanto tutti i dati del fornitore vengono inviati a Bing. I dati dei bucket **Dimensioni** e **Saturazione colore** non vengono inviati a Bing.
+    Nell'esempio seguente, il campo **Vendor** viene usato per la codifica geografica e quindi i valori della colonna Vendor vengono inviati a Bing. I dati dei bucket **Dimensioni** e **Saturazione colore** non vengono inviati a Bing.
   
     ![Inviato a Bing Maps](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    Nel secondo esempio qui di seguito, il campo **Territorio** viene usato per la codifica geografica, quindi tutti i dati del territorio vengono inviati a Bing. I dati dei bucket **Legenda** e **Saturazione colore** non vengono inviati a Bing.
+    Nel secondo esempio seguente, il campo **Territory** viene usato per la codifica geografica e quindi i valori della colonna Territory vengono inviati a Bing. I dati dei bucket **Legenda** e **Saturazione colore** non vengono inviati a Bing.
   
     ![Mappe colorate e Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a62d1cf6d21df822265c3c41d4e74e74181b7051
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885206"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464302"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Connettersi a un data warehouse Snowflake Computing in Power BI Desktop
 In Power BI Desktop è possibile connettersi a un data warehouse **Snowflake** Computing e usare i dati sottostanti esattamente come qualsiasi altra origine dati in Power BI Desktop. 
@@ -27,11 +27,11 @@ In Power BI Desktop è possibile connettersi a un data warehouse **Snowflake** C
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Connettersi a un data warehouse Snowflake Computing
 Per connettersi a un data warehouse **Snowflake Computing**, selezionare **Recupera dati** nella scheda **Home** della barra multifunzione in Power BI Desktop. Quando si seleziona **Database** nelle categorie a sinistra viene visualizzato **Snowflake**.
 
-![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
+![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
-Nella finestra **Snowflake** che viene visualizzata digitare o incollare il nome del data warehouse Snowflake Computing, quindi selezionare **OK**. Si noti che è possibile scegliere di **importare** i dati direttamente in Power BI oppure usare **DirectQuery**. Per scoprire di più sull'[uso di DirectQuery](desktop-use-directquery.md).
+Nella finestra **Snowflake** che viene visualizzata digitare o incollare il nome del data warehouse Snowflake Computing, quindi selezionare **OK**. Si noti che è possibile scegliere di **importare** i dati direttamente in Power BI oppure usare **DirectQuery**. Per scoprire di più sull'[uso di DirectQuery](desktop-use-directquery.md). Si noti che l'accesso SSO con credenziali AAD supporta solo DirectQuery.
 
-![](media/desktop-connect-snowflake/connect_snowflake_3.png)
+![](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 Quando richiesto, inserire il nome utente e la password.
 
@@ -42,14 +42,14 @@ Quando richiesto, inserire il nome utente e la password.
 > 
 > 
 
-Se si vuole usare l'account Microsoft, chiedere all'amministratore Snowflake di contattare Snowflake per partecipare all'anteprima privata per questa funzionalità.
+Se si vuole usare l'opzione con account Microsoft, l'integrazione di AAD con Snowflake deve essere configurata sul lato Snowflake. A tale scopo, leggere la sezione introduttiva della [documentazione di Snowflake sull'argomento](https://docs.snowflake.net/manuals/user-guide/oauth-powerbi.html#power-bi-sso-to-snowflake).
 
 ![Tipo di autenticazione tramite account Microsoft nel connettore Snowflake.](media/desktop-connect-snowflake/connect-snowflake-6.png)
 
 
 Una volta stabilita la connessione, viene visualizzata una finestra **Strumento di navigazione** che mostra i dati disponibili sul server, in cui è possibile selezionare uno o più elementi da importare e usare in **Power BI Desktop**.
 
-![Errore ODBC 28000 che causa un errore di connessione.](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![Errore ODBC 28000 che causa un errore di connessione.](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 È possibile **caricare** la tabella selezionata, che importa l'intera tabella in **Power BI Desktop**, oppure è possibile **modificare** la query, che consente di aprire **Editor di query** in modo da filtrare e perfezionare il set di dati da usare e quindi caricare il set di dati perfezionato in **Power BI Desktop**.
 

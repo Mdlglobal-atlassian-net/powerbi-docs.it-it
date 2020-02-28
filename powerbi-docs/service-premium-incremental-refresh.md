@@ -1,37 +1,37 @@
 ---
-title: Aggiornamento incrementale in Power BI Premium
-description: Informazioni su come abilitare set di dati molto grandi nel servizio Power BI Premium.
+title: Aggiornamento incrementale in Power BI
+description: Informazioni su come abilitare set di dati molto grandi in Power BI.
 author: davidiseminger
-ms.reviewer: kayu
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699292"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527626"
 ---
-# <a name="incremental-refresh-in-power-bi-premium"></a>Aggiornamento incrementale in Power BI Premium
+# <a name="incremental-refresh-in-power-bi"></a>Aggiornamento incrementale in Power BI
 
-L'aggiornamento incrementale abilita set di dati molto grandi nel servizio Power BI Premium, con i seguenti vantaggi:
+L'aggiornamento incrementale abilita set di dati molto grandi in Power BI, con i seguenti vantaggi:
 
 > [!div class="checklist"]
 > * **Gli aggiornamenti sono più rapidi**: devono essere aggiornati solo i dati che sono stati cambiati. Ad esempio, è sufficiente aggiornare gli ultimi cinque giorni di un set di dati di 10 anni.
 > * **Gli aggiornamenti sono più affidabili**: non è più necessario mantenere connessioni con esecuzione prolungata a sistemi di origine volatili.
 > * **Il consumo di risorse risulta ridotto**: l'aggiornamento di una quantità di dati inferiore riduce l'uso complessivo di memoria e di altre risorse.
 
+> [!NOTE]
+> L'aggiornamento incrementale è ora disponibile per Power BI Pro e Premium e per sottoscrizioni e set di dati condivisi. 
+
 ## <a name="configure-incremental-refresh"></a>Configurare l'aggiornamento incrementale
 
 I criteri di aggiornamento incrementale sono definiti in Power BI Desktop e vengono applicati dopo la pubblicazione nel servizio Power BI.
 
-Per iniziare, abilitare l'aggiornamento incrementale nelle **funzionalità di anteprima**.
-
-![Opzioni - Funzionalità di anteprima](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Filtrare grandi set di dati in Power BI Desktop
 
@@ -54,7 +54,7 @@ Verificare che vengano filtrate righe in cui il valore della colonna *è dopo o 
 ![Filtra righe](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!IMPORTANT]
-> Verificare che le query abbiano un criterio uguale a (= ) in **RangeStart** o **RangeEnd**, ma non in entrambi. Se il criterio uguale a (=) è presente in entrambi i parametri, una riga può soddisfare le condizioni per due partizioni, il che potrebbe causare la duplicazione dei dati nel modello. Ad esempio:  
+> Verificare che le query abbiano un criterio uguale a (= ) in **RangeStart** o **RangeEnd**, ma non in entrambi. Se il criterio uguale a (=) è presente in entrambi i parametri, una riga può soddisfare le condizioni per due partizioni, il che potrebbe causare la duplicazione dei dati nel modello. Ad esempio,  
 > \#"Filtered Rows" = Table.SelectRows(dbo_Fact, each [OrderDate] **>= RangeStart** and [OrderDate] **<= RangeEnd**) potrebbe causare dati duplicati.
 
 > [!TIP]
@@ -72,7 +72,7 @@ Il filtro sulla colonna data viene usato per partizionare in modo dinamico i dat
 
 È importante eseguire la propagazione dei filtri di partizione nel sistema di origine quando vengono inviate query per operazioni di aggiornamento. La propagazione dei filtri implica che l'origine dati supporti la "riduzione delle query". La maggior parte delle origini dati che supportano le query SQL supporta la riduzione delle query. Origini dati quali file flat, BLOB, Web e feed OData, tuttavia, in genere non la supportano. Nei casi in cui il filtro non è supportato dal back-end dell'origine dati, la propagazione non risulta possibile. In questi casi, il motore Mashup compensa e applica il filtro localmente. Questa operazione può richiedere il recupero del set di dati completo dall'origine dati. L'aggiornamento incrementale può pertanto risultare molto lento e il processo può esaurire le risorse nel servizio Power BI o nel gateway dati locale, se usato.
 
-Dal momento che ogni origine dati può avere un livello di supporto della riduzione delle query diverso, è consigliabile eseguire una verifica per assicurarsi che la logica di filtro sia inclusa nelle query di origine. Per semplificare questa operazione, Power BI Desktop tenta di eseguire questa verifica automaticamente. Se non riesce, viene visualizzato un avviso nella finestra di dialogo dell'aggiornamento incrementale al momento della definizione dei criteri di quest'ultimo. Le origini dati basate su SQL, ad esempio SQL, Oracle e Teradata, possono basarsi su questo avviso. Altre origini dati possono essere in grado di effettuare la verifica solo se eseguono la traccia delle query. Se Power BI Desktop non è in grado eseguire la conferma, viene visualizzato l'avviso seguente.
+Dal momento che ogni origine dati può avere un livello di supporto della riduzione delle query diverso, è consigliabile eseguire una verifica per assicurarsi che la logica di filtro sia inclusa nelle query di origine. Per semplificare questa operazione, Power BI Desktop tenta di eseguire questa verifica automaticamente. Se non riesce, viene visualizzato un avviso nella finestra di dialogo dell'aggiornamento incrementale al momento della definizione dei criteri di quest'ultimo. Le origini dati basate su SQL, ad esempio SQL, Oracle e Teradata, possono basarsi su questo avviso. Altre origini dati possono essere in grado di effettuare la verifica solo se eseguono la traccia delle query. Se Power BI Desktop non è in grado eseguire la conferma, viene visualizzato l'avviso seguente. Se viene visualizzato questo avviso e si vuole verificare che sia in corso la riduzione delle query necessaria, è possibile usare la funzionalità di diagnostica delle query o tracciare le query ricevute dal database di origine.
 
  ![Riduzione delle query](media/service-premium-incremental-refresh/query-folding.png)
 
@@ -93,7 +93,7 @@ Viene visualizzata la finestra di dialogo Aggiornamento incrementale. Usare l'in
 
 Il testo dell'intestazione illustra quanto segue:
 
-- L'aggiornamento incrementale è supportato solo per le aree di lavoro con capacità Premium. I criteri di aggiornamento sono definiti in Power BI Desktop e vengono applicati dalle operazioni di aggiornamento nel servizio.
+- I criteri di aggiornamento sono definiti in Power BI Desktop e vengono applicati dalle operazioni di aggiornamento nel servizio.
 
 - Se si è in grado di scaricare il file PBIX contenente criteri di aggiornamento incrementale dal servizio Power BI, non è possibile aprire tale file in Power BI Desktop. Il supporto di questa funzionalità potrebbe essere disponibile in futuro, ma si tenga presente che questi set di dati possono diventare così grandi che la loro gestione (download e apertura) in un computer desktop tipico può causare problemi.
 
@@ -110,6 +110,13 @@ L'esempio seguente definisce un criterio di aggiornamento per archiviare i dati 
 Il primo aggiornamento nel servizio Power BI può richiedere più tempo perché importa tutti i cinque anni di calendario completi. È probabile che gli aggiornamenti successivi vengano completati in tempi molto più ridotti.
 
 ![Intervalli di aggiornamento](media/service-premium-incremental-refresh/refresh-ranges.png)
+
+
+#### <a name="current-date"></a>Data corrente
+
+La *data corrente* è basata sulla data di sistema al momento dell'aggiornamento. Se l'aggiornamento pianificato è abilitato per il set di dati nel servizio Power BI, per la determinazione della data corrente verrà considerato il fuso orario specificato. Sia gli aggiornamenti pianificati sia quelli richiamati manualmente osservano il fuso orario, se disponibile. Ad esempio, un aggiornamento che si verifica alle ore 20.00 del Pacifico (Stati Uniti e Canada) con il fuso orario specificato determinerà la data corrente in base al fuso orario del Pacifico e non all'orario GMT (che altrimenti sarebbe il giorno successivo).
+
+![Fuso orario](media/service-premium-incremental-refresh/time-zone2.png)
 
 > [!NOTE]
 > La definizione di questi intervalli potrebbe essere sufficiente. In tal caso passare direttamente al passaggio relativo alla pubblicazione riportato di seguito. Gli altri elenchi a discesa sono destinati a funzionalità avanzate.
@@ -143,10 +150,6 @@ Un altro esempio è l'aggiornamento dei dati di un sistema finanziario in cui i 
 > Le operazioni di aggiornamento nel servizio vengono eseguite in base all'ora UTC. Questa impostazione può determinare la data di validità e influire sui periodi completi. È prevista l'aggiunta della possibilità di sostituire la data di validità per un'operazione di aggiornamento.
 
 ## <a name="publish-to-the-service"></a>Pubblicare nel servizio
-
-Dato che l'aggiornamento incrementale è una funzionalità Premium, la finestra di dialogo di pubblicazione consente la selezione di un'area di lavoro solo se è disponibile la capacità Premium.
-
-![Pubblicare nel servizio](media/service-premium-incremental-refresh/publish.png)
 
 Ora è possibile aggiornare il modello. Il primo aggiornamento può richiedere più tempo per l'importazione dei dati cronologici. Gli aggiornamenti successivi sono in genere molto più rapidi perché usano l'aggiornamento incrementale.
 

@@ -3,20 +3,21 @@ title: Che cos'è un "consumer" di Power BI?
 description: Panoramica di Power BI per i consumer (noti anche come utenti finali o utenti aziendali).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863816"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496214"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Servizio Power BI per i consumer
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 La cultura attuale prevede che le decisioni aziendali siano basate sui fatti e non sulle opinioni. Sono necessari dati per prendere queste decisioni e si ricevono dati in tutte le forme:     
  
@@ -43,6 +44,8 @@ La modalità di interazione con Power BI dipende dal ruolo. Gli utenti finali o 
 I consumer non hanno accesso a tutte le funzionalità di Power BI e ciò è corretto, perché non è compito dei consumer creare dashboard e report. I consumer useranno il servizio Power BI per attività di analisi, monitoraggio, esplorazione e decisionali. 
 
 Il termine "Power BI Desktop" o semplicemente "Desktop" indica uno strumento autonomo usato dai *progettisti*, che creano i dashboard e i report e li condividono con gli utenti.  È importante sapere che sono disponibili altri strumenti di Power BI, ma che il consumer usa solo il servizio Power BI. 
+
+Poiché si lavora con contenuto *condiviso*, sarà necessaria una licenza di Power BI Pro o Premium. [Quali licenze sono disponibili?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interagire in modo sicuro con i contenuti 

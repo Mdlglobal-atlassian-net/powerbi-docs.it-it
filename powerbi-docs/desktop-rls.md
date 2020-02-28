@@ -1,5 +1,5 @@
 ---
-title: Informazioni sulla sicurezza a livello di riga con Power BI Desktop
+title: Limitare l'accesso ai dati con sicurezza a livello di riga per Power BI Desktop
 description: Come configurare la sicurezza a livello di riga per i set di dati importati e DirectQuery con Power BI Desktop.
 author: davidiseminger
 ms.author: davidi
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 12/05/2019
+ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: dc2c1e312592048c90643526a898ebe654907a68
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 7a9aa0ca62ae4f1008d4cf47caa909841f9ec495
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760659"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464481"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Limitare l'accesso ai dati con sicurezza a livello di riga per Power BI Desktop
 
@@ -24,9 +24,7 @@ ms.locfileid: "75760659"
 È ora possibile configurare la sicurezza a livello di riga per i modelli di dati importati in Power BI con Power BI Desktop. È anche possibile configurare la sicurezza a livello di riga nei set di dati che usano [DirectQuery](desktop-use-directquery.md), ad esempio SQL Server. In precedenza, era possibile implementare la sicurezza a livello di riga solo nei modelli di Analysis Services locali all'esterno di Power BI. Per le connessioni dinamiche ad Analysis Services è possibile configurare la sicurezza a livello di riga nel modello locale. L'opzione di sicurezza non viene visualizzata per i set di dati di connessione dinamica.
 
 > [!IMPORTANT]
-> Se sono stati definiti ruoli e regole all'interno del servizio Power BI, è necessario creare di nuovo tali ruoli all'interno di Power BI Desktop e pubblicare il report nel servizio.
-
-Altre informazioni sulle opzioni per la [sicurezza a livello di riga all'interno del servizio Power BI](service-admin-rls.md).
+> Se sono stati definiti ruoli e regole all'interno del servizio Power BI, è necessario creare di nuovo tali ruoli all'interno di Power BI Desktop e pubblicare il report nel servizio. Vedere altre informazioni sulle opzioni per la [Sicurezza a livello di riga all'interno del servizio Power BI](service-admin-rls.md).
 
 [!INCLUDE [include-short-name](./includes/rls-desktop-define-roles.md)]
 
@@ -40,4 +38,4 @@ Altre informazioni sulle opzioni per la [sicurezza a livello di riga all'interno
 
 [Sicurezza a livello di riga con il servizio Power BI](service-admin-rls.md)  
 
-Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/)
+Altre domande? [Provare a rivolgersi alla community di Power BI](https://community.powerbi.com/).

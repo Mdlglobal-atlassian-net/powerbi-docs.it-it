@@ -1,26 +1,32 @@
 ---
 title: Autorizzazione per creazione report per set di dati condivisi (anteprima)
-description: Informazioni su come mantenere il controllo di chi può accedere ai dati usando l'autorizzazione per creazione report.
+description: Informazioni su come controllare l'accesso ai dati usando l'autorizzazione per creazione report.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872549"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426611"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Autorizzazione per creazione report per set di dati condivisi (anteprima)
 
-I *modelli di dati* creati in Power BI Desktop possono essere condivisi come *set di dati* nel servizio Power BI. I set di dati condivisi possono poi essere facilmente individuati e riusati per creare report. Informazioni su come controllare chi può accedere ai dati usando l'autorizzazione per creazione report.
+Quando si crea un report in Power BI Desktop, i dati del report vengono archiviati in un *modello di dati*. Quando si pubblicano i report nel servizio Power BI, i dati vengono pubblicati anche come *set di dati*. È possibile concedere ad altri l'*autorizzazione di creazione* per il report specifico, in modo da poter individuare e riutilizzare il set di dati condiviso. Questo articolo illustra come controllare l'accesso ai dati usando l'autorizzazione per creazione report.
 
-L'autorizzazione per creazione report è pertinente solo per i set di dati. Gli utenti a cui si concede l'autorizzazione per creazione report possono creare nuovo contenuto in set di dati quali report, dashboard, riquadri aggiunti da Domande e risposte e Insights Discovery. Possono anche compilare nuovo contenuto nel set di dati esterno a Power BI, ad esempio in fogli di Excel, usando Analizza in Excel, XMLA e l'esportazione dei dati sottostanti.
+L'autorizzazione per creazione report si applica ai set di dati. Gli utenti a cui si concede l'autorizzazione per creazione report possono creare nuovo contenuto nel set di dati, ad esempio report, dashboard, riquadri aggiunti da Domande e risposte e Insights Discovery. 
+
+Gli utenti devono disporre delle autorizzazioni per creazione report anche per lavorare con i dati *all'esterno* di Power BI:
+
+- Per esportare i dati sottostanti.
+- Per creare nuovo contenuto nel set di dati, ad esempio con [Analizza in Excel](service-analyze-in-excel.md).
+- Per accedere ai dati tramite l'endpoint XMLA.
 
 ## <a name="ways-to-give-build-permission"></a>Come concedere l'autorizzazione per creazione report
 

@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699200"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527592"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Panoramica dell'accesso Single Sign-On (SSO) per i gateway in Power BI
 
-Per usufruire di un'esperienza di connettività Single Sign-On ottimale che abilita l'aggiornamento di report e dashboard di Power BI in tempo reale dai dati locali, è possibile configurare il gateway dati locale. È possibile configurare il gateway scegliendo tra la delega vincolata [Kerberos](service-gateway-sso-kerberos.md) e Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)). Il gateway dati locale supporta l'accesso Single Sign-On tramite [DirectQuery](desktop-directquery-about.md), che consente la connessione alle origini dati locali.
+Per usufruire di un'esperienza di connettività Single Sign-On ottimale che abilita l'aggiornamento di report e dashboard di Power BI in tempo reale dai dati locali, è possibile configurare il gateway dati locale. È possibile configurare il gateway scegliendo tra la delega vincolata [Kerberos](service-gateway-sso-kerberos.md) e Security Assertion Markup Language ([SAML](service-gateway-sso-saml.md)). Il gateway dati locale supporta l'accesso SSO tramite [DirectQuery](desktop-directquery-about.md) o per Aggiornamento, che consente la connessione alle origini dati locali. 
 
 Power BI supporta le origini dati seguenti:
 
@@ -33,7 +33,9 @@ Power BI supporta le origini dati seguenti:
 
 L'accesso Single Sign-On non è attualmente supportato per le [estensioni M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
 
-Quando un utente interagisce con un report DirectQuery nel servizio Power BI, ogni operazione di filtro incrociato, sezione, ordinamento e modifica di report può comportare l'esecuzione di query in tempo reale sull'origine dati locale sottostante. Quando si configura l'accesso Single Sign-On per l'origine dati, le query vengono eseguite in base all'identità dell'utente che interagisce con Power BI, ovvero tramite l'esperienza Web o le app Power BI per dispositivi mobili. Ogni utente, quindi, visualizza con precisione i dati a cui è autorizzato ad accedere nell'origine dati sottostante. Grazie all'accesso Single Sign-On, si evita la memorizzazione nella cache di dati condivisi tra utenti diversi.
+Quando un utente interagisce con un report DirectQuery nel servizio Power BI, ogni operazione di filtro incrociato, sezione, ordinamento e modifica di report può comportare l'esecuzione di query in tempo reale sull'origine dati locale sottostante. Quando si configura l'accesso Single Sign-On per l'origine dati, le query vengono eseguite in base all'identità dell'utente che interagisce con Power BI, ovvero tramite l'esperienza Web o le app Power BI per dispositivi mobili. Ogni utente, quindi, visualizza con precisione i dati a cui è autorizzato ad accedere nell'origine dati sottostante. 
+
+È inoltre possibile configurare un report configurato per l'aggiornamento nel servizio Power BI per l'uso di SSO. Quando si configura SSO per questa origine dati, le query vengono eseguite con l'identità del proprietario del set di dati all'interno di Power BI. Pertanto, l'aggiornamento viene eseguito in base alle autorizzazioni del proprietario del set di dati per l'origine dati sottostante. L'aggiornamento tramite SSO è attualmente abilitato solo per le origini dati che usano la delega vincolata [Kerberos](service-gateway-sso-kerberos.md) 
 
 ## <a name="query-steps-when-running-sso"></a>Passi di query durante l'esecuzione di SSO
 

@@ -2,18 +2,18 @@
 author: davidiseminger
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/13/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74882783"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464430"
 ---
 ## <a name="limitations"></a>Limitazioni
 
-Di seguito è riportato un elenco delle limitazioni correnti per la sicurezza a livello di riga nei modelli cloud.
+Di seguito è riportato un elenco delle limitazioni correnti per la sicurezza a livello di riga nei modelli cloud:
 
 * Se in precedenza sono stati definiti ruoli e regole nel servizio Power BI, sarà necessario crearli di nuovo in Power BI Desktop.
 
@@ -23,7 +23,7 @@ Di seguito è riportato un elenco delle limitazioni correnti per la sicurezza a 
 
 ## <a name="known-issues"></a>Problemi noti
 
-Esiste un problema noto per cui si riceve un messaggio di errore quando si prova a pubblicare un report già pubblicato in precedenza da Power BI Desktop. Lo scenario è come indicato di seguito.
+Esiste un problema noto per cui si riceve un messaggio di errore quando si prova a pubblicare un report pubblicato in precedenza da Power BI Desktop. Lo scenario è il seguente:
 
 1. Anna ha un set di dati che è pubblicato nel servizio Power BI e per il quale è configurata la sicurezza a livello di riga.
 

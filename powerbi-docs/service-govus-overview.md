@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160766"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496934"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI per i clienti del Governo degli Stati Uniti
 Questo articolo è destinato ai clienti del Governo degli Stati Uniti che distribuiscono Power BI come parte di un piano Office 365 Government. I piani Government sono progettati per le esigenze specifiche delle organizzazioni che devono soddisfare gli standard di conformità e sicurezza degli Stati Uniti. Il servizio Power BI progettato per i clienti del Governo degli Stati Uniti è diverso dalla versione commerciale del servizio Power BI. Le differenze delle funzionalità e delle capacità sono descritte nelle sezioni seguenti.
@@ -89,12 +89,12 @@ Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alc
 |Creazione di report|Creare e visualizzare dashboard e report|Disponibile|Disponibile|Disponibile|
 |  |Aggiornamento dati pianificato|Disponibile|Disponibile|Disponibile|
 |  |Dashboard del team aggiornabili|Disponibile|Disponibile|Disponibile|
-|  |Report impaginati|Disponibile solo in Governo degli Stati Uniti - Texas e Virginia |Disponibile|Nella roadmap|
+|  |Report impaginati|Disponibile|Disponibile|Nella roadmap|
 |  |App modello|Non disponibile|Non disponibile|Non disponibile|
 |Connettersi ai dati|Importazione di dati e report da Excel|Disponibile|Disponibile|Disponibile|
 |  |Importazione di dati da file CSV|Disponibile|Disponibile|Disponibile|
 |  |Importazione di dati da file di Power BI Desktop|Disponibile|Disponibile|Disponibile|
-|  |Connettività a CDS|Non disponibile|Non disponibile|Non disponibile|
+|  |Connettività a CDS|Disponibile|Non disponibile|Non disponibile|
 |  |Connettore di Azure Data Lake Storage Gen2|Non disponibile|Non disponibile|Non disponibile|
 |Gestione dei dati|Gateway di gestione dati|Disponibile|Disponibile|Disponibile|
 |  |Crittografia dei dati in Azure SQL|Disponibile|Disponibile|Disponibile|
@@ -103,7 +103,7 @@ Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alc
 |  |Incorporamento in SharePoint Online tramite la Web part Embed|Disponibile|Disponibile|Disponibile|
 |  |Flussi di dati e funzioni di intelligenza artificiale|Non disponibile|Non disponibile|Non disponibile|
 |  |Connettività Power Automate per avvisi basati sui dati|Non disponibile|Non disponibile|Non disponibile|
-|  |Scheda Power BI nei team|Non disponibile|Non disponibile|Non disponibile|
+|  |Scheda Power BI nei team|Disponibile|Non disponibile|Non disponibile|
 |  |Funzionalità automatizzate di Machine Learning|Non disponibile|Non disponibile|Non disponibile|
 |  |Servizi cognitivi|Non disponibile|Non disponibile|Non disponibile|
 |  |Azure ML|Non disponibile|Non disponibile|Non disponibile|
@@ -111,7 +111,6 @@ Per soddisfare i requisiti dei clienti del cloud per enti pubblici, esistono alc
 ## <a name="next-steps"></a>Passaggi successivi
 
 * [Iscrizione a Power BI per il Governo degli Stati Uniti](service-govus-signup.md)
+* [Microsoft Power Apps per US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Demo di Power BI per il Governo degli Stati Uniti</a>
-* [Introduzione al servizio Power BI](service-get-started.md)
-* [Che cos'è Power BI Desktop?](desktop-what-is-desktop.md)
-

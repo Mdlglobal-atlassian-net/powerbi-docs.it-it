@@ -1,6 +1,6 @@
 ---
 title: Distribuire il contenuto agli utenti guest esterni usando Azure AD B2B
-description: Power BI si integra con Azure Active Directory Business-to-Business (AD B2B Azure) per consentire la distribuzione sicura di contenuto di Power BI agli utenti guest all'esterno dell'organizzazione.
+description: Power BI consente la condivisione di contenuto con utenti guest esterni tramite Azure Active Directory Business-to-Business (Azure AD B2B).
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,47 +9,48 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2a17e4963d4607b67279f65205579e115df2e550
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026647"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558608"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure AD B2B
 
-Power BI si integra con Azure Active Directory Business-to-Business (Azure AD B2B) per consentire la distribuzione sicura di contenuto di Power BI agli utenti guest all'esterno dell'organizzazione, pur mantenendo il controllo sui dati interni. Inoltre, è possibile consentire agli utenti guest all'esterno dell'organizzazione di modificare e gestire il contenuto all'interno dell'organizzazione.
+Power BI consente la condivisione di contenuto con utenti guest esterni tramite Azure Active Directory Business-to-Business (Azure AD B2B).
+Con Azure AD B2B, un'organizzazione può abilitare e gestire la condivisione con utenti esterni da una posizione centrale. Per impostazione predefinita, gli utenti guest esterni possono usufruire di un'esperienza di solo consumo. Inoltre, è possibile consentire agli utenti guest all'esterno dell'organizzazione di modificare e gestire il contenuto all'interno dell'organizzazione.
 
 Questo articolo offre un'introduzione di base a Azure AD B2B in Power BI. Per altre informazioni, vedere [Distribuire il contenuto di Power BI agli utenti guest esterni usando Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Abilitare l'accesso
 
-Prima di invitare utenti guest, verificare che la funzionalità [Condividi contenuti con utenti esterni](service-admin-portal.md#export-and-sharing-settings) sia abilitata nel portale di amministrazione di Power BI. Anche se questa opzione è abilitata, in Azure Active Directory l'utente deve avere l'autorizzazione per l'invito di utenti guest, che può essere concessa tramite l'assegnazione del ruolo Mittente dell'invito guest. 
+Prima di invitare utenti guest, verificare che la funzionalità [Condividi contenuti con utenti esterni](service-admin-portal.md#export-and-sharing-settings) sia abilitata nel portale di amministrazione di Power BI. Anche quando questa opzione è abilitata, in Azure Active Directory l'utente deve avere l'autorizzazione per l'invito di utenti guest, che viene concessa tramite l'assegnazione del ruolo Mittente dell'invito guest. 
 
-È anche possibile usare la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Consente di selezionare quale utente guest può visualizzare e creare contenuto nelle aree di lavoro, inclusa l'esplorazione di Power BI della propria organizzazione.
+L'opzione per [consentire agli utenti guest esterni di modificare e gestire contenuto nell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) permette di concedere agli utenti guest la possibilità di visualizzare e creare contenuto nelle aree di lavoro, compresa l'esplorazione di Power BI dell'organizzazione.
 
 > [!NOTE]
-> L'impostazione [Condividi contenuti con utenti esterni](service-admin-portal.md#export-and-sharing-settings) controlla se gli utenti esterni possono essere invitati nell'organizzazione tramite Power BI. Dopo che un utente esterno ha accettato l'invito, diventa un utente guest Azure AD B2B all'interno dell'organizzazione. Questi utenti vengono visualizzati nelle selezioni utenti nell'intera esperienza di Power BI. Se l'impostazione è disabilitata, gli utenti guest esistenti nell'organizzazione continuano ad avere accesso a tutti gli elementi a cui avevano accesso e continuano a essere elencati nelle esperienze di selezione utenti. Anche gli utenti guest aggiunti tramite l'approccio dell'invito pianificato vengono visualizzati nelle selezioni utenti. Per impedire agli utenti guest di accedere a Power BI, è possibile usare un criterio di accesso condizionale di Azure AD.
+> L'impostazione [Condividi contenuti con utenti esterni](service-admin-portal.md#export-and-sharing-settings) determina se Power BI consente di invitare utenti esterni nell'organizzazione. Dopo che un utente esterno ha accettato l'invito, diventa un utente guest di Azure AD B2B all'interno dell'organizzazione. Questi utenti vengono visualizzati nelle selezioni utenti nell'intera esperienza di Power BI. Se l'impostazione è disabilitata, gli utenti guest esistenti nell'organizzazione continuano ad avere accesso a tutti gli elementi a cui avevano accesso e continuano a essere elencati nelle esperienze di selezione utenti. In queste esperienze vengono visualizzati anche gli utenti guest aggiunti tramite l'approccio basato su [inviti pianificati](#planned-invites). Per impedire agli utenti guest di accedere a Power BI, è possibile usare i criteri di accesso condizionale di Azure AD.
 
 ## <a name="who-can-you-invite"></a>Chi è possibile invitare?
 
-È possibile invitare utenti guest con la maggior parte degli indirizzi di posta elettronica, inclusi account personali, ad esempio gmail.com, outlook.com e hotmail.com. Azure AD B2B chiama questi indirizzi *identità di social network*.
+È possibile invitare nell'organizzazione utenti guest con la maggior parte degli indirizzi di posta elettronica, inclusi account personali, ad esempio gmail.com, outlook.com e hotmail.com. Azure AD B2B chiama questi indirizzi *identità di social network*.
 
 Non è possibile invitare gli utenti associati a un cloud per enti pubblici, ad esempio [Power BI per il Governo degli Stati Uniti](service-govus-overview.md).
 
 ## <a name="invite-guest-users"></a>Invitare gli utenti guest
 
-Gli inviti per gli utenti guest sono richiesti solo per il primo invito nell'organizzazione. Esistono due modi per invitare gli utenti: inviti pianificati e inviti ad hoc.
+Gli inviti per gli utenti guest sono richiesti solo per il primo invito nell'organizzazione. Per invitare gli utenti, usare gli inviti pianificati o ad hoc.
 
-È possibile invitare utenti guest usando le funzionalità seguenti in Power BI:
+Per usare gli inviti ad hoc, usare le funzionalità seguenti:
 * Condivisione di report e dashboard
 * Elenco di accesso all'app
 
-Se è necessario aggiungere a un'area di lavoro utenti esterni che non sono ancora guest in Azure AD dell'organizzazione, è possibile usare l'approccio degli inviti pianificati suggerito di seguito. 
+Gli inviti ad hoc non sono supportati nell'elenco di accesso all'area di lavoro. Per aggiungere questi utenti alla propria organizzazione, usare l'[approccio basato su inviti pianificati](#planned-invites). Quando l'utente esterno è un guest nell'organizzazione, aggiungerlo all'elenco di accesso all'area di lavoro.
 
 ### <a name="planned-invites"></a>Inviti pianificati
 
-Usare un invito pianificato se si sa quali utenti invitare. È possibile inviare l'invito con il portale di Azure o PowerShell. È necessario essere un amministratore del tenant per invitare altre persone.
+Usare un invito pianificato se si sa quali utenti invitare. È possibile inviare gli inviti con il portale di Azure o PowerShell. È necessario essere un amministratore del tenant per invitare altre persone.
 
 Seguire questi passaggi per inviare un invito nel portale di Azure.
 
@@ -81,14 +82,14 @@ L'utente guest riceverà un messaggio di posta elettronica che indica che l'app 
 
 ![Screenshot del messaggio di posta elettronica per l'app condivisa con l'utente guest](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
-L'utente guest deve accedere con l'indirizzo di posta elettronica dell'organizzazione. Riceverà una richiesta di accettazione dell'invito dopo l'accesso. Dopo l'accesso, l'app viene aperta per l'utente guest. Per tornare all'app, l'utente guest può aggiungere il collegamento ai segnalibri o salvare il messaggio di posta elettronica.
+L'utente guest deve accedere con l'indirizzo di posta elettronica dell'organizzazione. Riceverà una richiesta di accettazione dell'invito dopo l'accesso. Dopo l'accesso, l'app viene aperta per l'utente guest. Per tornare all'app, l'utente guest deve aggiungere il collegamento ai segnalibri o salvare il messaggio di posta elettronica.
 
 
 ## <a name="licensing"></a>Gestione delle licenze
 
 L'utente guest deve essere in possesso delle licenze appropriate per visualizzare il contenuto condiviso. Esistono tre modi per verificare che l'utente abbia una licenza appropriata: usare Power BI Premium, assegnare una licenza di Power BI Pro o usare la licenza di Power BI Pro del guest.
 
-Quando si usa la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) gli utenti guest che contribuiscono alle aree di lavoro con contenuto o condividono contenuto con altri utenti necessitano di una licenza di Power BI Pro.
+Gli [utenti guest che possono modificare e gestire contenuto nell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization) necessitano di una licenza di Power BI Pro per aggiungere contenuto alle aree di lavoro o condividere contenuto con altri utenti.
 
 ### <a name="use-power-bi-premium"></a>Usare Power BI Premium
 
@@ -110,23 +111,23 @@ L'utente guest ha già una licenza di Power BI Pro assegnata nel tenant.
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>Utenti guest che possono modificare e gestire contenuto
 
-Quando si usa la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), gli utenti guest specificati ottengono accesso a Power BI dell'organizzazione e possono visualizzare qualsiasi contenuto per cui hanno l'autorizzazione. Possono accedere alla pagina Home, esplorare le aree di lavoro, installare le app disponibili nell'elenco di accesso e aggiungere contenuto alle aree di lavoro. Possono creare aree di lavoro che fanno uso dell'esperienza della nuova area di lavoro o esserne amministratori. Esistono alcune limitazioni. Nella sezione Considerazioni e limitazioni sono elencate queste restrizioni.
+Quando si usa la funzionalità per [consentire agli utenti guest esterni di modificare e gestire contenuto nell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), gli utenti guest specificati ottengono diritti di accesso aggiuntivi al servizio Power BI dell'organizzazione. Gli utenti guest possono visualizzare qualsiasi contenuto per cui hanno l'autorizzazione, accedere alla pagina Home, esplorare le aree di lavoro, installare le app disponibili nell'elenco di accesso e aggiungere contenuto alle aree di lavoro. Possono creare aree di lavoro che fanno uso dell'esperienza della nuova area di lavoro o esserne amministratori. Esistono alcune limitazioni. Nella sezione Considerazioni e limitazioni sono elencate queste restrizioni.
  
-Per aiutare questi utenti ad accedere a Power BI, fornire loro l'URL del tenant. Per trovare l'URL del tenant, seguire questa procedura.
+Per aiutare gli utenti guest autorizzati ad accedere a Power BI, fornire loro l'URL del tenant. Per trovare l'URL del tenant, seguire questa procedura.
 
 1. Nel servizio Power BI selezionare la guida ( **?** ) nel menu in alto, quindi **Informazioni su Power BI**.
 
-2. Cercare il valore accanto a **URL tenant**. Il valore è l'URL del tenant che è possibile condividere con gli utenti guest.
+2. Cercare il valore accanto a **URL tenant**. Condividere l'URL del tenant con gli utenti guest autorizzati.
 
     ![Screenshot della finestra di dialogo Informazioni su Power BI con l'URL del tenant dell'utente guest evidenziato.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>Considerazioni e limitazioni
 
-* Per impostazione predefinita, gli utenti guest di Azure AD B2B esterni sono limitati all'utilizzo del contenuto. Gli utenti guest di Azure AD B2B esterni possono visualizzare app, dashboard e report, esportare i dati e creare sottoscrizioni di posta elettronica per i dashboard e i report. Non possono accedere alle aree di lavoro o pubblicare contenuto personale. Tuttavia, queste restrizioni non si applicano agli utenti guest che ottengono l'accesso tramite la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
+* Per impostazione predefinita, gli utenti guest di Azure AD B2B esterni sono limitati all'utilizzo del contenuto. Gli utenti guest di Azure AD B2B esterni possono visualizzare app, dashboard e report, esportare i dati e creare sottoscrizioni di posta elettronica per i dashboard e i report. Non possono accedere alle aree di lavoro o pubblicare contenuto personale. Per rimuovere queste limitazioni, è possibile usare la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
 
 * Per invitare gli utenti guest è necessaria una licenza di Power BI Pro. Gli utenti della versione di valutazione Pro non possono invitare gli utenti guest in Power BI.
 
-* Alcune esperienze non sono disponibili per gli utenti guest abilitati tramite la funzionalità [Consenti agli utenti guest esterni di modificare e gestire il contenuto dell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Per aggiornare o pubblicare report, devono usare l'interfaccia utente Web del servizio Power BI, tra cui l'opzione Scarica i dati per caricare i file di Power BI Desktop.  Le esperienze seguenti non sono supportate:
+* Alcune esperienze non sono disponibili per gli [utenti guest che possono modificare e gestire contenuto nell'organizzazione](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Per aggiornare o pubblicare report, devono usare l'interfaccia utente Web del servizio Power BI, tra cui l'opzione Scarica i dati per caricare i file di Power BI Desktop.  Le esperienze seguenti non sono supportate:
     * Pubblicazione diretta da Power BI Desktop al servizio Power BI
     * Gli utenti guest non possono usare Power BI Desktop per connettersi ai set di dati del servizio nel servizio Power BI
     * Aree di lavoro classiche associate a gruppi di Office 365:
@@ -155,6 +156,8 @@ Per aiutare questi utenti ad accedere a Power BI, fornire loro l'URL del tenant.
     * [Consentire o bloccare l'accesso al servizio Power BI da parte di utenti guest](/azure/active-directory/conditional-access/overview)
     
 * La condivisione all'esterno dell'organizzazione non è supportata nei cloud nazionali. Creare invece all'interno dell'organizzazione account utente che gli utenti esterni possono usare per accedere al contenuto. 
+
+* Se si condivide direttamente con un utente guest, Power BI invierà all'utente un messaggio di posta elettronica con il collegamento. Per evitare l'invio di un messaggio di posta elettronica, aggiungere l'utente guest a un gruppo di sicurezza e condividere con il gruppo di sicurezza.  
 
 ## <a name="next-steps"></a>Passaggi successivi
 

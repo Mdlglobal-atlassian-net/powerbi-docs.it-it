@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.openlocfilehash: 204e1cdb83c02582e6181cf6addcbfdf8355054d
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691446"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527569"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Sequenza temporale del supporto per il server di report di Power BI
 
@@ -34,9 +34,10 @@ Questo criterio di supporto consente di fornire innovazione ai clienti in tempi 
 | Ottobre 2017 |31 ottobre 2017 | Non più supportato |
 | Marzo 2018 | 19 marzo 2018 | Non più supportato |
 | Agosto 2018 | 15 agosto 2018 | Non più supportato |
-| Gennaio 2019 | 23 gennaio 2019 | 23 gennaio 2020 |
+| Gennaio 2019 | 23 gennaio 2019 | Non più supportato |
 | Maggio 2019 | 22 maggio 2019 | 22 maggio 2020 |
 | Settembre 2019 | Settembre 2019 | Settembre 2020 
+| Gennaio 2020 | Gennaio 2020 | Gennaio 2021
 
 Per scaricare il server di report di Power BI e Power BI Desktop ottimizzati per il server di report di Power BI, visitare [Creazione di report in locale con il server di report di Power BI](https://powerbi.microsoft.com/report-server/).
 

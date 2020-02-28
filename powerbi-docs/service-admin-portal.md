@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819584"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427876"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Amministrazione di Power BI nel portale di amministrazione
 
@@ -233,14 +233,14 @@ Gli utenti possono vedere opzioni diverse nell'interfaccia utente in base all'im
 
 ### <a name="export-data"></a>Esporta dati
 
-Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. [Altre informazioni](visuals/power-bi-visualization-export-data.md)
+Gli utenti dell'organizzazione possono esportare dati da un riquadro o una visualizzazione. Vedere altre informazioni sull'[esportazione di dati da un riquadro o da un oggetto visivo](visuals/power-bi-visualization-export-data.md).
 
 La figura seguente mostra l'opzione per esportare i dati da un riquadro.
 
 ![Esportare dati da un riquadro](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> Se si disabilita **Esporta dati**, si impedisce anche agli utenti di usare la funzionalità **Analizza in Excel** oltre alla connessione dinamica al servizio Power BI.
+> Se si disabilita **Esporta dati**, si impedisce anche agli utenti di usare la funzionalità [Analizza in Excel](service-analyze-in-excel.md) oltre alla connessione dinamica al servizio Power BI.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Esporta report come presentazioni di PowerPoint o documenti PDF
 

@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852022"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496504"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Aggiungere commenti a un dashboard o un report
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Aggiungere un commento personale o avviare una conversazione su un dashboard o un report con i colleghi. La funzionalità di **commento** è solo uno dei modi in cui un *utente* può collaborare con altri. 
 
 ![video sui commenti](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> Per collaborare con altri utenti, aggiungendo anche commenti ai report condivisi, è necessario avere una licenza di Power BI Pro o Premium. [Quali tipi di licenza sono disponibili?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>Come usare la funzionalità Commenti
 I commenti possono essere aggiunti a un intero dashboard, a singoli oggetti visivi in un dashboard, a una pagina di un report, a un report impaginato e a singoli oggetti visivi in una pagina di un report. Aggiungere un commento generale o un commento mirato destinato a colleghi specifici.  
@@ -34,7 +39,7 @@ Quando si aggiunge un commento a un report, Power BI acquisisce i valori di filt
 
 Perché è importante? Si immagini che un collega abbia applicato un filtro che ha rivelato interessanti informazioni dettagliate che vuole condividere con il team. Senza tale filtro selezionato, il commento potrebbe non avere senso.
 
-Se si usa un report impaginato, è possibile lasciare solo un commento generale sul report.  Il supporto per lasciare commenti sui singoli oggetti visivi del report non è disponibile.
+Se si usa un report impaginato, è possibile lasciare solo un commento generale sul report.  Il supporto per lasciare commenti sui singoli oggetti visivi del report impaginato non è disponibile.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Aggiungere un commento generale a un dashboard o un report
 Il processo per l'aggiunta di commenti a un dashboard o a un report è simile.  In questo esempio viene usato un dashboard. 

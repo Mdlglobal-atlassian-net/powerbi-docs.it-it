@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954149"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427807"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Aggiungere i collegamenti ipertestuali (URL) a una tabella o una matrice
 Questo argomento illustra come aggiungere i collegamenti ipertestuali (URL) a una tabella. Per aggiungere i collegamenti ipertestuali (URL) a un set di dati, usare Power BI Desktop. Con Power BI Desktop o il servizio Power BI è possibile aggiungere tali collegamenti ipertestuali alle tabelle e alle matrici dei report. È poi possibile visualizzare l'URL o un'icona del collegamento oppure formattare un'altra colonna come testo del collegamento.
@@ -34,7 +34,7 @@ Con il servizio Power BI e Power BI Desktop è anche possibile creare i collegam
     > [!NOTE]
     > Non è possibile creare una colonna in modalità DirectQuery.  Se tuttavia i dati contengono già gli URL, è possibile attivarli nei collegamenti ipertestuali.
 
-2. In Vista dati selezionare la colonna. 
+2. Nella visualizzazione Dati o Report selezionare la colonna. 
 
 3. Nella scheda **Creazione di modelli** selezionare **Categoria di dati** > **URL Web**.
    
@@ -79,13 +79,20 @@ Se non si vuole visualizzare un URL lungo in una tabella, è possibile visualizz
 
 1. Se un campo con un collegamento ipertestuale non esiste già nel set di dati, aggiungerlo come [colonna personalizzata](desktop-common-query-tasks.md) in Power BI Desktop. Anche in questo caso non è possibile creare una colonna in modalità DirectQuery.  Se tuttavia i dati contengono già gli URL, è possibile attivarli nei collegamenti ipertestuali.
 
-2. Nella vista Report creare una tabella o una matrice con la colonna che si vuole formattare come testo del collegamento.
+2. Nella visualizzazione Dati o Report selezionare la colonna contenente l'URL. 
+
+3. Nella scheda **Creazione di modelli** selezionare **Categoria di dati**. Verificare che la colonna sia formattata come **Non classificato**.
+
+2. Nella visualizzazione Report creare una tabella o una matrice con la colonna dell'URL e la colonna che si vuole formattare come testo del collegamento.
 
 3. Dopo aver selezionato la tabella, selezionare l'icona **Formato** ![icona del rullo](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) per aprire la scheda Formattazione.
 
-4. Espandere **Formattazione condizionale** assicurandosi che il nome nella casella corrisponda alla colonna che si vuole come testo del collegamento. Trovare **Icona URL** e **attivarla**.
+4. Espandere **Formattazione condizionale** assicurandosi che il nome nella casella corrisponda alla colonna che si vuole come testo del collegamento. Trovare **URL Web** e **attivare** l'opzione.
 
     ![URL Web della formattazione condizionale](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > Se non viene visualizzata un'opzione **URL Web**, assicurarsi che la colonna contenente i collegamenti ipertestuali *non* sia formattata come **URL Web** nella casella a discesa **Categoria di dati**.
 
 5. Nella finestra di dialogo **URL Web** selezionare il campo che contiene l'URL nella casella **In base al campo** > **OK**.
 
