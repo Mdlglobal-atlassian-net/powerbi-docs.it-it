@@ -69,11 +69,11 @@ Per visualizzare le linee di riferimento dinamiche disponibili per un oggetto vi
 
     ![Impostazioni Etichetta dati, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_5.png)
 
-5. Notare il numero visualizzato accanto all'elemento **Linea media** nel riquadro **Analisi**. Questo numero indica quante linee dinamiche sono attualmente presenti nell'oggetto visivo e di che tipo sono. Se si aggiunge una **Linea massima** per **Affordability** il riquadro **Analisi** ora visualizza anche una linea di riferimento dinamica **Linea massima** applicata a questo oggetto visivo.
+5. Notare il numero visualizzato accanto all'elemento **Linea media** nel riquadro **Analisi**. Questo numero indica quante linee dinamiche sono attualmente presenti nell'oggetto visivo e di che tipo sono. Se si aggiunge una **Linea massima** per **Affordability**, il riquadro **Analisi** ora visualizza anche una linea di riferimento dinamica **Linea massima** applicata a questo oggetto visivo.
 
     ![Totali Linea massima e Linea media, riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_6.png)
 
-Se non è possibile applicare linee di riferimento dinamiche all'oggetto visivo selezionato (in questo caso un oggetto visivo **Mappa**) quando si seleziona il riquadro **Analisi** viene visualizzato il messaggio seguente.
+Se non è possibile applicare linee di riferimento dinamiche all'oggetto visivo selezionato (in questo caso un oggetto visivo **Mappa**), quando si seleziona il riquadro **Analisi** viene visualizzato il messaggio seguente.
 
 ![Analisi non disponibile per oggetto visivo Mappa, Riquadro Analisi, Visualizzazioni, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_7.png)
 
