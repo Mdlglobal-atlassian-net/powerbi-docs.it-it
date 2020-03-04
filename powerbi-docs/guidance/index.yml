@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 28fc951ecdfdf31b7319047caae2b5807aadf704
-  ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+  ms.openlocfilehash: 9bb2835003d774bcc878114dbcc669a0bff7ff89
+  ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
   ms.translationtype: HT
   ms.contentlocale: it-IT
-  ms.lasthandoff: 02/26/2020
-  ms.locfileid: "77609749"
+  ms.lasthandoff: 03/03/2020
+  ms.locfileid: "78237777"
 landingContent:
 - title: Linee guida per Power BI
   linkLists:
@@ -85,6 +85,16 @@ landingContent:
       url: report-page-tooltips.md
     - text: Usare il drill-through nelle pagine dei report
       url: report-drillthrough.md
+    - text: Suggerimenti per gestire gli assi
+      url: report-design-tips-axes.md
+    - text: Suggerimenti per controllare le griglie del grafico
+      url: report-tips-chart-gridlines.md
+    - text: Suggerimenti per ottimizzare l'uso delle etichette
+      url: report-tips-labels.md
+    - text: Suggerimenti per formattare e implementare le legende
+      url: report-tips-legends.md
+    - text: Suggerimenti per ottimizzare i colori degli oggetti visivi
+      url: report-tips-visual-colors.md
 - title: Report impaginati di Power BI
   linkLists:
   - linkListType: concept

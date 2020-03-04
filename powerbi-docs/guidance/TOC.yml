@@ -60,6 +60,16 @@
               href: report-page-tooltips.md
             - name: Usare il drill-through nelle pagine dei report
               href: report-drillthrough.md
+            - name: Suggerimenti per gestire gli assi
+              href: report-design-tips-axes.md
+            - name: Suggerimenti per controllare le griglie del grafico
+              href: report-tips-chart-gridlines.md
+            - name: Suggerimenti per ottimizzare l'uso delle etichette
+              href: report-tips-labels.md
+            - name: Suggerimenti per formattare e implementare le legende
+              href: report-tips-legends.md
+            - name: Suggerimenti per ottimizzare i colori degli oggetti visivi
+              href: report-tips-visual-colors.md
         - name: Report impaginati di Power BI
           items:
             - name: Quando usare report impaginati
